@@ -1,0 +1,141 @@
+import { Country } from '@/types';
+
+export const bulgaria: Country = {
+  id: 'bulgaria',
+  name: 'Bulgaria',
+  code: 'BG',
+  continent: 'Europe',
+  flag: '🇧🇬',
+  landscapeImage: 'https://images.unsplash.com/photo-1565025313876-b86c5f31e3b9?w=800',
+  description: 'Bulgaria is a Balkan nation with diverse terrain encompassing Black Sea coastline, mountains, and rivers. Known for its rich history spanning from ancient Thracian ruins to Ottoman mosques, Bulgaria offers a unique blend of Eastern and Western cultures.',
+  quickFacts: [
+    { label: 'Capital', value: 'Sofia' },
+    { label: 'Population', value: '6.9 million' },
+    { label: 'Official Language', value: 'Bulgarian' },
+    { label: 'Currency', value: 'Bulgarian Lev (лв)' },
+    { label: 'Area', value: '110,994 km²' },
+  ],
+  facts: [
+    'Bulgaria is one of the oldest countries in Europe, founded in 681 AD',
+    'Bulgarians shake their heads for "yes" and nod for "no" - opposite to most countries',
+    'Bulgaria is the world\'s leading producer of rose oil, used in perfumes',
+    'The Cyrillic alphabet was created in Bulgaria in the 9th century',
+    'Bulgaria has 9 UNESCO World Heritage Sites',
+    'Bulgarian yogurt is famous worldwide for its unique bacterial culture',
+    'The country has over 500 mineral springs',
+    'Ancient Thracians, who inhabited Bulgaria, were master goldsmiths',
+  ],
+  foodCulture: 'Bulgarian cuisine is characterized by fresh vegetables, dairy products (especially yogurt and white cheese), and grilled meats. Shopska salad and banitsa are iconic dishes. Food is often flavored with herbs and accompanied by Bulgarian yogurt, a source of national pride.',
+  history: [
+    {
+      year: '681 AD',
+      title: 'First Bulgarian Empire',
+      description: 'Khan Asparuh founded the First Bulgarian Empire, one of the oldest states in Europe still existing today.'
+    },
+    {
+      year: '9th century',
+      title: 'Cyrillic Alphabet',
+      description: 'Saints Cyril and Methodius created the Glagolitic alphabet, which evolved into Cyrillic, used by many Slavic nations today.'
+    },
+    {
+      year: '1396',
+      title: 'Ottoman Rule Begins',
+      description: 'Bulgaria fell under Ottoman rule for nearly 500 years, profoundly influencing its culture and cuisine.'
+    },
+    {
+      year: '1878',
+      title: 'Liberation from Ottoman Rule',
+      description: 'Bulgaria regained independence after the Russo-Turkish War, celebrated annually on March 3rd.'
+    },
+    {
+      year: '1944',
+      title: 'Communist Era',
+      description: 'Bulgaria became a communist state, lasting until 1989.'
+    },
+    {
+      year: '2007',
+      title: 'EU Membership',
+      description: 'Bulgaria joined the European Union, opening new opportunities for economic development.'
+    },
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'EU citizens visa-free. Many nationalities can visit up to 90 days without visa.' },
+    { item: 'Best time to visit', description: 'May to September for beach; December to March for skiing' },
+    { item: 'Transportation', description: 'Buses connect cities, trains available but slower, taxis affordable' },
+    { item: 'Language', description: 'Bulgarian (Cyrillic script). Russian understood, English in tourist areas.' },
+    { item: 'Safety', description: 'Very safe country. Bulgarians are hospitable and friendly.' },
+  ],
+  mainDish: {
+    id: 'bulgaria-banitsa',
+    name: 'Banitsa',
+    description: 'Traditional Bulgarian pastry made with layers of filo dough filled with a mixture of eggs, white cheese, and yogurt. Often eaten for breakfast or as a snack.',
+    cookingTime: 60,
+    servings: 8,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Filo pastry sheets', amount: 500, unit: 'g' },
+      { name: 'White cheese (sirene)', amount: 400, unit: 'g' },
+      { name: 'Eggs', amount: 4, unit: 'pieces' },
+      { name: 'Bulgarian yogurt', amount: 250, unit: 'ml' },
+      { name: 'Butter', amount: 150, unit: 'g' },
+      { name: 'Sparkling water', amount: 100, unit: 'ml' },
+      { name: 'Baking soda', amount: 0.5, unit: 'tsp' },
+      { name: 'Salt', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Preheat oven to 180°C (350°F)',
+      'Crumble white cheese into a bowl',
+      'Beat eggs with yogurt, add cheese and mix well',
+      'Melt butter',
+      'Brush baking pan with butter',
+      'Layer filo sheets, brushing each with melted butter',
+      'Spread cheese mixture over filo',
+      'Continue layering and buttering filo sheets',
+      'Mix sparkling water with baking soda and pour over top',
+      'Score the top into serving pieces',
+      'Bake for 40-45 minutes until golden brown',
+      'Let cool slightly before serving',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
+  },
+  drinks: {
+    alcoholic: 'Rakia (fruit brandy), Bulgarian wine, Mastika (anise drink)',
+    nonAlcoholic: 'Boza (fermented wheat drink), Bulgarian yogurt drink (ayran), Mint tea',
+  },
+  music: ['Bulgarian folk music', 'Chalga (pop-folk)', 'Traditional choral songs', 'Horo dance music'],
+  decorationIdeas: [
+    'White, green, and red (Bulgarian flag colors)',
+    'Rose motifs (Bulgaria is famous for roses)',
+    'Traditional embroidered textiles',
+    'Martenitsa (red and white tassels)',
+    'Clay pottery and ceramics',
+    'Orthodox icons and church elements',
+  ],
+  conversationStarters: [
+    'Did you know Bulgarians nod for "no" and shake heads for "yes"?',
+    'Have you tried authentic Bulgarian yogurt? It\'s world-famous!',
+    'Would you prefer the Black Sea coast or the mountains?',
+    'What do you think about the Cyrillic alphabet?',
+  ],
+  quiz: [
+    {
+      id: 'bulgaria-q1',
+      question: 'What is Bulgaria\'s capital city?',
+      options: ['Plovdiv', 'Varna', 'Sofia', 'Burgas'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bulgaria-q2',
+      question: 'What alphabet was created in Bulgaria?',
+      options: ['Latin', 'Greek', 'Cyrillic', 'Arabic'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bulgaria-q3',
+      question: 'What is the traditional Bulgarian pastry with cheese called?',
+      options: ['Börek', 'Banitsa', 'Spanakopita', 'Burek'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 53, y: 43 },
+};

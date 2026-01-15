@@ -1,0 +1,135 @@
+import { Country } from '@/types';
+
+export const malaysia: Country = {
+  id: 'malaysia',
+  name: 'Malaysia',
+  code: 'MY',
+  continent: 'Asia',
+  flag: '🇲🇾',
+  landscapeImage: 'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800',
+  description: 'Malaysia is a diverse Southeast Asian nation known for its multicultural society, pristine rainforests, beautiful beaches, modern cities, and incredible food scene blending Malay, Chinese, and Indian influences.',
+  quickFacts: [
+    { label: 'Capital', value: 'Kuala Lumpur' },
+    { label: 'Population', value: '33 million' },
+    { label: 'Official Language', value: 'Malay' },
+    { label: 'Currency', value: 'Malaysian Ringgit (MYR)' },
+    { label: 'Area', value: '330,803 km²' },
+  ],
+  facts: [
+    'Malaysia is home to the world\'s oldest rainforests (130 million years)',
+    'The Petronas Twin Towers were the world\'s tallest buildings until 2004',
+    'Malaysia is one of the world\'s most biodiverse countries',
+    'Penang is known as the food capital of Malaysia',
+    'The country is made up of Peninsular Malaysia and Malaysian Borneo',
+    'The Rafflesia, the world\'s largest flower, grows in Malaysia',
+    'Malaysia is a federal constitutional monarchy',
+    'Home to orangutans found only in Borneo',
+  ],
+  foodCulture: 'Malaysian cuisine is a harmonious blend of Malay, Chinese, Indian, and indigenous influences. Nasi lemak, satay, and laksa are iconic. Street food and hawker culture are integral to daily life.',
+  history: [
+    {
+      year: '1400s',
+      title: 'Malacca Sultanate',
+      description: 'The powerful Malacca Sultanate established Islam and trade dominance in the region.'
+    },
+    {
+      year: '1511',
+      title: 'Portuguese Conquest',
+      description: 'Portugal conquered Malacca, beginning centuries of European colonial interest.'
+    },
+    {
+      year: '1824-1957',
+      title: 'British Rule',
+      description: 'Britain gradually took control of Malaya, bringing together various territories.'
+    },
+    {
+      year: '1957',
+      title: 'Independence',
+      description: 'Malaya gained independence from Britain.'
+    },
+    {
+      year: '1963',
+      title: 'Malaysia Formed',
+      description: 'Malaysia was formed by uniting Malaya, Singapore, Sabah, and Sarawak.'
+    },
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'Year-round destination. December-February generally best.' },
+    { item: 'Visa', description: 'Visa-free entry for many nationalities for 90 days.' },
+    { item: 'Transportation', description: 'Excellent transport system. Trains, buses, budget airlines.' },
+    { item: 'Language', description: 'Malay. English widely spoken in cities.' },
+    { item: 'Safety', description: 'Very safe. Standard precautions in cities.' },
+  ],
+  mainDish: {
+    id: 'malaysia-nasi-lemak',
+    name: 'Nasi Lemak',
+    description: 'Malaysia\'s national dish - fragrant coconut rice served with sambal, anchovies, peanuts, and egg',
+    cookingTime: 45,
+    servings: 4,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'Jasmine rice', amount: 400, unit: 'g' },
+      { name: 'Coconut milk', amount: 300, unit: 'ml' },
+      { name: 'Pandan leaves', amount: 3, unit: 'pieces' },
+      { name: 'Dried anchovies (ikan bilis)', amount: 100, unit: 'g' },
+      { name: 'Roasted peanuts', amount: 100, unit: 'g' },
+      { name: 'Eggs', amount: 4, unit: 'pieces' },
+      { name: 'Cucumber', amount: 1, unit: 'piece' },
+      { name: 'Sambal (chili paste)', amount: 150, unit: 'g' },
+      { name: 'Ginger', amount: 2, unit: 'cm piece' },
+    ],
+    steps: [
+      'Wash rice and drain',
+      'Cook rice with coconut milk, water, pandan leaves, and ginger',
+      'Let rice steam until fluffy and fragrant',
+      'Fry dried anchovies until crispy, drain on paper',
+      'Hard-boil eggs and slice in half',
+      'Slice cucumber thinly',
+      'Prepare or buy sambal (spicy chili paste)',
+      'Serve rice on a banana leaf or plate',
+      'Arrange anchovies, peanuts, cucumber, and egg around rice',
+      'Add a generous spoonful of sambal on the side',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600',
+  },
+  drinks: {
+    alcoholic: 'Beer (Tiger, Carlsberg), Tuak (rice wine)',
+    nonAlcoholic: 'Teh tarik (pulled tea), Milo, Fresh coconut water, Cendol',
+  },
+  music: ['Traditional Malay music', 'Gamelan', 'Chinese and Indian influences', 'Modern Malaysian pop'],
+  decorationIdeas: [
+    'Red, yellow, blue, and white (Malaysian flag colors)',
+    'Hibiscus flowers (national flower)',
+    'Batik patterns',
+    'Petronas Twin Towers imagery',
+    'Wau (traditional kite) designs',
+    'Tropical jungle themes',
+  ],
+  conversationStarters: [
+    'Have you been to the Petronas Twin Towers? The view is amazing!',
+    'Malaysian food is incredible - so many flavors!',
+    'Borneo\'s rainforests and orangutans are spectacular!',
+    'Penang is a UNESCO site known for street food - would you visit?',
+  ],
+  quiz: [
+    {
+      id: 'malaysia-q1',
+      question: 'What is Malaysia\'s capital city?',
+      options: ['Penang', 'Malacca', 'Kuala Lumpur', 'Johor Bahru'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'malaysia-q2',
+      question: 'What is Malaysia\'s national dish?',
+      options: ['Satay', 'Rendang', 'Nasi Lemak', 'Laksa'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'malaysia-q3',
+      question: 'What famous twin towers are in Kuala Lumpur?',
+      options: ['Willis Towers', 'Petronas Towers', 'World Trade Center', 'Burj Towers'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 77, y: 20 },
+};

@@ -1,0 +1,128 @@
+import { Country } from '@/types';
+
+export const bahamas: Country = {
+  id: 'bahamas',
+  name: 'Bahamas',
+  code: 'BS',
+  continent: 'North America',
+  flag: '🇧🇸',
+  landscapeImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800',
+  description: 'The Bahamas is an archipelago of over 700 islands in the Atlantic Ocean, known for its crystal-clear turquoise waters, white sandy beaches, and vibrant marine life. It\'s a paradise for beach lovers and water sports enthusiasts.',
+  quickFacts: [
+    { label: 'Capital', value: 'Nassau' },
+    { label: 'Population', value: '393,000' },
+    { label: 'Official Language', value: 'English' },
+    { label: 'Currency', value: 'Bahamian Dollar (BSD)' },
+    { label: 'Area', value: '13,878 km²' },
+  ],
+  facts: [
+    'The Bahamas has some of the clearest water in the world',
+    'There are over 700 islands, but only 30 are inhabited',
+    'Home to the famous swimming pigs of Exuma',
+    'The country has the third-largest barrier reef in the world',
+    'Nassau\'s Junkanoo festival is a vibrant cultural celebration',
+    'Pirates of the Caribbean was filmed in the Bahamas',
+    'The blue holes attract divers from around the world',
+    'Christopher Columbus first landed in the New World in the Bahamas in 1492',
+  ],
+  foodCulture: 'Bahamian cuisine features fresh seafood, especially conch, which is prepared in numerous ways. The food reflects African, British, and American influences. Meals are often enjoyed outdoors with a relaxed island vibe, accompanied by tropical cocktails and fresh fruit.',
+  history: [
+    {
+      year: '1492',
+      title: 'Columbus Arrival',
+      description: 'Christopher Columbus made his first landfall in the New World on the island of San Salvador in the Bahamas.'
+    },
+    {
+      year: '1600s-1700s',
+      title: 'Pirate Haven',
+      description: 'Nassau became a notorious pirate stronghold, home to famous pirates like Blackbeard and Calico Jack.'
+    },
+    {
+      year: '1718',
+      title: 'British Crown Colony',
+      description: 'The Bahamas officially became a British Crown Colony, ending the era of pirate rule.'
+    },
+    {
+      year: '1973',
+      title: 'Independence',
+      description: 'The Bahamas gained independence from the United Kingdom while remaining a member of the Commonwealth.'
+    },
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Many nationalities can visit visa-free for up to 90 days for tourism.' },
+    { item: 'Best time to visit', description: 'December to April for dry season; avoid September-November (hurricane season)' },
+    { item: 'Transportation', description: 'Ferries between islands, domestic flights, taxis, and rental cars.' },
+    { item: 'Language', description: 'English is the official language. Bahamian Creole is also spoken.' },
+    { item: 'Safety', description: 'Generally safe for tourists. Exercise caution in Nassau after dark.' },
+  ],
+  mainDish: {
+    id: 'bahamas-conch-salad',
+    name: 'Conch Salad',
+    description: 'The Bahamas\' signature dish - fresh raw conch mixed with diced vegetables, citrus juices, and hot peppers. It\'s refreshing, zesty, and typically served as an appetizer or light meal.',
+    cookingTime: 20,
+    servings: 4,
+    dietType: 'fish',
+    ingredients: [
+      { name: 'Fresh conch, diced', amount: 500, unit: 'g' },
+      { name: 'Tomatoes, diced', amount: 2, unit: 'pieces' },
+      { name: 'Bell peppers, diced', amount: 2, unit: 'pieces' },
+      { name: 'Onion, diced', amount: 1, unit: 'piece' },
+      { name: 'Lime juice', amount: 100, unit: 'ml' },
+      { name: 'Orange juice', amount: 50, unit: 'ml' },
+      { name: 'Scotch bonnet pepper, minced', amount: 1, unit: 'piece' },
+      { name: 'Cilantro, chopped', amount: 3, unit: 'tbsp' },
+      { name: 'Salt', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Clean and tenderize fresh conch by pounding it',
+      'Dice conch into small pieces',
+      'Combine diced conch with tomatoes, peppers, and onion in a bowl',
+      'Add lime juice and orange juice',
+      'Mix in minced scotch bonnet pepper (adjust to taste)',
+      'Add chopped cilantro and salt',
+      'Let marinate for 10-15 minutes in refrigerator',
+      'Serve immediately in small bowls or cups',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1559847844-5315695dadae?w=600',
+  },
+  drinks: {
+    alcoholic: 'Bahama Mama cocktail, Goombay Smash, Kalik beer, Rum punch',
+    nonAlcoholic: 'Coconut water, Sky Juice (coconut water with gin and milk), Fresh fruit juices',
+  },
+  music: ['Rake and Scrape', 'Junkanoo music', 'Calypso', 'Reggae', 'Soca'],
+  decorationIdeas: [
+    'Turquoise and aqua color scheme',
+    'Seashells and starfish',
+    'Palm fronds and tropical flowers',
+    'Fishing nets as decor',
+    'Beach-themed centerpieces',
+    'Coral and sand elements',
+  ],
+  conversationStarters: [
+    'Have you ever seen the famous swimming pigs of Exuma?',
+    'What\'s your dream water activity: snorkeling, diving, or swimming with dolphins?',
+    'Would you prefer exploring underwater caves or relaxing on a private beach?',
+    'Have you tried conch? How would you prepare it?',
+  ],
+  quiz: [
+    {
+      id: 'bahamas-q1',
+      question: 'What is the capital of the Bahamas?',
+      options: ['Kingston', 'Nassau', 'Havana', 'Bridgetown'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahamas-q2',
+      question: 'What sea creature is the Bahamas famous for serving?',
+      options: ['Lobster', 'Conch', 'Tuna', 'Shrimp'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahamas-q3',
+      question: 'Which famous explorer first landed in the Bahamas?',
+      options: ['Marco Polo', 'Vasco da Gama', 'Christopher Columbus', 'Ferdinand Magellan'],
+      correctAnswer: 2,
+    },
+  ],
+  coordinates: { x: 23, y: 33 },
+};

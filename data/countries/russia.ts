@@ -1,0 +1,139 @@
+import { Country } from '@/types';
+
+export const russia: Country = {
+  id: 'russia',
+  name: 'Russia',
+  code: 'RU',
+  continent: 'Europe/Asia',
+  flag: '🇷🇺',
+  landscapeImage: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800',
+  description: 'Russia is the world\'s largest country, spanning eleven time zones and encompassing a vast array of landscapes and cultures. From the historic cities of Moscow and St. Petersburg to the wilderness of Siberia, Russia offers incredible diversity.',
+  quickFacts: [
+    { label: 'Capital', value: 'Moscow' },
+    { label: 'Population', value: '146 million' },
+    { label: 'Official Language', value: 'Russian' },
+    { label: 'Currency', value: 'Russian Ruble (₽)' },
+    { label: 'Area', value: '17,098,242 km²' },
+  ],
+  facts: [
+    'Russia is the largest country in the world, covering more than one-eighth of Earth\'s inhabited land area',
+    'The Trans-Siberian Railway is the longest railway line in the world at 9,289 kilometers',
+    'Russia has 11 time zones, the most of any country',
+    'Lake Baikal in Siberia is the world\'s deepest and oldest freshwater lake',
+    'Russian is the most widely spoken Slavic language',
+    'The Hermitage Museum in St. Petersburg houses over 3 million works of art',
+    'Russia is home to 23 UNESCO World Heritage Sites',
+    'The country produces about 10 million barrels of oil per day',
+  ],
+  foodCulture: 'Russian cuisine is hearty and filling, designed to warm people during long, cold winters. It features abundant use of potatoes, bread, meat, fish, mushrooms, and berries. Meals are often accompanied by tea or vodka, and hospitality is deeply rooted in Russian culture.',
+  history: [
+    {
+      year: '862',
+      title: 'Founding of Rus',
+      description: 'The Varangian prince Rurik established the first East Slavic state, known as Kievan Rus.'
+    },
+    {
+      year: '1547',
+      title: 'Russian Tsardom',
+      description: 'Ivan the Terrible became the first Tsar of Russia, marking the beginning of the Russian Empire.'
+    },
+    {
+      year: '1703',
+      title: 'St. Petersburg Founded',
+      description: 'Peter the Great founded St. Petersburg as Russia\'s "window to Europe" and made it the capital.'
+    },
+    {
+      year: '1917',
+      title: 'Russian Revolution',
+      description: 'The Bolshevik Revolution overthrew the tsarist regime and led to the formation of the Soviet Union.'
+    },
+    {
+      year: '1991',
+      title: 'Soviet Union Dissolves',
+      description: 'The USSR collapsed, and Russia emerged as an independent nation.'
+    },
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Most visitors need a visa. E-visa available for certain regions for some nationalities.' },
+    { item: 'Best time to visit', description: 'May to September for warm weather; December to February for winter experiences' },
+    { item: 'Transportation', description: 'Extensive metro systems in major cities, trains for long distances, domestic flights' },
+    { item: 'Language', description: 'Russian. Learn Cyrillic alphabet basics. English limited outside major cities.' },
+    { item: 'Safety', description: 'Generally safe in tourist areas. Keep documents secure at all times.' },
+  ],
+  mainDish: {
+    id: 'russia-borscht',
+    name: 'Borscht',
+    description: 'Traditional beetroot soup that\'s a staple of Russian cuisine. Rich, hearty, and vibrant red in color, typically served with sour cream and dark bread.',
+    cookingTime: 90,
+    servings: 6,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'Beef with bone', amount: 500, unit: 'g' },
+      { name: 'Beetroots', amount: 3, unit: 'pieces' },
+      { name: 'Cabbage', amount: 300, unit: 'g' },
+      { name: 'Potatoes', amount: 3, unit: 'pieces' },
+      { name: 'Carrots', amount: 2, unit: 'pieces' },
+      { name: 'Onion', amount: 1, unit: 'piece' },
+      { name: 'Tomato paste', amount: 2, unit: 'tbsp' },
+      { name: 'Garlic', amount: 3, unit: 'cloves' },
+      { name: 'Bay leaves', amount: 2, unit: 'pieces' },
+      { name: 'Sour cream', amount: 200, unit: 'ml' },
+      { name: 'Fresh dill', amount: 1, unit: 'bunch' },
+    ],
+    steps: [
+      'Boil beef in 2.5 liters of water for 1.5 hours to make broth',
+      'Peel and grate beetroots and carrots',
+      'Dice onion, potatoes, and cabbage',
+      'Remove meat from broth, cut into pieces',
+      'Add potatoes to broth, cook 10 minutes',
+      'Sauté onion, add carrots and beetroot, cook 10 minutes',
+      'Add tomato paste to vegetables, cook 5 minutes',
+      'Add sautéed vegetables and cabbage to broth',
+      'Season with salt, pepper, and bay leaves',
+      'Simmer 20 minutes, add crushed garlic',
+      'Return meat to soup, add dill',
+      'Serve hot with a dollop of sour cream',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1604908815872-b0b297e2f59d?w=600',
+  },
+  drinks: {
+    alcoholic: 'Vodka (national drink), Kvas (fermented bread drink), Medovukha (honey wine)',
+    nonAlcoholic: 'Black tea with lemon, Mors (berry drink), Kompot (fruit punch)',
+  },
+  music: ['Classical music (Tchaikovsky, Rachmaninoff)', 'Russian folk songs', 'Balalaika music', 'Red Army Choir'],
+  decorationIdeas: [
+    'Red and gold color scheme',
+    'Matryoshka dolls (Russian nesting dolls)',
+    'Samovars (traditional tea urns)',
+    'Fabergé egg replicas',
+    'White and blue Gzhel pottery patterns',
+    'Orthodox church motifs',
+  ],
+  conversationStarters: [
+    'Have you ever experienced a Russian winter? What would you do to stay warm?',
+    'What do you know about Russian literature - Tolstoy, Dostoevsky, or Pushkin?',
+    'Would you ride the Trans-Siberian Railway? Where would you stop?',
+    'Have you tried authentic Russian cuisine? What\'s your favorite dish?',
+  ],
+  quiz: [
+    {
+      id: 'russia-q1',
+      question: 'What is Russia\'s capital city?',
+      options: ['St. Petersburg', 'Moscow', 'Kazan', 'Novosibirsk'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'russia-q2',
+      question: 'Which is the deepest lake in the world, located in Russia?',
+      options: ['Lake Superior', 'Lake Baikal', 'Caspian Sea', 'Lake Ladoga'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'russia-q3',
+      question: 'What is the traditional Russian beetroot soup called?',
+      options: ['Pelmeni', 'Borscht', 'Blini', 'Shchi'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 60, y: 60 },
+};

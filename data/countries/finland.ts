@@ -1,0 +1,138 @@
+import { Country } from '@/types';
+
+export const finland: Country = {
+  id: 'finland',
+  name: 'Finland',
+  code: 'FI',
+  continent: 'Europe',
+  flag: '🇫🇮',
+  landscapeImage: 'https://images.unsplash.com/photo-1517639493569-5666a7b2f494?w=800',
+  description: 'Finland is a Nordic country known for its stunning natural landscapes, thousands of lakes, the Northern Lights, and exceptional quality of life. From saunas to design, education to nature, Finland represents a harmonious blend of modernity and tradition.',
+  quickFacts: [
+    { label: 'Capital', value: 'Helsinki' },
+    { label: 'Population', value: '5.5 million' },
+    { label: 'Official Languages', value: 'Finnish, Swedish' },
+    { label: 'Currency', value: 'Euro (€)' },
+    { label: 'Area', value: '338,455 km²' },
+  ],
+  facts: [
+    'Finland has 188,000 lakes - more lakes per capita than any other country',
+    'The country is consistently ranked as one of the happiest in the world',
+    'Santa Claus officially lives in Finnish Lapland',
+    'Finland has more saunas than cars - about 3 million saunas',
+    'The Northern Lights are visible in Lapland for about 200 nights a year',
+    'Finland has one of the best education systems in the world',
+    'The midnight sun is visible in summer above the Arctic Circle',
+    'Heavy metal music is extremely popular - more bands per capita than anywhere',
+  ],
+  foodCulture: 'Finnish cuisine emphasizes fresh, local, and seasonal ingredients from forests, lakes, and the sea. Berry picking, mushroom foraging, and fishing are part of the culture. Food is simple but high-quality, reflecting the Finnish appreciation for nature and purity.',
+  history: [
+    {
+      year: '1155',
+      title: 'Swedish Rule Begins',
+      description: 'Sweden gradually incorporated Finland into its realm through crusades, beginning centuries of Swedish influence.'
+    },
+    {
+      year: '1809',
+      title: 'Russian Grand Duchy',
+      description: 'Finland became an autonomous Grand Duchy of the Russian Empire after Sweden ceded it in the Finnish War.'
+    },
+    {
+      year: '1917',
+      title: 'Independence',
+      description: 'Finland declared independence from Russia during the turmoil of the Russian Revolution.'
+    },
+    {
+      year: '1939-1940',
+      title: 'Winter War',
+      description: 'Finland fought against Soviet invasion, maintaining independence despite being vastly outnumbered.'
+    },
+    {
+      year: '1995',
+      title: 'EU Membership',
+      description: 'Finland joined the European Union, integrating more closely with Western Europe.'
+    },
+    {
+      year: '2023',
+      title: 'NATO Membership',
+      description: 'Finland joined NATO, marking a significant shift in its defense policy.'
+    },
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Schengen visa rules apply. Many nationalities can visit visa-free for up to 90 days.' },
+    { item: 'Best time to visit', description: 'June to August for midnight sun; December to March for winter activities and Northern Lights' },
+    { item: 'Transportation', description: 'Excellent public transport, trains, buses. Rental cars for exploring countryside.' },
+    { item: 'Language', description: 'Finnish and Swedish official. English widely spoken.' },
+    { item: 'Safety', description: 'One of the safest countries in the world.' },
+  ],
+  mainDish: {
+    id: 'finland-salmon-soup',
+    name: 'Lohikeitto (Finnish Salmon Soup)',
+    description: 'Finland\'s comforting national dish - a creamy soup with fresh salmon, potatoes, carrots, leeks, and dill. Simple yet flavorful, it embodies Finnish cuisine\'s emphasis on high-quality, fresh ingredients. Perfect for cold Nordic days.',
+    cookingTime: 40,
+    servings: 6,
+    dietType: 'fish',
+    ingredients: [
+      { name: 'Fresh salmon fillets', amount: 600, unit: 'g' },
+      { name: 'Potatoes, diced', amount: 600, unit: 'g' },
+      { name: 'Carrots, sliced', amount: 2, unit: 'pieces' },
+      { name: 'Leek, sliced', amount: 1, unit: 'piece' },
+      { name: 'Fish or vegetable stock', amount: 1, unit: 'liter' },
+      { name: 'Heavy cream', amount: 300, unit: 'ml' },
+      { name: 'Fresh dill', amount: 4, unit: 'tbsp' },
+      { name: 'Butter', amount: 2, unit: 'tbsp' },
+    ],
+    steps: [
+      'Melt butter in a large pot and sauté leeks until soft',
+      'Add diced potatoes, sliced carrots, and stock',
+      'Bring to boil, then simmer for 10 minutes until vegetables are tender',
+      'Cut salmon into bite-sized chunks',
+      'Add salmon to pot and simmer gently for 5 minutes',
+      'Pour in heavy cream and heat through (don\'t boil)',
+      'Season with salt and white pepper',
+      'Add fresh dill just before serving',
+      'Serve hot with rye bread',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1553621043-f84eb3f2e8e4?w=600',
+  },
+  drinks: {
+    alcoholic: 'Koskenkorva vodka, Finnish long drinks, Sahti (traditional beer), Finnish liqueurs',
+    nonAlcoholic: 'Coffee (Finns drink the most coffee per capita), Berry juices, Milk',
+  },
+  music: ['Heavy metal', 'Classical music (Sibelius)', 'Folk music', 'Modern pop'],
+  decorationIdeas: [
+    'Blue and white (flag colors)',
+    'Marimekko patterns and textiles',
+    'Birch wood elements',
+    'Simple, minimalist Nordic design',
+    'Forest and nature motifs',
+    'Northern Lights imagery',
+  ],
+  conversationStarters: [
+    'Have you ever seen the Northern Lights? Would you visit Lapland?',
+    'What do you think makes Finland the happiest country in the world?',
+    'Have you experienced a Finnish sauna? What was it like?',
+    'Would you prefer summer\'s midnight sun or winter\'s snow activities?',
+  ],
+  quiz: [
+    {
+      id: 'finland-q1',
+      question: 'What is Finland\'s capital city?',
+      options: ['Stockholm', 'Oslo', 'Helsinki', 'Copenhagen'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'finland-q2',
+      question: 'How many lakes does Finland have?',
+      options: ['1,000', '18,000', '50,000', '188,000'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'finland-q3',
+      question: 'What is Finland\'s traditional salmon soup called?',
+      options: ['Gravlax', 'Lohikeitto', 'Räksmörgås', 'Kalakukko'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 52, y: 64 },
+};
