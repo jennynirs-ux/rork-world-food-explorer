@@ -77,6 +77,34 @@ import { singapore } from './countries/singapore';
 import { indonesia } from './countries/indonesia';
 import { philippines } from './countries/philippines';
 import { malaysia } from './countries/malaysia';
+import { tunisia } from './countries/tunisia';
+import { libya } from './countries/libya';
+import { sudan } from './countries/sudan';
+import { somalia } from './countries/somalia';
+import { tanzania } from './countries/tanzania';
+import { uganda } from './countries/uganda';
+import { rwanda } from './countries/rwanda';
+import { mozambique } from './countries/mozambique';
+import { zimbabwe } from './countries/zimbabwe';
+import { botswana } from './countries/botswana';
+import { namibia } from './countries/namibia';
+import { angola } from './countries/angola';
+import { zambia } from './countries/zambia';
+import { malawi } from './countries/malawi';
+import { madagascar } from './countries/madagascar';
+import { mauritius } from './countries/mauritius';
+import { seychelles } from './countries/seychelles';
+import { senegal } from './countries/senegal';
+import { coteDivoire } from './countries/cote-divoire';
+import { bhutan } from './countries/bhutan';
+import { myanmar } from './countries/myanmar';
+import { laos } from './countries/laos';
+import { cambodia } from './countries/cambodia';
+import { brunei } from './countries/brunei';
+import { eastTimor } from './countries/east-timor';
+import { venezuela } from './countries/venezuela';
+import { paraguay } from './countries/paraguay';
+import { uruguay } from './countries/uruguay';
 
 const generateCountryId = (name: string): string => {
   return name.toLowerCase()
@@ -218,25 +246,25 @@ export const countries: Country[] = [
   lithuania,
   malta,
   cyprus,
-  createPlaceholderCountry('Tunisia', 'TN', 'Africa', '🇹🇳', { x: 49, y: 36 }),
-  createPlaceholderCountry('Libya', 'LY', 'Africa', '🇱🇾', { x: 50, y: 32 }),
-  createPlaceholderCountry('Sudan', 'SD', 'Africa', '🇸🇩', { x: 53, y: 25 }),
-  createPlaceholderCountry('Somalia', 'SO', 'Africa', '🇸🇴', { x: 58, y: 18 }),
-  createPlaceholderCountry('Tanzania', 'TZ', 'Africa', '🇹🇿', { x: 56, y: 15 }),
-  createPlaceholderCountry('Uganda', 'UG', 'Africa', '🇺🇬', { x: 55, y: 20 }),
-  createPlaceholderCountry('Rwanda', 'RW', 'Africa', '🇷🇼', { x: 55, y: 18 }),
-  createPlaceholderCountry('Mozambique', 'MZ', 'Africa', '🇲🇿', { x: 56, y: 12 }),
-  createPlaceholderCountry('Zimbabwe', 'ZW', 'Africa', '🇿🇼', { x: 55, y: 12 }),
-  createPlaceholderCountry('Botswana', 'BW', 'Africa', '🇧🇼', { x: 53, y: 12 }),
-  createPlaceholderCountry('Namibia', 'NA', 'Africa', '🇳🇦', { x: 51, y: 12 }),
-  createPlaceholderCountry('Angola', 'AO', 'Africa', '🇦🇴', { x: 50, y: 15 }),
-  createPlaceholderCountry('Zambia', 'ZM', 'Africa', '🇿🇲', { x: 54, y: 13 }),
-  createPlaceholderCountry('Malawi', 'MW', 'Africa', '🇲🇼', { x: 56, y: 14 }),
-  createPlaceholderCountry('Madagascar', 'MG', 'Africa', '🇲🇬', { x: 58, y: 12 }),
-  createPlaceholderCountry('Mauritius', 'MU', 'Africa', '🇲🇺', { x: 60, y: 10 }),
-  createPlaceholderCountry('Seychelles', 'SC', 'Africa', '🇸🇨', { x: 59, y: 18 }),
-  createPlaceholderCountry('Senegal', 'SN', 'Africa', '🇸🇳', { x: 44, y: 25 }),
-  createPlaceholderCountry('Côte d\'Ivoire', 'CI', 'Africa', '🇨🇮', { x: 46, y: 18 }),
+  angola,
+  botswana,
+  coteDivoire,
+  libya,
+  madagascar,
+  malawi,
+  mauritius,
+  mozambique,
+  namibia,
+  rwanda,
+  senegal,
+  seychelles,
+  somalia,
+  sudan,
+  tanzania,
+  tunisia,
+  uganda,
+  zambia,
+  zimbabwe,
   createPlaceholderCountry('Mali', 'ML', 'Africa', '🇲🇱', { x: 46, y: 28 }),
   createPlaceholderCountry('Niger', 'NE', 'Africa', '🇳🇪', { x: 48, y: 28 }),
   createPlaceholderCountry('Chad', 'TD', 'Africa', '🇹🇩', { x: 50, y: 28 }),
@@ -265,16 +293,16 @@ export const countries: Country[] = [
   pakistan,
   sriLanka,
   nepal,
-  createPlaceholderCountry('Bhutan', 'BT', 'Asia', '🇧🇹', { x: 74, y: 36 }),
-  createPlaceholderCountry('Myanmar', 'MM', 'Asia', '🇲🇲', { x: 75, y: 30 }),
-  createPlaceholderCountry('Laos', 'LA', 'Asia', '🇱🇦', { x: 76, y: 28 }),
-  createPlaceholderCountry('Cambodia', 'KH', 'Asia', '🇰🇭', { x: 77, y: 24 }),
+  bhutan,
+  cambodia,
+  laos,
+  myanmar,
   malaysia,
   singapore,
   indonesia,
   philippines,
-  createPlaceholderCountry('Brunei', 'BN', 'Asia', '🇧🇳', { x: 79, y: 19 }),
-  createPlaceholderCountry('East Timor', 'TL', 'Asia', '🇹🇱', { x: 83, y: 15 }),
+  brunei,
+  eastTimor,
   createPlaceholderCountry('Mongolia', 'MN', 'Asia', '🇲🇳', { x: 78, y: 48 }),
   createPlaceholderCountry('North Korea', 'KP', 'Asia', '🇰🇵', { x: 82, y: 42 }),
   createPlaceholderCountry('Taiwan', 'TW', 'Asia', '🇹🇼', { x: 83, y: 33 }),
@@ -334,12 +362,9 @@ export const countries: Country[] = [
   createPlaceholderCountry('Antigua and Barbuda', 'AG', 'North America', '🇦🇬', { x: 26, y: 27 }),
   createPlaceholderCountry('Saint Kitts and Nevis', 'KN', 'North America', '🇰🇳', { x: 26, y: 27 }),
 
-  createPlaceholderCountry('Venezuela', 'VE', 'South America', '🇻🇪', { x: 24, y: 22 }),
-
-
-
-  createPlaceholderCountry('Paraguay', 'PY', 'South America', '🇵🇾', { x: 26, y: 12 }),
-  createPlaceholderCountry('Uruguay', 'UY', 'South America', '🇺🇾', { x: 27, y: 9 }),
+  paraguay,
+  uruguay,
+  venezuela,
   createPlaceholderCountry('Guyana', 'GY', 'South America', '🇬🇾', { x: 26, y: 20 }),
   createPlaceholderCountry('Suriname', 'SR', 'South America', '🇸🇷', { x: 27, y: 20 }),
   createPlaceholderCountry('French Guiana', 'GF', 'South America', '🇬🇫', { x: 28, y: 20 }),
