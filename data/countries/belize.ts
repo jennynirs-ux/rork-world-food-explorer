@@ -1,0 +1,80 @@
+import { Country } from '@/types';
+
+export const belize: Country = {
+  id: 'belize',
+  name: 'Belize',
+  code: 'BZ',
+  continent: 'North America',
+  flag: '🇧🇿',
+  landscapeImage: 'https://images.unsplash.com/photo-1580672324472-d9903f9bb6b7?w=800',
+  description: 'Belize is a Caribbean country on the northeastern coast of Central America, known for the Belize Barrier Reef, Mayan ruins, and diverse ecosystems.',
+  quickFacts: [
+    { label: 'Capital', value: 'Belmopan' },
+    { label: 'Population', value: '400,000' },
+    { label: 'Official Language', value: 'English' },
+    { label: 'Currency', value: 'Belize Dollar' },
+    { label: 'Area', value: '22,966 km²' },
+  ],
+  facts: [
+    'Belize has the second largest barrier reef in the world',
+    'It\'s the only Central American country with English as official language',
+    'Home to the famous Great Blue Hole',
+    'Over 900 Mayan archaeological sites',
+  ],
+  foodCulture: 'Belizean cuisine blends Maya, Mestizo, Creole, and Garifuna influences with fresh seafood, rice and beans as staples.',
+  mainDish: {
+    id: 'belize-main',
+    name: 'Rice and Beans with Stew Chicken',
+    description: 'National dish with coconut rice and beans',
+    cookingTime: 90,
+    servings: 6,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'Chicken pieces', amount: 1, unit: 'kg' },
+      { name: 'Red kidney beans', amount: 400, unit: 'g' },
+      { name: 'Rice', amount: 500, unit: 'g' },
+      { name: 'Coconut milk', amount: 400, unit: 'ml' },
+      { name: 'Recado spice paste', amount: 2, unit: 'tbsp' },
+      { name: 'Habanero pepper', amount: 1, unit: 'whole' },
+    ],
+    steps: [
+      'Marinate chicken with recado paste',
+      'Cook beans until tender',
+      'Stew chicken with onions and peppers',
+      'Cook rice with beans and coconut milk',
+      'Serve rice and beans with stew chicken',
+      'Add plantains on the side',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+  },
+  drinks: {
+    alcoholic: 'Belikin beer, Cashew wine, Rum',
+    nonAlcoholic: 'Seaweed shake, Horchata, Fresh coconut water',
+  },
+  music: [
+    'Punta music',
+    'Brukdown',
+    'Paranda',
+    'Reggae',
+  ],
+  decorationIdeas: [
+    'Blue, red and white flag colors',
+    'Tropical rainforest themes',
+    'Mayan symbols',
+    'Ocean and reef imagery',
+  ],
+  conversationStarters: [
+    'Have you ever been diving or snorkeling?',
+    'What do you know about Mayan culture?',
+    'Do you enjoy Caribbean food?',
+  ],
+  quiz: [
+    {
+      id: 'belize-q1',
+      question: 'What is the capital of Belize?',
+      options: ['Belize City', 'Belmopan', 'San Pedro', 'Orange Walk'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 17, y: 27 },
+};

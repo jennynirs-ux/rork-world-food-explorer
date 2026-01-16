@@ -1,0 +1,80 @@
+import { Country } from '@/types';
+
+export const antiguaAndBarbuda: Country = {
+  id: 'antigua-and-barbuda',
+  name: 'Antigua and Barbuda',
+  code: 'AG',
+  continent: 'North America',
+  flag: '🇦🇬',
+  landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
+  description: 'Antigua and Barbuda is a twin-island nation in the Caribbean, known for 365 beaches, British colonial heritage, and vibrant carnival celebrations.',
+  quickFacts: [
+    { label: 'Capital', value: 'St. John\'s' },
+    { label: 'Population', value: '98,000' },
+    { label: 'Official Language', value: 'English' },
+    { label: 'Currency', value: 'East Caribbean Dollar' },
+    { label: 'Area', value: '442 km²' },
+  ],
+  facts: [
+    'Antigua is said to have 365 beaches, one for each day of the year',
+    'The islands were once a major sugar producer',
+    'Cricket is the national sport',
+    'Nelson\'s Dockyard is a UNESCO World Heritage Site',
+  ],
+  foodCulture: 'Caribbean cuisine with African, British, and indigenous influences. Fresh seafood, tropical fruits, and spicy dishes are staples.',
+  mainDish: {
+    id: 'antigua-main',
+    name: 'Pepperpot',
+    description: 'Traditional Caribbean stew with vegetables and salted meat',
+    cookingTime: 90,
+    servings: 6,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'Salted beef', amount: 500, unit: 'g' },
+      { name: 'Spinach', amount: 300, unit: 'g' },
+      { name: 'Okra', amount: 200, unit: 'g' },
+      { name: 'Eggplant', amount: 1, unit: 'whole' },
+      { name: 'Coconut milk', amount: 400, unit: 'ml' },
+      { name: 'Scotch bonnet pepper', amount: 1, unit: 'whole' },
+    ],
+    steps: [
+      'Soak salted beef overnight to remove excess salt',
+      'Boil beef until tender',
+      'Add chopped vegetables and coconut milk',
+      'Add whole scotch bonnet for flavor (don\'t break it)',
+      'Simmer until vegetables are soft',
+      'Serve with rice or dumplings',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600',
+  },
+  drinks: {
+    alcoholic: 'Rum punch, Cavalier rum',
+    nonAlcoholic: 'Coconut water, Tamarind juice, Sorrel drink',
+  },
+  music: [
+    'Calypso',
+    'Soca',
+    'Reggae',
+    'Steel pan music',
+  ],
+  decorationIdeas: [
+    'Tropical flowers and palm leaves',
+    'Bright Caribbean colors',
+    'Beach and ocean themes',
+    'Cricket equipment',
+  ],
+  conversationStarters: [
+    'Have you experienced Caribbean carnival?',
+    'What\'s your favorite beach destination?',
+    'Do you enjoy water sports?',
+  ],
+  quiz: [
+    {
+      id: 'antigua-q1',
+      question: 'What is the capital of Antigua and Barbuda?',
+      options: ['Bridgetown', 'St. John\'s', 'Castries', 'Nassau'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 26, y: 27 },
+};

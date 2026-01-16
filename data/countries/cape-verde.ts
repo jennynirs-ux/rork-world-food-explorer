@@ -1,0 +1,80 @@
+import { Country } from '@/types';
+
+export const capeVerde: Country = {
+  id: 'cape-verde',
+  name: 'Cape Verde',
+  code: 'CV',
+  continent: 'Africa',
+  flag: '🇨🇻',
+  landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
+  description: 'Cape Verde is an island nation off the coast of West Africa, known for its Creole Portuguese-African culture, pristine beaches, and unique music.',
+  quickFacts: [
+    { label: 'Capital', value: 'Praia' },
+    { label: 'Population', value: '560,000' },
+    { label: 'Official Language', value: 'Portuguese' },
+    { label: 'Currency', value: 'Cape Verdean Escudo' },
+    { label: 'Area', value: '4,033 km²' },
+  ],
+  facts: [
+    'Cape Verde consists of 10 volcanic islands',
+    'The country was uninhabited until Portuguese discovery in 1456',
+    'Morna music from Cape Verde influenced many music genres',
+    'Cesária Évora, the "Barefoot Diva", made Cape Verdean music famous worldwide',
+  ],
+  foodCulture: 'Cape Verdean cuisine blends Portuguese, West African, and Brazilian influences. Fresh seafood, corn, and beans are staples.',
+  mainDish: {
+    id: 'cape-verde-main',
+    name: 'Cachupa',
+    description: 'National stew with corn, beans, and meat or fish',
+    cookingTime: 120,
+    servings: 6,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'Corn kernels', amount: 300, unit: 'g' },
+      { name: 'Beans', amount: 200, unit: 'g' },
+      { name: 'Pork or fish', amount: 500, unit: 'g' },
+      { name: 'Sweet potato', amount: 2, unit: 'whole' },
+      { name: 'Cassava', amount: 200, unit: 'g' },
+      { name: 'Onions', amount: 2, unit: 'whole' },
+    ],
+    steps: [
+      'Soak corn and beans overnight',
+      'Cook corn and beans until tender',
+      'Add meat or fish and vegetables',
+      'Simmer for 2 hours until thick',
+      'Season with bay leaves and garlic',
+      'Serve hot or fried as Cachupa frita',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+  },
+  drinks: {
+    alcoholic: 'Grogue (sugarcane rum), Strela beer',
+    nonAlcoholic: 'Grogue with honey, Fresh fruit juice',
+  },
+  music: [
+    'Morna',
+    'Coladeira',
+    'Cesária Évora classics',
+    'Funaná',
+  ],
+  decorationIdeas: [
+    'Blue, white, red and yellow flag colors',
+    'Ocean and beach themes',
+    'Portuguese tiles',
+    'Musical instruments',
+  ],
+  conversationStarters: [
+    'Have you heard of Cesária Évora?',
+    'What do you know about African island nations?',
+    'Do you enjoy world music?',
+  ],
+  quiz: [
+    {
+      id: 'cape-verde-q1',
+      question: 'What is the capital of Cape Verde?',
+      options: ['Praia', 'Mindelo', 'Santa Maria', 'Sal'],
+      correctAnswer: 0,
+    },
+  ],
+  coordinates: { x: 42, y: 28 },
+};

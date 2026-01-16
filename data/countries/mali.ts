@@ -1,0 +1,80 @@
+import { Country } from '@/types';
+
+export const mali: Country = {
+  id: 'mali',
+  name: 'Mali',
+  code: 'ML',
+  continent: 'Africa',
+  flag: '🇲🇱',
+  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  description: 'Mali is a landlocked West African country known for the ancient city of Timbuktu, the Niger River, and rich musical traditions.',
+  quickFacts: [
+    { label: 'Capital', value: 'Bamako' },
+    { label: 'Population', value: '21 million' },
+    { label: 'Official Language', value: 'French' },
+    { label: 'Currency', value: 'West African CFA Franc' },
+    { label: 'Area', value: '1,240,192 km²' },
+  ],
+  facts: [
+    'Home to the legendary city of Timbuktu',
+    'The Mali Empire was one of the richest in history',
+    'Known for traditional mud-brick architecture',
+    'Birthplace of kora music and blues',
+  ],
+  foodCulture: 'Malian cuisine features millet, rice, peanuts, and vegetables with West African spices.',
+  mainDish: {
+    id: 'mali-main',
+    name: 'Tigadèguèna',
+    description: 'Peanut butter stew with meat and vegetables',
+    cookingTime: 90,
+    servings: 6,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'Beef or lamb', amount: 600, unit: 'g' },
+      { name: 'Peanut butter', amount: 300, unit: 'g' },
+      { name: 'Tomatoes', amount: 3, unit: 'whole' },
+      { name: 'Okra', amount: 200, unit: 'g' },
+      { name: 'Onions', amount: 2, unit: 'whole' },
+      { name: 'Eggplant', amount: 1, unit: 'whole' },
+    ],
+    steps: [
+      'Brown meat with onions',
+      'Add tomatoes and water',
+      'Stir in peanut butter',
+      'Add vegetables',
+      'Simmer until thick',
+      'Serve over rice or couscous',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+  },
+  drinks: {
+    alcoholic: 'Dolo (millet beer), Palm wine',
+    nonAlcoholic: 'Bissap (hibiscus tea), Ginger juice, Baobab juice',
+  },
+  music: [
+    'Kora traditional music',
+    'Desert blues',
+    'Ali Farka Touré',
+    'Toumani Diabaté',
+  ],
+  decorationIdeas: [
+    'Green, yellow and red flag colors',
+    'Mud-brick architecture imagery',
+    'Kora instruments',
+    'Saharan themes',
+  ],
+  conversationStarters: [
+    'Have you heard of Timbuktu?',
+    'What do you know about West African blues?',
+    'Do you enjoy traditional string instruments?',
+  ],
+  quiz: [
+    {
+      id: 'mali-q1',
+      question: 'What is the capital of Mali?',
+      options: ['Bamako', 'Timbuktu', 'Gao', 'Sikasso'],
+      correctAnswer: 0,
+    },
+  ],
+  coordinates: { x: 46, y: 28 },
+};

@@ -1,0 +1,80 @@
+import { Country } from '@/types';
+
+export const unitedKingdom: Country = {
+  id: 'united-kingdom',
+  name: 'United Kingdom',
+  code: 'GB',
+  continent: 'Europe',
+  flag: '🇬🇧',
+  landscapeImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800',
+  description: 'The United Kingdom comprises England, Scotland, Wales, and Northern Ireland, known for rich history, royal heritage, and global cultural influence.',
+  quickFacts: [
+    { label: 'Capital', value: 'London' },
+    { label: 'Population', value: '67 million' },
+    { label: 'Official Language', value: 'English' },
+    { label: 'Currency', value: 'Pound Sterling (£)' },
+    { label: 'Area', value: '243,610 km²' },
+  ],
+  facts: [
+    'Birthplace of the Industrial Revolution',
+    'Home to the world\'s oldest subway system',
+    'English is the most widely spoken language globally',
+    'The UK has influenced culture, law, and government worldwide',
+  ],
+  foodCulture: 'British cuisine features hearty dishes like fish and chips, roasts, and afternoon tea traditions.',
+  mainDish: {
+    id: 'uk-main',
+    name: 'Fish and Chips',
+    description: 'Battered fish with deep-fried potatoes',
+    cookingTime: 45,
+    servings: 4,
+    dietType: 'fish',
+    ingredients: [
+      { name: 'Cod or haddock', amount: 600, unit: 'g' },
+      { name: 'Potatoes', amount: 800, unit: 'g' },
+      { name: 'Flour', amount: 200, unit: 'g' },
+      { name: 'Beer', amount: 250, unit: 'ml' },
+      { name: 'Baking powder', amount: 1, unit: 'tsp' },
+      { name: 'Malt vinegar', amount: 50, unit: 'ml' },
+    ],
+    steps: [
+      'Cut potatoes into chips and fry',
+      'Make batter with flour, beer, and baking powder',
+      'Dip fish in batter',
+      'Deep fry until golden',
+      'Serve with chips and mushy peas',
+      'Add salt and vinegar',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600',
+  },
+  drinks: {
+    alcoholic: 'Beer, Whisky, Gin, Pimm\'s',
+    nonAlcoholic: 'Tea (with milk), Irn-Bru, Elderflower cordial',
+  },
+  music: [
+    'The Beatles',
+    'The Rolling Stones',
+    'Queen',
+    'Adele',
+  ],
+  decorationIdeas: [
+    'Red, white and blue Union Jack',
+    'Royal family imagery',
+    'Red phone boxes and double-decker buses',
+    'Big Ben and London Eye',
+  ],
+  conversationStarters: [
+    'Have you been to London?',
+    'What\'s your favorite British band?',
+    'Do you enjoy afternoon tea?',
+  ],
+  quiz: [
+    {
+      id: 'uk-q1',
+      question: 'What is the capital of the UK?',
+      options: ['Manchester', 'London', 'Edinburgh', 'Birmingham'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 46, y: 52 },
+};

@@ -1,0 +1,80 @@
+import { Country } from '@/types';
+
+export const trinidadAndTobago: Country = {
+  id: 'trinidad-and-tobago',
+  name: 'Trinidad and Tobago',
+  code: 'TT',
+  continent: 'North America',
+  flag: '🇹🇹',
+  landscapeImage: 'https://images.unsplash.com/photo-1544989164-fb88fbafbe7a?w=800',
+  description: 'Trinidad and Tobago is a twin-island Caribbean nation known for carnival, steel pan music, diverse culture, and natural beauty.',
+  quickFacts: [
+    { label: 'Capital', value: 'Port of Spain' },
+    { label: 'Population', value: '1.4 million' },
+    { label: 'Official Language', value: 'English' },
+    { label: 'Currency', value: 'Trinidad and Tobago Dollar' },
+    { label: 'Area', value: '5,131 km²' },
+  ],
+  facts: [
+    'Birthplace of steel pan and calypso music',
+    'Hosts one of the world\'s largest carnivals',
+    'Home to the pitch lake, world\'s largest natural asphalt deposit',
+    'Incredibly diverse population',
+  ],
+  foodCulture: 'Trinidadian cuisine blends Indian, African, Chinese, and Caribbean influences.',
+  mainDish: {
+    id: 'trinidad-main',
+    name: 'Doubles',
+    description: 'Fried bread with curried chickpeas',
+    cookingTime: 60,
+    servings: 6,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Flour', amount: 400, unit: 'g' },
+      { name: 'Chickpeas', amount: 400, unit: 'g' },
+      { name: 'Curry powder', amount: 2, unit: 'tbsp' },
+      { name: 'Turmeric', amount: 1, unit: 'tsp' },
+      { name: 'Garlic', amount: 4, unit: 'cloves' },
+      { name: 'Pepper sauce', amount: 2, unit: 'tbsp' },
+    ],
+    steps: [
+      'Make dough with flour and spices',
+      'Fry small rounds of dough',
+      'Make curried chickpeas',
+      'Place curry between two fried breads',
+      'Add pepper sauce and chutney',
+      'Serve hot',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600',
+  },
+  drinks: {
+    alcoholic: 'Carib beer, Rum punch, Angostura bitters',
+    nonAlcoholic: 'Mauby, Sorrel, Coconut water',
+  },
+  music: [
+    'Calypso',
+    'Soca',
+    'Steel pan',
+    'Chutney music',
+  ],
+  decorationIdeas: [
+    'Red, white and black flag colors',
+    'Carnival masks and feathers',
+    'Steel pan drums',
+    'Tropical themes',
+  ],
+  conversationStarters: [
+    'Have you been to Trinidad Carnival?',
+    'Do you enjoy steel pan music?',
+    'What\'s your favorite Caribbean food?',
+  ],
+  quiz: [
+    {
+      id: 'trinidad-q1',
+      question: 'What musical instrument was invented in Trinidad?',
+      options: ['Guitar', 'Steel pan', 'Saxophone', 'Marimba'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 26, y: 22 },
+};

@@ -1,0 +1,86 @@
+import { Country } from '@/types';
+
+export const armenia: Country = {
+  id: 'armenia',
+  name: 'Armenia',
+  code: 'AM',
+  continent: 'Asia',
+  flag: '🇦🇲',
+  landscapeImage: 'https://images.unsplash.com/photo-1605527610172-27301f34a697?w=800',
+  description: 'Armenia is one of the world\'s oldest civilizations and the first nation to adopt Christianity as a state religion. Known for ancient monasteries, Mount Ararat views, and rich cultural heritage.',
+  quickFacts: [
+    { label: 'Capital', value: 'Yerevan' },
+    { label: 'Population', value: '3 million' },
+    { label: 'Official Language', value: 'Armenian' },
+    { label: 'Currency', value: 'Armenian Dram' },
+    { label: 'Area', value: '29,743 km²' },
+  ],
+  facts: [
+    'Armenia was the first country to adopt Christianity in 301 AD',
+    'The Armenian alphabet was invented in 405 AD',
+    'Chess is mandatory in Armenian schools',
+    'Mount Ararat, a national symbol, is actually in Turkey',
+    'Armenia has three UNESCO World Heritage Sites',
+  ],
+  foodCulture: 'Armenian cuisine features grilled meats, fresh herbs, and lavash bread. Meals are social gatherings with multiple courses. Cognac is highly regarded.',
+  mainDish: {
+    id: 'armenia-main',
+    name: 'Khorovats',
+    description: 'Armenian-style grilled meat skewers with vegetables',
+    cookingTime: 60,
+    servings: 6,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'Pork or lamb', amount: 1, unit: 'kg' },
+      { name: 'Onions', amount: 3, unit: 'whole' },
+      { name: 'Bell peppers', amount: 3, unit: 'whole' },
+      { name: 'Tomatoes', amount: 4, unit: 'whole' },
+      { name: 'Red wine', amount: 100, unit: 'ml' },
+      { name: 'Pomegranate juice', amount: 50, unit: 'ml' },
+    ],
+    steps: [
+      'Cut meat into chunks, marinate with wine and onions',
+      'Refrigerate for 2-4 hours',
+      'Thread meat and vegetables on skewers',
+      'Grill over charcoal until cooked',
+      'Baste with pomegranate juice while grilling',
+      'Serve with lavash bread and fresh herbs',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600',
+  },
+  drinks: {
+    alcoholic: 'Armenian cognac, Wine, Ararat brandy',
+    nonAlcoholic: 'Tan (yogurt drink), Armenian coffee, Apricot juice',
+  },
+  music: [
+    'Traditional duduk melodies',
+    'Armenian folk songs',
+    'Djivan Gasparyan performances',
+  ],
+  decorationIdeas: [
+    'Red, blue, and orange flag colors',
+    'Pomegranate motifs',
+    'Ancient Armenian script',
+    'Mount Ararat imagery',
+  ],
+  conversationStarters: [
+    'Have you tried Armenian cognac?',
+    'What do you know about ancient Christianity?',
+    'Do you enjoy grilled meats?',
+  ],
+  quiz: [
+    {
+      id: 'armenia-q1',
+      question: 'What is the capital of Armenia?',
+      options: ['Tbilisi', 'Yerevan', 'Baku', 'Tehran'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'armenia-q2',
+      question: 'In what year did Armenia adopt Christianity?',
+      options: ['301 AD', '500 AD', '100 AD', '800 AD'],
+      correctAnswer: 0,
+    },
+  ],
+  coordinates: { x: 57, y: 42 },
+};

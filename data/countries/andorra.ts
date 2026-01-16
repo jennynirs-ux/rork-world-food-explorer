@@ -1,0 +1,87 @@
+import { Country } from '@/types';
+
+export const andorra: Country = {
+  id: 'andorra',
+  name: 'Andorra',
+  code: 'AD',
+  continent: 'Europe',
+  flag: '🇦🇩',
+  landscapeImage: 'https://images.unsplash.com/photo-1580674684081-7617fbf5d745?w=800',
+  description: 'Andorra is a tiny, independent principality nestled between France and Spain in the Pyrenees mountains. Known for ski resorts and tax-haven status.',
+  quickFacts: [
+    { label: 'Capital', value: 'Andorra la Vella' },
+    { label: 'Population', value: '77,000' },
+    { label: 'Official Language', value: 'Catalan' },
+    { label: 'Currency', value: 'Euro (€)' },
+    { label: 'Area', value: '468 km²' },
+  ],
+  facts: [
+    'Andorra is one of the smallest countries in Europe',
+    'It has no airport or railway station',
+    'Andorra has the highest life expectancy in the world',
+    'The country has been ruled by two co-princes since 1278',
+    'Over 10 million tourists visit annually, despite its tiny size',
+  ],
+  foodCulture: 'Andorran cuisine reflects Catalan traditions with mountain influences. Hearty dishes feature wild game, mushrooms, and mountain herbs. Meals are accompanied by local wines and cheeses.',
+  mainDish: {
+    id: 'andorra-main',
+    name: 'Escudella',
+    description: 'Traditional Andorran stew with meat, vegetables, and pasta',
+    cookingTime: 120,
+    servings: 6,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'Pork ribs', amount: 400, unit: 'g' },
+      { name: 'Chicken pieces', amount: 300, unit: 'g' },
+      { name: 'White beans', amount: 200, unit: 'g' },
+      { name: 'Potatoes', amount: 3, unit: 'whole' },
+      { name: 'Cabbage', amount: 300, unit: 'g' },
+      { name: 'Pasta shells', amount: 150, unit: 'g' },
+      { name: 'Garlic', amount: 4, unit: 'cloves' },
+    ],
+    steps: [
+      'Soak white beans overnight',
+      'Boil pork and chicken in large pot with beans',
+      'Add chopped vegetables and simmer 90 minutes',
+      'Add pasta in final 15 minutes',
+      'Season with salt and pepper',
+      'Serve hot with crusty bread',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+  },
+  drinks: {
+    alcoholic: 'Local wines, Ratafia (herbal liqueur)',
+    nonAlcoholic: 'Mountain spring water, Hot chocolate',
+  },
+  music: [
+    'Traditional Catalan folk music',
+    'Sardana dances',
+    'Mountain shepherd songs',
+  ],
+  decorationIdeas: [
+    'Mountain landscape imagery',
+    'Red and yellow colors from flag',
+    'Alpine flowers',
+    'Ski equipment as decor',
+  ],
+  conversationStarters: [
+    'Have you been skiing in the Pyrenees?',
+    'What do you know about micro-nations?',
+    'Do you enjoy mountain hiking?',
+  ],
+  quiz: [
+    {
+      id: 'andorra-q1',
+      question: 'What is the capital of Andorra?',
+      options: ['Escaldes', 'Encamp', 'Andorra la Vella', 'La Massana'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'andorra-q2',
+      question: 'Between which two countries is Andorra located?',
+      options: ['France and Spain', 'Spain and Portugal', 'France and Italy', 'Italy and Switzerland'],
+      correctAnswer: 0,
+    },
+  ],
+  coordinates: { x: 47, y: 43 },
+};

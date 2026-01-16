@@ -1,0 +1,80 @@
+import { Country } from '@/types';
+
+export const barbados: Country = {
+  id: 'barbados',
+  name: 'Barbados',
+  code: 'BB',
+  continent: 'North America',
+  flag: '🇧🇧',
+  landscapeImage: 'https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=800',
+  description: 'Barbados is an eastern Caribbean island known for beautiful beaches, British colonial heritage, and as the birthplace of rum.',
+  quickFacts: [
+    { label: 'Capital', value: 'Bridgetown' },
+    { label: 'Population', value: '287,000' },
+    { label: 'Official Language', value: 'English' },
+    { label: 'Currency', value: 'Barbadian Dollar' },
+    { label: 'Area', value: '430 km²' },
+  ],
+  facts: [
+    'Barbados is considered the birthplace of rum',
+    'Rihanna, the famous singer, is from Barbados',
+    'The island has been independent since 1966',
+    'Cricket is the most popular sport',
+  ],
+  foodCulture: 'Bajan cuisine combines African, British, and Caribbean influences. Flying fish is the national dish, often served with cou-cou.',
+  mainDish: {
+    id: 'barbados-main',
+    name: 'Flying Fish and Cou-Cou',
+    description: 'National dish with seasoned flying fish and cornmeal-okra pudding',
+    cookingTime: 60,
+    servings: 4,
+    dietType: 'fish',
+    ingredients: [
+      { name: 'Flying fish fillets', amount: 8, unit: 'pieces' },
+      { name: 'Cornmeal', amount: 200, unit: 'g' },
+      { name: 'Okra', amount: 300, unit: 'g' },
+      { name: 'Onions', amount: 2, unit: 'whole' },
+      { name: 'Tomatoes', amount: 3, unit: 'whole' },
+      { name: 'Scotch bonnet pepper', amount: 1, unit: 'whole' },
+    ],
+    steps: [
+      'Season fish with herbs and spices',
+      'Steam or fry fish until cooked',
+      'Boil okra until soft',
+      'Gradually add cornmeal to okra water, stirring constantly',
+      'Cook until smooth pudding forms',
+      'Serve fish over cou-cou with tomato sauce',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1559737558-2f5a2f7e8c59?w=600',
+  },
+  drinks: {
+    alcoholic: 'Mount Gay Rum, Banks Beer, Rum punch',
+    nonAlcoholic: 'Mauby, Sorrel, Coconut water',
+  },
+  music: [
+    'Calypso',
+    'Soca',
+    'Spouge',
+    'Rihanna hits',
+  ],
+  decorationIdeas: [
+    'Blue, yellow, and black flag colors',
+    'Beach and ocean themes',
+    'Tropical flowers',
+    'Rum barrels',
+  ],
+  conversationStarters: [
+    'Have you tried authentic Caribbean rum?',
+    'Do you enjoy island music?',
+    'What\'s your ideal beach vacation?',
+  ],
+  quiz: [
+    {
+      id: 'barbados-q1',
+      question: 'What is the capital of Barbados?',
+      options: ['Bridgetown', 'Kingston', 'Nassau', 'Castries'],
+      correctAnswer: 0,
+    },
+  ],
+  coordinates: { x: 26, y: 25 },
+};

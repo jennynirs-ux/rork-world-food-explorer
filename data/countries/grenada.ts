@@ -1,0 +1,80 @@
+import { Country } from '@/types';
+
+export const grenada: Country = {
+  id: 'grenada',
+  name: 'Grenada',
+  code: 'GD',
+  continent: 'North America',
+  flag: '🇬🇩',
+  landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
+  description: 'Grenada is the "Spice Isle" of the Caribbean, famous for nutmeg production, beautiful beaches, and the underwater sculpture park.',
+  quickFacts: [
+    { label: 'Capital', value: 'St. George\'s' },
+    { label: 'Population', value: '113,000' },
+    { label: 'Official Language', value: 'English' },
+    { label: 'Currency', value: 'East Caribbean Dollar' },
+    { label: 'Area', value: '348.5 km²' },
+  ],
+  facts: [
+    'Produces one-third of the world\'s nutmeg',
+    'Home to the world\'s first underwater sculpture park',
+    'Has pristine rainforests and waterfalls',
+    'Known for its aromatic spices',
+  ],
+  foodCulture: 'Grenadian cuisine features fresh seafood, ground provisions, and abundant use of local spices.',
+  mainDish: {
+    id: 'grenada-main',
+    name: 'Oil Down',
+    description: 'National dish with breadfruit, salted meat, and coconut milk',
+    cookingTime: 90,
+    servings: 6,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'Breadfruit', amount: 1, unit: 'whole' },
+      { name: 'Salted pigtail', amount: 300, unit: 'g' },
+      { name: 'Chicken', amount: 500, unit: 'g' },
+      { name: 'Coconut milk', amount: 800, unit: 'ml' },
+      { name: 'Callaloo leaves', amount: 200, unit: 'g' },
+      { name: 'Turmeric', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Layer breadfruit at bottom of pot',
+      'Add meat and coconut milk',
+      'Season with turmeric and spices',
+      'Add callaloo leaves on top',
+      'Simmer until liquid is absorbed',
+      'Serve when "oil down" to bottom',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600',
+  },
+  drinks: {
+    alcoholic: 'Rum punch, Carib beer, River Antoine rum',
+    nonAlcoholic: 'Sorrel, Mauby, Nutmeg juice',
+  },
+  music: [
+    'Calypso',
+    'Soca',
+    'Reggae',
+    'Steelpan music',
+  ],
+  decorationIdeas: [
+    'Red, yellow and green flag colors',
+    'Nutmeg and spice imagery',
+    'Tropical beach themes',
+    'Underwater sculpture elements',
+  ],
+  conversationStarters: [
+    'Have you seen underwater sculptures?',
+    'Do you cook with fresh nutmeg?',
+    'What\'s your favorite Caribbean island?',
+  ],
+  quiz: [
+    {
+      id: 'grenada-q1',
+      question: 'What is the capital of Grenada?',
+      options: ['Bridgetown', 'St. George\'s', 'Roseau', 'Castries'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 26, y: 24 },
+};

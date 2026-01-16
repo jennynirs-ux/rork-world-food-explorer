@@ -1,0 +1,80 @@
+import { Country } from '@/types';
+
+export const dominicanRepublic: Country = {
+  id: 'dominican-republic',
+  name: 'Dominican Republic',
+  code: 'DO',
+  continent: 'North America',
+  flag: '🇩🇴',
+  landscapeImage: 'https://images.unsplash.com/photo-1544989164-fb88fbafbe7a?w=800',
+  description: 'The Dominican Republic shares Hispaniola island with Haiti, known for beautiful beaches, merengue music, baseball, and colonial history.',
+  quickFacts: [
+    { label: 'Capital', value: 'Santo Domingo' },
+    { label: 'Population', value: '11 million' },
+    { label: 'Official Language', value: 'Spanish' },
+    { label: 'Currency', value: 'Dominican Peso' },
+    { label: 'Area', value: '48,671 km²' },
+  ],
+  facts: [
+    'Santo Domingo is the oldest European city in the Americas',
+    'Produces some of the world\'s finest cigars and rum',
+    'Baseball is the national sport',
+    'Home to the Caribbean\'s highest peak, Pico Duarte',
+  ],
+  foodCulture: 'Dominican cuisine blends Spanish, African, and Taíno influences. Rice, beans, and plantains are staples.',
+  mainDish: {
+    id: 'dominican-main',
+    name: 'La Bandera',
+    description: 'The national dish with rice, beans, and meat',
+    cookingTime: 90,
+    servings: 6,
+    dietType: 'meat',
+    ingredients: [
+      { name: 'White rice', amount: 500, unit: 'g' },
+      { name: 'Red beans', amount: 400, unit: 'g' },
+      { name: 'Chicken or beef', amount: 600, unit: 'g' },
+      { name: 'Plantains', amount: 3, unit: 'whole' },
+      { name: 'Avocado', amount: 2, unit: 'whole' },
+      { name: 'Onions', amount: 2, unit: 'whole' },
+    ],
+    steps: [
+      'Cook beans with onions and peppers',
+      'Stew meat with tomatoes and spices',
+      'Cook rice separately',
+      'Fry plantains until golden',
+      'Plate rice, beans, and meat together',
+      'Serve with fried plantains and avocado salad',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+  },
+  drinks: {
+    alcoholic: 'Mamajuana, Brugal rum, Presidente beer',
+    nonAlcoholic: 'Morir Soñando, Fresh coconut water, Jugo de chinola',
+  },
+  music: [
+    'Merengue',
+    'Bachata',
+    'Juan Luis Guerra',
+    'Romeo Santos',
+  ],
+  decorationIdeas: [
+    'Red, white and blue flag colors',
+    'Beach and palm tree themes',
+    'Baseball elements',
+    'Carnival masks',
+  ],
+  conversationStarters: [
+    'Have you tried dancing merengue or bachata?',
+    'Do you enjoy Caribbean beaches?',
+    'Have you tasted Dominican rum?',
+  ],
+  quiz: [
+    {
+      id: 'dominican-q1',
+      question: 'What is the capital of Dominican Republic?',
+      options: ['Santo Domingo', 'San Juan', 'Port-au-Prince', 'Havana'],
+      correctAnswer: 0,
+    },
+  ],
+  coordinates: { x: 24, y: 29 },
+};

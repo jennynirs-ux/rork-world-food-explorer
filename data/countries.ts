@@ -1,371 +1,395 @@
 import { Country } from '@/types';
-import { countryLandscapes } from './country-landscapes';
 
 import { afghanistan } from './countries/afghanistan';
 import { albania } from './countries/albania';
 import { algeria } from './countries/algeria';
+import { andorra } from './countries/andorra';
+import { angola } from './countries/angola';
+import { antiguaAndBarbuda } from './countries/antigua-and-barbuda';
 import { argentina } from './countries/argentina';
+import { armenia } from './countries/armenia';
+import { australia } from './countries/australia';
 import { austria } from './countries/austria';
 import { azerbaijan } from './countries/azerbaijan';
 import { bahamas } from './countries/bahamas';
+import { bahrain } from './countries/bahrain';
 import { bangladesh } from './countries/bangladesh';
-import { bolivia } from './countries/bolivia';
-import { australia } from './countries/australia';
+import { barbados } from './countries/barbados';
+import { belarus } from './countries/belarus';
 import { belgium } from './countries/belgium';
+import { belize } from './countries/belize';
+import { benin } from './countries/benin';
+import { bhutan } from './countries/bhutan';
+import { bolivia } from './countries/bolivia';
+import { bosniaHerzegovina } from './countries/bosnia-herzegovina';
+import { botswana } from './countries/botswana';
 import { brazil } from './countries/brazil';
-import { chile } from './countries/chile';
-import { colombia } from './countries/colombia';
-import { costaRica } from './countries/costa-rica';
-import { croatia } from './countries/croatia';
-import { czechRepublic } from './countries/czech-republic';
+import { brunei } from './countries/brunei';
+import { bulgaria } from './countries/bulgaria';
+import { burkinaFaso } from './countries/burkina-faso';
+import { burundi } from './countries/burundi';
+import { cambodia } from './countries/cambodia';
+import { cameroon } from './countries/cameroon';
 import { canada } from './countries/canada';
+import { capeVerde } from './countries/cape-verde';
+import { centralAfricanRepublic } from './countries/central-african-republic';
+import { chad } from './countries/chad';
+import { chile } from './countries/chile';
 import { china } from './countries/china';
+import { colombia } from './countries/colombia';
+import { comoros } from './countries/comoros';
+import { costaRica } from './countries/costa-rica';
+import { coteDivoire } from './countries/cote-divoire';
+import { croatia } from './countries/croatia';
 import { cuba } from './countries/cuba';
-import { ecuador } from './countries/ecuador';
+import { cyprus } from './countries/cyprus';
+import { czechRepublic } from './countries/czech-republic';
+import { democraticRepublicCongo } from './countries/democratic-republic-congo';
 import { denmark } from './countries/denmark';
+import { djibouti } from './countries/djibouti';
+import { dominica } from './countries/dominica';
+import { dominicanRepublic } from './countries/dominican-republic';
+import { eastTimor } from './countries/east-timor';
+import { ecuador } from './countries/ecuador';
 import { egypt } from './countries/egypt';
+import { elSalvador } from './countries/el-salvador';
+import { equatorialGuinea } from './countries/equatorial-guinea';
+import { eritrea } from './countries/eritrea';
+import { estonia } from './countries/estonia';
+import { eswatini } from './countries/eswatini';
 import { ethiopia } from './countries/ethiopia';
+import { fiji } from './countries/fiji';
 import { finland } from './countries/finland';
 import { france } from './countries/france';
+import { gabon } from './countries/gabon';
+import { gambia } from './countries/gambia';
+import { georgia } from './countries/georgia';
 import { germany } from './countries/germany';
 import { ghana } from './countries/ghana';
 import { greece } from './countries/greece';
+import { grenada } from './countries/grenada';
+import { guatemala } from './countries/guatemala';
+import { guinea } from './countries/guinea';
+import { guineaBissau } from './countries/guinea-bissau';
+import { guyana } from './countries/guyana';
+import { haiti } from './countries/haiti';
+import { honduras } from './countries/honduras';
+import { hungary } from './countries/hungary';
+import { iceland } from './countries/iceland';
 import { india } from './countries/india';
+import { indonesia } from './countries/indonesia';
 import { iran } from './countries/iran';
+import { iraq } from './countries/iraq';
 import { ireland } from './countries/ireland';
+import { israel } from './countries/israel';
 import { italy } from './countries/italy';
 import { jamaica } from './countries/jamaica';
 import { japan } from './countries/japan';
+import { jordan } from './countries/jordan';
+import { kazakhstan } from './countries/kazakhstan';
 import { kenya } from './countries/kenya';
+import { kiribati } from './countries/kiribati';
+import { kuwait } from './countries/kuwait';
+import { kyrgyzstan } from './countries/kyrgyzstan';
+import { laos } from './countries/laos';
+import { latvia } from './countries/latvia';
 import { lebanon } from './countries/lebanon';
+import { lesotho } from './countries/lesotho';
+import { liberia } from './countries/liberia';
+import { libya } from './countries/libya';
+import { liechtenstein } from './countries/liechtenstein';
+import { lithuania } from './countries/lithuania';
+import { luxembourg } from './countries/luxembourg';
+import { madagascar } from './countries/madagascar';
+import { malawi } from './countries/malawi';
+import { malaysia } from './countries/malaysia';
+import { maldives } from './countries/maldives';
+import { mali } from './countries/mali';
+import { malta } from './countries/malta';
+import { marshallIslands } from './countries/marshall-islands';
+import { mauritania } from './countries/mauritania';
+import { mauritius } from './countries/mauritius';
 import { mexico } from './countries/mexico';
+import { micronesia } from './countries/micronesia';
+import { moldova } from './countries/moldova';
+import { monaco } from './countries/monaco';
+import { mongolia } from './countries/mongolia';
+import { montenegro } from './countries/montenegro';
 import { morocco } from './countries/morocco';
+import { mozambique } from './countries/mozambique';
+import { myanmar } from './countries/myanmar';
+import { namibia } from './countries/namibia';
+import { nauru } from './countries/nauru';
+import { nepal } from './countries/nepal';
 import { netherlands } from './countries/netherlands';
 import { newZealand } from './countries/new-zealand';
+import { nicaragua } from './countries/nicaragua';
+import { niger } from './countries/niger';
 import { nigeria } from './countries/nigeria';
+import { northKorea } from './countries/north-korea';
+import { northMacedonia } from './countries/north-macedonia';
 import { norway } from './countries/norway';
+import { oman } from './countries/oman';
+import { pakistan } from './countries/pakistan';
+import { palau } from './countries/palau';
+import { palestine } from './countries/palestine';
+import { panama } from './countries/panama';
+import { papuaNewGuinea } from './countries/papua-new-guinea';
+import { paraguay } from './countries/paraguay';
 import { peru } from './countries/peru';
+import { philippines } from './countries/philippines';
 import { poland } from './countries/poland';
 import { portugal } from './countries/portugal';
+import { qatar } from './countries/qatar';
+import { republicCongo } from './countries/republic-congo';
+import { romania } from './countries/romania';
+import { russia } from './countries/russia';
+import { rwanda } from './countries/rwanda';
+import { saintKittsAndNevis } from './countries/saint-kitts-and-nevis';
+import { saintLucia } from './countries/saint-lucia';
+import { saintVincentAndTheGrenadines } from './countries/saint-vincent-and-the-grenadines';
+import { samoa } from './countries/samoa';
+import { sanMarino } from './countries/san-marino';
+import { saoTomeAndPrincipe } from './countries/sao-tome-and-principe';
+import { saudiarabia } from './countries/saudi-arabia';
+import { senegal } from './countries/senegal';
+import { serbia } from './countries/serbia';
+import { seychelles } from './countries/seychelles';
+import { sierraLeone } from './countries/sierra-leone';
+import { singapore } from './countries/singapore';
+import { slovakia } from './countries/slovakia';
+import { slovenia } from './countries/slovenia';
+import { solomonIslands } from './countries/solomon-islands';
+import { somalia } from './countries/somalia';
 import { southAfrica } from './countries/south-africa';
 import { southKorea } from './countries/south-korea';
+import { southSudan } from './countries/south-sudan';
 import { spain } from './countries/spain';
-import { sweden } from './countries/sweden';
-import { thailand } from './countries/thailand';
-import { turkey } from './countries/turkey';
-import { unitedStates } from './countries/united-states';
-import { vietnam } from './countries/vietnam';
-import { russia } from './countries/russia';
-import { ukraine } from './countries/ukraine';
-import { romania } from './countries/romania';
-import { bulgaria } from './countries/bulgaria';
-import { serbia } from './countries/serbia';
-import { slovenia } from './countries/slovenia';
-import { switzerland } from './countries/switzerland';
-import { hungary } from './countries/hungary';
-import { slovakia } from './countries/slovakia';
-import { iceland } from './countries/iceland';
-import { lithuania } from './countries/lithuania';
-import { latvia } from './countries/latvia';
-import { estonia } from './countries/estonia';
-import { malta } from './countries/malta';
-import { cyprus } from './countries/cyprus';
-import { pakistan } from './countries/pakistan';
 import { sriLanka } from './countries/sri-lanka';
-import { nepal } from './countries/nepal';
-import { singapore } from './countries/singapore';
-import { indonesia } from './countries/indonesia';
-import { philippines } from './countries/philippines';
-import { malaysia } from './countries/malaysia';
-import { tunisia } from './countries/tunisia';
-import { libya } from './countries/libya';
 import { sudan } from './countries/sudan';
-import { somalia } from './countries/somalia';
+import { suriname } from './countries/suriname';
+import { sweden } from './countries/sweden';
+import { switzerland } from './countries/switzerland';
+import { syria } from './countries/syria';
+import { tajikistan } from './countries/tajikistan';
 import { tanzania } from './countries/tanzania';
+import { thailand } from './countries/thailand';
+import { togo } from './countries/togo';
+import { tonga } from './countries/tonga';
+import { trinidadAndTobago } from './countries/trinidad-and-tobago';
+import { tunisia } from './countries/tunisia';
+import { turkey } from './countries/turkey';
+import { turkmenistan } from './countries/turkmenistan';
+import { tuvalu } from './countries/tuvalu';
 import { uganda } from './countries/uganda';
-import { rwanda } from './countries/rwanda';
-import { mozambique } from './countries/mozambique';
-import { zimbabwe } from './countries/zimbabwe';
-import { botswana } from './countries/botswana';
-import { namibia } from './countries/namibia';
-import { angola } from './countries/angola';
-import { zambia } from './countries/zambia';
-import { malawi } from './countries/malawi';
-import { madagascar } from './countries/madagascar';
-import { mauritius } from './countries/mauritius';
-import { seychelles } from './countries/seychelles';
-import { senegal } from './countries/senegal';
-import { coteDivoire } from './countries/cote-divoire';
-import { bhutan } from './countries/bhutan';
-import { myanmar } from './countries/myanmar';
-import { laos } from './countries/laos';
-import { cambodia } from './countries/cambodia';
-import { brunei } from './countries/brunei';
-import { eastTimor } from './countries/east-timor';
-import { venezuela } from './countries/venezuela';
-import { paraguay } from './countries/paraguay';
+import { ukraine } from './countries/ukraine';
+import { unitedArabEmirates } from './countries/united-arab-emirates';
+import { unitedKingdom } from './countries/united-kingdom';
+import { unitedStates } from './countries/united-states';
 import { uruguay } from './countries/uruguay';
-
-const generateCountryId = (name: string): string => {
-  return name.toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[*()]/g, '')
-    .replace(/\./g, '')
-    .replace(/'/g, '')
-    .replace(/,/g, '')
-    .replace(/é/g, 'e')
-    .replace(/ô/g, 'o')
-    .replace(/ã/g, 'a')
-    .replace(/í/g, 'i');
-};
-
-const createPlaceholderCountry = (
-  name: string,
-  code: string,
-  continent: string,
-  flag: string,
-  coordinates: { x: number; y: number }
-): Country => ({
-  id: generateCountryId(name),
-  name,
-  code,
-  continent,
-  flag,
-  landscapeImage: countryLandscapes[name] || `https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80`,
-  description: `${name} is a country located in ${continent}. Discover its unique culture, traditions, and cuisine.`,
-  facts: [
-    `${name} is located in ${continent}`,
-    `The country code is ${code}`,
-    'Rich cultural heritage',
-    'Unique local traditions',
-  ],
-  foodCulture: `${name} has a diverse and rich culinary tradition that reflects its unique geography and cultural heritage.`,
-  mainDish: {
-    id: `${generateCountryId(name)}-main`,
-    name: `Traditional ${name} Dish`,
-    description: `A popular traditional dish from ${name}`,
-    cookingTime: 45,
-    servings: 4,
-    dietType: 'meat' as const,
-    ingredients: [
-      { name: 'Main ingredient', amount: 500, unit: 'g' },
-      { name: 'Spices', amount: 2, unit: 'tbsp' },
-    ],
-    steps: [
-      'Prepare ingredients',
-      'Cook according to local traditions',
-      'Serve hot',
-    ],
-    imageUrl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600',
-  },
-  drinks: {
-    alcoholic: 'Local wine or beer',
-    nonAlcoholic: 'Traditional tea',
-  },
-  music: ['Traditional folk music'],
-  decorationIdeas: ['Local textiles', 'Traditional colors'],
-  conversationStarters: [`What do you know about ${name}?`],
-  quiz: [
-    {
-      id: `${generateCountryId(name)}-q1`,
-      question: `What continent is ${name} located in?`,
-      options: ['Africa', 'Asia', 'Europe', continent],
-      correctAnswer: 3,
-    },
-  ],
-  coordinates,
-});
+import { uzbekistan } from './countries/uzbekistan';
+import { vanuatu } from './countries/vanuatu';
+import { vaticanCity } from './countries/vatican-city';
+import { venezuela } from './countries/venezuela';
+import { vietnam } from './countries/vietnam';
+import { yemen } from './countries/yemen';
+import { zambia } from './countries/zambia';
+import { zimbabwe } from './countries/zimbabwe';
 
 export const countries: Country[] = [
   afghanistan,
   albania,
   algeria,
+  andorra,
+  angola,
+  antiguaAndBarbuda,
   argentina,
+  armenia,
   australia,
   austria,
   azerbaijan,
   bahamas,
+  bahrain,
   bangladesh,
+  barbados,
+  belarus,
   belgium,
+  belize,
+  benin,
+  bhutan,
   bolivia,
+  bosniaHerzegovina,
+  botswana,
   brazil,
+  brunei,
+  bulgaria,
+  burkinaFaso,
+  burundi,
+  cambodia,
+  cameroon,
   canada,
+  capeVerde,
+  centralAfricanRepublic,
+  chad,
   chile,
   china,
   colombia,
+  comoros,
   costaRica,
+  coteDivoire,
   croatia,
   cuba,
+  cyprus,
   czechRepublic,
+  democraticRepublicCongo,
   denmark,
+  djibouti,
+  dominica,
+  dominicanRepublic,
+  eastTimor,
   ecuador,
   egypt,
+  elSalvador,
+  equatorialGuinea,
+  eritrea,
+  estonia,
+  eswatini,
   ethiopia,
+  fiji,
   finland,
   france,
+  gabon,
+  gambia,
+  georgia,
   germany,
   ghana,
   greece,
+  grenada,
+  guatemala,
+  guinea,
+  guineaBissau,
+  guyana,
+  haiti,
+  honduras,
+  hungary,
+  iceland,
   india,
+  indonesia,
   iran,
+  iraq,
   ireland,
+  israel,
   italy,
   jamaica,
   japan,
+  jordan,
+  kazakhstan,
   kenya,
-  lebanon,
-  mexico,
-  morocco,
-  netherlands,
-  newZealand,
-  nigeria,
-  norway,
-  peru,
-  poland,
-  portugal,
-  southAfrica,
-  southKorea,
-  spain,
-  sweden,
-  thailand,
-  turkey,
-  unitedStates,
-  vietnam,
-  romania,
-  russia,
-  serbia,
-  ukraine,
-  bulgaria,
-  hungary,
-  slovakia,
-  slovenia,
-  switzerland,
-  estonia,
-  iceland,
+  kiribati,
+  kuwait,
+  kyrgyzstan,
+  laos,
   latvia,
-  lithuania,
-  malta,
-  cyprus,
-  angola,
-  botswana,
-  coteDivoire,
+  lebanon,
+  lesotho,
+  liberia,
   libya,
+  liechtenstein,
+  lithuania,
+  luxembourg,
   madagascar,
   malawi,
+  malaysia,
+  maldives,
+  mali,
+  malta,
+  marshallIslands,
+  mauritania,
   mauritius,
+  mexico,
+  micronesia,
+  moldova,
+  monaco,
+  mongolia,
+  montenegro,
+  morocco,
   mozambique,
+  myanmar,
   namibia,
+  nauru,
+  nepal,
+  netherlands,
+  newZealand,
+  nicaragua,
+  niger,
+  nigeria,
+  northKorea,
+  northMacedonia,
+  norway,
+  oman,
+  pakistan,
+  palau,
+  palestine,
+  panama,
+  papuaNewGuinea,
+  paraguay,
+  peru,
+  philippines,
+  poland,
+  portugal,
+  qatar,
+  republicCongo,
+  romania,
+  russia,
   rwanda,
+  saintKittsAndNevis,
+  saintLucia,
+  saintVincentAndTheGrenadines,
+  samoa,
+  sanMarino,
+  saoTomeAndPrincipe,
+  saudiarabia,
   senegal,
+  serbia,
   seychelles,
+  sierraLeone,
+  singapore,
+  slovakia,
+  slovenia,
+  solomonIslands,
   somalia,
+  southAfrica,
+  southKorea,
+  southSudan,
+  spain,
+  sriLanka,
   sudan,
+  suriname,
+  sweden,
+  switzerland,
+  syria,
+  tajikistan,
   tanzania,
+  thailand,
+  togo,
+  tonga,
+  trinidadAndTobago,
   tunisia,
+  turkey,
+  turkmenistan,
+  tuvalu,
   uganda,
+  ukraine,
+  unitedArabEmirates,
+  unitedKingdom,
+  unitedStates,
+  uruguay,
+  uzbekistan,
+  vanuatu,
+  vaticanCity,
+  venezuela,
+  vietnam,
+  yemen,
   zambia,
   zimbabwe,
-  createPlaceholderCountry('Mali', 'ML', 'Africa', '🇲🇱', { x: 46, y: 28 }),
-  createPlaceholderCountry('Niger', 'NE', 'Africa', '🇳🇪', { x: 48, y: 28 }),
-  createPlaceholderCountry('Chad', 'TD', 'Africa', '🇹🇩', { x: 50, y: 28 }),
-  createPlaceholderCountry('Cameroon', 'CM', 'Africa', '🇨🇲', { x: 49, y: 18 }),
-  createPlaceholderCountry('Central African Republic', 'CF', 'Africa', '🇨🇫', { x: 52, y: 18 }),
-  createPlaceholderCountry('Democratic Republic of the Congo', 'CD', 'Africa', '🇨🇩', { x: 52, y: 15 }),
-  createPlaceholderCountry('Republic of the Congo', 'CG', 'Africa', '🇨🇬', { x: 50, y: 18 }),
-  createPlaceholderCountry('Gabon', 'GA', 'Africa', '🇬🇦', { x: 49, y: 16 }),
-  createPlaceholderCountry('Equatorial Guinea', 'GQ', 'Africa', '🇬🇶', { x: 49, y: 19 }),
-  createPlaceholderCountry('Burkina Faso', 'BF', 'Africa', '🇧🇫', { x: 46, y: 25 }),
-  createPlaceholderCountry('Togo', 'TG', 'Africa', '🇹🇬', { x: 47, y: 18 }),
-  createPlaceholderCountry('Benin', 'BJ', 'Africa', '🇧🇯', { x: 48, y: 19 }),
-  createPlaceholderCountry('Liberia', 'LR', 'Africa', '🇱🇷', { x: 45, y: 18 }),
-  createPlaceholderCountry('Sierra Leone', 'SL', 'Africa', '🇸🇱', { x: 44, y: 20 }),
-  createPlaceholderCountry('Guinea', 'GN', 'Africa', '🇬🇳', { x: 44, y: 22 }),
-  createPlaceholderCountry('Guinea-Bissau', 'GW', 'Africa', '🇬🇼', { x: 44, y: 24 }),
-  createPlaceholderCountry('Gambia', 'GM', 'Africa', '🇬🇲', { x: 44, y: 26 }),
-  createPlaceholderCountry('Mauritania', 'MR', 'Africa', '🇲🇷', { x: 45, y: 32 }),
-  createPlaceholderCountry('Cape Verde', 'CV', 'Africa', '🇨🇻', { x: 42, y: 28 }),
-  createPlaceholderCountry('Comoros', 'KM', 'Africa', '🇰🇲', { x: 58, y: 14 }),
-  createPlaceholderCountry('São Tomé and Príncipe', 'ST', 'Africa', '🇸🇹', { x: 48, y: 16 }),
-  createPlaceholderCountry('Eritrea', 'ER', 'Africa', '🇪🇷', { x: 56, y: 26 }),
-  createPlaceholderCountry('Djibouti', 'DJ', 'Africa', '🇩🇯', { x: 57, y: 24 }),
-  createPlaceholderCountry('Lesotho', 'LS', 'Africa', '🇱🇸', { x: 53, y: 9 }),
-  createPlaceholderCountry('Eswatini', 'SZ', 'Africa', '🇸🇿', { x: 55, y: 10 }),
-  pakistan,
-  sriLanka,
-  nepal,
-  bhutan,
-  cambodia,
-  laos,
-  myanmar,
-  malaysia,
-  singapore,
-  indonesia,
-  philippines,
-  brunei,
-  eastTimor,
-  createPlaceholderCountry('Mongolia', 'MN', 'Asia', '🇲🇳', { x: 78, y: 48 }),
-  createPlaceholderCountry('North Korea', 'KP', 'Asia', '🇰🇵', { x: 82, y: 42 }),
-  createPlaceholderCountry('Taiwan', 'TW', 'Asia', '🇹🇼', { x: 83, y: 33 }),
-  createPlaceholderCountry('Hong Kong', 'HK', 'Asia', '🇭🇰', { x: 80, y: 31 }),
-  createPlaceholderCountry('Macau', 'MO', 'Asia', '🇲🇴', { x: 80, y: 30 }),
-  createPlaceholderCountry('Maldives', 'MV', 'Asia', '🇲🇻', { x: 70, y: 19 }),
-  createPlaceholderCountry('Kazakhstan', 'KZ', 'Asia', '🇰🇿', { x: 65, y: 48 }),
-  createPlaceholderCountry('Uzbekistan', 'UZ', 'Asia', '🇺🇿', { x: 64, y: 42 }),
-  createPlaceholderCountry('Turkmenistan', 'TM', 'Asia', '🇹🇲', { x: 62, y: 42 }),
-  createPlaceholderCountry('Kyrgyzstan', 'KG', 'Asia', '🇰🇬', { x: 66, y: 42 }),
-  createPlaceholderCountry('Tajikistan', 'TJ', 'Asia', '🇹🇯', { x: 67, y: 40 }),
-
-  createPlaceholderCountry('Armenia', 'AM', 'Asia', '🇦🇲', { x: 57, y: 42 }),
-  createPlaceholderCountry('Georgia', 'GE', 'Asia/Europe', '🇬🇪', { x: 58, y: 43 }),
-  createPlaceholderCountry('Iraq', 'IQ', 'Asia', '🇮🇶', { x: 58, y: 36 }),
-  createPlaceholderCountry('Syria', 'SY', 'Asia', '🇸🇾', { x: 55, y: 37 }),
-  createPlaceholderCountry('Jordan', 'JO', 'Asia', '🇯🇴', { x: 54, y: 35 }),
-  createPlaceholderCountry('Israel', 'IL', 'Asia', '🇮🇱', { x: 54, y: 36 }),
-  createPlaceholderCountry('Palestine', 'PS', 'Asia', '🇵🇸', { x: 54, y: 36 }),
-  createPlaceholderCountry('Saudi Arabia', 'SA', 'Asia', '🇸🇦', { x: 58, y: 32 }),
-  createPlaceholderCountry('Yemen', 'YE', 'Asia', '🇾🇪', { x: 58, y: 27 }),
-  createPlaceholderCountry('Oman', 'OM', 'Asia', '🇴🇲', { x: 61, y: 30 }),
-  createPlaceholderCountry('United Arab Emirates', 'AE', 'Asia', '🇦🇪', { x: 59, y: 33 }),
-  createPlaceholderCountry('Qatar', 'QA', 'Asia', '🇶🇦', { x: 59, y: 34 }),
-  createPlaceholderCountry('Bahrain', 'BH', 'Asia', '🇧🇭', { x: 59, y: 35 }),
-  createPlaceholderCountry('Kuwait', 'KW', 'Asia', '🇰🇼', { x: 58, y: 35 }),
-  createPlaceholderCountry('Papua New Guinea', 'PG', 'Oceania', '🇵🇬', { x: 87, y: 15 }),
-  createPlaceholderCountry('Fiji', 'FJ', 'Oceania', '🇫🇯', { x: 92, y: 12 }),
-  createPlaceholderCountry('Solomon Islands', 'SB', 'Oceania', '🇸🇧', { x: 90, y: 15 }),
-  createPlaceholderCountry('Vanuatu', 'VU', 'Oceania', '🇻🇺', { x: 91, y: 12 }),
-  createPlaceholderCountry('New Caledonia', 'NC', 'Oceania', '🇳🇨', { x: 90, y: 10 }),
-  createPlaceholderCountry('Samoa', 'WS', 'Oceania', '🇼🇸', { x: 95, y: 14 }),
-  createPlaceholderCountry('Tonga', 'TO', 'Oceania', '🇹🇴', { x: 94, y: 10 }),
-  createPlaceholderCountry('Palau', 'PW', 'Oceania', '🇵🇼', { x: 84, y: 22 }),
-  createPlaceholderCountry('Micronesia', 'FM', 'Oceania', '🇫🇲', { x: 87, y: 22 }),
-  createPlaceholderCountry('Marshall Islands', 'MH', 'Oceania', '🇲🇭', { x: 90, y: 22 }),
-  createPlaceholderCountry('Kiribati', 'KI', 'Oceania', '🇰🇮', { x: 93, y: 19 }),
-  createPlaceholderCountry('Nauru', 'NR', 'Oceania', '🇳🇷', { x: 91, y: 19 }),
-  createPlaceholderCountry('Tuvalu', 'TV', 'Oceania', '🇹🇻', { x: 92, y: 16 }),
-
-  createPlaceholderCountry('Barbados', 'BB', 'North America', '🇧🇧', { x: 26, y: 25 }),
-  createPlaceholderCountry('Trinidad and Tobago', 'TT', 'North America', '🇹🇹', { x: 26, y: 22 }),
-  createPlaceholderCountry('Belize', 'BZ', 'North America', '🇧🇿', { x: 17, y: 27 }),
-  createPlaceholderCountry('Guatemala', 'GT', 'North America', '🇬🇹', { x: 17, y: 26 }),
-  createPlaceholderCountry('Honduras', 'HN', 'North America', '🇭🇳', { x: 18, y: 26 }),
-  createPlaceholderCountry('Nicaragua', 'NI', 'North America', '🇳🇮', { x: 18, y: 25 }),
-
-  createPlaceholderCountry('Panama', 'PA', 'North America', '🇵🇦', { x: 19, y: 21 }),
-  createPlaceholderCountry('El Salvador', 'SV', 'North America', '🇸🇻', { x: 17, y: 25 }),
-  createPlaceholderCountry('Dominican Republic', 'DO', 'North America', '🇩🇴', { x: 24, y: 29 }),
-  createPlaceholderCountry('Haiti', 'HT', 'North America', '🇭🇹', { x: 23, y: 29 }),
-  createPlaceholderCountry('Puerto Rico', 'PR', 'North America', '🇵🇷', { x: 25, y: 28 }),
-  createPlaceholderCountry('Grenada', 'GD', 'North America', '🇬🇩', { x: 26, y: 24 }),
-  createPlaceholderCountry('Saint Lucia', 'LC', 'North America', '🇱🇨', { x: 26, y: 25 }),
-  createPlaceholderCountry('Saint Vincent and the Grenadines', 'VC', 'North America', '🇻🇨', { x: 26, y: 25 }),
-  createPlaceholderCountry('Dominica', 'DM', 'North America', '🇩🇲', { x: 26, y: 26 }),
-  createPlaceholderCountry('Antigua and Barbuda', 'AG', 'North America', '🇦🇬', { x: 26, y: 27 }),
-  createPlaceholderCountry('Saint Kitts and Nevis', 'KN', 'North America', '🇰🇳', { x: 26, y: 27 }),
-
-  paraguay,
-  uruguay,
-  venezuela,
-  createPlaceholderCountry('Guyana', 'GY', 'South America', '🇬🇾', { x: 26, y: 20 }),
-  createPlaceholderCountry('Suriname', 'SR', 'South America', '🇸🇷', { x: 27, y: 20 }),
-  createPlaceholderCountry('French Guiana', 'GF', 'South America', '🇬🇫', { x: 28, y: 20 }),
 ];
