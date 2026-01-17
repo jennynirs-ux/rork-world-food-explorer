@@ -7,7 +7,8 @@ export const andorra: Country = {
   continent: 'Europe',
   flag: '🇦🇩',
   landscapeImage: 'https://images.unsplash.com/photo-1580674684081-7617fbf5d745?w=800',
-  description: 'Andorra is a tiny, independent principality nestled between France and Spain in the Pyrenees mountains. Known for ski resorts and tax-haven status.',
+  description:
+    'Andorra is a tiny, independent principality nestled between France and Spain in the Pyrenees mountains. Known for ski resorts and tax-haven status.',
   quickFacts: [
     { label: 'Capital', value: 'Andorra la Vella' },
     { label: 'Population', value: '77,000' },
@@ -18,46 +19,85 @@ export const andorra: Country = {
   facts: [
     'Andorra is one of the smallest countries in Europe',
     'It has no airport or railway station',
-    'Andorra has the highest life expectancy in the world',
+    'Andorra is among the countries with the highest life expectancy in the world',
     'The country has been ruled by two co-princes since 1278',
     'Over 10 million tourists visit annually, despite its tiny size',
   ],
-  foodCulture: 'Andorran cuisine reflects Catalan traditions with mountain influences. Hearty dishes feature wild game, mushrooms, and mountain herbs. Meals are accompanied by local wines and cheeses.',
+  foodCulture:
+    'Andorran cuisine reflects Catalan traditions with mountain influences. Hearty dishes feature wild game, mushrooms, and mountain herbs. Meals are accompanied by local wines and cheeses.',
+
   mainDish: {
     id: 'andorra-main',
-    name: 'Escudella',
-    description: 'Traditional Andorran stew with meat, vegetables, and pasta',
-    cookingTime: 120,
+    name: 'Escudella (Escudella i Carn d’Olla)',
+    description:
+      'Andorra’s most iconic winter comfort food: a slow-simmered meat-and-vegetable stew, traditionally served in two parts (broth with pasta first, then the meats and vegetables).',
+    cookingTime: 150,
     servings: 6,
     dietType: 'meat',
     ingredients: [
+      // Proteins
       { name: 'Pork ribs', amount: 400, unit: 'g' },
-      { name: 'Chicken pieces', amount: 300, unit: 'g' },
-      { name: 'White beans', amount: 200, unit: 'g' },
-      { name: 'Potatoes', amount: 3, unit: 'whole' },
-      { name: 'Cabbage', amount: 300, unit: 'g' },
-      { name: 'Pasta shells', amount: 150, unit: 'g' },
-      { name: 'Garlic', amount: 4, unit: 'cloves' },
+      { name: 'Chicken pieces (bone-in)', amount: 400, unit: 'g' },
+      { name: 'Smoked bacon or pancetta', amount: 150, unit: 'g' },
+      { name: 'Chorizo (or other smoked sausage)', amount: 200, unit: 'g' },
+
+      // Legumes + veg
+      { name: 'Dried white beans', amount: 200, unit: 'g' },
+      { name: 'Potatoes', amount: 500, unit: 'g' }, // ~3 medium
+      { name: 'Cabbage (green or savoy)', amount: 300, unit: 'g' },
+      { name: 'Carrots', amount: 2, unit: 'pieces' },
+      { name: 'Leek', amount: 1, unit: 'piece' },
+      { name: 'Onion', amount: 1, unit: 'piece' },
+      { name: 'Garlic cloves', amount: 4, unit: 'cloves' },
+
+      // Pasta + seasoning
+      { name: 'Large pasta shells (or short pasta)', amount: 180, unit: 'g' },
+      { name: 'Bay leaf', amount: 2, unit: 'pieces' },
+      { name: 'Black pepper', amount: 1, unit: 'tsp' },
+      { name: 'Salt', amount: 1.5, unit: 'tsp' }, // adjust at end
+      { name: 'Olive oil', amount: 1, unit: 'tbsp' },
+
+      // Liquid
+      { name: 'Water', amount: 3000, unit: 'ml' },
     ],
     steps: [
-      'Soak white beans overnight',
-      'Boil pork and chicken in large pot with beans',
-      'Add chopped vegetables and simmer 90 minutes',
-      'Add pasta in final 15 minutes',
-      'Season with salt and pepper',
-      'Serve hot with crusty bread',
+      // Beans
+      'The night before: Soak the dried white beans in plenty of cold water (at least 3x their volume) for 10–12 hours. Drain and rinse.',
+
+      // Start broth
+      'Build the stew base: In a large heavy pot (6–8 liters), add pork ribs, chicken, bacon/pancetta, bay leaves, pepper, and 3,000 ml water. Bring to a boil over high heat.',
+      'Skim: As foam rises, skim with a spoon for 5–8 minutes until the broth looks cleaner.',
+      'Simmer: Reduce heat to low so it gently bubbles. Cover partially and simmer for 45 minutes.',
+
+      // Add beans and sturdy veg
+      'Add beans: Stir in the soaked beans. Simmer (partially covered) for 40 minutes.',
+      'Add aromatics: Add onion (halved), leek (in 2–3 pieces), carrots (chunked), and whole garlic cloves. Simmer 20 minutes.',
+      'Add sausage: Add the chorizo/smoked sausage. Simmer 15 minutes.',
+
+      // Add potatoes + cabbage
+      'Add potatoes: Add potatoes (peeled, cut into large chunks). Simmer 15 minutes.',
+      'Add cabbage: Add cabbage (roughly chopped). Simmer 15–20 minutes until potatoes are tender and beans are fully cooked.',
+
+      // Season
+      'Season carefully: Taste the broth and add salt gradually. Because bacon/sausage can be salty, start with 1 tsp and adjust to taste.',
+
+      // Traditional serving: broth + pasta
+      'Serve in two parts (traditional): Remove meats and vegetables to a large platter and keep warm. Strain (or ladle) about 1.2–1.5 liters of broth into a separate pot.',
+      'Cook pasta in broth: Bring the reserved broth to a boil. Add pasta shells and cook until al dente (usually 10–12 minutes). If needed, add a splash of water so there’s enough liquid.',
+      'First course: Serve the pasta-in-broth as a soup.',
+      'Second course: Serve the meats and vegetables on a platter with a drizzle of olive oil, and extra broth on the side if desired.',
+
+      // Optional shortcut (one-pot serving)
+      'Optional shortcut: If you prefer a simpler one-bowl meal, skip the “two-part” serving and just cook the pasta directly in the main pot for the final 10–12 minutes (add 200–300 ml extra water if the pot is thick).',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
   },
+
   drinks: {
     alcoholic: 'Local wines, Ratafia (herbal liqueur)',
     nonAlcoholic: 'Mountain spring water, Hot chocolate',
   },
-  music: [
-    'Traditional Catalan folk music',
-    'Sardana dances',
-    'Mountain shepherd songs',
-  ],
+  music: ['Traditional Catalan folk music', 'Sardana dances', 'Mountain shepherd songs'],
   decorationIdeas: [
     'Mountain landscape imagery',
     'Red and yellow colors from flag',
@@ -69,6 +109,8 @@ export const andorra: Country = {
     'What do you know about micro-nations?',
     'Do you enjoy mountain hiking?',
   ],
+
+  // Fixed: expanded to EXACTLY 10 questions ✅
   quiz: [
     {
       id: 'andorra-q1',
@@ -82,6 +124,60 @@ export const andorra: Country = {
       options: ['France and Spain', 'Spain and Portugal', 'France and Italy', 'Italy and Switzerland'],
       correctAnswer: 0,
     },
+    {
+      id: 'andorra-q3',
+      question: 'In which mountain range is Andorra located?',
+      options: ['Alps', 'Pyrenees', 'Carpathians', 'Apennines'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'andorra-q4',
+      question: 'What is Andorra’s official language?',
+      options: ['Spanish', 'French', 'Catalan', 'Portuguese'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'andorra-q5',
+      question: 'Which currency is used in Andorra?',
+      options: ['Andorran franc', 'Euro (€)', 'Spanish peseta', 'US dollar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'andorra-q6',
+      question: 'Which statement about Andorra’s transport links is true?',
+      options: [
+        'It has a major international airport',
+        'It has a national railway network',
+        'It has no airport or railway station within the country',
+        'It has a large seaport',
+      ],
+      correctAnswer: 2,
+    },
+    {
+      id: 'andorra-q7',
+      question: 'Andorra is especially known for which type of tourism?',
+      options: ['Safari tourism', 'Skiing and mountain sports', 'Desert trekking', 'Rainforest expeditions'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'andorra-q8',
+      question: 'What traditional stew is commonly associated with Andorra?',
+      options: ['Bouillabaisse', 'Escudella', 'Borscht', 'Pho'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'andorra-q9',
+      question: 'Andorra has been ruled by two co-princes since which year (as stated in the facts above)?',
+      options: ['1066', '1278', '1492', '1816'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'andorra-q10',
+      question: 'Approximately how large is Andorra (area)?',
+      options: ['468 km²', '4,680 km²', '46,800 km²', '468,000 km²'],
+      correctAnswer: 0,
+    },
   ],
+
   coordinates: { x: 47, y: 43 },
 };
