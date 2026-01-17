@@ -190,4 +190,41 @@ export const angola: Country = {
   ],
   conversationStarters: [
     'Have you heard of kizomba or semba music?',
-    'What
+    'What do you know about Angolan cuisine?',
+    'Have you tried muamba de galinha?',
+    'What would you like to learn about Angola?',
+  ],
+  quiz: [
+    {
+      id: 'angola-q1',
+      question: 'What is the capital of Angola?',
+      options: ['Benguela', 'Luanda', 'Huambo', 'Lobito'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'angola-q2',
+      question: 'What is Angola\'s official language?',
+      options: ['English', 'Spanish', 'Portuguese', 'French'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'angola-q3',
+      question: 'Which music style originated in Angola?',
+      options: ['Samba', 'Semba', 'Salsa', 'Rumba'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'angola-q4',
+      question: 'What is Angola\'s national dish?',
+      options: ['Feijoada', 'Muamba de Galinha', 'Moqueca', 'Bacalhau'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'angola-q5',
+      question: 'When did Angola gain independence?',
+      options: ['1960', '1975', '1990', '2002'],
+      correctAnswer: 1,
+    },
+  ],
+  coordinates: { x: 52, y: 59 },
+};
