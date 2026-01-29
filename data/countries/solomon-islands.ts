@@ -7,70 +7,181 @@ export const solomonIslands: Country = {
   continent: 'Oceania',
   flag: '🇸🇧',
   landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
-  description: 'Solomon Islands is a Pacific nation of nearly 1,000 islands, known for WWII history, diving, and traditional Melanesian culture.',
+  description:
+    'The Solomon Islands is a Pacific nation of nearly 1,000 islands, known for lush rainforests, coral reefs, WWII history, and strong Melanesian traditions.',
   quickFacts: [
     { label: 'Capital', value: 'Honiara' },
     { label: 'Population', value: '700,000' },
     { label: 'Official Language', value: 'English' },
-    { label: 'Currency', value: 'Solomon Islands Dollar' },
+    { label: 'Currency', value: 'Solomon Islands Dollar (SBD)' },
     { label: 'Area', value: '28,896 km²' },
   ],
   facts: [
-    'Site of major WWII Pacific battles',
-    'Over 900 islands',
-    'World-class diving with WWII wrecks',
-    'Rich in traditional shell money culture',
+    'The country consists of more than 900 islands',
+    'Many major World War II battles took place here, including Guadalcanal',
+    'Traditional shell money is still used in some communities',
+    'Fishing and subsistence farming are central to daily life',
+    'The islands are part of the Melanesian cultural region',
+    'Over 70 languages are spoken across the country',
+    'Coral reefs and lagoons support rich marine biodiversity',
+    'Village life and community traditions remain strong',
   ],
-  foodCulture: 'Solomon Islander cuisine features fish, taro, sweet potato, and coconut.',
+  foodCulture:
+    'Solomon Islands cuisine is based on fresh fish, root vegetables, bananas, taro, and coconut. Food is often cooked in earth ovens or over open fires, with simple seasoning that highlights natural flavors.',
+
+  history: [
+    {
+      year: 'Pre-1800s',
+      title: 'Indigenous Melanesian Settlement',
+      description:
+        'Melanesian peoples settled the islands thousands of years ago, developing rich cultural traditions and village-based societies.',
+    },
+    {
+      year: '1568',
+      title: 'European Contact',
+      description:
+        'Spanish explorer Álvaro de Mendaña was the first European to visit the islands.',
+    },
+    {
+      year: '1893',
+      title: 'British Protectorate',
+      description:
+        'The Solomon Islands became a British protectorate, shaping colonial administration and trade.',
+    },
+    {
+      year: '1942–1945',
+      title: 'World War II',
+      description:
+        'The islands were the site of major Pacific battles, especially the Battle of Guadalcanal.',
+    },
+    {
+      year: '1978',
+      title: 'Independence',
+      description:
+        'The Solomon Islands gained independence from the United Kingdom.',
+    },
+  ],
+
   mainDish: {
     id: 'solomon-islands-main',
-    name: 'Poi',
-    description: 'Pudding made from fermented taro and banana',
+    name: 'Poi (Taro & Banana Pudding)',
+    description:
+      'A traditional island pudding made from taro and ripe bananas, enriched with coconut cream and gently fermented or freshly prepared.',
     cookingTime: 120,
     servings: 6,
     dietType: 'vegan',
     ingredients: [
-      { name: 'Taro', amount: 1, unit: 'kg' },
-      { name: 'Bananas', amount: 6, unit: 'whole' },
+      { name: 'Taro root, peeled and cubed', amount: 1, unit: 'kg' },
+      { name: 'Ripe bananas, peeled', amount: 6, unit: 'whole' },
       { name: 'Coconut cream', amount: 400, unit: 'ml' },
-      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Sugar (optional)', amount: 100, unit: 'g' },
+      { name: 'Water', amount: 1.5, unit: 'l' },
     ],
     steps: [
-      'Boil taro until soft',
-      'Mash taro and bananas together',
-      'Mix with coconut cream',
-      'Add sugar to taste',
-      'Allow to ferment slightly',
-      'Serve chilled or warm',
+      'Place cubed taro in a large pot and add water until fully covered.',
+      'Bring to a boil and cook for 35–40 minutes until taro is very soft.',
+      'Drain taro completely and transfer to a large mixing bowl.',
+      'Mash taro until smooth using a pestle or potato masher.',
+      'Add peeled bananas and mash together with taro until combined.',
+      'Pour in coconut cream and mix until thick and creamy.',
+      'Add sugar if a sweeter taste is desired.',
+      'For traditional flavor, cover and rest at room temperature for 12–24 hours to lightly ferment.',
+      'Serve at room temperature or slightly warmed.',
+      'Optional: drizzle extra coconut cream on top before serving.',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
   },
+
   drinks: {
     alcoholic: 'Kava, Local beer',
-    nonAlcoholic: 'Coconut water, Fresh juice',
+    nonAlcoholic: 'Fresh coconut water, Banana juice, Herbal teas',
   },
+
   music: [
     'Traditional panpipe music',
     'Melanesian chants',
-    'Contemporary Pacific pop',
+    'Drum-based ceremonial music',
+    'Modern Pacific island pop',
   ],
+
   decorationIdeas: [
-    'Blue, green and yellow flag colors',
-    'Ocean and island themes',
-    'WWII historical elements',
-    'Shell money decorations',
+    'Blue, green, and yellow flag colors',
+    'Ocean and coral reef themes',
+    'Traditional shell money displays',
+    'Wood carvings and woven mats',
+    'WWII historical imagery (maps, photos)',
   ],
+
   conversationStarters: [
-    'What do you know about WWII in the Pacific?',
-    'Have you been diving?',
+    'Did you know the Solomon Islands played a key role in WWII?',
+    'Would you try traditional taro-based dishes?',
+    'Have you ever visited a Pacific island nation?',
+    'What interests you more: history or marine life?',
+    'How important do you think village traditions are today?',
   ],
+
   quiz: [
     {
-      id: 'solomon-islands-q1',
-      question: 'What is the capital of Solomon Islands?',
+      id: 'solomon-q1',
+      question: 'What is the capital of the Solomon Islands?',
       options: ['Honiara', 'Suva', 'Port Vila', 'Apia'],
       correctAnswer: 0,
     },
+    {
+      id: 'solomon-q2',
+      question: 'The Solomon Islands are part of which cultural region?',
+      options: ['Polynesia', 'Micronesia', 'Melanesia', 'Indonesia'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'solomon-q3',
+      question: 'Approximately how many islands make up the Solomon Islands?',
+      options: ['50', '200', '500', '900+'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'solomon-q4',
+      question: 'Which major WWII battle took place in the Solomon Islands?',
+      options: ['Battle of Midway', 'Battle of Okinawa', 'Battle of Guadalcanal', 'Battle of Iwo Jima'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'solomon-q5',
+      question: 'What is a traditional form of currency still used in some areas?',
+      options: ['Gold coins', 'Shell money', 'Rice tokens', 'Copper rings'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'solomon-q6',
+      question: 'Which ingredient is central to many traditional dishes?',
+      options: ['Wheat', 'Rice', 'Taro', 'Corn'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'solomon-q7',
+      question: 'What ocean surrounds the Solomon Islands?',
+      options: ['Indian Ocean', 'Atlantic Ocean', 'Pacific Ocean', 'Southern Ocean'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'solomon-q8',
+      question: 'When did the Solomon Islands gain independence?',
+      options: ['1965', '1978', '1985', '1992'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'solomon-q9',
+      question: 'What musical instrument is traditionally associated with the islands?',
+      options: ['Bagpipes', 'Panpipes', 'Accordion', 'Sitar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'solomon-q10',
+      question: 'What natural feature makes the Solomon Islands ideal for diving?',
+      options: ['Desert reefs', 'Volcanic ice', 'Coral reefs and WWII wrecks', 'Freshwater lakes'],
+      correctAnswer: 2,
+    },
   ],
+
   coordinates: { x: 90, y: 15 },
 };
