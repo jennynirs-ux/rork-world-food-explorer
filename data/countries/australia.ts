@@ -205,6 +205,36 @@ export const australia: Country = {
       options: ['Nutella', 'Vegemite', 'Marmite', 'Peanut butter'],
       correctAnswer: 1,
     },
+    {
+      id: 'australia-q6',
+      question: 'What percentage of Australian animals are found nowhere else on Earth?',
+      options: ['50%', '60%', '70%', '80%'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'australia-q7',
+      question: 'What are Lamingtons coated in?',
+      options: ['Chocolate and coconut', 'Caramel and nuts', 'Vanilla and sprinkles', 'Honey and almonds'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'australia-q8',
+      question: 'How many beaches does Australia have?',
+      options: ['Over 1,000', 'Over 5,000', 'Over 10,000', 'Over 20,000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'australia-q9',
+      question: 'When did Australia federate as a nation?',
+      options: ['1788', '1850', '1901', '1945'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'australia-q10',
+      question: 'Which coffee drink originated in Australia?',
+      options: ['Cappuccino', 'Latte', 'Flat white', 'Macchiato'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 85, y: 8 },
 };

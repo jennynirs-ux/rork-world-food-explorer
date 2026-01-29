@@ -225,6 +225,36 @@ export const angola: Country = {
       options: ['1960', '1975', '1990', '2002'],
       correctAnswer: 1,
     },
+    {
+      id: 'angola-q6',
+      question: 'What is the name of Angola\'s currency?',
+      options: ['Peso', 'Kwanza', 'Rand', 'Dollar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'angola-q7',
+      question: 'Which animal is endemic to Angola?',
+      options: ['Mountain gorilla', 'Giant sable antelope', 'Snow leopard', 'Bengal tiger'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'angola-q8',
+      question: 'What is one of Africa\'s largest waterfalls located in Angola?',
+      options: ['Victoria Falls', 'Kalandula Falls', 'Tugela Falls', 'Murchison Falls'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'angola-q9',
+      question: 'Which dance and music style originated in Angola in the 1980s?',
+      options: ['Samba', 'Kizomba', 'Tango', 'Flamenco'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'angola-q10',
+      question: 'When did Angola\'s civil war end?',
+      options: ['1975', '1990', '2002', '2010'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 52, y: 59 },
 };

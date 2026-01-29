@@ -26,6 +26,68 @@ export const andorra: Country = {
   foodCulture:
     'Andorran cuisine reflects Catalan traditions with mountain influences. Hearty dishes feature wild game, mushrooms, and mountain herbs. Meals are accompanied by local wines and cheeses.',
 
+  history: [
+    {
+      year: '9th Century',
+      title: 'Foundation',
+      description:
+        'Charlemagne granted a charter to Andorran people in recognition of their support against the Moors.',
+    },
+    {
+      year: '1278',
+      title: 'Co-Principality Established',
+      description:
+        'The co-principality system was established, with two co-princes sharing sovereignty—a unique governance structure that continues today.',
+    },
+    {
+      year: '1933',
+      title: 'Universal Male Suffrage',
+      description:
+        'Andorra introduced voting rights for men, beginning its slow transition toward modern democracy.',
+    },
+    {
+      year: '1993',
+      title: 'Modern Constitution',
+      description:
+        'Andorra adopted its first written constitution, becoming a parliamentary democracy while maintaining its traditional co-princes.',
+    },
+  ],
+  innovations: [
+    {
+      name: 'Co-Principality System',
+      year: '1278',
+      description:
+        'A unique governance model with two co-princes (the Bishop of Urgell and the President of France) that has survived for over 700 years.',
+    },
+    {
+      name: 'Tax-Free Commerce',
+      year: '20th Century',
+      description:
+        'Andorra developed a tax-haven economy that attracted international commerce and tourism.',
+    },
+    {
+      name: 'Mountain Resilience',
+      year: 'Traditional',
+      description:
+        'Andorrans developed unique architectural and agricultural techniques adapted to steep mountain terrain.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Grandvalira', description: 'One of the largest ski areas in the Pyrenees with over 200 km of slopes.' },
+    { name: 'Caldea Spa', description: 'Europe\'s largest mountain thermal spa complex with stunning views.' },
+    { name: 'Sant Joan de Caselles', description: 'Beautiful 11th-century Romanesque church with original frescoes.' },
+    { name: 'Coma Pedrosa', description: 'Andorra\'s highest peak offering challenging hikes and panoramic views.' },
+    { name: 'Casa de la Vall', description: 'Historic parliament building dating from 1580 in Andorra la Vella.' },
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'December-March for skiing; June-September for hiking and mountain activities.' },
+    { item: 'Getting there', description: 'No airport or train—access via bus or car from Barcelona (3 hours) or Toulouse (2.5 hours).' },
+    { item: 'Shopping', description: 'Take advantage of duty-free shopping for electronics, perfumes, and alcohol.' },
+    { item: 'Language', description: 'Catalan is official but Spanish and French are widely spoken; English in tourist areas.' },
+    { item: 'Currency', description: 'Euro is used despite not being in the EU.' },
+    { item: 'Layers', description: 'Mountain weather changes quickly—bring warm clothing even in summer.' },
+  ],
+
   mainDish: {
     id: 'andorra-main',
     name: 'Escudella (Escudella i Carn d’Olla)',
@@ -91,6 +153,37 @@ export const andorra: Country = {
       'Optional shortcut: If you prefer a simpler one-bowl meal, skip the “two-part” serving and just cook the pasta directly in the main pot for the final 10–12 minutes (add 200–300 ml extra water if the pot is thick).',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+  },
+
+  dessert: {
+    id: 'andorra-dessert',
+    name: 'Crema Catalana',
+    description: 'Catalan-style crème brûlée with cinnamon and lemon zest, caramelized sugar on top',
+    cookingTime: 35,
+    servings: 6,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Whole milk', amount: 1000, unit: 'ml' },
+      { name: 'Egg yolks', amount: 8, unit: 'large' },
+      { name: 'Sugar', amount: 150, unit: 'g' },
+      { name: 'Cornstarch', amount: 30, unit: 'g' },
+      { name: 'Cinnamon stick', amount: 1, unit: 'whole' },
+      { name: 'Lemon zest', amount: 1, unit: 'lemon' },
+      { name: 'Brown sugar for caramelizing', amount: 60, unit: 'g' },
+    ],
+    steps: [
+      'Heat milk with cinnamon stick and lemon zest until warm. Remove from heat, cover, infuse 20 minutes.',
+      'Strain milk to remove cinnamon and zest.',
+      'Whisk egg yolks with sugar until pale and thick.',
+      'Add cornstarch and whisk until smooth.',
+      'Slowly pour warm milk into egg mixture, whisking constantly.',
+      'Return to pan and cook over medium-low heat, stirring constantly until thickened (about 8 minutes).',
+      'Pour into shallow ceramic dishes (cazuelas).',
+      'Cool to room temperature, then refrigerate at least 3 hours.',
+      'Before serving, sprinkle thin layer of brown sugar on top.',
+      'Caramelize with kitchen torch or under hot broiler until golden and crispy.',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=600',
   },
 
   drinks: {

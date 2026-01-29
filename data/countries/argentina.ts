@@ -192,6 +192,36 @@ export const argentina: Country = {
       options: ['2', '3', '4', '5'],
       correctAnswer: 1,
     },
+    {
+      id: 'argentina-q6',
+      question: 'What is the traditional Argentine barbecue called?',
+      options: ['Churrasco', 'Asado', 'Parrilla', 'Barbacoa'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'argentina-q7',
+      question: 'What is the name of the massive glacier in Patagonia?',
+      options: ['Upsala Glacier', 'Perito Moreno Glacier', 'Viedma Glacier', 'Grey Glacier'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'argentina-q8',
+      question: 'Which famous waterfall is located on Argentina\'s border?',
+      options: ['Angel Falls', 'Victoria Falls', 'Iguazu Falls', 'Niagara Falls'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'argentina-q9',
+      question: 'What is the southernmost city in the world located in Argentina?',
+      options: ['Ushuaia', 'Bariloche', 'El Calafate', 'Punta Arenas'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'argentina-q10',
+      question: 'What Argentine cookie is filled with dulce de leche?',
+      options: ['Churros', 'Alfajores', 'Empanadas', 'Medialunas'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 26, y: 8 },
 };
