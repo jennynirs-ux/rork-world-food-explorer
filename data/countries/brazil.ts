@@ -200,6 +200,36 @@ export const brazil: Country = {
       options: ['40%', '50%', '60%', '70%'],
       correctAnswer: 2,
     },
+    {
+      id: 'brazil-q6',
+      question: 'What is Brazil\'s national dish?',
+      options: ['Paella', 'Feijoada', 'Ceviche', 'Tamales'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'brazil-q7',
+      question: 'When did Brazil abolish slavery?',
+      options: ['1865', '1878', '1888', '1898'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'brazil-q8',
+      question: 'What Brazilian martial art was developed by the Gracie family?',
+      options: ['Capoeira', 'Brazilian Jiu-Jitsu', 'Muay Thai', 'Krav Maga'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'brazil-q9',
+      question: 'Which city hosts the world\'s largest Carnival celebration?',
+      options: ['São Paulo', 'Salvador', 'Rio de Janeiro', 'Brasília'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'brazil-q10',
+      question: 'What is Brazil\'s ranking by country size in the world?',
+      options: ['3rd', '4th', '5th', '6th'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 28, y: 15 },
 };

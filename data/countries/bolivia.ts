@@ -58,6 +58,35 @@ export const bolivia: Country = {
       description: 'A new constitution was adopted, recognizing Bolivia as a plurinational state with 37 official languages.'
     },
   ],
+  innovations: [
+    {
+      name: 'Ancient Agricultural Terraces',
+      year: 'Pre-Columbian',
+      description: 'Tiwanaku and Inca civilizations developed sophisticated terrace farming systems in the Andes, allowing agriculture at extreme altitudes.'
+    },
+    {
+      name: 'Quinoa Domestication',
+      year: 'Ancient',
+      description: 'Indigenous Andean peoples domesticated quinoa thousands of years ago, creating a protein-rich superfood now popular worldwide.'
+    },
+    {
+      name: 'Indigenous Rights Recognition',
+      year: '2009',
+      description: 'Bolivia\'s plurinational constitution recognized indigenous peoples\' rights and made 37 indigenous languages official, setting a global precedent.'
+    },
+    {
+      name: 'Cable Car Urban Transport',
+      year: '2014',
+      description: 'La Paz built the world\'s highest and longest urban cable car network (Mi Teleférico), revolutionizing transport in mountainous cities.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Salar de Uyuni', description: 'The world\'s largest salt flat at 10,582 km², creating mirror-like reflections during rainy season and endless white landscapes.' },
+    { name: 'Lake Titicaca', description: 'The highest navigable lake in the world at 3,812m, with floating Uros islands and ancient ruins on Isla del Sol.' },
+    { name: 'Death Road (Yungas Road)', description: 'Thrilling mountain biking route descending from La Paz through cloud forests, once the world\'s most dangerous road.' },
+    { name: 'Tiwanaku Ruins', description: 'UNESCO World Heritage Site with pre-Incan ruins dating back to 400 BC, featuring the Gateway of the Sun.' },
+    { name: 'Madidi National Park', description: 'One of the most biodiverse places on Earth, with Amazon rainforest and Andean cloud forests.' }
+  ],
   travelEssentials: [
     { item: 'Visa', description: 'Visa requirements vary by nationality. Many countries require visa on arrival.' },
     { item: 'Best time to visit', description: 'May to October for dry season (winter)' },
@@ -162,6 +191,48 @@ export const bolivia: Country = {
       id: 'bolivia-q3',
       question: 'What is Bolivia\'s traditional baked pastry called?',
       options: ['Empanada', 'Salteña', 'Arepa', 'Tamale'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bolivia-q4',
+      question: 'Which two cities are the capitals of Bolivia?',
+      options: ['La Paz and Cochabamba', 'Sucre and Santa Cruz', 'Sucre and La Paz', 'Potosí and Oruro'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bolivia-q5',
+      question: 'What is the highest navigable lake in the world?',
+      options: ['Lake Baikal', 'Lake Titicaca', 'Lake Victoria', 'Lake Tanganyika'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bolivia-q6',
+      question: 'After whom is Bolivia named?',
+      options: ['Simón Bolívar', 'Christopher Columbus', 'Hernán Cortés', 'Francisco Pizarro'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'bolivia-q7',
+      question: 'Which ancient civilization flourished near Lake Titicaca?',
+      options: ['Maya', 'Aztec', 'Tiwanaku', 'Moche'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bolivia-q8',
+      question: 'When did Bolivia adopt its plurinational constitution?',
+      options: ['1999', '2004', '2009', '2014'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bolivia-q9',
+      question: 'What caused Bolivia to become landlocked?',
+      options: ['Treaty with Peru', 'War of the Pacific with Chile', 'Spanish colonization', 'Natural geography'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bolivia-q10',
+      question: 'What is the world\'s highest urban cable car network located in Bolivia?',
+      options: ['Teleférico Sucre', 'Mi Teleférico (La Paz)', 'Cable Potosí', 'Uyuni Lift'],
       correctAnswer: 1,
     },
   ],

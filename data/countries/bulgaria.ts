@@ -58,6 +58,35 @@ export const bulgaria: Country = {
       description: 'Bulgaria joined the European Union, opening new opportunities for economic development.'
     },
   ],
+  innovations: [
+    {
+      name: 'Cyrillic Alphabet',
+      year: '9th Century',
+      description: 'Saints Cyril and Methodius created the Glagolitic alphabet in Bulgaria, which evolved into the Cyrillic script used by over 250 million people today.'
+    },
+    {
+      name: 'Bulgarian Yogurt Culture',
+      year: 'Traditional',
+      description: 'Lactobacillus bulgaricus bacterium, unique to Bulgaria, creates the distinctive taste and health benefits of Bulgarian yogurt.'
+    },
+    {
+      name: 'Rose Oil Production',
+      year: '17th Century',
+      description: 'Bulgaria\'s Rose Valley produces 70% of the world\'s rose oil, perfecting distillation techniques over centuries.'
+    },
+    {
+      name: 'Electronic Computer',
+      year: '1960s',
+      description: 'Bulgarian scientists contributed to early computer development in Eastern Europe, building the ELKA computer series.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Rila Monastery', description: 'UNESCO World Heritage monastery with stunning frescoes and architecture, nestled in the Rila Mountains.' },
+    { name: 'Plovdiv Old Town', description: 'One of Europe\'s oldest continuously inhabited cities with Roman ruins and colorful Revival-era houses.' },
+    { name: 'Belogradchik Rocks', description: 'Spectacular red rock formations up to 200m tall with a medieval fortress built into them.' },
+    { name: 'Sunny Beach & Golden Sands', description: 'Black Sea resort towns with beautiful beaches and vibrant nightlife.' },
+    { name: 'Veliko Tarnovo', description: 'Medieval capital with dramatic fortress ruins overlooking winding Yantra River gorge.' }
+  ],
   travelEssentials: [
     { item: 'Visa', description: 'EU citizens visa-free. Many nationalities can visit up to 90 days without visa.' },
     { item: 'Best time to visit', description: 'May to September for beach; December to March for skiing' },
@@ -165,6 +194,48 @@ export const bulgaria: Country = {
       id: 'bulgaria-q3',
       question: 'What is the traditional Bulgarian pastry with cheese called?',
       options: ['Börek', 'Banitsa', 'Spanakopita', 'Burek'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bulgaria-q4',
+      question: 'What year was Bulgaria founded?',
+      options: ['481 AD', '681 AD', '881 AD', '1081 AD'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bulgaria-q5',
+      question: 'What does Bulgaria produce 70% of the world\'s supply of?',
+      options: ['Lavender oil', 'Rose oil', 'Olive oil', 'Sunflower oil'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bulgaria-q6',
+      question: 'How do Bulgarians traditionally shake their heads for "yes"?',
+      options: ['They nod up and down', 'They shake side to side', 'They tilt left', 'They bob forward'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bulgaria-q7',
+      question: 'When did Bulgaria join the European Union?',
+      options: ['2004', '2007', '2010', '2013'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bulgaria-q8',
+      question: 'What is the famous Bulgarian fermented drink made from wheat?',
+      options: ['Rakia', 'Boza', 'Ayran', 'Mastika'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bulgaria-q9',
+      question: 'When did Bulgaria gain independence from Ottoman rule?',
+      options: ['1858', '1868', '1878', '1888'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bulgaria-q10',
+      question: 'What unique bacterial culture is found in Bulgarian yogurt?',
+      options: ['Lactobacillus acidophilus', 'Lactobacillus bulgaricus', 'Streptococcus thermophilus', 'Bifidobacterium'],
       correctAnswer: 1,
     },
   ],
