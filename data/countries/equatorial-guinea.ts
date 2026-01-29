@@ -22,6 +22,36 @@ export const equatorialGuinea: Country = {
     'One of Africa\'s wealthiest countries per capita',
   ],
   foodCulture: 'Cuisine blends African and Spanish influences with fish, plantains, and yams as staples.',
+  history: [
+    {
+      year: '1778',
+      title: 'Spanish Control',
+      description: 'Spain gained control of the territory through the Treaty of El Pardo with Portugal.'
+    },
+    {
+      year: '1968',
+      title: 'Independence',
+      description: 'Equatorial Guinea gained independence from Spain, becoming Africa\'s only Spanish-speaking nation.'
+    },
+    {
+      year: '1990s',
+      title: 'Oil Discovery',
+      description: 'Major offshore oil discoveries transformed the economy dramatically.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Malabo Cathedral', description: 'Beautiful Spanish colonial church in the capital.' },
+    { name: 'Pico Basile', description: 'Highest peak in Equatorial Guinea with stunning views from Bioko Island.' },
+    { name: 'Moka Wildlife Center', description: 'Primate rehabilitation center protecting endangered species.' },
+    { name: 'Arena Blanca Beach', description: 'Beautiful white sand beach near Bata.' },
+    { name: 'Monte Alen National Park', description: 'Dense rainforest with gorillas and elephants.' }
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Required for most nationalities. Apply in advance.' },
+    { item: 'Best time to visit', description: 'December-February for dry season.' },
+    { item: 'Spanish language', description: 'Essential as English is rarely spoken.' },
+    { item: 'Yellow fever vaccination', description: 'Required for entry with certificate.' },
+  ],
   mainDish: {
     id: 'equatorial-guinea-main',
     name: 'Succotash',
@@ -46,6 +76,31 @@ export const equatorialGuinea: Country = {
       'Simmer until flavors blend',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+  },
+  dessert: {
+    id: 'equatorial-guinea-dessert',
+    name: 'Plantain Fritters',
+    description: 'Sweet fried plantain dessert',
+    cookingTime: 30,
+    servings: 8,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Ripe plantains', amount: 4, unit: 'whole' },
+      { name: 'Flour', amount: 100, unit: 'g' },
+      { name: 'Sugar', amount: 50, unit: 'g' },
+      { name: 'Cinnamon', amount: 1, unit: 'tsp' },
+      { name: 'Oil for frying', amount: 500, unit: 'ml' },
+    ],
+    steps: [
+      'Mash ripe plantains',
+      'Mix with flour, sugar, and cinnamon',
+      'Form into small balls or patties',
+      'Heat oil to 180°C',
+      'Fry until golden brown',
+      'Drain on paper towels',
+      'Serve warm with honey or syrup',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1587334207976-ca4f0c4e6de2?w=600',
   },
   drinks: {
     alcoholic: 'Palm wine, Local beer',

@@ -22,6 +22,36 @@ export const djibouti: Country = {
     'Gateway to the Red Sea and Suez Canal',
   ],
   foodCulture: 'Djiboutian cuisine blends Somali, Afar, Yemeni, and French influences with seafood, goat meat, and spiced rice.',
+  history: [
+    {
+      year: '1862',
+      title: 'French Interest',
+      description: 'France began establishing presence in the region, seeking a strategic port on the Red Sea.'
+    },
+    {
+      year: '1977',
+      title: 'Independence',
+      description: 'Djibouti gained independence from France, becoming the last French colony in Africa to do so.'
+    },
+    {
+      year: '2017',
+      title: 'Strategic Hub',
+      description: 'Opened China\'s first overseas military base, cementing its role as a strategic international location.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Lake Assal', description: 'The lowest point in Africa and one of the saltiest bodies of water on Earth.' },
+    { name: 'Day Forest National Park', description: 'Rare green oasis with unique biodiversity and hiking trails.' },
+    { name: 'Lac Abbé', description: 'Otherworldly landscape with limestone chimneys, filmed in Planet of the Apes.' },
+    { name: 'Gulf of Tadjoura', description: 'Pristine waters for snorkeling, diving, and whale shark spotting.' },
+    { name: 'Grand Bara Desert', description: 'Vast desert landscape perfect for off-road adventures.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'November-March for cooler weather. Summer is extremely hot.' },
+    { item: 'Visa', description: 'Available on arrival for most nationalities at Djibouti-Ambouli Airport.' },
+    { item: 'Sun protection', description: 'Essential due to intense desert sun and high temperatures.' },
+    { item: 'French language', description: 'Helpful as French is widely spoken alongside Arabic and Somali.' },
+  ],
   mainDish: {
     id: 'djibouti-main',
     name: 'Skoudehkaris',
@@ -46,6 +76,31 @@ export const djibouti: Country = {
       'Serve with banana and salad',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+  },
+  dessert: {
+    id: 'djibouti-dessert',
+    name: 'Halwa',
+    description: 'Sweet Middle Eastern-style dessert with dates and nuts',
+    cookingTime: 30,
+    servings: 8,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Dates', amount: 500, unit: 'g' },
+      { name: 'Butter', amount: 100, unit: 'g' },
+      { name: 'Almonds', amount: 100, unit: 'g' },
+      { name: 'Cardamom', amount: 1, unit: 'tsp' },
+      { name: 'Sesame seeds', amount: 50, unit: 'g' },
+    ],
+    steps: [
+      'Pit and chop dates finely',
+      'Melt butter in pan',
+      'Add dates and cardamom',
+      'Cook until thick paste forms',
+      'Mix in chopped almonds',
+      'Spread on tray and top with sesame seeds',
+      'Cool and cut into squares',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1606312619070-d48b4cac5e4f?w=600',
   },
   drinks: {
     alcoholic: 'Limited availability',

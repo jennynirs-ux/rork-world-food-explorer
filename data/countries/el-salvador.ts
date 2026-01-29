@@ -22,6 +22,36 @@ export const elSalvador: Country = {
     'Major coffee producer',
   ],
   foodCulture: 'Salvadoran cuisine features corn-based dishes, beans, and tropical fruits with indigenous and Spanish influences.',
+  history: [
+    {
+      year: '1821',
+      title: 'Independence from Spain',
+      description: 'El Salvador gained independence, initially joining the Federal Republic of Central America.'
+    },
+    {
+      year: '1841',
+      title: 'Full Independence',
+      description: 'Became fully independent after the dissolution of the Central American Federation.'
+    },
+    {
+      year: '1980-1992',
+      title: 'Civil War',
+      description: 'Devastating civil war ended with peace accords and democratic reforms.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Ruta de las Flores', description: 'Scenic route through colorful colonial towns and coffee plantations.' },
+    { name: 'El Boquerón Volcano', description: 'Active volcano with crater views near San Salvador.' },
+    { name: 'Joya de Cerén', description: 'UNESCO site, the "Pompeii of the Americas" - preserved Mayan village.' },
+    { name: 'Lake Coatepeque', description: 'Stunning volcanic crater lake with clear blue waters.' },
+    { name: 'El Tunco Beach', description: 'Popular surf spot with black sand beaches and vibrant nightlife.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'November-April for dry season. May-October is rainy season.' },
+    { item: 'US Dollars', description: 'Bring cash as official currency.' },
+    { item: 'Sun protection', description: 'Strong sun at beaches and volcanic areas.' },
+    { item: 'Spanish language', description: 'English is limited outside tourist areas.' },
+  ],
   mainDish: {
     id: 'el-salvador-main',
     name: 'Pupusas',
@@ -46,6 +76,34 @@ export const elSalvador: Country = {
       'Serve with curtido and tomato sauce',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1615937722923-67beab1f0a0b?w=600',
+  },
+  dessert: {
+    id: 'el-salvador-dessert',
+    name: 'Quesadilla Salvadoreña',
+    description: 'Sweet cheese pound cake, not to be confused with Mexican quesadilla',
+    cookingTime: 60,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Parmesan cheese', amount: 200, unit: 'g' },
+      { name: 'Flour', amount: 300, unit: 'g' },
+      { name: 'Sugar', amount: 250, unit: 'g' },
+      { name: 'Eggs', amount: 4, unit: 'large' },
+      { name: 'Butter', amount: 150, unit: 'g' },
+      { name: 'Sour cream', amount: 200, unit: 'g' },
+      { name: 'Sesame seeds', amount: 3, unit: 'tbsp' },
+    ],
+    steps: [
+      'Cream butter and sugar until fluffy',
+      'Beat in eggs one at a time',
+      'Add grated Parmesan cheese',
+      'Fold in flour and sour cream',
+      'Pour into greased pan',
+      'Sprinkle sesame seeds on top',
+      'Bake at 175°C for 45 minutes until golden',
+      'Cool before slicing',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
   },
   drinks: {
     alcoholic: 'Pilsener beer, Aguardiente',

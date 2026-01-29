@@ -22,6 +22,41 @@ export const eritrea: Country = {
     'Gained independence from Ethiopia in 1993',
   ],
   foodCulture: 'Eritrean cuisine features injera flatbread with spicy stews, influenced by Ethiopian, Italian, and Middle Eastern flavors.',
+  history: [
+    {
+      year: '1890',
+      title: 'Italian Colony',
+      description: 'Italy established Eritrea as its first colony, leaving lasting architectural influence.'
+    },
+    {
+      year: '1941-1952',
+      title: 'British Administration',
+      description: 'British forces liberated Eritrea from Italy during WWII.'
+    },
+    {
+      year: '1952-1991',
+      title: 'Ethiopian Federation',
+      description: 'Eritrea was federated with Ethiopia, later leading to 30-year independence war.'
+    },
+    {
+      year: '1993',
+      title: 'Independence',
+      description: 'Eritrea gained independence after referendum with 99.8% voting for independence.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Asmara\'s Art Deco District', description: 'UNESCO World Heritage Site with 1930s Italian modernist architecture.' },
+    { name: 'Massawa Old Town', description: 'Historic Red Sea port with Ottoman and Italian architecture.' },
+    { name: 'Dahlak Archipelago', description: 'Over 200 islands with pristine diving and marine life.' },
+    { name: 'Qohaito Archaeological Site', description: 'Ancient pre-Aksumite ruins.' },
+    { name: 'Eritrean Railway', description: 'Historic narrow-gauge railway from Italian colonial era.' }
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Required for most nationalities. Apply in advance.' },
+    { item: 'Best time to visit', description: 'October-March for cooler weather.' },
+    { item: 'Travel permits', description: 'Required for travel outside Asmara.' },
+    { item: 'Cash', description: 'Credit cards rarely accepted. Bring sufficient nakfa or USD.' },
+  ],
   mainDish: {
     id: 'eritrea-main',
     name: 'Zigni',
@@ -46,6 +81,34 @@ export const eritrea: Country = {
       'Serve on injera bread',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+  },
+  dessert: {
+    id: 'eritrea-dessert',
+    name: 'Himbasha',
+    description: 'Sweet cardamom bread, often served during celebrations',
+    cookingTime: 90,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Flour', amount: 500, unit: 'g' },
+      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Butter', amount: 150, unit: 'g' },
+      { name: 'Eggs', amount: 2, unit: 'large' },
+      { name: 'Cardamom', amount: 2, unit: 'tsp' },
+      { name: 'Yeast', amount: 10, unit: 'g' },
+      { name: 'Milk', amount: 200, unit: 'ml' },
+    ],
+    steps: [
+      'Activate yeast in warm milk',
+      'Mix flour, sugar, and cardamom',
+      'Add butter, eggs, and yeast mixture',
+      'Knead until smooth dough forms',
+      'Let rise for 1 hour',
+      'Shape into round loaf with decorative patterns',
+      'Bake at 180°C for 35 minutes until golden',
+      'Serve with butter and coffee',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
   },
   drinks: {
     alcoholic: 'Mies (honey wine), Suwa (beer)',

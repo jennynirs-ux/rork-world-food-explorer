@@ -22,6 +22,36 @@ export const eastTimor: Country = {
     'The country has excellent diving spots with coral reefs',
     'Mount Ramelau is the highest peak at 2,963m',
   ],
+  history: [
+    {
+      year: '1515',
+      title: 'Portuguese Arrival',
+      description: 'Portuguese traders arrived, beginning centuries of colonial influence.'
+    },
+    {
+      year: '1975',
+      title: 'Indonesian Invasion',
+      description: 'Indonesia invaded after Portugal withdrew, beginning 24 years of occupation.'
+    },
+    {
+      year: '2002',
+      title: 'Independence Achieved',
+      description: 'East Timor became the first new sovereign state of the 21st century.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Cristo Rei of Dili', description: 'Iconic statue overlooking the bay with panoramic views.' },
+    { name: 'Atauro Island', description: 'World-class diving with pristine coral reefs and marine life.' },
+    { name: 'Mount Ramelau', description: 'Highest peak in East Timor, sacred pilgrimage site with sunrise views.' },
+    { name: 'Jaco Island', description: 'Uninhabited sacred island with white sand beaches and crystal waters.' },
+    { name: 'Tais Market', description: 'Traditional textile market showcasing colorful handwoven fabrics.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'May-November for dry season. December-April is wet season.' },
+    { item: 'Visa', description: 'Available on arrival for most nationalities at Dili airport.' },
+    { item: 'US Dollars', description: 'Bring cash as ATMs are limited outside Dili.' },
+    { item: 'Basic Portuguese', description: 'Helpful, though Tetum and Indonesian also spoken.' },
+  ],
   foodCulture: 'East Timorese cuisine blends Portuguese, Indonesian, and indigenous influences. Corn, rice, cassava, and tropical fruits are staples. Portuguese-style dishes are common.',
   mainDish: {
     id: 'east-timor-main',
@@ -52,6 +82,32 @@ export const eastTimor: Country = {
       'Unwrap at the table for aromatic effect',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600',
+  },
+  dessert: {
+    id: 'east-timor-dessert',
+    name: 'Bibinka',
+    description: 'Portuguese-influenced coconut rice cake',
+    cookingTime: 60,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Rice flour', amount: 300, unit: 'g' },
+      { name: 'Coconut milk', amount: 500, unit: 'ml' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Eggs', amount: 4, unit: 'large' },
+      { name: 'Butter melted', amount: 100, unit: 'g' },
+      { name: 'Grated coconut', amount: 100, unit: 'g' },
+    ],
+    steps: [
+      'Mix rice flour with coconut milk',
+      'Beat in eggs and sugar',
+      'Add melted butter',
+      'Pour into greased pan',
+      'Top with grated coconut',
+      'Bake at 180°C for 45 minutes',
+      'Cool before slicing',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600',
   },
   drinks: {
     alcoholic: 'Timor coffee liqueur, Palm wine',

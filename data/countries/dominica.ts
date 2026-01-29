@@ -22,6 +22,36 @@ export const dominica: Country = {
     'Filming location for Pirates of the Caribbean',
   ],
   foodCulture: 'Dominican cuisine features provisions (root vegetables), fresh seafood, and Creole-style cooking.',
+  history: [
+    {
+      year: '1493',
+      title: 'Columbus Arrival',
+      description: 'Christopher Columbus sighted the island on a Sunday (Dominica means "Sunday" in Latin).'
+    },
+    {
+      year: '1763',
+      title: 'British Control',
+      description: 'Britain took control after years of being passed between France and Britain.'
+    },
+    {
+      year: '1978',
+      title: 'Independence',
+      description: 'Dominica gained independence from the United Kingdom.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Boiling Lake', description: 'Second-largest hot spring in the world, surrounded by volcanic landscape.' },
+    { name: 'Morne Trois Pitons National Park', description: 'UNESCO World Heritage Site with waterfalls, hot springs, and lush rainforest.' },
+    { name: 'Trafalgar Falls', description: 'Twin waterfalls cascading into mineral-rich pools.' },
+    { name: 'Champagne Reef', description: 'Unique snorkeling spot with volcanic bubbles rising through the water.' },
+    { name: 'Kalinago Territory', description: 'Indigenous reserve showcasing Kalinago culture and traditions.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'December-May for dry season. June-November is hurricane season.' },
+    { item: 'Hiking gear', description: 'Sturdy boots and rain gear for rainforest trails.' },
+    { item: 'Cash', description: 'East Caribbean Dollars. Many places don\'t accept cards.' },
+    { item: 'Insect repellent', description: 'Essential for rainforest exploration.' },
+  ],
   mainDish: {
     id: 'dominica-main',
     name: 'Callaloo Soup',
@@ -46,6 +76,31 @@ export const dominica: Country = {
       'Serve hot with dumplings',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+  },
+  dessert: {
+    id: 'dominica-dessert',
+    name: 'Coconut Drops',
+    description: 'Sweet coconut candies with ginger and spices',
+    cookingTime: 45,
+    servings: 20,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Grated coconut', amount: 400, unit: 'g' },
+      { name: 'Brown sugar', amount: 300, unit: 'g' },
+      { name: 'Fresh ginger', amount: 30, unit: 'g' },
+      { name: 'Water', amount: 100, unit: 'ml' },
+      { name: 'Cinnamon', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Boil sugar and water until syrup forms',
+      'Add grated coconut and grated ginger',
+      'Add cinnamon',
+      'Cook stirring until mixture thickens',
+      'Drop spoonfuls onto greased tray',
+      'Let cool and harden',
+      'Store in airtight container',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1558326567-98ae2405596b?w=600',
   },
   drinks: {
     alcoholic: 'Rum, Bay rum, Local beer',

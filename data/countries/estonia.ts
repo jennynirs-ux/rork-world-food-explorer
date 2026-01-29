@@ -58,6 +58,13 @@ export const estonia: Country = {
       description: 'Estonia adopted the Euro, becoming the first ex-Soviet state to do so.'
     },
   ],
+  mustVisit: [
+    { name: 'Tallinn Old Town', description: 'UNESCO World Heritage medieval center with cobblestone streets and spires.' },
+    { name: 'Lahemaa National Park', description: 'Stunning coastal forests, bogs, and manor houses.' },
+    { name: 'Tartu University', description: 'Historic university town with vibrant cultural scene.' },
+    { name: 'Saaremaa Island', description: 'Largest island with windmills, medieval castle, and spa culture.' },
+    { name: 'Pärnu Beach', description: 'Popular summer resort town on the Baltic Sea coast.' }
+  ],
   travelEssentials: [
     { item: 'Best time to visit', description: 'May-September for warm weather and white nights' },
     { item: 'Visa', description: 'EU member. Schengen visa rules apply.' },
@@ -93,6 +100,38 @@ export const estonia: Country = {
       'Traditionally served with sauerkraut',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1606850780554-b55ef9eb42b3?w=600',
+  },
+  dessert: {
+    id: 'estonia-dessert',
+    name: 'Kringel',
+    description: 'Traditional Estonian sweet bread with cinnamon and cardamom',
+    cookingTime: 120,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Flour', amount: 500, unit: 'g' },
+      { name: 'Milk', amount: 250, unit: 'ml' },
+      { name: 'Butter', amount: 150, unit: 'g' },
+      { name: 'Sugar', amount: 150, unit: 'g' },
+      { name: 'Eggs', amount: 2, unit: 'large' },
+      { name: 'Yeast', amount: 15, unit: 'g' },
+      { name: 'Cinnamon', amount: 2, unit: 'tbsp' },
+      { name: 'Cardamom', amount: 1, unit: 'tsp' },
+      { name: 'Raisins', amount: 100, unit: 'g' },
+    ],
+    steps: [
+      'Warm milk and activate yeast with sugar',
+      'Mix flour, eggs, butter, and yeast mixture',
+      'Knead into smooth dough and let rise 1 hour',
+      'Roll out dough into rectangle',
+      'Spread butter, cinnamon, sugar, and raisins',
+      'Roll up and form into figure-8 or pretzel shape',
+      'Let rise 30 minutes',
+      'Brush with egg wash',
+      'Bake at 180°C for 35-40 minutes until golden',
+      'Glaze with sugar syrup while warm',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
   },
   drinks: {
     alcoholic: 'Vana Tallinn (liqueur), Estonian craft beer, Kali (fermented rye drink)',

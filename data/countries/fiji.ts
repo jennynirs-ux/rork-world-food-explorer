@@ -22,6 +22,36 @@ export const fiji: Country = {
     'Rugby is the national sport',
   ],
   foodCulture: 'Fijian cuisine blends indigenous, Indian, and Chinese influences. Fresh seafood, root vegetables, and coconut are staples.',
+  history: [
+    {
+      year: '1643',
+      title: 'European Discovery',
+      description: 'Dutch explorer Abel Tasman was the first European to sight the Fijian islands.'
+    },
+    {
+      year: '1874',
+      title: 'British Colony',
+      description: 'Fiji became a British Crown Colony after chiefs ceded sovereignty to Queen Victoria.'
+    },
+    {
+      year: '1970',
+      title: 'Independence',
+      description: 'Fiji gained independence from Britain, becoming a sovereign nation.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Coral Coast', description: 'Beautiful stretch of coastline with pristine beaches and coral reefs.' },
+    { name: 'Mamanuca Islands', description: 'Tropical paradise islands perfect for snorkeling and diving.' },
+    { name: 'Yasawa Islands', description: 'Remote islands with stunning beaches and traditional villages.' },
+    { name: 'Suva Municipal Market', description: 'Vibrant market showcasing local produce, spices, and handicrafts.' },
+    { name: 'Sigatoka Sand Dunes', description: 'National park with archaeological sites and coastal dunes.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'May-October for dry season with less humidity.' },
+    { item: 'Visa', description: 'Many nationalities can enter visa-free for up to 4 months.' },
+    { item: 'Reef-safe sunscreen', description: 'Protect coral reefs with eco-friendly sunscreen.' },
+    { item: 'Respect for customs', description: 'Remove shoes before entering homes, cover shoulders in villages.' },
+  ],
   mainDish: {
     id: 'fiji-main',
     name: 'Kokoda',
@@ -46,6 +76,32 @@ export const fiji: Country = {
       'Serve chilled',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1559737558-2f5a2f7e8c59?w=600',
+  },
+  dessert: {
+    id: 'fiji-dessert',
+    name: 'Vakalavalava',
+    description: 'Sweet cassava cake with coconut cream',
+    cookingTime: 60,
+    servings: 8,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Cassava root grated', amount: 500, unit: 'g' },
+      { name: 'Coconut cream', amount: 400, unit: 'ml' },
+      { name: 'Sugar', amount: 150, unit: 'g' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+      { name: 'Baking powder', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Preheat oven to 180°C',
+      'Mix grated cassava with sugar',
+      'Add coconut cream and vanilla',
+      'Add baking powder and mix well',
+      'Pour into greased baking dish',
+      'Bake for 45 minutes until golden',
+      'Cool and cut into squares',
+      'Serve with extra coconut cream',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Kava (traditional ceremony drink), Fiji Bitter beer',

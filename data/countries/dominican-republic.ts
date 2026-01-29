@@ -22,6 +22,41 @@ export const dominicanRepublic: Country = {
     'Home to the Caribbean\'s highest peak, Pico Duarte',
   ],
   foodCulture: 'Dominican cuisine blends Spanish, African, and Taíno influences. Rice, beans, and plantains are staples.',
+  history: [
+    {
+      year: '1492',
+      title: 'Columbus Arrival',
+      description: 'Christopher Columbus landed on Hispaniola, establishing the first European settlement in the Americas.'
+    },
+    {
+      year: '1496',
+      title: 'Santo Domingo Founded',
+      description: 'Santo Domingo became the oldest continuously inhabited European city in the Americas.'
+    },
+    {
+      year: '1844',
+      title: 'Independence',
+      description: 'The Dominican Republic gained independence from Haiti after 22 years of Haitian rule.'
+    },
+    {
+      year: '1916-1924',
+      title: 'US Occupation',
+      description: 'United States occupied the country, influencing its political and economic development.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Colonial Zone Santo Domingo', description: 'UNESCO World Heritage Site with first cathedral and cobblestone streets.' },
+    { name: 'Punta Cana Beaches', description: 'World-famous white sand beaches and crystal-clear Caribbean waters.' },
+    { name: 'Los Haitises National Park', description: 'Mangrove forests, caves with Taíno petroglyphs, and diverse wildlife.' },
+    { name: 'Samaná Peninsula', description: 'Whale watching destination and stunning beaches like Playa Rincón.' },
+    { name: '27 Waterfalls of Damajagua', description: 'Adventure site for jumping and sliding down natural waterfall pools.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'December-April for dry season. August-October is hurricane season.' },
+    { item: 'Tourist card', description: 'Available on arrival at airports for most nationalities.' },
+    { item: 'Spanish basics', description: 'English is limited outside tourist areas.' },
+    { item: 'Sun protection', description: 'Strong Caribbean sun requires high SPF.' },
+  ],
   mainDish: {
     id: 'dominican-main',
     name: 'La Bandera',
@@ -46,6 +81,36 @@ export const dominicanRepublic: Country = {
       'Serve with fried plantains and avocado salad',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+  },
+  dessert: {
+    id: 'dominican-dessert',
+    name: 'Tres Leches Cake',
+    description: 'Sponge cake soaked in three types of milk',
+    cookingTime: 90,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Eggs', amount: 6, unit: 'large' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Flour', amount: 200, unit: 'g' },
+      { name: 'Evaporated milk', amount: 300, unit: 'ml' },
+      { name: 'Condensed milk', amount: 300, unit: 'ml' },
+      { name: 'Heavy cream', amount: 300, unit: 'ml' },
+      { name: 'Vanilla extract', amount: 2, unit: 'tsp' },
+      { name: 'Whipped cream for topping', amount: 400, unit: 'ml' },
+    ],
+    steps: [
+      'Beat eggs and sugar until fluffy',
+      'Fold in flour gently',
+      'Bake in greased pan at 180°C for 30 minutes',
+      'Let cake cool completely',
+      'Mix three milks together with vanilla',
+      'Poke holes in cake with fork',
+      'Pour milk mixture over cake slowly',
+      'Refrigerate overnight',
+      'Top with whipped cream before serving',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
   },
   drinks: {
     alcoholic: 'Mamajuana, Brugal rum, Presidente beer',
