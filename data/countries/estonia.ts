@@ -113,6 +113,28 @@ export const estonia: Country = {
     'Would you try black bread with herring? It\'s a classic combo!',
     'The Singing Revolution is such an inspiring story of peaceful resistance.',
   ],
+  innovations: [
+    {
+      name: 'Skype',
+      year: '2003',
+      description: 'Revolutionary video calling software that changed global communication',
+    },
+    {
+      name: 'E-Residency',
+      year: '2014',
+      description: 'First country to offer digital residency, allowing anyone to start an EU company online',
+    },
+    {
+      name: 'Digital Governance',
+      year: '2000s',
+      description: 'Pioneer of e-governance with 99% of public services available online',
+    },
+    {
+      name: 'X-Road Data Exchange',
+      year: '2001',
+      description: 'Secure data exchange layer enabling digital government services',
+    },
+  ],
   quiz: [
     {
       id: 'estonia-q1',
@@ -130,6 +152,48 @@ export const estonia: Country = {
       id: 'estonia-q3',
       question: 'What is the Singing Revolution?',
       options: ['A music festival', 'A peaceful independence movement', 'A TV show', 'A type of folk song'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'estonia-q4',
+      question: 'What percentage of Estonia is covered in forest?',
+      options: ['20%', '35%', '50%+', '70%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'estonia-q5',
+      question: 'What currency does Estonia use?',
+      options: ['Kroon', 'Euro', 'Dollar', 'Pound'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'estonia-q6',
+      question: 'What is verivorst?',
+      options: ['A dance', 'Blood sausage', 'A castle', 'A drink'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'estonia-q7',
+      question: 'What is Estonia\'s literacy rate?',
+      options: ['85%', '92%', '99.8%', '100%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'estonia-q8',
+      question: 'When did Estonia regain independence?',
+      options: ['1918', '1945', '1991', '2004'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'estonia-q9',
+      question: 'How many islands does Estonia have?',
+      options: ['100', '500', '2,000+', '5,000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'estonia-q10',
+      question: 'What is a legal right in Estonia?',
+      options: ['Free food', 'WiFi access', 'Free transport', 'Free housing'],
       correctAnswer: 1,
     },
   ],

@@ -67,11 +67,82 @@ export const gambia: Country = {
     'What do you know about West African rivers?',
     'Do you enjoy birdwatching?',
   ],
+  innovations: [
+    {
+      name: 'Kora Music Tradition',
+      year: 'Ancient',
+      description: 'The kora, a 21-string bridge-harp, is central to West African griot tradition',
+    },
+    {
+      name: 'River Navigation',
+      year: 'Traditional',
+      description: 'Developed sophisticated boat and navigation techniques on the Gambia River',
+    },
+    {
+      name: 'Ecotourism Development',
+      year: '2000s',
+      description: 'Created sustainable birdwatching tourism supporting over 500 species',
+    },
+  ],
   quiz: [
     {
       id: 'gambia-q1',
       question: 'What is the capital of Gambia?',
       options: ['Dakar', 'Banjul', 'Freetown', 'Conakry'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'gambia-q2',
+      question: 'What is unique about Gambia\'s geography?',
+      options: ['Largest in Africa', 'Smallest in mainland Africa', 'No coastline', 'Island nation'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'gambia-q3',
+      question: 'Which country surrounds Gambia?',
+      options: ['Mali', 'Senegal', 'Guinea', 'Ghana'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'gambia-q4',
+      question: 'What is Domoda?',
+      options: ['A dance', 'Peanut butter stew', 'A river', 'A bird'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'gambia-q5',
+      question: 'How many bird species are in Gambia?',
+      options: ['100', '250', '500+', '1000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'gambia-q6',
+      question: 'What is a kora?',
+      options: ['A boat', 'A musical instrument', 'A fruit', 'A dance'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'gambia-q7',
+      question: 'What river runs through Gambia?',
+      options: ['Nile', 'Congo', 'Gambia River', 'Niger'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'gambia-q8',
+      question: 'What is the official language?',
+      options: ['French', 'English', 'Portuguese', 'Arabic'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'gambia-q9',
+      question: 'What is wonjo?',
+      options: ['Bread', 'Hibiscus drink', 'Fish', 'Rice dish'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'gambia-q10',
+      question: 'What is Gambia popular for?',
+      options: ['Skiing', 'Birdwatching', 'Mountain climbing', 'Desert safaris'],
       correctAnswer: 1,
     },
   ],

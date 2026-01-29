@@ -76,6 +76,23 @@ export const eastTimor: Country = {
     'Have you heard of East Timor\'s history?',
     'What Portuguese-influenced cuisines do you enjoy?',
   ],
+  innovations: [
+    {
+      name: 'Organic Coffee Excellence',
+      year: '2000s',
+      description: 'Producing some of the world\'s finest organic, shade-grown coffee',
+    },
+    {
+      name: 'Tais Weaving',
+      year: 'Traditional',
+      description: 'Traditional textile weaving techniques passed through generations',
+    },
+    {
+      name: 'Marine Conservation',
+      year: '2010s',
+      description: 'Establishing coral triangle marine protected areas',
+    },
+  ],
   quiz: [
     {
       id: 'east-timor-q1',
@@ -93,6 +110,48 @@ export const eastTimor: Country = {
       id: 'east-timor-q3',
       question: 'What is East Timor famous for producing?',
       options: ['Tea', 'Coffee', 'Cocoa', 'Rubber'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'east-timor-q4',
+      question: 'What is the capital of East Timor?',
+      options: ['Dili', 'Jakarta', 'Darwin', 'Port Moresby'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'east-timor-q5',
+      question: 'What currency does East Timor use?',
+      options: ['Euro', 'US Dollar', 'Rupiah', 'Peso'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'east-timor-q6',
+      question: 'What is the indigenous language of East Timor?',
+      options: ['Malay', 'Tetum', 'Tagalog', 'Indonesian'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'east-timor-q7',
+      question: 'What is the highest mountain in East Timor?',
+      options: ['Mount Kinabalu', 'Mount Ramelau', 'Mount Fuji', 'Mount Apo'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'east-timor-q8',
+      question: 'What traditional textile is East Timor known for?',
+      options: ['Batik', 'Tais', 'Ikat', 'Songket'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'east-timor-q9',
+      question: 'East Timor is part of which biodiversity region?',
+      options: ['Amazon', 'Coral Triangle', 'Great Barrier Reef', 'Madagascar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'east-timor-q10',
+      question: 'What is Ikan Pepes?',
+      options: ['A dance', 'Fish in banana leaves', 'A festival', 'A mountain'],
       correctAnswer: 1,
     },
   ],

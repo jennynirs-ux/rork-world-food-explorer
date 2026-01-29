@@ -66,12 +66,83 @@ export const gabon: Country = {
     'What do you know about African rainforests?',
     'Have you seen forest elephants?',
   ],
+  innovations: [
+    {
+      name: 'National Park System',
+      year: '2002',
+      description: 'Created 13 national parks protecting 11% of the country, a model for conservation',
+    },
+    {
+      name: 'Forest Elephant Conservation',
+      year: '2000s',
+      description: 'Leading efforts to protect endangered forest elephants',
+    },
+    {
+      name: 'Sustainable Forestry',
+      year: '2010s',
+      description: 'Balancing oil economy with rainforest preservation',
+    },
+  ],
   quiz: [
     {
       id: 'gabon-q1',
       question: 'What is the capital of Gabon?',
       options: ['Libreville', 'Port-Gentil', 'Franceville', 'Oyem'],
       correctAnswer: 0,
+    },
+    {
+      id: 'gabon-q2',
+      question: 'What percentage of Gabon is rainforest?',
+      options: ['50%', '70%', '88%', '95%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'gabon-q3',
+      question: 'How many national parks does Gabon have?',
+      options: ['5', '8', '13', '20'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'gabon-q4',
+      question: 'What is the main natural resource of Gabon?',
+      options: ['Gold', 'Diamonds', 'Oil', 'Copper'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'gabon-q5',
+      question: 'What is Poulet Nyembwe?',
+      options: ['A dance', 'Chicken in palm butter', 'A river', 'A festival'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'gabon-q6',
+      question: 'What ocean borders Gabon?',
+      options: ['Indian', 'Pacific', 'Atlantic', 'Arctic'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'gabon-q7',
+      question: 'What wildlife is Gabon known for?',
+      options: ['Lions', 'Forest elephants', 'Polar bears', 'Kangaroos'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'gabon-q8',
+      question: 'What is the official language?',
+      options: ['English', 'Portuguese', 'French', 'Spanish'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'gabon-q9',
+      question: 'What currency does Gabon use?',
+      options: ['Euro', 'Dollar', 'CFA Franc', 'Pound'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'gabon-q10',
+      question: 'Which great ape species lives in Gabon?',
+      options: ['Chimpanzees', 'Lowland gorillas', 'Orangutans', 'Bonobos'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 49, y: 16 },

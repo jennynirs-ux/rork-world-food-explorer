@@ -67,12 +67,83 @@ export const fiji: Country = {
     'What do you know about kava ceremonies?',
     'Do you enjoy snorkeling or diving?',
   ],
+  innovations: [
+    {
+      name: 'Firewalking Tradition',
+      year: 'Ancient',
+      description: 'The practice of walking barefoot over hot stones originated in Fiji',
+    },
+    {
+      name: 'Coral Reef Conservation',
+      year: '2000s',
+      description: 'Pioneering marine protected areas to preserve soft coral reefs',
+    },
+    {
+      name: 'Sustainable Tourism Model',
+      year: '2010s',
+      description: 'Developing eco-friendly tourism protecting island ecosystems',
+    },
+  ],
   quiz: [
     {
       id: 'fiji-q1',
       question: 'What is the capital of Fiji?',
       options: ['Nadi', 'Suva', 'Lautoka', 'Labasa'],
       correctAnswer: 1,
+    },
+    {
+      id: 'fiji-q2',
+      question: 'How many islands does Fiji have?',
+      options: ['50', '100', '300+', '500'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'fiji-q3',
+      question: 'What is the traditional Fijian greeting?',
+      options: ['Aloha', 'Bula', 'Kia ora', 'Hola'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'fiji-q4',
+      question: 'What is Kokoda?',
+      options: ['A dance', 'Fijian ceviche', 'A mountain', 'A festival'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'fiji-q5',
+      question: 'What is the national sport of Fiji?',
+      options: ['Cricket', 'Rugby', 'Soccer', 'Swimming'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'fiji-q6',
+      question: 'What traditional ceremony drink is Fiji known for?',
+      options: ['Sake', 'Kava', 'Tea', 'Wine'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'fiji-q7',
+      question: 'What is Fiji famous for underwater?',
+      options: ['Shipwrecks', 'Soft coral reefs', 'Underwater caves', 'Kelp forests'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'fiji-q8',
+      question: 'What practice originated in Fiji?',
+      options: ['Surfing', 'Firewalking', 'Hula dancing', 'Poi spinning'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'fiji-q9',
+      question: 'Which ocean is Fiji in?',
+      options: ['Atlantic', 'Indian', 'Pacific', 'Arctic'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'fiji-q10',
+      question: 'How many official languages does Fiji have?',
+      options: ['1', '2', '3', '4'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 92, y: 12 },

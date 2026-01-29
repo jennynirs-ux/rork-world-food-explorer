@@ -67,12 +67,83 @@ export const elSalvador: Country = {
     'Do you enjoy volcanic landscapes?',
     'What do you know about Central American coffee?',
   ],
+  innovations: [
+    {
+      name: 'Pupusa',
+      year: 'Pre-Columbian',
+      description: 'Created the iconic pupusa, now a beloved Central American dish',
+    },
+    {
+      name: 'Indigo Dye Production',
+      year: 'Colonial Era',
+      description: 'Became a major producer of indigo dye for textiles worldwide',
+    },
+    {
+      name: 'Bitcoin Adoption',
+      year: '2021',
+      description: 'First country to adopt Bitcoin as legal tender alongside the US dollar',
+    },
+  ],
   quiz: [
     {
       id: 'el-salvador-q1',
       question: 'What is the capital of El Salvador?',
       options: ['San Salvador', 'Tegucigalpa', 'Managua', 'Guatemala City'],
       correctAnswer: 0,
+    },
+    {
+      id: 'el-salvador-q2',
+      question: 'What is the national dish of El Salvador?',
+      options: ['Tacos', 'Pupusas', 'Burritos', 'Empanadas'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'el-salvador-q3',
+      question: 'What is El Salvador known as?',
+      options: ['Land of Lakes', 'Land of Volcanoes', 'Land of Rivers', 'Land of Mountains'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'el-salvador-q4',
+      question: 'What currency does El Salvador use?',
+      options: ['Peso', 'US Dollar', 'Colón', 'Euro'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'el-salvador-q5',
+      question: 'How many volcanoes does El Salvador have?',
+      options: ['5', '10', '20+', '50'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'el-salvador-q6',
+      question: 'What is El Salvador\'s main agricultural export?',
+      options: ['Bananas', 'Coffee', 'Sugar', 'Cotton'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'el-salvador-q7',
+      question: 'Which cryptocurrency did El Salvador adopt?',
+      options: ['Ethereum', 'Bitcoin', 'Dogecoin', 'Litecoin'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'el-salvador-q8',
+      question: 'What ocean borders El Salvador?',
+      options: ['Atlantic', 'Pacific', 'Indian', 'Arctic'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'el-salvador-q9',
+      question: 'What is the official language?',
+      options: ['English', 'Portuguese', 'Spanish', 'French'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'el-salvador-q10',
+      question: 'What is curtido?',
+      options: ['A dance', 'Cabbage slaw', 'A festival', 'A volcano'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 17, y: 25 },

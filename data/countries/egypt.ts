@@ -203,6 +203,36 @@ export const egypt: Country = {
       options: ['3', '50', '100+', '10'],
       correctAnswer: 2,
     },
+    {
+      id: 'egypt-q6',
+      question: 'When was the Great Pyramid built?',
+      options: ['1000 BC', '2560 BC', '3000 BC', '500 BC'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'egypt-q7',
+      question: 'What is the longest river in the world?',
+      options: ['Amazon', 'Nile', 'Yangtze', 'Mississippi'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'egypt-q8',
+      question: 'What writing system did ancient Egyptians use?',
+      options: ['Cuneiform', 'Hieroglyphics', 'Latin', 'Greek'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'egypt-q9',
+      question: 'What is Basbousa?',
+      options: ['A temple', 'A dessert', 'A city', 'A pharaoh'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'egypt-q10',
+      question: 'What currency does Egypt use?',
+      options: ['Egyptian Pound', 'Dollar', 'Euro', 'Dinar'],
+      correctAnswer: 0,
+    },
   ],
   coordinates: { x: 50, y: 30 },
 };

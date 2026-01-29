@@ -66,12 +66,83 @@ export const eritrea: Country = {
     'Have you experienced a traditional coffee ceremony?',
     'What do you know about Italian colonial architecture?',
   ],
+  innovations: [
+    {
+      name: 'Coffee Ceremony Tradition',
+      year: 'Ancient',
+      description: 'Elaborate coffee preparation ritual that takes hours and brings communities together',
+    },
+    {
+      name: 'Dahlak Marine Conservation',
+      year: '2000s',
+      description: 'Protecting pristine Red Sea coral reefs and marine ecosystems',
+    },
+    {
+      name: 'Art Deco Preservation',
+      year: '2017',
+      description: 'Asmara became UNESCO World Heritage Site for Italian modernist architecture',
+    },
+  ],
   quiz: [
     {
       id: 'eritrea-q1',
       question: 'What is the capital of Eritrea?',
       options: ['Addis Ababa', 'Asmara', 'Khartoum', 'Djibouti'],
       correctAnswer: 1,
+    },
+    {
+      id: 'eritrea-q2',
+      question: 'When did Eritrea gain independence?',
+      options: ['1960', '1975', '1993', '2000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'eritrea-q3',
+      question: 'What architectural style is Asmara famous for?',
+      options: ['Gothic', 'Art Deco', 'Baroque', 'Brutalist'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'eritrea-q4',
+      question: 'What is the traditional spicy stew called?',
+      options: ['Curry', 'Zigni', 'Tagine', 'Goulash'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'eritrea-q5',
+      question: 'What sea borders Eritrea?',
+      options: ['Mediterranean', 'Red Sea', 'Arabian Sea', 'Black Sea'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'eritrea-q6',
+      question: 'What is the currency of Eritrea?',
+      options: ['Birr', 'Nakfa', 'Shilling', 'Dinar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'eritrea-q7',
+      question: 'What bread is served with zigni?',
+      options: ['Naan', 'Pita', 'Injera', 'Baguette'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'eritrea-q8',
+      question: 'Which country did Eritrea gain independence from?',
+      options: ['Italy', 'Ethiopia', 'Britain', 'France'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'eritrea-q9',
+      question: 'What is an important cultural tradition in Eritrea?',
+      options: ['Tea ceremony', 'Coffee ceremony', 'Wine tasting', 'Beer festival'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'eritrea-q10',
+      question: 'What is the Dahlak Archipelago known for?',
+      options: ['Mountains', 'Deserts', 'Diving', 'Skiing'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 56, y: 26 },

@@ -67,12 +67,83 @@ export const dominica: Country = {
     'Have you experienced Caribbean nature?',
     'Do you enjoy rainforest hiking?',
   ],
+  innovations: [
+    {
+      name: 'Geothermal Energy',
+      year: '2020s',
+      description: 'Developing geothermal power from volcanic activity to become the first climate-resilient nation',
+    },
+    {
+      name: 'Citizenship by Investment',
+      year: '1993',
+      description: 'One of the Caribbean\'s first economic citizenship programs',
+    },
+    {
+      name: 'Eco-Tourism Model',
+      year: '2000s',
+      description: 'Pioneering sustainable tourism focused on nature preservation',
+    },
+  ],
   quiz: [
     {
       id: 'dominica-q1',
       question: 'What is the capital of Dominica?',
       options: ['Roseau', 'Bridgetown', 'Castries', 'St. George\'s'],
       correctAnswer: 0,
+    },
+    {
+      id: 'dominica-q2',
+      question: 'What is Dominica nicknamed?',
+      options: ['Spice Island', 'Nature Island', 'Pearl of Caribbean', 'Emerald Isle'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'dominica-q3',
+      question: 'How many rivers does Dominica have?',
+      options: ['100', '200', '365', '500'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'dominica-q4',
+      question: 'What is the traditional soup of Dominica?',
+      options: ['Tomato soup', 'Callaloo soup', 'Pumpkin soup', 'Fish soup'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'dominica-q5',
+      question: 'Which indigenous people live in Dominica?',
+      options: ['Aztec', 'Maya', 'Kalinago', 'Inca'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'dominica-q6',
+      question: 'What movie was filmed in Dominica?',
+      options: ['Titanic', 'Pirates of the Caribbean', 'Jurassic Park', 'Avatar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'dominica-q7',
+      question: 'What is the official language of Dominica?',
+      options: ['French', 'Spanish', 'English', 'Creole'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'dominica-q8',
+      question: 'What is the currency of Dominica?',
+      options: ['US Dollar', 'Euro', 'East Caribbean Dollar', 'Pound Sterling'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'dominica-q9',
+      question: 'What music genre originated in Dominica?',
+      options: ['Reggae', 'Salsa', 'Bouyon', 'Calypso'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'dominica-q10',
+      question: 'What geological feature is Dominica famous for?',
+      options: ['Desert', 'Glaciers', 'Boiling lake', 'Caves'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 26, y: 26 },

@@ -202,6 +202,36 @@ export const france: Country = {
       options: ['1776', '1789', '1804', '1815'],
       correctAnswer: 1,
     },
+    {
+      id: 'france-q6',
+      question: 'How many varieties of cheese does France produce?',
+      options: ['50', '150', '400+', '1000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'france-q7',
+      question: 'What did the Lumière brothers invent?',
+      options: ['Telephone', 'Cinema', 'Radio', 'Television'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'france-q8',
+      question: 'How many time zones does France have?',
+      options: ['1', '4', '8', '12'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'france-q9',
+      question: 'What is Coq au Vin?',
+      options: ['Wine and cheese', 'Chicken in wine', 'Wine soup', 'Wine bread'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'france-q10',
+      question: 'Who developed pasteurization?',
+      options: ['Marie Curie', 'Louis Pasteur', 'Napoleon', 'Victor Hugo'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 48, y: 46 },
 };

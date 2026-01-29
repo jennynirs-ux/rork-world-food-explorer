@@ -114,6 +114,28 @@ export const finland: Country = {
     'Have you experienced a Finnish sauna? What was it like?',
     'Would you prefer summer\'s midnight sun or winter\'s snow activities?',
   ],
+  innovations: [
+    {
+      name: 'Nokia Mobile Phones',
+      year: '1980s-2000s',
+      description: 'Dominated the mobile phone industry before smartphones, connecting the world',
+    },
+    {
+      name: 'Linux Operating System',
+      year: '1991',
+      description: 'Linus Torvalds created Linux, now powering most servers and Android devices',
+    },
+    {
+      name: 'Sauna Culture',
+      year: 'Ancient',
+      description: 'Developed the sauna tradition that has spread worldwide',
+    },
+    {
+      name: 'Angry Birds',
+      year: '2009',
+      description: 'Rovio Entertainment created one of the most successful mobile games ever',
+    },
+  ],
   quiz: [
     {
       id: 'finland-q1',
@@ -131,6 +153,48 @@ export const finland: Country = {
       id: 'finland-q3',
       question: 'What is Finland\'s traditional salmon soup called?',
       options: ['Gravlax', 'Lohikeitto', 'Räksmörgås', 'Kalakukko'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'finland-q4',
+      question: 'Where does Santa Claus officially live?',
+      options: ['North Pole', 'Finnish Lapland', 'Iceland', 'Greenland'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'finland-q5',
+      question: 'What does Finland have more of than cars?',
+      options: ['Bikes', 'Boats', 'Saunas', 'Lakes'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'finland-q6',
+      question: 'Who created Linux?',
+      options: ['Bill Gates', 'Linus Torvalds', 'Steve Jobs', 'Mark Zuckerberg'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'finland-q7',
+      question: 'What music genre is very popular in Finland?',
+      options: ['Jazz', 'Heavy metal', 'Country', 'Hip hop'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'finland-q8',
+      question: 'How many nights per year can you see Northern Lights in Lapland?',
+      options: ['50', '100', '200', '300'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'finland-q9',
+      question: 'What currency does Finland use?',
+      options: ['Markka', 'Krona', 'Euro', 'Dollar'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'finland-q10',
+      question: 'What is Finland consistently ranked as?',
+      options: ['Richest country', 'Happiest country', 'Largest country', 'Oldest country'],
       correctAnswer: 1,
     },
   ],

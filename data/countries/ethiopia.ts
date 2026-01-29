@@ -158,6 +158,48 @@ export const ethiopia: Country = {
       options: ['Yes, by Italy', 'Yes, by Britain', 'No, it remained independent', 'Yes, by France'],
       correctAnswer: 2,
     },
+    {
+      id: 'ethiopia-q4',
+      question: 'What is the capital of Ethiopia?',
+      options: ['Nairobi', 'Addis Ababa', 'Asmara', 'Khartoum'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ethiopia-q5',
+      question: 'What is Doro Wat?',
+      options: ['A coffee drink', 'Spicy chicken stew', 'A traditional dance', 'A mountain'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ethiopia-q6',
+      question: 'How is the Ethiopian calendar different?',
+      options: ['It has 10 months', 'It has 13 months', 'It has no leap years', 'It starts in summer'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ethiopia-q7',
+      question: 'What is berbere?',
+      options: ['A city', 'A spice blend', 'A river', 'A festival'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ethiopia-q8',
+      question: 'Which battle secured Ethiopia\'s independence?',
+      options: ['Battle of Waterloo', 'Battle of Adwa', 'Battle of Hastings', 'Battle of Tours'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ethiopia-q9',
+      question: 'How many UNESCO World Heritage Sites does Ethiopia have?',
+      options: ['3', '5', '9', '12'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'ethiopia-q10',
+      question: 'What is tej?',
+      options: ['Coffee', 'Honey wine', 'Bread', 'Cheese'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 55, y: 20 },
 };

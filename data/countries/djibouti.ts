@@ -66,12 +66,83 @@ export const djibouti: Country = {
     'Have you been to the Red Sea?',
     'What do you know about the Horn of Africa?',
   ],
+  innovations: [
+    {
+      name: 'Geothermal Energy Development',
+      year: '2018',
+      description: 'Djibouti is harnessing its volcanic activity for geothermal power to achieve energy independence',
+    },
+    {
+      name: 'Port of Djibouti Expansion',
+      year: '2017',
+      description: 'Modern port facilities making Djibouti a major logistics hub for East Africa',
+    },
+    {
+      name: 'Lake Assal Salt Extraction',
+      year: 'Traditional',
+      description: 'Innovative salt mining techniques in one of the saltiest bodies of water on Earth',
+    },
+  ],
   quiz: [
     {
       id: 'djibouti-q1',
       question: 'What is the capital of Djibouti?',
       options: ['Djibouti City', 'Addis Ababa', 'Mogadishu', 'Asmara'],
       correctAnswer: 0,
+    },
+    {
+      id: 'djibouti-q2',
+      question: 'What is Lake Assal known for?',
+      options: ['Highest lake in Africa', 'Lowest point in Africa', 'Largest lake', 'Deepest lake'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'djibouti-q3',
+      question: 'Which languages are official in Djibouti?',
+      options: ['English and Somali', 'French and Arabic', 'Arabic and Somali', 'French and English'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'djibouti-q4',
+      question: 'Djibouti is located on which body of water?',
+      options: ['Mediterranean Sea', 'Red Sea', 'Persian Gulf', 'Indian Ocean'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'djibouti-q5',
+      question: 'What is the traditional main dish of Djibouti?',
+      options: ['Couscous', 'Skoudehkaris', 'Injera', 'Tagine'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'djibouti-q6',
+      question: 'What is Djibouti known for strategically?',
+      options: ['Oil reserves', 'Foreign military bases', 'Diamond mines', 'Agricultural exports'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'djibouti-q7',
+      question: 'What is the currency of Djibouti?',
+      options: ['Euro', 'Dollar', 'Djiboutian Franc', 'Shilling'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'djibouti-q8',
+      question: 'Djibouti is on which part of Africa?',
+      options: ['West Africa', 'Southern Africa', 'Horn of Africa', 'North Africa'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'djibouti-q9',
+      question: 'What type of climate does Djibouti have?',
+      options: ['Tropical rainforest', 'One of the hottest', 'Mediterranean', 'Temperate'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'djibouti-q10',
+      question: 'Which canal route does Djibouti provide access to?',
+      options: ['Panama Canal', 'Suez Canal', 'Kiel Canal', 'Corinth Canal'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 57, y: 24 },

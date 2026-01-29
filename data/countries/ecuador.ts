@@ -113,6 +113,23 @@ export const ecuador: Country = {
     'Have you tried ceviche? How does the Ecuadorian style differ?',
     'Would you prefer the coast, the highlands, or the rainforest?',
   ],
+  innovations: [
+    {
+      name: 'Panama Hat',
+      year: '1600s',
+      description: 'Despite the name, Panama hats are actually from Ecuador, a world-renowned woven craft',
+    },
+    {
+      name: 'Galápagos Conservation',
+      year: '1959',
+      description: 'Pioneering marine and wildlife conservation efforts in the Galápagos National Park',
+    },
+    {
+      name: 'Banana Export Excellence',
+      year: '20th Century',
+      description: 'Became the world\'s largest banana exporter with advanced cultivation techniques',
+    },
+  ],
   quiz: [
     {
       id: 'ecuador-q1',
@@ -130,6 +147,48 @@ export const ecuador: Country = {
       id: 'ecuador-q3',
       question: 'Which famous islands belong to Ecuador?',
       options: ['Falkland Islands', 'Easter Island', 'Galápagos Islands', 'Caribbean Islands'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'ecuador-q4',
+      question: 'What runs through Ecuador?',
+      options: ['Tropic of Cancer', 'Equator', 'Prime Meridian', 'Arctic Circle'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ecuador-q5',
+      question: 'What is Ecuador the largest exporter of?',
+      options: ['Coffee', 'Bananas', 'Oil', 'Flowers'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ecuador-q6',
+      question: 'Which scientist visited the Galápagos Islands?',
+      options: ['Newton', 'Einstein', 'Darwin', 'Galileo'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'ecuador-q7',
+      question: 'What is the traditional dish of Ecuador?',
+      options: ['Tacos', 'Ceviche', 'Paella', 'Sushi'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ecuador-q8',
+      question: 'Where are Panama hats actually from?',
+      options: ['Panama', 'Ecuador', 'Colombia', 'Peru'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ecuador-q9',
+      question: 'What is the official language of Ecuador?',
+      options: ['Portuguese', 'English', 'Spanish', 'Quechua'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'ecuador-q10',
+      question: 'How many megadiverse countries are there?',
+      options: ['5', '10', '17', '25'],
       correctAnswer: 2,
     },
   ],

@@ -66,12 +66,83 @@ export const equatorialGuinea: Country = {
     'Did you know Spanish is spoken in Africa?',
     'What do you know about Central African islands?',
   ],
+  innovations: [
+    {
+      name: 'Spanish Language in Africa',
+      year: 'Colonial Era',
+      description: 'Only Spanish-speaking country in Africa, maintaining unique linguistic heritage',
+    },
+    {
+      name: 'Oil Industry Development',
+      year: '1990s',
+      description: 'Rapid development of offshore oil production transforming the economy',
+    },
+    {
+      name: 'Bioko Biodiversity',
+      year: '2000s',
+      description: 'Conservation efforts protecting unique island species and ecosystems',
+    },
+  ],
   quiz: [
     {
       id: 'equatorial-guinea-q1',
       question: 'What is the capital of Equatorial Guinea?',
       options: ['Malabo', 'Bata', 'Libreville', 'Yaoundé'],
       correctAnswer: 0,
+    },
+    {
+      id: 'equatorial-guinea-q2',
+      question: 'What is unique about Equatorial Guinea in Africa?',
+      options: ['Largest country', 'Only Spanish-speaking', 'Most populous', 'Coldest climate'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'equatorial-guinea-q3',
+      question: 'Where is the capital Malabo located?',
+      options: ['Mainland', 'Bioko Island', 'Peninsula', 'Desert'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'equatorial-guinea-q4',
+      question: 'What is the main natural resource?',
+      options: ['Gold', 'Diamonds', 'Oil and gas', 'Copper'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'equatorial-guinea-q5',
+      question: 'How many official languages does it have?',
+      options: ['1', '2', '3', '4'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'equatorial-guinea-q6',
+      question: 'What is the traditional stew called?',
+      options: ['Paella', 'Succotash', 'Gumbo', 'Chowder'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'equatorial-guinea-q7',
+      question: 'Which European country colonized it?',
+      options: ['Portugal', 'France', 'Spain', 'Britain'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'equatorial-guinea-q8',
+      question: 'What ocean borders Equatorial Guinea?',
+      options: ['Atlantic', 'Pacific', 'Indian', 'Arctic'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'equatorial-guinea-q9',
+      question: 'What is the currency?',
+      options: ['Euro', 'Dollar', 'CFA Franc', 'Pound'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'equatorial-guinea-q10',
+      question: 'Which continent is it in?',
+      options: ['South America', 'Asia', 'Africa', 'Europe'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 49, y: 19 },

@@ -68,12 +68,88 @@ export const dominicanRepublic: Country = {
     'Do you enjoy Caribbean beaches?',
     'Have you tasted Dominican rum?',
   ],
+  innovations: [
+    {
+      name: 'Merengue Music',
+      year: '19th Century',
+      description: 'Created the iconic merengue dance and music style that spread worldwide',
+    },
+    {
+      name: 'Bachata',
+      year: '1960s',
+      description: 'Developed bachata music genre that became globally popular',
+    },
+    {
+      name: 'Baseball Excellence',
+      year: '20th Century',
+      description: 'Produces more MLB players per capita than any other country',
+    },
+    {
+      name: 'Premium Cigar Production',
+      year: '1960s',
+      description: 'Became world leader in hand-rolled premium cigars',
+    },
+  ],
   quiz: [
     {
       id: 'dominican-q1',
       question: 'What is the capital of Dominican Republic?',
       options: ['Santo Domingo', 'San Juan', 'Port-au-Prince', 'Havana'],
       correctAnswer: 0,
+    },
+    {
+      id: 'dominican-q2',
+      question: 'What is the national dish of Dominican Republic?',
+      options: ['Tacos', 'La Bandera', 'Paella', 'Ceviche'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'dominican-q3',
+      question: 'What is the national sport of Dominican Republic?',
+      options: ['Soccer', 'Basketball', 'Baseball', 'Volleyball'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'dominican-q4',
+      question: 'Which music genre originated in Dominican Republic?',
+      options: ['Salsa', 'Merengue', 'Samba', 'Reggae'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'dominican-q5',
+      question: 'What island does Dominican Republic share with Haiti?',
+      options: ['Jamaica', 'Hispaniola', 'Cuba', 'Puerto Rico'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'dominican-q6',
+      question: 'What is Dominican Republic famous for producing?',
+      options: ['Coffee', 'Cigars', 'Chocolate', 'Wine'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'dominican-q7',
+      question: 'What is the highest peak in the Caribbean?',
+      options: ['Blue Mountain', 'Pico Duarte', 'El Yunque', 'Mount Scenery'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'dominican-q8',
+      question: 'What is the currency of Dominican Republic?',
+      options: ['US Dollar', 'Dominican Peso', 'Euro', 'Caribbean Dollar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'dominican-q9',
+      question: 'What is the official language?',
+      options: ['English', 'French', 'Spanish', 'Portuguese'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'dominican-q10',
+      question: 'What is Mamajuana?',
+      options: ['A dance', 'A drink', 'A dish', 'A festival'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 24, y: 29 },
