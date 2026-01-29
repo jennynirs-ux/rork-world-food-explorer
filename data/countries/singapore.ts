@@ -6,8 +6,9 @@ export const singapore: Country = {
   code: 'SG',
   continent: 'Asia',
   flag: '🇸🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800',
-  description: 'Singapore is a modern city-state and island nation known for its efficiency, cleanliness, multicultural society, world-class food scene, and impressive skyline. It\'s a perfect blend of East and West.',
+  landscapeImage: 'https://source.unsplash.com/featured/?singapore,skyline,marina-bay&w=800',
+  description:
+    'Singapore is a modern city-state and island nation known for its efficiency, cleanliness, multicultural society, world-class hawker food, and iconic skyline. It blends Chinese, Malay, Indian, and Western influences into a uniquely Singaporean identity.',
   quickFacts: [
     { label: 'Capital', value: 'Singapore' },
     { label: 'Population', value: '5.9 million' },
@@ -16,121 +17,247 @@ export const singapore: Country = {
     { label: 'Area', value: '728 km²' },
   ],
   facts: [
-    'Singapore is one of only three surviving city-states in the world',
-    'Chewing gum is restricted (but not banned) in Singapore',
-    'Singapore has one of the world\'s highest number of millionaires per capita',
-    'The country is only slightly larger than New York City',
-    'Singapore has no natural resources and imports everything including water',
-    'Changi Airport has consistently been rated the world\'s best',
-    'Singapore is one of the cleanest and safest cities in the world',
-    'Over 60% of Singapore is covered in greenery',
+    'Singapore is one of the few surviving city-states in the world',
+    'Chewing gum sales are restricted (with limited exceptions)',
+    'Singapore is only slightly larger than New York City in land area',
+    'Changi Airport is regularly ranked among the world’s best airports',
+    'Singapore has no major natural resources and relies heavily on imports',
+    'Hawker centres are central to daily life and food culture',
+    'The city is known for safety, strict laws, and efficient public transport',
+    'A large share of the country is covered by parks, trees, and green corridors',
   ],
-  foodCulture: 'Singaporean cuisine is a melting pot of Chinese, Malay, Indian, and Peranakan flavors. Hawker centers are the heart of food culture, offering incredible dishes at affordable prices. Food is a national obsession.',
+  foodCulture:
+    'Singaporean cuisine is a melting pot of Chinese, Malay, Indian, and Peranakan flavors. Hawker centres are the heart of the food scene, serving iconic dishes like chicken rice, laksa, satay, and chili crab. Eating out is a national pastime.',
+
   history: [
     {
       year: '1819',
-      title: 'British Founding',
-      description: 'Sir Stamford Raffles established Singapore as a British trading post.'
+      title: 'British Trading Port',
+      description:
+        'Stamford Raffles established Singapore as a British trading post, accelerating migration and commerce.',
     },
     {
-      year: '1942-1945',
+      year: '1942–1945',
       title: 'Japanese Occupation',
-      description: 'Singapore fell to Japanese forces during WWII, enduring harsh occupation.'
+      description:
+        'Singapore fell to Japan during World War II and endured a difficult occupation period.',
+    },
+    {
+      year: '1959',
+      title: 'Self-Government',
+      description:
+        'Singapore gained internal self-government, laying groundwork for full sovereignty.',
     },
     {
       year: '1963',
-      title: 'Malaysian Federation',
-      description: 'Singapore joined the Federation of Malaysia upon independence from Britain.'
+      title: 'Joined Malaysia',
+      description:
+        'Singapore became part of the Federation of Malaysia for a short period.',
     },
     {
       year: '1965',
       title: 'Independence',
-      description: 'Singapore separated from Malaysia and became an independent nation.'
+      description:
+        'Singapore separated from Malaysia and became an independent nation.',
     },
     {
-      year: '1965-1990',
-      title: 'Rapid Development',
-      description: 'Under Lee Kuan Yew, Singapore transformed from a poor nation to a first-world economy.'
+      year: '1965–1990s',
+      title: 'Rapid Economic Transformation',
+      description:
+        'Singapore grew into a major global hub for trade, finance, and manufacturing, supported by strong institutions and infrastructure.',
     },
   ],
-  travelEssentials: [
-    { item: 'Best time to visit', description: 'February-April for slightly cooler weather, but year-round destination' },
-    { item: 'Visa', description: 'Visa-free or visa on arrival for most nationalities.' },
-    { item: 'Transportation', description: 'Excellent MRT (metro), buses, and taxis. Very efficient.' },
-    { item: 'Language', description: 'English widely spoken. Singlish (local English dialect) common.' },
-    { item: 'Safety', description: 'Extremely safe. Strict laws ensure order and cleanliness.' },
+
+  innovations: [
+    {
+      name: 'Newater (Water Reuse)',
+      year: '2003',
+      description:
+        'Singapore pioneered large-scale water recycling, producing high-grade reclaimed water to strengthen water security.',
+    },
+    {
+      name: 'Urban Greening & Vertical Gardens',
+      year: 'Modern',
+      description:
+        'The “City in a Garden” approach integrates parks, green corridors, and vertical greenery into dense urban planning.',
+    },
+    {
+      name: 'World-Class Container Port Operations',
+      year: 'Modern',
+      description:
+        'Singapore became a logistics powerhouse through highly optimized port operations and global shipping connectivity.',
+    },
+    {
+      name: 'Smart Nation Initiatives',
+      year: '2014',
+      description:
+        'Digital public services and smart infrastructure have shaped Singapore’s reputation as a tech-forward city-state.',
+    },
   ],
+
+  mustVisit: [
+    { name: 'Gardens by the Bay', description: 'Futuristic gardens with Supertree Grove and climate-controlled conservatories.' },
+    { name: 'Marina Bay', description: 'Iconic skyline views, waterfront promenades, and night light shows.' },
+    { name: 'Chinatown', description: 'Heritage streets, temples, markets, and classic local eats.' },
+    { name: 'Little India', description: 'Colorful culture, temples, spice shops, and South Asian cuisine.' },
+    { name: 'Sentosa', description: 'Beach escapes, attractions, and resort-style fun close to the city.' },
+  ],
+
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'Year-round destination; February–April is often slightly less rainy.' },
+    { item: 'Transportation', description: 'MRT and buses are fast, clean, and easy; contactless payment is common.' },
+    { item: 'Language', description: 'English is widely spoken; you will also hear Singlish in daily conversation.' },
+    { item: 'Etiquette', description: 'Queueing, cleanliness, and public rules are taken seriously.' },
+    { item: 'Weather', description: 'Hot and humid—pack breathable clothes and plan indoor breaks.' },
+  ],
+
   mainDish: {
-    id: 'singapore-chicken-rice',
+    id: 'singapore-main',
     name: 'Hainanese Chicken Rice',
-    description: 'Singapore\'s national dish - poached chicken with fragrant rice, considered simple perfection',
-    cookingTime: 60,
+    description:
+      'Singapore’s most iconic comfort food: poached chicken served with fragrant rice, chili sauce, and ginger-scallion dip.',
+    cookingTime: 70,
     servings: 4,
     dietType: 'meat',
     ingredients: [
       { name: 'Whole chicken', amount: 1.5, unit: 'kg' },
-      { name: 'Jasmine rice', amount: 400, unit: 'g' },
-      { name: 'Chicken fat', amount: 3, unit: 'tbsp' },
-      { name: 'Ginger', amount: 5, unit: 'cm piece' },
-      { name: 'Garlic', amount: 6, unit: 'cloves' },
-      { name: 'Pandan leaves', amount: 2, unit: 'pieces' },
-      { name: 'Cucumber', amount: 1, unit: 'piece' },
-      { name: 'Dark soy sauce', amount: 3, unit: 'tbsp' },
-      { name: 'Chili sauce', amount: 100, unit: 'g' },
-      { name: 'Sesame oil', amount: 2, unit: 'tbsp' },
+      { name: 'Jasmine rice', amount: 350, unit: 'g' },
+      { name: 'Chicken stock (from poaching)', amount: 650, unit: 'ml' },
+      { name: 'Ginger', amount: 30, unit: 'g' },
+      { name: 'Garlic cloves', amount: 6, unit: 'cloves' },
+      { name: 'Spring onions', amount: 3, unit: 'stalks' },
+      { name: 'Sesame oil', amount: 1, unit: 'tbsp' },
+      { name: 'Soy sauce', amount: 2, unit: 'tbsp' },
+      { name: 'Cucumber', amount: 1, unit: 'whole' },
+      { name: 'Red chili', amount: 1, unit: 'whole' },
+      { name: 'Lime', amount: 1, unit: 'whole' },
+      { name: 'Salt', amount: 2, unit: 'tsp' },
     ],
     steps: [
-      'Rub chicken with salt and stuff with ginger and pandan',
-      'Bring water to boil, add chicken and simmer for 30 minutes',
-      'Remove chicken and plunge into ice water immediately',
-      'Fry minced garlic and ginger in chicken fat',
-      'Add rice and stir until fragrant',
-      'Add chicken broth and pandan leaves, cook rice',
-      'Chop chicken into bite-sized pieces',
-      'Serve chicken over fragrant rice',
-      'Garnish with cucumber slices',
-      'Serve with chili sauce, ginger paste, and dark soy sauce',
+      'Rub chicken with salt, then rinse (this helps clean the skin).',
+      'Poach chicken: place in a pot, cover with water, add sliced ginger and 1 tsp salt. Bring to a gentle simmer and cook 35–40 minutes (avoid hard boiling).',
+      'Ice bath: remove chicken and plunge into ice water for 5 minutes to set the skin. Drain and rest.',
+      'Make rice base: finely mince 3 cloves garlic and 10 g ginger. Sauté in 1 tbsp oil until fragrant.',
+      'Add washed rice and stir 1 minute. Add 650 ml chicken stock and cook rice until done.',
+      'Chili sauce: blend chili, a bit of ginger, lime juice, and a pinch of salt (add a splash of stock if needed).',
+      'Ginger-scallion dip: finely chop spring onions + ginger, heat sesame oil and pour over, add a pinch of salt.',
+      'Slice chicken and drizzle with soy sauce (or light + dark soy mix if you use both).',
+      'Serve with cucumber slices and the sauces on the side.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600',
+    imageUrl: 'https://source.unsplash.com/featured/?hainanese-chicken-rice,singapore-food&w=600',
   },
+
+  dessert: {
+    id: 'singapore-dessert',
+    name: 'Kaya Toast Set (Sweet Kaya Toast)',
+    description:
+      'A classic Singaporean sweet bite: toasted bread with kaya (coconut-egg jam) and butter, often served with coffee or tea.',
+    cookingTime: 15,
+    servings: 2,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'White bread slices', amount: 4, unit: 'slices' },
+      { name: 'Kaya (coconut jam)', amount: 4, unit: 'tbsp' },
+      { name: 'Butter', amount: 40, unit: 'g' },
+    ],
+    steps: [
+      'Toast bread until crisp and golden.',
+      'Spread kaya on two slices.',
+      'Add butter slices, then sandwich with remaining toast.',
+      'Cut into triangles and serve warm.',
+    ],
+    imageUrl: 'https://source.unsplash.com/featured/?kaya-toast,singapore-dessert&w=600',
+  },
+
   drinks: {
-    alcoholic: 'Singapore Sling (famous cocktail), Tiger beer, Local craft beers',
-    nonAlcoholic: 'Kopi (local coffee), Teh Tarik (pulled tea), Fresh fruit juices, Sugarcane juice',
+    alcoholic: 'Singapore Sling, Tiger beer, Local craft beers',
+    nonAlcoholic: 'Kopi (local coffee), Teh Tarik, Sugarcane juice, Fresh fruit juices',
   },
-  music: ['Modern Singaporean pop', 'Getai (street opera)', 'Fusion Asian music', 'International music scene'],
+
+  music: [
+    'Modern Singaporean pop',
+    'Getai (street opera)',
+    'Mandopop and Malay pop influences',
+    'International music scene',
+  ],
+
   decorationIdeas: [
-    'Red and white (Singapore flag colors)',
+    'Red and white accents (flag colors)',
     'Merlion imagery (national symbol)',
     'Orchids (national flower)',
-    'Modern minimalist design',
-    'Multicultural elements (Chinese, Malay, Indian)',
-    'Marina Bay Sands motifs',
+    'Sleek modern skyline elements',
+    'Multicultural motifs (Chinese, Malay, Indian)',
   ],
+
   conversationStarters: [
-    'Have you been to Singapore\'s Gardens by the Bay?',
-    'Hawker centers have the best food - which dish would you try?',
-    'Singapore is so clean and organized - have you experienced it?',
-    'The Singapore Sling was invented at Raffles Hotel!',
+    'Which hawker dish would you try first: chicken rice, laksa, satay, or chili crab?',
+    'Would you visit Gardens by the Bay at night for the Supertree light show?',
+    'Singapore is famous for being super organized—does that sound relaxing or intense to you?',
+    'Have you ever tried kopi or teh tarik?',
   ],
+
   quiz: [
     {
       id: 'singapore-q1',
-      question: 'What year did Singapore gain independence?',
-      options: ['1963', '1965', '1970', '1975'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'singapore-q2',
-      question: 'What is Singapore\'s national dish?',
-      options: ['Laksa', 'Satay', 'Chicken Rice', 'Chili Crab'],
+      question: 'What year did Singapore become independent?',
+      options: ['1959', '1963', '1965', '1971'],
       correctAnswer: 2,
     },
     {
+      id: 'singapore-q2',
+      question: 'What is the capital of Singapore?',
+      options: ['Singapore', 'Kuala Lumpur', 'Jakarta', 'Bangkok'],
+      correctAnswer: 0,
+    },
+    {
       id: 'singapore-q3',
+      question: 'Which currency is used in Singapore?',
+      options: ['Ringgit', 'Singapore Dollar', 'Baht', 'Yen'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'singapore-q4',
+      question: 'Which place is famous for affordable local food stalls?',
+      options: ['Hawker centre', 'Ski lodge', 'Tea plantation', 'Vineyard'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'singapore-q5',
       question: 'What is the Merlion?',
-      options: ['A building', 'National symbol', 'A food', 'A festival'],
+      options: ['A mountain', 'A national symbol/statue', 'A river', 'A dessert'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'singapore-q6',
+      question: 'Which dish is strongly associated with Singapore?',
+      options: ['Hainanese chicken rice', 'Pierogi', 'Fondue', 'Borscht'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'singapore-q7',
+      question: 'Which of these is one of Singapore’s official languages?',
+      options: ['Thai', 'Tamil', 'Korean', 'Spanish'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'singapore-q8',
+      question: 'What is Newater best described as?',
+      options: ['A mountain lake', 'Recycled reclaimed water', 'A train system', 'A festival'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'singapore-q9',
+      question: 'Which iconic attraction features “Supertrees”?',
+      options: ['Gardens by the Bay', 'Sentosa Beach', 'Chinatown', 'Little India'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'singapore-q10',
+      question: 'Singapore is best described as a…',
+      options: ['Landlocked country', 'Island city-state', 'Desert kingdom', 'Arctic nation'],
       correctAnswer: 1,
     },
   ],
+
   coordinates: { x: 77, y: 19 },
 };
