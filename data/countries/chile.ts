@@ -58,6 +58,35 @@ export const chile: Country = {
       description: 'Chile joined the OECD and continued developing as one of South America\'s most stable economies.'
     },
   ],
+  innovations: [
+    {
+      name: 'Wine Industry Innovation',
+      year: '1980s-present',
+      description: 'Revolutionized modern winemaking techniques in South America, particularly with Carmenère grape cultivation, making Chile a world leader in quality wine production.'
+    },
+    {
+      name: 'Seismic Engineering',
+      year: '20th century',
+      description: 'Developed advanced earthquake-resistant building techniques that became global standards after surviving numerous major earthquakes.'
+    },
+    {
+      name: 'Copper Mining Technology',
+      year: '1900s-present',
+      description: 'Pioneered large-scale open-pit copper mining methods and extraction technologies, producing over 25% of world\'s copper supply.'
+    },
+    {
+      name: 'Antarctic Research',
+      year: '1940s-present',
+      description: 'Established early Antarctic bases and contributed significantly to climate science and polar research from South America.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Torres del Paine National Park', description: 'Spectacular Patagonian wilderness with dramatic granite peaks, glaciers, turquoise lakes, and incredible trekking routes.' },
+    { name: 'Atacama Desert', description: 'World\'s driest desert with otherworldly landscapes, salt flats, geysers, and some of the clearest night skies on Earth.' },
+    { name: 'Easter Island (Rapa Nui)', description: 'Remote Polynesian island famous for mysterious moai statues and unique cultural heritage.' },
+    { name: 'Valparaíso', description: 'Colorful UNESCO World Heritage port city with bohemian culture, street art, funicular railways, and Pablo Neruda\'s house.' },
+    { name: 'Chilean Lake District', description: 'Stunning region of volcanoes, pristine lakes, hot springs, and German-influenced towns near Puerto Varas.' }
+  ],
   travelEssentials: [
     { item: 'Visa', description: 'Many nationalities can visit visa-free for tourism up to 90 days.' },
     { item: 'Best time to visit', description: 'December to February (summer) for most regions; June-September for skiing' },
@@ -94,6 +123,35 @@ export const chile: Country = {
       'Bake at 200°C for 30-40 minutes until golden',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1626266061368-46ab8e248e6b?w=600',
+  },
+  dessert: {
+    id: 'chile-dessert',
+    name: 'Mote con Huesillos',
+    description: 'Refreshing traditional Chilean drink-dessert with wheat, dried peaches, and sweet syrup',
+    cookingTime: 60,
+    servings: 6,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Husked wheat (mote)', amount: 200, unit: 'g' },
+      { name: 'Dried peaches (huesillos)', amount: 300, unit: 'g' },
+      { name: 'Sugar', amount: 300, unit: 'g' },
+      { name: 'Water', amount: 2, unit: 'liters' },
+      { name: 'Cinnamon stick', amount: 1, unit: 'piece' },
+      { name: 'Orange zest', amount: 1, unit: 'tsp' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Soak wheat overnight, then cook until tender (about 45 minutes)',
+      'Drain wheat and set aside',
+      'In large pot, combine dried peaches, sugar, water, cinnamon, and orange zest',
+      'Bring to boil, then simmer for 30-40 minutes until peaches are soft',
+      'Add vanilla extract and let cool',
+      'Remove cinnamon stick',
+      'To serve, place wheat and a peach in glass',
+      'Pour syrup over top',
+      'Serve chilled as refreshing dessert drink',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1577805947697-89e18249d767?w=600',
   },
   drinks: {
     alcoholic: 'Chilean wine (Carmenere, Cabernet), Pisco Sour, Terremoto cocktail',
@@ -132,6 +190,48 @@ export const chile: Country = {
       question: 'What is Chile\'s most famous grape variety?',
       options: ['Merlot', 'Carmenere', 'Pinot Noir', 'Chardonnay'],
       correctAnswer: 1,
+    },
+    {
+      id: 'chile-q4',
+      question: 'When did Chile gain independence from Spain?',
+      options: ['1810', '1818', '1825', '1830'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'chile-q5',
+      question: 'What is Chile the world\'s largest producer of?',
+      options: ['Silver', 'Gold', 'Copper', 'Iron'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'chile-q6',
+      question: 'Which famous island belongs to Chile?',
+      options: ['Galapagos', 'Easter Island', 'Fiji', 'Tahiti'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'chile-q7',
+      question: 'What is the name of Chile\'s famous national park in Patagonia?',
+      options: ['Los Glaciares', 'Torres del Paine', 'Iguazu', 'Tayrona'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'chile-q8',
+      question: 'How long is Chile from north to south?',
+      options: ['2,000 km', '3,000 km', '4,300 km', '5,500 km'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'chile-q9',
+      question: 'What is Chile\'s traditional dance called?',
+      options: ['Tango', 'Samba', 'Cueca', 'Salsa'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'chile-q10',
+      question: 'Which poet and politician from Chile won the Nobel Prize?',
+      options: ['Pablo Neruda', 'Gabriel Garcia Marquez', 'Jorge Luis Borges', 'Octavio Paz'],
+      correctAnswer: 0,
     },
   ],
   coordinates: { x: 23, y: 8 },

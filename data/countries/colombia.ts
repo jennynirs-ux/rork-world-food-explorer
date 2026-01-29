@@ -53,6 +53,35 @@ export const colombia: Country = {
       description: 'After decades of armed conflict, the government signed a historic peace agreement with FARC guerrillas.'
     },
   ],
+  innovations: [
+    {
+      name: 'Coffee Production Methods',
+      year: '19th-20th century',
+      description: 'Perfected high-altitude coffee growing techniques that produce some of the world\'s finest Arabica beans, setting global standards for quality.'
+    },
+    {
+      name: 'TransMilenio BRT System',
+      year: '2000',
+      description: 'Developed innovative Bus Rapid Transit system in Bogotá that became a model for sustainable urban transportation worldwide.'
+    },
+    {
+      name: 'Biodiversity Conservation',
+      year: '1990s-present',
+      description: 'Created pioneering programs to protect the world\'s second-most biodiverse country, including community-led conservation projects.'
+    },
+    {
+      name: 'Surgical Innovations',
+      year: '20th century',
+      description: 'Colombian surgeons developed advanced reconstructive surgery techniques, making the country a leader in medical tourism for plastic surgery.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Cartagena', description: 'Stunning colonial walled city on the Caribbean coast with colorful buildings, historic fortresses, and vibrant nightlife.' },
+    { name: 'Coffee Region (Eje Cafetero)', description: 'Lush valleys with coffee plantations, charming towns like Salento, and the towering wax palms of Cocora Valley.' },
+    { name: 'Tayrona National Park', description: 'Pristine Caribbean beaches backed by jungle-covered mountains, archaeological sites, and diverse wildlife.' },
+    { name: 'Lost City (Ciudad Perdida)', description: 'Ancient archaeological site in Sierra Nevada, older than Machu Picchu, reached by challenging multi-day trek.' },
+    { name: 'Medellín', description: 'Transformed city of eternal spring with innovative metro system, vibrant culture, and surrounding pueblos like Guatapé.' }
+  ],
   travelEssentials: [
     { item: 'Visa', description: 'Many nationalities can visit visa-free for up to 90 days for tourism.' },
     { item: 'Best time to visit', description: 'December to March and July to August for dry season' },
@@ -91,6 +120,36 @@ export const colombia: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1626082910618-5f6f07bb6d8e?w=600',
   },
+  dessert: {
+    id: 'colombia-dessert',
+    name: 'Arequipe with Obleas',
+    description: 'Thin crispy wafers filled with dulce de leche (arequipe), a beloved Colombian street food dessert',
+    cookingTime: 90,
+    servings: 8,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Sweetened condensed milk', amount: 400, unit: 'g' },
+      { name: 'Whole milk', amount: 500, unit: 'ml' },
+      { name: 'Sugar', amount: 150, unit: 'g' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+      { name: 'Baking soda', amount: 0.25, unit: 'tsp' },
+      { name: 'Wafer cookies (obleas)', amount: 16, unit: 'pieces' },
+      { name: 'Shredded cheese (optional)', amount: 100, unit: 'g' },
+    ],
+    steps: [
+      'In heavy-bottomed pot, combine condensed milk, whole milk, and sugar',
+      'Cook on medium heat, stirring constantly',
+      'Add baking soda and vanilla',
+      'Continue cooking and stirring for 60-75 minutes',
+      'Mixture should turn golden brown and thicken to caramel consistency',
+      'Remove from heat and let cool slightly',
+      'Spread arequipe generously on one oblea',
+      'Optional: sprinkle with shredded cheese',
+      'Top with another oblea to make sandwich',
+      'Serve immediately while crispy',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600',
+  },
   drinks: {
     alcoholic: 'Aguardiente (anise-flavored liquor), Colombian beer, Rum',
     nonAlcoholic: 'Colombian coffee, Agua de panela (sugarcane drink), Fresh fruit juices',
@@ -128,6 +187,48 @@ export const colombia: Country = {
       question: 'What is the traditional hearty platter from Antioquia called?',
       options: ['Ajiaco', 'Bandeja Paisa', 'Sancocho', 'Arepas'],
       correctAnswer: 1,
+    },
+    {
+      id: 'colombia-q4',
+      question: 'When did Colombia gain independence?',
+      options: ['1810', '1819', '1825', '1830'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'colombia-q5',
+      question: 'What is Colombia\'s ranking for biodiversity?',
+      options: ['First', 'Second', 'Third', 'Fifth'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'colombia-q6',
+      question: 'Which liberator led Colombia to independence?',
+      options: ['José de San Martín', 'Simón Bolívar', 'Che Guevara', 'Bernardo O\'Higgins'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'colombia-q7',
+      question: 'What is the Colombian anise-flavored liquor called?',
+      options: ['Tequila', 'Pisco', 'Aguardiente', 'Cachaça'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'colombia-q8',
+      question: 'Which city is known as the salsa capital of Colombia?',
+      options: ['Bogotá', 'Cartagena', 'Cali', 'Medellín'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'colombia-q9',
+      question: 'What is the Lost City (Ciudad Perdida) older than?',
+      options: ['The pyramids', 'Machu Picchu', 'The Colosseum', 'Angkor Wat'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'colombia-q10',
+      question: 'How many species of birds are found in Colombia?',
+      options: ['Over 500', 'Over 1,000', 'Over 1,900', 'Over 3,000'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 22, y: 20 },

@@ -199,6 +199,36 @@ export const china: Country = {
       options: ['Cantonese', 'Mandarin', 'Wu', 'Min'],
       correctAnswer: 1,
     },
+    {
+      id: 'china-q6',
+      question: 'When was the People\'s Republic of China founded?',
+      options: ['1945', '1949', '1950', '1955'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'china-q7',
+      question: 'How many rooms does the Forbidden City have?',
+      options: ['999', '5,555', '9,999', '10,000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'china-q8',
+      question: 'What is China\'s most important holiday?',
+      options: ['Mid-Autumn Festival', 'Dragon Boat Festival', 'Chinese New Year', 'National Day'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'china-q9',
+      question: 'Which dynasty built much of the Great Wall we see today?',
+      options: ['Han Dynasty', 'Tang Dynasty', 'Ming Dynasty', 'Qing Dynasty'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'china-q10',
+      question: 'Where are the Terracotta Warriors located?',
+      options: ['Beijing', 'Shanghai', 'Xi\'an', 'Guangzhou'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 78, y: 38 },
 };
