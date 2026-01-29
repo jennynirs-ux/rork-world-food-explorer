@@ -25,7 +25,70 @@ export const belarus: Country = {
   foodCulture:
     'Belarusian cuisine features hearty dishes with potatoes, meat, and mushrooms. Traditional recipes have been preserved for centuries.',
 
-  // You can add history / innovations / mustVisit / travelEssentials later if you want — quiz must always be 10 ✅
+  history: [
+    {
+      year: '9th-13th Century',
+      title: 'Kievan Rus and Principalities',
+      description: 'The territory was part of Kievan Rus and later divided into principalities like Polotsk and Turov.'
+    },
+    {
+      year: '14th-18th Century',
+      title: 'Grand Duchy of Lithuania',
+      description: 'Belarus became part of the Grand Duchy of Lithuania, where the Old Belarusian language flourished as an official language.'
+    },
+    {
+      year: '1795',
+      title: 'Russian Empire',
+      description: 'After partitions of Poland, Belarus was absorbed into the Russian Empire.'
+    },
+    {
+      year: '1918-1919',
+      title: 'Brief Independence',
+      description: 'The Belarusian People\'s Republic was declared but quickly fell to Soviet forces.'
+    },
+    {
+      year: '1991',
+      title: 'Independence',
+      description: 'Belarus gained independence following the dissolution of the Soviet Union.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Belaz Mining Trucks',
+      year: '1948',
+      description: 'Belarusian Automobile Plant produces the world\'s largest dump trucks, including the Belaz-75710 with 450-ton capacity.'
+    },
+    {
+      name: 'Tetris Connection',
+      year: '1984',
+      description: 'While Tetris was created by Russian Alexey Pajitnov, significant early development happened in the Soviet computing network that included Belarus.'
+    },
+    {
+      name: 'World\'s First Microprocessor',
+      year: '1970s',
+      description: 'Soviet-era computing centers in Minsk contributed to early microprocessor development and computer manufacturing.'
+    },
+    {
+      name: 'Belarusian Tractors',
+      year: '1950s',
+      description: 'MTZ (Minsk Tractor Works) became one of the world\'s largest tractor manufacturers, exporting globally.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Białowieża Forest', description: 'UNESCO World Heritage primeval forest, home to European bison and ancient oak trees over 600 years old.' },
+    { name: 'Mir Castle', description: 'Stunning 16th-century castle blending Gothic, Renaissance and Baroque architecture, UNESCO World Heritage Site.' },
+    { name: 'Brest Fortress', description: 'WWII memorial complex commemorating the heroic defense against Nazi invasion in 1941.' },
+    { name: 'Nesvizh Palace', description: 'Magnificent Renaissance palace with beautiful gardens and lake, former residence of the Radziwiłł family.' },
+    { name: 'Minsk Old Town', description: 'Reconstructed historic center with Trinity Suburb, featuring colorful houses and cobblestone streets.' }
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa-free entry for up to 30 days via Minsk airport for many nationalities.' },
+    { item: 'Best time to visit', description: 'May to September for pleasant weather; December for winter charm.' },
+    { item: 'Language', description: 'Russian and Belarusian. English limited outside Minsk.' },
+    { item: 'Currency', description: 'Belarusian Ruble (BYN). Credit cards accepted in cities; bring cash for rural areas.' },
+    { item: 'Transportation', description: 'Efficient metro and buses in Minsk. Trains and buses connect major cities.' },
+    { item: 'Safety', description: 'Generally safe for tourists. Be aware of local laws and political sensitivities.' }
+  ],
   mainDish: {
     id: 'belarus-main',
     name: 'Draniki',
