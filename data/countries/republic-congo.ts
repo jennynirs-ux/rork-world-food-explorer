@@ -22,6 +22,45 @@ export const republicCongo: Country = {
     'Traditional Sapeurs fashion culture originated here',
   ],
   foodCulture: 'Congolese cuisine features cassava, plantains, peanuts, and river fish with French colonial influences.',
+  history: [
+    {
+      year: '1880',
+      title: 'French Colonization',
+      description: 'The region became part of French Equatorial Africa, shaping modern political boundaries.'
+    },
+    {
+      year: '1960',
+      title: 'Independence',
+      description: 'Congo gained independence from France, establishing the Republic of the Congo.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Sapeur Culture',
+      year: '1920s',
+      description: 'The Society of Tastemakers and Elegant People (SAPE) created a unique fashion subculture emphasizing dignity through style.'
+    },
+    {
+      name: 'Rumba Music',
+      year: '1950s',
+      description: 'Congolese musicians contributed significantly to the development of African rumba and soukous music.'
+    },
+    {
+      name: 'Sustainable Palm Oil',
+      year: 'Traditional',
+      description: 'Traditional methods of palm oil production that maintain forest ecosystems while providing livelihoods.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Odzala-Kokoua National Park', description: 'Pristine rainforest with lowland gorillas and forest elephants.' },
+    { name: 'Brazzaville', description: 'Capital city with French colonial architecture and vibrant markets.' },
+    { name: 'Conkouati-Douli National Park', description: 'Coastal park combining beaches, lagoons, and tropical forest.' },
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Required for most nationalities; obtain in advance.' },
+    { item: 'Vaccinations', description: 'Yellow fever certificate required; malaria prophylaxis recommended.' },
+    { item: 'Language', description: 'French is official; Lingala and Kituba widely spoken.' },
+  ],
   mainDish: {
     id: 'congo-main',
     name: 'Poulet Moambe',
@@ -47,6 +86,29 @@ export const republicCongo: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600',
   },
+  dessert: {
+    id: 'congo-dessert',
+    name: 'Makemba',
+    description: 'Fried sweet plantains, a popular Congolese dessert',
+    cookingTime: 20,
+    servings: 4,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Ripe plantains', amount: 4, unit: 'whole' },
+      { name: 'Vegetable oil for frying', amount: 300, unit: 'ml' },
+      { name: 'Sugar (optional)', amount: 2, unit: 'tbsp' },
+      { name: 'Cinnamon (optional)', amount: 0.5, unit: 'tsp' },
+    ],
+    steps: [
+      'Peel ripe plantains and slice diagonally into 1cm pieces.',
+      'Heat oil in deep pan to 350°F.',
+      'Fry plantain slices in batches for 2-3 minutes per side until golden.',
+      'Drain on paper towels.',
+      'Optionally sprinkle with sugar and cinnamon while hot.',
+      'Serve warm as dessert or snack.',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1587241321921-91ffe2909df2?w=600',
+  },
   drinks: {
     alcoholic: 'Ngok (palm wine), Local beer',
     nonAlcoholic: 'Ginger juice, Bissap',
@@ -71,6 +133,60 @@ export const republicCongo: Country = {
       id: 'congo-q1',
       question: 'What is the capital of Republic of the Congo?',
       options: ['Kinshasa', 'Brazzaville', 'Pointe-Noire', 'Dolisie'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'congo-q2',
+      question: 'Which two capitals are the closest in the world?',
+      options: ['Brazzaville and Kinshasa', 'Rome and Vatican City', 'Vienna and Bratislava', 'Copenhagen and Malmö'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'congo-q3',
+      question: 'What unique fashion culture originated in Congo?',
+      options: ['Haute Couture', 'Sapeur culture', 'Streetwear', 'Minimalism'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'congo-q4',
+      question: 'When did Congo gain independence?',
+      options: ['1950', '1960', '1970', '1980'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'congo-q5',
+      question: 'What animal can be found in Odzala-Kokoua National Park?',
+      options: ['Mountain gorillas', 'Lowland gorillas', 'Chimpanzees only', 'Orangutans'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'congo-q6',
+      question: 'What is the official language of Republic of the Congo?',
+      options: ['English', 'Portuguese', 'French', 'Spanish'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'congo-q7',
+      question: 'What music style developed in Congo?',
+      options: ['Samba', 'Rumba/Soukous', 'Reggae', 'Calypso'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'congo-q8',
+      question: 'What is Poulet Moambe?',
+      options: ['A type of bread', 'Chicken in palm butter sauce', 'A traditional dance', 'A musical instrument'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'congo-q9',
+      question: 'What natural resource is Congo rich in?',
+      options: ['Coal', 'Oil and timber', 'Iron ore', 'Natural gas only'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'congo-q10',
+      question: 'What is Makemba?',
+      options: ['A type of soup', 'Fried sweet plantains', 'Grilled fish', 'Cassava bread'],
       correctAnswer: 1,
     },
   ],
