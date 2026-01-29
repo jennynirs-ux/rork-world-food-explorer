@@ -48,6 +48,35 @@ export const bahamas: Country = {
       description: 'The Bahamas gained independence from the United Kingdom while remaining a member of the Commonwealth.'
     },
   ],
+  innovations: [
+    {
+      name: 'Underwater Sculpture Park',
+      year: '2014',
+      description: 'Nassau created the world\'s largest underwater sculpture garden, Ocean Atlas, promoting marine conservation and eco-tourism.'
+    },
+    {
+      name: 'Marine Conservation Techniques',
+      year: '1950s',
+      description: 'Pioneered Caribbean marine park systems and coral reef protection methods that influenced global conservation efforts.'
+    },
+    {
+      name: 'Hurricane Forecasting Contribution',
+      year: '1940s',
+      description: 'Bahamian meteorological stations played crucial roles in developing Atlantic hurricane tracking systems.'
+    },
+    {
+      name: 'Sustainable Tourism Model',
+      year: '1990s',
+      description: 'Developed eco-tourism practices balancing economic growth with environmental protection in island ecosystems.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Exuma Cays', description: 'Pristine islands famous for swimming pigs, crystal-clear waters, and stunning sandbars like Pig Beach.' },
+    { name: 'Andros Blue Holes', description: 'Mysterious underwater sinkholes perfect for diving, with unique marine ecosystems and geological formations.' },
+    { name: 'Nassau\'s Queen\'s Staircase', description: '65 limestone steps carved by slaves in the late 18th century, leading to Fort Fincastle with panoramic city views.' },
+    { name: 'Harbour Island', description: 'Famous for its pink sand beaches, charming colonial architecture, and laid-back island atmosphere.' },
+    { name: 'Thunderball Grotto', description: 'Underwater cave system featured in James Bond films, ideal for snorkeling through dramatic rock formations.' }
+  ],
   travelEssentials: [
     { item: 'Visa', description: 'Many nationalities can visit visa-free for up to 90 days for tourism.' },
     { item: 'Best time to visit', description: 'December to April for dry season; avoid September-November (hurricane season)' },
@@ -154,6 +183,48 @@ export const bahamas: Country = {
       question: 'Which famous explorer first landed in the Bahamas?',
       options: ['Marco Polo', 'Vasco da Gama', 'Christopher Columbus', 'Ferdinand Magellan'],
       correctAnswer: 2,
+    },
+    {
+      id: 'bahamas-q4',
+      question: 'How many islands make up the Bahamas archipelago?',
+      options: ['Over 100', 'Over 300', 'Over 500', 'Over 700'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'bahamas-q5',
+      question: 'What is the official language of the Bahamas?',
+      options: ['Spanish', 'English', 'French', 'Creole'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahamas-q6',
+      question: 'Which famous pirate had a stronghold in Nassau?',
+      options: ['Captain Hook', 'Blackbeard', 'Jack Sparrow', 'Long John Silver'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahamas-q7',
+      question: 'What year did the Bahamas gain independence?',
+      options: ['1963', '1968', '1973', '1978'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bahamas-q8',
+      question: 'What is the famous cultural festival celebrated in Nassau?',
+      options: ['Carnival', 'Junkanoo', 'Crop Over', 'Reggae Sumfest'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahamas-q9',
+      question: 'The Bahamas has the world\'s ranking for barrier reefs:',
+      options: ['First largest', 'Second largest', 'Third largest', 'Fourth largest'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bahamas-q10',
+      question: 'Which animal are the Exuma islands famous for?',
+      options: ['Swimming dolphins', 'Swimming pigs', 'Sea turtles', 'Iguanas'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 23, y: 33 },
