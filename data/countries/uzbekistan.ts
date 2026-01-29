@@ -7,7 +7,8 @@ export const uzbekistan: Country = {
   continent: 'Asia',
   flag: '🇺🇿',
   landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
-  description: 'Uzbekistan is a Central Asian country on the ancient Silk Road, known for stunning Islamic architecture, bazaars, and historic cities.',
+  description:
+    'Uzbekistan is a Central Asian country on the ancient Silk Road, known for stunning Islamic architecture, bazaars, and historic cities.',
   quickFacts: [
     { label: 'Capital', value: 'Tashkent' },
     { label: 'Population', value: '34 million' },
@@ -21,7 +22,8 @@ export const uzbekistan: Country = {
     'Major cotton producer',
     'Rich in Islamic architecture and tilework',
   ],
-  foodCulture: 'Uzbek cuisine features rice, lamb, bread, and dried fruits with Central Asian and Persian influences.',
+  foodCulture:
+    'Uzbek cuisine features rice, lamb, bread, and dried fruits with Central Asian and Persian influences.',
   mainDish: {
     id: 'uzbekistan-main',
     name: 'Plov (Osh)',
@@ -51,11 +53,7 @@ export const uzbekistan: Country = {
     alcoholic: 'Vodka',
     nonAlcoholic: 'Green tea, Fresh pomegranate juice',
   },
-  music: [
-    'Traditional Shashmaqam',
-    'Dutar music',
-    'Uzbek folk songs',
-  ],
+  music: ['Traditional Shashmaqam', 'Dutar music', 'Uzbek folk songs'],
   decorationIdeas: [
     'Blue, white and green flag colors',
     'Islamic tilework patterns',
@@ -72,6 +70,70 @@ export const uzbekistan: Country = {
       question: 'What is the capital of Uzbekistan?',
       options: ['Samarkand', 'Tashkent', 'Bukhara', 'Khiva'],
       correctAnswer: 1,
+    },
+    {
+      id: 'uzbekistan-q2',
+      question: 'Uzbekistan is famous for which ancient trade route?',
+      options: ['Spice Route', 'Silk Road', 'Amber Road', 'Tea Horse Road'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uzbekistan-q3',
+      question: 'Which of these is a famous historic city in Uzbekistan?',
+      options: ['Samarkand', 'Almaty', 'Bishkek', 'Ashgabat'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'uzbekistan-q4',
+      question: 'What is Uzbekistan’s national rice dish called?',
+      options: ['Biryani', 'Plov (Osh)', 'Paella', 'Risotto'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uzbekistan-q5',
+      question: 'What is the official language of Uzbekistan?',
+      options: ['Kazakh', 'Uzbek', 'Tajik', 'Turkmen'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uzbekistan-q6',
+      question: 'Uzbekistan is described as “doubly landlocked” because it is:',
+      options: [
+        'Surrounded by deserts',
+        'Landlocked and all neighbors are also landlocked',
+        'Landlocked with two capitals',
+        'Landlocked with two major seas nearby',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uzbekistan-q7',
+      question: 'Which architectural style is Uzbekistan especially known for in its historic cities?',
+      options: [
+        'Gothic cathedrals',
+        'Islamic architecture and tilework',
+        'Baroque palaces',
+        'Modern skyscrapers',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uzbekistan-q8',
+      question: 'Which currency is used in Uzbekistan?',
+      options: ['Som', 'Ruble', 'Tenge', 'Dinar'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'uzbekistan-q9',
+      question: 'What is a common non-alcoholic drink in Uzbekistan?',
+      options: ['Green tea', 'Matcha latte', 'Bubble tea', 'Yerba mate'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'uzbekistan-q10',
+      question: 'Which of these cities is also a UNESCO-listed old town in Uzbekistan?',
+      options: ['Khiva', 'Tehran', 'Yerevan', 'Tbilisi'],
+      correctAnswer: 0,
     },
   ],
   coordinates: { x: 64, y: 42 },
