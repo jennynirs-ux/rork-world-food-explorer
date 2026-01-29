@@ -7,7 +7,8 @@ export const uruguay: Country = {
   continent: 'South America',
   flag: '🇺🇾',
   landscapeImage: 'https://images.unsplash.com/photo-1568878538025-f85c48d7a51b?w=800',
-  description: 'Uruguay is South America\'s second-smallest nation with beautiful beaches, progressive policies, and a strong gaucho culture. Known for its stability and high quality of life.',
+  description:
+    "Uruguay is South America's second-smallest nation with beautiful beaches, progressive policies, and a strong gaucho culture. Known for its stability and high quality of life.",
   quickFacts: [
     { label: 'Capital', value: 'Montevideo' },
     { label: 'Population', value: '3.5 million' },
@@ -22,7 +23,8 @@ export const uruguay: Country = {
     'Uruguay won the first FIFA World Cup in 1930',
     'The country has more cattle than people',
   ],
-  foodCulture: 'Uruguayan cuisine revolves around beef and asado (barbecue). Italian immigration influenced pasta dishes. Mate tea is a daily ritual, and dulce de leche is beloved.',
+  foodCulture:
+    'Uruguayan cuisine revolves around beef and asado (barbecue). Italian immigration influenced pasta dishes. Mate tea is a daily ritual, and dulce de leche is beloved.',
   mainDish: {
     id: 'uruguay-main',
     name: 'Asado',
@@ -54,12 +56,7 @@ export const uruguay: Country = {
     alcoholic: 'Tannat wine, Medio y medio (sparkling wine cocktail), Grappamiel',
     nonAlcoholic: 'Mate (yerba mate tea), Clericó (fruit punch), Fresh orange juice',
   },
-  music: [
-    'Candombe',
-    'Tango',
-    'Murga',
-    'Contemporary Latin rock',
-  ],
+  music: ['Candombe', 'Tango', 'Murga', 'Contemporary Latin rock'],
   decorationIdeas: [
     'Blue and white flag colors with sun',
     'Gaucho imagery',
@@ -76,21 +73,63 @@ export const uruguay: Country = {
   quiz: [
     {
       id: 'uruguay-q1',
-      question: 'What year did Uruguay host the first World Cup?',
-      options: ['1920', '1930', '1950', '1960'],
+      question: 'What is the capital of Uruguay?',
+      options: ['Punta del Este', 'Montevideo', 'Colonia', 'Salto'],
       correctAnswer: 1,
     },
     {
       id: 'uruguay-q2',
-      question: 'What is Uruguay\'s most important meat dish?',
-      options: ['Ceviche', 'Feijoada', 'Asado', 'Empanadas'],
-      correctAnswer: 2,
+      question: 'Which beverage is part of daily life in Uruguay?',
+      options: ['Coffee', 'Mate', 'Wine', 'Beer'],
+      correctAnswer: 1,
     },
     {
       id: 'uruguay-q3',
-      question: 'What beverage do Uruguayans drink daily?',
-      options: ['Coffee', 'Mate', 'Beer', 'Rum'],
+      question: 'What year did Uruguay host the first FIFA World Cup?',
+      options: ['1920', '1930', '1940', '1950'],
       correctAnswer: 1,
+    },
+    {
+      id: 'uruguay-q4',
+      question: 'What is Uruguay famous for grilling?',
+      options: ['Seafood', 'Beef', 'Chicken', 'Pork'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uruguay-q5',
+      question: 'What is Uruguay’s most famous barbecue called?',
+      options: ['Parrilla', 'Asado', 'Churrasco', 'Feijoada'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uruguay-q6',
+      question: 'Which ocean borders Uruguay?',
+      options: ['Pacific Ocean', 'Indian Ocean', 'Atlantic Ocean', 'Arctic Ocean'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uruguay-q7',
+      question: 'Which wine grape is Uruguay especially known for?',
+      options: ['Malbec', 'Cabernet Sauvignon', 'Tannat', 'Merlot'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uruguay-q8',
+      question: 'What cultural rhythm originated among Afro-Uruguayans?',
+      options: ['Salsa', 'Candombe', 'Samba', 'Reggaeton'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uruguay-q9',
+      question: 'Which beach resort is Uruguay famous for?',
+      options: ['Mar del Plata', 'Punta Cana', 'Punta del Este', 'Copacabana'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uruguay-q10',
+      question: 'Uruguay has more of which animal than people?',
+      options: ['Sheep', 'Horses', 'Cattle', 'Goats'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 27, y: 9 },
