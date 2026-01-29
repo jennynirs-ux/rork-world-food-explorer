@@ -233,6 +233,6 @@ export const cyprus: Country = {
       'Let cool completely before serving.',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600',
-  ],
+  },
   coordinates: { x: 55, y: 35 },
 };
