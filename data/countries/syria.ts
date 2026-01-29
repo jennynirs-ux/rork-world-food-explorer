@@ -7,7 +7,8 @@ export const syria: Country = {
   continent: 'Asia',
   flag: '🇸🇾',
   landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
-  description: 'Syria is an ancient Middle Eastern country with a rich history dating back millennia, known for Damascus, Aleppo, and diverse cultural heritage.',
+  description:
+    "Syria is an ancient Middle Eastern country with a rich history dating back millennia, known for Damascus, Aleppo, and diverse cultural heritage.",
   quickFacts: [
     { label: 'Capital', value: 'Damascus' },
     { label: 'Population', value: '18 million' },
@@ -21,7 +22,8 @@ export const syria: Country = {
     'Birthplace of many ancient civilizations',
     'Known for historic souqs and architecture',
   ],
-  foodCulture: 'Syrian cuisine is rich and varied with influences from Ottoman, Persian, and Mediterranean traditions.',
+  foodCulture:
+    'Syrian cuisine is rich and varied with influences from Ottoman, Persian, and Mediterranean traditions.',
   mainDish: {
     id: 'syria-main',
     name: 'Kibbeh',
@@ -51,11 +53,7 @@ export const syria: Country = {
     alcoholic: 'Arak (anise-flavored)',
     nonAlcoholic: 'Arabic coffee, Mint tea, Jallab (date syrup drink)',
   },
-  music: [
-    'Traditional Dabke',
-    'Arabic classical music',
-    'Levantine folk songs',
-  ],
+  music: ['Traditional Dabke', 'Arabic classical music', 'Levantine folk songs'],
   decorationIdeas: [
     'Red, white, black and green flag colors',
     'Damascus rose patterns',
@@ -69,8 +67,62 @@ export const syria: Country = {
   quiz: [
     {
       id: 'syria-q1',
-      question: 'What is the capital of Syria?',
+      question: "What is Syria's capital city?",
       options: ['Aleppo', 'Damascus', 'Beirut', 'Amman'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'syria-q2',
+      question: 'Which famous ancient city in Syria was a major Silk Road oasis and has UNESCO-listed ruins?',
+      options: ['Palmyra', 'Petra', 'Persepolis', 'Byblos'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'syria-q3',
+      question: 'Which sea borders Syria to the west?',
+      options: ['Red Sea', 'Mediterranean Sea', 'Black Sea', 'Caspian Sea'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'syria-q4',
+      question: 'What is the primary official language of Syria?',
+      options: ['Persian', 'Turkish', 'Arabic', 'Hebrew'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'syria-q5',
+      question: 'Kibbeh is most commonly made with bulgur and what?',
+      options: ['Fish', 'Meat', 'Cheese', 'Chickpeas'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'syria-q6',
+      question: 'Which dance is widely associated with Levantine celebrations, including in Syria?',
+      options: ['Dabke', 'Flamenco', 'Tango', 'Samba'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'syria-q7',
+      question: 'Which two historic Syrian cities are often mentioned as major cultural centers?',
+      options: ['Damascus and Aleppo', 'Basra and Baghdad', 'Jerusalem and Jaffa', 'Mecca and Medina'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'syria-q8',
+      question: 'Syria is part of which broader region?',
+      options: ['Scandinavia', 'Levant / Middle East', 'Central America', 'Oceania'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'syria-q9',
+      question: "What is Syria's currency called?",
+      options: ['Syrian Pound', 'Syrian Dinar', 'Syrian Rial', 'Syrian Lira (Euro)'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'syria-q10',
+      question: 'Which of these is a common non-alcoholic drink in Syrian culture?',
+      options: ['Matcha latte', 'Arabic coffee', 'Root beer float', 'Bubble tea'],
       correctAnswer: 1,
     },
   ],
