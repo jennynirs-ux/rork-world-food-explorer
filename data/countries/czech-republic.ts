@@ -228,6 +228,6 @@ export const czechRepublic: Country = {
       'Serve immediately.',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1590424943373-1036adf74a7f?w=600',
-  ],
+  },
   coordinates: { x: 50, y: 50 },
 };
