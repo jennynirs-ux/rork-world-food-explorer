@@ -158,6 +158,48 @@ export const kenya: Country = {
       options: ['Mombasa', 'Nairobi', 'Kisumu', 'Nakuru'],
       correctAnswer: 1,
     },
+    {
+      id: 'kenya-q4',
+      question: 'What is the name of Kenya\'s most famous wildlife reserve?',
+      options: ['Kruger', 'Serengeti', 'Maasai Mara', 'Etosha'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'kenya-q5',
+      question: 'What is the second-highest mountain in Africa located in Kenya?',
+      options: ['Mount Kilimanjaro', 'Mount Kenya', 'Mount Elgon', 'Mount Meru'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'kenya-q6',
+      question: 'In which year did Kenya gain independence?',
+      options: ['1945', '1960', '1963', '1970'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'kenya-q7',
+      question: 'What is Kenya\'s traditional grilled meat dish called?',
+      options: ['Braai', 'Nyama Choma', 'Suya', 'Kebab'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'kenya-q8',
+      question: 'What are the official languages of Kenya?',
+      options: ['English only', 'Swahili only', 'Swahili and English', 'French and English'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'kenya-q9',
+      question: 'Which lake in Kenya is famous for its flamingos?',
+      options: ['Lake Victoria', 'Lake Turkana', 'Lake Nakuru', 'Lake Naivasha'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'kenya-q10',
+      question: 'What is Kenya\'s currency?',
+      options: ['Kenyan Dollar', 'Kenyan Shilling', 'Kenyan Pound', 'Kenyan Franc'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 54, y: 20 },
 };

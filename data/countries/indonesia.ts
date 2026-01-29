@@ -131,6 +131,48 @@ export const indonesia: Country = {
       options: ['Tiger', 'Orangutan', 'Komodo dragon', 'Panda'],
       correctAnswer: 2,
     },
+    {
+      id: 'indonesia-q4',
+      question: 'What is Indonesia\'s national dish?',
+      options: ['Pad Thai', 'Nasi Goreng', 'Pho', 'Bibimbap'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'indonesia-q5',
+      question: 'What is the name of the world\'s largest Buddhist temple located in Indonesia?',
+      options: ['Angkor Wat', 'Borobudur', 'Prambanan', 'Shwedagon Pagoda'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'indonesia-q6',
+      question: 'How many active volcanoes does Indonesia have approximately?',
+      options: ['30', '130', '250', '500'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'indonesia-q7',
+      question: 'What is Indonesia\'s currency?',
+      options: ['Ringgit', 'Baht', 'Rupiah', 'Peso'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'indonesia-q8',
+      question: 'Which popular tourist island is part of Indonesia?',
+      options: ['Phuket', 'Bali', 'Maldives', 'Boracay'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'indonesia-q9',
+      question: 'How many languages and dialects are spoken in Indonesia approximately?',
+      options: ['100', '300', '500', '700+'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'indonesia-q10',
+      question: 'Which two rivers are NOT found in Indonesia?',
+      options: ['Kapuas and Mahakam', 'Mekong and Chao Phraya', 'Barito and Musi', 'Brantas and Solo'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 80, y: 16 },
 };

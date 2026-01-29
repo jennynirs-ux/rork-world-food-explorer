@@ -137,6 +137,48 @@ export const romania: Country = {
       options: ['Mămăligă', 'Mici', 'Sarmale', 'Cozonac'],
       correctAnswer: 2,
     },
+    {
+      id: 'romania-q4',
+      question: 'What famous vampire legend is associated with Romania?',
+      options: ['Frankenstein', 'Dracula', 'Wolfman', 'Mummy'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'romania-q5',
+      question: 'What is Romania\'s currency?',
+      options: ['Euro', 'Leu', 'Forint', 'Kuna'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'romania-q6',
+      question: 'In which year did communism fall in Romania?',
+      options: ['1985', '1989', '1991', '1995'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'romania-q7',
+      question: 'What type of language is Romanian?',
+      options: ['Slavic', 'Germanic', 'Romance', 'Celtic'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'romania-q8',
+      question: 'What is the second-largest building in the world located in Romania?',
+      options: ['National Theatre', 'Palace of Parliament', 'Royal Palace', 'Opera House'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'romania-q9',
+      question: 'Which historical figure inspired the Dracula legend?',
+      options: ['Vlad the Impaler', 'Stephen the Great', 'Michael the Brave', 'Carol I'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'romania-q10',
+      question: 'How many UNESCO World Heritage Sites does Romania have?',
+      options: ['3', '8', '12', '20'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 53, y: 46 },
 };

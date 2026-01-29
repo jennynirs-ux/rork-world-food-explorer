@@ -23,6 +23,80 @@ export const paraguay: Country = {
     'Paraguay has a rich tradition of harp music',
   ],
   foodCulture: 'Paraguayan cuisine features corn, cassava, and beef. Spanish and Guaraní influences merge. Sopa paraguaya (corn bread) and chipa (cheese bread) are beloved staples.',
+  history: [
+    {
+      year: '1537',
+      title: 'Spanish Foundation',
+      description: 'Spaniards founded Asunción, which became a key colonial center.'
+    },
+    {
+      year: '1811',
+      title: 'Independence',
+      description: 'Paraguay gained independence from Spain.'
+    },
+    {
+      year: '1864-1870',
+      title: 'War of the Triple Alliance',
+      description: 'Devastating war that killed much of Paraguay\'s population.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Guaraní Language Preservation',
+      year: 'Continuous',
+      description: 'Rare example of indigenous language thriving alongside European language.',
+    },
+    {
+      name: 'Ñandutí Lace',
+      year: 'Traditional',
+      description: 'Intricate spider-web lace unique to Paraguay.',
+    },
+    {
+      name: 'Yerba Mate Culture',
+      year: 'Traditional',
+      description: 'Development of social mate drinking traditions.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Iguazu Falls', description: 'Share of spectacular waterfalls on border with Argentina and Brazil.' },
+    { name: 'Jesuit Missions', description: 'UNESCO sites showcasing 17th-18th century mission architecture.' },
+    { name: 'Pantanal', description: 'World\'s largest wetland with incredible biodiversity.' },
+    { name: 'Itaipu Dam', description: 'One of the world\'s largest hydroelectric plants.' },
+    { name: 'Asunción', description: 'Capital with colonial architecture and riverside views.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'May-September for cooler, drier weather.' },
+    { item: 'Visa', description: 'Visa-free for many nationalities for 90 days.' },
+    { item: 'Spanish or Guaraní', description: 'Both languages widely spoken; limited English.' },
+    { item: 'Cash', description: 'Bring US dollars or Argentine pesos to exchange.' },
+  ],
+  dessert: {
+    id: 'paraguay-dessert',
+    name: 'Chipa Guazu',
+    description: 'Sweet corn cake, a traditional Paraguayan favorite',
+    cookingTime: 60,
+    servings: 8,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Fresh corn kernels', amount: 600, unit: 'g' },
+      { name: 'Cheese', amount: 300, unit: 'g' },
+      { name: 'Eggs', amount: 4, unit: 'large' },
+      { name: 'Milk', amount: 200, unit: 'ml' },
+      { name: 'Butter', amount: 100, unit: 'g' },
+      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Onions', amount: 1, unit: 'small' },
+    ],
+    steps: [
+      'Blend corn kernels with milk',
+      'Beat eggs with sugar',
+      'Mix corn, eggs, melted butter, and cheese',
+      'Add sautéed onions',
+      'Pour into greased pan',
+      'Bake at 350°F for 45 minutes',
+      'Serve warm',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
+  },
   mainDish: {
     id: 'paraguay-main',
     name: 'Sopa Paraguaya',
@@ -92,6 +166,48 @@ export const paraguay: Country = {
       question: 'What powers 100% of Paraguay\'s electricity?',
       options: ['Coal', 'Nuclear', 'Hydropower', 'Solar'],
       correctAnswer: 2,
+    },
+    {
+      id: 'paraguay-q4',
+      question: 'What is the capital of Paraguay?',
+      options: ['Asunción', 'Ciudad del Este', 'Encarnación', 'Concepción'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'paraguay-q5',
+      question: 'What are the official languages of Paraguay?',
+      options: ['Spanish only', 'Guaraní only', 'Spanish and Guaraní', 'Portuguese and Spanish'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'paraguay-q6',
+      question: 'What is Paraguay\'s currency?',
+      options: ['Peso', 'Guaraní', 'Real', 'Sol'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'paraguay-q7',
+      question: 'In which year did Paraguay gain independence?',
+      options: ['1811', '1821', '1850', '1900'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'paraguay-q8',
+      question: 'What is the other landlocked country in South America besides Paraguay?',
+      options: ['Uruguay', 'Bolivia', 'Ecuador', 'Colombia'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'paraguay-q9',
+      question: 'What traditional lace is Paraguay famous for?',
+      options: ['Tatting', 'Ñandutí', 'Bobbin lace', 'Crochet'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'paraguay-q10',
+      question: 'What is sopa paraguaya?',
+      options: ['A soup', 'Corn bread', 'A stew', 'Rice dish'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 26, y: 12 },

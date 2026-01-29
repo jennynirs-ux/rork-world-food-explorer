@@ -23,6 +23,74 @@ export const libya: Country = {
     'Ancient Greek city of Cyrene is located in Libya',
   ],
   foodCulture: 'Libyan cuisine reflects Mediterranean and North African influences with Italian touches from colonial times. Meals often feature lamb, couscous, dates, and olive oil.',
+  history: [
+    {
+      year: '7th Century BC',
+      title: 'Ancient Civilizations',
+      description: 'Phoenicians and Greeks established cities along the Libyan coast.'
+    },
+    {
+      year: '1951',
+      title: 'Independence',
+      description: 'Libya gained independence from Italian colonial rule.'
+    },
+    {
+      year: '2011',
+      title: 'Arab Spring',
+      description: 'Popular uprising led to major political changes in Libya.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Ancient Irrigation',
+      year: 'Ancient',
+      description: 'Development of irrigation systems in desert regions.',
+    },
+    {
+      name: 'Great Man-Made River',
+      year: '1984',
+      description: 'Massive network of pipes supplying water from Saharan aquifers to coastal cities.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Leptis Magna', description: 'Spectacular Roman ruins, UNESCO World Heritage Site.' },
+    { name: 'Sabratha', description: 'Ancient Phoenician and Roman city with well-preserved theater.' },
+    { name: 'Ghadames', description: 'Historic Berber town known as the "Pearl of the Desert."' },
+    { name: 'Cyrene', description: 'Ancient Greek city with impressive archaeological remains.' },
+    { name: 'Akakus Mountains', description: 'Prehistoric rock art dating back thousands of years.' }
+  ],
+  travelEssentials: [
+    { item: 'Safety', description: 'Check current travel advisories before planning a trip.' },
+    { item: 'Best time to visit', description: 'November-March for cooler weather; summers are extremely hot.' },
+    { item: 'Visa', description: 'Most visitors need a visa arranged well in advance.' },
+    { item: 'Modest clothing', description: 'Conservative dress is important, especially for women.' },
+  ],
+  dessert: {
+    id: 'libya-dessert',
+    name: 'Asida',
+    description: 'Sweet wheat flour pudding with honey and butter',
+    cookingTime: 30,
+    servings: 6,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Wheat flour', amount: 300, unit: 'g' },
+      { name: 'Water', amount: 600, unit: 'ml' },
+      { name: 'Butter', amount: 100, unit: 'g' },
+      { name: 'Honey', amount: 200, unit: 'g' },
+      { name: 'Date syrup', amount: 100, unit: 'ml' },
+    ],
+    steps: [
+      'Boil water in a pot',
+      'Gradually add flour while stirring constantly',
+      'Continue stirring until thick and smooth',
+      'Form into mound on serving plate',
+      'Make well in center',
+      'Fill well with melted butter and honey',
+      'Drizzle with date syrup',
+      'Serve warm, eaten by hand',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
+  },
   mainDish: {
     id: 'libya-main',
     name: 'Bazin',
@@ -95,6 +163,48 @@ export const libya: Country = {
       question: 'Which ancient civilization had cities in Libya?',
       options: ['Mayans', 'Greeks and Romans', 'Chinese', 'Vikings'],
       correctAnswer: 1,
+    },
+    {
+      id: 'libya-q4',
+      question: 'What is the fourth largest country in Africa?',
+      options: ['Egypt', 'Algeria', 'Sudan', 'Libya'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'libya-q5',
+      question: 'What is Libya\'s official language?',
+      options: ['French', 'English', 'Arabic', 'Italian'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'libya-q6',
+      question: 'What major water project did Libya build in 1984?',
+      options: ['Aswan Dam', 'Great Man-Made River', 'Nile Canal', 'Sahara Aqueduct'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'libya-q7',
+      question: 'Which ancient Roman city is located in Libya?',
+      options: ['Pompeii', 'Leptis Magna', 'Rome', 'Carthage'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'libya-q8',
+      question: 'In which year did Libya gain independence?',
+      options: ['1945', '1951', '1960', '1969'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'libya-q9',
+      question: 'What is Libya\'s currency?',
+      options: ['Pound', 'Dinar', 'Dirham', 'Rial'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'libya-q10',
+      question: 'Which historic Berber town is known as the "Pearl of the Desert"?',
+      options: ['Tripoli', 'Benghazi', 'Ghadames', 'Tobruk'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 50, y: 32 },

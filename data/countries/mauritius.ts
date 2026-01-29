@@ -23,6 +23,81 @@ export const mauritius: Country = {
     'The seven-colored earth of Chamarel is a unique geological formation',
   ],
   foodCulture: 'Mauritian cuisine is a fusion of Indian, Chinese, African, and French influences. Street food culture is vibrant, and seafood is abundant. Curries and rice are staples.',
+  history: [
+    {
+      year: '1638',
+      title: 'Dutch Settlement',
+      description: 'The Dutch were the first to settle the uninhabited island.'
+    },
+    {
+      year: '1715',
+      title: 'French Rule',
+      description: 'France took control, developing the sugar industry with slave labor.'
+    },
+    {
+      year: '1810',
+      title: 'British Colony',
+      description: 'Britain captured Mauritius and brought indentured laborers from India.'
+    },
+    {
+      year: '1968',
+      title: 'Independence',
+      description: 'Mauritius gained independence from Britain.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Sugar Industry Techniques',
+      year: '18th Century',
+      description: 'Development of efficient sugar cane processing methods.',
+    },
+    {
+      name: 'Multicultural Harmony',
+      year: 'Modern',
+      description: 'Successfully created a harmonious multi-ethnic society as a model.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Le Morne Brabant', description: 'UNESCO site, dramatic mountain with historical significance.' },
+    { name: 'Seven Colored Earth', description: 'Unique geological formation with naturally colored sand dunes.' },
+    { name: 'Black River Gorges', description: 'National park with hiking trails and endemic species.' },
+    { name: 'Île aux Cerfs', description: 'Island with pristine beaches and water sports.' },
+    { name: 'SSR Botanical Gardens', description: 'Beautiful gardens with giant water lilies.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'May-December for dry season; avoid cyclones January-March.' },
+    { item: 'Visa', description: 'Visa-free for most nationalities for 60-90 days.' },
+    { item: 'Sun protection', description: 'Strong tropical sun requires high SPF.' },
+    { item: 'Cash and cards', description: 'Cards widely accepted; ATMs available.' },
+  ],
+  dessert: {
+    id: 'mauritius-dessert',
+    name: 'Napolitaine',
+    description: 'Shortbread cookies with pink icing, beloved Mauritian treat',
+    cookingTime: 40,
+    servings: 24,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Butter', amount: 250, unit: 'g' },
+      { name: 'Sugar', amount: 150, unit: 'g' },
+      { name: 'Flour', amount: 400, unit: 'g' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+      { name: 'Powdered sugar for icing', amount: 200, unit: 'g' },
+      { name: 'Pink food coloring', amount: 2, unit: 'drops' },
+      { name: 'Lemon juice', amount: 2, unit: 'tbsp' },
+    ],
+    steps: [
+      'Cream butter and sugar until fluffy',
+      'Add vanilla and flour, mix into dough',
+      'Roll out and cut into rectangles',
+      'Bake at 325°F for 15 minutes until pale golden',
+      'Cool completely',
+      'Make icing with powdered sugar, lemon juice, and pink coloring',
+      'Ice half of each cookie and sandwich together',
+      'Let icing set before serving',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600',
+  },
   mainDish: {
     id: 'mauritius-main',
     name: 'Dholl Puri',
@@ -93,6 +168,48 @@ export const mauritius: Country = {
       question: 'What music style is native to Mauritius?',
       options: ['Reggae', 'Samba', 'Sega', 'Flamenco'],
       correctAnswer: 2,
+    },
+    {
+      id: 'mauritius-q4',
+      question: 'What is the capital of Mauritius?',
+      options: ['Port Louis', 'Curepipe', 'Vacoas', 'Mahebourg'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'mauritius-q5',
+      question: 'In which year did Mauritius gain independence?',
+      options: ['1960', '1968', '1975', '1980'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mauritius-q6',
+      question: 'What unique geological feature is found in Chamarel?',
+      options: ['Volcano', 'Seven-colored earth', 'Ice caves', 'Hot springs'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mauritius-q7',
+      question: 'What are the official languages of Mauritius?',
+      options: ['English only', 'French only', 'English and French', 'Hindi and English'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mauritius-q8',
+      question: 'What is Mauritius\'s currency?',
+      options: ['Dollar', 'Euro', 'Rupee', 'Pound'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mauritius-q9',
+      question: 'Which country ruled Mauritius before independence?',
+      options: ['France', 'Britain', 'Portugal', 'Netherlands'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mauritius-q10',
+      question: 'What UNESCO site is a dramatic mountain in Mauritius?',
+      options: ['Table Mountain', 'Le Morne Brabant', 'Mount Kilimanjaro', 'Uluru'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 60, y: 10 },

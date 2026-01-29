@@ -194,6 +194,36 @@ export const peru: Country = {
       options: ['500', '1,000', '3,000', '5,000'],
       correctAnswer: 2,
     },
+    {
+      id: 'peru-q6',
+      question: 'What lake is the highest navigable lake in the world?',
+      options: ['Lake Superior', 'Lake Baikal', 'Lake Titicaca', 'Lake Victoria'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'peru-q7',
+      question: 'What ancient geoglyphs are visible only from the air?',
+      options: ['Stonehenge', 'Nazca Lines', 'Pyramids', 'Moai'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'peru-q8',
+      question: 'In which year did Peru gain independence?',
+      options: ['1810', '1821', '1850', '1900'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'peru-q9',
+      question: 'What is Peru\'s currency?',
+      options: ['Peso', 'Sol', 'Real', 'Bolivar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'peru-q10',
+      question: 'Where does the Amazon River begin?',
+      options: ['Brazil', 'Peru', 'Colombia', 'Ecuador'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 20, y: 15 },
 };

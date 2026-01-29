@@ -22,6 +22,91 @@ export const mongolia: Country = {
     'The Gobi Desert spans southern Mongolia',
   ],
   foodCulture: 'Mongolian cuisine centers on meat and dairy with limited vegetables due to the harsh climate.',
+  history: [
+    {
+      year: '1206',
+      title: 'Mongol Empire Founded',
+      description: 'Genghis Khan united the Mongol tribes and created the largest contiguous empire.'
+    },
+    {
+      year: '1368',
+      title: 'Yuan Dynasty Falls',
+      description: 'Mongols lost control of China and retreated to Mongolia.'
+    },
+    {
+      year: '1921',
+      title: 'Independence',
+      description: 'Mongolia gained independence from China with Soviet support.'
+    },
+    {
+      year: '1990',
+      title: 'Democratic Revolution',
+      description: 'Peaceful transition from communism to democracy.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Mongol Empire Organization',
+      year: '13th Century',
+      description: 'Created efficient communication systems and trade routes across Eurasia.',
+    },
+    {
+      name: 'Mongolian Script',
+      year: '1204',
+      description: 'Adapted and developed unique vertical writing system.',
+    },
+    {
+      name: 'Ger (Yurt) Design',
+      year: 'Traditional',
+      description: 'Perfected portable dwelling ideal for nomadic lifestyle.',
+    },
+    {
+      name: 'Horse Archery',
+      year: 'Ancient',
+      description: 'Mastered mounted archery techniques that dominated medieval warfare.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Gobi Desert', description: 'Vast desert with dinosaur fossils and dramatic landscapes.' },
+    { name: 'Genghis Khan Statue', description: 'World\'s largest equestrian statue, 40 meters tall.' },
+    { name: 'Khuvsgul Lake', description: 'Pristine mountain lake, "Blue Pearl of Mongolia."' },
+    { name: 'Erdene Zuu Monastery', description: 'Mongolia\'s oldest Buddhist monastery from 1585.' },
+    { name: 'Terelj National Park', description: 'Scenic park with rock formations near Ulaanbaatar.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'June-September for warm weather; winter is extremely cold (-40°C).' },
+    { item: 'Visa', description: 'Many nationalities visa-free for 30 days.' },
+    { item: 'Warm clothing', description: 'Essential for winter; nights can be cold even in summer.' },
+    { item: 'Cash', description: 'Bring cash for countryside; cards work in Ulaanbaatar.' },
+  ],
+  dessert: {
+    id: 'mongolia-dessert',
+    name: 'Boortsog',
+    description: 'Deep-fried dough cookies, traditional Mongolian treat',
+    cookingTime: 45,
+    servings: 20,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Flour', amount: 500, unit: 'g' },
+      { name: 'Milk', amount: 250, unit: 'ml' },
+      { name: 'Butter', amount: 50, unit: 'g' },
+      { name: 'Sugar', amount: 50, unit: 'g' },
+      { name: 'Eggs', amount: 2, unit: 'large' },
+      { name: 'Baking powder', amount: 1, unit: 'tsp' },
+      { name: 'Oil for frying', amount: 500, unit: 'ml' },
+    ],
+    steps: [
+      'Mix flour, sugar, and baking powder',
+      'Add eggs, melted butter, and milk',
+      'Knead into smooth dough',
+      'Let rest for 30 minutes',
+      'Roll out and cut into diamond shapes',
+      'Make slit in center of each piece',
+      'Deep fry until golden brown',
+      'Drain and serve with tea',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1626197881825-9e0feef5ad90?w=600',
+  },
   mainDish: {
     id: 'mongolia-main',
     name: 'Khorkhog',
@@ -73,6 +158,60 @@ export const mongolia: Country = {
       question: 'What is the capital of Mongolia?',
       options: ['Ulaanbaatar', 'Bishkek', 'Astana', 'Beijing'],
       correctAnswer: 0,
+    },
+    {
+      id: 'mongolia-q2',
+      question: 'Who founded the Mongol Empire in 1206?',
+      options: ['Kublai Khan', 'Genghis Khan', 'Attila', 'Tamerlane'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mongolia-q3',
+      question: 'What is Mongolia\'s population density like?',
+      options: ['Very high', 'High', 'Medium', 'One of the lowest in the world'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'mongolia-q4',
+      question: 'What desert spans southern Mongolia?',
+      options: ['Sahara', 'Gobi', 'Kalahari', 'Atacama'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mongolia-q5',
+      question: 'What is Mongolia\'s traditional portable dwelling called?',
+      options: ['Teepee', 'Ger (Yurt)', 'Igloo', 'Hut'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mongolia-q6',
+      question: 'What unique vocal style is traditional in Mongolia?',
+      options: ['Yodeling', 'Throat singing', 'Falsetto', 'Chanting'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mongolia-q7',
+      question: 'What is Mongolia\'s currency?',
+      options: ['Yuan', 'Tögrög', 'Ruble', 'Won'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mongolia-q8',
+      question: 'What fermented drink is traditional in Mongolia?',
+      options: ['Wine', 'Beer', 'Airag (fermented mare\'s milk)', 'Sake'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mongolia-q9',
+      question: 'What is the official language of Mongolia?',
+      options: ['Chinese', 'Russian', 'Mongolian', 'Kazakh'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mongolia-q10',
+      question: 'What traditional instrument has a horse head carved on top?',
+      options: ['Guitar', 'Morin khuur', 'Violin', 'Banjo'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 78, y: 48 },

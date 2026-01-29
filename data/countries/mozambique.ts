@@ -23,6 +23,75 @@ export const mozambique: Country = {
     'Cashew nuts are a major export crop',
   ],
   foodCulture: 'Mozambican cuisine reflects Portuguese colonial influence with African roots. Seafood, especially prawns, is abundant. Peri-peri spice gives dishes their distinctive heat.',
+  history: [
+    {
+      year: '1498',
+      title: 'Portuguese Arrival',
+      description: 'Vasco da Gama reached Mozambique, beginning centuries of Portuguese influence.'
+    },
+    {
+      year: '1975',
+      title: 'Independence',
+      description: 'Mozambique gained independence from Portugal after a liberation war.'
+    },
+    {
+      year: '1992',
+      title: 'Peace Agreement',
+      description: 'End of civil war, beginning of democratic development.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Peri-Peri Cuisine',
+      year: 'Traditional',
+      description: 'Development of peri-peri chili sauce that became internationally famous.',
+    },
+    {
+      name: 'Marine Conservation',
+      year: 'Modern',
+      description: 'Pioneering marine protected areas along the coast.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Bazaruto Archipelago', description: 'Pristine islands with incredible diving and marine life.' },
+    { name: 'Ilha de Moçambique', description: 'UNESCO World Heritage Site, historic island with colonial architecture.' },
+    { name: 'Gorongosa National Park', description: 'Wildlife park being restored after civil war.' },
+    { name: 'Tofo Beach', description: 'World-class diving with manta rays and whale sharks.' },
+    { name: 'Maputo', description: 'Vibrant capital with Portuguese colonial architecture and art deco buildings.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'May-November for dry season; December-March is hot and rainy.' },
+    { item: 'Visa', description: 'Visa on arrival or e-visa available for many nationalities.' },
+    { item: 'Malaria prophylaxis', description: 'Recommended for most areas.' },
+    { item: 'Yellow fever vaccination', description: 'Required if coming from endemic countries.' },
+  ],
+  dessert: {
+    id: 'mozambique-dessert',
+    name: 'Bolo Polana',
+    description: 'Cashew and potato cake, a beloved Mozambican dessert',
+    cookingTime: 60,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Mashed potatoes', amount: 300, unit: 'g' },
+      { name: 'Ground cashews', amount: 200, unit: 'g' },
+      { name: 'Sugar', amount: 250, unit: 'g' },
+      { name: 'Butter', amount: 200, unit: 'g' },
+      { name: 'Eggs', amount: 6, unit: 'large' },
+      { name: 'Flour', amount: 100, unit: 'g' },
+      { name: 'Baking powder', amount: 2, unit: 'tsp' },
+    ],
+    steps: [
+      'Cream butter and sugar until fluffy',
+      'Beat in eggs one at a time',
+      'Fold in mashed potatoes and ground cashews',
+      'Add flour and baking powder',
+      'Pour into greased pan',
+      'Bake at 350°F for 40 minutes',
+      'Cool and dust with powdered sugar',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+  },
   mainDish: {
     id: 'mozambique-main',
     name: 'Peri-Peri Prawns',
@@ -92,6 +161,48 @@ export const mozambique: Country = {
       id: 'mozambique-q3',
       question: 'How many kilometers of coastline does Mozambique have?',
       options: ['500 km', '1,000 km', '2,500 km', '5,000 km'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mozambique-q4',
+      question: 'What is the capital of Mozambique?',
+      options: ['Maputo', 'Beira', 'Nampula', 'Quelimane'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'mozambique-q5',
+      question: 'In which year did Mozambique gain independence?',
+      options: ['1960', '1970', '1975', '1980'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mozambique-q6',
+      question: 'Which country colonized Mozambique?',
+      options: ['Britain', 'France', 'Portugal', 'Spain'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mozambique-q7',
+      question: 'What is Mozambique\'s currency?',
+      options: ['Escudo', 'Metical', 'Rand', 'Dollar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mozambique-q8',
+      question: 'What UNESCO World Heritage Site is in Mozambique?',
+      options: ['Robben Island', 'Ilha de Moçambique', 'Zanzibar', 'Gorée Island'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mozambique-q9',
+      question: 'What major crop is Mozambique known for exporting?',
+      options: ['Coffee', 'Cocoa', 'Cashew nuts', 'Tea'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mozambique-q10',
+      question: 'Which marine animals can be seen diving in Tofo?',
+      options: ['Penguins', 'Polar bears', 'Manta rays and whale sharks', 'Walruses'],
       correctAnswer: 2,
     },
   ],

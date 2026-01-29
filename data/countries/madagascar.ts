@@ -23,6 +23,81 @@ export const madagascar: Country = {
     'Avenue of the Baobabs features trees over 800 years old',
   ],
   foodCulture: 'Malagasy cuisine blends African, Asian, and French influences. Rice is the staple, served with various side dishes called laoka. Vanilla, a major export, flavors many dishes.',
+  history: [
+    {
+      year: '500 AD',
+      title: 'First Settlers',
+      description: 'Austronesian peoples arrived from Southeast Asia, shaping Malagasy culture.'
+    },
+    {
+      year: '1896',
+      title: 'French Colony',
+      description: 'Madagascar became a French colony.'
+    },
+    {
+      year: '1960',
+      title: 'Independence',
+      description: 'Madagascar gained independence from France.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Vanilla Cultivation',
+      year: '19th Century',
+      description: 'Madagascar became the world\'s leading producer of natural vanilla.',
+    },
+    {
+      name: 'Unique Biodiversity',
+      year: 'Ancient',
+      description: 'Island isolation created unique evolutionary innovations in flora and fauna.',
+    },
+    {
+      name: 'Zebu Cattle Culture',
+      year: 'Traditional',
+      description: 'Developed distinctive zebu cattle herding and cultural practices.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Avenue of the Baobabs', description: 'Iconic dirt road lined with ancient baobab trees.' },
+    { name: 'Tsingy de Bemaraha', description: 'UNESCO site with unique limestone formations ("stone forest").' },
+    { name: 'Andasibe-Mantadia', description: 'National park home to indri lemurs and diverse wildlife.' },
+    { name: 'Nosy Be', description: 'Beautiful island with beaches, diving, and tropical forests.' },
+    { name: 'Isalo National Park', description: 'Dramatic sandstone formations and canyons.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'April-November for dry season; avoid cyclone season December-March.' },
+    { item: 'Visa', description: 'Visa on arrival available for most nationalities.' },
+    { item: 'Malaria prophylaxis', description: 'Recommended for coastal and lowland areas.' },
+    { item: 'Cash', description: 'Bring euros or dollars to exchange; ATMs limited outside cities.' },
+  ],
+  dessert: {
+    id: 'madagascar-dessert',
+    name: 'Koba Akondro',
+    description: 'Sweet banana and peanut cake wrapped in banana leaves',
+    cookingTime: 120,
+    servings: 12,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Ripe bananas', amount: 6, unit: 'large' },
+      { name: 'Roasted peanuts, ground', amount: 300, unit: 'g' },
+      { name: 'Rice flour', amount: 200, unit: 'g' },
+      { name: 'Brown sugar', amount: 150, unit: 'g' },
+      { name: 'Honey', amount: 100, unit: 'g' },
+      { name: 'Banana leaves', amount: 6, unit: 'large' },
+    ],
+    steps: [
+      'Mash bananas until smooth',
+      'Mix in ground peanuts, rice flour, and sugar',
+      'Add honey and mix into thick paste',
+      'Soften banana leaves over flame',
+      'Spread mixture onto banana leaves',
+      'Roll tightly and secure with string',
+      'Steam for 90 minutes',
+      'Cool completely before slicing',
+      'Serve at room temperature',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1587241321921-91a834d82697?w=600',
+  },
   mainDish: {
     id: 'madagascar-main',
     name: 'Romazava',
@@ -93,6 +168,48 @@ export const madagascar: Country = {
       question: 'What spice is Madagascar a major producer of?',
       options: ['Cinnamon', 'Saffron', 'Vanilla', 'Cardamom'],
       correctAnswer: 2,
+    },
+    {
+      id: 'madagascar-q4',
+      question: 'What is the capital of Madagascar?',
+      options: ['Toamasina', 'Antananarivo', 'Mahajanga', 'Fianarantsoa'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'madagascar-q5',
+      question: 'How many species of lemurs are found in Madagascar?',
+      options: ['10', '50', '100+', '200'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'madagascar-q6',
+      question: 'When did Madagascar split from Africa?',
+      options: ['1 million years ago', '10 million years ago', '165 million years ago', '500 million years ago'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'madagascar-q7',
+      question: 'What are the official languages of Madagascar?',
+      options: ['French only', 'Malagasy only', 'Malagasy and French', 'English and French'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'madagascar-q8',
+      question: 'What is Madagascar\'s currency?',
+      options: ['Franc', 'Ariary', 'Shilling', 'Peso'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'madagascar-q9',
+      question: 'What iconic trees line a famous road in Madagascar?',
+      options: ['Oak trees', 'Palm trees', 'Baobab trees', 'Pine trees'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'madagascar-q10',
+      question: 'In which year did Madagascar gain independence?',
+      options: ['1950', '1960', '1970', '1980'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 58, y: 12 },

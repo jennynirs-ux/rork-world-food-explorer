@@ -134,6 +134,48 @@ export const russia: Country = {
       options: ['Pelmeni', 'Borscht', 'Blini', 'Shchi'],
       correctAnswer: 1,
     },
+    {
+      id: 'russia-q4',
+      question: 'How many time zones does Russia have?',
+      options: ['5', '8', '11', '15'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'russia-q5',
+      question: 'What is the currency of Russia?',
+      options: ['Ruble', 'Dinar', 'Lira', 'Peso'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'russia-q6',
+      question: 'In which year did the Soviet Union dissolve?',
+      options: ['1985', '1989', '1991', '1995'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'russia-q7',
+      question: 'What is the longest railway in the world?',
+      options: ['Orient Express', 'Trans-Siberian Railway', 'Canadian Pacific', 'Amtrak'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'russia-q8',
+      question: 'Who created the periodic table?',
+      options: ['Einstein', 'Mendeleev', 'Curie', 'Newton'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'russia-q9',
+      question: 'What famous museum is in St. Petersburg?',
+      options: ['Louvre', 'Prado', 'Hermitage', 'Uffizi'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'russia-q10',
+      question: 'Who was the first human in space?',
+      options: ['Neil Armstrong', 'Yuri Gagarin', 'John Glenn', 'Buzz Aldrin'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 60, y: 60 },
 };

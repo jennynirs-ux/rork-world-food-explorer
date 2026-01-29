@@ -23,6 +23,82 @@ export const myanmar: Country = {
     'Myanmar is the world\'s second-largest jade producer',
   ],
   foodCulture: 'Burmese cuisine blends influences from India, China, and Thailand. Tea leaf salad is a unique specialty. Curries, noodles, and rice are staples.',
+  history: [
+    {
+      year: '1057',
+      title: 'Bagan Kingdom',
+      description: 'King Anawrahta unified Burma and built thousands of Buddhist temples.'
+    },
+    {
+      year: '1885',
+      title: 'British Rule',
+      description: 'Burma became part of British India after three Anglo-Burmese wars.'
+    },
+    {
+      year: '1948',
+      title: 'Independence',
+      description: 'Burma gained independence from British rule.'
+    },
+    {
+      year: '1989',
+      title: 'Name Change',
+      description: 'The military government changed the name from Burma to Myanmar.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Lacquerware',
+      year: 'Traditional',
+      description: 'Intricate lacquerware craftsmanship passed down for centuries in Bagan.',
+    },
+    {
+      name: 'Tea Leaf Salad',
+      year: 'Traditional',
+      description: 'Unique fermented tea leaf dish (laphet) found nowhere else.',
+    },
+    {
+      name: 'Temple Architecture',
+      year: '11th Century',
+      description: 'Distinctive Buddhist temple and pagoda architectural styles.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Bagan', description: 'Ancient city with over 2,000 Buddhist temples and pagodas.' },
+    { name: 'Shwedagon Pagoda', description: 'Gold-covered pagoda in Yangon, Myanmar\'s most sacred site.' },
+    { name: 'Inle Lake', description: 'Scenic lake with floating gardens and leg-rowing fishermen.' },
+    { name: 'Mandalay', description: 'Cultural heart with monasteries, royal palace, and U Bein Bridge.' },
+    { name: 'Ngapali Beach', description: 'Pristine white sand beach on the Bay of Bengal.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'November-February for cool, dry weather.' },
+    { item: 'Visa', description: 'E-visa available for many nationalities.' },
+    { item: 'Cash', description: 'Bring US dollars; ATMs can be unreliable.' },
+    { item: 'Modest clothing', description: 'Cover shoulders and knees for temples and pagodas.' },
+  ],
+  dessert: {
+    id: 'myanmar-dessert',
+    name: 'Mont Lone Yay Paw',
+    description: 'Sweet snack balls made with rice flour and jaggery',
+    cookingTime: 40,
+    servings: 20,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Glutinous rice flour', amount: 300, unit: 'g' },
+      { name: 'Palm sugar (jaggery)', amount: 200, unit: 'g' },
+      { name: 'Coconut, grated', amount: 200, unit: 'g' },
+      { name: 'Water', amount: 200, unit: 'ml' },
+      { name: 'Salt', amount: 0.5, unit: 'tsp' },
+    ],
+    steps: [
+      'Mix rice flour with water and salt into dough',
+      'Form small balls around chunks of palm sugar',
+      'Boil water and cook balls until they float',
+      'Remove and drain',
+      'Roll in grated coconut',
+      'Serve at room temperature',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+  },
   mainDish: {
     id: 'myanmar-main',
     name: 'Mohinga',
@@ -93,6 +169,48 @@ export const myanmar: Country = {
       id: 'myanmar-q3',
       question: 'What was Myanmar previously called?',
       options: ['Siam', 'Burma', 'Ceylon', 'Indochina'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'myanmar-q4',
+      question: 'What is the capital of Myanmar?',
+      options: ['Yangon', 'Naypyidaw', 'Mandalay', 'Bagan'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'myanmar-q5',
+      question: 'What is the famous gold-covered pagoda in Yangon?',
+      options: ['Shwedagon Pagoda', 'Golden Temple', 'Wat Phra Kaew', 'Angkor Wat'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'myanmar-q6',
+      question: 'How many ethnic groups does Myanmar have?',
+      options: ['10', '50', '135+', '200'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'myanmar-q7',
+      question: 'What is Myanmar\'s currency?',
+      options: ['Baht', 'Kyat', 'Dong', 'Rupee'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'myanmar-q8',
+      question: 'What unique salad is Myanmar famous for?',
+      options: ['Caesar salad', 'Greek salad', 'Tea leaf salad', 'Coleslaw'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'myanmar-q9',
+      question: 'In which year did Myanmar gain independence?',
+      options: ['1945', '1948', '1960', '1975'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'myanmar-q10',
+      question: 'What is Myanmar the world\'s second-largest producer of?',
+      options: ['Gold', 'Jade', 'Diamonds', 'Silver'],
       correctAnswer: 1,
     },
   ],

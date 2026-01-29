@@ -22,6 +22,74 @@ export const maldives: Country = {
     'Most vulnerable to climate change and rising seas',
   ],
   foodCulture: 'Maldivian cuisine centers on fish, coconut, and starches with Indian and Sri Lankan influences.',
+  history: [
+    {
+      year: '1153',
+      title: 'Conversion to Islam',
+      description: 'The Maldives converted to Islam, which remains central to culture today.'
+    },
+    {
+      year: '1965',
+      title: 'Independence',
+      description: 'Maldives gained independence from British protection.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Underwater Cabinet Meeting',
+      year: '2009',
+      description: 'World\'s first underwater cabinet meeting to highlight climate change.',
+    },
+    {
+      name: 'Luxury Resort Model',
+      year: '1970s',
+      description: 'Pioneered the one-island-one-resort concept in tourism.',
+    },
+    {
+      name: 'Coral Reef Protection',
+      year: 'Modern',
+      description: 'Leading efforts in coral reef conservation and restoration.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Malé', description: 'Tiny capital with colorful buildings and bustling markets.' },
+    { name: 'Banana Reef', description: 'Famous diving site with diverse marine life.' },
+    { name: 'HP Reef', description: 'World-class dive site shaped like the HP logo.' },
+    { name: 'Hulhumalé', description: 'Man-made island near the airport with public beach.' },
+    { name: 'Local Islands', description: 'Visit inhabited islands to experience Maldivian culture.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'November-April for dry season; May-October is monsoon season.' },
+    { item: 'Visa', description: 'Free 30-day visa on arrival for all nationalities.' },
+    { item: 'Modest clothing', description: 'Required on local islands; resorts are more relaxed.' },
+    { item: 'Reef-safe sunscreen', description: 'Protect coral reefs with eco-friendly sunscreen.' },
+  ],
+  dessert: {
+    id: 'maldives-dessert',
+    name: 'Bondi Bai',
+    description: 'Sweet coconut and rice flour cake',
+    cookingTime: 45,
+    servings: 12,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Rice flour', amount: 300, unit: 'g' },
+      { name: 'Coconut milk', amount: 400, unit: 'ml' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Grated coconut', amount: 200, unit: 'g' },
+      { name: 'Cardamom powder', amount: 1, unit: 'tsp' },
+      { name: 'Rose water', amount: 1, unit: 'tbsp' },
+    ],
+    steps: [
+      'Mix rice flour with coconut milk',
+      'Add sugar, cardamom, and rose water',
+      'Stir in grated coconut',
+      'Pour into greased pan',
+      'Bake at 350°F for 35 minutes',
+      'Cool and cut into squares',
+      'Serve at room temperature',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1571506165871-ee72a35bc9d1?w=600',
+  },
   mainDish: {
     id: 'maldives-main',
     name: 'Garudhiya',
@@ -71,6 +139,60 @@ export const maldives: Country = {
       id: 'maldives-q1',
       question: 'What is unique about the Maldives elevation?',
       options: ['Highest peaks', 'Lowest country', 'No elevation', 'Underground cities'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'maldives-q2',
+      question: 'What is the capital of the Maldives?',
+      options: ['Malé', 'Addu', 'Fuvahmulah', 'Hulhumalé'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'maldives-q3',
+      question: 'How many coral atolls make up the Maldives?',
+      options: ['5', '12', '26', '50'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'maldives-q4',
+      question: 'What percentage of the Maldives is water?',
+      options: ['50%', '75%', '90%', '99%+'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'maldives-q5',
+      question: 'What is the average elevation of the Maldives?',
+      options: ['1.5 meters', '5 meters', '10 meters', '20 meters'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'maldives-q6',
+      question: 'In which year did the Maldives gain independence?',
+      options: ['1960', '1965', '1970', '1975'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'maldives-q7',
+      question: 'What is the main religion in the Maldives?',
+      options: ['Buddhism', 'Hinduism', 'Islam', 'Christianity'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'maldives-q8',
+      question: 'What innovative meeting did Maldives hold underwater in 2009?',
+      options: ['Press conference', 'Cabinet meeting', 'Wedding', 'Concert'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'maldives-q9',
+      question: 'What is the Maldives\' main environmental threat?',
+      options: ['Earthquakes', 'Volcanoes', 'Rising sea levels', 'Hurricanes'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'maldives-q10',
+      question: 'What is the Maldives\' currency?',
+      options: ['Rupee', 'Rufiyaa', 'Rial', 'Ringgit'],
       correctAnswer: 1,
     },
   ],

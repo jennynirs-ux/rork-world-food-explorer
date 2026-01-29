@@ -167,6 +167,48 @@ export const lebanon: Country = {
       options: ['Oak', 'Cedar', 'Olive', 'Pine'],
       correctAnswer: 1,
     },
+    {
+      id: 'lebanon-q4',
+      question: 'What is the capital of Lebanon?',
+      options: ['Damascus', 'Beirut', 'Amman', 'Jerusalem'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'lebanon-q5',
+      question: 'What did the ancient Phoenicians invent?',
+      options: ['The wheel', 'The alphabet', 'Paper', 'Gunpowder'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'lebanon-q6',
+      question: 'In which year did Lebanon gain independence?',
+      options: ['1920', '1943', '1960', '1975'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'lebanon-q7',
+      question: 'What is Lebanon\'s traditional anise-flavored spirit called?',
+      options: ['Ouzo', 'Raki', 'Arak', 'Sambuca'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'lebanon-q8',
+      question: 'How many UNESCO World Heritage Sites does Lebanon have?',
+      options: ['2', '5', '8', '12'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'lebanon-q9',
+      question: 'What ancient Roman temple complex is located in Lebanon?',
+      options: ['Palmyra', 'Baalbek', 'Jerash', 'Petra'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'lebanon-q10',
+      question: 'Which Lebanese singer is considered a legend in Arab music?',
+      options: ['Umm Kulthum', 'Fairuz', 'Amr Diab', 'Nancy Ajram'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 53, y: 38 },
 };

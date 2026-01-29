@@ -22,6 +22,79 @@ export const mali: Country = {
     'Birthplace of kora music and blues',
   ],
   foodCulture: 'Malian cuisine features millet, rice, peanuts, and vegetables with West African spices.',
+  history: [
+    {
+      year: '1235',
+      title: 'Mali Empire',
+      description: 'Sundiata Keita founded the Mali Empire, which became one of the wealthiest in the world.'
+    },
+    {
+      year: '1324',
+      title: 'Mansa Musa\'s Pilgrimage',
+      description: 'The richest man in history traveled to Mecca with so much gold he caused inflation.'
+    },
+    {
+      year: '1960',
+      title: 'Independence',
+      description: 'Mali gained independence from France.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Timbuktu Manuscripts',
+      year: '13th Century',
+      description: 'Preservation of ancient Islamic manuscripts and scholarly traditions.',
+    },
+    {
+      name: 'Mud-Brick Architecture',
+      year: 'Traditional',
+      description: 'Great Mosque of Djenné showcases traditional Sudano-Sahelian architecture.',
+    },
+    {
+      name: 'Kora Music',
+      year: 'Traditional',
+      description: 'Development of the 21-string kora instrument and its playing techniques.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Timbuktu', description: 'Legendary ancient city, UNESCO World Heritage Site.' },
+    { name: 'Great Mosque of Djenné', description: 'World\'s largest mud-brick building, UNESCO site.' },
+    { name: 'Dogon Country', description: 'Dramatic cliffs with traditional villages and culture.' },
+    { name: 'Niger River', description: 'Vital waterway through the Sahel region.' },
+    { name: 'Bamako National Museum', description: 'Showcases Mali\'s rich cultural heritage.' }
+  ],
+  travelEssentials: [
+    { item: 'Safety', description: 'Check current travel advisories; some areas have security concerns.' },
+    { item: 'Best time to visit', description: 'November-February for cooler, dry weather.' },
+    { item: 'Visa', description: 'Most visitors need a visa arranged in advance.' },
+    { item: 'Yellow fever vaccination', description: 'Required for entry into Mali.' },
+  ],
+  dessert: {
+    id: 'mali-dessert',
+    name: 'Degue',
+    description: 'Creamy millet pudding with yogurt and vanilla',
+    cookingTime: 60,
+    servings: 6,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Millet couscous', amount: 200, unit: 'g' },
+      { name: 'Plain yogurt', amount: 500, unit: 'ml' },
+      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Vanilla extract', amount: 2, unit: 'tsp' },
+      { name: 'Ground nutmeg', amount: 0.5, unit: 'tsp' },
+      { name: 'Raisins', amount: 50, unit: 'g' },
+    ],
+    steps: [
+      'Steam millet couscous until fluffy',
+      'Let cool to room temperature',
+      'Mix yogurt with sugar and vanilla',
+      'Fold cooled millet into yogurt mixture',
+      'Add nutmeg and raisins',
+      'Refrigerate for at least 2 hours',
+      'Serve chilled in bowls',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
+  },
   mainDish: {
     id: 'mali-main',
     name: 'Tigadèguèna',
@@ -74,6 +147,60 @@ export const mali: Country = {
       question: 'What is the capital of Mali?',
       options: ['Bamako', 'Timbuktu', 'Gao', 'Sikasso'],
       correctAnswer: 0,
+    },
+    {
+      id: 'mali-q2',
+      question: 'What legendary ancient city is located in Mali?',
+      options: ['Carthage', 'Timbuktu', 'Alexandria', 'Babylon'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mali-q3',
+      question: 'Who was the richest ruler in history from Mali?',
+      options: ['Sundiata Keita', 'Mansa Musa', 'Askia Muhammad', 'Sonni Ali'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mali-q4',
+      question: 'What is the world\'s largest mud-brick building located in Mali?',
+      options: ['Palace of Bamako', 'Great Mosque of Djenné', 'Timbuktu Library', 'Gao Castle'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mali-q5',
+      question: 'In which year did Mali gain independence?',
+      options: ['1950', '1960', '1970', '1980'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mali-q6',
+      question: 'What is Mali\'s official language?',
+      options: ['Arabic', 'English', 'French', 'Bambara'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mali-q7',
+      question: 'What traditional string instrument originated in Mali?',
+      options: ['Guitar', 'Kora', 'Harp', 'Banjo'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mali-q8',
+      question: 'Which river flows through Mali?',
+      options: ['Nile', 'Congo', 'Niger', 'Zambezi'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mali-q9',
+      question: 'What is Mali\'s currency?',
+      options: ['Malian Franc', 'West African CFA Franc', 'Mali Dollar', 'Dinar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mali-q10',
+      question: 'What ancient manuscripts are preserved in Timbuktu?',
+      options: ['Dead Sea Scrolls', 'Islamic manuscripts', 'Egyptian papyri', 'Roman texts'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 46, y: 28 },

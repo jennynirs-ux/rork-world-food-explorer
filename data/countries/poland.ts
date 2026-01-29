@@ -171,6 +171,48 @@ export const poland: Country = {
       options: ['Mozart', 'Beethoven', 'Chopin', 'Bach'],
       correctAnswer: 2,
     },
+    {
+      id: 'poland-q4',
+      question: 'What is the capital of Poland?',
+      options: ['Kraków', 'Warsaw', 'Gdańsk', 'Wrocław'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'poland-q5',
+      question: 'Which scientist won two Nobel Prizes and was Polish?',
+      options: ['Einstein', 'Marie Curie', 'Newton', 'Darwin'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'poland-q6',
+      question: 'For how many years was Poland erased from the map?',
+      options: ['50 years', '75 years', '123 years', '200 years'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'poland-q7',
+      question: 'What is Poland\'s currency?',
+      options: ['Złoty', 'Euro', 'Koruna', 'Forint'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'poland-q8',
+      question: 'In which year did communism end in Poland?',
+      options: ['1980', '1985', '1989', '1995'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'poland-q9',
+      question: 'What movement led to the fall of communism in Poland?',
+      options: ['Solidarity', 'Revolution', 'Uprising', 'Renaissance'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'poland-q10',
+      question: 'How many UNESCO World Heritage Sites does Poland have?',
+      options: ['5', '10', '17', '25'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 52, y: 52 },
 };

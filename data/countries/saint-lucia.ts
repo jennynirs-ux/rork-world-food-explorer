@@ -22,6 +22,68 @@ export const saintLucia: Country = {
     'Has produced two Nobel Prize laureates',
   ],
   foodCulture: 'Saint Lucian cuisine features Creole flavors with fresh seafood, tropical fruits, and spices.',
+  history: [
+    {
+      year: '1502',
+      title: 'European Discovery',
+      description: 'Columbus may have sighted the island during his fourth voyage.'
+    },
+    {
+      year: '1979',
+      title: 'Independence',
+      description: 'Saint Lucia gained independence from Britain.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Nobel Laureates',
+      year: '1979, 1992',
+      description: 'Produced two Nobel Prize winners (Sir Arthur Lewis and Derek Walcott).',
+    },
+    {
+      name: 'Sustainable Tourism',
+      year: 'Modern',
+      description: 'Developed eco-tourism while preserving natural beauty.',
+    },
+  ],
+  mustVisit: [
+    { name: 'The Pitons', description: 'Iconic twin volcanic spires, UNESCO World Heritage Site.' },
+    { name: 'Sulphur Springs', description: 'Drive-in volcano with therapeutic mud baths.' },
+    { name: 'Pigeon Island', description: 'Historic site with fort ruins and beaches.' },
+    { name: 'Diamond Falls', description: 'Colorful waterfall fed by volcanic minerals.' },
+    { name: 'Marigot Bay', description: 'Stunning bay used as filming location for movies.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'December-April for dry season; avoid hurricane season.' },
+    { item: 'Visa', description: 'Visa-free for many nationalities for 6 weeks.' },
+    { item: 'Currency', description: 'East Caribbean Dollar; US dollars widely accepted.' },
+    { item: 'Bug repellent', description: 'Mosquito protection recommended.' },
+  ],
+  dessert: {
+    id: 'saint-lucia-dessert',
+    name: 'Coconut Tart',
+    description: 'Sweet coconut custard tart',
+    cookingTime: 60,
+    servings: 8,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Shortcrust pastry', amount: 400, unit: 'g' },
+      { name: 'Grated coconut', amount: 300, unit: 'g' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Eggs', amount: 3, unit: 'large' },
+      { name: 'Milk', amount: 200, unit: 'ml' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+      { name: 'Nutmeg', amount: 0.5, unit: 'tsp' },
+    ],
+    steps: [
+      'Line tart pan with pastry',
+      'Mix coconut, sugar, eggs, milk, vanilla, and nutmeg',
+      'Pour into pastry shell',
+      'Bake at 350°F for 40 minutes',
+      'Cool before slicing',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600',
+  },
   mainDish: {
     id: 'saint-lucia-main',
     name: 'Green Fig and Saltfish',
@@ -72,6 +134,60 @@ export const saintLucia: Country = {
       id: 'saint-lucia-q1',
       question: 'What are the Pitons?',
       options: ['Beaches', 'Mountains', 'Rivers', 'Caves'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'saint-lucia-q2',
+      question: 'What is the capital of Saint Lucia?',
+      options: ['Castries', 'Soufrière', 'Vieux Fort', 'Gros Islet'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'saint-lucia-q3',
+      question: 'What is Saint Lucia\'s national dish?',
+      options: ['Jerk chicken', 'Green Fig and Saltfish', 'Rice and peas', 'Roti'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'saint-lucia-q4',
+      question: 'In which year did Saint Lucia gain independence?',
+      options: ['1960', '1970', '1979', '1985'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'saint-lucia-q5',
+      question: 'What currency does Saint Lucia use?',
+      options: ['US Dollar', 'East Caribbean Dollar', 'Pound', 'Euro'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'saint-lucia-q6',
+      question: 'How many Nobel Prize laureates has Saint Lucia produced?',
+      options: ['0', '1', '2', '3'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'saint-lucia-q7',
+      question: 'What unique attraction allows you to "drive into a volcano"?',
+      options: ['Pitons', 'Sulphur Springs', 'Diamond Falls', 'Marigot Bay'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'saint-lucia-q8',
+      question: 'What is the official language of Saint Lucia?',
+      options: ['French', 'English', 'Spanish', 'Creole'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'saint-lucia-q9',
+      question: 'What are "green figs" in Saint Lucian cuisine?',
+      options: ['Figs', 'Green bananas', 'Plantains', 'Kiwi'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'saint-lucia-q10',
+      question: 'What UNESCO World Heritage Site is in Saint Lucia?',
+      options: ['Castries', 'The Pitons', 'Sulphur Springs', 'Rodney Bay'],
       correctAnswer: 1,
     },
   ],

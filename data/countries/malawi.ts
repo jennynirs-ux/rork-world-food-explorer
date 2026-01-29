@@ -23,6 +23,69 @@ export const malawi: Country = {
     'The country is known for its exceptionally friendly people',
   ],
   foodCulture: 'Malawian cuisine is simple and based on nsima (maize porridge) with fish from Lake Malawi being a staple protein. Meals are communal and traditionally eaten with hands.',
+  history: [
+    {
+      year: '1859',
+      title: 'European Exploration',
+      description: 'David Livingstone explored the region, calling Lake Malawi the "Lake of Stars."'
+    },
+    {
+      year: '1964',
+      title: 'Independence',
+      description: 'Malawi gained independence from Britain under Dr. Hastings Banda.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Lake Malawi Cichlids',
+      year: 'Ancient',
+      description: 'Unique evolutionary diversification created hundreds of endemic fish species.',
+    },
+    {
+      name: 'Sustainable Fishing',
+      year: 'Traditional',
+      description: 'Traditional fishing methods developed for Lake Malawi\'s unique ecosystem.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Lake Malawi National Park', description: 'UNESCO site with incredible freshwater diving and snorkeling.' },
+    { name: 'Mount Mulanje', description: 'Highest peak in Central Africa with spectacular hiking.' },
+    { name: 'Liwonde National Park', description: 'Excellent safari park with elephants and hippos.' },
+    { name: 'Zomba Plateau', description: 'Scenic plateau with waterfalls, forests, and hiking trails.' },
+    { name: 'Likoma Island', description: 'Island in Lake Malawi with beautiful beaches and colonial cathedral.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'May-October for dry season; lake is pleasant year-round.' },
+    { item: 'Malaria prophylaxis', description: 'Recommended for most of the country.' },
+    { item: 'Visa', description: 'Visa on arrival available for many nationalities.' },
+    { item: 'Cash', description: 'ATMs available in cities; bring cash for rural areas.' },
+  ],
+  dessert: {
+    id: 'malawi-dessert',
+    name: 'Zitumbuwa',
+    description: 'Sweet banana fritters, a popular Malawian treat',
+    cookingTime: 30,
+    servings: 12,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Ripe bananas', amount: 4, unit: 'large' },
+      { name: 'Flour', amount: 300, unit: 'g' },
+      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Baking powder', amount: 1, unit: 'tsp' },
+      { name: 'Cinnamon', amount: 1, unit: 'tsp' },
+      { name: 'Oil for frying', amount: 500, unit: 'ml' },
+    ],
+    steps: [
+      'Mash bananas in a bowl',
+      'Add sugar, flour, baking powder, and cinnamon',
+      'Mix into thick batter',
+      'Heat oil to 350°F',
+      'Drop spoonfuls of batter into oil',
+      'Fry until golden brown',
+      'Drain and serve warm',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1626197881825-9e0feef5ad90?w=600',
+  },
   mainDish: {
     id: 'malawi-main',
     name: 'Chambo with Nsima',
@@ -92,6 +155,48 @@ export const malawi: Country = {
       id: 'malawi-q3',
       question: 'What is the traditional fish from Lake Malawi?',
       options: ['Salmon', 'Chambo', 'Tuna', 'Cod'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'malawi-q4',
+      question: 'What is the capital of Malawi?',
+      options: ['Lilongwe', 'Blantyre', 'Zomba', 'Mzuzu'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'malawi-q5',
+      question: 'What percentage of Malawi\'s area does Lake Malawi occupy?',
+      options: ['5%', '10%', '20%', '40%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'malawi-q6',
+      question: 'What are the official languages of Malawi?',
+      options: ['English only', 'Chichewa only', 'English and Chichewa', 'French and English'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'malawi-q7',
+      question: 'In which year did Malawi gain independence?',
+      options: ['1960', '1964', '1970', '1975'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'malawi-q8',
+      question: 'What did explorer David Livingstone call Lake Malawi?',
+      options: ['Lake of Dreams', 'Lake of Stars', 'Lake of Light', 'Lake of Hope'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'malawi-q9',
+      question: 'What is Malawi\'s currency?',
+      options: ['Shilling', 'Dollar', 'Kwacha', 'Rand'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'malawi-q10',
+      question: 'What is Mount Mulanje known as?',
+      options: ['Lowest peak', 'Highest peak in Central Africa', 'Volcano', 'Island mountain'],
       correctAnswer: 1,
     },
   ],

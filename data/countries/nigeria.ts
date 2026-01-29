@@ -165,6 +165,48 @@ export const nigeria: Country = {
       options: ['Reggae', 'Salsa', 'Afrobeats', 'Jazz'],
       correctAnswer: 2,
     },
+    {
+      id: 'nigeria-q4',
+      question: 'What is the capital of Nigeria?',
+      options: ['Lagos', 'Abuja', 'Kano', 'Ibadan'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'nigeria-q5',
+      question: 'In which year did Nigeria gain independence?',
+      options: ['1950', '1960', '1970', '1980'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'nigeria-q6',
+      question: 'What is Nigeria\'s most famous rice dish?',
+      options: ['Fried rice', 'Jollof rice', 'Biryani', 'Paella'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'nigeria-q7',
+      question: 'How many languages are spoken in Nigeria approximately?',
+      options: ['50', '150', '300', '500+'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'nigeria-q8',
+      question: 'What is Nigeria\'s currency?',
+      options: ['Naira', 'Cedi', 'Shilling', 'Franc'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'nigeria-q9',
+      question: 'Which industry ranks Nigeria as the world\'s second largest by volume?',
+      options: ['Music', 'Film (Nollywood)', 'Technology', 'Fashion'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'nigeria-q10',
+      question: 'What is Nigeria\'s position in Africa?',
+      options: ['Smallest country', 'Most populous country', 'Richest country', 'Oldest country'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 48, y: 20 },
 };

@@ -197,6 +197,36 @@ export const portugal: Country = {
       options: ['A type of cheese', 'Salt cod', 'Grilled chicken', 'A dessert'],
       correctAnswer: 1,
     },
+    {
+      id: 'portugal-q6',
+      question: 'When did Portugal have its Carnation Revolution?',
+      options: ['1950', '1968', '1974', '1989'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'portugal-q7',
+      question: 'What is Portugal\'s currency?',
+      options: ['Escudo', 'Euro', 'Peseta', 'Real'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'portugal-q8',
+      question: 'What is the oldest nation-state in Europe?',
+      options: ['France', 'Spain', 'Portugal', 'England'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'portugal-q9',
+      question: 'How many UNESCO World Heritage Sites does Portugal have?',
+      options: ['5', '10', '17', '25'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'portugal-q10',
+      question: 'What revolutionary ship design enabled Portuguese exploration?',
+      options: ['Galleon', 'Caravel', 'Frigate', 'Clipper'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 44, y: 42 },
 };

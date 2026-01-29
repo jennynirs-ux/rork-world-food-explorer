@@ -165,6 +165,48 @@ export const ireland: Country = {
       options: ['Heineken', 'Guinness', 'Budweiser', 'Corona'],
       correctAnswer: 1,
     },
+    {
+      id: 'ireland-q4',
+      question: 'What is the capital of Ireland?',
+      options: ['Cork', 'Galway', 'Dublin', 'Limerick'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'ireland-q5',
+      question: 'What is Ireland\'s national symbol?',
+      options: ['Rose', 'Thistle', 'Shamrock', 'Oak leaf'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'ireland-q6',
+      question: 'When is St. Patrick\'s Day celebrated?',
+      options: ['March 1st', 'March 17th', 'April 1st', 'May 1st'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ireland-q7',
+      question: 'How many times has Ireland won the Eurovision Song Contest?',
+      options: ['3 times', '5 times', '7 times', '10 times'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'ireland-q8',
+      question: 'What natural wonder features cliffs rising 214 meters above the Atlantic?',
+      options: ['White Cliffs of Dover', 'Cliffs of Moher', 'Beachy Head', 'Étretat Cliffs'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ireland-q9',
+      question: 'What historic event occurred in Ireland between 1845-1852?',
+      options: ['Industrial Revolution', 'Great Famine', 'Civil War', 'Viking Invasion'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ireland-q10',
+      question: 'What currency does Ireland use?',
+      options: ['British Pound', 'Irish Pound', 'Euro', 'Dollar'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 44, y: 53 },
 };

@@ -22,6 +22,66 @@ export const marshallIslands: Country = {
     'Consists of 29 atolls and 5 islands',
   ],
   foodCulture: 'Marshallese cuisine features fish, breadfruit, taro, and coconut.',
+  history: [
+    {
+      year: '1946',
+      title: 'Nuclear Testing',
+      description: 'The US conducted nuclear tests at Bikini Atoll, displacing residents.'
+    },
+    {
+      year: '1986',
+      title: 'Independence',
+      description: 'Marshall Islands gained independence from US trust territory.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Stick Chart Navigation',
+      year: 'Traditional',
+      description: 'Unique wave navigation charts made from sticks showing ocean swells.',
+    },
+    {
+      name: 'Outrigger Canoe Design',
+      year: 'Traditional',
+      description: 'Advanced canoe designs for long-distance ocean voyaging.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Bikini Atoll', description: 'UNESCO site, former nuclear test site now a dive destination.' },
+    { name: 'Majuro', description: 'Capital atoll with museums and local markets.' },
+    { name: 'Arno Atoll', description: 'Traditional Marshallese culture and pristine beaches.' },
+    { name: 'Alele Museum', description: 'Showcases Marshallese history and culture.' },
+    { name: 'Laura Beach', description: 'Beautiful beach on Majuro with calm waters.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'December-April for drier weather; May-November is wetter.' },
+    { item: 'Visa', description: 'US citizens visa-free; others check requirements.' },
+    { item: 'Cash', description: 'US dollars used; ATMs limited outside Majuro.' },
+    { item: 'Sun protection', description: 'Strong equatorial sun requires maximum protection.' },
+  ],
+  dessert: {
+    id: 'marshall-islands-dessert',
+    name: 'Coconut Candy',
+    description: 'Sweet coconut treats, a Marshallese favorite',
+    cookingTime: 30,
+    servings: 20,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Fresh coconut, grated', amount: 400, unit: 'g' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Water', amount: 100, unit: 'ml' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Cook sugar and water until syrupy',
+      'Add grated coconut and vanilla',
+      'Stir until mixture thickens',
+      'Drop spoonfuls onto greased surface',
+      'Let cool and harden',
+      'Store in airtight container',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1585515320310-259814833e62?w=600',
+  },
   mainDish: {
     id: 'marshall-islands-main',
     name: 'Barramundi Ko',
@@ -71,6 +131,60 @@ export const marshallIslands: Country = {
       question: 'What is the capital of Marshall Islands?',
       options: ['Majuro', 'Ebeye', 'Bikini', 'Jaluit'],
       correctAnswer: 0,
+    },
+    {
+      id: 'marshall-islands-q2',
+      question: 'What famous atoll was used for nuclear testing?',
+      options: ['Majuro', 'Kwajalein', 'Bikini Atoll', 'Enewetak'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'marshall-islands-q3',
+      question: 'In which year did Marshall Islands gain independence?',
+      options: ['1975', '1980', '1986', '1990'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'marshall-islands-q4',
+      question: 'What traditional navigation tool did Marshallese people use?',
+      options: ['Compass', 'Stick charts', 'Maps', 'GPS'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'marshall-islands-q5',
+      question: 'What currency does Marshall Islands use?',
+      options: ['Marshall Dollar', 'US Dollar', 'Australian Dollar', 'Yen'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'marshall-islands-q6',
+      question: 'How many atolls and islands make up Marshall Islands?',
+      options: ['10 atolls', '29 atolls and 5 islands', '50 atolls', '100 atolls'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'marshall-islands-q7',
+      question: 'What are the official languages of Marshall Islands?',
+      options: ['English only', 'Marshallese only', 'Marshallese and English', 'French and English'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'marshall-islands-q8',
+      question: 'What type of boat is traditional in Marshall Islands?',
+      options: ['Junk', 'Dhow', 'Outrigger canoe', 'Kayak'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'marshall-islands-q9',
+      question: 'What ocean activity is Marshall Islands famous for?',
+      options: ['Surfing', 'Wreck diving', 'Sailing', 'Fishing'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'marshall-islands-q10',
+      question: 'What lagoon in Marshall Islands has the world\'s best wreck diving?',
+      options: ['Majuro Lagoon', 'Chuuk Lagoon', 'Bikini Lagoon', 'Arno Lagoon'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 90, y: 22 },

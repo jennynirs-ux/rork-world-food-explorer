@@ -94,6 +94,48 @@ export const rwanda: Country = {
       options: ['Elephants', 'Lions', 'Mountain gorillas', 'Zebras'],
       correctAnswer: 2,
     },
+    {
+      id: 'rwanda-q4',
+      question: 'What is the capital of Rwanda?',
+      options: ['Kigali', 'Butare', 'Gisenyi', 'Ruhengeri'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'rwanda-q5',
+      question: 'In which year did Rwanda gain independence?',
+      options: ['1960', '1962', '1970', '1980'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'rwanda-q6',
+      question: 'What are the official languages of Rwanda?',
+      options: ['French only', 'English only', 'Kinyarwanda, French, English, Swahili', 'Swahili only'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'rwanda-q7',
+      question: 'What is Rwanda\'s currency?',
+      options: ['Shilling', 'Franc', 'Dollar', 'Pound'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'rwanda-q8',
+      question: 'What was Rwanda the first African country to ban?',
+      options: ['Cars', 'Plastic bags', 'Smoking', 'Mining'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'rwanda-q9',
+      question: 'What percentage of Rwanda\'s parliament is women (world\'s highest)?',
+      options: ['30%', '45%', '61%', '75%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'rwanda-q10',
+      question: 'What is Rwanda\'s nickname?',
+      options: ['Pearl of Africa', 'Land of a Thousand Hills', 'Green Heart', 'Mountain Kingdom'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 55, y: 18 },
 };

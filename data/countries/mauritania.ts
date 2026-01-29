@@ -22,6 +22,69 @@ export const mauritania: Country = {
     'Traditional nomadic lifestyle still practiced',
   ],
   foodCulture: 'Mauritanian cuisine features couscous, dates, camel meat, and mint tea with Arab and Berber influences.',
+  history: [
+    {
+      year: 'Ancient',
+      title: 'Trans-Saharan Trade',
+      description: 'Mauritania was a key route for trans-Saharan trade caravans.'
+    },
+    {
+      year: '1960',
+      title: 'Independence',
+      description: 'Mauritania gained independence from France.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Library Preservation',
+      year: 'Traditional',
+      description: 'Ancient manuscript libraries in desert cities like Chinguetti.',
+    },
+    {
+      name: 'Desert Survival Techniques',
+      year: 'Traditional',
+      description: 'Nomadic expertise in surviving harsh Saharan conditions.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Chinguetti', description: 'Ancient caravan town with historic libraries, UNESCO site.' },
+    { name: 'Banc d\'Arguin National Park', description: 'UNESCO site with important bird migrations and marine life.' },
+    { name: 'Terjit Oasis', description: 'Palm-filled oasis with natural pools in the desert.' },
+    { name: 'Nouakchott', description: 'Capital city with fish market and modern development.' },
+    { name: 'Adrar Region', description: 'Dramatic desert landscapes and ancient settlements.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'November-February for cooler desert temperatures.' },
+    { item: 'Visa', description: 'Most visitors need a visa arranged in advance.' },
+    { item: 'Desert gear', description: 'Sun protection, plenty of water, warm layers for cold nights.' },
+    { item: 'French or Arabic', description: 'Helpful for communication; English less common.' },
+  ],
+  dessert: {
+    id: 'mauritania-dessert',
+    name: 'Chakery',
+    description: 'Sweet couscous pudding with yogurt and cream',
+    cookingTime: 30,
+    servings: 6,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Couscous', amount: 200, unit: 'g' },
+      { name: 'Plain yogurt', amount: 400, unit: 'ml' },
+      { name: 'Heavy cream', amount: 200, unit: 'ml' },
+      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+      { name: 'Nutmeg', amount: 0.5, unit: 'tsp' },
+    ],
+    steps: [
+      'Steam couscous until fluffy',
+      'Let cool to room temperature',
+      'Mix yogurt, cream, and sugar',
+      'Fold in cooled couscous',
+      'Add vanilla and nutmeg',
+      'Refrigerate for 2 hours',
+      'Serve chilled',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
+  },
   mainDish: {
     id: 'mauritania-main',
     name: 'Thieboudienne',
@@ -71,6 +134,60 @@ export const mauritania: Country = {
       id: 'mauritania-q1',
       question: 'What percentage of Mauritania is desert?',
       options: ['50%', '70%', '90%', '100%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mauritania-q2',
+      question: 'What is the capital of Mauritania?',
+      options: ['Nouakchott', 'Nouadhibou', 'Chinguetti', 'Atar'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'mauritania-q3',
+      question: 'What ancient trade route passed through Mauritania?',
+      options: ['Silk Road', 'Spice Route', 'Trans-Saharan trade routes', 'Amber Road'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mauritania-q4',
+      question: 'In which year did Mauritania gain independence?',
+      options: ['1950', '1960', '1970', '1980'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mauritania-q5',
+      question: 'What is Mauritania\'s official language?',
+      options: ['French', 'Arabic', 'Berber', 'English'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mauritania-q6',
+      question: 'What is Mauritania\'s currency?',
+      options: ['Dinar', 'Dirham', 'Ouguiya', 'Franc'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mauritania-q7',
+      question: 'Which ancient city in Mauritania is a UNESCO site with historic libraries?',
+      options: ['Nouakchott', 'Chinguetti', 'Timbuktu', 'Gao'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mauritania-q8',
+      question: 'What is the traditional drink of Mauritania?',
+      options: ['Coffee', 'Very sweet mint tea', 'Wine', 'Beer'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mauritania-q9',
+      question: 'What type of animal might you find in Mauritania?',
+      options: ['Elephant', 'Camel', 'Polar bear', 'Kangaroo'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mauritania-q10',
+      question: 'Which national park in Mauritania is known for bird migrations?',
+      options: ['Serengeti', 'Kruger', 'Banc d\'Arguin', 'Etosha'],
       correctAnswer: 2,
     },
   ],

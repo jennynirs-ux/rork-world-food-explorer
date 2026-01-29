@@ -162,6 +162,48 @@ export const norway: Country = {
       options: ['Stockholm', 'Oslo', 'Copenhagen', 'Helsinki'],
       correctAnswer: 1,
     },
+    {
+      id: 'norway-q4',
+      question: 'What is the capital of Norway?',
+      options: ['Bergen', 'Oslo', 'Trondheim', 'Stavanger'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'norway-q5',
+      question: 'How many fjords does Norway have approximately?',
+      options: ['100', '500', '1,000+', '5,000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'norway-q6',
+      question: 'In which year did Norway gain independence from Sweden?',
+      options: ['1850', '1905', '1945', '1960'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'norway-q7',
+      question: 'What is Norway\'s currency?',
+      options: ['Euro', 'Krone', 'Krona', 'Kuna'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'norway-q8',
+      question: 'Which historical period is Norway famous for?',
+      options: ['Roman Empire', 'Viking Age', 'Renaissance', 'Industrial Revolution'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'norway-q9',
+      question: 'What winter sport was Norway the birthplace of?',
+      options: ['Ice hockey', 'Skiing', 'Snowboarding', 'Curling'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'norway-q10',
+      question: 'What resource discovery transformed Norway in the 1970s?',
+      options: ['Gold', 'Coal', 'North Sea oil', 'Natural gas only'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 49, y: 65 },
 };

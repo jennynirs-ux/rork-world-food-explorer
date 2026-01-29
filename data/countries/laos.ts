@@ -23,6 +23,74 @@ export const laos: Country = {
     'Buddhism is practiced by 95% of the population',
   ],
   foodCulture: 'Lao cuisine features sticky rice, fresh herbs, and fiery chilies. Meals are communal with many small dishes shared. French influence is seen in baguettes and coffee.',
+  history: [
+    {
+      year: '1353',
+      title: 'Lan Xang Kingdom',
+      description: 'Founding of the Kingdom of Lan Xang (Million Elephants), establishing Lao culture and Buddhism.'
+    },
+    {
+      year: '1893',
+      title: 'French Protectorate',
+      description: 'Laos became part of French Indochina, lasting until independence.'
+    },
+    {
+      year: '1975',
+      title: 'Socialist Republic',
+      description: 'Establishment of the Lao People\'s Democratic Republic.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Sticky Rice Culture',
+      year: 'Traditional',
+      description: 'Laos perfected sticky rice cultivation and preparation methods unique in Southeast Asia.',
+    },
+    {
+      name: 'Silk Weaving',
+      year: 'Traditional',
+      description: 'Traditional Lao silk weaving techniques create intricate patterns passed down generations.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Luang Prabang', description: 'UNESCO World Heritage town with temples, French colonial architecture, and night markets.' },
+    { name: 'Kuang Si Falls', description: 'Stunning turquoise waterfalls with swimming pools.' },
+    { name: 'Plain of Jars', description: 'Mysterious ancient stone jars scattered across the landscape.' },
+    { name: 'Vang Vieng', description: 'Dramatic karst limestone scenery and outdoor adventures.' },
+    { name: 'Wat Phu', description: 'Ancient Khmer temple ruins, UNESCO World Heritage Site.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'November-February for cool, dry weather.' },
+    { item: 'Visa', description: 'Visa on arrival available for most nationalities.' },
+    { item: 'Modest clothing', description: 'Cover shoulders and knees for temple visits.' },
+    { item: 'Cash', description: 'Bring US dollars or Thai baht to exchange.' },
+  ],
+  dessert: {
+    id: 'laos-dessert',
+    name: 'Khao Niao Mamuang',
+    description: 'Sticky rice with mango and coconut cream',
+    cookingTime: 45,
+    servings: 4,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Sticky rice', amount: 400, unit: 'g' },
+      { name: 'Coconut milk', amount: 400, unit: 'ml' },
+      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Salt', amount: 0.5, unit: 'tsp' },
+      { name: 'Ripe mangoes', amount: 3, unit: 'whole' },
+      { name: 'Sesame seeds', amount: 2, unit: 'tbsp' },
+    ],
+    steps: [
+      'Soak sticky rice overnight, steam for 20 minutes',
+      'Heat coconut milk with sugar and salt',
+      'Pour over cooked rice, let absorb 30 minutes',
+      'Slice mangoes',
+      'Serve rice with mango slices',
+      'Drizzle with remaining coconut cream',
+      'Sprinkle with toasted sesame seeds',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1601040894584-d9aed2b2b3a7?w=600',
+  },
   mainDish: {
     id: 'laos-main',
     name: 'Laap',
@@ -93,6 +161,48 @@ export const laos: Country = {
       id: 'laos-q3',
       question: 'What is Laos\'s most famous beer?',
       options: ['Tiger', 'Beerlao', 'Singha', 'Chang'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'laos-q4',
+      question: 'What is the capital of Laos?',
+      options: ['Vientiane', 'Luang Prabang', 'Vang Vieng', 'Pakse'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'laos-q5',
+      question: 'Which UNESCO World Heritage town is famous for its temples in Laos?',
+      options: ['Vientiane', 'Luang Prabang', 'Pakse', 'Savannakhet'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'laos-q6',
+      question: 'What river forms much of Laos\' western border?',
+      options: ['Yangtze', 'Ganges', 'Mekong', 'Irrawaddy'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'laos-q7',
+      question: 'What percentage of Laos population practices Buddhism?',
+      options: ['50%', '75%', '85%', '95%'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'laos-q8',
+      question: 'What is Laos\' currency?',
+      options: ['Baht', 'Dong', 'Kip', 'Rupiah'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'laos-q9',
+      question: 'What makes Laos unique in Southeast Asia?',
+      options: ['Largest country', 'Most populated', 'Only landlocked country', 'Island nation'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'laos-q10',
+      question: 'What is the mysterious archaeological site in Laos with ancient stone jars?',
+      options: ['Angkor Wat', 'Plain of Jars', 'Borobudur', 'Bagan'],
       correctAnswer: 1,
     },
   ],

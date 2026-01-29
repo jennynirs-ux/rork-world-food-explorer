@@ -22,6 +22,70 @@ export const niger: Country = {
     'The Niger River flows through the southwest',
   ],
   foodCulture: 'Nigerien cuisine features millet, sorghum, rice, and mutton with West African and Saharan influences.',
+  history: [
+    {
+      year: 'Ancient',
+      title: 'Trans-Saharan Trade',
+      description: 'Niger was a crucial link in trans-Saharan trade routes, particularly Agadez.'
+    },
+    {
+      year: '1960',
+      title: 'Independence',
+      description: 'Niger gained independence from France.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Tuareg Silver Craftsmanship',
+      year: 'Traditional',
+      description: 'Intricate silver jewelry and metalwork traditions.',
+    },
+    {
+      name: 'Desert Agriculture',
+      year: 'Traditional',
+      description: 'Techniques for farming in harsh Sahel and Saharan conditions.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Agadez', description: 'UNESCO site, ancient Saharan trading city with distinctive mud-brick architecture.' },
+    { name: 'W National Park', description: 'UNESCO site shared with Benin and Burkina Faso, rich wildlife.' },
+    { name: 'Aïr Mountains', description: 'Dramatic mountain range in the Sahara.' },
+    { name: 'Niger River', description: 'Vital waterway through the southwest.' },
+    { name: 'Niamey Grand Market', description: 'Vibrant market in the capital.' }
+  ],
+  travelEssentials: [
+    { item: 'Safety', description: 'Check current travel advisories; some regions have security concerns.' },
+    { item: 'Best time to visit', description: 'November-February for cooler temperatures.' },
+    { item: 'Visa', description: 'Most visitors need visa arranged in advance.' },
+    { item: 'Desert preparation', description: 'Essential gear for Saharan conditions.' },
+  ],
+  dessert: {
+    id: 'niger-dessert',
+    name: 'Beignets',
+    description: 'Sweet fried dough, French-influenced Nigerien treat',
+    cookingTime: 45,
+    servings: 16,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Flour', amount: 500, unit: 'g' },
+      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Milk', amount: 250, unit: 'ml' },
+      { name: 'Eggs', amount: 2, unit: 'large' },
+      { name: 'Yeast', amount: 7, unit: 'g' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+      { name: 'Oil for frying', amount: 500, unit: 'ml' },
+    ],
+    steps: [
+      'Activate yeast in warm milk with sugar',
+      'Mix flour, eggs, yeast mixture, and vanilla',
+      'Knead into soft dough',
+      'Let rise for 1 hour',
+      'Roll out and cut into squares',
+      'Deep fry until puffy and golden',
+      'Dust with powdered sugar and serve',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1626197881825-9e0feef5ad90?w=600',
+  },
   mainDish: {
     id: 'niger-main',
     name: 'Dambou',
@@ -72,6 +136,60 @@ export const niger: Country = {
       question: 'What is the capital of Niger?',
       options: ['Niamey', 'Agadez', 'Zinder', 'Maradi'],
       correctAnswer: 0,
+    },
+    {
+      id: 'niger-q2',
+      question: 'What percentage of Niger is Sahara Desert?',
+      options: ['50%', '60%', '80%+', '100%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'niger-q3',
+      question: 'What ancient trading city is a UNESCO site in Niger?',
+      options: ['Niamey', 'Agadez', 'Timbuktu', 'Gao'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'niger-q4',
+      question: 'In which year did Niger gain independence?',
+      options: ['1950', '1960', '1970', '1980'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'niger-q5',
+      question: 'What is Niger\'s official language?',
+      options: ['Arabic', 'English', 'French', 'Hausa'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'niger-q6',
+      question: 'What mineral is Niger rich in?',
+      options: ['Gold', 'Diamonds', 'Uranium', 'Copper'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'niger-q7',
+      question: 'Which river flows through Niger?',
+      options: ['Nile', 'Congo', 'Niger River', 'Zambezi'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'niger-q8',
+      question: 'What is Niger\'s currency?',
+      options: ['Nigerien Franc', 'West African CFA Franc', 'Niger Dollar', 'Dinar'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'niger-q9',
+      question: 'Which nomadic people are associated with Niger?',
+      options: ['Bedouin', 'Tuareg', 'Mongols', 'Berbers'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'niger-q10',
+      question: 'What mountains are located in Niger?',
+      options: ['Atlas Mountains', 'Aïr Mountains', 'Drakensberg', 'Ruwenzori'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 48, y: 28 },

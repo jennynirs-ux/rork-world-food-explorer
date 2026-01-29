@@ -22,6 +22,75 @@ export const kazakhstan: Country = {
     'Traditional eagle hunting is still practiced',
   ],
   foodCulture: 'Kazakh cuisine features meat, dairy, and bread with Central Asian and Russian influences.',
+  history: [
+    {
+      year: '1st Millennium BC',
+      title: 'Nomadic Tribes',
+      description: 'The Kazakh steppes were home to nomadic tribes and key Silk Road trade routes.'
+    },
+    {
+      year: '1991',
+      title: 'Independence',
+      description: 'Kazakhstan gained independence from the Soviet Union, becoming the last Soviet republic to do so.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Baikonur Cosmodrome',
+      year: '1955',
+      description: 'World\'s first and largest space launch facility, launched Yuri Gagarin into space.',
+    },
+    {
+      name: 'Nomadic Architecture',
+      year: 'Traditional',
+      description: 'Development of the yurt, a portable dwelling perfect for nomadic lifestyles.',
+    },
+    {
+      name: 'Eagle Hunting',
+      year: 'Ancient',
+      description: 'Traditional Kazakh method of hunting with trained golden eagles.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Astana (Nur-Sultan)', description: 'Futuristic capital with modern architecture and cultural sites.' },
+    { name: 'Almaty', description: 'Largest city with mountains, parks, and Soviet-era architecture.' },
+    { name: 'Charyn Canyon', description: 'Stunning canyon often compared to the Grand Canyon.' },
+    { name: 'Big Almaty Lake', description: 'Turquoise mountain lake with spectacular scenery.' },
+    { name: 'Baikonur Cosmodrome', description: 'Historic space launch facility (special permission required).' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'May-September for pleasant weather; winters are extremely cold.' },
+    { item: 'Visa', description: 'Many nationalities can enter visa-free for short stays.' },
+    { item: 'Warm clothing', description: 'Essential for winter visits, temperatures can drop to -40°C.' },
+    { item: 'Russian phrases', description: 'Russian is widely spoken alongside Kazakh.' },
+  ],
+  dessert: {
+    id: 'kazakhstan-dessert',
+    name: 'Baursaki',
+    description: 'Traditional fried dough balls, often served with tea',
+    cookingTime: 45,
+    servings: 20,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Flour', amount: 500, unit: 'g' },
+      { name: 'Milk', amount: 250, unit: 'ml' },
+      { name: 'Eggs', amount: 2, unit: 'large' },
+      { name: 'Sugar', amount: 50, unit: 'g' },
+      { name: 'Yeast', amount: 7, unit: 'g' },
+      { name: 'Butter', amount: 50, unit: 'g' },
+      { name: 'Oil for frying', amount: 500, unit: 'ml' },
+    ],
+    steps: [
+      'Warm milk and dissolve yeast with sugar',
+      'Mix in eggs and melted butter',
+      'Add flour gradually, knead into soft dough',
+      'Let rise for 1 hour until doubled',
+      'Roll out and cut into small squares or diamonds',
+      'Deep fry in hot oil until golden brown',
+      'Drain and serve warm with honey or jam',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1626197881825-9e0feef5ad90?w=600',
+  },
   mainDish: {
     id: 'kazakhstan-main',
     name: 'Beshbarmak',
@@ -72,6 +141,60 @@ export const kazakhstan: Country = {
       question: 'What is the capital of Kazakhstan?',
       options: ['Almaty', 'Astana', 'Nur-Sultan', 'Shymkent'],
       correctAnswer: 1,
+    },
+    {
+      id: 'kazakhstan-q2',
+      question: 'Kazakhstan is the world\'s largest what?',
+      options: ['Island country', 'Landlocked country', 'Desert country', 'Mountain country'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'kazakhstan-q3',
+      question: 'What is the name of the world\'s first space launch facility located in Kazakhstan?',
+      options: ['Kennedy Space Center', 'Baikonur Cosmodrome', 'Cape Canaveral', 'Plesetsk Cosmodrome'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'kazakhstan-q4',
+      question: 'What is Kazakhstan\'s traditional national dish?',
+      options: ['Plov', 'Beshbarmak', 'Lagman', 'Manti'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'kazakhstan-q5',
+      question: 'What traditional portable dwelling is associated with Kazakh nomads?',
+      options: ['Teepee', 'Igloo', 'Yurt', 'Tent'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'kazakhstan-q6',
+      question: 'Which animal is traditionally used for hunting in Kazakhstan?',
+      options: ['Falcon', 'Golden Eagle', 'Hawk', 'Owl'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'kazakhstan-q7',
+      question: 'What are the official languages of Kazakhstan?',
+      options: ['Kazakh only', 'Russian only', 'Kazakh and Russian', 'Kazakh and English'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'kazakhstan-q8',
+      question: 'In which year did Kazakhstan gain independence?',
+      options: ['1985', '1991', '1995', '2000'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'kazakhstan-q9',
+      question: 'What fermented drink made from mare\'s milk is traditional in Kazakhstan?',
+      options: ['Kefir', 'Ayran', 'Kumis', 'Lassi'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'kazakhstan-q10',
+      question: 'What is Kazakhstan\'s currency?',
+      options: ['Tenge', 'Som', 'Ruble', 'Dram'],
+      correctAnswer: 0,
     },
   ],
   coordinates: { x: 65, y: 48 },

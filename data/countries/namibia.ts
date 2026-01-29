@@ -23,6 +23,77 @@ export const namibia: Country = {
     'Namibia was the first country to include environmental protection in its constitution',
   ],
   foodCulture: 'Namibian cuisine reflects German, South African, and indigenous influences. Game meat, seafood from the Atlantic coast, and braai (barbecue) are popular.',
+  history: [
+    {
+      year: '1884',
+      title: 'German Colony',
+      description: 'Germany colonized the region as German South West Africa.'
+    },
+    {
+      year: '1920',
+      title: 'South African Mandate',
+      description: 'After WWI, South Africa administered the territory.'
+    },
+    {
+      year: '1990',
+      title: 'Independence',
+      description: 'Namibia gained independence, one of Africa\'s youngest nations.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Conservation Leadership',
+      year: '1990s',
+      description: 'Community-based conservation became a model for Africa.',
+    },
+    {
+      name: 'Desert Adaptation',
+      year: 'Traditional',
+      description: 'Indigenous San people developed survival techniques in harsh desert.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Sossusvlei', description: 'Iconic red sand dunes, some of the highest in the world.' },
+    { name: 'Etosha National Park', description: 'Premier wildlife park with abundant game viewing.' },
+    { name: 'Fish River Canyon', description: 'Second-largest canyon in the world with dramatic scenery.' },
+    { name: 'Skeleton Coast', description: 'Desolate coastline with shipwrecks and seal colonies.' },
+    { name: 'Swakopmund', description: 'German colonial seaside town with adventure activities.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'May-October for dry season and wildlife viewing.' },
+    { item: 'Visa', description: 'Visa-free for many nationalities for 90 days.' },
+    { item: 'Self-drive', description: 'Car rental recommended; roads are generally good.' },
+    { item: 'Sun protection', description: 'Desert sun is intense; high SPF essential.' },
+  ],
+  dessert: {
+    id: 'namibia-dessert',
+    name: 'Melktert',
+    description: 'Milk tart with cinnamon, a South African-Namibian favorite',
+    cookingTime: 60,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Shortcrust pastry', amount: 400, unit: 'g' },
+      { name: 'Milk', amount: 1000, unit: 'ml' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Flour', amount: 60, unit: 'g' },
+      { name: 'Eggs', amount: 3, unit: 'large' },
+      { name: 'Butter', amount: 50, unit: 'g' },
+      { name: 'Vanilla extract', amount: 2, unit: 'tsp' },
+      { name: 'Cinnamon', amount: 2, unit: 'tsp' },
+    ],
+    steps: [
+      'Line tart pan with pastry, prick base',
+      'Blind bake at 350°F for 15 minutes',
+      'Heat milk with butter to simmer',
+      'Mix flour, sugar, and eggs',
+      'Temper egg mixture with hot milk',
+      'Cook until thick custard forms',
+      'Add vanilla, pour into baked shell',
+      'Cool, then dust with cinnamon',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600',
+  },
   mainDish: {
     id: 'namibia-main',
     name: 'Potjiekos',
@@ -93,6 +164,48 @@ export const namibia: Country = {
       id: 'namibia-q3',
       question: 'What color are Namibia\'s famous dunes?',
       options: ['White', 'Yellow', 'Red', 'Black'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'namibia-q4',
+      question: 'How old is the Namib Desert?',
+      options: ['1 million years', '10 million years', '55 million years', '100 million years'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'namibia-q5',
+      question: 'In which year did Namibia gain independence?',
+      options: ['1980', '1985', '1990', '1995'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'namibia-q6',
+      question: 'What is Namibia\'s official language?',
+      options: ['Afrikaans', 'German', 'English', 'Portuguese'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'namibia-q7',
+      question: 'What is Sossusvlei famous for?',
+      options: ['Lakes', 'High red sand dunes', 'Forests', 'Glaciers'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'namibia-q8',
+      question: 'Which desert coastline is known for shipwrecks?',
+      options: ['Gold Coast', 'Skeleton Coast', 'Ivory Coast', 'Diamond Coast'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'namibia-q9',
+      question: 'What is Namibia\'s currency?',
+      options: ['Rand', 'Dollar (Namibian)', 'Shilling', 'Pound'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'namibia-q10',
+      question: 'What was Namibia the first country to include in its constitution?',
+      options: ['Free healthcare', 'Free education', 'Environmental protection', 'Universal suffrage'],
       correctAnswer: 2,
     },
   ],

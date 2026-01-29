@@ -170,6 +170,48 @@ export const iran: Country = {
       options: ['Petra', 'Persepolis', 'Machu Picchu', 'Angkor Wat'],
       correctAnswer: 1,
     },
+    {
+      id: 'iran-q4',
+      question: 'What is Iran\'s capital city?',
+      options: ['Isfahan', 'Shiraz', 'Tehran', 'Mashhad'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'iran-q5',
+      question: 'How many UNESCO World Heritage Sites does Iran have?',
+      options: ['10', '15', '26', '35'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'iran-q6',
+      question: 'Which Persian mathematician is known as the father of algebra?',
+      options: ['Avicenna', 'Al-Khwarizmi', 'Omar Khayyam', 'Rumi'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'iran-q7',
+      question: 'What is the official language of Iran?',
+      options: ['Arabic', 'Turkish', 'Persian (Farsi)', 'Kurdish'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'iran-q8',
+      question: 'Which mosque in Iran is famous for its colorful stained glass windows?',
+      options: ['Blue Mosque', 'Nasir al-Mulk Mosque', 'Shah Mosque', 'Imam Mosque'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'iran-q9',
+      question: 'What ancient innovation did Persians create in the 7th century?',
+      options: ['Paper', 'Windmill', 'Compass', 'Gunpowder'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'iran-q10',
+      question: 'What is Iran\'s currency?',
+      options: ['Dinar', 'Dirham', 'Rial', 'Toman'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 62, y: 37 },
 };

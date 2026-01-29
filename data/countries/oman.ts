@@ -22,6 +22,83 @@ export const oman: Country = {
     'Rich in traditional dhow boat building',
   ],
   foodCulture: 'Omani cuisine blends Arab, Indian, and East African influences with rice, meat, and aromatic spices.',
+  history: [
+    {
+      year: '751',
+      title: 'Ibadi Imamate',
+      description: 'Oman became one of the oldest independent states in the Arab world.'
+    },
+    {
+      year: '1650-1850',
+      title: 'Maritime Empire',
+      description: 'Oman controlled extensive trade routes and territories including Zanzibar.'
+    },
+    {
+      year: '1970',
+      title: 'Modern Oman',
+      description: 'Sultan Qaboos began modernization while preserving culture.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Frankincense Trade',
+      year: 'Ancient',
+      description: 'Controlled frankincense trade routes for thousands of years.',
+    },
+    {
+      name: 'Dhow Building',
+      year: 'Traditional',
+      description: 'Traditional wooden boat building techniques passed down generations.',
+    },
+    {
+      name: 'Falaj Irrigation',
+      year: 'Ancient',
+      description: 'Traditional irrigation system, UNESCO World Heritage.',
+    },
+  ],
+  mustVisit: [
+    { name: 'Sultan Qaboos Grand Mosque', description: 'Stunning mosque with world\'s second-largest carpet.' },
+    { name: 'Wahiba Sands', description: 'Dramatic desert with red and white sand dunes.' },
+    { name: 'Nizwa Fort', description: 'Historic 17th-century fort with traditional souq.' },
+    { name: 'Wadi Shab', description: 'Beautiful canyon with pools and waterfalls.' },
+    { name: 'Muscat Old Town', description: 'Traditional architecture and historic forts.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'October-March for pleasant weather; summer is extremely hot.' },
+    { item: 'Visa', description: 'E-visa available for most nationalities.' },
+    { item: 'Modest clothing', description: 'Dress conservatively, especially away from tourist areas.' },
+    { item: 'Rental car', description: 'Best way to explore; roads are excellent.' },
+  ],
+  dessert: {
+    id: 'oman-dessert',
+    name: 'Halwa',
+    description: 'Traditional Omani sweet made with rosewater and saffron',
+    cookingTime: 120,
+    servings: 16,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Cornstarch', amount: 200, unit: 'g' },
+      { name: 'Sugar', amount: 400, unit: 'g' },
+      { name: 'Ghee', amount: 200, unit: 'g' },
+      { name: 'Rose water', amount: 3, unit: 'tbsp' },
+      { name: 'Saffron', amount: 1, unit: 'tsp' },
+      { name: 'Cardamom', amount: 1, unit: 'tsp' },
+      { name: 'Water', amount: 1000, unit: 'ml' },
+      { name: 'Nuts (almonds, pistachios)', amount: 100, unit: 'g' },
+    ],
+    steps: [
+      'Mix cornstarch with cold water',
+      'Boil remaining water with sugar',
+      'Add cornstarch mixture, stir constantly',
+      'Add ghee gradually while stirring',
+      'Cook on low heat for 1 hour, stirring frequently',
+      'Add saffron, rose water, and cardamom',
+      'Continue cooking until mixture leaves sides of pan',
+      'Pour into greased dish, top with nuts',
+      'Cool and cut into squares',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1571070703346-9307e0d50b0c?w=600',
+  },
   mainDish: {
     id: 'oman-main',
     name: 'Shuwa',
@@ -70,6 +147,60 @@ export const oman: Country = {
       id: 'oman-q1',
       question: 'What is the capital of Oman?',
       options: ['Dubai', 'Muscat', 'Doha', 'Abu Dhabi'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'oman-q2',
+      question: 'What aromatic resin has Oman traded since ancient times?',
+      options: ['Myrrh', 'Frankincense', 'Amber', 'Copal'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'oman-q3',
+      question: 'What is Oman\'s traditional slow-roasted lamb dish?',
+      options: ['Kebab', 'Shuwa', 'Shawarma', 'Mansaf'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'oman-q4',
+      question: 'What is Oman\'s currency?',
+      options: ['Dirham', 'Dinar', 'Rial', 'Riyal'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'oman-q5',
+      question: 'What type of traditional boat is Oman known for?',
+      options: ['Junk', 'Dhow', 'Sampan', 'Catamaran'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'oman-q6',
+      question: 'What is the official language of Oman?',
+      options: ['English', 'Urdu', 'Arabic', 'Hindi'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'oman-q7',
+      question: 'What African island did Oman once control?',
+      options: ['Madagascar', 'Zanzibar', 'Mauritius', 'Seychelles'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'oman-q8',
+      question: 'What is the traditional irrigation system in Oman called?',
+      options: ['Qanat', 'Falaj', 'Acequia', 'Karez'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'oman-q9',
+      question: 'What desert region is in Oman?',
+      options: ['Rub al Khali', 'Sahara', 'Wahiba Sands', 'Gobi'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'oman-q10',
+      question: 'What grand mosque in Muscat has the world\'s second-largest carpet?',
+      options: ['Blue Mosque', 'Sultan Qaboos Grand Mosque', 'Sheikh Zayed Mosque', 'Hassan II Mosque'],
       correctAnswer: 1,
     },
   ],

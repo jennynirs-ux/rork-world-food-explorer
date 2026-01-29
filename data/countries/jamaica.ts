@@ -166,6 +166,48 @@ export const jamaica: Country = {
       options: ['Asafa Powell', 'Yohan Blake', 'Usain Bolt', 'Warren Weir'],
       correctAnswer: 2,
     },
+    {
+      id: 'jamaica-q4',
+      question: 'What is the capital of Jamaica?',
+      options: ['Kingston', 'Montego Bay', 'Negril', 'Ocho Rios'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'jamaica-q5',
+      question: 'What music genre originated in Jamaica?',
+      options: ['Jazz', 'Blues', 'Reggae', 'Salsa'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'jamaica-q6',
+      question: 'What is one of the world\'s most expensive coffees grown in Jamaica?',
+      options: ['Kona Coffee', 'Blue Mountain Coffee', 'Colombian Coffee', 'Ethiopian Coffee'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'jamaica-q7',
+      question: 'What year did Jamaica gain independence?',
+      options: ['1945', '1962', '1975', '1980'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'jamaica-q8',
+      question: 'What is Jamaica\'s currency?',
+      options: ['US Dollar', 'Jamaican Dollar', 'Caribbean Dollar', 'British Pound'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'jamaica-q9',
+      question: 'Which famous waterfall can you climb in Jamaica?',
+      options: ['Victoria Falls', 'Niagara Falls', 'Dunn\'s River Falls', 'Angel Falls'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'jamaica-q10',
+      question: 'Which beach is famous for its seven miles of white sand?',
+      options: ['Copacabana Beach', 'Seven Mile Beach', 'Waikiki Beach', 'Bondi Beach'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 22, y: 27 },
 };
