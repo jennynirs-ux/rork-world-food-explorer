@@ -6,9 +6,9 @@ export const saintVincentAndTheGrenadines: Country = {
   code: 'VC',
   continent: 'North America',
   flag: '🇻🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=800',
+  landscapeImage: 'https://source.unsplash.com/featured/?saint%20vincent,grenadines,caribbean,beach,lagoon&w=800',
   description:
-    'Saint Vincent and the Grenadines is a Caribbean nation of islands famous for turquoise bays, sailing and yacht charters, coral reefs, and the dramatic volcanic landscape of La Soufriere.',
+    'Saint Vincent and the Grenadines is a Caribbean island nation famous for turquoise bays, sailing and yacht charters, coral reefs, and the dramatic volcanic landscape of La Soufriere.',
   quickFacts: [
     { label: 'Capital', value: 'Kingstown' },
     { label: 'Population', value: '111,000' },
@@ -70,16 +70,16 @@ export const saintVincentAndTheGrenadines: Country = {
 
   innovations: [
     {
-      name: 'Caribbean Yacht Charter Hub',
-      year: 'Late 1900s',
-      description:
-        'The Grenadines developed into a globally recognized sailing and yacht charter destination, with marine services and anchorages supporting island-hopping tourism.',
-    },
-    {
-      name: 'Marine Conservation Focus',
+      name: 'Marine Protection and Sustainable Tourism',
       year: 'Modern',
       description:
         'Protected marine areas, especially around the Tobago Cays, help conserve reefs and turtle habitats while supporting sustainable tourism.',
+    },
+    {
+      name: 'Yacht Charter and Island-Hopping Infrastructure',
+      year: 'Late 1900s-Present',
+      description:
+        'The Grenadines developed into a globally recognized sailing destination, with charter services and anchorages supporting island-to-island travel.',
     },
   ],
 
@@ -107,7 +107,7 @@ export const saintVincentAndTheGrenadines: Country = {
     {
       name: 'Kingstown and Botanical Gardens',
       description:
-        'Historic capital with markets and one of the oldest botanical gardens in the Western Hemisphere.',
+        'Historic capital with markets and a renowned botanical garden experience.',
     },
   ],
 
@@ -130,7 +130,7 @@ export const saintVincentAndTheGrenadines: Country = {
     {
       item: 'Reef-safe sun protection',
       description:
-        'Use sunscreen and protective clothing to help protect coral reefs.',
+        'Use reef-safe sunscreen and protective clothing to help protect coral reefs.',
     },
     {
       item: 'Volcano awareness',
@@ -159,7 +159,7 @@ export const saintVincentAndTheGrenadines: Country = {
       { name: 'Hot pepper sauce (to serve)', amount: 2, unit: 'tbsp' },
     ],
     steps: [
-      'Roast the breadfruit: place whole breadfruit on a tray and bake at 200C for 50-60 minutes, turning once, until the skin is dark and the inside is soft.',
+      'Roast the breadfruit: bake at 200C for 50-60 minutes (turn once) until the skin is dark and the inside is soft.',
       'Cool slightly, then peel and cut into thick slices.',
       'Pat fish dry. Rub with lime juice, garlic, salt, and pepper. Let sit 10 minutes.',
       'Lightly dredge fish in flour, shaking off excess.',
@@ -170,14 +170,14 @@ export const saintVincentAndTheGrenadines: Country = {
       'Add pepper sauce to taste.',
       'Optional: serve with a simple salad or steamed greens.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600',
+    imageUrl: 'https://source.unsplash.com/featured/?breadfruit,caribbean,fish,food&w=600',
   },
 
   dessert: {
     id: 'saint-vincent-dessert',
     name: 'Coconut Bake',
     description:
-      'A lightly sweet coconut bread often served as a snack or dessert, sometimes enjoyed with tea or fresh fruit.',
+      'A lightly sweet coconut bread that can be served as a snack or dessert, often enjoyed with tea or fresh fruit.',
     cookingTime: 45,
     servings: 8,
     dietType: 'vegetarian',
@@ -198,9 +198,9 @@ export const saintVincentAndTheGrenadines: Country = {
       'Spread into the tin and smooth the top.',
       'Bake 30-35 minutes until golden and a toothpick comes out clean.',
       'Cool 10-15 minutes before slicing.',
-      'Serve warm or room temperature.',
+      'Serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600',
+    imageUrl: 'https://source.unsplash.com/featured/?coconut,bread,dessert,baking&w=600',
   },
 
   drinks: {
@@ -271,14 +271,14 @@ export const saintVincentAndTheGrenadines: Country = {
     },
     {
       id: 'saint-vincent-q8',
-      question: 'Which dish is strongly associated with Saint Vincent in this file?',
-      options: ['Roasted breadfruit and fried jackfish', 'Sushi rolls', 'Fondue', 'Pierogi'],
+      question: 'Which staple food is especially common in traditional Vincentian meals?',
+      options: ['Breadfruit', 'Rye bread', 'Couscous', 'Buckwheat'],
       correctAnswer: 0,
     },
     {
       id: 'saint-vincent-q9',
-      question: 'Which music styles are common in Saint Vincent and the Grenadines?',
-      options: ['Calypso and Soca', 'Flamenco and Fado', 'Polka and Waltz', 'K-Pop and J-Pop'],
+      question: 'Which festival name is commonly associated with Saint Vincent and the Grenadines carnival celebrations?',
+      options: ['Vincy Mas', 'Junkanoo', 'Carnaval de Oruro', 'Songkran'],
       correctAnswer: 0,
     },
     {
