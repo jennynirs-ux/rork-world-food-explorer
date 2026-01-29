@@ -7,12 +7,13 @@ export const tonga: Country = {
   continent: 'Oceania',
   flag: '🇹🇴',
   landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
-  description: 'Tonga is a Polynesian kingdom in the South Pacific, known for whale watching, pristine beaches, and strong cultural traditions.',
+  description:
+    'Tonga is a Polynesian kingdom in the South Pacific, known for whale watching, pristine beaches, and strong cultural traditions.',
   quickFacts: [
-    { label: 'Capital', value: 'Nuku\'alofa' },
+    { label: 'Capital', value: "Nuku'alofa" },
     { label: 'Population', value: '106,000' },
     { label: 'Official Languages', value: 'Tongan, English' },
-    { label: 'Currency', value: 'Tongan Paʻanga' },
+    { label: 'Currency', value: "Tongan Paʻanga" },
     { label: 'Area', value: '747 km²' },
   ],
   facts: [
@@ -21,7 +22,8 @@ export const tonga: Country = {
     'World-class humpback whale watching',
     'Consists of 169 islands',
   ],
-  foodCulture: 'Tongan cuisine features root vegetables, coconut, seafood, and food cooked in earth ovens.',
+  foodCulture:
+    'Tongan cuisine features root vegetables, coconut, seafood, and food cooked in earth ovens.',
   mainDish: {
     id: 'tonga-main',
     name: 'Lu Pulu',
@@ -67,9 +69,63 @@ export const tonga: Country = {
   quiz: [
     {
       id: 'tonga-q1',
-      question: 'What is unique about Tonga\'s history?',
+      question: "What is unique about Tonga's history?",
       options: ['First to gain independence', 'Never colonized', 'Largest island', 'No monarchy'],
       correctAnswer: 1,
+    },
+    {
+      id: 'tonga-q2',
+      question: 'What is the capital of Tonga?',
+      options: ["Nuku'alofa", 'Apia', 'Suva', 'Port Vila'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'tonga-q3',
+      question: 'Which region best describes Tonga?',
+      options: ['Melanesia', 'Micronesia', 'Polynesia', 'Caribbean'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'tonga-q4',
+      question: 'How many islands does Tonga consist of (approximately)?',
+      options: ['12', '45', '169', '900'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'tonga-q5',
+      question: 'Which large marine animal is Tonga famous for watching?',
+      options: ['Great white sharks', 'Humpback whales', 'Dolphins only', 'Manatees'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'tonga-q6',
+      question: 'What is Tonga’s form of government best known for?',
+      options: ['Military rule', 'Polynesian monarchy', 'No government', 'City-state federation'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'tonga-q7',
+      question: 'What are Tonga’s official languages?',
+      options: ['French and English', 'Tongan and English', 'Spanish and Portuguese', 'Tongan only'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'tonga-q8',
+      question: 'What is the currency of Tonga?',
+      options: ['Tongan Paʻanga', 'Tongan Dollar', 'Pacific Franc', 'Tala'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'tonga-q9',
+      question: 'What is Lu Pulu traditionally made with?',
+      options: ['Chicken and rice', 'Corned beef, taro leaves, coconut cream', 'Fish and noodles', 'Beef and potatoes'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'tonga-q10',
+      question: 'Which traditional drink is widely known across Tonga and the Pacific?',
+      options: ['Kava', 'Sake', 'Mate', 'Kvass'],
+      correctAnswer: 0,
     },
   ],
   coordinates: { x: 94, y: 10 },
