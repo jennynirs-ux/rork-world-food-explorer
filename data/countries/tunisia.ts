@@ -7,7 +7,8 @@ export const tunisia: Country = {
   continent: 'Africa',
   flag: '🇹🇳',
   landscapeImage: 'https://images.unsplash.com/photo-1583328002748-3c4c3c803fdd?w=800',
-  description: 'Tunisia is a North African country combining Arab and Berber cultures with Mediterranean influences. Known for ancient ruins, beautiful beaches, and diverse landscapes from the Sahara to the coast.',
+  description:
+    'Tunisia is a North African country combining Arab and Berber cultures with Mediterranean influences. Known for ancient ruins, beautiful beaches, and diverse landscapes from the Sahara to the coast.',
   quickFacts: [
     { label: 'Capital', value: 'Tunis' },
     { label: 'Population', value: '12 million' },
@@ -16,13 +17,14 @@ export const tunisia: Country = {
     { label: 'Area', value: '163,610 km²' },
   ],
   facts: [
-    'Tunisia was the site of ancient Carthage, once Rome\'s greatest rival',
-    'The Star Wars films were partially filmed in Tunisia\'s desert',
+    "Tunisia was the site of ancient Carthage, once Rome's greatest rival",
+    "The Star Wars films were partially filmed in Tunisia's desert",
     'Tunisia has seven UNESCO World Heritage Sites',
-    'It\'s the smallest country in North Africa',
+    "It's the smallest country in North Africa",
     'Tunisia was the birthplace of the Arab Spring in 2010',
   ],
-  foodCulture: 'Tunisian cuisine blends Berber, Arab, Turkish, and Mediterranean influences. Meals often feature harissa (spicy chili paste), olive oil, and fresh vegetables. Couscous is a staple served with meat and vegetable stews.',
+  foodCulture:
+    'Tunisian cuisine blends Berber, Arab, Turkish, and Mediterranean influences. Meals often feature harissa (spicy chili paste), olive oil, and fresh vegetables. Couscous is a staple served with meat and vegetable stews.',
   mainDish: {
     id: 'tunisia-main',
     name: 'Couscous Tunisien',
@@ -95,6 +97,48 @@ export const tunisia: Country = {
       question: 'What is harissa?',
       options: ['A dance', 'A spicy chili paste', 'A musical instrument', 'A type of bread'],
       correctAnswer: 1,
+    },
+    {
+      id: 'tunisia-q4',
+      question: 'Which famous film series used Tunisia’s desert locations?',
+      options: ['Star Wars', 'Harry Potter', 'The Lord of the Rings', 'Pirates of the Caribbean'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'tunisia-q5',
+      question: 'Ancient Carthage was a major rival of which empire?',
+      options: ['Roman Empire', 'Mongol Empire', 'British Empire', 'Ottoman Empire'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'tunisia-q6',
+      question: 'Which staple dish is especially important in Tunisia?',
+      options: ['Couscous', 'Sushi', 'Pierogi', 'Tacos'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'tunisia-q7',
+      question: 'Tunisia is located on which sea?',
+      options: ['Mediterranean Sea', 'Baltic Sea', 'Black Sea', 'Red Sea'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'tunisia-q8',
+      question: 'Tunisia is the smallest country in which region?',
+      options: ['North Africa', 'West Africa', 'Southern Africa', 'East Africa'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'tunisia-q9',
+      question: 'Which event began in Tunisia in 2010?',
+      options: ['Arab Spring', 'Industrial Revolution', 'French Revolution', 'Space Race'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'tunisia-q10',
+      question: 'What is the capital city name of Tunisia (in the code above)?',
+      options: ['Tunis', 'Tripoli', 'Algiers', 'Rabat'],
+      correctAnswer: 0,
     },
   ],
   coordinates: { x: 49, y: 36 },
