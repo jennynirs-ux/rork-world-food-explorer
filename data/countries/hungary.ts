@@ -100,6 +100,62 @@ export const hungary: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=600',
   },
+  dessert: {
+    id: 'hungary-dessert',
+    name: 'Dobos Torta',
+    description: 'Layered sponge cake with chocolate buttercream and caramel topping',
+    cookingTime: 120,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Eggs', amount: 6, unit: 'large' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Flour', amount: 150, unit: 'g' },
+      { name: 'Butter for buttercream', amount: 300, unit: 'g' },
+      { name: 'Dark chocolate', amount: 200, unit: 'g' },
+      { name: 'For caramel: sugar', amount: 150, unit: 'g' },
+    ],
+    steps: [
+      'Beat eggs and sugar until fluffy',
+      'Fold in flour gently',
+      'Bake 6 thin layers at 180°C',
+      'Make chocolate buttercream',
+      'Layer cake with buttercream',
+      'Make caramel and pour over top layer',
+      'Score caramel into slices before it hardens',
+      'Refrigerate before serving',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+  },
+  innovations: [
+    {
+      name: 'Rubik\'s Cube',
+      year: '1974',
+      description: 'Ernő Rubik invented the world\'s best-selling puzzle toy, with over 450 million sold worldwide.'
+    },
+    {
+      name: 'Ballpoint Pen',
+      year: '1938',
+      description: 'László Bíró invented the modern ballpoint pen, revolutionizing writing instruments.'
+    },
+    {
+      name: 'Holography',
+      year: '1947',
+      description: 'Dennis Gabor invented holography, earning him the Nobel Prize in Physics.'
+    },
+    {
+      name: 'Vitamin C Discovery',
+      year: '1937',
+      description: 'Albert Szent-Györgyi discovered vitamin C, winning the Nobel Prize in Medicine.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Buda Castle', description: 'Historic castle complex with museums and panoramic city views.' },
+    { name: 'Széchenyi Thermal Bath', description: 'Largest medicinal bath in Europe with outdoor thermal pools.' },
+    { name: 'Parliament Building', description: 'Neo-Gothic masterpiece on the Danube, third largest parliament building.' },
+    { name: 'Fisherman\'s Bastion', description: 'Fairy-tale lookout with stunning views of Budapest and the Danube.' },
+    { name: 'Tokaj Wine Region', description: 'UNESCO World Heritage wine region producing sweet Tokaji wines.' }
+  ],
   drinks: {
     alcoholic: 'Tokaji wine (sweet dessert wine), Pálinka (fruit brandy), Hungarian beer',
     nonAlcoholic: 'Mineral water, Fruit syrups (szörp), Coffee',
@@ -137,6 +193,48 @@ export const hungary: Country = {
       question: 'What famous puzzle was invented in Hungary?',
       options: ['Sudoku', 'Rubik\'s Cube', 'Crossword', 'Jigsaw puzzle'],
       correctAnswer: 1,
+    },
+    {
+      id: 'hungary-q4',
+      question: 'What river divides Budapest?',
+      options: ['Rhine', 'Danube', 'Thames', 'Seine'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'hungary-q5',
+      question: 'What is Hungary\'s national dish?',
+      options: ['Schnitzel', 'Goulash', 'Pierogi', 'Paella'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'hungary-q6',
+      question: 'Who invented the ballpoint pen?',
+      options: ['László Bíró', 'Ernő Rubik', 'Albert Einstein', 'Thomas Edison'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'hungary-q7',
+      question: 'What year did the Hungarian Revolution occur?',
+      options: ['1948', '1956', '1968', '1989'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'hungary-q8',
+      question: 'What is Hungary famous for having the most of?',
+      options: ['Mountains', 'Thermal springs', 'Islands', 'Deserts'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'hungary-q9',
+      question: 'What is Dobos Torta?',
+      options: ['A soup', 'Layered cake with caramel', 'Meat dish', 'Bread'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'hungary-q10',
+      question: 'What language family is Hungarian part of?',
+      options: ['Slavic', 'Germanic', 'Uralic', 'Romance'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 52, y: 47 },

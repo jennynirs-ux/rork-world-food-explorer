@@ -22,6 +22,52 @@ export const honduras: Country = {
     'Name means "depths" referring to deep waters off the coast',
   ],
   foodCulture: 'Honduran cuisine features corn-based dishes, beans, plantains, and fresh seafood along the coast.',
+  history: [
+    {
+      year: '1502',
+      title: 'Columbus Arrival',
+      description: 'Christopher Columbus landed on Honduras during his fourth voyage.'
+    },
+    {
+      year: '1821',
+      title: 'Independence from Spain',
+      description: 'Honduras gained independence, briefly joining the Mexican Empire then the Federal Republic of Central America.'
+    },
+    {
+      year: '1838',
+      title: 'Full Independence',
+      description: 'Honduras became a fully independent republic.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Copán Mayan Site',
+      year: 'Ancient',
+      description: 'Mayan city with hieroglyphic stairway containing longest Mayan text, advancing understanding of Mayan civilization.'
+    },
+    {
+      name: 'Bay Islands Diving',
+      year: '1960s',
+      description: 'Pioneered Caribbean diving tourism with the Mesoamerican Barrier Reef.'
+    },
+    {
+      name: 'Coffee Excellence',
+      year: '1800s',
+      description: 'Developed high-altitude coffee cultivation producing specialty-grade beans.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Copán Ruins', description: 'UNESCO World Heritage Site with impressive Mayan ruins and hieroglyphic stairway.' },
+    { name: 'Roatán', description: 'Bay Island with world-class diving, white sand beaches, and coral reefs.' },
+    { name: 'La Tigra National Park', description: 'Cloud forest near Tegucigalpa with hiking trails and wildlife.' },
+    { name: 'Utila', description: 'Budget-friendly diving destination and whale shark spotting.' },
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Available on arrival for most nationalities.' },
+    { item: 'Best time to visit', description: 'November-April for dry season.' },
+    { item: 'Safety', description: 'Check current advisories. Tourist areas generally safe.' },
+    { item: 'Spanish language', description: 'Helpful, especially outside Bay Islands.' },
+  ],
   mainDish: {
     id: 'honduras-main',
     name: 'Baleadas',
@@ -46,6 +92,38 @@ export const honduras: Country = {
       'Fold and serve immediately',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1615937722923-67beab1f0a0b?w=600',
+  },
+  dessert: {
+    id: 'honduras-dessert',
+    name: 'Tres Leches Cake',
+    description: 'Sponge cake soaked in three types of milk',
+    cookingTime: 90,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Eggs', amount: 6, unit: 'large' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Flour', amount: 200, unit: 'g' },
+      { name: 'Baking powder', amount: 1, unit: 'tsp' },
+      { name: 'Evaporated milk', amount: 300, unit: 'ml' },
+      { name: 'Condensed milk', amount: 300, unit: 'ml' },
+      { name: 'Heavy cream', amount: 300, unit: 'ml' },
+      { name: 'Vanilla extract', amount: 2, unit: 'tsp' },
+      { name: 'Whipped cream for topping', amount: 400, unit: 'ml' },
+    ],
+    steps: [
+      'Beat eggs and sugar until fluffy',
+      'Fold in flour and baking powder',
+      'Pour into greased pan',
+      'Bake at 180°C for 30 minutes',
+      'Cool cake completely',
+      'Mix three milks with vanilla',
+      'Poke holes in cake with fork',
+      'Pour milk mixture slowly over cake',
+      'Refrigerate overnight',
+      'Top with whipped cream before serving',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
   },
   drinks: {
     alcoholic: 'Port Royal beer, Aguardiente',
@@ -73,6 +151,60 @@ export const honduras: Country = {
       question: 'What is the capital of Honduras?',
       options: ['Tegucigalpa', 'San Pedro Sula', 'Managua', 'San Salvador'],
       correctAnswer: 0,
+    },
+    {
+      id: 'honduras-q2',
+      question: 'What ancient civilization site is in Honduras?',
+      options: ['Tikal', 'Copán', 'Chichen Itza', 'Machu Picchu'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'honduras-q3',
+      question: 'What are the Bay Islands known for?',
+      options: ['Skiing', 'Diving', 'Desert tours', 'Mountain climbing'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'honduras-q4',
+      question: 'What is baleadas?',
+      options: ['A dance', 'Filled tortillas', 'A drink', 'A festival'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'honduras-q5',
+      question: 'What does "Honduras" mean?',
+      options: ['Mountains', 'Depths', 'Rivers', 'Forests'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'honduras-q6',
+      question: 'What is Honduras a major exporter of?',
+      options: ['Wine', 'Coffee', 'Chocolate', 'Tea'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'honduras-q7',
+      question: 'Which island is part of Honduras?',
+      options: ['Jamaica', 'Roatán', 'Cuba', 'Aruba'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'honduras-q8',
+      question: 'What is the official language?',
+      options: ['English', 'Portuguese', 'Spanish', 'French'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'honduras-q9',
+      question: 'When did Honduras gain independence?',
+      options: ['1810', '1821', '1830', '1850'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'honduras-q10',
+      question: 'What reef system is near Honduras?',
+      options: ['Great Barrier Reef', 'Mesoamerican Barrier Reef', 'Red Sea Reef', 'Belize Barrier Reef'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 18, y: 26 },

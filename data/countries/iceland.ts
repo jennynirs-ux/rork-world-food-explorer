@@ -86,6 +86,67 @@ export const iceland: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600',
   },
+  dessert: {
+    id: 'iceland-dessert',
+    name: 'Kleinur',
+    description: 'Traditional Icelandic twisted donuts flavored with cardamom',
+    cookingTime: 45,
+    servings: 20,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Flour', amount: 500, unit: 'g' },
+      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Eggs', amount: 2, unit: 'large' },
+      { name: 'Butter melted', amount: 50, unit: 'g' },
+      { name: 'Milk', amount: 200, unit: 'ml' },
+      { name: 'Baking powder', amount: 2, unit: 'tsp' },
+      { name: 'Cardamom', amount: 1, unit: 'tsp' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+      { name: 'Oil for frying', amount: 500, unit: 'ml' },
+    ],
+    steps: [
+      'Mix flour, sugar, baking powder, and cardamom',
+      'Add eggs, melted butter, milk, and vanilla',
+      'Knead into smooth dough',
+      'Roll out dough to 1 cm thickness',
+      'Cut into diamond shapes',
+      'Make a slit in center and twist one end through',
+      'Heat oil to 180°C',
+      'Fry until golden brown on both sides',
+      'Drain on paper towels',
+      'Dust with powdered sugar if desired',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=600',
+  },
+  innovations: [
+    {
+      name: 'Geothermal Energy Leadership',
+      year: '1970s-present',
+      description: 'Pioneered large-scale geothermal heating and electricity generation, now powering 85% of homes.'
+    },
+    {
+      name: 'Althing Parliament',
+      year: '930 AD',
+      description: 'Established one of the world\'s oldest continuously operating parliaments.'
+    },
+    {
+      name: 'Genetic Database',
+      year: '1996',
+      description: 'Created comprehensive genetic database enabling groundbreaking research in human genetics.'
+    },
+    {
+      name: 'Renewable Energy Innovation',
+      year: '2000s',
+      description: 'Achieved nearly 100% renewable energy for electricity and heating, a model for the world.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Blue Lagoon', description: 'Iconic geothermal spa with milky-blue waters rich in minerals.' },
+    { name: 'Golden Circle', description: 'Popular route featuring Þinvellir, Geysir, and Gullfoss waterfall.' },
+    { name: 'Jökulsárlón Glacier Lagoon', description: 'Stunning lagoon with floating icebergs from Vatnajökull glacier.' },
+    { name: 'Reynisfjara Black Sand Beach', description: 'Dramatic beach with basalt columns and powerful waves.' },
+    { name: 'Skaftafell National Park', description: 'Part of Vatnajökull National Park with glaciers and hiking trails.' }
+  ],
   drinks: {
     alcoholic: 'Brennivín (schnapps), Icelandic beer, Local craft spirits',
     nonAlcoholic: 'Glacier water, Coffee, Malt-based soft drink (Malt og Appelsín)',
@@ -122,6 +183,48 @@ export const iceland: Country = {
       id: 'iceland-q3',
       question: 'When did Iceland gain independence from Denmark?',
       options: ['1904', '1918', '1944', '1960'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'iceland-q4',
+      question: 'What is unique about Iceland?',
+      options: ['Has forests', 'No mosquitoes', 'Has snakes', 'Tropical climate'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'iceland-q5',
+      question: 'When was beer legalized in Iceland?',
+      options: ['1950', '1970', '1989', '2000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'iceland-q6',
+      question: 'What is plokkfiskur?',
+      options: ['A fish stew', 'A dance', 'A volcano', 'A bird'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'iceland-q7',
+      question: 'What is the Althing?',
+      options: ['A volcano', 'Ancient parliament', 'A glacier', 'A waterfall'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'iceland-q8',
+      question: 'What are kleinur?',
+      options: ['Elves', 'Twisted donuts', 'Sheep', 'Volcanoes'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'iceland-q9',
+      question: 'What does Iceland have no standing what?',
+      options: ['Government', 'Army', 'Police', 'Schools'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'iceland-q10',
+      question: 'How many Yule Lads does Iceland have?',
+      options: ['1', '3', '13', '25'],
       correctAnswer: 2,
     },
   ],

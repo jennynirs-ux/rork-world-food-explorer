@@ -22,6 +22,36 @@ export const gambia: Country = {
     'Popular destination for birdwatching with over 500 species',
   ],
   foodCulture: 'Gambian cuisine features rice, fish, peanuts, and vegetables with West African spices.',
+  history: [
+    {
+      year: '1783',
+      title: 'British Colony',
+      description: 'The Gambia became a British colony, centered around the river trade route.'
+    },
+    {
+      year: '1965',
+      title: 'Independence',
+      description: 'The Gambia gained independence from Britain, becoming a constitutional monarchy.'
+    },
+    {
+      year: '1970',
+      title: 'Republic',
+      description: 'The Gambia became a republic within the Commonwealth.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Kachikally Crocodile Pool', description: 'Sacred pool where visitors can touch crocodiles believed to bring fertility.' },
+    { name: 'Abuko Nature Reserve', description: 'Small but diverse reserve with monkeys, birds, and crocodiles.' },
+    { name: 'James Island', description: 'UNESCO World Heritage Site, former slave trading post with ruins of fort.' },
+    { name: 'Banjul Market', description: 'Vibrant market showcasing local crafts, fabrics, and fresh produce.' },
+    { name: 'River Gambia National Park', description: 'Boat safaris to see hippos, chimpanzees, and diverse birdlife.' }
+  ],
+  travelEssentials: [
+    { item: 'Best time to visit', description: 'November-May for dry season and best birdwatching.' },
+    { item: 'Visa', description: 'Available on arrival for most nationalities or apply in advance.' },
+    { item: 'Yellow fever vaccination', description: 'Recommended, proof may be required.' },
+    { item: 'Insect repellent', description: 'Malaria prevention important in rainy season.' },
+  ],
   mainDish: {
     id: 'gambia-main',
     name: 'Domoda',
@@ -46,6 +76,33 @@ export const gambia: Country = {
       'Serve over rice',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+  },
+  dessert: {
+    id: 'gambia-dessert',
+    name: 'Chakery',
+    description: 'Sweet couscous dessert with yogurt and fruit',
+    cookingTime: 40,
+    servings: 6,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Couscous', amount: 300, unit: 'g' },
+      { name: 'Plain yogurt', amount: 400, unit: 'ml' },
+      { name: 'Sweetened condensed milk', amount: 200, unit: 'ml' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+      { name: 'Nutmeg', amount: 0.5, unit: 'tsp' },
+      { name: 'Raisins', amount: 100, unit: 'g' },
+      { name: 'Pineapple chunks', amount: 200, unit: 'g' },
+    ],
+    steps: [
+      'Cook couscous according to package directions, let cool',
+      'Mix yogurt with condensed milk and vanilla',
+      'Add cooled couscous to yogurt mixture',
+      'Add raisins and pineapple chunks',
+      'Sprinkle with nutmeg',
+      'Refrigerate for at least 2 hours',
+      'Serve chilled as a refreshing dessert',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
   },
   drinks: {
     alcoholic: 'Palm wine, Julbrew beer',

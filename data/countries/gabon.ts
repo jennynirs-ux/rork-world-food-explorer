@@ -22,6 +22,36 @@ export const gabon: Country = {
     'Home to forest elephants and lowland gorillas',
   ],
   foodCulture: 'Gabonese cuisine features cassava, plantains, fish, and bushmeat with French colonial influences.',
+  history: [
+    {
+      year: '1472',
+      title: 'Portuguese Arrival',
+      description: 'Portuguese explorers arrived on the coast, beginning European contact with the region.'
+    },
+    {
+      year: '1849',
+      title: 'French Settlement',
+      description: 'France established Libreville ("Freetown") for freed slaves.'
+    },
+    {
+      year: '1960',
+      title: 'Independence',
+      description: 'Gabon gained independence from France.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Loango National Park', description: 'Unique park where elephants walk on beaches and whales breach offshore.' },
+    { name: 'Lopé National Park', description: 'UNESCO site with rainforest and savanna, home to gorillas and chimpanzees.' },
+    { name: 'Pongara National Park', description: 'Coastal park near Libreville with beaches and sea turtles.' },
+    { name: 'Ivindo National Park', description: 'Features Kongou Falls, one of Africa\'s most spectacular waterfalls.' },
+    { name: 'Libreville', description: 'Capital city with French colonial architecture and vibrant markets.' }
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Required for most nationalities. Apply in advance.' },
+    { item: 'Best time to visit', description: 'June-September for dry season in national parks.' },
+    { item: 'Yellow fever vaccination', description: 'Mandatory with certificate required for entry.' },
+    { item: 'French language', description: 'Essential as English is rarely spoken.' },
+  ],
   mainDish: {
     id: 'gabon-main',
     name: 'Poulet Nyembwe',
@@ -46,6 +76,37 @@ export const gabon: Country = {
       'Serve with rice or plantains',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600',
+  },
+  dessert: {
+    id: 'gabon-dessert',
+    name: 'Beignets',
+    description: 'French-style fried dough pastries dusted with sugar',
+    cookingTime: 45,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Flour', amount: 400, unit: 'g' },
+      { name: 'Sugar', amount: 80, unit: 'g' },
+      { name: 'Yeast', amount: 10, unit: 'g' },
+      { name: 'Milk', amount: 250, unit: 'ml' },
+      { name: 'Eggs', amount: 2, unit: 'large' },
+      { name: 'Butter', amount: 50, unit: 'g' },
+      { name: 'Oil for frying', amount: 500, unit: 'ml' },
+      { name: 'Powdered sugar', amount: 100, unit: 'g' },
+    ],
+    steps: [
+      'Warm milk and activate yeast with sugar',
+      'Mix flour, eggs, butter, and yeast mixture',
+      'Knead into soft dough',
+      'Let rise for 1 hour until doubled',
+      'Roll out dough and cut into squares',
+      'Heat oil to 180°C',
+      'Fry beignets until golden on both sides',
+      'Drain on paper towels',
+      'Dust generously with powdered sugar while warm',
+      'Serve immediately with coffee',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=600',
   },
   drinks: {
     alcoholic: 'Palm wine, Regab beer',
