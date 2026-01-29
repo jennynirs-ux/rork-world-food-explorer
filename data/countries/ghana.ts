@@ -161,6 +161,48 @@ export const ghana: Country = {
       options: ['A drum', 'A dance', 'A woven cloth', 'A food dish'],
       correctAnswer: 2,
     },
+    {
+      id: 'ghana-q4',
+      question: 'What is the capital of Ghana?',
+      options: ['Lagos', 'Accra', 'Kumasi', 'Tamale'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ghana-q5',
+      question: 'Which European country colonized Ghana?',
+      options: ['France', 'Portugal', 'Britain', 'Belgium'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'ghana-q6',
+      question: 'What is Ghana\'s traditional stew called?',
+      options: ['Jollof', 'Fufu', 'Groundnut soup', 'Banku'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'ghana-q7',
+      question: 'In which year did Ghana gain independence?',
+      options: ['1947', '1957', '1967', '1977'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ghana-q8',
+      question: 'What is fufu typically eaten with?',
+      options: ['Soup or stew', 'Rice', 'Bread', 'Salad'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'ghana-q9',
+      question: 'What symbol is on Ghana\'s flag?',
+      options: ['Lion', 'Black star', 'Eagle', 'Sun'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'ghana-q10',
+      question: 'What percentage of the world\'s cocoa does Ghana produce?',
+      options: ['About 10%', 'About 20%', 'About 50%', 'About 70%'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 47, y: 18 },
 };

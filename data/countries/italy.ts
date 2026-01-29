@@ -197,6 +197,36 @@ export const italy: Country = {
       options: ['Very soft', 'Firm to the bite', 'Overcooked', 'Raw'],
       correctAnswer: 1,
     },
+    {
+      id: 'italy-q6',
+      question: 'Who painted the Sistine Chapel ceiling?',
+      options: ['Leonardo da Vinci', 'Michelangelo', 'Raphael', 'Donatello'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'italy-q7',
+      question: 'What is tiramisu made with?',
+      options: ['Chocolate and cream', 'Ladyfingers and mascarpone', 'Ricotta and berries', 'Panna cotta'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'italy-q8',
+      question: 'Which Italian city is home to the Colosseum?',
+      options: ['Milan', 'Florence', 'Rome', 'Naples'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'italy-q9',
+      question: 'What shape is traditional Italian pasta called farfalle?',
+      options: ['Tube', 'Bow-tie', 'Spiral', 'Sheet'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'italy-q10',
+      question: 'Which Italian dessert literally means "pick me up"?',
+      options: ['Gelato', 'Panna Cotta', 'Tiramisu', 'Cannoli'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 50, y: 45 },
 };

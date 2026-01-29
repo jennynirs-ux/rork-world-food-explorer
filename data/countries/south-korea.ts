@@ -197,6 +197,36 @@ export const southKorea: Country = {
       options: ['Korean food', 'Korean Wave (cultural phenomenon)', 'Korean language', 'Korean currency'],
       correctAnswer: 1,
     },
+    {
+      id: 'south-korea-q6',
+      question: 'What is the traditional Korean dress called?',
+      options: ['Kimono', 'Hanbok', 'Sari', 'Ao dai'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'south-korea-q7',
+      question: 'Which Korean company is the world\'s largest smartphone maker?',
+      options: ['LG', 'Hyundai', 'Samsung', 'SK'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'south-korea-q8',
+      question: 'What is the DMZ?',
+      options: ['A shopping district', 'Demilitarized Zone between North and South Korea', 'A music venue', 'A train station'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'south-korea-q9',
+      question: 'What is bingsu?',
+      options: ['Fried chicken', 'Shaved ice dessert', 'Rice cake', 'Noodle soup'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'south-korea-q10',
+      question: 'Which Korean film won the Best Picture Oscar in 2020?',
+      options: ['Train to Busan', 'Parasite', 'Oldboy', 'The Host'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 82, y: 40 },
 };

@@ -206,6 +206,36 @@ export const india: Country = {
       options: ['Elephant', 'Lion', 'Bengal Tiger', 'Peacock'],
       correctAnswer: 2,
     },
+    {
+      id: 'india-q6',
+      question: 'Which Indian city is home to Bollywood?',
+      options: ['Delhi', 'Bangalore', 'Mumbai', 'Kolkata'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'india-q7',
+      question: 'What is the traditional Indian flatbread called?',
+      options: ['Naan', 'Pita', 'Tortilla', 'Baguette'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'india-q8',
+      question: 'Which river is considered sacred in Hinduism?',
+      options: ['Yamuna', 'Brahmaputra', 'Ganges', 'Indus'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'india-q9',
+      question: 'What is India\'s most famous mausoleum?',
+      options: ['Red Fort', 'Taj Mahal', 'Qutub Minar', 'India Gate'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'india-q10',
+      question: 'What are the sweet milk balls fried and soaked in syrup called?',
+      options: ['Jalebi', 'Ladoo', 'Gulab Jamun', 'Barfi'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 70, y: 32 },
 };

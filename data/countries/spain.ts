@@ -207,6 +207,36 @@ export const spain: Country = {
       options: ['Arborio', 'Basmati', 'Bomba', 'Jasmine'],
       correctAnswer: 2,
     },
+    {
+      id: 'spain-q6',
+      question: 'What is the Spanish word for "tapas bar crawl"?',
+      options: ['Fiesta', 'Siesta', 'Tapeo', 'Paseo'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'spain-q7',
+      question: 'Which painter created "Guernica"?',
+      options: ['Salvador Dalí', 'Pablo Picasso', 'Joan Miró', 'Diego Velázquez'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'spain-q8',
+      question: 'What is the running of the bulls festival called?',
+      options: ['La Tomatina', 'San Fermín', 'Feria de Abril', 'Las Fallas'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'spain-q9',
+      question: 'Which Spanish region is known for producing sherry?',
+      options: ['Catalonia', 'Andalusia', 'Basque Country', 'Galicia'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'spain-q10',
+      question: 'What are churros traditionally dipped in?',
+      options: ['Caramel', 'Hot chocolate', 'Honey', 'Dulce de leche'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 45, y: 42 },
 };

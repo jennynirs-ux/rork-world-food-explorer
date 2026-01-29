@@ -205,6 +205,36 @@ export const greece: Country = {
       options: ['Athens', 'Sparta', 'Olympia', 'Delphi'],
       correctAnswer: 2,
     },
+    {
+      id: 'greece-q6',
+      question: 'What is the Greek word for "cheers" when toasting?',
+      options: ['Opa', 'Yamas', 'Kalimera', 'Efharisto'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'greece-q7',
+      question: 'Which Greek island is famous for its white buildings with blue domes?',
+      options: ['Crete', 'Mykonos', 'Santorini', 'Rhodes'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'greece-q8',
+      question: 'What is the name of the Greek layered pastry with nuts and honey?',
+      options: ['Baklava', 'Galaktoboureko', 'Loukoumades', 'Kataifi'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'greece-q9',
+      question: 'Which ancient Greek city-state was known for its warriors?',
+      options: ['Athens', 'Corinth', 'Sparta', 'Thebes'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'greece-q10',
+      question: 'What is the traditional Greek folk dance called?',
+      options: ['Flamenco', 'Sirtaki', 'Tarantella', 'Hora'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 52, y: 42 },
 };

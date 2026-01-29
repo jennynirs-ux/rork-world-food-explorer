@@ -204,6 +204,36 @@ export const netherlands: Country = {
       options: ['Monet', 'Van Gogh', 'Picasso', 'Da Vinci'],
       correctAnswer: 1,
     },
+    {
+      id: 'netherlands-q6',
+      question: 'What is the traditional Dutch cheese with red wax coating?',
+      options: ['Brie', 'Cheddar', 'Edam', 'Gruyere'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'netherlands-q7',
+      question: 'What are polders?',
+      options: ['Traditional shoes', 'Reclaimed land from the sea', 'Windmills', 'Canals'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'netherlands-q8',
+      question: 'Which museum houses Anne Frank\'s hiding place?',
+      options: ['Rijksmuseum', 'Van Gogh Museum', 'Anne Frank House', 'Stedelijk Museum'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'netherlands-q9',
+      question: 'How do most people get around in the Netherlands?',
+      options: ['Cars', 'Trains', 'Bicycles', 'Buses'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'netherlands-q10',
+      question: 'What are traditional Dutch wooden shoes called?',
+      options: ['Clogs', 'Sabots', 'Geta', 'Espadrilles'],
+      correctAnswer: 0,
+    },
   ],
   coordinates: { x: 48, y: 52 },
 };

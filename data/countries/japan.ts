@@ -201,6 +201,36 @@ export const japan: Country = {
       options: ['Rice wine', 'Tea', 'Noodles', 'Sushi'],
       correctAnswer: 0,
     },
+    {
+      id: 'japan-q6',
+      question: 'What is the traditional Japanese garment called?',
+      options: ['Sari', 'Kimono', 'Hanbok', 'Cheongsam'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'japan-q7',
+      question: 'Which Japanese city was the former capital for over 1,000 years?',
+      options: ['Tokyo', 'Osaka', 'Kyoto', 'Nara'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'japan-q8',
+      question: 'What is the art of Japanese flower arrangement called?',
+      options: ['Origami', 'Ikebana', 'Bonsai', 'Sumi-e'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'japan-q9',
+      question: 'What type of noodles are used in ramen?',
+      options: ['Rice noodles', 'Wheat noodles', 'Glass noodles', 'Egg noodles'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'japan-q10',
+      question: 'What is the Japanese bullet train called?',
+      options: ['Shinkansen', 'Maglev', 'Express', 'Metro'],
+      correctAnswer: 0,
+    },
   ],
   coordinates: { x: 85, y: 38 },
 };

@@ -207,6 +207,36 @@ export const morocco: Country = {
       options: ['Gobi', 'Sahara', 'Kalahari', 'Mojave'],
       correctAnswer: 1,
     },
+    {
+      id: 'morocco-q6',
+      question: 'What is the main language spoken in Morocco?',
+      options: ['French', 'Arabic', 'Spanish', 'Berber'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'morocco-q7',
+      question: 'Which Moroccan city is known for its blue-painted buildings?',
+      options: ['Marrakech', 'Casablanca', 'Chefchaouen', 'Fes'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'morocco-q8',
+      question: 'What is a souk?',
+      options: ['A palace', 'A traditional market', 'A mosque', 'A desert caravan'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'morocco-q9',
+      question: 'Which ocean borders Morocco on the west?',
+      options: ['Mediterranean', 'Red Sea', 'Atlantic Ocean', 'Indian Ocean'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'morocco-q10',
+      question: 'What is the traditional Moroccan cake made with almonds?',
+      options: ['Baklava', 'Msemen', 'Ghoriba', 'Sellou'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 45, y: 35 },
 };

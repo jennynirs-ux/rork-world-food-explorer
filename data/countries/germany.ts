@@ -202,6 +202,36 @@ export const germany: Country = {
       options: ['Martin Luther', 'Albert Einstein', 'Johannes Gutenberg', 'Karl Benz'],
       correctAnswer: 2,
     },
+    {
+      id: 'germany-q6',
+      question: 'How many types of bread does Germany have approximately?',
+      options: ['1,000', '3,000', '7,000', '10,000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'germany-q7',
+      question: 'When did Germany reunify after the Cold War?',
+      options: ['1989', '1990', '1991', '1992'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'germany-q8',
+      question: 'What is Germany\'s traditional pot roast called?',
+      options: ['Schnitzel', 'Sauerbraten', 'Bratwurst', 'Rouladen'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'germany-q9',
+      question: 'Who invented the automobile?',
+      options: ['Henry Ford', 'Karl Benz', 'Ferdinand Porsche', 'Gottlieb Daimler'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'germany-q10',
+      question: 'What famous chocolate cake comes from the Black Forest region?',
+      options: ['Sacher Torte', 'Black Forest Cake', 'Stollen', 'Baumkuchen'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 49, y: 51 },
 };

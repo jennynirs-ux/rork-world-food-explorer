@@ -26,6 +26,35 @@ export const austria: Country = {
     'Austrian coffeehouse culture is recognized by UNESCO as intangible cultural heritage',
   ],
   foodCulture: 'Austrian cuisine is influenced by the cuisines of the Austro-Hungarian Empire, combining flavors from across Central and Eastern Europe. It\'s known for its hearty meat dishes, delicate pastries, and sophisticated coffeehouse culture. Vienna is famous for its elegant café traditions where people gather for coffee and cakes.',
+  innovations: [
+    {
+      name: 'Psychoanalysis',
+      year: '1896',
+      description: 'Sigmund Freud founded psychoanalysis in Vienna, revolutionizing psychology and psychiatry.'
+    },
+    {
+      name: 'Doppler Effect',
+      year: '1842',
+      description: 'Christian Doppler discovered the Doppler effect, fundamental to physics and astronomy.'
+    },
+    {
+      name: 'Blood Groups',
+      year: '1900',
+      description: 'Karl Landsteiner discovered the ABO blood group system, enabling safe blood transfusions.'
+    },
+    {
+      name: 'Sewing Machine',
+      year: '1830s',
+      description: 'Josef Madersperger contributed to early sewing machine development in Austria.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Schönbrunn Palace', description: 'Former imperial summer residence with baroque gardens and glorious halls.' },
+    { name: 'Hallstatt', description: 'Picturesque lakeside village in the Alps, one of Austria\'s most photographed locations.' },
+    { name: 'Salzburg Old Town', description: 'UNESCO World Heritage Site, Mozart\'s birthplace with fortress and baroque architecture.' },
+    { name: 'Grossglockner High Alpine Road', description: 'Spectacular mountain road with breathtaking views of Austria\'s highest peak.' },
+    { name: 'Hofburg Palace', description: 'Former imperial palace in Vienna, now home to museums and the Spanish Riding School.' },
+  ],
   history: [
     {
       year: '996 AD',
@@ -160,6 +189,48 @@ export const austria: Country = {
       id: 'austria-q3',
       question: 'What is the traditional Austrian breaded cutlet called?',
       options: ['Bratwurst', 'Wiener Schnitzel', 'Goulash', 'Kaiserschmarrn'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'austria-q4',
+      question: 'Which famous composer was born in Austria and wrote "The Magic Flute"?',
+      options: ['Beethoven', 'Mozart', 'Bach', 'Handel'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'austria-q5',
+      question: 'What percentage of Austria is covered by the Alps?',
+      options: ['25%', '40%', '62%', '80%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'austria-q6',
+      question: 'What is the famous Viennese chocolate cake called?',
+      options: ['Black Forest Cake', 'Sachertorte', 'Tiramisu', 'Strudel'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'austria-q7',
+      question: 'Which dynasty ruled Austria for over 640 years?',
+      options: ['Bourbon', 'Habsburg', 'Romanov', 'Tudor'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'austria-q8',
+      question: 'When did Austria join the European Union?',
+      options: ['1985', '1990', '1995', '2000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'austria-q9',
+      question: 'Which scientist from Austria discovered blood groups?',
+      options: ['Sigmund Freud', 'Karl Landsteiner', 'Erwin Schrödinger', 'Christian Doppler'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'austria-q10',
+      question: 'What is the UNESCO-recognized Austrian cultural tradition?',
+      options: ['Beer brewing', 'Coffeehouse culture', 'Wine making', 'Cheese production'],
       correctAnswer: 1,
     },
   ],

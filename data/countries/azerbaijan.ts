@@ -26,6 +26,35 @@ export const azerbaijan: Country = {
     'Chess is extremely popular - it\'s taught in schools as a mandatory subject',
   ],
   foodCulture: 'Azerbaijani cuisine is rich and diverse, influenced by Persian, Turkish, and Russian traditions. Food is central to Azerbaijani hospitality, with meals often featuring multiple courses. Tea culture is particularly important - tea is served throughout the day from samovars.',
+  innovations: [
+    {
+      name: 'Kerosene Lamp',
+      year: '1853',
+      description: 'Brothers Dubinin in Baku created one of the first kerosene lamps, contributing to early oil industry.'
+    },
+    {
+      name: 'Oil Pipeline',
+      year: '1878',
+      description: 'The world\'s first oil pipeline was built in Azerbaijan, revolutionizing oil transport.'
+    },
+    {
+      name: 'Carpet Weaving Tradition',
+      year: 'Ancient',
+      description: 'Azerbaijani carpet weaving techniques are UNESCO-recognized intangible cultural heritage.'
+    },
+    {
+      name: 'Mugham Music',
+      year: 'Traditional',
+      description: 'Complex traditional modal music system recognized by UNESCO as a masterpiece of oral heritage.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Old City (Icherisheher)', description: 'UNESCO World Heritage walled city with ancient palaces, mosques, and the iconic Maiden Tower.' },
+    { name: 'Flame Towers', description: 'Iconic trio of skyscrapers with LED displays, symbolizing Azerbaijan as the Land of Fire.' },
+    { name: 'Gobustan Rock Art', description: 'UNESCO site with 6,000 rock engravings and ancient petroglyphs dating back 40,000 years.' },
+    { name: 'Yanar Dag (Fire Mountain)', description: 'Natural gas fire that has burned continuously on a hillside for centuries.' },
+    { name: 'Ateshgah Fire Temple', description: 'Historic fire temple used by Zoroastrians, Hindus, and Sikhs for centuries.' },
+  ],
   history: [
     {
       year: '6th century BC',
@@ -164,6 +193,48 @@ export const azerbaijan: Country = {
       question: 'What is Azerbaijan\'s national dish?',
       options: ['Dolma', 'Plov', 'Kebab', 'Lahmacun'],
       correctAnswer: 1,
+    },
+    {
+      id: 'azerbaijan-q4',
+      question: 'When did Azerbaijan regain independence from the Soviet Union?',
+      options: ['1989', '1990', '1991', '1992'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'azerbaijan-q5',
+      question: 'What is taught as a mandatory subject in Azerbaijani schools?',
+      options: ['Carpet weaving', 'Chess', 'Oil drilling', 'Mugham music'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'azerbaijan-q6',
+      question: 'What beverage is central to Azerbaijani culture and served throughout the day?',
+      options: ['Coffee', 'Black tea', 'Wine', 'Ayran'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'azerbaijan-q7',
+      question: 'What is the name of the walled Old City in Baku?',
+      options: ['Medina', 'Icherisheher', 'Kasbah', 'Citadel'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'azerbaijan-q8',
+      question: 'Approximately what percentage of the world\'s mud volcanoes are in Azerbaijan?',
+      options: ['10%', '25%', '50%', '75%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'azerbaijan-q9',
+      question: 'What is the traditional Azerbaijani baklava called?',
+      options: ['Baklava', 'Pakhlava', 'Shekerbura', 'Gogal'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'azerbaijan-q10',
+      question: 'What historic innovation in oil transport was first built in Azerbaijan in 1878?',
+      options: ['Oil tanker ship', 'Oil refinery', 'Oil pipeline', 'Oil drilling rig'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 58, y: 42 },

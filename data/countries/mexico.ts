@@ -206,6 +206,36 @@ export const mexico: Country = {
       options: ['Independence', 'Harvest', 'Deceased loved ones', 'New Year'],
       correctAnswer: 2,
     },
+    {
+      id: 'mexico-q6',
+      question: 'What is the Mexican peninsula famous for ancient ruins?',
+      options: ['Baja California', 'Yucatán', 'Oaxaca', 'Chiapas'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mexico-q7',
+      question: 'What is the traditional Mexican sauce made with chocolate and chili?',
+      options: ['Salsa', 'Guacamole', 'Mole', 'Pico de gallo'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'mexico-q8',
+      question: 'Which famous Mexican artist was known for her self-portraits?',
+      options: ['Diego Rivera', 'Frida Kahlo', 'Rufino Tamayo', 'David Alfaro Siqueiros'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mexico-q9',
+      question: 'What are churros traditionally served with?',
+      options: ['Ice cream', 'Chocolate sauce', 'Caramel', 'Whipped cream'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'mexico-q10',
+      question: 'What is Mexico\'s national sport?',
+      options: ['Soccer', 'Baseball', 'Charrería (rodeo)', 'Boxing'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 15, y: 30 },
 };
