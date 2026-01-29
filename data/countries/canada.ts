@@ -202,6 +202,36 @@ export const canada: Country = {
       options: ['Skiing', 'Ice hockey', 'Curling', 'Figure skating'],
       correctAnswer: 1,
     },
+    {
+      id: 'canada-q6',
+      question: 'Who invented insulin in Canada?',
+      options: ['Alexander Graham Bell', 'Frederick Banting', 'James Naismith', 'Reginald Fessenden'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'canada-q7',
+      question: 'When did Canada adopt its current flag with the maple leaf?',
+      options: ['1955', '1965', '1975', '1985'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'canada-q8',
+      question: 'What is Canada\'s ranking by country size in the world?',
+      options: ['First', 'Second', 'Third', 'Fourth'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'canada-q9',
+      question: 'When did Canada achieve full constitutional independence?',
+      options: ['1867', '1931', '1965', '1982'],
+      correctAnswer: 3,
+    },
+    {
+      id: 'canada-q10',
+      question: 'What dessert is a Canadian classic with butter, sugar, and syrup?',
+      options: ['Maple cookies', 'Butter tarts', 'Nanaimo bars', 'Beaver tails'],
+      correctAnswer: 1,
+    },
   ],
   coordinates: { x: 18, y: 60 },
 };

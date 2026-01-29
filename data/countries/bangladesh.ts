@@ -58,6 +58,35 @@ export const bangladesh: Country = {
       description: 'After a nine-month liberation war, Bangladesh emerged as an independent nation on December 16, 1971.'
     },
   ],
+  innovations: [
+    {
+      name: 'Microcredit and Microfinance',
+      year: '1976',
+      description: 'Muhammad Yunus founded Grameen Bank, pioneering microcredit that lifted millions out of poverty and earned him the Nobel Peace Prize in 2006.'
+    },
+    {
+      name: 'Oral Rehydration Solution (ORS)',
+      year: '1960s',
+      description: 'Bangladeshi researchers developed and popularized ORS therapy, saving millions of lives from diarrheal diseases worldwide.'
+    },
+    {
+      name: 'Floating Gardens',
+      year: 'Traditional',
+      description: 'Innovative agricultural technique using water hyacinth beds to grow crops during floods, now recognized by the UN as a climate adaptation model.'
+    },
+    {
+      name: 'Ready-Made Garment Industry Model',
+      year: '1980s',
+      description: 'Built the world\'s second-largest garment export industry, creating employment for millions, particularly women, and inspiring developing nations.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Sundarbans Mangrove Forest', description: 'UNESCO World Heritage Site and the world\'s largest mangrove forest, home to the Royal Bengal Tiger and rich biodiversity.' },
+    { name: 'Cox\'s Bazar', description: 'The world\'s longest natural sea beach stretching 120 km, with golden sands and stunning sunsets over the Bay of Bengal.' },
+    { name: 'Srimangal Tea Gardens', description: 'Lush green tea estates in the "Tea Capital of Bangladesh," offering scenic walks and fresh tea tasting experiences.' },
+    { name: 'Paharpur Buddhist Monastery', description: 'Ancient UNESCO site with the remains of the largest Buddhist monastery south of the Himalayas, dating to the 8th century.' },
+    { name: 'Ahsan Manzil (Pink Palace)', description: 'Historic pink palace in Dhaka, former residence of the Nawab, now a museum showcasing colonial-era architecture and artifacts.' }
+  ],
   travelEssentials: [
     { item: 'Visa', description: 'Visa on arrival available for many nationalities. E-visa also available.' },
     { item: 'Best time to visit', description: 'November to February for cool, dry weather' },
@@ -160,6 +189,48 @@ export const bangladesh: Country = {
       question: 'When did Bangladesh gain independence?',
       options: ['1947', '1952', '1971', '1991'],
       correctAnswer: 2,
+    },
+    {
+      id: 'bangladesh-q4',
+      question: 'What is the official language of Bangladesh?',
+      options: ['Hindi', 'Urdu', 'Bengali', 'English'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bangladesh-q5',
+      question: 'Which UNESCO World Heritage Site is home to the Royal Bengal Tiger?',
+      options: ['Sundarbans', 'Paharpur', 'Bagerhat', 'Mahasthangarh'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'bangladesh-q6',
+      question: 'What is the main ingredient in Bangladesh\'s most popular dish?',
+      options: ['Wheat', 'Rice', 'Corn', 'Millet'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bangladesh-q7',
+      question: 'Who founded Grameen Bank and won the Nobel Peace Prize?',
+      options: ['Rabindranath Tagore', 'Muhammad Yunus', 'Sheikh Mujibur Rahman', 'Kazi Nazrul Islam'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bangladesh-q8',
+      question: 'What is Bangladesh\'s ranking in garment exports globally?',
+      options: ['First', 'Second', 'Third', 'Fourth'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bangladesh-q9',
+      question: 'What river system creates the world\'s largest delta in Bangladesh?',
+      options: ['Indus', 'Ganges-Brahmaputra', 'Mekong', 'Irrawaddy'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bangladesh-q10',
+      question: 'In which year was the Bengali Language Movement?',
+      options: ['1947', '1952', '1965', '1971'],
+      correctAnswer: 1,
     },
   ],
   coordinates: { x: 74, y: 32 },

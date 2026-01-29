@@ -21,8 +21,75 @@ export const cambodia: Country = {
     'Tonle Sap is Southeast Asia\'s largest freshwater lake',
     'Cambodia has a very young population - median age is 25',
     'The country is rebuilding after decades of conflict',
+    'Khmer is one of the world\'s oldest languages',
+    'Cambodia has over 4,000 Buddhist temples',
+    'The national flower is the rumduol',
   ],
-  foodCulture: 'Cambodian cuisine balances sweet, sour, salty, and bitter flavors. Rice, freshwater fish, and aromatic herbs are central. French influence is seen in baguettes.',
+  foodCulture: 'Cambodian cuisine balances sweet, sour, salty, and bitter flavors. Rice, freshwater fish, and aromatic herbs are central. French influence is seen in baguettes. Prahok (fermented fish paste) adds distinctive flavor.',
+  history: [
+    {
+      year: '802-1431',
+      title: 'Angkor Empire',
+      description: 'The Khmer Empire built Angkor Wat and ruled much of Southeast Asia, creating one of history\'s great civilizations.'
+    },
+    {
+      year: '1863',
+      title: 'French Protectorate',
+      description: 'Cambodia became a French protectorate, introducing lasting cultural and architectural influences.'
+    },
+    {
+      year: '1953',
+      title: 'Independence',
+      description: 'King Norodom Sihanouk negotiated Cambodia\'s independence from France.'
+    },
+    {
+      year: '1975-1979',
+      title: 'Khmer Rouge Regime',
+      description: 'Pol Pot\'s brutal regime caused genocide, killing an estimated 1.7-2 million Cambodians.'
+    },
+    {
+      year: '1993',
+      title: 'Democratic Elections',
+      description: 'UN-supervised elections restored constitutional monarchy and began national reconciliation.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Angkor Wat Construction',
+      year: '1113-1150',
+      description: 'Khmer engineers built the world\'s largest religious complex with advanced hydraulic systems and precise astronomical alignments.'
+    },
+    {
+      name: 'Baray Water Management',
+      year: 'Angkor Period',
+      description: 'Developed massive reservoir systems (barays) for irrigation and flood control that supported a million people.'
+    },
+    {
+      name: 'Apsara Dance Preservation',
+      year: 'Ancient-Present',
+      description: 'Classical Khmer dance survived centuries and genocide, recognized by UNESCO as intangible cultural heritage.'
+    },
+    {
+      name: 'Traditional Medicine System',
+      year: 'Traditional',
+      description: 'Developed Khmer traditional medicine using local herbs and healing practices that complement modern healthcare.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Angkor Wat', description: 'Magnificent 12th-century temple complex, largest religious monument in the world, stunning at sunrise.' },
+    { name: 'Bayon Temple', description: 'Iconic temple with 216 giant smiling stone faces, centerpiece of Angkor Thom city.' },
+    { name: 'Tonle Sap Lake', description: 'Southeast Asia\'s largest freshwater lake with floating villages and incredible biodiversity.' },
+    { name: 'Phnom Penh Royal Palace', description: 'Ornate palace complex with Silver Pagoda containing 5,000 silver floor tiles.' },
+    { name: 'Koh Rong Islands', description: 'Pristine beaches with bioluminescent plankton, perfect for relaxation and water sports.' }
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'E-visa or visa on arrival available for most nationalities.' },
+    { item: 'Best time to visit', description: 'November-February for cool, dry weather. Avoid April-May (hottest period).' },
+    { item: 'Currency', description: 'Riel and US dollars both widely accepted. Bring small bills.' },
+    { item: 'Dress code', description: 'Cover shoulders and knees when visiting temples. Remove shoes at entrances.' },
+    { item: 'Health', description: 'Malaria prophylaxis for rural areas. Drink only bottled water.' },
+    { item: 'Transportation', description: 'Tuk-tuks for cities, buses for long distances. Bike tours popular in Angkor.' }
+  ],
   mainDish: {
     id: 'cambodia-main',
     name: 'Amok Trey',
@@ -122,6 +189,48 @@ export const cambodia: Country = {
       question: 'What was the historic Cambodian empire called?',
       options: ['Siam', 'Khmer Empire', 'Champa', 'Ayutthaya'],
       correctAnswer: 1,
+    },
+    {
+      id: 'cambodia-q4',
+      question: 'What is the capital of Cambodia?',
+      options: ['Siem Reap', 'Phnom Penh', 'Battambang', 'Sihanoukville'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cambodia-q5',
+      question: 'When was Angkor Wat built?',
+      options: ['9th century', '12th century', '15th century', '18th century'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cambodia-q6',
+      question: 'Which regime caused genocide in Cambodia from 1975-1979?',
+      options: ['Viet Cong', 'Khmer Rouge', 'Pathet Lao', 'FUNCINPEC'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cambodia-q7',
+      question: 'What lake is Southeast Asia\'s largest freshwater lake?',
+      options: ['Tonle Sap', 'Inle Lake', 'Taal Lake', 'Laguna de Bay'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'cambodia-q8',
+      question: 'Which country colonized Cambodia?',
+      options: ['Britain', 'Netherlands', 'France', 'Spain'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cambodia-q9',
+      question: 'What is the official language of Cambodia?',
+      options: ['Thai', 'Vietnamese', 'Khmer', 'Lao'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cambodia-q10',
+      question: 'What is the traditional Cambodian dance form recognized by UNESCO?',
+      options: ['Apsara Dance', 'Likay', 'Chhau', 'Legong'],
+      correctAnswer: 0,
     },
   ],
   coordinates: { x: 77, y: 24 },

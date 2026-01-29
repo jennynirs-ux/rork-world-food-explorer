@@ -20,8 +20,81 @@ export const bahrain: Country = {
     'The country has been a pearl diving center for thousands of years',
     'Bahrain hosts the Formula 1 Grand Prix',
     'The Tree of Life is a 400-year-old mesquite tree in the desert',
+    'Bahrain was the first Gulf state to discover oil in 1932',
+    'The Bahrain Fort is a UNESCO World Heritage Site',
+    'Bahrain means "two seas" in Arabic',
+    'The country consists of 33 natural islands',
   ],
-  foodCulture: 'Bahraini cuisine blends Arab, Persian, and Indian influences. Fresh seafood, rice dishes, and dates are staples.',
+  foodCulture: 'Bahraini cuisine blends Arab, Persian, and Indian influences. Fresh seafood, rice dishes, and dates are staples. Meals emphasize hospitality, with generous portions and communal dining traditions.',
+  history: [
+    {
+      year: '3000 BC',
+      title: 'Dilmun Civilization',
+      description: 'Bahrain was the center of the ancient Dilmun trading civilization, a prosperous hub connecting Mesopotamia with the Indus Valley.'
+    },
+    {
+      year: '1521',
+      title: 'Portuguese Occupation',
+      description: 'Portugal captured Bahrain to control trade routes in the Persian Gulf region.'
+    },
+    {
+      year: '1783',
+      title: 'Al Khalifa Dynasty',
+      description: 'The Al Khalifa family captured Bahrain from the Persians, establishing the ruling dynasty that continues today.'
+    },
+    {
+      year: '1932',
+      title: 'Oil Discovery',
+      description: 'Bahrain became the first Gulf state to discover oil, transforming its economy from pearls to petroleum.'
+    },
+    {
+      year: '1971',
+      title: 'Independence',
+      description: 'Bahrain gained independence from British protection and became a sovereign state.'
+    },
+    {
+      year: '2002',
+      title: 'Kingdom Declared',
+      description: 'Bahrain transformed from an emirate to a kingdom under King Hamad bin Isa Al Khalifa.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Pearl Diving Techniques',
+      year: 'Ancient',
+      description: 'Bahrain developed sophisticated pearl diving methods and quality grading systems that influenced the global pearl trade for millennia.'
+    },
+    {
+      name: 'Gulf Banking Hub',
+      year: '1975',
+      description: 'Established the first Islamic bank in the region and pioneered Islamic finance principles, becoming the financial center of the Gulf.'
+    },
+    {
+      name: 'Formula 1 Desert Circuit',
+      year: '2004',
+      description: 'Built the first Formula 1 circuit in the Middle East, pioneering motorsport infrastructure in desert conditions.'
+    },
+    {
+      name: 'Offshore Oil Refining',
+      year: '1930s',
+      description: 'Pioneered oil refining techniques in the Gulf region, establishing models for petroleum processing across the Middle East.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Bahrain Fort (Qal\'at al-Bahrain)', description: 'UNESCO World Heritage Site, ancient fort revealing 4,000 years of history from the Dilmun civilization to Portuguese occupation.' },
+    { name: 'Tree of Life', description: 'Mysterious 400-year-old mesquite tree thriving alone in the desert with no apparent water source, symbol of resilience.' },
+    { name: 'Bahrain International Circuit', description: 'World-class Formula 1 race track hosting the Bahrain Grand Prix, offering driving experiences and tours.' },
+    { name: 'Manama Souq', description: 'Traditional market showcasing Bahraini culture with gold, spices, textiles, and authentic local atmosphere.' },
+    { name: 'Al Areen Wildlife Park', description: 'Desert and wetland sanctuary protecting Arabian wildlife including oryx, gazelles, and rare bird species.' }
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'eVisa available for most nationalities. Visa on arrival for many countries.' },
+    { item: 'Best time to visit', description: 'November to March for mild weather. Avoid summer (May-September) with extreme heat.' },
+    { item: 'Transportation', description: 'Rental cars recommended. Taxis and ride-sharing apps available. Connected to Saudi Arabia by causeway.' },
+    { item: 'Language', description: 'Arabic is official. English widely spoken in business and tourism sectors.' },
+    { item: 'Currency', description: 'Bahraini Dinar (BHD) - one of the highest-valued currencies. Credit cards widely accepted.' },
+    { item: 'Dress code', description: 'Modest dress recommended. Conservative attire required for religious sites.' },
+  ],
   mainDish: {
     id: 'bahrain-main',
     name: 'Machboos',
@@ -105,6 +178,60 @@ export const bahrain: Country = {
       question: 'What is the capital of Bahrain?',
       options: ['Dubai', 'Manama', 'Doha', 'Riyadh'],
       correctAnswer: 1,
+    },
+    {
+      id: 'bahrain-q2',
+      question: 'What does "Bahrain" mean in Arabic?',
+      options: ['Two seas', 'Pearl island', 'Desert land', 'Trading port'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'bahrain-q3',
+      question: 'In which year did Bahrain discover oil?',
+      options: ['1922', '1932', '1942', '1952'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahrain-q4',
+      question: 'What is the national dish of Bahrain?',
+      options: ['Shawarma', 'Hummus', 'Machboos', 'Falafel'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bahrain-q5',
+      question: 'What ancient civilization was centered in Bahrain?',
+      options: ['Sumerian', 'Dilmun', 'Phoenician', 'Babylonian'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahrain-q6',
+      question: 'When did Bahrain gain independence?',
+      options: ['1961', '1966', '1971', '1976'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'bahrain-q7',
+      question: 'What is Bahrain historically famous for producing?',
+      options: ['Silk', 'Pearls', 'Spices', 'Pottery'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahrain-q8',
+      question: 'When did Bahrain host its first Formula 1 Grand Prix?',
+      options: ['2000', '2004', '2008', '2012'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahrain-q9',
+      question: 'What is the mysterious tree surviving in the Bahraini desert called?',
+      options: ['Desert Oak', 'Tree of Life', 'Miracle Tree', 'Sacred Mesquite'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'bahrain-q10',
+      question: 'When did Bahrain become a kingdom?',
+      options: ['1971', '1990', '2002', '2010'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 59, y: 35 },

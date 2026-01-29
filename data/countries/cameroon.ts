@@ -20,8 +20,76 @@ export const cameroon: Country = {
     'Mount Cameroon is an active volcano and highest peak in West Africa',
     'The country is bilingual with French and English',
     'Cameroon has won the Africa Cup of Nations five times',
+    'The country has over 200 ethnic groups and languages',
+    'Cameroon\'s wildlife includes gorillas, elephants, and chimpanzees',
+    'The national football team is nicknamed "The Indomitable Lions"',
+    'Lake Nyos is known for its deadly limnic eruption in 1986',
   ],
-  foodCulture: 'Cameroonian cuisine varies by region with influences from French and English colonialism. Staples include cassava, plantains, and groundnuts.',
+  foodCulture: 'Cameroonian cuisine varies by region with influences from French and English colonialism. Staples include cassava, plantains, and groundnuts. Dishes are often spicy with rich sauces.',
+  history: [
+    {
+      year: 'Pre-Colonial',
+      title: 'Ancient Kingdoms',
+      description: 'Various kingdoms including the Sao civilization and Kanem-Bornu Empire thrived in the region.'
+    },
+    {
+      year: '1884',
+      title: 'German Colonization',
+      description: 'Germany established Kamerun as a colony, introducing plantations and infrastructure.'
+    },
+    {
+      year: '1916',
+      title: 'Allied Takeover',
+      description: 'After WWI, Cameroon was divided between French and British administration.'
+    },
+    {
+      year: '1960-1961',
+      title: 'Independence',
+      description: 'French Cameroon gained independence in 1960, followed by British Cameroons joining in 1961.'
+    },
+    {
+      year: '1972',
+      title: 'United Republic',
+      description: 'Federal system was abolished, creating the United Republic of Cameroon.'
+    },
+  ],
+  innovations: [
+    {
+      name: 'Bikutsi Music Genre',
+      year: '20th Century',
+      description: 'Developed unique musical style combining traditional rhythms with modern instruments, influencing African popular music.'
+    },
+    {
+      name: 'Ecological Diversity Conservation',
+      year: '1930s-Present',
+      description: 'Protected diverse ecosystems from coast to savanna, serving as a model for biodiversity preservation.'
+    },
+    {
+      name: 'Bilingual Education System',
+      year: '1961',
+      description: 'Successfully maintained both French and English as official languages in education and government.'
+    },
+    {
+      name: 'Sustainable Cocoa Farming',
+      year: '1990s',
+      description: 'Pioneered fair trade and sustainable cocoa production methods adopted across West Africa.'
+    },
+  ],
+  mustVisit: [
+    { name: 'Mount Cameroon', description: 'Active volcano and West Africa\'s highest peak at 4,040m, with challenging hikes and stunning views.' },
+    { name: 'Waza National Park', description: 'Northern savanna park with elephants, giraffes, lions, and over 300 bird species.' },
+    { name: 'Limbe Beaches', description: 'Beautiful black sand beaches at the foot of Mount Cameroon with botanical gardens.' },
+    { name: 'Foumban Royal Palace', description: 'Historic palace of the Bamoun sultans with museum showcasing traditional art and artifacts.' },
+    { name: 'Kribi Beach', description: 'Pristine Atlantic coastline with unique Chutes de la Lobé waterfalls flowing into the ocean.' }
+  ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Most visitors need a visa in advance. Some nationalities can get visa on arrival.' },
+    { item: 'Best time to visit', description: 'November-February for dry season in north; June-September for south.' },
+    { item: 'Languages', description: 'French and English official. Local languages include Fulfulde, Ewondo, Duala.' },
+    { item: 'Currency', description: 'Central African CFA Franc. Bring euros for exchange; ATMs in major cities.' },
+    { item: 'Health', description: 'Yellow fever vaccination required. Malaria prophylaxis essential.' },
+    { item: 'Safety', description: 'Exercise caution. Some border regions have security concerns.' }
+  ],
   mainDish: {
     id: 'cameroon-main',
     name: 'Ndolé',
@@ -103,6 +171,60 @@ export const cameroon: Country = {
       question: 'What is the capital of Cameroon?',
       options: ['Douala', 'Yaoundé', 'Bamenda', 'Garoua'],
       correctAnswer: 1,
+    },
+    {
+      id: 'cameroon-q2',
+      question: 'Why is Cameroon called "Africa in Miniature"?',
+      options: ['It\'s the smallest country', 'It has all of Africa\'s climates and landscapes', 'It\'s shaped like Africa', 'It was a former colony'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cameroon-q3',
+      question: 'What are Cameroon\'s official languages?',
+      options: ['French only', 'English only', 'French and English', 'French and Portuguese'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cameroon-q4',
+      question: 'What is Cameroon\'s national dish?',
+      options: ['Jollof rice', 'Ndolé', 'Fufu', 'Egusi soup'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cameroon-q5',
+      question: 'What is the highest peak in West Africa?',
+      options: ['Mount Kilimanjaro', 'Mount Kenya', 'Mount Cameroon', 'Mount Meru'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cameroon-q6',
+      question: 'How many times has Cameroon won the Africa Cup of Nations?',
+      options: ['Three', 'Four', 'Five', 'Six'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cameroon-q7',
+      question: 'When did French Cameroon gain independence?',
+      options: ['1950', '1960', '1970', '1980'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cameroon-q8',
+      question: 'What is Cameroon\'s football team nicknamed?',
+      options: ['The Eagles', 'The Lions', 'The Indomitable Lions', 'The Panthers'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cameroon-q9',
+      question: 'Which music genre originated in Cameroon?',
+      options: ['Afrobeat', 'Makossa', 'Highlife', 'Soukous'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cameroon-q10',
+      question: 'What type of volcano is Mount Cameroon?',
+      options: ['Dormant', 'Extinct', 'Active', 'Shield'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 49, y: 18 },
