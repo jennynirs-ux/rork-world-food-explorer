@@ -7,7 +7,8 @@ export const unitedArabEmirates: Country = {
   continent: 'Asia',
   flag: '🇦🇪',
   landscapeImage: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800',
-  description: 'The UAE is a federation of seven emirates known for ultramodern architecture, luxury shopping, and a thriving business hub.',
+  description:
+    'The UAE is a federation of seven emirates known for ultramodern architecture, luxury shopping, and a thriving business hub.',
   quickFacts: [
     { label: 'Capital', value: 'Abu Dhabi' },
     { label: 'Population', value: '10 million' },
@@ -16,12 +17,13 @@ export const unitedArabEmirates: Country = {
     { label: 'Area', value: '83,600 km²' },
   ],
   facts: [
-    'Home to the world\'s tallest building, Burj Khalifa',
+    "Home to the world's tallest building, Burj Khalifa",
     'Formed in 1971 from seven emirates',
     'Major global business and tourism hub',
     'Over 200 nationalities live in the UAE',
   ],
-  foodCulture: 'Emirati cuisine blends Arab, Persian, and Indian influences with dates, rice, and lamb.',
+  foodCulture:
+    'Emirati cuisine blends Arab, Persian, and Indian influences with dates, rice, and lamb.',
   mainDish: {
     id: 'uae-main',
     name: 'Al Harees',
@@ -49,11 +51,7 @@ export const unitedArabEmirates: Country = {
     alcoholic: 'Limited (available in hotels and restaurants)',
     nonAlcoholic: 'Arabic coffee, Karak chai, Fresh juice',
   },
-  music: [
-    'Traditional Emirati folk',
-    'Yowla dance music',
-    'Modern Arabic pop',
-  ],
+  music: ['Traditional Emirati folk', 'Yowla dance music', 'Modern Arabic pop'],
   decorationIdeas: [
     'Red, green, white and black flag colors',
     'Burj Khalifa imagery',
@@ -69,6 +67,65 @@ export const unitedArabEmirates: Country = {
       id: 'uae-q1',
       question: 'What is the capital of the UAE?',
       options: ['Dubai', 'Abu Dhabi', 'Sharjah', 'Ajman'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uae-q2',
+      question: 'How many emirates make up the United Arab Emirates?',
+      options: ['5', '6', '7', '9'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uae-q3',
+      question: 'In which year was the UAE formed as a federation?',
+      options: ['1958', '1965', '1971', '1981'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uae-q4',
+      question: 'What is the name of the world’s tallest building located in the UAE?',
+      options: ['Burj Al Arab', 'Burj Khalifa', 'The Palm Tower', 'Emirates Tower'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uae-q5',
+      question: 'Which emirate is best known for the city of Dubai?',
+      options: ['Dubai', 'Abu Dhabi', 'Ras Al Khaimah', 'Fujairah'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'uae-q6',
+      question: 'What is the currency used in the UAE?',
+      options: ['Riyal', 'Dinar', 'UAE Dirham', 'Shekel'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uae-q7',
+      question: 'Which of these is a famous traditional UAE drink?',
+      options: ['Matcha', 'Arabic coffee', 'Yerba mate', 'Bubble tea'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uae-q8',
+      question: 'Which sea borders much of the UAE’s coastline?',
+      options: ['Red Sea', 'Arabian Gulf', 'Mediterranean Sea', 'Caspian Sea'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uae-q9',
+      question: 'What is “karak chai”?',
+      options: [
+        'A desert bread',
+        'A strong spiced milk tea',
+        'A rice dish with lamb',
+        'A traditional dance',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uae-q10',
+      question: 'Which city is the UAE’s largest by population?',
+      options: ['Abu Dhabi', 'Dubai', 'Sharjah', 'Al Ain'],
       correctAnswer: 1,
     },
   ],

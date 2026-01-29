@@ -7,7 +7,8 @@ export const unitedKingdom: Country = {
   continent: 'Europe',
   flag: '🇬🇧',
   landscapeImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800',
-  description: 'The United Kingdom comprises England, Scotland, Wales, and Northern Ireland, known for rich history, royal heritage, and global cultural influence.',
+  description:
+    'The United Kingdom comprises England, Scotland, Wales, and Northern Ireland, known for rich history, royal heritage, and global cultural influence.',
   quickFacts: [
     { label: 'Capital', value: 'London' },
     { label: 'Population', value: '67 million' },
@@ -17,11 +18,12 @@ export const unitedKingdom: Country = {
   ],
   facts: [
     'Birthplace of the Industrial Revolution',
-    'Home to the world\'s oldest subway system',
+    "Home to the world's oldest subway system",
     'English is the most widely spoken language globally',
     'The UK has influenced culture, law, and government worldwide',
   ],
-  foodCulture: 'British cuisine features hearty dishes like fish and chips, roasts, and afternoon tea traditions.',
+  foodCulture:
+    'British cuisine features hearty dishes like fish and chips, roasts, and afternoon tea traditions.',
   mainDish: {
     id: 'uk-main',
     name: 'Fish and Chips',
@@ -48,15 +50,10 @@ export const unitedKingdom: Country = {
     imageUrl: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600',
   },
   drinks: {
-    alcoholic: 'Beer, Whisky, Gin, Pimm\'s',
+    alcoholic: "Beer, Whisky, Gin, Pimm's",
     nonAlcoholic: 'Tea (with milk), Irn-Bru, Elderflower cordial',
   },
-  music: [
-    'The Beatles',
-    'The Rolling Stones',
-    'Queen',
-    'Adele',
-  ],
+  music: ['The Beatles', 'The Rolling Stones', 'Queen', 'Adele'],
   decorationIdeas: [
     'Red, white and blue Union Jack',
     'Royal family imagery',
@@ -65,15 +62,79 @@ export const unitedKingdom: Country = {
   ],
   conversationStarters: [
     'Have you been to London?',
-    'What\'s your favorite British band?',
+    "What's your favorite British band?",
     'Do you enjoy afternoon tea?',
   ],
   quiz: [
     {
       id: 'uk-q1',
-      question: 'What is the capital of the UK?',
+      question: 'What is the capital of the United Kingdom?',
       options: ['Manchester', 'London', 'Edinburgh', 'Birmingham'],
       correctAnswer: 1,
+    },
+    {
+      id: 'uk-q2',
+      question: 'Which four countries make up the UK?',
+      options: [
+        'England, Scotland, Wales, Northern Ireland',
+        'England, Ireland, Wales, Scotland',
+        'England, Scotland, Wales, Cornwall',
+        'England, Scotland, Ireland, Isle of Man',
+      ],
+      correctAnswer: 0,
+    },
+    {
+      id: 'uk-q3',
+      question: 'What is the UK’s currency called?',
+      options: ['Euro', 'Dollar', 'Pound Sterling', 'Crown'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uk-q4',
+      question: 'Which river flows through London?',
+      options: ['Severn', 'Trent', 'Thames', 'Avon'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uk-q5',
+      question: 'What is the name of the British monarch’s residence in London?',
+      options: ['Windsor Castle', 'Buckingham Palace', 'Kensington Palace', 'Westminster Abbey'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uk-q6',
+      question: 'Which famous band is originally from Liverpool?',
+      options: ['Queen', 'Oasis', 'The Beatles', 'Coldplay'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uk-q7',
+      question: 'What is the UK’s national flower of England?',
+      options: ['Rose', 'Thistle', 'Daffodil', 'Shamrock'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'uk-q8',
+      question: 'What is Big Ben actually?',
+      options: [
+        'A palace',
+        'A bridge',
+        'The bell inside the clock tower',
+        'The clock itself',
+      ],
+      correctAnswer: 2,
+    },
+    {
+      id: 'uk-q9',
+      question: 'Which sport originated in England?',
+      options: ['Basketball', 'Cricket', 'Ice hockey', 'Rugby'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'uk-q10',
+      question: 'What year did the Industrial Revolution begin in the UK (approximately)?',
+      options: ['1600', '1700', '1760', '1850'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 46, y: 52 },
