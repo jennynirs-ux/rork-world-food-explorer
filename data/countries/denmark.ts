@@ -45,12 +45,22 @@ export const denmark: Country = {
     {
       name: 'LEGO',
       year: '1932',
-      description: 'Ole Kirk Christiansen founded LEGO, now the world\'s largest toy company.'
+      description: 'Ole Kirk Christiansen founded LEGO, now the world\'s largest toy company and cultural icon.'
     },
     {
       name: 'Loudspeaker',
       year: '1915',
-      description: 'Peter L. Jensen co-invented the modern loudspeaker.'
+      description: 'Peter L. Jensen co-invented the modern loudspeaker, revolutionizing audio technology.'
+    },
+    {
+      name: 'Insulin Pen',
+      year: '1985',
+      description: 'Novo Nordisk developed the first insulin pen, making diabetes management easier for millions.'
+    },
+    {
+      name: 'Wind Turbine Technology',
+      year: '1970s-present',
+      description: 'Denmark pioneered modern wind turbine design and became a world leader in wind energy technology.'
     },
   ],
   mustVisit: [
@@ -165,6 +175,48 @@ export const denmark: Country = {
       question: 'Who wrote The Little Mermaid?',
       options: ['Brothers Grimm', 'Hans Christian Andersen', 'Charles Perrault', 'J.K. Rowling'],
       correctAnswer: 1,
+    },
+    {
+      id: 'denmark-q4',
+      question: 'What is Denmark\'s capital city?',
+      options: ['Stockholm', 'Oslo', 'Copenhagen', 'Helsinki'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'denmark-q5',
+      question: 'What are Danish open-faced sandwiches called?',
+      options: ['Bruschetta', 'Smørrebrød', 'Tartine', 'Crostini'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'denmark-q6',
+      question: 'When did Denmark join the EU?',
+      options: ['1967', '1973', '1981', '1995'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'denmark-q7',
+      question: 'What is the name of Copenhagen\'s famous amusement park?',
+      options: ['Disneyland', 'Tivoli Gardens', 'Liseberg', 'Bakken'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'denmark-q8',
+      question: 'Denmark is consistently ranked as what?',
+      options: ['Richest country', 'Happiest country', 'Largest country', 'Coldest country'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'denmark-q9',
+      question: 'What Danish company makes insulin pens?',
+      options: ['Pfizer', 'Novo Nordisk', 'Roche', 'Bayer'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'denmark-q10',
+      question: 'Which castle is the setting for Shakespeare\'s Hamlet?',
+      options: ['Frederiksborg', 'Rosenborg', 'Kronborg', 'Amalienborg'],
+      correctAnswer: 2,
     },
   ],
   coordinates: { x: 49, y: 56 },

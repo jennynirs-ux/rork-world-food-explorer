@@ -26,6 +26,28 @@ export const czechRepublic: Country = {
     'Czechs consume the most meat per capita in Europe',
   ],
   foodCulture: 'Czech cuisine is hearty and filling, featuring pork, beef, dumplings, and sauerkraut. Meals are substantial and traditionally served with beer. Influenced by Austrian and German cuisines, dishes are rich and savory, perfect for the Central European climate.',
+  innovations: [
+    {
+      name: 'Contact Lenses',
+      year: '1961',
+      description: 'Otto Wichterle invented soft contact lenses, revolutionizing vision correction for millions worldwide.'
+    },
+    {
+      name: 'Word "Robot"',
+      year: '1920',
+      description: 'Karel Čapek coined the word "robot" in his play R.U.R., introducing the concept to global culture.'
+    },
+    {
+      name: 'Pilsner Beer',
+      year: '1842',
+      description: 'Invented the Pilsner style of beer in Plzeň, now the most popular beer style worldwide.'
+    },
+    {
+      name: 'Semtex',
+      year: '1966',
+      description: 'Developed this powerful plastic explosive, widely used in commercial and military applications.'
+    },
+  ],
   history: [
     {
       year: '9th century',
@@ -133,6 +155,79 @@ export const czechRepublic: Country = {
       options: ['Goulash', 'Svíčková', 'Schnitzel', 'Koláče'],
       correctAnswer: 1,
     },
+    {
+      id: 'czech-republic-q4',
+      question: 'Czechs consume the most what per capita in the world?',
+      options: ['Wine', 'Beer', 'Coffee', 'Bread'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'czech-republic-q5',
+      question: 'Who invented soft contact lenses?',
+      options: ['Otto Wichterle', 'Karel Čapek', 'Václav Havel', 'Gregor Mendel'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'czech-republic-q6',
+      question: 'What peaceful revolution occurred in 1989?',
+      options: ['Orange Revolution', 'Velvet Revolution', 'Rose Revolution', 'Cedar Revolution'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'czech-republic-q7',
+      question: 'When did the Czech Republic join the EU?',
+      options: ['1999', '2004', '2007', '2013'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'czech-republic-q8',
+      question: 'What writer coined the word "robot"?',
+      options: ['Franz Kafka', 'Karel Čapek', 'Milan Kundera', 'Václav Havel'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'czech-republic-q9',
+      question: 'What is the famous Czech crystal called?',
+      options: ['Venetian crystal', 'Bohemian crystal', 'Irish crystal', 'Swedish crystal'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'czech-republic-q10',
+      question: 'When was Czechoslovakia peacefully divided?',
+      options: ['1989', '1991', '1993', '1995'],
+      correctAnswer: 2,
+    },
+  ],
+  dessert: {
+    id: 'czech-republic-dessert',
+    name: 'Trdelník',
+    description: 'Sweet pastry rolled in cinnamon sugar, grilled over open flame',
+    cookingTime: 45,
+    servings: 8,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'All-purpose flour', amount: 500, unit: 'g' },
+      { name: 'Milk, warm', amount: 250, unit: 'ml' },
+      { name: 'Butter', amount: 80, unit: 'g' },
+      { name: 'Eggs', amount: 2, unit: 'large' },
+      { name: 'Yeast', amount: 2, unit: 'tsp' },
+      { name: 'Sugar', amount: 100, unit: 'g' },
+      { name: 'Cinnamon', amount: 3, unit: 'tbsp' },
+      { name: 'Walnuts, ground', amount: 100, unit: 'g' },
+    ],
+    steps: [
+      'Dissolve yeast in warm milk with 1 tbsp sugar.',
+      'Mix flour, remaining sugar, melted butter, eggs, and yeast mixture.',
+      'Knead into smooth dough, let rise 1 hour.',
+      'Roll dough into long strips.',
+      'Wrap strips around wooden rolling pins.',
+      'Mix cinnamon, sugar, and ground walnuts.',
+      'Roll dough in cinnamon mixture.',
+      'Grill over open flame or bake at 200°C, turning until golden.',
+      'Slide off pins while warm.',
+      'Serve immediately.',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1590424943373-1036adf74a7f?w=600',
   ],
   coordinates: { x: 50, y: 50 },
 };

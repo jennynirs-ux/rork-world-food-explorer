@@ -128,6 +128,101 @@ export const croatia: Country = {
       options: ['The bow tie', 'The necktie', 'The scarf', 'The beret'],
       correctAnswer: 1,
     },
+    {
+      id: 'croatia-q4',
+      question: 'How many islands does Croatia have?',
+      options: ['Over 500', 'Over 800', 'Over 1,200', 'Over 2,000'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'croatia-q5',
+      question: 'When did Croatia gain independence?',
+      options: ['1989', '1991', '1995', '2000'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'croatia-q6',
+      question: 'What dog breed originates from Croatia?',
+      options: ['Poodle', 'Dalmatian', 'Beagle', 'Husky'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'croatia-q7',
+      question: 'When did Croatia join the European Union?',
+      options: ['2004', '2007', '2013', '2018'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'croatia-q8',
+      question: 'How many UNESCO World Heritage Sites does Croatia have?',
+      options: ['4', '6', '8', '10'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'croatia-q9',
+      question: 'What is the traditional Croatian singing style called?',
+      options: ['Klapa', 'Fado', 'Flamenco', 'Yodeling'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'croatia-q10',
+      question: 'What is the name of Croatia\'s famous lakes national park?',
+      options: ['Krka', 'Plitvice Lakes', 'Mljet', 'Kornati'],
+      correctAnswer: 1,
+    },
   ],
+  innovations: [
+    {
+      name: 'Necktie (Cravat)',
+      year: '17th century',
+      description: 'Croatian mercenaries introduced the cravat to France, which evolved into the modern necktie worn worldwide.'
+    },
+    {
+      name: 'Mechanical Pencil',
+      year: '1906',
+      description: 'Slavoljub Eduard Penkala invented the first solid-ink mechanical pencil and fountain pen, revolutionizing writing instruments.'
+    },
+    {
+      name: 'Parachute',
+      year: '1617',
+      description: 'Faust Vrančić designed and tested an early parachute, documented in his work "Machinae Novae."'
+    },
+    {
+      name: 'AC Electric Motor',
+      year: '1880s',
+      description: 'Nikola Tesla, born in Croatia, invented the AC induction motor and polyphase electrical system, powering the modern world.'
+    },
+  ],
+  dessert: {
+    id: 'croatia-dessert',
+    name: 'Kremšnita',
+    description: 'Creamy custard slice - layers of puff pastry with vanilla custard cream, a beloved Croatian dessert',
+    cookingTime: 90,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Puff pastry sheets', amount: 500, unit: 'g' },
+      { name: 'Whole milk', amount: 1000, unit: 'ml' },
+      { name: 'Egg yolks', amount: 6, unit: 'large' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Vanilla pudding powder', amount: 80, unit: 'g' },
+      { name: 'Butter', amount: 100, unit: 'g' },
+      { name: 'Heavy cream', amount: 300, unit: 'ml' },
+      { name: 'Powdered sugar for dusting', amount: 50, unit: 'g' },
+    ],
+    steps: [
+      'Bake puff pastry sheets at 200°C until golden and crispy.',
+      'Heat milk with half the sugar.',
+      'Whisk egg yolks with remaining sugar and pudding powder.',
+      'Temper eggs with hot milk, return to pot.',
+      'Cook until thick, stirring constantly.',
+      'Remove from heat, add butter, stir until smooth.',
+      'Let cool slightly.',
+      'Whip heavy cream to stiff peaks, fold into custard.',
+      'Place one pastry layer in pan, spread custard, top with second layer.',
+      'Refrigerate for 4 hours, dust with powdered sugar before serving.',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+  },
   coordinates: { x: 50, y: 45 },
 };

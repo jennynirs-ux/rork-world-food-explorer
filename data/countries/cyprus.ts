@@ -26,6 +26,28 @@ export const cyprus: Country = {
     'Commandaria is one of the oldest named wines in the world',
   ],
   foodCulture: 'Cypriot cuisine is a delicious blend of Greek, Turkish, and Middle Eastern influences. Meze culture is central, with tables filled with dozens of small dishes. Fresh ingredients, olive oil, and grilled meats are staples.',
+  innovations: [
+    {
+      name: 'Halloumi Cheese',
+      year: 'Medieval',
+      description: 'Created unique high-temperature resistant cheese that can be grilled without melting, now popular worldwide.'
+    },
+    {
+      name: 'Commandaria Wine',
+      year: '800 BC',
+      description: 'One of the world\'s oldest named wines still in production, a sweet dessert wine made using ancient methods.'
+    },
+    {
+      name: 'Copper Metallurgy',
+      year: '4000 BC',
+      description: 'Ancient Cyprus was a major center of copper production, giving the metal its name (from Latin cuprum, meaning "from Cyprus").'
+    },
+    {
+      name: 'Bi-communal Education Models',
+      year: '1990s-present',
+      description: 'Developed innovative approaches to education in divided societies, studied by conflict resolution experts worldwide.'
+    },
+  ],
   history: [
     {
       year: '1400 BC',
@@ -135,6 +157,82 @@ export const cyprus: Country = {
       options: ['Athena', 'Artemis', 'Hera', 'Aphrodite'],
       correctAnswer: 3,
     },
+    {
+      id: 'cyprus-q4',
+      question: 'When did Cyprus gain independence?',
+      options: ['1955', '1960', '1965', '1970'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cyprus-q5',
+      question: 'What is one of the oldest named wines in the world from Cyprus?',
+      options: ['Port', 'Sherry', 'Commandaria', 'Madeira'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cyprus-q6',
+      question: 'What metal gave Cyprus its name?',
+      options: ['Gold', 'Silver', 'Copper', 'Bronze'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cyprus-q7',
+      question: 'What year was Cyprus divided?',
+      options: ['1964', '1974', '1984', '1994'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cyprus-q8',
+      question: 'How many days of sunshine does Cyprus have per year?',
+      options: ['250', '300', '340', '365'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cyprus-q9',
+      question: 'Which empire ruled Cyprus for over 300 years?',
+      options: ['Roman', 'Byzantine', 'Ottoman', 'British'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cyprus-q10',
+      question: 'What unique feature does Nicosia have?',
+      options: ['Highest capital', 'Oldest capital', 'Last divided capital', 'Smallest capital'],
+      correctAnswer: 2,
+    },
+  ],
+  dessert: {
+    id: 'cyprus-dessert',
+    name: 'Galaktoboureko',
+    description: 'Custard-filled phyllo pastry soaked in honey syrup, a beloved Cypriot dessert',
+    cookingTime: 60,
+    servings: 12,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Phyllo pastry', amount: 500, unit: 'g' },
+      { name: 'Whole milk', amount: 1000, unit: 'ml' },
+      { name: 'Semolina', amount: 150, unit: 'g' },
+      { name: 'Sugar', amount: 200, unit: 'g' },
+      { name: 'Eggs', amount: 4, unit: 'large' },
+      { name: 'Butter, melted', amount: 200, unit: 'g' },
+      { name: 'Vanilla extract', amount: 2, unit: 'tsp' },
+      { name: 'Honey', amount: 200, unit: 'g' },
+      { name: 'Water for syrup', amount: 200, unit: 'ml' },
+    ],
+    steps: [
+      'Heat milk with half the sugar.',
+      'Whisk in semolina gradually, cook until thick.',
+      'Remove from heat, cool slightly.',
+      'Beat eggs with remaining sugar and vanilla.',
+      'Mix egg mixture into cooled semolina custard.',
+      'Layer half the phyllo in buttered pan, brushing each with butter.',
+      'Pour custard over phyllo.',
+      'Top with remaining phyllo sheets, each brushed with butter.',
+      'Score into squares, bake at 180°C for 40 minutes until golden.',
+      'Make syrup by boiling honey, sugar, and water.',
+      'Pour hot syrup over warm pastry.',
+      'Let cool completely before serving.',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600',
   ],
   coordinates: { x: 55, y: 35 },
 };

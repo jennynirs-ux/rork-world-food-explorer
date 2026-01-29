@@ -45,12 +45,22 @@ export const cuba: Country = {
     {
       name: 'Lung Cancer Vaccine',
       year: '2011',
-      description: 'Cuban scientists developed CimaVax, a therapeutic vaccine for lung cancer.'
+      description: 'Cuban scientists developed CimaVax, a therapeutic vaccine for lung cancer, now used worldwide.'
     },
     {
       name: 'Meningitis B Vaccine',
       year: '1980s',
-      description: 'Cuba was the first country to develop an effective vaccine against Meningitis B.'
+      description: 'Cuba was the first country to develop an effective vaccine against Meningitis B, saving countless lives globally.'
+    },
+    {
+      name: 'Heberprot-P',
+      year: '2006',
+      description: 'Revolutionary treatment for diabetic foot ulcers that prevents amputations, used in over 20 countries.'
+    },
+    {
+      name: 'Medical Diplomacy Model',
+      year: '1960s-present',
+      description: 'Pioneered international medical cooperation, sending doctors worldwide and creating a model for healthcare diplomacy.'
     },
   ],
   mustVisit: [
@@ -159,6 +169,48 @@ export const cuba: Country = {
       id: 'cuba-q3',
       question: 'What type of cars is Cuba famous for?',
       options: ['Modern electric cars', 'Vintage 1950s American cars', 'Japanese sports cars', 'German luxury cars'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cuba-q4',
+      question: 'When did the Cuban Revolution occur?',
+      options: ['1955', '1959', '1963', '1967'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cuba-q5',
+      question: 'What is Cuba\'s national sport?',
+      options: ['Soccer', 'Basketball', 'Baseball', 'Boxing'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cuba-q6',
+      question: 'What is Cuba\'s literacy rate?',
+      options: ['85%', '92%', '99.8%', '100%'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cuba-q7',
+      question: 'What famous cocktail originated in Cuba?',
+      options: ['Margarita', 'Mojito', 'Pina Colada', 'Cosmopolitan'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'cuba-q8',
+      question: 'How many UNESCO World Heritage Sites does Cuba have?',
+      options: ['5', '7', '9', '11'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'cuba-q9',
+      question: 'What is the smallest bird in the world, found in Cuba?',
+      options: ['Bee hummingbird', 'Ruby-throated hummingbird', 'Canary', 'Finch'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'cuba-q10',
+      question: 'What vaccine did Cuba pioneer in the 1980s?',
+      options: ['Polio', 'Meningitis B', 'Measles', 'Hepatitis'],
       correctAnswer: 1,
     },
   ],
