@@ -57,6 +57,33 @@ export const venezuela: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=600',
   },
+  dessert: {
+    id: 'venezuela-dessert',
+    name: 'Quesillo',
+    description:
+      'Classic Venezuelan caramel flan made with eggs, condensed milk, and vanilla',
+    cookingTime: 90,
+    servings: 8,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Eggs', amount: 6, unit: 'pieces' },
+      { name: 'Sweetened condensed milk', amount: 395, unit: 'g' },
+      { name: 'Whole milk', amount: 400, unit: 'ml' },
+      { name: 'Sugar', amount: 150, unit: 'g' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Melt sugar in a pan until golden caramel',
+      'Pour caramel into a flan mold and coat the bottom',
+      'Blend eggs, condensed milk, whole milk, and vanilla gently',
+      'Pour mixture into caramel-lined mold',
+      'Cover and place mold in a water bath',
+      'Bake at 180°C for 60 minutes',
+      'Cool completely, then refrigerate at least 2 hours',
+      'Unmold before serving',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=600',
+  },
   drinks: {
     alcoholic: 'Polar beer, Venezuelan rum, Ponche Crema',
     nonAlcoholic:
