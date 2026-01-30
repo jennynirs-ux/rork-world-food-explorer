@@ -7,7 +7,8 @@ export const unitedStates: Country = {
   continent: 'North America',
   flag: '🇺🇸',
   landscapeImage: 'https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800',
-  description: 'The United States is a vast country stretching across North America with diverse landscapes, cultures, and cities. Known for innovation, entertainment, and the American Dream.',
+  description:
+    'The United States is a vast country stretching across North America with diverse landscapes, cultures, and cities. Known for innovation, entertainment, and the American Dream.',
   quickFacts: [
     { label: 'Capital', value: 'Washington, D.C.' },
     { label: 'Population', value: '331 million' },
@@ -16,85 +17,133 @@ export const unitedStates: Country = {
     { label: 'Area', value: '9,833,520 km²' },
   ],
   facts: [
-    'The US has the world\'s largest economy',
+    'The US has the world’s largest economy',
     'There are 50 states, with Alaska being the largest and Rhode Island the smallest',
     'The US produces more movies and TV shows than any other country',
-    'Americans invented the internet, airplane, and assembly line production',
-    'The US has the most diverse ecosystems, from deserts to rainforests to arctic tundra',
+    'Americans pioneered the internet, airplane, and assembly-line production',
+    'The country spans deserts, rainforests, mountains, plains, and arctic tundra',
     'New York City is the most linguistically diverse city in the world',
-    'The national park system includes 63 parks protecting natural wonders',
-    'American fast food culture has influenced dining worldwide',
+    'The national park system protects 63 major natural landmarks',
+    'American fast-food culture has influenced dining worldwide',
   ],
-  foodCulture: 'American cuisine is incredibly diverse, reflecting immigrant influences from around the world. Known for generous portions, BBQ traditions, and iconic foods like burgers and apple pie. Regional cuisines vary dramatically from New York pizza to Texas BBQ to California fusion.',
+  foodCulture:
+    'American cuisine is extremely diverse, shaped by immigrant cultures from around the world. Known for generous portions, regional BBQ traditions, and iconic foods like burgers and apple pie. Regional food varies widely from New York pizza to Texas BBQ and California fusion.',
   history: [
     {
       year: '1776',
       title: 'Declaration of Independence',
-      description: 'The 13 colonies declared independence from Britain, founding a new nation based on democratic principles.'
+      description:
+        'The 13 colonies declared independence from Britain, founding a new nation based on democratic principles.',
     },
     {
-      year: '1861-1865',
-      title: 'Civil War',
-      description: 'A devastating war between Northern and Southern states over slavery and states\' rights, ending with abolition.'
+      year: '1861–1865',
+      title: 'American Civil War',
+      description:
+        'A war between Northern and Southern states over slavery and states’ rights, ending with abolition.',
     },
     {
       year: '1969',
       title: 'Moon Landing',
-      description: 'NASA\'s Apollo 11 mission put the first humans on the moon, with Neil Armstrong\'s historic first steps.'
+      description:
+        'NASA’s Apollo 11 mission put the first humans on the Moon, led by Neil Armstrong.',
     },
     {
-      year: '2001',
-      title: 'Digital Age',
-      description: 'Silicon Valley companies like Apple, Google, and Facebook revolutionized technology and communication.'
+      year: '2000s',
+      title: 'Digital & Tech Era',
+      description:
+        'Silicon Valley companies reshaped global technology, communication, and innovation.',
     },
   ],
   innovations: [
     {
       name: 'Light Bulb',
       year: '1879',
-      description: 'Thomas Edison created the first practical incandescent light bulb.'
+      description: 'Thomas Edison developed the first practical incandescent light bulb.',
     },
     {
       name: 'Airplane',
       year: '1903',
-      description: 'Wright Brothers achieved the first powered, sustained, and controlled airplane flight.'
+      description:
+        'The Wright Brothers achieved the first powered, controlled airplane flight.',
     },
     {
       name: 'Internet',
       year: '1969',
-      description: 'ARPANET, the precursor to the internet, was developed by the US Department of Defense.'
+      description:
+        'ARPANET, the precursor to the modern internet, was developed in the US.',
     },
     {
-      name: 'iPhone',
+      name: 'Smartphone Revolution',
       year: '2007',
-      description: 'Apple revolutionized mobile phones and computing with the first iPhone.'
+      description:
+        'Apple’s iPhone transformed mobile communication and computing.',
     },
   ],
   mustVisit: [
-    { name: 'Grand Canyon', description: 'Spectacular natural wonder with breathtaking views of layered red rocks carved by the Colorado River.' },
-    { name: 'Statue of Liberty', description: 'Iconic symbol of freedom in New York Harbor, gift from France in 1886.' },
-    { name: 'Yellowstone National Park', description: 'First national park in the world, featuring geysers, hot springs, and diverse wildlife.' },
-    { name: 'Golden Gate Bridge', description: 'Stunning suspension bridge spanning San Francisco Bay, an engineering marvel.' },
-    { name: 'French Quarter, New Orleans', description: 'Historic neighborhood with vibrant music, Creole cuisine, and unique architecture.' }
+    {
+      name: 'Grand Canyon',
+      description:
+        'A vast natural wonder carved by the Colorado River with dramatic layered cliffs.',
+    },
+    {
+      name: 'Statue of Liberty',
+      description:
+        'Iconic symbol of freedom in New York Harbor, gifted by France in 1886.',
+    },
+    {
+      name: 'Yellowstone National Park',
+      description:
+        'The world’s first national park, famous for geysers and wildlife.',
+    },
+    {
+      name: 'Golden Gate Bridge',
+      description:
+        'A landmark suspension bridge spanning San Francisco Bay.',
+    },
+    {
+      name: 'French Quarter, New Orleans',
+      description:
+        'Historic area known for jazz, Creole cuisine, and vibrant nightlife.',
+    },
   ],
   travelEssentials: [
-    { item: 'Best time to visit', description: 'Varies by region - generally spring (April-May) and fall (September-October).' },
-    { item: 'Driver\'s license', description: 'A car is essential for exploring most of America outside major cities.' },
-    { item: 'Travel insurance', description: 'Healthcare is expensive - travel insurance is crucial.' },
-    { item: 'Power adapter', description: 'US uses Type A and B plugs with 120V.' },
-    { item: 'Comfortable shoes', description: 'Distances are vast - expect lots of walking in cities, driving between destinations.' },
-    { item: 'Tipping knowledge', description: '15-20% tip expected at restaurants, bars, and for services.' }
+    {
+      item: 'Best time to visit',
+      description:
+        'Varies by region; spring and fall are ideal for most destinations.',
+    },
+    {
+      item: 'Transportation',
+      description:
+        'A car is essential outside major cities; distances are long.',
+    },
+    {
+      item: 'Travel insurance',
+      description:
+        'Strongly recommended due to high healthcare costs.',
+    },
+    {
+      item: 'Power',
+      description:
+        'Type A & B plugs, 120V electricity.',
+    },
+    {
+      item: 'Tipping',
+      description:
+        '15–20% tips expected in restaurants and service industries.',
+    },
   ],
   mainDish: {
     id: 'united-states-main',
     name: 'Classic Burger with Fries',
-    description: 'Juicy beef burger with cheese, lettuce, tomato, and crispy french fries',
+    description:
+      'Juicy beef burger with melted cheese, fresh toppings, and crispy fries.',
     cookingTime: 30,
     servings: 4,
     dietType: 'meat',
     ingredients: [
       { name: 'Ground beef (80/20)', amount: 600, unit: 'g' },
-      { name: 'Burger buns', amount: 4, unit: 'buns' },
+      { name: 'Burger buns', amount: 4, unit: 'pieces' },
       { name: 'Cheddar cheese slices', amount: 4, unit: 'slices' },
       { name: 'Lettuce', amount: 4, unit: 'leaves' },
       { name: 'Tomato', amount: 1, unit: 'large' },
@@ -104,22 +153,22 @@ export const unitedStates: Country = {
       { name: 'Salt and pepper', amount: 1, unit: 'to taste' },
     ],
     steps: [
-      'Cut potatoes into fries, soak in cold water for 30 minutes',
-      'Form ground beef into 4 patties, season generously with salt and pepper',
+      'Cut potatoes into fries and soak in cold water for 30 minutes',
+      'Form beef into 4 patties and season generously',
       'Heat grill or pan to high heat',
-      'Dry fries, fry at 160°C until soft, then at 180°C until crispy and golden',
-      'Cook burger patties 3-4 minutes per side for medium',
-      'Add cheese in last minute, let melt',
-      'Toast burger buns lightly',
-      'Assemble: bun bottom, lettuce, tomato, burger with cheese, onion, pickles, sauces, bun top',
-      'Serve immediately with hot fries and ketchup',
+      'Fry potatoes at 160°C until soft, then 180°C until golden',
+      'Cook patties 3–4 minutes per side',
+      'Add cheese during final minute',
+      'Toast buns lightly',
+      'Assemble burgers with toppings and serve with fries',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600',
   },
   dessert: {
     id: 'united-states-dessert',
     name: 'Apple Pie',
-    description: 'Classic American dessert with spiced apples in a flaky, buttery crust',
+    description:
+      'Classic American dessert with spiced apples in a flaky buttery crust.',
     cookingTime: 90,
     servings: 8,
     dietType: 'vegetarian',
@@ -132,45 +181,46 @@ export const unitedStates: Country = {
       { name: 'Nutmeg', amount: 1, unit: 'tsp' },
       { name: 'Lemon juice', amount: 2, unit: 'tbsp' },
       { name: 'Flour', amount: 3, unit: 'tbsp' },
+      { name: 'Egg (for egg wash)', amount: 1, unit: 'whole' },
     ],
     steps: [
       'Preheat oven to 190°C (375°F)',
       'Peel and slice apples thinly',
-      'Mix apples with sugar, cinnamon, nutmeg, lemon juice, and flour',
-      'Roll out half the pie dough and place in 9-inch pie pan',
-      'Fill with apple mixture, dot with butter',
-      'Roll out remaining dough for top crust',
-      'Cover pie, seal edges, cut slits for steam to escape',
-      'Brush with egg wash, sprinkle with sugar',
-      'Bake 45-50 minutes until crust is golden and filling bubbles',
-      'Cool before serving, excellent with vanilla ice cream',
+      'Mix apples with sugar, spices, lemon juice, and flour',
+      'Line pie pan with bottom crust',
+      'Fill with apple mixture and dot with butter',
+      'Cover with top crust, seal edges, cut steam vents',
+      'Brush with egg wash and sprinkle sugar',
+      'Bake 45–50 minutes until golden and bubbling',
+      'Cool before serving (best with vanilla ice cream)',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=600',
   },
   drinks: {
-    alcoholic: 'Bourbon whiskey, Craft beer, California wine, Cocktails (Martini, Manhattan)',
-    nonAlcoholic: 'Coca-Cola, Root beer, Sweet tea (South), Coffee (Starbucks culture)',
+    alcoholic:
+      'Bourbon, craft beer, California wine, classic cocktails',
+    nonAlcoholic:
+      'Coca-Cola, root beer, sweet tea, specialty coffee',
   },
   music: [
     'The Star-Spangled Banner',
-    'Born in the U.S.A. - Bruce Springsteen',
-    'Empire State of Mind - Jay-Z ft. Alicia Keys',
-    'Sweet Home Alabama - Lynyrd Skynyrd',
-    'California Dreamin\' - The Mamas & the Papas',
+    'Born in the U.S.A. – Bruce Springsteen',
+    'Empire State of Mind – Jay-Z ft. Alicia Keys',
+    'Sweet Home Alabama – Lynyrd Skynyrd',
+    'California Dreamin’ – The Mamas & the Papas',
   ],
   decorationIdeas: [
     'Red, white, and blue patriotic colors',
     'Stars and stripes patterns',
-    'Vintage Route 66 signs',
-    'Baseball and Americana themes',
-    'State flag representations',
+    'Route 66 & Americana themes',
+    'Baseball and classic diner decor',
   ],
   conversationStarters: [
-    'Which US cities have you visited or want to visit?',
+    'Which US cities have you visited?',
     'East Coast or West Coast?',
-    'What\'s your favorite American food?',
+    'What’s your favorite American food?',
     'Have you ever done a US road trip?',
-    'Which American national park would you most like to see?',
+    'Which national park would you most like to see?',
   ],
   quiz: [
     {
@@ -193,13 +243,13 @@ export const unitedStates: Country = {
     },
     {
       id: 'united-states-q4',
-      question: 'Which city is known as the "Big Apple"?',
+      question: 'Which city is known as the “Big Apple”?',
       options: ['Los Angeles', 'Chicago', 'New York City', 'Boston'],
       correctAnswer: 2,
     },
     {
       id: 'united-states-q5',
-      question: 'What is America\'s national bird?',
+      question: 'What is the national bird of the United States?',
       options: ['Eagle', 'Bald Eagle', 'Turkey', 'Falcon'],
       correctAnswer: 1,
     },
