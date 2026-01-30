@@ -26,6 +26,12 @@ export const indonesia: Country = {
     'Bali is one of the world\'s most popular tourist destinations',
   ],
   foodCulture: 'Indonesian cuisine is incredibly diverse, varying by island and ethnic group. Rice is the staple, and dishes are often spicy with aromatic herbs and spices. Satay, rendang, and nasi goreng are famous worldwide.',
+  innovations: [
+    { name: 'Batik Textile Art', year: '8th Century', description: 'Ancient wax-resist dyeing technique recognized by UNESCO as Intangible Cultural Heritage of Humanity' },
+    { name: 'Gamelan Musical Innovation', year: '8th Century', description: 'Complex orchestral ensemble music unique to Indonesia, influencing modern composers worldwide' },
+    { name: 'Tempeh Fermentation', year: '12th Century', description: 'Soy fermentation technique creating a nutritious protein source, now popular globally' },
+    { name: 'Go-Jek App-based Transportation', year: '2010', description: 'Pioneering Southeast Asian super-app combining ride-hailing, food delivery, and digital payments' },
+  ],
   history: [
     {
       year: '8th-9th Century',

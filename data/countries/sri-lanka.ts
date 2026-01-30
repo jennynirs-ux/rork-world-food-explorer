@@ -28,6 +28,12 @@ export const sriLanka: Country = {
   ],
   foodCulture:
     'Sri Lankan cuisine is deeply aromatic and spice-driven, centered around rice served with multiple curries, sambols, and pickles. Coconut milk, curry leaves, chili, and spices are essential.',
+  innovations: [
+    { name: 'Ancient Irrigation Systems', year: '300 BC', description: 'Sophisticated hydraulic engineering with massive reservoirs and canal networks still in use today' },
+    { name: 'Ceylon Tea Cultivation', year: '1867', description: 'Perfected tea cultivation and processing, creating world-renowned Ceylon tea varieties' },
+    { name: 'Sigiriya Fortress Architecture', year: '5th Century', description: 'Engineering marvel combining rock fortress, water gardens, and frescoes at 200m height' },
+    { name: 'Ayurvedic Medicine Practice', year: 'Ancient', description: 'Preserved and developed traditional Ayurvedic healing practices over 3,000 years' },
+  ],
   history: [
     {
       year: '543 BC',

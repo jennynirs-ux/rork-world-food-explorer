@@ -25,6 +25,11 @@ export const somalia: Country = {
   ],
   foodCulture:
     'Somali cuisine reflects East African, Yemeni, and Italian influences. Meals often feature rice, pasta, grilled meats, and flatbread. Spices like cumin, cardamom, and coriander are prominent.',
+  innovations: [
+    { name: 'Somali Writing System', year: '1920s-1972', description: 'Development of Osmanya and later Latin-based scripts for the Somali language, promoting literacy' },
+    { name: 'Ancient Frankincense Trade', year: 'Ancient', description: 'Pioneered global trade routes for frankincense and myrrh, connecting Africa, Arabia, and Asia' },
+    { name: 'Mobile Money Innovation', year: '2000s', description: 'Despite challenges, Somalia developed one of Africa\'s most advanced mobile money systems' },
+  ],
   mainDish: {
     id: 'somalia-main',
     name: 'Bariis Iskukaris',

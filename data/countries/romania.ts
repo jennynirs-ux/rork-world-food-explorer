@@ -26,6 +26,11 @@ export const romania: Country = {
     'Romania is one of the largest wine producers in Europe',
   ],
   foodCulture: 'Romanian cuisine is a hearty mix of Balkan, Turkish, and Hungarian influences. Pork, poultry, and lamb are the main meats, often grilled or stewed. Polenta (mămăligă) is a staple, and meals are often accompanied by pickled vegetables and strong plum brandy.',
+  innovations: [
+    { name: 'Fountain Pen', year: '1827', description: 'Petrache Poenaru invented the world\'s first fountain pen with a replaceable ink cartridge' },
+    { name: 'Jet Engine', year: '1910', description: 'Henri Coandă created the first jet-powered aircraft, demonstrating the Coandă effect' },
+    { name: 'Insulin Treatment', year: '1921', description: 'Nicolae Paulescu pioneered pancreatic extract research that led to diabetes treatment' },
+  ],
   history: [
     {
       year: '106 AD',

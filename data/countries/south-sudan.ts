@@ -25,6 +25,11 @@ export const southSudan: Country = {
   ],
   foodCulture:
     'South Sudanese cuisine is based on local grains and vegetables such as sorghum, millet, cassava, okra, and peanuts. Meals are often simple, filling, and shared communally.',
+  innovations: [
+    { name: 'Sudd Wetland Management', year: 'Traditional', description: 'Indigenous knowledge of navigating and living sustainably within one of the world\'s largest wetlands' },
+    { name: 'Kisra Fermentation', year: 'Traditional', description: 'Ancient sourdough-like fermentation technique for sorghum flatbread, preserving nutrition' },
+    { name: 'Cattle Herding Traditions', year: 'Ancient', description: 'Advanced pastoral systems for managing cattle herds in challenging semi-arid environments' },
+  ],
   mainDish: {
     id: 'south-sudan-main',
     name: 'Kisra with Mullah',

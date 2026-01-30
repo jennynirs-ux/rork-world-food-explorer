@@ -24,6 +24,12 @@ export const uzbekistan: Country = {
   ],
   foodCulture:
     'Uzbek cuisine is hearty and communal, centered on rice, lamb, bread (non), and seasonal produce, with Central Asian and Persian influences.',
+  innovations: [
+    { name: 'Islamic Golden Age Astronomy', year: '9th-15th Century', description: 'Ulugh Beg\'s observatory in Samarkand produced groundbreaking astronomical calculations' },
+    { name: 'Silk Road Trading System', year: 'Ancient', description: 'Developed sophisticated merchant networks and caravanserais connecting East and West' },
+    { name: 'Ikat Textile Technique', year: 'Traditional', description: 'Perfected resist-dyeing technique creating vibrant Uzbek silk fabrics admired worldwide' },
+    { name: 'Architectural Tilework', year: '14th-16th Century', description: 'Revolutionized Islamic architecture with intricate blue ceramic tilework and majolica' },
+  ],
   mainDish: {
     id: 'uzbekistan-main',
     name: 'Plov (Osh)',

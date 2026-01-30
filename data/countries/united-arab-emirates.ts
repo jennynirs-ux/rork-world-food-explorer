@@ -25,6 +25,12 @@ export const unitedArabEmirates: Country = {
   ],
   foodCulture:
     'Emirati cuisine is rooted in Bedouin traditions and shaped by Arab, Persian, and Indian influences. Dates, rice, lamb, wheat, and aromatic spices are staples, often served communally.',
+  innovations: [
+    { name: 'Vertical City Architecture', year: '2010', description: 'Burj Khalifa (828m) revolutionized skyscraper engineering and vertical urban design' },
+    { name: 'Desert Farming Techniques', year: 'Ancient-Modern', description: 'Advanced hydroponics and desalination enabling agriculture in extreme desert conditions' },
+    { name: 'Solar Energy Innovation', year: '2013', description: 'Mohammed bin Rashid Al Maktoum Solar Park, one of world\'s largest solar energy projects' },
+    { name: 'Artificial Islands', year: '2001', description: 'Palm Jumeirah pioneered large-scale land reclamation creating iconic palm-shaped islands' },
+  ],
   history: [
     {
       year: 'Pre-1800s',

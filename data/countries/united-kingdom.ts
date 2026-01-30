@@ -26,6 +26,12 @@ export const unitedKingdom: Country = {
   ],
   foodCulture:
     'British cuisine is hearty and regional, from fish and chips and Sunday roasts to Scottish haggis and Welsh rarebit. Tea culture is iconic, and pub food is a big part of everyday life.',
+  innovations: [
+    { name: 'Steam Engine', year: '1765', description: 'James Watt\'s improved steam engine sparked the Industrial Revolution' },
+    { name: 'World Wide Web', year: '1989', description: 'Tim Berners-Lee invented the web at CERN, transforming global communication' },
+    { name: 'Railway System', year: '1825', description: 'First public railway opened, revolutionizing transportation and commerce' },
+    { name: 'DNA Structure Discovery', year: '1953', description: 'Watson, Crick, Franklin, and Wilkins discovered DNA\'s double helix structure' },
+  ],
   history: [
     {
       year: '43 AD',

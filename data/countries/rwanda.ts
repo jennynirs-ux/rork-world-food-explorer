@@ -23,6 +23,11 @@ export const rwanda: Country = {
     'Rwanda has the highest percentage of women in parliament globally',
   ],
   foodCulture: 'Rwandan cuisine is based on staples like sweet potatoes, beans, cassava, and plantains. Meals are simple but flavorful, often accompanied by meat or fish stews.',
+  innovations: [
+    { name: 'Imigongo Cow Dung Art', year: 'Traditional', description: 'Unique geometric art form using cow dung mixed with natural pigments, now internationally recognized' },
+    { name: 'Zipline Medical Drone Delivery', year: '2016', description: 'First national drone delivery network for emergency medical supplies, saving thousands of lives' },
+    { name: 'Gender Equality in Parliament', year: '2008', description: 'Rwanda became the first country to achieve majority female representation in parliament (61%)' },
+  ],
   mainDish: {
     id: 'rwanda-main',
     name: 'Isombe',

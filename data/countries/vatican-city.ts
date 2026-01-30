@@ -26,6 +26,12 @@ export const vaticanCity: Country = {
   ],
   foodCulture:
     'Vatican cuisine is essentially Italian—especially Roman—featuring simple, high-quality ingredients like pasta, olive oil, cheese, vegetables, and espresso culture.',
+  innovations: [
+    { name: 'Renaissance Art Patronage', year: '15th-16th Century', description: 'Vatican commissioned masterpieces by Michelangelo, Raphael, transforming Western art' },
+    { name: 'Gregorian Calendar', year: '1582', description: 'Pope Gregory XIII reformed the Julian calendar, creating system still used globally' },
+    { name: 'Vatican Library System', year: '1475', description: 'One of oldest libraries, pioneering manuscript preservation and cataloging methods' },
+    { name: 'Diplomatic Protocol', year: 'Medieval-Modern', description: 'Developed modern diplomatic practices and international law frameworks' },
+  ],
   mainDish: {
     id: 'vatican-main',
     name: 'Cacio e Pepe',

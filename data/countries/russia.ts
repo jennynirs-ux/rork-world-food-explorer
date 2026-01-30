@@ -26,6 +26,12 @@ export const russia: Country = {
     'The country produces about 10 million barrels of oil per day',
   ],
   foodCulture: 'Russian cuisine is hearty and filling, designed to warm people during long, cold winters. It features abundant use of potatoes, bread, meat, fish, mushrooms, and berries. Meals are often accompanied by tea or vodka, and hospitality is deeply rooted in Russian culture.',
+  innovations: [
+    { name: 'Periodic Table', year: '1869', description: 'Dmitri Mendeleev created the periodic table of elements, fundamental to modern chemistry' },
+    { name: 'Space Exploration', year: '1957', description: 'Launch of Sputnik 1, first artificial satellite, and Yuri Gagarin as first human in space (1961)' },
+    { name: 'Tetris Video Game', year: '1984', description: 'Alexey Pajitnov created Tetris, one of the most recognizable and influential video games ever made' },
+    { name: 'Radio Invention', year: '1895', description: 'Alexander Popov demonstrated the first radio receiver, pioneering wireless communication' },
+  ],
   history: [
     {
       year: '862',

@@ -27,6 +27,12 @@ export const yemen: Country = {
   ],
   foodCulture:
     'Yemeni cuisine is hearty and communal, centered around stews, flatbreads, and spiced meats. Meals are often eaten by hand and shared from a single dish. Fenugreek, chili, and aromatic spices are common.',
+  innovations: [
+    { name: 'Coffee Cultivation', year: '6th Century', description: 'Yemen pioneered coffee cultivation and trade, with Mocha port giving name to coffee variety' },
+    { name: 'Tower House Architecture', year: 'Medieval', description: 'Distinctive multi-story mud-brick buildings, pioneering vertical living in Old Sana\'a' },
+    { name: 'Ancient Dam Engineering', year: '8th Century BC', description: 'Marib Dam was one of ancient world\'s greatest engineering achievements, irrigating vast areas' },
+    { name: 'Frankincense Trade Routes', year: 'Ancient', description: 'Established global trade networks for frankincense and myrrh, connecting civilizations' },
+  ],
   history: [
     {
       year: '1000 BC',

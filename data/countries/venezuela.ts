@@ -25,6 +25,11 @@ export const venezuela: Country = {
   ],
   foodCulture:
     'Venezuelan cuisine features corn-based dishes, tropical fruits, and grilled meats. Arepas are eaten daily. Indigenous, African, and Spanish influences blend together.',
+  innovations: [
+    { name: 'Oil Refining Techniques', year: '1914', description: 'Pioneered techniques for refining heavy crude oil from world\'s largest reserves' },
+    { name: 'Catatumbo Lightning Study', year: 'Ongoing', description: 'Unique meteorological phenomenon creating most lightning strikes on Earth, advancing atmospheric science' },
+    { name: 'Arepa Culinary Tradition', year: 'Pre-Columbian', description: 'Ancient corn-based food adapted into versatile national dish with countless variations' },
+  ],
   mainDish: {
     id: 'venezuela-main',
     name: 'Pabellón Criollo',

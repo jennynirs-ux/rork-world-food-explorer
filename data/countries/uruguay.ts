@@ -25,6 +25,11 @@ export const uruguay: Country = {
   ],
   foodCulture:
     'Uruguayan cuisine revolves around beef and asado (barbecue). Italian immigration influenced pasta dishes. Mate tea is a daily ritual, and dulce de leche is beloved.',
+  innovations: [
+    { name: 'Progressive Social Policies', year: '1913', description: 'First country to establish 8-hour workday and welfare state, pioneering workers\' rights' },
+    { name: 'Renewable Energy Leadership', year: '2015', description: 'Achieved 98% renewable electricity, becoming global leader in clean energy transition' },
+    { name: 'Digital Government Services', year: '2008', description: 'Plan Ceibal provided free laptops to all schoolchildren, pioneering digital education' },
+  ],
   mainDish: {
     id: 'uruguay-main',
     name: 'Asado',

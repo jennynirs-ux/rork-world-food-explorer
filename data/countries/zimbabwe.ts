@@ -27,6 +27,12 @@ export const zimbabwe: Country = {
   ],
   foodCulture:
     'Zimbabwean cuisine is centered around sadza (thick maize porridge) served with relishes such as leafy greens, beans, peanut sauce, and stews. Meals are often shared communally and traditionally eaten by hand. Grilled meats and seasonal vegetables are also common.',
+  innovations: [
+    { name: 'Great Zimbabwe Stone Construction', year: '11th-15th Century', description: 'Massive dry-stone walls built without mortar, demonstrating advanced architectural engineering' },
+    { name: 'Shona Stone Sculpture', year: '1950s-Present', description: 'Contemporary sculptural movement blending traditional forms with modern artistry, globally acclaimed' },
+    { name: 'Mbira Musical Innovation', year: 'Ancient', description: 'Thumb piano instrument creating complex polyphonic music, influencing world music' },
+    { name: 'Terraced Farming Systems', year: 'Ancient', description: 'Developed sustainable hillside agriculture techniques for Zimbabwe\'s varied terrain' },
+  ],
   history: [
     {
       year: '11th–15th century',

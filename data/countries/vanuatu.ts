@@ -24,6 +24,11 @@ export const vanuatu: Country = {
   ],
   foodCulture:
     'Ni-Vanuatu cuisine features root vegetables, coconut, seafood, and dishes cooked in earth ovens. Lap lap is considered the national dish.',
+  innovations: [
+    { name: 'Land Diving Ritual', year: 'Ancient', description: 'Traditional vine jumping ceremony that inspired modern bungee jumping' },
+    { name: 'Sand Drawing Art', year: 'Traditional', description: 'UNESCO-recognized ephemeral geometric drawings used for storytelling and communication' },
+    { name: 'Kastom System', year: 'Traditional', description: 'Complex customary law system successfully coexisting with modern legal frameworks' },
+  ],
   mainDish: {
     id: 'vanuatu-main',
     name: 'Lap Lap',

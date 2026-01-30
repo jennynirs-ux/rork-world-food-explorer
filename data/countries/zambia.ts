@@ -27,6 +27,11 @@ export const zambia: Country = {
   ],
   foodCulture:
     'Zambian cuisine centers on nshima, a thick maize porridge eaten daily. Meals are typically served with vegetable relishes, beans, fish, or meat. Groundnuts (peanuts) are widely used in sauces.',
+  innovations: [
+    { name: 'Walking Safari Concept', year: '1950s', description: 'South Luangwa pioneered walking safaris, revolutionizing wildlife tourism and conservation' },
+    { name: 'Copper Mining Techniques', year: '1920s-Present', description: 'Developed advanced deep mining methods for Copperbelt, one of world\'s richest mineral regions' },
+    { name: 'Victoria Falls Tourism Development', year: '1905', description: 'Created sustainable tourism infrastructure around one of Seven Natural Wonders' },
+  ],
   history: [
     {
       year: 'Pre-1800s',

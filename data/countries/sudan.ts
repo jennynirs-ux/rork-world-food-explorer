@@ -25,6 +25,11 @@ export const sudan: Country = {
   ],
   foodCulture:
     'Sudanese cuisine features stews, grilled meats, and breads. Meals are often communal, and spices like cumin, coriander, and cardamom are commonly used.',
+  innovations: [
+    { name: 'Nubian Pyramid Architecture', year: '700 BC', description: 'Distinctive steep-sided pyramid design, building over 200 pyramids across Sudan' },
+    { name: 'Ancient Ironworking', year: '6th Century BC', description: 'Kingdom of Kush pioneered iron smelting in Africa, producing superior weapons and tools' },
+    { name: 'Meroitic Script', year: '3rd Century BC', description: 'Development of unique alphabetic writing system independent of Egyptian hieroglyphs' },
+  ],
   mainDish: {
     id: 'sudan-main',
     name: 'Ful Medames',

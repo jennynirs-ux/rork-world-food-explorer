@@ -29,6 +29,11 @@ export const solomonIslands: Country = {
   foodCulture:
     'Solomon Islands cuisine is based on fresh fish, root vegetables, bananas, taro, and coconut. Food is often cooked in earth ovens or over open fires, with simple seasoning that highlights natural flavors.',
 
+  innovations: [
+    { name: 'Shell Money System', year: 'Ancient', description: 'Traditional shell currency still used in ceremonies and bride price, one of oldest continuous monetary systems' },
+    { name: 'Canoe Building Techniques', year: 'Traditional', description: 'Advanced outrigger canoe construction allowing long-distance ocean navigation across the Pacific' },
+    { name: 'Panpipe Musical Innovation', year: 'Traditional', description: 'Distinctive bamboo panpipe instruments creating unique polyphonic music' },
+  ],
   history: [
     {
       year: 'Pre-1800s',
