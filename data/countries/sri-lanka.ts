@@ -50,8 +50,7 @@ export const sriLanka: Country = {
     {
       year: '1948',
       title: 'Independence',
-      description:
-        'Sri Lanka gained independence from British colonial rule.',
+      description: 'Sri Lanka gained independence from British colonial rule.',
     },
     {
       year: '1972',
@@ -83,8 +82,7 @@ export const sriLanka: Country = {
     },
     {
       item: 'Wildlife safety',
-      description:
-        'Always follow park guidelines when on safari',
+      description: 'Always follow park guidelines when on safari',
     },
   ],
   mainDish: {
@@ -127,6 +125,36 @@ export const sriLanka: Country = {
     ],
     imageUrl:
       'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600',
+  },
+  dessert: {
+    id: 'sri-lanka-dessert',
+    name: 'Watalappan',
+    description:
+      'A rich Sri Lankan coconut custard sweetened with jaggery and scented with cardamom.',
+    cookingTime: 60,
+    servings: 8,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Coconut milk', amount: 400, unit: 'ml' },
+      { name: 'Jaggery (or brown sugar)', amount: 200, unit: 'g' },
+      { name: 'Eggs', amount: 4, unit: 'large' },
+      { name: 'Cardamom (ground)', amount: 1, unit: 'tsp' },
+      { name: 'Nutmeg (optional)', amount: 0.25, unit: 'tsp' },
+      { name: 'Vanilla (optional)', amount: 1, unit: 'tsp' },
+      { name: 'Cashews (optional)', amount: 50, unit: 'g' },
+    ],
+    steps: [
+      'Gently warm coconut milk with jaggery until dissolved (do not boil), then cool slightly',
+      'Whisk eggs in a bowl until just combined (avoid making it foamy)',
+      'Slowly whisk in the warm coconut-jaggery mixture',
+      'Stir in cardamom and optional nutmeg/vanilla',
+      'Strain mixture for a smooth custard (optional but recommended)',
+      'Pour into ramekins or a baking dish; top with cashews if using',
+      'Steam or bake in a water bath at 160°C for 35–45 minutes until just set',
+      'Cool, then chill before serving',
+    ],
+    imageUrl:
+      'https://images.unsplash.com/photo-1514511547116-1ff2dca2cfe3?w=600',
   },
   drinks: {
     alcoholic: 'Arrack (coconut spirit), Lion Lager',
@@ -199,12 +227,7 @@ export const sriLanka: Country = {
     {
       id: 'sri-lanka-q8',
       question: 'What is Adam’s Peak known for?',
-      options: [
-        'Volcano',
-        'Sacred footprint',
-        'Tea farming',
-        'Ancient fortress',
-      ],
+      options: ['Volcano', 'Sacred footprint', 'Tea farming', 'Ancient fortress'],
       correctAnswer: 1,
     },
     {
