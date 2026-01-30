@@ -28,6 +28,7 @@ export const switzerland: Country = {
   ],
   foodCulture:
     'Swiss cuisine is hearty and comforting, varying by region. Cheese and chocolate are national treasures. Fondue and raclette are iconic social dishes, especially popular during winter.',
+
   history: [
     {
       year: '1291',
@@ -50,8 +51,7 @@ export const switzerland: Country = {
     {
       year: '1848',
       title: 'Federal Constitution',
-      description:
-        'A modern federal state was established.',
+      description: 'A modern federal state was established.',
     },
     {
       year: '1971',
@@ -60,13 +60,79 @@ export const switzerland: Country = {
         'Swiss women gained the right to vote at the federal level.',
     },
   ],
+
+  innovations: [
+    {
+      name: 'CERN & the Web',
+      year: '1989',
+      description:
+        'At CERN near Geneva, Tim Berners-Lee proposed the World Wide Web, which later transformed global communication.',
+    },
+    {
+      name: 'Swiss Engineering & Precision',
+      year: '19th–20th Century',
+      description:
+        'Switzerland became globally known for precision manufacturing, especially watchmaking and advanced machinery.',
+    },
+    {
+      name: 'Pharmaceutical & Life Sciences',
+      year: '20th Century',
+      description:
+        'Major Swiss companies helped drive innovations in medicine, diagnostics, and global healthcare.',
+    },
+    {
+      name: 'Direct Democracy',
+      year: '19th Century',
+      description:
+        'Switzerland developed a strong tradition of referendums and citizen participation, shaping modern democratic governance.',
+    },
+  ],
+
+  mustVisit: [
+    {
+      name: 'Jungfraujoch',
+      description:
+        'Iconic “Top of Europe” viewpoint with glaciers and dramatic Alpine scenery.',
+    },
+    {
+      name: 'Zermatt & the Matterhorn',
+      description:
+        'Car-free mountain village and one of the world’s most famous peaks.',
+    },
+    {
+      name: 'Lucerne & Chapel Bridge',
+      description:
+        'Charming old town on a lake, surrounded by mountains and classic Swiss views.',
+    },
+    {
+      name: 'Bern Old Town',
+      description:
+        'UNESCO-listed medieval city center with arcades, fountains, and the Zytglogge clocktower.',
+    },
+    {
+      name: 'Lake Geneva (Lac Léman)',
+      description:
+        'Beautiful lakeside towns, vineyards, and views of the Alps near Geneva and Lausanne.',
+    },
+  ],
+
   travelEssentials: [
     { item: 'Visa', description: 'Schengen rules apply for most visitors.' },
-    { item: 'Best time to visit', description: 'Winter for skiing, summer for hiking.' },
-    { item: 'Transport', description: 'Trains are punctual, clean, and scenic.' },
-    { item: 'Languages', description: 'Language varies by region; English widely spoken.' },
+    {
+      item: 'Best time to visit',
+      description: 'Winter for skiing, summer for hiking and lakes.',
+    },
+    {
+      item: 'Transport',
+      description: 'Trains are punctual, clean, and scenic; buy day passes when touring.',
+    },
+    {
+      item: 'Languages',
+      description: 'Language varies by region; English is widely spoken in tourist areas.',
+    },
     { item: 'Safety', description: 'One of the safest countries globally.' },
   ],
+
   mainDish: {
     id: 'switzerland-fondue',
     name: 'Cheese Fondue',
@@ -137,18 +203,24 @@ export const switzerland: Country = {
     alcoholic: 'Swiss wine, Kirsch, Absinth',
     nonAlcoholic: 'Rivella, Hot chocolate, Herbal tea',
   },
+
   music: ['Alphorn music', 'Yodeling', 'Swiss folk music'],
+
   decorationIdeas: [
     'Red and white color theme',
     'Alpine decorations',
     'Cowbells and edelweiss',
     'Wooden chalet aesthetics',
+    'Snowy mountain and lake imagery',
   ],
+
   conversationStarters: [
     'Fondue or raclette – which do you prefer?',
     'Would you travel by scenic Swiss train?',
     'Have you tried Swiss chocolate?',
+    'If you visited Switzerland, would you choose skiing or hiking?',
   ],
+
   quiz: [
     {
       id: 'switzerland-q1',
@@ -165,7 +237,12 @@ export const switzerland: Country = {
     {
       id: 'switzerland-q3',
       question: 'Which two cheeses are traditionally used in fondue?',
-      options: ['Cheddar & Mozzarella', 'Gruyère & Emmental', 'Brie & Camembert', 'Parmesan & Pecorino'],
+      options: [
+        'Cheddar & Mozzarella',
+        'Gruyère & Emmental',
+        'Brie & Camembert',
+        'Parmesan & Pecorino',
+      ],
       correctAnswer: 1,
     },
     {
@@ -211,5 +288,6 @@ export const switzerland: Country = {
       correctAnswer: 2,
     },
   ],
+
   coordinates: { x: 48, y: 47 },
 };
