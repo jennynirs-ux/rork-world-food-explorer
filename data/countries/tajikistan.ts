@@ -57,6 +57,37 @@ export const tajikistan: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
   },
+
+  dessert: {
+    id: 'tajikistan-dessert',
+    name: 'Halva',
+    description:
+      'A traditional Tajik sweet made from flour, oil, sugar, and nuts, often prepared for celebrations and guests.',
+    cookingTime: 30,
+    servings: 6,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'All-purpose flour', amount: 200, unit: 'g' },
+      { name: 'Vegetable oil or butter', amount: 120, unit: 'ml' },
+      { name: 'Sugar', amount: 150, unit: 'g' },
+      { name: 'Water', amount: 200, unit: 'ml' },
+      { name: 'Crushed walnuts or almonds', amount: 80, unit: 'g' },
+      { name: 'Cardamom', amount: 0.5, unit: 'tsp' },
+    ],
+    steps: [
+      'Heat oil in a pan over medium heat',
+      'Add flour and stir continuously until golden brown',
+      'In a separate pot, dissolve sugar in water and bring to a boil',
+      'Carefully pour syrup into flour mixture while stirring',
+      'Add cardamom and mix until thick and smooth',
+      'Stir in crushed nuts',
+      'Cook for 2–3 minutes until glossy',
+      'Transfer to a dish and smooth the surface',
+      'Let cool slightly before serving',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1604908177522-402b7dba3b92?w=600',
+  },
+
   drinks: {
     alcoholic: 'Vodka',
     nonAlcoholic: 'Green tea, Ayran, Kumis (fermented milk)',
