@@ -29,10 +29,10 @@ export default function ExploreScreen() {
   };
 
   const countryPins = countries
-    .filter(country => country.coordinates)
+    .filter(country => country.coordinates?.x != null && country.coordinates?.y != null)
     .map(country => {
-      const lng = (country.coordinates.x / 800) * 360 - 180;
-      const lat = 90 - (country.coordinates.y / 450) * 180;
+      const lng = (country.coordinates!.x / 800) * 360 - 180;
+      const lat = 90 - (country.coordinates!.y / 450) * 180;
       
       return {
         id: country.id,
