@@ -253,6 +253,36 @@ export const unitedStates: Country = {
       options: ['Eagle', 'Bald Eagle', 'Turkey', 'Falcon'],
       correctAnswer: 1,
     },
+    {
+      id: 'united-states-q6',
+      question: 'Which natural landmark is carved by the Colorado River?',
+      options: ['Yellowstone', 'Yosemite', 'Grand Canyon', 'Glacier National Park'],
+      correctAnswer: 2,
+    },
+    {
+      id: 'united-states-q7',
+      question: 'What currency is used in the United States?',
+      options: ['US Dollar', 'US Pound', 'US Peso', 'American Dollar'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'united-states-q8',
+      question: 'Which brothers achieved the first powered flight?',
+      options: ['Warner Brothers', 'Wright Brothers', 'Jonas Brothers', 'Smith Brothers'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'united-states-q9',
+      question: 'What is a classic American dessert mentioned in the facts?',
+      options: ['Cheesecake', 'Apple Pie', 'Brownies', 'Donuts'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'united-states-q10',
+      question: 'Which state is the largest by area?',
+      options: ['Texas', 'California', 'Alaska', 'Montana'],
+      correctAnswer: 2,
+    },
   ],
   coordinates: { x: 18, y: 42 },
 };
