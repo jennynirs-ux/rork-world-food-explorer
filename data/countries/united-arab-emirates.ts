@@ -8,59 +8,151 @@ export const unitedArabEmirates: Country = {
   flag: '🇦🇪',
   landscapeImage: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800',
   description:
-    'The UAE is a federation of seven emirates known for ultramodern architecture, luxury shopping, and a thriving business hub.',
+    'The United Arab Emirates is a federation of seven emirates known for its blend of tradition and ultramodern development, iconic skylines, desert landscapes, and global business hubs.',
   quickFacts: [
     { label: 'Capital', value: 'Abu Dhabi' },
     { label: 'Population', value: '10 million' },
     { label: 'Official Language', value: 'Arabic' },
-    { label: 'Currency', value: 'UAE Dirham' },
+    { label: 'Currency', value: 'UAE Dirham (AED)' },
     { label: 'Area', value: '83,600 km²' },
   ],
   facts: [
     "Home to the world's tallest building, Burj Khalifa",
     'Formed in 1971 from seven emirates',
-    'Major global business and tourism hub',
     'Over 200 nationalities live in the UAE',
+    'One of the world’s safest countries',
+    'Rapid transformation from desert communities to global cities in under 50 years',
   ],
   foodCulture:
-    'Emirati cuisine blends Arab, Persian, and Indian influences with dates, rice, and lamb.',
+    'Emirati cuisine is rooted in Bedouin traditions and shaped by Arab, Persian, and Indian influences. Dates, rice, lamb, wheat, and aromatic spices are staples, often served communally.',
+  history: [
+    {
+      year: 'Pre-1800s',
+      title: 'Bedouin & Coastal Settlements',
+      description:
+        'Communities relied on pearl diving, fishing, herding, and trade across the Arabian Gulf.',
+    },
+    {
+      year: '1820',
+      title: 'Trucial States',
+      description:
+        'The region became known as the Trucial States under British protection.',
+    },
+    {
+      year: '1971',
+      title: 'UAE Founded',
+      description:
+        'Six emirates united to form the UAE; Ras Al Khaimah joined shortly after.',
+    },
+    {
+      year: '2000s',
+      title: 'Modern Global Hub',
+      description:
+        'Rapid development transformed cities like Dubai and Abu Dhabi into global centers for finance, tourism, and innovation.',
+    },
+  ],
+  travelEssentials: [
+    {
+      item: 'Visa',
+      description:
+        'Visa-free or visa-on-arrival access for many nationalities.',
+    },
+    {
+      item: 'Best time to visit',
+      description:
+        'November–March for cooler temperatures.',
+    },
+    {
+      item: 'Dress code',
+      description:
+        'Modest clothing recommended in public places; beachwear allowed at resorts.',
+    },
+    {
+      item: 'Transport',
+      description:
+        'Excellent roads, taxis, metro (Dubai), and domestic flights.',
+    },
+    {
+      item: 'Safety',
+      description:
+        'Very safe with low crime rates.',
+    },
+  ],
   mainDish: {
     id: 'uae-main',
     name: 'Al Harees',
-    description: 'Slow-cooked wheat and meat dish',
+    description: 'A traditional slow-cooked dish of wheat and meat, especially served during Ramadan and celebrations.',
     cookingTime: 240,
     servings: 6,
     dietType: 'meat',
     ingredients: [
-      { name: 'Wheat', amount: 500, unit: 'g' },
+      { name: 'Whole wheat', amount: 500, unit: 'g' },
       { name: 'Lamb or chicken', amount: 800, unit: 'g' },
       { name: 'Salt', amount: 2, unit: 'tsp' },
       { name: 'Ghee', amount: 100, unit: 'g' },
+      { name: 'Water', amount: 1.5, unit: 'l' },
     ],
     steps: [
       'Soak wheat overnight',
-      'Cook wheat and meat together',
-      'Simmer for 4 hours until porridge-like',
-      'Beat mixture until smooth',
-      'Top with ghee',
-      'Serve with dates',
+      'Combine wheat, meat, water, and salt in a large pot',
+      'Simmer gently for 4 hours until very soft',
+      'Beat mixture until smooth and porridge-like',
+      'Drizzle with melted ghee before serving',
+      'Serve hot with dates',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
-  drinks: {
-    alcoholic: 'Limited (available in hotels and restaurants)',
-    nonAlcoholic: 'Arabic coffee, Karak chai, Fresh juice',
+  dessert: {
+    id: 'uae-dessert',
+    name: 'Luqaimat',
+    description:
+      'Golden, crispy Emirati dumplings drizzled with date syrup or honey and sprinkled with sesame seeds.',
+    cookingTime: 30,
+    servings: 6,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'All-purpose flour', amount: 250, unit: 'g' },
+      { name: 'Yeast', amount: 1, unit: 'tsp' },
+      { name: 'Sugar', amount: 1, unit: 'tbsp' },
+      { name: 'Yogurt', amount: 120, unit: 'ml' },
+      { name: 'Water', amount: 120, unit: 'ml' },
+      { name: 'Saffron (optional)', amount: 1, unit: 'pinch' },
+      { name: 'Vegetable oil (for frying)', amount: 500, unit: 'ml' },
+      { name: 'Date syrup or honey', amount: 4, unit: 'tbsp' },
+      { name: 'Sesame seeds', amount: 1, unit: 'tbsp' },
+    ],
+    steps: [
+      'Mix flour, yeast, sugar, yogurt, and water into a thick batter',
+      'Let batter rest for 45 minutes',
+      'Heat oil to medium-high',
+      'Drop spoonfuls of batter into oil',
+      'Fry until golden and crispy',
+      'Drain briefly on paper towels',
+      'Drizzle with date syrup or honey',
+      'Sprinkle with sesame seeds and serve warm',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1617196034183-421b4917c92b?w=600',
   },
-  music: ['Traditional Emirati folk', 'Yowla dance music', 'Modern Arabic pop'],
+  drinks: {
+    alcoholic: 'Limited (available in licensed hotels and restaurants)',
+    nonAlcoholic: 'Arabic coffee (gahwa), Karak chai, Fresh juices',
+  },
+  music: [
+    'Traditional Emirati folk music',
+    'Yowla dance rhythms',
+    'Modern Arabic pop',
+  ],
   decorationIdeas: [
     'Red, green, white and black flag colors',
-    'Burj Khalifa imagery',
-    'Desert and modern city themes',
-    'Gold and luxury elements',
+    'Desert and dune imagery',
+    'Arabic calligraphy',
+    'Gold and luxury accents',
+    'Falcon motifs',
   ],
   conversationStarters: [
     'Have you visited Dubai or Abu Dhabi?',
-    'What do you know about modern Arabian architecture?',
+    'What do you think about modern cities in the desert?',
+    'Would you try traditional Emirati food?',
   ],
   quiz: [
     {
@@ -71,62 +163,57 @@ export const unitedArabEmirates: Country = {
     },
     {
       id: 'uae-q2',
-      question: 'How many emirates make up the United Arab Emirates?',
+      question: 'How many emirates make up the UAE?',
       options: ['5', '6', '7', '9'],
       correctAnswer: 2,
     },
     {
       id: 'uae-q3',
-      question: 'In which year was the UAE formed as a federation?',
-      options: ['1958', '1965', '1971', '1981'],
+      question: 'In which year was the UAE founded?',
+      options: ['1961', '1968', '1971', '1980'],
       correctAnswer: 2,
     },
     {
       id: 'uae-q4',
-      question: 'What is the name of the world’s tallest building located in the UAE?',
-      options: ['Burj Al Arab', 'Burj Khalifa', 'The Palm Tower', 'Emirates Tower'],
+      question: 'What is the UAE’s traditional sweet called?',
+      options: ['Baklava', 'Luqaimat', 'Halva', 'Basbousa'],
       correctAnswer: 1,
     },
     {
       id: 'uae-q5',
-      question: 'Which emirate is best known for the city of Dubai?',
-      options: ['Dubai', 'Abu Dhabi', 'Ras Al Khaimah', 'Fujairah'],
-      correctAnswer: 0,
+      question: 'Which building is the tallest in the world?',
+      options: ['Shanghai Tower', 'Burj Khalifa', 'One World Trade Center', 'Petronas Towers'],
+      correctAnswer: 1,
     },
     {
       id: 'uae-q6',
-      question: 'What is the currency used in the UAE?',
-      options: ['Riyal', 'Dinar', 'UAE Dirham', 'Shekel'],
+      question: 'What is the UAE’s currency?',
+      options: ['Riyal', 'Dinar', 'Dirham', 'Pound'],
       correctAnswer: 2,
     },
     {
       id: 'uae-q7',
-      question: 'Which of these is a famous traditional UAE drink?',
-      options: ['Matcha', 'Arabic coffee', 'Yerba mate', 'Bubble tea'],
+      question: 'What is “gahwa”?',
+      options: ['Spiced rice', 'Arabic coffee', 'A dance', 'A soup'],
       correctAnswer: 1,
     },
     {
       id: 'uae-q8',
-      question: 'Which sea borders much of the UAE’s coastline?',
+      question: 'Which sea borders much of the UAE?',
       options: ['Red Sea', 'Arabian Gulf', 'Mediterranean Sea', 'Caspian Sea'],
       correctAnswer: 1,
     },
     {
       id: 'uae-q9',
-      question: 'What is “karak chai”?',
-      options: [
-        'A desert bread',
-        'A strong spiced milk tea',
-        'A rice dish with lamb',
-        'A traditional dance',
-      ],
+      question: 'Which city is the UAE’s largest by population?',
+      options: ['Abu Dhabi', 'Dubai', 'Sharjah', 'Al Ain'],
       correctAnswer: 1,
     },
     {
       id: 'uae-q10',
-      question: 'Which city is the UAE’s largest by population?',
-      options: ['Abu Dhabi', 'Dubai', 'Sharjah', 'Al Ain'],
-      correctAnswer: 1,
+      question: 'Traditional Emirati culture originates from which lifestyle?',
+      options: ['Nomadic Bedouin', 'Viking', 'Agricultural', 'Mountain'],
+      correctAnswer: 0,
     },
   ],
   coordinates: { x: 59, y: 33 },
