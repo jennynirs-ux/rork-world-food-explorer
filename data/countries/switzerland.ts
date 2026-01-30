@@ -98,6 +98,41 @@ export const switzerland: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1590077428593-a55bb07c4665?w=600',
   },
+
+  dessert: {
+    id: 'switzerland-dessert',
+    name: 'Zuger Kirschtorte',
+    description:
+      'A classic Swiss layer cake from Zug made with airy nut meringue layers, buttercream, and a touch of kirsch (cherry spirit).',
+    cookingTime: 70,
+    servings: 10,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Egg whites', amount: 5, unit: 'large' },
+      { name: 'Sugar', amount: 220, unit: 'g' },
+      { name: 'Ground hazelnuts (or almonds)', amount: 180, unit: 'g' },
+      { name: 'All-purpose flour', amount: 60, unit: 'g' },
+      { name: 'Butter (soft)', amount: 250, unit: 'g' },
+      { name: 'Powdered sugar', amount: 180, unit: 'g' },
+      { name: 'Vanilla extract', amount: 1, unit: 'tsp' },
+      { name: 'Kirsch (optional)', amount: 3, unit: 'tbsp' },
+      { name: 'Milk', amount: 3, unit: 'tbsp' },
+      { name: 'Sliced almonds (for decoration)', amount: 50, unit: 'g' },
+    ],
+    steps: [
+      'Preheat oven to 170°C and line two round cake pans with parchment.',
+      'Whip egg whites to soft peaks, then gradually add sugar and whip to glossy stiff peaks.',
+      'Fold in ground nuts and flour gently until combined.',
+      'Spread batter into pans and bake 25–30 minutes until lightly golden; cool completely.',
+      'Beat butter with powdered sugar and vanilla until fluffy; add milk to loosen if needed.',
+      'Stir in kirsch to taste (optional).',
+      'Layer cake with buttercream between nut layers; frost the outside thinly.',
+      'Press sliced almonds onto the sides/top for decoration.',
+      'Chill at least 1 hour before slicing for best texture.',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1542826438-bd32f43d626f?w=600',
+  },
+
   drinks: {
     alcoholic: 'Swiss wine, Kirsch, Absinth',
     nonAlcoholic: 'Rivella, Hot chocolate, Herbal tea',
