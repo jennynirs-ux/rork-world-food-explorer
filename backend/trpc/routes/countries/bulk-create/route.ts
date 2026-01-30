@@ -47,7 +47,7 @@ const countrySchema = z.object({
   coordinates: z.object({
     x: z.number(),
     y: z.number(),
-  }),
+  }).optional(),
 });
 
 export default publicProcedure

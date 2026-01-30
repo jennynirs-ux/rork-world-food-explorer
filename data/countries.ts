@@ -151,7 +151,7 @@ import { saintVincentAndTheGrenadines } from './countries/saint-vincent-and-the-
 import { samoa } from './countries/samoa';
 import { sanMarino } from './countries/san-marino';
 import { saoTomeAndPrincipe } from './countries/sao-tome-and-principe';
-import { saudiarabia } from './countries/saudi-arabia';
+import { saudiArabia } from './countries/saudi-arabia';
 import { senegal } from './countries/senegal';
 import { serbia } from './countries/serbia';
 import { seychelles } from './countries/seychelles';
@@ -348,7 +348,7 @@ export const countries: Country[] = [
   samoa,
   sanMarino,
   saoTomeAndPrincipe,
-  saudiarabia,
+  saudiArabia,
   senegal,
   serbia,
   seychelles,
