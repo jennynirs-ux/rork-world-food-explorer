@@ -53,6 +53,20 @@ export const zimbabwe: Country = {
         'Zimbabwe became an independent nation after a long liberation struggle.',
     },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa required for most visitors, available on arrival at major entry points.' },
+    { item: 'Best time to visit', description: 'April to October (dry season) for wildlife viewing and Victoria Falls.' },
+    { item: 'Transportation', description: 'Domestic flights, buses, and car rentals available. Roads vary in condition.' },
+    { item: 'Health', description: 'Malaria precautions necessary. Stay hydrated and use sunscreen.' },
+    { item: 'Safety', description: 'Exercise normal caution. Tourist areas generally safe.' },
+  ],
+  mustVisit: [
+    { name: 'Victoria Falls', description: 'Zimbabwe side offers best views of the world\'s largest sheet of falling water, with rainforest walks.' },
+    { name: 'Great Zimbabwe Ruins', description: 'Medieval stone city and UNESCO site, showcasing advanced African architecture without mortar.' },
+    { name: 'Hwange National Park', description: 'Zimbabwe\'s largest park with massive elephant herds and diverse wildlife.' },
+    { name: 'Mana Pools National Park', description: 'UNESCO site offering unique walking and canoeing safaris along the Zambezi River.' },
+    { name: 'Matobo Hills', description: 'Ancient granite formations with rock art, Rhodes\' grave, and rhino tracking opportunities.' },
+  ],
   mainDish: {
     id: 'zimbabwe-main',
     name: 'Sadza with Beef Stew',

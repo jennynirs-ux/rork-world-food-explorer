@@ -60,6 +60,13 @@ export const croatia: Country = {
     { item: 'Language', description: 'Croatian is official. English widely spoken in tourist areas.' },
     { item: 'Safety', description: 'Very safe for tourists. Standard precautions in crowded areas.' },
   ],
+  mustVisit: [
+    { name: 'Dubrovnik Old Town', description: 'UNESCO World Heritage site with medieval walls, marble streets, and Game of Thrones filming locations.' },
+    { name: 'Plitvice Lakes National Park', description: '16 terraced lakes connected by waterfalls, surrounded by lush forests and wooden walkways.' },
+    { name: 'Hvar Island', description: 'Stunning Adriatic island known for lavender fields, crystal-clear waters, and vibrant nightlife.' },
+    { name: 'Split and Diocletian\'s Palace', description: 'Ancient Roman palace complex that forms the heart of Split\'s old town, a living UNESCO site.' },
+    { name: 'Rovinj', description: 'Picturesque coastal town with colorful houses, narrow cobbled streets, and Italian charm.' },
+  ],
   mainDish: {
     id: 'croatia-peka',
     name: 'Peka',

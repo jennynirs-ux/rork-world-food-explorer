@@ -66,6 +66,20 @@ export const solomonIslands: Country = {
         'The Solomon Islands gained independence from the United Kingdom.',
     },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Many nationalities receive visa on arrival for tourism.' },
+    { item: 'Best time to visit', description: 'April to October (dry season) for best weather and diving.' },
+    { item: 'Transportation', description: 'Domestic flights between islands, boats, limited roads.' },
+    { item: 'Language', description: 'English is official. Pijin widely spoken, plus 70+ local languages.' },
+    { item: 'Safety', description: 'Generally safe. Follow local advice, especially in remote areas.' },
+  ],
+  mustVisit: [
+    { name: 'Guadalcanal WWII Sites', description: 'Historic battlefields, war memorials, and underwater wrecks from WWII Pacific campaign.' },
+    { name: 'Marovo Lagoon', description: 'World\'s largest saltwater lagoon with incredible diving and traditional village life.' },
+    { name: 'Rennell Island', description: 'UNESCO World Heritage site with the world\'s largest raised coral atoll and Lake Tegano.' },
+    { name: 'Skull Island', description: 'Sacred site with ancient skulls and traditional shrines, insight into Melanesian culture.' },
+    { name: 'Bonegi Beach', description: 'Beautiful beach with accessible WWII shipwrecks perfect for snorkeling.' },
+  ],
 
   mainDish: {
     id: 'solomon-islands-main',

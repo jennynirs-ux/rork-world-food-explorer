@@ -65,6 +65,13 @@ export const ecuador: Country = {
     { item: 'Language', description: 'Spanish is essential. Indigenous languages in rural areas. Limited English.' },
     { item: 'Safety', description: 'Exercise caution in cities. Tourist areas generally safe.' },
   ],
+  mustVisit: [
+    { name: 'Galápagos Islands', description: 'Unique wildlife sanctuary where Darwin developed his theory of evolution, with incredible biodiversity.' },
+    { name: 'Quito Old Town', description: 'Best-preserved colonial center in South America, first UNESCO World Heritage Site.' },
+    { name: 'Cotopaxi Volcano', description: 'One of the world\'s highest active volcanoes, perfect for trekking and mountaineering.' },
+    { name: 'Otavalo Market', description: 'Famous indigenous market with colorful textiles, handicrafts, and traditional Andean culture.' },
+    { name: 'Baños', description: 'Adventure capital with waterfalls, hot springs, and the famous "Swing at the End of the World."' },
+  ],
   mainDish: {
     id: 'ecuador-ceviche',
     name: 'Ecuadorian Ceviche',

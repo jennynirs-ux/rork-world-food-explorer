@@ -25,6 +25,13 @@ export const suriname: Country = {
   ],
   foodCulture:
     'Surinamese cuisine is a unique fusion of Creole, Javanese, Indian, Chinese, Indigenous, and Dutch traditions. Meals are often flavorful, spicy, and rich in herbs, root vegetables, and rice.',
+  mustVisit: [
+    { name: 'Paramaribo Historic Center', description: 'UNESCO World Heritage site with unique Dutch colonial wooden architecture.' },
+    { name: 'Central Suriname Nature Reserve', description: 'UNESCO site covering 1.6 million hectares of pristine rainforest with incredible biodiversity.' },
+    { name: 'Galibi Nature Reserve', description: 'Beach where four species of sea turtles nest, best visited February-August.' },
+    { name: 'Brownsberg Nature Park', description: 'Mountain plateau with waterfalls, hiking trails, and panoramic rainforest views.' },
+    { name: 'Jodensavanne', description: 'Historic Jewish settlement ruins in the rainforest, dating to the 1600s.' },
+  ],
   innovations: [
     { name: 'Multicultural Fusion Cuisine', year: 'Colonial Era', description: 'Unique blending of African, Indian, Javanese, Chinese, and Indigenous culinary traditions' },
     { name: 'Pom Dish Creation', year: '18th Century', description: 'Invented distinctive pomtajer root casserole, now the national dish' },

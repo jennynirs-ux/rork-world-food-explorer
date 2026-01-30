@@ -84,6 +84,13 @@ export const unitedArabEmirates: Country = {
         'Very safe with low crime rates.',
     },
   ],
+  mustVisit: [
+    { name: 'Burj Khalifa', description: 'World\'s tallest building at 828m with observation decks offering breathtaking views of Dubai.' },
+    { name: 'Sheikh Zayed Grand Mosque', description: 'Stunning white marble mosque in Abu Dhabi, one of the largest mosques in the world.' },
+    { name: 'Dubai Mall and Dubai Fountain', description: 'Massive shopping center with aquarium, ice rink, and choreographed fountain shows.' },
+    { name: 'The Desert', description: 'Experience dune bashing, camel rides, Bedouin camps, and stunning desert sunsets.' },
+    { name: 'Louvre Abu Dhabi', description: 'Architectural masterpiece museum showcasing art from around the world.' },
+  ],
   mainDish: {
     id: 'uae-main',
     name: 'Al Harees',

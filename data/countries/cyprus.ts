@@ -87,6 +87,13 @@ export const cyprus: Country = {
     { item: 'Language', description: 'Greek and Turkish. English widely spoken.' },
     { item: 'Safety', description: 'Very safe. Respect the buffer zone division.' },
   ],
+  mustVisit: [
+    { name: 'Petra tou Romiou (Aphrodite\'s Rock)', description: 'Legendary birthplace of Aphrodite, a stunning beach with dramatic rock formations.' },
+    { name: 'Paphos Archaeological Park', description: 'Ancient ruins with incredible Roman mosaics and the Tombs of the Kings.' },
+    { name: 'Troodos Mountains', description: 'Byzantine monasteries, painted churches, and cool mountain villages perfect for hiking.' },
+    { name: 'Kyrenia Castle and Harbor', description: 'Medieval castle overlooking a picturesque harbor in Northern Cyprus.' },
+    { name: 'Larnaca Salt Lake', description: 'Winter home to thousands of flamingos and other migratory birds.' },
+  ],
   mainDish: {
     id: 'cyprus-souvlaki',
     name: 'Cypriot Souvlaki',

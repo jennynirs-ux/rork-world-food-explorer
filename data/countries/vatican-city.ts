@@ -26,6 +26,13 @@ export const vaticanCity: Country = {
   ],
   foodCulture:
     'Vatican cuisine is essentially Italian—especially Roman—featuring simple, high-quality ingredients like pasta, olive oil, cheese, vegetables, and espresso culture.',
+  mustVisit: [
+    { name: 'St. Peter\'s Basilica', description: 'Largest church in the world with Michelangelo\'s dome and stunning Renaissance architecture.' },
+    { name: 'Sistine Chapel', description: 'Michelangelo\'s masterpiece ceiling and The Last Judgment, one of art history\'s greatest treasures.' },
+    { name: 'Vatican Museums', description: 'Vast collection spanning centuries, including Raphael Rooms and ancient sculptures.' },
+    { name: 'St. Peter\'s Square', description: 'Bernini\'s grand colonnade embracing pilgrims, site of papal audiences and ceremonies.' },
+    { name: 'Vatican Gardens', description: 'Peaceful Renaissance and Baroque gardens covering half of Vatican City\'s territory.' },
+  ],
   innovations: [
     { name: 'Renaissance Art Patronage', year: '15th-16th Century', description: 'Vatican commissioned masterpieces by Michelangelo, Raphael, transforming Western art' },
     { name: 'Gregorian Calendar', year: '1582', description: 'Pope Gregory XIII reformed the Julian calendar, creating system still used globally' },

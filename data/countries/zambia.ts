@@ -52,6 +52,20 @@ export const zambia: Country = {
         'Zambia gained independence from Britain with Kenneth Kaunda as its first president.',
     },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa required for most visitors, available on arrival at major entry points.' },
+    { item: 'Best time to visit', description: 'May to October (dry season) for best wildlife viewing and Victoria Falls.' },
+    { item: 'Transportation', description: 'Domestic flights, buses, and 4x4 rentals for safari areas.' },
+    { item: 'Health', description: 'Malaria precautions essential. Yellow fever certificate may be required.' },
+    { item: 'Safety', description: 'Generally safe. Take normal precautions in cities and on safaris.' },
+  ],
+  mustVisit: [
+    { name: 'Victoria Falls', description: 'One of Seven Natural Wonders, "The Smoke That Thunders" with massive curtain of water.' },
+    { name: 'South Luangwa National Park', description: 'Birthplace of walking safaris with incredible leopard sightings and diverse wildlife.' },
+    { name: 'Lower Zambezi National Park', description: 'Pristine wilderness along the Zambezi River with canoeing safaris and abundant elephants.' },
+    { name: 'Lake Kariba', description: 'One of world\'s largest man-made lakes with houseboat safaris and stunning sunsets.' },
+    { name: 'Livingstone', description: 'Adventure capital near Victoria Falls with museums, markets, and adrenaline activities.' },
+  ],
   mainDish: {
     id: 'zambia-main',
     name: 'Nshima with Vegetable Relish',

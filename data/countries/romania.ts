@@ -70,6 +70,13 @@ export const romania: Country = {
     { item: 'Language', description: 'Romanian official. English common in cities, French also understood.' },
     { item: 'Safety', description: 'Generally safe. Watch for pickpockets in tourist areas.' },
   ],
+  mustVisit: [
+    { name: 'Bran Castle', description: 'Iconic medieval castle associated with Dracula legend, perched dramatically on a cliff.' },
+    { name: 'Painted Monasteries of Bucovina', description: 'UNESCO World Heritage sites with stunning exterior frescoes from the 15th century.' },
+    { name: 'Transfăgărășan Highway', description: 'One of the world\'s most spectacular mountain roads through the Carpathians.' },
+    { name: 'Sighișoara', description: 'Perfectly preserved medieval citadel, birthplace of Vlad the Impaler.' },
+    { name: 'Danube Delta', description: 'Europe\'s best-preserved delta, a UNESCO biosphere reserve with incredible birdlife.' },
+  ],
   mainDish: {
     id: 'romania-sarmale',
     name: 'Sarmale',

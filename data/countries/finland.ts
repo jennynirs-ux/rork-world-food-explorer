@@ -65,6 +65,13 @@ export const finland: Country = {
     { item: 'Language', description: 'Finnish and Swedish official. English widely spoken.' },
     { item: 'Safety', description: 'One of the safest countries in the world.' },
   ],
+  mustVisit: [
+    { name: 'Lapland', description: 'Home to Santa Claus Village, Northern Lights, midnight sun, and incredible Arctic wilderness.' },
+    { name: 'Helsinki', description: 'Modern capital with Design District, Suomenlinna fortress, and unique Nordic architecture.' },
+    { name: 'Lakeland', description: 'Thousands of pristine lakes perfect for cottage stays, saunas, and summer activities.' },
+    { name: 'Rovaniemi', description: 'Official hometown of Santa Claus, gateway to Arctic adventures and Sami culture.' },
+    { name: 'Turku Archipelago', description: 'Over 20,000 islands accessible by ferry, perfect for island-hopping and nature.' },
+  ],
   mainDish: {
     id: 'finland-salmon-soup',
     name: 'Lohikeitto (Finnish Salmon Soup)',

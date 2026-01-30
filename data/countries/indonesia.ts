@@ -66,6 +66,13 @@ export const indonesia: Country = {
     { item: 'Language', description: 'Indonesian (Bahasa Indonesia). English in tourist areas.' },
     { item: 'Safety', description: 'Generally safe. Be aware of volcanic activity and petty theft.' },
   ],
+  mustVisit: [
+    { name: 'Bali', description: 'Island paradise with temples, rice terraces, beaches, and vibrant culture.' },
+    { name: 'Borobudur Temple', description: 'World\'s largest Buddhist temple, a stunning 9th-century monument in Java.' },
+    { name: 'Komodo National Park', description: 'Home to the Komodo dragon, with incredible diving and pink sand beaches.' },
+    { name: 'Raja Ampat', description: 'World\'s best diving destination with pristine coral reefs and marine biodiversity.' },
+    { name: 'Yogyakarta', description: 'Cultural heart of Java with temples, traditional arts, and Sultan\'s palace.' },
+  ],
   mainDish: {
     id: 'indonesia-nasi-goreng',
     name: 'Nasi Goreng',

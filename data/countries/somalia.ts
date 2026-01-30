@@ -25,6 +25,13 @@ export const somalia: Country = {
   ],
   foodCulture:
     'Somali cuisine reflects East African, Yemeni, and Italian influences. Meals often feature rice, pasta, grilled meats, and flatbread. Spices like cumin, cardamom, and coriander are prominent.',
+  mustVisit: [
+    { name: 'Laas Geel Cave Paintings', description: 'Ancient rock art from 5,000 BC featuring vivid paintings of cattle and humans.' },
+    { name: 'Mogadishu Beaches', description: 'Beautiful white sand beaches along the Indian Ocean coastline.' },
+    { name: 'Berbera', description: 'Historic port city with Ottoman architecture and pristine beaches.' },
+    { name: 'Cal Madow Mountains', description: 'Spectacular mountain range with unique wildlife and stunning landscapes.' },
+    { name: 'Zeila', description: 'Ancient port town with ruins dating back to the medieval Islamic period.' },
+  ],
   innovations: [
     { name: 'Somali Writing System', year: '1920s-1972', description: 'Development of Osmanya and later Latin-based scripts for the Somali language, promoting literacy' },
     { name: 'Ancient Frankincense Trade', year: 'Ancient', description: 'Pioneered global trade routes for frankincense and myrrh, connecting Africa, Arabia, and Asia' },

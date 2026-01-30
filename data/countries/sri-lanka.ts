@@ -91,6 +91,13 @@ export const sriLanka: Country = {
       description: 'Always follow park guidelines when on safari',
     },
   ],
+  mustVisit: [
+    { name: 'Sigiriya Rock Fortress', description: 'Ancient 5th-century fortress on a 200m rock with frescoes and water gardens.' },
+    { name: 'Temple of the Tooth (Kandy)', description: 'Sacred Buddhist temple housing a tooth relic of the Buddha, in the hill capital.' },
+    { name: 'Yala National Park', description: 'Best place to see leopards, with elephants, sloth bears, and diverse wildlife.' },
+    { name: 'Galle Fort', description: 'Dutch colonial fort with charming streets, cafes, and stunning ocean views.' },
+    { name: 'Ella', description: 'Mountain town with tea plantations, Nine Arch Bridge, and scenic train rides.' },
+  ],
   mainDish: {
     id: 'sri-lanka-rice-and-curry',
     name: 'Sri Lankan Rice and Curry (Vegetarian)',

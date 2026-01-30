@@ -87,6 +87,13 @@ export const czechRepublic: Country = {
     { item: 'Language', description: 'Czech is official. English spoken in tourist areas, especially Prague.' },
     { item: 'Safety', description: 'Very safe. Watch for pickpockets in tourist areas.' },
   ],
+  mustVisit: [
+    { name: 'Prague Castle', description: 'The largest ancient castle complex in the world, overlooking the stunning city of Prague.' },
+    { name: 'Charles Bridge', description: 'Iconic 14th-century bridge adorned with baroque statues, connecting Old Town and Lesser Town.' },
+    { name: 'Český Krumlov', description: 'Fairy-tale medieval town with a stunning castle, winding river, and Renaissance architecture.' },
+    { name: 'Karlovy Vary', description: 'Famous spa town with hot springs, elegant colonnades, and the International Film Festival.' },
+    { name: 'Bone Church (Kutná Hora)', description: 'Sedlec Ossuary decorated with bones of 40,000 people, a unique and eerie UNESCO site.' },
+  ],
   mainDish: {
     id: 'czech-republic-svickova',
     name: 'Svíčková (Marinated Sirloin)',

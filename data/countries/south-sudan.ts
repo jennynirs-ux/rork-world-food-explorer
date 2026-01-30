@@ -25,6 +25,13 @@ export const southSudan: Country = {
   ],
   foodCulture:
     'South Sudanese cuisine is based on local grains and vegetables such as sorghum, millet, cassava, okra, and peanuts. Meals are often simple, filling, and shared communally.',
+  mustVisit: [
+    { name: 'The Sudd Wetlands', description: 'One of the world\'s largest wetlands, a vital ecosystem with incredible birdlife and wildlife.' },
+    { name: 'Juba', description: 'The capital city on the White Nile, gateway to South Sudan\'s culture and markets.' },
+    { name: 'Boma National Park', description: 'Vast wilderness area with one of Africa\'s largest wildlife migrations.' },
+    { name: 'Nimule National Park', description: 'Park along the Nile with elephants, hippos, and diverse birdlife.' },
+    { name: 'Imatong Mountains', description: 'Highest mountain range in South Sudan with cool climate and stunning views.' },
+  ],
   innovations: [
     { name: 'Sudd Wetland Management', year: 'Traditional', description: 'Indigenous knowledge of navigating and living sustainably within one of the world\'s largest wetlands' },
     { name: 'Kisra Fermentation', year: 'Traditional', description: 'Ancient sourdough-like fermentation technique for sorghum flatbread, preserving nutrition' },

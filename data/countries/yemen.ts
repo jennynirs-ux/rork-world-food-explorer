@@ -59,6 +59,20 @@ export const yemen: Country = {
         'North and South Yemen unified into a single country.',
     },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa requirements vary; check current travel advisories before planning.' },
+    { item: 'Best time to visit', description: 'March to May and September to November for moderate temperatures.' },
+    { item: 'Safety', description: 'Check current travel advisories. Some areas require caution.' },
+    { item: 'Language', description: 'Arabic is essential. Limited English in urban areas.' },
+    { item: 'Dress code', description: 'Modest clothing is important, especially for women.' },
+  ],
+  mustVisit: [
+    { name: 'Old City of Sana\'a', description: 'UNESCO World Heritage site with over 6,000 tower houses and centuries-old architecture.' },
+    { name: 'Socotra Island', description: 'Alien-like landscape with Dragon\'s Blood Trees and unique endemic species found nowhere else.' },
+    { name: 'Shibam', description: '"Manhattan of the Desert" with 16th-century mud-brick skyscrapers reaching 30 meters high.' },
+    { name: 'Old Walled City of Shibam', description: 'Ancient city with impressive tower houses, a UNESCO World Heritage site.' },
+    { name: 'Marib Dam', description: 'Ruins of ancient engineering marvel from the Kingdom of Saba, once irrigating vast lands.' },
+  ],
   mainDish: {
     id: 'yemen-main',
     name: 'Saltah',

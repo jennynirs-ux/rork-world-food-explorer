@@ -25,6 +25,13 @@ export const sudan: Country = {
   ],
   foodCulture:
     'Sudanese cuisine features stews, grilled meats, and breads. Meals are often communal, and spices like cumin, coriander, and cardamom are commonly used.',
+  mustVisit: [
+    { name: 'Meroe Pyramids', description: 'Over 200 ancient Nubian pyramids, more than Egypt, in the desert near the Nile.' },
+    { name: 'Jebel Barkal', description: 'Sacred mountain with ancient temples and pyramids, UNESCO World Heritage site.' },
+    { name: 'Khartoum Confluence', description: 'Where the Blue and White Nile rivers meet, creating a dramatic color contrast.' },
+    { name: 'Dinder National Park', description: 'Wildlife reserve with elephants, lions, giraffes, and diverse birdlife.' },
+    { name: 'Sanganeb Marine National Park', description: 'Pristine coral reef in the Red Sea, perfect for diving and marine life.' },
+  ],
   innovations: [
     { name: 'Nubian Pyramid Architecture', year: '700 BC', description: 'Distinctive steep-sided pyramid design, building over 200 pyramids across Sudan' },
     { name: 'Ancient Ironworking', year: '6th Century BC', description: 'Kingdom of Kush pioneered iron smelting in Africa, producing superior weapons and tools' },

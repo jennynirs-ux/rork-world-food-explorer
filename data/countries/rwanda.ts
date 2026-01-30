@@ -23,6 +23,13 @@ export const rwanda: Country = {
     'Rwanda has the highest percentage of women in parliament globally',
   ],
   foodCulture: 'Rwandan cuisine is based on staples like sweet potatoes, beans, cassava, and plantains. Meals are simple but flavorful, often accompanied by meat or fish stews.',
+  mustVisit: [
+    { name: 'Volcanoes National Park', description: 'Home to endangered mountain gorillas, offering life-changing gorilla trekking experiences.' },
+    { name: 'Kigali Genocide Memorial', description: 'Moving tribute and educational center honoring victims of the 1994 genocide.' },
+    { name: 'Lake Kivu', description: 'One of Africa\'s Great Lakes with stunning scenery, beaches, and waterfront towns.' },
+    { name: 'Nyungwe Forest National Park', description: 'Ancient rainforest with chimpanzees, canopy walks, and incredible biodiversity.' },
+    { name: 'Akagera National Park', description: 'Savanna park with Big Five wildlife including lions, elephants, and rhinos.' },
+  ],
   innovations: [
     { name: 'Imigongo Cow Dung Art', year: 'Traditional', description: 'Unique geometric art form using cow dung mixed with natural pigments, now internationally recognized' },
     { name: 'Zipline Medical Drone Delivery', year: '2016', description: 'First national drone delivery network for emergency medical supplies, saving thousands of lives' },

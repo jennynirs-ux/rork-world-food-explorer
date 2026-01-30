@@ -66,6 +66,13 @@ export const russia: Country = {
     { item: 'Language', description: 'Russian. Learn Cyrillic alphabet basics. English limited outside major cities.' },
     { item: 'Safety', description: 'Generally safe in tourist areas. Keep documents secure at all times.' },
   ],
+  mustVisit: [
+    { name: 'Red Square and Kremlin', description: 'Iconic heart of Moscow with St. Basil\'s Cathedral, Lenin\'s Mausoleum, and historic fortress.' },
+    { name: 'Hermitage Museum', description: 'One of the world\'s largest art museums in St. Petersburg with over 3 million works.' },
+    { name: 'Trans-Siberian Railway', description: 'Epic 9,289 km journey across Russia, the world\'s longest railway line.' },
+    { name: 'Lake Baikal', description: 'World\'s deepest and oldest freshwater lake, a natural wonder of Siberia.' },
+    { name: 'Golden Ring', description: 'Historic towns northeast of Moscow with medieval architecture and monasteries.' },
+  ],
   mainDish: {
     id: 'russia-borscht',
     name: 'Borscht',

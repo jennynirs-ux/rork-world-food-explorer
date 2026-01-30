@@ -25,6 +25,13 @@ export const uruguay: Country = {
   ],
   foodCulture:
     'Uruguayan cuisine revolves around beef and asado (barbecue). Italian immigration influenced pasta dishes. Mate tea is a daily ritual, and dulce de leche is beloved.',
+  mustVisit: [
+    { name: 'Colonia del Sacramento', description: 'UNESCO World Heritage colonial town with cobblestone streets and Portuguese architecture.' },
+    { name: 'Punta del Este', description: 'Glamorous beach resort with stunning coastline, art installations, and nightlife.' },
+    { name: 'Montevideo Old Town', description: 'Historic capital with colonial architecture, markets, and vibrant cultural scene.' },
+    { name: 'Cabo Polonio', description: 'Remote coastal village with sea lions, lighthouse, and no electricity for authentic nature.' },
+    { name: 'Wine Region (Canelones)', description: 'Uruguay\'s wine country famous for Tannat wines and boutique vineyards.' },
+  ],
   innovations: [
     { name: 'Progressive Social Policies', year: '1913', description: 'First country to establish 8-hour workday and welfare state, pioneering workers\' rights' },
     { name: 'Renewable Energy Leadership', year: '2015', description: 'Achieved 98% renewable electricity, becoming global leader in clean energy transition' },

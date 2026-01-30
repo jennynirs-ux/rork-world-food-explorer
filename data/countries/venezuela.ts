@@ -25,6 +25,13 @@ export const venezuela: Country = {
   ],
   foodCulture:
     'Venezuelan cuisine features corn-based dishes, tropical fruits, and grilled meats. Arepas are eaten daily. Indigenous, African, and Spanish influences blend together.',
+  mustVisit: [
+    { name: 'Angel Falls', description: 'World\'s highest uninterrupted waterfall at 979m, cascading from a tabletop mountain in Canaima National Park.' },
+    { name: 'Los Roques Archipelago', description: 'Caribbean paradise with pristine white-sand beaches, turquoise waters, and world-class diving.' },
+    { name: 'Canaima National Park', description: 'UNESCO World Heritage site with tepuis (table mountains), waterfalls, and unique ecosystems.' },
+    { name: 'Mérida and the Andes', description: 'Mountain city with the world\'s highest cable car, coffee plantations, and adventure sports.' },
+    { name: 'Roraima Tepui', description: 'Flat-topped mountain inspiring "The Lost World," accessible via multi-day trek through stunning landscapes.' },
+  ],
   innovations: [
     { name: 'Oil Refining Techniques', year: '1914', description: 'Pioneered techniques for refining heavy crude oil from world\'s largest reserves' },
     { name: 'Catatumbo Lightning Study', year: 'Ongoing', description: 'Unique meteorological phenomenon creating most lightning strikes on Earth, advancing atmospheric science' },

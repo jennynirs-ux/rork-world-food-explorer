@@ -24,6 +24,13 @@ export const uzbekistan: Country = {
   ],
   foodCulture:
     'Uzbek cuisine is hearty and communal, centered on rice, lamb, bread (non), and seasonal produce, with Central Asian and Persian influences.',
+  mustVisit: [
+    { name: 'Samarkand', description: 'Legendary Silk Road city with Registan Square, stunning blue-tiled madrasas, and Gur-e-Amir mausoleum.' },
+    { name: 'Bukhara', description: 'Ancient city with over 140 architectural monuments, including Ark Fortress and Kalyan Minaret.' },
+    { name: 'Khiva', description: 'Museum city with perfectly preserved Ichon-Qala walled inner town, a UNESCO World Heritage site.' },
+    { name: 'Tashkent', description: 'Modern capital with Soviet architecture, bustling bazaars, and museums.' },
+    { name: 'Fergana Valley', description: 'Fertile valley known for traditional crafts, silk production, and beautiful landscapes.' },
+  ],
   innovations: [
     { name: 'Islamic Golden Age Astronomy', year: '9th-15th Century', description: 'Ulugh Beg\'s observatory in Samarkand produced groundbreaking astronomical calculations' },
     { name: 'Silk Road Trading System', year: 'Ancient', description: 'Developed sophisticated merchant networks and caravanserais connecting East and West' },

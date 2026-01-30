@@ -71,6 +71,13 @@ export const unitedKingdom: Country = {
     { item: 'Weather', description: 'Changeable—pack layers and a rain jacket year-round.' },
     { item: 'Safety', description: 'Generally safe; take normal city precautions in busy areas.' },
   ],
+  mustVisit: [
+    { name: 'London', description: 'Historic capital with Big Ben, Tower of London, British Museum, and vibrant culture.' },
+    { name: 'Edinburgh', description: 'Scottish capital with medieval Old Town, Edinburgh Castle, and annual festivals.' },
+    { name: 'Stonehenge', description: 'Mysterious 5,000-year-old prehistoric monument on Salisbury Plain.' },
+    { name: 'Lake District', description: 'Stunning national park with mountains, lakes, and literary heritage.' },
+    { name: 'Bath', description: 'Roman spa town with ancient baths, Georgian architecture, and Jane Austen connections.' },
+  ],
   mainDish: {
     id: 'uk-main',
     name: 'Fish and Chips',

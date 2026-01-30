@@ -24,6 +24,13 @@ export const vanuatu: Country = {
   ],
   foodCulture:
     'Ni-Vanuatu cuisine features root vegetables, coconut, seafood, and dishes cooked in earth ovens. Lap lap is considered the national dish.',
+  mustVisit: [
+    { name: 'Mount Yasur', description: 'One of the world\'s most accessible active volcanoes, offering incredible lava displays.' },
+    { name: 'Blue Holes', description: 'Crystal-clear natural swimming holes and underwater caves perfect for diving and snorkeling.' },
+    { name: 'Pentecost Island Land Diving', description: 'Witness the ancient ritual that inspired bungee jumping, performed April-June.' },
+    { name: 'SS President Coolidge Wreck', description: 'World\'s largest accessible shipwreck dive site from WWII.' },
+    { name: 'Port Vila Markets', description: 'Vibrant local markets with fresh produce, handicrafts, and traditional Melanesian culture.' },
+  ],
   innovations: [
     { name: 'Land Diving Ritual', year: 'Ancient', description: 'Traditional vine jumping ceremony that inspired modern bungee jumping' },
     { name: 'Sand Drawing Art', year: 'Traditional', description: 'UNESCO-recognized ephemeral geometric drawings used for storytelling and communication' },
