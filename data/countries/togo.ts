@@ -8,26 +8,125 @@ export const togo: Country = {
   flag: '🇹🇬',
   landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
   description:
-    'Togo is a narrow West African country known for palm-lined beaches, hilltop villages, and the Vodun religion.',
+    'Togo is a narrow West African country known for palm-lined beaches, lively markets, hilltop villages, and cultural traditions where Vodun has historical roots alongside Christianity and Islam.',
+
   quickFacts: [
     { label: 'Capital', value: 'Lomé' },
     { label: 'Population', value: '8.5 million' },
     { label: 'Official Language', value: 'French' },
-    { label: 'Currency', value: 'West African CFA Franc' },
+    { label: 'Currency', value: 'West African CFA Franc (XOF)' },
     { label: 'Area', value: '56,785 km²' },
   ],
+
   facts: [
-    'Only 56 km of coastline',
-    'Home to diverse ethnic groups',
-    'Vodun religion is widely practiced',
-    'Major phosphate producer',
+    'Togo has a short Atlantic coastline (around 56 km), but a long north–south landscape range',
+    'The country is home to many ethnic groups, including Ewe, Kabyé, Mina, and others',
+    'Traditional religions (including Vodun) are practiced alongside Christianity and Islam',
+    'Togo is one of the region’s notable phosphate producers',
+    'Lomé is known for its busy markets, including craft and fetish markets',
+    'The country stretches from coastal lagoons to savanna in the north',
   ],
+
   foodCulture:
-    'Togolese cuisine features corn, yams, cassava, and spicy sauces with West African flavors.',
+    'Togolese cuisine features staples like maize, cassava, yams, plantain, beans, and spicy sauces. Meals are often built around a starchy base (like fufu or pâte) served with soups or stews, plus grilled fish or meat depending on region and season.',
+
+  history: [
+    {
+      year: '1884',
+      title: 'German Protectorate',
+      description:
+        'The coastal region became part of German Togoland during the colonial era.',
+    },
+    {
+      year: '1914–1919',
+      title: 'Partition After World War I',
+      description:
+        'After Germany’s defeat, Togoland was divided between British and French administration.',
+    },
+    {
+      year: '1960',
+      title: 'Independence',
+      description:
+        'Togo gained independence and Lomé became the capital of the modern state.',
+    },
+  ],
+
+  innovations: [
+    {
+      name: 'Phosphate Industry',
+      year: '20th Century',
+      description:
+        'Phosphate mining has been a major economic activity and export sector for decades.',
+    },
+    {
+      name: 'Textiles & Wax Prints',
+      year: 'Modern era',
+      description:
+        'Colorful fabrics and tailoring traditions are central to daily life and celebrations, with vibrant patterns used across West Africa.',
+    },
+  ],
+
+  mustVisit: [
+    {
+      name: 'Lomé',
+      description:
+        'Beachfront energy, markets, craft stalls, and the everyday pulse of the capital.',
+    },
+    {
+      name: 'Kpalimé',
+      description:
+        'A green region near hills and waterfalls, known for crafts and nature getaways.',
+    },
+    {
+      name: 'Mount Agou',
+      description:
+        'The country’s highest point, offering hikes and scenic views.',
+    },
+    {
+      name: 'Togoville (Lake Togo)',
+      description:
+        'A lakeside town with cultural history and local traditions.',
+    },
+    {
+      name: 'Koutammakou (Batammariba area)',
+      description:
+        'A cultural landscape known for distinctive tower houses and heritage traditions.',
+    },
+  ],
+
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa requirements vary by nationality; check before travel.' },
+    {
+      item: 'Best time to visit',
+      description:
+        'Dry season is generally easier for travel; timing varies slightly by region.',
+    },
+    {
+      item: 'Transport',
+      description:
+        'Shared taxis and buses are common; plan extra time for intercity travel.',
+    },
+    {
+      item: 'Money',
+      description:
+        'Cash is important for markets and transport; ATMs are mainly in larger towns.',
+    },
+    {
+      item: 'Languages',
+      description:
+        'French is official; local languages (e.g., Ewe, Kabyé) are widely spoken.',
+    },
+    {
+      item: 'Etiquette',
+      description:
+        'Greetings matter—take time to say hello before jumping into questions or business.',
+    },
+  ],
+
   mainDish: {
     id: 'togo-main',
     name: 'Fufu with Light Soup',
-    description: 'Pounded cassava or yam with spicy soup',
+    description: 'Pounded cassava or yam served with a flavorful, spicy soup',
     cookingTime: 90,
     servings: 6,
     dietType: 'meat',
@@ -38,23 +137,25 @@ export const togo: Country = {
       { name: 'Onions', amount: 2, unit: 'whole' },
       { name: 'Chili peppers', amount: 3, unit: 'whole' },
       { name: 'Palm oil', amount: 50, unit: 'ml' },
+      { name: 'Salt', amount: 1.5, unit: 'tsp' },
+      { name: 'Black pepper', amount: 0.5, unit: 'tsp' },
     ],
     steps: [
-      'Boil cassava or yam until soft',
-      'Pound in mortar until smooth',
-      'Make soup with meat, tomatoes, and spices',
-      'Simmer until meat is tender',
-      'Serve fufu with soup on side',
-      'Eat by dipping fufu in soup',
+      'Boil cassava or yam until very soft',
+      'Pound (or mash) until smooth and elastic; shape into balls',
+      'For the soup: simmer meat with chopped tomatoes, onions, chilies, salt, and pepper',
+      'Add palm oil and continue simmering until the meat is tender and flavors deepen',
+      'Serve fufu with the hot soup on the side',
+      'Eat by pinching off small pieces of fufu and dipping into the soup',
     ],
-    imageUrl:
-      'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
   },
+
   dessert: {
     id: 'togo-dessert',
     name: 'Coconut Peanut Candy',
     description:
-      'A simple West African-style sweet made by cooking shredded coconut with sugar and peanuts until sticky and caramelized.',
+      'A simple sweet made by cooking shredded coconut with sugar and peanuts until sticky and caramelized.',
     cookingTime: 25,
     servings: 12,
     dietType: 'vegan',
@@ -76,28 +177,36 @@ export const togo: Country = {
       'Let cool completely until firm',
       'Serve as bite-size candies',
     ],
-    imageUrl:
-      'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600',
   },
+
   drinks: {
     alcoholic: 'Palm wine, Tchoukoutou (millet beer)',
-    nonAlcoholic: 'Bissap, Ginger juice',
+    nonAlcoholic: 'Bissap (hibiscus), Ginger juice',
   },
+
   music: [
-    'Traditional Agbadja dance',
-    'Afrobeat',
-    'Highlife',
+    'Traditional Agbadja dance music',
+    'Afrobeat and Afropop',
+    'Highlife influences',
+    'Local percussion-driven festival rhythms',
   ],
+
   decorationIdeas: [
-    'Green, yellow and red flag colors',
-    'Traditional masks',
-    'Vodun symbols',
-    'West African textiles',
+    'Green, yellow, and red flag colors',
+    'West African textiles and patterns',
+    'Handwoven baskets and natural fibers',
+    'Palm-leaf and coastal elements',
+    'Masks and symbolic motifs (used respectfully)',
   ],
+
   conversationStarters: [
-    'What do you know about West African spiritual traditions?',
-    'Have you tried fufu?',
+    'Have you tried fufu or any West African soups?',
+    'Do you enjoy spicy sauces—mild heat or full fire?',
+    'What do you know about West African coastal cultures?',
+    'Have you seen West African wax print fashion in real life?',
   ],
+
   quiz: [
     {
       id: 'togo-q1',
@@ -119,7 +228,7 @@ export const togo: Country = {
     },
     {
       id: 'togo-q4',
-      question: 'Which traditional religion is widely practiced in Togo?',
+      question: 'Which traditional religion has historical roots in Togo and the region?',
       options: ['Islam', 'Christianity', 'Vodun', 'Hinduism'],
       correctAnswer: 2,
     },
@@ -160,5 +269,6 @@ export const togo: Country = {
       correctAnswer: 0,
     },
   ],
+
   coordinates: { x: 47, y: 18 },
 };
