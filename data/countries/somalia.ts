@@ -7,7 +7,8 @@ export const somalia: Country = {
   continent: 'Africa',
   flag: '🇸🇴',
   landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800',
-  description: 'Somalia sits on the Horn of Africa with the longest coastline on the African continent. Known for its ancient trading history, nomadic culture, and rich oral poetry tradition.',
+  description:
+    'Somalia sits on the Horn of Africa with the longest coastline on the African continent. Known for its ancient trading history, nomadic culture, and rich oral poetry tradition.',
   quickFacts: [
     { label: 'Capital', value: 'Mogadishu' },
     { label: 'Population', value: '16 million' },
@@ -16,13 +17,14 @@ export const somalia: Country = {
     { label: 'Area', value: '637,657 km²' },
   ],
   facts: [
-    'Somalia has Africa\'s longest coastline at 3,025 km',
+    "Somalia has Africa's longest coastline at 3,025 km",
     'Somali is one of the few African languages with its own writing system',
     'The country has a rich oral poetry tradition dating back centuries',
     'Frankincense and myrrh have been exported from Somalia for millennia',
     'Somalia was an important trading hub linking Africa, Arabia, and Asia',
   ],
-  foodCulture: 'Somali cuisine reflects East African, Yemeni, and Italian influences. Meals often feature rice, pasta, grilled meats, and flatbread. Spices like cumin, cardamom, and coriander are prominent.',
+  foodCulture:
+    'Somali cuisine reflects East African, Yemeni, and Italian influences. Meals often feature rice, pasta, grilled meats, and flatbread. Spices like cumin, cardamom, and coriander are prominent.',
   mainDish: {
     id: 'somalia-main',
     name: 'Bariis Iskukaris',
@@ -55,6 +57,40 @@ export const somalia: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=600',
   },
+
+  dessert: {
+    id: 'somalia-dessert',
+    name: 'Somali Halwa',
+    description:
+      'A rich, aromatic sweet made with sugar, spices, and nuts, often served at celebrations and special gatherings.',
+    cookingTime: 40,
+    servings: 10,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Sugar', amount: 300, unit: 'g' },
+      { name: 'Water', amount: 300, unit: 'ml' },
+      { name: 'Cornstarch', amount: 90, unit: 'g' },
+      { name: 'Ghee (or butter)', amount: 80, unit: 'g' },
+      { name: 'Cardamom (ground)', amount: 1, unit: 'tsp' },
+      { name: 'Nutmeg (optional)', amount: 0.25, unit: 'tsp' },
+      { name: 'Saffron (optional)', amount: 1, unit: 'pinch' },
+      { name: 'Roasted peanuts or cashews', amount: 120, unit: 'g' },
+      { name: 'Vanilla (optional)', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Mix cornstarch with 150 ml water until smooth (no lumps).',
+      'In a pot, combine sugar with remaining water and bring to a gentle boil.',
+      'Lower heat and whisk in the cornstarch mixture slowly.',
+      'Stir continuously until it thickens and becomes glossy.',
+      'Add ghee gradually, stirring until fully absorbed and the mixture pulls from the sides.',
+      'Add cardamom (and optional saffron/nutmeg/vanilla).',
+      'Fold in roasted nuts.',
+      'Pour into a greased dish, smooth the top, and let set.',
+      'Slice into small diamonds or squares to serve.',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc500f?w=600',
+  },
+
   drinks: {
     alcoholic: 'Not commonly consumed (Islamic country)',
     nonAlcoholic: 'Shaah (spiced tea), Camel milk, Fresh mango juice',
@@ -87,14 +123,61 @@ export const somalia: Country = {
     },
     {
       id: 'somalia-q2',
-      question: 'Somalia has Africa\'s longest what?',
+      question: "Somalia has Africa's longest what?",
       options: ['River', 'Mountain range', 'Coastline', 'Desert'],
       correctAnswer: 2,
     },
     {
       id: 'somalia-q3',
       question: 'Which trade goods are historically associated with Somalia?',
-      options: ['Silk and jade', 'Frankincense and myrrh', 'Gold and diamonds', 'Coffee and cocoa'],
+      options: [
+        'Silk and jade',
+        'Frankincense and myrrh',
+        'Gold and diamonds',
+        'Coffee and cocoa',
+      ],
+      correctAnswer: 1,
+    },
+    {
+      id: 'somalia-q4',
+      question: 'Somalia is located on which part of Africa?',
+      options: ['West Africa', 'Horn of Africa', 'Southern Africa', 'Central Africa'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'somalia-q5',
+      question: 'Which two languages are listed as official in this country profile?',
+      options: ['Somali and Arabic', 'Somali and French', 'Arabic and English', 'Somali and Swahili'],
+      correctAnswer: 0,
+    },
+    {
+      id: 'somalia-q6',
+      question: 'What is a popular Somali spiced tea called?',
+      options: ['Matcha', 'Shaah', 'Chai latte', 'Mate'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'somalia-q7',
+      question: 'Bariis Iskukaris is primarily a dish based on what staple ingredient?',
+      options: ['Bread', 'Rice', 'Corn', 'Noodles'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'somalia-q8',
+      question: 'Which ocean borders Somalia?',
+      options: ['Atlantic Ocean', 'Indian Ocean', 'Pacific Ocean', 'Arctic Ocean'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'somalia-q9',
+      question: 'What is Somali Halwa best described as?',
+      options: ['A savory stew', 'A rich sweet dessert', 'A fermented drink', 'A flatbread'],
+      correctAnswer: 1,
+    },
+    {
+      id: 'somalia-q10',
+      question: 'Somalia is historically known as a trading hub linking Africa with which nearby region?',
+      options: ['Scandinavia', 'Arabia', 'South America', 'Oceania'],
       correctAnswer: 1,
     },
   ],
