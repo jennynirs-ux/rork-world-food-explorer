@@ -40,15 +40,50 @@ export const syria: Country = {
       { name: 'Cinnamon', amount: 1, unit: 'tsp' },
     ],
     steps: [
-      'Soak bulgur in water',
-      'Mix bulgur with half the meat and spices',
-      'Make filling with remaining meat and pine nuts',
-      'Form into oval shapes with filling inside',
+      'Soak bulgur in water for 15 minutes and drain well',
+      'Mix bulgur with half the meat, grated onion, and spices',
+      'Prepare filling by cooking remaining meat with pine nuts and spices',
+      'Form oval shells and fill with meat mixture',
+      'Seal carefully and shape into torpedoes',
       'Deep fry until golden brown',
-      'Serve with yogurt and salad',
+      'Drain on paper towels and serve warm',
+      'Serve with yogurt and fresh salad',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=600',
   },
+
+  dessert: {
+    id: 'syria-dessert',
+    name: 'Ma’amoul',
+    description:
+      'Traditional Syrian semolina cookies filled with dates or nuts, commonly prepared for religious holidays.',
+    cookingTime: 60,
+    servings: 24,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Semolina', amount: 500, unit: 'g' },
+      { name: 'Butter (melted)', amount: 250, unit: 'g' },
+      { name: 'Milk', amount: 120, unit: 'ml' },
+      { name: 'Sugar', amount: 50, unit: 'g' },
+      { name: 'Date paste', amount: 300, unit: 'g' },
+      { name: 'Orange blossom water', amount: 2, unit: 'tbsp' },
+      { name: 'Rose water', amount: 1, unit: 'tbsp' },
+      { name: 'Powdered sugar (optional)', amount: 50, unit: 'g' },
+    ],
+    steps: [
+      'Mix semolina with melted butter and let rest 30 minutes',
+      'Add milk, sugar, orange blossom water, and rose water',
+      'Knead gently into a soft dough',
+      'Take small portions and flatten in your palm',
+      'Fill with date paste and seal into balls',
+      'Press into decorative molds if available',
+      'Place on baking tray and bake at 180°C for 15–18 minutes',
+      'Let cool completely',
+      'Dust lightly with powdered sugar if desired',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1604908554168-6a77b90c2c88?w=600',
+  },
+
   drinks: {
     alcoholic: 'Arak (anise-flavored)',
     nonAlcoholic: 'Arabic coffee, Mint tea, Jallab (date syrup drink)',
@@ -73,7 +108,8 @@ export const syria: Country = {
     },
     {
       id: 'syria-q2',
-      question: 'Which famous ancient city in Syria was a major Silk Road oasis and has UNESCO-listed ruins?',
+      question:
+        'Which famous ancient city in Syria was a major Silk Road oasis and has UNESCO-listed ruins?',
       options: ['Palmyra', 'Petra', 'Persepolis', 'Byblos'],
       correctAnswer: 0,
     },
@@ -97,14 +133,20 @@ export const syria: Country = {
     },
     {
       id: 'syria-q6',
-      question: 'Which dance is widely associated with Levantine celebrations, including in Syria?',
+      question: 'Which dance is widely associated with Levantine celebrations?',
       options: ['Dabke', 'Flamenco', 'Tango', 'Samba'],
       correctAnswer: 0,
     },
     {
       id: 'syria-q7',
-      question: 'Which two historic Syrian cities are often mentioned as major cultural centers?',
-      options: ['Damascus and Aleppo', 'Basra and Baghdad', 'Jerusalem and Jaffa', 'Mecca and Medina'],
+      question:
+        'Which two historic Syrian cities are often mentioned as major cultural centers?',
+      options: [
+        'Damascus and Aleppo',
+        'Basra and Baghdad',
+        'Jerusalem and Jaffa',
+        'Mecca and Medina',
+      ],
       correctAnswer: 0,
     },
     {
