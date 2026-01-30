@@ -6,7 +6,7 @@ export const senegal: Country = {
   code: 'SN',
   continent: 'Africa',
   flag: '🇸🇳',
-  landscapeImage: 'https://source.unsplash.com/featured/?senegal,dakar,goree,island,africa,coast&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1632587866343-5ea40678e13c?w=800',
   description:
     'Senegal is a West African country known for vibrant culture, Atlantic beaches, and historic Gorée Island. It is famous for music and dance, rich culinary traditions, and the energetic capital, Dakar.',
   quickFacts: [

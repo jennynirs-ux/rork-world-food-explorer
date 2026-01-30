@@ -6,7 +6,7 @@ export const mozambique: Country = {
   code: 'MZ',
   continent: 'Africa',
   flag: '🇲🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=800',
   description: 'Mozambique boasts stunning beaches, vibrant Portuguese-African culture, and rich marine life. A coastal paradise with a unique blend of African and Portuguese influences.',
   quickFacts: [
     { label: 'Capital', value: 'Maputo' },

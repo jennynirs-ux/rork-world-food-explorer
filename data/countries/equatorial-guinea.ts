@@ -6,7 +6,7 @@ export const equatorialGuinea: Country = {
   code: 'GQ',
   continent: 'Africa',
   flag: '🇬🇶',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1600077106724-946750eeaf8c?w=800',
   description: 'Equatorial Guinea is a Central African country with a mainland region and islands, known for oil production and Spanish colonial heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Malabo' },

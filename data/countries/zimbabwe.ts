@@ -6,7 +6,7 @@ export const zimbabwe: Country = {
   code: 'ZW',
   continent: 'Africa',
   flag: '🇿🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1484318571209-661cf29a69c3?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=800',
   description:
     'Zimbabwe is a landlocked Southern African country known for Victoria Falls, ancient stone ruins, and rich wildlife. From the dramatic Zambezi River landscapes to the historic Great Zimbabwe site, the country blends natural beauty with deep cultural heritage.',
   quickFacts: [

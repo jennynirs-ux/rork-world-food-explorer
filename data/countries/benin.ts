@@ -6,7 +6,7 @@ export const benin: Country = {
   code: 'BJ',
   continent: 'Africa',
   flag: '🇧🇯',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1632587866343-5ea40678e13c?w=800',
   description: 'Benin is a West African nation, the birthplace of Vodun (Voodoo) religion, with a rich history as the site of the Kingdom of Dahomey.',
   quickFacts: [
     { label: 'Capital', value: 'Porto-Novo' },

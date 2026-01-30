@@ -6,7 +6,7 @@ export const republicCongo: Country = {
   code: 'CG',
   continent: 'Africa',
   flag: '🇨🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800',
   description: 'The Republic of the Congo is a Central African country with equatorial rainforests, wildlife reserves, and the Congo River forming its eastern border.',
   quickFacts: [
     { label: 'Capital', value: 'Brazzaville' },

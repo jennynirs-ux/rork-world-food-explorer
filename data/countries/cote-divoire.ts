@@ -6,7 +6,7 @@ export const coteDivoire: Country = {
   code: 'CI',
   continent: 'Africa',
   flag: '🇨🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?w=800',
   description: 'Côte d\'Ivoire (Ivory Coast) is the world\'s largest cocoa producer with vibrant culture and beautiful beaches. A blend of French colonial heritage and diverse African traditions.',
   quickFacts: [
     { label: 'Capital', value: 'Yamoussoukro (political), Abidjan (economic)' },

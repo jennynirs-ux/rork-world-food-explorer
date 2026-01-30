@@ -6,7 +6,7 @@ export const sierraLeone: Country = {
   code: 'SL',
   continent: 'Africa',
   flag: '🇸🇱',
-  landscapeImage: 'https://source.unsplash.com/featured/?sierra-leone,beach,west-africa&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800',
   description:
     'Sierra Leone is a West African country known for beautiful Atlantic beaches, rainforest reserves, and a resilient culture shaped by trade, colonial history, and post-conflict recovery.',
   quickFacts: [

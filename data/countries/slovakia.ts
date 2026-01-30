@@ -6,7 +6,7 @@ export const slovakia: Country = {
   code: 'SK',
   continent: 'Europe',
   flag: '🇸🇰',
-  landscapeImage: 'https://source.unsplash.com/featured/?slovakia,tatra-mountains,landscape&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
   description:
     'Slovakia is a landlocked country in Central Europe known for dramatic mountain scenery, medieval castles, and strong folk traditions. The High Tatras offer excellent hiking and skiing, while historic towns and spa regions add culture and relaxation.',
   quickFacts: [

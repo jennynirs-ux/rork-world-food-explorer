@@ -6,7 +6,7 @@ export const samoa: Country = {
   code: 'WS',
   continent: 'Oceania',
   flag: '🇼🇸',
-  landscapeImage: 'https://source.unsplash.com/featured/?samoa,polynesia,tropical,island,beach&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
   description:
     "Samoa is a Polynesian island nation known for traditional fa'a Samoa culture, lush landscapes, pristine beaches, and warm hospitality.",
   quickFacts: [

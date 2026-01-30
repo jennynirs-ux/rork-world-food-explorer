@@ -6,7 +6,7 @@ export const guinea: Country = {
   code: 'GN',
   continent: 'Africa',
   flag: '🇬🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1600077106724-946750eeaf8c?w=800',
   description: 'Guinea is a West African country known as the "water tower of West Africa" for its rivers, rich mineral resources, and diverse ethnic groups.',
   quickFacts: [
     { label: 'Capital', value: 'Conakry' },

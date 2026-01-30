@@ -6,7 +6,7 @@ export const mali: Country = {
   code: 'ML',
   continent: 'Africa',
   flag: '🇲🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800',
   description: 'Mali is a landlocked West African country known for the ancient city of Timbuktu, the Niger River, and rich musical traditions.',
   quickFacts: [
     { label: 'Capital', value: 'Bamako' },

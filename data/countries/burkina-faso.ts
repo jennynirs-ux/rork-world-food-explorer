@@ -6,7 +6,7 @@ export const burkinaFaso: Country = {
   code: 'BF',
   continent: 'Africa',
   flag: '🇧🇫',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800',
   description: 'Burkina Faso is a landlocked country in West Africa known for its vibrant music scene, traditional masks, and the biennial FESPACO film festival.',
   quickFacts: [
     { label: 'Capital', value: 'Ouagadougou' },

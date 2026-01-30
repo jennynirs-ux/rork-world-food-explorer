@@ -6,7 +6,7 @@ export const liberia: Country = {
   code: 'LR',
   continent: 'Africa',
   flag: '🇱🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800',
   description: 'Liberia is a West African country founded by freed American slaves, known for its unique history, tropical forests, and surf beaches.',
   quickFacts: [
     { label: 'Capital', value: 'Monrovia' },

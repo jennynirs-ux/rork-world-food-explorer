@@ -6,7 +6,7 @@ export const seychelles: Country = {
   code: 'SC',
   continent: 'Africa',
   flag: '🇸🇨',
-  landscapeImage: 'https://source.unsplash.com/featured/?seychelles,anse-source-dargent,granite,boulders,beach&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1574001106297-5cc5686a5c15?w=800',
   description:
     'Seychelles is an Indian Ocean archipelago of 115 islands known for turquoise lagoons, dramatic granite boulders, coral reefs, and rare wildlife. It is famous for protected nature reserves and idyllic beaches across Mahé, Praslin, and La Digue.',
   quickFacts: [

@@ -6,7 +6,7 @@ export const tuvalu: Country = {
   code: 'TV',
   continent: 'Oceania',
   flag: '🇹🇻',
-  landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
   description:
     "Tuvalu is one of the world’s smallest and most remote countries, a low-lying Pacific island nation made up of coral atolls and extremely vulnerable to climate change and sea level rise.",
   quickFacts: [

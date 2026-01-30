@@ -7,7 +7,7 @@ export const turkmenistan: Country = {
   continent: 'Asia',
   flag: '🇹🇲',
   landscapeImage:
-    'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+    'https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800',
   description:
     'Turkmenistan is a Central Asian country known for the vast Karakum Desert, ancient Silk Road cities, rich natural gas reserves, and striking white-marble architecture in its capital, Ashgabat.',
   quickFacts: [

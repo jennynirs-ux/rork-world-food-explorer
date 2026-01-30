@@ -6,7 +6,7 @@ export const serbia: Country = {
   code: 'RS',
   continent: 'Europe',
   flag: '🇷🇸',
-  landscapeImage: 'https://source.unsplash.com/featured/?serbia,belgrade,danube,kalemegdan,fortress&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
   description:
     'Serbia is a landlocked country in Southeast Europe at the crossroads of Central and the Balkans. It is known for lively cities, Orthodox monasteries, river landscapes along the Danube and Sava, and a strong food-and-coffee culture. Belgrade is among Europe\'s oldest continuously inhabited cities.',
   quickFacts: [

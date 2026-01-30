@@ -6,7 +6,7 @@ export const micronesia: Country = {
   code: 'FM',
   continent: 'Oceania',
   flag: '🇫🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
   description: 'The Federated States of Micronesia is a Pacific island nation known for WWII wrecks, pristine diving, and traditional culture.',
   quickFacts: [
     { label: 'Capital', value: 'Palikir' },

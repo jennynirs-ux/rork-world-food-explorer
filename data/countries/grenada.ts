@@ -6,7 +6,7 @@ export const grenada: Country = {
   code: 'GD',
   continent: 'North America',
   flag: '🇬🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
   description: 'Grenada is the "Spice Isle" of the Caribbean, famous for nutmeg production, beautiful beaches, and the underwater sculpture park.',
   quickFacts: [
     { label: 'Capital', value: 'St. George\'s' },

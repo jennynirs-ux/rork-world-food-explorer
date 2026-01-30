@@ -6,7 +6,7 @@ export const eritrea: Country = {
   code: 'ER',
   continent: 'Africa',
   flag: '🇪🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800',
   description: 'Eritrea is a Horn of Africa country on the Red Sea, known for Italian colonial architecture, diverse ethnic groups, and unique coffee culture.',
   quickFacts: [
     { label: 'Capital', value: 'Asmara' },

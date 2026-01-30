@@ -6,7 +6,7 @@ export const saudiArabia: Country = {
   code: 'SA',
   continent: 'Asia',
   flag: '🇸🇦',
-  landscapeImage: 'https://source.unsplash.com/featured/?saudi-arabia,desert,riyadh,sand-dunes&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
   description:
     'Saudi Arabia is the birthplace of Islam and home to Makkah and Madinah. It is known for vast desert landscapes, Red Sea coastlines, major oil resources, and rapid modernization under Vision 2030.',
   quickFacts: [

@@ -6,7 +6,7 @@ export const capeVerde: Country = {
   code: 'CV',
   continent: 'Africa',
   flag: '🇨🇻',
-  landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=800',
   description: 'Cape Verde is an island nation off the coast of West Africa, known for its Creole Portuguese-African culture, pristine beaches, and unique music.',
   quickFacts: [
     { label: 'Capital', value: 'Praia' },

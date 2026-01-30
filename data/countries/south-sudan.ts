@@ -6,7 +6,7 @@ export const southSudan: Country = {
   code: 'SS',
   continent: 'Africa',
   flag: '🇸🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=800',
   description:
     'South Sudan is the world’s youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
   quickFacts: [

@@ -6,8 +6,7 @@ export const saintLucia: Country = {
   code: 'LC',
   continent: 'North America',
   flag: '🇱🇨',
-  // Using Unsplash "source" URLs to reliably match the theme without breaking JSON.
-  landscapeImage: 'https://source.unsplash.com/featured/?saint%20lucia,pitons,caribbean&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1544989164-fb88fbafbe7a?w=800',
   description:
     'Saint Lucia is a Caribbean island known for the iconic Pitons, volcanic landscapes, lush rainforests, and a vibrant Creole culture. It is famous for scenic drives, warm hospitality, and a mix of French and British colonial heritage.',
   quickFacts: [

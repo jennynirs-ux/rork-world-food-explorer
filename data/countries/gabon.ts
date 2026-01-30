@@ -6,7 +6,7 @@ export const gabon: Country = {
   code: 'GA',
   continent: 'Africa',
   flag: '🇬🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800',
   description: 'Gabon is a Central African country on the Atlantic coast, known for pristine rainforests, diverse wildlife, and oil wealth.',
   quickFacts: [
     { label: 'Capital', value: 'Libreville' },

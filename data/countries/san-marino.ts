@@ -6,7 +6,7 @@ export const sanMarino: Country = {
   code: 'SM',
   continent: 'Europe',
   flag: '🇸🇲',
-  landscapeImage: 'https://source.unsplash.com/featured/?san-marino,medieval,mountain,italy&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
   description:
     'San Marino is one of the world’s oldest republics, a microstate completely surrounded by Italy. It is known for medieval fortresses, mountain views, and a strong tradition of independence.',
   quickFacts: [

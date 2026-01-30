@@ -6,7 +6,7 @@ export const saoTomeAndPrincipe: Country = {
   code: 'ST',
   continent: 'Africa',
   flag: '🇸🇹',
-  landscapeImage: 'https://source.unsplash.com/featured/?sao-tome,principe,tropical,island,rainforest&w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1574001106297-5cc5686a5c15?w=800',
   description:
     'Sao Tome and Principe is a small island nation in the Gulf of Guinea, known for lush rainforests, volcanic peaks, rich biodiversity, and a long cocoa-growing tradition shaped by Portuguese heritage.',
   quickFacts: [

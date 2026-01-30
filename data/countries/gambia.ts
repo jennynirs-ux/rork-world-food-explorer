@@ -6,7 +6,7 @@ export const gambia: Country = {
   code: 'GM',
   continent: 'Africa',
   flag: '🇬🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=800',
   description: 'Gambia is the smallest country in mainland Africa, a narrow strip along the Gambia River surrounded by Senegal, known for beaches and birdwatching.',
   quickFacts: [
     { label: 'Capital', value: 'Banjul' },
