@@ -6,9 +6,10 @@ export const turkmenistan: Country = {
   code: 'TM',
   continent: 'Asia',
   flag: '🇹🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
+  landscapeImage:
+    'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800',
   description:
-    'Turkmenistan is a Central Asian country known for the vast Karakum Desert, ancient Silk Road cities, rich gas reserves, and striking white-marble architecture in its capital.',
+    'Turkmenistan is a Central Asian country known for the vast Karakum Desert, ancient Silk Road cities, rich natural gas reserves, and striking white-marble architecture in its capital, Ashgabat.',
   quickFacts: [
     { label: 'Capital', value: 'Ashgabat' },
     { label: 'Population', value: '6.3 million' },
@@ -16,18 +17,128 @@ export const turkmenistan: Country = {
     { label: 'Currency', value: 'Turkmenistan Manat' },
     { label: 'Area', value: '488,100 km²' },
   ],
+
   facts: [
     'Around 80% of Turkmenistan is covered by the Karakum Desert',
-    'The Darvaza gas crater is known as the "Door to Hell"',
-    'Ashgabat holds a Guinness World Record for white marble buildings',
+    'The Darvaza gas crater is known as the “Door to Hell”',
+    'Ashgabat holds world records for white-marble buildings',
     'Turkmenistan has some of the world’s largest natural gas reserves',
+    'The Akhal-Teke horse is a national symbol',
+    'The country was a key region along the ancient Silk Road',
   ],
+
   foodCulture:
-    'Turkmen cuisine is based on lamb, rice, bread, and dairy products. Meals are hearty and influenced by nomadic Central Asian traditions, often accompanied by green tea.',
+    'Turkmen cuisine is based on lamb, rice, bread, and dairy products. Meals are hearty and influenced by nomadic Central Asian traditions, often accompanied by green tea. Hospitality plays an important role in daily life.',
+
+  history: [
+    {
+      year: '3rd Century BC',
+      title: 'Silk Road Era',
+      description:
+        'Cities like Merv became major centers of trade, culture, and learning along the Silk Road.',
+    },
+    {
+      year: '11th Century',
+      title: 'Seljuk Empire',
+      description:
+        'The Seljuks ruled much of the region, spreading Turkic culture and Islamic scholarship.',
+    },
+    {
+      year: '1881',
+      title: 'Russian Conquest',
+      description:
+        'The region was absorbed into the Russian Empire after the Battle of Geok Tepe.',
+    },
+    {
+      year: '1991',
+      title: 'Independence',
+      description:
+        'Turkmenistan gained independence following the collapse of the Soviet Union.',
+    },
+  ],
+
+  innovations: [
+    {
+      name: 'Turkmen Carpets',
+      year: 'Ancient',
+      description:
+        'Handwoven carpets are a national symbol and are recognized by UNESCO as intangible cultural heritage.',
+    },
+    {
+      name: 'Desert Irrigation Systems',
+      year: '20th Century',
+      description:
+        'Large-scale irrigation projects transformed arid land for agriculture, especially cotton.',
+    },
+    {
+      name: 'White Marble Urban Design',
+      year: 'Modern Era',
+      description:
+        'Ashgabat’s architecture features extensive use of white marble, earning world records.',
+    },
+  ],
+
+  mustVisit: [
+    {
+      name: 'Darvaza Gas Crater',
+      description:
+        'A massive burning natural gas crater in the Karakum Desert, nicknamed the “Door to Hell.”',
+    },
+    {
+      name: 'Ashgabat',
+      description:
+        'The capital city known for monumental white-marble buildings and wide boulevards.',
+    },
+    {
+      name: 'Ancient Merv',
+      description:
+        'A UNESCO World Heritage Site and one of the most important Silk Road cities.',
+    },
+    {
+      name: 'Kunya-Urgench',
+      description:
+        'Historic ruins of a medieval capital with mausoleums and minarets.',
+    },
+    {
+      name: 'Karakum Desert',
+      description:
+        'One of the largest sand deserts in the world, covering most of the country.',
+    },
+  ],
+
+  travelEssentials: [
+    {
+      item: 'Visa requirements',
+      description:
+        'Most visitors require a visa and official invitation; travel planning is essential.',
+    },
+    {
+      item: 'Best time to visit',
+      description:
+        'Spring (April–May) and autumn (September–October) offer the most comfortable weather.',
+    },
+    {
+      item: 'Getting around',
+      description:
+        'Travel is controlled; guided tours are common for foreign visitors.',
+    },
+    {
+      item: 'Currency',
+      description:
+        'Cash is important; international cards are rarely accepted.',
+    },
+    {
+      item: 'Cultural respect',
+      description:
+        'Modest clothing and respectful behavior are expected, especially outside cities.',
+    },
+  ],
+
   mainDish: {
     id: 'turkmenistan-main',
     name: 'Plov',
-    description: 'Traditional rice pilaf cooked with lamb, carrots, and spices',
+    description:
+      'Traditional rice pilaf cooked with lamb, carrots, and spices',
     cookingTime: 90,
     servings: 6,
     dietType: 'meat',
@@ -38,39 +149,73 @@ export const turkmenistan: Country = {
       { name: 'Onions', amount: 2, unit: 'whole' },
       { name: 'Cumin', amount: 1, unit: 'tsp' },
       { name: 'Vegetable oil', amount: 100, unit: 'ml' },
+      { name: 'Salt', amount: 1.5, unit: 'tsp' },
     ],
     steps: [
-      'Heat vegetable oil in a large heavy-bottomed pot',
+      'Heat oil in a large heavy-bottomed pot',
       'Brown lamb pieces until well colored',
       'Add sliced onions and cook until soft',
       'Stir in julienned carrots and cumin',
-      'Add enough water to cover the meat and simmer for 30 minutes',
+      'Add water to cover meat and simmer for 30 minutes',
       'Spread rinsed rice evenly on top without stirring',
       'Cover and steam until rice is tender and liquid absorbed',
       'Fluff gently before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+    imageUrl:
+      'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
   },
+
+  dessert: {
+    id: 'turkmenistan-dessert',
+    name: 'Chak-Chak',
+    description:
+      'A traditional Central Asian dessert made from fried dough pieces bound together with honey syrup.',
+    cookingTime: 40,
+    servings: 8,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'All-purpose flour', amount: 300, unit: 'g' },
+      { name: 'Eggs', amount: 3, unit: 'large' },
+      { name: 'Honey', amount: 200, unit: 'g' },
+      { name: 'Sugar', amount: 50, unit: 'g' },
+      { name: 'Vegetable oil (for frying)', amount: 500, unit: 'ml' },
+    ],
+    steps: [
+      'Mix flour and eggs into a firm dough',
+      'Roll dough thin and cut into small strips or balls',
+      'Deep-fry until golden and crisp',
+      'Heat honey and sugar until smooth',
+      'Pour syrup over fried dough and mix well',
+      'Shape into a mound and let cool before serving',
+    ],
+    imageUrl:
+      'https://images.unsplash.com/photo-1604908177522-402b7dba3b92?w=600',
+  },
+
   drinks: {
     alcoholic: 'Vodka',
     nonAlcoholic: 'Chal (fermented camel milk), Green tea',
   },
+
   music: [
     'Traditional dutar string music',
     'Turkmen folk songs',
     'Epic oral poetry performances',
   ],
+
   decorationIdeas: [
     'Green and red flag colors',
     'Turkmen carpet patterns',
     'Desert and oasis imagery',
     'Akhal-Teke horse motifs',
   ],
+
   conversationStarters: [
     'Have you heard about the Door to Hell crater?',
     'What do you know about Silk Road cultures?',
     'Would you visit a desert country like Turkmenistan?',
   ],
+
   quiz: [
     {
       id: 'turkmenistan-q1',
@@ -86,7 +231,7 @@ export const turkmenistan: Country = {
     },
     {
       id: 'turkmenistan-q3',
-      question: 'What natural gas site is nicknamed the "Door to Hell"?',
+      question: 'What natural gas site is nicknamed the “Door to Hell”?',
       options: ['Kyzylkum', 'Darvaza crater', 'Ustyurt Plateau', 'Kopet Dag'],
       correctAnswer: 1,
     },
@@ -133,5 +278,6 @@ export const turkmenistan: Country = {
       correctAnswer: 2,
     },
   ],
+
   coordinates: { x: 62, y: 42 },
 };
