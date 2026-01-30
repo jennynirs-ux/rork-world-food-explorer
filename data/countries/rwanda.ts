@@ -30,6 +30,13 @@ export const rwanda: Country = {
     { name: 'Nyungwe Forest National Park', description: 'Ancient rainforest with chimpanzees, canopy walks, and incredible biodiversity.' },
     { name: 'Akagera National Park', description: 'Savanna park with Big Five wildlife including lions, elephants, and rhinos.' },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa available on arrival for most nationalities. Can also apply online in advance.' },
+    { item: 'Best time to visit', description: 'June to September (dry season) is best for gorilla trekking.' },
+    { item: 'Health', description: 'Yellow fever certificate required. Malaria prophylaxis recommended.' },
+    { item: 'Plastic bags', description: 'Plastic bags are banned. Do not bring them into the country.' },
+    { item: 'Cleanliness', description: 'Rwanda is very clean. Do not litter. Community cleaning day is last Saturday of month.' },
+  ],
   innovations: [
     { name: 'Imigongo Cow Dung Art', year: 'Traditional', description: 'Unique geometric art form using cow dung mixed with natural pigments, now internationally recognized' },
     { name: 'Zipline Medical Drone Delivery', year: '2016', description: 'First national drone delivery network for emergency medical supplies, saving thousands of lives' },

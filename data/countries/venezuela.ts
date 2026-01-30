@@ -32,6 +32,13 @@ export const venezuela: Country = {
     { name: 'Mérida and the Andes', description: 'Mountain city with the world\'s highest cable car, coffee plantations, and adventure sports.' },
     { name: 'Roraima Tepui', description: 'Flat-topped mountain inspiring "The Lost World," accessible via multi-day trek through stunning landscapes.' },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Requirements vary by nationality. Check current regulations before travel.' },
+    { item: 'Best time to visit', description: 'December to April (dry season) for Angel Falls and trekking.' },
+    { item: 'Safety', description: 'Check current travel advisories. Exercise caution, especially in urban areas.' },
+    { item: 'Currency', description: 'Complex currency situation. US dollars widely used. Bring cash.' },
+    { item: 'Language', description: 'Spanish is essential. English very limited outside tourist areas.' },
+  ],
   innovations: [
     { name: 'Oil Refining Techniques', year: '1914', description: 'Pioneered techniques for refining heavy crude oil from world\'s largest reserves' },
     { name: 'Catatumbo Lightning Study', year: 'Ongoing', description: 'Unique meteorological phenomenon creating most lightning strikes on Earth, advancing atmospheric science' },

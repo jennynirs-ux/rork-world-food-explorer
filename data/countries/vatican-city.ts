@@ -33,6 +33,13 @@ export const vaticanCity: Country = {
     { name: 'St. Peter\'s Square', description: 'Bernini\'s grand colonnade embracing pilgrims, site of papal audiences and ceremonies.' },
     { name: 'Vatican Gardens', description: 'Peaceful Renaissance and Baroque gardens covering half of Vatican City\'s territory.' },
   ],
+  travelEssentials: [
+    { item: 'Entry', description: 'No visa needed. Vatican is within Rome, Italy. Entry to St. Peter\'s is free.' },
+    { item: 'Best time to visit', description: 'Early morning or late afternoon to avoid crowds. Wednesday for Papal audience.' },
+    { item: 'Dress code', description: 'Modest dress required: shoulders and knees covered. Enforced strictly.' },
+    { item: 'Tickets', description: 'Vatican Museums require timed tickets. Book online in advance to skip lines.' },
+    { item: 'Language', description: 'Italian widely spoken. English available for tours and information.' },
+  ],
   innovations: [
     { name: 'Renaissance Art Patronage', year: '15th-16th Century', description: 'Vatican commissioned masterpieces by Michelangelo, Raphael, transforming Western art' },
     { name: 'Gregorian Calendar', year: '1582', description: 'Pope Gregory XIII reformed the Julian calendar, creating system still used globally' },

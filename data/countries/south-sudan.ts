@@ -32,6 +32,13 @@ export const southSudan: Country = {
     { name: 'Nimule National Park', description: 'Park along the Nile with elephants, hippos, and diverse birdlife.' },
     { name: 'Imatong Mountains', description: 'Highest mountain range in South Sudan with cool climate and stunning views.' },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa required in advance. Apply at South Sudanese embassy or consulate.' },
+    { item: 'Best time to visit', description: 'November to April (dry season) for better road conditions and travel.' },
+    { item: 'Safety', description: 'Check current travel advisories. Security situation can be unpredictable.' },
+    { item: 'Health', description: 'Yellow fever vaccination required. Malaria prophylaxis essential.' },
+    { item: 'Infrastructure', description: 'Limited tourism infrastructure. Plan carefully and consider guided tours.' },
+  ],
   innovations: [
     { name: 'Sudd Wetland Management', year: 'Traditional', description: 'Indigenous knowledge of navigating and living sustainably within one of the world\'s largest wetlands' },
     { name: 'Kisra Fermentation', year: 'Traditional', description: 'Ancient sourdough-like fermentation technique for sorghum flatbread, preserving nutrition' },

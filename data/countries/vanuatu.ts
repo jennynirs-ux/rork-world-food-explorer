@@ -31,6 +31,13 @@ export const vanuatu: Country = {
     { name: 'SS President Coolidge Wreck', description: 'World\'s largest accessible shipwreck dive site from WWII.' },
     { name: 'Port Vila Markets', description: 'Vibrant local markets with fresh produce, handicrafts, and traditional Melanesian culture.' },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa-free entry for most nationalities for stays up to 30 days.' },
+    { item: 'Best time to visit', description: 'May to October (dry season) for best weather and diving conditions.' },
+    { item: 'Transportation', description: 'Domestic flights between islands. Boats and limited roads on main islands.' },
+    { item: 'Language', description: 'Bislama, English, and French are official. English widely understood.' },
+    { item: 'Currency', description: 'Vanuatu Vatu. Australian dollars also accepted in tourist areas.' },
+  ],
   innovations: [
     { name: 'Land Diving Ritual', year: 'Ancient', description: 'Traditional vine jumping ceremony that inspired modern bungee jumping' },
     { name: 'Sand Drawing Art', year: 'Traditional', description: 'UNESCO-recognized ephemeral geometric drawings used for storytelling and communication' },

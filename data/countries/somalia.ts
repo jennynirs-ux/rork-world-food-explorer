@@ -32,6 +32,13 @@ export const somalia: Country = {
     { name: 'Cal Madow Mountains', description: 'Spectacular mountain range with unique wildlife and stunning landscapes.' },
     { name: 'Zeila', description: 'Ancient port town with ruins dating back to the medieval Islamic period.' },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa required. Check with Somali embassy for current requirements and procedures.' },
+    { item: 'Best time to visit', description: 'December to March for cooler weather. Avoid monsoon season (May-September).' },
+    { item: 'Safety', description: 'Check current travel advisories carefully. Security situation varies by region.' },
+    { item: 'Language', description: 'Somali and Arabic are official. English understood in some urban areas.' },
+    { item: 'Currency', description: 'US dollars widely used alongside Somali Shilling. Bring cash.' },
+  ],
   innovations: [
     { name: 'Somali Writing System', year: '1920s-1972', description: 'Development of Osmanya and later Latin-based scripts for the Somali language, promoting literacy' },
     { name: 'Ancient Frankincense Trade', year: 'Ancient', description: 'Pioneered global trade routes for frankincense and myrrh, connecting Africa, Arabia, and Asia' },

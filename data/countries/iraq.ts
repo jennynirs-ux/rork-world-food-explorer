@@ -95,6 +95,13 @@ export const iraq: Country = {
     { name: 'Erbil Citadel', description: 'One of the oldest continuously inhabited settlements in the world.' },
     { name: 'Marshlands', description: 'Historic wetlands, home to the Marsh Arabs and unique ecosystem.' }
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa required for most nationalities. Apply in advance or check current entry requirements.' },
+    { item: 'Best time to visit', description: 'October to April for mild weather. Summer can be extremely hot.' },
+    { item: 'Safety', description: 'Check current travel advisories. Some areas require special permits or caution.' },
+    { item: 'Language', description: 'Arabic and Kurdish are official. English limited outside major cities.' },
+    { item: 'Dress code', description: 'Modest clothing recommended. Respect local customs and traditions.' },
+  ],
   dessert: {
     id: 'iraq-dessert',
     name: 'Kleicha',

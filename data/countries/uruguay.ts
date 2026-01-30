@@ -32,6 +32,13 @@ export const uruguay: Country = {
     { name: 'Cabo Polonio', description: 'Remote coastal village with sea lions, lighthouse, and no electricity for authentic nature.' },
     { name: 'Wine Region (Canelones)', description: 'Uruguay\'s wine country famous for Tannat wines and boutique vineyards.' },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'No visa required for most nationalities for stays up to 90 days.' },
+    { item: 'Best time to visit', description: 'December to March (summer) for beaches. September to November for mild weather.' },
+    { item: 'Transportation', description: 'Excellent bus network. Car rental easy. Ferries connect with Argentina.' },
+    { item: 'Language', description: 'Spanish is official. English spoken in tourist areas.' },
+    { item: 'Currency', description: 'Uruguayan Peso. Credit cards widely accepted. ATMs available.' },
+  ],
   innovations: [
     { name: 'Progressive Social Policies', year: '1913', description: 'First country to establish 8-hour workday and welfare state, pioneering workers\' rights' },
     { name: 'Renewable Energy Leadership', year: '2015', description: 'Achieved 98% renewable electricity, becoming global leader in clean energy transition' },

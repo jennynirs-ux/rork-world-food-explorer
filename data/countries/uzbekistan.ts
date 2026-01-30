@@ -31,6 +31,13 @@ export const uzbekistan: Country = {
     { name: 'Tashkent', description: 'Modern capital with Soviet architecture, bustling bazaars, and museums.' },
     { name: 'Fergana Valley', description: 'Fertile valley known for traditional crafts, silk production, and beautiful landscapes.' },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Many nationalities can enter visa-free for 30 days. E-visa available for others.' },
+    { item: 'Best time to visit', description: 'April to June and September to October for pleasant weather.' },
+    { item: 'Transportation', description: 'High-speed trains connect major cities. Taxis and shared taxis affordable.' },
+    { item: 'Language', description: 'Uzbek and Russian widely spoken. English limited outside tourist areas.' },
+    { item: 'Currency', description: 'Uzbekistani Som. Cash preferred. ATMs available in cities.' },
+  ],
   innovations: [
     { name: 'Islamic Golden Age Astronomy', year: '9th-15th Century', description: 'Ulugh Beg\'s observatory in Samarkand produced groundbreaking astronomical calculations' },
     { name: 'Silk Road Trading System', year: 'Ancient', description: 'Developed sophisticated merchant networks and caravanserais connecting East and West' },

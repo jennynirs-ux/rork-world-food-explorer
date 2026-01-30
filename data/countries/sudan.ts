@@ -32,6 +32,13 @@ export const sudan: Country = {
     { name: 'Dinder National Park', description: 'Wildlife reserve with elephants, lions, giraffes, and diverse birdlife.' },
     { name: 'Sanganeb Marine National Park', description: 'Pristine coral reef in the Red Sea, perfect for diving and marine life.' },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa required in advance. Apply at Sudanese embassy before travel.' },
+    { item: 'Best time to visit', description: 'November to February for cooler weather. Summer can exceed 45°C.' },
+    { item: 'Safety', description: 'Check current travel advisories. Some regions have travel restrictions.' },
+    { item: 'Language', description: 'Arabic is essential. English spoken in tourist areas and by educated population.' },
+    { item: 'Dress code', description: 'Modest clothing required, especially for women. Respect Islamic customs.' },
+  ],
   innovations: [
     { name: 'Nubian Pyramid Architecture', year: '700 BC', description: 'Distinctive steep-sided pyramid design, building over 200 pyramids across Sudan' },
     { name: 'Ancient Ironworking', year: '6th Century BC', description: 'Kingdom of Kush pioneered iron smelting in Africa, producing superior weapons and tools' },

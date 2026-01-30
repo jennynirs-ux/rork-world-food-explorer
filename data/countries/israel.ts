@@ -95,6 +95,13 @@ export const israel: Country = {
     { name: 'Masada', description: 'Ancient fortress with dramatic desert views and historical significance.' },
     { name: 'Bahá\'í Gardens', description: 'Stunning terraced gardens in Haifa, UNESCO World Heritage site.' }
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Most tourists receive free 3-month visa on arrival. Check requirements for your nationality.' },
+    { item: 'Best time to visit', description: 'March to May and September to November for pleasant weather.' },
+    { item: 'Transportation', description: 'Excellent public transport. Buses and trains connect major cities.' },
+    { item: 'Safety', description: 'Generally safe for tourists. Follow local advice and avoid border areas.' },
+    { item: 'Sabbath', description: 'Friday evening to Saturday evening. Public transport stops, shops close in religious areas.' },
+  ],
   dessert: {
     id: 'israel-dessert',
     name: 'Halva',

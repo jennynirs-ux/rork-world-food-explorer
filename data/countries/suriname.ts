@@ -32,6 +32,13 @@ export const suriname: Country = {
     { name: 'Brownsberg Nature Park', description: 'Mountain plateau with waterfalls, hiking trails, and panoramic rainforest views.' },
     { name: 'Jodensavanne', description: 'Historic Jewish settlement ruins in the rainforest, dating to the 1600s.' },
   ],
+  travelEssentials: [
+    { item: 'Visa', description: 'Many nationalities need tourist visa. Check requirements or apply for e-visa online.' },
+    { item: 'Best time to visit', description: 'February to April and August to November for drier weather.' },
+    { item: 'Transportation', description: 'Limited roads outside Paramaribo. River boats and small planes for interior travel.' },
+    { item: 'Language', description: 'Dutch is official. English and Sranan Tongo widely spoken.' },
+    { item: 'Health', description: 'Yellow fever vaccination required. Malaria prophylaxis for rainforest areas.' },
+  ],
   innovations: [
     { name: 'Multicultural Fusion Cuisine', year: 'Colonial Era', description: 'Unique blending of African, Indian, Javanese, Chinese, and Indigenous culinary traditions' },
     { name: 'Pom Dish Creation', year: '18th Century', description: 'Invented distinctive pomtajer root casserole, now the national dish' },
