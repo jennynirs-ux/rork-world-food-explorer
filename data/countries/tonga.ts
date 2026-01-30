@@ -8,26 +8,125 @@ export const tonga: Country = {
   flag: '🇹🇴',
   landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
   description:
-    'Tonga is a Polynesian kingdom in the South Pacific, known for whale watching, pristine beaches, and strong cultural traditions.',
+    'Tonga is a Polynesian kingdom in the South Pacific, known for whale watching, pristine beaches, strong cultural traditions, and being the only Pacific nation never formally colonized.',
+
   quickFacts: [
     { label: 'Capital', value: "Nuku'alofa" },
     { label: 'Population', value: '106,000' },
     { label: 'Official Languages', value: 'Tongan, English' },
-    { label: 'Currency', value: "Tongan Paʻanga" },
+    { label: 'Currency', value: 'Tongan Paʻanga (TOP)' },
     { label: 'Area', value: '747 km²' },
   ],
+
   facts: [
-    'Never colonized by European powers',
-    'One of the few remaining Polynesian monarchies',
-    'World-class humpback whale watching',
-    'Consists of 169 islands',
+    'Tonga was never formally colonized by a European power',
+    'It is one of the last remaining Polynesian monarchies',
+    'The country consists of 169 islands, about 36 of which are inhabited',
+    'Tonga is one of the best places in the world to swim with humpback whales',
+    'Traditional hierarchy and respect play a central role in society',
+    'Sunday is widely observed as a day of rest and worship',
   ],
+
   foodCulture:
-    'Tongan cuisine features root vegetables, coconut, seafood, and food cooked in earth ovens.',
+    'Tongan cuisine centers on root vegetables, coconut, seafood, and meats cooked in traditional earth ovens (umu). Meals are often communal and prepared for extended family gatherings and celebrations.',
+
+  history: [
+    {
+      year: 'c. 950 AD',
+      title: 'Tui Tonga Empire',
+      description:
+        'The Tui Tonga dynasty emerged, establishing one of the earliest Polynesian maritime empires.',
+    },
+    {
+      year: '1773',
+      title: 'European Contact',
+      description:
+        'Captain James Cook visited Tonga, later referring to it as the “Friendly Islands.”',
+    },
+    {
+      year: '1900',
+      title: 'British Protected State',
+      description:
+        'Tonga became a British-protected state but retained its monarchy and internal governance.',
+    },
+    {
+      year: '1970',
+      title: 'Full Independence',
+      description:
+        'Tonga regained full sovereignty and joined the Commonwealth of Nations.',
+    },
+  ],
+
+  innovations: [
+    {
+      name: 'Traditional Navigation',
+      year: 'Ancient',
+      description:
+        'Polynesian navigators used stars, waves, and bird patterns to travel vast ocean distances.',
+    },
+    {
+      name: 'Tapa Cloth (Ngatu)',
+      year: 'Centuries-old',
+      description:
+        'Decorative bark cloth production remains a key cultural and artistic tradition.',
+    },
+  ],
+
+  mustVisit: [
+    {
+      name: 'Vavaʻu Islands',
+      description:
+        'A world-famous destination for whale watching, sailing, and crystal-clear waters.',
+    },
+    {
+      name: 'Haʻamonga ʻa Maui Trilithon',
+      description:
+        'A mysterious stone monument often compared to Stonehenge.',
+    },
+    {
+      name: 'Tongatapu',
+      description:
+        'The main island, home to the capital and major cultural sites.',
+    },
+    {
+      name: 'ʻEua National Park',
+      description:
+        'Known for hiking trails, caves, and dramatic coastal cliffs.',
+    },
+  ],
+
+  travelEssentials: [
+    {
+      item: 'Best time to visit',
+      description:
+        'May–October offers drier weather and whale season (July–October).',
+    },
+    {
+      item: 'Dress code',
+      description:
+        'Modest clothing is expected, especially in villages and on Sundays.',
+    },
+    {
+      item: 'Sunday observance',
+      description:
+        'Most businesses close on Sundays; plan activities accordingly.',
+    },
+    {
+      item: 'Cash',
+      description:
+        'Cash is widely used outside major hotels; ATMs are limited.',
+    },
+    {
+      item: 'Respect & etiquette',
+      description:
+        'Respect for elders, royalty, and church traditions is very important.',
+    },
+  ],
+
   mainDish: {
     id: 'tonga-main',
     name: 'Lu Pulu',
-    description: 'Corned beef with taro leaves and coconut cream',
+    description: 'Corned beef wrapped in taro leaves and cooked with coconut cream',
     cookingTime: 120,
     servings: 6,
     dietType: 'meat',
@@ -38,39 +137,72 @@ export const tonga: Country = {
       { name: 'Onions', amount: 2, unit: 'whole' },
     ],
     steps: [
-      'Wrap taro leaves around corned beef',
-      'Add onions and coconut cream',
-      'Wrap in foil',
-      'Bake in earth oven or regular oven',
-      'Cook for 2 hours at 350°F',
-      'Serve with yams or taro',
+      'Wrap taro leaves around pieces of corned beef',
+      'Add sliced onions and coconut cream',
+      'Wrap tightly in foil or banana leaves',
+      'Bake in an earth oven (umu) or conventional oven',
+      'Cook for about 2 hours until tender',
+      'Serve with taro, yam, or cassava',
     ],
     imageUrl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600',
   },
+
+  dessert: {
+    id: 'tonga-dessert',
+    name: 'Faikakai Topai',
+    description:
+      'Soft dumplings served in sweet coconut syrup, commonly enjoyed as a dessert.',
+    cookingTime: 40,
+    servings: 6,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'All-purpose flour', amount: 300, unit: 'g' },
+      { name: 'Water', amount: 180, unit: 'ml' },
+      { name: 'Coconut milk', amount: 400, unit: 'ml' },
+      { name: 'Sugar', amount: 120, unit: 'g' },
+      { name: 'Vanilla (optional)', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Mix flour and water to form a soft dough',
+      'Shape into small dumplings',
+      'Boil dumplings until they float',
+      'Heat coconut milk and sugar in a separate pot',
+      'Add cooked dumplings to coconut sauce',
+      'Simmer gently for 10–15 minutes',
+      'Serve warm',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1604908177522-402b7dba3b92?w=600',
+  },
+
   drinks: {
     alcoholic: 'Kava',
-    nonAlcoholic: 'Coconut water, Fresh juice',
+    nonAlcoholic: 'Coconut water, fresh tropical juices',
   },
+
   music: [
-    'Traditional log drum music',
-    'Tongan choir singing',
-    'Pacific island rhythms',
+    'Traditional log drum (nafa) performances',
+    'Tongan choral singing',
+    'Polynesian ceremonial music',
   ],
+
   decorationIdeas: [
-    'Red and white flag colors',
-    'Royal crest imagery',
-    'Tropical flowers',
-    'Whale motifs',
+    'Red and white national colors',
+    'Royal and crown motifs',
+    'Tropical flowers and palm leaves',
+    'Ocean and whale symbolism',
   ],
+
   conversationStarters: [
-    'Have you been whale watching?',
-    'What do you know about Pacific monarchies?',
+    'Have you ever swum with whales?',
+    'What do you know about Polynesian navigation?',
+    'Would you visit a country that shuts down on Sundays?',
   ],
+
   quiz: [
     {
       id: 'tonga-q1',
       question: "What is unique about Tonga's history?",
-      options: ['First to gain independence', 'Never colonized', 'Largest island', 'No monarchy'],
+      options: ['First to gain independence', 'Never colonized', 'Largest island nation', 'No monarchy'],
       correctAnswer: 1,
     },
     {
@@ -87,21 +219,21 @@ export const tonga: Country = {
     },
     {
       id: 'tonga-q4',
-      question: 'How many islands does Tonga consist of (approximately)?',
+      question: 'Approximately how many islands make up Tonga?',
       options: ['12', '45', '169', '900'],
       correctAnswer: 2,
     },
     {
       id: 'tonga-q5',
-      question: 'Which large marine animal is Tonga famous for watching?',
-      options: ['Great white sharks', 'Humpback whales', 'Dolphins only', 'Manatees'],
+      question: 'Which marine animal is Tonga famous for?',
+      options: ['Great white sharks', 'Humpback whales', 'Manatees', 'Sea lions'],
       correctAnswer: 1,
     },
     {
       id: 'tonga-q6',
-      question: 'What is Tonga’s form of government best known for?',
-      options: ['Military rule', 'Polynesian monarchy', 'No government', 'City-state federation'],
-      correctAnswer: 1,
+      question: 'What type of government does Tonga have?',
+      options: ['Republic', 'Military rule', 'Polynesian monarchy', 'City-state federation'],
+      correctAnswer: 2,
     },
     {
       id: 'tonga-q7',
@@ -118,7 +250,12 @@ export const tonga: Country = {
     {
       id: 'tonga-q9',
       question: 'What is Lu Pulu traditionally made with?',
-      options: ['Chicken and rice', 'Corned beef, taro leaves, coconut cream', 'Fish and noodles', 'Beef and potatoes'],
+      options: [
+        'Chicken and rice',
+        'Corned beef, taro leaves, coconut cream',
+        'Fish and noodles',
+        'Beef and potatoes',
+      ],
       correctAnswer: 1,
     },
     {
@@ -128,5 +265,6 @@ export const tonga: Country = {
       correctAnswer: 0,
     },
   ],
+
   coordinates: { x: 94, y: 10 },
 };
