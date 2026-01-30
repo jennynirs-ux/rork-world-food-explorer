@@ -92,6 +92,35 @@ export const solomonIslands: Country = {
     imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
   },
 
+  dessert: {
+    id: 'solomon-islands-dessert',
+    name: 'Coconut Banana Sago Pudding',
+    description:
+      'A simple island dessert made with sago pearls simmered in coconut milk and served with ripe banana.',
+    cookingTime: 35,
+    servings: 6,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Sago pearls (or tapioca pearls)', amount: 120, unit: 'g' },
+      { name: 'Coconut milk', amount: 400, unit: 'ml' },
+      { name: 'Water', amount: 500, unit: 'ml' },
+      { name: 'Ripe bananas, sliced', amount: 3, unit: 'whole' },
+      { name: 'Brown sugar (or jaggery)', amount: 60, unit: 'g' },
+      { name: 'Pinch of salt', amount: 1, unit: 'pinch' },
+      { name: 'Lime zest (optional)', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Rinse sago pearls under cold water.',
+      'Bring water to a gentle boil and add sago; simmer 10–15 minutes until mostly translucent.',
+      'Stir in coconut milk, sugar, and a pinch of salt.',
+      'Simmer 5–8 minutes until slightly thickened, stirring often.',
+      'Remove from heat and fold in sliced bananas.',
+      'Optional: add lime zest for brightness.',
+      'Serve warm or chilled (it thickens as it cools).',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1505253213348-ce33b4d1c08d?w=600',
+  },
+
   drinks: {
     alcoholic: 'Kava, Local beer',
     nonAlcoholic: 'Fresh coconut water, Banana juice, Herbal teas',
@@ -142,7 +171,12 @@ export const solomonIslands: Country = {
     {
       id: 'solomon-q4',
       question: 'Which major WWII battle took place in the Solomon Islands?',
-      options: ['Battle of Midway', 'Battle of Okinawa', 'Battle of Guadalcanal', 'Battle of Iwo Jima'],
+      options: [
+        'Battle of Midway',
+        'Battle of Okinawa',
+        'Battle of Guadalcanal',
+        'Battle of Iwo Jima',
+      ],
       correctAnswer: 2,
     },
     {
@@ -178,7 +212,12 @@ export const solomonIslands: Country = {
     {
       id: 'solomon-q10',
       question: 'What natural feature makes the Solomon Islands ideal for diving?',
-      options: ['Desert reefs', 'Volcanic ice', 'Coral reefs and WWII wrecks', 'Freshwater lakes'],
+      options: [
+        'Desert reefs',
+        'Volcanic ice',
+        'Coral reefs and WWII wrecks',
+        'Freshwater lakes',
+      ],
       correctAnswer: 2,
     },
   ],
