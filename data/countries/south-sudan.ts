@@ -55,6 +55,36 @@ export const southSudan: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
   },
+
+  dessert: {
+    id: 'south-sudan-dessert',
+    name: 'Asida (Sweet Porridge)',
+    description:
+      'A simple, comforting porridge-like dish made from flour and water, often served with sweetened milk, honey, or a light date syrup.',
+    cookingTime: 25,
+    servings: 6,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Sorghum flour (or wheat flour)', amount: 300, unit: 'g' },
+      { name: 'Water', amount: 900, unit: 'ml' },
+      { name: 'Salt', amount: 0.5, unit: 'tsp' },
+      { name: 'Milk (for serving)', amount: 400, unit: 'ml' },
+      { name: 'Honey (or date syrup)', amount: 4, unit: 'tbsp' },
+      { name: 'Butter (optional)', amount: 30, unit: 'g' },
+    ],
+    steps: [
+      'Bring water to a gentle boil with salt.',
+      'Whisk in flour gradually to avoid lumps.',
+      'Stir continuously over low heat until very thick and smooth.',
+      'Cook 10–15 minutes, stirring, until the mixture pulls from the sides.',
+      'Spoon into a serving bowl and make a small well in the center.',
+      'Pour in warm milk and drizzle with honey or date syrup.',
+      'Optional: add a small knob of butter for richness.',
+      'Serve warm.',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=600',
+  },
+
   drinks: {
     alcoholic: 'Marisa (traditional sorghum beer)',
     nonAlcoholic: 'Karkade (hibiscus tea), Fresh fruit juice',
