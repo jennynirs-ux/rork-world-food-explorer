@@ -16,18 +16,133 @@ export const thailand: Country = {
     { label: 'Currency', value: 'Thai Baht (฿)' },
     { label: 'Area', value: '513,120 km²' },
   ],
+
   facts: [
     'Thailand is the only Southeast Asian country never colonized by Europeans',
-    "Bangkok's full name is the longest city name in the world with 168 letters",
+    "Bangkok's ceremonial full name is famously one of the longest city names in the world",
     'Thailand has over 1,430 islands',
-    "The country is the world's largest exporter of rice",
+    "The country is among the world's largest exporters of rice",
     'White elephants are considered sacred and royal in Thailand',
-    'Thai people celebrate New Year three times: Western, Chinese, and Songkran',
-    'Thailand has more than 40,000 Buddhist temples',
-    'Red Bull energy drink was inspired by a Thai drink called Krating Daeng',
+    'Many people celebrate New Year in different ways (Western New Year, Chinese New Year, and Songkran)',
+    'Thailand has tens of thousands of Buddhist temples',
+    'Red Bull was inspired by a Thai energy drink called Krating Daeng',
+    'Thai massage (Nuad Thai) is a renowned traditional practice',
   ],
+
   foodCulture:
     'Thai cuisine balances five fundamental flavors: sweet, spicy, sour, bitter, and salty. Street food is a way of life, with vendors offering fresh, flavorful dishes at all hours. Meals are meant to be shared, and rice accompanies almost every dish.',
+
+  history: [
+    {
+      year: '1238',
+      title: 'Sukhothai Kingdom',
+      description:
+        'Often considered the first major Thai kingdom, shaping early Thai language, art, and governance.',
+    },
+    {
+      year: '1351–1767',
+      title: 'Ayutthaya Era',
+      description:
+        'Ayutthaya grew into a powerful trading and diplomatic hub until it fell in 1767.',
+    },
+    {
+      year: '1767–1782',
+      title: 'Thonburi Period',
+      description:
+        'A transitional era after Ayutthaya’s fall, consolidating territories and rebuilding.',
+    },
+    {
+      year: '1782–Present',
+      title: 'Rattanakosin Era (Bangkok)',
+      description:
+        'Bangkok became the capital; the era includes major modernization and cultural continuity.',
+    },
+    {
+      year: '1932',
+      title: 'Constitutional Monarchy',
+      description:
+        'A pivotal shift from absolute monarchy to a constitutional system.',
+    },
+  ],
+
+  innovations: [
+    {
+      name: 'Krating Daeng (Red Bull Inspiration)',
+      year: '1970s',
+      description:
+        'A Thai energy drink that later inspired the globally known Red Bull brand.',
+    },
+    {
+      name: 'Nuad Thai (Traditional Thai Massage)',
+      year: 'Centuries-old',
+      description:
+        'A traditional therapeutic practice combining acupressure, assisted stretching, and energy-line work.',
+    },
+    {
+      name: 'Thai Street Food Culture',
+      year: 'Modern era',
+      description:
+        'A highly developed urban food culture that shaped how cities eat—fast, fresh, and flavor-packed.',
+    },
+  ],
+
+  mustVisit: [
+    {
+      name: 'Bangkok',
+      description:
+        'Temples, markets, canals, and rooftop views—plus incredible street food.',
+    },
+    {
+      name: 'Chiang Mai',
+      description:
+        'Northern culture, night markets, and access to mountain scenery and temples.',
+    },
+    {
+      name: 'Ayutthaya',
+      description:
+        'Historic ruins of the former capital—an easy cultural day trip from Bangkok.',
+    },
+    {
+      name: 'Krabi (Railay / Ao Nang)',
+      description:
+        'Dramatic limestone cliffs, beaches, and island-hopping routes.',
+    },
+    {
+      name: 'Phuket / Phi Phi Islands',
+      description:
+        'Famous beaches and boat trips; great for classic tropical scenery.',
+    },
+  ],
+
+  travelEssentials: [
+    { item: 'Visa', description: 'Visa rules vary by nationality; check before travel.' },
+    {
+      item: 'Best time to visit',
+      description:
+        'Generally November–February is cooler and drier; islands vary by coast and monsoon patterns.',
+    },
+    {
+      item: 'Transport',
+      description:
+        'Domestic flights, trains, and buses are common; in cities, use trusted taxi/ride apps where available.',
+    },
+    {
+      item: 'Money',
+      description:
+        'Cards are common in cities, but cash is handy for markets and street food.',
+    },
+    {
+      item: 'Etiquette',
+      description:
+        'Dress respectfully in temples; remove shoes where required; be mindful around sacred spaces.',
+    },
+    {
+      item: 'Food',
+      description:
+        'Street food is a highlight—start with busy stalls and freshly cooked dishes.',
+    },
+  ],
+
   mainDish: {
     id: 'thailand-main',
     name: 'Pad Thai',
@@ -57,12 +172,12 @@ export const thailand: Country = {
       'Scramble eggs in wok, push to side',
       'Add drained noodles and sauce, toss quickly',
       'Add shrimp, tofu, and garlic chives',
-      'Toss for 2-3 minutes until noodles are tender',
+      'Toss for 2–3 minutes until noodles are tender',
       'Serve topped with bean sprouts, peanuts, lime wedge, and chilies',
     ],
-    imageUrl:
-      'https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600',
   },
+
   dessert: {
     id: 'thailand-dessert',
     name: 'Mango Sticky Rice',
@@ -89,14 +204,36 @@ export const thailand: Country = {
       'Drizzle remaining coconut milk on top',
       'Sprinkle with sesame seeds',
     ],
-    imageUrl:
-      'https://images.unsplash.com/photo-1601473420361-59cdbb7b30c4?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1601473420361-59cdbb7b30c4?w=600',
   },
+
   drinks: {
     alcoholic: 'Singha beer, Chang beer, Mekhong whiskey',
-    nonAlcoholic:
-      'Thai iced tea, Coconut water, Nam manao (lime soda)',
+    nonAlcoholic: 'Thai iced tea, Coconut water, Nam manao (lime soda)',
   },
+
+  music: [
+    'Mor Lam (Isan folk)',
+    'Luk Thung (Thai country)',
+    'Piphat classical ensemble',
+    'Thai pop and contemporary hip-hop',
+  ],
+
+  decorationIdeas: [
+    'Red, white, and blue (flag colors)',
+    'Gold accents inspired by temple decor',
+    'Orchid flowers and tropical greenery',
+    'Lanterns and night-market vibes',
+    'Elephant motifs (tasteful and minimal)',
+  ],
+
+  conversationStarters: [
+    'Which Thai dish do you love most—Pad Thai, green curry, or som tam?',
+    'Would you rather explore temples in Bangkok or beaches in Krabi?',
+    'Have you ever tried Thai iced tea?',
+    'Sweet, spicy, sour—what flavor do you chase most?',
+  ],
+
   quiz: [
     {
       id: 'thailand-q1',
@@ -164,5 +301,6 @@ export const thailand: Country = {
       correctAnswer: 1,
     },
   ],
+
   coordinates: { x: 75, y: 25 },
 };
