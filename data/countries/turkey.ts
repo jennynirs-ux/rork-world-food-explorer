@@ -28,6 +28,7 @@ export const turkey: Country = {
   ],
   foodCulture:
     'Turkish cuisine is one of the world’s most diverse, influenced by Ottoman palace kitchens and regional traditions. Mezze, kebabs, and baklava are iconic. Meals are social affairs, often accompanied by Turkish tea or coffee.',
+
   history: [
     {
       year: '330 AD',
@@ -54,6 +55,90 @@ export const turkey: Country = {
         'Mustafa Kemal Atatürk established the modern Republic of Turkey.',
     },
   ],
+
+  innovations: [
+    {
+      name: 'Architectural Mastery (Sinan)',
+      year: '16th Century',
+      description:
+        'Ottoman architect Mimar Sinan shaped Istanbul’s skyline and influenced global mosque architecture with landmark designs.',
+    },
+    {
+      name: 'Iznik Ceramics',
+      year: '15th–17th Century',
+      description:
+        'Iznik tilework became famous for vivid colors and intricate patterns, used in mosques and palaces across the empire.',
+    },
+    {
+      name: 'Early Urban Megaprojects',
+      year: 'Byzantine–Ottoman Era',
+      description:
+        'Monumental cisterns, bridges, and aqueducts (like those around Istanbul) supported dense cities with advanced water systems.',
+    },
+    {
+      name: 'Hazelnut & Agricultural Production',
+      year: 'Modern Era',
+      description:
+        'Turkey developed large-scale, globally important hazelnut cultivation and supply chains, dominating world production.',
+    },
+  ],
+
+  mustVisit: [
+    {
+      name: 'Istanbul (Hagia Sophia & Blue Mosque)',
+      description:
+        'A city spanning Europe and Asia with iconic Byzantine and Ottoman monuments and vibrant bazaars.',
+    },
+    {
+      name: 'Cappadocia',
+      description:
+        'Fairy chimneys, cave churches, and sunrise hot-air balloons over dramatic volcanic landscapes.',
+    },
+    {
+      name: 'Ephesus',
+      description:
+        'One of the best-preserved ancient cities in the Mediterranean world, famous for Roman ruins and grand streets.',
+    },
+    {
+      name: 'Pamukkale & Hierapolis',
+      description:
+        'White travertine terraces and nearby ancient ruins, a unique mix of nature and history.',
+    },
+    {
+      name: 'Antalya & the Turquoise Coast',
+      description:
+        'Mediterranean beaches, coastal hikes, and historic harbor towns with crystal-clear water.',
+    },
+  ],
+
+  travelEssentials: [
+    {
+      item: 'Best time to visit',
+      description:
+        'Spring (April–May) and autumn (September–October) are ideal for cities and coast; winter is great for skiing and hammams.',
+    },
+    {
+      item: 'Getting around',
+      description:
+        'Domestic flights are common; intercity buses are extensive; Istanbul public transport is efficient (metro, tram, ferries).',
+    },
+    {
+      item: 'Cash & cards',
+      description:
+        'Cards are widely accepted in cities; keep cash for markets, taxis, and smaller towns.',
+    },
+    {
+      item: 'Etiquette',
+      description:
+        'Dress modestly in mosques, remove shoes, and be respectful during calls to prayer and religious holidays.',
+    },
+    {
+      item: 'Food tip',
+      description:
+        'Try regional specialties: Gaziantep for baklava and pistachios, the Black Sea for anchovy dishes, and Aegean for olive-oil mezze.',
+    },
+  ],
+
   mainDish: {
     id: 'turkey-main',
     name: 'İskender Kebab',
@@ -83,6 +168,7 @@ export const turkey: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600',
   },
+
   dessert: {
     id: 'turkey-dessert',
     name: 'Baklava',
@@ -111,17 +197,19 @@ export const turkey: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=600',
   },
+
   drinks: {
     alcoholic: 'Rakı, Efes beer, Turkish wine',
-    nonAlcoholic:
-      'Turkish tea (çay), Turkish coffee, Ayran (yogurt drink)',
+    nonAlcoholic: 'Turkish tea (çay), Turkish coffee, Ayran (yogurt drink)',
   },
+
   music: [
     'Traditional Turkish folk music',
     'Ottoman classical music',
     'Tarkan (Turkish pop)',
     'Whirling Dervish ceremonial music',
   ],
+
   decorationIdeas: [
     'Turkish lanterns',
     'Red and white flag colors',
@@ -129,12 +217,14 @@ export const turkey: Country = {
     'Turkish carpets',
     'Nazar (evil eye) charms',
   ],
+
   conversationStarters: [
     'Have you visited Istanbul?',
     'What is your favorite Turkish dish?',
     'Would you try a Turkish hamam?',
     'Have you seen Cappadocia’s balloons?',
   ],
+
   quiz: [
     {
       id: 'turkey-q1',
@@ -197,5 +287,6 @@ export const turkey: Country = {
       correctAnswer: 2,
     },
   ],
+
   coordinates: { x: 54, y: 42 },
 };
