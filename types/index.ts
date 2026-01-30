@@ -81,7 +81,7 @@ export type Country = {
   decorationIdeas: string[];
   conversationStarters: string[];
   quiz: QuizQuestion[];
-  coordinates: { x: number; y: number };
+  coordinates?: { x: number; y: number };
 };
 
 export type CountryProgress = {
