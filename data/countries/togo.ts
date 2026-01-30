@@ -50,6 +50,35 @@ export const togo: Country = {
     imageUrl:
       'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
   },
+  dessert: {
+    id: 'togo-dessert',
+    name: 'Coconut Peanut Candy',
+    description:
+      'A simple West African-style sweet made by cooking shredded coconut with sugar and peanuts until sticky and caramelized.',
+    cookingTime: 25,
+    servings: 12,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Shredded coconut', amount: 200, unit: 'g' },
+      { name: 'Roasted peanuts', amount: 150, unit: 'g' },
+      { name: 'Sugar', amount: 150, unit: 'g' },
+      { name: 'Water', amount: 60, unit: 'ml' },
+      { name: 'Salt', amount: 0.25, unit: 'tsp' },
+      { name: 'Vanilla (optional)', amount: 1, unit: 'tsp' },
+    ],
+    steps: [
+      'Line a tray with baking paper',
+      'Add sugar and water to a pan and heat until bubbling',
+      'Stir in shredded coconut and salt',
+      'Cook, stirring, until thick and sticky (about 8–10 minutes)',
+      'Stir in peanuts and vanilla (optional)',
+      'Spoon small mounds onto the tray',
+      'Let cool completely until firm',
+      'Serve as bite-size candies',
+    ],
+    imageUrl:
+      'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600',
+  },
   drinks: {
     alcoholic: 'Palm wine, Tchoukoutou (millet beer)',
     nonAlcoholic: 'Bissap, Ginger juice',
