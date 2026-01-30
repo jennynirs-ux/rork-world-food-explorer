@@ -8,7 +8,7 @@ export const ukraine: Country = {
   flag: '🇺🇦',
   landscapeImage: 'https://images.unsplash.com/photo-1565630916779-e303be97fbe8?w=800',
   description:
-    'Ukraine is a large country in Eastern Europe known for its Orthodox churches, Black Sea coastline, and forested mountains. Its capital, Kyiv, features the gold-domed St. Sophia\'s Cathedral, with its stunning 11th-century mosaics and frescoes.',
+    "Ukraine is a large country in Eastern Europe known for its Orthodox churches, Black Sea coastline, and forested mountains. Its capital, Kyiv, features the gold-domed St. Sophia's Cathedral, with its stunning 11th-century mosaics and frescoes.",
   quickFacts: [
     { label: 'Capital', value: 'Kyiv' },
     { label: 'Population', value: '41 million' },
@@ -58,6 +58,53 @@ export const ukraine: Country = {
       title: 'Modern Independence',
       description:
         'Ukraine became an independent nation following the collapse of the Soviet Union.',
+    },
+  ],
+  innovations: [
+    {
+      name: 'Aerospace Engineering',
+      year: '20th Century',
+      description:
+        'Ukraine has a strong aerospace legacy, including aircraft and rocket engineering, with major industrial hubs developing advanced designs and manufacturing.',
+    },
+    {
+      name: 'Folk Art Traditions',
+      year: 'Centuries',
+      description:
+        'Textile arts, embroidery patterns, and pysanky techniques have been refined across regions and passed down through generations.',
+    },
+    {
+      name: 'Choral and Bandura Music',
+      year: '19th–20th Century',
+      description:
+        'Ukraine’s musical heritage includes rich choral traditions and the bandura, helping preserve language, poetry, and identity.',
+    },
+  ],
+  mustVisit: [
+    {
+      name: 'Kyiv (Kyiv Pechersk Lavra)',
+      description:
+        'A historic monastery complex with catacombs and iconic golden domes, central to Ukrainian religious heritage.',
+    },
+    {
+      name: "St. Sophia's Cathedral",
+      description:
+        'A landmark of medieval Kyiv featuring historic mosaics and frescoes, and one of the city’s most famous sights.',
+    },
+    {
+      name: 'Lviv Old Town',
+      description:
+        'A charming UNESCO-listed historic center with Central European architecture, cafés, and vibrant cultural life.',
+    },
+    {
+      name: 'Carpathian Mountains',
+      description:
+        'A scenic region for hiking, winter sports, wooden churches, and traditional village culture.',
+    },
+    {
+      name: 'Odesa & the Black Sea Coast',
+      description:
+        'A coastal city known for beaches, promenades, and grand architecture with a lively summer atmosphere.',
     },
   ],
   travelEssentials: [
@@ -120,11 +167,39 @@ export const ukraine: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=600',
   },
+  dessert: {
+    id: 'ukraine-dessert',
+    name: 'Syrnyky',
+    description:
+      'Pan-fried Ukrainian cottage cheese pancakes, lightly sweet and often served with sour cream, jam, or honey.',
+    cookingTime: 30,
+    servings: 4,
+    dietType: 'vegetarian',
+    ingredients: [
+      { name: 'Cottage cheese (tvorog)', amount: 500, unit: 'g' },
+      { name: 'Egg', amount: 1, unit: 'large' },
+      { name: 'Sugar', amount: 40, unit: 'g' },
+      { name: 'Vanilla extract (optional)', amount: 1, unit: 'tsp' },
+      { name: 'All-purpose flour', amount: 80, unit: 'g' },
+      { name: 'Salt', amount: 0.25, unit: 'tsp' },
+      { name: 'Butter or oil (for frying)', amount: 2, unit: 'tbsp' },
+      { name: 'Sour cream (to serve)', amount: 150, unit: 'g' },
+      { name: 'Jam or honey (to serve)', amount: 4, unit: 'tbsp' },
+    ],
+    steps: [
+      'Press cottage cheese through a sieve (or mash well) for a smooth texture',
+      'Mix cottage cheese with egg, sugar, salt, and vanilla',
+      'Add flour and mix gently until a soft dough forms',
+      'Dust hands with flour and shape small patties (about 2 cm thick)',
+      'Heat butter/oil in a pan over medium heat',
+      'Fry syrnyky 3–4 minutes per side until golden',
+      'Serve warm with sour cream and jam or honey',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600',
+  },
   drinks: {
-    alcoholic:
-      'Horilka (Ukrainian vodka), Ukrainian wine, Medovukha (honey drink)',
-    nonAlcoholic:
-      'Uzvar (dried fruit drink), Compote, Kvass, Herbal tea',
+    alcoholic: 'Horilka (Ukrainian vodka), Ukrainian wine, Medovukha (honey drink)',
+    nonAlcoholic: 'Uzvar (dried fruit drink), Compote, Kvass, Herbal tea',
   },
   music: [
     'Ukrainian folk songs',
@@ -161,12 +236,7 @@ export const ukraine: Country = {
     {
       id: 'ukraine-q3',
       question: 'Why is Ukraine called the “breadbasket of Europe”?',
-      options: [
-        'Large bakeries',
-        'Fertile soil',
-        'Exports bread',
-        'Flat landscape',
-      ],
+      options: ['Large bakeries', 'Fertile soil', 'Exports bread', 'Flat landscape'],
       correctAnswer: 1,
     },
     {
