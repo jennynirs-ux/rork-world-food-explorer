@@ -308,8 +308,8 @@ export const countryDishImages: Record<string, { mainDish: string; dessert?: str
     dessert: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
   },
   'Indonesia': {
-    mainDish: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=600',
-    dessert: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600',
+    dessert: 'https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=600',
   },
   'Iran': {
     mainDish: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600',
@@ -568,16 +568,16 @@ export const countryDishImages: Record<string, { mainDish: string; dessert?: str
     dessert: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   'Romania': {
-    mainDish: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
-    dessert: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=600',
+    dessert: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
   },
   'Russia': {
-    mainDish: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
-    dessert: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600',
+    dessert: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600',
   },
   'Rwanda': {
-    mainDish: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600',
-    dessert: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600',
+    dessert: 'https://images.unsplash.com/photo-1627308595171-d1b5d67129c4?w=600',
   },
   'Saint Kitts and Nevis': {
     mainDish: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
@@ -636,12 +636,12 @@ export const countryDishImages: Record<string, { mainDish: string; dessert?: str
     dessert: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
   },
   'Solomon Islands': {
-    mainDish: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
-    dessert: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600',
+    dessert: 'https://images.unsplash.com/photo-1587241321921-91a834d82ffc?w=600',
   },
   'Somalia': {
-    mainDish: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600',
-    dessert: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+    dessert: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
   },
   'South Africa': {
     mainDish: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600',
@@ -652,8 +652,8 @@ export const countryDishImages: Record<string, { mainDish: string; dessert?: str
     dessert: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
   },
   'South Sudan': {
-    mainDish: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600',
-    dessert: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1600555379765-f82335a05d4d?w=600',
+    dessert: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
   },
   'Spain': {
     mainDish: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600',
@@ -664,12 +664,12 @@ export const countryDishImages: Record<string, { mainDish: string; dessert?: str
     dessert: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
   },
   'Sudan': {
-    mainDish: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600',
-    dessert: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600',
+    dessert: 'https://images.unsplash.com/photo-1612203985729-70726954388c?w=600',
   },
   'Suriname': {
-    mainDish: 'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=600',
-    dessert: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600',
+    dessert: 'https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=600',
   },
   'Sweden': {
     mainDish: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
@@ -744,24 +744,24 @@ export const countryDishImages: Record<string, { mainDish: string; dessert?: str
     dessert: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
   },
   'Uruguay': {
-    mainDish: 'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600',
-    dessert: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=600',
+    dessert: 'https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=600',
   },
   'Uzbekistan': {
-    mainDish: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=600',
-    dessert: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1516714819001-8ee7a13b71d7?w=600',
+    dessert: 'https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=600',
   },
   'Vanuatu': {
-    mainDish: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
-    dessert: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=600',
+    dessert: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?w=600',
   },
   'Vatican City': {
-    mainDish: 'https://images.unsplash.com/photo-1560807707-8cc77767d783?w=600',
-    dessert: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600',
+    dessert: 'https://images.unsplash.com/photo-1586039001882-0ab18fc4bb67?w=600',
   },
   'Venezuela': {
-    mainDish: 'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=600',
-    dessert: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    mainDish: 'https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=600',
+    dessert: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
   },
   'Vietnam': {
     mainDish: 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600',
