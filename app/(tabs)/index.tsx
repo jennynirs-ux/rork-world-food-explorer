@@ -28,21 +28,23 @@ export default function ExploreScreen() {
     return '#F59E0B';
   };
 
-  const countryPins = countries.map(country => {
-    const lng = (country.coordinates.x / 800) * 360 - 180;
-    const lat = 90 - (country.coordinates.y / 450) * 180;
-    
-    return {
-      id: country.id,
-      name: country.name,
-      flag: country.flag,
-      code: country.code,
-      lat,
-      lng,
-      color: getCountryColor(country.id),
-      status: getCountryStatus(country.id),
-    };
-  });
+  const countryPins = countries
+    .filter(country => country.coordinates)
+    .map(country => {
+      const lng = (country.coordinates.x / 800) * 360 - 180;
+      const lat = 90 - (country.coordinates.y / 450) * 180;
+      
+      return {
+        id: country.id,
+        name: country.name,
+        flag: country.flag,
+        code: country.code,
+        lat,
+        lng,
+        color: getCountryColor(country.id),
+        status: getCountryStatus(country.id),
+      };
+    });
 
   const handleCountryPress = (countryId: string) => {
     console.log('Country pressed:', countryId);
