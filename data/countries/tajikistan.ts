@@ -16,16 +16,131 @@ export const tajikistan: Country = {
     { label: 'Currency', value: 'Tajikistani Somoni' },
     { label: 'Area', value: '143,100 km²' },
   ],
+
   facts: [
     'Over 90% of Tajikistan is mountainous',
     'The Pamir Mountains are among the highest in the world',
-    'Tajikistan was an important stop along the ancient Silk Road',
-    'The Pamir Highway is one of the highest roads on Earth',
     'Tajik is a variety of Persian (Farsi)',
     'The country has more than 1,000 rivers and lakes',
+    'The Pamir Highway is one of the highest international roads on Earth',
+    'Tajikistan has a strong tradition of hospitality and communal meals',
+    'Many villages in the Pamirs preserve distinct languages and cultural practices',
+    'Handwoven textiles and embroidery are important folk arts in many regions',
   ],
+
   foodCulture:
-    'Tajik cuisine is hearty and communal, centered around rice, meat, bread, and dairy. Meals are often shared from large platters and reflect strong Persian and Central Asian influences.',
+    'Tajik cuisine is hearty and communal, centered around rice, meat, bread, and dairy. Meals are often shared from large platters and reflect strong Persian and Central Asian influences, with staples like non (bread), soups, kebabs, and pilaf (osh).',
+
+  history: [
+    {
+      year: '6th–4th Century BC',
+      title: 'Achaemenid & Iranian Influence',
+      description:
+        'The region was influenced by ancient Iranian empires and Persianate culture, shaping language and identity.',
+    },
+    {
+      year: '329 BC',
+      title: 'Hellenistic Period',
+      description:
+        'After Alexander the Great’s campaigns, Hellenistic states and trade networks influenced parts of Central Asia.',
+    },
+    {
+      year: '8th–10th Century',
+      title: 'Silk Road & Cultural Flourishing',
+      description:
+        'Trade along Silk Road routes supported cities and scholarship, strengthening Persian-influenced culture in the region.',
+    },
+    {
+      year: '1929',
+      title: 'Tajik SSR',
+      description:
+        'Tajikistan became a Soviet republic, bringing major social, economic, and infrastructure changes.',
+    },
+    {
+      year: '1991',
+      title: 'Independence',
+      description:
+        'Tajikistan became independent following the dissolution of the Soviet Union.',
+    },
+  ],
+
+  innovations: [
+    {
+      name: 'Persianate Poetry & Literature',
+      year: '10th–15th Century',
+      description:
+        'Tajik (Persian) literary traditions form a major part of the region’s cultural identity, with poetry central to education and celebrations.',
+    },
+    {
+      name: 'Mountain Irrigation & Terracing',
+      year: 'Centuries',
+      description:
+        'Communities developed practical agricultural techniques for steep terrain, including channels and terraced fields in valleys.',
+    },
+    {
+      name: 'Traditional Textile Arts',
+      year: 'Centuries',
+      description:
+        'Embroidery, suzani-style patterns, and regional weaving traditions remain important cultural crafts and local economies.',
+    },
+  ],
+
+  mustVisit: [
+    {
+      name: 'Pamir Highway (M41)',
+      description:
+        'Legendary high-altitude route through dramatic mountain landscapes and remote villages.',
+    },
+    {
+      name: 'Iskanderkul Lake',
+      description:
+        'A striking alpine lake in the Fann Mountains, linked to legends of Alexander (Iskander).',
+    },
+    {
+      name: 'Fann Mountains',
+      description:
+        'Popular for hiking with turquoise lakes, jagged peaks, and scenic valleys.',
+    },
+    {
+      name: 'Dushanbe',
+      description:
+        'The capital city with parks, museums, bazaars, and a gateway to the mountains.',
+    },
+    {
+      name: 'Wakhan Valley (near the Afghan border)',
+      description:
+        'A culturally rich high valley known for sweeping views, fort ruins, and unique Pamiri heritage (access depends on permits/routes).',
+    },
+  ],
+
+  travelEssentials: [
+    {
+      item: 'Best time to visit',
+      description:
+        'Late spring to early autumn (May–October) for most regions; Pamirs are best in summer.',
+    },
+    {
+      item: 'Permits & borders',
+      description:
+        'Some areas (especially in GBAO/Pamirs) may require additional permits—check requirements in advance.',
+    },
+    {
+      item: 'Transport',
+      description:
+        'Shared taxis and 4x4s are common for mountain routes; roads can be slow and weather-dependent.',
+    },
+    {
+      item: 'Altitude',
+      description:
+        'Take time to acclimatize in high regions like the Pamirs; hydrate and plan easy days early on.',
+    },
+    {
+      item: 'Cash',
+      description:
+        'Carry somoni in rural areas; card acceptance can be limited outside major cities.',
+    },
+  ],
+
   mainDish: {
     id: 'tajikistan-main',
     name: 'Osh (Plov)',
@@ -92,23 +207,29 @@ export const tajikistan: Country = {
     alcoholic: 'Vodka',
     nonAlcoholic: 'Green tea, Ayran, Kumis (fermented milk)',
   },
+
   music: [
     'Shashmaqam (classical tradition)',
     'Folk music with daf drum',
     'Persian-influenced melodies',
   ],
+
   decorationIdeas: [
     'Red, white, and green flag colors',
     'Mountain and glacier imagery',
     'Silk Road motifs',
     'Traditional textiles and patterns',
+    'Carpet-inspired table runners and embroidered cushions',
   ],
+
   conversationStarters: [
     'Would you dare to travel the Pamir Highway?',
     'What do you know about the Silk Road?',
     'Have you tried Central Asian pilaf before?',
     'Did you know Tajik is closely related to Persian?',
+    'Are you more drawn to mountains, culture, or food when you travel?',
   ],
+
   quiz: [
     {
       id: 'tajikistan-q1',
@@ -176,5 +297,6 @@ export const tajikistan: Country = {
       correctAnswer: 0,
     },
   ],
+
   coordinates: { x: 67, y: 40 },
 };
