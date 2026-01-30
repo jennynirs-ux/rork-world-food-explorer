@@ -8,7 +8,7 @@ export const syria: Country = {
   flag: '🇸🇾',
   landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
   description:
-    "Syria is an ancient Middle Eastern country with a rich history dating back millennia, known for Damascus, Aleppo, and diverse cultural heritage.",
+    'Syria is an ancient Middle Eastern country with a rich history dating back millennia, known for Damascus, Aleppo, and diverse cultural heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Damascus' },
     { label: 'Population', value: '18 million' },
@@ -16,14 +16,131 @@ export const syria: Country = {
     { label: 'Currency', value: 'Syrian Pound' },
     { label: 'Area', value: '185,180 km²' },
   ],
+
   facts: [
     'Damascus is one of the oldest continuously inhabited cities',
-    'Home to six UNESCO World Heritage Sites',
-    'Birthplace of many ancient civilizations',
-    'Known for historic souqs and architecture',
+    'Syria has several UNESCO World Heritage Sites, including Ancient City of Damascus and Ancient City of Aleppo',
+    'The ruins of Palmyra were one of the most important cultural centers of the ancient world',
+    'Syrian souqs (traditional markets) are famous for spices, textiles, and handcrafted goods',
+    'Syrian soap from Aleppo (laurel soap) is among the oldest types of hard soap still made today',
+    'Syria sits at a historic crossroads of Mediterranean, Mesopotamian, and Levantine civilizations',
+    'Dabke dance is a major part of celebration culture across the Levant, including Syria',
+    'Syrian cuisine is known for mezze culture and rich spice blends',
   ],
+
   foodCulture:
-    'Syrian cuisine is rich and varied with influences from Ottoman, Persian, and Mediterranean traditions.',
+    'Syrian cuisine is rich and varied with influences from Ottoman, Persian, and Mediterranean traditions. Meals often revolve around shared mezze, grilled meats, fragrant rice dishes, and sweets scented with rose or orange blossom.',
+
+  history: [
+    {
+      year: '3000–2000 BC',
+      title: 'Early Cities & Trade Routes',
+      description:
+        'Ancient settlements and city-states flourished in the region, positioned on important trade routes linking Mesopotamia and the Mediterranean.',
+    },
+    {
+      year: '64 BC',
+      title: 'Roman Province of Syria',
+      description:
+        'Syria became a Roman province, with cities like Palmyra and Antioch playing major roles in commerce and culture.',
+    },
+    {
+      year: '661–750',
+      title: 'Umayyad Caliphate',
+      description:
+        'Damascus became the capital of the Umayyad Caliphate, shaping architecture, scholarship, and regional influence.',
+    },
+    {
+      year: '1516–1918',
+      title: 'Ottoman Era',
+      description:
+        'Syria was part of the Ottoman Empire for centuries, influencing food, crafts, and urban life.',
+    },
+    {
+      year: '1946',
+      title: 'Independence',
+      description:
+        'Syria gained full independence after the end of the French Mandate period.',
+    },
+  ],
+
+  innovations: [
+    {
+      name: 'Aleppo Soap (Laurel Soap)',
+      year: 'Ancient–Medieval',
+      description:
+        'Traditional laurel and olive oil soap-making from Aleppo influenced soap traditions across the Mediterranean.',
+    },
+    {
+      name: 'Damascene Craftsmanship',
+      year: 'Medieval Era',
+      description:
+        'Damascus became renowned for intricate metalwork, textiles, and artisan crafts traded across regions.',
+    },
+    {
+      name: 'Levantine Culinary Traditions',
+      year: 'Centuries',
+      description:
+        'Syrian mezze culture and dessert techniques helped shape food traditions across the Levant and beyond.',
+    },
+  ],
+
+  mustVisit: [
+    {
+      name: 'Old City of Damascus',
+      description:
+        'Historic streets, courtyards, and markets in one of the world’s oldest continuously inhabited cities.',
+    },
+    {
+      name: 'Ancient City of Aleppo',
+      description:
+        'A legendary cultural center with deep history and an iconic citadel (note: preservation status varies due to conflict).',
+    },
+    {
+      name: 'Palmyra (Tadmur)',
+      description:
+        'Famous ancient oasis city with monumental ruins (note: access and preservation vary).',
+    },
+    {
+      name: 'Crac des Chevaliers',
+      description:
+        'One of the best-preserved medieval crusader castles in the world (access conditions may vary).',
+    },
+    {
+      name: 'Bosra',
+      description:
+        'Known for its impressive Roman theater and ancient city remains in southern Syria.',
+    },
+  ],
+
+  travelEssentials: [
+    {
+      item: 'Safety & advisories',
+      description:
+        'Check current travel advisories and local guidance; conditions can vary significantly by region.',
+    },
+    {
+      item: 'Language',
+      description:
+        'Arabic is the official language; learning basic greetings is appreciated.',
+    },
+    {
+      item: 'Etiquette',
+      description:
+        'Modest dress is respectful, especially at religious or traditional sites.',
+    },
+    {
+      item: 'Cash',
+      description:
+        'Card acceptance can be limited; carry local currency where relevant.',
+    },
+    {
+      item: 'Food culture',
+      description:
+        'Expect shared dishes and hospitality—meals are often communal and generous.',
+    },
+  ],
+
   mainDish: {
     id: 'syria-main',
     name: 'Kibbeh',
@@ -88,17 +205,25 @@ export const syria: Country = {
     alcoholic: 'Arak (anise-flavored)',
     nonAlcoholic: 'Arabic coffee, Mint tea, Jallab (date syrup drink)',
   },
+
   music: ['Traditional Dabke', 'Arabic classical music', 'Levantine folk songs'],
+
   decorationIdeas: [
     'Red, white, black and green flag colors',
     'Damascus rose patterns',
     'Historic architecture imagery',
     'Arabic calligraphy',
+    'Lanterns and warm ambient lighting',
+    'Brass and copper accents',
   ],
+
   conversationStarters: [
     'What do you know about ancient Middle Eastern history?',
     'Have you tried Levantine cuisine?',
+    'Are you more into food, history, or architecture when you explore a country?',
+    'Have you ever tried mezze-style dining with many small dishes?',
   ],
+
   quiz: [
     {
       id: 'syria-q1',
@@ -168,5 +293,6 @@ export const syria: Country = {
       correctAnswer: 1,
     },
   ],
+
   coordinates: { x: 55, y: 37 },
 };
