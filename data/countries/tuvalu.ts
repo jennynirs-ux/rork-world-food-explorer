@@ -8,7 +8,7 @@ export const tuvalu: Country = {
   flag: '🇹🇻',
   landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
   description:
-    'Tuvalu is one of the world\'s smallest and most remote countries, a Pacific island nation extremely vulnerable to climate change.',
+    "Tuvalu is one of the world’s smallest and most remote countries, a low-lying Pacific island nation made up of coral atolls and extremely vulnerable to climate change and sea level rise.",
   quickFacts: [
     { label: 'Capital', value: 'Funafuti' },
     { label: 'Population', value: '12,000' },
@@ -19,11 +19,114 @@ export const tuvalu: Country = {
   facts: [
     'Fourth smallest country in the world',
     'Extremely vulnerable to sea level rise',
-    'No significant natural resources or industry',
+    'No significant natural resources or large-scale industry',
     'The .tv internet domain provides important national revenue',
+    'Tuvalu is made up of low-lying coral atolls with very limited elevation',
+    'Community life is centered around family, churches, and shared traditions',
   ],
+
   foodCulture:
-    'Tuvaluan cuisine is based on fish, coconut, pulaka (swamp taro), breadfruit, and simple island ingredients, often cooked in earth ovens.',
+    'Tuvaluan cuisine is based on fish, coconut, pulaka (swamp taro), breadfruit, and simple island ingredients, often cooked in earth ovens. Meals are practical, local, and community-oriented.',
+
+  history: [
+    {
+      year: 'Pre-1800s',
+      title: 'Polynesian Settlement',
+      description:
+        'Tuvalu’s islands were settled by Polynesian navigators, with traditions shaped by ocean travel, fishing, and communal island life.',
+    },
+    {
+      year: '1892',
+      title: 'British Protectorate',
+      description:
+        'Tuvalu (then part of the Ellice Islands) became a British protectorate, later administered together with the Gilbert Islands.',
+    },
+    {
+      year: '1978',
+      title: 'Independence',
+      description:
+        'Tuvalu became an independent nation and joined the Commonwealth, establishing its own government and national identity.',
+    },
+    {
+      year: '1990s–Present',
+      title: 'Climate Advocacy',
+      description:
+        'Tuvalu has become globally recognized for climate advocacy, highlighting the risks low-lying island nations face from sea level rise.',
+    },
+  ],
+
+  innovations: [
+    {
+      name: '.tv Internet Domain',
+      year: '1990s',
+      description:
+        'Tuvalu’s “.tv” country domain became a notable source of revenue and international visibility.',
+    },
+    {
+      name: 'Traditional Navigation & Community Systems',
+      year: 'Ancient',
+      description:
+        'Local knowledge of the ocean, weather patterns, and community cooperation remains a core “technology” sustaining island life.',
+    },
+    {
+      name: 'Climate Adaptation Initiatives',
+      year: 'Modern Era',
+      description:
+        'Tuvalu participates in coastal protection, water security, and resilience initiatives to adapt to climate change impacts.',
+    },
+  ],
+
+  mustVisit: [
+    {
+      name: 'Funafuti Lagoon',
+      description:
+        'A beautiful lagoon surrounding the capital atoll, known for calm waters, marine life, and iconic atoll scenery.',
+    },
+    {
+      name: 'Funafuti Conservation Area',
+      description:
+        'A protected area with rich biodiversity, including coral reefs, tropical fish, seabirds, and small islets.',
+    },
+    {
+      name: 'Local Community Events',
+      description:
+        'Traditional dancing (fatele), singing, and communal feasts offer a real window into Tuvaluan culture.',
+    },
+    {
+      name: 'Atoll Island Life',
+      description:
+        'Explore the narrow strips of land, coconut palms, and village life that define Tuvalu’s unique geography and rhythm.',
+    },
+  ],
+
+  travelEssentials: [
+    {
+      item: 'Remote logistics',
+      description:
+        'Tuvalu is very remote with limited flights and services—plan ahead for transport, accommodation, and supplies.',
+    },
+    {
+      item: 'Respect local culture',
+      description:
+        'Dress modestly, especially in villages; Sunday is often quiet due to church and family traditions.',
+    },
+    {
+      item: 'Cash & connectivity',
+      description:
+        'Card payments may be limited; mobile/internet can be slower—download essentials in advance.',
+    },
+    {
+      item: 'Heat & sun protection',
+      description:
+        'It’s hot and sunny—bring reef-safe sunscreen, hydration, and lightweight clothing.',
+    },
+    {
+      item: 'Environmental care',
+      description:
+        'Reefs and coastlines are fragile—avoid damaging coral and follow local conservation guidance.',
+    },
+  ],
+
   mainDish: {
     id: 'tuvalu-main',
     name: 'Palusami',
@@ -48,26 +151,57 @@ export const tuvalu: Country = {
     ],
     imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
   },
+
+  dessert: {
+    id: 'tuvalu-dessert',
+    name: 'Coconut Breadfruit Pudding',
+    description:
+      'A simple island-style dessert made by baking breadfruit with coconut cream and a touch of sweetness until soft and custardy.',
+    cookingTime: 50,
+    servings: 6,
+    dietType: 'vegan',
+    ingredients: [
+      { name: 'Breadfruit (ripe)', amount: 600, unit: 'g' },
+      { name: 'Coconut cream', amount: 400, unit: 'ml' },
+      { name: 'Sugar (or coconut sugar)', amount: 80, unit: 'g' },
+      { name: 'Vanilla (optional)', amount: 1, unit: 'tsp' },
+      { name: 'Salt', amount: 0.25, unit: 'tsp' },
+    ],
+    steps: [
+      'Preheat oven to 180°C and grease a baking dish',
+      'Cut breadfruit into small chunks and place in dish',
+      'Mix coconut cream, sugar, salt, and vanilla (optional)',
+      'Pour coconut mixture over breadfruit and stir gently',
+      'Bake 40–50 minutes until tender and lightly golden on top',
+      'Cool slightly and serve warm or chilled',
+    ],
+    imageUrl: 'https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=600',
+  },
+
   drinks: {
     alcoholic: 'Toddy (palm wine)',
     nonAlcoholic: 'Coconut water, Fresh fruit juice',
   },
+
   music: [
     'Traditional fatele dance music',
     'Pacific island chants',
     'Community drumming and singing',
   ],
+
   decorationIdeas: [
     'Light blue and yellow flag colors',
     'Ocean and atoll imagery',
     'Star motifs from the flag',
     'Climate awareness themes',
   ],
+
   conversationStarters: [
     'What do you know about climate change and island nations?',
     'Would you like to visit a remote Pacific island?',
     'How do you think rising sea levels affect daily life?',
   ],
+
   quiz: [
     {
       id: 'tuvalu-q1',
@@ -135,5 +269,6 @@ export const tuvalu: Country = {
       correctAnswer: 2,
     },
   ],
+
   coordinates: { x: 92, y: 16 },
 };
