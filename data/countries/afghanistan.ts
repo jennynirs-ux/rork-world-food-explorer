@@ -6,7 +6,7 @@ export const afghanistan: Country = {
   code: 'AF',
   continent: 'Asia',
   flag: '🇦🇫',
-  landscapeImage: 'https://images.unsplash.com/photo-1586339277861-b0b8c885dd06?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1637750832829-7cc7e0605c15?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=800&q=80',
   description: 'Afghanistan is a landlocked country in Central Asia, known for its mountainous terrain, rich history along the Silk Road, and resilient culture. It has a complex heritage influenced by various empires and civilizations.',
   quickFacts: [
     { label: 'Capital', value: 'Kabul' },
