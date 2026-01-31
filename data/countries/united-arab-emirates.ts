@@ -144,7 +144,7 @@ export const unitedArabEmirates: Country = {
       'Drizzle with date syrup or honey',
       'Sprinkle with sesame seeds and serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1617196034183-421b4917c92b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Limited (available in licensed hotels and restaurants)',

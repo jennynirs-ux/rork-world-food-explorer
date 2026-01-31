@@ -91,7 +91,7 @@ export const haiti: Country = {
       'Let pikliz ferment for 24 hours',
       'Serve griot with pikliz and rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'haiti-dessert',

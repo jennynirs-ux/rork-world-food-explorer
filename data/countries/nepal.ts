@@ -115,7 +115,7 @@ export const nepal: Country = {
       'Fry until golden and crispy',
       'Drain and serve warm or cool',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1601318083018-f7829dfa9407?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'nepal-dal-bhat',
@@ -148,7 +148,7 @@ export const nepal: Country = {
       'Serve with vegetable curry on the side',
       'Add mango pickle and papad for complete meal',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Raksi (traditional rice spirit), Tongba (millet beer), Chyang',

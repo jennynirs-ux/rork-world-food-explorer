@@ -68,7 +68,7 @@ export const vanuatu: Country = {
       'Let rest for 10 minutes before slicing',
       'Serve warm as a main dish or hearty side (often alongside fish or greens)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'vanuatu-dessert',

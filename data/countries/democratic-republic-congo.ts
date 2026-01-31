@@ -84,7 +84,7 @@ export const democraticRepublicCongo: Country = {
       'Cook until chicken is tender and sauce thickens',
       'Serve with fufu or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'drc-dessert',
@@ -113,7 +113,7 @@ export const democraticRepublicCongo: Country = {
       'Drain on paper towels.',
       'Serve warm, optionally dusted with powdered sugar.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Primus beer, Turbo King, Palm wine',

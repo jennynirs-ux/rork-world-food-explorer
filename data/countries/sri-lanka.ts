@@ -136,8 +136,7 @@ export const sriLanka: Country = {
       'Serve rice in the center with curries arranged around it',
       'Mix rice with curries while eating, as traditionally done',
     ],
-    imageUrl:
-      'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=600',
   },
   dessert: {
     id: 'sri-lanka-dessert',
@@ -166,8 +165,7 @@ export const sriLanka: Country = {
       'Steam or bake in a water bath at 160°C for 35–45 minutes until just set',
       'Cool, then chill before serving',
     ],
-    imageUrl:
-      'https://images.unsplash.com/photo-1514511547116-1ff2dca2cfe3?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Arrack (coconut spirit), Lion Lager',

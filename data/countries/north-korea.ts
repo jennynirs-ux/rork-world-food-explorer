@@ -88,7 +88,7 @@ export const northKorea: Country = {
       'Soak in honey syrup',
       'Let cool and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'north-korea-main',
@@ -113,7 +113,7 @@ export const northKorea: Country = {
       'Pour cold broth over',
       'Top with vegetables and egg',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Soju, Taedonggang beer',

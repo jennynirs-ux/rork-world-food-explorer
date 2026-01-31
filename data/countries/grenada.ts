@@ -84,7 +84,7 @@ export const grenada: Country = {
       'Simmer until liquid is absorbed',
       'Serve when "oil down" to bottom',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'grenada-dessert',

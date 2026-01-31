@@ -174,7 +174,7 @@ export const sanMarino: Country = {
       'Place in baking dish, cover with béchamel and parmesan.',
       'Bake at 180C for 30–35 minutes until golden.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?baked-pasta,italian,lasagna&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -198,7 +198,7 @@ export const sanMarino: Country = {
       'Coat entire cake evenly.',
       'Chill 30 minutes before slicing.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?chocolate-cake,wafer-cake,dessert&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

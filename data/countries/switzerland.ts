@@ -162,7 +162,7 @@ export const switzerland: Country = {
       'Season with nutmeg and pepper',
       'Keep warm and serve immediately',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1590077428593-a55bb07c4665?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
   },
 
   dessert: {
@@ -196,7 +196,7 @@ export const switzerland: Country = {
       'Press sliced almonds onto the sides/top for decoration.',
       'Chill at least 1 hour before slicing for best texture.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1542826438-bd32f43d626f?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
   },
 
   drinks: {

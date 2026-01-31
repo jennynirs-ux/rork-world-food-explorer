@@ -112,7 +112,7 @@ export const coteDivoire: Country = {
       'Season with salt if needed',
       'Serve with attiéké (cassava couscous) or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Bangui (palm wine), Flag beer, Ivoire beer',
@@ -224,7 +224,7 @@ export const coteDivoire: Country = {
       'Season with salt.',
       'Serve hot aloco with spicy tomato sauce on the side.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1587241321921-91ffe2909df2?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   coordinates: { x: 46, y: 18 },
 };

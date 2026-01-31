@@ -150,7 +150,7 @@ export const bangladesh: Country = {
       'Refrigerate for at least 2 hours before serving.',
       'Serve chilled in the same pots.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
   },
   drinks: {
     alcoholic: 'Limited availability (Muslim-majority country)',

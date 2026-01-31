@@ -75,7 +75,7 @@ export const elSalvador: Country = {
       'Cook on griddle until golden',
       'Serve with curtido and tomato sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1615937722923-67beab1f0a0b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'el-salvador-dessert',
@@ -103,7 +103,7 @@ export const elSalvador: Country = {
       'Bake at 175°C for 45 minutes until golden',
       'Cool before slicing',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Pilsener beer, Aguardiente',

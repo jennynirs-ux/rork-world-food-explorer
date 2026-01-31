@@ -93,7 +93,7 @@ export const kyrgyzstan: Country = {
       'Press into mound shape',
       'Let cool and set before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571506165871-ee72a35bc9d1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'kyrgyzstan-main',

@@ -114,7 +114,7 @@ export const netherlands: Country = {
       'Serve topped with sliced rookworst',
       'Traditionally eaten with a small well of gravy in the center',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1601000938259-9e92002320b2?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'netherlands-dessert',
@@ -146,7 +146,7 @@ export const netherlands: Country = {
       'Spread caramel filling on one half, sandwich together',
       'Best served warm over a cup of hot coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1587241321921-91a834d82b0e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Heineken beer, Jenever (Dutch gin), Dutch craft beers, Advocaat (egg liqueur)',

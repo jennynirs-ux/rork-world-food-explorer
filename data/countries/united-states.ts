@@ -162,7 +162,7 @@ export const unitedStates: Country = {
       'Toast buns lightly',
       'Assemble burgers with toppings and serve with fries',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'united-states-dessert',

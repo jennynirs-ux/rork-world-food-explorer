@@ -84,7 +84,7 @@ export const republicCongo: Country = {
       'Season with pili-pili',
       'Serve with rice or fufu',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'congo-dessert',
@@ -107,7 +107,7 @@ export const republicCongo: Country = {
       'Optionally sprinkle with sugar and cinnamon while hot.',
       'Serve warm as dessert or snack.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1587241321921-91ffe2909df2?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Ngok (palm wine), Local beer',

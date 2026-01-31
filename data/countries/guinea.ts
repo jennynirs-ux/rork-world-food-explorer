@@ -86,7 +86,7 @@ export const guinea: Country = {
       'Add marinade and simmer',
       'Serve chicken with onion sauce over rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'guinea-dessert',
@@ -114,7 +114,7 @@ export const guinea: Country = {
       'Bake at 180°C for 45 minutes until golden',
       'Serve warm or cold',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
   },
   drinks: {
     alcoholic: 'Palm wine, Local beer',

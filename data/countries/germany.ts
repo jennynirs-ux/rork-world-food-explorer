@@ -114,7 +114,7 @@ export const germany: Country = {
       'Strain sauce, add crumbled gingersnap cookies to thicken',
       'Slice meat, serve with sauce, red cabbage, and dumplings',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1606851717554-17f3e92f0e14?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'germany-dessert',

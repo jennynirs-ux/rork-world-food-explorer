@@ -118,7 +118,7 @@ export const bosniaHerzegovina: Country = {
       'Serve in somun bread with kajmak and onions',
       'Add ajvar sauce on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'bosnia-dessert',
@@ -148,7 +148,7 @@ export const bosniaHerzegovina: Country = {
       'Top with whipped cream.',
       'Optional: garnish with walnut pieces.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Rakija (fruit brandy), Bosnian beer',

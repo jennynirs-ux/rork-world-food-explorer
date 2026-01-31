@@ -91,7 +91,7 @@ export const liechtenstein: Country = {
       'Bake at 375°F for 45 minutes until golden',
       'Dust with powdered sugar, serve warm with cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1564834724105-918b73d1e9e7?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'liechtenstein-main',
@@ -115,7 +115,7 @@ export const liechtenstein: Country = {
       'Top noodles with fried onions',
       'Serve with applesauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Local wines, Schnapps',

@@ -86,7 +86,7 @@ export const palau: Country = {
       'Cool before unwrapping',
       'Slice and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1587241321921-91a834d82697?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'palau-main',

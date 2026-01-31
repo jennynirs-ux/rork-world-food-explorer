@@ -100,7 +100,7 @@ export const uzbekistan: Country = {
       'Spoon into bowls and chill for at least 30 minutes',
       'Top with chopped pistachios if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1505253213348-ce33a2d5b4b3?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Vodka',

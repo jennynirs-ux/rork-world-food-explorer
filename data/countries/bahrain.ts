@@ -150,7 +150,7 @@ export const bahrain: Country = {
       'Garnish with pistachios and almonds.',
       'Cool completely before cutting into diamond shapes.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1606313564016-c4f48f2f6e8c?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=600',
   },
   drinks: {
     alcoholic: 'Limited availability',

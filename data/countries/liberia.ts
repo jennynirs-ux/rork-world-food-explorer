@@ -81,7 +81,7 @@ export const liberia: Country = {
       'Let cool and cut into squares',
       'Store in airtight container',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1599599811294-1e3880d57a29?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'liberia-main',

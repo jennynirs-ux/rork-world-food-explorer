@@ -118,7 +118,7 @@ export const burundi: Country = {
       'Slice and fry plantains until golden',
       'Serve beans with fried plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1568158879083-c42860933ed7?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'burundi-dessert',
@@ -146,7 +146,7 @@ export const burundi: Country = {
       'Optional: add a pat of butter on top.',
       'Can be eaten as breakfast or dessert.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Urwarwa (banana beer), Impeke (sorghum beer)',

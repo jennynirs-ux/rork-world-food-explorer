@@ -143,7 +143,7 @@ export const angola: Country = {
       'Add okra and cook final 10 minutes until thickened.',
       'Taste and adjust seasoning. Serve hot with funge or rice.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1598511726623-d2e9996892f0?w=600',
   },
 
   dessert: {
@@ -168,7 +168,7 @@ export const angola: Country = {
       'Pour into greased dish and bake at 180°C for 20 minutes.',
       'Cool before slicing.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1605475129364-b0dc2b6f97bb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1612882521431-88e296c8f8f2?w=600',
   },
 
   drinks: {

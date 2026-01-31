@@ -84,7 +84,7 @@ export const niger: Country = {
       'Deep fry until puffy and golden',
       'Dust with powdered sugar and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1626197881825-9e0feef5ad90?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'niger-main',
@@ -109,7 +109,7 @@ export const niger: Country = {
       'Simmer until thick',
       'Serve couscous with sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Bili-bili (millet beer)',

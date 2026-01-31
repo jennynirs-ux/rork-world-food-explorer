@@ -113,7 +113,7 @@ export const barbados: Country = {
       'Cook until smooth pudding forms',
       'Serve fish over cou-cou with tomato sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1559737558-2f5a2f7e8c59?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
   },
   dessert: {
     id: 'barbados-dessert',
@@ -146,7 +146,7 @@ export const barbados: Country = {
       'Cool in pan for 10 minutes, then turn out onto wire rack.',
       'Slice and serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586511934875-5c5411eebf79?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
   },
   drinks: {
     alcoholic: 'Mount Gay Rum, Banks Beer, Rum punch',

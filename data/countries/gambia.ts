@@ -75,7 +75,7 @@ export const gambia: Country = {
       'Simmer until meat is tender',
       'Serve over rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'gambia-dessert',
@@ -102,7 +102,7 @@ export const gambia: Country = {
       'Refrigerate for at least 2 hours',
       'Serve chilled as a refreshing dessert',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Palm wine, Julbrew beer',

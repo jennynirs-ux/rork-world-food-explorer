@@ -110,7 +110,7 @@ export const philippines: Country = {
       'Garnish with banana',
       'Mix everything together before eating',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'philippines-adobo',
@@ -142,7 +142,7 @@ export const philippines: Country = {
       'Serve hot over steamed rice',
       'Garnish with fried garlic if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1626804475297-41608ea09aeb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'San Miguel beer, Tanduay rum, Lambanog (coconut wine)',

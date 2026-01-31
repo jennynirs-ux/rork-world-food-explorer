@@ -134,7 +134,7 @@ export const sierraLeone: Country = {
       'Check rice and fluff with fork.',
       'Serve hot with fried plantains or vegetables.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?jollof-rice,west-african-food&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
   },
 
   dessert: {
@@ -158,7 +158,7 @@ export const sierraLeone: Country = {
       'Sprinkle lightly with salt.',
       'Serve warm.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?fried-plantains,african-dessert&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

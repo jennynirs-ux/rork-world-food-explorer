@@ -108,7 +108,7 @@ export const malta: Country = {
       'Deep fry until golden brown',
       'Drain and serve warm or cool',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571506165871-ee72a35bc9d1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'malta-stuffat-tal-fenek',
@@ -140,7 +140,7 @@ export const malta: Country = {
       'Season with salt and pepper',
       'Serve with crusty bread or pasta',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Cisk beer, Maltese wines, Kinnie (local soft drink with bitter oranges)',

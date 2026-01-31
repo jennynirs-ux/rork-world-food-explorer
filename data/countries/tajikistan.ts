@@ -200,7 +200,7 @@ export const tajikistan: Country = {
       'Transfer to a dish and smooth the surface',
       'Let cool slightly before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1604908177522-402b7dba3b92?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

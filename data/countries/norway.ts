@@ -90,7 +90,7 @@ export const norway: Country = {
       'Bring to boil, then simmer covered for 2-3 hours',
       'Serve with boiled potatoes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'norway-dessert',
@@ -118,7 +118,7 @@ export const norway: Country = {
       'Bake at 180°C for 30 minutes until golden',
       'Cool, slice horizontally, fill with vanilla custard',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Aquavit (traditional spirit), Norwegian craft beer, Gløgg (mulled wine)',

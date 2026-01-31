@@ -80,7 +80,7 @@ export const eswatini: Country = {
       'Simmer pumpkin stew until thick',
       'Serve porridge with stew',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'eswatini-dessert',
@@ -105,7 +105,7 @@ export const eswatini: Country = {
       'Cool and cut into squares',
       'Serve with tea or coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Umcombotsi (traditional beer), Buganu (marula fruit beer)',

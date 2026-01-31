@@ -95,7 +95,7 @@ export const paraguay: Country = {
       'Bake at 350°F for 45 minutes',
       'Serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'paraguay-main',
@@ -123,7 +123,7 @@ export const paraguay: Country = {
       'Bake at 180°C for 45 minutes until golden',
       'Serve warm as a side or main dish',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Caña (sugarcane liquor), Cerveza paraguaya',

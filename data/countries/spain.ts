@@ -200,7 +200,7 @@ export const spain: Country = {
       'Cook until thick and smooth',
       'Serve churros hot with chocolate for dipping',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1543773143-a096a2a92426?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1543364195-bfe6e4932397?w=600',
   },
   drinks: {
     alcoholic: 'Sangria, Rioja wine, Cava, Sherry, Agua de Valencia',

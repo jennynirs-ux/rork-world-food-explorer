@@ -135,7 +135,7 @@ export const senegal: Country = {
       'Add drained rice to the pot, stir once, cover, and cook on low 18–20 minutes until rice is tender and has absorbed the sauce.',
       'Serve rice on a platter, top with fish and vegetables, and spoon a little extra sauce over everything.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?thieboudienne,senegalese-food,fish-rice&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -162,7 +162,7 @@ export const senegal: Country = {
       'Chill at least 1 hour for best texture.',
       'Serve cold in small bowls or glasses.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?yogurt-dessert,parfait,millet&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

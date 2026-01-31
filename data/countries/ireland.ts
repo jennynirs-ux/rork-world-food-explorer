@@ -120,7 +120,7 @@ export const ireland: Country = {
       'Refrigerate for at least 4 hours',
       'Top with whipped cream and chocolate shavings',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1533134486753-c833f0ed4866?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
   },
   drinks: {
     alcoholic: 'Guinness, Irish whiskey (Jameson, Bushmills), Baileys Irish Cream, Irish coffee',

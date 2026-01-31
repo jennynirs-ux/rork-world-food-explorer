@@ -97,7 +97,7 @@ export const iran: Country = {
       'Simmer for 30 more minutes',
       'Serve over saffron rice (chelow)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'iran-dessert',

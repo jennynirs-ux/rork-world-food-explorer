@@ -169,7 +169,7 @@ export const algeria: Country = {
       'Harissa: mix harissa paste with 2–3 tbsp warm broth in a small bowl to loosen, and let each person add to taste.',
       'Optional garnish: sprinkle with chopped coriander or parsley and serve immediately with extra broth on the side.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1595777216776-e1c8ba8b38eb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=600',
   },
 
   dessert: {
@@ -200,7 +200,7 @@ export const algeria: Country = {
       'Warm honey with a little water',
       'Dip fried makroud in honey while hot',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571506165871-ee72a35bc9d1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

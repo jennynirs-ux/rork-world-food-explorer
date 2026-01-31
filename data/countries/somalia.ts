@@ -74,7 +74,7 @@ export const somalia: Country = {
       'Mix in raisins and reserved caramelized onions',
       'Let rest 5 minutes before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -107,7 +107,7 @@ export const somalia: Country = {
       'Pour into a greased dish, smooth the top, and let set.',
       'Slice into small diamonds or squares to serve.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc500f?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=600',
   },
 
   drinks: {

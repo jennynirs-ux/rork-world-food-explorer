@@ -113,7 +113,7 @@ export const cameroon: Country = {
       'Simmer until thick',
       'Serve with plantains or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'cameroon-dessert',
@@ -143,7 +143,7 @@ export const cameroon: Country = {
       'Remove with slotted spoon, drain on paper towels.',
       'Serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1626094309830-abbb0c99da4a?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Palm wine, 33 Export beer, Guinness',

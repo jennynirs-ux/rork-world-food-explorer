@@ -114,7 +114,7 @@ export const southAfrica: Country = {
       'Remove bay leaves before serving.',
       'Serve with yellow rice and chutney.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70e008356f9e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -144,7 +144,7 @@ export const southAfrica: Country = {
       'Rest 5 minutes before serving.',
       'Serve warm with ice cream or custard.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
   },
 
   drinks: {

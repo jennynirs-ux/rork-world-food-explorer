@@ -111,7 +111,7 @@ export const brunei: Country = {
       'Use chandas (special fork) to twirl ambuyat',
       'Dip in sauces and eat with sides',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585238341710-d1f64e8673de?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'brunei-dessert',
@@ -140,7 +140,7 @@ export const brunei: Country = {
       'Bake at 170°C for 20-25 minutes until lightly golden.',
       'Cool completely before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Not consumed (Islamic country)',

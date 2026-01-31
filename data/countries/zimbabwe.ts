@@ -95,7 +95,7 @@ export const zimbabwe: Country = {
       'Sauté collard greens with a little onion and salt until tender',
       'Serve sadza with beef stew and greens on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1516684732162-798a0062be99?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
   },
   dessert: {
     id: 'zimbabwe-dessert',
@@ -120,7 +120,7 @@ export const zimbabwe: Country = {
       'Toss to coat evenly',
       'Optional: mix in roasted peanuts before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509475826633-fed577a2c71b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Chibuku (traditional beer), Castle lager, Zambezi beer',

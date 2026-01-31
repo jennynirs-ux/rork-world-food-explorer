@@ -91,7 +91,7 @@ export const kuwait: Country = {
       'Bake at 350°F for 25-30 minutes',
       'Cool and cut into diamond shapes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'kuwait-main',

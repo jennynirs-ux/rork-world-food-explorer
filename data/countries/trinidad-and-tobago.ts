@@ -158,7 +158,7 @@ export const trinidadAndTobago: Country = {
       'Top with tamarind chutney and pepper sauce',
       'Serve immediately while hot',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -194,7 +194,7 @@ export const trinidadAndTobago: Country = {
       'Cool 15 minutes in pan, then transfer to a rack',
       'Slice and serve slightly warm or at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1542826438-bd32f43d626f?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

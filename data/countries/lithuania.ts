@@ -76,7 +76,7 @@ export const lithuania: Country = {
       'Cool completely and remove from spit',
       'Dust with powdered sugar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   history: [
     {
@@ -144,7 +144,7 @@ export const lithuania: Country = {
       'Fry diced bacon until crispy, mix with sour cream',
       'Serve cepelinai hot with bacon-sour cream sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1606850780554-b55ef9eb42b3?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Midus (honey mead), Lithuanian beer, Starka (rye vodka)',

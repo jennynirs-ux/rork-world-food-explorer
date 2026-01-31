@@ -112,7 +112,7 @@ export const pakistan: Country = {
       'Add hot balls to warm syrup',
       'Let soak for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1573772342084-7fcc3198e8a5?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'pakistan-biryani',
@@ -145,7 +145,7 @@ export const pakistan: Country = {
       'Let rest for 5 minutes before opening',
       'Gently mix and serve with raita',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
   },
   drinks: {
     alcoholic: 'Limited availability (Islamic country)',

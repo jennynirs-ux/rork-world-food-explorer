@@ -144,7 +144,7 @@ export const singapore: Country = {
       'Slice chicken and drizzle with soy sauce (or light + dark soy mix if you use both).',
       'Serve with cucumber slices and the sauces on the side.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?hainanese-chicken-rice,singapore-food&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
   },
 
   dessert: {
@@ -166,7 +166,7 @@ export const singapore: Country = {
       'Add butter slices, then sandwich with remaining toast.',
       'Cut into triangles and serve warm.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?kaya-toast,singapore-dessert&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

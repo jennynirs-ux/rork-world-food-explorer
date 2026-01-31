@@ -115,7 +115,7 @@ export const australia: Country = {
       'Boil peas, then mash with butter until smooth',
       'Serve pies with mushy peas on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555243896-c709bfa0b564?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600',
   },
   dessert: {
     id: 'australia-dessert',
@@ -147,7 +147,7 @@ export const australia: Country = {
       'Roll in desiccated coconut',
       'Place on wire rack to set',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
   },
   drinks: {
     alcoholic: 'Australian wine (Shiraz, Chardonnay), VB beer, XXXX beer, Bundaberg Rum',

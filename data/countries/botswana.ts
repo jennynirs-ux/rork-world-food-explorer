@@ -116,7 +116,7 @@ export const botswana: Country = {
       'For pap: cook maize meal with water until thick',
       'Serve seswaa with pap',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'botswana-dessert',
@@ -144,7 +144,7 @@ export const botswana: Country = {
       'Optional: top with extra ground peanuts.',
       'Can be served as breakfast or dessert.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Chibuku, St. Louis lager, Traditional sorghum beer',

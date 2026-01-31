@@ -88,7 +88,7 @@ export const maldives: Country = {
       'Cool and cut into squares',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571506165871-ee72a35bc9d1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'maldives-main',
@@ -113,7 +113,7 @@ export const maldives: Country = {
       'Serve broth over rice',
       'Top with flaked fish and onions',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1559737558-2f5a2f7e8c59?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Limited (only in resorts)',

@@ -97,7 +97,7 @@ export const oman: Country = {
       'Pour into greased dish, top with nuts',
       'Cool and cut into squares',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571070703346-9307e0d50b0c?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=600',
   },
   mainDish: {
     id: 'oman-main',
@@ -121,7 +121,7 @@ export const oman: Country = {
       'Unwrap and shred meat',
       'Serve with rice and dates',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Not common (Islamic country)',

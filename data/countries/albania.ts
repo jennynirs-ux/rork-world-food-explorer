@@ -196,7 +196,7 @@ export const albania: Country = {
       'Cookies should be pale golden, not browned',
       'Cool completely before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
   },
 
   drinks: {

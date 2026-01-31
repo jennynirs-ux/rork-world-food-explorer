@@ -45,7 +45,7 @@ export const israel: Country = {
       'Cover and cook until eggs are set',
       'Serve with challah or pita bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1587334206607-93c1b2c7ec6d?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Israeli wine, Goldstar beer, Arak',
@@ -128,7 +128,7 @@ export const israel: Country = {
       'Refrigerate for at least 2 hours until firm',
       'Cut into squares and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571070703346-9307e0d50b0c?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   quiz: [
     {

@@ -89,7 +89,7 @@ export const kazakhstan: Country = {
       'Deep fry in hot oil until golden brown',
       'Drain and serve warm with honey or jam',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1626197881825-9e0feef5ad90?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'kazakhstan-main',

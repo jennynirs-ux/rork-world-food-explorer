@@ -134,7 +134,7 @@ export const slovakia: Country = {
       'Top with crispy bacon and a spoon of rendered fat for classic flavor.',
       'Serve immediately; add sour cream if you like it extra creamy.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?dumplings,cheese,bacon,halusky&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -163,7 +163,7 @@ export const slovakia: Country = {
       'Mix ground poppy seeds with sugar, then sprinkle over noodles and toss gently.',
       'Serve warm.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?poppy-seed,dessert,noodles,central-europe&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

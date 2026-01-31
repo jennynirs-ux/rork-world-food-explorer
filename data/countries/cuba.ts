@@ -101,7 +101,7 @@ export const cuba: Country = {
       'Add shredded beef, simmer for 30 minutes',
       'Serve over white rice with black beans and plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'cuba-dessert',
@@ -127,7 +127,7 @@ export const cuba: Country = {
       'Cool completely, then refrigerate for 4 hours',
       'Invert onto plate to serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Mojito, Cuba Libre, Daiquiri, Havana Club rum',

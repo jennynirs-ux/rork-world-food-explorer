@@ -100,7 +100,7 @@ export const dominica: Country = {
       'Let cool and harden',
       'Store in airtight container',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558326567-98ae2405596b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Rum, Bay rum, Local beer',

@@ -184,7 +184,7 @@ export const saudiArabia: Country = {
       'Serve rice on a platter and top with the meat. Garnish with toasted almonds and raisins if using.',
       'Serve with a simple salad or yogurt sauce on the side.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?kabsa,rice,chicken,arabic-food&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -216,7 +216,7 @@ export const saudiArabia: Country = {
       'Bake at 180C for 18-22 minutes until lightly golden (not dark).',
       'Cool completely. Dust with powdered sugar if desired.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?maamoul,date-cookies,arabic-dessert&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

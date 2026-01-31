@@ -71,7 +71,7 @@ export const vaticanCity: Country = {
       'Adjust consistency with small splashes of pasta water until silky',
       'Serve immediately with extra Pecorino and black pepper',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'vatican-dessert',
@@ -106,7 +106,7 @@ export const vaticanCity: Country = {
       'Slice buns lengthwise (not all the way through) and generously fill with whipped cream',
       'Serve fresh—best the same day',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1542826438-bd32f43d626f?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Italian wine, Communion wine',

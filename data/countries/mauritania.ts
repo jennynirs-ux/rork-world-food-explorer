@@ -83,7 +83,7 @@ export const mauritania: Country = {
       'Refrigerate for 2 hours',
       'Serve chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   mainDish: {
     id: 'mauritania-main',
@@ -108,7 +108,7 @@ export const mauritania: Country = {
       'Return fish to pot',
       'Serve rice with fish and vegetables',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   drinks: {
     alcoholic: 'Not common (Islamic country)',

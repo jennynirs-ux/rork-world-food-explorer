@@ -166,7 +166,7 @@ export const turkey: Country = {
       'Melt butter with paprika and drizzle on top',
       'Serve with yogurt on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {

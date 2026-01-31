@@ -75,7 +75,7 @@ export const fiji: Country = {
       'Add chopped chili to taste',
       'Serve chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1559737558-2f5a2f7e8c59?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
   dessert: {
     id: 'fiji-dessert',

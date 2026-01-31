@@ -166,7 +166,7 @@ export const syria: Country = {
       'Drain on paper towels and serve warm',
       'Serve with yogurt and fresh salad',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -198,7 +198,7 @@ export const syria: Country = {
       'Let cool completely',
       'Dust lightly with powdered sugar if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1604908554168-6a77b90c2c88?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
 
   drinks: {

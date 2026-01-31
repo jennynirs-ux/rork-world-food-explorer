@@ -135,7 +135,7 @@ export const seychelles: Country = {
       'Optional: add a slit chili for heat during the simmer, then remove before serving.',
       'Serve with rice and a simple cucumber salad or lentils.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?fish-curry,coconut-curry,seafood-curry&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=600',
   },
 
   dessert: {
@@ -170,7 +170,7 @@ export const seychelles: Country = {
       'Optional: toast extra coconut and sprinkle on top.',
       'Store airtight; the cake stays moist for 2–3 days.',
     ],
-    imageUrl: 'https://source.unsplash.com/featured/?coconut-cake,banana-cake,tropical-dessert&w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
   },
 
   drinks: {

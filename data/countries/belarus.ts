@@ -118,7 +118,7 @@ export const belarus: Country = {
       'Drain & repeat: Transfer to paper towels or a rack. Add a little more oil between batches as needed.',
       'Serve: Serve immediately with sour cream (and optional chopped dill or chives if you like).',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1625937286074-9ca519d5d9df?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -151,7 +151,7 @@ export const belarus: Country = {
       'Serve hot with sour cream and berry jam.',
       'Optional: dust with powdered sugar.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1600717362246-e6d29e5385f0?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600',
   },
   drinks: {
     alcoholic: 'Vodka, Krambambula (honey liqueur), Kvass',

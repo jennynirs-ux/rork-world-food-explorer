@@ -188,7 +188,7 @@ export const vietnam: Country = {
       'Stir in vanilla if using',
       'Serve warm or chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
   },
   drinks: {
     alcoholic: 'Bia Hoi, rice wine',

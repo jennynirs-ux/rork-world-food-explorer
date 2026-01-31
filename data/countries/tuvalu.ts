@@ -149,7 +149,7 @@ export const tuvalu: Country = {
       'Cook for about 90 minutes until tender',
       'Serve as a side dish, often with fish',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
   },
 
   dessert: {
@@ -175,7 +175,7 @@ export const tuvalu: Country = {
       'Bake 40–50 minutes until tender and lightly golden on top',
       'Cool slightly and serve warm or chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
   },
 
   drinks: {
