@@ -6,7 +6,7 @@ export const papuaNewGuinea: Country = {
   code: 'PG',
   continent: 'Oceania',
   flag: '🇵🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1505881402582-763970a1e27e?w=800&q=80',
   description: 'Papua New Guinea is a Pacific nation known for incredible biodiversity, tribal cultures, and being one of the world\'s most linguistically diverse countries.',
   quickFacts: [
     { label: 'Capital', value: 'Port Moresby' },

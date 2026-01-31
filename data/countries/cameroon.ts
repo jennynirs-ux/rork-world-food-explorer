@@ -6,7 +6,7 @@ export const cameroon: Country = {
   code: 'CM',
   continent: 'Africa',
   flag: '🇨🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1572469176012-d3f8e6c8c32c?w=800&q=80',
   description: 'Cameroon is known as "Africa in Miniature" for its geological and cultural diversity, featuring beaches, deserts, mountains, rainforests, and savannas.',
   quickFacts: [
     { label: 'Capital', value: 'Yaoundé' },

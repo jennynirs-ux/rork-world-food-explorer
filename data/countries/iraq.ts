@@ -6,7 +6,7 @@ export const iraq: Country = {
   code: 'IQ',
   continent: 'Asia',
   flag: '🇮🇶',
-  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80',
   description: 'Iraq is the cradle of civilization, home to ancient Mesopotamia, the Tigris and Euphrates rivers, and rich historical heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Baghdad' },

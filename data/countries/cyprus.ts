@@ -6,7 +6,7 @@ export const cyprus: Country = {
   code: 'CY',
   continent: 'Europe',
   flag: '🇨🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1562737193-7c3e3c6ef9c8?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1537349945967-0b73be358c8f?w=800&q=80',
   description: 'Cyprus is a Mediterranean island nation at the crossroads of Europe, Asia, and Africa, known for its ancient history, beautiful beaches, warm hospitality, and the legendary birthplace of Aphrodite.',
   quickFacts: [
     { label: 'Capital', value: 'Nicosia' },

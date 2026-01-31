@@ -6,7 +6,7 @@ export const germany: Country = {
   code: 'DE',
   continent: 'Europe',
   flag: '🇩🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80',
   description: 'Germany is a country of diverse landscapes, from the Alps to the North Sea. Known for precision engineering, beer culture, fairy-tale castles, and a complex but fascinating history.',
   quickFacts: [
     { label: 'Capital', value: 'Berlin' },

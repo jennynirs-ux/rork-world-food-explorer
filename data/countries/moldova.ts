@@ -6,7 +6,7 @@ export const moldova: Country = {
   code: 'MD',
   continent: 'Europe',
   flag: '🇲🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1621522767402-2c5bcde2c0f4?w=800&q=80',
   description: 'Moldova is a landlocked country in Eastern Europe, known for wine production, monasteries, and rolling countryside.',
   quickFacts: [
     { label: 'Capital', value: 'Chișinău' },

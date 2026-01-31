@@ -6,7 +6,7 @@ export const bhutan: Country = {
   code: 'BT',
   continent: 'Asia',
   flag: '🇧🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1545436913-2d6550e1f44f?w=800&q=80',
   description: 'Bhutan, the Land of the Thunder Dragon, measures prosperity through Gross National Happiness. A Buddhist kingdom in the Himalayas with stunning monasteries and pristine nature.',
   quickFacts: [
     { label: 'Capital', value: 'Thimphu' },

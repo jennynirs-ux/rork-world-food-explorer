@@ -6,7 +6,7 @@ export const unitedArabEmirates: Country = {
   code: 'AE',
   continent: 'Asia',
   flag: '🇦🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80',
   description:
     'The United Arab Emirates is a federation of seven emirates known for its blend of tradition and ultramodern development, iconic skylines, desert landscapes, and global business hubs.',
   quickFacts: [

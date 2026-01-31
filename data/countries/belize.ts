@@ -6,7 +6,7 @@ export const belize: Country = {
   code: 'BZ',
   continent: 'North America',
   flag: '🇧🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1580672324472-d9903f9bb6b7?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1615274242889-e9fb4c16b0b0?w=800&q=80',
   description: 'Belize is a Caribbean country on the northeastern coast of Central America, known for the Belize Barrier Reef, Mayan ruins, and diverse ecosystems.',
   quickFacts: [
     { label: 'Capital', value: 'Belmopan' },

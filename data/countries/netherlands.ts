@@ -6,7 +6,7 @@ export const netherlands: Country = {
   code: 'NL',
   continent: 'Europe',
   flag: '🇳🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800&q=80',
   description: 'The Netherlands is famous for tulips, windmills, canals, bicycles, and liberal social policies. A flat, innovative country that has reclaimed much of its land from the sea.',
   quickFacts: [
     { label: 'Capital', value: 'Amsterdam' },

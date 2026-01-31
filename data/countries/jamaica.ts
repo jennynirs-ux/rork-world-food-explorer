@@ -6,7 +6,7 @@ export const jamaica: Country = {
   code: 'JM',
   continent: 'North America',
   flag: '🇯🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1570789210967-2cac24afeb00?w=800&q=80',
   description: 'Jamaica is a Caribbean island nation known for its reggae music, beautiful beaches, lush mountains, and vibrant culture. The birthplace of Bob Marley, Jamaica has left an indelible mark on music and sports worldwide.',
   quickFacts: [
     { label: 'Capital', value: 'Kingston' },

@@ -6,7 +6,7 @@ export const marshallIslands: Country = {
   code: 'MH',
   continent: 'Oceania',
   flag: '🇲🇭',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80',
   description: 'The Marshall Islands is a Pacific island nation known for pristine atolls, WWII history, and traditional navigation techniques.',
   quickFacts: [
     { label: 'Capital', value: 'Majuro' },

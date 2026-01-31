@@ -6,7 +6,7 @@ export const saintVincentAndTheGrenadines: Country = {
   code: 'VC',
   continent: 'North America',
   flag: '🇻🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1589900243325-be2362b90ff4?w=800&q=80',
   description:
     'Saint Vincent and the Grenadines is a Caribbean island nation famous for turquoise bays, sailing and yacht charters, coral reefs, and the dramatic volcanic landscape of La Soufriere.',
   quickFacts: [

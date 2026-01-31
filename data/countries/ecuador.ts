@@ -6,7 +6,7 @@ export const ecuador: Country = {
   code: 'EC',
   continent: 'South America',
   flag: '🇪🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1518399519228-97f81b35f2d5?w=800&q=80',
   description: 'Ecuador is a compact South American country that packs incredible diversity - from the Amazon rainforest to the Andean highlands, Pacific beaches, and the unique Galápagos Islands. Named after the equator that runs through it, Ecuador offers rich indigenous culture and biodiversity.',
   quickFacts: [
     { label: 'Capital', value: 'Quito' },

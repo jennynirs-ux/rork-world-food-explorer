@@ -6,7 +6,7 @@ export const ghana: Country = {
   code: 'GH',
   continent: 'Africa',
   flag: '🇬🇭',
-  landscapeImage: 'https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=800&q=80',
   description: 'Ghana, known as the "Gateway to Africa," was the first sub-Saharan African nation to gain independence. Rich in history, culture, and natural beauty, Ghana is famous for its gold, cocoa, and warm hospitality.',
   quickFacts: [
     { label: 'Capital', value: 'Accra' },

@@ -6,7 +6,7 @@ export const venezuela: Country = {
   code: 'VE',
   continent: 'South America',
   flag: '🇻🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1589802829985-817e51171b92?w=800&q=80',
   description:
     "Venezuela is home to Angel Falls, the world's highest waterfall, vast oil reserves, and diverse ecosystems from Caribbean beaches to Andean peaks.",
   quickFacts: [

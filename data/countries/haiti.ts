@@ -6,7 +6,7 @@ export const haiti: Country = {
   code: 'HT',
   continent: 'North America',
   flag: '🇭🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1544989164-fb88fbafbe7a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1624298357797-c465515c2e1d?w=800&q=80',
   description: 'Haiti shares Hispaniola island with the Dominican Republic, known as the first Black republic, vibrant art scene, and resilient culture.',
   quickFacts: [
     { label: 'Capital', value: 'Port-au-Prince' },

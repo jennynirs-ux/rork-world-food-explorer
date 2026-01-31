@@ -6,7 +6,7 @@ export const rwanda: Country = {
   code: 'RW',
   continent: 'Africa',
   flag: '🇷🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1609198092357-8e26d876a5c8?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1591838275844-9e0e92f0e696?w=800&q=80',
   description: 'Rwanda, the "Land of a Thousand Hills," is known for its mountainous terrain, mountain gorillas, and remarkable recovery. A country of stunning beauty and inspiring resilience.',
   quickFacts: [
     { label: 'Capital', value: 'Kigali' },

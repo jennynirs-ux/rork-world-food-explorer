@@ -6,7 +6,7 @@ export const kiribati: Country = {
   code: 'KI',
   continent: 'Oceania',
   flag: '🇰🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800&q=80',
   description: 'Kiribati is a Pacific island nation spread across the equator, known for pristine atolls, fishing, and vulnerability to climate change.',
   quickFacts: [
     { label: 'Capital', value: 'South Tarawa' },

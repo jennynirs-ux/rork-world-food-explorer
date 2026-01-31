@@ -6,7 +6,7 @@ export const chad: Country = {
   code: 'TD',
   continent: 'Africa',
   flag: '🇹🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&q=80',
   description: 'Chad is a landlocked country in north-central Africa featuring the Sahara Desert, Lake Chad, and diverse ethnic groups.',
   quickFacts: [
     { label: 'Capital', value: 'N\'Djamena' },

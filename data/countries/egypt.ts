@@ -6,7 +6,7 @@ export const egypt: Country = {
   code: 'EG',
   continent: 'Africa',
   flag: '🇪🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1572252009286-268acec5ca0a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=80',
   description: 'Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Home to the ancient pyramids and the Sphinx, it\'s a land of timeless wonders.',
   quickFacts: [
     { label: 'Capital', value: 'Cairo' },

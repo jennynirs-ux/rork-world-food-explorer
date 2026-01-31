@@ -6,7 +6,7 @@ export const cuba: Country = {
   code: 'CU',
   continent: 'North America',
   flag: '🇨🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1500759285222-a95626b934cb?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1545319261-b95e3f566129?w=800&q=80',
   description: 'Cuba is the largest Caribbean island, known for its pristine beaches, Spanish colonial architecture, vintage cars, cigars, and rich musical heritage. Havana, its capital, is famous for colorful buildings and classic American cars.',
   quickFacts: [
     { label: 'Capital', value: 'Havana' },

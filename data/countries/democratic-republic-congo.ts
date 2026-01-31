@@ -6,7 +6,7 @@ export const democraticRepublicCongo: Country = {
   code: 'CD',
   continent: 'Africa',
   flag: '🇨🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1591873266096-054ead206d22?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1580201092675-a0a6a6cafbb0?w=800&q=80',
   description: 'The DRC is the second-largest country in Africa, featuring the Congo River, vast rainforests, and incredible biodiversity.',
   quickFacts: [
     { label: 'Capital', value: 'Kinshasa' },

@@ -6,7 +6,7 @@ export const croatia: Country = {
   code: 'HR',
   continent: 'Europe',
   flag: '🇭🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1555990793-da11153b2473?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1508790472953-42c96f3b571a?w=800&q=80',
   description: 'Croatia is a stunning Mediterranean country known for its crystal-clear Adriatic coastline, historic walled cities, beautiful islands, and rich cultural heritage. From ancient Roman ruins to medieval fortresses, it offers a perfect blend of history and natural beauty.',
   quickFacts: [
     { label: 'Capital', value: 'Zagreb' },

@@ -6,7 +6,7 @@ export const hungary: Country = {
   code: 'HU',
   continent: 'Europe',
   flag: '🇭🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1541423647933-ac0638a6f0b3?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1526994113668-98ef4c1c946d?w=800&q=80',
   description: 'Hungary is a landlocked country in Central Europe known for its rich history, thermal baths, unique language, and vibrant capital Budapest. The Danube River divides the city into historic Buda and modern Pest.',
   quickFacts: [
     { label: 'Capital', value: 'Budapest' },

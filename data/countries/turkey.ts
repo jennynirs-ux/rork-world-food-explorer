@@ -6,7 +6,7 @@ export const turkey: Country = {
   code: 'TR',
   continent: 'Asia/Europe',
   flag: '🇹🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80',
   description:
     'Turkey is a transcontinental country bridging Europe and Asia, with a rich history spanning ancient civilizations. Known for its Byzantine and Ottoman heritage, stunning landscapes, and delicious cuisine.',
   quickFacts: [

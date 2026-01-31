@@ -6,7 +6,7 @@ export const sweden: Country = {
   code: 'SE',
   continent: 'Europe',
   flag: '🇸🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800&q=80',
   description:
     'Sweden is a Scandinavian nation known for its stunning natural beauty, innovative design, and high quality of life. From the Northern Lights to IKEA, Sweden offers a perfect blend of nature and modernity.',
   quickFacts: [

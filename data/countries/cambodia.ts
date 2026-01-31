@@ -6,7 +6,7 @@ export const cambodia: Country = {
   code: 'KH',
   continent: 'Asia',
   flag: '🇰🇭',
-  landscapeImage: 'https://images.unsplash.com/photo-1563434872-6b1f49ed0896?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1528127269322-539801943592?w=800&q=80',
   description: 'Cambodia is home to the magnificent Angkor Wat temple complex and rich Khmer culture. A resilient nation with ancient heritage and warm, welcoming people.',
   quickFacts: [
     { label: 'Capital', value: 'Phnom Penh' },

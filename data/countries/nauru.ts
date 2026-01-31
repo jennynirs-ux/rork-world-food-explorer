@@ -6,7 +6,7 @@ export const nauru: Country = {
   code: 'NR',
   continent: 'Oceania',
   flag: '🇳🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1576495199011-eb94736d05d6?w=800&q=80',
   description: 'Nauru is the world\'s smallest island nation, known for phosphate mining history and unique challenges.',
   quickFacts: [
     { label: 'Capital', value: 'Yaren (de facto)' },

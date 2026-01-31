@@ -6,7 +6,7 @@ export const centralAfricanRepublic: Country = {
   code: 'CF',
   continent: 'Africa',
   flag: '🇨🇫',
-  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=80',
   description: 'The Central African Republic is a landlocked country known for its diverse wildlife, tropical forests, and rich mineral resources.',
   quickFacts: [
     { label: 'Capital', value: 'Bangui' },

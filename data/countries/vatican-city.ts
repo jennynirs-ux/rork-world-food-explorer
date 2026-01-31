@@ -6,7 +6,7 @@ export const vaticanCity: Country = {
   code: 'VA',
   continent: 'Europe',
   flag: '🇻🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800&q=80',
   description:
     "Vatican City is the world's smallest country, headquarters of the Roman Catholic Church, known for St. Peter's Basilica and the Sistine Chapel.",
   quickFacts: [

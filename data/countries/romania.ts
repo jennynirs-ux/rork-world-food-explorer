@@ -6,7 +6,7 @@ export const romania: Country = {
   code: 'RO',
   continent: 'Europe',
   flag: '🇷🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1606768666853-403c90a981ad?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1564221710304-0b37c2e6d6b7?w=800&q=80',
   description: 'Romania is a Southeastern European country known for its medieval castles, forested region of Transylvania, and the Carpathian Mountains. The country blends Latin heritage with Slavic and Ottoman influences.',
   quickFacts: [
     { label: 'Capital', value: 'Bucharest' },

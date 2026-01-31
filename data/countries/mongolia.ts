@@ -6,7 +6,7 @@ export const mongolia: Country = {
   code: 'MN',
   continent: 'Asia',
   flag: '🇲🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1584894247808-7e99eb4f8e32?w=800&q=80',
   description: 'Mongolia is a vast landlocked country known for nomadic culture, the Gobi Desert, steppes, and the legacy of Genghis Khan.',
   quickFacts: [
     { label: 'Capital', value: 'Ulaanbaatar' },

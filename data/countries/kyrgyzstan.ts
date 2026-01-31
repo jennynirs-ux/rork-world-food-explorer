@@ -6,7 +6,7 @@ export const kyrgyzstan: Country = {
   code: 'KG',
   continent: 'Asia',
   flag: '🇰🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800&q=80',
   description: 'Kyrgyzstan is a Central Asian country known for dramatic mountain landscapes, nomadic traditions, and yurt culture.',
   quickFacts: [
     { label: 'Capital', value: 'Bishkek' },

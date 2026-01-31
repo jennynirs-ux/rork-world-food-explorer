@@ -6,7 +6,7 @@ export const unitedKingdom: Country = {
   code: 'GB',
   continent: 'Europe',
   flag: '🇬🇧',
-  landscapeImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1474440692490-2e83ae13ba29?w=800&q=80',
   description:
     'The United Kingdom comprises England, Scotland, Wales, and Northern Ireland, known for rich history, royal heritage, and global cultural influence.',
   quickFacts: [

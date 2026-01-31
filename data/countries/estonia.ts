@@ -6,7 +6,7 @@ export const estonia: Country = {
   code: 'EE',
   continent: 'Europe',
   flag: '🇪🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1563911892437-1feda0179e1b?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80',
   description: 'Estonia is a digital pioneer and the most northerly Baltic state, known for its medieval old towns, pristine nature, innovative tech scene, and unique position bridging Eastern and Northern Europe.',
   quickFacts: [
     { label: 'Capital', value: 'Tallinn' },

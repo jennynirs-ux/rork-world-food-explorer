@@ -6,7 +6,7 @@ export const thailand: Country = {
   code: 'TH',
   continent: 'Asia',
   flag: '🇹🇭',
-  landscapeImage: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1528181304800-259b08848526?w=800&q=80',
   description:
     'Thailand, the "Land of Smiles," is known for tropical beaches, ornate Buddhist temples, vibrant street food culture, and warm hospitality. A perfect blend of ancient traditions and modern city life.',
   quickFacts: [

@@ -6,7 +6,7 @@ export const elSalvador: Country = {
   code: 'SV',
   continent: 'North America',
   flag: '🇸🇻',
-  landscapeImage: 'https://images.unsplash.com/photo-1564082979121-85b2e787881f?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1572920650216-e842e1c3e1b5?w=800&q=80',
   description: 'El Salvador is the smallest Central American country, known for volcanic landscapes, Pacific beaches, and pupusas.',
   quickFacts: [
     { label: 'Capital', value: 'San Salvador' },

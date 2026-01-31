@@ -6,7 +6,7 @@ export const jordan: Country = {
   code: 'JO',
   continent: 'Asia',
   flag: '🇯🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1578895101408-1a36b834405b?w=800&q=80',
   description: 'Jordan is a Middle Eastern country known for the ancient city of Petra, desert landscapes, the Dead Sea, and warm hospitality.',
   quickFacts: [
     { label: 'Capital', value: 'Amman' },

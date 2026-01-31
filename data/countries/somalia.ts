@@ -6,7 +6,7 @@ export const somalia: Country = {
   code: 'SO',
   continent: 'Africa',
   flag: '🇸🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?w=800&q=80',
   description:
     'Somalia sits on the Horn of Africa with the longest coastline on the African continent. Known for its ancient trading history, nomadic culture, and rich oral poetry tradition.',
   quickFacts: [

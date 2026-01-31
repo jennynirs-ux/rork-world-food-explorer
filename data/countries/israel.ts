@@ -6,7 +6,7 @@ export const israel: Country = {
   code: 'IL',
   continent: 'Asia',
   flag: '🇮🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1552889762-908906041956?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1590944943172-6b79b75c8c30?w=800&q=80',
   description: 'Israel is a Middle Eastern country on the Mediterranean, known for religious significance, high-tech industry, and diverse culture.',
   quickFacts: [
     { label: 'Capital', value: 'Jerusalem (disputed)' },

@@ -6,7 +6,7 @@ export const latvia: Country = {
   code: 'LV',
   continent: 'Europe',
   flag: '🇱🇻',
-  landscapeImage: 'https://images.unsplash.com/photo-1559566076-a9f3e94eac0e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&q=80',
   description: 'Latvia is a Baltic country known for its stunning Art Nouveau architecture, pristine nature, rich folklore traditions, and beautiful coastline along the Baltic Sea. Riga, its capital, is a UNESCO World Heritage Site.',
   quickFacts: [
     { label: 'Capital', value: 'Riga' },

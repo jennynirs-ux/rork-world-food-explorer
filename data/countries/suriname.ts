@@ -6,7 +6,7 @@ export const suriname: Country = {
   code: 'SR',
   continent: 'South America',
   flag: '🇸🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1604335399105-4ec7b6d8f1f1?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1606224221964-3e0b4a2cf61f?w=800&q=80',
   description:
     'Suriname is a small South American country on the Atlantic coast, known for its vast rainforests, Dutch colonial heritage, and one of the most culturally diverse populations in the world.',
   quickFacts: [

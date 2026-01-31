@@ -6,7 +6,7 @@ export const kenya: Country = {
   code: 'KE',
   continent: 'Africa',
   flag: '🇰🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=800&q=80',
   description: 'Kenya is a country in East Africa with coastline on the Indian Ocean. It encompasses savannah, lakelands, the dramatic Great Rift Valley, and mountain highlands. It\'s also home to wildlife like lions, elephants and rhinos.',
   quickFacts: [
     { label: 'Capital', value: 'Nairobi' },

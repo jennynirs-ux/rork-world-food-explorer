@@ -6,7 +6,7 @@ export const laos: Country = {
   code: 'LA',
   continent: 'Asia',
   flag: '🇱🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=800&q=80',
   description: 'Laos is a landlocked country with French colonial architecture, Buddhist temples, and dramatic mountainous landscapes. Known for its laid-back atmosphere and natural beauty.',
   quickFacts: [
     { label: 'Capital', value: 'Vientiane' },

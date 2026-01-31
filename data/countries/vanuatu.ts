@@ -6,7 +6,7 @@ export const vanuatu: Country = {
   code: 'VU',
   continent: 'Oceania',
   flag: '🇻🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1583837860263-a00fc51f6d47?w=800&q=80',
   description:
     'Vanuatu is a Pacific island nation known for active volcanoes, world-class diving, the land diving tradition, and rich Melanesian culture.',
   quickFacts: [

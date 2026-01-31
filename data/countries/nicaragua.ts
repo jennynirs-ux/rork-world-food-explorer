@@ -6,7 +6,7 @@ export const nicaragua: Country = {
   code: 'NI',
   continent: 'North America',
   flag: '🇳🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1564082979121-85b2e787881f?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1580165513309-0baacd7e85e0?w=800&q=80',
   description: 'Nicaragua is the largest Central American country, known for dramatic Pacific and Caribbean coasts, volcanoes, and colonial cities.',
   quickFacts: [
     { label: 'Capital', value: 'Managua' },

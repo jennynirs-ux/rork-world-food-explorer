@@ -6,7 +6,7 @@ export const switzerland: Country = {
   code: 'CH',
   continent: 'Europe',
   flag: '🇨🇭',
-  landscapeImage: 'https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80',
   description:
     'Switzerland is a mountainous Central European country known for its stunning Alps, pristine lakes, charming villages, and world-famous chocolate and cheese. Home to numerous international organizations, it has maintained neutrality for centuries.',
   quickFacts: [

@@ -6,7 +6,7 @@ export const tonga: Country = {
   code: 'TO',
   continent: 'Oceania',
   flag: '🇹🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1589197331516-6c5d7f4f7f3c?w=800&q=80',
   description:
     'Tonga is a Polynesian kingdom in the South Pacific, known for whale watching, pristine beaches, strong cultural traditions, and being the only Pacific nation never formally colonized.',
 

@@ -6,7 +6,7 @@ export const vietnam: Country = {
   code: 'VN',
   continent: 'Asia',
   flag: '🇻🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1528127269322-539801943592?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=800&q=80',
   description:
     'Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas, and bustling cities. Rich history, world-famous cuisine, and dramatic landscapes define the nation.',
   quickFacts: [

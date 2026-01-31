@@ -6,7 +6,7 @@ export const maldives: Country = {
   code: 'MV',
   continent: 'Asia',
   flag: '🇲🇻',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=80',
   description: 'The Maldives is a tropical paradise of 1,190 coral islands, known for luxury resorts, crystal-clear waters, and marine biodiversity.',
   quickFacts: [
     { label: 'Capital', value: 'Malé' },

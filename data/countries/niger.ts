@@ -6,7 +6,7 @@ export const niger: Country = {
   code: 'NE',
   continent: 'Africa',
   flag: '🇳🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=800&q=80',
   description: 'Niger is a landlocked Saharan country in West Africa, known for ancient caravan routes, the Niger River, and diverse ethnic groups.',
   quickFacts: [
     { label: 'Capital', value: 'Niamey' },

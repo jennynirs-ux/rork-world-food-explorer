@@ -6,7 +6,7 @@ export const indonesia: Country = {
   code: 'ID',
   continent: 'Asia',
   flag: '🇮🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80',
   description: 'Indonesia is the world\'s largest archipelago with over 17,000 islands, diverse cultures, stunning beaches, ancient temples, and the largest Muslim population. It\'s a land of incredible natural beauty and cultural richness.',
   quickFacts: [
     { label: 'Capital', value: 'Jakarta' },

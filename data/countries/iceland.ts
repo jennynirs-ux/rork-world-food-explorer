@@ -6,7 +6,7 @@ export const iceland: Country = {
   code: 'IS',
   continent: 'Europe',
   flag: '🇮🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1504829857797-ddff29c27927?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=800&q=80',
   description: 'Iceland is a Nordic island nation known for its dramatic volcanic landscapes, geothermal hot springs, massive glaciers, and the stunning Northern Lights. Despite its name, Iceland has a mild climate and a vibrant cultural scene.',
   quickFacts: [
     { label: 'Capital', value: 'Reykjavík' },

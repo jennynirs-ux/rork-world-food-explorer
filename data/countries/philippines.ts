@@ -6,7 +6,7 @@ export const philippines: Country = {
   code: 'PH',
   continent: 'Asia',
   flag: '🇵🇭',
-  landscapeImage: 'https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1573790387438-4da905039392?w=800&q=80',
   description: 'The Philippines is an archipelago of over 7,000 islands with stunning beaches, vibrant culture, Spanish colonial heritage, and incredibly warm and hospitable people. It\'s a tropical paradise with a unique blend of Asian and Western influences.',
   quickFacts: [
     { label: 'Capital', value: 'Manila' },

@@ -6,7 +6,7 @@ export const argentina: Country = {
   code: 'AR',
   continent: 'South America',
   flag: '🇦🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=800&q=80',
   description: 'Argentina is a vast South American country with diverse landscapes from the Andes mountains to Patagonian glaciers. Known for tango, beef, wine, and passionate football culture.',
   quickFacts: [
     { label: 'Capital', value: 'Buenos Aires' },

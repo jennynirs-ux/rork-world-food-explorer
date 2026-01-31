@@ -6,7 +6,7 @@ export const panama: Country = {
   code: 'PA',
   continent: 'North America',
   flag: '🇵🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1564082979121-85b2e787881f?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1581104477881-3eb5f0a75cdc?w=800&q=80',
   description: 'Panama is a Central American country known for the Panama Canal, connecting the Atlantic and Pacific oceans, and diverse ecosystems.',
   quickFacts: [
     { label: 'Capital', value: 'Panama City' },

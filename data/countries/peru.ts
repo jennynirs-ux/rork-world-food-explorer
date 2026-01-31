@@ -6,7 +6,7 @@ export const peru: Country = {
   code: 'PE',
   continent: 'South America',
   flag: '🇵🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800&q=80',
   description: 'Peru is a country in South America that\'s home to a section of Amazon rainforest and Machu Picchu, an ancient Incan city high in the Andes mountains.',
   quickFacts: [
     { label: 'Capital', value: 'Lima' },

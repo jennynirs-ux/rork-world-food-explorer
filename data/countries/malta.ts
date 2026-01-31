@@ -6,7 +6,7 @@ export const malta: Country = {
   code: 'MT',
   continent: 'Europe',
   flag: '🇲🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1565867244968-b499c6f910b8?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1551600469-6dd74c37f44e?w=800&q=80',
   description: 'Malta is a small Mediterranean island nation with a rich history spanning thousands of years, stunning baroque architecture, crystal-clear waters, and a unique blend of European and North African influences.',
   quickFacts: [
     { label: 'Capital', value: 'Valletta' },

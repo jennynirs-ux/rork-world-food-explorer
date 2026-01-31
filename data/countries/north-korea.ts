@@ -6,7 +6,7 @@ export const northKorea: Country = {
   code: 'KP',
   continent: 'Asia',
   flag: '🇰🇵',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?w=800&q=80',
   description: 'North Korea is a secretive East Asian country known for its isolation, mountain landscapes, and unique political system.',
   quickFacts: [
     { label: 'Capital', value: 'Pyongyang' },

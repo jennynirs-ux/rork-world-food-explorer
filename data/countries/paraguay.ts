@@ -6,7 +6,7 @@ export const paraguay: Country = {
   code: 'PY',
   continent: 'South America',
   flag: '🇵🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=800&q=80',
   description: 'Paraguay is a landlocked country with a bilingual culture speaking both Spanish and Guaraní. Known for its yerba mate tradition, Jesuit missions, and warm hospitality.',
   quickFacts: [
     { label: 'Capital', value: 'Asunción' },

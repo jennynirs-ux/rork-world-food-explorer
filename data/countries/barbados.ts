@@ -6,7 +6,7 @@ export const barbados: Country = {
   code: 'BB',
   continent: 'North America',
   flag: '🇧🇧',
-  landscapeImage: 'https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1588675646184-fcd87f2c3b11?w=800&q=80',
   description: 'Barbados is an eastern Caribbean island known for beautiful beaches, British colonial heritage, and as the birthplace of rum.',
   quickFacts: [
     { label: 'Capital', value: 'Bridgetown' },

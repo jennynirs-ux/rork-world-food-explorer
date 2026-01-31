@@ -6,7 +6,7 @@ export const tanzania: Country = {
   code: 'TZ',
   continent: 'Africa',
   flag: '🇹🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1612171445874-7abf7f8d8c8b?w=800&q=80',
   description:
     'Tanzania is home to Mount Kilimanjaro, the Serengeti, and Zanzibar’s spice islands. A land of incredible wildlife, dramatic landscapes, and rich Swahili culture.',
   quickFacts: [

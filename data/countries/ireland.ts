@@ -6,7 +6,7 @@ export const ireland: Country = {
   code: 'IE',
   continent: 'Europe',
   flag: '🇮🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1529665730134-02d82a6d71a0?w=800&q=80',
   description: 'Ireland, the "Emerald Isle," is known for stunning landscapes, rich literary tradition, lively pub culture, and warm hospitality. From dramatic coastal cliffs to medieval castles, Ireland offers timeless beauty and vibrant culture.',
   quickFacts: [
     { label: 'Capital', value: 'Dublin' },

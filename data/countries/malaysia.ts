@@ -6,7 +6,7 @@ export const malaysia: Country = {
   code: 'MY',
   continent: 'Asia',
   flag: '🇲🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1508062878650-88b52897f298?w=800&q=80',
   description: 'Malaysia is a diverse Southeast Asian nation known for its multicultural society, pristine rainforests, beautiful beaches, modern cities, and incredible food scene blending Malay, Chinese, and Indian influences.',
   quickFacts: [
     { label: 'Capital', value: 'Kuala Lumpur' },

@@ -6,7 +6,7 @@ export const solomonIslands: Country = {
   code: 'SB',
   continent: 'Oceania',
   flag: '🇸🇧',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1544551763-77a785a7e01c?w=800&q=80',
   description:
     'The Solomon Islands is a Pacific nation of nearly 1,000 islands, known for lush rainforests, coral reefs, WWII history, and strong Melanesian traditions.',
   quickFacts: [

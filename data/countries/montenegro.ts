@@ -6,7 +6,7 @@ export const montenegro: Country = {
   code: 'ME',
   continent: 'Europe',
   flag: '🇲🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1600787561518-8ea1d4e16b7c?w=800&q=80',
   description: 'Montenegro is a Balkan country on the Adriatic coast, known for dramatic mountains, medieval villages, and stunning bay of Kotor.',
   quickFacts: [
     { label: 'Capital', value: 'Podgorica' },

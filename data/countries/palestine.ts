@@ -6,7 +6,7 @@ export const palestine: Country = {
   code: 'PS',
   continent: 'Asia',
   flag: '🇵🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1552889762-908906041956?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80',
   description: 'Palestine is a region in the Middle East with deep historical and religious significance, known for ancient cities and ongoing political complexity.',
   quickFacts: [
     { label: 'Capital', value: 'Ramallah (de facto)' },

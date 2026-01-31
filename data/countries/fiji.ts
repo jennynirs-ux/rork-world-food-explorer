@@ -6,7 +6,7 @@ export const fiji: Country = {
   code: 'FJ',
   continent: 'Oceania',
   flag: '🇫🇯',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1587897773780-08046b96e42e?w=800&q=80',
   description: 'Fiji is an island nation in the South Pacific known for pristine beaches, coral reefs, friendly locals, and the greeting "Bula!"',
   quickFacts: [
     { label: 'Capital', value: 'Suva' },

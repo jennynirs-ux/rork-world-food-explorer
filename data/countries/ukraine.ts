@@ -6,7 +6,7 @@ export const ukraine: Country = {
   code: 'UA',
   continent: 'Europe',
   flag: '🇺🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1565630916779-e303be97fbe8?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1565123209285-8910b7e4353b?w=800&q=80',
   description:
     "Ukraine is a large country in Eastern Europe known for its Orthodox churches, Black Sea coastline, and forested mountains. Its capital, Kyiv, features the gold-domed St. Sophia's Cathedral, with its stunning 11th-century mosaics and frescoes.",
   quickFacts: [

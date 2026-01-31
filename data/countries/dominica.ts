@@ -6,7 +6,7 @@ export const dominica: Country = {
   code: 'DM',
   continent: 'North America',
   flag: '🇩🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1544989164-fb88fbafbe7a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1606150498605-cace41df26a7?w=800&q=80',
   description: 'Dominica is the "Nature Island of the Caribbean," known for lush rainforests, hot springs, waterfalls, and the boiling lake.',
   quickFacts: [
     { label: 'Capital', value: 'Roseau' },

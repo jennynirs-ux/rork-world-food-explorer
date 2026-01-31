@@ -6,7 +6,7 @@ export const bosniaHerzegovina: Country = {
   code: 'BA',
   continent: 'Europe',
   flag: '🇧🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1591289009723-aef4eb4c4e47?w=800&q=80',
   description: 'Bosnia and Herzegovina is a country in the Balkans known for its medieval villages, diverse culture, and scenic mountains.',
   quickFacts: [
     { label: 'Capital', value: 'Sarajevo' },

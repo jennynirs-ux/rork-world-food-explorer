@@ -6,7 +6,7 @@ export const southKorea: Country = {
   code: 'KR',
   continent: 'Asia',
   flag: '🇰🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&q=80',
   description:
     'South Korea is a dynamic East Asian nation blending ancient traditions with cutting-edge technology. Known for K-pop, kimchi, bustling cities, and beautiful mountain temples.',
   quickFacts: [

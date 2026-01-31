@@ -6,7 +6,7 @@ export const palau: Country = {
   code: 'PW',
   continent: 'Oceania',
   flag: '🇵🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
   description: 'Palau is a Pacific island nation known for pristine diving, Jellyfish Lake, Rock Islands, and strong environmental protection.',
   quickFacts: [
     { label: 'Capital', value: 'Ngerulmud' },

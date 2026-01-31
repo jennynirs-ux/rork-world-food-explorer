@@ -6,7 +6,7 @@ export const norway: Country = {
   code: 'NO',
   continent: 'Europe',
   flag: '🇳🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80',
   description: 'Norway is famous for breathtaking fjords, Northern Lights, midnight sun, and Viking heritage. With stunning natural beauty and high quality of life, Norway offers a unique blend of outdoor adventure and modern Scandinavian culture.',
   quickFacts: [
     { label: 'Capital', value: 'Oslo' },

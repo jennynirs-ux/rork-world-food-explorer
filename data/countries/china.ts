@@ -6,7 +6,7 @@ export const china: Country = {
   code: 'CN',
   continent: 'Asia',
   flag: '🇨🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800&q=80',
   description: 'China, officially the People\'s Republic of China, is a vast East Asian country with diverse landscapes and one of the world\'s oldest civilizations, known for the Great Wall and rich cultural heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Beijing' },

@@ -6,7 +6,7 @@ export const albania: Country = {
   code: 'AL',
   continent: 'Europe',
   flag: '🇦🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1565630916779-e303be97fbe8?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1591194255768-97f1df39bbae?w=800&q=80',
   description:
     'Albania is a hidden gem on the Adriatic and Ionian coasts, offering stunning beaches, ancient ruins, and mountainous landscapes. Known for its warm hospitality, unique traditions, and rich history shaped by Illyrian roots, Roman influence, and centuries of Ottoman rule.',
   quickFacts: [

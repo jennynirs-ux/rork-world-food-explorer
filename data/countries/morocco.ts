@@ -6,7 +6,7 @@ export const morocco: Country = {
   code: 'MA',
   continent: 'Africa',
   flag: '🇲🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=800&q=80',
   description: 'Morocco is a North African country bordering the Atlantic Ocean and Mediterranean Sea. It\'s known for its Berber, Arabian and European cultural influences, bustling souks, and stunning architecture.',
   quickFacts: [
     { label: 'Capital', value: 'Rabat' },

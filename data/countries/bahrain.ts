@@ -6,7 +6,7 @@ export const bahrain: Country = {
   code: 'BH',
   continent: 'Asia',
   flag: '🇧🇭',
-  landscapeImage: 'https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1590320011151-88b21aac7bb7?w=800&q=80',
   description: 'Bahrain is an island nation in the Persian Gulf, known for modern architecture, pearl diving heritage, and the Formula 1 Grand Prix.',
   quickFacts: [
     { label: 'Capital', value: 'Manama' },

@@ -6,7 +6,7 @@ export const eastTimor: Country = {
   code: 'TL',
   continent: 'Asia',
   flag: '🇹🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1540202404-d0c7fe46a087?w=800&q=80',
   description: 'East Timor (Timor-Leste) is one of the world\'s youngest nations with Portuguese heritage and stunning mountain landscapes. A resilient country with rich coffee culture.',
   quickFacts: [
     { label: 'Capital', value: 'Dili' },

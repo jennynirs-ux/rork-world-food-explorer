@@ -6,7 +6,7 @@ export const liechtenstein: Country = {
   code: 'LI',
   continent: 'Europe',
   flag: '🇱🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1601841197690-6f0c3c0c9f0c?w=800&q=80',
   description: 'Liechtenstein is a tiny Alpine principality between Switzerland and Austria, known for medieval castles, mountain trails, and banking.',
   quickFacts: [
     { label: 'Capital', value: 'Vaduz' },

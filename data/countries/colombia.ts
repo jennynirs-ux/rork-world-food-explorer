@@ -6,7 +6,7 @@ export const colombia: Country = {
   code: 'CO',
   continent: 'South America',
   flag: '🇨🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1564769610726-59c8f99b5d7b?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?w=800&q=80',
   description: 'Colombia is a vibrant South American country known for its stunning biodiversity, coffee plantations, colorful colonial cities, and warm, welcoming people. From the Caribbean coast to the Amazon rainforest, it offers incredible natural and cultural diversity.',
   quickFacts: [
     { label: 'Capital', value: 'Bogotá' },

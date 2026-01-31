@@ -6,7 +6,7 @@ export const pakistan: Country = {
   code: 'PK',
   continent: 'Asia',
   flag: '🇵🇰',
-  landscapeImage: 'https://images.unsplash.com/photo-1583074866344-e3f21e55a440?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1598092116834-9c3df19fc9f9?w=800&q=80',
   description: 'Pakistan is a country of stunning natural beauty, from the towering peaks of the Karakoram and Himalayas to the Arabian Sea coast, with a rich cultural heritage spanning thousands of years.',
   quickFacts: [
     { label: 'Capital', value: 'Islamabad' },

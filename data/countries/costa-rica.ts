@@ -6,7 +6,7 @@ export const costaRica: Country = {
   code: 'CR',
   continent: 'North America',
   flag: '🇨🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1564407687096-3be6a43e7aab?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1503450668240-b4b6e8511d3e?w=800&q=80',
   description: 'Costa Rica is a tropical paradise in Central America known for its "Pura Vida" lifestyle, stunning biodiversity, pristine beaches, lush rainforests, and commitment to environmental conservation. It\'s a leader in eco-tourism and sustainability.',
   quickFacts: [
     { label: 'Capital', value: 'San José' },

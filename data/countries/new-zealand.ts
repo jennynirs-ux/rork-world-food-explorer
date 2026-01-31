@@ -6,7 +6,7 @@ export const newZealand: Country = {
   code: 'NZ',
   continent: 'Oceania',
   flag: '🇳🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=80',
   description:
     'New Zealand is a remote island nation known for dramatic landscapes, Maori culture, adventure sports, and being the filming location for Lord of the Rings. Clean, green, and spectacularly beautiful.',
   quickFacts: [

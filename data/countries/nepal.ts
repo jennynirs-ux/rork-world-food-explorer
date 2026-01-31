@@ -6,7 +6,7 @@ export const nepal: Country = {
   code: 'NP',
   continent: 'Asia',
   flag: '🇳🇵',
-  landscapeImage: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=80',
   description: 'Nepal is home to the world\'s highest mountains including Mount Everest, ancient temples, vibrant culture, and the birthplace of Buddha. It\'s a land of spiritual depth and natural beauty.',
   quickFacts: [
     { label: 'Capital', value: 'Kathmandu' },

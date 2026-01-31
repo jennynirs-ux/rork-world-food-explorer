@@ -6,7 +6,7 @@ export const luxembourg: Country = {
   code: 'LU',
   continent: 'Europe',
   flag: '🇱🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1585210992116-e1d0e8f3e5f6?w=800&q=80',
   description: 'Luxembourg is a small European country known for its medieval old town, EU institutions, multicultural population, and high living standards.',
   quickFacts: [
     { label: 'Capital', value: 'Luxembourg City' },

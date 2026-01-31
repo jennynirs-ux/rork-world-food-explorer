@@ -6,7 +6,7 @@ export const belgium: Country = {
   code: 'BE',
   continent: 'Europe',
   flag: '🇧🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1559564484-e48bb8e08122?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1559113202-c916b8e44373?w=800&q=80',
   description:
     'Belgium is a small European country famous for chocolate, beer, waffles, and medieval towns. Home to the EU headquarters in Brussels, Belgium uniquely blends French and Flemish cultures.',
   quickFacts: [

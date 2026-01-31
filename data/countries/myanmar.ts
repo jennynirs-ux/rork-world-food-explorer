@@ -6,7 +6,7 @@ export const myanmar: Country = {
   code: 'MM',
   continent: 'Asia',
   flag: '🇲🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1528181304800-259b08848526?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1551634979-1d8b69bfe73f?w=800&q=80',
   description: 'Myanmar (Burma) is home to thousands of golden pagodas, ancient temples, and diverse ethnic groups. A land of stunning Buddhist heritage and natural beauty.',
   quickFacts: [
     { label: 'Capital', value: 'Naypyidaw' },

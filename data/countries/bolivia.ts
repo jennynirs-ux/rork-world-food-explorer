@@ -6,7 +6,7 @@ export const bolivia: Country = {
   code: 'BO',
   continent: 'South America',
   flag: '🇧🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1558799401-1dcba79834c2?w=800&q=80',
   description: 'Bolivia is a landlocked country in South America known for its stunning landscapes, from the otherworldly Uyuni Salt Flats to the heights of the Andes. It has a rich indigenous heritage and is one of the most biodiverse countries in the world.',
   quickFacts: [
     { label: 'Capital', value: 'Sucre (constitutional), La Paz (administrative)' },

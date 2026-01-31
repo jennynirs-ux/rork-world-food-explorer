@@ -6,7 +6,7 @@ export const austria: Country = {
   code: 'AT',
   continent: 'Europe',
   flag: '🇦🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1519017731795-bda56c7355bf?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&q=80',
   description: 'Austria is a landlocked country in Central Europe known for its mountain villages, baroque architecture, Imperial history, and rugged Alpine terrain. Vienna, its capital, is home to grand palaces and a rich musical heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Vienna' },

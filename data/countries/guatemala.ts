@@ -6,7 +6,7 @@ export const guatemala: Country = {
   code: 'GT',
   continent: 'North America',
   flag: '🇬🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1564082979121-85b2e787881f?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1554960750-9e4e2d43f99a?w=800&q=80',
   description: 'Guatemala is a Central American country with Mayan heritage, volcanic landscapes, colonial cities, and vibrant indigenous culture.',
   quickFacts: [
     { label: 'Capital', value: 'Guatemala City' },

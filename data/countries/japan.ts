@@ -6,7 +6,7 @@ export const japan: Country = {
   code: 'JP',
   continent: 'Asia',
   flag: '🇯🇵',
-  landscapeImage: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=800&q=80',
   description: 'Japan is an island nation in East Asia known for its unique blend of ancient traditions and cutting-edge technology. From cherry blossoms to bullet trains, it offers a fascinating cultural experience.',
   quickFacts: [
     { label: 'Capital', value: 'Tokyo' },

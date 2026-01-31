@@ -6,7 +6,7 @@ export const nigeria: Country = {
   code: 'NG',
   continent: 'Africa',
   flag: '🇳🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1632587866343-5ea40678e13c?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1608483086010-e9b46c2a0e2b?w=800&q=80',
   description: 'Nigeria is Africa\'s most populous country and largest economy, known for its diverse cultures, vibrant music scene (especially Afrobeats), and Nollywood film industry. Home to over 250 ethnic groups, Nigeria is a cultural powerhouse.',
   quickFacts: [
     { label: 'Capital', value: 'Abuja' },

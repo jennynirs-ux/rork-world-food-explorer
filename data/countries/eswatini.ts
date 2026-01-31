@@ -6,7 +6,7 @@ export const eswatini: Country = {
   code: 'SZ',
   continent: 'Africa',
   flag: '🇸🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1591191564326-59e2ce4a49f5?w=800&q=80',
   description: 'Eswatini (formerly Swaziland) is a small, landlocked kingdom in Southern Africa known for its wildlife reserves, cultural festivals, and traditional ceremonies.',
   quickFacts: [
     { label: 'Capital', value: 'Mbabane (administrative), Lobamba (royal)' },

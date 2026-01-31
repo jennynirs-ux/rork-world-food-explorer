@@ -6,7 +6,7 @@ export const unitedStates: Country = {
   code: 'US',
   continent: 'North America',
   flag: '🇺🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1485738422979-f5c462d49f74?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80',
   description:
     'The United States is a vast country stretching across North America with diverse landscapes, cultures, and cities. Known for innovation, entertainment, and the American Dream.',
   quickFacts: [

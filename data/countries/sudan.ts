@@ -6,7 +6,7 @@ export const sudan: Country = {
   code: 'SD',
   continent: 'Africa',
   flag: '🇸🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1609439547168-c973842210e1?w=800&q=80',
   description:
     'Sudan is home to more pyramids than Egypt, ancient Nubian kingdoms, and where the Blue and White Nile rivers meet. A land of rich archaeological heritage and diverse cultures.',
   quickFacts: [

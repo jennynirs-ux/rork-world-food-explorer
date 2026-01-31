@@ -6,7 +6,7 @@ export const india: Country = {
   code: 'IN',
   continent: 'Asia',
   flag: '🇮🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1524230507669-66a6e6c6f32e?w=800&q=80',
   description: 'India is a vast South Asian country with diverse terrain, from Himalayan peaks to Indian Ocean coastline. Known for its rich history, spiritual traditions, colorful festivals, and aromatic cuisine.',
   quickFacts: [
     { label: 'Capital', value: 'New Delhi' },

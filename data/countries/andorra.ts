@@ -6,7 +6,7 @@ export const andorra: Country = {
   code: 'AD',
   continent: 'Europe',
   flag: '🇦🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1580674684081-7617fbf5d745?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1609820006052-e0c7e4a06e6e?w=800&q=80',
   description:
     'Andorra is a tiny, independent principality nestled between France and Spain in the Pyrenees mountains. Known for ski resorts and tax-haven status.',
   quickFacts: [

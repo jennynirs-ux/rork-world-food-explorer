@@ -6,7 +6,7 @@ export const guineaBissau: Country = {
   code: 'GW',
   continent: 'Africa',
   flag: '🇬🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1571627665157-97c7efeb6c89?w=800&q=80',
   description: 'Guinea-Bissau is a small West African country known for its tropical forests, Atlantic coastline, and the Bijagós Archipelago.',
   quickFacts: [
     { label: 'Capital', value: 'Bissau' },

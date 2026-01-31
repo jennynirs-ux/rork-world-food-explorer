@@ -6,7 +6,7 @@ export const madagascar: Country = {
   code: 'MG',
   continent: 'Africa',
   flag: '🇲🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1600077106724-946750eeaf8c?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1595436208082-5e86ab37111e?w=800&q=80',
   description: 'Madagascar is a unique island nation with wildlife and plants found nowhere else on Earth. From lemurs to baobabs, it\'s a biodiversity hotspot with stunning landscapes.',
   quickFacts: [
     { label: 'Capital', value: 'Antananarivo' },

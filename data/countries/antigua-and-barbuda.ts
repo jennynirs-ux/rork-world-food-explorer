@@ -6,7 +6,7 @@ export const antiguaAndBarbuda: Country = {
   code: 'AG',
   continent: 'North America',
   flag: '🇦🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1606146364533-49c1b4e5cc8e?w=800&q=80',
   description: 'Antigua and Barbuda is a twin-island nation in the Caribbean, known for 365 beaches, British colonial heritage, and vibrant carnival celebrations.',
   quickFacts: [
     { label: 'Capital', value: 'St. John\'s' },

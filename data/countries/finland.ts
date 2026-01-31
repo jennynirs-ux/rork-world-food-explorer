@@ -6,7 +6,7 @@ export const finland: Country = {
   code: 'FI',
   continent: 'Europe',
   flag: '🇫🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1517639493569-5666a7b2f494?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80',
   description: 'Finland is a Nordic country known for its stunning natural landscapes, thousands of lakes, the Northern Lights, and exceptional quality of life. From saunas to design, education to nature, Finland represents a harmonious blend of modernity and tradition.',
   quickFacts: [
     { label: 'Capital', value: 'Helsinki' },

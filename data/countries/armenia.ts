@@ -6,7 +6,7 @@ export const armenia: Country = {
   code: 'AM',
   continent: 'Asia',
   flag: '🇦🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1605527610172-27301f34a697?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&q=80',
   description: 'Armenia is one of the world\'s oldest civilizations and the first nation to adopt Christianity as a state religion. Known for ancient monasteries, Mount Ararat views, and rich cultural heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Yerevan' },

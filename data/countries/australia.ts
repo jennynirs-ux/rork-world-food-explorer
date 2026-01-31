@@ -6,7 +6,7 @@ export const australia: Country = {
   code: 'AU',
   continent: 'Oceania',
   flag: '🇦🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800&q=80',
   description: 'Australia is the world\'s largest island and smallest continent, known for unique wildlife, stunning beaches, the Outback, and vibrant cities. A land of natural wonders from the Great Barrier Reef to Uluru.',
   quickFacts: [
     { label: 'Capital', value: 'Canberra' },

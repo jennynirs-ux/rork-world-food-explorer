@@ -6,7 +6,7 @@ export const zambia: Country = {
   code: 'ZM',
   continent: 'Africa',
   flag: '🇿🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800&q=80',
   description:
     'Zambia is a landlocked country in Southern Africa, famous for Victoria Falls, vast wilderness areas, and authentic safari experiences. It is known for its peaceful people and strong cultural traditions.',
   quickFacts: [

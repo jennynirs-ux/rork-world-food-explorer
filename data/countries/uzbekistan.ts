@@ -6,7 +6,7 @@ export const uzbekistan: Country = {
   code: 'UZ',
   continent: 'Asia',
   flag: '🇺🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&q=80',
   description:
     'Uzbekistan is a Central Asian country on the ancient Silk Road, known for stunning Islamic architecture, vibrant bazaars, and historic cities like Samarkand, Bukhara, and Khiva.',
   quickFacts: [

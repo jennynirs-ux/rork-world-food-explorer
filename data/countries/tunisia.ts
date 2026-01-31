@@ -6,7 +6,7 @@ export const tunisia: Country = {
   code: 'TN',
   continent: 'Africa',
   flag: '🇹🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1583328002748-3c4c3c803fdd?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1564769610726-dada876d4d74?w=800&q=80',
   description:
     'Tunisia is a North African country combining Arab and Berber cultures with Mediterranean influences. Known for ancient ruins, beautiful beaches, and diverse landscapes from the Sahara to the coast.',
 

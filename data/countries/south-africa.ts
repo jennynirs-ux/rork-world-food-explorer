@@ -6,7 +6,7 @@ export const southAfrica: Country = {
   code: 'ZA',
   continent: 'Africa',
   flag: '🇿🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1484318571209-661cf29a69c3?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1484318571209-661cf29a69c3?w=800&q=80',
   description:
     'South Africa is known for its diverse cultures, wildlife, and dramatic landscapes ranging from mountains and coastlines to vast savannas. Often called the "Rainbow Nation," it has 11 official languages and remarkable biodiversity.',
   quickFacts: [

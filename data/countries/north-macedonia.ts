@@ -6,7 +6,7 @@ export const northMacedonia: Country = {
   code: 'MK',
   continent: 'Europe',
   flag: '🇲🇰',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1605358260241-0d565d6c2a5d?w=800&q=80',
   description: 'North Macedonia is a Balkan country known for Lake Ohrid, ancient history, and diverse cultural heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Skopje' },

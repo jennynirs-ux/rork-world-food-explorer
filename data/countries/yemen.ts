@@ -6,7 +6,7 @@ export const yemen: Country = {
   code: 'YE',
   continent: 'Asia',
   flag: '🇾🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1584646098378-0874589d76b1?w=800&q=80',
   description:
     'Yemen is an ancient country on the southern Arabian Peninsula, known for its historic cities, coffee heritage, and dramatic landscapes ranging from mountains and deserts to tropical islands.',
   quickFacts: [

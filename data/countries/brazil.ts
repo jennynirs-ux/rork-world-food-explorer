@@ -6,7 +6,7 @@ export const brazil: Country = {
   code: 'BR',
   continent: 'South America',
   flag: '🇧🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80',
   description: 'Brazil is the largest country in South America, famous for the Amazon rainforest, Carnival celebrations, football, and its vibrant, diverse culture. Home to stunning beaches, waterfalls, and the rhythm of samba.',
   quickFacts: [
     { label: 'Capital', value: 'Brasília' },

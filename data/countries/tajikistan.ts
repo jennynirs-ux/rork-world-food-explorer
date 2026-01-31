@@ -6,7 +6,7 @@ export const tajikistan: Country = {
   code: 'TJ',
   continent: 'Asia',
   flag: '🇹🇯',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1600693026104-81d9b3e6c6f3?w=800&q=80',
   description:
     'Tajikistan is a mountainous Central Asian country, often called the "Roof of the World", known for the Pamir Mountains, dramatic landscapes, and rich Silk Road heritage.',
   quickFacts: [

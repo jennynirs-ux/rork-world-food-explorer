@@ -6,7 +6,7 @@ export const canada: Country = {
   code: 'CA',
   continent: 'North America',
   flag: '🇨🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&q=80',
   description: 'Canada is the second-largest country in the world, known for stunning natural beauty, multiculturalism, politeness, and maple syrup. From mountains to coastlines to vast forests.',
   quickFacts: [
     { label: 'Capital', value: 'Ottawa' },

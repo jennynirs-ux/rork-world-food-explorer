@@ -6,7 +6,7 @@ export const slovenia: Country = {
   code: 'SI',
   continent: 'Europe',
   flag: '🇸🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1557456170-0cf4f4d0d362?w=800&q=80',
   description:
     'Slovenia is a small but stunning country in Central Europe, known for its mountains, ski resorts, and lakes. Despite its small size, it offers incredible natural diversity from the Alps to the Mediterranean coast.',
   quickFacts: [

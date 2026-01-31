@@ -6,7 +6,7 @@ export const lebanon: Country = {
   code: 'LB',
   continent: 'Asia',
   flag: '🇱🇧',
-  landscapeImage: 'https://images.unsplash.com/photo-1580922695440-8d2db2930145?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=800&q=80',
   description: 'Lebanon is a small Mediterranean country with a rich history dating back thousands of years. Known for ancient Phoenician heritage, diverse culture, and world-renowned cuisine, Lebanon is often called the "Paris of the Middle East."',
   quickFacts: [
     { label: 'Capital', value: 'Beirut' },

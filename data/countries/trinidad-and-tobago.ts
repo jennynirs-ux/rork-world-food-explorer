@@ -6,7 +6,7 @@ export const trinidadAndTobago: Country = {
   code: 'TT',
   continent: 'North America',
   flag: '🇹🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1544989164-fb88fbafbe7a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1633788278944-8b9e6c4c1e1d?w=800&q=80',
   description:
     'Trinidad and Tobago is a twin-island Caribbean nation known for Carnival, steel pan music, diverse culture, and rich natural beauty.',
 

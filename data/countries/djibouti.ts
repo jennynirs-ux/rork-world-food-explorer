@@ -6,7 +6,7 @@ export const djibouti: Country = {
   code: 'DJ',
   continent: 'Africa',
   flag: '🇩🇯',
-  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1608544671341-ba5afaff8653?w=800&q=80',
   description: 'Djibouti is a small country on the Horn of Africa, known for its strategic location on the Red Sea, volcanic landscapes, and Lake Assal.',
   quickFacts: [
     { label: 'Capital', value: 'Djibouti City' },

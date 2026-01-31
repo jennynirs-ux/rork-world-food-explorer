@@ -6,7 +6,7 @@ export const botswana: Country = {
   code: 'BW',
   continent: 'Africa',
   flag: '🇧🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
   description: 'Botswana is renowned for the Okavango Delta, abundant wildlife, and successful conservation efforts. A stable democracy with stunning natural landscapes and rich biodiversity.',
   quickFacts: [
     { label: 'Capital', value: 'Gaborone' },

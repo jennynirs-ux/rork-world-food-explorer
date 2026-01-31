@@ -6,7 +6,7 @@ export const comoros: Country = {
   code: 'KM',
   continent: 'Africa',
   flag: '🇰🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1574001106297-5cc5686a5c15?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&q=80',
   description: 'Comoros is a volcanic archipelago off Africa\'s east coast, known as the "Perfume Islands" for its ylang-ylang, vanilla, and clove production.',
   quickFacts: [
     { label: 'Capital', value: 'Moroni' },

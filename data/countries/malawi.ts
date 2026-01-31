@@ -6,7 +6,7 @@ export const malawi: Country = {
   code: 'MW',
   continent: 'Africa',
   flag: '🇲🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1621268329997-1b8c4f4d3e3f?w=800&q=80',
   description: 'Malawi, the "Warm Heart of Africa," is known for Lake Malawi, friendly people, and stunning landscapes. A peaceful country with incredible freshwater diving and diverse wildlife.',
   quickFacts: [
     { label: 'Capital', value: 'Lilongwe' },

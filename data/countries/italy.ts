@@ -6,7 +6,7 @@ export const italy: Country = {
   code: 'IT',
   continent: 'Europe',
   flag: '🇮🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80',
   description: 'Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins.',
   quickFacts: [
     { label: 'Capital', value: 'Rome' },

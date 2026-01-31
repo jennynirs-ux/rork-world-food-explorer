@@ -6,7 +6,7 @@ export const lithuania: Country = {
   code: 'LT',
   continent: 'Europe',
   flag: '🇱🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1560363834-e8b5c5f6d3c2?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1601823984263-b55a23f3b26f?w=800&q=80',
   description: 'Lithuania is the largest and most populous of the Baltic States, known for its medieval architecture, stunning nature, rich history, and vibrant culture. It was the first Soviet republic to declare independence.',
   quickFacts: [
     { label: 'Capital', value: 'Vilnius' },

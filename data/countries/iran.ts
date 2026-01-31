@@ -6,7 +6,7 @@ export const iran: Country = {
   code: 'IR',
   continent: 'Asia',
   flag: '🇮🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1567873517733-05900cff2def?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1598536992720-5ddb8ff0f066?w=800&q=80',
   description: 'Iran, formerly known as Persia, is home to one of the world\'s oldest continuous civilizations. With stunning architecture, rich poetry tradition, and diverse landscapes from deserts to snow-capped mountains, Iran offers a unique cultural experience.',
   quickFacts: [
     { label: 'Capital', value: 'Tehran' },

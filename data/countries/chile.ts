@@ -6,7 +6,7 @@ export const chile: Country = {
   code: 'CL',
   continent: 'South America',
   flag: '🇨🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80',
   description: 'Chile is a long, narrow country stretching along South America\'s western edge, offering incredibly diverse landscapes from the driest desert in the world to glaciers, fjords, and wine valleys. It\'s known for its natural beauty, wines, and vibrant culture.',
   quickFacts: [
     { label: 'Capital', value: 'Santiago' },

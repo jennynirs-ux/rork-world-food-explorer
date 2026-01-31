@@ -6,7 +6,7 @@ export const angola: Country = {
   code: 'AO',
   continent: 'Africa',
   flag: '🇦🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1568632234200-5b0a8f1ac4e8?w=800&q=80',
   description:
     'Angola is a large and diverse country in southern Africa, stretching from Atlantic beaches to savannas and rainforests. It combines deep indigenous traditions with Portuguese colonial heritage and is known for music, dance, and rich natural resources.',
   quickFacts: [

@@ -6,7 +6,7 @@ export const dominicanRepublic: Country = {
   code: 'DO',
   continent: 'North America',
   flag: '🇩🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1544989164-fb88fbafbe7a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1606146719364-de79f6cb4f58?w=800&q=80',
   description: 'The Dominican Republic shares Hispaniola island with Haiti, known for beautiful beaches, merengue music, baseball, and colonial history.',
   quickFacts: [
     { label: 'Capital', value: 'Santo Domingo' },

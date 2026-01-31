@@ -6,7 +6,7 @@ export const france: Country = {
   code: 'FR',
   continent: 'Europe',
   flag: '🇫🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80',
   description: 'France is a country of fine arts, fine wines, and fine cuisine. From the romance of Paris to the beaches of the Riviera, it offers unparalleled culture, history, and gastronomy.',
   quickFacts: [
     { label: 'Capital', value: 'Paris' },

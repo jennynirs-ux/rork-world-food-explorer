@@ -6,7 +6,7 @@ export const bulgaria: Country = {
   code: 'BG',
   continent: 'Europe',
   flag: '🇧🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1565025313876-b86c5f31e3b9?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1609137237950-e436e9c3f495?w=800&q=80',
   description: 'Bulgaria is a Balkan nation with diverse terrain encompassing Black Sea coastline, mountains, and rivers. Known for its rich history spanning from ancient Thracian ruins to Ottoman mosques, Bulgaria offers a unique blend of Eastern and Western cultures.',
   quickFacts: [
     { label: 'Capital', value: 'Sofia' },

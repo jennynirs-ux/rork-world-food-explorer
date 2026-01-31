@@ -6,7 +6,7 @@ export const mexico: Country = {
   code: 'MX',
   continent: 'North America',
   flag: '🇲🇽',
-  landscapeImage: 'https://images.unsplash.com/photo-1518638150340-f706e86654de?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1518638150340-f706e86654de?w=800&q=80',
   description: 'Mexico is a country rich in ancient civilizations, vibrant culture, and diverse landscapes from beaches to mountains. Known for its flavorful cuisine, colorful traditions, and warm hospitality.',
   quickFacts: [
     { label: 'Capital', value: 'Mexico City' },

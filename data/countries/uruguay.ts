@@ -6,7 +6,7 @@ export const uruguay: Country = {
   code: 'UY',
   continent: 'South America',
   flag: '🇺🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1568878538025-f85c48d7a51b?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1569163139394-de4798aa62b6?w=800&q=80',
   description:
     "Uruguay is South America's second-smallest nation with beautiful beaches, progressive policies, and a strong gaucho culture. Known for its stability and high quality of life.",
   quickFacts: [

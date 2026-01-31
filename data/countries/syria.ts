@@ -6,7 +6,7 @@ export const syria: Country = {
   code: 'SY',
   continent: 'Asia',
   flag: '🇸🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1578421170262-7c50d8f1f68b?w=800&q=80',
   description:
     'Syria is an ancient Middle Eastern country with a rich history dating back millennia, known for Damascus, Aleppo, and diverse cultural heritage.',
   quickFacts: [

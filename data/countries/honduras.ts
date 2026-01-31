@@ -6,7 +6,7 @@ export const honduras: Country = {
   code: 'HN',
   continent: 'North America',
   flag: '🇭🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1564082979121-85b2e787881f?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80',
   description: 'Honduras is a Central American country known for Mayan ruins, Caribbean beaches, diving in the Bay Islands, and coffee production.',
   quickFacts: [
     { label: 'Capital', value: 'Tegucigalpa' },

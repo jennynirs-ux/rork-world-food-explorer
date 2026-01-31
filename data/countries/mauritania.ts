@@ -6,7 +6,7 @@ export const mauritania: Country = {
   code: 'MR',
   continent: 'Africa',
   flag: '🇲🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1591645264158-bff8c01b8d37?w=800&q=80',
   description: 'Mauritania is a vast Saharan country in Northwest Africa, known for ancient caravan routes, desert landscapes, and nomadic culture.',
   quickFacts: [
     { label: 'Capital', value: 'Nouakchott' },

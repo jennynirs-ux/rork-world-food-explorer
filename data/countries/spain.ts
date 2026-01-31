@@ -6,7 +6,7 @@ export const spain: Country = {
   code: 'ES',
   continent: 'Europe',
   flag: '🇪🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80',
   description:
     'Spain is a vibrant country known for flamenco dancing, bullfighting, and siesta culture. With diverse regions from the beaches of Costa del Sol to the mountains of the Pyrenees, Spain offers rich history and passionate living.',
   quickFacts: [

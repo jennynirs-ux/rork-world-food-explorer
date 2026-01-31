@@ -6,7 +6,7 @@ export const denmark: Country = {
   code: 'DK',
   continent: 'Europe',
   flag: '🇩🇰',
-  landscapeImage: 'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1513622790541-eaa84d356909?w=800&q=80',
   description: 'Denmark, the happiest country in the world, is known for hygge culture, fairy tales, design, and cycling. With charming medieval towns, modern architecture, and a high quality of life, Denmark offers a perfect blend of old and new.',
   quickFacts: [
     { label: 'Capital', value: 'Copenhagen' },

@@ -6,7 +6,7 @@ export const saintLucia: Country = {
   code: 'LC',
   continent: 'North America',
   flag: '🇱🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1544989164-fb88fbafbe7a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=800&q=80',
   description:
     'Saint Lucia is a Caribbean island known for the iconic Pitons, volcanic landscapes, lush rainforests, and a vibrant Creole culture. It is famous for scenic drives, warm hospitality, and a mix of French and British colonial heritage.',
   quickFacts: [

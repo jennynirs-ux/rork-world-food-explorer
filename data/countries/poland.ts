@@ -6,7 +6,7 @@ export const poland: Country = {
   code: 'PL',
   continent: 'Europe',
   flag: '🇵🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1613357199305-1daa64ec1fdb?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?w=800&q=80',
   description: 'Poland is a Central European country with a rich and turbulent history. From medieval castles to vibrant modern cities, Poland offers stunning architecture, hearty cuisine, and resilient culture that has survived centuries of challenges.',
   quickFacts: [
     { label: 'Capital', value: 'Warsaw' },

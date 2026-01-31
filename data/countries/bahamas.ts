@@ -6,7 +6,7 @@ export const bahamas: Country = {
   code: 'BS',
   continent: 'North America',
   flag: '🇧🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
   description: 'The Bahamas is an archipelago of over 700 islands in the Atlantic Ocean, known for its crystal-clear turquoise waters, white sandy beaches, and vibrant marine life. It\'s a paradise for beach lovers and water sports enthusiasts.',
   quickFacts: [
     { label: 'Capital', value: 'Nassau' },

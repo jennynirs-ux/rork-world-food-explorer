@@ -6,7 +6,7 @@ export const saintKittsAndNevis: Country = {
   code: 'KN',
   continent: 'North America',
   flag: '🇰🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1544989164-fb88fbafbe7a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=800&q=80',
   description:
     'Saint Kitts and Nevis is a dual-island Caribbean nation known for lush volcanic peaks, beaches, and colonial-era forts. The islands blend Creole culture, rainforest hikes, and a relaxed seaside rhythm.',
   quickFacts: [

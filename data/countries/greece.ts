@@ -6,7 +6,7 @@ export const greece: Country = {
   code: 'GR',
   continent: 'Europe',
   flag: '🇬🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1498712964741-5d33ab9e5017?w=800&q=80',
   description: 'Greece is the cradle of Western civilization, birthplace of democracy, philosophy, and the Olympic Games. With stunning islands, ancient ruins, and Mediterranean cuisine, it offers timeless beauty.',
   quickFacts: [
     { label: 'Capital', value: 'Athens' },

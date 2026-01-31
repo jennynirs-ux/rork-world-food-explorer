@@ -6,7 +6,7 @@ export const ethiopia: Country = {
   code: 'ET',
   continent: 'Africa',
   flag: '🇪🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=800&q=80',
   description: 'Ethiopia is one of the oldest nations in the world, with a unique cultural heritage. Known as the birthplace of coffee, Ethiopia has never been colonized and maintains ancient Christian traditions.',
   quickFacts: [
     { label: 'Capital', value: 'Addis Ababa' },

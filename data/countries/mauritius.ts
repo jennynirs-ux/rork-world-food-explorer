@@ -6,7 +6,7 @@ export const mauritius: Country = {
   code: 'MU',
   continent: 'Africa',
   flag: '🇲🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1574001106297-5cc5686a5c15?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1548841486-36e8b9db1024?w=800&q=80',
   description: 'Mauritius is a tropical paradise with turquoise waters, white sandy beaches, and a multicultural society. Known for luxury resorts, diverse culture, and stunning natural beauty.',
   quickFacts: [
     { label: 'Capital', value: 'Port Louis' },

@@ -6,7 +6,7 @@ export const sriLanka: Country = {
   code: 'LK',
   continent: 'Asia',
   flag: '🇱🇰',
-  landscapeImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80',
   description:
     'Sri Lanka is a tropical island nation known as the "Pearl of the Indian Ocean", famous for its tea plantations, ancient Buddhist sites, stunning beaches, and incredible wildlife.',
   quickFacts: [

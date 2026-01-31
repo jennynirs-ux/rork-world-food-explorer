@@ -6,7 +6,7 @@ export const monaco: Country = {
   code: 'MC',
   continent: 'Europe',
   flag: '🇲🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800&q=80',
   description: 'Monaco is a tiny city-state on the French Riviera, known for luxury, casinos, the Grand Prix, and being a billionaire\'s playground.',
   quickFacts: [
     { label: 'Capital', value: 'Monaco' },

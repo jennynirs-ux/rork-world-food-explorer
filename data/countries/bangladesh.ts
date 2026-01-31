@@ -6,7 +6,7 @@ export const bangladesh: Country = {
   code: 'BD',
   continent: 'Asia',
   flag: '🇧🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1564341352-8d62ff7b4f8a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1553525033-1b6f8c04f5ec?w=800&q=80',
   description: 'Bangladesh is a South Asian country known for its lush greenery, mighty rivers, vibrant culture, and warm hospitality. Home to the world\'s longest natural sea beach and the largest mangrove forest, it offers rich biodiversity and cultural heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Dhaka' },

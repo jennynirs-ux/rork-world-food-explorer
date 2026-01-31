@@ -6,7 +6,7 @@ export const lesotho: Country = {
   code: 'LS',
   continent: 'Africa',
   flag: '🇱🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1607234279747-12f3d4ca3c2e?w=800&q=80',
   description: 'Lesotho is an enclaved country entirely surrounded by South Africa, known as the "Kingdom in the Sky" for its high altitude.',
   quickFacts: [
     { label: 'Capital', value: 'Maseru' },

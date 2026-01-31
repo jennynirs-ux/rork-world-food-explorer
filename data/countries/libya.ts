@@ -6,7 +6,7 @@ export const libya: Country = {
   code: 'LY',
   continent: 'Africa',
   flag: '🇱🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1575548752054-e3d94c9f2772?w=800&q=80',
   description: 'Libya is a North African country with ancient Greek and Roman ruins along the Mediterranean coast and vast Sahara Desert landscapes. Rich in history and natural resources.',
   quickFacts: [
     { label: 'Capital', value: 'Tripoli' },

@@ -6,7 +6,7 @@ export const kazakhstan: Country = {
   code: 'KZ',
   continent: 'Asia',
   flag: '🇰🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1583252904618-0c5e5aa5a808?w=800&q=80',
   description: 'Kazakhstan is the world\'s largest landlocked country, known for vast steppes, space program heritage, and nomadic traditions.',
   quickFacts: [
     { label: 'Capital', value: 'Astana' },

@@ -6,7 +6,7 @@ export const burundi: Country = {
   code: 'BI',
   continent: 'Africa',
   flag: '🇧🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1609197642428-c6e5a18a2e42?w=800&q=80',
   description: 'Burundi is a small East African country known for its mountainous terrain, Lake Tanganyika shoreline, and traditional drumming culture.',
   quickFacts: [
     { label: 'Capital', value: 'Gitega' },

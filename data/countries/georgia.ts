@@ -6,7 +6,7 @@ export const georgia: Country = {
   code: 'GE',
   continent: 'Europe',
   flag: '🇬🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1563455027-c5799b2c2839?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1607968565043-36af90dde238?w=800&q=80',
   description: 'Georgia is a country at the crossroads of Europe and Asia, known for its ancient wine culture, stunning mountains, and warm hospitality.',
   quickFacts: [
     { label: 'Capital', value: 'Tbilisi' },

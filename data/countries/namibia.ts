@@ -6,7 +6,7 @@ export const namibia: Country = {
   code: 'NA',
   continent: 'Africa',
   flag: '🇳🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1650214736116-fef8ed168a6e?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1516898427220-29aaed55f93e?w=800&q=80',
   description: 'Namibia features the world\'s oldest desert, dramatic landscapes, and diverse wildlife. A land of endless horizons, towering sand dunes, and star-filled skies.',
   quickFacts: [
     { label: 'Capital', value: 'Windhoek' },

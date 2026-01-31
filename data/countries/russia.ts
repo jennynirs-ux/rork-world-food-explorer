@@ -6,7 +6,7 @@ export const russia: Country = {
   code: 'RU',
   continent: 'Europe/Asia',
   flag: '🇷🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1523293182945-7b4c51d5aa63?w=800&q=80',
   description: 'Russia is the world\'s largest country, spanning eleven time zones and encompassing a vast array of landscapes and cultures. From the historic cities of Moscow and St. Petersburg to the wilderness of Siberia, Russia offers incredible diversity.',
   quickFacts: [
     { label: 'Capital', value: 'Moscow' },

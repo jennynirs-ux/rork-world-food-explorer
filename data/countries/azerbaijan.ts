@@ -6,7 +6,7 @@ export const azerbaijan: Country = {
   code: 'AZ',
   continent: 'Asia',
   flag: '🇦🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1573625256494-d14f97f5f89c?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1571418943669-00d6a3af9531?w=800&q=80',
   description: 'Azerbaijan is a nation in the South Caucasus region, situated at the crossroads of Southwest Asia and Southeastern Europe. Known as the "Land of Fire" due to its natural gas fires, it blends ancient history with modern architecture in its capital, Baku.',
   quickFacts: [
     { label: 'Capital', value: 'Baku' },

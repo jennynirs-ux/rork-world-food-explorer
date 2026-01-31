@@ -6,7 +6,7 @@ export const czechRepublic: Country = {
   code: 'CZ',
   continent: 'Europe',
   flag: '🇨🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1541849546-216549ae216d?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1541849546-216549ae216d?w=800&q=80',
   description: 'The Czech Republic, also known as Czechia, is a Central European country famous for its stunning medieval castles, historic Prague, world-renowned beer culture, and rich artistic heritage. It seamlessly blends Gothic, Renaissance, and Baroque architecture with modern culture.',
   quickFacts: [
     { label: 'Capital', value: 'Prague' },

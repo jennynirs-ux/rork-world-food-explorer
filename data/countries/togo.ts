@@ -6,7 +6,7 @@ export const togo: Country = {
   code: 'TG',
   continent: 'Africa',
   flag: '🇹🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1632587866343-5ea40678e13c?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1571655728033-180f1e4a0d9c?w=800&q=80',
   description:
     'Togo is a narrow West African country known for palm-lined beaches, lively markets, hilltop villages, and cultural traditions where Vodun has historical roots alongside Christianity and Islam.',
 

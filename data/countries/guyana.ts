@@ -6,7 +6,7 @@ export const guyana: Country = {
   code: 'GY',
   continent: 'South America',
   flag: '🇬🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1618083707368-b3823daa2726?w=800&q=80',
   description: 'Guyana is the only English-speaking country in South America, known for pristine rainforests, Kaieteur Falls, and diverse culture.',
   quickFacts: [
     { label: 'Capital', value: 'Georgetown' },

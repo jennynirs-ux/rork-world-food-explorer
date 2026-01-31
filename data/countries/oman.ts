@@ -6,7 +6,7 @@ export const oman: Country = {
   code: 'OM',
   continent: 'Asia',
   flag: '🇴🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=800&q=80',
   description: 'Oman is an Arabian Peninsula country known for diverse landscapes from deserts to mountains, ancient forts, and traditional culture.',
   quickFacts: [
     { label: 'Capital', value: 'Muscat' },

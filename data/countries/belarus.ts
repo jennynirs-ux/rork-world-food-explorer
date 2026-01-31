@@ -6,7 +6,7 @@ export const belarus: Country = {
   code: 'BY',
   continent: 'Europe',
   flag: '🇧🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1597933534414-18662a97c3db?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1606414939477-a27cdf1fae0d?w=800&q=80',
   description:
     'Belarus is a landlocked country in Eastern Europe known for vast forests, Soviet-era architecture, and rich folk traditions.',
   quickFacts: [

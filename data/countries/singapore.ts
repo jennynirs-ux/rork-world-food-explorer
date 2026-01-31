@@ -6,7 +6,7 @@ export const singapore: Country = {
   code: 'SG',
   continent: 'Asia',
   flag: '🇸🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800&q=80',
   description:
     'Singapore is a modern city-state and island nation known for its efficiency, cleanliness, multicultural society, world-class hawker food, and iconic skyline. It blends Chinese, Malay, Indian, and Western influences into a uniquely Singaporean identity.',
   quickFacts: [

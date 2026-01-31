@@ -6,7 +6,7 @@ export const qatar: Country = {
   code: 'QA',
   continent: 'Asia',
   flag: '🇶🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80',
   description: 'Qatar is a wealthy Gulf state known for modern architecture, hosting the 2022 FIFA World Cup, and vast natural gas reserves.',
   quickFacts: [
     { label: 'Capital', value: 'Doha' },

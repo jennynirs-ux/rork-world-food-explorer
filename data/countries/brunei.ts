@@ -6,7 +6,7 @@ export const brunei: Country = {
   code: 'BN',
   continent: 'Asia',
   flag: '🇧🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1594387030-15d45046ba60?w=800&q=80',
   description: 'Brunei is a small, wealthy Islamic sultanate on Borneo with magnificent mosques and pristine rainforests. Known for its oil wealth and peaceful, traditional culture.',
   quickFacts: [
     { label: 'Capital', value: 'Bandar Seri Begawan' },

@@ -6,7 +6,7 @@ export const kuwait: Country = {
   code: 'KW',
   continent: 'Asia',
   flag: '🇰🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1578070181910-f1e514afdd08?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1583203580674-37318bcb3718?w=800&q=80',
   description: 'Kuwait is a small oil-rich country on the Persian Gulf, known for modern architecture, high living standards, and pearl diving heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Kuwait City' },

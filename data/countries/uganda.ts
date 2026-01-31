@@ -6,7 +6,7 @@ export const uganda: Country = {
   code: 'UG',
   continent: 'Africa',
   flag: '🇺🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1612965110667-38a19c144b91?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1616364896947-8f2d7c7c3f3e?w=800&q=80',
   description:
     'Uganda, the "Pearl of Africa," is known for its diverse landscapes, mountain gorillas, and as the source of the Nile River. A country of lush rainforests, savannah, and friendly people.',
   quickFacts: [
