@@ -41,6 +41,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
   });
 
   const bulkCreateMutation = trpc.countries.bulkCreate.useMutation();
+  const bulkUpdateMutation = trpc.countries.bulkUpdate.useMutation();
   const [hasInitialized, setHasInitialized] = useState(false);
   const [userId, setUserId] = useState<string>('');
   const [referralStats, setReferralStats] = useState({ referralCount: 0, completedCount: 0, freeMonthsEarned: 0 });
@@ -88,8 +89,21 @@ export const [AppProvider, useApp] = createContextHook(() => {
         }
       };
       initializeCountries();
+    } else if (countriesQuery.data !== undefined && countriesQuery.data.length > 0 && !hasInitialized) {
+      setHasInitialized(true);
+      const syncCountries = async () => {
+        try {
+          console.log('Syncing countries with latest data (including landscape images)...');
+          await bulkUpdateMutation.mutateAsync({ countries: localCountries });
+          console.log('Countries synced successfully');
+          countriesQuery.refetch();
+        } catch (error) {
+          console.error('Error syncing countries:', error);
+        }
+      };
+      syncCountries();
     }
-  }, [countriesQuery.data, hasInitialized, bulkCreateMutation, countriesQuery]);
+  }, [countriesQuery.data, hasInitialized, bulkCreateMutation, bulkUpdateMutation, countriesQuery]);
 
   const loadData = async () => {
     try {
