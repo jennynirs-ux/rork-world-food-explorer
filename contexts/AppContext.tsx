@@ -76,34 +76,35 @@ export const [AppProvider, useApp] = createContextHook(() => {
   }, []);
 
   useEffect(() => {
-    if (countriesQuery.data !== undefined && countriesQuery.data.length === 0 && !hasInitialized) {
-      setHasInitialized(true);
-      const initializeCountries = async () => {
-        try {
-          console.log('Initializing countries in backend...');
-          await bulkCreateMutation.mutateAsync({ countries: localCountries });
-          console.log('Countries initialized successfully');
-          countriesQuery.refetch();
-        } catch (error) {
-          console.error('Error initializing countries:', error);
-        }
-      };
-      initializeCountries();
-    } else if (countriesQuery.data !== undefined && countriesQuery.data.length > 0 && !hasInitialized) {
+    if (countriesQuery.data !== undefined && !hasInitialized) {
       setHasInitialized(true);
       const syncCountries = async () => {
         try {
-          console.log('Syncing countries with latest data (including landscape images)...');
+          console.log('Syncing all countries with landscape images...');
+          console.log(`Local countries count: ${localCountries.length}`);
+          console.log(`Backend countries count: ${countriesQuery.data?.length || 0}`);
+          
           await bulkUpdateMutation.mutateAsync({ countries: localCountries });
-          console.log('Countries synced successfully');
-          countriesQuery.refetch();
+          console.log('Countries synced successfully!');
+          
+          const refreshedData = await countriesQuery.refetch();
+          console.log(`After sync - Backend countries: ${refreshedData.data?.length || 0}`);
+          
+          const sampleCountry = refreshedData.data?.find(c => c.id === 'armenia');
+          if (sampleCountry) {
+            console.log('Armenia landscape check:', {
+              hasLandscape: !!sampleCountry.landscapeImage,
+              url: sampleCountry.landscapeImage?.substring(0, 50) + '...'
+            });
+          }
         } catch (error) {
           console.error('Error syncing countries:', error);
+          console.error('Error details:', JSON.stringify(error, null, 2));
         }
       };
       syncCountries();
     }
-  }, [countriesQuery.data, hasInitialized, bulkCreateMutation, bulkUpdateMutation, countriesQuery]);
+  }, [countriesQuery.data, hasInitialized, bulkUpdateMutation, countriesQuery]);
 
   const loadData = async () => {
     try {
