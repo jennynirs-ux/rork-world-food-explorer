@@ -6,7 +6,7 @@ export const afghanistan: Country = {
   code: 'AF',
   continent: 'Asia',
   flag: '🇦🇫',
-  landscapeImage: 'https://images.unsplash.com/photo-1673380464224-44e2d8f27d06?w=800',
+  landscapeImage: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800',
   description: 'Afghanistan is a landlocked country in Central Asia, known for its mountainous terrain, rich history along the Silk Road, and resilient culture. It has a complex heritage influenced by various empires and civilizations.',
   quickFacts: [
     { label: 'Capital', value: 'Kabul' },
@@ -146,7 +146,7 @@ export const afghanistan: Country = {
       'Refrigerate for at least 2 hours',
       'Before serving, garnish with chopped pistachios and almonds',
     ],
-    imageUrl: 'https://media.istockphoto.com/id/2227219684?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600',
   },
   drinks: {
     alcoholic: 'Alcohol is prohibited in Afghanistan',
