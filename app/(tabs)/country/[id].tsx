@@ -208,6 +208,7 @@ export default function CountryDetailScreen() {
         <View style={styles.bannerContainer}>
           {country.landscapeImage && (
             <Image
+              key={country.id}
               source={{ uri: country.landscapeImage }}
               style={styles.bannerImage}
               contentFit="cover"
