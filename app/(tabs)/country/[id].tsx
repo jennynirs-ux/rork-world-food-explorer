@@ -80,7 +80,7 @@ export default function CountryDetailScreen() {
     if (country && progress && !progress.visited) {
       updateCountryProgress(country.id, { visited: true, visitedDate: new Date().toISOString() }, 0);
     }
-  }, [country, progress, updateCountryProgress]);
+  }, [country?.id, progress?.visited, updateCountryProgress]);
 
   if (!country || !progress) {
     return (

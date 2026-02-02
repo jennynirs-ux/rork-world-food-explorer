@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* eslint-disable no-undef, node/no-path-concat */
 const fs = require('fs');
 const path = require('path');
 

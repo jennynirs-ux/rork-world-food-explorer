@@ -1,8 +1,7 @@
-/* eslint-disable no-undef, no-unused-vars */
+/* eslint-disable no-undef, no-unused-vars, node/no-path-concat */
 const fs = require('fs');
 const path = require('path');
 
-const issues = [];
 const countriesDir = path.join(__dirname, 'data', 'countries');
 
 function validateCountry(filePath) {

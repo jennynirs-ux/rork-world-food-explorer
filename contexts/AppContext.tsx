@@ -41,7 +41,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
   });
 
 
-  const bulkUpdateMutation = trpc.countries.bulkUpdate.useMutation();
+
   const [hasInitialized, setHasInitialized] = useState(false);
   const [userId, setUserId] = useState<string>('');
   const [referralStats, setReferralStats] = useState({ referralCount: 0, completedCount: 0, freeMonthsEarned: 0 });
@@ -84,6 +84,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
           console.log(`Local countries count: ${localCountries.length}`);
           console.log(`Backend countries count: ${countriesQuery.data?.length || 0}`);
           
+          const bulkUpdateMutation = trpc.countries.bulkUpdate.useMutation();
           await bulkUpdateMutation.mutateAsync({ countries: localCountries });
           console.log('Countries synced successfully!');
           
@@ -170,7 +171,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     if (referralCodeQuery.data?.code && userProfile.referralCode !== referralCodeQuery.data.code) {
       updateUserProfile({ referralCode: referralCodeQuery.data.code });
     }
-  }, [referralCodeQuery.data, userProfile.referralCode, updateUserProfile]);
+  }, [referralCodeQuery.data, userProfile.referralCode]);
 
   useEffect(() => {
     if (referralStatsQuery.data) {
@@ -183,7 +184,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
         });
       }
     }
-  }, [referralStatsQuery.data, userProfile.referralCount, userProfile.freeMonthsEarned, updateUserProfile]);
+  }, [referralStatsQuery.data]);
 
   const completeOnboarding = async (name: string, avatar?: string, referralCode?: string) => {
     const updatedProfile = {
