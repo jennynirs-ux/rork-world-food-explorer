@@ -58,7 +58,7 @@ export default function CountryDetailScreen() {
     isFavoriteCountry,
     updateRecipeRating,
     userProfile,
-    simulatePurchase
+    purchaseProduct
   } = useApp();
   
   const [activeTab, setActiveTab] = useState<'about' | 'recipes' | 'quiz'>('about');
@@ -128,7 +128,7 @@ export default function CountryDetailScreen() {
           onClose={() => setShowPaywall(false)}
           country={country}
           countries={countries}
-          onPurchase={simulatePurchase}
+          onPurchase={purchaseProduct}
           purchasedProducts={purchasedProducts}
         />
       </SafeAreaView>
@@ -943,7 +943,7 @@ export default function CountryDetailScreen() {
         onClose={() => setShowPaywall(false)}
         country={country}
         countries={countries}
-        onPurchase={simulatePurchase}
+        onPurchase={purchaseProduct}
         purchasedProducts={purchasedProducts}
       />
     </SafeAreaView>

@@ -9,7 +9,7 @@ import { useState } from 'react';
 import { isCountryAccessible } from '@/lib/access-control';
 
 export default function ExploreScreen() {
-  const { countryProgress, countries, userProfile, simulatePurchase } = useApp();
+  const { countryProgress, countries, userProfile, purchaseProduct } = useApp();
   const purchasedProducts = userProfile.purchasedProducts || [];
   const router = useRouter();
   const [viewMode, setViewMode] = useState<'map' | 'list' | 'favorites'>('map');
@@ -337,7 +337,7 @@ export default function ExploreScreen() {
         country={selectedCountry ? countries.find(c => c.id === selectedCountry) : undefined}
         countries={countries}
         onPurchase={(productId) => {
-          simulatePurchase(productId);
+          purchaseProduct(productId);
           setShowPaywall(false);
           setSelectedCountry(null);
         }}
