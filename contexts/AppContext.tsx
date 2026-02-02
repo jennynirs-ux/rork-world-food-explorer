@@ -56,6 +56,8 @@ export const [AppProvider, useApp] = createContextHook(() => {
     { enabled: !!userId, refetchOnWindowFocus: false, refetchOnMount: false }
   );
 
+  const bulkUpdateMutation = trpc.countries.bulkUpdate.useMutation();
+
   useEffect(() => {
     if (countriesQuery.data && countriesQuery.data.length > 0) {
       setCountries(countriesQuery.data);
@@ -84,7 +86,6 @@ export const [AppProvider, useApp] = createContextHook(() => {
           console.log(`Local countries count: ${localCountries.length}`);
           console.log(`Backend countries count: ${countriesQuery.data?.length || 0}`);
           
-          const bulkUpdateMutation = trpc.countries.bulkUpdate.useMutation();
           await bulkUpdateMutation.mutateAsync({ countries: localCountries });
           console.log('Countries synced successfully!');
           
