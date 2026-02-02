@@ -233,4 +233,5 @@ export const japan: Country = {
     },
   ],
   coordinates: { x: 85, y: 38 },
+  isUnlockedByDefault: true,
 };

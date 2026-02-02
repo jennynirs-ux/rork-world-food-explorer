@@ -24,6 +24,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     totalPoints: 0,
     createdDate: new Date().toISOString(),
     completedOnboarding: false,
+    purchasedProducts: [],
   });
   
   const [countryProgress, setCountryProgress] = useState<ProgressState>({});
@@ -483,6 +484,19 @@ export const [AppProvider, useApp] = createContextHook(() => {
     referralStatsQuery.refetch();
   }, [referralStatsQuery]);
 
+  const purchaseProduct = useCallback(async (productId: string) => {
+    const currentProducts = userProfile.purchasedProducts || [];
+    if (!currentProducts.includes(productId)) {
+      await updateUserProfile({ 
+        purchasedProducts: [...currentProducts, productId] 
+      });
+    }
+  }, [userProfile.purchasedProducts, updateUserProfile]);
+
+  const hasPurchasedProduct = useCallback((productId: string): boolean => {
+    return (userProfile.purchasedProducts || []).includes(productId);
+  }, [userProfile.purchasedProducts]);
+
   return {
     userProfile,
     countryProgress,
@@ -509,5 +523,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     userId,
     referralStats,
     refreshReferralStats,
+    purchaseProduct,
+    hasPurchasedProduct,
   };
 });

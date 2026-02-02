@@ -318,4 +318,5 @@ export const newZealand: Country = {
   ],
 
   coordinates: { x: 92, y: 5 },
+  isUnlockedByDefault: true,
 };

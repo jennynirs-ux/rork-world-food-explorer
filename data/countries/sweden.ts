@@ -252,4 +252,5 @@ quiz: [
   },
 ],
   coordinates: { x: 50, y: 62 },
+  isUnlockedByDefault: true,
 };

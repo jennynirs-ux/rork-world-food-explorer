@@ -82,6 +82,7 @@ export type Country = {
   conversationStarters: string[];
   quiz: QuizQuestion[];
   coordinates?: { x: number; y: number };
+  isUnlockedByDefault?: boolean;
 };
 
 export type CountryProgress = {
@@ -155,6 +156,7 @@ export type UserProfile = {
   referredBy?: string;
   referralCount?: number;
   freeMonthsEarned?: number;
+  purchasedProducts?: string[];
 };
 
 export type CookingNote = {
@@ -182,3 +184,13 @@ export type Referral = {
   createdDate: string;
   completedDate?: string;
 };
+
+export type MonetizationProduct = {
+  id: string;
+  name: string;
+  description: string;
+  price: string;
+  continent?: string;
+};
+
+export type ContinentPack = 'Europe' | 'Asia' | 'Africa' | 'North America' | 'South America' | 'Oceania';

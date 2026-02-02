@@ -2,12 +2,14 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput } from 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
-import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart } from 'lucide-react-native';
+import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock } from 'lucide-react-native';
 import Globe3D from '@/components/Globe3D';
 import { useState } from 'react';
+import { isCountryAccessible } from '@/lib/access-control';
 
 export default function ExploreScreen() {
   const { countryProgress, countries, userProfile } = useApp();
+  const purchasedProducts = userProfile.purchasedProducts || [];
   const router = useRouter();
   const [viewMode, setViewMode] = useState<'map' | 'list' | 'favorites'>('map');
   const [searchQuery, setSearchQuery] = useState('');
@@ -116,25 +118,41 @@ export default function ExploreScreen() {
               const completionPercentage = !progress ? 0 : progress.fullyCompleted ? 100 : 
                 (progress.mainDishCooked ? 50 : 0) + (progress.quizCompleted ? 50 : 0);
 
+              const isAccessible = isCountryAccessible(country, purchasedProducts);
+
               return (
                 <View key={country.id} style={styles.countryCard}>
                   <TouchableOpacity
                     style={styles.flagButton}
                     onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
                   >
-                    <Text style={styles.flag}>{country.flag}</Text>
+                    <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
+                    {!isAccessible && (
+                      <View style={styles.lockBadge}>
+                        <Lock size={12} color="#FFF" />
+                      </View>
+                    )}
                   </TouchableOpacity>
                   <TouchableOpacity
                     style={styles.countryInfo}
                     onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
                   >
-                    <Text style={styles.countryName}>{country.name}</Text>
-                    <Text style={styles.continent}>{country.continent}</Text>
-                    <View style={styles.progressContainer}>
-                      <View style={styles.progressBar}>
-                        <View style={[styles.progressFill, { width: `${completionPercentage}%` }]} />
-                      </View>
+                    <View style={styles.countryNameRow}>
+                      <Text style={styles.countryName}>{country.name}</Text>
+                      {!isAccessible && (
+                        <View style={styles.lockIcon}>
+                          <Lock size={16} color="#9CA3AF" />
+                        </View>
+                      )}
                     </View>
+                    <Text style={styles.continent}>{country.continent}</Text>
+                    {isAccessible && (
+                      <View style={styles.progressContainer}>
+                        <View style={styles.progressBar}>
+                          <View style={[styles.progressFill, { width: `${completionPercentage}%` }]} />
+                        </View>
+                      </View>
+                    )}
                   </TouchableOpacity>
                 </View>
               );
@@ -171,6 +189,7 @@ export default function ExploreScreen() {
                 {filteredCountries.map(country => {
                   const status = getCountryStatus(country.id);
                   const statusColor = status === 'done' ? '#10B981' : status === 'cooking' ? '#F59E0B' : '#D1D5DB';
+                  const isAccessible = isCountryAccessible(country, purchasedProducts);
                   
                   return (
                     <TouchableOpacity
@@ -178,8 +197,12 @@ export default function ExploreScreen() {
                       style={styles.countryChip}
                       onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
                     >
-                      <View style={[styles.statusDot, { backgroundColor: statusColor }]} />
-                      <Text style={styles.countryChipFlag}>{country.flag}</Text>
+                      {isAccessible ? (
+                        <View style={[styles.statusDot, { backgroundColor: statusColor }]} />
+                      ) : (
+                        <Lock size={10} color="#9CA3AF" />
+                      )}
+                      <Text style={[styles.countryChipFlag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
                       <Text style={styles.countryChipName} numberOfLines={1}>{country.name}</Text>
                     </TouchableOpacity>
                   );
@@ -243,25 +266,41 @@ export default function ExploreScreen() {
               const completionPercentage = !progress ? 0 : progress.fullyCompleted ? 100 : 
                 (progress.mainDishCooked ? 50 : 0) + (progress.quizCompleted ? 50 : 0);
 
+              const isAccessible = isCountryAccessible(country, purchasedProducts);
+
               return (
                 <View key={country.id} style={styles.countryCard}>
                   <TouchableOpacity
                     style={styles.flagButton}
                     onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
                   >
-                    <Text style={styles.flag}>{country.flag}</Text>
+                    <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
+                    {!isAccessible && (
+                      <View style={styles.lockBadge}>
+                        <Lock size={12} color="#FFF" />
+                      </View>
+                    )}
                   </TouchableOpacity>
                   <TouchableOpacity
                     style={styles.countryInfo}
                     onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
                   >
-                    <Text style={styles.countryName}>{country.name}</Text>
-                    <Text style={styles.continent}>{country.continent}</Text>
-                    <View style={styles.progressContainer}>
-                      <View style={styles.progressBar}>
-                        <View style={[styles.progressFill, { width: `${completionPercentage}%` }]} />
-                      </View>
+                    <View style={styles.countryNameRow}>
+                      <Text style={styles.countryName}>{country.name}</Text>
+                      {!isAccessible && (
+                        <View style={styles.lockIcon}>
+                          <Lock size={16} color="#9CA3AF" />
+                        </View>
+                      )}
                     </View>
+                    <Text style={styles.continent}>{country.continent}</Text>
+                    {isAccessible && (
+                      <View style={styles.progressContainer}>
+                        <View style={styles.progressBar}>
+                          <View style={[styles.progressFill, { width: `${completionPercentage}%` }]} />
+                        </View>
+                      </View>
+                    )}
                   </TouchableOpacity>
                 </View>
               );
@@ -513,5 +552,29 @@ const styles = StyleSheet.create({
     color: '#6B7280',
     textAlign: 'center',
     lineHeight: 24,
+  },
+  countryNameRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  lockIcon: {
+    opacity: 0.6,
+  },
+  lockBadge: {
+    position: 'absolute',
+    bottom: -4,
+    right: -4,
+    backgroundColor: '#FF6B35',
+    borderRadius: 10,
+    width: 20,
+    height: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#FFF',
+  },
+  flagLocked: {
+    opacity: 0.5,
   },
 })

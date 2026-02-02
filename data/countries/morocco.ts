@@ -239,4 +239,5 @@ export const morocco: Country = {
     },
   ],
   coordinates: { x: 45, y: 35 },
+  isUnlockedByDefault: true,
 };
