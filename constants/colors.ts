@@ -13,6 +13,7 @@ export default {
   blue: '#6BA3E1',
   purple: '#9B7EC5',
   pink: '#E88CA8',
+  sage: '#87A96B',
   
   background: '#F5F1EB',
   surface: '#FFFFFF',
