@@ -39,7 +39,8 @@ import {
   SkipBack,
   Lightbulb,
   Globe,
-  Maximize
+  Maximize,
+  Lock
 } from 'lucide-react-native';
 
 export default function CountryDetailScreen() {
@@ -203,19 +204,39 @@ export default function CountryDetailScreen() {
   const handleNextCountry = () => {
     if (currentCountryIndex === -1) return;
     
-    const nextIndex = (currentCountryIndex + 1) % countries.length;
-    const nextCountry = countries[nextIndex];
+    let nextIndex = (currentCountryIndex + 1) % countries.length;
+    let attempts = 0;
     
-    router.replace(`/country/${nextCountry.id}`);
+    while (attempts < countries.length) {
+      const nextCountry = countries[nextIndex];
+      if (isCountryAccessible(nextCountry, purchasedProducts)) {
+        router.replace(`/country/${nextCountry.id}`);
+        return;
+      }
+      nextIndex = (nextIndex + 1) % countries.length;
+      attempts++;
+    }
+    
+    Alert.alert('No accessible countries', 'Unlock more countries to continue exploring!');
   };
 
   const handlePreviousCountry = () => {
     if (currentCountryIndex === -1) return;
     
-    const prevIndex = currentCountryIndex === 0 ? countries.length - 1 : currentCountryIndex - 1;
-    const prevCountry = countries[prevIndex];
+    let prevIndex = currentCountryIndex === 0 ? countries.length - 1 : currentCountryIndex - 1;
+    let attempts = 0;
     
-    router.replace(`/country/${prevCountry.id}`);
+    while (attempts < countries.length) {
+      const prevCountry = countries[prevIndex];
+      if (isCountryAccessible(prevCountry, purchasedProducts)) {
+        router.replace(`/country/${prevCountry.id}`);
+        return;
+      }
+      prevIndex = prevIndex === 0 ? countries.length - 1 : prevIndex - 1;
+      attempts++;
+    }
+    
+    Alert.alert('No accessible countries', 'Unlock more countries to continue exploring!');
   };
 
   const handleSubmitQuiz = () => {

@@ -67,8 +67,13 @@ export default function ExploreScreen() {
   };
 
   const handleRandomCountry = () => {
-    const randomIndex = Math.floor(Math.random() * countries.length);
-    const randomCountry = countries[randomIndex];
+    const accessibleCountries = countries.filter(c => isCountryAccessible(c, purchasedProducts));
+    if (accessibleCountries.length === 0) {
+      setShowPaywall(true);
+      return;
+    }
+    const randomIndex = Math.floor(Math.random() * accessibleCountries.length);
+    const randomCountry = accessibleCountries[randomIndex];
     router.push({ pathname: '/(tabs)/country/[id]', params: { id: randomCountry.id } });
   };
 
