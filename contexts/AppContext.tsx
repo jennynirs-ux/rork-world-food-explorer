@@ -173,7 +173,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     if (referralCodeQuery.data?.code && userProfile.referralCode !== referralCodeQuery.data.code) {
       updateUserProfile({ referralCode: referralCodeQuery.data.code });
     }
-  }, [referralCodeQuery.data, userProfile.referralCode]);
+  }, [referralCodeQuery.data, userProfile.referralCode, updateUserProfile]);
 
   useEffect(() => {
     if (referralStatsQuery.data) {
@@ -186,7 +186,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
         });
       }
     }
-  }, [referralStatsQuery.data]);
+  }, [referralStatsQuery.data, userProfile.referralCount, userProfile.freeMonthsEarned, updateUserProfile]);
 
   const completeOnboarding = async (name: string, avatar?: string, referralCode?: string) => {
     const updatedProfile = {
