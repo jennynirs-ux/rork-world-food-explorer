@@ -524,6 +524,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     referralStats,
     refreshReferralStats,
     purchaseProduct,
+    simulatePurchase: purchaseProduct,
     hasPurchasedProduct,
   };
 });
