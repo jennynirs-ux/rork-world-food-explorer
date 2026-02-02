@@ -11,6 +11,8 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useState, useEffect, useMemo } from 'react';
 import { useApp } from '@/contexts/AppContext';
+import { isCountryAccessible } from '@/lib/access-control';
+import Paywall from '@/components/Paywall';
 import colors from '@/constants/colors';
 import { 
   Compass, 
@@ -53,7 +55,9 @@ export default function CountryDetailScreen() {
     isRecipeFavorite,
     toggleFavoriteCountry,
     isFavoriteCountry,
-    updateRecipeRating
+    updateRecipeRating,
+    userProfile,
+    simulatePurchase
   } = useApp();
   
   const [activeTab, setActiveTab] = useState<'about' | 'recipes' | 'quiz'>('about');
@@ -61,6 +65,7 @@ export default function CountryDetailScreen() {
   const [quizAnswers, setQuizAnswers] = useState<number[]>([]);
   const [showMainDishRating, setShowMainDishRating] = useState(false);
   const [showDessertRating, setShowDessertRating] = useState(false);
+  const [showPaywall, setShowPaywall] = useState(false);
 
   const country = countries.find(c => c.id === id);
   const currentCountryIndex = countries.findIndex(c => c.id === id);
@@ -86,6 +91,45 @@ export default function CountryDetailScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <Text>Country not found</Text>
+      </SafeAreaView>
+    );
+  }
+
+  const purchasedProducts = userProfile.purchasedProducts || [];
+  const isAccessible = isCountryAccessible(country, purchasedProducts);
+
+  if (!isAccessible) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <View style={styles.lockedContainer}>
+          <TouchableOpacity onPress={() => router.back()} style={styles.lockedBackButton}>
+            <Compass size={24} color={colors.text} />
+          </TouchableOpacity>
+          
+          <View style={styles.lockedContent}>
+            <Text style={styles.lockedFlag}>{country.flag}</Text>
+            <Text style={styles.lockedCountryName}>{country.name}</Text>
+            <Lock size={64} color={colors.terracotta} />
+            <Text style={styles.lockedMessage}>This country is locked</Text>
+            <Text style={styles.lockedSubMessage}>Unlock {country.continent} or the World Pack to access this country</Text>
+            
+            <TouchableOpacity 
+              style={styles.unlockButton}
+              onPress={() => setShowPaywall(true)}
+            >
+              <Text style={styles.unlockButtonText}>View Unlock Options</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+
+        <Paywall
+          visible={showPaywall}
+          onClose={() => setShowPaywall(false)}
+          country={country}
+          countries={countries}
+          onPurchase={simulatePurchase}
+          purchasedProducts={purchasedProducts}
+        />
       </SafeAreaView>
     );
   }
@@ -872,6 +916,15 @@ export default function CountryDetailScreen() {
 
         <View style={{ height: 100 }} />
       </ScrollView>
+      
+      <Paywall
+        visible={showPaywall}
+        onClose={() => setShowPaywall(false)}
+        country={country}
+        countries={countries}
+        onPurchase={simulatePurchase}
+        purchasedProducts={purchasedProducts}
+      />
     </SafeAreaView>
   );
 }
@@ -1744,5 +1797,58 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '600' as const,
     color: '#FFF',
+  },
+  lockedContainer: {
+    flex: 1,
+    backgroundColor: colors.background,
+  },
+  lockedBackButton: {
+    position: 'absolute',
+    top: 16,
+    left: 16,
+    zIndex: 10,
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: colors.surface,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: colors.shadow,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  lockedContent: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 32,
+  },
+  lockedFlag: {
+    fontSize: 80,
+    marginBottom: 16,
+  },
+  lockedCountryName: {
+    fontSize: 32,
+    fontWeight: '700' as const,
+    color: colors.text,
+    marginBottom: 32,
+    textAlign: 'center',
+  },
+  lockedMessage: {
+    fontSize: 20,
+    fontWeight: '600' as const,
+    color: colors.text,
+    marginTop: 24,
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  lockedSubMessage: {
+    fontSize: 16,
+    color: colors.textSecondary,
+    textAlign: 'center',
+    lineHeight: 24,
+    marginBottom: 32,
   },
 });

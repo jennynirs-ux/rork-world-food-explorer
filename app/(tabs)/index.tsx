@@ -2,18 +2,21 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput } from 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
+import Paywall from '@/components/Paywall';
 import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock } from 'lucide-react-native';
 import Globe3D from '@/components/Globe3D';
 import { useState } from 'react';
 import { isCountryAccessible } from '@/lib/access-control';
 
 export default function ExploreScreen() {
-  const { countryProgress, countries, userProfile } = useApp();
+  const { countryProgress, countries, userProfile, simulatePurchase } = useApp();
   const purchasedProducts = userProfile.purchasedProducts || [];
   const router = useRouter();
   const [viewMode, setViewMode] = useState<'map' | 'list' | 'favorites'>('map');
   const [searchQuery, setSearchQuery] = useState('');
   const [filterStatus, setFilterStatus] = useState<string | null>(null);
+  const [showPaywall, setShowPaywall] = useState(false);
+  const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
 
   const getCountryStatus = (countryId: string) => {
     const progress = countryProgress[countryId];
@@ -50,6 +53,16 @@ export default function ExploreScreen() {
 
   const handleCountryPress = (countryId: string) => {
     console.log('Country pressed:', countryId);
+    const country = countries.find(c => c.id === countryId);
+    if (!country) return;
+    
+    const isAccessible = isCountryAccessible(country, purchasedProducts);
+    if (!isAccessible) {
+      setSelectedCountry(countryId);
+      setShowPaywall(true);
+      return;
+    }
+    
     router.push({ pathname: '/(tabs)/country/[id]', params: { id: countryId } });
   };
 
@@ -124,7 +137,7 @@ export default function ExploreScreen() {
                 <View key={country.id} style={styles.countryCard}>
                   <TouchableOpacity
                     style={styles.flagButton}
-                    onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
+                    onPress={() => handleCountryPress(country.id)}
                   >
                     <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
                     {!isAccessible && (
@@ -135,7 +148,7 @@ export default function ExploreScreen() {
                   </TouchableOpacity>
                   <TouchableOpacity
                     style={styles.countryInfo}
-                    onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
+                    onPress={() => handleCountryPress(country.id)}
                   >
                     <View style={styles.countryNameRow}>
                       <Text style={styles.countryName}>{country.name}</Text>
@@ -195,7 +208,7 @@ export default function ExploreScreen() {
                     <TouchableOpacity
                       key={country.id}
                       style={styles.countryChip}
-                      onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
+                      onPress={() => handleCountryPress(country.id)}
                     >
                       {isAccessible ? (
                         <View style={[styles.statusDot, { backgroundColor: statusColor }]} />
@@ -272,7 +285,7 @@ export default function ExploreScreen() {
                 <View key={country.id} style={styles.countryCard}>
                   <TouchableOpacity
                     style={styles.flagButton}
-                    onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
+                    onPress={() => handleCountryPress(country.id)}
                   >
                     <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
                     {!isAccessible && (
@@ -283,7 +296,7 @@ export default function ExploreScreen() {
                   </TouchableOpacity>
                   <TouchableOpacity
                     style={styles.countryInfo}
-                    onPress={() => router.push({ pathname: '/(tabs)/country/[id]', params: { id: country.id } })}
+                    onPress={() => handleCountryPress(country.id)}
                   >
                     <View style={styles.countryNameRow}>
                       <Text style={styles.countryName}>{country.name}</Text>
@@ -309,6 +322,22 @@ export default function ExploreScreen() {
           </ScrollView>
         </View>
       )}
+      
+      <Paywall
+        visible={showPaywall}
+        onClose={() => {
+          setShowPaywall(false);
+          setSelectedCountry(null);
+        }}
+        country={selectedCountry ? countries.find(c => c.id === selectedCountry) : undefined}
+        countries={countries}
+        onPurchase={(productId) => {
+          simulatePurchase(productId);
+          setShowPaywall(false);
+          setSelectedCountry(null);
+        }}
+        purchasedProducts={purchasedProducts}
+      />
     </SafeAreaView>
   );
 }
