@@ -40,7 +40,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     refetchOnMount: false,
   });
 
-  const bulkCreateMutation = trpc.countries.bulkCreate.useMutation();
+
   const bulkUpdateMutation = trpc.countries.bulkUpdate.useMutation();
   const [hasInitialized, setHasInitialized] = useState(false);
   const [userId, setUserId] = useState<string>('');
@@ -161,11 +161,16 @@ export const [AppProvider, useApp] = createContextHook(() => {
     await AsyncStorage.setItem(STORAGE_KEYS.BADGES, JSON.stringify(updatedBadges));
   };
 
+  const updateUserProfile = useCallback(async (updates: Partial<UserProfile>) => {
+    const updatedProfile = { ...userProfile, ...updates };
+    await saveUserProfile(updatedProfile);
+  }, [userProfile]);
+
   useEffect(() => {
     if (referralCodeQuery.data?.code && userProfile.referralCode !== referralCodeQuery.data.code) {
       updateUserProfile({ referralCode: referralCodeQuery.data.code });
     }
-  }, [referralCodeQuery.data, userProfile.referralCode]);
+  }, [referralCodeQuery.data, userProfile.referralCode, updateUserProfile]);
 
   useEffect(() => {
     if (referralStatsQuery.data) {
@@ -178,7 +183,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
         });
       }
     }
-  }, [referralStatsQuery.data]);
+  }, [referralStatsQuery.data, userProfile.referralCount, userProfile.freeMonthsEarned, updateUserProfile]);
 
   const completeOnboarding = async (name: string, avatar?: string, referralCode?: string) => {
     const updatedProfile = {
@@ -400,11 +405,6 @@ export const [AppProvider, useApp] = createContextHook(() => {
       earnedBadges: badges.filter(b => b.earned).length,
     };
   }, [countryProgress, badges, countries.length]);
-
-  const updateUserProfile = async (updates: Partial<UserProfile>) => {
-    const updatedProfile = { ...userProfile, ...updates };
-    await saveUserProfile(updatedProfile);
-  };
 
   const saveFavoriteRecipes = async (recipes: FavoriteRecipe[]) => {
     setFavoriteRecipes(recipes);

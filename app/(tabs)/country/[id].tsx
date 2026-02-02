@@ -9,7 +9,7 @@ import {
 import { Image } from 'expo-image';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useApp } from '@/contexts/AppContext';
 import colors from '@/constants/colors';
 import { 
@@ -65,19 +65,22 @@ export default function CountryDetailScreen() {
   const country = countries.find(c => c.id === id);
   const currentCountryIndex = countries.findIndex(c => c.id === id);
 
-  const progress = country ? (countryProgress[country.id] || {
-    visited: false,
-    mainDishCooked: false,
-    dessertCooked: false,
-    quizCompleted: false,
-    fullyCompleted: false,
-  }) : null;
+  const progress = useMemo(() => {
+    if (!country) return null;
+    return countryProgress[country.id] || {
+      visited: false,
+      mainDishCooked: false,
+      dessertCooked: false,
+      quizCompleted: false,
+      fullyCompleted: false,
+    };
+  }, [country, countryProgress]);
 
   useEffect(() => {
     if (country && progress && !progress.visited) {
       updateCountryProgress(country.id, { visited: true, visitedDate: new Date().toISOString() }, 0);
     }
-  }, [country?.id, progress?.visited, updateCountryProgress]);
+  }, [country, progress, updateCountryProgress]);
 
   if (!country || !progress) {
     return (
