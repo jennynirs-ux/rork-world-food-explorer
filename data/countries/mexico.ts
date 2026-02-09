@@ -13,8 +13,7 @@ export const mexico: Country = {
     { label: 'Population', value: '128.9 million' },
     { label: 'Official Language', value: 'Spanish' },
     { label: 'Currency', value: 'Mexican Peso (MXN)' },
-    { label: 'Best Time to Visit', value: 'December-April' },
-    { label: 'UNESCO Sites', value: '35' },
+    { label: 'Area', value: '1,964,375 km²' },
   ],
   facts: [
     'Mexico City is built on the ruins of the ancient Aztec city of Tenochtitlan',
