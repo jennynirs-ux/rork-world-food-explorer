@@ -13,8 +13,7 @@ export const morocco: Country = {
     { label: 'Population', value: '37.3 million' },
     { label: 'Official Languages', value: 'Arabic & Berber' },
     { label: 'Currency', value: 'Moroccan Dirham (MAD)' },
-    { label: 'Best Time to Visit', value: 'March-May, September-November' },
-    { label: 'UNESCO Sites', value: '9' },
+    { label: 'Area', value: '446,550 km²' },
   ],
   facts: [
     'Morocco is the only African country with Atlantic and Mediterranean coastlines',
