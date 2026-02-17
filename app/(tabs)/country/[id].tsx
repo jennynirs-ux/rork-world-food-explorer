@@ -210,7 +210,7 @@ export default function CountryDetailScreen() {
     while (attempts < countries.length) {
       const nextCountry = countries[nextIndex];
       if (isCountryAccessible(nextCountry, purchasedProducts)) {
-        router.replace(`/country/${nextCountry.id}`);
+        router.replace({ pathname: '/country/[id]' as any, params: { id: nextCountry.id } });
         return;
       }
       nextIndex = (nextIndex + 1) % countries.length;
@@ -229,7 +229,7 @@ export default function CountryDetailScreen() {
     while (attempts < countries.length) {
       const prevCountry = countries[prevIndex];
       if (isCountryAccessible(prevCountry, purchasedProducts)) {
-        router.replace(`/country/${prevCountry.id}`);
+        router.replace({ pathname: '/country/[id]' as any, params: { id: prevCountry.id } });
         return;
       }
       prevIndex = prevIndex === 0 ? countries.length - 1 : prevIndex - 1;

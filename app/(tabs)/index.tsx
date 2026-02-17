@@ -65,7 +65,7 @@ export default function ExploreScreen() {
       return;
     }
     
-    router.push({ pathname: '/(tabs)/country/[id]', params: { id: countryId } });
+    router.push({ pathname: '/country/[id]' as any, params: { id: countryId } });
   };
 
   const handleRandomCountry = () => {
@@ -76,7 +76,7 @@ export default function ExploreScreen() {
     }
     const randomIndex = Math.floor(Math.random() * accessibleCountries.length);
     const randomCountry = accessibleCountries[randomIndex];
-    router.push({ pathname: '/(tabs)/country/[id]', params: { id: randomCountry.id } });
+    router.push({ pathname: '/country/[id]' as any, params: { id: randomCountry.id } });
   };
 
   const filteredCountries = countries.filter(country => {

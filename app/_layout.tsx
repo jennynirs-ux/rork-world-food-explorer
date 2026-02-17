@@ -18,10 +18,10 @@ function RootLayoutNav() {
   useEffect(() => {
     if (isLoading) return;
 
-    const inOnboarding = segments[0] === 'onboarding';
+    const inOnboarding = segments[0] === 'onboarding' || segments.includes('onboarding');
 
     if (!userProfile.completedOnboarding && !inOnboarding) {
-      router.replace('/onboarding');
+      router.replace('/onboarding' as any);
     } else if (userProfile.completedOnboarding && inOnboarding) {
       router.replace('/(tabs)');
     }

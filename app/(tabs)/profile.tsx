@@ -216,7 +216,7 @@ export default function ProfileScreen() {
           <Text style={styles.sectionTitle}>{t.profile.quickAccess}</Text>
           <TouchableOpacity 
             style={styles.menuButton} 
-            onPress={() => router.push('/shopping-list')}
+            onPress={() => router.push('/shopping-list' as any)}
           >
             <ShoppingCart size={20} color="#FF6B35" />
             <Text style={styles.menuButtonText}>{t.profile.shoppingList}</Text>
