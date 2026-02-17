@@ -18,7 +18,7 @@ function RootLayoutNav() {
   useEffect(() => {
     if (isLoading) return;
 
-    const inOnboarding = segments[0] === 'onboarding' || (segments as string[]).includes('onboarding');
+    const inOnboarding = (segments as string[]).includes('onboarding');
 
     if (!userProfile.completedOnboarding && !inOnboarding) {
       router.replace('/onboarding' as any);
