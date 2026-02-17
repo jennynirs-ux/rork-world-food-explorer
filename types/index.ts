@@ -143,6 +143,7 @@ export type UserProfile = {
   totalPoints: number;
   createdDate: string;
   completedOnboarding: boolean;
+  language?: string;
   dietaryPreferences?: DietType[];
   useMetric?: boolean;
   isSubscribed?: boolean;

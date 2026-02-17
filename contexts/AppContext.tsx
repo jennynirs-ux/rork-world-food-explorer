@@ -188,10 +188,11 @@ export const [AppProvider, useApp] = createContextHook(() => {
     }
   }, [referralStatsQuery.data, userProfile.referralCount, userProfile.freeMonthsEarned, updateUserProfile]);
 
-  const completeOnboarding = async (name: string, avatar?: string, referralCode?: string) => {
+  const completeOnboarding = async (name: string, language?: string, avatar?: string, referralCode?: string) => {
     const updatedProfile = {
       ...userProfile,
       name,
+      language: language || 'en',
       avatar,
       completedOnboarding: true,
       referredBy: referralCode,

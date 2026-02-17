@@ -1,21 +1,34 @@
-import { View, Text, StyleSheet, TouchableOpacity, TextInput, KeyboardAvoidingView, Platform } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, TextInput, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
 import { useState } from 'react';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useApp } from '@/contexts/AppContext';
-import { ChefHat, Globe, Award } from 'lucide-react-native';
+import { ChefHat, Globe, Award, Check } from 'lucide-react-native';
+
+const LANGUAGES = [
+  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'sv', name: 'Svenska', flag: '🇸🇪' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'it', name: 'Italiano', flag: '🇮🇹' },
+  { code: 'pl', name: 'Polski', flag: '🇵🇱' },
+  { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
+  { code: 'pt', name: 'Português', flag: '🇵🇹' },
+];
 
 export default function OnboardingScreen() {
   const [step, setStep] = useState(0);
   const [name, setName] = useState('');
+  const [language, setLanguage] = useState('en');
   const router = useRouter();
   const { completeOnboarding } = useApp();
 
   const handleContinue = () => {
-    if (step < 3) {
+    if (step < 4) {
       setStep(step + 1);
-    } else if (step === 3 && name.trim()) {
-      completeOnboarding(name.trim());
+    } else if (step === 4 && name.trim()) {
+      completeOnboarding(name.trim(), language);
       router.replace('/(tabs)');
     }
   };
@@ -37,6 +50,42 @@ export default function OnboardingScreen() {
       case 1:
         return (
           <View style={styles.stepContainer}>
+            <Text style={styles.title}>Choose Your Language</Text>
+            <Text style={styles.subtitle}>Select your preferred language</Text>
+            <ScrollView 
+              style={styles.languageScroll}
+              showsVerticalScrollIndicator={false}
+              contentContainerStyle={styles.languageScrollContent}
+            >
+              {LANGUAGES.map((lang) => (
+                <TouchableOpacity
+                  key={lang.code}
+                  style={[
+                    styles.languageOption,
+                    language === lang.code && styles.languageOptionSelected
+                  ]}
+                  onPress={() => setLanguage(lang.code)}
+                >
+                  <View style={styles.languageLeft}>
+                    <Text style={styles.languageFlag}>{lang.flag}</Text>
+                    <Text style={[
+                      styles.languageName,
+                      language === lang.code && styles.languageNameSelected
+                    ]}>
+                      {lang.name}
+                    </Text>
+                  </View>
+                  {language === lang.code && (
+                    <Check size={24} color="#FF6B35" strokeWidth={3} />
+                  )}
+                </TouchableOpacity>
+              ))}
+            </ScrollView>
+          </View>
+        );
+      case 2:
+        return (
+          <View style={styles.stepContainer}>
             <View style={styles.iconContainer}>
               <ChefHat size={80} color="#FF6B35" strokeWidth={1.5} />
             </View>
@@ -46,7 +95,7 @@ export default function OnboardingScreen() {
             </Text>
           </View>
         );
-      case 2:
+      case 3:
         return (
           <View style={styles.stepContainer}>
             <View style={styles.iconContainer}>
@@ -58,7 +107,7 @@ export default function OnboardingScreen() {
             </Text>
           </View>
         );
-      case 3:
+      case 4:
         return (
           <View style={styles.stepContainer}>
             <View style={styles.iconContainer}>
@@ -92,7 +141,7 @@ export default function OnboardingScreen() {
           
           <View style={styles.footer}>
             <View style={styles.dotsContainer}>
-              {[0, 1, 2, 3].map((i) => (
+              {[0, 1, 2, 3, 4].map((i) => (
                 <View
                   key={i}
                   style={[
@@ -106,20 +155,20 @@ export default function OnboardingScreen() {
             <TouchableOpacity
               style={[
                 styles.button,
-                step === 3 && !name.trim() && styles.buttonDisabled
+                step === 4 && !name.trim() && styles.buttonDisabled
               ]}
               onPress={handleContinue}
-              disabled={step === 3 && !name.trim()}
+              disabled={step === 4 && !name.trim()}
             >
               <Text style={styles.buttonText}>
-                {step === 3 ? "Let's Start!" : 'Continue'}
+                {step === 4 ? "Let's Start!" : 'Continue'}
               </Text>
             </TouchableOpacity>
 
-            {step < 3 && (
+            {step < 4 && step !== 1 && (
               <TouchableOpacity
                 style={styles.skipButton}
-                onPress={() => setStep(3)}
+                onPress={() => setStep(4)}
               >
                 <Text style={styles.skipText}>Skip</Text>
               </TouchableOpacity>
@@ -223,5 +272,46 @@ const styles = StyleSheet.create({
   skipText: {
     color: '#6B4423',
     fontSize: 16,
+  },
+  languageScroll: {
+    width: '100%',
+    marginTop: 24,
+    maxHeight: 400,
+  },
+  languageScrollContent: {
+    gap: 12,
+    paddingBottom: 20,
+  },
+  languageOption: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: '#FFF',
+    paddingHorizontal: 20,
+    paddingVertical: 16,
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: '#E8D5C4',
+  },
+  languageOptionSelected: {
+    borderColor: '#FF6B35',
+    backgroundColor: '#FFF8F0',
+  },
+  languageLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  languageFlag: {
+    fontSize: 28,
+  },
+  languageName: {
+    fontSize: 18,
+    fontWeight: '500' as const,
+    color: '#2D1B00',
+  },
+  languageNameSelected: {
+    color: '#FF6B35',
+    fontWeight: '600' as const,
   },
 });
