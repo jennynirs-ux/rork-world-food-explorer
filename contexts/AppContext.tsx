@@ -33,7 +33,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     allBadges.map(b => ({ ...b, earned: false }))
   );
   const [favoriteRecipes, setFavoriteRecipes] = useState<FavoriteRecipe[]>([]);
-  const [countries, setCountries] = useState<Country[]>(localCountries);
+  const [countries, setCountries] = useState(localCountries);
   const [isLoading, setIsLoading] = useState(true);
 
   const countriesQuery = trpc.countries.getAll.useQuery(undefined, {
@@ -87,7 +87,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
           console.log(`Local countries count: ${localCountries.length}`);
           console.log(`Backend countries count: ${countriesQuery.data?.length || 0}`);
           
-          await bulkUpdateMutation.mutateAsync({ countries: localCountries });
+          await bulkUpdateMutation.mutateAsync({ countries: localCountries as any });
           console.log('Countries synced successfully!');
           
           const refreshedData = await countriesQuery.refetch();

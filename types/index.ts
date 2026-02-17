@@ -4,60 +4,62 @@ export type DietType = 'meat' | 'fish' | 'vegetarian' | 'vegan';
 
 export type Recipe = {
   id: string;
-  name: string;
-  description: string;
+  name: string | { en: string; sv: string; es: string; fr: string; de: string };
+  description: string | { en: string; sv: string; es: string; fr: string; de: string };
   cookingTime: number;
   servings: number;
   dietType: DietType;
   difficulty?: 'easy' | 'medium' | 'hard';
   ingredients: {
-    name: string;
+    name: string | { en: string; sv: string; es: string; fr: string; de: string };
     amount: number;
     unit: string;
   }[];
-  steps: string[];
+  steps: (string | { en: string; sv: string; es: string; fr: string; de: string })[];
   imageUrl?: string;
 };
 
 export type Drink = {
-  alcoholic: string;
-  nonAlcoholic: string;
+  alcoholic: string | { en: string; sv: string; es: string; fr: string; de: string };
+  nonAlcoholic: string | { en: string; sv: string; es: string; fr: string; de: string };
 };
 
 export type QuizQuestion = {
   id: string;
-  question: string;
-  options: string[];
+  question: string | { en: string; sv: string; es: string; fr: string; de: string };
+  options: (string | { en: string; sv: string; es: string; fr: string; de: string })[];
   correctAnswer: number;
 };
 
 export type HistoryEvent = {
   year: string;
-  title: string;
-  description: string;
+  title: string | { en: string; sv: string; es: string; fr: string; de: string };
+  description: string | { en: string; sv: string; es: string; fr: string; de: string };
 };
 
 export type Innovation = {
-  name: string;
+  name: string | { en: string; sv: string; es: string; fr: string; de: string };
   year: string;
-  description: string;
+  description: string | { en: string; sv: string; es: string; fr: string; de: string };
 };
 
 export type MustVisit = {
-  name: string;
-  description: string;
+  name: string | { en: string; sv: string; es: string; fr: string; de: string };
+  description: string | { en: string; sv: string; es: string; fr: string; de: string };
   imageUrl?: string;
 };
 
 export type TravelEssential = {
-  item: string;
-  description: string;
+  item: string | { en: string; sv: string; es: string; fr: string; de: string };
+  description: string | { en: string; sv: string; es: string; fr: string; de: string };
 };
 
 export type QuickFact = {
   label: string;
   value: string;
 };
+
+export type TranslatedString = string | { en: string; sv: string; es: string; fr: string; de: string };
 
 export type Country = {
   id: string;
@@ -66,10 +68,10 @@ export type Country = {
   continent: string;
   flag: string;
   landscapeImage?: string;
-  description: string;
+  description: TranslatedString;
   quickFacts?: QuickFact[];
-  facts: string[];
-  foodCulture: string;
+  facts: TranslatedString[];
+  foodCulture: TranslatedString;
   history?: HistoryEvent[];
   innovations?: Innovation[];
   mustVisit?: MustVisit[];
@@ -78,8 +80,8 @@ export type Country = {
   dessert?: Recipe;
   drinks: Drink;
   music: string[];
-  decorationIdeas: string[];
-  conversationStarters: string[];
+  decorationIdeas: TranslatedString[];
+  conversationStarters: TranslatedString[];
   quiz: QuizQuestion[];
   coordinates?: { x: number; y: number };
   isUnlockedByDefault?: boolean;

@@ -58,10 +58,11 @@ export const countriesDB = {
 
   search: async (query: string): Promise<Country[]> => {
     const lowerQuery = query.toLowerCase();
-    return countriesStore.filter(c => 
-      c.name.toLowerCase().includes(lowerQuery) ||
-      c.description.toLowerCase().includes(lowerQuery) ||
-      c.continent.toLowerCase().includes(lowerQuery)
-    );
+    return countriesStore.filter(c => {
+      const description = typeof c.description === 'string' ? c.description : c.description.en;
+      return c.name.toLowerCase().includes(lowerQuery) ||
+        description.toLowerCase().includes(lowerQuery) ||
+        c.continent.toLowerCase().includes(lowerQuery);
+    });
   },
 };

@@ -14,6 +14,7 @@ import { useApp } from '@/contexts/AppContext';
 import { isCountryAccessible } from '@/lib/access-control';
 import Paywall from '@/components/Paywall';
 import { useTranslation } from '@/lib/i18n';
+import { useTranslatedCountry } from '@/lib/use-translated-country';
 import colors from '@/constants/colors';
 import { 
   Compass, 
@@ -76,6 +77,8 @@ export default function CountryDetailScreen() {
     purchaseProduct
   } = useApp();
   
+  const lang = userProfile.language || 'en';
+  
   const [activeTab, setActiveTab] = useState<'about' | 'recipes' | 'quiz'>('about');
   const [recipeServings, setRecipeServings] = useState(4);
   const [quizAnswers, setQuizAnswers] = useState<number[]>([]);
@@ -83,7 +86,8 @@ export default function CountryDetailScreen() {
   const [showDessertRating, setShowDessertRating] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
 
-  const country = countries.find(c => c.id === id);
+  const countryData = countries.find(c => c.id === id);
+  const country = useTranslatedCountry(countryData, lang);
   const currentCountryIndex = countries.findIndex(c => c.id === id);
 
   const progress = useMemo(() => {
@@ -156,9 +160,13 @@ export default function CountryDetailScreen() {
     
     updateCountryProgress(country.id, { [field]: true }, points);
     
+    const dishName = isDessert 
+      ? (country.dessert?.name || '') 
+      : country.mainDish.name;
+    
     Alert.alert(
       t.country.greatJob,
-      t.country.earnedPoints.replace('{points}', points.toString()).replace('{dish}', isDessert ? country.dessert?.name || '' : country.mainDish.name)
+      t.country.earnedPoints.replace('{points}', points.toString()).replace('{dish}', dishName)
     );
   };
 
@@ -167,8 +175,9 @@ export default function CountryDetailScreen() {
     if (!recipe) return;
 
     const scaledIngredients = recipe.ingredients.map(ing => ({
-      ...ing,
+      name: ing.name,
       amount: (ing.amount / recipe.servings) * recipeServings,
+      unit: ing.unit,
     }));
 
     addToShoppingList(scaledIngredients, country.id, country.name);
@@ -180,6 +189,7 @@ export default function CountryDetailScreen() {
     if (!recipe) return;
 
     const isFavorite = isRecipeFavorite(recipe.id);
+    const recipeName = recipe.name;
     
     if (isFavorite) {
       removeFavoriteRecipe(recipe.id);
@@ -187,7 +197,7 @@ export default function CountryDetailScreen() {
     } else {
       addFavoriteRecipe(
         recipe.id,
-        recipe.name,
+        recipeName,
         country.id,
         country.name,
         country.flag,
