@@ -106,7 +106,7 @@ export default function CountryDetailScreen() {
   if (!country || !progress) {
     return (
       <SafeAreaView style={styles.container}>
-        <Text>Country not found</Text>
+        <Text>{t.country.notFound}</Text>
       </SafeAreaView>
     );
   }
@@ -126,14 +126,14 @@ export default function CountryDetailScreen() {
             <Text style={styles.lockedFlag}>{country.flag}</Text>
             <Text style={styles.lockedCountryName}>{country.name}</Text>
             <Lock size={64} color={colors.terracotta} />
-            <Text style={styles.lockedMessage}>This country is locked</Text>
-            <Text style={styles.lockedSubMessage}>Unlock {country.continent} or the World Pack to access this country</Text>
+            <Text style={styles.lockedMessage}>{t.country.lockedCountry}</Text>
+            <Text style={styles.lockedSubMessage}>{t.country.unlockMessage.replace('{continent}', country.continent)}</Text>
             
             <TouchableOpacity 
               style={styles.unlockButton}
               onPress={() => setShowPaywall(true)}
             >
-              <Text style={styles.unlockButtonText}>View Unlock Options</Text>
+              <Text style={styles.unlockButtonText}>{t.country.viewUnlockOptions}</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -157,8 +157,8 @@ export default function CountryDetailScreen() {
     updateCountryProgress(country.id, { [field]: true }, points);
     
     Alert.alert(
-      'Great Job!',
-      `You earned ${points} points for cooking ${isDessert ? country.dessert?.name : country.mainDish.name}!`
+      t.country.greatJob,
+      t.country.earnedPoints.replace('{points}', points.toString()).replace('{dish}', isDessert ? country.dessert?.name || '' : country.mainDish.name)
     );
   };
 
@@ -172,7 +172,7 @@ export default function CountryDetailScreen() {
     }));
 
     addToShoppingList(scaledIngredients, country.id, country.name);
-    Alert.alert('Added', 'Ingredients added to your shopping list!');
+    Alert.alert(t.country.added, t.country.ingredientsAdded);
   };
 
   const handleToggleFavorite = (isDessert: boolean) => {
@@ -183,7 +183,7 @@ export default function CountryDetailScreen() {
     
     if (isFavorite) {
       removeFavoriteRecipe(recipe.id);
-      Alert.alert('Removed', 'Recipe removed from favorites');
+      Alert.alert(t.country.removed, t.country.recipeRemoved);
     } else {
       addFavoriteRecipe(
         recipe.id,
@@ -193,7 +193,7 @@ export default function CountryDetailScreen() {
         country.flag,
         isDessert
       );
-      Alert.alert('Added', 'Recipe added to favorites!');
+      Alert.alert(t.country.added, t.country.recipeAdded);
     }
   };
 
@@ -213,7 +213,7 @@ export default function CountryDetailScreen() {
     } else {
       setShowMainDishRating(false);
     }
-    Alert.alert('Rating saved', `You rated this ${rating} stars!`);
+    Alert.alert(t.country.ratingSaved, t.country.ratedStars.replace('{rating}', rating.toString()));
   };
 
   const handleNextCountry = () => {
@@ -256,7 +256,7 @@ export default function CountryDetailScreen() {
 
   const handleSubmitQuiz = () => {
     if (quizAnswers.length !== country.quiz.length) {
-      Alert.alert('Incomplete', 'Please answer all questions');
+      Alert.alert(t.country.incomplete, t.country.answerAllQuestions);
       return;
     }
 
@@ -275,8 +275,8 @@ export default function CountryDetailScreen() {
 
     setTimeout(() => {
       Alert.alert(
-        'Quiz Complete!',
-        `You got ${correctCount} out of ${country.quiz.length} correct!\nYou earned ${points} points.`
+        t.country.quizComplete,
+        t.country.quizResult.replace('{correct}', correctCount.toString()).replace('{total}', country.quiz.length.toString()).replace('{points}', points.toString())
       );
     }, 500);
   };
@@ -349,28 +349,28 @@ export default function CountryDetailScreen() {
             onPress={() => setActiveTab('about')}
           >
             <Info size={20} color={activeTab === 'about' ? colors.terracotta : colors.textTertiary} />
-            <Text style={[styles.tabText, activeTab === 'about' && styles.tabTextActive]}>About</Text>
+            <Text style={[styles.tabText, activeTab === 'about' && styles.tabTextActive]}>{t.country.about}</Text>
           </TouchableOpacity>
           <TouchableOpacity 
             style={[styles.tab, activeTab === 'recipes' && styles.tabActive]}
             onPress={() => setActiveTab('recipes')}
           >
             <Utensils size={20} color={activeTab === 'recipes' ? colors.terracotta : colors.textTertiary} />
-            <Text style={[styles.tabText, activeTab === 'recipes' && styles.tabTextActive]}>Recipes</Text>
+            <Text style={[styles.tabText, activeTab === 'recipes' && styles.tabTextActive]}>{t.country.recipes}</Text>
           </TouchableOpacity>
           <TouchableOpacity 
             style={[styles.tab, activeTab === 'quiz' && styles.tabActive]}
             onPress={() => setActiveTab('quiz')}
           >
             <HelpCircle size={20} color={activeTab === 'quiz' ? colors.terracotta : colors.textTertiary} />
-            <Text style={[styles.tabText, activeTab === 'quiz' && styles.tabTextActive]}>Quiz</Text>
+            <Text style={[styles.tabText, activeTab === 'quiz' && styles.tabTextActive]}>{t.country.quiz}</Text>
           </TouchableOpacity>
         </View>
 
         {activeTab === 'about' && (
           <View style={styles.tabContent}>
             <View style={styles.section}>
-              <Text style={styles.sectionTitleLarge}>Introduction</Text>
+              <Text style={styles.sectionTitleLarge}>{t.country.introduction}</Text>
               <Text style={styles.description}>{country.description}</Text>
             </View>
 
@@ -422,7 +422,7 @@ export default function CountryDetailScreen() {
               <View style={styles.funFactsCard}>
                 <View style={styles.funFactsHeader}>
                   <Check size={24} color={colors.text} />
-                  <Text style={styles.funFactsTitle}>Fun Facts</Text>
+                  <Text style={styles.funFactsTitle}>{t.country.funFacts}</Text>
                 </View>
                 {country.facts.slice(0, 3).map((fact, idx) => (
                   <Text key={idx} style={styles.funFactText}>• {fact}</Text>
@@ -434,7 +434,7 @@ export default function CountryDetailScreen() {
               <View style={styles.historyCard}>
                 <View style={styles.historySectionHeader}>
                   <Landmark size={24} color={colors.terracotta} />
-                  <Text style={styles.historyTitle}>Historical Highlights</Text>
+                  <Text style={styles.historyTitle}>{t.country.historicalHighlights}</Text>
                 </View>
                 <View style={styles.historyTimelineContainer}>
                   {(country.history || []).map((event, idx) => (
@@ -468,7 +468,7 @@ export default function CountryDetailScreen() {
               <View style={styles.innovationsCard}>
                 <View style={styles.innovationsSectionHeader}>
                   <Lightbulb size={24} color={colors.orange} />
-                  <Text style={styles.innovationsTitle}>Innovations</Text>
+                  <Text style={styles.innovationsTitle}>{t.country.innovations}</Text>
                 </View>
                 <View style={styles.innovationsContainer}>
                   {(country.innovations || []).map((innovation, idx) => (
@@ -493,7 +493,7 @@ export default function CountryDetailScreen() {
               <View style={styles.foodCultureCard}>
                 <View style={styles.foodCultureHeader}>
                   <ChefHat size={24} color={colors.text} />
-                  <Text style={styles.foodCultureTitle}>Food Culture</Text>
+                  <Text style={styles.foodCultureTitle}>{t.country.foodCulture}</Text>
                 </View>
                 <View style={styles.foodCultureContent}>
                   <Text style={styles.foodCultureText}>{country.foodCulture}</Text>
@@ -506,7 +506,7 @@ export default function CountryDetailScreen() {
                 <View style={styles.mustVisitCard}>
                   <View style={styles.mustVisitHeader}>
                     <MapPin size={24} color="#D95757" />
-                    <Text style={styles.mustVisitTitle}>Must Visit</Text>
+                    <Text style={styles.mustVisitTitle}>{t.country.mustVisit}</Text>
                   </View>
                   <View style={styles.mustVisitList}>
                     {country.mustVisit.map((place, idx) => (
@@ -530,7 +530,7 @@ export default function CountryDetailScreen() {
                 <View style={styles.travelEssentialsCard}>
                   <View style={styles.travelEssentialsHeader}>
                     <Sparkles size={24} color={colors.text} />
-                    <Text style={styles.travelEssentialsTitle}>Travel Essentials</Text>
+                    <Text style={styles.travelEssentialsTitle}>{t.country.travelEssentials}</Text>
                   </View>
                   <View style={styles.travelEssentialsList}>
                     {country.travelEssentials.map((essential, idx) => (
@@ -554,7 +554,7 @@ export default function CountryDetailScreen() {
         {activeTab === 'recipes' && (
           <View style={styles.tabContent}>
             <View style={styles.section}>
-              <Text style={styles.sectionTitle}>Main Dish</Text>
+              <Text style={styles.sectionTitle}>{t.country.mainDish}</Text>
               <View style={styles.recipeCard}>
                 {country.mainDish.imageUrl && (
                   <Image
@@ -595,14 +595,14 @@ export default function CountryDetailScreen() {
                   </TouchableOpacity>
                 </View>
 
-                <Text style={styles.subheading}>Ingredients</Text>
+                <Text style={styles.subheading}>{t.country.ingredients}</Text>
                 {country.mainDish.ingredients.map((ing, idx) => (
                   <Text key={idx} style={styles.ingredientText}>
                     • {(ing.amount * servingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
                   </Text>
                 ))}
 
-                <Text style={styles.subheading}>Instructions</Text>
+                <Text style={styles.subheading}>{t.country.instructions}</Text>
                 {country.mainDish.steps.map((step, idx) => (
                   <Text key={idx} style={styles.stepText}>
                     {idx + 1}. {step}
@@ -618,12 +618,12 @@ export default function CountryDetailScreen() {
                     {progress.mainDishCooked ? (
                       <>
                         <Check size={20} color="#10B981" />
-                        <Text style={styles.actionButtonTextDone}>Cooked!</Text>
+                        <Text style={styles.actionButtonTextDone}>{t.country.cooked}</Text>
                       </>
                     ) : (
                       <>
                         <ChefHat size={20} color="#FFF" />
-                        <Text style={styles.actionButtonText}>Mark as Cooked</Text>
+                        <Text style={styles.actionButtonText}>{t.country.markAsCooked}</Text>
                       </>
                     )}
                   </TouchableOpacity>
@@ -633,7 +633,7 @@ export default function CountryDetailScreen() {
                     onPress={() => handleAddToShoppingList(false)}
                   >
                     <Plus size={20} color="#FF6B35" />
-                    <Text style={styles.actionButtonSecondaryText}>Add to List</Text>
+                    <Text style={styles.actionButtonSecondaryText}>{t.country.addToList}</Text>
                   </TouchableOpacity>
                 </View>
 
@@ -664,7 +664,7 @@ export default function CountryDetailScreen() {
                         style={styles.ratingDisplay}
                         onPress={() => setShowMainDishRating(true)}
                       >
-                        <Text style={styles.ratingLabel}>Your Rating:</Text>
+                        <Text style={styles.ratingLabel}>{t.country.yourRating}:</Text>
                         <View style={styles.starsRow}>
                           {[1, 2, 3, 4, 5].map(star => (
                             <Text key={star} style={styles.starText}>
@@ -676,7 +676,7 @@ export default function CountryDetailScreen() {
                     ) : (
                       <View style={styles.ratingContainer}>
                         <Text style={styles.ratingTitle}>
-                          {progress.mainDishRating ? 'Update Rating' : 'Rate this recipe'}
+                          {progress.mainDishRating ? t.country.updateRating : t.country.rateRecipe}
                         </Text>
                         <View style={styles.starsRow}>
                           {[1, 2, 3, 4, 5].map(star => (
@@ -700,7 +700,7 @@ export default function CountryDetailScreen() {
 
             {country.dessert && (
               <View style={styles.section}>
-                <Text style={styles.sectionTitle}>Dessert</Text>
+                <Text style={styles.sectionTitle}>{t.country.dessert}</Text>
                 <View style={styles.recipeCard}>
                   {country.dessert.imageUrl && (
                     <Image
@@ -719,14 +719,14 @@ export default function CountryDetailScreen() {
                     </View>
                   </View>
 
-                  <Text style={styles.subheading}>Ingredients</Text>
+                  <Text style={styles.subheading}>{t.country.ingredients}</Text>
                   {country.dessert.ingredients.map((ing, idx) => (
                     <Text key={idx} style={styles.ingredientText}>
                       • {(ing.amount * servingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
                     </Text>
                   ))}
 
-                  <Text style={styles.subheading}>Instructions</Text>
+                  <Text style={styles.subheading}>{t.country.instructions}</Text>
                   {country.dessert.steps.map((step, idx) => (
                     <Text key={idx} style={styles.stepText}>
                       {idx + 1}. {step}
@@ -742,12 +742,12 @@ export default function CountryDetailScreen() {
                       {progress.dessertCooked ? (
                         <>
                           <Check size={20} color="#10B981" />
-                          <Text style={styles.actionButtonTextDone}>Cooked!</Text>
+                          <Text style={styles.actionButtonTextDone}>{t.country.cooked}</Text>
                         </>
                       ) : (
                         <>
                           <ChefHat size={20} color="#FFF" />
-                          <Text style={styles.actionButtonText}>Mark as Cooked</Text>
+                          <Text style={styles.actionButtonText}>{t.country.markAsCooked}</Text>
                         </>
                       )}
                     </TouchableOpacity>
@@ -757,7 +757,7 @@ export default function CountryDetailScreen() {
                       onPress={() => handleAddToShoppingList(true)}
                     >
                       <Plus size={20} color="#FF6B35" />
-                      <Text style={styles.actionButtonSecondaryText}>Add to List</Text>
+                      <Text style={styles.actionButtonSecondaryText}>{t.country.addToList}</Text>
                     </TouchableOpacity>
                   </View>
 
@@ -790,7 +790,7 @@ export default function CountryDetailScreen() {
                           style={styles.ratingDisplay}
                           onPress={() => setShowDessertRating(true)}
                         >
-                          <Text style={styles.ratingLabel}>Your Rating:</Text>
+                          <Text style={styles.ratingLabel}>{t.country.yourRating}:</Text>
                           <View style={styles.starsRow}>
                             {[1, 2, 3, 4, 5].map(star => (
                               <Text key={star} style={styles.starText}>
@@ -802,7 +802,7 @@ export default function CountryDetailScreen() {
                       ) : (
                         <View style={styles.ratingContainer}>
                           <Text style={styles.ratingTitle}>
-                            {progress.dessertRating ? 'Update Rating' : 'Rate this recipe'}
+                            {progress.dessertRating ? t.country.updateRating : t.country.rateRecipe}
                           </Text>
                           <View style={styles.starsRow}>
                             {[1, 2, 3, 4, 5].map(star => (
@@ -828,22 +828,22 @@ export default function CountryDetailScreen() {
             <View style={styles.section}>
               <View style={styles.sectionHeader}>
                 <Wine size={20} color={colors.terracotta} />
-                <Text style={styles.sectionTitle}>Drinks & Music</Text>
+                <Text style={styles.sectionTitle}>{t.country.drinksMusic}</Text>
               </View>
               <View style={styles.fullWidthCard}>
                 <View style={styles.drinkSection}>
                   <Wine size={18} color={colors.earthBrown} />
-                  <Text style={styles.infoLabel}>Alcoholic</Text>
+                  <Text style={styles.infoLabel}>{t.country.alcoholic}</Text>
                 </View>
                 <Text style={styles.infoText}>{country.drinks.alcoholic}</Text>
                 <View style={styles.drinkSection}>
                   <Glasses size={18} color={colors.earthBrown} />
-                  <Text style={styles.infoLabel}>Non-Alcoholic</Text>
+                  <Text style={styles.infoLabel}>{t.country.nonAlcoholic}</Text>
                 </View>
                 <Text style={styles.infoText}>{country.drinks.nonAlcoholic}</Text>
                 <View style={styles.drinkSection}>
                   <Music size={18} color={colors.earthBrown} />
-                  <Text style={styles.infoLabel}>Music Suggestions</Text>
+                  <Text style={styles.infoLabel}>{t.country.musicSuggestions}</Text>
                 </View>
                 {country.music.map((song, idx) => (
                   <Text key={idx} style={styles.musicText}>• {song}</Text>
@@ -854,7 +854,7 @@ export default function CountryDetailScreen() {
             <View style={styles.section}>
               <View style={styles.sectionHeader}>
                 <Sparkles size={20} color={colors.terracotta} />
-                <Text style={styles.sectionTitle}>Decoration Ideas</Text>
+                <Text style={styles.sectionTitle}>{t.country.decorationIdeas}</Text>
               </View>
               <View style={styles.fullWidthCard}>
                 {country.decorationIdeas.map((idea, idx) => (
@@ -866,7 +866,7 @@ export default function CountryDetailScreen() {
             <View style={styles.section}>
               <View style={styles.sectionHeader}>
                 <MessageCircle size={20} color={colors.terracotta} />
-                <Text style={styles.sectionTitle}>Conversation Starters</Text>
+                <Text style={styles.sectionTitle}>{t.country.conversationStarters}</Text>
               </View>
               <View style={styles.fullWidthCard}>
                 {country.conversationStarters.map((q, idx) => (
@@ -886,9 +886,9 @@ export default function CountryDetailScreen() {
               {progress.quizCompleted && (
                 <View style={styles.quizCompleted}>
                   <Check size={40} color="#10B981" />
-                  <Text style={styles.quizCompletedText}>Quiz Completed!</Text>
+                  <Text style={styles.quizCompletedText}>{t.country.quizCompleted}</Text>
                   <Text style={styles.quizScoreText}>
-                    Score: {progress.quizScore} / {country.quiz.length}
+                    {t.country.score}: {progress.quizScore} / {country.quiz.length}
                   </Text>
                 </View>
               )}
@@ -942,7 +942,7 @@ export default function CountryDetailScreen() {
                     style={styles.submitQuizButton}
                     onPress={handleSubmitQuiz}
                   >
-                    <Text style={styles.submitQuizButtonText}>Submit Quiz</Text>
+                    <Text style={styles.submitQuizButtonText}>{t.country.submitQuiz}</Text>
                   </TouchableOpacity>
                 )}
               </View>
