@@ -1,19 +1,12 @@
-import { generateObject } from '@rork-ai/toolkit-sdk';
-import { z } from 'zod';
 import { readFileSync, writeFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 
+const PROJECT_ID = '56o1fosrqamv60p2zg5yo';
+const TOOLKIT_URL = process.env.EXPO_PUBLIC_TOOLKIT_URL || 'https://toolkit.rork.app';
+const RORK_API = process.env.EXPO_PUBLIC_RORK_API_BASE_URL || 'https://api.rork.app';
 const DATA_DIR = join(process.cwd(), 'data', 'countries');
 
-type TranslatedContent = {
-  en: string;
-  sv: string;
-  es: string;
-  fr: string;
-  de: string;
-};
-
-function escapeString(str: string): string {
+function escapeString(str) {
   return str
     .replace(/\\/g, '\\\\')
     .replace(/'/g, "\\'")
@@ -22,44 +15,65 @@ function escapeString(str: string): string {
     .replace(/\t/g, '\\t');
 }
 
-function formatTranslatedContent(content: TranslatedContent): string {
+function formatTranslatedContent(content) {
   return `{ en: '${escapeString(content.en)}', sv: '${escapeString(content.sv)}', es: '${escapeString(content.es)}', fr: '${escapeString(content.fr)}', de: '${escapeString(content.de)}' }`;
 }
 
-async function translateBatch(texts: string[], category: string): Promise<TranslatedContent[]> {
+async function translateBatch(texts, category) {
   console.log(`      Translating ${texts.length} ${category}...`);
   
-  const result = await generateObject({
-    messages: [
-      {
+  const response = await fetch(`${RORK_API}/v1/toolkit/generate-object`, {
+    method: 'POST',
+    headers: { 
+      'Content-Type': 'application/json',
+      'x-project-id': PROJECT_ID
+    },
+    body: JSON.stringify({
+      messages: [{
         role: 'user',
         content: `Translate the following texts to Swedish (sv), Spanish (es), French (fr), and German (de). Maintain the tone, style, and context.
 
 Texts (${category}):
 ${texts.map((t, i) => `${i + 1}. ${t}`).join('\n')}
 
-Return JSON with translations array.`,
-      },
-    ],
-    schema: z.object({
-      translations: z.array(
-        z.object({
-          sv: z.string(),
-          es: z.string(),
-          fr: z.string(),
-          de: z.string(),
-        })
-      ),
-    }),
+Return JSON with translations array.`
+      }],
+      schema: {
+        type: 'object',
+        properties: {
+          translations: {
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                sv: { type: 'string' },
+                es: { type: 'string' },
+                fr: { type: 'string' },
+                de: { type: 'string' }
+              },
+              required: ['sv', 'es', 'fr', 'de']
+            }
+          }
+        },
+        required: ['translations']
+      }
+    })
   });
 
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`API error: ${response.status} ${text}`);
+  }
+
+  const result = await response.json();
+  
   return result.translations.map((t, i) => ({
     en: texts[i],
-    ...t,
+    ...t
   }));
 }
 
-async function translateCountryFile(filePath: string): Promise<void> {
+async function translateCountryFile(filePath) {
   console.log(`\n🌍 Processing ${filePath.split('/').pop()}...`);
   
   let content = readFileSync(filePath, 'utf-8');
@@ -69,14 +83,14 @@ async function translateCountryFile(filePath: string): Promise<void> {
   if (descMatch && !descMatch[0].includes('{ en:')) {
     console.log('    📝 Description');
     const translated = await translateBatch([descMatch[1]], 'description');
-    content = content.replace(/description: '[^']+'/,`description: ${formatTranslatedContent(translated[0])}`);
+    content = content.replace(/description: '[^']+'/, `description: ${formatTranslatedContent(translated[0])}`);
   }
 
   const foodMatch = content.match(/foodCulture: '([^']+)'/);
   if (foodMatch && !foodMatch[0].includes('{ en:')) {
     console.log('    🍽️  Food culture');
     const translated = await translateBatch([foodMatch[1]], 'food culture');
-    content = content.replace(/foodCulture: '[^']+'/,`foodCulture: ${formatTranslatedContent(translated[0])}`);
+    content = content.replace(/foodCulture: '[^']+'/, `foodCulture: ${formatTranslatedContent(translated[0])}`);
   }
 
   const factsMatch = content.match(/facts: \[([\s\S]*?)\]/);
@@ -86,7 +100,7 @@ async function translateCountryFile(filePath: string): Promise<void> {
       console.log(`    📊 ${facts.length} facts`);
       const translated = await translateBatch(facts, 'facts');
       const factsStr = translated.map(f => `    ${formatTranslatedContent(f)}`).join(',\n');
-      content = content.replace(/facts: \[[\s\S]*?\]/,`facts: [\n${factsStr},\n  ]`);
+      content = content.replace(/facts: \[[\s\S]*?\]/, `facts: [\n${factsStr},\n  ]`);
     }
   }
 
@@ -100,16 +114,17 @@ async function translateCountryFile(filePath: string): Promise<void> {
       const translatedTitles = await translateBatch(titles, 'history titles');
       const translatedDescs = await translateBatch(descs, 'history descriptions');
       
-      events.forEach((e, i) => {
+      for (let i = 0; i < events.length; i++) {
+        const e = events[i];
         content = content.replace(
-          new RegExp(`title: '${escapeString(e[1]).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
+          new RegExp(`title: '${e[1].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
           `title: ${formatTranslatedContent(translatedTitles[i])}`
         );
         content = content.replace(
-          new RegExp(`description: '${escapeString(e[2]).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
+          new RegExp(`description: '${e[2].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
           `description: ${formatTranslatedContent(translatedDescs[i])}`
         );
-      });
+      }
     }
   }
 
@@ -123,27 +138,18 @@ async function translateCountryFile(filePath: string): Promise<void> {
       const translatedNames = await translateBatch(names, 'innovation names');
       const translatedDescs = await translateBatch(descs, 'innovation descriptions');
       
-      innovations.forEach((e, i) => {
+      for (let i = 0; i < innovations.length; i++) {
+        const e = innovations[i];
         content = content.replace(
-          new RegExp(`name: '${escapeString(e[1]).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
+          new RegExp(`name: '${e[1].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
           `name: ${formatTranslatedContent(translatedNames[i])}`
         );
         content = content.replace(
-          new RegExp(`description: '${escapeString(e[2]).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
+          new RegExp(`description: '${e[2].replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
           `description: ${formatTranslatedContent(translatedDescs[i])}`
         );
-      });
+      }
     }
-  }
-
-  const mainDishMatch = content.match(/mainDish: \{[\s\S]*?name: '([^']+)'[\s\S]*?description: '([^']+)'/);
-  if (mainDishMatch && !mainDishMatch[0].includes('{ en:')) {
-    console.log('    🥘 Main dish');
-    const translated = await translateBatch([mainDishMatch[1], mainDishMatch[2]], 'recipe');
-    content = content.replace(
-      /mainDish: \{[\s\S]*?name: '[^']+'/,
-      content.match(/mainDish: \{[\s\S]*?name:/)?.[0] + ` ${formatTranslatedContent(translated[0])}`
-    );
   }
 
   const decoMatch = content.match(/decorationIdeas: \[([\s\S]*?)\],/);
@@ -153,7 +159,7 @@ async function translateCountryFile(filePath: string): Promise<void> {
       console.log(`    🎨 ${items.length} decoration ideas`);
       const translated = await translateBatch(items, 'decoration ideas');
       const str = translated.map(f => `    ${formatTranslatedContent(f)}`).join(',\n');
-      content = content.replace(/decorationIdeas: \[[\s\S]*?\],/,`decorationIdeas: [\n${str},\n  ],`);
+      content = content.replace(/decorationIdeas: \[[\s\S]*?\],/, `decorationIdeas: [\n${str},\n  ],`);
     }
   }
 
@@ -164,7 +170,7 @@ async function translateCountryFile(filePath: string): Promise<void> {
       console.log(`    💬 ${items.length} conversation starters`);
       const translated = await translateBatch(items, 'conversation starters');
       const str = translated.map(f => `    ${formatTranslatedContent(f)}`).join(',\n');
-      content = content.replace(/conversationStarters: \[[\s\S]*?\],/,`conversationStarters: [\n${str},\n  ],`);
+      content = content.replace(/conversationStarters: \[[\s\S]*?\],/, `conversationStarters: [\n${str},\n  ],`);
     }
   }
 
@@ -182,16 +188,17 @@ async function translateCountryFile(filePath: string): Promise<void> {
         const translatedOpts = await translateBatch(options, 'quiz options');
         
         content = content.replace(
-          new RegExp(`question: '${escapeString(question).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
+          new RegExp(`question: '${question.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
           `question: ${formatTranslatedContent(translatedQ[0])}`
         );
         
-        options.forEach((opt, i) => {
+        for (let i = 0; i < options.length; i++) {
+          const opt = options[i];
           content = content.replace(
-            new RegExp(`'${escapeString(opt).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
+            new RegExp(`'${opt.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`),
             formatTranslatedContent(translatedOpts[i])
           );
-        });
+        }
       }
     }
   }
@@ -215,10 +222,11 @@ async function main() {
 
   for (let i = 0; i < files.length; i++) {
     try {
+      console.log(`\n[${i + 1}/${files.length}]`);
       await translateCountryFile(files[i]);
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      await new Promise(resolve => setTimeout(resolve, 2000));
     } catch (error) {
-      console.error(`❌ Error:`, error);
+      console.error(`❌ Error:`, error.message);
     }
   }
 
