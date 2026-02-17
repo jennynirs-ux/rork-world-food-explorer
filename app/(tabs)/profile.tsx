@@ -2,8 +2,20 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch } f
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
-import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout } from 'lucide-react-native';
+import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages } from 'lucide-react-native';
 import { DietType } from '@/types';
+
+const LANGUAGES = [
+  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'sv', name: 'Svenska', flag: '🇸🇪' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'it', name: 'Italiano', flag: '🇮🇹' },
+  { code: 'pl', name: 'Polski', flag: '🇵🇱' },
+  { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
+  { code: 'pt', name: 'Português', flag: '🇵🇹' },
+];
 
 export default function ProfileScreen() {
   const router = useRouter();
@@ -38,6 +50,12 @@ export default function ProfileScreen() {
   const toggleMetric = () => {
     updateUserProfile({ useMetric: !userProfile.useMetric });
   };
+
+  const handleLanguageChange = (langCode: string) => {
+    updateUserProfile({ language: langCode });
+  };
+
+  const currentLanguage = LANGUAGES.find(l => l.code === (userProfile.language || 'en'));
 
   const dietOptions: { type: DietType; label: string; IconComponent: typeof Beef }[] = [
     { type: 'meat', label: 'Meat', IconComponent: Beef },
@@ -118,6 +136,41 @@ export default function ProfileScreen() {
                 trackColor={{ false: '#D1D5DB', true: '#FF6B35' }}
                 thumbColor="#FFF"
               />
+            </View>
+          </View>
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Language</Text>
+          <View style={styles.card}>
+            <View style={styles.settingRow}>
+              <View style={styles.settingLeft}>
+                <Languages size={20} color="#FF6B35" />
+                <View style={styles.settingInfo}>
+                  <Text style={styles.settingName}>App Language</Text>
+                  <Text style={styles.settingDescription}>
+                    {currentLanguage?.flag} {currentLanguage?.name}
+                  </Text>
+                </View>
+              </View>
+              <TouchableOpacity
+                onPress={() => {
+                  Alert.alert(
+                    'Select Language',
+                    '',
+                    [
+                      ...LANGUAGES.map(lang => ({
+                        text: `${lang.flag} ${lang.name}`,
+                        onPress: () => handleLanguageChange(lang.code),
+                      })),
+                      { text: 'Cancel', style: 'cancel' },
+                    ]
+                  );
+                }}
+                style={styles.changeButton}
+              >
+                <Text style={styles.changeButtonText}>Change</Text>
+              </TouchableOpacity>
             </View>
           </View>
         </View>
@@ -415,6 +468,17 @@ const styles = StyleSheet.create({
   dangerButtonText: {
     color: '#EF4444',
     fontSize: 16,
+    fontWeight: '600' as const,
+  },
+  changeButton: {
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 8,
+    backgroundColor: '#FFF8F0',
+  },
+  changeButtonText: {
+    color: '#FF6B35',
+    fontSize: 14,
     fontWeight: '600' as const,
   },
 });
