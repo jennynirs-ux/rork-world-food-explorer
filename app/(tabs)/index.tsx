@@ -2,6 +2,7 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput } from 
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
+import { useTranslation } from '@/lib/i18n';
 import Paywall from '@/components/Paywall';
 import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock } from 'lucide-react-native';
 import Globe3D from '@/components/Globe3D';
@@ -10,6 +11,7 @@ import { isCountryAccessible } from '@/lib/access-control';
 
 export default function ExploreScreen() {
   const { countryProgress, countries, userProfile, purchaseProduct } = useApp();
+  const { t } = useTranslation();
   const purchasedProducts = userProfile.purchasedProducts || [];
   const router = useRouter();
   const [viewMode, setViewMode] = useState<'map' | 'list' | 'favorites'>('map');
@@ -92,7 +94,7 @@ export default function ExploreScreen() {
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.header}>
-        <Text style={styles.title}>Explore</Text>
+        <Text style={styles.title}>{t.explore.title}</Text>
         <View style={styles.viewToggle}>
           <TouchableOpacity
             style={[styles.toggleButton, viewMode === 'map' && styles.toggleButtonActive]}
@@ -122,7 +124,7 @@ export default function ExploreScreen() {
               <Search size={20} color="#9CA3AF" />
               <TextInput
                 style={styles.searchInput}
-                placeholder="Search favorites..."
+                placeholder={t.explore.searchFavorites}
                 placeholderTextColor="#9CA3AF"
                 value={searchQuery}
                 onChangeText={setSearchQuery}
@@ -178,8 +180,8 @@ export default function ExploreScreen() {
             {filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)).length === 0 && (
               <View style={styles.emptyFavorites}>
                 <Heart size={64} color="#D1D5DB" />
-                <Text style={styles.emptyTitle}>No favorites yet</Text>
-                <Text style={styles.emptyText}>Tap the heart on country pages to add them to your favorites</Text>
+                <Text style={styles.emptyTitle}>{t.explore.noFavorites}</Text>
+                <Text style={styles.emptyText}>{t.explore.noFavoritesDesc}</Text>
               </View>
             )}
             <View style={{ height: 20 }} />
@@ -195,13 +197,13 @@ export default function ExploreScreen() {
               
               <TouchableOpacity style={styles.randomButton} onPress={handleRandomCountry}>
                 <Shuffle size={20} color="#FFF" />
-                <Text style={styles.randomButtonText}>Pick Random Country</Text>
+                <Text style={styles.randomButtonText}>{t.explore.pickRandom}</Text>
               </TouchableOpacity>
             </View>
 
             <View style={styles.countryListSection}>
               <Text style={styles.sectionTitle}>
-                {filterStatus ? `${filterStatus.charAt(0).toUpperCase() + filterStatus.slice(1)} Countries` : 'All Countries'} ({filteredCountries.length})
+                {filterStatus === 'to do' ? t.explore.toDoCountries : filterStatus === 'cooking' ? t.explore.cookingCountries : filterStatus === 'done' ? t.explore.doneCountries : t.explore.allCountries} ({filteredCountries.length})
               </Text>
               <View style={styles.countryGrid}>
                 {filteredCountries.map(country => {
@@ -237,28 +239,28 @@ export default function ExploreScreen() {
               onPress={() => setFilterStatus(null)}
             >
               <Circle size={10} color={filterStatus === null ? '#FFF' : '#D1D5DB'} fill={filterStatus === null ? '#FFF' : '#D1D5DB'} />
-              <Text style={[styles.filterText, filterStatus === null && styles.filterTextActive]}>All</Text>
+              <Text style={[styles.filterText, filterStatus === null && styles.filterTextActive]}>{t.explore.all}</Text>
             </TouchableOpacity>
             <TouchableOpacity 
               style={[styles.filterButton, filterStatus === 'to do' && styles.filterButtonActive]}
               onPress={() => setFilterStatus('to do')}
             >
               <Circle size={10} color={filterStatus === 'to do' ? '#FFF' : '#D1D5DB'} fill={filterStatus === 'to do' ? '#FFF' : '#D1D5DB'} />
-              <Text style={[styles.filterText, filterStatus === 'to do' && styles.filterTextActive]}>To Do</Text>
+              <Text style={[styles.filterText, filterStatus === 'to do' && styles.filterTextActive]}>{t.explore.toDo}</Text>
             </TouchableOpacity>
             <TouchableOpacity 
               style={[styles.filterButton, filterStatus === 'cooking' && styles.filterButtonActive]}
               onPress={() => setFilterStatus('cooking')}
             >
               <UtensilsCrossed size={14} color={filterStatus === 'cooking' ? '#FFF' : '#F59E0B'} />
-              <Text style={[styles.filterText, filterStatus === 'cooking' && styles.filterTextActive]}>Cooking</Text>
+              <Text style={[styles.filterText, filterStatus === 'cooking' && styles.filterTextActive]}>{t.explore.cooking}</Text>
             </TouchableOpacity>
             <TouchableOpacity 
               style={[styles.filterButton, filterStatus === 'done' && styles.filterButtonActive]}
               onPress={() => setFilterStatus('done')}
             >
               <CheckCircle2 size={14} color={filterStatus === 'done' ? '#FFF' : '#10B981'} />
-              <Text style={[styles.filterText, filterStatus === 'done' && styles.filterTextActive]}>Done</Text>
+              <Text style={[styles.filterText, filterStatus === 'done' && styles.filterTextActive]}>{t.explore.done}</Text>
             </TouchableOpacity>
 
           </View>
@@ -270,7 +272,7 @@ export default function ExploreScreen() {
               <Search size={20} color="#9CA3AF" />
               <TextInput
                 style={styles.searchInput}
-                placeholder="Search countries..."
+                placeholder={t.explore.searchCountries}
                 placeholderTextColor="#9CA3AF"
                 value={searchQuery}
                 onChangeText={setSearchQuery}

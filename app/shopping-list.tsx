@@ -2,11 +2,13 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Share } from 'rea
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
+import { useTranslation } from '@/lib/i18n';
 import { ArrowLeft, Check, X, Share2, Trash2, ShoppingCart } from 'lucide-react-native';
 
 export default function ShoppingListScreen() {
   const router = useRouter();
   const { shoppingList, toggleShoppingItem, removeShoppingItem, clearShoppingList } = useApp();
+  const { t } = useTranslation();
 
   const handleShare = async () => {
     const listText = shoppingList
@@ -31,16 +33,16 @@ export default function ShoppingListScreen() {
         <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
           <ArrowLeft size={24} color="#2D1B00" />
         </TouchableOpacity>
-        <Text style={styles.topBarTitle}>Shopping List</Text>
+        <Text style={styles.topBarTitle}>{t.shopping.title}</Text>
         <View style={{ width: 40 }} />
       </View>
 
       {shoppingList.length === 0 ? (
         <View style={styles.emptyState}>
           <ShoppingCart size={80} color="#D1D5DB" />
-          <Text style={styles.emptyTitle}>No items yet</Text>
+          <Text style={styles.emptyTitle}>{t.shopping.noItems}</Text>
           <Text style={styles.emptyText}>
-            Add ingredients from recipes to build your shopping list
+            {t.shopping.noItemsDesc}
           </Text>
         </View>
       ) : (
@@ -48,14 +50,14 @@ export default function ShoppingListScreen() {
           <View style={styles.actions}>
             <TouchableOpacity style={styles.actionButton} onPress={handleShare}>
               <Share2 size={20} color="#FF6B35" />
-              <Text style={styles.actionButtonText}>Share List</Text>
+              <Text style={styles.actionButtonText}>{t.shopping.shareList}</Text>
             </TouchableOpacity>
             <TouchableOpacity 
               style={[styles.actionButton, styles.actionButtonDanger]} 
               onPress={clearShoppingList}
             >
               <Trash2 size={20} color="#EF4444" />
-              <Text style={styles.actionButtonTextDanger}>Clear All</Text>
+              <Text style={styles.actionButtonTextDanger}>{t.shopping.clearAll}</Text>
             </TouchableOpacity>
           </View>
 
@@ -63,7 +65,7 @@ export default function ShoppingListScreen() {
             {uncheckedItems.length > 0 && (
               <View style={styles.section}>
                 <Text style={styles.sectionTitle}>
-                  To Buy ({uncheckedItems.length})
+                  {t.shopping.toBuy} ({uncheckedItems.length})
                 </Text>
                 {uncheckedItems.map(item => (
                   <View key={item.id} style={styles.itemCard}>
@@ -77,7 +79,7 @@ export default function ShoppingListScreen() {
                       <Text style={styles.itemName}>
                         {item.amount} {item.unit} {item.name}
                       </Text>
-                      <Text style={styles.itemCountry}>From {item.countryName}</Text>
+                      <Text style={styles.itemCountry}>{t.shopping.from} {item.countryName}</Text>
                     </View>
                     <TouchableOpacity
                       onPress={() => removeShoppingItem(item.id)}
@@ -93,7 +95,7 @@ export default function ShoppingListScreen() {
             {checkedItems.length > 0 && (
               <View style={styles.section}>
                 <Text style={styles.sectionTitle}>
-                  Checked ({checkedItems.length})
+                  {t.shopping.checked} ({checkedItems.length})
                 </Text>
                 {checkedItems.map(item => (
                   <View key={item.id} style={[styles.itemCard, styles.itemCardChecked]}>
@@ -109,7 +111,7 @@ export default function ShoppingListScreen() {
                       <Text style={[styles.itemName, styles.itemNameChecked]}>
                         {item.amount} {item.unit} {item.name}
                       </Text>
-                      <Text style={styles.itemCountry}>From {item.countryName}</Text>
+                      <Text style={styles.itemCountry}>{t.shopping.from} {item.countryName}</Text>
                     </View>
                     <TouchableOpacity
                       onPress={() => removeShoppingItem(item.id)}

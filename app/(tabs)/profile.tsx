@@ -2,6 +2,7 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch } f
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
+import { useTranslation } from '@/lib/i18n';
 import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages } from 'lucide-react-native';
 import { DietType } from '@/types';
 
@@ -20,19 +21,20 @@ const LANGUAGES = [
 export default function ProfileScreen() {
   const router = useRouter();
   const { userProfile, stats, resetProgress, shoppingList, updateUserProfile } = useApp();
+  const { t } = useTranslation();
 
   const handleReset = () => {
     Alert.alert(
-      'Reset Progress',
-      'Are you sure you want to reset all your progress? This cannot be undone.',
+      t.profile.resetConfirm,
+      t.profile.resetMessage,
       [
-        { text: 'Cancel', style: 'cancel' },
+        { text: t.profile.cancel, style: 'cancel' },
         {
-          text: 'Reset',
+          text: t.profile.reset,
           style: 'destructive',
           onPress: () => {
             resetProgress();
-            Alert.alert('Success', 'Your progress has been reset.');
+            Alert.alert(t.profile.success, t.profile.resetSuccess);
           },
         },
       ]
@@ -58,17 +60,17 @@ export default function ProfileScreen() {
   const currentLanguage = LANGUAGES.find(l => l.code === (userProfile.language || 'en'));
 
   const dietOptions: { type: DietType; label: string; IconComponent: typeof Beef }[] = [
-    { type: 'meat', label: 'Meat', IconComponent: Beef },
-    { type: 'fish', label: 'Fish', IconComponent: Fish },
-    { type: 'vegetarian', label: 'Vegetarian', IconComponent: Salad },
-    { type: 'vegan', label: 'Vegan', IconComponent: Sprout },
+    { type: 'meat', label: t.profile.meat, IconComponent: Beef },
+    { type: 'fish', label: t.profile.fish, IconComponent: Fish },
+    { type: 'vegetarian', label: t.profile.vegetarian, IconComponent: Salad },
+    { type: 'vegan', label: t.profile.vegan, IconComponent: Sprout },
   ];
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
-          <Text style={styles.title}>Profile</Text>
+          <Text style={styles.title}>{t.profile.title}</Text>
         </View>
 
         <View style={styles.profileCard}>
@@ -78,16 +80,16 @@ export default function ProfileScreen() {
           <Text style={styles.name}>{userProfile.name}</Text>
           <View style={styles.pointsBadge}>
             <Award size={16} color="#FFF" />
-            <Text style={styles.pointsText}>{userProfile.totalPoints} points</Text>
+            <Text style={styles.pointsText}>{userProfile.totalPoints} {t.profile.points}</Text>
           </View>
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Dietary Preferences</Text>
+          <Text style={styles.sectionTitle}>{t.profile.dietaryPreferences}</Text>
           <View style={styles.card}>
             <View style={styles.settingHeader}>
               <Utensils size={20} color="#FF6B35" />
-              <Text style={styles.settingHeaderText}>Select your preferences</Text>
+              <Text style={styles.settingHeaderText}>{t.profile.selectPreferences}</Text>
             </View>
             <View style={styles.dietGrid}>
               {dietOptions.map(option => (
@@ -118,13 +120,13 @@ export default function ProfileScreen() {
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Measurement System</Text>
+          <Text style={styles.sectionTitle}>{t.profile.measurementSystem}</Text>
           <View style={styles.card}>
             <View style={styles.settingRow}>
               <View style={styles.settingLeft}>
                 <Ruler size={20} color="#FF6B35" />
                 <View style={styles.settingInfo}>
-                  <Text style={styles.settingName}>Use Metric Units</Text>
+                  <Text style={styles.settingName}>{t.profile.useMetric}</Text>
                   <Text style={styles.settingDescription}>
                     {userProfile.useMetric ? 'kg, cm, °C' : 'lb, in, °F'}
                   </Text>
@@ -141,13 +143,13 @@ export default function ProfileScreen() {
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Language</Text>
+          <Text style={styles.sectionTitle}>{t.profile.language}</Text>
           <View style={styles.card}>
             <View style={styles.settingRow}>
               <View style={styles.settingLeft}>
                 <Languages size={20} color="#FF6B35" />
                 <View style={styles.settingInfo}>
-                  <Text style={styles.settingName}>App Language</Text>
+                  <Text style={styles.settingName}>{t.profile.appLanguage}</Text>
                   <Text style={styles.settingDescription}>
                     {currentLanguage?.flag} {currentLanguage?.name}
                   </Text>
@@ -156,68 +158,68 @@ export default function ProfileScreen() {
               <TouchableOpacity
                 onPress={() => {
                   Alert.alert(
-                    'Select Language',
+                    t.profile.selectLanguage,
                     '',
                     [
                       ...LANGUAGES.map(lang => ({
                         text: `${lang.flag} ${lang.name}`,
                         onPress: () => handleLanguageChange(lang.code),
                       })),
-                      { text: 'Cancel', style: 'cancel' },
+                      { text: t.profile.cancel, style: 'cancel' },
                     ]
                   );
                 }}
                 style={styles.changeButton}
               >
-                <Text style={styles.changeButtonText}>Change</Text>
+                <Text style={styles.changeButtonText}>{t.profile.change}</Text>
               </TouchableOpacity>
             </View>
           </View>
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Statistics</Text>
+          <Text style={styles.sectionTitle}>{t.profile.statistics}</Text>
           <View style={styles.statsCard}>
             <View style={styles.statRow}>
-              <Text style={styles.statLabel}>Countries Completed</Text>
+              <Text style={styles.statLabel}>{t.profile.countriesCompleted}</Text>
               <Text style={styles.statValue}>{stats.completedCountries} / {stats.totalCountries}</Text>
             </View>
             
             <View style={styles.statRow}>
-              <Text style={styles.statLabel}>Countries Visited</Text>
+              <Text style={styles.statLabel}>{t.profile.countriesVisited}</Text>
               <Text style={styles.statValue}>{stats.visitedCountries}</Text>
             </View>
             
             <View style={styles.statRow}>
-              <Text style={styles.statLabel}>In Progress</Text>
+              <Text style={styles.statLabel}>{t.profile.inProgress}</Text>
               <Text style={styles.statValue}>{stats.inProgressCountries}</Text>
             </View>
             
             <View style={styles.statRow}>
-              <Text style={styles.statLabel}>Dishes Cooked</Text>
+              <Text style={styles.statLabel}>{t.profile.dishesCooked}</Text>
               <Text style={styles.statValue}>{stats.cookedDishes}</Text>
             </View>
             
             <View style={styles.statRow}>
-              <Text style={styles.statLabel}>Quizzes Completed</Text>
+              <Text style={styles.statLabel}>{t.profile.quizzesCompleted}</Text>
               <Text style={styles.statValue}>{stats.completedQuizzes}</Text>
             </View>
             
             <View style={styles.statRow}>
-              <Text style={styles.statLabel}>Badges Earned</Text>
+              <Text style={styles.statLabel}>{t.profile.badgesEarned}</Text>
               <Text style={styles.statValue}>{stats.earnedBadges}</Text>
             </View>
           </View>
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Quick Access</Text>
+          <Text style={styles.sectionTitle}>{t.profile.quickAccess}</Text>
           <TouchableOpacity 
             style={styles.menuButton} 
             onPress={() => router.push('/shopping-list')}
           >
             <ShoppingCart size={20} color="#FF6B35" />
-            <Text style={styles.menuButtonText}>Shopping List</Text>
+            <Text style={styles.menuButtonText}>{t.profile.shoppingList}</Text>
             {shoppingList.length > 0 && (
               <View style={styles.badge}>
                 <Text style={styles.badgeText}>{shoppingList.length}</Text>
@@ -228,14 +230,14 @@ export default function ProfileScreen() {
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>About</Text>
+          <Text style={styles.sectionTitle}>{t.profile.about}</Text>
           <View style={styles.card}>
             <View style={styles.aboutRow}>
               <Info size={20} color="#FF6B35" />
               <View style={styles.aboutContent}>
-                <Text style={styles.aboutText}>World Cooking & Culture</Text>
+                <Text style={styles.aboutText}>{t.profile.aboutApp}</Text>
                 <Text style={styles.aboutDescription}>
-                  Explore the world through food, cook authentic dishes, learn about cultures, and complete quizzes to earn points and badges.
+                  {t.profile.aboutDesc}
                 </Text>
               </View>
             </View>
@@ -243,10 +245,10 @@ export default function ProfileScreen() {
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Danger Zone</Text>
+          <Text style={styles.sectionTitle}>{t.profile.dangerZone}</Text>
           <TouchableOpacity style={styles.dangerButton} onPress={handleReset}>
             <Trash2 size={20} color="#EF4444" />
-            <Text style={styles.dangerButtonText}>Reset All Progress</Text>
+            <Text style={styles.dangerButtonText}>{t.profile.resetProgress}</Text>
           </TouchableOpacity>
         </View>
 

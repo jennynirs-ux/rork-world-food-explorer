@@ -1,10 +1,12 @@
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useApp } from '@/contexts/AppContext';
+import { useTranslation } from '@/lib/i18n';
 import { Trophy, Flame, Award as AwardIcon } from 'lucide-react-native';
 
 export default function ProgressScreen() {
   const { stats, badges, userProfile } = useApp();
+  const { t } = useTranslation();
 
   const earnedBadges = badges.filter(b => b.earned);
   const unearnedBadges = badges.filter(b => !b.earned);
@@ -13,10 +15,10 @@ export default function ProgressScreen() {
     <SafeAreaView style={styles.container} edges={['top']}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
-          <Text style={styles.title}>Progress</Text>
+          <Text style={styles.title}>{t.progress.title}</Text>
           <View style={styles.pointsContainer}>
             <Text style={styles.pointsValue}>{userProfile.totalPoints}</Text>
-            <Text style={styles.pointsLabel}>Total Points</Text>
+            <Text style={styles.pointsLabel}>{t.progress.totalPoints}</Text>
           </View>
         </View>
 
@@ -27,7 +29,7 @@ export default function ProgressScreen() {
             </View>
             <View style={styles.streakInfo}>
               <Text style={styles.streakValue}>{userProfile.currentStreak || 0}</Text>
-              <Text style={styles.streakLabel}>Day Streak</Text>
+              <Text style={styles.streakLabel}>{t.progress.dayStreak}</Text>
             </View>
           </View>
           <View style={styles.streakCard}>
@@ -36,7 +38,7 @@ export default function ProgressScreen() {
             </View>
             <View style={styles.streakInfo}>
               <Text style={styles.streakValue}>{userProfile.longestStreak || 0}</Text>
-              <Text style={styles.streakLabel}>Longest Streak</Text>
+              <Text style={styles.streakLabel}>{t.progress.longestStreak}</Text>
             </View>
           </View>
         </View>
@@ -44,28 +46,28 @@ export default function ProgressScreen() {
         <View style={styles.statsGrid}>
           <View style={styles.statCard}>
             <Text style={styles.statValue}>{stats.completedCountries}</Text>
-            <Text style={styles.statLabel}>Completed</Text>
+            <Text style={styles.statLabel}>{t.progress.completed}</Text>
           </View>
           <View style={styles.statCard}>
             <Text style={styles.statValue}>{stats.inProgressCountries}</Text>
-            <Text style={styles.statLabel}>In Progress</Text>
+            <Text style={styles.statLabel}>{t.progress.inProgress}</Text>
           </View>
           <View style={styles.statCard}>
             <Text style={styles.statValue}>{stats.cookedDishes}</Text>
-            <Text style={styles.statLabel}>Dishes Cooked</Text>
+            <Text style={styles.statLabel}>{t.progress.dishesCooked}</Text>
           </View>
           <View style={styles.statCard}>
             <Text style={styles.statValue}>{stats.completedQuizzes}</Text>
-            <Text style={styles.statLabel}>Quizzes Done</Text>
+            <Text style={styles.statLabel}>{t.progress.quizzesDone}</Text>
           </View>
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Earned Badges ({earnedBadges.length})</Text>
+          <Text style={styles.sectionTitle}>{t.progress.earnedBadges} ({earnedBadges.length})</Text>
           {earnedBadges.length === 0 ? (
             <View style={styles.emptyState}>
               <Trophy size={60} color="#D1D5DB" />
-              <Text style={styles.emptyText}>Start completing countries to earn badges!</Text>
+              <Text style={styles.emptyText}>{t.progress.startEarning}</Text>
             </View>
           ) : (
             <View style={styles.badgesGrid}>
@@ -89,7 +91,7 @@ export default function ProgressScreen() {
 
         {unearnedBadges.length > 0 && (
           <View style={styles.section}>
-            <Text style={styles.sectionTitle}>Locked Badges</Text>
+            <Text style={styles.sectionTitle}>{t.progress.lockedBadges}</Text>
             <View style={styles.badgesGrid}>
               {unearnedBadges.map(badge => {
                 const Icon = badge.icon;

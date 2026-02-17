@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useApp } from '@/contexts/AppContext';
+import { useTranslation } from '@/lib/i18n';
 import { ChefHat, Globe, Award, Check } from 'lucide-react-native';
 
 const LANGUAGES = [
@@ -23,6 +24,7 @@ export default function OnboardingScreen() {
   const [language, setLanguage] = useState('en');
   const router = useRouter();
   const { completeOnboarding } = useApp();
+  const { t } = useTranslation();
 
   const handleContinue = () => {
     if (step < 4) {
@@ -41,17 +43,17 @@ export default function OnboardingScreen() {
             <View style={styles.iconContainer}>
               <Globe size={100} color="#FF6B35" strokeWidth={1.5} />
             </View>
-            <Text style={styles.title}>Travel the World</Text>
+            <Text style={styles.title}>{t.onboarding.travelWorld}</Text>
             <Text style={styles.subtitle}>
-              Explore cultures and cuisines from every corner of the globe, one delicious dish at a time.
+              {t.onboarding.travelWorldDesc}
             </Text>
           </View>
         );
       case 1:
         return (
           <View style={styles.stepContainer}>
-            <Text style={styles.title}>Choose Your Language</Text>
-            <Text style={styles.subtitle}>Select your preferred language</Text>
+            <Text style={styles.title}>{t.onboarding.chooseLanguage}</Text>
+            <Text style={styles.subtitle}>{t.onboarding.selectLanguage}</Text>
             <ScrollView 
               style={styles.languageScroll}
               showsVerticalScrollIndicator={false}
@@ -89,9 +91,9 @@ export default function OnboardingScreen() {
             <View style={styles.iconContainer}>
               <ChefHat size={80} color="#FF6B35" strokeWidth={1.5} />
             </View>
-            <Text style={styles.title}>Cook & Learn</Text>
+            <Text style={styles.title}>{t.onboarding.cookLearn}</Text>
             <Text style={styles.subtitle}>
-              Follow authentic recipes, discover food traditions, and bring the world to your kitchen.
+              {t.onboarding.cookLearnDesc}
             </Text>
           </View>
         );
@@ -101,9 +103,9 @@ export default function OnboardingScreen() {
             <View style={styles.iconContainer}>
               <Award size={80} color="#F7931E" strokeWidth={1.5} />
             </View>
-            <Text style={styles.title}>Collect & Progress</Text>
+            <Text style={styles.title}>{t.onboarding.collectProgress}</Text>
             <Text style={styles.subtitle}>
-              Complete quizzes, earn points, unlock badges, and fill your world map with completed countries.
+              {t.onboarding.collectProgressDesc}
             </Text>
           </View>
         );
@@ -113,10 +115,10 @@ export default function OnboardingScreen() {
             <View style={styles.iconContainer}>
               <Globe size={80} color="#00B4D8" strokeWidth={1.5} />
             </View>
-            <Text style={styles.title}>What should we call you?</Text>
+            <Text style={styles.title}>{t.onboarding.whatCallYou}</Text>
             <TextInput
               style={styles.input}
-              placeholder="Your name"
+              placeholder={t.onboarding.yourName}
               placeholderTextColor="#999"
               value={name}
               onChangeText={setName}
@@ -161,7 +163,7 @@ export default function OnboardingScreen() {
               disabled={step === 4 && !name.trim()}
             >
               <Text style={styles.buttonText}>
-                {step === 4 ? "Let's Start!" : 'Continue'}
+                {step === 4 ? t.onboarding.letsStart : t.onboarding.continue}
               </Text>
             </TouchableOpacity>
 
@@ -170,7 +172,7 @@ export default function OnboardingScreen() {
                 style={styles.skipButton}
                 onPress={() => setStep(4)}
               >
-                <Text style={styles.skipText}>Skip</Text>
+                <Text style={styles.skipText}>{t.onboarding.skip}</Text>
               </TouchableOpacity>
             )}
           </View>
