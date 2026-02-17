@@ -164,16 +164,19 @@ export const [AppProvider, useApp] = createContextHook(() => {
     await AsyncStorage.setItem(STORAGE_KEYS.BADGES, JSON.stringify(updatedBadges));
   };
 
-  const updateUserProfile = useCallback(async (updates: Partial<UserProfile>) => {
-    const updatedProfile = { ...userProfile, ...updates };
-    await saveUserProfile(updatedProfile);
-  }, [userProfile]);
+  const updateUserProfile = async (updates: Partial<UserProfile>) => {
+    setUserProfile(prev => {
+      const updatedProfile = { ...prev, ...updates };
+      AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updatedProfile));
+      return updatedProfile;
+    });
+  };
 
   useEffect(() => {
     if (referralCodeQuery.data?.code && userProfile.referralCode !== referralCodeQuery.data.code) {
       updateUserProfile({ referralCode: referralCodeQuery.data.code });
     }
-  }, [referralCodeQuery.data, userProfile.referralCode, updateUserProfile]);
+  }, [referralCodeQuery.data?.code]);
 
   useEffect(() => {
     if (referralStatsQuery.data) {
@@ -186,7 +189,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
         });
       }
     }
-  }, [referralStatsQuery.data, userProfile.referralCount, userProfile.freeMonthsEarned, updateUserProfile]);
+  }, [referralStatsQuery.data?.referralCount, referralStatsQuery.data?.freeMonthsEarned]);
 
   const completeOnboarding = async (name: string, language?: string, avatar?: string, referralCode?: string) => {
     const updatedProfile = {
@@ -486,13 +489,19 @@ export const [AppProvider, useApp] = createContextHook(() => {
   }, [referralStatsQuery]);
 
   const purchaseProduct = useCallback(async (productId: string) => {
-    const currentProducts = userProfile.purchasedProducts || [];
-    if (!currentProducts.includes(productId)) {
-      await updateUserProfile({ 
-        purchasedProducts: [...currentProducts, productId] 
-      });
-    }
-  }, [userProfile.purchasedProducts, updateUserProfile]);
+    setUserProfile(prev => {
+      const currentProducts = prev.purchasedProducts || [];
+      if (!currentProducts.includes(productId)) {
+        const updated = { 
+          ...prev,
+          purchasedProducts: [...currentProducts, productId] 
+        };
+        AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updated));
+        return updated;
+      }
+      return prev;
+    });
+  }, []);
 
   const hasPurchasedProduct = useCallback((productId: string): boolean => {
     return (userProfile.purchasedProducts || []).includes(productId);
