@@ -18,12 +18,12 @@ function RootLayoutNav() {
   useEffect(() => {
     if (isLoading) return;
 
-    const inOnboarding = segments[0] === 'onboarding' || segments.includes('onboarding');
+    const inOnboarding = segments[0] === 'onboarding' || (segments as string[]).includes('onboarding');
 
     if (!userProfile.completedOnboarding && !inOnboarding) {
       router.replace('/onboarding' as any);
     } else if (userProfile.completedOnboarding && inOnboarding) {
-      router.replace('/(tabs)');
+      router.replace('/(tabs)' as any);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [userProfile.completedOnboarding, isLoading, segments]);
