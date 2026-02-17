@@ -13,6 +13,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { useApp } from '@/contexts/AppContext';
 import { isCountryAccessible } from '@/lib/access-control';
 import Paywall from '@/components/Paywall';
+import { useTranslation } from '@/lib/i18n';
 import colors from '@/constants/colors';
 import { 
   Compass, 
@@ -43,9 +44,23 @@ import {
   Lock
 } from 'lucide-react-native';
 
+function translateQuickFactLabel(label: string, t: any): string {
+  const labelMap: Record<string, string> = {
+    'Capital': t.country.capital,
+    'Population': t.country.population,
+    'Official Language': t.country.officialLanguage,
+    'Language': t.country.language,
+    'Currency': t.country.currency,
+    'Region': t.country.region,
+    'Area': t.country.area,
+  };
+  return labelMap[label] || label;
+}
+
 export default function CountryDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
+  const { t } = useTranslation();
   const { 
     countries,
     countryProgress, 
@@ -217,7 +232,7 @@ export default function CountryDetailScreen() {
       attempts++;
     }
     
-    Alert.alert('No accessible countries', 'Unlock more countries to continue exploring!');
+    Alert.alert(t.country.noAccessibleCountries, t.country.unlockMoreCountries);
   };
 
   const handlePreviousCountry = () => {
@@ -236,7 +251,7 @@ export default function CountryDetailScreen() {
       attempts++;
     }
     
-    Alert.alert('No accessible countries', 'Unlock more countries to continue exploring!');
+    Alert.alert(t.country.noAccessibleCountries, t.country.unlockMoreCountries);
   };
 
   const handleSubmitQuiz = () => {
@@ -394,7 +409,7 @@ export default function CountryDetailScreen() {
                         ]}
                       >
                         <IconComponent size={24} color={iconColor} style={styles.quickFactIcon} />
-                        <Text style={styles.quickFactLabel}>{fact.label}</Text>
+                        <Text style={styles.quickFactLabel}>{translateQuickFactLabel(fact.label, t)}</Text>
                         <Text style={styles.quickFactValue}>{fact.value}</Text>
                       </View>
                     );
@@ -554,7 +569,7 @@ export default function CountryDetailScreen() {
                 <View style={styles.recipeInfo}>
                   <View style={styles.recipeInfoItem}>
                     <Clock size={16} color="#6B7280" />
-                    <Text style={styles.recipeInfoText}>{country.mainDish.cookingTime} min</Text>
+                    <Text style={styles.recipeInfoText}>{country.mainDish.cookingTime} {t.common.minutes}</Text>
                   </View>
                   <View style={styles.recipeInfoItem}>
                     <ChefHat size={16} color="#6B7280" />
@@ -564,7 +579,7 @@ export default function CountryDetailScreen() {
 
                 <View style={styles.servingsSelector}>
                   <Users size={16} color="#6B7280" />
-                  <Text style={styles.servingsLabel}>Servings:</Text>
+                  <Text style={styles.servingsLabel}>{t.country.servings}:</Text>
                   <TouchableOpacity 
                     style={styles.servingsButton}
                     onPress={() => setRecipeServings(Math.max(1, recipeServings - 1))}
@@ -638,7 +653,7 @@ export default function CountryDetailScreen() {
                     styles.favoriteButtonText,
                     isRecipeFavorite(country.mainDish.id) && styles.favoriteButtonTextActive
                   ]}>
-                    {isRecipeFavorite(country.mainDish.id) ? 'Saved' : 'Save Recipe'}
+                    {isRecipeFavorite(country.mainDish.id) ? t.country.saved : t.country.saveRecipe}
                   </Text>
                 </TouchableOpacity>
 
@@ -700,7 +715,7 @@ export default function CountryDetailScreen() {
                   <View style={styles.recipeInfo}>
                     <View style={styles.recipeInfoItem}>
                       <Clock size={16} color="#6B7280" />
-                      <Text style={styles.recipeInfoText}>{country.dessert.cookingTime} min</Text>
+                      <Text style={styles.recipeInfoText}>{country.dessert.cookingTime} {t.common.minutes}</Text>
                     </View>
                   </View>
 
@@ -763,7 +778,7 @@ export default function CountryDetailScreen() {
                         styles.favoriteButtonText,
                         isRecipeFavorite(country.dessert.id) && styles.favoriteButtonTextActive
                       ]}>
-                        {isRecipeFavorite(country.dessert.id) ? 'Saved' : 'Save Recipe'}
+                        {isRecipeFavorite(country.dessert.id) ? t.country.saved : t.country.saveRecipe}
                       </Text>
                     </TouchableOpacity>
                   )}
