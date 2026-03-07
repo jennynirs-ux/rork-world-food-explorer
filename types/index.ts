@@ -4,54 +4,54 @@ export type DietType = 'meat' | 'fish' | 'vegetarian' | 'vegan';
 
 export type Recipe = {
   id: string;
-  name: string | { en: string; sv: string; es: string; fr: string; de: string };
-  description: string | { en: string; sv: string; es: string; fr: string; de: string };
+  name: TranslatedString;
+  description: TranslatedString;
   cookingTime: number;
   servings: number;
   dietType: DietType;
   difficulty?: 'easy' | 'medium' | 'hard';
   ingredients: {
-    name: string | { en: string; sv: string; es: string; fr: string; de: string };
+    name: TranslatedString;
     amount: number;
     unit: string;
   }[];
-  steps: (string | { en: string; sv: string; es: string; fr: string; de: string })[];
+  steps: TranslatedString[];
   imageUrl?: string;
 };
 
 export type Drink = {
-  alcoholic: string | { en: string; sv: string; es: string; fr: string; de: string };
-  nonAlcoholic: string | { en: string; sv: string; es: string; fr: string; de: string };
+  alcoholic: TranslatedString;
+  nonAlcoholic: TranslatedString;
 };
 
 export type QuizQuestion = {
   id: string;
-  question: string | { en: string; sv: string; es: string; fr: string; de: string };
-  options: (string | { en: string; sv: string; es: string; fr: string; de: string })[];
+  question: TranslatedString;
+  options: TranslatedString[];
   correctAnswer: number;
 };
 
 export type HistoryEvent = {
   year: string;
-  title: string | { en: string; sv: string; es: string; fr: string; de: string };
-  description: string | { en: string; sv: string; es: string; fr: string; de: string };
+  title: TranslatedString;
+  description: TranslatedString;
 };
 
 export type Innovation = {
-  name: string | { en: string; sv: string; es: string; fr: string; de: string };
+  name: TranslatedString;
   year: string;
-  description: string | { en: string; sv: string; es: string; fr: string; de: string };
+  description: TranslatedString;
 };
 
 export type MustVisit = {
-  name: string | { en: string; sv: string; es: string; fr: string; de: string };
-  description: string | { en: string; sv: string; es: string; fr: string; de: string };
+  name: TranslatedString;
+  description: TranslatedString;
   imageUrl?: string;
 };
 
 export type TravelEssential = {
-  item: string | { en: string; sv: string; es: string; fr: string; de: string };
-  description: string | { en: string; sv: string; es: string; fr: string; de: string };
+  item: TranslatedString;
+  description: TranslatedString;
 };
 
 export type QuickFact = {
@@ -59,11 +59,11 @@ export type QuickFact = {
   value: string;
 };
 
-export type TranslatedString = string | { en: string; sv: string; es: string; fr: string; de: string };
+export type TranslatedString = string | { en: string; sv?: string; es?: string; fr?: string; de?: string };
 
 export type Country = {
   id: string;
-  name: string;
+  name: TranslatedString;
   code: string;
   continent: string;
   flag: string;

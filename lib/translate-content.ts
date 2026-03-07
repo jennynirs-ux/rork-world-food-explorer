@@ -2,10 +2,10 @@ type SupportedLanguage = 'en' | 'sv' | 'es' | 'fr' | 'de';
 
 type TranslatableContent = string | { 
   en: string; 
-  sv: string; 
-  es: string; 
-  fr: string; 
-  de: string;
+  sv?: string; 
+  es?: string; 
+  fr?: string; 
+  de?: string;
 };
 
 export function translateContent(
