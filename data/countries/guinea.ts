@@ -6,7 +6,7 @@ export const guinea: Country = {
   code: 'GN',
   continent: 'Africa',
   flag: '🇬🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1565003190833-681f86c06abc?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1504870712474-3568a662c4d0?w=800&q=80',
   description: 'Guinea is a West African country known as the "water tower of West Africa" for its rivers, rich mineral resources, and diverse ethnic groups.',
   quickFacts: [
     { label: 'Capital', value: 'Conakry' },
@@ -86,7 +86,7 @@ export const guinea: Country = {
       'Add marinade and simmer',
       'Serve chicken with onion sauce over rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80',
   },
   dessert: {
     id: 'guinea-dessert',
@@ -114,7 +114,7 @@ export const guinea: Country = {
       'Bake at 180°C for 45 minutes until golden',
       'Serve warm or cold',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Palm wine, Local beer',

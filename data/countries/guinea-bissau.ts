@@ -6,7 +6,7 @@ export const guineaBissau: Country = {
   code: 'GW',
   continent: 'Africa',
   flag: '🇬🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1571627665157-97c7efeb6c89?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
   description: 'Guinea-Bissau is a small West African country known for its tropical forests, Atlantic coastline, and the Bijagós Archipelago.',
   quickFacts: [
     { label: 'Capital', value: 'Bissau' },
@@ -86,7 +86,7 @@ export const guineaBissau: Country = {
       'Simmer until thick',
       'Serve over rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'guinea-bissau-dessert',
@@ -113,7 +113,7 @@ export const guineaBissau: Country = {
       'Cool on wire rack',
       'Serve with cashew juice or tea',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Caju (cashew wine), Palm wine',

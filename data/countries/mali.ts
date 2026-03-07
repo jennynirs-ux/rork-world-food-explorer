@@ -93,7 +93,7 @@ export const mali: Country = {
       'Refrigerate for at least 2 hours',
       'Serve chilled in bowls',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   mainDish: {
     id: 'mali-main',
@@ -118,7 +118,7 @@ export const mali: Country = {
       'Simmer until thick',
       'Serve over rice or couscous',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Dolo (millet beer), Palm wine',

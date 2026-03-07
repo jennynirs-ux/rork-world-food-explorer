@@ -80,7 +80,7 @@ export const marshallIslands: Country = {
       'Let cool and harden',
       'Store in airtight container',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=800&q=80',
   },
   mainDish: {
     id: 'marshall-islands-main',
@@ -104,7 +104,7 @@ export const marshallIslands: Country = {
       'Bake at 350°F for 30 minutes',
       'Serve with fresh vegetables',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Toddy (palm wine)',

@@ -6,7 +6,7 @@ export const micronesia: Country = {
   code: 'FM',
   continent: 'Oceania',
   flag: '🇫🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1583259426481-02e9e5153d11?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1559628233-100c798642d4?w=800&q=80',
   description: 'The Federated States of Micronesia is a Pacific island nation known for WWII wrecks, pristine diving, and traditional culture.',
   quickFacts: [
     { label: 'Capital', value: 'Palikir' },
@@ -81,7 +81,7 @@ export const micronesia: Country = {
       'Bake at 350°F for 25 minutes',
       'Serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=800&q=80',
   },
   mainDish: {
     id: 'micronesia-main',
@@ -105,7 +105,7 @@ export const micronesia: Country = {
       'Add chopped onions and peppers',
       'Serve with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Sakau (kava)',

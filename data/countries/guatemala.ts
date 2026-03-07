@@ -6,7 +6,7 @@ export const guatemala: Country = {
   code: 'GT',
   continent: 'North America',
   flag: '🇬🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1554960750-9e4e2d43f99a?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1608236415053-3691dcbb37f1?w=800&q=80',
   description: 'Guatemala is a Central American country with Mayan heritage, volcanic landscapes, colonial cities, and vibrant indigenous culture.',
   quickFacts: [
     { label: 'Capital', value: 'Guatemala City' },
@@ -95,7 +95,7 @@ export const guatemala: Country = {
       'Add potatoes in last 30 minutes',
       'Serve with rice and tortillas',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'guatemala-dessert',
@@ -124,7 +124,7 @@ export const guatemala: Country = {
       'Drain on paper towels.',
       'Dust with powdered sugar before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Quetzalteca (aguardiente), Gallo beer',

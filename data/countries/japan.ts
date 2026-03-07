@@ -6,7 +6,7 @@ export const japan: Country = {
   code: 'JP',
   continent: 'Asia',
   flag: '🇯🇵',
-  landscapeImage: 'https://images.unsplash.com/photo-1492571350019-22de08371fd3?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80',
   description: 'Japan is an island nation in East Asia known for its unique blend of ancient traditions and cutting-edge technology. From cherry blossoms to bullet trains, it offers a fascinating cultural experience.',
   quickFacts: [
     { label: 'Capital', value: 'Tokyo' },
@@ -114,7 +114,7 @@ export const japan: Country = {
       'Slice chicken and drizzle with remaining sauce',
       'Garnish with sesame seeds and serve with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80',
   },
   dessert: {
     id: 'japan-dessert',
@@ -143,7 +143,7 @@ export const japan: Country = {
       'Quickly wrap mochi around ice cream and pinch to seal',
       'Freeze for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Sake, Shochu, Japanese Whisky, Plum Wine (Umeshu)',

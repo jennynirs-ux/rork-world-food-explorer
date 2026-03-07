@@ -45,7 +45,7 @@ export const iraq: Country = {
       'Serve fish with grilled vegetables',
       'Accompany with flatbread and pickles',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Arak (limited availability)',
@@ -128,7 +128,7 @@ export const iraq: Country = {
       'Bake at 350°F for 20-25 minutes until golden',
       'Cool completely and serve with tea',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
   },
   quiz: [
     {

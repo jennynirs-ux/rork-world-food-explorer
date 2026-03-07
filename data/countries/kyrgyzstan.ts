@@ -93,7 +93,7 @@ export const kyrgyzstan: Country = {
       'Press into mound shape',
       'Let cool and set before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   mainDish: {
     id: 'kyrgyzstan-main',
@@ -117,7 +117,7 @@ export const kyrgyzstan: Country = {
       'Top with meat and raw onions',
       'Pour broth over and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Kumis (fermented mare\'s milk), Vodka',

@@ -6,7 +6,7 @@ export const latvia: Country = {
   code: 'LV',
   continent: 'Europe',
   flag: '🇱🇻',
-  landscapeImage: 'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1513622790541-eaa84d356909?w=800&q=80',
   description: 'Latvia is a Baltic country known for its stunning Art Nouveau architecture, pristine nature, rich folklore traditions, and beautiful coastline along the Baltic Sea. Riga, its capital, is a UNESCO World Heritage Site.',
   quickFacts: [
     { label: 'Capital', value: 'Riga' },
@@ -73,7 +73,7 @@ export const latvia: Country = {
       'Refrigerate for at least 3 hours',
       'Garnish with fresh cranberries before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   history: [
     {
@@ -136,7 +136,7 @@ export const latvia: Country = {
       'Add a dollop of sour cream on top',
       'Traditionally served with dark rye bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Riga Black Balsam (herbal liqueur), Latvian beer, Kvass',

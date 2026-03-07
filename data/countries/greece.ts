@@ -6,7 +6,7 @@ export const greece: Country = {
   code: 'GR',
   continent: 'Europe',
   flag: '🇬🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1498712964741-5d33ab9e5017?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80',
   description: 'Greece is the cradle of Western civilization, birthplace of democracy, philosophy, and the Olympic Games. With stunning islands, ancient ruins, and Mediterranean cuisine, it offers timeless beauty.',
   quickFacts: [
     { label: 'Capital', value: 'Athens' },
@@ -116,7 +116,7 @@ export const greece: Country = {
       'Pour béchamel over top and sprinkle with cheese',
       'Bake at 350°F for 45 minutes until golden brown',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
   },
   dessert: {
     id: 'greece-dessert',
@@ -147,7 +147,7 @@ export const greece: Country = {
       'Meanwhile, boil sugar, water, honey, and lemon for 10 minutes',
       'Pour hot syrup over baked baklava and let absorb for several hours',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Ouzo, Retsina wine, Metaxa brandy, Greek beer',

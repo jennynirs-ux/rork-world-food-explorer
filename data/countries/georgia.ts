@@ -6,7 +6,7 @@ export const georgia: Country = {
   code: 'GE',
   continent: 'Europe',
   flag: '🇬🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1607968565043-36af90dde238?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800&q=80',
   description: 'Georgia is a country at the crossroads of Europe and Asia, known for its ancient wine culture, stunning mountains, and warm hospitality.',
   quickFacts: [
     { label: 'Capital', value: 'Tbilisi' },
@@ -90,7 +90,7 @@ export const georgia: Country = {
       'Crack egg on top and bake 5 more minutes',
       'Top with butter and serve hot',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
   },
   dessert: {
     id: 'georgia-dessert',
@@ -117,7 +117,7 @@ export const georgia: Country = {
       'Hang in cool, dry place for 2-3 days to fully dry.',
       'Store in airtight container up to 3 months.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558326567-98ae2405596b?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Georgian wine (Saperavi, Rkatsiteli), Chacha (grape vodka)',

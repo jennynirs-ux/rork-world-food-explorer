@@ -6,7 +6,7 @@ export const gambia: Country = {
   code: 'GM',
   continent: 'Africa',
   flag: '🇬🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1609198092357-a6229357c6b1?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
   description: 'Gambia is the smallest country in mainland Africa, a narrow strip along the Gambia River surrounded by Senegal, known for beaches and birdwatching.',
   quickFacts: [
     { label: 'Capital', value: 'Banjul' },
@@ -75,7 +75,7 @@ export const gambia: Country = {
       'Simmer until meat is tender',
       'Serve over rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'gambia-dessert',
@@ -102,7 +102,7 @@ export const gambia: Country = {
       'Refrigerate for at least 2 hours',
       'Serve chilled as a refreshing dessert',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Palm wine, Julbrew beer',

@@ -6,7 +6,7 @@ export const montenegro: Country = {
   code: 'ME',
   continent: 'Europe',
   flag: '🇲🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1600787561518-8ea1d4e16b7c?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1555990538-1e2a4a8b4e5b?w=800&q=80',
   description: 'Montenegro is a Balkan country on the Adriatic coast, known for dramatic mountains, medieval villages, and stunning bay of Kotor.',
   quickFacts: [
     { label: 'Capital', value: 'Podgorica' },
@@ -90,7 +90,7 @@ export const montenegro: Country = {
       'Fry until golden and puffed',
       'Drain and serve hot with honey and cheese',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80',
   },
   mainDish: {
     id: 'montenegro-main',
@@ -113,7 +113,7 @@ export const montenegro: Country = {
       'Slice thinly to serve',
       'Pair with cheese and olives',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Rakija, Vranac wine, Nikšićko beer',

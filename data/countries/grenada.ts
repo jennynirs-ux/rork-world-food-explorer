@@ -6,7 +6,7 @@ export const grenada: Country = {
   code: 'GD',
   continent: 'North America',
   flag: '🇬🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1580130732478-d3ce8e5b1320?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
   description: 'Grenada is the "Spice Isle" of the Caribbean, famous for nutmeg production, beautiful beaches, and the underwater sculpture park.',
   quickFacts: [
     { label: 'Capital', value: 'St. George\'s' },
@@ -84,7 +84,7 @@ export const grenada: Country = {
       'Simmer until liquid is absorbed',
       'Serve when "oil down" to bottom',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'grenada-dessert',
@@ -113,7 +113,7 @@ export const grenada: Country = {
       'Freeze for 2 hours before serving.',
       'Garnish with fresh grated nutmeg.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Rum punch, Carib beer, River Antoine rum',

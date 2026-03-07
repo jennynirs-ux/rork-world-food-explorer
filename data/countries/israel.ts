@@ -6,7 +6,7 @@ export const israel: Country = {
   code: 'IL',
   continent: 'Asia',
   flag: '🇮🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1590944943172-6b79b75c8c30?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=800&q=80',
   description: 'Israel is a Middle Eastern country on the Mediterranean, known for religious significance, high-tech industry, and diverse culture.',
   quickFacts: [
     { label: 'Capital', value: 'Jerusalem (disputed)' },
@@ -45,7 +45,7 @@ export const israel: Country = {
       'Cover and cook until eggs are set',
       'Serve with challah or pita bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1590412200988-a436970781fa?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Israeli wine, Goldstar beer, Arak',
@@ -128,7 +128,7 @@ export const israel: Country = {
       'Refrigerate for at least 2 hours until firm',
       'Cut into squares and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80',
   },
   quiz: [
     {

@@ -97,7 +97,7 @@ export const myanmar: Country = {
       'Roll in grated coconut',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   mainDish: {
     id: 'myanmar-main',
@@ -127,7 +127,7 @@ export const myanmar: Country = {
       'Simmer until thickened',
       'Serve over rice noodles with eggs and garnishes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Myanmar beer, Palm wine, Rice wine',

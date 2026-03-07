@@ -6,7 +6,7 @@ export const malawi: Country = {
   code: 'MW',
   continent: 'Africa',
   flag: '🇲🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1621268329997-1b8c4f4d3e3f?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?w=800&q=80',
   description: 'Malawi, the "Warm Heart of Africa," is known for Lake Malawi, friendly people, and stunning landscapes. A peaceful country with incredible freshwater diving and diverse wildlife.',
   quickFacts: [
     { label: 'Capital', value: 'Lilongwe' },
@@ -84,7 +84,7 @@ export const malawi: Country = {
       'Fry until golden brown',
       'Drain and serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=800&q=80',
   },
   mainDish: {
     id: 'malawi-main',
@@ -113,7 +113,7 @@ export const malawi: Country = {
       'Serve nsima with grilled fish and vegetables',
       'Eat with hands, using nsima to pick up fish',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Carlsberg Malawi, Kuche Kuche beer, Chibuku',

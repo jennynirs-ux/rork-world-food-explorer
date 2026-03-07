@@ -6,7 +6,7 @@ export const lithuania: Country = {
   code: 'LT',
   continent: 'Europe',
   flag: '🇱🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1601823984263-b55a23f3b26f?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1562932831-afcfe6dfd966?w=800&q=80',
   description: 'Lithuania is the largest and most populous of the Baltic States, known for its medieval architecture, stunning nature, rich history, and vibrant culture. It was the first Soviet republic to declare independence.',
   quickFacts: [
     { label: 'Capital', value: 'Vilnius' },
@@ -76,7 +76,7 @@ export const lithuania: Country = {
       'Cool completely and remove from spit',
       'Dust with powdered sugar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   history: [
     {
@@ -144,7 +144,7 @@ export const lithuania: Country = {
       'Fry diced bacon until crispy, mix with sour cream',
       'Serve cepelinai hot with bacon-sour cream sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Midus (honey mead), Lithuanian beer, Starka (rye vodka)',

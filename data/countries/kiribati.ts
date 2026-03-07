@@ -79,7 +79,7 @@ export const kiribati: Country = {
       'Let set for 30 minutes',
       'Serve as a sweet snack',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   mainDish: {
     id: 'kiribati-main',
@@ -103,7 +103,7 @@ export const kiribati: Country = {
       'Cover and bake at 350°F for 90 minutes',
       'Serve with fish or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Kava, Toddy (palm wine)',

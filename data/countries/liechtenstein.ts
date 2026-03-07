@@ -6,7 +6,7 @@ export const liechtenstein: Country = {
   code: 'LI',
   continent: 'Europe',
   flag: '🇱🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1601841197690-6f0c3c0c9f0c?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1573155993874-d5d48af862ba?w=800&q=80',
   description: 'Liechtenstein is a tiny Alpine principality between Switzerland and Austria, known for medieval castles, mountain trails, and banking.',
   quickFacts: [
     { label: 'Capital', value: 'Vaduz' },
@@ -91,7 +91,7 @@ export const liechtenstein: Country = {
       'Bake at 375°F for 45 minutes until golden',
       'Dust with powdered sugar, serve warm with cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&q=80',
   },
   mainDish: {
     id: 'liechtenstein-main',
@@ -115,7 +115,7 @@ export const liechtenstein: Country = {
       'Top noodles with fried onions',
       'Serve with applesauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Local wines, Schnapps',

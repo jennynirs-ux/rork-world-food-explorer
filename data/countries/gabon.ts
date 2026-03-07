@@ -6,7 +6,7 @@ export const gabon: Country = {
   code: 'GA',
   continent: 'Africa',
   flag: '🇬🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1564659277907-2456d3f74c12?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=80',
   description: 'Gabon is a Central African country on the Atlantic coast, known for pristine rainforests, diverse wildlife, and oil wealth.',
   quickFacts: [
     { label: 'Capital', value: 'Libreville' },
@@ -75,7 +75,7 @@ export const gabon: Country = {
       'Add habanero for heat',
       'Serve with rice or plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80',
   },
   dessert: {
     id: 'gabon-dessert',
@@ -106,7 +106,7 @@ export const gabon: Country = {
       'Dust generously with powdered sugar while warm',
       'Serve immediately with coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Palm wine, Regab beer',

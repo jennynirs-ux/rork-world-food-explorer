@@ -6,7 +6,7 @@ export const guyana: Country = {
   code: 'GY',
   continent: 'South America',
   flag: '🇬🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1618083707368-b3823daa2726?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1534073737927-85f1ebf1f911?w=800&q=80',
   description: 'Guyana is the only English-speaking country in South America, known for pristine rainforests, Kaieteur Falls, and diverse culture.',
   quickFacts: [
     { label: 'Capital', value: 'Georgetown' },
@@ -91,7 +91,7 @@ export const guyana: Country = {
       'Cook until meat is very tender',
       'Serve with bread or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'guyana-dessert',
@@ -118,7 +118,7 @@ export const guyana: Country = {
       'Cool before cutting into squares',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
   },
   drinks: {
     alcoholic: 'El Dorado rum, Banks beer',

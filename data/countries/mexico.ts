@@ -114,7 +114,7 @@ export const mexico: Country = {
       'Bake for 20 minutes until cheese is melted and bubbly',
       'Serve with sour cream and fresh cilantro',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1534352956036-cd81e27dd615?w=800&q=80',
   },
   dessert: {
     id: 'mexico-dessert',
@@ -147,7 +147,7 @@ export const mexico: Country = {
       'For chocolate sauce: heat cream until simmering, pour over chopped chocolate',
       'Stir until smooth and serve warm with churros',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1543364195-bfe6e4932397?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1543364195-bfe6e4932397?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Tequila, Mezcal, Margarita, Michelada, Paloma',

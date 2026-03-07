@@ -6,7 +6,7 @@ export const india: Country = {
   code: 'IN',
   continent: 'Asia',
   flag: '🇮🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1524230507669-66a6e6c6f32e?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80',
   description: 'India is a vast South Asian country with diverse terrain, from Himalayan peaks to Indian Ocean coastline. Known for its rich history, spiritual traditions, colorful festivals, and aromatic cuisine.',
   quickFacts: [
     { label: 'Capital', value: 'New Delhi' },
@@ -116,7 +116,7 @@ export const india: Country = {
       'Garnish with cilantro',
       'Serve with basmati rice or naan bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=800&q=80',
   },
   dessert: {
     id: 'india-dessert',
@@ -148,7 +148,7 @@ export const india: Country = {
       'Soak for at least 2 hours',
       'Serve warm or at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Kingfisher beer, Old Monk rum, Indian whiskey',

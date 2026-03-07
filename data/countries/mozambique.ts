@@ -90,7 +90,7 @@ export const mozambique: Country = {
       'Bake at 350°F for 40 minutes',
       'Cool and dust with powdered sugar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565680018093-ebb6e3a67f44?w=800&q=80',
   },
   mainDish: {
     id: 'mozambique-main',
@@ -119,7 +119,7 @@ export const mozambique: Country = {
       'Baste with extra marinade while grilling',
       'Serve hot with lime wedges and fresh bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
   },
   drinks: {
     alcoholic: '2M beer, Laurentina, Portuguese wine',

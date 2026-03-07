@@ -6,7 +6,7 @@ export const ireland: Country = {
   code: 'IE',
   continent: 'Europe',
   flag: '🇮🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1529665730134-02d82a6d71a0?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?w=800&q=80',
   description: 'Ireland, the "Emerald Isle," is known for stunning landscapes, rich literary tradition, lively pub culture, and warm hospitality. From dramatic coastal cliffs to medieval castles, Ireland offers timeless beauty and vibrant culture.',
   quickFacts: [
     { label: 'Capital', value: 'Dublin' },
@@ -92,7 +92,7 @@ export const ireland: Country = {
       'Check seasoning, adjust if needed',
       'Serve with crusty soda bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'ireland-dessert',
@@ -120,7 +120,7 @@ export const ireland: Country = {
       'Refrigerate for at least 4 hours',
       'Top with whipped cream and chocolate shavings',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Guinness, Irish whiskey (Jameson, Bushmills), Baileys Irish Cream, Irish coffee',

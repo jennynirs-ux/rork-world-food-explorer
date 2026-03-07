@@ -6,7 +6,7 @@ export const iran: Country = {
   code: 'IR',
   continent: 'Asia',
   flag: '🇮🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1598536992720-5ddb8ff0f066?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1565711561500-49678a10a63f?w=800&q=80',
   description: 'Iran, formerly known as Persia, is home to one of the world\'s oldest continuous civilizations. With stunning architecture, rich poetry tradition, and diverse landscapes from deserts to snow-capped mountains, Iran offers a unique cultural experience.',
   quickFacts: [
     { label: 'Capital', value: 'Tehran' },
@@ -97,7 +97,7 @@ export const iran: Country = {
       'Simmer for 30 more minutes',
       'Serve over saffron rice (chelow)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'iran-dessert',
@@ -126,7 +126,7 @@ export const iran: Country = {
       'Fold in chopped pistachios, freeze until firm',
       'Serve between two wafers (traditional style)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Not available (alcohol prohibited)',

@@ -6,7 +6,7 @@ export const monaco: Country = {
   code: 'MC',
   continent: 'Europe',
   flag: '🇲🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=800&q=80',
   description: 'Monaco is a tiny city-state on the French Riviera, known for luxury, casinos, the Grand Prix, and being a billionaire\'s playground.',
   quickFacts: [
     { label: 'Capital', value: 'Monaco' },
@@ -90,7 +90,7 @@ export const monaco: Country = {
       'Bake at 350°F for 25 minutes until golden',
       'Cool and slice to serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
   },
   mainDish: {
     id: 'monaco-main',
@@ -115,7 +115,7 @@ export const monaco: Country = {
       'Fold into half-moons and seal',
       'Deep fry until golden',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Champagne, French wines, Cocktails',

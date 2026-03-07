@@ -96,7 +96,7 @@ export const madagascar: Country = {
       'Cool completely before slicing',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   mainDish: {
     id: 'madagascar-main',
@@ -125,7 +125,7 @@ export const madagascar: Country = {
       'Season with salt to taste',
       'Serve over white rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Three Horses Beer, Rum, Litchel (lychee liqueur)',

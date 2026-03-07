@@ -6,7 +6,7 @@ export const luxembourg: Country = {
   code: 'LU',
   continent: 'Europe',
   flag: '🇱🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1585210992116-e1d0e8f3e5f6?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80',
   description: 'Luxembourg is a small European country known for its medieval old town, EU institutions, multicultural population, and high living standards.',
   quickFacts: [
     { label: 'Capital', value: 'Luxembourg City' },
@@ -89,7 +89,7 @@ export const luxembourg: Country = {
       'Bake at 180°C for 45 minutes until plums are soft',
       'Serve warm or cold with whipped cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80',
   },
   mainDish: {
     id: 'luxembourg-main',
@@ -114,7 +114,7 @@ export const luxembourg: Country = {
       'Mix beans with creamy onions',
       'Serve pork slices with beans and boiled potatoes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Moselle wine, Bofferding beer, Crémant sparkling wine',

@@ -6,7 +6,7 @@ export const mauritania: Country = {
   code: 'MR',
   continent: 'Africa',
   flag: '🇲🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1591645264158-bff8c01b8d37?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800&q=80',
   description: 'Mauritania is a vast Saharan country in Northwest Africa, known for ancient caravan routes, desert landscapes, and nomadic culture.',
   quickFacts: [
     { label: 'Capital', value: 'Nouakchott' },
@@ -83,7 +83,7 @@ export const mauritania: Country = {
       'Refrigerate for 2 hours',
       'Serve chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80',
   },
   mainDish: {
     id: 'mauritania-main',
@@ -108,7 +108,7 @@ export const mauritania: Country = {
       'Return fish to pot',
       'Serve rice with fish and vegetables',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Not common (Islamic country)',

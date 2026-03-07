@@ -89,7 +89,7 @@ export const laos: Country = {
       'Drizzle with remaining coconut cream',
       'Sprinkle with toasted sesame seeds',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80',
   },
   mainDish: {
     id: 'laos-main',
@@ -119,7 +119,7 @@ export const laos: Country = {
       'Mix well and adjust seasoning',
       'Serve with sticky rice and fresh vegetables',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Beerlao, Lao-Lao (rice whiskey)',

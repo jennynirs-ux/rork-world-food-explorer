@@ -6,7 +6,7 @@ export const hungary: Country = {
   code: 'HU',
   continent: 'Europe',
   flag: '🇭🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1526994113668-98ef4c1c946d?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1541849546-216549ae216d?w=800&q=80',
   description: 'Hungary is a landlocked country in Central Europe known for its rich history, thermal baths, unique language, and vibrant capital Budapest. The Danube River divides the city into historic Buda and modern Pest.',
   quickFacts: [
     { label: 'Capital', value: 'Budapest' },
@@ -98,7 +98,7 @@ export const hungary: Country = {
       'Season with salt and pepper to taste',
       'Serve hot with fresh bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'hungary-dessert',
@@ -125,7 +125,7 @@ export const hungary: Country = {
       'Score caramel into slices before it hardens',
       'Refrigerate before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80',
   },
   innovations: [
     {
