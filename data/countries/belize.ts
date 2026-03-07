@@ -6,7 +6,7 @@ export const belize: Country = {
   code: 'BZ',
   continent: 'North America',
   flag: '🇧🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1615274242889-e9fb4c16b0b0?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80',
   description: 'Belize is a Caribbean country on the northeastern coast of Central America, known for the Belize Barrier Reef, Mayan ruins, and diverse ecosystems.',
   quickFacts: [
     { label: 'Capital', value: 'Belmopan' },
@@ -108,7 +108,7 @@ export const belize: Country = {
       'Serve rice and beans with stew chicken',
       'Add plantains on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80',
   },
   dessert: {
     id: 'belize-dessert',
@@ -137,7 +137,7 @@ export const belize: Country = {
       'Cut into small squares.',
       'Serve as a sweet snack.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Belikin beer, Cashew wine, Rum',

@@ -116,7 +116,7 @@ export const afghanistan: Country = {
       'Cover tightly and steam on low heat for 30 minutes',
       'Serve rice mounded on platter, top with meat, carrots, raisins, and almonds',
     ],
-    imageUrl: 'https://unsplash.com/photos/a-white-plate-topped-with-lots-of-food-VxV4Q03a48w?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
   dessert: {
     id: 'afghanistan-dessert',

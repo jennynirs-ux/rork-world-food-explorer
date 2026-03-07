@@ -6,7 +6,7 @@ export const fiji: Country = {
   code: 'FJ',
   continent: 'Oceania',
   flag: '🇫🇯',
-  landscapeImage: 'https://images.unsplash.com/photo-1587897773780-08046b96e42e?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80',
   description: 'Fiji is an island nation in the South Pacific known for pristine beaches, coral reefs, friendly locals, and the greeting "Bula!"',
   quickFacts: [
     { label: 'Capital', value: 'Suva' },
@@ -75,7 +75,7 @@ export const fiji: Country = {
       'Add chopped chili to taste',
       'Serve chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=800&q=80',
   },
   dessert: {
     id: 'fiji-dessert',
@@ -101,7 +101,7 @@ export const fiji: Country = {
       'Cool and cut into squares',
       'Serve with extra coconut cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Kava (traditional ceremony drink), Fiji Bitter beer',

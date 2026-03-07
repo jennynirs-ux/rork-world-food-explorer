@@ -6,7 +6,7 @@ export const elSalvador: Country = {
   code: 'SV',
   continent: 'North America',
   flag: '🇸🇻',
-  landscapeImage: 'https://images.unsplash.com/photo-1572920650216-e842e1c3e1b5?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=800&q=80',
   description: 'El Salvador is the smallest Central American country, known for volcanic landscapes, Pacific beaches, and pupusas.',
   quickFacts: [
     { label: 'Capital', value: 'San Salvador' },
@@ -75,7 +75,7 @@ export const elSalvador: Country = {
       'Cook on griddle until golden',
       'Serve with curtido and tomato sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80',
   },
   dessert: {
     id: 'el-salvador-dessert',
@@ -103,7 +103,7 @@ export const elSalvador: Country = {
       'Bake at 175°C for 45 minutes until golden',
       'Cool before slicing',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Pilsener beer, Aguardiente',

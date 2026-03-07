@@ -6,7 +6,7 @@ export const algeria: Country = {
   code: 'DZ',
   continent: 'Africa',
   flag: '🇩🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1567355256384-09f3b48dae87?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&q=80',
   description:
     'Algeria is the largest country in Africa, featuring the vast Sahara Desert, a Mediterranean coastline, and rich Amazigh (Berber) and Arab heritage. It is known for ancient Roman ruins, striking desert landscapes, and a vibrant culinary and music culture.',
   quickFacts: [
@@ -200,7 +200,7 @@ export const algeria: Country = {
       'Warm honey with a little water',
       'Dip fried makroud in honey while hot',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=800&q=80',
   },
 
   drinks: {

@@ -112,7 +112,7 @@ export const bahamas: Country = {
       'Let marinate for 10-15 minutes in refrigerator',
       'Serve immediately in small bowls or cups',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=800&q=80',
   },
   dessert: {
     id: 'bahamas-dessert',

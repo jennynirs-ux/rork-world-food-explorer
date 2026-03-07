@@ -6,7 +6,7 @@ export const cuba: Country = {
   code: 'CU',
   continent: 'North America',
   flag: '🇨🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1545319261-b95e3f566129?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1564671165093-20688ff1fffa?w=800&q=80',
   description: 'Cuba is the largest Caribbean island, known for its pristine beaches, Spanish colonial architecture, vintage cars, cigars, and rich musical heritage. Havana, its capital, is famous for colorful buildings and classic American cars.',
   quickFacts: [
     { label: 'Capital', value: 'Havana' },
@@ -101,7 +101,7 @@ export const cuba: Country = {
       'Add shredded beef, simmer for 30 minutes',
       'Serve over white rice with black beans and plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
   },
   dessert: {
     id: 'cuba-dessert',
@@ -127,7 +127,7 @@ export const cuba: Country = {
       'Cool completely, then refrigerate for 4 hours',
       'Invert onto plate to serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Mojito, Cuba Libre, Daiquiri, Havana Club rum',

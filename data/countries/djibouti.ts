@@ -6,7 +6,7 @@ export const djibouti: Country = {
   code: 'DJ',
   continent: 'Africa',
   flag: '🇩🇯',
-  landscapeImage: 'https://images.unsplash.com/photo-1608544671341-ba5afaff8653?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&q=80',
   description: 'Djibouti is a small country on the Horn of Africa, known for its strategic location on the Red Sea, volcanic landscapes, and Lake Assal.',
   quickFacts: [
     { label: 'Capital', value: 'Djibouti City' },
@@ -75,7 +75,7 @@ export const djibouti: Country = {
       'Garnish with raisins and fried onions',
       'Serve with banana and salad',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
   dessert: {
     id: 'djibouti-dessert',

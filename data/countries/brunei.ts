@@ -6,7 +6,7 @@ export const brunei: Country = {
   code: 'BN',
   continent: 'Asia',
   flag: '🇧🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1594387030-15d45046ba60?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80',
   description: 'Brunei is a small, wealthy Islamic sultanate on Borneo with magnificent mosques and pristine rainforests. Known for its oil wealth and peaceful, traditional culture.',
   quickFacts: [
     { label: 'Capital', value: 'Bandar Seri Begawan' },
@@ -111,7 +111,7 @@ export const brunei: Country = {
       'Use chandas (special fork) to twirl ambuyat',
       'Dip in sauces and eat with sides',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80',
   },
   dessert: {
     id: 'brunei-dessert',
@@ -140,7 +140,7 @@ export const brunei: Country = {
       'Bake at 170°C for 20-25 minutes until lightly golden.',
       'Cool completely before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Not consumed (Islamic country)',

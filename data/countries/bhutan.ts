@@ -6,7 +6,7 @@ export const bhutan: Country = {
   code: 'BT',
   continent: 'Asia',
   flag: '🇧🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1545436913-2d6550e1f44f?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80',
   description: 'Bhutan, the Land of the Thunder Dragon, measures prosperity through Gross National Happiness. A Buddhist kingdom in the Himalayas with stunning monasteries and pristine nature.',
   quickFacts: [
     { label: 'Capital', value: 'Thimphu' },
@@ -116,7 +116,7 @@ export const bhutan: Country = {
       'Season with salt',
       'Serve hot with red rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80',
   },
   dessert: {
     id: 'bhutan-dessert',
@@ -147,7 +147,7 @@ export const bhutan: Country = {
       'Drain on paper towels.',
       'Store in airtight container, stays crispy for weeks.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Ara (rice wine), Chang (barley beer)',

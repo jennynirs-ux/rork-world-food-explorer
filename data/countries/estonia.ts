@@ -99,7 +99,7 @@ export const estonia: Country = {
       'Accompany with lingonberry jam on the side',
       'Traditionally served with sauerkraut',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
   },
   dessert: {
     id: 'estonia-dessert',
@@ -131,7 +131,7 @@ export const estonia: Country = {
       'Bake at 180°C for 35-40 minutes until golden',
       'Glaze with sugar syrup while warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Vana Tallinn (liqueur), Estonian craft beer, Kali (fermented rye drink)',

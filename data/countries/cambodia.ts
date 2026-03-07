@@ -117,7 +117,7 @@ export const cambodia: Country = {
       'Steam for 30 minutes until set',
       'Garnish with lime leaves and serve with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80',
   },
   dessert: {
     id: 'cambodia-dessert',
@@ -146,7 +146,7 @@ export const cambodia: Country = {
       'Grill over charcoal for 15-20 minutes, turning occasionally.',
       'Serve warm in the banana leaf wrapping.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Angkor beer, Palm wine, Rice wine',

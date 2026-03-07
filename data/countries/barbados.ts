@@ -6,7 +6,7 @@ export const barbados: Country = {
   code: 'BB',
   continent: 'North America',
   flag: '🇧🇧',
-  landscapeImage: 'https://images.unsplash.com/photo-1588675646184-fcd87f2c3b11?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80',
   description: 'Barbados is an eastern Caribbean island known for beautiful beaches, British colonial heritage, and as the birthplace of rum.',
   quickFacts: [
     { label: 'Capital', value: 'Bridgetown' },
@@ -113,7 +113,7 @@ export const barbados: Country = {
       'Cook until smooth pudding forms',
       'Serve fish over cou-cou with tomato sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   dessert: {
     id: 'barbados-dessert',

@@ -6,7 +6,7 @@ export const eritrea: Country = {
   code: 'ER',
   continent: 'Africa',
   flag: '🇪🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1621276643925-4ae5b2db1b7c?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&q=80',
   description: 'Eritrea is a Horn of Africa country on the Red Sea, known for Italian colonial architecture, diverse ethnic groups, and unique coffee culture.',
   quickFacts: [
     { label: 'Capital', value: 'Asmara' },
@@ -80,7 +80,7 @@ export const eritrea: Country = {
       'Adjust seasoning',
       'Serve on injera bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'eritrea-dessert',
@@ -108,7 +108,7 @@ export const eritrea: Country = {
       'Bake at 180°C for 35 minutes until golden',
       'Serve with butter and coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Mies (honey wine), Suwa (beer)',

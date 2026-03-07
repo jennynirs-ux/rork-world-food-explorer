@@ -113,7 +113,7 @@ export const canada: Country = {
       'Pour hot gravy over top so cheese curds begin to melt',
       'Serve immediately while hot and crispy',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80',
   },
   dessert: {
     id: 'canada-dessert',
@@ -144,7 +144,7 @@ export const canada: Country = {
       'Remove carefully and cool on wire rack',
       'Best served warm or at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Canadian whisky (Crown Royal), Ice wine, Craft beer, Caesar cocktail',

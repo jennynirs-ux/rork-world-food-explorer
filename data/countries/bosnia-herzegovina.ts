@@ -6,7 +6,7 @@ export const bosniaHerzegovina: Country = {
   code: 'BA',
   continent: 'Europe',
   flag: '🇧🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1591289009723-aef4eb4c4e47?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800&q=80',
   description: 'Bosnia and Herzegovina is a country in the Balkans known for its medieval villages, diverse culture, and scenic mountains.',
   quickFacts: [
     { label: 'Capital', value: 'Sarajevo' },
@@ -118,7 +118,7 @@ export const bosniaHerzegovina: Country = {
       'Serve in somun bread with kajmak and onions',
       'Add ajvar sauce on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?w=800&q=80',
   },
   dessert: {
     id: 'bosnia-dessert',
@@ -148,7 +148,7 @@ export const bosniaHerzegovina: Country = {
       'Top with whipped cream.',
       'Optional: garnish with walnut pieces.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Rakija (fruit brandy), Bosnian beer',

@@ -75,7 +75,7 @@ export const equatorialGuinea: Country = {
       'Combine all ingredients',
       'Simmer until flavors blend',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80',
   },
   dessert: {
     id: 'equatorial-guinea-dessert',
@@ -100,7 +100,7 @@ export const equatorialGuinea: Country = {
       'Drain on paper towels',
       'Serve warm with honey or syrup',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Palm wine, Local beer',

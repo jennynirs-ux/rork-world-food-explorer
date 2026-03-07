@@ -6,7 +6,7 @@ export const angola: Country = {
   code: 'AO',
   continent: 'Africa',
   flag: '🇦🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1568632234200-5b0a8f1ac4e8?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80',
   description:
     'Angola is a large and diverse country in southern Africa, stretching from Atlantic beaches to savannas and rainforests. It combines deep indigenous traditions with Portuguese colonial heritage and is known for music, dance, and rich natural resources.',
   quickFacts: [
@@ -168,7 +168,7 @@ export const angola: Country = {
       'Pour into greased dish and bake at 180°C for 20 minutes.',
       'Cool before slicing.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1612882521431-88e296c8f8f2?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=800&q=80',
   },
 
   drinks: {

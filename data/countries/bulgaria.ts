@@ -6,7 +6,7 @@ export const bulgaria: Country = {
   code: 'BG',
   continent: 'Europe',
   flag: '🇧🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1609137237950-e436e9c3f495?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&q=80',
   description: 'Bulgaria is a Balkan nation with diverse terrain encompassing Black Sea coastline, mountains, and rivers. Known for its rich history spanning from ancient Thracian ruins to Ottoman mosques, Bulgaria offers a unique blend of Eastern and Western cultures.',
   quickFacts: [
     { label: 'Capital', value: 'Sofia' },
@@ -125,7 +125,7 @@ export const bulgaria: Country = {
       'Bake for 40-45 minutes until golden brown',
       'Let cool slightly before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80',
   },
   dessert: {
     id: 'bulgaria-dessert',

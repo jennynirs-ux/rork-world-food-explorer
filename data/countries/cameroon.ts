@@ -6,7 +6,7 @@ export const cameroon: Country = {
   code: 'CM',
   continent: 'Africa',
   flag: '🇨🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1572469176012-d3f8e6c8c32c?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1580502304784-8985b7eb7260?w=800&q=80',
   description: 'Cameroon is known as "Africa in Miniature" for its geological and cultural diversity, featuring beaches, deserts, mountains, rainforests, and savannas.',
   quickFacts: [
     { label: 'Capital', value: 'Yaoundé' },
@@ -113,7 +113,7 @@ export const cameroon: Country = {
       'Simmer until thick',
       'Serve with plantains or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'cameroon-dessert',
@@ -143,7 +143,7 @@ export const cameroon: Country = {
       'Remove with slotted spoon, drain on paper towels.',
       'Serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Palm wine, 33 Export beer, Guinness',

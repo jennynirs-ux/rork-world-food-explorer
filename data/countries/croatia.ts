@@ -6,7 +6,7 @@ export const croatia: Country = {
   code: 'HR',
   continent: 'Europe',
   flag: '🇭🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1508790472953-42c96f3b571a?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1565073182887-6bcefbe225b1?w=800&q=80',
   description: 'Croatia is a stunning Mediterranean country known for its crystal-clear Adriatic coastline, historic walled cities, beautiful islands, and rich cultural heritage. From ancient Roman ruins to medieval fortresses, it offers a perfect blend of history and natural beauty.',
   quickFacts: [
     { label: 'Capital', value: 'Zagreb' },
@@ -95,7 +95,7 @@ export const croatia: Country = {
       'For oven: bake at 160°C for 2.5-3 hours until meat is tender',
       'Let rest for 10 minutes before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Plavac Mali wine, Rakija (fruit brandy), Croatian beer, Prošek (dessert wine)',
@@ -229,7 +229,7 @@ export const croatia: Country = {
       'Place one pastry layer in pan, spread custard, top with second layer.',
       'Refrigerate for 4 hours, dust with powdered sugar before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80',
   },
   coordinates: { x: 50, y: 45 },
 };

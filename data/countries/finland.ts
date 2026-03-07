@@ -128,7 +128,7 @@ export const finland: Country = {
       'Cool before serving',
       'Serve with vanilla ice cream or whipped cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Koskenkorva vodka, Finnish long drinks, Sahti (traditional beer), Finnish liqueurs',

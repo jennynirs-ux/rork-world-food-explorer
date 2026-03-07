@@ -81,7 +81,7 @@ export const eastTimor: Country = {
       'Serve hot with rice',
       'Unwrap at the table for aromatic effect',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80',
   },
   dessert: {
     id: 'east-timor-dessert',
@@ -107,7 +107,7 @@ export const eastTimor: Country = {
       'Bake at 180°C for 45 minutes',
       'Cool before slicing',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Timor coffee liqueur, Palm wine',

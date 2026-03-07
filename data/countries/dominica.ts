@@ -6,7 +6,7 @@ export const dominica: Country = {
   code: 'DM',
   continent: 'North America',
   flag: '🇩🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1606150498605-cace41df26a7?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1544735716-ea9ef790f501?w=800&q=80',
   description: 'Dominica is the "Nature Island of the Caribbean," known for lush rainforests, hot springs, waterfalls, and the boiling lake.',
   quickFacts: [
     { label: 'Capital', value: 'Roseau' },
@@ -100,7 +100,7 @@ export const dominica: Country = {
       'Let cool and harden',
       'Store in airtight container',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Rum, Bay rum, Local beer',

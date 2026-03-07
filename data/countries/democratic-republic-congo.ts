@@ -6,7 +6,7 @@ export const democraticRepublicCongo: Country = {
   code: 'CD',
   continent: 'Africa',
   flag: '🇨🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1580201092675-a0a6a6cafbb0?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80',
   description: 'The DRC is the second-largest country in Africa, featuring the Congo River, vast rainforests, and incredible biodiversity.',
   quickFacts: [
     { label: 'Capital', value: 'Kinshasa' },
@@ -84,7 +84,7 @@ export const democraticRepublicCongo: Country = {
       'Cook until chicken is tender and sauce thickens',
       'Serve with fufu or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1598511726623-d2e9996892f0?w=800&q=80',
   },
   dessert: {
     id: 'drc-dessert',
@@ -113,7 +113,7 @@ export const democraticRepublicCongo: Country = {
       'Drain on paper towels.',
       'Serve warm, optionally dusted with powdered sugar.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Primus beer, Turbo King, Palm wine',

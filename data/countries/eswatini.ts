@@ -6,7 +6,7 @@ export const eswatini: Country = {
   code: 'SZ',
   continent: 'Africa',
   flag: '🇸🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1591191564326-59e2ce4a49f5?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80',
   description: 'Eswatini (formerly Swaziland) is a small, landlocked kingdom in Southern Africa known for its wildlife reserves, cultural festivals, and traditional ceremonies.',
   quickFacts: [
     { label: 'Capital', value: 'Mbabane (administrative), Lobamba (royal)' },
@@ -80,7 +80,7 @@ export const eswatini: Country = {
       'Simmer pumpkin stew until thick',
       'Serve porridge with stew',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
   },
   dessert: {
     id: 'eswatini-dessert',
@@ -105,7 +105,7 @@ export const eswatini: Country = {
       'Cool and cut into squares',
       'Serve with tea or coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Umcombotsi (traditional beer), Buganu (marula fruit beer)',

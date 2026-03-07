@@ -6,7 +6,7 @@ export const benin: Country = {
   code: 'BJ',
   continent: 'Africa',
   flag: '🇧🇯',
-  landscapeImage: 'https://images.unsplash.com/photo-1545447934-c06e65e3d58d?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&q=80',
   description: 'Benin is a West African nation, the birthplace of Vodun (Voodoo) religion, with a rich history as the site of the Kingdom of Dahomey.',
   quickFacts: [
     { label: 'Capital', value: 'Porto-Novo' },
@@ -113,7 +113,7 @@ export const benin: Country = {
       'Deep fry until golden brown',
       'Serve as snack or appetizer',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
   },
   dessert: {
     id: 'benin-dessert',
@@ -143,7 +143,7 @@ export const benin: Country = {
       'Optional: roll in sugar while warm.',
       'Serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Palm wine, Local beer, Sodabi (palm liquor)',

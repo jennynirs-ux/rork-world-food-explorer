@@ -6,7 +6,7 @@ export const belarus: Country = {
   code: 'BY',
   continent: 'Europe',
   flag: '🇧🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1606414939477-a27cdf1fae0d?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?w=800&q=80',
   description:
     'Belarus is a landlocked country in Eastern Europe known for vast forests, Soviet-era architecture, and rich folk traditions.',
   quickFacts: [
@@ -118,7 +118,7 @@ export const belarus: Country = {
       'Drain & repeat: Transfer to paper towels or a rack. Add a little more oil between batches as needed.',
       'Serve: Serve immediately with sour cream (and optional chopped dill or chives if you like).',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80',
   },
 
   dessert: {

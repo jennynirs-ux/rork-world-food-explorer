@@ -6,7 +6,7 @@ export const armenia: Country = {
   code: 'AM',
   continent: 'Asia',
   flag: '🇦🇲',
-  landscapeImage: 'https://unsplash.com/photos/brown-concrete-church-on-green-grass-field-under-white-clouds-during-daytime-BYwV9myO0Z8?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1565711561500-49678a10a63f?w=800&q=80',
   description: 'Armenia is one of the world\'s oldest civilizations and the first nation to adopt Christianity as a state religion. Known for ancient monasteries, Mount Ararat views, and rich cultural heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Yerevan' },
@@ -122,7 +122,7 @@ export const armenia: Country = {
       'Baste with pomegranate juice while grilling',
       'Serve with lavash bread and fresh herbs',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?w=800&q=80',
   },
   dessert: {
     id: 'armenia-dessert',
@@ -153,7 +153,7 @@ export const armenia: Country = {
       'Brush with egg yolk and make decorative cuts on top.',
       'Bake at 180°C for 35-40 minutes until golden brown.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1612882521431-88e296c8f8f2?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Armenian cognac, Wine, Ararat brandy',

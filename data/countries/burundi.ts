@@ -6,7 +6,7 @@ export const burundi: Country = {
   code: 'BI',
   continent: 'Africa',
   flag: '🇧🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1609197642428-c6e5a18a2e42?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=800&q=80',
   description: 'Burundi is a small East African country known for its mountainous terrain, Lake Tanganyika shoreline, and traditional drumming culture.',
   quickFacts: [
     { label: 'Capital', value: 'Gitega' },
@@ -118,7 +118,7 @@ export const burundi: Country = {
       'Slice and fry plantains until golden',
       'Serve beans with fried plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80',
   },
   dessert: {
     id: 'burundi-dessert',
@@ -146,7 +146,7 @@ export const burundi: Country = {
       'Optional: add a pat of butter on top.',
       'Can be eaten as breakfast or dessert.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Urwarwa (banana beer), Impeke (sorghum beer)',

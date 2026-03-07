@@ -115,7 +115,7 @@ export const china: Country = {
       'Add peanuts, toss everything together',
       'Serve hot with steamed rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80',
   },
   dessert: {
     id: 'china-dessert',

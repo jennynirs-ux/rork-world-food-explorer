@@ -6,7 +6,7 @@ export const dominicanRepublic: Country = {
   code: 'DO',
   continent: 'North America',
   flag: '🇩🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1606146719364-de79f6cb4f58?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&q=80',
   description: 'The Dominican Republic shares Hispaniola island with Haiti, known for beautiful beaches, merengue music, baseball, and colonial history.',
   quickFacts: [
     { label: 'Capital', value: 'Santo Domingo' },
@@ -80,7 +80,7 @@ export const dominicanRepublic: Country = {
       'Plate rice, beans, and meat together',
       'Serve with fried plantains and avocado salad',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80',
   },
   dessert: {
     id: 'dominican-dessert',

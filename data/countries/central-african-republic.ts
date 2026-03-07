@@ -107,7 +107,7 @@ export const centralAfricanRepublic: Country = {
       'Add spinach and simmer',
       'Serve fufu with peanut sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
   },
   dessert: {
     id: 'central-african-dessert',
@@ -138,7 +138,7 @@ export const centralAfricanRepublic: Country = {
       'Dust with powdered sugar while warm',
       'Serve immediately as a sweet treat',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Palm wine, Local beer',

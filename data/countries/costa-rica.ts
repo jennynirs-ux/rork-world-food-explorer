@@ -6,7 +6,7 @@ export const costaRica: Country = {
   code: 'CR',
   continent: 'North America',
   flag: '🇨🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1503450668240-b4b6e8511d3e?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80',
   description: 'Costa Rica is a tropical paradise in Central America known for its "Pura Vida" lifestyle, stunning biodiversity, pristine beaches, lush rainforests, and commitment to environmental conservation. It\'s a leader in eco-tourism and sustainability.',
   quickFacts: [
     { label: 'Capital', value: 'San José' },
@@ -116,7 +116,7 @@ export const costaRica: Country = {
       'Add chopped cilantro and mix',
       'Serve hot with eggs, cheese, tortillas, and fried plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
   dessert: {
     id: 'costa-rica-dessert',

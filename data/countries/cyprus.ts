@@ -6,7 +6,7 @@ export const cyprus: Country = {
   code: 'CY',
   continent: 'Europe',
   flag: '🇨🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1537349945967-0b73be358c8f?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=800&q=80',
   description: 'Cyprus is a Mediterranean island nation at the crossroads of Europe, Asia, and Africa, known for its ancient history, beautiful beaches, warm hospitality, and the legendary birthplace of Aphrodite.',
   quickFacts: [
     { label: 'Capital', value: 'Nicosia' },
@@ -124,7 +124,7 @@ export const cyprus: Country = {
       'Add salad and drizzle with tahini sauce',
       'Wrap and serve immediately',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Commandaria wine, Zivania (grape spirit), KEO beer',
@@ -239,7 +239,7 @@ export const cyprus: Country = {
       'Pour hot syrup over warm pastry.',
       'Let cool completely before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80',
   },
   coordinates: { x: 55, y: 35 },
 };

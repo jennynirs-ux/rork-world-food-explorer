@@ -6,7 +6,7 @@ export const ecuador: Country = {
   code: 'EC',
   continent: 'South America',
   flag: '🇪🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1518399519228-97f81b35f2d5?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80',
   description: 'Ecuador is a compact South American country that packs incredible diversity - from the Amazon rainforest to the Andean highlands, Pacific beaches, and the unique Galápagos Islands. Named after the equator that runs through it, Ecuador offers rich indigenous culture and biodiversity.',
   quickFacts: [
     { label: 'Capital', value: 'Quito' },
@@ -99,7 +99,7 @@ export const ecuador: Country = {
       'Refrigerate for 30 minutes to let flavors meld',
       'Serve in bowls with popcorn, plantain chips, and crackers',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=800&q=80',
   },
   dessert: {
     id: 'ecuador-dessert',

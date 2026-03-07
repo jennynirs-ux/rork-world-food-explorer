@@ -122,7 +122,7 @@ export const chile: Country = {
       'Sprinkle with sugar on top',
       'Bake at 200°C for 30-40 minutes until golden',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80',
   },
   dessert: {
     id: 'chile-dessert',
@@ -151,7 +151,7 @@ export const chile: Country = {
       'Pour syrup over top',
       'Serve chilled as refreshing dessert drink',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Chilean wine (Carmenere, Cabernet), Pisco Sour, Terremoto cocktail',

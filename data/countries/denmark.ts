@@ -103,7 +103,7 @@ export const denmark: Country = {
       'Arrange beautifully on plates',
       'Serve with cold beer or schnapps',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80',
   },
   dessert: {
     id: 'denmark-dessert',
@@ -132,7 +132,7 @@ export const denmark: Country = {
       'Cook until golden all around',
       'Serve with powdered sugar and jam',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Carlsberg beer, Tuborg, Aquavit, Gløgg (Christmas)',

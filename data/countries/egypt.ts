@@ -114,7 +114,7 @@ export const egypt: Country = {
       'Top with tomato sauce and crispy fried onions',
       'Serve hot with extra sauce and vinegar on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=800&q=80',
   },
   dessert: {
     id: 'egypt-dessert',
@@ -146,7 +146,7 @@ export const egypt: Country = {
       'Immediately pour cold syrup over hot cake',
       'Let absorb for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Stella beer, Sakara Gold',
