@@ -6,7 +6,7 @@ export const somalia: Country = {
   code: 'SO',
   continent: 'Africa',
   flag: '🇸🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
   description:
     'Somalia sits on the Horn of Africa with the longest coastline on the African continent. Known for its ancient trading history, nomadic culture, and rich oral poetry tradition.',
   quickFacts: [
@@ -74,7 +74,7 @@ export const somalia: Country = {
       'Mix in raisins and reserved caramelized onions',
       'Let rest 5 minutes before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
 
   dessert: {
@@ -107,7 +107,7 @@ export const somalia: Country = {
       'Pour into a greased dish, smooth the top, and let set.',
       'Slice into small diamonds or squares to serve.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
   },
 
   drinks: {

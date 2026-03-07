@@ -6,7 +6,7 @@ export const tunisia: Country = {
   code: 'TN',
   continent: 'Africa',
   flag: '🇹🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1564769610726-dada876d4d74?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1590071089561-25785860ae2d?w=800&q=80',
   description:
     'Tunisia is a North African country combining Arab and Berber cultures with Mediterranean influences. Known for ancient ruins, beautiful beaches, and diverse landscapes from the Sahara to the coast.',
 
@@ -171,7 +171,7 @@ export const tunisia: Country = {
       'Serve couscous topped with meat and vegetables',
       'Ladle broth over and add extra harissa if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80',
   },
 
   dessert: {
@@ -202,7 +202,7 @@ export const tunisia: Country = {
       'Dust generously with powdered sugar',
       'Serve hot',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=800&q=80',
   },
 
   drinks: {

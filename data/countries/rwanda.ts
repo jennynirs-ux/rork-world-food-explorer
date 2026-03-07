@@ -6,7 +6,7 @@ export const rwanda: Country = {
   code: 'RW',
   continent: 'Africa',
   flag: '🇷🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1591838275844-9e0e92f0e696?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=800&q=80',
   description: 'Rwanda, the "Land of a Thousand Hills," is known for its mountainous terrain, mountain gorillas, and remarkable recovery. A country of stunning beauty and inspiring resilience.',
   quickFacts: [
     { label: 'Capital', value: 'Kigali' },
@@ -69,7 +69,7 @@ export const rwanda: Country = {
       'Simmer for 20 minutes, stirring frequently',
       'Serve with sweet potatoes or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
   dessert: {
     id: 'rwanda-dessert',
@@ -101,7 +101,7 @@ export const rwanda: Country = {
       'Drain on paper towels',
       'Serve warm, optionally dusted with powdered sugar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Banana beer (Urwagwa), Primus lager',

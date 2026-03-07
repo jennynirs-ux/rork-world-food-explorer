@@ -6,7 +6,7 @@ export const slovakia: Country = {
   code: 'SK',
   continent: 'Europe',
   flag: '🇸🇰',
-  landscapeImage: 'https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?w=800&q=80',
   description:
     'Slovakia is a landlocked country in Central Europe known for dramatic mountain scenery, medieval castles, and strong folk traditions. The High Tatras offer excellent hiking and skiing, while historic towns and spa regions add culture and relaxation.',
   quickFacts: [
@@ -134,7 +134,7 @@ export const slovakia: Country = {
       'Top with crispy bacon and a spoon of rendered fat for classic flavor.',
       'Serve immediately; add sour cream if you like it extra creamy.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1566740933430-b5e70b06d2d6?w=800&q=80',
   },
 
   dessert: {
@@ -163,7 +163,7 @@ export const slovakia: Country = {
       'Mix ground poppy seeds with sugar, then sprinkle over noodles and toss gently.',
       'Serve warm.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80',
   },
 
   drinks: {

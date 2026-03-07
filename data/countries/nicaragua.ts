@@ -6,7 +6,7 @@ export const nicaragua: Country = {
   code: 'NI',
   continent: 'North America',
   flag: '🇳🇮',
-  landscapeImage: 'https://images.unsplash.com/photo-1580165513309-0baacd7e85e0?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1608236415053-3691bd72c9df?w=800&q=80',
   description: 'Nicaragua is the largest Central American country, known for dramatic Pacific and Caribbean coasts, volcanoes, and colonial cities.',
   quickFacts: [
     { label: 'Capital', value: 'Managua' },
@@ -90,7 +90,7 @@ export const nicaragua: Country = {
       'Refrigerate for at least 3 hours',
       'Top with whipped cream before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80',
   },
   mainDish: {
     id: 'nicaragua-main',
@@ -115,7 +115,7 @@ export const nicaragua: Country = {
       'Season with salt and pepper',
       'Serve with fried eggs and tortillas',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1586040140378-b5634cb4c8fc?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Flor de Caña rum, Toña beer',

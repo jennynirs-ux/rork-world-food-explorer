@@ -6,7 +6,7 @@ export const palestine: Country = {
   code: 'PS',
   continent: 'Asia',
   flag: '🇵🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1597211684565-dca64d72c5ac?w=800&q=80',
   description: 'Palestine is a region in the Middle East with deep historical and religious significance, known for ancient cities and ongoing political complexity.',
   quickFacts: [
     { label: 'Capital', value: 'Ramallah (de facto)' },
@@ -92,7 +92,7 @@ export const palestine: Country = {
       'Pour cold syrup over hot kanafeh',
       'Sprinkle with pistachios and serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80',
   },
   mainDish: {
     id: 'palestine-main',
@@ -117,7 +117,7 @@ export const palestine: Country = {
       'Top with onions and chicken',
       'Garnish with pine nuts and sumac',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Arak, Palestinian wine',

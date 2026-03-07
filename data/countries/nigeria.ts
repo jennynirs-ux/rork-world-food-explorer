@@ -6,7 +6,7 @@ export const nigeria: Country = {
   code: 'NG',
   continent: 'Africa',
   flag: '🇳🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1608483086010-e9b46c2a0e2b?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?w=800&q=80',
   description: 'Nigeria is Africa\'s most populous country and largest economy, known for its diverse cultures, vibrant music scene (especially Afrobeats), and Nollywood film industry. Home to over 250 ethnic groups, Nigeria is a cultural powerhouse.',
   quickFacts: [
     { label: 'Capital', value: 'Abuja' },
@@ -93,7 +93,7 @@ export const nigeria: Country = {
       'Cook on low heat until rice absorbs liquid (30-40 mins)',
       'Serve with fried plantains and chicken',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80',
   },
   dessert: {
     id: 'nigeria-dessert',
@@ -120,7 +120,7 @@ export const nigeria: Country = {
       'Fry until golden brown on all sides',
       'Drain and dust with powdered sugar if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Star beer, Guinness (Nigerian version), Palm wine, Chapman (cocktail)',

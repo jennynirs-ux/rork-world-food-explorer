@@ -6,7 +6,7 @@ export const southAfrica: Country = {
   code: 'ZA',
   continent: 'Africa',
   flag: '🇿🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1484318571209-661cf29a69c3?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
   description:
     'South Africa is known for its diverse cultures, wildlife, and dramatic landscapes ranging from mountains and coastlines to vast savannas. Often called the "Rainbow Nation," it has 11 official languages and remarkable biodiversity.',
   quickFacts: [
@@ -114,7 +114,7 @@ export const southAfrica: Country = {
       'Remove bay leaves before serving.',
       'Serve with yellow rice and chutney.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
 
   dessert: {
@@ -144,7 +144,7 @@ export const southAfrica: Country = {
       'Rest 5 minutes before serving.',
       'Serve warm with ice cream or custard.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
 
   drinks: {

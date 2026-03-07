@@ -6,7 +6,7 @@ export const russia: Country = {
   code: 'RU',
   continent: 'Europe/Asia',
   flag: '🇷🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1523293182945-7b4c51d5aa63?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&q=80',
   description: 'Russia is the world\'s largest country, spanning eleven time zones and encompassing a vast array of landscapes and cultures. From the historic cities of Moscow and St. Petersburg to the wilderness of Siberia, Russia offers incredible diversity.',
   quickFacts: [
     { label: 'Capital', value: 'Moscow' },
@@ -107,7 +107,7 @@ export const russia: Country = {
       'Return meat to soup, add dill',
       'Serve hot with a dollop of sour cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1550367363-ea12860cc124?w=800&q=80',
   },
   dessert: {
     id: 'russia-medovik',
@@ -142,7 +142,7 @@ export const russia: Country = {
       'Sprinkle with crumbled cake trimmings',
       'Refrigerate overnight for best texture',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Vodka (national drink), Kvas (fermented bread drink), Medovukha (honey wine)',

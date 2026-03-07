@@ -6,7 +6,7 @@ export const tonga: Country = {
   code: 'TO',
   continent: 'Oceania',
   flag: '🇹🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1589197331516-6c5d7f4f7f3c?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
   description:
     'Tonga is a Polynesian kingdom in the South Pacific, known for whale watching, pristine beaches, strong cultural traditions, and being the only Pacific nation never formally colonized.',
 
@@ -144,7 +144,7 @@ export const tonga: Country = {
       'Cook for about 2 hours until tender',
       'Serve with taro, yam, or cassava',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
 
   dessert: {
@@ -171,7 +171,7 @@ export const tonga: Country = {
       'Simmer gently for 10–15 minutes',
       'Serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
 
   drinks: {

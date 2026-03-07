@@ -6,7 +6,7 @@ export const nepal: Country = {
   code: 'NP',
   continent: 'Asia',
   flag: '🇳🇵',
-  landscapeImage: 'https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&q=80',
   description: 'Nepal is home to the world\'s highest mountains including Mount Everest, ancient temples, vibrant culture, and the birthplace of Buddha. It\'s a land of spiritual depth and natural beauty.',
   quickFacts: [
     { label: 'Capital', value: 'Kathmandu' },
@@ -115,7 +115,7 @@ export const nepal: Country = {
       'Fry until golden and crispy',
       'Drain and serve warm or cool',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80',
   },
   mainDish: {
     id: 'nepal-dal-bhat',
@@ -148,7 +148,7 @@ export const nepal: Country = {
       'Serve with vegetable curry on the side',
       'Add mango pickle and papad for complete meal',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Raksi (traditional rice spirit), Tongba (millet beer), Chyang',

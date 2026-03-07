@@ -6,7 +6,7 @@ export const zimbabwe: Country = {
   code: 'ZW',
   continent: 'Africa',
   flag: '🇿🇼',
-  landscapeImage: 'https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
   description:
     'Zimbabwe is a landlocked Southern African country known for Victoria Falls, ancient stone ruins, and rich wildlife. From the dramatic Zambezi River landscapes to the historic Great Zimbabwe site, the country blends natural beauty with deep cultural heritage.',
   quickFacts: [
@@ -95,7 +95,7 @@ export const zimbabwe: Country = {
       'Sauté collard greens with a little onion and salt until tender',
       'Serve sadza with beef stew and greens on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
   dessert: {
     id: 'zimbabwe-dessert',
@@ -120,7 +120,7 @@ export const zimbabwe: Country = {
       'Toss to coat evenly',
       'Optional: mix in roasted peanuts before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Chibuku (traditional beer), Castle lager, Zambezi beer',

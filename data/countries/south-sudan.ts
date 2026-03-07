@@ -6,7 +6,7 @@ export const southSudan: Country = {
   code: 'SS',
   continent: 'Africa',
   flag: '🇸🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1558769132-cb1aea2f8db7?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
   description:
     'South Sudan is the world’s youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
   quickFacts: [
@@ -72,7 +72,7 @@ export const southSudan: Country = {
       'Cook until stew thickens',
       'Serve the mullah stew with warm kisra',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
 
   dessert: {
@@ -101,7 +101,7 @@ export const southSudan: Country = {
       'Optional: add a small knob of butter for richness.',
       'Serve warm.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
 
   drinks: {

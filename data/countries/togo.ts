@@ -6,7 +6,7 @@ export const togo: Country = {
   code: 'TG',
   continent: 'Africa',
   flag: '🇹🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1571655728033-180f1e4a0d9c?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
   description:
     'Togo is a narrow West African country known for palm-lined beaches, lively markets, hilltop villages, and cultural traditions where Vodun has historical roots alongside Christianity and Islam.',
 
@@ -148,7 +148,7 @@ export const togo: Country = {
       'Serve fufu with the hot soup on the side',
       'Eat by pinching off small pieces of fufu and dipping into the soup',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
 
   dessert: {
@@ -177,7 +177,7 @@ export const togo: Country = {
       'Let cool completely until firm',
       'Serve as bite-size candies',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80',
   },
 
   drinks: {

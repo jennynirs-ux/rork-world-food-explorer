@@ -6,7 +6,7 @@ export const northMacedonia: Country = {
   code: 'MK',
   continent: 'Europe',
   flag: '🇲🇰',
-  landscapeImage: 'https://images.unsplash.com/photo-1605358260241-0d565d6c2a5d?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1580746738099-68bfc6853680?w=800&q=80',
   description: 'North Macedonia is a Balkan country known for Lake Ohrid, ancient history, and diverse cultural heritage.',
   quickFacts: [
     { label: 'Capital', value: 'Skopje' },
@@ -90,7 +90,7 @@ export const northMacedonia: Country = {
       'Soak fried dough in warm syrup',
       'Let drain and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   mainDish: {
     id: 'north-macedonia-main',
@@ -115,7 +115,7 @@ export const northMacedonia: Country = {
       'Mix with beans in clay pot',
       'Bake at 350°F for 30 minutes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64b51?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Rakija, Macedonian wine, Skopsko beer',

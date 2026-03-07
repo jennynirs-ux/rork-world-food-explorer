@@ -6,7 +6,7 @@ export const sanMarino: Country = {
   code: 'SM',
   continent: 'Europe',
   flag: '🇸🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1605359911985-f6a9af9d3a91?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1592303637753-ce1e6b8a0ffb?w=800&q=80',
   description:
     'San Marino is one of the world’s oldest republics, a microstate completely surrounded by Italy. It is known for medieval fortresses, mountain views, and a strong tradition of independence.',
   quickFacts: [
@@ -174,7 +174,7 @@ export const sanMarino: Country = {
       'Place in baking dish, cover with béchamel and parmesan.',
       'Bake at 180C for 30–35 minutes until golden.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80',
   },
 
   dessert: {
@@ -198,7 +198,7 @@ export const sanMarino: Country = {
       'Coat entire cake evenly.',
       'Chill 30 minutes before slicing.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
 
   drinks: {

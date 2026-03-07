@@ -175,7 +175,7 @@ export const thailand: Country = {
       'Toss for 2–3 minutes until noodles are tender',
       'Serve topped with bean sprouts, peanuts, lime wedge, and chilies',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800&q=80',
   },
 
   dessert: {
@@ -204,7 +204,7 @@ export const thailand: Country = {
       'Drizzle remaining coconut milk on top',
       'Sprinkle with sesame seeds',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1601266987673-a4d9c9159a48?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1621236378699-8597faf6a176?w=800&q=80',
   },
 
   drinks: {

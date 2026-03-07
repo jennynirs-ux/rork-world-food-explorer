@@ -6,7 +6,7 @@ export const uruguay: Country = {
   code: 'UY',
   continent: 'South America',
   flag: '🇺🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1569163139394-de4798aa62b6?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=800&q=80',
   description:
     "Uruguay is South America's second-smallest nation with beautiful beaches, progressive policies, and a strong gaucho culture. Known for its stability and high quality of life.",
   quickFacts: [
@@ -69,7 +69,7 @@ export const uruguay: Country = {
       'Let rest before serving',
       'Serve with chimichurri, salads, and bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
   },
   dessert: {
     id: 'uruguay-dessert',
@@ -99,7 +99,7 @@ export const uruguay: Country = {
       'Top with whipped cream and extra crushed meringue',
       'Chill for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Tannat wine, Medio y medio (sparkling wine cocktail), Grappamiel',

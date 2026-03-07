@@ -6,7 +6,7 @@ export const tajikistan: Country = {
   code: 'TJ',
   continent: 'Asia',
   flag: '🇹🇯',
-  landscapeImage: 'https://images.unsplash.com/photo-1600693026104-81d9b3e6c6f3?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
   description:
     'Tajikistan is a mountainous Central Asian country, often called the "Roof of the World", known for the Pamir Mountains, dramatic landscapes, and rich Silk Road heritage.',
   quickFacts: [
@@ -170,7 +170,7 @@ export const tajikistan: Country = {
       'Cover and steam until rice is tender and liquid absorbed',
       'Gently mix before serving and serve family-style',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
 
   dessert: {
@@ -200,7 +200,7 @@ export const tajikistan: Country = {
       'Transfer to a dish and smooth the surface',
       'Let cool slightly before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
   },
 
   drinks: {

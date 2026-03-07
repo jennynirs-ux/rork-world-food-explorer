@@ -6,7 +6,7 @@ export const tuvalu: Country = {
   code: 'TV',
   continent: 'Oceania',
   flag: '🇹🇻',
-  landscapeImage: 'https://images.unsplash.com/photo-1581522378314-2e7e5c7b0b78?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
   description:
     "Tuvalu is one of the world’s smallest and most remote countries, a low-lying Pacific island nation made up of coral atolls and extremely vulnerable to climate change and sea level rise.",
   quickFacts: [
@@ -149,7 +149,7 @@ export const tuvalu: Country = {
       'Cook for about 90 minutes until tender',
       'Serve as a side dish, often with fish',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
 
   dessert: {
@@ -175,7 +175,7 @@ export const tuvalu: Country = {
       'Bake 40–50 minutes until tender and lightly golden on top',
       'Cool slightly and serve warm or chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
 
   drinks: {

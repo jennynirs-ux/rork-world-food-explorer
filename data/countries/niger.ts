@@ -6,7 +6,7 @@ export const niger: Country = {
   code: 'NE',
   continent: 'Africa',
   flag: '🇳🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
   description: 'Niger is a landlocked Saharan country in West Africa, known for ancient caravan routes, the Niger River, and diverse ethnic groups.',
   quickFacts: [
     { label: 'Capital', value: 'Niamey' },
@@ -84,7 +84,7 @@ export const niger: Country = {
       'Deep fry until puffy and golden',
       'Dust with powdered sugar and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80',
   },
   mainDish: {
     id: 'niger-main',
@@ -109,7 +109,7 @@ export const niger: Country = {
       'Simmer until thick',
       'Serve couscous with sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Bili-bili (millet beer)',

@@ -166,7 +166,7 @@ export const spain: Country = {
       'Let rest off heat for 5 minutes before serving',
       'Aim for a crispy bottom layer called "socarrat"',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80',
   },
   dessert: {
     id: 'spain-dessert',
@@ -200,7 +200,7 @@ export const spain: Country = {
       'Cook until thick and smooth',
       'Serve churros hot with chocolate for dipping',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1543364195-bfe6e4932397?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Sangria, Rioja wine, Cava, Sherry, Agua de Valencia',

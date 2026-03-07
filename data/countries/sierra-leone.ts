@@ -6,7 +6,7 @@ export const sierraLeone: Country = {
   code: 'SL',
   continent: 'Africa',
   flag: '🇸🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
   description:
     'Sierra Leone is a West African country known for beautiful Atlantic beaches, rainforest reserves, and a resilient culture shaped by trade, colonial history, and post-conflict recovery.',
   quickFacts: [
@@ -134,7 +134,7 @@ export const sierraLeone: Country = {
       'Check rice and fluff with fork.',
       'Serve hot with fried plantains or vegetables.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80',
   },
 
   dessert: {
@@ -158,7 +158,7 @@ export const sierraLeone: Country = {
       'Sprinkle lightly with salt.',
       'Serve warm.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
   },
 
   drinks: {

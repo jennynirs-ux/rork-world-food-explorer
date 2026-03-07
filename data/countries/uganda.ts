@@ -6,7 +6,7 @@ export const uganda: Country = {
   code: 'UG',
   continent: 'Africa',
   flag: '🇺🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1616364896947-8f2d7c7c3f3e?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
   description:
     'Uganda, the "Pearl of Africa," is known for its diverse landscapes, mountain gorillas, and as the source of the Nile River. A country of lush rainforests, savannah, and friendly people.',
   quickFacts: [
@@ -161,7 +161,7 @@ export const uganda: Country = {
       'Serve mashed matoke topped with groundnut sauce',
       'Accompany with fresh vegetables or greens',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
   },
 
   dessert: {
@@ -191,7 +191,7 @@ export const uganda: Country = {
       'Pour small ladles of batter and cook 2–3 minutes per side until golden',
       'Serve warm (optionally dust with a little sugar or serve with fruit)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80',
   },
 
   drinks: {

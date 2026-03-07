@@ -6,7 +6,7 @@ export const saintVincentAndTheGrenadines: Country = {
   code: 'VC',
   continent: 'North America',
   flag: '🇻🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1589900243325-be2362b90ff4?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
   description:
     'Saint Vincent and the Grenadines is a Caribbean island nation famous for turquoise bays, sailing and yacht charters, coral reefs, and the dramatic volcanic landscape of La Soufriere.',
   quickFacts: [
@@ -170,7 +170,7 @@ export const saintVincentAndTheGrenadines: Country = {
       'Add pepper sauce to taste.',
       'Optional: serve with a simple salad or steamed greens.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
   },
 
   dessert: {
@@ -200,7 +200,7 @@ export const saintVincentAndTheGrenadines: Country = {
       'Cool 10-15 minutes before slicing.',
       'Serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80',
   },
 
   drinks: {

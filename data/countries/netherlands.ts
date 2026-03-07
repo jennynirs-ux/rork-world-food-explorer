@@ -6,7 +6,7 @@ export const netherlands: Country = {
   code: 'NL',
   continent: 'Europe',
   flag: '🇳🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=800&q=80',
   description: 'The Netherlands is famous for tulips, windmills, canals, bicycles, and liberal social policies. A flat, innovative country that has reclaimed much of its land from the sea.',
   quickFacts: [
     { label: 'Capital', value: 'Amsterdam' },
@@ -114,7 +114,7 @@ export const netherlands: Country = {
       'Serve topped with sliced rookworst',
       'Traditionally eaten with a small well of gravy in the center',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=800&q=80',
   },
   dessert: {
     id: 'netherlands-dessert',
@@ -146,7 +146,7 @@ export const netherlands: Country = {
       'Spread caramel filling on one half, sandwich together',
       'Best served warm over a cup of hot coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Heineken beer, Jenever (Dutch gin), Dutch craft beers, Advocaat (egg liqueur)',

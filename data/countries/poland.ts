@@ -6,7 +6,7 @@ export const poland: Country = {
   code: 'PL',
   continent: 'Europe',
   flag: '🇵🇱',
-  landscapeImage: 'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1519197924294-4ba991a11128?w=800&q=80',
   description: 'Poland is a Central European country with a rich and turbulent history. From medieval castles to vibrant modern cities, Poland offers stunning architecture, hearty cuisine, and resilient culture that has survived centuries of challenges.',
   quickFacts: [
     { label: 'Capital', value: 'Warsaw' },
@@ -98,7 +98,7 @@ export const poland: Country = {
       'Sauté in butter with onions until lightly golden',
       'Serve with sour cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1566740933430-b5e70b06d2d6?w=800&q=80',
   },
   dessert: {
     id: 'poland-dessert',
@@ -127,7 +127,7 @@ export const poland: Country = {
       'Cool completely, refrigerate overnight',
       'Dust with powdered sugar before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1508737027454-e6454ef45afd?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Vodka (Żubrówka, Belvedere), Polish beer (Tyskie, Żywiec), Nalewka (fruit liqueur)',

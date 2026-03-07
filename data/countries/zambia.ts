@@ -6,7 +6,7 @@ export const zambia: Country = {
   code: 'ZM',
   continent: 'Africa',
   flag: '🇿🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
   description:
     'Zambia is a landlocked country in Southern Africa, famous for Victoria Falls, vast wilderness areas, and authentic safari experiences. It is known for its peaceful people and strong cultural traditions.',
   quickFacts: [
@@ -93,7 +93,7 @@ export const zambia: Country = {
       'Add groundnut sauce to vegetables and simmer',
       'Serve nshima hot with relish on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
   dessert: {
     id: 'zambia-dessert',
@@ -120,7 +120,7 @@ export const zambia: Country = {
       'Remove and drain on paper towels',
       'Serve warm as a snack or dessert',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Mosi Lager, Chibuku (traditional beer)',

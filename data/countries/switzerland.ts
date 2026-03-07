@@ -6,7 +6,7 @@ export const switzerland: Country = {
   code: 'CH',
   continent: 'Europe',
   flag: '🇨🇭',
-  landscapeImage: 'https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=800&q=80',
   description:
     'Switzerland is a mountainous Central European country known for its stunning Alps, pristine lakes, charming villages, and world-famous chocolate and cheese. Home to numerous international organizations, it has maintained neutrality for centuries.',
   quickFacts: [
@@ -162,7 +162,7 @@ export const switzerland: Country = {
       'Season with nutmeg and pepper',
       'Keep warm and serve immediately',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=800&q=80',
   },
 
   dessert: {
@@ -196,7 +196,7 @@ export const switzerland: Country = {
       'Press sliced almonds onto the sides/top for decoration.',
       'Chill at least 1 hour before slicing for best texture.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
 
   drinks: {

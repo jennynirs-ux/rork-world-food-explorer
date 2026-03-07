@@ -6,7 +6,7 @@ export const tanzania: Country = {
   code: 'TZ',
   continent: 'Africa',
   flag: '🇹🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1612171445874-7abf7f8d8c8b?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
   description:
     'Tanzania is home to Mount Kilimanjaro, the Serengeti, and Zanzibar’s spice islands. A land of incredible wildlife, dramatic landscapes, and rich Swahili culture.',
   quickFacts: [
@@ -189,7 +189,7 @@ export const tanzania: Country = {
       'Mix tomatoes, onion, cilantro, lemon juice, and remaining salt',
       'Serve grilled meat hot with ugali and kachumbari on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
   },
 
   dessert: {
@@ -219,7 +219,7 @@ export const tanzania: Country = {
       'Fry mandazi in batches until puffed and golden, turning once',
       'Drain on paper towels and serve warm with chai',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=800&q=80',
   },
 
   drinks: {

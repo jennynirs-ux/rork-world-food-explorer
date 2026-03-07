@@ -6,7 +6,7 @@ export const suriname: Country = {
   code: 'SR',
   continent: 'South America',
   flag: '🇸🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1606224221964-3e0b4a2cf61f?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1505881402582-763970a1e27e?w=800&q=80',
   description:
     'Suriname is a small South American country on the Atlantic coast, known for its vast rainforests, Dutch colonial heritage, and one of the most culturally diverse populations in the world.',
   quickFacts: [
@@ -79,7 +79,7 @@ export const suriname: Country = {
       'Remove foil and bake another 30 minutes until golden',
       'Rest 10 minutes before serving, traditionally with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
   dessert: {
     id: 'suriname-dessert',
@@ -109,7 +109,7 @@ export const suriname: Country = {
       'Cool completely before slicing',
       'Serve plain or with coffee or tea',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Parbo Beer, Rum',

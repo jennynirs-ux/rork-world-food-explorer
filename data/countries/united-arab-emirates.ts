@@ -113,7 +113,7 @@ export const unitedArabEmirates: Country = {
       'Drizzle with melted ghee before serving',
       'Serve hot with dates',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
   dessert: {
     id: 'uae-dessert',
@@ -144,7 +144,7 @@ export const unitedArabEmirates: Country = {
       'Drizzle with date syrup or honey',
       'Sprinkle with sesame seeds and serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1583338917451-face2751d8d5?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Limited (available in licensed hotels and restaurants)',

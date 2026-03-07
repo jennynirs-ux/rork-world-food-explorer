@@ -6,7 +6,7 @@ export const seychelles: Country = {
   code: 'SC',
   continent: 'Africa',
   flag: '🇸🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1589979481223-deb893043163?w=800&q=80',
   description:
     'Seychelles is an Indian Ocean archipelago of 115 islands known for turquoise lagoons, dramatic granite boulders, coral reefs, and rare wildlife. It is famous for protected nature reserves and idyllic beaches across Mahé, Praslin, and La Digue.',
   quickFacts: [
@@ -135,7 +135,7 @@ export const seychelles: Country = {
       'Optional: add a slit chili for heat during the simmer, then remove before serving.',
       'Serve with rice and a simple cucumber salad or lentils.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80',
   },
 
   dessert: {
@@ -170,7 +170,7 @@ export const seychelles: Country = {
       'Optional: toast extra coconut and sprinkle on top.',
       'Store airtight; the cake stays moist for 2–3 days.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
   },
 
   drinks: {

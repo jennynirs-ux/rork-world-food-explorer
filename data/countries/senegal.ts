@@ -6,7 +6,7 @@ export const senegal: Country = {
   code: 'SN',
   continent: 'Africa',
   flag: '🇸🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1610878180933-123728745d22?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
   description:
     'Senegal is a West African country known for vibrant culture, Atlantic beaches, and historic Gorée Island. It is famous for music and dance, rich culinary traditions, and the energetic capital, Dakar.',
   quickFacts: [
@@ -135,7 +135,7 @@ export const senegal: Country = {
       'Add drained rice to the pot, stir once, cover, and cook on low 18–20 minutes until rice is tender and has absorbed the sauce.',
       'Serve rice on a platter, top with fish and vegetables, and spoon a little extra sauce over everything.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80',
   },
 
   dessert: {
@@ -162,7 +162,7 @@ export const senegal: Country = {
       'Chill at least 1 hour for best texture.',
       'Serve cold in small bowls or glasses.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
 
   drinks: {

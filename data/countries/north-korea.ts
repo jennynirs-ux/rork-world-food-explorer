@@ -6,7 +6,7 @@ export const northKorea: Country = {
   code: 'KP',
   continent: 'Asia',
   flag: '🇰🇵',
-  landscapeImage: 'https://images.unsplash.com/photo-1572453800999-e8d2d1589b7c?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1584592487914-a44e1bce4e03?w=800&q=80',
   description: 'North Korea is a secretive East Asian country known for its isolation, mountain landscapes, and unique political system.',
   quickFacts: [
     { label: 'Capital', value: 'Pyongyang' },
@@ -88,7 +88,7 @@ export const northKorea: Country = {
       'Soak in honey syrup',
       'Let cool and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1557872943-16a5ac26437e?w=800&q=80',
   },
   mainDish: {
     id: 'north-korea-main',
@@ -113,7 +113,7 @@ export const northKorea: Country = {
       'Pour cold broth over',
       'Top with vegetables and egg',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Soju, Taedonggang beer',

@@ -6,7 +6,7 @@ export const yemen: Country = {
   code: 'YE',
   continent: 'Asia',
   flag: '🇾🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1584646098378-0874589d76b1?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
   description:
     'Yemen is an ancient country on the southern Arabian Peninsula, known for its historic cities, coffee heritage, and dramatic landscapes ranging from mountains and deserts to tropical islands.',
   quickFacts: [
@@ -99,7 +99,7 @@ export const yemen: Country = {
       'Heat until bubbling in a stone pot',
       'Serve immediately with flatbread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'yemen-dessert',
@@ -126,7 +126,7 @@ export const yemen: Country = {
       'Bake at 180°C until golden',
       'Drizzle generously with honey before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Not common',

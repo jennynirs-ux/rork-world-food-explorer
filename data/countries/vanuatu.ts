@@ -6,7 +6,7 @@ export const vanuatu: Country = {
   code: 'VU',
   continent: 'Oceania',
   flag: '🇻🇺',
-  landscapeImage: 'https://images.unsplash.com/photo-1583837860263-a00fc51f6d47?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
   description:
     'Vanuatu is a Pacific island nation known for active volcanoes, world-class diving, the land diving tradition, and rich Melanesian culture.',
   quickFacts: [
@@ -68,7 +68,7 @@ export const vanuatu: Country = {
       'Let rest for 10 minutes before slicing',
       'Serve warm as a main dish or hearty side (often alongside fish or greens)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
   },
   dessert: {
     id: 'vanuatu-dessert',
@@ -94,7 +94,7 @@ export const vanuatu: Country = {
       'Remove from heat and add lime zest (optional)',
       'Serve warm, or chill for 1 hour for a thicker pudding-like texture',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Kava, Tusker beer',

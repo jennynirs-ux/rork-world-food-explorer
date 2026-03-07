@@ -6,7 +6,7 @@ export const portugal: Country = {
   code: 'PT',
   continent: 'Europe',
   flag: '🇵🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800&q=80',
   description: 'Portugal is a southern European country on the Iberian Peninsula, bordering Spain. Its location on the Atlantic Ocean has influenced many aspects of its culture: salt cod and grilled sardines are national dishes, the Algarve\'s beaches are a major destination, and much of the nation\'s architecture dates to the 1500s–1800s, when Portugal had a powerful maritime empire.',
   quickFacts: [
     { label: 'Capital', value: 'Lisbon' },
@@ -109,7 +109,7 @@ export const portugal: Country = {
       'Garnish with black olives and fresh parsley',
       'Serve immediately',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80',
   },
   dessert: {
     id: 'portugal-dessert',
@@ -140,7 +140,7 @@ export const portugal: Country = {
       'Bake at 250°C for 15-20 minutes until tops are caramelized with dark spots',
       'Cool and dust with cinnamon and powdered sugar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1550617931-e17a7b70dce2?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Port wine, Vinho Verde, Ginjinha (cherry liqueur), Super Bock beer',

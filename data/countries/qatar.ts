@@ -6,7 +6,7 @@ export const qatar: Country = {
   code: 'QA',
   continent: 'Asia',
   flag: '🇶🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1572816703439-d1f4d66e6b28?w=800&q=80',
   description: 'Qatar is a wealthy Gulf state known for modern architecture, hosting the 2022 FIFA World Cup, and vast natural gas reserves.',
   quickFacts: [
     { label: 'Capital', value: 'Doha' },
@@ -89,7 +89,7 @@ export const qatar: Country = {
       'Bake at 350°F for 25 minutes until golden',
       'Serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
   mainDish: {
     id: 'qatar-main',
@@ -114,7 +114,7 @@ export const qatar: Country = {
       'Layer meat and rice',
       'Garnish with nuts and raisins',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Not available (prohibited)',

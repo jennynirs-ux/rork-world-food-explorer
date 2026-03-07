@@ -6,7 +6,7 @@ export const sriLanka: Country = {
   code: 'LK',
   continent: 'Asia',
   flag: '🇱🇰',
-  landscapeImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1586041828039-b8d193d6d1dc?w=800&q=80',
   description:
     'Sri Lanka is a tropical island nation known as the "Pearl of the Indian Ocean", famous for its tea plantations, ancient Buddhist sites, stunning beaches, and incredible wildlife.',
   quickFacts: [
@@ -136,7 +136,7 @@ export const sriLanka: Country = {
       'Serve rice in the center with curries arranged around it',
       'Mix rice with curries while eating, as traditionally done',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80',
   },
   dessert: {
     id: 'sri-lanka-dessert',
@@ -165,7 +165,7 @@ export const sriLanka: Country = {
       'Steam or bake in a water bath at 160°C for 35–45 minutes until just set',
       'Cool, then chill before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Arrack (coconut spirit), Lion Lager',

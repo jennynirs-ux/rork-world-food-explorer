@@ -6,7 +6,7 @@ export const philippines: Country = {
   code: 'PH',
   continent: 'Asia',
   flag: '🇵🇭',
-  landscapeImage: 'https://images.unsplash.com/photo-1573790387438-4da905039392?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=800&q=80',
   description: 'The Philippines is an archipelago of over 7,000 islands with stunning beaches, vibrant culture, Spanish colonial heritage, and incredibly warm and hospitable people. It\'s a tropical paradise with a unique blend of Asian and Western influences.',
   quickFacts: [
     { label: 'Capital', value: 'Manila' },
@@ -110,7 +110,7 @@ export const philippines: Country = {
       'Garnish with banana',
       'Mix everything together before eating',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&q=80',
   },
   mainDish: {
     id: 'philippines-adobo',
@@ -142,7 +142,7 @@ export const philippines: Country = {
       'Serve hot over steamed rice',
       'Garnish with fried garlic if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
   },
   drinks: {
     alcoholic: 'San Miguel beer, Tanduay rum, Lambanog (coconut wine)',

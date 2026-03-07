@@ -6,7 +6,7 @@ export const serbia: Country = {
   code: 'RS',
   continent: 'Europe',
   flag: '🇷🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1607799632518-da91dd151b38?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1581711395891-d56e11a48f8b?w=800&q=80',
   description:
     'Serbia is a landlocked country in Southeast Europe at the crossroads of Central and the Balkans. It is known for lively cities, Orthodox monasteries, river landscapes along the Danube and Sava, and a strong food-and-coffee culture. Belgrade is among Europe\'s oldest continuously inhabited cities.',
   quickFacts: [
@@ -140,7 +140,7 @@ export const serbia: Country = {
       'Add ajvar and (optionally) kajmak on top or on the side.',
       'Eat hot—this is a classic street-food style meal in Serbia.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80',
   },
 
   dessert: {
@@ -172,7 +172,7 @@ export const serbia: Country = {
       'Let rest 30 minutes so the cookies soften slightly.',
       'Store in an airtight container; they taste even better the next day.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80',
   },
 
   drinks: {

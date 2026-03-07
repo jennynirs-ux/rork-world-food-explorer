@@ -6,7 +6,7 @@ export const newZealand: Country = {
   code: 'NZ',
   continent: 'Oceania',
   flag: '🇳🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1469521669194-babb45599def?w=800&q=80',
   description:
     'New Zealand is a remote island nation known for dramatic landscapes, Maori culture, adventure sports, and being the filming location for Lord of the Rings. Clean, green, and spectacularly beautiful.',
   quickFacts: [
@@ -187,7 +187,7 @@ export const newZealand: Country = {
       'Serve with vegetables and a simple gravy made from collected juices if desired.',
       'Optional: serve alongside Maori bread (rewena) or a fresh salad.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
   },
 
   dessert: {
@@ -220,7 +220,7 @@ export const newZealand: Country = {
       'Add sliced kiwi, strawberries, and passion fruit.',
       'Serve immediately for best texture.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=800&q=80',
   },
 
   drinks: {

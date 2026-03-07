@@ -6,7 +6,7 @@ export const turkmenistan: Country = {
   code: 'TM',
   continent: 'Asia',
   flag: '🇹🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1609098655732-ab0d80e54822?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
   description:
     'Turkmenistan is a Central Asian country known for the vast Karakum Desert, ancient Silk Road cities, rich natural gas reserves, and striking white-marble architecture in its capital, Ashgabat.',
   quickFacts: [
@@ -160,7 +160,7 @@ export const turkmenistan: Country = {
       'Cover and steam until rice is tender and liquid absorbed',
       'Fluff gently before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
 
   dessert: {
@@ -186,7 +186,7 @@ export const turkmenistan: Country = {
       'Pour syrup over fried dough and mix well',
       'Shape into a mound and let cool before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
   },
 
   drinks: {

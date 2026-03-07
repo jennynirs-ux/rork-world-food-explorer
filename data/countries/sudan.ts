@@ -6,7 +6,7 @@ export const sudan: Country = {
   code: 'SD',
   continent: 'Africa',
   flag: '🇸🇩',
-  landscapeImage: 'https://images.unsplash.com/photo-1609439547168-c973842210e1?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
   description:
     'Sudan is home to more pyramids than Egypt, ancient Nubian kingdoms, and where the Blue and White Nile rivers meet. A land of rich archaeological heritage and diverse cultures.',
   quickFacts: [
@@ -73,7 +73,7 @@ export const sudan: Country = {
       'Serve warm with flatbread on the side',
       'Optional: add chili, tahini, or pickled vegetables to taste',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   dessert: {
     id: 'sudan-dessert',
@@ -108,7 +108,7 @@ export const sudan: Country = {
       'Pour warm syrup over the hot cake and let soak 15 minutes',
       'Serve once fully absorbed (warm or room temperature)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Not commonly consumed (Islamic country)',

@@ -6,7 +6,7 @@ export const solomonIslands: Country = {
   code: 'SB',
   continent: 'Oceania',
   flag: '🇸🇧',
-  landscapeImage: 'https://images.unsplash.com/photo-1544551763-77a785a7e01c?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
   description:
     'The Solomon Islands is a Pacific nation of nearly 1,000 islands, known for lush rainforests, coral reefs, WWII history, and strong Melanesian traditions.',
   quickFacts: [
@@ -108,7 +108,7 @@ export const solomonIslands: Country = {
       'Serve at room temperature or slightly warmed.',
       'Optional: drizzle extra coconut cream on top before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
   },
 
   dessert: {
@@ -137,7 +137,7 @@ export const solomonIslands: Country = {
       'Optional: add lime zest for brightness.',
       'Serve warm or chilled (it thickens as it cools).',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
 
   drinks: {

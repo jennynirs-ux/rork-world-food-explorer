@@ -6,7 +6,7 @@ export const trinidadAndTobago: Country = {
   code: 'TT',
   continent: 'North America',
   flag: '🇹🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1633788278944-8b9e6c4c1e1d?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1580541631950-7282082b04f4?w=800&q=80',
   description:
     'Trinidad and Tobago is a twin-island Caribbean nation known for Carnival, steel pan music, diverse culture, and rich natural beauty.',
 
@@ -158,7 +158,7 @@ export const trinidadAndTobago: Country = {
       'Top with tamarind chutney and pepper sauce',
       'Serve immediately while hot',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80',
   },
 
   dessert: {
@@ -194,7 +194,7 @@ export const trinidadAndTobago: Country = {
       'Cool 15 minutes in pan, then transfer to a rack',
       'Slice and serve slightly warm or at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80',
   },
 
   drinks: {

@@ -6,7 +6,7 @@ export const uzbekistan: Country = {
   code: 'UZ',
   continent: 'Asia',
   flag: '🇺🇿',
-  landscapeImage: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
   description:
     'Uzbekistan is a Central Asian country on the ancient Silk Road, known for stunning Islamic architecture, vibrant bazaars, and historic cities like Samarkand, Bukhara, and Khiva.',
   quickFacts: [
@@ -73,7 +73,7 @@ export const uzbekistan: Country = {
       'Let rest 10 minutes off heat, then gently fluff and mix before serving',
       'Serve family-style, often with sliced tomato/onion salad and pickles',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
   dessert: {
     id: 'uzbekistan-dessert',
@@ -100,7 +100,7 @@ export const uzbekistan: Country = {
       'Spoon into bowls and chill for at least 30 minutes',
       'Top with chopped pistachios if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Vodka',

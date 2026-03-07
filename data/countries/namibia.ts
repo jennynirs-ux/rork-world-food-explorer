@@ -6,7 +6,7 @@ export const namibia: Country = {
   code: 'NA',
   continent: 'Africa',
   flag: '🇳🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1516898427220-29aaed55f93e?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1509057199576-632a47484546?w=800&q=80',
   description: 'Namibia features the world\'s oldest desert, dramatic landscapes, and diverse wildlife. A land of endless horizons, towering sand dunes, and star-filled skies.',
   quickFacts: [
     { label: 'Capital', value: 'Windhoek' },
@@ -92,7 +92,7 @@ export const namibia: Country = {
       'Add vanilla, pour into baked shell',
       'Cool, then dust with cinnamon',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=800&q=80',
   },
   mainDish: {
     id: 'namibia-main',
@@ -122,7 +122,7 @@ export const namibia: Country = {
       'Do not stir - let flavors meld naturally',
       'Serve straight from the pot with bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Windhoek Lager, Tafel Lager, German-style beers',

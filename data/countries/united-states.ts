@@ -6,7 +6,7 @@ export const unitedStates: Country = {
   code: 'US',
   continent: 'North America',
   flag: '🇺🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1485738422979-f5c462d49f04?w=800&q=80',
   description:
     'The United States is a vast country stretching across North America with diverse landscapes, cultures, and cities. Known for innovation, entertainment, and the American Dream.',
   quickFacts: [
@@ -162,7 +162,7 @@ export const unitedStates: Country = {
       'Toast buns lightly',
       'Assemble burgers with toppings and serve with fries',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80',
   },
   dessert: {
     id: 'united-states-dessert',
@@ -194,7 +194,7 @@ export const unitedStates: Country = {
       'Bake 45–50 minutes until golden and bubbling',
       'Cool before serving (best with vanilla ice cream)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=800&q=80',
   },
   drinks: {
     alcoholic:

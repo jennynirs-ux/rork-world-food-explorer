@@ -6,7 +6,7 @@ export const saoTomeAndPrincipe: Country = {
   code: 'ST',
   continent: 'Africa',
   flag: '🇸🇹',
-  landscapeImage: 'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
   description:
     'Sao Tome and Principe is a small island nation in the Gulf of Guinea, known for lush rainforests, volcanic peaks, rich biodiversity, and a long cocoa-growing tradition shaped by Portuguese heritage.',
   quickFacts: [
@@ -169,7 +169,7 @@ export const saoTomeAndPrincipe: Country = {
       'Taste and adjust seasoning with salt and lime.',
       'Serve hot with boiled cassava, rice, or fried plantain.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80',
   },
 
   dessert: {
@@ -201,7 +201,7 @@ export const saoTomeAndPrincipe: Country = {
       'Cool 15 minutes before slicing.',
       'Serve plain or with fresh fruit.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
   },
 
   drinks: {

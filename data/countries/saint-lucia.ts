@@ -6,7 +6,7 @@ export const saintLucia: Country = {
   code: 'LC',
   continent: 'North America',
   flag: '🇱🇨',
-  landscapeImage: 'https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?w=800&q=80',
   description:
     'Saint Lucia is a Caribbean island known for the iconic Pitons, volcanic landscapes, lush rainforests, and a vibrant Creole culture. It is famous for scenic drives, warm hospitality, and a mix of French and British colonial heritage.',
   quickFacts: [
@@ -130,7 +130,7 @@ export const saintLucia: Country = {
       'Add flaked saltfish and black pepper; toss gently for 3-5 minutes until heated through.',
       'Finish with a squeeze of lime and serve alongside the boiled green figs. Optional: serve with avocado or a simple salad.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80',
   },
 
   dessert: {
@@ -160,7 +160,7 @@ export const saintLucia: Country = {
       'Bake 35-45 minutes until set and golden at the edges.',
       'Cool at least 20 minutes before slicing. Serve plain or with fresh fruit.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1621955511667-e2c316e4575d?w=800&q=80',
   },
 
   drinks: {

@@ -6,7 +6,7 @@ export const saudiArabia: Country = {
   code: 'SA',
   continent: 'Asia',
   flag: '🇸🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1588347818036-11cc3c8b3d9e?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?w=800&q=80',
   description:
     'Saudi Arabia is the birthplace of Islam and home to Makkah and Madinah. It is known for vast desert landscapes, Red Sea coastlines, major oil resources, and rapid modernization under Vision 2030.',
   quickFacts: [
@@ -184,7 +184,7 @@ export const saudiArabia: Country = {
       'Serve rice on a platter and top with the meat. Garnish with toasted almonds and raisins if using.',
       'Serve with a simple salad or yogurt sauce on the side.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
 
   dessert: {
@@ -216,7 +216,7 @@ export const saudiArabia: Country = {
       'Bake at 180C for 18-22 minutes until lightly golden (not dark).',
       'Cool completely. Dust with powdered sugar if desired.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80',
   },
 
   drinks: {

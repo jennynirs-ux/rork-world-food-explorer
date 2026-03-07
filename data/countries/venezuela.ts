@@ -6,7 +6,7 @@ export const venezuela: Country = {
   code: 'VE',
   continent: 'South America',
   flag: '🇻🇪',
-  landscapeImage: 'https://images.unsplash.com/photo-1589802829985-817e51171b92?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1580541631950-7282082b04f4?w=800&q=80',
   description:
     "Venezuela is home to Angel Falls, the world's highest waterfall, vast oil reserves, and diverse ecosystems from Caribbean beaches to Andean peaks.",
   quickFacts: [
@@ -74,7 +74,7 @@ export const venezuela: Country = {
       'Slice plantains and fry until golden and caramelized',
       'Serve all components together on one plate',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=800&q=80',
   },
   dessert: {
     id: 'venezuela-dessert',
@@ -101,7 +101,7 @@ export const venezuela: Country = {
       'Cool completely, then refrigerate at least 2 hours',
       'Unmold before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Polar beer, Venezuelan rum, Ponche Crema',

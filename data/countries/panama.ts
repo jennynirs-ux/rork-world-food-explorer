@@ -95,7 +95,7 @@ export const panama: Country = {
       'Refrigerate 3+ hours',
       'Top with whipped cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
   },
   mainDish: {
     id: 'panama-main',
@@ -120,7 +120,7 @@ export const panama: Country = {
       'Season with salt and pepper',
       'Serve with white rice and hot sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1586040140378-b5634cb4c8fc?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Seco (sugarcane spirit), Balboa beer, Panamanian rum',

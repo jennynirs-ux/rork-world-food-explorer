@@ -6,7 +6,7 @@ export const saintKittsAndNevis: Country = {
   code: 'KN',
   continent: 'North America',
   flag: '🇰🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1580541631950-7282082b04f4?w=800&q=80',
   description:
     'Saint Kitts and Nevis is a dual-island Caribbean nation known for lush volcanic peaks, beaches, and colonial-era forts. The islands blend Creole culture, rainforest hikes, and a relaxed seaside rhythm.',
   quickFacts: [
@@ -171,7 +171,7 @@ export const saintKittsAndNevis: Country = {
       'Taste and adjust (usually no extra salt needed).',
       'Serve warm with dumplings, johnny cakes, or rice.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580959375944-0b6ab60c2ebc?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80',
   },
 
   dessert: {
@@ -201,7 +201,7 @@ export const saintKittsAndNevis: Country = {
       'Cool at least 15 minutes before slicing.',
       'Serve plain or with a little whipped cream.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1621955511667-e2c316e4575d?w=800&q=80',
   },
 
   drinks: {

@@ -6,7 +6,7 @@ export const nauru: Country = {
   code: 'NR',
   continent: 'Oceania',
   flag: '🇳🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1576495199011-eb94736d05d6?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
   description: 'Nauru is the world\'s smallest island nation, known for phosphate mining history and unique challenges.',
   quickFacts: [
     { label: 'Capital', value: 'Yaren (de facto)' },
@@ -86,7 +86,7 @@ export const nauru: Country = {
       'Bake at 350°F for 45 minutes',
       'Cool completely before slicing',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=800&q=80',
   },
   mainDish: {
     id: 'nauru-main',
@@ -110,7 +110,7 @@ export const nauru: Country = {
       'Mix in diced tomatoes and onions',
       'Serve chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1621955511667-e2c316e4575d?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Beer',

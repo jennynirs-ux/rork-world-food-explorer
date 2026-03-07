@@ -6,7 +6,7 @@ export const unitedKingdom: Country = {
   code: 'GB',
   continent: 'Europe',
   flag: '🇬🇧',
-  landscapeImage: 'https://images.unsplash.com/photo-1474440692490-2e83ae13ba29?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80',
   description:
     'The United Kingdom comprises England, Scotland, Wales, and Northern Ireland, known for rich history, royal heritage, and global cultural influence.',
   quickFacts: [
@@ -105,7 +105,7 @@ export const unitedKingdom: Country = {
       'Fry chips again at higher heat until golden and crunchy',
       'Serve fish with chips, add salt and malt vinegar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1579208030886-b1f5b6b4e960?w=800&q=80',
   },
   dessert: {
     id: 'uk-dessert',
@@ -138,7 +138,7 @@ export const unitedKingdom: Country = {
       'Make toffee sauce: simmer cream, brown sugar, butter (optional), and golden syrup until glossy',
       'Serve warm pudding drenched in sauce (with custard or ice cream)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: "Beer, Whisky, Gin, Pimm's",

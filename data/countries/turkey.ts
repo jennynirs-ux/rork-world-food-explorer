@@ -6,7 +6,7 @@ export const turkey: Country = {
   code: 'TR',
   continent: 'Asia/Europe',
   flag: '🇹🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80',
   description:
     'Turkey is a transcontinental country bridging Europe and Asia, with a rich history spanning ancient civilizations. Known for its Byzantine and Ottoman heritage, stunning landscapes, and delicious cuisine.',
   quickFacts: [
@@ -166,7 +166,7 @@ export const turkey: Country = {
       'Melt butter with paprika and drizzle on top',
       'Serve with yogurt on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=800&q=80',
   },
 
   dessert: {
@@ -195,7 +195,7 @@ export const turkey: Country = {
       'Pour hot syrup over baked baklava',
       'Let cool fully before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64b51?w=800&q=80',
   },
 
   drinks: {

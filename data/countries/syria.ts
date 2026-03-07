@@ -6,7 +6,7 @@ export const syria: Country = {
   code: 'SY',
   continent: 'Asia',
   flag: '🇸🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1578421170262-7c50d8f1f68b?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1597211684565-dca64d72c5ac?w=800&q=80',
   description:
     'Syria is an ancient Middle Eastern country with a rich history dating back millennia, known for Damascus, Aleppo, and diverse cultural heritage.',
   quickFacts: [
@@ -166,7 +166,7 @@ export const syria: Country = {
       'Drain on paper towels and serve warm',
       'Serve with yogurt and fresh salad',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80',
   },
 
   dessert: {
@@ -198,7 +198,7 @@ export const syria: Country = {
       'Let cool completely',
       'Dust lightly with powdered sugar if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80',
   },
 
   drinks: {

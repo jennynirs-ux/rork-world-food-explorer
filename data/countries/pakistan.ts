@@ -6,7 +6,7 @@ export const pakistan: Country = {
   code: 'PK',
   continent: 'Asia',
   flag: '🇵🇰',
-  landscapeImage: 'https://images.unsplash.com/photo-1598092116834-9c3df19fc9f9?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1566837945700-30057527ade0?w=800&q=80',
   description: 'Pakistan is a country of stunning natural beauty, from the towering peaks of the Karakoram and Himalayas to the Arabian Sea coast, with a rich cultural heritage spanning thousands of years.',
   quickFacts: [
     { label: 'Capital', value: 'Islamabad' },
@@ -112,7 +112,7 @@ export const pakistan: Country = {
       'Add hot balls to warm syrup',
       'Let soak for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
   },
   mainDish: {
     id: 'pakistan-biryani',
@@ -145,7 +145,7 @@ export const pakistan: Country = {
       'Let rest for 5 minutes before opening',
       'Gently mix and serve with raita',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1601303516160-89781f4e16fa?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Limited availability (Islamic country)',

@@ -6,7 +6,7 @@ export const vietnam: Country = {
   code: 'VN',
   continent: 'Asia',
   flag: '🇻🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1528127269322-539801943592?w=800&q=80',
   description:
     'Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas, and bustling cities. Rich history, world-famous cuisine, and dramatic landscapes define the nation.',
   quickFacts: [
@@ -160,7 +160,7 @@ export const vietnam: Country = {
       'Pour boiling broth over beef to cook it',
       'Serve with herbs, sprouts, lime, and chili',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80',
   },
   dessert: {
     id: 'vietnam-dessert',
@@ -188,7 +188,7 @@ export const vietnam: Country = {
       'Stir in vanilla if using',
       'Serve warm or chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Bia Hoi, rice wine',

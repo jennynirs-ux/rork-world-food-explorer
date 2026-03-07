@@ -6,7 +6,7 @@ export const ukraine: Country = {
   code: 'UA',
   continent: 'Europe',
   flag: '🇺🇦',
-  landscapeImage: 'https://images.unsplash.com/photo-1565123209285-8910b7e4353b?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1561542320-9a18cd340e98?w=800&q=80',
   description:
     "Ukraine is a large country in Eastern Europe known for its Orthodox churches, Black Sea coastline, and forested mountains. Its capital, Kyiv, features the gold-domed St. Sophia's Cathedral, with its stunning 11th-century mosaics and frescoes.",
   quickFacts: [
@@ -165,7 +165,7 @@ export const ukraine: Country = {
       'Drain and toss with butter and onions',
       'Serve hot with sour cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1566740933430-b5e70b06d2d6?w=800&q=80',
   },
   dessert: {
     id: 'ukraine-dessert',
@@ -195,7 +195,7 @@ export const ukraine: Country = {
       'Fry syrnyky 3–4 minutes per side until golden',
       'Serve warm with sour cream and jam or honey',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Horilka (Ukrainian vodka), Ukrainian wine, Medovukha (honey drink)',

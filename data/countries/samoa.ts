@@ -6,7 +6,7 @@ export const samoa: Country = {
   code: 'WS',
   continent: 'Oceania',
   flag: '🇼🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80',
+  landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
   description:
     "Samoa is a Polynesian island nation known for traditional fa'a Samoa culture, lush landscapes, pristine beaches, and warm hospitality.",
   quickFacts: [
@@ -170,7 +170,7 @@ export const samoa: Country = {
       'Rest 5 minutes, then unwrap carefully.',
       'Serve warm as a side or main with taro, breadfruit, or rice.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80',
   },
 
   dessert: {
@@ -201,7 +201,7 @@ export const samoa: Country = {
       'Stir in vanilla if using.',
       'Serve steamed pieces warm, spooning coconut caramel sauce over the top.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
   },
 
   drinks: {
