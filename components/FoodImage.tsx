@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { View, Text, StyleSheet, type ImageStyle, type StyleProp } from 'react-native';
+import { View, Text, StyleSheet, ActivityIndicator, type ImageStyle, type StyleProp } from 'react-native';
 import { Image } from 'expo-image';
 import { optimizeUnsplashUrl } from '@/lib/image-utils';
 
@@ -12,6 +12,13 @@ type FoodImageProps = {
   type?: FoodImageType;
   contentFit?: 'cover' | 'contain' | 'fill' | 'none' | 'scale-down';
   width?: number;
+};
+
+const PLACEHOLDER_COLORS: Record<FoodImageType, string> = {
+  landscape: '#4a7c59',
+  food: '#c17f59',
+  landmark: '#7a8b99',
+  generic: '#8b8b8b',
 };
 
 const FALLBACK_ICONS: Record<FoodImageType, string> = {
@@ -67,8 +74,8 @@ function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'c
         onError={handleError}
       />
       {isLoading && (
-        <View style={styles.loadingOverlay}>
-          <Text style={styles.loadingText}>Loading...</Text>
+        <View style={[styles.loadingOverlay, { backgroundColor: PLACEHOLDER_COLORS[type], opacity: 0.7 }]}>
+          <ActivityIndicator size="small" color="rgba(255,255,255,0.8)" />
         </View>
       )}
     </View>
@@ -95,13 +102,8 @@ const styles = StyleSheet.create({
   },
   loadingOverlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(26, 26, 46, 0.5)',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  loadingText: {
-    color: 'rgba(255,255,255,0.7)',
-    fontSize: 12,
   },
 });
 
