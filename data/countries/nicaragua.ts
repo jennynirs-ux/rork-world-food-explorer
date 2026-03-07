@@ -115,7 +115,7 @@ export const nicaragua: Country = {
       'Season with salt and pepper',
       'Serve with fried eggs and tortillas',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586040140378-b5634cb4c8fc?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=850&q=80',
   },
   drinks: {
     alcoholic: 'Flor de Caña rum, Toña beer',

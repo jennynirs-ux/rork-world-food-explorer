@@ -166,7 +166,7 @@ export const spain: Country = {
       'Let rest off heat for 5 minutes before serving',
       'Aim for a crispy bottom layer called "socarrat"',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1550367363-ea12860cc124?w=650&q=80',
   },
   dessert: {
     id: 'spain-dessert',

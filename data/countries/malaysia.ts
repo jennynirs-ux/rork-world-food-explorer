@@ -114,7 +114,7 @@ export const malaysia: Country = {
       'Cool completely before cutting',
       'Cut into diamond shapes and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=750&q=80',
   },
   mainDish: {
     id: 'malaysia-nasi-lemak',
@@ -146,7 +146,7 @@ export const malaysia: Country = {
       'Arrange anchovies, peanuts, cucumber, and egg around rice',
       'Add a generous spoonful of sambal on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=900&q=80',
   },
   drinks: {
     alcoholic: 'Beer (Tiger, Carlsberg), Tuak (rice wine)',

@@ -142,7 +142,7 @@ export const brazil: Country = {
       'Place in mini paper cups',
       'Refrigerate until serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1598839950387-1e56bfcc3a32?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Caipirinha, Cachaça, Guaraná Antarctica, Brahma beer',

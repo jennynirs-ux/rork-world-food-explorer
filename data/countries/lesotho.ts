@@ -83,7 +83,7 @@ export const lesotho: Country = {
       'Drain on paper towels',
       'Dust with sugar and serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1566740933430-b5e70b06d2d6?w=700&q=80',
   },
   mainDish: {
     id: 'lesotho-main',
@@ -107,7 +107,7 @@ export const lesotho: Country = {
       'Cook until spinach is tender',
       'Serve porridge with spinach stew',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=650&q=80',
   },
   drinks: {
     alcoholic: 'Joala (traditional beer)',

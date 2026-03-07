@@ -124,7 +124,7 @@ export const cyprus: Country = {
       'Add salad and drizzle with tahini sauce',
       'Wrap and serve immediately',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Commandaria wine, Zivania (grape spirit), KEO beer',
@@ -239,7 +239,7 @@ export const cyprus: Country = {
       'Pour hot syrup over warm pastry.',
       'Let cool completely before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=600&q=80',
   },
   coordinates: { x: 55, y: 35 },
 };

@@ -90,7 +90,7 @@ export const northMacedonia: Country = {
       'Soak fried dough in warm syrup',
       'Let drain and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1553163147-622ab57be1c7?w=700&q=80',
   },
   mainDish: {
     id: 'north-macedonia-main',
@@ -115,7 +115,7 @@ export const northMacedonia: Country = {
       'Mix with beans in clay pot',
       'Bake at 350°F for 30 minutes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64b51?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=700&q=80',
   },
   drinks: {
     alcoholic: 'Rakija, Macedonian wine, Skopsko beer',

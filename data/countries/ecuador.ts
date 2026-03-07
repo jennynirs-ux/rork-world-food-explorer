@@ -99,7 +99,7 @@ export const ecuador: Country = {
       'Refrigerate for 30 minutes to let flavors meld',
       'Serve in bowls with popcorn, plantain chips, and crackers',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=600&q=80',
   },
   dessert: {
     id: 'ecuador-dessert',
@@ -129,7 +129,7 @@ export const ecuador: Country = {
       'Refrigerate overnight to absorb',
       'Top with whipped cream or meringue before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1432139509613-5c4255a1d197?w=750&q=80',
   },
   drinks: {
     alcoholic: 'Pilsener beer, Zhumir (sugarcane liquor), Canelazo (hot spiced drink)',

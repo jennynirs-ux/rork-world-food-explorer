@@ -224,7 +224,7 @@ export const coteDivoire: Country = {
       'Season with salt.',
       'Serve hot aloco with spicy tomato sauce on the side.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
   },
   coordinates: { x: 46, y: 18 },
 };

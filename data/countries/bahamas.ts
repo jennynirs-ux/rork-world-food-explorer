@@ -112,7 +112,7 @@ export const bahamas: Country = {
       'Let marinate for 10-15 minutes in refrigerator',
       'Serve immediately in small bowls or cups',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=800&q=80',
   },
   dessert: {
     id: 'bahamas-dessert',
@@ -144,7 +144,7 @@ export const bahamas: Country = {
       'Simmer until thickened, add rum and vanilla.',
       'Unwrap duff, slice, and serve warm with rum butter sauce.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Bahama Mama cocktail, Goombay Smash, Kalik beer, Rum punch',

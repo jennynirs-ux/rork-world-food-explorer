@@ -151,7 +151,7 @@ export const chile: Country = {
       'Pour syrup over top',
       'Serve chilled as refreshing dessert drink',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Chilean wine (Carmenere, Cabernet), Pisco Sour, Terremoto cocktail',

@@ -89,7 +89,7 @@ export const ghana: Country = {
       'Serve with fried fish, boiled eggs, gari, and shito (hot pepper sauce)',
       'Add stew or gravy on top',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=750&q=80',
   },
   dessert: {
     id: 'ghana-dessert',
@@ -117,7 +117,7 @@ export const ghana: Country = {
       'Deep fry until golden brown',
       'Serve warm with hot chocolate or tea',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=850&q=80',
   },
   drinks: {
     alcoholic: 'Akpeteshie (local gin), Club beer, Palm wine, Guinness',

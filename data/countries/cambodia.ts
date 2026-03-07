@@ -117,7 +117,7 @@ export const cambodia: Country = {
       'Steam for 30 minutes until set',
       'Garnish with lime leaves and serve with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=800&q=80',
   },
   dessert: {
     id: 'cambodia-dessert',

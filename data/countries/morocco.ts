@@ -148,7 +148,7 @@ export const morocco: Country = {
       'Turn out onto a wire rack to cool completely',
       'Dust with powdered sugar before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=850&q=80',
   },
   drinks: {
     alcoholic: 'Moroccan wine (Domaine de Sahari, Guerrouane)',

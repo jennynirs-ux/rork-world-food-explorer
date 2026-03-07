@@ -73,7 +73,7 @@ export const latvia: Country = {
       'Refrigerate for at least 3 hours',
       'Garnish with fresh cranberries before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=850&q=80',
   },
   history: [
     {
@@ -136,7 +136,7 @@ export const latvia: Country = {
       'Add a dollop of sour cream on top',
       'Traditionally served with dark rye bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=750&q=80',
   },
   drinks: {
     alcoholic: 'Riga Black Balsam (herbal liqueur), Latvian beer, Kvass',

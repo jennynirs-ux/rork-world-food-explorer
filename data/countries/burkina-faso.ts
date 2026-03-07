@@ -113,7 +113,7 @@ export const burkinaFaso: Country = {
       'Cook until rice absorbs all liquid',
       'Serve hot with extra sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1536304993881-070802b4db5f?w=800&q=80',
   },
   dessert: {
     id: 'burkina-dessert',
@@ -145,7 +145,7 @@ export const burkinaFaso: Country = {
       'Drain on paper towels.',
       'Dust with powdered sugar while warm.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1567306301408-9b74779a11a2?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Dolo (millet beer), Palm wine',

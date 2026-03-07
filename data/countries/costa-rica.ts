@@ -116,7 +116,7 @@ export const costaRica: Country = {
       'Add chopped cilantro and mix',
       'Serve hot with eggs, cheese, tortillas, and fried plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80',
   },
   dessert: {
     id: 'costa-rica-dessert',
@@ -148,7 +148,7 @@ export const costaRica: Country = {
       'Refrigerate for at least 4 hours or overnight',
       'Top with whipped cream before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Imperial beer, Guaro (sugarcane liquor), Costa Rican rum',

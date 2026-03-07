@@ -68,7 +68,7 @@ export const vanuatu: Country = {
       'Let rest for 10 minutes before slicing',
       'Serve warm as a main dish or hearty side (often alongside fish or greens)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=750&q=80',
   },
   dessert: {
     id: 'vanuatu-dessert',
@@ -94,7 +94,7 @@ export const vanuatu: Country = {
       'Remove from heat and add lime zest (optional)',
       'Serve warm, or chill for 1 hour for a thicker pudding-like texture',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=900&q=80',
   },
   drinks: {
     alcoholic: 'Kava, Tusker beer',

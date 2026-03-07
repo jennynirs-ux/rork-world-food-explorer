@@ -114,7 +114,7 @@ export const germany: Country = {
       'Strain sauce, add crumbled gingersnap cookies to thicken',
       'Slice meat, serve with sauce, red cabbage, and dumplings',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80',
   },
   dessert: {
     id: 'germany-dessert',
@@ -144,7 +144,7 @@ export const germany: Country = {
       'Garnish with chocolate shavings and fresh cherries',
       'Refrigerate for at least 4 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=750&q=80',
   },
   drinks: {
     alcoholic: 'German beer (Pilsner, Weizen, Dunkel), Riesling wine, Jägermeister, Schnapps',

@@ -89,7 +89,7 @@ export const kazakhstan: Country = {
       'Deep fry in hot oil until golden brown',
       'Drain and serve warm with honey or jam',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80',
   },
   mainDish: {
     id: 'kazakhstan-main',
@@ -114,7 +114,7 @@ export const kazakhstan: Country = {
       'Top with meat and raw onions',
       'Pour broth over and garnish with dill',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=750&q=80',
   },
   drinks: {
     alcoholic: 'Kumis (fermented mare\'s milk), Vodka',

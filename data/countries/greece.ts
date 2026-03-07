@@ -116,7 +116,7 @@ export const greece: Country = {
       'Pour béchamel over top and sprinkle with cheese',
       'Bake at 350°F for 45 minutes until golden brown',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=850&q=80',
   },
   dessert: {
     id: 'greece-dessert',
@@ -147,7 +147,7 @@ export const greece: Country = {
       'Meanwhile, boil sugar, water, honey, and lemon for 10 minutes',
       'Pour hot syrup over baked baklava and let absorb for several hours',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=650&q=80',
   },
   drinks: {
     alcoholic: 'Ouzo, Retsina wine, Metaxa brandy, Greek beer',

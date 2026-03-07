@@ -86,7 +86,7 @@ export const nauru: Country = {
       'Bake at 350°F for 45 minutes',
       'Cool completely before slicing',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=700&q=80',
   },
   mainDish: {
     id: 'nauru-main',

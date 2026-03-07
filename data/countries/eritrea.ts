@@ -80,7 +80,7 @@ export const eritrea: Country = {
       'Adjust seasoning',
       'Serve on injera bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=600&q=80',
   },
   dessert: {
     id: 'eritrea-dessert',
@@ -108,7 +108,7 @@ export const eritrea: Country = {
       'Bake at 180°C for 35 minutes until golden',
       'Serve with butter and coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1432139509613-5c4255a1d197?w=850&q=80',
   },
   drinks: {
     alcoholic: 'Mies (honey wine), Suwa (beer)',

@@ -161,7 +161,7 @@ export const uganda: Country = {
       'Serve mashed matoke topped with groundnut sauce',
       'Accompany with fresh vegetables or greens',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=750&q=80',
   },
 
   dessert: {
@@ -191,7 +191,7 @@ export const uganda: Country = {
       'Pour small ladles of batter and cook 2–3 minutes per side until golden',
       'Serve warm (optionally dust with a little sugar or serve with fruit)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=700&q=80',
   },
 
   drinks: {

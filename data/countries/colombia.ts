@@ -118,7 +118,7 @@ export const colombia: Country = {
       'Warm or grill arepas',
       'Arrange all components on a large platter with sliced avocado',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=800&q=80',
   },
   dessert: {
     id: 'colombia-dessert',
@@ -148,7 +148,7 @@ export const colombia: Country = {
       'Top with another oblea to make sandwich',
       'Serve immediately while crispy',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1558303035-ef3f1d0c0ec2?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Aguardiente (anise-flavored liquor), Colombian beer, Rum',

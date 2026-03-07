@@ -75,7 +75,7 @@ export const gabon: Country = {
       'Add habanero for heat',
       'Serve with rice or plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&q=80',
   },
   dessert: {
     id: 'gabon-dessert',
@@ -106,7 +106,7 @@ export const gabon: Country = {
       'Dust generously with powdered sugar while warm',
       'Serve immediately with coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1567306301408-9b74779a11a2?w=600&q=80',
   },
   drinks: {
     alcoholic: 'Palm wine, Regab beer',

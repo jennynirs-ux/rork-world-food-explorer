@@ -156,7 +156,7 @@ export const bulgaria: Country = {
       'Spread ganache between layers and over top.',
       'Refrigerate for 2 hours before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Rakia (fruit brandy), Bulgarian wine, Mastika (anise drink)',

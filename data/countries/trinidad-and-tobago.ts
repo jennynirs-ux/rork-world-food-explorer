@@ -194,7 +194,7 @@ export const trinidadAndTobago: Country = {
       'Cool 15 minutes in pan, then transfer to a rack',
       'Slice and serve slightly warm or at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=700&q=80',
   },
 
   drinks: {

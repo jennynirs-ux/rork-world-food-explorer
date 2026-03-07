@@ -90,7 +90,7 @@ export const montenegro: Country = {
       'Fry until golden and puffed',
       'Drain and serve hot with honey and cheese',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=750&q=80',
   },
   mainDish: {
     id: 'montenegro-main',
@@ -113,7 +113,7 @@ export const montenegro: Country = {
       'Slice thinly to serve',
       'Pair with cheese and olives',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=750&q=80',
   },
   drinks: {
     alcoholic: 'Rakija, Vranac wine, Nikšićko beer',

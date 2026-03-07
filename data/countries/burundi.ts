@@ -146,7 +146,7 @@ export const burundi: Country = {
       'Optional: add a pat of butter on top.',
       'Can be eaten as breakfast or dessert.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Urwarwa (banana beer), Impeke (sorghum beer)',

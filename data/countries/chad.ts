@@ -107,7 +107,7 @@ export const chad: Country = {
       'Simmer sauce until thick',
       'Serve boule with sauce on side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80',
   },
   dessert: {
     id: 'chad-dessert',
@@ -134,7 +134,7 @@ export const chad: Country = {
       'Stir in vanilla extract',
       'Serve warm or chilled as dessert',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1507120878965-54b2d3939100?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Bili-bili (millet beer)',

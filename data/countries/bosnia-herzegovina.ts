@@ -118,7 +118,7 @@ export const bosniaHerzegovina: Country = {
       'Serve in somun bread with kajmak and onions',
       'Add ajvar sauce on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=800&q=80',
   },
   dessert: {
     id: 'bosnia-dessert',

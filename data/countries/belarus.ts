@@ -151,7 +151,7 @@ export const belarus: Country = {
       'Serve hot with sour cream and berry jam.',
       'Optional: dust with powdered sugar.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Vodka, Krambambula (honey liqueur), Kvass',

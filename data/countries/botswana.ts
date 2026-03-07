@@ -116,7 +116,7 @@ export const botswana: Country = {
       'For pap: cook maize meal with water until thick',
       'Serve seswaa with pap',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
   },
   dessert: {
     id: 'botswana-dessert',

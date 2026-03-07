@@ -86,7 +86,7 @@ export const palau: Country = {
       'Cool before unwrapping',
       'Slice and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1553163147-622ab57be1c7?w=650&q=80',
   },
   mainDish: {
     id: 'palau-main',
@@ -110,7 +110,7 @@ export const palau: Country = {
       'Add taro leaves at end',
       'Serve with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=850&q=80',
   },
   drinks: {
     alcoholic: 'Local beer, Fermented beverages',

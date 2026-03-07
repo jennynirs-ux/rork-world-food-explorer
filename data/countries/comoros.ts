@@ -138,7 +138,7 @@ export const comoros: Country = {
       'Cool slightly before slicing',
       'Serve with vanilla tea or coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1586040140378-b5634cb4c8fc?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Local rum',

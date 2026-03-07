@@ -80,7 +80,7 @@ export const dominicanRepublic: Country = {
       'Plate rice, beans, and meat together',
       'Serve with fried plantains and avocado salad',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=850&q=80',
   },
   dessert: {
     id: 'dominican-dessert',
@@ -110,7 +110,7 @@ export const dominicanRepublic: Country = {
       'Refrigerate overnight',
       'Top with whipped cream before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600',
+    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=600&q=80',
   },
   drinks: {
     alcoholic: 'Mamajuana, Brugal rum, Presidente beer',

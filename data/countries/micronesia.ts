@@ -81,7 +81,7 @@ export const micronesia: Country = {
       'Bake at 350°F for 25 minutes',
       'Serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=650&q=80',
   },
   mainDish: {
     id: 'micronesia-main',
@@ -105,7 +105,7 @@ export const micronesia: Country = {
       'Add chopped onions and peppers',
       'Serve with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=850&q=80',
   },
   drinks: {
     alcoholic: 'Sakau (kava)',

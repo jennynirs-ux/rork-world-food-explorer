@@ -111,7 +111,7 @@ export const brunei: Country = {
       'Use chandas (special fork) to twirl ambuyat',
       'Dip in sauces and eat with sides',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=800&q=80',
   },
   dessert: {
     id: 'brunei-dessert',

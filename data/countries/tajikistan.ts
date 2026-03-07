@@ -170,7 +170,7 @@ export const tajikistan: Country = {
       'Cover and steam until rice is tender and liquid absorbed',
       'Gently mix before serving and serve family-style',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=650&q=80',
   },
 
   dessert: {
@@ -200,7 +200,7 @@ export const tajikistan: Country = {
       'Transfer to a dish and smooth the surface',
       'Let cool slightly before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=900&q=80',
   },
 
   drinks: {

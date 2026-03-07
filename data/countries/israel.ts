@@ -128,7 +128,7 @@ export const israel: Country = {
       'Refrigerate for at least 2 hours until firm',
       'Cut into squares and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1574484284002-952d92456975?w=750&q=80',
   },
   quiz: [
     {

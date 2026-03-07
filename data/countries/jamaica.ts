@@ -93,7 +93,7 @@ export const jamaica: Country = {
       'Cook until chicken is charred and fully cooked through',
       'Serve with rice and peas, festival (fried dough), and coleslaw',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=900&q=80',
   },
   dessert: {
     id: 'jamaica-dessert',
@@ -121,7 +121,7 @@ export const jamaica: Country = {
       'Poke holes in warm cake, pour rum syrup over',
       'Let cake absorb syrup completely before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1574484284002-952d92456975?w=650&q=80',
   },
   drinks: {
     alcoholic: 'Red Stripe beer, Appleton Estate rum, Rum punch, Bob Marley cocktail',

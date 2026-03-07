@@ -90,7 +90,7 @@ export const monaco: Country = {
       'Bake at 350°F for 25 minutes until golden',
       'Cool and slice to serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80',
   },
   mainDish: {
     id: 'monaco-main',
@@ -115,7 +115,7 @@ export const monaco: Country = {
       'Fold into half-moons and seal',
       'Deep fry until golden',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=700&q=80',
   },
   drinks: {
     alcoholic: 'Champagne, French wines, Cocktails',

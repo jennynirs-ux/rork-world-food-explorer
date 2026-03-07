@@ -101,7 +101,7 @@ export const cuba: Country = {
       'Add shredded beef, simmer for 30 minutes',
       'Serve over white rice with black beans and plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=800&q=80',
   },
   dessert: {
     id: 'cuba-dessert',

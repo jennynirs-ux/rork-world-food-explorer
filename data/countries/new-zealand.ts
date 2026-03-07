@@ -187,7 +187,7 @@ export const newZealand: Country = {
       'Serve with vegetables and a simple gravy made from collected juices if desired.',
       'Optional: serve alongside Maori bread (rewena) or a fresh salad.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=850&q=80',
   },
 
   dessert: {

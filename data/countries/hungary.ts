@@ -98,7 +98,7 @@ export const hungary: Country = {
       'Season with salt and pepper to taste',
       'Serve hot with fresh bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1534483509719-8c64e4c498d0?w=800&q=80',
   },
   dessert: {
     id: 'hungary-dessert',
@@ -125,7 +125,7 @@ export const hungary: Country = {
       'Score caramel into slices before it hardens',
       'Refrigerate before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80',
   },
   innovations: [
     {

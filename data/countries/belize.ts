@@ -108,7 +108,7 @@ export const belize: Country = {
       'Serve rice and beans with stew chicken',
       'Add plantains on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80',
   },
   dessert: {
     id: 'belize-dessert',

@@ -103,7 +103,7 @@ export const denmark: Country = {
       'Arrange beautifully on plates',
       'Serve with cold beer or schnapps',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1521305916504-4a1121188589?w=800&q=80',
   },
   dessert: {
     id: 'denmark-dessert',

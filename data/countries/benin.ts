@@ -113,7 +113,7 @@ export const benin: Country = {
       'Deep fry until golden brown',
       'Serve as snack or appetizer',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=800&q=80',
   },
   dessert: {
     id: 'benin-dessert',
@@ -143,7 +143,7 @@ export const benin: Country = {
       'Optional: roll in sugar while warm.',
       'Serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1567982047351-76b6f93e38ee?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Palm wine, Local beer, Sodabi (palm liquor)',
