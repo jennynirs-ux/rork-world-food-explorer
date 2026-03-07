@@ -6,8 +6,10 @@ import { useTranslation } from '@/lib/i18n';
 import Paywall from '@/components/Paywall';
 import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock } from 'lucide-react-native';
 import Globe3D from '@/components/Globe3D';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { isCountryAccessible } from '@/lib/access-control';
+import { preloadImages } from '@/lib/image-utils';
+import { translateContent } from '@/lib/translate-content';
 
 export default function ExploreScreen() {
   const { countryProgress, countries, userProfile, purchaseProduct } = useApp();
@@ -43,7 +45,7 @@ export default function ExploreScreen() {
       
       return {
         id: country.id,
-        name: country.name,
+        name: translateContent(country.name),
         flag: country.flag,
         code: country.code,
         lat,
@@ -80,7 +82,8 @@ export default function ExploreScreen() {
   };
 
   const filteredCountries = countries.filter(country => {
-    const matchesSearch = country.name.toLowerCase().includes(searchQuery.toLowerCase());
+    const name = translateContent(country.name);
+    const matchesSearch = name.toLowerCase().includes(searchQuery.toLowerCase());
     if (!matchesSearch) return false;
     
     if (!filterStatus) return true;
@@ -89,7 +92,15 @@ export default function ExploreScreen() {
     }
     const status = getCountryStatus(country.id);
     return status === filterStatus;
-  }).sort((a, b) => a.name.localeCompare(b.name));
+  }).sort((a, b) => translateContent(a.name).localeCompare(translateContent(b.name)));
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const urls = filteredCountries.slice(0, 20).map(c => c.landscapeImage).filter((u): u is string => !!u);
+      void preloadImages(urls);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, [filteredCountries]);
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
@@ -158,7 +169,7 @@ export default function ExploreScreen() {
                     onPress={() => handleCountryPress(country.id)}
                   >
                     <View style={styles.countryNameRow}>
-                      <Text style={styles.countryName}>{country.name}</Text>
+                      <Text style={styles.countryName}>{translateContent(country.name)}</Text>
                       {!isAccessible && (
                         <View style={styles.lockIcon}>
                           <Lock size={16} color="#9CA3AF" />
@@ -223,7 +234,7 @@ export default function ExploreScreen() {
                         <Lock size={10} color="#9CA3AF" />
                       )}
                       <Text style={[styles.countryChipFlag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
-                      <Text style={styles.countryChipName} numberOfLines={1}>{country.name}</Text>
+                      <Text style={styles.countryChipName} numberOfLines={1}>{translateContent(country.name)}</Text>
                     </TouchableOpacity>
                   );
                 })}
@@ -306,7 +317,7 @@ export default function ExploreScreen() {
                     onPress={() => handleCountryPress(country.id)}
                   >
                     <View style={styles.countryNameRow}>
-                      <Text style={styles.countryName}>{country.name}</Text>
+                      <Text style={styles.countryName}>{translateContent(country.name)}</Text>
                       {!isAccessible && (
                         <View style={styles.lockIcon}>
                           <Lock size={16} color="#9CA3AF" />
@@ -339,7 +350,7 @@ export default function ExploreScreen() {
         country={selectedCountry ? countries.find(c => c.id === selectedCountry) : undefined}
         countries={countries}
         onPurchase={(productId) => {
-          purchaseProduct(productId);
+          void purchaseProduct(productId);
           setShowPaywall(false);
           setSelectedCountry(null);
         }}
