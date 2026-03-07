@@ -6,7 +6,8 @@ import {
   TouchableOpacity, 
   Alert
 } from 'react-native';
-import { Image } from 'expo-image';
+import { FoodImage } from '@/components/FoodImage';
+import { preloadImages } from '@/lib/image-utils';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useState, useEffect, useMemo } from 'react';
@@ -106,6 +107,13 @@ export default function CountryDetailScreen() {
       updateCountryProgress(country.id, { visited: true, visitedDate: new Date().toISOString() }, 0);
     }
   }, [country, progress, updateCountryProgress]);
+
+  useEffect(() => {
+    if (country) {
+      const urls = [country.landscapeImage, country.mainDish?.imageUrl, country.dessert?.imageUrl].filter(Boolean) as string[];
+      void preloadImages(urls);
+    }
+  }, [country]);
 
   if (!country || !progress) {
     return (
@@ -299,14 +307,12 @@ export default function CountryDetailScreen() {
     <SafeAreaView style={styles.container} edges={['top']}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false} bounces={false}>
         <View style={styles.bannerContainer}>
-          {country.landscapeImage && (
-            <Image
-              key={country.id}
-              source={{ uri: country.landscapeImage }}
-              style={styles.bannerImage}
-              contentFit="cover"
-            />
-          )}
+          <FoodImage
+            uri={country.landscapeImage}
+            alt={`${country.name} landscape`}
+            style={styles.bannerImage}
+            type="landscape"
+          />
           <View style={styles.bannerOverlay} />
           
           <View style={styles.headerButtons}>
@@ -566,13 +572,12 @@ export default function CountryDetailScreen() {
             <View style={styles.section}>
               <Text style={styles.sectionTitle}>{t.country.mainDish}</Text>
               <View style={styles.recipeCard}>
-                {country.mainDish.imageUrl && (
-                  <Image
-                    source={{ uri: country.mainDish.imageUrl }}
-                    style={styles.dishImage}
-                    contentFit="cover"
-                  />
-                )}
+                <FoodImage
+                  uri={country.mainDish.imageUrl}
+                  alt={String(country.mainDish.name)}
+                  style={styles.dishImage}
+                  type="food"
+                />
                 <Text style={styles.recipeName}>{country.mainDish.name}</Text>
                 <Text style={styles.recipeDescription}>{country.mainDish.description}</Text>
                 
@@ -712,13 +717,12 @@ export default function CountryDetailScreen() {
               <View style={styles.section}>
                 <Text style={styles.sectionTitle}>{t.country.dessert}</Text>
                 <View style={styles.recipeCard}>
-                  {country.dessert.imageUrl && (
-                    <Image
-                      source={{ uri: country.dessert.imageUrl }}
-                      style={styles.dishImage}
-                      contentFit="cover"
-                    />
-                  )}
+                  <FoodImage
+                    uri={country.dessert?.imageUrl}
+                    alt={String(country.dessert.name)}
+                    style={styles.dishImage}
+                    type="food"
+                  />
                   <Text style={styles.recipeName}>{country.dessert.name}</Text>
                   <Text style={styles.recipeDescription}>{country.dessert.description}</Text>
                   
