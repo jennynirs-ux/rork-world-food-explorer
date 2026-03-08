@@ -101,7 +101,7 @@ export const fiji: Country = {
       'Cool and cut into squares',
       'Serve with extra coconut cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1606728035253-49e8a23146de?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Kava (traditional ceremony drink), Fiji Bitter beer',

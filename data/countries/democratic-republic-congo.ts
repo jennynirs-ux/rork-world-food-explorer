@@ -84,7 +84,7 @@ export const democraticRepublicCongo: Country = {
       'Cook until chicken is tender and sauce thickens',
       'Serve with fufu or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80',
   },
   dessert: {
     id: 'drc-dessert',

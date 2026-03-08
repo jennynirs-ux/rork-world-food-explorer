@@ -122,7 +122,7 @@ export const namibia: Country = {
       'Do not stir - let flavors meld naturally',
       'Serve straight from the pot with bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Windhoek Lager, Tafel Lager, German-style beers',
