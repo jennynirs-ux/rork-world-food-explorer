@@ -139,7 +139,7 @@ export const italy: Country = {
       'Dust generously with cocoa powder',
       'Refrigerate for at least 4 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1574484284002-952d92456975?w=850&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=700',
   },
   drinks: {
     alcoholic: 'Chianti, Prosecco, Aperol Spritz, Limoncello',

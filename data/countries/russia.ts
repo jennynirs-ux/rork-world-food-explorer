@@ -142,7 +142,7 @@ export const russia: Country = {
       'Sprinkle with crumbled cake trimmings',
       'Refrigerate overnight for best texture',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=850&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=750',
   },
   drinks: {
     alcoholic: 'Vodka (national drink), Kvas (fermented bread drink), Medovukha (honey wine)',

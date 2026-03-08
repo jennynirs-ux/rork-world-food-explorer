@@ -69,7 +69,7 @@ export const rwanda: Country = {
       'Simmer for 20 minutes, stirring frequently',
       'Serve with sweet potatoes or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1557872943-16a5ac26437e?w=750&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800',
   },
   dessert: {
     id: 'rwanda-dessert',
@@ -101,7 +101,7 @@ export const rwanda: Country = {
       'Drain on paper towels',
       'Serve warm, optionally dusted with powdered sugar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=650&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1525176561091-0169dd29e76e?w=900',
   },
   drinks: {
     alcoholic: 'Banana beer (Urwagwa), Primus lager',

@@ -160,7 +160,7 @@ export const turkmenistan: Country = {
       'Cover and steam until rice is tender and liquid absorbed',
       'Fluff gently before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600',
   },
 
   dessert: {
@@ -186,7 +186,7 @@ export const turkmenistan: Country = {
       'Pour syrup over fried dough and mix well',
       'Shape into a mound and let cool before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=850&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1558326567-98ae2405596b?w=800',
   },
 
   drinks: {

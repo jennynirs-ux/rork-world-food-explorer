@@ -81,7 +81,7 @@ export const liberia: Country = {
       'Let cool and cut into squares',
       'Store in airtight container',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1566740933430-b5e70b06d2d6?w=900&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=700',
   },
   mainDish: {
     id: 'liberia-main',
@@ -106,7 +106,7 @@ export const liberia: Country = {
       'Fluff with fork',
       'Serve with fried plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=700',
   },
   drinks: {
     alcoholic: 'Palm wine, Club Beer',

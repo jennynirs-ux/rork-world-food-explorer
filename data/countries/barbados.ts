@@ -113,7 +113,7 @@ export const barbados: Country = {
       'Cook until smooth pudding forms',
       'Serve fish over cou-cou with tomato sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=800&q=80',
   },
   dessert: {
     id: 'barbados-dessert',

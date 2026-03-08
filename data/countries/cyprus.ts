@@ -239,7 +239,7 @@ export const cyprus: Country = {
       'Pour hot syrup over warm pastry.',
       'Let cool completely before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1508737027454-e6454ef45afd?w=800&q=80',
   },
   coordinates: { x: 55, y: 35 },
 };

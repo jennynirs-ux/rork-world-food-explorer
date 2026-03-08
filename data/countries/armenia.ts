@@ -122,7 +122,7 @@ export const armenia: Country = {
       'Baste with pomegranate juice while grilling',
       'Serve with lavash bread and fresh herbs',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
   },
   dessert: {
     id: 'armenia-dessert',

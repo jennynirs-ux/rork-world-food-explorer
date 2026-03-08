@@ -112,7 +112,7 @@ export const pakistan: Country = {
       'Add hot balls to warm syrup',
       'Let soak for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1553163147-622ab57be1c7?w=850&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=700',
   },
   mainDish: {
     id: 'pakistan-biryani',

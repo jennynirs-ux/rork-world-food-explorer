@@ -75,7 +75,7 @@ export const djibouti: Country = {
       'Garnish with raisins and fried onions',
       'Serve with banana and salad',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1516714435131-44d6b64dc6a2?w=800&q=80',
   },
   dessert: {
     id: 'djibouti-dessert',
@@ -100,7 +100,7 @@ export const djibouti: Country = {
       'Spread on tray and top with sesame seeds',
       'Cool and cut into squares',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1560008581-09826d1de69e?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Limited availability',

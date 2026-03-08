@@ -166,7 +166,7 @@ export const albania: Country = {
       'Bake at 190°C (375°F) for 35–40 minutes, until the top is deeply golden and the center is set (it should wobble slightly, not slosh).',
       'Rest 10–15 minutes before serving so the custard firms up. Serve warm with a simple tomato-cucumber salad.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1574484284002-952d92456975?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1608039783021-6df0e59417c1?w=800&q=80',
   },
 
   dessert: {

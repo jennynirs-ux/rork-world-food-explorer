@@ -98,7 +98,7 @@ export const poland: Country = {
       'Sauté in butter with onions until lightly golden',
       'Serve with sour cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1557872943-16a5ac26437e?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=900',
   },
   dessert: {
     id: 'poland-dessert',

@@ -89,7 +89,7 @@ export const libya: Country = {
       'Drizzle with date syrup',
       'Serve warm, eaten by hand',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1566740933430-b5e70b06d2d6?w=750&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1560008581-09826d1de69e?w=900',
   },
   mainDish: {
     id: 'libya-main',
@@ -120,7 +120,7 @@ export const libya: Country = {
       'Pour lamb stew over the bread',
       'Serve family-style with everyone eating from the same dish',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=900&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=700',
   },
   drinks: {
     alcoholic: 'Not commonly consumed (Islamic country)',

@@ -96,7 +96,7 @@ export const madagascar: Country = {
       'Cool completely before slicing',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=700',
   },
   mainDish: {
     id: 'madagascar-main',

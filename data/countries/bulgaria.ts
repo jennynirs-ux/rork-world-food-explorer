@@ -125,7 +125,7 @@ export const bulgaria: Country = {
       'Bake for 40-45 minutes until golden brown',
       'Let cool slightly before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&q=80',
   },
   dessert: {
     id: 'bulgaria-dessert',

@@ -105,7 +105,7 @@ export const unitedKingdom: Country = {
       'Fry chips again at higher heat until golden and crunchy',
       'Serve fish with chips, add salt and malt vinegar',
     ],
-    imageUrl: 'https://images.pexels.com/photos/29176169/pexels-photo-29176169.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1579208030886-b1f5b7c3696e?w=800&q=80',
   },
   dessert: {
     id: 'uk-dessert',
@@ -138,7 +138,7 @@ export const unitedKingdom: Country = {
       'Make toffee sauce: simmer cream, brown sugar, butter (optional), and golden syrup until glossy',
       'Serve warm pudding drenched in sauce (with custard or ice cream)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=850&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1565680018093-ebb6e3a67f44?w=900',
   },
   drinks: {
     alcoholic: "Beer, Whisky, Gin, Pimm's",

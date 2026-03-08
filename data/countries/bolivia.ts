@@ -122,7 +122,7 @@ export const bolivia: Country = {
       'Brush with egg wash and sprinkle with sugar',
       'Bake at 200°C for 25-30 minutes until golden',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80',
   },
   dessert: {
     id: 'bolivia-dessert',

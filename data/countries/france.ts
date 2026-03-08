@@ -116,7 +116,7 @@ export const france: Country = {
       'Remove chicken, reduce sauce if needed',
       'Serve with crusty bread or mashed potatoes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=700',
   },
   dessert: {
     id: 'france-dessert',
@@ -144,7 +144,7 @@ export const france: Country = {
       'Refrigerate at least 2 hours',
       'Before serving, sprinkle sugar on top and caramelize with torch',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=700',
   },
   drinks: {
     alcoholic: 'Champagne, Bordeaux wine, Cognac, Calvados',

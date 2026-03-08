@@ -204,7 +204,7 @@ export const thailand: Country = {
       'Drizzle remaining coconut milk on top',
       'Sprinkle with sesame seeds',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1621236378699-8597faf6a176?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1621236378699-8597faf6a176?w=700',
   },
 
   drinks: {

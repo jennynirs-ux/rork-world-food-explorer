@@ -89,7 +89,7 @@ export const luxembourg: Country = {
       'Bake at 180°C for 45 minutes until plums are soft',
       'Serve warm or cold with whipped cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1566740933430-b5e70b06d2d6?w=650&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=900',
   },
   mainDish: {
     id: 'luxembourg-main',
@@ -114,7 +114,7 @@ export const luxembourg: Country = {
       'Mix beans with creamy onions',
       'Serve pork slices with beans and boiled potatoes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=650&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=900',
   },
   drinks: {
     alcoholic: 'Moselle wine, Bofferding beer, Crémant sparkling wine',

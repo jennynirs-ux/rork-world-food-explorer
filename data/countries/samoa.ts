@@ -170,7 +170,7 @@ export const samoa: Country = {
       'Rest 5 minutes, then unwrap carefully.',
       'Serve warm as a side or main with taro, breadfruit, or rice.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?w=750',
   },
 
   dessert: {
@@ -201,7 +201,7 @@ export const samoa: Country = {
       'Stir in vanilla if using.',
       'Serve steamed pieces warm, spooning coconut caramel sauce over the top.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=750&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=900',
   },
 
   drinks: {

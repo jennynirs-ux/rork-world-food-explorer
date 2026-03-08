@@ -91,7 +91,7 @@ export const kuwait: Country = {
       'Bake at 350°F for 25-30 minutes',
       'Cool and cut into diamond shapes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=700',
   },
   mainDish: {
     id: 'kuwait-main',
@@ -116,7 +116,7 @@ export const kuwait: Country = {
       'Layer meat and rice',
       'Garnish with fried onions and nuts',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=650&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=700',
   },
   drinks: {
     alcoholic: 'Not available (prohibited)',

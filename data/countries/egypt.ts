@@ -146,7 +146,7 @@ export const egypt: Country = {
       'Immediately pour cold syrup over hot cake',
       'Let absorb for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1579697096985-41fe1430e5df?w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Stella beer, Sakara Gold',

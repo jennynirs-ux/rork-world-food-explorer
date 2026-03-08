@@ -118,7 +118,7 @@ export const belarus: Country = {
       'Drain & repeat: Transfer to paper towels or a rack. Add a little more oil between batches as needed.',
       'Serve: Serve immediately with sour cream (and optional chopped dill or chives if you like).',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=800&q=80',
   },
 
   dessert: {

@@ -121,7 +121,7 @@ export const azerbaijan: Country = {
       'Cover with cloth and lid, steam on very low heat for 45 minutes',
       'Serve with crispy bottom (qazmaq) on top',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80',
   },
   dessert: {
     id: 'azerbaijan-dessert',

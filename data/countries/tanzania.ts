@@ -189,7 +189,7 @@ export const tanzania: Country = {
       'Mix tomatoes, onion, cilantro, lemon juice, and remaining salt',
       'Serve grilled meat hot with ugali and kachumbari on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=650',
   },
 
   dessert: {
@@ -219,7 +219,7 @@ export const tanzania: Country = {
       'Fry mandazi in batches until puffed and golden, turning once',
       'Drain on paper towels and serve warm with chai',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=750&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1525176561091-0169dd29e76e?w=800',
   },
 
   drinks: {

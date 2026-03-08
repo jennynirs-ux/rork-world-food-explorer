@@ -116,7 +116,7 @@ export const india: Country = {
       'Garnish with cilantro',
       'Serve with basmati rice or naan bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=850&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80',
   },
   dessert: {
     id: 'india-dessert',

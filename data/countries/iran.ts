@@ -97,7 +97,7 @@ export const iran: Country = {
       'Simmer for 30 more minutes',
       'Serve over saffron rice (chelow)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=650&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=800&q=80',
   },
   dessert: {
     id: 'iran-dessert',
@@ -126,7 +126,7 @@ export const iran: Country = {
       'Fold in chopped pistachios, freeze until firm',
       'Serve between two wafers (traditional style)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1574484284002-952d92456975?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=900',
   },
   drinks: {
     alcoholic: 'Not available (alcohol prohibited)',

@@ -113,7 +113,7 @@ export const canada: Country = {
       'Pour hot gravy over top so cheese curds begin to melt',
       'Serve immediately while hot and crispy',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64b51?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=80',
   },
   dessert: {
     id: 'canada-dessert',

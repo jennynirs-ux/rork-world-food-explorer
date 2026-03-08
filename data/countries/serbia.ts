@@ -140,7 +140,7 @@ export const serbia: Country = {
       'Add ajvar and (optionally) kajmak on top or on the side.',
       'Eat hot—this is a classic street-food style meal in Serbia.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=900',
   },
 
   dessert: {
@@ -172,7 +172,7 @@ export const serbia: Country = {
       'Let rest 30 minutes so the cookies soften slightly.',
       'Store in an airtight container; they taste even better the next day.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=900&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800',
   },
 
   drinks: {

@@ -143,7 +143,7 @@ export const japan: Country = {
       'Quickly wrap mochi around ice cream and pinch to seal',
       'Freeze for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=700',
   },
   drinks: {
     alcoholic: 'Sake, Shochu, Japanese Whisky, Plum Wine (Umeshu)',

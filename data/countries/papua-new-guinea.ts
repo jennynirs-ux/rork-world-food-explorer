@@ -81,7 +81,7 @@ export const papuaNewGuinea: Country = {
       'Steam for 30 minutes',
       'Cool before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=750&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?w=750',
   },
   mainDish: {
     id: 'papua-new-guinea-main',
@@ -106,7 +106,7 @@ export const papuaNewGuinea: Country = {
       'Cover with leaves and earth',
       'Cook for 3 hours then uncover',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?w=900&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=600',
   },
   drinks: {
     alcoholic: 'SP beer, Bush beer (fermented)',

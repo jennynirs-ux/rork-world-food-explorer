@@ -86,7 +86,7 @@ export const nauru: Country = {
       'Bake at 350°F for 45 minutes',
       'Cool completely before slicing',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800',
   },
   mainDish: {
     id: 'nauru-main',
@@ -110,7 +110,7 @@ export const nauru: Country = {
       'Mix in diced tomatoes and onions',
       'Serve chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1621955511667-e2c316e4575d?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?w=800',
   },
   drinks: {
     alcoholic: 'Beer',

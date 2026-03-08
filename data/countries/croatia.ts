@@ -229,7 +229,7 @@ export const croatia: Country = {
       'Place one pastry layer in pan, spread custard, top with second layer.',
       'Refrigerate for 4 hours, dust with powdered sugar before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1517427677506-ade074eb1b66?w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=800&q=80',
   },
   coordinates: { x: 50, y: 45 },
 };

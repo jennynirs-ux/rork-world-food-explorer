@@ -90,7 +90,7 @@ export const georgia: Country = {
       'Crack egg on top and bake 5 more minutes',
       'Top with butter and serve hot',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=900&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=700',
   },
   dessert: {
     id: 'georgia-dessert',
@@ -117,7 +117,7 @@ export const georgia: Country = {
       'Hang in cool, dry place for 2-3 days to fully dry.',
       'Store in airtight container up to 3 months.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558326567-98ae2405596b?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1558326567-98ae2405596b?w=700',
   },
   drinks: {
     alcoholic: 'Georgian wine (Saperavi, Rkatsiteli), Chacha (grape vodka)',

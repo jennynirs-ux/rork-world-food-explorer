@@ -84,7 +84,7 @@ export const niger: Country = {
       'Deep fry until puffy and golden',
       'Dust with powdered sugar and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=650&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1567306301408-9b74779a11a2?w=750',
   },
   mainDish: {
     id: 'niger-main',

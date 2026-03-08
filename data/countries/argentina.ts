@@ -104,7 +104,7 @@ export const argentina: Country = {
       'Meat is done when tender and slightly charred outside',
       'Slice and serve with chimichurri sauce and crusty bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1558030006-450675393462?w=800&q=80',
   },
   dessert: {
     id: 'argentina-dessert',

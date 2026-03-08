@@ -234,7 +234,7 @@ export const czechRepublic: Country = {
       'Slide off pins while warm.',
       'Serve immediately.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1432139509613-5c4255a1d197?w=700&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1432139509613-5c4255a1d197?w=800&q=80',
   },
   coordinates: { x: 50, y: 50 },
 };

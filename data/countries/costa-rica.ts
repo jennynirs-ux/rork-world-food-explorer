@@ -116,7 +116,7 @@ export const costaRica: Country = {
       'Add chopped cilantro and mix',
       'Serve hot with eggs, cheese, tortillas, and fried plantains',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&q=80',
   },
   dessert: {
     id: 'costa-rica-dessert',

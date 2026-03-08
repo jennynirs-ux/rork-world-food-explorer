@@ -107,7 +107,7 @@ export const centralAfricanRepublic: Country = {
       'Add spinach and simmer',
       'Serve fufu with peanut sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fdf?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=800&q=80',
   },
   dessert: {
     id: 'central-african-dessert',

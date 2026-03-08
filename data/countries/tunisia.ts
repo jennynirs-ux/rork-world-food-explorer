@@ -171,7 +171,7 @@ export const tunisia: Country = {
       'Serve couscous topped with meat and vegetables',
       'Ladle broth over and add extra harissa if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=850&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=750',
   },
 
   dessert: {
@@ -202,7 +202,7 @@ export const tunisia: Country = {
       'Dust generously with powdered sugar',
       'Serve hot',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=900&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1567306301408-9b74779a11a2?w=850',
   },
 
   drinks: {

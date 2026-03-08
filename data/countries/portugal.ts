@@ -109,7 +109,7 @@ export const portugal: Country = {
       'Garnish with black olives and fresh parsley',
       'Serve immediately',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=700',
   },
   dessert: {
     id: 'portugal-dessert',

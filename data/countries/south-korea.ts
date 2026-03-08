@@ -198,7 +198,7 @@ export const southKorea: Country = {
       'Optional: finish with a small handful of cornflakes for crunch.',
       'Serve immediately.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=650&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800',
   },
 
   drinks: {
