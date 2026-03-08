@@ -105,7 +105,7 @@ export const unitedKingdom: Country = {
       'Fry chips again at higher heat until golden and crunchy',
       'Serve fish with chips, add salt and malt vinegar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1579208030886-b1f5b6b4e960?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29176169/pexels-photo-29176169.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   dessert: {
     id: 'uk-dessert',
