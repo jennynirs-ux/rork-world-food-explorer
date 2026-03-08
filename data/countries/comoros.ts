@@ -107,7 +107,7 @@ export const comoros: Country = {
       'Simmer until lobster is cooked',
       'Serve with fragrant rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/34521022/pexels-photo-34521022.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'comoros-dessert',
@@ -138,7 +138,7 @@ export const comoros: Country = {
       'Cool slightly before slicing',
       'Serve with vanilla tea or coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586040140378-b5634cb4c8fc?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Local rum',

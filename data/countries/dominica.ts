@@ -75,7 +75,7 @@ export const dominica: Country = {
       'Season with garlic and pepper',
       'Serve hot with dumplings',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/27397344/pexels-photo-27397344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'dominica-dessert',
@@ -100,7 +100,7 @@ export const dominica: Country = {
       'Let cool and harden',
       'Store in airtight container',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/34153204/pexels-photo-34153204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Rum, Bay rum, Local beer',

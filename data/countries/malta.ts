@@ -108,7 +108,7 @@ export const malta: Country = {
       'Deep fry until golden brown',
       'Drain and serve warm or cool',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Homemade_Imqaret.jpg/800px-Homemade_Imqaret.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'malta-stuffat-tal-fenek',
@@ -140,7 +140,7 @@ export const malta: Country = {
       'Season with salt and pepper',
       'Serve with crusty bread or pasta',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Malta_Rabbit_fried_with_wine_and_garlic.JPG/800px-Malta_Rabbit_fried_with_wine_and_garlic.JPG',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Cisk beer, Maltese wines, Kinnie (local soft drink with bitter oranges)',

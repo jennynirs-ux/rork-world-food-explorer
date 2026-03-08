@@ -90,7 +90,7 @@ export const montenegro: Country = {
       'Fry until golden and puffed',
       'Drain and serve hot with honey and cheese',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Ustipci.jpg/800px-Ustipci.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'montenegro-main',
@@ -113,7 +113,7 @@ export const montenegro: Country = {
       'Slice thinly to serve',
       'Pair with cheese and olives',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Njegu%C5%A1ki_pr%C5%A1ut.jpg/800px-Njegu%C5%A1ki_pr%C5%A1ut.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Rakija, Vranac wine, Nikšićko beer',

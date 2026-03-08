@@ -162,7 +162,7 @@ export const unitedStates: Country = {
       'Toast buns lightly',
       'Assemble burgers with toppings and serve with fries',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/15010298/pexels-photo-15010298.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'united-states-dessert',
@@ -194,7 +194,7 @@ export const unitedStates: Country = {
       'Bake 45–50 minutes until golden and bubbling',
       'Cool before serving (best with vanilla ice cream)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/14892627/pexels-photo-14892627.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic:

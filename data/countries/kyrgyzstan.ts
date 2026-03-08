@@ -93,7 +93,7 @@ export const kyrgyzstan: Country = {
       'Press into mound shape',
       'Let cool and set before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Chak-chak_shirinligi.jpg/800px-Chak-chak_shirinligi.jpg',
+    imageUrl: 'https://images.pexels.com/photos/10747409/pexels-photo-10747409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'kyrgyzstan-main',
@@ -117,7 +117,7 @@ export const kyrgyzstan: Country = {
       'Top with meat and raw onions',
       'Pour broth over and serve',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/A_Kyrgyz_woman.JPG/800px-A_Kyrgyz_woman.JPG',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Kumis (fermented mare\'s milk), Vodka',

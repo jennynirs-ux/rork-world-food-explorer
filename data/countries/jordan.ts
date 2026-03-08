@@ -87,7 +87,7 @@ export const jordan: Country = {
       'Pour cooled syrup over hot knafeh',
       'Garnish with crushed pistachios and serve warm',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/K%C3%BCnefe.jpg/800px-K%C3%BCnefe.jpg',
+    imageUrl: 'https://images.pexels.com/photos/19559294/pexels-photo-19559294.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'jordan-main',
@@ -112,7 +112,7 @@ export const jordan: Country = {
       'Layer rice on large platter',
       'Top with lamb, sauce, and nuts',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Mansaf%2C_the_traditional_dish_of_Jordan.jpg/800px-Mansaf%2C_the_traditional_dish_of_Jordan.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Arak (limited)',

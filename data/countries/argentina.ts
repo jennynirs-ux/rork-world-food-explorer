@@ -104,7 +104,7 @@ export const argentina: Country = {
       'Meat is done when tender and slightly charred outside',
       'Slice and serve with chimichurri sauce and crusty bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558030006-450675393462?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/8279978/pexels-photo-8279978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'argentina-dessert',
@@ -134,7 +134,7 @@ export const argentina: Country = {
       'Let cool completely, then sandwich with dulce de leche',
       'Roll edges in shredded coconut',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1599599810694-b5b37304c041?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/16522216/pexels-photo-16522216.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Malbec wine, Fernet con Coca, Quilmes beer',

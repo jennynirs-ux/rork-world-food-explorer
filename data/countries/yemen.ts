@@ -99,7 +99,7 @@ export const yemen: Country = {
       'Heat until bubbling in a stone pot',
       'Serve immediately with flatbread',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Saltah.jpg/800px-Saltah.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'yemen-dessert',
@@ -126,7 +126,7 @@ export const yemen: Country = {
       'Bake at 180°C until golden',
       'Drizzle generously with honey before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bint_al_Sahn.png/800px-Bint_al_Sahn.png',
+    imageUrl: 'https://images.pexels.com/photos/11215343/pexels-photo-11215343.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Not common',

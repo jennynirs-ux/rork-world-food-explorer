@@ -144,7 +144,7 @@ export const singapore: Country = {
       'Slice chicken and drizzle with soy sauce (or light + dark soy mix if you use both).',
       'Serve with cucumber slices and the sauces on the side.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519624213443-5f3e0886f1e0?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/6990118/pexels-photo-6990118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -166,7 +166,7 @@ export const singapore: Country = {
       'Add butter slices, then sandwich with remaining toast.',
       'Cut into triangles and serve warm.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1562945431-ce2b63d5a7fe?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/24390476/pexels-photo-24390476.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

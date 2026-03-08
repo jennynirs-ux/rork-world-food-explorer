@@ -122,7 +122,7 @@ export const armenia: Country = {
       'Baste with pomegranate juice while grilling',
       'Serve with lavash bread and fresh herbs',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'armenia-dessert',
@@ -153,7 +153,7 @@ export const armenia: Country = {
       'Brush with egg yolk and make decorative cuts on top.',
       'Bake at 180°C for 35-40 minutes until golden brown.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/11968759/pexels-photo-11968759.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Armenian cognac, Wine, Ararat brandy',

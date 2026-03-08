@@ -90,7 +90,7 @@ export const norway: Country = {
       'Bring to boil, then simmer covered for 2-3 hours',
       'Serve with boiled potatoes',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/F%C3%A5r_i_k%C3%A5l.jpg/800px-F%C3%A5r_i_k%C3%A5l.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'norway-dessert',
@@ -118,7 +118,7 @@ export const norway: Country = {
       'Bake at 180°C for 30 minutes until golden',
       'Cool, slice horizontally, fill with vanilla custard',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Kv%C3%A6fjordkake.jpg/800px-Kv%C3%A6fjordkake.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Aquavit (traditional spirit), Norwegian craft beer, Gløgg (mulled wine)',

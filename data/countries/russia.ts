@@ -107,7 +107,7 @@ export const russia: Country = {
       'Return meat to soup, add dill',
       'Serve hot with a dollop of sour cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1550367363-ea12860cc124?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/12955891/pexels-photo-12955891.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'russia-medovik',
@@ -142,7 +142,7 @@ export const russia: Country = {
       'Sprinkle with crumbled cake trimmings',
       'Refrigerate overnight for best texture',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Honey_cake_Medovik.jpg/800px-Honey_cake_Medovik.jpg',
+    imageUrl: 'https://images.pexels.com/photos/12106434/pexels-photo-12106434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Vodka (national drink), Kvas (fermented bread drink), Medovukha (honey wine)',

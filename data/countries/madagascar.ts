@@ -96,7 +96,7 @@ export const madagascar: Country = {
       'Cool completely before slicing',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Kobandravina_dessert_snack_food_Antananarivo_Madagascar.jpg/800px-Kobandravina_dessert_snack_food_Antananarivo_Madagascar.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'madagascar-main',
@@ -125,7 +125,7 @@ export const madagascar: Country = {
       'Season with salt to taste',
       'Serve over white rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Three Horses Beer, Rum, Litchel (lychee liqueur)',

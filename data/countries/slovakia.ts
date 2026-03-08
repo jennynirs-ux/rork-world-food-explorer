@@ -134,7 +134,7 @@ export const slovakia: Country = {
       'Top with crispy bacon and a spoon of rendered fat for classic flavor.',
       'Serve immediately; add sour cream if you like it extra creamy.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg/800px-Bryndzov%C3%A9_halu%C5%A1ky_so_slaninou.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29536412/pexels-photo-29536412.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -163,7 +163,7 @@ export const slovakia: Country = {
       'Mix ground poppy seeds with sugar, then sprinkle over noodles and toss gently.',
       'Serve warm.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Poppy_seeds.jpg/800px-Poppy_seeds.jpg',
+    imageUrl: 'https://images.pexels.com/photos/31373327/pexels-photo-31373327.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

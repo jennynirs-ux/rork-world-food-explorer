@@ -162,7 +162,7 @@ export const switzerland: Country = {
       'Season with nutmeg and pepper',
       'Keep warm and serve immediately',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/22889996/pexels-photo-22889996.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -196,7 +196,7 @@ export const switzerland: Country = {
       'Press sliced almonds onto the sides/top for decoration.',
       'Chill at least 1 hour before slicing for best texture.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Zuger-Kirschtorte-Stueck-2013.jpg/800px-Zuger-Kirschtorte-Stueck-2013.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29487450/pexels-photo-29487450.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

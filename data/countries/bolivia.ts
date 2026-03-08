@@ -122,7 +122,7 @@ export const bolivia: Country = {
       'Brush with egg wash and sprinkle with sugar',
       'Bake at 200°C for 25-30 minutes until golden',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'bolivia-dessert',
@@ -153,7 +153,7 @@ export const bolivia: Country = {
       'Drizzle warm syrup over sopaipillas.',
       'Serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1606588260160-0c4707ab9e20?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Singani (grape brandy), Chicha (corn beer), Cerveza Paceña',

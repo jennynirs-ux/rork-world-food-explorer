@@ -95,7 +95,7 @@ export const guatemala: Country = {
       'Add potatoes in last 30 minutes',
       'Serve with rice and tortillas',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cocinando_El_Pepian.jpg/800px-Cocinando_El_Pepian.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'guatemala-dessert',
@@ -124,7 +124,7 @@ export const guatemala: Country = {
       'Drain on paper towels.',
       'Dust with powdered sugar before serving.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Rellenitos-de-platano-01.jpg/800px-Rellenitos-de-platano-01.jpg',
+    imageUrl: 'https://images.pexels.com/photos/12241298/pexels-photo-12241298.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Quetzalteca (aguardiente), Gallo beer',

@@ -114,7 +114,7 @@ export const netherlands: Country = {
       'Serve topped with sliced rookworst',
       'Traditionally eaten with a small well of gravy in the center',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Boerenkool_stamppot.jpg/800px-Boerenkool_stamppot.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'netherlands-dessert',
@@ -146,7 +146,7 @@ export const netherlands: Country = {
       'Spread caramel filling on one half, sandwich together',
       'Best served warm over a cup of hot coffee',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Stroopwafels_01.jpg/800px-Stroopwafels_01.jpg',
+    imageUrl: 'https://images.pexels.com/photos/11441801/pexels-photo-11441801.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Heineken beer, Jenever (Dutch gin), Dutch craft beers, Advocaat (egg liqueur)',

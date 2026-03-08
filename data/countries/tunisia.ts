@@ -171,7 +171,7 @@ export const tunisia: Country = {
       'Serve couscous topped with meat and vegetables',
       'Ladle broth over and add extra harissa if desired',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Bol_de_Leblabi_de_Tunisie%2C_21_mars_2017.jpg/800px-Bol_de_Leblabi_de_Tunisie%2C_21_mars_2017.jpg',
+    imageUrl: 'https://images.pexels.com/photos/21531717/pexels-photo-21531717.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -202,7 +202,7 @@ export const tunisia: Country = {
       'Dust generously with powdered sugar',
       'Serve hot',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bambalouni_05.JPG/800px-Bambalouni_05.JPG',
+    imageUrl: 'https://images.pexels.com/photos/27967498/pexels-photo-27967498.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

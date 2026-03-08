@@ -92,7 +92,7 @@ export const ireland: Country = {
       'Check seasoning, adjust if needed',
       'Serve with crusty soda bread',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Irish_Beef_Stew_%2834046928633%29.jpg/800px-Irish_Beef_Stew_%2834046928633%29.jpg',
+    imageUrl: 'https://images.pexels.com/photos/9546273/pexels-photo-9546273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'ireland-dessert',
@@ -120,7 +120,7 @@ export const ireland: Country = {
       'Refrigerate for at least 4 hours',
       'Top with whipped cream and chocolate shavings',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1567171466295-4afa63d45416?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29559425/pexels-photo-29559425.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Guinness, Irish whiskey (Jameson, Bushmills), Baileys Irish Cream, Irish coffee',

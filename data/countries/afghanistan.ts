@@ -116,7 +116,7 @@ export const afghanistan: Country = {
       'Cover tightly and steam on low heat for 30 minutes',
       'Serve rice mounded on platter, top with meat, carrots, raisins, and almonds',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35041645/pexels-photo-35041645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'afghanistan-dessert',
@@ -146,7 +146,7 @@ export const afghanistan: Country = {
       'Refrigerate for at least 2 hours',
       'Before serving, garnish with chopped pistachios and almonds',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571167530149-c1105da4c2c7?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Alcohol is prohibited in Afghanistan',

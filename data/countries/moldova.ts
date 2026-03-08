@@ -88,7 +88,7 @@ export const moldova: Country = {
       'Bake at 350°F for 30 minutes until golden',
       'Dust with powdered sugar and serve',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Making_candied_fruit_in_Tianjin_China.JPG/800px-Making_candied_fruit_in_Tianjin_China.JPG',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'moldova-main',
@@ -112,7 +112,7 @@ export const moldova: Country = {
       'Top with crumbled cheese',
       'Serve with sour cream',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mamaliga.jpg/800px-Mamaliga.jpg',
+    imageUrl: 'https://images.pexels.com/photos/14855137/pexels-photo-14855137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Moldovan wine, Divin (brandy), Beer',

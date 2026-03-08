@@ -80,7 +80,7 @@ export const marshallIslands: Country = {
       'Let cool and harden',
       'Store in airtight container',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Keodua.jpg/800px-Keodua.jpg',
+    imageUrl: 'https://images.pexels.com/photos/33643879/pexels-photo-33643879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'marshall-islands-main',
@@ -104,7 +104,7 @@ export const marshallIslands: Country = {
       'Bake at 350°F for 30 minutes',
       'Serve with fresh vegetables',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/en/0/0f/Survivor_Thailand_fifth_season_region_1_dvd.png',
+    imageUrl: 'https://images.pexels.com/photos/5713767/pexels-photo-5713767.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Toddy (palm wine)',

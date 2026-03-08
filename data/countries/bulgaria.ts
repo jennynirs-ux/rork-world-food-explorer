@@ -125,7 +125,7 @@ export const bulgaria: Country = {
       'Bake for 40-45 minutes until golden brown',
       'Let cool slightly before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'bulgaria-dessert',
@@ -156,7 +156,7 @@ export const bulgaria: Country = {
       'Spread ganache between layers and over top.',
       'Refrigerate for 2 hours before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/34268536/pexels-photo-34268536.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Rakia (fruit brandy), Bulgarian wine, Mastika (anise drink)',

@@ -74,7 +74,7 @@ export const venezuela: Country = {
       'Slice plantains and fry until golden and caramelized',
       'Serve all components together on one plate',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pabell%C3%B3n_Criollo_Venezolano.jpg/800px-Pabell%C3%B3n_Criollo_Venezolano.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29450672/pexels-photo-29450672.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'venezuela-dessert',
@@ -101,7 +101,7 @@ export const venezuela: Country = {
       'Cool completely, then refrigerate at least 2 hours',
       'Unmold before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Quesillo_de_Oaxaca.png/800px-Quesillo_de_Oaxaca.png',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Polar beer, Venezuelan rum, Ponche Crema',

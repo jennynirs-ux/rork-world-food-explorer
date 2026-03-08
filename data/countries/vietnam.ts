@@ -160,7 +160,7 @@ export const vietnam: Country = {
       'Pour boiling broth over beef to cook it',
       'Serve with herbs, sprouts, lime, and chili',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/32698015/pexels-photo-32698015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'vietnam-dessert',
@@ -188,7 +188,7 @@ export const vietnam: Country = {
       'Stir in vanilla if using',
       'Serve warm or chilled',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ch%C3%A8_xo%C3%A0i.jpg/800px-Ch%C3%A8_xo%C3%A0i.jpg',
+    imageUrl: 'https://images.pexels.com/photos/4069625/pexels-photo-4069625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Bia Hoi, rice wine',

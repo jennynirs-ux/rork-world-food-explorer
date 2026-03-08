@@ -107,7 +107,7 @@ export const capeVerde: Country = {
       'Season with bay leaves and garlic',
       'Serve hot or fried as Cachupa frita',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'cape-verde-dessert',
@@ -137,7 +137,7 @@ export const capeVerde: Country = {
       'Add vanilla extract and remove from heat',
       'Cool and serve with sliced fresh cheese',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1546039907-7b4b7e5c3b48?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/7451345/pexels-photo-7451345.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Grogue (sugarcane rum), Strela beer',

@@ -140,7 +140,7 @@ export const belgium: Country = {
       'FRIES (second fry): Fry the cooled fries at 180°C for 2–3 minutes until deep golden and crisp. Drain, then salt immediately.',
       'Serve mussels hot in deep bowls with the cooking broth. Add fries on the side and mayonnaise for dipping.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/33389162/pexels-photo-33389162.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -168,7 +168,7 @@ export const belgium: Country = {
       'Cook in preheated Belgian waffle iron until golden',
       'Serve with whipped cream, fresh berries, or chocolate sauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29850570/pexels-photo-29850570.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

@@ -98,7 +98,7 @@ export const hungary: Country = {
       'Season with salt and pepper to taste',
       'Serve hot with fresh bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534483509719-8c64e4c498d0?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/10338435/pexels-photo-10338435.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'hungary-dessert',
@@ -125,7 +125,7 @@ export const hungary: Country = {
       'Score caramel into slices before it hardens',
       'Refrigerate before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dobos_cake_%28Gerbeaud_Confectionery_Budapest_Hungary%29.jpg/800px-Dobos_cake_%28Gerbeaud_Confectionery_Budapest_Hungary%29.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35020122/pexels-photo-35020122.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   innovations: [
     {

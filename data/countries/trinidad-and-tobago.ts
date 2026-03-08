@@ -158,7 +158,7 @@ export const trinidadAndTobago: Country = {
       'Top with tamarind chutney and pepper sauce',
       'Serve immediately while hot',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/5908062/pexels-photo-5908062.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -194,7 +194,7 @@ export const trinidadAndTobago: Country = {
       'Cool 15 minutes in pan, then transfer to a rack',
       'Slice and serve slightly warm or at room temperature',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Coco_bread_wrapped_beef_patty.jpg/800px-Coco_bread_wrapped_beef_patty.jpg',
+    imageUrl: 'https://images.pexels.com/photos/34153206/pexels-photo-34153206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

@@ -114,7 +114,7 @@ export const japan: Country = {
       'Slice chicken and drizzle with remaining sauce',
       'Garnish with sesame seeds and serve with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1609183480237-ccbb2d7c5772?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/28442544/pexels-photo-28442544.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'japan-dessert',
@@ -143,7 +143,7 @@ export const japan: Country = {
       'Quickly wrap mochi around ice cream and pinch to seal',
       'Freeze for at least 2 hours before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mochi_Ice_Cream.jpg/800px-Mochi_Ice_Cream.jpg',
+    imageUrl: 'https://images.pexels.com/photos/16210644/pexels-photo-16210644.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Sake, Shochu, Japanese Whisky, Plum Wine (Umeshu)',

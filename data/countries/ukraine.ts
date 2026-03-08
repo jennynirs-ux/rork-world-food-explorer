@@ -165,7 +165,7 @@ export const ukraine: Country = {
       'Drain and toss with butter and onions',
       'Serve hot with sour cream',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Wareniki.JPG/800px-Wareniki.JPG',
+    imageUrl: 'https://images.pexels.com/photos/8601693/pexels-photo-8601693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'ukraine-dessert',
@@ -195,7 +195,7 @@ export const ukraine: Country = {
       'Fry syrnyky 3–4 minutes per side until golden',
       'Serve warm with sour cream and jam or honey',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Syrniki6.jpg/800px-Syrniki6.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Horilka (Ukrainian vodka), Ukrainian wine, Medovukha (honey drink)',

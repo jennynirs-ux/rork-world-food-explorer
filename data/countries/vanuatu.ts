@@ -68,7 +68,7 @@ export const vanuatu: Country = {
       'Let rest for 10 minutes before slicing',
       'Serve warm as a main dish or hearty side (often alongside fish or greens)',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Chinese_dried_sausages_in_Hong_Kong.jpg/800px-Chinese_dried_sausages_in_Hong_Kong.jpg',
+    imageUrl: 'https://images.pexels.com/photos/5126991/pexels-photo-5126991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'vanuatu-dessert',
@@ -94,7 +94,7 @@ export const vanuatu: Country = {
       'Remove from heat and add lime zest (optional)',
       'Serve warm, or chill for 1 hour for a thicker pudding-like texture',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Vanuatu_blonde.jpg/800px-Vanuatu_blonde.jpg',
+    imageUrl: 'https://images.pexels.com/photos/13554342/pexels-photo-13554342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Kava, Tusker beer',

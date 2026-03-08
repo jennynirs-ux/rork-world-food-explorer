@@ -90,7 +90,7 @@ export const mozambique: Country = {
       'Bake at 350°F for 40 minutes',
       'Cool and dust with powdered sugar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565680018093-ebb6e3a67f44?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/4662036/pexels-photo-4662036.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'mozambique-main',
@@ -119,7 +119,7 @@ export const mozambique: Country = {
       'Baste with extra marinade while grilling',
       'Serve hot with lime wedges and fresh bread',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kashmiri_Green_Chilli.JPG/800px-Kashmiri_Green_Chilli.JPG',
+    imageUrl: 'https://images.pexels.com/photos/29298662/pexels-photo-29298662.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: '2M beer, Laurentina, Portuguese wine',

@@ -107,7 +107,7 @@ export const peru: Country = {
       'Boil sweet potato and corn separately',
       'Serve ceviche immediately with sweet potato and corn on the side',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cebiche_de_corvina.JPG/800px-Cebiche_de_corvina.JPG',
+    imageUrl: 'https://images.pexels.com/photos/35800557/pexels-photo-35800557.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'peru-dessert',
@@ -137,7 +137,7 @@ export const peru: Country = {
       'Cool completely, then sandwich cookies with dulce de leche',
       'Dust with powdered sugar',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/AlfajoresP1115215_02.jpg/800px-AlfajoresP1115215_02.jpg',
+    imageUrl: 'https://images.pexels.com/photos/16522216/pexels-photo-16522216.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Pisco Sour, Chilcano, Cusqueña beer',

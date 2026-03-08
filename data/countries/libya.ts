@@ -89,7 +89,7 @@ export const libya: Country = {
       'Drizzle with date syrup',
       'Serve warm, eaten by hand',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9-%D9%82%D8%B7%D9%8A%D9%81%D9%8A%D8%A9.jpg/800px-%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9-%D9%82%D8%B7%D9%8A%D9%81%D9%8A%D8%A9.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'libya-main',
@@ -120,7 +120,7 @@ export const libya: Country = {
       'Pour lamb stew over the bread',
       'Serve family-style with everyone eating from the same dish',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Bazin.jpg/800px-Bazin.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Not commonly consumed (Islamic country)',

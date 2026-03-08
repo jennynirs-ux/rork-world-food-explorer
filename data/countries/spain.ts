@@ -166,7 +166,7 @@ export const spain: Country = {
       'Let rest off heat for 5 minutes before serving',
       'Aim for a crispy bottom layer called "socarrat"',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/01_Paella_Valenciana_original.jpg/800px-01_Paella_Valenciana_original.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35353127/pexels-photo-35353127.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'spain-dessert',
@@ -200,7 +200,7 @@ export const spain: Country = {
       'Cook until thick and smooth',
       'Serve churros hot with chocolate for dipping',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/5255955/pexels-photo-5255955.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Sangria, Rioja wine, Cava, Sherry, Agua de Valencia',

@@ -45,7 +45,7 @@ export const israel: Country = {
       'Cover and cook until eggs are set',
       'Serve with challah or pita bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1590412200988-a436970781fa?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/6275164/pexels-photo-6275164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Israeli wine, Goldstar beer, Arak',
@@ -128,7 +128,7 @@ export const israel: Country = {
       'Refrigerate for at least 2 hours until firm',
       'Cut into squares and serve',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Orient_sweets_%28special_halva%29_Samarkand%2C_Siyab.jpg/800px-Orient_sweets_%28special_halva%29_Samarkand%2C_Siyab.jpg',
+    imageUrl: 'https://images.pexels.com/photos/33079560/pexels-photo-33079560.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   quiz: [
     {

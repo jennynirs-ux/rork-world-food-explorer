@@ -75,7 +75,7 @@ export const fiji: Country = {
       'Add chopped chili to taste',
       'Serve chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'fiji-dessert',
@@ -101,7 +101,7 @@ export const fiji: Country = {
       'Cool and cut into squares',
       'Serve with extra coconut cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Kava (traditional ceremony drink), Fiji Bitter beer',

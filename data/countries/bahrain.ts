@@ -118,7 +118,7 @@ export const bahrain: Country = {
       'Layer rice over meat and steam together',
       'Serve with fried onions and nuts on top',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'bahrain-dessert',
@@ -150,7 +150,7 @@ export const bahrain: Country = {
       'Garnish with pistachios and almonds.',
       'Cool completely before cutting into diamond shapes.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/20446403/pexels-photo-20446403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Limited availability',

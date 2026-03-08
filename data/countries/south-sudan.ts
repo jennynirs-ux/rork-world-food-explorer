@@ -72,7 +72,7 @@ export const southSudan: Country = {
       'Cook until stew thickens',
       'Serve the mullah stew with warm kisra',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Kisra_maker.jpeg/800px-Kisra_maker.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -101,7 +101,7 @@ export const southSudan: Country = {
       'Optional: add a small knob of butter for richness.',
       'Serve warm.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Z%C4%81r_ceremony_in_hormuz_island.jpg/800px-Z%C4%81r_ceremony_in_hormuz_island.jpg',
+    imageUrl: 'https://images.pexels.com/photos/5652196/pexels-photo-5652196.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

@@ -112,7 +112,7 @@ export const pakistan: Country = {
       'Add hot balls to warm syrup',
       'Let soak for at least 2 hours before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Traditional_pizza_from_Napoli.jpg/800px-Traditional_pizza_from_Napoli.jpg',
+    imageUrl: 'https://images.pexels.com/photos/14610769/pexels-photo-14610769.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'pakistan-biryani',
@@ -145,7 +145,7 @@ export const pakistan: Country = {
       'Let rest for 5 minutes before opening',
       'Gently mix and serve with raita',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1601303516160-89781f4e16fa?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29631417/pexels-photo-29631417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Limited availability (Islamic country)',

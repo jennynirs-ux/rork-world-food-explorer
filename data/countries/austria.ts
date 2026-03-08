@@ -120,7 +120,7 @@ export const austria: Country = {
       'Fry schnitzels for 2-3 minutes per side until golden brown',
       'Drain on paper towels and serve immediately with lemon wedges',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1600335895229-6e75511892c8?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/33865568/pexels-photo-33865568.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'austria-dessert',
@@ -151,7 +151,7 @@ export const austria: Country = {
       'Make glaze: heat cream, pour over 200g chocolate, stir until smooth.',
       'Pour glaze over cake, smooth with spatula. Let set before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1602351447937-745cb720612f?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Austrian wines (Grüner Veltliner, Riesling), Beer, Schnapps',

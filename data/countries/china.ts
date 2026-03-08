@@ -115,7 +115,7 @@ export const china: Country = {
       'Add peanuts, toss everything together',
       'Serve hot with steamed rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1525755662778-989d0524087e?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/30708204/pexels-photo-30708204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'china-dessert',
@@ -142,7 +142,7 @@ export const china: Country = {
       'Refrigerate for at least 4 hours until set',
       'Top with fresh mango pieces before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Mango_pudding.JPG/800px-Mango_pudding.JPG',
+    imageUrl: 'https://images.pexels.com/photos/9550976/pexels-photo-9550976.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Baijiu, Tsingtao beer, Chinese rice wine',

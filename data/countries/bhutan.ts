@@ -116,7 +116,7 @@ export const bhutan: Country = {
       'Season with salt',
       'Serve hot with red rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/30988640/pexels-photo-30988640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'bhutan-dessert',
@@ -147,7 +147,7 @@ export const bhutan: Country = {
       'Drain on paper towels.',
       'Store in airtight container, stays crispy for weeks.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Ara (rice wine), Chang (barley beer)',

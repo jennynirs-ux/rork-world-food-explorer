@@ -174,7 +174,7 @@ export const sanMarino: Country = {
       'Place in baking dish, cover with béchamel and parmesan.',
       'Bake at 180C for 30–35 minutes until golden.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Spaghetti_vongole_2.jpg/800px-Spaghetti_vongole_2.jpg',
+    imageUrl: 'https://images.pexels.com/photos/20545316/pexels-photo-20545316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -198,7 +198,7 @@ export const sanMarino: Country = {
       'Coat entire cake evenly.',
       'Chill 30 minutes before slicing.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/La_Serenissima_Torta_Tre_Monti.jpg/800px-La_Serenissima_Torta_Tre_Monti.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

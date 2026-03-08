@@ -109,7 +109,7 @@ export const italy: Country = {
       'Quickly mix in the egg mixture, adding pasta water gradually to create a creamy sauce',
       'Serve immediately with extra cheese and pepper',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/12116165/pexels-photo-12116165.png?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'italy-dessert',
@@ -139,7 +139,7 @@ export const italy: Country = {
       'Dust generously with cocoa powder',
       'Refrigerate for at least 4 hours before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/800px-Tiramisu_-_Raffaele_Diomede.jpg',
+    imageUrl: 'https://images.pexels.com/photos/34759482/pexels-photo-34759482.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Chianti, Prosecco, Aperol Spritz, Limoncello',

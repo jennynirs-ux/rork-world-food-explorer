@@ -91,7 +91,7 @@ export const ethiopia: Country = {
       'Add peeled hard-boiled eggs in final 15 minutes',
       'Serve on injera flatbread with sides',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ethiopian_wat.jpg/800px-Ethiopian_wat.jpg',
+    imageUrl: 'https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'ethiopia-dessert',
@@ -114,7 +114,7 @@ export const ethiopia: Country = {
       'Season with salt and berbere spice',
       'Serve alongside Ethiopian coffee',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558326567-98ae2405596b?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Tej (honey wine), St. George beer, Araki (traditional spirit)',

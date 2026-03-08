@@ -89,7 +89,7 @@ export const ghana: Country = {
       'Serve with fried fish, boiled eggs, gari, and shito (hot pepper sauce)',
       'Add stew or gravy on top',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Waakye_with_vegetables%2C_fish_and_egg_with_ripe_plantains.jpg/800px-Waakye_with_vegetables%2C_fish_and_egg_with_ripe_plantains.jpg',
+    imageUrl: 'https://images.pexels.com/photos/32612769/pexels-photo-32612769.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'ghana-dessert',
@@ -117,7 +117,7 @@ export const ghana: Country = {
       'Deep fry until golden brown',
       'Serve warm with hot chocolate or tea',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Ghanaian_fruit_pineapple_and_taro_leaves_%28masterclass_dish%29.jpg/800px-Ghanaian_fruit_pineapple_and_taro_leaves_%28masterclass_dish%29.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Akpeteshie (local gin), Club beer, Palm wine, Guinness',

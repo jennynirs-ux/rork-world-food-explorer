@@ -83,7 +83,7 @@ export const mauritania: Country = {
       'Refrigerate for 2 hours',
       'Serve chilled',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/CouscousDromadaire.jpg/800px-CouscousDromadaire.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'mauritania-main',
@@ -108,7 +108,7 @@ export const mauritania: Country = {
       'Return fish to pot',
       'Serve rice with fish and vegetables',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Thieboudienne.JPG/800px-Thieboudienne.JPG',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Not common (Islamic country)',

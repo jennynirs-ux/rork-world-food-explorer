@@ -166,7 +166,7 @@ export const turkey: Country = {
       'Melt butter with paprika and drizzle on top',
       'Serve with yogurt on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1530469912745-a215c6b256ea?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/36295529/pexels-photo-36295529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -195,7 +195,7 @@ export const turkey: Country = {
       'Pour hot syrup over baked baklava',
       'Let cool fully before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sigara_B%C3%B6rek.jpg/800px-Sigara_B%C3%B6rek.jpg',
+    imageUrl: 'https://images.pexels.com/photos/31472815/pexels-photo-31472815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

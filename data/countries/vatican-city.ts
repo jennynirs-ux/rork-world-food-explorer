@@ -71,7 +71,7 @@ export const vaticanCity: Country = {
       'Adjust consistency with small splashes of pasta water until silky',
       'Serve immediately with extra Pecorino and black pepper',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Cacio_e_pepe.jpg/800px-Cacio_e_pepe.jpg',
+    imageUrl: 'https://images.pexels.com/photos/34797458/pexels-photo-34797458.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'vatican-dessert',
@@ -106,7 +106,7 @@ export const vaticanCity: Country = {
       'Slice buns lengthwise (not all the way through) and generously fill with whipped cream',
       'Serve fresh—best the same day',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Maritozzo_presso_Caff%C3%A8_delle_colline%2C_Reggio_Emilia.jpg/800px-Maritozzo_presso_Caff%C3%A8_delle_colline%2C_Reggio_Emilia.jpg',
+    imageUrl: 'https://images.pexels.com/photos/19803563/pexels-photo-19803563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Italian wine, Communion wine',

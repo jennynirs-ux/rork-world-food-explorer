@@ -126,7 +126,7 @@ export const sweden: Country = {
       'Return meatballs and simmer 10 minutes',
       'Serve with mashed potatoes and lingonberries',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1529042410759-befb1204b468?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/30335664/pexels-photo-30335664.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'sweden-dessert',
@@ -162,7 +162,7 @@ export const sweden: Country = {
       'Brush with egg and sprinkle pearl sugar',
       'Bake at 200°C for 10–12 minutes',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1769259179075-c0c389626cec?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/4828333/pexels-photo-4828333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Aquavit, Swedish beer, Glögg',

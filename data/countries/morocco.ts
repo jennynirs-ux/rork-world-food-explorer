@@ -117,7 +117,7 @@ export const morocco: Country = {
       'Adjust seasoning with salt and pepper',
       'Garnish with fresh cilantro and serve with couscous or bread',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/ZnuTjn2a.jpg/800px-ZnuTjn2a.jpg',
+    imageUrl: 'https://images.pexels.com/photos/18496584/pexels-photo-18496584.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'morocco-dessert',
@@ -148,7 +148,7 @@ export const morocco: Country = {
       'Turn out onto a wire rack to cool completely',
       'Dust with powdered sugar before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/800px-Good_Food_Display_-_NCI_Visuals_Online.jpg',
+    imageUrl: 'https://images.pexels.com/photos/34174215/pexels-photo-34174215.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Moroccan wine (Domaine de Sahari, Guerrouane)',

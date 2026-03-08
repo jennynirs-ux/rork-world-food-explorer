@@ -93,7 +93,7 @@ export const lebanon: Country = {
       'Bake at 180°C for 40 minutes until golden',
       'Serve with yogurt and cucumber salad',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1541518763-27a56b59c8f1?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/6497907/pexels-photo-6497907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'lebanon-dessert',
@@ -123,7 +123,7 @@ export const lebanon: Country = {
       'Make syrup: boil sugar, water, honey, lemon juice',
       'Pour cold syrup over hot baklava, add orange blossom water',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/800px-Flag_of_Lebanon.svg.png',
+    imageUrl: 'https://images.pexels.com/photos/31472815/pexels-photo-31472815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Arak (anise-flavored spirit), Lebanese wine, Almaza beer',

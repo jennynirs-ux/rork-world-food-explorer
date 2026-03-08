@@ -74,7 +74,7 @@ export const somalia: Country = {
       'Mix in raisins and reserved caramelized onions',
       'Let rest 5 minutes before serving',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Somalicamelmeat.jpg/800px-Somalicamelmeat.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -107,7 +107,7 @@ export const somalia: Country = {
       'Pour into a greased dish, smooth the top, and let set.',
       'Slice into small diamonds or squares to serve.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/800px-Flag_of_Somalia.svg.png',
+    imageUrl: 'https://images.pexels.com/photos/20446403/pexels-photo-20446403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

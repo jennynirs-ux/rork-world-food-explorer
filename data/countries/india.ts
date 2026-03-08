@@ -116,7 +116,7 @@ export const india: Country = {
       'Garnish with cilantro',
       'Serve with basmati rice or naan bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29173114/pexels-photo-29173114.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'india-dessert',
@@ -148,7 +148,7 @@ export const india: Country = {
       'Soak for at least 2 hours',
       'Serve warm or at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/14610769/pexels-photo-14610769.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Kingfisher beer, Old Monk rum, Indian whiskey',

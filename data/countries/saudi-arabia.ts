@@ -184,7 +184,7 @@ export const saudiArabia: Country = {
       'Serve rice on a platter and top with the meat. Garnish with toasted almonds and raisins if using.',
       'Serve with a simple salad or yogurt sauce on the side.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/800px-Flag_of_Saudi_Arabia.svg.png',
+    imageUrl: 'https://images.pexels.com/photos/32986473/pexels-photo-32986473.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -216,7 +216,7 @@ export const saudiArabia: Country = {
       'Bake at 180C for 18-22 minutes until lightly golden (not dark).',
       'Cool completely. Dust with powdered sugar if desired.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg/800px-%22Hyderabadi_Dum_Biryani%22.jpg',
+    imageUrl: 'https://images.pexels.com/photos/17255896/pexels-photo-17255896.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

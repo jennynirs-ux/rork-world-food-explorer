@@ -121,7 +121,7 @@ export const azerbaijan: Country = {
       'Cover with cloth and lid, steam on very low heat for 45 minutes',
       'Serve with crispy bottom (qazmaq) on top',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/9553317/pexels-photo-9553317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'azerbaijan-dessert',
@@ -154,7 +154,7 @@ export const azerbaijan: Country = {
       'Make syrup: boil sugar, honey, water, and saffron for 10 minutes.',
       'Pour hot syrup over warm pakhlava. Let absorb overnight.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/31472815/pexels-photo-31472815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Azerbaijani wine, Cognac',

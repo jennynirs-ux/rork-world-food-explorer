@@ -167,7 +167,7 @@ export const southKorea: Country = {
       'Add a fried egg to each bowl and a spoonful of gochujang.',
       'Sprinkle sesame seeds if using, then mix everything together before eating.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1553163147-622ab57be1c7?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/5773958/pexels-photo-5773958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -198,7 +198,7 @@ export const southKorea: Country = {
       'Optional: finish with a small handful of cornflakes for crunch.',
       'Serve immediately.',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Patbingsu.jpg/800px-Patbingsu.jpg',
+    imageUrl: 'https://images.pexels.com/photos/33999509/pexels-photo-33999509.png?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

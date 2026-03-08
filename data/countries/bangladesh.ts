@@ -122,7 +122,7 @@ export const bangladesh: Country = {
       'Reduce to low heat and cook for 45-60 minutes',
       'Let rest for 10 minutes before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29631417/pexels-photo-29631417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'bangladesh-dessert',
@@ -150,7 +150,7 @@ export const bangladesh: Country = {
       'Refrigerate for at least 2 hours before serving.',
       'Serve chilled in the same pots.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/34870890/pexels-photo-34870890.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Limited availability (Muslim-majority country)',

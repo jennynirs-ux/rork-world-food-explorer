@@ -108,7 +108,7 @@ export const belize: Country = {
       'Serve rice and beans with stew chicken',
       'Add plantains on the side',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/30635705/pexels-photo-30635705.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'belize-dessert',
@@ -137,7 +137,7 @@ export const belize: Country = {
       'Cut into small squares.',
       'Serve as a sweet snack.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/34578271/pexels-photo-34578271.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Belikin beer, Cashew wine, Rum',

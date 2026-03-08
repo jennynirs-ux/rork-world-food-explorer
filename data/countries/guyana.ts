@@ -91,7 +91,7 @@ export const guyana: Country = {
       'Cook until meat is very tender',
       'Serve with bread or rice',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pepperpot_%2816135006279%29.jpg/800px-Pepperpot_%2816135006279%29.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'guyana-dessert',
@@ -118,7 +118,7 @@ export const guyana: Country = {
       'Cool before cutting into squares',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=700',
+    imageUrl: 'https://images.pexels.com/photos/4023255/pexels-photo-4023255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'El Dorado rum, Banks beer',

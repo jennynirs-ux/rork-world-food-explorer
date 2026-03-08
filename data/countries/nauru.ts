@@ -86,7 +86,7 @@ export const nauru: Country = {
       'Bake at 350°F for 45 minutes',
       'Cool completely before slicing',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Moon-Pie-Single.jpg/800px-Moon-Pie-Single.jpg',
+    imageUrl: 'https://images.pexels.com/photos/5491339/pexels-photo-5491339.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'nauru-main',
@@ -110,7 +110,7 @@ export const nauru: Country = {
       'Mix in diced tomatoes and onions',
       'Serve chilled',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Poisson_cru_au_lait_de_coco.jpg/800px-Poisson_cru_au_lait_de_coco.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Beer',

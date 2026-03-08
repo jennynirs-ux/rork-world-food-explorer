@@ -152,7 +152,7 @@ export const andorra: Country = {
       // Optional shortcut (one-pot serving)
       'Optional shortcut: If you prefer a simpler one-bowl meal, skip the “two-part” serving and just cook the pasta directly in the main pot for the final 10–12 minutes (add 200–300 ml extra water if the pot is thick).',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/33732005/pexels-photo-33732005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   dessert: {
@@ -183,7 +183,7 @@ export const andorra: Country = {
       'Before serving, sprinkle thin layer of brown sugar on top.',
       'Caramelize with kitchen torch or under hot broiler until golden and crispy.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1517427677506-ade074eb1b66?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/30766474/pexels-photo-30766474.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

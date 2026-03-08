@@ -115,7 +115,7 @@ export const brazil: Country = {
       'Season with salt, pepper, and squeeze of orange',
       'Serve with white rice, farofa, orange slices, and collard greens',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/32655177/pexels-photo-32655177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'brazil-dessert',
@@ -142,7 +142,7 @@ export const brazil: Country = {
       'Place in mini paper cups',
       'Refrigerate until serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1598839950387-1e56bfcc3a32?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/28613103/pexels-photo-28613103.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Caipirinha, Cachaça, Guaraná Antarctica, Brahma beer',

@@ -84,7 +84,7 @@ export const malawi: Country = {
       'Fry until golden brown',
       'Drain and serve warm',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Carrot_%26_Chickpea_Fritters.jpg/800px-Carrot_%26_Chickpea_Fritters.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'malawi-main',
@@ -113,7 +113,7 @@ export const malawi: Country = {
       'Serve nsima with grilled fish and vegetables',
       'Eat with hands, using nsima to pick up fish',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Nsima_Relishes.JPG/800px-Nsima_Relishes.JPG',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Carlsberg Malawi, Kuche Kuche beer, Chibuku',

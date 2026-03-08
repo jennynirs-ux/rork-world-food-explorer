@@ -95,7 +95,7 @@ export const croatia: Country = {
       'For oven: bake at 160°C for 2.5-3 hours until meat is tender',
       'Let rest for 10 minutes before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Plavac Mali wine, Rakija (fruit brandy), Croatian beer, Prošek (dessert wine)',
@@ -229,7 +229,7 @@ export const croatia: Country = {
       'Place one pastry layer in pan, spread custard, top with second layer.',
       'Refrigerate for 4 hours, dust with powdered sugar before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   coordinates: { x: 50, y: 45 },
 };

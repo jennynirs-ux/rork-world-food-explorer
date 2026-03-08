@@ -116,7 +116,7 @@ export const antiguaAndBarbuda: Country = {
       'Simmer until vegetables are soft',
       'Serve with rice or dumplings',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1607532941433-304659e8198a?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'antigua-dessert',
@@ -149,7 +149,7 @@ export const antiguaAndBarbuda: Country = {
       'Cool slightly before unwrapping.',
       'Serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Rum punch, Cavalier rum',

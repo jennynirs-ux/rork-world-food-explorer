@@ -86,7 +86,7 @@ export const guineaBissau: Country = {
       'Simmer until thick',
       'Serve over rice',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Traditional_pizza_from_Napoli.jpg/800px-Traditional_pizza_from_Napoli.jpg',
+    imageUrl: 'https://images.pexels.com/photos/32334856/pexels-photo-32334856.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'guinea-bissau-dessert',
@@ -113,7 +113,7 @@ export const guineaBissau: Country = {
       'Cool on wire rack',
       'Serve with cashew juice or tea',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Cashew_nuts.jpg/800px-Cashew_nuts.jpg',
+    imageUrl: 'https://images.pexels.com/photos/33626299/pexels-photo-33626299.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Caju (cashew wine), Palm wine',

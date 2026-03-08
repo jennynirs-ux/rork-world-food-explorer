@@ -122,7 +122,7 @@ export const czechRepublic: Country = {
       'Garnish with cranberry sauce, whipped cream, and lemon slice',
       'Serve with warm bread dumplings',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/27643018/pexels-photo-27643018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Pilsner Urquell, Budweiser Budvar, Becherovka (herbal liqueur), Moravian wine',
@@ -234,7 +234,7 @@ export const czechRepublic: Country = {
       'Slide off pins while warm.',
       'Serve immediately.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1432139509613-5c4255a1d197?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   coordinates: { x: 50, y: 50 },
 };

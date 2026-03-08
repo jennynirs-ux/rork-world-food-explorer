@@ -84,7 +84,7 @@ export const iceland: Country = {
       'Simmer gently for 10 minutes, stirring occasionally',
       'Serve hot with rye bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'iceland-dessert',
@@ -116,7 +116,7 @@ export const iceland: Country = {
       'Drain on paper towels',
       'Dust with powdered sugar if desired',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Kleina.jpg/800px-Kleina.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   innovations: [
     {

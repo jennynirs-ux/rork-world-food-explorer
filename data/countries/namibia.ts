@@ -92,7 +92,7 @@ export const namibia: Country = {
       'Add vanilla, pour into baked shell',
       'Cool, then dust with cinnamon',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Nama_man_greeting_us_%283693359757%29.jpg/800px-Nama_man_greeting_us_%283693359757%29.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'namibia-main',
@@ -122,7 +122,7 @@ export const namibia: Country = {
       'Do not stir - let flavors meld naturally',
       'Serve straight from the pot with bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Windhoek Lager, Tafel Lager, German-style beers',

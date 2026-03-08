@@ -97,7 +97,7 @@ export const myanmar: Country = {
       'Roll in grated coconut',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Pumpkin_tangyuan_%28%E6%B1%A4%E5%9C%86%29_with_red_bean_baste_and_black_sesame_fillings.jpg/800px-Pumpkin_tangyuan_%28%E6%B1%A4%E5%9C%86%29_with_red_bean_baste_and_black_sesame_fillings.jpg',
+    imageUrl: 'https://images.pexels.com/photos/10949569/pexels-photo-10949569.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'myanmar-main',
@@ -127,7 +127,7 @@ export const myanmar: Country = {
       'Simmer until thickened',
       'Serve over rice noodles with eggs and garnishes',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Mohnga.jpg/800px-Mohnga.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Myanmar beer, Palm wine, Rice wine',

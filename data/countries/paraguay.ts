@@ -95,7 +95,7 @@ export const paraguay: Country = {
       'Bake at 350°F for 45 minutes',
       'Serve warm',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chipa_Paraguay.jpg/800px-Chipa_Paraguay.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'paraguay-main',
@@ -123,7 +123,7 @@ export const paraguay: Country = {
       'Bake at 180°C for 45 minutes until golden',
       'Serve warm as a side or main dish',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Sopa_Paraguaya_2.jpg/800px-Sopa_Paraguaya_2.jpg',
+    imageUrl: 'https://images.pexels.com/photos/27397338/pexels-photo-27397338.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Caña (sugarcane liquor), Cerveza paraguaya',

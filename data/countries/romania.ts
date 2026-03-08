@@ -109,7 +109,7 @@ export const romania: Country = {
       'Cover and simmer on low heat for 2.5-3 hours',
       'Serve hot with sour cream and mămăligă (polenta)',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/800px-Flag_of_Romania.svg.png',
+    imageUrl: 'https://images.pexels.com/photos/32802073/pexels-photo-32802073.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   dessert: {
     id: 'romania-cozonac',
@@ -147,7 +147,7 @@ export const romania: Country = {
       'Bake at 180°C for 45-50 minutes until golden',
       'Cool before slicing',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Cozonac-cu-nuca-103.jpg/800px-Cozonac-cu-nuca-103.jpg',
+    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Țuică (plum brandy), Romanian wine, Beer',

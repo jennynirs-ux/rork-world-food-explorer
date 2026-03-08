@@ -88,7 +88,7 @@ export const maldives: Country = {
       'Cool and cut into squares',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Director_Tulsi_Gabbard_Official_Portrait.jpg/800px-Director_Tulsi_Gabbard_Official_Portrait.jpg',
+    imageUrl: 'https://images.pexels.com/photos/1590249/pexels-photo-1590249.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'maldives-main',
@@ -113,7 +113,7 @@ export const maldives: Country = {
       'Serve broth over rice',
       'Top with flaked fish and onions',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Garudiya.jpg/800px-Garudiya.jpg',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Limited (only in resorts)',

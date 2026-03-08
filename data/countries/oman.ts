@@ -97,7 +97,7 @@ export const oman: Country = {
       'Pour into greased dish, top with nuts',
       'Cool and cut into squares',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Barka%2C_Oman_%286%29_%2841446310861%29.jpg/800px-Barka%2C_Oman_%286%29_%2841446310861%29.jpg',
+    imageUrl: 'https://images.pexels.com/photos/20446403/pexels-photo-20446403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   mainDish: {
     id: 'oman-main',
@@ -121,7 +121,7 @@ export const oman: Country = {
       'Unwrap and shred meat',
       'Serve with rice and dates',
     ],
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/800px-Flag_of_Oman.svg.png',
+    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Not common (Islamic country)',
