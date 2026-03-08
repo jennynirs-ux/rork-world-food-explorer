@@ -73,7 +73,7 @@ export const uzbekistan: Country = {
       'Let rest 10 minutes off heat, then gently fluff and mix before serving',
       'Serve family-style, often with sliced tomato/onion salad and pickles',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=870',
+    imageUrl: 'https://images.pexels.com/photos/28872596/pexels-photo-28872596.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'uzbekistan-dessert',
@@ -100,7 +100,7 @@ export const uzbekistan: Country = {
       'Spoon into bowls and chill for at least 30 minutes',
       'Top with chopped pistachios if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1560008581-09826d1de69e?w=870',
+    imageUrl: 'https://images.pexels.com/photos/9203735/pexels-photo-9203735.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Vodka',

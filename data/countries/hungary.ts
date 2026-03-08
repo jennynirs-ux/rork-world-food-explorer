@@ -125,7 +125,7 @@ export const hungary: Country = {
       'Score caramel into slices before it hardens',
       'Refrigerate before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=900',
+    imageUrl: 'https://images.pexels.com/photos/35041639/pexels-photo-35041639.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   innovations: [
     {

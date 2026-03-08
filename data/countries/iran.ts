@@ -126,7 +126,7 @@ export const iran: Country = {
       'Fold in chopped pistachios, freeze until firm',
       'Serve between two wafers (traditional style)',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=900',
+    imageUrl: 'https://images.pexels.com/photos/8523171/pexels-photo-8523171.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Not available (alcohol prohibited)',

@@ -86,7 +86,7 @@ export const guineaBissau: Country = {
       'Simmer until thick',
       'Serve over rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=750',
+    imageUrl: 'https://images.pexels.com/photos/8329237/pexels-photo-8329237.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'guinea-bissau-dessert',
@@ -113,7 +113,7 @@ export const guineaBissau: Country = {
       'Cool on wire rack',
       'Serve with cashew juice or tea',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558303035-8d0d4c0da71b?w=700',
+    imageUrl: 'https://images.pexels.com/photos/6166796/pexels-photo-6166796.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Caju (cashew wine), Palm wine',

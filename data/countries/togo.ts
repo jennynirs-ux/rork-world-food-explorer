@@ -148,7 +148,7 @@ export const togo: Country = {
       'Serve fufu with the hot soup on the side',
       'Eat by pinching off small pieces of fufu and dipping into the soup',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=870',
+    imageUrl: 'https://images.pexels.com/photos/7225581/pexels-photo-7225581.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   dessert: {
@@ -177,7 +177,7 @@ export const togo: Country = {
       'Let cool completely until firm',
       'Serve as bite-size candies',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=900',
+    imageUrl: 'https://images.pexels.com/photos/28320151/pexels-photo-28320151.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   drinks: {

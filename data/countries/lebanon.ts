@@ -123,7 +123,7 @@ export const lebanon: Country = {
       'Make syrup: boil sugar, water, honey, lemon juice',
       'Pour cold syrup over hot baklava, add orange blossom water',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800',
+    imageUrl: 'https://images.pexels.com/photos/35552985/pexels-photo-35552985.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Arak (anise-flavored spirit), Lebanese wine, Almaza beer',

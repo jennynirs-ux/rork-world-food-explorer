@@ -142,7 +142,7 @@ export const china: Country = {
       'Refrigerate for at least 4 hours until set',
       'Top with fresh mango pieces before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600',
+    imageUrl: 'https://images.pexels.com/photos/25189334/pexels-photo-25189334.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Baijiu, Tsingtao beer, Chinese rice wine',

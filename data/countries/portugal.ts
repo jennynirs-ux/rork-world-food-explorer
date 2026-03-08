@@ -109,7 +109,7 @@ export const portugal: Country = {
       'Garnish with black olives and fresh parsley',
       'Serve immediately',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=700',
+    imageUrl: 'https://images.pexels.com/photos/34474342/pexels-photo-34474342.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'portugal-dessert',
@@ -140,7 +140,7 @@ export const portugal: Country = {
       'Bake at 250°C for 15-20 minutes until tops are caramelized with dark spots',
       'Cool and dust with cinnamon and powdered sugar',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1550617931-e17a7b70dce2?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/27926900/pexels-photo-27926900.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Port wine, Vinho Verde, Ginjinha (cherry liqueur), Super Bock beer',

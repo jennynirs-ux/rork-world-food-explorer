@@ -98,7 +98,7 @@ export const poland: Country = {
       'Sauté in butter with onions until lightly golden',
       'Serve with sour cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=900',
+    imageUrl: 'https://images.pexels.com/photos/4084971/pexels-photo-4084971.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'poland-dessert',
@@ -127,7 +127,7 @@ export const poland: Country = {
       'Cool completely, refrigerate overnight',
       'Dust with powdered sugar before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1508737027454-e6454ef45afd?w=800&q=80',
+    imageUrl: 'https://images.pexels.com/photos/14107/pexels-photo-14107.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Vodka (Żubrówka, Belvedere), Polish beer (Tyskie, Żywiec), Nalewka (fruit liqueur)',

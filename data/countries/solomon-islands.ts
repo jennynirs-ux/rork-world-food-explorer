@@ -108,7 +108,7 @@ export const solomonIslands: Country = {
       'Serve at room temperature or slightly warmed.',
       'Optional: drizzle extra coconut cream on top before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?w=850',
+    imageUrl: 'https://images.pexels.com/photos/7298034/pexels-photo-7298034.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   dessert: {
@@ -137,7 +137,7 @@ export const solomonIslands: Country = {
       'Optional: add lime zest for brightness.',
       'Serve warm or chilled (it thickens as it cools).',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?w=850',
+    imageUrl: 'https://images.pexels.com/photos/31119071/pexels-photo-31119071.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   drinks: {

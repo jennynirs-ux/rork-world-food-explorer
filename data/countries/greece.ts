@@ -147,7 +147,7 @@ export const greece: Country = {
       'Meanwhile, boil sugar, water, honey, and lemon for 10 minutes',
       'Pour hot syrup over baked baklava and let absorb for several hours',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=700',
+    imageUrl: 'https://images.pexels.com/photos/8635161/pexels-photo-8635161.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Ouzo, Retsina wine, Metaxa brandy, Greek beer',

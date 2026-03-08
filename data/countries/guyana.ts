@@ -91,7 +91,7 @@ export const guyana: Country = {
       'Cook until meat is very tender',
       'Serve with bread or rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1607532941433-304659e8198a?w=700',
+    imageUrl: 'https://images.pexels.com/photos/10338448/pexels-photo-10338448.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'guyana-dessert',

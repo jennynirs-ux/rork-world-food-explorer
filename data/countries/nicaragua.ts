@@ -90,7 +90,7 @@ export const nicaragua: Country = {
       'Refrigerate for at least 3 hours',
       'Top with whipped cream before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=900',
+    imageUrl: 'https://images.pexels.com/photos/8250194/pexels-photo-8250194.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   mainDish: {
     id: 'nicaragua-main',
@@ -115,7 +115,7 @@ export const nicaragua: Country = {
       'Season with salt and pepper',
       'Serve with fried eggs and tortillas',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800',
+    imageUrl: 'https://images.pexels.com/photos/8448325/pexels-photo-8448325.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Flor de Caña rum, Toña beer',

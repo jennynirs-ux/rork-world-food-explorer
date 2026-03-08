@@ -72,7 +72,7 @@ export const southSudan: Country = {
       'Cook until stew thickens',
       'Serve the mullah stew with warm kisra',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=900',
+    imageUrl: 'https://images.pexels.com/photos/5949924/pexels-photo-5949924.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   dessert: {
@@ -101,7 +101,7 @@ export const southSudan: Country = {
       'Optional: add a small knob of butter for richness.',
       'Serve warm.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1560008581-09826d1de69e?w=800',
+    imageUrl: 'https://images.pexels.com/photos/5949887/pexels-photo-5949887.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   drinks: {

@@ -169,7 +169,7 @@ export const saoTomeAndPrincipe: Country = {
       'Taste and adjust seasoning with salt and lime.',
       'Serve hot with boiled cassava, rice, or fried plantain.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=600',
+    imageUrl: 'https://images.pexels.com/photos/23627792/pexels-photo-23627792.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   dessert: {
@@ -201,7 +201,7 @@ export const saoTomeAndPrincipe: Country = {
       'Cool 15 minutes before slicing.',
       'Serve plain or with fresh fruit.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=850',
+    imageUrl: 'https://images.pexels.com/photos/33090946/pexels-photo-33090946.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   drinks: {

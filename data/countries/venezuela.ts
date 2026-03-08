@@ -74,7 +74,7 @@ export const venezuela: Country = {
       'Slice plantains and fry until golden and caramelized',
       'Serve all components together on one plate',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1512058564366-18510be2db19?w=900',
+    imageUrl: 'https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'venezuela-dessert',
@@ -101,7 +101,7 @@ export const venezuela: Country = {
       'Cool completely, then refrigerate at least 2 hours',
       'Unmold before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=900',
+    imageUrl: 'https://images.pexels.com/photos/4553031/pexels-photo-4553031.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Polar beer, Venezuelan rum, Ponche Crema',

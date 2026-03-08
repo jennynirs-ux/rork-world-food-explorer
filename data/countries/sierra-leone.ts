@@ -134,7 +134,7 @@ export const sierraLeone: Country = {
       'Check rice and fluff with fork.',
       'Serve hot with fried plantains or vegetables.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800',
+    imageUrl: 'https://images.pexels.com/photos/14696209/pexels-photo-14696209.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   dessert: {
@@ -158,7 +158,7 @@ export const sierraLeone: Country = {
       'Sprinkle lightly with salt.',
       'Serve warm.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=800',
+    imageUrl: 'https://images.pexels.com/photos/12362298/pexels-photo-12362298.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   drinks: {

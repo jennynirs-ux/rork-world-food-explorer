@@ -119,7 +119,7 @@ export const laos: Country = {
       'Mix well and adjust seasoning',
       'Serve with sticky rice and fresh vegetables',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?w=700',
+    imageUrl: 'https://images.pexels.com/photos/7495481/pexels-photo-7495481.png?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Beerlao, Lao-Lao (rice whiskey)',

@@ -92,7 +92,7 @@ export const palestine: Country = {
       'Pour cold syrup over hot kanafeh',
       'Sprinkle with pistachios and serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519676867240-f03562e64548?w=750',
+    imageUrl: 'https://images.pexels.com/photos/31233892/pexels-photo-31233892.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   mainDish: {
     id: 'palestine-main',
@@ -117,7 +117,7 @@ export const palestine: Country = {
       'Top with onions and chicken',
       'Garnish with pine nuts and sumac',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1541518763-27a56b59c8f1?w=900',
+    imageUrl: 'https://images.pexels.com/photos/28376160/pexels-photo-28376160.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Arak, Palestinian wine',

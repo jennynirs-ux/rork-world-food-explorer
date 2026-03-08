@@ -89,7 +89,7 @@ export const qatar: Country = {
       'Bake at 350°F for 25 minutes until golden',
       'Serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=700',
+    imageUrl: 'https://images.pexels.com/photos/36359884/pexels-photo-36359884.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   mainDish: {
     id: 'qatar-main',
@@ -114,7 +114,7 @@ export const qatar: Country = {
       'Layer meat and rice',
       'Garnish with nuts and raisins',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=800',
+    imageUrl: 'https://images.pexels.com/photos/30910453/pexels-photo-30910453.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Not available (prohibited)',

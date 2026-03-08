@@ -115,7 +115,7 @@ export const liechtenstein: Country = {
       'Top noodles with fried onions',
       'Serve with applesauce',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=700',
+    imageUrl: 'https://images.pexels.com/photos/34314610/pexels-photo-34314610.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Local wines, Schnapps',

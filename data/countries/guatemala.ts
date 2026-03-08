@@ -95,7 +95,7 @@ export const guatemala: Country = {
       'Add potatoes in last 30 minutes',
       'Serve with rice and tortillas',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=800',
+    imageUrl: 'https://images.pexels.com/photos/20718417/pexels-photo-20718417.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'guatemala-dessert',
@@ -124,7 +124,7 @@ export const guatemala: Country = {
       'Drain on paper towels.',
       'Dust with powdered sugar before serving.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?w=700',
+    imageUrl: 'https://images.pexels.com/photos/20413466/pexels-photo-20413466.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Quetzalteca (aguardiente), Gallo beer',

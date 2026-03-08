@@ -144,7 +144,7 @@ export const tonga: Country = {
       'Cook for about 2 hours until tender',
       'Serve with taro, yam, or cassava',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1506354666786-959d6d497f1a?w=650',
+    imageUrl: 'https://images.pexels.com/photos/5393647/pexels-photo-5393647.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   dessert: {
@@ -171,7 +171,7 @@ export const tonga: Country = {
       'Simmer gently for 10–15 minutes',
       'Serve warm',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?w=650',
+    imageUrl: 'https://images.pexels.com/photos/5652258/pexels-photo-5652258.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   drinks: {

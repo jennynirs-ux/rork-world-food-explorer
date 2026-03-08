@@ -79,7 +79,7 @@ export const suriname: Country = {
       'Remove foil and bake another 30 minutes until golden',
       'Rest 10 minutes before serving, traditionally with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=950',
+    imageUrl: 'https://images.pexels.com/photos/7333258/pexels-photo-7333258.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'suriname-dessert',
@@ -109,7 +109,7 @@ export const suriname: Country = {
       'Cool completely before slicing',
       'Serve plain or with coffee or tea',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=950',
+    imageUrl: 'https://images.pexels.com/photos/332784/pexels-photo-332784.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Parbo Beer, Rum',

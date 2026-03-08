@@ -100,7 +100,7 @@ export const finland: Country = {
       'Add fresh dill just before serving',
       'Serve hot with rye bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=650',
+    imageUrl: 'https://images.pexels.com/photos/14457508/pexels-photo-14457508.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'finland-dessert',
@@ -128,7 +128,7 @@ export const finland: Country = {
       'Cool before serving',
       'Serve with vanilla ice cream or whipped cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=700',
+    imageUrl: 'https://images.pexels.com/photos/9833958/pexels-photo-9833958.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Koskenkorva vodka, Finnish long drinks, Sahti (traditional beer), Finnish liqueurs',

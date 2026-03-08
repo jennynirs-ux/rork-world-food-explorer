@@ -96,7 +96,7 @@ export const mauritius: Country = {
       'Ice half of each cookie and sandwich together',
       'Let icing set before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1550617931-e17a7b70dce2?w=700',
+    imageUrl: 'https://images.pexels.com/photos/35267278/pexels-photo-35267278.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   mainDish: {
     id: 'mauritius-main',
@@ -125,7 +125,7 @@ export const mauritius: Country = {
       'Prepare bean curry and chutneys',
       'Serve dholl puri with curry and chutneys',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800',
+    imageUrl: 'https://images.pexels.com/photos/35008223/pexels-photo-35008223.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Phoenix beer, Rum (Green Island), Alouda with rum',

@@ -93,7 +93,7 @@ export const nigeria: Country = {
       'Cook on low heat until rice absorbs liquid (30-40 mins)',
       'Serve with fried plantains and chicken',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=900',
+    imageUrl: 'https://images.pexels.com/photos/8250685/pexels-photo-8250685.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'nigeria-dessert',
@@ -120,7 +120,7 @@ export const nigeria: Country = {
       'Fry until golden brown on all sides',
       'Drain and dust with powdered sugar if desired',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?w=800',
+    imageUrl: 'https://images.pexels.com/photos/28996251/pexels-photo-28996251.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Star beer, Guinness (Nigerian version), Palm wine, Chapman (cocktail)',

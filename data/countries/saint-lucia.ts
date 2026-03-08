@@ -130,7 +130,7 @@ export const saintLucia: Country = {
       'Add flaked saltfish and black pepper; toss gently for 3-5 minutes until heated through.',
       'Finish with a squeeze of lime and serve alongside the boiled green figs. Optional: serve with avocado or a simple salad.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=850',
+    imageUrl: 'https://images.pexels.com/photos/30350304/pexels-photo-30350304.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   dessert: {
@@ -160,7 +160,7 @@ export const saintLucia: Country = {
       'Bake 35-45 minutes until set and golden at the edges.',
       'Cool at least 20 minutes before slicing. Serve plain or with fresh fruit.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=850',
+    imageUrl: 'https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   drinks: {

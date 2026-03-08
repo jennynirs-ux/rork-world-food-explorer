@@ -69,7 +69,7 @@ export const uruguay: Country = {
       'Let rest before serving',
       'Serve with chimichurri, salads, and bread',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1558030006-450675393462?w=700',
+    imageUrl: 'https://images.pexels.com/photos/34495395/pexels-photo-34495395.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'uruguay-dessert',
@@ -99,7 +99,7 @@ export const uruguay: Country = {
       'Top with whipped cream and extra crushed meringue',
       'Chill for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700',
+    imageUrl: 'https://images.pexels.com/photos/31450843/pexels-photo-31450843.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Tannat wine, Medio y medio (sparkling wine cocktail), Grappamiel',

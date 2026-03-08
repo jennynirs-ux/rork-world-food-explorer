@@ -104,7 +104,7 @@ export const indonesia: Country = {
       'Top each serving with a fried egg',
       'Garnish with sliced tomato, cucumber, and crackers',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=700',
+    imageUrl: 'https://images.pexels.com/photos/32938735/pexels-photo-32938735.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'indonesia-klepon',
@@ -134,7 +134,7 @@ export const indonesia: Country = {
       'Roll hot klepon in coconut until fully coated',
       'Serve warm or at room temperature',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=700',
+    imageUrl: 'https://images.pexels.com/photos/35041670/pexels-photo-35041670.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Bintang beer, Arak (local spirit), Palm wine',

@@ -88,7 +88,7 @@ export const moldova: Country = {
       'Bake at 350°F for 30 minutes until golden',
       'Dust with powdered sugar and serve',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=900',
+    imageUrl: 'https://images.pexels.com/photos/31653133/pexels-photo-31653133.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   mainDish: {
     id: 'moldova-main',
@@ -112,7 +112,7 @@ export const moldova: Country = {
       'Top with crumbled cheese',
       'Serve with sour cream',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=600',
+    imageUrl: 'https://images.pexels.com/photos/10508207/pexels-photo-10508207.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Moldovan wine, Divin (brandy), Beer',

@@ -91,7 +91,7 @@ export const haiti: Country = {
       'Let pikliz ferment for 24 hours',
       'Serve griot with pikliz and rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=700',
+    imageUrl: 'https://images.pexels.com/photos/31372370/pexels-photo-31372370.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   dessert: {
     id: 'haiti-dessert',
@@ -121,7 +121,7 @@ export const haiti: Country = {
       'Cool before cutting into squares',
       'Serve at room temperature or chilled',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1559598467-f8b76c8155d0?w=700',
+    imageUrl: 'https://images.pexels.com/photos/24981549/pexels-photo-24981549.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Rhum Barbancourt, Prestige beer',

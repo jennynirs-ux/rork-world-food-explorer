@@ -196,7 +196,7 @@ export const switzerland: Country = {
       'Press sliced almonds onto the sides/top for decoration.',
       'Chill at least 1 hour before slicing for best texture.',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=650',
+    imageUrl: 'https://images.pexels.com/photos/42168/pexels-photo-42168.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
 
   drinks: {

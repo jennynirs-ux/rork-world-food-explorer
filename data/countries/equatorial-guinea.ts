@@ -100,7 +100,7 @@ export const equatorialGuinea: Country = {
       'Drain on paper towels',
       'Serve warm with honey or syrup',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1528975604071-b4dc52a2d18c?w=600',
+    imageUrl: 'https://images.pexels.com/photos/35215468/pexels-photo-35215468.jpeg?auto=compress&cs=tinysrgb&h=350',
   },
   drinks: {
     alcoholic: 'Palm wine, Local beer',
