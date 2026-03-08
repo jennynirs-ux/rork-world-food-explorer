@@ -194,7 +194,7 @@ export const trinidadAndTobago: Country = {
       'Cool 15 minutes in pan, then transfer to a rack',
       'Slice and serve slightly warm or at room temperature',
     ],
-    imageUrl: 'https://images.pexels.com/photos/3026811/pexels-photo-3026811.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Coco_bread_wrapped_beef_patty.jpg/800px-Coco_bread_wrapped_beef_patty.jpg',
   },
 
   drinks: {

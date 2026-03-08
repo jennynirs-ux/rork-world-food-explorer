@@ -112,7 +112,7 @@ export const pakistan: Country = {
       'Add hot balls to warm syrup',
       'Let soak for at least 2 hours before serving',
     ],
-    imageUrl: 'https://images.pexels.com/photos/14610769/pexels-photo-14610769.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Traditional_pizza_from_Napoli.jpg/800px-Traditional_pizza_from_Napoli.jpg',
   },
   mainDish: {
     id: 'pakistan-biryani',

@@ -91,7 +91,7 @@ export const honduras: Country = {
       'Add sliced avocado',
       'Fold and serve immediately',
     ],
-    imageUrl: 'https://images.pexels.com/photos/26586588/pexels-photo-26586588.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Baleada.jpg/800px-Baleada.jpg',
   },
   dessert: {
     id: 'honduras-dessert',
@@ -123,7 +123,7 @@ export const honduras: Country = {
       'Refrigerate overnight',
       'Top with whipped cream before serving',
     ],
-    imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pastel_de_Tres_Leches.jpg/800px-Pastel_de_Tres_Leches.jpg',
   },
   drinks: {
     alcoholic: 'Port Royal beer, Aguardiente',

@@ -75,7 +75,7 @@ export const gabon: Country = {
       'Add habanero for heat',
       'Serve with rice or plantains',
     ],
-    imageUrl: 'https://images.pexels.com/photos/35290662/pexels-photo-35290662.png?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Poulet_%C3%A0_la_moambe.JPG/800px-Poulet_%C3%A0_la_moambe.JPG',
   },
   dessert: {
     id: 'gabon-dessert',
@@ -106,7 +106,7 @@ export const gabon: Country = {
       'Dust generously with powdered sugar while warm',
       'Serve immediately with coffee',
     ],
-    imageUrl: 'https://images.pexels.com/photos/5779900/pexels-photo-5779900.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/BeignetsCafeDuMonde.jpg/800px-BeignetsCafeDuMonde.jpg',
   },
   drinks: {
     alcoholic: 'Palm wine, Regab beer',

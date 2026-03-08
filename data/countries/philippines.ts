@@ -142,7 +142,7 @@ export const philippines: Country = {
       'Serve hot over steamed rice',
       'Garnish with fried garlic if desired',
     ],
-    imageUrl: 'https://images.pexels.com/photos/6525933/pexels-photo-6525933.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/The_Balut.jpg/800px-The_Balut.jpg',
   },
   drinks: {
     alcoholic: 'San Miguel beer, Tanduay rum, Lambanog (coconut wine)',

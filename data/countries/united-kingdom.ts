@@ -138,7 +138,7 @@ export const unitedKingdom: Country = {
       'Make toffee sauce: simmer cream, brown sugar, butter (optional), and golden syrup until glossy',
       'Serve warm pudding drenched in sauce (with custard or ice cream)',
     ],
-    imageUrl: 'https://images.pexels.com/photos/13322847/pexels-photo-13322847.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Sticky_toffee_pudding_at_the_Black_Swan_-_Stierch.jpg/800px-Sticky_toffee_pudding_at_the_Black_Swan_-_Stierch.jpg',
   },
   drinks: {
     alcoholic: "Beer, Whisky, Gin, Pimm's",

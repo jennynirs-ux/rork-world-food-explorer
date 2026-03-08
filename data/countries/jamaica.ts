@@ -121,7 +121,7 @@ export const jamaica: Country = {
       'Poke holes in warm cake, pour rum syrup over',
       'Let cake absorb syrup completely before serving',
     ],
-    imageUrl: 'https://images.pexels.com/photos/26838692/pexels-photo-26838692.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Rum_cake.jpg/800px-Rum_cake.jpg',
   },
   drinks: {
     alcoholic: 'Red Stripe beer, Appleton Estate rum, Rum punch, Bob Marley cocktail',

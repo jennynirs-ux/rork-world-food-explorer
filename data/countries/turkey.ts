@@ -195,7 +195,7 @@ export const turkey: Country = {
       'Pour hot syrup over baked baklava',
       'Let cool fully before serving',
     ],
-    imageUrl: 'https://images.pexels.com/photos/8279973/pexels-photo-8279973.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sigara_B%C3%B6rek.jpg/800px-Sigara_B%C3%B6rek.jpg',
   },
 
   drinks: {

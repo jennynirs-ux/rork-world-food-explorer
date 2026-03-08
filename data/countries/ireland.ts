@@ -92,7 +92,7 @@ export const ireland: Country = {
       'Check seasoning, adjust if needed',
       'Serve with crusty soda bread',
     ],
-    imageUrl: 'https://images.pexels.com/photos/9546273/pexels-photo-9546273.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Irish_Beef_Stew_%2834046928633%29.jpg/800px-Irish_Beef_Stew_%2834046928633%29.jpg',
   },
   dessert: {
     id: 'ireland-dessert',

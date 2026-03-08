@@ -108,7 +108,7 @@ export const eritrea: Country = {
       'Bake at 180°C for 35 minutes until golden',
       'Serve with butter and coffee',
     ],
-    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Himbasha.jpg/800px-Himbasha.jpg',
   },
   drinks: {
     alcoholic: 'Mies (honey wine), Suwa (beer)',

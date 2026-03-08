@@ -135,7 +135,7 @@ export const seychelles: Country = {
       'Optional: add a slit chili for heat during the simmer, then remove before serving.',
       'Serve with rice and a simple cucumber salad or lentils.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/35532834/pexels-photo-35532834.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taj_Mahal_-_Lamb_Curry_Madras.jpg/800px-Taj_Mahal_-_Lamb_Curry_Madras.jpg',
   },
 
   dessert: {
@@ -170,7 +170,7 @@ export const seychelles: Country = {
       'Optional: toast extra coconut and sprinkle on top.',
       'Store airtight; the cake stays moist for 2–3 days.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/30343602/pexels-photo-30343602.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pink_seolgitteok_cake.jpg/800px-Pink_seolgitteok_cake.jpg',
   },
 
   drinks: {

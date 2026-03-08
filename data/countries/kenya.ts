@@ -88,7 +88,7 @@ export const kenya: Country = {
       'Cook until well-done and slightly charred',
       'Serve with ugali, kachumbari, and grilled vegetables',
     ],
-    imageUrl: 'https://images.pexels.com/photos/8491082/pexels-photo-8491082.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nyama_Choma_%28BBQ_the_Kenyan_way%29.jpg/800px-Nyama_Choma_%28BBQ_the_Kenyan_way%29.jpg',
   },
   dessert: {
     id: 'kenya-dessert',
@@ -114,7 +114,7 @@ export const kenya: Country = {
       'Deep fry until golden brown',
       'Serve warm with chai tea',
     ],
-    imageUrl: 'https://images.pexels.com/photos/8477296/pexels-photo-8477296.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bowl_of_mandazi.jpg/800px-Bowl_of_mandazi.jpg',
   },
   drinks: {
     alcoholic: 'Tusker beer, Kenya Cane spirit, Local honey wine',

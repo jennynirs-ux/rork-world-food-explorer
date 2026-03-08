@@ -90,7 +90,7 @@ export const georgia: Country = {
       'Crack egg on top and bake 5 more minutes',
       'Top with butter and serve hot',
     ],
-    imageUrl: 'https://images.pexels.com/photos/15913594/pexels-photo-15913594.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/%D0%92%D0%BA%D1%83%D1%81%D0%BD%D1%8B%D0%B9_%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D0%B0%D1%87%D0%B0%D0%BF%D1%83%D1%80%D0%B8.jpg/800px-%D0%92%D0%BA%D1%83%D1%81%D0%BD%D1%8B%D0%B9_%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D0%B0%D1%87%D0%B0%D0%BF%D1%83%D1%80%D0%B8.jpg',
   },
   dessert: {
     id: 'georgia-dessert',
@@ -117,7 +117,7 @@ export const georgia: Country = {
       'Hang in cool, dry place for 2-3 days to fully dry.',
       'Store in airtight container up to 3 months.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/9562294/pexels-photo-9562294.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Kakheti%2C_Georgia_%E2%80%94_Churchkhela.jpg/800px-Kakheti%2C_Georgia_%E2%80%94_Churchkhela.jpg',
   },
   drinks: {
     alcoholic: 'Georgian wine (Saperavi, Rkatsiteli), Chacha (grape vodka)',

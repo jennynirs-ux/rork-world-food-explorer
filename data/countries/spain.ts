@@ -166,7 +166,7 @@ export const spain: Country = {
       'Let rest off heat for 5 minutes before serving',
       'Aim for a crispy bottom layer called "socarrat"',
     ],
-    imageUrl: 'https://images.pexels.com/photos/4663225/pexels-photo-4663225.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/01_Paella_Valenciana_original.jpg/800px-01_Paella_Valenciana_original.jpg',
   },
   dessert: {
     id: 'spain-dessert',

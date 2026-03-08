@@ -81,7 +81,7 @@ export const papuaNewGuinea: Country = {
       'Steam for 30 minutes',
       'Cool before serving',
     ],
-    imageUrl: 'https://images.pexels.com/photos/5652196/pexels-photo-5652196.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sago_Soup.jpg/800px-Sago_Soup.jpg',
   },
   mainDish: {
     id: 'papua-new-guinea-main',
@@ -106,7 +106,7 @@ export const papuaNewGuinea: Country = {
       'Cover with leaves and earth',
       'Cook for 3 hours then uncover',
     ],
-    imageUrl: 'https://images.pexels.com/photos/30206244/pexels-photo-30206244.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/%D0%A2%D1%83%D1%80%D0%B3%D0%B5%D0%BD%D0%B5%D0%B2._%D0%9C%D1%83%D0%BC%D1%83._%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_%D0%B2_%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B5_%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA._1854.png/800px-%D0%A2%D1%83%D1%80%D0%B3%D0%B5%D0%BD%D0%B5%D0%B2._%D0%9C%D1%83%D0%BC%D1%83._%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F_%D0%B2_%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B5_%D0%A1%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA._1854.png',
   },
   drinks: {
     alcoholic: 'SP beer, Bush beer (fermented)',

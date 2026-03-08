@@ -170,7 +170,7 @@ export const saintVincentAndTheGrenadines: Country = {
       'Add pepper sauce to taste.',
       'Optional: serve with a simple salad or steamed greens.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/5848465/pexels-photo-5848465.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Artocarpus_altilis_%28fruit%29.jpg/800px-Artocarpus_altilis_%28fruit%29.jpg',
   },
 
   dessert: {
@@ -200,7 +200,7 @@ export const saintVincentAndTheGrenadines: Country = {
       'Cool 10-15 minutes before slicing.',
       'Serve warm or at room temperature.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/16107649/pexels-photo-16107649.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Bread_in_the_Hellenic_Republic.jpg/800px-Bread_in_the_Hellenic_Republic.jpg',
   },
 
   drinks: {

@@ -119,7 +119,7 @@ export const mozambique: Country = {
       'Baste with extra marinade while grilling',
       'Serve hot with lime wedges and fresh bread',
     ],
-    imageUrl: 'https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Kashmiri_Green_Chilli.JPG/800px-Kashmiri_Green_Chilli.JPG',
   },
   drinks: {
     alcoholic: '2M beer, Laurentina, Portuguese wine',

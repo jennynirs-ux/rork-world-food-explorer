@@ -96,7 +96,7 @@ export const madagascar: Country = {
       'Cool completely before slicing',
       'Serve at room temperature',
     ],
-    imageUrl: 'https://images.pexels.com/photos/31960621/pexels-photo-31960621.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Kobandravina_dessert_snack_food_Antananarivo_Madagascar.jpg/800px-Kobandravina_dessert_snack_food_Antananarivo_Madagascar.jpg',
   },
   mainDish: {
     id: 'madagascar-main',

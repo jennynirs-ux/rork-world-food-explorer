@@ -116,7 +116,7 @@ export const iceland: Country = {
       'Drain on paper towels',
       'Dust with powdered sugar if desired',
     ],
-    imageUrl: 'https://images.pexels.com/photos/7189417/pexels-photo-7189417.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Kleina.jpg/800px-Kleina.jpg',
   },
   innovations: [
     {

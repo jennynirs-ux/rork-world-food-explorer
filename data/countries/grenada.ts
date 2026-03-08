@@ -84,7 +84,7 @@ export const grenada: Country = {
       'Simmer until liquid is absorbed',
       'Serve when "oil down" to bottom',
     ],
-    imageUrl: 'https://images.pexels.com/photos/35290663/pexels-photo-35290663.png?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Cooking_oil_down_03.jpg/800px-Cooking_oil_down_03.jpg',
   },
   dessert: {
     id: 'grenada-dessert',
@@ -113,7 +113,7 @@ export const grenada: Country = {
       'Freeze for 2 hours before serving.',
       'Garnish with fresh grated nutmeg.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/11003834/pexels-photo-11003834.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Magnum_ice_cream.jpg/800px-Magnum_ice_cream.jpg',
   },
   drinks: {
     alcoholic: 'Rum punch, Carib beer, River Antoine rum',

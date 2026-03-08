@@ -105,7 +105,7 @@ export const mongolia: Country = {
       'Deep fry until golden brown',
       'Drain and serve with tea',
     ],
-    imageUrl: 'https://images.pexels.com/photos/17593648/pexels-photo-17593648.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dishes_of_Mongolian_cuisine.jpg/800px-Dishes_of_Mongolian_cuisine.jpg',
   },
   mainDish: {
     id: 'mongolia-main',
@@ -130,7 +130,7 @@ export const mongolia: Country = {
       'Open carefully to release steam',
       'Serve with the tender, smoky meat',
     ],
-    imageUrl: 'https://images.pexels.com/photos/9609844/pexels-photo-9609844.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Khorkhog.JPG/800px-Khorkhog.JPG',
   },
   drinks: {
     alcoholic: 'Airag (fermented mare\'s milk), Vodka',

@@ -114,7 +114,7 @@ export const malaysia: Country = {
       'Cool completely before cutting',
       'Cut into diamond shapes and serve',
     ],
-    imageUrl: 'https://images.pexels.com/photos/7545555/pexels-photo-7545555.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kue_Lapis.jpg/800px-Kue_Lapis.jpg',
   },
   mainDish: {
     id: 'malaysia-nasi-lemak',
@@ -146,7 +146,7 @@ export const malaysia: Country = {
       'Arrange anchovies, peanuts, cucumber, and egg around rice',
       'Add a generous spoonful of sambal on the side',
     ],
-    imageUrl: 'https://images.pexels.com/photos/5963873/pexels-photo-5963873.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas%2C_di_Penang_Summer_Restaurant.jpg/800px-Nasi_Lemak_dengan_Chili_Nasi_Lemak_dan_Sotong_Pedas%2C_di_Penang_Summer_Restaurant.jpg',
   },
   drinks: {
     alcoholic: 'Beer (Tiger, Carlsberg), Tuak (rice wine)',

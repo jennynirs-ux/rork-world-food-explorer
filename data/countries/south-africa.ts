@@ -114,7 +114,7 @@ export const southAfrica: Country = {
       'Remove bay leaves before serving.',
       'Serve with yellow rice and chutney.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/5949897/pexels-photo-5949897.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bobotie%2C_South_African_dish.jpg/800px-Bobotie%2C_South_African_dish.jpg',
   },
 
   dessert: {
@@ -144,7 +144,7 @@ export const southAfrica: Country = {
       'Rest 5 minutes before serving.',
       'Serve warm with ice cream or custard.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/15794018/pexels-photo-15794018.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Malva_Pudding.jpg/800px-Malva_Pudding.jpg',
   },
 
   drinks: {

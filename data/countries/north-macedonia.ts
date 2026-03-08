@@ -90,7 +90,7 @@ export const northMacedonia: Country = {
       'Soak fried dough in warm syrup',
       'Let drain and serve',
     ],
-    imageUrl: 'https://images.pexels.com/photos/8250732/pexels-photo-8250732.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tulumba.jpg/800px-Tulumba.jpg',
   },
   mainDish: {
     id: 'north-macedonia-main',
@@ -115,7 +115,7 @@ export const northMacedonia: Country = {
       'Mix with beans in clay pot',
       'Bake at 350°F for 30 minutes',
     ],
-    imageUrl: 'https://images.pexels.com/photos/20323429/pexels-photo-20323429.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%D0%93%D1%80%D0%B0%D0%B2_%D0%B2%D0%BE_%D1%82%D0%B0%D0%B2%D0%B0%28%D1%82%D0%B0%D1%84%D1%87%D0%B5_%D0%B3%D1%80%D0%B0%D0%B2%D1%87%D0%B5%29_%283%29.jpg/800px-%D0%93%D1%80%D0%B0%D0%B2_%D0%B2%D0%BE_%D1%82%D0%B0%D0%B2%D0%B0%28%D1%82%D0%B0%D1%84%D1%87%D0%B5_%D0%B3%D1%80%D0%B0%D0%B2%D1%87%D0%B5%29_%283%29.jpg',
   },
   drinks: {
     alcoholic: 'Rakija, Macedonian wine, Skopsko beer',

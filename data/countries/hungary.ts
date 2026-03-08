@@ -125,7 +125,7 @@ export const hungary: Country = {
       'Score caramel into slices before it hardens',
       'Refrigerate before serving',
     ],
-    imageUrl: 'https://images.pexels.com/photos/35041639/pexels-photo-35041639.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dobos_cake_%28Gerbeaud_Confectionery_Budapest_Hungary%29.jpg/800px-Dobos_cake_%28Gerbeaud_Confectionery_Budapest_Hungary%29.jpg',
   },
   innovations: [
     {

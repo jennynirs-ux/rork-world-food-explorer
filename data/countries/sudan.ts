@@ -73,7 +73,7 @@ export const sudan: Country = {
       'Serve warm with flatbread on the side',
       'Optional: add chili, tahini, or pickled vegetables to taste',
     ],
-    imageUrl: 'https://images.pexels.com/photos/5500663/pexels-photo-5500663.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ful_medames_%28arabic_meal%29.jpg/800px-Ful_medames_%28arabic_meal%29.jpg',
   },
   dessert: {
     id: 'sudan-dessert',
@@ -108,7 +108,7 @@ export const sudan: Country = {
       'Pour warm syrup over the hot cake and let soak 15 minutes',
       'Serve once fully absorbed (warm or room temperature)',
     ],
-    imageUrl: 'https://images.pexels.com/photos/10865942/pexels-photo-10865942.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/SudanWorldMap.png/800px-SudanWorldMap.png',
   },
   drinks: {
     alcoholic: 'Not commonly consumed (Islamic country)',

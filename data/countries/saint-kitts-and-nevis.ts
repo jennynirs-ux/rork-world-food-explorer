@@ -171,7 +171,7 @@ export const saintKittsAndNevis: Country = {
       'Taste and adjust (usually no extra salt needed).',
       'Serve warm with dumplings, johnny cakes, or rice.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/3628428/pexels-photo-3628428.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Aristofanes.jpg/800px-Aristofanes.jpg',
   },
 
   dessert: {
@@ -201,7 +201,7 @@ export const saintKittsAndNevis: Country = {
       'Cool at least 15 minutes before slicing.',
       'Serve plain or with a little whipped cream.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/6378948/pexels-photo-6378948.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Manchester_tart.jpg/800px-Manchester_tart.jpg',
   },
 
   drinks: {

@@ -91,7 +91,7 @@ export const ethiopia: Country = {
       'Add peeled hard-boiled eggs in final 15 minutes',
       'Serve on injera flatbread with sides',
     ],
-    imageUrl: 'https://images.pexels.com/photos/1031780/pexels-photo-1031780.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ethiopian_wat.jpg/800px-Ethiopian_wat.jpg',
   },
   dessert: {
     id: 'ethiopia-dessert',

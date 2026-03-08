@@ -92,7 +92,7 @@ export const namibia: Country = {
       'Add vanilla, pour into baked shell',
       'Cool, then dust with cinnamon',
     ],
-    imageUrl: 'https://images.pexels.com/photos/29850152/pexels-photo-29850152.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Nama_man_greeting_us_%283693359757%29.jpg/800px-Nama_man_greeting_us_%283693359757%29.jpg',
   },
   mainDish: {
     id: 'namibia-main',

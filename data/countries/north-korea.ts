@@ -113,7 +113,7 @@ export const northKorea: Country = {
       'Pour cold broth over',
       'Top with vegetables and egg',
     ],
-    imageUrl: 'https://images.pexels.com/photos/8995154/pexels-photo-8995154.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Naengmyeon_%28cold_noodles%29.jpg/800px-Naengmyeon_%28cold_noodles%29.jpg',
   },
   drinks: {
     alcoholic: 'Soju, Taedonggang beer',

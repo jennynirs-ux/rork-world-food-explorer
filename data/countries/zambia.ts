@@ -93,7 +93,7 @@ export const zambia: Country = {
       'Add groundnut sauce to vegetables and simmer',
       'Serve nshima hot with relish on the side',
     ],
-    imageUrl: 'https://images.pexels.com/photos/7353380/pexels-photo-7353380.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Nshima_and_Beef_Relish_from_Proteas_Hotel%2C_Chingola%2C_Zambia.jpg/800px-Nshima_and_Beef_Relish_from_Proteas_Hotel%2C_Chingola%2C_Zambia.jpg',
   },
   dessert: {
     id: 'zambia-dessert',
@@ -120,7 +120,7 @@ export const zambia: Country = {
       'Remove and drain on paper towels',
       'Serve warm as a snack or dessert',
     ],
-    imageUrl: 'https://images.pexels.com/photos/8753672/pexels-photo-8753672.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Polskie_p%C4%85czki.jpg/800px-Polskie_p%C4%85czki.jpg',
   },
   drinks: {
     alcoholic: 'Mosi Lager, Chibuku (traditional beer)',

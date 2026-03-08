@@ -115,7 +115,7 @@ export const liechtenstein: Country = {
       'Top noodles with fried onions',
       'Serve with applesauce',
     ],
-    imageUrl: 'https://images.pexels.com/photos/34314610/pexels-photo-34314610.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Berggasthof_Haldenhof_-_K%C3%A4skn%C3%B6pfle_%281%29.jpg/800px-Berggasthof_Haldenhof_-_K%C3%A4skn%C3%B6pfle_%281%29.jpg',
   },
   drinks: {
     alcoholic: 'Local wines, Schnapps',

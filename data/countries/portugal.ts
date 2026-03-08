@@ -109,7 +109,7 @@ export const portugal: Country = {
       'Garnish with black olives and fresh parsley',
       'Serve immediately',
     ],
-    imageUrl: 'https://images.pexels.com/photos/34474342/pexels-photo-34474342.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/800px-Bacalhau_a_Bras.jpg',
   },
   dessert: {
     id: 'portugal-dessert',
@@ -140,7 +140,7 @@ export const portugal: Country = {
       'Bake at 250°C for 15-20 minutes until tops are caramelized with dark spots',
       'Cool and dust with cinnamon and powdered sugar',
     ],
-    imageUrl: 'https://images.pexels.com/photos/27926900/pexels-photo-27926900.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Pasteis_de_Belem.jpg/800px-Pasteis_de_Belem.jpg',
   },
   drinks: {
     alcoholic: 'Port wine, Vinho Verde, Ginjinha (cherry liqueur), Super Bock beer',

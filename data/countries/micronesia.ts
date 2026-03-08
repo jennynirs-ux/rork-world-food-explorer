@@ -81,7 +81,7 @@ export const micronesia: Country = {
       'Bake at 350°F for 25 minutes',
       'Serve warm',
     ],
-    imageUrl: 'https://images.pexels.com/photos/47812/bananas-dessert-ice-cream-fruit-47812.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/F%C3%A9i_Tahiti.JPG/800px-F%C3%A9i_Tahiti.JPG',
   },
   mainDish: {
     id: 'micronesia-main',
@@ -105,7 +105,7 @@ export const micronesia: Country = {
       'Add chopped onions and peppers',
       'Serve with rice',
     ],
-    imageUrl: 'https://images.pexels.com/photos/9397205/pexels-photo-9397205.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Kelaguen_1534_%2814529937155%29.jpg/800px-Kelaguen_1534_%2814529937155%29.jpg',
   },
   drinks: {
     alcoholic: 'Sakau (kava)',

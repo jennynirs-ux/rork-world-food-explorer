@@ -95,7 +95,7 @@ export const panama: Country = {
       'Refrigerate 3+ hours',
       'Top with whipped cream',
     ],
-    imageUrl: 'https://images.pexels.com/photos/35783938/pexels-photo-35783938.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Asado_uruguayo.JPG/800px-Asado_uruguayo.JPG',
   },
   mainDish: {
     id: 'panama-main',
@@ -120,7 +120,7 @@ export const panama: Country = {
       'Season with salt and pepper',
       'Serve with white rice and hot sauce',
     ],
-    imageUrl: 'https://images.pexels.com/photos/34822475/pexels-photo-34822475.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sancocho_de_espinazo_de_cerdo.jpg/800px-Sancocho_de_espinazo_de_cerdo.jpg',
   },
   drinks: {
     alcoholic: 'Seco (sugarcane spirit), Balboa beer, Panamanian rum',

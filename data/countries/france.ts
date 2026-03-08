@@ -116,7 +116,7 @@ export const france: Country = {
       'Remove chicken, reduce sauce if needed',
       'Serve with crusty bread or mashed potatoes',
     ],
-    imageUrl: 'https://images.pexels.com/photos/14885400/pexels-photo-14885400.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Gourmet_coq_au_vin.jpg/800px-Gourmet_coq_au_vin.jpg',
   },
   dessert: {
     id: 'france-dessert',
@@ -144,7 +144,7 @@ export const france: Country = {
       'Refrigerate at least 2 hours',
       'Before serving, sprinkle sugar on top and caramelize with torch',
     ],
-    imageUrl: 'https://images.pexels.com/photos/5638511/pexels-photo-5638511.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2014_0531_Cr%C3%A8me_br%C3%BBl%C3%A9e_Doi_Mae_Salong_%28cropped%29.jpg/800px-2014_0531_Cr%C3%A8me_br%C3%BBl%C3%A9e_Doi_Mae_Salong_%28cropped%29.jpg',
   },
   drinks: {
     alcoholic: 'Champagne, Bordeaux wine, Cognac, Calvados',

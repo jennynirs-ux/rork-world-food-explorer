@@ -165,7 +165,7 @@ export const slovenia: Country = {
       'Serve sausages with sauerkraut and potatoes.',
       'Add mustard and horseradish on the side, plus dark bread.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/5949889/pexels-photo-5949889.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Carniolian_sausage_-_Kranjska_klobasa_-_Klobasarna_Ljubljana.jpg/800px-Carniolian_sausage_-_Kranjska_klobasa_-_Klobasarna_Ljubljana.jpg',
   },
   dessert: {
     id: 'slovenia-dessert',
@@ -198,7 +198,7 @@ export const slovenia: Country = {
       'Let rise 30 minutes. Bake at 180°C for 40–50 minutes until golden.',
       'Cool before slicing so the swirl holds.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/31119078/pexels-photo-31119078.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/MintpoticabySara.jpg/800px-MintpoticabySara.jpg',
   },
   drinks: {
     alcoholic:

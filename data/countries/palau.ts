@@ -86,7 +86,7 @@ export const palau: Country = {
       'Cool before unwrapping',
       'Slice and serve',
     ],
-    imageUrl: 'https://images.pexels.com/photos/14303582/pexels-photo-14303582.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Uduch_Sengebau_Senior_official_portrait_in_2021.jpg/800px-Uduch_Sengebau_Senior_official_portrait_in_2021.jpg',
   },
   mainDish: {
     id: 'palau-main',
@@ -110,7 +110,7 @@ export const palau: Country = {
       'Add taro leaves at end',
       'Serve with rice',
     ],
-    imageUrl: 'https://images.pexels.com/photos/27397344/pexels-photo-27397344.jpeg?auto=compress&cs=tinysrgb&h=350',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Ph%E1%BB%9F_b%C3%B2_%2839425047901%29.jpg/800px-Ph%E1%BB%9F_b%C3%B2_%2839425047901%29.jpg',
   },
   drinks: {
     alcoholic: 'Local beer, Fermented beverages',
