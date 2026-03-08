@@ -114,7 +114,7 @@ export const japan: Country = {
       'Slice chicken and drizzle with remaining sauce',
       'Garnish with sesame seeds and serve with rice',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1609183480237-ccbb2d7c5772?w=800&q=80',
   },
   dessert: {
     id: 'japan-dessert',

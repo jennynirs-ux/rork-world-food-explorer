@@ -147,7 +147,7 @@ export const mexico: Country = {
       'For chocolate sauce: heat cream until simmering, pour over chopped chocolate',
       'Stir until smooth and serve warm with churros',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1543364195-bfe6e4932397?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1515579171902-e0c5f918b32b?w=800&q=80',
   },
   drinks: {
     alcoholic: 'Tequila, Mezcal, Margarita, Michelada, Paloma',
