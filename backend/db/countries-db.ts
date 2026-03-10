@@ -60,7 +60,8 @@ export const countriesDB = {
     const lowerQuery = query.toLowerCase();
     return countriesStore.filter(c => {
       const description = typeof c.description === 'string' ? c.description : c.description.en;
-      return c.name.toLowerCase().includes(lowerQuery) ||
+      const name = typeof c.name === 'string' ? c.name : c.name.en;
+      return name.toLowerCase().includes(lowerQuery) ||
         description.toLowerCase().includes(lowerQuery) ||
         c.continent.toLowerCase().includes(lowerQuery);
     });

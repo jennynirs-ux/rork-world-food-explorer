@@ -2,8 +2,13 @@ import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal } from 'rea
 import { Lock, Globe, X, Check } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { MONETIZATION_PRODUCTS, PRODUCT_IDS } from '@/constants/monetization';
-import { Country } from '@/types';
+import { Country, TranslatedString } from '@/types';
 import { getCountriesByContinent } from '@/lib/access-control';
+
+function getTranslatedName(name: TranslatedString): string {
+  if (typeof name === 'string') return name;
+  return name.en;
+}
 
 type PaywallProps = {
   visible: boolean;
@@ -64,7 +69,7 @@ export default function Paywall({
               <Text style={styles.title}>Unlock More Countries</Text>
               {country && (
                 <Text style={styles.subtitle}>
-                  {country.flag} {country.name} is locked
+                  {country.flag} {getTranslatedName(country.name)} is locked
                 </Text>
               )}
               <Text style={styles.description}>

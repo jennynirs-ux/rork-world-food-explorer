@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { Country, Recipe, HistoryEvent, Innovation, MustVisit, TravelEssential, QuizQuestion } from '@/types';
+import { Country, Recipe } from '@/types';
 import { translateContent, translateArray } from './translate-content';
 
 type TranslatedRecipe = Omit<Recipe, 'name' | 'description' | 'ingredients' | 'steps'> & {
@@ -9,7 +9,8 @@ type TranslatedRecipe = Omit<Recipe, 'name' | 'description' | 'ingredients' | 's
   steps: string[];
 };
 
-type TranslatedCountry = Omit<Country, 'description' | 'facts' | 'foodCulture' | 'history' | 'innovations' | 'mustVisit' | 'travelEssentials' | 'mainDish' | 'dessert' | 'drinks' | 'decorationIdeas' | 'conversationStarters' | 'quiz'> & {
+type TranslatedCountry = Omit<Country, 'name' | 'description' | 'facts' | 'foodCulture' | 'history' | 'innovations' | 'mustVisit' | 'travelEssentials' | 'mainDish' | 'dessert' | 'drinks' | 'decorationIdeas' | 'conversationStarters' | 'quiz'> & {
+  name: string;
   description: string;
   facts: string[];
   foodCulture: string;
@@ -46,6 +47,7 @@ export function useTranslatedCountry(country: Country | undefined, language: str
 
     return {
       ...country,
+      name: translateContent(country.name, language),
       description: translateContent(country.description, language),
       facts: translateArray(country.facts, language),
       foodCulture: translateContent(country.foodCulture, language),
