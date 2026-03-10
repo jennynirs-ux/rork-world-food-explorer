@@ -220,7 +220,7 @@ export const newZealand: Country = {
       'Add sliced kiwi, strawberries, and passion fruit.',
       'Serve immediately for best texture.',
     ],
-    imageUrl: 'https://images.pexels.com/photos/32134447/pexels-photo-32134447.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    imageUrl: 'https://images.pexels.com/photos/31500975/pexels-photo-31500975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
 
   drinks: {

@@ -283,7 +283,7 @@ export default function CountryDetailScreen() {
     ).length;
 
     const score = correctCount;
-    const points = 20;
+    const points = Math.round((correctCount / country.quiz.length) * 20);
 
     updateCountryProgress(
       country.id,

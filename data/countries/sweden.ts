@@ -162,7 +162,7 @@ export const sweden: Country = {
       'Brush with egg and sprinkle pearl sugar',
       'Bake at 200°C for 10–12 minutes',
     ],
-    imageUrl: 'https://images.pexels.com/photos/4828333/pexels-photo-4828333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    imageUrl: 'https://images.pexels.com/photos/14576630/pexels-photo-14576630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   },
   drinks: {
     alcoholic: 'Aquavit, Swedish beer, Glögg',
