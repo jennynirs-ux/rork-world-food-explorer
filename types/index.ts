@@ -1,6 +1,7 @@
 import { LucideIcon } from 'lucide-react-native';
 
 export type DietType = 'meat' | 'fish' | 'vegetarian' | 'vegan';
+export type TranslatedDietType = DietType | { en: string; sv?: string; es?: string; fr?: string; de?: string };
 
 export type Recipe = {
   id: string;
@@ -8,12 +9,12 @@ export type Recipe = {
   description: TranslatedString;
   cookingTime: number;
   servings: number;
-  dietType: DietType;
+  dietType: TranslatedDietType;
   difficulty?: 'easy' | 'medium' | 'hard';
   ingredients: {
     name: TranslatedString;
     amount: number;
-    unit: string;
+    unit: TranslatedString;
   }[];
   steps: TranslatedString[];
   imageUrl?: string;
@@ -32,14 +33,14 @@ export type QuizQuestion = {
 };
 
 export type HistoryEvent = {
-  year: string;
+  year: TranslatedString;
   title: TranslatedString;
   description: TranslatedString;
 };
 
 export type Innovation = {
   name: TranslatedString;
-  year: string;
+  year: TranslatedString;
   description: TranslatedString;
 };
 
@@ -55,8 +56,8 @@ export type TravelEssential = {
 };
 
 export type QuickFact = {
-  label: string;
-  value: string;
+  label: TranslatedString;
+  value: TranslatedString;
 };
 
 export type TranslatedString = string | { en: string; sv?: string; es?: string; fr?: string; de?: string };
@@ -65,7 +66,7 @@ export type Country = {
   id: string;
   name: TranslatedString;
   code: string;
-  continent: string;
+  continent: TranslatedString;
   flag: string;
   landscapeImage?: string;
   description: TranslatedString;
@@ -79,7 +80,7 @@ export type Country = {
   mainDish: Recipe;
   dessert?: Recipe;
   drinks: Drink;
-  music: string[];
+  music: TranslatedString[];
   decorationIdeas: TranslatedString[];
   conversationStarters: TranslatedString[];
   quiz: QuizQuestion[];

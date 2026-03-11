@@ -16,6 +16,7 @@ import { isCountryAccessible } from '@/lib/access-control';
 import Paywall from '@/components/Paywall';
 import { useTranslation } from '@/lib/i18n';
 import { useTranslatedCountry } from '@/lib/use-translated-country';
+import { translateContent } from '@/lib/translate-content';
 import colors from '@/constants/colors';
 import { 
   Compass, 
@@ -45,19 +46,6 @@ import {
   Maximize,
   Lock
 } from 'lucide-react-native';
-
-function translateQuickFactLabel(label: string, t: any): string {
-  const labelMap: Record<string, string> = {
-    'Capital': t.country.capital,
-    'Population': t.country.population,
-    'Official Language': t.country.officialLanguage,
-    'Language': t.country.language,
-    'Currency': t.country.currency,
-    'Region': t.country.region,
-    'Area': t.country.area,
-  };
-  return labelMap[label] || label;
-}
 
 export default function CountryDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -104,7 +92,7 @@ export default function CountryDetailScreen() {
 
   useEffect(() => {
     if (country && progress && !progress.visited) {
-      updateCountryProgress(country.id, { visited: true, visitedDate: new Date().toISOString() }, 0);
+      void updateCountryProgress(country.id, { visited: true, visitedDate: new Date().toISOString() }, 0);
     }
   }, [country, progress, updateCountryProgress]);
 
@@ -124,7 +112,7 @@ export default function CountryDetailScreen() {
   }
 
   const purchasedProducts = userProfile.purchasedProducts || [];
-  const isAccessible = isCountryAccessible(country, purchasedProducts);
+  const isAccessible = countryData ? isCountryAccessible(countryData, purchasedProducts) : false;
 
   if (!isAccessible) {
     return (
@@ -139,7 +127,7 @@ export default function CountryDetailScreen() {
             <Text style={styles.lockedCountryName}>{country.name}</Text>
             <Lock size={64} color={colors.terracotta} />
             <Text style={styles.lockedMessage}>{t.country.lockedCountry}</Text>
-            <Text style={styles.lockedSubMessage}>{t.country.unlockMessage.replace('{continent}', country.continent)}</Text>
+            <Text style={styles.lockedSubMessage}>{t.country.unlockMessage.replace('{continent}', String(country.continent))}</Text>
             
             <TouchableOpacity 
               style={styles.unlockButton}
@@ -153,7 +141,7 @@ export default function CountryDetailScreen() {
         <Paywall
           visible={showPaywall}
           onClose={() => setShowPaywall(false)}
-          country={country}
+          country={countryData}
           countries={countries}
           onPurchase={purchaseProduct}
           purchasedProducts={purchasedProducts}
@@ -166,7 +154,7 @@ export default function CountryDetailScreen() {
     const field = isDessert ? 'dessertCooked' : 'mainDishCooked';
     const points = isDessert ? 15 : 30;
     
-    updateCountryProgress(country.id, { [field]: true }, points);
+    void updateCountryProgress(country.id, { [field]: true }, points);
     
     const dishName = isDessert 
       ? (country.dessert?.name || '') 
@@ -188,7 +176,7 @@ export default function CountryDetailScreen() {
       unit: ing.unit,
     }));
 
-    addToShoppingList(scaledIngredients, country.id, country.name);
+    void addToShoppingList(scaledIngredients, country.id, country.name);
     Alert.alert(t.country.added, t.country.ingredientsAdded);
   };
 
@@ -200,10 +188,10 @@ export default function CountryDetailScreen() {
     const recipeName = recipe.name;
     
     if (isFavorite) {
-      removeFavoriteRecipe(recipe.id);
+      void removeFavoriteRecipe(recipe.id);
       Alert.alert(t.country.removed, t.country.recipeRemoved);
     } else {
-      addFavoriteRecipe(
+      void addFavoriteRecipe(
         recipe.id,
         recipeName,
         country.id,
@@ -216,7 +204,7 @@ export default function CountryDetailScreen() {
   };
 
   const handleToggleFavoriteCountry = () => {
-    toggleFavoriteCountry(country.id);
+    void toggleFavoriteCountry(country.id);
     const isFavorite = isFavoriteCountry(country.id);
     Alert.alert(
       isFavorite ? 'Removed from favorites' : 'Added to favorites',
@@ -225,7 +213,7 @@ export default function CountryDetailScreen() {
   };
 
   const handleRateRecipe = (isDessert: boolean, rating: number) => {
-    updateRecipeRating(country.id, isDessert, rating);
+    void updateRecipeRating(country.id, isDessert, rating);
     if (isDessert) {
       setShowDessertRating(false);
     } else {
@@ -285,7 +273,7 @@ export default function CountryDetailScreen() {
     const score = correctCount;
     const points = Math.round((correctCount / country.quiz.length) * 20);
 
-    updateCountryProgress(
+    void updateCountryProgress(
       country.id,
       { quizCompleted: true, quizScore: score },
       points
@@ -394,27 +382,29 @@ export default function CountryDetailScreen() {
               <View style={styles.section}>
                 <View style={styles.quickFactsGrid}>
                   {country.quickFacts.map((fact, idx) => {
+                    const rawFact = countryData?.quickFacts?.[idx];
+                    const englishLabel = rawFact ? translateContent(rawFact.label, 'en') : fact.label;
                     let IconComponent = Globe;
                     let iconColor = '#3B82F6';
                     
-                    if (fact.label === 'Capital') {
+                    if (englishLabel === 'Capital') {
                       IconComponent = Building2;
                       iconColor = '#EF4444';
-                    } else if (fact.label === 'Population') {
+                    } else if (englishLabel === 'Population') {
                       IconComponent = Users;
                       iconColor = '#8B5CF6';
-                    } else if (fact.label === 'Official Language') {
+                    } else if (englishLabel === 'Official Language' || englishLabel === 'Language') {
                       IconComponent = Languages;
                       iconColor = '#10B981';
-                    } else if (fact.label === 'Currency') {
+                    } else if (englishLabel === 'Currency') {
                       IconComponent = DollarSign;
                       iconColor = '#F59E0B';
-                    } else if (fact.label === 'Area') {
+                    } else if (englishLabel === 'Area') {
                       IconComponent = Maximize;
                       iconColor = '#06B6D4';
                     }
                     
-                    const isFullWidth = fact.label === 'Area';
+                    const isFullWidth = englishLabel === 'Area';
                     
                     return (
                       <View 
@@ -425,7 +415,7 @@ export default function CountryDetailScreen() {
                         ]}
                       >
                         <IconComponent size={24} color={iconColor} style={styles.quickFactIcon} />
-                        <Text style={styles.quickFactLabel}>{translateQuickFactLabel(fact.label, t)}</Text>
+                        <Text style={styles.quickFactLabel}>{fact.label}</Text>
                         <Text style={styles.quickFactValue}>{fact.value}</Text>
                       </View>
                     );
@@ -970,7 +960,7 @@ export default function CountryDetailScreen() {
       <Paywall
         visible={showPaywall}
         onClose={() => setShowPaywall(false)}
-        country={country}
+        country={countryData}
         countries={countries}
         onPurchase={purchaseProduct}
         purchasedProducts={purchasedProducts}
