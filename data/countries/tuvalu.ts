@@ -1,274 +1,1067 @@
 import { Country } from '@/types';
 
 export const tuvalu: Country = {
-  id: 'tuvalu',
-  name: 'Tuvalu',
-  code: 'TV',
-  continent: 'Oceania',
-  flag: '🇹🇻',
-  landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
-  description:
-    "Tuvalu is one of the world’s smallest and most remote countries, a low-lying Pacific island nation made up of coral atolls and extremely vulnerable to climate change and sea level rise.",
-  quickFacts: [
-    { label: 'Capital', value: 'Funafuti' },
-    { label: 'Population', value: '12,000' },
-    { label: 'Official Languages', value: 'Tuvaluan, English' },
-    { label: 'Currency', value: 'Australian Dollar' },
-    { label: 'Area', value: '26 km²' },
-  ],
-  facts: [
-    'Fourth smallest country in the world',
-    'Extremely vulnerable to sea level rise',
-    'No significant natural resources or large-scale industry',
-    'The .tv internet domain provides important national revenue',
-    'Tuvalu is made up of low-lying coral atolls with very limited elevation',
-    'Community life is centered around family, churches, and shared traditions',
-  ],
-
-  foodCulture:
-    'Tuvaluan cuisine is based on fish, coconut, pulaka (swamp taro), breadfruit, and simple island ingredients, often cooked in earth ovens. Meals are practical, local, and community-oriented.',
-
-  history: [
-    {
-      year: 'Pre-1800s',
-      title: 'Polynesian Settlement',
-      description:
-        'Tuvalu’s islands were settled by Polynesian navigators, with traditions shaped by ocean travel, fishing, and communal island life.',
+    id: 'tuvalu',
+    name: {
+      en: 'Tuvalu',
+      sv: 'Tuvalu',
+      es: 'Tuvalu',
+      fr: 'Tuvalu',
+      de: 'Tuvalu',
     },
-    {
-      year: '1892',
-      title: 'British Protectorate',
-      description:
-        'Tuvalu (then part of the Ellice Islands) became a British protectorate, later administered together with the Gilbert Islands.',
+    code: 'TV',
+    continent: {
+      en: 'Oceania',
+      sv: 'Oceanien',
+      es: 'Oceanía',
+      fr: 'Océanie',
+      de: 'Ozeanien',
     },
-    {
-      year: '1978',
-      title: 'Independence',
-      description:
-        'Tuvalu became an independent nation and joined the Commonwealth, establishing its own government and national identity.',
+    flag: '🇹🇻',
+    landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+    description: {
+      en: 'Tuvalu is one of the world’s smallest and most remote countries, a low-lying Pacific island nation made up of coral atolls and extremely vulnerable to climate change and sea level rise.',
+      sv: 'Tuvalu är ett av världens minsta och mest avlägsna länder, en låglänt Stillahavsö-nation som består av korallatoller och extremt sårbar för klimatförändringar och havsnivåhöjningar.',
+      es: 'Tuvalu es uno de los países más pequeños y remotos del mundo, una nación insular de tierras bajas en el Pacífico formada por atolones de coral y extremadamente vulnerable al cambio climático y al aumento del nivel del mar.',
+      fr: 'Tuvalu est l’un des pays les plus petits et les plus isolés du monde, une nation insulaire de basse altitude composée d’atolls coralliens et extrêmement vulnérable au changement climatique et à l’élévation du niveau de la mer.',
+      de: 'Tuvalu ist eines der kleinsten und abgelegensten Länder der Welt, ein tief liegender pazifischer Inselstaat, der aus Korallenatollen besteht und extrem anfällig für Klimawandel und Meeresspiegelanstieg ist.',
     },
-    {
-      year: '1990s–Present',
-      title: 'Climate Advocacy',
-      description:
-        'Tuvalu has become globally recognized for climate advocacy, highlighting the risks low-lying island nations face from sea level rise.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: '.tv Internet Domain',
-      year: '1990s',
-      description:
-        'Tuvalu’s “.tv” country domain became a notable source of revenue and international visibility.',
-    },
-    {
-      name: 'Traditional Navigation & Community Systems',
-      year: 'Ancient',
-      description:
-        'Local knowledge of the ocean, weather patterns, and community cooperation remains a core “technology” sustaining island life.',
-    },
-    {
-      name: 'Climate Adaptation Initiatives',
-      year: 'Modern Era',
-      description:
-        'Tuvalu participates in coastal protection, water security, and resilience initiatives to adapt to climate change impacts.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Funafuti Lagoon',
-      description:
-        'A beautiful lagoon surrounding the capital atoll, known for calm waters, marine life, and iconic atoll scenery.',
-    },
-    {
-      name: 'Funafuti Conservation Area',
-      description:
-        'A protected area with rich biodiversity, including coral reefs, tropical fish, seabirds, and small islets.',
-    },
-    {
-      name: 'Local Community Events',
-      description:
-        'Traditional dancing (fatele), singing, and communal feasts offer a real window into Tuvaluan culture.',
-    },
-    {
-      name: 'Atoll Island Life',
-      description:
-        'Explore the narrow strips of land, coconut palms, and village life that define Tuvalu’s unique geography and rhythm.',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Remote logistics',
-      description:
-        'Tuvalu is very remote with limited flights and services—plan ahead for transport, accommodation, and supplies.',
-    },
-    {
-      item: 'Respect local culture',
-      description:
-        'Dress modestly, especially in villages; Sunday is often quiet due to church and family traditions.',
-    },
-    {
-      item: 'Cash & connectivity',
-      description:
-        'Card payments may be limited; mobile/internet can be slower—download essentials in advance.',
-    },
-    {
-      item: 'Heat & sun protection',
-      description:
-        'It’s hot and sunny—bring reef-safe sunscreen, hydration, and lightweight clothing.',
-    },
-    {
-      item: 'Environmental care',
-      description:
-        'Reefs and coastlines are fragile—avoid damaging coral and follow local conservation guidance.',
-    },
-  ],
-
-  mainDish: {
-    id: 'tuvalu-main',
-    name: 'Palusami',
-    description: 'Taro leaves baked with coconut cream',
-    cookingTime: 90,
-    servings: 4,
-    dietType: 'vegan',
-    ingredients: [
-      { name: 'Taro leaves', amount: 400, unit: 'g' },
-      { name: 'Coconut cream', amount: 400, unit: 'ml' },
-      { name: 'Onions', amount: 1, unit: 'whole' },
-      { name: 'Salt', amount: 1, unit: 'tsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Funafuti',
+          sv: 'Funafuti',
+          es: 'Funafuti',
+          fr: 'Funafuti',
+          de: 'Funafuti',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '12,000',
+          sv: '12 000',
+          es: '12.000',
+          fr: '12 000',
+          de: '12.000',
+        },
+      },
+      {
+        label: {
+          en: 'Official Languages',
+          sv: 'Officiella språk',
+          es: 'Idiomas oficiales',
+          fr: 'Langues officielles',
+          de: 'Amtssprachen',
+        },
+        value: {
+          en: 'Tuvaluan, English',
+          sv: 'Tuvaluanska, engelska',
+          es: 'tuvaluano, inglés',
+          fr: 'Tuvaluan, anglais',
+          de: 'Tuvaluisch, Englisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Australian Dollar',
+          sv: 'Australiska dollar',
+          es: 'Dólar australiano',
+          fr: 'Dollar australien',
+          de: 'Australischer Dollar',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '26 km²',
+          sv: '26 km²',
+          es: '26 km²',
+          fr: '26 km²',
+          de: '26 km²',
+        },
+      },
     ],
-    steps: [
-      'Wash taro leaves thoroughly',
-      'Mix coconut cream with finely chopped onion and salt',
-      'Place coconut mixture in the center of taro leaves',
-      'Wrap leaves tightly into parcels',
-      'Bake in an earth oven or regular oven at low heat',
-      'Cook for about 90 minutes until tender',
-      'Serve as a side dish, often with fish',
+    facts: [
+      {
+        en: 'Fourth smallest country in the world',
+        sv: 'Fjärde minsta landet i världen',
+        es: 'Cuarto país más pequeño del mundo',
+        fr: 'Quatrième plus petit pays du monde',
+        de: 'Viertkleinstes Land der Welt',
+      },
+      {
+        en: 'Extremely vulnerable to sea level rise',
+        sv: 'Extremt känslig för höjning av havsnivån',
+        es: 'Extremadamente vulnerable al aumento del nivel del mar',
+        fr: 'Extrêmement vulnérable à l\'élévation du niveau de la mer',
+        de: 'Extrem anfällig für den Anstieg des Meeresspiegels',
+      },
+      {
+        en: 'No significant natural resources or large-scale industry',
+        sv: 'Inga betydande naturresurser eller storskalig industri',
+        es: 'No hay recursos naturales significativos ni industria a gran escala',
+        fr: 'Pas de ressources naturelles significatives ni d\'industrie à grande échelle',
+        de: 'Keine bedeutenden natürlichen Ressourcen oder Großindustrie',
+      },
+      {
+        en: 'The .tv internet domain provides important national revenue',
+        sv: 'Internetdomänen .tv ger viktiga nationella intäkter',
+        es: 'El dominio de Internet .tv proporciona importantes ingresos nacionales',
+        fr: 'Le domaine Internet .tv génère d\'importants revenus nationaux',
+        de: 'Die Internetdomäne .tv sorgt für wichtige landesweite Einnahmen',
+      },
+      {
+        en: 'Tuvalu is made up of low-lying coral atolls with very limited elevation',
+        sv: 'Tuvalu består av lågt liggande korallatoller med mycket begränsad höjd',
+        es: 'Tuvalu está formado por atolones de coral bajos con una elevación muy limitada',
+        fr: 'Tuvalu est constitué d\'atolls coralliens de basse altitude avec une altitude très limitée',
+        de: 'Tuvalu besteht aus tief liegenden Korallenatollen mit sehr begrenzter Höhe',
+      },
+      {
+        en: 'Community life is centered around family, churches, and shared traditions',
+        sv: 'Gemenskapslivet är centrerat kring familj, kyrkor och delade traditioner',
+        es: 'La vida comunitaria se centra en la familia, las iglesias y las tradiciones compartidas',
+        fr: 'La vie communautaire est centrée autour de la famille, des églises et des traditions partagées',
+        de: 'Im Mittelpunkt des Gemeinschaftslebens stehen Familie, Kirchen und gemeinsame Traditionen',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'tuvalu-dessert',
-    name: 'Coconut Breadfruit Pudding',
-    description:
-      'A simple island-style dessert made by baking breadfruit with coconut cream and a touch of sweetness until soft and custardy.',
-    cookingTime: 50,
-    servings: 6,
-    dietType: 'vegan',
-    ingredients: [
-      { name: 'Breadfruit (ripe)', amount: 600, unit: 'g' },
-      { name: 'Coconut cream', amount: 400, unit: 'ml' },
-      { name: 'Sugar (or coconut sugar)', amount: 80, unit: 'g' },
-      { name: 'Vanilla (optional)', amount: 1, unit: 'tsp' },
-      { name: 'Salt', amount: 0.25, unit: 'tsp' },
+    foodCulture: 'Tuvaluan cuisine is based on fish, coconut, pulaka (swamp taro), breadfruit, and simple island ingredients, often cooked in earth ovens. Meals are practical, local, and community-oriented.',
+    history: [
+      {
+        year: 'Pre-1800s',
+        title: 'Polynesian Settlement',
+        description: {
+          en: 'Tuvalu’s islands were settled by Polynesian navigators, with traditions shaped by ocean travel, fishing, and communal island life.',
+          sv: 'Tuvalus öar bosattes av polynesiska navigatörer, med traditioner som formats av havsresor, fiske och det kommunala ölivet.',
+          es: 'Las islas de Tuvalu fueron colonizadas por navegantes polinesios, con tradiciones moldeadas por los viajes por el océano, la pesca y la vida isleña comunal.',
+          fr: 'Les îles de Tuvalu ont été colonisées par des navigateurs polynésiens, avec des traditions façonnées par les voyages en mer, la pêche et la vie communautaire insulaire.',
+          de: 'Die Inseln Tuvalus wurden von polynesischen Seefahrern besiedelt, deren Traditionen von Seereisen, Fischerei und gemeinschaftlichem Inselleben geprägt waren.',
+        },
+      },
+      {
+        year: '1892',
+        title: 'British Protectorate',
+        description: {
+          en: 'Tuvalu (then part of the Ellice Islands) became a British protectorate, later administered together with the Gilbert Islands.',
+          sv: 'Tuvalu (då en del av Elliceöarna) blev ett brittiskt protektorat, senare administrerat tillsammans med Gilbertöarna.',
+          es: 'Tuvalu (entonces parte de las Islas Ellice) se convirtió en un protectorado británico, más tarde administrado junto con las Islas Gilbert.',
+          fr: 'Tuvalu (qui faisait alors partie des îles Ellice) est devenu un protectorat britannique, administré plus tard avec les îles Gilbert.',
+          de: 'Tuvalu (damals Teil der Ellice-Inseln) wurde britisches Protektorat und wurde später zusammen mit den Gilbert-Inseln verwaltet.',
+        },
+      },
+      {
+        year: '1978',
+        title: 'Independence',
+        description: {
+          en: 'Tuvalu became an independent nation and joined the Commonwealth, establishing its own government and national identity.',
+          sv: 'Tuvalu blev en självständig nation och gick med i samväldet och etablerade sin egen regering och nationella identitet.',
+          es: 'Tuvalu se convirtió en una nación independiente y se unió a la Commonwealth, estableciendo su propio gobierno e identidad nacional.',
+          fr: 'Tuvalu est devenu une nation indépendante et a rejoint le Commonwealth, établissant ainsi son propre gouvernement et son identité nationale.',
+          de: 'Tuvalu wurde eine unabhängige Nation, trat dem Commonwealth bei und etablierte eine eigene Regierung und nationale Identität.',
+        },
+      },
+      {
+        year: '1990s–Present',
+        title: 'Climate Advocacy',
+        description: {
+          en: 'Tuvalu has become globally recognized for climate advocacy, highlighting the risks low-lying island nations face from sea level rise.',
+          sv: 'Tuvalu har blivit globalt erkänt för klimatförespråkande, vilket lyfter fram de risker som låglänta ö-nationer står inför på grund av höjning av havsnivån.',
+          es: 'Tuvalu se ha vuelto mundialmente reconocido por su defensa del clima, destacando los riesgos que enfrentan las naciones insulares bajas debido al aumento del nivel del mar.',
+          fr: 'Tuvalu est devenu mondialement reconnu pour son plaidoyer en faveur du climat, soulignant les risques auxquels les nations insulaires de basse altitude sont confrontées en raison de l\'élévation du niveau de la mer.',
+          de: 'Tuvalu ist weltweit für sein Engagement für den Klimaschutz bekannt und verdeutlicht die Risiken, denen tiefliegende Inselstaaten durch den Anstieg des Meeresspiegels ausgesetzt sind.',
+        },
+      },
     ],
-    steps: [
-      'Preheat oven to 180°C and grease a baking dish',
-      'Cut breadfruit into small chunks and place in dish',
-      'Mix coconut cream, sugar, salt, and vanilla (optional)',
-      'Pour coconut mixture over breadfruit and stir gently',
-      'Bake 40–50 minutes until tender and lightly golden on top',
-      'Cool slightly and serve warm or chilled',
+    innovations: [
+      {
+        name: {
+          en: '.tv Internet Domain',
+          sv: '.tv Internetdomän',
+          es: 'Dominio de Internet .tv',
+          fr: 'Domaine Internet .tv',
+          de: '.tv Internetdomäne',
+        },
+        year: '1990s',
+        description: {
+          en: 'Tuvalu’s “.tv” country domain became a notable source of revenue and international visibility.',
+          sv: 'Tuvalus ".tv"-landsdomän blev en anmärkningsvärd inkomstkälla och internationell synlighet.',
+          es: 'El dominio nacional “.tv” de Tuvalu se convirtió en una fuente notable de ingresos y visibilidad internacional.',
+          fr: 'Le domaine national « .tv » de Tuvalu est devenu une source notable de revenus et de visibilité internationale.',
+          de: 'Tuvalus Länderdomain „.tv“ wurde zu einer bemerkenswerten Einnahmequelle und internationalen Sichtbarkeit.',
+        },
+      },
+      {
+        name: {
+          en: 'Traditional Navigation & Community Systems',
+          sv: 'Traditionella navigations- och gemenskapssystem',
+          es: 'Sistemas comunitarios y de navegación tradicionales',
+          fr: 'Systèmes de navigation et communautaires traditionnels',
+          de: 'Traditionelle Navigations- und Community-Systeme',
+        },
+        year: 'Ancient',
+        description: {
+          en: 'Local knowledge of the ocean, weather patterns, and community cooperation remains a core “technology” sustaining island life.',
+          sv: 'Lokal kunskap om havet, vädermönster och samhällssamarbete förblir en central "teknik" som upprätthåller ölivet.',
+          es: 'El conocimiento local del océano, los patrones climáticos y la cooperación comunitaria siguen siendo una “tecnología” central que sustenta la vida en las islas.',
+          fr: 'La connaissance locale de l’océan, des conditions météorologiques et de la coopération communautaire reste une « technologie » essentielle au maintien de la vie insulaire.',
+          de: 'Das lokale Wissen über das Meer, die Wetterbedingungen und die Zusammenarbeit mit der Gemeinschaft bleibt eine zentrale „Technologie“, die das Leben auf der Insel erhält.',
+        },
+      },
+      {
+        name: {
+          en: 'Climate Adaptation Initiatives',
+          sv: 'Klimatanpassningsinitiativ',
+          es: 'Iniciativas de adaptación al clima',
+          fr: 'Initiatives d\'adaptation au climat',
+          de: 'Initiativen zur Klimaanpassung',
+        },
+        year: 'Modern Era',
+        description: {
+          en: 'Tuvalu participates in coastal protection, water security, and resilience initiatives to adapt to climate change impacts.',
+          sv: 'Tuvalu deltar i initiativ för kustskydd, vattensäkerhet och motståndskraft för att anpassa sig till klimatförändringarnas effekter.',
+          es: 'Tuvalu participa en iniciativas de protección costera, seguridad hídrica y resiliencia para adaptarse a los impactos del cambio climático.',
+          fr: 'Tuvalu participe à des initiatives de protection côtière, de sécurité de l\'eau et de résilience pour s\'adapter aux impacts du changement climatique.',
+          de: 'Tuvalu beteiligt sich an Initiativen zum Küstenschutz, zur Wassersicherheit und zur Widerstandsfähigkeit, um sich an die Auswirkungen des Klimawandels anzupassen.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/5997850/pexels-photo-5997850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Toddy (palm wine)',
-    nonAlcoholic: 'Coconut water, Fresh fruit juice',
-  },
-
-  music: [
-    'Traditional fatele dance music',
-    'Pacific island chants',
-    'Community drumming and singing',
-  ],
-
-  decorationIdeas: [
-    'Light blue and yellow flag colors',
-    'Ocean and atoll imagery',
-    'Star motifs from the flag',
-    'Climate awareness themes',
-  ],
-
-  conversationStarters: [
-    'What do you know about climate change and island nations?',
-    'Would you like to visit a remote Pacific island?',
-    'How do you think rising sea levels affect daily life?',
-  ],
-
-  quiz: [
-    {
-      id: 'tuvalu-q1',
-      question: 'What is the capital of Tuvalu?',
-      options: ['Funafuti', 'Tarawa', 'Apia', 'Nukuʻalofa'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tuvalu-q2',
-      question: 'Why is Tuvalu especially vulnerable to climate change?',
-      options: ['Earthquakes', 'Sea level rise', 'Volcanic eruptions', 'Glaciers'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'tuvalu-q3',
-      question: 'Which ocean is Tuvalu located in?',
-      options: ['Indian Ocean', 'Atlantic Ocean', 'Pacific Ocean', 'Southern Ocean'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'tuvalu-q4',
-      question: 'How many square kilometers is Tuvalu approximately?',
-      options: ['26 km²', '260 km²', '2,600 km²', '26,000 km²'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tuvalu-q5',
-      question: 'Which currency is used in Tuvalu?',
-      options: ['US Dollar', 'Tuvalu Dollar', 'Australian Dollar', 'New Zealand Dollar'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'tuvalu-q6',
-      question: 'What does the .tv domain represent for Tuvalu?',
-      options: [
-        'A television station',
-        'A tourism board',
-        'An important source of national income',
-        'A climate initiative',
+    mustVisit: [
+      {
+        name: {
+          en: 'Funafuti Lagoon',
+          sv: 'Funafuti Lagoon',
+          es: 'Laguna Funafuti',
+          fr: 'Lagune de Funafuti',
+          de: 'Funafuti-Lagune',
+        },
+        description: {
+          en: 'A beautiful lagoon surrounding the capital atoll, known for calm waters, marine life, and iconic atoll scenery.',
+          sv: 'En vacker lagun som omger huvudstadsatollen, känd för lugna vatten, marint liv och ikoniskt atollandskap.',
+          es: 'Una hermosa laguna que rodea el atolón capital, conocida por sus aguas tranquilas, su vida marina y sus icónicos paisajes de atolón.',
+          fr: 'Un magnifique lagon entourant l\'atoll de la capitale, connu pour ses eaux calmes, sa vie marine et ses paysages emblématiques d\'atoll.',
+          de: 'Eine wunderschöne Lagune rund um das Hauptstadtatoll, bekannt für ruhiges Wasser, Meeresleben und ikonische Atolllandschaft.',
+        },
+      },
+      {
+        name: {
+          en: 'Funafuti Conservation Area',
+          sv: 'Funafuti Conservation Area',
+          es: 'Área de Conservación Funafuti',
+          fr: 'Zone de conservation de Funafuti',
+          de: 'Funafuti-Schutzgebiet',
+        },
+        description: {
+          en: 'A protected area with rich biodiversity, including coral reefs, tropical fish, seabirds, and small islets.',
+          sv: 'Ett skyddat område med rik biologisk mångfald, inklusive korallrev, tropiska fiskar, sjöfåglar och små holmar.',
+          es: 'Un área protegida con una rica biodiversidad, que incluye arrecifes de coral, peces tropicales, aves marinas y pequeños islotes.',
+          fr: 'Une zone protégée avec une riche biodiversité, comprenant des récifs coralliens, des poissons tropicaux, des oiseaux marins et de petits îlots.',
+          de: 'Ein Schutzgebiet mit reicher Artenvielfalt, darunter Korallenriffe, tropische Fische, Seevögel und kleine Inseln.',
+        },
+      },
+      {
+        name: {
+          en: 'Local Community Events',
+          sv: 'Lokala evenemang',
+          es: 'Eventos de la comunidad local',
+          fr: 'Événements communautaires locaux',
+          de: 'Lokale Gemeinschaftsveranstaltungen',
+        },
+        description: {
+          en: 'Traditional dancing (fatele), singing, and communal feasts offer a real window into Tuvaluan culture.',
+          sv: 'Traditionell dans (öde), sång och gemensamma fester erbjuder ett riktigt fönster in i den tuvaluanska kulturen.',
+          es: 'Los bailes tradicionales (fatele), los cantos y las fiestas comunitarias ofrecen una ventana real a la cultura de Tuvalu.',
+          fr: 'La danse traditionnelle (fatele), le chant et les fêtes communautaires offrent une véritable fenêtre sur la culture tuvaluane.',
+          de: 'Traditionelle Tänze (Fatele), Gesang und Gemeinschaftsfeste bieten einen echten Einblick in die Kultur Tuvalus.',
+        },
+      },
+      {
+        name: {
+          en: 'Atoll Island Life',
+          sv: 'Atoll Island Life',
+          es: 'Vida en la isla del atolón',
+          fr: 'La vie sur l\'île des atolls',
+          de: 'Atoll-Inselleben',
+        },
+        description: {
+          en: 'Explore the narrow strips of land, coconut palms, and village life that define Tuvalu’s unique geography and rhythm.',
+          sv: 'Utforska de smala landremsorna, kokospalmerna och bylivet som definierar Tuvalus unika geografi och rytm.',
+          es: 'Explore las estrechas franjas de tierra, los cocoteros y la vida de los pueblos que definen la geografía y el ritmo únicos de Tuvalu.',
+          fr: 'Explorez les étroites bandes de terre, les cocotiers et la vie de village qui définissent la géographie et le rythme uniques de Tuvalu.',
+          de: 'Erkunden Sie die schmalen Landstreifen, Kokospalmen und das dörfliche Leben, die die einzigartige Geographie und den Rhythmus Tuvalus bestimmen.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Remote logistics',
+        description: {
+          en: 'Tuvalu is very remote with limited flights and services—plan ahead for transport, accommodation, and supplies.',
+          sv: 'Tuvalu är mycket avlägset med begränsade flygningar och tjänster – planera i förväg för transport, boende och förnödenheter.',
+          es: 'Tuvalu es un país muy remoto con vuelos y servicios limitados: planifique con anticipación el transporte, el alojamiento y los suministros.',
+          fr: 'Tuvalu est une région très isolée avec des vols et des services limités : planifiez à l\'avance le transport, l\'hébergement et les fournitures.',
+          de: 'Tuvalu ist sehr abgelegen und es gibt nur begrenzte Flüge und Dienstleistungen. Planen Sie Transport, Unterkunft und Versorgung im Voraus.',
+        },
+      },
+      {
+        item: 'Respect local culture',
+        description: {
+          en: 'Dress modestly, especially in villages; Sunday is often quiet due to church and family traditions.',
+          sv: 'Klä dig anständigt, särskilt i byar; Söndagen är ofta lugn på grund av kyrkliga och familjetraditioner.',
+          es: 'Vístase con modestia, especialmente en las aldeas; El domingo suele ser tranquilo debido a las tradiciones familiares y de la iglesia.',
+          fr: 'Habillez-vous modestement, surtout dans les villages ; Le dimanche est souvent calme en raison des traditions religieuses et familiales.',
+          de: 'Kleiden Sie sich bescheiden, besonders in Dörfern; Der Sonntag ist aufgrund kirchlicher und familiärer Traditionen oft ruhig.',
+        },
+      },
+      {
+        item: 'Cash & connectivity',
+        description: {
+          en: 'Card payments may be limited; mobile/internet can be slower—download essentials in advance.',
+          sv: 'Kortbetalningar kan vara begränsade; mobil/internet kan vara långsammare – ladda ner väsentligheter i förväg.',
+          es: 'Los pagos con tarjeta pueden estar limitados; móvil/Internet puede ser más lento: descargue lo esencial con anticipación.',
+          fr: 'Les paiements par carte peuvent être limités ; le mobile/Internet peut être plus lent : téléchargez les éléments essentiels à l\'avance.',
+          de: 'Kartenzahlungen können eingeschränkt sein; Mobilgeräte/Internet können langsamer sein – laden Sie wichtige Informationen im Voraus herunter.',
+        },
+      },
+      {
+        item: 'Heat & sun protection',
+        description: {
+          en: 'It’s hot and sunny—bring reef-safe sunscreen, hydration, and lightweight clothing.',
+          sv: 'Det är varmt och soligt – ta med dig solskyddskräm, fukt och lätta kläder.',
+          es: 'Hace calor y sol; traiga protector solar, hidratación y ropa ligera segura para los arrecifes.',
+          fr: 'Il fait chaud et ensoleillé : apportez de la crème solaire, de l’hydratation et des vêtements légers sans danger pour les récifs.',
+          de: 'Es ist heiß und sonnig – bringen Sie riffsichere Sonnencreme, Flüssigkeitszufuhr und leichte Kleidung mit.',
+        },
+      },
+      {
+        item: 'Environmental care',
+        description: {
+          en: 'Reefs and coastlines are fragile—avoid damaging coral and follow local conservation guidance.',
+          sv: 'Rev och kustlinjer är ömtåliga – undvik att skada koraller och följ lokala riktlinjer för bevarande.',
+          es: 'Los arrecifes y las costas son frágiles: evite dañar los corales y siga las pautas de conservación locales.',
+          fr: 'Les récifs et les côtes sont fragiles : évitez d\'endommager les coraux et suivez les conseils de conservation locaux.',
+          de: 'Riffe und Küsten sind empfindlich – vermeiden Sie die Beschädigung von Korallen und befolgen Sie die örtlichen Naturschutzrichtlinien.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'tuvalu-main',
+      name: {
+        en: 'Palusami',
+        sv: 'Palusami',
+        es: 'Palusami',
+        fr: 'Palusami',
+        de: 'Palusami',
+      },
+      description: {
+        en: 'Taro leaves baked with coconut cream',
+        sv: 'Taroblad bakade med kokosgrädde',
+        es: 'Hojas de taro al horno con crema de coco',
+        fr: 'Feuilles de taro cuites à la crème de coco',
+        de: 'Mit Kokoscreme gebackene Taroblätter',
+      },
+      cookingTime: 90,
+      servings: 4,
+      dietType: {
+        en: 'vegan',
+        sv: 'vegan',
+        es: 'vegano',
+        fr: 'végétalien',
+        de: 'vegan',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Taro leaves',
+            sv: 'Taro blad',
+            es: 'Hojas de taro',
+            fr: 'Feuilles de taro',
+            de: 'Taroblätter',
+          },
+          amount: 400,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Coconut cream',
+            sv: 'Kokosgrädde',
+            es: 'Crema de coco',
+            fr: 'Crème de coco',
+            de: 'Kokoscreme',
+          },
+          amount: 400,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Onions',
+            sv: 'Lök',
+            es: 'Cebollas',
+            fr: 'Oignons',
+            de: 'Zwiebeln',
+          },
+          amount: 1,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
       ],
-      correctAnswer: 2,
+      steps: [
+        {
+          en: 'Wash taro leaves thoroughly',
+          sv: 'Tvätta tarobladen noggrant',
+          es: 'Lave bien las hojas de taro',
+          fr: 'Lavez soigneusement les feuilles de taro',
+          de: 'Taroblätter gründlich waschen',
+        },
+        {
+          en: 'Mix coconut cream with finely chopped onion and salt',
+          sv: 'Blanda kokosgrädde med finhackad lök och salt',
+          es: 'Mezclar la crema de coco con la cebolla finamente picada y la sal',
+          fr: 'Mélanger la crème de coco avec l\'oignon finement haché et le sel',
+          de: 'Kokoscreme mit fein gehackten Zwiebeln und Salz vermischen',
+        },
+        {
+          en: 'Place coconut mixture in the center of taro leaves',
+          sv: 'Placera kokosblandningen i mitten av tarobladen',
+          es: 'Coloque la mezcla de coco en el centro de las hojas de taro',
+          fr: 'Placer le mélange de noix de coco au centre des feuilles de taro',
+          de: 'Geben Sie die Kokosnussmischung in die Mitte der Taroblätter',
+        },
+        {
+          en: 'Wrap leaves tightly into parcels',
+          sv: 'Slå in bladen tätt i paket',
+          es: 'Envuelva bien las hojas en paquetes',
+          fr: 'Enveloppez hermétiquement les feuilles en paquets',
+          de: 'Wickeln Sie die Blätter fest in Päckchen ein',
+        },
+        {
+          en: 'Bake in an earth oven or regular oven at low heat',
+          sv: 'Baka i jordugn eller vanlig ugn på låg värme',
+          es: 'Hornear en horno de tierra o en horno normal a fuego lento',
+          fr: 'Cuire au four en terre ou au four ordinaire à feu doux',
+          de: 'Im Erdofen oder normalen Ofen bei schwacher Hitze backen',
+        },
+        {
+          en: 'Cook for about 90 minutes until tender',
+          sv: 'Koka i cirka 90 minuter tills de är mjuka',
+          es: 'Cocine durante unos 90 minutos hasta que estén tiernos',
+          fr: 'Cuire environ 90 minutes jusqu\'à tendreté',
+          de: 'Etwa 90 Minuten kochen, bis es weich ist',
+        },
+        {
+          en: 'Serve as a side dish, often with fish',
+          sv: 'Servera som tillbehör, ofta med fisk',
+          es: 'Sirva como guarnición, a menudo con pescado',
+          fr: 'Servir en accompagnement, souvent avec du poisson',
+          de: 'Als Beilage servieren, oft mit Fisch',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'tuvalu-q7',
-      question: 'Tuvalu consists mainly of what type of landform?',
-      options: ['Mountains', 'Atolls', 'Volcanoes', 'Plateaus'],
-      correctAnswer: 1,
+    dessert: {
+      id: 'tuvalu-dessert',
+      name: {
+        en: 'Coconut Breadfruit Pudding',
+        sv: 'Coconut Breadfruit Pudding',
+        es: 'Pudín de coco y fruta del pan',
+        fr: 'Pudding aux fruits à pain et à la noix de coco',
+        de: 'Kokos-Brotfrucht-Pudding',
+      },
+      description: {
+        en: 'A simple island-style dessert made by baking breadfruit with coconut cream and a touch of sweetness until soft and custardy.',
+        sv: 'En enkel dessert i ö-stil gjord genom att baka brödfrukt med kokosgrädde och en touch av sötma tills den är mjuk och mjuk.',
+        es: 'Un postre sencillo estilo isleño que se elabora horneando fruta del pan con crema de coco y un toque de dulzura hasta que esté suave y cremoso.',
+        fr: 'Un dessert simple de style insulaire composé de fruits à pain cuits avec de la crème de noix de coco et une touche de douceur jusqu\'à ce qu\'ils soient tendres et crémeux.',
+        de: 'Ein einfaches Dessert im Inselstil, bei dem Brotfrüchte mit Kokoscreme und einem Hauch Süße gebacken werden, bis sie weich und puddingartig sind.',
+      },
+      cookingTime: 50,
+      servings: 6,
+      dietType: {
+        en: 'vegan',
+        sv: 'vegan',
+        es: 'vegano',
+        fr: 'végétalien',
+        de: 'vegan',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Breadfruit (ripe)',
+            sv: 'Brödfrukt (mogen)',
+            es: 'Fruta del pan (madura)',
+            fr: 'Fruit à pain (mûr)',
+            de: 'Brotfrucht (reif)',
+          },
+          amount: 600,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Coconut cream',
+            sv: 'Kokosgrädde',
+            es: 'Crema de coco',
+            fr: 'Crème de coco',
+            de: 'Kokoscreme',
+          },
+          amount: 400,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Sugar (or coconut sugar)',
+            sv: 'Socker (eller kokossocker)',
+            es: 'Azúcar (o azúcar de coco)',
+            fr: 'Sucre (ou sucre de coco)',
+            de: 'Zucker (oder Kokosnusszucker)',
+          },
+          amount: 80,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Vanilla (optional)',
+            sv: 'Vanilj (valfritt)',
+            es: 'Vainilla (opcional)',
+            fr: 'Vanille (facultatif)',
+            de: 'Vanille (optional)',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 0.25,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Preheat oven to 180°C and grease a baking dish',
+          sv: 'Värm ugnen till 180°C och smörj en ugnsform',
+          es: 'Precalienta el horno a 180°C y engrasa una fuente para horno',
+          fr: 'Préchauffer le four à 180°C et beurrer un plat allant au four',
+          de: 'Backofen auf 180°C vorheizen und eine Auflaufform einfetten',
+        },
+        {
+          en: 'Cut breadfruit into small chunks and place in dish',
+          sv: 'Skär brödfrukten i små bitar och lägg i formen',
+          es: 'Corte el fruto del pan en trozos pequeños y colóquelo en un plato',
+          fr: 'Coupez le fruit à pain en petits morceaux et placez-le dans un plat',
+          de: 'Brotfrucht in kleine Stücke schneiden und in eine Schüssel geben',
+        },
+        {
+          en: 'Mix coconut cream, sugar, salt, and vanilla (optional)',
+          sv: 'Blanda kokosgrädde, socker, salt och vanilj (valfritt)',
+          es: 'Mezcla la crema de coco, el azúcar, la sal y la vainilla (opcional)',
+          fr: 'Mélangez la crème de coco, le sucre, le sel et la vanille (facultatif)',
+          de: 'Kokoscreme, Zucker, Salz und Vanille (optional) vermischen',
+        },
+        {
+          en: 'Pour coconut mixture over breadfruit and stir gently',
+          sv: 'Häll kokosblandningen över brödfrukten och rör om försiktigt',
+          es: 'Vierta la mezcla de coco sobre la fruta del pan y revuelva suavemente',
+          fr: 'Versez le mélange de noix de coco sur le fruit à pain et remuez doucement',
+          de: 'Die Kokosnussmischung über die Brotfrüchte gießen und vorsichtig umrühren',
+        },
+        {
+          en: 'Bake 40–50 minutes until tender and lightly golden on top',
+          sv: 'Grädda 40–50 minuter tills de är mjuka och lätt gyllene på toppen',
+          es: 'Hornee de 40 a 50 minutos hasta que estén tiernos y ligeramente dorados por encima',
+          fr: 'Cuire au four 40 à 50 minutes jusqu\'à ce que le dessus soit tendre et légèrement doré',
+          de: '40–50 Minuten backen, bis es weich und oben leicht goldbraun ist',
+        },
+        {
+          en: 'Cool slightly and serve warm or chilled',
+          sv: 'Kyl något och servera varm eller kyld',
+          es: 'Deje enfriar un poco y sirva tibio o frío',
+          fr: 'Laisser refroidir légèrement et servir chaud ou frais',
+          de: 'Etwas abkühlen lassen und warm oder gekühlt servieren',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/5997850/pexels-photo-5997850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'tuvalu-q8',
-      question: 'Which traditional ingredient is common in Tuvaluan food?',
-      options: ['Wheat', 'Rice', 'Coconut', 'Cheese'],
-      correctAnswer: 2,
+    drinks: {
+      alcoholic: 'Toddy (palm wine)',
+      nonAlcoholic: 'Coconut water, Fresh fruit juice',
     },
-    {
-      id: 'tuvalu-q9',
-      question: 'Approximately how many people live in Tuvalu?',
-      options: ['1,200', '12,000', '120,000', '1.2 million'],
-      correctAnswer: 1,
+    music: [
+      'Traditional fatele dance music',
+      'Pacific island chants',
+      'Community drumming and singing',
+    ],
+    decorationIdeas: [
+      'Light blue and yellow flag colors',
+      'Ocean and atoll imagery',
+      'Star motifs from the flag',
+      'Climate awareness themes',
+    ],
+    conversationStarters: [
+      'What do you know about climate change and island nations?',
+      'Would you like to visit a remote Pacific island?',
+      'How do you think rising sea levels affect daily life?',
+    ],
+    quiz: [
+      {
+        id: 'tuvalu-q1',
+        question: {
+          en: 'What is the capital of Tuvalu?',
+          sv: 'Vad är huvudstaden i Tuvalu?',
+          es: '¿Cuál es la capital de Tuvalu?',
+          fr: 'Quelle est la capitale des Tuvalu ?',
+          de: 'Was ist die Hauptstadt von Tuvalu?',
+        },
+        options: [
+          {
+            en: 'Funafuti',
+            sv: 'Funafuti',
+            es: 'Funafuti',
+            fr: 'Funafuti',
+            de: 'Funafuti',
+          },
+          {
+            en: 'Tarawa',
+            sv: 'Tarawa',
+            es: 'Tarawa',
+            fr: 'Tarawa',
+            de: 'Tarawa',
+          },
+          {
+            en: 'Apia',
+            sv: 'Apia',
+            es: 'Apia',
+            fr: 'Apia',
+            de: 'Apia',
+          },
+          {
+            en: 'Nukuʻalofa',
+            sv: 'Nukuʻalofa',
+            es: 'Nuku\'alofa',
+            fr: 'Nuku\'alofa',
+            de: 'Nukuʻalofa',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tuvalu-q2',
+        question: {
+          en: 'Why is Tuvalu especially vulnerable to climate change?',
+          sv: 'Varför är Tuvalu särskilt sårbart för klimatförändringar?',
+          es: '¿Por qué Tuvalu es especialmente vulnerable al cambio climático?',
+          fr: 'Pourquoi Tuvalu est-il particulièrement vulnérable au changement climatique ?',
+          de: 'Warum ist Tuvalu besonders anfällig für den Klimawandel?',
+        },
+        options: [
+          {
+            en: 'Earthquakes',
+            sv: 'Jordbävningar',
+            es: 'Terremotos',
+            fr: 'Tremblements de terre',
+            de: 'Erdbeben',
+          },
+          {
+            en: 'Sea level rise',
+            sv: 'Havsnivåhöjning',
+            es: 'Aumento del nivel del mar',
+            fr: 'Élévation du niveau de la mer',
+            de: 'Anstieg des Meeresspiegels',
+          },
+          {
+            en: 'Volcanic eruptions',
+            sv: 'Vulkanutbrott',
+            es: 'Erupciones volcánicas',
+            fr: 'Éruptions volcaniques',
+            de: 'Vulkanausbrüche',
+          },
+          {
+            en: 'Glaciers',
+            sv: 'Glaciärer',
+            es: 'Glaciares',
+            fr: 'Glaciers',
+            de: 'Gletscher',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tuvalu-q3',
+        question: {
+          en: 'Which ocean is Tuvalu located in?',
+          sv: 'Vilket hav ligger Tuvalu i?',
+          es: '¿En qué océano se encuentra Tuvalu?',
+          fr: 'Dans quel océan se trouvent Tuvalu ?',
+          de: 'In welchem ​​Ozean liegt Tuvalu?',
+        },
+        options: [
+          {
+            en: 'Indian Ocean',
+            sv: 'Indiska oceanen',
+            es: 'Océano Índico',
+            fr: 'Océan Indien',
+            de: 'Indischer Ozean',
+          },
+          {
+            en: 'Atlantic Ocean',
+            sv: 'Atlanten',
+            es: 'Océano Atlántico',
+            fr: 'océan Atlantique',
+            de: 'Atlantischer Ozean',
+          },
+          {
+            en: 'Pacific Ocean',
+            sv: 'Stilla havet',
+            es: 'Océano Pacífico',
+            fr: 'Océan Pacifique',
+            de: 'Pazifischer Ozean',
+          },
+          {
+            en: 'Southern Ocean',
+            sv: 'Södra oceanen',
+            es: 'Océano Austral',
+            fr: 'Océan Austral',
+            de: 'Südlicher Ozean',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tuvalu-q4',
+        question: {
+          en: 'How many square kilometers is Tuvalu approximately?',
+          sv: 'Hur många kvadratkilometer är Tuvalu ungefär?',
+          es: '¿Cuántos kilómetros cuadrados tiene Tuvalu aproximadamente?',
+          fr: 'Quelle est la superficie approximative de Tuvalu en kilomètres carrés ?',
+          de: 'Wie viele Quadratkilometer hat Tuvalu ungefähr?',
+        },
+        options: [
+          {
+            en: '26 km²',
+            sv: '26 km²',
+            es: '26 km²',
+            fr: '26 km²',
+            de: '26 km²',
+          },
+          {
+            en: '260 km²',
+            sv: '260 km²',
+            es: '260 km²',
+            fr: '260 km²',
+            de: '260 km²',
+          },
+          {
+            en: '2,600 km²',
+            sv: '2 600 km²',
+            es: '2.600 km²',
+            fr: '2 600 km²',
+            de: '2.600 km²',
+          },
+          {
+            en: '26,000 km²',
+            sv: '26 000 km²',
+            es: '26.000 km²',
+            fr: '26 000 km²',
+            de: '26.000 km²',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tuvalu-q5',
+        question: {
+          en: 'Which currency is used in Tuvalu?',
+          sv: 'Vilken valuta används i Tuvalu?',
+          es: '¿Qué moneda se utiliza en Tuvalu?',
+          fr: 'Quelle monnaie est utilisée aux Tuvalu ?',
+          de: 'Welche Währung wird in Tuvalu verwendet?',
+        },
+        options: [
+          {
+            en: 'US Dollar',
+            sv: 'US-dollar',
+            es: 'Dólar estadounidense',
+            fr: 'Dollar américain',
+            de: 'US-Dollar',
+          },
+          {
+            en: 'Tuvalu Dollar',
+            sv: 'Tuvalu dollar',
+            es: 'Dólar de Tuvalu',
+            fr: 'Dollar des Tuvalu',
+            de: 'Tuvalu-Dollar',
+          },
+          {
+            en: 'Australian Dollar',
+            sv: 'Australiska dollar',
+            es: 'Dólar australiano',
+            fr: 'Dollar australien',
+            de: 'Australischer Dollar',
+          },
+          {
+            en: 'New Zealand Dollar',
+            sv: 'Nyzeeländsk dollar',
+            es: 'Dólar neozelandés',
+            fr: 'Dollar néo-zélandais',
+            de: 'Neuseeländischer Dollar',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tuvalu-q6',
+        question: {
+          en: 'What does the .tv domain represent for Tuvalu?',
+          sv: 'Vad representerar .tv-domänen för Tuvalu?',
+          es: '¿Qué representa el dominio .tv para Tuvalu?',
+          fr: 'Que représente le domaine .tv pour Tuvalu ?',
+          de: 'Was bedeutet die .tv-Domain für Tuvalu?',
+        },
+        options: [
+          {
+            en: 'A television station',
+            sv: 'En tv-station',
+            es: 'Una estación de televisión',
+            fr: 'Une chaîne de télévision',
+            de: 'Ein Fernsehsender',
+          },
+          {
+            en: 'A tourism board',
+            sv: 'En turistbyrå',
+            es: 'Una oficina de turismo',
+            fr: 'Un office du tourisme',
+            de: 'Ein Tourismusverband',
+          },
+          {
+            en: 'An important source of national income',
+            sv: 'En viktig nationalinkomstkälla',
+            es: 'Una fuente importante de ingresos nacionales',
+            fr: 'Une source importante de revenu national',
+            de: 'Eine wichtige Quelle des Nationaleinkommens',
+          },
+          {
+            en: 'A climate initiative',
+            sv: 'Ett klimatinitiativ',
+            es: 'Una iniciativa climática',
+            fr: 'Une initiative climatique',
+            de: 'Eine Klimainitiative',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tuvalu-q7',
+        question: {
+          en: 'Tuvalu consists mainly of what type of landform?',
+          sv: 'Tuvalu består huvudsakligen av vilken typ av landform?',
+          es: '¿Tuvalu se compone principalmente de qué tipo de accidente geográfico?',
+          fr: 'Tuvalu se compose principalement de quel type de relief ?',
+          de: 'Tuvalu besteht hauptsächlich aus welcher Landform?',
+        },
+        options: [
+          {
+            en: 'Mountains',
+            sv: 'Berg',
+            es: 'Montañas',
+            fr: 'Montagnes',
+            de: 'Berge',
+          },
+          {
+            en: 'Atolls',
+            sv: 'Atolls',
+            es: 'Atolones',
+            fr: 'Atolls',
+            de: 'Atolle',
+          },
+          {
+            en: 'Volcanoes',
+            sv: 'Vulkaner',
+            es: 'Volcanes',
+            fr: 'Volcans',
+            de: 'Vulkane',
+          },
+          {
+            en: 'Plateaus',
+            sv: 'Platåer',
+            es: 'Mesetas',
+            fr: 'Plateaux',
+            de: 'Hochebenen',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tuvalu-q8',
+        question: {
+          en: 'Which traditional ingredient is common in Tuvaluan food?',
+          sv: 'Vilken traditionell ingrediens är vanlig i tuvaluansk mat?',
+          es: '¿Qué ingrediente tradicional es común en la comida de Tuvalu?',
+          fr: 'Quel ingrédient traditionnel est courant dans la cuisine tuvaluane ?',
+          de: 'Welche traditionelle Zutat kommt in tuvaluischen Gerichten häufig vor?',
+        },
+        options: [
+          {
+            en: 'Wheat',
+            sv: 'Vete',
+            es: 'Trigo',
+            fr: 'Blé',
+            de: 'Weizen',
+          },
+          {
+            en: 'Rice',
+            sv: 'Ris',
+            es: 'Arroz',
+            fr: 'Riz',
+            de: 'Reis',
+          },
+          {
+            en: 'Coconut',
+            sv: 'Kokosnöt',
+            es: 'Coco',
+            fr: 'Noix de coco',
+            de: 'Kokosnuss',
+          },
+          {
+            en: 'Cheese',
+            sv: 'Ost',
+            es: 'Queso',
+            fr: 'Fromage',
+            de: 'Käse',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tuvalu-q9',
+        question: {
+          en: 'Approximately how many people live in Tuvalu?',
+          sv: 'Ungefär hur många människor bor i Tuvalu?',
+          es: '¿Cuántas personas viven aproximadamente en Tuvalu?',
+          fr: 'Environ combien de personnes vivent à Tuvalu ?',
+          de: 'Wie viele Menschen leben ungefähr in Tuvalu?',
+        },
+        options: [
+          {
+            en: '1,200',
+            sv: '1 200',
+            es: '1.200',
+            fr: '1 200',
+            de: '1.200',
+          },
+          {
+            en: '12,000',
+            sv: '12 000',
+            es: '12.000',
+            fr: '12 000',
+            de: '12.000',
+          },
+          {
+            en: '120,000',
+            sv: '120 000',
+            es: '120.000',
+            fr: '120 000',
+            de: '120.000',
+          },
+          {
+            en: '1.2 million',
+            sv: '1,2 miljoner',
+            es: '1,2 millones',
+            fr: '1,2 millions',
+            de: '1,2 Millionen',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tuvalu-q10',
+        question: {
+          en: 'Tuvalu is part of which region?',
+          sv: 'Vilken region är Tuvalu en del av?',
+          es: '¿Tuvalu es parte de qué región?',
+          fr: 'Tuvalu fait partie de quelle région ?',
+          de: 'Zu welcher Region gehört Tuvalu?',
+        },
+        options: [
+          {
+            en: 'Micronesia',
+            sv: 'Mikronesien',
+            es: 'Micronesia',
+            fr: 'Micronésie',
+            de: 'Mikronesien',
+          },
+          {
+            en: 'Melanesia',
+            sv: 'Melanesien',
+            es: 'Melanesia',
+            fr: 'Mélanésie',
+            de: 'Melanesien',
+          },
+          {
+            en: 'Polynesia',
+            sv: 'Polynesien',
+            es: 'Polinesia',
+            fr: 'Polynésie',
+            de: 'Polynesien',
+          },
+          {
+            en: 'Southeast Asia',
+            sv: 'Sydostasien',
+            es: 'Sudeste Asiático',
+            fr: 'Asie du Sud-Est',
+            de: 'Südostasien',
+          },
+        ],
+        correctAnswer: 2,
+      },
+    ],
+    coordinates: {
+      x: 92,
+      y: 16,
     },
-    {
-      id: 'tuvalu-q10',
-      question: 'Tuvalu is part of which region?',
-      options: ['Micronesia', 'Melanesia', 'Polynesia', 'Southeast Asia'],
-      correctAnswer: 2,
-    },
-  ],
-
-  coordinates: { x: 92, y: 16 },
-};
+  };

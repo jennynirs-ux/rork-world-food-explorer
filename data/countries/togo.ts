@@ -1,274 +1,1142 @@
 import { Country } from '@/types';
 
 export const togo: Country = {
-  id: 'togo',
-  name: 'Togo',
-  code: 'TG',
-  continent: 'Africa',
-  flag: '🇹🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
-  description:
-    'Togo is a narrow West African country known for palm-lined beaches, lively markets, hilltop villages, and cultural traditions where Vodun has historical roots alongside Christianity and Islam.',
-
-  quickFacts: [
-    { label: 'Capital', value: 'Lomé' },
-    { label: 'Population', value: '8.5 million' },
-    { label: 'Official Language', value: 'French' },
-    { label: 'Currency', value: 'West African CFA Franc (XOF)' },
-    { label: 'Area', value: '56,785 km²' },
-  ],
-
-  facts: [
-    'Togo has a short Atlantic coastline (around 56 km), but a long north–south landscape range',
-    'The country is home to many ethnic groups, including Ewe, Kabyé, Mina, and others',
-    'Traditional religions (including Vodun) are practiced alongside Christianity and Islam',
-    'Togo is one of the region’s notable phosphate producers',
-    'Lomé is known for its busy markets, including craft and fetish markets',
-    'The country stretches from coastal lagoons to savanna in the north',
-  ],
-
-  foodCulture:
-    'Togolese cuisine features staples like maize, cassava, yams, plantain, beans, and spicy sauces. Meals are often built around a starchy base (like fufu or pâte) served with soups or stews, plus grilled fish or meat depending on region and season.',
-
-  history: [
-    {
-      year: '1884',
-      title: 'German Protectorate',
-      description:
-        'The coastal region became part of German Togoland during the colonial era.',
+    id: 'togo',
+    name: {
+      en: 'Togo',
+      sv: 'Togo',
+      es: 'Togo',
+      fr: 'Aller',
+      de: 'Togo',
     },
-    {
-      year: '1914–1919',
-      title: 'Partition After World War I',
-      description:
-        'After Germany’s defeat, Togoland was divided between British and French administration.',
+    code: 'TG',
+    continent: {
+      en: 'Africa',
+      sv: 'Afrika',
+      es: 'África',
+      fr: 'Afrique',
+      de: 'Afrika',
     },
-    {
-      year: '1960',
-      title: 'Independence',
-      description:
-        'Togo gained independence and Lomé became the capital of the modern state.',
+    flag: '🇹🇬',
+    landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
+    description: {
+      en: 'Togo is a narrow West African country known for palm-lined beaches, lively markets, hilltop villages, and cultural traditions where Vodun has historical roots alongside Christianity and Islam.',
+      sv: 'Togo är ett smalt västafrikanskt land känt för palmkantade stränder, livliga marknader, kullebyar och kulturella traditioner där Vodun har historiska rötter tillsammans med kristendomen och islam.',
+      es: 'Togo es un estrecho país de África occidental conocido por sus playas bordeadas de palmeras, sus animados mercados, sus pueblos en las colinas y sus tradiciones culturales donde el vodun tiene raíces históricas junto con el cristianismo y el islam.',
+      fr: 'Le Togo est un pays étroit d\'Afrique de l\'Ouest connu pour ses plages bordées de palmiers, ses marchés animés, ses villages perchés et ses traditions culturelles où le vaudou a des racines historiques aux côtés du christianisme et de l\'islam.',
+      de: 'Togo ist ein schmales westafrikanisches Land, das für seine von Palmen gesäumten Strände, lebhaften Märkte, Bergdörfer und kulturellen Traditionen bekannt ist, in denen Vodun neben Christentum und Islam auch historische Wurzeln hat.',
     },
-  ],
-
-  innovations: [
-    {
-      name: 'Phosphate Industry',
-      year: '20th Century',
-      description:
-        'Phosphate mining has been a major economic activity and export sector for decades.',
-    },
-    {
-      name: 'Textiles & Wax Prints',
-      year: 'Modern era',
-      description:
-        'Colorful fabrics and tailoring traditions are central to daily life and celebrations, with vibrant patterns used across West Africa.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Lomé',
-      description:
-        'Beachfront energy, markets, craft stalls, and the everyday pulse of the capital.',
-    },
-    {
-      name: 'Kpalimé',
-      description:
-        'A green region near hills and waterfalls, known for crafts and nature getaways.',
-    },
-    {
-      name: 'Mount Agou',
-      description:
-        'The country’s highest point, offering hikes and scenic views.',
-    },
-    {
-      name: 'Togoville (Lake Togo)',
-      description:
-        'A lakeside town with cultural history and local traditions.',
-    },
-    {
-      name: 'Koutammakou (Batammariba area)',
-      description:
-        'A cultural landscape known for distinctive tower houses and heritage traditions.',
-    },
-  ],
-
-  travelEssentials: [
-    { item: 'Visa', description: 'Visa requirements vary by nationality; check before travel.' },
-    {
-      item: 'Best time to visit',
-      description:
-        'Dry season is generally easier for travel; timing varies slightly by region.',
-    },
-    {
-      item: 'Transport',
-      description:
-        'Shared taxis and buses are common; plan extra time for intercity travel.',
-    },
-    {
-      item: 'Money',
-      description:
-        'Cash is important for markets and transport; ATMs are mainly in larger towns.',
-    },
-    {
-      item: 'Languages',
-      description:
-        'French is official; local languages (e.g., Ewe, Kabyé) are widely spoken.',
-    },
-    {
-      item: 'Etiquette',
-      description:
-        'Greetings matter—take time to say hello before jumping into questions or business.',
-    },
-  ],
-
-  mainDish: {
-    id: 'togo-main',
-    name: 'Fufu with Light Soup',
-    description: 'Pounded cassava or yam served with a flavorful, spicy soup',
-    cookingTime: 90,
-    servings: 6,
-    dietType: 'meat',
-    ingredients: [
-      { name: 'Cassava or yam', amount: 1, unit: 'kg' },
-      { name: 'Goat or chicken', amount: 500, unit: 'g' },
-      { name: 'Tomatoes', amount: 4, unit: 'whole' },
-      { name: 'Onions', amount: 2, unit: 'whole' },
-      { name: 'Chili peppers', amount: 3, unit: 'whole' },
-      { name: 'Palm oil', amount: 50, unit: 'ml' },
-      { name: 'Salt', amount: 1.5, unit: 'tsp' },
-      { name: 'Black pepper', amount: 0.5, unit: 'tsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Lomé',
+          sv: 'Lomé',
+          es: 'Lomé',
+          fr: 'Lomé',
+          de: 'Lomé',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '8.5 million',
+          sv: '8,5 miljoner',
+          es: '8,5 millones',
+          fr: '8,5 millions',
+          de: '8,5 Millionen',
+        },
+      },
+      {
+        label: {
+          en: 'Official Language',
+          sv: 'Officiellt språk',
+          es: 'Idioma oficial',
+          fr: 'Langue officielle',
+          de: 'Amtssprache',
+        },
+        value: {
+          en: 'French',
+          sv: 'Franska',
+          es: 'francés',
+          fr: 'Français',
+          de: 'Französisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'West African CFA Franc (XOF)',
+          sv: 'Västafrikansk CFA-franc (XOF)',
+          es: 'Franco CFA de África Occidental (XOF)',
+          fr: 'Franc CFA ouest-africain (XOF)',
+          de: 'Westafrikanischer CFA-Franc (XOF)',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '56,785 km²',
+          sv: '56 785 km²',
+          es: '56.785 km²',
+          fr: '56 785 km²',
+          de: '56.785 km²',
+        },
+      },
     ],
-    steps: [
-      'Boil cassava or yam until very soft',
-      'Pound (or mash) until smooth and elastic; shape into balls',
-      'For the soup: simmer meat with chopped tomatoes, onions, chilies, salt, and pepper',
-      'Add palm oil and continue simmering until the meat is tender and flavors deepen',
-      'Serve fufu with the hot soup on the side',
-      'Eat by pinching off small pieces of fufu and dipping into the soup',
+    facts: [
+      {
+        en: 'Togo has a short Atlantic coastline (around 56 km), but a long north–south landscape range',
+        sv: 'Togo har en kort Atlantkustlinje (cirka 56 km), men ett långt nord–sydligt landskapsområde',
+        es: 'Togo tiene una corta costa atlántica (alrededor de 56 km), pero una larga franja paisajística de norte a sur',
+        fr: 'Le Togo a une courte côte atlantique (environ 56 km), mais une longue chaîne paysagère nord-sud',
+        de: 'Togo hat eine kurze Atlantikküste (ca. 56 km), aber eine lange Nord-Süd-Landschaftskette',
+      },
+      {
+        en: 'The country is home to many ethnic groups, including Ewe, Kabyé, Mina, and others',
+        sv: 'Landet är hem för många etniska grupper, inklusive Ewe, Kabyé, Mina och andra',
+        es: 'El país alberga muchos grupos étnicos, incluidos los ovejas, los kabyé, los minas y otros',
+        fr: 'Le pays abrite de nombreux groupes ethniques, dont les Ewe, les Kabyé, les Mina et d\'autres',
+        de: 'Das Land ist die Heimat vieler ethnischer Gruppen, darunter Ewe, Kabyé, Mina und andere',
+      },
+      {
+        en: 'Traditional religions (including Vodun) are practiced alongside Christianity and Islam',
+        sv: 'Traditionella religioner (inklusive Vodun) utövas vid sidan av kristendomen och islam',
+        es: 'Las religiones tradicionales (incluido el vudún) se practican junto con el cristianismo y el islam',
+        fr: 'Les religions traditionnelles (y compris le vaudou) sont pratiquées aux côtés du christianisme et de l\'islam',
+        de: 'Traditionelle Religionen (einschließlich Vodun) werden neben Christentum und Islam praktiziert',
+      },
+      {
+        en: 'Togo is one of the region’s notable phosphate producers',
+        sv: 'Togo är en av regionens anmärkningsvärda fosfatproducenter',
+        es: 'Togo es uno de los productores de fosfato más destacados de la región',
+        fr: 'Le Togo est l’un des principaux producteurs de phosphate de la région',
+        de: 'Togo ist einer der bedeutendsten Phosphatproduzenten der Region',
+      },
+      {
+        en: 'Lomé is known for its busy markets, including craft and fetish markets',
+        sv: 'Lomé är känt för sina livliga marknader, inklusive hantverks- och fetischmarknader',
+        es: 'Lomé es conocida por sus concurridos mercados, incluidos mercados de artesanía y fetiches',
+        fr: 'Lomé est connue pour ses marchés animés, notamment les marchés artisanaux et fétichistes',
+        de: 'Lomé ist bekannt für seine geschäftigen Märkte, darunter Kunsthandwerks- und Fetischmärkte',
+      },
+      {
+        en: 'The country stretches from coastal lagoons to savanna in the north',
+        sv: 'Landet sträcker sig från kustlaguner till savann i norr',
+        es: 'El país se extiende desde lagunas costeras hasta sabanas en el norte',
+        fr: 'Le pays s\'étend des lagunes côtières jusqu\'à la savane au nord',
+        de: 'Das Land erstreckt sich von Küstenlagunen bis zur Savanne im Norden',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/27397344/pexels-photo-27397344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'togo-dessert',
-    name: 'Coconut Peanut Candy',
-    description:
-      'A simple sweet made by cooking shredded coconut with sugar and peanuts until sticky and caramelized.',
-    cookingTime: 25,
-    servings: 12,
-    dietType: 'vegan',
-    ingredients: [
-      { name: 'Shredded coconut', amount: 200, unit: 'g' },
-      { name: 'Roasted peanuts', amount: 150, unit: 'g' },
-      { name: 'Sugar', amount: 150, unit: 'g' },
-      { name: 'Water', amount: 60, unit: 'ml' },
-      { name: 'Salt', amount: 0.25, unit: 'tsp' },
-      { name: 'Vanilla (optional)', amount: 1, unit: 'tsp' },
+    foodCulture: 'Togolese cuisine features staples like maize, cassava, yams, plantain, beans, and spicy sauces. Meals are often built around a starchy base (like fufu or pâte) served with soups or stews, plus grilled fish or meat depending on region and season.',
+    history: [
+      {
+        year: '1884',
+        title: 'German Protectorate',
+        description: {
+          en: 'The coastal region became part of German Togoland during the colonial era.',
+          sv: 'Kustregionen blev en del av tyska Togoland under kolonialtiden.',
+          es: 'La región costera pasó a formar parte del Togo alemán durante la era colonial.',
+          fr: 'La région côtière est devenue partie intégrante du Togo allemand à l’époque coloniale.',
+          de: 'Die Küstenregion wurde während der Kolonialzeit Teil des deutschen Togolandes.',
+        },
+      },
+      {
+        year: '1914–1919',
+        title: 'Partition After World War I',
+        description: {
+          en: 'After Germany’s defeat, Togoland was divided between British and French administration.',
+          sv: 'Efter Tysklands nederlag delades Togoland mellan brittisk och fransk administration.',
+          es: 'Después de la derrota de Alemania, Togolandia quedó dividida entre la administración británica y francesa.',
+          fr: 'Après la défaite de l’Allemagne, le Togo fut divisé entre les administrations britannique et française.',
+          de: 'Nach der Niederlage Deutschlands wurde Togoland zwischen britischer und französischer Verwaltung aufgeteilt.',
+        },
+      },
+      {
+        year: '1960',
+        title: 'Independence',
+        description: {
+          en: 'Togo gained independence and Lomé became the capital of the modern state.',
+          sv: 'Togo blev självständigt och Lomé blev huvudstad i den moderna staten.',
+          es: 'Togo obtuvo su independencia y Lomé se convirtió en la capital del estado moderno.',
+          fr: 'Le Togo a obtenu son indépendance et Lomé est devenue la capitale de l\'État moderne.',
+          de: 'Togo erlangte die Unabhängigkeit und Lomé wurde zur Hauptstadt des modernen Staates.',
+        },
+      },
     ],
-    steps: [
-      'Line a tray with baking paper',
-      'Add sugar and water to a pan and heat until bubbling',
-      'Stir in shredded coconut and salt',
-      'Cook, stirring, until thick and sticky (about 8–10 minutes)',
-      'Stir in peanuts and vanilla (optional)',
-      'Spoon small mounds onto the tray',
-      'Let cool completely until firm',
-      'Serve as bite-size candies',
+    innovations: [
+      {
+        name: {
+          en: 'Phosphate Industry',
+          sv: 'Fosfatindustrin',
+          es: 'Industria del fosfato',
+          fr: 'Industrie des phosphates',
+          de: 'Phosphatindustrie',
+        },
+        year: '20th Century',
+        description: {
+          en: 'Phosphate mining has been a major economic activity and export sector for decades.',
+          sv: 'Fosfatbrytning har varit en viktig ekonomisk aktivitet och exportsektor i decennier.',
+          es: 'La minería de fosfato ha sido una importante actividad económica y un sector exportador durante décadas.',
+          fr: 'L’extraction du phosphate constitue depuis des décennies une activité économique et un secteur d’exportation majeurs.',
+          de: 'Der Phosphatabbau ist seit Jahrzehnten ein wichtiger Wirtschaftszweig und Exportsektor.',
+        },
+      },
+      {
+        name: {
+          en: 'Textiles & Wax Prints',
+          sv: 'Textilier och vaxtryck',
+          es: 'Textiles y estampados de cera',
+          fr: 'Textiles & Impressions Wax',
+          de: 'Textiles & Wax Prints',
+        },
+        year: 'Modern era',
+        description: {
+          en: 'Colorful fabrics and tailoring traditions are central to daily life and celebrations, with vibrant patterns used across West Africa.',
+          sv: 'Färgglada tyger och skrädderitraditioner är centrala i det dagliga livet och festligheterna, med levande mönster som används över hela Västafrika.',
+          es: 'Las telas coloridas y las tradiciones de sastrería son fundamentales para la vida diaria y las celebraciones, y se utilizan patrones vibrantes en toda África Occidental.',
+          fr: 'Les tissus colorés et les traditions de couture sont au cœur de la vie quotidienne et des célébrations, avec des motifs vibrants utilisés dans toute l\'Afrique de l\'Ouest.',
+          de: 'Bunte Stoffe und Schneidertraditionen sind von zentraler Bedeutung für das tägliche Leben und Feiern, wobei in ganz Westafrika lebendige Muster verwendet werden.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/6208137/pexels-photo-6208137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Palm wine, Tchoukoutou (millet beer)',
-    nonAlcoholic: 'Bissap (hibiscus), Ginger juice',
-  },
-
-  music: [
-    'Traditional Agbadja dance music',
-    'Afrobeat and Afropop',
-    'Highlife influences',
-    'Local percussion-driven festival rhythms',
-  ],
-
-  decorationIdeas: [
-    'Green, yellow, and red flag colors',
-    'West African textiles and patterns',
-    'Handwoven baskets and natural fibers',
-    'Palm-leaf and coastal elements',
-    'Masks and symbolic motifs (used respectfully)',
-  ],
-
-  conversationStarters: [
-    'Have you tried fufu or any West African soups?',
-    'Do you enjoy spicy sauces—mild heat or full fire?',
-    'What do you know about West African coastal cultures?',
-    'Have you seen West African wax print fashion in real life?',
-  ],
-
-  quiz: [
-    {
-      id: 'togo-q1',
-      question: 'What is the capital of Togo?',
-      options: ['Lomé', 'Accra', 'Cotonou', 'Ouagadougou'],
-      correctAnswer: 0,
+    mustVisit: [
+      {
+        name: {
+          en: 'Lomé',
+          sv: 'Lomé',
+          es: 'Lomé',
+          fr: 'Lomé',
+          de: 'Lomé',
+        },
+        description: {
+          en: 'Beachfront energy, markets, craft stalls, and the everyday pulse of the capital.',
+          sv: 'Energi vid stranden, marknader, hantverksstånd och huvudstadens vardagspuls.',
+          es: 'Energía frente a la playa, mercados, puestos de artesanía y el pulso cotidiano de la capital.',
+          fr: 'L\'énergie du bord de mer, les marchés, les stands d\'artisanat et le rythme quotidien de la capitale.',
+          de: 'Energie am Strand, Märkte, Kunsthandwerksstände und der alltägliche Puls der Hauptstadt.',
+        },
+      },
+      {
+        name: {
+          en: 'Kpalimé',
+          sv: 'Kpalimé',
+          es: 'Kpalimé',
+          fr: 'Kpalimé',
+          de: 'Kpalimé',
+        },
+        description: {
+          en: 'A green region near hills and waterfalls, known for crafts and nature getaways.',
+          sv: 'En grön region nära kullar och vattenfall, känd för hantverk och naturutflykter.',
+          es: 'Una región verde cerca de colinas y cascadas, conocida por sus artesanías y escapadas a la naturaleza.',
+          fr: 'Une région verdoyante à proximité de collines et de cascades, connue pour son artisanat et ses escapades nature.',
+          de: 'Eine grüne Region in der Nähe von Hügeln und Wasserfällen, bekannt für Kunsthandwerk und Natururlaube.',
+        },
+      },
+      {
+        name: {
+          en: 'Mount Agou',
+          sv: 'Mount Agou',
+          es: 'Monte Agou',
+          fr: 'Mont Agou',
+          de: 'Berg Agou',
+        },
+        description: {
+          en: 'The country’s highest point, offering hikes and scenic views.',
+          sv: 'Landets högsta punkt, med vandringar och natursköna vyer.',
+          es: 'El punto más alto del país, que ofrece caminatas y vistas panorámicas.',
+          fr: 'Point culminant du pays, offrant des randonnées et des vues panoramiques.',
+          de: 'Der höchste Punkt des Landes, der Wanderungen und malerische Ausblicke bietet.',
+        },
+      },
+      {
+        name: {
+          en: 'Togoville (Lake Togo)',
+          sv: 'Togoville (Togosjön)',
+          es: 'Togoville (Lago Togo)',
+          fr: 'Togoville (Lac Togo)',
+          de: 'Togoville (Lake Togo)',
+        },
+        description: {
+          en: 'A lakeside town with cultural history and local traditions.',
+          sv: 'En stad vid sjön med kulturhistoria och lokala traditioner.',
+          es: 'Una ciudad junto al lago con historia cultural y tradiciones locales.',
+          fr: 'Une ville au bord du lac avec une histoire culturelle et des traditions locales.',
+          de: 'Eine Stadt am See mit Kulturgeschichte und lokalen Traditionen.',
+        },
+      },
+      {
+        name: {
+          en: 'Koutammakou (Batammariba area)',
+          sv: 'Koutammakou (Batammariba-området)',
+          es: 'Koutammakou (área de Batammariba)',
+          fr: 'Koutammakou (région de Batammariba)',
+          de: 'Koutammakou (Batammariba area)',
+        },
+        description: {
+          en: 'A cultural landscape known for distinctive tower houses and heritage traditions.',
+          sv: 'Ett kulturlandskap känt för särpräglade tornhus och historiska traditioner.',
+          es: 'Un paisaje cultural conocido por sus distintivas casas torre y sus tradiciones patrimoniales.',
+          fr: 'Un paysage culturel connu pour ses maisons-tours distinctives et ses traditions patrimoniales.',
+          de: 'Eine Kulturlandschaft, die für ihre markanten Turmhäuser und historischen Traditionen bekannt ist.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Visa',
+        description: {
+          en: 'Visa requirements vary by nationality; check before travel.',
+          sv: 'Visumkraven varierar beroende på nationalitet; kolla innan resan.',
+          es: 'Los requisitos de visa varían según la nacionalidad; comprobar antes de viajar.',
+          fr: 'Les exigences en matière de visa varient selon la nationalité ; vérifiez avant de voyager.',
+          de: 'Visa requirements vary by nationality; Überprüfen Sie dies vor der Reise.',
+        },
+      },
+      {
+        item: 'Best time to visit',
+        description: {
+          en: 'Dry season is generally easier for travel; timing varies slightly by region.',
+          sv: 'Torrsäsongen är i allmänhet lättare för resor; tidpunkten varierar något beroende på region.',
+          es: 'La estación seca suele ser más fácil para viajar; el tiempo varía ligeramente según la región.',
+          fr: 'La saison sèche est généralement plus facile pour voyager ; le calendrier varie légèrement selon les régions.',
+          de: 'Dry season is generally easier for travel; timing varies slightly by region.',
+        },
+      },
+      {
+        item: 'Transport',
+        description: {
+          en: 'Shared taxis and buses are common; plan extra time for intercity travel.',
+          sv: 'Delade taxibilar och bussar är vanliga; planera extra tid för intercityresor.',
+          es: 'Los taxis y autobuses compartidos son comunes; Planifique tiempo adicional para viajes interurbanos.',
+          fr: 'Les taxis et bus partagés sont courants ; prévoir du temps supplémentaire pour les déplacements interurbains.',
+          de: 'Shared taxis and buses are common; plan extra time for intercity travel.',
+        },
+      },
+      {
+        item: 'Money',
+        description: {
+          en: 'Cash is important for markets and transport; ATMs are mainly in larger towns.',
+          sv: 'Kontanter är viktiga för marknader och transporter; Bankomater finns främst i större städer.',
+          es: 'El efectivo es importante para los mercados y el transporte; Los cajeros automáticos se encuentran principalmente en las ciudades más grandes.',
+          fr: 'L’argent liquide est important pour les marchés et les transports ; Les guichets automatiques se trouvent principalement dans les grandes villes.',
+          de: 'Cash is important for markets and transport; ATMs are mainly in larger towns.',
+        },
+      },
+      {
+        item: 'Languages',
+        description: {
+          en: 'French is official; local languages (e.g., Ewe, Kabyé) are widely spoken.',
+          sv: 'Franska är officiellt; lokala språk (t.ex. Ewe, Kabyé) talas ofta.',
+          es: 'El francés es oficial; Los idiomas locales (por ejemplo, oveja, kabyé) se hablan ampliamente.',
+          fr: 'Le français est officiel ; les langues locales (par exemple l\'éwe, le kabyé) sont largement parlées.',
+          de: 'Französisch ist offiziell; Lokale Sprachen (z. B. Ewe, Kabyé) werden häufig gesprochen.',
+        },
+      },
+      {
+        item: 'Etiquette',
+        description: {
+          en: 'Greetings matter—take time to say hello before jumping into questions or business.',
+          sv: 'Hälsningar är viktiga – ta dig tid att säga hej innan du går in i frågor eller affärer.',
+          es: 'Los saludos importan: tómate el tiempo para saludar antes de lanzarte a hacer preguntas o hacer negocios.',
+          fr: 'Les salutations comptent : prenez le temps de dire bonjour avant de passer aux questions ou aux affaires.',
+          de: 'Begrüßungen sind wichtig – nehmen Sie sich die Zeit, Hallo zu sagen, bevor Sie sich auf Fragen oder Geschäfte einlassen.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'togo-main',
+      name: {
+        en: 'Fufu with Light Soup',
+        sv: 'Fufu med lätt soppa',
+        es: 'Fufu con sopa ligera',
+        fr: 'Fufu avec soupe légère',
+        de: 'Fufu mit leichter Suppe',
+      },
+      description: {
+        en: 'Pounded cassava or yam served with a flavorful, spicy soup',
+        sv: 'Dunkade kassava eller yam serveras med en smakrik, kryddig soppa',
+        es: 'Yuca o ñame machacados servidos con una sopa picante y sabrosa',
+        fr: 'Manioc ou igname pilé servi avec une soupe savoureuse et épicée',
+        de: 'Zerstampfter Maniok oder Yamswurzel, serviert mit einer würzigen, würzigen Suppe',
+      },
+      cookingTime: 90,
+      servings: 6,
+      dietType: {
+        en: 'meat',
+        sv: 'kött',
+        es: 'carne',
+        fr: 'viande',
+        de: 'Fleisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Cassava or yam',
+            sv: 'Cassava eller yam',
+            es: 'Yuca o ñame',
+            fr: 'Manioc ou igname',
+            de: 'Maniok oder Yamswurzel',
+          },
+          amount: 1,
+          unit: 'kg',
+        },
+        {
+          name: {
+            en: 'Goat or chicken',
+            sv: 'Get eller kyckling',
+            es: 'Cabra o pollo',
+            fr: 'Chèvre ou poulet',
+            de: 'Ziege oder Huhn',
+          },
+          amount: 500,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Tomatoes',
+            sv: 'Tomater',
+            es: 'Tomates',
+            fr: 'Tomates',
+            de: 'Tomaten',
+          },
+          amount: 4,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Onions',
+            sv: 'Lök',
+            es: 'Cebollas',
+            fr: 'Oignons',
+            de: 'Zwiebeln',
+          },
+          amount: 2,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Chili peppers',
+            sv: 'Chilipeppar',
+            es: 'Chiles',
+            fr: 'Piments',
+            de: 'Chilischoten',
+          },
+          amount: 3,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Palm oil',
+            sv: 'Palmolja',
+            es: 'Aceite de palma',
+            fr: 'Huile de palme',
+            de: 'Palmöl',
+          },
+          amount: 50,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 1.5,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Black pepper',
+            sv: 'Svartpeppar',
+            es: 'Pimienta negra',
+            fr: 'Poivre noir',
+            de: 'Schwarzer Pfeffer',
+          },
+          amount: 0.5,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Boil cassava or yam until very soft',
+          sv: 'Koka kassava eller yam tills det är mycket mjukt',
+          es: 'Hervir la yuca o el ñame hasta que estén muy suaves',
+          fr: 'Faire bouillir le manioc ou l\'igname jusqu\'à ce qu\'ils soient très tendres',
+          de: 'Maniok oder Yamswurzel kochen, bis sie sehr weich sind',
+        },
+        {
+          en: 'Pound (or mash) until smooth and elastic; shape into balls',
+          sv: 'Pudra (eller mosa) tills det är slätt och elastiskt; forma till bollar',
+          es: 'Golpee (o triture) hasta que quede suave y elástico; formar bolas',
+          fr: 'Piler (ou écraser) jusqu\'à consistance lisse et élastique ; façonner en boules',
+          de: 'Stampfen (oder pürieren), bis es glatt und elastisch ist; zu Kugeln formen',
+        },
+        {
+          en: 'For the soup: simmer meat with chopped tomatoes, onions, chilies, salt, and pepper',
+          sv: 'Till soppan: sjud kött med hackade tomater, lök, chili, salt och peppar',
+          es: 'Para la sopa: cocine a fuego lento la carne con tomates picados, cebolla, chiles, sal y pimienta',
+          fr: 'Pour la soupe : laisser mijoter la viande avec les tomates hachées, les oignons, les piments, le sel et le poivre',
+          de: 'Für die Suppe: Fleisch mit gehackten Tomaten, Zwiebeln, Chilis, Salz und Pfeffer köcheln lassen',
+        },
+        {
+          en: 'Add palm oil and continue simmering until the meat is tender and flavors deepen',
+          sv: 'Tillsätt palmolja och fortsätt sjuda tills köttet är mört och smakerna fördjupas',
+          es: 'Agregue aceite de palma y continúe cocinando a fuego lento hasta que la carne esté tierna y los sabores se profundicen',
+          fr: 'Ajouter l\'huile de palme et poursuivre la cuisson jusqu\'à ce que la viande soit tendre et que les saveurs s\'approfondissent',
+          de: 'Palmöl hinzufügen und weiter köcheln lassen, bis das Fleisch zart ist und sich der Geschmack intensiviert',
+        },
+        {
+          en: 'Serve fufu with the hot soup on the side',
+          sv: 'Servera fufu med den varma soppan vid sidan om',
+          es: 'Sirva el fufu con la sopa caliente al lado',
+          fr: 'Servir le fufu avec la soupe chaude à part',
+          de: 'Fufu mit der heißen Suppe als Beilage servieren',
+        },
+        {
+          en: 'Eat by pinching off small pieces of fufu and dipping into the soup',
+          sv: 'Ät genom att nypa bort små bitar av fufu och doppa i soppan',
+          es: 'Coma pellizcando pequeños trozos de fufu y sumergiéndolos en la sopa',
+          fr: 'Mangez en pinçant des petits morceaux de fufu et en les plongeant dans la soupe',
+          de: 'Essen Sie, indem Sie kleine Fufu-Stücke abschneiden und in die Suppe tauchen',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/27397344/pexels-photo-27397344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'togo-q2',
-      question: 'Which continent is Togo located in?',
-      options: ['Asia', 'South America', 'Africa', 'Europe'],
-      correctAnswer: 2,
+    dessert: {
+      id: 'togo-dessert',
+      name: {
+        en: 'Coconut Peanut Candy',
+        sv: 'Kokosjordnötsgodis',
+        es: 'Caramelo De Coco Y Maní',
+        fr: 'Bonbons à la noix de coco et aux arachides',
+        de: 'Kokos-Erdnuss-Bonbons',
+      },
+      description: {
+        en: 'A simple sweet made by cooking shredded coconut with sugar and peanuts until sticky and caramelized.',
+        sv: 'En enkel sötsak gjord genom att koka riven kokos med socker och jordnötter tills den blir klibbig och karamelliserad.',
+        es: 'Un dulce sencillo que se elabora cocinando coco rallado con azúcar y maní hasta que quede pegajoso y caramelizado.',
+        fr: 'Un bonbon simple préparé en cuisant de la noix de coco râpée avec du sucre et des cacahuètes jusqu\'à ce qu\'elle soit collante et caramélisée.',
+        de: 'Eine einfache Süßigkeit, die durch Kochen von Kokosraspeln mit Zucker und Erdnüssen hergestellt wird, bis sie klebrig und karamellisiert sind.',
+      },
+      cookingTime: 25,
+      servings: 12,
+      dietType: {
+        en: 'vegan',
+        sv: 'vegan',
+        es: 'vegano',
+        fr: 'végétalien',
+        de: 'vegan',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Shredded coconut',
+            sv: 'Strimlad kokosnöt',
+            es: 'Coco rallado',
+            fr: 'Noix de coco râpée',
+            de: 'Kokosraspeln',
+          },
+          amount: 200,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Roasted peanuts',
+            sv: 'Rostade jordnötter',
+            es: 'Maní tostado',
+            fr: 'Cacahuètes grillées',
+            de: 'Geröstete Erdnüsse',
+          },
+          amount: 150,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Sugar',
+            sv: 'Socker',
+            es: 'Azúcar',
+            fr: 'Sucre',
+            de: 'Zucker',
+          },
+          amount: 150,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Water',
+            sv: 'Vatten',
+            es: 'Agua',
+            fr: 'Eau',
+            de: 'Wasser',
+          },
+          amount: 60,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 0.25,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Vanilla (optional)',
+            sv: 'Vanilj (valfritt)',
+            es: 'Vainilla (opcional)',
+            fr: 'Vanille (facultatif)',
+            de: 'Vanille (optional)',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Line a tray with baking paper',
+          sv: 'Klä en plåt med bakplåtspapper',
+          es: 'Forrar una bandeja con papel de horno',
+          fr: 'Tapisser une plaque de papier sulfurisé',
+          de: 'Ein Blech mit Backpapier auslegen',
+        },
+        {
+          en: 'Add sugar and water to a pan and heat until bubbling',
+          sv: 'Tillsätt socker och vatten i en kastrull och värm tills det bubblar',
+          es: 'Agrega el azúcar y el agua a una sartén y calienta hasta que burbujee',
+          fr: 'Ajouter le sucre et l\'eau dans une casserole et faire chauffer jusqu\'à bouillonnement',
+          de: 'Zucker und Wasser in eine Pfanne geben und erhitzen, bis Blasen entstehen',
+        },
+        {
+          en: 'Stir in shredded coconut and salt',
+          sv: 'Rör ner riven kokos och salt',
+          es: 'Agregue el coco rallado y la sal',
+          fr: 'Incorporer la noix de coco râpée et le sel',
+          de: 'Kokosraspeln und Salz unterrühren',
+        },
+        {
+          en: 'Cook, stirring, until thick and sticky (about 8–10 minutes)',
+          sv: 'Koka under omrörning tills den är tjock och klibbig (cirka 8–10 minuter)',
+          es: 'Cocine, revolviendo, hasta que esté espeso y pegajoso (aproximadamente de 8 a 10 minutos)',
+          fr: 'Cuire en remuant jusqu\'à ce qu\'il soit épais et collant (environ 8 à 10 minutes)',
+          de: 'Unter Rühren kochen, bis es dick und klebrig ist (ca. 8–10 Minuten)',
+        },
+        {
+          en: 'Stir in peanuts and vanilla (optional)',
+          sv: 'Rör ner jordnötter och vanilj (valfritt)',
+          es: 'Agregue el maní y la vainilla (opcional)',
+          fr: 'Incorporer les cacahuètes et la vanille (facultatif)',
+          de: 'Erdnüsse und Vanille (optional) unterrühren',
+        },
+        {
+          en: 'Spoon small mounds onto the tray',
+          sv: 'Sked små högar på brickan',
+          es: 'Coloque pequeños montículos en la bandeja',
+          fr: 'Déposer de petits monticules sur le plateau',
+          de: 'Kleine Häufchen auf das Blech geben',
+        },
+        {
+          en: 'Let cool completely until firm',
+          sv: 'Låt svalna helt tills den stelnar',
+          es: 'Deje enfriar completamente hasta que esté firme',
+          fr: 'Laisser refroidir complètement jusqu\'à consistance ferme',
+          de: 'Vollständig abkühlen lassen, bis es fest ist',
+        },
+        {
+          en: 'Serve as bite-size candies',
+          sv: 'Servera som godis i lagom storlek',
+          es: 'Sirva como caramelos del tamaño de un bocado',
+          fr: 'Servir sous forme de bouchées de bonbons',
+          de: 'Als mundgerechte Bonbons servieren',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/6208137/pexels-photo-6208137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'togo-q3',
-      question: 'What is the official language of Togo?',
-      options: ['English', 'Portuguese', 'French', 'Arabic'],
-      correctAnswer: 2,
+    drinks: {
+      alcoholic: 'Palm wine, Tchoukoutou (millet beer)',
+      nonAlcoholic: 'Bissap (hibiscus), Ginger juice',
     },
-    {
-      id: 'togo-q4',
-      question: 'Which traditional religion has historical roots in Togo and the region?',
-      options: ['Islam', 'Christianity', 'Vodun', 'Hinduism'],
-      correctAnswer: 2,
+    music: [
+      'Traditional Agbadja dance music',
+      'Afrobeat and Afropop',
+      'Highlife influences',
+      'Local percussion-driven festival rhythms',
+    ],
+    decorationIdeas: [
+      'Green, yellow, and red flag colors',
+      'West African textiles and patterns',
+      'Handwoven baskets and natural fibers',
+      'Palm-leaf and coastal elements',
+      'Masks and symbolic motifs (used respectfully)',
+    ],
+    conversationStarters: [
+      'Have you tried fufu or any West African soups?',
+      'Do you enjoy spicy sauces—mild heat or full fire?',
+      'What do you know about West African coastal cultures?',
+      'Have you seen West African wax print fashion in real life?',
+    ],
+    quiz: [
+      {
+        id: 'togo-q1',
+        question: {
+          en: 'What is the capital of Togo?',
+          sv: 'Vad är huvudstaden i Togo?',
+          es: '¿Cuál es la capital de Togo?',
+          fr: 'Quelle est la capitale du Togo ?',
+          de: 'Was ist die Hauptstadt von Togo?',
+        },
+        options: [
+          {
+            en: 'Lomé',
+            sv: 'Lomé',
+            es: 'Lomé',
+            fr: 'Lomé',
+            de: 'Lomé',
+          },
+          {
+            en: 'Accra',
+            sv: 'Accra',
+            es: 'Acra',
+            fr: 'Accra',
+            de: 'Accra',
+          },
+          {
+            en: 'Cotonou',
+            sv: 'Cotonou',
+            es: 'Cotonú',
+            fr: 'Cotonou',
+            de: 'Cotonou',
+          },
+          {
+            en: 'Ouagadougou',
+            sv: 'Ouagadougou',
+            es: 'Uagadugú',
+            fr: 'Ouagadougou',
+            de: 'Ouagadougou',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'togo-q2',
+        question: {
+          en: 'Which continent is Togo located in?',
+          sv: 'Vilken kontinent ligger Togo på?',
+          es: '¿En qué continente se encuentra Togo?',
+          fr: 'Dans quel continent se trouve le Togo ?',
+          de: 'Auf welchem ​​Kontinent liegt Togo?',
+        },
+        options: [
+          {
+            en: 'Asia',
+            sv: 'Asien',
+            es: 'Asia',
+            fr: 'Asie',
+            de: 'Asien',
+          },
+          {
+            en: 'South America',
+            sv: 'Sydamerika',
+            es: 'América del Sur',
+            fr: 'Amérique du Sud',
+            de: 'Südamerika',
+          },
+          {
+            en: 'Africa',
+            sv: 'Afrika',
+            es: 'África',
+            fr: 'Afrique',
+            de: 'Afrika',
+          },
+          {
+            en: 'Europe',
+            sv: 'Europa',
+            es: 'Europa',
+            fr: 'Europe',
+            de: 'Europa',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'togo-q3',
+        question: {
+          en: 'What is the official language of Togo?',
+          sv: 'Vilket är det officiella språket i Togo?',
+          es: '¿Cuál es el idioma oficial de Togo?',
+          fr: 'Quelle est la langue officielle du Togo ?',
+          de: 'Was ist die offizielle Sprache von Togo?',
+        },
+        options: [
+          {
+            en: 'English',
+            sv: 'engelska',
+            es: 'Inglés',
+            fr: 'Anglais',
+            de: 'Englisch',
+          },
+          {
+            en: 'Portuguese',
+            sv: 'portugisiska',
+            es: 'portugués',
+            fr: 'Portugais',
+            de: 'Portugiesisch',
+          },
+          {
+            en: 'French',
+            sv: 'Franska',
+            es: 'francés',
+            fr: 'Français',
+            de: 'Französisch',
+          },
+          {
+            en: 'Arabic',
+            sv: 'Arabiska',
+            es: 'Árabe',
+            fr: 'Arabe',
+            de: 'Arabisch',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'togo-q4',
+        question: {
+          en: 'Which traditional religion has historical roots in Togo and the region?',
+          sv: 'Vilken traditionell religion har historiska rötter i Togo och regionen?',
+          es: '¿Qué religión tradicional tiene raíces históricas en Togo y la región?',
+          fr: 'Quelle religion traditionnelle a des racines historiques au Togo et dans la région ?',
+          de: 'Welche traditionelle Religion hat historische Wurzeln in Togo und der Region?',
+        },
+        options: [
+          {
+            en: 'Islam',
+            sv: 'Islam',
+            es: 'Islam',
+            fr: 'Islam',
+            de: 'Islam',
+          },
+          {
+            en: 'Christianity',
+            sv: 'Kristendomen',
+            es: 'Cristianismo',
+            fr: 'Christianisme',
+            de: 'Christentum',
+          },
+          {
+            en: 'Vodun',
+            sv: 'Vodun',
+            es: 'Vodún',
+            fr: 'Vaudou',
+            de: 'Vodun',
+          },
+          {
+            en: 'Hinduism',
+            sv: 'Hinduism',
+            es: 'Hinduismo',
+            fr: 'Hindouisme',
+            de: 'Hinduismus',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'togo-q5',
+        question: {
+          en: 'Which ocean borders Togo?',
+          sv: 'Vilket hav gränsar till Togo?',
+          es: '¿Qué océano limita con Togo?',
+          fr: 'Quel océan borde le Togo ?',
+          de: 'Welcher Ozean grenzt an Togo?',
+        },
+        options: [
+          {
+            en: 'Indian Ocean',
+            sv: 'Indiska oceanen',
+            es: 'Océano Índico',
+            fr: 'Océan Indien',
+            de: 'Indischer Ozean',
+          },
+          {
+            en: 'Atlantic Ocean',
+            sv: 'Atlanten',
+            es: 'Océano Atlántico',
+            fr: 'Océan Atlantique',
+            de: 'Atlantischer Ozean',
+          },
+          {
+            en: 'Pacific Ocean',
+            sv: 'Stilla havet',
+            es: 'Océano Pacífico',
+            fr: 'Océan Pacifique',
+            de: 'Pazifischer Ozean',
+          },
+          {
+            en: 'Mediterranean Sea',
+            sv: 'Medelhavet',
+            es: 'Mar Mediterráneo',
+            fr: 'Mer Méditerranée',
+            de: 'Mittelmeer',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'togo-q6',
+        question: {
+          en: 'Togo is especially known for producing which mineral?',
+          sv: 'Togo är särskilt känt för att producera vilket mineral?',
+          es: '¿Togo es especialmente conocido por producir qué mineral?',
+          fr: 'Le Togo est particulièrement connu pour produire quel minéral ?',
+          de: 'Togo ist besonders für die Produktion welchen Minerals bekannt?',
+        },
+        options: [
+          {
+            en: 'Gold',
+            sv: 'Guld',
+            es: 'Oro',
+            fr: 'Or',
+            de: 'Gold',
+          },
+          {
+            en: 'Diamonds',
+            sv: 'Ruter',
+            es: 'diamantes',
+            fr: 'Diamants',
+            de: 'Diamanten',
+          },
+          {
+            en: 'Phosphate',
+            sv: 'Fosfat',
+            es: 'Fosfato',
+            fr: 'Phosphates',
+            de: 'Phosphat',
+          },
+          {
+            en: 'Copper',
+            sv: 'Koppar',
+            es: 'Cobre',
+            fr: 'Cuivre',
+            de: 'Kupfer',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'togo-q7',
+        question: {
+          en: 'What is fufu primarily made from?',
+          sv: 'Vad är fufu främst gjord av?',
+          es: '¿De qué está hecho principalmente el fufu?',
+          fr: 'De quoi est principalement fabriqué le fufu ?',
+          de: 'Woraus besteht Fufu hauptsächlich?',
+        },
+        options: [
+          {
+            en: 'Rice',
+            sv: 'Ris',
+            es: 'Arroz',
+            fr: 'Riz',
+            de: 'Reis',
+          },
+          {
+            en: 'Corn',
+            sv: 'Majs',
+            es: 'Maíz',
+            fr: 'Maïs',
+            de: 'Mais',
+          },
+          {
+            en: 'Cassava or yam',
+            sv: 'Cassava eller yam',
+            es: 'Yuca o ñame',
+            fr: 'Manioc ou igname',
+            de: 'Maniok oder Yamswurzel',
+          },
+          {
+            en: 'Wheat',
+            sv: 'Vete',
+            es: 'Trigo',
+            fr: 'Blé',
+            de: 'Weizen',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'togo-q8',
+        question: {
+          en: 'Which African region does Togo belong to?',
+          sv: 'Vilken afrikansk region tillhör Togo?',
+          es: '¿A qué región africana pertenece Togo?',
+          fr: 'À quelle région africaine appartient le Togo ?',
+          de: 'Zu welcher afrikanischen Region gehört Togo?',
+        },
+        options: [
+          {
+            en: 'North Africa',
+            sv: 'Nordafrika',
+            es: 'Norte de África',
+            fr: 'Afrique du Nord',
+            de: 'Nordafrika',
+          },
+          {
+            en: 'East Africa',
+            sv: 'Östafrika',
+            es: 'África Oriental',
+            fr: 'Afrique de l\'Est',
+            de: 'Ostafrika',
+          },
+          {
+            en: 'West Africa',
+            sv: 'Västafrika',
+            es: 'África occidental',
+            fr: 'Afrique de l\'Ouest',
+            de: 'Westafrika',
+          },
+          {
+            en: 'Southern Africa',
+            sv: 'Södra Afrika',
+            es: 'África Austral',
+            fr: 'Afrique australe',
+            de: 'Südliches Afrika',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'togo-q9',
+        question: {
+          en: 'How long is Togo’s coastline approximately?',
+          sv: 'Hur lång är Togos kustlinje ungefär?',
+          es: '¿Cuánto mide aproximadamente la costa de Togo?',
+          fr: 'Quelle est la longueur approximative du littoral togolais ?',
+          de: 'Wie lang ist Togos Küste ungefähr?',
+        },
+        options: [
+          {
+            en: '15 km',
+            sv: '15 km',
+            es: '15 kilómetros',
+            fr: '15km',
+            de: '15 km',
+          },
+          {
+            en: '56 km',
+            sv: '56 km',
+            es: '56 kilometros',
+            fr: '56 km',
+            de: '56 km',
+          },
+          {
+            en: '120 km',
+            sv: '120 km',
+            es: '120 kilómetros',
+            fr: '120km',
+            de: '120 km',
+          },
+          {
+            en: '300 km',
+            sv: '300 km',
+            es: '300 kilómetros',
+            fr: '300km',
+            de: '300 km',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'togo-q10',
+        question: {
+          en: 'Which traditional drink is commonly consumed in Togo?',
+          sv: 'Vilken traditionell dryck konsumeras vanligtvis i Togo?',
+          es: '¿Qué bebida tradicional se consume habitualmente en Togo?',
+          fr: 'Quelle boisson traditionnelle est couramment consommée au Togo ?',
+          de: 'Welches traditionelle Getränk wird in Togo häufig konsumiert?',
+        },
+        options: [
+          {
+            en: 'Palm wine',
+            sv: 'Palmvin',
+            es: 'Vino de palma',
+            fr: 'Vin de palme',
+            de: 'Palmwein',
+          },
+          {
+            en: 'Sake',
+            sv: 'Sake',
+            es: 'Bien',
+            fr: 'Saké',
+            de: 'Sake',
+          },
+          {
+            en: 'Mate',
+            sv: 'Para',
+            es: 'Compañero',
+            fr: 'Copain',
+            de: 'Kumpel',
+          },
+          {
+            en: 'Kvass',
+            sv: 'Kvass',
+            es: 'kvas',
+            fr: 'Kvas',
+            de: 'Kwas',
+          },
+        ],
+        correctAnswer: 0,
+      },
+    ],
+    coordinates: {
+      x: 47,
+      y: 18,
     },
-    {
-      id: 'togo-q5',
-      question: 'Which ocean borders Togo?',
-      options: ['Indian Ocean', 'Atlantic Ocean', 'Pacific Ocean', 'Mediterranean Sea'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'togo-q6',
-      question: 'Togo is especially known for producing which mineral?',
-      options: ['Gold', 'Diamonds', 'Phosphate', 'Copper'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'togo-q7',
-      question: 'What is fufu primarily made from?',
-      options: ['Rice', 'Corn', 'Cassava or yam', 'Wheat'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'togo-q8',
-      question: 'Which African region does Togo belong to?',
-      options: ['North Africa', 'East Africa', 'West Africa', 'Southern Africa'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'togo-q9',
-      question: 'How long is Togo’s coastline approximately?',
-      options: ['15 km', '56 km', '120 km', '300 km'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'togo-q10',
-      question: 'Which traditional drink is commonly consumed in Togo?',
-      options: ['Palm wine', 'Sake', 'Mate', 'Kvass'],
-      correctAnswer: 0,
-    },
-  ],
-
-  coordinates: { x: 47, y: 18 },
-};
+  };

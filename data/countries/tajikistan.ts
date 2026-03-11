@@ -1,302 +1,1226 @@
 import { Country } from '@/types';
 
 export const tajikistan: Country = {
-  id: 'tajikistan',
-  name: 'Tajikistan',
-  code: 'TJ',
-  continent: 'Asia',
-  flag: '🇹🇯',
-  landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
-  description:
-    'Tajikistan is a mountainous Central Asian country, often called the "Roof of the World", known for the Pamir Mountains, dramatic landscapes, and rich Silk Road heritage.',
-  quickFacts: [
-    { label: 'Capital', value: 'Dushanbe' },
-    { label: 'Population', value: '9.8 million' },
-    { label: 'Official Language', value: 'Tajik' },
-    { label: 'Currency', value: 'Tajikistani Somoni' },
-    { label: 'Area', value: '143,100 km²' },
-  ],
-
-  facts: [
-    'Over 90% of Tajikistan is mountainous',
-    'The Pamir Mountains are among the highest in the world',
-    'Tajik is a variety of Persian (Farsi)',
-    'The country has more than 1,000 rivers and lakes',
-    'The Pamir Highway is one of the highest international roads on Earth',
-    'Tajikistan has a strong tradition of hospitality and communal meals',
-    'Many villages in the Pamirs preserve distinct languages and cultural practices',
-    'Handwoven textiles and embroidery are important folk arts in many regions',
-  ],
-
-  foodCulture:
-    'Tajik cuisine is hearty and communal, centered around rice, meat, bread, and dairy. Meals are often shared from large platters and reflect strong Persian and Central Asian influences, with staples like non (bread), soups, kebabs, and pilaf (osh).',
-
-  history: [
-    {
-      year: '6th–4th Century BC',
-      title: 'Achaemenid & Iranian Influence',
-      description:
-        'The region was influenced by ancient Iranian empires and Persianate culture, shaping language and identity.',
+    id: 'tajikistan',
+    name: {
+      en: 'Tajikistan',
+      sv: 'Tadzjikistan',
+      es: 'Tayikistán',
+      fr: 'Tadjikistan',
+      de: 'Tadschikistan',
     },
-    {
-      year: '329 BC',
-      title: 'Hellenistic Period',
-      description:
-        'After Alexander the Great’s campaigns, Hellenistic states and trade networks influenced parts of Central Asia.',
+    code: 'TJ',
+    continent: {
+      en: 'Asia',
+      sv: 'Asien',
+      es: 'Asia',
+      fr: 'Asie',
+      de: 'Asien',
     },
-    {
-      year: '8th–10th Century',
-      title: 'Silk Road & Cultural Flourishing',
-      description:
-        'Trade along Silk Road routes supported cities and scholarship, strengthening Persian-influenced culture in the region.',
+    flag: '🇹🇯',
+    landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
+    description: {
+      en: 'Tajikistan is a mountainous Central Asian country, often called the "Roof of the World", known for the Pamir Mountains, dramatic landscapes, and rich Silk Road heritage.',
+      sv: 'Tadzjikistan är ett bergigt centralasiatiskt land, ofta kallat "Världens tak", känt för Pamirbergen, dramatiska landskap och rikt sidenvägsarv.',
+      es: 'Tayikistán es un país montañoso de Asia Central, a menudo llamado el "techo del mundo", conocido por las montañas del Pamir, sus espectaculares paisajes y el rico patrimonio de la Ruta de la Seda.',
+      fr: 'Le Tadjikistan est un pays montagneux d\'Asie centrale, souvent appelé le « Toit du monde », connu pour les montagnes du Pamir, ses paysages spectaculaires et le riche patrimoine de la Route de la Soie.',
+      de: 'Tadschikistan ist ein gebirgiges zentralasiatisches Land, das oft als „Dach der Welt“ bezeichnet wird und für das Pamir-Gebirge, seine dramatischen Landschaften und sein reiches Erbe an der Seidenstraße bekannt ist.',
     },
-    {
-      year: '1929',
-      title: 'Tajik SSR',
-      description:
-        'Tajikistan became a Soviet republic, bringing major social, economic, and infrastructure changes.',
-    },
-    {
-      year: '1991',
-      title: 'Independence',
-      description:
-        'Tajikistan became independent following the dissolution of the Soviet Union.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: 'Persianate Poetry & Literature',
-      year: '10th–15th Century',
-      description:
-        'Tajik (Persian) literary traditions form a major part of the region’s cultural identity, with poetry central to education and celebrations.',
-    },
-    {
-      name: 'Mountain Irrigation & Terracing',
-      year: 'Centuries',
-      description:
-        'Communities developed practical agricultural techniques for steep terrain, including channels and terraced fields in valleys.',
-    },
-    {
-      name: 'Traditional Textile Arts',
-      year: 'Centuries',
-      description:
-        'Embroidery, suzani-style patterns, and regional weaving traditions remain important cultural crafts and local economies.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Pamir Highway (M41)',
-      description:
-        'Legendary high-altitude route through dramatic mountain landscapes and remote villages.',
-    },
-    {
-      name: 'Iskanderkul Lake',
-      description:
-        'A striking alpine lake in the Fann Mountains, linked to legends of Alexander (Iskander).',
-    },
-    {
-      name: 'Fann Mountains',
-      description:
-        'Popular for hiking with turquoise lakes, jagged peaks, and scenic valleys.',
-    },
-    {
-      name: 'Dushanbe',
-      description:
-        'The capital city with parks, museums, bazaars, and a gateway to the mountains.',
-    },
-    {
-      name: 'Wakhan Valley (near the Afghan border)',
-      description:
-        'A culturally rich high valley known for sweeping views, fort ruins, and unique Pamiri heritage (access depends on permits/routes).',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Best time to visit',
-      description:
-        'Late spring to early autumn (May–October) for most regions; Pamirs are best in summer.',
-    },
-    {
-      item: 'Permits & borders',
-      description:
-        'Some areas (especially in GBAO/Pamirs) may require additional permits—check requirements in advance.',
-    },
-    {
-      item: 'Transport',
-      description:
-        'Shared taxis and 4x4s are common for mountain routes; roads can be slow and weather-dependent.',
-    },
-    {
-      item: 'Altitude',
-      description:
-        'Take time to acclimatize in high regions like the Pamirs; hydrate and plan easy days early on.',
-    },
-    {
-      item: 'Cash',
-      description:
-        'Carry somoni in rural areas; card acceptance can be limited outside major cities.',
-    },
-  ],
-
-  mainDish: {
-    id: 'tajikistan-main',
-    name: 'Osh (Plov)',
-    description: 'Traditional pilaf made with rice, meat, carrots, and spices',
-    cookingTime: 120,
-    servings: 8,
-    dietType: 'meat',
-    ingredients: [
-      { name: 'Lamb or beef', amount: 800, unit: 'g' },
-      { name: 'Rice', amount: 600, unit: 'g' },
-      { name: 'Carrots', amount: 4, unit: 'whole' },
-      { name: 'Onions', amount: 2, unit: 'whole' },
-      { name: 'Garlic head', amount: 1, unit: 'whole' },
-      { name: 'Cumin', amount: 1, unit: 'tbsp' },
-      { name: 'Vegetable oil', amount: 150, unit: 'ml' },
-      { name: 'Salt', amount: 1.5, unit: 'tsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Dushanbe',
+          sv: 'Dushanbe',
+          es: 'Dusambé',
+          fr: 'Douchanbé',
+          de: 'Duschanbe',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '9.8 million',
+          sv: '9,8 miljoner',
+          es: '9,8 millones',
+          fr: '9,8 millions',
+          de: '9,8 Millionen',
+        },
+      },
+      {
+        label: {
+          en: 'Official Language',
+          sv: 'Officiellt språk',
+          es: 'Idioma oficial',
+          fr: 'Langue officielle',
+          de: 'Amtssprache',
+        },
+        value: {
+          en: 'Tajik',
+          sv: 'tadzjikiska',
+          es: 'tayiko',
+          fr: 'Tadjik',
+          de: 'Tadschikisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Tajikistani Somoni',
+          sv: 'Tadzjikistanska Somoni',
+          es: 'Somoni tayiko',
+          fr: 'Somoni tadjik',
+          de: 'Tadschikistanische Somoni',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '143,100 km²',
+          sv: '143 100 km²',
+          es: '143.100 km²',
+          fr: '143 100 km²',
+          de: '143.100 km²',
+        },
+      },
     ],
-    steps: [
-      'Heat oil in a large heavy pot',
-      'Brown meat pieces until well colored',
-      'Add sliced onions and cook until golden',
-      'Add julienned carrots and sauté gently',
-      'Season with cumin and salt',
-      'Add enough water to cover ingredients and simmer',
-      'Rinse rice thoroughly and layer it on top without stirring',
-      'Place whole garlic head into the rice',
-      'Cover and steam until rice is tender and liquid absorbed',
-      'Gently mix before serving and serve family-style',
+    facts: [
+      {
+        en: 'Over 90% of Tajikistan is mountainous',
+        sv: 'Över 90 % av Tadzjikistan är bergigt',
+        es: 'Más del 90% de Tayikistán es montañoso',
+        fr: 'Plus de 90 % du Tadjikistan est montagneux',
+        de: 'Über 90 % Tadschikistans sind gebirgig',
+      },
+      {
+        en: 'The Pamir Mountains are among the highest in the world',
+        sv: 'Pamirbergen är bland de högsta i världen',
+        es: 'Las montañas del Pamir se encuentran entre las más altas del mundo',
+        fr: 'Les montagnes du Pamir sont parmi les plus hautes du monde',
+        de: 'Das Pamir-Gebirge gehört zu den höchsten der Welt',
+      },
+      {
+        en: 'Tajik is a variety of Persian (Farsi)',
+        sv: 'Tadzjikiska är en variation av persiska (farsi)',
+        es: 'El tayiko es una variedad del persa (farsi)',
+        fr: 'Le tadjik est une variété de persan (farsi)',
+        de: 'Tadschikisch ist eine Variante des Persischen (Farsi)',
+      },
+      {
+        en: 'The country has more than 1,000 rivers and lakes',
+        sv: 'Landet har mer än 1 000 floder och sjöar',
+        es: 'El país tiene más de 1.000 ríos y lagos',
+        fr: 'Le pays compte plus de 1 000 rivières et lacs',
+        de: 'Das Land hat mehr als 1.000 Flüsse und Seen',
+      },
+      {
+        en: 'The Pamir Highway is one of the highest international roads on Earth',
+        sv: 'Pamir Highway är en av de högsta internationella vägarna på jorden',
+        es: 'La autopista Pamir es una de las carreteras internacionales más altas del mundo',
+        fr: 'L\'autoroute du Pamir est l\'une des routes internationales les plus hautes du monde',
+        de: 'Der Pamir Highway ist eine der höchsten internationalen Straßen der Erde',
+      },
+      {
+        en: 'Tajikistan has a strong tradition of hospitality and communal meals',
+        sv: 'Tadzjikistan har en stark tradition av gästfrihet och gemensamma måltider',
+        es: 'Tayikistán tiene una fuerte tradición de hospitalidad y comidas comunitarias',
+        fr: 'Le Tadjikistan a une forte tradition d\'hospitalité et de repas en commun',
+        de: 'Tadschikistan hat eine starke Tradition der Gastfreundschaft und der gemeinsamen Mahlzeiten',
+      },
+      {
+        en: 'Many villages in the Pamirs preserve distinct languages and cultural practices',
+        sv: 'Många byar i Pamirs bevarar distinkta språk och kulturella sedvänjor',
+        es: 'Muchas aldeas del Pamir conservan lenguas y prácticas culturales distintas.',
+        fr: 'De nombreux villages du Pamir préservent des langues et des pratiques culturelles distinctes',
+        de: 'Viele Dörfer im Pamir bewahren unterschiedliche Sprachen und kulturelle Praktiken',
+      },
+      {
+        en: 'Handwoven textiles and embroidery are important folk arts in many regions',
+        sv: 'Handvävda textilier och broderier är viktiga folkkonst i många regioner',
+        es: 'Los textiles tejidos a mano y los bordados son artes populares importantes en muchas regiones',
+        fr: 'Les textiles tissés à la main et la broderie sont des arts populaires importants dans de nombreuses régions',
+        de: 'Handgewebte Textilien und Stickereien sind in vielen Regionen wichtige Volkskunst',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/9553317/pexels-photo-9553317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'tajikistan-dessert',
-    name: 'Halva',
-    description:
-      'A traditional Tajik sweet made from flour, oil, sugar, and nuts, often prepared for celebrations and guests.',
-    cookingTime: 30,
-    servings: 6,
-    dietType: 'vegetarian',
-    ingredients: [
-      { name: 'All-purpose flour', amount: 200, unit: 'g' },
-      { name: 'Vegetable oil or butter', amount: 120, unit: 'ml' },
-      { name: 'Sugar', amount: 150, unit: 'g' },
-      { name: 'Water', amount: 200, unit: 'ml' },
-      { name: 'Crushed walnuts or almonds', amount: 80, unit: 'g' },
-      { name: 'Cardamom', amount: 0.5, unit: 'tsp' },
+    foodCulture: 'Tajik cuisine is hearty and communal, centered around rice, meat, bread, and dairy. Meals are often shared from large platters and reflect strong Persian and Central Asian influences, with staples like non (bread), soups, kebabs, and pilaf (osh).',
+    history: [
+      {
+        year: '6th–4th Century BC',
+        title: 'Achaemenid & Iranian Influence',
+        description: {
+          en: 'The region was influenced by ancient Iranian empires and Persianate culture, shaping language and identity.',
+          sv: 'Regionen var influerad av forntida iranska imperier och persisk kultur, som formade språk och identitet.',
+          es: 'La región fue influenciada por los antiguos imperios iraníes y la cultura persa, lo que dio forma al idioma y la identidad.',
+          fr: 'La région a été influencée par les anciens empires iraniens et la culture persane, façonnant la langue et l’identité.',
+          de: 'Die Region wurde von alten iranischen Reichen und der persischen Kultur beeinflusst und prägte Sprache und Identität.',
+        },
+      },
+      {
+        year: '329 BC',
+        title: 'Hellenistic Period',
+        description: {
+          en: 'After Alexander the Great’s campaigns, Hellenistic states and trade networks influenced parts of Central Asia.',
+          sv: 'Efter Alexander den Stores kampanjer påverkade hellenistiska stater och handelsnätverk delar av Centralasien.',
+          es: 'Después de las campañas de Alejandro Magno, los estados helenísticos y las redes comerciales influyeron en partes de Asia Central.',
+          fr: 'Après les campagnes d’Alexandre le Grand, les États hellénistiques et les réseaux commerciaux ont influencé certaines parties de l’Asie centrale.',
+          de: 'Nach den Feldzügen Alexanders des Großen beeinflussten hellenistische Staaten und Handelsnetzwerke Teile Zentralasiens.',
+        },
+      },
+      {
+        year: '8th–10th Century',
+        title: 'Silk Road & Cultural Flourishing',
+        description: {
+          en: 'Trade along Silk Road routes supported cities and scholarship, strengthening Persian-influenced culture in the region.',
+          sv: 'Handel längs Silk Road-rutter stödde städer och stipendier, vilket stärkte den persisk influerade kulturen i regionen.',
+          es: 'El comercio a lo largo de las rutas de la Ruta de la Seda apoyó a las ciudades y la erudición, fortaleciendo la cultura de influencia persa en la región.',
+          fr: 'Le commerce le long des routes de la Route de la Soie soutenait les villes et l\'érudition, renforçant ainsi la culture d\'influence persane dans la région.',
+          de: 'Der Handel entlang der Seidenstraßen unterstützte Städte und Wissenschaft und stärkte die persisch geprägte Kultur in der Region.',
+        },
+      },
+      {
+        year: '1929',
+        title: 'Tajik SSR',
+        description: {
+          en: 'Tajikistan became a Soviet republic, bringing major social, economic, and infrastructure changes.',
+          sv: 'Tadzjikistan blev en sovjetrepublik, vilket medförde stora sociala, ekonomiska och infrastrukturförändringar.',
+          es: 'Tayikistán se convirtió en una república soviética, lo que trajo importantes cambios sociales, económicos y de infraestructura.',
+          fr: 'Le Tadjikistan est devenu une république soviétique, entraînant d’importants changements sociaux, économiques et infrastructurels.',
+          de: 'Tadschikistan wurde eine Sowjetrepublik, was große soziale, wirtschaftliche und infrastrukturelle Veränderungen mit sich brachte.',
+        },
+      },
+      {
+        year: '1991',
+        title: 'Independence',
+        description: {
+          en: 'Tajikistan became independent following the dissolution of the Soviet Union.',
+          sv: 'Tadzjikistan blev självständigt efter Sovjetunionens upplösning.',
+          es: 'Tayikistán se independizó tras la disolución de la Unión Soviética.',
+          fr: 'Le Tadjikistan est devenu indépendant après la dissolution de l\'Union soviétique.',
+          de: 'Tadschikistan wurde nach der Auflösung der Sowjetunion unabhängig.',
+        },
+      },
     ],
-    steps: [
-      'Heat oil in a pan over medium heat',
-      'Add flour and stir continuously until golden brown',
-      'In a separate pot, dissolve sugar in water and bring to a boil',
-      'Carefully pour syrup into flour mixture while stirring',
-      'Add cardamom and mix until thick and smooth',
-      'Stir in crushed nuts',
-      'Cook for 2–3 minutes until glossy',
-      'Transfer to a dish and smooth the surface',
-      'Let cool slightly before serving',
+    innovations: [
+      {
+        name: {
+          en: 'Persianate Poetry & Literature',
+          sv: 'Persiska poesi och litteratur',
+          es: 'Poesía y literatura persiate',
+          fr: 'Poésie et littérature persanes',
+          de: 'Persische Poesie und Literatur',
+        },
+        year: '10th–15th Century',
+        description: {
+          en: 'Tajik (Persian) literary traditions form a major part of the region’s cultural identity, with poetry central to education and celebrations.',
+          sv: 'Tadzjikiska (persiska) litterära traditioner utgör en stor del av regionens kulturella identitet, med poesi centralt för utbildning och firande.',
+          es: 'Las tradiciones literarias tayikas (persas) forman una parte importante de la identidad cultural de la región, y la poesía es fundamental para la educación y las celebraciones.',
+          fr: 'Les traditions littéraires tadjikes (persanes) constituent une part importante de l’identité culturelle de la région, la poésie étant au cœur de l’éducation et des célébrations.',
+          de: 'Tadschikische (persische) literarische Traditionen bilden einen wichtigen Teil der kulturellen Identität der Region, wobei die Poesie für Bildung und Feiern von zentraler Bedeutung ist.',
+        },
+      },
+      {
+        name: {
+          en: 'Mountain Irrigation & Terracing',
+          sv: 'Bergsbevattning och terrasser',
+          es: 'Riego y terrazas de montaña',
+          fr: 'Irrigation et terrassement de montagne',
+          de: 'Bergbewässerung und Terrassenbau',
+        },
+        year: 'Centuries',
+        description: {
+          en: 'Communities developed practical agricultural techniques for steep terrain, including channels and terraced fields in valleys.',
+          sv: 'Samhällen utvecklade praktiska jordbrukstekniker för brant terräng, inklusive kanaler och terrasserade fält i dalar.',
+          es: 'Las comunidades desarrollaron técnicas agrícolas prácticas para terrenos escarpados, incluidos canales y campos en terrazas en los valles.',
+          fr: 'Les communautés ont développé des techniques agricoles pratiques pour les terrains escarpés, notamment les canaux et les champs en terrasses dans les vallées.',
+          de: 'Die Gemeinden entwickelten praktische landwirtschaftliche Techniken für steiles Gelände, einschließlich Kanälen und Terrassenfeldern in Tälern.',
+        },
+      },
+      {
+        name: {
+          en: 'Traditional Textile Arts',
+          sv: 'Traditionell textilkonst',
+          es: 'Artes textiles tradicionales',
+          fr: 'Arts textiles traditionnels',
+          de: 'Traditionelle Textilkunst',
+        },
+        year: 'Centuries',
+        description: {
+          en: 'Embroidery, suzani-style patterns, and regional weaving traditions remain important cultural crafts and local economies.',
+          sv: 'Broderier, mönster i suzanistil och regionala vävtraditioner är fortfarande viktiga kulturhantverk och lokala ekonomier.',
+          es: 'Los bordados, los patrones de estilo suzani y las tradiciones regionales de tejido siguen siendo importantes artesanías culturales y economías locales.',
+          fr: 'La broderie, les motifs de style suzani et les traditions régionales de tissage restent des métiers culturels et économiques locaux importants.',
+          de: 'Stickereien, Muster im Susani-Stil und regionale Webtraditionen bleiben wichtige kulturelle Handwerke und die lokale Wirtschaft.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/33079560/pexels-photo-33079560.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Vodka',
-    nonAlcoholic: 'Green tea, Ayran, Kumis (fermented milk)',
-  },
-
-  music: [
-    'Shashmaqam (classical tradition)',
-    'Folk music with daf drum',
-    'Persian-influenced melodies',
-  ],
-
-  decorationIdeas: [
-    'Red, white, and green flag colors',
-    'Mountain and glacier imagery',
-    'Silk Road motifs',
-    'Traditional textiles and patterns',
-    'Carpet-inspired table runners and embroidered cushions',
-  ],
-
-  conversationStarters: [
-    'Would you dare to travel the Pamir Highway?',
-    'What do you know about the Silk Road?',
-    'Have you tried Central Asian pilaf before?',
-    'Did you know Tajik is closely related to Persian?',
-    'Are you more drawn to mountains, culture, or food when you travel?',
-  ],
-
-  quiz: [
-    {
-      id: 'tajikistan-q1',
-      question: 'What is the capital of Tajikistan?',
-      options: ['Dushanbe', 'Bishkek', 'Tashkent', 'Ashgabat'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tajikistan-q2',
-      question: 'Which mountain range dominates Tajikistan?',
-      options: ['Himalayas', 'Pamir Mountains', 'Caucasus', 'Ural Mountains'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'tajikistan-q3',
-      question: 'What ancient trade route passed through Tajikistan?',
-      options: ['Amber Road', 'Spice Route', 'Silk Road', 'Tea Horse Road'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'tajikistan-q4',
-      question: 'Over what percentage of Tajikistan is mountainous?',
-      options: ['30%', '50%', '70%', '90%'],
-      correctAnswer: 3,
-    },
-    {
-      id: 'tajikistan-q5',
-      question: 'What language is most closely related to Tajik?',
-      options: ['Turkish', 'Arabic', 'Persian', 'Russian'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'tajikistan-q6',
-      question: 'What is the national dish Osh primarily made from?',
-      options: ['Rice and fish', 'Rice and meat', 'Bread and cheese', 'Noodles'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'tajikistan-q7',
-      question: 'What is the Pamir Highway famous for?',
-      options: [
-        'Being the longest road in Asia',
-        'Being one of the highest roads in the world',
-        'Connecting Europe and China directly',
-        'Crossing a desert',
+    mustVisit: [
+      {
+        name: {
+          en: 'Pamir Highway (M41)',
+          sv: 'Pamir Highway (M41)',
+          es: 'Autopista del Pamir (M41)',
+          fr: 'Autoroute du Pamir (M41)',
+          de: 'Pamir Highway (M41)',
+        },
+        description: {
+          en: 'Legendary high-altitude route through dramatic mountain landscapes and remote villages.',
+          sv: 'Legendarisk höghöjdsrutt genom dramatiska bergslandskap och avlägsna byar.',
+          es: 'Ruta legendaria de gran altitud a través de espectaculares paisajes montañosos y pueblos remotos.',
+          fr: 'Itinéraire légendaire en haute altitude à travers des paysages de montagne spectaculaires et des villages isolés.',
+          de: 'Legendäre Höhenroute durch dramatische Berglandschaften und abgelegene Dörfer.',
+        },
+      },
+      {
+        name: {
+          en: 'Iskanderkul Lake',
+          sv: 'Iskanderkul sjön',
+          es: 'Lago Iskanderkul',
+          fr: 'Lac Iskanderkoul',
+          de: 'Iskanderkul-See',
+        },
+        description: {
+          en: 'A striking alpine lake in the Fann Mountains, linked to legends of Alexander (Iskander).',
+          sv: 'En slående alpin sjö i Fannbergen, kopplad till legender om Alexander (Iskander).',
+          es: 'Un impresionante lago alpino en las montañas Fann, vinculado a las leyendas de Alejandro (Iskander).',
+          fr: 'Un lac alpin saisissant dans les monts Fann, lié aux légendes d\'Alexandre (Iskander).',
+          de: 'Ein markanter Alpensee im Fann-Gebirge, der mit Legenden über Alexander (Iskander) verbunden ist.',
+        },
+      },
+      {
+        name: {
+          en: 'Fann Mountains',
+          sv: 'Fannbergen',
+          es: 'Montañas Fann',
+          fr: 'Montagnes Fann',
+          de: 'Fann-Gebirge',
+        },
+        description: {
+          en: 'Popular for hiking with turquoise lakes, jagged peaks, and scenic valleys.',
+          sv: 'Populärt för vandring med turkosa sjöar, taggiga toppar och natursköna dalar.',
+          es: 'Popular para practicar senderismo con lagos color turquesa, picos escarpados y valles pintorescos.',
+          fr: 'Populaire pour la randonnée avec des lacs turquoise, des pics déchiquetés et des vallées pittoresques.',
+          de: 'Beliebt zum Wandern mit türkisfarbenen Seen, schroffen Gipfeln und malerischen Tälern.',
+        },
+      },
+      {
+        name: {
+          en: 'Dushanbe',
+          sv: 'Dushanbe',
+          es: 'Dusambé',
+          fr: 'Douchanbé',
+          de: 'Duschanbe',
+        },
+        description: {
+          en: 'The capital city with parks, museums, bazaars, and a gateway to the mountains.',
+          sv: 'Huvudstaden med parker, museer, basarer och en port till bergen.',
+          es: 'La capital con parques, museos, bazares y una puerta de entrada a las montañas.',
+          fr: 'La capitale avec des parcs, des musées, des bazars et une porte d\'entrée vers les montagnes.',
+          de: 'Die Hauptstadt mit Parks, Museen, Basaren und einem Tor zu den Bergen.',
+        },
+      },
+      {
+        name: {
+          en: 'Wakhan Valley (near the Afghan border)',
+          sv: 'Wakhan Valley (nära den afghanska gränsen)',
+          es: 'Valle de Wakhan (cerca de la frontera con Afganistán)',
+          fr: 'Vallée du Wakhan (près de la frontière afghane)',
+          de: 'Wakhan-Tal (nahe der afghanischen Grenze)',
+        },
+        description: {
+          en: 'A culturally rich high valley known for sweeping views, fort ruins, and unique Pamiri heritage (access depends on permits/routes).',
+          sv: 'En kulturellt rik hög dal känd för vidsträckta vyer, fortruiner och unika Pamiri-arv (tillgång beror på tillstånd/rutter).',
+          es: 'Un valle alto culturalmente rico conocido por sus vistas panorámicas, ruinas de fuertes y un patrimonio Pamiri único (el acceso depende de permisos/rutas).',
+          fr: 'Une haute vallée culturellement riche connue pour ses vues panoramiques, ses ruines de fort et son patrimoine unique du Pamiri (l\'accès dépend des permis/itinéraires).',
+          de: 'Ein kulturell reiches Hochtal, bekannt für atemberaubende Ausblicke, Festungsruinen und das einzigartige Pamiri-Erbe (Zugang abhängig von Genehmigungen/Routen).',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Best time to visit',
+        description: {
+          en: 'Late spring to early autumn (May–October) for most regions; Pamirs are best in summer.',
+          sv: 'Sen vår till tidig höst (maj–oktober) för de flesta regioner; Pamirs är bäst på sommaren.',
+          es: 'Desde finales de primavera hasta principios de otoño (mayo-octubre) en la mayoría de las regiones; Los Pamir son mejores en verano.',
+          fr: 'Fin du printemps jusqu\'au début de l\'automne (mai-octobre) pour la plupart des régions ; Les Pamirs sont meilleurs en été.',
+          de: 'Spätfrühling bis Frühherbst (Mai–Oktober) für die meisten Regionen; Pamirs sind im Sommer am besten.',
+        },
+      },
+      {
+        item: 'Permits & borders',
+        description: {
+          en: 'Some areas (especially in GBAO/Pamirs) may require additional permits—check requirements in advance.',
+          sv: 'Vissa områden (särskilt i GBAO/Pamirs) kan kräva ytterligare tillstånd – kontrollera kraven i förväg.',
+          es: 'Algunas áreas (especialmente en GBAO/Pamir) pueden requerir permisos adicionales; verifique los requisitos con anticipación.',
+          fr: 'Certaines zones (en particulier dans le GBAO/Pamir) peuvent nécessiter des permis supplémentaires : vérifiez les exigences à l\'avance.',
+          de: 'Für einige Gebiete (insbesondere in GBAO/Pamirs) sind möglicherweise zusätzliche Genehmigungen erforderlich – überprüfen Sie die Anforderungen im Voraus.',
+        },
+      },
+      {
+        item: 'Transport',
+        description: {
+          en: 'Shared taxis and 4x4s are common for mountain routes; roads can be slow and weather-dependent.',
+          sv: 'Delade taxibilar och fyrhjulingar är vanliga för bergsvägar; vägar kan vara långsamma och väderberoende.',
+          es: 'Los taxis compartidos y los 4x4 son habituales para las rutas de montaña; las carreteras pueden ser lentas y depender del clima.',
+          fr: 'Les taxis partagés et les 4x4 sont courants pour les itinéraires de montagne ; les routes peuvent être lentes et dépendantes des conditions météorologiques.',
+          de: 'Für Bergstrecken sind Sammeltaxis und Geländewagen üblich. Straßen können langsam und wetterabhängig sein.',
+        },
+      },
+      {
+        item: 'Altitude',
+        description: {
+          en: 'Take time to acclimatize in high regions like the Pamirs; hydrate and plan easy days early on.',
+          sv: 'Ta dig tid att acklimatisera dig i höga regioner som Pamirs; återfukta och planera enkla dagar tidigt.',
+          es: 'Tómese el tiempo para aclimatarse en regiones altas como el Pamir; Hidrátate y planifica días tranquilos desde el principio.',
+          fr: 'Prenez le temps de vous acclimater dans les régions élevées comme le Pamir ; hydratez-vous et planifiez des journées faciles dès le début.',
+          de: 'Nehmen Sie sich Zeit, um sich in hochgelegenen Regionen wie dem Pamir zu akklimatisieren. Hydratieren Sie und planen Sie frühzeitig entspannte Tage.',
+        },
+      },
+      {
+        item: 'Cash',
+        description: {
+          en: 'Carry somoni in rural areas; card acceptance can be limited outside major cities.',
+          sv: 'Bär somoni på landsbygden; kortacceptans kan begränsas utanför större städer.',
+          es: 'Llevar somoni en las zonas rurales; La aceptación de tarjetas puede estar limitada fuera de las principales ciudades.',
+          fr: 'Transporter du somoni dans les zones rurales ; l\'acceptation des cartes peut être limitée en dehors des grandes villes.',
+          de: 'Tragen Sie Somoni in ländlichen Gebieten; Außerhalb von Großstädten kann die Kartenakzeptanz eingeschränkt sein.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'tajikistan-main',
+      name: {
+        en: 'Osh (Plov)',
+        sv: 'Osh (Plov)',
+        es: 'Osh (Plov)',
+        fr: 'Och (Plov)',
+        de: 'Osh (Plov)',
+      },
+      description: {
+        en: 'Traditional pilaf made with rice, meat, carrots, and spices',
+        sv: 'Traditionell pilaff gjord med ris, kött, morötter och kryddor',
+        es: 'Pilaf tradicional elaborado con arroz, carne, zanahorias y especias',
+        fr: 'Pilaf traditionnel à base de riz, de viande, de carottes et d\'épices',
+        de: 'Traditioneller Pilaw aus Reis, Fleisch, Karotten und Gewürzen',
+      },
+      cookingTime: 120,
+      servings: 8,
+      dietType: {
+        en: 'meat',
+        sv: 'kött',
+        es: 'carne',
+        fr: 'viande',
+        de: 'Fleisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Lamb or beef',
+            sv: 'Lamm eller nötkött',
+            es: 'Cordero o ternera',
+            fr: 'Agneau ou bœuf',
+            de: 'Lamm oder Rind',
+          },
+          amount: 800,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Rice',
+            sv: 'Ris',
+            es: 'Arroz',
+            fr: 'Riz',
+            de: 'Reis',
+          },
+          amount: 600,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Carrots',
+            sv: 'Morötter',
+            es: 'Zanahorias',
+            fr: 'Carottes',
+            de: 'Karotten',
+          },
+          amount: 4,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Onions',
+            sv: 'Lök',
+            es: 'Cebollas',
+            fr: 'Oignons',
+            de: 'Zwiebeln',
+          },
+          amount: 2,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Garlic head',
+            sv: 'Vitlökshuvud',
+            es: 'Cabeza de ajo',
+            fr: 'Tête d\'ail',
+            de: 'Knoblauchkopf',
+          },
+          amount: 1,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Cumin',
+            sv: 'Kummin',
+            es: 'Comino',
+            fr: 'Cumin',
+            de: 'Kreuzkümmel',
+          },
+          amount: 1,
+          unit: {
+            en: 'tbsp',
+            sv: 'msk',
+            es: 'cucharada',
+            fr: 'à soupe',
+            de: 'EL',
+          },
+        },
+        {
+          name: {
+            en: 'Vegetable oil',
+            sv: 'Vegetabilisk olja',
+            es: 'Aceite vegetal',
+            fr: 'Huile végétale',
+            de: 'Pflanzenöl',
+          },
+          amount: 150,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 1.5,
+          unit: 'tsp',
+        },
       ],
-      correctAnswer: 1,
+      steps: [
+        {
+          en: 'Heat oil in a large heavy pot',
+          sv: 'Hetta upp olja i en stor tjock gryta',
+          es: 'Calentar aceite en una olla grande y pesada.',
+          fr: 'Faire chauffer l\'huile dans une grande marmite épaisse',
+          de: 'Öl in einem großen, schweren Topf erhitzen',
+        },
+        {
+          en: 'Brown meat pieces until well colored',
+          sv: 'Bryn köttbitarna tills de fått fin färg',
+          es: 'Dore los trozos de carne hasta que estén bien coloreados',
+          fr: 'Faire revenir les morceaux de viande jusqu\'à ce qu\'ils soient bien colorés',
+          de: 'Fleischstücke anbraten, bis sie eine schöne Farbe haben',
+        },
+        {
+          en: 'Add sliced onions and cook until golden',
+          sv: 'Lägg i skivad lök och koka tills den är gyllene',
+          es: 'Agregue las cebollas en rodajas y cocine hasta que estén doradas',
+          fr: 'Ajouter les oignons émincés et cuire jusqu\'à ce qu\'ils soient dorés',
+          de: 'In Scheiben geschnittene Zwiebeln hinzufügen und goldbraun braten',
+        },
+        {
+          en: 'Add julienned carrots and sauté gently',
+          sv: 'Tillsätt julienade morötter och fräs försiktigt',
+          es: 'Añade las zanahorias cortadas en juliana y saltea suavemente',
+          fr: 'Ajouter les carottes en julienne et faire revenir doucement',
+          de: 'Julienne-Karotten dazugeben und leicht anbraten',
+        },
+        {
+          en: 'Season with cumin and salt',
+          sv: 'Krydda med spiskummin och salt',
+          es: 'Condimentar con comino y sal',
+          fr: 'Assaisonner de cumin et de sel',
+          de: 'Mit Kreuzkümmel und Salz würzen',
+        },
+        {
+          en: 'Add enough water to cover ingredients and simmer',
+          sv: 'Tillsätt tillräckligt med vatten för att täcka ingredienserna och låt sjuda',
+          es: 'Agregue suficiente agua para cubrir los ingredientes y cocine a fuego lento',
+          fr: 'Ajouter suffisamment d\'eau pour couvrir les ingrédients et laisser mijoter',
+          de: 'So viel Wasser hinzufügen, dass die Zutaten bedeckt sind, und köcheln lassen',
+        },
+        {
+          en: 'Rinse rice thoroughly and layer it on top without stirring',
+          sv: 'Skölj riset noggrant och lägg det ovanpå utan att röra',
+          es: 'Enjuague bien el arroz y colóquelo encima sin revolver',
+          fr: 'Rincez soigneusement le riz et posez-le dessus sans remuer',
+          de: 'Reis gründlich abspülen und ohne Rühren darauf schichten',
+        },
+        {
+          en: 'Place whole garlic head into the rice',
+          sv: 'Lägg hela vitlökshuvudet i riset',
+          es: 'Coloca la cabeza de ajo entera en el arroz',
+          fr: 'Placer la tête d\'ail entière dans le riz',
+          de: 'Den ganzen Knoblauchkopf in den Reis geben',
+        },
+        {
+          en: 'Cover and steam until rice is tender and liquid absorbed',
+          sv: 'Täck över och ånga tills riset är mört och vätskan absorberats',
+          es: 'Cubra y cocine al vapor hasta que el arroz esté tierno y se absorba el líquido',
+          fr: 'Couvrir et cuire à la vapeur jusqu\'à ce que le riz soit tendre et que le liquide soit absorbé',
+          de: 'Abdecken und dämpfen, bis der Reis weich ist und die Flüssigkeit aufgesogen ist',
+        },
+        {
+          en: 'Gently mix before serving and serve family-style',
+          sv: 'Blanda försiktigt före servering och servera i familjestil',
+          es: 'Mezcle suavemente antes de servir y sirva al estilo familiar',
+          fr: 'Mélanger délicatement avant de servir et servir en famille',
+          de: 'Vor dem Servieren vorsichtig mischen und im Familienstil servieren',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/9553317/pexels-photo-9553317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'tajikistan-q8',
-      question: 'Which beverage is commonly consumed with meals in Tajikistan?',
-      options: ['Green tea', 'Coffee', 'Cola', 'Mate'],
-      correctAnswer: 0,
+    dessert: {
+      id: 'tajikistan-dessert',
+      name: {
+        en: 'Halva',
+        sv: 'Halva',
+        es: 'Halva',
+        fr: 'Halva',
+        de: 'Halva',
+      },
+      description: {
+        en: 'A traditional Tajik sweet made from flour, oil, sugar, and nuts, often prepared for celebrations and guests.',
+        sv: 'En traditionell tadzjikisk sötsak gjord av mjöl, olja, socker och nötter, ofta förberedd för fester och gäster.',
+        es: 'Un dulce tradicional tayiko elaborado con harina, aceite, azúcar y nueces, que a menudo se prepara para celebraciones e invitados.',
+        fr: 'Une friandise tadjike traditionnelle à base de farine, d\'huile, de sucre et de noix, souvent préparée pour les célébrations et les invités.',
+        de: 'Eine traditionelle tadschikische Süßigkeit aus Mehl, Öl, Zucker und Nüssen, die oft für Feiern und Gäste zubereitet wird.',
+      },
+      cookingTime: 30,
+      servings: 6,
+      dietType: {
+        en: 'vegetarian',
+        sv: 'vegetarisk',
+        es: 'vegetariano',
+        fr: 'végétarien',
+        de: 'vegetarisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'All-purpose flour',
+            sv: 'Mjöl för alla ändamål',
+            es: 'Harina para todo uso',
+            fr: 'Farine tout usage',
+            de: 'Allzweckmehl',
+          },
+          amount: 200,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Vegetable oil or butter',
+            sv: 'Vegetabilisk olja eller smör',
+            es: 'Aceite vegetal o mantequilla',
+            fr: 'Huile végétale ou beurre',
+            de: 'Pflanzenöl oder Butter',
+          },
+          amount: 120,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Sugar',
+            sv: 'Socker',
+            es: 'Azúcar',
+            fr: 'Sucre',
+            de: 'Zucker',
+          },
+          amount: 150,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Water',
+            sv: 'Vatten',
+            es: 'Agua',
+            fr: 'Eau',
+            de: 'Wasser',
+          },
+          amount: 200,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Crushed walnuts or almonds',
+            sv: 'Krossade valnötter eller mandel',
+            es: 'Nueces o almendras trituradas',
+            fr: 'Noix ou amandes concassées',
+            de: 'Zerkleinerte Walnüsse oder Mandeln',
+          },
+          amount: 80,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Cardamom',
+            sv: 'Kardemumma',
+            es: 'Cardamomo',
+            fr: 'Cardamome',
+            de: 'Kardamom',
+          },
+          amount: 0.5,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Heat oil in a pan over medium heat',
+          sv: 'Värm olja i en panna på medelvärme',
+          es: 'Calienta aceite en una sartén a fuego medio',
+          fr: 'Chauffer l\'huile dans une poêle à feu moyen',
+          de: 'Öl in einer Pfanne bei mittlerer Hitze erhitzen',
+        },
+        {
+          en: 'Add flour and stir continuously until golden brown',
+          sv: 'Tillsätt mjöl och rör hela tiden tills det är gyllenbrunt',
+          es: 'Agrega la harina y revuelve continuamente hasta que se dore.',
+          fr: 'Ajouter la farine et remuer continuellement jusqu\'à ce qu\'elle soit dorée',
+          de: 'Mehl hinzufügen und unter ständigem Rühren goldbraun rühren',
+        },
+        {
+          en: 'In a separate pot, dissolve sugar in water and bring to a boil',
+          sv: 'Lös socker i vatten i en separat kastrull och koka upp',
+          es: 'En una olla aparte, disolver el azúcar en agua y llevar a ebullición',
+          fr: 'Dans une autre casserole, dissoudre le sucre dans l\'eau et porter à ébullition',
+          de: 'In einem separaten Topf Zucker in Wasser auflösen und zum Kochen bringen',
+        },
+        {
+          en: 'Carefully pour syrup into flour mixture while stirring',
+          sv: 'Häll försiktigt sirap i mjölblandningen under omrörning',
+          es: 'Vierta con cuidado el almíbar en la mezcla de harina mientras revuelve',
+          fr: 'Versez délicatement le sirop dans le mélange de farine tout en remuant',
+          de: 'Den Sirup vorsichtig unter Rühren in die Mehlmischung gießen',
+        },
+        {
+          en: 'Add cardamom and mix until thick and smooth',
+          sv: 'Tillsätt kardemumma och blanda tills det är tjockt och slätt',
+          es: 'Agregue el cardamomo y mezcle hasta que esté espeso y suave',
+          fr: 'Ajouter la cardamome et mélanger jusqu\'à consistance épaisse et lisse',
+          de: 'Kardamom hinzufügen und verrühren, bis es dick und glatt ist',
+        },
+        {
+          en: 'Stir in crushed nuts',
+          sv: 'Stir in crushed nuts',
+          es: 'Agregue las nueces trituradas',
+          fr: 'Incorporer les noix concassées',
+          de: 'Gemahlene Nüsse unterrühren',
+        },
+        {
+          en: 'Cook for 2–3 minutes until glossy',
+          sv: 'Koka i 2–3 minuter tills det blir glansigt',
+          es: 'Cocine durante 2 a 3 minutos hasta que esté brillante',
+          fr: 'Cuire pendant 2 à 3 minutes jusqu\'à ce que ce soit brillant',
+          de: '2–3 Minuten kochen, bis es glänzt',
+        },
+        {
+          en: 'Transfer to a dish and smooth the surface',
+          sv: 'Överför till ett fat och jämna till ytan',
+          es: 'Transfiera a un plato y alise la superficie',
+          fr: 'Transférer dans un plat et lisser la surface',
+          de: 'In eine Schüssel geben und die Oberfläche glatt streichen',
+        },
+        {
+          en: 'Let cool slightly before serving',
+          sv: 'Låt svalna något innan servering',
+          es: 'Dejar enfriar un poco antes de servir',
+          fr: 'Laisser refroidir légèrement avant de servir',
+          de: 'Vor dem Servieren etwas abkühlen lassen',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/33079560/pexels-photo-33079560.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'tajikistan-q9',
-      question: 'Which region is Tajikistan part of?',
-      options: ['Middle East', 'South Asia', 'Central Asia', 'East Asia'],
-      correctAnswer: 2,
+    drinks: {
+      alcoholic: 'Vodka',
+      nonAlcoholic: 'Green tea, Ayran, Kumis (fermented milk)',
     },
-    {
-      id: 'tajikistan-q10',
-      question: 'What instrument is commonly used in Tajik folk music?',
-      options: ['Daf drum', 'Bagpipes', 'Accordion', 'Sitar'],
-      correctAnswer: 0,
+    music: [
+      'Shashmaqam (classical tradition)',
+      'Folk music with daf drum',
+      'Persian-influenced melodies',
+    ],
+    decorationIdeas: [
+      'Red, white, and green flag colors',
+      'Mountain and glacier imagery',
+      'Silk Road motifs',
+      'Traditional textiles and patterns',
+      'Carpet-inspired table runners and embroidered cushions',
+    ],
+    conversationStarters: [
+      'Would you dare to travel the Pamir Highway?',
+      'What do you know about the Silk Road?',
+      'Have you tried Central Asian pilaf before?',
+      'Did you know Tajik is closely related to Persian?',
+      'Are you more drawn to mountains, culture, or food when you travel?',
+    ],
+    quiz: [
+      {
+        id: 'tajikistan-q1',
+        question: {
+          en: 'What is the capital of Tajikistan?',
+          sv: 'Vad är huvudstaden i Tadzjikistan?',
+          es: '¿Cuál es la capital de Tayikistán?',
+          fr: 'Quelle est la capitale du Tadjikistan ?',
+          de: 'Was ist die Hauptstadt Tadschikistans?',
+        },
+        options: [
+          {
+            en: 'Dushanbe',
+            sv: 'Dushanbe',
+            es: 'Dusambé',
+            fr: 'Douchanbé',
+            de: 'Duschanbe',
+          },
+          {
+            en: 'Bishkek',
+            sv: 'Bisjkek',
+            es: 'Biskek',
+            fr: 'Bichkek',
+            de: 'Bischkek',
+          },
+          {
+            en: 'Tashkent',
+            sv: 'Tasjkent',
+            es: 'Taskent',
+            fr: 'Tachkent',
+            de: 'Taschkent',
+          },
+          {
+            en: 'Ashgabat',
+            sv: 'Ashgabat',
+            es: 'Asjabad',
+            fr: 'Achgabat',
+            de: 'Aschgabat',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tajikistan-q2',
+        question: {
+          en: 'Which mountain range dominates Tajikistan?',
+          sv: 'Vilken bergskedja dominerar Tadzjikistan?',
+          es: '¿Qué cadena montañosa domina Tayikistán?',
+          fr: 'Quelle chaîne de montagnes domine le Tadjikistan ?',
+          de: 'Welches Gebirge dominiert Tadschikistan?',
+        },
+        options: [
+          {
+            en: 'Himalayas',
+            sv: 'Himalaya',
+            es: 'Himalaya',
+            fr: 'Himalaya',
+            de: 'Himalaya',
+          },
+          {
+            en: 'Pamir Mountains',
+            sv: 'Pamir Mountains',
+            es: 'Montañas Pamir',
+            fr: 'Montagnes du Pamir',
+            de: 'Pamir-Gebirge',
+          },
+          {
+            en: 'Caucasus',
+            sv: 'Kaukasus',
+            es: 'Cáucaso',
+            fr: 'Caucase',
+            de: 'Kaukasus',
+          },
+          {
+            en: 'Ural Mountains',
+            sv: 'Ural Mountains',
+            es: 'Montes Urales',
+            fr: 'Montagnes de l\'Oural',
+            de: 'Uralgebirge',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tajikistan-q3',
+        question: {
+          en: 'What ancient trade route passed through Tajikistan?',
+          sv: 'Vilken forntida handelsväg gick genom Tadzjikistan?',
+          es: '¿Qué antigua ruta comercial pasaba por Tayikistán?',
+          fr: 'Quelle ancienne route commerciale traversait le Tadjikistan ?',
+          de: 'Welche alte Handelsroute führte durch Tadschikistan?',
+        },
+        options: [
+          {
+            en: 'Amber Road',
+            sv: 'Amber Road',
+            es: 'Camino ámbar',
+            fr: 'Route de l\'Ambre',
+            de: 'Bernsteinstraße',
+          },
+          {
+            en: 'Spice Route',
+            sv: 'Kryddväg',
+            es: 'Ruta de las Especias',
+            fr: 'Route des épices',
+            de: 'Gewürzroute',
+          },
+          {
+            en: 'Silk Road',
+            sv: 'Silk Road',
+            es: 'Ruta de la Seda',
+            fr: 'Route de la Soie',
+            de: 'Seidenstraße',
+          },
+          {
+            en: 'Tea Horse Road',
+            sv: 'Tea Horse Road',
+            es: 'Ruta del té y los caballos',
+            fr: 'Route du cheval du thé',
+            de: 'Tee-Pferde-Straße',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tajikistan-q4',
+        question: {
+          en: 'Over what percentage of Tajikistan is mountainous?',
+          sv: 'Över hur stor andel av Tadzjikistan är bergigt?',
+          es: '¿Sobre qué porcentaje de Tayikistán es montañoso?',
+          fr: 'Sur quelle proportion du Tadjikistan est-il montagneux ?',
+          de: 'Über wie viel Prozent der Fläche Tadschikistans ist gebirgig?',
+        },
+        options: [
+          {
+            en: '30%',
+            sv: '30 %',
+            es: '30%',
+            fr: '30%',
+            de: '30 %',
+          },
+          {
+            en: '50%',
+            sv: '50 %',
+            es: '50%',
+            fr: '50%',
+            de: '50 %',
+          },
+          {
+            en: '70%',
+            sv: '70 %',
+            es: '70%',
+            fr: '70%',
+            de: '70 %',
+          },
+          {
+            en: '90%',
+            sv: '90 %',
+            es: '90%',
+            fr: '90%',
+            de: '90 %',
+          },
+        ],
+        correctAnswer: 3,
+      },
+      {
+        id: 'tajikistan-q5',
+        question: {
+          en: 'What language is most closely related to Tajik?',
+          sv: 'Vilket språk är närmast besläktat med tadzjikiska?',
+          es: '¿Qué idioma está más estrechamente relacionado con el tayiko?',
+          fr: 'Quelle langue est la plus étroitement liée au tadjik ?',
+          de: 'Welche Sprache ist am engsten mit Tadschikisch verwandt?',
+        },
+        options: [
+          {
+            en: 'Turkish',
+            sv: 'turkiska',
+            es: 'Turco',
+            fr: 'Turc',
+            de: 'Türkisch',
+          },
+          {
+            en: 'Arabic',
+            sv: 'Arabiska',
+            es: 'Árabe',
+            fr: 'Arabe',
+            de: 'Arabisch',
+          },
+          {
+            en: 'Persian',
+            sv: 'persiska',
+            es: 'persa',
+            fr: 'persan',
+            de: 'Persisch',
+          },
+          {
+            en: 'Russian',
+            sv: 'Ryska',
+            es: 'ruso',
+            fr: 'Russe',
+            de: 'Russisch',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tajikistan-q6',
+        question: {
+          en: 'What is the national dish Osh primarily made from?',
+          sv: 'Vad är nationalrätten Osh främst gjord av?',
+          es: '¿De qué se elabora principalmente el plato nacional Osh?',
+          fr: 'De quoi est principalement composé le plat national Och ?',
+          de: 'Woraus besteht das Nationalgericht Osch hauptsächlich?',
+        },
+        options: [
+          {
+            en: 'Rice and fish',
+            sv: 'Ris och fisk',
+            es: 'Arroz y pescado',
+            fr: 'Riz et poisson',
+            de: 'Reis und Fisch',
+          },
+          {
+            en: 'Rice and meat',
+            sv: 'Ris och kött',
+            es: 'Arroz y carne',
+            fr: 'Riz et viande',
+            de: 'Reis und Fleisch',
+          },
+          {
+            en: 'Bread and cheese',
+            sv: 'Bröd och ost',
+            es: 'Pan y queso',
+            fr: 'Pain et fromage',
+            de: 'Brot und Käse',
+          },
+          {
+            en: 'Noodles',
+            sv: 'Nudlar',
+            es: 'Fideos',
+            fr: 'Nouilles',
+            de: 'Nudeln',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tajikistan-q7',
+        question: {
+          en: 'What is the Pamir Highway famous for?',
+          sv: 'Vad är Pamir Highway känd för?',
+          es: '¿Por qué es famosa la autopista Pamir?',
+          fr: 'Pourquoi la route du Pamir est-elle célèbre ?',
+          de: 'Wofür ist der Pamir Highway berühmt?',
+        },
+        options: [
+          {
+            en: 'Being the longest road in Asia',
+            sv: 'Att vara den längsta vägen i Asien',
+            es: 'Siendo la carretera más larga de Asia',
+            fr: 'Être la plus longue route d\'Asie',
+            de: 'Die längste Straße Asiens',
+          },
+          {
+            en: 'Being one of the highest roads in the world',
+            sv: 'Att vara en av de högsta vägarna i världen',
+            es: 'Siendo una de las carreteras más altas del mundo',
+            fr: 'Étant l\'une des routes les plus hautes du monde',
+            de: 'Als eine der höchstgelegenen Straßen der Welt',
+          },
+          {
+            en: 'Connecting Europe and China directly',
+            sv: 'Förbinder Europa och Kina direkt',
+            es: 'Conectando Europa y China directamente',
+            fr: 'Connecter directement l’Europe et la Chine',
+            de: 'Direkte Verbindung zwischen Europa und China',
+          },
+          {
+            en: 'Crossing a desert',
+            sv: 'Att korsa en öken',
+            es: 'Cruzando un desierto',
+            fr: 'Traversée d\'un désert',
+            de: 'Eine Wüste durchqueren',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tajikistan-q8',
+        question: {
+          en: 'Which beverage is commonly consumed with meals in Tajikistan?',
+          sv: 'Vilken dryck konsumeras vanligtvis till måltider i Tadzjikistan?',
+          es: '¿Qué bebida se consume habitualmente con las comidas en Tayikistán?',
+          fr: 'Quelle boisson est couramment consommée avec les repas au Tadjikistan ?',
+          de: 'Welches Getränk wird in Tadschikistan häufig zu den Mahlzeiten konsumiert?',
+        },
+        options: [
+          {
+            en: 'Green tea',
+            sv: 'Grönt te',
+            es: 'Té verde',
+            fr: 'Thé vert',
+            de: 'Grüner Tee',
+          },
+          {
+            en: 'Coffee',
+            sv: 'Kaffe',
+            es: 'Café',
+            fr: 'Café',
+            de: 'Kaffee',
+          },
+          {
+            en: 'Cola',
+            sv: 'Cola',
+            es: 'cola',
+            fr: 'Cola',
+            de: 'Cola',
+          },
+          {
+            en: 'Mate',
+            sv: 'Kompis',
+            es: 'Compañero',
+            fr: 'Compagnon',
+            de: 'Kumpel',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tajikistan-q9',
+        question: {
+          en: 'Which region is Tajikistan part of?',
+          sv: 'Vilken region är Tadzjikistan en del av?',
+          es: '¿De qué región forma parte Tayikistán?',
+          fr: 'De quelle région fait partie le Tadjikistan ?',
+          de: 'Zu welcher Region gehört Tadschikistan?',
+        },
+        options: [
+          {
+            en: 'Middle East',
+            sv: 'Mellanöstern',
+            es: 'Medio Oriente',
+            fr: 'Moyen-Orient',
+            de: 'Naher Osten',
+          },
+          {
+            en: 'South Asia',
+            sv: 'Sydasien',
+            es: 'Asia del Sur',
+            fr: 'Asie du Sud',
+            de: 'Südasien',
+          },
+          {
+            en: 'Central Asia',
+            sv: 'Centralasien',
+            es: 'Asia Central',
+            fr: 'Asie centrale',
+            de: 'Zentralasien',
+          },
+          {
+            en: 'East Asia',
+            sv: 'Östasien',
+            es: 'Asia Oriental',
+            fr: 'Asie de l\'Est',
+            de: 'Ostasien',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tajikistan-q10',
+        question: {
+          en: 'What instrument is commonly used in Tajik folk music?',
+          sv: 'Vilket instrument används vanligtvis i tadzjikisk folkmusik?',
+          es: '¿Qué instrumento se utiliza comúnmente en la música folclórica de Tayikistán?',
+          fr: 'Quel instrument est couramment utilisé dans la musique folklorique tadjike ?',
+          de: 'Welches Instrument wird in der tadschikischen Volksmusik häufig verwendet?',
+        },
+        options: [
+          {
+            en: 'Daf drum',
+            sv: 'Daf trumma',
+            es: 'Tambor Daf',
+            fr: 'Tambour Daf',
+            de: 'Daf Trommel',
+          },
+          {
+            en: 'Bagpipes',
+            sv: 'Säckpipor',
+            es: 'Gaitas',
+            fr: 'Cornemuse',
+            de: 'Dudelsäcke',
+          },
+          {
+            en: 'Accordion',
+            sv: 'Dragspel',
+            es: 'Acordeón',
+            fr: 'Accordéon',
+            de: 'Akkordeon',
+          },
+          {
+            en: 'Sitar',
+            sv: 'Sitar',
+            es: 'sitar',
+            fr: 'Sitar',
+            de: 'Sitar',
+          },
+        ],
+        correctAnswer: 0,
+      },
+    ],
+    coordinates: {
+      x: 67,
+      y: 40,
     },
-  ],
-
-  coordinates: { x: 67, y: 40 },
-};
+  };

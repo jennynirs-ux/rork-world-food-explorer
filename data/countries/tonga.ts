@@ -1,270 +1,1032 @@
 import { Country } from '@/types';
 
 export const tonga: Country = {
-  id: 'tonga',
-  name: 'Tonga',
-  code: 'TO',
-  continent: 'Oceania',
-  flag: '🇹🇴',
-  landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
-  description:
-    'Tonga is a Polynesian kingdom in the South Pacific, known for whale watching, pristine beaches, strong cultural traditions, and being the only Pacific nation never formally colonized.',
-
-  quickFacts: [
-    { label: 'Capital', value: "Nuku'alofa" },
-    { label: 'Population', value: '106,000' },
-    { label: 'Official Languages', value: 'Tongan, English' },
-    { label: 'Currency', value: 'Tongan Paʻanga (TOP)' },
-    { label: 'Area', value: '747 km²' },
-  ],
-
-  facts: [
-    'Tonga was never formally colonized by a European power',
-    'It is one of the last remaining Polynesian monarchies',
-    'The country consists of 169 islands, about 36 of which are inhabited',
-    'Tonga is one of the best places in the world to swim with humpback whales',
-    'Traditional hierarchy and respect play a central role in society',
-    'Sunday is widely observed as a day of rest and worship',
-  ],
-
-  foodCulture:
-    'Tongan cuisine centers on root vegetables, coconut, seafood, and meats cooked in traditional earth ovens (umu). Meals are often communal and prepared for extended family gatherings and celebrations.',
-
-  history: [
-    {
-      year: 'c. 950 AD',
-      title: 'Tui Tonga Empire',
-      description:
-        'The Tui Tonga dynasty emerged, establishing one of the earliest Polynesian maritime empires.',
+    id: 'tonga',
+    name: {
+      en: 'Tonga',
+      sv: 'Tonga',
+      es: 'Tonga',
+      fr: 'Tonga',
+      de: 'Tonga',
     },
-    {
-      year: '1773',
-      title: 'European Contact',
-      description:
-        'Captain James Cook visited Tonga, later referring to it as the “Friendly Islands.”',
+    code: 'TO',
+    continent: {
+      en: 'Oceania',
+      sv: 'Oceanien',
+      es: 'Oceanía',
+      fr: 'Océanie',
+      de: 'Ozeanien',
     },
-    {
-      year: '1900',
-      title: 'British Protected State',
-      description:
-        'Tonga became a British-protected state but retained its monarchy and internal governance.',
+    flag: '🇹🇴',
+    landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+    description: {
+      en: 'Tonga is a Polynesian kingdom in the South Pacific, known for whale watching, pristine beaches, strong cultural traditions, and being the only Pacific nation never formally colonized.',
+      sv: 'Tonga är ett polynesiskt kungarike i södra Stilla havet, känt för valskådning, orörda stränder, starka kulturella traditioner och att vara den enda Stillahavsnationen som aldrig formellt koloniserats.',
+      es: 'Tonga es un reino polinesio en el Pacífico Sur, conocido por la observación de ballenas, sus playas vírgenes, sus fuertes tradiciones culturales y por ser la única nación del Pacífico que nunca ha sido colonizada formalmente.',
+      fr: 'Tonga est un royaume polynésien du Pacifique Sud, connu pour l\'observation des baleines, ses plages immaculées, ses fortes traditions culturelles et est la seule nation du Pacifique jamais officiellement colonisée.',
+      de: 'Tonga ist ein polynesisches Königreich im Südpazifik, das für Walbeobachtungen, unberührte Strände, starke kulturelle Traditionen und die einzige pazifische Nation bekannt ist, die nie offiziell kolonisiert wurde.',
     },
-    {
-      year: '1970',
-      title: 'Full Independence',
-      description:
-        'Tonga regained full sovereignty and joined the Commonwealth of Nations.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: 'Traditional Navigation',
-      year: 'Ancient',
-      description:
-        'Polynesian navigators used stars, waves, and bird patterns to travel vast ocean distances.',
-    },
-    {
-      name: 'Tapa Cloth (Ngatu)',
-      year: 'Centuries-old',
-      description:
-        'Decorative bark cloth production remains a key cultural and artistic tradition.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Vavaʻu Islands',
-      description:
-        'A world-famous destination for whale watching, sailing, and crystal-clear waters.',
-    },
-    {
-      name: 'Haʻamonga ʻa Maui Trilithon',
-      description:
-        'A mysterious stone monument often compared to Stonehenge.',
-    },
-    {
-      name: 'Tongatapu',
-      description:
-        'The main island, home to the capital and major cultural sites.',
-    },
-    {
-      name: 'ʻEua National Park',
-      description:
-        'Known for hiking trails, caves, and dramatic coastal cliffs.',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Best time to visit',
-      description:
-        'May–October offers drier weather and whale season (July–October).',
-    },
-    {
-      item: 'Dress code',
-      description:
-        'Modest clothing is expected, especially in villages and on Sundays.',
-    },
-    {
-      item: 'Sunday observance',
-      description:
-        'Most businesses close on Sundays; plan activities accordingly.',
-    },
-    {
-      item: 'Cash',
-      description:
-        'Cash is widely used outside major hotels; ATMs are limited.',
-    },
-    {
-      item: 'Respect & etiquette',
-      description:
-        'Respect for elders, royalty, and church traditions is very important.',
-    },
-  ],
-
-  mainDish: {
-    id: 'tonga-main',
-    name: 'Lu Pulu',
-    description: 'Corned beef wrapped in taro leaves and cooked with coconut cream',
-    cookingTime: 120,
-    servings: 6,
-    dietType: 'meat',
-    ingredients: [
-      { name: 'Corned beef', amount: 500, unit: 'g' },
-      { name: 'Taro leaves', amount: 400, unit: 'g' },
-      { name: 'Coconut cream', amount: 400, unit: 'ml' },
-      { name: 'Onions', amount: 2, unit: 'whole' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Nuku\'alofa',
+          sv: 'Nuku\'alofa',
+          es: 'Nuku\'alofa',
+          fr: 'Nuku\'alofa',
+          de: 'Nuku\'alofa',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '106,000',
+          sv: '106 000',
+          es: '106.000',
+          fr: '106 000',
+          de: '106.000',
+        },
+      },
+      {
+        label: {
+          en: 'Official Languages',
+          sv: 'Officiella språk',
+          es: 'Idiomas oficiales',
+          fr: 'Langues officielles',
+          de: 'Amtssprachen',
+        },
+        value: {
+          en: 'Tongan, English',
+          sv: 'Tongan, engelska',
+          es: 'Tongano, inglés',
+          fr: 'tonguien, anglais',
+          de: 'Tonganisch, Englisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Tongan Paʻanga (TOP)',
+          sv: 'Tongan Paʻanga (TOPP)',
+          es: 'Pa\'anga tongano (ARRIBA)',
+          fr: 'Pa\'anga tongien (TOP)',
+          de: 'Tongaisches Paʻanga (TOP)',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '747 km²',
+          sv: '747 km²',
+          es: '747 km²',
+          fr: '747 km²',
+          de: '747 km²',
+        },
+      },
     ],
-    steps: [
-      'Wrap taro leaves around pieces of corned beef',
-      'Add sliced onions and coconut cream',
-      'Wrap tightly in foil or banana leaves',
-      'Bake in an earth oven (umu) or conventional oven',
-      'Cook for about 2 hours until tender',
-      'Serve with taro, yam, or cassava',
+    facts: [
+      {
+        en: 'Tonga was never formally colonized by a European power',
+        sv: 'Tonga koloniserades aldrig formellt av en europeisk makt',
+        es: 'Tonga nunca fue colonizada formalmente por una potencia europea',
+        fr: 'Les Tonga n’ont jamais été formellement colonisées par une puissance européenne',
+        de: 'Tonga wurde nie offiziell von einer europäischen Macht kolonisiert',
+      },
+      {
+        en: 'It is one of the last remaining Polynesian monarchies',
+        sv: 'Det är en av de sista kvarvarande polynesiska monarkierna',
+        es: 'Es una de las últimas monarquías polinesias que quedan',
+        fr: 'C\'est l\'une des dernières monarchies polynésiennes',
+        de: 'Es ist eine der letzten verbliebenen polynesischen Monarchien',
+      },
+      {
+        en: 'The country consists of 169 islands, about 36 of which are inhabited',
+        sv: 'Landet består av 169 öar, varav cirka 36 är bebodda',
+        es: 'El país consta de 169 islas, de las cuales unas 36 están habitadas',
+        fr: 'Le pays se compose de 169 îles, dont environ 36 sont habitées',
+        de: 'Das Land besteht aus 169 Inseln, von denen etwa 36 bewohnt sind',
+      },
+      {
+        en: 'Tonga is one of the best places in the world to swim with humpback whales',
+        sv: 'Tonga är en av de bästa platserna i världen att simma med knölvalar',
+        es: 'Tonga es uno de los mejores lugares del mundo para nadar con ballenas jorobadas',
+        fr: 'Tonga est l\'un des meilleurs endroits au monde pour nager avec les baleines à bosse',
+        de: 'Tonga ist einer der besten Orte der Welt, um mit Buckelwalen zu schwimmen',
+      },
+      {
+        en: 'Traditional hierarchy and respect play a central role in society',
+        sv: 'Traditionell hierarki och respekt spelar en central roll i samhället',
+        es: 'La jerarquía tradicional y el respeto desempeñan un papel central en la sociedad',
+        fr: 'La hiérarchie traditionnelle et le respect jouent un rôle central dans la société',
+        de: 'Traditionelle Hierarchie und Respekt spielen in der Gesellschaft eine zentrale Rolle',
+      },
+      {
+        en: 'Sunday is widely observed as a day of rest and worship',
+        sv: 'Söndagen är allmänt betraktad som en dag för vila och tillbedjan',
+        es: 'El domingo se observa ampliamente como un día de descanso y adoración',
+        fr: 'Le dimanche est largement observé comme jour de repos et de culte',
+        de: 'Der Sonntag wird weithin als Ruhe- und Gottesdiensttag begangen',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'tonga-dessert',
-    name: 'Faikakai Topai',
-    description:
-      'Soft dumplings served in sweet coconut syrup, commonly enjoyed as a dessert.',
-    cookingTime: 40,
-    servings: 6,
-    dietType: 'vegetarian',
-    ingredients: [
-      { name: 'All-purpose flour', amount: 300, unit: 'g' },
-      { name: 'Water', amount: 180, unit: 'ml' },
-      { name: 'Coconut milk', amount: 400, unit: 'ml' },
-      { name: 'Sugar', amount: 120, unit: 'g' },
-      { name: 'Vanilla (optional)', amount: 1, unit: 'tsp' },
+    foodCulture: 'Tongan cuisine centers on root vegetables, coconut, seafood, and meats cooked in traditional earth ovens (umu). Meals are often communal and prepared for extended family gatherings and celebrations.',
+    history: [
+      {
+        year: 'c. 950 AD',
+        title: 'Tui Tonga Empire',
+        description: {
+          en: 'The Tui Tonga dynasty emerged, establishing one of the earliest Polynesian maritime empires.',
+          sv: 'Tui Tonga-dynastin uppstod och etablerade ett av de tidigaste polynesiska maritima imperiet.',
+          es: 'Surgió la dinastía Tui Tonga, que estableció uno de los primeros imperios marítimos polinesios.',
+          fr: 'La dynastie Tui Tonga a émergé, établissant l\'un des premiers empires maritimes polynésiens.',
+          de: 'Die Tui-Tonga-Dynastie entstand und gründete eines der frühesten polynesischen Seereiche.',
+        },
+      },
+      {
+        year: '1773',
+        title: 'European Contact',
+        description: {
+          en: 'Captain James Cook visited Tonga, later referring to it as the “Friendly Islands.”',
+          sv: 'Kapten James Cook besökte Tonga och hänvisade senare till det som de "vänliga öarna".',
+          es: 'El capitán James Cook visitó Tonga y luego se refirió a ella como las "Islas Amigas".',
+          fr: 'Le capitaine James Cook a visité les Tonga, les appelant plus tard les « îles amies ».',
+          de: 'Kapitän James Cook besuchte Tonga und nannte es später die „Freundlichen Inseln“.',
+        },
+      },
+      {
+        year: '1900',
+        title: 'British Protected State',
+        description: {
+          en: 'Tonga became a British-protected state but retained its monarchy and internal governance.',
+          sv: 'Tonga blev en brittiskt skyddad stat men behöll sin monarki och interna styrning.',
+          es: 'Tonga se convirtió en un estado protegido por los británicos, pero conservó su monarquía y su gobierno interno.',
+          fr: 'Les Tonga sont devenues un État protégé par les Britanniques, mais ont conservé leur monarchie et leur gouvernance interne.',
+          de: 'Tonga wurde ein von Großbritannien geschützter Staat, behielt aber seine Monarchie und interne Regierungsführung.',
+        },
+      },
+      {
+        year: '1970',
+        title: 'Full Independence',
+        description: {
+          en: 'Tonga regained full sovereignty and joined the Commonwealth of Nations.',
+          sv: 'Tonga återfick full suveränitet och gick med i Nationernas Commonwealth.',
+          es: 'Tonga recuperó la plena soberanía y se unió a la Commonwealth of Nations.',
+          fr: 'Les Tonga ont retrouvé leur pleine souveraineté et ont rejoint le Commonwealth des Nations.',
+          de: 'Tonga erlangte die volle Souveränität zurück und trat dem Commonwealth of Nations bei.',
+        },
+      },
     ],
-    steps: [
-      'Mix flour and water to form a soft dough',
-      'Shape into small dumplings',
-      'Boil dumplings until they float',
-      'Heat coconut milk and sugar in a separate pot',
-      'Add cooked dumplings to coconut sauce',
-      'Simmer gently for 10–15 minutes',
-      'Serve warm',
+    innovations: [
+      {
+        name: {
+          en: 'Traditional Navigation',
+          sv: 'Traditionell navigering',
+          es: 'Navegación Tradicional',
+          fr: 'Navigation traditionnelle',
+          de: 'Traditionelle Navigation',
+        },
+        year: 'Ancient',
+        description: {
+          en: 'Polynesian navigators used stars, waves, and bird patterns to travel vast ocean distances.',
+          sv: 'Polynesiska navigatörer använde stjärnor, vågor och fågelmönster för att resa stora havsavstånd.',
+          es: 'Los navegantes polinesios utilizaban estrellas, olas y patrones de aves para viajar grandes distancias oceánicas.',
+          fr: 'Les navigateurs polynésiens utilisaient des étoiles, des vagues et des motifs d\'oiseaux pour parcourir de vastes distances océaniques.',
+          de: 'Polynesische Seefahrer nutzten Sterne, Wellen und Vogelmuster, um weite Ozeanentfernungen zurückzulegen.',
+        },
+      },
+      {
+        name: {
+          en: 'Tapa Cloth (Ngatu)',
+          sv: 'Tapa Cloth (Ngatu)',
+          es: 'Tela de tapa (Ngatu)',
+          fr: 'Tissu Tapa (Ngatu)',
+          de: 'Tapa-Tuch (Ngatu)',
+        },
+        year: 'Centuries-old',
+        description: {
+          en: 'Decorative bark cloth production remains a key cultural and artistic tradition.',
+          sv: 'Tillverkning av dekorativa barktyger är fortfarande en viktig kulturell och konstnärlig tradition.',
+          es: 'La producción de telas decorativas de corteza sigue siendo una tradición cultural y artística clave.',
+          fr: 'La production de tissus décoratifs en écorce reste une tradition culturelle et artistique clé.',
+          de: 'Die Herstellung dekorativer Rindenstoffe bleibt eine wichtige kulturelle und künstlerische Tradition.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Kava',
-    nonAlcoholic: 'Coconut water, fresh tropical juices',
-  },
-
-  music: [
-    'Traditional log drum (nafa) performances',
-    'Tongan choral singing',
-    'Polynesian ceremonial music',
-  ],
-
-  decorationIdeas: [
-    'Red and white national colors',
-    'Royal and crown motifs',
-    'Tropical flowers and palm leaves',
-    'Ocean and whale symbolism',
-  ],
-
-  conversationStarters: [
-    'Have you ever swum with whales?',
-    'What do you know about Polynesian navigation?',
-    'Would you visit a country that shuts down on Sundays?',
-  ],
-
-  quiz: [
-    {
-      id: 'tonga-q1',
-      question: "What is unique about Tonga's history?",
-      options: ['First to gain independence', 'Never colonized', 'Largest island nation', 'No monarchy'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'tonga-q2',
-      question: 'What is the capital of Tonga?',
-      options: ["Nuku'alofa", 'Apia', 'Suva', 'Port Vila'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tonga-q3',
-      question: 'Which region best describes Tonga?',
-      options: ['Melanesia', 'Micronesia', 'Polynesia', 'Caribbean'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'tonga-q4',
-      question: 'Approximately how many islands make up Tonga?',
-      options: ['12', '45', '169', '900'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'tonga-q5',
-      question: 'Which marine animal is Tonga famous for?',
-      options: ['Great white sharks', 'Humpback whales', 'Manatees', 'Sea lions'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'tonga-q6',
-      question: 'What type of government does Tonga have?',
-      options: ['Republic', 'Military rule', 'Polynesian monarchy', 'City-state federation'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'tonga-q7',
-      question: 'What are Tonga’s official languages?',
-      options: ['French and English', 'Tongan and English', 'Spanish and Portuguese', 'Tongan only'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'tonga-q8',
-      question: 'What is the currency of Tonga?',
-      options: ['Tongan Paʻanga', 'Tongan Dollar', 'Pacific Franc', 'Tala'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tonga-q9',
-      question: 'What is Lu Pulu traditionally made with?',
-      options: [
-        'Chicken and rice',
-        'Corned beef, taro leaves, coconut cream',
-        'Fish and noodles',
-        'Beef and potatoes',
+    mustVisit: [
+      {
+        name: {
+          en: 'Vavaʻu Islands',
+          sv: 'Vavaʻu Islands',
+          es: 'Islas Vava\'u',
+          fr: 'Îles Vava\'u',
+          de: 'Vavaʻu-Inseln',
+        },
+        description: {
+          en: 'A world-famous destination for whale watching, sailing, and crystal-clear waters.',
+          sv: 'En världsberömd destination för valskådning, segling och kristallklart vatten.',
+          es: 'Un destino mundialmente famoso por el avistamiento de ballenas, la navegación y las aguas cristalinas.',
+          fr: 'Une destination de renommée mondiale pour l\'observation des baleines, la voile et ses eaux cristallines.',
+          de: 'Ein weltberühmtes Reiseziel für Walbeobachtungen, Segeln und kristallklares Wasser.',
+        },
+      },
+      {
+        name: {
+          en: 'Haʻamonga ʻa Maui Trilithon',
+          sv: 'Haʻamonga ʻa Maui Trilithon',
+          es: 'Trilito de Haʻamonga ʻa Maui',
+          fr: 'Ha\'amonga\'a Maui Trilithon',
+          de: 'Haʻamonga ʻa Maui Trilithon',
+        },
+        description: {
+          en: 'A mysterious stone monument often compared to Stonehenge.',
+          sv: 'Ett mystiskt stenmonument som ofta jämförs med Stonehenge.',
+          es: 'Un misterioso monumento de piedra a menudo comparado con Stonehenge.',
+          fr: 'Un mystérieux monument en pierre souvent comparé à Stonehenge.',
+          de: 'Ein geheimnisvolles Steinmonument, das oft mit Stonehenge verglichen wird.',
+        },
+      },
+      {
+        name: {
+          en: 'Tongatapu',
+          sv: 'Tongatapu',
+          es: 'Tongatapu',
+          fr: 'Tongatapu',
+          de: 'Tongatapu',
+        },
+        description: {
+          en: 'The main island, home to the capital and major cultural sites.',
+          sv: 'Huvudön, hem till huvudstaden och stora kulturella platser.',
+          es: 'La isla principal, hogar de la capital y de importantes sitios culturales.',
+          fr: 'L\'île principale, qui abrite la capitale et des sites culturels majeurs.',
+          de: 'Die Hauptinsel, Heimat der Hauptstadt und wichtiger Kulturstätten.',
+        },
+      },
+      {
+        name: {
+          en: 'ʻEua National Park',
+          sv: 'ʻEua nationalpark',
+          es: 'ʻParque Nacional Eua',
+          fr: 'Parc national d\'Eua',
+          de: 'ʻEua-Nationalpark',
+        },
+        description: {
+          en: 'Known for hiking trails, caves, and dramatic coastal cliffs.',
+          sv: 'Känd för vandringsleder, grottor och dramatiska kustklippor.',
+          es: 'Conocido por rutas de senderismo, cuevas y espectaculares acantilados costeros.',
+          fr: 'Connu pour ses sentiers de randonnée, ses grottes et ses spectaculaires falaises côtières.',
+          de: 'Bekannt für Wanderwege, Höhlen und dramatische Küstenklippen.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Best time to visit',
+        description: {
+          en: 'May–October offers drier weather and whale season (July–October).',
+          sv: 'Maj–oktober erbjuder torrare väder och valsäsong (juli–oktober).',
+          es: 'De mayo a octubre se ofrece un clima más seco y una temporada de ballenas (julio-octubre).',
+          fr: 'De mai à octobre, le temps est plus sec et la saison des baleines (juillet à octobre).',
+          de: 'Mai–Oktober bietet trockeneres Wetter und Walsaison (Juli–Oktober).',
+        },
+      },
+      {
+        item: 'Dress code',
+        description: {
+          en: 'Modest clothing is expected, especially in villages and on Sundays.',
+          sv: 'Det förväntas blygsamma kläder, särskilt i byar och på söndagar.',
+          es: 'Se espera ropa modesta, especialmente en los pueblos y los domingos.',
+          fr: 'Des vêtements modestes sont attendus, notamment dans les villages et le dimanche.',
+          de: 'Vor allem in Dörfern und sonntags wird bescheidene Kleidung erwartet.',
+        },
+      },
+      {
+        item: 'Sunday observance',
+        description: {
+          en: 'Most businesses close on Sundays; plan activities accordingly.',
+          sv: 'De flesta företag stänger på söndagar; planera verksamheten därefter.',
+          es: 'La mayoría de las empresas cierran los domingos; planificar las actividades en consecuencia.',
+          fr: 'La plupart des entreprises ferment le dimanche ; planifier les activités en conséquence.',
+          de: 'Die meisten Geschäfte sind sonntags geschlossen; Planen Sie die Aktivitäten entsprechend.',
+        },
+      },
+      {
+        item: 'Cash',
+        description: {
+          en: 'Cash is widely used outside major hotels; ATMs are limited.',
+          sv: 'Kontanter används i stor utsträckning utanför stora hotell; Uttagsautomater är begränsade.',
+          es: 'El efectivo se utiliza mucho fuera de los grandes hoteles; Los cajeros automáticos son limitados.',
+          fr: 'L’argent liquide est largement utilisé en dehors des grands hôtels ; Les guichets automatiques sont limités.',
+          de: 'Bargeld wird außerhalb großer Hotels häufig verwendet. Geldautomaten sind begrenzt.',
+        },
+      },
+      {
+        item: 'Respect & etiquette',
+        description: {
+          en: 'Respect for elders, royalty, and church traditions is very important.',
+          sv: 'Respekt för äldste, kungligheter och kyrkliga traditioner är mycket viktigt.',
+          es: 'El respeto por los mayores, la realeza y las tradiciones de la iglesia es muy importante.',
+          fr: 'Le respect des aînés, de la royauté et des traditions ecclésiales est très important.',
+          de: 'Respekt vor Ältesten, Königen und kirchlichen Traditionen ist sehr wichtig.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'tonga-main',
+      name: {
+        en: 'Lu Pulu',
+        sv: 'Lu Pulu',
+        es: 'Lu Pulu',
+        fr: 'Lu Pulu',
+        de: 'Lu Pulu',
+      },
+      description: {
+        en: 'Corned beef wrapped in taro leaves and cooked with coconut cream',
+        sv: 'Corned beef inlindad i taroblad och tillagad med kokosgrädde',
+        es: 'Carne en conserva envuelta en hojas de taro y cocinada con crema de coco',
+        fr: 'Corned-beef enveloppé dans des feuilles de taro et cuit avec de la crème de coco',
+        de: 'Corned Beef in Taroblätter gewickelt und mit Kokoscreme gekocht',
+      },
+      cookingTime: 120,
+      servings: 6,
+      dietType: {
+        en: 'meat',
+        sv: 'kött',
+        es: 'carne',
+        fr: 'viande',
+        de: 'Fleisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Corned beef',
+            sv: 'Corned beef',
+            es: 'Carne en conserva',
+            fr: 'Corned-beef',
+            de: 'Corned Beef',
+          },
+          amount: 500,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Taro leaves',
+            sv: 'Taro blad',
+            es: 'Hojas de taro',
+            fr: 'Feuilles de taro',
+            de: 'Taroblätter',
+          },
+          amount: 400,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Coconut cream',
+            sv: 'Kokosgrädde',
+            es: 'Crema de coco',
+            fr: 'Crème de coco',
+            de: 'Kokoscreme',
+          },
+          amount: 400,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Onions',
+            sv: 'Lök',
+            es: 'Cebollas',
+            fr: 'Oignons',
+            de: 'Zwiebeln',
+          },
+          amount: 2,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
       ],
-      correctAnswer: 1,
+      steps: [
+        {
+          en: 'Wrap taro leaves around pieces of corned beef',
+          sv: 'Linda taroblad runt bitar av corned beef',
+          es: 'Envuelva hojas de taro alrededor de trozos de carne en conserva',
+          fr: 'Enroulez des feuilles de taro autour de morceaux de corned-beef',
+          de: 'Wickeln Sie Taroblätter um Corned-Beef-Stücke',
+        },
+        {
+          en: 'Add sliced onions and coconut cream',
+          sv: 'Lägg i skivad lök och kokosgrädde',
+          es: 'Agrega la cebolla en rodajas y la crema de coco',
+          fr: 'Ajouter les oignons émincés et la crème de coco',
+          de: 'Geschnittene Zwiebeln und Kokoscreme hinzufügen',
+        },
+        {
+          en: 'Wrap tightly in foil or banana leaves',
+          sv: 'Slå in tätt i folie eller bananblad',
+          es: 'Envuelva bien en papel de aluminio o en hojas de plátano',
+          fr: 'Envelopper hermétiquement dans du papier d\'aluminium ou des feuilles de bananier',
+          de: 'Fest in Folie oder Bananenblätter einwickeln',
+        },
+        {
+          en: 'Bake in an earth oven (umu) or conventional oven',
+          sv: 'Baka i jordugn (umu) eller vanlig ugn',
+          es: 'Hornear en horno de tierra (umu) u horno convencional',
+          fr: 'Cuire au four en terre (umu) ou au four conventionnel',
+          de: 'Im Erdofen (umu) oder im herkömmlichen Ofen backen',
+        },
+        {
+          en: 'Cook for about 2 hours until tender',
+          sv: 'Koka i cirka 2 timmar tills de är mjuka',
+          es: 'Cocine durante aproximadamente 2 horas hasta que estén tiernos',
+          fr: 'Cuire environ 2 heures jusqu\'à tendreté',
+          de: 'Etwa 2 Stunden kochen, bis es weich ist',
+        },
+        {
+          en: 'Serve with taro, yam, or cassava',
+          sv: 'Servera med taro, yam eller kassava',
+          es: 'Sirva con taro, ñame o yuca',
+          fr: 'Servir avec du taro, de l\'igname ou du manioc',
+          de: 'Mit Taro, Yamswurzel oder Maniok servieren',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'tonga-q10',
-      question: 'Which traditional drink is widely known across Tonga and the Pacific?',
-      options: ['Kava', 'Sake', 'Mate', 'Kvass'],
-      correctAnswer: 0,
+    dessert: {
+      id: 'tonga-dessert',
+      name: {
+        en: 'Faikakai Topai',
+        sv: 'Faikakai Topai',
+        es: 'Faikakai Topai',
+        fr: 'Faikakai Topai',
+        de: 'Faikakai Topai',
+      },
+      description: {
+        en: 'Soft dumplings served in sweet coconut syrup, commonly enjoyed as a dessert.',
+        sv: 'Mjuka dumplings serverade i söt kokossirap, som vanligtvis avnjuts som efterrätt.',
+        es: 'Albóndigas suaves servidas en almíbar de coco dulce, comúnmente disfrutadas como postre.',
+        fr: 'Dumplings moelleux servis dans du sirop de noix de coco sucré, couramment appréciés en dessert.',
+        de: 'Weiche Knödel serviert in süßem Kokossirup, die häufig als Dessert genossen werden.',
+      },
+      cookingTime: 40,
+      servings: 6,
+      dietType: {
+        en: 'vegetarian',
+        sv: 'vegetarisk',
+        es: 'vegetariano',
+        fr: 'végétarien',
+        de: 'vegetarisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'All-purpose flour',
+            sv: 'Mjöl för alla ändamål',
+            es: 'Harina para todo uso',
+            fr: 'Farine tout usage',
+            de: 'Allzweckmehl',
+          },
+          amount: 300,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Water',
+            sv: 'Vatten',
+            es: 'Agua',
+            fr: 'Eau',
+            de: 'Wasser',
+          },
+          amount: 180,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Coconut milk',
+            sv: 'Kokosmjölk',
+            es: 'Leche de coco',
+            fr: 'Lait de coco',
+            de: 'Kokosmilch',
+          },
+          amount: 400,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Sugar',
+            sv: 'Socker',
+            es: 'Azúcar',
+            fr: 'Sucre',
+            de: 'Zucker',
+          },
+          amount: 120,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Vanilla (optional)',
+            sv: 'Vanilj (valfritt)',
+            es: 'Vainilla (opcional)',
+            fr: 'Vanille (facultatif)',
+            de: 'Vanille (optional)',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Mix flour and water to form a soft dough',
+          sv: 'Blanda mjöl och vatten till en mjuk deg',
+          es: 'Mezclar harina y agua hasta formar una masa suave',
+          fr: 'Mélanger la farine et l\'eau pour former une pâte molle',
+          de: 'Mehl und Wasser zu einem weichen Teig vermischen',
+        },
+        {
+          en: 'Shape into small dumplings',
+          sv: 'Forma till små dumplings',
+          es: 'Forme pequeñas bolas de masa',
+          fr: 'Façonner de petites boulettes',
+          de: 'Kleine Knödel daraus formen',
+        },
+        {
+          en: 'Boil dumplings until they float',
+          sv: 'Koka dumplings tills de flyter',
+          es: 'Hervir las bolas de masa hasta que floten',
+          fr: 'Faire bouillir les boulettes jusqu\'à ce qu\'elles flottent',
+          de: 'Knödel kochen, bis sie schwimmen',
+        },
+        {
+          en: 'Heat coconut milk and sugar in a separate pot',
+          sv: 'Värm kokosmjölk och socker i en separat gryta',
+          es: 'Calentar la leche de coco y el azúcar en una olla aparte',
+          fr: 'Faites chauffer le lait de coco et le sucre dans une casserole séparée',
+          de: 'Kokosmilch und Zucker in einem separaten Topf erhitzen',
+        },
+        {
+          en: 'Add cooked dumplings to coconut sauce',
+          sv: 'Tillsätt kokta dumplings i kokossås',
+          es: 'Agregue bolas de masa cocidas a la salsa de coco',
+          fr: 'Ajouter les raviolis cuits à la sauce à la noix de coco',
+          de: 'Gekochte Knödel zur Kokossauce hinzufügen',
+        },
+        {
+          en: 'Simmer gently for 10–15 minutes',
+          sv: 'Sjud försiktigt i 10–15 minuter',
+          es: 'Cocine a fuego lento durante 10 a 15 minutos',
+          fr: 'Laisser mijoter doucement pendant 10 à 15 minutes',
+          de: '10–15 Minuten leicht köcheln lassen',
+        },
+        {
+          en: 'Serve warm',
+          sv: 'Servera varm',
+          es: 'Servir caliente',
+          fr: 'Servir chaud',
+          de: 'Warm servieren',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-  ],
-
-  coordinates: { x: 94, y: 10 },
-};
+    drinks: {
+      alcoholic: {
+        en: 'Kava',
+        sv: 'Kava',
+        es: 'Kavá',
+        fr: 'Kava',
+        de: 'Kava',
+      },
+      nonAlcoholic: 'Coconut water, fresh tropical juices',
+    },
+    music: [
+      'Traditional log drum (nafa) performances',
+      'Tongan choral singing',
+      'Polynesian ceremonial music',
+    ],
+    decorationIdeas: [
+      'Red and white national colors',
+      'Royal and crown motifs',
+      'Tropical flowers and palm leaves',
+      'Ocean and whale symbolism',
+    ],
+    conversationStarters: [
+      'Have you ever swum with whales?',
+      'What do you know about Polynesian navigation?',
+      'Would you visit a country that shuts down on Sundays?',
+    ],
+    quiz: [
+      {
+        id: 'tonga-q1',
+        question: {
+          en: 'What is unique about Tonga\'s history?',
+          sv: 'Vad är unikt med Tongas historia?',
+          es: '¿Qué tiene de especial la historia de Tonga?',
+          fr: 'Qu\'est-ce qui est unique dans l\'histoire des Tonga ?',
+          de: 'Was ist das Besondere an Tongas Geschichte?',
+        },
+        options: [
+          {
+            en: 'First to gain independence',
+            sv: 'Först att få självständighet',
+            es: 'Primero en obtener la independencia',
+            fr: 'Premier à obtenir l\'indépendance',
+            de: 'Als Erste die Unabhängigkeit erlangt',
+          },
+          {
+            en: 'Never colonized',
+            sv: 'Aldrig koloniserat',
+            es: 'Nunca colonizado',
+            fr: 'Jamais colonisé',
+            de: 'Nie kolonisiert',
+          },
+          {
+            en: 'Largest island nation',
+            sv: 'Största önationen',
+            es: 'La nación insular más grande',
+            fr: 'La plus grande nation insulaire',
+            de: 'Größter Inselstaat',
+          },
+          {
+            en: 'No monarchy',
+            sv: 'Ingen monarki',
+            es: 'Sin monarquía',
+            fr: 'Pas de monarchie',
+            de: 'Keine Monarchie',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tonga-q2',
+        question: {
+          en: 'What is the capital of Tonga?',
+          sv: 'Vad är huvudstaden i Tonga?',
+          es: '¿Cuál es la capital de Tonga?',
+          fr: 'Quelle est la capitale des Tonga ?',
+          de: 'Was ist die Hauptstadt von Tonga?',
+        },
+        options: [
+          {
+            en: 'Nuku\'alofa',
+            sv: 'Nuku\'alofa',
+            es: 'Nuku\'alofa',
+            fr: 'Nuku\'alofa',
+            de: 'Nuku\'alofa',
+          },
+          {
+            en: 'Apia',
+            sv: 'Apia',
+            es: 'Apia',
+            fr: 'Apia',
+            de: 'Apia',
+          },
+          {
+            en: 'Suva',
+            sv: 'Suva',
+            es: 'Suva',
+            fr: 'Suva',
+            de: 'Suva',
+          },
+          {
+            en: 'Port Vila',
+            sv: 'Port Vila',
+            es: 'Puerto Vila',
+            fr: 'Port-Vila',
+            de: 'Port Vila',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tonga-q3',
+        question: {
+          en: 'Which region best describes Tonga?',
+          sv: 'Vilken region beskriver Tonga bäst?',
+          es: '¿Qué región describe mejor a Tonga?',
+          fr: 'Quelle région décrit le mieux les Tonga ?',
+          de: 'Welche Region beschreibt Tonga am besten?',
+        },
+        options: [
+          {
+            en: 'Melanesia',
+            sv: 'Melanesia',
+            es: 'melanesia',
+            fr: 'Mélanésie',
+            de: 'Melanesien',
+          },
+          {
+            en: 'Micronesia',
+            sv: 'Mikronesien',
+            es: 'Micronesia',
+            fr: 'Micronésie',
+            de: 'Mikronesien',
+          },
+          {
+            en: 'Polynesia',
+            sv: 'Polynesien',
+            es: 'Polinesia',
+            fr: 'Polynésie',
+            de: 'Polynesien',
+          },
+          {
+            en: 'Caribbean',
+            sv: 'Karibien',
+            es: 'Caribe',
+            fr: 'Caraïbes',
+            de: 'Karibik',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tonga-q4',
+        question: {
+          en: 'Approximately how many islands make up Tonga?',
+          sv: 'Ungefär hur många öar utgör Tonga?',
+          es: '¿Aproximadamente cuantas islas componen Tonga?',
+          fr: 'Environ combien d’îles composent les Tonga ?',
+          de: 'Aus wie vielen Inseln besteht Tonga ungefähr?',
+        },
+        options: [
+          '12',
+          '45',
+          '169',
+          '900',
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tonga-q5',
+        question: {
+          en: 'Which marine animal is Tonga famous for?',
+          sv: 'Vilket marint djur är Tonga känt för?',
+          es: '¿Por qué animal marino es famosa Tonga?',
+          fr: 'Pour quel animal marin les Tonga sont-elles célèbres ?',
+          de: 'Für welches Meerestier ist Tonga berühmt?',
+        },
+        options: [
+          {
+            en: 'Great white sharks',
+            sv: 'Vithajar',
+            es: 'Grandes tiburones blancos',
+            fr: 'Grands requins blancs',
+            de: 'Weiße Haie',
+          },
+          {
+            en: 'Humpback whales',
+            sv: 'Knölvalar',
+            es: 'Ballenas jorobadas',
+            fr: 'Baleines à bosse',
+            de: 'Buckelwale',
+          },
+          {
+            en: 'Manatees',
+            sv: 'Manater',
+            es: 'Manatíes',
+            fr: 'Lamantins',
+            de: 'Seekühe',
+          },
+          {
+            en: 'Sea lions',
+            sv: 'Sjölejon',
+            es: 'Lobos marinos',
+            fr: 'Lions de mer',
+            de: 'Seelöwen',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tonga-q6',
+        question: {
+          en: 'What type of government does Tonga have?',
+          sv: 'Vilken typ av regering har Tonga?',
+          es: '¿Qué tipo de gobierno tiene Tonga?',
+          fr: 'Quel type de gouvernement les Tonga ont-elles ?',
+          de: 'Welche Art von Regierung hat Tonga?',
+        },
+        options: [
+          {
+            en: 'Republic',
+            sv: 'Republiken',
+            es: 'República',
+            fr: 'République',
+            de: 'Republik',
+          },
+          {
+            en: 'Military rule',
+            sv: 'Militärstyre',
+            es: 'Gobierno militar',
+            fr: 'Régime militaire',
+            de: 'Militärherrschaft',
+          },
+          {
+            en: 'Polynesian monarchy',
+            sv: 'Polynesisk monarki',
+            es: 'Monarquía polinesia',
+            fr: 'Monarchie polynésienne',
+            de: 'Polynesische Monarchie',
+          },
+          {
+            en: 'City-state federation',
+            sv: 'Stad-stat federation',
+            es: 'Federación de ciudades-estado',
+            fr: 'Fédération cité-état',
+            de: 'Stadt-Staat-Föderation',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'tonga-q7',
+        question: {
+          en: 'What are Tonga’s official languages?',
+          sv: 'Vilka är Tongas officiella språk?',
+          es: '¿Cuáles son los idiomas oficiales de Tonga?',
+          fr: 'Quelles sont les langues officielles des Tonga ?',
+          de: 'Was sind Tongas Amtssprachen?',
+        },
+        options: [
+          {
+            en: 'French and English',
+            sv: 'Franska och engelska',
+            es: 'Francés e inglés',
+            fr: 'Français et anglais',
+            de: 'Französisch und Englisch',
+          },
+          {
+            en: 'Tongan and English',
+            sv: 'tonganska och engelska',
+            es: 'Tongano e inglés',
+            fr: 'Tongien et anglais',
+            de: 'Tonganisch und Englisch',
+          },
+          {
+            en: 'Spanish and Portuguese',
+            sv: 'spanska och portugisiska',
+            es: 'Español y portugués',
+            fr: 'Espagnol et portugais',
+            de: 'Spanisch und Portugiesisch',
+          },
+          {
+            en: 'Tongan only',
+            sv: 'Endast tonganska',
+            es: 'Sólo tongano',
+            fr: 'Tongien uniquement',
+            de: 'Nur Tonganisch',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tonga-q8',
+        question: {
+          en: 'What is the currency of Tonga?',
+          sv: 'Vilken är Tongas valuta?',
+          es: '¿Cuál es la moneda de Tonga?',
+          fr: 'Quelle est la monnaie des Tonga ?',
+          de: 'Was ist die Währung von Tonga?',
+        },
+        options: [
+          {
+            en: 'Tongan Paʻanga',
+            sv: 'Tongan Paʻanga',
+            es: 'Pa\'anga tongano',
+            fr: 'Pa\'anga tongien',
+            de: 'Tongaisches Paʻanga',
+          },
+          {
+            en: 'Tongan Dollar',
+            sv: 'tonganska dollar',
+            es: 'Dólar tongano',
+            fr: 'Dollar tongan',
+            de: 'Tonga-Dollar',
+          },
+          {
+            en: 'Pacific Franc',
+            sv: 'Stillahavsfranc',
+            es: 'Franco Pacífico',
+            fr: 'Franc Pacifique',
+            de: 'Pazifischer Franc',
+          },
+          {
+            en: 'Tala',
+            sv: 'Tala',
+            es: 'Talá',
+            fr: 'Tala',
+            de: 'Tala',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tonga-q9',
+        question: {
+          en: 'What is Lu Pulu traditionally made with?',
+          sv: 'Vad är Lu Pulu traditionellt gjord med?',
+          es: '¿Con qué se elabora tradicionalmente el Lu Pulu?',
+          fr: 'Avec quoi le Lu Pulu est-il traditionnellement fabriqué ?',
+          de: 'Womit wird Lu Pulu traditionell hergestellt?',
+        },
+        options: [
+          {
+            en: 'Chicken and rice',
+            sv: 'Kyckling och ris',
+            es: 'Pollo y arroz',
+            fr: 'Poulet et riz',
+            de: 'Huhn und Reis',
+          },
+          {
+            en: 'Corned beef, taro leaves, coconut cream',
+            sv: 'Corned beef, taroblad, kokosgrädde',
+            es: 'Carne en conserva, hojas de taro, crema de coco',
+            fr: 'Corned-beef, feuilles de taro, crème de coco',
+            de: 'Corned Beef, Taroblätter, Kokoscreme',
+          },
+          {
+            en: 'Fish and noodles',
+            sv: 'Fisk och nudlar',
+            es: 'Pescado y fideos',
+            fr: 'Poisson et nouilles',
+            de: 'Fisch und Nudeln',
+          },
+          {
+            en: 'Beef and potatoes',
+            sv: 'Nötkött och potatis',
+            es: 'Carne de ternera y patatas',
+            fr: 'Bœuf et pommes de terre',
+            de: 'Rindfleisch und Kartoffeln',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tonga-q10',
+        question: {
+          en: 'Which traditional drink is widely known across Tonga and the Pacific?',
+          sv: 'Vilken traditionell dryck är allmänt känd över Tonga och Stilla havet?',
+          es: '¿Qué bebida tradicional es ampliamente conocida en Tonga y el Pacífico?',
+          fr: 'Quelle boisson traditionnelle est largement connue à Tonga et dans le Pacifique ?',
+          de: 'Welches traditionelle Getränk ist in Tonga und im Pazifik weithin bekannt?',
+        },
+        options: [
+          {
+            en: 'Kava',
+            sv: 'Kava',
+            es: 'Kavá',
+            fr: 'Kava',
+            de: 'Kava',
+          },
+          {
+            en: 'Sake',
+            sv: 'Sake',
+            es: 'Bien',
+            fr: 'Saké',
+            de: 'Sake',
+          },
+          {
+            en: 'Mate',
+            sv: 'Kompis',
+            es: 'Compañero',
+            fr: 'Compagnon',
+            de: 'Kumpel',
+          },
+          {
+            en: 'Kvass',
+            sv: 'Kvass',
+            es: 'kvas',
+            fr: 'Kvas',
+            de: 'Kwas',
+          },
+        ],
+        correctAnswer: 0,
+      },
+    ],
+    coordinates: {
+      x: 94,
+      y: 10,
+    },
+  };

@@ -1,299 +1,1256 @@
 import { Country } from '@/types';
 
 export const tunisia: Country = {
-  id: 'tunisia',
-  name: 'Tunisia',
-  code: 'TN',
-  continent: 'Africa',
-  flag: '🇹🇳',
-  landscapeImage: 'https://images.unsplash.com/photo-1590071089561-25785860ae2d?w=800&q=80',
-  description:
-    'Tunisia is a North African country combining Arab and Berber cultures with Mediterranean influences. Known for ancient ruins, beautiful beaches, and diverse landscapes from the Sahara to the coast.',
-
-  quickFacts: [
-    { label: 'Capital', value: 'Tunis' },
-    { label: 'Population', value: '12 million' },
-    { label: 'Official Language', value: 'Arabic' },
-    { label: 'Currency', value: 'Tunisian Dinar (TND)' },
-    { label: 'Area', value: '163,610 km²' },
-  ],
-
-  facts: [
-    "Tunisia was the site of ancient Carthage, once Rome's greatest rival",
-    "The Star Wars films were partially filmed in Tunisia's desert",
-    'Tunisia has seven UNESCO World Heritage Sites',
-    "It is the smallest country in North Africa",
-    'Tunisia was the birthplace of the Arab Spring in 2010',
-    'Olive oil production is among the largest in the world',
-    'The Sahara Desert covers the southern part of the country',
-  ],
-
-  foodCulture:
-    'Tunisian cuisine blends Berber, Arab, Ottoman, and Mediterranean influences. Harissa (spicy chili paste), olive oil, seafood, couscous, and slow-cooked stews are central to everyday meals.',
-
-  history: [
-    {
-      year: '814 BC',
-      title: 'Founding of Carthage',
-      description:
-        'The Phoenicians founded Carthage, which became a major Mediterranean power and Rome’s greatest rival.',
+    id: 'tunisia',
+    name: {
+      en: 'Tunisia',
+      sv: 'Tunisien',
+      es: 'Túnez',
+      fr: 'Tunisie',
+      de: 'Tunesien',
     },
-    {
-      year: '146 BC',
-      title: 'Roman Rule',
-      description:
-        'Carthage was destroyed by Rome and Tunisia became a key Roman province.',
+    code: 'TN',
+    continent: {
+      en: 'Africa',
+      sv: 'Afrika',
+      es: 'África',
+      fr: 'Afrique',
+      de: 'Afrika',
     },
-    {
-      year: '7th Century',
-      title: 'Arab Conquest',
-      description:
-        'Islam and Arabic culture spread across the region, shaping modern Tunisia.',
+    flag: '🇹🇳',
+    landscapeImage: 'https://images.unsplash.com/photo-1590071089561-25785860ae2d?w=800&q=80',
+    description: {
+      en: 'Tunisia is a North African country combining Arab and Berber cultures with Mediterranean influences. Known for ancient ruins, beautiful beaches, and diverse landscapes from the Sahara to the coast.',
+      sv: 'Tunisien är ett nordafrikanskt land som kombinerar arabisk och berberkultur med medelhavsinfluenser. Känd för gamla ruiner, vackra stränder och olika landskap från Sahara till kusten.',
+      es: 'Túnez es un país del norte de África que combina las culturas árabe y bereber con influencias mediterráneas. Conocido por ruinas antiguas, hermosas playas y diversos paisajes desde el Sahara hasta la costa.',
+      fr: 'La Tunisie est un pays d\'Afrique du Nord mêlant les cultures arabe et berbère aux influences méditerranéennes. Connu pour ses ruines antiques, ses belles plages et ses paysages diversifiés du Sahara à la côte.',
+      de: 'Tunesien ist ein nordafrikanisches Land, das arabische und berberische Kulturen mit mediterranen Einflüssen verbindet. Bekannt für antike Ruinen, wunderschöne Strände und abwechslungsreiche Landschaften von der Sahara bis zur Küste.',
     },
-    {
-      year: '1881–1956',
-      title: 'French Protectorate',
-      description:
-        'Tunisia was under French rule until independence in 1956.',
-    },
-    {
-      year: '2010',
-      title: 'Arab Spring',
-      description:
-        'Popular protests in Tunisia sparked democratic movements across the Arab world.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: 'Carthaginian Maritime Trade',
-      year: 'Ancient Era',
-      description:
-        'Carthage was a naval and commercial powerhouse, pioneering Mediterranean trade routes.',
-    },
-    {
-      name: 'Roman Infrastructure',
-      year: '1st–3rd Century',
-      description:
-        'Tunisia preserves some of the best Roman roads, aqueducts, and amphitheaters in the world.',
-    },
-    {
-      name: 'Olive Oil Production',
-      year: 'Ancient–Modern',
-      description:
-        'Tunisia has been a major olive oil producer since Roman times and remains one today.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Carthage',
-      description:
-        'Ruins of the ancient Phoenician and Roman city overlooking the Mediterranean.',
-    },
-    {
-      name: 'Amphitheatre of El Djem',
-      description:
-        'One of the largest Roman amphitheaters ever built and a UNESCO World Heritage Site.',
-    },
-    {
-      name: 'Sahara Desert (Douz & Tozeur)',
-      description:
-        'Gateway towns for desert adventures, oases, and Star Wars filming locations.',
-    },
-    {
-      name: 'Sidi Bou Said',
-      description:
-        'Iconic blue-and-white coastal village near Tunis.',
-    },
-    {
-      name: 'Kairouan',
-      description:
-        'One of Islam’s holiest cities and home to the Great Mosque of Kairouan.',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Best time to visit',
-      description:
-        'Spring (April–May) and autumn (September–October) offer pleasant temperatures.',
-    },
-    {
-      item: 'Dress code',
-      description:
-        'Modest clothing recommended, especially in religious or rural areas.',
-    },
-    {
-      item: 'Money',
-      description:
-        'The Tunisian Dinar is not freely convertible; exchange locally.',
-    },
-    {
-      item: 'Transport',
-      description:
-        'Louages (shared taxis) and trains are common and affordable.',
-    },
-    {
-      item: 'Food tip',
-      description:
-        'Harissa is often spicy—ask for “little” or “no harissa” if sensitive to heat.',
-    },
-  ],
-
-  mainDish: {
-    id: 'tunisia-main',
-    name: 'Couscous Tunisien',
-    description:
-      'Traditional Tunisian couscous with lamb, vegetables, chickpeas, and harissa',
-    cookingTime: 90,
-    servings: 6,
-    dietType: 'meat',
-    ingredients: [
-      { name: 'Lamb chunks', amount: 600, unit: 'g' },
-      { name: 'Couscous semolina', amount: 500, unit: 'g' },
-      { name: 'Cooked chickpeas', amount: 200, unit: 'g' },
-      { name: 'Carrots', amount: 3, unit: 'whole' },
-      { name: 'Zucchini', amount: 2, unit: 'whole' },
-      { name: 'Turnips', amount: 2, unit: 'whole' },
-      { name: 'Harissa paste', amount: 2, unit: 'tbsp' },
-      { name: 'Tomato paste', amount: 2, unit: 'tbsp' },
-      { name: 'Cumin', amount: 1, unit: 'tsp' },
-      { name: 'Olive oil', amount: 3, unit: 'tbsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Tunis',
+          sv: 'Tunis',
+          es: 'Túnez',
+          fr: 'Tunisie',
+          de: 'Tunis',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '12 million',
+          sv: '12 miljoner',
+          es: '12 millones',
+          fr: '12 millions',
+          de: '12 Millionen',
+        },
+      },
+      {
+        label: {
+          en: 'Official Language',
+          sv: 'Officiellt språk',
+          es: 'Idioma oficial',
+          fr: 'Langue officielle',
+          de: 'Amtssprache',
+        },
+        value: {
+          en: 'Arabic',
+          sv: 'Arabiska',
+          es: 'Árabe',
+          fr: 'Arabe',
+          de: 'Arabisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Tunisian Dinar (TND)',
+          sv: 'Tunisisk dinar (TND)',
+          es: 'Dinar tunecino (TND)',
+          fr: 'Dinar tunisien (TND)',
+          de: 'Tunesischer Dinar (TND)',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '163,610 km²',
+          sv: '163 610 km²',
+          es: '163.610 km²',
+          fr: '163 610 km²',
+          de: '163.610 km²',
+        },
+      },
     ],
-    steps: [
-      'Brown lamb in olive oil with cumin and salt',
-      'Add water, tomato paste, and harissa; simmer 30 minutes',
-      'Add chickpeas and vegetables and cook until tender',
-      'Prepare couscous according to package instructions',
-      'Steam couscous briefly over the stew',
-      'Fluff couscous with olive oil',
-      'Serve couscous topped with meat and vegetables',
-      'Ladle broth over and add extra harissa if desired',
+    facts: [
+      {
+        en: 'Tunisia was the site of ancient Carthage, once Rome\'s greatest rival',
+        sv: 'Tunisien var platsen för antika Kartago, en gång Roms största rival',
+        es: 'Túnez fue el lugar de la antigua Cartago, que alguna vez fue el mayor rival de Roma',
+        fr: 'La Tunisie était le site de l\'ancienne Carthage, autrefois la plus grande rivale de Rome',
+        de: 'In Tunesien befand sich das antike Karthago, einst Roms größter Rivale',
+      },
+      {
+        en: 'The Star Wars films were partially filmed in Tunisia\'s desert',
+        sv: 'Star Wars-filmerna spelades delvis in i Tunisiens öken',
+        es: 'Las películas de Star Wars se rodaron parcialmente en el desierto de Túnez',
+        fr: 'Les films Star Wars ont été partiellement tournés dans le désert tunisien',
+        de: 'Die Star Wars-Filme wurden teilweise in der Wüste Tunesiens gedreht',
+      },
+      {
+        en: 'Tunisia has seven UNESCO World Heritage Sites',
+        sv: 'Tunisien har sju UNESCO: s världsarv',
+        es: 'Túnez tiene siete sitios declarados Patrimonio de la Humanidad por la UNESCO',
+        fr: 'La Tunisie compte sept sites du patrimoine mondial de l\'UNESCO',
+        de: 'Tunesien hat sieben UNESCO-Welterbestätten',
+      },
+      {
+        en: 'It is the smallest country in North Africa',
+        sv: 'Det är det minsta landet i Nordafrika',
+        es: 'Es el país más pequeño del norte de África',
+        fr: 'C\'est le plus petit pays d\'Afrique du Nord',
+        de: 'Es ist das kleinste Land in Nordafrika',
+      },
+      {
+        en: 'Tunisia was the birthplace of the Arab Spring in 2010',
+        sv: 'Tunisien var födelseplatsen för den arabiska våren 2010',
+        es: 'Túnez fue la cuna de la Primavera Árabe en 2010',
+        fr: 'La Tunisie a été le berceau du Printemps arabe en 2010',
+        de: 'Tunesien war der Geburtsort des Arabischen Frühlings im Jahr 2010',
+      },
+      {
+        en: 'Olive oil production is among the largest in the world',
+        sv: 'Olivoljaproduktionen är bland de största i världen',
+        es: 'La producción de aceite de oliva se encuentra entre las mayores del mundo',
+        fr: 'La production d\'huile d\'olive est parmi les plus importantes au monde',
+        de: 'Die Olivenölproduktion gehört zu den größten der Welt',
+      },
+      {
+        en: 'The Sahara Desert covers the southern part of the country',
+        sv: 'Saharaöknen täcker den södra delen av landet',
+        es: 'El desierto del Sahara cubre la parte sur del país.',
+        fr: 'Le désert du Sahara couvre la partie sud du pays',
+        de: 'Die Sahara-Wüste bedeckt den südlichen Teil des Landes',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/21531717/pexels-photo-21531717.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'tunisia-dessert',
-    name: 'Bambalouni',
-    description:
-      'Traditional Tunisian fried doughnuts, crispy outside and fluffy inside, often eaten hot with sugar.',
-    cookingTime: 40,
-    servings: 10,
-    dietType: 'vegetarian',
-    ingredients: [
-      { name: 'All-purpose flour', amount: 500, unit: 'g' },
-      { name: 'Dry yeast', amount: 7, unit: 'g' },
-      { name: 'Sugar', amount: 50, unit: 'g' },
-      { name: 'Salt', amount: 1, unit: 'tsp' },
-      { name: 'Warm water', amount: 300, unit: 'ml' },
-      { name: 'Vegetable oil (for frying)', amount: 600, unit: 'ml' },
-      { name: 'Powdered sugar (for serving)', amount: 50, unit: 'g' },
+    foodCulture: 'Tunisian cuisine blends Berber, Arab, Ottoman, and Mediterranean influences. Harissa (spicy chili paste), olive oil, seafood, couscous, and slow-cooked stews are central to everyday meals.',
+    history: [
+      {
+        year: '814 BC',
+        title: 'Founding of Carthage',
+        description: {
+          en: 'The Phoenicians founded Carthage, which became a major Mediterranean power and Rome’s greatest rival.',
+          sv: 'Fenicierna grundade Kartago, som blev en stor medelhavsmakt och Roms största rival.',
+          es: 'Los fenicios fundaron Cartago, que se convirtió en una importante potencia mediterránea y el mayor rival de Roma.',
+          fr: 'Les Phéniciens fondèrent Carthage, qui devint une grande puissance méditerranéenne et la plus grande rivale de Rome.',
+          de: 'Die Phönizier gründeten Karthago, das zu einer großen Mittelmeermacht und Roms größtem Rivalen wurde.',
+        },
+      },
+      {
+        year: '146 BC',
+        title: 'Roman Rule',
+        description: {
+          en: 'Carthage was destroyed by Rome and Tunisia became a key Roman province.',
+          sv: 'Kartago förstördes av Rom och Tunisien blev en viktig romersk provins.',
+          es: 'Cartago fue destruida por Roma y Túnez se convirtió en una provincia romana clave.',
+          fr: 'Carthage fut détruite par Rome et la Tunisie devint une province romaine clé.',
+          de: 'Karthago wurde von Rom zerstört und Tunesien wurde zu einer wichtigen römischen Provinz.',
+        },
+      },
+      {
+        year: '7th Century',
+        title: 'Arab Conquest',
+        description: {
+          en: 'Islam and Arabic culture spread across the region, shaping modern Tunisia.',
+          sv: 'Islam och arabisk kultur spreds över regionen och formar det moderna Tunisien.',
+          es: 'El Islam y la cultura árabe se extendieron por la región, dando forma al Túnez moderno.',
+          fr: 'L’Islam et la culture arabe se sont répandus dans toute la région, façonnant la Tunisie moderne.',
+          de: 'Der Islam und die arabische Kultur verbreiteten sich in der Region und prägten das moderne Tunesien.',
+        },
+      },
+      {
+        year: '1881–1956',
+        title: 'French Protectorate',
+        description: {
+          en: 'Tunisia was under French rule until independence in 1956.',
+          sv: 'Tunisien var under franskt styre fram till självständigheten 1956.',
+          es: 'Túnez estuvo bajo dominio francés hasta su independencia en 1956.',
+          fr: 'La Tunisie était sous domination française jusqu\'à son indépendance en 1956.',
+          de: 'Tunesien stand bis zur Unabhängigkeit 1956 unter französischer Herrschaft.',
+        },
+      },
+      {
+        year: '2010',
+        title: {
+          en: 'Arab Spring',
+          sv: 'Arabisk vår',
+          es: 'Primavera Árabe',
+          fr: 'Printemps arabe',
+          de: 'Arabischer Frühling',
+        },
+        description: {
+          en: 'Popular protests in Tunisia sparked democratic movements across the Arab world.',
+          sv: 'Populära protester i Tunisien utlöste demokratiska rörelser över hela arabvärlden.',
+          es: 'Las protestas populares en Túnez desencadenaron movimientos democráticos en todo el mundo árabe.',
+          fr: 'Les manifestations populaires en Tunisie ont déclenché des mouvements démocratiques dans tout le monde arabe.',
+          de: 'Volksproteste in Tunesien lösten demokratische Bewegungen in der gesamten arabischen Welt aus.',
+        },
+      },
     ],
-    steps: [
-      'Mix yeast, sugar, and warm water; rest 10 minutes',
-      'Add flour and salt and mix into sticky dough',
-      'Cover and let rise 1 hour until doubled',
-      'Heat oil to 180°C',
-      'Stretch dough into rings with floured hands',
-      'Fry until golden on both sides',
-      'Drain on paper towels',
-      'Dust generously with powdered sugar',
-      'Serve hot',
+    innovations: [
+      {
+        name: {
+          en: 'Carthaginian Maritime Trade',
+          sv: 'Kartago sjöfart',
+          es: 'Comercio marítimo cartaginés',
+          fr: 'Commerce maritime carthaginois',
+          de: 'Karthagischer Seehandel',
+        },
+        year: 'Ancient Era',
+        description: {
+          en: 'Carthage was a naval and commercial powerhouse, pioneering Mediterranean trade routes.',
+          sv: 'Kartago var ett marin och kommersiellt kraftpaket, banbrytande handelsvägar i Medelhavet.',
+          es: 'Cartago fue una potencia naval y comercial, pionera en las rutas comerciales del Mediterráneo.',
+          fr: 'Carthage était une puissance navale et commerciale, pionnière des routes commerciales méditerranéennes.',
+          de: 'Karthago war ein See- und Handelszentrum und Pionier der Handelsrouten im Mittelmeerraum.',
+        },
+      },
+      {
+        name: {
+          en: 'Roman Infrastructure',
+          sv: 'Romersk infrastruktur',
+          es: 'Infraestructura romana',
+          fr: 'Infrastructure romaine',
+          de: 'Römische Infrastruktur',
+        },
+        year: '1st–3rd Century',
+        description: {
+          en: 'Tunisia preserves some of the best Roman roads, aqueducts, and amphitheaters in the world.',
+          sv: 'Tunisien bevarar några av de bästa romerska vägarna, akvedukterna och amfiteatrarna i världen.',
+          es: 'Túnez conserva algunas de las mejores calzadas, acueductos y anfiteatros romanos del mundo.',
+          fr: 'La Tunisie conserve certaines des meilleures voies romaines, aqueducs et amphithéâtres du monde.',
+          de: 'Tunesien bewahrt einige der besten römischen Straßen, Aquädukte und Amphitheater der Welt.',
+        },
+      },
+      {
+        name: {
+          en: 'Olive Oil Production',
+          sv: 'Olivolja produktion',
+          es: 'Producción de aceite de oliva',
+          fr: 'Production d\'huile d\'olive',
+          de: 'Olivenölproduktion',
+        },
+        year: 'Ancient–Modern',
+        description: {
+          en: 'Tunisia has been a major olive oil producer since Roman times and remains one today.',
+          sv: 'Tunisien har varit en stor olivoljeproducent sedan romartiden och är fortfarande en idag.',
+          es: 'Túnez ha sido un importante productor de aceite de oliva desde la época romana y lo sigue siendo hoy en día.',
+          fr: 'La Tunisie est un important producteur d\'huile d\'olive depuis l\'époque romaine et le reste aujourd\'hui.',
+          de: 'Tunesien ist seit der Römerzeit ein bedeutender Olivenölproduzent und ist es auch heute noch.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/27967498/pexels-photo-27967498.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Boukha (fig brandy), Tunisian wine',
-    nonAlcoholic: 'Mint tea, Turkish coffee, Lemon-mint juice',
-  },
-
-  music: [
-    'Tunisian Malouf',
-    'Traditional Mezwed',
-    'Saber Rebaï',
-    'Latifa classics',
-  ],
-
-  decorationIdeas: [
-    'Blue and white Mediterranean colors',
-    'Ceramic tiles and pottery',
-    'Brass lanterns',
-    'Woven baskets',
-    'Olive branches',
-  ],
-
-  conversationStarters: [
-    'Have you ever visited ancient ruins like Carthage?',
-    'Do you enjoy spicy food like harissa?',
-    'Would you visit the Sahara Desert?',
-    'Have you watched Star Wars filmed in real desert locations?',
-  ],
-
-  quiz: [
-    {
-      id: 'tunisia-q1',
-      question: 'What is the capital of Tunisia?',
-      options: ['Sfax', 'Tunis', 'Sousse', 'Carthage'],
-      correctAnswer: 1,
+    mustVisit: [
+      {
+        name: {
+          en: 'Carthage',
+          sv: 'Kartago',
+          es: 'Cartago',
+          fr: 'Carthage',
+          de: 'Karthago',
+        },
+        description: {
+          en: 'Ruins of the ancient Phoenician and Roman city overlooking the Mediterranean.',
+          sv: 'Ruinerna av den antika feniciska och romerska staden med utsikt över Medelhavet.',
+          es: 'Ruinas de la antigua ciudad fenicia y romana con vistas al Mediterráneo.',
+          fr: 'Ruines de l’ancienne cité phénicienne et romaine surplombant la Méditerranée.',
+          de: 'Ruinen der antiken phönizischen und römischen Stadt mit Blick auf das Mittelmeer.',
+        },
+      },
+      {
+        name: {
+          en: 'Amphitheatre of El Djem',
+          sv: 'Amfiteatern i El Djem',
+          es: 'Anfiteatro de El Djem',
+          fr: 'Amphithéâtre d\'El Djem',
+          de: 'Amphitheater von El Djem',
+        },
+        description: {
+          en: 'One of the largest Roman amphitheaters ever built and a UNESCO World Heritage Site.',
+          sv: 'En av de största romerska amfiteatrarna som någonsin byggts och en UNESCO: s världsarvslista.',
+          es: 'Uno de los anfiteatros romanos más grandes jamás construidos y declarado Patrimonio de la Humanidad por la UNESCO.',
+          fr: 'L\'un des plus grands amphithéâtres romains jamais construits et inscrit au patrimoine mondial de l\'UNESCO.',
+          de: 'Eines der größten römischen Amphitheater, das jemals gebaut wurde und ein UNESCO-Weltkulturerbe.',
+        },
+      },
+      {
+        name: {
+          en: 'Sahara Desert (Douz & Tozeur)',
+          sv: 'Saharaöknen (Douz & Tozeur)',
+          es: 'Desierto del Sahara (Douz y Tozeur)',
+          fr: 'Désert du Sahara (Douz et Tozeur)',
+          de: 'Sahara-Wüste (Douz und Tozeur)',
+        },
+        description: {
+          en: 'Gateway towns for desert adventures, oases, and Star Wars filming locations.',
+          sv: 'Portstäder för ökenäventyr, oaser och Star Wars-inspelningsplatser.',
+          es: 'Ciudades de entrada para aventuras en el desierto, oasis y lugares de rodaje de Star Wars.',
+          fr: 'Villes portes d\'entrée pour les aventures dans le désert, les oasis et les lieux de tournage de Star Wars.',
+          de: 'Torstädte für Wüstenabenteuer, Oasen und Star-Wars-Drehorte.',
+        },
+      },
+      {
+        name: {
+          en: 'Sidi Bou Said',
+          sv: 'Sidi Bou Said',
+          es: 'Sidi Bou Said',
+          fr: 'Sidi Bou Saïd',
+          de: 'Sidi Bou Said',
+        },
+        description: {
+          en: 'Iconic blue-and-white coastal village near Tunis.',
+          sv: 'Ikonisk blå-vit kustby nära Tunis.',
+          es: 'Emblemático pueblo costero azul y blanco cerca de Túnez.',
+          fr: 'Village côtier bleu et blanc emblématique près de Tunis.',
+          de: 'Ikonisches blau-weißes Küstendorf in der Nähe von Tunis.',
+        },
+      },
+      {
+        name: {
+          en: 'Kairouan',
+          sv: 'Kairouan',
+          es: 'Kairuán',
+          fr: 'Kairouan',
+          de: 'Kairouan',
+        },
+        description: {
+          en: 'One of Islam’s holiest cities and home to the Great Mosque of Kairouan.',
+          sv: 'En av islams heligaste städer och hem till den stora moskén i Kairouan.',
+          es: 'Una de las ciudades más sagradas del Islam y hogar de la Gran Mezquita de Kairouan.',
+          fr: 'L’une des villes les plus saintes de l’Islam et abritant la Grande Mosquée de Kairouan.',
+          de: 'Eine der heiligsten Städte des Islam und Heimat der Großen Moschee von Kairouan.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Best time to visit',
+        description: {
+          en: 'Spring (April–May) and autumn (September–October) offer pleasant temperatures.',
+          sv: 'Våren (april–maj) och hösten (september–oktober) erbjuder behagliga temperaturer.',
+          es: 'La primavera (abril-mayo) y el otoño (septiembre-octubre) ofrecen temperaturas agradables.',
+          fr: 'Le printemps (avril-mai) et l\'automne (septembre-octobre) offrent des températures agréables.',
+          de: 'Der Frühling (April–Mai) und der Herbst (September–Oktober) bieten angenehme Temperaturen.',
+        },
+      },
+      {
+        item: 'Dress code',
+        description: {
+          en: 'Modest clothing recommended, especially in religious or rural areas.',
+          sv: 'Anspråkslösa kläder rekommenderas, särskilt i religiösa eller landsbygdsområden.',
+          es: 'Se recomienda ropa modesta, especialmente en zonas religiosas o rurales.',
+          fr: 'Vêtements modestes recommandés, surtout dans les zones religieuses ou rurales.',
+          de: 'Bescheidene Kleidung wird empfohlen, insbesondere in religiösen oder ländlichen Gebieten.',
+        },
+      },
+      {
+        item: 'Money',
+        description: {
+          en: 'The Tunisian Dinar is not freely convertible; exchange locally.',
+          sv: 'Den tunisiska dinaren är inte fritt konvertibel; utbyta lokalt.',
+          es: 'El dinar tunecino no es libremente convertible; intercambiar localmente.',
+          fr: 'Le dinar tunisien n\'est pas librement convertible ; échanger localement.',
+          de: 'Der tunesische Dinar ist nicht frei konvertierbar; vor Ort austauschen.',
+        },
+      },
+      {
+        item: 'Transport',
+        description: {
+          en: 'Louages (shared taxis) and trains are common and affordable.',
+          sv: 'Louages ​​(delade taxibilar) och tåg är vanliga och prisvärda.',
+          es: 'Los louges (taxis compartidos) y los trenes son comunes y asequibles.',
+          fr: 'Les louages ​​(taxis partagés) et les trains sont courants et abordables.',
+          de: 'Louages ​​(Sammeltaxis) und Züge sind weit verbreitet und erschwinglich.',
+        },
+      },
+      {
+        item: 'Food tip',
+        description: {
+          en: 'Harissa is often spicy—ask for “little” or “no harissa” if sensitive to heat.',
+          sv: 'Harissa är ofta kryddig - fråga efter "liten" eller "ingen harissa" om den är känslig för värme.',
+          es: 'La harissa suele ser picante; pida “poca” o “sin harissa” si es sensible al calor.',
+          fr: 'L\'harissa est souvent épicée : demandez « peu » ou « pas d\'harissa » si elle est sensible à la chaleur.',
+          de: 'Harissa ist oft scharf – fragen Sie nach „wenig“ oder „kein Harissa“, wenn Sie hitzeempfindlich sind.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'tunisia-main',
+      name: {
+        en: 'Couscous Tunisien',
+        sv: 'Couscous Tunisien',
+        es: 'Cuscús tunecino',
+        fr: 'Couscous Tunisien',
+        de: 'Couscous Tunesien',
+      },
+      description: {
+        en: 'Traditional Tunisian couscous with lamb, vegetables, chickpeas, and harissa',
+        sv: 'Traditionell tunisisk couscous med lamm, grönsaker, kikärter och harissa',
+        es: 'Cuscús tradicional tunecino con cordero, verduras, garbanzos y harissa',
+        fr: 'Couscous traditionnel tunisien à l\'agneau, légumes, pois chiches et harissa',
+        de: 'Traditionelles tunesisches Couscous mit Lamm, Gemüse, Kichererbsen und Harissa',
+      },
+      cookingTime: 90,
+      servings: 6,
+      dietType: {
+        en: 'meat',
+        sv: 'kött',
+        es: 'carne',
+        fr: 'viande',
+        de: 'Fleisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Lamb chunks',
+            sv: 'Lammbitar',
+            es: 'Trozos de cordero',
+            fr: 'Morceaux d\'agneau',
+            de: 'Lammstücke',
+          },
+          amount: 600,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Couscous semolina',
+            sv: 'Couscousgryn',
+            es: 'Sémola de cuscús',
+            fr: 'Semoule de couscous',
+            de: 'Couscous-Grieß',
+          },
+          amount: 500,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Cooked chickpeas',
+            sv: 'Kokta kikärter',
+            es: 'Garbanzos cocidos',
+            fr: 'Pois chiches cuits',
+            de: 'Gekochte Kichererbsen',
+          },
+          amount: 200,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Carrots',
+            sv: 'Morötter',
+            es: 'Zanahorias',
+            fr: 'Carottes',
+            de: 'Karotten',
+          },
+          amount: 3,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Zucchini',
+            sv: 'Zucchini',
+            es: 'Calabacín',
+            fr: 'Courgettes',
+            de: 'Zucchini',
+          },
+          amount: 2,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Turnips',
+            sv: 'Rovor',
+            es: 'Nabos',
+            fr: 'Navets',
+            de: 'Rüben',
+          },
+          amount: 2,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Harissa paste',
+            sv: 'Harissa pasta',
+            es: 'Pasta de harissa',
+            fr: 'Pâte d\'harissa',
+            de: 'Harissa-Paste',
+          },
+          amount: 2,
+          unit: {
+            en: 'tbsp',
+            sv: 'msk',
+            es: 'cucharada',
+            fr: 'à soupe',
+            de: 'EL',
+          },
+        },
+        {
+          name: {
+            en: 'Tomato paste',
+            sv: 'Tomatpuré',
+            es: 'Pasta de tomate',
+            fr: 'Pâte de tomate',
+            de: 'Tomatenmark',
+          },
+          amount: 2,
+          unit: {
+            en: 'tbsp',
+            sv: 'msk',
+            es: 'cucharada',
+            fr: 'à soupe',
+            de: 'EL',
+          },
+        },
+        {
+          name: {
+            en: 'Cumin',
+            sv: 'Kummin',
+            es: 'Comino',
+            fr: 'Cumin',
+            de: 'Kreuzkümmel',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Olive oil',
+            sv: 'Olivolja',
+            es: 'Aceite de oliva',
+            fr: 'Huile d\'olive',
+            de: 'Olivenöl',
+          },
+          amount: 3,
+          unit: {
+            en: 'tbsp',
+            sv: 'msk',
+            es: 'cucharada',
+            fr: 'à soupe',
+            de: 'EL',
+          },
+        },
+      ],
+      steps: [
+        {
+          en: 'Brown lamb in olive oil with cumin and salt',
+          sv: 'Bryn lamm i olivolja med spiskummin och salt',
+          es: 'Dorar el cordero en aceite de oliva con comino y sal',
+          fr: 'Faire revenir l\'agneau à l\'huile d\'olive avec du cumin et du sel',
+          de: 'Lammfleisch in Olivenöl mit Kreuzkümmel und Salz anbraten',
+        },
+        {
+          en: 'Add water, tomato paste, and harissa; simmer 30 minutes',
+          sv: 'Tillsätt vatten, tomatpuré och harissa; sjuda 30 minuter',
+          es: 'Agrega el agua, la pasta de tomate y la harissa; cocine a fuego lento 30 minutos',
+          fr: 'Ajouter l\'eau, la pâte de tomate et la harissa; laisser mijoter 30 minutes',
+          de: 'Wasser, Tomatenmark und Harissa hinzufügen; 30 Minuten köcheln lassen',
+        },
+        {
+          en: 'Add chickpeas and vegetables and cook until tender',
+          sv: 'Tillsätt kikärter och grönsaker och koka tills de är mjuka',
+          es: 'Agrega los garbanzos y las verduras y cocina hasta que estén tiernos',
+          fr: 'Ajouter les pois chiches et les légumes et cuire jusqu\'à tendreté',
+          de: 'Kichererbsen und Gemüse hinzufügen und kochen, bis sie weich sind',
+        },
+        {
+          en: 'Prepare couscous according to package instructions',
+          sv: 'Förbered couscous enligt anvisningarna på förpackningen',
+          es: 'Prepare el cuscús según las instrucciones del paquete',
+          fr: 'Préparez le couscous selon les instructions sur l\'emballage',
+          de: 'Couscous nach Packungsanleitung zubereiten',
+        },
+        {
+          en: 'Steam couscous briefly over the stew',
+          sv: 'Ånga couscous kort över grytan',
+          es: 'Cueza al vapor brevemente el cuscús sobre el guiso',
+          fr: 'Cuire brièvement le couscous à la vapeur sur le ragoût',
+          de: 'Couscous kurz über dem Eintopf dämpfen',
+        },
+        {
+          en: 'Fluff couscous with olive oil',
+          sv: 'Fluff couscous med olivolja',
+          es: 'Cuscús esponjado con aceite de oliva',
+          fr: 'Couscous gonflé à l\'huile d\'olive',
+          de: 'Couscous mit Olivenöl auflockern',
+        },
+        {
+          en: 'Serve couscous topped with meat and vegetables',
+          sv: 'Servera couscous toppad med kött och grönsaker',
+          es: 'Sirva el cuscús cubierto con carne y verduras',
+          fr: 'Servir le couscous garni de viande et de légumes',
+          de: 'Couscous mit Fleisch und Gemüse garniert servieren',
+        },
+        {
+          en: 'Ladle broth over and add extra harissa if desired',
+          sv: 'Häll över buljong och tillsätt extra harissa om så önskas',
+          es: 'Sirva el caldo y agregue más harissa si lo desea',
+          fr: 'Versez le bouillon et ajoutez de la harissa supplémentaire si vous le souhaitez',
+          de: 'Brühe darübergießen und bei Bedarf zusätzliches Harissa hinzufügen',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/21531717/pexels-photo-21531717.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'tunisia-q2',
-      question: 'Which ancient civilization was based in Tunisia?',
-      options: ['Phoenicians/Carthage', 'Aztecs', 'Vikings', 'Incas'],
-      correctAnswer: 0,
+    dessert: {
+      id: 'tunisia-dessert',
+      name: {
+        en: 'Bambalouni',
+        sv: 'Bambalouni',
+        es: 'Bambalouni',
+        fr: 'Bambalouni',
+        de: 'Bambalouni',
+      },
+      description: {
+        en: 'Traditional Tunisian fried doughnuts, crispy outside and fluffy inside, often eaten hot with sugar.',
+        sv: 'Traditionella tunisiska stekta munkar, krispiga på utsidan och fluffiga inuti, äts ofta varma med socker.',
+        es: 'Donuts fritos tradicionales tunecinos, crujientes por fuera y esponjosos por dentro, que a menudo se comen calientes con azúcar.',
+        fr: 'Beignets frits tunisiens traditionnels, croustillants à l\'extérieur et moelleux à l\'intérieur, souvent consommés chauds avec du sucre.',
+        de: 'Traditionelle tunesische frittierte Donuts, außen knusprig und innen fluffig, oft heiß mit Zucker gegessen.',
+      },
+      cookingTime: 40,
+      servings: 10,
+      dietType: {
+        en: 'vegetarian',
+        sv: 'vegetarisk',
+        es: 'vegetariano',
+        fr: 'végétarien',
+        de: 'vegetarisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'All-purpose flour',
+            sv: 'Mjöl för alla ändamål',
+            es: 'Harina para todo uso',
+            fr: 'Farine tout usage',
+            de: 'Allzweckmehl',
+          },
+          amount: 500,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Dry yeast',
+            sv: 'Torrjäst',
+            es: 'Levadura seca',
+            fr: 'Levure sèche',
+            de: 'Trockenhefe',
+          },
+          amount: 7,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Sugar',
+            sv: 'Socker',
+            es: 'Azúcar',
+            fr: 'Sucre',
+            de: 'Zucker',
+          },
+          amount: 50,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Warm water',
+            sv: 'Varmt vatten',
+            es: 'Agua tibia',
+            fr: 'Eau tiède',
+            de: 'Warmes Wasser',
+          },
+          amount: 300,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Vegetable oil (for frying)',
+            sv: 'Vegetabilisk olja (för stekning)',
+            es: 'Aceite vegetal (para freír)',
+            fr: 'Huile végétale (pour la friture)',
+            de: 'Pflanzenöl (zum Braten)',
+          },
+          amount: 600,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Powdered sugar (for serving)',
+            sv: 'Pulversocker (för servering)',
+            es: 'Azúcar en polvo (para servir)',
+            fr: 'Sucre en poudre (pour servir)',
+            de: 'Puderzucker (zum Servieren)',
+          },
+          amount: 50,
+          unit: 'g',
+        },
+      ],
+      steps: [
+        {
+          en: 'Mix yeast, sugar, and warm water; rest 10 minutes',
+          sv: 'Blanda jäst, socker och varmt vatten; vila 10 minuter',
+          es: 'Mezcla la levadura, el azúcar y el agua tibia; descansar 10 minutos',
+          fr: 'Mélanger la levure, le sucre et l\'eau tiède; repos 10 minutes',
+          de: 'Hefe, Zucker und warmes Wasser mischen; 10 Minuten ruhen',
+        },
+        {
+          en: 'Add flour and salt and mix into sticky dough',
+          sv: 'Tillsätt mjöl och salt och blanda till en kladdig deg',
+          es: 'Agregue la harina y la sal y mezcle hasta obtener una masa pegajosa',
+          fr: 'Ajouter la farine et le sel et mélanger à la pâte collante',
+          de: 'Mehl und Salz hinzufügen und zu einem klebrigen Teig verrühren',
+        },
+        {
+          en: 'Cover and let rise 1 hour until doubled',
+          sv: 'Täck över och låt jäsa 1 timme tills det fördubblats',
+          es: 'Tapar y dejar reposar 1 hora hasta que doble',
+          fr: 'Couvrir et laisser lever 1 heure jusqu\'à ce qu\'il double',
+          de: 'Abdecken und 1 Stunde gehen lassen, bis sich das Volumen verdoppelt hat',
+        },
+        {
+          en: 'Heat oil to 180°C',
+          sv: 'Värm olja till 180°C',
+          es: 'Calentar el aceite a 180°C',
+          fr: 'Chauffer l\'huile à 180°C',
+          de: 'Öl auf 180°C erhitzen',
+        },
+        {
+          en: 'Stretch dough into rings with floured hands',
+          sv: 'Sträck ut degen till ringar med mjölade händer',
+          es: 'Estirar la masa en aros con las manos enharinadas',
+          fr: 'Étalez la pâte en rondelles avec les mains farinées',
+          de: 'Den Teig mit bemehlten Händen zu Ringen formen',
+        },
+        {
+          en: 'Fry until golden on both sides',
+          sv: 'Stek tills de är gyllene på båda sidor',
+          es: 'Freír hasta que estén dorados por ambos lados',
+          fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés des deux côtés',
+          de: 'Auf beiden Seiten goldbraun braten',
+        },
+        {
+          en: 'Drain on paper towels',
+          sv: 'Låt rinna av på hushållspapper',
+          es: 'Escurrir sobre toallas de papel',
+          fr: 'Égoutter sur du papier absorbant',
+          de: 'Auf Papiertüchern abtropfen lassen',
+        },
+        {
+          en: 'Dust generously with powdered sugar',
+          sv: 'Pudra generöst med strösocker',
+          es: 'Espolvorear generosamente con azúcar glass',
+          fr: 'Saupoudrer généreusement de sucre en poudre',
+          de: 'Großzügig mit Puderzucker bestäuben',
+        },
+        {
+          en: 'Serve hot',
+          sv: 'Servera varm',
+          es: 'Servir caliente',
+          fr: 'Servir chaud',
+          de: 'Heiß servieren',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/27967498/pexels-photo-27967498.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'tunisia-q3',
-      question: 'What is harissa?',
-      options: ['A dance', 'A spicy chili paste', 'A musical instrument', 'A type of bread'],
-      correctAnswer: 1,
+    drinks: {
+      alcoholic: 'Boukha (fig brandy), Tunisian wine',
+      nonAlcoholic: 'Mint tea, Turkish coffee, Lemon-mint juice',
     },
-    {
-      id: 'tunisia-q4',
-      question: 'Which famous film series used Tunisia’s desert locations?',
-      options: ['Star Wars', 'Harry Potter', 'The Lord of the Rings', 'Pirates of the Caribbean'],
-      correctAnswer: 0,
+    music: [
+      'Tunisian Malouf',
+      'Traditional Mezwed',
+      'Saber Rebaï',
+      'Latifa classics',
+    ],
+    decorationIdeas: [
+      'Blue and white Mediterranean colors',
+      'Ceramic tiles and pottery',
+      'Brass lanterns',
+      'Woven baskets',
+      'Olive branches',
+    ],
+    conversationStarters: [
+      'Have you ever visited ancient ruins like Carthage?',
+      'Do you enjoy spicy food like harissa?',
+      'Would you visit the Sahara Desert?',
+      'Have you watched Star Wars filmed in real desert locations?',
+    ],
+    quiz: [
+      {
+        id: 'tunisia-q1',
+        question: {
+          en: 'What is the capital of Tunisia?',
+          sv: 'Vad är huvudstaden i Tunisien?',
+          es: '¿Cuál es la capital de Túnez?',
+          fr: 'Quelle est la capitale de la Tunisie ?',
+          de: 'Was ist die Hauptstadt von Tunesien?',
+        },
+        options: [
+          {
+            en: 'Sfax',
+            sv: 'Sfax',
+            es: 'Sevilla',
+            fr: 'Sfax',
+            de: 'Sfax',
+          },
+          {
+            en: 'Tunis',
+            sv: 'Tunis',
+            es: 'Túnez',
+            fr: 'Tunisie',
+            de: 'Tunis',
+          },
+          {
+            en: 'Sousse',
+            sv: 'Sousse',
+            es: 'Susa',
+            fr: 'Sousse',
+            de: 'Sousse',
+          },
+          {
+            en: 'Carthage',
+            sv: 'Kartago',
+            es: 'Cartago',
+            fr: 'Carthage',
+            de: 'Karthago',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tunisia-q2',
+        question: {
+          en: 'Which ancient civilization was based in Tunisia?',
+          sv: 'Vilken forntida civilisation var baserad i Tunisien?',
+          es: '¿Qué civilización antigua tuvo su sede en Túnez?',
+          fr: 'Quelle civilisation ancienne était basée en Tunisie ?',
+          de: 'Welche alte Zivilisation hatte ihren Sitz in Tunesien?',
+        },
+        options: [
+          {
+            en: 'Phoenicians/Carthage',
+            sv: 'Fenicier/Karthago',
+            es: 'Fenicios/Cartago',
+            fr: 'Phéniciens/Carthage',
+            de: 'Phönizier/Karthago',
+          },
+          {
+            en: 'Aztecs',
+            sv: 'Azteker',
+            es: 'Aztecas',
+            fr: 'Aztèques',
+            de: 'Azteken',
+          },
+          {
+            en: 'Vikings',
+            sv: 'Vikingar',
+            es: 'Vikingos',
+            fr: 'Vikings',
+            de: 'Wikinger',
+          },
+          {
+            en: 'Incas',
+            sv: 'Incas',
+            es: 'Incas',
+            fr: 'Incas',
+            de: 'Inkas',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tunisia-q3',
+        question: {
+          en: 'What is harissa?',
+          sv: 'Vad är harissa?',
+          es: '¿Qué es la harissa?',
+          fr: 'Qu\'est-ce qu\'un harissa ?',
+          de: 'Was ist Harissa?',
+        },
+        options: [
+          {
+            en: 'A dance',
+            sv: 'En dans',
+            es: 'Un baile',
+            fr: 'Une danse',
+            de: 'Ein Tanz',
+          },
+          {
+            en: 'A spicy chili paste',
+            sv: 'En kryddig chilipasta',
+            es: 'Una pasta de chile picante',
+            fr: 'Une pâte de chili épicée',
+            de: 'Eine scharfe Chilipaste',
+          },
+          {
+            en: 'A musical instrument',
+            sv: 'Ett musikinstrument',
+            es: 'un instrumento musical',
+            fr: 'Un instrument de musique',
+            de: 'Ein Musikinstrument',
+          },
+          {
+            en: 'A type of bread',
+            sv: 'En typ av bröd',
+            es: 'Un tipo de pan',
+            fr: 'Un type de pain',
+            de: 'Eine Brotsorte',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'tunisia-q4',
+        question: {
+          en: 'Which famous film series used Tunisia’s desert locations?',
+          sv: 'Vilken berömd filmserie använde Tunisiens ökenplatser?',
+          es: '¿Qué serie de películas famosas utilizaron los lugares desérticos de Túnez?',
+          fr: 'Quelle série de films célèbres a utilisé les lieux désertiques de Tunisie ?',
+          de: 'Welche berühmte Filmreihe nutzte Tunesiens Wüstenschauplätze?',
+        },
+        options: [
+          {
+            en: 'Star Wars',
+            sv: 'Star Wars',
+            es: 'Guerra de las Galaxias',
+            fr: 'Guerres des étoiles',
+            de: 'Star Wars',
+          },
+          {
+            en: 'Harry Potter',
+            sv: 'Harry Potter',
+            es: 'Harry Potter',
+            fr: 'Harry Potter',
+            de: 'Harry Potter',
+          },
+          {
+            en: 'The Lord of the Rings',
+            sv: 'Sagan om ringen',
+            es: 'El Señor de los Anillos',
+            fr: 'Le Seigneur des Anneaux',
+            de: 'Der Herr der Ringe',
+          },
+          {
+            en: 'Pirates of the Caribbean',
+            sv: 'Pirates of the Caribbean',
+            es: 'Piratas del Caribe',
+            fr: 'Pirates des Caraïbes',
+            de: 'Fluch der Karibik',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tunisia-q5',
+        question: {
+          en: 'Ancient Carthage was a rival of which empire?',
+          sv: 'Vilket imperium var antikens Kartago en rival?',
+          es: '¿La antigua Cartago era rival de qué imperio?',
+          fr: 'De quel empire la Carthage antique était-elle la rivale ?',
+          de: 'Mit welchem ​​Reich war das antike Karthago ein Rivale?',
+        },
+        options: [
+          {
+            en: 'Roman Empire',
+            sv: 'Romarriket',
+            es: 'Imperio Romano',
+            fr: 'Empire romain',
+            de: 'Römisches Reich',
+          },
+          {
+            en: 'Mongol Empire',
+            sv: 'Mongoliska riket',
+            es: 'Imperio mongol',
+            fr: 'Empire mongol',
+            de: 'Mongolisches Reich',
+          },
+          {
+            en: 'British Empire',
+            sv: 'Brittiska imperiet',
+            es: 'Imperio Británico',
+            fr: 'Empire britannique',
+            de: 'Britisches Empire',
+          },
+          {
+            en: 'Ottoman Empire',
+            sv: 'Osmanska riket',
+            es: 'Imperio Otomano',
+            fr: 'Empire ottoman',
+            de: 'Osmanisches Reich',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tunisia-q6',
+        question: {
+          en: 'Which staple dish is especially important in Tunisia?',
+          sv: 'Vilken basrätt är särskilt viktig i Tunisien?',
+          es: '¿Qué plato básico es especialmente importante en Túnez?',
+          fr: 'Quel plat de base est particulièrement important en Tunisie ?',
+          de: 'Welches Grundgericht ist in Tunesien besonders wichtig?',
+        },
+        options: [
+          {
+            en: 'Couscous',
+            sv: 'Couscous',
+            es: 'Cuscús',
+            fr: 'Couscous',
+            de: 'Couscous',
+          },
+          {
+            en: 'Sushi',
+            sv: 'Sushi',
+            es: 'Sushi',
+            fr: 'Sushis',
+            de: 'Sushi',
+          },
+          {
+            en: 'Pierogi',
+            sv: 'Pierogi',
+            es: 'Pierogi',
+            fr: 'Pierogi',
+            de: 'Pierogi',
+          },
+          {
+            en: 'Tacos',
+            sv: 'Tacos',
+            es: 'Tacos',
+            fr: 'Tacos',
+            de: 'Tacos',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tunisia-q7',
+        question: {
+          en: 'Tunisia is located on which sea?',
+          sv: 'Tunisien ligger vid vilket hav?',
+          es: '¿En qué mar se encuentra Túnez?',
+          fr: 'La Tunisie est située sur quelle mer ?',
+          de: 'An welchem ​​Meer liegt Tunesien?',
+        },
+        options: [
+          {
+            en: 'Mediterranean Sea',
+            sv: 'Medelhavet',
+            es: 'Mar Mediterráneo',
+            fr: 'Mer Méditerranée',
+            de: 'Mittelmeer',
+          },
+          {
+            en: 'Baltic Sea',
+            sv: 'Östersjön',
+            es: 'Mar Báltico',
+            fr: 'Mer Baltique',
+            de: 'Ostsee',
+          },
+          {
+            en: 'Black Sea',
+            sv: 'Svarta havet',
+            es: 'Mar Negro',
+            fr: 'mer Noire',
+            de: 'Schwarzes Meer',
+          },
+          {
+            en: 'Red Sea',
+            sv: 'Röda havet',
+            es: 'Mar Rojo',
+            fr: 'Mer Rouge',
+            de: 'Rotes Meer',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tunisia-q8',
+        question: {
+          en: 'Tunisia is the smallest country in which region?',
+          sv: 'Tunisien är det minsta landet i vilken region?',
+          es: '¿En qué región Túnez es el país más pequeño?',
+          fr: 'La Tunisie est le plus petit pays de quelle région ?',
+          de: 'Tunesien ist das kleinste Land in welcher Region?',
+        },
+        options: [
+          {
+            en: 'North Africa',
+            sv: 'Nordafrika',
+            es: 'Norte de África',
+            fr: 'Afrique du Nord',
+            de: 'Nordafrika',
+          },
+          {
+            en: 'West Africa',
+            sv: 'Västafrika',
+            es: 'África occidental',
+            fr: 'Afrique de l\'Ouest',
+            de: 'Westafrika',
+          },
+          {
+            en: 'Southern Africa',
+            sv: 'Södra Afrika',
+            es: 'África Austral',
+            fr: 'Afrique australe',
+            de: 'Südliches Afrika',
+          },
+          {
+            en: 'East Africa',
+            sv: 'Östafrika',
+            es: 'África Oriental',
+            fr: 'Afrique de l\'Est',
+            de: 'Ostafrika',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tunisia-q9',
+        question: {
+          en: 'Which event began in Tunisia in 2010?',
+          sv: 'Vilket evenemang började i Tunisien 2010?',
+          es: '¿Qué evento comenzó en Túnez en 2010?',
+          fr: 'Quel événement a débuté en Tunisie en 2010 ?',
+          de: 'Welches Ereignis begann 2010 in Tunesien?',
+        },
+        options: [
+          {
+            en: 'Arab Spring',
+            sv: 'Arabisk vår',
+            es: 'Primavera Árabe',
+            fr: 'Printemps arabe',
+            de: 'Arabischer Frühling',
+          },
+          {
+            en: 'Industrial Revolution',
+            sv: 'Industriella revolutionen',
+            es: 'Revolución Industrial',
+            fr: 'Révolution industrielle',
+            de: 'Industrielle Revolution',
+          },
+          {
+            en: 'French Revolution',
+            sv: 'Franska revolutionen',
+            es: 'Revolución Francesa',
+            fr: 'Révolution française',
+            de: 'Französische Revolution',
+          },
+          {
+            en: 'Space Race',
+            sv: 'Rymdkapplöpning',
+            es: 'Carrera espacial',
+            fr: 'Course à l\'espace',
+            de: 'Weltraumrennen',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'tunisia-q10',
+        question: {
+          en: 'What is a popular Tunisian fried dessert?',
+          sv: 'Vad är en populär tunisisk friterad dessert?',
+          es: '¿Qué es un postre frito popular tunecino?',
+          fr: 'Quel est un dessert frit tunisien populaire ?',
+          de: 'Was ist ein beliebtes tunesisches frittiertes Dessert?',
+        },
+        options: [
+          {
+            en: 'Baklava',
+            sv: 'Baklava',
+            es: 'Baklava',
+            fr: 'Baklavas',
+            de: 'Baklava',
+          },
+          {
+            en: 'Bambalouni',
+            sv: 'Bambalouni',
+            es: 'Bambalouni',
+            fr: 'Bambalouni',
+            de: 'Bambalouni',
+          },
+          {
+            en: 'Churros',
+            sv: 'Churros',
+            es: 'Churros',
+            fr: 'Churros',
+            de: 'Churros',
+          },
+          {
+            en: 'Loukoumades',
+            sv: 'Loukoumades',
+            es: 'Loukoumades',
+            fr: 'Loukoumades',
+            de: 'Loukoumades',
+          },
+        ],
+        correctAnswer: 1,
+      },
+    ],
+    coordinates: {
+      x: 49,
+      y: 36,
     },
-    {
-      id: 'tunisia-q5',
-      question: 'Ancient Carthage was a rival of which empire?',
-      options: ['Roman Empire', 'Mongol Empire', 'British Empire', 'Ottoman Empire'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tunisia-q6',
-      question: 'Which staple dish is especially important in Tunisia?',
-      options: ['Couscous', 'Sushi', 'Pierogi', 'Tacos'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tunisia-q7',
-      question: 'Tunisia is located on which sea?',
-      options: ['Mediterranean Sea', 'Baltic Sea', 'Black Sea', 'Red Sea'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tunisia-q8',
-      question: 'Tunisia is the smallest country in which region?',
-      options: ['North Africa', 'West Africa', 'Southern Africa', 'East Africa'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tunisia-q9',
-      question: 'Which event began in Tunisia in 2010?',
-      options: ['Arab Spring', 'Industrial Revolution', 'French Revolution', 'Space Race'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'tunisia-q10',
-      question: 'What is a popular Tunisian fried dessert?',
-      options: ['Baklava', 'Bambalouni', 'Churros', 'Loukoumades'],
-      correctAnswer: 1,
-    },
-  ],
-
-  coordinates: { x: 49, y: 36 },
-};
+  };

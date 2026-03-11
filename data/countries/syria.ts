@@ -1,298 +1,1206 @@
 import { Country } from '@/types';
 
 export const syria: Country = {
-  id: 'syria',
-  name: 'Syria',
-  code: 'SY',
-  continent: 'Asia',
-  flag: '🇸🇾',
-  landscapeImage: 'https://images.unsplash.com/photo-1597211684565-dca64d72c5ac?w=800&q=80',
-  description:
-    'Syria is an ancient Middle Eastern country with a rich history dating back millennia, known for Damascus, Aleppo, and diverse cultural heritage.',
-  quickFacts: [
-    { label: 'Capital', value: 'Damascus' },
-    { label: 'Population', value: '18 million' },
-    { label: 'Official Language', value: 'Arabic' },
-    { label: 'Currency', value: 'Syrian Pound' },
-    { label: 'Area', value: '185,180 km²' },
-  ],
-
-  facts: [
-    'Damascus is one of the oldest continuously inhabited cities',
-    'Syria has several UNESCO World Heritage Sites, including Ancient City of Damascus and Ancient City of Aleppo',
-    'The ruins of Palmyra were one of the most important cultural centers of the ancient world',
-    'Syrian souqs (traditional markets) are famous for spices, textiles, and handcrafted goods',
-    'Syrian soap from Aleppo (laurel soap) is among the oldest types of hard soap still made today',
-    'Syria sits at a historic crossroads of Mediterranean, Mesopotamian, and Levantine civilizations',
-    'Dabke dance is a major part of celebration culture across the Levant, including Syria',
-    'Syrian cuisine is known for mezze culture and rich spice blends',
-  ],
-
-  foodCulture:
-    'Syrian cuisine is rich and varied with influences from Ottoman, Persian, and Mediterranean traditions. Meals often revolve around shared mezze, grilled meats, fragrant rice dishes, and sweets scented with rose or orange blossom.',
-
-  history: [
-    {
-      year: '3000–2000 BC',
-      title: 'Early Cities & Trade Routes',
-      description:
-        'Ancient settlements and city-states flourished in the region, positioned on important trade routes linking Mesopotamia and the Mediterranean.',
+    id: 'syria',
+    name: {
+      en: 'Syria',
+      sv: 'Syrien',
+      es: 'Siria',
+      fr: 'Syrie',
+      de: 'Syrien',
     },
-    {
-      year: '64 BC',
-      title: 'Roman Province of Syria',
-      description:
-        'Syria became a Roman province, with cities like Palmyra and Antioch playing major roles in commerce and culture.',
+    code: 'SY',
+    continent: {
+      en: 'Asia',
+      sv: 'Asien',
+      es: 'Asia',
+      fr: 'Asie',
+      de: 'Asien',
     },
-    {
-      year: '661–750',
-      title: 'Umayyad Caliphate',
-      description:
-        'Damascus became the capital of the Umayyad Caliphate, shaping architecture, scholarship, and regional influence.',
+    flag: '🇸🇾',
+    landscapeImage: 'https://images.unsplash.com/photo-1597211684565-dca64d72c5ac?w=800&q=80',
+    description: {
+      en: 'Syria is an ancient Middle Eastern country with a rich history dating back millennia, known for Damascus, Aleppo, and diverse cultural heritage.',
+      sv: 'Syrien är ett gammalt land i Mellanöstern med en rik historia som sträcker sig årtusenden tillbaka, känt för Damaskus, Aleppo och mångsidigt kulturarv.',
+      es: 'Siria es un antiguo país del Medio Oriente con una rica historia que se remonta a milenios, conocido por Damasco, Alepo y su diverso patrimonio cultural.',
+      fr: 'La Syrie est un ancien pays du Moyen-Orient avec une histoire riche remontant à des millénaires, connue pour Damas, Alep et son patrimoine culturel diversifié.',
+      de: 'Syrien ist ein altes Land im Nahen Osten mit einer reichen, Jahrtausende alten Geschichte, bekannt für Damaskus, Aleppo und sein vielfältiges kulturelles Erbe.',
     },
-    {
-      year: '1516–1918',
-      title: 'Ottoman Era',
-      description:
-        'Syria was part of the Ottoman Empire for centuries, influencing food, crafts, and urban life.',
-    },
-    {
-      year: '1946',
-      title: 'Independence',
-      description:
-        'Syria gained full independence after the end of the French Mandate period.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: 'Aleppo Soap (Laurel Soap)',
-      year: 'Ancient–Medieval',
-      description:
-        'Traditional laurel and olive oil soap-making from Aleppo influenced soap traditions across the Mediterranean.',
-    },
-    {
-      name: 'Damascene Craftsmanship',
-      year: 'Medieval Era',
-      description:
-        'Damascus became renowned for intricate metalwork, textiles, and artisan crafts traded across regions.',
-    },
-    {
-      name: 'Levantine Culinary Traditions',
-      year: 'Centuries',
-      description:
-        'Syrian mezze culture and dessert techniques helped shape food traditions across the Levant and beyond.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Old City of Damascus',
-      description:
-        'Historic streets, courtyards, and markets in one of the world’s oldest continuously inhabited cities.',
-    },
-    {
-      name: 'Ancient City of Aleppo',
-      description:
-        'A legendary cultural center with deep history and an iconic citadel (note: preservation status varies due to conflict).',
-    },
-    {
-      name: 'Palmyra (Tadmur)',
-      description:
-        'Famous ancient oasis city with monumental ruins (note: access and preservation vary).',
-    },
-    {
-      name: 'Crac des Chevaliers',
-      description:
-        'One of the best-preserved medieval crusader castles in the world (access conditions may vary).',
-    },
-    {
-      name: 'Bosra',
-      description:
-        'Known for its impressive Roman theater and ancient city remains in southern Syria.',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Safety & advisories',
-      description:
-        'Check current travel advisories and local guidance; conditions can vary significantly by region.',
-    },
-    {
-      item: 'Language',
-      description:
-        'Arabic is the official language; learning basic greetings is appreciated.',
-    },
-    {
-      item: 'Etiquette',
-      description:
-        'Modest dress is respectful, especially at religious or traditional sites.',
-    },
-    {
-      item: 'Cash',
-      description:
-        'Card acceptance can be limited; carry local currency where relevant.',
-    },
-    {
-      item: 'Food culture',
-      description:
-        'Expect shared dishes and hospitality—meals are often communal and generous.',
-    },
-  ],
-
-  mainDish: {
-    id: 'syria-main',
-    name: 'Kibbeh',
-    description: 'Bulgur and meat croquettes, national dish',
-    cookingTime: 90,
-    servings: 6,
-    dietType: 'meat',
-    ingredients: [
-      { name: 'Ground lamb', amount: 500, unit: 'g' },
-      { name: 'Fine bulgur', amount: 300, unit: 'g' },
-      { name: 'Onions', amount: 2, unit: 'whole' },
-      { name: 'Pine nuts', amount: 100, unit: 'g' },
-      { name: 'Allspice', amount: 1, unit: 'tsp' },
-      { name: 'Cinnamon', amount: 1, unit: 'tsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Damascus',
+          sv: 'Damaskus',
+          es: 'Damasco',
+          fr: 'Damas',
+          de: 'Damaskus',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '18 million',
+          sv: '18 miljoner',
+          es: '18 millones',
+          fr: '18 millions',
+          de: '18 Millionen',
+        },
+      },
+      {
+        label: {
+          en: 'Official Language',
+          sv: 'Officiellt språk',
+          es: 'Idioma oficial',
+          fr: 'Langue officielle',
+          de: 'Amtssprache',
+        },
+        value: {
+          en: 'Arabic',
+          sv: 'Arabiska',
+          es: 'Árabe',
+          fr: 'Arabe',
+          de: 'Arabisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Syrian Pound',
+          sv: 'syriska pundet',
+          es: 'Libra siria',
+          fr: 'Livre syrienne',
+          de: 'Syrisches Pfund',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '185,180 km²',
+          sv: '185 180 km²',
+          es: '185.180 km²',
+          fr: '185 180 km²',
+          de: '185.180 km²',
+        },
+      },
     ],
-    steps: [
-      'Soak bulgur in water for 15 minutes and drain well',
-      'Mix bulgur with half the meat, grated onion, and spices',
-      'Prepare filling by cooking remaining meat with pine nuts and spices',
-      'Form oval shells and fill with meat mixture',
-      'Seal carefully and shape into torpedoes',
-      'Deep fry until golden brown',
-      'Drain on paper towels and serve warm',
-      'Serve with yogurt and fresh salad',
+    facts: [
+      {
+        en: 'Damascus is one of the oldest continuously inhabited cities',
+        sv: 'Damaskus är en av de äldsta kontinuerligt bebodda städerna',
+        es: 'Damasco es una de las ciudades más antiguas continuamente habitadas',
+        fr: 'Damas est l\'une des plus anciennes villes habitées de façon continue',
+        de: 'Damaskus ist eine der ältesten durchgehend bewohnten Städte',
+      },
+      {
+        en: 'Syria has several UNESCO World Heritage Sites, including Ancient City of Damascus and Ancient City of Aleppo',
+        sv: 'Syrien har flera UNESCO: s världsarv, inklusive den antika staden Damaskus och den antika staden Aleppo',
+        es: 'Siria tiene varios sitios declarados Patrimonio de la Humanidad por la UNESCO, incluida la antigua ciudad de Damasco y la antigua ciudad de Alepo',
+        fr: 'La Syrie compte plusieurs sites du patrimoine mondial de l\'UNESCO, dont l\'ancienne ville de Damas et l\'ancienne ville d\'Alep',
+        de: 'Syrien verfügt über mehrere UNESCO-Welterbestätten, darunter die antike Stadt Damaskus und die antike Stadt Aleppo',
+      },
+      {
+        en: 'The ruins of Palmyra were one of the most important cultural centers of the ancient world',
+        sv: 'Ruinerna av Palmyra var ett av den antika världens viktigaste kulturcentra',
+        es: 'Las ruinas de Palmira fueron uno de los centros culturales más importantes del mundo antiguo',
+        fr: 'Les ruines de Palmyre étaient l\'un des centres culturels les plus importants du monde antique',
+        de: 'Die Ruinen von Palmyra waren eines der wichtigsten Kulturzentren der Antike',
+      },
+      {
+        en: 'Syrian souqs (traditional markets) are famous for spices, textiles, and handcrafted goods',
+        sv: 'Syriska souqer (traditionella marknader) är kända för kryddor, textilier och handgjorda varor',
+        es: 'Los zocos (mercados tradicionales) sirios son famosos por sus especias, textiles y productos artesanales',
+        fr: 'Les souks syriens (marchés traditionnels) sont célèbres pour leurs épices, leurs textiles et leurs produits artisanaux',
+        de: 'Syrische Souks (traditionelle Märkte) sind berühmt für Gewürze, Textilien und handgefertigte Waren',
+      },
+      {
+        en: 'Syrian soap from Aleppo (laurel soap) is among the oldest types of hard soap still made today',
+        sv: 'Syrisk tvål från Aleppo (lagertvål) är bland de äldsta typerna av hård tvål som fortfarande tillverkas idag',
+        es: 'El jabón sirio de Alepo (jabón de laurel) se encuentra entre los tipos de jabón duro más antiguos que todavía se fabrican en la actualidad',
+        fr: 'Le savon syrien d\'Alep (savon au laurier) fait partie des types de savons durs les plus anciens encore fabriqués aujourd\'hui',
+        de: 'Syrische Seife aus Aleppo (Lorbeerseife) gehört zu den ältesten heute noch hergestellten Hartseifensorten',
+      },
+      {
+        en: 'Syria sits at a historic crossroads of Mediterranean, Mesopotamian, and Levantine civilizations',
+        sv: 'Syrien ligger vid en historisk korsning mellan Medelhavet, Mesopotamiska och Levantinska civilisationer',
+        es: 'Siria se encuentra en una encrucijada histórica de las civilizaciones mediterránea, mesopotámica y levantina',
+        fr: 'La Syrie se situe à un carrefour historique des civilisations méditerranéenne, mésopotamienne et levantine',
+        de: 'Syrien liegt an einem historischen Knotenpunkt der mediterranen, mesopotamischen und levantinischen Zivilisationen',
+      },
+      {
+        en: 'Dabke dance is a major part of celebration culture across the Levant, including Syria',
+        sv: 'Dabke-dans är en viktig del av festkulturen över hela Levanten, inklusive Syrien',
+        es: 'La danza dabke es una parte importante de la cultura de celebración en todo el Levante, incluida Siria',
+        fr: 'La danse Dabke est un élément majeur de la culture des célébrations au Levant, y compris en Syrie.',
+        de: 'Der Dabke-Tanz ist ein wichtiger Bestandteil der Festkultur in der gesamten Levante, einschließlich Syrien',
+      },
+      {
+        en: 'Syrian cuisine is known for mezze culture and rich spice blends',
+        sv: 'Det syriska köket är känt för mezzekultur och rika kryddblandningar',
+        es: 'La cocina siria es conocida por la cultura mezze y sus ricas mezclas de especias',
+        fr: 'La cuisine syrienne est connue pour sa culture mezze et ses riches mélanges d\'épices',
+        de: 'Die syrische Küche ist bekannt für ihre Mezze-Kultur und reichhaltige Gewürzmischungen',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/6497907/pexels-photo-6497907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'syria-dessert',
-    name: 'Ma’amoul',
-    description:
-      'Traditional Syrian semolina cookies filled with dates or nuts, commonly prepared for religious holidays.',
-    cookingTime: 60,
-    servings: 24,
-    dietType: 'vegetarian',
-    ingredients: [
-      { name: 'Semolina', amount: 500, unit: 'g' },
-      { name: 'Butter (melted)', amount: 250, unit: 'g' },
-      { name: 'Milk', amount: 120, unit: 'ml' },
-      { name: 'Sugar', amount: 50, unit: 'g' },
-      { name: 'Date paste', amount: 300, unit: 'g' },
-      { name: 'Orange blossom water', amount: 2, unit: 'tbsp' },
-      { name: 'Rose water', amount: 1, unit: 'tbsp' },
-      { name: 'Powdered sugar (optional)', amount: 50, unit: 'g' },
+    foodCulture: 'Syrian cuisine is rich and varied with influences from Ottoman, Persian, and Mediterranean traditions. Meals often revolve around shared mezze, grilled meats, fragrant rice dishes, and sweets scented with rose or orange blossom.',
+    history: [
+      {
+        year: '3000–2000 BC',
+        title: 'Early Cities & Trade Routes',
+        description: {
+          en: 'Ancient settlements and city-states flourished in the region, positioned on important trade routes linking Mesopotamia and the Mediterranean.',
+          sv: 'Forntida bosättningar och stadsstater blomstrade i regionen, placerade på viktiga handelsvägar som förbinder Mesopotamien och Medelhavet.',
+          es: 'En la región florecieron antiguos asentamientos y ciudades-estado, ubicadas en importantes rutas comerciales que unían Mesopotamia y el Mediterráneo.',
+          fr: 'Les anciennes colonies et cités-États ont prospéré dans la région, situées sur d\'importantes routes commerciales reliant la Mésopotamie et la Méditerranée.',
+          de: 'In der Region blühten antike Siedlungen und Stadtstaaten auf, die an wichtigen Handelsrouten zwischen Mesopotamien und dem Mittelmeer lagen.',
+        },
+      },
+      {
+        year: '64 BC',
+        title: 'Roman Province of Syria',
+        description: {
+          en: 'Syria became a Roman province, with cities like Palmyra and Antioch playing major roles in commerce and culture.',
+          sv: 'Syrien blev en romersk provins, med städer som Palmyra och Antiokia som spelade stora roller inom handel och kultur.',
+          es: 'Siria se convirtió en una provincia romana, con ciudades como Palmira y Antioquía desempeñando papeles importantes en el comercio y la cultura.',
+          fr: 'La Syrie est devenue une province romaine, avec des villes comme Palmyre et Antioche jouant un rôle majeur dans le commerce et la culture.',
+          de: 'Syrien wurde eine römische Provinz, wobei Städte wie Palmyra und Antiochia eine wichtige Rolle in Handel und Kultur spielten.',
+        },
+      },
+      {
+        year: '661–750',
+        title: 'Umayyad Caliphate',
+        description: {
+          en: 'Damascus became the capital of the Umayyad Caliphate, shaping architecture, scholarship, and regional influence.',
+          sv: 'Damaskus blev huvudstad i Umayyad-kalifatet och formade arkitektur, stipendium och regionalt inflytande.',
+          es: 'Damasco se convirtió en la capital del califato omeya, dando forma a la arquitectura, la erudición y la influencia regional.',
+          fr: 'Damas est devenue la capitale du califat omeyyade, façonnant l\'architecture, l\'érudition et l\'influence régionale.',
+          de: 'Damaskus wurde zur Hauptstadt des Umayyaden-Kalifats und prägte Architektur, Wissenschaft und regionalen Einfluss.',
+        },
+      },
+      {
+        year: '1516–1918',
+        title: 'Ottoman Era',
+        description: {
+          en: 'Syria was part of the Ottoman Empire for centuries, influencing food, crafts, and urban life.',
+          sv: 'Syrien var en del av det osmanska riket i århundraden och påverkade mat, hantverk och stadsliv.',
+          es: 'Siria fue parte del Imperio Otomano durante siglos, lo que influyó en la alimentación, la artesanía y la vida urbana.',
+          fr: 'La Syrie a fait partie de l\'Empire ottoman pendant des siècles, influençant l\'alimentation, l\'artisanat et la vie urbaine.',
+          de: 'Syrien war jahrhundertelang Teil des Osmanischen Reiches und beeinflusste Lebensmittel, Handwerk und städtisches Leben.',
+        },
+      },
+      {
+        year: '1946',
+        title: 'Independence',
+        description: {
+          en: 'Syria gained full independence after the end of the French Mandate period.',
+          sv: 'Syrien fick fullständig självständighet efter utgången av den franska mandatperioden.',
+          es: 'Siria obtuvo la independencia total después del final del período del Mandato francés.',
+          fr: 'La Syrie a obtenu sa pleine indépendance après la fin du mandat français.',
+          de: 'Syrien erlangte nach dem Ende der französischen Mandatszeit die volle Unabhängigkeit.',
+        },
+      },
     ],
-    steps: [
-      'Mix semolina with melted butter and let rest 30 minutes',
-      'Add milk, sugar, orange blossom water, and rose water',
-      'Knead gently into a soft dough',
-      'Take small portions and flatten in your palm',
-      'Fill with date paste and seal into balls',
-      'Press into decorative molds if available',
-      'Place on baking tray and bake at 180°C for 15–18 minutes',
-      'Let cool completely',
-      'Dust lightly with powdered sugar if desired',
+    innovations: [
+      {
+        name: {
+          en: 'Aleppo Soap (Laurel Soap)',
+          sv: 'Aleppo Soap (Laurel Soap)',
+          es: 'Jabón de Alepo (Jabón de Laurel)',
+          fr: 'Savon d\'Alep (Savon au Laurier)',
+          de: 'Aleppo-Seife (Lorbeerseife)',
+        },
+        year: 'Ancient–Medieval',
+        description: {
+          en: 'Traditional laurel and olive oil soap-making from Aleppo influenced soap traditions across the Mediterranean.',
+          sv: 'Traditionell tvåltillverkning av lager och olivolja från Aleppo påverkade tvåltraditionerna över Medelhavet.',
+          es: 'La fabricación tradicional de jabón de laurel y aceite de oliva en Alepo influyó en las tradiciones jaboneras de todo el Mediterráneo.',
+          fr: 'La fabrication traditionnelle de savon à base de laurier et d\'huile d\'olive d\'Alep a influencé les traditions du savon à travers la Méditerranée.',
+          de: 'Die traditionelle Seifenherstellung aus Lorbeer und Olivenöl aus Aleppo beeinflusste die Seifentraditionen im gesamten Mittelmeerraum.',
+        },
+      },
+      {
+        name: {
+          en: 'Damascene Craftsmanship',
+          sv: 'Damascens hantverk',
+          es: 'Artesanía damasquinada',
+          fr: 'Artisanat damasquiné',
+          de: 'Damaszener-Handwerkskunst',
+        },
+        year: 'Medieval Era',
+        description: {
+          en: 'Damascus became renowned for intricate metalwork, textiles, and artisan crafts traded across regions.',
+          sv: 'Damaskus blev känt för invecklat metallarbete, textilier och hantverk som handlas över regioner.',
+          es: 'Damasco se hizo famoso por sus intrincados trabajos en metal, textiles y artesanías que se comercializaban en todas las regiones.',
+          fr: 'Damas est devenue célèbre pour son travail du métal, ses textiles et son artisanat complexes échangés entre les régions.',
+          de: 'Damaskus wurde berühmt für seine aufwendigen Metallarbeiten, Textilien und Kunsthandwerke, die in allen Regionen gehandelt wurden.',
+        },
+      },
+      {
+        name: {
+          en: 'Levantine Culinary Traditions',
+          sv: 'Levantinska kulinariska traditioner',
+          es: 'Tradiciones culinarias levantinas',
+          fr: 'Traditions culinaires levantines',
+          de: 'Levantinische kulinarische Traditionen',
+        },
+        year: 'Centuries',
+        description: {
+          en: 'Syrian mezze culture and dessert techniques helped shape food traditions across the Levant and beyond.',
+          sv: 'Syrisk mezze-kultur och desserttekniker hjälpte till att forma mattraditioner över hela Levanten och bortom.',
+          es: 'La cultura del mezze y las técnicas de postres sirios ayudaron a dar forma a las tradiciones gastronómicas en todo el Levante y más allá.',
+          fr: 'La culture syrienne des mezze et les techniques de desserts ont contribué à façonner les traditions alimentaires à travers le Levant et au-delà.',
+          de: 'Die syrische Mezze-Kultur und Desserttechniken prägten die Essenstraditionen in der gesamten Levante und darüber hinaus.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Arak (anise-flavored)',
-    nonAlcoholic: 'Arabic coffee, Mint tea, Jallab (date syrup drink)',
-  },
-
-  music: ['Traditional Dabke', 'Arabic classical music', 'Levantine folk songs'],
-
-  decorationIdeas: [
-    'Red, white, black and green flag colors',
-    'Damascus rose patterns',
-    'Historic architecture imagery',
-    'Arabic calligraphy',
-    'Lanterns and warm ambient lighting',
-    'Brass and copper accents',
-  ],
-
-  conversationStarters: [
-    'What do you know about ancient Middle Eastern history?',
-    'Have you tried Levantine cuisine?',
-    'Are you more into food, history, or architecture when you explore a country?',
-    'Have you ever tried mezze-style dining with many small dishes?',
-  ],
-
-  quiz: [
-    {
-      id: 'syria-q1',
-      question: "What is Syria's capital city?",
-      options: ['Aleppo', 'Damascus', 'Beirut', 'Amman'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'syria-q2',
-      question:
-        'Which famous ancient city in Syria was a major Silk Road oasis and has UNESCO-listed ruins?',
-      options: ['Palmyra', 'Petra', 'Persepolis', 'Byblos'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'syria-q3',
-      question: 'Which sea borders Syria to the west?',
-      options: ['Red Sea', 'Mediterranean Sea', 'Black Sea', 'Caspian Sea'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'syria-q4',
-      question: 'What is the primary official language of Syria?',
-      options: ['Persian', 'Turkish', 'Arabic', 'Hebrew'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'syria-q5',
-      question: 'Kibbeh is most commonly made with bulgur and what?',
-      options: ['Fish', 'Meat', 'Cheese', 'Chickpeas'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'syria-q6',
-      question: 'Which dance is widely associated with Levantine celebrations?',
-      options: ['Dabke', 'Flamenco', 'Tango', 'Samba'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'syria-q7',
-      question:
-        'Which two historic Syrian cities are often mentioned as major cultural centers?',
-      options: [
-        'Damascus and Aleppo',
-        'Basra and Baghdad',
-        'Jerusalem and Jaffa',
-        'Mecca and Medina',
+    mustVisit: [
+      {
+        name: {
+          en: 'Old City of Damascus',
+          sv: 'Gamla staden i Damaskus',
+          es: 'Ciudad Vieja de Damasco',
+          fr: 'Vieille ville de Damas',
+          de: 'Altstadt von Damaskus',
+        },
+        description: {
+          en: 'Historic streets, courtyards, and markets in one of the world’s oldest continuously inhabited cities.',
+          sv: 'Historiska gator, gårdar och marknader i en av världens äldsta kontinuerligt bebodda städer.',
+          es: 'Calles, patios y mercados históricos en una de las ciudades continuamente habitadas más antiguas del mundo.',
+          fr: 'Rues, cours et marchés historiques dans l\'une des plus anciennes villes habitées au monde.',
+          de: 'Historische Straßen, Innenhöfe und Märkte in einer der ältesten durchgehend bewohnten Städte der Welt.',
+        },
+      },
+      {
+        name: {
+          en: 'Ancient City of Aleppo',
+          sv: 'Den antika staden Aleppo',
+          es: 'Antigua ciudad de Alepo',
+          fr: 'Ancienne ville d\'Alep',
+          de: 'Antike Stadt Aleppo',
+        },
+        description: {
+          en: 'A legendary cultural center with deep history and an iconic citadel (note: preservation status varies due to conflict).',
+          sv: 'Ett legendariskt kulturcentrum med djup historia och ett ikoniskt citadell (notera: bevarandestatus varierar beroende på konflikt).',
+          es: 'Un centro cultural legendario con una profunda historia y una ciudadela icónica (nota: el estado de conservación varía debido al conflicto).',
+          fr: 'Un centre culturel légendaire avec une histoire profonde et une citadelle emblématique (remarque : l\'état de préservation varie en raison des conflits).',
+          de: 'Ein legendäres Kulturzentrum mit langer Geschichte und einer ikonischen Zitadelle (Hinweis: Der Erhaltungszustand variiert aufgrund von Konflikten).',
+        },
+      },
+      {
+        name: {
+          en: 'Palmyra (Tadmur)',
+          sv: 'Palmyra (Tadmur)',
+          es: 'Palmira (Tadmur)',
+          fr: 'Palmyre (Tadmour)',
+          de: 'Palmyra (Tadmur)',
+        },
+        description: {
+          en: 'Famous ancient oasis city with monumental ruins (note: access and preservation vary).',
+          sv: 'Berömd gammal oasstad med monumentala ruiner (obs: tillgång och bevarande varierar).',
+          es: 'Famosa y antigua ciudad oasis con ruinas monumentales (nota: el acceso y la conservación varían).',
+          fr: 'Célèbre ancienne ville oasis avec des ruines monumentales (remarque : l\'accès et la préservation varient).',
+          de: 'Berühmte antike Oasenstadt mit monumentalen Ruinen (Hinweis: Zugang und Erhaltung variieren).',
+        },
+      },
+      {
+        name: {
+          en: 'Crac des Chevaliers',
+          sv: 'Crac des Chevaliers',
+          es: 'Crac des Chevaliers',
+          fr: 'Crac des Chevaliers',
+          de: 'Crac des Chevaliers',
+        },
+        description: {
+          en: 'One of the best-preserved medieval crusader castles in the world (access conditions may vary).',
+          sv: 'En av de bäst bevarade medeltida korsfararborgen i världen (tillträdesförhållandena kan variera).',
+          es: 'Uno de los castillos cruzados medievales mejor conservados del mundo (las condiciones de acceso pueden variar).',
+          fr: 'L\'un des châteaux croisés médiévaux les mieux conservés au monde (les conditions d\'accès peuvent varier).',
+          de: 'Eine der am besten erhaltenen mittelalterlichen Kreuzfahrerburgen der Welt (Zugangsbedingungen können variieren).',
+        },
+      },
+      {
+        name: {
+          en: 'Bosra',
+          sv: 'Bosra',
+          es: 'bosra',
+          fr: 'Bosra',
+          de: 'Bosra',
+        },
+        description: {
+          en: 'Known for its impressive Roman theater and ancient city remains in southern Syria.',
+          sv: 'Känd för sin imponerande romerska teater och antika stadslämningar i södra Syrien.',
+          es: 'Conocida por su impresionante teatro romano y restos de una ciudad antigua en el sur de Siria.',
+          fr: 'Connue pour son impressionnant théâtre romain et ses vestiges de ville antique dans le sud de la Syrie.',
+          de: 'Bekannt für sein beeindruckendes römisches Theater und die Überreste einer antiken Stadt im Süden Syriens.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Safety & advisories',
+        description: {
+          en: 'Check current travel advisories and local guidance; conditions can vary significantly by region.',
+          sv: 'Kontrollera aktuella reserådgivningar och lokal vägledning; förhållandena kan variera avsevärt beroende på region.',
+          es: 'Consulte los avisos de viaje actuales y las orientaciones locales; Las condiciones pueden variar significativamente según la región.',
+          fr: 'Consultez les conseils de voyage actuels et les conseils locaux ; les conditions peuvent varier considérablement selon les régions.',
+          de: 'Informieren Sie sich über aktuelle Reisehinweise und örtliche Hinweise. Die Bedingungen können je nach Region erheblich variieren.',
+        },
+      },
+      {
+        item: 'Language',
+        description: {
+          en: 'Arabic is the official language; learning basic greetings is appreciated.',
+          sv: 'Arabiska är det officiella språket; att lära sig grundläggande hälsningar uppskattas.',
+          es: 'El árabe es el idioma oficial; Se agradece aprender saludos básicos.',
+          fr: 'L\'arabe est la langue officielle ; l\'apprentissage des salutations de base est apprécié.',
+          de: 'Arabisch ist die Amtssprache; Das Erlernen grundlegender Begrüßungen wird geschätzt.',
+        },
+      },
+      {
+        item: 'Etiquette',
+        description: {
+          en: 'Modest dress is respectful, especially at religious or traditional sites.',
+          sv: 'Modest klädsel är respektfullt, särskilt på religiösa eller traditionella platser.',
+          es: 'La vestimenta modesta es respetuosa, especialmente en lugares religiosos o tradicionales.',
+          fr: 'Une tenue vestimentaire modeste est respectueuse, en particulier sur les sites religieux ou traditionnels.',
+          de: 'Bescheidene Kleidung ist respektvoll, insbesondere an religiösen oder traditionellen Orten.',
+        },
+      },
+      {
+        item: 'Cash',
+        description: {
+          en: 'Card acceptance can be limited; carry local currency where relevant.',
+          sv: 'Kortacceptans kan begränsas; bära lokal valuta där det är relevant.',
+          es: 'La aceptación de la tarjeta puede ser limitada; Llevar moneda local cuando sea relevante.',
+          fr: 'L\'acceptation des cartes peut être limitée ; ayez sur vous de la monnaie locale, le cas échéant.',
+          de: 'Die Kartenakzeptanz kann eingeschränkt sein; Führen Sie ggf. die Landeswährung mit.',
+        },
+      },
+      {
+        item: 'Food culture',
+        description: {
+          en: 'Expect shared dishes and hospitality—meals are often communal and generous.',
+          sv: 'Förvänta dig delade rätter och gästfrihet – måltiderna är ofta gemensamma och generösa.',
+          es: 'Espere platos compartidos y hospitalidad: las comidas suelen ser comunitarias y generosas.',
+          fr: 'Attendez-vous à des plats partagés et à l\'hospitalité : les repas sont souvent communs et généreux.',
+          de: 'Erwarten Sie gemeinsame Gerichte und Gastfreundschaft – die Mahlzeiten finden oft gemeinschaftlich und großzügig statt.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'syria-main',
+      name: {
+        en: 'Kibbeh',
+        sv: 'Kibbeh',
+        es: 'Kibbé',
+        fr: 'Kibbé',
+        de: 'Kibbeh',
+      },
+      description: {
+        en: 'Bulgur and meat croquettes, national dish',
+        sv: 'Bulgur och köttkroketter, nationalrätt',
+        es: 'Croquetas de bulgur y carne, plato nacional',
+        fr: 'Croquettes de boulgour et viande, plat national',
+        de: 'Bulgur- und Fleischkroketten, Nationalgericht',
+      },
+      cookingTime: 90,
+      servings: 6,
+      dietType: {
+        en: 'meat',
+        sv: 'kött',
+        es: 'carne',
+        fr: 'viande',
+        de: 'Fleisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Ground lamb',
+            sv: 'Malet lamm',
+            es: 'Cordero molido',
+            fr: 'Agneau haché',
+            de: 'Lammhackfleisch',
+          },
+          amount: 500,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Fine bulgur',
+            sv: 'Fin bulgur',
+            es: 'Bulgur fino',
+            fr: 'Boulgour fin',
+            de: 'Feiner Bulgur',
+          },
+          amount: 300,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Onions',
+            sv: 'Lök',
+            es: 'Cebollas',
+            fr: 'Oignons',
+            de: 'Zwiebeln',
+          },
+          amount: 2,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Pine nuts',
+            sv: 'Pinjenötter',
+            es: 'Piñones',
+            fr: 'Pignons de pin',
+            de: 'Pinienkerne',
+          },
+          amount: 100,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Allspice',
+            sv: 'Kryddpeppar',
+            es: 'Pimienta de Jamaica',
+            fr: 'Piment de la Jamaïque',
+            de: 'Piment',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Cinnamon',
+            sv: 'Kanel',
+            es: 'Canela',
+            fr: 'Cannelle',
+            de: 'Zimt',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
       ],
-      correctAnswer: 0,
+      steps: [
+        {
+          en: 'Soak bulgur in water for 15 minutes and drain well',
+          sv: 'Blötlägg bulgur i vatten i 15 minuter och låt rinna av väl',
+          es: 'Remojar el bulgur en agua durante 15 minutos y escurrir bien',
+          fr: 'Faire tremper le boulgour dans l\'eau pendant 15 minutes et bien l\'égoutter',
+          de: 'Bulgur 15 Minuten in Wasser einweichen und gut abtropfen lassen',
+        },
+        {
+          en: 'Mix bulgur with half the meat, grated onion, and spices',
+          sv: 'Blanda bulgur med hälften av köttet, riven lök och kryddor',
+          es: 'Mezcla el bulgur con la mitad de la carne, la cebolla rallada y las especias',
+          fr: 'Mélanger le boulgour avec la moitié de la viande, l\'oignon râpé et les épices',
+          de: 'Bulgur mit der Hälfte des Fleisches, der geriebenen Zwiebel und den Gewürzen vermischen',
+        },
+        {
+          en: 'Prepare filling by cooking remaining meat with pine nuts and spices',
+          sv: 'Förbered fyllningen genom att tillaga resterande kött med pinjenötter och kryddor',
+          es: 'Prepare el relleno cocinando la carne restante con piñones y especias.',
+          fr: 'Préparez la garniture en cuisant le reste de la viande avec des pignons de pin et des épices',
+          de: 'Bereiten Sie die Füllung vor, indem Sie das restliche Fleisch mit Pinienkernen und Gewürzen kochen',
+        },
+        {
+          en: 'Form oval shells and fill with meat mixture',
+          sv: 'Forma ovala skal och fyll med köttblandning',
+          es: 'Formar conchas ovaladas y rellenar con la mezcla de carne',
+          fr: 'Former des coquilles ovales et remplir du mélange de viande',
+          de: 'Ovale Schalen formen und mit der Fleischmischung füllen',
+        },
+        {
+          en: 'Seal carefully and shape into torpedoes',
+          sv: 'Förslut försiktigt och forma till torpeder',
+          es: 'Sellar con cuidado y darles forma de torpedos',
+          fr: 'Scellez soigneusement et façonnez des torpilles',
+          de: 'Sorgfältig verschließen und zu Torpedos formen',
+        },
+        {
+          en: 'Deep fry until golden brown',
+          sv: 'Fritera tills de är gyllenbruna',
+          es: 'Freír hasta que estén doradas',
+          fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés',
+          de: 'Frittieren, bis sie goldbraun sind',
+        },
+        {
+          en: 'Drain on paper towels and serve warm',
+          sv: 'Låt rinna av på hushållspapper och servera varmt',
+          es: 'Escurrir sobre toallas de papel y servir caliente',
+          fr: 'Égoutter sur du papier absorbant et servir chaud',
+          de: 'Auf Papiertüchern abtropfen lassen und warm servieren',
+        },
+        {
+          en: 'Serve with yogurt and fresh salad',
+          sv: 'Servera med yoghurt och fräsch sallad',
+          es: 'Servir con yogur y ensalada fresca',
+          fr: 'Servir avec du yaourt et de la salade fraîche',
+          de: 'Mit Joghurt und frischem Salat servieren',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/6497907/pexels-photo-6497907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'syria-q8',
-      question: 'Syria is part of which broader region?',
-      options: ['Scandinavia', 'Levant / Middle East', 'Central America', 'Oceania'],
-      correctAnswer: 1,
+    dessert: {
+      id: 'syria-dessert',
+      name: {
+        en: 'Ma’amoul',
+        sv: 'Ma’amoul',
+        es: 'Ma\'amoul',
+        fr: 'Ma\'amoul',
+        de: 'Ma\'amoul',
+      },
+      description: {
+        en: 'Traditional Syrian semolina cookies filled with dates or nuts, commonly prepared for religious holidays.',
+        sv: 'Traditionella syriska mannagrynkakor fyllda med dadlar eller nötter, vanligtvis tillagade för religiösa högtider.',
+        es: 'Galletas de sémola tradicionales sirias rellenas de dátiles o nueces, comúnmente preparadas para fiestas religiosas.',
+        fr: 'Biscuits traditionnels syriens à la semoule remplis de dattes ou de noix, généralement préparés pour les fêtes religieuses.',
+        de: 'Traditionelle syrische Grießkekse gefüllt mit Datteln oder Nüssen, die üblicherweise für religiöse Feiertage zubereitet werden.',
+      },
+      cookingTime: 60,
+      servings: 24,
+      dietType: {
+        en: 'vegetarian',
+        sv: 'vegetarisk',
+        es: 'vegetariano',
+        fr: 'végétarien',
+        de: 'vegetarisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Semolina',
+            sv: 'Semolina',
+            es: 'Sémola',
+            fr: 'Semoule',
+            de: 'Grieß',
+          },
+          amount: 500,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Butter (melted)',
+            sv: 'Smör (smält)',
+            es: 'Mantequilla (derretida)',
+            fr: 'Beurre (fondu)',
+            de: 'Butter (geschmolzen)',
+          },
+          amount: 250,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Milk',
+            sv: 'Mjölk',
+            es: 'Leche',
+            fr: 'Lait',
+            de: 'Milch',
+          },
+          amount: 120,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Sugar',
+            sv: 'Socker',
+            es: 'Azúcar',
+            fr: 'Sucre',
+            de: 'Zucker',
+          },
+          amount: 50,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Date paste',
+            sv: 'Datumklistra',
+            es: 'Pasta de dátil',
+            fr: 'Pâte de dattes',
+            de: 'Datum einfügen',
+          },
+          amount: 300,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Orange blossom water',
+            sv: 'Apelsinblomvatten',
+            es: 'Agua de azahar',
+            fr: 'Eau de fleur d\'oranger',
+            de: 'Orangenblütenwasser',
+          },
+          amount: 2,
+          unit: {
+            en: 'tbsp',
+            sv: 'msk',
+            es: 'cucharada',
+            fr: 'à soupe',
+            de: 'EL',
+          },
+        },
+        {
+          name: {
+            en: 'Rose water',
+            sv: 'Rosenvatten',
+            es: 'Agua de rosas',
+            fr: 'Eau de rose',
+            de: 'Rosenwasser',
+          },
+          amount: 1,
+          unit: {
+            en: 'tbsp',
+            sv: 'msk',
+            es: 'cucharada',
+            fr: 'à soupe',
+            de: 'EL',
+          },
+        },
+        {
+          name: {
+            en: 'Powdered sugar (optional)',
+            sv: 'Pulversocker (valfritt)',
+            es: 'Azúcar en polvo (opcional)',
+            fr: 'Sucre en poudre (facultatif)',
+            de: 'Puderzucker (optional)',
+          },
+          amount: 50,
+          unit: 'g',
+        },
+      ],
+      steps: [
+        {
+          en: 'Mix semolina with melted butter and let rest 30 minutes',
+          sv: 'Blanda mannagryn med smält smör och låt vila 30 minuter',
+          es: 'Mezclar la sémola con la mantequilla derretida y dejar reposar 30 minutos',
+          fr: 'Mélanger la semoule avec le beurre fondu et laisser reposer 30 minutes',
+          de: 'Grieß mit zerlassener Butter vermischen und 30 Minuten ruhen lassen',
+        },
+        {
+          en: 'Add milk, sugar, orange blossom water, and rose water',
+          sv: 'Tillsätt mjölk, socker, apelsinblomvatten och rosenvatten',
+          es: 'Agrega la leche, el azúcar, el agua de azahar y el agua de rosas',
+          fr: 'Ajouter le lait, le sucre, l\'eau de fleur d\'oranger et l\'eau de rose',
+          de: 'Milch, Zucker, Orangenblütenwasser und Rosenwasser hinzufügen',
+        },
+        {
+          en: 'Knead gently into a soft dough',
+          sv: 'Knåda försiktigt till en mjuk deg',
+          es: 'Amasar suavemente hasta obtener una masa suave.',
+          fr: 'Pétrir doucement pour obtenir une pâte molle',
+          de: 'Vorsichtig zu einem weichen Teig kneten',
+        },
+        {
+          en: 'Take small portions and flatten in your palm',
+          sv: 'Ta små portioner och platta till i din handflata',
+          es: 'Tome porciones pequeñas y aplánelas en la palma',
+          fr: 'Prenez de petites portions et aplatissez-les dans votre paume',
+          de: 'Nehmen Sie kleine Portionen und drücken Sie sie in Ihrer Handfläche flach',
+        },
+        {
+          en: 'Fill with date paste and seal into balls',
+          sv: 'Fyll med dadelmassa och försegla till bollar',
+          es: 'Rellenar con pasta de dátiles y sellar formando bolitas',
+          fr: 'Remplissez de pâte de dattes et formez des boules',
+          de: 'Mit Dattelpaste füllen und zu Kugeln verschließen',
+        },
+        {
+          en: 'Press into decorative molds if available',
+          sv: 'Tryck ut i dekorativa formar om det finns',
+          es: 'Presione en moldes decorativos si está disponible',
+          fr: 'Presser dans des moules décoratifs si disponibles',
+          de: 'Falls vorhanden, in dekorative Formen drücken',
+        },
+        {
+          en: 'Place on baking tray and bake at 180°C for 15–18 minutes',
+          sv: 'Lägg på en plåt och grädda i 180°C i 15–18 minuter',
+          es: 'Colóquelo en una bandeja para hornear y hornee a 180°C durante 15 a 18 minutos',
+          fr: 'Placer sur une plaque à pâtisserie et cuire au four à 180°C pendant 15 à 18 minutes',
+          de: 'Auf ein Backblech legen und bei 180°C 15–18 Minuten backen',
+        },
+        {
+          en: 'Let cool completely',
+          sv: 'Låt svalna helt',
+          es: 'Dejar enfriar por completo',
+          fr: 'Laisser refroidir complètement',
+          de: 'Vollständig abkühlen lassen',
+        },
+        {
+          en: 'Dust lightly with powdered sugar if desired',
+          sv: 'Pudra lätt med strösocker om så önskas',
+          es: 'Espolvoree ligeramente con azúcar en polvo si lo desea',
+          fr: 'Saupoudrer légèrement de sucre en poudre si désiré',
+          de: 'Nach Belieben leicht mit Puderzucker bestäuben',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'syria-q9',
-      question: "What is Syria's currency called?",
-      options: ['Syrian Pound', 'Syrian Dinar', 'Syrian Rial', 'Syrian Lira (Euro)'],
-      correctAnswer: 0,
+    drinks: {
+      alcoholic: 'Arak (anise-flavored)',
+      nonAlcoholic: 'Arabic coffee, Mint tea, Jallab (date syrup drink)',
     },
-    {
-      id: 'syria-q10',
-      question: 'Which of these is a common non-alcoholic drink in Syrian culture?',
-      options: ['Matcha latte', 'Arabic coffee', 'Root beer float', 'Bubble tea'],
-      correctAnswer: 1,
+    music: [
+      'Traditional Dabke',
+      'Arabic classical music',
+      'Levantine folk songs',
+    ],
+    decorationIdeas: [
+      'Red, white, black and green flag colors',
+      'Damascus rose patterns',
+      'Historic architecture imagery',
+      'Arabic calligraphy',
+      'Lanterns and warm ambient lighting',
+      'Brass and copper accents',
+    ],
+    conversationStarters: [
+      'What do you know about ancient Middle Eastern history?',
+      'Have you tried Levantine cuisine?',
+      'Are you more into food, history, or architecture when you explore a country?',
+      'Have you ever tried mezze-style dining with many small dishes?',
+    ],
+    quiz: [
+      {
+        id: 'syria-q1',
+        question: {
+          en: 'What is Syria\'s capital city?',
+          sv: 'Vad är Syriens huvudstad?',
+          es: '¿Cuál es la capital de Siria?',
+          fr: 'Quelle est la capitale de la Syrie ?',
+          de: 'Was ist Syriens Hauptstadt?',
+        },
+        options: [
+          {
+            en: 'Aleppo',
+            sv: 'Aleppo',
+            es: 'Alepo',
+            fr: 'Alep',
+            de: 'Aleppo',
+          },
+          {
+            en: 'Damascus',
+            sv: 'Damaskus',
+            es: 'Damasco',
+            fr: 'Damas',
+            de: 'Damaskus',
+          },
+          {
+            en: 'Beirut',
+            sv: 'Beirut',
+            es: 'Beirut',
+            fr: 'Beyrouth',
+            de: 'Beirut',
+          },
+          {
+            en: 'Amman',
+            sv: 'Amman',
+            es: 'Ammán',
+            fr: 'Amman',
+            de: 'Amman',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'syria-q2',
+        question: {
+          en: 'Which famous ancient city in Syria was a major Silk Road oasis and has UNESCO-listed ruins?',
+          sv: 'Vilken berömd antik stad i Syrien var en stor sidenvägsoas och har UNESCO-listade ruiner?',
+          es: '¿Qué ciudad antigua y famosa de Siria fue un importante oasis en la Ruta de la Seda y tiene ruinas incluidas en la lista de la UNESCO?',
+          fr: 'Quelle ville antique célèbre de Syrie était une oasis majeure sur la Route de la Soie et possède des ruines classées par l\'UNESCO ?',
+          de: 'Welche berühmte antike Stadt in Syrien war eine bedeutende Oase der Seidenstraße und verfügt über Ruinen, die zum UNESCO-Weltkulturerbe gehören?',
+        },
+        options: [
+          {
+            en: 'Palmyra',
+            sv: 'Palmyra',
+            es: 'Palmira',
+            fr: 'Palmyre',
+            de: 'Palmyra',
+          },
+          {
+            en: 'Petra',
+            sv: 'Petra',
+            es: 'Petra',
+            fr: 'Pétra',
+            de: 'Petra',
+          },
+          {
+            en: 'Persepolis',
+            sv: 'Persepolis',
+            es: 'Persépolis',
+            fr: 'Persépolis',
+            de: 'Persepolis',
+          },
+          {
+            en: 'Byblos',
+            sv: 'Byblos',
+            es: 'Biblos',
+            fr: 'Byblos',
+            de: 'Byblos',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'syria-q3',
+        question: {
+          en: 'Which sea borders Syria to the west?',
+          sv: 'Vilket hav gränsar till Syrien i väster?',
+          es: '¿Qué mar limita con Siria al oeste?',
+          fr: 'Quelle mer borde la Syrie à l’ouest ?',
+          de: 'Welches Meer grenzt im Westen an Syrien?',
+        },
+        options: [
+          {
+            en: 'Red Sea',
+            sv: 'Röda havet',
+            es: 'Mar Rojo',
+            fr: 'Mer Rouge',
+            de: 'Rotes Meer',
+          },
+          {
+            en: 'Mediterranean Sea',
+            sv: 'Medelhavet',
+            es: 'Mar Mediterráneo',
+            fr: 'Mer Méditerranée',
+            de: 'Mittelmeer',
+          },
+          {
+            en: 'Black Sea',
+            sv: 'Svarta havet',
+            es: 'Mar Negro',
+            fr: 'Mer Noire',
+            de: 'Schwarzes Meer',
+          },
+          {
+            en: 'Caspian Sea',
+            sv: 'Kaspiska havet',
+            es: 'Mar Caspio',
+            fr: 'mer Caspienne',
+            de: 'Kaspisches Meer',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'syria-q4',
+        question: {
+          en: 'What is the primary official language of Syria?',
+          sv: 'Vilket är det primära officiella språket i Syrien?',
+          es: '¿Cuál es el principal idioma oficial de Siria?',
+          fr: 'Quelle est la principale langue officielle de la Syrie ?',
+          de: 'Was ist die wichtigste Amtssprache Syriens?',
+        },
+        options: [
+          {
+            en: 'Persian',
+            sv: 'persiska',
+            es: 'persa',
+            fr: 'persan',
+            de: 'Persisch',
+          },
+          {
+            en: 'Turkish',
+            sv: 'turkiska',
+            es: 'Turco',
+            fr: 'Turc',
+            de: 'Türkisch',
+          },
+          {
+            en: 'Arabic',
+            sv: 'Arabiska',
+            es: 'Árabe',
+            fr: 'Arabe',
+            de: 'Arabisch',
+          },
+          {
+            en: 'Hebrew',
+            sv: 'Hebreiska',
+            es: 'Hebreo',
+            fr: 'Hébreu',
+            de: 'Hebräisch',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'syria-q5',
+        question: {
+          en: 'Kibbeh is most commonly made with bulgur and what?',
+          sv: 'Kibbeh görs oftast med bulgur och vad?',
+          es: 'El kibbeh se hace más comúnmente con bulgur y ¿qué?',
+          fr: 'Le kibbeh est le plus souvent préparé avec du boulgour et quoi ?',
+          de: 'Kibbeh wird am häufigsten mit Bulgur zubereitet und was?',
+        },
+        options: [
+          {
+            en: 'Fish',
+            sv: 'Fisk',
+            es: 'Pescado',
+            fr: 'Poisson',
+            de: 'Fisch',
+          },
+          {
+            en: 'Meat',
+            sv: 'Kött',
+            es: 'Carne',
+            fr: 'Viande',
+            de: 'Fleisch',
+          },
+          {
+            en: 'Cheese',
+            sv: 'Ost',
+            es: 'Queso',
+            fr: 'Fromage',
+            de: 'Käse',
+          },
+          {
+            en: 'Chickpeas',
+            sv: 'Kikärter',
+            es: 'Garbanzos',
+            fr: 'Pois chiches',
+            de: 'Kichererbsen',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'syria-q6',
+        question: {
+          en: 'Which dance is widely associated with Levantine celebrations?',
+          sv: 'Vilken dans är allmänt förknippad med levantinska firanden?',
+          es: '¿Qué danza está ampliamente asociada con las celebraciones levantinas?',
+          fr: 'Quelle danse est largement associée aux célébrations levantines ?',
+          de: 'Welcher Tanz wird häufig mit levantinischen Festen in Verbindung gebracht?',
+        },
+        options: [
+          {
+            en: 'Dabke',
+            sv: 'Dabke',
+            es: 'Dabke',
+            fr: 'Dabké',
+            de: 'Dabke',
+          },
+          {
+            en: 'Flamenco',
+            sv: 'Flamenco',
+            es: 'Flamenco',
+            fr: 'Flamenco',
+            de: 'Flamenco',
+          },
+          {
+            en: 'Tango',
+            sv: 'Tango',
+            es: 'Tango',
+            fr: 'Tango',
+            de: 'Tango',
+          },
+          {
+            en: 'Samba',
+            sv: 'Samba',
+            es: 'Samba',
+            fr: 'Samba',
+            de: 'Samba',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'syria-q7',
+        question: {
+          en: 'Which two historic Syrian cities are often mentioned as major cultural centers?',
+          sv: 'Vilka två historiska syriska städer nämns ofta som stora kulturcentra?',
+          es: '¿Qué dos ciudades históricas sirias se mencionan a menudo como importantes centros culturales?',
+          fr: 'Quelles sont les deux villes historiques syriennes qui sont souvent citées comme centres culturels majeurs ?',
+          de: 'Welche beiden historischen syrischen Städte werden oft als wichtige Kulturzentren genannt?',
+        },
+        options: [
+          {
+            en: 'Damascus and Aleppo',
+            sv: 'Damaskus och Aleppo',
+            es: 'Damasco y Alepo',
+            fr: 'Damas et Alep',
+            de: 'Damaskus und Aleppo',
+          },
+          {
+            en: 'Basra and Baghdad',
+            sv: 'Basra och Bagdad',
+            es: 'Basora y Bagdad',
+            fr: 'Bassorah et Bagdad',
+            de: 'Basra und Bagdad',
+          },
+          {
+            en: 'Jerusalem and Jaffa',
+            sv: 'Jerusalem och Jaffa',
+            es: 'Jerusalén y Jaffa',
+            fr: 'Jérusalem et Jaffa',
+            de: 'Jerusalem und Jaffa',
+          },
+          {
+            en: 'Mecca and Medina',
+            sv: 'Mecka och Medina',
+            es: 'La Meca y Medina',
+            fr: 'La Mecque et Médine',
+            de: 'Mekka und Medina',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'syria-q8',
+        question: {
+          en: 'Syria is part of which broader region?',
+          sv: 'Syrien är en del av vilken bredare region?',
+          es: '¿Siria es parte de qué región más amplia?',
+          fr: 'De quelle région la Syrie fait-elle partie ?',
+          de: 'Zu welcher größeren Region gehört Syrien?',
+        },
+        options: [
+          {
+            en: 'Scandinavia',
+            sv: 'Skandinavien',
+            es: 'Escandinavia',
+            fr: 'Scandinavie',
+            de: 'Skandinavien',
+          },
+          {
+            en: 'Levant / Middle East',
+            sv: 'Levanten / Mellanöstern',
+            es: 'Levante / Medio Oriente',
+            fr: 'Levant / Moyen-Orient',
+            de: 'Levante / Naher Osten',
+          },
+          {
+            en: 'Central America',
+            sv: 'Centralamerika',
+            es: 'Centroamérica',
+            fr: 'Amérique centrale',
+            de: 'Mittelamerika',
+          },
+          {
+            en: 'Oceania',
+            sv: 'Oceanien',
+            es: 'Oceanía',
+            fr: 'Océanie',
+            de: 'Ozeanien',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'syria-q9',
+        question: {
+          en: 'What is Syria\'s currency called?',
+          sv: 'Vad heter Syriens valuta?',
+          es: '¿Cómo se llama la moneda de Siria?',
+          fr: 'Comment s’appelle la monnaie syrienne ?',
+          de: 'Wie heißt die Währung Syriens?',
+        },
+        options: [
+          {
+            en: 'Syrian Pound',
+            sv: 'syriska pundet',
+            es: 'Libra siria',
+            fr: 'Livre syrienne',
+            de: 'Syrisches Pfund',
+          },
+          {
+            en: 'Syrian Dinar',
+            sv: 'syrisk dinar',
+            es: 'Dinar sirio',
+            fr: 'Dinar syrien',
+            de: 'Syrischer Dinar',
+          },
+          {
+            en: 'Syrian Rial',
+            sv: 'syriska rial',
+            es: 'Rial sirio',
+            fr: 'Rial syrien',
+            de: 'Syrisches Rial',
+          },
+          {
+            en: 'Syrian Lira (Euro)',
+            sv: 'syriska lira (euro)',
+            es: 'Lira siria (euro)',
+            fr: 'Lire syrienne (Euro)',
+            de: 'Syrische Lira (Euro)',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'syria-q10',
+        question: {
+          en: 'Which of these is a common non-alcoholic drink in Syrian culture?',
+          sv: 'Vilken av dessa är en vanlig alkoholfri dryck i den syriska kulturen?',
+          es: '¿Cuál de estas es una bebida sin alcohol común en la cultura siria?',
+          fr: 'Laquelle de ces boissons est une boisson non alcoolisée courante dans la culture syrienne ?',
+          de: 'Welches davon ist in der syrischen Kultur ein weit verbreitetes alkoholfreies Getränk?',
+        },
+        options: [
+          {
+            en: 'Matcha latte',
+            sv: 'Matcha latte',
+            es: 'Matcha café con leche',
+            fr: 'Matcha latté',
+            de: 'Matcha-Latte',
+          },
+          {
+            en: 'Arabic coffee',
+            sv: 'Arabiskt kaffe',
+            es: 'Café árabe',
+            fr: 'Café arabe',
+            de: 'Arabischer Kaffee',
+          },
+          {
+            en: 'Root beer float',
+            sv: 'Root beer float',
+            es: 'Flotador de cerveza de raíz',
+            fr: 'Flotteur de bière de racine',
+            de: 'Root Beer Float',
+          },
+          {
+            en: 'Bubble tea',
+            sv: 'Bubble te',
+            es: 'Té de burbujas',
+            fr: 'Thé aux bulles',
+            de: 'Bubble Tea',
+          },
+        ],
+        correctAnswer: 1,
+      },
+    ],
+    coordinates: {
+      x: 55,
+      y: 37,
     },
-  ],
-
-  coordinates: { x: 55, y: 37 },
-};
+  };

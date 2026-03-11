@@ -1,300 +1,1171 @@
 import { Country } from '@/types';
 
 export const samoa: Country = {
-  id: 'samoa',
-  name: 'Samoa',
-  code: 'WS',
-  continent: 'Oceania',
-  flag: '🇼🇸',
-  landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
-  description:
-    "Samoa is a Polynesian island nation known for traditional fa'a Samoa culture, lush landscapes, pristine beaches, and warm hospitality.",
-  quickFacts: [
-    { label: 'Capital', value: 'Apia' },
-    { label: 'Population', value: '200,000' },
-    { label: 'Official Languages', value: 'Samoan, English' },
-    { label: 'Currency', value: 'Samoan Tala (WST)' },
-    { label: 'Area', value: '2,842 km²' },
-  ],
-  facts: [
-    "Fa'a Samoa (the Samoan way) remains a strong part of everyday life",
-    'Samoa is in Polynesia in the South Pacific and consists mainly of Upolu and Savai\'i',
-    'Apia is the main hub for culture, markets, and waterfront life',
-    'Rugby is hugely popular and Samoa is known for strong international players',
-    'To Sua Ocean Trench is one of Samoa\'s most famous natural swimming spots',
-    'Traditional cooking often uses an umu (earth oven)',
-    'Coconut, taro, breadfruit, and fresh seafood are key staples',
-    'Writer Robert Louis Stevenson lived in Samoa and is buried near Apia',
-  ],
-  foodCulture:
-    'Samoan cuisine is built around taro, coconut cream, breadfruit, and seafood. Many meals are cooked in an umu (earth oven), and food is often shared family-style during gatherings and celebrations.',
-
-  history: [
-    {
-      year: 'Ancient',
-      title: 'Polynesian Settlement',
-      description:
-        'Samoa was settled by Polynesian voyagers, developing rich traditions in navigation, family structure, and oral history.',
+    id: 'samoa',
+    name: {
+      en: 'Samoa',
+      sv: 'Samoa',
+      es: 'Samoa',
+      fr: 'Samoa',
+      de: 'Samoa',
     },
-    {
-      year: '1800s',
-      title: 'European Contact',
-      description:
-        'Increased contact with Europeans brought major change through trade, religion, and shifting political influence.',
+    code: 'WS',
+    continent: {
+      en: 'Oceania',
+      sv: 'Oceanien',
+      es: 'Oceanía',
+      fr: 'Océanie',
+      de: 'Ozeanien',
     },
-    {
-      year: '1899',
-      title: 'Partition of the Islands',
-      description:
-        'The Samoan islands were divided into different colonial administrations, shaping modern borders in the region.',
+    flag: '🇼🇸',
+    landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+    description: {
+      en: 'Samoa is a Polynesian island nation known for traditional fa\'a Samoa culture, lush landscapes, pristine beaches, and warm hospitality.',
+      sv: 'Samoa är en polynesisk önation känd för traditionell fa\'a Samoa-kultur, frodiga landskap, orörda stränder och varm gästfrihet.',
+      es: 'Samoa es una nación insular de la Polinesia conocida por la cultura tradicional fa\'a Samoa, sus paisajes exuberantes, sus playas vírgenes y su cálida hospitalidad.',
+      fr: 'Les Samoa sont une nation insulaire polynésienne connue pour sa culture traditionnelle fa\'a Samoa, ses paysages luxuriants, ses plages immaculées et son hospitalité chaleureuse.',
+      de: 'Samoa ist ein polynesischer Inselstaat, der für die traditionelle Fa\'a-Samoa-Kultur, üppige Landschaften, unberührte Strände und herzliche Gastfreundschaft bekannt ist.',
     },
-    {
-      year: '1918',
-      title: '1918 Influenza Pandemic',
-      description:
-        'Samoa suffered significant losses during the influenza pandemic, a major event in modern Samoan history.',
-    },
-    {
-      year: '1962',
-      title: 'Independence',
-      description:
-        'Samoa became the first Pacific island nation to regain independence in the 20th century (as Western Samoa).',
-    },
-    {
-      year: '1997',
-      title: 'Name Change to Samoa',
-      description:
-        'The country officially adopted the name "Samoa", reflecting national identity and continuity.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: 'Polynesian Wayfinding',
-      year: 'Ancient',
-      description:
-        'Samoan seafaring traditions contributed to Polynesian navigation knowledge, including reading stars, swells, and winds for ocean voyages.',
-    },
-    {
-      name: 'Umu Earth-Oven Cooking',
-      year: 'Traditional',
-      description:
-        'Umu cooking techniques (heated stones and covered pits) remain a core culinary method, producing distinctive smoky flavors.',
-    },
-    {
-      name: 'Siapo (Tapa Cloth) Craft',
-      year: 'Traditional',
-      description:
-        'Siapo is a traditional barkcloth art form using natural dyes and patterns, representing cultural identity and storytelling.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'To Sua Ocean Trench',
-      description:
-        'Iconic natural swimming hole with a ladder down into clear turquoise water.',
-    },
-    {
-      name: 'Lalomanu Beach',
-      description:
-        'Famous white-sand beach with calm lagoon waters and classic South Pacific scenery.',
-    },
-    {
-      name: 'Papaseea Sliding Rocks',
-      description:
-        'Natural rock waterslides in a river setting, a fun freshwater stop near Apia.',
-    },
-    {
-      name: 'O Le Pupu-Pue National Park',
-      description:
-        'Rainforest trails and coastal views showcasing Samoa\'s lush interior and biodiversity.',
-    },
-    {
-      name: 'Vailima (Robert Louis Stevenson Museum)',
-      description:
-        'Stevenson\'s former home near Apia, now a museum offering insight into Samoa\'s colonial-era history.',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Best time to visit',
-      description:
-        'May to October is typically drier and cooler; November to April is warmer and wetter.',
-    },
-    {
-      item: 'Cash and payments',
-      description:
-        'Carry some cash (WST) for small shops and markets; cards are more common in larger hotels and businesses.',
-    },
-    {
-      item: 'Respect local customs',
-      description:
-        "Dress modestly in villages and follow local guidance; fa'a Samoa emphasizes respect and community.",
-    },
-    {
-      item: 'Sunday quiet hours',
-      description:
-        'Many areas observe a quieter Sunday; plan shopping and transport accordingly.',
-    },
-    {
-      item: 'Reef-safe sun protection',
-      description:
-        'Use reef-safe sunscreen and consider rash guards for lagoon swimming.',
-    },
-  ],
-
-  mainDish: {
-    id: 'samoa-main',
-    name: 'Palusami',
-    description:
-      'A beloved Samoan dish of taro leaves baked in rich coconut cream (often served as part of an umu feast).',
-    cookingTime: 90,
-    servings: 6,
-    dietType: 'vegan',
-    ingredients: [
-      { name: 'Taro leaves (or spinach as substitute)', amount: 500, unit: 'g' },
-      { name: 'Coconut cream', amount: 400, unit: 'ml' },
-      { name: 'Onion, finely chopped', amount: 1, unit: 'whole' },
-      { name: 'Salt', amount: 1, unit: 'tsp' },
-      { name: 'Black pepper', amount: 0.5, unit: 'tsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Apia',
+          sv: 'Apia',
+          es: 'Apia',
+          fr: 'Apia',
+          de: 'Apia',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '200,000',
+          sv: '200 000',
+          es: '200.000',
+          fr: '200 000',
+          de: '200.000',
+        },
+      },
+      {
+        label: {
+          en: 'Official Languages',
+          sv: 'Officiella språk',
+          es: 'Idiomas oficiales',
+          fr: 'Langues officielles',
+          de: 'Amtssprachen',
+        },
+        value: {
+          en: 'Samoan, English',
+          sv: 'samoanska, engelska',
+          es: 'Samoano, inglés',
+          fr: 'samoan, anglais',
+          de: 'Samoanisch, Englisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Samoan Tala (WST)',
+          sv: 'Samoan Tala (WST)',
+          es: 'Tala samoana (WST)',
+          fr: 'Tala samoan (WST)',
+          de: 'Samoanischer Tala (WST)',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '2,842 km²',
+          sv: '2 842 km²',
+          es: '2.842 km²',
+          fr: '2 842 km²',
+          de: '2.842 km²',
+        },
+      },
     ],
-    steps: [
-      'Preheat oven to 180C.',
-      'If using taro leaves: wash thoroughly and remove any tough stems. (Taro leaves must be cooked fully.)',
-      'Mix coconut cream with chopped onion, salt, and black pepper.',
-      'Create small bundles of leaves and spoon coconut mixture into the center of each bundle.',
-      'Wrap each bundle tightly in foil (or banana leaves if available).',
-      'Place bundles in a baking dish and bake 75-90 minutes until very tender.',
-      'Rest 5 minutes, then unwrap carefully.',
-      'Serve warm as a side or main with taro, breadfruit, or rice.',
+    facts: [
+      {
+        en: 'Fa\'a Samoa (the Samoan way) remains a strong part of everyday life',
+        sv: 'Fa\'a Samoa (det samoanska sättet) är fortfarande en stark del av vardagen',
+        es: 'Fa\'a Samoa (el estilo samoano) sigue siendo una parte importante de la vida cotidiana',
+        fr: 'Fa\'a Samoa (la voie samoane) reste un élément important de la vie quotidienne',
+        de: 'Fa\'a Samoa (der samoanische Weg) bleibt ein wichtiger Bestandteil des Alltags',
+      },
+      {
+        en: 'Samoa is in Polynesia in the South Pacific and consists mainly of Upolu and Savai\'i',
+        sv: 'Samoa ligger i Polynesien i södra Stilla havet och består huvudsakligen av Upolu och Savai\'i',
+        es: 'Samoa está en la Polinesia en el Pacífico Sur y se compone principalmente de Upolu y Savai\'i',
+        fr: 'Les Samoa se trouvent en Polynésie dans le Pacifique Sud et se composent principalement d\'Upolu et de Savai\'i',
+        de: 'Samoa liegt in Polynesien im Südpazifik und besteht hauptsächlich aus Upolu und Savai\'i',
+      },
+      {
+        en: 'Apia is the main hub for culture, markets, and waterfront life',
+        sv: 'Apia är det främsta navet för kultur, marknader och liv vid vattnet',
+        es: 'Apia es el principal centro de cultura, mercados y vida costera',
+        fr: 'Apia est le centre principal de la culture, des marchés et de la vie au bord de l\'eau',
+        de: 'Apia ist das wichtigste Zentrum für Kultur, Märkte und Leben am Wasser',
+      },
+      {
+        en: 'Rugby is hugely popular and Samoa is known for strong international players',
+        sv: 'Rugby är enormt populärt och Samoa är känt för starka internationella spelare',
+        es: 'El rugby es muy popular y Samoa es conocida por sus fuertes jugadores internacionales',
+        fr: 'Le rugby est extrêmement populaire et les Samoa sont connues pour leurs joueurs internationaux forts',
+        de: 'Rugby erfreut sich großer Beliebtheit und Samoa ist für seine starken internationalen Spieler bekannt',
+      },
+      {
+        en: 'To Sua Ocean Trench is one of Samoa\'s most famous natural swimming spots',
+        sv: 'To Sua Ocean Trench är en av Samoa mest kända naturliga badplatser',
+        es: 'To Sua Ocean Trench es uno de los lugares naturales para nadar más famosos de Samoa',
+        fr: 'To Sua Ocean Trench est l\'un des lieux de baignade naturels les plus célèbres des Samoa',
+        de: 'To Sua Ocean Trench ist einer der berühmtesten natürlichen Badeplätze Samoas',
+      },
+      {
+        en: 'Traditional cooking often uses an umu (earth oven)',
+        sv: 'Traditionell matlagning använder ofta en umu (jordugn)',
+        es: 'La cocina tradicional suele utilizar un umu (horno de tierra)',
+        fr: 'La cuisine traditionnelle utilise souvent un umu (four en terre)',
+        de: 'Beim traditionellen Kochen wird oft ein Umu (Erdofen)',
+      },
+      {
+        en: 'Coconut, taro, breadfruit, and fresh seafood are key staples',
+        sv: 'Kokosnöt, taro, brödfrukt och färska skaldjur är nyckelvaror',
+        es: 'El coco, el taro, el árbol del pan y los mariscos frescos son alimentos básicos',
+        fr: 'La noix de coco, le taro, le fruit à pain et les fruits de mer frais sont des aliments de base',
+        de: 'verwendet Kokosnuss, Taro, Brotfrucht und frische Meeresfrüchte sind die Grundnahrungsmittel',
+      },
+      {
+        en: 'Writer Robert Louis Stevenson lived in Samoa and is buried near Apia',
+        sv: 'Författaren Robert Louis Stevenson bodde i Samoa och ligger begravd nära Apia',
+        es: 'El escritor Robert Louis Stevenson vivió en Samoa y está enterrado cerca de Apia',
+        fr: 'L\'écrivain Robert Louis Stevenson a vécu aux Samoa et est enterré près d\'Apia',
+        de: 'Der Schriftsteller Robert Louis Stevenson lebte in Samoa und ist in der Nähe von Apia begraben',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'samoa-dessert',
-    name: 'Fa\'ausi',
-    description:
-      'A traditional Samoan dessert of steamed dough pieces served with a rich coconut caramel sauce.',
-    cookingTime: 60,
-    servings: 6,
-    dietType: 'vegetarian',
-    ingredients: [
-      { name: 'All-purpose flour', amount: 300, unit: 'g' },
-      { name: 'Baking powder', amount: 2, unit: 'tsp' },
-      { name: 'Sugar', amount: 60, unit: 'g' },
-      { name: 'Pinch of salt', amount: 1, unit: 'pinch' },
-      { name: 'Water', amount: 220, unit: 'ml' },
-      { name: 'Coconut cream', amount: 400, unit: 'ml' },
-      { name: 'Brown sugar', amount: 120, unit: 'g' },
-      { name: 'Vanilla extract (optional)', amount: 1, unit: 'tsp' },
+    foodCulture: 'Samoan cuisine is built around taro, coconut cream, breadfruit, and seafood. Many meals are cooked in an umu (earth oven), and food is often shared family-style during gatherings and celebrations.',
+    history: [
+      {
+        year: 'Ancient',
+        title: 'Polynesian Settlement',
+        description: {
+          en: 'Samoa was settled by Polynesian voyagers, developing rich traditions in navigation, family structure, and oral history.',
+          sv: 'Samoa bosattes av polynesiska resenärer som utvecklade rika traditioner inom navigering, familjestruktur och muntlig historia.',
+          es: 'Samoa fue colonizada por viajeros polinesios, quienes desarrollaron ricas tradiciones en navegación, estructura familiar e historia oral.',
+          fr: 'Les Samoa ont été colonisées par des voyageurs polynésiens, développant de riches traditions en matière de navigation, de structure familiale et d\'histoire orale.',
+          de: 'Samoa wurde von polynesischen Reisenden besiedelt und entwickelte reiche Traditionen in den Bereichen Navigation, Familienstruktur und mündliche Überlieferung.',
+        },
+      },
+      {
+        year: '1800s',
+        title: 'European Contact',
+        description: {
+          en: 'Increased contact with Europeans brought major change through trade, religion, and shifting political influence.',
+          sv: 'Ökad kontakt med européer medförde stora förändringar genom handel, religion och skiftande politiskt inflytande.',
+          es: 'El mayor contacto con los europeos provocó cambios importantes a través del comercio, la religión y la influencia política cambiante.',
+          fr: 'Les contacts accrus avec les Européens ont apporté des changements majeurs à travers le commerce, la religion et l\'évolution de l\'influence politique.',
+          de: 'Der verstärkte Kontakt mit Europäern brachte durch Handel, Religion und wechselnden politischen Einfluss große Veränderungen mit sich.',
+        },
+      },
+      {
+        year: '1899',
+        title: 'Partition of the Islands',
+        description: {
+          en: 'The Samoan islands were divided into different colonial administrations, shaping modern borders in the region.',
+          sv: 'De samoanska öarna var uppdelade i olika koloniala administrationer, vilket formade moderna gränser i regionen.',
+          es: 'Las islas de Samoa se dividieron en diferentes administraciones coloniales, dando forma a las fronteras modernas de la región.',
+          fr: 'Les îles Samoa ont été divisées en différentes administrations coloniales, façonnant ainsi les frontières modernes de la région.',
+          de: 'Die samoanischen Inseln waren in verschiedene Kolonialverwaltungen aufgeteilt und bildeten die modernen Grenzen in der Region.',
+        },
+      },
+      {
+        year: '1918',
+        title: '1918 Influenza Pandemic',
+        description: {
+          en: 'Samoa suffered significant losses during the influenza pandemic, a major event in modern Samoan history.',
+          sv: 'Samoa led betydande förluster under influensapandemin, en stor händelse i modern samoansk historia.',
+          es: 'Samoa sufrió pérdidas importantes durante la pandemia de gripe, un acontecimiento importante en la historia moderna de Samoa.',
+          fr: 'Les Samoa ont subi des pertes importantes lors de la pandémie de grippe, un événement majeur de l\'histoire moderne des Samoa.',
+          de: 'Samoa erlitt während der Grippepandemie, einem wichtigen Ereignis in der modernen samoanischen Geschichte, erhebliche Verluste.',
+        },
+      },
+      {
+        year: '1962',
+        title: 'Independence',
+        description: {
+          en: 'Samoa became the first Pacific island nation to regain independence in the 20th century (as Western Samoa).',
+          sv: 'Samoa blev den första ö-nationen i Stilla havet att återfå självständighet på 1900-talet (som Västra Samoa).',
+          es: 'Samoa se convirtió en la primera nación insular del Pacífico en recuperar la independencia en el siglo XX (como Samoa Occidental).',
+          fr: 'Les Samoa sont devenues la première nation insulaire du Pacifique à retrouver son indépendance au XXe siècle (sous le nom de Samoa occidentales).',
+          de: 'Samoa war der erste pazifische Inselstaat, der im 20. Jahrhundert seine Unabhängigkeit wiedererlangte (als West-Samoa).',
+        },
+      },
+      {
+        year: '1997',
+        title: 'Name Change to Samoa',
+        description: {
+          en: 'The country officially adopted the name "Samoa", reflecting national identity and continuity.',
+          sv: 'Landet antog officiellt namnet "Samoa", vilket återspeglar nationell identitet och kontinuitet.',
+          es: 'El país adoptó oficialmente el nombre "Samoa", que refleja identidad y continuidad nacional.',
+          fr: 'Le pays a officiellement adopté le nom de « Samoa », reflétant l\'identité et la continuité nationales.',
+          de: 'Das Land nahm offiziell den Namen „Samoa“ an, der die nationale Identität und Kontinuität widerspiegelt.',
+        },
+      },
     ],
-    steps: [
-      'Mix flour, baking powder, sugar, and salt.',
-      'Add water and stir until a thick batter forms (like drop-dumplings).',
-      'Bring a pot of water to a gentle boil and place a steamer basket on top.',
-      'Drop spoonfuls of batter onto parchment or lightly oiled steamer tray.',
-      'Steam 15-20 minutes until cooked through.',
-      'For the sauce: heat coconut cream and brown sugar in a saucepan, stirring until thick and caramel-like.',
-      'Stir in vanilla if using.',
-      'Serve steamed pieces warm, spooning coconut caramel sauce over the top.',
+    innovations: [
+      {
+        name: {
+          en: 'Polynesian Wayfinding',
+          sv: 'Polynesisk Wayfinding',
+          es: 'Orientación polinesia',
+          fr: 'Orientation polynésienne',
+          de: 'Polynesische Wegfindung',
+        },
+        year: 'Ancient',
+        description: {
+          en: 'Samoan seafaring traditions contributed to Polynesian navigation knowledge, including reading stars, swells, and winds for ocean voyages.',
+          sv: 'Samoanska sjöfartstraditioner bidrog till polynesisk navigationskunskap, inklusive att läsa stjärnor, dyningar och vindar för havsresor.',
+          es: 'Las tradiciones marineras de Samoa contribuyeron al conocimiento de la navegación polinesia, incluida la lectura de estrellas, oleajes y vientos para los viajes oceánicos.',
+          fr: 'Les traditions maritimes samoanes ont contribué aux connaissances polynésiennes en matière de navigation, notamment la lecture des étoiles, de la houle et des vents pour les voyages océaniques.',
+          de: 'Die samoanischen Seefahrertraditionen trugen zum polynesischen Navigationswissen bei, darunter das Lesen von Sternen, Wellen und Winden für Seereisen.',
+        },
+      },
+      {
+        name: {
+          en: 'Umu Earth-Oven Cooking',
+          sv: 'Umu Earth-Oven Cooking',
+          es: 'Cocinar en horno de tierra Umu',
+          fr: 'Cuisson au four en terre Umu',
+          de: 'Umu-Erdofen-Kochen',
+        },
+        year: 'Traditional',
+        description: {
+          en: 'Umu cooking techniques (heated stones and covered pits) remain a core culinary method, producing distinctive smoky flavors.',
+          sv: 'Umu matlagningstekniker (uppvärmda stenar och täckta gropar) förblir en central kulinarisk metod, som producerar distinkta rökiga smaker.',
+          es: 'Las técnicas de cocina Umu (piedras calentadas y hoyos cubiertos) siguen siendo un método culinario fundamental, que produce sabores ahumados distintivos.',
+          fr: 'Les techniques de cuisson Umu (pierres chauffées et fosses couvertes) restent une méthode culinaire de base, produisant des saveurs fumées distinctives.',
+          de: 'Umu-Kochtechniken (erhitzte Steine ​​und abgedeckte Gruben) bleiben eine zentrale kulinarische Methode und erzeugen unverwechselbare rauchige Aromen.',
+        },
+      },
+      {
+        name: {
+          en: 'Siapo (Tapa Cloth) Craft',
+          sv: 'Siapo (Tapa Cloth) Craft',
+          es: 'Artesanía de Siapo (tela de tapa)',
+          fr: 'Artisanat Siapo (Tissu Tapa)',
+          de: 'Siapo (Tapa-Tuch) Handwerk',
+        },
+        year: 'Traditional',
+        description: {
+          en: 'Siapo is a traditional barkcloth art form using natural dyes and patterns, representing cultural identity and storytelling.',
+          sv: 'Siapo är en traditionell barkdukskonst som använder naturliga färgämnen och mönster, som representerar kulturell identitet och berättande.',
+          es: 'Siapo es una forma de arte tradicional de tela de corteza que utiliza tintes y patrones naturales, que representa la identidad cultural y la narración de historias.',
+          fr: 'Le siapo est une forme d\'art traditionnelle en tissu d\'écorce utilisant des teintures et des motifs naturels, représentant l\'identité culturelle et la narration.',
+          de: 'Siapo ist eine traditionelle Kunstform aus Rindentuch, die natürliche Farbstoffe und Muster verwendet und kulturelle Identität und Geschichtenerzählen repräsentiert.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Vailima beer, Kava (traditional ceremonial drink)',
-    nonAlcoholic: 'Coconut water, Fresh tropical juices, Lemon leaf tea',
-  },
-
-  music: [
-    'Traditional Samoan songs',
-    'Siva dance music',
-    'Choral church singing',
-    'Contemporary Polynesian pop',
-    'Drum-based performance music',
-  ],
-
-  decorationIdeas: [
-    'Red, white, and blue flag colors',
-    'Polynesian patterns and tapa-style motifs',
-    'Tropical flowers (hibiscus, frangipani)',
-    'Ocean and palm themes',
-    'Woven mats and natural textures',
-  ],
-
-  conversationStarters: [
-    'Have you experienced Polynesian culture before?',
-    "What do you know about fa'a Samoa (the Samoan way)?",
-    'Would you rather swim in a lagoon or explore rainforest trails?',
-    'Have you tried kava or watched a traditional ceremony?',
-    'What is your dream island adventure activity?',
-  ],
-
-  quiz: [
-    {
-      id: 'samoa-q1',
-      question: 'What is the capital of Samoa?',
-      options: ['Apia', 'Pago Pago', 'Suva', "Nuku'alofa"],
-      correctAnswer: 0,
+    mustVisit: [
+      {
+        name: {
+          en: 'To Sua Ocean Trench',
+          sv: 'Till Sua Ocean Trench',
+          es: 'A la fosa oceánica de Sua',
+          fr: 'Vers la tranchée océanique de Sua',
+          de: 'Zum Sua Ocean Trench',
+        },
+        description: {
+          en: 'Iconic natural swimming hole with a ladder down into clear turquoise water.',
+          sv: 'Ikoniskt naturligt badhål med en stege ner i klart turkost vatten.',
+          es: 'Poza natural emblemática para nadar con una escalera que baja hasta aguas cristalinas de color turquesa.',
+          fr: 'Trou de baignade naturel emblématique avec une échelle descendant dans une eau turquoise claire.',
+          de: 'Berühmtes natürliches Badeloch mit einer Leiter, die ins klare türkisfarbene Wasser führt.',
+        },
+      },
+      {
+        name: {
+          en: 'Lalomanu Beach',
+          sv: 'Lalomanu Beach',
+          es: 'Playa Lalomanu',
+          fr: 'Plage de Lalomanu',
+          de: 'Lalomanu-Strand',
+        },
+        description: {
+          en: 'Famous white-sand beach with calm lagoon waters and classic South Pacific scenery.',
+          sv: 'Berömd vit sandstrand med lugnt lagunvatten och klassiskt södra Stillahavslandskap.',
+          es: 'Famosa playa de arena blanca con aguas tranquilas tipo laguna y un paisaje clásico del Pacífico Sur.',
+          fr: 'Célèbre plage de sable blanc avec eaux calmes du lagon et paysage classique du Pacifique Sud.',
+          de: 'Berühmter weißer Sandstrand mit ruhigem Lagunenwasser und klassischer Südpazifiklandschaft.',
+        },
+      },
+      {
+        name: {
+          en: 'Papaseea Sliding Rocks',
+          sv: 'Papaseea Sliding Rocks',
+          es: 'Papaseea rocas deslizantes',
+          fr: 'Rochers coulissants Papaseea',
+          de: 'Papaseea-Rutschsteine',
+        },
+        description: {
+          en: 'Natural rock waterslides in a river setting, a fun freshwater stop near Apia.',
+          sv: 'Naturliga klippvattenrutschbanor i en flodmiljö, ett roligt sötvattenstopp nära Apia.',
+          es: 'Toboganes de agua naturales de roca en un entorno fluvial, una divertida parada de agua dulce cerca de Apia.',
+          fr: 'Toboggans naturels en roche dans un cadre fluvial, une halte ludique en eau douce près d\'Apia.',
+          de: 'Natürliche Felswasserrutschen in Flusslandschaft, ein unterhaltsamer Süßwasserstopp in der Nähe von Apia.',
+        },
+      },
+      {
+        name: {
+          en: 'O Le Pupu-Pue National Park',
+          sv: 'O Le Pupu-Pue nationalpark',
+          es: 'Parque Nacional O Le Pupu-Pue',
+          fr: 'Parc national O Le Pupu-Pue',
+          de: 'Der Pupu-Pue-Nationalpark',
+        },
+        description: {
+          en: 'Rainforest trails and coastal views showcasing Samoa\'s lush interior and biodiversity.',
+          sv: 'Regnskogsstigar och kustutsikt som visar upp Samos frodiga inre och biologiska mångfald.',
+          es: 'Senderos en la selva tropical y vistas de la costa que muestran el exuberante interior y la biodiversidad de Samoa.',
+          fr: 'Sentiers de forêt tropicale et vues côtières mettant en valeur l\'intérieur luxuriant et la biodiversité des Samoa.',
+          de: 'Regenwaldpfade und Ausblicke auf die Küste zeigen das üppige Landesinnere und die Artenvielfalt Samoas.',
+        },
+      },
+      {
+        name: {
+          en: 'Vailima (Robert Louis Stevenson Museum)',
+          sv: 'Vailima (Robert Louis Stevenson Museum)',
+          es: 'Vailima (Museo Robert Louis Stevenson)',
+          fr: 'Vailima (Musée Robert Louis Stevenson)',
+          de: 'Vailima (Robert Louis Stevenson Museum)',
+        },
+        description: {
+          en: 'Stevenson\'s former home near Apia, now a museum offering insight into Samoa\'s colonial-era history.',
+          sv: 'Stevensons tidigare hem nära Apia, nu ett museum som ger inblick i Samoa kolonialtid historia.',
+          es: 'La antigua casa de Stevenson cerca de Apia, ahora un museo que ofrece información sobre la historia de la época colonial de Samoa.',
+          fr: 'Ancienne maison de Stevenson près d\'Apia, aujourd\'hui transformée en musée offrant un aperçu de l\'histoire coloniale des Samoa.',
+          de: 'Stevensons ehemaliges Haus in der Nähe von Apia, heute ein Museum, das Einblicke in die Geschichte der Kolonialzeit Samoas bietet.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Best time to visit',
+        description: {
+          en: 'May to October is typically drier and cooler; November to April is warmer and wetter.',
+          sv: 'Maj till oktober är vanligtvis torrare och svalare; November till april är varmare och blötare.',
+          es: 'De mayo a octubre suele ser más seco y fresco; De noviembre a abril es más cálido y húmedo.',
+          fr: 'De mai à octobre, le temps est généralement plus sec et plus frais ; De novembre à avril, les températures sont plus chaudes et plus humides.',
+          de: 'Von Mai bis Oktober ist es normalerweise trockener und kühler. Von November bis April ist es wärmer und feuchter.',
+        },
+      },
+      {
+        item: 'Cash and payments',
+        description: {
+          en: 'Carry some cash (WST) for small shops and markets; cards are more common in larger hotels and businesses.',
+          sv: 'Ta med lite kontanter (WST) för små butiker och marknader; kort är vanligare på större hotell och företag.',
+          es: 'Lleve algo de efectivo (WST) para pequeñas tiendas y mercados; Las tarjetas son más comunes en hoteles y empresas más grandes.',
+          fr: 'Emportez de l\'argent liquide (WST) pour les petits magasins et les marchés ; les cartes sont plus courantes dans les grands hôtels et entreprises.',
+          de: 'Nehmen Sie etwas Bargeld (WST) für kleine Geschäfte und Märkte mit; Karten sind in größeren Hotels und Unternehmen häufiger anzutreffen.',
+        },
+      },
+      {
+        item: 'Respect local customs',
+        description: {
+          en: 'Dress modestly in villages and follow local guidance; fa\'a Samoa emphasizes respect and community.',
+          sv: 'Klä dig anständigt i byar och följ lokal vägledning; fa\'a Samoa betonar respekt och gemenskap.',
+          es: 'Vístase modestamente en las aldeas y siga las indicaciones locales; fa\'a Samoa enfatiza el respeto y la comunidad.',
+          fr: 'Habillez-vous modestement dans les villages et suivez les directives locales ; fa\'a Samoa met l\'accent sur le respect et la communauté.',
+          de: 'Kleiden Sie sich in den Dörfern angemessen und befolgen Sie die örtlichen Anweisungen. fa\'a Samoa legt Wert auf Respekt und Gemeinschaft.',
+        },
+      },
+      {
+        item: 'Sunday quiet hours',
+        description: {
+          en: 'Many areas observe a quieter Sunday; plan shopping and transport accordingly.',
+          sv: 'Många områden har en lugnare söndag; planera shopping och transporter därefter.',
+          es: 'Muchas zonas observan un domingo más tranquilo; planificar las compras y el transporte en consecuencia.',
+          fr: 'De nombreuses régions observent un dimanche plus calme ; planifier les achats et les transports en conséquence.',
+          de: 'In vielen Gegenden ist der Sonntag ruhiger. Planen Sie Einkäufe und Transport entsprechend.',
+        },
+      },
+      {
+        item: 'Reef-safe sun protection',
+        description: {
+          en: 'Use reef-safe sunscreen and consider rash guards for lagoon swimming.',
+          sv: 'Använd revsäker solskyddsmedel och överväg utslagsskydd för lagunsim.',
+          es: 'Utilice protector solar seguro para los arrecifes y considere la posibilidad de utilizar camisetas protectoras para nadar en la laguna.',
+          fr: 'Utilisez un écran solaire sans danger pour les récifs et envisagez des rashguards pour nager dans le lagon.',
+          de: 'Verwenden Sie riffsichere Sonnencreme und ziehen Sie beim Schwimmen in der Lagune einen Rashguard in Betracht.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'samoa-main',
+      name: {
+        en: 'Palusami',
+        sv: 'Palusami',
+        es: 'Palusami',
+        fr: 'Palusami',
+        de: 'Palusami',
+      },
+      description: {
+        en: 'A beloved Samoan dish of taro leaves baked in rich coconut cream (often served as part of an umu feast).',
+        sv: 'En älskad samoansk maträtt med taroblad bakade i rik kokosnötsgrädde (serveras ofta som en del av en umu-fest).',
+        es: 'Un querido plato samoano de hojas de taro horneadas en una rica crema de coco (a menudo servido como parte de un festín de umu).',
+        fr: 'Un plat samoan bien-aimé composé de feuilles de taro cuites dans une riche crème de noix de coco (souvent servie dans le cadre d\'un festin d\'umu).',
+        de: 'Ein beliebtes samoanisches Gericht aus Taro-Blättern, gebacken in reichhaltiger Kokosnusscreme (oft im Rahmen eines Umu-Festes serviert).',
+      },
+      cookingTime: 90,
+      servings: 6,
+      dietType: {
+        en: 'vegan',
+        sv: 'vegan',
+        es: 'vegano',
+        fr: 'végétalien',
+        de: 'vegan',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Taro leaves (or spinach as substitute)',
+            sv: 'Taroblad (eller spenat som ersättning)',
+            es: 'Hojas de taro (o espinacas como sustituto)',
+            fr: 'Feuilles de taro (ou épinards comme substitut)',
+            de: 'Taroblätter (oder Spinat als Ersatz)',
+          },
+          amount: 500,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Coconut cream',
+            sv: 'Kokosgrädde',
+            es: 'Crema de coco',
+            fr: 'Crème de coco',
+            de: 'Kokoscreme',
+          },
+          amount: 400,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Onion, finely chopped',
+            sv: 'Lök, finhackad',
+            es: 'Cebolla finamente picada',
+            fr: 'Oignon, finement haché',
+            de: 'Zwiebel, fein gehackt',
+          },
+          amount: 1,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Black pepper',
+            sv: 'Svartpeppar',
+            es: 'Pimienta negra',
+            fr: 'Poivre noir',
+            de: 'Schwarzer Pfeffer',
+          },
+          amount: 0.5,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Preheat oven to 180C.',
+          sv: 'Värm ugnen till 180C.',
+          es: 'Precalienta el horno a 180C.',
+          fr: 'Préchauffer le four à 180°C.',
+          de: 'Backofen auf 180 °C vorheizen.',
+        },
+        {
+          en: 'If using taro leaves: wash thoroughly and remove any tough stems. (Taro leaves must be cooked fully.)',
+          sv: 'Om du använder taroblad: tvätta noggrant och ta bort eventuella tuffa stjälkar. (Tarobladen måste vara färdigkokta.)',
+          es: 'Si usa hojas de taro: lávelas bien y retire los tallos duros. (Las hojas de taro deben cocinarse completamente).',
+          fr: 'Si vous utilisez des feuilles de taro : lavez-les soigneusement et retirez toutes les tiges dures. (Les feuilles de taro doivent être entièrement cuites.)',
+          de: 'Bei Verwendung von Taro-Blättern: Gründlich waschen und alle harten Stiele entfernen. (Taro-Blätter müssen vollständig gekocht sein.)',
+        },
+        {
+          en: 'Mix coconut cream with chopped onion, salt, and black pepper.',
+          sv: 'Blanda kokosgrädde med hackad lök, salt och svartpeppar.',
+          es: 'Mezclar la crema de coco con la cebolla picada, la sal y la pimienta negra.',
+          fr: 'Mélangez la crème de coco avec l\'oignon haché, le sel et le poivre noir.',
+          de: 'Kokoscreme mit gehackten Zwiebeln, Salz und schwarzem Pfeffer vermischen.',
+        },
+        {
+          en: 'Create small bundles of leaves and spoon coconut mixture into the center of each bundle.',
+          sv: 'Skapa små buntar av löv och skeda kokosblandningen i mitten av varje bunt.',
+          es: 'Cree pequeños manojos de hojas y vierta la mezcla de coco en el centro de cada manojo.',
+          fr: 'Créez de petits paquets de feuilles et versez le mélange de noix de coco au centre de chaque paquet.',
+          de: 'Bilden Sie kleine Bündel aus Blättern und geben Sie die Kokosnussmischung in die Mitte jedes Bündels.',
+        },
+        {
+          en: 'Wrap each bundle tightly in foil (or banana leaves if available).',
+          sv: 'Slå in varje bunt tätt i folie (eller bananblad om det finns).',
+          es: 'Envuelva bien cada paquete en papel de aluminio (u hojas de plátano, si está disponible).',
+          fr: 'Enveloppez fermement chaque paquet dans du papier d\'aluminium (ou des feuilles de bananier si disponibles).',
+          de: 'Wickeln Sie jedes Bündel fest in Folie (oder Bananenblätter, falls verfügbar).',
+        },
+        {
+          en: 'Place bundles in a baking dish and bake 75-90 minutes until very tender.',
+          sv: 'Lägg buntar i en ugnsform och grädda i 75-90 minuter tills de är mycket mjuka.',
+          es: 'Coloque los manojos en una fuente para horno y hornee de 75 a 90 minutos hasta que estén muy tiernos.',
+          fr: 'Placer les paquets dans un plat allant au four et cuire au four pendant 75 à 90 minutes jusqu\'à ce qu\'ils soient très tendres.',
+          de: 'Legen Sie die Bündel in eine Auflaufform und backen Sie sie 75–90 Minuten lang, bis sie sehr zart sind.',
+        },
+        {
+          en: 'Rest 5 minutes, then unwrap carefully.',
+          sv: 'Vila 5 minuter och packa sedan upp försiktigt.',
+          es: 'Descanse 5 minutos, luego desenvuelva con cuidado.',
+          fr: 'Reposez 5 minutes, puis déballer soigneusement.',
+          de: '5 Minuten ruhen lassen, dann vorsichtig auspacken.',
+        },
+        {
+          en: 'Serve warm as a side or main with taro, breadfruit, or rice.',
+          sv: 'Servera varm som tillbehör eller huvudrätt med taro, brödfrukt eller ris.',
+          es: 'Sirva caliente como acompañamiento o plato principal con taro, fruta del pan o arroz.',
+          fr: 'Servir chaud en accompagnement ou en plat principal avec du taro, du fruit à pain ou du riz.',
+          de: 'Warm als Beilage oder Hauptgericht mit Taro, Brotfrucht oder Reis servieren.',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'samoa-q2',
-      question: 'What are the official languages of Samoa?',
-      options: ['English only', 'Samoan only', 'Samoan and English', 'French and English'],
-      correctAnswer: 2,
+    dessert: {
+      id: 'samoa-dessert',
+      name: {
+        en: 'Fa\'ausi',
+        sv: 'Fa\'ausi',
+        es: 'Fa\'ausi',
+        fr: 'Fa\'ausi',
+        de: 'Fa\'ausi',
+      },
+      description: {
+        en: 'A traditional Samoan dessert of steamed dough pieces served with a rich coconut caramel sauce.',
+        sv: 'En traditionell samoansk efterrätt av ångade degbitar serverad med en rik kokoskolasås.',
+        es: 'Un postre tradicional samoano de trozos de masa al vapor servidos con una rica salsa de caramelo de coco.',
+        fr: 'Un dessert traditionnel samoan composé de morceaux de pâte cuits à la vapeur, servis avec une riche sauce caramel à la noix de coco.',
+        de: 'Ein traditionelles samoanisches Dessert aus gedämpften Teigstücken, serviert mit einer reichhaltigen Kokosnuss-Karamellsauce.',
+      },
+      cookingTime: 60,
+      servings: 6,
+      dietType: {
+        en: 'vegetarian',
+        sv: 'vegetarisk',
+        es: 'vegetariano',
+        fr: 'végétarien',
+        de: 'vegetarisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'All-purpose flour',
+            sv: 'Mjöl för alla ändamål',
+            es: 'Harina para todo uso',
+            fr: 'Farine tout usage',
+            de: 'Allzweckmehl',
+          },
+          amount: 300,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Baking powder',
+            sv: 'Bakpulver',
+            es: 'Polvo para hornear',
+            fr: 'Levure chimique',
+            de: 'Backpulver',
+          },
+          amount: 2,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Sugar',
+            sv: 'Socker',
+            es: 'Azúcar',
+            fr: 'Sucre',
+            de: 'Zucker',
+          },
+          amount: 60,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Pinch of salt',
+            sv: 'Nypa salt',
+            es: 'Una pizca de sal',
+            fr: 'Pincée de sel',
+            de: 'Prise Salz',
+          },
+          amount: 1,
+          unit: {
+            en: 'pinch',
+            sv: 'nypa',
+            es: 'pellizco',
+            fr: 'pincer',
+            de: 'Prise',
+          },
+        },
+        {
+          name: {
+            en: 'Water',
+            sv: 'Vatten',
+            es: 'Agua',
+            fr: 'Eau',
+            de: 'Wasser',
+          },
+          amount: 220,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Coconut cream',
+            sv: 'Kokosgrädde',
+            es: 'Crema de coco',
+            fr: 'Crème de coco',
+            de: 'Kokoscreme',
+          },
+          amount: 400,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Brown sugar',
+            sv: 'Farinsocker',
+            es: 'Azúcar moreno',
+            fr: 'Sucre roux',
+            de: 'Brauner Zucker',
+          },
+          amount: 120,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Vanilla extract (optional)',
+            sv: 'Vaniljextrakt (valfritt)',
+            es: 'Extracto de vainilla (opcional)',
+            fr: 'Extrait de vanille (facultatif)',
+            de: 'Vanilleextrakt (optional)',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Mix flour, baking powder, sugar, and salt.',
+          sv: 'Blanda mjöl, bakpulver, socker och salt.',
+          es: 'Mezclar la harina, el polvo para hornear, el azúcar y la sal.',
+          fr: 'Mélanger la farine, la levure chimique, le sucre et le sel.',
+          de: 'Mehl, Backpulver, Zucker und Salz mischen.',
+        },
+        {
+          en: 'Add water and stir until a thick batter forms (like drop-dumplings).',
+          sv: 'Tillsätt vatten och rör om tills en tjock smet bildas (som dumplings).',
+          es: 'Agregue agua y revuelva hasta que se forme una masa espesa (como bolas de masa).',
+          fr: 'Ajoutez de l\'eau et remuez jusqu\'à ce qu\'une pâte épaisse se forme (comme des raviolis).',
+          de: 'Wasser hinzufügen und rühren, bis ein dicker Teig entsteht (wie Drop-Knödel).',
+        },
+        {
+          en: 'Bring a pot of water to a gentle boil and place a steamer basket on top.',
+          sv: 'Koka upp en kastrull med vatten och lägg en ångkorg ovanpå.',
+          es: 'Lleve una olla con agua a ebullición suave y coloque una canasta vaporera encima.',
+          fr: 'Portez une casserole d\'eau à ébullition douce et placez un panier vapeur dessus.',
+          de: 'Bringen Sie einen Topf Wasser zum Kochen und stellen Sie einen Dampfgareinsatz darauf.',
+        },
+        {
+          en: 'Drop spoonfuls of batter onto parchment or lightly oiled steamer tray.',
+          sv: 'Lägg skedar av smeten på bakplåtspapper eller lätt oljad ångplåt.',
+          es: 'Deje caer cucharadas de masa sobre papel pergamino o sobre una bandeja vaporera ligeramente engrasada.',
+          fr: 'Déposez des cuillerées de pâte sur du papier sulfurisé ou sur un plateau vapeur légèrement huilé.',
+          de: 'Geben Sie einen Löffel Teig auf Backpapier oder ein leicht geöltes Dampfgarblech.',
+        },
+        {
+          en: 'Steam 15-20 minutes until cooked through.',
+          sv: 'Ånga 15-20 minuter tills den är genomstekt.',
+          es: 'Cocine al vapor durante 15 a 20 minutos hasta que esté bien cocido.',
+          fr: 'Cuire à la vapeur 15 à 20 minutes jusqu\'à ce qu\'il soit bien cuit.',
+          de: '15–20 Minuten dämpfen, bis alles gar ist.',
+        },
+        {
+          en: 'For the sauce: heat coconut cream and brown sugar in a saucepan, stirring until thick and caramel-like.',
+          sv: 'Till såsen: värm kokosgrädde och farinsocker i en kastrull, rör om tills det blir tjockt och kolalikt.',
+          es: 'Para la salsa: caliente la crema de coco y el azúcar moreno en una cacerola, revolviendo hasta que espese y parezca caramelo.',
+          fr: 'Pour la sauce : faites chauffer la crème de coco et la cassonade dans une casserole en remuant jusqu\'à obtenir une consistance épaisse et caramel.',
+          de: 'Für die Sauce: Kokoscreme und braunen Zucker in einem Topf erhitzen und rühren, bis eine dicke, karamellartige Masse entsteht.',
+        },
+        {
+          en: 'Stir in vanilla if using.',
+          sv: 'Rör i vanilj om du använder.',
+          es: 'Agregue la vainilla si la usa.',
+          fr: 'Incorporer la vanille si vous en utilisez.',
+          de: 'Bei Verwendung Vanille hinzufügen.',
+        },
+        {
+          en: 'Serve steamed pieces warm, spooning coconut caramel sauce over the top.',
+          sv: 'Servera ångade bitar varma, skeda med kokoskolasås över toppen.',
+          es: 'Sirva los trozos cocidos al vapor calientes y vierta salsa de caramelo de coco por encima.',
+          fr: 'Servir les morceaux cuits à la vapeur chauds, en arrosant de sauce caramel à la noix de coco.',
+          de: 'Die gedämpften Stücke warm servieren und Kokos-Karamell-Sauce darüber löffeln.',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'samoa-q3',
-      question: "What is the traditional Samoan way of life called?",
-      options: ['Aloha', "Fa'a Samoa", 'Mana', 'Tapu'],
-      correctAnswer: 1,
+    drinks: {
+      alcoholic: 'Vailima beer, Kava (traditional ceremonial drink)',
+      nonAlcoholic: 'Coconut water, Fresh tropical juices, Lemon leaf tea',
     },
-    {
-      id: 'samoa-q4',
-      question: 'In which year did Samoa gain independence?',
-      options: ['1950', '1962', '1970', '1980'],
-      correctAnswer: 1,
+    music: [
+      'Traditional Samoan songs',
+      'Siva dance music',
+      'Choral church singing',
+      'Contemporary Polynesian pop',
+      'Drum-based performance music',
+    ],
+    decorationIdeas: [
+      'Red, white, and blue flag colors',
+      'Polynesian patterns and tapa-style motifs',
+      'Tropical flowers (hibiscus, frangipani)',
+      'Ocean and palm themes',
+      'Woven mats and natural textures',
+    ],
+    conversationStarters: [
+      'Have you experienced Polynesian culture before?',
+      'What do you know about fa\'a Samoa (the Samoan way)?',
+      'Would you rather swim in a lagoon or explore rainforest trails?',
+      'Have you tried kava or watched a traditional ceremony?',
+      'What is your dream island adventure activity?',
+    ],
+    quiz: [
+      {
+        id: 'samoa-q1',
+        question: {
+          en: 'What is the capital of Samoa?',
+          sv: 'Vad är huvudstaden i Samoa?',
+          es: '¿Cuál es la capital de Samoa?',
+          fr: 'Quelle est la capitale des Samoa ?',
+          de: 'Was ist die Hauptstadt von Samoa?',
+        },
+        options: [
+          {
+            en: 'Apia',
+            sv: 'Apia',
+            es: 'Apia',
+            fr: 'Apia',
+            de: 'Apia',
+          },
+          {
+            en: 'Pago Pago',
+            sv: 'Pago Pago',
+            es: 'Pago Pago',
+            fr: 'Pago Pago',
+            de: 'Pago Pago',
+          },
+          {
+            en: 'Suva',
+            sv: 'Suva',
+            es: 'Suva',
+            fr: 'Suva',
+            de: 'Suva',
+          },
+          {
+            en: 'Nuku\'alofa',
+            sv: 'Nuku\'alofa',
+            es: 'Nuku\'alofa',
+            fr: 'Nuku\'alofa',
+            de: 'Nuku\'alofa',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'samoa-q2',
+        question: {
+          en: 'What are the official languages of Samoa?',
+          sv: 'Vilka är de officiella språken på Samoa?',
+          es: '¿Cuáles son los idiomas oficiales de Samoa?',
+          fr: 'Quelles sont les langues officielles des Samoa ?',
+          de: 'Was sind die offiziellen Sprachen von Samoa?',
+        },
+        options: [
+          {
+            en: 'English only',
+            sv: 'Endast engelska',
+            es: 'Sólo inglés',
+            fr: 'Anglais uniquement',
+            de: 'Nur Englisch',
+          },
+          {
+            en: 'Samoan only',
+            sv: 'Endast samoanska',
+            es: 'Sólo samoano',
+            fr: 'Samoa uniquement',
+            de: 'Nur Samoaner',
+          },
+          {
+            en: 'Samoan and English',
+            sv: 'samoanska och engelska',
+            es: 'Samoano e inglés',
+            fr: 'Samoan et anglais',
+            de: 'Samoanisch und Englisch',
+          },
+          {
+            en: 'French and English',
+            sv: 'Franska och engelska',
+            es: 'Francés e inglés',
+            fr: 'Français et anglais',
+            de: 'Französisch und Englisch',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'samoa-q3',
+        question: {
+          en: 'What is the traditional Samoan way of life called?',
+          sv: 'Vad kallas den traditionella samoanska livsstilen?',
+          es: '¿Cómo se llama el estilo de vida tradicional de Samoa?',
+          fr: 'Comment s’appelle le mode de vie traditionnel samoan ?',
+          de: 'Wie nennt man die traditionelle samoanische Lebensweise?',
+        },
+        options: [
+          {
+            en: 'Aloha',
+            sv: 'Aloha',
+            es: 'Hola',
+            fr: 'Aloha',
+            de: 'Aloha',
+          },
+          {
+            en: 'Fa\'a Samoa',
+            sv: 'Fa\'a Samoa',
+            es: 'Fa\'a Samoa',
+            fr: 'Fa\'a Samoa',
+            de: 'Fa\'a Samoa',
+          },
+          {
+            en: 'Mana',
+            sv: 'Mana',
+            es: 'Maná',
+            fr: 'Mana',
+            de: 'Mana',
+          },
+          {
+            en: 'Tapu',
+            sv: 'Tapu',
+            es: 'Tapu',
+            fr: 'Tapou',
+            de: 'Tapu',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'samoa-q4',
+        question: {
+          en: 'In which year did Samoa gain independence?',
+          sv: 'Vilket år blev Samoa självständigt?',
+          es: '¿En qué año se independizó Samoa?',
+          fr: 'En quelle année les Samoa ont-elles obtenu leur indépendance ?',
+          de: 'In welchem ​​Jahr erlangte Samoa seine Unabhängigkeit?',
+        },
+        options: [
+          '1950',
+          '1962',
+          '1970',
+          '1980',
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'samoa-q5',
+        question: {
+          en: 'What is Samoa\'s currency?',
+          sv: 'Vad är Samoa valuta?',
+          es: '¿Cuál es la moneda de Samoa?',
+          fr: 'Quelle est la monnaie des Samoa ?',
+          de: 'Welche Währung hat Samoa?',
+        },
+        options: [
+          {
+            en: 'Dollar',
+            sv: 'Dollar',
+            es: 'Dólar',
+            fr: 'Dollars',
+            de: 'Dollar',
+          },
+          {
+            en: 'Tala',
+            sv: 'Tala',
+            es: 'Talá',
+            fr: 'Tala',
+            de: 'Tala',
+          },
+          {
+            en: 'Peso',
+            sv: 'Peso',
+            es: 'pesos',
+            fr: 'Pesos',
+            de: 'Peso',
+          },
+          {
+            en: 'Rupee',
+            sv: 'Rupie',
+            es: 'Rupia',
+            fr: 'Roupie',
+            de: 'Rupie',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'samoa-q6',
+        question: {
+          en: 'What is an "umu" in Samoan culture?',
+          sv: 'Vad är en "umu" i samoansk kultur?',
+          es: '¿Qué es un "umu" en la cultura samoana?',
+          fr: 'Qu\'est-ce qu\'un « umu » dans la culture samoane ?',
+          de: 'Was ist ein „Umu“ in der samoanischen Kultur?',
+        },
+        options: [
+          {
+            en: 'A canoe',
+            sv: 'En kanot',
+            es: 'Una canoa',
+            fr: 'Un canoë',
+            de: 'Ein Kanu',
+          },
+          {
+            en: 'An earth oven',
+            sv: 'En jordugn',
+            es: 'Un horno de tierra',
+            fr: 'Un four en terre',
+            de: 'Ein Erdofen',
+          },
+          {
+            en: 'A drum',
+            sv: 'En trumma',
+            es: 'Un tambor',
+            fr: 'Un tambour',
+            de: 'Eine Trommel',
+          },
+          {
+            en: 'A reef lagoon',
+            sv: 'En revlagun',
+            es: 'Una laguna de arrecife',
+            fr: 'Un lagon récifal',
+            de: 'Eine Rifflagune',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'samoa-q7',
+        question: {
+          en: 'Which famous natural swimming spot is in Samoa?',
+          sv: 'Vilken berömd naturlig badplats finns i Samoa?',
+          es: '¿Qué lugar natural famoso para nadar se encuentra en Samoa?',
+          fr: 'Quel lieu de baignade naturel célèbre se trouve aux Samoa ?',
+          de: 'Welcher berühmte Naturbadeplatz befindet sich auf Samoa?',
+        },
+        options: [
+          {
+            en: 'Blue Hole',
+            sv: 'Blått hål',
+            es: 'Agujero azul',
+            fr: 'Trou Bleu',
+            de: 'Blaues Loch',
+          },
+          {
+            en: 'To Sua Ocean Trench',
+            sv: 'Till Sua Ocean Trench',
+            es: 'A la fosa oceánica de Sua',
+            fr: 'Vers la tranchée océanique de Sua',
+            de: 'Zum Sua Ocean Trench',
+          },
+          {
+            en: 'Sacred Pool',
+            sv: 'Helig pool',
+            es: 'Piscina Sagrada',
+            fr: 'Piscine sacrée',
+            de: 'Heiliger Pool',
+          },
+          {
+            en: 'Crystal Cave',
+            sv: 'Crystal Cave',
+            es: 'Cueva de Cristal',
+            fr: 'Grotte de cristal',
+            de: 'Kristallhöhle',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'samoa-q8',
+        question: {
+          en: 'Which famous writer lived in Samoa?',
+          sv: 'Vilken berömd författare bodde i Samoa?',
+          es: '¿Qué escritor famoso vivió en Samoa?',
+          fr: 'Quel écrivain célèbre a vécu aux Samoa ?',
+          de: 'Welcher berühmte Schriftsteller lebte in Samoa?',
+        },
+        options: [
+          {
+            en: 'Mark Twain',
+            sv: 'Mark Twain',
+            es: 'Marcos Twain',
+            fr: 'Mark Twain',
+            de: 'Mark Twain',
+          },
+          {
+            en: 'Ernest Hemingway',
+            sv: 'Ernest Hemingway',
+            es: 'Ernesto Hemingway',
+            fr: 'Ernest Hemingway',
+            de: 'Ernest Hemingway',
+          },
+          {
+            en: 'Robert Louis Stevenson',
+            sv: 'Robert Louis Stevenson',
+            es: 'Robert Luis Stevenson',
+            fr: 'Robert Louis Stevenson',
+            de: 'Robert Louis Stevenson',
+          },
+          {
+            en: 'Jack London',
+            sv: 'Jack London',
+            es: 'Jack Londres',
+            fr: 'Jack Londres',
+            de: 'Jack London',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'samoa-q9',
+        question: {
+          en: 'Which sport is especially popular in Samoa?',
+          sv: 'Vilken sport är särskilt populär i Samoa?',
+          es: '¿Qué deporte es especialmente popular en Samoa?',
+          fr: 'Quel sport est particulièrement populaire aux Samoa ?',
+          de: 'Welche Sportart ist in Samoa besonders beliebt?',
+        },
+        options: [
+          {
+            en: 'Ice hockey',
+            sv: 'Ishockey',
+            es: 'Hockey sobre hielo',
+            fr: 'Hockey sur glace',
+            de: 'Eishockey',
+          },
+          {
+            en: 'Rugby',
+            sv: 'Rugby',
+            es: 'Rugby',
+            fr: 'Rugby',
+            de: 'Rugby',
+          },
+          {
+            en: 'Baseball',
+            sv: 'Baseball',
+            es: 'Béisbol',
+            fr: 'Base-ball',
+            de: 'Baseball',
+          },
+          {
+            en: 'Skiing',
+            sv: 'Skidåkning',
+            es: 'Esquí',
+            fr: 'Ski',
+            de: 'Skifahren',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'samoa-q10',
+        question: {
+          en: 'Samoa is part of which broader cultural region?',
+          sv: 'Samoa är en del av vilken bredare kulturregion?',
+          es: '¿Samoa es parte de qué región cultural más amplia?',
+          fr: 'Les Samoa font partie de quelle région culturelle plus large ?',
+          de: 'Zu welcher größeren Kulturregion gehört Samoa?',
+        },
+        options: [
+          {
+            en: 'Polynesia',
+            sv: 'Polynesien',
+            es: 'Polinesia',
+            fr: 'Polynésie',
+            de: 'Polynesien',
+          },
+          {
+            en: 'Scandinavia',
+            sv: 'Skandinavien',
+            es: 'Escandinavia',
+            fr: 'Scandinavie',
+            de: 'Skandinavien',
+          },
+          {
+            en: 'The Balkans',
+            sv: 'Balkan',
+            es: 'Los Balcanes',
+            fr: 'Les Balkans',
+            de: 'Der Balkan',
+          },
+          {
+            en: 'North Africa',
+            sv: 'Nordafrika',
+            es: 'África del Norte',
+            fr: 'Afrique du Nord',
+            de: 'Nordafrika',
+          },
+        ],
+        correctAnswer: 0,
+      },
+    ],
+    coordinates: {
+      x: 95,
+      y: 14,
     },
-    {
-      id: 'samoa-q5',
-      question: 'What is Samoa\'s currency?',
-      options: ['Dollar', 'Tala', 'Peso', 'Rupee'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'samoa-q6',
-      question: 'What is an "umu" in Samoan culture?',
-      options: ['A canoe', 'An earth oven', 'A drum', 'A reef lagoon'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'samoa-q7',
-      question: 'Which famous natural swimming spot is in Samoa?',
-      options: ['Blue Hole', 'To Sua Ocean Trench', 'Sacred Pool', 'Crystal Cave'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'samoa-q8',
-      question: 'Which famous writer lived in Samoa?',
-      options: ['Mark Twain', 'Ernest Hemingway', 'Robert Louis Stevenson', 'Jack London'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'samoa-q9',
-      question: 'Which sport is especially popular in Samoa?',
-      options: ['Ice hockey', 'Rugby', 'Baseball', 'Skiing'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'samoa-q10',
-      question: 'Samoa is part of which broader cultural region?',
-      options: ['Polynesia', 'Scandinavia', 'The Balkans', 'North Africa'],
-      correctAnswer: 0,
-    },
-  ],
-
-  coordinates: { x: 95, y: 14 },
-};
+  };

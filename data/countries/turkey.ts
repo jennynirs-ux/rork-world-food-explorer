@@ -1,292 +1,1208 @@
 import { Country } from '@/types';
 
 export const turkey: Country = {
-  id: 'turkey',
-  name: 'Turkey',
-  code: 'TR',
-  continent: 'Asia/Europe',
-  flag: '🇹🇷',
-  landscapeImage: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80',
-  description:
-    'Turkey is a transcontinental country bridging Europe and Asia, with a rich history spanning ancient civilizations. Known for its Byzantine and Ottoman heritage, stunning landscapes, and delicious cuisine.',
-  quickFacts: [
-    { label: 'Capital', value: 'Ankara' },
-    { label: 'Population', value: '85 million' },
-    { label: 'Official Language', value: 'Turkish' },
-    { label: 'Currency', value: 'Turkish Lira (₺)' },
-    { label: 'Area', value: '783,562 km²' },
-  ],
-  facts: [
-    'Istanbul is the only city in the world located on two continents',
-    'Turkey is home to the ancient city of Troy',
-    'Turkish coffee fortune telling is a cultural tradition',
-    'The country has 18 UNESCO World Heritage Sites',
-    'Tulips originally came from Turkey, not the Netherlands',
-    'Santa Claus was born in Turkey (ancient Myra)',
-    'The Grand Bazaar in Istanbul is one of the oldest covered markets in the world',
-    "Turkey is the world's largest producer of hazelnuts",
-  ],
-  foodCulture:
-    'Turkish cuisine is one of the world’s most diverse, influenced by Ottoman palace kitchens and regional traditions. Mezze, kebabs, and baklava are iconic. Meals are social affairs, often accompanied by Turkish tea or coffee.',
-
-  history: [
-    {
-      year: '330 AD',
-      title: 'Constantinople Founded',
-      description:
-        'Emperor Constantine established Constantinople (modern Istanbul) as the capital of the Byzantine Empire.',
+    id: 'turkey',
+    name: {
+      en: 'Turkey',
+      sv: 'Turkiet',
+      es: 'Turquía',
+      fr: 'Turquie',
+      de: 'Türkei',
     },
-    {
-      year: '1299',
-      title: 'Ottoman Empire Begins',
-      description:
-        'Osman I founded the Ottoman Empire, which grew to control vast territories across three continents.',
+    code: 'TR',
+    continent: {
+      en: 'Asia/Europe',
+      sv: 'Asien/Europa',
+      es: 'Asia/Europa',
+      fr: 'Asie/Europe',
+      de: 'Asien/Europa',
     },
-    {
-      year: '1453',
-      title: 'Fall of Constantinople',
-      description:
-        'Ottoman Sultan Mehmed II conquered Constantinople, ending the Byzantine Empire.',
+    flag: '🇹🇷',
+    landscapeImage: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80',
+    description: {
+      en: 'Turkey is a transcontinental country bridging Europe and Asia, with a rich history spanning ancient civilizations. Known for its Byzantine and Ottoman heritage, stunning landscapes, and delicious cuisine.',
+      sv: 'Turkiet är ett transkontinentalt land som överbryggar Europa och Asien, med en rik historia som spänner över antika civilisationer. Känd för sitt bysantinska och ottomanska arv, fantastiska landskap och utsökt mat.',
+      es: 'Turquía es un país transcontinental que une Europa y Asia, con una rica historia que abarca civilizaciones antiguas. Conocido por su herencia bizantina y otomana, sus impresionantes paisajes y su deliciosa cocina.',
+      fr: 'La Turquie est un pays transcontinental reliant l’Europe et l’Asie, avec une histoire riche qui s’étend sur des civilisations anciennes. Connue pour son héritage byzantin et ottoman, ses paysages époustouflants et sa délicieuse cuisine.',
+      de: 'Die Türkei ist ein transkontinentales Land, das Europa und Asien verbindet und auf eine reiche Geschichte zurückblickt, die sich über antike Zivilisationen erstreckt. Bekannt für sein byzantinisches und osmanisches Erbe, atemberaubende Landschaften und köstliche Küche.',
     },
-    {
-      year: '1923',
-      title: 'Republic Founded',
-      description:
-        'Mustafa Kemal Atatürk established the modern Republic of Turkey.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: 'Architectural Mastery (Sinan)',
-      year: '16th Century',
-      description:
-        'Ottoman architect Mimar Sinan shaped Istanbul’s skyline and influenced global mosque architecture with landmark designs.',
-    },
-    {
-      name: 'Iznik Ceramics',
-      year: '15th–17th Century',
-      description:
-        'Iznik tilework became famous for vivid colors and intricate patterns, used in mosques and palaces across the empire.',
-    },
-    {
-      name: 'Early Urban Megaprojects',
-      year: 'Byzantine–Ottoman Era',
-      description:
-        'Monumental cisterns, bridges, and aqueducts (like those around Istanbul) supported dense cities with advanced water systems.',
-    },
-    {
-      name: 'Hazelnut & Agricultural Production',
-      year: 'Modern Era',
-      description:
-        'Turkey developed large-scale, globally important hazelnut cultivation and supply chains, dominating world production.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Istanbul (Hagia Sophia & Blue Mosque)',
-      description:
-        'A city spanning Europe and Asia with iconic Byzantine and Ottoman monuments and vibrant bazaars.',
-    },
-    {
-      name: 'Cappadocia',
-      description:
-        'Fairy chimneys, cave churches, and sunrise hot-air balloons over dramatic volcanic landscapes.',
-    },
-    {
-      name: 'Ephesus',
-      description:
-        'One of the best-preserved ancient cities in the Mediterranean world, famous for Roman ruins and grand streets.',
-    },
-    {
-      name: 'Pamukkale & Hierapolis',
-      description:
-        'White travertine terraces and nearby ancient ruins, a unique mix of nature and history.',
-    },
-    {
-      name: 'Antalya & the Turquoise Coast',
-      description:
-        'Mediterranean beaches, coastal hikes, and historic harbor towns with crystal-clear water.',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Best time to visit',
-      description:
-        'Spring (April–May) and autumn (September–October) are ideal for cities and coast; winter is great for skiing and hammams.',
-    },
-    {
-      item: 'Getting around',
-      description:
-        'Domestic flights are common; intercity buses are extensive; Istanbul public transport is efficient (metro, tram, ferries).',
-    },
-    {
-      item: 'Cash & cards',
-      description:
-        'Cards are widely accepted in cities; keep cash for markets, taxis, and smaller towns.',
-    },
-    {
-      item: 'Etiquette',
-      description:
-        'Dress modestly in mosques, remove shoes, and be respectful during calls to prayer and religious holidays.',
-    },
-    {
-      item: 'Food tip',
-      description:
-        'Try regional specialties: Gaziantep for baklava and pistachios, the Black Sea for anchovy dishes, and Aegean for olive-oil mezze.',
-    },
-  ],
-
-  mainDish: {
-    id: 'turkey-main',
-    name: 'İskender Kebab',
-    description:
-      'Thinly sliced döner kebab over pita bread, topped with tomato sauce, melted butter, and yogurt',
-    cookingTime: 90,
-    servings: 4,
-    dietType: 'meat',
-    ingredients: [
-      { name: 'Lamb or beef', amount: 800, unit: 'g' },
-      { name: 'Yogurt', amount: 400, unit: 'g' },
-      { name: 'Pita bread', amount: 4, unit: 'pieces' },
-      { name: 'Tomatoes', amount: 4, unit: 'large' },
-      { name: 'Butter', amount: 100, unit: 'g' },
-      { name: 'Garlic', amount: 3, unit: 'cloves' },
-      { name: 'Paprika', amount: 2, unit: 'tsp' },
-      { name: 'Cumin', amount: 1, unit: 'tsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Ankara',
+          sv: 'Ankara',
+          es: 'Ankara',
+          fr: 'Ankara',
+          de: 'Ankara',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '85 million',
+          sv: '85 miljoner',
+          es: '85 millones',
+          fr: '85 millions',
+          de: '85 Millionen',
+        },
+      },
+      {
+        label: {
+          en: 'Official Language',
+          sv: 'Officiellt språk',
+          es: 'Idioma oficial',
+          fr: 'Langue officielle',
+          de: 'Amtssprache',
+        },
+        value: {
+          en: 'Turkish',
+          sv: 'turkiska',
+          es: 'Turco',
+          fr: 'Turc',
+          de: 'Türkisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Turkish Lira (₺)',
+          sv: 'Turkiska lira (₺)',
+          es: 'Lira turca (₺)',
+          fr: 'Lire turque (₺)',
+          de: 'Türkische Lira (₺)',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '783,562 km²',
+          sv: '783 562 km²',
+          es: '783.562 km²',
+          fr: '783 562 km²',
+          de: '783.562 km²',
+        },
+      },
     ],
-    steps: [
-      'Marinate meat with spices and garlic for 2 hours',
-      'Grill or pan-fry meat and slice thinly',
-      'Cook blended tomatoes with garlic into a thick sauce',
-      'Cut pita bread into pieces and place on plates',
-      'Top bread with meat and tomato sauce',
-      'Melt butter with paprika and drizzle on top',
-      'Serve with yogurt on the side',
+    facts: [
+      {
+        en: 'Istanbul is the only city in the world located on two continents',
+        sv: 'Istanbul är den enda staden i världen som ligger på två kontinenter',
+        es: 'Estambul es la única ciudad del mundo ubicada en dos continentes',
+        fr: 'Istanbul est la seule ville au monde située sur deux continents',
+        de: 'Istanbul ist die einzige Stadt der Welt, die auf zwei Kontinenten liegt',
+      },
+      {
+        en: 'Turkey is home to the ancient city of Troy',
+        sv: 'Turkiet är hem för den antika staden Troja',
+        es: 'Turquía es el hogar de la antigua ciudad de Troya',
+        fr: 'La Turquie abrite l\'ancienne ville de Troie',
+        de: 'In der Türkei befindet sich die antike Stadt Troja',
+      },
+      {
+        en: 'Turkish coffee fortune telling is a cultural tradition',
+        sv: 'Turkiskt kaffespådom är en kulturell tradition',
+        es: 'La adivinación del café turco es una tradición cultural',
+        fr: 'La divination du café turc est une tradition culturelle',
+        de: 'Wahrsagerei über türkischen Kaffee ist eine kulturelle Tradition',
+      },
+      {
+        en: 'The country has 18 UNESCO World Heritage Sites',
+        sv: 'Landet har 18 UNESCO: s världsarv',
+        es: 'El país tiene 18 sitios declarados Patrimonio de la Humanidad por la UNESCO',
+        fr: 'Le pays compte 18 sites du patrimoine mondial de l\'UNESCO',
+        de: 'Das Land verfügt über 18 UNESCO-Welterbestätten',
+      },
+      {
+        en: 'Tulips originally came from Turkey, not the Netherlands',
+        sv: 'Tulpaner kom ursprungligen från Turkiet, inte Nederländerna',
+        es: 'Los tulipanes proceden originalmente de Turquía, no de los Países Bajos',
+        fr: 'Les tulipes sont originaires de Turquie et non des Pays-Bas',
+        de: 'Tulpen kamen ursprünglich aus der Türkei, nicht aus den Niederlanden',
+      },
+      {
+        en: 'Santa Claus was born in Turkey (ancient Myra)',
+        sv: 'Jultomten föddes i Turkiet (gamla Myra)',
+        es: 'Papá Noel nació en Turquía (antigua Myra)',
+        fr: 'Le Père Noël est né en Turquie (ancienne Myra)',
+        de: 'Der Weihnachtsmann wurde in der Türkei (altes Myra) geboren',
+      },
+      {
+        en: 'The Grand Bazaar in Istanbul is one of the oldest covered markets in the world',
+        sv: 'Grand Bazaar i Istanbul är en av de äldsta täckta marknaderna i världen',
+        es: 'El Gran Bazar de Estambul es uno de los mercados cubiertos más antiguos del mundo.',
+        fr: 'Le Grand Bazar d\'Istanbul est l\'un des plus anciens marchés couverts au monde',
+        de: 'Der Große Basar in Istanbul ist einer der ältesten überdachten Märkte der Welt',
+      },
+      {
+        en: 'Turkey is the world\'s largest producer of hazelnuts',
+        sv: 'Turkiet är världens största producent av hasselnötter',
+        es: 'Turquía es el mayor productor mundial de avellanas',
+        fr: 'La Turquie est le plus grand producteur mondial de noisettes',
+        de: 'Die Türkei ist der weltweit größte Produzent von Haselnüssen',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/36295529/pexels-photo-36295529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'turkey-dessert',
-    name: 'Baklava',
-    description:
-      'Layers of flaky phyllo pastry filled with nuts and soaked in sweet syrup',
-    cookingTime: 75,
-    servings: 24,
-    dietType: 'vegetarian',
-    ingredients: [
-      { name: 'Phyllo dough', amount: 500, unit: 'g' },
-      { name: 'Pistachios or walnuts', amount: 400, unit: 'g' },
-      { name: 'Butter', amount: 250, unit: 'g' },
-      { name: 'Sugar', amount: 300, unit: 'g' },
-      { name: 'Water', amount: 250, unit: 'ml' },
-      { name: 'Honey', amount: 100, unit: 'g' },
-      { name: 'Lemon juice', amount: 2, unit: 'tbsp' },
+    foodCulture: 'Turkish cuisine is one of the world’s most diverse, influenced by Ottoman palace kitchens and regional traditions. Mezze, kebabs, and baklava are iconic. Meals are social affairs, often accompanied by Turkish tea or coffee.',
+    history: [
+      {
+        year: '330 AD',
+        title: 'Constantinople Founded',
+        description: {
+          en: 'Emperor Constantine established Constantinople (modern Istanbul) as the capital of the Byzantine Empire.',
+          sv: 'Kejsar Konstantin etablerade Konstantinopel (moderna Istanbul) som huvudstad i det bysantinska riket.',
+          es: 'El emperador Constantino estableció Constantinopla (la actual Estambul) como capital del Imperio Bizantino.',
+          fr: 'L\'empereur Constantin a établi Constantinople (Istanbul moderne) comme capitale de l\'Empire byzantin.',
+          de: 'Kaiser Konstantin gründete Konstantinopel (das heutige Istanbul) als Hauptstadt des Byzantinischen Reiches.',
+        },
+      },
+      {
+        year: '1299',
+        title: 'Ottoman Empire Begins',
+        description: {
+          en: 'Osman I founded the Ottoman Empire, which grew to control vast territories across three continents.',
+          sv: 'Osman I grundade det osmanska riket, som växte till att kontrollera stora territorier över tre kontinenter.',
+          es: 'Osman I fundó el Imperio Otomano, que creció hasta controlar vastos territorios en tres continentes.',
+          fr: 'Osman Ier a fondé l’Empire ottoman, qui s’est développé jusqu’à contrôler de vastes territoires sur trois continents.',
+          de: 'Osman I. gründete das Osmanische Reich, das weite Gebiete auf drei Kontinenten kontrollierte.',
+        },
+      },
+      {
+        year: '1453',
+        title: 'Fall of Constantinople',
+        description: {
+          en: 'Ottoman Sultan Mehmed II conquered Constantinople, ending the Byzantine Empire.',
+          sv: 'Den ottomanske sultanen Mehmed II erövrade Konstantinopel och gjorde slut på det bysantinska riket.',
+          es: 'El sultán otomano Mehmed II conquistó Constantinopla, poniendo fin al Imperio Bizantino.',
+          fr: 'Le sultan ottoman Mehmed II a conquis Constantinople, mettant ainsi fin à l\'empire byzantin.',
+          de: 'Der osmanische Sultan Mehmed II. eroberte Konstantinopel und beendete damit das Byzantinische Reich.',
+        },
+      },
+      {
+        year: '1923',
+        title: 'Republic Founded',
+        description: {
+          en: 'Mustafa Kemal Atatürk established the modern Republic of Turkey.',
+          sv: 'Mustafa Kemal Atatürk etablerade den moderna republiken Turkiet.',
+          es: 'Mustafa Kemal Atatürk estableció la moderna República de Turquía.',
+          fr: 'Mustafa Kemal Atatürk a fondé la République moderne de Turquie.',
+          de: 'Mustafa Kemal Atatürk gründete die moderne Republik Türkei.',
+        },
+      },
     ],
-    steps: [
-      'Layer phyllo sheets with butter in a baking tray',
-      'Add chopped nuts between layers',
-      'Cut into diamonds before baking',
-      'Bake at 180°C for 45 minutes',
-      'Boil sugar, water, honey, and lemon into syrup',
-      'Pour hot syrup over baked baklava',
-      'Let cool fully before serving',
+    innovations: [
+      {
+        name: {
+          en: 'Architectural Mastery (Sinan)',
+          sv: 'Architectural Mastery (Sinan)',
+          es: 'Maestría arquitectónica (Sinan)',
+          fr: 'Maîtrise architecturale (Sinan)',
+          de: 'Architektonische Meisterschaft (Sinan)',
+        },
+        year: '16th Century',
+        description: {
+          en: 'Ottoman architect Mimar Sinan shaped Istanbul’s skyline and influenced global mosque architecture with landmark designs.',
+          sv: 'Den ottomanske arkitekten Mimar Sinan formade Istanbuls skyline och påverkade global moskéarkitektur med landmärkedesigner.',
+          es: 'El arquitecto otomano Mimar Sinan dio forma al horizonte de Estambul e influyó en la arquitectura mundial de las mezquitas con diseños emblemáticos.',
+          fr: 'L\'architecte ottoman Mimar Sinan a façonné l\'horizon d\'Istanbul et influencé l\'architecture mondiale des mosquées avec des designs emblématiques.',
+          de: 'Der osmanische Architekt Mimar Sinan prägte die Skyline von Istanbul und beeinflusste die globale Moscheearchitektur mit wegweisenden Entwürfen.',
+        },
+      },
+      {
+        name: {
+          en: 'Iznik Ceramics',
+          sv: 'Iznik Keramik',
+          es: 'Cerámica de Iznik',
+          fr: 'Céramique d\'Iznik',
+          de: 'Iznik Keramik',
+        },
+        year: '15th–17th Century',
+        description: {
+          en: 'Iznik tilework became famous for vivid colors and intricate patterns, used in mosques and palaces across the empire.',
+          sv: 'Izniks kakelarbete blev känt för levande färger och invecklade mönster, som användes i moskéer och palats över hela imperiet.',
+          es: 'Los azulejos de Iznik se hicieron famosos por sus colores vivos y patrones intrincados, utilizados en mezquitas y palacios de todo el imperio.',
+          fr: 'Le carrelage d\'Iznik est devenu célèbre pour ses couleurs vives et ses motifs complexes, utilisés dans les mosquées et les palais de tout l\'empire.',
+          de: 'Iznik-Fliesen wurden berühmt für ihre lebendigen Farben und komplizierten Muster, die in Moscheen und Palästen im ganzen Reich verwendet wurden.',
+        },
+      },
+      {
+        name: {
+          en: 'Early Urban Megaprojects',
+          sv: 'Tidiga urbana megaprojekt',
+          es: 'Primeros megaproyectos urbanos',
+          fr: 'Premiers mégaprojets urbains',
+          de: 'Frühe urbane Megaprojekte',
+        },
+        year: 'Byzantine–Ottoman Era',
+        description: {
+          en: 'Monumental cisterns, bridges, and aqueducts (like those around Istanbul) supported dense cities with advanced water systems.',
+          sv: 'Monumentala cisterner, broar och akvedukter (som de runt Istanbul) stödde täta städer med avancerade vattensystem.',
+          es: 'Cisternas, puentes y acueductos monumentales (como los que rodean Estambul) sostenían ciudades densas con sistemas de agua avanzados.',
+          fr: 'Des citernes monumentales, des ponts et des aqueducs (comme ceux autour d’Istanbul) soutenaient des villes denses dotées de systèmes d’approvisionnement en eau avancés.',
+          de: 'Monumentale Zisternen, Brücken und Aquädukte (wie die rund um Istanbul) versorgten dichte Städte mit fortschrittlichen Wassersystemen.',
+        },
+      },
+      {
+        name: {
+          en: 'Hazelnut & Agricultural Production',
+          sv: 'Hasselnöts- och jordbruksproduktion',
+          es: 'Avellana y producción agrícola',
+          fr: 'Noisettes et production agricole',
+          de: 'Haselnuss- und Agrarproduktion',
+        },
+        year: 'Modern Era',
+        description: {
+          en: 'Turkey developed large-scale, globally important hazelnut cultivation and supply chains, dominating world production.',
+          sv: 'Turkiet utvecklade storskalig, globalt viktig hasselnötsodling och leveranskedjor, som dominerade världsproduktionen.',
+          es: 'Turquía desarrolló cadenas de suministro y cultivo de avellanas a gran escala y de importancia mundial, dominando la producción mundial.',
+          fr: 'La Turquie a développé une culture et des chaînes d’approvisionnement de noisettes à grande échelle et d’importance mondiale, dominant la production mondiale.',
+          de: 'Die Türkei entwickelte groß angelegte, weltweit bedeutende Haselnussanbau- und Lieferketten und dominierte die Weltproduktion.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/31472815/pexels-photo-31472815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Rakı, Efes beer, Turkish wine',
-    nonAlcoholic: 'Turkish tea (çay), Turkish coffee, Ayran (yogurt drink)',
-  },
-
-  music: [
-    'Traditional Turkish folk music',
-    'Ottoman classical music',
-    'Tarkan (Turkish pop)',
-    'Whirling Dervish ceremonial music',
-  ],
-
-  decorationIdeas: [
-    'Turkish lanterns',
-    'Red and white flag colors',
-    'İznik tiles',
-    'Turkish carpets',
-    'Nazar (evil eye) charms',
-  ],
-
-  conversationStarters: [
-    'Have you visited Istanbul?',
-    'What is your favorite Turkish dish?',
-    'Would you try a Turkish hamam?',
-    'Have you seen Cappadocia’s balloons?',
-  ],
-
-  quiz: [
-    {
-      id: 'turkey-q1',
-      question: 'What is the capital of Turkey?',
-      options: ['Istanbul', 'Ankara', 'Izmir', 'Antalya'],
-      correctAnswer: 1,
+    mustVisit: [
+      {
+        name: {
+          en: 'Istanbul (Hagia Sophia & Blue Mosque)',
+          sv: 'Istanbul (Hagia Sofia & Blå moskén)',
+          es: 'Estambul (Santa Sofía y Mezquita Azul)',
+          fr: 'Istanbul (Hagia Sophia et Mosquée Bleue)',
+          de: 'Istanbul (Hagia Sophia und Blaue Moschee)',
+        },
+        description: {
+          en: 'A city spanning Europe and Asia with iconic Byzantine and Ottoman monuments and vibrant bazaars.',
+          sv: 'En stad som spänner över Europa och Asien med ikoniska bysantinska och ottomanska monument och livliga basarer.',
+          es: 'Una ciudad que abarca Europa y Asia con emblemáticos monumentos bizantinos y otomanos y vibrantes bazares.',
+          fr: 'Une ville s\'étendant sur l\'Europe et l\'Asie avec des monuments emblématiques byzantins et ottomans et des bazars animés.',
+          de: 'Eine Stadt, die sich über Europa und Asien erstreckt und über berühmte byzantinische und osmanische Denkmäler und lebhafte Basare verfügt.',
+        },
+      },
+      {
+        name: {
+          en: 'Cappadocia',
+          sv: 'Kappadokien',
+          es: 'Capadocia',
+          fr: 'Cappadoce',
+          de: 'Kappadokien',
+        },
+        description: {
+          en: 'Fairy chimneys, cave churches, and sunrise hot-air balloons over dramatic volcanic landscapes.',
+          sv: 'Fairy skorstenar, grottkyrkor och soluppgångens varmluftsballonger över dramatiska vulkanlandskap.',
+          es: 'Chimeneas de hadas, iglesias rupestres y globos aerostáticos al amanecer sobre espectaculares paisajes volcánicos.',
+          fr: 'Cheminées de fées, églises rupestres et montgolfières au lever du soleil sur des paysages volcaniques spectaculaires.',
+          de: 'Feenkamine, Höhlenkirchen und Heißluftballons bei Sonnenaufgang über dramatischen Vulkanlandschaften.',
+        },
+      },
+      {
+        name: {
+          en: 'Ephesus',
+          sv: 'Efesos',
+          es: 'Éfeso',
+          fr: 'Éphèse',
+          de: 'Ephesus',
+        },
+        description: {
+          en: 'One of the best-preserved ancient cities in the Mediterranean world, famous for Roman ruins and grand streets.',
+          sv: 'En av de bäst bevarade antika städerna i Medelhavsvärlden, känd för romerska ruiner och storslagna gator.',
+          es: 'Una de las ciudades antiguas mejor conservadas del mundo mediterráneo, famosa por sus ruinas romanas y sus grandes calles.',
+          fr: 'L\'une des villes antiques les mieux conservées du monde méditerranéen, célèbre pour ses ruines romaines et ses grandes rues.',
+          de: 'Eine der am besten erhaltenen antiken Städte im Mittelmeerraum, berühmt für römische Ruinen und prächtige Straßen.',
+        },
+      },
+      {
+        name: {
+          en: 'Pamukkale & Hierapolis',
+          sv: 'Pamukkale och Hierapolis',
+          es: 'Pamukkale y Hierápolis',
+          fr: 'Pamukkale et Hiérapolis',
+          de: 'Pamukkale und Hierapolis',
+        },
+        description: {
+          en: 'White travertine terraces and nearby ancient ruins, a unique mix of nature and history.',
+          sv: 'Vita travertinterrasser och närliggande antika ruiner, en unik blandning av natur och historia.',
+          es: 'Terrazas de travertino blanco y ruinas antiguas cercanas, una mezcla única de naturaleza e historia.',
+          fr: 'Terrasses en travertin blanc et ruines antiques à proximité, un mélange unique de nature et d\'histoire.',
+          de: 'Weiße Travertinterrassen und nahe gelegene antike Ruinen, eine einzigartige Mischung aus Natur und Geschichte.',
+        },
+      },
+      {
+        name: {
+          en: 'Antalya & the Turquoise Coast',
+          sv: 'Antalya och den turkosa kusten',
+          es: 'Antalya y la Costa Turquesa',
+          fr: 'Antalya et la Côte Turquoise',
+          de: 'Antalya und die türkisfarbene Küste',
+        },
+        description: {
+          en: 'Mediterranean beaches, coastal hikes, and historic harbor towns with crystal-clear water.',
+          sv: 'Medelhavsstränder, kustvandringar och historiska hamnstäder med kristallklart vatten.',
+          es: 'Playas mediterráneas, rutas costeras y ciudades portuarias históricas con aguas cristalinas.',
+          fr: 'Plages méditerranéennes, randonnées côtières et villes portuaires historiques aux eaux cristallines.',
+          de: 'Mittelmeerstrände, Küstenwanderungen und historische Hafenstädte mit kristallklarem Wasser.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Best time to visit',
+        description: {
+          en: 'Spring (April–May) and autumn (September–October) are ideal for cities and coast; winter is great for skiing and hammams.',
+          sv: 'Vår (april–maj) och höst (september–oktober) är idealiska för städer och kust; vintern är bra för skidåkning och hamam.',
+          es: 'La primavera (abril-mayo) y el otoño (septiembre-octubre) son ideales para las ciudades y la costa; El invierno es ideal para esquiar y tomar hammams.',
+          fr: 'Le printemps (avril-mai) et l\'automne (septembre-octobre) sont idéaux pour les villes et la côte ; l\'hiver est idéal pour le ski et les hammams.',
+          de: 'Frühling (April–Mai) und Herbst (September–Oktober) sind ideal für Städte und Küsten; Der Winter eignet sich hervorragend zum Skifahren und für Hamams.',
+        },
+      },
+      {
+        item: 'Getting around',
+        description: {
+          en: 'Domestic flights are common; intercity buses are extensive; Istanbul public transport is efficient (metro, tram, ferries).',
+          sv: 'Inrikesflyg är vanliga; linjetrafikbussar är omfattande; Istanbuls kollektivtrafik är effektiv (tunnelbana, spårvagn, färjor).',
+          es: 'Los vuelos nacionales son comunes; los autobuses interurbanos son numerosos; El transporte público de Estambul es eficiente (metro, tranvía, ferries).',
+          fr: 'Les vols intérieurs sont courants ; les bus interurbains sont nombreux ; Les transports publics d\'Istanbul sont efficaces (métro, tramway, ferries).',
+          de: 'Inlandsflüge sind üblich; Überlandbusse sind umfangreich; Die öffentlichen Verkehrsmittel in Istanbul sind effizient (U-Bahn, Straßenbahn, Fähren).',
+        },
+      },
+      {
+        item: 'Cash & cards',
+        description: {
+          en: 'Cards are widely accepted in cities; keep cash for markets, taxis, and smaller towns.',
+          sv: 'Kort är allmänt accepterade i städer; hålla kontanter för marknader, taxibilar och mindre städer.',
+          es: 'Las tarjetas son ampliamente aceptadas en las ciudades; guarde efectivo para mercados, taxis y ciudades más pequeñas.',
+          fr: 'Les cartes sont largement acceptées dans les villes ; gardez de l\'argent liquide pour les marchés, les taxis et les petites villes.',
+          de: 'Karten werden in Städten weitgehend akzeptiert; Halten Sie Bargeld für Märkte, Taxis und kleinere Städte bereit.',
+        },
+      },
+      {
+        item: 'Etiquette',
+        description: {
+          en: 'Dress modestly in mosques, remove shoes, and be respectful during calls to prayer and religious holidays.',
+          sv: 'Klä dig anständigt i moskéer, ta av dig skor och var respektfull under bönerop och religiösa högtider.',
+          es: 'Vístase modestamente en las mezquitas, quítese los zapatos y sea respetuoso durante las llamadas a la oración y las festividades religiosas.',
+          fr: 'Habillez-vous modestement dans les mosquées, enlevez vos chaussures et soyez respectueux lors des appels à la prière et des fêtes religieuses.',
+          de: 'Kleiden Sie sich in Moscheen anständig, ziehen Sie die Schuhe aus und seien Sie bei Gebetsaufrufen und religiösen Feiertagen respektvoll.',
+        },
+      },
+      {
+        item: 'Food tip',
+        description: {
+          en: 'Try regional specialties: Gaziantep for baklava and pistachios, the Black Sea for anchovy dishes, and Aegean for olive-oil mezze.',
+          sv: 'Prova regionala specialiteter: Gaziantep för baklava och pistagenötter, Svarta havet för ansjovisrätter och Egeiska för olivolja mezze.',
+          es: 'Pruebe las especialidades regionales: Gaziantep para el baklava y los pistachos, el Mar Negro para los platos de anchoas y el Egeo para el mezze con aceite de oliva.',
+          fr: 'Essayez les spécialités régionales : Gaziantep pour les baklava et les pistaches, la mer Noire pour les plats à base d\'anchois et la mer Égée pour les mezze à l\'huile d\'olive.',
+          de: 'Probieren Sie regionale Spezialitäten: Gaziantep für Baklava und Pistazien, das Schwarze Meer für Sardellengerichte und die Ägäis für Olivenöl-Mezze.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'turkey-main',
+      name: {
+        en: 'İskender Kebab',
+        sv: 'İskender Kebab',
+        es: 'İskender Kebab',
+        fr: 'Istanbul Kebab',
+        de: 'İskender Kebab',
+      },
+      description: {
+        en: 'Thinly sliced döner kebab over pita bread, topped with tomato sauce, melted butter, and yogurt',
+        sv: 'Tunt skivad döner kebab över pitabröd, toppad med tomatsås, smält smör och yoghurt',
+        es: 'Döner kebab en rodajas finas sobre pan de pita, cubierto con salsa de tomate, mantequilla derretida y yogur',
+        fr: 'Döner kebab tranché finement sur du pain pita, garni de sauce tomate, de beurre fondu et de yaourt',
+        de: 'Dünn geschnittener Döner-Kebab auf Fladenbrot, garniert mit Tomatensauce, zerlassener Butter und Joghurt',
+      },
+      cookingTime: 90,
+      servings: 4,
+      dietType: {
+        en: 'meat',
+        sv: 'kött',
+        es: 'carne',
+        fr: 'viande',
+        de: 'Fleisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Lamb or beef',
+            sv: 'Lamm eller nötkött',
+            es: 'Cordero o ternera',
+            fr: 'Agneau ou bœuf',
+            de: 'Lamm oder Rind',
+          },
+          amount: 800,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Yogurt',
+            sv: 'Yoghurt',
+            es: 'Yogur',
+            fr: 'Yaourt',
+            de: 'Joghurt',
+          },
+          amount: 400,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Pita bread',
+            sv: 'Pitabröd',
+            es: 'Pan de pita',
+            fr: 'Pain pita',
+            de: 'Fladenbrot',
+          },
+          amount: 4,
+          unit: {
+            en: 'pieces',
+            sv: 'bitar',
+            es: 'piezas',
+            fr: 'pièces',
+            de: 'Stücke',
+          },
+        },
+        {
+          name: {
+            en: 'Tomatoes',
+            sv: 'Tomater',
+            es: 'Tomates',
+            fr: 'Tomates',
+            de: 'Tomaten',
+          },
+          amount: 4,
+          unit: {
+            en: 'large',
+            sv: 'stor',
+            es: 'grande',
+            fr: 'grand',
+            de: 'groß',
+          },
+        },
+        {
+          name: {
+            en: 'Butter',
+            sv: 'Smör',
+            es: 'Mantequilla',
+            fr: 'Beurre',
+            de: 'Butter',
+          },
+          amount: 100,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Garlic',
+            sv: 'Vitlök',
+            es: 'Ajo',
+            fr: 'Ail',
+            de: 'Knoblauch',
+          },
+          amount: 3,
+          unit: {
+            en: 'cloves',
+            sv: 'kryddnejlika',
+            es: 'clavo',
+            fr: 'clous de girofle',
+            de: 'Nelken',
+          },
+        },
+        {
+          name: {
+            en: 'Paprika',
+            sv: 'Paprika',
+            es: 'Pimentón',
+            fr: 'Paprika',
+            de: 'Paprika',
+          },
+          amount: 2,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Cumin',
+            sv: 'Kummin',
+            es: 'Comino',
+            fr: 'Cumin',
+            de: 'Kreuzkümmel',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Marinate meat with spices and garlic for 2 hours',
+          sv: 'Marinera kött med kryddor och vitlök i 2 timmar',
+          es: 'Marinar la carne con especias y ajo durante 2 horas',
+          fr: 'Faire mariner la viande avec les épices et l\'ail pendant 2 heures',
+          de: 'Fleisch mit Gewürzen und Knoblauch 2 Stunden lang marinieren',
+        },
+        {
+          en: 'Grill or pan-fry meat and slice thinly',
+          sv: 'Grilla eller stek kött och skiva tunt',
+          es: 'Asa o fríe la carne y córtala en rodajas finas',
+          fr: 'Griller ou poêler la viande et la trancher finement',
+          de: 'Fleisch grillen oder braten und in dünne Scheiben schneiden',
+        },
+        {
+          en: 'Cook blended tomatoes with garlic into a thick sauce',
+          sv: 'Koka blandade tomater med vitlök till en tjock sås',
+          es: 'Cocine los tomates licuados con ajo hasta obtener una salsa espesa',
+          fr: 'Cuire les tomates mélangées avec l\'ail dans une sauce épaisse',
+          de: 'Gemischte Tomaten mit Knoblauch zu einer dicken Soße kochen',
+        },
+        {
+          en: 'Cut pita bread into pieces and place on plates',
+          sv: 'Skär pitabröd i bitar och lägg på tallrikar',
+          es: 'Cortar el pan de pita en trozos y colocar en platos',
+          fr: 'Coupez le pain pita en morceaux et disposez-le sur des assiettes',
+          de: 'Fladenbrot in Stücke schneiden und auf Teller legen',
+        },
+        {
+          en: 'Top bread with meat and tomato sauce',
+          sv: 'Toppa bröd med kött och tomatsås',
+          es: 'Cubra el pan con carne y salsa de tomate',
+          fr: 'Garnir le pain de viande et de sauce tomate',
+          de: 'Brot mit Fleisch und Tomatensauce belegen',
+        },
+        {
+          en: 'Melt butter with paprika and drizzle on top',
+          sv: 'Smält smör med paprika och ringla över',
+          es: 'Derretir la mantequilla con pimentón y rociar encima',
+          fr: 'Faire fondre le beurre avec le paprika et arroser dessus',
+          de: 'Butter mit Paprika schmelzen und darüber träufeln',
+        },
+        {
+          en: 'Serve with yogurt on the side',
+          sv: 'Servera med yoghurt vid sidan om',
+          es: 'Servir con yogur al lado',
+          fr: 'Servir avec du yaourt à part',
+          de: 'Mit Joghurt als Beilage servieren',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/36295529/pexels-photo-36295529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'turkey-q2',
-      question: 'Which city lies on two continents?',
-      options: ['Ankara', 'Athens', 'Istanbul', 'Rome'],
-      correctAnswer: 2,
+    dessert: {
+      id: 'turkey-dessert',
+      name: {
+        en: 'Baklava',
+        sv: 'Baklava',
+        es: 'Baklava',
+        fr: 'Baklavas',
+        de: 'Baklava',
+      },
+      description: {
+        en: 'Layers of flaky phyllo pastry filled with nuts and soaked in sweet syrup',
+        sv: 'Lager av flingigt filodeg fylld med nötter och indränkt i söt sirap',
+        es: 'Capas de hojaldre de masa filo rellenas de nueces y bañadas en almíbar dulce',
+        fr: 'Étages de pâte phyllo feuilletée fourrés aux noix et imbibés de sirop sucré',
+        de: 'Schichten Blätterteig, gefüllt mit Nüssen und getränkt in süßem Sirup',
+      },
+      cookingTime: 75,
+      servings: 24,
+      dietType: {
+        en: 'vegetarian',
+        sv: 'vegetarisk',
+        es: 'vegetariano',
+        fr: 'végétarien',
+        de: 'vegetarisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Phyllo dough',
+            sv: 'Filodeg',
+            es: 'Masa filo',
+            fr: 'Pâte phyllo',
+            de: 'Filoteig',
+          },
+          amount: 500,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Pistachios or walnuts',
+            sv: 'Pistagenötter eller valnötter',
+            es: 'Pistachos o nueces',
+            fr: 'Pistaches ou noix',
+            de: 'Pistazien oder Walnüsse',
+          },
+          amount: 400,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Butter',
+            sv: 'Smör',
+            es: 'Mantequilla',
+            fr: 'Beurre',
+            de: 'Butter',
+          },
+          amount: 250,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Sugar',
+            sv: 'Socker',
+            es: 'Azúcar',
+            fr: 'Sucre',
+            de: 'Zucker',
+          },
+          amount: 300,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Water',
+            sv: 'Vatten',
+            es: 'Agua',
+            fr: 'Eau',
+            de: 'Wasser',
+          },
+          amount: 250,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Honey',
+            sv: 'Älskling',
+            es: 'Miel',
+            fr: 'Miel',
+            de: 'Schatz',
+          },
+          amount: 100,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Lemon juice',
+            sv: 'Citronsaft',
+            es: 'Jugo de limón',
+            fr: 'Jus de citron',
+            de: 'Zitronensaft',
+          },
+          amount: 2,
+          unit: {
+            en: 'tbsp',
+            sv: 'msk',
+            es: 'cucharada',
+            fr: 'à soupe',
+            de: 'EL',
+          },
+        },
+      ],
+      steps: [
+        {
+          en: 'Layer phyllo sheets with butter in a baking tray',
+          sv: 'Varva filoplattor med smör i en bakplåt',
+          es: 'Coloque capas de hojas filo con mantequilla en una bandeja para hornear.',
+          fr: 'Étalez des feuilles de pâte phyllo avec du beurre dans une plaque à pâtisserie',
+          de: 'Phyllo-Blätter mit Butter auf ein Backblech legen',
+        },
+        {
+          en: 'Add chopped nuts between layers',
+          sv: 'Lägg hackade nötter mellan lagren',
+          es: 'Agrega nueces picadas entre capas',
+          fr: 'Ajouter les noix hachées entre les couches',
+          de: 'Gehackte Nüsse zwischen die Schichten geben',
+        },
+        {
+          en: 'Cut into diamonds before baking',
+          sv: 'Skär till diamanter före bakning',
+          es: 'Cortar en diamantes antes de hornear',
+          fr: 'Couper en diamants avant la cuisson',
+          de: 'Vor dem Backen in Rauten schneiden',
+        },
+        {
+          en: 'Bake at 180°C for 45 minutes',
+          sv: 'Grädda i 180°C i 45 minuter',
+          es: 'Hornear a 180°C durante 45 minutos',
+          fr: 'Cuire au four à 180°C pendant 45 minutes',
+          de: '45 Minuten bei 180°C backen',
+        },
+        {
+          en: 'Boil sugar, water, honey, and lemon into syrup',
+          sv: 'Koka upp socker, vatten, honung och citron till sirap',
+          es: 'Hervir el azúcar, el agua, la miel y el limón hasta obtener almíbar',
+          fr: 'Faire bouillir le sucre, l\'eau, le miel et le citron dans le sirop',
+          de: 'Zucker, Wasser, Honig und Zitrone zu Sirup aufkochen',
+        },
+        {
+          en: 'Pour hot syrup over baked baklava',
+          sv: 'Häll varm sirap över bakad baklava',
+          es: 'Vierta almíbar caliente sobre el baklava horneado',
+          fr: 'Versez le sirop chaud sur le baklava cuit',
+          de: 'Gießen Sie heißen Sirup über gebackenes Baklava',
+        },
+        {
+          en: 'Let cool fully before serving',
+          sv: 'Låt svalna helt innan servering',
+          es: 'Deje enfriar completamente antes de servir',
+          fr: 'Laisser refroidir complètement avant de servir',
+          de: 'Vor dem Servieren vollständig abkühlen lassen',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/31472815/pexels-photo-31472815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'turkey-q3',
-      question: 'What ancient city is linked to the Trojan War?',
-      options: ['Ephesus', 'Pergamon', 'Troy', 'Byzantium'],
-      correctAnswer: 2,
+    drinks: {
+      alcoholic: 'Rakı, Efes beer, Turkish wine',
+      nonAlcoholic: 'Turkish tea (çay), Turkish coffee, Ayran (yogurt drink)',
     },
-    {
-      id: 'turkey-q4',
-      question: 'What is the traditional anise-flavored drink?',
-      options: ['Ouzo', 'Rakı', 'Arak', 'Pastis'],
-      correctAnswer: 1,
+    music: [
+      'Traditional Turkish folk music',
+      'Ottoman classical music',
+      'Tarkan (Turkish pop)',
+      'Whirling Dervish ceremonial music',
+    ],
+    decorationIdeas: [
+      'Turkish lanterns',
+      'Red and white flag colors',
+      'İznik tiles',
+      'Turkish carpets',
+      'Nazar (evil eye) charms',
+    ],
+    conversationStarters: [
+      'Have you visited Istanbul?',
+      'What is your favorite Turkish dish?',
+      'Would you try a Turkish hamam?',
+      'Have you seen Cappadocia’s balloons?',
+    ],
+    quiz: [
+      {
+        id: 'turkey-q1',
+        question: {
+          en: 'What is the capital of Turkey?',
+          sv: 'Vad är huvudstaden i Turkiet?',
+          es: '¿Cuál es la capital de Turquía?',
+          fr: 'Quelle est la capitale de la Turquie ?',
+          de: 'Was ist die Hauptstadt der Türkei?',
+        },
+        options: [
+          {
+            en: 'Istanbul',
+            sv: 'Istanbul',
+            es: 'Estambul',
+            fr: 'Istanbul',
+            de: 'Istanbul',
+          },
+          {
+            en: 'Ankara',
+            sv: 'Ankara',
+            es: 'Ankara',
+            fr: 'Ankara',
+            de: 'Ankara',
+          },
+          {
+            en: 'Izmir',
+            sv: 'Izmir',
+            es: 'Esmirna',
+            fr: 'Izmir',
+            de: 'Izmir',
+          },
+          {
+            en: 'Antalya',
+            sv: 'Antalya',
+            es: 'Antalya',
+            fr: 'Antalya',
+            de: 'Antalya',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'turkey-q2',
+        question: {
+          en: 'Which city lies on two continents?',
+          sv: 'Vilken stad ligger på två kontinenter?',
+          es: '¿Qué ciudad se encuentra en dos continentes?',
+          fr: 'Quelle ville se situe sur deux continents ?',
+          de: 'Welche Stadt liegt auf zwei Kontinenten?',
+        },
+        options: [
+          {
+            en: 'Ankara',
+            sv: 'Ankara',
+            es: 'Ankara',
+            fr: 'Ankara',
+            de: 'Ankara',
+          },
+          {
+            en: 'Athens',
+            sv: 'Aten',
+            es: 'Atenas',
+            fr: 'Athènes',
+            de: 'Athen',
+          },
+          {
+            en: 'Istanbul',
+            sv: 'Istanbul',
+            es: 'Estambul',
+            fr: 'Istanbul',
+            de: 'Istanbul',
+          },
+          {
+            en: 'Rome',
+            sv: 'Rom',
+            es: 'Roma',
+            fr: 'Rome',
+            de: 'Rom',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'turkey-q3',
+        question: {
+          en: 'What ancient city is linked to the Trojan War?',
+          sv: 'Vilken antik stad är kopplad till det trojanska kriget?',
+          es: '¿Qué ciudad antigua está vinculada a la guerra de Troya?',
+          fr: 'Quelle ville antique est liée à la guerre de Troie ?',
+          de: 'Welche antike Stadt ist mit dem Trojanischen Krieg verbunden?',
+        },
+        options: [
+          {
+            en: 'Ephesus',
+            sv: 'Efesos',
+            es: 'Éfeso',
+            fr: 'Éphèse',
+            de: 'Ephesus',
+          },
+          {
+            en: 'Pergamon',
+            sv: 'Pergamon',
+            es: 'Pérgamo',
+            fr: 'Pergame',
+            de: 'Pergamon',
+          },
+          {
+            en: 'Troy',
+            sv: 'Troja',
+            es: 'Troya',
+            fr: 'Troie',
+            de: 'Troja',
+          },
+          {
+            en: 'Byzantium',
+            sv: 'Bysans',
+            es: 'Bizancio',
+            fr: 'Byzance',
+            de: 'Byzanz',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'turkey-q4',
+        question: {
+          en: 'What is the traditional anise-flavored drink?',
+          sv: 'Vad är den traditionella drycken med anismak?',
+          es: '¿Cuál es la bebida tradicional con sabor a anís?',
+          fr: 'Quelle est la boisson traditionnelle anisée ?',
+          de: 'Was ist das traditionelle Getränk mit Anisgeschmack?',
+        },
+        options: [
+          {
+            en: 'Ouzo',
+            sv: 'Ouzo',
+            es: 'Ouzo',
+            fr: 'Ouzo',
+            de: 'Ouzo',
+          },
+          {
+            en: 'Rakı',
+            sv: 'Rakı',
+            es: 'Raki',
+            fr: 'Raki',
+            de: 'Raki',
+          },
+          {
+            en: 'Arak',
+            sv: 'Arak',
+            es: 'Arak',
+            fr: 'Arak',
+            de: 'Arak',
+          },
+          {
+            en: 'Pastis',
+            sv: 'Pastis',
+            es: 'Pastis',
+            fr: 'Pastis',
+            de: 'Pastis',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'turkey-q5',
+        question: {
+          en: 'Which flower originated in Turkey?',
+          sv: 'Vilken blomma har sitt ursprung i Turkiet?',
+          es: '¿Qué flor se originó en Turquía?',
+          fr: 'Quelle fleur est originaire de Turquie ?',
+          de: 'Welche Blume stammt ursprünglich aus der Türkei?',
+        },
+        options: [
+          {
+            en: 'Rose',
+            sv: 'Rose',
+            es: 'Rosa',
+            fr: 'Rose',
+            de: 'Rose',
+          },
+          {
+            en: 'Tulip',
+            sv: 'Tulpan',
+            es: 'Tulipán',
+            fr: 'Tulipe',
+            de: 'Tulpe',
+          },
+          {
+            en: 'Lily',
+            sv: 'Lily',
+            es: 'Lirio',
+            fr: 'Lis',
+            de: 'Lilie',
+          },
+          {
+            en: 'Orchid',
+            sv: 'Orkidé',
+            es: 'Orquídea',
+            fr: 'Orchidée',
+            de: 'Orchidee',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'turkey-q6',
+        question: {
+          en: 'What empire ruled Turkey before the republic?',
+          sv: 'Vilket imperium styrde Turkiet före republiken?',
+          es: '¿Qué imperio gobernó Turquía antes de la república?',
+          fr: 'Quel empire dirigeait la Turquie avant la république ?',
+          de: 'Welches Reich regierte die Türkei vor der Republik?',
+        },
+        options: [
+          {
+            en: 'Roman',
+            sv: 'Roman',
+            es: 'romano',
+            fr: 'Romain',
+            de: 'Römisch',
+          },
+          {
+            en: 'Ottoman',
+            sv: 'Osmanska',
+            es: 'Otomano',
+            fr: 'Pouf',
+            de: 'Osmanisch',
+          },
+          {
+            en: 'Persian',
+            sv: 'persiska',
+            es: 'persa',
+            fr: 'persan',
+            de: 'Persisch',
+          },
+          {
+            en: 'Mongol',
+            sv: 'Mongol',
+            es: 'mongol',
+            fr: 'Mongol',
+            de: 'Mongole',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'turkey-q7',
+        question: {
+          en: 'Who founded modern Turkey?',
+          sv: 'Vem grundade det moderna Turkiet?',
+          es: '¿Quién fundó la Turquía moderna?',
+          fr: 'Qui a fondé la Turquie moderne ?',
+          de: 'Wer hat die moderne Türkei gegründet?',
+        },
+        options: [
+          {
+            en: 'Mehmed II',
+            sv: 'Mehmed II',
+            es: 'Mehmed II',
+            fr: 'Mehmed II',
+            de: 'Mehmed II.',
+          },
+          {
+            en: 'Osman I',
+            sv: 'Osman I',
+            es: 'Osmán I',
+            fr: 'Osman Ier',
+            de: 'Osman I.',
+          },
+          {
+            en: 'Atatürk',
+            sv: 'Atatürk',
+            es: 'Ataturk',
+            fr: 'Atatürk',
+            de: 'Atatürk',
+          },
+          {
+            en: 'Suleiman',
+            sv: 'Suleiman',
+            es: 'Solimán',
+            fr: 'Soliman',
+            de: 'Suleiman',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'turkey-q8',
+        question: {
+          en: 'What is baklava mainly made of?',
+          sv: 'Vad är baklava huvudsakligen gjord av?',
+          es: '¿De qué está hecho principalmente el baklava?',
+          fr: 'De quoi est principalement composé le baklava ?',
+          de: 'Woraus besteht Baklava hauptsächlich?',
+        },
+        options: [
+          {
+            en: 'Bread and honey',
+            sv: 'Bröd och honung',
+            es: 'Pan y miel',
+            fr: 'Pain et miel',
+            de: 'Brot und Honig',
+          },
+          {
+            en: 'Rice and milk',
+            sv: 'Ris och mjölk',
+            es: 'arroz y leche',
+            fr: 'Riz et lait',
+            de: 'Reis und Milch',
+          },
+          {
+            en: 'Phyllo and nuts',
+            sv: 'Filon och nötter',
+            es: 'Filo y nueces',
+            fr: 'Filo et noix',
+            de: 'Phyllo und Nüsse',
+          },
+          {
+            en: 'Semolina and syrup',
+            sv: 'Semolina och sirap',
+            es: 'Sémola y almíbar',
+            fr: 'Semoule et sirop',
+            de: 'Grieß und Sirup',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'turkey-q9',
+        question: {
+          en: 'Which market is one of the oldest in the world?',
+          sv: 'Vilken marknad är en av de äldsta i världen?',
+          es: '¿Qué mercado es uno de los más antiguos del mundo?',
+          fr: 'Quel marché est l’un des plus anciens au monde ?',
+          de: 'Welcher Markt ist einer der ältesten der Welt?',
+        },
+        options: [
+          {
+            en: 'Spice Bazaar',
+            sv: 'Kryddbasar',
+            es: 'Bazar de las especias',
+            fr: 'Bazar aux épices',
+            de: 'Gewürzbasar',
+          },
+          {
+            en: 'Grand Bazaar',
+            sv: 'Grand Bazaar',
+            es: 'Gran Bazar',
+            fr: 'Grand Bazar',
+            de: 'Großer Basar',
+          },
+          {
+            en: 'Souq Waqif',
+            sv: 'Souq Waqif',
+            es: 'Zoco Waqif',
+            fr: 'Souq Waqif',
+            de: 'Souq Waqif',
+          },
+          {
+            en: 'Khan el-Khalili',
+            sv: 'Khan el-Khalili',
+            es: 'Khan el-Khalili',
+            fr: 'Khan el-Khalili',
+            de: 'Khan el-Khalili',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'turkey-q10',
+        question: {
+          en: 'Santa Claus is associated with which place in Turkey?',
+          sv: 'Jultomten förknippas med vilken plats i Turkiet?',
+          es: '¿Con qué lugar de Turquía está asociado Papá Noel?',
+          fr: 'À quel endroit en Turquie est associé le Père Noël ?',
+          de: 'Mit welchem ​​Ort in der Türkei wird der Weihnachtsmann in Verbindung gebracht?',
+        },
+        options: [
+          {
+            en: 'Istanbul',
+            sv: 'Istanbul',
+            es: 'Estambul',
+            fr: 'Istanbul',
+            de: 'Istanbul',
+          },
+          {
+            en: 'Antalya',
+            sv: 'Antalya',
+            es: 'Antalya',
+            fr: 'Antalya',
+            de: 'Antalya',
+          },
+          {
+            en: 'Myra',
+            sv: 'Myra',
+            es: 'mira',
+            fr: 'Myra',
+            de: 'Myra',
+          },
+          {
+            en: 'Ankara',
+            sv: 'Ankara',
+            es: 'Ankara',
+            fr: 'Ankara',
+            de: 'Ankara',
+          },
+        ],
+        correctAnswer: 2,
+      },
+    ],
+    coordinates: {
+      x: 54,
+      y: 42,
     },
-    {
-      id: 'turkey-q5',
-      question: 'Which flower originated in Turkey?',
-      options: ['Rose', 'Tulip', 'Lily', 'Orchid'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'turkey-q6',
-      question: 'What empire ruled Turkey before the republic?',
-      options: ['Roman', 'Ottoman', 'Persian', 'Mongol'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'turkey-q7',
-      question: 'Who founded modern Turkey?',
-      options: ['Mehmed II', 'Osman I', 'Atatürk', 'Suleiman'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'turkey-q8',
-      question: 'What is baklava mainly made of?',
-      options: ['Bread and honey', 'Rice and milk', 'Phyllo and nuts', 'Semolina and syrup'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'turkey-q9',
-      question: 'Which market is one of the oldest in the world?',
-      options: ['Spice Bazaar', 'Grand Bazaar', 'Souq Waqif', 'Khan el-Khalili'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'turkey-q10',
-      question: 'Santa Claus is associated with which place in Turkey?',
-      options: ['Istanbul', 'Antalya', 'Myra', 'Ankara'],
-      correctAnswer: 2,
-    },
-  ],
-
-  coordinates: { x: 54, y: 42 },
-};
+  };

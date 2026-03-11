@@ -1,288 +1,1208 @@
 import { Country } from '@/types';
 
 export const uganda: Country = {
-  id: 'uganda',
-  name: 'Uganda',
-  code: 'UG',
-  continent: 'Africa',
-  flag: '🇺🇬',
-  landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
-  description:
-    'Uganda, the "Pearl of Africa," is known for its diverse landscapes, mountain gorillas, and as the source of the Nile River. A country of lush rainforests, savannah, and friendly people.',
-  quickFacts: [
-    { label: 'Capital', value: 'Kampala' },
-    { label: 'Population', value: '47 million' },
-    { label: 'Official Languages', value: 'English, Swahili' },
-    { label: 'Currency', value: 'Ugandan Shilling (UGX)' },
-    { label: 'Area', value: '241,038 km²' },
-  ],
-  facts: [
-    'Uganda is home to about half of the world’s mountain gorilla population',
-    'The source of the Nile River is in Jinja, Uganda',
-    'Lake Victoria, Africa’s largest lake, borders Uganda',
-    'Winston Churchill called Uganda the "Pearl of Africa"',
-    'Uganda has 10 national parks with diverse ecosystems',
-    'The crested crane is Uganda’s national bird and a national symbol',
-    'Uganda lies on the equator, giving it a warm climate year-round with regional variation by altitude',
-  ],
-
-  foodCulture:
-    'Ugandan cuisine features matoke (steamed plantains), posho (maize meal), and hearty stews. Meals are often shared communally, and groundnuts (peanuts) are commonly used in sauces.',
-
-  history: [
-    {
-      year: 'Pre-1800s',
-      title: 'Kingdoms and Trade Networks',
-      description:
-        'Powerful kingdoms such as Buganda, Bunyoro, and Ankole shaped Uganda’s political and cultural landscape, supported by regional trade and agriculture.',
+    id: 'uganda',
+    name: {
+      en: 'Uganda',
+      sv: 'Uganda',
+      es: 'Uganda',
+      fr: 'Ouganda',
+      de: 'Uganda',
     },
-    {
-      year: '1894',
-      title: 'British Protectorate',
-      description:
-        'Uganda became a British protectorate, bringing major political and economic changes and expanding rail and administrative systems.',
+    code: 'UG',
+    continent: {
+      en: 'Africa',
+      sv: 'Afrika',
+      es: 'África',
+      fr: 'Afrique',
+      de: 'Afrika',
     },
-    {
-      year: '1962',
-      title: 'Independence',
-      description:
-        'Uganda gained independence, beginning a modern era of nation-building with evolving political systems and institutions.',
+    flag: '🇺🇬',
+    landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
+    description: {
+      en: 'Uganda, the "Pearl of Africa," is known for its diverse landscapes, mountain gorillas, and as the source of the Nile River. A country of lush rainforests, savannah, and friendly people.',
+      sv: 'Uganda, "Afrikas pärla", är känt för sina olika landskap, bergsgorillor och som källan till Nilen. Ett land med frodiga regnskogar, savanner och vänliga människor.',
+      es: 'Uganda, la "Perla de África", es conocida por sus diversos paisajes, sus gorilas de montaña y por ser el nacimiento del río Nilo. Un país de exuberantes bosques tropicales, sabanas y gente amigable.',
+      fr: 'L\'Ouganda, la « Perle de l\'Afrique », est connue pour ses paysages diversifiés, ses gorilles de montagne et sa source du Nil. Un pays de forêts tropicales luxuriantes, de savane et de gens sympathiques.',
+      de: 'Uganda, die „Perle Afrikas“, ist bekannt für seine vielfältigen Landschaften, Berggorillas und als Quelle des Nils. Ein Land mit üppigen Regenwäldern, Savannen und freundlichen Menschen.',
     },
-    {
-      year: '1990s–Present',
-      title: 'Conservation and Tourism Growth',
-      description:
-        'Uganda strengthened conservation efforts and eco-tourism, especially around gorilla trekking and national parks.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: 'Mountain Gorilla Conservation',
-      year: 'Modern Era',
-      description:
-        'Uganda is internationally known for conservation programs and protected areas supporting mountain gorilla populations and eco-tourism.',
-    },
-    {
-      name: 'Coffee Production Excellence',
-      year: '20th Century–Present',
-      description:
-        'Uganda is a major coffee producer (especially robusta), supporting rural livelihoods and export growth.',
-    },
-    {
-      name: 'Community-Based Tourism Models',
-      year: 'Modern Era',
-      description:
-        'Many regions use community tourism initiatives where local communities benefit directly from conservation and visitor experiences.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Bwindi Impenetrable National Park',
-      description:
-        'World-famous for mountain gorilla trekking and dense, ancient rainforest ecosystems.',
-    },
-    {
-      name: 'Murchison Falls National Park',
-      description:
-        'Known for dramatic Nile scenery where the river forces through a narrow gorge, plus classic safari wildlife.',
-    },
-    {
-      name: 'Queen Elizabeth National Park',
-      description:
-        'A diverse park with savannah, wetlands, and the Kazinga Channel—great for boat safaris and birdlife.',
-    },
-    {
-      name: 'Jinja (Source of the Nile)',
-      description:
-        'A lively riverside town associated with the Nile’s source, popular for rafting and outdoor adventures.',
-    },
-    {
-      name: 'Lake Victoria Shores',
-      description:
-        'Africa’s largest lake offers beautiful sunsets, fishing culture, and relaxed lakeside vibes.',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Best time to visit',
-      description:
-        'Drier seasons often make travel and trekking easier; weather varies by region and altitude.',
-    },
-    {
-      item: 'Wildlife etiquette',
-      description:
-        'Follow ranger guidance, keep distance, and avoid loud noises—especially on gorilla treks.',
-    },
-    {
-      item: 'What to pack',
-      description:
-        'Light rain jacket, sturdy shoes, insect repellent, and layers (cooler at higher elevations).',
-    },
-    {
-      item: 'Cash & payments',
-      description:
-        'Cards may not work everywhere; carry some cash for smaller vendors and remote areas.',
-    },
-    {
-      item: 'Respect local culture',
-      description:
-        'Ask before photographing people and be mindful in rural areas and at community sites.',
-    },
-  ],
-
-  mainDish: {
-    id: 'uganda-main',
-    name: 'Matoke',
-    description:
-      'Steamed and mashed green bananas traditionally cooked in banana leaves and served with groundnut sauce',
-    cookingTime: 60,
-    servings: 6,
-    dietType: 'vegan',
-    ingredients: [
-      { name: 'Green plantains/bananas', amount: 10, unit: 'whole' },
-      { name: 'Groundnuts (peanuts)', amount: 200, unit: 'g' },
-      { name: 'Tomatoes', amount: 3, unit: 'whole' },
-      { name: 'Onions', amount: 2, unit: 'whole' },
-      { name: 'Garlic', amount: 3, unit: 'cloves' },
-      { name: 'Vegetable oil', amount: 3, unit: 'tbsp' },
-      { name: 'Banana leaves', amount: 2, unit: 'large' },
-      { name: 'Salt', amount: 1, unit: 'tsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Kampala',
+          sv: 'Kampala',
+          es: 'Kampala',
+          fr: 'Kampala',
+          de: 'Kampala',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '47 million',
+          sv: '47 miljoner',
+          es: '47 millones',
+          fr: '47 millions',
+          de: '47 Millionen',
+        },
+      },
+      {
+        label: {
+          en: 'Official Languages',
+          sv: 'Officiella språk',
+          es: 'Idiomas oficiales',
+          fr: 'Langues officielles',
+          de: 'Amtssprachen',
+        },
+        value: {
+          en: 'English, Swahili',
+          sv: 'engelska, swahili',
+          es: 'Inglés, Suajili',
+          fr: 'Anglais, Swahili',
+          de: 'Englisch, Suaheli',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Divisa',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Ugandan Shilling (UGX)',
+          sv: 'Uganda shilling (UGX)',
+          es: 'Chelín ugandés (UGX)',
+          fr: 'Shilling ougandais (UGX)',
+          de: 'Ugandischer Schilling (UGX)',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '241,038 km²',
+          sv: '241 038 km²',
+          es: '241.038 km²',
+          fr: '241 038 km²',
+          de: '241.038 km²',
+        },
+      },
     ],
-    steps: [
-      'Peel green plantains and wrap them in banana leaves',
-      'Steam wrapped plantains for about 40 minutes until soft',
-      'Grind or blend groundnuts with water into a smooth paste',
-      'Sauté onions, garlic, and tomatoes in oil',
-      'Add groundnut paste and simmer until thick',
-      'Unwrap and mash the steamed plantains',
-      'Serve mashed matoke topped with groundnut sauce',
-      'Accompany with fresh vegetables or greens',
+    facts: [
+      {
+        en: 'Uganda is home to about half of the world’s mountain gorilla population',
+        sv: 'Uganda är hem för ungefär hälften av världens bergsgorillabefolkning',
+        es: 'Uganda alberga aproximadamente la mitad de la población mundial de gorilas de montaña',
+        fr: 'L’Ouganda abrite environ la moitié de la population mondiale de gorilles de montagne',
+        de: 'Uganda ist die Heimat von etwa der Hälfte der weltweiten Berggorillapopulation',
+      },
+      {
+        en: 'The source of the Nile River is in Jinja, Uganda',
+        sv: 'Källan till Nilen är i Jinja, Uganda',
+        es: 'El nacimiento del río Nilo está en Jinja, Uganda.',
+        fr: 'La source du Nil se trouve à Jinja, en Ouganda',
+        de: 'Die Quelle des Nils liegt in Jinja, Uganda',
+      },
+      {
+        en: 'Lake Victoria, Africa’s largest lake, borders Uganda',
+        sv: 'Victoriasjön, Afrikas största sjö, gränsar till Uganda',
+        es: 'El lago Victoria, el lago más grande de África, limita con Uganda',
+        fr: 'Le lac Victoria, le plus grand lac d’Afrique, borde l’Ouganda',
+        de: 'Der Viktoriasee, Afrikas größter See, grenzt an Uganda',
+      },
+      {
+        en: 'Winston Churchill called Uganda the "Pearl of Africa"',
+        sv: 'Winston Churchill kallade Uganda för "Afrikas pärla"',
+        es: 'Winston Churchill llamó a Uganda la "Perla de África"',
+        fr: 'Winston Churchill a qualifié l\'Ouganda de « Perle de l\'Afrique »',
+        de: 'Winston Churchill nannte Uganda die „Perle Afrikas“',
+      },
+      {
+        en: 'Uganda has 10 national parks with diverse ecosystems',
+        sv: 'Uganda har 10 nationalparker med olika ekosystem',
+        es: 'Uganda tiene 10 parques nacionales con ecosistemas diversos',
+        fr: 'L\'Ouganda compte 10 parcs nationaux avec des écosystèmes diversifiés',
+        de: 'Uganda verfügt über 10 Nationalparks mit vielfältigen Ökosystemen',
+      },
+      {
+        en: 'The crested crane is Uganda’s national bird and a national symbol',
+        sv: 'Den krönta tranan är Ugandas nationalfågel och en nationell symbol',
+        es: 'La grulla crestada es el ave nacional de Uganda y un símbolo nacional.',
+        fr: 'La grue huppée est l’oiseau national de l’Ouganda et un symbole national',
+        de: 'Der Haubenkranich ist Ugandas Nationalvogel und ein nationales Symbol',
+      },
+      {
+        en: 'Uganda lies on the equator, giving it a warm climate year-round with regional variation by altitude',
+        sv: 'Uganda ligger på ekvatorn, vilket ger det ett varmt klimat året runt med regional variation beroende på höjd',
+        es: 'Uganda se encuentra en el ecuador, lo que le confiere un clima cálido durante todo el año con variaciones regionales según la altitud.',
+        fr: 'L\'Ouganda se trouve sur l\'équateur, ce qui lui confère un climat chaud toute l\'année avec des variations régionales selon l\'altitude.',
+        de: 'Uganda liegt am Äquator und bietet das ganze Jahr über ein warmes Klima mit regionalen Höhenunterschieden',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'uganda-dessert',
-    name: 'Rolex Banana Pancakes',
-    description:
-      'Simple sweet banana pancakes inspired by Uganda’s beloved “rolex” street-food style—served warm with banana and a light sprinkle of sugar.',
-    cookingTime: 25,
-    servings: 6,
-    dietType: 'vegetarian',
-    ingredients: [
-      { name: 'Ripe bananas', amount: 3, unit: 'large' },
-      { name: 'All-purpose flour', amount: 200, unit: 'g' },
-      { name: 'Milk (or plant milk)', amount: 250, unit: 'ml' },
-      { name: 'Eggs', amount: 2, unit: 'large' },
-      { name: 'Sugar', amount: 40, unit: 'g' },
-      { name: 'Baking powder', amount: 1.5, unit: 'tsp' },
-      { name: 'Salt', amount: 0.25, unit: 'tsp' },
-      { name: 'Butter or oil (for frying)', amount: 2, unit: 'tbsp' },
+    foodCulture: 'Ugandan cuisine features matoke (steamed plantains), posho (maize meal), and hearty stews. Meals are often shared communally, and groundnuts (peanuts) are commonly used in sauces.',
+    history: [
+      {
+        year: 'Pre-1800s',
+        title: 'Kingdoms and Trade Networks',
+        description: {
+          en: 'Powerful kingdoms such as Buganda, Bunyoro, and Ankole shaped Uganda’s political and cultural landscape, supported by regional trade and agriculture.',
+          sv: 'Kraftfulla kungadömen som Buganda, Bunyoro och Ankole formade Ugandas politiska och kulturella landskap, med stöd av regional handel och jordbruk.',
+          es: 'Reinos poderosos como Buganda, Bunyoro y Ankole dieron forma al panorama político y cultural de Uganda, apoyados por el comercio y la agricultura regionales.',
+          fr: 'De puissants royaumes tels que Buganda, Bunyoro et Ankole ont façonné le paysage politique et culturel de l’Ouganda, soutenus par le commerce et l’agriculture régionaux.',
+          de: 'Mächtige Königreiche wie Buganda, Bunyoro und Ankole prägten Ugandas politische und kulturelle Landschaft, unterstützt durch regionalen Handel und Landwirtschaft.',
+        },
+      },
+      {
+        year: '1894',
+        title: 'British Protectorate',
+        description: {
+          en: 'Uganda became a British protectorate, bringing major political and economic changes and expanding rail and administrative systems.',
+          sv: 'Uganda blev ett brittiskt protektorat, vilket medförde stora politiska och ekonomiska förändringar och utökade järnvägs- och administrativa system.',
+          es: 'Uganda se convirtió en un protectorado británico, lo que provocó importantes cambios políticos y económicos y amplió los sistemas administrativos y ferroviarios.',
+          fr: 'L\'Ouganda est devenu un protectorat britannique, entraînant des changements politiques et économiques majeurs et une expansion des systèmes ferroviaires et administratifs.',
+          de: 'Uganda wurde britisches Protektorat, was große politische und wirtschaftliche Veränderungen mit sich brachte und das Eisenbahn- und Verwaltungssystem ausbaute.',
+        },
+      },
+      {
+        year: '1962',
+        title: 'Independence',
+        description: {
+          en: 'Uganda gained independence, beginning a modern era of nation-building with evolving political systems and institutions.',
+          sv: 'Uganda fick självständighet och inledde en modern era av nationsbyggande med framväxande politiska system och institutioner.',
+          es: 'Uganda obtuvo su independencia, iniciando una era moderna de construcción nacional con sistemas e instituciones políticos en evolución.',
+          fr: 'L’Ouganda a obtenu son indépendance, marquant le début d’une ère moderne de construction nationale avec des systèmes et des institutions politiques en évolution.',
+          de: 'Uganda erlangte seine Unabhängigkeit und leitete eine moderne Ära der Staatsbildung mit sich weiterentwickelnden politischen Systemen und Institutionen ein.',
+        },
+      },
+      {
+        year: '1990s–Present',
+        title: 'Conservation and Tourism Growth',
+        description: {
+          en: 'Uganda strengthened conservation efforts and eco-tourism, especially around gorilla trekking and national parks.',
+          sv: 'Uganda stärkte bevarandeinsatser och ekoturism, särskilt kring gorillavandringar och nationalparker.',
+          es: 'Uganda fortaleció los esfuerzos de conservación y el ecoturismo, especialmente en torno al trekking de gorilas y los parques nacionales.',
+          fr: 'L\'Ouganda a renforcé ses efforts de conservation et d\'écotourisme, en particulier autour des randonnées auprès des gorilles et des parcs nationaux.',
+          de: 'Uganda verstärkte seine Naturschutzbemühungen und den Ökotourismus, insbesondere rund um Gorilla-Trekking und Nationalparks.',
+        },
+      },
     ],
-    steps: [
-      'Mash bananas until smooth',
-      'Whisk eggs and milk together in a bowl',
-      'Add flour, sugar, baking powder, and salt; whisk until just combined',
-      'Stir in mashed banana',
-      'Heat a pan over medium heat with a little butter/oil',
-      'Pour small ladles of batter and cook 2–3 minutes per side until golden',
-      'Serve warm (optionally dust with a little sugar or serve with fruit)',
+    innovations: [
+      {
+        name: {
+          en: 'Mountain Gorilla Conservation',
+          sv: 'Mountain Gorilla Conservation',
+          es: 'Conservación del gorila de montaña',
+          fr: 'Conservation des gorilles de montagne',
+          de: 'Schutz der Berggorillas',
+        },
+        year: 'Modern Era',
+        description: {
+          en: 'Uganda is internationally known for conservation programs and protected areas supporting mountain gorilla populations and eco-tourism.',
+          sv: 'Uganda är internationellt känt för bevarandeprogram och skyddade områden som stödjer bergsgorillapopulationer och ekoturism.',
+          es: 'Uganda es conocida internacionalmente por sus programas de conservación y áreas protegidas que apoyan a las poblaciones de gorilas de montaña y al ecoturismo.',
+          fr: 'L\'Ouganda est internationalement connu pour ses programmes de conservation et ses zones protégées soutenant les populations de gorilles de montagne et l\'écotourisme.',
+          de: 'Uganda ist international bekannt für Naturschutzprogramme und Schutzgebiete zur Förderung der Berggorillapopulationen und des Ökotourismus.',
+        },
+      },
+      {
+        name: {
+          en: 'Coffee Production Excellence',
+          sv: 'Kaffeproduktion Excellence',
+          es: 'Excelencia en la producción de café',
+          fr: 'Excellence de la production de café',
+          de: 'Exzellente Kaffeeproduktion',
+        },
+        year: '20th Century–Present',
+        description: {
+          en: 'Uganda is a major coffee producer (especially robusta), supporting rural livelihoods and export growth.',
+          sv: 'Uganda är en stor kaffeproducent (särskilt robusta), som stödjer försörjning på landsbygden och exporttillväxt.',
+          es: 'Uganda es un importante productor de café (especialmente robusta), lo que respalda los medios de vida rurales y el crecimiento de las exportaciones.',
+          fr: 'L\'Ouganda est un important producteur de café (en particulier de Robusta), soutenant les moyens de subsistance ruraux et la croissance des exportations.',
+          de: 'Uganda ist ein bedeutender Kaffeeproduzent (insbesondere Robusta), der den Lebensunterhalt auf dem Land und das Exportwachstum unterstützt.',
+        },
+      },
+      {
+        name: {
+          en: 'Community-Based Tourism Models',
+          sv: 'Samhällsbaserade turismmodeller',
+          es: 'Modelos de turismo comunitario',
+          fr: 'Modèles de tourisme communautaire',
+          de: 'Community-basierte Tourismusmodelle',
+        },
+        year: 'Modern Era',
+        description: {
+          en: 'Many regions use community tourism initiatives where local communities benefit directly from conservation and visitor experiences.',
+          sv: 'Många regioner använder gemenskapsturisminitiativ där lokala samhällen drar direkt nytta av bevarandet och besökarnas upplevelser.',
+          es: 'Muchas regiones utilizan iniciativas de turismo comunitario donde las comunidades locales se benefician directamente de la conservación y las experiencias de los visitantes.',
+          fr: 'De nombreuses régions ont recours à des initiatives de tourisme communautaire où les communautés locales bénéficient directement de la conservation et des expériences des visiteurs.',
+          de: 'Viele Regionen nutzen gemeinschaftliche Tourismusinitiativen, bei denen die lokale Gemeinschaft direkt vom Naturschutz und den Besuchererlebnissen profitiert.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/14263510/pexels-photo-14263510.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Waragi (banana gin), local banana beer, Bell Lager',
-    nonAlcoholic: 'Chai (milk tea), passion fruit juice, fresh juice blends',
-  },
-
-  music: [
-    'Traditional Kiganda music',
-    'Kadongo Kamu',
-    'Contemporary Afrobeat',
-    'Gospel music',
-  ],
-
-  decorationIdeas: [
-    'Black, yellow, and red flag colors',
-    'Crested crane imagery (national bird)',
-    'Banana leaf patterns',
-    'Traditional bark cloth',
-    'Green and earth-tone accents',
-  ],
-
-  conversationStarters: [
-    'Would you like to see mountain gorillas in the wild?',
-    'Have you ever tried plantains prepared different ways?',
-    'What do you know about the source of the Nile?',
-    'Which African wildlife fascinates you most?',
-  ],
-
-  quiz: [
-    {
-      id: 'uganda-q1',
-      question: 'What is the capital of Uganda?',
-      options: ['Entebbe', 'Kampala', 'Jinja', 'Mbarara'],
-      correctAnswer: 1,
+    mustVisit: [
+      {
+        name: {
+          en: 'Bwindi Impenetrable National Park',
+          sv: 'Bwindi Impenetrable National Park',
+          es: 'Parque Nacional Impenetrable de Bwindi',
+          fr: 'Parc national impénétrable de Bwindi',
+          de: 'Bwindi Impenetrable Nationalpark',
+        },
+        description: {
+          en: 'World-famous for mountain gorilla trekking and dense, ancient rainforest ecosystems.',
+          sv: 'Världsberömd för bergsgorillavandring och täta, uråldriga regnskogsekosystem.',
+          es: 'Mundialmente famoso por el senderismo con gorilas de montaña y los densos y antiguos ecosistemas de selva tropical.',
+          fr: 'Célèbre dans le monde entier pour la randonnée des gorilles de montagne et ses écosystèmes denses et anciens de forêt tropicale.',
+          de: 'Weltberühmt für Berggorilla-Trekking und dichte, uralte Regenwaldökosysteme.',
+        },
+      },
+      {
+        name: {
+          en: 'Murchison Falls National Park',
+          sv: 'Murchison Falls National Park',
+          es: 'Parque Nacional de las Cataratas Murchison',
+          fr: 'Parc national des chutes Murchison',
+          de: 'Murchison-Falls-Nationalpark',
+        },
+        description: {
+          en: 'Known for dramatic Nile scenery where the river forces through a narrow gorge, plus classic safari wildlife.',
+          sv: 'Känd för det dramatiska Nillandskapet där floden tränger igenom en smal ravin, plus klassiskt safaridjur.',
+          es: 'Conocido por el espectacular paisaje del Nilo, donde el río atraviesa un estrecho desfiladero, además del clásico safari de vida silvestre.',
+          fr: 'Connu pour les paysages spectaculaires du Nil où le fleuve traverse une gorge étroite, ainsi que pour la faune classique des safaris.',
+          de: 'Bekannt für die dramatische Nillandschaft, in der sich der Fluss durch eine enge Schlucht zwängt, sowie für die klassische Safari-Tierwelt.',
+        },
+      },
+      {
+        name: {
+          en: 'Queen Elizabeth National Park',
+          sv: 'Queen Elizabeth National Park',
+          es: 'Parque Nacional Reina Isabel',
+          fr: 'Parc national Reine Elizabeth',
+          de: 'Queen-Elizabeth-Nationalpark',
+        },
+        description: {
+          en: 'A diverse park with savannah, wetlands, and the Kazinga Channel—great for boat safaris and birdlife.',
+          sv: 'En mångsidig park med savann, våtmarker och Kazinga-kanalen – perfekt för båtsafari och fågelliv.',
+          es: 'Un parque diverso con sabana, humedales y el canal Kazinga, ideal para safaris en barco y observación de aves.',
+          fr: 'Un parc diversifié avec de la savane, des zones humides et le canal de Kazinga, idéal pour les safaris en bateau et la vie des oiseaux.',
+          de: 'Ein abwechslungsreicher Park mit Savanne, Feuchtgebieten und dem Kazinga-Kanal – ideal für Bootssafaris und Vogelwelt.',
+        },
+      },
+      {
+        name: {
+          en: 'Jinja (Source of the Nile)',
+          sv: 'Jinja (Källan till Nilen)',
+          es: 'Jinja (Fuente del Nilo)',
+          fr: 'Jinja (Source du Nil)',
+          de: 'Jinja (Quelle des Nils)',
+        },
+        description: {
+          en: 'A lively riverside town associated with the Nile’s source, popular for rafting and outdoor adventures.',
+          sv: 'En livlig stad vid floden associerad med Nilens källa, populär för forsränning och utomhusäventyr.',
+          es: 'Una animada ciudad ribereña asociada con el nacimiento del Nilo, popular para practicar rafting y aventuras al aire libre.',
+          fr: 'Une ville riveraine animée associée à la source du Nil, populaire pour le rafting et les aventures en plein air.',
+          de: 'Eine lebhafte Stadt am Flussufer, die mit der Quelle des Nils verbunden ist und bei Rafting- und Outdoor-Abenteuern beliebt ist.',
+        },
+      },
+      {
+        name: {
+          en: 'Lake Victoria Shores',
+          sv: 'Lake Victoria Shores',
+          es: 'Orillas del lago Victoria',
+          fr: 'Rives du lac Victoria',
+          de: 'Ufer des Viktoriasees',
+        },
+        description: {
+          en: 'Africa’s largest lake offers beautiful sunsets, fishing culture, and relaxed lakeside vibes.',
+          sv: 'Afrikas största sjö erbjuder vackra solnedgångar, fiskekultur och avslappnad atmosfär vid sjön.',
+          es: 'El lago más grande de África ofrece hermosas puestas de sol, cultura pesquera y un ambiente relajado junto al lago.',
+          fr: 'Le plus grand lac d\'Afrique offre de magnifiques couchers de soleil, une culture de la pêche et une ambiance détendue au bord du lac.',
+          de: 'Afrikas größter See bietet wunderschöne Sonnenuntergänge, Angelkultur und entspannte Atmosphäre am Seeufer.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Best time to visit',
+        description: {
+          en: 'Drier seasons often make travel and trekking easier; weather varies by region and altitude.',
+          sv: 'Torra säsonger gör ofta resor och vandring lättare; vädret varierar beroende på region och höjd.',
+          es: 'Las estaciones más secas suelen facilitar los viajes y las caminatas; El clima varía según la región y la altitud.',
+          fr: 'Les saisons plus sèches facilitent souvent les voyages et les randonnées ; le temps varie selon la région et l’altitude.',
+          de: 'Trockenere Jahreszeiten machen Reisen und Trekking oft einfacher; Das Wetter variiert je nach Region und Höhe.',
+        },
+      },
+      {
+        item: 'Wildlife etiquette',
+        description: {
+          en: 'Follow ranger guidance, keep distance, and avoid loud noises—especially on gorilla treks.',
+          sv: 'Följ vaktmästarens vägledning, håll avstånd och undvik höga ljud - särskilt på gorillavandringar.',
+          es: 'Siga las instrucciones del guardabosques, mantenga la distancia y evite los ruidos fuertes, especialmente en las caminatas con gorilas.',
+          fr: 'Suivez les conseils des rangers, gardez vos distances et évitez les bruits forts, en particulier lors des randonnées avec les gorilles.',
+          de: 'Befolgen Sie die Anweisungen des Rangers, halten Sie Abstand und vermeiden Sie laute Geräusche – insbesondere auf Gorilla-Wanderungen.',
+        },
+      },
+      {
+        item: 'What to pack',
+        description: {
+          en: 'Light rain jacket, sturdy shoes, insect repellent, and layers (cooler at higher elevations).',
+          sv: 'Lätt regnjacka, rejäla skor, insektsmedel och lager (svalare på högre höjder).',
+          es: 'Chaqueta impermeable ligera, zapatos resistentes, repelente de insectos y capas (más frescas en elevaciones más altas).',
+          fr: 'Veste de pluie légère, chaussures robustes, anti-insectes et couches (plus fraîches à des altitudes plus élevées).',
+          de: 'Leichte Regenjacke, festes Schuhwerk, Insektenschutzmittel und Schichten (in höheren Lagen kühler).',
+        },
+      },
+      {
+        item: 'Cash & payments',
+        description: {
+          en: 'Cards may not work everywhere; carry some cash for smaller vendors and remote areas.',
+          sv: 'Kort kanske inte fungerar överallt; bära lite kontanter för mindre försäljare och avlägsna områden.',
+          es: 'Es posible que las tarjetas no funcionen en todas partes; Lleve algo de efectivo para proveedores más pequeños y áreas remotas.',
+          fr: 'Les cartes ne fonctionnent pas partout ; emportez de l\'argent liquide pour les petits vendeurs et les régions éloignées.',
+          de: 'Karten funktionieren möglicherweise nicht überall; Nehmen Sie etwas Bargeld für kleinere Händler und abgelegene Gebiete mit.',
+        },
+      },
+      {
+        item: 'Respect local culture',
+        description: {
+          en: 'Ask before photographing people and be mindful in rural areas and at community sites.',
+          sv: 'Fråga innan du fotograferar människor och var uppmärksam på landsbygden och på samhällen.',
+          es: 'Pregunte antes de fotografiar personas y tenga cuidado en zonas rurales y sitios comunitarios.',
+          fr: 'Renseignez-vous avant de photographier des gens et soyez prudent dans les zones rurales et sur les sites communautaires.',
+          de: 'Fragen Sie, bevor Sie Menschen fotografieren, und seien Sie in ländlichen Gebieten und an Gemeinschaftsstandorten vorsichtig.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'uganda-main',
+      name: {
+        en: 'Matoke',
+        sv: 'Matoke',
+        es: 'matoke',
+        fr: 'Matoké',
+        de: 'Matoke',
+      },
+      description: {
+        en: 'Steamed and mashed green bananas traditionally cooked in banana leaves and served with groundnut sauce',
+        sv: 'Ångkokta och mosade gröna bananer som traditionellt tillagas i bananblad och serveras med jordnötsås',
+        es: 'Plátanos verdes al vapor y triturados, cocinados tradicionalmente en hojas de plátano y servidos con salsa de maní',
+        fr: 'Bananes vertes cuites à la vapeur et écrasées traditionnellement dans des feuilles de bananier et servies avec une sauce aux arachides',
+        de: 'Gedämpfte und pürierte grüne Bananen, traditionell in Bananenblättern gekocht und mit Erdnusssauce serviert',
+      },
+      cookingTime: 60,
+      servings: 6,
+      dietType: {
+        en: 'vegan',
+        sv: 'vegan',
+        es: 'vegano',
+        fr: 'végétalien',
+        de: 'vegan',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Green plantains/bananas',
+            sv: 'Gröna groblad/bananer',
+            es: 'Plátanos/plátanos verdes',
+            fr: 'Plantains/bananes vertes',
+            de: 'Grüne Kochbananen/Bananen',
+          },
+          amount: 10,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Groundnuts (peanuts)',
+            sv: 'Jordnötter (jordnötter)',
+            es: 'Cacahuetes (cacahuetes)',
+            fr: 'Arachides (cacahuètes)',
+            de: 'Erdnüsse (Erdnüsse)',
+          },
+          amount: 200,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Tomatoes',
+            sv: 'Tomater',
+            es: 'Tomates',
+            fr: 'Tomates',
+            de: 'Tomaten',
+          },
+          amount: 3,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Onions',
+            sv: 'Lök',
+            es: 'Cebollas',
+            fr: 'Oignons',
+            de: 'Zwiebeln',
+          },
+          amount: 2,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Garlic',
+            sv: 'Vitlök',
+            es: 'Ajo',
+            fr: 'Ail',
+            de: 'Knoblauch',
+          },
+          amount: 3,
+          unit: {
+            en: 'cloves',
+            sv: 'kryddnejlika',
+            es: 'clavo',
+            fr: 'clous de girofle',
+            de: 'Nelken',
+          },
+        },
+        {
+          name: {
+            en: 'Vegetable oil',
+            sv: 'Vegetabilisk olja',
+            es: 'Aceite vegetal',
+            fr: 'Huile végétale',
+            de: 'Pflanzenöl',
+          },
+          amount: 3,
+          unit: {
+            en: 'tbsp',
+            sv: 'msk',
+            es: 'cucharada',
+            fr: 'à soupe',
+            de: 'EL',
+          },
+        },
+        {
+          name: {
+            en: 'Banana leaves',
+            sv: 'Bananblad',
+            es: 'Hojas de plátano',
+            fr: 'Feuilles de bananier',
+            de: 'Bananenblätter',
+          },
+          amount: 2,
+          unit: {
+            en: 'large',
+            sv: 'stor',
+            es: 'grande',
+            fr: 'grand',
+            de: 'groß',
+          },
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Peel green plantains and wrap them in banana leaves',
+          sv: 'Skala gröna plantains och slå in dem i bananblad',
+          es: 'Pela los plátanos verdes y envuélvelos en hojas de plátano',
+          fr: 'Épluchez les plantains verts et enveloppez-les dans des feuilles de bananier',
+          de: 'Grüne Kochbananen schälen und in Bananenblätter einwickeln',
+        },
+        {
+          en: 'Steam wrapped plantains for about 40 minutes until soft',
+          sv: 'Ånglindade plantains i cirka 40 minuter tills de är mjuka',
+          es: 'Plátanos envueltos al vapor durante unos 40 minutos hasta que estén suaves',
+          fr: 'Plantains enveloppés à la vapeur pendant environ 40 minutes jusqu\'à ce qu\'ils soient tendres',
+          de: 'Eingewickelte Kochbananen etwa 40 Minuten lang dämpfen, bis sie weich sind',
+        },
+        {
+          en: 'Grind or blend groundnuts with water into a smooth paste',
+          sv: 'Mal eller blanda jordnötter med vatten till en slät pasta',
+          es: 'Muele o mezcla maní con agua hasta obtener una pasta suave',
+          fr: 'Broyer ou mélanger les arachides avec de l\'eau pour obtenir une pâte lisse',
+          de: 'Mahlen oder vermischen Sie Erdnüsse mit Wasser zu einer glatten Paste',
+        },
+        {
+          en: 'Sauté onions, garlic, and tomatoes in oil',
+          sv: 'Fräs lök, vitlök och tomater i olja',
+          es: 'Saltear la cebolla, el ajo y los tomates en aceite',
+          fr: 'Faire revenir les oignons, l\'ail et les tomates dans l\'huile',
+          de: 'Zwiebeln, Knoblauch und Tomaten in Öl anbraten',
+        },
+        {
+          en: 'Add groundnut paste and simmer until thick',
+          sv: 'Tillsätt jordnötspasta och låt sjuda tills det blir tjockt',
+          es: 'Agregue la pasta de maní y cocine a fuego lento hasta que espese',
+          fr: 'Ajouter la pâte d\'arachide et laisser mijoter jusqu\'à épaississement',
+          de: 'Erdnusspaste hinzufügen und köcheln lassen, bis eine dicke Masse entsteht',
+        },
+        {
+          en: 'Unwrap and mash the steamed plantains',
+          sv: 'Packa upp och mosa de ångade plantainerna',
+          es: 'Desenvolver y triturar los plátanos al vapor',
+          fr: 'Déballez et écrasez les plantains cuits à la vapeur',
+          de: 'Die gedünsteten Kochbananen auspacken und zerstampfen',
+        },
+        {
+          en: 'Serve mashed matoke topped with groundnut sauce',
+          sv: 'Servera mosad matoke toppad med jordnötsås',
+          es: 'Sirva puré de matoke cubierto con salsa de maní',
+          fr: 'Servir la purée de matoke garnie de sauce aux arachides',
+          de: 'Servieren Sie zerdrückte Matoke mit Erdnusssauce',
+        },
+        {
+          en: 'Accompany with fresh vegetables or greens',
+          sv: 'Komplettera med färska grönsaker eller grönsaker',
+          es: 'Acompañar con vegetales o verduras frescas',
+          fr: 'Accompagner de légumes frais ou de verdure',
+          de: 'Mit frischem Gemüse oder Gemüse',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'uganda-q2',
-      question: 'Which rare animal is Uganda famous for protecting?',
-      options: ['Giant pandas', 'Mountain gorillas', 'Snow leopards', 'Koalas'],
-      correctAnswer: 1,
+    dessert: {
+      id: 'uganda-dessert',
+      name: {
+        en: 'Rolex Banana Pancakes',
+        sv: 'Rolex Bananpannkakor',
+        es: 'Panqueques de plátano Rolex',
+        fr: 'Crêpes à la banane Rolex',
+        de: 'Rolex Bananenpfannkuchen',
+      },
+      description: {
+        en: 'Simple sweet banana pancakes inspired by Uganda’s beloved “rolex” street-food style—served warm with banana and a light sprinkle of sugar.',
+        sv: 'Enkla söta bananpannkakor inspirerade av Ugandas älskade "rolex" streetfood-stil – serveras varma med banan och ett lätt stänk av socker.',
+        es: 'Sencillos panqueques dulces de plátano inspirados en el querido estilo de comida callejera “rolex” de Uganda, servidos calientes con plátano y una ligera pizca de azúcar.',
+        fr: 'De simples crêpes sucrées à la banane, inspirées du style de cuisine de rue « Rolex » bien-aimé de l\'Ouganda, servies chaudes avec de la banane et une légère pincée de sucre.',
+        de: 'Einfache süße Bananenpfannkuchen, inspiriert von Ugandas beliebtem „Rolex“-Streetfood-Stil – warm serviert mit Banane und einer leichten Prise Zucker.',
+      },
+      cookingTime: 25,
+      servings: 6,
+      dietType: {
+        en: 'vegetarian',
+        sv: 'vegetarisk',
+        es: 'vegetariano',
+        fr: 'végétarien',
+        de: 'vegetarisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Ripe bananas',
+            sv: 'Mogna bananer',
+            es: 'Plátanos maduros',
+            fr: 'Bananes mûres',
+            de: 'Reife Bananen',
+          },
+          amount: 3,
+          unit: {
+            en: 'large',
+            sv: 'stor',
+            es: 'grande',
+            fr: 'grand',
+            de: 'groß',
+          },
+        },
+        {
+          name: {
+            en: 'All-purpose flour',
+            sv: 'Mjöl för alla ändamål',
+            es: 'Harina para todo uso',
+            fr: 'Farine tout usage',
+            de: 'Allzweckmehl',
+          },
+          amount: 200,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Milk (or plant milk)',
+            sv: 'Mjölk (eller växtmjölk)',
+            es: 'Leche (o leche vegetal)',
+            fr: 'Lait (ou lait végétal)',
+            de: 'Milch (oder Pflanzenmilch)',
+          },
+          amount: 250,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Eggs',
+            sv: 'Ägg',
+            es: 'Huevos',
+            fr: 'Oeufs',
+            de: 'Eier',
+          },
+          amount: 2,
+          unit: {
+            en: 'large',
+            sv: 'stor',
+            es: 'grande',
+            fr: 'grand',
+            de: 'groß',
+          },
+        },
+        {
+          name: {
+            en: 'Sugar',
+            sv: 'Socker',
+            es: 'Azúcar',
+            fr: 'Sucre',
+            de: 'Zucker',
+          },
+          amount: 40,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Baking powder',
+            sv: 'Bakpulver',
+            es: 'Polvo para hornear',
+            fr: 'Levure chimique',
+            de: 'Backpulver',
+          },
+          amount: 1.5,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 0.25,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Butter or oil (for frying)',
+            sv: 'Smör eller olja (för stekning)',
+            es: 'Mantequilla o aceite (para freír)',
+            fr: 'Beurre ou huile (pour la friture)',
+            de: 'Butter oder Öl (zum Braten)',
+          },
+          amount: 2,
+          unit: {
+            en: 'tbsp',
+            sv: 'msk',
+            es: 'cucharada',
+            fr: 'à soupe',
+            de: 'EL',
+          },
+        },
+      ],
+      steps: [
+        {
+          en: 'Mash bananas until smooth',
+          sv: 'Mosa bananerna tills de är slät',
+          es: 'Triture los plátanos hasta que quede suave',
+          fr: 'Écraser les bananes jusqu\'à consistance lisse',
+          de: 'Bananen zerdrücken, bis sie glatt sind',
+        },
+        {
+          en: 'Whisk eggs and milk together in a bowl',
+          sv: 'Vispa ihop ägg och mjölk i en skål',
+          es: 'Batir los huevos y la leche en un bol.',
+          fr: 'Fouetter les œufs et le lait ensemble dans un bol',
+          de: 'Eier und Milch in einer Schüssel verquirlen',
+        },
+        {
+          en: 'Add flour, sugar, baking powder, and salt; whisk until just combined',
+          sv: 'Tillsätt mjöl, socker, bakpulver och salt; vispa tills precis blandat',
+          es: 'Agrega la harina, el azúcar, el polvo para hornear y la sal; batir hasta que esté combinado',
+          fr: 'Ajouter la farine, le sucre, la levure chimique et le sel; fouetter jusqu\'à ce que tout soit bien combiné',
+          de: 'Mehl, Zucker, Backpulver und Salz hinzufügen; verquirlen, bis alles gut vermischt ist',
+        },
+        {
+          en: 'Stir in mashed banana',
+          sv: 'Rör ner mosad banan',
+          es: 'Agregue el puré de plátano',
+          fr: 'Incorporer la purée de banane',
+          de: 'Zerdrückte Banane unterrühren',
+        },
+        {
+          en: 'Heat a pan over medium heat with a little butter/oil',
+          sv: 'Hetta upp en panna på medelvärme med lite smör/olja',
+          es: 'Calienta una sartén a fuego medio con un poco de mantequilla/aceite',
+          fr: 'Faites chauffer une poêle à feu moyen avec un peu de beurre/huile',
+          de: 'Eine Pfanne bei mittlerer Hitze mit etwas Butter/Öl erhitzen',
+        },
+        {
+          en: 'Pour small ladles of batter and cook 2–3 minutes per side until golden',
+          sv: 'Häll små slevar av smeten och stek 2–3 minuter per sida tills de är gyllene',
+          es: 'Vierta cucharones pequeños de masa y cocine de 2 a 3 minutos por lado hasta que estén dorados',
+          fr: 'Verser de petites louches de pâte et cuire 2 à 3 minutes de chaque côté jusqu\'à ce qu\'elles soient dorées',
+          de: 'Geben Sie kleine Kellen Teig hinein und backen Sie den Teig 2–3 Minuten pro Seite, bis er goldbraun ist',
+        },
+        {
+          en: 'Serve warm (optionally dust with a little sugar or serve with fruit)',
+          sv: 'Servera varm (ev. pudra över lite socker eller servera med frukt)',
+          es: 'Servir caliente (opcionalmente espolvorear con un poco de azúcar o servir con fruta)',
+          fr: 'Servir chaud (éventuellement saupoudrer d\'un peu de sucre ou servir avec des fruits)',
+          de: 'Warm servieren (optional mit etwas Zucker bestäuben oder mit Obst servieren)',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/14263510/pexels-photo-14263510.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'uganda-q3',
-      question: 'What is matoke made from?',
-      options: ['Rice', 'Green plantains', 'Cassava', 'Sweet potatoes'],
-      correctAnswer: 1,
+    drinks: {
+      alcoholic: 'Waragi (banana gin), local banana beer, Bell Lager',
+      nonAlcoholic: 'Chai (milk tea), passion fruit juice, fresh juice blends',
     },
-    {
-      id: 'uganda-q4',
-      question: 'Which major river has its source in Uganda?',
-      options: ['Congo River', 'Niger River', 'Nile River', 'Zambezi River'],
-      correctAnswer: 2,
+    music: [
+      'Traditional Kiganda music',
+      'Kadongo Kamu',
+      'Contemporary Afrobeat',
+      'Gospel music',
+    ],
+    decorationIdeas: [
+      'Black, yellow, and red flag colors',
+      'Crested crane imagery (national bird)',
+      'Banana leaf patterns',
+      'Traditional bark cloth',
+      'Green and earth-tone accents',
+    ],
+    conversationStarters: [
+      'Would you like to see mountain gorillas in the wild?',
+      'Have you ever tried plantains prepared different ways?',
+      'What do you know about the source of the Nile?',
+      'Which African wildlife fascinates you most?',
+    ],
+    quiz: [
+      {
+        id: 'uganda-q1',
+        question: {
+          en: 'What is the capital of Uganda?',
+          sv: 'Vad är Ugandas huvudstad?',
+          es: '¿Cuál es la capital de Uganda?',
+          fr: 'Quelle est la capitale de l\'Ouganda ?',
+          de: 'Was ist die Hauptstadt von Uganda?',
+        },
+        options: [
+          {
+            en: 'Entebbe',
+            sv: 'Entebbe',
+            es: 'Entebbe',
+            fr: 'Entebbé',
+            de: 'Entebbe',
+          },
+          {
+            en: 'Kampala',
+            sv: 'Kampala',
+            es: 'Kampala',
+            fr: 'Kampala',
+            de: 'Kampala',
+          },
+          {
+            en: 'Jinja',
+            sv: 'Jinja',
+            es: 'Jinja',
+            fr: 'Jinja',
+            de: 'Jinja',
+          },
+          {
+            en: 'Mbarara',
+            sv: 'Mbarara',
+            es: 'Mbarara',
+            fr: 'Mbarara',
+            de: 'Mbarara',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'uganda-q2',
+        question: {
+          en: 'Which rare animal is Uganda famous for protecting?',
+          sv: 'Vilket sällsynt djur är Uganda känt för att skydda?',
+          es: '¿Qué animal raro es famoso por proteger Uganda?',
+          fr: 'Quel animal rare l\'Ouganda est-il célèbre pour sa protection ?',
+          de: 'Welches seltene Tier ist in Uganda für seinen Schutz bekannt?',
+        },
+        options: [
+          {
+            en: 'Giant pandas',
+            sv: 'Jättepandor',
+            es: 'Pandas gigantes',
+            fr: 'Pandas géants',
+            de: 'Große Pandas',
+          },
+          {
+            en: 'Mountain gorillas',
+            sv: 'Bergsgorillor',
+            es: 'Gorilas de montaña',
+            fr: 'Gorilles de montagne',
+            de: 'Berggorillas',
+          },
+          {
+            en: 'Snow leopards',
+            sv: 'Snöleoparder',
+            es: 'Leopardos de las nieves',
+            fr: 'Léopards des neiges',
+            de: 'Schneeleoparden',
+          },
+          {
+            en: 'Koalas',
+            sv: 'Koalor',
+            es: 'Koalas',
+            fr: 'Koalas',
+            de: 'Koalas',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'uganda-q3',
+        question: {
+          en: 'What is matoke made from?',
+          sv: 'Vad är matoke gjord av?',
+          es: '¿De qué está hecho el matoke?',
+          fr: 'De quoi est fait le matoke ?',
+          de: 'Woraus besteht Matoke?',
+        },
+        options: [
+          {
+            en: 'Rice',
+            sv: 'Ris',
+            es: 'Arroz',
+            fr: 'Riz',
+            de: 'Reis',
+          },
+          {
+            en: 'Green plantains',
+            sv: 'Gröna groblad',
+            es: 'Plátanos verdes',
+            fr: 'Plantains verts',
+            de: 'Grüne Kochbananen',
+          },
+          {
+            en: 'Cassava',
+            sv: 'Cassava',
+            es: 'Yuca',
+            fr: 'Manioc',
+            de: 'Maniok',
+          },
+          {
+            en: 'Sweet potatoes',
+            sv: 'Sötpotatis',
+            es: 'Batatas',
+            fr: 'Patates douces',
+            de: 'Süßkartoffeln',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'uganda-q4',
+        question: {
+          en: 'Which major river has its source in Uganda?',
+          sv: 'Vilken större flod har sin källa i Uganda?',
+          es: '¿Qué río principal tiene su nacimiento en Uganda?',
+          fr: 'Quel grand fleuve prend sa source en Ouganda ?',
+          de: 'Welcher große Fluss entspringt in Uganda?',
+        },
+        options: [
+          {
+            en: 'Congo River',
+            sv: 'Kongofloden',
+            es: 'Río Congo',
+            fr: 'Fleuve Congo',
+            de: 'Kongo-Fluss',
+          },
+          {
+            en: 'Niger River',
+            sv: 'Nigerfloden',
+            es: 'Río Níger',
+            fr: 'Fleuve Niger',
+            de: 'Niger-Fluss',
+          },
+          {
+            en: 'Nile River',
+            sv: 'Nilen',
+            es: 'Río Nilo',
+            fr: 'Fleuve Nil',
+            de: 'Nil',
+          },
+          {
+            en: 'Zambezi River',
+            sv: 'Zambezifloden',
+            es: 'Río Zambezi',
+            fr: 'Fleuve Zambèze',
+            de: 'Sambesi',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'uganda-q5',
+        question: {
+          en: 'Which lake borders Uganda and is Africa’s largest?',
+          sv: 'Vilken sjö gränsar till Uganda och är Afrikas största?',
+          es: '¿Qué lago limita con Uganda y es el más grande de África?',
+          fr: 'Quel lac borde l’Ouganda et est le plus grand d’Afrique ?',
+          de: 'Welcher See grenzt an Uganda und ist der größte Afrikas?',
+        },
+        options: [
+          {
+            en: 'Lake Tanganyika',
+            sv: 'Tanganyikasjön',
+            es: 'Lago Tanganica',
+            fr: 'Lac Tanganyika',
+            de: 'Tanganjikasee',
+          },
+          {
+            en: 'Lake Malawi',
+            sv: 'Malawisjön',
+            es: 'Lago Malawi',
+            fr: 'Lac Malawi',
+            de: 'Malawisee',
+          },
+          {
+            en: 'Lake Victoria',
+            sv: 'Victoriasjön',
+            es: 'Lago Victoria',
+            fr: 'Lac Victoria',
+            de: 'Viktoriasee',
+          },
+          {
+            en: 'Lake Turkana',
+            sv: 'Lake Turkana',
+            es: 'Lago Turkana',
+            fr: 'Lac Turkana',
+            de: 'Turkana-See',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'uganda-q6',
+        question: {
+          en: 'What nickname did Winston Churchill give Uganda?',
+          sv: 'Vilket smeknamn gav Winston Churchill Uganda?',
+          es: '¿Qué apodo le puso Winston Churchill a Uganda?',
+          fr: 'Quel surnom Winston Churchill a-t-il donné à l\'Ouganda ?',
+          de: 'Welchen Spitznamen gab Winston Churchill Uganda?',
+        },
+        options: [
+          {
+            en: 'Heart of Africa',
+            sv: 'Afrikas hjärta',
+            es: 'Corazón de África',
+            fr: 'Cœur de l\'Afrique',
+            de: 'Herz Afrikas',
+          },
+          {
+            en: 'Garden of Africa',
+            sv: 'Afrikas trädgård',
+            es: 'Jardín de África',
+            fr: 'Jardin d\'Afrique',
+            de: 'Garten Afrikas',
+          },
+          {
+            en: 'Pearl of Africa',
+            sv: 'Afrikas pärla',
+            es: 'Perla de África',
+            fr: 'Perle d\'Afrique',
+            de: 'Perle Afrikas',
+          },
+          {
+            en: 'Jewel of the Nile',
+            sv: 'Nilens juvel',
+            es: 'Joya del Nilo',
+            fr: 'Joyau du Nil',
+            de: 'Juwel des Nils',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'uganda-q7',
+        question: {
+          en: 'What is the national bird of Uganda?',
+          sv: 'Vilken är Ugandas nationalfågel?',
+          es: '¿Cuál es el ave nacional de Uganda?',
+          fr: 'Quel est l\'oiseau national de l\'Ouganda ?',
+          de: 'Was ist der Nationalvogel Ugandas?',
+        },
+        options: [
+          {
+            en: 'Eagle',
+            sv: 'Örn',
+            es: 'Águila',
+            fr: 'Aigle',
+            de: 'Adler',
+          },
+          {
+            en: 'Flamingo',
+            sv: 'Flamingo',
+            es: 'Flamenco',
+            fr: 'Flamant rose',
+            de: 'Flamingo',
+          },
+          {
+            en: 'Crested crane',
+            sv: 'Krönkran',
+            es: 'Grulla crestada',
+            fr: 'Grue à crête',
+            de: 'Haubenkranich',
+          },
+          {
+            en: 'Ostrich',
+            sv: 'Struts',
+            es: 'Avestruz',
+            fr: 'Autruche',
+            de: 'Strauß',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'uganda-q8',
+        question: {
+          en: 'How many national parks does Uganda have?',
+          sv: 'Hur många nationalparker har Uganda?',
+          es: '¿Cuántos parques nacionales tiene Uganda?',
+          fr: 'Combien de parcs nationaux l’Ouganda possède-t-il ?',
+          de: 'Wie viele Nationalparks hat Uganda?',
+        },
+        options: [
+          '5',
+          '7',
+          '10',
+          '15',
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'uganda-q9',
+        question: {
+          en: 'Which crop plays a central role in Ugandan cuisine?',
+          sv: 'Vilken gröda spelar en central roll i det ugandiska köket?',
+          es: '¿Qué cultivo juega un papel central en la cocina de Uganda?',
+          fr: 'Quelle culture joue un rôle central dans la cuisine ougandaise ?',
+          de: 'Welche Nutzpflanze spielt in der ugandischen Küche eine zentrale Rolle?',
+        },
+        options: [
+          {
+            en: 'Wheat',
+            sv: 'Vete',
+            es: 'Trigo',
+            fr: 'Blé',
+            de: 'Weizen',
+          },
+          {
+            en: 'Bananas/plantains',
+            sv: 'Bananer/kobananer',
+            es: 'Plátanos/plátanos',
+            fr: 'Bananes/plantains',
+            de: 'Bananen/Kochbananen',
+          },
+          {
+            en: 'Potatoes',
+            sv: 'Potatis',
+            es: 'Patatas',
+            fr: 'Pommes de terre',
+            de: 'Kartoffeln',
+          },
+          {
+            en: 'Rice',
+            sv: 'Ris',
+            es: 'Arroz',
+            fr: 'Riz',
+            de: 'Reis',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'uganda-q10',
+        question: {
+          en: 'Which currency is used in Uganda?',
+          sv: 'Vilken valuta används i Uganda?',
+          es: '¿Qué moneda se utiliza en Uganda?',
+          fr: 'Quelle monnaie est utilisée en Ouganda ?',
+          de: 'Welche Währung wird in Uganda verwendet?',
+        },
+        options: [
+          {
+            en: 'Kenyan Shilling',
+            sv: 'Kenyansk shilling',
+            es: 'Chelín keniano',
+            fr: 'Shilling kenyan',
+            de: 'Kenianischer Schilling',
+          },
+          {
+            en: 'Ugandan Shilling',
+            sv: 'Uganda shilling',
+            es: 'Chelín ugandés',
+            fr: 'Shilling ougandais',
+            de: 'Ugandischer Schilling',
+          },
+          {
+            en: 'East African Pound',
+            sv: 'Östafrikanskt pund',
+            es: 'Libra de África Oriental',
+            fr: 'Livre d\'Afrique de l\'Est',
+            de: 'Ostafrikanisches Pfund',
+          },
+          {
+            en: 'US Dollar',
+            sv: 'US-dollar',
+            es: 'dólar estadounidense',
+            fr: 'Dollar américain',
+            de: 'US-Dollar',
+          },
+        ],
+        correctAnswer: 1,
+      },
+    ],
+    coordinates: {
+      x: 55,
+      y: 20,
     },
-    {
-      id: 'uganda-q5',
-      question: 'Which lake borders Uganda and is Africa’s largest?',
-      options: ['Lake Tanganyika', 'Lake Malawi', 'Lake Victoria', 'Lake Turkana'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'uganda-q6',
-      question: 'What nickname did Winston Churchill give Uganda?',
-      options: ['Heart of Africa', 'Garden of Africa', 'Pearl of Africa', 'Jewel of the Nile'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'uganda-q7',
-      question: 'What is the national bird of Uganda?',
-      options: ['Eagle', 'Flamingo', 'Crested crane', 'Ostrich'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'uganda-q8',
-      question: 'How many national parks does Uganda have?',
-      options: ['5', '7', '10', '15'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'uganda-q9',
-      question: 'Which crop plays a central role in Ugandan cuisine?',
-      options: ['Wheat', 'Bananas/plantains', 'Potatoes', 'Rice'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'uganda-q10',
-      question: 'Which currency is used in Uganda?',
-      options: ['Kenyan Shilling', 'Ugandan Shilling', 'East African Pound', 'US Dollar'],
-      correctAnswer: 1,
-    },
-  ],
-
-  coordinates: { x: 55, y: 20 },
-};
+  };

@@ -1,280 +1,1141 @@
 import { Country } from '@/types';
 
 export const turkmenistan: Country = {
-  id: 'turkmenistan',
-  name: 'Turkmenistan',
-  code: 'TM',
-  continent: 'Asia',
-  flag: '🇹🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
-  description:
-    'Turkmenistan is a Central Asian country known for the vast Karakum Desert, ancient Silk Road cities, rich natural gas reserves, and striking white-marble architecture in its capital, Ashgabat.',
-  quickFacts: [
-    { label: 'Capital', value: 'Ashgabat' },
-    { label: 'Population', value: '6.3 million' },
-    { label: 'Official Language', value: 'Turkmen' },
-    { label: 'Currency', value: 'Turkmenistan Manat' },
-    { label: 'Area', value: '488,100 km²' },
-  ],
-
-  facts: [
-    'Around 80% of Turkmenistan is covered by the Karakum Desert',
-    'The Darvaza gas crater is known as the “Door to Hell”',
-    'Ashgabat holds world records for white-marble buildings',
-    'Turkmenistan has some of the world’s largest natural gas reserves',
-    'The Akhal-Teke horse is a national symbol',
-    'The country was a key region along the ancient Silk Road',
-  ],
-
-  foodCulture:
-    'Turkmen cuisine is based on lamb, rice, bread, and dairy products. Meals are hearty and influenced by nomadic Central Asian traditions, often accompanied by green tea. Hospitality plays an important role in daily life.',
-
-  history: [
-    {
-      year: '3rd Century BC',
-      title: 'Silk Road Era',
-      description:
-        'Cities like Merv became major centers of trade, culture, and learning along the Silk Road.',
+    id: 'turkmenistan',
+    name: {
+      en: 'Turkmenistan',
+      sv: 'Turkmenistan',
+      es: 'Turkmenistán',
+      fr: 'Turkménistan',
+      de: 'Turkmenistan',
     },
-    {
-      year: '11th Century',
-      title: 'Seljuk Empire',
-      description:
-        'The Seljuks ruled much of the region, spreading Turkic culture and Islamic scholarship.',
+    code: 'TM',
+    continent: {
+      en: 'Asia',
+      sv: 'Asien',
+      es: 'Asia',
+      fr: 'Asie',
+      de: 'Asien',
     },
-    {
-      year: '1881',
-      title: 'Russian Conquest',
-      description:
-        'The region was absorbed into the Russian Empire after the Battle of Geok Tepe.',
+    flag: '🇹🇲',
+    landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
+    description: {
+      en: 'Turkmenistan is a Central Asian country known for the vast Karakum Desert, ancient Silk Road cities, rich natural gas reserves, and striking white-marble architecture in its capital, Ashgabat.',
+      sv: 'Turkmenistan är ett centralasiatiskt land känt för den stora Karakumöknen, antika sidenvägsstäder, rika naturgasreserver och slående vit marmorarkitektur i huvudstaden Ashgabat.',
+      es: 'Turkmenistán es un país de Asia Central conocido por el vasto desierto de Karakum, las antiguas ciudades de la Ruta de la Seda, las ricas reservas de gas natural y la sorprendente arquitectura de mármol blanco en su capital, Ashgabat.',
+      fr: 'Le Turkménistan est un pays d\'Asie centrale connu pour le vaste désert du Karakoum, les anciennes villes de la Route de la Soie, les riches réserves de gaz naturel et l\'étonnante architecture en marbre blanc de sa capitale, Achgabat.',
+      de: 'Turkmenistan ist ein zentralasiatisches Land, das für die riesige Karakum-Wüste, alte Seidenstraßenstädte, reiche Erdgasreserven und die beeindruckende Architektur aus weißem Marmor in seiner Hauptstadt Aschgabat bekannt ist.',
     },
-    {
-      year: '1991',
-      title: 'Independence',
-      description:
-        'Turkmenistan gained independence following the collapse of the Soviet Union.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: 'Turkmen Carpets',
-      year: 'Ancient',
-      description:
-        'Handwoven carpets are a national symbol and are recognized by UNESCO as intangible cultural heritage.',
-    },
-    {
-      name: 'Desert Irrigation Systems',
-      year: '20th Century',
-      description:
-        'Large-scale irrigation projects transformed arid land for agriculture, especially cotton.',
-    },
-    {
-      name: 'White Marble Urban Design',
-      year: 'Modern Era',
-      description:
-        'Ashgabat’s architecture features extensive use of white marble, earning world records.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Darvaza Gas Crater',
-      description:
-        'A massive burning natural gas crater in the Karakum Desert, nicknamed the “Door to Hell.”',
-    },
-    {
-      name: 'Ashgabat',
-      description:
-        'The capital city known for monumental white-marble buildings and wide boulevards.',
-    },
-    {
-      name: 'Ancient Merv',
-      description:
-        'A UNESCO World Heritage Site and one of the most important Silk Road cities.',
-    },
-    {
-      name: 'Kunya-Urgench',
-      description:
-        'Historic ruins of a medieval capital with mausoleums and minarets.',
-    },
-    {
-      name: 'Karakum Desert',
-      description:
-        'One of the largest sand deserts in the world, covering most of the country.',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Visa requirements',
-      description:
-        'Most visitors require a visa and official invitation; travel planning is essential.',
-    },
-    {
-      item: 'Best time to visit',
-      description:
-        'Spring (April–May) and autumn (September–October) offer the most comfortable weather.',
-    },
-    {
-      item: 'Getting around',
-      description:
-        'Travel is controlled; guided tours are common for foreign visitors.',
-    },
-    {
-      item: 'Currency',
-      description:
-        'Cash is important; international cards are rarely accepted.',
-    },
-    {
-      item: 'Cultural respect',
-      description:
-        'Modest clothing and respectful behavior are expected, especially outside cities.',
-    },
-  ],
-
-  mainDish: {
-    id: 'turkmenistan-main',
-    name: 'Plov',
-    description:
-      'Traditional rice pilaf cooked with lamb, carrots, and spices',
-    cookingTime: 90,
-    servings: 6,
-    dietType: 'meat',
-    ingredients: [
-      { name: 'Lamb', amount: 600, unit: 'g' },
-      { name: 'Rice', amount: 500, unit: 'g' },
-      { name: 'Carrots', amount: 3, unit: 'whole' },
-      { name: 'Onions', amount: 2, unit: 'whole' },
-      { name: 'Cumin', amount: 1, unit: 'tsp' },
-      { name: 'Vegetable oil', amount: 100, unit: 'ml' },
-      { name: 'Salt', amount: 1.5, unit: 'tsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'Ashgabat',
+          sv: 'Ashgabat',
+          es: 'Asjabad',
+          fr: 'Achgabat',
+          de: 'Aschgabat',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '6.3 million',
+          sv: '6,3 miljoner',
+          es: '6,3 millones',
+          fr: '6,3 millions',
+          de: '6,3 Millionen',
+        },
+      },
+      {
+        label: {
+          en: 'Official Language',
+          sv: 'Officiellt språk',
+          es: 'Idioma oficial',
+          fr: 'Langue officielle',
+          de: 'Amtssprache',
+        },
+        value: {
+          en: 'Turkmen',
+          sv: 'Turkmeniska',
+          es: 'turcomano',
+          fr: 'Turkmènes',
+          de: 'Turkmenisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Turkmenistan Manat',
+          sv: 'Turkmenistan Manat',
+          es: 'Manat de Turkmenistán',
+          fr: 'Turkménistan Manat',
+          de: 'Turkmenistan-Manat',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '488,100 km²',
+          sv: '488 100 km²',
+          es: '488.100 km²',
+          fr: '488 100 km²',
+          de: '488.100 km²',
+        },
+      },
     ],
-    steps: [
-      'Heat oil in a large heavy-bottomed pot',
-      'Brown lamb pieces until well colored',
-      'Add sliced onions and cook until soft',
-      'Stir in julienned carrots and cumin',
-      'Add water to cover meat and simmer for 30 minutes',
-      'Spread rinsed rice evenly on top without stirring',
-      'Cover and steam until rice is tender and liquid absorbed',
-      'Fluff gently before serving',
+    facts: [
+      {
+        en: 'Around 80% of Turkmenistan is covered by the Karakum Desert',
+        sv: 'Cirka 80 % av Turkmenistan täcks av Karakumöknen',
+        es: 'Alrededor del 80% de Turkmenistán está cubierto por el desierto de Karakum',
+        fr: 'Environ 80 % du Turkménistan est couvert par le désert du Karakoum',
+        de: 'Rund 80 % von Turkmenistan sind von der Karakum-Wüste bedeckt',
+      },
+      {
+        en: 'The Darvaza gas crater is known as the “Door to Hell”',
+        sv: 'Darvaza-gaskratern är känd som "Dörren till helvetet"',
+        es: 'El cráter de gas de Darvaza es conocido como la “Puerta al Infierno”',
+        fr: 'Le cratère de gaz Darvaza est connu sous le nom de « Porte de l’Enfer »',
+        de: 'Der Gaskrater von Darvaza ist als „Tor zur Hölle“ bekannt',
+      },
+      {
+        en: 'Ashgabat holds world records for white-marble buildings',
+        sv: 'Ashgabat har världsrekord i byggnader av vit marmor',
+        es: 'Ashgabat ostenta récords mundiales de edificios de mármol blanco',
+        fr: 'Achgabat détient des records du monde pour les bâtiments en marbre blanc',
+        de: 'Aschgabat hält Weltrekorde für Gebäude aus weißem Marmor',
+      },
+      {
+        en: 'Turkmenistan has some of the world’s largest natural gas reserves',
+        sv: 'Turkmenistan har några av världens största naturgasreserver',
+        es: 'Turkmenistán tiene algunas de las reservas de gas natural más grandes del mundo',
+        fr: 'Le Turkménistan possède certaines des plus grandes réserves de gaz naturel au monde',
+        de: 'Turkmenistan verfügt über einige der größten Erdgasreserven der Welt',
+      },
+      {
+        en: 'The Akhal-Teke horse is a national symbol',
+        sv: 'Akhal-Teke-hästen är en nationell symbol',
+        es: 'El caballo Akhal-Teke es un símbolo nacional',
+        fr: 'Le cheval Akhal-Teke est un symbole national',
+        de: 'Das Achal-Tekkiner Pferd ist ein nationales Symbol',
+      },
+      {
+        en: 'The country was a key region along the ancient Silk Road',
+        sv: 'Landet var en nyckelregion längs den antika sidenvägen',
+        es: 'El país era una región clave a lo largo de la antigua Ruta de la Seda',
+        fr: 'Le pays était une région clé le long de l’ancienne Route de la Soie',
+        de: 'Das Land war eine Schlüsselregion entlang der alten Seidenstraße',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/9553317/pexels-photo-9553317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'turkmenistan-dessert',
-    name: 'Chak-Chak',
-    description:
-      'A traditional Central Asian dessert made from fried dough pieces bound together with honey syrup.',
-    cookingTime: 40,
-    servings: 8,
-    dietType: 'vegetarian',
-    ingredients: [
-      { name: 'All-purpose flour', amount: 300, unit: 'g' },
-      { name: 'Eggs', amount: 3, unit: 'large' },
-      { name: 'Honey', amount: 200, unit: 'g' },
-      { name: 'Sugar', amount: 50, unit: 'g' },
-      { name: 'Vegetable oil (for frying)', amount: 500, unit: 'ml' },
+    foodCulture: 'Turkmen cuisine is based on lamb, rice, bread, and dairy products. Meals are hearty and influenced by nomadic Central Asian traditions, often accompanied by green tea. Hospitality plays an important role in daily life.',
+    history: [
+      {
+        year: '3rd Century BC',
+        title: 'Silk Road Era',
+        description: {
+          en: 'Cities like Merv became major centers of trade, culture, and learning along the Silk Road.',
+          sv: 'Städer som Merv blev stora centra för handel, kultur och lärande längs sidenvägen.',
+          es: 'Ciudades como Merv se convirtieron en importantes centros de comercio, cultura y aprendizaje a lo largo de la Ruta de la Seda.',
+          fr: 'Des villes comme Merv sont devenues des centres majeurs de commerce, de culture et d’apprentissage le long de la Route de la Soie.',
+          de: 'Städte wie Merv wurden zu wichtigen Handels-, Kultur- und Bildungszentren entlang der Seidenstraße.',
+        },
+      },
+      {
+        year: '11th Century',
+        title: 'Seljuk Empire',
+        description: {
+          en: 'The Seljuks ruled much of the region, spreading Turkic culture and Islamic scholarship.',
+          sv: 'Seljukerna styrde stora delar av regionen och spred turkisk kultur och islamisk vetenskap.',
+          es: 'Los selyúcidas gobernaron gran parte de la región y difundieron la cultura turca y la erudición islámica.',
+          fr: 'Les Seldjoukides régnaient sur une grande partie de la région, diffusant la culture turque et l\'érudition islamique.',
+          de: 'Die Seldschuken beherrschten einen Großteil der Region und verbreiteten die türkische Kultur und islamische Gelehrsamkeit.',
+        },
+      },
+      {
+        year: '1881',
+        title: 'Russian Conquest',
+        description: {
+          en: 'The region was absorbed into the Russian Empire after the Battle of Geok Tepe.',
+          sv: 'Regionen absorberades av det ryska imperiet efter slaget vid Geok Tepe.',
+          es: 'La región fue absorbida por el Imperio ruso después de la Batalla de Geok Tepe.',
+          fr: 'La région fut absorbée par l\'Empire russe après la bataille de Geok Tepe.',
+          de: 'Nach der Schlacht von Geok Tepe wurde die Region in das Russische Reich eingegliedert.',
+        },
+      },
+      {
+        year: '1991',
+        title: 'Independence',
+        description: {
+          en: 'Turkmenistan gained independence following the collapse of the Soviet Union.',
+          sv: 'Turkmenistan blev självständigt efter Sovjetunionens kollaps.',
+          es: 'Turkmenistán obtuvo su independencia tras el colapso de la Unión Soviética.',
+          fr: 'Le Turkménistan a obtenu son indépendance après l\'effondrement de l\'Union soviétique.',
+          de: 'Nach dem Zusammenbruch der Sowjetunion erlangte Turkmenistan seine Unabhängigkeit.',
+        },
+      },
     ],
-    steps: [
-      'Mix flour and eggs into a firm dough',
-      'Roll dough thin and cut into small strips or balls',
-      'Deep-fry until golden and crisp',
-      'Heat honey and sugar until smooth',
-      'Pour syrup over fried dough and mix well',
-      'Shape into a mound and let cool before serving',
+    innovations: [
+      {
+        name: {
+          en: 'Turkmen Carpets',
+          sv: 'Turkmenska mattor',
+          es: 'Alfombras turcomanas',
+          fr: 'Tapis turkmènes',
+          de: 'Turkmenische Teppiche',
+        },
+        year: 'Ancient',
+        description: {
+          en: 'Handwoven carpets are a national symbol and are recognized by UNESCO as intangible cultural heritage.',
+          sv: 'Handvävda mattor är en nationell symbol och erkänns av UNESCO som immateriellt kulturarv.',
+          es: 'Las alfombras tejidas a mano son un símbolo nacional y están reconocidas por la UNESCO como patrimonio cultural inmaterial.',
+          fr: 'Les tapis tissés à la main sont un symbole national et sont reconnus par l\'UNESCO comme patrimoine culturel immatériel.',
+          de: 'Handgewebte Teppiche sind ein nationales Symbol und werden von der UNESCO als immaterielles Kulturerbe anerkannt.',
+        },
+      },
+      {
+        name: {
+          en: 'Desert Irrigation Systems',
+          sv: 'Ökenbevattningssystem',
+          es: 'Sistemas de riego del desierto',
+          fr: 'Systèmes d\'irrigation du désert',
+          de: 'Wüstenbewässerungssysteme',
+        },
+        year: '20th Century',
+        description: {
+          en: 'Large-scale irrigation projects transformed arid land for agriculture, especially cotton.',
+          sv: 'Storskaliga bevattningsprojekt förvandlade torr mark för jordbruk, särskilt bomull.',
+          es: 'Los proyectos de riego a gran escala transformaron las tierras áridas para la agricultura, especialmente el algodón.',
+          fr: 'Des projets d\'irrigation à grande échelle ont transformé les terres arides pour l\'agriculture, en particulier le coton.',
+          de: 'Groß angelegte Bewässerungsprojekte verwandelten trockenes Land in die Landwirtschaft, insbesondere für Baumwolle.',
+        },
+      },
+      {
+        name: {
+          en: 'White Marble Urban Design',
+          sv: 'Vit marmor Urban Design',
+          es: 'Diseño urbano de mármol blanco',
+          fr: 'Design urbain en marbre blanc',
+          de: 'Urbanes Design aus weißem Marmor',
+        },
+        year: 'Modern Era',
+        description: {
+          en: 'Ashgabat’s architecture features extensive use of white marble, earning world records.',
+          sv: 'Ashgabats arkitektur har omfattande användning av vit marmor, vilket tjänar världsrekord.',
+          es: 'La arquitectura de Ashgabat presenta un uso extensivo de mármol blanco, lo que le ha valido récords mundiales.',
+          fr: 'L\'architecture d\'Achgabat présente une utilisation intensive du marbre blanc, ce qui lui a valu des records du monde.',
+          de: 'In der Architektur von Aschgabat wurde in großem Umfang weißer Marmor verwendet, was zu Weltrekorden führte.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/10747409/pexels-photo-10747409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Vodka',
-    nonAlcoholic: 'Chal (fermented camel milk), Green tea',
-  },
-
-  music: [
-    'Traditional dutar string music',
-    'Turkmen folk songs',
-    'Epic oral poetry performances',
-  ],
-
-  decorationIdeas: [
-    'Green and red flag colors',
-    'Turkmen carpet patterns',
-    'Desert and oasis imagery',
-    'Akhal-Teke horse motifs',
-  ],
-
-  conversationStarters: [
-    'Have you heard about the Door to Hell crater?',
-    'What do you know about Silk Road cultures?',
-    'Would you visit a desert country like Turkmenistan?',
-  ],
-
-  quiz: [
-    {
-      id: 'turkmenistan-q1',
-      question: 'What is the capital of Turkmenistan?',
-      options: ['Ashgabat', 'Tashkent', 'Bishkek', 'Dushanbe'],
-      correctAnswer: 0,
+    mustVisit: [
+      {
+        name: {
+          en: 'Darvaza Gas Crater',
+          sv: 'Darvaza gaskrater',
+          es: 'Cráter de gas de Darvaza',
+          fr: 'Cratère de gaz Darvaza',
+          de: 'Darvaza-Gaskrater',
+        },
+        description: {
+          en: 'A massive burning natural gas crater in the Karakum Desert, nicknamed the “Door to Hell.”',
+          sv: 'En massiv brinnande naturgaskrater i Karakumöknen, med smeknamnet "Dörren till helvetet".',
+          es: 'Un enorme cráter de gas natural en llamas en el desierto de Karakum, apodado la "Puerta al infierno".',
+          fr: 'Un immense cratère de gaz naturel en feu dans le désert du Karakoum, surnommé la « Porte de l’Enfer ».',
+          de: 'Ein riesiger brennender Erdgaskrater in der Karakum-Wüste, der den Spitznamen „Tor zur Hölle“ trägt.',
+        },
+      },
+      {
+        name: {
+          en: 'Ashgabat',
+          sv: 'Ashgabat',
+          es: 'Asjabad',
+          fr: 'Achgabat',
+          de: 'Aschgabat',
+        },
+        description: {
+          en: 'The capital city known for monumental white-marble buildings and wide boulevards.',
+          sv: 'Huvudstaden känd för monumentala byggnader i vit marmor och breda boulevarder.',
+          es: 'La capital es conocida por sus monumentales edificios de mármol blanco y sus amplios bulevares.',
+          fr: 'La capitale connue pour ses bâtiments monumentaux en marbre blanc et ses larges boulevards.',
+          de: 'Die Hauptstadt ist bekannt für monumentale Gebäude aus weißem Marmor und breite Boulevards.',
+        },
+      },
+      {
+        name: {
+          en: 'Ancient Merv',
+          sv: 'Forntida Merv',
+          es: 'Merv antiguo',
+          fr: 'Merv antique',
+          de: 'Alter Merv',
+        },
+        description: {
+          en: 'A UNESCO World Heritage Site and one of the most important Silk Road cities.',
+          sv: 'En UNESCOs världsarvslista och en av de viktigaste sidenvägsstäderna.',
+          es: 'Patrimonio de la Humanidad por la UNESCO y una de las ciudades más importantes de la Ruta de la Seda.',
+          fr: 'Un site du patrimoine mondial de l\'UNESCO et l\'une des villes les plus importantes de la Route de la Soie.',
+          de: 'Ein UNESCO-Weltkulturerbe und eine der wichtigsten Städte der Seidenstraße.',
+        },
+      },
+      {
+        name: {
+          en: 'Kunya-Urgench',
+          sv: 'Kunya-Urgench',
+          es: 'Kunya-Urgench',
+          fr: 'Kunya-Ourguentch',
+          de: 'Kunya-Urgench',
+        },
+        description: {
+          en: 'Historic ruins of a medieval capital with mausoleums and minarets.',
+          sv: 'Historiska ruiner av en medeltida huvudstad med mausoleer och minareter.',
+          es: 'Ruinas históricas de una capital medieval con mausoleos y minaretes.',
+          fr: 'Ruines historiques d\'une capitale médiévale avec mausolées et minarets.',
+          de: 'Historische Ruinen einer mittelalterlichen Hauptstadt mit Mausoleen und Minaretten.',
+        },
+      },
+      {
+        name: {
+          en: 'Karakum Desert',
+          sv: 'Karakumöknen',
+          es: 'Desierto de Karakum',
+          fr: 'Désert du Karakoum',
+          de: 'Karakum-Wüste',
+        },
+        description: {
+          en: 'One of the largest sand deserts in the world, covering most of the country.',
+          sv: 'En av de största sandöknarna i världen, som täcker större delen av landet.',
+          es: 'Uno de los desiertos de arena más grandes del mundo y cubre la mayor parte del país.',
+          fr: 'L\'un des plus grands déserts de sable au monde, couvrant la majeure partie du pays.',
+          de: 'Eine der größten Sandwüsten der Welt, die den größten Teil des Landes bedeckt.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Visa requirements',
+        description: {
+          en: 'Most visitors require a visa and official invitation; travel planning is essential.',
+          sv: 'De flesta besökare kräver visum och officiell inbjudan; reseplanering är viktigt.',
+          es: 'La mayoría de los visitantes requieren visa e invitación oficial; La planificación del viaje es fundamental.',
+          fr: 'La plupart des visiteurs ont besoin d\'un visa et d\'une invitation officielle ; la planification du voyage est essentielle.',
+          de: 'Die meisten Besucher benötigen ein Visum und eine offizielle Einladung; Reiseplanung ist unerlässlich.',
+        },
+      },
+      {
+        item: 'Best time to visit',
+        description: {
+          en: 'Spring (April–May) and autumn (September–October) offer the most comfortable weather.',
+          sv: 'Våren (april–maj) och hösten (september–oktober) erbjuder det mest behagliga vädret.',
+          es: 'La primavera (abril-mayo) y el otoño (septiembre-octubre) ofrecen el clima más agradable.',
+          fr: 'Le printemps (avril-mai) et l\'automne (septembre-octobre) offrent le climat le plus confortable.',
+          de: 'Das angenehmste Wetter bieten der Frühling (April–Mai) und der Herbst (September–Oktober).',
+        },
+      },
+      {
+        item: 'Getting around',
+        description: {
+          en: 'Travel is controlled; guided tours are common for foreign visitors.',
+          sv: 'Resan är kontrollerad; guidade turer är vanliga för utländska besökare.',
+          es: 'Los viajes están controlados; Las visitas guiadas son habituales para los visitantes extranjeros.',
+          fr: 'Les déplacements sont contrôlés ; les visites guidées sont courantes pour les visiteurs étrangers.',
+          de: 'Reisen werden kontrolliert; Führungen sind für ausländische Besucher üblich.',
+        },
+      },
+      {
+        item: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        description: {
+          en: 'Cash is important; international cards are rarely accepted.',
+          sv: 'Kontanter är viktigt; internationella kort accepteras sällan.',
+          es: 'El efectivo es importante; Rara vez se aceptan tarjetas internacionales.',
+          fr: 'L’argent liquide est important ; les cartes internationales sont rarement acceptées.',
+          de: 'Bargeld ist wichtig; Internationale Karten werden selten akzeptiert.',
+        },
+      },
+      {
+        item: 'Cultural respect',
+        description: {
+          en: 'Modest clothing and respectful behavior are expected, especially outside cities.',
+          sv: 'Anspråkslös klädsel och respektfullt beteende förväntas, särskilt utanför städer.',
+          es: 'Se espera vestimenta modesta y comportamiento respetuoso, especialmente fuera de las ciudades.',
+          fr: 'Des vêtements modestes et un comportement respectueux sont attendus, surtout en dehors des villes.',
+          de: 'Insbesondere außerhalb der Städte werden dezente Kleidung und respektvolles Verhalten erwartet.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'turkmenistan-main',
+      name: {
+        en: 'Plov',
+        sv: 'Plov',
+        es: 'Plov',
+        fr: 'Plov',
+        de: 'Plov',
+      },
+      description: {
+        en: 'Traditional rice pilaf cooked with lamb, carrots, and spices',
+        sv: 'Traditionell rispilaff tillagad med lamm, morötter och kryddor',
+        es: 'Pilaf de arroz tradicional cocinado con cordero, zanahoria y especias',
+        fr: 'Riz pilaf traditionnel cuisiné avec de l\'agneau, des carottes et des épices',
+        de: 'Traditioneller Reispilaf, gekocht mit Lammfleisch, Karotten und Gewürzen',
+      },
+      cookingTime: 90,
+      servings: 6,
+      dietType: {
+        en: 'meat',
+        sv: 'kött',
+        es: 'carne',
+        fr: 'viande',
+        de: 'Fleisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Lamb',
+            sv: 'Lamm',
+            es: 'Cordero',
+            fr: 'Agneau',
+            de: 'Lamm',
+          },
+          amount: 600,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Rice',
+            sv: 'Ris',
+            es: 'Arroz',
+            fr: 'Riz',
+            de: 'Reis',
+          },
+          amount: 500,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Carrots',
+            sv: 'Morötter',
+            es: 'Zanahorias',
+            fr: 'Carottes',
+            de: 'Karotten',
+          },
+          amount: 3,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Onions',
+            sv: 'Lök',
+            es: 'Cebollas',
+            fr: 'Oignons',
+            de: 'Zwiebeln',
+          },
+          amount: 2,
+          unit: {
+            en: 'whole',
+            sv: 'hela',
+            es: 'entero',
+            fr: 'entier',
+            de: 'ganz',
+          },
+        },
+        {
+          name: {
+            en: 'Cumin',
+            sv: 'Kummin',
+            es: 'Comino',
+            fr: 'Cumin',
+            de: 'Kreuzkümmel',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Vegetable oil',
+            sv: 'Vegetabilisk olja',
+            es: 'Aceite vegetal',
+            fr: 'Huile végétale',
+            de: 'Pflanzenöl',
+          },
+          amount: 100,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 1.5,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Heat oil in a large heavy-bottomed pot',
+          sv: 'Värm olja i en stor tjockbottnad gryta',
+          es: 'Calentar aceite en una olla grande de fondo grueso',
+          fr: 'Faites chauffer l\'huile dans une grande casserole à fond épais',
+          de: 'Öl in einem großen Topf mit starkem Boden erhitzen',
+        },
+        {
+          en: 'Brown lamb pieces until well colored',
+          sv: 'Bryn lammbitarna tills de fått fin färg',
+          es: 'Dore los trozos de cordero hasta que estén bien coloreados',
+          fr: 'Faire revenir les morceaux d\'agneau jusqu\'à ce qu\'ils soient bien colorés',
+          de: 'Lammfleischstücke anbraten, bis sie eine schöne Farbe haben',
+        },
+        {
+          en: 'Add sliced onions and cook until soft',
+          sv: 'Lägg i skivad lök och koka tills den är mjuk',
+          es: 'Agregue las cebollas en rodajas y cocine hasta que estén suaves',
+          fr: 'Ajouter les oignons émincés et cuire jusqu\'à ce qu\'ils soient tendres',
+          de: 'In Scheiben geschnittene Zwiebeln dazugeben und weich kochen',
+        },
+        {
+          en: 'Stir in julienned carrots and cumin',
+          sv: 'Rör i julienned morötter och spiskummin',
+          es: 'Agregue las zanahorias cortadas en juliana y el comino',
+          fr: 'Incorporer les carottes en julienne et le cumin',
+          de: 'Julienne-Karotten und Kreuzkümmel unterrühren',
+        },
+        {
+          en: 'Add water to cover meat and simmer for 30 minutes',
+          sv: 'Tillsätt vatten så att köttet täcker och låt sjuda i 30 minuter',
+          es: 'Agregue agua para cubrir la carne y cocine a fuego lento durante 30 minutos',
+          fr: 'Ajouter de l\'eau pour couvrir la viande et laisser mijoter pendant 30 minutes',
+          de: 'Wasser hinzufügen, bis das Fleisch bedeckt ist, und 30 Minuten köcheln lassen',
+        },
+        {
+          en: 'Spread rinsed rice evenly on top without stirring',
+          sv: 'Fördela det sköljda riset jämnt ovanpå utan att röra om',
+          es: 'Extienda el arroz enjuagado uniformemente encima sin revolver.',
+          fr: 'Répartir uniformément le riz rincé sans remuer.',
+          de: 'Den abgespülten Reis ohne Rühren gleichmäßig darauf verteilen',
+        },
+        {
+          en: 'Cover and steam until rice is tender and liquid absorbed',
+          sv: 'Täck över och ånga tills riset är mört och vätskan absorberats',
+          es: 'Cubra y cocine al vapor hasta que el arroz esté tierno y se absorba el líquido',
+          fr: 'Couvrir et cuire à la vapeur jusqu\'à ce que le riz soit tendre et que le liquide soit absorbé',
+          de: 'Abdecken und dämpfen, bis der Reis weich ist und die Flüssigkeit aufgesogen ist',
+        },
+        {
+          en: 'Fluff gently before serving',
+          sv: 'Fluffa försiktigt före servering',
+          es: 'Revuelva suavemente antes de servir',
+          fr: 'Remuez doucement avant de servir',
+          de: 'Vor dem Servieren vorsichtig auflockern',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/9553317/pexels-photo-9553317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'turkmenistan-q2',
-      question: 'Which desert covers most of Turkmenistan?',
-      options: ['Gobi', 'Karakum', 'Taklamakan', 'Sahara'],
-      correctAnswer: 1,
+    dessert: {
+      id: 'turkmenistan-dessert',
+      name: {
+        en: 'Chak-Chak',
+        sv: 'Chak-Chak',
+        es: 'Chak Chak',
+        fr: 'Chak-Chak',
+        de: 'Chak-Chak',
+      },
+      description: {
+        en: 'A traditional Central Asian dessert made from fried dough pieces bound together with honey syrup.',
+        sv: 'En traditionell centralasiatisk dessert gjord av stekta degbitar sammanbundna med honungssirap.',
+        es: 'Un postre tradicional de Asia Central elaborado con trozos de masa frita unidos con almíbar de miel.',
+        fr: 'Un dessert traditionnel d\'Asie centrale à base de morceaux de pâte frits liés ensemble avec du sirop de miel.',
+        de: 'Ein traditionelles zentralasiatisches Dessert aus frittierten Teigstücken, die mit Honigsirup zusammengebunden werden.',
+      },
+      cookingTime: 40,
+      servings: 8,
+      dietType: {
+        en: 'vegetarian',
+        sv: 'vegetarisk',
+        es: 'vegetariano',
+        fr: 'végétarien',
+        de: 'vegetarisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'All-purpose flour',
+            sv: 'Mjöl för alla ändamål',
+            es: 'Harina para todo uso',
+            fr: 'Farine tout usage',
+            de: 'Allzweckmehl',
+          },
+          amount: 300,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Eggs',
+            sv: 'Ägg',
+            es: 'Huevos',
+            fr: 'Oeufs',
+            de: 'Eier',
+          },
+          amount: 3,
+          unit: {
+            en: 'large',
+            sv: 'stor',
+            es: 'grande',
+            fr: 'grand',
+            de: 'groß',
+          },
+        },
+        {
+          name: {
+            en: 'Honey',
+            sv: 'Älskling',
+            es: 'Miel',
+            fr: 'Miel',
+            de: 'Schatz',
+          },
+          amount: 200,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Sugar',
+            sv: 'Socker',
+            es: 'Azúcar',
+            fr: 'Sucre',
+            de: 'Zucker',
+          },
+          amount: 50,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Vegetable oil (for frying)',
+            sv: 'Vegetabilisk olja (för stekning)',
+            es: 'Aceite vegetal (para freír)',
+            fr: 'Huile végétale (pour la friture)',
+            de: 'Pflanzenöl (zum Braten)',
+          },
+          amount: 500,
+          unit: 'ml',
+        },
+      ],
+      steps: [
+        {
+          en: 'Mix flour and eggs into a firm dough',
+          sv: 'Blanda mjöl och ägg till en fast deg',
+          es: 'Mezcle la harina y los huevos hasta obtener una masa firme',
+          fr: 'Mélanger la farine et les œufs pour obtenir une pâte ferme',
+          de: 'Mehl und Eier zu einem festen Teig verrühren',
+        },
+        {
+          en: 'Roll dough thin and cut into small strips or balls',
+          sv: 'Rulla degen tunn och skär i små remsor eller bollar',
+          es: 'Enrolle la masa hasta que quede fina y córtela en tiras o bolitas pequeñas',
+          fr: 'Abaisser la pâte finement et la couper en petites bandes ou boules',
+          de: 'Den Teig dünn ausrollen und in kleine Streifen oder Kugeln schneiden',
+        },
+        {
+          en: 'Deep-fry until golden and crisp',
+          sv: 'Fritera tills de är gyllene och knapriga',
+          es: 'Freír hasta que estén dorados y crujientes',
+          fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés et croustillants',
+          de: 'Frittieren, bis es goldbraun und knusprig ist',
+        },
+        {
+          en: 'Heat honey and sugar until smooth',
+          sv: 'Värm honung och socker tills det är slätt',
+          es: 'Calienta la miel y el azúcar hasta que quede suave',
+          fr: 'Chauffer le miel et le sucre jusqu\'à consistance lisse',
+          de: 'Honig und Zucker erhitzen, bis eine glatte Masse entsteht',
+        },
+        {
+          en: 'Pour syrup over fried dough and mix well',
+          sv: 'Häll sirap över stekt deg och blanda väl',
+          es: 'Vierta el almíbar sobre la masa frita y mezcle bien',
+          fr: 'Verser le sirop sur la pâte frite et bien mélanger',
+          de: 'Sirup über den frittierten Teig gießen und gut vermischen',
+        },
+        {
+          en: 'Shape into a mound and let cool before serving',
+          sv: 'Forma till en hög och låt svalna innan servering',
+          es: 'Forme un montículo y déjelo enfriar antes de servir',
+          fr: 'Formez un monticule et laissez refroidir avant de servir',
+          de: 'Zu einem Hügel formen und vor dem Servieren abkühlen lassen',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/10747409/pexels-photo-10747409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'turkmenistan-q3',
-      question: 'What natural gas site is nicknamed the “Door to Hell”?',
-      options: ['Kyzylkum', 'Darvaza crater', 'Ustyurt Plateau', 'Kopet Dag'],
-      correctAnswer: 1,
+    drinks: {
+      alcoholic: 'Vodka',
+      nonAlcoholic: 'Chal (fermented camel milk), Green tea',
     },
-    {
-      id: 'turkmenistan-q4',
-      question: 'Which animal is a national symbol of Turkmenistan?',
-      options: ['Camel', 'Horse', 'Eagle', 'Wolf'],
-      correctAnswer: 1,
+    music: [
+      'Traditional dutar string music',
+      'Turkmen folk songs',
+      'Epic oral poetry performances',
+    ],
+    decorationIdeas: [
+      'Green and red flag colors',
+      'Turkmen carpet patterns',
+      'Desert and oasis imagery',
+      'Akhal-Teke horse motifs',
+    ],
+    conversationStarters: [
+      'Have you heard about the Door to Hell crater?',
+      'What do you know about Silk Road cultures?',
+      'Would you visit a desert country like Turkmenistan?',
+    ],
+    quiz: [
+      {
+        id: 'turkmenistan-q1',
+        question: {
+          en: 'What is the capital of Turkmenistan?',
+          sv: 'Vad är huvudstaden i Turkmenistan?',
+          es: '¿Cuál es la capital de Turkmenistán?',
+          fr: 'Quelle est la capitale du Turkménistan ?',
+          de: 'Was ist die Hauptstadt Turkmenistans?',
+        },
+        options: [
+          {
+            en: 'Ashgabat',
+            sv: 'Ashgabat',
+            es: 'Asjabad',
+            fr: 'Achgabat',
+            de: 'Aschgabat',
+          },
+          {
+            en: 'Tashkent',
+            sv: 'Tasjkent',
+            es: 'Taskent',
+            fr: 'Tachkent',
+            de: 'Taschkent',
+          },
+          {
+            en: 'Bishkek',
+            sv: 'Bisjkek',
+            es: 'Biskek',
+            fr: 'Bichkek',
+            de: 'Bischkek',
+          },
+          {
+            en: 'Dushanbe',
+            sv: 'Dushanbe',
+            es: 'Dusambé',
+            fr: 'Douchanbé',
+            de: 'Duschanbe',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'turkmenistan-q2',
+        question: {
+          en: 'Which desert covers most of Turkmenistan?',
+          sv: 'Vilken öken täcker större delen av Turkmenistan?',
+          es: '¿Qué desierto cubre la mayor parte de Turkmenistán?',
+          fr: 'Quel désert couvre la majeure partie du Turkménistan ?',
+          de: 'Welche Wüste bedeckt den größten Teil Turkmenistans?',
+        },
+        options: [
+          {
+            en: 'Gobi',
+            sv: 'Gobi',
+            es: 'Gobi',
+            fr: 'Gobi',
+            de: 'Gobi',
+          },
+          {
+            en: 'Karakum',
+            sv: 'Karakum',
+            es: 'Karakum',
+            fr: 'Karakoum',
+            de: 'Karakum',
+          },
+          {
+            en: 'Taklamakan',
+            sv: 'Taklamakan',
+            es: 'Taklamakán',
+            fr: 'Taklamakan',
+            de: 'Taklamakan',
+          },
+          {
+            en: 'Sahara',
+            sv: 'Sahara',
+            es: 'Sáhara',
+            fr: 'Sahara',
+            de: 'Sahara',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'turkmenistan-q3',
+        question: {
+          en: 'What natural gas site is nicknamed the “Door to Hell”?',
+          sv: 'Vilken naturgasplats har smeknamnet "Dörren till helvetet"?',
+          es: '¿Qué sitio de gas natural recibe el sobrenombre de “Puerta al infierno”?',
+          fr: 'Quel site de gaz naturel est surnommé la « Porte de l’Enfer » ?',
+          de: 'Welcher Erdgasstandort trägt den Spitznamen „Tor zur Hölle“?',
+        },
+        options: [
+          {
+            en: 'Kyzylkum',
+            sv: 'Kyzylkum',
+            es: 'Kyzylkum',
+            fr: 'Kyzylkoum',
+            de: 'Kyzylkum',
+          },
+          {
+            en: 'Darvaza crater',
+            sv: 'Darvaza krater',
+            es: 'Cráter de Darvaza',
+            fr: 'Cratère Darvaza',
+            de: 'Darvaza-Krater',
+          },
+          {
+            en: 'Ustyurt Plateau',
+            sv: 'Ustyurt Plateau',
+            es: 'Meseta de Ustyurt',
+            fr: 'Plateau d\'Oustyurt',
+            de: 'Ustjurt-Plateau',
+          },
+          {
+            en: 'Kopet Dag',
+            sv: 'Kopet Dag',
+            es: 'Kopet Dag',
+            fr: 'Kopet Dag',
+            de: 'Kopet Dag',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'turkmenistan-q4',
+        question: {
+          en: 'Which animal is a national symbol of Turkmenistan?',
+          sv: 'Vilket djur är en nationalsymbol för Turkmenistan?',
+          es: '¿Qué animal es el símbolo nacional de Turkmenistán?',
+          fr: 'Quel animal est un symbole national du Turkménistan ?',
+          de: 'Welches Tier ist ein Nationalsymbol Turkmenistans?',
+        },
+        options: [
+          {
+            en: 'Camel',
+            sv: 'Kamel',
+            es: 'Camello',
+            fr: 'Chameau',
+            de: 'Kamel',
+          },
+          {
+            en: 'Horse',
+            sv: 'Häst',
+            es: 'Caballo',
+            fr: 'Cheval',
+            de: 'Pferd',
+          },
+          {
+            en: 'Eagle',
+            sv: 'Örn',
+            es: 'Águila',
+            fr: 'Aigle',
+            de: 'Adler',
+          },
+          {
+            en: 'Wolf',
+            sv: 'Varg',
+            es: 'Lobo',
+            fr: 'Loup',
+            de: 'Wolf',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'turkmenistan-q5',
+        question: {
+          en: 'What is the official language of Turkmenistan?',
+          sv: 'Vilket är det officiella språket i Turkmenistan?',
+          es: '¿Cuál es el idioma oficial de Turkmenistán?',
+          fr: 'Quelle est la langue officielle du Turkménistan ?',
+          de: 'Was ist die Amtssprache Turkmenistans?',
+        },
+        options: [
+          {
+            en: 'Russian',
+            sv: 'Ryska',
+            es: 'ruso',
+            fr: 'Russe',
+            de: 'Russisch',
+          },
+          {
+            en: 'Uzbek',
+            sv: 'uzbekiska',
+            es: 'uzbeko',
+            fr: 'Ouzbek',
+            de: 'Usbekisch',
+          },
+          {
+            en: 'Turkmen',
+            sv: 'Turkmeniska',
+            es: 'turcomano',
+            fr: 'Turkmènes',
+            de: 'Turkmenisch',
+          },
+          {
+            en: 'Kazakh',
+            sv: 'Kazakiska',
+            es: 'kazajo',
+            fr: 'Kazakh',
+            de: 'Kasachisch',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'turkmenistan-q6',
+        question: {
+          en: 'Which material dominates Ashgabat’s architecture?',
+          sv: 'Vilket material dominerar Ashgabats arkitektur?',
+          es: '¿Qué material domina la arquitectura de Ashgabat?',
+          fr: 'Quel matériau domine l’architecture d’Achgabat ?',
+          de: 'Welches Material dominiert die Architektur von Aschgabat?',
+        },
+        options: [
+          {
+            en: 'Granite',
+            sv: 'Granit',
+            es: 'Granito',
+            fr: 'Granit',
+            de: 'Granit',
+          },
+          {
+            en: 'Concrete',
+            sv: 'Betong',
+            es: 'Concreto',
+            fr: 'Béton',
+            de: 'Beton',
+          },
+          {
+            en: 'White marble',
+            sv: 'Vit marmor',
+            es: 'Mármol blanco',
+            fr: 'Marbre blanc',
+            de: 'Weißer Marmor',
+          },
+          {
+            en: 'Sandstone',
+            sv: 'Sandsten',
+            es: 'Arenisca',
+            fr: 'Grès',
+            de: 'Sandstein',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'turkmenistan-q7',
+        question: {
+          en: 'Turkmenistan is especially rich in which natural resource?',
+          sv: 'Turkmenistan är särskilt rikt på vilken naturresurs?',
+          es: '¿En qué recurso natural Turkmenistán es especialmente rico?',
+          fr: 'De quelle ressource naturelle le Turkménistan est-il particulièrement riche ?',
+          de: 'An welchen natürlichen Ressourcen ist Turkmenistan besonders reich?',
+        },
+        options: [
+          {
+            en: 'Oil',
+            sv: 'Olja',
+            es: 'Petróleo',
+            fr: 'Pétrole',
+            de: 'Öl',
+          },
+          {
+            en: 'Coal',
+            sv: 'Kol',
+            es: 'Carbón',
+            fr: 'Charbon',
+            de: 'Kohle',
+          },
+          {
+            en: 'Natural gas',
+            sv: 'Naturgas',
+            es: 'Gas natural',
+            fr: 'Gaz naturel',
+            de: 'Erdgas',
+          },
+          {
+            en: 'Uranium',
+            sv: 'Uran',
+            es: 'Uranio',
+            fr: 'Uranium',
+            de: 'Uran',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'turkmenistan-q8',
+        question: {
+          en: 'Plov is mainly made from which ingredient?',
+          sv: 'Plov tillverkas huvudsakligen av vilken ingrediens?',
+          es: '¿De qué ingrediente se elabora principalmente el plov?',
+          fr: 'Le plov est principalement fabriqué à partir de quel ingrédient ?',
+          de: 'Aus welcher Zutat wird Plov hauptsächlich hergestellt?',
+        },
+        options: [
+          {
+            en: 'Wheat',
+            sv: 'Vete',
+            es: 'Trigo',
+            fr: 'Blé',
+            de: 'Weizen',
+          },
+          {
+            en: 'Rice',
+            sv: 'Ris',
+            es: 'Arroz',
+            fr: 'Riz',
+            de: 'Reis',
+          },
+          {
+            en: 'Millet',
+            sv: 'Hirs',
+            es: 'Mijo',
+            fr: 'Millet',
+            de: 'Hirse',
+          },
+          {
+            en: 'Corn',
+            sv: 'Majs',
+            es: 'Maíz',
+            fr: 'Maïs',
+            de: 'Mais',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'turkmenistan-q9',
+        question: {
+          en: 'What ancient trade route passed through Turkmenistan?',
+          sv: 'Vilken forntida handelsväg gick genom Turkmenistan?',
+          es: '¿Qué antigua ruta comercial pasaba por Turkmenistán?',
+          fr: 'Quelle ancienne route commerciale traversait le Turkménistan ?',
+          de: 'Welche alte Handelsroute führte durch Turkmenistan?',
+        },
+        options: [
+          {
+            en: 'Amber Road',
+            sv: 'Amber Road',
+            es: 'Camino ámbar',
+            fr: 'Route de l\'Ambre',
+            de: 'Bernsteinstraße',
+          },
+          {
+            en: 'Spice Route',
+            sv: 'Kryddväg',
+            es: 'Ruta de las Especias',
+            fr: 'Route des épices',
+            de: 'Gewürzroute',
+          },
+          {
+            en: 'Silk Road',
+            sv: 'Sidenvägen',
+            es: 'Ruta de la Seda',
+            fr: 'Route de la Soie',
+            de: 'Seidenstraße',
+          },
+          {
+            en: 'Royal Road',
+            sv: 'Royal Road',
+            es: 'Camino Real',
+            fr: 'Route Royale',
+            de: 'Königsstraße',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'turkmenistan-q10',
+        question: {
+          en: 'Which region best describes Turkmenistan?',
+          sv: 'Vilken region beskriver Turkmenistan bäst?',
+          es: '¿Qué región describe mejor a Turkmenistán?',
+          fr: 'Quelle région décrit le mieux le Turkménistan ?',
+          de: 'Welche Region beschreibt Turkmenistan am besten?',
+        },
+        options: [
+          {
+            en: 'Middle East',
+            sv: 'Mellanöstern',
+            es: 'Medio Oriente',
+            fr: 'Moyen-Orient',
+            de: 'Naher Osten',
+          },
+          {
+            en: 'Eastern Europe',
+            sv: 'Östeuropa',
+            es: 'Europa del Este',
+            fr: 'Europe de l\'Est',
+            de: 'Osteuropa',
+          },
+          {
+            en: 'Central Asia',
+            sv: 'Centralasien',
+            es: 'Asia Central',
+            fr: 'Asie centrale',
+            de: 'Zentralasien',
+          },
+          {
+            en: 'South Asia',
+            sv: 'Sydasien',
+            es: 'Asia del Sur',
+            fr: 'Asie du Sud',
+            de: 'Südasien',
+          },
+        ],
+        correctAnswer: 2,
+      },
+    ],
+    coordinates: {
+      x: 62,
+      y: 42,
     },
-    {
-      id: 'turkmenistan-q5',
-      question: 'What is the official language of Turkmenistan?',
-      options: ['Russian', 'Uzbek', 'Turkmen', 'Kazakh'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'turkmenistan-q6',
-      question: 'Which material dominates Ashgabat’s architecture?',
-      options: ['Granite', 'Concrete', 'White marble', 'Sandstone'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'turkmenistan-q7',
-      question: 'Turkmenistan is especially rich in which natural resource?',
-      options: ['Oil', 'Coal', 'Natural gas', 'Uranium'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'turkmenistan-q8',
-      question: 'Plov is mainly made from which ingredient?',
-      options: ['Wheat', 'Rice', 'Millet', 'Corn'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'turkmenistan-q9',
-      question: 'What ancient trade route passed through Turkmenistan?',
-      options: ['Amber Road', 'Spice Route', 'Silk Road', 'Royal Road'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'turkmenistan-q10',
-      question: 'Which region best describes Turkmenistan?',
-      options: ['Middle East', 'Eastern Europe', 'Central Asia', 'South Asia'],
-      correctAnswer: 2,
-    },
-  ],
-
-  coordinates: { x: 62, y: 42 },
-};
+  };

@@ -1,294 +1,1163 @@
 import { Country } from '@/types';
 
 export const sanMarino: Country = {
-  id: 'san-marino',
-  name: 'San Marino',
-  code: 'SM',
-  continent: 'Europe',
-  flag: '🇸🇲',
-  landscapeImage: 'https://images.unsplash.com/photo-1592303637753-ce1e6b8a0ffb?w=800&q=80',
-  description:
-    'San Marino is one of the world’s oldest republics, a microstate completely surrounded by Italy. It is known for medieval fortresses, mountain views, and a strong tradition of independence.',
-  quickFacts: [
-    { label: 'Capital', value: 'City of San Marino' },
-    { label: 'Population', value: '34,000' },
-    { label: 'Official Language', value: 'Italian' },
-    { label: 'Currency', value: 'Euro (€)' },
-    { label: 'Area', value: '61 km²' },
-  ],
-  facts: [
-    'Founded in 301 AD, making it one of the oldest republics in the world',
-    'Completely surrounded by Italy',
-    'Never officially part of unified Italy',
-    'Has its own constitution dating back to 1600',
-    'UNESCO-listed historic center and Mount Titano',
-    'Has no national debt',
-    'Issues its own euro coins with unique designs',
-    'Maintains its own Olympic team',
-  ],
-  foodCulture:
-    'Sammarinese cuisine closely resembles central Italian cooking, with pasta, meats, cheeses, and desserts. Local recipes emphasize simplicity, seasonal ingredients, and traditional techniques passed down through generations.',
-
-  history: [
-    {
-      year: '301 AD',
-      title: 'Foundation of San Marino',
-      description:
-        'According to tradition, the stonemason Marinus founded a small Christian community on Mount Titano.',
+    id: 'san-marino',
+    name: {
+      en: 'San Marino',
+      sv: 'San Marino',
+      es: 'San Marino',
+      fr: 'Saint-Marin',
+      de: 'San Marino',
     },
-    {
-      year: 'Middle Ages',
-      title: 'Medieval Independence',
-      description:
-        'San Marino developed self-governing institutions while surrounding regions fell under feudal control.',
+    code: 'SM',
+    continent: {
+      en: 'Europe',
+      sv: 'Europa',
+      es: 'Europa',
+      fr: 'Europe',
+      de: 'Europa',
     },
-    {
-      year: '1600',
-      title: 'Written Constitution',
-      description:
-        'San Marino adopted a written constitution that is still partially in force today.',
+    flag: '🇸🇲',
+    landscapeImage: 'https://images.unsplash.com/photo-1592303637753-ce1e6b8a0ffb?w=800&q=80',
+    description: {
+      en: 'San Marino is one of the world’s oldest republics, a microstate completely surrounded by Italy. It is known for medieval fortresses, mountain views, and a strong tradition of independence.',
+      sv: 'San Marino är en av världens äldsta republiker, en mikrostat helt omgiven av Italien. Det är känt för medeltida fästningar, utsikt över bergen och en stark tradition av självständighet.',
+      es: 'San Marino es una de las repúblicas más antiguas del mundo, un microestado completamente rodeado por Italia. Es conocido por sus fortalezas medievales, sus vistas a las montañas y una fuerte tradición de independencia.',
+      fr: 'Saint-Marin est l’une des plus anciennes républiques du monde, un micro-État entièrement entouré par l’Italie. Elle est connue pour ses forteresses médiévales, ses vues sur les montagnes et sa forte tradition d\'indépendance.',
+      de: 'San Marino ist eine der ältesten Republiken der Welt, ein Mikrostaat, der vollständig von Italien umgeben ist. Es ist bekannt für mittelalterliche Festungen, Ausblicke auf die Berge und eine starke Tradition der Unabhängigkeit.',
     },
-    {
-      year: '1800s',
-      title: 'Italian Unification',
-      description:
-        'San Marino retained independence during the unification of Italy.',
-    },
-    {
-      year: '1944',
-      title: 'World War II Neutrality',
-      description:
-        'The republic declared neutrality but briefly experienced occupation.',
-    },
-    {
-      year: 'Modern Era',
-      title: 'Tourism and Stability',
-      description:
-        'Today San Marino is a peaceful republic focused on tourism, finance, and heritage preservation.',
-    },
-  ],
-
-  innovations: [
-    {
-      name: 'Republican Governance',
-      year: '301 AD',
-      description:
-        'One of the earliest continuous republican systems of government in the world.',
-    },
-    {
-      name: 'Dual Heads of State',
-      year: '1243',
-      description:
-        'San Marino pioneered the system of two Captains Regent ruling jointly to prevent concentration of power.',
-    },
-    {
-      name: 'Historic Constitution',
-      year: '1600',
-      description:
-        'One of the oldest surviving written constitutions still influencing governance today.',
-    },
-  ],
-
-  mustVisit: [
-    {
-      name: 'Mount Titano',
-      description:
-        'UNESCO World Heritage mountain offering panoramic views over Italy and the Adriatic.',
-    },
-    {
-      name: 'Guaita Tower',
-      description:
-        'The oldest and most iconic of San Marino’s three fortress towers.',
-    },
-    {
-      name: 'Cesta Tower',
-      description:
-        'A medieval fortress housing the Museum of Ancient Weapons.',
-    },
-    {
-      name: 'Historic Centre',
-      description:
-        'Cobblestone streets, medieval buildings, and city walls.',
-    },
-    {
-      name: 'Basilica of San Marino',
-      description:
-        'Neoclassical church dedicated to the republic’s founder.',
-    },
-  ],
-
-  travelEssentials: [
-    {
-      item: 'Best time to visit',
-      description:
-        'April to October for mild weather and clear views.',
-    },
-    {
-      item: 'Getting there',
-      description:
-        'Accessible via Italy, typically from Rimini.',
-    },
-    {
-      item: 'Walking terrain',
-      description:
-        'Steep streets and stairs; comfortable shoes recommended.',
-    },
-    {
-      item: 'Currency',
-      description:
-        'Euro is used; San Marino mints collectible euro coins.',
-    },
-    {
-      item: 'Passports',
-      description:
-        'Optional souvenir passport stamps available for visitors.',
-    },
-  ],
-
-  mainDish: {
-    id: 'san-marino-main',
-    name: 'Nidi di Rondine',
-    description:
-      'Baked pasta rolls filled with ham, cheese, and béchamel sauce.',
-    cookingTime: 75,
-    servings: 4,
-    dietType: 'meat',
-    ingredients: [
-      { name: 'Lasagna sheets', amount: 250, unit: 'g' },
-      { name: 'Cooked ham', amount: 150, unit: 'g' },
-      { name: 'Mozzarella', amount: 200, unit: 'g' },
-      { name: 'Parmesan cheese', amount: 60, unit: 'g' },
-      { name: 'Butter', amount: 50, unit: 'g' },
-      { name: 'Flour', amount: 40, unit: 'g' },
-      { name: 'Milk', amount: 500, unit: 'ml' },
-      { name: 'Nutmeg', amount: 0.5, unit: 'tsp' },
-      { name: 'Salt', amount: 1, unit: 'tsp' },
+    quickFacts: [
+      {
+        label: {
+          en: 'Capital',
+          sv: 'Kapital',
+          es: 'Capital',
+          fr: 'Capitale',
+          de: 'Kapital',
+        },
+        value: {
+          en: 'City of San Marino',
+          sv: 'Staden San Marino',
+          es: 'Ciudad de San Marino',
+          fr: 'Ville de Saint-Marin',
+          de: 'Stadt San Marino',
+        },
+      },
+      {
+        label: {
+          en: 'Population',
+          sv: 'Befolkning',
+          es: 'Población',
+          fr: 'Population',
+          de: 'Bevölkerung',
+        },
+        value: {
+          en: '34,000',
+          sv: '34 000',
+          es: '34.000',
+          fr: '34 000',
+          de: '34.000',
+        },
+      },
+      {
+        label: {
+          en: 'Official Language',
+          sv: 'Officiellt språk',
+          es: 'Idioma oficial',
+          fr: 'Langue officielle',
+          de: 'Amtssprache',
+        },
+        value: {
+          en: 'Italian',
+          sv: 'Italienska',
+          es: 'italiano',
+          fr: 'Italien',
+          de: 'Italienisch',
+        },
+      },
+      {
+        label: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        value: {
+          en: 'Euro (€)',
+          sv: 'Euro (€)',
+          es: 'Euros (€)',
+          fr: 'euros (€)',
+          de: 'Euro (€)',
+        },
+      },
+      {
+        label: {
+          en: 'Area',
+          sv: 'Område',
+          es: 'Área',
+          fr: 'Superficie',
+          de: 'Fläche',
+        },
+        value: {
+          en: '61 km²',
+          sv: '61 km²',
+          es: '61 km²',
+          fr: '61 km²',
+          de: '61 km²',
+        },
+      },
     ],
-    steps: [
-      'Prepare béchamel: melt butter, add flour, cook 1 minute.',
-      'Whisk in milk gradually and cook until thick.',
-      'Season with salt and nutmeg.',
-      'Boil lasagna sheets briefly and lay flat.',
-      'Top with ham, mozzarella, and béchamel.',
-      'Roll tightly and slice into nests.',
-      'Place in baking dish, cover with béchamel and parmesan.',
-      'Bake at 180C for 30–35 minutes until golden.',
+    facts: [
+      {
+        en: 'Founded in 301 AD, making it one of the oldest republics in the world',
+        sv: 'Grundades 301 AD, vilket gör den till en av de äldsta republikerna i världen',
+        es: 'Fundada en el año 301 d.C., lo que la convierte en una de las repúblicas más antiguas del mundo',
+        fr: 'Fondée en 301 après JC, ce qui en fait l\'une des plus anciennes républiques du monde',
+        de: 'Gegründet im Jahr 301 n. Chr. und damit eine der ältesten Republiken der Welt',
+      },
+      {
+        en: 'Completely surrounded by Italy',
+        sv: 'Helt omgiven av Italien',
+        es: 'Completamente rodeado por Italia',
+        fr: 'Complètement entouré par l\'Italie',
+        de: 'Komplett von Italien umgeben',
+      },
+      {
+        en: 'Never officially part of unified Italy',
+        sv: 'Aldrig officiellt en del av det enade Italien',
+        es: 'Nunca oficialmente formó parte de la Italia unificada',
+        fr: 'N\'a jamais officiellement fait partie de l\'Italie unifiée',
+        de: 'Nie offiziell Teil des vereinten Italiens',
+      },
+      {
+        en: 'Has its own constitution dating back to 1600',
+        sv: 'Har sin egen konstitution som går tillbaka till 1600',
+        es: 'Tiene su propia constitución que data de 1600',
+        fr: 'Possède sa propre constitution datant de 1600',
+        de: 'Hat eine eigene Verfassung aus dem Jahr 1600',
+      },
+      {
+        en: 'UNESCO-listed historic center and Mount Titano',
+        sv: 'UNESCO-listade historiska centrum och berget Titano',
+        es: 'Centro histórico declarado Patrimonio de la Humanidad por la UNESCO y Monte Titano',
+        fr: 'Centre historique classé par l\'UNESCO et Mont Titano',
+        de: 'UNESCO-geschütztes historisches Zentrum und Monte Titano',
+      },
+      {
+        en: 'Has no national debt',
+        sv: 'Har ingen statsskuld',
+        es: 'No tiene deuda nacional',
+        fr: 'N\'a pas de dette nationale',
+        de: 'Hat keine Staatsschulden',
+      },
+      {
+        en: 'Issues its own euro coins with unique designs',
+        sv: 'Ger ut egna euromynt med unik design',
+        es: 'Emite sus propias monedas de euro con diseños únicos',
+        fr: 'Émet ses propres pièces en euros avec des motifs uniques',
+        de: 'Gibt eigene Euro-Münzen mit einzigartigen Designs aus',
+      },
+      {
+        en: 'Maintains its own Olympic team',
+        sv: 'Behåller sitt eget OS-lag',
+        es: 'Mantiene su propio equipo olímpico',
+        fr: 'Maintient sa propre équipe olympique',
+        de: 'Unterhält eine eigene Olympiamannschaft',
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/20545316/pexels-photo-20545316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  dessert: {
-    id: 'san-marino-dessert',
-    name: 'Torta Tre Monti',
-    description:
-      'Layered wafer cake with chocolate and hazelnut cream inspired by the Three Towers.',
-    cookingTime: 60,
-    servings: 8,
-    dietType: 'vegetarian',
-    ingredients: [
-      { name: 'Wafer sheets', amount: 15, unit: 'pieces' },
-      { name: 'Hazelnut cream', amount: 300, unit: 'g' },
-      { name: 'Dark chocolate', amount: 200, unit: 'g' },
-      { name: 'Butter', amount: 40, unit: 'g' },
+    foodCulture: 'Sammarinese cuisine closely resembles central Italian cooking, with pasta, meats, cheeses, and desserts. Local recipes emphasize simplicity, seasonal ingredients, and traditional techniques passed down through generations.',
+    history: [
+      {
+        year: {
+          en: '301 AD',
+          sv: '301 AD',
+          es: '301 d.C.',
+          fr: '301 après JC',
+          de: '301 n. Chr.',
+        },
+        title: 'Foundation of San Marino',
+        description: {
+          en: 'According to tradition, the stonemason Marinus founded a small Christian community on Mount Titano.',
+          sv: 'Enligt traditionen grundade stenhuggaren Marinus ett litet kristet samfund på berget Titano.',
+          es: 'Según la tradición, el cantero Marinus fundó una pequeña comunidad cristiana en el monte Titano.',
+          fr: 'Selon la tradition, le tailleur de pierre Marinus fonda une petite communauté chrétienne sur le Mont Titano.',
+          de: 'Der Überlieferung nach gründete der Steinmetz Marinus eine kleine christliche Gemeinde auf dem Monte Titano.',
+        },
+      },
+      {
+        year: 'Middle Ages',
+        title: 'Medieval Independence',
+        description: {
+          en: 'San Marino developed self-governing institutions while surrounding regions fell under feudal control.',
+          sv: 'San Marino utvecklade självstyrande institutioner medan omgivande regioner föll under feodal kontroll.',
+          es: 'San Marino desarrolló instituciones autónomas mientras las regiones circundantes caían bajo control feudal.',
+          fr: 'Saint-Marin a développé des institutions autonomes tandis que les régions environnantes tombaient sous contrôle féodal.',
+          de: 'San Marino entwickelte selbstverwaltete Institutionen, während die umliegenden Regionen unter feudale Kontrolle fielen.',
+        },
+      },
+      {
+        year: '1600',
+        title: 'Written Constitution',
+        description: {
+          en: 'San Marino adopted a written constitution that is still partially in force today.',
+          sv: 'San Marino antog en skriven konstitution som fortfarande delvis är i kraft idag.',
+          es: 'San Marino adoptó una constitución escrita que todavía está parcialmente en vigor.',
+          fr: 'Saint-Marin a adopté une constitution écrite qui est encore partiellement en vigueur aujourd\'hui.',
+          de: 'San Marino verabschiedete eine schriftliche Verfassung, die teilweise noch heute in Kraft ist.',
+        },
+      },
+      {
+        year: '1800s',
+        title: 'Italian Unification',
+        description: {
+          en: 'San Marino retained independence during the unification of Italy.',
+          sv: 'San Marino behöll självständighet under Italiens enande.',
+          es: 'San Marino conservó su independencia durante la unificación de Italia.',
+          fr: 'Saint-Marin a conservé son indépendance lors de l\'unification de l\'Italie.',
+          de: 'San Marino behielt während der Vereinigung Italiens seine Unabhängigkeit.',
+        },
+      },
+      {
+        year: '1944',
+        title: 'World War II Neutrality',
+        description: {
+          en: 'The republic declared neutrality but briefly experienced occupation.',
+          sv: 'Republiken förklarade neutralitet men upplevde kort ockupation.',
+          es: 'La república declaró neutralidad pero experimentó brevemente la ocupación.',
+          fr: 'La république a déclaré la neutralité mais a brièvement connu l\'occupation.',
+          de: 'Die Republik erklärte ihre Neutralität, erlebte jedoch kurzzeitig eine Besatzung.',
+        },
+      },
+      {
+        year: 'Modern Era',
+        title: 'Tourism and Stability',
+        description: {
+          en: 'Today San Marino is a peaceful republic focused on tourism, finance, and heritage preservation.',
+          sv: 'Idag är San Marino en fredlig republik fokuserad på turism, finans och bevarande av kulturarvet.',
+          es: 'Hoy San Marino es una república pacífica centrada en el turismo, las finanzas y la preservación del patrimonio.',
+          fr: 'Aujourd\'hui, Saint-Marin est une république paisible axée sur le tourisme, la finance et la préservation du patrimoine.',
+          de: 'Heute ist San Marino eine friedliche Republik, die sich auf Tourismus, Finanzen und die Erhaltung des kulturellen Erbes konzentriert.',
+        },
+      },
     ],
-    steps: [
-      'Layer wafers with hazelnut cream.',
-      'Repeat until all wafers are used.',
-      'Melt chocolate with butter.',
-      'Coat entire cake evenly.',
-      'Chill 30 minutes before slicing.',
+    innovations: [
+      {
+        name: {
+          en: 'Republican Governance',
+          sv: 'Republikansk styrelse',
+          es: 'Gobernanza republicana',
+          fr: 'Gouvernance républicaine',
+          de: 'Republikanische Regierungsführung',
+        },
+        year: {
+          en: '301 AD',
+          sv: '301 AD',
+          es: '301 d.C.',
+          fr: '301 après JC',
+          de: '301 n. Chr.',
+        },
+        description: {
+          en: 'One of the earliest continuous republican systems of government in the world.',
+          sv: 'Ett av de tidigaste kontinuerliga republikanska regeringssystemen i världen.',
+          es: 'Uno de los primeros sistemas republicanos continuos de gobierno del mundo.',
+          fr: 'L’un des premiers systèmes de gouvernement républicains continus au monde.',
+          de: 'Eines der frühesten kontinuierlichen republikanischen Regierungssysteme der Welt.',
+        },
+      },
+      {
+        name: {
+          en: 'Dual Heads of State',
+          sv: 'Dubbla statschefer',
+          es: 'Jefes de Estado duales',
+          fr: 'Deux chefs d\'État',
+          de: 'Doppelte Staatsoberhäupter',
+        },
+        year: '1243',
+        description: {
+          en: 'San Marino pioneered the system of two Captains Regent ruling jointly to prevent concentration of power.',
+          sv: 'San Marino var banbrytande för systemet med två kaptensregent som styrde gemensamt för att förhindra maktkoncentration.',
+          es: 'San Marino fue pionero en el sistema de dos capitanes regentes que gobernaban conjuntamente para evitar la concentración de poder.',
+          fr: 'Saint-Marin a été le pionnier du système de deux capitaines régents gouvernant conjointement pour empêcher la concentration du pouvoir.',
+          de: 'San Marino war Vorreiter des Systems zweier Captains Regent, das gemeinsam regierte, um eine Machtkonzentration zu verhindern.',
+        },
+      },
+      {
+        name: {
+          en: 'Historic Constitution',
+          sv: 'Historisk konstitution',
+          es: 'Constitución histórica',
+          fr: 'Constitution historique',
+          de: 'Historische Verfassung',
+        },
+        year: '1600',
+        description: {
+          en: 'One of the oldest surviving written constitutions still influencing governance today.',
+          sv: 'En av de äldsta bevarade skrivna konstitutionerna som fortfarande påverkar styrning idag.',
+          es: 'Una de las constituciones escritas más antiguas que se conservan y que aún influye en la gobernanza actual.',
+          fr: 'L’une des constitutions écrites les plus anciennes encore influençant la gouvernance aujourd’hui.',
+          de: 'Eine der ältesten erhaltenen schriftlichen Verfassungen, die auch heute noch Einfluss auf die Regierungsführung hat.',
+        },
+      },
     ],
-    imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-
-  drinks: {
-    alcoholic: 'Sangiovese wine, Grappa',
-    nonAlcoholic: 'Espresso, Cappuccino, Sparkling water',
-  },
-
-  music: [
-    'Classical Italian',
-    'Medieval folk music',
-    'Choral music',
-  ],
-
-  decorationIdeas: [
-    'White and blue flag colors',
-    'Stone textures and medieval motifs',
-    'Three Towers symbolism',
-    'Mountain silhouettes',
-  ],
-
-  conversationStarters: [
-    'Have you ever visited a microstate?',
-    'Would you live in a country smaller than a city?',
-    'What do you think makes a nation independent?',
-    'Do you enjoy medieval towns?',
-    'Have you collected passport stamps?',
-  ],
-
-  quiz: [
-    {
-      id: 'san-marino-q1',
-      question: 'When was San Marino founded?',
-      options: ['301 AD', '1000 AD', '1500 AD', '1800 AD'],
-      correctAnswer: 0,
+    mustVisit: [
+      {
+        name: {
+          en: 'Mount Titano',
+          sv: 'Mount Titano',
+          es: 'Monte Titano',
+          fr: 'Mont Titano',
+          de: 'Berg Titano',
+        },
+        description: {
+          en: 'UNESCO World Heritage mountain offering panoramic views over Italy and the Adriatic.',
+          sv: 'Berg som finns med på UNESCO:s världsarvslista och erbjuder panoramautsikt över Italien och Adriatiska havet.',
+          es: 'Montaña declarada Patrimonio de la Humanidad por la UNESCO que ofrece vistas panorámicas de Italia y el Adriático.',
+          fr: 'Montagne classée au patrimoine mondial de l\'UNESCO offrant une vue panoramique sur l\'Italie et l\'Adriatique.',
+          de: 'Berg, der zum UNESCO-Weltkulturerbe gehört und Panoramablick über Italien und die Adria bietet.',
+        },
+      },
+      {
+        name: {
+          en: 'Guaita Tower',
+          sv: 'Guaita Tower',
+          es: 'Torre Guaita',
+          fr: 'Tour Guaita',
+          de: 'Guaita-Turm',
+        },
+        description: {
+          en: 'The oldest and most iconic of San Marino’s three fortress towers.',
+          sv: 'Det äldsta och mest ikoniska av San Marinos tre fästningstorn.',
+          es: 'La más antigua y emblemática de las tres torres de la fortaleza de San Marino.',
+          fr: 'La plus ancienne et la plus emblématique des trois tours de forteresse de Saint-Marin.',
+          de: 'Der älteste und ikonischste der drei Festungstürme San Marinos.',
+        },
+      },
+      {
+        name: {
+          en: 'Cesta Tower',
+          sv: 'Cesta Tower',
+          es: 'Torre Cesta',
+          fr: 'Tour Cesta',
+          de: 'Cesta-Turm',
+        },
+        description: {
+          en: 'A medieval fortress housing the Museum of Ancient Weapons.',
+          sv: 'En medeltida fästning med museet för antika vapen.',
+          es: 'Fortaleza medieval que alberga el Museo de Armas Antiguas.',
+          fr: 'Une forteresse médiévale abritant le Musée des Armes Anciennes.',
+          de: 'Eine mittelalterliche Festung, in der sich das Museum für antike Waffen befindet.',
+        },
+      },
+      {
+        name: {
+          en: 'Historic Centre',
+          sv: 'Historiskt centrum',
+          es: 'Centro Histórico',
+          fr: 'Centre historique',
+          de: 'Historisches Zentrum',
+        },
+        description: {
+          en: 'Cobblestone streets, medieval buildings, and city walls.',
+          sv: 'Kullerstensgator, medeltida byggnader och stadsmurar.',
+          es: 'Calles adoquinadas, edificios medievales y murallas de la ciudad.',
+          fr: 'Rues pavées, bâtiments médiévaux et remparts de la ville.',
+          de: 'Kopfsteinpflasterstraßen, mittelalterliche Gebäude und Stadtmauern.',
+        },
+      },
+      {
+        name: {
+          en: 'Basilica of San Marino',
+          sv: 'San Marinos basilika',
+          es: 'Basílica de San Marino',
+          fr: 'Basilique de Saint-Marin',
+          de: 'Basilika von San Marino',
+        },
+        description: {
+          en: 'Neoclassical church dedicated to the republic’s founder.',
+          sv: 'Neoklassisk kyrka tillägnad republikens grundare.',
+          es: 'Iglesia neoclásica dedicada al fundador de la república.',
+          fr: 'Église néoclassique dédiée au fondateur de la république.',
+          de: 'Neoklassizistische Kirche, die dem Gründer der Republik gewidmet ist.',
+        },
+      },
+    ],
+    travelEssentials: [
+      {
+        item: 'Best time to visit',
+        description: {
+          en: 'April to October for mild weather and clear views.',
+          sv: 'April till oktober för milt väder och klara vyer.',
+          es: 'Abril a octubre para un clima templado y vistas despejadas.',
+          fr: 'D\'avril à octobre pour un temps doux et des vues dégagées.',
+          de: 'April bis Oktober für mildes Wetter und klare Sicht.',
+        },
+      },
+      {
+        item: 'Getting there',
+        description: {
+          en: 'Accessible via Italy, typically from Rimini.',
+          sv: 'Tillgänglig via Italien, vanligtvis från Rimini.',
+          es: 'Accesible a través de Italia, normalmente desde Rimini.',
+          fr: 'Accessible via l\'Italie, généralement depuis Rimini.',
+          de: 'Erreichbar über Italien, typischerweise von Rimini aus.',
+        },
+      },
+      {
+        item: 'Walking terrain',
+        description: {
+          en: 'Steep streets and stairs; comfortable shoes recommended.',
+          sv: 'Branta gator och trappor; bekväma skor rekommenderas.',
+          es: 'Calles empinadas y escaleras; Se recomienda calzado cómodo.',
+          fr: 'Rues et escaliers escarpés ; chaussures confortables recommandées.',
+          de: 'Steile Straßen und Treppen; bequeme Schuhe empfohlen.',
+        },
+      },
+      {
+        item: {
+          en: 'Currency',
+          sv: 'Valuta',
+          es: 'Moneda',
+          fr: 'Devise',
+          de: 'Währung',
+        },
+        description: {
+          en: 'Euro is used; San Marino mints collectible euro coins.',
+          sv: 'Euro används; San Marino myntar samlarbara euromynt.',
+          es: 'Se utiliza euro; San Marino acuña monedas de euro de colección.',
+          fr: 'L\'euro est utilisé ; Saint-Marin frappe des pièces de collection en euros.',
+          de: 'Euro wird verwendet; San Marino prägt Euro-Sammelmünzen.',
+        },
+      },
+      {
+        item: 'Passports',
+        description: {
+          en: 'Optional souvenir passport stamps available for visitors.',
+          sv: 'Valfria souvenirpassstämplar tillgängliga för besökare.',
+          es: 'Sellos de pasaporte de recuerdo opcionales disponibles para los visitantes.',
+          fr: 'Timbres de passeport souvenir en option disponibles pour les visiteurs.',
+          de: 'Für Besucher sind optionale Souvenir-Passstempel erhältlich.',
+        },
+      },
+    ],
+    mainDish: {
+      id: 'san-marino-main',
+      name: {
+        en: 'Nidi di Rondine',
+        sv: 'Nidi di Rondine',
+        es: 'Nidos de Rondine',
+        fr: 'Nids de Rondine',
+        de: 'Nidi di Rondine',
+      },
+      description: {
+        en: 'Baked pasta rolls filled with ham, cheese, and béchamel sauce.',
+        sv: 'Bakade pastarullar fyllda med skinka, ost och béchamelsås.',
+        es: 'Rollitos de pasta al horno rellenos de jamón, queso y salsa bechamel.',
+        fr: 'Rouleaux de pâtes au four fourrés au jambon, au fromage et à la sauce béchamel.',
+        de: 'Gebackene Nudelröllchen gefüllt mit Schinken, Käse und Béchamelsauce.',
+      },
+      cookingTime: 75,
+      servings: 4,
+      dietType: {
+        en: 'meat',
+        sv: 'kött',
+        es: 'carne',
+        fr: 'viande',
+        de: 'Fleisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Lasagna sheets',
+            sv: 'Lasagneplattor',
+            es: 'Hojas de lasaña',
+            fr: 'Feuilles de lasagne',
+            de: 'Lasagneblätter',
+          },
+          amount: 250,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Cooked ham',
+            sv: 'Kokt skinka',
+            es: 'Jamón cocido',
+            fr: 'Jambon cuit',
+            de: 'Gekochter Schinken',
+          },
+          amount: 150,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Mozzarella',
+            sv: 'Mozzarella',
+            es: 'Mozzarella',
+            fr: 'Mozzarella',
+            de: 'Mozzarella',
+          },
+          amount: 200,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Parmesan cheese',
+            sv: 'Parmesanost',
+            es: 'Queso parmesano',
+            fr: 'Fromage Parmesan',
+            de: 'Parmesankäse',
+          },
+          amount: 60,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Butter',
+            sv: 'Smör',
+            es: 'Mantequilla',
+            fr: 'Beurre',
+            de: 'Butter',
+          },
+          amount: 50,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Flour',
+            sv: 'Mjöl',
+            es: 'Harina',
+            fr: 'Farine',
+            de: 'Mehl',
+          },
+          amount: 40,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Milk',
+            sv: 'Mjölk',
+            es: 'Leche',
+            fr: 'Lait',
+            de: 'Milch',
+          },
+          amount: 500,
+          unit: 'ml',
+        },
+        {
+          name: {
+            en: 'Nutmeg',
+            sv: 'Muskotnöt',
+            es: 'Nuez moscada',
+            fr: 'Noix de muscade',
+            de: 'Muskatnuss',
+          },
+          amount: 0.5,
+          unit: 'tsp',
+        },
+        {
+          name: {
+            en: 'Salt',
+            sv: 'Salt',
+            es: 'Sal',
+            fr: 'Sel',
+            de: 'Salz',
+          },
+          amount: 1,
+          unit: 'tsp',
+        },
+      ],
+      steps: [
+        {
+          en: 'Prepare béchamel: melt butter, add flour, cook 1 minute.',
+          sv: 'Förbered béchamel: smält smör, tillsätt mjöl, koka 1 minut.',
+          es: 'Prepare la bechamel: derrita la mantequilla, agregue la harina, cocine 1 minuto.',
+          fr: 'Préparez la béchamel : faire fondre le beurre, ajouter la farine, cuire 1 minute.',
+          de: 'Béchamel zubereiten: Butter schmelzen, Mehl hinzufügen, 1 Minute kochen.',
+        },
+        {
+          en: 'Whisk in milk gradually and cook until thick.',
+          sv: 'Vispa i mjölken gradvis och koka tills den är tjock.',
+          es: 'Incorpora la leche poco a poco y cocina hasta que espese.',
+          fr: 'Incorporer progressivement le lait et cuire jusqu\'à consistance épaisse.',
+          de: 'Milch nach und nach einrühren und kochen, bis sie dickflüssig ist.',
+        },
+        {
+          en: 'Season with salt and nutmeg.',
+          sv: 'Krydda med salt och muskotnöt.',
+          es: 'Sazone con sal y nuez moscada.',
+          fr: 'Assaisonner avec du sel et de la muscade.',
+          de: 'Mit Salz und Muskatnuss würzen.',
+        },
+        {
+          en: 'Boil lasagna sheets briefly and lay flat.',
+          sv: 'Koka lasagneplattor kort och lägg platt.',
+          es: 'Hervir las láminas de lasaña brevemente y dejarlas planas.',
+          fr: 'Faire bouillir brièvement les feuilles de lasagne et les déposer à plat.',
+          de: 'Lasagneblätter kurz kochen und flach hinlegen.',
+        },
+        {
+          en: 'Top with ham, mozzarella, and béchamel.',
+          sv: 'Toppa med skinka, mozzarella och béchamel.',
+          es: 'Cubra con jamón, mozzarella y bechamel.',
+          fr: 'Garnir de jambon, de mozzarella et de béchamel.',
+          de: 'Mit Schinken, Mozzarella und Béchamel belegen.',
+        },
+        {
+          en: 'Roll tightly and slice into nests.',
+          sv: 'Rulla hårt och skiva i bon.',
+          es: 'Enrolle bien y córtelo en forma de nidos.',
+          fr: 'Rouler fermement et couper en nids.',
+          de: 'Fest aufrollen und in Nester schneiden.',
+        },
+        {
+          en: 'Place in baking dish, cover with béchamel and parmesan.',
+          sv: 'Lägg i ugnsform, täck med bechamel och parmesan.',
+          es: 'Colóquelo en una fuente para horno, cubra con bechamel y parmesano.',
+          fr: 'Placer dans un plat allant au four, recouvrir de béchamel et de parmesan.',
+          de: 'In eine Auflaufform legen, mit Béchamel und Parmesan belegen.',
+        },
+        {
+          en: 'Bake at 180C for 30–35 minutes until golden.',
+          sv: 'Grädda i 180C i 30–35 minuter tills de är gyllene.',
+          es: 'Hornee a 180C durante 30 a 35 minutos hasta que esté dorado.',
+          fr: 'Cuire au four à 180°C pendant 30 à 35 minutes jusqu\'à ce qu\'ils soient dorés.',
+          de: 'Bei 180 °C 30–35 Minuten goldbraun backen.',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/20545316/pexels-photo-20545316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'san-marino-q2',
-      question: 'Which country surrounds San Marino?',
-      options: ['France', 'Italy', 'Switzerland', 'Austria'],
-      correctAnswer: 1,
+    dessert: {
+      id: 'san-marino-dessert',
+      name: {
+        en: 'Torta Tre Monti',
+        sv: 'Torta Tre Monti',
+        es: 'Torta Tre Monti',
+        fr: 'Torta Tre Monti',
+        de: 'Torta Tre Monti',
+      },
+      description: {
+        en: 'Layered wafer cake with chocolate and hazelnut cream inspired by the Three Towers.',
+        sv: 'Lagertårta med choklad och hasselnötskräm inspirerad av de tre tornen.',
+        es: 'Tarta de barquillo en capas con crema de chocolate y avellanas inspirada en las Tres Torres.',
+        fr: 'Gaufrette étagée avec crème au chocolat et noisettes inspirée des Trois Tours.',
+        de: 'Geschichteter Waffelkuchen mit Schokolade und Haselnusscreme, inspiriert von den Drei Türmen.',
+      },
+      cookingTime: 60,
+      servings: 8,
+      dietType: {
+        en: 'vegetarian',
+        sv: 'vegetarisk',
+        es: 'vegetariano',
+        fr: 'végétarien',
+        de: 'vegetarisch',
+      },
+      ingredients: [
+        {
+          name: {
+            en: 'Wafer sheets',
+            sv: 'Wafer ark',
+            es: 'Hojas de oblea',
+            fr: 'Feuilles de gaufrettes',
+            de: 'Waffelblätter',
+          },
+          amount: 15,
+          unit: {
+            en: 'pieces',
+            sv: 'bitar',
+            es: 'piezas',
+            fr: 'pièces',
+            de: 'Stücke',
+          },
+        },
+        {
+          name: {
+            en: 'Hazelnut cream',
+            sv: 'Hasselnötskräm',
+            es: 'Crema de avellanas',
+            fr: 'Crème de noisettes',
+            de: 'Haselnusscreme',
+          },
+          amount: 300,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Dark chocolate',
+            sv: 'Mörk choklad',
+            es: 'Chocolate negro',
+            fr: 'Chocolat noir',
+            de: 'Dunkle Schokolade',
+          },
+          amount: 200,
+          unit: 'g',
+        },
+        {
+          name: {
+            en: 'Butter',
+            sv: 'Smör',
+            es: 'Mantequilla',
+            fr: 'Beurre',
+            de: 'Butter',
+          },
+          amount: 40,
+          unit: 'g',
+        },
+      ],
+      steps: [
+        {
+          en: 'Layer wafers with hazelnut cream.',
+          sv: 'Varva wafers med hasselnötskräm.',
+          es: 'Cubra las galletas con crema de avellanas.',
+          fr: 'Nappez les gaufrettes de crème de noisettes.',
+          de: 'Waffeln mit Haselnusscreme bestreichen.',
+        },
+        {
+          en: 'Repeat until all wafers are used.',
+          sv: 'Upprepa tills alla wafers är använda.',
+          es: 'Repita hasta que se utilicen todas las obleas.',
+          fr: 'Répétez jusqu’à ce que toutes les plaquettes soient utilisées.',
+          de: 'Wiederholen, bis alle Waffeln aufgebraucht sind.',
+        },
+        {
+          en: 'Melt chocolate with butter.',
+          sv: 'Smält choklad med smör.',
+          es: 'Derretir el chocolate con la mantequilla.',
+          fr: 'Faire fondre le chocolat avec le beurre.',
+          de: 'Schokolade mit Butter schmelzen.',
+        },
+        {
+          en: 'Coat entire cake evenly.',
+          sv: 'Täck hela kakan jämnt.',
+          es: 'Cubra todo el pastel de manera uniforme.',
+          fr: 'Enrober uniformément tout le gâteau.',
+          de: 'Den gesamten Kuchen gleichmäßig bestreichen.',
+        },
+        {
+          en: 'Chill 30 minutes before slicing.',
+          sv: 'Kyl 30 minuter innan du skär.',
+          es: 'Enfríe 30 minutos antes de cortar.',
+          fr: 'Réfrigérer 30 minutes avant de trancher.',
+          de: 'Vor dem Schneiden 30 Minuten kalt stellen.',
+        },
+      ],
+      imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
-    {
-      id: 'san-marino-q3',
-      question: 'What mountain is San Marino built on?',
-      options: ['Mount Titano', 'Mount Etna', 'Mont Blanc', 'Mount Vesuvius'],
-      correctAnswer: 0,
+    drinks: {
+      alcoholic: 'Sangiovese wine, Grappa',
+      nonAlcoholic: 'Espresso, Cappuccino, Sparkling water',
     },
-    {
-      id: 'san-marino-q4',
-      question: 'How many heads of state rule San Marino at the same time?',
-      options: ['One', 'Two', 'Three', 'Four'],
-      correctAnswer: 1,
+    music: [
+      'Classical Italian',
+      'Medieval folk music',
+      'Choral music',
+    ],
+    decorationIdeas: [
+      'White and blue flag colors',
+      'Stone textures and medieval motifs',
+      'Three Towers symbolism',
+      'Mountain silhouettes',
+    ],
+    conversationStarters: [
+      'Have you ever visited a microstate?',
+      'Would you live in a country smaller than a city?',
+      'What do you think makes a nation independent?',
+      'Do you enjoy medieval towns?',
+      'Have you collected passport stamps?',
+    ],
+    quiz: [
+      {
+        id: 'san-marino-q1',
+        question: {
+          en: 'When was San Marino founded?',
+          sv: 'När grundades San Marino?',
+          es: '¿Cuándo se fundó San Marino?',
+          fr: 'Quand Saint-Marin a-t-il été fondé ?',
+          de: 'Wann wurde San Marino gegründet?',
+        },
+        options: [
+          {
+            en: '301 AD',
+            sv: '301 AD',
+            es: '301 d.C.',
+            fr: '301 après JC',
+            de: '301 n. Chr.',
+          },
+          {
+            en: '1000 AD',
+            sv: '1000 AD',
+            es: '1000 dC',
+            fr: '1000 après JC',
+            de: '1000 n. Chr.',
+          },
+          {
+            en: '1500 AD',
+            sv: '1500 AD',
+            es: '1500 dC',
+            fr: '1500 après JC',
+            de: '1500 n. Chr.',
+          },
+          {
+            en: '1800 AD',
+            sv: '1800 e.Kr.',
+            es: '1800 dC',
+            fr: '1800 après JC',
+            de: '1800 n. Chr.',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'san-marino-q2',
+        question: {
+          en: 'Which country surrounds San Marino?',
+          sv: 'Vilket land omger San Marino?',
+          es: '¿Qué país rodea a San Marino?',
+          fr: 'Quel pays entoure Saint-Marin ?',
+          de: 'Welches Land umgibt San Marino?',
+        },
+        options: [
+          {
+            en: 'France',
+            sv: 'Frankrike',
+            es: 'Francia',
+            fr: 'France',
+            de: 'Frankreich',
+          },
+          {
+            en: 'Italy',
+            sv: 'Italien',
+            es: 'Italia',
+            fr: 'Italie',
+            de: 'Italien',
+          },
+          {
+            en: 'Switzerland',
+            sv: 'Schweiz',
+            es: 'Suiza',
+            fr: 'Suisse',
+            de: 'Schweiz',
+          },
+          {
+            en: 'Austria',
+            sv: 'Österrike',
+            es: 'Austria',
+            fr: 'Autriche',
+            de: 'Österreich',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'san-marino-q3',
+        question: {
+          en: 'What mountain is San Marino built on?',
+          sv: 'Vilket berg är San Marino byggt på?',
+          es: '¿Sobre qué montaña está construido San Marino?',
+          fr: 'Sur quelle montagne Saint-Marin est-il construit ?',
+          de: 'Auf welchem ​​Berg ist San Marino gebaut?',
+        },
+        options: [
+          {
+            en: 'Mount Titano',
+            sv: 'Mount Titano',
+            es: 'Monte Titano',
+            fr: 'Mont Titano',
+            de: 'Berg Titano',
+          },
+          {
+            en: 'Mount Etna',
+            sv: 'Etna',
+            es: 'Monte Etna',
+            fr: 'Mont Etna',
+            de: 'Ätna',
+          },
+          {
+            en: 'Mont Blanc',
+            sv: 'Mont Blanc',
+            es: 'Mont Blanco',
+            fr: 'Mont-Blanc',
+            de: 'Mont Blanc',
+          },
+          {
+            en: 'Mount Vesuvius',
+            sv: 'Vesuvius',
+            es: 'Monte Vesubio',
+            fr: 'Mont Vésuve',
+            de: 'Vesuv',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'san-marino-q4',
+        question: {
+          en: 'How many heads of state rule San Marino at the same time?',
+          sv: 'Hur många statschefer styr San Marino samtidigt?',
+          es: '¿Cuántos jefes de Estado gobiernan San Marino al mismo tiempo?',
+          fr: 'Combien de chefs d’État dirigent Saint-Marin en même temps ?',
+          de: 'Wie viele Staatsoberhäupter regieren gleichzeitig San Marino?',
+        },
+        options: [
+          {
+            en: 'One',
+            sv: 'En',
+            es: 'Uno',
+            fr: 'Un',
+            de: 'Eins',
+          },
+          {
+            en: 'Two',
+            sv: 'Två',
+            es: 'Dos',
+            fr: 'Deux',
+            de: 'Zwei',
+          },
+          {
+            en: 'Three',
+            sv: 'Tre',
+            es: 'Tres',
+            fr: 'Trois',
+            de: 'Drei',
+          },
+          {
+            en: 'Four',
+            sv: 'Fyra',
+            es: 'Cuatro',
+            fr: 'Quatre',
+            de: 'Vier',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'san-marino-q5',
+        question: {
+          en: 'What is the official language of San Marino?',
+          sv: 'Vilket är det officiella språket i San Marino?',
+          es: '¿Cuál es el idioma oficial de San Marino?',
+          fr: 'Quelle est la langue officielle de Saint-Marin ?',
+          de: 'Was ist die offizielle Sprache von San Marino?',
+        },
+        options: [
+          {
+            en: 'Latin',
+            sv: 'Latin',
+            es: 'latín',
+            fr: 'Latin',
+            de: 'Latein',
+          },
+          {
+            en: 'Italian',
+            sv: 'Italienska',
+            es: 'italiano',
+            fr: 'Italien',
+            de: 'Italienisch',
+          },
+          {
+            en: 'French',
+            sv: 'Franska',
+            es: 'francés',
+            fr: 'Français',
+            de: 'Französisch',
+          },
+          {
+            en: 'English',
+            sv: 'engelska',
+            es: 'Inglés',
+            fr: 'Anglais',
+            de: 'Englisch',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'san-marino-q6',
+        question: {
+          en: 'What UNESCO site is located in San Marino?',
+          sv: 'Vilken UNESCO-plats finns i San Marino?',
+          es: '¿Qué sitio de la UNESCO se encuentra en San Marino?',
+          fr: 'Quel site UNESCO se trouve à Saint-Marin ?',
+          de: 'Welche UNESCO-Stätte befindet sich in San Marino?',
+        },
+        options: [
+          {
+            en: 'Historic Centre and Mount Titano',
+            sv: 'Historiska centrum och berget Titano',
+            es: 'Centro Histórico y Monte Titano',
+            fr: 'Centre historique et Mont Titano',
+            de: 'Historisches Zentrum und Monte Titano',
+          },
+          {
+            en: 'Colosseum',
+            sv: 'Colosseum',
+            es: 'Coliseo',
+            fr: 'Colisée',
+            de: 'Kolosseum',
+          },
+          {
+            en: 'Vatican Museums',
+            sv: 'Vatikanmuseerna',
+            es: 'Museos Vaticanos',
+            fr: 'Musées du Vatican',
+            de: 'Vatikanische Museen',
+          },
+          {
+            en: 'Pompeii',
+            sv: 'Pompeji',
+            es: 'Pompeya',
+            fr: 'Pompéi',
+            de: 'Pompeji',
+          },
+        ],
+        correctAnswer: 0,
+      },
+      {
+        id: 'san-marino-q7',
+        question: {
+          en: 'What currency does San Marino use?',
+          sv: 'Vilken valuta använder San Marino?',
+          es: '¿Qué moneda utiliza San Marino?',
+          fr: 'Quelle monnaie Saint-Marin utilise-t-il ?',
+          de: 'Welche Währung verwendet San Marino?',
+        },
+        options: [
+          {
+            en: 'Lira',
+            sv: 'Lira',
+            es: 'liras',
+            fr: 'Lire',
+            de: 'Lira',
+          },
+          {
+            en: 'Euro',
+            sv: 'Euro',
+            es: 'euros',
+            fr: 'euros',
+            de: 'Euro',
+          },
+          {
+            en: 'Franc',
+            sv: 'Franc',
+            es: 'Franco',
+            fr: 'Francs',
+            de: 'Franken',
+          },
+          {
+            en: 'Dollar',
+            sv: 'Dollar',
+            es: 'Dólar',
+            fr: 'Dollars',
+            de: 'Dollar',
+          },
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'san-marino-q8',
+        question: {
+          en: 'Which dessert is San Marino famous for?',
+          sv: 'Vilken efterrätt är San Marino känd för?',
+          es: '¿Por qué postre es famoso San Marino?',
+          fr: 'Pour quel dessert Saint-Marin est-il célèbre ?',
+          de: 'Für welches Dessert ist San Marino berühmt?',
+        },
+        options: [
+          {
+            en: 'Tiramisu',
+            sv: 'Tiramisu',
+            es: 'Tiramisú',
+            fr: 'Tiramisu',
+            de: 'Tiramisu',
+          },
+          {
+            en: 'Gelato',
+            sv: 'Gelato',
+            es: 'Helado',
+            fr: 'Glace',
+            de: 'Gelato',
+          },
+          {
+            en: 'Torta Tre Monti',
+            sv: 'Torta Tre Monti',
+            es: 'Torta Tre Monti',
+            fr: 'Torta Tre Monti',
+            de: 'Torta Tre Monti',
+          },
+          {
+            en: 'Cannoli',
+            sv: 'Cannoli',
+            es: 'Cannoli',
+            fr: 'Cannoli',
+            de: 'Cannoli',
+          },
+        ],
+        correctAnswer: 2,
+      },
+      {
+        id: 'san-marino-q9',
+        question: {
+          en: 'Is San Marino part of the European Union?',
+          sv: 'Är San Marino en del av Europeiska unionen?',
+          es: '¿San Marino es parte de la Unión Europea?',
+          fr: 'Saint-Marin fait-il partie de l’Union européenne ?',
+          de: 'Ist San Marino Teil der Europäischen Union?',
+        },
+        options: [
+          {
+            en: 'Yes',
+            sv: 'Ja',
+            es: 'Sí',
+            fr: 'Oui',
+            de: 'Ja',
+          },
+          'No',
+        ],
+        correctAnswer: 1,
+      },
+      {
+        id: 'san-marino-q10',
+        question: {
+          en: 'San Marino is best described as a:',
+          sv: 'San Marino beskrivs bäst som:',
+          es: 'San Marino se describe mejor como:',
+          fr: 'Saint-Marin est mieux décrit comme :',
+          de: 'San Marino lässt sich am besten beschreiben als:',
+        },
+        options: [
+          {
+            en: 'Island nation',
+            sv: 'Önation',
+            es: 'Nación insular',
+            fr: 'Nation insulaire',
+            de: 'Inselstaat',
+          },
+          {
+            en: 'Microstate republic',
+            sv: 'Mikrostatsrepublik',
+            es: 'República de microestados',
+            fr: 'République micro-étatique',
+            de: 'Mikrostaatsrepublik',
+          },
+          {
+            en: 'Federal state',
+            sv: 'Federal stat',
+            es: 'Estado federal',
+            fr: 'État fédéral',
+            de: 'Bundesland',
+          },
+          {
+            en: 'Kingdom',
+            sv: 'Rike',
+            es: 'Reino',
+            fr: 'Royaume',
+            de: 'Königreich',
+          },
+        ],
+        correctAnswer: 1,
+      },
+    ],
+    coordinates: {
+      x: 49,
+      y: 44,
     },
-    {
-      id: 'san-marino-q5',
-      question: 'What is the official language of San Marino?',
-      options: ['Latin', 'Italian', 'French', 'English'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'san-marino-q6',
-      question: 'What UNESCO site is located in San Marino?',
-      options: ['Historic Centre and Mount Titano', 'Colosseum', 'Vatican Museums', 'Pompeii'],
-      correctAnswer: 0,
-    },
-    {
-      id: 'san-marino-q7',
-      question: 'What currency does San Marino use?',
-      options: ['Lira', 'Euro', 'Franc', 'Dollar'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'san-marino-q8',
-      question: 'Which dessert is San Marino famous for?',
-      options: ['Tiramisu', 'Gelato', 'Torta Tre Monti', 'Cannoli'],
-      correctAnswer: 2,
-    },
-    {
-      id: 'san-marino-q9',
-      question: 'Is San Marino part of the European Union?',
-      options: ['Yes', 'No'],
-      correctAnswer: 1,
-    },
-    {
-      id: 'san-marino-q10',
-      question: 'San Marino is best described as a:',
-      options: ['Island nation', 'Microstate republic', 'Federal state', 'Kingdom'],
-      correctAnswer: 1,
-    },
-  ],
-
-  coordinates: { x: 49, y: 44 },
-};
+  };
