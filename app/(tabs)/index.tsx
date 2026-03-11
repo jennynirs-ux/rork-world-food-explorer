@@ -176,7 +176,7 @@ export default function ExploreScreen() {
                         </View>
                       )}
                     </View>
-                    <Text style={styles.continent}>{country.continent}</Text>
+                    <Text style={styles.continent}>{translateContent(country.continent)}</Text>
                     {isAccessible && (
                       <View style={styles.progressContainer}>
                         <View style={styles.progressBar}>
@@ -324,7 +324,7 @@ export default function ExploreScreen() {
                         </View>
                       )}
                     </View>
-                    <Text style={styles.continent}>{country.continent}</Text>
+                    <Text style={styles.continent}>{translateContent(country.continent)}</Text>
                     {isAccessible && (
                       <View style={styles.progressContainer}>
                         <View style={styles.progressBar}>

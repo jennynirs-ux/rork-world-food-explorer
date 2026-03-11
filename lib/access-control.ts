@@ -1,5 +1,6 @@
 import { Country } from '@/types';
 import { PRODUCT_IDS, CONTINENT_TO_PRODUCT_MAP } from '@/constants/monetization';
+import { translateContent } from '@/lib/translate-content';
 
 export function isCountryAccessible(
   country: Country,
@@ -13,7 +14,8 @@ export function isCountryAccessible(
     return true;
   }
 
-  const continentProduct = CONTINENT_TO_PRODUCT_MAP[country.continent];
+  const continent = translateContent(country.continent, 'en');
+  const continentProduct = CONTINENT_TO_PRODUCT_MAP[continent];
   if (continentProduct && purchasedProducts.includes(continentProduct)) {
     return true;
   }
@@ -26,7 +28,8 @@ export function getRequiredProductForCountry(country: Country): string | null {
     return null;
   }
 
-  const continentProduct = CONTINENT_TO_PRODUCT_MAP[country.continent];
+  const continent = translateContent(country.continent, 'en');
+  const continentProduct = CONTINENT_TO_PRODUCT_MAP[continent];
   return continentProduct || null;
 }
 
@@ -50,8 +53,8 @@ export function getCountriesByContinent(
 ): Country[] {
   if (continent === 'Americas') {
     return countries.filter(
-      c => c.continent === 'North America' || c.continent === 'South America'
+      c => translateContent(c.continent, 'en') === 'North America' || translateContent(c.continent, 'en') === 'South America'
     );
   }
-  return countries.filter(c => c.continent === continent);
+  return countries.filter(c => translateContent(c.continent, 'en') === continent);
 }
