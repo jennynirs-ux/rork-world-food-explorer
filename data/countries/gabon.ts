@@ -18,7 +18,7 @@ export const gabon: Country = {
       de: 'Afrika',
     },
     flag: '🇬🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/461755/pexels-photo-461755.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Gabon is a Central African country on the Atlantic coast, known for pristine rainforests, diverse wildlife, and oil wealth.',
       sv: 'Gabon är ett centralafrikanskt land vid Atlantkusten, känt för orörda regnskogar, mångsidigt djurliv och oljerikedom.',

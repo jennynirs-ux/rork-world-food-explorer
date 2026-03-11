@@ -18,7 +18,7 @@ export const malta: Country = {
       de: 'Europa',
     },
     flag: '🇲🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1551600469-6dd74c37f44e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/7694317/pexels-photo-7694317.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Malta is a small Mediterranean island nation with a rich history spanning thousands of years, stunning baroque architecture, crystal-clear waters, and a unique blend of European and North African influences.',
       sv: 'Malta är en liten önation i Medelhavet med en rik historia som spänner över tusentals år, fantastisk barockarkitektur, kristallklart vatten och en unik blandning av europeiska och nordafrikanska influenser.',

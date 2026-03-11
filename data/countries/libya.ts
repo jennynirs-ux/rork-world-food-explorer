@@ -18,7 +18,7 @@ export const libya: Country = {
       de: 'Afrika',
     },
     flag: '🇱🇾',
-    landscapeImage: 'https://images.unsplash.com/photo-1575548752054-e3d94c9f2772?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8472948/pexels-photo-8472948.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Libya is a North African country with ancient Greek and Roman ruins along the Mediterranean coast and vast Sahara Desert landscapes. Rich in history and natural resources.',
       sv: 'Libyen är ett nordafrikanskt land med antika grekiska och romerska ruiner längs Medelhavskusten och vidsträckta Saharaökenlandskap. Rik på historia och naturresurser.',

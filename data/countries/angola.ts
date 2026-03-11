@@ -18,7 +18,7 @@ export const angola: Country = {
       de: 'Afrika',
     },
     flag: '🇦🇴',
-    landscapeImage: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/11450797/pexels-photo-11450797.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Angola is a large and diverse country in southern Africa, stretching from Atlantic beaches to savannas and rainforests. It combines deep indigenous traditions with Portuguese colonial heritage and is known for music, dance, and rich natural resources.',
       sv: 'Angola är ett stort och mångsidigt land i södra Afrika, som sträcker sig från Atlantstränder till savanner och regnskogar. Den kombinerar djupa inhemska traditioner med portugisiskt kolonialt arv och är känt för musik, dans och rika naturresurser.',

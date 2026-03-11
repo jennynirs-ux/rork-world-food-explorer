@@ -18,7 +18,7 @@ export const jamaica: Country = {
       de: 'Nordamerika',
     },
     flag: '🇯🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1570789210967-2cac24afeb00?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/14788933/pexels-photo-14788933.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Jamaica is a Caribbean island nation known for its reggae music, beautiful beaches, lush mountains, and vibrant culture. The birthplace of Bob Marley, Jamaica has left an indelible mark on music and sports worldwide.',
       sv: 'Jamaica är en karibisk ö-nation känd för sin reggaemusik, vackra stränder, frodiga berg och livliga kultur. Bob Marleys födelseplats, Jamaica, har satt en outplånlig prägel på musik och sport över hela världen.',

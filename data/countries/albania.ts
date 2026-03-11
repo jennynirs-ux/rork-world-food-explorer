@@ -18,7 +18,7 @@ export const albania: Country = {
       de: 'Europa',
     },
     flag: '🇦🇱',
-    landscapeImage: 'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/32423282/pexels-photo-32423282.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Albania is a hidden gem on the Adriatic and Ionian coasts, offering stunning beaches, ancient ruins, and mountainous landscapes. Known for its warm hospitality, unique traditions, and rich history shaped by Illyrian roots, Roman influence, and centuries of Ottoman rule.',
       sv: 'Albanien är en dold pärla vid Adriatiska och Joniska kusterna, som erbjuder fantastiska stränder, antika ruiner och bergiga landskap. Känd för sin varma gästfrihet, unika traditioner och rika historia formad av illyriska rötter, romerskt inflytande och århundraden av ottomanskt styre.',

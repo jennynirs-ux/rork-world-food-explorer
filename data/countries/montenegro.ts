@@ -18,7 +18,7 @@ export const montenegro: Country = {
       de: 'Europa',
     },
     flag: '🇲🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1555990538-1e2a4a8b4e5b?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/14500738/pexels-photo-14500738.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Montenegro is a Balkan country on the Adriatic coast, known for dramatic mountains, medieval villages, and stunning bay of Kotor.',
       sv: 'Montenegro är ett Balkanland vid Adriatiska kusten, känt för dramatiska berg, medeltida byar och den fantastiska Kotorbukten.',

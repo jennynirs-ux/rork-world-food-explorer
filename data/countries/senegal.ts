@@ -18,7 +18,7 @@ export const senegal: Country = {
       de: 'Afrika',
     },
     flag: '🇸🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/33789467/pexels-photo-33789467.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Senegal is a West African country known for vibrant culture, Atlantic beaches, and historic Gorée Island. It is famous for music and dance, rich culinary traditions, and the energetic capital, Dakar.',
       sv: 'Senegal är ett västafrikanskt land känt för pulserande kultur, Atlantstränder och den historiska ön Gorée. Det är känt för musik och dans, rika kulinariska traditioner och den energiska huvudstaden Dakar.',

@@ -18,7 +18,7 @@ export const tonga: Country = {
       de: 'Ozeanien',
     },
     flag: '🇹🇴',
-    landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/4802101/pexels-photo-4802101.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Tonga is a Polynesian kingdom in the South Pacific, known for whale watching, pristine beaches, strong cultural traditions, and being the only Pacific nation never formally colonized.',
       sv: 'Tonga är ett polynesiskt kungarike i södra Stilla havet, känt för valskådning, orörda stränder, starka kulturella traditioner och att vara den enda Stillahavsnationen som aldrig formellt koloniserats.',

@@ -18,7 +18,7 @@ export const lithuania: Country = {
       de: 'Europa',
     },
     flag: '🇱🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1562932831-afcfe6dfd966?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/4080907/pexels-photo-4080907.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Lithuania is the largest and most populous of the Baltic States, known for its medieval architecture, stunning nature, rich history, and vibrant culture. It was the first Soviet republic to declare independence.',
       sv: 'Litauen är den största och mest folkrika av de baltiska staterna, känt för sin medeltida arkitektur, fantastiska natur, rika historia och livliga kultur. Det var den första sovjetrepubliken som utropade självständighet.',

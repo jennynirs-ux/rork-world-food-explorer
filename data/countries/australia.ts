@@ -18,7 +18,7 @@ export const australia: Country = {
       de: 'Ozeanien',
     },
     flag: '🇦🇺',
-    landscapeImage: 'https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/1766215/pexels-photo-1766215.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Australia is the world\'s largest island and smallest continent, known for unique wildlife, stunning beaches, the Outback, and vibrant cities. A land of natural wonders from the Great Barrier Reef to Uluru.',
       sv: 'Australien är världens största ö och minsta kontinent, känd för ett unikt djurliv, fantastiska stränder, Outback och livliga städer. Ett land med naturliga underverk från Stora barriärrevet till Uluru.',

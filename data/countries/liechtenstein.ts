@@ -18,7 +18,7 @@ export const liechtenstein: Country = {
       de: 'Europa',
     },
     flag: '🇱🇮',
-    landscapeImage: 'https://images.unsplash.com/photo-1573155993874-d5d48af862ba?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/5742910/pexels-photo-5742910.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Liechtenstein is a tiny Alpine principality between Switzerland and Austria, known for medieval castles, mountain trails, and banking.',
       sv: 'Liechtenstein är ett litet alpint furstendöme mellan Schweiz och Österrike, känt för medeltida slott, bergsleder och banker.',

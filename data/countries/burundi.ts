@@ -18,7 +18,7 @@ export const burundi: Country = {
       de: 'Afrika',
     },
     flag: '🇧🇮',
-    landscapeImage: 'https://images.unsplash.com/photo-1574653853027-5382a3d23a15?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/33368162/pexels-photo-33368162.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Burundi is a small East African country known for its mountainous terrain, Lake Tanganyika shoreline, and traditional drumming culture.',
       sv: 'Burundi är ett litet östafrikanskt land känt för sin bergiga terräng, Tanganyikasjöns strandlinje och traditionella trumkultur.',

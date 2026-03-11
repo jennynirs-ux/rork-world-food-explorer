@@ -18,7 +18,7 @@ export const tuvalu: Country = {
       de: 'Ozeanien',
     },
     flag: '🇹🇻',
-    landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/14500738/pexels-photo-14500738.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Tuvalu is one of the world’s smallest and most remote countries, a low-lying Pacific island nation made up of coral atolls and extremely vulnerable to climate change and sea level rise.',
       sv: 'Tuvalu är ett av världens minsta och mest avlägsna länder, en låglänt Stillahavsö-nation som består av korallatoller och extremt sårbar för klimatförändringar och havsnivåhöjningar.',

@@ -18,7 +18,7 @@ export const bulgaria: Country = {
       de: 'Europa',
     },
     flag: '🇧🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1590301157890-4810ed352733?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/28912427/pexels-photo-28912427.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Bulgaria is a Balkan nation with diverse terrain encompassing Black Sea coastline, mountains, and rivers. Known for its rich history spanning from ancient Thracian ruins to Ottoman mosques, Bulgaria offers a unique blend of Eastern and Western cultures.',
       sv: 'Bulgarien är en Balkannation med varierande terräng som omfattar Svarta havets kustlinje, berg och floder. Bulgarien är känt för sin rika historia som sträcker sig från gamla trakiska ruiner till ottomanska moskéer, och erbjuder en unik blandning av österländska och västerländska kulturer.',

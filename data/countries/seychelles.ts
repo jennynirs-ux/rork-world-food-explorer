@@ -18,7 +18,7 @@ export const seychelles: Country = {
       de: 'Afrika',
     },
     flag: '🇸🇨',
-    landscapeImage: 'https://images.unsplash.com/photo-1589979481223-deb893043163?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/7362483/pexels-photo-7362483.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Seychelles is an Indian Ocean archipelago of 115 islands known for turquoise lagoons, dramatic granite boulders, coral reefs, and rare wildlife. It is famous for protected nature reserves and idyllic beaches across Mahé, Praslin, and La Digue.',
       sv: 'Seychellerna är en ögrupp i Indiska oceanen med 115 öar känd för turkosa laguner, dramatiska granitblock, korallrev och sällsynt djurliv. Det är känt för skyddade naturreservat och idylliska stränder över Mahé, Praslin och La Digue.',

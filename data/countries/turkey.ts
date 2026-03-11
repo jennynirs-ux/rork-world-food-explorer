@@ -18,7 +18,7 @@ export const turkey: Country = {
       de: 'Asien/Europa',
     },
     flag: '🇹🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/3122088/pexels-photo-3122088.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Turkey is a transcontinental country bridging Europe and Asia, with a rich history spanning ancient civilizations. Known for its Byzantine and Ottoman heritage, stunning landscapes, and delicious cuisine.',
       sv: 'Turkiet är ett transkontinentalt land som överbryggar Europa och Asien, med en rik historia som spänner över antika civilisationer. Känd för sitt bysantinska och ottomanska arv, fantastiska landskap och utsökt mat.',

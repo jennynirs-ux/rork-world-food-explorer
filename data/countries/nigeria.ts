@@ -18,7 +18,7 @@ export const nigeria: Country = {
       de: 'Afrika',
     },
     flag: '🇳🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1618828665011-0abd973f7bb8?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/19780119/pexels-photo-19780119.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Nigeria is Africa\'s most populous country and largest economy, known for its diverse cultures, vibrant music scene (especially Afrobeats), and Nollywood film industry. Home to over 250 ethnic groups, Nigeria is a cultural powerhouse.',
       sv: 'Nigeria är Afrikas folkrikaste land och största ekonomi, känt för sina olika kulturer, pulserande musikscen (särskilt Afrobeats) och Nollywoods filmindustri. Hem för över 250 etniska grupper är Nigeria ett kulturellt kraftpaket.',

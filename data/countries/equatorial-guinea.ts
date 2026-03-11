@@ -18,7 +18,7 @@ export const equatorialGuinea: Country = {
       de: 'Afrika',
     },
     flag: '🇬🇶',
-    landscapeImage: 'https://images.unsplash.com/photo-1562690868-60bbe7293e94?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35680717/pexels-photo-35680717.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Equatorial Guinea is a Central African country with a mainland region and islands, known for oil production and Spanish colonial heritage.',
       sv: 'Ekvatorialguinea är ett centralafrikanskt land med en fastlandsregion och öar, känt för oljeproduktion och spanskt kolonialt arv.',

@@ -18,7 +18,7 @@ export const afghanistan: Country = {
       de: 'Asien',
     },
     flag: '🇦🇫',
-    landscapeImage: 'https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&q=80&w=800&ar=16:9',
+    landscapeImage: 'https://images.pexels.com/photos/8828455/pexels-photo-8828455.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Afghanistan is a landlocked country in Central Asia, known for its mountainous terrain, rich history along the Silk Road, and resilient culture. It has a complex heritage influenced by various empires and civilizations.',
       sv: 'Afghanistan är ett landlockat land i Centralasien, känt för sin bergiga terräng, rika historia längs Sidenvägen och sin motståndskraftiga kultur. Den har ett komplext arv som påverkats av olika imperier och civilisationer.',

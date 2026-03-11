@@ -18,7 +18,7 @@ export const georgia: Country = {
       de: 'Europa',
     },
     flag: '🇬🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/457996/pexels-photo-457996.png?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Georgia is a country at the crossroads of Europe and Asia, known for its ancient wine culture, stunning mountains, and warm hospitality.',
       sv: 'Georgien är ett land i korsningen mellan Europa och Asien, känt för sin gamla vinkultur, fantastiska berg och varma gästfrihet.',

@@ -18,7 +18,7 @@ export const monaco: Country = {
       de: 'Europa',
     },
     flag: '🇲🇨',
-    landscapeImage: 'https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/11892586/pexels-photo-11892586.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Monaco is a tiny city-state on the French Riviera, known for luxury, casinos, the Grand Prix, and being a billionaire\'s playground.',
       sv: 'Monaco är en liten stadsstat på den franska rivieran, känd för lyx, kasinon, Grand Prix och att vara en miljardärs lekplats.',

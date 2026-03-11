@@ -18,7 +18,7 @@ export const barbados: Country = {
       de: 'Nordamerika',
     },
     flag: '🇧🇧',
-    landscapeImage: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/5287934/pexels-photo-5287934.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Barbados is an eastern Caribbean island known for beautiful beaches, British colonial heritage, and as the birthplace of rum.',
       sv: 'Barbados är en ö i östra karibiska ön känd för vackra stränder, brittiskt kolonialt arv och som födelseplatsen för rom.',

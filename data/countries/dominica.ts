@@ -18,7 +18,7 @@ export const dominica: Country = {
       de: 'Nordamerika',
     },
     flag: '🇩🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1544735716-ea9ef790f501?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/15047915/pexels-photo-15047915.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Dominica is the "Nature Island of the Caribbean," known for lush rainforests, hot springs, waterfalls, and the boiling lake.',
       sv: 'Dominica är "Karibiens naturön", känd för frodiga regnskogar, varma källor, vattenfall och den kokande sjön.',

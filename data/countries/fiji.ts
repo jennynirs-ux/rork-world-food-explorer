@@ -18,7 +18,7 @@ export const fiji: Country = {
       de: 'Ozeanien',
     },
     flag: '🇫🇯',
-    landscapeImage: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/33732084/pexels-photo-33732084.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Fiji is an island nation in the South Pacific known for pristine beaches, coral reefs, friendly locals, and the greeting "Bula!"',
       sv: 'Fiji är en önation i södra Stilla havet känd för orörda stränder, korallrev, vänliga lokalbefolkningen och hälsningen "Bula!"',

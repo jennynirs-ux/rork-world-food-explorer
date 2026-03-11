@@ -18,7 +18,7 @@ export const cameroon: Country = {
       de: 'Afrika',
     },
     flag: '🇨🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1580502304784-8985b7eb7260?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/17290996/pexels-photo-17290996.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Cameroon is known as "Africa in Miniature" for its geological and cultural diversity, featuring beaches, deserts, mountains, rainforests, and savannas.',
       sv: 'Kamerun är känt som "Afrika i miniatyr" för sin geologiska och kulturella mångfald, med stränder, öknar, berg, regnskogar och savanner.',

@@ -18,7 +18,7 @@ export const iran: Country = {
       de: 'Asien',
     },
     flag: '🇮🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1565711561500-49678a10a63f?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/6269264/pexels-photo-6269264.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Iran, formerly known as Persia, is home to one of the world\'s oldest continuous civilizations. With stunning architecture, rich poetry tradition, and diverse landscapes from deserts to snow-capped mountains, Iran offers a unique cultural experience.',
       sv: 'Iran, tidigare känt som Persien, är hem för en av världens äldsta kontinuerliga civilisationer. Med fantastisk arkitektur, rik poesitradition och olika landskap från öknar till snötäckta berg, erbjuder Iran en unik kulturell upplevelse.',

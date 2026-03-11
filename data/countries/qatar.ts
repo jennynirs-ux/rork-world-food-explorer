@@ -18,7 +18,7 @@ export const qatar: Country = {
       de: 'Asien',
     },
     flag: '🇶🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1572816703439-d1f4d66e6b28?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/15207726/pexels-photo-15207726.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Qatar is a wealthy Gulf state known for modern architecture, hosting the 2022 FIFA World Cup, and vast natural gas reserves.',
       sv: 'Qatar är en rik Gulfstat känd för modern arkitektur, värd för fotbolls-VM 2022 och stora naturgasreserver.',

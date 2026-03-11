@@ -18,7 +18,7 @@ export const newZealand: Country = {
       de: 'Ozeanien',
     },
     flag: '🇳🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1469521669194-babb45599def?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/29014723/pexels-photo-29014723.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'New Zealand is a remote island nation known for dramatic landscapes, Maori culture, adventure sports, and being the filming location for Lord of the Rings. Clean, green, and spectacularly beautiful.',
       sv: 'Nya Zeeland är en avlägsen önation känd för dramatiska landskap, maorikultur, äventyrssporter och att vara inspelningsplatsen för Sagan om ringen. Rent, grönt och spektakulärt vackert.',

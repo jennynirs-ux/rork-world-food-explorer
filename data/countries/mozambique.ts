@@ -18,7 +18,7 @@ export const mozambique: Country = {
       de: 'Afrika',
     },
     flag: '🇲🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1609691624111-12b2e09c9bfe?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/19963962/pexels-photo-19963962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Mozambique boasts stunning beaches, vibrant Portuguese-African culture, and rich marine life. A coastal paradise with a unique blend of African and Portuguese influences.',
       sv: 'Moçambique har fantastiska stränder, livlig portugisisk-afrikansk kultur och ett rikt marint liv. Ett kustparadis med en unik blandning av afrikanska och portugisiska influenser.',

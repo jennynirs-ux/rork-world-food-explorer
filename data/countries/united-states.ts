@@ -18,7 +18,7 @@ export const unitedStates: Country = {
       de: 'Nordamerika',
     },
     flag: '🇺🇸',
-    landscapeImage: 'https://images.unsplash.com/photo-1485738422979-f5c462d49f04?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/2978019/pexels-photo-2978019.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The United States is a vast country stretching across North America with diverse landscapes, cultures, and cities. Known for innovation, entertainment, and the American Dream.',
       sv: 'USA är ett stort land som sträcker sig över Nordamerika med olika landskap, kulturer och städer. Känd för innovation, underhållning och den amerikanska drömmen.',

@@ -18,7 +18,7 @@ export const zambia: Country = {
       de: 'Afrika',
     },
     flag: '🇿🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/16241810/pexels-photo-16241810.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Zambia is a landlocked country in Southern Africa, famous for Victoria Falls, vast wilderness areas, and authentic safari experiences. It is known for its peaceful people and strong cultural traditions.',
       sv: 'Zambia är ett landlockat land i södra Afrika, känt för Victoriafallen, stora vildmarksområden och autentiska safariupplevelser. Det är känt för sina fridfulla människor och starka kulturella traditioner.',

@@ -18,7 +18,7 @@ export const democraticRepublicCongo: Country = {
       de: 'Afrika',
     },
     flag: '🇨🇩',
-    landscapeImage: 'https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/30184930/pexels-photo-30184930.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The DRC is the second-largest country in Africa, featuring the Congo River, vast rainforests, and incredible biodiversity.',
       sv: 'DRC är det näst största landet i Afrika, med Kongofloden, stora regnskogar och otrolig biologisk mångfald.',

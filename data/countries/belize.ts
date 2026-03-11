@@ -18,7 +18,7 @@ export const belize: Country = {
       de: 'Nordamerika',
     },
     flag: '🇧🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/15382269/pexels-photo-15382269.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Belize is a Caribbean country on the northeastern coast of Central America, known for the Belize Barrier Reef, Mayan ruins, and diverse ecosystems.',
       sv: 'Belize är ett karibiskt land på Centralamerikas nordöstra kust, känt för Belizes barriärrev, mayaruiner och olika ekosystem.',

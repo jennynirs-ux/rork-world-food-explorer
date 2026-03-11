@@ -18,7 +18,7 @@ export const suriname: Country = {
       de: 'Südamerika',
     },
     flag: '🇸🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1505881402582-763970a1e27e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/15031991/pexels-photo-15031991.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Suriname is a small South American country on the Atlantic coast, known for its vast rainforests, Dutch colonial heritage, and one of the most culturally diverse populations in the world.',
       sv: 'Surinam är ett litet sydamerikanskt land vid Atlantkusten, känt för sina stora regnskogar, holländska koloniala arv och en av de mest kulturellt mångfaldiga befolkningarna i världen.',

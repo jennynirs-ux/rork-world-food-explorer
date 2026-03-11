@@ -18,7 +18,7 @@ export const italy: Country = {
       de: 'Europa',
     },
     flag: '🇮🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/17012818/pexels-photo-17012818.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins.',
       sv: 'Italien, ett europeiskt land med en lång Medelhavskust, har satt en kraftfull prägel på västerländsk kultur och kök. Dess huvudstad, Rom, är hem för Vatikanen samt landmärke konst och antika ruiner.',

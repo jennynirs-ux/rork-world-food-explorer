@@ -18,7 +18,7 @@ export const guyana: Country = {
       de: 'Südamerika',
     },
     flag: '🇬🇾',
-    landscapeImage: 'https://images.unsplash.com/photo-1534073737927-85f1ebf1f911?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/33202816/pexels-photo-33202816.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Guyana is the only English-speaking country in South America, known for pristine rainforests, Kaieteur Falls, and diverse culture.',
       sv: 'Guyana är det enda engelsktalande landet i Sydamerika, känt för orörda regnskogar, Kaieteur Falls och mångsidig kultur.',

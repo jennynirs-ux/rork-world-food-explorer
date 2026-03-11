@@ -18,7 +18,7 @@ export const romania: Country = {
       de: 'Europa',
     },
     flag: '🇷🇴',
-    landscapeImage: 'https://images.unsplash.com/photo-1564221710304-0b37c2e6d6b7?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/31658718/pexels-photo-31658718.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Romania is a Southeastern European country known for its medieval castles, forested region of Transylvania, and the Carpathian Mountains. The country blends Latin heritage with Slavic and Ottoman influences.',
       sv: 'Rumänien är ett sydösteuropeiskt land känt för sina medeltida slott, den skogsklädda regionen Transsylvanien och Karpaterna. Landet blandar latinskt arv med slaviska och ottomanska influenser.',

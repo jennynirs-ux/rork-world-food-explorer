@@ -18,7 +18,7 @@ export const brunei: Country = {
       de: 'Asien',
     },
     flag: '🇧🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/12587133/pexels-photo-12587133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Brunei is a small, wealthy Islamic sultanate on Borneo with magnificent mosques and pristine rainforests. Known for its oil wealth and peaceful, traditional culture.',
       sv: 'Brunei är ett litet, rikt islamskt sultanat på Borneo med magnifika moskéer och orörda regnskogar. Känd för sin oljerikedom och fredliga, traditionella kultur.',

@@ -18,7 +18,7 @@ export const paraguay: Country = {
       de: 'Südamerika',
     },
     flag: '🇵🇾',
-    landscapeImage: 'https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/14515195/pexels-photo-14515195.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Paraguay is a landlocked country with a bilingual culture speaking both Spanish and Guaraní. Known for its yerba mate tradition, Jesuit missions, and warm hospitality.',
       sv: 'Paraguay är ett landlockat land med en tvåspråkig kultur som talar både spanska och Guaraní. Känd för sin yerba mate-tradition, jesuituppdrag och varma gästfrihet.',

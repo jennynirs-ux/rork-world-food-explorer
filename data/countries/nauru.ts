@@ -18,7 +18,7 @@ export const nauru: Country = {
       de: 'Ozeanien',
     },
     flag: '🇳🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/28299491/pexels-photo-28299491.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Nauru is the world\'s smallest island nation, known for phosphate mining history and unique challenges.',
       sv: 'Nauru är världens minsta önation, känd för fosfatbrytningshistoria och unika utmaningar.',

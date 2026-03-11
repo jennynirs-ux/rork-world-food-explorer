@@ -18,7 +18,7 @@ export const zimbabwe: Country = {
       de: 'Afrika',
     },
     flag: '🇿🇼',
-    landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/19963962/pexels-photo-19963962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Zimbabwe is a landlocked Southern African country known for Victoria Falls, ancient stone ruins, and rich wildlife. From the dramatic Zambezi River landscapes to the historic Great Zimbabwe site, the country blends natural beauty with deep cultural heritage.',
       sv: 'Zimbabwe är ett landlockat södra afrikanskt land känt för Victoriafallen, gamla stenruiner och ett rikt djurliv. Från de dramatiska landskapen i Zambezifloden till den historiska platsen Great Zimbabwe, landet blandar naturlig skönhet med djupt kulturarv.',

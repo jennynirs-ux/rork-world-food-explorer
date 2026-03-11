@@ -18,7 +18,7 @@ export const djibouti: Country = {
       de: 'Afrika',
     },
     flag: '🇩🇯',
-    landscapeImage: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8828328/pexels-photo-8828328.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Djibouti is a small country on the Horn of Africa, known for its strategic location on the Red Sea, volcanic landscapes, and Lake Assal.',
       sv: 'Djibouti är ett litet land på Afrikas horn, känt för sitt strategiska läge vid Röda havet, vulkaniska landskap och Assalsjön.',

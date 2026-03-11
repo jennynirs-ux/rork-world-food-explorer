@@ -18,7 +18,7 @@ export const rwanda: Country = {
       de: 'Afrika',
     },
     flag: '🇷🇼',
-    landscapeImage: 'https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/19827348/pexels-photo-19827348.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Rwanda, the "Land of a Thousand Hills," is known for its mountainous terrain, mountain gorillas, and remarkable recovery. A country of stunning beauty and inspiring resilience.',
       sv: 'Rwanda, "Land of a Thousand Hills", är känt för sin bergiga terräng, bergsgorillor och enastående återhämtning. Ett land med fantastisk skönhet och inspirerande motståndskraft.',

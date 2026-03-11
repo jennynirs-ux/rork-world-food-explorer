@@ -18,7 +18,7 @@ export const namibia: Country = {
       de: 'Afrika',
     },
     flag: '🇳🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1509057199576-632a47484546?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35919470/pexels-photo-35919470.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Namibia features the world\'s oldest desert, dramatic landscapes, and diverse wildlife. A land of endless horizons, towering sand dunes, and star-filled skies.',
       sv: 'Namibia har världens äldsta öken, dramatiska landskap och ett varierat djurliv. Ett land med oändliga horisonter, höga sanddyner och stjärnfyllda himlar.',

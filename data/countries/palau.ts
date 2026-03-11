@@ -18,7 +18,7 @@ export const palau: Country = {
       de: 'Ozeanien',
     },
     flag: '🇵🇼',
-    landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/7362514/pexels-photo-7362514.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Palau is a Pacific island nation known for pristine diving, Jellyfish Lake, Rock Islands, and strong environmental protection.',
       sv: 'Palau är en ö-nation i Stilla havet som är känd för orörd dykning, Jellyfish Lake, Rock Islands och starkt miljöskydd.',

@@ -18,7 +18,7 @@ export const gambia: Country = {
       de: 'Afrika',
     },
     flag: '🇬🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/12633306/pexels-photo-12633306.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Gambia is the smallest country in mainland Africa, a narrow strip along the Gambia River surrounded by Senegal, known for beaches and birdwatching.',
       sv: 'Gambia är det minsta landet på Afrikas fastland, en smal remsa längs Gambiafloden omgiven av Senegal, känt för stränder och fågelskådning.',

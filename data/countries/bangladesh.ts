@@ -18,7 +18,7 @@ export const bangladesh: Country = {
       de: 'Asien',
     },
     flag: '🇧🇩',
-    landscapeImage: 'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/34711309/pexels-photo-34711309.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Bangladesh is a South Asian country known for its lush greenery, mighty rivers, vibrant culture, and warm hospitality. Home to the world\'s longest natural sea beach and the largest mangrove forest, it offers rich biodiversity and cultural heritage.',
       sv: 'Bangladesh är ett sydasiatiskt land känt för sin frodiga grönska, mäktiga floder, pulserande kultur och varma gästfrihet. Hem till världens längsta naturliga havsstrand och den största mangroveskogen, erbjuder den en rik biologisk mångfald och kulturarv.',

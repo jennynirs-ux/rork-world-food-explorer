@@ -18,7 +18,7 @@ export const poland: Country = {
       de: 'Europa',
     },
     flag: '🇵🇱',
-    landscapeImage: 'https://images.unsplash.com/photo-1519197924294-4ba991a11128?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/36154045/pexels-photo-36154045.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Poland is a Central European country with a rich and turbulent history. From medieval castles to vibrant modern cities, Poland offers stunning architecture, hearty cuisine, and resilient culture that has survived centuries of challenges.',
       sv: 'Polen är ett centraleuropeiskt land med en rik och turbulent historia. Från medeltida slott till pulserande moderna städer, Polen erbjuder fantastisk arkitektur, rejäl mat och en spänstig kultur som har överlevt århundraden av utmaningar.',

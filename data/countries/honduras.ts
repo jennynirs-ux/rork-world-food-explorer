@@ -18,7 +18,7 @@ export const honduras: Country = {
       de: 'Nordamerika',
     },
     flag: '🇭🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/33290659/pexels-photo-33290659.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Honduras is a Central American country known for Mayan ruins, Caribbean beaches, diving in the Bay Islands, and coffee production.',
       sv: 'Honduras är ett centralamerikanskt land känt för mayaruiner, karibiska stränder, dykning på Bay Islands och kaffeproduktion.',

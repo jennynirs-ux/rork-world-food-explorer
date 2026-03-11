@@ -18,7 +18,7 @@ export const kiribati: Country = {
       de: 'Ozeanien',
     },
     flag: '🇰🇮',
-    landscapeImage: 'https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8828452/pexels-photo-8828452.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Kiribati is a Pacific island nation spread across the equator, known for pristine atolls, fishing, and vulnerability to climate change.',
       sv: 'Kiribati är en ö-nation i Stilla havet spridd över ekvatorn, känd för orörda atoller, fiske och sårbarhet för klimatförändringar.',

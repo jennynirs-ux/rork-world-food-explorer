@@ -18,7 +18,7 @@ export const belarus: Country = {
       de: 'Europa',
     },
     flag: '🇧🇾',
-    landscapeImage: 'https://images.unsplash.com/photo-1569154941061-e231b4725ef1?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/11101564/pexels-photo-11101564.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Belarus is a landlocked country in Eastern Europe known for vast forests, Soviet-era architecture, and rich folk traditions.',
       sv: 'Vitryssland är ett landlockat land i Östeuropa känt för vidsträckta skogar, sovjettidens arkitektur och rika folktraditioner.',

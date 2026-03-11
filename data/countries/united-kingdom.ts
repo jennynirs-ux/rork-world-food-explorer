@@ -18,7 +18,7 @@ export const unitedKingdom: Country = {
       de: 'Europa',
     },
     flag: '🇬🇧',
-    landscapeImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35749463/pexels-photo-35749463.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The United Kingdom comprises England, Scotland, Wales, and Northern Ireland, known for rich history, royal heritage, and global cultural influence.',
       sv: 'Storbritannien består av England, Skottland, Wales och Nordirland, känt för sin rika historia, kungliga arv och globalt kulturellt inflytande.',

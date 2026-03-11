@@ -18,7 +18,7 @@ export const germany: Country = {
       de: 'Europa',
     },
     flag: '🇩🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/36148550/pexels-photo-36148550.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Germany is a country of diverse landscapes, from the Alps to the North Sea. Known for precision engineering, beer culture, fairy-tale castles, and a complex but fascinating history.',
       sv: 'Tyskland är ett land med olika landskap, från Alperna till Nordsjön. Känd för finmekanik, ölkultur, sagoslott och en komplex men fascinerande historia.',

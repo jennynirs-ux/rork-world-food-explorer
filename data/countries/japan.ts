@@ -18,7 +18,7 @@ export const japan: Country = {
       de: 'Asien',
     },
     flag: '🇯🇵',
-    landscapeImage: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/17982188/pexels-photo-17982188.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Japan is an island nation in East Asia known for its unique blend of ancient traditions and cutting-edge technology. From cherry blossoms to bullet trains, it offers a fascinating cultural experience.',
       sv: 'Japan är en önation i Östasien känd för sin unika blandning av uråldriga traditioner och banbrytande teknologi. Från körsbärsblommor till kultåg erbjuder det en fascinerande kulturell upplevelse.',

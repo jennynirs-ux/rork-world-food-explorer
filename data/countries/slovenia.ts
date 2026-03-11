@@ -18,7 +18,7 @@ export const slovenia: Country = {
       de: 'Europa',
     },
     flag: '🇸🇮',
-    landscapeImage: 'https://images.unsplash.com/photo-1573530089984-6243b76e4611?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35565954/pexels-photo-35565954.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Slovenia is a small but stunning country in Central Europe, known for its mountains, ski resorts, and lakes. Despite its small size, it offers incredible natural diversity from the Alps to the Mediterranean coast.',
       sv: 'Slovenien är ett litet men fantastiskt land i Centraleuropa, känt för sina berg, skidorter och sjöar. Trots sin ringa storlek erbjuder den en otrolig naturlig mångfald från Alperna till Medelhavskusten.',

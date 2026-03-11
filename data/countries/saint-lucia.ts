@@ -18,7 +18,7 @@ export const saintLucia: Country = {
       de: 'Nordamerika',
     },
     flag: '🇱🇨',
-    landscapeImage: 'https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35054104/pexels-photo-35054104.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Saint Lucia is a Caribbean island known for the iconic Pitons, volcanic landscapes, lush rainforests, and a vibrant Creole culture. It is famous for scenic drives, warm hospitality, and a mix of French and British colonial heritage.',
       sv: 'Saint Lucia är en karibisk ö känd för de ikoniska Pitons, vulkaniska landskap, frodiga regnskogar och en livlig kreolsk kultur. Det är känt för natursköna vägar, varm gästfrihet och en blandning av franskt och brittiskt kolonialt arv.',

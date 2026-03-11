@@ -18,7 +18,7 @@ export const oman: Country = {
       de: 'Asien',
     },
     flag: '🇴🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/36471620/pexels-photo-36471620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Oman is an Arabian Peninsula country known for diverse landscapes from deserts to mountains, ancient forts, and traditional culture.',
       sv: 'Oman är ett land på den arabiska halvön känt för olika landskap från öknar till berg, gamla fort och traditionell kultur.',

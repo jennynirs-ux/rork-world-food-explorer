@@ -18,7 +18,7 @@ export const vaticanCity: Country = {
       de: 'Europa',
     },
     flag: '🇻🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/29822004/pexels-photo-29822004.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Vatican City is the world\'s smallest country, headquarters of the Roman Catholic Church, known for St. Peter\'s Basilica and the Sistine Chapel.',
       sv: 'Vatikanstaten är världens minsta land, högkvarter för den romersk-katolska kyrkan, känt för Peterskyrkan och Sixtinska kapellet.',

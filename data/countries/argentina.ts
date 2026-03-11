@@ -18,7 +18,7 @@ export const argentina: Country = {
       de: 'Südamerika',
     },
     flag: '🇦🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/29145587/pexels-photo-29145587.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Argentina is a vast South American country with diverse landscapes from the Andes mountains to Patagonian glaciers. Known for tango, beef, wine, and passionate football culture.',
       sv: 'Argentina är ett vidsträckt sydamerikanskt land med olika landskap från Anderna till Patagoniska glaciärer. Känd för tango, nötkött, vin och passionerad fotbollskultur.',

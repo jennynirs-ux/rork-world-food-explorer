@@ -18,7 +18,7 @@ export const norway: Country = {
       de: 'Europa',
     },
     flag: '🇳🇴',
-    landscapeImage: 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/27582249/pexels-photo-27582249.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Norway is famous for breathtaking fjords, Northern Lights, midnight sun, and Viking heritage. With stunning natural beauty and high quality of life, Norway offers a unique blend of outdoor adventure and modern Scandinavian culture.',
       sv: 'Norge är känt för hisnande fjordar, norrsken, midnattssol och vikingarv. Med fantastisk naturlig skönhet och hög livskvalitet erbjuder Norge en unik blandning av utomhusäventyr och modern skandinavisk kultur.',

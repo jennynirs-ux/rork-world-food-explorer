@@ -18,7 +18,7 @@ export const croatia: Country = {
       de: 'Europa',
     },
     flag: '🇭🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1565073182887-6bcefbe225b1?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/32794249/pexels-photo-32794249.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Croatia is a stunning Mediterranean country known for its crystal-clear Adriatic coastline, historic walled cities, beautiful islands, and rich cultural heritage. From ancient Roman ruins to medieval fortresses, it offers a perfect blend of history and natural beauty.',
       sv: 'Kroatien är ett fantastiskt Medelhavsland känt för sin kristallklara Adriatiska kust, historiska muromgärdade städer, vackra öar och rika kulturarv. Från antika romerska ruiner till medeltida fästningar, det erbjuder en perfekt blandning av historia och naturlig skönhet.',

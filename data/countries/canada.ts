@@ -18,7 +18,7 @@ export const canada: Country = {
       de: 'Nordamerika',
     },
     flag: '🇨🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/2960861/pexels-photo-2960861.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Canada is the second-largest country in the world, known for stunning natural beauty, multiculturalism, politeness, and maple syrup. From mountains to coastlines to vast forests.',
       sv: 'Kanada är det näst största landet i världen, känt för fantastisk naturlig skönhet, mångkultur, artighet och lönnsirap. Från berg till kustlinjer till vidsträckta skogar.',

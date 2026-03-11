@@ -18,7 +18,7 @@ export const tunisia: Country = {
       de: 'Afrika',
     },
     flag: '🇹🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1590071089561-25785860ae2d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/29821336/pexels-photo-29821336.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Tunisia is a North African country combining Arab and Berber cultures with Mediterranean influences. Known for ancient ruins, beautiful beaches, and diverse landscapes from the Sahara to the coast.',
       sv: 'Tunisien är ett nordafrikanskt land som kombinerar arabisk och berberkultur med medelhavsinfluenser. Känd för gamla ruiner, vackra stränder och olika landskap från Sahara till kusten.',

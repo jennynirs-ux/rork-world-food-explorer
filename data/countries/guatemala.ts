@@ -18,7 +18,7 @@ export const guatemala: Country = {
       de: 'Nordamerika',
     },
     flag: '🇬🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1608236415053-3691dcbb37f1?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/10653712/pexels-photo-10653712.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Guatemala is a Central American country with Mayan heritage, volcanic landscapes, colonial cities, and vibrant indigenous culture.',
       sv: 'Guatemala är ett centralamerikanskt land med mayarv, vulkaniska landskap, koloniala städer och levande ursprungskultur.',

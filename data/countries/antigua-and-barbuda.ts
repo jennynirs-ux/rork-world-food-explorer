@@ -18,7 +18,7 @@ export const antiguaAndBarbuda: Country = {
       de: 'Nordamerika',
     },
     flag: '🇦🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/17660495/pexels-photo-17660495.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Antigua and Barbuda is a twin-island nation in the Caribbean, known for 365 beaches, British colonial heritage, and vibrant carnival celebrations.',
       sv: 'Antigua och Barbuda är en tvillingö-nation i Karibien, känd för 365 stränder, brittiskt kolonialarv och livliga karnevalsfiranden.',

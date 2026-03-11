@@ -18,7 +18,7 @@ export const syria: Country = {
       de: 'Asien',
     },
     flag: '🇸🇾',
-    landscapeImage: 'https://images.unsplash.com/photo-1597211684565-dca64d72c5ac?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/29123664/pexels-photo-29123664.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Syria is an ancient Middle Eastern country with a rich history dating back millennia, known for Damascus, Aleppo, and diverse cultural heritage.',
       sv: 'Syrien är ett gammalt land i Mellanöstern med en rik historia som sträcker sig årtusenden tillbaka, känt för Damaskus, Aleppo och mångsidigt kulturarv.',

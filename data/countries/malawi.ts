@@ -18,7 +18,7 @@ export const malawi: Country = {
       de: 'Afrika',
     },
     flag: '🇲🇼',
-    landscapeImage: 'https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/36370565/pexels-photo-36370565.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Malawi, the "Warm Heart of Africa," is known for Lake Malawi, friendly people, and stunning landscapes. A peaceful country with incredible freshwater diving and diverse wildlife.',
       sv: 'Malawi, "Afrikas varma hjärta", är känt för Malawisjön, vänliga människor och fantastiska landskap. Ett fridfullt land med otrolig sötvattensdykning och ett varierat djurliv.',

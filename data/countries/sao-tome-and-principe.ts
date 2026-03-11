@@ -18,7 +18,7 @@ export const saoTomeAndPrincipe: Country = {
       de: 'Afrika',
     },
     flag: '🇸🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35680716/pexels-photo-35680716.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Sao Tome and Principe is a small island nation in the Gulf of Guinea, known for lush rainforests, volcanic peaks, rich biodiversity, and a long cocoa-growing tradition shaped by Portuguese heritage.',
       sv: 'Sao Tomé och Principe är en liten önation i Guineabukten, känd för frodiga regnskogar, vulkaniska toppar, rik biologisk mångfald och en lång kakaoodlingstradition formad av portugisiskt arv.',

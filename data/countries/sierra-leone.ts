@@ -18,7 +18,7 @@ export const sierraLeone: Country = {
       de: 'Afrika',
     },
     flag: '🇸🇱',
-    landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/28351270/pexels-photo-28351270.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Sierra Leone is a West African country known for beautiful Atlantic beaches, rainforest reserves, and a resilient culture shaped by trade, colonial history, and post-conflict recovery.',
       sv: 'Sierra Leone är ett västafrikanskt land känt för vackra Atlantstränder, regnskogsreservat och en motståndskraftig kultur formad av handel, kolonial historia och återhämtning efter en konflikt.',

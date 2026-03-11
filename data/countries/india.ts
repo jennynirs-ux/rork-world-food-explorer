@@ -18,7 +18,7 @@ export const india: Country = {
       de: 'Asien',
     },
     flag: '🇮🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/9144156/pexels-photo-9144156.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'India is a vast South Asian country with diverse terrain, from Himalayan peaks to Indian Ocean coastline. Known for its rich history, spiritual traditions, colorful festivals, and aromatic cuisine.',
       sv: 'Indien är ett stort sydasiatiskt land med varierande terräng, från Himalayas toppar till Indiska oceanens kust. Känd för sin rika historia, andliga traditioner, färgglada festivaler och aromatiska rätter.',

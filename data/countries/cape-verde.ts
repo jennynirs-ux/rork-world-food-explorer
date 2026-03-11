@@ -18,7 +18,7 @@ export const capeVerde: Country = {
       de: 'Afrika',
     },
     flag: '🇨🇻',
-    landscapeImage: 'https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/30258610/pexels-photo-30258610.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Cape Verde is an island nation off the coast of West Africa, known for its Creole Portuguese-African culture, pristine beaches, and unique music.',
       sv: 'Kap Verde är en önation utanför Västafrikas kust, känd för sin kreolska portugisisk-afrikanska kultur, orörda stränder och unik musik.',

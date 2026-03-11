@@ -18,7 +18,7 @@ export const maldives: Country = {
       de: 'Asien',
     },
     flag: '🇲🇻',
-    landscapeImage: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/9394268/pexels-photo-9394268.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Maldives is a tropical paradise of 1,190 coral islands, known for luxury resorts, crystal-clear waters, and marine biodiversity.',
       sv: 'Maldiverna är ett tropiskt paradis med 1 190 korallöar, kända för lyxresorter, kristallklart vatten och marin biologisk mångfald.',

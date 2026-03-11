@@ -18,7 +18,7 @@ export const southSudan: Country = {
       de: 'Afrika',
     },
     flag: '🇸🇸',
-    landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/980265/pexels-photo-980265.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'South Sudan is the world’s youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
       sv: 'Sydsudan är världens yngsta land, som blev självständigt 2011. Det är känt för de stora Sudd-våtmarkerna, ett rikt djurliv och en stor mångfald av etniska grupper och traditioner.',

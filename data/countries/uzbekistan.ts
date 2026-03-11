@@ -18,7 +18,7 @@ export const uzbekistan: Country = {
       de: 'Asien',
     },
     flag: '🇺🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8828455/pexels-photo-8828455.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Uzbekistan is a Central Asian country on the ancient Silk Road, known for stunning Islamic architecture, vibrant bazaars, and historic cities like Samarkand, Bukhara, and Khiva.',
       sv: 'Uzbekistan är ett centralasiatiskt land på den antika sidenvägen, känt för fantastisk islamisk arkitektur, pulserande basarer och historiska städer som Samarkand, Bukhara och Khiva.',

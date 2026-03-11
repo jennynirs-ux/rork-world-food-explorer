@@ -18,7 +18,7 @@ export const sweden: Country = {
       de: 'Europa',
     },
     flag: '🇸🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/32995053/pexels-photo-32995053.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Sweden is a Scandinavian nation known for its stunning natural beauty, innovative design, and high quality of life. From the Northern Lights to IKEA, Sweden offers a perfect blend of nature and modernity.',
       sv: 'Sverige är en skandinavisk nation känd för sin fantastiska naturliga skönhet, innovativa design och höga livskvalitet. Från norrsken till IKEA, Sverige erbjuder en perfekt blandning av natur och modernitet.',

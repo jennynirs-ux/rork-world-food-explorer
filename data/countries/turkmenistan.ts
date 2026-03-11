@@ -18,7 +18,7 @@ export const turkmenistan: Country = {
       de: 'Asien',
     },
     flag: '🇹🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8828455/pexels-photo-8828455.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Turkmenistan is a Central Asian country known for the vast Karakum Desert, ancient Silk Road cities, rich natural gas reserves, and striking white-marble architecture in its capital, Ashgabat.',
       sv: 'Turkmenistan är ett centralasiatiskt land känt för den stora Karakumöknen, antika sidenvägsstäder, rika naturgasreserver och slående vit marmorarkitektur i huvudstaden Ashgabat.',

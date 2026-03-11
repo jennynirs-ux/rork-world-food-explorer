@@ -18,7 +18,7 @@ export const singapore: Country = {
       de: 'Asien',
     },
     flag: '🇸🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/434576/pexels-photo-434576.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Singapore is a modern city-state and island nation known for its efficiency, cleanliness, multicultural society, world-class hawker food, and iconic skyline. It blends Chinese, Malay, Indian, and Western influences into a uniquely Singaporean identity.',
       sv: 'Singapore är en modern stadsstat och önation känd för sin effektivitet, renlighet, mångkulturella samhälle, gatumat i världsklass och sin ikoniska skyline. Den blandar kinesiska, malaysiska, indiska och västerländska influenser till en unik singaporeansk identitet.',

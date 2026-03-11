@@ -18,7 +18,7 @@ export const centralAfricanRepublic: Country = {
       de: 'Afrika',
     },
     flag: '🇨🇫',
-    landscapeImage: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/16777411/pexels-photo-16777411.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Central African Republic is a landlocked country known for its diverse wildlife, tropical forests, and rich mineral resources.',
       sv: 'Centralafrikanska republiken är ett landlockat land känt för sitt mångsidiga djurliv, tropiska skogar och rika mineraltillgångar.',

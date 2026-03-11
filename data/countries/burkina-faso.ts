@@ -18,7 +18,7 @@ export const burkinaFaso: Country = {
       de: 'Afrika',
     },
     flag: '🇧🇫',
-    landscapeImage: 'https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/15051742/pexels-photo-15051742.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Burkina Faso is a landlocked country in West Africa known for its vibrant music scene, traditional masks, and the biennial FESPACO film festival.',
       sv: 'Burkina Faso är ett landlockat land i Västafrika känt för sin livliga musikscen, traditionella masker och den tvååriga filmfestivalen FESPACO.',

@@ -18,7 +18,7 @@ export const unitedArabEmirates: Country = {
       de: 'Asien',
     },
     flag: '🇦🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/6259274/pexels-photo-6259274.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The United Arab Emirates is a federation of seven emirates known for its blend of tradition and ultramodern development, iconic skylines, desert landscapes, and global business hubs.',
       sv: 'Förenade Arabemiraten är en federation av sju emirat känd för sin blandning av tradition och ultramodern utveckling, ikoniska silhuetter, ökenlandskap och globala affärscentrum.',

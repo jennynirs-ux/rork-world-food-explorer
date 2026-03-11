@@ -18,7 +18,7 @@ export const uganda: Country = {
       de: 'Afrika',
     },
     flag: '🇺🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/12893373/pexels-photo-12893373.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Uganda, the "Pearl of Africa," is known for its diverse landscapes, mountain gorillas, and as the source of the Nile River. A country of lush rainforests, savannah, and friendly people.',
       sv: 'Uganda, "Afrikas pärla", är känt för sina olika landskap, bergsgorillor och som källan till Nilen. Ett land med frodiga regnskogar, savanner och vänliga människor.',

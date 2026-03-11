@@ -18,7 +18,7 @@ export const iceland: Country = {
       de: 'Europa',
     },
     flag: '🇮🇸',
-    landscapeImage: 'https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/4061011/pexels-photo-4061011.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Iceland is a Nordic island nation known for its dramatic volcanic landscapes, geothermal hot springs, massive glaciers, and the stunning Northern Lights. Despite its name, Iceland has a mild climate and a vibrant cultural scene.',
       sv: 'Island är en nordisk önation känd för sina dramatiska vulkaniska landskap, geotermiska varma källor, massiva glaciärer och det fantastiska norrskenet. Trots sitt namn har Island ett milt klimat och en levande kulturell scen.',

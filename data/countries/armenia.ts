@@ -18,7 +18,7 @@ export const armenia: Country = {
       de: 'Asien',
     },
     flag: '🇦🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1565711561500-49678a10a63f?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/32379976/pexels-photo-32379976.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Armenia is one of the world\'s oldest civilizations and the first nation to adopt Christianity as a state religion. Known for ancient monasteries, Mount Ararat views, and rich cultural heritage.',
       sv: 'Armenien är en av världens äldsta civilisationer och den första nationen att anta kristendomen som statsreligion. Känd för gamla kloster, utsikt över berget Ararat och rikt kulturarv.',

@@ -18,7 +18,7 @@ export const saudiArabia: Country = {
       de: 'Asien',
     },
     flag: '🇸🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/15483696/pexels-photo-15483696.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Saudi Arabia is the birthplace of Islam and home to Makkah and Madinah. It is known for vast desert landscapes, Red Sea coastlines, major oil resources, and rapid modernization under Vision 2030.',
       sv: 'Saudiarabien är islams födelseplats och hem till Mecka och Medina. Det är känt för vidsträckta ökenlandskap, Röda havets kustlinjer, stora oljeresurser och snabb modernisering under Vision 2030.',

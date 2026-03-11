@@ -18,7 +18,7 @@ export const lesotho: Country = {
       de: 'Afrika',
     },
     flag: '🇱🇸',
-    landscapeImage: 'https://images.unsplash.com/photo-1607234279747-12f3d4ca3c2e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/28451781/pexels-photo-28451781.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Lesotho is an enclaved country entirely surrounded by South Africa, known as the "Kingdom in the Sky" for its high altitude.',
       sv: 'Lesotho är ett enklaverat land helt omgivet av Sydafrika, känt som "Kingdom in the Sky" för sin höga höjd.',

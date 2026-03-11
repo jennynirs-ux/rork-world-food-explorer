@@ -18,7 +18,7 @@ export const marshallIslands: Country = {
       de: 'Ozeanien',
     },
     flag: '🇲🇭',
-    landscapeImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/31086786/pexels-photo-31086786.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Marshall Islands is a Pacific island nation known for pristine atolls, WWII history, and traditional navigation techniques.',
       sv: 'Marshallöarna är en ö-nation i Stilla havet känd för orörda atoller, WWII-historia och traditionella navigeringstekniker.',

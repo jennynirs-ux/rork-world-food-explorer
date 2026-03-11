@@ -18,7 +18,7 @@ export const malaysia: Country = {
       de: 'Asien',
     },
     flag: '🇲🇾',
-    landscapeImage: 'https://images.unsplash.com/photo-1508062878650-88b52897f298?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/5379303/pexels-photo-5379303.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Malaysia is a diverse Southeast Asian nation known for its multicultural society, pristine rainforests, beautiful beaches, modern cities, and incredible food scene blending Malay, Chinese, and Indian influences.',
       sv: 'Malaysia är en mångsidig sydostasiatisk nation känd för sitt mångkulturella samhälle, orörda regnskogar, vackra stränder, moderna städer och otroliga matscen som blandar malaysiska, kinesiska och indiska influenser.',

@@ -18,7 +18,7 @@ export const palestine: Country = {
       de: 'Asien',
     },
     flag: '🇵🇸',
-    landscapeImage: 'https://images.unsplash.com/photo-1597211684565-dca64d72c5ac?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/3805526/pexels-photo-3805526.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Palestine is a region in the Middle East with deep historical and religious significance, known for ancient cities and ongoing political complexity.',
       sv: 'Palestina är en region i Mellanöstern med djup historisk och religiös betydelse, känd för antika städer och pågående politisk komplexitet.',

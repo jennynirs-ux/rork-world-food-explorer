@@ -18,7 +18,7 @@ export const portugal: Country = {
       de: 'Europa',
     },
     flag: '🇵🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/553283/pexels-photo-553283.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Portugal is a southern European country on the Iberian Peninsula, bordering Spain. Its location on the Atlantic Ocean has influenced many aspects of its culture: salt cod and grilled sardines are national dishes, the Algarve\'s beaches are a major destination, and much of the nation\'s architecture dates to the 1500s–1800s, when Portugal had a powerful maritime empire.',
       sv: 'Portugal är ett sydeuropeiskt land på den iberiska halvön som gränsar till Spanien. Dess läge vid Atlanten har påverkat många aspekter av dess kultur: salt torsk och grillade sardiner är nationalrätter, Algarves stränder är en viktig destination, och mycket av landets arkitektur går tillbaka till 1500-1800-talet, då Portugal hade ett mäktigt sjöimperium.',

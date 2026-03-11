@@ -18,7 +18,7 @@ export const cambodia: Country = {
       de: 'Asien',
     },
     flag: '🇰🇭',
-    landscapeImage: 'https://images.unsplash.com/photo-1528127269322-539801943592?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/19153799/pexels-photo-19153799.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Cambodia is home to the magnificent Angkor Wat temple complex and rich Khmer culture. A resilient nation with ancient heritage and warm, welcoming people.',
       sv: 'Kambodja är hem för det magnifika tempelkomplexet Angkor Wat och den rika khmerkulturen. En motståndskraftig nation med gammalt arv och varma, välkomnande människor.',

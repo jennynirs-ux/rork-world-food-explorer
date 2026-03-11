@@ -18,7 +18,7 @@ export const nicaragua: Country = {
       de: 'Nordamerika',
     },
     flag: '🇳🇮',
-    landscapeImage: 'https://images.unsplash.com/photo-1608236415053-3691bd72c9df?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/3470872/pexels-photo-3470872.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Nicaragua is the largest Central American country, known for dramatic Pacific and Caribbean coasts, volcanoes, and colonial cities.',
       sv: 'Nicaragua är det största centralamerikanska landet, känt för sina dramatiska Stillahavs- och Karibiska kuster, vulkaner och koloniala städer.',

@@ -18,7 +18,7 @@ export const switzerland: Country = {
       de: 'Europa',
     },
     flag: '🇨🇭',
-    landscapeImage: 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/11556820/pexels-photo-11556820.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Switzerland is a mountainous Central European country known for its stunning Alps, pristine lakes, charming villages, and world-famous chocolate and cheese. Home to numerous international organizations, it has maintained neutrality for centuries.',
       sv: 'Schweiz är ett bergigt centraleuropeiskt land känt för sina fantastiska Alper, orörda sjöar, charmiga byar och världsberömda choklad och ost. Hem till många internationella organisationer, har det upprätthållit neutralitet i århundraden.',

@@ -18,7 +18,7 @@ export const bosniaHerzegovina: Country = {
       de: 'Europa',
     },
     flag: '🇧🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/13419195/pexels-photo-13419195.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Bosnia and Herzegovina is a country in the Balkans known for its medieval villages, diverse culture, and scenic mountains.',
       sv: 'Bosnien och Hercegovina är ett land på Balkan känt för sina medeltida byar, mångsidig kultur och natursköna berg.',

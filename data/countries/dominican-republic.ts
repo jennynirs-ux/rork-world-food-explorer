@@ -18,7 +18,7 @@ export const dominicanRepublic: Country = {
       de: 'Nordamerika',
     },
     flag: '🇩🇴',
-    landscapeImage: 'https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/16777411/pexels-photo-16777411.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Dominican Republic shares Hispaniola island with Haiti, known for beautiful beaches, merengue music, baseball, and colonial history.',
       sv: 'Dominikanska republiken delar ön Hispaniola med Haiti, känd för vackra stränder, merenguemusik, baseboll och kolonial historia.',

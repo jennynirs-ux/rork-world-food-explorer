@@ -18,7 +18,7 @@ export const guineaBissau: Country = {
       de: 'Afrika',
     },
     flag: '🇬🇼',
-    landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/29917031/pexels-photo-29917031.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Guinea-Bissau is a small West African country known for its tropical forests, Atlantic coastline, and the Bijagós Archipelago.',
       sv: 'Guinea-Bissau är ett litet västafrikanskt land känt för sina tropiska skogar, Atlantkusten och Bijagós-skärgården.',

@@ -18,7 +18,7 @@ export const northKorea: Country = {
       de: 'Asien',
     },
     flag: '🇰🇵',
-    landscapeImage: 'https://images.unsplash.com/photo-1584592487914-a44e1bce4e03?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/31788908/pexels-photo-31788908.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'North Korea is a secretive East Asian country known for its isolation, mountain landscapes, and unique political system.',
       sv: 'Nordkorea är ett hemligt östasiatiskt land känt för sin isolering, bergslandskap och unika politiska system.',

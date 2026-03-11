@@ -18,7 +18,7 @@ export const morocco: Country = {
       de: 'Afrika',
     },
     flag: '🇲🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/6749658/pexels-photo-6749658.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Morocco is a North African country bordering the Atlantic Ocean and Mediterranean Sea. It\'s known for its Berber, Arabian and European cultural influences, bustling souks, and stunning architecture.',
       sv: 'Marocko är ett nordafrikanskt land som gränsar till Atlanten och Medelhavet. Det är känt för sina berberiska, arabiska och europeiska kulturella influenser, livliga souks och fantastisk arkitektur.',

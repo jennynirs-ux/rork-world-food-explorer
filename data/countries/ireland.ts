@@ -18,7 +18,7 @@ export const ireland: Country = {
       de: 'Europa',
     },
     flag: '🇮🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1590089415225-401ed6f9db8e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/4350780/pexels-photo-4350780.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Ireland, the "Emerald Isle," is known for stunning landscapes, rich literary tradition, lively pub culture, and warm hospitality. From dramatic coastal cliffs to medieval castles, Ireland offers timeless beauty and vibrant culture.',
       sv: 'Irland, "Emerald Isle", är känt för fantastiska landskap, rik litterär tradition, livlig pubkultur och varm gästfrihet. Från dramatiska kustklippor till medeltida slott, Irland erbjuder tidlös skönhet och levande kultur.',

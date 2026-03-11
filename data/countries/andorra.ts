@@ -18,7 +18,7 @@ export const andorra: Country = {
       de: 'Europa',
     },
     flag: '🇦🇩',
-    landscapeImage: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/26558267/pexels-photo-26558267.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Andorra is a tiny, independent principality nestled between France and Spain in the Pyrenees mountains. Known for ski resorts and tax-haven status.',
       sv: 'Andorra är ett litet, självständigt furstendöme inbäddat mellan Frankrike och Spanien i Pyrenéerna. Känd för skidorter och status som skatteparadis.',

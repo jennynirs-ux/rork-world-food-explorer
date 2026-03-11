@@ -18,7 +18,7 @@ export const sudan: Country = {
       de: 'Afrika',
     },
     flag: '🇸🇩',
-    landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/980265/pexels-photo-980265.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Sudan is home to more pyramids than Egypt, ancient Nubian kingdoms, and where the Blue and White Nile rivers meet. A land of rich archaeological heritage and diverse cultures.',
       sv: 'Sudan är hem för fler pyramider än Egypten, forntida nubiska kungadömen och där floderna Blå och Vita Nilen möts. Ett land med rikt arkeologiskt arv och olika kulturer.',

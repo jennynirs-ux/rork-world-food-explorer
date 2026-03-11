@@ -18,7 +18,7 @@ export const haiti: Country = {
       de: 'Nordamerika',
     },
     flag: '🇭🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1624298357797-c465515c2e1d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/2405427/pexels-photo-2405427.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Haiti shares Hispaniola island with the Dominican Republic, known as the first Black republic, vibrant art scene, and resilient culture.',
       sv: 'Haiti delar ön Hispaniola med Dominikanska republiken, känd som den första svarta republiken, pulserande konstscen och motståndskraftig kultur.',

@@ -18,7 +18,7 @@ export const liberia: Country = {
       de: 'Afrika',
     },
     flag: '🇱🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1585662018872-068b7fb6f9f2?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/10614098/pexels-photo-10614098.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Liberia is a West African country founded by freed American slaves, known for its unique history, tropical forests, and surf beaches.',
       sv: 'Liberia är ett västafrikanskt land grundat av befriade amerikanska slavar, känt för sin unika historia, tropiska skogar och surfstränder.',

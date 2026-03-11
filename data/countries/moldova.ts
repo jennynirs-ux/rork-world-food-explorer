@@ -18,7 +18,7 @@ export const moldova: Country = {
       de: 'Europa',
     },
     flag: '🇲🇩',
-    landscapeImage: 'https://images.unsplash.com/photo-1621522767402-2c5bcde2c0f4?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/16547159/pexels-photo-16547159.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Moldova is a landlocked country in Eastern Europe, known for wine production, monasteries, and rolling countryside.',
       sv: 'Moldavien är ett landlockat land i Östeuropa, känt för vinproduktion, kloster och böljande landskap.',

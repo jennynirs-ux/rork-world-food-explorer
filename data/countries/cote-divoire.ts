@@ -18,7 +18,7 @@ export const coteDivoire: Country = {
       de: 'Afrika',
     },
     flag: '🇨🇮',
-    landscapeImage: 'https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?w=800',
+    landscapeImage: 'https://images.pexels.com/photos/13181405/pexels-photo-13181405.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Côte d\'Ivoire (Ivory Coast) is the world\'s largest cocoa producer with vibrant culture and beautiful beaches. A blend of French colonial heritage and diverse African traditions.',
       sv: 'Elfenbenskusten (Elfenbenskusten) är världens största kakaoproducent med levande kultur och vackra stränder. En blandning av franskt kolonialt arv och olika afrikanska traditioner.',

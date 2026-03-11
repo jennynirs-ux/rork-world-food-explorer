@@ -18,7 +18,7 @@ export const thailand: Country = {
       de: 'Asien',
     },
     flag: '🇹🇭',
-    landscapeImage: 'https://images.unsplash.com/photo-1528181304800-259b08848526?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/733192/pexels-photo-733192.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Thailand, the "Land of Smiles," is known for tropical beaches, ornate Buddhist temples, vibrant street food culture, and warm hospitality. A perfect blend of ancient traditions and modern city life.',
       sv: 'Thailand, "leendens land", är känt för tropiska stränder, utsmyckade buddhistiska tempel, livlig gatumatkultur och varm gästfrihet. En perfekt blandning av gamla traditioner och modernt stadsliv.',

@@ -18,7 +18,7 @@ export const micronesia: Country = {
       de: 'Ozeanien',
     },
     flag: '🇫🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1559628233-100c798642d4?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/3854024/pexels-photo-3854024.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Federated States of Micronesia is a Pacific island nation known for WWII wrecks, pristine diving, and traditional culture.',
       sv: 'Mikronesiens federala stater är en ö-nation i Stillahavsområdet känd för andra världskrigets vrak, orörd dykning och traditionell kultur.',

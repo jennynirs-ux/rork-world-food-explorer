@@ -18,7 +18,7 @@ export const belgium: Country = {
       de: 'Europa',
     },
     flag: '🇧🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1559113202-c916b8e44373?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/3637293/pexels-photo-3637293.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Belgium is a small European country famous for chocolate, beer, waffles, and medieval towns. Home to the EU headquarters in Brussels, Belgium uniquely blends French and Flemish cultures.',
       sv: 'Belgien är ett litet europeiskt land känt för choklad, öl, våfflor och medeltida städer. Hem till EU:s högkvarter i Bryssel, Belgien blandar fransk och flamländsk kultur på ett unikt sätt.',

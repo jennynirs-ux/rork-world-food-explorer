@@ -18,7 +18,7 @@ export const ukraine: Country = {
       de: 'Europa',
     },
     flag: '🇺🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1561542320-9a18cd340e98?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/16705646/pexels-photo-16705646.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Ukraine is a large country in Eastern Europe known for its Orthodox churches, Black Sea coastline, and forested mountains. Its capital, Kyiv, features the gold-domed St. Sophia\'s Cathedral, with its stunning 11th-century mosaics and frescoes.',
       sv: 'Ukraina är ett stort land i Östeuropa känt för sina ortodoxa kyrkor, Svarta havets kustlinje och skogsklädda berg. Dess huvudstad, Kiev, har den guldkupolformade St. Sofia-katedralen, med sina fantastiska mosaiker och fresker från 1000-talet.',

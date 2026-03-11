@@ -18,7 +18,7 @@ export const austria: Country = {
       de: 'Europa',
     },
     flag: '🇦🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/2737250/pexels-photo-2737250.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Austria is a landlocked country in Central Europe known for its mountain villages, baroque architecture, Imperial history, and rugged Alpine terrain. Vienna, its capital, is home to grand palaces and a rich musical heritage.',
       sv: 'Österrike är ett landlockat land i Centraleuropa känt för sina bergsbyar, barockarkitektur, imperialistisk historia och oländig alpterräng. Wien, dess huvudstad, är hem för storslagna palats och ett rikt musikarv.',

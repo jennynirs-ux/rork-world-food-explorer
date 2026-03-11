@@ -18,7 +18,7 @@ export const netherlands: Country = {
       de: 'Europa',
     },
     flag: '🇳🇱',
-    landscapeImage: 'https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/28445174/pexels-photo-28445174.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Netherlands is famous for tulips, windmills, canals, bicycles, and liberal social policies. A flat, innovative country that has reclaimed much of its land from the sea.',
       sv: 'Nederländerna är känt för tulpaner, väderkvarnar, kanaler, cyklar och liberal socialpolitik. Ett platt, innovativt land som har återtagit mycket av sin mark från havet.',

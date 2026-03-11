@@ -18,7 +18,7 @@ export const grenada: Country = {
       de: 'Nordamerika',
     },
     flag: '🇬🇩',
-    landscapeImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/1366528/pexels-photo-1366528.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Grenada is the "Spice Isle" of the Caribbean, famous for nutmeg production, beautiful beaches, and the underwater sculpture park.',
       sv: 'Grenada är "Kryddön" i Karibien, känd för muskottillverkning, vackra stränder och undervattensskulpturparken.',

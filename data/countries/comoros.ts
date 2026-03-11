@@ -18,7 +18,7 @@ export const comoros: Country = {
       de: 'Afrika',
     },
     flag: '🇰🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/1854713/pexels-photo-1854713.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Comoros is a volcanic archipelago off Africa\'s east coast, known as the "Perfume Islands" for its ylang-ylang, vanilla, and clove production.',
       sv: 'Komorerna är en vulkanisk ögrupp utanför Afrikas östkust, känd som "Parfymöarna" för sin produktion av ylang-ylang, vanilj och kryddnejlika.',

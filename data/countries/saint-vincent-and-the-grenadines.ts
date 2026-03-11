@@ -18,7 +18,7 @@ export const saintVincentAndTheGrenadines: Country = {
       de: 'Nordamerika',
     },
     flag: '🇻🇨',
-    landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/1342404/pexels-photo-1342404.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Saint Vincent and the Grenadines is a Caribbean island nation famous for turquoise bays, sailing and yacht charters, coral reefs, and the dramatic volcanic landscape of La Soufriere.',
       sv: 'Saint Vincent och Grenadinerna är en karibisk ö-nation känd för turkosa vikar, segling- och yachtcharter, korallrev och det dramatiska vulkanlandskapet i La Soufriere.',

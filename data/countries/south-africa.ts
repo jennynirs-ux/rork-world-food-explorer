@@ -18,7 +18,7 @@ export const southAfrica: Country = {
       de: 'Afrika',
     },
     flag: '🇿🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/3115325/pexels-photo-3115325.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'South Africa is known for its diverse cultures, wildlife, and dramatic landscapes ranging from mountains and coastlines to vast savannas. Often called the "Rainbow Nation," it has 11 official languages and remarkable biodiversity.',
       sv: 'Sydafrika är känt för sina olika kulturer, vilda djur och dramatiska landskap som sträcker sig från berg och kustlinjer till vidsträckta savanner. Ofta kallad "Rainbow Nation", den har 11 officiella språk och en anmärkningsvärd biologisk mångfald.',

@@ -18,7 +18,7 @@ export const saintKittsAndNevis: Country = {
       de: 'Nordamerika',
     },
     flag: '🇰🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1580541631950-7282082b04f4?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/19749072/pexels-photo-19749072.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Saint Kitts and Nevis is a dual-island Caribbean nation known for lush volcanic peaks, beaches, and colonial-era forts. The islands blend Creole culture, rainforest hikes, and a relaxed seaside rhythm.',
       sv: 'Saint Kitts och Nevis är en karibisk nation med två öar som är känd för frodiga vulkantoppar, stränder och fort från kolonialtiden. Öarna blandar kreolsk kultur, regnskogsvandringar och en avslappnad kustrytm.',

@@ -18,7 +18,7 @@ export const papuaNewGuinea: Country = {
       de: 'Ozeanien',
     },
     flag: '🇵🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1505881402582-763970a1e27e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/33317387/pexels-photo-33317387.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Papua New Guinea is a Pacific nation known for incredible biodiversity, tribal cultures, and being one of the world\'s most linguistically diverse countries.',
       sv: 'Papua Nya Guinea är en Stillahavsnation känd för otrolig biologisk mångfald, stamkulturer och att vara ett av världens mest språkligt mångfaldiga länder.',

@@ -18,7 +18,7 @@ export const republicCongo: Country = {
       de: 'Afrika',
     },
     flag: '🇨🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/16777411/pexels-photo-16777411.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Republic of the Congo is a Central African country with equatorial rainforests, wildlife reserves, and the Congo River forming its eastern border.',
       sv: 'Republiken Kongo är ett centralafrikanskt land med ekvatoriska regnskogar, vilda reservat och Kongofloden som bildar dess östra gräns.',

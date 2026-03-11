@@ -18,7 +18,7 @@ export const russia: Country = {
       de: 'Europa/Asien',
     },
     flag: '🇷🇺',
-    landscapeImage: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/19136760/pexels-photo-19136760.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Russia is the world\'s largest country, spanning eleven time zones and encompassing a vast array of landscapes and cultures. From the historic cities of Moscow and St. Petersburg to the wilderness of Siberia, Russia offers incredible diversity.',
       sv: 'Ryssland är världens största land, som spänner över elva tidszoner och omfattar ett brett spektrum av landskap och kulturer. Från de historiska städerna Moskva och St. Petersburg till Sibiriens vildmark erbjuder Ryssland en otrolig mångfald.',

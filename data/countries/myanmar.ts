@@ -18,7 +18,7 @@ export const myanmar: Country = {
       de: 'Asien',
     },
     flag: '🇲🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1551634979-1d8b69bfe73f?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/7362505/pexels-photo-7362505.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Myanmar (Burma) is home to thousands of golden pagodas, ancient temples, and diverse ethnic groups. A land of stunning Buddhist heritage and natural beauty.',
       sv: 'Myanmar (Burma) är hem för tusentals gyllene pagoder, gamla tempel och olika etniska grupper. Ett land med fantastiskt buddhistiskt arv och naturlig skönhet.',

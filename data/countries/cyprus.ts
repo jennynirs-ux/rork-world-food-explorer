@@ -18,7 +18,7 @@ export const cyprus: Country = {
       de: 'Europa',
     },
     flag: '🇨🇾',
-    landscapeImage: 'https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35827647/pexels-photo-35827647.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Cyprus is a Mediterranean island nation at the crossroads of Europe, Asia, and Africa, known for its ancient history, beautiful beaches, warm hospitality, and the legendary birthplace of Aphrodite.',
       sv: 'Cypern är en önation i Medelhavet vid korsningen av Europa, Asien och Afrika, känd för sin gamla historia, vackra stränder, varma gästfrihet och Afrodites legendariska födelseplats.',

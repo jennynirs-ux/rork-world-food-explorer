@@ -18,7 +18,7 @@ export const finland: Country = {
       de: 'Europa',
     },
     flag: '🇫🇮',
-    landscapeImage: 'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/416728/pexels-photo-416728.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Finland is a Nordic country known for its stunning natural landscapes, thousands of lakes, the Northern Lights, and exceptional quality of life. From saunas to design, education to nature, Finland represents a harmonious blend of modernity and tradition.',
       sv: 'Finland är ett nordiskt land känt för sina fantastiska naturlandskap, tusentals sjöar, norrsken och enastående livskvalitet. Från bastu till design, utbildning till natur, Finland representerar en harmonisk blandning av modernitet och tradition.',

@@ -18,7 +18,7 @@ export const lebanon: Country = {
       de: 'Asien',
     },
     flag: '🇱🇧',
-    landscapeImage: 'https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/5522722/pexels-photo-5522722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Lebanon is a small Mediterranean country with a rich history dating back thousands of years. Known for ancient Phoenician heritage, diverse culture, and world-renowned cuisine, Lebanon is often called the "Paris of the Middle East."',
       sv: 'Libanon är ett litet medelhavsland med en rik historia som går tillbaka tusentals år. Libanon är känt för forntida feniciskt arv, mångsidig kultur och världsberömd mat, och kallas ofta "Mellanösterns Paris".',

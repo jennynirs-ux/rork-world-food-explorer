@@ -18,7 +18,7 @@ export const peru: Country = {
       de: 'Südamerika',
     },
     flag: '🇵🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35697079/pexels-photo-35697079.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Peru is a country in South America that\'s home to a section of Amazon rainforest and Machu Picchu, an ancient Incan city high in the Andes mountains.',
       sv: 'Peru är ett land i Sydamerika som är hem för en del av Amazonas regnskog och Machu Picchu, en gammal inkastad högt uppe i Anderna.',

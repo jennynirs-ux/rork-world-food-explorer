@@ -18,7 +18,7 @@ export const eswatini: Country = {
       de: 'Afrika',
     },
     flag: '🇸🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/34040096/pexels-photo-34040096.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Eswatini (formerly Swaziland) is a small, landlocked kingdom in Southern Africa known for its wildlife reserves, cultural festivals, and traditional ceremonies.',
       sv: 'Eswatini (tidigare Swaziland) är ett litet, landslutet kungarike i södra Afrika känt för sina vilda reservat, kulturfestivaler och traditionella ceremonier.',

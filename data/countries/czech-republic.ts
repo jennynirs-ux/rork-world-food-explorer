@@ -18,7 +18,7 @@ export const czechRepublic: Country = {
       de: 'Europa',
     },
     flag: '🇨🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1541849546-216549ae216d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/27383832/pexels-photo-27383832.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Czech Republic, also known as Czechia, is a Central European country famous for its stunning medieval castles, historic Prague, world-renowned beer culture, and rich artistic heritage. It seamlessly blends Gothic, Renaissance, and Baroque architecture with modern culture.',
       sv: 'Tjeckien, även känd som Tjeckien, är ett centraleuropeiskt land känt för sina fantastiska medeltida slott, historiska Prag, världsberömda ölkultur och rika konstnärliga arv. Den blandar sömlöst gotisk, renässans- och barockarkitektur med modern kultur.',

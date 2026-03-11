@@ -18,7 +18,7 @@ export const uruguay: Country = {
       de: 'Südamerika',
     },
     flag: '🇺🇾',
-    landscapeImage: 'https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/2119163/pexels-photo-2119163.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Uruguay is South America\'s second-smallest nation with beautiful beaches, progressive policies, and a strong gaucho culture. Known for its stability and high quality of life.',
       sv: 'Uruguay är Sydamerikas näst minsta nation med vackra stränder, progressiv politik och en stark gauchokultur. Känd för sin stabilitet och höga livskvalitet.',

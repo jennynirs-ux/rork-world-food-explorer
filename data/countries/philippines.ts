@@ -18,7 +18,7 @@ export const philippines: Country = {
       de: 'Asien',
     },
     flag: '🇵🇭',
-    landscapeImage: 'https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/4975434/pexels-photo-4975434.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Philippines is an archipelago of over 7,000 islands with stunning beaches, vibrant culture, Spanish colonial heritage, and incredibly warm and hospitable people. It\'s a tropical paradise with a unique blend of Asian and Western influences.',
       sv: 'Filippinerna är en ögrupp med över 7 000 öar med fantastiska stränder, pulserande kultur, spanskt kolonialt arv och otroligt varma och gästvänliga människor. Det är ett tropiskt paradis med en unik blandning av asiatiska och västerländska influenser.',

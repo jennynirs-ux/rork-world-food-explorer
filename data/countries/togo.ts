@@ -18,7 +18,7 @@ export const togo: Country = {
       de: 'Afrika',
     },
     flag: '🇹🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1489493512991-b651f477a8e1?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/6029530/pexels-photo-6029530.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Togo is a narrow West African country known for palm-lined beaches, lively markets, hilltop villages, and cultural traditions where Vodun has historical roots alongside Christianity and Islam.',
       sv: 'Togo är ett smalt västafrikanskt land känt för palmkantade stränder, livliga marknader, kullebyar och kulturella traditioner där Vodun har historiska rötter tillsammans med kristendomen och islam.',

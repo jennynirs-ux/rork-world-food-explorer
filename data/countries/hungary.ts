@@ -18,7 +18,7 @@ export const hungary: Country = {
       de: 'Europa',
     },
     flag: '🇭🇺',
-    landscapeImage: 'https://images.unsplash.com/photo-1541849546-216549ae216d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/32578078/pexels-photo-32578078.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Hungary is a landlocked country in Central Europe known for its rich history, thermal baths, unique language, and vibrant capital Budapest. The Danube River divides the city into historic Buda and modern Pest.',
       sv: 'Ungern är ett landlockat land i Centraleuropa känt för sin rika historia, termalbad, unika språk och livliga huvudstad Budapest. Donau delar upp staden i historiska Buda och moderna Pest.',

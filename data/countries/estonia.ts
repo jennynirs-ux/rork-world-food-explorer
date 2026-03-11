@@ -18,7 +18,7 @@ export const estonia: Country = {
       de: 'Europa',
     },
     flag: '🇪🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35639437/pexels-photo-35639437.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Estonia is a digital pioneer and the most northerly Baltic state, known for its medieval old towns, pristine nature, innovative tech scene, and unique position bridging Eastern and Northern Europe.',
       sv: 'Estland är en digital pionjär och den nordligaste baltiska staten, känd för sina medeltida gamla städer, orörd natur, innovativ teknikscen och unika position som överbryggar östra och norra Europa.',

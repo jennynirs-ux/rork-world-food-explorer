@@ -18,7 +18,7 @@ export const panama: Country = {
       de: 'Nordamerika',
     },
     flag: '🇵🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1581104477881-3eb5f0a75cdc?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/17848630/pexels-photo-17848630.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Panama is a Central American country known for the Panama Canal, connecting the Atlantic and Pacific oceans, and diverse ecosystems.',
       sv: 'Panama är ett centralamerikanskt land känt för Panamakanalen, som förbinder Atlanten och Stilla havet och olika ekosystem.',

@@ -18,7 +18,7 @@ export const chile: Country = {
       de: 'Südamerika',
     },
     flag: '🇨🇱',
-    landscapeImage: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/6267898/pexels-photo-6267898.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Chile is a long, narrow country stretching along South America\'s western edge, offering incredibly diverse landscapes from the driest desert in the world to glaciers, fjords, and wine valleys. It\'s known for its natural beauty, wines, and vibrant culture.',
       sv: 'Chile är ett långt, smalt land som sträcker sig längs Sydamerikas västra kant och erbjuder otroligt varierande landskap från världens torraste öken till glaciärer, fjordar och vindalar. Det är känt för sin naturliga skönhet, viner och pulserande kultur.',

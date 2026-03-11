@@ -18,7 +18,7 @@ export const denmark: Country = {
       de: 'Europa',
     },
     flag: '🇩🇰',
-    landscapeImage: 'https://images.unsplash.com/photo-1513622790541-eaa84d356909?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/32156530/pexels-photo-32156530.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Denmark, the happiest country in the world, is known for hygge culture, fairy tales, design, and cycling. With charming medieval towns, modern architecture, and a high quality of life, Denmark offers a perfect blend of old and new.',
       sv: 'Danmark, världens lyckligaste land, är känt för hyggekultur, sagor, design och cykling. Med charmiga medeltida städer, modern arkitektur och hög livskvalitet erbjuder Danmark en perfekt blandning av gammalt och nytt.',

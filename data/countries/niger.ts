@@ -18,7 +18,7 @@ export const niger: Country = {
       de: 'Afrika',
     },
     flag: '🇳🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8472922/pexels-photo-8472922.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Niger is a landlocked Saharan country in West Africa, known for ancient caravan routes, the Niger River, and diverse ethnic groups.',
       sv: 'Niger är ett landlockat Sahara-land i Västafrika, känt för uråldriga karavanvägar, Nigerfloden och olika etniska grupper.',

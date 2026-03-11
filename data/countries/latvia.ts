@@ -18,7 +18,7 @@ export const latvia: Country = {
       de: 'Europa',
     },
     flag: '🇱🇻',
-    landscapeImage: 'https://images.unsplash.com/photo-1513622790541-eaa84d356909?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/1012252/pexels-photo-1012252.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Latvia is a Baltic country known for its stunning Art Nouveau architecture, pristine nature, rich folklore traditions, and beautiful coastline along the Baltic Sea. Riga, its capital, is a UNESCO World Heritage Site.',
       sv: 'Lettland är ett baltiskt land känt för sin fantastiska art nouveau-arkitektur, orörda natur, rika folkloretraditioner och vackra kustlinje längs Östersjön. Riga, dess huvudstad, är en UNESCO: s världsarvslista.',

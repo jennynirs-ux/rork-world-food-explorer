@@ -18,7 +18,7 @@ export const ecuador: Country = {
       de: 'Südamerika',
     },
     flag: '🇪🇨',
-    landscapeImage: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/12731532/pexels-photo-12731532.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Ecuador is a compact South American country that packs incredible diversity - from the Amazon rainforest to the Andean highlands, Pacific beaches, and the unique Galápagos Islands. Named after the equator that runs through it, Ecuador offers rich indigenous culture and biodiversity.',
       sv: 'Ecuador är ett kompakt sydamerikanskt land som rymmer otrolig mångfald - från Amazonas regnskog till Andinska höglandet, Stillahavsstränderna och de unika Galápagosöarna. Uppkallad efter ekvatorn som löper genom den, erbjuder Ecuador rik inhemsk kultur och biologisk mångfald.',

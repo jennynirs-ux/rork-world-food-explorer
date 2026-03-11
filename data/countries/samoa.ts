@@ -18,7 +18,7 @@ export const samoa: Country = {
       de: 'Ozeanien',
     },
     flag: '🇼🇸',
-    landscapeImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/19844888/pexels-photo-19844888.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Samoa is a Polynesian island nation known for traditional fa\'a Samoa culture, lush landscapes, pristine beaches, and warm hospitality.',
       sv: 'Samoa är en polynesisk önation känd för traditionell fa\'a Samoa-kultur, frodiga landskap, orörda stränder och varm gästfrihet.',

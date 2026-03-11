@@ -18,7 +18,7 @@ export const tajikistan: Country = {
       de: 'Asien',
     },
     flag: '🇹🇯',
-    landscapeImage: 'https://images.unsplash.com/photo-1565108781004-2a3ad8396bdb?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/18719794/pexels-photo-18719794.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Tajikistan is a mountainous Central Asian country, often called the "Roof of the World", known for the Pamir Mountains, dramatic landscapes, and rich Silk Road heritage.',
       sv: 'Tadzjikistan är ett bergigt centralasiatiskt land, ofta kallat "Världens tak", känt för Pamirbergen, dramatiska landskap och rikt sidenvägsarv.',

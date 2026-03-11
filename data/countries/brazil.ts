@@ -18,7 +18,7 @@ export const brazil: Country = {
       de: 'Südamerika',
     },
     flag: '🇧🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35583770/pexels-photo-35583770.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Brazil is the largest country in South America, famous for the Amazon rainforest, Carnival celebrations, football, and its vibrant, diverse culture. Home to stunning beaches, waterfalls, and the rhythm of samba.',
       sv: 'Brasilien är det största landet i Sydamerika, känt för Amazonas regnskog, karnevalsfirande, fotboll och dess livliga, mångsidiga kultur. Hem till fantastiska stränder, vattenfall och sambans rytm.',

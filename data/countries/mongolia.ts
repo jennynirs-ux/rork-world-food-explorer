@@ -18,7 +18,7 @@ export const mongolia: Country = {
       de: 'Asien',
     },
     flag: '🇲🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1584894247808-7e99eb4f8e32?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/6564828/pexels-photo-6564828.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Mongolia is a vast landlocked country known for nomadic culture, the Gobi Desert, steppes, and the legacy of Genghis Khan.',
       sv: 'Mongoliet är ett stort landlockat land känt för nomadkulturen, Gobiöknen, stäpperna och arvet från Djingis Khan.',

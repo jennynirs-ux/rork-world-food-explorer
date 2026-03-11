@@ -18,7 +18,7 @@ export const mexico: Country = {
       de: 'Nordamerika',
     },
     flag: '🇲🇽',
-    landscapeImage: 'https://images.unsplash.com/photo-1518638150340-f706e86654de?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/16372956/pexels-photo-16372956.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Mexico is a country rich in ancient civilizations, vibrant culture, and diverse landscapes from beaches to mountains. Known for its flavorful cuisine, colorful traditions, and warm hospitality.',
       sv: 'Mexiko är ett land rikt på forntida civilisationer, levande kultur och olika landskap från stränder till berg. Känd för sitt smakrika kök, färgglada traditioner och varma gästfrihet.',

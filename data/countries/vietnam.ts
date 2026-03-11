@@ -18,7 +18,7 @@ export const vietnam: Country = {
       de: 'Asien',
     },
     flag: '🇻🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1528127269322-539801943592?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/28297946/pexels-photo-28297946.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas, and bustling cities. Rich history, world-famous cuisine, and dramatic landscapes define the nation.',
       sv: 'Vietnam är ett sydostasiatiskt land känt för sina stränder, floder, buddhistiska pagoder och livliga städer. Rik historia, världsberömd mat och dramatiska landskap definierar nationen.',

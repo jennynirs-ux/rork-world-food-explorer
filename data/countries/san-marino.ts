@@ -18,7 +18,7 @@ export const sanMarino: Country = {
       de: 'Europa',
     },
     flag: '🇸🇲',
-    landscapeImage: 'https://images.unsplash.com/photo-1592303637753-ce1e6b8a0ffb?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/22743353/pexels-photo-22743353.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'San Marino is one of the world’s oldest republics, a microstate completely surrounded by Italy. It is known for medieval fortresses, mountain views, and a strong tradition of independence.',
       sv: 'San Marino är en av världens äldsta republiker, en mikrostat helt omgiven av Italien. Det är känt för medeltida fästningar, utsikt över bergen och en stark tradition av självständighet.',

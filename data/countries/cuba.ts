@@ -18,7 +18,7 @@ export const cuba: Country = {
       de: 'Nordamerika',
     },
     flag: '🇨🇺',
-    landscapeImage: 'https://images.unsplash.com/photo-1564671165093-20688ff1fffa?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/1637122/pexels-photo-1637122.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Cuba is the largest Caribbean island, known for its pristine beaches, Spanish colonial architecture, vintage cars, cigars, and rich musical heritage. Havana, its capital, is famous for colorful buildings and classic American cars.',
       sv: 'Kuba är den största karibiska ön, känd för sina orörda stränder, spansk kolonialarkitektur, veteranbilar, cigarrer och rika musikaliska arv. Havanna, dess huvudstad, är känd för färgglada byggnader och klassiska amerikanska bilar.',

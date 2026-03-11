@@ -18,7 +18,7 @@ export const laos: Country = {
       de: 'Asien',
     },
     flag: '🇱🇦',
-    landscapeImage: 'https://images.unsplash.com/photo-1540611025311-01df3cef54b5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/6129058/pexels-photo-6129058.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Laos is a landlocked country with French colonial architecture, Buddhist temples, and dramatic mountainous landscapes. Known for its laid-back atmosphere and natural beauty.',
       sv: 'Laos är ett landlockat land med fransk kolonial arkitektur, buddhistiska tempel och dramatiska bergslandskap. Känd för sin avslappnade atmosfär och naturliga skönhet.',

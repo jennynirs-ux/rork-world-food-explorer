@@ -18,7 +18,7 @@ export const yemen: Country = {
       de: 'Asien',
     },
     flag: '🇾🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/11201283/pexels-photo-11201283.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Yemen is an ancient country on the southern Arabian Peninsula, known for its historic cities, coffee heritage, and dramatic landscapes ranging from mountains and deserts to tropical islands.',
       sv: 'Jemen är ett gammalt land på södra Arabiska halvön, känt för sina historiska städer, kaffearv och dramatiska landskap som sträcker sig från berg och öknar till tropiska öar.',

@@ -18,7 +18,7 @@ export const spain: Country = {
       de: 'Europa',
     },
     flag: '🇪🇸',
-    landscapeImage: 'https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/21284409/pexels-photo-21284409.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Spain is a vibrant country known for flamenco dancing, bullfighting, and siesta culture. With diverse regions from the beaches of Costa del Sol to the mountains of the Pyrenees, Spain offers rich history and passionate living.',
       sv: 'Spanien är ett pulserande land känt för flamencodans, tjurfäktning och siestakultur. Med olika regioner från stränderna på Costa del Sol till bergen i Pyrenéerna erbjuder Spanien rik historia och passionerat boende.',

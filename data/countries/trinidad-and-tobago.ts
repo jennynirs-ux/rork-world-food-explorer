@@ -18,7 +18,7 @@ export const trinidadAndTobago: Country = {
       de: 'Nordamerika',
     },
     flag: '🇹🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1580541631950-7282082b04f4?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/30826584/pexels-photo-30826584.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Trinidad and Tobago is a twin-island Caribbean nation known for Carnival, steel pan music, diverse culture, and rich natural beauty.',
       sv: 'Trinidad och Tobago är en karibisk nation med tvillingöar känd för karneval, stålpannamusik, mångsidig kultur och rik naturlig skönhet.',

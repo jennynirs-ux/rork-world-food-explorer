@@ -18,7 +18,7 @@ export const france: Country = {
       de: 'Europa',
     },
     flag: '🇫🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/4361908/pexels-photo-4361908.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'France is a country of fine arts, fine wines, and fine cuisine. From the romance of Paris to the beaches of the Riviera, it offers unparalleled culture, history, and gastronomy.',
       sv: 'Frankrike är ett land med fina konster, fina viner och god mat. Från romantiken i Paris till stränderna på Rivieran erbjuder den oöverträffad kultur, historia och gastronomi.',

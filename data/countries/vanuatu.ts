@@ -18,7 +18,7 @@ export const vanuatu: Country = {
       de: 'Ozeanien',
     },
     flag: '🇻🇺',
-    landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/4719664/pexels-photo-4719664.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Vanuatu is a Pacific island nation known for active volcanoes, world-class diving, the land diving tradition, and rich Melanesian culture.',
       sv: 'Vanuatu är en ö-nation i Stilla havet känd för aktiva vulkaner, dykning i världsklass, landdykningstraditionen och rik melanesisk kultur.',

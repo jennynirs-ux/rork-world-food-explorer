@@ -18,7 +18,7 @@ export const nepal: Country = {
       de: 'Asien',
     },
     flag: '🇳🇵',
-    landscapeImage: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/32057713/pexels-photo-32057713.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Nepal is home to the world\'s highest mountains including Mount Everest, ancient temples, vibrant culture, and the birthplace of Buddha. It\'s a land of spiritual depth and natural beauty.',
       sv: 'Nepal är hem för världens högsta berg inklusive Mount Everest, antika tempel, livlig kultur och Buddhas födelseplats. Det är ett land med andligt djup och naturlig skönhet.',

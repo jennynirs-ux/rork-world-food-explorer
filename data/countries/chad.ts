@@ -18,7 +18,7 @@ export const chad: Country = {
       de: 'Afrika',
     },
     flag: '🇹🇩',
-    landscapeImage: 'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8472922/pexels-photo-8472922.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Chad is a landlocked country in north-central Africa featuring the Sahara Desert, Lake Chad, and diverse ethnic groups.',
       sv: 'Tchad är ett landlåst land i norra centrala Afrika med Saharaöknen, Tchadsjön och olika etniska grupper.',

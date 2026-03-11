@@ -18,7 +18,7 @@ export const northMacedonia: Country = {
       de: 'Europa',
     },
     flag: '🇲🇰',
-    landscapeImage: 'https://images.unsplash.com/photo-1580746738099-68bfc6853680?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/2862157/pexels-photo-2862157.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'North Macedonia is a Balkan country known for Lake Ohrid, ancient history, and diverse cultural heritage.',
       sv: 'Nordmakedonien är ett Balkanland känt för Ohridsjön, antik historia och mångsidigt kulturarv.',

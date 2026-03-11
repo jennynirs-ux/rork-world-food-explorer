@@ -18,7 +18,7 @@ export const mauritania: Country = {
       de: 'Afrika',
     },
     flag: '🇲🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/7362501/pexels-photo-7362501.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Mauritania is a vast Saharan country in Northwest Africa, known for ancient caravan routes, desert landscapes, and nomadic culture.',
       sv: 'Mauretanien är ett vidsträckt land i Sahara i nordvästra Afrika, känt för uråldriga karavanrutter, ökenlandskap och nomadkultur.',

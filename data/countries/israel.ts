@@ -18,7 +18,7 @@ export const israel: Country = {
       de: 'Asien',
     },
     flag: '🇮🇱',
-    landscapeImage: 'https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/11268395/pexels-photo-11268395.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Israel is a Middle Eastern country on the Mediterranean, known for religious significance, high-tech industry, and diverse culture.',
       sv: 'Israel är ett land i Mellanöstern vid Medelhavet, känt för religiös betydelse, högteknologisk industri och mångsidig kultur.',

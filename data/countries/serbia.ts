@@ -18,7 +18,7 @@ export const serbia: Country = {
       de: 'Europa',
     },
     flag: '🇷🇸',
-    landscapeImage: 'https://images.unsplash.com/photo-1581711395891-d56e11a48f8b?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/16429636/pexels-photo-16429636.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Serbia is a landlocked country in Southeast Europe at the crossroads of Central and the Balkans. It is known for lively cities, Orthodox monasteries, river landscapes along the Danube and Sava, and a strong food-and-coffee culture. Belgrade is among Europe\'s oldest continuously inhabited cities.',
       sv: 'Serbien är ett landlåst land i sydöstra Europa vid korsningen mellan Central och Balkan. Det är känt för livliga städer, ortodoxa kloster, flodlandskap längs Donau och Sava och en stark mat- och kaffekultur. Belgrad är en av Europas äldsta kontinuerligt bebodda städer.',

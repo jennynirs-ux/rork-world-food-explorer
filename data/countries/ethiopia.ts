@@ -18,7 +18,7 @@ export const ethiopia: Country = {
       de: 'Afrika',
     },
     flag: '🇪🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/6742951/pexels-photo-6742951.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Ethiopia is one of the oldest nations in the world, with a unique cultural heritage. Known as the birthplace of coffee, Ethiopia has never been colonized and maintains ancient Christian traditions.',
       sv: 'Etiopien är en av de äldsta nationerna i världen, med ett unikt kulturarv. Känd som kaffets födelseplats har Etiopien aldrig koloniserats och upprätthåller gamla kristna traditioner.',

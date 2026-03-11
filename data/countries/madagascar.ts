@@ -18,7 +18,7 @@ export const madagascar: Country = {
       de: 'Afrika',
     },
     flag: '🇲🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1595436208082-5e86ab37111e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8828322/pexels-photo-8828322.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Madagascar is a unique island nation with wildlife and plants found nowhere else on Earth. From lemurs to baobabs, it\'s a biodiversity hotspot with stunning landscapes.',
       sv: 'Madagaskar är en unik önation med vilda djur och växter som inte finns någon annanstans på jorden. Från lemurer till baobab, det är en hotspot för biologisk mångfald med fantastiska landskap.',

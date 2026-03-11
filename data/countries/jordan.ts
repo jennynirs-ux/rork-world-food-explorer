@@ -18,7 +18,7 @@ export const jordan: Country = {
       de: 'Asien',
     },
     flag: '🇯🇴',
-    landscapeImage: 'https://images.unsplash.com/photo-1578895101408-1a36b834405b?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/31718224/pexels-photo-31718224.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Jordan is a Middle Eastern country known for the ancient city of Petra, desert landscapes, the Dead Sea, and warm hospitality.',
       sv: 'Jordanien är ett land i Mellanöstern känt för den antika staden Petra, ökenlandskap, Döda havet och varm gästfrihet.',

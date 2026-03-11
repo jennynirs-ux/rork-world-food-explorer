@@ -18,7 +18,7 @@ export const kenya: Country = {
       de: 'Afrika',
     },
     flag: '🇰🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/2600207/pexels-photo-2600207.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Kenya is a country in East Africa with coastline on the Indian Ocean. It encompasses savannah, lakelands, the dramatic Great Rift Valley, and mountain highlands. It\'s also home to wildlife like lions, elephants and rhinos.',
       sv: 'Kenya är ett land i Östafrika med kustlinje vid Indiska oceanen. Den omfattar savanner, sjöar, den dramatiska Great Rift Valley och bergshöjder. Det är också hem för vilda djur som lejon, elefanter och noshörningar.',

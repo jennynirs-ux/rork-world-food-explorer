@@ -18,7 +18,7 @@ export const bahrain: Country = {
       de: 'Asien',
     },
     flag: '🇧🇭',
-    landscapeImage: 'https://images.unsplash.com/photo-1578922746465-3a80a228f223?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/6188071/pexels-photo-6188071.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Bahrain is an island nation in the Persian Gulf, known for modern architecture, pearl diving heritage, and the Formula 1 Grand Prix.',
       sv: 'Bahrain är en önation i Persiska viken, känd för modern arkitektur, pärldykningsarv och Formel 1 Grand Prix.',

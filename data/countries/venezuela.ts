@@ -18,7 +18,7 @@ export const venezuela: Country = {
       de: 'Südamerika',
     },
     flag: '🇻🇪',
-    landscapeImage: 'https://images.unsplash.com/photo-1580541631950-7282082b04f4?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/14092767/pexels-photo-14092767.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Venezuela is home to Angel Falls, the world\'s highest waterfall, vast oil reserves, and diverse ecosystems from Caribbean beaches to Andean peaks.',
       sv: 'Venezuela är hem för Angel Falls, världens högsta vattenfall, stora oljereserver och olika ekosystem från karibiska stränder till Andinstopparna.',

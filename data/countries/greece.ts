@@ -18,7 +18,7 @@ export const greece: Country = {
       de: 'Europa',
     },
     flag: '🇬🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/655837/pexels-photo-655837.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Greece is the cradle of Western civilization, birthplace of democracy, philosophy, and the Olympic Games. With stunning islands, ancient ruins, and Mediterranean cuisine, it offers timeless beauty.',
       sv: 'Grekland är den västerländska civilisationens vagga, födelseplatsen för demokratin, filosofin och de olympiska spelen. Med fantastiska öar, antika ruiner och medelhavsmat erbjuder det tidlös skönhet.',

@@ -18,7 +18,7 @@ export const azerbaijan: Country = {
       de: 'Asien',
     },
     flag: '🇦🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/7607112/pexels-photo-7607112.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Azerbaijan is a nation in the South Caucasus region, situated at the crossroads of Southwest Asia and Southeastern Europe. Known as the "Land of Fire" due to its natural gas fires, it blends ancient history with modern architecture in its capital, Baku.',
       sv: 'Azerbajdzjan är en nation i södra Kaukasus, belägen vid korsningen mellan sydvästra Asien och sydöstra Europa. Känd som "Eldens land" på grund av sina naturgasbränder, blandar det gammal historia med modern arkitektur i huvudstaden Baku.',

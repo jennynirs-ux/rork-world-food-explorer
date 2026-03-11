@@ -18,7 +18,7 @@ export const eritrea: Country = {
       de: 'Afrika',
     },
     flag: '🇪🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8828328/pexels-photo-8828328.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Eritrea is a Horn of Africa country on the Red Sea, known for Italian colonial architecture, diverse ethnic groups, and unique coffee culture.',
       sv: 'Eritrea är ett land i Afrikas horn vid Röda havet, känt för italiensk kolonial arkitektur, olika etniska grupper och unik kaffekultur.',

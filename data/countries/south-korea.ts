@@ -18,7 +18,7 @@ export const southKorea: Country = {
       de: 'Asien',
     },
     flag: '🇰🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/15375824/pexels-photo-15375824.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'South Korea is a dynamic East Asian nation blending ancient traditions with cutting-edge technology. Known for K-pop, kimchi, bustling cities, and beautiful mountain temples.',
       sv: 'Sydkorea är en dynamisk östasiatisk nation som blandar gamla traditioner med banbrytande teknologi. Känd för K-pop, kimchi, livliga städer och vackra bergtempel.',

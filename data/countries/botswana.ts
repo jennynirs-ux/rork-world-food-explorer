@@ -18,7 +18,7 @@ export const botswana: Country = {
       de: 'Afrika',
     },
     flag: '🇧🇼',
-    landscapeImage: 'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/19963962/pexels-photo-19963962.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Botswana is renowned for the Okavango Delta, abundant wildlife, and successful conservation efforts. A stable democracy with stunning natural landscapes and rich biodiversity.',
       sv: 'Botswana är känt för Okavangodeltat, rikt djurliv och framgångsrika bevarandeinsatser. En stabil demokrati med fantastiska naturlandskap och rik biologisk mångfald.',

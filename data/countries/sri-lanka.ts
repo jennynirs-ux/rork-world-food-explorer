@@ -18,7 +18,7 @@ export const sriLanka: Country = {
       de: 'Asien',
     },
     flag: '🇱🇰',
-    landscapeImage: 'https://images.unsplash.com/photo-1586041828039-b8d193d6d1dc?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/321569/pexels-photo-321569.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Sri Lanka is a tropical island nation known as the "Pearl of the Indian Ocean", famous for its tea plantations, ancient Buddhist sites, stunning beaches, and incredible wildlife.',
       sv: 'Sri Lanka är en tropisk önation känd som "Indiska oceanens pärla", känd för sina teplantager, gamla buddhistiska platser, fantastiska stränder och otroliga djurliv.',

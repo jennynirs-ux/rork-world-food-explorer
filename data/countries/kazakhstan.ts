@@ -18,7 +18,7 @@ export const kazakhstan: Country = {
       de: 'Asien',
     },
     flag: '🇰🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1583252904618-0c5e5aa5a808?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/8828455/pexels-photo-8828455.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Kazakhstan is the world\'s largest landlocked country, known for vast steppes, space program heritage, and nomadic traditions.',
       sv: 'Kazakstan är världens största landlåsta land, känt för stora stäpper, rymdprogramsarv och nomadiska traditioner.',

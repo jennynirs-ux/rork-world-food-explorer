@@ -18,7 +18,7 @@ export const egypt: Country = {
       de: 'Afrika',
     },
     flag: '🇪🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/28003250/pexels-photo-28003250.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Home to the ancient pyramids and the Sphinx, it\'s a land of timeless wonders.',
       sv: 'Egypten, ett land som förbinder nordöstra Afrika med Mellanöstern, dateras till faraonernas tid. Hem till de gamla pyramiderna och sfinxen, det är ett land med tidlösa underverk.',

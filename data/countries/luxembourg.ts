@@ -18,7 +18,7 @@ export const luxembourg: Country = {
       de: 'Europa',
     },
     flag: '🇱🇺',
-    landscapeImage: 'https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/24428560/pexels-photo-24428560.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Luxembourg is a small European country known for its medieval old town, EU institutions, multicultural population, and high living standards.',
       sv: 'Luxemburg är ett litet europeiskt land känt för sin medeltida gamla stadsdel, EU-institutioner, mångkulturell befolkning och höga levnadsstandard.',

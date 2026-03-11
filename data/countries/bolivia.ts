@@ -18,7 +18,7 @@ export const bolivia: Country = {
       de: 'Südamerika',
     },
     flag: '🇧🇴',
-    landscapeImage: 'https://images.unsplash.com/photo-1558799401-1dcba79834c2?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/30626318/pexels-photo-30626318.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Bolivia is a landlocked country in South America known for its stunning landscapes, from the otherworldly Uyuni Salt Flats to the heights of the Andes. It has a rich indigenous heritage and is one of the most biodiverse countries in the world.',
       sv: 'Bolivia är ett landlockat land i Sydamerika känt för sina fantastiska landskap, från de utomjordiska Uyuni Salt Flats till Andernas höjder. Det har ett rikt ursprungsarv och är ett av världens mest biologiska mångfald.',

@@ -18,7 +18,7 @@ export const eastTimor: Country = {
       de: 'Asien',
     },
     flag: '🇹🇱',
-    landscapeImage: 'https://images.unsplash.com/photo-1540202404-d0c7fe46a087?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/32054287/pexels-photo-32054287.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'East Timor (Timor-Leste) is one of the world\'s youngest nations with Portuguese heritage and stunning mountain landscapes. A resilient country with rich coffee culture.',
       sv: 'Östtimor (Timor-Leste) är en av världens yngsta nationer med portugisiskt arv och fantastiska bergslandskap. Ett motståndskraftigt land med rik kaffekultur.',

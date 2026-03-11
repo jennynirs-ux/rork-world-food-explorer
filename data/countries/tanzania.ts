@@ -18,7 +18,7 @@ export const tanzania: Country = {
       de: 'Afrika',
     },
     flag: '🇹🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/27745305/pexels-photo-27745305.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Tanzania is home to Mount Kilimanjaro, the Serengeti, and Zanzibar’s spice islands. A land of incredible wildlife, dramatic landscapes, and rich Swahili culture.',
       sv: 'Tanzania är hem för berget Kilimanjaro, Serengeti och Zanzibars kryddöar. Ett land med otroligt vilda djur, dramatiska landskap och rik swahilikultur.',

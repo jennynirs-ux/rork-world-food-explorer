@@ -18,7 +18,7 @@ export const kyrgyzstan: Country = {
       de: 'Asien',
     },
     flag: '🇰🇬',
-    landscapeImage: 'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/7362489/pexels-photo-7362489.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Kyrgyzstan is a Central Asian country known for dramatic mountain landscapes, nomadic traditions, and yurt culture.',
       sv: 'Kirgizistan är ett centralasiatiskt land känt för dramatiska bergslandskap, nomadiska traditioner och jurtakultur.',

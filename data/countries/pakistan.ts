@@ -18,7 +18,7 @@ export const pakistan: Country = {
       de: 'Asien',
     },
     flag: '🇵🇰',
-    landscapeImage: 'https://images.unsplash.com/photo-1566837945700-30057527ade0?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/16854028/pexels-photo-16854028.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Pakistan is a country of stunning natural beauty, from the towering peaks of the Karakoram and Himalayas to the Arabian Sea coast, with a rich cultural heritage spanning thousands of years.',
       sv: 'Pakistan är ett land med fantastisk naturlig skönhet, från de höga topparna i Karakoram och Himalaya till Arabiska havets kust, med ett rikt kulturarv som sträcker sig över tusentals år.',

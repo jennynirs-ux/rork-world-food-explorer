@@ -18,7 +18,7 @@ export const costaRica: Country = {
       de: 'Nordamerika',
     },
     flag: '🇨🇷',
-    landscapeImage: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/12832297/pexels-photo-12832297.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Costa Rica is a tropical paradise in Central America known for its "Pura Vida" lifestyle, stunning biodiversity, pristine beaches, lush rainforests, and commitment to environmental conservation. It\'s a leader in eco-tourism and sustainability.',
       sv: 'Costa Rica är ett tropiskt paradis i Centralamerika känt för sin "Pura Vida" livsstil, fantastiska biologiska mångfald, orörda stränder, frodiga regnskogar och engagemang för miljövård. Det är ledande inom ekoturism och hållbarhet.',

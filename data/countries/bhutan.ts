@@ -18,7 +18,7 @@ export const bhutan: Country = {
       de: 'Asien',
     },
     flag: '🇧🇹',
-    landscapeImage: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/31640266/pexels-photo-31640266.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Bhutan, the Land of the Thunder Dragon, measures prosperity through Gross National Happiness. A Buddhist kingdom in the Himalayas with stunning monasteries and pristine nature.',
       sv: 'Bhutan, åskdrakens land, mäter välstånd genom Gross National Happiness. Ett buddhistiskt rike i Himalaya med fantastiska kloster och orörd natur.',

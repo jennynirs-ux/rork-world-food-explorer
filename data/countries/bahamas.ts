@@ -18,7 +18,7 @@ export const bahamas: Country = {
       de: 'Nordamerika',
     },
     flag: '🇧🇸',
-    landscapeImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/913100/pexels-photo-913100.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Bahamas is an archipelago of over 700 islands in the Atlantic Ocean, known for its crystal-clear turquoise waters, white sandy beaches, and vibrant marine life. It\'s a paradise for beach lovers and water sports enthusiasts.',
       sv: 'Bahamas är en ögrupp med över 700 öar i Atlanten, känd för sitt kristallklara turkosa vatten, vita sandstränder och pulserande marint liv. Det är ett paradis för strandälskare och vattensportentusiaster.',

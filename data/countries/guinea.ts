@@ -18,7 +18,7 @@ export const guinea: Country = {
       de: 'Afrika',
     },
     flag: '🇬🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1504870712474-3568a662c4d0?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/14070138/pexels-photo-14070138.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Guinea is a West African country known as the "water tower of West Africa" for its rivers, rich mineral resources, and diverse ethnic groups.',
       sv: 'Guinea är ett västafrikanskt land känt som "Västafrikas vattentorn" för sina floder, rika mineraltillgångar och olika etniska grupper.',

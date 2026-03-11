@@ -18,7 +18,7 @@ export const elSalvador: Country = {
       de: 'Nordamerika',
     },
     flag: '🇸🇻',
-    landscapeImage: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/35796707/pexels-photo-35796707.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'El Salvador is the smallest Central American country, known for volcanic landscapes, Pacific beaches, and pupusas.',
       sv: 'El Salvador är det minsta centralamerikanska landet, känt för vulkaniska landskap, Stillahavsstränder och pupusas.',

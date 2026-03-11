@@ -18,7 +18,7 @@ export const indonesia: Country = {
       de: 'Asien',
     },
     flag: '🇮🇩',
-    landscapeImage: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/14226731/pexels-photo-14226731.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Indonesia is the world\'s largest archipelago with over 17,000 islands, diverse cultures, stunning beaches, ancient temples, and the largest Muslim population. It\'s a land of incredible natural beauty and cultural richness.',
       sv: 'Indonesien är världens största ögrupp med över 17 000 öar, olika kulturer, fantastiska stränder, antika tempel och den största muslimska befolkningen. Det är ett land med otrolig naturlig skönhet och kulturell rikedom.',

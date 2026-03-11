@@ -18,7 +18,7 @@ export const mauritius: Country = {
       de: 'Afrika',
     },
     flag: '🇲🇺',
-    landscapeImage: 'https://images.unsplash.com/photo-1548841486-36e8b9db1024?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/7362483/pexels-photo-7362483.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Mauritius is a tropical paradise with turquoise waters, white sandy beaches, and a multicultural society. Known for luxury resorts, diverse culture, and stunning natural beauty.',
       sv: 'Mauritius är ett tropiskt paradis med turkost vatten, vita sandstränder och ett mångkulturellt samhälle. Känd för lyxresorter, mångsidig kultur och fantastisk natur.',

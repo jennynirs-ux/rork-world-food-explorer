@@ -18,7 +18,7 @@ export const kuwait: Country = {
       de: 'Asien',
     },
     flag: '🇰🇼',
-    landscapeImage: 'https://images.unsplash.com/photo-1583203580674-37318bcb3718?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/3414922/pexels-photo-3414922.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Kuwait is a small oil-rich country on the Persian Gulf, known for modern architecture, high living standards, and pearl diving heritage.',
       sv: 'Kuwait är ett litet oljerikt land vid Persiska viken, känt för modern arkitektur, hög levnadsstandard och pärldykningsarv.',

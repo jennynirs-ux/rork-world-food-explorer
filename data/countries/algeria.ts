@@ -18,7 +18,7 @@ export const algeria: Country = {
       de: 'Afrika',
     },
     flag: '🇩🇿',
-    landscapeImage: 'https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/15652228/pexels-photo-15652228.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Algeria is the largest country in Africa, featuring the vast Sahara Desert, a Mediterranean coastline, and rich Amazigh (Berber) and Arab heritage. It is known for ancient Roman ruins, striking desert landscapes, and a vibrant culinary and music culture.',
       sv: 'Algeriet är det största landet i Afrika, med den vidsträckta Saharaöknen, en Medelhavskustlinje och ett rikt amazigh (berber) och arabiskt arv. Det är känt för antika romerska ruiner, slående ökenlandskap och en levande kulinarisk och musikkultur.',

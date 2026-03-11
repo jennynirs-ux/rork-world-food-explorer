@@ -18,7 +18,7 @@ export const ghana: Country = {
       de: 'Afrika',
     },
     flag: '🇬🇭',
-    landscapeImage: 'https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/28349845/pexels-photo-28349845.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Ghana, known as the "Gateway to Africa," was the first sub-Saharan African nation to gain independence. Rich in history, culture, and natural beauty, Ghana is famous for its gold, cocoa, and warm hospitality.',
       sv: 'Ghana, känt som "Porten till Afrika", var den första afrikanska nationen söder om Sahara som fick självständighet. Ghana är rikt på historia, kultur och naturlig skönhet och är känt för sitt guld, kakao och varma gästfrihet.',

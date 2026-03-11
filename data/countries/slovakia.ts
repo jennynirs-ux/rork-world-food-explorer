@@ -18,7 +18,7 @@ export const slovakia: Country = {
       de: 'Europa',
     },
     flag: '🇸🇰',
-    landscapeImage: 'https://images.unsplash.com/photo-1569012871812-f38ee64cd54c?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/34631503/pexels-photo-34631503.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Slovakia is a landlocked country in Central Europe known for dramatic mountain scenery, medieval castles, and strong folk traditions. The High Tatras offer excellent hiking and skiing, while historic towns and spa regions add culture and relaxation.',
       sv: 'Slovakien är ett landlockat land i Centraleuropa känt för dramatiska bergslandskap, medeltida slott och starka folktraditioner. High Tatras erbjuder utmärkt vandring och skidåkning, medan historiska städer och kurorter lägger till kultur och avkoppling.',

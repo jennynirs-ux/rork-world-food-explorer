@@ -18,7 +18,7 @@ export const solomonIslands: Country = {
       de: 'Ozeanien',
     },
     flag: '🇸🇧',
-    landscapeImage: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/29643273/pexels-photo-29643273.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'The Solomon Islands is a Pacific nation of nearly 1,000 islands, known for lush rainforests, coral reefs, WWII history, and strong Melanesian traditions.',
       sv: 'Salomonöarna är en Stillahavsnation med nästan 1 000 öar, känd för frodiga regnskogar, korallrev, andra världskrigets historia och starka melanesiska traditioner.',

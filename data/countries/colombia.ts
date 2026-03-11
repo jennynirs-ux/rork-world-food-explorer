@@ -18,7 +18,7 @@ export const colombia: Country = {
       de: 'Südamerika',
     },
     flag: '🇨🇴',
-    landscapeImage: 'https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/14349383/pexels-photo-14349383.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Colombia is a vibrant South American country known for its stunning biodiversity, coffee plantations, colorful colonial cities, and warm, welcoming people. From the Caribbean coast to the Amazon rainforest, it offers incredible natural and cultural diversity.',
       sv: 'Colombia är ett pulserande sydamerikanskt land känt för sin fantastiska biologiska mångfald, kaffeplantager, färgglada koloniala städer och varma, välkomnande människor. Från den karibiska kusten till Amazonas regnskog erbjuder den otrolig naturlig och kulturell mångfald.',

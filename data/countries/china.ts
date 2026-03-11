@@ -18,7 +18,7 @@ export const china: Country = {
       de: 'Asien',
     },
     flag: '🇨🇳',
-    landscapeImage: 'https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/32972816/pexels-photo-32972816.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'China, officially the People\'s Republic of China, is a vast East Asian country with diverse landscapes and one of the world\'s oldest civilizations, known for the Great Wall and rich cultural heritage.',
       sv: 'Kina, officiellt Folkrepubliken Kina, är ett vidsträckt östasiatiskt land med olika landskap och en av världens äldsta civilisationer, känd för muren och det rika kulturarvet.',

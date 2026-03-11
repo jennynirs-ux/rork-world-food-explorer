@@ -18,7 +18,7 @@ export const benin: Country = {
       de: 'Afrika',
     },
     flag: '🇧🇯',
-    landscapeImage: 'https://images.unsplash.com/photo-1493770348161-369560ae357d?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/14868351/pexels-photo-14868351.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Benin is a West African nation, the birthplace of Vodun (Voodoo) religion, with a rich history as the site of the Kingdom of Dahomey.',
       sv: 'Benin är en västafrikansk nation, födelseplatsen för Vodun (Voodoo) religion, med en rik historia som platsen för kungariket Dahomey.',

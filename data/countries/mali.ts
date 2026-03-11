@@ -18,7 +18,7 @@ export const mali: Country = {
       de: 'Afrika',
     },
     flag: '🇲🇱',
-    landscapeImage: 'https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800&q=80',
+    landscapeImage: 'https://images.pexels.com/photos/17676147/pexels-photo-17676147.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
       en: 'Mali is a landlocked West African country known for the ancient city of Timbuktu, the Niger River, and rich musical traditions.',
       sv: 'Mali är ett landlockat västafrikanskt land känt för den antika staden Timbuktu, Nigerfloden och rika musiktraditioner.',
