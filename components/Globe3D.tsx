@@ -375,7 +375,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
           </View>
 
           {/* Touchable flag pins overlaid on top */}
-          <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE }} pointerEvents="box-none">
+          <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE , pointerEvents: 'box-none' }}>
             {worldData && worldData.features.map((feature: any, idx: number) => {
               const country = getCountryFromFeature(feature);
               if (!country) return null;
@@ -501,10 +501,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     justifyContent: 'center',
     alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.15,
-    shadowRadius: 4,
+    boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.15)',
     elevation: 3,
   },
   legend: {
@@ -595,10 +592,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255, 255, 255, 0.98)',
     justifyContent: 'center',
     alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 3 },
-    shadowOpacity: 0.3,
-    shadowRadius: 4,
+    boxShadow: '0px 3px 4px rgba(0, 0, 0, 0.3)',
     elevation: 6,
     borderWidth: 3,
     borderColor: '#FF6B35',
