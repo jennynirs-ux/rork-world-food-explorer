@@ -8,7 +8,7 @@ import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, H
 import Globe3D from '@/components/Globe3D';
 import { useState, useEffect } from 'react';
 import { isCountryAccessible } from '@/lib/access-control';
-import { preloadImages } from '@/lib/image-utils';
+import { preloadImages } from '@/lib/image-utils'
 import { translateContent } from '@/lib/translate-content';
 
 export default function ExploreScreen() {
@@ -417,10 +417,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     marginTop: 16,
     gap: 8,
-    shadowColor: '#FF6B35',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
+    boxShadow: '0px 4px 8px rgba(255, 107, 53, 0.3)',
     elevation: 4,
   },
   randomButtonText: {
@@ -442,10 +439,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
     gap: 8,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: -4 },
-    shadowOpacity: 0.1,
-    shadowRadius: 8,
+    boxShadow: '0px -4px 8px rgba(0, 0, 0, 0.1)',
     elevation: 8,
   },
   filterButton: {
@@ -560,10 +554,7 @@ const styles = StyleSheet.create({
     gap: 8,
     minWidth: '47%',
     maxWidth: '47%',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.05,
-    shadowRadius: 2,
+    boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.05)',
     elevation: 1,
   },
   statusDot: {
