@@ -4,6 +4,7 @@ import { ZoomIn, ZoomOut, MapPin } from 'lucide-react-native';
 import Svg, { Path, Circle, Defs, RadialGradient, Stop, G } from 'react-native-svg';
 import { geoOrthographic, geoPath, geoContains } from 'd3-geo';
 import { feature } from 'topojson-client';
+import { useOptimizedPins, useThrottledRotation } from '@/lib/useGlobeOptimization';
 
 const { width, height } = Dimensions.get('window');
 
@@ -35,6 +36,17 @@ const GEO_TO_ISO: Record<string, string> = {
 export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DProps) {
   const [scale, setScale] = useState(150);
   const [rotation, setRotation] = useState<[number, number, number]>([0, -30, 0]);
+
+  // PERF-002: Viewport culling — only render pins visible on the current globe face
+  const optimizedResult = useOptimizedPins(
+    pins.map(p => ({ ...p, lat: p.lat || 0, lng: p.lng || 0 })),
+    -rotation[1], // centerLat (d3-geo convention: negated)
+    -rotation[0], // centerLng (d3-geo convention: negated)
+    scale,
+    MIN_SCALE,
+    MAX_SCALE
+  );
+  const visiblePins = optimizedResult.pins as CountryPin[];
   const [worldData, setWorldData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [selectedCountry, setSelectedCountry] = useState<CountryPin | null>(null);
@@ -50,14 +62,14 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
   const GLOBE_SIZE = Math.min(width - 80, height * 0.55);
 
   const pinLookup = useMemo(() => {
-    const lookup = pins.reduce((acc, pin) => {
+    const lookup = visiblePins.reduce((acc, pin) => {
       acc[pin.code.toLowerCase()] = pin;
       return acc;
     }, {} as Record<string, CountryPin>);
     console.log('Pin lookup created with', Object.keys(lookup).length, 'countries');
     console.log('Sample codes:', Object.keys(lookup).slice(0, 10));
     return lookup;
-  }, [pins]);
+  }, [visiblePins]);
 
   useEffect(() => {
     const fetchData = async () => {
