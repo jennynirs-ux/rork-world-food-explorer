@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput, RefreshControl } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
@@ -22,6 +22,7 @@ export default function ExploreScreen() {
   const [filterStatus, setFilterStatus] = useState<string | null>(null);
   const [showPaywall, setShowPaywall] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
+  const [refreshing, setRefreshing] = useState(false);
 
   const getCountryStatus = (countryId: string) => {
     const progress = countryProgress[countryId];
@@ -38,11 +39,15 @@ export default function ExploreScreen() {
     return '#F59E0B';
   };
 
+  // Pixel coordinates are on an 800x450 equirectangular map image
+  const MAP_WIDTH = 800;
+  const MAP_HEIGHT = 450;
+
   const countryPins = countries
     .filter(country => country.coordinates && country.coordinates.x != null && country.coordinates.y != null)
     .map(country => {
-      const lng = (country.coordinates!.x / 800) * 360 - 180;
-      const lat = 90 - (country.coordinates!.y / 450) * 180;
+      const lng = (country.coordinates!.x / MAP_WIDTH) * 360 - 180;
+      const lat = 90 - (country.coordinates!.y / MAP_HEIGHT) * 180;
       
       return {
         id: country.id,
@@ -69,6 +74,13 @@ export default function ExploreScreen() {
 
     router.push({ pathname: '/country/[id]' as any, params: { id: countryId } });
   }, [countries, purchasedProducts, router]);
+
+  const handleRefresh = useCallback(async () => {
+    setRefreshing(true);
+    // Brief delay to show the refresh indicator — data is local
+    await new Promise(resolve => setTimeout(resolve, 500));
+    setRefreshing(false);
+  }, []);
 
   const handleRandomCountry = () => {
     const accessibleCountries = countries.filter(c => isCountryAccessible(c, purchasedProducts));
@@ -187,7 +199,11 @@ export default function ExploreScreen() {
             </View>
           </View>
           
-          <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
+          <ScrollView
+            style={styles.list}
+            showsVerticalScrollIndicator={false}
+            refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor="#FF6B35" />}
+          >
             {filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)).map(renderCountryCard)}
             {filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)).length === 0 && (
               <View style={styles.emptyFavorites}>
@@ -292,7 +308,11 @@ export default function ExploreScreen() {
             </View>
           </View>
           
-          <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
+          <ScrollView
+            style={styles.list}
+            showsVerticalScrollIndicator={false}
+            refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor="#FF6B35" />}
+          >
             {filteredCountries.map(renderCountryCard)}
             <View style={{ height: 20 }} />
           </ScrollView>

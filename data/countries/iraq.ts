@@ -139,6 +139,52 @@ export const iraq: Country = {
       },
     ],
     foodCulture: 'Iraqi cuisine features rice, lamb, flatbreads, and aromatic spices with Persian, Turkish, and Arab influences.',
+    history: [
+      {
+        year: '3000 BC',
+        title: 'Barley Cultivation',
+        description: {
+          en: 'Ancient Mesopotamians cultivated barley and emmer wheat in fertile lands between Tigris and Euphrates rivers, establishing agriculture',
+          sv: 'Antika mesopotamier odlade korn och emmervete i fertil mark mellan floderna Tigris och Eufrat',
+          es: 'Los antiguos mesopotámicos cultivaban cebada y trigo emmer en tierras fértiles entre los ríos Tigris y Éufrates',
+          fr: 'Les anciens Mésopotamiens cultivaient l\'orge et l\'amidon dans les terres fertiles entre le Tigre et l\'Euphrate',
+          de: 'Alte Mesopotamier bauten Gerste und Emmer-Weizen in fruchtbarem Land zwischen Tigris und Euphrat an',
+        },
+      },
+      {
+        year: '2100 BC',
+        title: 'Sumerian Date Culture',
+        description: {
+          en: 'Date palm cultivation flourished in Mesopotamia, becoming a staple food with over 360 varieties documented by Sumerians',
+          sv: 'Dadelpalmsodling blomstrade i Mesopotamien och blev en stapelvara',
+          es: 'El cultivo de la palmera datilera floreció en Mesopotamia, convirtiéndose en un alimento básico',
+          fr: 'La culture du dattier s\'épanouit en Mésopotamie, devenant un aliment de base',
+          de: 'Der Anbau von Dattelpalmen blühte in Mesopotamien auf und wurde zum Grundnahrungsmittel',
+        },
+      },
+      {
+        year: '500 AD',
+        title: 'Kebab Traditions Emerge',
+        description: {
+          en: 'Grilled meat preparations became central to Iraqi cuisine, with early forms of masgouf and kebab dishes developing along the Tigris',
+          sv: 'Grillad köttberedning blev central i irakisk mat',
+          es: 'La preparación de carne a la parrilla se convirtió en el centro de la cocina iraquí',
+          fr: 'La préparation de la viande grillée devint centrale à la cuisine irakienne',
+          de: 'Gegrillte Fleischzubereitungen wurden zur Mitte der irakischen Küche',
+        },
+      },
+      {
+        year: '1500s',
+        title: 'Rice and Spice Trade',
+        description: {
+          en: 'Baghdad became center of Silk Road trade, introducing new spices and rice cultivation techniques that transformed Iraqi cookery',
+          sv: 'Bagdad blev centrum för Silkvägshandel',
+          es: 'Bagdad se convirtió en el centro del comercio de la Ruta de la Seda',
+          fr: 'Bagdad devint centre du commerce de la Route de la Soie',
+          de: 'Bagdad wurde zum Zentrum des Seidenstraßenhandels',
+        },
+      },
+    ],
     mainDish: {
       id: 'iraq-main',
       name: {

@@ -146,6 +146,52 @@ export const rwanda: Country = {
       },
     ],
     foodCulture: 'Rwandan cuisine is based on staples like sweet potatoes, beans, cassava, and plantains. Meals are simple but flavorful, often accompanied by meat or fish stews.',
+    history: [
+      {
+        year: '1000 AD',
+        title: 'Banana Cultivation Spreads',
+        description: {
+          en: 'Bananas became major staple crop in Rwanda, bringing reliable nutrition and enabling population growth in the highlands',
+          sv: 'Bananer blev en viktig stapelgröda i Rwanda',
+          es: 'Los plátanos se convirtieron en un cultivo básico importante en Ruanda',
+          fr: 'Les bananes sont devenues une culture de base majeure au Rwanda',
+          de: 'Bananen wurden zur wichtigen Grundnahrungspflanze in Ruanda',
+        },
+      },
+      {
+        year: '1500s',
+        title: 'Bean and Pumpkin Domestication',
+        description: {
+          en: 'Local populations domesticated kidney beans and pumpkins, providing protein and nutrition for growing families and communities',
+          sv: 'Lokala befolkningar domesticerade njurbönor och pumpa',
+          es: 'Las poblaciones locales domesticaron frijoles y calabazas',
+          fr: 'Les populations locales ont domestiqué les haricots et les courges',
+          de: 'Lokale Bevölkerungen domestizierten Bohnen und Kürbisse',
+        },
+      },
+      {
+        year: '1800s',
+        title: 'Cattle Herding Integration',
+        description: {
+          en: 'Cattle herding traditions blended with crop agriculture, leading to sorghum beer production and meat-based festive meals',
+          sv: 'Boskapsuppfödning traditioner blandade med odling',
+          es: 'Las tradiciones de ganadería se mezclaban con la agricultura',
+          fr: 'Les traditions d\'élevage de bétail se mêlaient à l\'agriculture',
+          de: 'Viehzuchttradionen vermischten sich mit der Landwirtschaft',
+        },
+      },
+      {
+        year: '1960',
+        title: 'Post-Independence Food Identity',
+        description: {
+          en: 'After independence, traditional Rwandan dishes became symbols of cultural identity with foods like ubwali and ikiveri gaining importance',
+          sv: 'Efter självständigheten blev traditionell rwandisk mat symbolen för kulturell identitet',
+          es: 'Después de la independencia, la comida rwandesa tradicional se convirtió en símbolo de identidad cultural',
+          fr: 'Après l\'indépendance, les plats rwandais traditionnels sont devenus des symboles d\'identité culturelle',
+          de: 'Nach der Unabhängigkeit wurden traditionelle ruandische Gerichte zu Symbolen der kulturellen Identität',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {

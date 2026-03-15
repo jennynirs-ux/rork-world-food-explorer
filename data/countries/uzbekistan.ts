@@ -139,6 +139,52 @@ export const uzbekistan: Country = {
       },
     ],
     foodCulture: 'Uzbek cuisine is hearty and communal, centered on rice, lamb, bread (non), and seasonal produce, with Central Asian and Persian influences.',
+    history: [
+      {
+        year: '500-1000 AD',
+        title: 'Silk Road Spice Integration',
+        description: {
+          en: 'The Silk Road trade routes transform Uzbek cuisine through introduction of exotic spices, dried fruits, nuts, and herbs from China, Persia, and India. These become signature flavors in pilaf and breads.',
+          sv: 'Silkvägenes handelsvägar omvandlar uzbekisk mat genom introduktion av exotiska kryddor, torkad frukt, nötter och örter från Kina, Persien och Indien. Dessa blir signatursmak i pilaf och bröd.',
+          es: 'Las rutas comerciales de la Ruta de la Seda transforman la cocina uzbeka a través de la introducción de especias exóticas, frutas secas, nueces y hierbas de China, Persia e India. Estos se convierten en sabores distintivos en pilaf y panes.',
+          fr: 'Les routes commerciales de la Route de la Soie transforment la cuisine ouzbèke par l\'introduction d\'épices exotiques, de fruits secs, de noix et d\'herbes de Chine, de Perse et d\'Inde. Ceux-ci deviennent les saveurs caractéristiques du pilaf et des pains.',
+          de: 'Die Handelsrouten der Seidenstraße transformieren die usbekische Küche durch die Einführung von exotischen Gewürzen, Trockenfrüchten, Nüssen und Kräutern aus China, Persien und Indien. Diese werden zu charakteristischen Aromen in Pilaf und Broten.',
+        },
+      },
+      {
+        year: '1200-1400',
+        title: 'Rice Pilaf Refinement',
+        description: {
+          en: 'Plov (rice pilaf) becomes the centerpiece of Uzbek dining culture, perfected through generations of Timurid and Safavid influences. Complex layering techniques and meat-rice combinations achieve regional mastery.',
+          sv: 'Plov (rispilaff) blir centerpiece av uzbekisk matkultur, perfektionerad genom generationer av Timurid och Safavid influenser. Komplexa lagerföringsteknik och kött-riskombinatione uppnår regional expertis.',
+          es: 'Plov (arroz pilaf) se convierte en la pieza central de la cultura gastronómica uzbeka, perfeccionado a través de generaciones de influencias Timurid y Safavid. Las técnicas de estratificación compleja y combinaciones de carne y arroz logran maestría regional.',
+          fr: 'Le plov (pilaf de riz) devient la pièce maîtresse de la culture culinaire ouzbèke, perfectionnée par des générations d\'influences timourides et safavides. Les techniques de stratification complexe et les combinaisons viande-riz atteignent une maîtrise régionale.',
+          de: 'Plov (Reispilaf) wird zum Mittelpunkt der usbekischen Esskultur, perfektioniert durch Generationen von timuridischen und safavidischen Einflüssen. Komplexe Schichtungstechniken und Fleisch-Reis-Kombinationen erreichen regionale Meisterschaft.',
+        },
+      },
+      {
+        year: '1400-1600',
+        title: 'Timurid Court Culinary Arts',
+        description: {
+          en: 'Timurid dynasty courts elevate Uzbek cuisine to an art form, developing sophisticated preparation techniques, elaborate feasts, and documentation of recipes that influence regional dining traditions.',
+          sv: 'Timuridisk dynasti gårdar höjer uzbekisk mat till en konstform, utvecklar sofistikerad tillagningsmetoder, utarbetade fester och dokumentation av recept som påverkar regionala matvanor.',
+          es: 'Los tribunales de la dinastía Timurid elevan la cocina uzbeka a una forma de arte, desarrollando técnicas de preparación sofisticadas, banquetes elaborados y documentación de recetas que influyen en las tradiciones culinarias regionales.',
+          fr: 'Les cours de la dynastie timouride élèvent la cuisine ouzbèke à une forme d\'art, développant des techniques de préparation sophistiquées, des festins élaborés et la documentation des recettes qui influencent les traditions culinaires régionales.',
+          de: 'Timuridische Dynastie-Höfe erheben die usbekische Küche zu einer Kunstform, entwickeln raffinierte Zubereitungstechniken, aufwändige Bankette und Rezeptdokumentation, die regionale Essenstraditionen beeinflussen.',
+        },
+      },
+      {
+        year: '1600-Present',
+        title: 'Noodle Traditions and Communal Dining',
+        description: {
+          en: 'Noodle dishes like lagman and manti become entrenched in Uzbek culture, while communal feasting traditions formalize around shared platters, establishing the collective dining philosophy that defines modern Uzbek food culture.',
+          sv: 'Nudelerätter som lagman och manti blir rotfast i uzbekisk kultur, medan gemensamma festtraditionen formaliserar runt delade rätter, etablerande den kollektiva diningfilosofin som definierar modern uzbekisk matkultur.',
+          es: 'Los platos de fideos como lagman y manti se arraigan en la cultura uzbeka, mientras que las tradiciones de festejos comunales se formalizan alrededor de platillos compartidos, estableciendo la filosofía de comidas colectivas que define la cultura alimentaria uzbeka moderna.',
+          fr: 'Les plats de nouilles comme le lagman et le manti deviennent enracinés dans la culture ouzbèke, tandis que les traditions de festin communal se formalisent autour de plats partagés, établissant la philosophie de repas collectifs qui définit la culture alimentaire ouzbèke moderne.',
+          de: 'Nudelgerichte wie Lagman und Manti werden in der usbekischen Kultur verwurzelt, während sich Gemeinschaftsfesttraditionen um gemeinsame Teller formalisieren und die kollektive Essensphilosophie etablieren, die die moderne usbekische Esskultur definiert.',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {

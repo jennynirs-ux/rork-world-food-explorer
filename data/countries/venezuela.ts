@@ -146,6 +146,52 @@ export const venezuela: Country = {
       },
     ],
     foodCulture: 'Venezuelan cuisine features corn-based dishes, tropical fruits, and grilled meats. Arepas are eaten daily. Indigenous, African, and Spanish influences blend together.',
+    history: [
+      {
+        year: '2000 BC',
+        title: 'Maize Domestication',
+        description: {
+          en: 'Indigenous peoples domesticated maize from wild grasses, establishing corn as sacred and dietary staple for thousands of years',
+          sv: 'Ursprunglig folk domesticerade majs',
+          es: 'Los pueblos indígenas domesticaron el maíz',
+          fr: 'Les peuples autochtones ont domestiqué le maïs',
+          de: 'Indigene Völker domestizierten Mais',
+        },
+      },
+      {
+        year: '1500',
+        title: 'Arepa Development',
+        description: {
+          en: 'Pre-Columbian Arawak and Carib peoples perfected arepa preparation, creating versatile corn cakes that would define Venezuelan identity',
+          sv: 'Pre-Columbus folk perfektionerade arepaberedning',
+          es: 'Los pueblos precolombinos perfeccionaron la preparación de arepas',
+          fr: 'Les peuples précolombiens ont perfectionné la préparation des arepas',
+          de: 'Präkolumbische Völker perfektionierten die Arepazubereitung',
+        },
+      },
+      {
+        year: '1600',
+        title: 'African Culinary Traditions',
+        description: {
+          en: 'Enslaved Africans brought plantain cooking techniques, okra dishes, and seasoning traditions that transformed Venezuelan cuisine',
+          sv: 'Afrikanerna förde med sig matplantatöversättning',
+          es: 'Los africanos trajeron técnicas de cocción de plátano',
+          fr: 'Les Africains ont apporté les techniques de cuisson des plantains',
+          de: 'Afrikaner brachten Kochtechniken für Kochbananen mit',
+        },
+      },
+      {
+        year: '1900',
+        title: 'Grilling and Meat Culture',
+        description: {
+          en: 'Spanish colonial tradition of grilling meats evolved with local ingredients, creating distinctive Venezuelan asado and grilled specialties',
+          sv: 'Spansk kolonial tradition av grillning utvecklades',
+          es: 'La tradición colonial española de asar a la parrilla evolucionó',
+          fr: 'La tradition coloniale espagnole de la cuisson au gril a évolué',
+          de: 'Die spanische Kolonialtradition des Grillens entwickelte sich',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {

@@ -146,6 +146,52 @@ export const uruguay: Country = {
       },
     ],
     foodCulture: 'Uruguayan cuisine revolves around beef and asado (barbecue). Italian immigration influenced pasta dishes. Mate tea is a daily ritual, and dulce de leche is beloved.',
+    history: [
+      {
+        year: '1500',
+        title: 'Gaucho Cattle Herding Begins',
+        description: {
+          en: 'Spanish introduced cattle to Pampas, and gauchos developed iconic asado barbecue traditions, establishing beef as central to Uruguayan identity',
+          sv: 'Spanjorer introducerade boskap till Pampas',
+          es: 'Los españoles introdujeron ganado a las Pampas',
+          fr: 'Les Espagnols ont introduit le bétail aux Pampas',
+          de: 'Spanier führten Vieh in die Pampas ein',
+        },
+      },
+      {
+        year: '1850',
+        title: 'Italian Immigration and Pasta',
+        description: {
+          en: 'Italian immigrants brought pasta-making traditions and techniques, blending with local beef culture to create fusion dishes',
+          sv: 'Italienska immigranter förde med sig pastamakningstraditionen',
+          es: 'Los inmigrantes italianos trajeron tradiciones de fabricación de pasta',
+          fr: 'Les immigrants italiens ont apporté les traditions de fabrication de pâtes',
+          de: 'Italienische Einwanderer brachten Pastamach traditions mit',
+        },
+      },
+      {
+        year: '1900',
+        title: 'Mate Ritual Culture',
+        description: {
+          en: 'Mate drinking became widespread social ritual among all classes, with gourd and bombilla becoming symbols of Uruguayan hospitality and community',
+          sv: 'Mateidrande blev utbredd social ritual',
+          es: 'Beber mate se convirtió en un ritual social generalizado',
+          fr: 'La consommation de maté est devenue un rituel social généralisé',
+          de: 'Mate-Trinken wurde zum verbreiteten sozialen Ritual',
+        },
+      },
+      {
+        year: '1950',
+        title: 'Dulce de Leche Commercialization',
+        description: {
+          en: 'Traditional dulce de leche production was commercialized, becoming national symbol and export product beloved throughout Latin America',
+          sv: 'Traditionell dulce de leche-produktion kommersialiserades',
+          es: 'La producción tradicional de dulce de leche se comercializó',
+          fr: 'La production traditionnelle de dulce de leche a été commercialisée',
+          de: 'Die traditionelle Dulce-de-Leche-Produktion wurde kommerzialisiert',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {

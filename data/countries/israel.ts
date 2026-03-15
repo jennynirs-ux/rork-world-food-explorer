@@ -139,6 +139,52 @@ export const israel: Country = {
       },
     ],
     foodCulture: 'Israeli cuisine blends Middle Eastern, Mediterranean, and Jewish diaspora influences with fresh ingredients.',
+    history: [
+      {
+        year: '1200 BC',
+        title: 'Olive Cultivation',
+        description: {
+          en: 'Olive trees were planted throughout ancient Judea, becoming central to diet and economy, providing oil for cooking and lamps',
+          sv: 'Olivträd planterades över hela det antika Judeen',
+          es: 'Se plantaron olivos en toda la antigua Judea',
+          fr: 'Les oliviers ont été plantés dans toute l\'ancienne Judée',
+          de: 'Olivenbäume wurden im ganzen alten Judäa gepflanzt',
+        },
+      },
+      {
+        year: '500 BC',
+        title: 'Bread Staple Emerges',
+        description: {
+          en: 'Barley and wheat bread became fundamental food in ancient Israel, with stone ovens appearing in archaeological evidence',
+          sv: 'Korn- och vetetbröd blev en grundläggande mat i det antika Israel',
+          es: 'El pan de cebada y trigo se convirtió en un alimento fundamental en el Israel antiguo',
+          fr: 'Le pain d\'orge et de blé est devenu un aliment fondamental dans l\'ancien Israël',
+          de: 'Gersten- und Weizenbrot wurden zum Grundnahrungsmittel im alten Israel',
+        },
+      },
+      {
+        year: '800 AD',
+        title: 'Mediterranean Spice Integration',
+        description: {
+          en: 'Arab conquest brought new spices and culinary techniques, blending Mediterranean flavors with Middle Eastern preparations',
+          sv: 'Arabisk erövring införde nya kryddor och kulinariska tekniker',
+          es: 'La conquista árabe introdujo nuevas especias y técnicas culinarias',
+          fr: 'La conquête arabe a introduit de nouvelles épices et techniques culinaires',
+          de: 'Die arabische Eroberung führte neue Gewürze und kulinarische Techniken ein',
+        },
+      },
+      {
+        year: '1900s',
+        title: 'Jewish Diaspora Fusion',
+        description: {
+          en: 'Jewish immigration brought Ashkenazi, Sephardic, and Mizrahi culinary traditions, creating modern Israeli cuisine fusion',
+          sv: 'Judisk invandring förde med sig kulinariska traditioner',
+          es: 'La inmigración judía traía tradiciones culinarias',
+          fr: 'L\'immigration juive apportait des traditions culinaires',
+          de: 'Jüdische Einwanderung brachte kulinarische Traditionen mit',
+        },
+      },
+    ],
     mainDish: {
       id: 'israel-main',
       name: {

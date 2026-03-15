@@ -18,6 +18,7 @@ import { useTranslation } from '@/lib/i18n';
 import { useTranslatedCountry } from '@/lib/use-translated-country';
 import { translateContent } from '@/lib/translate-content';
 import colors from '@/constants/colors';
+import { CountryDetailSkeleton } from '@/components/SkeletonLoader';
 import { 
   Compass, 
   ChefHat, 
@@ -107,7 +108,7 @@ export default function CountryDetailScreen() {
   if (!country || !progress) {
     return (
       <SafeAreaView style={styles.container}>
-        <Text>{t.country.notFound}</Text>
+        <CountryDetailSkeleton />
       </SafeAreaView>
     );
   }

@@ -146,6 +146,52 @@ export const somalia: Country = {
       },
     ],
     foodCulture: 'Somali cuisine reflects East African, Yemeni, and Italian influences. Meals often feature rice, pasta, grilled meats, and flatbread. Spices like cumin, cardamom, and coriander are prominent.',
+    history: [
+      {
+        year: '2000 BC',
+        title: 'Nomadic Pastoralism',
+        description: {
+          en: 'Early Somali pastoralists develop sophisticated pastoral culture centered on camel, goat, and sheep herding, creating meat-based and milk-based culinary traditions.',
+          sv: 'Tidiga somaliska pastoralisters utvecklar sofistikerad pastoral kultur centrerad på kamel-, get- och fåruppfödning, vilket skapar köttkäd och mjölkbaserade kulinära traditioner.',
+          es: 'Los primeros pastores somalíes desarrollan una sofisticada cultura pastoril centrada en la cría de camellos, cabras y ovejas, creando tradiciones culinarias basadas en carne y leche.',
+          fr: 'Les premiers pasteurs somaliens développent une culture pastorale sophistiquée centrée sur l\'élevage des chameaux, des chèvres et des moutons, créant des traditions culinaires à base de viande et de lait.',
+          de: 'Frühe somalische Pastoralists entwickeln eine ausgefeilte Pastoralkultur, die auf der Zucht von Kamelen, Ziegen und Schafen basiert und fleisch- und milchbasierte kulinarische Traditionen schafft.',
+        },
+      },
+      {
+        year: '800 AD',
+        title: 'Spice Route Trade',
+        description: {
+          en: 'Somalia becomes a crucial hub on the Indian Ocean spice trade route, introducing cloves, cardamom, cinnamon, and pepper to local cuisine and creating fusion dishes with Arab traders.',
+          sv: 'Somalia blir ett avgörande nav på Indiska oceanens kryddväg, introducerande nejlika, kardamom, kanel och peppar till lokal mat och skapar fusionrätter med arabiska handlare.',
+          es: 'Somalia se convierte en un centro crucial en la ruta comercial de especias del Océano Índico, introduciendo clavo, cardamomo, canela y pimienta a la cocina local y creando platos de fusión con comerciantes árabes.',
+          fr: 'La Somalie devient un centre crucial de la route commerciale des épices de l\'océan Indien, introduisant les clous de girofle, la cardamome, la cannelle et le poivre à la cuisine locale et créant des plats de fusion avec les commerçants arabes.',
+          de: 'Somalia wird zu einem entscheidenden Knotenpunkt auf der Gewürzhandelsstrecke des Indischen Ozeans, führt Nelken, Kardamom, Zimt und Pfeffer in die lokale Küche ein und schafft Fusionsgerichte mit arabischen Händlern.',
+        },
+      },
+      {
+        year: '1500s',
+        title: 'Coastal Seafood Mastery',
+        description: {
+          en: 'Somali coastal communities develop expertise in fishing and seafood preparation, incorporating grouper, tuna, and lobster into meals alongside grains and creating seasoned fish and rice dishes.',
+          sv: 'Somaliska kustsamhällen utvecklar expertis i fiske och seafood-beredning, införlivandet gruppfisk, tonfisk och hummer i måltider tillsammans med spannmål och skapar kryddad fisk och risrätter.',
+          es: 'Las comunidades costeras somalíes desarrollan experiencia en la pesca y preparación de mariscos, incorporando mero, atún y langosta en las comidas junto con granos y creando platos de pescado y arroz sazonados.',
+          fr: 'Les communautés côtières somaliennes développent une expertise dans la pêche et la préparation des fruits de mer, incorporant le mérou, le thon et le homard dans les repas aux côtés des céréales et créant des plats de poisson et de riz assaisonnés.',
+          de: 'Somalische Küstengemeinden entwickeln Fachkompetenz in der Fischerei und Meeresfrüchtezubereitung, wobei Zackenbarsch, Thunfisch und Hummer zusammen mit Getreide in Mahlzeiten eingebaut werden und würzige Fisch- und Reisgerichte entstehen.',
+        },
+      },
+      {
+        year: '1600s',
+        title: 'Colonial Culinary Exchange',
+        description: {
+          en: 'Italian colonization introduces pasta and tomato-based dishes to Somalia, which blend with local ingredients and techniques, creating unique fusion cuisine that becomes foundational to Somali food identity.',
+          sv: 'Italiensk kolonisering introducerar pasta och tomatbaserade rätter till Somalia, som blandas med lokala ingredienser och tekniker, skapar unik fusionskuisine som blir grundläggande för somalisk matidentitet.',
+          es: 'La colonización italiana introduce pasta y platos a base de tomate a Somalia, que se mezclan con ingredientes y técnicas locales, creando una cocina de fusión única que se convierte en fundamental para la identidad alimentaria somalí.',
+          fr: 'La colonisation italienne introduit les pâtes et les plats à base de tomates en Somalie, qui se mélangent avec des ingrédients et des techniques locales, créant une cuisine de fusion unique qui devient fondamentale pour l\'identité alimentaire somalienne.',
+          de: 'Die italienische Kolonisierung führt Pasta und tomatensaßbasierte Gerichte nach Somalia ein, die sich mit lokalen Zutaten und Techniken vermischen und einzigartige Fusionsküche schaffen, die zur Grundlage der somalischen Lebensmittelidentität wird.',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {

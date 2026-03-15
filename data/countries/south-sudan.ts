@@ -146,6 +146,52 @@ export const southSudan: Country = {
       },
     ],
     foodCulture: 'South Sudanese cuisine is based on local grains and vegetables such as sorghum, millet, cassava, okra, and peanuts. Meals are often simple, filling, and shared communally.',
+    history: [
+      {
+        year: '2000 BC',
+        title: 'Sorghum Domestication',
+        description: {
+          en: 'Ancient peoples of Sudan and South Sudan domesticated sorghum, a drought-resistant grain that became foundation of regional food security',
+          sv: 'Antika människor domesticerade sorghum',
+          es: 'Los pueblos antiguos domesticaron el sorgo',
+          fr: 'Les anciens peuples ont domestiqué le sorgho',
+          de: 'Alte Völker domestizierten Hirse',
+        },
+      },
+      {
+        year: '1000 AD',
+        title: 'Nilotic Agricultural Development',
+        description: {
+          en: 'Nilotic peoples developed sustainable farming along the White Nile, cultivating millet and integrating it with cattle herding',
+          sv: 'Nilotiska folk utvecklade hållbar jordbruk',
+          es: 'Los pueblos nilóticos desarrollaron una agricultura sostenible',
+          fr: 'Les peuples nilotiques ont développé une agriculture durable',
+          de: 'Nilotische Völker entwickelten nachhaltige Landwirtschaft',
+        },
+      },
+      {
+        year: '1500s',
+        title: 'Peanut and Okra Cultivation',
+        description: {
+          en: 'Peanut and okra crops gained importance, providing protein and nutrition, especially during dry seasons and food shortages',
+          sv: 'Jordnöt och okra odling vann betydelse',
+          es: 'El cultivo de cacahuetes y okra ganó importancia',
+          fr: 'La culture des cacahuètes et du gombo a gagné en importance',
+          de: 'Der Anbau von Erdnüssen und Okra gewann an Bedeutung',
+        },
+      },
+      {
+        year: '1900s',
+        title: 'Sudd Wetland Food Resources',
+        description: {
+          en: 'Traditional knowledge of harvesting fish, water lilies, and papyrus from Sudd wetlands sustained communities for millennia',
+          sv: 'Traditionell kunskap om att skörda från Sudd våtmarker',
+          es: 'El conocimiento tradicional de cosechar en los humedales del Sudd',
+          fr: 'Les connaissances traditionnelles de récolte dans les zones humides du Sudd',
+          de: 'Traditionelles Wissen über die Ernte in den Sudd-Feuchtgebieten',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {

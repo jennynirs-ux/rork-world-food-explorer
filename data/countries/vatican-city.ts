@@ -147,6 +147,52 @@ export const vaticanCity: Country = {
       },
     ],
     foodCulture: 'Vatican cuisine is essentially Italian—especially Roman—featuring simple, high-quality ingredients like pasta, olive oil, cheese, vegetables, and espresso culture.',
+    history: [
+      {
+        year: '500-1200 AD',
+        title: 'Early Papal Feasting',
+        description: {
+          en: 'The Papal courts establish grand feasting traditions, combining Roman culinary practices with ingredients sourced from papal territories. These elaborate meals become symbols of ecclesiastical power and hospitality.',
+          sv: 'De pausliga gårdarna etablerar grandösa festtraditionen, kombinerar romerska matlagningsmetoder med ingredienser från pausliga territorier. Dessa utarbetade måltider blir symbolen för kyrklig makt och gästvänlighet.',
+          es: 'Las cortes papales establecen tradiciones de festejo grandioso, combinando prácticas culinarias romanas con ingredientes de territorios papales. Estas comidas elaboradas se convierten en símbolos de poder eclesiástico y hospitalidad.',
+          fr: 'Les cours papales établissent de grandes traditions de festin, combinant les pratiques culinaires romaines avec des ingrédients provenant des territoires papaux. Ces repas élaborés deviennent des symboles du pouvoir ecclésiastique et de l\'hospitalité.',
+          de: 'Die päpstlichen Höfe etablieren großartige Festtraditionen, kombinieren römische Kochtechniken mit Zutaten aus päpstlichen Territorien. Diese aufwändigen Mahlzeiten werden zu Symbolen kirchlicher Macht und Gastfreundschaft.',
+        },
+      },
+      {
+        year: '1400-1600',
+        title: 'Renaissance Culinary Art',
+        description: {
+          en: 'During the Renaissance, papal kitchens become centers of culinary innovation, where ingredients are treated as art materials. New cooking techniques and ingredient combinations reflect humanist values and artistic refinement.',
+          sv: 'Under renässansen blir pausliga kök centrum för kulinarisk innovation, där ingredienser behandlas som konstmaterial. Nya lagningsmetoder och ingredientkombinationer reflekterar humanistiska värden och konstnärisk förfining.',
+          es: 'Durante el Renacimiento, las cocinas papales se convierten en centros de innovación culinaria, donde los ingredientes se tratan como materiales artísticos. Las nuevas técnicas culinarias y combinaciones de ingredientes reflejan valores humanistas y refinamiento artístico.',
+          fr: 'Pendant la Renaissance, les cuisines papales deviennent des centres d\'innovation culinaire, où les ingrédients sont traités comme des matériaux artistiques. Les nouvelles techniques culinaires et les combinaisons d\'ingrédients reflètent les valeurs humanistes et le raffinement artistique.',
+          de: 'Während der Renaissance werden päpstliche Küchen zu Zentren kulinarischer Innovation, wo Zutaten als Kunstmaterial behandelt werden. Neue Kochtechniken und Ingredienzkombinationen spiegeln humanistische Werte und künstlerische Verfeinerung wider.',
+        },
+      },
+      {
+        year: '1600-1800',
+        title: 'Baroque Banquets and Papal Splendor',
+        description: {
+          en: 'Baroque era papal banquets showcase unprecedented luxury and complexity. Multiple courses, exotic ingredients, and theatrical presentation establish Vatican dining as a symbol of papal authority and European Catholic prestige.',
+          sv: 'Barockaida pausliga banketter visar ostörd lyx och komplexitet. Flera rätter, exotiska ingredienser och teatralisk presentation etablerar Vatikanmaltid som en symbol på pauslig auktoritet och europeisk katolsk prestige.',
+          es: 'Los banquetes papales de la era Barroca muestran un lujo y una complejidad sin precedentes. Múltiples platos, ingredientes exóticos y presentación teatral establecen las comidas de Vaticano como símbolo de autoridad papal y prestigio católico europeo.',
+          fr: 'Les banquets papaux de l\'ère baroque affichent un luxe et une complexité sans précédent. De multiples plats, des ingrédients exotiques et une présentation théâtrale établissent les repas au Vatican comme symbole d\'autorité papale et de prestige catholique européen.',
+          de: 'Päpstliche Bankette der Barockzeit zeigen beispiellosen Luxus und Komplexität. Mehrere Gänge, exotische Zutaten und theatralische Präsentation etablieren Vatikan-Mahlzeiten als Symbol päpstlicher Autorität und europäischen katholischen Prestiges.',
+        },
+      },
+      {
+        year: '1800-Present',
+        title: 'Modern Papal Simplicity and Italian Tradition',
+        description: {
+          en: 'Modern popes emphasize simplicity and humility in Vatican dining. While maintaining Italian culinary traditions with quality olive oil, pasta, and fresh ingredients, contemporary papal meals reflect spiritual values and accessibility.',
+          sv: 'Moderna påvar betonar enkelhet och ödmjukhet i Vatikanmaltider. Medan man upprätthållar italienska kulinariska traditionen med kvalitativt olivolja, pasta och färska ingredienser, reflekterar samtida pausliga måltider andliga värden och tillgänglighet.',
+          es: 'Los papas modernos enfatizan la simplicidad y la humildad en las comidas del Vaticano. Mientras se mantienen las tradiciones culinarias italianas con aceite de oliva de calidad, pasta e ingredientes frescos, las comidas papales contemporáneas reflejan valores espirituales y accesibilidad.',
+          fr: 'Les papes modernes mettent l\'accent sur la simplicité et l\'humilité dans les repas du Vatican. Tout en maintenant les traditions culinaires italiennes avec de l\'huile d\'olive de qualité, des pâtes et des ingrédients frais, les repas papaux contemporains reflètent les valeurs spirituelles et l\'accessibilité.',
+          de: 'Moderne Päpste betonen Einfachheit und Demut bei Vatikan-Mahlzeiten. Während italienische Kochtradition mit hochwertigem Olivenöl, Pasta und frischen Zutaten beibehalten wird, spiegeln zeitgenössische päpstliche Mahlzeiten geistige Werte und Zugänglichkeit wider.',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {

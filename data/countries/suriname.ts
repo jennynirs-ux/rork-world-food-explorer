@@ -146,6 +146,52 @@ export const suriname: Country = {
       },
     ],
     foodCulture: 'Surinamese cuisine is a unique fusion of Creole, Javanese, Indian, Chinese, Indigenous, and Dutch traditions. Meals are often flavorful, spicy, and rich in herbs, root vegetables, and rice.',
+    history: [
+      {
+        year: '3000 BC',
+        title: 'Indigenous Cassava Culture',
+        description: {
+          en: 'Indigenous Arawak and Carib peoples domesticate cassava root, developing traditional processing methods, cassava bread production, and culinary techniques that remain foundational to Surinamese cooking.',
+          sv: 'Ursprungliga Arawak- och Caribfolket domesticerar kassavarot, utvecklar traditionell bearbetningsmetod, kassavabrödsproduktion och kulinariska tekniker som förblir grundläggande för surinamesisk matlagning.',
+          es: 'Los pueblos indígenas Arawak y Caribe domestican la raíz de yuca, desarrollando métodos de procesamiento tradicionales, producción de pan de yuca y técnicas culinarias que siguen siendo fundamentales para la cocina surinamesa.',
+          fr: 'Les peuples indigènes arawak et carib domestiquent la racine de manioc, développant des méthodes de transformation traditionnelles, la production de pain de manioc et des techniques culinaires qui restent fondamentales pour la cuisine surinamaise.',
+          de: 'Indigene Arawak- und Karib-Völker zähmen Cassavawurzeln, entwickeln traditionelle Verarbeitungsmethoden, Cassavabrotproduktion und kulinarische Techniken, die für surinamesisches Kochen grundlegend bleiben.',
+        },
+      },
+      {
+        year: '1600-1750',
+        title: 'African Culinary Traditions',
+        description: {
+          en: 'Enslaved African peoples bring diverse cooking traditions, preparation methods, and flavor profiles. These merge with indigenous and European ingredients to create the multicultural foundation of Surinamese cuisine.',
+          sv: 'Enslaved afrikanska människor för diverse matlagningstraditionen, tillagnads metoder och smakprofiler. Dessa smälter samman med inhemska och europeiska ingredienser för att skapa den flerkulturella grunden för surinamesisk mat.',
+          es: 'Los pueblos africanos esclavizados traen diversas tradiciones culinarias, métodos de preparación y perfiles de sabor. Estos se fusionan con ingredientes indígenas y europeos para crear la base multicultural de la cocina surinamesa.',
+          fr: 'Les peuples africains asservis apportent diverses traditions culinaires, méthodes de préparation et profils de saveur. Ceux-ci fusionnent avec les ingrédients indigènes et européens pour créer la base multiculturelle de la cuisine surinamaise.',
+          de: 'Versklavte afrikanische Völker bringen unterschiedliche Kochtradition, Zubereitungsmethoden und Geschmacksprofile mit sich. Diese verschmelzen mit indigenen und europäischen Zutaten, um die multikulturelle Grundlage der surinamesischen Küche zu schaffen.',
+        },
+      },
+      {
+        year: '1870-1920',
+        title: 'Indian and Indonesian Immigration',
+        description: {
+          en: 'Indian and Javanese contract laborers introduce roti, rice dishes, spice blends, and cooking techniques that transform Surinamese foodways and establish new culinary traditions.',
+          sv: 'Indiska och javanska kontraktarbetare introducerar roti, risrätter, kryddeblandningar och lagningsmetoder som omvandlar surinamesisk matkultur och etablerar nya kulinariska traditioner.',
+          es: 'Los trabajadores contratados indios y javaneses introducen roti, platos de arroz, mezclas de especias y técnicas culinarias que transforman las prácticas alimentarias surinamesas y establecen nuevas tradiciones culinarias.',
+          fr: 'Les travailleurs sous contrat indiens et javanais introduisent le roti, les plats de riz, les mélanges d\'épices et les techniques culinaires qui transforment les pratiques alimentaires surinamaises et établissent de nouvelles traditions culinaires.',
+          de: 'Indische und javanische Kontraktarbeiter führen Roti, Reisgerichte, Gewürzmischungen und Kochtechniken ein, die die surinamesischen Essenswege transformieren und neue kulinarische Traditionen etablieren.',
+        },
+      },
+      {
+        year: '1900-Present',
+        title: 'Chinese and Dutch Influences',
+        description: {
+          en: 'Chinese merchants and traders establish communities, introducing cooking styles and ingredients. Dutch colonial heritage also influences restaurant culture and ingredient availability, completing Suriname\'s unique culinary fusion.',
+          sv: 'Kinesiska köpmän och handlare etablerar samhällen och introducerar lagningstilar och ingredienser. Nederländskt kolonialt arv påverkar också restaurangkultur och ingrediensmöjligheter, vilket fullbordar Surinames unika kulinariska fusion.',
+          es: 'Los comerciantes y mercaderes chinos establecen comunidades, introduciendo estilos de cocina e ingredientes. La herencia colonial holandesa también influye en la cultura de restaurantes y la disponibilidad de ingredientes, completando la fusión culinaria única de Surinam.',
+          fr: 'Les marchands et commerçants chinois établissent des communautés, introduisant des styles de cuisson et des ingrédients. L\'héritage colonial néerlandais influence également la culture des restaurants et la disponibilité des ingrédients, complétant la fusion culinaire unique du Suriname.',
+          de: 'Chinesische Kaufleute und Händler etablieren Gemeinden und führen Kochtile und Zutaten ein. Das niederländische Kolonialerbe beeinflusst auch die Restaurantkultur und Verfügbarkeit von Zutaten und vervollständigt Surinames einzigartige kulinarische Fusion.',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {

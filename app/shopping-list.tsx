@@ -1,9 +1,10 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Share } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Share, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { ArrowLeft, Check, X, Share2, Trash2, ShoppingCart } from 'lucide-react-native';
+import { ArrowLeft, Check, X, Share2, Trash2, ShoppingCart, Search } from 'lucide-react-native';
+import { useState } from 'react';
 
 export default function ShoppingListScreen() {
   const router = useRouter();
@@ -24,8 +25,16 @@ export default function ShoppingListScreen() {
     }
   };
 
-  const uncheckedItems = shoppingList.filter(item => !item.checked);
-  const checkedItems = shoppingList.filter(item => item.checked);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredList = shoppingList.filter(item => {
+    if (!searchQuery.trim()) return true;
+    const q = searchQuery.toLowerCase();
+    return item.name.toLowerCase().includes(q) || item.countryName.toLowerCase().includes(q);
+  });
+
+  const uncheckedItems = filteredList.filter(item => !item.checked);
+  const checkedItems = filteredList.filter(item => item.checked);
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
@@ -52,14 +61,27 @@ export default function ShoppingListScreen() {
               <Share2 size={20} color="#FF6B35" />
               <Text style={styles.actionButtonText}>{t.shopping.shareList}</Text>
             </TouchableOpacity>
-            <TouchableOpacity 
-              style={[styles.actionButton, styles.actionButtonDanger]} 
+            <TouchableOpacity
+              style={[styles.actionButton, styles.actionButtonDanger]}
               onPress={clearShoppingList}
             >
               <Trash2 size={20} color="#EF4444" />
               <Text style={styles.actionButtonTextDanger}>{t.shopping.clearAll}</Text>
             </TouchableOpacity>
           </View>
+
+          {shoppingList.length > 5 && (
+            <View style={styles.searchContainer}>
+              <Search size={18} color="#9CA3AF" />
+              <TextInput
+                style={styles.searchInput}
+                placeholder="Search ingredients..."
+                placeholderTextColor="#9CA3AF"
+                value={searchQuery}
+                onChangeText={setSearchQuery}
+              />
+            </View>
+          )}
 
           <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
             {uncheckedItems.length > 0 && (
@@ -206,6 +228,25 @@ const styles = StyleSheet.create({
     color: '#6B7280',
     textAlign: 'center',
     lineHeight: 24,
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#FFF',
+    borderRadius: 12,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    marginHorizontal: 16,
+    marginBottom: 12,
+    gap: 8,
+    borderWidth: 1,
+    borderColor: '#E5E7EB',
+  },
+  searchInput: {
+    flex: 1,
+    fontSize: 15,
+    color: '#2D1B00',
+    padding: 0,
   },
   scrollView: {
     flex: 1,

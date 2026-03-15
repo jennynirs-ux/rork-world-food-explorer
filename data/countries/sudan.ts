@@ -146,6 +146,52 @@ export const sudan: Country = {
       },
     ],
     foodCulture: 'Sudanese cuisine features stews, grilled meats, and breads. Meals are often communal, and spices like cumin, coriander, and cardamom are commonly used.',
+    history: [
+      {
+        year: '3000-500 BC',
+        title: 'Nubian Agricultural Civilization',
+        description: {
+          en: 'Ancient Nubian kingdoms develop sophisticated grain cultivation including barley, millet, and sorghum. These grains become the foundation of Sudanese food culture and storage traditions.',
+          sv: 'Gamla nubiska kungadömen utvecklar sofistikerad spannmålsodling inklusive korn, hirs och durra. Dessa spannmål blir grunden för sudanesisk matkultur och lagringstraditioner.',
+          es: 'Los antiguos reinos nubios desarrollan un sofisticado cultivo de granos incluyendo cebada, mijo y sorgo. Estos granos se convierten en la base de la cultura alimentaria sudanesa y las tradiciones de almacenamiento.',
+          fr: 'Les anciens royaumes nubiens développent une culture sophistiquée de céréales incluant l\'orge, le millet et le sorgho. Ces céréales deviennent le fondement de la culture alimentaire soudanaise et des traditions de stockage.',
+          de: 'Alte nubische Königreiche entwickeln einen raffinierten Getreideanbau, einschließlich Gerste, Hirse und Sorghum. Diese Getreidearten werden zur Grundlage der sudanesischen Esskultur und Lagertradition.',
+        },
+      },
+      {
+        year: '1000-1500 AD',
+        title: 'Date Palm and Oasis Agriculture',
+        description: {
+          en: 'Date palm cultivation flourishes in Nile regions and oasis settlements, providing essential nutrition, natural sweetness, and preservation methods that shape Sudanese culinary identity.',
+          sv: 'Dadelpalmsodling blomstrar i Nilregionerna och oasisbosättningar, vilket ger väsentlig näring, naturlig söta och konserveringsmetoder som formar sudanesisk kulinarisk identitet.',
+          es: 'El cultivo de la palmera datilera florece en las regiones del Nilo y asentamientos de oasis, proporcionando nutrición esencial, dulzura natural y métodos de conservación que moldean la identidad culinaria sudanesa.',
+          fr: 'La culture du palmier dattier s\'épanouit dans les régions du Nil et les implantations oasières, fournissant une nutrition essentielle, une douceur naturelle et des méthodes de conservation qui façonnent l\'identité culinaire soudanaise.',
+          de: 'Der Dattelpalmenanbau blüht in Nilregionen und Oasensiedlungen auf und bietet wesentliche Ernährung, natürliche Süße und Konservierungsmethoden, die die sudanesische kulinarische Identität prägen.',
+        },
+      },
+      {
+        year: '1500-1800',
+        title: 'Integration of Okra and Spices',
+        description: {
+          en: 'Okra becomes increasingly prominent in stews and soups, while trade networks bring cumin, coriander, and cardamom, establishing the spice foundation for traditional Sudanese dishes.',
+          sv: 'Okra blir allt mer framträdande i grytor och soppor, medan handelsvägar för kumin, koriander och kardamom, vilket etablerar kryddgrunden för traditionella sudanesiska rätter.',
+          es: 'La okra se vuelve cada vez más prominente en guisos y sopas, mientras que las redes comerciales traen comino, cilantro y cardamomo, estableciendo la base de especias para los platos sudaneses tradicionales.',
+          fr: 'L\'okra devient de plus en plus importante dans les ragoûts et les soupes, tandis que les réseaux commerciaux apportent le cumin, la coriandre et la cardamome, établissant la base épicée des plats soudanais traditionnels.',
+          de: 'Okra wird zunehmend wichtiger in Eintöpfen und Suppen, während Handelsnetzwerke Kreuzkümmel, Koriander und Kardamom bringen und die Gewürzgrundlage für traditionelle sudanesische Gerichte etablieren.',
+        },
+      },
+      {
+        year: '1800-Present',
+        title: 'Nomadic Pastoralist Traditions',
+        description: {
+          en: 'Pastoral communities across Sudan maintain ancient herding practices, developing distinctive meat preparations, milk products, and nomadic cooking methods that persist as cultural cornerstones.',
+          sv: 'Pastoralsamhällen över Sudan upprätthåller gamla vallningsmetoder, utvecklar distinkta köttpreparer, mjölkprodukter och nomadiska lagningsmetoder som kvarstår som kulturella hörnstenar.',
+          es: 'Las comunidades pastorales en todo Sudán mantienen antiguas prácticas de pastoreo, desarrollando preparaciones distintivas de carne, productos lácteos y métodos de cocina nómada que persisten como pilares culturales.',
+          fr: 'Les communautés pastorales du Soudan maintiennent des pratiques d\'élevage anciennes, développant des préparations de viande distinctives, des produits laitiers et des méthodes de cuisson nomades qui persistent comme des piliers culturels.',
+          de: 'Pastoralgemeinschaften im gesamten Sudan bewahren alte Herdentraditionen, entwickeln charakteristische Fleischzubereitungen, Milchprodukte und nomadische Kochmethoden, die als kulturelle Eckpfeiler bestehen bleiben.',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {

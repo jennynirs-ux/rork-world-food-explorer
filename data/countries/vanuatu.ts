@@ -139,6 +139,52 @@ export const vanuatu: Country = {
       },
     ],
     foodCulture: 'Ni-Vanuatu cuisine features root vegetables, coconut, seafood, and dishes cooked in earth ovens. Lap lap is considered the national dish.',
+    history: [
+      {
+        year: '3000 BC',
+        title: 'Taro and Yam Domestication',
+        description: {
+          en: 'Melanesian ancestors domesticated taro and yam on Vanuatu islands, establishing root crops as dietary foundation for island communities',
+          sv: 'Melanesiska förfäder domesticerade taro och yam',
+          es: 'Los antepasados melanesios domesticaron taro y ñame',
+          fr: 'Les ancêtres mélanésiens ont domestiqué le taro et l\'igname',
+          de: 'Melanesische Vorfahren domestizierten Taro und Yams',
+        },
+      },
+      {
+        year: '1000 BC',
+        title: 'Coconut Palm Cultivation',
+        description: {
+          en: 'Coconut palms were cultivated across islands, providing oil, milk, and fiber, becoming integral to Ni-Vanuatu food culture',
+          sv: 'Kokospalmer odlades på hela öarna',
+          es: 'Las palmeras de coco se cultivaban en todas las islas',
+          fr: 'Les cocotiers ont été cultivés sur toutes les îles',
+          de: 'Kokospalmen wurden auf allen Inseln angebaut',
+        },
+      },
+      {
+        year: '500 AD',
+        title: 'Seafood and Fishing Mastery',
+        description: {
+          en: 'Vanuatu developed sophisticated fishing techniques with canoes and nets, making seafood central dietary component and trade commodity',
+          sv: 'Vanuatu utvecklade sofistikerade fiskningsteknik',
+          es: 'Vanuatu desarrolló técnicas de pesca sofisticadas',
+          fr: 'Vanuatu a développé des techniques de pêche sophistiquées',
+          de: 'Vanuatu entwickelte ausgefeilte Fischtechniken',
+        },
+      },
+      {
+        year: '1800',
+        title: 'Earth Oven Cooking Traditions',
+        description: {
+          en: 'Traditional earth oven (umu) cooking methods became refined, with lap lap and other wrapped dishes cooked in heated volcanic stones',
+          sv: 'Traditionell jordugn-matlagning blev förfinad',
+          es: 'La cocción tradicional en horno de tierra se perfeccionó',
+          fr: 'La cuisson traditionnelle au four de terre s\'est affinée',
+          de: 'Das traditionelle Kochen im Erdofen wurde verfeinert',
+        },
+      },
+    ],
     mustVisit: [
       {
         name: {
