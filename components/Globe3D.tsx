@@ -62,13 +62,10 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
   const GLOBE_SIZE = Math.min(width - 80, height * 0.55);
 
   const pinLookup = useMemo(() => {
-    const lookup = visiblePins.reduce((acc, pin) => {
+    return visiblePins.reduce((acc, pin) => {
       acc[pin.code.toLowerCase()] = pin;
       return acc;
     }, {} as Record<string, CountryPin>);
-    console.log('Pin lookup created with', Object.keys(lookup).length, 'countries');
-    console.log('Sample codes:', Object.keys(lookup).slice(0, 10));
-    return lookup;
   }, [visiblePins]);
 
   useEffect(() => {
@@ -83,7 +80,6 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
         }
         
         const features = feature(topology, topology.objects.countries) as any;
-        console.log('World data loaded successfully:', features?.features?.length || 0, 'countries');
         setWorldData(features);
         setLoading(false);
       } catch (error) {

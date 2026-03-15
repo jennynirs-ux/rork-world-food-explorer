@@ -5,6 +5,7 @@ export const PRODUCT_IDS = {
   UNLOCK_ASIA: 'unlock_asia',
   UNLOCK_AFRICA: 'unlock_africa',
   UNLOCK_AMERICAS: 'unlock_americas',
+  UNLOCK_OCEANIA: 'unlock_oceania',
   WORLD_UNLOCK_ALL: 'world_unlock_all',
 } as const;
 
@@ -38,6 +39,13 @@ export const MONETIZATION_PRODUCTS: MonetizationProduct[] = [
     continent: 'Americas',
   },
   {
+    id: PRODUCT_IDS.UNLOCK_OCEANIA,
+    name: 'Oceania Pack',
+    description: 'Unlock all Oceanian countries',
+    price: '19 SEK',
+    continent: 'Oceania',
+  },
+  {
     id: PRODUCT_IDS.WORLD_UNLOCK_ALL,
     name: 'Unlock the World',
     description: 'Unlock all countries globally',
@@ -53,5 +61,5 @@ export const CONTINENT_TO_PRODUCT_MAP: Record<string, string> = {
   'Africa': PRODUCT_IDS.UNLOCK_AFRICA,
   'North America': PRODUCT_IDS.UNLOCK_AMERICAS,
   'South America': PRODUCT_IDS.UNLOCK_AMERICAS,
-  'Oceania': PRODUCT_IDS.UNLOCK_ASIA,
+  'Oceania': PRODUCT_IDS.UNLOCK_OCEANIA,
 };

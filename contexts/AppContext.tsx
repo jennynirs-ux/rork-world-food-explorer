@@ -66,12 +66,16 @@ export const [AppProvider, useApp] = createContextHook(() => {
 
   useEffect(() => {
     const initUser = async () => {
-      let storedUserId = await AsyncStorage.getItem('@world_cooking_user_id');
-      if (!storedUserId) {
-        storedUserId = `user-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
-        await AsyncStorage.setItem('@world_cooking_user_id', storedUserId);
+      try {
+        let storedUserId = await AsyncStorage.getItem('@world_cooking_user_id');
+        if (!storedUserId) {
+          storedUserId = `user-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+          await AsyncStorage.setItem('@world_cooking_user_id', storedUserId);
+        }
+        setUserId(storedUserId);
+      } catch (error) {
+        console.error('Error initializing user ID:', error);
       }
-      setUserId(storedUserId);
     };
     const loadData = async () => {
       try {
@@ -116,26 +120,10 @@ export const [AppProvider, useApp] = createContextHook(() => {
       setHasInitialized(true);
       const syncCountries = async () => {
         try {
-          console.log('Syncing all countries with landscape images...');
-          console.log(`Local countries count: ${localCountries.length}`);
-          console.log(`Backend countries count: ${countriesQuery.data?.length || 0}`);
-          
           await bulkUpdateMutation.mutateAsync({ countries: localCountries as any });
-          console.log('Countries synced successfully!');
-          
-          const refreshedData = await countriesQuery.refetch();
-          console.log(`After sync - Backend countries: ${refreshedData.data?.length || 0}`);
-          
-          const sampleCountry = refreshedData.data?.find(c => c.id === 'armenia');
-          if (sampleCountry) {
-            console.log('Armenia landscape check:', {
-              hasLandscape: !!sampleCountry.landscapeImage,
-              url: sampleCountry.landscapeImage?.substring(0, 50) + '...'
-            });
-          }
+          await countriesQuery.refetch();
         } catch (error) {
           console.error('Error syncing countries:', error);
-          console.error('Error details:', JSON.stringify(error, null, 2));
         }
       };
       void syncCountries();

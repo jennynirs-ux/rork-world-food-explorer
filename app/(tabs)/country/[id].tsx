@@ -127,7 +127,7 @@ export default function CountryDetailScreen() {
             <Text style={styles.lockedCountryName}>{country.name}</Text>
             <Lock size={64} color={colors.terracotta} />
             <Text style={styles.lockedMessage}>{t.country.lockedCountry}</Text>
-            <Text style={styles.lockedSubMessage}>{t.country.unlockMessage.replace('{continent}', String(country.continent))}</Text>
+            <Text style={styles.lockedSubMessage}>{t.country.unlockMessage.replace('{continent}', country.continent)}</Text>
             
             <TouchableOpacity 
               style={styles.unlockButton}

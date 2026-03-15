@@ -13,7 +13,7 @@ export interface CountrySummary {
   id: string;
   name: string;
   flag: string;
-  coordinates: { latitude: number; longitude: number };
+  coordinates?: { x: number; y: number };
   continent: string;
 }
 
