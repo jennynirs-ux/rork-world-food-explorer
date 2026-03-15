@@ -1,5 +1,5 @@
 import { Badge } from '@/types';
-import { Globe, Map, Plane, Earth, Book, GraduationCap, Sparkles, ChefHat, Flame, Cake, MapPin, Home, Medal, Award } from 'lucide-react-native';
+import { Globe, Map, Plane, Earth, Book, GraduationCap, Sparkles, ChefHat, Flame, Cake, MapPin, Home, Medal, Award, Anchor } from 'lucide-react-native';
 
 export const allBadges: Omit<Badge, 'earned' | 'earnedDate'>[] = [
   {
@@ -85,5 +85,11 @@ export const allBadges: Omit<Badge, 'earned' | 'earnedDate'>[] = [
     name: 'Americas Champion',
     description: 'Complete all countries in the Americas',
     icon: Award,
+  },
+  {
+    id: 'oceania-complete',
+    name: 'Pacific Pioneer',
+    description: 'Complete all Oceanian countries',
+    icon: Anchor,
   },
 ];

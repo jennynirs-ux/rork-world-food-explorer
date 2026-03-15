@@ -6,9 +6,10 @@ import { useTranslation } from '@/lib/i18n';
 import Paywall from '@/components/Paywall';
 import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock } from 'lucide-react-native';
 import Globe3D from '@/components/Globe3D';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { isCountryAccessible } from '@/lib/access-control';
 import { preloadImages } from '@/lib/image-utils'
+import { Country } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 
 export default function ExploreScreen() {
@@ -55,20 +56,19 @@ export default function ExploreScreen() {
       };
     });
 
-  const handleCountryPress = (countryId: string) => {
-    console.log('Country pressed:', countryId);
+  const handleCountryPress = useCallback((countryId: string) => {
     const country = countries.find(c => c.id === countryId);
     if (!country) return;
-    
+
     const isAccessible = isCountryAccessible(country, purchasedProducts);
     if (!isAccessible) {
       setSelectedCountry(countryId);
       setShowPaywall(true);
       return;
     }
-    
+
     router.push({ pathname: '/country/[id]' as any, params: { id: countryId } });
-  };
+  }, [countries, purchasedProducts, router]);
 
   const handleRandomCountry = () => {
     const accessibleCountries = countries.filter(c => isCountryAccessible(c, purchasedProducts));
@@ -101,6 +101,50 @@ export default function ExploreScreen() {
     }, 500);
     return () => clearTimeout(timer);
   }, [filteredCountries]);
+
+  const renderCountryCard = useCallback((country: Country) => {
+    const progress = countryProgress[country.id];
+    const completionPercentage = !progress ? 0 : progress.fullyCompleted ? 100 :
+      (progress.mainDishCooked ? 50 : 0) + (progress.quizCompleted ? 50 : 0);
+    const isAccessible = isCountryAccessible(country, purchasedProducts);
+
+    return (
+      <View key={country.id} style={styles.countryCard}>
+        <TouchableOpacity
+          style={styles.flagButton}
+          onPress={() => handleCountryPress(country.id)}
+        >
+          <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
+          {!isAccessible && (
+            <View style={styles.lockBadge}>
+              <Lock size={12} color="#FFF" />
+            </View>
+          )}
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.countryInfo}
+          onPress={() => handleCountryPress(country.id)}
+        >
+          <View style={styles.countryNameRow}>
+            <Text style={styles.countryName}>{translateContent(country.name)}</Text>
+            {!isAccessible && (
+              <View style={styles.lockIcon}>
+                <Lock size={16} color="#9CA3AF" />
+              </View>
+            )}
+          </View>
+          <Text style={styles.continent}>{translateContent(country.continent)}</Text>
+          {isAccessible && (
+            <View style={styles.progressContainer}>
+              <View style={styles.progressBar}>
+                <View style={[styles.progressFill, { width: `${completionPercentage}%` }]} />
+              </View>
+            </View>
+          )}
+        </TouchableOpacity>
+      </View>
+    );
+  }, [countryProgress, purchasedProducts, handleCountryPress]);
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
@@ -144,50 +188,7 @@ export default function ExploreScreen() {
           </View>
           
           <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
-            {filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)).map(country => {
-              const progress = countryProgress[country.id];
-              const completionPercentage = !progress ? 0 : progress.fullyCompleted ? 100 : 
-                (progress.mainDishCooked ? 50 : 0) + (progress.quizCompleted ? 50 : 0);
-
-              const isAccessible = isCountryAccessible(country, purchasedProducts);
-
-              return (
-                <View key={country.id} style={styles.countryCard}>
-                  <TouchableOpacity
-                    style={styles.flagButton}
-                    onPress={() => handleCountryPress(country.id)}
-                  >
-                    <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
-                    {!isAccessible && (
-                      <View style={styles.lockBadge}>
-                        <Lock size={12} color="#FFF" />
-                      </View>
-                    )}
-                  </TouchableOpacity>
-                  <TouchableOpacity
-                    style={styles.countryInfo}
-                    onPress={() => handleCountryPress(country.id)}
-                  >
-                    <View style={styles.countryNameRow}>
-                      <Text style={styles.countryName}>{translateContent(country.name)}</Text>
-                      {!isAccessible && (
-                        <View style={styles.lockIcon}>
-                          <Lock size={16} color="#9CA3AF" />
-                        </View>
-                      )}
-                    </View>
-                    <Text style={styles.continent}>{translateContent(country.continent)}</Text>
-                    {isAccessible && (
-                      <View style={styles.progressContainer}>
-                        <View style={styles.progressBar}>
-                          <View style={[styles.progressFill, { width: `${completionPercentage}%` }]} />
-                        </View>
-                      </View>
-                    )}
-                  </TouchableOpacity>
-                </View>
-              );
-            })}
+            {filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)).map(renderCountryCard)}
             {filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)).length === 0 && (
               <View style={styles.emptyFavorites}>
                 <Heart size={64} color="#D1D5DB" />
@@ -292,50 +293,7 @@ export default function ExploreScreen() {
           </View>
           
           <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
-            {filteredCountries.map(country => {
-              const progress = countryProgress[country.id];
-              const completionPercentage = !progress ? 0 : progress.fullyCompleted ? 100 : 
-                (progress.mainDishCooked ? 50 : 0) + (progress.quizCompleted ? 50 : 0);
-
-              const isAccessible = isCountryAccessible(country, purchasedProducts);
-
-              return (
-                <View key={country.id} style={styles.countryCard}>
-                  <TouchableOpacity
-                    style={styles.flagButton}
-                    onPress={() => handleCountryPress(country.id)}
-                  >
-                    <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
-                    {!isAccessible && (
-                      <View style={styles.lockBadge}>
-                        <Lock size={12} color="#FFF" />
-                      </View>
-                    )}
-                  </TouchableOpacity>
-                  <TouchableOpacity
-                    style={styles.countryInfo}
-                    onPress={() => handleCountryPress(country.id)}
-                  >
-                    <View style={styles.countryNameRow}>
-                      <Text style={styles.countryName}>{translateContent(country.name)}</Text>
-                      {!isAccessible && (
-                        <View style={styles.lockIcon}>
-                          <Lock size={16} color="#9CA3AF" />
-                        </View>
-                      )}
-                    </View>
-                    <Text style={styles.continent}>{translateContent(country.continent)}</Text>
-                    {isAccessible && (
-                      <View style={styles.progressContainer}>
-                        <View style={styles.progressBar}>
-                          <View style={[styles.progressFill, { width: `${completionPercentage}%` }]} />
-                        </View>
-                      </View>
-                    )}
-                  </TouchableOpacity>
-                </View>
-              );
-            })}
+            {filteredCountries.map(renderCountryCard)}
             <View style={{ height: 20 }} />
           </ScrollView>
         </View>

@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { Country, Recipe } from '@/types';
-import { translateContent, translateArray } from './translate-content';
+import { translateContent, translateArray, TranslatableContent } from './translate-content';
 
 type TranslatedRecipe = Omit<Recipe, 'name' | 'description' | 'dietType' | 'ingredients' | 'steps'> & {
   name: string;
@@ -40,7 +40,7 @@ export function useTranslatedCountry(country: Country | undefined, language: str
         ...recipe,
         name: translateContent(recipe.name, language),
         description: translateContent(recipe.description, language),
-        dietType: translateContent(recipe.dietType as any, language),
+        dietType: translateContent(recipe.dietType as TranslatableContent, language),
         ingredients: recipe.ingredients.map(ing => ({
           name: translateContent(ing.name, language),
           amount: ing.amount,

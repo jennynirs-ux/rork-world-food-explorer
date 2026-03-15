@@ -54,7 +54,7 @@ export const countriesDB = {
 
   getByContinent: async (continent: string): Promise<Country[]> => {
     return countriesStore.filter(c => {
-      const cont = typeof c.continent === 'string' ? c.continent : (c.continent as any).en;
+      const cont = typeof c.continent === 'string' ? c.continent : c.continent.en;
       return cont === continent;
     });
   },
@@ -66,7 +66,7 @@ export const countriesDB = {
       const name = typeof c.name === 'string' ? c.name : c.name.en;
       return name.toLowerCase().includes(lowerQuery) ||
         description.toLowerCase().includes(lowerQuery) ||
-        (typeof c.continent === 'string' ? c.continent : (c.continent as any).en || '').toLowerCase().includes(lowerQuery);
+        (typeof c.continent === 'string' ? c.continent : c.continent.en || '').toLowerCase().includes(lowerQuery);
     });
   },
 };

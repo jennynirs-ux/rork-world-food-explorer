@@ -6,6 +6,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { AppProvider, useApp } from "@/contexts/AppContext";
 import { trpc, trpcClient } from "@/lib/trpc";
 import ErrorBoundary from "@/components/ErrorBoundary";
+import OfflineBanner from "@/components/OfflineBanner";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -55,6 +56,7 @@ export default function RootLayout() {
         <GestureHandlerRootView style={{ flex: 1 }}>
           <AppProvider>
             <ErrorBoundary>
+              <OfflineBanner />
               <RootLayoutNav />
             </ErrorBoundary>
           </AppProvider>

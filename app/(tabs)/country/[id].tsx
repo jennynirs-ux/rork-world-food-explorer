@@ -101,7 +101,8 @@ export default function CountryDetailScreen() {
       const urls = [country.landscapeImage, country.mainDish?.imageUrl, country.dessert?.imageUrl].filter(Boolean) as string[];
       void preloadImages(urls);
     }
-  }, [country]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [country?.id]);
 
   if (!country || !progress) {
     return (

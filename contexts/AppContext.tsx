@@ -258,6 +258,17 @@ export const [AppProvider, useApp] = createContextHook(() => {
             .filter(Boolean)
         );
 
+        // F-02: Check continent completion for badges
+        const continentCompletion = (continentName: string) => {
+          const continentCountries = countries.filter(
+            c => translateContent(c.continent, 'en') === continentName
+          );
+          if (continentCountries.length === 0) return false;
+          return continentCountries.every(c => newProgress[c.id]?.fullyCompleted);
+        };
+
+        const americasComplete = continentCompletion('North America') && continentCompletion('South America');
+
         const badgesToCheck = [
           { id: 'first-country', condition: completedCountries >= 1 },
           { id: 'five-countries', condition: completedCountries >= 5 },
@@ -269,6 +280,11 @@ export const [AppProvider, useApp] = createContextHook(() => {
           { id: 'first-dish', condition: cookedMainDishes >= 1 },
           { id: 'ten-dishes', condition: cookedMainDishes >= 10 },
           { id: 'dessert-lover', condition: cookedDesserts >= 5 },
+          { id: 'europe-complete', condition: continentCompletion('Europe') },
+          { id: 'asia-complete', condition: continentCompletion('Asia') },
+          { id: 'africa-complete', condition: continentCompletion('Africa') },
+          { id: 'americas-complete', condition: americasComplete },
+          { id: 'oceania-complete', condition: continentCompletion('Oceania') },
         ];
 
         badgesToCheck.forEach(({ id, condition }) => {

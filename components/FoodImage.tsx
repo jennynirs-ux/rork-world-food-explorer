@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { View, Text, StyleSheet, ActivityIndicator, type ImageStyle, type StyleProp } from 'react-native';
+import { View, Text, StyleSheet, ActivityIndicator, type ViewStyle, type StyleProp } from 'react-native';
 import { Image } from 'expo-image';
 import { optimizeUnsplashUrl } from '@/lib/image-utils';
 
@@ -8,7 +8,7 @@ type FoodImageType = 'landscape' | 'food' | 'landmark' | 'generic';
 type FoodImageProps = {
   uri: string | null | undefined;
   alt: string;
-  style?: StyleProp<ImageStyle>;
+  style?: StyleProp<ViewStyle>;
   type?: FoodImageType;
   contentFit?: 'cover' | 'contain' | 'fill' | 'none' | 'scale-down';
   width?: number;
@@ -33,7 +33,6 @@ function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'c
   const [isLoading, setIsLoading] = useState(false);
 
   const handleError = useCallback(() => {
-    console.log(`FoodImage: Failed to load image for "${alt}":`, uri);
     setHasError(true);
     setIsLoading(false);
   }, [alt, uri]);
@@ -50,7 +49,7 @@ function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'c
 
   if (showFallback) {
     return (
-      <View style={[styles.fallbackContainer, style as any]}>
+      <View style={[styles.fallbackContainer, style]}>
         <Text style={styles.fallbackIcon}>{FALLBACK_ICONS[type]}</Text>
         <Text style={styles.fallbackText}>Image unavailable</Text>
       </View>
@@ -60,7 +59,7 @@ function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'c
   const optimizedUri = optimizeUnsplashUrl(uri, { width: width ?? 800 });
 
   return (
-    <View style={[styles.imageWrapper, style as any]}>
+    <View style={[styles.imageWrapper, style]}>
       <Image
         source={{ uri: optimizedUri }}
         style={StyleSheet.absoluteFill}

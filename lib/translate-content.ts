@@ -1,6 +1,6 @@
 type SupportedLanguage = 'en' | 'sv' | 'es' | 'fr' | 'de';
 
-type TranslatableContent = string | { 
+export type TranslatableContent = string | { 
   en: string; 
   sv?: string; 
   es?: string; 

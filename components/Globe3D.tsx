@@ -269,6 +269,35 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
 
 
 
+  // P-02: Memoize computed country paths and pin positions
+  const countryPaths = useMemo(() => {
+    if (!worldData || !pathGenerator) return [];
+    return worldData.features.map((feature: any, i: number) => {
+      const path = pathGenerator(feature);
+      if (!path) return null;
+      const country = getCountryFromFeature(feature);
+      const color = country ? country.color : '#E8DCC8';
+      const isFiltered = filterStatus && (!country || country.status !== filterStatus);
+      const hasCountryData = !!country;
+      return { key: i, path, color, isFiltered, hasCountryData };
+    }).filter(Boolean) as { key: number; path: string; color: string; isFiltered: boolean; hasCountryData: boolean }[];
+  }, [worldData, pathGenerator, getCountryFromFeature, filterStatus]);
+
+  const pinPositions = useMemo(() => {
+    if (!worldData || !pathGenerator) return [];
+    return worldData.features.map((feature: any, idx: number) => {
+      const country = getCountryFromFeature(feature);
+      if (!country) return null;
+      const isFiltered = filterStatus && country.status !== filterStatus;
+      if (isFiltered) return null;
+      const centroid = getCountryCentroid(feature);
+      if (!centroid) return null;
+      const [x, y] = centroid;
+      if (!isFinite(x) || !isFinite(y)) return null;
+      return { country, x, y, idx };
+    }).filter(Boolean) as { country: CountryPin; x: number; y: number; idx: number }[];
+  }, [worldData, pathGenerator, getCountryFromFeature, getCountryCentroid, filterStatus]);
+
   if (loading || !worldData || !pathGenerator || !projection) {
     return (
       <View style={styles.loadingContainer}>
@@ -283,12 +312,12 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
     <View style={styles.container}>
       <View style={styles.globeContainer}>
         <View style={{ position: 'relative' }}>
-          <View 
+          <View
             style={[styles.svgWrapper, { width: GLOBE_SIZE, height: GLOBE_SIZE }]}
             {...panResponder.panHandlers}
           >
-            <Svg 
-              width={GLOBE_SIZE} 
+            <Svg
+              width={GLOBE_SIZE}
               height={GLOBE_SIZE}
               viewBox={`0 0 ${GLOBE_SIZE} ${GLOBE_SIZE}`}
             >
@@ -304,116 +333,78 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
             </Defs>
 
             {/* Atmosphere Glow */}
-            <Circle 
-              cx={GLOBE_SIZE / 2} 
-              cy={GLOBE_SIZE / 2} 
-              r={scale * 1.05} 
-              fill="url(#glowGradient)" 
+            <Circle
+              cx={GLOBE_SIZE / 2}
+              cy={GLOBE_SIZE / 2}
+              r={scale * 1.05}
+              fill="url(#glowGradient)"
             />
 
             {/* Ocean */}
-            <Circle 
-              cx={GLOBE_SIZE / 2} 
-              cy={GLOBE_SIZE / 2} 
-              r={scale} 
-              fill="url(#oceanGradient)" 
+            <Circle
+              cx={GLOBE_SIZE / 2}
+              cy={GLOBE_SIZE / 2}
+              r={scale}
+              fill="url(#oceanGradient)"
               stroke="#60a5fa"
               strokeWidth="1"
             />
 
             <G>
-              {worldData && worldData.features.map((feature: any, i: number) => {
-                const path = pathGenerator(feature);
-                if (!path) return null;
-                
-                const country = getCountryFromFeature(feature);
-                const color = getCountryColor(feature);
-                const isFiltered = filterStatus && (!country || country.status !== filterStatus);
-                const hasCountryData = !!country;
-
-                return (
-                  <Path
-                    key={i}
-                    d={path}
-                    fill={isFiltered ? '#E8DCC8' : color}
-                    stroke="#ffffff" 
-                    strokeWidth="0.5"
-                    opacity={isFiltered ? 0.3 : (hasCountryData ? 1 : 0.6)}
-                  />
-                );
-              })}
+              {countryPaths.map(({ key, path, color, isFiltered, hasCountryData }) => (
+                <Path
+                  key={key}
+                  d={path}
+                  fill={isFiltered ? '#E8DCC8' : color}
+                  stroke="#ffffff"
+                  strokeWidth="0.5"
+                  opacity={isFiltered ? 0.3 : (hasCountryData ? 1 : 0.6)}
+                />
+              ))}
             </G>
 
             {/* Flag Pins - visible markers on countries */}
             <G>
-              {worldData && worldData.features.map((feature: any, idx: number) => {
-                const country = getCountryFromFeature(feature);
-                if (!country) return null;
-
-                const isFiltered = filterStatus && country.status !== filterStatus;
-                if (isFiltered) return null;
-
-                const centroid = getCountryCentroid(feature);
-                if (!centroid) return null;
-
-                const [x, y] = centroid;
-                if (!isFinite(x) || !isFinite(y)) return null;
-
-                return (
-                  <G key={`${country.id}-${idx}`}>
-                    <Circle
-                      cx={x}
-                      cy={y}
-                      r={10}
-                      fill="#FF6B35"
-                      opacity={0.95}
-                    />
-                    <Circle
-                      cx={x}
-                      cy={y}
-                      r={6}
-                      fill="white"
-                      opacity={1}
-                    />
-                  </G>
-                );
-              })}
+              {pinPositions.map(({ country, x, y, idx }) => (
+                <G key={`${country.id}-${idx}`}>
+                  <Circle
+                    cx={x}
+                    cy={y}
+                    r={10}
+                    fill="#FF6B35"
+                    opacity={0.95}
+                  />
+                  <Circle
+                    cx={x}
+                    cy={y}
+                    r={6}
+                    fill="white"
+                    opacity={1}
+                  />
+                </G>
+              ))}
             </G>
             </Svg>
           </View>
 
           {/* Touchable flag pins overlaid on top */}
-          <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE , pointerEvents: 'box-none' }}>
-            {worldData && worldData.features.map((feature: any, idx: number) => {
-              const country = getCountryFromFeature(feature);
-              if (!country) return null;
-
-              const isFiltered = filterStatus && country.status !== filterStatus;
-              if (isFiltered) return null;
-
-              const centroid = getCountryCentroid(feature);
-              if (!centroid) return null;
-
-              const [x, y] = centroid;
-              if (!isFinite(x) || !isFinite(y)) return null;
-
-              return (
-                <TouchableOpacity
-                  key={`${country.id}-touch-${idx}`}
-                  style={[
-                    styles.flagPin,
-                    {
-                      left: x - 20,
-                      top: y - 20,
-                    },
-                  ]}
-                  onPress={() => setSelectedCountry(country)}
-                  activeOpacity={0.7}
-                >
-                  <Text style={styles.flagEmoji}>{country.flag}</Text>
-                </TouchableOpacity>
-              );
-            })}
+          <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE, pointerEvents: 'box-none' }}>
+            {pinPositions.map(({ country, x, y, idx }) => (
+              <TouchableOpacity
+                key={`${country.id}-touch-${idx}`}
+                style={[
+                  styles.flagPin,
+                  {
+                    left: x - 20,
+                    top: y - 20,
+                  },
+                ]}
+                onPress={() => setSelectedCountry(country)}
+                activeOpacity={0.7}
+              >
+                <Text style={styles.flagEmoji}>{country.flag}</Text>
+              </TouchableOpacity>
+            ))}
           </View>
         </View>
 
