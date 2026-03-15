@@ -501,7 +501,7 @@ export const kazakhstan: Country = {
           de: 'Abgießen und warm mit Honig oder Marmelade servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/479628/pexels-photo-479628.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'kazakhstan-main',
@@ -652,7 +652,7 @@ export const kazakhstan: Country = {
           de: 'Mit der Brühe übergießen und mit Dill',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/4224212/pexels-photo-4224212.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Kumis (fermented mare\'s milk), Vodka',

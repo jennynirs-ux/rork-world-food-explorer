@@ -604,7 +604,7 @@ export const bosniaHerzegovina: Country = {
           de: 'Ajvar-Sauce als Beilage hinzufügen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/2126578/pexels-photo-2126578.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'bosnia-dessert',
@@ -794,7 +794,7 @@ export const bosniaHerzegovina: Country = {
           de: 'Optional: Mit Walnussstücken garnieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6210968/pexels-photo-6210968.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Rakija (fruit brandy), Bosnian beer',

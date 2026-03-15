@@ -687,7 +687,7 @@ export const serbia: Country = {
           de: 'Essen Sie heiß – dies ist ein klassisches Streetfood-Menü in Serbien.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/128401/pexels-photo-128401.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'serbia-dessert',
@@ -871,7 +871,7 @@ export const serbia: Country = {
           de: 'In einem luftdichten Behälter aufbewahren; Am nächsten Tag schmecken sie noch besser.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/8856901/pexels-photo-8856901.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Rakija (fruit brandy), Serbian wine, Local beer',

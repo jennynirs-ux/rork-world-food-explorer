@@ -638,7 +638,7 @@ export const netherlands: Country = {
           de: 'garniert servieren Traditionell wird es mit einer kleinen Vertiefung Soße in der Mitte gegessen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/13422423/pexels-photo-13422423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'netherlands-dessert',

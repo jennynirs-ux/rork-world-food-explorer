@@ -526,7 +526,7 @@ export const mauritius: Country = {
           de: 'Lassen Sie die Glasur vor dem Servieren fest werden',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5848203/pexels-photo-5848203.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'mauritius-main',

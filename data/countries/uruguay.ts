@@ -667,7 +667,7 @@ export const uruguay: Country = {
           de: 'Vor dem Servieren mindestens 2 Stunden kalt stellen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/14730709/pexels-photo-14730709.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Tannat wine, Medio y medio (sparkling wine cocktail), Grappamiel',

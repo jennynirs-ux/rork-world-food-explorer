@@ -525,7 +525,7 @@ export const paraguay: Country = {
           de: 'Warm servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/31450857/pexels-photo-31450857.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'paraguay-main',

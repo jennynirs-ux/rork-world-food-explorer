@@ -622,7 +622,7 @@ export const tajikistan: Country = {
           de: 'Vor dem Servieren vorsichtig mischen und im Familienstil servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/9553317/pexels-photo-9553317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/14693845/pexels-photo-14693845.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'tajikistan-dessert',
@@ -782,7 +782,7 @@ export const tajikistan: Country = {
           de: 'Vor dem Servieren etwas abkühlen lassen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/33079560/pexels-photo-33079560.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/25388881/pexels-photo-25388881.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Vodka',

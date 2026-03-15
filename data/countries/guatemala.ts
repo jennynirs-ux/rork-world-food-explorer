@@ -503,7 +503,7 @@ export const guatemala: Country = {
           de: 'Mit Reis und Tortillas servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'guatemala-dessert',

@@ -518,7 +518,7 @@ export const montenegro: Country = {
           de: 'Abgießen und heiß mit Honig und Käse servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/14866635/pexels-photo-14866635.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'montenegro-main',
@@ -641,7 +641,7 @@ export const montenegro: Country = {
           de: 'Passt zu Käse und Oliven',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/17205261/pexels-photo-17205261.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Rakija, Vranac wine, Nikšićko beer',

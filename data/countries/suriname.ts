@@ -778,7 +778,7 @@ export const suriname: Country = {
           de: 'Pur oder mit Kaffee oder Tee servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/940838/pexels-photo-940838.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Parbo Beer, Rum',

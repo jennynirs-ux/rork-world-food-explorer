@@ -705,7 +705,7 @@ export const singapore: Country = {
           de: 'Mit Gurkenscheiben und den Saucen als Beilage servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/6990118/pexels-photo-6990118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/30210592/pexels-photo-30210592.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'singapore-dessert',

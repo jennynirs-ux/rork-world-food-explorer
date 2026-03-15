@@ -300,7 +300,7 @@ export const iraq: Country = {
           de: 'Mit Fladenbrot und Gurken',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/1321124/pexels-photo-1321124.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Arak (limited availability)',
@@ -693,7 +693,7 @@ export const iraq: Country = {
           de: 'Vollständig abkühlen lassen und mit Tee servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/31717524/pexels-photo-31717524.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     quiz: [
       {

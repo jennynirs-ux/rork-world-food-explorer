@@ -545,7 +545,7 @@ export const togo: Country = {
           de: 'Essen Sie, indem Sie kleine Fufu-Stücke abschneiden und in die Suppe tauchen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/27397344/pexels-photo-27397344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/66639/pexels-photo-66639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'togo-dessert',

@@ -510,7 +510,7 @@ export const norway: Country = {
           de: 'Mit Salzkartoffeln servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/13774731/pexels-photo-13774731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'norway-dessert',
@@ -690,7 +690,7 @@ export const norway: Country = {
           de: 'Abkühlen lassen, waagerecht aufschneiden, mit Vanillepudding füllen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Aquavit (traditional spirit), Norwegian craft beer, Gløgg (mulled wine)',

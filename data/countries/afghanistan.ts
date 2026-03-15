@@ -838,7 +838,7 @@ export const afghanistan: Country = {
           de: 'Vor dem Servieren mit gehackten Pistazien und Mandeln garnieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5947038/pexels-photo-5947038.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Alcohol is prohibited in Afghanistan',

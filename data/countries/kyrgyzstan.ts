@@ -641,7 +641,7 @@ export const kyrgyzstan: Country = {
           de: 'Brühe darübergießen und servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Kumis (fermented mare\'s milk), Vodka',

@@ -664,7 +664,7 @@ export const qatar: Country = {
           de: 'Mit Nüssen und Rosinen garnieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/17650197/pexels-photo-17650197.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Not available (prohibited)',

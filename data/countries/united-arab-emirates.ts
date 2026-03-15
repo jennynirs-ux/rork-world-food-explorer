@@ -732,7 +732,7 @@ export const unitedArabEmirates: Country = {
           de: 'Mit Sesamkörnern bestreuen und warm servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/7363958/pexels-photo-7363958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Limited (available in licensed hotels and restaurants)',

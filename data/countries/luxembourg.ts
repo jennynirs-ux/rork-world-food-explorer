@@ -485,7 +485,7 @@ export const luxembourg: Country = {
           de: 'Warm oder kalt mit Schlagsahne servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5448358/pexels-photo-5448358.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'luxembourg-main',

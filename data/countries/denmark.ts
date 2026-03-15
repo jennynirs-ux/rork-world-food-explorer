@@ -770,7 +770,7 @@ export const denmark: Country = {
           de: 'Mit Puderzucker und Marmelade servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/19995297/pexels-photo-19995297.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Carlsberg beer, Tuborg, Aquavit, Gløgg (Christmas)',

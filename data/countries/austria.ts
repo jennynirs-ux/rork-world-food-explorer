@@ -818,7 +818,7 @@ export const austria: Country = {
           de: 'Glasur über den Kuchen gießen und mit einem Spatel glatt streichen. Vor dem Servieren fest werden lassen.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Austrian wines (Grüner Veltliner, Riesling), Beer, Schnapps',

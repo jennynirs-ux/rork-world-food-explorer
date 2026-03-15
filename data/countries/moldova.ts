@@ -484,7 +484,7 @@ export const moldova: Country = {
           de: 'Dust with powdered sugar and serve',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/36756/pexels-photo-36756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'moldova-main',

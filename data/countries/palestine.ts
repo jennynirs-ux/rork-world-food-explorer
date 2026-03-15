@@ -683,7 +683,7 @@ export const palestine: Country = {
           de: 'Mit Pinienkernen und Sumach garnieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/15387926/pexels-photo-15387926.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Arak, Palestinian wine',

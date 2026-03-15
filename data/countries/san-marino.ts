@@ -740,7 +740,7 @@ export const sanMarino: Country = {
           de: 'Vor dem Schneiden 30 Minuten kalt stellen.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/14661143/pexels-photo-14661143.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Sangiovese wine, Grappa',

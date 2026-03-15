@@ -600,7 +600,7 @@ export const slovenia: Country = {
           de: 'Als Beilage Senf und Meerrettich hinzufügen, dazu dunkles Brot.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6920656/pexels-photo-6920656.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'slovenia-dessert',
@@ -820,7 +820,7 @@ export const slovenia: Country = {
           de: 'Vor dem Schneiden abkühlen lassen, damit der Wirbel erhalten bleibt.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/19803494/pexels-photo-19803494.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Slovenian wine (Rebula, Teran), Schnapps (sadjevec), Craft beer',

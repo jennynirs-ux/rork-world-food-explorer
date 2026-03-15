@@ -572,7 +572,7 @@ export const croatia: Country = {
           de: 'Vor dem Servieren 10 Minuten ruhen lassen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/4768954/pexels-photo-4768954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Plavac Mali wine, Rakija (fruit brandy), Croatian beer, Prošek (dessert wine)',
@@ -1200,7 +1200,7 @@ export const croatia: Country = {
           de: '4 Stunden im Kühlschrank lagern, vor dem Servieren mit Puderzucker bestäuben.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/3913295/pexels-photo-3913295.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     coordinates: {
       x: 50,

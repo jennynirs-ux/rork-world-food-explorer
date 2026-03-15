@@ -459,7 +459,7 @@ export const democraticRepublicCongo: Country = {
           de: 'Mit Fufu oder Reis servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6990118/pexels-photo-6990118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'drc-dessert',
@@ -626,7 +626,7 @@ export const democraticRepublicCongo: Country = {
           de: 'Warm servieren, optional mit Puderzucker bestäubt.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6646356/pexels-photo-6646356.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Primus beer, Turbo King, Palm wine',

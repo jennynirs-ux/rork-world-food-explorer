@@ -459,7 +459,7 @@ export const gabon: Country = {
           de: 'Mit Reis oder Kochbananen servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/36088082/pexels-photo-36088082.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'gabon-dessert',
@@ -654,7 +654,7 @@ export const gabon: Country = {
           de: 'Sofort mit Kaffee servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/5779924/pexels-photo-5779924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5779900/pexels-photo-5779900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Palm wine, Regab beer',

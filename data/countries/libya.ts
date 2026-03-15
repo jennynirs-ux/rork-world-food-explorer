@@ -481,7 +481,7 @@ export const libya: Country = {
           de: 'Warm servieren, mit der Hand essen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/7352787/pexels-photo-7352787.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'libya-main',
@@ -708,7 +708,7 @@ export const libya: Country = {
           de: 'Im Familienstil servieren, wobei alle vom gleichen Gericht essen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/32623827/pexels-photo-32623827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Not commonly consumed (Islamic country)',

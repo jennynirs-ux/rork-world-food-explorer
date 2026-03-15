@@ -590,7 +590,7 @@ export const nepal: Country = {
           de: 'Abgießen und warm oder kühl servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/28674561/pexels-photo-28674561.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/12737800/pexels-photo-12737800.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'nepal-dal-bhat',

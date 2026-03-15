@@ -537,7 +537,7 @@ export const oman: Country = {
           de: 'Abkühlen lassen und in Quadrate schneiden',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/20446403/pexels-photo-20446403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/20446409/pexels-photo-20446409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'oman-main',
@@ -677,7 +677,7 @@ export const oman: Country = {
           de: 'Mit Reis und Datteln servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/29908554/pexels-photo-29908554.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Not common (Islamic country)',

@@ -852,7 +852,7 @@ export const switzerland: Country = {
           de: 'Für eine optimale Konsistenz mindestens 1 Stunde vor dem Schneiden kalt stellen.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29487450/pexels-photo-29487450.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/29487464/pexels-photo-29487464.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Swiss wine, Kirsch, Absinth',

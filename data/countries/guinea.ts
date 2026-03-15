@@ -491,7 +491,7 @@ export const guinea: Country = {
           de: 'Hähnchen mit Zwiebelsauce über Reis servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/27359362/pexels-photo-27359362.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'guinea-dessert',

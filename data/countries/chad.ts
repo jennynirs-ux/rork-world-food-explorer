@@ -725,7 +725,7 @@ export const chad: Country = {
           de: 'Warm oder gekühlt als Dessert servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/16122325/pexels-photo-16122325.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Bili-bili (millet beer)',

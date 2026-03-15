@@ -459,7 +459,7 @@ export const fiji: Country = {
           de: 'Gekühlt servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/836850/pexels-photo-836850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'fiji-dessert',
@@ -601,7 +601,7 @@ export const fiji: Country = {
           de: 'Mit extra Kokoscreme servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/12118044/pexels-photo-12118044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Kava (traditional ceremony drink), Fiji Bitter beer',

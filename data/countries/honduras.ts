@@ -490,7 +490,7 @@ export const honduras: Country = {
           de: 'Falten und sofort servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/10497788/pexels-photo-10497788.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'honduras-dessert',
@@ -696,7 +696,7 @@ export const honduras: Country = {
           de: 'Vor dem Servieren mit Schlagsahne belegen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Port Royal beer, Aguardiente',

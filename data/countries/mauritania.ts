@@ -467,7 +467,7 @@ export const mauritania: Country = {
           de: 'Gekühlt servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/15794018/pexels-photo-15794018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'mauritania-main',
@@ -624,7 +624,7 @@ export const mauritania: Country = {
           de: 'Reis mit Fisch und Gemüse servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/11385115/pexels-photo-11385115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Not common (Islamic country)',

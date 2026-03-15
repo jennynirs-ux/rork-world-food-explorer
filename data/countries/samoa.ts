@@ -568,7 +568,7 @@ export const samoa: Country = {
           de: 'Warm als Beilage oder Hauptgericht mit Taro, Brotfrucht oder Reis servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/29143206/pexels-photo-29143206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'samoa-dessert',
@@ -749,7 +749,7 @@ export const samoa: Country = {
           de: 'Die gedämpften Stücke warm servieren und Kokos-Karamell-Sauce darüber löffeln.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/8395781/pexels-photo-8395781.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Vailima beer, Kava (traditional ceremonial drink)',

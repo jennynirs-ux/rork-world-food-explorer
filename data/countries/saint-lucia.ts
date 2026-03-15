@@ -844,7 +844,7 @@ export const saintLucia: Country = {
           de: 'Vor dem Schneiden mindestens 20 Minuten abkühlen lassen. Pur oder mit frischem Obst servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/33388279/pexels-photo-33388279.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/835741/pexels-photo-835741.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Spiced rum, Rum punch, Local beers',

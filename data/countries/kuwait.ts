@@ -519,7 +519,7 @@ export const kuwait: Country = {
           de: 'Abkühlen lassen und in Rautenform schneiden',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/7076147/pexels-photo-7076147.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'kuwait-main',
@@ -682,7 +682,7 @@ export const kuwait: Country = {
           de: 'Mit Röstzwiebeln und Nüssen garnieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/12916879/pexels-photo-12916879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Not available (prohibited)',

@@ -599,7 +599,7 @@ export const cameroon: Country = {
           de: 'Mit Kochbananen oder Reis servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/9546273/pexels-photo-9546273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'cameroon-dessert',
@@ -777,7 +777,7 @@ export const cameroon: Country = {
           de: 'Warm oder bei Zimmertemperatur servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/18532489/pexels-photo-18532489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/13915068/pexels-photo-13915068.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Palm wine, 33 Export beer, Guinness',

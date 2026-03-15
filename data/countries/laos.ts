@@ -497,7 +497,7 @@ export const laos: Country = {
           de: 'Mit gerösteten Sesamkörnern bestreuen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/20187175/pexels-photo-20187175.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'laos-main',
@@ -707,7 +707,7 @@ export const laos: Country = {
           de: 'Mit Klebreis und frischem Gemüse servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/792026/pexels-photo-792026.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Beerlao, Lao-Lao (rice whiskey)',

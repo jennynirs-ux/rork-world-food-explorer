@@ -468,7 +468,7 @@ export const palau: Country = {
           de: 'In Scheiben schneiden und servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/32458599/pexels-photo-32458599.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'palau-main',
@@ -608,7 +608,7 @@ export const palau: Country = {
           de: 'Mit Reis servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/27397344/pexels-photo-27397344.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/4629324/pexels-photo-4629324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Local beer, Fermented beverages',

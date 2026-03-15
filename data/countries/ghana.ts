@@ -653,7 +653,7 @@ export const ghana: Country = {
           de: 'Warm mit heißer Schokolade oder Tee servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/295043/pexels-photo-295043.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Akpeteshie (local gin), Club beer, Palm wine, Guinness',

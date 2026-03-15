@@ -833,7 +833,7 @@ export const thailand: Country = {
           de: 'Mit Sesamkörnern bestreuen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/20187175/pexels-photo-20187175.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/32278418/pexels-photo-32278418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Singha beer, Chang beer, Mekhong whiskey',

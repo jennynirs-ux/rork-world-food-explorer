@@ -740,7 +740,7 @@ export const solomonIslands: Country = {
           de: 'Warm oder gekühlt servieren (es wird beim Abkühlen dicker).',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/5652196/pexels-photo-5652196.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/13554342/pexels-photo-13554342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Kava, Local beer',

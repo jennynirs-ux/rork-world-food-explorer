@@ -453,7 +453,7 @@ export const gambia: Country = {
           de: 'Über Reis servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/15648991/pexels-photo-15648991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'gambia-dessert',
@@ -610,7 +610,7 @@ export const gambia: Country = {
           de: 'Gekühlt als erfrischendes Dessert servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/3547619/pexels-photo-3547619.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Palm wine, Julbrew beer',

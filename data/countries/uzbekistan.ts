@@ -554,7 +554,7 @@ export const uzbekistan: Country = {
           de: 'Im Familienstil servieren, oft mit geschnittenem Tomaten-/Zwiebelsalat und Gurken',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/9553317/pexels-photo-9553317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/19228024/pexels-photo-19228024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'uzbekistan-dessert',
@@ -712,7 +712,7 @@ export const uzbekistan: Country = {
           de: 'Nach Belieben mit gehackten Pistazien belegen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6534454/pexels-photo-6534454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Vodka',

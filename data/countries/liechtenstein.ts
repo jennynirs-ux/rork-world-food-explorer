@@ -509,7 +509,7 @@ export const liechtenstein: Country = {
           de: 'Mit Puderzucker bestäuben, warm mit Sahne servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/34268537/pexels-photo-34268537.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/221059/pexels-photo-221059.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'liechtenstein-main',
@@ -649,7 +649,7 @@ export const liechtenstein: Country = {
           de: 'Mit Apfelmus servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/722670/pexels-photo-722670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Local wines, Schnapps',

@@ -519,7 +519,7 @@ export const panama: Country = {
           de: 'Mit Schlagsahne belegen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/47062/pexels-photo-47062.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'panama-main',

@@ -994,7 +994,7 @@ export const albania: Country = {
           de: 'Vor dem Servieren vollständig abkühlen lassen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/797761/pexels-photo-797761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Raki (grape brandy), Skrapar wine, Korça beer',

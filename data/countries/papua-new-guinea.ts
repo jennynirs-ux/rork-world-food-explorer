@@ -455,7 +455,7 @@ export const papuaNewGuinea: Country = {
           de: 'Vor dem Servieren abkühlen lassen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/5652196/pexels-photo-5652196.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5652183/pexels-photo-5652183.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'papua-new-guinea-main',
@@ -606,7 +606,7 @@ export const papuaNewGuinea: Country = {
           de: '3 Stunden kochen lassen, dann aufdecken',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'SP beer, Bush beer (fermented)',

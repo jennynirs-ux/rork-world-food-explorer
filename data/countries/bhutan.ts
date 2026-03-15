@@ -825,7 +825,7 @@ export const bhutan: Country = {
           de: 'In einem luftdichten Behälter aufbewahren, bleibt wochenlang knusprig.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/1089300/pexels-photo-1089300.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Ara (rice wine), Chang (barley beer)',

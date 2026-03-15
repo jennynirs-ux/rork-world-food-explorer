@@ -652,7 +652,7 @@ export const dominicanRepublic: Country = {
           de: 'Vor dem Servieren mit Schlagsahne belegen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Mamajuana, Brugal rum, Presidente beer',

@@ -508,7 +508,7 @@ export const nicaragua: Country = {
           de: 'Vor dem Servieren mit Schlagsahne belegen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/1140028/pexels-photo-1140028.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'nicaragua-main',
@@ -671,7 +671,7 @@ export const nicaragua: Country = {
           de: 'Mit Spiegeleiern und Tortillas servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/2336674/pexels-photo-2336674.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/25225623/pexels-photo-25225623.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Flor de Caña rum, Toña beer',

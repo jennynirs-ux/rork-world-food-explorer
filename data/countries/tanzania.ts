@@ -703,7 +703,7 @@ export const tanzania: Country = {
           de: 'Gegrilltes Fleisch heiß mit Ugali und Kachumbari als Beilage servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/33990731/pexels-photo-33990731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'tanzania-dessert',
@@ -877,7 +877,7 @@ export const tanzania: Country = {
           de: 'Auf Papiertüchern abtropfen lassen und warm mit Chai',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/7235406/pexels-photo-7235406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Banana beer, Safari Lager, Konyagi (local gin)',

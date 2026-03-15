@@ -514,7 +514,7 @@ export const monaco: Country = {
           de: 'Abkühlen lassen und zum Servieren in Scheiben schneiden',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/9433053/pexels-photo-9433053.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'monaco-main',
@@ -659,7 +659,7 @@ export const monaco: Country = {
           de: 'Frittieren, bis sie goldbraun sind',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/29037270/pexels-photo-29037270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Champagne, French wines, Cocktails',

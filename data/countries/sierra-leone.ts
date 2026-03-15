@@ -626,7 +626,7 @@ export const sierraLeone: Country = {
           de: 'Heiß mit gebratenen Kochbananen oder Gemüse servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/5333327/pexels-photo-5333327.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/17952748/pexels-photo-17952748.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'sierra-leone-dessert',
@@ -744,7 +744,7 @@ export const sierraLeone: Country = {
           de: 'Warm servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/36165404/pexels-photo-36165404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/35136066/pexels-photo-35136066.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Star Beer, Palm wine, Poyo',

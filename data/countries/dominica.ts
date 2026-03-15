@@ -576,7 +576,7 @@ export const dominica: Country = {
           de: 'In einem luftdichten Behälter aufbewahren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/34153204/pexels-photo-34153204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/2064126/pexels-photo-2064126.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Rum, Bay rum, Local beer',

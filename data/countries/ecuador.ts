@@ -754,7 +754,7 @@ export const ecuador: Country = {
           de: 'über Nacht in den Kühlschrank stellen Vor dem Servieren mit Schlagsahne oder Baiser belegen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/15639799/pexels-photo-15639799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Pilsener beer, Zhumir (sugarcane liquor), Canelazo (hot spiced drink)',

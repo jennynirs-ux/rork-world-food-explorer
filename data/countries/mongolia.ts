@@ -547,7 +547,7 @@ export const mongolia: Country = {
           de: 'Abgießen und mit Tee servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/4542844/pexels-photo-4542844.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'mongolia-main',
@@ -716,7 +716,7 @@ export const mongolia: Country = {
           de: 'Mit dem zarten, rauchigen Fleisch servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6014/pexels-photo-6014.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Airag (fermented mare\'s milk), Vodka',

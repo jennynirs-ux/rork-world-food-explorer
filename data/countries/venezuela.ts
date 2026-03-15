@@ -718,7 +718,7 @@ export const venezuela: Country = {
           de: 'Vor dem Servieren aus der Form nehmen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/34474034/pexels-photo-34474034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Polar beer, Venezuelan rum, Ponche Crema',

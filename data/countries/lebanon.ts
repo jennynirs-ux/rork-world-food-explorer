@@ -731,7 +731,7 @@ export const lebanon: Country = {
           de: 'Kalten Sirup über heißes Baklava gießen, Orangenblütenwasser hinzufügen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/31472815/pexels-photo-31472815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/34776700/pexels-photo-34776700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Arak (anise-flavored spirit), Lebanese wine, Almaza beer',

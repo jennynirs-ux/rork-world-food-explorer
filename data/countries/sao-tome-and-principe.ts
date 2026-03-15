@@ -840,7 +840,7 @@ export const saoTomeAndPrincipe: Country = {
           de: 'Pur oder mit frischem Obst servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/36148047/pexels-photo-36148047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6829491/pexels-photo-6829491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Palm wine, Local beer',

@@ -435,7 +435,7 @@ export const latvia: Country = {
           de: 'Vor dem Servieren mit frischen Preiselbeeren garnieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/29251077/pexels-photo-29251077.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     history: [
       {

@@ -1243,7 +1243,7 @@ export const czechRepublic: Country = {
           de: 'Sofort servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/18824000/pexels-photo-18824000.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     coordinates: {
       x: 50,

@@ -861,7 +861,7 @@ export const costaRica: Country = {
           de: 'Vor dem Servieren mit Schlagsahne belegen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/32590852/pexels-photo-32590852.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Imperial beer, Guaro (sugarcane liquor), Costa Rican rum',

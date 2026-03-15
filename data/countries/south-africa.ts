@@ -623,7 +623,7 @@ export const southAfrica: Country = {
           de: 'Mit gelbem Reis und Chutney servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/3889935/pexels-photo-3889935.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'south-africa-malva-pudding',
@@ -799,7 +799,7 @@ export const southAfrica: Country = {
           de: 'Warm mit Eis oder Vanillesoße servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/15794018/pexels-photo-15794018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/31109623/pexels-photo-31109623.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Pinotage wine, Amarula, Castle Lager',

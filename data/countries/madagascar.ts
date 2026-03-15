@@ -528,7 +528,7 @@ export const madagascar: Country = {
           de: 'Bei Zimmertemperatur servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/47812/pexels-photo-47812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'madagascar-main',
@@ -727,7 +727,7 @@ export const madagascar: Country = {
           de: 'Über weißem Reis servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/2253789/pexels-photo-2253789.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Three Horses Beer, Rum, Litchel (lychee liqueur)',

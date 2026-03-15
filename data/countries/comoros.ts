@@ -761,7 +761,7 @@ export const comoros: Country = {
           de: 'Mit Vanilletee oder Kaffee servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/36148047/pexels-photo-36148047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Local rum',

@@ -485,7 +485,7 @@ export const northKorea: Country = {
           de: 'Abkühlen lassen und servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/10311439/pexels-photo-10311439.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'north-korea-main',

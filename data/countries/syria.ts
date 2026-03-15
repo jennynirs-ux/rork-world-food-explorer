@@ -568,7 +568,7 @@ export const syria: Country = {
           de: 'Mit Joghurt und frischem Salat servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/6497907/pexels-photo-6497907.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6262219/pexels-photo-6262219.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'syria-dessert',
@@ -762,7 +762,7 @@ export const syria: Country = {
           de: 'Nach Belieben leicht mit Puderzucker bestäuben',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/17070158/pexels-photo-17070158.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Arak (anise-flavored)',

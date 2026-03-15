@@ -498,7 +498,7 @@ export const tuvalu: Country = {
           de: 'Als Beilage servieren, oft mit Fisch',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/240525/pexels-photo-240525.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'tuvalu-dessert',

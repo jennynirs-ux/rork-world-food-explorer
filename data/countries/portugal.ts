@@ -637,7 +637,7 @@ export const portugal: Country = {
           de: 'Sofort servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/34521022/pexels-photo-34521022.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/31192225/pexels-photo-31192225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'portugal-dessert',

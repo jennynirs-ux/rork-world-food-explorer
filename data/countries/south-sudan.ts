@@ -514,7 +514,7 @@ export const southSudan: Country = {
           de: 'Servieren Sie den Mullah-Eintopf mit warmem Kisra',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/17486827/pexels-photo-17486827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'south-sudan-dessert',
@@ -673,7 +673,7 @@ export const southSudan: Country = {
           de: 'Warm servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/5652196/pexels-photo-5652196.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5733111/pexels-photo-5733111.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Marisa (traditional sorghum beer)',

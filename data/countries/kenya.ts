@@ -498,7 +498,7 @@ export const kenya: Country = {
           de: 'Mit Ugali, Kachumbari und gegrilltem Gemüse servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/1481284/pexels-photo-1481284.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'kenya-dessert',
@@ -654,7 +654,7 @@ export const kenya: Country = {
           de: 'Warm mit Chai-Tee servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/1080314/pexels-photo-1080314.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Tusker beer, Kenya Cane spirit, Local honey wine',

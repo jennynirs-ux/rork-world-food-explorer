@@ -561,7 +561,7 @@ export const malta: Country = {
           de: 'Abgießen und warm oder kühl servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/7751646/pexels-photo-7751646.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'malta-stuffat-tal-fenek',
@@ -797,7 +797,7 @@ export const malta: Country = {
           de: 'Mit knusprigem Brot oder Nudeln servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/1320917/pexels-photo-1320917.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Cisk beer, Maltese wines, Kinnie (local soft drink with bitter oranges)',

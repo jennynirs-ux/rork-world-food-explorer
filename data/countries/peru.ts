@@ -807,7 +807,7 @@ export const peru: Country = {
           de: 'Mit Puderzucker bestäuben',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/16522216/pexels-photo-16522216.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/17358380/pexels-photo-17358380.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Pisco Sour, Chilcano, Cusqueña beer',

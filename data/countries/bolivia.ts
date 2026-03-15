@@ -647,7 +647,7 @@ export const bolivia: Country = {
           de: 'Bei 200°C 25–30 Minuten goldbraun backen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/8279711/pexels-photo-8279711.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'bolivia-dessert',
@@ -842,7 +842,7 @@ export const bolivia: Country = {
           de: 'Warm oder bei Zimmertemperatur servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/3970049/pexels-photo-3970049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Singani (grape brandy), Chicha (corn beer), Cerveza Paceña',

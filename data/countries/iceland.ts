@@ -480,7 +480,7 @@ export const iceland: Country = {
           de: 'Heiß mit Roggenbrot servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/14457502/pexels-photo-14457502.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'iceland-dessert',
@@ -686,7 +686,7 @@ export const iceland: Country = {
           de: 'Nach Belieben mit Puderzucker bestäuben',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6550778/pexels-photo-6550778.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     innovations: [
       {

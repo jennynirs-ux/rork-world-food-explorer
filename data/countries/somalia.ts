@@ -571,7 +571,7 @@ export const somalia: Country = {
           de: 'Vor dem Servieren 5 Minuten ruhen lassen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/2092916/pexels-photo-2092916.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'somalia-dessert',
@@ -770,7 +770,7 @@ export const somalia: Country = {
           de: 'Zum Servieren in kleine Rauten oder Quadrate schneiden.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/20446403/pexels-photo-20446403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/13270171/pexels-photo-13270171.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Not commonly consumed (Islamic country)',

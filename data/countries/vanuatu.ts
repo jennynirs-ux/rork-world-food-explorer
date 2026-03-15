@@ -635,7 +635,7 @@ export const vanuatu: Country = {
           de: 'Warm servieren oder 1 Stunde kalt stellen, um eine dickere, puddingartige Konsistenz zu erhalten',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/13554342/pexels-photo-13554342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/60713/pexels-photo-60713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Kava, Tusker beer',

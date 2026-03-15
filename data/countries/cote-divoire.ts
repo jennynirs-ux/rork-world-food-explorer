@@ -642,7 +642,7 @@ export const coteDivoire: Country = {
           de: 'Mit Attiéké (Maniok-Couscous) oder Reis servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/28872869/pexels-photo-28872869.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Bangui (palm wine), Flag beer, Ivoire beer',
@@ -1242,7 +1242,7 @@ export const coteDivoire: Country = {
           de: 'Servieren Sie heißes Aloco mit würziger Tomatensauce als Beilage.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/12362284/pexels-photo-12362284.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     coordinates: {
       x: 46,

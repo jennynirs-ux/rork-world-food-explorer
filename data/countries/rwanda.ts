@@ -542,7 +542,7 @@ export const rwanda: Country = {
           de: 'Mit Süßkartoffeln oder Reis servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/33972409/pexels-photo-33972409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'rwanda-dessert',

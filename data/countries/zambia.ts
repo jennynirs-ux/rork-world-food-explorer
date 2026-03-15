@@ -708,7 +708,7 @@ export const zambia: Country = {
           de: 'Warm als Snack oder Dessert servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/15801011/pexels-photo-15801011.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Mosi Lager, Chibuku (traditional beer)',

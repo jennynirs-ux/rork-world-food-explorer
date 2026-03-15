@@ -653,7 +653,7 @@ export const maldives: Country = {
           de: 'Mit Fischflocken und Zwiebeln belegen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/12077982/pexels-photo-12077982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Limited (only in resorts)',

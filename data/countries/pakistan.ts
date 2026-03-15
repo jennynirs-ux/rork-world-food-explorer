@@ -613,7 +613,7 @@ export const pakistan: Country = {
           de: 'Vor dem Servieren mindestens 2 Stunden einweichen lassen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/14610769/pexels-photo-14610769.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/29259167/pexels-photo-29259167.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'pakistan-biryani',
@@ -860,7 +860,7 @@ export const pakistan: Country = {
           de: 'Vorsichtig mischen und mit Raita servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29631417/pexels-photo-29631417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/32986476/pexels-photo-32986476.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Limited availability (Islamic country)',

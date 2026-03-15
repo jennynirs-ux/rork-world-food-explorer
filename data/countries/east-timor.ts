@@ -683,7 +683,7 @@ export const eastTimor: Country = {
           de: 'Vor dem Schneiden abkühlen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/7429251/pexels-photo-7429251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Timor coffee liqueur, Palm wine',

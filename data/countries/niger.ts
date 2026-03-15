@@ -484,7 +484,7 @@ export const niger: Country = {
           de: 'Mit Puderzucker bestäuben und servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/5779924/pexels-photo-5779924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/908177/pexels-photo-908177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'niger-main',
@@ -635,7 +635,7 @@ export const niger: Country = {
           de: 'Couscous mit Soße servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/9287534/pexels-photo-9287534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Bili-bili (millet beer)',

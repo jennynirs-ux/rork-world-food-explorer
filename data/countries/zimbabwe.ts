@@ -590,7 +590,7 @@ export const zimbabwe: Country = {
           de: 'Servieren Sie Sadza mit Rindereintopf und Gemüse als Beilage',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/30635676/pexels-photo-30635676.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/9200395/pexels-photo-9200395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'zimbabwe-dessert',

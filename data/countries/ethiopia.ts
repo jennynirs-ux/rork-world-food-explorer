@@ -664,7 +664,7 @@ export const ethiopia: Country = {
           de: 'Zusammen mit äthiopischem Kaffee servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/6152145/pexels-photo-6152145.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Tej (honey wine), St. George beer, Araki (traditional spirit)',

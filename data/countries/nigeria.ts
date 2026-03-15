@@ -561,7 +561,7 @@ export const nigeria: Country = {
           de: 'Mit gebratenen Kochbananen und Hühnchen servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/5333327/pexels-photo-5333327.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/18805640/pexels-photo-18805640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'nigeria-dessert',
@@ -724,7 +724,7 @@ export const nigeria: Country = {
           de: 'Abgießen und nach Belieben mit Puderzucker bestäuben',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/18532489/pexels-photo-18532489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5847549/pexels-photo-5847549.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Star beer, Guinness (Nigerian version), Palm wine, Chapman (cocktail)',

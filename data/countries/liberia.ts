@@ -445,7 +445,7 @@ export const liberia: Country = {
           de: 'In einem luftdichten Behälter aufbewahren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/34533460/pexels-photo-34533460.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'liberia-main',

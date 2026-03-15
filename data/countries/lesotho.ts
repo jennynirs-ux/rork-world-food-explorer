@@ -473,7 +473,7 @@ export const lesotho: Country = {
           de: 'Mit Zucker bestäuben und warm servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/1646738/pexels-photo-1646738.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'lesotho-main',

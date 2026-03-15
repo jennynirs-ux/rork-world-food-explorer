@@ -585,7 +585,7 @@ export const malaysia: Country = {
           de: 'In Rauten schneiden und servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/7545555/pexels-photo-7545555.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/7545559/pexels-photo-7545559.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'malaysia-nasi-lemak',

@@ -787,7 +787,7 @@ export const sudan: Country = {
           de: 'Nach dem vollständigen Einziehen servieren (warm oder bei Zimmertemperatur)',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/13272918/pexels-photo-13272918.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/10395259/pexels-photo-10395259.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Not commonly consumed (Islamic country)',

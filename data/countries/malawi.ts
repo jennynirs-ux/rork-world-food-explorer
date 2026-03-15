@@ -480,7 +480,7 @@ export const malawi: Country = {
           de: 'Abgießen und warm servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/20220705/pexels-photo-20220705.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     mainDish: {
       id: 'malawi-main',
@@ -685,7 +685,7 @@ export const malawi: Country = {
           de: 'Essen Sie mit den Händen und verwenden Sie Nsima, um Fische aufzunehmen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5739585/pexels-photo-5739585.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Carlsberg Malawi, Kuche Kuche beer, Chibuku',

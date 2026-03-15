@@ -764,7 +764,7 @@ export const turkey: Country = {
           de: 'Vor dem Servieren vollständig abkühlen lassen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/31472815/pexels-photo-31472815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/10038707/pexels-photo-10038707.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Rakı, Efes beer, Turkish wine',

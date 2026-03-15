@@ -566,7 +566,7 @@ export const turkmenistan: Country = {
           de: 'Vor dem Servieren vorsichtig auflockern',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/9553317/pexels-photo-9553317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/8738011/pexels-photo-8738011.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'turkmenistan-dessert',
@@ -700,7 +700,7 @@ export const turkmenistan: Country = {
           de: 'Zu einem Hügel formen und vor dem Servieren abkühlen lassen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/10747409/pexels-photo-10747409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/8635161/pexels-photo-8635161.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Vodka',

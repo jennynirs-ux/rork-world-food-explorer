@@ -668,7 +668,7 @@ export const saintKittsAndNevis: Country = {
           de: 'Warm mit Knödeln, Johnny Cakes oder Reis servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/9546273/pexels-photo-9546273.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5041491/pexels-photo-5041491.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'saint-kitts-dessert',

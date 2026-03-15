@@ -566,7 +566,7 @@ export const capeVerde: Country = {
           de: 'Heiß oder frittiert als Cachupa frita servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/34234283/pexels-photo-34234283.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'cape-verde-dessert',

@@ -843,7 +843,7 @@ export const greece: Country = {
           de: 'Den heißen Sirup über das gebackene Baklava gießen und mehrere Stunden einwirken lassen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/31472815/pexels-photo-31472815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/25810607/pexels-photo-25810607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Ouzo, Retsina wine, Metaxa brandy, Greek beer',

@@ -616,7 +616,7 @@ export const bahrain: Country = {
           de: 'Mit Röstzwiebeln und Nüssen servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/9025234/pexels-photo-9025234.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'bahrain-dessert',

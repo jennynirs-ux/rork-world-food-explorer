@@ -705,7 +705,7 @@ export const senegal: Country = {
           de: 'Servieren Sie den Reis auf einer Platte, belegen Sie ihn mit Fisch und Gemüse und geben Sie noch etwas Soße darüber.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/13915043/pexels-photo-13915043.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'senegal-dessert',
@@ -844,7 +844,7 @@ export const senegal: Country = {
           de: 'Kalt in kleinen Schüsseln oder Gläsern servieren.',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/10738421/pexels-photo-10738421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Local beer (e.g., Flag), Palm wine',

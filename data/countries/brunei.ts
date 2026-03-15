@@ -619,7 +619,7 @@ export const brunei: Country = {
           de: 'zu drehen In Saucen eintauchen und mit Beilagen essen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/8601577/pexels-photo-8601577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'brunei-dessert',

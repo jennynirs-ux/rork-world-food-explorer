@@ -453,7 +453,7 @@ export const djibouti: Country = {
           de: 'Mit Banane und Salat servieren',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/29089211/pexels-photo-29089211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/32986474/pexels-photo-32986474.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     dessert: {
       id: 'djibouti-dessert',
@@ -588,7 +588,7 @@ export const djibouti: Country = {
           de: 'Abkühlen lassen und in Quadrate schneiden',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/20446403/pexels-photo-20446403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5453716/pexels-photo-5453716.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Limited availability',

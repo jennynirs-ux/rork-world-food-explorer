@@ -932,7 +932,7 @@ export const romania: Country = {
           de: 'Vor dem Schneiden abkühlen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Țuică (plum brandy), Romanian wine, Beer',

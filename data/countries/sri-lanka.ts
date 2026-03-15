@@ -915,7 +915,7 @@ export const sriLanka: Country = {
           de: 'Abkühlen lassen, dann vor dem Servieren kalt stellen',
         },
       ],
-      imageUrl: 'https://images.pexels.com/photos/35583855/pexels-photo-35583855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      imageUrl: 'https://images.pexels.com/photos/5803158/pexels-photo-5803158.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
       alcoholic: 'Arrack (coconut spirit), Lion Lager',
