@@ -1,0 +1,245 @@
+/**
+ * Replace English-fallback country names with proper translations
+ * for Italian (it), Polish (pl), Dutch (nl), and Portuguese (pt).
+ */
+const fs = require('fs');
+const path = require('path');
+
+const countriesDir = path.join(__dirname, '..', 'data', 'countries');
+
+// Country name translations: keyed by English name
+const NAMES = {
+  'Afghanistan': { it: 'Afghanistan', pl: 'Afganistan', nl: 'Afghanistan', pt: 'Afeganistão' },
+  'Albania': { it: 'Albania', pl: 'Albania', nl: 'Albanië', pt: 'Albânia' },
+  'Algeria': { it: 'Algeria', pl: 'Algieria', nl: 'Algerije', pt: 'Argélia' },
+  'Andorra': { it: 'Andorra', pl: 'Andora', nl: 'Andorra', pt: 'Andorra' },
+  'Angola': { it: 'Angola', pl: 'Angola', nl: 'Angola', pt: 'Angola' },
+  'Antigua and Barbuda': { it: 'Antigua e Barbuda', pl: 'Antigua i Barbuda', nl: 'Antigua en Barbuda', pt: 'Antígua e Barbuda' },
+  'Argentina': { it: 'Argentina', pl: 'Argentyna', nl: 'Argentinië', pt: 'Argentina' },
+  'Armenia': { it: 'Armenia', pl: 'Armenia', nl: 'Armenië', pt: 'Arménia' },
+  'Australia': { it: 'Australia', pl: 'Australia', nl: 'Australië', pt: 'Austrália' },
+  'Austria': { it: 'Austria', pl: 'Austria', nl: 'Oostenrijk', pt: 'Áustria' },
+  'Azerbaijan': { it: 'Azerbaigian', pl: 'Azerbejdżan', nl: 'Azerbeidzjan', pt: 'Azerbaijão' },
+  'Bahamas': { it: 'Bahamas', pl: 'Bahamy', nl: "Bahama's", pt: 'Bahamas' },
+  'Bahrain': { it: 'Bahrein', pl: 'Bahrajn', nl: 'Bahrein', pt: 'Barém' },
+  'Bangladesh': { it: 'Bangladesh', pl: 'Bangladesz', nl: 'Bangladesh', pt: 'Bangladesh' },
+  'Barbados': { it: 'Barbados', pl: 'Barbados', nl: 'Barbados', pt: 'Barbados' },
+  'Belarus': { it: 'Bielorussia', pl: 'Białoruś', nl: 'Wit-Rusland', pt: 'Bielorrússia' },
+  'Belgium': { it: 'Belgio', pl: 'Belgia', nl: 'België', pt: 'Bélgica' },
+  'Belize': { it: 'Belize', pl: 'Belize', nl: 'Belize', pt: 'Belize' },
+  'Benin': { it: 'Benin', pl: 'Benin', nl: 'Benin', pt: 'Benim' },
+  'Bhutan': { it: 'Bhutan', pl: 'Bhutan', nl: 'Bhutan', pt: 'Butão' },
+  'Bolivia': { it: 'Bolivia', pl: 'Boliwia', nl: 'Bolivia', pt: 'Bolívia' },
+  'Bosnia and Herzegovina': { it: 'Bosnia ed Erzegovina', pl: 'Bośnia i Hercegowina', nl: 'Bosnië en Herzegovina', pt: 'Bósnia e Herzegovina' },
+  'Botswana': { it: 'Botswana', pl: 'Botswana', nl: 'Botswana', pt: 'Botsuana' },
+  'Brazil': { it: 'Brasile', pl: 'Brazylia', nl: 'Brazilië', pt: 'Brasil' },
+  'Brunei': { it: 'Brunei', pl: 'Brunei', nl: 'Brunei', pt: 'Brunei' },
+  'Bulgaria': { it: 'Bulgaria', pl: 'Bułgaria', nl: 'Bulgarije', pt: 'Bulgária' },
+  'Burkina Faso': { it: 'Burkina Faso', pl: 'Burkina Faso', nl: 'Burkina Faso', pt: 'Burkina Faso' },
+  'Burundi': { it: 'Burundi', pl: 'Burundi', nl: 'Burundi', pt: 'Burundi' },
+  'Cambodia': { it: 'Cambogia', pl: 'Kambodża', nl: 'Cambodja', pt: 'Camboja' },
+  'Cameroon': { it: 'Camerun', pl: 'Kamerun', nl: 'Kameroen', pt: 'Camarões' },
+  'Canada': { it: 'Canada', pl: 'Kanada', nl: 'Canada', pt: 'Canadá' },
+  'Cape Verde': { it: 'Capo Verde', pl: 'Republika Zielonego Przylądka', nl: 'Kaapverdië', pt: 'Cabo Verde' },
+  'Central African Republic': { it: 'Repubblica Centrafricana', pl: 'Republika Środkowoafrykańska', nl: 'Centraal-Afrikaanse Republiek', pt: 'República Centro-Africana' },
+  'Chad': { it: 'Ciad', pl: 'Czad', nl: 'Tsjaad', pt: 'Chade' },
+  'Chile': { it: 'Cile', pl: 'Chile', nl: 'Chili', pt: 'Chile' },
+  'China': { it: 'Cina', pl: 'Chiny', nl: 'China', pt: 'China' },
+  'Colombia': { it: 'Colombia', pl: 'Kolumbia', nl: 'Colombia', pt: 'Colômbia' },
+  'Comoros': { it: 'Comore', pl: 'Komory', nl: 'Comoren', pt: 'Comores' },
+  'Costa Rica': { it: 'Costa Rica', pl: 'Kostaryka', nl: 'Costa Rica', pt: 'Costa Rica' },
+  "Côte d'Ivoire": { it: "Costa d'Avorio", pl: 'Wybrzeże Kości Słoniowej', nl: 'Ivoorkust', pt: 'Costa do Marfim' },
+  "Cote d'Ivoire": { it: "Costa d'Avorio", pl: 'Wybrzeże Kości Słoniowej', nl: 'Ivoorkust', pt: 'Costa do Marfim' },
+  'Croatia': { it: 'Croazia', pl: 'Chorwacja', nl: 'Kroatië', pt: 'Croácia' },
+  'Cuba': { it: 'Cuba', pl: 'Kuba', nl: 'Cuba', pt: 'Cuba' },
+  'Cyprus': { it: 'Cipro', pl: 'Cypr', nl: 'Cyprus', pt: 'Chipre' },
+  'Czech Republic': { it: 'Repubblica Ceca', pl: 'Czechy', nl: 'Tsjechië', pt: 'República Checa' },
+  'Democratic Republic of the Congo': { it: 'Repubblica Democratica del Congo', pl: 'Demokratyczna Republika Konga', nl: 'Democratische Republiek Congo', pt: 'República Democrática do Congo' },
+  'Denmark': { it: 'Danimarca', pl: 'Dania', nl: 'Denemarken', pt: 'Dinamarca' },
+  'Djibouti': { it: 'Gibuti', pl: 'Dżibuti', nl: 'Djibouti', pt: 'Djibuti' },
+  'Dominica': { it: 'Dominica', pl: 'Dominika', nl: 'Dominica', pt: 'Dominica' },
+  'Dominican Republic': { it: 'Repubblica Dominicana', pl: 'Dominikana', nl: 'Dominicaanse Republiek', pt: 'República Dominicana' },
+  'East Timor': { it: 'Timor Est', pl: 'Timor Wschodni', nl: 'Oost-Timor', pt: 'Timor-Leste' },
+  'Ecuador': { it: 'Ecuador', pl: 'Ekwador', nl: 'Ecuador', pt: 'Equador' },
+  'Egypt': { it: 'Egitto', pl: 'Egipt', nl: 'Egypte', pt: 'Egito' },
+  'El Salvador': { it: 'El Salvador', pl: 'Salwador', nl: 'El Salvador', pt: 'El Salvador' },
+  'Equatorial Guinea': { it: 'Guinea Equatoriale', pl: 'Gwinea Równikowa', nl: 'Equatoriaal-Guinea', pt: 'Guiné Equatorial' },
+  'Eritrea': { it: 'Eritrea', pl: 'Erytrea', nl: 'Eritrea', pt: 'Eritreia' },
+  'Estonia': { it: 'Estonia', pl: 'Estonia', nl: 'Estland', pt: 'Estónia' },
+  'Eswatini': { it: 'Eswatini', pl: 'Eswatini', nl: 'Eswatini', pt: 'Eswatini' },
+  'Ethiopia': { it: 'Etiopia', pl: 'Etiopia', nl: 'Ethiopië', pt: 'Etiópia' },
+  'Fiji': { it: 'Figi', pl: 'Fidżi', nl: 'Fiji', pt: 'Fiji' },
+  'Finland': { it: 'Finlandia', pl: 'Finlandia', nl: 'Finland', pt: 'Finlândia' },
+  'France': { it: 'Francia', pl: 'Francja', nl: 'Frankrijk', pt: 'França' },
+  'Gabon': { it: 'Gabon', pl: 'Gabon', nl: 'Gabon', pt: 'Gabão' },
+  'Gambia': { it: 'Gambia', pl: 'Gambia', nl: 'Gambia', pt: 'Gâmbia' },
+  'Georgia': { it: 'Georgia', pl: 'Gruzja', nl: 'Georgië', pt: 'Geórgia' },
+  'Germany': { it: 'Germania', pl: 'Niemcy', nl: 'Duitsland', pt: 'Alemanha' },
+  'Ghana': { it: 'Ghana', pl: 'Ghana', nl: 'Ghana', pt: 'Gana' },
+  'Greece': { it: 'Grecia', pl: 'Grecja', nl: 'Griekenland', pt: 'Grécia' },
+  'Grenada': { it: 'Grenada', pl: 'Grenada', nl: 'Grenada', pt: 'Granada' },
+  'Guatemala': { it: 'Guatemala', pl: 'Gwatemala', nl: 'Guatemala', pt: 'Guatemala' },
+  'Guinea': { it: 'Guinea', pl: 'Gwinea', nl: 'Guinee', pt: 'Guiné' },
+  'Guinea-Bissau': { it: 'Guinea-Bissau', pl: 'Gwinea Bissau', nl: 'Guinee-Bissau', pt: 'Guiné-Bissau' },
+  'Guyana': { it: 'Guyana', pl: 'Gujana', nl: 'Guyana', pt: 'Guiana' },
+  'Haiti': { it: 'Haiti', pl: 'Haiti', nl: 'Haïti', pt: 'Haiti' },
+  'Honduras': { it: 'Honduras', pl: 'Honduras', nl: 'Honduras', pt: 'Honduras' },
+  'Hungary': { it: 'Ungheria', pl: 'Węgry', nl: 'Hongarije', pt: 'Hungria' },
+  'Iceland': { it: 'Islanda', pl: 'Islandia', nl: 'IJsland', pt: 'Islândia' },
+  'India': { it: 'India', pl: 'Indie', nl: 'India', pt: 'Índia' },
+  'Indonesia': { it: 'Indonesia', pl: 'Indonezja', nl: 'Indonesië', pt: 'Indonésia' },
+  'Iran': { it: 'Iran', pl: 'Iran', nl: 'Iran', pt: 'Irão' },
+  'Iraq': { it: 'Iraq', pl: 'Irak', nl: 'Irak', pt: 'Iraque' },
+  'Ireland': { it: 'Irlanda', pl: 'Irlandia', nl: 'Ierland', pt: 'Irlanda' },
+  'Israel': { it: 'Israele', pl: 'Izrael', nl: 'Israël', pt: 'Israel' },
+  'Italy': { it: 'Italia', pl: 'Włochy', nl: 'Italië', pt: 'Itália' },
+  'Jamaica': { it: 'Giamaica', pl: 'Jamajka', nl: 'Jamaica', pt: 'Jamaica' },
+  'Japan': { it: 'Giappone', pl: 'Japonia', nl: 'Japan', pt: 'Japão' },
+  'Jordan': { it: 'Giordania', pl: 'Jordania', nl: 'Jordanië', pt: 'Jordânia' },
+  'Kazakhstan': { it: 'Kazakistan', pl: 'Kazachstan', nl: 'Kazachstan', pt: 'Cazaquistão' },
+  'Kenya': { it: 'Kenya', pl: 'Kenia', nl: 'Kenia', pt: 'Quénia' },
+  'Kiribati': { it: 'Kiribati', pl: 'Kiribati', nl: 'Kiribati', pt: 'Kiribati' },
+  'Kuwait': { it: 'Kuwait', pl: 'Kuwejt', nl: 'Koeweit', pt: 'Kuwait' },
+  'Kyrgyzstan': { it: 'Kirghizistan', pl: 'Kirgistan', nl: 'Kirgizië', pt: 'Quirguistão' },
+  'Laos': { it: 'Laos', pl: 'Laos', nl: 'Laos', pt: 'Laos' },
+  'Latvia': { it: 'Lettonia', pl: 'Łotwa', nl: 'Letland', pt: 'Letónia' },
+  'Lebanon': { it: 'Libano', pl: 'Liban', nl: 'Libanon', pt: 'Líbano' },
+  'Lesotho': { it: 'Lesotho', pl: 'Lesotho', nl: 'Lesotho', pt: 'Lesoto' },
+  'Liberia': { it: 'Liberia', pl: 'Liberia', nl: 'Liberia', pt: 'Libéria' },
+  'Libya': { it: 'Libia', pl: 'Libia', nl: 'Libië', pt: 'Líbia' },
+  'Liechtenstein': { it: 'Liechtenstein', pl: 'Liechtenstein', nl: 'Liechtenstein', pt: 'Listenstaine' },
+  'Lithuania': { it: 'Lituania', pl: 'Litwa', nl: 'Litouwen', pt: 'Lituânia' },
+  'Luxembourg': { it: 'Lussemburgo', pl: 'Luksemburg', nl: 'Luxemburg', pt: 'Luxemburgo' },
+  'Madagascar': { it: 'Madagascar', pl: 'Madagaskar', nl: 'Madagaskar', pt: 'Madagáscar' },
+  'Malawi': { it: 'Malawi', pl: 'Malawi', nl: 'Malawi', pt: 'Malawi' },
+  'Malaysia': { it: 'Malesia', pl: 'Malezja', nl: 'Maleisië', pt: 'Malásia' },
+  'Maldives': { it: 'Maldive', pl: 'Malediwy', nl: 'Maldiven', pt: 'Maldivas' },
+  'Mali': { it: 'Mali', pl: 'Mali', nl: 'Mali', pt: 'Mali' },
+  'Malta': { it: 'Malta', pl: 'Malta', nl: 'Malta', pt: 'Malta' },
+  'Marshall Islands': { it: 'Isole Marshall', pl: 'Wyspy Marshalla', nl: 'Marshalleilanden', pt: 'Ilhas Marshall' },
+  'Mauritania': { it: 'Mauritania', pl: 'Mauretania', nl: 'Mauritanië', pt: 'Mauritânia' },
+  'Mauritius': { it: 'Mauritius', pl: 'Mauritius', nl: 'Mauritius', pt: 'Maurícia' },
+  'Mexico': { it: 'Messico', pl: 'Meksyk', nl: 'Mexico', pt: 'México' },
+  'Micronesia': { it: 'Micronesia', pl: 'Mikronezja', nl: 'Micronesië', pt: 'Micronésia' },
+  'Moldova': { it: 'Moldavia', pl: 'Mołdawia', nl: 'Moldavië', pt: 'Moldávia' },
+  'Monaco': { it: 'Monaco', pl: 'Monako', nl: 'Monaco', pt: 'Mónaco' },
+  'Mongolia': { it: 'Mongolia', pl: 'Mongolia', nl: 'Mongolië', pt: 'Mongólia' },
+  'Montenegro': { it: 'Montenegro', pl: 'Czarnogóra', nl: 'Montenegro', pt: 'Montenegro' },
+  'Morocco': { it: 'Marocco', pl: 'Maroko', nl: 'Marokko', pt: 'Marrocos' },
+  'Mozambique': { it: 'Mozambico', pl: 'Mozambik', nl: 'Mozambique', pt: 'Moçambique' },
+  'Myanmar': { it: 'Myanmar', pl: 'Mjanma', nl: 'Myanmar', pt: 'Mianmar' },
+  'Namibia': { it: 'Namibia', pl: 'Namibia', nl: 'Namibië', pt: 'Namíbia' },
+  'Nauru': { it: 'Nauru', pl: 'Nauru', nl: 'Nauru', pt: 'Nauru' },
+  'Nepal': { it: 'Nepal', pl: 'Nepal', nl: 'Nepal', pt: 'Nepal' },
+  'Netherlands': { it: 'Paesi Bassi', pl: 'Holandia', nl: 'Nederland', pt: 'Países Baixos' },
+  'New Zealand': { it: 'Nuova Zelanda', pl: 'Nowa Zelandia', nl: 'Nieuw-Zeeland', pt: 'Nova Zelândia' },
+  'Nicaragua': { it: 'Nicaragua', pl: 'Nikaragua', nl: 'Nicaragua', pt: 'Nicarágua' },
+  'Niger': { it: 'Niger', pl: 'Niger', nl: 'Niger', pt: 'Níger' },
+  'Nigeria': { it: 'Nigeria', pl: 'Nigeria', nl: 'Nigeria', pt: 'Nigéria' },
+  'North Korea': { it: 'Corea del Nord', pl: 'Korea Północna', nl: 'Noord-Korea', pt: 'Coreia do Norte' },
+  'North Macedonia': { it: 'Macedonia del Nord', pl: 'Macedonia Północna', nl: 'Noord-Macedonië', pt: 'Macedónia do Norte' },
+  'Norway': { it: 'Norvegia', pl: 'Norwegia', nl: 'Noorwegen', pt: 'Noruega' },
+  'Oman': { it: 'Oman', pl: 'Oman', nl: 'Oman', pt: 'Omã' },
+  'Pakistan': { it: 'Pakistan', pl: 'Pakistan', nl: 'Pakistan', pt: 'Paquistão' },
+  'Palau': { it: 'Palau', pl: 'Palau', nl: 'Palau', pt: 'Palau' },
+  'Palestine': { it: 'Palestina', pl: 'Palestyna', nl: 'Palestina', pt: 'Palestina' },
+  'Panama': { it: 'Panama', pl: 'Panama', nl: 'Panama', pt: 'Panamá' },
+  'Papua New Guinea': { it: 'Papua Nuova Guinea', pl: 'Papua-Nowa Gwinea', nl: 'Papoea-Nieuw-Guinea', pt: 'Papua-Nova Guiné' },
+  'Paraguay': { it: 'Paraguay', pl: 'Paragwaj', nl: 'Paraguay', pt: 'Paraguai' },
+  'Peru': { it: 'Perù', pl: 'Peru', nl: 'Peru', pt: 'Peru' },
+  'Philippines': { it: 'Filippine', pl: 'Filipiny', nl: 'Filipijnen', pt: 'Filipinas' },
+  'Poland': { it: 'Polonia', pl: 'Polska', nl: 'Polen', pt: 'Polónia' },
+  'Portugal': { it: 'Portogallo', pl: 'Portugalia', nl: 'Portugal', pt: 'Portugal' },
+  'Qatar': { it: 'Qatar', pl: 'Katar', nl: 'Qatar', pt: 'Catar' },
+  'Republic of the Congo': { it: 'Repubblica del Congo', pl: 'Republika Konga', nl: 'Republiek Congo', pt: 'República do Congo' },
+  'Romania': { it: 'Romania', pl: 'Rumunia', nl: 'Roemenië', pt: 'Roménia' },
+  'Russia': { it: 'Russia', pl: 'Rosja', nl: 'Rusland', pt: 'Rússia' },
+  'Rwanda': { it: 'Ruanda', pl: 'Rwanda', nl: 'Rwanda', pt: 'Ruanda' },
+  'Saint Kitts and Nevis': { it: 'Saint Kitts e Nevis', pl: 'Saint Kitts i Nevis', nl: 'Saint Kitts en Nevis', pt: 'São Cristóvão e Nevis' },
+  'Saint Lucia': { it: 'Santa Lucia', pl: 'Saint Lucia', nl: 'Saint Lucia', pt: 'Santa Lúcia' },
+  'Saint Vincent and the Grenadines': { it: 'Saint Vincent e Grenadine', pl: 'Saint Vincent i Grenadyny', nl: 'Saint Vincent en de Grenadines', pt: 'São Vicente e Granadinas' },
+  'Samoa': { it: 'Samoa', pl: 'Samoa', nl: 'Samoa', pt: 'Samoa' },
+  'San Marino': { it: 'San Marino', pl: 'San Marino', nl: 'San Marino', pt: 'San Marino' },
+  'São Tomé and Príncipe': { it: 'São Tomé e Príncipe', pl: 'Wyspy Świętego Tomasza i Książęca', nl: 'Sao Tomé en Principe', pt: 'São Tomé e Príncipe' },
+  'Sao Tome and Principe': { it: 'São Tomé e Príncipe', pl: 'Wyspy Świętego Tomasza i Książęca', nl: 'Sao Tomé en Principe', pt: 'São Tomé e Príncipe' },
+  'Saudi Arabia': { it: 'Arabia Saudita', pl: 'Arabia Saudyjska', nl: 'Saoedi-Arabië', pt: 'Arábia Saudita' },
+  'Senegal': { it: 'Senegal', pl: 'Senegal', nl: 'Senegal', pt: 'Senegal' },
+  'Serbia': { it: 'Serbia', pl: 'Serbia', nl: 'Servië', pt: 'Sérvia' },
+  'Seychelles': { it: 'Seychelles', pl: 'Seszele', nl: 'Seychellen', pt: 'Seicheles' },
+  'Sierra Leone': { it: 'Sierra Leone', pl: 'Sierra Leone', nl: 'Sierra Leone', pt: 'Serra Leoa' },
+  'Singapore': { it: 'Singapore', pl: 'Singapur', nl: 'Singapore', pt: 'Singapura' },
+  'Slovakia': { it: 'Slovacchia', pl: 'Słowacja', nl: 'Slowakije', pt: 'Eslováquia' },
+  'Slovenia': { it: 'Slovenia', pl: 'Słowenia', nl: 'Slovenië', pt: 'Eslovénia' },
+  'Solomon Islands': { it: 'Isole Salomone', pl: 'Wyspy Salomona', nl: 'Salomonseilanden', pt: 'Ilhas Salomão' },
+  'Somalia': { it: 'Somalia', pl: 'Somalia', nl: 'Somalië', pt: 'Somália' },
+  'South Africa': { it: 'Sudafrica', pl: 'Republika Południowej Afryki', nl: 'Zuid-Afrika', pt: 'África do Sul' },
+  'South Korea': { it: 'Corea del Sud', pl: 'Korea Południowa', nl: 'Zuid-Korea', pt: 'Coreia do Sul' },
+  'South Sudan': { it: 'Sudan del Sud', pl: 'Sudan Południowy', nl: 'Zuid-Soedan', pt: 'Sudão do Sul' },
+  'Spain': { it: 'Spagna', pl: 'Hiszpania', nl: 'Spanje', pt: 'Espanha' },
+  'Sri Lanka': { it: 'Sri Lanka', pl: 'Sri Lanka', nl: 'Sri Lanka', pt: 'Sri Lanka' },
+  'Sudan': { it: 'Sudan', pl: 'Sudan', nl: 'Soedan', pt: 'Sudão' },
+  'Suriname': { it: 'Suriname', pl: 'Surinam', nl: 'Suriname', pt: 'Suriname' },
+  'Sweden': { it: 'Svezia', pl: 'Szwecja', nl: 'Zweden', pt: 'Suécia' },
+  'Switzerland': { it: 'Svizzera', pl: 'Szwajcaria', nl: 'Zwitserland', pt: 'Suíça' },
+  'Syria': { it: 'Siria', pl: 'Syria', nl: 'Syrië', pt: 'Síria' },
+  'Tajikistan': { it: 'Tagikistan', pl: 'Tadżykistan', nl: 'Tadzjikistan', pt: 'Tajiquistão' },
+  'Tanzania': { it: 'Tanzania', pl: 'Tanzania', nl: 'Tanzania', pt: 'Tanzânia' },
+  'Thailand': { it: 'Thailandia', pl: 'Tajlandia', nl: 'Thailand', pt: 'Tailândia' },
+  'Togo': { it: 'Togo', pl: 'Togo', nl: 'Togo', pt: 'Togo' },
+  'Tonga': { it: 'Tonga', pl: 'Tonga', nl: 'Tonga', pt: 'Tonga' },
+  'Trinidad and Tobago': { it: 'Trinidad e Tobago', pl: 'Trynidad i Tobago', nl: 'Trinidad en Tobago', pt: 'Trindade e Tobago' },
+  'Tunisia': { it: 'Tunisia', pl: 'Tunezja', nl: 'Tunesië', pt: 'Tunísia' },
+  'Turkey': { it: 'Turchia', pl: 'Turcja', nl: 'Turkije', pt: 'Turquia' },
+  'Turkmenistan': { it: 'Turkmenistan', pl: 'Turkmenistan', nl: 'Turkmenistan', pt: 'Turquemenistão' },
+  'Tuvalu': { it: 'Tuvalu', pl: 'Tuvalu', nl: 'Tuvalu', pt: 'Tuvalu' },
+  'Uganda': { it: 'Uganda', pl: 'Uganda', nl: 'Oeganda', pt: 'Uganda' },
+  'Ukraine': { it: 'Ucraina', pl: 'Ukraina', nl: 'Oekraïne', pt: 'Ucrânia' },
+  'United Arab Emirates': { it: 'Emirati Arabi Uniti', pl: 'Zjednoczone Emiraty Arabskie', nl: 'Verenigde Arabische Emiraten', pt: 'Emirados Árabes Unidos' },
+  'United Kingdom': { it: 'Regno Unito', pl: 'Wielka Brytania', nl: 'Verenigd Koninkrijk', pt: 'Reino Unido' },
+  'United States': { it: 'Stati Uniti', pl: 'Stany Zjednoczone', nl: 'Verenigde Staten', pt: 'Estados Unidos' },
+  'Uruguay': { it: 'Uruguay', pl: 'Urugwaj', nl: 'Uruguay', pt: 'Uruguai' },
+  'Uzbekistan': { it: 'Uzbekistan', pl: 'Uzbekistan', nl: 'Oezbekistan', pt: 'Uzbequistão' },
+  'Vanuatu': { it: 'Vanuatu', pl: 'Vanuatu', nl: 'Vanuatu', pt: 'Vanuatu' },
+  'Vatican City': { it: 'Città del Vaticano', pl: 'Watykan', nl: 'Vaticaanstad', pt: 'Cidade do Vaticano' },
+  'Venezuela': { it: 'Venezuela', pl: 'Wenezuela', nl: 'Venezuela', pt: 'Venezuela' },
+  'Vietnam': { it: 'Vietnam', pl: 'Wietnam', nl: 'Vietnam', pt: 'Vietname' },
+  'Yemen': { it: 'Yemen', pl: 'Jemen', nl: 'Jemen', pt: 'Iémen' },
+  'Zambia': { it: 'Zambia', pl: 'Zambia', nl: 'Zambia', pt: 'Zâmbia' },
+  'Zimbabwe': { it: 'Zimbabwe', pl: 'Zimbabwe', nl: 'Zimbabwe', pt: 'Zimbábue' },
+};
+
+// Process each file
+const files = fs.readdirSync(countriesDir).filter(f => f.endsWith('.ts') && f !== 'index.ts').sort();
+
+let updated = 0;
+for (const file of files) {
+  const filePath = path.join(countriesDir, file);
+  let content = fs.readFileSync(filePath, 'utf8');
+
+  // Find the English country name from the name field
+  const nameMatch = content.match(/name:\s*\{[^}]*en:\s*'([^']+)'/);
+  if (!nameMatch) continue;
+
+  const enName = nameMatch[1];
+  const translations = NAMES[enName];
+  if (!translations) {
+    console.log(`  No name translation found for: ${enName} (${file})`);
+    continue;
+  }
+
+  // Replace the fallback English in the name field's it/pl/nl/pt lines
+  // Find the name block and replace within it
+  const nameBlockRegex = /(name:\s*\{[^}]*de:\s*'[^']*',\n)\s*it:\s*'[^']*',\n\s*pl:\s*'[^']*',\n\s*nl:\s*'[^']*',\n\s*pt:\s*'[^']*',/;
+  const match = content.match(nameBlockRegex);
+  if (match) {
+    const indent = '      ';
+    const replacement = `${match[1]}${indent}it: '${translations.it.replace(/'/g, "\\'")}',\n${indent}pl: '${translations.pl.replace(/'/g, "\\'")}',\n${indent}nl: '${translations.nl.replace(/'/g, "\\'")}',\n${indent}pt: '${translations.pt.replace(/'/g, "\\'")}',`;
+    content = content.replace(nameBlockRegex, replacement);
+    fs.writeFileSync(filePath, content, 'utf8');
+    updated++;
+  } else {
+    console.log(`  Could not find name block pattern in: ${file}`);
+  }
+}
+
+console.log(`Updated country names: ${updated}/${files.length}`);

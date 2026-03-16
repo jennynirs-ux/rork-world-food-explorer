@@ -60,7 +60,7 @@ export type QuickFact = {
   value: TranslatedString;
 };
 
-export type TranslatedString = string | { en: string; sv?: string; es?: string; fr?: string; de?: string };
+export type TranslatedString = string | { en: string; sv?: string; es?: string; fr?: string; de?: string; it?: string; pl?: string; nl?: string; pt?: string };
 
 export type Country = {
   id: string;

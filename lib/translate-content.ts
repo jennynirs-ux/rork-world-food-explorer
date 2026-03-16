@@ -1,11 +1,15 @@
-type SupportedLanguage = 'en' | 'sv' | 'es' | 'fr' | 'de';
+type SupportedLanguage = 'en' | 'sv' | 'es' | 'fr' | 'de' | 'it' | 'pl' | 'nl' | 'pt';
 
-export type TranslatableContent = string | { 
-  en: string; 
-  sv?: string; 
-  es?: string; 
-  fr?: string; 
+export type TranslatableContent = string | {
+  en: string;
+  sv?: string;
+  es?: string;
+  fr?: string;
   de?: string;
+  it?: string;
+  pl?: string;
+  nl?: string;
+  pt?: string;
 };
 
 export function translateContent(
