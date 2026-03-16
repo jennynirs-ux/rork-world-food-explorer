@@ -2,7 +2,7 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { Trophy, Flame, Award as AwardIcon } from 'lucide-react-native';
+import { Trophy, Flame, Award as AwardIcon, Globe } from 'lucide-react-native';
 
 export default function ProgressScreen() {
   const { stats, badges, userProfile } = useApp();
@@ -42,6 +42,15 @@ export default function ProgressScreen() {
             </View>
           </View>
         </View>
+
+        {stats.visitedCountries === 0 && (
+          <View style={styles.emptyState}>
+            <Globe size={60} color="#D1D5DB" />
+            <Text style={styles.emptyText}>
+              {t.progress.noCountriesYet || 'Start exploring countries on the map to track your progress here!'}
+            </Text>
+          </View>
+        )}
 
         <View style={styles.statsGrid}>
           <View style={styles.statCard}>

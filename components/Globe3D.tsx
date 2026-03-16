@@ -5,6 +5,7 @@ import Svg, { Path, Circle, Defs, RadialGradient, Stop, G } from 'react-native-s
 import { geoOrthographic, geoPath, geoContains, GeoPermissibleObjects } from 'd3-geo';
 import { feature } from 'topojson-client';
 import { useOptimizedPins, useThrottledRotation } from '@/lib/useGlobeOptimization';
+import { hapticMedium, hapticLight } from '@/lib/haptics';
 import type { GeoJsonProperties, FeatureCollection, Feature, Geometry } from 'geojson';
 
 type GeoFeature = Feature<Geometry, GeoJsonProperties> & { id?: string | number };
@@ -211,6 +212,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
       if (isFiltered) continue;
 
       if (geoContains(feat, coords)) {
+        hapticMedium();
         setSelectedCountry(country);
         return;
       }
@@ -267,10 +269,12 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
 
 
   const handleZoomIn = () => {
+    hapticLight();
     setScale(prev => Math.min(prev * 1.2, MAX_SCALE));
   };
 
   const handleZoomOut = () => {
+    hapticLight();
     setScale(prev => Math.max(prev * 0.8, MIN_SCALE));
   };
 
@@ -406,7 +410,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
                     top: y - 20,
                   },
                 ]}
-                onPress={() => setSelectedCountry(country)}
+                onPress={() => { hapticMedium(); setSelectedCountry(country); }}
                 activeOpacity={0.7}
                 accessibilityLabel={`${country.name}, ${country.status}`}
                 accessibilityRole="button"

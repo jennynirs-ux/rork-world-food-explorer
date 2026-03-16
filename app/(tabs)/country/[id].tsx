@@ -13,6 +13,8 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useState, useEffect, useMemo } from 'react';
 import { useApp } from '@/contexts/AppContext';
 import { isCountryAccessible } from '@/lib/access-control';
+import { hapticSuccess, hapticError, hapticMedium, hapticLight, hapticSelection } from '@/lib/haptics';
+import { trackPositiveAction } from '@/lib/rating';
 import Paywall from '@/components/Paywall';
 import { useTranslation } from '@/lib/i18n';
 import { useTranslatedCountry } from '@/lib/use-translated-country';
@@ -153,12 +155,14 @@ export default function CountryDetailScreen() {
   }
 
   const handleMarkDishCooked = (isDessert: boolean) => {
+    hapticSuccess();
     const field = isDessert ? 'dessertCooked' : 'mainDishCooked';
     const points = isDessert ? 15 : 30;
-    
+
     void updateCountryProgress(country.id, { [field]: true }, points);
-    
-    const dishName = isDessert 
+    void trackPositiveAction();
+
+    const dishName = isDessert
       ? (country.dessert?.name || '') 
       : country.mainDish.name;
     
@@ -183,6 +187,7 @@ export default function CountryDetailScreen() {
   };
 
   const handleToggleFavorite = (isDessert: boolean) => {
+    hapticMedium();
     const recipe = isDessert ? country.dessert : country.mainDish;
     if (!recipe) return;
 
@@ -206,6 +211,7 @@ export default function CountryDetailScreen() {
   };
 
   const handleToggleFavoriteCountry = () => {
+    hapticMedium();
     void toggleFavoriteCountry(country.id);
     const isFavorite = isFavoriteCountry(country.id);
     Alert.alert(
@@ -215,6 +221,7 @@ export default function CountryDetailScreen() {
   };
 
   const handleRateRecipe = (isDessert: boolean, rating: number) => {
+    hapticSelection();
     void updateRecipeRating(country.id, isDessert, rating);
     if (isDessert) {
       setShowDessertRating(false);
@@ -264,6 +271,7 @@ export default function CountryDetailScreen() {
 
   const handleSubmitQuiz = () => {
     if (quizAnswers.length !== country.quiz.length) {
+      hapticError();
       Alert.alert(t.country.incomplete, t.country.answerAllQuestions);
       return;
     }
@@ -275,11 +283,14 @@ export default function CountryDetailScreen() {
     const score = correctCount;
     const points = Math.round((correctCount / country.quiz.length) * 20);
 
+    correctCount === country.quiz.length ? hapticSuccess() : hapticMedium();
+
     void updateCountryProgress(
       country.id,
       { quizCompleted: true, quizScore: score },
       points
     );
+    void trackPositiveAction();
 
     setTimeout(() => {
       Alert.alert(

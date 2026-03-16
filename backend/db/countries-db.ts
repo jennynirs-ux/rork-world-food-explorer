@@ -1,6 +1,32 @@
 import { Country } from '@/types';
+import * as fs from 'fs';
+import * as path from 'path';
 
-let countriesStore: Country[] = [];
+const DB_PATH = path.resolve(process.env.WFE_DB_DIR || '.data', 'countries.json');
+
+function ensureDir() {
+  const dir = path.dirname(DB_PATH);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+}
+
+function loadFromDisk(): Country[] {
+  try {
+    ensureDir();
+    if (fs.existsSync(DB_PATH)) {
+      return JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
+    }
+  } catch { /* start fresh */ }
+  return [];
+}
+
+function saveToDisk(data: Country[]) {
+  try {
+    ensureDir();
+    fs.writeFileSync(DB_PATH, JSON.stringify(data), 'utf-8');
+  } catch { /* non-fatal */ }
+}
+
+let countriesStore: Country[] = loadFromDisk();
 
 export const countriesDB = {
   getAll: async (): Promise<Country[]> => {
@@ -17,6 +43,7 @@ export const countriesDB = {
       throw new Error(`Country with id ${country.id} already exists`);
     }
     countriesStore.push(country);
+    saveToDisk(countriesStore);
     return country;
   },
 
@@ -25,14 +52,16 @@ export const countriesDB = {
     if (index === -1) {
       throw new Error(`Country with id ${id} not found`);
     }
-    
+
     countriesStore[index] = { ...countriesStore[index], ...updates };
+    saveToDisk(countriesStore);
     return countriesStore[index];
   },
 
   delete: async (id: string): Promise<boolean> => {
     const initialLength = countriesStore.length;
     countriesStore = countriesStore.filter(c => c.id !== id);
+    if (countriesStore.length < initialLength) saveToDisk(countriesStore);
     return countriesStore.length < initialLength;
   },
 
@@ -45,11 +74,13 @@ export const countriesDB = {
         newCountries.push(country);
       }
     }
+    if (newCountries.length > 0) saveToDisk(countriesStore);
     return newCountries;
   },
 
   clear: async (): Promise<void> => {
     countriesStore = [];
+    saveToDisk(countriesStore);
   },
 
   getByContinent: async (continent: string): Promise<Country[]> => {

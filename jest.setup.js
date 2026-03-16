@@ -45,6 +45,21 @@ jest.mock('react-native-gesture-handler', () => {
   };
 });
 
+// Mock expo-haptics
+jest.mock('expo-haptics', () => ({
+  impactAsync: jest.fn().mockResolvedValue(undefined),
+  notificationAsync: jest.fn().mockResolvedValue(undefined),
+  selectionAsync: jest.fn().mockResolvedValue(undefined),
+  ImpactFeedbackStyle: { Light: 'light', Medium: 'medium', Heavy: 'heavy' },
+  NotificationFeedbackType: { Success: 'success', Error: 'error', Warning: 'warning' },
+}));
+
+// Mock expo-store-review
+jest.mock('expo-store-review', () => ({
+  isAvailableAsync: jest.fn().mockResolvedValue(false),
+  requestReview: jest.fn().mockResolvedValue(undefined),
+}));
+
 // Silence useNativeDriver warnings in test output
 const originalWarn = console.warn;
 console.warn = (...args) => {

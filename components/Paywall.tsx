@@ -6,6 +6,7 @@ import { MONETIZATION_PRODUCTS, PRODUCT_IDS } from '@/constants/monetization';
 import { Country, TranslatedString } from '@/types';
 import { getCountriesByContinent } from '@/lib/access-control';
 import { purchaseProductById, restorePurchases, isPurchasesConfigured } from '@/lib/purchases';
+import { hapticHeavy, hapticSuccess, hapticError } from '@/lib/haptics';
 
 function getTranslatedName(name: TranslatedString): string {
   if (typeof name === 'string') return name;
@@ -33,6 +34,7 @@ export default function Paywall({
   const [restoring, setRestoring] = useState(false);
 
   const handlePurchase = async (productId: string) => {
+    hapticHeavy();
     setPurchasing(productId);
     try {
       const entitlements = await purchaseProductById(productId);
@@ -42,8 +44,10 @@ export default function Paywall({
         // Mock mode or user cancelled
         onPurchase(productId);
       }
+      hapticSuccess();
       onClose();
     } catch (error: any) {
+      hapticError();
       Alert.alert(
         'Purchase Failed',
         error.message || 'Something went wrong. Please try again.',
@@ -58,6 +62,7 @@ export default function Paywall({
     try {
       const entitlements = await restorePurchases();
       if (entitlements.length > 0) {
+        hapticSuccess();
         entitlements.forEach((id) => onPurchase(id));
         Alert.alert('Restored!', `${entitlements.length} purchase(s) restored successfully.`);
         onClose();

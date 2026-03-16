@@ -7,6 +7,7 @@ import { allBadges } from '@/data/badges';
 import { trpc } from '@/lib/trpc';
 import { translateContent } from '@/lib/translate-content';
 import { configurePurchases, getCustomerInfo } from '@/lib/purchases';
+import { filterValidCountries } from '@/lib/validate-country';
 
 const STORAGE_KEYS = {
   USER_PROFILE: '@world_cooking_user_profile',
@@ -61,7 +62,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
 
   useEffect(() => {
     if (countriesQuery.data && countriesQuery.data.length > 0) {
-      setCountries(countriesQuery.data);
+      setCountries(filterValidCountries(countriesQuery.data));
     }
   }, [countriesQuery.data]);
 
@@ -530,6 +531,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     countries,
     stats,
     isLoading: isLoading || countriesQuery.isLoading,
+    countriesError: countriesQuery.error ? String(countriesQuery.error.message) : null,
     completeOnboarding,
     updateCountryProgress,
     addToShoppingList,
@@ -559,6 +561,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     stats,
     isLoading,
     countriesQuery.isLoading,
+    countriesQuery.error,
     completeOnboarding,
     updateCountryProgress,
     addToShoppingList,

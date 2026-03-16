@@ -1,7 +1,35 @@
 import { Referral } from '@/types';
+import * as fs from 'fs';
+import * as path from 'path';
 
-let referralsStore: Referral[] = [];
-let userReferralCodes: Map<string, string> = new Map();
+const DB_DIR = process.env.WFE_DB_DIR || '.data';
+const REFERRALS_PATH = path.resolve(DB_DIR, 'referrals.json');
+const CODES_PATH = path.resolve(DB_DIR, 'referral-codes.json');
+
+function ensureDir() {
+  if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
+}
+
+function loadReferrals(): Referral[] {
+  try { ensureDir(); if (fs.existsSync(REFERRALS_PATH)) return JSON.parse(fs.readFileSync(REFERRALS_PATH, 'utf-8')); } catch {}
+  return [];
+}
+
+function loadCodes(): Map<string, string> {
+  try { ensureDir(); if (fs.existsSync(CODES_PATH)) return new Map(Object.entries(JSON.parse(fs.readFileSync(CODES_PATH, 'utf-8')))); } catch {}
+  return new Map();
+}
+
+function saveReferrals(data: Referral[]) {
+  try { ensureDir(); fs.writeFileSync(REFERRALS_PATH, JSON.stringify(data), 'utf-8'); } catch {}
+}
+
+function saveCodes(data: Map<string, string>) {
+  try { ensureDir(); fs.writeFileSync(CODES_PATH, JSON.stringify(Object.fromEntries(data)), 'utf-8'); } catch {}
+}
+
+let referralsStore: Referral[] = loadReferrals();
+let userReferralCodes: Map<string, string> = loadCodes();
 
 export const referralsDB = {
   generateReferralCode: (): string => {
@@ -19,6 +47,7 @@ export const referralsDB = {
     }
     const newCode = referralsDB.generateReferralCode();
     userReferralCodes.set(userId, newCode);
+    saveCodes(userReferralCodes);
     return newCode;
   },
 
@@ -48,6 +77,7 @@ export const referralsDB = {
     };
 
     referralsStore.push(referral);
+    saveReferrals(referralsStore);
     return referral;
   },
 
@@ -59,6 +89,7 @@ export const referralsDB = {
 
     referral.status = 'completed';
     referral.completedDate = new Date().toISOString();
+    saveReferrals(referralsStore);
     return referral;
   },
 

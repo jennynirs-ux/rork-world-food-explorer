@@ -13,7 +13,7 @@ import { Country } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 
 export default function ExploreScreen() {
-  const { countryProgress, countries, userProfile, purchaseProduct } = useApp();
+  const { countryProgress, countries, userProfile, purchaseProduct, isLoading, countriesError } = useApp();
   const { t } = useTranslation();
   const purchasedProducts = userProfile.purchasedProducts || [];
   const router = useRouter();
@@ -166,6 +166,11 @@ export default function ExploreScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
+      {countriesError && (
+        <View style={styles.errorBanner}>
+          <Text style={styles.errorBannerText}>Offline — showing cached data</Text>
+        </View>
+      )}
       <View style={styles.header}>
         <Text style={styles.title}>{t.explore.title}</Text>
         <View style={styles.viewToggle}>
@@ -319,7 +324,14 @@ export default function ExploreScreen() {
             showsVerticalScrollIndicator={false}
             refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor="#FF6B35" />}
           >
-            {filteredCountries.map(renderCountryCard)}
+            {filteredCountries.length === 0 ? (
+              <View style={styles.emptyListState}>
+                <Search size={48} color="#D1D5DB" />
+                <Text style={styles.emptyListText}>No countries match your search</Text>
+              </View>
+            ) : (
+              filteredCountries.map(renderCountryCard)
+            )}
             <View style={{ height: 20 }} />
           </ScrollView>
         </View>
@@ -348,6 +360,26 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F9FAFB',
+  },
+  errorBanner: {
+    backgroundColor: '#FEF3C7',
+    paddingVertical: 6,
+    paddingHorizontal: 16,
+    alignItems: 'center',
+  },
+  errorBannerText: {
+    color: '#92400E',
+    fontSize: 13,
+    fontWeight: '500',
+  },
+  emptyListState: {
+    alignItems: 'center',
+    paddingVertical: 60,
+    gap: 12,
+  },
+  emptyListText: {
+    color: '#9CA3AF',
+    fontSize: 16,
   },
   scrollView: {
     flex: 1,

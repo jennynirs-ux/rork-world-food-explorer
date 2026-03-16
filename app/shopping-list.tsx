@@ -5,6 +5,7 @@ import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
 import { ArrowLeft, Check, X, Share2, Trash2, ShoppingCart, Search } from 'lucide-react-native';
 import { useState } from 'react';
+import { hapticLight } from '@/lib/haptics';
 
 export default function ShoppingListScreen() {
   const router = useRouter();
@@ -93,7 +94,7 @@ export default function ShoppingListScreen() {
                   <View key={item.id} style={styles.itemCard}>
                     <TouchableOpacity
                       style={styles.checkbox}
-                      onPress={() => toggleShoppingItem(item.id)}
+                      onPress={() => { hapticLight(); toggleShoppingItem(item.id); }}
                     >
                       <View style={styles.checkboxUnchecked} />
                     </TouchableOpacity>
@@ -123,7 +124,7 @@ export default function ShoppingListScreen() {
                   <View key={item.id} style={[styles.itemCard, styles.itemCardChecked]}>
                     <TouchableOpacity
                       style={styles.checkbox}
-                      onPress={() => toggleShoppingItem(item.id)}
+                      onPress={() => { hapticLight(); toggleShoppingItem(item.id); }}
                     >
                       <View style={styles.checkboxChecked}>
                         <Check size={16} color="#FFF" />
