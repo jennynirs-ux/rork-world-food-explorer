@@ -6,6 +6,7 @@ import { countries as localCountries } from '@/data/countries';
 import { allBadges } from '@/data/badges';
 import { trpc } from '@/lib/trpc';
 import { translateContent } from '@/lib/translate-content';
+import { configurePurchases, getCustomerInfo } from '@/lib/purchases';
 
 const STORAGE_KEYS = {
   USER_PROFILE: '@world_cooking_user_profile',
@@ -73,8 +74,24 @@ export const [AppProvider, useApp] = createContextHook(() => {
           await AsyncStorage.setItem('@world_cooking_user_id', storedUserId);
         }
         setUserId(storedUserId);
+
+        // Initialize RevenueCat and sync any existing entitlements
+        await configurePurchases(storedUserId);
+        const activeEntitlements = await getCustomerInfo();
+        if (activeEntitlements.length > 0) {
+          setUserProfile(prev => {
+            const currentProducts = prev.purchasedProducts || [];
+            const merged = [...new Set([...currentProducts, ...activeEntitlements])];
+            if (merged.length !== currentProducts.length) {
+              const updated = { ...prev, purchasedProducts: merged };
+              void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updated));
+              return updated;
+            }
+            return prev;
+          });
+        }
       } catch (error) {
-        console.error('Error initializing user ID:', error);
+        if (__DEV__) console.error('Error initializing user ID:', error);
       }
     };
     const loadData = async () => {
@@ -106,7 +123,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
           setBadges(badgesWithIcons);
         }
       } catch (error) {
-        console.error('Error loading data:', error);
+        if (__DEV__) console.error('Error loading data:', error);
       } finally {
         setIsLoading(false);
       }
@@ -123,7 +140,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
           await bulkUpdateMutation.mutateAsync({ countries: localCountries });
           await countriesQuery.refetch();
         } catch (error) {
-          console.error('Error syncing countries:', error);
+          if (__DEV__) console.error('Error syncing countries:', error);
         }
       };
       void syncCountries();

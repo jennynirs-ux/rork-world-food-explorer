@@ -29,7 +29,7 @@ export const cache = {
         JSON.stringify(entry)
       );
     } catch (error) {
-      console.warn('[Cache] Failed to write:', key, error);
+      if (__DEV__) console.warn('[Cache] Failed to write:', key, error);
     }
   },
 
@@ -51,7 +51,7 @@ export const cache = {
 
       return entry.data;
     } catch (error) {
-      console.warn('[Cache] Failed to read:', key, error);
+      if (__DEV__) console.warn('[Cache] Failed to read:', key, error);
       return null;
     }
   },
@@ -63,7 +63,7 @@ export const cache = {
     try {
       await AsyncStorage.removeItem(CACHE_PREFIX + key);
     } catch (error) {
-      console.warn('[Cache] Failed to remove:', key, error);
+      if (__DEV__) console.warn('[Cache] Failed to remove:', key, error);
     }
   },
 
@@ -78,7 +78,7 @@ export const cache = {
         await AsyncStorage.multiRemove(cacheKeys);
       }
     } catch (error) {
-      console.warn('[Cache] Failed to clear:', error);
+      if (__DEV__) console.warn('[Cache] Failed to clear:', error);
     }
   },
 

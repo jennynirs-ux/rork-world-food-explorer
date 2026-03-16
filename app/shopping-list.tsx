@@ -75,7 +75,7 @@ export default function ShoppingListScreen() {
               <Search size={18} color="#9CA3AF" />
               <TextInput
                 style={styles.searchInput}
-                placeholder="Search ingredients..."
+                placeholder={t.shopping.searchIngredients}
                 placeholderTextColor="#9CA3AF"
                 value={searchQuery}
                 onChangeText={setSearchQuery}

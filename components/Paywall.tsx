@@ -1,9 +1,11 @@
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal } from 'react-native';
-import { Lock, Globe, X, Check } from 'lucide-react-native';
+import { useState } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert } from 'react-native';
+import { Lock, Globe, X, Check, RotateCcw } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { MONETIZATION_PRODUCTS, PRODUCT_IDS } from '@/constants/monetization';
 import { Country, TranslatedString } from '@/types';
 import { getCountriesByContinent } from '@/lib/access-control';
+import { purchaseProductById, restorePurchases, isPurchasesConfigured } from '@/lib/purchases';
 
 function getTranslatedName(name: TranslatedString): string {
   if (typeof name === 'string') return name;
@@ -27,22 +29,61 @@ export default function Paywall({
   onPurchase,
   purchasedProducts,
 }: PaywallProps) {
-  const handlePurchase = (productId: string) => {
-    onPurchase(productId);
-    onClose();
+  const [purchasing, setPurchasing] = useState<string | null>(null);
+  const [restoring, setRestoring] = useState(false);
+
+  const handlePurchase = async (productId: string) => {
+    setPurchasing(productId);
+    try {
+      const entitlements = await purchaseProductById(productId);
+      if (entitlements.length > 0) {
+        entitlements.forEach((id) => onPurchase(id));
+      } else {
+        // Mock mode or user cancelled
+        onPurchase(productId);
+      }
+      onClose();
+    } catch (error: any) {
+      Alert.alert(
+        'Purchase Failed',
+        error.message || 'Something went wrong. Please try again.',
+      );
+    } finally {
+      setPurchasing(null);
+    }
+  };
+
+  const handleRestore = async () => {
+    setRestoring(true);
+    try {
+      const entitlements = await restorePurchases();
+      if (entitlements.length > 0) {
+        entitlements.forEach((id) => onPurchase(id));
+        Alert.alert('Restored!', `${entitlements.length} purchase(s) restored successfully.`);
+        onClose();
+      } else {
+        Alert.alert('No Purchases Found', 'No previous purchases were found to restore.');
+      }
+    } catch (error: any) {
+      Alert.alert(
+        'Restore Failed',
+        error.message || 'Could not restore purchases. Please try again.',
+      );
+    } finally {
+      setRestoring(false);
+    }
   };
 
   const getCountryCount = (continent?: string) => {
     if (!continent) return countries.length;
-    if (continent === 'Americas') {
-      return getCountriesByContinent(countries, 'Americas').length;
-    }
     return getCountriesByContinent(countries, continent).length;
   };
 
   const isPurchased = (productId: string) => {
     return purchasedProducts.includes(productId);
   };
+
+  const isRevenueCatReady = isPurchasesConfigured();
 
   return (
     <Modal
@@ -57,7 +98,7 @@ export default function Paywall({
             <X size={24} color={colors.text} />
           </TouchableOpacity>
 
-          <ScrollView 
+          <ScrollView
             style={styles.scrollView}
             showsVerticalScrollIndicator={false}
             bounces={false}
@@ -82,6 +123,7 @@ export default function Paywall({
                 const isWorldUnlock = product.id === PRODUCT_IDS.WORLD_UNLOCK_ALL;
                 const countryCount = getCountryCount(product.continent);
                 const purchased = isPurchased(product.id);
+                const isPurchasing = purchasing === product.id;
 
                 return (
                   <View
@@ -97,12 +139,12 @@ export default function Paywall({
                         <Text style={styles.featuredBadgeText}>BEST VALUE</Text>
                       </View>
                     )}
-                    
+
                     <View style={styles.productHeader}>
                       <View style={styles.productIcon}>
-                        <Globe 
-                          size={24} 
-                          color={isWorldUnlock ? colors.sand : colors.terracotta} 
+                        <Globe
+                          size={24}
+                          color={isWorldUnlock ? colors.sand : colors.terracotta}
                         />
                       </View>
                       <View style={styles.productInfo}>
@@ -128,7 +170,7 @@ export default function Paywall({
                       ]}>
                         {product.price}
                       </Text>
-                      
+
                       {purchased ? (
                         <View style={styles.purchasedButton}>
                           <Check size={20} color={colors.sage} />
@@ -141,13 +183,18 @@ export default function Paywall({
                             isWorldUnlock && styles.purchaseButtonFeatured,
                           ]}
                           onPress={() => handlePurchase(product.id)}
+                          disabled={!!purchasing || restoring}
                         >
-                          <Text style={[
-                            styles.purchaseButtonText,
-                            isWorldUnlock && styles.purchaseButtonTextFeatured
-                          ]}>
-                            Unlock Now
-                          </Text>
+                          {isPurchasing ? (
+                            <ActivityIndicator size="small" color="#FFF" />
+                          ) : (
+                            <Text style={[
+                              styles.purchaseButtonText,
+                              isWorldUnlock && styles.purchaseButtonTextFeatured
+                            ]}>
+                              Unlock Now
+                            </Text>
+                          )}
                         </TouchableOpacity>
                       )}
                     </View>
@@ -157,12 +204,25 @@ export default function Paywall({
             </View>
 
             <View style={styles.footer}>
-              <Text style={styles.footerText}>
-                All purchases are for demonstration purposes.
-              </Text>
-              <Text style={styles.footerText}>
-                In production, this would integrate with RevenueCat.
-              </Text>
+              <TouchableOpacity
+                style={styles.restoreButton}
+                onPress={handleRestore}
+                disabled={!!purchasing || restoring}
+              >
+                {restoring ? (
+                  <ActivityIndicator size="small" color={colors.terracotta} />
+                ) : (
+                  <>
+                    <RotateCcw size={16} color={colors.terracotta} />
+                    <Text style={styles.restoreButtonText}>Restore Purchases</Text>
+                  </>
+                )}
+              </TouchableOpacity>
+              {!isRevenueCatReady && __DEV__ && (
+                <Text style={styles.devNote}>
+                  Dev mode: purchases are mocked
+                </Text>
+              )}
             </View>
           </ScrollView>
         </View>
@@ -320,6 +380,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     paddingVertical: 12,
     borderRadius: 12,
+    minWidth: 120,
+    alignItems: 'center',
   },
   purchaseButtonFeatured: {
     backgroundColor: colors.earthBrown,
@@ -350,11 +412,23 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     paddingVertical: 24,
     alignItems: 'center',
+    gap: 8,
   },
-  footerText: {
-    fontSize: 12,
+  restoreButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+  },
+  restoreButtonText: {
+    fontSize: 14,
+    fontWeight: '600' as const,
+    color: colors.terracotta,
+  },
+  devNote: {
+    fontSize: 11,
     color: colors.textTertiary,
-    textAlign: 'center',
-    lineHeight: 18,
+    fontStyle: 'italic',
   },
 });

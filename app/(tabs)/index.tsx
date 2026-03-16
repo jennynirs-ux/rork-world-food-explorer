@@ -226,7 +226,7 @@ export default function ExploreScreen() {
           <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
             <View style={styles.section}>
               <View style={styles.globeWrapper}>
-                <Globe3D pins={countryPins} onCountryPress={handleCountryPress} filterStatus={filterStatus} />
+                <Globe3D pins={countryPins} onCountryPress={handleCountryPress} filterStatus={filterStatus} accessibilityExploreHint={t.globe?.exploreHint} />
               </View>
               
               <TouchableOpacity style={styles.randomButton} onPress={handleRandomCountry}>

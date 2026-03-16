@@ -5,26 +5,33 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "rork-app",
+    "scheme": "worldfoodexplorer",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFF8F0"
     },
     "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "app.rork.world-food-explorer"
+      "supportsTablet": true,
+      "bundleIdentifier": "app.rork.world-food-explorer",
+      "infoPlist": {
+        "SKStoreReviewController": true
+      },
+      "entitlements": {
+        "com.apple.developer.in-app-payments": []
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FFF8F0"
       },
       "package": "app.rork.world_food_explorer",
       "permissions": [
-        "android.permission.VIBRATE"
+        "android.permission.VIBRATE",
+        "com.android.vending.BILLING"
       ]
     },
     "web": {
@@ -38,7 +45,15 @@
         }
       ],
       "expo-font",
-      "expo-web-browser"
+      "expo-web-browser",
+      [
+        "react-native-purchases",
+        {
+          "ios": {
+            "usesStoreKit2": true
+          }
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true

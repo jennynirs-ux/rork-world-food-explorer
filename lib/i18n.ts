@@ -78,7 +78,44 @@ export const translations = {
       toBuy: 'To Buy',
       checked: 'Checked',
       from: 'From',
+      searchIngredients: 'Search ingredients...',
     },
+    globe: {
+      exploreHint: 'Toque duas vezes para explorar este país',
+    },
+
+    globe: {
+      exploreHint: 'Dubbeltik om dit land te verkennen',
+    },
+
+    globe: {
+      exploreHint: 'Dotknij dwukrotnie, aby poznać ten kraj',
+    },
+
+    globe: {
+      exploreHint: 'Tocca due volte per esplorare questo paese',
+    },
+
+    globe: {
+      exploreHint: 'Appuyez deux fois pour explorer ce pays',
+    },
+
+    globe: {
+      exploreHint: 'Toca dos veces para explorar este país',
+    },
+
+    globe: {
+      exploreHint: 'Doppeltippen zum Erkunden dieses Landes',
+    },
+
+    globe: {
+      exploreHint: 'Dubbeltryck för att utforska detta land',
+    },
+
+    globe: {
+      exploreHint: 'Double tap to explore this country',
+    },
+
     progress: {
       title: 'Progress',
       totalPoints: 'Total Points',
@@ -265,6 +302,7 @@ export const translations = {
       toBuy: 'Att Köpa',
       checked: 'Avbockad',
       from: 'Från',
+      searchIngredients: 'Sök ingredienser...',
     },
     progress: {
       title: 'Framsteg',
@@ -452,6 +490,7 @@ export const translations = {
       toBuy: 'Zu Kaufen',
       checked: 'Erledigt',
       from: 'Von',
+      searchIngredients: 'Zutaten suchen...',
     },
     progress: {
       title: 'Fortschritt',
@@ -639,6 +678,7 @@ export const translations = {
       toBuy: 'À Acheter',
       checked: 'Vérifié',
       from: 'De',
+      searchIngredients: 'Buscar ingredientes...',
     },
     progress: {
       title: 'Progrès',
@@ -826,6 +866,7 @@ export const translations = {
       toBuy: 'Por Comprar',
       checked: 'Verificado',
       from: 'De',
+      searchIngredients: 'Rechercher des ingrédients...',
     },
     progress: {
       title: 'Progreso',
@@ -1013,6 +1054,7 @@ export const translations = {
       toBuy: 'Da Comprare',
       checked: 'Verificato',
       from: 'Da',
+      searchIngredients: 'Cerca ingredienti...',
     },
     progress: {
       title: 'Progressi',
@@ -1200,6 +1242,7 @@ export const translations = {
       toBuy: 'Do Kupienia',
       checked: 'Sprawdzone',
       from: 'Z',
+      searchIngredients: 'Szukaj składników...',
     },
     progress: {
       title: 'Postęp',
@@ -1387,6 +1430,7 @@ export const translations = {
       toBuy: 'Te Kopen',
       checked: 'Gecontroleerd',
       from: 'Van',
+      searchIngredients: 'Zoek ingrediënten...',
     },
     progress: {
       title: 'Voortgang',
@@ -1574,6 +1618,7 @@ export const translations = {
       toBuy: 'A Comprar',
       checked: 'Verificado',
       from: 'De',
+      searchIngredients: 'Pesquisar ingredientes...',
     },
     progress: {
       title: 'Progresso',
