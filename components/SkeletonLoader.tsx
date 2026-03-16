@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { View, StyleSheet, Animated } from 'react-native';
 
-function SkeletonBox({ width, height, borderRadius = 8 }: { width: number | string; height: number; borderRadius?: number }) {
+function SkeletonBox({ width, height, borderRadius = 8 }: { width: number | `${number}%`; height: number; borderRadius?: number }) {
   const opacity = useRef(new Animated.Value(0.3)).current;
 
   useEffect(() => {
@@ -19,7 +19,7 @@ function SkeletonBox({ width, height, borderRadius = 8 }: { width: number | stri
     <Animated.View
       style={[
         styles.skeleton,
-        { width: width as any, height, borderRadius, opacity },
+        { width, height, borderRadius, opacity },
       ]}
     />
   );

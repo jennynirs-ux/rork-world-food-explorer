@@ -69,7 +69,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
       try {
         let storedUserId = await AsyncStorage.getItem('@world_cooking_user_id');
         if (!storedUserId) {
-          storedUserId = `user-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+          storedUserId = `user-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
           await AsyncStorage.setItem('@world_cooking_user_id', storedUserId);
         }
         setUserId(storedUserId);
@@ -120,7 +120,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
       setHasInitialized(true);
       const syncCountries = async () => {
         try {
-          await bulkUpdateMutation.mutateAsync({ countries: localCountries as any });
+          await bulkUpdateMutation.mutateAsync({ countries: localCountries });
           await countriesQuery.refetch();
         } catch (error) {
           console.error('Error syncing countries:', error);

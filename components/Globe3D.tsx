@@ -2,9 +2,15 @@ import { useState, useRef, useEffect, useMemo, useCallback } from 'react';
 import { View, StyleSheet, Dimensions, TouchableOpacity, Text, Modal, PanResponder, GestureResponderEvent } from 'react-native';
 import { ZoomIn, ZoomOut, MapPin } from 'lucide-react-native';
 import Svg, { Path, Circle, Defs, RadialGradient, Stop, G } from 'react-native-svg';
-import { geoOrthographic, geoPath, geoContains } from 'd3-geo';
+import { geoOrthographic, geoPath, geoContains, GeoPermissibleObjects } from 'd3-geo';
 import { feature } from 'topojson-client';
 import { useOptimizedPins, useThrottledRotation } from '@/lib/useGlobeOptimization';
+import type { GeoJsonProperties, FeatureCollection, Feature, Geometry } from 'geojson';
+
+type GeoFeature = Feature<Geometry, GeoJsonProperties> & { id?: string | number };
+type GeoFeatureCollection = FeatureCollection<Geometry, GeoJsonProperties> & {
+  features: GeoFeature[];
+};
 
 const { width, height } = Dimensions.get('window');
 
@@ -47,7 +53,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
     MAX_SCALE
   );
   const visiblePins = optimizedResult.pins as CountryPin[];
-  const [worldData, setWorldData] = useState<any>(null);
+  const [worldData, setWorldData] = useState<GeoFeatureCollection | null>(null);
   const [loading, setLoading] = useState(true);
   const [selectedCountry, setSelectedCountry] = useState<CountryPin | null>(null);
 
@@ -79,7 +85,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
           throw new Error('Invalid topology data');
         }
         
-        const features = feature(topology, topology.objects.countries) as any;
+        const features = feature(topology, topology.objects.countries) as unknown as GeoFeatureCollection;
         setWorldData(features);
         setLoading(false);
       } catch (error) {
@@ -107,7 +113,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
     }
   }, [scale, rotation, GLOBE_SIZE]);
 
-  const getCountryFromFeature = useCallback((feature: any): CountryPin | undefined => {
+  const getCountryFromFeature = useCallback((feature: GeoFeature): CountryPin | undefined => {
     const rawId = feature.id;
     if (!rawId) return undefined;
     const idStr = String(rawId).padStart(3, '0');
@@ -123,7 +129,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
     return country;
   }, [pinLookup]);
 
-  const getCountryCentroid = useCallback((feature: any): [number, number] | null => {
+  const getCountryCentroid = useCallback((feature: GeoFeature): [number, number] | null => {
     if (!pathGenerator || !pathGenerator.centroid) return null;
     try {
       const centroid = pathGenerator.centroid(feature);
@@ -134,7 +140,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
     }
   }, [pathGenerator]);
 
-  const getCountryColor = (feature: any) => {
+  const getCountryColor = (feature: GeoFeature) => {
     const country = getCountryFromFeature(feature);
     if (!country) return '#E8DCC8';
     return country.color;
@@ -193,17 +199,17 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
     const coords = projection.invert?.([touchX, touchY]);
     if (!coords) return;
 
-    for (const feature of worldData.features) {
-      const path = pathGenerator(feature);
+    for (const feat of worldData.features) {
+      const path = pathGenerator(feat as GeoPermissibleObjects);
       if (!path) continue;
 
-      const country = getCountryFromFeature(feature);
+      const country = getCountryFromFeature(feat);
       if (!country) continue;
 
       const isFiltered = filterStatus && country.status !== filterStatus;
       if (isFiltered) continue;
 
-      if (geoContains(feature, coords)) {
+      if (geoContains(feat, coords)) {
         setSelectedCountry(country);
         return;
       }
@@ -272,10 +278,10 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
   // P-02: Memoize computed country paths and pin positions
   const countryPaths = useMemo(() => {
     if (!worldData || !pathGenerator) return [];
-    return worldData.features.map((feature: any, i: number) => {
-      const path = pathGenerator(feature);
+    return worldData.features.map((feat: GeoFeature, i: number) => {
+      const path = pathGenerator(feat as GeoPermissibleObjects);
       if (!path) return null;
-      const country = getCountryFromFeature(feature);
+      const country = getCountryFromFeature(feat);
       const color = country ? country.color : '#E8DCC8';
       const isFiltered = filterStatus && (!country || country.status !== filterStatus);
       const hasCountryData = !!country;
@@ -285,12 +291,12 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
 
   const pinPositions = useMemo(() => {
     if (!worldData || !pathGenerator) return [];
-    return worldData.features.map((feature: any, idx: number) => {
-      const country = getCountryFromFeature(feature);
+    return worldData.features.map((feat: GeoFeature, idx: number) => {
+      const country = getCountryFromFeature(feat);
       if (!country) return null;
       const isFiltered = filterStatus && country.status !== filterStatus;
       if (isFiltered) return null;
-      const centroid = getCountryCentroid(feature);
+      const centroid = getCountryCentroid(feat);
       if (!centroid) return null;
       const [x, y] = centroid;
       if (!isFinite(x) || !isFinite(y)) return null;
@@ -401,6 +407,9 @@ export default function Globe3D({ pins, onCountryPress, filterStatus }: Globe3DP
                 ]}
                 onPress={() => setSelectedCountry(country)}
                 activeOpacity={0.7}
+                accessibilityLabel={`${country.name}, ${country.status}`}
+                accessibilityRole="button"
+                accessibilityHint="Double tap to explore this country"
               >
                 <Text style={styles.flagEmoji}>{country.flag}</Text>
               </TouchableOpacity>

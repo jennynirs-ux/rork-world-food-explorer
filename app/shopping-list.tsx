@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Share, TextInput } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Share, TextInput, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
@@ -21,7 +21,7 @@ export default function ShoppingListScreen() {
         message: `Shopping List:\n\n${listText}`,
       });
     } catch (error) {
-      console.error('Error sharing:', error);
+      Alert.alert('Sharing failed', 'Could not share the shopping list. Please try again.');
     }
   };
 

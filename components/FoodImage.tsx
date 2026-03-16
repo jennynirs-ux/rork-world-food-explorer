@@ -35,7 +35,7 @@ function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'c
   const handleError = useCallback(() => {
     setHasError(true);
     setIsLoading(false);
-  }, [alt, uri]);
+  }, []);
 
   const handleLoadStart = useCallback(() => {
     setIsLoading(true);

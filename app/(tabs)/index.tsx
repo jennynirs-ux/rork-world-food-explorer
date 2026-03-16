@@ -6,7 +6,7 @@ import { useTranslation } from '@/lib/i18n';
 import Paywall from '@/components/Paywall';
 import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock } from 'lucide-react-native';
 import Globe3D from '@/components/Globe3D';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { isCountryAccessible } from '@/lib/access-control';
 import { preloadImages } from '@/lib/image-utils'
 import { Country } from '@/types';
@@ -77,10 +77,11 @@ export default function ExploreScreen() {
 
   const handleRefresh = useCallback(async () => {
     setRefreshing(true);
-    // Brief delay to show the refresh indicator — data is local
-    await new Promise(resolve => setTimeout(resolve, 500));
+    // Re-preload images for current list after a brief indicator
+    const urls = countries.slice(0, 20).map(c => c.landscapeImage).filter((u): u is string => !!u);
+    await preloadImages(urls);
     setRefreshing(false);
-  }, []);
+  }, [countries]);
 
   const handleRandomCountry = () => {
     const accessibleCountries = countries.filter(c => isCountryAccessible(c, purchasedProducts));
@@ -105,6 +106,11 @@ export default function ExploreScreen() {
     const status = getCountryStatus(country.id);
     return status === filterStatus;
   }).sort((a, b) => translateContent(a.name).localeCompare(translateContent(b.name)));
+
+  const favoriteCountries = useMemo(() =>
+    filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)),
+    [filteredCountries, userProfile.favoriteCountries]
+  );
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -204,8 +210,8 @@ export default function ExploreScreen() {
             showsVerticalScrollIndicator={false}
             refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor="#FF6B35" />}
           >
-            {filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)).map(renderCountryCard)}
-            {filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)).length === 0 && (
+            {favoriteCountries.map(renderCountryCard)}
+            {favoriteCountries.length === 0 && (
               <View style={styles.emptyFavorites}>
                 <Heart size={64} color="#D1D5DB" />
                 <Text style={styles.emptyTitle}>{t.explore.noFavorites}</Text>
