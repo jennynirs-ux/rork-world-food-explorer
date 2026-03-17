@@ -24,6 +24,12 @@ export type RecipeIngredient = {
   substitutions?: IngredientSubstitution[];
 };
 
+export type RecipeStep = {
+  text: TranslatedString;
+  imageUrl?: string;
+  tip?: TranslatedString;
+};
+
 export type Recipe = {
   id: string;
   name: TranslatedString;
@@ -34,8 +40,27 @@ export type Recipe = {
   difficulty?: 'easy' | 'medium' | 'hard';
   nutrition?: NutritionInfo;
   ingredients: RecipeIngredient[];
-  steps: TranslatedString[];
+  steps: TranslatedString[];          // Simple text steps (existing data)
+  richSteps?: RecipeStep[];           // Enhanced steps with images/tips (opt-in)
   imageUrl?: string;
+};
+
+export type DishVariation = {
+  dishName: TranslatedString;
+  countries: {
+    countryId: string;
+    localName: TranslatedString;
+    description: TranslatedString;
+  }[];
+};
+
+export type SeasonalCollection = {
+  id: string;
+  name: TranslatedString;
+  description: TranslatedString;
+  emoji: string;
+  months: number[];                    // 1-12
+  countryIds: string[];
 };
 
 export type Drink = {

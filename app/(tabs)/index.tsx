@@ -4,13 +4,14 @@ import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
 import Paywall from '@/components/Paywall';
-import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock } from 'lucide-react-native';
+import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock, BookOpen } from 'lucide-react-native';
 import Globe3D from '@/components/Globe3D';
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { isCountryAccessible } from '@/lib/access-control';
 import { preloadImages } from '@/lib/image-utils'
 import { Country } from '@/types';
 import { translateContent } from '@/lib/translate-content';
+import colors from '@/constants/colors';
 
 export default function ExploreScreen() {
   const { countryProgress, countries, userProfile, purchaseProduct, countriesError } = useApp();
@@ -173,6 +174,12 @@ export default function ExploreScreen() {
       )}
       <View style={styles.header}>
         <Text style={styles.title}>{t.explore.title}</Text>
+        <TouchableOpacity
+          style={styles.collectionsButton}
+          onPress={() => router.push('/collections')}
+        >
+          <BookOpen size={18} color={colors.terracotta} />
+        </TouchableOpacity>
         <View style={styles.viewToggle}>
           <TouchableOpacity
             style={[styles.toggleButton, viewMode === 'map' && styles.toggleButtonActive]}
@@ -395,6 +402,16 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: '700' as const,
     color: '#2D1B00',
+  },
+  collectionsButton: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: '#FFF',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#E5E0DA',
   },
   viewToggle: {
     flexDirection: 'row',

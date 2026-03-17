@@ -24,6 +24,8 @@ import CookedPhotoGallery from '@/components/CookedPhotoGallery';
 import NutritionCard from '@/components/NutritionCard';
 import DifficultyBadge from '@/components/DifficultyBadge';
 import IngredientSubstitutions from '@/components/IngredientSubstitutions';
+import RegionalVariations from '@/components/RegionalVariations';
+import { regionalVariations } from '@/data/regional-variations';
 import { useTranslation } from '@/lib/i18n';
 import { useTranslatedCountry } from '@/lib/use-translated-country';
 import { translateContent } from '@/lib/translate-content';
@@ -103,6 +105,13 @@ export default function CountryDetailScreen() {
       fullyCompleted: false,
     };
   }, [country, countryProgress]);
+
+  const countryVariations = useMemo(() => {
+    if (!country) return [];
+    return regionalVariations.filter(v =>
+      v.countries.some(vc => vc.countryId === country.id),
+    );
+  }, [country]);
 
   useEffect(() => {
     if (country && progress && !progress.visited) {
@@ -599,6 +608,17 @@ export default function CountryDetailScreen() {
                     ))}
                   </View>
                 </View>
+              </View>
+            )}
+
+            {countryVariations.length > 0 && (
+              <View style={styles.section}>
+                <RegionalVariations
+                  variations={countryVariations}
+                  countries={countries}
+                  lang={lang}
+                  onCountryPress={(cId) => router.push(`/(tabs)/country/${cId}`)}
+                />
               </View>
             )}
           </View>
