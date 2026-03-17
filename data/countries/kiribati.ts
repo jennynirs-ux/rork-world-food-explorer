@@ -472,6 +472,7 @@ export const kiribati: Country = {
         pt: 'Sweet coconut balls, a traditional I-Kiribati treat',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 12,
       dietType: {
         en: 'vegan',
@@ -641,6 +642,7 @@ export const kiribati: Country = {
         pt: 'Taro leaves cooked in coconut cream',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegan',

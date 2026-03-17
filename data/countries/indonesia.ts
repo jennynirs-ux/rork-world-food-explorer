@@ -649,6 +649,7 @@ export const indonesia: Country = {
         pt: 'Indonesian fried rice, the national dish, with sweet soy sauce, vegetables, and topped with a fried egg',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -1022,6 +1023,7 @@ export const indonesia: Country = {
         pt: 'Traditional sweet rice cake balls filled with palm sugar and rolled in grated coconut',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

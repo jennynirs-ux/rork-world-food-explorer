@@ -484,6 +484,7 @@ export const eswatini: Country = {
         pt: 'Maize porridge with pumpkin and peanut stew',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -703,6 +704,7 @@ export const eswatini: Country = {
         pt: 'Sweet maize cake with peanuts',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegan',

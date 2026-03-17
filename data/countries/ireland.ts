@@ -543,6 +543,7 @@ export const ireland: Country = {
         pt: 'Traditional lamb and vegetable stew, hearty and comforting',
       },
       cookingTime: 150,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -823,6 +824,7 @@ export const ireland: Country = {
         pt: 'Creamy cheesecake with Irish cream liqueur',
       },
       cookingTime: 360,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

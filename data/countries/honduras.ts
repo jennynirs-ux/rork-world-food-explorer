@@ -512,6 +512,7 @@ export const honduras: Country = {
         pt: 'Flour tortillas filled with beans, cheese, and cream',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',
@@ -741,6 +742,7 @@ export const honduras: Country = {
         pt: 'Sponge cake soaked in three types of milk',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

@@ -538,6 +538,7 @@ export const tonga: Country = {
         pt: 'Corned beef wrapped in taro leaves and cooked with coconut cream',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -717,6 +718,7 @@ export const tonga: Country = {
         pt: 'Soft dumplings served in sweet coconut syrup, commonly enjoyed as a dessert.',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

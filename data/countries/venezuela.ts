@@ -586,6 +586,7 @@ export const venezuela: Country = {
         pt: 'National dish of shredded beef, black beans, white rice, and fried plantains',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -927,6 +928,7 @@ export const venezuela: Country = {
         pt: 'Classic Venezuelan caramel flan made with eggs, condensed milk, and vanilla',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',

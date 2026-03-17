@@ -521,6 +521,7 @@ export const kazakhstan: Country = {
         pt: 'Traditional fried dough balls, often served with tea',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',
@@ -756,6 +757,7 @@ export const kazakhstan: Country = {
         pt: 'Traditional dish with boiled meat and noodles',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',

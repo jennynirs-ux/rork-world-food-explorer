@@ -573,6 +573,7 @@ export const trinidadAndTobago: Country = {
         pt: 'Iconic Trinidadian street food: fried flatbread filled with curried chickpeas and chutneys',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -855,6 +856,7 @@ export const trinidadAndTobago: Country = {
         pt: 'A lightly spiced Caribbean-style sweet bread with coconut, often enjoyed as a snack or dessert.',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegetarian',

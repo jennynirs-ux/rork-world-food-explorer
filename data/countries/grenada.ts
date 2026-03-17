@@ -469,6 +469,7 @@ export const grenada: Country = {
         pt: 'National dish with breadfruit, salted meat, and coconut milk',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -678,6 +679,7 @@ export const grenada: Country = {
         pt: 'Creamy ice cream infused with fresh Grenadian nutmeg',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',

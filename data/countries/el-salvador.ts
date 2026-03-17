@@ -459,6 +459,7 @@ export const elSalvador: Country = {
         pt: 'Thick corn tortillas filled with cheese, beans, or meat',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',
@@ -658,6 +659,7 @@ export const elSalvador: Country = {
         pt: 'Sweet cheese pound cake, not to be confused with Mexican quesadilla',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

@@ -648,6 +648,7 @@ export const brazil: Country = {
         pt: 'Brazil\'s national dish: black bean stew with pork, beef, and sausages',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -976,6 +977,7 @@ export const brazil: Country = {
         pt: 'Chocolate truffle-like candy made with condensed milk, cocoa, and butter',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 20,
       dietType: {
         en: 'vegetarian',

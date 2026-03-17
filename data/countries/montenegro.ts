@@ -521,6 +521,7 @@ export const montenegro: Country = {
         pt: 'Fried dough balls served with honey and cheese',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -781,6 +782,7 @@ export const montenegro: Country = {
         pt: 'Smoked ham from Njeguši village',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',

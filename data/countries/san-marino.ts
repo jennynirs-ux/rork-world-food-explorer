@@ -669,6 +669,7 @@ export const sanMarino: Country = {
         pt: 'Baked pasta rolls filled with ham, cheese, and béchamel sauce.',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -935,6 +936,7 @@ export const sanMarino: Country = {
         pt: 'Layered wafer cake with chocolate and hazelnut cream inspired by the Three Towers.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

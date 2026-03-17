@@ -543,6 +543,7 @@ export const ethiopia: Country = {
         pt: 'Spicy chicken stew, Ethiopia\'s national dish, served with injera',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -822,6 +823,7 @@ export const ethiopia: Country = {
         pt: 'Roasted barley snack, often served during coffee ceremony',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 8,
       dietType: {
         en: 'vegan',

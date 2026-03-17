@@ -410,6 +410,7 @@ export const iceland: Country = {
         pt: 'Traditional Icelandic fish stew made with white fish and potatoes in a creamy sauce',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -727,6 +728,7 @@ export const iceland: Country = {
         pt: 'Traditional Icelandic twisted donuts flavored with cardamom',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

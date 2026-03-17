@@ -562,6 +562,7 @@ export const myanmar: Country = {
         pt: 'Sweet snack balls made with rice flour and jaggery',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',
@@ -746,6 +747,7 @@ export const myanmar: Country = {
         pt: 'National breakfast dish of rice noodles in fish soup',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'fish',

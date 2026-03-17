@@ -639,6 +639,7 @@ export const samoa: Country = {
         pt: 'A beloved Samoan dish of taro leaves baked in rich coconut cream (often served as part of an umu feast).',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -855,6 +856,7 @@ export const samoa: Country = {
         pt: 'A traditional Samoan dessert of steamed dough pieces served with a rich coconut caramel sauce.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

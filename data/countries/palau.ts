@@ -521,6 +521,7 @@ export const palau: Country = {
         pt: 'Sweet cassava and coconut cake wrapped in leaves',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegan',
@@ -711,6 +712,7 @@ export const palau: Country = {
         pt: 'Traditional soup with fruit bat and vegetables',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',

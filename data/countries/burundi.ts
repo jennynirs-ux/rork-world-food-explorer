@@ -688,6 +688,7 @@ export const burundi: Country = {
         pt: 'Traditional dish with stewed beans and fried plantains',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -937,6 +938,7 @@ export const burundi: Country = {
         pt: 'Sweet cassava and corn porridge, a comforting Burundian dessert',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

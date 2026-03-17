@@ -497,6 +497,7 @@ export const guineaBissau: Country = {
         pt: 'Peanut stew with chicken or fish',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -726,6 +727,7 @@ export const guineaBissau: Country = {
         pt: 'Cashew cookies made with local cashew nuts',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

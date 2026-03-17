@@ -673,6 +673,7 @@ export const barbados: Country = {
         pt: 'National dish with seasoned flying fish and cornmeal-okra pudding',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -912,6 +913,7 @@ export const barbados: Country = {
         pt: 'Sweet Bajan coconut bread with hints of spice, perfect with tea',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegetarian',

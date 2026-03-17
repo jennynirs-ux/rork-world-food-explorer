@@ -496,6 +496,7 @@ export const jordan: Country = {
         pt: 'Sweet cheese pastry soaked in sugar syrup, a beloved Middle Eastern dessert',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -778,6 +779,7 @@ export const jordan: Country = {
         pt: 'National dish with lamb cooked in fermented yogurt sauce',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',

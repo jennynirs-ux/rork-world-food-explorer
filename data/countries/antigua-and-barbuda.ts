@@ -648,6 +648,7 @@ export const antiguaAndBarbuda: Country = {
         pt: 'Traditional Caribbean stew with vegetables and salted meat',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -867,6 +868,7 @@ export const antiguaAndBarbuda: Country = {
         pt: 'Sweet potato pudding wrapped in banana leaves and steamed',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

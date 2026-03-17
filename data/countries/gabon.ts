@@ -459,6 +459,7 @@ export const gabon: Country = {
         pt: 'Chicken in palm butter sauce',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -698,6 +699,7 @@ export const gabon: Country = {
         pt: 'French-style fried dough pastries dusted with sugar',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

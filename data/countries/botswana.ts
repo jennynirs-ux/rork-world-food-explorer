@@ -673,6 +673,7 @@ export const botswana: Country = {
         pt: 'Slow-cooked, pounded beef or goat meat served with pap',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -925,6 +926,7 @@ export const botswana: Country = {
         pt: 'Sweet sorghum porridge with peanuts and sugar, a comforting Botswanan dessert',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

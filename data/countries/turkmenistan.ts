@@ -597,6 +597,7 @@ export const turkmenistan: Country = {
         pt: 'Traditional rice pilaf cooked with lamb, carrots, and spices',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -853,6 +854,7 @@ export const turkmenistan: Country = {
         pt: 'A traditional Central Asian dessert made from fried dough pieces bound together with honey syrup.',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

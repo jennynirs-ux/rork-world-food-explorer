@@ -10,6 +10,7 @@ import { configurePurchases, getCustomerInfo } from '@/lib/purchases';
 import { filterValidCountries } from '@/lib/validate-country';
 import { initializeNotifications } from '@/lib/notifications';
 import { cache } from '@/lib/cache';
+import { calculateSkillLevel } from '@/lib/nutrition';
 
 const STORAGE_KEYS = {
   USER_PROFILE: '@world_cooking_user_profile',
@@ -543,6 +544,21 @@ export const [AppProvider, useApp] = createContextHook(() => {
     return (userProfile.purchasedProducts || []).includes(productId);
   }, [userProfile.purchasedProducts]);
 
+  const trackDifficultyCooked = useCallback((difficulty: 'easy' | 'medium' | 'hard') => {
+    setUserProfile(prev => {
+      const current = prev.recipesCompletedByDifficulty || { easy: 0, medium: 0, hard: 0 };
+      const updated = { ...current, [difficulty]: current[difficulty] + 1 };
+      const newSkill = calculateSkillLevel(updated);
+      const updatedProfile = {
+        ...prev,
+        recipesCompletedByDifficulty: updated,
+        skillLevel: newSkill,
+      };
+      void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updatedProfile));
+      return updatedProfile;
+    });
+  }, []);
+
   return useMemo(() => ({
     userProfile,
     countryProgress,
@@ -572,6 +588,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     refreshReferralStats,
     purchaseProduct,
     hasPurchasedProduct,
+    trackDifficultyCooked,
   }), [
     userProfile,
     countryProgress,
@@ -602,5 +619,6 @@ export const [AppProvider, useApp] = createContextHook(() => {
     refreshReferralStats,
     purchaseProduct,
     hasPurchasedProduct,
+    trackDifficultyCooked,
   ]);
 });

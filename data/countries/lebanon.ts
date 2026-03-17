@@ -533,6 +533,7 @@ export const lebanon: Country = {
         pt: 'National dish of bulgur wheat and minced meat, served baked or fried',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -804,6 +805,7 @@ export const lebanon: Country = {
         pt: 'Sweet pastry made of phyllo layers filled with nuts and honey',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 24,
       dietType: {
         en: 'vegetarian',

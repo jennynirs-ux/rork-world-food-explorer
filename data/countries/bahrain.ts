@@ -688,6 +688,7 @@ export const bahrain: Country = {
         pt: 'Spiced rice with chicken or lamb, Bahraini national dish',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -927,6 +928,7 @@ export const bahrain: Country = {
         pt: 'Traditional Bahraini sweet made with cornstarch, saffron, cardamom, and rose water',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

@@ -658,6 +658,7 @@ export const brunei: Country = {
         pt: 'National dish made from sago starch, eaten with various sauces',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegan',
@@ -934,6 +935,7 @@ export const brunei: Country = {
         pt: 'Traditional pineapple tart cookies, sweet and crumbly',
       },
       cookingTime: 50,
+      difficulty: 'medium',
       servings: 24,
       dietType: {
         en: 'vegetarian',

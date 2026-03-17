@@ -522,6 +522,7 @@ export const libya: Country = {
         pt: 'Sweet wheat flour pudding with honey and butter',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',
@@ -728,6 +729,7 @@ export const libya: Country = {
         pt: 'Traditional Libyan dish of unleavened bread served with tomato-based lamb stew',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

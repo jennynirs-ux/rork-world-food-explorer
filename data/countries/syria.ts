@@ -624,6 +624,7 @@ export const syria: Country = {
         pt: 'Bulgur and meat croquettes, national dish',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -855,6 +856,7 @@ export const syria: Country = {
         pt: 'Traditional Syrian semolina cookies filled with dates or nuts, commonly prepared for religious holidays.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 24,
       dietType: {
         en: 'vegetarian',

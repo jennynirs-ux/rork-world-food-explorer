@@ -664,6 +664,7 @@ export const singapore: Country = {
         pt: 'Singapore’s most iconic comfort food: poached chicken served with fragrant rice, chili sauce, and ginger-scallion dip.',
       },
       cookingTime: 70,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -1056,6 +1057,7 @@ export const singapore: Country = {
         pt: 'A classic Singaporean sweet bite: toasted bread with kaya (coconut-egg jam) and butter, often served with coffee or tea.',
       },
       cookingTime: 15,
+      difficulty: 'easy',
       servings: 2,
       dietType: {
         en: 'vegetarian',

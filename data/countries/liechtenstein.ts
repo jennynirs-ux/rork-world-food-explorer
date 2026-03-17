@@ -521,6 +521,7 @@ export const liechtenstein: Country = {
         pt: 'Traditional apple strudel pastry',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',
@@ -768,6 +769,7 @@ export const liechtenstein: Country = {
         pt: 'Cheese noodles with fried onions',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',

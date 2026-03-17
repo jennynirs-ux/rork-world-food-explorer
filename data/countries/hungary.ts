@@ -440,6 +440,7 @@ export const hungary: Country = {
         pt: 'Hungary\'s national dish - a hearty soup-stew made with beef, vegetables, and lots of paprika. Originally a shepherd\'s dish, now beloved worldwide.',
       },
       cookingTime: 150,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -859,6 +860,7 @@ export const hungary: Country = {
         pt: 'Layered sponge cake with chocolate buttercream and caramel topping',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

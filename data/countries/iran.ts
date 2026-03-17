@@ -558,6 +558,7 @@ export const iran: Country = {
         pt: 'Herb stew with kidney beans and lamb, Iran\'s national dish',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -818,6 +819,7 @@ export const iran: Country = {
         pt: 'Traditional Persian ice cream with saffron, rose water, and pistachios',
       },
       cookingTime: 480,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',

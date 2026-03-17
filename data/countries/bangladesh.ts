@@ -664,6 +664,7 @@ export const bangladesh: Country = {
         pt: 'Bangladesh\'s most beloved rice dish - aromatic basmati rice layered with marinated meat (usually mutton), yogurt, and spices, then slow-cooked to perfection. It\'s a celebration dish that\'s rich, flavorful, and deeply satisfying.',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -946,6 +947,7 @@ export const bangladesh: Country = {
         pt: 'Traditional Bengali sweetened yogurt, caramelized and served chilled',
       },
       cookingTime: 480,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegetarian',

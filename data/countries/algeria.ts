@@ -708,6 +708,7 @@ export const algeria: Country = {
         pt: 'A classic Algerian family dinner: steamed couscous served with a fragrant vegetable-and-chickpea broth, traditionally finished with harissa to taste.',
       },
       cookingTime: 95,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegetarian',
@@ -1341,6 +1342,7 @@ export const algeria: Country = {
         pt: 'Semolina pastries filled with dates and fried, then soaked in honey',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

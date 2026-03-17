@@ -496,6 +496,7 @@ export const micronesia: Country = {
         pt: 'Baked bananas with coconut cream',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -696,6 +697,7 @@ export const micronesia: Country = {
         pt: 'Grilled fish or chicken with lemon and coconut',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'fish',

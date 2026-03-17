@@ -521,6 +521,7 @@ export const maldives: Country = {
         pt: 'Sweet coconut and rice flour cake',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegan',
@@ -741,6 +742,7 @@ export const maldives: Country = {
         pt: 'Traditional fish soup served with rice',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',

@@ -601,6 +601,7 @@ export const unitedArabEmirates: Country = {
         pt: 'A traditional slow-cooked dish of wheat and meat, especially served during Ramadan and celebrations.',
       },
       cookingTime: 240,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -785,6 +786,7 @@ export const unitedArabEmirates: Country = {
         pt: 'Golden, crispy Emirati dumplings drizzled with date syrup or honey and sprinkled with sesame seeds.',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

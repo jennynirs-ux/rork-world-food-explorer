@@ -470,6 +470,7 @@ export const eastTimor: Country = {
         pt: 'Fish grilled in banana leaves with spices',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -806,6 +807,7 @@ export const eastTimor: Country = {
         pt: 'Portuguese-influenced coconut rice cake',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

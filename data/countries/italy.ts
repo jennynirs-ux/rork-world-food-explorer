@@ -648,6 +648,7 @@ export const italy: Country = {
         pt: 'A classic Roman pasta dish made with eggs, cheese, pancetta, and black pepper',
       },
       cookingTime: 25,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -868,6 +869,7 @@ export const italy: Country = {
         pt: 'A coffee-flavored Italian dessert made with ladyfinger cookies, mascarpone, and cocoa',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 8,
       dietType: {
         en: 'vegetarian',

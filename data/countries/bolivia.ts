@@ -664,6 +664,7 @@ export const bolivia: Country = {
         pt: 'Bolivia\'s beloved savory pastry - a juicy, slightly sweet baked empanada filled with meat, potatoes, peas, and a flavorful sauce. The secret is the soupy filling that should be eaten carefully to avoid spills. Traditionally eaten mid-morning.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'meat',
@@ -970,6 +971,7 @@ export const bolivia: Country = {
         pt: 'Sweet fried pastries served with syrup, a beloved Bolivian treat',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

@@ -708,6 +708,7 @@ export const albania: Country = {
         pt: 'Albania’s iconic dinner dish: tender lamb and rice baked under a tangy yogurt-and-egg custard until golden.',
       },
       cookingTime: 95,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -1224,6 +1225,7 @@ export const albania: Country = {
         pt: 'Traditional Albanian cornmeal cookies with a crumbly texture',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

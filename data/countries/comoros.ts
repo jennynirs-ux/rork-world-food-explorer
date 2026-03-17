@@ -634,6 +634,7 @@ export const comoros: Country = {
         pt: 'Lobster in vanilla sauce, a Comorian specialty',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -863,6 +864,7 @@ export const comoros: Country = {
         pt: 'Traditional Comorian coconut bread, slightly sweet and perfect with tea',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

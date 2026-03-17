@@ -673,6 +673,7 @@ export const cameroon: Country = {
         pt: 'National dish with bitter leaves, peanuts, and meat or fish',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -902,6 +903,7 @@ export const cameroon: Country = {
         pt: 'Sweet fried dough balls, a popular Cameroonian street snack',
       },
       cookingTime: 50,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

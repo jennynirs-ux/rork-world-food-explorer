@@ -521,6 +521,7 @@ export const nicaragua: Country = {
         pt: 'Three-milk cake, sponge soaked in milk mixture',
       },
       cookingTime: 240,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -767,6 +768,7 @@ export const nicaragua: Country = {
         pt: 'Traditional rice and beans dish',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegan',

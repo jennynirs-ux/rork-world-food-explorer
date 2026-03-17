@@ -576,6 +576,7 @@ export const mongolia: Country = {
         pt: 'Deep-fried dough cookies, traditional Mongolian treat',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',
@@ -822,6 +823,7 @@ export const mongolia: Country = {
         pt: 'Traditional barbecue with mutton and hot stones',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

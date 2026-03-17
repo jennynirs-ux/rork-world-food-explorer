@@ -511,6 +511,7 @@ export const moldova: Country = {
         pt: 'Traditional pastries filled with cheese, pumpkin, or apples',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -731,6 +732,7 @@ export const moldova: Country = {
         pt: 'Cornmeal porridge with cheese and sour cream',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

@@ -648,6 +648,7 @@ export const spain: Country = {
         pt: 'Traditional Spanish rice dish from Valencia with chicken, rabbit, and vegetables',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -1006,6 +1007,7 @@ export const spain: Country = {
         pt: 'Crispy fried dough pastries served with thick hot chocolate for dipping',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',

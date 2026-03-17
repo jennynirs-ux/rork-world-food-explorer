@@ -648,6 +648,7 @@ export const germany: Country = {
         pt: 'Traditional German pot roast, marinated in vinegar and spices, served with red cabbage',
       },
       cookingTime: 240,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -965,6 +966,7 @@ export const germany: Country = {
         pt: 'Chocolate sponge cake layered with whipped cream and cherries, soaked in kirsch',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

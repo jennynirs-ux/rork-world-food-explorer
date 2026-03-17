@@ -624,6 +624,7 @@ export const solomonIslands: Country = {
         pt: 'A traditional island pudding made from taro and ripe bananas, enriched with coconut cream and gently fermented or freshly prepared.',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -862,6 +863,7 @@ export const solomonIslands: Country = {
         pt: 'A simple island dessert made with sago pearls simmered in coconut milk and served with ripe banana.',
       },
       cookingTime: 35,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

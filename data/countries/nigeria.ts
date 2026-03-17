@@ -533,6 +533,7 @@ export const nigeria: Country = {
         pt: 'Iconic West African rice dish cooked in tomato sauce with spices',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -848,6 +849,7 @@ export const nigeria: Country = {
         pt: 'Sweet fried dough balls, a popular Nigerian street snack',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

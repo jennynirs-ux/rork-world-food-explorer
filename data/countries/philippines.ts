@@ -624,6 +624,7 @@ export const philippines: Country = {
         pt: 'Iconic Filipino shaved ice dessert with mixed ingredients',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -874,6 +875,7 @@ export const philippines: Country = {
         pt: 'The Philippines\' unofficial national dish - chicken braised in vinegar, soy sauce, and garlic',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',

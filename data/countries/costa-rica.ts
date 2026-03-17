@@ -659,6 +659,7 @@ export const costaRica: Country = {
         pt: 'Costa Rica\'s national breakfast dish - rice and black beans mixed together and fried with onions, peppers, and spices. Often served with eggs, cheese, tortillas, and fried plantains. It\'s comfort food that Ticos eat daily.',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -990,6 +991,7 @@ export const costaRica: Country = {
         pt: 'Ultra-moist sponge cake soaked in three types of milk, topped with whipped cream - a Costa Rican favorite',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

@@ -634,6 +634,7 @@ export const pakistan: Country = {
         pt: 'Deep-fried milk dumplings in rose syrup',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',
@@ -920,6 +921,7 @@ export const pakistan: Country = {
         pt: 'Aromatic rice dish layered with spiced chicken, one of Pakistan\'s most beloved dishes',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

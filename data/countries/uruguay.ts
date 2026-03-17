@@ -586,6 +586,7 @@ export const uruguay: Country = {
         pt: 'Traditional barbecue of various cuts of beef grilled over wood',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -817,6 +818,7 @@ export const uruguay: Country = {
         pt: 'A classic Uruguayan dessert: layers of sponge cake, meringue, whipped cream, and peaches, often finished with dulce de leche.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegetarian',

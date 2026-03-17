@@ -703,6 +703,7 @@ export const armenia: Country = {
         pt: 'Armenian-style grilled meat skewers with vegetables',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -932,6 +933,7 @@ export const armenia: Country = {
         pt: 'Traditional Armenian pastry with sweet filling, often enjoyed with coffee',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

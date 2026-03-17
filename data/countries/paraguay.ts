@@ -547,6 +547,7 @@ export const paraguay: Country = {
         pt: 'Sweet corn cake, a traditional Paraguayan favorite',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',
@@ -792,6 +793,7 @@ export const paraguay: Country = {
         pt: 'Traditional corn bread with cheese and onions',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

@@ -562,6 +562,7 @@ export const ecuador: Country = {
         pt: 'Ecuador\'s signature coastal dish - fresh shrimp marinated in lime juice with tomato sauce, served in a flavorful broth with onions, tomatoes, and cilantro. Unlike Peruvian ceviche, it\'s served in a soupy style and often accompanied by popcorn and plantain chips.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'fish',
@@ -853,6 +854,7 @@ export const ecuador: Country = {
         pt: 'Light sponge cake soaked in three types of milk, topped with meringue',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

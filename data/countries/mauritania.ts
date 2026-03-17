@@ -496,6 +496,7 @@ export const mauritania: Country = {
         pt: 'Sweet couscous pudding with yogurt and cream',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',
@@ -706,6 +707,7 @@ export const mauritania: Country = {
         pt: 'Fish and rice with vegetables',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'fish',

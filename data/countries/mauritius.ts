@@ -537,6 +537,7 @@ export const mauritius: Country = {
         pt: 'Shortbread cookies with pink icing, beloved Mauritian treat',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 24,
       dietType: {
         en: 'vegetarian',
@@ -793,6 +794,7 @@ export const mauritius: Country = {
         pt: 'Yellow split pea flatbread served with curry and chutneys',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

@@ -487,6 +487,7 @@ export const northKorea: Country = {
         pt: 'Honey cookies, traditional Korean sweet',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',
@@ -732,6 +733,7 @@ export const northKorea: Country = {
         pt: 'Cold buckwheat noodles in broth',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',

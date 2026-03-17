@@ -562,6 +562,7 @@ export const finland: Country = {
         pt: 'Finland\'s comforting national dish - a creamy soup with fresh salmon, potatoes, carrots, leeks, and dill. Simple yet flavorful, it embodies Finnish cuisine\'s emphasis on high-quality, fresh ingredients. Perfect for cold Nordic days.',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'fish',
@@ -874,6 +875,7 @@ export const finland: Country = {
         pt: 'Traditional Finnish blueberry pie with cardamom-spiced crust',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

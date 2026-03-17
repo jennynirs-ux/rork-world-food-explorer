@@ -638,6 +638,7 @@ export const seychelles: Country = {
         pt: 'Creole-style fish curry gently simmered in coconut milk with tomatoes, lime, and warm spices—bright, fragrant, and best with rice.',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -1056,6 +1057,7 @@ export const seychelles: Country = {
         pt: 'Moist island-style cake combining ripe bananas and coconut—simple, tropical, and perfect with tea.',
       },
       cookingTime: 55,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegetarian',

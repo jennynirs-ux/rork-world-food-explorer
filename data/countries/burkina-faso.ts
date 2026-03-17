@@ -673,6 +673,7 @@ export const burkinaFaso: Country = {
         pt: 'Rich rice cooked with meat and vegetables',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -902,6 +903,7 @@ export const burkinaFaso: Country = {
         pt: 'West African sweet fried dough balls, light and fluffy',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 16,
       dietType: {
         en: 'vegetarian',

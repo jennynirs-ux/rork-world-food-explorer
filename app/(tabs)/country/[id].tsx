@@ -16,9 +16,14 @@ import { isCountryAccessible } from '@/lib/access-control';
 import { hapticSuccess, hapticError, hapticMedium, hapticSelection, hapticLight } from '@/lib/haptics';
 import { shareRecipe, shareCookedIt } from '@/lib/share';
 import { trackPositiveAction } from '@/lib/rating';
+import { estimateNutrition } from '@/lib/nutrition';
+import { enrichWithSubstitutions } from '@/lib/substitutions';
 import Paywall from '@/components/Paywall';
 import CookingMode from '@/components/CookingMode';
 import CookedPhotoGallery from '@/components/CookedPhotoGallery';
+import NutritionCard from '@/components/NutritionCard';
+import DifficultyBadge from '@/components/DifficultyBadge';
+import IngredientSubstitutions from '@/components/IngredientSubstitutions';
 import { useTranslation } from '@/lib/i18n';
 import { useTranslatedCountry } from '@/lib/use-translated-country';
 import { translateContent } from '@/lib/translate-content';
@@ -70,7 +75,8 @@ export default function CountryDetailScreen() {
     isFavoriteCountry,
     updateRecipeRating,
     userProfile,
-    purchaseProduct
+    purchaseProduct,
+    trackDifficultyCooked
   } = useApp();
   
   const lang = userProfile.language || 'en';
@@ -163,6 +169,12 @@ export default function CountryDetailScreen() {
     hapticSuccess();
     const field = isDessert ? 'dessertCooked' : 'mainDishCooked';
     const points = isDessert ? 15 : 30;
+
+    // Track difficulty for skill progression
+    const recipe = isDessert ? countryData?.dessert : countryData?.mainDish;
+    if (recipe) {
+      trackDifficultyCooked(recipe.difficulty || 'medium');
+    }
 
     void updateCountryProgress(country.id, { [field]: true }, points);
     void trackPositiveAction();
@@ -615,6 +627,7 @@ export default function CountryDetailScreen() {
                     <ChefHat size={16} color="#6B7280" />
                     <Text style={styles.recipeInfoText}>{country.mainDish.dietType}</Text>
                   </View>
+                  <DifficultyBadge difficulty={countryData?.mainDish?.difficulty} size="small" />
                 </View>
 
                 <View style={styles.servingsSelector}>
@@ -635,12 +648,26 @@ export default function CountryDetailScreen() {
                   </TouchableOpacity>
                 </View>
 
+                {countryData?.mainDish && (
+                  <NutritionCard
+                    nutrition={estimateNutrition(countryData.mainDish)}
+                    servingsMultiplier={servingsMultiplier}
+                  />
+                )}
+
                 <Text style={styles.subheading}>{t.country.ingredients}</Text>
                 {country.mainDish.ingredients.map((ing, idx) => (
                   <Text key={idx} style={styles.ingredientText}>
                     • {(ing.amount * servingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
                   </Text>
                 ))}
+
+                {countryData?.mainDish && (
+                  <IngredientSubstitutions
+                    ingredients={enrichWithSubstitutions(countryData.mainDish.ingredients)}
+                    lang={lang}
+                  />
+                )}
 
                 <View style={styles.instructionsHeader}>
                   <Text style={[styles.subheading, { marginTop: 0, marginBottom: 0 }]}>{t.country.instructions}</Text>
@@ -785,7 +812,15 @@ export default function CountryDetailScreen() {
                       <Clock size={16} color="#6B7280" />
                       <Text style={styles.recipeInfoText}>{country.dessert.cookingTime} {t.common.minutes}</Text>
                     </View>
+                    <DifficultyBadge difficulty={countryData?.dessert?.difficulty} size="small" />
                   </View>
+
+                  {countryData?.dessert && (
+                    <NutritionCard
+                      nutrition={estimateNutrition(countryData.dessert)}
+                      servingsMultiplier={servingsMultiplier}
+                    />
+                  )}
 
                   <Text style={styles.subheading}>{t.country.ingredients}</Text>
                   {country.dessert.ingredients.map((ing, idx) => (
@@ -793,6 +828,13 @@ export default function CountryDetailScreen() {
                       • {(ing.amount * servingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
                     </Text>
                   ))}
+
+                  {countryData?.dessert && (
+                    <IngredientSubstitutions
+                      ingredients={enrichWithSubstitutions(countryData.dessert.ingredients)}
+                      lang={lang}
+                    />
+                  )}
 
                   <View style={styles.instructionsHeader}>
                     <Text style={styles.subheading}>{t.country.instructions}</Text>

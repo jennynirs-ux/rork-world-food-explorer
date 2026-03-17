@@ -649,6 +649,7 @@ export const nepal: Country = {
         pt: 'Sweet rice flour ring bread, traditional Nepali treat',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -885,6 +886,7 @@ export const nepal: Country = {
         pt: 'Nepal\'s national dish - lentil soup served with rice, vegetables, and pickles, eaten twice daily',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',

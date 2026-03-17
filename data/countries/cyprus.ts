@@ -664,6 +664,7 @@ export const cyprus: Country = {
         pt: 'Grilled meat skewers served in pita with salad, the most popular street food in Cyprus',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -1538,6 +1539,7 @@ export const cyprus: Country = {
         pt: 'Custard-filled phyllo pastry soaked in honey syrup, a beloved Cypriot dessert',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

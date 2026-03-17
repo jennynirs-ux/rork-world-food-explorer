@@ -561,6 +561,7 @@ export const togo: Country = {
         pt: 'Pounded cassava or yam served with a flavorful, spicy soup',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -820,6 +821,7 @@ export const togo: Country = {
         pt: 'A simple sweet made by cooking shredded coconut with sugar and peanuts until sticky and caramelized.',
       },
       cookingTime: 25,
+      difficulty: 'easy',
       servings: 12,
       dietType: {
         en: 'vegan',

@@ -649,6 +649,7 @@ export const sriLanka: Country = {
         pt: 'A traditional Sri Lankan meal consisting of steamed rice served with dhal curry, vegetable curries, and coconut sambol.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -1112,6 +1113,7 @@ export const sriLanka: Country = {
         pt: 'A rich Sri Lankan coconut custard sweetened with jaggery and scented with cardamom.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

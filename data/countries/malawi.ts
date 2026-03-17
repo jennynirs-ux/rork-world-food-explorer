@@ -507,6 +507,7 @@ export const malawi: Country = {
         pt: 'Sweet banana fritters, a popular Malawian treat',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 12,
       dietType: {
         en: 'vegan',
@@ -727,6 +728,7 @@ export const malawi: Country = {
         pt: 'Grilled lake fish served with thick maize porridge and vegetables',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',

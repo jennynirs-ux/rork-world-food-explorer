@@ -648,6 +648,7 @@ export const japan: Country = {
         pt: 'Tender chicken glazed with a sweet and savory teriyaki sauce',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -961,6 +962,7 @@ export const japan: Country = {
         pt: 'Sweet rice cake filled with ice cream, a perfect blend of chewy and creamy',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

@@ -674,6 +674,7 @@ export const czechRepublic: Country = {
         pt: 'The Czech Republic\'s beloved national dish - tender beef sirloin in a creamy vegetable sauce, served with bread dumplings, cranberry sauce, and a slice of lemon. It\'s comfort food at its finest and a must-try in any Czech restaurant.',
       },
       cookingTime: 150,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -1541,6 +1542,7 @@ export const czechRepublic: Country = {
         pt: 'Sweet pastry rolled in cinnamon sugar, grilled over open flame',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

@@ -678,6 +678,7 @@ export const egypt: Country = {
         pt: 'Egypt\'s national dish: a hearty mix of rice, lentils, pasta, and chickpeas topped with spicy tomato sauce',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',
@@ -989,6 +990,7 @@ export const egypt: Country = {
         pt: 'Sweet semolina cake soaked in sugar syrup, topped with almonds or coconut',
       },
       cookingTime: 50,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

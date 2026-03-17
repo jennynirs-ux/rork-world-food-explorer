@@ -688,6 +688,7 @@ export const bosniaHerzegovina: Country = {
         pt: 'Grilled minced meat sausages served with flatbread',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -907,6 +908,7 @@ export const bosniaHerzegovina: Country = {
         pt: 'Poached apples stuffed with walnuts, served with whipped cream',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

@@ -531,6 +531,7 @@ export const qatar: Country = {
         pt: 'Traditional bread pudding with nuts and cream',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',
@@ -756,6 +757,7 @@ export const qatar: Country = {
         pt: 'Spiced rice with meat or fish',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

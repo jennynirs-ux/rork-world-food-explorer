@@ -634,6 +634,7 @@ export const malta: Country = {
         pt: 'Deep-fried date pastries, a beloved Maltese sweet',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 16,
       dietType: {
         en: 'vegan',
@@ -844,6 +845,7 @@ export const malta: Country = {
         pt: 'Traditional Maltese rabbit stew, considered the national dish, slow-cooked in red wine and garlic',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',

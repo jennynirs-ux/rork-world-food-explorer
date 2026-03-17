@@ -533,6 +533,7 @@ export const guatemala: Country = {
         pt: 'Traditional Mayan stew with chicken and roasted vegetables',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -762,6 +763,7 @@ export const guatemala: Country = {
         pt: 'Sweet plantain patties filled with sweetened black beans',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

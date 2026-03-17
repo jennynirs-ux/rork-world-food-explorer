@@ -459,6 +459,7 @@ export const gambia: Country = {
         pt: 'Peanut butter stew with meat and vegetables',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -688,6 +689,7 @@ export const gambia: Country = {
         pt: 'Sweet couscous dessert with yogurt and fruit',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

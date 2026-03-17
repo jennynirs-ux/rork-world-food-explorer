@@ -536,6 +536,7 @@ export const mali: Country = {
         pt: 'Creamy millet pudding with yogurt and vanilla',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',
@@ -746,6 +747,7 @@ export const mali: Country = {
         pt: 'Peanut butter stew with meat and vegetables',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

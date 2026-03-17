@@ -521,6 +521,7 @@ export const northMacedonia: Country = {
         pt: 'Fried dough soaked in syrup, popular Balkan sweet',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',
@@ -777,6 +778,7 @@ export const northMacedonia: Country = {
         pt: 'Baked beans in earthenware pot',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegan',

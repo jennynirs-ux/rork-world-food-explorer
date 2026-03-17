@@ -623,6 +623,7 @@ export const saoTomeAndPrincipe: Country = {
         pt: 'A classic island stew featuring fish, greens, okra, tomatoes, and palm oil, served with starchy sides like cassava or banana.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'fish',
@@ -955,6 +956,7 @@ export const saoTomeAndPrincipe: Country = {
         pt: 'A simple tropical dessert combining ripe banana and coconut for a soft, fragrant cake-style treat.',
       },
       cookingTime: 55,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

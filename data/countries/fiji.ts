@@ -459,6 +459,7 @@ export const fiji: Country = {
         pt: 'Fijian ceviche with fish marinated in coconut cream and lime',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -698,6 +699,7 @@ export const fiji: Country = {
         pt: 'Sweet cassava cake with coconut cream',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegan',

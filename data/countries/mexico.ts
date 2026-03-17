@@ -634,6 +634,7 @@ export const mexico: Country = {
         pt: 'Rolled tortillas filled with chicken and topped with flavorful chili sauce and cheese',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -948,6 +949,7 @@ export const mexico: Country = {
         pt: 'Crispy fried dough coated in cinnamon sugar, served with rich chocolate sauce',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

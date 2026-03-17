@@ -576,6 +576,7 @@ export const suriname: Country = {
         pt: 'Suriname’s national dish – a baked casserole made from grated pomtajer (taro root) layered with seasoned chicken and citrus flavors.',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -966,6 +967,7 @@ export const suriname: Country = {
         pt: 'A dense, chewy cassava and coconut cake flavored with spices, popular at celebrations and family gatherings.',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegetarian',

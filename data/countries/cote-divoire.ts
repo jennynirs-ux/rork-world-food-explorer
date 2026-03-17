@@ -658,6 +658,7 @@ export const coteDivoire: Country = {
         pt: 'Slow-cooked chicken stew with vegetables in a sealed pot',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -1584,6 +1585,7 @@ export const coteDivoire: Country = {
         pt: 'Fried plantains served with spicy pepper sauce, a beloved Ivorian street food dessert',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegan',

@@ -648,6 +648,7 @@ export const saintLucia: Country = {
         pt: 'Saint Lucia national dish: tender green bananas (called "green figs") served with sautéed salted cod, peppers, tomatoes, and herbs.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -999,6 +1000,7 @@ export const saintLucia: Country = {
         pt: 'A sweet Caribbean-style coconut tart with a tender crust and rich coconut filling, often flavored with vanilla and warm spices.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

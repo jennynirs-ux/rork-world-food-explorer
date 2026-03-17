@@ -522,6 +522,7 @@ export const mozambique: Country = {
         pt: 'Cashew and potato cake, a beloved Mozambican dessert',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -757,6 +758,7 @@ export const mozambique: Country = {
         pt: 'Grilled prawns marinated in spicy peri-peri sauce',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'fish',

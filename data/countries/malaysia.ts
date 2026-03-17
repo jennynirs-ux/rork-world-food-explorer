@@ -649,6 +649,7 @@ export const malaysia: Country = {
         pt: 'Colorful layered steamed cake with pandan and coconut',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 16,
       dietType: {
         en: 'vegetarian',
@@ -880,6 +881,7 @@ export const malaysia: Country = {
         pt: 'Malaysia\'s national dish - fragrant coconut rice served with sambal, anchovies, peanuts, and egg',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',

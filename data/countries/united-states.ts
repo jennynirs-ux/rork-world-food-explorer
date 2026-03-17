@@ -634,6 +634,7 @@ export const unitedStates: Country = {
         pt: 'Juicy beef burger with melted cheese, fresh toppings, and crispy fries.',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -980,6 +981,7 @@ export const unitedStates: Country = {
         pt: 'Classic American dessert with spiced apples in a flaky buttery crust.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',

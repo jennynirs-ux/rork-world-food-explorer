@@ -294,6 +294,7 @@ export const iraq: Country = {
         pt: 'Traditional grilled fish seasoned with tamarind',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -848,6 +849,7 @@ export const iraq: Country = {
         pt: 'Traditional Iraqi date-filled cookies, often served with tea',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 24,
       dietType: {
         en: 'vegetarian',

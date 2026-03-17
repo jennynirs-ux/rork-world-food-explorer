@@ -2,7 +2,7 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-nati
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { Trophy, Flame, Award as AwardIcon, Globe, Share2 } from 'lucide-react-native';
+import { Trophy, Flame, Award as AwardIcon, Globe, Share2, ChefHat } from 'lucide-react-native';
 import { shareProgress } from '@/lib/share';
 import { hapticLight } from '@/lib/haptics';
 
@@ -61,6 +61,25 @@ export default function ProgressScreen() {
             </View>
           </View>
         </View>
+
+        {userProfile.skillLevel && (
+          <View style={styles.skillSection}>
+            <View style={styles.skillCard}>
+              <ChefHat size={24} color="#FF6B35" />
+              <View style={styles.skillInfo}>
+                <Text style={styles.skillLevel}>
+                  {userProfile.skillLevel.charAt(0).toUpperCase() + userProfile.skillLevel.slice(1)} Chef
+                </Text>
+                <Text style={styles.skillDetails}>
+                  {(userProfile.recipesCompletedByDifficulty?.easy || 0) +
+                    (userProfile.recipesCompletedByDifficulty?.medium || 0) +
+                    (userProfile.recipesCompletedByDifficulty?.hard || 0)}{' '}
+                  recipes cooked
+                </Text>
+              </View>
+            </View>
+          </View>
+        )}
 
         {stats.visitedCountries === 0 && (
           <View style={styles.emptyState}>
@@ -322,6 +341,31 @@ const styles = StyleSheet.create({
     color: '#2D1B00',
   },
   streakLabel: {
+    fontSize: 13,
+    color: '#6B7280',
+    marginTop: 2,
+  },
+  skillSection: {
+    paddingHorizontal: 16,
+    marginBottom: 24,
+  },
+  skillCard: {
+    flexDirection: 'row',
+    backgroundColor: '#FFF',
+    borderRadius: 16,
+    padding: 16,
+    alignItems: 'center',
+    gap: 12,
+  },
+  skillInfo: {
+    flex: 1,
+  },
+  skillLevel: {
+    fontSize: 18,
+    fontWeight: '700' as const,
+    color: '#2D1B00',
+  },
+  skillDetails: {
     fontSize: 13,
     color: '#6B7280',
     marginTop: 2,

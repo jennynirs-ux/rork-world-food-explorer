@@ -609,6 +609,7 @@ export const southKorea: Country = {
         pt: 'Mixed rice bowl with seasoned vegetables, beef, a fried egg, and spicy gochujang—stirred together before eating.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -1022,6 +1023,7 @@ export const southKorea: Country = {
         pt: 'Shaved ice dessert topped with sweet red beans, fruit, and condensed milk (often with mochi or ice cream).',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegetarian',

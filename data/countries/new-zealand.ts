@@ -688,6 +688,7 @@ export const newZealand: Country = {
         pt: 'Meat and vegetables slow-cooked using heated stones in an earth oven, a traditional Maori method for gatherings.',
       },
       cookingTime: 240,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -1006,6 +1007,7 @@ export const newZealand: Country = {
         pt: 'A crisp meringue shell with a soft marshmallow center, topped with whipped cream and fresh fruit.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',

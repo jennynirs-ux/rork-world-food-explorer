@@ -575,6 +575,7 @@ export const vanuatu: Country = {
         pt: 'Traditional dish made from grated root vegetables and coconut milk, wrapped and cooked slowly',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -791,6 +792,7 @@ export const vanuatu: Country = {
         pt: 'A simple island-style dessert of bananas gently cooked with coconut milk and a touch of sweetness, served warm or chilled.',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegan',

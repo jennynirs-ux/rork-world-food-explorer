@@ -627,6 +627,7 @@ export const unitedKingdom: Country = {
         pt: 'Crispy battered fish served with thick-cut chips, often with mushy peas and malt vinegar.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -878,6 +879,7 @@ export const unitedKingdom: Country = {
         pt: 'A classic British dessert: moist date sponge cake served warm with rich toffee sauce, often with vanilla ice cream or custard.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

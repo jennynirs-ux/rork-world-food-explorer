@@ -533,6 +533,7 @@ export const belgium: Country = {
         pt: 'Mussels steamed with white wine and herbs, served with classic double-fried Belgian fries and mayonnaise.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -923,6 +924,7 @@ export const belgium: Country = {
         pt: 'Light, crispy waffles topped with whipped cream, fruit, or chocolate',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',

@@ -543,6 +543,7 @@ export const norway: Country = {
         pt: 'Traditional lamb and cabbage stew, Norway\'s national dish',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -773,6 +774,7 @@ export const norway: Country = {
         pt: 'World\'s best cake with meringue, custard, and almond layers',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

@@ -648,6 +648,7 @@ export const australia: Country = {
         pt: 'Iconic Australian savory pie filled with minced meat and gravy, served with pea puree',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -976,6 +977,7 @@ export const australia: Country = {
         pt: 'Sponge cake cubes coated in chocolate and rolled in desiccated coconut',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 16,
       dietType: {
         en: 'vegetarian',

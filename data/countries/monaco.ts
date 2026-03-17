@@ -511,6 +511,7 @@ export const monaco: Country = {
         pt: 'Traditional sweet bread with anise and orange blossom',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',
@@ -777,6 +778,7 @@ export const monaco: Country = {
         pt: 'Fried pastry filled with Swiss chard and ricotta',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

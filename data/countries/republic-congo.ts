@@ -459,6 +459,7 @@ export const republicCongo: Country = {
         pt: 'Chicken in palm butter sauce with rice',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -688,6 +689,7 @@ export const republicCongo: Country = {
         pt: 'Fried sweet plantains, a popular Congolese dessert',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegan',

@@ -634,6 +634,7 @@ export const capeVerde: Country = {
         pt: 'National stew with corn, beans, and meat or fish',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -853,6 +854,7 @@ export const capeVerde: Country = {
         pt: 'Sweet papaya jam often served with fresh cheese, a beloved Cape Verdean dessert combining Portuguese and tropical influences',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',

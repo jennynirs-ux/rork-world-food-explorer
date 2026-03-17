@@ -459,6 +459,7 @@ export const djibouti: Country = {
         pt: 'Spiced lamb and rice dish',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -688,6 +689,7 @@ export const djibouti: Country = {
         pt: 'Sweet Middle Eastern-style dessert with dates and nuts',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 8,
       dietType: {
         en: 'vegetarian',

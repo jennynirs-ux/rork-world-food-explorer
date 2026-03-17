@@ -649,6 +649,7 @@ export const sierraLeone: Country = {
         pt: 'A beloved West African rice dish cooked in tomato sauce with spices, often served with plantains or vegetables.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -941,6 +942,7 @@ export const sierraLeone: Country = {
         pt: 'Sweet ripe plantains sliced and fried until golden, often enjoyed as a dessert or side.',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegan',

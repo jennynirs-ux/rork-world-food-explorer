@@ -546,6 +546,7 @@ export const sweden: Country = {
         pt: 'Tender meatballs in creamy gravy served with lingonberry sauce and mashed potatoes',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -847,6 +848,7 @@ export const sweden: Country = {
         pt: 'Soft yeast buns flavored with cinnamon, cardamom, butter, and sugar – a classic Swedish fika favorite.',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

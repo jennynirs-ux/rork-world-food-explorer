@@ -563,6 +563,7 @@ export const tuvalu: Country = {
         pt: 'Taro leaves baked with coconut cream',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'vegan',
@@ -753,6 +754,7 @@ export const tuvalu: Country = {
         pt: 'A simple island-style dessert made by baking breadfruit with coconut cream and a touch of sweetness until soft and custardy.',
       },
       cookingTime: 50,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

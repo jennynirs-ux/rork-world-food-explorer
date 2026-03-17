@@ -522,6 +522,7 @@ export const laos: Country = {
         pt: 'Sticky rice with mango and coconut cream',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegan',
@@ -752,6 +753,7 @@ export const laos: Country = {
         pt: 'Minced meat salad with herbs, lime, and roasted rice powder',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',

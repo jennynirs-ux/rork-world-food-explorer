@@ -664,6 +664,7 @@ export const azerbaijan: Country = {
         pt: 'Azerbaijan\'s national dish - aromatic saffron rice served with meat, dried fruits, and chestnuts. Each region has its own variation, with Shah Plov being the most festive version wrapped in lavash bread.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -925,6 +926,7 @@ export const azerbaijan: Country = {
         pt: 'Layers of thin pastry with ground nuts, cardamom, and honey syrup',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 24,
       dietType: {
         en: 'vegetarian',

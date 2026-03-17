@@ -487,6 +487,7 @@ export const nauru: Country = {
         pt: 'Sweet coconut custard pie',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',
@@ -706,6 +707,7 @@ export const nauru: Country = {
         pt: 'Raw fish marinated in coconut cream',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'fish',

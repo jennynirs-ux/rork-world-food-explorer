@@ -668,6 +668,7 @@ export const china: Country = {
         pt: 'Spicy Sichuan stir-fry with chicken, peanuts, vegetables, and chili peppers',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -1010,6 +1011,7 @@ export const china: Country = {
         pt: 'Silky smooth dessert made with fresh mango puree and coconut milk',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',

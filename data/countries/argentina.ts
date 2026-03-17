@@ -623,6 +623,7 @@ export const argentina: Country = {
         pt: 'Traditional Argentine barbecue featuring various cuts of beef cooked slowly over wood fire',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -853,6 +854,7 @@ export const argentina: Country = {
         pt: 'Traditional cookies filled with dulce de leche and coated in chocolate or powdered sugar',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

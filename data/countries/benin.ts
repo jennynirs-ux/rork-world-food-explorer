@@ -673,6 +673,7 @@ export const benin: Country = {
         pt: 'Spiced fried peanut cakes',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -872,6 +873,7 @@ export const benin: Country = {
         pt: 'Sweet fried dough balls, popular West African snack',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

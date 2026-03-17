@@ -623,6 +623,7 @@ export const peru: Country = {
         pt: 'Fresh raw fish marinated in citrus juices, typically lime, and spiced with chili peppers',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -934,6 +935,7 @@ export const peru: Country = {
         pt: 'Delicate shortbread cookies sandwiched with dulce de leche and dusted with powdered sugar',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

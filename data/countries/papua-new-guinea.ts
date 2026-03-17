@@ -496,6 +496,7 @@ export const papuaNewGuinea: Country = {
         pt: 'Sweet pudding made from sago palm',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -690,6 +691,7 @@ export const papuaNewGuinea: Country = {
         pt: 'Traditional earth oven feast with pork and vegetables',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 10,
       dietType: {
         en: 'meat',

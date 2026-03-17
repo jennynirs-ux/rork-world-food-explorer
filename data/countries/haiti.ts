@@ -512,6 +512,7 @@ export const haiti: Country = {
         pt: 'Fried pork with spicy pickled vegetables',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -741,6 +742,7 @@ export const haiti: Country = {
         pt: 'Sweet potato pudding with coconut and spices',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

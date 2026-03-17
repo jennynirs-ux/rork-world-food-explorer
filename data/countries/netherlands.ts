@@ -648,6 +648,7 @@ export const netherlands: Country = {
         pt: 'Traditional Dutch comfort food - mashed potatoes with vegetables and sausage',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -961,6 +962,7 @@ export const netherlands: Country = {
         pt: 'Thin waffle cookies with caramel syrup filling, best served warm over hot coffee',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

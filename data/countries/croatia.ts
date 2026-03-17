@@ -547,6 +547,7 @@ export const croatia: Country = {
         pt: 'A traditional Croatian dish where meat (usually lamb or octopus) and vegetables are slow-cooked under a bell-shaped lid covered with hot coals. The result is incredibly tender, flavorful meat. A true taste of Dalmatia.',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -1480,6 +1481,7 @@ export const croatia: Country = {
         pt: 'Creamy custard slice - layers of puff pastry with vanilla custard cream, a beloved Croatian dessert',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

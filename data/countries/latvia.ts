@@ -475,6 +475,7 @@ export const latvia: Country = {
         pt: 'Rye bread layered dessert with whipped cream and cranberries',
       },
       cookingTime: 240,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',
@@ -819,6 +820,7 @@ export const latvia: Country = {
         pt: 'Traditional Latvian dish of boiled grey peas served with fried bacon and onions',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',

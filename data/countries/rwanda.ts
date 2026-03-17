@@ -586,6 +586,7 @@ export const rwanda: Country = {
         pt: 'Cassava leaves cooked in peanut sauce, a traditional Rwandan favorite',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'vegan',
@@ -887,6 +888,7 @@ export const rwanda: Country = {
         pt: 'Sweet fried dough flavored with cardamom and coconut, a popular treat throughout East Africa',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

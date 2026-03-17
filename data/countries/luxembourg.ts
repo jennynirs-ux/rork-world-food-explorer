@@ -511,6 +511,7 @@ export const luxembourg: Country = {
         pt: 'Traditional plum tart, Luxembourg\'s favorite dessert',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',
@@ -732,6 +733,7 @@ export const luxembourg: Country = {
         pt: 'Smoked pork collar with broad beans',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

@@ -583,6 +583,7 @@ export const cuba: Country = {
         pt: 'Shredded beef stewed in tomato sauce, Cuba\'s national dish',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -862,6 +863,7 @@ export const cuba: Country = {
         pt: 'Creamy caramel custard, a beloved Cuban dessert',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

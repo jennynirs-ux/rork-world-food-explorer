@@ -583,6 +583,7 @@ export const denmark: Country = {
         pt: 'Traditional open-faced sandwiches with various toppings',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -878,6 +879,7 @@ export const denmark: Country = {
         pt: 'Round Danish pancakes, traditionally served at Christmas',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

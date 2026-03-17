@@ -663,6 +663,7 @@ export const serbia: Country = {
         pt: 'Small grilled minced-meat sausages served with warm lepinja (flatbread), chopped onions, and often kajmak (creamy dairy spread) and ajvar.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -1026,6 +1027,7 @@ export const serbia: Country = {
         pt: 'Tender Serbian sandwich cookies filled with jam (often apricot or rosehip) and rolled in powdered sugar.',
       },
       cookingTime: 50,
+      difficulty: 'medium',
       servings: 24,
       dietType: {
         en: 'vegetarian',

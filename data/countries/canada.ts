@@ -648,6 +648,7 @@ export const canada: Country = {
         pt: 'French fries topped with cheese curds and smothered in rich brown gravy',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -946,6 +947,7 @@ export const canada: Country = {
         pt: 'Sweet pastry tarts filled with butter, sugar, syrup, and egg, a Canadian classic',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

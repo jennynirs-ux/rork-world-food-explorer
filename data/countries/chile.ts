@@ -664,6 +664,7 @@ export const chile: Country = {
         pt: 'Chile\'s comfort food - a hearty casserole with a savory ground beef filling (pino) topped with a sweet corn cough. The contrast between the sweet corn topping and savory meat is what makes this dish special. Traditionally baked in clay dishes.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -980,6 +981,7 @@ export const chile: Country = {
         pt: 'Refreshing traditional Chilean drink-dessert with wheat, dried peaches, and sweet syrup',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

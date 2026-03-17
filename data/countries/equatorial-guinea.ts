@@ -459,6 +459,7 @@ export const equatorialGuinea: Country = {
         pt: 'Traditional stew with beans, corn, and fish',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'fish',
@@ -688,6 +689,7 @@ export const equatorialGuinea: Country = {
         pt: 'Sweet fried plantain dessert',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 8,
       dietType: {
         en: 'vegan',

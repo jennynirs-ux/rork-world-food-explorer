@@ -600,6 +600,7 @@ export const uzbekistan: Country = {
         pt: 'National rice pilaf cooked with lamb, carrots, onions, and spices',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -903,6 +904,7 @@ export const uzbekistan: Country = {
         pt: 'A traditional airy sweet mousse made from whipped egg whites and a fragrant sugar syrup, often flavored with herbs and served during springtime celebrations.',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

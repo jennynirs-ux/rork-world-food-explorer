@@ -459,6 +459,7 @@ export const democraticRepublicCongo: Country = {
         pt: 'Chicken in rich palm nut sauce',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -698,6 +699,7 @@ export const democraticRepublicCongo: Country = {
         pt: 'Sweet fried dough balls, Congolese donuts often enjoyed with coffee',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

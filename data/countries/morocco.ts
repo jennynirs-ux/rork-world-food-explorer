@@ -634,6 +634,7 @@ export const morocco: Country = {
         pt: 'Slow-cooked chicken with olives, preserved lemons, and aromatic spices',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -1017,6 +1018,7 @@ export const morocco: Country = {
         pt: 'Moist almond cake infused with orange blossom water',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

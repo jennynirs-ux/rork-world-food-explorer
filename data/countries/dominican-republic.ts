@@ -474,6 +474,7 @@ export const dominicanRepublic: Country = {
         pt: 'The national dish with rice, beans, and meat',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -703,6 +704,7 @@ export const dominicanRepublic: Country = {
         pt: 'Sponge cake soaked in three types of milk',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

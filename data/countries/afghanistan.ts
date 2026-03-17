@@ -648,6 +648,7 @@ export const afghanistan: Country = {
         pt: 'Afghanistan\'s national dish: aromatic rice with tender lamb, carrots, and raisins',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -981,6 +982,7 @@ export const afghanistan: Country = {
         pt: 'Creamy milk pudding flavored with cardamom and rose water, topped with pistachios',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',

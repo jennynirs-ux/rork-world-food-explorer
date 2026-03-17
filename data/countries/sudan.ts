@@ -576,6 +576,7 @@ export const sudan: Country = {
         pt: 'Slow-cooked fava beans seasoned with olive oil, garlic, cumin, and lemon, served with bread and toppings.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegan',
@@ -902,6 +903,7 @@ export const sudan: Country = {
         pt: 'Sweet semolina cake soaked in aromatic syrup, often topped with almonds or coconut.',
       },
       cookingTime: 55,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegetarian',

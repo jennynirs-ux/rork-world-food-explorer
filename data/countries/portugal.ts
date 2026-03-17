@@ -623,6 +623,7 @@ export const portugal: Country = {
         pt: 'Traditional Portuguese dish with shredded salt cod, crispy potatoes, onions, and eggs',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -960,6 +961,7 @@ export const portugal: Country = {
         pt: 'Iconic Portuguese custard tart with flaky pastry and creamy egg custard filling',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

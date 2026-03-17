@@ -536,6 +536,7 @@ export const oman: Country = {
         pt: 'Traditional Omani sweet made with rosewater and saffron',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 16,
       dietType: {
         en: 'vegetarian',
@@ -808,6 +809,7 @@ export const oman: Country = {
         pt: 'Slow-roasted spiced lamb wrapped in banana leaves',
       },
       cookingTime: 1440,
+      difficulty: 'hard',
       servings: 10,
       dietType: {
         en: 'meat',

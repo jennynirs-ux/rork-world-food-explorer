@@ -664,6 +664,7 @@ export const austria: Country = {
         pt: 'Austria\'s national dish - a thin, breaded, and pan-fried veal cutlet. Traditionally served with potato salad, cucumber salad, or parsley potatoes and a slice of lemon.',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -934,6 +935,7 @@ export const austria: Country = {
         pt: 'Famous Viennese chocolate cake with apricot jam filling, glazed with dark chocolate',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

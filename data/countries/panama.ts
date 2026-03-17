@@ -536,6 +536,7 @@ export const panama: Country = {
         pt: 'Sponge cake soaked in three types of milk',
       },
       cookingTime: 240,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -782,6 +783,7 @@ export const panama: Country = {
         pt: 'Traditional chicken soup with yuca and culantro',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',

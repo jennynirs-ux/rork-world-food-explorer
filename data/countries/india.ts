@@ -648,6 +648,7 @@ export const india: Country = {
         pt: 'Tender chicken in creamy tomato sauce with aromatic spices',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -971,6 +972,7 @@ export const india: Country = {
         pt: 'Sweet milk-solid dumplings soaked in rose-flavored sugar syrup',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

@@ -547,6 +547,7 @@ export const madagascar: Country = {
         pt: 'Sweet banana and peanut cake wrapped in banana leaves',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegan',
@@ -799,6 +800,7 @@ export const madagascar: Country = {
         pt: 'Traditional meat stew with leafy greens and ginger',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

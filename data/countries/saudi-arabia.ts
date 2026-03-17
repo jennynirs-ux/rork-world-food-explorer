@@ -653,6 +653,7 @@ export const saudiArabia: Country = {
         pt: 'Saudi Arabia\'s most iconic rice dish: long-grain rice cooked with aromatic spices and served with chicken or lamb.',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -1056,6 +1057,7 @@ export const saudiArabia: Country = {
         pt: 'Traditional shortbread-style cookies filled with date paste, often served with Arabic coffee.',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 18,
       dietType: {
         en: 'vegetarian',

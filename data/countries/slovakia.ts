@@ -653,6 +653,7 @@ export const slovakia: Country = {
         pt: 'Slovakia’s national favorite: soft potato dumplings tossed with tangy sheep cheese (bryndza) and topped with crispy bacon.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -910,6 +911,7 @@ export const slovakia: Country = {
         pt: 'Soft potato noodles tossed with butter, ground poppy seeds, and sugar—an old-school Slovak sweet comfort dessert.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',

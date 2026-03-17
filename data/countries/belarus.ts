@@ -629,6 +629,7 @@ export const belarus: Country = {
         pt: 'Belarusian potato pancakes: crisp edges, tender center, traditionally served with sour cream.',
       },
       cookingTime: 35,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -911,6 +912,7 @@ export const belarus: Country = {
         pt: 'Belarusian cottage cheese pancakes, lightly fried and served with sour cream and jam',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',

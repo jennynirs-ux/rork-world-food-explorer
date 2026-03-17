@@ -623,6 +623,7 @@ export const tunisia: Country = {
         pt: 'Traditional Tunisian couscous with lamb, vegetables, chickpeas, and harissa',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -964,6 +965,7 @@ export const tunisia: Country = {
         pt: 'Traditional Tunisian fried doughnuts, crispy outside and fluffy inside, often eaten hot with sugar.',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegetarian',

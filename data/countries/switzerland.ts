@@ -649,6 +649,7 @@ export const switzerland: Country = {
         pt: 'A communal dish of melted cheese enjoyed by dipping bread into the pot.',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -945,6 +946,7 @@ export const switzerland: Country = {
         pt: 'A classic Swiss layer cake from Zug made with airy nut meringue layers, buttercream, and a touch of kirsch (cherry spirit).',
       },
       cookingTime: 70,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegetarian',

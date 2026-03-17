@@ -294,6 +294,7 @@ export const israel: Country = {
         pt: 'Eggs poached in spiced tomato sauce',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -838,6 +839,7 @@ export const israel: Country = {
         pt: 'Sweet tahini-based confection with a crumbly, fudge-like texture',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 16,
       dietType: {
         en: 'vegan',

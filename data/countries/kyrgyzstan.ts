@@ -536,6 +536,7 @@ export const kyrgyzstan: Country = {
         pt: 'Honey-coated fried dough dessert, popular in Central Asia',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -756,6 +757,7 @@ export const kyrgyzstan: Country = {
         pt: 'Boiled meat with noodles and onions',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

@@ -511,6 +511,7 @@ export const palestine: Country = {
         pt: 'Nablus-style kanafeh with cheese and sugar syrup',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -793,6 +794,7 @@ export const palestine: Country = {
         pt: 'Roasted chicken with sumac and onions on taboon bread',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

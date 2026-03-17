@@ -658,6 +658,7 @@ export const belize: Country = {
         pt: 'National dish with coconut rice and beans',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -877,6 +878,7 @@ export const belize: Country = {
         pt: 'Traditional Belizean coconut candy squares, sweet and chewy',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

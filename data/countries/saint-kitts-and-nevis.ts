@@ -624,6 +624,7 @@ export const saintKittsAndNevis: Country = {
         pt: 'A Caribbean staple: salted cod simmered with tomatoes, peppers, onions, herbs, and a little heat. Often served with dumplings or johnny cakes.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -1007,6 +1008,7 @@ export const saintKittsAndNevis: Country = {
         pt: 'A simple Caribbean-style coconut tart with a sweet coconut filling and a lightly crisp pastry crust.',
       },
       cookingTime: 55,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

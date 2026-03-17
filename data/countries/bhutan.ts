@@ -673,6 +673,7 @@ export const bhutan: Country = {
         pt: 'National dish of chili peppers cooked in cheese sauce',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -949,6 +950,7 @@ export const bhutan: Country = {
         pt: 'Traditional Bhutanese deep-fried biscuits, often made during Losar (New Year)',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 30,
       dietType: {
         en: 'vegetarian',

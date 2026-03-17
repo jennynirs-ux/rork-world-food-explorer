@@ -475,6 +475,7 @@ export const lithuania: Country = {
         pt: 'Traditional tree cake with crispy branches, served at celebrations',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 16,
       dietType: {
         en: 'vegetarian',
@@ -881,6 +882,7 @@ export const lithuania: Country = {
         pt: 'Lithuania\'s national dish - large potato dumplings filled with meat, served with sour cream and bacon sauce',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',

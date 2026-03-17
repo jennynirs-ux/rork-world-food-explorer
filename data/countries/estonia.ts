@@ -562,6 +562,7 @@ export const estonia: Country = {
         pt: 'Traditional Estonian blood sausage served with mashed potatoes and barley, a Christmas favorite',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -819,6 +820,7 @@ export const estonia: Country = {
         pt: 'Traditional Estonian sweet bread with cinnamon and cardamom',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

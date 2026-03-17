@@ -634,6 +634,7 @@ export const bahamas: Country = {
         pt: 'The Bahamas\' signature dish - fresh raw conch mixed with diced vegetables, citrus juices, and hot peppers. It\'s refreshing, zesty, and typically served as an appetizer or light meal.',
       },
       cookingTime: 20,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -950,6 +951,7 @@ export const bahamas: Country = {
         pt: 'Traditional Bahamian dessert: guava rolled in dough, boiled, and served with sweet rum butter sauce',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

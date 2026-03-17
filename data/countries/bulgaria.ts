@@ -684,6 +684,7 @@ export const bulgaria: Country = {
         pt: 'Traditional Bulgarian pastry made with layers of filo dough filled with a mixture of eggs, white cheese, and yogurt. Often eaten for breakfast or as a snack.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',
@@ -989,6 +990,7 @@ export const bulgaria: Country = {
         pt: 'Rich Bulgarian chocolate walnut cake with chocolate ganache',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

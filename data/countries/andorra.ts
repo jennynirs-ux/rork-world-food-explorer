@@ -600,6 +600,7 @@ export const andorra: Country = {
         pt: 'Andorra’s most iconic winter comfort food: a slow-simmered meat-and-vegetable stew, traditionally served in two parts (broth with pasta first, then the meats and vegetables).',
       },
       cookingTime: 150,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -1123,6 +1124,7 @@ export const andorra: Country = {
         pt: 'Catalan-style crème brûlée with cinnamon and lemon zest, caramelized sugar on top',
       },
       cookingTime: 35,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

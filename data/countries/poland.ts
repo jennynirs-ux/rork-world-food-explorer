@@ -558,6 +558,7 @@ export const poland: Country = {
         pt: 'Dumplings filled with various ingredients, Poland\'s most iconic dish',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegetarian',
@@ -829,6 +830,7 @@ export const poland: Country = {
         pt: 'Dense, creamy cheesecake made with farmer cheese',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

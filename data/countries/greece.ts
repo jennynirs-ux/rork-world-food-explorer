@@ -648,6 +648,7 @@ export const greece: Country = {
         pt: 'Layered casserole with eggplant, spiced meat sauce, and creamy béchamel topping',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -971,6 +972,7 @@ export const greece: Country = {
         pt: 'Sweet pastry made of layers of phyllo filled with chopped nuts and honey',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 24,
       dietType: {
         en: 'vegetarian',

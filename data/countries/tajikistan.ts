@@ -624,6 +624,7 @@ export const tajikistan: Country = {
         pt: 'Traditional pilaf made with rice, meat, carrots, and spices',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -937,6 +938,7 @@ export const tajikistan: Country = {
         pt: 'A traditional Tajik sweet made from flour, oil, sugar, and nuts, often prepared for celebrations and guests.',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',

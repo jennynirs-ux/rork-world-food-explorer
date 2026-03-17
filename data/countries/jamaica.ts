@@ -533,6 +533,7 @@ export const jamaica: Country = {
         pt: 'Spicy grilled chicken marinated in Jamaica\'s famous jerk seasoning',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -872,6 +873,7 @@ export const jamaica: Country = {
         pt: 'Moist, rich cake soaked in rum syrup, a Jamaican favorite',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

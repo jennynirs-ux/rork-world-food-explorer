@@ -533,6 +533,7 @@ export const kenya: Country = {
         pt: 'Grilled meat, typically goat or beef, a beloved Kenyan dish often enjoyed socially',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -757,6 +758,7 @@ export const kenya: Country = {
         pt: 'Sweet fried dough, similar to donuts, often enjoyed with chai',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

@@ -624,6 +624,7 @@ export const ukraine: Country = {
         pt: 'Traditional Ukrainian dumplings filled with potato, cheese, cabbage, or fruit. Served with sour cream and fried onions.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegetarian',
@@ -936,6 +937,7 @@ export const ukraine: Country = {
         pt: 'Pan-fried Ukrainian cottage cheese pancakes, lightly sweet and often served with sour cream, jam, or honey.',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',

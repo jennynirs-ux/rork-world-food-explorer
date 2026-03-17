@@ -497,6 +497,7 @@ export const guinea: Country = {
         pt: 'Marinated chicken with onions and lemon',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -746,6 +747,7 @@ export const guinea: Country = {
         pt: 'Sweet bread pudding made with local tapalapa bread and coconut',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

@@ -624,6 +624,7 @@ export const saintVincentAndTheGrenadines: Country = {
         pt: 'A classic Vincentian comfort meal: smoky roasted breadfruit paired with crispy fried fish, lime, and pepper sauce.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -962,6 +963,7 @@ export const saintVincentAndTheGrenadines: Country = {
         pt: 'A lightly sweet coconut bread that can be served as a snack or dessert, often enjoyed with tea or fresh fruit.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

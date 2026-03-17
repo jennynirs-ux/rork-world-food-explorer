@@ -634,6 +634,7 @@ export const turkey: Country = {
         pt: 'Thinly sliced döner kebab over pita bread, topped with tomato sauce, melted butter, and yogurt',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -904,6 +905,7 @@ export const turkey: Country = {
         pt: 'Layers of flaky phyllo pastry filled with nuts and soaked in sweet syrup',
       },
       cookingTime: 75,
+      difficulty: 'medium',
       servings: 24,
       dietType: {
         en: 'vegetarian',

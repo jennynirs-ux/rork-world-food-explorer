@@ -583,6 +583,7 @@ export const zambia: Country = {
         pt: 'Zambia’s staple dish: thick maize porridge served with pumpkin leaves and groundnut sauce.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegan',
@@ -849,6 +850,7 @@ export const zambia: Country = {
         pt: 'Traditional fried maize and wheat fritters, lightly sweet and crispy on the outside.',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 10,
       dietType: {
         en: 'vegetarian',

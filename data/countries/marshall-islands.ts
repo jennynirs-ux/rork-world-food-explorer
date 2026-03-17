@@ -496,6 +496,7 @@ export const marshallIslands: Country = {
         pt: 'Sweet coconut treats, a Marshallese favorite',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 20,
       dietType: {
         en: 'vegan',
@@ -665,6 +666,7 @@ export const marshallIslands: Country = {
         pt: 'Baked coconut fish with rice',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',

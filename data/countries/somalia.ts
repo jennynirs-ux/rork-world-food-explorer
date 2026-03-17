@@ -586,6 +586,7 @@ export const somalia: Country = {
         pt: 'Somali spiced rice with meat and caramelized onions',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -928,6 +929,7 @@ export const somalia: Country = {
         pt: 'A rich, aromatic sweet made with sugar, spices, and nuts, often served at celebrations and special gatherings.',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 10,
       dietType: {
         en: 'vegetarian',

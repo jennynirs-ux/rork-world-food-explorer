@@ -608,6 +608,7 @@ export const zimbabwe: Country = {
         pt: 'Zimbabwe’s classic comfort meal: thick maize porridge served with savory beef and tomato-onion stew, plus leafy greens.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -889,6 +890,7 @@ export const zimbabwe: Country = {
         pt: 'A popular snack-style dessert: popcorn (maputi) coated lightly with sugar or enjoyed with roasted peanuts.',
       },
       cookingTime: 15,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegan',

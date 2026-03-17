@@ -673,6 +673,7 @@ export const cambodia: Country = {
         pt: 'Fish steamed in coconut curry custard with lemongrass',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -984,6 +985,7 @@ export const cambodia: Country = {
         pt: 'Grilled banana sticky rice cakes wrapped in banana leaves',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegan',

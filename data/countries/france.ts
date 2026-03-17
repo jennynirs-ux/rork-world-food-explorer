@@ -648,6 +648,7 @@ export const france: Country = {
         pt: 'Classic French dish of chicken braised in red wine with mushrooms, onions, and bacon',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -1001,6 +1002,7 @@ export const france: Country = {
         pt: 'Silky vanilla custard topped with caramelized sugar crust',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

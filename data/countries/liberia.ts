@@ -496,6 +496,7 @@ export const liberia: Country = {
         pt: 'Sweet peanut candy, a Liberian favorite',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 16,
       dietType: {
         en: 'vegan',
@@ -676,6 +677,7 @@ export const liberia: Country = {
         pt: 'Spiced rice with tomatoes and vegetables',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

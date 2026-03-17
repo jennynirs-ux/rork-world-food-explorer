@@ -649,6 +649,7 @@ export const romania: Country = {
         pt: 'Traditional Romanian cabbage rolls stuffed with a mixture of ground meat and rice, slow-cooked in tomato sauce. A festive dish served at celebrations and holidays.',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -993,6 +994,7 @@ export const romania: Country = {
         pt: 'Traditional sweet bread filled with walnut or cocoa paste, served at Christmas and Easter celebrations',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

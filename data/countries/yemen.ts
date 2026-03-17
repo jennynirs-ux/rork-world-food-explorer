@@ -623,6 +623,7 @@ export const yemen: Country = {
         pt: 'National dish of Yemen: a bubbling stew topped with whipped fenugreek foam (hulbah), served sizzling hot.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -902,6 +903,7 @@ export const yemen: Country = {
         pt: 'Traditional Yemeni honey cake made with thin layers of buttery dough and drizzled with honey.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

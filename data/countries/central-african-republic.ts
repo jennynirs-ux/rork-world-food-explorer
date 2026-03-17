@@ -634,6 +634,7 @@ export const centralAfricanRepublic: Country = {
         pt: 'Starchy dough served with rich peanut-based sauce',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegan',
@@ -863,6 +864,7 @@ export const centralAfricanRepublic: Country = {
         pt: 'Sweet fried dough balls, popular street food dessert',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

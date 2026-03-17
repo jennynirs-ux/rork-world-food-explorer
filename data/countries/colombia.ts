@@ -649,6 +649,7 @@ export const colombia: Country = {
         pt: 'Colombia\'s most famous dish from the Antioquia region - a hearty platter featuring beans, rice, ground beef, chorizo, fried egg, plantain, avocado, and arepa. It\'s a complete feast on one plate.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -976,6 +977,7 @@ export const colombia: Country = {
         pt: 'Thin crispy wafers filled with dulce de leche (arequipe), a beloved Colombian street food dessert',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',

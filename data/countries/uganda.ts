@@ -598,6 +598,7 @@ export const uganda: Country = {
         pt: 'Steamed and mashed green bananas traditionally cooked in banana leaves and served with groundnut sauce',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -909,6 +910,7 @@ export const uganda: Country = {
         pt: 'Simple sweet banana pancakes inspired by Uganda’s beloved “rolex” street-food style—served warm with banana and a light sprinkle of sugar.',
       },
       cookingTime: 25,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',

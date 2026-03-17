@@ -664,6 +664,7 @@ export const angola: Country = {
         pt: 'Angola’s national dish: chicken slowly simmered in red palm oil with vegetables, garlic, and chili, served with funge.',
       },
       cookingTime: 80,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -1058,6 +1059,7 @@ export const angola: Country = {
         pt: 'A dense coconut-and-egg custard dessert influenced by Portuguese traditions',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

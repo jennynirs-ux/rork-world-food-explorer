@@ -638,6 +638,7 @@ export const senegal: Country = {
         pt: 'Senegal\'s national dish: fish and rice simmered in a rich tomato-based sauce with vegetables and aromatic seasoning.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'fish',
@@ -1056,6 +1057,7 @@ export const senegal: Country = {
         pt: 'A popular Senegalese dessert: sweetened millet couscous mixed with creamy yogurt and often flavored with vanilla or nutmeg.',
       },
       cookingTime: 25,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',

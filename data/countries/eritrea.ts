@@ -474,6 +474,7 @@ export const eritrea: Country = {
         pt: 'Spicy beef stew served with injera',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -723,6 +724,7 @@ export const eritrea: Country = {
         pt: 'Sweet cardamom bread, often served during celebrations',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

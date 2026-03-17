@@ -576,6 +576,7 @@ export const southSudan: Country = {
         pt: 'Traditional fermented sorghum flatbread served with a thick okra and peanut stew.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -843,6 +844,7 @@ export const southSudan: Country = {
         pt: 'A simple, comforting porridge-like dish made from flour and water, often served with sweetened milk, honey, or a light date syrup.',
       },
       cookingTime: 25,
+      difficulty: 'easy',
       servings: 6,
       dietType: {
         en: 'vegetarian',

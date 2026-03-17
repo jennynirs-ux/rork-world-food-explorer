@@ -459,6 +459,7 @@ export const dominica: Country = {
         pt: 'Traditional soup with dasheen leaves and crab',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'fish',
@@ -668,6 +669,7 @@ export const dominica: Country = {
         pt: 'Sweet coconut candies with ginger and spices',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 20,
       dietType: {
         en: 'vegetarian',

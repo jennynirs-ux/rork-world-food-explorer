@@ -609,6 +609,7 @@ export const vietnam: Country = {
         pt: 'Iconic Vietnamese noodle soup with aromatic beef broth, rice noodles, herbs, and thinly sliced beef.',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -976,6 +977,7 @@ export const vietnam: Country = {
         pt: 'Traditional Vietnamese banana dessert with tapioca pearls and coconut milk.',
       },
       cookingTime: 35,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegetarian',

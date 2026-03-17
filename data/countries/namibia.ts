@@ -522,6 +522,7 @@ export const namibia: Country = {
         pt: 'Milk tart with cinnamon, a South African-Namibian favorite',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -783,6 +784,7 @@ export const namibia: Country = {
         pt: 'Traditional three-legged pot stew with meat and vegetables',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',

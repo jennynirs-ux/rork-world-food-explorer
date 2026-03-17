@@ -508,6 +508,7 @@ export const georgia: Country = {
         pt: 'Cheese-filled bread boat topped with egg and butter',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -717,6 +718,7 @@ export const georgia: Country = {
         pt: 'Traditional Georgian candy: walnuts threaded on string and dipped in grape must',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 10,
       dietType: {
         en: 'vegan',

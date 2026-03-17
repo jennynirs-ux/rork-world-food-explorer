@@ -3,6 +3,27 @@ import { LucideIcon } from 'lucide-react-native';
 export type DietType = 'meat' | 'fish' | 'vegetarian' | 'vegan';
 export type TranslatedDietType = DietType | { en: string; sv?: string; es?: string; fr?: string; de?: string };
 
+export type NutritionInfo = {
+  caloriesPerServing: number;
+  protein: number;   // grams per serving
+  carbs: number;     // grams per serving
+  fat: number;       // grams per serving
+  fiber?: number;    // grams per serving
+};
+
+export type IngredientSubstitution = {
+  name: TranslatedString;
+  ratio: number;        // amount multiplier (1.0 = same amount)
+  note?: TranslatedString;  // e.g. "for dairy-free version"
+};
+
+export type RecipeIngredient = {
+  name: TranslatedString;
+  amount: number;
+  unit: TranslatedString;
+  substitutions?: IngredientSubstitution[];
+};
+
 export type Recipe = {
   id: string;
   name: TranslatedString;
@@ -11,11 +32,8 @@ export type Recipe = {
   servings: number;
   dietType: TranslatedDietType;
   difficulty?: 'easy' | 'medium' | 'hard';
-  ingredients: {
-    name: TranslatedString;
-    amount: number;
-    unit: TranslatedString;
-  }[];
+  nutrition?: NutritionInfo;
+  ingredients: RecipeIngredient[];
   steps: TranslatedString[];
   imageUrl?: string;
 };
@@ -161,6 +179,12 @@ export type UserProfile = {
   referralCount?: number;
   freeMonthsEarned?: number;
   purchasedProducts?: string[];
+  skillLevel?: 'beginner' | 'intermediate' | 'advanced';
+  recipesCompletedByDifficulty?: {
+    easy: number;
+    medium: number;
+    hard: number;
+  };
 };
 
 export type CookingNote = {

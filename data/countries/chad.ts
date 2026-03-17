@@ -634,6 +634,7 @@ export const chad: Country = {
         pt: 'Millet or sorghum porridge served with sauce',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',
@@ -863,6 +864,7 @@ export const chad: Country = {
         pt: 'Sweet bean dessert with coconut, popular in southern Chad',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

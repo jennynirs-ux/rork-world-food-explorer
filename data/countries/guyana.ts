@@ -512,6 +512,7 @@ export const guyana: Country = {
         pt: 'Traditional Amerindian stew with cassareep',
       },
       cookingTime: 180,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'meat',
@@ -751,6 +752,7 @@ export const guyana: Country = {
         pt: 'Sweet cassava cake with coconut and spices',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegan',

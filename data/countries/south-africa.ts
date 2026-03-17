@@ -555,6 +555,7 @@ export const southAfrica: Country = {
         pt: 'A traditional Cape Malay dish of spiced minced meat baked with a savory egg custard topping.',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -938,6 +939,7 @@ export const southAfrica: Country = {
         pt: 'A classic South African sponge pudding soaked in warm cream sauce.',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 8,
       dietType: {
         en: 'vegetarian',

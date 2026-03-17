@@ -496,6 +496,7 @@ export const niger: Country = {
         pt: 'Sweet fried dough, French-influenced Nigerien treat',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 16,
       dietType: {
         en: 'vegetarian',
@@ -731,6 +732,7 @@ export const niger: Country = {
         pt: 'Steamed millet couscous with vegetables',
       },
       cookingTime: 60,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

@@ -649,6 +649,7 @@ export const thailand: Country = {
         pt: 'Thailand\'s famous stir-fried rice noodles with shrimp, tofu, peanuts, and tamarind',
       },
       cookingTime: 30,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'fish',
@@ -992,6 +993,7 @@ export const thailand: Country = {
         pt: 'Sweet coconut sticky rice served with fresh ripe mango',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'vegan',

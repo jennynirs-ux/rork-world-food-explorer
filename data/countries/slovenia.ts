@@ -638,6 +638,7 @@ export const slovenia: Country = {
         pt: 'Traditional Slovenian sausage from the Carniola region, made with pork and protected by EU geographical indication. Served with mustard, horseradish, and dark bread.',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -903,6 +904,7 @@ export const slovenia: Country = {
         pt: 'A beloved Slovenian rolled pastry, traditionally filled with walnuts (or poppy seed) and served on holidays and special occasions.',
       },
       cookingTime: 120,
+      difficulty: 'hard',
       servings: 10,
       dietType: {
         en: 'vegetarian',

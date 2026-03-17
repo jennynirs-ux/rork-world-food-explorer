@@ -649,6 +649,7 @@ export const russia: Country = {
         pt: 'Traditional beetroot soup that\'s a staple of Russian cuisine. Rich, hearty, and vibrant red in color, typically served with sour cream and dark bread.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -1069,6 +1070,7 @@ export const russia: Country = {
         pt: 'Classic Russian layered honey cake with sour cream frosting, a beloved traditional dessert',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 12,
       dietType: {
         en: 'vegetarian',

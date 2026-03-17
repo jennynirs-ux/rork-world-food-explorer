@@ -602,6 +602,7 @@ export const vaticanCity: Country = {
         pt: 'Classic Roman pasta with Pecorino Romano and black pepper',
       },
       cookingTime: 20,
+      difficulty: 'easy',
       servings: 4,
       dietType: {
         en: 'vegetarian',
@@ -829,6 +830,7 @@ export const vaticanCity: Country = {
         pt: 'Soft sweet buns split and filled with lightly sweetened whipped cream—an iconic Roman pastry often enjoyed with espresso.',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 8,
       dietType: {
         en: 'vegetarian',

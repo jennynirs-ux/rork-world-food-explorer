@@ -533,6 +533,7 @@ export const ghana: Country = {
         pt: 'Rice and beans cooked with sorghum leaves, served with various sides',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
@@ -732,6 +733,7 @@ export const ghana: Country = {
         pt: 'Sweet fried dough similar to donuts, popular breakfast or snack',
       },
       cookingTime: 50,
+      difficulty: 'medium',
       servings: 15,
       dietType: {
         en: 'vegetarian',

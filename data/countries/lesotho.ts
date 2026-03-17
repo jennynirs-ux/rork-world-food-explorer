@@ -496,6 +496,7 @@ export const lesotho: Country = {
         pt: 'Sweet dough fritters, a Basotho treat',
       },
       cookingTime: 30,
+      difficulty: 'easy',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -716,6 +717,7 @@ export const lesotho: Country = {
         pt: 'Maize porridge with wild spinach',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 6,
       dietType: {
         en: 'vegan',

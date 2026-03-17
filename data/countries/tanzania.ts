@@ -668,6 +668,7 @@ export const tanzania: Country = {
         pt: 'Charcoal-grilled meat served with firm maize porridge (ugali) and fresh kachumbari salad',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 4,
       dietType: {
         en: 'meat',
@@ -1054,6 +1055,7 @@ export const tanzania: Country = {
         pt: 'East African coconut doughnuts—lightly sweet, gently spiced, and perfect with chai.',
       },
       cookingTime: 40,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',

@@ -511,6 +511,7 @@ export const kuwait: Country = {
         pt: 'Traditional Kuwaiti sponge cake flavored with saffron and cardamom',
       },
       cookingTime: 45,
+      difficulty: 'medium',
       servings: 12,
       dietType: {
         en: 'vegetarian',
@@ -782,6 +783,7 @@ export const kuwait: Country = {
         pt: 'Spiced rice with meat or fish',
       },
       cookingTime: 90,
+      difficulty: 'hard',
       servings: 6,
       dietType: {
         en: 'meat',
