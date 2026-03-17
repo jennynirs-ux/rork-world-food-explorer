@@ -1,8 +1,10 @@
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { Trophy, Flame, Award as AwardIcon, Globe } from 'lucide-react-native';
+import { Trophy, Flame, Award as AwardIcon, Globe, Share2 } from 'lucide-react-native';
+import { shareProgress } from '@/lib/share';
+import { hapticLight } from '@/lib/haptics';
 
 export default function ProgressScreen() {
   const { stats, badges, userProfile } = useApp();
@@ -11,11 +13,28 @@ export default function ProgressScreen() {
   const earnedBadges = badges.filter(b => b.earned);
   const unearnedBadges = badges.filter(b => !b.earned);
 
+  const handleShare = () => {
+    hapticLight();
+    void shareProgress({
+      visitedCountries: stats.visitedCountries,
+      totalCountries: stats.totalCountries,
+      dishesCooked: stats.cookedDishes,
+      quizzesDone: stats.completedQuizzes,
+      totalPoints: userProfile.totalPoints,
+      dayStreak: userProfile.currentStreak || 0,
+    });
+  };
+
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
-          <Text style={styles.title}>{t.progress.title}</Text>
+          <View style={styles.headerRow}>
+            <Text style={styles.title}>{t.progress.title}</Text>
+            <TouchableOpacity style={styles.shareHeaderButton} onPress={handleShare}>
+              <Share2 size={20} color="#FF6B35" />
+            </TouchableOpacity>
+          </View>
           <View style={styles.pointsContainer}>
             <Text style={styles.pointsValue}>{userProfile.totalPoints}</Text>
             <Text style={styles.pointsLabel}>{t.progress.totalPoints}</Text>
@@ -138,11 +157,26 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 16,
   },
+  headerRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
   title: {
     fontSize: 32,
     fontWeight: '700' as const,
     color: '#2D1B00',
-    marginBottom: 16,
+  },
+  shareHeaderButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: '#FFF',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1.5,
+    borderColor: '#FF6B35',
   },
   pointsContainer: {
     backgroundColor: '#FF6B35',

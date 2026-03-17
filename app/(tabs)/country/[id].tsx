@@ -13,7 +13,8 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useState, useEffect, useMemo } from 'react';
 import { useApp } from '@/contexts/AppContext';
 import { isCountryAccessible } from '@/lib/access-control';
-import { hapticSuccess, hapticError, hapticMedium, hapticSelection } from '@/lib/haptics';
+import { hapticSuccess, hapticError, hapticMedium, hapticSelection, hapticLight } from '@/lib/haptics';
+import { shareRecipe, shareCookedIt } from '@/lib/share';
 import { trackPositiveAction } from '@/lib/rating';
 import Paywall from '@/components/Paywall';
 import CookingMode from '@/components/CookingMode';
@@ -49,7 +50,8 @@ import {
   Lightbulb,
   Globe,
   Maximize,
-  Lock
+  Lock,
+  Share2
 } from 'lucide-react-native';
 
 export default function CountryDetailScreen() {
@@ -232,6 +234,19 @@ export default function CountryDetailScreen() {
       setShowMainDishRating(false);
     }
     Alert.alert(t.country.ratingSaved, t.country.ratedStars.replace('{rating}', rating.toString()));
+  };
+
+  const handleShareRecipe = (isDessert: boolean) => {
+    hapticLight();
+    const recipe = isDessert ? country.dessert : country.mainDish;
+    if (!recipe || !countryData) return;
+    void shareRecipe(countryData, recipe, isDessert, lang);
+  };
+
+  const handleShareCookedPhoto = (recipeName: string, photoUri?: string) => {
+    hapticLight();
+    if (!countryData) return;
+    void shareCookedIt(countryData, recipeName, photoUri, lang);
   };
 
   const handleNextCountry = () => {
@@ -695,6 +710,14 @@ export default function CountryDetailScreen() {
                   </Text>
                 </TouchableOpacity>
 
+                <TouchableOpacity
+                  style={styles.shareButton}
+                  onPress={() => handleShareRecipe(false)}
+                >
+                  <Share2 size={18} color={colors.terracotta} />
+                  <Text style={styles.shareButtonText}>Share Recipe</Text>
+                </TouchableOpacity>
+
                 {progress.mainDishCooked && (
                   <View style={styles.ratingSection}>
                     {!showMainDishRating && progress.mainDishRating ? (
@@ -739,6 +762,7 @@ export default function CountryDetailScreen() {
                   recipeId={country.mainDish.id}
                   isDessert={false}
                   isCooked={progress.mainDishCooked}
+                  onSharePhoto={(uri) => handleShareCookedPhoto(String(country.mainDish.name), uri)}
                 />
               </View>
             </View>
@@ -840,6 +864,16 @@ export default function CountryDetailScreen() {
                     </TouchableOpacity>
                   )}
 
+                  {country.dessert && (
+                    <TouchableOpacity
+                      style={styles.shareButton}
+                      onPress={() => handleShareRecipe(true)}
+                    >
+                      <Share2 size={18} color={colors.terracotta} />
+                      <Text style={styles.shareButtonText}>Share Recipe</Text>
+                    </TouchableOpacity>
+                  )}
+
                   {progress.dessertCooked && country.dessert && (
                     <View style={styles.ratingSection}>
                       {!showDessertRating && progress.dessertRating ? (
@@ -885,6 +919,7 @@ export default function CountryDetailScreen() {
                       recipeId={country.dessert.id}
                       isDessert={true}
                       isCooked={progress.dessertCooked}
+                      onSharePhoto={(uri) => handleShareCookedPhoto(String(country.dessert!.name), uri)}
                     />
                   )}
                 </View>
@@ -1954,5 +1989,22 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 24,
     marginBottom: 32,
+  },
+  shareButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    paddingVertical: 10,
+    marginTop: 8,
+    borderRadius: 12,
+    borderWidth: 1.5,
+    borderColor: colors.border,
+    backgroundColor: colors.surface,
+  },
+  shareButtonText: {
+    fontSize: 15,
+    fontWeight: '500' as const,
+    color: colors.terracotta,
   },
 });

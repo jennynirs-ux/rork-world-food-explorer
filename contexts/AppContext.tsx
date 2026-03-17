@@ -9,6 +9,7 @@ import { translateContent } from '@/lib/translate-content';
 import { configurePurchases, getCustomerInfo } from '@/lib/purchases';
 import { filterValidCountries } from '@/lib/validate-country';
 import { initializeNotifications } from '@/lib/notifications';
+import { cache } from '@/lib/cache';
 
 const STORAGE_KEYS = {
   USER_PROFILE: '@world_cooking_user_profile',
@@ -61,9 +62,27 @@ export const [AppProvider, useApp] = createContextHook(() => {
 
   const bulkUpdateMutation = trpc.countries.bulkUpdate.useMutation();
 
+  // Load cached countries on startup for offline-first experience
+  useEffect(() => {
+    const loadCachedCountries = async () => {
+      try {
+        const cached = await cache.get<typeof localCountries>('countries');
+        if (cached && cached.length > 0) {
+          setCountries(filterValidCountries(cached));
+        }
+      } catch {
+        /* non-fatal — will fall through to local data */
+      }
+    };
+    void loadCachedCountries();
+  }, []);
+
+  // When fresh data arrives from network, update state and cache
   useEffect(() => {
     if (countriesQuery.data && countriesQuery.data.length > 0) {
-      setCountries(filterValidCountries(countriesQuery.data));
+      const validated = filterValidCountries(countriesQuery.data);
+      setCountries(validated);
+      void cache.set('countries', countriesQuery.data);
     }
   }, [countriesQuery.data]);
 

@@ -9,7 +9,7 @@ import {
   Dimensions,
   Alert,
 } from 'react-native';
-import { Camera, ImagePlus, X, Trash2 } from 'lucide-react-native';
+import { Camera, ImagePlus, X, Trash2, Share2 } from 'lucide-react-native';
 import {
   CookedPhoto,
   getPhotosForRecipe,
@@ -27,6 +27,7 @@ interface CookedPhotoGalleryProps {
   recipeId: string;
   isDessert: boolean;
   isCooked: boolean;
+  onSharePhoto?: (photoUri: string) => void;
 }
 
 export default function CookedPhotoGallery({
@@ -34,6 +35,7 @@ export default function CookedPhotoGallery({
   recipeId,
   isDessert,
   isCooked,
+  onSharePhoto,
 }: CookedPhotoGalleryProps) {
   const [photos, setPhotos] = useState<CookedPhoto[]>([]);
   const [selectedPhoto, setSelectedPhoto] = useState<CookedPhoto | null>(null);
@@ -137,12 +139,27 @@ export default function CookedPhotoGallery({
             <Text style={styles.modalDate}>
               {selectedPhoto ? formatDate(selectedPhoto.timestamp) : ''}
             </Text>
-            <TouchableOpacity
-              style={styles.modalDelete}
-              onPress={() => selectedPhoto && handleDeletePhoto(selectedPhoto)}
-            >
-              <Trash2 size={22} color="#EF4444" />
-            </TouchableOpacity>
+            <View style={styles.modalActions}>
+              {onSharePhoto && (
+                <TouchableOpacity
+                  style={styles.modalAction}
+                  onPress={() => {
+                    if (selectedPhoto) {
+                      hapticLight();
+                      onSharePhoto(selectedPhoto.uri);
+                    }
+                  }}
+                >
+                  <Share2 size={22} color="#60A5FA" />
+                </TouchableOpacity>
+              )}
+              <TouchableOpacity
+                style={styles.modalAction}
+                onPress={() => selectedPhoto && handleDeletePhoto(selectedPhoto)}
+              >
+                <Trash2 size={22} color="#EF4444" />
+              </TouchableOpacity>
+            </View>
           </View>
           {selectedPhoto && (
             <Image
@@ -242,7 +259,11 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '500' as const,
   },
-  modalDelete: {
+  modalActions: {
+    flexDirection: 'row',
+    gap: 4,
+  },
+  modalAction: {
     width: 44,
     height: 44,
     alignItems: 'center',
