@@ -9,6 +9,7 @@ import { hapticLight } from '@/lib/haptics';
 import { seasonalCollections } from '@/data/seasonal-collections';
 import { regionalVariations } from '@/data/regional-variations';
 import RegionalVariations from '@/components/RegionalVariations';
+import EndangeredDishes from '@/components/EndangeredDishes';
 import colors from '@/constants/colors';
 
 export default function CollectionsScreen() {
@@ -16,7 +17,7 @@ export default function CollectionsScreen() {
   const { countries, userProfile } = useApp();
   const lang = userProfile.language || 'en';
 
-  const [activeTab, setActiveTab] = useState<'seasonal' | 'regional'>('seasonal');
+  const [activeTab, setActiveTab] = useState<'seasonal' | 'regional' | 'endangered'>('seasonal');
 
   const currentMonth = new Date().getMonth() + 1;
 
@@ -64,6 +65,17 @@ export default function CollectionsScreen() {
         >
           <Text style={[styles.tabText, activeTab === 'regional' && styles.tabTextActive]}>
             Regional
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.tab, activeTab === 'endangered' && styles.tabActive]}
+          onPress={() => {
+            hapticLight();
+            setActiveTab('endangered');
+          }}
+        >
+          <Text style={[styles.tabText, activeTab === 'endangered' && styles.tabTextActive]}>
+            Heritage
           </Text>
         </TouchableOpacity>
       </View>
@@ -130,6 +142,16 @@ export default function CollectionsScreen() {
           <View style={styles.section}>
             <RegionalVariations
               variations={regionalVariations}
+              countries={countries}
+              lang={lang}
+              onCountryPress={navigateToCountry}
+            />
+          </View>
+        )}
+
+        {activeTab === 'endangered' && (
+          <View style={styles.section}>
+            <EndangeredDishes
               countries={countries}
               lang={lang}
               onCountryPress={navigateToCountry}

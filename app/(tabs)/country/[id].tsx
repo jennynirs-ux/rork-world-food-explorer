@@ -26,6 +26,7 @@ import DifficultyBadge from '@/components/DifficultyBadge';
 import IngredientSubstitutions from '@/components/IngredientSubstitutions';
 import RegionalVariations from '@/components/RegionalVariations';
 import { regionalVariations } from '@/data/regional-variations';
+import { trackEvent, EVENTS } from '@/lib/analytics';
 import { useTranslation } from '@/lib/i18n';
 import { useTranslatedCountry } from '@/lib/use-translated-country';
 import { translateContent } from '@/lib/translate-content';
@@ -117,6 +118,9 @@ export default function CountryDetailScreen() {
     if (country && progress && !progress.visited) {
       void updateCountryProgress(country.id, { visited: true, visitedDate: new Date().toISOString() }, 0);
     }
+    if (country) {
+      void trackEvent(EVENTS.COUNTRY_VIEWED, { countryId: country.id });
+    }
   }, [country, progress, updateCountryProgress]);
 
   useEffect(() => {
@@ -178,6 +182,8 @@ export default function CountryDetailScreen() {
     hapticSuccess();
     const field = isDessert ? 'dessertCooked' : 'mainDishCooked';
     const points = isDessert ? 15 : 30;
+
+    void trackEvent(EVENTS.RECIPE_COOKED, { countryId: country.id, isDessert });
 
     // Track difficulty for skill progression
     const recipe = isDessert ? countryData?.dessert : countryData?.mainDish;
