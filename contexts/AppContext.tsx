@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import createContextHook from '@nkzw/create-context-hook';
-import { CountryProgress, UserProfile, ShoppingListItem, Badge, FavoriteRecipe } from '@/types';
+import { CountryProgress, UserProfile, ShoppingListItem, Badge, FavoriteRecipe, MealPlan } from '@/types';
 import { countries as localCountries } from '@/data/countries';
 import { allBadges } from '@/data/badges';
 import { trpc } from '@/lib/trpc';
@@ -39,6 +39,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     allBadges.map(b => ({ ...b, earned: false }))
   );
   const [favoriteRecipes, setFavoriteRecipes] = useState<FavoriteRecipe[]>([]);
+  const [mealPlans, setMealPlans] = useState<MealPlan[]>([]);
   const [countries, setCountries] = useState(localCountries);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -118,12 +119,13 @@ export const [AppProvider, useApp] = createContextHook(() => {
     };
     const loadData = async () => {
       try {
-        const [profileData, progressData, shoppingData, badgesData, favoritesData] = await Promise.all([
+        const [profileData, progressData, shoppingData, badgesData, favoritesData, mealPlanData] = await Promise.all([
           AsyncStorage.getItem(STORAGE_KEYS.USER_PROFILE),
           AsyncStorage.getItem(STORAGE_KEYS.COUNTRY_PROGRESS),
           AsyncStorage.getItem(STORAGE_KEYS.SHOPPING_LIST),
           AsyncStorage.getItem(STORAGE_KEYS.BADGES),
           AsyncStorage.getItem(STORAGE_KEYS.FAVORITE_RECIPES),
+          AsyncStorage.getItem(STORAGE_KEYS.MEAL_PLANS),
         ]);
 
         if (profileData) {
@@ -133,6 +135,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
         if (progressData) setCountryProgress(JSON.parse(progressData));
         if (shoppingData) setShoppingList(JSON.parse(shoppingData));
         if (favoritesData) setFavoriteRecipes(JSON.parse(favoritesData));
+        if (mealPlanData) setMealPlans(JSON.parse(mealPlanData));
         if (badgesData) {
           const loadedBadges = JSON.parse(badgesData);
           const badgesWithIcons = loadedBadges.map((savedBadge: Badge) => {
@@ -544,6 +547,46 @@ export const [AppProvider, useApp] = createContextHook(() => {
     return (userProfile.purchasedProducts || []).includes(productId);
   }, [userProfile.purchasedProducts]);
 
+  const addMealPlan = useCallback((plan: MealPlan) => {
+    setMealPlans(prev => {
+      // Replace if same date + mealType already exists
+      const filtered = prev.filter(
+        p => !(p.date === plan.date && p.mealType === plan.mealType),
+      );
+      const updated = [...filtered, plan];
+      void AsyncStorage.setItem(STORAGE_KEYS.MEAL_PLANS, JSON.stringify(updated));
+      return updated;
+    });
+  }, []);
+
+  const removeMealPlan = useCallback((planId: string) => {
+    setMealPlans(prev => {
+      const updated = prev.filter(p => p.id !== planId);
+      void AsyncStorage.setItem(STORAGE_KEYS.MEAL_PLANS, JSON.stringify(updated));
+      return updated;
+    });
+  }, []);
+
+  const getMealPlansForDate = useCallback((date: string): MealPlan[] => {
+    return mealPlans.filter(p => p.date === date);
+  }, [mealPlans]);
+
+  const addMealPlanToShoppingList = useCallback((plan: MealPlan) => {
+    const c = countries.find(cn => cn.id === plan.countryId);
+    if (!c) return;
+    const recipe = plan.recipeId.endsWith('-dessert') ? c.dessert : c.mainDish;
+    if (!recipe) return;
+
+    const scaledIngredients = recipe.ingredients.map(ing => ({
+      name: typeof ing.name === 'string' ? ing.name : ing.name.en,
+      amount: ing.amount,
+      unit: typeof ing.unit === 'string' ? ing.unit : ing.unit.en,
+    }));
+
+    const countryName = typeof c.name === 'string' ? c.name : c.name.en;
+    addToShoppingList(scaledIngredients, c.id, countryName);
+  }, [countries, addToShoppingList]);
+
   const trackDifficultyCooked = useCallback((difficulty: 'easy' | 'medium' | 'hard') => {
     setUserProfile(prev => {
       const current = prev.recipesCompletedByDifficulty || { easy: 0, medium: 0, hard: 0 };
@@ -589,12 +632,18 @@ export const [AppProvider, useApp] = createContextHook(() => {
     purchaseProduct,
     hasPurchasedProduct,
     trackDifficultyCooked,
+    mealPlans,
+    addMealPlan,
+    removeMealPlan,
+    getMealPlansForDate,
+    addMealPlanToShoppingList,
   }), [
     userProfile,
     countryProgress,
     shoppingList,
     badges,
     favoriteRecipes,
+    mealPlans,
     countries,
     stats,
     isLoading,
@@ -620,5 +669,9 @@ export const [AppProvider, useApp] = createContextHook(() => {
     purchaseProduct,
     hasPurchasedProduct,
     trackDifficultyCooked,
+    addMealPlan,
+    removeMealPlan,
+    getMealPlansForDate,
+    addMealPlanToShoppingList,
   ]);
 });
