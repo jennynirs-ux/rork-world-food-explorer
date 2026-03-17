@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { ArrowLeft } from 'lucide-react-native';
+import { ArrowLeft, Moon, Flame, Wheat, Sparkles, Snowflake, Store, Soup, Leaf, Flower2, Star, MapPin } from 'lucide-react-native';
 import { useApp } from '@/contexts/AppContext';
 import { translateContent } from '@/lib/translate-content';
 import { hapticLight } from '@/lib/haptics';
@@ -11,6 +11,19 @@ import { regionalVariations } from '@/data/regional-variations';
 import RegionalVariations from '@/components/RegionalVariations';
 import EndangeredDishes from '@/components/EndangeredDishes';
 import colors from '@/constants/colors';
+
+const ICON_MAP: Record<string, React.ComponentType<any>> = {
+  star: Star,
+  moon: Moon,
+  flower2: Flower2,
+  flame: Flame,
+  wheat: Wheat,
+  sparkles: Sparkles,
+  snowflake: Snowflake,
+  store: Store,
+  soup: Soup,
+  leaf: Leaf,
+};
 
 export default function CollectionsScreen() {
   const router = useRouter();
@@ -92,7 +105,12 @@ export default function CollectionsScreen() {
               return (
                 <View key={collection.id} style={styles.collectionCard}>
                   <View style={styles.collectionHeader}>
-                    <Text style={styles.emoji}>{collection.emoji}</Text>
+                    <View style={styles.iconContainer}>
+                      {(() => {
+                        const IconComp = ICON_MAP[collection.icon];
+                        return IconComp ? <IconComp size={24} color={colors.terracotta} /> : <MapPin size={24} color={colors.terracotta} />;
+                      })()}
+                    </View>
                     <View style={styles.collectionTitleArea}>
                       <View style={styles.collectionTitleRow}>
                         <Text style={styles.collectionName}>
@@ -124,7 +142,7 @@ export default function CollectionsScreen() {
                           style={styles.countryChip}
                           onPress={() => navigateToCountry(c.id)}
                         >
-                          <Text style={styles.chipFlag}>{c.flag}</Text>
+                          <MapPin size={14} color={colors.sage} />
                           <Text style={styles.chipName} numberOfLines={1}>
                             {translateContent(c.name, lang)}
                           </Text>
@@ -230,8 +248,13 @@ const styles = StyleSheet.create({
     gap: 12,
     marginBottom: 12,
   },
-  emoji: {
-    fontSize: 36,
+  iconContainer: {
+    width: 44,
+    height: 44,
+    borderRadius: 12,
+    backgroundColor: colors.background,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   collectionTitleArea: {
     flex: 1,
@@ -278,9 +301,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 8,
     borderRadius: 20,
-  },
-  chipFlag: {
-    fontSize: 18,
   },
   chipName: {
     fontSize: 13,

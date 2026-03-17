@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { AlertTriangle } from 'lucide-react-native';
+import { AlertTriangle, MapPin } from 'lucide-react-native';
 import { endangeredDishes, EndangeredDish } from '@/data/endangered-dishes';
 import { translateContent } from '@/lib/translate-content';
 import { Country } from '@/types';
@@ -42,9 +42,6 @@ export default function EndangeredDishesSection({
       </Text>
 
       {endangeredDishes.map(dish => {
-        const c = countries.find(cn => cn.id === dish.countryId);
-        const flag = c?.flag || '🌍';
-
         return (
           <TouchableOpacity
             key={dish.id}
@@ -54,7 +51,9 @@ export default function EndangeredDishesSection({
             disabled={!onCountryPress}
           >
             <View style={styles.cardHeader}>
-              <Text style={styles.flag}>{flag}</Text>
+              <View style={styles.flagIcon}>
+                <MapPin size={20} color={colors.terracotta} />
+              </View>
               <View style={styles.cardTitleArea}>
                 <Text style={styles.dishName}>
                   {translateContent(dish.name, lang)}
@@ -123,8 +122,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 10,
   },
-  flag: {
-    fontSize: 28,
+  flagIcon: {
+    width: 36,
+    height: 36,
+    borderRadius: 10,
+    backgroundColor: colors.background,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   cardTitleArea: {
     flex: 1,

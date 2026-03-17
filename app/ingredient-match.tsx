@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { ArrowLeft, Plus, X, Search, Clock } from 'lucide-react-native';
+import { ArrowLeft, Plus, X, Search, Clock, MapPin } from 'lucide-react-native';
 import { useApp } from '@/contexts/AppContext';
 import { translateContent } from '@/lib/translate-content';
 import { hapticLight, hapticSuccess } from '@/lib/haptics';
@@ -156,7 +156,9 @@ export default function IngredientMatchScreen() {
                   onPress={() => navigateToRecipe(match)}
                   activeOpacity={0.7}
                 >
-                  <Text style={styles.resultFlag}>{match.countryFlag}</Text>
+                  <View style={styles.resultIcon}>
+                    <MapPin size={20} color={colors.terracotta} />
+                  </View>
                   <View style={styles.resultInfo}>
                     <Text style={styles.resultName} numberOfLines={1}>
                       {recipeName}
@@ -324,8 +326,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.border,
   },
-  resultFlag: {
-    fontSize: 32,
+  resultIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: 12,
+    backgroundColor: colors.background,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   resultInfo: {
     flex: 1,

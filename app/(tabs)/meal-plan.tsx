@@ -17,6 +17,7 @@ import {
   ShoppingCart,
   Share2,
   CalendarDays,
+  MapPin,
 } from 'lucide-react-native';
 import { useApp } from '@/contexts/AppContext';
 import { translateContent } from '@/lib/translate-content';
@@ -97,14 +98,14 @@ export default function MealPlanScreen() {
       const countryName = translateContent(c.name, lang);
       const mainName = translateContent(c.mainDish.name, lang);
       items.push({
-        label: `${c.flag} ${mainName} (${countryName})`,
+        label: `${mainName} (${countryName})`,
         countryId: c.id,
         recipeId: c.mainDish.id,
       });
       if (c.dessert && mealType === 'dessert') {
         const dessertName = translateContent(c.dessert.name, lang);
         items.push({
-          label: `${c.flag} ${dessertName} (${countryName})`,
+          label: `${dessertName} (${countryName})`,
           countryId: c.id,
           recipeId: c.dessert.id,
         });
@@ -181,7 +182,7 @@ export default function MealPlanScreen() {
         const recipe = plan.recipeId.endsWith('-dessert') ? c.dessert : c.mainDish;
         if (!recipe) continue;
         const recipeName = translateContent(recipe.name, lang);
-        text += `  ${plan.mealType}: ${c.flag} ${recipeName}\n`;
+        text += `  ${plan.mealType}: ${recipeName} (${translateContent(c.name, lang)})\n`;
       }
       text += '\n';
     }
@@ -232,7 +233,6 @@ export default function MealPlanScreen() {
     return {
       name: translateContent(recipe.name, lang),
       countryName: translateContent(c.name, lang),
-      flag: c.flag,
       cookingTime: recipe.cookingTime,
     };
   };
@@ -330,7 +330,9 @@ export default function MealPlanScreen() {
               </Text>
               {plan && info ? (
                 <View style={styles.mealCard}>
-                  <Text style={styles.mealFlag}>{info.flag}</Text>
+                  <View style={styles.mealIcon}>
+                    <MapPin size={18} color={colors.terracotta} />
+                  </View>
                   <View style={styles.mealInfo}>
                     <Text style={styles.mealName} numberOfLines={1}>
                       {info.name}
@@ -512,8 +514,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.border,
   },
-  mealFlag: {
-    fontSize: 28,
+  mealIcon: {
+    width: 36,
+    height: 36,
+    borderRadius: 10,
+    backgroundColor: colors.background,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   mealInfo: {
     flex: 1,

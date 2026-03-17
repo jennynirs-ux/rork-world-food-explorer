@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { Globe, ChevronDown, ChevronUp } from 'lucide-react-native';
+import { Globe, ChevronDown, ChevronUp, MapPin } from 'lucide-react-native';
 import { DishVariation, Country } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 import colors from '@/constants/colors';
@@ -57,9 +57,6 @@ export default function RegionalVariations({
             {isExpanded && (
               <View style={styles.countriesList}>
                 {variation.countries.map((vc, cIdx) => {
-                  const c = countries.find(cn => cn.id === vc.countryId);
-                  const flag = c?.flag || '🌍';
-
                   return (
                     <TouchableOpacity
                       key={cIdx}
@@ -68,7 +65,9 @@ export default function RegionalVariations({
                       activeOpacity={0.7}
                       disabled={!onCountryPress}
                     >
-                      <Text style={styles.flag}>{flag}</Text>
+                      <View style={styles.flagIcon}>
+                        <MapPin size={16} color={colors.terracotta} />
+                      </View>
                       <View style={styles.countryInfo}>
                         <Text style={styles.localName}>
                           {translateContent(vc.localName, lang)}
@@ -145,8 +144,13 @@ const styles = StyleSheet.create({
     gap: 10,
     alignItems: 'flex-start',
   },
-  flag: {
-    fontSize: 24,
+  flagIcon: {
+    width: 28,
+    height: 28,
+    borderRadius: 8,
+    backgroundColor: colors.background,
+    justifyContent: 'center',
+    alignItems: 'center',
     marginTop: 2,
   },
   countryInfo: {

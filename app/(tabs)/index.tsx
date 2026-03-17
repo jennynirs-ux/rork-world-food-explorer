@@ -174,18 +174,6 @@ export default function ExploreScreen() {
       )}
       <View style={styles.header}>
         <Text style={styles.title}>{t.explore.title}</Text>
-        <TouchableOpacity
-          style={styles.collectionsButton}
-          onPress={() => router.push('/ingredient-match')}
-        >
-          <ChefHat size={18} color={colors.terracotta} />
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.collectionsButton}
-          onPress={() => router.push('/collections')}
-        >
-          <BookOpen size={18} color={colors.terracotta} />
-        </TouchableOpacity>
         <View style={styles.viewToggle}>
           <TouchableOpacity
             style={[styles.toggleButton, viewMode === 'map' && styles.toggleButtonActive]}
@@ -206,6 +194,23 @@ export default function ExploreScreen() {
             <Heart size={20} color={viewMode === 'favorites' ? '#FFF' : '#6B7280'} fill={viewMode === 'favorites' ? '#FFF' : 'transparent'} />
           </TouchableOpacity>
         </View>
+      </View>
+
+      <View style={styles.quickActions}>
+        <TouchableOpacity
+          style={styles.quickActionButton}
+          onPress={() => router.push('/ingredient-match')}
+        >
+          <ChefHat size={16} color={colors.terracotta} />
+          <Text style={styles.quickActionText}>What Can I Cook?</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.quickActionButton}
+          onPress={() => router.push('/collections')}
+        >
+          <BookOpen size={16} color={colors.terracotta} />
+          <Text style={styles.quickActionText}>Collections</Text>
+        </TouchableOpacity>
       </View>
 
       {viewMode === 'favorites' ? (
@@ -409,15 +414,27 @@ const styles = StyleSheet.create({
     fontWeight: '700' as const,
     color: '#2D1B00',
   },
-  collectionsButton: {
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    backgroundColor: '#FFF',
-    justifyContent: 'center',
+  quickActions: {
+    flexDirection: 'row',
+    paddingHorizontal: 16,
+    gap: 8,
+    marginBottom: 8,
+  },
+  quickActionButton: {
+    flexDirection: 'row',
     alignItems: 'center',
+    gap: 6,
+    backgroundColor: '#FFF',
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderRadius: 20,
     borderWidth: 1,
     borderColor: '#E5E0DA',
+  },
+  quickActionText: {
+    fontSize: 13,
+    fontWeight: '600' as const,
+    color: colors.text,
   },
   viewToggle: {
     flexDirection: 'row',

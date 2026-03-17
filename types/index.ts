@@ -58,7 +58,7 @@ export type SeasonalCollection = {
   id: string;
   name: TranslatedString;
   description: TranslatedString;
-  emoji: string;
+  icon: string;                         // Lucide icon name
   months: number[];                    // 1-12
   countryIds: string[];
 };
