@@ -8,7 +8,6 @@ import {
   Modal,
   Dimensions,
   Alert,
-  ScrollView,
 } from 'react-native';
 import { Camera, ImagePlus, X, Trash2 } from 'lucide-react-native';
 import {
