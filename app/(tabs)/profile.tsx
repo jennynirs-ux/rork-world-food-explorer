@@ -3,7 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell } from 'lucide-react-native';
+import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell, Send } from 'lucide-react-native';
 import { DietType } from '@/types';
 import { useState, useEffect } from 'react';
 import { enableNotifications, disableNotifications, areNotificationsEnabled } from '@/lib/notifications';
@@ -266,6 +266,18 @@ export default function ProfileScreen() {
                 <Text style={styles.badgeText}>{shoppingList.length}</Text>
               </View>
             )}
+            <ChevronRight size={20} color="#9CA3AF" />
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Community</Text>
+          <TouchableOpacity
+            style={styles.menuButton}
+            onPress={() => router.push('/submit-recipe' as any)}
+          >
+            <Send size={20} color="#FF6B35" />
+            <Text style={styles.menuButtonText}>Submit a Recipe</Text>
             <ChevronRight size={20} color="#9CA3AF" />
           </TouchableOpacity>
         </View>

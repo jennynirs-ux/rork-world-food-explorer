@@ -4,7 +4,7 @@ import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
 import Paywall from '@/components/Paywall';
-import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock, BookOpen } from 'lucide-react-native';
+import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock, BookOpen, ChefHat } from 'lucide-react-native';
 import Globe3D from '@/components/Globe3D';
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { isCountryAccessible } from '@/lib/access-control';
@@ -174,6 +174,12 @@ export default function ExploreScreen() {
       )}
       <View style={styles.header}>
         <Text style={styles.title}>{t.explore.title}</Text>
+        <TouchableOpacity
+          style={styles.collectionsButton}
+          onPress={() => router.push('/ingredient-match')}
+        >
+          <ChefHat size={18} color={colors.terracotta} />
+        </TouchableOpacity>
         <TouchableOpacity
           style={styles.collectionsButton}
           onPress={() => router.push('/collections')}
