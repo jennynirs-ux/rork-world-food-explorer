@@ -5,7 +5,6 @@ import {
   StyleSheet,
   TouchableOpacity,
   Modal,
-  Dimensions,
   Animated,
   Vibration,
 } from 'react-native';
@@ -22,8 +21,6 @@ import {
 } from 'lucide-react-native';
 import { useKeepAwake } from 'expo-keep-awake';
 import { hapticLight, hapticMedium, hapticSuccess } from '@/lib/haptics';
-
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 interface CookingModeProps {
   visible: boolean;

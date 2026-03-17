@@ -4,7 +4,7 @@ import { ZoomIn, ZoomOut, MapPin } from 'lucide-react-native';
 import Svg, { Path, Circle, Defs, RadialGradient, Stop, G } from 'react-native-svg';
 import { geoOrthographic, geoPath, geoContains, GeoPermissibleObjects } from 'd3-geo';
 import { feature } from 'topojson-client';
-import { useOptimizedPins, useThrottledRotation } from '@/lib/useGlobeOptimization';
+import { useOptimizedPins } from '@/lib/useGlobeOptimization';
 import { hapticMedium, hapticLight } from '@/lib/haptics';
 import type { GeoJsonProperties, FeatureCollection, Feature, Geometry } from 'geojson';
 
@@ -141,12 +141,6 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
       return null;
     }
   }, [pathGenerator]);
-
-  const getCountryColor = (feature: GeoFeature) => {
-    const country = getCountryFromFeature(feature);
-    if (!country) return '#E8DCC8';
-    return country.color;
-  };
 
   const stopSpinning = useCallback(() => {
     if (animationFrameRef.current) {

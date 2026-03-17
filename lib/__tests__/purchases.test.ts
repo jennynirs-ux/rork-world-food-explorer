@@ -17,6 +17,7 @@ jest.mock('react-native-purchases', () => ({
   },
 }));
 
+// eslint-disable-next-line import/first
 import {
   configurePurchases,
   isPurchasesConfigured,

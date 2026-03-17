@@ -13,9 +13,9 @@ import { Country } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 
 export default function ExploreScreen() {
-  const { countryProgress, countries, userProfile, purchaseProduct, isLoading, countriesError } = useApp();
+  const { countryProgress, countries, userProfile, purchaseProduct, countriesError } = useApp();
   const { t } = useTranslation();
-  const purchasedProducts = userProfile.purchasedProducts || [];
+  const purchasedProducts = useMemo(() => userProfile.purchasedProducts || [], [userProfile.purchasedProducts]);
   const router = useRouter();
   const [viewMode, setViewMode] = useState<'map' | 'list' | 'favorites'>('map');
   const [searchQuery, setSearchQuery] = useState('');

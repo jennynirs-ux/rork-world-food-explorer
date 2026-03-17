@@ -10,7 +10,7 @@ export default function OfflineBanner() {
   return (
     <View style={styles.banner}>
       <WifiOff size={16} color="#FFF" />
-      <Text style={styles.text}>You're offline. Some features may be limited.</Text>
+      <Text style={styles.text}>You are offline. Some features may be limited.</Text>
     </View>
   );
 }

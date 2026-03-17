@@ -1,3 +1,4 @@
+/* global jest */
 // Jest setup file for World Food Explorer
 // This file runs after the test framework is installed but before tests run
 

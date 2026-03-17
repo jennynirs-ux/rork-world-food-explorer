@@ -81,38 +81,6 @@ export const translations = {
       searchIngredients: 'Search ingredients...',
     },
     globe: {
-      exploreHint: 'Toque duas vezes para explorar este país',
-    },
-
-    globe: {
-      exploreHint: 'Dubbeltik om dit land te verkennen',
-    },
-
-    globe: {
-      exploreHint: 'Dotknij dwukrotnie, aby poznać ten kraj',
-    },
-
-    globe: {
-      exploreHint: 'Tocca due volte per esplorare questo paese',
-    },
-
-    globe: {
-      exploreHint: 'Appuyez deux fois pour explorer ce pays',
-    },
-
-    globe: {
-      exploreHint: 'Toca dos veces para explorar este país',
-    },
-
-    globe: {
-      exploreHint: 'Doppeltippen zum Erkunden dieses Landes',
-    },
-
-    globe: {
-      exploreHint: 'Dubbeltryck för att utforska detta land',
-    },
-
-    globe: {
       exploreHint: 'Double tap to explore this country',
     },
 
@@ -304,6 +272,9 @@ export const translations = {
       from: 'Från',
       searchIngredients: 'Sök ingredienser...',
     },
+    globe: {
+      exploreHint: 'Dubbeltryck för att utforska detta land',
+    },
     progress: {
       title: 'Framsteg',
       totalPoints: 'Totala Poäng',
@@ -492,6 +463,9 @@ export const translations = {
       from: 'Von',
       searchIngredients: 'Zutaten suchen...',
     },
+    globe: {
+      exploreHint: 'Doppeltippen zum Erkunden dieses Landes',
+    },
     progress: {
       title: 'Fortschritt',
       totalPoints: 'Gesamtpunkte',
@@ -678,7 +652,10 @@ export const translations = {
       toBuy: 'À Acheter',
       checked: 'Vérifié',
       from: 'De',
-      searchIngredients: 'Buscar ingredientes...',
+      searchIngredients: 'Rechercher des ingrédients...',
+    },
+    globe: {
+      exploreHint: 'Appuyez deux fois pour explorer ce pays',
     },
     progress: {
       title: 'Progrès',
@@ -866,7 +843,10 @@ export const translations = {
       toBuy: 'Por Comprar',
       checked: 'Verificado',
       from: 'De',
-      searchIngredients: 'Rechercher des ingrédients...',
+      searchIngredients: 'Buscar ingredientes...',
+    },
+    globe: {
+      exploreHint: 'Toca dos veces para explorar este país',
     },
     progress: {
       title: 'Progreso',
@@ -1056,6 +1036,9 @@ export const translations = {
       from: 'Da',
       searchIngredients: 'Cerca ingredienti...',
     },
+    globe: {
+      exploreHint: 'Tocca due volte per esplorare questo paese',
+    },
     progress: {
       title: 'Progressi',
       totalPoints: 'Punti Totali',
@@ -1243,6 +1226,9 @@ export const translations = {
       checked: 'Sprawdzone',
       from: 'Z',
       searchIngredients: 'Szukaj składników...',
+    },
+    globe: {
+      exploreHint: 'Dotknij dwukrotnie, aby poznać ten kraj',
     },
     progress: {
       title: 'Postęp',
@@ -1432,6 +1418,9 @@ export const translations = {
       from: 'Van',
       searchIngredients: 'Zoek ingrediënten...',
     },
+    globe: {
+      exploreHint: 'Dubbeltik om dit land te verkennen',
+    },
     progress: {
       title: 'Voortgang',
       totalPoints: 'Totale Punten',
@@ -1619,6 +1608,9 @@ export const translations = {
       checked: 'Verificado',
       from: 'De',
       searchIngredients: 'Pesquisar ingredientes...',
+    },
+    globe: {
+      exploreHint: 'Toque duas vezes para explorar este país',
     },
     progress: {
       title: 'Progresso',

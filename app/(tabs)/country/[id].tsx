@@ -13,7 +13,7 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useState, useEffect, useMemo } from 'react';
 import { useApp } from '@/contexts/AppContext';
 import { isCountryAccessible } from '@/lib/access-control';
-import { hapticSuccess, hapticError, hapticMedium, hapticLight, hapticSelection } from '@/lib/haptics';
+import { hapticSuccess, hapticError, hapticMedium, hapticSelection } from '@/lib/haptics';
 import { trackPositiveAction } from '@/lib/rating';
 import Paywall from '@/components/Paywall';
 import CookingMode from '@/components/CookingMode';
@@ -286,7 +286,11 @@ export default function CountryDetailScreen() {
     const score = correctCount;
     const points = Math.round((correctCount / country.quiz.length) * 20);
 
-    correctCount === country.quiz.length ? hapticSuccess() : hapticMedium();
+    if (correctCount === country.quiz.length) {
+      hapticSuccess();
+    } else {
+      hapticMedium();
+    }
 
     void updateCountryProgress(
       country.id,

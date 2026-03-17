@@ -21,7 +21,7 @@ export default function ShoppingListScreen() {
       await Share.share({
         message: `Shopping List:\n\n${listText}`,
       });
-    } catch (error) {
+    } catch {
       Alert.alert('Sharing failed', 'Could not share the shopping list. Please try again.');
     }
   };
