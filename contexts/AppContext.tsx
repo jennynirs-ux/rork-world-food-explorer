@@ -8,6 +8,7 @@ import { trpc } from '@/lib/trpc';
 import { translateContent } from '@/lib/translate-content';
 import { configurePurchases, getCustomerInfo } from '@/lib/purchases';
 import { filterValidCountries } from '@/lib/validate-country';
+import { initializeNotifications } from '@/lib/notifications';
 
 const STORAGE_KEYS = {
   USER_PROFILE: '@world_cooking_user_profile',
@@ -131,6 +132,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     };
     void initUser();
     void loadData();
+    void initializeNotifications();
   }, []);
 
   useEffect(() => {

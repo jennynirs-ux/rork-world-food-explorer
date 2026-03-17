@@ -3,8 +3,10 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages } from 'lucide-react-native';
+import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell } from 'lucide-react-native';
 import { DietType } from '@/types';
+import { useState, useEffect } from 'react';
+import { enableNotifications, disableNotifications, areNotificationsEnabled } from '@/lib/notifications';
 
 const LANGUAGES = [
   { code: 'en', name: 'English', flag: '🇬🇧' },
@@ -22,6 +24,22 @@ export default function ProfileScreen() {
   const router = useRouter();
   const { userProfile, stats, resetProgress, shoppingList, updateUserProfile } = useApp();
   const { t } = useTranslation();
+  const [notificationsOn, setNotificationsOn] = useState(false);
+
+  useEffect(() => {
+    areNotificationsEnabled().then(setNotificationsOn);
+  }, []);
+
+  const toggleNotifications = async (value: boolean) => {
+    if (value) {
+      const ok = await enableNotifications();
+      setNotificationsOn(ok);
+      if (!ok) Alert.alert('Permission Required', 'Please enable notifications in your device settings.');
+    } else {
+      await disableNotifications();
+      setNotificationsOn(false);
+    }
+  };
 
   const handleReset = () => {
     Alert.alert(
@@ -135,6 +153,29 @@ export default function ProfileScreen() {
               <Switch
                 value={userProfile.useMetric ?? true}
                 onValueChange={toggleMetric}
+                trackColor={{ false: '#D1D5DB', true: '#FF6B35' }}
+                thumbColor="#FFF"
+              />
+            </View>
+          </View>
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Notifications</Text>
+          <View style={styles.card}>
+            <View style={styles.settingRow}>
+              <View style={styles.settingLeft}>
+                <Bell size={20} color="#FF6B35" />
+                <View style={styles.settingInfo}>
+                  <Text style={styles.settingName}>Cooking Reminders</Text>
+                  <Text style={styles.settingDescription}>
+                    Streak reminders & weekly challenges
+                  </Text>
+                </View>
+              </View>
+              <Switch
+                value={notificationsOn}
+                onValueChange={toggleNotifications}
                 trackColor={{ false: '#D1D5DB', true: '#FF6B35' }}
                 thumbColor="#FFF"
               />

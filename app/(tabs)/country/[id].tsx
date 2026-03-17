@@ -16,6 +16,8 @@ import { isCountryAccessible } from '@/lib/access-control';
 import { hapticSuccess, hapticError, hapticMedium, hapticLight, hapticSelection } from '@/lib/haptics';
 import { trackPositiveAction } from '@/lib/rating';
 import Paywall from '@/components/Paywall';
+import CookingMode from '@/components/CookingMode';
+import CookedPhotoGallery from '@/components/CookedPhotoGallery';
 import { useTranslation } from '@/lib/i18n';
 import { useTranslatedCountry } from '@/lib/use-translated-country';
 import { translateContent } from '@/lib/translate-content';
@@ -77,6 +79,7 @@ export default function CountryDetailScreen() {
   const [showMainDishRating, setShowMainDishRating] = useState(false);
   const [showDessertRating, setShowDessertRating] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
+  const [cookingMode, setCookingMode] = useState<{ steps: string[]; name: string; isDessert: boolean } | null>(null);
 
   const countryData = countries.find(c => c.id === id);
   const country = useTranslatedCountry(countryData, lang);
@@ -620,7 +623,20 @@ export default function CountryDetailScreen() {
                   </Text>
                 ))}
 
-                <Text style={styles.subheading}>{t.country.instructions}</Text>
+                <View style={styles.instructionsHeader}>
+                  <Text style={[styles.subheading, { marginTop: 0, marginBottom: 0 }]}>{t.country.instructions}</Text>
+                  <TouchableOpacity
+                    style={styles.startCookingButton}
+                    onPress={() => setCookingMode({
+                      steps: country.mainDish.steps.map(s => String(s)),
+                      name: String(typeof country.mainDish.name === 'string' ? country.mainDish.name : country.mainDish.name),
+                      isDessert: false,
+                    })}
+                  >
+                    <ChefHat size={16} color="#FFF" />
+                    <Text style={styles.startCookingText}>Cook</Text>
+                  </TouchableOpacity>
+                </View>
                 {country.mainDish.steps.map((step, idx) => (
                   <Text key={idx} style={styles.stepText}>
                     {idx + 1}. {step}
@@ -628,7 +644,7 @@ export default function CountryDetailScreen() {
                 ))}
 
                 <View style={styles.recipeActions}>
-                  <TouchableOpacity 
+                  <TouchableOpacity
                     style={[styles.actionButton, progress.mainDishCooked && styles.actionButtonDone]}
                     onPress={() => !progress.mainDishCooked && handleMarkDishCooked(false)}
                     disabled={progress.mainDishCooked}
@@ -713,6 +729,13 @@ export default function CountryDetailScreen() {
                     )}
                   </View>
                 )}
+
+                <CookedPhotoGallery
+                  countryId={country.id}
+                  recipeId={country.mainDish.id}
+                  isDessert={false}
+                  isCooked={progress.mainDishCooked}
+                />
               </View>
             </View>
 
@@ -743,7 +766,20 @@ export default function CountryDetailScreen() {
                     </Text>
                   ))}
 
-                  <Text style={styles.subheading}>{t.country.instructions}</Text>
+                  <View style={styles.instructionsHeader}>
+                    <Text style={styles.subheading}>{t.country.instructions}</Text>
+                    <TouchableOpacity
+                      style={styles.startCookingButton}
+                      onPress={() => setCookingMode({
+                        steps: country.dessert!.steps.map(s => String(s)),
+                        name: String(typeof country.dessert!.name === 'string' ? country.dessert!.name : country.dessert!.name),
+                        isDessert: true,
+                      })}
+                    >
+                      <ChefHat size={16} color="#FFF" />
+                      <Text style={styles.startCookingText}>Cook</Text>
+                    </TouchableOpacity>
+                  </View>
                   {country.dessert.steps.map((step, idx) => (
                     <Text key={idx} style={styles.stepText}>
                       {idx + 1}. {step}
@@ -751,7 +787,7 @@ export default function CountryDetailScreen() {
                   ))}
 
                   <View style={styles.recipeActions}>
-                    <TouchableOpacity 
+                    <TouchableOpacity
                       style={[styles.actionButton, progress.dessertCooked && styles.actionButtonDone]}
                       onPress={() => !progress.dessertCooked && handleMarkDishCooked(true)}
                       disabled={progress.dessertCooked}
@@ -837,6 +873,15 @@ export default function CountryDetailScreen() {
                         </View>
                       )}
                     </View>
+                  )}
+
+                  {country.dessert && (
+                    <CookedPhotoGallery
+                      countryId={country.id}
+                      recipeId={country.dessert.id}
+                      isDessert={true}
+                      isCooked={progress.dessertCooked}
+                    />
                   )}
                 </View>
               </View>
@@ -978,6 +1023,22 @@ export default function CountryDetailScreen() {
         onPurchase={purchaseProduct}
         purchasedProducts={purchasedProducts}
       />
+
+      {cookingMode && (
+        <CookingMode
+          visible={true}
+          onClose={() => setCookingMode(null)}
+          steps={cookingMode.steps}
+          recipeName={cookingMode.name}
+          onComplete={() => {
+            if (!cookingMode.isDessert && !progress.mainDishCooked) {
+              handleMarkDishCooked(false);
+            } else if (cookingMode.isDessert && !progress.dessertCooked) {
+              handleMarkDishCooked(true);
+            }
+          }}
+        />
+      )}
     </SafeAreaView>
   );
 }
@@ -1443,6 +1504,27 @@ const styles = StyleSheet.create({
     color: colors.text,
     marginTop: 16,
     marginBottom: 12,
+  },
+  instructionsHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 16,
+    marginBottom: 12,
+  },
+  startCookingButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    backgroundColor: '#FF6B35',
+    paddingHorizontal: 14,
+    paddingVertical: 8,
+    borderRadius: 20,
+  },
+  startCookingText: {
+    color: '#FFF',
+    fontSize: 14,
+    fontWeight: '600',
   },
   ingredientText: {
     fontSize: 15,
