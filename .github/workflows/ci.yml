@@ -25,11 +25,9 @@ jobs:
 
       - name: Run ESLint
         run: bunx eslint . --max-warnings 0
-        continue-on-error: true
 
       - name: Run TypeScript type check
         run: bunx tsc --noEmit
-        continue-on-error: true
 
   test:
     name: Unit Tests
@@ -46,10 +44,10 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: bun install
 
       - name: Run tests
-        run: npx jest --ci --coverage --forceExit
+        run: bunx jest --ci --coverage --forceExit
 
       - name: Upload coverage
         if: always()
@@ -76,4 +74,3 @@ jobs:
 
       - name: Run Expo Doctor
         run: bunx expo-doctor
-        continue-on-error: true
