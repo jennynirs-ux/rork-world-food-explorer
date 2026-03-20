@@ -34,11 +34,11 @@ yarn-error.*
 # local env files
 .env*.local
 .env.production
+.env.staging
 
 # typescript
 *.tsbuildinfo
 .vercel
-
 .rork
 .env
 rork-eslint.config.js
