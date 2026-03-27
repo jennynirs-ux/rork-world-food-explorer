@@ -1,7 +1,7 @@
 import { LucideIcon } from 'lucide-react-native';
 
 export type DietType = 'meat' | 'fish' | 'vegetarian' | 'vegan';
-export type TranslatedDietType = DietType | { en: string; sv?: string; es?: string; fr?: string; de?: string };
+export type TranslatedDietType = DietType | { en: string; sv?: string; es?: string; fr?: string; de?: string; it?: string; pl?: string; nl?: string; pt?: string };
 
 export type NutritionInfo = {
   caloriesPerServing: number;

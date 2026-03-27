@@ -266,7 +266,7 @@ export default function CountryDetailScreen() {
 
   const handleShareRecipe = (isDessert: boolean) => {
     hapticLight();
-    const recipe = isDessert ? country.dessert : country.mainDish;
+    const recipe = isDessert ? countryData?.dessert : countryData?.mainDish;
     if (!recipe || !countryData) return;
     void shareRecipe(countryData, recipe, isDessert, lang);
   };
@@ -820,7 +820,7 @@ export default function CountryDetailScreen() {
                   recipeId={country.mainDish.id}
                   isDessert={false}
                   isCooked={progress.mainDishCooked}
-                  onSharePhoto={(uri) => handleShareCookedPhoto(String(country.mainDish.name), uri)}
+                  onSharePhoto={(uri) => handleShareCookedPhoto(String(country.mainDish?.name ?? ''), uri)}
                 />
               </View>
             </View>
@@ -1229,7 +1229,9 @@ const styles = StyleSheet.create({
     fontSize: 36,
     fontWeight: '700' as const,
     color: '#FFF',
-    textShadow: '0px 2px 4px rgba(0, 0, 0, 0.8)',
+    textShadowColor: 'rgba(0, 0, 0, 0.8)',
+    textShadowOffset: { width: 0, height: 2 },
+    textShadowRadius: 4,
   },
   tabsContainer: {
     flexDirection: 'row',

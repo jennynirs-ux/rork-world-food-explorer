@@ -85,7 +85,7 @@ export default function ProgressScreen() {
           <View style={styles.emptyState}>
             <Globe size={60} color="#D1D5DB" />
             <Text style={styles.emptyText}>
-              {t.progress.noCountriesYet || 'Start exploring countries on the map to track your progress here!'}
+              {(t.progress as Record<string, string>).noCountriesYet || 'Start exploring countries on the map to track your progress here!'}
             </Text>
           </View>
         )}

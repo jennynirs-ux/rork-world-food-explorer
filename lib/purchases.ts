@@ -48,7 +48,6 @@ export async function configurePurchases(userId?: string): Promise<void> {
     isConfigured = true;
 
     if (__DEV__ && env.debugLogging) {
-      // eslint-disable-next-line no-console
       console.log('[purchases] RevenueCat configured (' + APP_ENV + ')');
     }
   } catch (error) {
@@ -184,5 +183,5 @@ function getActiveEntitlements(customerInfo: CustomerInfo): string[] {
   const activeEntitlements = Object.keys(customerInfo.entitlements.active);
 
   const productIds = Object.values(PRODUCT_IDS);
-  return activeEntitlements.filter((id) => productIds.includes(id));
+  return activeEntitlements.filter((id) => (productIds as string[]).includes(id));
 }
