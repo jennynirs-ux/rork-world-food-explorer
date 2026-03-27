@@ -12,7 +12,7 @@ import RegionalVariations from '@/components/RegionalVariations';
 import EndangeredDishes from '@/components/EndangeredDishes';
 import colors from '@/constants/colors';
 
-const ICON_MAP: Record<string, React.ComponentType<any>> = {
+const ICON_MAP: Record<string, React.ComponentType<{ size: number; color: string }>> = {
   star: Star,
   moon: Moon,
   flower2: Flower2,

@@ -12,12 +12,12 @@ interface EndangeredDishesProps {
 }
 
 function ThreatBadge({ level }: { level: EndangeredDish['threatLevel'] }) {
-  const config = {
+  const config: Record<string, { color: string; bg: string; label: string }> = {
     critical: { color: '#DC2626', bg: '#FEE2E2', label: 'Critical' },
     endangered: { color: '#D97706', bg: '#FEF3C7', label: 'Endangered' },
     vulnerable: { color: '#2563EB', bg: '#DBEAFE', label: 'Vulnerable' },
   };
-  const c = config[level];
+  const c = config[level] || { color: '#6B7280', bg: '#F3F4F6', label: level || 'Unknown' };
 
   return (
     <View style={[styles.threatBadge, { backgroundColor: c.bg }]}>

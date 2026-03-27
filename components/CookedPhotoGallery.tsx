@@ -41,8 +41,12 @@ export default function CookedPhotoGallery({
   const [selectedPhoto, setSelectedPhoto] = useState<CookedPhoto | null>(null);
 
   const loadPhotos = useCallback(async () => {
-    const loaded = await getPhotosForRecipe(countryId, recipeId);
-    setPhotos(loaded);
+    try {
+      const loaded = await getPhotosForRecipe(countryId, recipeId);
+      setPhotos(loaded || []);
+    } catch {
+      setPhotos([]);
+    }
   }, [countryId, recipeId]);
 
   useEffect(() => {
@@ -64,10 +68,14 @@ export default function CookedPhotoGallery({
           text: 'Delete',
           style: 'destructive',
           onPress: async () => {
-            hapticMedium();
-            await deletePhoto(countryId, recipeId, photo.id);
-            setPhotos(prev => prev.filter(p => p.id !== photo.id));
-            setSelectedPhoto(null);
+            try {
+              hapticMedium();
+              await deletePhoto(countryId, recipeId, photo.id);
+              setPhotos(prev => prev.filter(p => p.id !== photo.id));
+              setSelectedPhoto(null);
+            } catch {
+              /* non-fatal: photo remains in gallery */
+            }
           },
         },
       ]);

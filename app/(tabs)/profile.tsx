@@ -27,7 +27,7 @@ export default function ProfileScreen() {
   const [notificationsOn, setNotificationsOn] = useState(false);
 
   useEffect(() => {
-    areNotificationsEnabled().then(setNotificationsOn);
+    areNotificationsEnabled().then(setNotificationsOn).catch(() => setNotificationsOn(false));
   }, []);
 
   const toggleNotifications = async (value: boolean) => {

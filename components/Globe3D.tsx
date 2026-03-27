@@ -6,6 +6,7 @@ import { geoOrthographic, geoPath, geoContains, GeoPermissibleObjects } from 'd3
 import { feature } from 'topojson-client';
 import { useOptimizedPins } from '@/lib/useGlobeOptimization';
 import { hapticMedium, hapticLight } from '@/lib/haptics';
+import FlagEmoji from '@/components/FlagEmoji';
 import type { GeoJsonProperties, FeatureCollection, Feature, Geometry } from 'geojson';
 
 type GeoFeature = Feature<Geometry, GeoJsonProperties> & { id?: string | number };
@@ -96,6 +97,12 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
       }
     };
     fetchData();
+    return () => {
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
+        animationFrameRef.current = null;
+      }
+    };
   }, []);
 
   const { pathGenerator, projection } = useMemo(() => {
@@ -410,7 +417,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
                 accessibilityRole="button"
                 accessibilityHint={accessibilityExploreHint || 'Double tap to explore this country'}
               >
-                <Text style={styles.flagEmoji}>{country.flag}</Text>
+                <FlagEmoji flag={country.flag} size={20} />
               </TouchableOpacity>
             ))}
           </View>
@@ -465,9 +472,9 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
                 }
               }}
             >
-              <Text style={styles.dialogFlag}>{selectedCountry?.flag}</Text>
+              {selectedCountry?.flag ? <FlagEmoji flag={selectedCountry.flag} size={48} /> : null}
               <Text style={styles.dialogName}>{selectedCountry?.name}</Text>
-              <Text style={styles.dialogStatus}>{selectedCountry?.status.toUpperCase()}</Text>
+              <Text style={styles.dialogStatus}>{selectedCountry?.status?.toUpperCase()}</Text>
               <View style={styles.dialogButton}>
                 <MapPin size={16} color="#FFF" />
                 <Text style={styles.dialogButtonText}>Explore Country</Text>

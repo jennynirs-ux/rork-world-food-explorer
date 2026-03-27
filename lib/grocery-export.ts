@@ -22,9 +22,9 @@ export function aggregateGroceries(
     const recipe = plan.recipeId.endsWith('-dessert') ? c.dessert : c.mainDish;
     if (!recipe) continue;
 
-    for (const ing of recipe.ingredients) {
-      const name = typeof ing.name === 'string' ? ing.name : ing.name.en;
-      const unit = typeof ing.unit === 'string' ? ing.unit : ing.unit.en;
+    for (const ing of (recipe.ingredients || [])) {
+      const name = typeof ing.name === 'string' ? ing.name : (ing.name?.en || '');
+      const unit = typeof ing.unit === 'string' ? ing.unit : (ing.unit?.en || '');
       const key = `${name.toLowerCase()}|${unit.toLowerCase()}`;
       const existing = map.get(key);
       if (existing) {

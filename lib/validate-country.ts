@@ -57,6 +57,17 @@ export function validateCountry(c: unknown): string[] {
     }
   }
 
+  // Optional nested object — validate dessert if present
+  if (country.dessert && typeof country.dessert === 'object') {
+    const dessert = country.dessert as Record<string, unknown>;
+    if (!dessert.id || !isTranslatedString(dessert.name)) {
+      errors.push('dessert missing id or name');
+    }
+    if (!Array.isArray(dessert.ingredients) || dessert.ingredients.length === 0) {
+      errors.push('dessert has no ingredients');
+    }
+  }
+
   return errors;
 }
 

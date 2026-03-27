@@ -32,6 +32,7 @@ import { useTranslatedCountry } from '@/lib/use-translated-country';
 import { translateContent } from '@/lib/translate-content';
 import colors from '@/constants/colors';
 import { CountryDetailSkeleton } from '@/components/SkeletonLoader';
+import FlagEmoji from '@/components/FlagEmoji';
 import { 
   Compass, 
   ChefHat, 
@@ -151,7 +152,7 @@ export default function CountryDetailScreen() {
           </TouchableOpacity>
           
           <View style={styles.lockedContent}>
-            <Text style={styles.lockedFlag}>{country.flag}</Text>
+            <FlagEmoji flag={country.flag} size={80} />
             <Text style={styles.lockedCountryName}>{country.name}</Text>
             <Lock size={64} color={colors.terracotta} />
             <Text style={styles.lockedMessage}>{t.country.lockedCountry}</Text>
@@ -195,8 +196,8 @@ export default function CountryDetailScreen() {
     void trackPositiveAction();
 
     const dishName = isDessert
-      ? (country.dessert?.name || '') 
-      : country.mainDish.name;
+      ? (country.dessert?.name || '')
+      : (country.mainDish?.name || '');
     
     Alert.alert(
       t.country.greatJob,
@@ -315,22 +316,23 @@ export default function CountryDetailScreen() {
   };
 
   const handleSubmitQuiz = () => {
-    if (quizAnswers.length !== country.quiz.length) {
+    const quiz = country.quiz || [];
+    if (quizAnswers.length !== quiz.length) {
       hapticError();
       Alert.alert(t.country.incomplete, t.country.answerAllQuestions);
       return;
     }
 
-    const correctCount = country.quiz.filter(
+    const correctCount = quiz.filter(
       (q, idx) => q.correctAnswer === quizAnswers[idx]
     ).length;
 
     const score = correctCount;
-    const points = country.quiz.length > 0
-      ? Math.round((correctCount / country.quiz.length) * 20)
+    const points = quiz.length > 0
+      ? Math.round((correctCount / quiz.length) * 20)
       : 0;
 
-    if (correctCount === country.quiz.length) {
+    if (correctCount === quiz.length) {
       hapticSuccess();
     } else {
       hapticMedium();
@@ -346,12 +348,12 @@ export default function CountryDetailScreen() {
     setTimeout(() => {
       Alert.alert(
         t.country.quizComplete,
-        t.country.quizResult.replace('{correct}', correctCount.toString()).replace('{total}', country.quiz.length.toString()).replace('{points}', points.toString())
+        t.country.quizResult.replace('{correct}', correctCount.toString()).replace('{total}', (country.quiz || []).length.toString()).replace('{points}', points.toString())
       );
     }, 500);
   };
 
-  const servingsMultiplier = recipeServings / country.mainDish.servings;
+  const servingsMultiplier = recipeServings / (country.mainDish?.servings || 1);
 
 
 
@@ -406,7 +408,7 @@ export default function CountryDetailScreen() {
           </View>
 
           <View style={styles.bannerInfo}>
-            <Text style={styles.bannerFlag}>{country.flag}</Text>
+            <FlagEmoji flag={country.flag} size={48} />
             <Text style={styles.bannerCountryName}>{country.name}</Text>
           </View>
         </View>
@@ -494,7 +496,7 @@ export default function CountryDetailScreen() {
                   <Check size={24} color={colors.text} />
                   <Text style={styles.funFactsTitle}>{t.country.funFacts}</Text>
                 </View>
-                {country.facts.slice(0, 3).map((fact, idx) => (
+                {(country.facts || []).slice(0, 3).map((fact, idx) => (
                   <Text key={idx} style={styles.funFactText}>• {fact}</Text>
                 ))}
               </View>
@@ -634,6 +636,7 @@ export default function CountryDetailScreen() {
 
         {activeTab === 'recipes' && (
           <View style={styles.tabContent}>
+            {country.mainDish ? (
             <View style={styles.section}>
               <Text style={styles.sectionTitle}>{t.country.mainDish}</Text>
               <View style={styles.recipeCard}>
@@ -684,7 +687,7 @@ export default function CountryDetailScreen() {
                 )}
 
                 <Text style={styles.subheading}>{t.country.ingredients}</Text>
-                {country.mainDish.ingredients.map((ing, idx) => (
+                {(country.mainDish?.ingredients || []).map((ing, idx) => (
                   <Text key={idx} style={styles.ingredientText}>
                     • {(ing.amount * servingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
                   </Text>
@@ -702,8 +705,8 @@ export default function CountryDetailScreen() {
                   <TouchableOpacity
                     style={styles.startCookingButton}
                     onPress={() => setCookingMode({
-                      steps: country.mainDish.steps.map(s => String(s)),
-                      name: String(typeof country.mainDish.name === 'string' ? country.mainDish.name : country.mainDish.name),
+                      steps: (country.mainDish?.steps || []).map(s => String(s)),
+                      name: String(country.mainDish?.name || ''),
                       isDessert: false,
                     })}
                   >
@@ -711,7 +714,7 @@ export default function CountryDetailScreen() {
                     <Text style={styles.startCookingText}>Cook</Text>
                   </TouchableOpacity>
                 </View>
-                {country.mainDish.steps.map((step, idx) => (
+                {(country.mainDish?.steps || []).map((step, idx) => (
                   <Text key={idx} style={styles.stepText}>
                     {idx + 1}. {step}
                   </Text>
@@ -821,6 +824,7 @@ export default function CountryDetailScreen() {
                 />
               </View>
             </View>
+            ) : null}
 
             {country.dessert && (
               <View style={styles.section}>
@@ -1006,17 +1010,17 @@ export default function CountryDetailScreen() {
                   <Wine size={18} color={colors.earthBrown} />
                   <Text style={styles.infoLabel}>{t.country.alcoholic}</Text>
                 </View>
-                <Text style={styles.infoText}>{country.drinks.alcoholic}</Text>
+                <Text style={styles.infoText}>{country.drinks?.alcoholic}</Text>
                 <View style={styles.drinkSection}>
                   <Glasses size={18} color={colors.earthBrown} />
                   <Text style={styles.infoLabel}>{t.country.nonAlcoholic}</Text>
                 </View>
-                <Text style={styles.infoText}>{country.drinks.nonAlcoholic}</Text>
+                <Text style={styles.infoText}>{country.drinks?.nonAlcoholic}</Text>
                 <View style={styles.drinkSection}>
                   <Music size={18} color={colors.earthBrown} />
                   <Text style={styles.infoLabel}>{t.country.musicSuggestions}</Text>
                 </View>
-                {country.music.map((song, idx) => (
+                {(country.music || []).map((song, idx) => (
                   <Text key={idx} style={styles.musicText}>• {song}</Text>
                 ))}
               </View>
@@ -1028,7 +1032,7 @@ export default function CountryDetailScreen() {
                 <Text style={styles.sectionTitle}>{t.country.decorationIdeas}</Text>
               </View>
               <View style={styles.fullWidthCard}>
-                {country.decorationIdeas.map((idea, idx) => (
+                {(country.decorationIdeas || []).map((idea, idx) => (
                   <Text key={idx} style={styles.ideaText}>• {idea}</Text>
                 ))}
               </View>
@@ -1040,7 +1044,7 @@ export default function CountryDetailScreen() {
                 <Text style={styles.sectionTitle}>{t.country.conversationStarters}</Text>
               </View>
               <View style={styles.fullWidthCard}>
-                {country.conversationStarters.map((q, idx) => (
+                {(country.conversationStarters || []).map((q, idx) => (
                   <View key={idx} style={styles.conversationItem}>
                     <MessageCircle size={16} color={colors.textTertiary} />
                     <Text style={styles.conversationText}>{q}</Text>
@@ -1059,13 +1063,13 @@ export default function CountryDetailScreen() {
                   <Check size={40} color="#10B981" />
                   <Text style={styles.quizCompletedText}>{t.country.quizCompleted}</Text>
                   <Text style={styles.quizScoreText}>
-                    {t.country.score}: {progress.quizScore} / {country.quiz.length}
+                    {t.country.score}: {progress.quizScore} / {(country.quiz || []).length}
                   </Text>
                 </View>
               )}
 
               <View style={styles.quizContainer}>
-                {country.quiz.map((question, qIdx) => (
+                {(country.quiz || []).map((question, qIdx) => (
                   <View key={question.id} style={styles.questionCard}>
                     <Text style={styles.questionText}>
                       {qIdx + 1}. {question.question}

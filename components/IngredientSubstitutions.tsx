@@ -14,7 +14,7 @@ export default function IngredientSubstitutions({ ingredients, lang = 'en' }: In
   const [expanded, setExpanded] = useState(false);
 
   // Filter to only ingredients that have substitutions
-  const withSubs = ingredients.filter(
+  const withSubs = (ingredients || []).filter(
     (ing) => ing.substitutions && ing.substitutions.length > 0,
   );
 

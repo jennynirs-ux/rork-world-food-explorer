@@ -40,7 +40,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
   );
   const [favoriteRecipes, setFavoriteRecipes] = useState<FavoriteRecipe[]>([]);
   const [mealPlans, setMealPlans] = useState<MealPlan[]>([]);
-  const [countries, setCountries] = useState(localCountries);
+  const [countries, setCountries] = useState(() => filterValidCountries(localCountries));
   const [isLoading, setIsLoading] = useState(true);
 
   const [hasInitialized, setHasInitialized] = useState(false);
@@ -136,24 +136,44 @@ export const [AppProvider, useApp] = createContextHook(() => {
           AsyncStorage.getItem(STORAGE_KEYS.MEAL_PLANS),
         ]);
 
-        if (profileData) {
-          const profile = JSON.parse(profileData);
-          setUserProfile(profile);
+        function safeParse(raw: string | null): unknown {
+          if (!raw) return null;
+          try { return JSON.parse(raw); }
+          catch { return null; }
         }
-        if (progressData) setCountryProgress(JSON.parse(progressData));
-        if (shoppingData) setShoppingList(JSON.parse(shoppingData));
-        if (favoritesData) setFavoriteRecipes(JSON.parse(favoritesData));
-        if (mealPlanData) setMealPlans(JSON.parse(mealPlanData));
+
+        if (profileData) {
+          const profile = safeParse(profileData) as UserProfile | null;
+          if (profile) setUserProfile(profile);
+        }
+        if (progressData) {
+          const parsed = safeParse(progressData) as ProgressState | null;
+          if (parsed) setCountryProgress(parsed);
+        }
+        if (shoppingData) {
+          const parsed = safeParse(shoppingData) as ShoppingListItem[] | null;
+          if (parsed) setShoppingList(parsed);
+        }
+        if (favoritesData) {
+          const parsed = safeParse(favoritesData) as FavoriteRecipe[] | null;
+          if (parsed) setFavoriteRecipes(parsed);
+        }
+        if (mealPlanData) {
+          const parsed = safeParse(mealPlanData) as MealPlan[] | null;
+          if (parsed) setMealPlans(parsed);
+        }
         if (badgesData) {
-          const loadedBadges = JSON.parse(badgesData);
-          const badgesWithIcons = loadedBadges.map((savedBadge: Badge) => {
-            const originalBadge = allBadges.find(b => b.id === savedBadge.id);
-            return {
-              ...savedBadge,
-              icon: originalBadge?.icon || savedBadge.icon,
-            };
-          });
-          setBadges(badgesWithIcons);
+          const loadedBadges = safeParse(badgesData) as Badge[] | null;
+          if (loadedBadges && loadedBadges.length > 0) {
+            const badgesWithIcons = loadedBadges.map((savedBadge: Badge) => {
+              const originalBadge = allBadges.find(b => b.id === savedBadge.id);
+              return {
+                ...savedBadge,
+                icon: originalBadge?.icon || savedBadge.icon,
+              };
+            });
+            setBadges(badgesWithIcons);
+          }
         }
       } catch (error) {
         if (__DEV__) console.error('Error loading data:', error);
@@ -590,10 +610,10 @@ export const [AppProvider, useApp] = createContextHook(() => {
     const recipe = plan.recipeId.endsWith('-dessert') ? c.dessert : c.mainDish;
     if (!recipe) return;
 
-    const scaledIngredients = recipe.ingredients.map(ing => ({
-      name: typeof ing.name === 'string' ? ing.name : ing.name.en,
+    const scaledIngredients = (recipe.ingredients || []).map(ing => ({
+      name: typeof ing.name === 'string' ? ing.name : (ing.name?.en || ''),
       amount: ing.amount,
-      unit: typeof ing.unit === 'string' ? ing.unit : ing.unit.en,
+      unit: typeof ing.unit === 'string' ? ing.unit : (ing.unit?.en || ''),
     }));
 
     const countryName = typeof c.name === 'string' ? c.name : c.name.en;

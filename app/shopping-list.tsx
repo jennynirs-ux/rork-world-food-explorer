@@ -31,7 +31,7 @@ export default function ShoppingListScreen() {
   const filteredList = shoppingList.filter(item => {
     if (!searchQuery.trim()) return true;
     const q = searchQuery.toLowerCase();
-    return item.name.toLowerCase().includes(q) || item.countryName.toLowerCase().includes(q);
+    return (item.name || '').toLowerCase().includes(q) || (item.countryName || '').toLowerCase().includes(q);
   });
 
   const uncheckedItems = filteredList.filter(item => !item.checked);

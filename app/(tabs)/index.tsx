@@ -12,6 +12,7 @@ import { preloadImages } from '@/lib/image-utils'
 import { Country } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 import colors from '@/constants/colors';
+import FlagEmoji from '@/components/FlagEmoji';
 
 export default function ExploreScreen() {
   const { countryProgress, countries, userProfile, purchaseProduct, countriesError } = useApp();
@@ -133,7 +134,7 @@ export default function ExploreScreen() {
           style={styles.flagButton}
           onPress={() => handleCountryPress(country.id)}
         >
-          <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
+          <FlagEmoji flag={country.flag} size={40} />
           {!isAccessible && (
             <View style={styles.lockBadge}>
               <Lock size={12} color="#FFF" />
@@ -279,7 +280,7 @@ export default function ExploreScreen() {
                       ) : (
                         <Lock size={10} color="#9CA3AF" />
                       )}
-                      <Text style={[styles.countryChipFlag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
+                      <FlagEmoji flag={country.flag} size={20} />
                       <Text style={styles.countryChipName} numberOfLines={1}>{translateContent(country.name)}</Text>
                     </TouchableOpacity>
                   );

@@ -47,7 +47,8 @@ export async function configurePurchases(userId?: string): Promise<void> {
 
     isConfigured = true;
 
-    if (env.debugLogging) {
+    if (__DEV__ && env.debugLogging) {
+      // eslint-disable-next-line no-console
       console.log('[purchases] RevenueCat configured (' + APP_ENV + ')');
     }
   } catch (error) {
@@ -95,8 +96,8 @@ export async function purchasePackage(
   try {
     const { customerInfo } = await Purchases.purchasePackage(pkg);
     return getActiveEntitlements(customerInfo);
-  } catch (error: any) {
-    if (error.userCancelled) {
+  } catch (error: unknown) {
+    if (error && typeof error === 'object' && 'userCancelled' in error && (error as Record<string, unknown>).userCancelled) {
       return [];
     }
     throw error;

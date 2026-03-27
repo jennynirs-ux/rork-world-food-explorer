@@ -21,13 +21,13 @@ type TranslatedCountry = Omit<Country, 'name' | 'description' | 'continent' | 'f
   innovations?: { name: string; year: string; description: string; }[];
   mustVisit?: { name: string; description: string; imageUrl?: string; }[];
   travelEssentials?: { item: string; description: string; }[];
-  mainDish: TranslatedRecipe;
+  mainDish?: TranslatedRecipe;
   dessert?: TranslatedRecipe;
-  drinks: { alcoholic: string; nonAlcoholic: string; };
-  music: string[];
-  decorationIdeas: string[];
-  conversationStarters: string[];
-  quiz: { id: string; question: string; options: string[]; correctAnswer: number; }[];
+  drinks?: { alcoholic: string; nonAlcoholic: string; };
+  music?: string[];
+  decorationIdeas?: string[];
+  conversationStarters?: string[];
+  quiz?: { id: string; question: string; options: string[]; correctAnswer: number; }[];
 };
 
 export function useTranslatedCountry(country: Country | undefined, language: string): TranslatedCountry | undefined {
@@ -59,7 +59,7 @@ export function useTranslatedCountry(country: Country | undefined, language: str
         label: translateContent(fact.label, language),
         value: translateContent(fact.value, language),
       })),
-      facts: translateArray(country.facts, language),
+      facts: translateArray(country.facts || [], language),
       foodCulture: translateContent(country.foodCulture, language),
       history: country.history?.map(event => ({
         year: translateContent(event.year, language),
@@ -80,16 +80,16 @@ export function useTranslatedCountry(country: Country | undefined, language: str
         item: translateContent(essential.item, language),
         description: translateContent(essential.description, language),
       })),
-      mainDish: translateRecipe(country.mainDish)!,
+      mainDish: translateRecipe(country.mainDish),
       dessert: translateRecipe(country.dessert),
-      drinks: {
+      drinks: country.drinks ? {
         alcoholic: translateContent(country.drinks.alcoholic, language),
         nonAlcoholic: translateContent(country.drinks.nonAlcoholic, language),
-      },
-      music: translateArray(country.music, language),
-      decorationIdeas: translateArray(country.decorationIdeas, language),
-      conversationStarters: translateArray(country.conversationStarters, language),
-      quiz: country.quiz.map(q => ({
+      } : { alcoholic: '', nonAlcoholic: '' },
+      music: translateArray(country.music || [], language),
+      decorationIdeas: translateArray(country.decorationIdeas || [], language),
+      conversationStarters: translateArray(country.conversationStarters || [], language),
+      quiz: (country.quiz || []).map(q => ({
         id: q.id,
         question: translateContent(q.question, language),
         options: q.options.map(opt => translateContent(opt, language)),

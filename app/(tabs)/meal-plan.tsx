@@ -95,6 +95,7 @@ export default function MealPlanScreen() {
     // Show a picker from available countries/recipes
     const options = countries.slice(0, 30).flatMap(c => {
       const items: { label: string; countryId: string; recipeId: string }[] = [];
+      if (!c.mainDish) return items;
       const countryName = translateContent(c.name, lang);
       const mainName = translateContent(c.mainDish.name, lang);
       items.push({

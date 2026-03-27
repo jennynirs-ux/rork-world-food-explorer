@@ -69,11 +69,11 @@ export default function Paywall({
       }
       hapticSuccess();
       onClose();
-    } catch (error: any) {
+    } catch (error: unknown) {
       hapticError();
       Alert.alert(
         'Purchase Failed',
-        error.message || 'Something went wrong. Please try again.',
+        error instanceof Error ? error.message : 'Something went wrong. Please try again.',
       );
     } finally {
       setPurchasing(null);
@@ -92,10 +92,10 @@ export default function Paywall({
       } else {
         Alert.alert('No Purchases Found', 'No previous purchases were found to restore.');
       }
-    } catch (error: any) {
+    } catch (error: unknown) {
       Alert.alert(
         'Restore Failed',
-        error.message || 'Could not restore purchases. Please try again.',
+        error instanceof Error ? error.message : 'Could not restore purchases. Please try again.',
       );
     } finally {
       setRestoring(false);

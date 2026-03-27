@@ -33,10 +33,12 @@ function MacroBar({
 }
 
 export default function NutritionCard({ nutrition, servingsMultiplier = 1 }: NutritionCardProps) {
-  const cal = Math.round(nutrition.caloriesPerServing * servingsMultiplier);
-  const protein = Math.round(nutrition.protein * servingsMultiplier);
-  const carbs = Math.round(nutrition.carbs * servingsMultiplier);
-  const fat = Math.round(nutrition.fat * servingsMultiplier);
+  if (!nutrition) return null;
+
+  const cal = Math.round((nutrition.caloriesPerServing || 0) * servingsMultiplier);
+  const protein = Math.round((nutrition.protein || 0) * servingsMultiplier);
+  const carbs = Math.round((nutrition.carbs || 0) * servingsMultiplier);
+  const fat = Math.round((nutrition.fat || 0) * servingsMultiplier);
   const fiber = nutrition.fiber ? Math.round(nutrition.fiber * servingsMultiplier) : null;
 
   // Max for bar scaling

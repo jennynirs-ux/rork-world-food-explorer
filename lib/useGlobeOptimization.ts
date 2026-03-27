@@ -14,7 +14,7 @@ interface GlobePin {
   id: string;
   lat: number;
   lng: number;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 interface ViewportBounds {

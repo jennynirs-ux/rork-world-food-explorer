@@ -20,7 +20,7 @@ export default function RegionalVariations({
 }: RegionalVariationsProps) {
   const [expandedIdx, setExpandedIdx] = useState<number | null>(null);
 
-  if (variations.length === 0) return null;
+  if (!variations || variations.length === 0) return null;
 
   return (
     <View style={styles.container}>
