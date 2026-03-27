@@ -19,7 +19,7 @@ import {
   Check,
   ChefHat,
 } from 'lucide-react-native';
-import { useKeepAwake } from 'expo-keep-awake';
+import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { hapticLight, hapticMedium, hapticSuccess } from '@/lib/haptics';
 
 interface CookingModeProps {
@@ -37,7 +37,15 @@ export default function CookingMode({
   recipeName,
   onComplete,
 }: CookingModeProps) {
-  useKeepAwake();
+  // Keep screen awake during cooking — wrapped in try/catch because
+  // the Wake Lock API is blocked in sandboxed iframes (e.g. Rork preview)
+  useEffect(() => {
+    if (!visible) return;
+    try { activateKeepAwakeAsync().catch(() => {}); } catch { /* Wake Lock blocked in sandboxed iframes */ }
+    return () => {
+      try { deactivateKeepAwake(); } catch { /* ignore */ }
+    };
+  }, [visible]);
 
   const [currentStep, setCurrentStep] = useState(0);
   const [timerSeconds, setTimerSeconds] = useState(0);
