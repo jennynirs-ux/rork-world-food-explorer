@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { publicProcedure } from '../../../create-context';
+import { adminProcedure } from '../../../create-context';
 import { countriesDB } from '@/backend/db/countries-db';
 
 // TranslatedString: either a plain string or an object with language keys
@@ -105,12 +105,13 @@ const countrySchema = z.object({
   isUnlockedByDefault: z.boolean().optional(),
 });
 
-export default publicProcedure
+export default adminProcedure
   .input(z.object({
     countries: z.array(countrySchema),
   }))
   .mutation(async ({ input }) => {
-    await countriesDB.clear();
-    const created = await countriesDB.bulkCreate(input.countries);
-    return { updated: created.length, total: input.countries.length };
+    // Atomic replace: writes to disk first, then swaps in-memory.
+    // If the disk write fails, old data is preserved — no data loss.
+    const count = await countriesDB.replaceAll(input.countries);
+    return { updated: count, total: input.countries.length };
   });

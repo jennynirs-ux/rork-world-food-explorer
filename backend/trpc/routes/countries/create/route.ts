@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { publicProcedure } from '../../../create-context';
+import { adminProcedure } from '../../../create-context';
 import { countriesDB } from '@/backend/db/countries-db';
 
 const recipeSchema = z.object({
@@ -50,7 +50,7 @@ const countrySchema = z.object({
   }),
 });
 
-export default publicProcedure
+export default adminProcedure
   .input(countrySchema)
   .mutation(async ({ input }) => {
     const country = await countriesDB.create(input);

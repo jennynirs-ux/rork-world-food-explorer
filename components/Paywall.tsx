@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert } from 'react-native';
 import { Lock, Globe, X, Check, RotateCcw } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { MONETIZATION_PRODUCTS, PRODUCT_IDS } from '@/constants/monetization';
 import { Country, TranslatedString } from '@/types';
 import { getCountriesByContinent } from '@/lib/access-control';
-import { purchaseProductById, restorePurchases, isPurchasesConfigured } from '@/lib/purchases';
+import { purchaseProductById, restorePurchases, isPurchasesConfigured, getOfferings } from '@/lib/purchases';
 import { hapticHeavy, hapticSuccess, hapticError } from '@/lib/haptics';
 
 function getTranslatedName(name: TranslatedString): string {
@@ -32,6 +32,29 @@ export default function Paywall({
 }: PaywallProps) {
   const [purchasing, setPurchasing] = useState<string | null>(null);
   const [restoring, setRestoring] = useState(false);
+
+  // Fetch localized prices from RevenueCat offerings
+  const [dynamicPrices, setDynamicPrices] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    if (!visible) return;
+    let cancelled = false;
+    const loadPrices = async () => {
+      try {
+        const packages = await getOfferings();
+        if (cancelled || packages.length === 0) return;
+        const prices: Record<string, string> = {};
+        for (const pkg of packages) {
+          prices[pkg.product.identifier] = pkg.product.priceString;
+        }
+        setDynamicPrices(prices);
+      } catch {
+        // Fall back to hardcoded prices — non-fatal
+      }
+    };
+    void loadPrices();
+    return () => { cancelled = true; };
+  }, [visible]);
 
   const handlePurchase = async (productId: string) => {
     hapticHeavy();
@@ -173,7 +196,7 @@ export default function Paywall({
                         styles.productPrice,
                         isWorldUnlock && styles.productPriceFeatured
                       ]}>
-                        {product.price}
+                        {dynamicPrices[product.id] || product.price}
                       </Text>
 
                       {purchased ? (

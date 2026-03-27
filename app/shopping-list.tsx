@@ -64,7 +64,16 @@ export default function ShoppingListScreen() {
             </TouchableOpacity>
             <TouchableOpacity
               style={[styles.actionButton, styles.actionButtonDanger]}
-              onPress={clearShoppingList}
+              onPress={() => {
+                Alert.alert(
+                  'Clear Shopping List',
+                  'Remove all items from your shopping list?',
+                  [
+                    { text: 'Cancel', style: 'cancel' },
+                    { text: 'Clear All', style: 'destructive', onPress: clearShoppingList },
+                  ]
+                );
+              }}
             >
               <Trash2 size={20} color="#EF4444" />
               <Text style={styles.actionButtonTextDanger}>{t.shopping.clearAll}</Text>

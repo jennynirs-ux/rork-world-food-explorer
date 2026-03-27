@@ -29,6 +29,14 @@ jobs:
       - name: Run TypeScript type check
         run: bunx tsc --noEmit
 
+      - name: Validate env vars script compiles
+        run: bunx tsx scripts/validate-env.ts
+        continue-on-error: true
+
+      - name: Validate submit script compiles
+        run: bunx tsx scripts/validate-submit.ts
+        continue-on-error: true
+
   test:
     name: Unit Tests
     runs-on: ubuntu-latest

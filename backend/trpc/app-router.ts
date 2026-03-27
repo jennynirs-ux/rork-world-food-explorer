@@ -1,5 +1,4 @@
 import { createTRPCRouter } from "./create-context";
-import hiRoute from "./routes/example/hi/route";
 import getAllCountries from "./routes/countries/get-all/route";
 import getCountryById from "./routes/countries/get-by-id/route";
 import createCountry from "./routes/countries/create/route";
@@ -12,9 +11,6 @@ import { applyProcedure } from "./routes/referrals/apply/route";
 import { getStatsProcedure } from "./routes/referrals/get-stats/route";
 
 export const appRouter = createTRPCRouter({
-  example: createTRPCRouter({
-    hi: hiRoute,
-  }),
   countries: createTRPCRouter({
     getAll: getAllCountries,
     getById: getCountryById,

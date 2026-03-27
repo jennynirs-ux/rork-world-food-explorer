@@ -21,8 +21,9 @@ class ErrorBoundary extends Component<Props, State> {
   }
 
   componentDidCatch(error: Error, errorInfo: ErrorInfo) {
-    // Log to console in dev; in production you'd send to a crash reporter
-    console.error('ErrorBoundary caught:', error, errorInfo.componentStack);
+    if (__DEV__) {
+      console.error('ErrorBoundary caught:', error, errorInfo.componentStack);
+    }
   }
 
   handleReset = () => {

@@ -210,7 +210,7 @@ export default function CountryDetailScreen() {
 
     const scaledIngredients = recipe.ingredients.map(ing => ({
       name: ing.name,
-      amount: (ing.amount / recipe.servings) * recipeServings,
+      amount: (ing.amount / (recipe.servings || 1)) * recipeServings,
       unit: ing.unit,
     }));
 
@@ -326,7 +326,9 @@ export default function CountryDetailScreen() {
     ).length;
 
     const score = correctCount;
-    const points = Math.round((correctCount / country.quiz.length) * 20);
+    const points = country.quiz.length > 0
+      ? Math.round((correctCount / country.quiz.length) * 20)
+      : 0;
 
     if (correctCount === country.quiz.length) {
       hapticSuccess();

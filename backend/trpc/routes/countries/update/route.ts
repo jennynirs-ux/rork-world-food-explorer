@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { publicProcedure } from '../../../create-context';
+import { adminProcedure } from '../../../create-context';
 import { countriesDB } from '@/backend/db/countries-db';
 
 const recipeSchema = z.object({
@@ -19,7 +19,7 @@ const recipeSchema = z.object({
   imageUrl: z.string().optional(),
 });
 
-export default publicProcedure
+export default adminProcedure
   .input(z.object({
     id: z.string(),
     updates: z.object({

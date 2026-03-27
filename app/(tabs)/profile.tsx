@@ -1,9 +1,9 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch, Linking } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell, Send } from 'lucide-react-native';
+import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell, Send, Shield, FileText } from 'lucide-react-native';
 import { DietType } from '@/types';
 import { useState, useEffect } from 'react';
 import { enableNotifications, disableNotifications, areNotificationsEnabled } from '@/lib/notifications';
@@ -295,6 +295,31 @@ export default function ProfileScreen() {
               </View>
             </View>
           </View>
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Legal</Text>
+          <TouchableOpacity
+            style={styles.menuButton}
+            onPress={() =>
+              Linking.openURL('https://worldfoodexplorer.app/privacy')
+            }
+          >
+            <Shield size={20} color="#FF6B35" />
+            <Text style={styles.menuButtonText}>Privacy Policy</Text>
+            <ChevronRight size={20} color="#9CA3AF" />
+          </TouchableOpacity>
+          <View style={{ height: 8 }} />
+          <TouchableOpacity
+            style={styles.menuButton}
+            onPress={() =>
+              Linking.openURL('https://worldfoodexplorer.app/terms')
+            }
+          >
+            <FileText size={20} color="#FF6B35" />
+            <Text style={styles.menuButtonText}>Terms of Service</Text>
+            <ChevronRight size={20} color="#9CA3AF" />
+          </TouchableOpacity>
         </View>
 
         <View style={styles.section}>

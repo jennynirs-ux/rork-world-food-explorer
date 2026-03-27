@@ -12,7 +12,11 @@ export function useNetworkStatus() {
     try {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 5000);
-      await fetch('https://clients3.google.com/generate_204', {
+      // Ping own API instead of Google to avoid privacy/GDPR issues
+      // and work in regions where Google is blocked.
+      const baseUrl =
+        process.env.EXPO_PUBLIC_RORK_API_BASE_URL || 'https://api.worldfoodexplorer.app';
+      await fetch(baseUrl, {
         method: 'HEAD',
         signal: controller.signal,
       });

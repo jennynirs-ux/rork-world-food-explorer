@@ -4,9 +4,27 @@ import { cors } from "hono/cors";
 import { appRouter } from "./trpc/app-router";
 import { createContext } from "./trpc/create-context";
 
+const IS_PRODUCTION = process.env.NODE_ENV === "production";
+
 const app = new Hono();
 
-app.use("*", cors());
+// ── CORS — restrict origins in production ─────────────────────
+app.use(
+  "*",
+  cors(
+    IS_PRODUCTION
+      ? {
+          origin: [
+            "https://worldfoodexplorer.app",
+            "https://api.worldfoodexplorer.app",
+          ],
+          allowMethods: ["GET", "POST", "OPTIONS"],
+          allowHeaders: ["Content-Type", "x-api-key", "Authorization"],
+          maxAge: 86400,
+        }
+      : undefined // wide-open cors in dev
+  )
+);
 
 // ── Simple in-memory rate limiter ────────────────────────────────
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
@@ -40,30 +58,24 @@ app.use("/api/*", async (c, next) => {
 });
 
 // Clean up stale rate-limit entries every 5 minutes
-setInterval(() => {
+const cleanupTimer = setInterval(() => {
   const now = Date.now();
   for (const [key, entry] of rateLimitMap) {
     if (now > entry.resetAt) rateLimitMap.delete(key);
   }
 }, 5 * 60_000);
+cleanupTimer.unref(); // Allow process to exit cleanly
 
-// ── Optional API key gate (set WFE_API_KEY env var to enable) ───
-app.use("/api/*", async (c, next) => {
-  const requiredKey = process.env.WFE_API_KEY;
-  if (!requiredKey) {
-    // No key configured — allow all requests (dev mode)
-    return next();
-  }
-
-  const provided =
-    c.req.header("x-api-key") || c.req.header("authorization")?.replace("Bearer ", "");
-
-  if (provided !== requiredKey) {
-    return c.json({ error: "Unauthorized" }, 401);
-  }
-
-  await next();
-});
+// ── Auth strategy ─────────────────────────────────────────────
+// Public read routes (getAll, getById, referral queries) require NO API key
+// — the mobile app calls these directly without credentials.
+// Write/mutation routes are protected by `adminProcedure` in the tRPC layer
+// (see backend/trpc/create-context.ts) which requires `x-api-key` header.
+//
+// This means:
+//  - Mobile app → public queries work without API key
+//  - Admin tools → mutations require x-api-key header
+//  - The API key is NEVER embedded in the mobile client
 
 app.use(
   "/api/trpc/*",

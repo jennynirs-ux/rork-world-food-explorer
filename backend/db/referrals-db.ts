@@ -1,31 +1,60 @@
 import { Referral } from '@/types';
 import * as fs from 'fs';
 import * as path from 'path';
+import * as crypto from 'crypto';
 
-const DB_DIR = process.env.WFE_DB_DIR || '.data';
+const DB_DIR = path.resolve(process.env.WFE_DB_DIR || '.data');
 const REFERRALS_PATH = path.resolve(DB_DIR, 'referrals.json');
 const CODES_PATH = path.resolve(DB_DIR, 'referral-codes.json');
 
-function ensureDir() {
+function ensureDirSync() {
   if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
 }
 
 function loadReferrals(): Referral[] {
-  try { ensureDir(); if (fs.existsSync(REFERRALS_PATH)) return JSON.parse(fs.readFileSync(REFERRALS_PATH, 'utf-8')); } catch {}
+  try {
+    ensureDirSync();
+    if (fs.existsSync(REFERRALS_PATH)) {
+      return JSON.parse(fs.readFileSync(REFERRALS_PATH, 'utf-8'));
+    }
+  } catch (err) {
+    console.error('[referrals-db] Failed to load referrals:', err);
+  }
   return [];
 }
 
 function loadCodes(): Map<string, string> {
-  try { ensureDir(); if (fs.existsSync(CODES_PATH)) return new Map(Object.entries(JSON.parse(fs.readFileSync(CODES_PATH, 'utf-8')))); } catch {}
+  try {
+    ensureDirSync();
+    if (fs.existsSync(CODES_PATH)) {
+      return new Map(
+        Object.entries(JSON.parse(fs.readFileSync(CODES_PATH, 'utf-8')))
+      );
+    }
+  } catch (err) {
+    console.error('[referrals-db] Failed to load codes:', err);
+  }
   return new Map();
 }
 
-function saveReferrals(data: Referral[]) {
-  try { ensureDir(); fs.writeFileSync(REFERRALS_PATH, JSON.stringify(data), 'utf-8'); } catch {}
+/** Atomic async write: write to temp file, then rename. */
+async function safeWrite(filePath: string, data: string): Promise<void> {
+  try {
+    ensureDirSync();
+    const tmpPath = filePath + '.tmp';
+    await fs.promises.writeFile(tmpPath, data, 'utf-8');
+    await fs.promises.rename(tmpPath, filePath);
+  } catch (err) {
+    console.error(`[referrals-db] Failed to persist ${path.basename(filePath)}:`, err);
+  }
 }
 
-function saveCodes(data: Map<string, string>) {
-  try { ensureDir(); fs.writeFileSync(CODES_PATH, JSON.stringify(Object.fromEntries(data)), 'utf-8'); } catch {}
+async function saveReferrals(data: Referral[]): Promise<void> {
+  await safeWrite(REFERRALS_PATH, JSON.stringify(data));
+}
+
+async function saveCodes(data: Map<string, string>): Promise<void> {
+  await safeWrite(CODES_PATH, JSON.stringify(Object.fromEntries(data)));
 }
 
 let referralsStore: Referral[] = loadReferrals();
@@ -33,10 +62,12 @@ let userReferralCodes: Map<string, string> = loadCodes();
 
 export const referralsDB = {
   generateReferralCode: (): string => {
+    // Use crypto.randomBytes for unpredictable codes instead of Math.random
+    const bytes = crypto.randomBytes(6);
     const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
     let code = '';
     for (let i = 0; i < 8; i++) {
-      code += chars.charAt(Math.floor(Math.random() * chars.length));
+      code += chars.charAt(bytes[i % bytes.length] % chars.length);
     }
     return code;
   },
@@ -47,7 +78,7 @@ export const referralsDB = {
     }
     const newCode = referralsDB.generateReferralCode();
     userReferralCodes.set(userId, newCode);
-    saveCodes(userReferralCodes);
+    await saveCodes(userReferralCodes);
     return newCode;
   },
 
@@ -69,7 +100,7 @@ export const referralsDB = {
     }
 
     const referral: Referral = {
-      id: `ref-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      id: `ref-${Date.now()}-${crypto.randomBytes(6).toString('hex')}`,
       referrerCode,
       refereeCode,
       status: 'pending',
@@ -77,7 +108,7 @@ export const referralsDB = {
     };
 
     referralsStore.push(referral);
-    saveReferrals(referralsStore);
+    await saveReferrals(referralsStore);
     return referral;
   },
 
@@ -89,7 +120,7 @@ export const referralsDB = {
 
     referral.status = 'completed';
     referral.completedDate = new Date().toISOString();
-    saveReferrals(referralsStore);
+    await saveReferrals(referralsStore);
     return referral;
   },
 

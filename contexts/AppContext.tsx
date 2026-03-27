@@ -43,13 +43,17 @@ export const [AppProvider, useApp] = createContextHook(() => {
   const [countries, setCountries] = useState(localCountries);
   const [isLoading, setIsLoading] = useState(true);
 
-  const countriesQuery = trpc.countries.getAll.useQuery(undefined, {
-    refetchOnWindowFocus: false,
-    refetchOnMount: false,
-  });
-
   const [hasInitialized, setHasInitialized] = useState(false);
   const [userId, setUserId] = useState<string>('');
+
+  // Pass userId to the server so it can verify entitlements via RevenueCat
+  const countriesQuery = trpc.countries.getAll.useQuery(
+    userId ? { userId } : undefined,
+    {
+      refetchOnWindowFocus: false,
+      refetchOnMount: false,
+    }
+  );
   const [referralStats, setReferralStats] = useState({ referralCount: 0, completedCount: 0, freeMonthsEarned: 0 });
 
   const referralCodeQuery = trpc.referrals.getCode.useQuery(
@@ -93,7 +97,11 @@ export const [AppProvider, useApp] = createContextHook(() => {
       try {
         let storedUserId = await AsyncStorage.getItem('@world_cooking_user_id');
         if (!storedUserId) {
-          storedUserId = `user-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
+          // Use crypto.getRandomValues for unpredictable user IDs
+          const bytes = new Uint8Array(16);
+          crypto.getRandomValues(bytes);
+          const hex = Array.from(bytes, (b) => b.toString(16).padStart(2, '0')).join('');
+          storedUserId = `user-${hex}`;
           await AsyncStorage.setItem('@world_cooking_user_id', storedUserId);
         }
         setUserId(storedUserId);
@@ -158,7 +166,12 @@ export const [AppProvider, useApp] = createContextHook(() => {
     void initializeNotifications();
   }, []);
 
+  // Sync local country data to the server — dev only.
+  // In production, the server is the source of truth (seeded via admin scripts).
+  // The bulkUpdate route requires adminProcedure, so it would fail from the
+  // mobile client in production anyway.
   useEffect(() => {
+    if (!__DEV__) return;
     if (countriesQuery.data !== undefined && !hasInitialized) {
       setHasInitialized(true);
       const syncCountries = async () => {
@@ -166,7 +179,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
           await bulkUpdateMutation.mutateAsync({ countries: localCountries });
           await countriesQuery.refetch();
         } catch (error) {
-          if (__DEV__) console.error('Error syncing countries:', error);
+          console.error('Error syncing countries (dev only):', error);
         }
       };
       void syncCountries();

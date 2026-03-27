@@ -24,8 +24,8 @@
       "channel": "staging",
       "env": {
         "EXPO_PUBLIC_RORK_API_BASE_URL": "https://staging-api.worldfoodexplorer.app",
-        "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "",
-        "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": ""
+        "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "REPLACE_WITH_STAGING_IOS_KEY",
+        "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": "REPLACE_WITH_STAGING_ANDROID_KEY"
       }
     },
     "production": {
@@ -33,17 +33,17 @@
       "channel": "production",
       "env": {
         "EXPO_PUBLIC_RORK_API_BASE_URL": "https://api.worldfoodexplorer.app",
-        "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "",
-        "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": ""
+        "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "REPLACE_WITH_PRODUCTION_IOS_KEY",
+        "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": "REPLACE_WITH_PRODUCTION_ANDROID_KEY"
       }
     }
   },
   "submit": {
     "production": {
       "ios": {
-        "appleId": "APPLE_ID_HERE",
-        "ascAppId": "ASC_APP_ID_HERE",
-        "appleTeamId": "APPLE_TEAM_ID_HERE"
+        "appleId": "REPLACE_WITH_APPLE_ID",
+        "ascAppId": "REPLACE_WITH_ASC_APP_ID",
+        "appleTeamId": "REPLACE_WITH_APPLE_TEAM_ID"
       },
       "android": {
         "serviceAccountKeyPath": "./google-service-account.json",
