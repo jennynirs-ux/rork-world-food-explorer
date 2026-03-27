@@ -49,3 +49,6 @@ node_modules
 # Migration script output
 translation-log.txt
 .data/
+
+# Claude Code
+.claude/

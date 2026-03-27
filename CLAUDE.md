@@ -83,6 +83,7 @@ eas submit --profile production  # Submit to stores (run validate-submit first!)
 
 - **No cloud sync for user progress** — uninstall loses all data
 - **In-memory rate limiter** — resets on server restart, doesn't work multi-instance
-- **Backend DB uses synchronous file I/O** — adequate for current scale, needs migration for high traffic
 - **Analytics are local-only** — no external analytics service integration
-- **No privacy policy / ToS page** — required by App Store for IAP apps
+- **Privacy policy / ToS pages need hosting** — links added in-app but pages must be published at worldfoodexplorer.app/privacy and worldfoodexplorer.app/terms
+- **Referral system has no abuse protection** — unlimited cross-referral between self-created accounts
+- **Race condition on concurrent DB writes** — no mutex/write queue on in-memory store
