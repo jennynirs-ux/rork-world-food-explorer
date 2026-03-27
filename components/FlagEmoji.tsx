@@ -1,4 +1,4 @@
-import { Text, Image, Platform, StyleSheet } from 'react-native';
+import { Text, Image, Platform } from 'react-native';
 
 interface FlagEmojiProps {
   flag: string;
