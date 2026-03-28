@@ -48,7 +48,7 @@ export default function ExploreScreen() {
   const MAP_HEIGHT = 450;
 
   const countryPins = countries
-    .filter(country => country.coordinates && country.coordinates.x != null && country.coordinates.y != null)
+    .filter(country => country.coordinates && country.coordinates.x != null && country.coordinates.y != null && isCountryAccessible(country, purchasedProducts))
     .map(country => {
       const lng = (country.coordinates!.x / MAP_WIDTH) * 360 - 180;
       const lat = 90 - (country.coordinates!.y / MAP_HEIGHT) * 180;
