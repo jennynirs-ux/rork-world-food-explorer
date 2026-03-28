@@ -204,8 +204,9 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
       const country = getCountryFromFeature(feat);
       if (!country) continue;
 
-      const isFiltered = filterStatus && country.status !== filterStatus;
-      if (isFiltered) continue;
+      // Locked countries are always tappable; only skip filtered unlocked ones
+      const isLocked = country.status === 'locked';
+      if (!isLocked && filterStatus && country.status !== filterStatus) continue;
 
       if (geoContains(feat, coords)) {
         hapticMedium();
@@ -298,8 +299,9 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
     return worldData.features.map((feat: GeoFeature, idx: number) => {
       const country = getCountryFromFeature(feat);
       if (!country) return null;
-      const isFiltered = filterStatus && country.status !== filterStatus;
-      if (isFiltered) return null;
+      // Locked countries always show (as grey pins); only filter unlocked countries
+      const isLocked = country.status === 'locked';
+      if (!isLocked && filterStatus && country.status !== filterStatus) return null;
       const centroid = getCountryCentroid(feat);
       if (!centroid) return null;
       const [x, y] = centroid;
