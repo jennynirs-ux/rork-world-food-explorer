@@ -13,6 +13,7 @@ import { useRouter } from 'expo-router';
 import { ArrowLeft, Plus, Trash2, Send } from 'lucide-react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useApp } from '@/contexts/AppContext';
+import { useTranslation } from '@/lib/i18n';
 import { hapticLight, hapticSuccess } from '@/lib/haptics';
 import colors from '@/constants/colors';
 
@@ -24,6 +25,7 @@ const DRAFT_KEY = '@world_cooking_recipe_draft';
 export default function SubmitRecipeScreen() {
   const router = useRouter();
   const { userProfile } = useApp();
+  const { t } = useTranslation();
 
   const [recipeName, setRecipeName] = useState('');
   const [countryOrigin, setCountryOrigin] = useState('');
@@ -103,19 +105,19 @@ export default function SubmitRecipeScreen() {
   const handleSubmit = async () => {
     // Validate
     if (!recipeName.trim()) {
-      Alert.alert('Missing Info', 'Please enter a recipe name');
+      Alert.alert(t.submitRecipe.missingInfo, t.submitRecipe.recipeName_required);
       return;
     }
     if (!countryOrigin.trim()) {
-      Alert.alert('Missing Info', 'Please enter the country of origin');
+      Alert.alert(t.submitRecipe.missingInfo, t.submitRecipe.countryOrigin_required);
       return;
     }
     if (ingredients.filter(i => i.name.trim()).length === 0) {
-      Alert.alert('Missing Info', 'Please add at least one ingredient');
+      Alert.alert(t.submitRecipe.missingInfo, t.submitRecipe.ingredient_required);
       return;
     }
     if (steps.filter(s => s.trim()).length === 0) {
-      Alert.alert('Missing Info', 'Please add at least one step');
+      Alert.alert(t.submitRecipe.missingInfo, t.submitRecipe.step_required);
       return;
     }
 
@@ -152,12 +154,12 @@ export default function SubmitRecipeScreen() {
       hapticSuccess();
       await AsyncStorage.removeItem(DRAFT_KEY);
       Alert.alert(
-        'Recipe Submitted!',
-        'Thank you for sharing your recipe. It will be reviewed by our team.',
-        [{ text: 'OK', onPress: () => router.back() }],
+        t.submitRecipe.submitted,
+        t.submitRecipe.submittedMessage,
+        [{ text: t.common.ok, onPress: () => router.back() }],
       );
     } catch {
-      Alert.alert('Error', 'Failed to submit recipe. Please try again.');
+      Alert.alert(t.common.error, t.submitRecipe.submitError);
     } finally {
       setSubmitting(false);
     }
@@ -169,21 +171,21 @@ export default function SubmitRecipeScreen() {
         <TouchableOpacity onPress={() => router.back()} style={styles.backBtn}>
           <ArrowLeft size={24} color={colors.text} />
         </TouchableOpacity>
-        <Text style={styles.title}>Submit a Recipe</Text>
+        <Text style={styles.title}>{t.submitRecipe.title}</Text>
       </View>
 
       {draftRestored && (
         <View style={styles.draftBanner}>
-          <Text style={styles.draftBannerText}>Draft restored</Text>
+          <Text style={styles.draftBannerText}>{t.submitRecipe.draftRestored}</Text>
         </View>
       )}
 
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
         {/* Basic Info */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Basic Information</Text>
+          <Text style={styles.sectionTitle}>{t.submitRecipe.basicInfo}</Text>
 
-          <Text style={styles.label}>Recipe Name *</Text>
+          <Text style={styles.label}>{t.submitRecipe.recipeName}</Text>
           <TextInput
             style={styles.textInput}
             placeholder="e.g. Grandma's Chicken Soup"
@@ -192,7 +194,7 @@ export default function SubmitRecipeScreen() {
             onChangeText={setRecipeName}
           />
 
-          <Text style={styles.label}>Country of Origin *</Text>
+          <Text style={styles.label}>{t.submitRecipe.countryOrigin}</Text>
           <TextInput
             style={styles.textInput}
             placeholder="e.g. Sweden"
@@ -201,7 +203,7 @@ export default function SubmitRecipeScreen() {
             onChangeText={setCountryOrigin}
           />
 
-          <Text style={styles.label}>Description</Text>
+          <Text style={styles.label}>{t.submitRecipe.description}</Text>
           <TextInput
             style={[styles.textInput, styles.textArea]}
             placeholder="Brief description of the dish..."
@@ -214,7 +216,7 @@ export default function SubmitRecipeScreen() {
 
           <View style={styles.row}>
             <View style={styles.halfField}>
-              <Text style={styles.label}>Cooking Time (min)</Text>
+              <Text style={styles.label}>{t.submitRecipe.cookingTime}</Text>
               <TextInput
                 style={styles.textInput}
                 placeholder="30"
@@ -225,7 +227,7 @@ export default function SubmitRecipeScreen() {
               />
             </View>
             <View style={styles.halfField}>
-              <Text style={styles.label}>Servings</Text>
+              <Text style={styles.label}>{t.submitRecipe.servings}</Text>
               <TextInput
                 style={styles.textInput}
                 placeholder="4"
@@ -237,7 +239,7 @@ export default function SubmitRecipeScreen() {
             </View>
           </View>
 
-          <Text style={styles.label}>Difficulty</Text>
+          <Text style={styles.label}>{t.submitRecipe.difficulty}</Text>
           <View style={styles.difficultyRow}>
             {(['easy', 'medium', 'hard'] as const).map(d => (
               <TouchableOpacity
@@ -263,7 +265,7 @@ export default function SubmitRecipeScreen() {
 
         {/* Ingredients */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Ingredients</Text>
+          <Text style={styles.sectionTitle}>{t.submitRecipe.ingredients}</Text>
 
           {ingredients.map((ing, idx) => (
             <View key={idx} style={styles.ingredientRow}>
@@ -299,13 +301,13 @@ export default function SubmitRecipeScreen() {
 
           <TouchableOpacity style={styles.addBtn} onPress={addIngredient}>
             <Plus size={18} color={colors.terracotta} />
-            <Text style={styles.addBtnText}>Add Ingredient</Text>
+            <Text style={styles.addBtnText}>{t.submitRecipe.addIngredient}</Text>
           </TouchableOpacity>
         </View>
 
         {/* Steps */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Instructions</Text>
+          <Text style={styles.sectionTitle}>{t.submitRecipe.instructions}</Text>
 
           {steps.map((step, idx) => (
             <View key={idx} style={styles.stepRow}>
@@ -328,7 +330,7 @@ export default function SubmitRecipeScreen() {
 
           <TouchableOpacity style={styles.addBtn} onPress={addStep}>
             <Plus size={18} color={colors.terracotta} />
-            <Text style={styles.addBtnText}>Add Step</Text>
+            <Text style={styles.addBtnText}>{t.submitRecipe.addStep}</Text>
           </TouchableOpacity>
         </View>
 
@@ -341,7 +343,7 @@ export default function SubmitRecipeScreen() {
           >
             <Send size={20} color="#FFF" />
             <Text style={styles.submitBtnText}>
-              {submitting ? 'Submitting...' : 'Submit Recipe'}
+              {submitting ? t.submitRecipe.submitting : t.submitRecipe.submit}
             </Text>
           </TouchableOpacity>
         </View>

@@ -15,11 +15,13 @@ import { translateContent } from '@/lib/translate-content';
 import { hapticLight, hapticSuccess } from '@/lib/haptics';
 import { findMatchingRecipes, COMMON_INGREDIENTS, RecipeMatch } from '@/lib/ingredient-match';
 import DifficultyBadge from '@/components/DifficultyBadge';
+import { useTranslation } from '@/lib/i18n';
 import colors from '@/constants/colors';
 
 export default function IngredientMatchScreen() {
   const router = useRouter();
   const { countries, userProfile } = useApp();
+  const { t } = useTranslation();
   const lang = userProfile.language || 'en';
 
   const [selectedIngredients, setSelectedIngredients] = useState<string[]>([]);
@@ -71,8 +73,8 @@ export default function IngredientMatchScreen() {
           <ArrowLeft size={24} color={colors.text} />
         </TouchableOpacity>
         <View>
-          <Text style={styles.title}>What Can I Cook?</Text>
-          <Text style={styles.subtitle}>Enter ingredients you have</Text>
+          <Text style={styles.title}>{t.ingredientMatch.title}</Text>
+          <Text style={styles.subtitle}>{t.ingredientMatch.subtitle}</Text>
         </View>
       </View>
 
@@ -82,7 +84,7 @@ export default function IngredientMatchScreen() {
           <Search size={18} color={colors.textTertiary} />
           <TextInput
             style={styles.input}
-            placeholder="Type an ingredient..."
+            placeholder={t.ingredientMatch.placeholder}
             placeholderTextColor={colors.textTertiary}
             value={inputText}
             onChangeText={setInputText}
@@ -121,7 +123,7 @@ export default function IngredientMatchScreen() {
         {selectedIngredients.length < 3 && filteredSuggestions.length > 0 && (
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>
-              {selectedIngredients.length === 0 ? 'Common Ingredients' : 'Add more'}
+              {selectedIngredients.length === 0 ? t.ingredientMatch.commonIngredients : t.ingredientMatch.addMore}
             </Text>
             <View style={styles.suggestionGrid}>
               {filteredSuggestions.slice(0, 12).map(ing => (
@@ -143,13 +145,13 @@ export default function IngredientMatchScreen() {
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>
               {matches.length > 0
-                ? `${matches.length} recipe${matches.length !== 1 ? 's' : ''} found`
-                : 'No matches found'}
+                ? `${matches.length} ${t.ingredientMatch.recipesFound}`
+                : t.ingredientMatch.noMatches}
             </Text>
 
             {matches.length === 0 && selectedIngredients.length > 0 && (
               <Text style={styles.noMatchText}>
-                Try adding more ingredients or removing some to broaden the search.
+                {t.ingredientMatch.noMatchesHint}
               </Text>
             )}
 
@@ -171,7 +173,7 @@ export default function IngredientMatchScreen() {
                     </Text>
                     <Text style={styles.resultCountry}>
                       {match.countryName}
-                      {match.isDessert ? ' (dessert)' : ''}
+                      {match.isDessert ? ` ${t.ingredientMatch.dessert}` : ''}
                     </Text>
                     <View style={styles.matchRow}>
                       <View style={styles.matchBar}>
@@ -193,7 +195,7 @@ export default function IngredientMatchScreen() {
                       <Text style={styles.matchPercent}>{match.matchPercent}%</Text>
                     </View>
                     <Text style={styles.matchDetail}>
-                      {match.matchedIngredients.length} of {match.totalIngredients} ingredients
+                      {match.matchedIngredients.length} {t.ingredientMatch.of} {match.totalIngredients} {t.ingredientMatch.ingredients}
                     </Text>
                   </View>
                   <View style={styles.resultMeta}>

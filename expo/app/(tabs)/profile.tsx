@@ -314,7 +314,7 @@ export default function ProfileScreen() {
             accessibilityRole="button"
           >
             <Gift size={20} color="#FF6B35" />
-            <Text style={styles.menuButtonText}>Share / Enter Code</Text>
+            <Text style={styles.menuButtonText}>{t.profile.shareCode}</Text>
             <ChevronRight size={20} color="#9CA3AF" />
           </TouchableOpacity>
         </View>

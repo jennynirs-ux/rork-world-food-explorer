@@ -101,7 +101,7 @@ export default function ProgressScreen() {
               accessibilityLabel="Explore your first country"
               accessibilityRole="button"
             >
-              <Text style={styles.exploreCtaText}>Explore Your First Country</Text>
+              <Text style={styles.exploreCtaText}>{t.progress.exploreCta}</Text>
             </TouchableOpacity>
           </View>
         ) : (

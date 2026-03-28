@@ -147,7 +147,7 @@ export default function RecipesTab({
             </View>
 
             {!mainExpanded && (
-              <Text style={styles.tapHint}>Tap for full recipe</Text>
+              <Text style={styles.tapHint}>{t.country.tapForRecipe}</Text>
             )}
           </TouchableOpacity>
           <View style={styles.servingsSelector}>
@@ -362,7 +362,7 @@ export default function RecipesTab({
             </View>
 
             {!dessertExpanded && (
-              <Text style={styles.tapHint}>Tap for full recipe</Text>
+              <Text style={styles.tapHint}>{t.country.tapForRecipe}</Text>
             )}
           </TouchableOpacity>
           <View style={styles.servingsSelector}>

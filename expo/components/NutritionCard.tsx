@@ -1,6 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { Flame } from 'lucide-react-native';
 import { NutritionInfo } from '@/types';
+import { useTranslation } from '@/lib/i18n';
 import colors from '@/constants/colors';
 
 interface NutritionCardProps {
@@ -33,6 +34,7 @@ function MacroBar({
 }
 
 export default function NutritionCard({ nutrition, servingsMultiplier = 1 }: NutritionCardProps) {
+  const { t } = useTranslation();
   const cal = Math.round(nutrition.caloriesPerServing * servingsMultiplier);
   const protein = Math.round(nutrition.protein * servingsMultiplier);
   const carbs = Math.round(nutrition.carbs * servingsMultiplier);
@@ -46,7 +48,7 @@ export default function NutritionCard({ nutrition, servingsMultiplier = 1 }: Nut
     <View style={styles.container}>
       <View style={styles.header}>
         <Flame size={16} color={colors.terracotta} />
-        <Text style={styles.title}>Nutrition per serving</Text>
+        <Text style={styles.title}>{t.country.nutritionPerServing}</Text>
       </View>
 
       <View style={styles.calorieRow}>
@@ -55,15 +57,15 @@ export default function NutritionCard({ nutrition, servingsMultiplier = 1 }: Nut
       </View>
 
       <View style={styles.macros}>
-        <MacroBar label="Protein" grams={protein} color={colors.blue} maxGrams={maxGrams} />
-        <MacroBar label="Carbs" grams={carbs} color={colors.orange} maxGrams={maxGrams} />
-        <MacroBar label="Fat" grams={fat} color={colors.terracotta} maxGrams={maxGrams} />
+        <MacroBar label={t.country.protein} grams={protein} color={colors.blue} maxGrams={maxGrams} />
+        <MacroBar label={t.country.carbs} grams={carbs} color={colors.orange} maxGrams={maxGrams} />
+        <MacroBar label={t.country.fat} grams={fat} color={colors.terracotta} maxGrams={maxGrams} />
         {fiber !== null && fiber > 0 && (
-          <MacroBar label="Fiber" grams={fiber} color={colors.sage} maxGrams={maxGrams} />
+          <MacroBar label={t.country.fiber} grams={fiber} color={colors.sage} maxGrams={maxGrams} />
         )}
       </View>
 
-      <Text style={styles.disclaimer}>Estimated values</Text>
+      <Text style={styles.disclaimer}>{t.country.estimatedValues}</Text>
     </View>
   );
 }

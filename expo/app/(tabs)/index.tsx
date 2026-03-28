@@ -386,8 +386,18 @@ export default function ExploreScreen() {
               <CountryListSkeleton count={6} />
             ) : filteredCountries.length === 0 ? (
               <View style={styles.emptyListState}>
-                <Search size={48} color={colors.gray300} />
-                <Text style={styles.emptyListText}>No countries match your search</Text>
+                {filterStatus === 'favorites' ? (
+                  <>
+                    <Heart size={48} color={colors.gray300} />
+                    <Text style={styles.emptyListText}>{t.explore.noFavorites}</Text>
+                    <Text style={styles.emptyListSubtext}>{t.explore.noFavoritesDesc}</Text>
+                  </>
+                ) : (
+                  <>
+                    <Search size={48} color={colors.gray300} />
+                    <Text style={styles.emptyListText}>No countries match your search</Text>
+                  </>
+                )}
               </View>
             ) : (
               filteredCountries.map(renderCountryCard)
@@ -467,6 +477,13 @@ const styles = StyleSheet.create({
   emptyListText: {
     color: colors.gray400,
     fontSize: 16,
+  },
+  emptyListSubtext: {
+    color: colors.gray400,
+    fontSize: 14,
+    textAlign: 'center',
+    paddingHorizontal: 32,
+    lineHeight: 20,
   },
   scrollView: {
     flex: 1,

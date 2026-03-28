@@ -66,9 +66,9 @@ export default function CookingMode({
     }
   }, [visible]);
 
-  // Timer logic
+  // Timer logic — only depend on timerRunning to avoid recreating interval every tick
   useEffect(() => {
-    if (timerRunning && timerSeconds > 0) {
+    if (timerRunning) {
       intervalRef.current = setInterval(() => {
         setTimerSeconds(prev => {
           if (prev <= 1) {
@@ -84,7 +84,7 @@ export default function CookingMode({
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
-  }, [timerRunning, timerSeconds]);
+  }, [timerRunning]);
 
   const animateTransition = useCallback((direction: 'next' | 'prev') => {
     Animated.sequence([
