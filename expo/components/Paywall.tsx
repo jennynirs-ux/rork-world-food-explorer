@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert, Platform } from 'react-native';
 import { Lock, Globe, X, Check, RotateCcw } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { MONETIZATION_PRODUCTS, PRODUCT_IDS } from '@/constants/monetization';
@@ -90,15 +90,11 @@ export default function Paywall({
 
   const isRevenueCatReady = isPurchasesConfigured();
 
-  return (
-    <Modal
-      visible={visible}
-      animationType="slide"
-      transparent={true}
-      onRequestClose={onClose}
-    >
-      <TouchableOpacity style={styles.modalOverlay} activeOpacity={1} onPress={onClose}>
-        <TouchableOpacity style={styles.modalContent} activeOpacity={1} onPress={() => {}}>
+  if (!visible) return null;
+
+  const content = (
+    <TouchableOpacity style={styles.modalOverlay} activeOpacity={1} onPress={onClose}>
+      <TouchableOpacity style={styles.modalContent} activeOpacity={1} onPress={() => {}}>
           <TouchableOpacity style={styles.closeButton} onPress={onClose}>
             <X size={24} color={colors.text} />
           </TouchableOpacity>
@@ -232,11 +228,38 @@ export default function Paywall({
           </ScrollView>
         </TouchableOpacity>
       </TouchableOpacity>
+  );
+
+  // On web, Modal can be unreliable — use a full-screen absolute overlay instead
+  if (Platform.OS === 'web') {
+    return (
+      <View style={styles.webOverlay}>
+        {content}
+      </View>
+    );
+  }
+
+  return (
+    <Modal
+      visible={true}
+      animationType="slide"
+      transparent={true}
+      onRequestClose={onClose}
+    >
+      {content}
     </Modal>
   );
 }
 
 const styles = StyleSheet.create({
+  webOverlay: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    zIndex: 1000,
+  },
   modalOverlay: {
     flex: 1,
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
