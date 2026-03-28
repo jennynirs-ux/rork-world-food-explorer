@@ -21,7 +21,7 @@ export default function ExploreScreen() {
   const { t } = useTranslation();
   const purchasedProducts = useMemo(() => userProfile.purchasedProducts || [], [userProfile.purchasedProducts]);
   const router = useRouter();
-  const [viewMode, setViewMode] = useState<'map' | 'list' | 'favorites'>('map');
+  const [viewMode, setViewMode] = useState<'map' | 'list'>('map');
   const [searchQuery, setSearchQuery] = useState('');
   const [filterStatus, setFilterStatus] = useState<string | null>(null);
   const [showPaywall, setShowPaywall] = useState(false);
@@ -103,7 +103,7 @@ export default function ExploreScreen() {
     const name = translateContent(country.name);
     const matchesSearch = name.toLowerCase().includes(searchQuery.toLowerCase());
     if (!matchesSearch) return false;
-    
+
     if (!filterStatus) return true;
     if (filterStatus === 'favorites') {
       return (userProfile.favoriteCountries || []).includes(country.id);
@@ -112,9 +112,12 @@ export default function ExploreScreen() {
     return status === filterStatus;
   }).sort((a, b) => translateContent(a.name).localeCompare(translateContent(b.name)));
 
-  const favoriteCountries = useMemo(() =>
-    filteredCountries.filter(country => (userProfile.favoriteCountries || []).includes(country.id)),
-    [filteredCountries, userProfile.favoriteCountries]
+  const inProgressCountries = useMemo(() =>
+    countries.filter(country => {
+      const progress = countryProgress[country.id];
+      return progress && progress.visited && !progress.fullyCompleted;
+    }),
+    [countries, countryProgress]
   );
 
   useEffect(() => {
@@ -125,6 +128,13 @@ export default function ExploreScreen() {
     return () => clearTimeout(timer);
   }, [filteredCountries]);
 
+  const getInProgressPercentage = (countryId: string) => {
+    const progress = countryProgress[countryId];
+    if (!progress) return 0;
+    if (progress.fullyCompleted) return 100;
+    return (progress.mainDishCooked ? 50 : 0) + (progress.quizCompleted ? 50 : 0);
+  };
+
   const renderCountryCard = useCallback((country: Country) => {
     const progress = countryProgress[country.id];
     const completionPercentage = !progress ? 0 : progress.fullyCompleted ? 100 :
@@ -132,39 +142,30 @@ export default function ExploreScreen() {
     const isAccessible = isCountryAccessible(country, purchasedProducts);
 
     return (
-      <View key={country.id} style={styles.countryCard}>
-        <TouchableOpacity
-          onPress={() => handleCountryPress(country.id)}
-          accessibilityLabel={`${translateContent(country.name)} image`}
-          accessibilityRole="button"
-        >
-          <FoodImage
-            uri={country.landscapeImage}
-            alt={translateContent(country.name)}
-            type="landscape"
-            width={80}
-            style={styles.cardThumbnail}
-          />
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.flagButton}
-          onPress={() => handleCountryPress(country.id)}
-          accessibilityLabel={`${translateContent(country.name)} flag${!isAccessible ? ', locked' : ''}`}
-          accessibilityRole="button"
-        >
+      <TouchableOpacity
+        key={country.id}
+        style={styles.countryCard}
+        onPress={() => handleCountryPress(country.id)}
+        accessibilityLabel={`Explore ${translateContent(country.name)}, ${translateContent(country.continent)}${!isAccessible ? ', locked' : ''}`}
+        accessibilityRole="button"
+        activeOpacity={0.7}
+      >
+        <FoodImage
+          uri={country.landscapeImage}
+          alt={translateContent(country.name)}
+          type="landscape"
+          width={80}
+          style={styles.cardThumbnail}
+        />
+        <View style={styles.flagButton}>
           <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
           {!isAccessible && (
             <View style={styles.lockBadge}>
               <Lock size={12} color="#FFF" />
             </View>
           )}
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.countryInfo}
-          onPress={() => handleCountryPress(country.id)}
-          accessibilityLabel={`Explore ${translateContent(country.name)}, ${translateContent(country.continent)}${!isAccessible ? ', locked' : ''}`}
-          accessibilityRole="button"
-        >
+        </View>
+        <View style={styles.countryInfo}>
           <View style={styles.countryNameRow}>
             <Text style={styles.countryName}>{translateContent(country.name)}</Text>
             {!isAccessible && (
@@ -184,10 +185,86 @@ export default function ExploreScreen() {
               </View>
             </View>
           )}
-        </TouchableOpacity>
-      </View>
+        </View>
+      </TouchableOpacity>
     );
   }, [countryProgress, purchasedProducts, handleCountryPress]);
+
+  const renderFilterBar = () => (
+    <View style={styles.filterContainer}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.filterScrollContent}>
+        <TouchableOpacity
+          style={[styles.filterButton, filterStatus === null && styles.filterButtonActive]}
+          onPress={() => { hapticLight(); setFilterStatus(null); }}
+          accessibilityLabel={`Filter: All${filterStatus === null ? ', selected' : ''}`}
+          accessibilityRole="button"
+        >
+          <Circle size={10} color={filterStatus === null ? '#FFF' : colors.gray300} fill={filterStatus === null ? '#FFF' : colors.gray300} />
+          <Text style={[styles.filterText, filterStatus === null && styles.filterTextActive]}>{t.explore.all}</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.filterButton, filterStatus === 'favorites' && styles.filterButtonActive]}
+          onPress={() => { hapticLight(); setFilterStatus('favorites'); }}
+          accessibilityLabel={`Filter: Favorites${filterStatus === 'favorites' ? ', selected' : ''}`}
+          accessibilityRole="button"
+        >
+          <Heart size={14} color={filterStatus === 'favorites' ? '#FFF' : '#EF4444'} fill={filterStatus === 'favorites' ? '#FFF' : 'transparent'} />
+          <Text style={[styles.filterText, filterStatus === 'favorites' && styles.filterTextActive]}>{t.explore.favsView}</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.filterButton, filterStatus === 'to do' && styles.filterButtonActive]}
+          onPress={() => { hapticLight(); setFilterStatus('to do'); }}
+          accessibilityLabel={`Filter: To do${filterStatus === 'to do' ? ', selected' : ''}`}
+          accessibilityRole="button"
+        >
+          <Circle size={10} color={filterStatus === 'to do' ? '#FFF' : colors.gray300} fill={filterStatus === 'to do' ? '#FFF' : colors.gray300} />
+          <Text style={[styles.filterText, filterStatus === 'to do' && styles.filterTextActive]}>{t.explore.toDo}</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.filterButton, filterStatus === 'cooking' && styles.filterButtonActive]}
+          onPress={() => { hapticLight(); setFilterStatus('cooking'); }}
+          accessibilityLabel={`Filter: Cooking${filterStatus === 'cooking' ? ', selected' : ''}`}
+          accessibilityRole="button"
+        >
+          <UtensilsCrossed size={14} color={filterStatus === 'cooking' ? '#FFF' : colors.warningYellow} />
+          <Text style={[styles.filterText, filterStatus === 'cooking' && styles.filterTextActive]}>{t.explore.cooking}</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.filterButton, filterStatus === 'done' && styles.filterButtonActive]}
+          onPress={() => { hapticLight(); setFilterStatus('done'); }}
+          accessibilityLabel={`Filter: Done${filterStatus === 'done' ? ', selected' : ''}`}
+          accessibilityRole="button"
+        >
+          <CheckCircle2 size={14} color={filterStatus === 'done' ? '#FFF' : colors.successGreen} />
+          <Text style={[styles.filterText, filterStatus === 'done' && styles.filterTextActive]}>{t.explore.done}</Text>
+        </TouchableOpacity>
+      </ScrollView>
+    </View>
+  );
+
+  const renderInProgressStrip = () => {
+    if (inProgressCountries.length === 0) return null;
+    return (
+      <View style={styles.inProgressSection}>
+        <Text style={styles.inProgressTitle}>In Progress</Text>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.inProgressScroll}>
+          {inProgressCountries.map(country => (
+            <TouchableOpacity
+              key={country.id}
+              style={styles.inProgressCard}
+              onPress={() => handleCountryPress(country.id)}
+              accessibilityLabel={`Continue ${translateContent(country.name)}, ${getInProgressPercentage(country.id)}% complete`}
+              accessibilityRole="button"
+            >
+              <Text style={styles.inProgressFlag}>{country.flag}</Text>
+              <Text style={styles.inProgressName} numberOfLines={1}>{translateContent(country.name)}</Text>
+              <Text style={styles.inProgressPercent}>{getInProgressPercentage(country.id)}%</Text>
+            </TouchableOpacity>
+          ))}
+        </ScrollView>
+      </View>
+    );
+  };
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
@@ -205,7 +282,7 @@ export default function ExploreScreen() {
             accessibilityLabel={`Map view${viewMode === 'map' ? ', selected' : ''}`}
             accessibilityRole="button"
           >
-            <Globe2 size={18} color={viewMode === 'map' ? '#FFF' : '#6B7280'} />
+            <Globe2 size={18} color={viewMode === 'map' ? '#FFF' : colors.gray500} />
             <Text style={[styles.toggleLabel, viewMode === 'map' && styles.toggleLabelActive]}>{t.explore.mapView}</Text>
           </TouchableOpacity>
           <TouchableOpacity
@@ -214,143 +291,62 @@ export default function ExploreScreen() {
             accessibilityLabel={`List view${viewMode === 'list' ? ', selected' : ''}`}
             accessibilityRole="button"
           >
-            <List size={18} color={viewMode === 'list' ? '#FFF' : '#6B7280'} />
+            <List size={18} color={viewMode === 'list' ? '#FFF' : colors.gray500} />
             <Text style={[styles.toggleLabel, viewMode === 'list' && styles.toggleLabelActive]}>{t.explore.listView}</Text>
           </TouchableOpacity>
-          <TouchableOpacity
-            style={[styles.toggleButton, viewMode === 'favorites' && styles.toggleButtonActive]}
-            onPress={() => { hapticLight(); setViewMode('favorites'); }}
-            accessibilityLabel={`Favorites view${viewMode === 'favorites' ? ', selected' : ''}`}
-            accessibilityRole="button"
-          >
-            <Heart size={18} color={viewMode === 'favorites' ? '#FFF' : '#6B7280'} fill={viewMode === 'favorites' ? '#FFF' : 'transparent'} />
-            <Text style={[styles.toggleLabel, viewMode === 'favorites' && styles.toggleLabelActive]}>{t.explore.favsView}</Text>
-          </TouchableOpacity>
         </View>
       </View>
 
-      <View style={styles.quickActions}>
-        <TouchableOpacity
-          style={[styles.quickActionButton, styles.quickActionCook]}
-          onPress={() => { hapticLight(); router.push('/ingredient-match'); }}
-          accessibilityLabel="What can I cook"
-          accessibilityRole="button"
-        >
-          <ChefHat size={18} color="#E8590C" />
-          <View style={styles.quickActionTextContainer}>
-            <Text style={styles.quickActionText}>{t.explore.whatCanICook}</Text>
-            <Text style={styles.quickActionSubtitle}>Match your ingredients</Text>
-          </View>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[styles.quickActionButton, styles.quickActionCollections]}
-          onPress={() => { hapticLight(); router.push('/collections'); }}
-          accessibilityLabel="Collections"
-          accessibilityRole="button"
-        >
-          <BookOpen size={18} color="#16A34A" />
-          <View style={styles.quickActionTextContainer}>
-            <Text style={styles.quickActionText}>{t.explore.collections}</Text>
-            <Text style={styles.quickActionSubtitle}>Browse curated sets</Text>
-          </View>
-        </TouchableOpacity>
-      </View>
-
-      {viewMode === 'favorites' ? (
-        <View style={styles.listContainer}>
-          <View style={styles.searchContainer}>
-            <View style={styles.searchBar}>
-              <Search size={20} color="#9CA3AF" />
-              <TextInput
-                style={styles.searchInput}
-                placeholder={t.explore.searchFavorites}
-                placeholderTextColor="#9CA3AF"
-                value={searchQuery}
-                onChangeText={setSearchQuery}
-              />
-            </View>
-          </View>
-          
-          <ScrollView
-            style={styles.list}
-            showsVerticalScrollIndicator={false}
-            refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor="#FF6B35" />}
-          >
-            {isLoading && countries.length === 0 ? (
-              <CountryListSkeleton count={4} />
-            ) : (
-              favoriteCountries.map(renderCountryCard)
-            )}
-            {!isLoading && favoriteCountries.length === 0 && (
-              <View style={styles.emptyFavorites}>
-                <Heart size={64} color="#D1D5DB" />
-                <Text style={styles.emptyTitle}>{t.explore.noFavorites}</Text>
-                <Text style={styles.emptyText}>{t.explore.noFavoritesDesc}</Text>
-              </View>
-            )}
-            <View style={{ height: 20 }} />
-          </ScrollView>
-        </View>
-      ) : viewMode === 'map' ? (
+      {viewMode === 'map' ? (
         <View style={styles.mapViewContainer}>
-          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 100 }}>
+          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 20 }}>
+            {renderFilterBar()}
+            {renderInProgressStrip()}
+
             <View style={styles.section}>
               <View style={styles.globeWrapper}>
                 <Globe3D pins={countryPins} onCountryPress={handleCountryPress} filterStatus={filterStatus} accessibilityExploreHint={t.globe?.exploreHint} />
               </View>
-              
+            </View>
+
+            <View style={styles.quickActions}>
               <TouchableOpacity
-                style={styles.randomButton}
-                onPress={handleRandomCountry}
-                accessibilityLabel="Pick a random country"
+                style={[styles.quickActionButton, styles.quickActionCook]}
+                onPress={() => { hapticLight(); router.push('/ingredient-match'); }}
+                accessibilityLabel="What can I cook"
                 accessibilityRole="button"
               >
-                <Shuffle size={20} color="#FFF" />
-                <Text style={styles.randomButtonText}>{t.explore.pickRandom}</Text>
+                <ChefHat size={18} color="#E8590C" />
+                <View style={styles.quickActionTextContainer}>
+                  <Text style={styles.quickActionText}>{t.explore.whatCanICook}</Text>
+                  <Text style={styles.quickActionSubtitle}>Match your ingredients</Text>
+                </View>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[styles.quickActionButton, styles.quickActionCollections]}
+                onPress={() => { hapticLight(); router.push('/collections'); }}
+                accessibilityLabel="Collections"
+                accessibilityRole="button"
+              >
+                <BookOpen size={18} color="#16A34A" />
+                <View style={styles.quickActionTextContainer}>
+                  <Text style={styles.quickActionText}>{t.explore.collections}</Text>
+                  <Text style={styles.quickActionSubtitle}>Browse curated sets</Text>
+                </View>
               </TouchableOpacity>
             </View>
 
             <View style={{ height: 20 }} />
           </ScrollView>
 
-          <View style={styles.filterContainer}>
-            <TouchableOpacity
-              style={[styles.filterButton, filterStatus === null && styles.filterButtonActive]}
-              onPress={() => { hapticLight(); setFilterStatus(null); }}
-              accessibilityLabel={`Filter: All${filterStatus === null ? ', selected' : ''}`}
-              accessibilityRole="button"
-            >
-              <Circle size={10} color={filterStatus === null ? '#FFF' : '#D1D5DB'} fill={filterStatus === null ? '#FFF' : '#D1D5DB'} />
-              <Text style={[styles.filterText, filterStatus === null && styles.filterTextActive]}>{t.explore.all}</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={[styles.filterButton, filterStatus === 'to do' && styles.filterButtonActive]}
-              onPress={() => { hapticLight(); setFilterStatus('to do'); }}
-              accessibilityLabel={`Filter: To do${filterStatus === 'to do' ? ', selected' : ''}`}
-              accessibilityRole="button"
-            >
-              <Circle size={10} color={filterStatus === 'to do' ? '#FFF' : '#D1D5DB'} fill={filterStatus === 'to do' ? '#FFF' : '#D1D5DB'} />
-              <Text style={[styles.filterText, filterStatus === 'to do' && styles.filterTextActive]}>{t.explore.toDo}</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={[styles.filterButton, filterStatus === 'cooking' && styles.filterButtonActive]}
-              onPress={() => { hapticLight(); setFilterStatus('cooking'); }}
-              accessibilityLabel={`Filter: Cooking${filterStatus === 'cooking' ? ', selected' : ''}`}
-              accessibilityRole="button"
-            >
-              <UtensilsCrossed size={14} color={filterStatus === 'cooking' ? '#FFF' : '#F59E0B'} />
-              <Text style={[styles.filterText, filterStatus === 'cooking' && styles.filterTextActive]}>{t.explore.cooking}</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={[styles.filterButton, filterStatus === 'done' && styles.filterButtonActive]}
-              onPress={() => { hapticLight(); setFilterStatus('done'); }}
-              accessibilityLabel={`Filter: Done${filterStatus === 'done' ? ', selected' : ''}`}
-              accessibilityRole="button"
-            >
-              <CheckCircle2 size={14} color={filterStatus === 'done' ? '#FFF' : '#10B981'} />
-              <Text style={[styles.filterText, filterStatus === 'done' && styles.filterTextActive]}>{t.explore.done}</Text>
-            </TouchableOpacity>
-          </View>
+          <TouchableOpacity
+            style={styles.fab}
+            onPress={handleRandomCountry}
+            accessibilityLabel="Pick a random country"
+            accessibilityRole="button"
+          >
+            <Shuffle size={24} color="#FFF" />
+          </TouchableOpacity>
         </View>
       ) : (
         <View style={styles.listContainer}>
@@ -366,17 +362,20 @@ export default function ExploreScreen() {
               />
             </View>
           </View>
-          
+
+          {renderFilterBar()}
+          {renderInProgressStrip()}
+
           <ScrollView
             style={styles.list}
             showsVerticalScrollIndicator={false}
-            refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor="#FF6B35" />}
+            refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor={colors.brand} />}
           >
             {isLoading && countries.length === 0 ? (
               <CountryListSkeleton count={6} />
             ) : filteredCountries.length === 0 ? (
               <View style={styles.emptyListState}>
-                <Search size={48} color="#D1D5DB" />
+                <Search size={48} color={colors.gray300} />
                 <Text style={styles.emptyListText}>No countries match your search</Text>
               </View>
             ) : (
@@ -384,9 +383,36 @@ export default function ExploreScreen() {
             )}
             <View style={{ height: 20 }} />
           </ScrollView>
+
+          <View style={styles.quickActions}>
+            <TouchableOpacity
+              style={[styles.quickActionButton, styles.quickActionCook]}
+              onPress={() => { hapticLight(); router.push('/ingredient-match'); }}
+              accessibilityLabel="What can I cook"
+              accessibilityRole="button"
+            >
+              <ChefHat size={18} color="#E8590C" />
+              <View style={styles.quickActionTextContainer}>
+                <Text style={styles.quickActionText}>{t.explore.whatCanICook}</Text>
+                <Text style={styles.quickActionSubtitle}>Match your ingredients</Text>
+              </View>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.quickActionButton, styles.quickActionCollections]}
+              onPress={() => { hapticLight(); router.push('/collections'); }}
+              accessibilityLabel="Collections"
+              accessibilityRole="button"
+            >
+              <BookOpen size={18} color="#16A34A" />
+              <View style={styles.quickActionTextContainer}>
+                <Text style={styles.quickActionText}>{t.explore.collections}</Text>
+                <Text style={styles.quickActionSubtitle}>Browse curated sets</Text>
+              </View>
+            </TouchableOpacity>
+          </View>
         </View>
       )}
-      
+
       <Paywall
         visible={showPaywall}
         onClose={() => {
@@ -428,23 +454,22 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   emptyListText: {
-    color: '#9CA3AF',
+    color: colors.gray400,
     fontSize: 16,
   },
   scrollView: {
     flex: 1,
   },
   header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
     paddingHorizontal: 16,
-    paddingVertical: 16,
+    paddingTop: 16,
+    paddingBottom: 12,
   },
   title: {
-    fontSize: 32,
+    fontSize: 24,
     fontWeight: '700' as const,
-    color: '#2D1B00',
+    color: colors.text,
+    marginBottom: 12,
   },
   quickActions: {
     flexDirection: 'row',
@@ -480,80 +505,69 @@ const styles = StyleSheet.create({
   },
   quickActionSubtitle: {
     fontSize: 11,
-    color: '#9CA3AF',
+    color: colors.gray400,
     marginTop: 1,
   },
   viewToggle: {
     flexDirection: 'row',
-    backgroundColor: '#FFF',
+    backgroundColor: colors.surface,
     borderRadius: 12,
     padding: 4,
     gap: 4,
   },
   toggleButton: {
-    paddingHorizontal: 12,
-    paddingVertical: 6,
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    paddingVertical: 8,
     borderRadius: 8,
     alignItems: 'center',
-    gap: 2,
+    gap: 6,
   },
   toggleLabel: {
-    fontSize: 10,
+    fontSize: 14,
     fontWeight: '600' as const,
-    color: '#6B7280',
+    color: colors.gray500,
   },
   toggleLabelActive: {
     color: '#FFF',
   },
   toggleButtonActive: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: colors.brand,
   },
   mapViewContainer: {
     flex: 1,
   },
   section: {
-    marginBottom: 24,
+    marginBottom: 16,
     paddingHorizontal: 16,
   },
   globeWrapper: {
-    backgroundColor: '#FFF',
+    backgroundColor: colors.surface,
     borderRadius: 24,
     overflow: 'hidden',
     paddingVertical: 20,
   },
-  randomButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
+  fab: {
+    position: 'absolute',
+    right: 20,
+    bottom: 80,
+    width: 56,
+    height: 56,
+    borderRadius: 28,
+    backgroundColor: colors.brand,
     justifyContent: 'center',
-    backgroundColor: '#FF6B35',
-    paddingVertical: 16,
-    borderRadius: 16,
-    marginTop: 16,
-    gap: 8,
-    boxShadow: '0px 4px 8px rgba(255, 107, 53, 0.3)',
-    elevation: 4,
-  },
-  randomButtonText: {
-    color: '#FFF',
-    fontSize: 16,
-    fontWeight: '600' as const,
+    alignItems: 'center',
+    elevation: 6,
+    boxShadow: '0px 4px 12px rgba(255, 107, 53, 0.4)',
   },
   filterContainer: {
-    position: 'absolute',
-    bottom: 0,
-    left: 0,
-    right: 0,
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingVertical: 16,
-    paddingHorizontal: 24,
-    backgroundColor: '#FFF',
-    borderTopLeftRadius: 24,
-    borderTopRightRadius: 24,
+    paddingHorizontal: 16,
+    marginBottom: 12,
+  },
+  filterScrollContent: {
     gap: 8,
-    boxShadow: '0px -4px 8px rgba(0, 0, 0, 0.1)',
-    elevation: 8,
+    paddingVertical: 4,
   },
   filterButton: {
     flexDirection: 'row',
@@ -562,30 +576,69 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 16,
     borderRadius: 20,
-    backgroundColor: '#F3F4F6',
+    backgroundColor: colors.gray100,
   },
   filterButtonActive: {
-    backgroundColor: '#6B7280',
+    backgroundColor: colors.gray500,
   },
   filterText: {
     fontSize: 14,
     fontWeight: '600' as const,
-    color: '#6B7280',
+    color: colors.gray500,
   },
   filterTextActive: {
     color: '#FFF',
+  },
+  inProgressSection: {
+    paddingHorizontal: 16,
+    marginBottom: 12,
+  },
+  inProgressTitle: {
+    fontSize: 14,
+    fontWeight: '600' as const,
+    color: colors.textSecondary,
+    marginBottom: 8,
+  },
+  inProgressScroll: {
+    gap: 10,
+  },
+  inProgressCard: {
+    backgroundColor: colors.surface,
+    borderRadius: 12,
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    alignItems: 'center',
+    gap: 4,
+    minWidth: 80,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  inProgressFlag: {
+    fontSize: 24,
+  },
+  inProgressName: {
+    fontSize: 12,
+    fontWeight: '600' as const,
+    color: colors.text,
+    maxWidth: 70,
+    textAlign: 'center',
+  },
+  inProgressPercent: {
+    fontSize: 11,
+    fontWeight: '500' as const,
+    color: colors.warningYellow,
   },
   listContainer: {
     flex: 1,
   },
   searchContainer: {
     paddingHorizontal: 16,
-    marginBottom: 16,
+    marginBottom: 12,
   },
   searchBar: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#FFF',
+    backgroundColor: colors.surface,
     borderRadius: 12,
     paddingHorizontal: 16,
     paddingVertical: 12,
@@ -594,7 +647,7 @@ const styles = StyleSheet.create({
   searchInput: {
     flex: 1,
     fontSize: 16,
-    color: '#2D1B00',
+    color: colors.text,
   },
   list: {
     flex: 1,
@@ -602,7 +655,7 @@ const styles = StyleSheet.create({
   },
   countryCard: {
     flexDirection: 'row',
-    backgroundColor: '#FFF',
+    backgroundColor: colors.surface,
     borderRadius: 12,
     padding: 12,
     marginBottom: 12,
@@ -628,11 +681,11 @@ const styles = StyleSheet.create({
   countryName: {
     fontSize: 18,
     fontWeight: '600' as const,
-    color: '#2D1B00',
+    color: colors.text,
   },
   continent: {
     fontSize: 14,
-    color: '#6B7280',
+    color: colors.gray500,
   },
   progressContainer: {
     marginTop: 4,
@@ -645,18 +698,18 @@ const styles = StyleSheet.create({
   progressLabel: {
     fontSize: 11,
     fontWeight: '500' as const,
-    color: '#9CA3AF',
+    color: colors.gray400,
   },
   progressBar: {
     flex: 1,
     height: 6,
-    backgroundColor: '#E8D5C4',
+    backgroundColor: colors.sand,
     borderRadius: 3,
     overflow: 'hidden',
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#10B981',
+    backgroundColor: colors.successGreen,
     borderRadius: 3,
   },
   countryListSection: {
@@ -666,7 +719,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 20,
     fontWeight: '700' as const,
-    color: '#2D1B00',
+    color: colors.text,
     marginBottom: 16,
   },
   countryGrid: {
@@ -677,7 +730,7 @@ const styles = StyleSheet.create({
   countryChip: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#FFF',
+    backgroundColor: colors.surface,
     paddingVertical: 10,
     paddingHorizontal: 12,
     borderRadius: 12,
@@ -699,7 +752,7 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 14,
     fontWeight: '600' as const,
-    color: '#2D1B00',
+    color: colors.text,
   },
   emptyFavorites: {
     flex: 1,
@@ -711,13 +764,13 @@ const styles = StyleSheet.create({
   emptyTitle: {
     fontSize: 20,
     fontWeight: '700' as const,
-    color: '#2D1B00',
+    color: colors.text,
     marginTop: 24,
     marginBottom: 8,
   },
   emptyText: {
     fontSize: 16,
-    color: '#6B7280',
+    color: colors.gray500,
     textAlign: 'center',
     lineHeight: 24,
   },
@@ -733,14 +786,14 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: -4,
     right: -4,
-    backgroundColor: '#FF6B35',
+    backgroundColor: colors.brand,
     borderRadius: 10,
     width: 20,
     height: 20,
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 2,
-    borderColor: '#FFF',
+    borderColor: colors.surface,
   },
   flagLocked: {
     opacity: 0.5,
