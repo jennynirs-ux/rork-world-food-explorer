@@ -88,7 +88,7 @@ export default function RecipesTab({
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
 
-  const [expandedDish, setExpandedDish] = useState<'main' | 'dessert' | null>(initialExpandedDish || 'main');
+  const [expandedDish, setExpandedDish] = useState<'main' | 'dessert' | null>(initialExpandedDish ?? null);
 
   const toggleExpand = (dish: 'main' | 'dessert') => {
     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);

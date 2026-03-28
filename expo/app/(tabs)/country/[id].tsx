@@ -10,7 +10,7 @@ import { FoodImage } from '@/components/FoodImage';
 import { preloadImages } from '@/lib/image-utils';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import { useApp } from '@/contexts/AppContext';
 import { isCountryAccessible } from '@/lib/access-control';
 import { hapticSuccess, hapticError, hapticMedium, hapticSelection, hapticLight } from '@/lib/haptics';
@@ -60,6 +60,7 @@ export default function CountryDetailScreen() {
   
   const lang = userProfile.language || 'en';
   
+  const scrollViewRef = useRef<ScrollView>(null);
   const [activeTab, setActiveTab] = useState<'about' | 'recipes' | 'quiz'>('about');
   const [mainDishServings, setMainDishServings] = useState(4);
   const [dessertServings, setDessertServings] = useState(4);
@@ -68,6 +69,12 @@ export default function CountryDetailScreen() {
   const [showDessertRating, setShowDessertRating] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
   const [cookingMode, setCookingMode] = useState<{ steps: string[]; name: string; isDessert: boolean } | null>(null);
+
+  // Scroll to top and reset tab when navigating to a new country
+  useEffect(() => {
+    scrollViewRef.current?.scrollTo({ y: 0, animated: false });
+    setActiveTab('about');
+  }, [id]);
 
   const countryData = countries.find(c => c.id === id);
   const country = useTranslatedCountry(countryData, lang);
@@ -141,7 +148,7 @@ export default function CountryDetailScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.lockedContainer}>
-          <TouchableOpacity onPress={() => router.back()} style={styles.lockedBackButton}>
+          <TouchableOpacity onPress={() => router.replace('/(tabs)' as any)} style={styles.lockedBackButton}>
             <ArrowLeft size={24} color={colors.text} />
           </TouchableOpacity>
           
@@ -352,7 +359,7 @@ export default function CountryDetailScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
-      <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false} bounces={false}>
+      <ScrollView ref={scrollViewRef} style={styles.scrollView} showsVerticalScrollIndicator={false} bounces={false}>
         <View style={styles.bannerContainer}>
           <FoodImage
             uri={country.landscapeImage}
@@ -365,7 +372,7 @@ export default function CountryDetailScreen() {
           <View style={styles.headerButtons}>
             <View style={styles.leftButtons}>
               <TouchableOpacity
-                onPress={() => router.back()}
+                onPress={() => router.replace('/(tabs)' as any)}
                 style={styles.backButton}
               >
                 <ArrowLeft size={24} color="#FFF" />
