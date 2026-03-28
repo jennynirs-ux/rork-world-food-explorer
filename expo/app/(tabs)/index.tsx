@@ -69,15 +69,9 @@ export default function ExploreScreen() {
     const country = countries.find(c => c.id === countryId);
     if (!country) return;
 
-    const isAccessible = isCountryAccessible(country, purchasedProducts);
-    if (!isAccessible) {
-      setSelectedCountry(countryId);
-      setShowPaywall(true);
-      return;
-    }
-
+    // Always navigate — the country detail page handles its own lock/paywall
     router.push({ pathname: '/country/[id]' as any, params: { id: countryId } });
-  }, [countries, purchasedProducts, router]);
+  }, [countries, router]);
 
   const handleRefresh = useCallback(async () => {
     setRefreshing(true);
