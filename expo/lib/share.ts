@@ -2,6 +2,8 @@ import { Share, Platform } from 'react-native';
 import { Country, Recipe } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 
+const APP_LINK = 'https://worldfoodexplorer.app';
+
 /**
  * Share a recipe with ingredients and steps.
  */
@@ -35,12 +37,14 @@ export async function shareRecipe(
     '👩‍🍳 Instructions:',
     steps,
     '',
-    '— Shared from World Food Explorer',
+    `🌍 Explore more recipes on World Food Explorer`,
+    APP_LINK,
   ].join('\n');
 
   await Share.share({
     message,
     title: `${name} from ${countryName}`,
+    url: APP_LINK,
   });
 }
 
@@ -59,7 +63,8 @@ export async function shareCookedIt(
   const message = [
     `${flag} I just cooked ${recipeName} from ${countryName}!`,
     '',
-    '🍽 Made with World Food Explorer — explore cuisines from around the world!',
+    `🍽 Made with World Food Explorer — explore cuisines from around the world!`,
+    APP_LINK,
   ].join('\n');
 
   // On iOS/Android we can share the photo URI directly
@@ -73,6 +78,7 @@ export async function shareCookedIt(
     await Share.share({
       message,
       title: `I cooked ${recipeName}!`,
+      url: APP_LINK,
     });
   }
 }
@@ -103,11 +109,13 @@ export async function shareProgress(
     `⭐ ${stats.totalPoints} points earned`,
     `🔥 ${stats.dayStreak} day streak`,
     '',
-    'Join me on World Food Explorer!',
+    `Join me on World Food Explorer!`,
+    APP_LINK,
   ].join('\n');
 
   await Share.share({
     message,
     title: 'My World Food Explorer Stats',
+    url: APP_LINK,
   });
 }

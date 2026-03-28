@@ -7,6 +7,7 @@ import {
   Modal,
   Animated,
   Vibration,
+  Platform,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import {
@@ -19,7 +20,7 @@ import {
   Check,
   ChefHat,
 } from 'lucide-react-native';
-import { useKeepAwake } from 'expo-keep-awake';
+import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { hapticLight, hapticMedium, hapticSuccess } from '@/lib/haptics';
 
 interface CookingModeProps {
@@ -37,7 +38,14 @@ export default function CookingMode({
   recipeName,
   onComplete,
 }: CookingModeProps) {
-  useKeepAwake();
+  // Keep screen awake — wrapped in try/catch for sandboxed web environments
+  useEffect(() => {
+    if (!visible) return;
+    try { activateKeepAwakeAsync().catch(() => {}); } catch { /* blocked */ }
+    return () => {
+      try { deactivateKeepAwake(); } catch { /* ignore */ }
+    };
+  }, [visible]);
 
   const [currentStep, setCurrentStep] = useState(0);
   const [timerSeconds, setTimerSeconds] = useState(0);
@@ -158,14 +166,8 @@ export default function CookingMode({
 
   if (!visible) return null;
 
-  return (
-    <Modal
-      visible={visible}
-      animationType="slide"
-      presentationStyle="fullScreen"
-      statusBarTranslucent
-    >
-      <SafeAreaView style={styles.container} edges={['top', 'bottom']}>
+  const content = (
+    <SafeAreaView style={styles.container} edges={['top', 'bottom']}>
         {/* Header */}
         <View style={styles.header}>
           <TouchableOpacity onPress={onClose} style={styles.closeButton}>
@@ -302,11 +304,35 @@ export default function CookingMode({
           )}
         </View>
       </SafeAreaView>
+  );
+
+  // On web, Modal doesn't work reliably — use a full-screen absolute overlay
+  if (Platform.OS === 'web') {
+    return <View style={styles.webOverlay}>{content}</View>;
+  }
+
+  return (
+    <Modal
+      visible={true}
+      animationType="slide"
+      presentationStyle="fullScreen"
+      statusBarTranslucent
+      onRequestClose={onClose}
+    >
+      {content}
     </Modal>
   );
 }
 
 const styles = StyleSheet.create({
+  webOverlay: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    zIndex: 1000,
+  },
   container: {
     flex: 1,
     backgroundColor: '#1F2937',

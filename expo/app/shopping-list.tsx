@@ -19,7 +19,8 @@ export default function ShoppingListScreen() {
     
     try {
       await Share.share({
-        message: `Shopping List:\n\n${listText}`,
+        message: `🛒 Shopping List:\n\n${listText}\n\n🌍 Made with World Food Explorer\nhttps://worldfoodexplorer.app`,
+        url: 'https://worldfoodexplorer.app',
       });
     } catch {
       Alert.alert('Sharing failed', 'Could not share the shopping list. Please try again.');
