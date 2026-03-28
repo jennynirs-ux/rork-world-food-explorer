@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
+import { View, StyleSheet } from "react-native";
 import { Compass, Award, ShoppingCart, User, CalendarDays } from "lucide-react-native";
-import React from "react";
 
 export default function TabLayout() {
   return (
@@ -18,26 +18,13 @@ export default function TabLayout() {
           paddingTop: 8,
         },
         tabBarLabelStyle: {
-          fontSize: 12,
+          fontSize: 11,
           fontWeight: '600' as const,
-          marginTop: 4,
+          marginTop: 2,
         },
       }}
     >
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: "Explore",
-          tabBarIcon: ({ color, size }) => <Compass color={color} size={size} />,
-        }}
-      />
-      <Tabs.Screen
-        name="progress"
-        options={{
-          title: "Progress",
-          tabBarIcon: ({ color, size }) => <Award color={color} size={size} />,
-        }}
-      />
+      {/* Left side */}
       <Tabs.Screen
         name="meal-plan"
         options={{
@@ -48,8 +35,35 @@ export default function TabLayout() {
       <Tabs.Screen
         name="countries"
         options={{
-          title: "Shopping List",
+          title: "Shopping",
           tabBarIcon: ({ color, size }) => <ShoppingCart color={color} size={size} />,
+        }}
+      />
+
+      {/* Center — Explore (bigger icon) */}
+      <Tabs.Screen
+        name="index"
+        options={{
+          title: "Explore",
+          tabBarIcon: ({ color, focused }) => (
+            <View style={[styles.exploreIcon, focused && styles.exploreIconActive]}>
+              <Compass color={focused ? '#FFF' : color} size={28} />
+            </View>
+          ),
+          tabBarLabelStyle: {
+            fontSize: 12,
+            fontWeight: '700' as const,
+            marginTop: 4,
+          },
+        }}
+      />
+
+      {/* Right side */}
+      <Tabs.Screen
+        name="progress"
+        options={{
+          title: "Progress",
+          tabBarIcon: ({ color, size }) => <Award color={color} size={size} />,
         }}
       />
       <Tabs.Screen
@@ -59,6 +73,8 @@ export default function TabLayout() {
           tabBarIcon: ({ color, size }) => <User color={color} size={size} />,
         }}
       />
+
+      {/* Hidden route */}
       <Tabs.Screen
         name="country/[id]"
         options={{
@@ -68,3 +84,23 @@ export default function TabLayout() {
     </Tabs>
   );
 }
+
+const styles = StyleSheet.create({
+  exploreIcon: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+    backgroundColor: '#FFF3ED',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: -4,
+  },
+  exploreIconActive: {
+    backgroundColor: '#FF6B35',
+    shadowColor: '#FF6B35',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 6,
+  },
+});
