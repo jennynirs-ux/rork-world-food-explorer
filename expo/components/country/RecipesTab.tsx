@@ -38,9 +38,13 @@ type RecipesTabProps = {
   countryData: Country | undefined;
   progress: CountryProgress;
   lang: string;
-  recipeServings: number;
-  setRecipeServings: (n: number) => void;
-  servingsMultiplier: number;
+  mainDishServings: number;
+  setMainDishServings: (n: number) => void;
+  mainServingsMultiplier: number;
+  dessertServings: number;
+  setDessertServings: (n: number) => void;
+  dessertServingsMultiplier: number;
+  initialExpandedDish?: 'main' | 'dessert';
   showMainDishRating: boolean;
   setShowMainDishRating: (v: boolean) => void;
   showDessertRating: boolean;
@@ -60,9 +64,13 @@ export default function RecipesTab({
   countryData,
   progress,
   lang,
-  recipeServings,
-  setRecipeServings,
-  servingsMultiplier,
+  mainDishServings,
+  setMainDishServings,
+  mainServingsMultiplier,
+  dessertServings,
+  setDessertServings,
+  dessertServingsMultiplier,
+  initialExpandedDish,
   showMainDishRating,
   setShowMainDishRating,
   showDessertRating,
@@ -80,7 +88,7 @@ export default function RecipesTab({
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
 
-  const [expandedDish, setExpandedDish] = useState<'main' | 'dessert' | null>(null);
+  const [expandedDish, setExpandedDish] = useState<'main' | 'dessert' | null>(initialExpandedDish || 'main');
 
   const toggleExpand = (dish: 'main' | 'dessert') => {
     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
@@ -138,19 +146,23 @@ export default function RecipesTab({
               <DifficultyBadge difficulty={countryData?.mainDish?.difficulty} size="small" />
             </View>
 
+            {!mainExpanded && (
+              <Text style={styles.tapHint}>Tap for full recipe</Text>
+            )}
+
             <View style={styles.servingsSelector}>
               <Users size={16} color={colors.gray500} />
               <Text style={styles.servingsLabel}>{t.country.servings}:</Text>
               <TouchableOpacity
                 style={styles.servingsButton}
-                onPress={(e) => { e.stopPropagation(); setRecipeServings(Math.max(1, recipeServings - 1)); }}
+                onPress={(e) => { e.stopPropagation(); setMainDishServings(Math.max(1, mainDishServings - 1)); }}
               >
                 <Text style={styles.servingsButtonText}>-</Text>
               </TouchableOpacity>
-              <Text style={styles.servingsValue}>{recipeServings}</Text>
+              <Text style={styles.servingsValue}>{mainDishServings}</Text>
               <TouchableOpacity
                 style={styles.servingsButton}
-                onPress={(e) => { e.stopPropagation(); setRecipeServings(recipeServings + 1); }}
+                onPress={(e) => { e.stopPropagation(); setMainDishServings(mainDishServings + 1); }}
               >
                 <Text style={styles.servingsButtonText}>+</Text>
               </TouchableOpacity>
@@ -163,7 +175,7 @@ export default function RecipesTab({
               {countryData?.mainDish && (
                 <NutritionCard
                   nutrition={estimateNutrition(countryData.mainDish)}
-                  servingsMultiplier={servingsMultiplier}
+                  servingsMultiplier={mainServingsMultiplier}
                 />
               )}
 
@@ -173,7 +185,7 @@ export default function RecipesTab({
                   <Text style={styles.subheading}>{t.country.ingredients}</Text>
                   {(country.mainDish.ingredients || []).map((ing, idx) => (
                     <Text key={idx} style={styles.ingredientText}>
-                      {'\u2022'} {(ing.amount * servingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
+                      {'\u2022'} {(ing.amount * mainServingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
                     </Text>
                   ))}
                   {countryData?.mainDish && (
@@ -262,7 +274,7 @@ export default function RecipesTab({
 
               <TouchableOpacity style={styles.shareButton} onPress={() => onShareRecipe(false)}>
                 <Share2 size={18} color={colors.terracotta} />
-                <Text style={styles.shareButtonText}>Share Recipe</Text>
+                <Text style={styles.shareButtonText}>{t.country.shareRecipe}</Text>
               </TouchableOpacity>
 
               {progress.mainDishCooked && (
@@ -350,19 +362,23 @@ export default function RecipesTab({
               <DifficultyBadge difficulty={countryData?.dessert?.difficulty} size="small" />
             </View>
 
+            {!dessertExpanded && (
+              <Text style={styles.tapHint}>Tap for full recipe</Text>
+            )}
+
             <View style={styles.servingsSelector}>
               <Users size={16} color={colors.gray500} />
               <Text style={styles.servingsLabel}>{t.country.servings}:</Text>
               <TouchableOpacity
                 style={styles.servingsButton}
-                onPress={(e) => { e.stopPropagation(); setRecipeServings(Math.max(1, recipeServings - 1)); }}
+                onPress={(e) => { e.stopPropagation(); setDessertServings(Math.max(1, dessertServings - 1)); }}
               >
                 <Text style={styles.servingsButtonText}>-</Text>
               </TouchableOpacity>
-              <Text style={styles.servingsValue}>{recipeServings}</Text>
+              <Text style={styles.servingsValue}>{dessertServings}</Text>
               <TouchableOpacity
                 style={styles.servingsButton}
-                onPress={(e) => { e.stopPropagation(); setRecipeServings(recipeServings + 1); }}
+                onPress={(e) => { e.stopPropagation(); setDessertServings(dessertServings + 1); }}
               >
                 <Text style={styles.servingsButtonText}>+</Text>
               </TouchableOpacity>
@@ -374,7 +390,7 @@ export default function RecipesTab({
               {countryData?.dessert && (
                 <NutritionCard
                   nutrition={estimateNutrition(countryData.dessert)}
-                  servingsMultiplier={servingsMultiplier}
+                  servingsMultiplier={dessertServingsMultiplier}
                 />
               )}
 
@@ -383,7 +399,7 @@ export default function RecipesTab({
                   <Text style={styles.subheading}>{t.country.ingredients}</Text>
                   {(country.dessert?.ingredients || []).map((ing, idx) => (
                     <Text key={idx} style={styles.ingredientText}>
-                      {'\u2022'} {(ing.amount * servingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
+                      {'\u2022'} {(ing.amount * dessertServingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
                     </Text>
                   ))}
                   {countryData?.dessert && (
@@ -470,7 +486,7 @@ export default function RecipesTab({
 
               <TouchableOpacity style={styles.shareButton} onPress={() => onShareRecipe(true)}>
                 <Share2 size={18} color={colors.terracotta} />
-                <Text style={styles.shareButtonText}>Share Recipe</Text>
+                <Text style={styles.shareButtonText}>{t.country.shareRecipe}</Text>
               </TouchableOpacity>
 
               {progress.dessertCooked && (
@@ -656,6 +672,13 @@ const styles = StyleSheet.create({
   recipeInfoText: {
     fontSize: 14,
     color: colors.gray500,
+  },
+  tapHint: {
+    fontSize: 13,
+    color: colors.textTertiary,
+    textAlign: 'center',
+    marginBottom: 8,
+    fontStyle: 'italic',
   },
   servingsSelector: {
     flexDirection: 'row',

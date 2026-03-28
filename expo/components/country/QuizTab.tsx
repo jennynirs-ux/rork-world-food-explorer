@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { Check } from 'lucide-react-native';
+import { Check, RotateCcw } from 'lucide-react-native';
 import { useTranslation } from '@/lib/i18n';
 import colors from '@/constants/colors';
 import type { CountryProgress } from '@/types';
@@ -11,6 +11,7 @@ type QuizTabProps = {
   quizAnswers: number[];
   setQuizAnswers: (answers: number[]) => void;
   onSubmitQuiz: () => void;
+  onResetQuiz?: () => void;
 };
 
 export default function QuizTab({
@@ -19,6 +20,7 @@ export default function QuizTab({
   quizAnswers,
   setQuizAnswers,
   onSubmitQuiz,
+  onResetQuiz,
 }: QuizTabProps) {
   const { t } = useTranslation();
 
@@ -32,6 +34,12 @@ export default function QuizTab({
             <Text style={styles.quizScoreText}>
               {t.country.score}: {progress.quizScore} / {country.quiz.length}
             </Text>
+            {onResetQuiz && (
+              <TouchableOpacity style={styles.retakeButton} onPress={onResetQuiz}>
+                <RotateCcw size={18} color="#FFF" />
+                <Text style={styles.retakeButtonText}>{t.country.retakeQuiz}</Text>
+              </TouchableOpacity>
+            )}
           </View>
         )}
 
@@ -176,6 +184,22 @@ const styles = StyleSheet.create({
   submitQuizButtonText: {
     color: '#FFF',
     fontSize: 18,
+    fontWeight: '600' as const,
+  },
+  retakeButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    marginTop: 16,
+    backgroundColor: colors.primary,
+    paddingVertical: 12,
+    paddingHorizontal: 24,
+    borderRadius: 12,
+  },
+  retakeButtonText: {
+    color: '#FFF',
+    fontSize: 16,
     fontWeight: '600' as const,
   },
 });

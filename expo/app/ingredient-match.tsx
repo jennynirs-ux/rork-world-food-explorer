@@ -55,7 +55,13 @@ export default function IngredientMatchScreen() {
 
   const navigateToRecipe = (match: RecipeMatch) => {
     hapticSuccess();
-    router.push(`/(tabs)/country/${match.countryId}`);
+    router.push({
+      pathname: `/(tabs)/country/${match.countryId}`,
+      params: {
+        tab: 'recipes',
+        recipe: match.isDessert ? 'dessert' : 'main',
+      },
+    } as any);
   };
 
   return (

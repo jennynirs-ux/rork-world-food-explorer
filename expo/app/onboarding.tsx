@@ -205,10 +205,10 @@ export default function OnboardingScreen() {
               </Text>
             </TouchableOpacity>
 
-            {step < 4 && step !== 1 && (
+            {step < 4 && (
               <TouchableOpacity
                 style={styles.skipButton}
-                onPress={() => setStep(step < 1 ? 1 : 4)}
+                onPress={() => setStep(4)}
               >
                 <Text style={styles.skipText}>{t.onboarding.skip}</Text>
               </TouchableOpacity>

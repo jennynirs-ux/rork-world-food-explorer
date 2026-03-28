@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import {
   View,
   Text,
@@ -19,6 +19,7 @@ import colors from '@/constants/colors';
 type IngredientEntry = { name: string; amount: string; unit: string };
 
 const STORAGE_KEY = '@world_cooking_community_recipes';
+const DRAFT_KEY = '@world_cooking_recipe_draft';
 
 export default function SubmitRecipeScreen() {
   const router = useRouter();
@@ -35,6 +36,41 @@ export default function SubmitRecipeScreen() {
   ]);
   const [steps, setSteps] = useState<string[]>(['']);
   const [submitting, setSubmitting] = useState(false);
+  const [draftRestored, setDraftRestored] = useState(false);
+  const draftLoaded = useRef(false);
+
+  // Restore draft on mount
+  useEffect(() => {
+    (async () => {
+      try {
+        const raw = await AsyncStorage.getItem(DRAFT_KEY);
+        if (raw) {
+          const draft = JSON.parse(raw);
+          if (draft.recipeName) setRecipeName(draft.recipeName);
+          if (draft.countryOrigin) setCountryOrigin(draft.countryOrigin);
+          if (draft.description) setDescription(draft.description);
+          if (draft.cookingTime) setCookingTime(draft.cookingTime);
+          if (draft.servings) setServings(draft.servings);
+          if (draft.difficulty) setDifficulty(draft.difficulty);
+          if (draft.ingredients?.length) setIngredients(draft.ingredients);
+          if (draft.steps?.length) setSteps(draft.steps);
+          setDraftRestored(true);
+          setTimeout(() => setDraftRestored(false), 3000);
+        }
+      } catch {
+        // ignore
+      } finally {
+        draftLoaded.current = true;
+      }
+    })();
+  }, []);
+
+  // Auto-save draft on changes
+  useEffect(() => {
+    if (!draftLoaded.current) return;
+    const draft = { recipeName, countryOrigin, description, cookingTime, servings, difficulty, ingredients, steps };
+    void AsyncStorage.setItem(DRAFT_KEY, JSON.stringify(draft));
+  }, [recipeName, countryOrigin, description, cookingTime, servings, difficulty, ingredients, steps]);
 
   const addIngredient = () => {
     hapticLight();
@@ -114,6 +150,7 @@ export default function SubmitRecipeScreen() {
       await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(submissions));
 
       hapticSuccess();
+      await AsyncStorage.removeItem(DRAFT_KEY);
       Alert.alert(
         'Recipe Submitted!',
         'Thank you for sharing your recipe. It will be reviewed by our team.',
@@ -134,6 +171,12 @@ export default function SubmitRecipeScreen() {
         </TouchableOpacity>
         <Text style={styles.title}>Submit a Recipe</Text>
       </View>
+
+      {draftRestored && (
+        <View style={styles.draftBanner}>
+          <Text style={styles.draftBannerText}>Draft restored</Text>
+        </View>
+      )}
 
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
         {/* Basic Info */}
@@ -470,5 +513,16 @@ const styles = StyleSheet.create({
   },
   bottomPadding: {
     height: 40,
+  },
+  draftBanner: {
+    backgroundColor: '#D1FAE5',
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    alignItems: 'center',
+  },
+  draftBannerText: {
+    color: '#065F46',
+    fontSize: 14,
+    fontWeight: '500' as const,
   },
 });

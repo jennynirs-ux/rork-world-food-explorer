@@ -126,22 +126,7 @@ export default function AboutTab({
             {(!country.history || country.history.length === 0) && (
               <View style={styles.historyContent}>
                 <Text style={styles.historyText}>
-                  {country.id === 'italy' &&
-                    'Italy has a rich history spanning over 3,000 years. From the Roman Empire that ruled much of Europe, to the Renaissance that revolutionized art and science, Italy has been at the center of Western civilization. The country was unified in 1861 after centuries of division into city-states and kingdoms.'}
-                  {country.id === 'japan' &&
-                    "Japan has a recorded history dating back to 660 BC. The country was ruled by emperors and shoguns for centuries, remaining isolated from the world until 1854. After World War II, Japan rebuilt itself into one of the world's leading economies while preserving its ancient traditions and culture."}
-                  {country.id === 'mexico' &&
-                    'Mexico was home to advanced civilizations like the Maya and Aztec before Spanish conquest in 1521. After 300 years of colonial rule, Mexico gained independence in 1821. The Mexican Revolution (1910-1920) shaped modern Mexico, establishing it as a democratic republic with a rich blend of indigenous and Spanish heritage.'}
-                  {country.id === 'morocco' &&
-                    'Morocco has been inhabited since Paleolithic times. It became a powerful Islamic empire in the 8th century and has maintained its independence through most of its history. Morocco was a French protectorate from 1912-1956, after which it regained independence under King Mohammed V.'}
-                  {country.id === 'sweden' &&
-                    "Sweden emerged as a unified kingdom in the 10th century. It was a major European power during the 17th century Swedish Empire. Sweden has not been at war since 1814, making it one of the world's longest-standing peaceful nations. It joined the EU in 1995 but kept its currency, the Krona."}
-                  {country.id === 'france' &&
-                    'France has been a major European power since medieval times. The French Revolution (1789) transformed it from an absolute monarchy to a republic and spread democratic ideals across Europe. France played a central role in both World Wars and became a founding member of the European Union.'}
-                  {!['italy', 'japan', 'mexico', 'morocco', 'sweden', 'france'].includes(
-                    country.id,
-                  ) &&
-                    `${country.name} has a rich and fascinating history that has shaped its culture and traditions over centuries.`}
+                  {t.country.genericHistory}
                 </Text>
               </View>
             )}

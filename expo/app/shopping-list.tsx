@@ -54,6 +54,12 @@ export default function ShoppingListScreen() {
           <Text style={styles.emptyText}>
             {t.shopping.noItemsDesc}
           </Text>
+          <TouchableOpacity
+            style={styles.browseButton}
+            onPress={() => router.push('/(tabs)')}
+          >
+            <Text style={styles.browseButtonText}>{t.shopping.browseRecipes}</Text>
+          </TouchableOpacity>
         </View>
       ) : (
         <>
@@ -64,7 +70,16 @@ export default function ShoppingListScreen() {
             </TouchableOpacity>
             <TouchableOpacity
               style={[styles.actionButton, styles.actionButtonDanger]}
-              onPress={clearShoppingList}
+              onPress={() => {
+                Alert.alert(
+                  t.shopping.clearConfirmTitle,
+                  t.shopping.clearConfirmMessage,
+                  [
+                    { text: t.shopping.clearConfirmCancel, style: 'cancel' },
+                    { text: t.shopping.clearConfirmClear, style: 'destructive', onPress: clearShoppingList },
+                  ]
+                );
+              }}
             >
               <Trash2 size={20} color="#EF4444" />
               <Text style={styles.actionButtonTextDanger}>{t.shopping.clearAll}</Text>
@@ -229,6 +244,18 @@ const styles = StyleSheet.create({
     color: '#6B7280',
     textAlign: 'center',
     lineHeight: 24,
+  },
+  browseButton: {
+    marginTop: 20,
+    backgroundColor: '#FF6B35',
+    paddingVertical: 14,
+    paddingHorizontal: 28,
+    borderRadius: 12,
+  },
+  browseButtonText: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: '600' as const,
   },
   searchContainer: {
     flexDirection: 'row',

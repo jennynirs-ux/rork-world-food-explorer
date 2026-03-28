@@ -7,6 +7,9 @@ import {
   TouchableOpacity,
   Alert,
   Share,
+  Modal,
+  FlatList,
+  TextInput,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import {
@@ -18,8 +21,11 @@ import {
   Share2,
   CalendarDays,
   MapPin,
+  X,
+  Search,
 } from 'lucide-react-native';
 import { useApp } from '@/contexts/AppContext';
+import { useTranslation } from '@/lib/i18n';
 import { translateContent } from '@/lib/translate-content';
 import { hapticLight, hapticSuccess } from '@/lib/haptics';
 import { isCountryAccessible } from '@/lib/access-control';
@@ -68,12 +74,16 @@ export default function MealPlanScreen() {
     addMealPlanToShoppingList,
     userProfile,
   } = useApp();
+  const { t } = useTranslation();
 
   const lang = userProfile.language || 'en';
   const [baseDate, setBaseDate] = useState(new Date());
   const [selectedDate, setSelectedDate] = useState(
     new Date().toISOString().split('T')[0],
   );
+  const [showRecipePicker, setShowRecipePicker] = useState(false);
+  const [selectedMealType, setSelectedMealType] = useState<MealType>('lunch');
+  const [recipeSearch, setRecipeSearch] = useState('');
 
   const weekDates = useMemo(() => getWeekDates(baseDate), [baseDate]);
 
@@ -93,51 +103,54 @@ export default function MealPlanScreen() {
 
   const handleAddMeal = (mealType: MealType) => {
     hapticLight();
-    // Show a picker from available countries/recipes
+    setSelectedMealType(mealType);
+    setRecipeSearch('');
+    setShowRecipePicker(true);
+  };
+
+  const recipePickerOptions = useMemo(() => {
     const purchasedProducts = userProfile.purchasedProducts || [];
-    const options = countries.filter(c => isCountryAccessible(c, purchasedProducts)).slice(0, 30).flatMap(c => {
-      const items: { label: string; countryId: string; recipeId: string }[] = [];
+    return countries.filter(c => isCountryAccessible(c, purchasedProducts)).flatMap(c => {
+      const items: { label: string; countryName: string; countryId: string; recipeId: string }[] = [];
       const countryName = translateContent(c.name, lang);
       const mainName = translateContent(c.mainDish.name, lang);
       items.push({
-        label: `${mainName} (${countryName})`,
+        label: mainName,
+        countryName,
         countryId: c.id,
         recipeId: c.mainDish.id,
       });
-      if (c.dessert && mealType === 'dessert') {
+      if (c.dessert && selectedMealType === 'dessert') {
         const dessertName = translateContent(c.dessert.name, lang);
         items.push({
-          label: `${dessertName} (${countryName})`,
+          label: dessertName,
+          countryName,
           countryId: c.id,
           recipeId: c.dessert.id,
         });
       }
       return items;
     });
+  }, [countries, userProfile.purchasedProducts, lang, selectedMealType]);
 
-    // Use Alert with a simplified picker (first 10 options + search suggestion)
-    const displayOptions = options.slice(0, 8);
-    const buttons = displayOptions.map(opt => ({
-      text: opt.label,
-      onPress: () => {
-        hapticSuccess();
-        addMealPlan({
-          id: `${selectedDate}-${mealType}-${Date.now()}`,
-          date: selectedDate,
-          countryId: opt.countryId,
-          recipeId: opt.recipeId,
-          mealType,
-        });
-      },
-    }));
-
-    buttons.push({ text: 'Cancel', onPress: () => {} });
-
-    Alert.alert(
-      `Add ${mealType.charAt(0).toUpperCase() + mealType.slice(1)}`,
-      `Choose a recipe for ${formatDate(selectedDate)}`,
-      buttons,
+  const filteredPickerOptions = useMemo(() => {
+    if (!recipeSearch.trim()) return recipePickerOptions;
+    const q = recipeSearch.toLowerCase();
+    return recipePickerOptions.filter(
+      opt => opt.label.toLowerCase().includes(q) || opt.countryName.toLowerCase().includes(q)
     );
+  }, [recipePickerOptions, recipeSearch]);
+
+  const handleSelectRecipe = (opt: { countryId: string; recipeId: string }) => {
+    hapticSuccess();
+    addMealPlan({
+      id: `${selectedDate}-${selectedMealType}-${Date.now()}`,
+      date: selectedDate,
+      countryId: opt.countryId,
+      recipeId: opt.recipeId,
+      mealType: selectedMealType,
+    });
+    setShowRecipePicker(false);
   };
 
   const handleRemovePlan = (planId: string) => {
@@ -148,31 +161,31 @@ export default function MealPlanScreen() {
   const handleAddToShoppingList = (plan: MealPlan) => {
     hapticSuccess();
     addMealPlanToShoppingList(plan);
-    Alert.alert('Added', 'Ingredients added to shopping list');
+    Alert.alert(t.mealPlan.added, 'Ingredients added to shopping list');
   };
 
   const handleAddWeekToShoppingList = () => {
     hapticSuccess();
     const weekPlans = mealPlans.filter(p => weekDates.includes(p.date));
     if (weekPlans.length === 0) {
-      Alert.alert('Empty Week', 'No meals planned for this week');
+      Alert.alert(t.mealPlan.emptyWeek, t.mealPlan.emptyWeekDesc);
       return;
     }
     for (const plan of weekPlans) {
       addMealPlanToShoppingList(plan);
     }
-    Alert.alert('Added', `Ingredients for ${weekPlans.length} meals added to shopping list`);
+    Alert.alert(t.mealPlan.added, `Ingredients for ${weekPlans.length} meals added to shopping list`);
   };
 
   const handleExportWeek = async () => {
     hapticLight();
     const weekPlans = mealPlans.filter(p => weekDates.includes(p.date));
     if (weekPlans.length === 0) {
-      Alert.alert('Empty Week', 'No meals planned for this week');
+      Alert.alert(t.mealPlan.emptyWeek, t.mealPlan.emptyWeekDesc);
       return;
     }
 
-    let text = 'Meal Plan\n\n';
+    let text = `${t.mealPlan.exportWeek}\n\n`;
     for (const date of weekDates) {
       const dayPlans = weekPlans.filter(p => p.date === date);
       if (dayPlans.length === 0) continue;
@@ -245,7 +258,7 @@ export default function MealPlanScreen() {
     <SafeAreaView style={styles.container} edges={['top']}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
         <View style={styles.header}>
-          <Text style={styles.title}>Meal Plan</Text>
+          <Text style={styles.title}>{t.mealPlan.title}</Text>
           <View style={styles.headerActions}>
             <TouchableOpacity style={styles.headerBtn} onPress={handleAddWeekToShoppingList}>
               <ShoppingCart size={18} color={colors.terracotta} />
@@ -328,7 +341,7 @@ export default function MealPlanScreen() {
           return (
             <View key={mealType} style={styles.mealSlot}>
               <Text style={styles.mealTypeLabel}>
-                {mealType.charAt(0).toUpperCase() + mealType.slice(1)}
+                {t.mealPlan[mealType as keyof typeof t.mealPlan] || mealType.charAt(0).toUpperCase() + mealType.slice(1)}
               </Text>
               {plan && info ? (
                 <View style={styles.mealCard}>
@@ -364,7 +377,7 @@ export default function MealPlanScreen() {
                   onPress={() => handleAddMeal(mealType)}
                 >
                   <Plus size={20} color={colors.textTertiary} />
-                  <Text style={styles.emptySlotText}>Add recipe</Text>
+                  <Text style={styles.emptySlotText}>{t.mealPlan.addRecipe}</Text>
                 </TouchableOpacity>
               )}
             </View>
@@ -376,16 +389,77 @@ export default function MealPlanScreen() {
           <View style={styles.emptyState}>
             <CalendarDays size={48} color={colors.textTertiary} />
             <Text style={styles.emptyStateText}>
-              No meals planned for this day
+              {t.mealPlan.noMeals}
             </Text>
             <Text style={styles.emptyStateSubtext}>
-              Tap the + buttons above to plan your meals
+              {t.mealPlan.noMealsDesc}
             </Text>
           </View>
         )}
 
         <View style={styles.bottomPadding} />
       </ScrollView>
+
+      {/* Recipe Picker Modal */}
+      <Modal
+        visible={showRecipePicker}
+        animationType="slide"
+        transparent
+        onRequestClose={() => setShowRecipePicker(false)}
+      >
+        <View style={styles.modalOverlay}>
+          <View style={styles.modalSheet}>
+            <View style={styles.modalHeader}>
+              <Text style={styles.modalTitle}>
+                {t.mealPlan[selectedMealType as keyof typeof t.mealPlan] || selectedMealType.charAt(0).toUpperCase() + selectedMealType.slice(1)}
+              </Text>
+              <TouchableOpacity onPress={() => setShowRecipePicker(false)} style={styles.modalCloseBtn}>
+                <X size={22} color={colors.text} />
+              </TouchableOpacity>
+            </View>
+            <View style={styles.modalSearchRow}>
+              <Search size={18} color={colors.textTertiary} />
+              <TextInput
+                style={styles.modalSearchInput}
+                placeholder="Search recipes..."
+                placeholderTextColor={colors.textTertiary}
+                value={recipeSearch}
+                onChangeText={setRecipeSearch}
+                autoCapitalize="none"
+              />
+              {recipeSearch.length > 0 && (
+                <TouchableOpacity onPress={() => setRecipeSearch('')}>
+                  <X size={18} color={colors.textTertiary} />
+                </TouchableOpacity>
+              )}
+            </View>
+            <FlatList
+              data={filteredPickerOptions}
+              keyExtractor={(item, idx) => `${item.countryId}-${item.recipeId}-${idx}`}
+              renderItem={({ item }) => (
+                <TouchableOpacity
+                  style={styles.modalRecipeItem}
+                  onPress={() => handleSelectRecipe(item)}
+                  activeOpacity={0.7}
+                >
+                  <View style={styles.modalRecipeIcon}>
+                    <MapPin size={18} color={colors.terracotta} />
+                  </View>
+                  <View style={styles.modalRecipeInfo}>
+                    <Text style={styles.modalRecipeName} numberOfLines={1}>{item.label}</Text>
+                    <Text style={styles.modalRecipeCountry}>{item.countryName}</Text>
+                  </View>
+                </TouchableOpacity>
+              )}
+              ListEmptyComponent={
+                <Text style={styles.modalEmptyText}>No recipes match your search</Text>
+              }
+              showsVerticalScrollIndicator={false}
+              contentContainerStyle={styles.modalListContent}
+            />
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 }
@@ -582,5 +656,99 @@ const styles = StyleSheet.create({
   },
   bottomPadding: {
     height: 40,
+  },
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.4)',
+    justifyContent: 'flex-end',
+  },
+  modalSheet: {
+    backgroundColor: colors.background,
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    maxHeight: '75%',
+    paddingBottom: 34,
+  },
+  modalHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    paddingTop: 16,
+    paddingBottom: 12,
+  },
+  modalTitle: {
+    fontSize: 20,
+    fontWeight: '700' as const,
+    color: colors.text,
+  },
+  modalCloseBtn: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: colors.surface,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalSearchRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginHorizontal: 20,
+    marginBottom: 12,
+    backgroundColor: colors.surface,
+    borderRadius: 12,
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    gap: 10,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  modalSearchInput: {
+    flex: 1,
+    fontSize: 16,
+    color: colors.text,
+    padding: 0,
+  },
+  modalListContent: {
+    paddingHorizontal: 20,
+    paddingBottom: 20,
+  },
+  modalRecipeItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: colors.surface,
+    borderRadius: 12,
+    padding: 14,
+    gap: 12,
+    marginBottom: 8,
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  modalRecipeIcon: {
+    width: 36,
+    height: 36,
+    borderRadius: 10,
+    backgroundColor: colors.background,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalRecipeInfo: {
+    flex: 1,
+  },
+  modalRecipeName: {
+    fontSize: 15,
+    fontWeight: '600' as const,
+    color: colors.text,
+  },
+  modalRecipeCountry: {
+    fontSize: 13,
+    color: colors.textSecondary,
+    marginTop: 2,
+  },
+  modalEmptyText: {
+    fontSize: 15,
+    color: colors.textTertiary,
+    textAlign: 'center',
+    paddingVertical: 30,
   },
 });

@@ -292,7 +292,7 @@ export default function ExploreScreen() {
         </View>
       ) : viewMode === 'map' ? (
         <View style={styles.mapViewContainer}>
-          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 80 }}>
+          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 100 }}>
             <View style={styles.section}>
               <View style={styles.globeWrapper}>
                 <Globe3D pins={countryPins} onCountryPress={handleCountryPress} filterStatus={filterStatus} accessibilityExploreHint={t.globe?.exploreHint} />

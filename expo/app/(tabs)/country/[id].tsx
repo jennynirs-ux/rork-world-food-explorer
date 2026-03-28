@@ -28,7 +28,7 @@ import AboutTab from '@/components/country/AboutTab';
 import RecipesTab from '@/components/country/RecipesTab';
 import QuizTab from '@/components/country/QuizTab';
 import {
-  Compass,
+  ArrowLeft,
   Info,
   Utensils,
   HelpCircle,
@@ -39,7 +39,7 @@ import {
 } from 'lucide-react-native';
 
 export default function CountryDetailScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const { id, tab, recipe } = useLocalSearchParams<{ id: string; tab?: string; recipe?: string }>();
   const router = useRouter();
   const { t } = useTranslation();
   const { 
@@ -61,7 +61,8 @@ export default function CountryDetailScreen() {
   const lang = userProfile.language || 'en';
   
   const [activeTab, setActiveTab] = useState<'about' | 'recipes' | 'quiz'>('about');
-  const [recipeServings, setRecipeServings] = useState(4);
+  const [mainDishServings, setMainDishServings] = useState(4);
+  const [dessertServings, setDessertServings] = useState(4);
   const [quizAnswers, setQuizAnswers] = useState<number[]>([]);
   const [showMainDishRating, setShowMainDishRating] = useState(false);
   const [showDessertRating, setShowDessertRating] = useState(false);
@@ -90,6 +91,17 @@ export default function CountryDetailScreen() {
     );
   }, [country]);
 
+  // Initialize servings from recipe defaults
+  useEffect(() => {
+    if (countryData?.mainDish?.servings) {
+      setMainDishServings(countryData.mainDish.servings);
+    }
+    if (countryData?.dessert?.servings) {
+      setDessertServings(countryData.dessert.servings);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- only re-init servings when country changes, not on every servings property change
+  }, [countryData?.id]);
+
   useEffect(() => {
     if (country && progress && !progress.visited) {
       void updateCountryProgress(country.id, { visited: true, visitedDate: new Date().toISOString() }, 0);
@@ -107,6 +119,13 @@ export default function CountryDetailScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [country?.id]);
 
+  // Handle deep-link params from ingredient-match
+  useEffect(() => {
+    if (tab === 'recipes') {
+      setActiveTab('recipes');
+    }
+  }, [tab]);
+
   if (!country || !progress) {
     return (
       <SafeAreaView style={styles.container}>
@@ -123,7 +142,7 @@ export default function CountryDetailScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.lockedContainer}>
           <TouchableOpacity onPress={() => router.back()} style={styles.lockedBackButton}>
-            <Compass size={24} color={colors.text} />
+            <ArrowLeft size={24} color={colors.text} />
           </TouchableOpacity>
           
           <View style={styles.lockedContent}>
@@ -183,10 +202,11 @@ export default function CountryDetailScreen() {
   const handleAddToShoppingList = (isDessert: boolean) => {
     const recipe = isDessert ? country.dessert : country.mainDish;
     if (!recipe) return;
+    const servings = isDessert ? dessertServings : mainDishServings;
 
     const scaledIngredients = recipe.ingredients.map(ing => ({
       name: ing.name,
-      amount: (ing.amount / recipe.servings) * recipeServings,
+      amount: (ing.amount / recipe.servings) * servings,
       unit: ing.unit,
     }));
 
@@ -220,11 +240,11 @@ export default function CountryDetailScreen() {
 
   const handleToggleFavoriteCountry = () => {
     hapticMedium();
+    const wasFavorite = isFavoriteCountry(country.id);
     void toggleFavoriteCountry(country.id);
-    const isFavorite = isFavoriteCountry(country.id);
     Alert.alert(
-      isFavorite ? 'Removed from favorites' : 'Added to favorites',
-      isFavorite ? 'Country removed from your favorites' : 'Country added to your favorites!'
+      wasFavorite ? t.country.removed : t.country.added,
+      wasFavorite ? t.country.countryRemoved : t.country.countryAdded
     );
   };
 
@@ -325,7 +345,8 @@ export default function CountryDetailScreen() {
     }, 500);
   };
 
-  const servingsMultiplier = recipeServings / country.mainDish.servings;
+  const mainServingsMultiplier = mainDishServings / country.mainDish.servings;
+  const dessertServingsMultiplier = country.dessert ? dessertServings / country.dessert.servings : 1;
 
 
 
@@ -343,11 +364,11 @@ export default function CountryDetailScreen() {
           
           <View style={styles.headerButtons}>
             <View style={styles.leftButtons}>
-              <TouchableOpacity 
-                onPress={() => router.back()} 
+              <TouchableOpacity
+                onPress={() => router.back()}
                 style={styles.backButton}
               >
-                <Compass size={24} color="#FFF" />
+                <ArrowLeft size={24} color="#FFF" />
               </TouchableOpacity>
               
               <TouchableOpacity 
@@ -426,9 +447,13 @@ export default function CountryDetailScreen() {
             countryData={countryData}
             progress={progress}
             lang={lang}
-            recipeServings={recipeServings}
-            setRecipeServings={setRecipeServings}
-            servingsMultiplier={servingsMultiplier}
+            mainDishServings={mainDishServings}
+            setMainDishServings={setMainDishServings}
+            mainServingsMultiplier={mainServingsMultiplier}
+            dessertServings={dessertServings}
+            setDessertServings={setDessertServings}
+            dessertServingsMultiplier={dessertServingsMultiplier}
+            initialExpandedDish={recipe === 'dessert' ? 'dessert' : recipe === 'main' ? 'main' : undefined}
             showMainDishRating={showMainDishRating}
             setShowMainDishRating={setShowMainDishRating}
             showDessertRating={showDessertRating}
@@ -451,6 +476,10 @@ export default function CountryDetailScreen() {
             quizAnswers={quizAnswers}
             setQuizAnswers={setQuizAnswers}
             onSubmitQuiz={handleSubmitQuiz}
+            onResetQuiz={() => {
+              setQuizAnswers([]);
+              void updateCountryProgress(country.id, { quizCompleted: false, quizScore: 0 }, 0);
+            }}
           />
         )}
 
@@ -500,7 +529,7 @@ const styles = StyleSheet.create({
   },
   bannerOverlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+    backgroundColor: 'rgba(0, 0, 0, 0.45)',
   },
   headerButtons: {
     position: 'absolute',

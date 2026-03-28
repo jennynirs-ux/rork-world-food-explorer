@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { ArrowLeft, Moon, Flame, Wheat, Sparkles, Snowflake, Store, Soup, Leaf, Flower2, Star, MapPin } from 'lucide-react-native';
 import { useApp } from '@/contexts/AppContext';
+import { useTranslation } from '@/lib/i18n';
 import { translateContent } from '@/lib/translate-content';
 import { hapticLight } from '@/lib/haptics';
 import { seasonalCollections } from '@/data/seasonal-collections';
@@ -28,6 +29,7 @@ const ICON_MAP: Record<string, React.ComponentType<any>> = {
 export default function CollectionsScreen() {
   const router = useRouter();
   const { countries, userProfile } = useApp();
+  const { t } = useTranslation();
   const lang = userProfile.language || 'en';
 
   const [activeTab, setActiveTab] = useState<'seasonal' | 'regional' | 'endangered'>('seasonal');
@@ -54,7 +56,7 @@ export default function CollectionsScreen() {
         <TouchableOpacity onPress={() => router.back()} style={styles.backBtn}>
           <ArrowLeft size={24} color={colors.text} />
         </TouchableOpacity>
-        <Text style={styles.title}>Collections</Text>
+        <Text style={styles.title}>{t.collections.title}</Text>
       </View>
 
       <View style={styles.tabBar}>
@@ -66,7 +68,7 @@ export default function CollectionsScreen() {
           }}
         >
           <Text style={[styles.tabText, activeTab === 'seasonal' && styles.tabTextActive]}>
-            Seasonal
+            {t.collections.seasonal}
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
@@ -77,7 +79,7 @@ export default function CollectionsScreen() {
           }}
         >
           <Text style={[styles.tabText, activeTab === 'regional' && styles.tabTextActive]}>
-            Regional
+            {t.collections.regional}
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
@@ -88,7 +90,7 @@ export default function CollectionsScreen() {
           }}
         >
           <Text style={[styles.tabText, activeTab === 'endangered' && styles.tabTextActive]}>
-            Heritage
+            {t.collections.heritage}
           </Text>
         </TouchableOpacity>
       </View>
@@ -118,7 +120,7 @@ export default function CollectionsScreen() {
                         </Text>
                         {isRelevant && (
                           <View style={styles.nowBadge}>
-                            <Text style={styles.nowBadgeText}>Now</Text>
+                            <Text style={styles.nowBadgeText}>{t.collections.now}</Text>
                           </View>
                         )}
                       </View>
