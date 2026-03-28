@@ -11,6 +11,7 @@ import { filterValidCountries } from '@/lib/validate-country';
 import { initializeNotifications } from '@/lib/notifications';
 import { cache } from '@/lib/cache';
 import { calculateSkillLevel } from '@/lib/nutrition';
+import { hasRedeemedCode, redeemShareCode, getOrCreateShareCode, shareCode } from '@/lib/share-codes';
 
 const STORAGE_KEYS = {
   USER_PROFILE: '@world_cooking_user_profile',
@@ -156,6 +157,19 @@ export const [AppProvider, useApp] = createContextHook(() => {
     void initUser();
     void loadData();
     void initializeNotifications();
+
+    // Check if user has redeemed a share code → auto-unlock all
+    void hasRedeemedCode().then(redeemed => {
+      if (redeemed) {
+        setUserProfile(prev => {
+          const products = prev.purchasedProducts || [];
+          if (!products.includes('world_unlock_all')) {
+            return { ...prev, purchasedProducts: [...products, 'world_unlock_all'] };
+          }
+          return prev;
+        });
+      }
+    });
   }, []);
 
   useEffect(() => {
@@ -551,6 +565,23 @@ export const [AppProvider, useApp] = createContextHook(() => {
     return (userProfile.purchasedProducts || []).includes(productId);
   }, [userProfile.purchasedProducts]);
 
+  const redeemCode = useCallback(async (code: string): Promise<boolean> => {
+    const success = await redeemShareCode(code);
+    if (success) {
+      await purchaseProduct('world_unlock_all');
+    }
+    return success;
+  }, [purchaseProduct]);
+
+  const getShareCode = useCallback(async (): Promise<string> => {
+    return getOrCreateShareCode(userId || 'anonymous');
+  }, [userId]);
+
+  const shareMyCode = useCallback(async () => {
+    const code = await getShareCode();
+    await shareCode(code);
+  }, [getShareCode]);
+
   const addMealPlan = useCallback((plan: MealPlan) => {
     setMealPlans(prev => {
       // Replace if same date + mealType already exists
@@ -635,6 +666,9 @@ export const [AppProvider, useApp] = createContextHook(() => {
     refreshReferralStats,
     purchaseProduct,
     hasPurchasedProduct,
+    redeemCode,
+    getShareCode,
+    shareMyCode,
     trackDifficultyCooked,
     mealPlans,
     addMealPlan,
@@ -673,6 +707,9 @@ export const [AppProvider, useApp] = createContextHook(() => {
     refreshReferralStats,
     purchaseProduct,
     hasPurchasedProduct,
+    redeemCode,
+    getShareCode,
+    shareMyCode,
     trackDifficultyCooked,
     addMealPlan,
     removeMealPlan,

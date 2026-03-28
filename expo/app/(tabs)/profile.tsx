@@ -1,9 +1,9 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch, Modal, Pressable } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch, Modal, Pressable, TextInput } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell, Send, X, Check } from 'lucide-react-native';
+import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell, Send, X, Check, Gift, Share2, Key } from 'lucide-react-native';
 import { DietType } from '@/types';
 import colors from '@/constants/colors';
 import { useState, useEffect } from 'react';
@@ -23,10 +23,30 @@ const LANGUAGES = [
 
 export default function ProfileScreen() {
   const router = useRouter();
-  const { userProfile, stats, resetProgress, shoppingList, updateUserProfile } = useApp();
+  const { userProfile, stats, resetProgress, shoppingList, updateUserProfile, redeemCode, getShareCode, shareMyCode } = useApp();
   const { t } = useTranslation();
   const [notificationsOn, setNotificationsOn] = useState(false);
   const [showLanguageModal, setShowLanguageModal] = useState(false);
+  const [showCodeModal, setShowCodeModal] = useState(false);
+  const [myCode, setMyCode] = useState('');
+  const [redeemInput, setRedeemInput] = useState('');
+  const [redeemStatus, setRedeemStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+  useEffect(() => {
+    getShareCode().then(setMyCode).catch(() => {});
+  }, [getShareCode]);
+
+  const handleRedeemCode = async () => {
+    if (!redeemInput.trim()) return;
+    const success = await redeemCode(redeemInput);
+    setRedeemStatus(success ? 'success' : 'error');
+    if (success) {
+      Alert.alert('🎉 All Recipes Unlocked!', 'You now have access to all countries and recipes.');
+      setShowCodeModal(false);
+      setRedeemInput('');
+      setRedeemStatus('idle');
+    }
+  };
 
   useEffect(() => {
     areNotificationsEnabled().then(setNotificationsOn);
@@ -282,6 +302,17 @@ export default function ProfileScreen() {
             <Text style={styles.menuButtonText}>{t.profile.submitRecipe}</Text>
             <ChevronRight size={20} color="#9CA3AF" />
           </TouchableOpacity>
+
+          <TouchableOpacity
+            style={styles.menuButton}
+            onPress={() => setShowCodeModal(true)}
+            accessibilityLabel="Share or enter access code"
+            accessibilityRole="button"
+          >
+            <Gift size={20} color="#FF6B35" />
+            <Text style={styles.menuButtonText}>Share / Enter Code</Text>
+            <ChevronRight size={20} color="#9CA3AF" />
+          </TouchableOpacity>
         </View>
 
         <View style={styles.section}>
@@ -373,6 +404,76 @@ export default function ProfileScreen() {
                 );
               })}
             </ScrollView>
+          </Pressable>
+        </Pressable>
+      </Modal>
+
+      {/* Share Code Modal */}
+      <Modal
+        visible={showCodeModal}
+        animationType="slide"
+        transparent
+        onRequestClose={() => setShowCodeModal(false)}
+      >
+        <Pressable style={styles.modalOverlay} onPress={() => setShowCodeModal(false)}>
+          <Pressable style={styles.codeModalContent} onPress={() => {}}>
+            <View style={styles.modalHandle} />
+            <View style={styles.codeModalHeader}>
+              <Text style={styles.codeModalTitle}>Share & Redeem Codes</Text>
+              <TouchableOpacity onPress={() => setShowCodeModal(false)}>
+                <X size={24} color={colors.text} />
+              </TouchableOpacity>
+            </View>
+
+            {/* Your Code */}
+            <View style={styles.codeSection}>
+              <View style={styles.codeSectionHeader}>
+                <Share2 size={18} color={colors.brand} />
+                <Text style={styles.codeSectionTitle}>Your Code</Text>
+              </View>
+              <Text style={styles.codeSectionDesc}>
+                Share this code with a friend to give them access to all recipes:
+              </Text>
+              <View style={styles.codeDisplay}>
+                <Text style={styles.codeText}>{myCode || '...'}</Text>
+              </View>
+              <TouchableOpacity style={styles.shareCodeButton} onPress={shareMyCode}>
+                <Share2 size={18} color="#FFF" />
+                <Text style={styles.shareCodeButtonText}>Share Code</Text>
+              </TouchableOpacity>
+            </View>
+
+            {/* Redeem Code */}
+            <View style={styles.codeSection}>
+              <View style={styles.codeSectionHeader}>
+                <Key size={18} color={colors.brand} />
+                <Text style={styles.codeSectionTitle}>Enter a Code</Text>
+              </View>
+              <Text style={styles.codeSectionDesc}>
+                Enter a code from a friend to unlock all recipes:
+              </Text>
+              <View style={styles.redeemRow}>
+                <TextInput
+                  style={styles.redeemInput}
+                  placeholder="Enter 6-digit code"
+                  placeholderTextColor="#9CA3AF"
+                  value={redeemInput}
+                  onChangeText={(text) => { setRedeemInput(text.toUpperCase()); setRedeemStatus('idle'); }}
+                  autoCapitalize="characters"
+                  maxLength={6}
+                />
+                <TouchableOpacity
+                  style={[styles.redeemButton, !redeemInput.trim() && styles.redeemButtonDisabled]}
+                  onPress={handleRedeemCode}
+                  disabled={!redeemInput.trim()}
+                >
+                  <Text style={styles.redeemButtonText}>Unlock</Text>
+                </TouchableOpacity>
+              </View>
+              {redeemStatus === 'error' && (
+                <Text style={styles.redeemError}>Invalid code. Please check and try again.</Text>
+              )}
+            </View>
           </Pressable>
         </Pressable>
       </Modal>
@@ -676,5 +777,118 @@ const styles = StyleSheet.create({
   modalLangNameSelected: {
     color: '#FF6B35',
     fontWeight: '600' as const,
+  },
+  codeModalContent: {
+    backgroundColor: colors.background,
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    paddingTop: 12,
+    paddingBottom: 40,
+    paddingHorizontal: 24,
+    maxHeight: '85%',
+  },
+  codeModalHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 24,
+  },
+  codeModalTitle: {
+    fontSize: 20,
+    fontWeight: '700' as const,
+    color: colors.text,
+  },
+  codeSection: {
+    marginBottom: 24,
+    backgroundColor: colors.surface,
+    borderRadius: 16,
+    padding: 20,
+  },
+  codeSectionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginBottom: 8,
+  },
+  codeSectionTitle: {
+    fontSize: 17,
+    fontWeight: '600' as const,
+    color: colors.text,
+  },
+  codeSectionDesc: {
+    fontSize: 14,
+    color: colors.textSecondary,
+    lineHeight: 20,
+    marginBottom: 16,
+  },
+  codeDisplay: {
+    backgroundColor: colors.surfaceAlt,
+    borderRadius: 12,
+    paddingVertical: 16,
+    paddingHorizontal: 24,
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: colors.brand,
+    borderStyle: 'dashed',
+    marginBottom: 16,
+  },
+  codeText: {
+    fontSize: 32,
+    fontWeight: '800' as const,
+    color: colors.brand,
+    letterSpacing: 6,
+  },
+  shareCodeButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    backgroundColor: colors.brand,
+    paddingVertical: 14,
+    borderRadius: 12,
+  },
+  shareCodeButtonText: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: '600' as const,
+  },
+  redeemRow: {
+    flexDirection: 'row',
+    gap: 12,
+    alignItems: 'center',
+  },
+  redeemInput: {
+    flex: 1,
+    backgroundColor: colors.surfaceAlt,
+    borderRadius: 12,
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    fontSize: 18,
+    fontWeight: '600' as const,
+    color: colors.text,
+    letterSpacing: 4,
+    textAlign: 'center',
+    borderWidth: 1,
+    borderColor: colors.border,
+  },
+  redeemButton: {
+    backgroundColor: colors.brand,
+    paddingVertical: 14,
+    paddingHorizontal: 24,
+    borderRadius: 12,
+  },
+  redeemButtonDisabled: {
+    opacity: 0.5,
+  },
+  redeemButtonText: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: '600' as const,
+  },
+  redeemError: {
+    color: '#EF4444',
+    fontSize: 13,
+    marginTop: 8,
+    textAlign: 'center',
   },
 });
