@@ -556,7 +556,6 @@ const styles = StyleSheet.create({
   globeWrapper: {
     backgroundColor: colors.surface,
     borderRadius: 24,
-    overflow: 'hidden',
     paddingVertical: 20,
   },
   fab: {
