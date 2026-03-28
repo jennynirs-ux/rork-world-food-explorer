@@ -55,11 +55,11 @@ export default function NutritionCard({ nutrition, servingsMultiplier = 1 }: Nut
       </View>
 
       <View style={styles.macros}>
-        <MacroBar label="Protein" grams={protein} color="#3B82F6" maxGrams={maxGrams} />
-        <MacroBar label="Carbs" grams={carbs} color="#F59E0B" maxGrams={maxGrams} />
-        <MacroBar label="Fat" grams={fat} color="#EF4444" maxGrams={maxGrams} />
+        <MacroBar label="Protein" grams={protein} color={colors.blue} maxGrams={maxGrams} />
+        <MacroBar label="Carbs" grams={carbs} color={colors.orange} maxGrams={maxGrams} />
+        <MacroBar label="Fat" grams={fat} color={colors.terracotta} maxGrams={maxGrams} />
         {fiber !== null && fiber > 0 && (
-          <MacroBar label="Fiber" grams={fiber} color="#10B981" maxGrams={maxGrams} />
+          <MacroBar label="Fiber" grams={fiber} color={colors.sage} maxGrams={maxGrams} />
         )}
       </View>
 
@@ -70,12 +70,12 @@ export default function NutritionCard({ nutrition, servingsMultiplier = 1 }: Nut
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.surface,
+    backgroundColor: colors.cardBackground,
     borderRadius: 12,
     padding: 14,
     marginTop: 12,
     borderWidth: 1,
-    borderColor: colors.border,
+    borderColor: colors.divider,
   },
   header: {
     flexDirection: 'row',
@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
   barTrack: {
     flex: 1,
     height: 8,
-    backgroundColor: colors.background,
+    backgroundColor: colors.sand,
     borderRadius: 4,
     overflow: 'hidden',
   },

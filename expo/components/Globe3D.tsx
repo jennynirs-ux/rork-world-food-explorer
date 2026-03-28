@@ -208,7 +208,8 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
 
       if (geoContains(feat, coords)) {
         hapticMedium();
-        onCountryPress(country.id);
+        // Use setTimeout to avoid blocking the UI thread during navigation
+        setTimeout(() => onCountryPress(country.id), 50);
         return;
       }
     }
@@ -406,7 +407,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
                     top: y - 20,
                   },
                 ]}
-                onPress={() => { hapticMedium(); onCountryPress(country.id); }}
+                onPress={() => { hapticMedium(); setTimeout(() => onCountryPress(country.id), 50); }}
                 activeOpacity={0.7}
                 accessibilityLabel={`${country.name}, ${country.status}`}
                 accessibilityRole="button"

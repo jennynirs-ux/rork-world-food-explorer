@@ -97,8 +97,8 @@ export default function Paywall({
       transparent={true}
       onRequestClose={onClose}
     >
-      <View style={styles.modalOverlay}>
-        <View style={styles.modalContent}>
+      <TouchableOpacity style={styles.modalOverlay} activeOpacity={1} onPress={onClose}>
+        <TouchableOpacity style={styles.modalContent} activeOpacity={1} onPress={() => {}}>
           <TouchableOpacity style={styles.closeButton} onPress={onClose}>
             <X size={24} color={colors.text} />
           </TouchableOpacity>
@@ -230,8 +230,8 @@ export default function Paywall({
               )}
             </View>
           </ScrollView>
-        </View>
-      </View>
+        </TouchableOpacity>
+      </TouchableOpacity>
     </Modal>
   );
 }
