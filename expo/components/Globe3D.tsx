@@ -133,16 +133,6 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
     return country;
   }, [pinLookup]);
 
-  const getCountryCentroid = useCallback((feature: GeoFeature): [number, number] | null => {
-    if (!pathGenerator || !pathGenerator.centroid) return null;
-    try {
-      const centroid = pathGenerator.centroid(feature);
-      if (!centroid || !isFinite(centroid[0]) || !isFinite(centroid[1])) return null;
-      return centroid as [number, number];
-    } catch {
-      return null;
-    }
-  }, [pathGenerator]);
 
   const stopSpinning = useCallback(() => {
     if (animationFrameRef.current) {
@@ -294,21 +284,24 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
     }).filter(Boolean) as { key: number; path: string; color: string; isFiltered: boolean; hasCountryData: boolean }[];
   }, [worldData, pathGenerator, getCountryFromFeature, filterStatus]);
 
+  // Compute pin positions directly from lat/lng using the d3 projection
+  // This is more reliable than matching TopoJSON features by ISO code
   const pinPositions = useMemo(() => {
-    if (!worldData || !pathGenerator) return [];
-    return worldData.features.map((feat: GeoFeature, idx: number) => {
-      const country = getCountryFromFeature(feat);
-      if (!country) return null;
-      // Locked countries always show (as grey pins); only filter unlocked countries
+    if (!projection) return [];
+    return visiblePins.map((country, idx) => {
+      // Filter: locked always show; unlocked respect filterStatus
       const isLocked = country.status === 'locked';
       if (!isLocked && filterStatus && country.status !== filterStatus) return null;
-      const centroid = getCountryCentroid(feat);
-      if (!centroid) return null;
-      const [x, y] = centroid;
+
+      const lng = country.lng || 0;
+      const lat = country.lat || 0;
+      const projected = projection([lng, lat]);
+      if (!projected) return null; // behind the globe
+      const [x, y] = projected;
       if (!isFinite(x) || !isFinite(y)) return null;
       return { country, x, y, idx };
     }).filter(Boolean) as { country: CountryPin; x: number; y: number; idx: number }[];
-  }, [worldData, pathGenerator, getCountryFromFeature, getCountryCentroid, filterStatus]);
+  }, [visiblePins, projection, filterStatus]);
 
   if (loading || !worldData || !pathGenerator || !projection) {
     return (

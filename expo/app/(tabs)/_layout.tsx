@@ -93,7 +93,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF3ED',
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: -4,
+    marginTop: -12,
+    marginBottom: 2,
   },
   exploreIconActive: {
     backgroundColor: '#FF6B35',
