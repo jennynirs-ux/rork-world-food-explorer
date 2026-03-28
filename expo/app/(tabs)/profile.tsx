@@ -8,6 +8,7 @@ import { DietType } from '@/types';
 import colors from '@/constants/colors';
 import { useState, useEffect } from 'react';
 import { enableNotifications, disableNotifications, areNotificationsEnabled } from '@/lib/notifications';
+import { getDaysRemaining } from '@/lib/share-codes';
 
 const LANGUAGES = [
   { code: 'en', name: 'English', flag: '🇬🇧' },
@@ -31,9 +32,11 @@ export default function ProfileScreen() {
   const [myCode, setMyCode] = useState('');
   const [redeemInput, setRedeemInput] = useState('');
   const [redeemStatus, setRedeemStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [daysRemaining, setDaysRemaining] = useState(0);
 
   useEffect(() => {
     getShareCode().then(setMyCode).catch(() => {});
+    getDaysRemaining().then(setDaysRemaining).catch(() => {});
   }, [getShareCode]);
 
   const handleRedeemCode = async () => {
@@ -41,7 +44,8 @@ export default function ProfileScreen() {
     const success = await redeemCode(redeemInput);
     setRedeemStatus(success ? 'success' : 'error');
     if (success) {
-      Alert.alert('🎉 All Recipes Unlocked!', 'You now have access to all countries and recipes.');
+      Alert.alert('🎉 All Recipes Unlocked!', 'You now have access to all countries and recipes for 30 days.');
+      setDaysRemaining(30);
       setShowCodeModal(false);
       setRedeemInput('');
       setRedeemStatus('idle');
@@ -425,6 +429,16 @@ export default function ProfileScreen() {
               </TouchableOpacity>
             </View>
 
+            {/* Active code status */}
+            {daysRemaining > 0 && (
+              <View style={styles.activeCodeBanner}>
+                <Check size={20} color="#10B981" />
+                <Text style={styles.activeCodeText}>
+                  All recipes unlocked — {daysRemaining} {daysRemaining === 1 ? 'day' : 'days'} remaining
+                </Text>
+              </View>
+            )}
+
             {/* Your Code */}
             <View style={styles.codeSection}>
               <View style={styles.codeSectionHeader}>
@@ -432,7 +446,7 @@ export default function ProfileScreen() {
                 <Text style={styles.codeSectionTitle}>Your Code</Text>
               </View>
               <Text style={styles.codeSectionDesc}>
-                Share this code with a friend to give them access to all recipes:
+                Share this code with a friend to give them access to all recipes for 30 days:
               </Text>
               <View style={styles.codeDisplay}>
                 <Text style={styles.codeText}>{myCode || '...'}</Text>
@@ -450,7 +464,7 @@ export default function ProfileScreen() {
                 <Text style={styles.codeSectionTitle}>Enter a Code</Text>
               </View>
               <Text style={styles.codeSectionDesc}>
-                Enter a code from a friend to unlock all recipes:
+                Enter a code from a friend to unlock all recipes for 30 days:
               </Text>
               <View style={styles.redeemRow}>
                 <TextInput
@@ -777,6 +791,21 @@ const styles = StyleSheet.create({
   modalLangNameSelected: {
     color: '#FF6B35',
     fontWeight: '600' as const,
+  },
+  activeCodeBanner: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    backgroundColor: '#D1FAE5',
+    borderRadius: 12,
+    padding: 14,
+    marginBottom: 16,
+  },
+  activeCodeText: {
+    flex: 1,
+    fontSize: 14,
+    fontWeight: '600' as const,
+    color: '#065F46',
   },
   codeModalContent: {
     backgroundColor: colors.background,

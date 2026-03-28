@@ -11,7 +11,7 @@ import { filterValidCountries } from '@/lib/validate-country';
 import { initializeNotifications } from '@/lib/notifications';
 import { cache } from '@/lib/cache';
 import { calculateSkillLevel } from '@/lib/nutrition';
-import { hasRedeemedCode, redeemShareCode, getOrCreateShareCode, shareCode } from '@/lib/share-codes';
+import { hasActiveRedeemedCode, redeemShareCode, getOrCreateShareCode, shareCode } from '@/lib/share-codes';
 
 const STORAGE_KEYS = {
   USER_PROFILE: '@world_cooking_user_profile',
@@ -158,17 +158,21 @@ export const [AppProvider, useApp] = createContextHook(() => {
     void loadData();
     void initializeNotifications();
 
-    // Check if user has redeemed a share code → auto-unlock all
-    void hasRedeemedCode().then(redeemed => {
-      if (redeemed) {
-        setUserProfile(prev => {
-          const products = prev.purchasedProducts || [];
-          if (!products.includes('world_unlock_all')) {
-            return { ...prev, purchasedProducts: [...products, 'world_unlock_all'] };
-          }
-          return prev;
-        });
-      }
+    // Check if user has an active (non-expired) share code → unlock/revoke
+    void hasActiveRedeemedCode().then(active => {
+      setUserProfile(prev => {
+        const products = prev.purchasedProducts || [];
+        const hasCodeUnlock = products.includes('code_unlock_all');
+        if (active && !hasCodeUnlock) {
+          // Code is active — grant access
+          return { ...prev, purchasedProducts: [...products, 'code_unlock_all'] };
+        }
+        if (!active && hasCodeUnlock) {
+          // Code expired — revoke access (keep real purchases)
+          return { ...prev, purchasedProducts: products.filter(p => p !== 'code_unlock_all') };
+        }
+        return prev;
+      });
     });
   }, []);
 
@@ -568,7 +572,8 @@ export const [AppProvider, useApp] = createContextHook(() => {
   const redeemCode = useCallback(async (code: string): Promise<boolean> => {
     const success = await redeemShareCode(code);
     if (success) {
-      await purchaseProduct('world_unlock_all');
+      // Grant temporary access (30 days) via code_unlock_all
+      await purchaseProduct('code_unlock_all');
     }
     return success;
   }, [purchaseProduct]);

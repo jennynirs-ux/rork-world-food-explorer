@@ -14,6 +14,11 @@ export function isCountryAccessible(
     return true;
   }
 
+  // Temporary access from share code (30 days)
+  if (purchasedProducts.includes('code_unlock_all')) {
+    return true;
+  }
+
   const continent = translateContent(country.continent, 'en');
   const continentProduct = CONTINENT_TO_PRODUCT_MAP[continent];
   if (continentProduct && purchasedProducts.includes(continentProduct)) {
