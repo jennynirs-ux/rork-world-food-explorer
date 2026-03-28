@@ -107,9 +107,9 @@ export default function ExploreScreen() {
     if (filterStatus === 'favorites') {
       return (userProfile.favoriteCountries || []).includes(country.id);
     }
-    // Locked countries always show (greyed out) regardless of filter
+    // Locked countries always show (greyed out) regardless of filter, except in favorites view
     const accessible = isCountryAccessible(country, purchasedProducts);
-    if (!accessible) return true;
+    if (!accessible && filterStatus !== 'favorites') return true;
     const status = getCountryStatus(country.id);
     return status === filterStatus;
   }).sort((a, b) => {
@@ -310,7 +310,7 @@ export default function ExploreScreen() {
 
       {viewMode === 'map' ? (
         <View style={styles.mapViewContainer}>
-          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 20 }}>
+          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 20 }} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor={colors.brand} />}>
             {renderFilterBar()}
             {renderInProgressStrip()}
 

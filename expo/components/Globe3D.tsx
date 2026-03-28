@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect, useMemo, useCallback } from 'react';
 import { View, StyleSheet, Dimensions, TouchableOpacity, Text, PanResponder, GestureResponderEvent, ActivityIndicator } from 'react-native';
-import { ZoomIn, ZoomOut } from 'lucide-react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { ZoomIn, ZoomOut, RefreshCw } from 'lucide-react-native';
 import Svg, { Path, Circle, Defs, RadialGradient, Stop, G } from 'react-native-svg';
 import { geoOrthographic, geoPath, geoContains, GeoPermissibleObjects } from 'd3-geo';
 import { feature } from 'topojson-client';
@@ -60,6 +61,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
   const visiblePins = optimizedResult.pins as CountryPin[];
   const [worldData, setWorldData] = useState<GeoFeatureCollection | null>(null);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState(false);
 
   // Refs for animation and gesture handling
   const lastXRef = useRef(0);
@@ -78,27 +80,52 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
     }, {} as Record<string, CountryPin>);
   }, [visiblePins]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
-        if (!response.ok) throw new Error('Network response was not ok');
-        const topology = await response.json();
-        
-        if (!topology || !topology.objects || !topology.objects.countries) {
-          throw new Error('Invalid topology data');
+  const TOPOJSON_CACHE_KEY = '@globe_topojson_cache';
+
+  const loadWorldData = useCallback(async () => {
+    setLoading(true);
+    setFetchError(false);
+    try {
+      // Try loading from cache first
+      const cached = await AsyncStorage.getItem(TOPOJSON_CACHE_KEY);
+      if (cached) {
+        try {
+          const topology = JSON.parse(cached);
+          if (topology?.objects?.countries) {
+            const features = feature(topology, topology.objects.countries) as unknown as GeoFeatureCollection;
+            setWorldData(features);
+            setLoading(false);
+            return;
+          }
+        } catch {
+          // Cache was corrupt, continue to fetch
         }
-        
-        const features = feature(topology, topology.objects.countries) as unknown as GeoFeatureCollection;
-        setWorldData(features);
-        setLoading(false);
-      } catch (error) {
-        if (__DEV__) console.error("Failed to load map data", error);
-        setLoading(false);
       }
-    };
-    fetchData();
+
+      const response = await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
+      if (!response.ok) throw new Error('Network response was not ok');
+      const topology = await response.json();
+
+      if (!topology || !topology.objects || !topology.objects.countries) {
+        throw new Error('Invalid topology data');
+      }
+
+      // Cache the raw topology for next time
+      await AsyncStorage.setItem(TOPOJSON_CACHE_KEY, JSON.stringify(topology)).catch(() => {});
+
+      const features = feature(topology, topology.objects.countries) as unknown as GeoFeatureCollection;
+      setWorldData(features);
+      setLoading(false);
+    } catch (error) {
+      if (__DEV__) console.error("Failed to load map data", error);
+      setFetchError(true);
+      setLoading(false);
+    }
   }, []);
+
+  useEffect(() => {
+    loadWorldData();
+  }, [loadWorldData]);
 
   const { pathGenerator, projection } = useMemo(() => {
     try {
@@ -302,6 +329,20 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
       return { country, x, y, idx };
     }).filter(Boolean) as { country: CountryPin; x: number; y: number; idx: number }[];
   }, [visiblePins, projection, filterStatus]);
+
+  if (fetchError && !worldData) {
+    return (
+      <View style={styles.loadingContainer}>
+        <View style={[styles.loadingSkeleton, { width: GLOBE_SIZE, height: GLOBE_SIZE, borderRadius: GLOBE_SIZE / 2 }]}>
+          <Text style={styles.loadingText}>Failed to load map</Text>
+          <TouchableOpacity style={styles.retryButton} onPress={loadWorldData}>
+            <RefreshCw size={18} color="#FFF" />
+            <Text style={styles.retryButtonText}>Retry</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    );
+  }
 
   if (loading || !worldData || !pathGenerator || !projection) {
     return (
@@ -540,6 +581,21 @@ const styles = StyleSheet.create({
   loadingText: {
     fontSize: 16,
     color: '#6B7280',
+  },
+  retryButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    backgroundColor: '#FF6B35',
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 20,
+    marginTop: 12,
+  },
+  retryButtonText: {
+    color: '#FFF',
+    fontSize: 14,
+    fontWeight: '600' as const,
   },
   flagPin: {
     position: 'absolute' as const,

@@ -135,7 +135,7 @@ export default function ProgressScreen() {
           ) : (
             <View style={styles.badgesGrid}>
               {earnedBadges.map(badge => {
-                const Icon = badge.icon;
+                const Icon = badge.icon || AwardIcon;
                 return (
                   <View
                     key={badge.id}
@@ -161,7 +161,7 @@ export default function ProgressScreen() {
             <Text style={styles.sectionTitle}>{t.progress.lockedBadges}</Text>
             <View style={styles.badgesGrid}>
               {unearnedBadges.map(badge => {
-                const Icon = badge.icon;
+                const Icon = badge.icon || AwardIcon;
                 return (
                   <View
                     key={badge.id}

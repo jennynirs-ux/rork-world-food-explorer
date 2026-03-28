@@ -335,42 +335,56 @@ export default function MealPlanScreen() {
 
         {/* Meal Slots */}
         {MEAL_TYPES.map(mealType => {
-          const plan = selectedPlans.find(p => p.mealType === mealType);
-          const info = plan ? getRecipeInfo(plan) : null;
+          const plans = selectedPlans.filter(p => p.mealType === mealType);
 
           return (
             <View key={mealType} style={styles.mealSlot}>
               <Text style={styles.mealTypeLabel}>
                 {t.mealPlan[mealType as keyof typeof t.mealPlan] || mealType.charAt(0).toUpperCase() + mealType.slice(1)}
               </Text>
-              {plan && info ? (
-                <View style={styles.mealCard}>
-                  <View style={styles.mealIcon}>
-                    <MapPin size={18} color={colors.terracotta} />
-                  </View>
-                  <View style={styles.mealInfo}>
-                    <Text style={styles.mealName} numberOfLines={1}>
-                      {info.name}
-                    </Text>
-                    <Text style={styles.mealCountry}>
-                      {info.countryName} · {info.cookingTime} min
-                    </Text>
-                  </View>
-                  <View style={styles.mealActions}>
-                    <TouchableOpacity
-                      onPress={() => handleAddToShoppingList(plan)}
-                      style={styles.mealActionBtn}
-                    >
-                      <ShoppingCart size={16} color={colors.sage} />
-                    </TouchableOpacity>
-                    <TouchableOpacity
-                      onPress={() => handleRemovePlan(plan.id)}
-                      style={styles.mealActionBtn}
-                    >
-                      <Trash2 size={16} color={colors.error} />
-                    </TouchableOpacity>
-                  </View>
-                </View>
+              {plans.length > 0 ? (
+                <>
+                  {plans.map(plan => {
+                    const info = getRecipeInfo(plan);
+                    if (!info) return null;
+                    return (
+                      <View key={plan.id} style={styles.mealCard}>
+                        <View style={styles.mealIcon}>
+                          <MapPin size={18} color={colors.terracotta} />
+                        </View>
+                        <View style={styles.mealInfo}>
+                          <Text style={styles.mealName} numberOfLines={1}>
+                            {info.name}
+                          </Text>
+                          <Text style={styles.mealCountry}>
+                            {info.countryName} · {info.cookingTime} min
+                          </Text>
+                        </View>
+                        <View style={styles.mealActions}>
+                          <TouchableOpacity
+                            onPress={() => handleAddToShoppingList(plan)}
+                            style={styles.mealActionBtn}
+                          >
+                            <ShoppingCart size={16} color={colors.sage} />
+                          </TouchableOpacity>
+                          <TouchableOpacity
+                            onPress={() => handleRemovePlan(plan.id)}
+                            style={styles.mealActionBtn}
+                          >
+                            <Trash2 size={16} color={colors.error} />
+                          </TouchableOpacity>
+                        </View>
+                      </View>
+                    );
+                  })}
+                  <TouchableOpacity
+                    style={styles.emptySlot}
+                    onPress={() => handleAddMeal(mealType)}
+                  >
+                    <Plus size={20} color={colors.textTertiary} />
+                    <Text style={styles.emptySlotText}>{t.mealPlan.addRecipe}</Text>
+                  </TouchableOpacity>
+                </>
               ) : (
                 <TouchableOpacity
                   style={styles.emptySlot}

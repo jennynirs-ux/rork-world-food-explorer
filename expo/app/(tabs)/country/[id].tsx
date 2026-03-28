@@ -74,6 +74,7 @@ export default function CountryDetailScreen() {
   useEffect(() => {
     scrollViewRef.current?.scrollTo({ y: 0, animated: false });
     setActiveTab('about');
+    setQuizAnswers([]);
   }, [id]);
 
   const countryData = countries.find(c => c.id === id);
@@ -148,7 +149,7 @@ export default function CountryDetailScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.lockedContainer}>
-          <TouchableOpacity onPress={() => router.replace('/(tabs)' as any)} style={styles.lockedBackButton}>
+          <TouchableOpacity onPress={() => router.back()} style={styles.lockedBackButton}>
             <ArrowLeft size={24} color={colors.text} />
           </TouchableOpacity>
           
@@ -318,7 +319,7 @@ export default function CountryDetailScreen() {
   };
 
   const handleSubmitQuiz = () => {
-    if (quizAnswers.length !== country.quiz.length) {
+    if (quizAnswers.filter(a => a !== undefined).length !== country.quiz.length) {
       hapticError();
       Alert.alert(t.country.incomplete, t.country.answerAllQuestions);
       return;
@@ -372,7 +373,7 @@ export default function CountryDetailScreen() {
           <View style={styles.headerButtons}>
             <View style={styles.leftButtons}>
               <TouchableOpacity
-                onPress={() => router.replace('/(tabs)' as any)}
+                onPress={() => router.back()}
                 style={styles.backButton}
               >
                 <ArrowLeft size={24} color="#FFF" />

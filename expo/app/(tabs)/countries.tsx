@@ -1,54 +1,168 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Share, TextInput, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
-import { ShoppingCart, Trash2 } from 'lucide-react-native';
+import { useTranslation } from '@/lib/i18n';
+import { Check, X, Share2, Trash2, ShoppingCart, Search } from 'lucide-react-native';
+import { useState } from 'react';
+import { hapticLight } from '@/lib/haptics';
 
-export default function ShopScreen() {
-  const { shoppingList, removeShoppingItem, clearShoppingList } = useApp();
+export default function ShoppingTabScreen() {
+  const router = useRouter();
+  const { shoppingList, toggleShoppingItem, removeShoppingItem, clearShoppingList } = useApp();
+  const { t } = useTranslation();
+
+  const handleShare = async () => {
+    const listText = shoppingList
+      .map(item => `${item.checked ? '\u2713' : '\u25CB'} ${item.amount} ${item.unit} ${item.name} (${item.countryName})`)
+      .join('\n');
+
+    try {
+      await Share.share({
+        message: `\uD83D\uDED2 Shopping List:\n\n${listText}\n\n\uD83C\uDF0D Made with World Food Explorer\nhttps://worldfoodexplorer.app`,
+        url: 'https://worldfoodexplorer.app',
+      });
+    } catch {
+      Alert.alert('Sharing failed', 'Could not share the shopping list. Please try again.');
+    }
+  };
+
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const filteredList = shoppingList.filter(item => {
+    if (!searchQuery.trim()) return true;
+    const q = searchQuery.toLowerCase();
+    return item.name.toLowerCase().includes(q) || item.countryName.toLowerCase().includes(q);
+  });
+
+  const uncheckedItems = filteredList.filter(item => !item.checked);
+  const checkedItems = filteredList.filter(item => item.checked);
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.header}>
-        <ShoppingCart size={32} color="#FF6B35" />
-        <View style={styles.headerContent}>
-          <Text style={styles.title}>Shopping List</Text>
-          <Text style={styles.subtitle}>{shoppingList.length} items</Text>
-        </View>
-        {shoppingList.length > 0 && (
-          <TouchableOpacity onPress={clearShoppingList} style={styles.clearButton}>
-            <Trash2 size={20} color="#EF4444" />
-          </TouchableOpacity>
-        )}
+        <ShoppingCart size={28} color="#FF6B35" />
+        <Text style={styles.title}>{t.shopping.title}</Text>
       </View>
 
       {shoppingList.length === 0 ? (
         <View style={styles.emptyState}>
-          <ShoppingCart size={64} color="#D1D5DB" />
-          <Text style={styles.emptyTitle}>Your shopping list is empty</Text>
+          <ShoppingCart size={80} color="#D1D5DB" />
+          <Text style={styles.emptyTitle}>{t.shopping.noItems}</Text>
           <Text style={styles.emptyText}>
-            Add ingredients from country recipes to create your shopping list
+            {t.shopping.noItemsDesc}
           </Text>
+          <TouchableOpacity
+            style={styles.browseButton}
+            onPress={() => router.push('/(tabs)')}
+          >
+            <Text style={styles.browseButtonText}>{t.shopping.browseRecipes}</Text>
+          </TouchableOpacity>
         </View>
       ) : (
-        <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
-          {shoppingList.map((item) => (
-            <View key={item.id} style={styles.itemCard}>
-              <View style={styles.itemInfo}>
-                <Text style={styles.itemName}>
-                  {item.name} ({item.amount} {item.unit})
-                </Text>
-                <Text style={styles.itemCountry}>{item.countryName}</Text>
-              </View>
-              <TouchableOpacity
-                onPress={() => removeShoppingItem(item.id)}
-                style={styles.removeButton}
-              >
-                <Trash2 size={18} color="#EF4444" />
-              </TouchableOpacity>
+        <>
+          <View style={styles.actions}>
+            <TouchableOpacity style={styles.actionButton} onPress={handleShare}>
+              <Share2 size={20} color="#FF6B35" />
+              <Text style={styles.actionButtonText}>{t.shopping.shareList}</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.actionButton, styles.actionButtonDanger]}
+              onPress={() => {
+                Alert.alert(
+                  t.shopping.clearConfirmTitle,
+                  t.shopping.clearConfirmMessage,
+                  [
+                    { text: t.shopping.clearConfirmCancel, style: 'cancel' },
+                    { text: t.shopping.clearConfirmClear, style: 'destructive', onPress: clearShoppingList },
+                  ]
+                );
+              }}
+            >
+              <Trash2 size={20} color="#EF4444" />
+              <Text style={styles.actionButtonTextDanger}>{t.shopping.clearAll}</Text>
+            </TouchableOpacity>
+          </View>
+
+          {shoppingList.length > 5 && (
+            <View style={styles.searchContainer}>
+              <Search size={18} color="#9CA3AF" />
+              <TextInput
+                style={styles.searchInput}
+                placeholder={t.shopping.searchIngredients}
+                placeholderTextColor="#9CA3AF"
+                value={searchQuery}
+                onChangeText={setSearchQuery}
+              />
             </View>
-          ))}
-          <View style={{ height: 100 }} />
-        </ScrollView>
+          )}
+
+          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
+            {uncheckedItems.length > 0 && (
+              <View style={styles.section}>
+                <Text style={styles.sectionTitle}>
+                  {t.shopping.toBuy} ({uncheckedItems.length})
+                </Text>
+                {uncheckedItems.map(item => (
+                  <View key={item.id} style={styles.itemCard}>
+                    <TouchableOpacity
+                      style={styles.checkbox}
+                      onPress={() => { hapticLight(); toggleShoppingItem(item.id); }}
+                    >
+                      <View style={styles.checkboxUnchecked} />
+                    </TouchableOpacity>
+                    <View style={styles.itemInfo}>
+                      <Text style={styles.itemName}>
+                        {item.amount} {item.unit} {item.name}
+                      </Text>
+                      <Text style={styles.itemCountry}>{t.shopping.from} {item.countryName}</Text>
+                    </View>
+                    <TouchableOpacity
+                      onPress={() => removeShoppingItem(item.id)}
+                      style={styles.deleteButton}
+                    >
+                      <X size={20} color="#EF4444" />
+                    </TouchableOpacity>
+                  </View>
+                ))}
+              </View>
+            )}
+
+            {checkedItems.length > 0 && (
+              <View style={styles.section}>
+                <Text style={styles.sectionTitle}>
+                  {t.shopping.checked} ({checkedItems.length})
+                </Text>
+                {checkedItems.map(item => (
+                  <View key={item.id} style={[styles.itemCard, styles.itemCardChecked]}>
+                    <TouchableOpacity
+                      style={styles.checkbox}
+                      onPress={() => { hapticLight(); toggleShoppingItem(item.id); }}
+                    >
+                      <View style={styles.checkboxChecked}>
+                        <Check size={16} color="#FFF" />
+                      </View>
+                    </TouchableOpacity>
+                    <View style={styles.itemInfo}>
+                      <Text style={[styles.itemName, styles.itemNameChecked]}>
+                        {item.amount} {item.unit} {item.name}
+                      </Text>
+                      <Text style={styles.itemCountry}>{t.shopping.from} {item.countryName}</Text>
+                    </View>
+                    <TouchableOpacity
+                      onPress={() => removeShoppingItem(item.id)}
+                      style={styles.deleteButton}
+                    >
+                      <X size={20} color="#EF4444" />
+                    </TouchableOpacity>
+                  </View>
+                ))}
+              </View>
+            )}
+
+            <View style={{ height: 100 }} />
+          </ScrollView>
+        </>
       )}
     </SafeAreaView>
   );
@@ -66,21 +180,41 @@ const styles = StyleSheet.create({
     paddingVertical: 16,
     gap: 12,
   },
-  headerContent: {
-    flex: 1,
-  },
   title: {
-    fontSize: 32,
+    fontSize: 28,
     fontWeight: '700' as const,
     color: '#2D1B00',
   },
-  subtitle: {
-    fontSize: 16,
-    color: '#6B7280',
-    marginTop: 4,
+  actions: {
+    flexDirection: 'row',
+    gap: 12,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
   },
-  clearButton: {
-    padding: 8,
+  actionButton: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#FFF',
+    paddingVertical: 12,
+    borderRadius: 12,
+    gap: 8,
+    borderWidth: 1,
+    borderColor: '#FF6B35',
+  },
+  actionButtonText: {
+    color: '#FF6B35',
+    fontSize: 14,
+    fontWeight: '600' as const,
+  },
+  actionButtonDanger: {
+    borderColor: '#FEE2E2',
+  },
+  actionButtonTextDanger: {
+    color: '#EF4444',
+    fontSize: 14,
+    fontWeight: '600' as const,
   },
   emptyState: {
     flex: 1,
@@ -89,10 +223,9 @@ const styles = StyleSheet.create({
     paddingHorizontal: 32,
   },
   emptyTitle: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: '700' as const,
     color: '#2D1B00',
-    marginTop: 24,
     marginBottom: 8,
   },
   emptyText: {
@@ -101,9 +234,49 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 24,
   },
-  list: {
+  browseButton: {
+    marginTop: 20,
+    backgroundColor: '#FF6B35',
+    paddingVertical: 14,
+    paddingHorizontal: 28,
+    borderRadius: 12,
+  },
+  browseButtonText: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: '600' as const,
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#FFF',
+    borderRadius: 12,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    marginHorizontal: 16,
+    marginBottom: 12,
+    gap: 8,
+    borderWidth: 1,
+    borderColor: '#E5E7EB',
+  },
+  searchInput: {
     flex: 1,
+    fontSize: 15,
+    color: '#2D1B00',
+    padding: 0,
+  },
+  scrollView: {
+    flex: 1,
+  },
+  section: {
     paddingHorizontal: 16,
+    marginBottom: 24,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: '700' as const,
+    color: '#2D1B00',
+    marginBottom: 12,
   },
   itemCard: {
     flexDirection: 'row',
@@ -111,8 +284,30 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     borderRadius: 12,
     padding: 16,
-    marginBottom: 12,
+    marginBottom: 8,
     gap: 12,
+  },
+  itemCardChecked: {
+    opacity: 0.6,
+  },
+  checkbox: {
+    width: 24,
+    height: 24,
+  },
+  checkboxUnchecked: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: '#D1D5DB',
+  },
+  checkboxChecked: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    backgroundColor: '#10B981',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   itemInfo: {
     flex: 1,
@@ -123,11 +318,15 @@ const styles = StyleSheet.create({
     color: '#2D1B00',
     marginBottom: 4,
   },
-  itemCountry: {
-    fontSize: 14,
+  itemNameChecked: {
+    textDecorationLine: 'line-through',
     color: '#6B7280',
   },
-  removeButton: {
-    padding: 8,
+  itemCountry: {
+    fontSize: 14,
+    color: '#9CA3AF',
+  },
+  deleteButton: {
+    padding: 4,
   },
 });

@@ -149,25 +149,24 @@ export default function RecipesTab({
             {!mainExpanded && (
               <Text style={styles.tapHint}>Tap for full recipe</Text>
             )}
-
-            <View style={styles.servingsSelector}>
-              <Users size={16} color={colors.gray500} />
-              <Text style={styles.servingsLabel}>{t.country.servings}:</Text>
-              <TouchableOpacity
-                style={styles.servingsButton}
-                onPress={(e) => { e.stopPropagation(); setMainDishServings(Math.max(1, mainDishServings - 1)); }}
-              >
-                <Text style={styles.servingsButtonText}>-</Text>
-              </TouchableOpacity>
-              <Text style={styles.servingsValue}>{mainDishServings}</Text>
-              <TouchableOpacity
-                style={styles.servingsButton}
-                onPress={(e) => { e.stopPropagation(); setMainDishServings(mainDishServings + 1); }}
-              >
-                <Text style={styles.servingsButtonText}>+</Text>
-              </TouchableOpacity>
-            </View>
           </TouchableOpacity>
+          <View style={styles.servingsSelector}>
+            <Users size={16} color={colors.gray500} />
+            <Text style={styles.servingsLabel}>{t.country.servings}:</Text>
+            <TouchableOpacity
+              style={styles.servingsButton}
+              onPress={() => setMainDishServings(Math.max(1, mainDishServings - 1))}
+            >
+              <Text style={styles.servingsButtonText}>-</Text>
+            </TouchableOpacity>
+            <Text style={styles.servingsValue}>{mainDishServings}</Text>
+            <TouchableOpacity
+              style={styles.servingsButton}
+              onPress={() => setMainDishServings(mainDishServings + 1)}
+            >
+              <Text style={styles.servingsButtonText}>+</Text>
+            </TouchableOpacity>
+          </View>
 
           {/* Expanded content — below the touchable card */}
           {mainExpanded && (
@@ -365,25 +364,24 @@ export default function RecipesTab({
             {!dessertExpanded && (
               <Text style={styles.tapHint}>Tap for full recipe</Text>
             )}
-
-            <View style={styles.servingsSelector}>
-              <Users size={16} color={colors.gray500} />
-              <Text style={styles.servingsLabel}>{t.country.servings}:</Text>
-              <TouchableOpacity
-                style={styles.servingsButton}
-                onPress={(e) => { e.stopPropagation(); setDessertServings(Math.max(1, dessertServings - 1)); }}
-              >
-                <Text style={styles.servingsButtonText}>-</Text>
-              </TouchableOpacity>
-              <Text style={styles.servingsValue}>{dessertServings}</Text>
-              <TouchableOpacity
-                style={styles.servingsButton}
-                onPress={(e) => { e.stopPropagation(); setDessertServings(dessertServings + 1); }}
-              >
-                <Text style={styles.servingsButtonText}>+</Text>
-              </TouchableOpacity>
-            </View>
           </TouchableOpacity>
+          <View style={styles.servingsSelector}>
+            <Users size={16} color={colors.gray500} />
+            <Text style={styles.servingsLabel}>{t.country.servings}:</Text>
+            <TouchableOpacity
+              style={styles.servingsButton}
+              onPress={() => setDessertServings(Math.max(1, dessertServings - 1))}
+            >
+              <Text style={styles.servingsButtonText}>-</Text>
+            </TouchableOpacity>
+            <Text style={styles.servingsValue}>{dessertServings}</Text>
+            <TouchableOpacity
+              style={styles.servingsButton}
+              onPress={() => setDessertServings(dessertServings + 1)}
+            >
+              <Text style={styles.servingsButtonText}>+</Text>
+            </TouchableOpacity>
+          </View>
 
           {dessertExpanded && (
             <View style={styles.expandedContent}>
@@ -465,22 +463,22 @@ export default function RecipesTab({
               <TouchableOpacity
                 style={[
                   styles.favoriteButton,
-                  isRecipeFavorite(country.dessert!.id) && styles.favoriteButtonActive,
+                  isRecipeFavorite(country.dessert?.id ?? '') && styles.favoriteButtonActive,
                 ]}
                 onPress={() => onToggleFavorite(true)}
               >
                 <Heart
                   size={20}
-                  color={isRecipeFavorite(country.dessert!.id) ? '#FF6B35' : '#9CA3AF'}
-                  fill={isRecipeFavorite(country.dessert!.id) ? '#FF6B35' : 'transparent'}
+                  color={isRecipeFavorite(country.dessert?.id ?? '') ? '#FF6B35' : '#9CA3AF'}
+                  fill={isRecipeFavorite(country.dessert?.id ?? '') ? '#FF6B35' : 'transparent'}
                 />
                 <Text
                   style={[
                     styles.favoriteButtonText,
-                    isRecipeFavorite(country.dessert!.id) && styles.favoriteButtonTextActive,
+                    isRecipeFavorite(country.dessert?.id ?? '') && styles.favoriteButtonTextActive,
                   ]}
                 >
-                  {isRecipeFavorite(country.dessert!.id) ? t.country.saved : t.country.saveRecipe}
+                  {isRecipeFavorite(country.dessert?.id ?? '') ? t.country.saved : t.country.saveRecipe}
                 </Text>
               </TouchableOpacity>
 
@@ -523,7 +521,7 @@ export default function RecipesTab({
 
               <CookedPhotoGallery
                 countryId={country.id}
-                recipeId={country.dessert!.id}
+                recipeId={country.dessert?.id ?? ''}
                 isDessert={true}
                 isCooked={progress.dessertCooked}
                 onSharePhoto={(uri) => onShareCookedPhoto(String(country.dessert?.name ?? ''), uri)}
