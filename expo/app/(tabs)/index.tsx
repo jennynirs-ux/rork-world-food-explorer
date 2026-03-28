@@ -48,11 +48,12 @@ export default function ExploreScreen() {
   const MAP_HEIGHT = 450;
 
   const countryPins = countries
-    .filter(country => country.coordinates && country.coordinates.x != null && country.coordinates.y != null && isCountryAccessible(country, purchasedProducts))
+    .filter(country => country.coordinates && country.coordinates.x != null && country.coordinates.y != null)
     .map(country => {
       const lng = (country.coordinates!.x / MAP_WIDTH) * 360 - 180;
       const lat = 90 - (country.coordinates!.y / MAP_HEIGHT) * 180;
-      
+      const accessible = isCountryAccessible(country, purchasedProducts);
+
       return {
         id: country.id,
         name: translateContent(country.name),
@@ -60,8 +61,8 @@ export default function ExploreScreen() {
         code: country.code,
         lat,
         lng,
-        color: getCountryColor(country.id),
-        status: getCountryStatus(country.id),
+        color: accessible ? getCountryColor(country.id) : '#C0C0C0',
+        status: accessible ? getCountryStatus(country.id) : 'locked',
       };
     });
 
@@ -307,49 +308,6 @@ export default function ExploreScreen() {
                 <Shuffle size={20} color="#FFF" />
                 <Text style={styles.randomButtonText}>{t.explore.pickRandom}</Text>
               </TouchableOpacity>
-            </View>
-
-            <View style={styles.countryListSection}>
-              <View style={styles.searchContainer}>
-                <View style={styles.searchBar}>
-                  <Search size={20} color="#9CA3AF" />
-                  <TextInput
-                    style={styles.searchInput}
-                    placeholder={t.explore.searchCountries}
-                    placeholderTextColor="#9CA3AF"
-                    value={searchQuery}
-                    onChangeText={setSearchQuery}
-                  />
-                </View>
-              </View>
-              <Text style={styles.sectionTitle}>
-                {filterStatus === 'to do' ? t.explore.toDoCountries : filterStatus === 'cooking' ? t.explore.cookingCountries : filterStatus === 'done' ? t.explore.doneCountries : t.explore.allCountries} ({filteredCountries.length})
-              </Text>
-              <View style={styles.countryGrid}>
-                {filteredCountries.map(country => {
-                  const status = getCountryStatus(country.id);
-                  const statusColor = status === 'done' ? '#10B981' : status === 'cooking' ? '#F59E0B' : '#D1D5DB';
-                  const isAccessible = isCountryAccessible(country, purchasedProducts);
-                  
-                  return (
-                    <TouchableOpacity
-                      key={country.id}
-                      style={styles.countryChip}
-                      onPress={() => handleCountryPress(country.id)}
-                      accessibilityLabel={`${translateContent(country.name)}, ${status}${!isAccessible ? ', locked' : ''}`}
-                      accessibilityRole="button"
-                    >
-                      {isAccessible ? (
-                        <View style={[styles.statusDot, { backgroundColor: statusColor }]} />
-                      ) : (
-                        <Lock size={10} color="#9CA3AF" />
-                      )}
-                      <Text style={[styles.countryChipFlag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
-                      <Text style={styles.countryChipName} numberOfLines={1}>{translateContent(country.name)}</Text>
-                    </TouchableOpacity>
-                  );
-                })}
-              </View>
             </View>
 
             <View style={{ height: 20 }} />

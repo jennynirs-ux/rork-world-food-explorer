@@ -7,6 +7,7 @@ import { feature } from 'topojson-client';
 import { useOptimizedPins } from '@/lib/useGlobeOptimization';
 import { hapticMedium, hapticLight } from '@/lib/haptics';
 import { useTranslation } from '@/lib/i18n';
+import FlagEmoji from '@/components/FlagEmoji';
 import type { GeoJsonProperties, FeatureCollection, Feature, Geometry } from 'geojson';
 
 type GeoFeature = Feature<Geometry, GeoJsonProperties> & { id?: string | number };
@@ -375,49 +376,62 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
 
             {/* Flag Pins - visible markers on countries */}
             <G>
-              {pinPositions.map(({ country, x, y, idx }) => (
-                <G key={`${country.id}-${idx}`}>
-                  <Circle
-                    cx={x}
-                    cy={y}
-                    r={10}
-                    fill="#FF6B35"
-                    opacity={0.95}
-                  />
-                  <Circle
-                    cx={x}
-                    cy={y}
-                    r={6}
-                    fill="white"
-                    opacity={1}
-                  />
-                </G>
-              ))}
+              {pinPositions.map(({ country, x, y, idx }) => {
+                const isLocked = country.status === 'locked';
+                return (
+                  <G key={`${country.id}-${idx}`}>
+                    <Circle
+                      cx={x}
+                      cy={y}
+                      r={isLocked ? 7 : 10}
+                      fill={isLocked ? '#9CA3AF' : '#FF6B35'}
+                      opacity={isLocked ? 0.6 : 0.95}
+                    />
+                    {!isLocked && (
+                      <Circle
+                        cx={x}
+                        cy={y}
+                        r={6}
+                        fill="white"
+                        opacity={1}
+                      />
+                    )}
+                  </G>
+                );
+              })}
             </G>
             </Svg>
           </View>
 
           {/* Touchable flag pins overlaid on top */}
           <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE, pointerEvents: 'box-none' }}>
-            {pinPositions.map(({ country, x, y, idx }) => (
-              <TouchableOpacity
-                key={`${country.id}-touch-${idx}`}
-                style={[
-                  styles.flagPin,
-                  {
-                    left: x - 20,
-                    top: y - 20,
-                  },
-                ]}
-                onPress={() => { hapticMedium(); setTimeout(() => onCountryPress(country.id), 50); }}
-                activeOpacity={0.7}
-                accessibilityLabel={`${country.name}, ${country.status}`}
-                accessibilityRole="button"
-                accessibilityHint={accessibilityExploreHint || 'Double tap to explore this country'}
-              >
-                <Text style={styles.flagEmoji}>{country.flag}</Text>
-              </TouchableOpacity>
-            ))}
+            {pinPositions.map(({ country, x, y, idx }) => {
+              const isLocked = country.status === 'locked';
+              return (
+                <TouchableOpacity
+                  key={`${country.id}-touch-${idx}`}
+                  style={[
+                    styles.flagPin,
+                    {
+                      left: x - 20,
+                      top: y - 20,
+                    },
+                    isLocked && styles.flagPinLocked,
+                  ]}
+                  onPress={() => { hapticMedium(); setTimeout(() => onCountryPress(country.id), 50); }}
+                  activeOpacity={0.7}
+                  accessibilityLabel={`${country.name}, ${isLocked ? 'locked' : country.status}`}
+                  accessibilityRole="button"
+                  accessibilityHint={accessibilityExploreHint || 'Double tap to explore this country'}
+                >
+                  {isLocked ? (
+                    <Text style={styles.lockedDot}>🔒</Text>
+                  ) : (
+                    <FlagEmoji flag={country.flag} size={20} />
+                  )}
+                </TouchableOpacity>
+              );
+            })}
           </View>
         </View>
 
@@ -433,6 +447,10 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
           <View style={styles.legendItem}>
             <View style={[styles.legendDot, { backgroundColor: '#10B981' }]} />
             <Text style={styles.legendText}>{t.globe.done}</Text>
+          </View>
+          <View style={styles.legendItem}>
+            <View style={[styles.legendDot, { backgroundColor: '#9CA3AF' }]} />
+            <Text style={styles.legendText}>🔒</Text>
           </View>
         </View>
       </View>
@@ -543,5 +561,16 @@ const styles = StyleSheet.create({
   },
   flagEmoji: {
     fontSize: 20,
+  },
+  flagPinLocked: {
+    backgroundColor: 'rgba(200, 200, 200, 0.85)',
+    borderColor: '#9CA3AF',
+    width: 32,
+    height: 32,
+    borderRadius: 16,
+    borderWidth: 2,
+  },
+  lockedDot: {
+    fontSize: 14,
   },
 });
