@@ -87,21 +87,24 @@ export default function TabLayout() {
 
 const styles = StyleSheet.create({
   exploreIcon: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
+    width: 56,
+    height: 56,
+    borderRadius: 28,
     backgroundColor: '#FFF3ED',
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: -12,
-    marginBottom: 2,
+    marginTop: -22,
+    marginBottom: 0,
+    borderWidth: 3,
+    borderColor: '#FFE0D0',
   },
   exploreIconActive: {
     backgroundColor: '#FF6B35',
+    borderColor: '#FF6B35',
     shadowColor: '#FF6B35',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
-    elevation: 6,
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.4,
+    shadowRadius: 12,
+    elevation: 8,
   },
 });

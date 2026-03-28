@@ -15,6 +15,7 @@ import { translateContent } from '@/lib/translate-content';
 import { CountryListSkeleton } from '@/components/SkeletonLoader';
 import { hapticLight, hapticMedium } from '@/lib/haptics';
 import colors from '@/constants/colors';
+import { COUNTRY_COORDINATES } from '@/data/country-coordinates';
 
 export default function ExploreScreen() {
   const { countryProgress, countries, userProfile, purchaseProduct, countriesError, refetchCountries, isLoading } = useApp();
@@ -43,15 +44,13 @@ export default function ExploreScreen() {
     return '#F59E0B';
   };
 
-  // Pixel coordinates are on an 800x450 equirectangular map image
-  const MAP_WIDTH = 800;
-  const MAP_HEIGHT = 450;
-
   const countryPins = countries
-    .filter(country => country.coordinates && country.coordinates.x != null && country.coordinates.y != null)
+    .filter(country => {
+      const coords = COUNTRY_COORDINATES[country.code];
+      return !!coords;
+    })
     .map(country => {
-      const lng = (country.coordinates!.x / MAP_WIDTH) * 360 - 180;
-      const lat = 90 - (country.coordinates!.y / MAP_HEIGHT) * 180;
+      const coords = COUNTRY_COORDINATES[country.code];
       const accessible = isCountryAccessible(country, purchasedProducts);
 
       return {
@@ -59,8 +58,8 @@ export default function ExploreScreen() {
         name: translateContent(country.name),
         flag: country.flag,
         code: country.code,
-        lat,
-        lng,
+        lat: coords.lat,
+        lng: coords.lng,
         color: accessible ? getCountryColor(country.id) : '#C0C0C0',
         status: accessible ? getCountryStatus(country.id) : 'locked',
       };
