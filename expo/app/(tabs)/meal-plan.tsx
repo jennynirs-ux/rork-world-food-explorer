@@ -22,6 +22,7 @@ import {
 import { useApp } from '@/contexts/AppContext';
 import { translateContent } from '@/lib/translate-content';
 import { hapticLight, hapticSuccess } from '@/lib/haptics';
+import { isCountryAccessible } from '@/lib/access-control';
 import colors from '@/constants/colors';
 import { MealPlan } from '@/types';
 
@@ -93,7 +94,8 @@ export default function MealPlanScreen() {
   const handleAddMeal = (mealType: MealType) => {
     hapticLight();
     // Show a picker from available countries/recipes
-    const options = countries.slice(0, 30).flatMap(c => {
+    const purchasedProducts = userProfile.purchasedProducts || [];
+    const options = countries.filter(c => isCountryAccessible(c, purchasedProducts)).slice(0, 30).flatMap(c => {
       const items: { label: string; countryId: string; recipeId: string }[] = [];
       const countryName = translateContent(c.name, lang);
       const mainName = translateContent(c.mainDish.name, lang);
