@@ -182,6 +182,6 @@ export async function getCustomerInfo(): Promise<string[]> {
 function getActiveEntitlements(customerInfo: CustomerInfo): string[] {
   const activeEntitlements = Object.keys(customerInfo.entitlements.active);
 
-  const productIds = Object.values(PRODUCT_IDS);
+  const productIds = Object.values(PRODUCT_IDS) as string[];
   return activeEntitlements.filter((id) => productIds.includes(id));
 }

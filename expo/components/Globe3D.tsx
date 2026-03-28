@@ -1,11 +1,12 @@
 import { useState, useRef, useEffect, useMemo, useCallback } from 'react';
-import { View, StyleSheet, Dimensions, TouchableOpacity, Text, Modal, PanResponder, GestureResponderEvent } from 'react-native';
-import { ZoomIn, ZoomOut, MapPin } from 'lucide-react-native';
+import { View, StyleSheet, Dimensions, TouchableOpacity, Text, PanResponder, GestureResponderEvent, ActivityIndicator } from 'react-native';
+import { ZoomIn, ZoomOut } from 'lucide-react-native';
 import Svg, { Path, Circle, Defs, RadialGradient, Stop, G } from 'react-native-svg';
 import { geoOrthographic, geoPath, geoContains, GeoPermissibleObjects } from 'd3-geo';
 import { feature } from 'topojson-client';
 import { useOptimizedPins } from '@/lib/useGlobeOptimization';
 import { hapticMedium, hapticLight } from '@/lib/haptics';
+import { useTranslation } from '@/lib/i18n';
 import type { GeoJsonProperties, FeatureCollection, Feature, Geometry } from 'geojson';
 
 type GeoFeature = Feature<Geometry, GeoJsonProperties> & { id?: string | number };
@@ -42,6 +43,7 @@ const GEO_TO_ISO: Record<string, string> = {
 };
 
 export default function Globe3D({ pins, onCountryPress, filterStatus, accessibilityExploreHint }: Globe3DProps) {
+  const { t } = useTranslation();
   const [scale, setScale] = useState(150);
   const [rotation, setRotation] = useState<[number, number, number]>([0, -30, 0]);
 
@@ -57,7 +59,6 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
   const visiblePins = optimizedResult.pins as CountryPin[];
   const [worldData, setWorldData] = useState<GeoFeatureCollection | null>(null);
   const [loading, setLoading] = useState(true);
-  const [selectedCountry, setSelectedCountry] = useState<CountryPin | null>(null);
 
   // Refs for animation and gesture handling
   const lastXRef = useRef(0);
@@ -207,11 +208,11 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
 
       if (geoContains(feat, coords)) {
         hapticMedium();
-        setSelectedCountry(country);
+        onCountryPress(country.id);
         return;
       }
     }
-  }, [worldData, pathGenerator, projection, filterStatus, getCountryFromFeature]);
+  }, [worldData, pathGenerator, projection, filterStatus, getCountryFromFeature, onCountryPress]);
 
   const panResponder = useMemo(() => PanResponder.create({
     onStartShouldSetPanResponder: () => true,
@@ -306,9 +307,10 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
   if (loading || !worldData || !pathGenerator || !projection) {
     return (
       <View style={styles.loadingContainer}>
-        <Text style={styles.loadingText}>
-          {loading ? 'Loading world...' : 'Initializing globe...'}
-        </Text>
+        <View style={[styles.loadingSkeleton, { width: GLOBE_SIZE, height: GLOBE_SIZE, borderRadius: GLOBE_SIZE / 2 }]}>
+          <ActivityIndicator size="large" color="#FF6B35" />
+        </View>
+        <Text style={styles.loadingText}>{t.globe.loadingWorld}</Text>
       </View>
     );
   }
@@ -404,7 +406,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
                     top: y - 20,
                   },
                 ]}
-                onPress={() => { hapticMedium(); setSelectedCountry(country); }}
+                onPress={() => { hapticMedium(); onCountryPress(country.id); }}
                 activeOpacity={0.7}
                 accessibilityLabel={`${country.name}, ${country.status}`}
                 accessibilityRole="button"
@@ -419,63 +421,37 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
         <View style={styles.legend}>
           <View style={styles.legendItem}>
             <View style={[styles.legendDot, { backgroundColor: '#D1D5DB' }]} />
-            <Text style={styles.legendText}>To Do</Text>
+            <Text style={styles.legendText}>{t.globe.toDo}</Text>
           </View>
           <View style={styles.legendItem}>
             <View style={[styles.legendDot, { backgroundColor: '#F59E0B' }]} />
-            <Text style={styles.legendText}>Cooking</Text>
+            <Text style={styles.legendText}>{t.globe.cooking}</Text>
           </View>
           <View style={styles.legendItem}>
             <View style={[styles.legendDot, { backgroundColor: '#10B981' }]} />
-            <Text style={styles.legendText}>Done</Text>
+            <Text style={styles.legendText}>{t.globe.done}</Text>
           </View>
         </View>
       </View>
 
       <View style={styles.controls}>
-        <TouchableOpacity style={styles.controlButton} onPress={handleZoomIn}>
+        <TouchableOpacity
+          style={styles.controlButton}
+          onPress={handleZoomIn}
+          accessibilityLabel="Zoom in"
+          accessibilityRole="button"
+        >
           <ZoomIn size={20} color="#6B7280" />
         </TouchableOpacity>
-        <TouchableOpacity style={styles.controlButton} onPress={handleZoomOut}>
+        <TouchableOpacity
+          style={styles.controlButton}
+          onPress={handleZoomOut}
+          accessibilityLabel="Zoom out"
+          accessibilityRole="button"
+        >
           <ZoomOut size={20} color="#6B7280" />
         </TouchableOpacity>
       </View>
-
-      <Modal
-        visible={!!selectedCountry}
-        transparent
-        animationType="fade"
-        onRequestClose={() => setSelectedCountry(null)}
-      >
-        <TouchableOpacity 
-          style={styles.modalOverlay}
-          activeOpacity={1}
-          onPress={() => setSelectedCountry(null)}
-        >
-          <View style={styles.countryDialog}>
-            <TouchableOpacity 
-              style={styles.dialogContent}
-              activeOpacity={1}
-              onPress={() => {
-                if (selectedCountry) {
-                  setSelectedCountry(null);
-                  setTimeout(() => {
-                    onCountryPress(selectedCountry.id);
-                  }, 100);
-                }
-              }}
-            >
-              <Text style={styles.dialogFlag}>{selectedCountry?.flag}</Text>
-              <Text style={styles.dialogName}>{selectedCountry?.name}</Text>
-              <Text style={styles.dialogStatus}>{selectedCountry?.status.toUpperCase()}</Text>
-              <View style={styles.dialogButton}>
-                <MapPin size={16} color="#FFF" />
-                <Text style={styles.dialogButtonText}>Explore Country</Text>
-              </View>
-            </TouchableOpacity>
-          </View>
-        </TouchableOpacity>
-      </Modal>
     </View>
   );
 }
@@ -498,7 +474,7 @@ const styles = StyleSheet.create({
   controls: {
     position: 'absolute' as const,
     right: 16,
-    top: 16,
+    bottom: 16,
     gap: 8,
   },
   controlButton: {
@@ -535,55 +511,13 @@ const styles = StyleSheet.create({
     color: '#6B7280',
     fontWeight: '500' as const,
   },
-  modalOverlay: {
-    flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.5)',
+  loadingContainer: {
     justifyContent: 'center',
     alignItems: 'center',
+    gap: 16,
   },
-  countryDialog: {
-    width: '80%',
-    maxWidth: 300,
-  },
-  dialogContent: {
-    backgroundColor: '#FFF',
-    borderRadius: 20,
-    padding: 24,
-    alignItems: 'center',
-    gap: 12,
-  },
-  dialogFlag: {
-    fontSize: 48,
-  },
-  dialogName: {
-    fontSize: 24,
-    fontWeight: '700' as const,
-    color: '#1F2937',
-    textAlign: 'center',
-  },
-  dialogStatus: {
-    fontSize: 12,
-    fontWeight: '600' as const,
-    color: '#9CA3AF',
-    letterSpacing: 1,
-  },
-  dialogButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    backgroundColor: '#FF6B35',
-    paddingHorizontal: 20,
-    paddingVertical: 12,
-    borderRadius: 12,
-    marginTop: 8,
-  },
-  dialogButtonText: {
-    color: '#FFF',
-    fontSize: 14,
-    fontWeight: '600' as const,
-  },
-  loadingContainer: {
-    height: 300,
+  loadingSkeleton: {
+    backgroundColor: '#E8E0D8',
     justifyContent: 'center',
     alignItems: 'center',
   },

@@ -1,5 +1,5 @@
 import { Tabs } from "expo-router";
-import { Compass, Award, ShoppingCart, User, CalendarDays } from "lucide-react-native";
+import { Compass, Award, Store, User, CalendarDays } from "lucide-react-native";
 import React from "react";
 
 export default function TabLayout() {
@@ -48,8 +48,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="countries"
         options={{
-          title: "Shop",
-          tabBarIcon: ({ color, size }) => <ShoppingCart color={color} size={size} />,
+          title: "Store",
+          tabBarIcon: ({ color, size }) => <Store color={color} size={size} />,
         }}
       />
       <Tabs.Screen

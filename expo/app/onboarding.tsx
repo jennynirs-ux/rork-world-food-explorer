@@ -1,10 +1,11 @@
-import { View, Text, StyleSheet, TouchableOpacity, TextInput, KeyboardAvoidingView, Platform, ScrollView } from 'react-native';
-import { useState } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, TextInput, KeyboardAvoidingView, Platform, ScrollView, NativeModules, Animated } from 'react-native';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
 import { ChefHat, Globe, Award, Check } from 'lucide-react-native';
+import colors from '@/constants/colors';
 
 const LANGUAGES = [
   { code: 'en', name: 'English', flag: '🇬🇧' },
@@ -25,6 +26,40 @@ export default function OnboardingScreen() {
   const router = useRouter();
   const { completeOnboarding } = useApp();
   const { t } = useTranslation();
+
+  // Animated dot widths for pagination
+  const dotWidths = useRef([0, 1, 2, 3, 4].map(i => new Animated.Value(i === 0 ? 24 : 8))).current;
+
+  useEffect(() => {
+    const animations = dotWidths.map((anim, i) =>
+      Animated.spring(anim, {
+        toValue: i === step ? 24 : 8,
+        friction: 8,
+        tension: 60,
+        useNativeDriver: false,
+      })
+    );
+    Animated.parallel(animations).start();
+  }, [step, dotWidths]);
+
+  // Pre-select language based on device locale
+  useEffect(() => {
+    try {
+      const deviceLocale =
+        Platform.OS === 'ios'
+          ? NativeModules.SettingsManager?.settings?.AppleLocale ||
+            NativeModules.SettingsManager?.settings?.AppleLanguages?.[0] ||
+            'en'
+          : NativeModules.I18nManager?.localeIdentifier || 'en';
+      const langCode = deviceLocale.split(/[-_]/)[0].toLowerCase();
+      const match = LANGUAGES.find((l) => l.code === langCode);
+      if (match) {
+        setLanguage(match.code);
+      }
+    } catch {
+      // Fallback: keep default 'en'
+    }
+  }, []);
 
   const handleContinue = () => {
     if (step < 4) {
@@ -144,11 +179,14 @@ export default function OnboardingScreen() {
           <View style={styles.footer}>
             <View style={styles.dotsContainer}>
               {[0, 1, 2, 3, 4].map((i) => (
-                <View
+                <Animated.View
                   key={i}
                   style={[
                     styles.dot,
-                    i === step && styles.dotActive,
+                    {
+                      width: dotWidths[i],
+                      backgroundColor: i === step ? '#FF6B35' : '#D4A574',
+                    },
                   ]}
                 />
               ))}
@@ -170,7 +208,7 @@ export default function OnboardingScreen() {
             {step < 4 && step !== 1 && (
               <TouchableOpacity
                 style={styles.skipButton}
-                onPress={() => setStep(4)}
+                onPress={() => setStep(step < 1 ? 1 : 4)}
               >
                 <Text style={styles.skipText}>{t.onboarding.skip}</Text>
               </TouchableOpacity>
@@ -185,7 +223,7 @@ export default function OnboardingScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFF8F0',
+    backgroundColor: colors.background,
   },
   keyboardAvoid: {
     flex: 1,
@@ -243,14 +281,8 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   dot: {
-    width: 8,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#D4A574',
-  },
-  dotActive: {
-    backgroundColor: '#FF6B35',
-    width: 24,
   },
   button: {
     width: '100%',

@@ -84,10 +84,10 @@ function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'c
 const styles = StyleSheet.create({
   imageWrapper: {
     overflow: 'hidden',
-    backgroundColor: '#1a1a2e',
+    backgroundColor: '#E8D5C4',
   },
   fallbackContainer: {
-    backgroundColor: '#1a1a2e',
+    backgroundColor: '#E8D5C4',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   fallbackText: {
-    color: 'rgba(255,255,255,0.5)',
+    color: 'rgba(90,60,30,0.6)',
     fontSize: 12,
   },
   loadingOverlay: {

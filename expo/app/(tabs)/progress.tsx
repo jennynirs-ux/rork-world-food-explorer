@@ -1,12 +1,15 @@
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
 import { Trophy, Flame, Award as AwardIcon, Globe, Share2, ChefHat } from 'lucide-react-native';
 import { shareProgress } from '@/lib/share';
 import { hapticLight } from '@/lib/haptics';
+import colors from '@/constants/colors';
 
 export default function ProgressScreen() {
+  const router = useRouter();
   const { stats, badges, userProfile } = useApp();
   const { t } = useTranslation();
 
@@ -31,7 +34,12 @@ export default function ProgressScreen() {
         <View style={styles.header}>
           <View style={styles.headerRow}>
             <Text style={styles.title}>{t.progress.title}</Text>
-            <TouchableOpacity style={styles.shareHeaderButton} onPress={handleShare}>
+            <TouchableOpacity
+              style={styles.shareHeaderButton}
+              onPress={handleShare}
+              accessibilityLabel="Share progress"
+              accessibilityRole="button"
+            >
               <Share2 size={20} color="#FF6B35" />
             </TouchableOpacity>
           </View>
@@ -68,46 +76,54 @@ export default function ProgressScreen() {
               <ChefHat size={24} color="#FF6B35" />
               <View style={styles.skillInfo}>
                 <Text style={styles.skillLevel}>
-                  {userProfile.skillLevel.charAt(0).toUpperCase() + userProfile.skillLevel.slice(1)} Chef
+                  {userProfile.skillLevel.charAt(0).toUpperCase() + userProfile.skillLevel.slice(1)} {t.progress.chef}
                 </Text>
                 <Text style={styles.skillDetails}>
                   {(userProfile.recipesCompletedByDifficulty?.easy || 0) +
                     (userProfile.recipesCompletedByDifficulty?.medium || 0) +
                     (userProfile.recipesCompletedByDifficulty?.hard || 0)}{' '}
-                  recipes cooked
+                  {t.progress.recipesCooked}
                 </Text>
               </View>
             </View>
           </View>
         )}
 
-        {stats.visitedCountries === 0 && (
+        {stats.visitedCountries === 0 ? (
           <View style={styles.emptyState}>
             <Globe size={60} color="#D1D5DB" />
             <Text style={styles.emptyText}>
               {t.progress.noCountriesYet || 'Start exploring countries on the map to track your progress here!'}
             </Text>
+            <TouchableOpacity
+              style={styles.exploreCtaButton}
+              onPress={() => router.push('/(tabs)')}
+              accessibilityLabel="Explore your first country"
+              accessibilityRole="button"
+            >
+              <Text style={styles.exploreCtaText}>Explore Your First Country</Text>
+            </TouchableOpacity>
+          </View>
+        ) : (
+          <View style={styles.statsGrid}>
+            <View style={styles.statCard}>
+              <Text style={styles.statValue}>{stats.completedCountries}</Text>
+              <Text style={styles.statLabel}>{t.progress.completed}</Text>
+            </View>
+            <View style={styles.statCard}>
+              <Text style={styles.statValue}>{stats.inProgressCountries}</Text>
+              <Text style={styles.statLabel}>{t.progress.inProgress}</Text>
+            </View>
+            <View style={styles.statCard}>
+              <Text style={styles.statValue}>{stats.cookedDishes}</Text>
+              <Text style={styles.statLabel}>{t.progress.dishesCooked}</Text>
+            </View>
+            <View style={styles.statCard}>
+              <Text style={styles.statValue}>{stats.completedQuizzes}</Text>
+              <Text style={styles.statLabel}>{t.progress.quizzesDone}</Text>
+            </View>
           </View>
         )}
-
-        <View style={styles.statsGrid}>
-          <View style={styles.statCard}>
-            <Text style={styles.statValue}>{stats.completedCountries}</Text>
-            <Text style={styles.statLabel}>{t.progress.completed}</Text>
-          </View>
-          <View style={styles.statCard}>
-            <Text style={styles.statValue}>{stats.inProgressCountries}</Text>
-            <Text style={styles.statLabel}>{t.progress.inProgress}</Text>
-          </View>
-          <View style={styles.statCard}>
-            <Text style={styles.statValue}>{stats.cookedDishes}</Text>
-            <Text style={styles.statLabel}>{t.progress.dishesCooked}</Text>
-          </View>
-          <View style={styles.statCard}>
-            <Text style={styles.statValue}>{stats.completedQuizzes}</Text>
-            <Text style={styles.statLabel}>{t.progress.quizzesDone}</Text>
-          </View>
-        </View>
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t.progress.earnedBadges} ({earnedBadges.length})</Text>
@@ -121,7 +137,11 @@ export default function ProgressScreen() {
               {earnedBadges.map(badge => {
                 const Icon = badge.icon;
                 return (
-                  <View key={badge.id} style={styles.badgeCard}>
+                  <View
+                    key={badge.id}
+                    style={styles.badgeCard}
+                    accessibilityLabel={`Earned badge: ${badge.name}, ${badge.description}`}
+                  >
                     <View style={styles.badgeIconContainer}>
                       <Icon size={32} color="#FF6B35" strokeWidth={2} />
                     </View>
@@ -143,7 +163,11 @@ export default function ProgressScreen() {
               {unearnedBadges.map(badge => {
                 const Icon = badge.icon;
                 return (
-                  <View key={badge.id} style={[styles.badgeCard, styles.badgeCardLocked]}>
+                  <View
+                    key={badge.id}
+                    style={[styles.badgeCard, styles.badgeCardLocked]}
+                    accessibilityLabel={`Locked badge: ${badge.name}, ${badge.description}`}
+                  >
                     <View style={styles.badgeIconContainer}>
                       <Icon size={32} color="#9CA3AF" strokeWidth={2} />
                     </View>
@@ -167,7 +191,7 @@ export default function ProgressScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFF8F0',
+    backgroundColor: colors.background,
   },
   scrollView: {
     flex: 1,
@@ -302,12 +326,26 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     padding: 40,
     alignItems: 'center',
+    marginHorizontal: 16,
+    marginBottom: 24,
   },
-
   emptyText: {
     fontSize: 16,
     color: '#6B7280',
     textAlign: 'center',
+    marginBottom: 16,
+  },
+  exploreCtaButton: {
+    backgroundColor: '#FF6B35',
+    paddingHorizontal: 24,
+    paddingVertical: 14,
+    borderRadius: 12,
+    marginTop: 8,
+  },
+  exploreCtaText: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: '600' as const,
   },
   streakSection: {
     flexDirection: 'row',

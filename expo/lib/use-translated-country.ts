@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { Country, Recipe } from '@/types';
 import { translateContent, translateArray, TranslatableContent } from './translate-content';
 
-type TranslatedRecipe = Omit<Recipe, 'name' | 'description' | 'dietType' | 'ingredients' | 'steps'> & {
+export type TranslatedRecipe = Omit<Recipe, 'name' | 'description' | 'dietType' | 'ingredients' | 'steps'> & {
   name: string;
   description: string;
   dietType: string;
@@ -10,7 +10,7 @@ type TranslatedRecipe = Omit<Recipe, 'name' | 'description' | 'dietType' | 'ingr
   steps: string[];
 };
 
-type TranslatedCountry = Omit<Country, 'name' | 'description' | 'continent' | 'facts' | 'foodCulture' | 'quickFacts' | 'history' | 'innovations' | 'mustVisit' | 'travelEssentials' | 'mainDish' | 'dessert' | 'drinks' | 'music' | 'decorationIdeas' | 'conversationStarters' | 'quiz'> & {
+export type TranslatedCountry = Omit<Country, 'name' | 'description' | 'continent' | 'facts' | 'foodCulture' | 'quickFacts' | 'history' | 'innovations' | 'mustVisit' | 'travelEssentials' | 'mainDish' | 'dessert' | 'drinks' | 'music' | 'decorationIdeas' | 'conversationStarters' | 'quiz'> & {
   name: string;
   description: string;
   continent: string;

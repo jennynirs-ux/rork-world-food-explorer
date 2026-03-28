@@ -524,6 +524,10 @@ export const [AppProvider, useApp] = createContextHook(() => {
     });
   }, []);
 
+  const refetchCountries = useCallback(async () => {
+    await countriesQuery.refetch();
+  }, [countriesQuery]);
+
   const refreshReferralStats = useCallback(() => {
     void referralStatsQuery.refetch();
   }, [referralStatsQuery]);
@@ -637,6 +641,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     removeMealPlan,
     getMealPlansForDate,
     addMealPlanToShoppingList,
+    refetchCountries,
   }), [
     userProfile,
     countryProgress,
@@ -673,5 +678,6 @@ export const [AppProvider, useApp] = createContextHook(() => {
     removeMealPlan,
     getMealPlansForDate,
     addMealPlanToShoppingList,
+    refetchCountries,
   ]);
 });

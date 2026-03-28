@@ -1,5 +1,5 @@
 import { Share, Platform } from 'react-native';
-import { Country, Recipe, CountryProgress } from '@/types';
+import { Country, Recipe } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 
 /**

@@ -1,10 +1,11 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch, Modal, Pressable } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell, Send } from 'lucide-react-native';
+import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell, Send, X, Check } from 'lucide-react-native';
 import { DietType } from '@/types';
+import colors from '@/constants/colors';
 import { useState, useEffect } from 'react';
 import { enableNotifications, disableNotifications, areNotificationsEnabled } from '@/lib/notifications';
 
@@ -25,6 +26,7 @@ export default function ProfileScreen() {
   const { userProfile, stats, resetProgress, shoppingList, updateUserProfile } = useApp();
   const { t } = useTranslation();
   const [notificationsOn, setNotificationsOn] = useState(false);
+  const [showLanguageModal, setShowLanguageModal] = useState(false);
 
   useEffect(() => {
     areNotificationsEnabled().then(setNotificationsOn);
@@ -118,6 +120,8 @@ export default function ProfileScreen() {
                     userProfile.dietaryPreferences?.includes(option.type) && styles.dietOptionSelected,
                   ]}
                   onPress={() => toggleDietPreference(option.type)}
+                  accessibilityLabel={`${option.label}${userProfile.dietaryPreferences?.includes(option.type) ? ', selected' : ''}`}
+                  accessibilityRole="button"
                 >
                   <option.IconComponent 
                     size={32} 
@@ -155,21 +159,23 @@ export default function ProfileScreen() {
                 onValueChange={toggleMetric}
                 trackColor={{ false: '#D1D5DB', true: '#FF6B35' }}
                 thumbColor="#FFF"
+                accessibilityLabel={`Use metric system, ${userProfile.useMetric ? 'on' : 'off'}`}
+                accessibilityRole="switch"
               />
             </View>
           </View>
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Notifications</Text>
+          <Text style={styles.sectionTitle}>{t.profile.notifications}</Text>
           <View style={styles.card}>
             <View style={styles.settingRow}>
               <View style={styles.settingLeft}>
                 <Bell size={20} color="#FF6B35" />
                 <View style={styles.settingInfo}>
-                  <Text style={styles.settingName}>Cooking Reminders</Text>
+                  <Text style={styles.settingName}>{t.profile.cookingReminders}</Text>
                   <Text style={styles.settingDescription}>
-                    Streak reminders & weekly challenges
+                    {t.profile.streakRemindersDesc}
                   </Text>
                 </View>
               </View>
@@ -178,6 +184,8 @@ export default function ProfileScreen() {
                 onValueChange={toggleNotifications}
                 trackColor={{ false: '#D1D5DB', true: '#FF6B35' }}
                 thumbColor="#FFF"
+                accessibilityLabel={`Cooking reminders, ${notificationsOn ? 'on' : 'off'}`}
+                accessibilityRole="switch"
               />
             </View>
           </View>
@@ -197,20 +205,10 @@ export default function ProfileScreen() {
                 </View>
               </View>
               <TouchableOpacity
-                onPress={() => {
-                  Alert.alert(
-                    t.profile.selectLanguage,
-                    '',
-                    [
-                      ...LANGUAGES.map(lang => ({
-                        text: `${lang.flag} ${lang.name}`,
-                        onPress: () => handleLanguageChange(lang.code),
-                      })),
-                      { text: t.profile.cancel, style: 'cancel' },
-                    ]
-                  );
-                }}
+                onPress={() => setShowLanguageModal(true)}
                 style={styles.changeButton}
+                accessibilityLabel={`Change language, current: ${currentLanguage?.name || 'English'}`}
+                accessibilityRole="button"
               >
                 <Text style={styles.changeButtonText}>{t.profile.change}</Text>
               </TouchableOpacity>
@@ -255,9 +253,11 @@ export default function ProfileScreen() {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t.profile.quickAccess}</Text>
-          <TouchableOpacity 
-            style={styles.menuButton} 
+          <TouchableOpacity
+            style={styles.menuButton}
             onPress={() => router.push('/shopping-list' as any)}
+            accessibilityLabel={`Shopping list${shoppingList.length > 0 ? `, ${shoppingList.length} items` : ''}`}
+            accessibilityRole="button"
           >
             <ShoppingCart size={20} color="#FF6B35" />
             <Text style={styles.menuButtonText}>{t.profile.shoppingList}</Text>
@@ -271,13 +271,15 @@ export default function ProfileScreen() {
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Community</Text>
+          <Text style={styles.sectionTitle}>{t.profile.community}</Text>
           <TouchableOpacity
             style={styles.menuButton}
             onPress={() => router.push('/submit-recipe' as any)}
+            accessibilityLabel="Submit a recipe"
+            accessibilityRole="button"
           >
             <Send size={20} color="#FF6B35" />
-            <Text style={styles.menuButtonText}>Submit a Recipe</Text>
+            <Text style={styles.menuButtonText}>{t.profile.submitRecipe}</Text>
             <ChevronRight size={20} color="#9CA3AF" />
           </TouchableOpacity>
         </View>
@@ -299,7 +301,12 @@ export default function ProfileScreen() {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{t.profile.dangerZone}</Text>
-          <TouchableOpacity style={styles.dangerButton} onPress={handleReset}>
+          <TouchableOpacity
+            style={styles.dangerButton}
+            onPress={handleReset}
+            accessibilityLabel="Reset all progress"
+            accessibilityRole="button"
+          >
             <Trash2 size={20} color="#EF4444" />
             <Text style={styles.dangerButtonText}>{t.profile.resetProgress}</Text>
           </TouchableOpacity>
@@ -307,6 +314,68 @@ export default function ProfileScreen() {
 
         <View style={{ height: 20 }} />
       </ScrollView>
+
+      <Modal
+        visible={showLanguageModal}
+        transparent
+        animationType="slide"
+        onRequestClose={() => setShowLanguageModal(false)}
+      >
+        <Pressable
+          style={styles.modalOverlay}
+          onPress={() => setShowLanguageModal(false)}
+        >
+          <Pressable style={styles.modalSheet} onPress={() => {}}>
+            <View style={styles.modalHandle} />
+            <View style={styles.modalHeader}>
+              <Text style={styles.modalTitle}>{t.profile.selectLanguage}</Text>
+              <TouchableOpacity
+                onPress={() => setShowLanguageModal(false)}
+                style={styles.modalCloseButton}
+                accessibilityLabel="Close language picker"
+                accessibilityRole="button"
+              >
+                <X size={24} color="#6B7280" />
+              </TouchableOpacity>
+            </View>
+            <ScrollView
+              style={styles.modalList}
+              showsVerticalScrollIndicator={false}
+              bounces={false}
+            >
+              {LANGUAGES.map((lang) => {
+                const isSelected = (userProfile.language || 'en') === lang.code;
+                return (
+                  <TouchableOpacity
+                    key={lang.code}
+                    style={[
+                      styles.modalLanguageRow,
+                      isSelected && styles.modalLanguageRowSelected,
+                    ]}
+                    onPress={() => {
+                      handleLanguageChange(lang.code);
+                      setShowLanguageModal(false);
+                    }}
+                    accessibilityLabel={`${lang.name}${isSelected ? ', selected' : ''}`}
+                    accessibilityRole="button"
+                  >
+                    <Text style={styles.modalFlag}>{lang.flag}</Text>
+                    <Text
+                      style={[
+                        styles.modalLangName,
+                        isSelected && styles.modalLangNameSelected,
+                      ]}
+                    >
+                      {lang.name}
+                    </Text>
+                    {isSelected && <Check size={22} color="#FF6B35" strokeWidth={3} />}
+                  </TouchableOpacity>
+                );
+              })}
+            </ScrollView>
+          </Pressable>
+        </Pressable>
+      </Modal>
     </SafeAreaView>
   );
 }
@@ -314,7 +383,7 @@ export default function ProfileScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFF8F0',
+    backgroundColor: colors.background,
   },
   scrollView: {
     flex: 1,
@@ -534,6 +603,78 @@ const styles = StyleSheet.create({
   changeButtonText: {
     color: '#FF6B35',
     fontSize: 14,
+    fontWeight: '600' as const,
+  },
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+    justifyContent: 'flex-end',
+  },
+  modalSheet: {
+    backgroundColor: '#FFF',
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    paddingBottom: 40,
+    maxHeight: '70%',
+  },
+  modalHandle: {
+    width: 40,
+    height: 4,
+    backgroundColor: '#D1D5DB',
+    borderRadius: 2,
+    alignSelf: 'center',
+    marginTop: 12,
+    marginBottom: 8,
+  },
+  modalHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: '#F3F4F6',
+  },
+  modalTitle: {
+    fontSize: 20,
+    fontWeight: '700' as const,
+    color: '#2D1B00',
+  },
+  modalCloseButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: '#F3F4F6',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalList: {
+    paddingHorizontal: 16,
+    paddingTop: 8,
+  },
+  modalLanguageRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    borderRadius: 12,
+    marginVertical: 3,
+    gap: 14,
+  },
+  modalLanguageRowSelected: {
+    backgroundColor: '#FFF8F0',
+  },
+  modalFlag: {
+    fontSize: 28,
+  },
+  modalLangName: {
+    flex: 1,
+    fontSize: 17,
+    fontWeight: '500' as const,
+    color: '#2D1B00',
+  },
+  modalLangNameSelected: {
+    color: '#FF6B35',
     fontWeight: '600' as const,
   },
 });

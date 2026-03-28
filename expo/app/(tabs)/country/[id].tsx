@@ -16,50 +16,26 @@ import { isCountryAccessible } from '@/lib/access-control';
 import { hapticSuccess, hapticError, hapticMedium, hapticSelection, hapticLight } from '@/lib/haptics';
 import { shareRecipe, shareCookedIt } from '@/lib/share';
 import { trackPositiveAction } from '@/lib/rating';
-import { estimateNutrition } from '@/lib/nutrition';
-import { enrichWithSubstitutions } from '@/lib/substitutions';
 import Paywall from '@/components/Paywall';
 import CookingMode from '@/components/CookingMode';
-import CookedPhotoGallery from '@/components/CookedPhotoGallery';
-import NutritionCard from '@/components/NutritionCard';
-import DifficultyBadge from '@/components/DifficultyBadge';
-import IngredientSubstitutions from '@/components/IngredientSubstitutions';
-import RegionalVariations from '@/components/RegionalVariations';
 import { regionalVariations } from '@/data/regional-variations';
 import { trackEvent, EVENTS } from '@/lib/analytics';
 import { useTranslation } from '@/lib/i18n';
 import { useTranslatedCountry } from '@/lib/use-translated-country';
-import { translateContent } from '@/lib/translate-content';
 import colors from '@/constants/colors';
 import { CountryDetailSkeleton } from '@/components/SkeletonLoader';
-import { 
-  Compass, 
-  ChefHat, 
-  Clock, 
-  Users, 
-  Plus, 
-  Check,
-  Music,
-  Sparkles,
-  MessageCircle,
-  Wine,
-  Glasses,
+import AboutTab from '@/components/country/AboutTab';
+import RecipesTab from '@/components/country/RecipesTab';
+import QuizTab from '@/components/country/QuizTab';
+import {
+  Compass,
   Info,
   Utensils,
   HelpCircle,
-  MapPin,
-  Building2,
-  DollarSign,
-  Languages,
-  Landmark,
   Heart,
   SkipForward,
   SkipBack,
-  Lightbulb,
-  Globe,
-  Maximize,
   Lock,
-  Share2
 } from 'lucide-react-native';
 
 export default function CountryDetailScreen() {
@@ -265,7 +241,7 @@ export default function CountryDetailScreen() {
 
   const handleShareRecipe = (isDessert: boolean) => {
     hapticLight();
-    const recipe = isDessert ? country.dessert : country.mainDish;
+    const recipe = isDessert ? countryData?.dessert : countryData?.mainDish;
     if (!recipe || !countryData) return;
     void shareRecipe(countryData, recipe, isDessert, lang);
   };
@@ -434,689 +410,48 @@ export default function CountryDetailScreen() {
         </View>
 
         {activeTab === 'about' && (
-          <View style={styles.tabContent}>
-            <View style={styles.section}>
-              <Text style={styles.sectionTitleLarge}>{t.country.introduction}</Text>
-              <Text style={styles.description}>{country.description}</Text>
-            </View>
-
-            {country.quickFacts && country.quickFacts.length > 0 && (
-              <View style={styles.section}>
-                <View style={styles.quickFactsGrid}>
-                  {country.quickFacts.map((fact, idx) => {
-                    const rawFact = countryData?.quickFacts?.[idx];
-                    const englishLabel = rawFact ? translateContent(rawFact.label, 'en') : fact.label;
-                    let IconComponent = Globe;
-                    let iconColor = '#3B82F6';
-                    
-                    if (englishLabel === 'Capital') {
-                      IconComponent = Building2;
-                      iconColor = '#EF4444';
-                    } else if (englishLabel === 'Population') {
-                      IconComponent = Users;
-                      iconColor = '#8B5CF6';
-                    } else if (englishLabel === 'Official Language' || englishLabel === 'Language') {
-                      IconComponent = Languages;
-                      iconColor = '#10B981';
-                    } else if (englishLabel === 'Currency') {
-                      IconComponent = DollarSign;
-                      iconColor = '#F59E0B';
-                    } else if (englishLabel === 'Area') {
-                      IconComponent = Maximize;
-                      iconColor = '#06B6D4';
-                    }
-                    
-                    const isFullWidth = englishLabel === 'Area';
-                    
-                    return (
-                      <View 
-                        key={idx} 
-                        style={[
-                          styles.quickFactCard,
-                          isFullWidth && styles.quickFactCardFullWidth
-                        ]}
-                      >
-                        <IconComponent size={24} color={iconColor} style={styles.quickFactIcon} />
-                        <Text style={styles.quickFactLabel}>{fact.label}</Text>
-                        <Text style={styles.quickFactValue}>{fact.value}</Text>
-                      </View>
-                    );
-                  })}
-                </View>
-              </View>
-            )}
-
-            <View style={styles.section}>
-              <View style={styles.funFactsCard}>
-                <View style={styles.funFactsHeader}>
-                  <Check size={24} color={colors.text} />
-                  <Text style={styles.funFactsTitle}>{t.country.funFacts}</Text>
-                </View>
-                {country.facts.slice(0, 3).map((fact, idx) => (
-                  <Text key={idx} style={styles.funFactText}>• {fact}</Text>
-                ))}
-              </View>
-            </View>
-
-            <View style={styles.section}>
-              <View style={styles.historyCard}>
-                <View style={styles.historySectionHeader}>
-                  <Landmark size={24} color={colors.terracotta} />
-                  <Text style={styles.historyTitle}>{t.country.historicalHighlights}</Text>
-                </View>
-                <View style={styles.historyTimelineContainer}>
-                  {(country.history || []).map((event, idx) => (
-                    <View key={idx} style={styles.historyTimelineItem}>
-                      <View style={styles.timelineDot} />
-                      <View style={styles.timelineContent}>
-                        <Text style={styles.timelineYear}>{event.year}</Text>
-                        <Text style={styles.timelineTitle}>{event.title}</Text>
-                        <Text style={styles.timelineDescription}>{event.description}</Text>
-                      </View>
-                    </View>
-                  ))}
-                  {(!country.history || country.history.length === 0) && (
-                    <View style={styles.historyContent}>
-                      <Text style={styles.historyText}>
-                        {country.id === 'italy' && 'Italy has a rich history spanning over 3,000 years. From the Roman Empire that ruled much of Europe, to the Renaissance that revolutionized art and science, Italy has been at the center of Western civilization. The country was unified in 1861 after centuries of division into city-states and kingdoms.'}
-                        {country.id === 'japan' && 'Japan has a recorded history dating back to 660 BC. The country was ruled by emperors and shoguns for centuries, remaining isolated from the world until 1854. After World War II, Japan rebuilt itself into one of the world\'s leading economies while preserving its ancient traditions and culture.'}
-                        {country.id === 'mexico' && 'Mexico was home to advanced civilizations like the Maya and Aztec before Spanish conquest in 1521. After 300 years of colonial rule, Mexico gained independence in 1821. The Mexican Revolution (1910-1920) shaped modern Mexico, establishing it as a democratic republic with a rich blend of indigenous and Spanish heritage.'}
-                        {country.id === 'morocco' && 'Morocco has been inhabited since Paleolithic times. It became a powerful Islamic empire in the 8th century and has maintained its independence through most of its history. Morocco was a French protectorate from 1912-1956, after which it regained independence under King Mohammed V.'}
-                        {country.id === 'sweden' && 'Sweden emerged as a unified kingdom in the 10th century. It was a major European power during the 17th century Swedish Empire. Sweden has not been at war since 1814, making it one of the world\'s longest-standing peaceful nations. It joined the EU in 1995 but kept its currency, the Krona.'}
-                        {country.id === 'france' && 'France has been a major European power since medieval times. The French Revolution (1789) transformed it from an absolute monarchy to a republic and spread democratic ideals across Europe. France played a central role in both World Wars and became a founding member of the European Union.'}
-                        {!['italy', 'japan', 'mexico', 'morocco', 'sweden', 'france'].includes(country.id) && `${country.name} has a rich and fascinating history that has shaped its culture and traditions over centuries.`}
-                      </Text>
-                    </View>
-                  )}
-                </View>
-              </View>
-            </View>
-
-            <View style={styles.section}>
-              <View style={styles.innovationsCard}>
-                <View style={styles.innovationsSectionHeader}>
-                  <Lightbulb size={24} color={colors.orange} />
-                  <Text style={styles.innovationsTitle}>{t.country.innovations}</Text>
-                </View>
-                <View style={styles.innovationsContainer}>
-                  {(country.innovations || []).map((innovation, idx) => (
-                    <View key={idx} style={styles.innovationItem}>
-                      <View style={styles.innovationHeader}>
-                        <Text style={styles.innovationName}>{innovation.name}</Text>
-                        <Text style={styles.innovationYear}>{innovation.year}</Text>
-                      </View>
-                      <Text style={styles.innovationDescription}>{innovation.description}</Text>
-                    </View>
-                  ))}
-                  {(!country.innovations || country.innovations.length === 0) && (
-                    <Text style={styles.innovationPlaceholder}>
-                      Innovation details coming soon for {country.name}!
-                    </Text>
-                  )}
-                </View>
-              </View>
-            </View>
-
-            <View style={styles.section}>
-              <View style={styles.foodCultureCard}>
-                <View style={styles.foodCultureHeader}>
-                  <ChefHat size={24} color={colors.text} />
-                  <Text style={styles.foodCultureTitle}>{t.country.foodCulture}</Text>
-                </View>
-                <View style={styles.foodCultureContent}>
-                  <Text style={styles.foodCultureText}>{country.foodCulture}</Text>
-                </View>
-              </View>
-            </View>
-
-            {country.mustVisit && country.mustVisit.length > 0 && (
-              <View style={styles.section}>
-                <View style={styles.mustVisitCard}>
-                  <View style={styles.mustVisitHeader}>
-                    <MapPin size={24} color="#D95757" />
-                    <Text style={styles.mustVisitTitle}>{t.country.mustVisit}</Text>
-                  </View>
-                  <View style={styles.mustVisitList}>
-                    {country.mustVisit.map((place, idx) => (
-                      <View key={idx} style={styles.mustVisitItem}>
-                        <View style={styles.mustVisitIconWrapper}>
-                          <MapPin size={18} color="#D95757" />
-                        </View>
-                        <View style={styles.mustVisitContent}>
-                          <Text style={styles.mustVisitName}>{place.name}</Text>
-                          <Text style={styles.mustVisitDescription}>{place.description}</Text>
-                        </View>
-                      </View>
-                    ))}
-                  </View>
-                </View>
-              </View>
-            )}
-
-            {country.travelEssentials && country.travelEssentials.length > 0 && (
-              <View style={styles.section}>
-                <View style={styles.travelEssentialsCard}>
-                  <View style={styles.travelEssentialsHeader}>
-                    <Sparkles size={24} color={colors.text} />
-                    <Text style={styles.travelEssentialsTitle}>{t.country.travelEssentials}</Text>
-                  </View>
-                  <View style={styles.travelEssentialsList}>
-                    {country.travelEssentials.map((essential, idx) => (
-                      <View key={idx} style={styles.travelEssentialItem}>
-                        <View style={styles.travelEssentialBullet}>
-                          <Sparkles size={14} color={colors.terracotta} />
-                        </View>
-                        <View style={styles.travelEssentialContent}>
-                          <Text style={styles.travelEssentialItemText}>{essential.item}</Text>
-                          <Text style={styles.travelEssentialDescription}>{essential.description}</Text>
-                        </View>
-                      </View>
-                    ))}
-                  </View>
-                </View>
-              </View>
-            )}
-
-            {countryVariations.length > 0 && (
-              <View style={styles.section}>
-                <RegionalVariations
-                  variations={countryVariations}
-                  countries={countries}
-                  lang={lang}
-                  onCountryPress={(cId) => router.push(`/(tabs)/country/${cId}`)}
-                />
-              </View>
-            )}
-          </View>
+          <AboutTab
+            country={country}
+            countryData={countryData}
+            countryVariations={countryVariations}
+            countries={countries}
+            lang={lang}
+            onCountryPress={(cId) => router.push(`/(tabs)/country/${cId}`)}
+          />
         )}
 
         {activeTab === 'recipes' && (
-          <View style={styles.tabContent}>
-            <View style={styles.section}>
-              <Text style={styles.sectionTitle}>{t.country.mainDish}</Text>
-              <View style={styles.recipeCard}>
-                <FoodImage
-                  uri={country.mainDish.imageUrl}
-                  alt={String(country.mainDish.name)}
-                  style={styles.dishImage}
-                  type="food"
-                />
-                <Text style={styles.recipeName}>{country.mainDish.name}</Text>
-                <Text style={styles.recipeDescription}>{country.mainDish.description}</Text>
-                
-                <View style={styles.recipeInfo}>
-                  <View style={styles.recipeInfoItem}>
-                    <Clock size={16} color="#6B7280" />
-                    <Text style={styles.recipeInfoText}>{country.mainDish.cookingTime} {t.common.minutes}</Text>
-                  </View>
-                  <View style={styles.recipeInfoItem}>
-                    <ChefHat size={16} color="#6B7280" />
-                    <Text style={styles.recipeInfoText}>{country.mainDish.dietType}</Text>
-                  </View>
-                  <DifficultyBadge difficulty={countryData?.mainDish?.difficulty} size="small" />
-                </View>
-
-                <View style={styles.servingsSelector}>
-                  <Users size={16} color="#6B7280" />
-                  <Text style={styles.servingsLabel}>{t.country.servings}:</Text>
-                  <TouchableOpacity 
-                    style={styles.servingsButton}
-                    onPress={() => setRecipeServings(Math.max(1, recipeServings - 1))}
-                  >
-                    <Text style={styles.servingsButtonText}>-</Text>
-                  </TouchableOpacity>
-                  <Text style={styles.servingsValue}>{recipeServings}</Text>
-                  <TouchableOpacity 
-                    style={styles.servingsButton}
-                    onPress={() => setRecipeServings(recipeServings + 1)}
-                  >
-                    <Text style={styles.servingsButtonText}>+</Text>
-                  </TouchableOpacity>
-                </View>
-
-                {countryData?.mainDish && (
-                  <NutritionCard
-                    nutrition={estimateNutrition(countryData.mainDish)}
-                    servingsMultiplier={servingsMultiplier}
-                  />
-                )}
-
-                <Text style={styles.subheading}>{t.country.ingredients}</Text>
-                {country.mainDish.ingredients.map((ing, idx) => (
-                  <Text key={idx} style={styles.ingredientText}>
-                    • {(ing.amount * servingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
-                  </Text>
-                ))}
-
-                {countryData?.mainDish && (
-                  <IngredientSubstitutions
-                    ingredients={enrichWithSubstitutions(countryData.mainDish.ingredients)}
-                    lang={lang}
-                  />
-                )}
-
-                <View style={styles.instructionsHeader}>
-                  <Text style={[styles.subheading, { marginTop: 0, marginBottom: 0 }]}>{t.country.instructions}</Text>
-                  <TouchableOpacity
-                    style={styles.startCookingButton}
-                    onPress={() => setCookingMode({
-                      steps: country.mainDish.steps.map(s => String(s)),
-                      name: String(typeof country.mainDish.name === 'string' ? country.mainDish.name : country.mainDish.name),
-                      isDessert: false,
-                    })}
-                  >
-                    <ChefHat size={16} color="#FFF" />
-                    <Text style={styles.startCookingText}>Cook</Text>
-                  </TouchableOpacity>
-                </View>
-                {country.mainDish.steps.map((step, idx) => (
-                  <Text key={idx} style={styles.stepText}>
-                    {idx + 1}. {step}
-                  </Text>
-                ))}
-
-                <View style={styles.recipeActions}>
-                  <TouchableOpacity
-                    style={[styles.actionButton, progress.mainDishCooked && styles.actionButtonDone]}
-                    onPress={() => !progress.mainDishCooked && handleMarkDishCooked(false)}
-                    disabled={progress.mainDishCooked}
-                  >
-                    {progress.mainDishCooked ? (
-                      <>
-                        <Check size={20} color="#10B981" />
-                        <Text style={styles.actionButtonTextDone}>{t.country.cooked}</Text>
-                      </>
-                    ) : (
-                      <>
-                        <ChefHat size={20} color="#FFF" />
-                        <Text style={styles.actionButtonText}>{t.country.markAsCooked}</Text>
-                      </>
-                    )}
-                  </TouchableOpacity>
-                  
-                  <TouchableOpacity 
-                    style={styles.actionButtonSecondary}
-                    onPress={() => handleAddToShoppingList(false)}
-                  >
-                    <Plus size={20} color="#FF6B35" />
-                    <Text style={styles.actionButtonSecondaryText}>{t.country.addToList}</Text>
-                  </TouchableOpacity>
-                </View>
-
-                <TouchableOpacity 
-                  style={[
-                    styles.favoriteButton,
-                    isRecipeFavorite(country.mainDish.id) && styles.favoriteButtonActive
-                  ]}
-                  onPress={() => handleToggleFavorite(false)}
-                >
-                  <Heart 
-                    size={20} 
-                    color={isRecipeFavorite(country.mainDish.id) ? "#FF6B35" : "#9CA3AF"}
-                    fill={isRecipeFavorite(country.mainDish.id) ? "#FF6B35" : "transparent"}
-                  />
-                  <Text style={[
-                    styles.favoriteButtonText,
-                    isRecipeFavorite(country.mainDish.id) && styles.favoriteButtonTextActive
-                  ]}>
-                    {isRecipeFavorite(country.mainDish.id) ? t.country.saved : t.country.saveRecipe}
-                  </Text>
-                </TouchableOpacity>
-
-                <TouchableOpacity
-                  style={styles.shareButton}
-                  onPress={() => handleShareRecipe(false)}
-                >
-                  <Share2 size={18} color={colors.terracotta} />
-                  <Text style={styles.shareButtonText}>Share Recipe</Text>
-                </TouchableOpacity>
-
-                {progress.mainDishCooked && (
-                  <View style={styles.ratingSection}>
-                    {!showMainDishRating && progress.mainDishRating ? (
-                      <TouchableOpacity 
-                        style={styles.ratingDisplay}
-                        onPress={() => setShowMainDishRating(true)}
-                      >
-                        <Text style={styles.ratingLabel}>{t.country.yourRating}:</Text>
-                        <View style={styles.starsRow}>
-                          {[1, 2, 3, 4, 5].map(star => (
-                            <Text key={star} style={styles.starText}>
-                              {star <= (progress.mainDishRating || 0) ? '⭐' : '☆'}
-                            </Text>
-                          ))}
-                        </View>
-                      </TouchableOpacity>
-                    ) : (
-                      <View style={styles.ratingContainer}>
-                        <Text style={styles.ratingTitle}>
-                          {progress.mainDishRating ? t.country.updateRating : t.country.rateRecipe}
-                        </Text>
-                        <View style={styles.starsRow}>
-                          {[1, 2, 3, 4, 5].map(star => (
-                            <TouchableOpacity
-                              key={star}
-                              onPress={() => handleRateRecipe(false, star)}
-                              style={styles.starButton}
-                            >
-                              <Text style={styles.starTextLarge}>
-                                {star <= (progress.mainDishRating || 0) ? '⭐' : '☆'}
-                              </Text>
-                            </TouchableOpacity>
-                          ))}
-                        </View>
-                      </View>
-                    )}
-                  </View>
-                )}
-
-                <CookedPhotoGallery
-                  countryId={country.id}
-                  recipeId={country.mainDish.id}
-                  isDessert={false}
-                  isCooked={progress.mainDishCooked}
-                  onSharePhoto={(uri) => handleShareCookedPhoto(String(country.mainDish.name), uri)}
-                />
-              </View>
-            </View>
-
-            {country.dessert && (
-              <View style={styles.section}>
-                <Text style={styles.sectionTitle}>{t.country.dessert}</Text>
-                <View style={styles.recipeCard}>
-                  <FoodImage
-                    uri={country.dessert?.imageUrl}
-                    alt={String(country.dessert.name)}
-                    style={styles.dishImage}
-                    type="food"
-                  />
-                  <Text style={styles.recipeName}>{country.dessert.name}</Text>
-                  <Text style={styles.recipeDescription}>{country.dessert.description}</Text>
-                  
-                  <View style={styles.recipeInfo}>
-                    <View style={styles.recipeInfoItem}>
-                      <Clock size={16} color="#6B7280" />
-                      <Text style={styles.recipeInfoText}>{country.dessert.cookingTime} {t.common.minutes}</Text>
-                    </View>
-                    <DifficultyBadge difficulty={countryData?.dessert?.difficulty} size="small" />
-                  </View>
-
-                  {countryData?.dessert && (
-                    <NutritionCard
-                      nutrition={estimateNutrition(countryData.dessert)}
-                      servingsMultiplier={servingsMultiplier}
-                    />
-                  )}
-
-                  <Text style={styles.subheading}>{t.country.ingredients}</Text>
-                  {country.dessert.ingredients.map((ing, idx) => (
-                    <Text key={idx} style={styles.ingredientText}>
-                      • {(ing.amount * servingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
-                    </Text>
-                  ))}
-
-                  {countryData?.dessert && (
-                    <IngredientSubstitutions
-                      ingredients={enrichWithSubstitutions(countryData.dessert.ingredients)}
-                      lang={lang}
-                    />
-                  )}
-
-                  <View style={styles.instructionsHeader}>
-                    <Text style={styles.subheading}>{t.country.instructions}</Text>
-                    <TouchableOpacity
-                      style={styles.startCookingButton}
-                      onPress={() => setCookingMode({
-                        steps: country.dessert!.steps.map(s => String(s)),
-                        name: String(typeof country.dessert!.name === 'string' ? country.dessert!.name : country.dessert!.name),
-                        isDessert: true,
-                      })}
-                    >
-                      <ChefHat size={16} color="#FFF" />
-                      <Text style={styles.startCookingText}>Cook</Text>
-                    </TouchableOpacity>
-                  </View>
-                  {country.dessert.steps.map((step, idx) => (
-                    <Text key={idx} style={styles.stepText}>
-                      {idx + 1}. {step}
-                    </Text>
-                  ))}
-
-                  <View style={styles.recipeActions}>
-                    <TouchableOpacity
-                      style={[styles.actionButton, progress.dessertCooked && styles.actionButtonDone]}
-                      onPress={() => !progress.dessertCooked && handleMarkDishCooked(true)}
-                      disabled={progress.dessertCooked}
-                    >
-                      {progress.dessertCooked ? (
-                        <>
-                          <Check size={20} color="#10B981" />
-                          <Text style={styles.actionButtonTextDone}>{t.country.cooked}</Text>
-                        </>
-                      ) : (
-                        <>
-                          <ChefHat size={20} color="#FFF" />
-                          <Text style={styles.actionButtonText}>{t.country.markAsCooked}</Text>
-                        </>
-                      )}
-                    </TouchableOpacity>
-                    
-                    <TouchableOpacity 
-                      style={styles.actionButtonSecondary}
-                      onPress={() => handleAddToShoppingList(true)}
-                    >
-                      <Plus size={20} color="#FF6B35" />
-                      <Text style={styles.actionButtonSecondaryText}>{t.country.addToList}</Text>
-                    </TouchableOpacity>
-                  </View>
-
-                  {country.dessert && (
-                    <TouchableOpacity 
-                      style={[
-                        styles.favoriteButton,
-                        isRecipeFavorite(country.dessert.id) && styles.favoriteButtonActive
-                      ]}
-                      onPress={() => handleToggleFavorite(true)}
-                    >
-                      <Heart 
-                        size={20} 
-                        color={isRecipeFavorite(country.dessert.id) ? "#FF6B35" : "#9CA3AF"}
-                        fill={isRecipeFavorite(country.dessert.id) ? "#FF6B35" : "transparent"}
-                      />
-                      <Text style={[
-                        styles.favoriteButtonText,
-                        isRecipeFavorite(country.dessert.id) && styles.favoriteButtonTextActive
-                      ]}>
-                        {isRecipeFavorite(country.dessert.id) ? t.country.saved : t.country.saveRecipe}
-                      </Text>
-                    </TouchableOpacity>
-                  )}
-
-                  {country.dessert && (
-                    <TouchableOpacity
-                      style={styles.shareButton}
-                      onPress={() => handleShareRecipe(true)}
-                    >
-                      <Share2 size={18} color={colors.terracotta} />
-                      <Text style={styles.shareButtonText}>Share Recipe</Text>
-                    </TouchableOpacity>
-                  )}
-
-                  {progress.dessertCooked && country.dessert && (
-                    <View style={styles.ratingSection}>
-                      {!showDessertRating && progress.dessertRating ? (
-                        <TouchableOpacity 
-                          style={styles.ratingDisplay}
-                          onPress={() => setShowDessertRating(true)}
-                        >
-                          <Text style={styles.ratingLabel}>{t.country.yourRating}:</Text>
-                          <View style={styles.starsRow}>
-                            {[1, 2, 3, 4, 5].map(star => (
-                              <Text key={star} style={styles.starText}>
-                                {star <= (progress.dessertRating || 0) ? '⭐' : '☆'}
-                              </Text>
-                            ))}
-                          </View>
-                        </TouchableOpacity>
-                      ) : (
-                        <View style={styles.ratingContainer}>
-                          <Text style={styles.ratingTitle}>
-                            {progress.dessertRating ? t.country.updateRating : t.country.rateRecipe}
-                          </Text>
-                          <View style={styles.starsRow}>
-                            {[1, 2, 3, 4, 5].map(star => (
-                              <TouchableOpacity
-                                key={star}
-                                onPress={() => handleRateRecipe(true, star)}
-                                style={styles.starButton}
-                              >
-                                <Text style={styles.starTextLarge}>
-                                  {star <= (progress.dessertRating || 0) ? '⭐' : '☆'}
-                                </Text>
-                              </TouchableOpacity>
-                            ))}
-                          </View>
-                        </View>
-                      )}
-                    </View>
-                  )}
-
-                  {country.dessert && (
-                    <CookedPhotoGallery
-                      countryId={country.id}
-                      recipeId={country.dessert.id}
-                      isDessert={true}
-                      isCooked={progress.dessertCooked}
-                      onSharePhoto={(uri) => handleShareCookedPhoto(String(country.dessert!.name), uri)}
-                    />
-                  )}
-                </View>
-              </View>
-            )}
-
-            <View style={styles.section}>
-              <View style={styles.sectionHeader}>
-                <Wine size={20} color={colors.terracotta} />
-                <Text style={styles.sectionTitle}>{t.country.drinksMusic}</Text>
-              </View>
-              <View style={styles.fullWidthCard}>
-                <View style={styles.drinkSection}>
-                  <Wine size={18} color={colors.earthBrown} />
-                  <Text style={styles.infoLabel}>{t.country.alcoholic}</Text>
-                </View>
-                <Text style={styles.infoText}>{country.drinks.alcoholic}</Text>
-                <View style={styles.drinkSection}>
-                  <Glasses size={18} color={colors.earthBrown} />
-                  <Text style={styles.infoLabel}>{t.country.nonAlcoholic}</Text>
-                </View>
-                <Text style={styles.infoText}>{country.drinks.nonAlcoholic}</Text>
-                <View style={styles.drinkSection}>
-                  <Music size={18} color={colors.earthBrown} />
-                  <Text style={styles.infoLabel}>{t.country.musicSuggestions}</Text>
-                </View>
-                {country.music.map((song, idx) => (
-                  <Text key={idx} style={styles.musicText}>• {song}</Text>
-                ))}
-              </View>
-            </View>
-
-            <View style={styles.section}>
-              <View style={styles.sectionHeader}>
-                <Sparkles size={20} color={colors.terracotta} />
-                <Text style={styles.sectionTitle}>{t.country.decorationIdeas}</Text>
-              </View>
-              <View style={styles.fullWidthCard}>
-                {country.decorationIdeas.map((idea, idx) => (
-                  <Text key={idx} style={styles.ideaText}>• {idea}</Text>
-                ))}
-              </View>
-            </View>
-
-            <View style={styles.section}>
-              <View style={styles.sectionHeader}>
-                <MessageCircle size={20} color={colors.terracotta} />
-                <Text style={styles.sectionTitle}>{t.country.conversationStarters}</Text>
-              </View>
-              <View style={styles.fullWidthCard}>
-                {country.conversationStarters.map((q, idx) => (
-                  <View key={idx} style={styles.conversationItem}>
-                    <MessageCircle size={16} color={colors.textTertiary} />
-                    <Text style={styles.conversationText}>{q}</Text>
-                  </View>
-                ))}
-              </View>
-            </View>
-          </View>
+          <RecipesTab
+            country={country}
+            countryData={countryData}
+            progress={progress}
+            lang={lang}
+            recipeServings={recipeServings}
+            setRecipeServings={setRecipeServings}
+            servingsMultiplier={servingsMultiplier}
+            showMainDishRating={showMainDishRating}
+            setShowMainDishRating={setShowMainDishRating}
+            showDessertRating={showDessertRating}
+            setShowDessertRating={setShowDessertRating}
+            onMarkDishCooked={handleMarkDishCooked}
+            onAddToShoppingList={handleAddToShoppingList}
+            onToggleFavorite={handleToggleFavorite}
+            onRateRecipe={handleRateRecipe}
+            onShareRecipe={handleShareRecipe}
+            onShareCookedPhoto={handleShareCookedPhoto}
+            onStartCookingMode={(steps, name, isDessert) => setCookingMode({ steps, name, isDessert })}
+            isRecipeFavorite={isRecipeFavorite}
+          />
         )}
 
         {activeTab === 'quiz' && (
-          <View style={styles.tabContent}>
-            <View style={styles.section}>
-              {progress.quizCompleted && (
-                <View style={styles.quizCompleted}>
-                  <Check size={40} color="#10B981" />
-                  <Text style={styles.quizCompletedText}>{t.country.quizCompleted}</Text>
-                  <Text style={styles.quizScoreText}>
-                    {t.country.score}: {progress.quizScore} / {country.quiz.length}
-                  </Text>
-                </View>
-              )}
-
-              <View style={styles.quizContainer}>
-                {country.quiz.map((question, qIdx) => (
-                  <View key={question.id} style={styles.questionCard}>
-                    <Text style={styles.questionText}>
-                      {qIdx + 1}. {question.question}
-                    </Text>
-                    {question.options.map((option, oIdx) => {
-                      const isSelected = quizAnswers[qIdx] === oIdx;
-                      const isCorrect = question.correctAnswer === oIdx;
-                      const showResult = progress.quizCompleted;
-
-                      return (
-                        <TouchableOpacity
-                          key={oIdx}
-                          style={[
-                            styles.optionButton,
-                            isSelected && styles.optionButtonSelected,
-                            showResult && isCorrect && styles.optionButtonCorrect,
-                            showResult && isSelected && !isCorrect && styles.optionButtonWrong,
-                          ]}
-                          onPress={() => {
-                            if (!progress.quizCompleted) {
-                              const newAnswers = [...quizAnswers];
-                              newAnswers[qIdx] = oIdx;
-                              setQuizAnswers(newAnswers);
-                            }
-                          }}
-                          disabled={progress.quizCompleted}
-                        >
-                          <Text
-                            style={[
-                              styles.optionText,
-                              isSelected && styles.optionTextSelected,
-                              showResult && isCorrect && styles.optionTextCorrect,
-                            ]}
-                          >
-                            {option}
-                          </Text>
-                        </TouchableOpacity>
-                      );
-                    })}
-                  </View>
-                ))}
-
-                {!progress.quizCompleted && (
-                  <TouchableOpacity 
-                    style={styles.submitQuizButton}
-                    onPress={handleSubmitQuiz}
-                  >
-                    <Text style={styles.submitQuizButtonText}>{t.country.submitQuiz}</Text>
-                  </TouchableOpacity>
-                )}
-              </View>
-            </View>
-          </View>
+          <QuizTab
+            country={country}
+            progress={progress}
+            quizAnswers={quizAnswers}
+            setQuizAnswers={setQuizAnswers}
+            onSubmitQuiz={handleSubmitQuiz}
+          />
         )}
 
         <View style={{ height: 100 }} />
@@ -1223,7 +558,9 @@ const styles = StyleSheet.create({
     fontSize: 36,
     fontWeight: '700' as const,
     color: '#FFF',
-    textShadow: '0px 2px 4px rgba(0, 0, 0, 0.8)',
+    textShadowColor: 'rgba(0, 0, 0, 0.8)',
+    textShadowOffset: { width: 0, height: 2 },
+    textShadowRadius: 4,
   },
   tabsContainer: {
     flexDirection: 'row',
