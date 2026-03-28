@@ -448,7 +448,7 @@ export const eastTimor: Country = {
     mainDish: {
       id: 'east-timor-main',
       name: {
-        en: 'Ikan Pepes',
+        en: 'Batar Da\'an',
         sv: 'Ikan Pepes',
         es: 'Ikán Pepes',
         fr: 'Ikan Pépés',
@@ -459,7 +459,7 @@ export const eastTimor: Country = {
         pt: 'Ikan Pepes',
       },
       description: {
-        en: 'Fish grilled in banana leaves with spices',
+        en: 'A hearty Timorese stew of corn and mung beans with pumpkin and coconut milk, a staple comfort dish of East Timor.',
         sv: 'Fisk grillad i bananblad med kryddor',
         es: 'Pescado asado en hojas de plátano con especias',
         fr: 'Poisson grillé dans des feuilles de bananier aux épices',

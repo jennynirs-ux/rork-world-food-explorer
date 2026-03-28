@@ -437,7 +437,7 @@ export const equatorialGuinea: Country = {
     mainDish: {
       id: 'equatorial-guinea-main',
       name: {
-        en: 'Succotash',
+        en: 'Pepesoup',
         sv: 'Succotash',
         es: 'Sucotash',
         fr: 'Succotash',
@@ -448,7 +448,7 @@ export const equatorialGuinea: Country = {
         pt: 'Succotash',
       },
       description: {
-        en: 'Traditional stew with beans, corn, and fish',
+        en: 'A spicy Equatorial Guinean goat meat pepper soup, richly seasoned with hot peppers and aromatic spices.',
         sv: 'Traditionell gryta med bönor, majs och fisk',
         es: 'Guiso tradicional con frijoles, maíz y pescado',
         fr: 'Ragoût traditionnel avec haricots, maïs et poisson',

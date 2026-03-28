@@ -868,7 +868,7 @@ export const zimbabwe: Country = {
     dessert: {
       id: 'zimbabwe-dessert',
       name: {
-        en: 'Maputi (Sweet Popcorn Snack)',
+        en: 'Sweet Potato Pudding',
         sv: 'Maputi (Sweet Popcorn Snack)',
         es: 'Maputi (bocadillo dulce de palomitas de maíz)',
         fr: 'Maputi (collation de pop-corn sucré)',
@@ -879,7 +879,7 @@ export const zimbabwe: Country = {
         pt: 'Maputi (Sweet Popcorn Snack)',
       },
       description: {
-        en: 'A popular snack-style dessert: popcorn (maputi) coated lightly with sugar or enjoyed with roasted peanuts.',
+        en: 'Zimbabwean baked sweet potato pudding with cinnamon and brown sugar, a warm and comforting dessert.',
         sv: 'En populär efterrätt i snackstil: popcorn (maputi) lätt överdragna med socker eller avnjuts med rostade jordnötter.',
         es: 'Un postre popular estilo merienda: palomitas de maíz (maputi) recubiertas ligeramente con azúcar o disfrutadas con maní tostado.',
         fr: 'Un dessert populaire de style collation : du pop-corn (maputi) légèrement enrobé de sucre ou dégusté avec des cacahuètes grillées.',

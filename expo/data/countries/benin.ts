@@ -651,7 +651,7 @@ export const benin: Country = {
     mainDish: {
       id: 'benin-main',
       name: {
-        en: 'Kuli-Kuli',
+        en: 'Amiwo',
         sv: 'Kuli-Kuli',
         es: 'Kuli-Kuli',
         fr: 'Kuli-Kuli',
@@ -662,7 +662,7 @@ export const benin: Country = {
         pt: 'Kuli-Kuli',
       },
       description: {
-        en: 'Spiced fried peanut cakes',
+        en: 'Beninese cornmeal porridge served with a rich tomato and crab sauce, a beloved traditional main dish.',
         sv: 'Kryddade stekta jordnötskakor',
         es: 'Pasteles de maní fritos con especias',
         fr: 'Gâteaux aux cacahuètes frits épicés',

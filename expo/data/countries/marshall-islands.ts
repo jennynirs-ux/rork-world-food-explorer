@@ -644,7 +644,7 @@ export const marshallIslands: Country = {
     mainDish: {
       id: 'marshall-islands-main',
       name: {
-        en: 'Barramundi Ko',
+        en: 'Iroij',
         sv: 'Barramundi Ko',
         es: 'Barramundi Ko',
         fr: 'Barramundi Ko',
@@ -655,7 +655,7 @@ export const marshallIslands: Country = {
         pt: 'Barramundi Ko',
       },
       description: {
-        en: 'Baked coconut fish with rice',
+        en: 'Marshallese grilled reef fish served with coconut and breadfruit, a traditional island feast dish.',
         sv: 'Bakad kokosfisk med ris',
         es: 'Pescado al coco al horno con arroz',
         fr: 'Poisson à la noix de coco au four avec riz',

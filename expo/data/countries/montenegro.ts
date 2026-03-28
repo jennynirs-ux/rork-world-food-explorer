@@ -760,7 +760,7 @@ export const montenegro: Country = {
     mainDish: {
       id: 'montenegro-main',
       name: {
-        en: 'Njeguški Pršut',
+        en: 'Njeguški Steak',
         sv: 'Njeguški Pršut',
         es: 'Njeguški Pršut',
         fr: 'Njeguški Pršut',
@@ -771,7 +771,7 @@ export const montenegro: Country = {
         pt: 'Njeguški Pršut',
       },
       description: {
-        en: 'Smoked ham from Njeguši village',
+        en: 'Montenegrin steak stuffed with Njeguški pršut ham and cheese, grilled to perfection.',
         sv: 'Rökt skinka från byn Njeguši',
         es: 'Jamón ahumado del pueblo de Njeguši',
         fr: 'Jambon fumé du village de Njeguši',

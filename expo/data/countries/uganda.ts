@@ -888,7 +888,7 @@ export const uganda: Country = {
     dessert: {
       id: 'uganda-dessert',
       name: {
-        en: 'Rolex Banana Pancakes',
+        en: 'Kabalagala',
         sv: 'Rolex Bananpannkakor',
         es: 'Panqueques de plátano Rolex',
         fr: 'Crêpes à la banane Rolex',
@@ -899,7 +899,7 @@ export const uganda: Country = {
         pt: 'Rolex Banana Pancakes',
       },
       description: {
-        en: 'Simple sweet banana pancakes inspired by Uganda’s beloved “rolex” street-food style—served warm with banana and a light sprinkle of sugar.',
+        en: 'Ugandan sweet banana pancakes made with cassava flour, pan-fried until golden and enjoyed as a popular dessert.',
         sv: 'Enkla söta bananpannkakor inspirerade av Ugandas älskade "rolex" streetfood-stil – serveras varma med banan och ett lätt stänk av socker.',
         es: 'Sencillos panqueques dulces de plátano inspirados en el querido estilo de comida callejera “rolex” de Uganda, servidos calientes con plátano y una ligera pizca de azúcar.',
         fr: 'De simples crêpes sucrées à la banane, inspirées du style de cuisine de rue « Rolex » bien-aimé de l\'Ouganda, servies chaudes avec de la banane et une légère pincée de sucre.',

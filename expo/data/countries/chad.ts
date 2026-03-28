@@ -842,7 +842,7 @@ export const chad: Country = {
     dessert: {
       id: 'chad-dessert',
       name: {
-        en: 'Maharagwe',
+        en: 'Bouillie',
         sv: 'Maharagwe',
         es: 'Maharagwe',
         fr: 'Maharagwe',
@@ -853,7 +853,7 @@ export const chad: Country = {
         pt: 'Maharagwe',
       },
       description: {
-        en: 'Sweet bean dessert with coconut, popular in southern Chad',
+        en: 'A sweet Chadian millet porridge with sugar and milk, a comforting traditional dessert.',
         sv: 'Sötböndessert med kokos, populär i södra Tchad',
         es: 'Postre dulce de judías con coco, popular en el sur de Chad',
         fr: 'Dessert aux haricots sucrés et à la noix de coco, populaire dans le sud du Tchad',

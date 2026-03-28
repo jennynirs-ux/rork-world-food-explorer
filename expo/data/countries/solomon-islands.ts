@@ -602,7 +602,7 @@ export const solomonIslands: Country = {
     mainDish: {
       id: 'solomon-islands-main',
       name: {
-        en: 'Poi (Taro & Banana Pudding)',
+        en: 'Coconut Fish Stew',
         sv: 'Poi (Taro & Banana Pudding)',
         es: 'Poi (pudín de taro y plátano)',
         fr: 'Poi (pudding au taro et à la banane)',
@@ -613,7 +613,7 @@ export const solomonIslands: Country = {
         pt: 'Poi (Taro & Banana Pudding)',
       },
       description: {
-        en: 'A traditional island pudding made from taro and ripe bananas, enriched with coconut cream and gently fermented or freshly prepared.',
+        en: 'Fresh fish simmered in rich coconut cream with taro leaves, a traditional Solomon Islands dish bursting with island flavors.',
         sv: 'En traditionell öpudding gjord av taro och mogna bananer, berikad med kokosnötsgrädde och försiktigt jäst eller nyberedd.',
         es: 'Un pudín tradicional isleño elaborado con taro y plátanos maduros, enriquecido con crema de coco y fermentado suavemente o recién preparado.',
         fr: 'Un pudding traditionnel des îles à base de taro et de bananes mûres, enrichi de crème de coco et doucement fermenté ou fraîchement préparé.',

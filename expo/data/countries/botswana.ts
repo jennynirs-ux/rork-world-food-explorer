@@ -904,7 +904,7 @@ export const botswana: Country = {
     dessert: {
       id: 'botswana-dessert',
       name: {
-        en: 'Dikgobe Sweet Porridge',
+        en: 'Magwinya',
         sv: 'Dikgobe Sötgröt',
         es: 'Gachas dulces de Dikgobe',
         fr: 'Porridge sucré Dikgobe',
@@ -915,7 +915,7 @@ export const botswana: Country = {
         pt: 'Dikgobe Sweet Porridge',
       },
       description: {
-        en: 'Sweet sorghum porridge with peanuts and sugar, a comforting Botswanan dessert',
+        en: 'Botswanan sweet fried dough balls, golden and fluffy, often enjoyed as a beloved street treat.',
         sv: 'Söt durragröt med jordnötter och socker, en tröstande Botswanansk dessert',
         es: 'Gachas de sorgo dulce con cacahuetes y azúcar, un postre reconfortante de Botsuana',
         fr: 'Bouillie de sorgho sucrée aux cacahuètes et au sucre, un dessert botswanais réconfortant',

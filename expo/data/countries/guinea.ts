@@ -475,7 +475,7 @@ export const guinea: Country = {
     mainDish: {
       id: 'guinea-main',
       name: {
-        en: 'Poulet Yassa',
+        en: 'Sauce Feuilles',
         sv: 'Poulet Yassa',
         es: 'Pollo Yassa',
         fr: 'Poulet Yassa',
@@ -486,7 +486,7 @@ export const guinea: Country = {
         pt: 'Poulet Yassa',
       },
       description: {
-        en: 'Marinated chicken with onions and lemon',
+        en: 'A traditional Guinean stew made with cassava leaves, meat or fish, and palm oil, simmered into a rich, hearty sauce.',
         sv: 'Marinerad kyckling med lök och citron',
         es: 'Pollo marinado con cebolla y limón',
         fr: 'Poulet mariné aux oignons et citron',

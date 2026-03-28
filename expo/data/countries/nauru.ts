@@ -685,7 +685,7 @@ export const nauru: Country = {
     mainDish: {
       id: 'nauru-main',
       name: {
-        en: 'Ika Mata',
+        en: 'Coconut Fish',
         sv: 'Ika Mata',
         es: 'Ika Mata',
         fr: 'Ika Mata',
@@ -696,7 +696,7 @@ export const nauru: Country = {
         pt: 'Ika Mata',
       },
       description: {
-        en: 'Raw fish marinated in coconut cream',
+        en: 'Fresh fish cooked in rich coconut cream with a squeeze of lime, a staple Nauruan dish.',
         sv: 'Rå fisk marinerad i kokosgrädde',
         es: 'Pescado crudo marinado en crema de coco',
         fr: 'Poisson cru mariné à la crème de coco',

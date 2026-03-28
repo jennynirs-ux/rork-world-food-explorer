@@ -920,7 +920,7 @@ export const sierraLeone: Country = {
     dessert: {
       id: 'sierra-leone-dessert',
       name: {
-        en: 'Fried Plantains',
+        en: 'Banana Cake',
         sv: 'Friterade groblad',
         es: 'Plátanos Fritos',
         fr: 'Plantains frits',
@@ -931,7 +931,7 @@ export const sierraLeone: Country = {
         pt: 'Fried Plantains',
       },
       description: {
-        en: 'Sweet ripe plantains sliced and fried until golden, often enjoyed as a dessert or side.',
+        en: 'A moist Sierra Leonean banana cake with cinnamon and nutmeg, a popular homemade dessert.',
         sv: 'Söta mogna plantains skivade och stekta tills de är gyllene, avnjuts ofta som efterrätt eller tillbehör.',
         es: 'Plátanos maduros dulces cortados en rodajas y fritos hasta que estén dorados, a menudo se disfrutan como postre o acompañamiento.',
         fr: 'Plantains mûrs et sucrés tranchés et frits jusqu\'à ce qu\'ils soient dorés, souvent appréciés en dessert ou en accompagnement.',

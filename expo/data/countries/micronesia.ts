@@ -675,7 +675,7 @@ export const micronesia: Country = {
     mainDish: {
       id: 'micronesia-main',
       name: {
-        en: 'Kelaguen',
+        en: 'Breadfruit with Coconut Cream',
         sv: 'Kelaguen',
         es: 'Kelaguen',
         fr: 'Kelaguen',
@@ -686,7 +686,7 @@ export const micronesia: Country = {
         pt: 'Kelaguen',
       },
       description: {
-        en: 'Grilled fish or chicken with lemon and coconut',
+        en: 'Roasted breadfruit served with a fresh coconut cream sauce, a beloved Micronesian staple dish.',
         sv: 'Grillad fisk eller kyckling med citron och kokos',
         es: 'Pescado o pollo a la plancha con limón y coco',
         fr: 'Poisson ou poulet grillé au citron et noix de coco',

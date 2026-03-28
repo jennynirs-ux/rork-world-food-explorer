@@ -916,7 +916,7 @@ export const burundi: Country = {
     dessert: {
       id: 'burundi-dessert',
       name: {
-        en: 'Umutsima Sweet',
+        en: 'Banana Fritters',
         sv: 'Umutsima Sweet',
         es: 'Dulce Umutsima',
         fr: 'Umutsima Doux',
@@ -927,7 +927,7 @@ export const burundi: Country = {
         pt: 'Umutsima Sweet',
       },
       description: {
-        en: 'Sweet cassava and corn porridge, a comforting Burundian dessert',
+        en: 'Sweet Burundian banana fritters dusted with sugar, a popular dessert enjoyed across the country.',
         sv: 'Söt kassava och majsgröt, en tröstande burundisk dessert',
         es: 'Gachas dulces de yuca y maíz, un reconfortante postre burundés',
         fr: 'Bouillie sucrée de manioc et maïs, un dessert burundais réconfortant',

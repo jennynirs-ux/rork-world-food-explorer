@@ -1035,7 +1035,7 @@ export const singapore: Country = {
     dessert: {
       id: 'singapore-dessert',
       name: {
-        en: 'Kaya Toast Set (Sweet Kaya Toast)',
+        en: 'Chendol',
         sv: 'Kaya Toast Set (Sweet Kaya Toast)',
         es: 'Juego de tostadas Kaya (tostadas dulces de Kaya)',
         fr: 'Ensemble de toasts Kaya (toasts sucrés Kaya)',
@@ -1046,7 +1046,7 @@ export const singapore: Country = {
         pt: 'Kaya Toast Set (Sweet Kaya Toast)',
       },
       description: {
-        en: 'A classic Singaporean sweet bite: toasted bread with kaya (coconut-egg jam) and butter, often served with coffee or tea.',
+        en: 'A beloved Singaporean iced dessert with green rice flour jelly, coconut milk, and gula melaka (palm sugar).',
         sv: 'En klassisk singaporiansk sötbit: rostat bröd med kaya (kokos-äggsylt) och smör, ofta serverad med kaffe eller te.',
         es: 'Un bocado dulce clásico de Singapur: pan tostado con kaya (mermelada de huevo y coco) y mantequilla, a menudo servido con café o té.',
         fr: 'Une bouchée sucrée classique de Singapour : du pain grillé avec du kaya (confiture d\'œufs de coco) et du beurre, souvent servi avec du café ou du thé.',

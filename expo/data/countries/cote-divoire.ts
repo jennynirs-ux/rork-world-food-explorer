@@ -1563,7 +1563,7 @@ export const coteDivoire: Country = {
     dessert: {
       id: 'cote-divoire-dessert',
       name: {
-        en: 'Aloco',
+        en: 'Dèguè',
         sv: 'Aloco',
         es: 'Aloco',
         fr: 'Aloco',
@@ -1574,7 +1574,7 @@ export const coteDivoire: Country = {
         pt: 'Aloco',
       },
       description: {
-        en: 'Fried plantains served with spicy pepper sauce, a beloved Ivorian street food dessert',
+        en: 'A sweet Ivorian dessert of millet and yogurt with vanilla, served chilled as a refreshing treat.',
         sv: 'Friterade mjölbananer serverade med kryddig pepparsås, en älskad ivoriansk street food-dessert',
         es: 'Plátanos fritos servidos con salsa de pimienta picante, un postre muy apreciado por la comida callejera de Costa de Marfil',
         fr: 'Plantains frits servis avec une sauce au poivre épicé, un dessert de rue ivoirien très apprécié',
