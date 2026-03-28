@@ -153,8 +153,8 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
   const applyMomentum = useCallback(() => {
     stopSpinning();
 
-    const friction = 0.92;
-    const stopThreshold = 0.01;
+    const friction = 0.95;
+    const stopThreshold = 0.05;
 
     const animate = () => {
       velocityRef.current.x *= friction;
@@ -167,8 +167,8 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
 
       setRotation(current => {
         const [lambda, phi, gamma] = current;
-        const sensitivity = 75 / scale; 
-        
+        const sensitivity = Math.max(0.35, 120 / scale);
+
         return [
           lambda + (velocityRef.current.x * sensitivity),
           Math.max(-90, Math.min(90, phi - (velocityRef.current.y * sensitivity))),
@@ -217,7 +217,8 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
 
   const panResponder = useMemo(() => PanResponder.create({
     onStartShouldSetPanResponder: () => true,
-    onMoveShouldSetPanResponder: () => true,
+    onMoveShouldSetPanResponder: (_, gestureState) =>
+      Math.abs(gestureState.dx) > 5 || Math.abs(gestureState.dy) > 5,
     onPanResponderGrant: (evt) => {
       stopSpinning();
       isDraggingRef.current = true;
@@ -237,7 +238,8 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
 
       velocityRef.current = { x: dx, y: dy };
 
-      const sensitivity = 75 / scale;
+      // Higher base value = more responsive rotation; clamped so zoom doesn't kill it
+      const sensitivity = Math.max(0.35, 120 / scale);
 
       setRotation(current => [
         current[0] + (dx * sensitivity),
@@ -250,13 +252,13 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
     },
     onPanResponderRelease: (evt) => {
       isDraggingRef.current = false;
-      if (totalDragDistanceRef.current <= 5) {
+      if (totalDragDistanceRef.current <= 10) {
         handleGlobePress(evt);
       } else {
         applyMomentum();
       }
     },
-    onPanResponderTerminationRequest: () => true,
+    onPanResponderTerminationRequest: () => false,
     onPanResponderTerminate: () => {
       isDraggingRef.current = false;
     },
