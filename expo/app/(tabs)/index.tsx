@@ -108,9 +108,19 @@ export default function ExploreScreen() {
     if (filterStatus === 'favorites') {
       return (userProfile.favoriteCountries || []).includes(country.id);
     }
+    // Locked countries always show (greyed out) regardless of filter
+    const accessible = isCountryAccessible(country, purchasedProducts);
+    if (!accessible) return true;
     const status = getCountryStatus(country.id);
     return status === filterStatus;
-  }).sort((a, b) => translateContent(a.name).localeCompare(translateContent(b.name)));
+  }).sort((a, b) => {
+    // Sort unlocked countries first, then locked
+    const aAccessible = isCountryAccessible(a, purchasedProducts);
+    const bAccessible = isCountryAccessible(b, purchasedProducts);
+    if (aAccessible && !bAccessible) return -1;
+    if (!aAccessible && bAccessible) return 1;
+    return translateContent(a.name).localeCompare(translateContent(b.name));
+  });
 
   const inProgressCountries = useMemo(() =>
     countries.filter(country => {
@@ -144,19 +154,21 @@ export default function ExploreScreen() {
     return (
       <TouchableOpacity
         key={country.id}
-        style={styles.countryCard}
+        style={[styles.countryCard, !isAccessible && styles.countryCardLocked]}
         onPress={() => handleCountryPress(country.id)}
         accessibilityLabel={`Explore ${translateContent(country.name)}, ${translateContent(country.continent)}${!isAccessible ? ', locked' : ''}`}
         accessibilityRole="button"
         activeOpacity={0.7}
       >
-        <FoodImage
-          uri={country.landscapeImage}
-          alt={translateContent(country.name)}
-          type="landscape"
-          width={80}
-          style={styles.cardThumbnail}
-        />
+        <View style={!isAccessible ? styles.cardThumbnailLocked : undefined}>
+          <FoodImage
+            uri={country.landscapeImage}
+            alt={translateContent(country.name)}
+            type="landscape"
+            width={80}
+            style={styles.cardThumbnail}
+          />
+        </View>
         <View style={styles.flagButton}>
           <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
           {!isAccessible && (
@@ -797,5 +809,14 @@ const styles = StyleSheet.create({
   },
   flagLocked: {
     opacity: 0.5,
+  },
+  countryCardLocked: {
+    backgroundColor: '#F3F2EF',
+    opacity: 0.75,
+  },
+  cardThumbnailLocked: {
+    opacity: 0.5,
+    borderRadius: 8,
+    overflow: 'hidden',
   },
 })
