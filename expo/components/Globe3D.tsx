@@ -419,7 +419,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
                     <Circle
                       cx={x}
                       cy={y}
-                      r={isLocked ? 7 : 10}
+                      r={isLocked ? 5 : 7}
                       fill={isLocked ? '#9CA3AF' : '#FF6B35'}
                       opacity={isLocked ? 0.6 : 0.95}
                     />
@@ -427,7 +427,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
                       <Circle
                         cx={x}
                         cy={y}
-                        r={6}
+                        r={4}
                         fill="white"
                         opacity={1}
                       />
@@ -443,14 +443,19 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
           <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE, pointerEvents: 'box-none' }}>
             {pinPositions.map(({ country, x, y, idx }) => {
               const isLocked = country.status === 'locked';
+              const pinSize = isLocked ? 24 : 30;
+              const halfPin = pinSize / 2;
               return (
                 <TouchableOpacity
                   key={`${country.id}-touch-${idx}`}
                   style={[
                     styles.flagPin,
                     {
-                      left: x - 20,
-                      top: y - 20,
+                      left: x - halfPin,
+                      top: y - halfPin,
+                      width: pinSize,
+                      height: pinSize,
+                      borderRadius: halfPin,
                     },
                     isLocked && styles.flagPinLocked,
                   ]}
@@ -463,7 +468,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
                   {isLocked ? (
                     <Text style={styles.lockedDot}>🔒</Text>
                   ) : (
-                    <FlagEmoji flag={country.flag} size={20} />
+                    <FlagEmoji flag={country.flag} size={16} />
                   )}
                 </TouchableOpacity>
               );
@@ -581,29 +586,28 @@ const styles = StyleSheet.create({
   },
   flagPin: {
     position: 'absolute' as const,
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    backgroundColor: 'rgba(255, 255, 255, 0.98)',
+    width: 30,
+    height: 30,
+    borderRadius: 15,
+    backgroundColor: 'rgba(255, 255, 255, 0.95)',
     justifyContent: 'center',
     alignItems: 'center',
-    boxShadow: '0px 3px 4px rgba(0, 0, 0, 0.3)',
-    elevation: 6,
-    borderWidth: 3,
+    elevation: 4,
+    borderWidth: 2,
     borderColor: '#FF6B35',
   },
   flagEmoji: {
-    fontSize: 20,
+    fontSize: 16,
   },
   flagPinLocked: {
-    backgroundColor: 'rgba(200, 200, 200, 0.85)',
+    backgroundColor: 'rgba(200, 200, 200, 0.8)',
     borderColor: '#9CA3AF',
-    width: 32,
-    height: 32,
-    borderRadius: 16,
-    borderWidth: 2,
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 1.5,
   },
   lockedDot: {
-    fontSize: 14,
+    fontSize: 11,
   },
 });
