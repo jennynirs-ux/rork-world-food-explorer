@@ -113,21 +113,27 @@ export default function MealPlanScreen() {
     return countries.filter(c => isCountryAccessible(c, purchasedProducts)).flatMap(c => {
       const items: { label: string; countryName: string; countryId: string; recipeId: string }[] = [];
       const countryName = translateContent(c.name, lang);
-      const mainName = translateContent(c.mainDish.name, lang);
-      items.push({
-        label: mainName,
-        countryName,
-        countryId: c.id,
-        recipeId: c.mainDish.id,
-      });
-      if (c.dessert && selectedMealType === 'dessert') {
-        const dessertName = translateContent(c.dessert.name, lang);
-        items.push({
-          label: dessertName,
-          countryName,
-          countryId: c.id,
-          recipeId: c.dessert.id,
-        });
+      // For dessert slot: only show desserts. For lunch/dinner: only show main dishes.
+      if (selectedMealType === 'dessert') {
+        if (c.dessert) {
+          const dessertName = translateContent(c.dessert.name, lang);
+          items.push({
+            label: dessertName,
+            countryName,
+            countryId: c.id,
+            recipeId: c.dessert.id,
+          });
+        }
+      } else {
+        if (c.mainDish) {
+          const mainName = translateContent(c.mainDish.name, lang);
+          items.push({
+            label: mainName,
+            countryName,
+            countryId: c.id,
+            recipeId: c.mainDish.id,
+          });
+        }
       }
       return items;
     });

@@ -44,7 +44,7 @@ export default function ExploreScreen() {
     return '#F59E0B';
   };
 
-  const countryPins = countries
+  const countryPins = useMemo(() => countries
     .filter(country => {
       const coords = COUNTRY_COORDINATES[country.code];
       return !!coords;
@@ -63,7 +63,8 @@ export default function ExploreScreen() {
         color: accessible ? getCountryColor(country.id) : '#C0C0C0',
         status: accessible ? getCountryStatus(country.id) : 'locked',
       };
-    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- getCountryColor/getCountryStatus depend on countryProgress which is in deps
+    }), [countries, purchasedProducts, countryProgress]);
 
   const handleCountryPress = useCallback((countryId: string) => {
     const country = countries.find(c => c.id === countryId);

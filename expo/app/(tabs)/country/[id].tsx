@@ -353,8 +353,8 @@ export default function CountryDetailScreen() {
     }, 500);
   };
 
-  const mainServingsMultiplier = mainDishServings / country.mainDish.servings;
-  const dessertServingsMultiplier = country.dessert ? dessertServings / country.dessert.servings : 1;
+  const mainServingsMultiplier = mainDishServings / (country.mainDish?.servings || 1);
+  const dessertServingsMultiplier = country.dessert ? dessertServings / (country.dessert.servings || 1) : 1;
 
 
 
