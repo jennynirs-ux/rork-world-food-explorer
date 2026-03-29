@@ -326,6 +326,11 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
       if (!projected) return null; // behind the globe
       const [x, y] = projected;
       if (!isFinite(x) || !isFinite(y)) return null;
+      // Only show pins whose center is within the globe circle
+      const cx = GLOBE_SIZE / 2;
+      const cy = GLOBE_SIZE / 2;
+      const dist = Math.sqrt((x - cx) ** 2 + (y - cy) ** 2);
+      if (dist > scale) return null; // outside the globe circle
       return { country, x, y, idx };
     }).filter(Boolean) as { country: CountryPin; x: number; y: number; idx: number }[];
   }, [visiblePins, projection, filterStatus]);
@@ -439,8 +444,8 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
             </Svg>
           </View>
 
-          {/* Touchable flag pins overlaid on top — clipped to globe circle */}
-          <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE, borderRadius: GLOBE_SIZE / 2, overflow: 'hidden', pointerEvents: 'box-none' }}>
+          {/* Touchable flag pins overlaid on top */}
+          <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE, pointerEvents: 'box-none' }}>
             {pinPositions.map(({ country, x, y, idx }) => {
               const isLocked = country.status === 'locked';
               const pinSize = isLocked ? 24 : 30;
