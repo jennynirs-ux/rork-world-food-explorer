@@ -471,24 +471,6 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
           </View>
         </View>
 
-        <View style={styles.legend}>
-          <View style={styles.legendItem}>
-            <View style={[styles.legendDot, { backgroundColor: '#D1D5DB' }]} />
-            <Text style={styles.legendText}>{t.globe.toDo}</Text>
-          </View>
-          <View style={styles.legendItem}>
-            <View style={[styles.legendDot, { backgroundColor: '#F59E0B' }]} />
-            <Text style={styles.legendText}>{t.globe.cooking}</Text>
-          </View>
-          <View style={styles.legendItem}>
-            <View style={[styles.legendDot, { backgroundColor: '#10B981' }]} />
-            <Text style={styles.legendText}>{t.globe.done}</Text>
-          </View>
-          <View style={styles.legendItem}>
-            <View style={[styles.legendDot, { backgroundColor: '#9CA3AF' }]} />
-            <Text style={styles.legendText}>🔒</Text>
-          </View>
-        </View>
       </View>
 
       <View style={styles.controls}>
