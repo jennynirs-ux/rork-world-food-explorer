@@ -439,8 +439,8 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
             </Svg>
           </View>
 
-          {/* Touchable flag pins overlaid on top */}
-          <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE, pointerEvents: 'box-none' }}>
+          {/* Touchable flag pins overlaid on top — clipped to globe circle */}
+          <View style={{ position: 'absolute', top: 0, left: 0, width: GLOBE_SIZE, height: GLOBE_SIZE, borderRadius: GLOBE_SIZE / 2, overflow: 'hidden', pointerEvents: 'box-none' }}>
             {pinPositions.map(({ country, x, y, idx }) => {
               const isLocked = country.status === 'locked';
               const pinSize = isLocked ? 24 : 30;
