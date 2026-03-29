@@ -70,6 +70,8 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
   const animationFrameRef = useRef<number | null>(null);
   const isDraggingRef = useRef(false);
   const totalDragDistanceRef = useRef(0);
+  const isPinchingRef = useRef(false);
+  const lastPinchDistRef = useRef(0);
   
   const GLOBE_SIZE = Math.min(width - 80, height * 0.55);
 
@@ -241,12 +243,39 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
     onPanResponderGrant: (evt) => {
       stopSpinning();
       isDraggingRef.current = true;
+      isPinchingRef.current = false;
       totalDragDistanceRef.current = 0;
       lastXRef.current = evt.nativeEvent.pageX;
       lastYRef.current = evt.nativeEvent.pageY;
       velocityRef.current = { x: 0, y: 0 };
     },
     onPanResponderMove: (evt) => {
+      const touches = evt.nativeEvent.touches;
+
+      // Pinch-to-zoom with two fingers
+      if (touches && touches.length >= 2) {
+        const dx = touches[0].pageX - touches[1].pageX;
+        const dy = touches[0].pageY - touches[1].pageY;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+
+        if (!isPinchingRef.current) {
+          isPinchingRef.current = true;
+          lastPinchDistRef.current = dist;
+          return;
+        }
+
+        const pinchDelta = dist / lastPinchDistRef.current;
+        setScale(prev => Math.min(Math.max(prev * pinchDelta, MIN_SCALE), MAX_SCALE));
+        lastPinchDistRef.current = dist;
+        return;
+      }
+
+      // Single finger rotation
+      if (isPinchingRef.current) {
+        isPinchingRef.current = false;
+        return;
+      }
+
       const currentX = evt.nativeEvent.pageX;
       const currentY = evt.nativeEvent.pageY;
 
@@ -257,7 +286,6 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
 
       velocityRef.current = { x: dx, y: dy };
 
-      // Higher base value = more responsive rotation; clamped so zoom doesn't kill it
       const sensitivity = Math.max(0.35, 120 / scale);
 
       setRotation(current => [
@@ -270,10 +298,12 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
       lastYRef.current = currentY;
     },
     onPanResponderRelease: (evt) => {
+      const wasPinching = isPinchingRef.current;
       isDraggingRef.current = false;
-      if (totalDragDistanceRef.current <= 10) {
+      isPinchingRef.current = false;
+      if (!wasPinching && totalDragDistanceRef.current <= 10) {
         handleGlobePress(evt);
-      } else {
+      } else if (!wasPinching) {
         applyMomentum();
       }
     },
@@ -333,7 +363,7 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
       if (dist > scale) return null; // outside the globe circle
       return { country, x, y, idx };
     }).filter(Boolean) as { country: CountryPin; x: number; y: number; idx: number }[];
-  }, [visiblePins, projection, filterStatus]);
+  }, [visiblePins, projection, filterStatus, GLOBE_SIZE, scale]);
 
   if (fetchError && !worldData) {
     return (
