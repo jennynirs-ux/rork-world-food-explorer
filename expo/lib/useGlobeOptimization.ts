@@ -131,18 +131,8 @@ export function useOptimizedPins<T extends GlobePin>(
     // Step 2: LOD-based clustering
     const lod = getLODLevel(scale, minScale, maxScale);
 
-    if (lod === 'clustered' && visible.length > 80) {
-      // Only cluster when there are many pins (80+) to avoid hiding countries
-      // For typical datasets (30-50 countries), show all pins individually
-      const clusters = clusterPins(visible, 20);
-      return {
-        pins: clusters.map((c) => c.representative),
-        clusters,
-        lod,
-        visibleCount: visible.length,
-        renderedCount: clusters.length,
-      };
-    }
+    // Clustering disabled — with 195 countries, clustering hides individual
+    // countries behind representatives. All pins render individually.
 
     if (lod === 'normal') {
       // Medium zoom: show all visible, no clustering
