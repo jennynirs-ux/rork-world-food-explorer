@@ -1456,7 +1456,7 @@ export const qatar: Country = {
           en: 'What is the traditional market in Doha called?',
           sv: 'Vad heter den traditionella marknaden i Doha?',
           es: '¿Cómo se llama el mercado tradicional de Doha?',
-          fr: 'Comment s'appelle le marché traditionnel de Doha ?',
+          fr: 'Comment s\'appelle le marché traditionnel de Doha ?',
           de: 'Wie heißt der traditionelle Markt in Doha?',
           it: 'What is the traditional market in Doha called?',
           pl: 'What is the traditional market in Doha called?',

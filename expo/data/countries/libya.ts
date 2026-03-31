@@ -440,7 +440,7 @@ export const libya: Country = {
           en: 'Prehistoric rock art dating back thousands of years.',
           sv: 'Förhistorisk hällkonst som går tillbaka tusentals år.',
           es: 'Arte rupestre prehistórico que data de miles de años.',
-          fr: 'Art rupestre préhistorique datant de plusieurs milliers d'années.',
+          fr: 'Art rupestre préhistorique datant de plusieurs milliers d\'années.',
           de: 'Prähistorische Felskunst, die Jahrtausende alt ist.',
           it: 'Prehistoric rock art dating back thousands of years.',
           pl: 'Prehistoric rock art dating back thousands of years.',

@@ -1760,7 +1760,7 @@ export const pakistan: Country = {
           en: 'What colorful art form is unique to Pakistan?',
           sv: 'Vilken färgstark konstform är unik för Pakistan?',
           es: '¿Qué colorida forma de arte es exclusiva de Pakistán?',
-          fr: 'Quelle forme d'art colorée est unique au Pakistan ?',
+          fr: 'Quelle forme d\'art colorée est unique au Pakistan ?',
           de: 'Welche farbenfrohe Kunstform gibt es nur in Pakistan?',
           it: 'What colorful art form is unique to Pakistan?',
           pl: 'What colorful art form is unique to Pakistan?',

@@ -284,7 +284,7 @@ export const italy: Country = {
           en: 'Augustus became the first Roman Emperor, beginning an era of unprecedented power and cultural influence that would last over 400 years.',
           sv: 'Augustus blev den första romerska kejsaren och inledde en era av aldrig tidigare skådad makt och kulturellt inflytande som skulle vara i över 400 år.',
           es: 'Augusto se convirtió en el primer emperador romano, iniciando una era de poder e influencia cultural sin precedentes que duraría más de 400 años.',
-          fr: 'Auguste est devenu le premier empereur romain, ouvrant une ère de pouvoir et d'influence culturelle sans précédent qui durera plus de 400 ans.',
+          fr: 'Auguste est devenu le premier empereur romain, ouvrant une ère de pouvoir et d\'influence culturelle sans précédent qui durera plus de 400 ans.',
           de: 'Augustus wurde der erste römische Kaiser und leitete damit eine Ära beispielloser Macht und kulturellen Einflusses ein, die über 400 Jahre andauern sollte.',
           it: 'Augustus became the first Roman Emperor, beginning an era of unprecedented power and cultural influence that would last over 400 years.',
           pl: 'Augustus became the first Roman Emperor, beginning an era of unprecedented power and cultural influence that would last over 400 years.',

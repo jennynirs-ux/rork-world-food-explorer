@@ -495,7 +495,7 @@ export const nigeria: Country = {
           en: 'Required for most nationalities, apply in advance.',
           sv: 'Krävs för de flesta nationaliteter, ansök i förväg.',
           es: 'Requerido para la mayoría de nacionalidades, solicítelo con anticipación.',
-          fr: 'Obligatoire pour la plupart des nationalités, postulez à l'avance.',
+          fr: 'Obligatoire pour la plupart des nationalités, postulez à l\'avance.',
           de: 'Für die meisten Nationalitäten erforderlich. Bewerben Sie sich im Voraus.',
           it: 'Required for most nationalities, apply in advance.',
           pl: 'Required for most nationalities, apply in advance.',

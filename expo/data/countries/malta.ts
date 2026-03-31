@@ -1535,7 +1535,7 @@ export const malta: Country = {
           en: 'How many days of sunshine does Malta have per year?',
           sv: 'Hur många soldagar har Malta per år?',
           es: '¿Cuántos días de sol tiene Malta al año?',
-          fr: 'Combien de jours d'ensoleillement Malte a-t-elle par an ?',
+          fr: 'Combien de jours d\'ensoleillement Malte a-t-elle par an ?',
           de: 'Wie viele Sonnentage hat Malta pro Jahr?',
           it: 'How many days of sunshine does Malta have per year?',
           pl: 'How many days of sunshine does Malta have per year?',

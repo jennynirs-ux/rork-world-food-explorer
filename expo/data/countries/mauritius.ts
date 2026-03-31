@@ -333,7 +333,7 @@ export const mauritius: Country = {
           en: 'Successfully created a harmonious multi-ethnic society as a model.',
           sv: 'Framgångsrikt skapat ett harmoniskt multietniskt samhälle som modell.',
           es: 'Creó con éxito una sociedad multiétnica armoniosa como modelo.',
-          fr: 'Création réussie d'une société multiethnique harmonieuse comme modèle.',
+          fr: 'Création réussie d\'une société multiethnique harmonieuse comme modèle.',
           de: 'Erfolgreiche Schaffung einer harmonischen multiethnischen Gesellschaft als Modell.',
           it: 'Successfully created a harmonious multi-ethnic society as a model.',
           pl: 'Successfully created a harmonious multi-ethnic society as a model.',

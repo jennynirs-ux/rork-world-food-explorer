@@ -225,7 +225,7 @@ export const marshallIslands: Country = {
           en: 'The US conducted nuclear tests at Bikini Atoll, displacing residents.',
           sv: 'USA genomförde kärnvapenprov vid Bikini-atollen och fördrev invånare.',
           es: 'Estados Unidos realizó pruebas nucleares en el atolón Bikini, desplazando a los residentes.',
-          fr: 'Les États-Unis ont procédé à des essais nucléaires sur l'atoll de Bikini, déplaçant les habitants.',
+          fr: 'Les États-Unis ont procédé à des essais nucléaires sur l\'atoll de Bikini, déplaçant les habitants.',
           de: 'Die USA führten Atomtests im Bikini-Atoll durch und vertrieben die Bewohner.',
           it: 'The US conducted nuclear tests at Bikini Atoll, displacing residents.',
           pl: 'The US conducted nuclear tests at Bikini Atoll, displacing residents.',

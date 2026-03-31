@@ -847,7 +847,7 @@ export const moldova: Country = {
           en: 'Boil salted water',
           sv: 'Koka saltat vatten',
           es: 'Hervir agua con sal',
-          fr: 'Faire bouillir de l'eau salée',
+          fr: 'Faire bouillir de l\'eau salée',
           de: 'Salzwasser aufkochen',
           it: 'Boil salted water',
           pl: 'Boil salted water',

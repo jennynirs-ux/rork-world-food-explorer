@@ -1574,7 +1574,7 @@ export const paraguay: Country = {
           en: 'What is sopa paraguaya?',
           sv: 'Vad är sopa paraguaya?',
           es: '¿Qué es la sopa paraguaya?',
-          fr: 'Qu'est-ce que la soupe paraguaya ?',
+          fr: 'Qu\'est-ce que la soupe paraguaya ?',
           de: 'Was ist Sopa Paraguaya?',
           it: 'What is sopa paraguaya?',
           pl: 'What is sopa paraguaya?',

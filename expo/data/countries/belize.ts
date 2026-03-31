@@ -1328,7 +1328,7 @@ export const belize: Country = {
           en: 'What is the famous underwater feature in Belize called?',
           sv: 'Vad kallas den berömda undervattensfunktionen i Belize?',
           es: '¿Cómo se llama la famosa característica submarina de Belice?',
-          fr: 'Comment s'appelle la célèbre caractéristique sous-marine du Belize ?',
+          fr: 'Comment s\'appelle la célèbre caractéristique sous-marine du Belize ?',
           de: 'Wie heißt das berühmte Unterwassermerkmal in Belize?',
           it: 'What is the famous underwater feature in Belize called?',
           pl: 'What is the famous underwater feature in Belize called?',

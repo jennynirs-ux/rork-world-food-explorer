@@ -1281,7 +1281,7 @@ export const philippines: Country = {
           en: 'Approximately how many islands make up the Philippines?',
           sv: 'Ungefär hur många öar utgör Filippinerna?',
           es: '¿Aproximadamente cuantas islas forman Filipinas?',
-          fr: 'Environ combien d'îles composent les Philippines ?',
+          fr: 'Environ combien d\'îles composent les Philippines ?',
           de: 'Aus wie vielen Inseln bestehen die Philippinen ungefähr?',
           it: 'Approximately how many islands make up the Philippines?',
           pl: 'Approximately how many islands make up the Philippines?',

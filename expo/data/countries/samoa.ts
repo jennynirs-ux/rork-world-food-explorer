@@ -1257,7 +1257,7 @@ export const samoa: Country = {
           en: 'What is the traditional Samoan way of life called?',
           sv: 'Vad kallas den traditionella samoanska livsstilen?',
           es: '¿Cómo se llama el estilo de vida tradicional de Samoa?',
-          fr: 'Comment s'appelle le mode de vie traditionnel samoan ?',
+          fr: 'Comment s\'appelle le mode de vie traditionnel samoan ?',
           de: 'Wie nennt man die traditionelle samoanische Lebensweise?',
           it: 'What is the traditional Samoan way of life called?',
           pl: 'What is the traditional Samoan way of life called?',

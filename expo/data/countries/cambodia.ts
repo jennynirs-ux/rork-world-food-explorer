@@ -329,7 +329,7 @@ export const cambodia: Country = {
           en: 'UN-supervised elections restored constitutional monarchy and began national reconciliation.',
           sv: 'FN-övervakade val återställde den konstitutionella monarkin och inledde nationell försoning.',
           es: 'Las elecciones supervisadas por la ONU restauraron la monarquía constitucional y comenzaron la reconciliación nacional.',
-          fr: 'Les élections supervisées par l'ONU ont rétabli la monarchie constitutionnelle et amorcé la réconciliation nationale.',
+          fr: 'Les élections supervisées par l\'ONU ont rétabli la monarchie constitutionnelle et amorcé la réconciliation nationale.',
           de: 'Von den Vereinten Nationen überwachte Wahlen stellten die konstitutionelle Monarchie wieder her und leiteten die nationale Aussöhnung ein.',
           it: 'UN-supervised elections restored constitutional monarchy and began national reconciliation.',
           pl: 'UN-supervised elections restored constitutional monarchy and began national reconciliation.',

@@ -307,7 +307,7 @@ export const luxembourg: Country = {
           en: 'Development of innovative steel production techniques.',
           sv: 'Utveckling av innovativa stålproduktionstekniker.',
           es: 'Desarrollo de técnicas innovadoras de producción de acero.',
-          fr: 'Développement de techniques innovantes de production d'acier.',
+          fr: 'Développement de techniques innovantes de production d\'acier.',
           de: 'Entwicklung innovativer Stahlproduktionstechniken.',
           it: 'Development of innovative steel production techniques.',
           pl: 'Development of innovative steel production techniques.',

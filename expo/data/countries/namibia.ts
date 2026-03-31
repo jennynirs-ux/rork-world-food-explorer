@@ -31,7 +31,7 @@ export const namibia: Country = {
       en: 'Namibia features the world\'s oldest desert, dramatic landscapes, and diverse wildlife. A land of endless horizons, towering sand dunes, and star-filled skies.',
       sv: 'Namibia har världens äldsta öken, dramatiska landskap och ett varierat djurliv. Ett land med oändliga horisonter, höga sanddyner och stjärnfyllda himlar.',
       es: 'Namibia presenta el desierto más antiguo del mundo, paisajes espectaculares y una vida silvestre diversa. Una tierra de horizontes infinitos, imponentes dunas de arena y cielos llenos de estrellas.',
-      fr: 'La Namibie abrite le désert le plus ancien du monde, des paysages spectaculaires et une faune diversifiée. Une terre aux horizons infinis, aux dunes de sable imposantes et au ciel rempli d'étoiles.',
+      fr: 'La Namibie abrite le désert le plus ancien du monde, des paysages spectaculaires et une faune diversifiée. Une terre aux horizons infinis, aux dunes de sable imposantes et au ciel rempli d\'étoiles.',
       de: 'Namibia bietet die älteste Wüste der Welt, dramatische Landschaften und eine vielfältige Tierwelt. Ein Land mit endlosen Horizonten, hoch aufragenden Sanddünen und einem Sternenhimmel.',
       it: 'Namibia features the world\'s oldest desert, dramatic landscapes, and diverse wildlife. A land of endless horizons, towering sand dunes, and star-filled skies.',
       pl: 'Namibia features the world\'s oldest desert, dramatic landscapes, and diverse wildlife. A land of endless horizons, towering sand dunes, and star-filled skies.',

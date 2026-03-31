@@ -225,7 +225,7 @@ export const eastTimor: Country = {
           en: 'Portuguese traders arrived, beginning centuries of colonial influence.',
           sv: 'Portugisiska handlare anlände och började århundraden av kolonialt inflytande.',
           es: 'Llegaron los comerciantes portugueses, iniciando siglos de influencia colonial.',
-          fr: 'Les commerçants portugais sont arrivés, marquant le début de siècles d'influence coloniale.',
+          fr: 'Les commerçants portugais sont arrivés, marquant le début de siècles d\'influence coloniale.',
           de: 'Portugiesische Händler kamen und begannen Jahrhunderte des kolonialen Einflusses.',
           it: 'Portuguese traders arrived, beginning centuries of colonial influence.',
           pl: 'Portuguese traders arrived, beginning centuries of colonial influence.',

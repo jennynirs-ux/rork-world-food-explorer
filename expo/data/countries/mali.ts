@@ -1112,7 +1112,7 @@ export const mali: Country = {
           en: 'Who was the richest ruler in history from Mali?',
           sv: 'Vem var den rikaste härskaren i historien från Mali?',
           es: '¿Quién fue el gobernante de Malí más rico de la historia?',
-          fr: 'Qui a été le dirigeant malien le plus riche de l'histoire ?',
+          fr: 'Qui a été le dirigeant malien le plus riche de l\'histoire ?',
           de: 'Wer war der reichste Herrscher Malis in der Geschichte?',
           it: 'Who was the richest ruler in history from Mali?',
           pl: 'Who was the richest ruler in history from Mali?',

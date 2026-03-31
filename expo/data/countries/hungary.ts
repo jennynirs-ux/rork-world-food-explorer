@@ -1780,7 +1780,7 @@ export const hungary: Country = {
           en: 'What is Dobos Torta?',
           sv: 'Vad är Dobos Torta?',
           es: '¿Qué es la Torta Dobos?',
-          fr: 'Qu'est-ce que le Dobos Torta ?',
+          fr: 'Qu\'est-ce que le Dobos Torta ?',
           de: 'Was ist Dobos Torta?',
           it: 'What is Dobos Torta?',
           pl: 'What is Dobos Torta?',

@@ -1415,7 +1415,7 @@ export const comoros: Country = {
           en: 'What is Mount Karthala?',
           sv: 'Vad är Mount Karthala?',
           es: '¿Qué es el monte Karthala?',
-          fr: 'Qu'est-ce que le mont Karthala ?',
+          fr: 'Qu\'est-ce que le mont Karthala ?',
           de: 'Was ist der Berg Karthala?',
           it: 'What is Mount Karthala?',
           pl: 'What is Mount Karthala?',

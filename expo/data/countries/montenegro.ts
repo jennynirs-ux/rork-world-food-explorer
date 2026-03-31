@@ -307,7 +307,7 @@ export const montenegro: Country = {
           en: 'Developing eco-tourism while preserving natural beauty.',
           sv: 'Utveckla ekoturismen samtidigt som den naturliga skönheten bevaras.',
           es: 'Desarrollar el ecoturismo preservando la belleza natural.',
-          fr: 'Développer l'écotourisme tout en préservant la beauté naturelle.',
+          fr: 'Développer l\'écotourisme tout en préservant la beauté naturelle.',
           de: 'Entwicklung des Ökotourismus unter Wahrung der Naturschönheiten.',
           it: 'Developing eco-tourism while preserving natural beauty.',
           pl: 'Developing eco-tourism while preserving natural beauty.',

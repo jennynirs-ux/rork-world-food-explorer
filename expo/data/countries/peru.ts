@@ -513,7 +513,7 @@ export const peru: Country = {
           en: 'Peruvian Amazon offers incredible biodiversity and indigenous culture experiences.',
           sv: 'Peruanska Amazonas erbjuder otrolig biologisk mångfald och inhemska kulturupplevelser.',
           es: 'La Amazonía peruana ofrece increíbles experiencias de biodiversidad y cultura indígena.',
-          fr: 'L'Amazonie péruvienne offre une incroyable biodiversité et des expériences culturelles autochtones.',
+          fr: 'L\'Amazonie péruvienne offre une incroyable biodiversité et des expériences culturelles autochtones.',
           de: 'Der peruanische Amazonas bietet eine unglaubliche Artenvielfalt und Erlebnisse indigener Kultur.',
           it: 'Peruvian Amazon offers incredible biodiversity and indigenous culture experiences.',
           pl: 'Peruvian Amazon offers incredible biodiversity and indigenous culture experiences.',

@@ -1268,7 +1268,7 @@ export const uzbekistan: Country = {
           en: 'Which of these is a famous historic city in Uzbekistan?',
           sv: 'Vilken av dessa är en berömd historisk stad i Uzbekistan?',
           es: '¿Cuál de estas es una ciudad histórica famosa en Uzbekistán?',
-          fr: 'Laquelle de ces villes est une ville historique célèbre d'Ouzbékistan ?',
+          fr: 'Laquelle de ces villes est une ville historique célèbre d\'Ouzbékistan ?',
           de: 'Welche davon ist eine berühmte historische Stadt in Usbekistan?',
           it: 'Which of these is a famous historic city in Uzbekistan?',
           pl: 'Which of these is a famous historic city in Uzbekistan?',
@@ -1326,15 +1326,15 @@ export const uzbekistan: Country = {
       {
         id: 'uzbekistan-q4',
         question: {
-          en: 'What is Uzbekistan's national rice dish called?',
+          en: 'What is Uzbekistan\'s national rice dish called?',
           sv: 'Vad heter Uzbekistans nationella risrätt?',
           es: '¿Cómo se llama el plato de arroz nacional de Uzbekistán?',
           fr: 'Comment s'appelle le plat national de riz de l'Ouzbékistan ?',
           de: 'Wie heißt Usbekistans nationales Reisgericht?',
-          it: 'What is Uzbekistan's national rice dish called?',
-          pl: 'What is Uzbekistan's national rice dish called?',
-          nl: 'What is Uzbekistan's national rice dish called?',
-          pt: 'What is Uzbekistan's national rice dish called?',
+          it: 'What is Uzbekistan\'s national rice dish called?',
+          pl: 'What is Uzbekistan\'s national rice dish called?',
+          nl: 'What is Uzbekistan\'s national rice dish called?',
+          pt: 'What is Uzbekistan\'s national rice dish called?',
         },
         options: [
           {

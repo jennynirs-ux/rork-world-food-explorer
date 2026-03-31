@@ -1589,7 +1589,7 @@ export const colombia: Country = {
           en: 'What is the Colombian anise-flavored liquor called?',
           sv: 'Vad heter den colombianska spriten med anismak?',
           es: '¿Cómo se llama el licor colombiano con sabor a anís?',
-          fr: 'Comment s'appelle la liqueur anisée colombienne ?',
+          fr: 'Comment s\'appelle la liqueur anisée colombienne ?',
           de: 'Wie heißt der kolumbianische Likör mit Anisgeschmack?',
           it: 'What is the Colombian anise-flavored liquor called?',
           pl: 'What is the Colombian anise-flavored liquor called?',

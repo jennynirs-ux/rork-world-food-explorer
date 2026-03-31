@@ -1575,7 +1575,7 @@ export const bhutan: Country = {
           en: 'What is the famous cliff-side monastery called?',
           sv: 'Vad heter det berömda klostret på klippsidan?',
           es: '¿Cómo se llama el famoso monasterio situado al lado del acantilado?',
-          fr: 'Comment s'appelle le célèbre monastère situé à flanc de falaise ?',
+          fr: 'Comment s\'appelle le célèbre monastère situé à flanc de falaise ?',
           de: 'Wie heißt das berühmte Kloster an der Klippe?',
           it: 'What is the famous cliff-side monastery called?',
           pl: 'What is the famous cliff-side monastery called?',

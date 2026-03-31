@@ -421,7 +421,7 @@ export const bangladesh: Country = {
           en: 'Innovative agricultural technique using water hyacinth beds to grow crops during floods, now recognized by the UN as a climate adaptation model.',
           sv: 'Innovativ jordbruksteknik som använder vattenhyacintbäddar för att odla grödor under översvämningar, nu erkänd av FN som en klimatanpassningsmodell.',
           es: 'Técnica agrícola innovadora que utiliza lechos de jacintos de agua para cultivar durante las inundaciones, ahora reconocida por la ONU como modelo de adaptación climática.',
-          fr: 'Technique agricole innovante utilisant des massifs de jacinthes d'eau pour faire pousser des cultures lors des inondations, désormais reconnue par l'ONU comme modèle d'adaptation climatique.',
+          fr: 'Technique agricole innovante utilisant des massifs de jacinthes d\'eau pour faire pousser des cultures lors des inondations, désormais reconnue par l\'ONU comme modèle d\'adaptation climatique.',
           de: 'Innovative landwirtschaftliche Technik, bei der Wasserhyazinthenbeete zum Anbau von Pflanzen bei Überschwemmungen genutzt werden und die nun von den Vereinten Nationen als Modell zur Klimaanpassung anerkannt ist.',
           it: 'Innovative agricultural technique using water hyacinth beds to grow crops during floods, now recognized by the UN as a climate adaptation model.',
           pl: 'Innovative agricultural technique using water hyacinth beds to grow crops during floods, now recognized by the UN as a climate adaptation model.',

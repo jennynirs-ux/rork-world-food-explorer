@@ -1420,7 +1420,7 @@ export const antiguaAndBarbuda: Country = {
           en: 'What is the currency of Antigua and Barbuda?',
           sv: 'Vad heter Antigua och Barbudas valuta?',
           es: '¿Cuál es la moneda de Antigua y Barbuda?',
-          fr: 'Quelle est la monnaie d'Antigua-et-Barbuda ?',
+          fr: 'Quelle est la monnaie d\'Antigua-et-Barbuda ?',
           de: 'Was ist die Währung von Antigua und Barbuda?',
           it: 'What is the currency of Antigua and Barbuda?',
           pl: 'What is the currency of Antigua and Barbuda?',

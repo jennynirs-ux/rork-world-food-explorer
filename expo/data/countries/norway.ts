@@ -257,7 +257,7 @@ export const norway: Country = {
           en: 'Norwegian Vikings explored, traded, and settled across Europe and beyond.',
           sv: 'Norska vikingar utforskade, handlade och bosatte sig i Europa och utanför.',
           es: 'Los vikingos noruegos exploraron, comerciaron y se establecieron en toda Europa y más allá.',
-          fr: 'Les Vikings norvégiens ont exploré, fait du commerce et se sont installés dans toute l'Europe et au-delà.',
+          fr: 'Les Vikings norvégiens ont exploré, fait du commerce et se sont installés dans toute l\'Europe et au-delà.',
           de: 'Norwegische Wikinger erkundeten, handelten und ließen sich in ganz Europa und darüber hinaus nieder.',
           it: 'Norwegian Vikings explored, traded, and settled across Europe and beyond.',
           pl: 'Norwegian Vikings explored, traded, and settled across Europe and beyond.',

@@ -282,7 +282,7 @@ export const northKorea: Country = {
           en: 'Development of unique political philosophy emphasizing self-reliance.',
           sv: 'Utveckling av unik politisk filosofi som betonar självtillit.',
           es: 'Desarrollo de una filosofía política única que enfatiza la autosuficiencia.',
-          fr: 'Développement d'une philosophie politique unique mettant l'accent sur l'autonomie.',
+          fr: 'Développement d\'une philosophie politique unique mettant l\'accent sur l\'autonomie.',
           de: 'Entwicklung einer einzigartigen politischen Philosophie, die die Eigenständigkeit betont.',
           it: 'Development of unique political philosophy emphasizing self-reliance.',
           pl: 'Development of unique political philosophy emphasizing self-reliance.',

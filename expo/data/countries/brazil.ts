@@ -610,7 +610,7 @@ export const brazil: Country = {
           en: 'Be cautious in big cities; avoid displaying valuables.',
           sv: 'Var försiktig i storstäder; undvika att visa värdesaker.',
           es: 'Tenga cuidado en las grandes ciudades; Evite exhibir objetos de valor.',
-          fr: 'Soyez prudent dans les grandes villes ; évitez d'exposer des objets de valeur.',
+          fr: 'Soyez prudent dans les grandes villes ; évitez d\'exposer des objets de valeur.',
           de: 'Seien Sie in Großstädten vorsichtig; Vermeiden Sie es, Wertgegenstände zur Schau zu stellen.',
           it: 'Be cautious in big cities; avoid displaying valuables.',
           pl: 'Be cautious in big cities; avoid displaying valuables.',
