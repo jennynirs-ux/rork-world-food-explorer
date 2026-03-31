@@ -150,7 +150,7 @@ export default function CountryDetailScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.lockedContainer}>
-          <TouchableOpacity onPress={() => router.back()} style={styles.lockedBackButton}>
+          <TouchableOpacity onPress={() => router.replace('/(tabs)/countries')} style={styles.lockedBackButton}>
             <ArrowLeft size={24} color={colors.text} />
           </TouchableOpacity>
           
@@ -388,7 +388,7 @@ export default function CountryDetailScreen() {
           <View style={styles.headerButtons}>
             <View style={styles.leftButtons}>
               <TouchableOpacity
-                onPress={() => router.back()}
+                onPress={() => router.replace('/(tabs)/countries')}
                 style={styles.backButton}
               >
                 <ArrowLeft size={24} color="#FFF" />
