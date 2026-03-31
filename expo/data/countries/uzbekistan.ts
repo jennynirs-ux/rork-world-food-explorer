@@ -489,7 +489,7 @@ export const uzbekistan: Country = {
           en: 'Islamic Golden Age Astronomy',
           sv: 'Islamisk guldålders astronomi',
           es: 'Astronomía islámica de la Edad de Oro',
-          fr: 'Astronomie de l’âge d’or islamique',
+          fr: 'Astronomie de l'âge d'or islamique',
           de: 'Islamische Astronomie des Goldenen Zeitalters',
           it: 'Islamic Golden Age Astronomy',
           pl: 'Islamic Golden Age Astronomy',
@@ -1268,7 +1268,7 @@ export const uzbekistan: Country = {
           en: 'Which of these is a famous historic city in Uzbekistan?',
           sv: 'Vilken av dessa är en berömd historisk stad i Uzbekistan?',
           es: '¿Cuál de estas es una ciudad histórica famosa en Uzbekistán?',
-          fr: 'Laquelle de ces villes est une ville historique célèbre d’Ouzbékistan ?',
+          fr: 'Laquelle de ces villes est une ville historique célèbre d'Ouzbékistan ?',
           de: 'Welche davon ist eine berühmte historische Stadt in Usbekistan?',
           it: 'Which of these is a famous historic city in Uzbekistan?',
           pl: 'Which of these is a famous historic city in Uzbekistan?',
@@ -1326,15 +1326,15 @@ export const uzbekistan: Country = {
       {
         id: 'uzbekistan-q4',
         question: {
-          en: 'What is Uzbekistan’s national rice dish called?',
+          en: 'What is Uzbekistan's national rice dish called?',
           sv: 'Vad heter Uzbekistans nationella risrätt?',
           es: '¿Cómo se llama el plato de arroz nacional de Uzbekistán?',
-          fr: 'Comment s’appelle le plat national de riz de l’Ouzbékistan ?',
+          fr: 'Comment s'appelle le plat national de riz de l'Ouzbékistan ?',
           de: 'Wie heißt Usbekistans nationales Reisgericht?',
-          it: 'What is Uzbekistan’s national rice dish called?',
-          pl: 'What is Uzbekistan’s national rice dish called?',
-          nl: 'What is Uzbekistan’s national rice dish called?',
-          pt: 'What is Uzbekistan’s national rice dish called?',
+          it: 'What is Uzbekistan's national rice dish called?',
+          pl: 'What is Uzbekistan's national rice dish called?',
+          nl: 'What is Uzbekistan's national rice dish called?',
+          pt: 'What is Uzbekistan's national rice dish called?',
         },
         options: [
           {
@@ -1448,15 +1448,15 @@ export const uzbekistan: Country = {
       {
         id: 'uzbekistan-q6',
         question: {
-          en: 'Uzbekistan is described as “doubly landlocked” because it is:',
+          en: 'Uzbekistan is described as "doubly landlocked" because it is:',
           sv: 'Uzbekistan beskrivs som "dubbelt landlocked" eftersom det är:',
-          es: 'Uzbekistán se describe como “doblemente sin salida al mar” porque:',
+          es: 'Uzbekistán se describe como "doblemente sin salida al mar" porque:',
           fr: 'L\'Ouzbékistan est décrit comme « doublement enclavé » car :',
-          de: 'Usbekistan wird als „doppeltes Binnenland“ beschrieben, weil es:',
-          it: 'Uzbekistan is described as “doubly landlocked” because it is:',
-          pl: 'Uzbekistan is described as “doubly landlocked” because it is:',
-          nl: 'Uzbekistan is described as “doubly landlocked” because it is:',
-          pt: 'Uzbekistan is described as “doubly landlocked” because it is:',
+          de: 'Usbekistan wird als „doppeltes Binnenland" beschrieben, weil es:',
+          it: 'Uzbekistan is described as "doubly landlocked" because it is:',
+          pl: 'Uzbekistan is described as "doubly landlocked" because it is:',
+          nl: 'Uzbekistan is described as "doubly landlocked" because it is:',
+          pt: 'Uzbekistan is described as "doubly landlocked" because it is:',
         },
         options: [
           {

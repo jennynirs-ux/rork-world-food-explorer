@@ -1211,7 +1211,7 @@ export const jamaica: Country = {
           en: 'What is Jamaica\'s famous spicy marinade called?',
           sv: 'Vad heter Jamaicas berömda kryddiga marinad?',
           es: '¿Cómo se llama la famosa marinada picante de Jamaica?',
-          fr: 'Comment s’appelle la célèbre marinade épicée de la Jamaïque ?',
+          fr: 'Comment s'appelle la célèbre marinade épicée de la Jamaïque ?',
           de: 'Wie heißt Jamaikas berühmte würzige Marinade?',
           it: 'What is Jamaica\'s famous spicy marinade called?',
           pl: 'What is Jamaica\'s famous spicy marinade called?',

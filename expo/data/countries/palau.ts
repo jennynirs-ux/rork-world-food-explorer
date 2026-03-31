@@ -1192,7 +1192,7 @@ export const palau: Country = {
           en: 'What did Palau ban in 2018 to protect reefs?',
           sv: 'Vad förbjöd Palau 2018 för att skydda reven?',
           es: '¿Qué prohibió Palau en 2018 para proteger los arrecifes?',
-          fr: 'Qu’est-ce que les Palaos ont interdit en 2018 pour protéger les récifs ?',
+          fr: 'Qu'est-ce que les Palaos ont interdit en 2018 pour protéger les récifs ?',
           de: 'Was hat Palau 2018 zum Schutz der Riffe verboten?',
           it: 'What did Palau ban in 2018 to protect reefs?',
           pl: 'What did Palau ban in 2018 to protect reefs?',

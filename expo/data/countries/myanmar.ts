@@ -1191,7 +1191,7 @@ export const myanmar: Country = {
           en: 'What was Myanmar previously called?',
           sv: 'Vad hette Myanmar tidigare?',
           es: '¿Cómo se llamaba anteriormente Myanmar?',
-          fr: 'Comment s’appelait auparavant le Myanmar ?',
+          fr: 'Comment s'appelait auparavant le Myanmar ?',
           de: 'Wie hieß Myanmar früher?',
           it: 'What was Myanmar previously called?',
           pl: 'What was Myanmar previously called?',

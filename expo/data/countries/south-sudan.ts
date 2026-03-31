@@ -28,15 +28,15 @@ export const southSudan: Country = {
     flag: '🇸🇸',
     landscapeImage: 'https://images.pexels.com/photos/980265/pexels-photo-980265.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
     description: {
-      en: 'South Sudan is the world’s youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
+      en: 'South Sudan is the world's youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
       sv: 'Sydsudan är världens yngsta land, som blev självständigt 2011. Det är känt för de stora Sudd-våtmarkerna, ett rikt djurliv och en stor mångfald av etniska grupper och traditioner.',
       es: 'Sudán del Sur es el país más joven del mundo y obtuvo su independencia en 2011. Es conocido por los vastos humedales de Sudd, su rica vida silvestre y una gran diversidad de grupos étnicos y tradiciones.',
       fr: 'Le Soudan du Sud est le plus jeune pays du monde, ayant obtenu son indépendance en 2011. Il est connu pour ses vastes zones humides du Sudd, sa riche faune et sa grande diversité de groupes ethniques et de traditions.',
       de: 'Südsudan ist das jüngste Land der Welt und erlangte 2011 seine Unabhängigkeit. Es ist bekannt für die riesigen Sudd-Feuchtgebiete, die reiche Tierwelt und eine große Vielfalt an ethnischen Gruppen und Traditionen.',
-      it: 'South Sudan is the world’s youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
-      pl: 'South Sudan is the world’s youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
-      nl: 'South Sudan is the world’s youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
-      pt: 'South Sudan is the world’s youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
+      it: 'South Sudan is the world's youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
+      pl: 'South Sudan is the world's youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
+      nl: 'South Sudan is the world's youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
+      pt: 'South Sudan is the world's youngest country, gaining independence in 2011. It is known for the vast Sudd wetlands, rich wildlife, and a great diversity of ethnic groups and traditions.',
     },
     quickFacts: [
       {
@@ -540,7 +540,7 @@ export const southSudan: Country = {
           en: 'Cattle Herding Traditions',
           sv: 'Boskapsskötseltraditioner',
           es: 'Tradiciones de pastoreo de ganado',
-          fr: 'Traditions d’élevage de bétail',
+          fr: 'Traditions d'élevage de bétail',
           de: 'Viehhaltungstraditionen',
           it: 'Cattle Herding Traditions',
           pl: 'Cattle Herding Traditions',
@@ -1066,20 +1066,20 @@ export const southSudan: Country = {
       nonAlcoholic: 'Karkade (hibiscus tea), Fresh fruit juice',
     },
     music: [
-      { en: ‘Traditional tribal drumming’, sv: ‘Traditionellt stamtrumspel’, de: ‘Traditionelles Stammstrommeln’, fr: ‘Percussion tribale traditionnelle’, es: ‘Percusión tribal tradicional’, it: ‘Percussioni tribali tradizionali’, pl: ‘Tradycyjne bębnienie plemienne’, nl: ‘Traditioneel tribaal drummen’, pt: ‘Percussão tribal tradicional’ },
-      { en: ‘Nilotic folk songs’, sv: ‘Nilotiska folksånger’, de: ‘Nilotische Volkslieder’, fr: ‘Chansons folkloriques nilotiques’, es: ‘Canciones folclóricas nilóticas’, it: ‘Canzoni folk nilotiche’, pl: ‘Nilotyckie pieśni ludowe’, nl: ‘Nilotische volksliederen’, pt: ‘Canções folclóricas nilóticas’ },
-      { en: ‘East African rhythms’, sv: ‘Östafrikanska rytmer’, de: ‘Ostafrikanische Rhythmen’, fr: ‘Rythmes d\’Afrique de l\’Est’, es: ‘Ritmos del África Oriental’, it: ‘Ritmi dell\’Africa orientale’, pl: ‘Rytmy wschodniej Afryki’, nl: ‘Oost-Afrikaanse ritmes’, pt: ‘Ritmos da África Oriental’ },
+      { en: 'Traditional tribal drumming', sv: 'Traditionellt stamtrumspel', de: 'Traditionelles Stammstrommeln', fr: 'Percussion tribale traditionnelle', es: 'Percusión tribal tradicional', it: 'Percussioni tribali tradizionali', pl: 'Tradycyjne bębnienie plemienne', nl: 'Traditioneel tribaal drummen', pt: 'Percussão tribal tradicional' },
+      { en: 'Nilotic folk songs', sv: 'Nilotiska folksånger', de: 'Nilotische Volkslieder', fr: 'Chansons folkloriques nilotiques', es: 'Canciones folclóricas nilóticas', it: 'Canzoni folk nilotiche', pl: 'Nilotyckie pieśni ludowe', nl: 'Nilotische volksliederen', pt: 'Canções folclóricas nilóticas' },
+      { en: 'East African rhythms', sv: 'Östafrikanska rytmer', de: 'Ostafrikanische Rhythmen', fr: 'Rythmes d\'Afrique de l\'Est', es: 'Ritmos del África Oriental', it: 'Ritmi dell\'Africa orientale', pl: 'Rytmy wschodniej Afryki', nl: 'Oost-Afrikaanse ritmes', pt: 'Ritmos da África Oriental' },
     ],
     decorationIdeas: [
-      { en: ‘Black, red, green, blue, yellow and white flag colors’, sv: ‘Svart, röd, grön, blå, gul och vit flaggfärger’, de: ‘Schwarz, Rot, Grün, Blau, Gelb und Weiß Flaggenfarben’, fr: ‘Couleurs du drapeau : noir, rouge, vert, bleu, jaune et blanc’, es: ‘Colores de la bandera: negro, rojo, verde, azul, amarillo y blanco’, it: ‘Colori della bandiera: nero, rosso, verde, blu, giallo e bianco’, pl: ‘Kolory flagi: czarny, czerwony, zielony, niebieski, żółty i biały’, nl: ‘Zwart, rood, groen, blauw, geel en wit vlagkleuren’, pt: ‘Cores da bandeira: preto, vermelho, verde, azul, amarelo e branco’ },
-      { en: ‘Wetland and river imagery’, sv: ‘Våtmarks- och flodbilder’, de: ‘Feuchtgebiets- und Flussbilder’, fr: ‘Imagerie de zones humides et de rivières’, es: ‘Imágenes de humedales y ríos’, it: ‘Immagini di zone umide e fiumi’, pl: ‘Obrazy obszarów podmokłych i rzek’, nl: ‘Wetland- en rivierbeelden’, pt: ‘Imagens de pântanos e rios’ },
-      { en: ‘Handmade baskets and crafts’, sv: ‘Handgjorda korgar och hantverk’, de: ‘Handgemachte Körbe und Handwerk’, fr: ‘Paniers et artisanat faits main’, es: ‘Cestas y artesanías hechas a mano’, it: ‘Cesti e artigianato fatti a mano’, pl: ‘Ręcznie robione koszyki i rękodzieło’, nl: ‘Handgemaakte manden en ambachten’, pt: ‘Cestos e artesanatos feitos à mão’ },
-      { en: ‘Tribal patterns and fabrics’, sv: ‘Stammönster och tyger’, de: ‘Stammes-Muster und Stoffe’, fr: ‘Motifs tribaux et tissus’, es: ‘Patrones tribales y telas’, it: ‘Motivi tribali e tessuti’, pl: ‘Plemienne wzory i tkaniny’, nl: ‘Tribale patronen en stoffen’, pt: ‘Padrões tribais e tecidos’ },
+      { en: 'Black, red, green, blue, yellow and white flag colors', sv: 'Svart, röd, grön, blå, gul och vit flaggfärger', de: 'Schwarz, Rot, Grün, Blau, Gelb und Weiß Flaggenfarben', fr: 'Couleurs du drapeau : noir, rouge, vert, bleu, jaune et blanc', es: 'Colores de la bandera: negro, rojo, verde, azul, amarillo y blanco', it: 'Colori della bandiera: nero, rosso, verde, blu, giallo e bianco', pl: 'Kolory flagi: czarny, czerwony, zielony, niebieski, żółty i biały', nl: 'Zwart, rood, groen, blauw, geel en wit vlagkleuren', pt: 'Cores da bandeira: preto, vermelho, verde, azul, amarelo e branco' },
+      { en: 'Wetland and river imagery', sv: 'Våtmarks- och flodbilder', de: 'Feuchtgebiets- und Flussbilder', fr: 'Imagerie de zones humides et de rivières', es: 'Imágenes de humedales y ríos', it: 'Immagini di zone umide e fiumi', pl: 'Obrazy obszarów podmokłych i rzek', nl: 'Wetland- en rivierbeelden', pt: 'Imagens de pântanos e rios' },
+      { en: 'Handmade baskets and crafts', sv: 'Handgjorda korgar och hantverk', de: 'Handgemachte Körbe und Handwerk', fr: 'Paniers et artisanat faits main', es: 'Cestas y artesanías hechas a mano', it: 'Cesti e artigianato fatti a mano', pl: 'Ręcznie robione koszyki i rękodzieło', nl: 'Handgemaakte manden en ambachten', pt: 'Cestos e artesanatos feitos à mão' },
+      { en: 'Tribal patterns and fabrics', sv: 'Stammönster och tyger', de: 'Stammes-Muster und Stoffe', fr: 'Motifs tribaux et tissus', es: 'Patrones tribales y telas', it: 'Motivi tribali e tessuti', pl: 'Plemienne wzory i tkaniny', nl: 'Tribale patronen en stoffen', pt: 'Padrões tribais e tecidos' },
     ],
     conversationStarters: [
-      { en: ‘Did you know South Sudan is the world\’s youngest country?’, sv: ‘Visste du att Sydsudan är världens yngsta land?’, de: ‘Wussten Sie, dass Südsudan das jüngste Land der Welt ist?’, fr: ‘Saviez-vous que le Soudan du Sud est le pays le plus jeune du monde ?’, es: ‘¿Sabías que Sudán del Sur es el país más joven del mundo?’, it: ‘Sapevi che il Sudan del Sud è il paese più giovane del mondo?’, pl: ‘Czy wiedziałeś, że Sudan Południowy jest najmłodszym krajem świata?’, nl: ‘Wist je dat Zuid-Soedan het jongste land ter wereld is?’, pt: ‘Você sabia que o Sudão do Sul é o país mais jovem do mundo?’ },
-      { en: ‘Have you heard of the Sudd wetlands?’, sv: ‘Har du hört om Sudd-våtmarkerna?’, de: ‘Haben Sie von den Sudd-Feuchtgebieten gehört?’, fr: ‘Avez-vous entendu parler des zones humides du Sudd ?’, es: ‘¿Has oído hablar de los humedales del Sudd?’, it: ‘Hai sentito parlare delle zone umide del Sudd?’, pl: ‘Czy słyszałeś o bagnach Sudd?’, nl: ‘Heb je gehoord van de Sudd-wetlands?’, pt: ‘Você já ouviu falar dos pântanos do Sudd?’ },
-      { en: ‘What do you know about African wetland ecosystems?’, sv: ‘Vad vet du om afrikanska våtmarksekosystem?’, de: ‘Was wissen Sie über afrikanische Feuchtgebiets-Ökosysteme?’, fr: ‘Que savez-vous des écosystèmes de zones humides africains ?’, es: ‘¿Qué sabes sobre los ecosistemas de humedales africanos?’, it: ‘Cosa sai degli ecosistemi delle zone umide africane?’, pl: ‘Co wiesz o afrykańskich ekosystemach podmokłych?’, nl: ‘Wat weet u over Afrikaanse wetland-ecosystemen?’, pt: ‘O que você sabe sobre os ecossistemas de pântanos africanos?’ },
+      { en: 'Did you know South Sudan is the world\'s youngest country?', sv: 'Visste du att Sydsudan är världens yngsta land?', de: 'Wussten Sie, dass Südsudan das jüngste Land der Welt ist?', fr: 'Saviez-vous que le Soudan du Sud est le pays le plus jeune du monde ?', es: '¿Sabías que Sudán del Sur es el país más joven del mundo?', it: 'Sapevi che il Sudan del Sud è il paese più giovane del mondo?', pl: 'Czy wiedziałeś, że Sudan Południowy jest najmłodszym krajem świata?', nl: 'Wist je dat Zuid-Soedan het jongste land ter wereld is?', pt: 'Você sabia que o Sudão do Sul é o país mais jovem do mundo?' },
+      { en: 'Have you heard of the Sudd wetlands?', sv: 'Har du hört om Sudd-våtmarkerna?', de: 'Haben Sie von den Sudd-Feuchtgebieten gehört?', fr: 'Avez-vous entendu parler des zones humides du Sudd ?', es: '¿Has oído hablar de los humedales del Sudd?', it: 'Hai sentito parlare delle zone umide del Sudd?', pl: 'Czy słyszałeś o bagnach Sudd?', nl: 'Heb je gehoord van de Sudd-wetlands?', pt: 'Você já ouviu falar dos pântanos do Sudd?' },
+      { en: 'What do you know about African wetland ecosystems?', sv: 'Vad vet du om afrikanska våtmarksekosystem?', de: 'Was wissen Sie über afrikanische Feuchtgebiets-Ökosysteme?', fr: 'Que savez-vous des écosystèmes de zones humides africains ?', es: '¿Qué sabes sobre los ecosistemas de humedales africanos?', it: 'Cosa sai degli ecosistemi delle zone umide africane?', pl: 'Co wiesz o afrykańskich ekosystemach podmokłych?', nl: 'Wat weet u over Afrikaanse wetland-ecosystemen?', pt: 'O que você sabe sobre os ecossistemas de pântanos africanos?' },
     ],
     quiz: [
       {
@@ -1170,7 +1170,7 @@ export const southSudan: Country = {
           en: 'Which wetland is one of the largest in the world?',
           sv: 'Vilken våtmark är en av de största i världen?',
           es: '¿Qué humedal es uno de los más grandes del mundo?',
-          fr: 'Quelle zone humide est l’une des plus grandes au monde ?',
+          fr: 'Quelle zone humide est l'une des plus grandes au monde ?',
           de: 'Welches Feuchtgebiet ist eines der größten der Welt?',
           it: 'Which wetland is one of the largest in the world?',
           pl: 'Which wetland is one of the largest in the world?',
@@ -1472,15 +1472,15 @@ export const southSudan: Country = {
       {
         id: 'south-sudan-q8',
         question: {
-          en: 'Which natural resource is important to South Sudan’s economy?',
+          en: 'Which natural resource is important to South Sudan's economy?',
           sv: 'Vilken naturresurs är viktig för Sydsudans ekonomi?',
           es: '¿Qué recurso natural es importante para la economía de Sudán del Sur?',
-          fr: 'Quelle ressource naturelle est importante pour l’économie du Soudan du Sud ?',
+          fr: 'Quelle ressource naturelle est importante pour l'économie du Soudan du Sud ?',
           de: 'Welche natürliche Ressource ist für die Wirtschaft Südsudans wichtig?',
-          it: 'Which natural resource is important to South Sudan’s economy?',
-          pl: 'Which natural resource is important to South Sudan’s economy?',
-          nl: 'Which natural resource is important to South Sudan’s economy?',
-          pt: 'Which natural resource is important to South Sudan’s economy?',
+          it: 'Which natural resource is important to South Sudan's economy?',
+          pl: 'Which natural resource is important to South Sudan's economy?',
+          nl: 'Which natural resource is important to South Sudan's economy?',
+          pt: 'Which natural resource is important to South Sudan's economy?',
         },
         options: [
           {
@@ -1564,15 +1564,15 @@ export const southSudan: Country = {
       {
         id: 'south-sudan-q10',
         question: {
-          en: 'Which river system strongly influences South Sudan’s geography?',
+          en: 'Which river system strongly influences South Sudan's geography?',
           sv: 'Vilket flodsystem påverkar starkt Sydsudans geografi?',
           es: '¿Qué sistema fluvial influye fuertemente en la geografía de Sudán del Sur?',
           fr: 'Quel système fluvial influence fortement la géographie du Soudan du Sud ?',
           de: 'Welches Flusssystem beeinflusst die Geographie Südsudans stark?',
-          it: 'Which river system strongly influences South Sudan’s geography?',
-          pl: 'Which river system strongly influences South Sudan’s geography?',
-          nl: 'Which river system strongly influences South Sudan’s geography?',
-          pt: 'Which river system strongly influences South Sudan’s geography?',
+          it: 'Which river system strongly influences South Sudan's geography?',
+          pl: 'Which river system strongly influences South Sudan's geography?',
+          nl: 'Which river system strongly influences South Sudan's geography?',
+          pt: 'Which river system strongly influences South Sudan's geography?',
         },
         options: [
           {

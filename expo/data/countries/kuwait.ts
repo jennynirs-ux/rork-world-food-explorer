@@ -282,7 +282,7 @@ export const kuwait: Country = {
           en: 'Kuwait pioneered large-scale seawater desalination in the Gulf region.',
           sv: 'Kuwait var banbrytande för storskalig avsaltning av havsvatten i Gulfregionen.',
           es: 'Kuwait fue pionero en la desalinización de agua de mar a gran escala en la región del Golfo.',
-          fr: 'Le Koweït a été le pionnier du dessalement de l’eau de mer à grande échelle dans la région du Golfe.',
+          fr: 'Le Koweït a été le pionnier du dessalement de l'eau de mer à grande échelle dans la région du Golfe.',
           de: 'Kuwait leistete Pionierarbeit bei der groß angelegten Meerwasserentsalzung in der Golfregion.',
           it: 'Kuwait pioneered large-scale seawater desalination in the Gulf region.',
           pl: 'Kuwait pioneered large-scale seawater desalination in the Gulf region.',

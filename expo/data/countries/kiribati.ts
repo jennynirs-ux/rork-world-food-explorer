@@ -979,7 +979,7 @@ export const kiribati: Country = {
           en: 'How many hemispheres does Kiribati span?',
           sv: 'Hur många halvklot spänner Kiribati över?',
           es: '¿Cuántos hemisferios abarca Kiribati?',
-          fr: 'Combien d’hémisphères Kiribati s’étend-elle ?',
+          fr: 'Combien d'hémisphères Kiribati s'étend-elle ?',
           de: 'Wie viele Hemisphären erstreckt sich Kiribati?',
           it: 'How many hemispheres does Kiribati span?',
           pl: 'How many hemispheres does Kiribati span?',

@@ -1535,7 +1535,7 @@ export const saintVincentAndTheGrenadines: Country = {
           en: 'What is La Soufriere on Saint Vincent?',
           sv: 'Vad är La Soufriere på Saint Vincent?',
           es: '¿Qué es La Soufriere sobre San Vicente?',
-          fr: 'Qu’est-ce que La Soufrière à Saint Vincent ?',
+          fr: 'Qu'est-ce que La Soufrière à Saint Vincent ?',
           de: 'Was ist La Soufriere auf Saint Vincent?',
           it: 'What is La Soufriere on Saint Vincent?',
           pl: 'What is La Soufriere on Saint Vincent?',

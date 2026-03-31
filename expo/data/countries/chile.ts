@@ -1448,7 +1448,7 @@ export const chile: Country = {
           en: 'When did Chile gain independence from Spain?',
           sv: 'När blev Chile självständigt från Spanien?',
           es: '¿Cuándo se independizó Chile de España?',
-          fr: 'Quand le Chili a-t-il obtenu son indépendance de l’Espagne ?',
+          fr: 'Quand le Chili a-t-il obtenu son indépendance de l'Espagne ?',
           de: 'Wann erlangte Chile die Unabhängigkeit von Spanien?',
           it: 'When did Chile gain independence from Spain?',
           pl: 'When did Chile gain independence from Spain?',

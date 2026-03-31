@@ -741,7 +741,7 @@ export const lithuania: Country = {
           en: 'Lithuania was partitioned and became part of the Russian Empire.',
           sv: 'Litauen delades upp och blev en del av det ryska imperiet.',
           es: 'Lituania fue dividida y pasó a formar parte del Imperio Ruso.',
-          fr: 'La Lituanie fut divisée et devint partie intégrante de l’Empire russe.',
+          fr: 'La Lituanie fut divisée et devint partie intégrante de l'Empire russe.',
           de: 'Litauen wurde geteilt und Teil des Russischen Reiches.',
           it: 'Lithuania was partitioned and became part of the Russian Empire.',
           pl: 'Lithuania was partitioned and became part of the Russian Empire.',

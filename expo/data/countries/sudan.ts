@@ -801,7 +801,7 @@ export const sudan: Country = {
           en: 'Soak fava beans overnight in plenty of water',
           sv: 'Blötlägg favabönor över natten i mycket vatten',
           es: 'Remojar las habas durante la noche en abundante agua',
-          fr: 'Faire tremper les fèves toute la nuit dans beaucoup d’eau',
+          fr: 'Faire tremper les fèves toute la nuit dans beaucoup d'eau',
           de: 'Ackerbohnen über Nacht in reichlich Wasser einweichen',
           it: 'Soak fava beans overnight in plenty of water',
           pl: 'Soak fava beans overnight in plenty of water',
@@ -1318,7 +1318,7 @@ export const sudan: Country = {
           en: 'Sudan is famous for having more of these than Egypt:',
           sv: 'Sudan är känt för att ha fler av dessa än Egypten:',
           es: 'Sudán es famoso por tener más de estos que Egipto:',
-          fr: 'Le Soudan est célèbre pour en avoir plus que l’Égypte :',
+          fr: 'Le Soudan est célèbre pour en avoir plus que l'Égypte :',
           de: 'Der Sudan ist dafür bekannt, mehr davon zu haben als Ägypten:',
           it: 'Sudan is famous for having more of these than Egypt:',
           pl: 'Sudan is famous for having more of these than Egypt:',
@@ -1498,15 +1498,15 @@ export const sudan: Country = {
       {
         id: 'sudan-q5',
         question: {
-          en: 'Sudan’s famous pyramids are most associated with which ancient region?',
+          en: 'Sudan's famous pyramids are most associated with which ancient region?',
           sv: 'Sudans berömda pyramider är mest förknippade med vilken forntida region?',
           es: '¿Con qué región antigua están más asociadas las famosas pirámides de Sudán?',
           fr: 'À quelle région ancienne les célèbres pyramides du Soudan sont-elles le plus associées ?',
           de: 'Mit welcher antiken Region werden die berühmten Pyramiden des Sudan am meisten in Verbindung gebracht?',
-          it: 'Sudan’s famous pyramids are most associated with which ancient region?',
-          pl: 'Sudan’s famous pyramids are most associated with which ancient region?',
-          nl: 'Sudan’s famous pyramids are most associated with which ancient region?',
-          pt: 'Sudan’s famous pyramids are most associated with which ancient region?',
+          it: 'Sudan's famous pyramids are most associated with which ancient region?',
+          pl: 'Sudan's famous pyramids are most associated with which ancient region?',
+          nl: 'Sudan's famous pyramids are most associated with which ancient region?',
+          pt: 'Sudan's famous pyramids are most associated with which ancient region?',
         },
         options: [
           {
@@ -1562,7 +1562,7 @@ export const sudan: Country = {
           en: 'What is the main ingredient in Ful Medames?',
           sv: 'Vad är huvudingrediensen i Ful Medames?',
           es: '¿Cuál es el ingrediente principal de Ful Medames?',
-          fr: 'Quel est l’ingrédient principal du Ful Medames ?',
+          fr: 'Quel est l'ingrédient principal du Ful Medames ?',
           de: 'Was ist der Hauptbestandteil von Ful Medames?',
           it: 'What is the main ingredient in Ful Medames?',
           pl: 'What is the main ingredient in Ful Medames?',
@@ -1681,15 +1681,15 @@ export const sudan: Country = {
       {
         id: 'sudan-q8',
         question: {
-          en: 'What is Sudan’s currency?',
+          en: 'What is Sudan's currency?',
           sv: 'Vad är Sudans valuta?',
           es: '¿Cuál es la moneda de Sudán?',
           fr: 'Quelle est la monnaie du Soudan ?',
           de: 'Was ist die Währung des Sudan?',
-          it: 'What is Sudan’s currency?',
-          pl: 'What is Sudan’s currency?',
-          nl: 'What is Sudan’s currency?',
-          pt: 'What is Sudan’s currency?',
+          it: 'What is Sudan's currency?',
+          pl: 'What is Sudan's currency?',
+          nl: 'What is Sudan's currency?',
+          pt: 'What is Sudan's currency?',
         },
         options: [
           {
@@ -1803,15 +1803,15 @@ export const sudan: Country = {
       {
         id: 'sudan-q10',
         question: {
-          en: 'Sudan’s landscape ranges from desert in the north to what common environment further south?',
+          en: 'Sudan's landscape ranges from desert in the north to what common environment further south?',
           sv: 'Sudans landskap sträcker sig från öken i norr till vilken vanlig miljö längre söderut?',
           es: '¿El paisaje de Sudán abarca desde el desierto en el norte hasta qué entorno común más al sur?',
-          fr: 'Le paysage du Soudan s’étend du désert au nord jusqu’à quel environnement commun plus au sud ?',
+          fr: 'Le paysage du Soudan s'étend du désert au nord jusqu'à quel environnement commun plus au sud ?',
           de: 'Die Landschaft des Sudan reicht von der Wüste im Norden bis zu welcher gemeinsamen Umwelt weiter südlich?',
-          it: 'Sudan’s landscape ranges from desert in the north to what common environment further south?',
-          pl: 'Sudan’s landscape ranges from desert in the north to what common environment further south?',
-          nl: 'Sudan’s landscape ranges from desert in the north to what common environment further south?',
-          pt: 'Sudan’s landscape ranges from desert in the north to what common environment further south?',
+          it: 'Sudan's landscape ranges from desert in the north to what common environment further south?',
+          pl: 'Sudan's landscape ranges from desert in the north to what common environment further south?',
+          nl: 'Sudan's landscape ranges from desert in the north to what common environment further south?',
+          pt: 'Sudan's landscape ranges from desert in the north to what common environment further south?',
         },
         options: [
           {

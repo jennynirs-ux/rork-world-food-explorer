@@ -31,7 +31,7 @@ export const niger: Country = {
       en: 'Niger is a landlocked Saharan country in West Africa, known for ancient caravan routes, the Niger River, and diverse ethnic groups.',
       sv: 'Niger är ett landlockat Sahara-land i Västafrika, känt för uråldriga karavanvägar, Nigerfloden och olika etniska grupper.',
       es: 'Níger es un país sahariano sin salida al mar en África occidental, conocido por las antiguas rutas de caravanas, el río Níger y sus diversos grupos étnicos.',
-      fr: 'Le Niger est un pays saharien enclavé d’Afrique de l’Ouest, connu pour ses anciennes routes caravanières, le fleuve Niger et ses divers groupes ethniques.',
+      fr: 'Le Niger est un pays saharien enclavé d'Afrique de l'Ouest, connu pour ses anciennes routes caravanières, le fleuve Niger et ses divers groupes ethniques.',
       de: 'Niger ist ein Binnenstaat der Sahara in Westafrika, der für seine alten Karawanenrouten, den Fluss Niger und seine vielfältigen ethnischen Gruppen bekannt ist.',
       it: 'Niger is a landlocked Saharan country in West Africa, known for ancient caravan routes, the Niger River, and diverse ethnic groups.',
       pl: 'Niger is a landlocked Saharan country in West Africa, known for ancient caravan routes, the Niger River, and diverse ethnic groups.',

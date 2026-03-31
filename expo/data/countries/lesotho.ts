@@ -32,7 +32,7 @@ export const lesotho: Country = {
       sv: 'Lesotho är ett enklaverat land helt omgivet av Sydafrika, känt som "Kingdom in the Sky" för sin höga höjd.',
       es: 'Lesotho es un país enclave enteramente rodeado por Sudáfrica, conocido como el "Reino en el Cielo" por su gran altitud.',
       fr: 'Le Lesotho est un pays enclavé entièrement entouré par l\'Afrique du Sud, connu sous le nom de « Royaume dans le ciel » en raison de sa haute altitude.',
-      de: 'Lesotho ist ein eingeschlossenes Land, das vollständig von Südafrika umgeben ist und aufgrund seiner Höhenlage als „Königreich im Himmel“ bekannt ist.',
+      de: 'Lesotho ist ein eingeschlossenes Land, das vollständig von Südafrika umgeben ist und aufgrund seiner Höhenlage als „Königreich im Himmel" bekannt ist.',
       it: 'Lesotho is an enclaved country entirely surrounded by South Africa, known as the "Kingdom in the Sky" for its high altitude.',
       pl: 'Lesotho is an enclaved country entirely surrounded by South Africa, known as the "Kingdom in the Sky" for its high altitude.',
       nl: 'Lesotho is an enclaved country entirely surrounded by South Africa, known as the "Kingdom in the Sky" for its high altitude.',

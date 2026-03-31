@@ -1641,7 +1641,7 @@ export const dominicanRepublic: Country = {
           en: 'What is Mamajuana?',
           sv: 'Vad är Mamajuana?',
           es: '¿Qué es la mamajuana?',
-          fr: 'Qu’est-ce que Mamajuana ?',
+          fr: 'Qu'est-ce que Mamajuana ?',
           de: 'Was ist Mamajuana?',
           it: 'What is Mamajuana?',
           pl: 'What is Mamajuana?',

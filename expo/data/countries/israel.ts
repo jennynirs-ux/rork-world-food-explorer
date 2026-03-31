@@ -546,7 +546,7 @@ export const israel: Country = {
           en: 'Israeli engineer Simcha Blass invented modern drip irrigation, revolutionizing agriculture.',
           sv: 'Den israeliska ingenjören Simcha Blass uppfann modern droppbevattning, vilket revolutionerade jordbruket.',
           es: 'El ingeniero israelí Simcha Blass inventó el moderno riego por goteo, revolucionando la agricultura.',
-          fr: 'L’ingénieur israélien Simcha Blass a inventé l’irrigation goutte à goutte moderne, révolutionnant ainsi l’agriculture.',
+          fr: 'L'ingénieur israélien Simcha Blass a inventé l'irrigation goutte à goutte moderne, révolutionnant ainsi l'agriculture.',
           de: 'Der israelische Ingenieur Simcha Blass erfand die moderne Tropfbewässerung und revolutionierte damit die Landwirtschaft.',
           it: 'Israeli engineer Simcha Blass invented modern drip irrigation, revolutionizing agriculture.',
           pl: 'Israeli engineer Simcha Blass invented modern drip irrigation, revolutionizing agriculture.',

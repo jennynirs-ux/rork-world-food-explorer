@@ -282,7 +282,7 @@ export const haiti: Country = {
           en: 'First successful slave revolt leading to an independent nation, inspiring abolition movements worldwide.',
           sv: 'Första framgångsrika slavuppror som ledde till en oberoende nation, inspirerande avskaffande rörelser över hela världen.',
           es: 'Primera revuelta de esclavos exitosa que condujo a una nación independiente e inspiró movimientos abolicionistas en todo el mundo.',
-          fr: 'Première révolte d’esclaves réussie menant à une nation indépendante, inspirant les mouvements abolitionnistes dans le monde entier.',
+          fr: 'Première révolte d'esclaves réussie menant à une nation indépendante, inspirant les mouvements abolitionnistes dans le monde entier.',
           de: 'Erster erfolgreicher Sklavenaufstand, der zu einer unabhängigen Nation führte und Abschaffungsbewegungen weltweit inspirierte.',
           it: 'First successful slave revolt leading to an independent nation, inspiring abolition movements worldwide.',
           pl: 'First successful slave revolt leading to an independent nation, inspiring abolition movements worldwide.',
