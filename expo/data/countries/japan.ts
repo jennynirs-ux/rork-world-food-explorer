@@ -284,7 +284,7 @@ export const japan: Country = {
           en: 'The era of samurai warriors and shoguns. Japan was ruled by military leaders while the emperor remained a figurehead.',
           sv: 'Eran av samurajkrigare och shoguns. Japan styrdes av militära ledare medan kejsaren förblev en galjonsfigur.',
           es: 'La era de los guerreros samuráis y los shogunes. Japón estaba gobernado por líderes militares, mientras que el emperador seguía siendo una figura decorativa.',
-          fr: 'L\\'ère des guerriers samouraïs et des shoguns. Le Japon était gouverné par des chefs militaires tandis que l\'empereur restait une figure de proue.',
+          fr: 'L\'ère des guerriers samouraïs et des shoguns. Le Japon était gouverné par des chefs militaires tandis que l\'empereur restait une figure de proue.',
           de: 'Die Ära der Samurai-Krieger und Shogune. Japan wurde von Militärführern regiert, während der Kaiser ein Aushängeschild blieb.',
           it: 'The era of samurai warriors and shoguns. Japan was ruled by military leaders while the emperor remained a figurehead.',
           pl: 'The era of samurai warriors and shoguns. Japan was ruled by military leaders while the emperor remained a figurehead.',

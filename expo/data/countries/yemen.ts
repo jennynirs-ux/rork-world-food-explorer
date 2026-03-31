@@ -162,15 +162,15 @@ export const yemen: Country = {
     ],
     facts: [
       {
-        en: 'Sana\\'a is one of the world\'s oldest continuously inhabited cities',
+        en: 'Sana\'a is one of the world\'s oldest continuously inhabited cities',
         sv: 'Sana\'a är en av världens äldsta kontinuerligt bebodda städer',
         es: 'Saná es una de las ciudades continuamente habitadas más antiguas del mundo',
         fr: 'Sanaa est l\'une des plus anciennes villes habitées en permanence au monde',
         de: 'Sana\'a ist eine der ältesten durchgehend bewohnten Städte der Welt',
-        it: 'Sana\\'a is one of the world\'s oldest continuously inhabited cities',
-        pl: 'Sana\\'a is one of the world\'s oldest continuously inhabited cities',
-        nl: 'Sana\\'a is one of the world\'s oldest continuously inhabited cities',
-        pt: 'Sana\\'a is one of the world\'s oldest continuously inhabited cities',
+        it: 'Sana\'a is one of the world\'s oldest continuously inhabited cities',
+        pl: 'Sana\'a is one of the world\'s oldest continuously inhabited cities',
+        nl: 'Sana\'a is one of the world\'s oldest continuously inhabited cities',
+        pt: 'Sana\'a is one of the world\'s oldest continuously inhabited cities',
       },
       {
         en: 'Yemen is considered the birthplace of coffee (Mocha coffee)',

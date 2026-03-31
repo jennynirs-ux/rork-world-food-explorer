@@ -822,7 +822,7 @@ export const belgium: Country = {
           en: 'MUSSELS (clean): Rinse mussels under cold running water. Scrub shells if needed. Pull off beards. Discard any cracked mussels or any that stay open when tapped.',
           sv: 'MUSSLA (rena): Skölj musslorna under kallt rinnande vatten. Skrubba skal om det behövs. Dra av skägget. Kassera eventuella spruckna musslor eller andra som förblir öppna när de knackas.',
           es: 'MEJILLONES (limpios): Enjuague los mejillones con agua corriente fría. Frote las conchas si es necesario. Quítate las barbas. Deseche los mejillones partidos o los que queden abiertos al golpearlos.',
-          fr: 'MOULES (propres) : Rincer les moules sous l\\'eau froide courante. Frottez les coquilles si nécessaire. Arrachez la barbe. Jetez toutes les moules concassées ou celles qui restent ouvertes lorsqu\'on les tape.',
+          fr: 'MOULES (propres) : Rincer les moules sous l\'eau froide courante. Frottez les coquilles si nécessaire. Arrachez la barbe. Jetez toutes les moules concassées ou celles qui restent ouvertes lorsqu\'on les tape.',
           de: 'MUSCHELN (sauber): Spülen Sie die Muscheln unter fließendem kaltem Wasser ab. Bei Bedarf Muscheln schrubben. Bärte abziehen. Entsorgen Sie alle angebrochenen Muscheln oder solche, die beim Klopfen offen bleiben.',
           it: 'MUSSELS (clean): Rinse mussels under cold running water. Scrub shells if needed. Pull off beards. Discard any cracked mussels or any that stay open when tapped.',
           pl: 'MUSSELS (clean): Rinse mussels under cold running water. Scrub shells if needed. Pull off beards. Discard any cracked mussels or any that stay open when tapped.',

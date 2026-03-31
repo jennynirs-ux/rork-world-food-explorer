@@ -31,7 +31,7 @@ export const malawi: Country = {
       en: 'Malawi, the "Warm Heart of Africa," is known for Lake Malawi, friendly people, and stunning landscapes. A peaceful country with incredible freshwater diving and diverse wildlife.',
       sv: 'Malawi, "Afrikas varma hjärta", är känt för Malawisjön, vänliga människor och fantastiska landskap. Ett fridfullt land med otrolig sötvattensdykning och ett varierat djurliv.',
       es: 'Malawi, el "corazón cálido de África", es conocido por el lago Malawi, su gente amable y sus impresionantes paisajes. Un país pacífico con increíble buceo en agua dulce y diversa vida silvestre.',
-      fr: 'Le Malawi, le « cœur chaud de l\\'Afrique », est connu pour le lac Malawi, ses habitants sympathiques et ses paysages époustouflants. Un pays paisible avec d\'incroyables plongées en eau douce et une faune diversifiée.',
+      fr: 'Le Malawi, le « cœur chaud de l\'Afrique », est connu pour le lac Malawi, ses habitants sympathiques et ses paysages époustouflants. Un pays paisible avec d\'incroyables plongées en eau douce et une faune diversifiée.',
       de: 'Malawi, das „warme Herz Afrikas", ist bekannt für den Malawisee, freundliche Menschen und atemberaubende Landschaften. Ein friedliches Land mit unglaublichem Süßwassertauchen und vielfältiger Tierwelt.',
       it: 'Malawi, the "Warm Heart of Africa," is known for Lake Malawi, friendly people, and stunning landscapes. A peaceful country with incredible freshwater diving and diverse wildlife.',
       pl: 'Malawi, the "Warm Heart of Africa," is known for Lake Malawi, friendly people, and stunning landscapes. A peaceful country with incredible freshwater diving and diverse wildlife.',

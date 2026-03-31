@@ -31,7 +31,7 @@ export const coteDivoire: Country = {
       en: 'Côte d\'Ivoire (Ivory Coast) is the world\'s largest cocoa producer with vibrant culture and beautiful beaches. A blend of French colonial heritage and diverse African traditions.',
       sv: 'Elfenbenskusten (Elfenbenskusten) är världens största kakaoproducent med levande kultur och vackra stränder. En blandning av franskt kolonialt arv och olika afrikanska traditioner.',
       es: 'Costa de Marfil (Costa de Marfil) es el mayor productor de cacao del mundo con una cultura vibrante y hermosas playas. Una mezcla de herencia colonial francesa y diversas tradiciones africanas.',
-      fr: 'La Côte d\\'Ivoire (Côte d\\'Ivoire) est le plus grand producteur mondial de cacao avec une culture dynamique et de belles plages. Un mélange d\'héritage colonial français et de diverses traditions africaines.',
+      fr: 'La Côte d\'Ivoire (Côte d\'Ivoire) est le plus grand producteur mondial de cacao avec une culture dynamique et de belles plages. Un mélange d\'héritage colonial français et de diverses traditions africaines.',
       de: 'Côte d\'Ivoire (Elfenbeinküste) ist der weltweit größte Kakaoproduzent mit lebendiger Kultur und wunderschönen Stränden. Eine Mischung aus französischem Kolonialerbe und vielfältigen afrikanischen Traditionen.',
       it: 'Côte d\'Ivoire (Ivory Coast) is the world\'s largest cocoa producer with vibrant culture and beautiful beaches. A blend of French colonial heritage and diverse African traditions.',
       pl: 'Côte d\'Ivoire (Ivory Coast) is the world\'s largest cocoa producer with vibrant culture and beautiful beaches. A blend of French colonial heritage and diverse African traditions.',

@@ -604,7 +604,7 @@ export const bulgaria: Country = {
           en: 'EU citizens visa-free. Many nationalities can visit up to 90 days without visa.',
           sv: 'EU-medborgare är visumfria. Många nationaliteter kan besöka upp till 90 dagar utan visum.',
           es: 'Ciudadanos de la UE sin visa. Muchas nacionalidades pueden visitar hasta 90 días sin visa.',
-          fr: 'Citoyens de l\'UE sans visa. De nombreuses nationalités peuvent séjourner jusqu\\'à 90 jours sans visa.',
+          fr: 'Citoyens de l\'UE sans visa. De nombreuses nationalités peuvent séjourner jusqu\'à 90 jours sans visa.',
           de: 'EU-Bürger sind visumfrei. Viele Nationalitäten können bis zu 90 Tage ohne Visum einreisen.',
           it: 'EU citizens visa-free. Many nationalities can visit up to 90 days without visa.',
           pl: 'EU citizens visa-free. Many nationalities can visit up to 90 days without visa.',

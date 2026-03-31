@@ -544,7 +544,7 @@ export const slovenia: Country = {
           en: 'Schengen visa rules apply. EU citizens and many others can visit visa-free for short stays.',
           sv: 'Schengenvisumregler gäller. EU-medborgare och många andra kan besöka visumfritt för kortare vistelser.',
           es: 'Se aplican las normas de visa Schengen. Los ciudadanos de la UE y muchos otros pueden visitarla sin visa para estancias cortas.',
-          fr: 'Les règles relatives aux visas Schengen s\\'appliquent. Les citoyens de l\'UE et bien d\'autres peuvent s\'y rendre sans visa pour de courts séjours.',
+          fr: 'Les règles relatives aux visas Schengen s\'appliquent. Les citoyens de l\'UE et bien d\'autres peuvent s\'y rendre sans visa pour de courts séjours.',
           de: 'Es gelten die Schengen-Visabestimmungen. EU-Bürger und viele andere können für Kurzaufenthalte ohne Visum einreisen.',
           it: 'Schengen visa rules apply. EU citizens and many others can visit visa-free for short stays.',
           pl: 'Schengen visa rules apply. EU citizens and many others can visit visa-free for short stays.',

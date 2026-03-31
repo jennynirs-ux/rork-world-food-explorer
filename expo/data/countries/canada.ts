@@ -568,7 +568,7 @@ export const canada: Country = {
           en: 'Even summer evenings can be cool; winter requires serious cold-weather gear.',
           sv: 'Även sommarkvällar kan vara svala; vintern kräver seriös kallvädersutrustning.',
           es: 'Incluso las noches de verano pueden ser frescas; El invierno requiere equipo serio para el clima frío.',
-          fr: 'Même les soirées d\\'été peuvent être fraîches ; l\'hiver nécessite un équipement sérieux pour temps froid.',
+          fr: 'Même les soirées d\'été peuvent être fraîches ; l\'hiver nécessite un équipement sérieux pour temps froid.',
           de: 'Sogar Sommerabende können kühl sein; Der Winter erfordert ernsthafte Kaltwetterausrüstung.',
           it: 'Even summer evenings can be cool; winter requires serious cold-weather gear.',
           pl: 'Even summer evenings can be cool; winter requires serious cold-weather gear.',
