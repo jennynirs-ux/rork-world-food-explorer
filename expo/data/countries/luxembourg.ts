@@ -459,7 +459,7 @@ export const luxembourg: Country = {
           en: 'EU member, Schengen visa rules apply.',
           sv: 'EU-medlem, Schengenvisumregler gäller.',
           es: 'Miembro de la UE, se aplican las normas de visa Schengen.',
-          fr: 'Membre de l'UE, les règles relatives aux visas Schengen s'appliquent.',
+          fr: 'Membre de l\'UE, les règles relatives aux visas Schengen s\'appliquent.',
           de: 'Für EU-Mitglieder gelten die Schengen-Visabestimmungen.',
           it: 'EU member, Schengen visa rules apply.',
           pl: 'EU member, Schengen visa rules apply.',
@@ -953,19 +953,19 @@ export const luxembourg: Country = {
       nonAlcoholic: 'Apple juice, Mineral water',
     },
     music: [
-      { en: 'Traditional folk music', sv: 'Traditionell folkmusik', de: 'Traditionelle Volksmusik', fr: 'Musique folk traditionnelle', es: 'Música folclórica tradicional', it: 'Musica folk tradizionale', pl: 'Tradycyjna muzyka ludowa', nl: 'Traditionele volksmuziek', pt: 'Música folclórica tradicional' },
-      { en: 'Classical concerts', sv: 'Klassiska konserter', de: 'Klassische Konzerte', fr: 'Concerts classiques', es: 'Conciertos clásicos', it: 'Concerti classici', pl: 'Koncerty klasyczne', nl: 'Klassieke concerten', pt: 'Concertos clássicos' },
-      { en: 'European pop', sv: 'Europeisk pop', de: 'Europäischer Pop', fr: 'Pop européen', es: 'Pop europeo', it: 'Pop europeo', pl: 'Europejski pop', nl: 'Europese pop', pt: 'Pop europeu' },
+      { en: 'Traditional folk music\', sv: \'Traditionell folkmusik\', de: \'Traditionelle Volksmusik\', fr: \'Musique folk traditionnelle\', es: \'Música folclórica tradicional\', it: \'Musica folk tradizionale\', pl: \'Tradycyjna muzyka ludowa\', nl: \'Traditionele volksmuziek\', pt: \'Música folclórica tradicional' },
+      { en: 'Classical concerts\', sv: \'Klassiska konserter\', de: \'Klassische Konzerte\', fr: \'Concerts classiques\', es: \'Conciertos clásicos\', it: \'Concerti classici\', pl: \'Koncerty klasyczne\', nl: \'Klassieke concerten\', pt: \'Concertos clássicos' },
+      { en: 'European pop\', sv: \'Europeisk pop\', de: \'Europäischer Pop\', fr: \'Pop européen\', es: \'Pop europeo\', it: \'Pop europeo\', pl: \'Europejski pop\', nl: \'Europese pop\', pt: \'Pop europeu' },
     ],
     decorationIdeas: [
-      { en: 'Red, white and blue flag colors', sv: 'Röda, vita och blå flaggfärger', de: 'Rote, weiße und blaue Flaggenfarben', fr: 'Couleurs du drapeau rouge, blanc et bleu', es: 'Colores de la bandera rojo, blanco y azul', it: 'Colori della bandiera rosso, bianco e blu', pl: 'Czerwone, białe i niebieskie kolory flagi', nl: 'Rode, witte en blauwe vlagkleuren', pt: 'Cores da bandeira vermelho, branco e azul' },
-      { en: 'Castle and fortress imagery', sv: 'Slotts- och fästningsbilder', de: 'Schloss- und Festungsmotive', fr: 'Images de châteaux et forteresses', es: 'Imágenes de castillos y fortalezas', it: 'Immagini di castelli e fortezze', pl: 'Motywy zamków i twierdz', nl: 'Kasteel en vestingbeelden', pt: 'Imagens de castelos e fortalezas' },
-      { en: 'European architectural elements', sv: 'Europeiska arkitektoniska element', de: 'Europäische Architekturelemente', fr: 'Éléments architecturaux européens', es: 'Elementos arquitectónicos europeos', it: 'Elementi architettonici europei', pl: 'Europejskie elementy architektoniczne', nl: 'Europese architectonische elementen', pt: 'Elementos arquitetônicos europeus' },
-      { en: 'Wine region themes', sv: 'Vinregions-teman', de: 'Weinregion-Themen', fr: 'Thèmes de région viticole', es: 'Temas de región vitivinícola', it: 'Temi di regione vinicola', pl: 'Motywy regionu winiarskiego', nl: 'Wijnstreek thema\'s', pt: 'Temas de região vinícola' },
+      { en: 'Red, white and blue flag colors\', sv: \'Röda, vita och blå flaggfärger\', de: \'Rote, weiße und blaue Flaggenfarben\', fr: \'Couleurs du drapeau rouge, blanc et bleu\', es: \'Colores de la bandera rojo, blanco y azul\', it: \'Colori della bandiera rosso, bianco e blu\', pl: \'Czerwone, białe i niebieskie kolory flagi\', nl: \'Rode, witte en blauwe vlagkleuren\', pt: \'Cores da bandeira vermelho, branco e azul' },
+      { en: 'Castle and fortress imagery\', sv: \'Slotts- och fästningsbilder\', de: \'Schloss- und Festungsmotive\', fr: \'Images de châteaux et forteresses\', es: \'Imágenes de castillos y fortalezas\', it: \'Immagini di castelli e fortezze\', pl: \'Motywy zamków i twierdz\', nl: \'Kasteel en vestingbeelden\', pt: \'Imagens de castelos e fortalezas' },
+      { en: 'European architectural elements\', sv: \'Europeiska arkitektoniska element\', de: \'Europäische Architekturelemente\', fr: \'Éléments architecturaux européens\', es: \'Elementos arquitectónicos europeos\', it: \'Elementi architettonici europei\', pl: \'Europejskie elementy architektoniczne\', nl: \'Europese architectonische elementen\', pt: \'Elementos arquitetônicos europeus' },
+      { en: 'Wine region themes\', sv: \'Vinregions-teman\', de: \'Weinregion-Themen\', fr: \'Thèmes de région viticole\', es: \'Temas de región vitivinícola\', it: \'Temi di regione vinicola\', pl: \'Motywy regionu winiarskiego\', nl: \'Wijnstreek thema\'s\', pt: \'Temas de região vinícola' },
     ],
     conversationStarters: [
-      { en: 'Have you visited Luxembourg\'s old town?', sv: 'Har du besökt Luxemburgs gamla stad?', de: 'Hast du die Altstadt von Luxemburg besucht?', fr: 'Avez-vous visité la vieille ville de Luxembourg?', es: '¿Has visitado el casco antiguo de Luxemburgo?', it: 'Hai visitato il centro storico del Lussemburgo?', pl: 'Czy odwiedziłeś stare miasto Luksemburga?', nl: 'Heb je de oude stad van Luxemburg bezocht?', pt: 'Você já visitou a cidade velha de Luxemburgo?' },
-      { en: 'What do you know about EU institutions?', sv: 'Vad vet du om EU:s institutioner?', de: 'Was weißt du über EU-Institutionen?', fr: 'Que savez-vous des institutions de l\'UE?', es: '¿Qué sabes sobre las instituciones de la UE?', it: 'Cosa sai delle istituzioni dell\'UE?', pl: 'Co wiesz o instytucjach UE?', nl: 'Wat weet je over EU-instellingen?', pt: 'O que você sabe sobre as instituições da UE?' },
+      { en: 'Have you visited Luxembourg\'s old town?\', sv: \'Har du besökt Luxemburgs gamla stad?\', de: \'Hast du die Altstadt von Luxemburg besucht?\', fr: \'Avez-vous visité la vieille ville de Luxembourg?\', es: \'¿Has visitado el casco antiguo de Luxemburgo?\', it: \'Hai visitato il centro storico del Lussemburgo?\', pl: \'Czy odwiedziłeś stare miasto Luksemburga?\', nl: \'Heb je de oude stad van Luxemburg bezocht?\', pt: \'Você já visitou a cidade velha de Luxemburgo?' },
+      { en: 'What do you know about EU institutions?\', sv: \'Vad vet du om EU:s institutioner?\', de: \'Was weißt du über EU-Institutionen?\', fr: \'Que savez-vous des institutions de l\'UE?\', es: \'¿Qué sabes sobre las instituciones de la UE?\', it: \'Cosa sai delle istituzioni dell\'UE?\', pl: \'Co wiesz o instytucjach UE?\', nl: \'Wat weet je over EU-instellingen?\', pt: \'O que você sabe sobre as instituições da UE?' },
     ],
     quiz: [
       {

@@ -855,20 +855,20 @@ export const dominica: Country = {
       nonAlcoholic: 'Coconut water, Sorrel, Fresh juice',
     },
     music: [
-      { en: 'Cadence-lypso', sv: 'Cadence-lypso', de: 'Cadence-lypso', fr: 'Cadence-lypso', es: 'Cadence-lypso', it: 'Cadence-lypso', pl: 'Cadence-lypso', nl: 'Cadence-lypso', pt: 'Cadence-lypso' },
-      { en: 'Bouyon', sv: 'Bouyon', de: 'Bouyon', fr: 'Bouyon', es: 'Bouyon', it: 'Bouyon', pl: 'Bouyon', nl: 'Bouyon', pt: 'Bouyon' },
-      { en: 'Jing ping', sv: 'Jing ping', de: 'Jing ping', fr: 'Jing ping', es: 'Jing ping', it: 'Jing ping', pl: 'Jing ping', nl: 'Jing ping', pt: 'Jing ping' },
-      { en: 'Reggae', sv: 'Reggae', de: 'Reggae', fr: 'Reggae', es: 'Reggae', it: 'Reggae', pl: 'Reggae', nl: 'Reggae', pt: 'Reggae' },
+      { en: 'Cadence-lypso\', sv: \'Cadence-lypso\', de: \'Cadence-lypso\', fr: \'Cadence-lypso\', es: \'Cadence-lypso\', it: \'Cadence-lypso\', pl: \'Cadence-lypso\', nl: \'Cadence-lypso\', pt: \'Cadence-lypso' },
+      { en: 'Bouyon\', sv: \'Bouyon\', de: \'Bouyon\', fr: \'Bouyon\', es: \'Bouyon\', it: \'Bouyon\', pl: \'Bouyon\', nl: \'Bouyon\', pt: \'Bouyon' },
+      { en: 'Jing ping\', sv: \'Jing ping\', de: \'Jing ping\', fr: \'Jing ping\', es: \'Jing ping\', it: \'Jing ping\', pl: \'Jing ping\', nl: \'Jing ping\', pt: \'Jing ping' },
+      { en: 'Reggae\', sv: \'Reggae\', de: \'Reggae\', fr: \'Reggae\', es: \'Reggae\', it: \'Reggae\', pl: \'Reggae\', nl: \'Reggae\', pt: \'Reggae' },
     ],
     decorationIdeas: [
-      { en: 'Green, yellow, black, white and red flag colors', sv: 'Gröna, gula, svarta, vita och röda flaggfärger', de: 'Grüne, gelbe, schwarze, weiße und rote Flaggenfarben', fr: 'Couleurs vert, jaune, noir, blanc et rouge du drapeau', es: 'Colores verde, amarillo, negro, blanco y rojo de la bandera', it: 'Colori verde, giallo, nero, bianco e rosso della bandiera', pl: 'Zielone, żółte, czarne, białe i czerwone kolory flagi', nl: 'Groen, geel, zwart, wit en rood van de vlag', pt: 'Cores verde, amarelo, preto, branco e vermelho da bandeira' },
-      { en: 'Tropical rainforest themes', sv: 'Tropiska regnskogsteman', de: 'Tropische Regenwaldthemen', fr: 'Thèmes de forêt tropicale', es: 'Temas de selva tropical', it: 'Temi della foresta pluviale tropicale', pl: 'Motywy tropikalnego lasu deszczowego', nl: 'Tropisch regenwoudthema\'s', pt: 'Temas de floresta tropical' },
-      { en: 'Waterfall imagery', sv: 'Vattenfallsbilder', de: 'Wasserfallbilder', fr: 'Images de cascades', es: 'Imágenes de cascadas', it: 'Immagini di cascate', pl: 'Obrazy wodospadów', nl: 'Watervalbeelden', pt: 'Imagens de cachoeiras' },
-      { en: 'Kalinago crafts', sv: 'Kalinagohantverk', de: 'Kalinago-Handwerk', fr: 'Artisanat kalinago', es: 'Artesanías kalinago', it: 'Artigianato kalinago', pl: 'Rzemiosło Kalinago', nl: 'Kalinago ambachten', pt: 'Artesanato kalinago' },
+      { en: 'Green, yellow, black, white and red flag colors\', sv: \'Gröna, gula, svarta, vita och röda flaggfärger\', de: \'Grüne, gelbe, schwarze, weiße und rote Flaggenfarben\', fr: \'Couleurs vert, jaune, noir, blanc et rouge du drapeau\', es: \'Colores verde, amarillo, negro, blanco y rojo de la bandera\', it: \'Colori verde, giallo, nero, bianco e rosso della bandiera\', pl: \'Zielone, żółte, czarne, białe i czerwone kolory flagi\', nl: \'Groen, geel, zwart, wit en rood van de vlag\', pt: \'Cores verde, amarelo, preto, branco e vermelho da bandeira' },
+      { en: 'Tropical rainforest themes\', sv: \'Tropiska regnskogsteman\', de: \'Tropische Regenwaldthemen\', fr: \'Thèmes de forêt tropicale\', es: \'Temas de selva tropical\', it: \'Temi della foresta pluviale tropicale\', pl: \'Motywy tropikalnego lasu deszczowego\', nl: \'Tropisch regenwoudthema\'s\', pt: \'Temas de floresta tropical' },
+      { en: 'Waterfall imagery\', sv: \'Vattenfallsbilder\', de: \'Wasserfallbilder\', fr: \'Images de cascades\', es: \'Imágenes de cascadas\', it: \'Immagini di cascate\', pl: \'Obrazy wodospadów\', nl: \'Watervalbeelden\', pt: \'Imagens de cachoeiras' },
+      { en: 'Kalinago crafts\', sv: \'Kalinagohantverk\', de: \'Kalinago-Handwerk\', fr: \'Artisanat kalinago\', es: \'Artesanías kalinago\', it: \'Artigianato kalinago\', pl: \'Rzemiosło Kalinago\', nl: \'Kalinago ambachten\', pt: \'Artesanato kalinago' },
     ],
     conversationStarters: [
-      { en: 'Have you experienced Caribbean nature?', sv: 'Har du upplevt karibisk natur?', de: 'Haben Sie die karibische Natur erlebt?', fr: 'Avez-vous découvert la nature des Caraïbes ?', es: '¿Has experimentado la naturaleza del Caribe?', it: 'Hai vissuto la natura caraibica?', pl: 'Czy doświadczyłeś karaibskiej przyrody?', nl: 'Heb je de Caribische natuur meegemaakt?', pt: 'Você já experimentou a natureza caribenha?' },
-      { en: 'Do you enjoy rainforest hiking?', sv: 'Gillar du vandring i regnskogen?', de: 'Mögen Sie Regenwaldwanderungen?', fr: 'Aimez-vous la randonnée en forêt tropicale ?', es: '¿Disfrutas de la senderismo en la selva tropical?', it: 'Ti piace fare trekking nella foresta pluviale?', pl: 'Czy lubisz wędrówki po lesie deszczowym?', nl: 'Houd je van wandelen in het regenwoud?', pt: 'Você gosta de trilha na floresta tropical?' },
+      { en: 'Have you experienced Caribbean nature?\', sv: \'Har du upplevt karibisk natur?\', de: \'Haben Sie die karibische Natur erlebt?\', fr: \'Avez-vous découvert la nature des Caraïbes ?\', es: \'¿Has experimentado la naturaleza del Caribe?\', it: \'Hai vissuto la natura caraibica?\', pl: \'Czy doświadczyłeś karaibskiej przyrody?\', nl: \'Heb je de Caribische natuur meegemaakt?\', pt: \'Você já experimentou a natureza caribenha?' },
+      { en: 'Do you enjoy rainforest hiking?\', sv: \'Gillar du vandring i regnskogen?\', de: \'Mögen Sie Regenwaldwanderungen?\', fr: \'Aimez-vous la randonnée en forêt tropicale ?\', es: \'¿Disfrutas de la senderismo en la selva tropical?\', it: \'Ti piace fare trekking nella foresta pluviale?\', pl: \'Czy lubisz wędrówki po lesie deszczowym?\', nl: \'Houd je van wandelen in het regenwoud?\', pt: \'Você gosta de trilha na floresta tropical?' },
     ],
     innovations: [
       {

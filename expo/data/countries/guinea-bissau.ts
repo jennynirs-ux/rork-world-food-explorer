@@ -949,19 +949,19 @@ export const guineaBissau: Country = {
       nonAlcoholic: 'Bissap, Fresh coconut water',
     },
     music: [
-      { en: 'Gumbé music', sv: 'Gumbé-musik', de: 'Gumbé-Musik', fr: 'Musique gumbé', es: 'Música gumbé', it: 'Musica gumbé', pl: 'Muzyka gumbé', nl: 'Gumbé-muziek', pt: 'Música gumbé' },
-      { en: 'Traditional balanta rhythms', sv: 'Traditionella balantarytmer', de: 'Traditionelle Balanta-Rhythmen', fr: 'Rythmes balanta traditionnels', es: 'Ritmos balanta tradicionales', it: 'Ritmi balanta tradizionali', pl: 'Tradycyjne rytmy balanta', nl: 'Traditionele balanta ritmes', pt: 'Ritmos balanta tradicionais' },
-      { en: 'Portuguese-influenced songs', sv: 'Portugisiskinfluerade sånger', de: 'Portugiesisch beeinflusste Lieder', fr: 'Chansons d\'influence portugaise', es: 'Canciones de influencia portuguesa', it: 'Canzoni con influenza portoghese', pl: 'Pieśni z wpływami portugalskimi', nl: 'Portugees beïnvloede liedjes', pt: 'Canções com influência portuguesa' },
+      { en: 'Gumbé music\', sv: \'Gumbé-musik\', de: \'Gumbé-Musik\', fr: \'Musique gumbé\', es: \'Música gumbé\', it: \'Musica gumbé\', pl: \'Muzyka gumbé\', nl: \'Gumbé-muziek\', pt: \'Música gumbé' },
+      { en: 'Traditional balanta rhythms\', sv: \'Traditionella balantarytmer\', de: \'Traditionelle Balanta-Rhythmen\', fr: \'Rythmes balanta traditionnels\', es: \'Ritmos balanta tradicionales\', it: \'Ritmi balanta tradizionali\', pl: \'Tradycyjne rytmy balanta\', nl: \'Traditionele balanta ritmes\', pt: \'Ritmos balanta tradicionais' },
+      { en: 'Portuguese-influenced songs\', sv: \'Portugisiskinfluerade sånger\', de: \'Portugiesisch beeinflusste Lieder\', fr: \'Chansons d\'influence portugaise\', es: \'Canciones de influencia portuguesa\', it: \'Canzoni con influenza portoghese\', pl: \'Pieśni z wpływami portugalskimi\', nl: \'Portugees beïnvloede liedjes\', pt: \'Canções com influência portuguesa' },
     ],
     decorationIdeas: [
-      { en: 'Red, yellow, green and black flag colors', sv: 'Röda, gula, gröna och svarta flaggfärger', de: 'Rot, Gelb, Grün und Schwarz (Flaggenfarben)', fr: 'Couleurs du drapeau rouge, jaune, vert et noir', es: 'Colores de la bandera rojo, amarillo, verde y negro', it: 'Colori della bandiera rosso, giallo, verde e nero', pl: 'Czerwone, żółte, zielone i czarne kolory flagi', nl: 'Rood, geel, groen en zwart (vlagkleuren)', pt: 'Cores da bandeira vermelho, amarelo, verde e preto' },
-      { en: 'Cashew motifs', sv: 'Cashewmotiv', de: 'Cashewnuss-Motive', fr: 'Motifs de noix de cajou', es: 'Motivos de anacardo', it: 'Motivi di anacardio', pl: 'Motywy nerkowca', nl: 'Cashew motieven', pt: 'Motivos de caju' },
-      { en: 'Island and coastal themes', sv: 'Ö- och kustteman', de: 'Insel- und Küstenthemen', fr: 'Thèmes d\'île et côtiers', es: 'Temas de isla y costeros', it: 'Temi insulari e costieri', pl: 'Motywy wyspy i wybrzeża', nl: 'Eiland- en kustthema\'s', pt: 'Temas de ilha e costeiros' },
-      { en: 'Traditional masks', sv: 'Traditionella masker', de: 'Traditionelle Masken', fr: 'Masques traditionnels', es: 'Máscaras tradicionales', it: 'Maschere tradizionali', pl: 'Tradycyjne maski', nl: 'Traditionele maskers', pt: 'Máscaras tradicionais' },
+      { en: 'Red, yellow, green and black flag colors\', sv: \'Röda, gula, gröna och svarta flaggfärger\', de: \'Rot, Gelb, Grün und Schwarz (Flaggenfarben)\', fr: \'Couleurs du drapeau rouge, jaune, vert et noir\', es: \'Colores de la bandera rojo, amarillo, verde y negro\', it: \'Colori della bandiera rosso, giallo, verde e nero\', pl: \'Czerwone, żółte, zielone i czarne kolory flagi\', nl: \'Rood, geel, groen en zwart (vlagkleuren)\', pt: \'Cores da bandeira vermelho, amarelo, verde e preto' },
+      { en: 'Cashew motifs\', sv: \'Cashewmotiv\', de: \'Cashewnuss-Motive\', fr: \'Motifs de noix de cajou\', es: \'Motivos de anacardo\', it: \'Motivi di anacardio\', pl: \'Motywy nerkowca\', nl: \'Cashew motieven\', pt: \'Motivos de caju' },
+      { en: 'Island and coastal themes\', sv: \'Ö- och kustteman\', de: \'Insel- und Küstenthemen\', fr: \'Thèmes d\'île et côtiers\', es: \'Temas de isla y costeros\', it: \'Temi insulari e costieri\', pl: \'Motywy wyspy i wybrzeża\', nl: \'Eiland- en kustthema\'s\', pt: \'Temas de ilha e costeiros' },
+      { en: 'Traditional masks\', sv: \'Traditionella masker\', de: \'Traditionelle Masken\', fr: \'Masques traditionnels\', es: \'Máscaras tradicionales\', it: \'Maschere tradizionali\', pl: \'Tradycyjne maski\', nl: \'Traditionele maskers\', pt: \'Máscaras tradicionais' },
     ],
     conversationStarters: [
-      { en: 'Have you tried cashew fruit?', sv: 'Har du provat cashewfrukt?', de: 'Hast du Cashewfrucht probiert?', fr: 'Avez-vous essayé le fruit de cajou ?', es: '¿Has probado la fruta del anacardo?', it: 'Hai provato il frutto dell\'anacardio?', pl: 'Czy próbowałeś owocu nerkowca?', nl: 'Heb je cashewvrucht geprobeerd?', pt: 'Você já experimentou o fruto do caju?' },
-      { en: 'What do you know about African island culture?', sv: 'Vad vet du om afrikansk ökultur?', de: 'Was weißt du über afrikanische Inselkultur?', fr: 'Que savez-vous de la culture insulaire africaine ?', es: '¿Qué sabes sobre la cultura isleña africana?', it: 'Cosa sai della cultura insulare africana?', pl: 'Co wiesz o afrykańskiej kulturze wyspiarskiej?', nl: 'Wat weet je over Afrikaanse eilandcultuur?', pt: 'O que você sabe sobre a cultura insular africana?' },
+      { en: 'Have you tried cashew fruit?\', sv: \'Har du provat cashewfrukt?\', de: \'Hast du Cashewfrucht probiert?\', fr: \'Avez-vous essayé le fruit de cajou ?\', es: \'¿Has probado la fruta del anacardo?\', it: \'Hai provato il frutto dell\'anacardio?\', pl: \'Czy próbowałeś owocu nerkowca?\', nl: \'Heb je cashewvrucht geprobeerd?\', pt: \'Você já experimentou o fruto do caju?' },
+      { en: 'What do you know about African island culture?\', sv: \'Vad vet du om afrikansk ökultur?\', de: \'Was weißt du über afrikanische Inselkultur?\', fr: \'Que savez-vous de la culture insulaire africaine ?\', es: \'¿Qué sabes sobre la cultura isleña africana?\', it: \'Cosa sai della cultura insulare africana?\', pl: \'Co wiesz o afrykańskiej kulturze wyspiarskiej?\', nl: \'Wat weet je over Afrikaanse eilandcultuur?\', pt: \'O que você sabe sobre a cultura insular africana?' },
     ],
     quiz: [
       {
@@ -1092,7 +1092,7 @@ export const guineaBissau: Country = {
           en: 'What is the Bijagós Archipelago?',
           sv: 'Vad är Bijagós skärgård?',
           es: '¿Qué es el archipiélago de Bijagós?',
-          fr: 'Qu'est-ce que l'archipel des Bijagós ?',
+          fr: 'Qu\'est-ce que l\'archipel des Bijagós ?',
           de: 'Was ist der Bijagós-Archipel?',
           it: 'What is the Bijagós Archipelago?',
           pl: 'What is the Bijagós Archipelago?',

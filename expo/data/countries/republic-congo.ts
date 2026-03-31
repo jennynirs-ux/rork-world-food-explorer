@@ -869,19 +869,19 @@ export const republicCongo: Country = {
       nonAlcoholic: 'Ginger juice, Bissap',
     },
     music: [
-      { en: 'Soukous', sv: 'Soukous', de: 'Soukous', fr: 'Soukous', es: 'Soukous', it: 'Soukous', pl: 'Soukous', nl: 'Soukous', pt: 'Soukous' },
-      { en: 'Rumba Congolaise', sv: 'Rumba Congolaise', de: 'Rumba Congolaise', fr: 'Rumba Congolaise', es: 'Rumba Congolaise', it: 'Rumba Congolaise', pl: 'Rumba Congolaise', nl: 'Rumba Congolaise', pt: 'Rumba Congolaise' },
-      { en: 'Traditional rhythms', sv: 'Traditionella rytmer', de: 'Traditionelle Rhythmen', fr: 'Rythmes traditionnels', es: 'Ritmos tradicionales', it: 'Ritmi tradizionali', pl: 'Tradycyjne rytmy', nl: 'Traditionele ritmes', pt: 'Ritmos tradicionais' },
+      { en: 'Soukous\', sv: \'Soukous\', de: \'Soukous\', fr: \'Soukous\', es: \'Soukous\', it: \'Soukous\', pl: \'Soukous\', nl: \'Soukous\', pt: \'Soukous' },
+      { en: 'Rumba Congolaise\', sv: \'Rumba Congolaise\', de: \'Rumba Congolaise\', fr: \'Rumba Congolaise\', es: \'Rumba Congolaise\', it: \'Rumba Congolaise\', pl: \'Rumba Congolaise\', nl: \'Rumba Congolaise\', pt: \'Rumba Congolaise' },
+      { en: 'Traditional rhythms\', sv: \'Traditionella rytmer\', de: \'Traditionelle Rhythmen\', fr: \'Rythmes traditionnels\', es: \'Ritmos tradicionales\', it: \'Ritmi tradizionali\', pl: \'Tradycyjne rytmy\', nl: \'Traditionele ritmes\', pt: \'Ritmos tradicionais' },
     ],
     decorationIdeas: [
-      { en: 'Green, yellow and red flag colors', sv: 'Gröna, gula och röda flaggfärger', de: 'Grüne, gelbe und rote Flaggenfarben', fr: 'Couleurs du drapeau vert, jaune et rouge', es: 'Colores de la bandera verde, amarillo y rojo', it: 'Colori della bandiera verde, giallo e rosso', pl: 'Zielone, żółte i czerwone kolory flagi', nl: 'Groene, gele en rode vlagkleuren', pt: 'Cores da bandeira verde, amarelo e vermelho' },
-      { en: 'Sapeur fashion imagery', sv: 'Sapeur-modebilder', de: 'Sapeur-Mode-Bilder', fr: 'Images de la mode Sapeur', es: 'Imágenes de la moda Sapeur', it: 'Immagini della moda Sapeur', pl: 'Zdjęcia mody Sapeur', nl: 'Sapeur mode-afbeeldingen', pt: 'Imagens de moda Sapeur' },
-      { en: 'Rainforest themes', sv: 'Regnskogsteman', de: 'Regenwald-Themen', fr: 'Thèmes de forêt tropicale', es: 'Temática de selva tropical', it: 'Temi della foresta pluviale', pl: 'Motywy lasów deszczowych', nl: 'Regenwoud-thema\'s', pt: 'Temas de floresta tropical' },
-      { en: 'Congo River scenes', sv: 'Kongoflodscener', de: 'Kongo-Fluss-Szenen', fr: 'Scènes du fleuve Congo', es: 'Escenas del río Congo', it: 'Scene del fiume Congo', pl: 'Sceny rzeki Kongo', nl: 'Congo rivier-scènes', pt: 'Cenas do Rio Congo' },
+      { en: 'Green, yellow and red flag colors\', sv: \'Gröna, gula och röda flaggfärger\', de: \'Grüne, gelbe und rote Flaggenfarben\', fr: \'Couleurs du drapeau vert, jaune et rouge\', es: \'Colores de la bandera verde, amarillo y rojo\', it: \'Colori della bandiera verde, giallo e rosso\', pl: \'Zielone, żółte i czerwone kolory flagi\', nl: \'Groene, gele en rode vlagkleuren\', pt: \'Cores da bandeira verde, amarelo e vermelho' },
+      { en: 'Sapeur fashion imagery\', sv: \'Sapeur-modebilder\', de: \'Sapeur-Mode-Bilder\', fr: \'Images de la mode Sapeur\', es: \'Imágenes de la moda Sapeur\', it: \'Immagini della moda Sapeur\', pl: \'Zdjęcia mody Sapeur\', nl: \'Sapeur mode-afbeeldingen\', pt: \'Imagens de moda Sapeur' },
+      { en: 'Rainforest themes\', sv: \'Regnskogsteman\', de: \'Regenwald-Themen\', fr: \'Thèmes de forêt tropicale\', es: \'Temática de selva tropical\', it: \'Temi della foresta pluviale\', pl: \'Motywy lasów deszczowych\', nl: \'Regenwoud-thema\'s\', pt: \'Temas de floresta tropical' },
+      { en: 'Congo River scenes\', sv: \'Kongoflodscener\', de: \'Kongo-Fluss-Szenen\', fr: \'Scènes du fleuve Congo\', es: \'Escenas del río Congo\', it: \'Scene del fiume Congo\', pl: \'Sceny rzeki Kongo\', nl: \'Congo rivier-scènes\', pt: \'Cenas do Rio Congo' },
     ],
     conversationStarters: [
-      { en: 'Have you heard of the Sapeurs?', sv: 'Har du hört talas om Sapeurerna?', de: 'Hast du von den Sapeurs gehört?', fr: 'Avez-vous entendu parler des Sapeurs ?', es: '¿Has oído hablar de los Sapeurs?', it: 'Hai sentito parlare dei Sapeurs?', pl: 'Czy słyszałeś o Sapeurs?', nl: 'Heb je van de Sapeurs gehoord?', pt: 'Você já ouviu falar dos Sapeurs?' },
-      { en: 'What do you know about Central African music?', sv: 'Vad vet du om centralafrikansk musik?', de: 'Was weißt du über zentralafrikanische Musik?', fr: 'Que savez-vous de la musique d\'Afrique centrale ?', es: '¿Qué sabes sobre la música de África Central?', it: 'Cosa sai della musica dell\'Africa centrale?', pl: 'Co wiesz o muzyce Afryki Środkowej?', nl: 'Wat weet je over Centraal-Afrikaanse muziek?', pt: 'O que você sabe sobre a música da África Central?' },
+      { en: 'Have you heard of the Sapeurs?\', sv: \'Har du hört talas om Sapeurerna?\', de: \'Hast du von den Sapeurs gehört?\', fr: \'Avez-vous entendu parler des Sapeurs ?\', es: \'¿Has oído hablar de los Sapeurs?\', it: \'Hai sentito parlare dei Sapeurs?\', pl: \'Czy słyszałeś o Sapeurs?\', nl: \'Heb je van de Sapeurs gehoord?\', pt: \'Você já ouviu falar dos Sapeurs?' },
+      { en: 'What do you know about Central African music?\', sv: \'Vad vet du om centralafrikansk musik?\', de: \'Was weißt du über zentralafrikanische Musik?\', fr: \'Que savez-vous de la musique d\'Afrique centrale ?\', es: \'¿Qué sabes sobre la música de África Central?\', it: \'Cosa sai della musica dell\'Africa centrale?\', pl: \'Co wiesz o muzyce Afryki Środkowej?\', nl: \'Wat weet je over Centraal-Afrikaanse muziek?\', pt: \'O que você sabe sobre a música da África Central?' },
     ],
     quiz: [
       {

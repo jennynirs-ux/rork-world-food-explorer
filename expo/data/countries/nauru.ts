@@ -255,7 +255,7 @@ export const nauru: Country = {
           en: 'Nauru had one of the highest per capita incomes from phosphate mining.',
           sv: 'Nauru hade en av de högsta inkomsterna per capita från fosfatbrytning.',
           es: 'Nauru tenía uno de los ingresos per cápita más altos gracias a la minería de fosfato.',
-          fr: 'Nauru avait l'un des revenus par habitant les plus élevés provenant de l'extraction du phosphate.',
+          fr: 'Nauru avait l\'un des revenus par habitant les plus élevés provenant de l\'extraction du phosphate.',
           de: 'Nauru hatte eines der höchsten Pro-Kopf-Einkommen aus dem Phosphatabbau.',
           it: 'Nauru had one of the highest per capita incomes from phosphate mining.',
           pl: 'Nauru had one of the highest per capita incomes from phosphate mining.',
@@ -912,17 +912,17 @@ export const nauru: Country = {
       nonAlcoholic: 'Coconut water, Fresh juice',
     },
     music: [
-      { en: 'Pacific island songs', sv: 'Stillahavssöarnas sånger', de: 'Pazifische Insellieder', fr: 'Chansons des îles du Pacifique', es: 'Canciones de las islas del Pacífico', it: 'Canzoni delle isole del Pacifico', pl: 'Piosenki wysp Pacyfiku', nl: 'Pacific eilandliederen', pt: 'Canções das ilhas do Pacífico' },
-      { en: 'Traditional chants', sv: 'Traditionella sånger', de: 'Traditionelle Gesänge', fr: 'Chants traditionnels', es: 'Cantos tradicionales', it: 'Canti tradizionali', pl: 'Tradycyjne śpiewy', nl: 'Traditionele gezangen', pt: 'Cantos tradicionais' },
+      { en: 'Pacific island songs\', sv: \'Stillahavssöarnas sånger\', de: \'Pazifische Insellieder\', fr: \'Chansons des îles du Pacifique\', es: \'Canciones de las islas del Pacífico\', it: \'Canzoni delle isole del Pacifico\', pl: \'Piosenki wysp Pacyfiku\', nl: \'Pacific eilandliederen\', pt: \'Canções das ilhas do Pacífico' },
+      { en: 'Traditional chants\', sv: \'Traditionella sånger\', de: \'Traditionelle Gesänge\', fr: \'Chants traditionnels\', es: \'Cantos tradicionales\', it: \'Canti tradizionali\', pl: \'Tradycyjne śpiewy\', nl: \'Traditionele gezangen\', pt: \'Cantos tradicionais' },
     ],
     decorationIdeas: [
-      { en: 'Blue and yellow flag colors', sv: 'Blå och gula flaggfärger', de: 'Blau und Gelb der Flaggenfarben', fr: 'Couleurs du drapeau : bleu et jaune', es: 'Colores de la bandera: azul y amarillo', it: 'Colori della bandiera: blu e giallo', pl: 'Niebieskie i żółte barwy flagi', nl: 'Blauw en geel van de vlagkleuren', pt: 'Cores da bandeira: azul e amarelo' },
-      { en: 'Ocean themes', sv: 'Havsteman', de: 'Ozean-Motive', fr: 'Thèmes océaniques', es: 'Temas oceánicos', it: 'Temi oceanici', pl: 'Motywy oceanu', nl: 'Oceaanmotieven', pt: 'Temas oceânicos' },
-      { en: 'Tropical imagery', sv: 'Tropiska bilder', de: 'Tropische Bilder', fr: 'Images tropicales', es: 'Imágenes tropicales', it: 'Immagini tropicali', pl: 'Tropikalne obrazy', nl: 'Tropische afbeeldingen', pt: 'Imagens tropicais' },
+      { en: 'Blue and yellow flag colors\', sv: \'Blå och gula flaggfärger\', de: \'Blau und Gelb der Flaggenfarben\', fr: \'Couleurs du drapeau : bleu et jaune\', es: \'Colores de la bandera: azul y amarillo\', it: \'Colori della bandiera: blu e giallo\', pl: \'Niebieskie i żółte barwy flagi\', nl: \'Blauw en geel van de vlagkleuren\', pt: \'Cores da bandeira: azul e amarelo' },
+      { en: 'Ocean themes\', sv: \'Havsteman\', de: \'Ozean-Motive\', fr: \'Thèmes océaniques\', es: \'Temas oceánicos\', it: \'Temi oceanici\', pl: \'Motywy oceanu\', nl: \'Oceaanmotieven\', pt: \'Temas oceânicos' },
+      { en: 'Tropical imagery\', sv: \'Tropiska bilder\', de: \'Tropische Bilder\', fr: \'Images tropicales\', es: \'Imágenes tropicales\', it: \'Immagini tropicali\', pl: \'Tropikalne obrazy\', nl: \'Tropische afbeeldingen\', pt: \'Imagens tropicais' },
     ],
     conversationStarters: [
-      { en: 'What do you know about small island nations?', sv: 'Vad vet du om små önationer?', de: 'Was weißt du über kleine Inselstaaten?', fr: 'Que savez-vous des petits États insulaires ?', es: '¿Qué sabes sobre las pequeñas naciones insulares?', it: 'Cosa sai delle piccole nazioni insulari?', pl: 'Co wiesz o małych państwach wyspiarskich?', nl: 'Wat weet je over kleine eilandnaties?', pt: 'O que você sabe sobre as pequenas nações insulares?' },
-      { en: 'Have you heard of phosphate mining?', sv: 'Har du hört talas om fosfatbrytning?', de: 'Hast du von Phosphatabbau gehört?', fr: 'Avez-vous entendu parler de l\'extraction de phosphate ?', es: '¿Has oído hablar de la minería de fosfato?', it: 'Hai sentito parlare dell\'estrazione del fosfato?', pl: 'Czy słyszałeś o wydobyciu fosforanów?', nl: 'Heb je gehoord van fosfaatmijnbouw?', pt: 'Você já ouviu falar sobre mineração de fosfato?' },
+      { en: 'What do you know about small island nations?\', sv: \'Vad vet du om små önationer?\', de: \'Was weißt du über kleine Inselstaaten?\', fr: \'Que savez-vous des petits États insulaires ?\', es: \'¿Qué sabes sobre las pequeñas naciones insulares?\', it: \'Cosa sai delle piccole nazioni insulari?\', pl: \'Co wiesz o małych państwach wyspiarskich?\', nl: \'Wat weet je over kleine eilandnaties?\', pt: \'O que você sabe sobre as pequenas nações insulares?' },
+      { en: 'Have you heard of phosphate mining?\', sv: \'Har du hört talas om fosfatbrytning?\', de: \'Hast du von Phosphatabbau gehört?\', fr: \'Avez-vous entendu parler de l\'extraction de phosphate ?\', es: \'¿Has oído hablar de la minería de fosfato?\', it: \'Hai sentito parlare dell\'estrazione del fosfato?\', pl: \'Czy słyszałeś o wydobyciu fosforanów?\', nl: \'Heb je gehoord van fosfaatmijnbouw?\', pt: \'Você já ouviu falar sobre mineração de fosfato?' },
     ],
     quiz: [
       {

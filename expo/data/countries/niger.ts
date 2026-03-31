@@ -31,7 +31,7 @@ export const niger: Country = {
       en: 'Niger is a landlocked Saharan country in West Africa, known for ancient caravan routes, the Niger River, and diverse ethnic groups.',
       sv: 'Niger är ett landlockat Sahara-land i Västafrika, känt för uråldriga karavanvägar, Nigerfloden och olika etniska grupper.',
       es: 'Níger es un país sahariano sin salida al mar en África occidental, conocido por las antiguas rutas de caravanas, el río Níger y sus diversos grupos étnicos.',
-      fr: 'Le Niger est un pays saharien enclavé d'Afrique de l'Ouest, connu pour ses anciennes routes caravanières, le fleuve Niger et ses divers groupes ethniques.',
+      fr: 'Le Niger est un pays saharien enclavé d\'Afrique de l\'Ouest, connu pour ses anciennes routes caravanières, le fleuve Niger et ses divers groupes ethniques.',
       de: 'Niger ist ein Binnenstaat der Sahara in Westafrika, der für seine alten Karawanenrouten, den Fluss Niger und seine vielfältigen ethnischen Gruppen bekannt ist.',
       it: 'Niger is a landlocked Saharan country in West Africa, known for ancient caravan routes, the Niger River, and diverse ethnic groups.',
       pl: 'Niger is a landlocked Saharan country in West Africa, known for ancient caravan routes, the Niger River, and diverse ethnic groups.',
@@ -942,19 +942,19 @@ export const niger: Country = {
       nonAlcoholic: 'Fura (millet drink), Hibiscus tea, Ginger juice',
     },
     music: [
-      { en: 'Tuareg guitar music', sv: 'Tuaregisk gitarrmusik', de: 'Tuareg-Gitarrenmusik', fr: 'Musique de guitare touarègue', es: 'Música de guitarra tuareg', it: 'Musica di chitarra tuareg', pl: 'Muzyka gitarowa Tuaregów', nl: 'Tuareg gitaarmuziek', pt: 'Música de guitarra tuaregue' },
-      { en: 'Traditional Hausa songs', sv: 'Traditionella hausasånger', de: 'Traditionelle Hausa-Lieder', fr: 'Chants haoussa traditionnels', es: 'Canciones hausa tradicionales', it: 'Canzoni hausa tradizionali', pl: 'Tradycyjne pieśni Hausa', nl: 'Traditionele Hausa liedjes', pt: 'Canções hausa tradicionais' },
-      { en: 'Desert blues', sv: 'Öknarblues', de: 'Wüsten-Blues', fr: 'Blues du désert', es: 'Blues del desierto', it: 'Blues del deserto', pl: 'Blues pustyni', nl: 'Woestijnblues', pt: 'Blues do deserto' },
+      { en: 'Tuareg guitar music\', sv: \'Tuaregisk gitarrmusik\', de: \'Tuareg-Gitarrenmusik\', fr: \'Musique de guitare touarègue\', es: \'Música de guitarra tuareg\', it: \'Musica di chitarra tuareg\', pl: \'Muzyka gitarowa Tuaregów\', nl: \'Tuareg gitaarmuziek\', pt: \'Música de guitarra tuaregue' },
+      { en: 'Traditional Hausa songs\', sv: \'Traditionella hausasånger\', de: \'Traditionelle Hausa-Lieder\', fr: \'Chants haoussa traditionnels\', es: \'Canciones hausa tradicionales\', it: \'Canzoni hausa tradizionali\', pl: \'Tradycyjne pieśni Hausa\', nl: \'Traditionele Hausa liedjes\', pt: \'Canções hausa tradicionais' },
+      { en: 'Desert blues\', sv: \'Öknarblues\', de: \'Wüsten-Blues\', fr: \'Blues du désert\', es: \'Blues del desierto\', it: \'Blues del deserto\', pl: \'Blues pustyni\', nl: \'Woestijnblues\', pt: \'Blues do deserto' },
     ],
     decorationIdeas: [
-      { en: 'Orange, white and green flag colors', sv: 'Orange, vita och gröna flaggfärger', de: 'Orange, Weiß und Grün der Flaggenfarben', fr: 'Couleurs du drapeau : orange, blanc et vert', es: 'Colores de la bandera: naranja, blanco y verde', it: 'Colori della bandiera: arancione, bianco e verde', pl: 'Pomarańczowe, białe i zielone barwy flagi', nl: 'Oranje, wit en groen van de vlagkleuren', pt: 'Cores da bandeira: laranja, branco e verde' },
-      { en: 'Desert dune imagery', sv: 'Bilder av ökenklitter', de: 'Wüstendünen-Bilder', fr: 'Images de dunes du désert', es: 'Imágenes de dunas del desierto', it: 'Immagini di dune del deserto', pl: 'Obrazy wydm pustynnych', nl: 'Woestijnduinen afbeeldingen', pt: 'Imagens de dunas do deserto' },
-      { en: 'Camel caravans', sv: 'Kamelkaravaner', de: 'Kamelkarawanen', fr: 'Caravanes de chameaux', es: 'Caravanas de camellos', it: 'Carovane di cammelli', pl: 'Karawany wielbłądów', nl: 'Kamelkaravanen', pt: 'Caravanas de camelos' },
-      { en: 'Tuareg symbols', sv: 'Tuaregiska symboler', de: 'Tuareg-Symbole', fr: 'Symboles touaregs', es: 'Símbolos tuareg', it: 'Simboli tuareg', pl: 'Symbole Tuaregów', nl: 'Tuareg symbolen', pt: 'Símbolos tuaregues' },
+      { en: 'Orange, white and green flag colors\', sv: \'Orange, vita och gröna flaggfärger\', de: \'Orange, Weiß und Grün der Flaggenfarben\', fr: \'Couleurs du drapeau : orange, blanc et vert\', es: \'Colores de la bandera: naranja, blanco y verde\', it: \'Colori della bandiera: arancione, bianco e verde\', pl: \'Pomarańczowe, białe i zielone barwy flagi\', nl: \'Oranje, wit en groen van de vlagkleuren\', pt: \'Cores da bandeira: laranja, branco e verde' },
+      { en: 'Desert dune imagery\', sv: \'Bilder av ökenklitter\', de: \'Wüstendünen-Bilder\', fr: \'Images de dunes du désert\', es: \'Imágenes de dunas del desierto\', it: \'Immagini di dune del deserto\', pl: \'Obrazy wydm pustynnych\', nl: \'Woestijnduinen afbeeldingen\', pt: \'Imagens de dunas do deserto' },
+      { en: 'Camel caravans\', sv: \'Kamelkaravaner\', de: \'Kamelkarawanen\', fr: \'Caravanes de chameaux\', es: \'Caravanas de camellos\', it: \'Carovane di cammelli\', pl: \'Karawany wielbłądów\', nl: \'Kamelkaravanen\', pt: \'Caravanas de camelos' },
+      { en: 'Tuareg symbols\', sv: \'Tuaregiska symboler\', de: \'Tuareg-Symbole\', fr: \'Symboles touaregs\', es: \'Símbolos tuareg\', it: \'Simboli tuareg\', pl: \'Symbole Tuaregów\', nl: \'Tuareg symbolen\', pt: \'Símbolos tuaregues' },
     ],
     conversationStarters: [
-      { en: 'What do you know about Saharan trade routes?', sv: 'Vad vet du om sahararanska handelsvägar?', de: 'Was weißt du über saharische Handelsrouten?', fr: 'Que savez-vous des routes commerciales sahariennes ?', es: '¿Qué sabes sobre las rutas comerciales del Sáhara?', it: 'Cosa sai delle rotte commerciali sahariane?', pl: 'Co wiesz o szlakach handlowych Sahary?', nl: 'Wat weet je over Saharische handelsroutes?', pt: 'O que você sabe sobre as rotas comerciais do Saara?' },
-      { en: 'Have you heard Tuareg music?', sv: 'Har du hört tuaregisk musik?', de: 'Hast du Tuareg-Musik gehört?', fr: 'Avez-vous entendu de la musique touarègue ?', es: '¿Has escuchado música tuareg?', it: 'Hai sentito la musica tuareg?', pl: 'Czy słyszałeś muzykę Tuaregów?', nl: 'Heb je Tuareg muziek gehoord?', pt: 'Você já ouviu música tuaregue?' },
+      { en: 'What do you know about Saharan trade routes?\', sv: \'Vad vet du om sahararanska handelsvägar?\', de: \'Was weißt du über saharische Handelsrouten?\', fr: \'Que savez-vous des routes commerciales sahariennes ?\', es: \'¿Qué sabes sobre las rutas comerciales del Sáhara?\', it: \'Cosa sai delle rotte commerciali sahariane?\', pl: \'Co wiesz o szlakach handlowych Sahary?\', nl: \'Wat weet je over Saharische handelsroutes?\', pt: \'O que você sabe sobre as rotas comerciais do Saara?' },
+      { en: 'Have you heard Tuareg music?\', sv: \'Har du hört tuaregisk musik?\', de: \'Hast du Tuareg-Musik gehört?\', fr: \'Avez-vous entendu de la musique touarègue ?\', es: \'¿Has escuchado música tuareg?\', it: \'Hai sentito la musica tuareg?\', pl: \'Czy słyszałeś muzykę Tuaregów?\', nl: \'Heb je Tuareg muziek gehoord?\', pt: \'Você já ouviu música tuaregue?' },
     ],
     quiz: [
       {

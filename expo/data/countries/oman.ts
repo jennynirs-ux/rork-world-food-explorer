@@ -282,7 +282,7 @@ export const oman: Country = {
           en: 'Controlled frankincense trade routes for thousands of years.',
           sv: 'Kontrollerade frankincense handelsvägar i tusentals år.',
           es: 'Rutas comerciales de incienso controladas durante miles de años.',
-          fr: 'Routes commerciales contrôlées de l'encens depuis des milliers d'années.',
+          fr: 'Routes commerciales contrôlées de l\'encens depuis des milliers d\'années.',
           de: 'Kontrollierte Handelsrouten für Weihrauch seit Tausenden von Jahren.',
           it: 'Controlled frankincense trade routes for thousands of years.',
           pl: 'Controlled frankincense trade routes for thousands of years.',
@@ -1004,19 +1004,19 @@ export const oman: Country = {
       nonAlcoholic: 'Qahwa (Omani coffee with cardamom), Laban, Fresh dates',
     },
     music: [
-      { en: 'Traditional Omani folk', sv: 'Traditionell omansk folkmusik', de: 'Traditionelle omanische Volksmusik', fr: 'Musique folklorique omanaise traditionnelle', es: 'Música folclórica omaní tradicional', it: 'Musica folk omanita tradizionale', pl: 'Tradycyjna muzyka ludowa Omanu', nl: 'Traditionele Omaanse volksmuziek', pt: 'Música folclórica omanense tradicional' },
-      { en: 'Liwa music', sv: 'Liwa-musik', de: 'Liwa-Musik', fr: 'Musique Liwa', es: 'Música Liwa', it: 'Musica Liwa', pl: 'Muzyka Liwa', nl: 'Liwa muziek', pt: 'Música Liwa' },
-      { en: 'Bedouin songs', sv: 'Beduinsånger', de: 'Beduinenlieder', fr: 'Chants bédouins', es: 'Canciones beduinas', it: 'Canti beduini', pl: 'Pieśni beduińskie', nl: 'Bedoeïenenliederen', pt: 'Canções beduínas' },
+      { en: 'Traditional Omani folk\', sv: \'Traditionell omansk folkmusik\', de: \'Traditionelle omanische Volksmusik\', fr: \'Musique folklorique omanaise traditionnelle\', es: \'Música folclórica omaní tradicional\', it: \'Musica folk omanita tradizionale\', pl: \'Tradycyjna muzyka ludowa Omanu\', nl: \'Traditionele Omaanse volksmuziek\', pt: \'Música folclórica omanense tradicional' },
+      { en: 'Liwa music\', sv: \'Liwa-musik\', de: \'Liwa-Musik\', fr: \'Musique Liwa\', es: \'Música Liwa\', it: \'Musica Liwa\', pl: \'Muzyka Liwa\', nl: \'Liwa muziek\', pt: \'Música Liwa' },
+      { en: 'Bedouin songs\', sv: \'Beduinsånger\', de: \'Beduinenlieder\', fr: \'Chants bédouins\', es: \'Canciones beduinas\', it: \'Canti beduini\', pl: \'Pieśni beduińskie\', nl: \'Bedoeïenenliederen\', pt: \'Canções beduínas' },
     ],
     decorationIdeas: [
-      { en: 'Red, white and green flag colors', sv: 'Röda, vita och gröna flaggfärger', de: 'Rote, weiße und grüne Flaggenfarben', fr: 'Couleurs du drapeau rouge, blanc et vert', es: 'Colores de la bandera rojo, blanco y verde', it: 'Colori della bandiera rosso, bianco e verde', pl: 'Czerwone, białe i zielone kolory flagi', nl: 'Rode, witte en groene vlagkleuren', pt: 'Cores da bandeira vermelho, branco e verde' },
-      { en: 'Fort and castle imagery', sv: 'Fort- och slottsbilder', de: 'Fort- und Schlossbilder', fr: 'Images de forts et de châteaux', es: 'Imágenes de fuertes y castillos', it: 'Immagini di forti e castelli', pl: 'Obrazy fortów i zamków', nl: 'Afbeeldingen van forten en kastelen', pt: 'Imagens de fortes e castelos' },
-      { en: 'Desert landscapes', sv: 'Ökenlandskap', de: 'Wüstenlandschaften', fr: 'Paysages désertiques', es: 'Paisajes desérticos', it: 'Paesaggi desertici', pl: 'Krajobrazy pustynne', nl: 'Woestijnlandschappen', pt: 'Paisagens desérticas' },
-      { en: 'Frankincense themes', sv: 'Rökelsesteman', de: 'Weihrauch-Themen', fr: 'Thèmes de l\'encens', es: 'Temática del incienso', it: 'Temi dell\'incenso', pl: 'Motywy kadzidłowca', nl: 'Wierook-thema\'s', pt: 'Temas de incenso' },
+      { en: 'Red, white and green flag colors\', sv: \'Röda, vita och gröna flaggfärger\', de: \'Rote, weiße und grüne Flaggenfarben\', fr: \'Couleurs du drapeau rouge, blanc et vert\', es: \'Colores de la bandera rojo, blanco y verde\', it: \'Colori della bandiera rosso, bianco e verde\', pl: \'Czerwone, białe i zielone kolory flagi\', nl: \'Rode, witte en groene vlagkleuren\', pt: \'Cores da bandeira vermelho, branco e verde' },
+      { en: 'Fort and castle imagery\', sv: \'Fort- och slottsbilder\', de: \'Fort- und Schlossbilder\', fr: \'Images de forts et de châteaux\', es: \'Imágenes de fuertes y castillos\', it: \'Immagini di forti e castelli\', pl: \'Obrazy fortów i zamków\', nl: \'Afbeeldingen van forten en kastelen\', pt: \'Imagens de fortes e castelos' },
+      { en: 'Desert landscapes\', sv: \'Ökenlandskap\', de: \'Wüstenlandschaften\', fr: \'Paysages désertiques\', es: \'Paisajes desérticos\', it: \'Paesaggi desertici\', pl: \'Krajobrazy pustynne\', nl: \'Woestijnlandschappen\', pt: \'Paisagens desérticas' },
+      { en: 'Frankincense themes\', sv: \'Rökelsesteman\', de: \'Weihrauch-Themen\', fr: \'Thèmes de l\'encens\', es: \'Temática del incienso\', it: \'Temi dell\'incenso\', pl: \'Motywy kadzidłowca\', nl: \'Wierook-thema\'s\', pt: \'Temas de incenso' },
     ],
     conversationStarters: [
-      { en: 'Have you tried frankincense?', sv: 'Har du provat rökelse?', de: 'Hast du Weihrauch ausprobiert?', fr: 'Avez-vous essayé l\'encens ?', es: '¿Has probado el incienso?', it: 'Hai provato l\'incenso?', pl: 'Czy próbowałeś kadzidłowca?', nl: 'Heb je wierook geprobeerd?', pt: 'Você já experimentou incenso?' },
-      { en: 'What do you know about Arabian deserts?', sv: 'Vad vet du om arabiska öknar?', de: 'Was weißt du über arabische Wüsten?', fr: 'Que savez-vous des déserts arabes ?', es: '¿Qué sabes sobre los desiertos arábigos?', it: 'Cosa sai dei deserti arabi?', pl: 'Co wiesz o arabskich pustyniach?', nl: 'Wat weet je over Arabische woestijnen?', pt: 'O que você sabe sobre os desertos árabes?' },
+      { en: 'Have you tried frankincense?\', sv: \'Har du provat rökelse?\', de: \'Hast du Weihrauch ausprobiert?\', fr: \'Avez-vous essayé l\'encens ?\', es: \'¿Has probado el incienso?\', it: \'Hai provato l\'incenso?\', pl: \'Czy próbowałeś kadzidłowca?\', nl: \'Heb je wierook geprobeerd?\', pt: \'Você já experimentou incenso?' },
+      { en: 'What do you know about Arabian deserts?\', sv: \'Vad vet du om arabiska öknar?\', de: \'Was weißt du über arabische Wüsten?\', fr: \'Que savez-vous des déserts arabes ?\', es: \'¿Qué sabes sobre los desiertos arábigos?\', it: \'Cosa sai dei deserti arabi?\', pl: \'Co wiesz o arabskich pustyniach?\', nl: \'Wat weet je over Arabische woestijnen?\', pt: \'O que você sabe sobre os desertos árabes?' },
     ],
     quiz: [
       {

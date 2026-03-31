@@ -978,19 +978,19 @@ export const monaco: Country = {
       nonAlcoholic: 'Espresso, French mineral water',
     },
     music: [
-      { en: 'Classical concerts', sv: 'Klassiska konserter', de: 'Klassische Konzerte', fr: 'Concerts classiques', es: 'Conciertos clásicos', it: 'Concerti classici', pl: 'Koncerty klasyczne', nl: 'Klassieke concerten', pt: 'Concertos clássicos' },
-      { en: 'Opera', sv: 'Opera', de: 'Oper', fr: 'Opéra', es: 'Ópera', it: 'Opera', pl: 'Opera', nl: 'Opera', pt: 'Ópera' },
-      { en: 'Jazz festivals', sv: 'Jazzfestivaler', de: 'Jazzfestivals', fr: 'Festivals de jazz', es: 'Festivales de jazz', it: 'Festival jazz', pl: 'Festiwale jazzowe', nl: 'Jazzfestivals', pt: 'Festivais de jazz' },
+      { en: 'Classical concerts\', sv: \'Klassiska konserter\', de: \'Klassische Konzerte\', fr: \'Concerts classiques\', es: \'Conciertos clásicos\', it: \'Concerti classici\', pl: \'Koncerty klasyczne\', nl: \'Klassieke concerten\', pt: \'Concertos clássicos' },
+      { en: 'Opera\', sv: \'Opera\', de: \'Oper\', fr: \'Opéra\', es: \'Ópera\', it: \'Opera\', pl: \'Opera\', nl: \'Opera\', pt: \'Ópera' },
+      { en: 'Jazz festivals\', sv: \'Jazzfestivaler\', de: \'Jazzfestivals\', fr: \'Festivals de jazz\', es: \'Festivales de jazz\', it: \'Festival jazz\', pl: \'Festiwale jazzowe\', nl: \'Jazzfestivals\', pt: \'Festivais de jazz' },
     ],
     decorationIdeas: [
-      { en: 'Red and white flag colors', sv: 'Röda och vita flaggfärger', de: 'Rot und Weiß der Flaggenfarben', fr: 'Couleurs du drapeau : rouge et blanc', es: 'Colores de la bandera: rojo y blanco', it: 'Colori della bandiera: rosso e bianco', pl: 'Czerwone i białe barwy flagi', nl: 'Rood en wit van de vlagkleuren', pt: 'Cores da bandeira: vermelho e branco' },
-      { en: 'Luxury yacht imagery', sv: 'Bilder av lyxjakter', de: 'Luxusyacht-Bilder', fr: 'Images de yachts de luxe', es: 'Imágenes de yates de lujo', it: 'Immagini di yacht di lusso', pl: 'Obrazy luksusowych jachtów', nl: 'Luxe jacht afbeeldingen', pt: 'Imagens de iates de luxo' },
-      { en: 'Casino themes', sv: 'Kasinoteman', de: 'Casino-Motive', fr: 'Thèmes de casino', es: 'Temas de casino', it: 'Temi del casinò', pl: 'Motywy kasyna', nl: 'Casino thema\'s', pt: 'Temas de cassino' },
-      { en: 'Formula 1 elements', sv: 'Formel 1-element', de: 'Formel-1-Elemente', fr: 'Éléments de Formule 1', es: 'Elementos de Fórmula 1', it: 'Elementi di Formula 1', pl: 'Elementy Formuły 1', nl: 'Formule 1 elementen', pt: 'Elementos da Fórmula 1' },
+      { en: 'Red and white flag colors\', sv: \'Röda och vita flaggfärger\', de: \'Rot und Weiß der Flaggenfarben\', fr: \'Couleurs du drapeau : rouge et blanc\', es: \'Colores de la bandera: rojo y blanco\', it: \'Colori della bandiera: rosso e bianco\', pl: \'Czerwone i białe barwy flagi\', nl: \'Rood en wit van de vlagkleuren\', pt: \'Cores da bandeira: vermelho e branco' },
+      { en: 'Luxury yacht imagery\', sv: \'Bilder av lyxjakter\', de: \'Luxusyacht-Bilder\', fr: \'Images de yachts de luxe\', es: \'Imágenes de yates de lujo\', it: \'Immagini di yacht di lusso\', pl: \'Obrazy luksusowych jachtów\', nl: \'Luxe jacht afbeeldingen\', pt: \'Imagens de iates de luxo' },
+      { en: 'Casino themes\', sv: \'Kasinoteman\', de: \'Casino-Motive\', fr: \'Thèmes de casino\', es: \'Temas de casino\', it: \'Temi del casinò\', pl: \'Motywy kasyna\', nl: \'Casino thema\'s\', pt: \'Temas de cassino' },
+      { en: 'Formula 1 elements\', sv: \'Formel 1-element\', de: \'Formel-1-Elemente\', fr: \'Éléments de Formule 1\', es: \'Elementos de Fórmula 1\', it: \'Elementi di Formula 1\', pl: \'Elementy Formuły 1\', nl: \'Formule 1 elementen\', pt: \'Elementos da Fórmula 1' },
     ],
     conversationStarters: [
-      { en: 'Have you been to Monte Carlo?', sv: 'Har du besökt Monte Carlo?', de: 'Warst du schon in Monte Carlo?', fr: 'Avez-vous été à Monte-Carlo ?', es: '¿Has estado en Montecarlo?', it: 'Sei mai stato a Monte Carlo?', pl: 'Czy byłeś w Monte Carlo?', nl: 'Ben je ooit in Monte Carlo geweest?', pt: 'Você já esteve em Monte Carlo?' },
-      { en: 'What do you know about Formula 1?', sv: 'Vad vet du om Formel 1?', de: 'Was weißt du über die Formel 1?', fr: 'Que savez-vous de la Formule 1 ?', es: '¿Qué sabes sobre la Fórmula 1?', it: 'Cosa sai della Formula 1?', pl: 'Co wiesz o Formule 1?', nl: 'Wat weet je over Formule 1?', pt: 'O que você sabe sobre a Fórmula 1?' },
+      { en: 'Have you been to Monte Carlo?\', sv: \'Har du besökt Monte Carlo?\', de: \'Warst du schon in Monte Carlo?\', fr: \'Avez-vous été à Monte-Carlo ?\', es: \'¿Has estado en Montecarlo?\', it: \'Sei mai stato a Monte Carlo?\', pl: \'Czy byłeś w Monte Carlo?\', nl: \'Ben je ooit in Monte Carlo geweest?\', pt: \'Você já esteve em Monte Carlo?' },
+      { en: 'What do you know about Formula 1?\', sv: \'Vad vet du om Formel 1?\', de: \'Was weißt du über die Formel 1?\', fr: \'Que savez-vous de la Formule 1 ?\', es: \'¿Qué sabes sobre la Fórmula 1?\', it: \'Cosa sai della Formula 1?\', pl: \'Co wiesz o Formule 1?\', nl: \'Wat weet je over Formule 1?\', pt: \'O que você sabe sobre a Fórmula 1?' },
     ],
     quiz: [
       {

@@ -31,7 +31,7 @@ export const northKorea: Country = {
       en: 'North Korea is a secretive East Asian country known for its isolation, mountain landscapes, and unique political system.',
       sv: 'Nordkorea är ett hemligt östasiatiskt land känt för sin isolering, bergslandskap och unika politiska system.',
       es: 'Corea del Norte es un país secreto del este de Asia conocido por su aislamiento, sus paisajes montañosos y su sistema político único.',
-      fr: 'La Corée du Nord est un pays secret d'Asie de l'Est, connu pour son isolement, ses paysages montagneux et son système politique unique.',
+      fr: 'La Corée du Nord est un pays secret d\'Asie de l\'Est, connu pour son isolement, ses paysages montagneux et son système politique unique.',
       de: 'Nordkorea ist ein geheimnisvolles ostasiatisches Land, das für seine Isolation, seine Berglandschaften und sein einzigartiges politisches System bekannt ist.',
       it: 'North Korea is a secretive East Asian country known for its isolation, mountain landscapes, and unique political system.',
       pl: 'North Korea is a secretive East Asian country known for its isolation, mountain landscapes, and unique political system.',
@@ -963,17 +963,17 @@ export const northKorea: Country = {
       nonAlcoholic: 'Barley tea, Corn tea',
     },
     music: [
-      { en: 'Traditional Korean music', sv: 'Traditionell koreansk musik', de: 'Traditionelle koreanische Musik', fr: 'Musique coréenne traditionnelle', es: 'Música coreana tradicional', it: 'Musica coreana tradizionale', pl: 'Tradycyjna muzyka koreańska', nl: 'Traditionele Koreaanse muziek', pt: 'Música coreana tradicional' },
-      { en: 'Revolutionary songs', sv: 'Revolutionssånger', de: 'Revolutionslieder', fr: 'Chants révolutionnaires', es: 'Canciones revolucionarias', it: 'Canti rivoluzionari', pl: 'Pieśni rewolucyjne', nl: 'Revolutionaire liederen', pt: 'Canções revolucionárias' },
+      { en: 'Traditional Korean music\', sv: \'Traditionell koreansk musik\', de: \'Traditionelle koreanische Musik\', fr: \'Musique coréenne traditionnelle\', es: \'Música coreana tradicional\', it: \'Musica coreana tradizionale\', pl: \'Tradycyjna muzyka koreańska\', nl: \'Traditionele Koreaanse muziek\', pt: \'Música coreana tradicional' },
+      { en: 'Revolutionary songs\', sv: \'Revolutionssånger\', de: \'Revolutionslieder\', fr: \'Chants révolutionnaires\', es: \'Canciones revolucionarias\', it: \'Canti rivoluzionari\', pl: \'Pieśni rewolucyjne\', nl: \'Revolutionaire liederen\', pt: \'Canções revolucionárias' },
     ],
     decorationIdeas: [
-      { en: 'Red, white and blue flag colors', sv: 'Röda, vita och blå flaggfärger', de: 'Rote, weiße und blaue Flaggenfarben', fr: 'Couleurs du drapeau rouge, blanc et bleu', es: 'Colores de la bandera rojo, blanco y azul', it: 'Colori della bandiera rosso, bianco e blu', pl: 'Czerwone, białe i niebieskie kolory flagi', nl: 'Rode, witte en blauwe vlagkleuren', pt: 'Cores da bandeira vermelho, branco e azul' },
-      { en: 'Mountain landscapes', sv: 'Berglandskap', de: 'Berglandschaften', fr: 'Paysages de montagne', es: 'Paisajes de montaña', it: 'Paesaggi di montagna', pl: 'Krajobrazy górskie', nl: 'Berglandschappen', pt: 'Paisagens de montanha' },
-      { en: 'Traditional Korean patterns', sv: 'Traditionella koreanska mönster', de: 'Traditionelle koreanische Muster', fr: 'Motifs coréens traditionnels', es: 'Patrones coreanos tradicionales', it: 'Motivi coreani tradizionali', pl: 'Tradycyjne wzory koreańskie', nl: 'Traditionele Koreaanse patronen', pt: 'Padrões coreanos tradicionais' },
+      { en: 'Red, white and blue flag colors\', sv: \'Röda, vita och blå flaggfärger\', de: \'Rote, weiße und blaue Flaggenfarben\', fr: \'Couleurs du drapeau rouge, blanc et bleu\', es: \'Colores de la bandera rojo, blanco y azul\', it: \'Colori della bandiera rosso, bianco e blu\', pl: \'Czerwone, białe i niebieskie kolory flagi\', nl: \'Rode, witte en blauwe vlagkleuren\', pt: \'Cores da bandeira vermelho, branco e azul' },
+      { en: 'Mountain landscapes\', sv: \'Berglandskap\', de: \'Berglandschaften\', fr: \'Paysages de montagne\', es: \'Paisajes de montaña\', it: \'Paesaggi di montagna\', pl: \'Krajobrazy górskie\', nl: \'Berglandschappen\', pt: \'Paisagens de montanha' },
+      { en: 'Traditional Korean patterns\', sv: \'Traditionella koreanska mönster\', de: \'Traditionelle koreanische Muster\', fr: \'Motifs coréens traditionnels\', es: \'Patrones coreanos tradicionales\', it: \'Motivi coreani tradizionali\', pl: \'Tradycyjne wzory koreańskie\', nl: \'Traditionele Koreaanse patronen\', pt: \'Padrões coreanos tradicionais' },
     ],
     conversationStarters: [
-      { en: 'What do you know about Korean culture?', sv: 'Vad vet du om koreansk kultur?', de: 'Was weißt du über die koreanische Kultur?', fr: 'Que savez-vous de la culture coréenne ?', es: '¿Qué sabes sobre la cultura coreana?', it: 'Cosa sai della cultura coreana?', pl: 'Co wiesz o kulturze koreańskiej?', nl: 'Wat weet je over de Koreaanse cultuur?', pt: 'O que você sabe sobre a cultura coreana?' },
-      { en: 'Have you tried Korean noodles?', sv: 'Har du provat koreanska nudlar?', de: 'Hast du koreanische Nudeln probiert?', fr: 'Avez-vous essayé les nouilles coréennes ?', es: '¿Has probado los fideos coreanos?', it: 'Hai provato i noodle coreani?', pl: 'Czy próbowałeś koreańskich makaronów?', nl: 'Heb je Koreaanse noedels geprobeerd?', pt: 'Já experimentou macarrão coreano?' },
+      { en: 'What do you know about Korean culture?\', sv: \'Vad vet du om koreansk kultur?\', de: \'Was weißt du über die koreanische Kultur?\', fr: \'Que savez-vous de la culture coréenne ?\', es: \'¿Qué sabes sobre la cultura coreana?\', it: \'Cosa sai della cultura coreana?\', pl: \'Co wiesz o kulturze koreańskiej?\', nl: \'Wat weet je over de Koreaanse cultuur?\', pt: \'O que você sabe sobre a cultura coreana?' },
+      { en: 'Have you tried Korean noodles?\', sv: \'Har du provat koreanska nudlar?\', de: \'Hast du koreanische Nudeln probiert?\', fr: \'Avez-vous essayé les nouilles coréennes ?\', es: \'¿Has probado los fideos coreanos?\', it: \'Hai provato i noodle coreani?\', pl: \'Czy próbowałeś koreańskich makaronów?\', nl: \'Heb je Koreaanse noedels geprobeerd?\', pt: \'Já experimentou macarrão coreano?' },
     ],
     quiz: [
       {
@@ -1043,7 +1043,7 @@ export const northKorea: Country = {
           en: 'What is North Korea\'s political ideology called?',
           sv: 'Vad kallas Nordkoreas politiska ideologi?',
           es: '¿Cómo se llama la ideología política de Corea del Norte?',
-          fr: 'Comment s'appelle l'idéologie politique de la Corée du Nord ?',
+          fr: 'Comment s\'appelle l\'idéologie politique de la Corée du Nord ?',
           de: 'Wie heißt Nordkoreas politische Ideologie?',
           it: 'What is North Korea\'s political ideology called?',
           pl: 'What is North Korea\'s political ideology called?',
