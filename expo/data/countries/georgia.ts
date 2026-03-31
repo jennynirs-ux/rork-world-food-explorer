@@ -206,7 +206,17 @@ export const georgia: Country = {
         pt: 'Georgian polyphonic singing is UNESCO-recognized',
       },
     ],
-    foodCulture: 'Georgian cuisine is diverse and flavorful with unique dishes like khachapuri and khinkali. Wine accompanies most meals.',
+    foodCulture: {
+      en: 'Georgian cuisine is diverse and flavorful with unique dishes like khachapuri and khinkali. Wine accompanies most meals.',
+      sv: 'Georgisk mat är mångsidig och smakrik med unika rätter som khachapuri och khinkali. Vin följer med de flesta måltider.',
+      de: 'Die georgische Küche ist vielfältig und geschmackvoll mit einzigartigen Gerichten wie Khachapuri und Khinkali. Wein begleitet die meisten Mahlzeiten.',
+      fr: 'La cuisine géorgienne est diverse et savoureuse avec des plats uniques comme le khachapuri et le khinkali. Le vin accompagne la plupart des repas.',
+      es: 'La cocina georgiana es diversa y sabrosa con platos únicos como el khachapuri y el khinkali. El vino acompaña la mayoría de las comidas.',
+      it: 'La cucina georgiana è diversificata e saporita con piatti unici come khachapuri e khinkali. Il vino accompagna la maggior parte dei pasti.',
+      pl: 'Kuchnia gruzińska jest różnorodna i aromatyczna, z wyjątkowymi daniami, takimi jak chaczapuri i chinkali. Wino towarzyszy większości posiłków.',
+      nl: 'De Georgische keuken is divers en smaakvol met unieke gerechten zoals khachapuri en khinkali. Wijn begeleidt de meeste maaltijden.',
+      pt: 'A culinária georgiana é diversificada e saborosa com pratos únicos como khachapuri e khinkali. O vinho acompanha a maioria das refeições.',
+    },
     history: [
       {
         year: '4th century',
@@ -912,20 +922,20 @@ export const georgia: Country = {
       nonAlcoholic: 'Borjomi mineral water, Tarragon lemonade',
     },
     music: [
-      'Georgian polyphonic singing',
-      'Traditional folk dances',
-      'Contemporary Georgian pop',
+      { en: 'Georgian polyphonic singing', sv: 'Georgisk polyfon sång', de: 'Georgischer polyphoner Gesang', fr: 'Chant polyphonique géorgien', es: 'Canto polifónico georgiano', it: 'Canto polifonico georgiano', pl: 'Gruziński śpiew polifoniczny', nl: 'Georgisch polyfoon zingen', pt: 'Canto polifônico georgiano' },
+      { en: 'Traditional folk dances', sv: 'Traditionella folkdanser', de: 'Traditionelle Volkstänze', fr: 'Danses folkloriques traditionnelles', es: 'Danzas folclóricas tradicionales', it: 'Danze folkloristiche tradizionali', pl: 'Tradycyjne tańce ludowe', nl: 'Traditionele volksdansen', pt: 'Danças folclóricas tradicionais' },
+      { en: 'Contemporary Georgian pop', sv: 'Samtida georgisk pop', de: 'Zeitgenössische georgische Popmusik', fr: 'Pop géorgienne contemporaine', es: 'Pop georgiano contemporáneo', it: 'Pop georgiano contemporaneo', pl: 'Współczesny gruziński pop', nl: 'Eigentijdse Georgische pop', pt: 'Pop georgiano contemporâneo' },
     ],
     decorationIdeas: [
-      'White and red flag colors',
-      'Wine and grape themes',
-      'Caucasus mountain imagery',
-      'Traditional Georgian patterns',
+      { en: 'White and red flag colors', sv: 'Vita och röda flaggfärger', de: 'Weiß und Rot (Flaggenfarben)', fr: 'Couleurs du drapeau blanc et rouge', es: 'Colores de la bandera blanco y rojo', it: 'Colori della bandiera bianco e rosso', pl: 'Białe i czerwone kolory flagi', nl: 'Wit en rood (vlagkleuren)', pt: 'Cores da bandeira branco e vermelho' },
+      { en: 'Wine and grape themes', sv: 'Vin- och druvteman', de: 'Wein- und Traubenthemen', fr: 'Thèmes de vin et de raisins', es: 'Temas de vino y uvas', it: 'Temi di vino e uva', pl: 'Motywy wina i winogron', nl: 'Wijn- en druiventhema\'s', pt: 'Temas de vinho e uvas' },
+      { en: 'Caucasus mountain imagery', sv: 'Kaukasiska bergbilder', de: 'Kaukasische Bergmotive', fr: 'Imagerie des montagnes du Caucase', es: 'Imágenes de las montañas del Cáucaso', it: 'Immagini delle montagne del Caucaso', pl: 'Obrazy gór Kaukazu', nl: 'Kaukasische bergafbeeldingen', pt: 'Imagens das montanhas do Cáucaso' },
+      { en: 'Traditional Georgian patterns', sv: 'Traditionella georgiska mönster', de: 'Traditionelle georgische Muster', fr: 'Motifs géorgiens traditionnels', es: 'Patrones georgianos tradicionales', it: 'Motivi georgiani tradizionali', pl: 'Tradycyjne gruzińskie wzory', nl: 'Traditionele Georgische patronen', pt: 'Padrões georgianos tradicionais' },
     ],
     conversationStarters: [
-      'Have you tried Georgian wine?',
-      'What do you know about ancient winemaking?',
-      'Do you enjoy mountain destinations?',
+      { en: 'Have you tried Georgian wine?', sv: 'Har du provat georgiskt vin?', de: 'Hast du georgischen Wein probiert?', fr: 'Avez-vous essayé le vin géorgien ?', es: '¿Has probado el vino georgiano?', it: 'Hai provato il vino georgiano?', pl: 'Czy próbowałeś gruzińskiego wina?', nl: 'Heb je Georgische wijn geprobeerd?', pt: 'Você já experimentou vinho georgiano?' },
+      { en: 'What do you know about ancient winemaking?', sv: 'Vad vet du om forntida vinframställning?', de: 'Was weißt du über antike Weinherstellung?', fr: 'Que savez-vous de la vinification ancienne ?', es: '¿Qué sabes sobre la vinificación antigua?', it: 'Cosa sai della viticoltura antica?', pl: 'Co wiesz o starożytnym winiarstwie?', nl: 'Wat weet je over oude wijnbereiding?', pt: 'O que você sabe sobre a vinificação antiga?' },
+      { en: 'Do you enjoy mountain destinations?', sv: 'Tycker du om bergsdestinationer?', de: 'Magst du Bergziele?', fr: 'Aimez-vous les destinations de montagne ?', es: '¿Disfrutas de los destinos de montaña?', it: 'Ti piacciono le destinazioni montane?', pl: 'Czy lubisz górskie destynacje?', nl: 'Geniet jij van bergbestemmingen?', pt: 'Você aprecia destinos de montanha?' },
     ],
     quiz: [
       {

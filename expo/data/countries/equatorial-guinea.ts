@@ -206,7 +206,17 @@ export const equatorialGuinea: Country = {
         pt: 'One of Africa\'s wealthiest countries per capita',
       },
     ],
-    foodCulture: 'Cuisine blends African and Spanish influences with fish, plantains, and yams as staples.',
+    foodCulture: {
+      en: 'Cuisine blends African and Spanish influences with fish, plantains, and yams as staples.',
+      sv: 'Maten kombinerar afrikanska och spanska influenser med fisk, plátanos och yams som baskost.',
+      de: 'Die Küche verbindet afrikanische und spanische Einflüsse, wobei Fisch, Kochbananen und Yamswurzeln die Grundnahrungsmittel sind.',
+      fr: 'La cuisine mêle des influences africaines et espagnoles avec le poisson, les plantains et les ignames comme aliments de base.',
+      es: 'La cocina mezcla influencias africanas y españolas con pescado, plátanos y ñames como alimentos básicos.',
+      it: 'La cucina mescola influenze africane e spagnole con pesce, platano e igname come alimenti base.',
+      pl: 'Kuchnia łączy afrykańskie i hiszpańskie wpływy, a ryby, plantany i jamy są podstawowymi składnikami.',
+      nl: 'De keuken combineert Afrikaanse en Spaanse invloeden met vis, bakbananen en yams als basisvoedsel.',
+      pt: 'A culinária mistura influências africanas e espanholas com peixe, plátanos e inhames como alimentos básicos.',
+    },
     history: [
       {
         year: '1778',
@@ -875,19 +885,19 @@ export const equatorialGuinea: Country = {
       nonAlcoholic: 'Malamba (sugarcane juice), Fresh juice',
     },
     music: [
-      'Traditional Fang music',
-      'Spanish-influenced songs',
-      'African rhythms',
+      { en: 'Traditional Fang music', sv: 'Traditionell Fang-musik', de: 'Traditionelle Fang-Musik', fr: 'Musique Fang traditionnelle', es: 'Música Fang tradicional', it: 'Musica Fang tradizionale', pl: 'Tradycyjna muzyka Fang', nl: 'Traditionele Fang-muziek', pt: 'Música Fang tradicional' },
+      { en: 'Spanish-influenced songs', sv: 'Spanskinfluerade sånger', de: 'Spanisch beeinflusste Lieder', fr: 'Chansons influencées par l\'espagnol', es: 'Canciones de influencia española', it: 'Canzoni con influenza spagnola', pl: 'Piosenki z wpływami hiszpańskimi', nl: 'Spaans beïnvloede liedjes', pt: 'Canções com influência espanhola' },
+      { en: 'African rhythms', sv: 'Afrikanska rytmer', de: 'Afrikanische Rhythmen', fr: 'Rythmes africains', es: 'Ritmos africanos', it: 'Ritmi africani', pl: 'Afrykańskie rytmy', nl: 'Afrikaanse ritmes', pt: 'Ritmos africanos' },
     ],
     decorationIdeas: [
-      'Green, white, red and blue flag colors',
-      'Spanish colonial elements',
-      'Tropical themes',
-      'Ocean imagery',
+      { en: 'Green, white, red and blue flag colors', sv: 'Gröna, vita, röda och blå flaggfärger', de: 'Grün, Weiß, Rot und Blau (Flaggenfarben)', fr: 'Couleurs du drapeau vert, blanc, rouge et bleu', es: 'Colores de la bandera verde, blanco, rojo y azul', it: 'Colori della bandiera verde, bianco, rosso e blu', pl: 'Zielone, białe, czerwone i niebieskie kolory flagi', nl: 'Groen, wit, rood en blauw (vlagkleuren)', pt: 'Cores da bandeira verde, branco, vermelho e azul' },
+      { en: 'Spanish colonial elements', sv: 'Spanska koloniala inslag', de: 'Spanisch-koloniale Elemente', fr: 'Éléments coloniaux espagnols', es: 'Elementos coloniales españoles', it: 'Elementi coloniali spagnoli', pl: 'Elementy kolonialne z Hiszpanii', nl: 'Spaans-koloniale elementen', pt: 'Elementos coloniais espanhóis' },
+      { en: 'Tropical themes', sv: 'Tropiska teman', de: 'Tropische Themen', fr: 'Thèmes tropicaux', es: 'Temas tropicales', it: 'Temi tropicali', pl: 'Motywy tropikalne', nl: 'Tropische thema\'s', pt: 'Temas tropicais' },
+      { en: 'Ocean imagery', sv: 'Havsbilder', de: 'Meeresmotive', fr: 'Imagerie océanique', es: 'Imágenes del océano', it: 'Immagini dell\'oceano', pl: 'Motywy oceaniczne', nl: 'Oceaanafbeeldingen', pt: 'Imagens do oceano' },
     ],
     conversationStarters: [
-      'Did you know Spanish is spoken in Africa?',
-      'What do you know about Central African islands?',
+      { en: 'Did you know Spanish is spoken in Africa?', sv: 'Visste du att spanska talas i Afrika?', de: 'Wusstest du, dass in Afrika Spanisch gesprochen wird?', fr: 'Saviez-vous que l\'espagnol est parlé en Afrique ?', es: '¿Sabías que se habla español en África?', it: 'Sapevi che lo spagnolo si parla in Africa?', pl: 'Czy wiedziałeś, że w Afryce mówi się po hiszpańsku?', nl: 'Wist je dat Spaans in Afrika gesproken wordt?', pt: 'Você sabia que o espanhol é falado na África?' },
+      { en: 'What do you know about Central African islands?', sv: 'Vad vet du om centralafrikanska öar?', de: 'Was weißt du über zentralafrikanische Inseln?', fr: 'Que savez-vous des îles d\'Afrique centrale ?', es: '¿Qué sabes sobre las islas de África Central?', it: 'Cosa sai delle isole dell\'Africa centrale?', pl: 'Co wiesz o wyspach Afryki Środkowej?', nl: 'Wat weet je over Midden-Afrikaanse eilanden?', pt: 'O que você sabe sobre as ilhas da África Central?' },
     ],
     innovations: [
       {

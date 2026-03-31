@@ -250,7 +250,17 @@ export const benin: Country = {
         pt: 'The country celebrates Voodoo Day as a national holiday',
       },
     ],
-    foodCulture: 'Beninese cuisine features yams, corn, beans, and palm oil. Spicy sauces and grilled fish are common. Akassa (fermented corn dough), peanut-based dishes, and red palm oil sauces are staples. Food is often eaten with hands and shared communally.',
+    foodCulture: {
+      en: 'Beninese cuisine features yams, corn, beans, and palm oil. Spicy sauces and grilled fish are common. Akassa (fermented corn dough), peanut-based dishes, and red palm oil sauces are staples. Food is often eaten with hands and shared communally.',
+      sv: 'Beninsk mat innehåller jams, majs, bönor och palmolja. Starka såser och grillad fisk är vanliga. Akassa (jäst majsdeg), jordnötsbaserade rätter och röd palmolja­såser är stapelvaror. Mat äts ofta med händerna och delas gemensamt.',
+      de: 'Die beninische Küche enthält Yams, Mais, Bohnen und Palmöl. Scharfe Soßen und gegrillter Fisch sind verbreitet. Akassa (fermentierter Maismehl), Erdnuss-basierte Gerichte und rote Palmölsoßen sind Grundnahrungsmittel. Essen wird oft mit den Händen gegessen und gemeinschaftlich geteilt.',
+      fr: 'La cuisine béninoise comprend des ignames, du maïs, des haricots et de l\'huile de palme. Les sauces épicées et le poisson grillé sont courants. L\'akassa (pâte de maïs fermentée), les plats à base d\'arachides et les sauces à l\'huile de palme rouge sont des aliments de base. Les repas sont souvent mangés à la main et partagés communautairement.',
+      es: 'La cocina beninesa incluye ñames, maíz, frijoles y aceite de palma. Las salsas picantes y el pescado a la parrilla son comunes. El akassa (masa de maíz fermentada), los platos a base de maní y las salsas de aceite de palma roja son alimentos básicos. La comida se come con frecuencia con las manos y se comparte en comunidad.',
+      it: 'La cucina beninese include igname, mais, fagioli e olio di palma. Le salse piccanti e il pesce alla griglia sono comuni. L\'akassa (pasta di mais fermentata), i piatti a base di arachidi e le salse di olio di palma rosso sono alimenti base. Il cibo viene spesso mangiato con le mani e condiviso in comunità.',
+      pl: 'Kuchnia benińska zawiera jamy, kukurydzę, fasolę i olej palmowy. Ostre sosy i grillowana ryba są powszechne. Akassa (fermentowane ciasto kukurydziane), potrawy na bazie orzeszków ziemnych i sosy z czerwonego oleju palmowego są podstawą. Jedzenie jest często spożywane rękami i dzielone wspólnie.',
+      nl: 'De Beninse keuken bevat yams, maïs, bonen en palmolie. Pittige sauzen en gegrilde vis zijn gebruikelijk. Akassa (gefermenteerd maisdeeg), pindagebaseerde gerechten en rode palmolie-sauzen zijn basisvoedsel. Voedsel wordt vaak met de handen gegeten en communaal gedeeld.',
+      pt: 'A culinária do Benin inclui inhames, milho, feijão e óleo de palma. Molhos apimentados e peixe grelhado são comuns. Akassa (massa de milho fermentada), pratos à base de amendoim e molhos de óleo de palma vermelho são alimentos básicos. A comida é frequentemente comida com as mãos e compartilhada em comunidade.',
+    },
     history: [
       {
         year: '1600-1894',
@@ -1112,20 +1122,20 @@ export const benin: Country = {
       nonAlcoholic: 'Tchakpalo (millet drink), Bissap (hibiscus tea), Ginger juice',
     },
     music: [
-      'Traditional Vodun music',
-      'Zinli dance rhythms',
-      'Afrobeat',
+      { en: 'Traditional Vodun music', sv: 'Traditionell Vodun-musik', de: 'Traditionelle Vodun-Musik', fr: 'Musique Vodun traditionnelle', es: 'Música Vodun tradicional', it: 'Musica Vodun tradizionale', pl: 'Tradycyjna muzyka Vodun', nl: 'Traditionele Vodun-muziek', pt: 'Música Vodun tradicional' },
+      { en: 'Zinli dance rhythms', sv: 'Zinli-dansrytmer', de: 'Zinli-Tanzrhythmen', fr: 'Rythmes de danse Zinli', es: 'Ritmos de danza Zinli', it: 'Ritmi di danza Zinli', pl: 'Rytmy tańca Zinli', nl: 'Zinli dans ritmes', pt: 'Ritmos de dança Zinli' },
+      { en: 'Afrobeat', sv: 'Afrobeat', de: 'Afrobeat', fr: 'Afrobeat', es: 'Afrobeat', it: 'Afrobeat', pl: 'Afrobeat', nl: 'Afrobeat', pt: 'Afrobeat' },
     ],
     decorationIdeas: [
-      'Green, yellow and red flag colors',
-      'Traditional masks',
-      'Vodun spiritual symbols',
-      'West African textiles',
+      { en: 'Green, yellow and red flag colors', sv: 'Gröna, gula och röda flaggfärger', de: 'Grün, Gelb und Rot als Flaggenfarben', fr: 'Couleurs vert, jaune et rouge du drapeau', es: 'Colores verde, amarillo y rojo de la bandera', it: 'Colori verde, giallo e rosso della bandiera', pl: 'Zielone, żółte i czerwone barwy flagi', nl: 'Groene, gele en rode vlagkleuren', pt: 'Cores verde, amarelo e vermelho da bandeira' },
+      { en: 'Traditional masks', sv: 'Traditionella masker', de: 'Traditionelle Masken', fr: 'Masques traditionnels', es: 'Máscaras tradicionales', it: 'Maschere tradizionali', pl: 'Tradycyjne maski', nl: 'Traditionele maskers', pt: 'Máscaras tradicionais' },
+      { en: 'Vodun spiritual symbols', sv: 'Vodun-andliga symboler', de: 'Vodun-Geistige Symbole', fr: 'Symboles spirituels Vodun', es: 'Símbolos espirituales Vodun', it: 'Simboli spirituali Vodun', pl: 'Duchowe symbole Vodun', nl: 'Vodun spirituele symbolen', pt: 'Símbolos espirituais Vodun' },
+      { en: 'West African textiles', sv: 'Västafrikanska textilier', de: 'Westafrikanische Textilien', fr: 'Textiles d\'Afrique de l\'Ouest', es: 'Textiles de África Occidental', it: 'Tessuti dell\'Africa occidentale', pl: 'Tkaniny zachodnioa­frykańskie', nl: 'West-Afrikaanse textiel', pt: 'Têxteis da África Ocidental' },
     ],
     conversationStarters: [
-      'What do you know about West African history?',
-      'Have you explored African spiritual traditions?',
-      'Do you enjoy spicy foods?',
+      { en: 'What do you know about West African history?', sv: 'Vad vet du om västafrikansk historia?', de: 'Was wissen Sie über die westafrikanische Geschichte?', fr: 'Que savez-vous de l\'histoire de l\'Afrique de l\'Ouest?', es: '¿Qué sabes sobre la historia de África Occidental?', it: 'Cosa sai della storia dell\'Africa occidentale?', pl: 'Co wiesz o historii Afryki Zachodniej?', nl: 'Wat weet je over de West-Afrikaanse geschiedenis?', pt: 'O que você sabe sobre a história da África Ocidental?' },
+      { en: 'Have you explored African spiritual traditions?', sv: 'Har du utforskat afrikanska andliga traditioner?', de: 'Haben Sie afrikanische spirituelle Traditionen erkundet?', fr: 'Avez-vous exploré les traditions spirituelles africaines?', es: '¿Has explorado las tradiciones espirituales africanas?', it: 'Hai esplorato le tradizioni spirituali africane?', pl: 'Czy eksplorowałeś afrykańskie tradycje duchowe?', nl: 'Heb je Afrikaanse spirituele tradities verkend?', pt: 'Você explorou as tradições espirituais africanas?' },
+      { en: 'Do you enjoy spicy foods?', sv: 'Tycker du om stark mat?', de: 'Mögen Sie scharfes Essen?', fr: 'Aimez-vous les plats épicés?', es: '¿Disfrutas de los alimentos picantes?', it: 'Ti piacciono i cibi piccanti?', pl: 'Czy lubisz pikantne jedzenie?', nl: 'Houd je van gekruid voedsel?', pt: 'Você gosta de comidas picantes?' },
     ],
     quiz: [
       {

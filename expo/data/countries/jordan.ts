@@ -206,7 +206,17 @@ export const jordan: Country = {
         pt: 'Jordan has excellent archaeological sites',
       },
     ],
-    foodCulture: 'Jordanian cuisine features mezze, grilled meats, rice dishes, and aromatic spices with Levantine influences.',
+    foodCulture: {
+      en: 'Jordanian cuisine features mezze, grilled meats, rice dishes, and aromatic spices with Levantine influences.',
+      sv: 'Det jordanska köket innehåller mezze, grillat kött, rispararätter och aromatiska kryddor med levantinska influenser.',
+      de: 'Die jordanische Küche bietet Mezze, gegrillte Fleischgerichte, Reisgerichte und aromatische Gewürze mit levantinischen Einflüssen.',
+      fr: 'La cuisine jordanienne propose des mezze, des viandes grillées, des plats de riz et des épices aromatiques avec des influences levantines.',
+      es: 'La cocina jordana incluye mezze, carnes a la parrilla, platos de arroz y especias aromáticas con influencias levantinas.',
+      it: 'La cucina giordana presenta mezze, carni grigliate, piatti di riso e spezie aromatiche con influenze levantine.',
+      pl: 'Kuchnia jordańska obejmuje mezze, grillowane mięsa, dania z ryżu i aromatyczne przyprawy z wpływami lewantyńskimi.',
+      nl: 'De Jordaanse keuken omvat mezze, gegrild vlees, rijstgerechten en aromatische kruiden met Levantijnse invloeden.',
+      pt: 'A culinária jordaniana apresenta mezze, carnes grelhadas, pratos de arroz e especiarias aromáticas com influências levantinas.',
+    },
     history: [
       {
         year: '9th Century BC',
@@ -959,20 +969,20 @@ export const jordan: Country = {
       nonAlcoholic: 'Arabic coffee, Mint tea, Tamarind juice',
     },
     music: [
-      'Traditional Bedouin music',
-      'Arabic classical',
-      'Levantine folk songs',
+      { en: 'Traditional Bedouin music', sv: 'Traditionell beduinmusik', de: 'Traditionelle Beduinen-Musik', fr: 'Musique bédouine traditionnelle', es: 'Música beduina tradicional', it: 'Musica beduina tradizionale', pl: 'Tradycyjna muzyka beduińska', nl: 'Traditionele Bedoeïenenmuziek', pt: 'Música beduína tradicional' },
+      { en: 'Arabic classical', sv: 'Arabisk klassisk musik', de: 'Arabische klassische Musik', fr: 'Musique classique arabe', es: 'Música clásica árabe', it: 'Musica classica araba', pl: 'Arabska muzyka klasyczna', nl: 'Arabische klassieke muziek', pt: 'Música clássica árabe' },
+      { en: 'Levantine folk songs', sv: 'Levantinska folksånger', de: 'Levantinische Volkslieder', fr: 'Chansons folk levantines', es: 'Canciones folclóricas levantinas', it: 'Canzoni folk levantine', pl: 'Lewantyńskie pieśni ludowe', nl: 'Levantijnse volksliederen', pt: 'Canções folclóricas levantinas' },
     ],
     decorationIdeas: [
-      'Black, white, red and green flag colors',
-      'Petra imagery',
-      'Desert landscapes',
-      'Mosaic patterns',
+      { en: 'Black, white, red and green flag colors', sv: 'Svarta, vita, röda och gröna flaggfärger', de: 'Schwarz, weiß, rot und grüne Flaggenfarben', fr: 'Couleurs du drapeau noir, blanc, rouge et vert', es: 'Colores de la bandera negro, blanco, rojo y verde', it: 'Colori della bandiera nero, bianco, rosso e verde', pl: 'Czarne, białe, czerwone i zielone kolory flagi', nl: 'Zwart, wit, rood en groene vlagkleuren', pt: 'Cores da bandeira preto, branco, vermelho e verde' },
+      { en: 'Petra imagery', sv: 'Petra-bilder', de: 'Petra-Motive', fr: 'Images de Pétra', es: 'Imágenes de Petra', it: 'Immagini di Petra', pl: 'Motywy Petry', nl: 'Petra beelden', pt: 'Imagens de Petra' },
+      { en: 'Desert landscapes', sv: 'Ökenlandskap', de: 'Wüstenlandschaften', fr: 'Paysages désertiques', es: 'Paisajes desérticos', it: 'Paesaggi desertici', pl: 'Krajobrazy pustynne', nl: 'Woestijnlandschappen', pt: 'Paisagens desérticas' },
+      { en: 'Mosaic patterns', sv: 'Mosaikmönster', de: 'Mosaikmuster', fr: 'Motifs de mosaïque', es: 'Patrones de mosaico', it: 'Motivi a mosaico', pl: 'Wzory mozaikowe', nl: 'Mozaïekpatronen', pt: 'Padrões de mosaico' },
     ],
     conversationStarters: [
-      'Have you seen Petra?',
-      'What do you know about desert cultures?',
-      'Do you enjoy Middle Eastern hospitality?',
+      { en: 'Have you seen Petra?', sv: 'Har du sett Petra?', de: 'Hast du Petra gesehen?', fr: 'Avez-vous vu Pétra?', es: '¿Has visto Petra?', it: 'Hai visto Petra?', pl: 'Czy widziałeś Petrę?', nl: 'Heb je Petra gezien?', pt: 'Você já viu Petra?' },
+      { en: 'What do you know about desert cultures?', sv: 'Vad vet du om ökenkulturer?', de: 'Was weißt du über Wüstenkulturen?', fr: 'Que savez-vous des cultures désertiques?', es: '¿Qué sabes sobre las culturas del desierto?', it: 'Cosa sai delle culture desertiche?', pl: 'Co wiesz o kulturach pustynnych?', nl: 'Wat weet je over woestijnculturen?', pt: 'O que você sabe sobre culturas do deserto?' },
+      { en: 'Do you enjoy Middle Eastern hospitality?', sv: 'Uppskattar du mellanösternsk gästfrihet?', de: 'Genießt du die nahöstliche Gastfreundschaft?', fr: 'Appréciez-vous l\'hospitalité du Moyen-Orient?', es: '¿Disfrutas de la hospitalidad de Oriente Medio?', it: 'Ti piace l\'ospitalità mediorientale?', pl: 'Czy cenisz bliskowschodnią gościnność?', nl: 'Geniet je van de Midden-Oosterse gastvrijheid?', pt: 'Você aprecia a hospitalidade do Oriente Médio?' },
     ],
     quiz: [
       {

@@ -250,7 +250,17 @@ export const solomonIslands: Country = {
         pt: 'Village life and community traditions remain strong',
       },
     ],
-    foodCulture: 'Solomon Islands cuisine is based on fresh fish, root vegetables, bananas, taro, and coconut. Food is often cooked in earth ovens or over open fires, with simple seasoning that highlights natural flavors.',
+    foodCulture: {
+      en: 'Solomon Islands cuisine is based on fresh fish, root vegetables, bananas, taro, and coconut. Food is often cooked in earth ovens or over open fires, with simple seasoning that highlights natural flavors.',
+      sv: 'Salomonöarnas mat bygger på färsk fisk, rotfrukter, bananer, taro och kokosnöt. Mat tillagas ofta i jordugnar eller på öppen eld, med enkel kryddning som lyfter fram naturliga smaker.',
+      de: 'Die Küche der Salomonen basiert auf frischem Fisch, Wurzelgemüse, Bananen, Taro und Kokosnuss. Essen wird oft in Erdöfen oder über offenen Feuern gekocht, mit einfacher Würze, die natürliche Aromen hervorhebt.',
+      fr: 'La cuisine des Îles Salomon est à base de poisson frais, de légumes-racines, de bananes, de taro et de noix de coco. Les aliments sont souvent cuits dans des fours en terre ou sur des feux ouverts, avec un assaisonnement simple qui met en valeur les saveurs naturelles.',
+      es: 'La cocina de las Islas Salomón se basa en pescado fresco, verduras de raíz, plátanos, taro y coco. La comida se cocina a menudo en hornos de tierra o sobre fuegos abiertos, con condimentos simples que resaltan los sabores naturales.',
+      it: 'La cucina delle Isole Salomone si basa su pesce fresco, verdure a radice, banane, taro e cocco. Il cibo viene spesso cucinato in forni di terra o su fuochi aperti, con condimenti semplici che esaltano i sapori naturali.',
+      pl: 'Kuchnia Wysp Salomona opiera się na świeżych rybach, warzywach korzeniowych, bananach, taro i kokosie. Jedzenie jest często gotowane w ziemnych piecach lub nad otwartym ogniem, z prostymi przyprawami podkreślającymi naturalne smaki.',
+      nl: 'De Salomonse keuken is gebaseerd op verse vis, knolgewassen, bananen, taro en kokosnoot. Voedsel wordt vaak gekookt in aarden ovens of boven open vuren, met eenvoudige kruiderijen die de natuurlijke smaken benadrukken.',
+      pt: 'A culinária das Ilhas Salomão baseia-se em peixe fresco, legumes de raiz, bananas, taro e coco. A comida é frequentemente cozida em fornos de terra ou sobre fogos abertos, com tempero simples que realça os sabores naturais.',
+    },
     innovations: [
       {
         name: {
@@ -1089,24 +1099,24 @@ export const solomonIslands: Country = {
       nonAlcoholic: 'Fresh coconut water, Banana juice, Herbal teas',
     },
     music: [
-      'Traditional panpipe music',
-      'Melanesian chants',
-      'Drum-based ceremonial music',
-      'Modern Pacific island pop',
+      { en: 'Traditional panpipe music', sv: 'Traditionell panflöjtsmusik', de: 'Traditionelle Panflötenmusik', fr: 'Musique traditionnelle de flûte de pan', es: 'Música tradicional de flauta de pan', it: 'Musica tradizionale di flauto di Pan', pl: 'Tradycyjna muzyka fletni Pana', nl: 'Traditionele panfluitenmuziek', pt: 'Música tradicional de flauta de pã' },
+      { en: 'Melanesian chants', sv: 'Melanesiska sånger', de: 'Melanesische Gesänge', fr: 'Chants mélanésiens', es: 'Cánticos melanesios', it: 'Canti della Melanesia', pl: 'Melanezyjskie śpiewy', nl: 'Melanesische gezangen', pt: 'Cânticos melanésios' },
+      { en: 'Drum-based ceremonial music', sv: 'Trumbaserad ceremonialmusik', de: 'Trommelbasierte Zeremonialmusik', fr: 'Musique cérémonielle à base de tambours', es: 'Música ceremonial basada en tambores', it: 'Musica cerimoniale basata su tamburi', pl: 'Ceremonialna muzyka oparta na bębnach', nl: 'Tromgebaseerde ceremoniemuziek', pt: 'Música cerimonial baseada em tambores' },
+      { en: 'Modern Pacific island pop', sv: 'Modern Stillahavs-ö-pop', de: 'Moderner Pazifikinseln-Pop', fr: 'Pop insulaire moderne du Pacifique', es: 'Pop moderno de las islas del Pacífico', it: 'Pop moderno delle isole del Pacifico', pl: 'Nowoczesny pop wysp pacyficznych', nl: 'Moderne Pacific eiland pop', pt: 'Pop moderno das ilhas do Pacífico' },
     ],
     decorationIdeas: [
-      'Blue, green, and yellow flag colors',
-      'Ocean and coral reef themes',
-      'Traditional shell money displays',
-      'Wood carvings and woven mats',
-      'WWII historical imagery (maps, photos)',
+      { en: 'Blue, green, and yellow flag colors', sv: 'Blå, grön och gul flaggfärger', de: 'Blaue, grüne und gelbe Flaggenfarben', fr: 'Couleurs du drapeau : bleu, vert et jaune', es: 'Colores de la bandera: azul, verde y amarillo', it: 'Colori della bandiera: blu, verde e giallo', pl: 'Kolory flagi: niebieski, zielony i żółty', nl: 'Blauwe, groene en gele vlagkleuren', pt: 'Cores da bandeira: azul, verde e amarelo' },
+      { en: 'Ocean and coral reef themes', sv: 'Hav och korallrevteman', de: 'Ozean- und Korallenriff-Themen', fr: 'Thèmes océaniques et de récif corallien', es: 'Temas de océano y arrecife de coral', it: 'Temi di oceano e barriera corallina', pl: 'Tematy oceanu i raf koralowych', nl: 'Oceaan en koraalrif thema\'s', pt: 'Temas de oceano e recife de coral' },
+      { en: 'Traditional shell money displays', sv: 'Traditionella skalvalutadisplayer', de: 'Traditionelle Muschelgeld-Ausstellungen', fr: 'Présentoirs de monnaie en coquillage traditionnel', es: 'Exhibiciones de monedas de conchas tradicionales', it: 'Esposizioni tradizionali di denaro in conchiglie', pl: 'Tradycyjne ekspozycje pieniędzy z muszli', nl: 'Traditionele schelpengeld displays', pt: 'Exibições tradicionais de dinheiro de concha' },
+      { en: 'Wood carvings and woven mats', sv: 'Träsniderier och vävda mattor', de: 'Holzschnitzereien und gewebte Matten', fr: 'Sculptures sur bois et nattes tissées', es: 'Tallas de madera y esteras tejidas', it: 'Intagli in legno e stuoie intrecciate', pl: 'Rzeźby w drewnie i tkane maty', nl: 'Houtsnijwerk en geweven matten', pt: 'Esculturas de madeira e esteiras trançadas' },
+      { en: 'WWII historical imagery (maps, photos)', sv: 'WWII historiska bilder (kartor, foton)', de: 'WWII-historische Bilder (Karten, Fotos)', fr: 'Images historiques de la WWII (cartes, photos)', es: 'Imágenes históricas de la WWII (mapas, fotos)', it: 'Immagini storiche della Seconda Guerra Mondiale (mappe, foto)', pl: 'Historyczne obrazy II Wojny Światowej (mapy, zdjęcia)', nl: 'WWII historische beelden (kaarten, foto\'s)', pt: 'Imagens históricas da Segunda Guerra Mundial (mapas, fotos)' },
     ],
     conversationStarters: [
-      'Did you know the Solomon Islands played a key role in WWII?',
-      'Would you try traditional taro-based dishes?',
-      'Have you ever visited a Pacific island nation?',
-      'What interests you more: history or marine life?',
-      'How important do you think village traditions are today?',
+      { en: 'Did you know the Solomon Islands played a key role in WWII?', sv: 'Visste du att Salomonöarna spelade en nyckelroll under andra världskriget?', de: 'Wussten Sie, dass die Salomonen eine Schlüsselrolle im Zweiten Weltkrieg spielten?', fr: 'Saviez-vous que les Îles Salomon ont joué un rôle clé dans la Seconde Guerre mondiale ?', es: '¿Sabías que las Islas Salomón jugaron un papel clave en la Segunda Guerra Mundial?', it: 'Sapevi che le Isole Salomone hanno svolto un ruolo chiave nella Seconda Guerra Mondiale?', pl: 'Czy wiedziałeś, że Wyspy Salomona odegrały kluczową rolę w II Wojnie Światowej?', nl: 'Wist je dat de Salomonseilanden een sleutelrol speelden in de Tweede Wereldoorlog?', pt: 'Você sabia que as Ilhas Salomão desempenharam um papel fundamental na Segunda Guerra Mundial?' },
+      { en: 'Would you try traditional taro-based dishes?', sv: 'Skulle du prova traditionella tarobaserade rätter?', de: 'Würden Sie traditionelle Taro-basierte Gerichte probieren?', fr: 'Essaieriez-vous des plats traditionnels à base de taro ?', es: '¿Probarías platos tradicionales a base de taro?', it: 'Proveresti piatti tradizionali a base di taro?', pl: 'Czy spróbowałbyś tradycyjnych dań na bazie taro?', nl: 'Zou je traditionele taro-gebaseerde gerechten proberen?', pt: 'Você experimentaria pratos tradicionais à base de taro?' },
+      { en: 'Have you ever visited a Pacific island nation?', sv: 'Har du någonsin besökt en Stillahavsönation?', de: 'Haben Sie jemals eine Pazifikinsel-Nation besucht?', fr: 'Avez-vous déjà visité une nation insulaire du Pacifique ?', es: '¿Has visitado alguna vez una nación isleña del Pacífico?', it: 'Hai mai visitato una nazione insulare del Pacifico?', pl: 'Czy odwiedziłeś kiedyś kraj wyspiarskie na Pacyfiku?', nl: 'Heb je ooit een Pacific eilandnatie bezocht?', pt: 'Você já visitou uma nação insular do Pacífico?' },
+      { en: 'What interests you more: history or marine life?', sv: 'Vad intresserar dig mer: historia eller marint liv?', de: 'Was interessiert Sie mehr: Geschichte oder Meeresleben?', fr: 'Qu\'est-ce qui vous intéresse davantage : l\'histoire ou la vie marine ?', es: '¿Qué te interesa más: la historia o la vida marina?', it: 'Cosa ti interessa di più: la storia o la vita marina?', pl: 'Co interesuje cię bardziej: historia czy życie morskie?', nl: 'Wat interesseert jou meer: geschiedenis of zeeleven?', pt: 'O que te interessa mais: história ou vida marinha?' },
+      { en: 'How important do you think village traditions are today?', sv: 'Hur viktiga tror du byntraditioner är idag?', de: 'Wie wichtig sind Dorftradionen Ihrer Meinung nach heute?', fr: 'Quelle importance accordez-vous aux traditions villageoises aujourd\'hui ?', es: '¿Qué tan importantes crees que son las tradiciones de las aldeas hoy en día?', it: 'Quanto pensi siano importanti le tradizioni dei villaggi oggi?', pl: 'Jak ważne są twoim zdaniem tradycje wiejskie dzisiaj?', nl: 'Hoe belangrijk denk je dat dorpstradities vandaag de dag zijn?', pt: 'Quão importantes você acha que são as tradições das aldeias hoje?' },
     ],
     quiz: [
       {

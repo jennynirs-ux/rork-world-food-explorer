@@ -206,7 +206,17 @@ export const guatemala: Country = {
         pt: 'Over 20 indigenous languages are spoken',
       },
     ],
-    foodCulture: 'Guatemalan cuisine blends Mayan and Spanish influences with corn, beans, and chilies as staples.',
+    foodCulture: {
+      en: 'Guatemalan cuisine blends Mayan and Spanish influences with corn, beans, and chilies as staples.',
+      sv: 'Guatemalansk mat blandar mayanska och spanska influenser med majs, bönor och chilipeppar som baskost.',
+      de: 'Die guatemaltekische Küche vereint Maya- und spanische Einflüsse, wobei Mais, Bohnen und Chilis die Grundnahrungsmittel sind.',
+      fr: 'La cuisine guatémaltèque mêle des influences mayas et espagnoles avec le maïs, les haricots et les piments comme aliments de base.',
+      es: 'La cocina guatemalteca mezcla influencias mayas y españolas con maíz, frijoles y chiles como alimentos básicos.',
+      it: 'La cucina guatemalteca mescola influenze maya e spagnole con mais, fagioli e peperoncini come alimenti base.',
+      pl: 'Kuchnia gwatemalska łączy wpływy Majów i Hiszpanów, a kukurydza, fasola i chili są podstawowymi składnikami.',
+      nl: 'De Guatemalteekse keuken combineert Maya- en Spaanse invloeden met maïs, bonen en chilipepers als basisvoedsel.',
+      pt: 'A culinária guatemalteca mistura influências maia e espanhola com milho, feijão e pimentas como alimentos básicos.',
+    },
     history: [
       {
         year: '250-900 AD',
@@ -997,20 +1007,20 @@ export const guatemala: Country = {
       nonAlcoholic: 'Horchata, Atol de elote, Rosa de Jamaica',
     },
     music: [
-      'Marimba music',
-      'Traditional Mayan songs',
-      'Latin pop',
+      { en: 'Marimba music', sv: 'Marimbamusik', de: 'Marimba-Musik', fr: 'Musique de marimba', es: 'Música de marimba', it: 'Musica di marimba', pl: 'Muzyka na marimbę', nl: 'Marimba-muziek', pt: 'Música de marimba' },
+      { en: 'Traditional Mayan songs', sv: 'Traditionella mayasånger', de: 'Traditionelle Maya-Lieder', fr: 'Chansons mayas traditionnelles', es: 'Canciones mayas tradicionales', it: 'Canzoni maya tradizionali', pl: 'Tradycyjne pieśni Majów', nl: 'Traditionele Maya-liedjes', pt: 'Canções maias tradicionais' },
+      { en: 'Latin pop', sv: 'Latinpop', de: 'Lateinamerikanischer Pop', fr: 'Pop latin', es: 'Pop latino', it: 'Pop latino', pl: 'Pop latynoski', nl: 'Latijnse pop', pt: 'Pop latino' },
     ],
     decorationIdeas: [
-      'Blue and white flag colors',
-      'Traditional weavings',
-      'Mayan symbols',
-      'Volcanic landscapes',
+      { en: 'Blue and white flag colors', sv: 'Blå och vita flaggfärger', de: 'Blau und Weiß (Flaggenfarben)', fr: 'Couleurs du drapeau bleu et blanc', es: 'Colores de la bandera azul y blanco', it: 'Colori della bandiera blu e bianco', pl: 'Niebieskie i białe kolory flagi', nl: 'Blauw en witte vlagkleuren', pt: 'Cores da bandeira azul e branco' },
+      { en: 'Traditional weavings', sv: 'Traditionella vävnader', de: 'Traditionelle Webereien', fr: 'Tissages traditionnels', es: 'Tejidos tradicionales', it: 'Tessuti tradizionali', pl: 'Tradycyjne tkaniny', nl: 'Traditionele weefsels', pt: 'Tecelagens tradicionais' },
+      { en: 'Mayan symbols', sv: 'Mayasymboler', de: 'Maya-Symbole', fr: 'Symboles mayas', es: 'Símbolos mayas', it: 'Simboli maya', pl: 'Symbole Majów', nl: 'Maya-symbolen', pt: 'Símbolos maias' },
+      { en: 'Volcanic landscapes', sv: 'Vulkaniska landskap', de: 'Vulkanische Landschaften', fr: 'Paysages volcaniques', es: 'Paisajes volcánicos', it: 'Paesaggi vulcanici', pl: 'Krajobrazy wulkaniczne', nl: 'Vulkanische landschappen', pt: 'Paisagens vulcânicas' },
     ],
     conversationStarters: [
-      'Have you visited Mayan ruins?',
-      'What do you know about indigenous textiles?',
-      'Do you enjoy volcano hiking?',
+      { en: 'Have you visited Mayan ruins?', sv: 'Har du besökt majaruiner?', de: 'Hast du Maya-Ruinen besucht?', fr: 'Avez-vous visité des ruines mayas ?', es: '¿Has visitado ruinas mayas?', it: 'Hai visitato rovine maya?', pl: 'Czy odwiedziłeś ruiny Majów?', nl: 'Heb je Maya-ruïnes bezocht?', pt: 'Você já visitou ruínas maias?' },
+      { en: 'What do you know about indigenous textiles?', sv: 'Vad vet du om inhemska textilier?', de: 'Was weißt du über indigene Textilien?', fr: 'Que savez-vous des textiles indigènes ?', es: '¿Qué sabes sobre los textiles indígenas?', it: 'Cosa sai dei tessuti indigeni?', pl: 'Co wiesz o rdzennych tekstyliach?', nl: 'Wat weet je over inheemse textiel?', pt: 'O que você sabe sobre os têxteis indígenas?' },
+      { en: 'Do you enjoy volcano hiking?', sv: 'Tycker du om vulkandandring?', de: 'Magst du Vulkanwanderungen?', fr: 'Aimez-vous randonnée sur les volcans ?', es: '¿Disfrutas del senderismo en volcanes?', it: 'Ti piace fare escursioni sui vulcani?', pl: 'Czy lubisz wędrówki po wulkanach?', nl: 'Geniet jij van vulkaan wandelingen?', pt: 'Você aprecia caminhadas em vulcões?' },
     ],
     quiz: [
       {

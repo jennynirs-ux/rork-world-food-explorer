@@ -206,7 +206,17 @@ export const liechtenstein: Country = {
         pt: 'One of the richest countries per capita',
       },
     ],
-    foodCulture: 'Liechtenstein cuisine is similar to Swiss and Austrian with cheese, meat, and pastries.',
+    foodCulture: {
+      en: 'Liechtenstein cuisine is similar to Swiss and Austrian with cheese, meat, and pastries.',
+      sv: 'Liechtensteins mat liknar schweizisk och österrikisk med ost, kött och bakverk.',
+      de: 'Die Liechtensteiner Küche ähnelt der schweizerischen und österreichischen mit Käse, Fleisch und Gebäck.',
+      fr: 'La cuisine du Liechtenstein est similaire à la suisse et à l\'autrichienne avec du fromage, de la viande et des pâtisseries.',
+      es: 'La cocina de Liechtenstein es similar a la suiza y austriaca con queso, carne y pasteles.',
+      it: 'La cucina del Liechtenstein è simile a quella svizzera e austriaca con formaggio, carne e dolci.',
+      pl: 'Kuchnia Liechtensteinu jest podobna do szwajcarskiej i austriackiej z serem, mięsem i ciastami.',
+      nl: 'De Liechtensteinse keuken lijkt op de Zwitserse en Oostenrijkse met kaas, vlees en gebak.',
+      pt: 'A culinária de Liechtenstein é semelhante à suíça e austríaca com queijo, carne e pastéis.',
+    },
     history: [
       {
         year: '1719',
@@ -954,19 +964,19 @@ export const liechtenstein: Country = {
       nonAlcoholic: 'Apple juice, Mountain spring water',
     },
     music: [
-      'Traditional Alpine folk',
-      'Classical music',
-      'Yodeling',
+      { en: 'Traditional Alpine folk', sv: 'Traditionell alpin folkmusik', de: 'Traditionelle Alpen-Volksmusik', fr: 'Folk alpin traditionnel', es: 'Folk alpino tradicional', it: 'Folk alpino tradizionale', pl: 'Tradycyjna alpejska muzyka ludowa', nl: 'Traditionele Alpse volksmuziek', pt: 'Folk alpino tradicional' },
+      { en: 'Classical music', sv: 'Klassisk musik', de: 'Klassische Musik', fr: 'Musique classique', es: 'Música clásica', it: 'Musica classica', pl: 'Muzyka klasyczna', nl: 'Klassieke muziek', pt: 'Música clássica' },
+      { en: 'Yodeling', sv: 'Joddling', de: 'Jodeln', fr: 'Yodel', es: 'Yodel', it: 'Yodel', pl: 'Jodłowanie', nl: 'Jodelen', pt: 'Iodeling' },
     ],
     decorationIdeas: [
-      'Blue and red flag colors',
-      'Castle imagery',
-      'Alpine mountain themes',
-      'Swiss-style decor',
+      { en: 'Blue and red flag colors', sv: 'Blå och röda flaggfärger', de: 'Blaue und rote Flaggenfarben', fr: 'Couleurs du drapeau bleu et rouge', es: 'Colores de la bandera azul y rojo', it: 'Colori della bandiera blu e rosso', pl: 'Niebieskie i czerwone kolory flagi', nl: 'Blauwe en rode vlagkleuren', pt: 'Cores da bandeira azul e vermelho' },
+      { en: 'Castle imagery', sv: 'Slottsbilder', de: 'Schloss-Motive', fr: 'Images de châteaux', es: 'Imágenes de castillos', it: 'Immagini di castelli', pl: 'Motywy zamków', nl: 'Kasteel beelden', pt: 'Imagens de castelos' },
+      { en: 'Alpine mountain themes', sv: 'Alpina bergateman', de: 'Alpenbergthemen', fr: 'Thèmes des montagnes alpines', es: 'Temas de montañas alpinas', it: 'Temi delle montagne alpine', pl: 'Motywy alpejskich gór', nl: 'Alpiene bergthema\'s', pt: 'Temas de montanhas alpinas' },
+      { en: 'Swiss-style decor', sv: 'Schweizisk-stil dekoration', de: 'Schweizer Stil-Dekor', fr: 'Décoration de style suisse', es: 'Decoración estilo suizo', it: 'Decorazione in stile svizzero', pl: 'Dekoracja w stylu szwajcarskim', nl: 'Zwitserse stijl decor', pt: 'Decoração estilo suíço' },
     ],
     conversationStarters: [
-      'Have you visited any micro-nations?',
-      'Do you enjoy Alpine skiing?',
+      { en: 'Have you visited any micro-nations?', sv: 'Har du besökt några mikronationer?', de: 'Hast du Mikronationen besucht?', fr: 'Avez-vous visité des micro-nations?', es: '¿Has visitado alguna micro-nación?', it: 'Hai visitato micro-nazioni?', pl: 'Czy odwiedziłeś jakieś mikronacje?', nl: 'Heb je micro-naties bezocht?', pt: 'Você já visitou alguma micronação?' },
+      { en: 'Do you enjoy Alpine skiing?', sv: 'Gillar du alpinåkning?', de: 'Magst du Alpinski?', fr: 'Aimez-vous le ski alpin?', es: '¿Disfrutas del esquí alpino?', it: 'Ti piace lo sci alpino?', pl: 'Czy lubisz narciarstwo alpejskie?', nl: 'Geniet je van alpineskiën?', pt: 'Você aprecia o esqui alpino?' },
     ],
     quiz: [
       {

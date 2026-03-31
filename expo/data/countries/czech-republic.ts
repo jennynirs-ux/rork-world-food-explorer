@@ -250,7 +250,17 @@ export const czechRepublic: Country = {
         pt: 'Czechs consume the most meat per capita in Europe',
       },
     ],
-    foodCulture: 'Czech cuisine is hearty and filling, featuring pork, beef, dumplings, and sauerkraut. Meals are substantial and traditionally served with beer. Influenced by Austrian and German cuisines, dishes are rich and savory, perfect for the Central European climate.',
+    foodCulture: {
+      en: 'Czech cuisine is hearty and filling, featuring pork, beef, dumplings, and sauerkraut. Meals are substantial and traditionally served with beer. Influenced by Austrian and German cuisines, dishes are rich and savory, perfect for the Central European climate.',
+      sv: 'Tjeckisk mat är rejäl och mättande, med fläsk, nötkött, klimpar och surkål. Måltider är substansiella och serveras traditionellt med öl. Påverkad av österrikisk och tysk mat är rätterna rika och välsmakande, perfekta för det centraleuropeiska klimatet.',
+      de: 'Die tschechische Küche ist herzhaft und sättigend mit Schweinefleisch, Rindfleisch, Knödeln und Sauerkraut. Mahlzeiten sind substantiell und werden traditionell mit Bier serviert. Beeinflusst von österreichischer und deutscher Küche sind die Gerichte reichhaltig und würzig, perfekt für das mitteleuropäische Klima.',
+      fr: 'La cuisine tchèque est copieuse et rassasiante, avec du porc, du bœuf, des knedlíky (boulettes) et de la choucroute. Les repas sont substantiels et traditionnellement servis avec de la bière. Influencés par les cuisines autrichienne et allemande, les plats sont riches et savoureux, parfaits pour le climat d\'Europe centrale.',
+      es: 'La cocina checa es abundante y contundente, con cerdo, ternera, albóndigas y chucrut. Las comidas son sustanciales y se sirven tradicionalmente con cerveza. Influenciados por las cocinas austriaca y alemana, los platos son ricos y sabrosos, perfectos para el clima de Europa Central.',
+      it: 'La cucina ceca è sostanziosa e saziante, con maiale, manzo, gnocchi e crauti. I pasti sono abbondanti e tradizionalmente serviti con birra. Influenzati dalla cucina austriaca e tedesca, i piatti sono ricchi e saporiti, perfetti per il clima dell\'Europa centrale.',
+      pl: 'Kuchnia czeska jest syta i wypełniająca, z wieprzowiną, wołowiną, kluskami i kiszoną kapustą. Posiłki są solidne i tradycyjnie podawane z piwem. Pod wpływem kuchni austriackiej i niemieckiej potrawy są bogate i pikantne, idealne do środkowoeuropejskiego klimatu.',
+      nl: 'De Tsjechische keuken is stevig en vullend, met varkensvlees, rundvlees, knoedels en zuurkool. Maaltijden zijn substantieel en worden traditioneel geserveerd met bier. Beïnvloed door Oostenrijkse en Duitse keukens zijn de gerechten rijk en hartig, perfect voor het Midden-Europese klimaat.',
+      pt: 'A culinária tcheca é farta e substancial, com porco, carne bovina, bolinhos e chucrute. As refeições são substanciais e tradicionalmente servidas com cerveja. Influenciados pelas culinárias austríaca e alemã, os pratos são ricos e saborosos, perfeitos para o clima da Europa Central.',
+    },
     innovations: [
       {
         name: {
@@ -967,23 +977,23 @@ export const czechRepublic: Country = {
       nonAlcoholic: 'Kofola (Czech cola), Lemonade, Mineral water',
     },
     music: [
-      'Classical music (Dvořák, Smetana)',
-      'Folk music',
-      'Modern Czech rock and pop',
+      { en: 'Classical music (Dvořák, Smetana)', sv: 'Klassisk musik (Dvořák, Smetana)', de: 'Klassische Musik (Dvořák, Smetana)', fr: 'Musique classique (Dvořák, Smetana)', es: 'Música clásica (Dvořák, Smetana)', it: 'Musica classica (Dvořák, Smetana)', pl: 'Muzyka klasyczna (Dvořák, Smetana)', nl: 'Klassieke muziek (Dvořák, Smetana)', pt: 'Música clássica (Dvořák, Smetana)' },
+      { en: 'Folk music', sv: 'Folkmusik', de: 'Volksmusik', fr: 'Musique folklorique', es: 'Música folclórica', it: 'Musica folk', pl: 'Muzyka ludowa', nl: 'Volksmuziek', pt: 'Música folclórica' },
+      { en: 'Modern Czech rock and pop', sv: 'Modern tjeckisk rock och pop', de: 'Moderner tschechischer Rock und Pop', fr: 'Rock et pop tchèques modernes', es: 'Rock y pop checo moderno', it: 'Rock e pop ceco moderno', pl: 'Nowoczesny czeski rock i pop', nl: 'Moderne Tsjechische rock en pop', pt: 'Rock e pop tcheco moderno' },
     ],
     decorationIdeas: [
-      'Bohemian crystal glassware',
-      'Red, white, and blue (flag colors)',
-      'Gothic and Baroque architectural elements',
-      'Hops and beer-themed decorations',
-      'Wooden folk art',
-      'Medieval castle motifs',
+      { en: 'Bohemian crystal glassware', sv: 'Böhmiskt kristallglas', de: 'Böhmisches Kristallglas', fr: 'Verrerie en cristal de Bohême', es: 'Cristalería de Bohemia', it: 'Cristalleria boema', pl: 'Czeskie szkło kryształowe', nl: 'Boheems kristallen glaswerk', pt: 'Cristaleria boêmia' },
+      { en: 'Red, white, and blue (flag colors)', sv: 'Rött, vitt och blått (flaggfärger)', de: 'Rot, Weiß und Blau (Flaggenfarben)', fr: 'Rouge, blanc et bleu (couleurs du drapeau)', es: 'Rojo, blanco y azul (colores de la bandera)', it: 'Rosso, bianco e blu (colori della bandiera)', pl: 'Czerwony, biały i niebieski (kolory flagi)', nl: 'Rood, wit en blauw (vlagkleuren)', pt: 'Vermelho, branco e azul (cores da bandeira)' },
+      { en: 'Gothic and Baroque architectural elements', sv: 'Gotiska och barocka arkitekturlement', de: 'Gotische und Barocke Architekturelemente', fr: 'Éléments architecturaux gothiques et baroques', es: 'Elementos arquitectónicos góticos y barrocos', it: 'Elementi architettonici gotici e barocchi', pl: 'Elementy architektoniczne gotyckie i barokowe', nl: 'Gotische en Barokke architectuurelementen', pt: 'Elementos arquitetônicos góticos e barrocos' },
+      { en: 'Hops and beer-themed decorations', sv: 'Humle- och öltematiska dekorationer', de: 'Hopfen- und Bier-dekorationen', fr: 'Décorations sur le thème du houblon et de la bière', es: 'Decoraciones temáticas de lúpulo y cerveza', it: 'Decorazioni a tema luppolo e birra', pl: 'Dekoracje na temat chmielu i piwa', nl: 'Hop- en biergerelateerde decoraties', pt: 'Decorações temáticas de lúpulo e cerveja' },
+      { en: 'Wooden folk art', sv: 'Träfolkkonst', de: 'Hölzerne Volkskunst', fr: 'Art populaire en bois', es: 'Arte popular de madera', it: 'Arte popolare in legno', pl: 'Drewniana sztuka ludowa', nl: 'Houten volkskunst', pt: 'Arte popular em madeira' },
+      { en: 'Medieval castle motifs', sv: 'Medeltida slottsmotiv', de: 'Mittelalterliche Burgmotive', fr: 'Motifs de châteaux médiévaux', es: 'Motivos de castillos medievales', it: 'Motivi di castelli medievali', pl: 'Motywy średniowiecznych zamków', nl: 'Middeleeuwse kasteelmotieven', pt: 'Motivos de castelos medievais' },
     ],
     conversationStarters: [
-      'Have you been to Prague? What did you think of the architecture?',
-      'Which Czech beer is your favorite: Pilsner Urquell or Budvar?',
-      'Would you explore medieval castles or enjoy spa towns like Karlovy Vary?',
-      'What do you know about the Velvet Revolution?',
+      { en: 'Have you been to Prague? What did you think of the architecture?', sv: 'Har du varit i Prag? Vad tyckte du om arkitekturen?', de: 'Waren Sie in Prag? Was dachten Sie über die Architektur?', fr: 'Êtes-vous allé à Prague ? Qu\'avez-vous pensé de l\'architecture ?', es: '¿Has estado en Praga? ¿Qué te pareció la arquitectura?', it: 'Sei mai stato a Praga? Cosa hai pensato dell\'architettura?', pl: 'Czy byłeś w Pradze? Co myślałeś o architekturze?', nl: 'Ben je in Praag geweest? Wat vond je van de architectuur?', pt: 'Você já esteve em Praga? O que achou da arquitetura?' },
+      { en: 'Which Czech beer is your favorite: Pilsner Urquell or Budvar?', sv: 'Vilket tjeckiskt öl är ditt favorit: Pilsner Urquell eller Budvar?', de: 'Welches tschechische Bier ist Ihr Favorit: Pilsner Urquell oder Budvar?', fr: 'Quelle bière tchèque préférez-vous : Pilsner Urquell ou Budvar ?', es: '¿Cuál es tu cerveza checa favorita: Pilsner Urquell o Budvar?', it: 'Qual è la tua birra ceca preferita: Pilsner Urquell o Budvar?', pl: 'Które czeskie piwo jest twoim ulubionym: Pilsner Urquell czy Budvar?', nl: 'Welk Tsjechisch bier is jouw favoriet: Pilsner Urquell of Budvar?', pt: 'Qual cerveja tcheca é sua favorita: Pilsner Urquell ou Budvar?' },
+      { en: 'Would you explore medieval castles or enjoy spa towns like Karlovy Vary?', sv: 'Skulle du utforska medeltida slott eller njuta av kurort som Karlovy Vary?', de: 'Würden Sie mittelalterliche Burgen erkunden oder Kurstädte wie Karlsbad genießen?', fr: 'Exploreriez-vous des châteaux médiévaux ou profiteriez-vous de villes thermales comme Karlovy Vary ?', es: '¿Explorarías castillos medievales o disfrutarías de ciudades balneario como Karlovy Vary?', it: 'Esploreresti castelli medievali o godresti di città termali come Karlovy Vary?', pl: 'Czy wolisz odkrywać średniowieczne zamki czy cieszyć się uzdrowiskami jak Karlove Vary?', nl: 'Zou je middeleeuwse kastelen verkennen of genieten van kursteden zoals Karlsbad?', pt: 'Você exploraria castelos medievais ou aproveitaria cidades termais como Karlovy Vary?' },
+      { en: 'What do you know about the Velvet Revolution?', sv: 'Vad vet du om sammetsrevolutionen?', de: 'Was wissen Sie über die Samtene Revolution?', fr: 'Que savez-vous de la Révolution de velours ?', es: '¿Qué sabes sobre la Revolución de Terciopelo?', it: 'Cosa sai della Rivoluzione di Velluto?', pl: 'Co wiesz o Aksamitnej Rewolucji?', nl: 'Wat weet je over de Fluwelen Revolutie?', pt: 'O que você sabe sobre a Revolução de Veludo?' },
     ],
     quiz: [
       {

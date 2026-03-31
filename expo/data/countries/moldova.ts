@@ -206,7 +206,17 @@ export const moldova: Country = {
         pt: 'Rich in agricultural production',
       },
     ],
-    foodCulture: 'Moldovan cuisine blends Romanian, Russian, and Ukrainian influences with hearty meat dishes and fresh vegetables.',
+    foodCulture: {
+      en: 'Moldovan cuisine blends Romanian, Russian, and Ukrainian influences with hearty meat dishes and fresh vegetables.',
+      sv: 'Moldavisk mat blandar rumänska, ryska och ukrainska influenser med kraftiga kötträtter och färska grönsaker.',
+      de: 'Die moldauische Küche verbindet rumänische, russische und ukrainische Einflüsse mit herzhaften Fleischgerichten und frischem Gemüse.',
+      fr: 'La cuisine moldave mêle des influences roumaines, russes et ukrainiennes avec des plats de viande copieux et des légumes frais.',
+      es: 'La cocina moldava mezcla influencias rumanas, rusas y ucranianas con platos de carne contundentes y verduras frescas.',
+      it: 'La cucina moldava mescola influenze rumene, russe e ucraine con sostanziosi piatti di carne e verdure fresche.',
+      pl: 'Kuchnia mołdawska łączy wpływy rumuńskie, rosyjskie i ukraińskie z sytymi daniami mięsnymi i świeżymi warzywami.',
+      nl: 'De Moldavische keuken combineert Roemeense, Russische en Oekraïense invloeden met stevige vleesgerechten en verse groenten.',
+      pt: 'A cozinha moldava mistura influências romenas, russas e ucranianas com pratos de carne substanciais e legumes frescos.',
+    },
     history: [
       {
         year: '1359',
@@ -907,19 +917,19 @@ export const moldova: Country = {
       nonAlcoholic: 'Compot (fruit drink), Kvass',
     },
     music: [
-      'Traditional folk music',
-      'Moldovan hora dance',
-      'Contemporary pop',
+      { en: 'Traditional folk music', sv: 'Traditionell folkmusik', de: 'Traditionelle Volksmusik', fr: 'Musique folklorique traditionnelle', es: 'Música folclórica tradicional', it: 'Musica folk tradizionale', pl: 'Tradycyjna muzyka ludowa', nl: 'Traditionele volksmuziek', pt: 'Música folclórica tradicional' },
+      { en: 'Moldovan hora dance', sv: 'Moldavisk hora-dans', de: 'Moldauischer Hora-Tanz', fr: 'Danse hora moldave', es: 'Danza hora moldava', it: 'Danza hora moldava', pl: 'Mołdawski taniec hora', nl: 'Moldavische hora dans', pt: 'Dança hora moldava' },
+      { en: 'Contemporary pop', sv: 'Nutida pop', de: 'Zeitgenössischer Pop', fr: 'Pop contemporaine', es: 'Pop contemporáneo', it: 'Pop contemporaneo', pl: 'Współczesny pop', nl: 'Hedendaagse pop', pt: 'Pop contemporâneo' },
     ],
     decorationIdeas: [
-      'Blue, yellow and red flag colors',
-      'Vineyard imagery',
-      'Traditional patterns',
-      'Wine cellar themes',
+      { en: 'Blue, yellow and red flag colors', sv: 'Blå, gula och röda flaggfärger', de: 'Blau, Gelb und Rot der Flaggenfarben', fr: 'Couleurs du drapeau : bleu, jaune et rouge', es: 'Colores de la bandera: azul, amarillo y rojo', it: 'Colori della bandiera: blu, giallo e rosso', pl: 'Niebieskie, żółte i czerwone barwy flagi', nl: 'Blauw, geel en rood van de vlagkleuren', pt: 'Cores da bandeira: azul, amarelo e vermelho' },
+      { en: 'Vineyard imagery', sv: 'Vingårdsbilder', de: 'Weinberg-Bilder', fr: 'Images de vignobles', es: 'Imágenes de viñedos', it: 'Immagini di vigneti', pl: 'Obrazy winnicy', nl: 'Wijngaard afbeeldingen', pt: 'Imagens de vinhedos' },
+      { en: 'Traditional patterns', sv: 'Traditionella mönster', de: 'Traditionelle Muster', fr: 'Motifs traditionnels', es: 'Patrones tradicionales', it: 'Motivi tradizionali', pl: 'Tradycyjne wzory', nl: 'Traditionele patronen', pt: 'Padrões tradicionais' },
+      { en: 'Wine cellar themes', sv: 'Vinkällarteman', de: 'Weinkeller-Motive', fr: 'Thèmes de cave à vin', es: 'Temas de bodega de vino', it: 'Temi di cantina vinicola', pl: 'Motywy piwnicy winnej', nl: 'Wijnkelder thema\'s', pt: 'Temas de adega' },
     ],
     conversationStarters: [
-      'Have you tried Moldovan wine?',
-      'What do you know about Eastern European cuisine?',
+      { en: 'Have you tried Moldovan wine?', sv: 'Har du provat moldaviskt vin?', de: 'Hast du moldauischen Wein probiert?', fr: 'Avez-vous essayé le vin moldave ?', es: '¿Has probado el vino moldavo?', it: 'Hai assaggiato il vino moldavo?', pl: 'Czy próbowałeś mołdawskiego wina?', nl: 'Heb je Moldavische wijn geprobeerd?', pt: 'Você já experimentou vinho moldavo?' },
+      { en: 'What do you know about Eastern European cuisine?', sv: 'Vad vet du om östeuropeisk mat?', de: 'Was weißt du über osteuropäische Küche?', fr: 'Que savez-vous de la cuisine d\'Europe de l\'Est ?', es: '¿Qué sabes sobre la cocina de Europa del Este?', it: 'Cosa sai della cucina dell\'Europa orientale?', pl: 'Co wiesz o kuchni Europy Wschodniej?', nl: 'Wat weet je over Oost-Europese keuken?', pt: 'O que você sabe sobre a culinária da Europa Oriental?' },
     ],
     quiz: [
       {

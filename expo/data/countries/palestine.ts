@@ -206,7 +206,17 @@ export const palestine: Country = {
         pt: 'Home to important religious sites',
       },
     ],
-    foodCulture: 'Palestinian cuisine features Levantine dishes with olive oil, za\'atar, and fresh vegetables.',
+    foodCulture: {
+      en: 'Palestinian cuisine features Levantine dishes with olive oil, za\'atar, and fresh vegetables.',
+      sv: 'Palestinsk mat erbjuder levantinska rätter med olivolja, za\'atar och färska grönsaker.',
+      de: 'Die palästinensische Küche bietet levantinische Gerichte mit Olivenöl, Za\'atar und frischem Gemüse.',
+      fr: 'La cuisine palestinienne propose des plats levantin à base d\'huile d\'olive, de za\'atar et de légumes frais.',
+      es: 'La cocina palestina ofrece platos levantinos con aceite de oliva, za\'atar y verduras frescas.',
+      it: 'La cucina palestinese propone piatti levantini con olio d\'oliva, za\'atar e verdure fresche.',
+      pl: 'Kuchnia palestyńska oferuje dania lewantyńskie z oliwą z oliwek, za\'atarem i świeżymi warzywami.',
+      nl: 'De Palestijnse keuken biedt Levantijnse gerechten met olijfolie, za\'atar en verse groenten.',
+      pt: 'A culinária palestina apresenta pratos levantinos com azeite de oliva, za\'atar e legumes frescos.',
+    },
     history: [
       {
         year: 'Ancient',
@@ -1004,19 +1014,19 @@ export const palestine: Country = {
       nonAlcoholic: 'Arabic coffee, Mint tea, Tamarind juice',
     },
     music: [
-      'Traditional Dabke',
-      'Arabic folk songs',
-      'Oud music',
+      { en: 'Traditional Dabke', sv: 'Traditionell Dabke', de: 'Traditionelle Dabke', fr: 'Dabke traditionnel', es: 'Dabke tradicional', it: 'Dabke tradizionale', pl: 'Tradycyjna Dabke', nl: 'Traditionele Dabke', pt: 'Dabke tradicional' },
+      { en: 'Arabic folk songs', sv: 'Arabiska folksånger', de: 'Arabische Volkslieder', fr: 'Chansons folkloriques arabes', es: 'Canciones folclóricas árabes', it: 'Canzoni folk arabe', pl: 'Arabskie pieśni ludowe', nl: 'Arabische volksliederen', pt: 'Canções folclóricas árabes' },
+      { en: 'Oud music', sv: 'Oudmusik', de: 'Oud-Musik', fr: 'Musique de oud', es: 'Música de oud', it: 'Musica di oud', pl: 'Muzyka na oudzie', nl: 'Oud-muziek', pt: 'Música de oud' },
     ],
     decorationIdeas: [
-      'Black, white, red and green flag colors',
-      'Olive tree motifs',
-      'Traditional embroidery',
-      'Historical sites imagery',
+      { en: 'Black, white, red and green flag colors', sv: 'Svarta, vita, röda och gröna flaggfärger', de: 'Schwarze, weiße, rote und grüne Flaggenfarben', fr: 'Couleurs du drapeau noir, blanc, rouge et vert', es: 'Colores de la bandera negro, blanco, rojo y verde', it: 'Colori della bandiera nero, bianco, rosso e verde', pl: 'Czarne, białe, czerwone i zielone kolory flagi', nl: 'Zwarte, witte, rode en groene vlagkleuren', pt: 'Cores da bandeira preto, branco, vermelho e verde' },
+      { en: 'Olive tree motifs', sv: 'Olivträds-motiv', de: 'Olivenbaum-Motive', fr: 'Motifs d\'olivier', es: 'Motivos de olivos', it: 'Motivi dell\'albero d\'ulivo', pl: 'Motywy drzew oliwnych', nl: 'Olijfboom-motieven', pt: 'Motivos de oliveiras' },
+      { en: 'Traditional embroidery', sv: 'Traditionell broderi', de: 'Traditionelle Stickerei', fr: 'Broderie traditionnelle', es: 'Bordado tradicional', it: 'Ricamo tradizionale', pl: 'Tradycyjne haftowanie', nl: 'Traditioneel borduurwerk', pt: 'Bordado tradicional' },
+      { en: 'Historical sites imagery', sv: 'Historiska platsbilder', de: 'Bilder historischer Stätten', fr: 'Images de sites historiques', es: 'Imágenes de lugares históricos', it: 'Immagini di siti storici', pl: 'Zdjęcia miejsc historycznych', nl: 'Afbeeldingen van historische plaatsen', pt: 'Imagens de locais históricos' },
     ],
     conversationStarters: [
-      'Have you tried Palestinian olive oil?',
-      'What do you know about Levantine cuisine?',
+      { en: 'Have you tried Palestinian olive oil?', sv: 'Har du provat palestinskt olivolja?', de: 'Hast du palästinensisches Olivenöl probiert?', fr: 'Avez-vous essayé l\'huile d\'olive palestinienne ?', es: '¿Has probado el aceite de oliva palestino?', it: 'Hai provato l\'olio d\'oliva palestinese?', pl: 'Czy próbowałeś palestyńskiej oliwy z oliwek?', nl: 'Heb je Palestijnse olijfolie geprobeerd?', pt: 'Você já experimentou azeite de oliva palestino?' },
+      { en: 'What do you know about Levantine cuisine?', sv: 'Vad vet du om levantinsk mat?', de: 'Was weißt du über die levantinische Küche?', fr: 'Que savez-vous de la cuisine levantine ?', es: '¿Qué sabes sobre la cocina levantina?', it: 'Cosa sai della cucina levantina?', pl: 'Co wiesz o kuchni lewantyńskiej?', nl: 'Wat weet je over de Levantijnse keuken?', pt: 'O que você sabe sobre a culinária levantina?' },
     ],
     quiz: [
       {

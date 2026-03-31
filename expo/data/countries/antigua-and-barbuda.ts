@@ -250,7 +250,17 @@ export const antiguaAndBarbuda: Country = {
         pt: 'Sailing Week is one of the Caribbean\'s top regattas',
       },
     ],
-    foodCulture: 'Caribbean cuisine with African, British, and indigenous influences. Fresh seafood, tropical fruits, and spicy dishes are staples. Fungi (cornmeal and okra) and saltfish are traditional favorites.',
+    foodCulture: {
+      en: 'Caribbean cuisine with African, British, and indigenous influences. Fresh seafood, tropical fruits, and spicy dishes are staples. Fungi (cornmeal and okra) and saltfish are traditional favorites.',
+      sv: 'Karibisk mat med afrikanska, brittiska och inhemska influenser. Färska skaldjur, tropiska frukter och kryddiga rätter är stapelvaror. Fungi (majsmjöl och okra) och saltfisk är traditionella favoriter.',
+      de: 'Karibische Küche mit afrikanischen, britischen und einheimischen Einflüssen. Frische Meeresfrüchte, tropische Früchte und würzige Gerichte sind Grundnahrungsmittel. Fungi (Maismehl und Okra) und Salzfisch sind traditionelle Favoriten.',
+      fr: 'Cuisine caribéenne avec des influences africaines, britanniques et indigènes. Les fruits de mer frais, les fruits tropicaux et les plats épicés sont des aliments de base. Les fungi (farine de maïs et gombo) et le poisson salé sont des favoris traditionnels.',
+      es: 'Cocina caribeña con influencias africanas, británicas e indígenas. Los mariscos frescos, las frutas tropicales y los platos picantes son alimentos básicos. Los fungi (harina de maíz y quimbombó) y el bacalao salado son favoritos tradicionales.',
+      it: 'Cucina caraibica con influenze africane, britanniche e indigene. Frutti di mare freschi, frutta tropicale e piatti speziati sono gli alimenti base. I fungi (farina di mais e okra) e il pesce salato sono i preferiti tradizionali.',
+      pl: 'Kuchnia karaibska z wpływami afrykańskimi, brytyjskimi i rdzennymi. Świeże owoce morza, owoce tropikalne i pikantne potrawy są podstawą. Fungi (mąka kukurydziana i okra) i solona ryba to tradycyjne ulubieńcy.',
+      nl: 'Caribische keuken met Afrikaanse, Britse en inheemse invloeden. Verse zeevruchten, tropisch fruit en gekruide gerechten zijn basisvoedsel. Fungi (maïsmeel en okra) en gezouten vis zijn traditionele favorieten.',
+      pt: 'Culinária caribenha com influências africanas, britânicas e indígenas. Frutos do mar frescos, frutas tropicais e pratos picantes são alimentos básicos. Fungi (farinha de milho e quiabo) e peixe salgado são os favoritos tradicionais.',
+    },
     history: [
       {
         year: 'Pre-1493',
@@ -1162,21 +1172,21 @@ export const antiguaAndBarbuda: Country = {
       nonAlcoholic: 'Coconut water, Tamarind juice, Sorrel drink',
     },
     music: [
-      'Calypso',
-      'Soca',
-      'Reggae',
-      'Steel pan music',
+      { en: 'Calypso', sv: 'Calypso', de: 'Calypso', fr: 'Calypso', es: 'Calypso', it: 'Calypso', pl: 'Calypso', nl: 'Calypso', pt: 'Calypso' },
+      { en: 'Soca', sv: 'Soca', de: 'Soca', fr: 'Soca', es: 'Soca', it: 'Soca', pl: 'Soca', nl: 'Soca', pt: 'Soca' },
+      { en: 'Reggae', sv: 'Reggae', de: 'Reggae', fr: 'Reggae', es: 'Reggae', it: 'Reggae', pl: 'Reggae', nl: 'Reggae', pt: 'Reggae' },
+      { en: 'Steel pan music', sv: 'Ståltrummusik', de: 'Steel-Pan-Musik', fr: 'Musique de steel pan', es: 'Música de steel pan', it: 'Musica di steel pan', pl: 'Muzyka steel pan', nl: 'Steel pan muziek', pt: 'Música de steel pan' },
     ],
     decorationIdeas: [
-      'Tropical flowers and palm leaves',
-      'Bright Caribbean colors',
-      'Beach and ocean themes',
-      'Cricket equipment',
+      { en: 'Tropical flowers and palm leaves', sv: 'Tropiska blommor och palmblad', de: 'Tropische Blumen und Palmblätter', fr: 'Fleurs tropicales et feuilles de palmier', es: 'Flores tropicales y hojas de palma', it: 'Fiori tropicali e foglie di palma', pl: 'Tropikalne kwiaty i liście palmowe', nl: 'Tropische bloemen en palmbladen', pt: 'Flores tropicais e folhas de palmeira' },
+      { en: 'Bright Caribbean colors', sv: 'Livfulla karibiska färger', de: 'Leuchtende karibische Farben', fr: 'Couleurs caribéennes vives', es: 'Colores caribeños brillantes', it: 'Colori caraibici vivaci', pl: 'Jasne kolory karaibskie', nl: 'Heldere Caribische kleuren', pt: 'Cores caribenhas vibrantes' },
+      { en: 'Beach and ocean themes', sv: 'Strand- och havsteman', de: 'Strand- und Ozeanthemen', fr: 'Thèmes de plage et d\'océan', es: 'Temas de playa y océano', it: 'Temi di spiaggia e oceano', pl: 'Motywy plażowe i oceaniczne', nl: 'Strand- en oceaanthema\'s', pt: 'Temas de praia e oceano' },
+      { en: 'Cricket equipment', sv: 'Cricketutrustning', de: 'Kricketausrüstung', fr: 'Équipement de cricket', es: 'Equipo de cricket', it: 'Attrezzatura da cricket', pl: 'Sprzęt krykietowy', nl: 'Cricket-uitrusting', pt: 'Equipamento de críquete' },
     ],
     conversationStarters: [
-      'Have you experienced Caribbean carnival?',
-      'What\'s your favorite beach destination?',
-      'Do you enjoy water sports?',
+      { en: 'Have you experienced Caribbean carnival?', sv: 'Har du upplevt karibisk karneval?', de: 'Haben Sie karibischen Karneval erlebt?', fr: 'Avez-vous vécu le carnaval caribéen?', es: '¿Has vivido el carnaval caribeño?', it: 'Hai vissuto il carnevale caraibico?', pl: 'Czy doświadczyłeś karaibskiego karnawału?', nl: 'Heb je het Caribisch carnaval meegemaakt?', pt: 'Você já vivenciou o carnaval caribenho?' },
+      { en: 'What\'s your favorite beach destination?', sv: 'Vilket är ditt favoritstranddestination?', de: 'Was ist Ihr Lieblingstrandziel?', fr: 'Quelle est votre destination de plage préférée?', es: '¿Cuál es tu destino de playa favorito?', it: 'Qual è la tua destinazione balneare preferita?', pl: 'Jakie jest twoje ulubione miejsce na plaży?', nl: 'Wat is je favoriete strandbestemming?', pt: 'Qual é o seu destino de praia favorito?' },
+      { en: 'Do you enjoy water sports?', sv: 'Tycker du om vattensporter?', de: 'Mögen Sie Wassersport?', fr: 'Aimez-vous les sports nautiques?', es: '¿Disfrutas de los deportes acuáticos?', it: 'Ti piacciono gli sport acquatici?', pl: 'Czy lubisz sporty wodne?', nl: 'Houd je van watersporten?', pt: 'Você gosta de esportes aquáticos?' },
     ],
     quiz: [
       {

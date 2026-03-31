@@ -12,6 +12,7 @@ import { initializeNotifications } from '@/lib/notifications';
 import { cache } from '@/lib/cache';
 import { calculateSkillLevel } from '@/lib/nutrition';
 import { hasActiveRedeemedCode, redeemShareCode, getOrCreateShareCode, shareCode } from '@/lib/share-codes';
+import { maybeAskForReview } from '@/lib/review-prompt';
 
 const STORAGE_KEYS = {
   USER_PROFILE: '@world_cooking_user_profile',
@@ -362,6 +363,11 @@ export const [AppProvider, useApp] = createContextHook(() => {
 
         if (hasChanges) {
           void AsyncStorage.setItem(STORAGE_KEYS.BADGES, JSON.stringify(updatedBadges));
+          // Ask for a review when the user earns their 3rd badge — strong engagement signal
+          const newlyEarnedCount = updatedBadges.filter(b => b.earned).length;
+          if (newlyEarnedCount === 3) {
+            setTimeout(() => void maybeAskForReview(), 2500);
+          }
           return updatedBadges;
         }
         return prevBadges;

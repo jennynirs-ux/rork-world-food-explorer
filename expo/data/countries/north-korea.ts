@@ -206,7 +206,17 @@ export const northKorea: Country = {
         pt: 'Mountainous terrain covers 80% of the country',
       },
     ],
-    foodCulture: 'North Korean cuisine features rice, kimchi, and noodles with Korean traditions.',
+    foodCulture: {
+      en: 'North Korean cuisine features rice, kimchi, and noodles with Korean traditions.',
+      sv: 'Nordkoreansk mat innehåller ris, kimchi och nudlar med koreanska traditioner.',
+      de: 'Die nordkoreanische Küche bietet Reis, Kimchi und Nudeln nach koreanischen Traditionen.',
+      fr: 'La cuisine nord-coréenne se compose de riz, de kimchi et de nouilles selon les traditions coréennes.',
+      es: 'La cocina norcoreana incluye arroz, kimchi y fideos con tradiciones coreanas.',
+      it: 'La cucina nordcoreana comprende riso, kimchi e noodle secondo le tradizioni coreane.',
+      pl: 'Kuchnia północnokoreańska obejmuje ryż, kimchi i makaron zgodnie z koreańskimi tradycjami.',
+      nl: 'De Noord-Koreaanse keuken bevat rijst, kimchi en noedels met Koreaanse tradities.',
+      pt: 'A culinária norte-coreana apresenta arroz, kimchi e macarrão com tradições coreanas.',
+    },
     history: [
       {
         year: '1945',
@@ -953,17 +963,17 @@ export const northKorea: Country = {
       nonAlcoholic: 'Barley tea, Corn tea',
     },
     music: [
-      'Traditional Korean music',
-      'Revolutionary songs',
+      { en: 'Traditional Korean music', sv: 'Traditionell koreansk musik', de: 'Traditionelle koreanische Musik', fr: 'Musique coréenne traditionnelle', es: 'Música coreana tradicional', it: 'Musica coreana tradizionale', pl: 'Tradycyjna muzyka koreańska', nl: 'Traditionele Koreaanse muziek', pt: 'Música coreana tradicional' },
+      { en: 'Revolutionary songs', sv: 'Revolutionssånger', de: 'Revolutionslieder', fr: 'Chants révolutionnaires', es: 'Canciones revolucionarias', it: 'Canti rivoluzionari', pl: 'Pieśni rewolucyjne', nl: 'Revolutionaire liederen', pt: 'Canções revolucionárias' },
     ],
     decorationIdeas: [
-      'Red, white and blue flag colors',
-      'Mountain landscapes',
-      'Traditional Korean patterns',
+      { en: 'Red, white and blue flag colors', sv: 'Röda, vita och blå flaggfärger', de: 'Rote, weiße und blaue Flaggenfarben', fr: 'Couleurs du drapeau rouge, blanc et bleu', es: 'Colores de la bandera rojo, blanco y azul', it: 'Colori della bandiera rosso, bianco e blu', pl: 'Czerwone, białe i niebieskie kolory flagi', nl: 'Rode, witte en blauwe vlagkleuren', pt: 'Cores da bandeira vermelho, branco e azul' },
+      { en: 'Mountain landscapes', sv: 'Berglandskap', de: 'Berglandschaften', fr: 'Paysages de montagne', es: 'Paisajes de montaña', it: 'Paesaggi di montagna', pl: 'Krajobrazy górskie', nl: 'Berglandschappen', pt: 'Paisagens de montanha' },
+      { en: 'Traditional Korean patterns', sv: 'Traditionella koreanska mönster', de: 'Traditionelle koreanische Muster', fr: 'Motifs coréens traditionnels', es: 'Patrones coreanos tradicionales', it: 'Motivi coreani tradizionali', pl: 'Tradycyjne wzory koreańskie', nl: 'Traditionele Koreaanse patronen', pt: 'Padrões coreanos tradicionais' },
     ],
     conversationStarters: [
-      'What do you know about Korean culture?',
-      'Have you tried Korean noodles?',
+      { en: 'What do you know about Korean culture?', sv: 'Vad vet du om koreansk kultur?', de: 'Was weißt du über die koreanische Kultur?', fr: 'Que savez-vous de la culture coréenne ?', es: '¿Qué sabes sobre la cultura coreana?', it: 'Cosa sai della cultura coreana?', pl: 'Co wiesz o kulturze koreańskiej?', nl: 'Wat weet je over de Koreaanse cultuur?', pt: 'O que você sabe sobre a cultura coreana?' },
+      { en: 'Have you tried Korean noodles?', sv: 'Har du provat koreanska nudlar?', de: 'Hast du koreanische Nudeln probiert?', fr: 'Avez-vous essayé les nouilles coréennes ?', es: '¿Has probado los fideos coreanos?', it: 'Hai provato i noodle coreani?', pl: 'Czy próbowałeś koreańskich makaronów?', nl: 'Heb je Koreaanse noedels geprobeerd?', pt: 'Já experimentou macarrão coreano?' },
     ],
     quiz: [
       {

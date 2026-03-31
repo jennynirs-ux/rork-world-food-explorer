@@ -44,7 +44,7 @@ export default function ProfileScreen() {
     const success = await redeemCode(redeemInput);
     setRedeemStatus(success ? 'success' : 'error');
     if (success) {
-      Alert.alert('🎉 All Recipes Unlocked!', 'You now have access to all countries and recipes for 30 days.');
+      Alert.alert(t.profile.unlockSuccessTitle, t.profile.unlockSuccessMessage);
       setDaysRemaining(30);
       setShowCodeModal(false);
       setRedeemInput('');
@@ -60,7 +60,7 @@ export default function ProfileScreen() {
     if (value) {
       const ok = await enableNotifications();
       setNotificationsOn(ok);
-      if (!ok) Alert.alert('Permission Required', 'Please enable notifications in your device settings.');
+      if (!ok) Alert.alert(t.profile.notificationPermissionTitle, t.profile.notificationPermissionMessage);
     } else {
       await disableNotifications();
       setNotificationsOn(false);
@@ -461,15 +461,15 @@ export default function ProfileScreen() {
             <View style={styles.codeSection}>
               <View style={styles.codeSectionHeader}>
                 <Key size={18} color={colors.brand} />
-                <Text style={styles.codeSectionTitle}>Enter a Code</Text>
+                <Text style={styles.codeSectionTitle}>{t.profile.enterCodeTitle}</Text>
               </View>
               <Text style={styles.codeSectionDesc}>
-                Enter a code from a friend to unlock all recipes for 30 days:
+                {t.profile.enterCodeDesc}
               </Text>
               <View style={styles.redeemRow}>
                 <TextInput
                   style={styles.redeemInput}
-                  placeholder="Enter 6-digit code"
+                  placeholder={t.profile.enterCodePlaceholder}
                   placeholderTextColor="#9CA3AF"
                   value={redeemInput}
                   onChangeText={(text) => { setRedeemInput(text.toUpperCase()); setRedeemStatus('idle'); }}
@@ -481,11 +481,11 @@ export default function ProfileScreen() {
                   onPress={handleRedeemCode}
                   disabled={!redeemInput.trim()}
                 >
-                  <Text style={styles.redeemButtonText}>Unlock</Text>
+                  <Text style={styles.redeemButtonText}>{t.profile.unlockButton}</Text>
                 </TouchableOpacity>
               </View>
               {redeemStatus === 'error' && (
-                <Text style={styles.redeemError}>Invalid code. Please check and try again.</Text>
+                <Text style={styles.redeemError}>{t.profile.invalidCode}</Text>
               )}
             </View>
           </Pressable>

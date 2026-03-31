@@ -239,7 +239,17 @@ export const zambia: Country = {
         pt: 'More than 70 ethnic groups live in Zambia',
       },
     ],
-    foodCulture: 'Zambian cuisine centers on nshima, a thick maize porridge eaten daily. Meals are typically served with vegetable relishes, beans, fish, or meat. Groundnuts (peanuts) are widely used in sauces.',
+    foodCulture: {
+      en: 'Zambian cuisine centers on nshima, a thick maize porridge eaten daily. Meals are typically served with vegetable relishes, beans, fish, or meat. Groundnuts (peanuts) are widely used in sauces.',
+      sv: 'Zambisk mat kretsar kring nshima, en tjock majsgröt som äts dagligen. Måltider serveras vanligtvis med grönsaksrätter, bönor, fisk eller kött. Jordnötter används ofta i såser.',
+      de: 'Die sambische Küche dreht sich um Nshima, einen dicken Maisbrei, der täglich gegessen wird. Mahlzeiten werden in der Regel mit Gemüsebeilagen, Bohnen, Fisch oder Fleisch serviert. Erdnüsse werden in Soßen weit verbreitet eingesetzt.',
+      fr: 'La cuisine zambienne est centrée sur le nshima, une épaisse bouillie de maïs consommée quotidiennement. Les repas sont généralement servis avec des garnitures de légumes, des haricots, du poisson ou de la viande. Les arachides (cacahuètes) sont largement utilisées dans les sauces.',
+      es: 'La cocina zambiana se centra en el nshima, una espesa papilla de maíz que se come diariamente. Las comidas suelen servirse con acompañamientos de verduras, frijoles, pescado o carne. Los cacahuetes se utilizan ampliamente en salsas.',
+      it: 'La cucina zambiana è centrata sul nshima, una densa pappa di mais consumata quotidianamente. I pasti vengono tipicamente serviti con contorni di verdure, fagioli, pesce o carne. Le arachidi sono ampiamente utilizzate nelle salse.',
+      pl: 'Kuchnia zambijska skupia się na nshima, gęstej owsiance kukurydzianej jadanej codziennie. Posiłki są zazwyczaj podawane z warzywnymi przystawkami, fasolą, rybą lub mięsem. Orzeszki ziemne są powszechnie używane w sosach.',
+      nl: 'De Zambiaanse keuken draait om nshima, een dikke maispap die dagelijks wordt gegeten. Maaltijden worden doorgaans geserveerd met groentegarnituren, bonen, vis of vlees. Pinda\'s worden veel gebruikt in sauzen.',
+      pt: 'A culinária zambiana centra-se no nshima, uma papa de milho espessa consumida diariamente. As refeições são tipicamente servidas com acompanhamentos de legumes, feijão, peixe ou carne. Os amendoins são amplamente utilizados em molhos.',
+    },
     innovations: [
       {
         name: {
@@ -1041,23 +1051,23 @@ export const zambia: Country = {
       nonAlcoholic: 'Munkoyo (fermented root drink), Maheu, Fresh fruit juice',
     },
     music: [
-      'Zamrock',
-      'Kalindula',
-      'Traditional drumming',
-      'Contemporary Zambian gospel',
+      { en: 'Zamrock', sv: 'Zamrock', de: 'Zamrock', fr: 'Zamrock', es: 'Zamrock', it: 'Zamrock', pl: 'Zamrock', nl: 'Zamrock', pt: 'Zamrock' },
+      { en: 'Kalindula', sv: 'Kalindula', de: 'Kalindula', fr: 'Kalindula', es: 'Kalindula', it: 'Kalindula', pl: 'Kalindula', nl: 'Kalindula', pt: 'Kalindula' },
+      { en: 'Traditional drumming', sv: 'Traditionellt trummande', de: 'Traditionelles Trommeln', fr: 'Percussions traditionnelles', es: 'Percusión tradicional', it: 'Percussioni tradizionali', pl: 'Tradycyjne bębnienie', nl: 'Traditioneel trommelen', pt: 'Percussão tradicional' },
+      { en: 'Contemporary Zambian gospel', sv: 'Samtida zambisk gospel', de: 'Zeitgenössisches sambisches Gospel', fr: 'Gospel zambien contemporain', es: 'Gospel zambiano contemporáneo', it: 'Gospel zambiano contemporaneo', pl: 'Współczesny zambijski gospel', nl: 'Hedendaagse Zambiaanse gospel', pt: 'Gospel zambiano contemporâneo' },
     ],
     decorationIdeas: [
-      'Green, red, black, and orange flag colors',
-      'Victoria Falls imagery',
-      'Safari and wildlife themes',
-      'Copper accents',
-      'Handwoven baskets',
+      { en: 'Green, red, black, and orange flag colors', sv: 'Gröna, röda, svarta och orangea flaggfärger', de: 'Grüne, rote, schwarze und orangefarbene Flaggenfarben', fr: 'Couleurs du drapeau vert, rouge, noir et orange', es: 'Colores de la bandera verde, rojo, negro y naranja', it: 'Colori della bandiera verde, rosso, nero e arancione', pl: 'Kolory flagi zielony, czerwony, czarny i pomarańczowy', nl: 'Groene, rode, zwarte en oranje vlagkleuren', pt: 'Cores da bandeira verde, vermelho, preto e laranja' },
+      { en: 'Victoria Falls imagery', sv: 'Victoriafallens motiv', de: 'Victoria-Falls-Motive', fr: 'Images des chutes Victoria', es: 'Imágenes de las Cataratas Victoria', it: 'Immagini delle Cascate Vittoria', pl: 'Motywy Wodospadów Wiktorii', nl: 'Victoria Falls afbeeldingen', pt: 'Imagens das Cataratas Vitória' },
+      { en: 'Safari and wildlife themes', sv: 'Safari- och vildliv-teman', de: 'Safari- und Wildtier-Themen', fr: 'Thèmes de safari et de faune', es: 'Temas de safari y vida silvestre', it: 'Temi di safari e fauna selvatica', pl: 'Motywy safari i dzikiej przyrody', nl: 'Safari en wilde dieren thema\'s', pt: 'Temas de safari e vida selvagem' },
+      { en: 'Copper accents', sv: 'Kopparaccenter', de: 'Kupfer-Akzente', fr: 'Accents en cuivre', es: 'Acentos de cobre', it: 'Accenti in rame', pl: 'Miedziane akcenty', nl: 'Koperen accenten', pt: 'Acentos de cobre' },
+      { en: 'Handwoven baskets', sv: 'Handvävda korgar', de: 'Handgewebte Körbe', fr: 'Paniers tissés à la main', es: 'Cestas tejidas a mano', it: 'Cestini tessuti a mano', pl: 'Ręcznie tkane kosze', nl: 'Handgeweven manden', pt: 'Cestos tecidos à mão' },
     ],
     conversationStarters: [
-      'Have you heard of Victoria Falls?',
-      'Would you try a walking safari?',
-      'Have you eaten maize-based dishes before?',
-      'Which African country would you like to visit?',
+      { en: 'Have you heard of Victoria Falls?', sv: 'Har du hört talas om Victoriafallen?', de: 'Haben Sie von den Victoriafällen gehört?', fr: 'Avez-vous entendu parler des chutes Victoria ?', es: '¿Has oído hablar de las Cataratas Victoria?', it: 'Hai sentito parlare delle Cascate Vittoria?', pl: 'Czy słyszałeś o Wodospadach Wiktorii?', nl: 'Heb je gehoord van de Victoria Falls?', pt: 'Já ouviste falar das Cataratas Vitória?' },
+      { en: 'Would you try a walking safari?', sv: 'Skulle du prova en vandrings-safari?', de: 'Würden Sie eine Fußgängersafari ausprobieren?', fr: 'Essaieriez-vous un safari à pied ?', es: '¿Probarías un safari a pie?', it: 'Proveresti un safari a piedi?', pl: 'Czy spróbowałbyś safari pieszego?', nl: 'Zou je een wandelsafari proberen?', pt: 'Experimentaria um safari a pé?' },
+      { en: 'Have you eaten maize-based dishes before?', sv: 'Har du ätit majsbaserade rätter förut?', de: 'Haben Sie schon einmal Maisgerichte gegessen?', fr: 'Avez-vous déjà mangé des plats à base de maïs ?', es: '¿Has comido platos a base de maíz antes?', it: 'Hai mai mangiato piatti a base di mais?', pl: 'Czy jadłeś wcześniej dania na bazie kukurydzy?', nl: 'Heb je eerder maïsgebaseerde gerechten gegeten?', pt: 'Já comeste pratos à base de milho?' },
+      { en: 'Which African country would you like to visit?', sv: 'Vilket afrikanskt land skulle du vilja besöka?', de: 'Welches afrikanische Land würden Sie gerne besuchen?', fr: 'Quel pays africain aimeriez-vous visiter ?', es: '¿Qué país africano te gustaría visitar?', it: 'Quale paese africano vorresti visitare?', pl: 'Który afrykański kraj chciałbyś odwiedzić?', nl: 'Welk Afrikaans land wil je graag bezoeken?', pt: 'Que país africano gostaria de visitar?' },
     ],
     quiz: [
       {

@@ -218,7 +218,17 @@ export const vaticanCity: Country = {
         pt: 'The Vatican Museums house one of the most important art collections on Earth',
       },
     ],
-    foodCulture: 'Vatican cuisine is essentially Italian—especially Roman—featuring simple, high-quality ingredients like pasta, olive oil, cheese, vegetables, and espresso culture.',
+    foodCulture: {
+      en: 'Vatican cuisine is essentially Italian—especially Roman—featuring simple, high-quality ingredients like pasta, olive oil, cheese, vegetables, and espresso culture.',
+      sv: 'Vatikansk mat är i grunden italiensk—särskilt romersk—och innehåller enkla, högkvalitativa ingredienser som pasta, olivolja, ost, grönsaker och espressokultur.',
+      de: 'Die vatikanische Küche ist im Wesentlichen italienisch—vor allem römisch—und umfasst einfache, hochwertige Zutaten wie Pasta, Olivenöl, Käse, Gemüse und Espresso-Kultur.',
+      fr: 'La cuisine vaticane est essentiellement italienne—surtout romaine—avec des ingrédients simples et de haute qualité comme les pâtes, l\'huile d\'olive, le fromage, les légumes et la culture de l\'espresso.',
+      es: 'La cocina vaticana es esencialmente italiana—especialmente romana—con ingredientes simples y de alta calidad como pasta, aceite de oliva, queso, verduras y cultura del espresso.',
+      it: 'La cucina vaticana è essenzialmente italiana—specialmente romana—con ingredienti semplici e di alta qualità come pasta, olio d\'oliva, formaggio, verdure e cultura dell\'espresso.',
+      pl: 'Kuchnia watykańska jest zasadniczo włoska—zwłaszcza rzymska—z prostymi, wysokiej jakości składnikami, takimi jak makaron, oliwa z oliwek, ser, warzywa i kultura espresso.',
+      nl: 'De Vaticaanse keuken is in wezen Italiaans—vooral Romeins—met eenvoudige, hoogwaardige ingrediënten zoals pasta, olijfolie, kaas, groenten en espressocultuur.',
+      pt: 'A culinária vaticana é essencialmente italiana—especialmente romana—com ingredientes simples e de alta qualidade como massa, azeite, queijo, legumes e cultura do espresso.',
+    },
     history: [
       {
         year: '500-1200 AD',
@@ -1149,22 +1159,22 @@ export const vaticanCity: Country = {
       nonAlcoholic: 'Espresso, Cappuccino, Italian soda',
     },
     music: [
-      'Gregorian chant',
-      'Classical sacred music',
-      'Papal choir performances',
+      { en: 'Gregorian chant', sv: 'Gregoriansk sång', de: 'Gregorianischer Choral', fr: 'Chant grégorien', es: 'Canto gregoriano', it: 'Canto gregoriano', pl: 'Śpiew gregoriański', nl: 'Gregoriaans gezang', pt: 'Canto gregoriano' },
+      { en: 'Classical sacred music', sv: 'Klassisk sakral musik', de: 'Klassische sakrale Musik', fr: 'Musique sacrée classique', es: 'Música sacra clásica', it: 'Musica sacra classica', pl: 'Klasyczna muzyka sakralna', nl: 'Klassieke sacrale muziek', pt: 'Música sacra clássica' },
+      { en: 'Papal choir performances', sv: 'Påvliga köruppträdanden', de: 'Päpstliche Chor-Aufführungen', fr: 'Représentations du chœur papal', es: 'Actuaciones del coro papal', it: 'Esibizioni del coro papale', pl: 'Występy papieskiego chóru', nl: 'Pauselijke kooroptredens', pt: 'Apresentações do coro papal' },
     ],
     decorationIdeas: [
-      'Gold and white papal colors',
-      'St. Peter\'s Basilica imagery',
-      'Sistine Chapel art-inspired prints',
-      'Papal symbols (keys and tiara motifs)',
-      'Candles and museum-gallery lighting vibe',
+      { en: 'Gold and white papal colors', sv: 'Guld och vita påvliga färger', de: 'Gold und weiße päpstliche Farben', fr: 'Couleurs papales or et blanc', es: 'Colores papales oro y blanco', it: 'Colori papali oro e bianco', pl: 'Złoto-białe kolory papieskie', nl: 'Gouden en witte pauselijke kleuren', pt: 'Cores papais dourado e branco' },
+      { en: 'St. Peter\'s Basilica imagery', sv: 'Peterskyrkan-motiv', de: 'Petersdom-Motive', fr: 'Images de la basilique Saint-Pierre', es: 'Imágenes de la Basílica de San Pedro', it: 'Immagini della Basilica di San Pietro', pl: 'Motywy Bazyliki Świętego Piotra', nl: 'Sint-Pietersbasiliek afbeeldingen', pt: 'Imagens da Basílica de São Pedro' },
+      { en: 'Sistine Chapel art-inspired prints', sv: 'Sixtinska kapellet-inspirerade prints', de: 'Kunstdrucke inspiriert von der Sixtinischen Kapelle', fr: 'Impressions inspirées de l\'art de la chapelle Sixtine', es: 'Impresiones inspiradas en el arte de la Capilla Sixtina', it: 'Stampe ispirate all\'arte della Cappella Sistina', pl: 'Wydruki inspirowane sztuką Kaplicy Sykstyńskiej', nl: 'Door de Sixtijnse Kapel geïnspireerde prints', pt: 'Impressões inspiradas na arte da Capela Sistina' },
+      { en: 'Papal symbols (keys and tiara motifs)', sv: 'Påvliga symboler (nycklar och tiara-motiv)', de: 'Päpstliche Symbole (Schlüssel und Tiara-Motive)', fr: 'Symboles papaux (clés et motifs de tiare)', es: 'Símbolos papales (llaves y motivos de tiara)', it: 'Simboli papali (chiavi e motivi della tiara)', pl: 'Symbole papieskie (klucze i motywy tiary)', nl: 'Pauselijke symbolen (sleutels en tiara motieven)', pt: 'Símbolos papais (chaves e motivos de tiara)' },
+      { en: 'Candles and museum-gallery lighting vibe', sv: 'Ljus och museal galleriatmosfär', de: 'Kerzen und Museum-Galerie-Licht-Atmosphäre', fr: 'Bougies et ambiance lumineuse de galerie de musée', es: 'Velas y ambiente de iluminación de galería de museo', it: 'Candele e atmosfera di illuminazione da galleria museale', pl: 'Świece i klimat oświetlenia galerii muzealnej', nl: 'Kaarsen en museumgallerij lichtsfeer', pt: 'Velas e ambiente de iluminação de galeria de museu' },
     ],
     conversationStarters: [
-      'Have you visited the Sistine Chapel?',
-      'What do you know about Renaissance art?',
-      'Would you take a Vatican Museums tour to see the frescoes up close?',
-      'Which artist fascinates you most—Michelangelo, Raphael, or Bernini?',
+      { en: 'Have you visited the Sistine Chapel?', sv: 'Har du besökt Sixtinska kapellet?', de: 'Haben Sie die Sixtinische Kapelle besucht?', fr: 'Avez-vous visité la chapelle Sixtine ?', es: '¿Has visitado la Capilla Sixtina?', it: 'Hai visitato la Cappella Sistina?', pl: 'Czy odwiedziłeś Kaplicę Sykstyńską?', nl: 'Heb je de Sixtijnse Kapel bezocht?', pt: 'Já visitaste a Capela Sistina?' },
+      { en: 'What do you know about Renaissance art?', sv: 'Vad vet du om renässanskonst?', de: 'Was wissen Sie über Renaissance-Kunst?', fr: 'Que savez-vous sur l\'art de la Renaissance ?', es: '¿Qué sabes sobre el arte del Renacimiento?', it: 'Cosa sai dell\'arte rinascimentale?', pl: 'Co wiesz o sztuce renesansowej?', nl: 'Wat weet je over Renaissancekunst?', pt: 'O que sabes sobre a arte renascentista?' },
+      { en: 'Would you take a Vatican Museums tour to see the frescoes up close?', sv: 'Skulle du ta en rundtur i Vatikanmuseerna för att se frescomålningarna på nära håll?', de: 'Würden Sie eine Führung durch die Vatikanischen Museen machen, um die Fresken aus der Nähe zu sehen?', fr: 'Prendriez-vous une visite guidée des musées du Vatican pour voir les fresques de près ?', es: '¿Harías una visita a los Museos Vaticanos para ver los frescos de cerca?', it: 'Faresti un tour dei Musei Vaticani per vedere da vicino gli affreschi?', pl: 'Czy wziąłbyś udział w wycieczce po Muzeach Watykańskich, aby zobaczyć freski z bliska?', nl: 'Zou je een tour door de Vaticaanse Musea doen om de fresco\'s van dichtbij te zien?', pt: 'Farias uma visita aos Museus do Vaticano para ver os afrescos de perto?' },
+      { en: 'Which artist fascinates you most—Michelangelo, Raphael, or Bernini?', sv: 'Vilken konstnär fascinerar dig mest – Michelangelo, Raphael eller Bernini?', de: 'Welcher Künstler fasziniert Sie am meisten—Michelangelo, Raphael oder Bernini?', fr: 'Quel artiste vous fascine le plus—Michel-Ange, Raphaël ou Le Bernin ?', es: '¿Qué artista te fascina más: Miguel Ángel, Rafael o Bernini?', it: 'Quale artista ti affascina di più—Michelangelo, Raffaello o Bernini?', pl: 'Który artysta fascynuje cię najbardziej—Michał Anioł, Rafał czy Bernini?', nl: 'Welke kunstenaar fascineert jou het meest—Michelangelo, Rafaël of Bernini?', pt: 'Que artista te fascina mais—Michelangelo, Rafael ou Bernini?' },
     ],
     quiz: [
       {

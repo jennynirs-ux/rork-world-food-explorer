@@ -250,7 +250,17 @@ export const latvia: Country = {
         pt: 'Ice hockey is the most popular sport',
       },
     ],
-    foodCulture: 'Latvian cuisine is hearty and seasonal, featuring rye bread, smoked fish, dairy products, and forest ingredients. Traditional food preservation methods are still widely used, and foraging is a beloved national pastime.',
+    foodCulture: {
+      en: 'Latvian cuisine is hearty and seasonal, featuring rye bread, smoked fish, dairy products, and forest ingredients. Traditional food preservation methods are still widely used, and foraging is a beloved national pastime.',
+      sv: 'Det lettiska köket är rejält och säsongsbetonat med rågbröd, rökt fisk, mejeriprodukter och skogsingredienser. Traditionella matkonserveringsmetoder används fortfarande i stor utsträckning, och insamling av vilda växter är en älskad nationell fritidsaktivitet.',
+      de: 'Die lettische Küche ist herzhaft und saisonal, mit Roggenbrot, geräuchertem Fisch, Milchprodukten und Waldzutaten. Traditionelle Lebensmittelkonservierungsmethoden werden noch immer weit verbreitet eingesetzt, und das Sammeln von Wildpflanzen ist ein beliebter nationaler Zeitvertreib.',
+      fr: 'La cuisine lettone est copieuse et saisonnière, avec du pain de seigle, du poisson fumé, des produits laitiers et des ingrédients de la forêt. Les méthodes traditionnelles de conservation des aliments sont encore largement utilisées, et la cueillette est un passe-temps national bien-aimé.',
+      es: 'La cocina letona es abundante y estacional, con pan de centeno, pescado ahumado, productos lácteos e ingredientes del bosque. Los métodos tradicionales de conservación de alimentos siguen siendo ampliamente utilizados, y la recolección es un pasatiempo nacional muy querido.',
+      it: 'La cucina lettone è sostanziosa e stagionale, con pane di segale, pesce affumicato, latticini e ingredienti del bosco. I metodi tradizionali di conservazione degli alimenti sono ancora ampiamente utilizzati, e la raccolta è un amato passatempo nazionale.',
+      pl: 'Kuchnia łotewska jest sycąca i sezonowa, z chlebem żytnim, wędzonyimi rybami, produktami mlecznymi i leśnymi składnikami. Tradycyjne metody konserwacji żywności są nadal powszechnie stosowane, a zbieractwo jest ukochanym narodowym hobby.',
+      nl: 'De Letse keuken is hartig en seizoensgebonden, met roggebrood, gerookte vis, zuivelproducten en bosbestanddelen. Traditionele voedselbehoudsmethoden worden nog steeds veel gebruikt, en het verzamelen van wilde planten is een geliefde nationale tijdverdrijf.',
+      pt: 'A culinária letã é substancial e sazonal, com pão de centeio, peixe defumado, laticínios e ingredientes da floresta. Os métodos tradicionais de conservação de alimentos ainda são amplamente utilizados, e a coleta de plantas silvestres é um passatempo nacional muito apreciado.',
+    },
     innovations: [
       {
         name: {
@@ -1078,24 +1088,24 @@ export const latvia: Country = {
       nonAlcoholic: 'Birch sap, Berry juices, Herbal teas',
     },
     music: [
-      'Latvian folk songs (dainas)',
-      'Choral music',
-      'Traditional kokle (zither) music',
-      'Baltic folk',
+      { en: 'Latvian folk songs (dainas)', sv: 'Lettiska folksånger (dainas)', de: 'Lettische Volkslieder (Dainas)', fr: 'Chansons folk lettones (dainas)', es: 'Canciones folclóricas letonas (dainas)', it: 'Canzoni folk lettoni (dainas)', pl: 'Łotewskie pieśni ludowe (dainas)', nl: 'Letse volksliederen (dainas)', pt: 'Canções folclóricas letãs (dainas)' },
+      { en: 'Choral music', sv: 'Körmusik', de: 'Chormusik', fr: 'Musique chorale', es: 'Música coral', it: 'Musica corale', pl: 'Muzyka chóralna', nl: 'Koormuziek', pt: 'Música coral' },
+      { en: 'Traditional kokle (zither) music', sv: 'Traditionell kokle (citermusik)', de: 'Traditionelle Kokle (Zither) Musik', fr: 'Musique traditionnelle au kokle (cithare)', es: 'Música tradicional de kokle (cítara)', it: 'Musica tradizionale con kokle (cetra)', pl: 'Tradycyjna muzyka kokle (cytra)', nl: 'Traditionele kokle (citer) muziek', pt: 'Música tradicional de kokle (cítara)' },
+      { en: 'Baltic folk', sv: 'Baltisk folkmusik', de: 'Baltische Volksmusik', fr: 'Folk baltique', es: 'Folk báltico', it: 'Folk baltico', pl: 'Muzyka ludowa bałtycka', nl: 'Baltische folk', pt: 'Folk báltico' },
     ],
     decorationIdeas: [
-      'Maroon and white (Latvian flag colors)',
-      'Amber decorations',
-      'Traditional woven belts and textiles',
-      'Oak leaf motifs',
-      'Linen tablecloths',
-      'Wildflower arrangements',
+      { en: 'Maroon and white (Latvian flag colors)', sv: 'Mörkrött och vitt (lettiska flaggfärger)', de: 'Dunkelrot und Weiß (lettische Flaggenfarben)', fr: 'Bordeaux et blanc (couleurs du drapeau letton)', es: 'Granate y blanco (colores de la bandera letona)', it: 'Bordeaux e bianco (colori della bandiera lettone)', pl: 'Kasztanowy i biały (kolory flagi łotewskiej)', nl: 'Kastanjebruin en wit (Letse vlagkleuren)', pt: 'Marrom-avermelhado e branco (cores da bandeira letã)' },
+      { en: 'Amber decorations', sv: 'Bärnstensdekorer', de: 'Bernsteindekorationen', fr: 'Décorations en ambre', es: 'Decoraciones de ámbar', it: 'Decorazioni in ambra', pl: 'Dekoracje z bursztynu', nl: 'Barnsteen decoraties', pt: 'Decorações de âmbar' },
+      { en: 'Traditional woven belts and textiles', sv: 'Traditionella vävda bälten och textilier', de: 'Traditionelle gewebte Gürtel und Textilien', fr: 'Ceintures et textiles tissés traditionnels', es: 'Cinturones y textiles tejidos tradicionales', it: 'Cinture e tessuti tradizionali intrecciati', pl: 'Tradycyjne tkane pasy i tkaniny', nl: 'Traditionele geweven riemen en textiel', pt: 'Cintos e têxteis tecidos tradicionais' },
+      { en: 'Oak leaf motifs', sv: 'Ekladsmotiv', de: 'Eichenblatt-Motive', fr: 'Motifs de feuilles de chêne', es: 'Motivos de hojas de roble', it: 'Motivi di foglie di quercia', pl: 'Motywy liści dębu', nl: 'Eikenbladmotieven', pt: 'Motivos de folhas de carvalho' },
+      { en: 'Linen tablecloths', sv: 'Linneduksdukar', de: 'Leinentischdecken', fr: 'Nappes en lin', es: 'Manteles de lino', it: 'Tovaglie di lino', pl: 'Obrusy lniane', nl: 'Linnen tafelkleden', pt: 'Toalhas de mesa de linho' },
+      { en: 'Wildflower arrangements', sv: 'Vildblomsterarrangemang', de: 'Wildblumen-Arrangements', fr: 'Arrangements de fleurs sauvages', es: 'Arreglos de flores silvestres', it: 'Composizioni di fiori selvatici', pl: 'Kompozycje z dzikich kwiatów', nl: 'Wilde bloem arrangementen', pt: 'Arranjos de flores silvestres' },
     ],
     conversationStarters: [
-      'Have you been to Riga? The Art Nouveau architecture is stunning!',
-      'Would you try Riga Black Balsam? It\'s an acquired taste!',
-      'Latvia\'s forests are so peaceful - do you enjoy forest walks?',
-      'The Song Festival brings together thousands of singers - amazing!',
+      { en: 'Have you been to Riga? The Art Nouveau architecture is stunning!', sv: 'Har du besökt Riga? Jugendstilsarkitekturen är fantastisk!', de: 'Warst du in Riga? Die Jugendstilarchitektur ist atemberaubend!', fr: 'Avez-vous été à Riga? L\'architecture Art Nouveau est magnifique!', es: '¿Has estado en Riga? ¡La arquitectura Art Nouveau es impresionante!', it: 'Sei stato a Riga? L\'architettura Art Nouveau è mozzafiato!', pl: 'Czy byłeś w Rydze? Architektura Art Nouveau jest zachwycająca!', nl: 'Ben je naar Riga geweest? De Art Nouveau architectuur is prachtig!', pt: 'Você já esteve em Riga? A arquitetura Art Nouveau é deslumbrante!' },
+      { en: 'Would you try Riga Black Balsam? It\'s an acquired taste!', sv: 'Skulle du prova Riga Black Balsam? Det är en förvärvad smak!', de: 'Würdest du Riga Black Balsam probieren? Es ist ein erworbener Geschmack!', fr: 'Essayeriez-vous le Baume Noir de Riga? C\'est un goût acquis!', es: '¿Probarías el Bálsamo Negro de Riga? ¡Es un gusto adquirido!', it: 'Proveresti il Balsamo Nero di Riga? È un gusto acquisito!', pl: 'Czy spróbowałbyś Czarnego Balsamu z Rygi? To nabyty smak!', nl: 'Zou je Riga Black Balsam proberen? Het is een verworven smaak!', pt: 'Você experimentaria o Bálsamo Negro de Riga? É um gosto adquirido!' },
+      { en: 'Latvia\'s forests are so peaceful - do you enjoy forest walks?', sv: 'Lettlands skogar är så fridfulla - gillar du skogspromenader?', de: 'Lettlands Wälder sind so friedlich - magst du Waldspaziergänge?', fr: 'Les forêts de Lettonie sont si paisibles - aimez-vous les promenades en forêt?', es: 'Los bosques de Letonia son tan tranquilos - ¿te gustan los paseos por el bosque?', it: 'Le foreste della Lettonia sono così tranquille - ti piacciono le passeggiate nel bosco?', pl: 'Łotewskie lasy są takie spokojne - czy lubisz spacery po lesie?', nl: 'De bossen van Letland zijn zo vredig - geniet je van boswandelingen?', pt: 'As florestas da Letônia são tão tranquilas - você gosta de caminhadas na floresta?' },
+      { en: 'The Song Festival brings together thousands of singers - amazing!', sv: 'Sångfestivalen samlar tusentals sångare - fantastiskt!', de: 'Das Songfestival bringt Tausende von Sängern zusammen - unglaublich!', fr: 'Le Festival de la Chanson rassemble des milliers de chanteurs - incroyable!', es: '¡El Festival de la Canción reúne a miles de cantantes - increíble!', it: 'Il Festival della Canzone riunisce migliaia di cantanti - incredibile!', pl: 'Festiwal Pieśni gromadzi tysiące śpiewaków - niesamowite!', nl: 'Het Zangfestival brengt duizenden zangers samen - geweldig!', pt: 'O Festival de Canções reúne milhares de cantores - incrível!' },
     ],
     quiz: [
       {

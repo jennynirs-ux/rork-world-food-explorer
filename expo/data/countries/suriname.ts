@@ -217,7 +217,17 @@ export const suriname: Country = {
         pt: 'The country has one of the smallest populations in South America',
       },
     ],
-    foodCulture: 'Surinamese cuisine is a unique fusion of Creole, Javanese, Indian, Chinese, Indigenous, and Dutch traditions. Meals are often flavorful, spicy, and rich in herbs, root vegetables, and rice.',
+    foodCulture: {
+      en: 'Surinamese cuisine is a unique fusion of Creole, Javanese, Indian, Chinese, Indigenous, and Dutch traditions. Meals are often flavorful, spicy, and rich in herbs, root vegetables, and rice.',
+      sv: 'Surinamesisk mat är en unik fusion av kreolska, javanesiska, indiska, kinesiska, ursprungsfolks och holländska traditioner. Måltiderna är ofta smakrika, kryddiga och rika på örter, rotfrukter och ris.',
+      de: 'Die surinamische Küche ist eine einzigartige Fusion kreolischer, javanischer, indischer, chinesischer, indigener und niederländischer Traditionen. Mahlzeiten sind oft aromatisch, würzig und reich an Kräutern, Wurzelgemüse und Reis.',
+      fr: 'La cuisine surinamaise est une fusion unique de traditions créoles, javanaises, indiennes, chinoises, autochtones et néerlandaises. Les repas sont souvent savoureux, épicés et riches en herbes, légumes-racines et riz.',
+      es: 'La cocina surinamesa es una fusión única de tradiciones criollas, javanesas, indias, chinas, indígenas y holandesas. Las comidas son a menudo sabrosas, picantes y ricas en hierbas, verduras de raíz y arroz.',
+      it: 'La cucina surinamense è una fusione unica di tradizioni creole, giavanesi, indiane, cinesi, indigene e olandesi. I pasti sono spesso saporiti, piccanti e ricchi di erbe aromatiche, verdure a radice e riso.',
+      pl: 'Kuchnia surinamska to unikalne połączenie tradycji kreolskich, jawajskich, indyjskich, chińskich, rdzennych i holenderskich. Posiłki są często aromatyczne, pikantne i bogate w zioła, warzywa korzeniowe i ryż.',
+      nl: 'De Surinaamse keuken is een unieke fusie van Creoolse, Javaanse, Indiase, Chinese, inheemse en Nederlandse tradities. Maaltijden zijn vaak smaakvol, pittig en rijk aan kruiden, knolgewassen en rijst.',
+      pt: 'A culinária do Suriname é uma fusão única de tradições crioulas, javanesas, indianas, chinesas, indígenas e holandesas. As refeições são frequentemente saborosas, picantes e ricas em ervas, legumes de raiz e arroz.',
+    },
     history: [
       {
         year: '3000 BC',
@@ -1209,22 +1219,22 @@ export const suriname: Country = {
       nonAlcoholic: 'Dawet, Ginger beer, Fresh tropical juices',
     },
     music: [
-      'Kaseko',
-      'Kawina',
-      'Indo-Caribbean chutney',
-      'Modern Surinamese pop',
+      { en: 'Kaseko', sv: 'Kaseko', de: 'Kaseko', fr: 'Kaseko', es: 'Kaseko', it: 'Kaseko', pl: 'Kaseko', nl: 'Kaseko', pt: 'Kaseko' },
+      { en: 'Kawina', sv: 'Kawina', de: 'Kawina', fr: 'Kawina', es: 'Kawina', it: 'Kawina', pl: 'Kawina', nl: 'Kawina', pt: 'Kawina' },
+      { en: 'Indo-Caribbean chutney music', sv: 'Indo-karibisk chutneymusik', de: 'Indisch-karibische Chutney-Musik', fr: 'Musique chutney indo-caribéenne', es: 'Música chutney indo-caribeña', it: 'Musica chutney indo-caraibica', pl: 'Indo-karaibska muzyka chutney', nl: 'Indo-Caribische chutney muziek', pt: 'Música chutney indo-caribenha' },
+      { en: 'Modern Surinamese pop', sv: 'Modern surinamesisk pop', de: 'Moderner surinamischer Pop', fr: 'Pop surinamaise moderne', es: 'Pop surinamés moderno', it: 'Pop surinamese moderno', pl: 'Nowoczesny surinamski pop', nl: 'Moderne Surinaamse pop', pt: 'Pop surinamês moderno' },
     ],
     decorationIdeas: [
-      'Green, red, white, and yellow (flag colors)',
-      'Rainforest and river themes',
-      'Colonial wooden architecture motifs',
-      'Multicultural patterns and textiles',
+      { en: 'Green, red, white, and yellow (flag colors)', sv: 'Grön, röd, vit och gul (flaggfärger)', de: 'Grün, Rot, Weiß und Gelb (Flaggenfarben)', fr: 'Vert, rouge, blanc et jaune (couleurs du drapeau)', es: 'Verde, rojo, blanco y amarillo (colores de la bandera)', it: 'Verde, rosso, bianco e giallo (colori della bandiera)', pl: 'Zielony, czerwony, biały i żółty (kolory flagi)', nl: 'Groen, rood, wit en geel (vlagkleuren)', pt: 'Verde, vermelho, branco e amarelo (cores da bandeira)' },
+      { en: 'Rainforest and river themes', sv: 'Regnskogs- och floddteman', de: 'Regenwald- und Flussthemen', fr: 'Thèmes de forêt tropicale et de rivière', es: 'Temas de selva tropical y río', it: 'Temi di foresta pluviale e fiume', pl: 'Tematy lasów tropikalnych i rzek', nl: 'Regenwoud en rivier thema\'s', pt: 'Temas de floresta tropical e rio' },
+      { en: 'Colonial wooden architecture motifs', sv: 'Koloniala träarkitekturmotiv', de: 'Koloniale Holzarchitekturmotive', fr: 'Motifs d\'architecture coloniale en bois', es: 'Motivos de arquitectura colonial de madera', it: 'Motivi di architettura coloniale in legno', pl: 'Motywy kolonialnej architektury drewnianej', nl: 'Koloniale houten architectuurmotieven', pt: 'Motivos de arquitetura colonial de madeira' },
+      { en: 'Multicultural patterns and textiles', sv: 'Multikulturella mönster och textilier', de: 'Multikulturelle Muster und Textilien', fr: 'Motifs et textiles multiculturels', es: 'Patrones y textiles multiculturales', it: 'Motivi e tessuti multiculturali', pl: 'Wielokulturowe wzory i tkaniny', nl: 'Multiculturele patronen en textiel', pt: 'Padrões e têxteis multiculturais' },
     ],
     conversationStarters: [
-      'Did you know Suriname is Dutch-speaking?',
-      'Would you like to explore rainforest or colonial cities?',
-      'Have you tried cassava-based desserts before?',
-      'What fusion cuisines do you enjoy most?',
+      { en: 'Did you know Suriname is Dutch-speaking?', sv: 'Visste du att Surinam är holländsktalande?', de: 'Wussten Sie, dass Suriname Niederländisch spricht?', fr: 'Saviez-vous que le Suriname est néerlandophone ?', es: '¿Sabías que Surinam es de habla holandesa?', it: 'Sapevi che il Suriname è di lingua olandese?', pl: 'Czy wiedziałeś, że Surinam jest językowo holenderski?', nl: 'Wist je dat Suriname Nederlandstalig is?', pt: 'Você sabia que o Suriname é de língua holandesa?' },
+      { en: 'Would you like to explore rainforest or colonial cities?', sv: 'Skulle du vilja utforska regnskog eller koloniala städer?', de: 'Würden Sie Regenwald oder Kolonialstädte erkunden?', fr: 'Aimeriez-vous explorer la forêt tropicale ou les villes coloniales ?', es: '¿Te gustaría explorar la selva tropical o las ciudades coloniales?', it: 'Ti piacerebbe esplorare la foresta pluviale o le città coloniali?', pl: 'Czy chciałbyś zwiedzać las tropikalny czy kolonialne miasta?', nl: 'Wil je het regenwoud of koloniale steden verkennen?', pt: 'Você gostaria de explorar a floresta tropical ou cidades coloniais?' },
+      { en: 'Have you tried cassava-based desserts before?', sv: 'Har du provat kassavabaserade desserter förut?', de: 'Haben Sie schon Maniok-basierte Desserts probiert?', fr: 'Avez-vous déjà essayé des desserts à base de manioc ?', es: '¿Has probado postres a base de yuca antes?', it: 'Hai mai provato dolci a base di manioca?', pl: 'Czy próbowałeś kiedyś deserów na bazie manioku?', nl: 'Heb je ooit cassave-gebaseerde desserts geprobeerd?', pt: 'Você já experimentou sobremesas à base de mandioca?' },
+      { en: 'What fusion cuisines do you enjoy most?', sv: 'Vilka fusionkök tycker du mest om?', de: 'Welche Fusionsküchen genießen Sie am meisten?', fr: 'Quelles cuisines de fusion appréciez-vous le plus ?', es: '¿Qué cocinas de fusión disfrutas más?', it: 'Quali cucine di fusione ti piacciono di più?', pl: 'Jakie kuchnie fusion lubisz najbardziej?', nl: 'Welke fusioneukens geniet u het meest?', pt: 'Quais culinárias de fusão você mais aprecia?' },
     ],
     quiz: [
       {

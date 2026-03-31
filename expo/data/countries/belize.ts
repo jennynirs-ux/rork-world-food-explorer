@@ -250,7 +250,17 @@ export const belize: Country = {
         pt: 'Half of Belize is covered in forests',
       },
     ],
-    foodCulture: 'Belizean cuisine blends Maya, Mestizo, Creole, and Garifuna influences with fresh seafood, rice and beans as staples. Recado spice paste, coconut, and habanero peppers are essential ingredients. Marie Sharp\'s hot sauce is a source of national pride.',
+    foodCulture: {
+      en: 'Belizean cuisine blends Maya, Mestizo, Creole, and Garifuna influences with fresh seafood, rice and beans as staples. Recado spice paste, coconut, and habanero peppers are essential ingredients. Marie Sharp\'s hot sauce is a source of national pride.',
+      sv: 'Belizisk mat blandar maya-, mestizo-, kreolska och garifuna-influenser med färska skaldjur, ris och bönor som stapelvaror. Recado-kryddpasta, kokos och habaneropepper är viktiga ingredienser. Marie Sharps hetaste är en källa till nationell stolthet.',
+      de: 'Die belizi­anische Küche verbindet Maya-, Mestizo-, kreolische und Garifuna-Einflüsse mit frischen Meeresfrüchten, Reis und Bohnen als Grundnahrungsmitteln. Recado-Gewürzpaste, Kokos und Habanero-Paprika sind unverzichtbare Zutaten. Marie Sharps scharfe Soße ist eine Quelle des nationalen Stolzes.',
+      fr: 'La cuisine bélizienne mêle les influences mayas, métisses, créoles et garifunas avec des fruits de mer frais, du riz et des haricots comme aliments de base. La pâte d\'épices recado, la noix de coco et les piments habanero sont des ingrédients essentiels. La sauce piquante de Marie Sharp est une source de fierté nationale.',
+      es: 'La cocina beliceña combina influencias mayas, mestizas, criollas y garífunas con mariscos frescos, arroz y frijoles como alimentos básicos. La pasta de especias recado, el coco y los chiles habaneros son ingredientes esenciales. La salsa picante de Marie Sharp es una fuente de orgullo nacional.',
+      it: 'La cucina del Belize fonde influenze maya, meticce, creole e garifuna con frutti di mare freschi, riso e fagioli come alimenti base. La pasta di spezie recado, il cocco e i peperoncini habanero sono ingredienti essenziali. La salsa piccante di Marie Sharp è una fonte di orgoglio nazionale.',
+      pl: 'Kuchnia Belize łączy wpływy Majów, Metysów, kreolskie i Garifuna ze świeżymi owocami morza, ryżem i fasolą jako podstawą. Pasta recado, kokos i papryczki habanero to kluczowe składniki. Pikantny sos Marie Sharp jest powodem do dumy narodowej.',
+      nl: 'De Belizese keuken combineert Maya-, Mestizo-, Creoolse en Garifuna-invloeden met verse zeevruchten, rijst en bonen als basisvoedsel. Recado-kruidenpasta, kokosnoot en habanero-pepers zijn essentiële ingrediënten. Marie Sharp\'s hete saus is een bron van nationale trots.',
+      pt: 'A culinária do Belize combina influências maias, mestiças, crioulas e garifunas com frutos do mar frescos, arroz e feijão como alimentos básicos. A pasta de tempero recado, coco e pimentas habanero são ingredientes essenciais. O molho picante de Marie Sharp é uma fonte de orgulho nacional.',
+    },
     history: [
       {
         year: '1500 BC-900 AD',
@@ -1112,21 +1122,21 @@ export const belize: Country = {
       nonAlcoholic: 'Seaweed shake, Horchata, Fresh coconut water',
     },
     music: [
-      'Punta music',
-      'Brukdown',
-      'Paranda',
-      'Reggae',
+      { en: 'Punta music', sv: 'Punta-musik', de: 'Punta-Musik', fr: 'Musique punta', es: 'Música punta', it: 'Musica punta', pl: 'Muzyka punta', nl: 'Punta-muziek', pt: 'Música punta' },
+      { en: 'Brukdown', sv: 'Brukdown', de: 'Brukdown', fr: 'Brukdown', es: 'Brukdown', it: 'Brukdown', pl: 'Brukdown', nl: 'Brukdown', pt: 'Brukdown' },
+      { en: 'Paranda', sv: 'Paranda', de: 'Paranda', fr: 'Paranda', es: 'Paranda', it: 'Paranda', pl: 'Paranda', nl: 'Paranda', pt: 'Paranda' },
+      { en: 'Reggae', sv: 'Reggae', de: 'Reggae', fr: 'Reggae', es: 'Reggae', it: 'Reggae', pl: 'Reggae', nl: 'Reggae', pt: 'Reggae' },
     ],
     decorationIdeas: [
-      'Blue, red and white flag colors',
-      'Tropical rainforest themes',
-      'Mayan symbols',
-      'Ocean and reef imagery',
+      { en: 'Blue, red and white flag colors', sv: 'Blå, röd och vit flaggfärger', de: 'Blau, Rot und Weiß als Flaggenfarben', fr: 'Couleurs bleu, rouge et blanc du drapeau', es: 'Colores azul, rojo y blanco de la bandera', it: 'Colori blu, rosso e bianco della bandiera', pl: 'Niebieskie, czerwone i białe barwy flagi', nl: 'Blauwe, rode en witte vlagkleuren', pt: 'Cores azul, vermelho e branco da bandeira' },
+      { en: 'Tropical rainforest themes', sv: 'Tropisk regnskog teman', de: 'Tropische Regenwald-Themen', fr: 'Thèmes de forêt tropicale', es: 'Temas de selva tropical', it: 'Temi della foresta tropicale', pl: 'Motywy tropikalnego lasu deszczowego', nl: 'Tropisch regenwoud thema\'s', pt: 'Temas de floresta tropical' },
+      { en: 'Mayan symbols', sv: 'Mayasymboler', de: 'Maya-Symbole', fr: 'Symboles mayas', es: 'Símbolos mayas', it: 'Simboli Maya', pl: 'Symbole Majów', nl: 'Maya-symbolen', pt: 'Símbolos maias' },
+      { en: 'Ocean and reef imagery', sv: 'Hav- och revbilder', de: 'Ozean- und Riffbilder', fr: 'Images d\'océan et de récif', es: 'Imágenes de océano y arrecife', it: 'Immagini di oceano e scogliera', pl: 'Obrazy oceanów i raf', nl: 'Oceaan en rif beelden', pt: 'Imagens de oceano e recife' },
     ],
     conversationStarters: [
-      'Have you ever been diving or snorkeling?',
-      'What do you know about Mayan culture?',
-      'Do you enjoy Caribbean food?',
+      { en: 'Have you ever been diving or snorkeling?', sv: 'Har du någonsin dykt eller snorklat?', de: 'Sind Sie jemals getaucht oder geschnorchelt?', fr: 'Avez-vous déjà plongé ou fait du snorkeling?', es: '¿Has practicado buceo o snorkel alguna vez?', it: 'Hai mai fatto immersioni o snorkeling?', pl: 'Czy kiedykolwiek nurkowałeś lub snorklowałeś?', nl: 'Heb je ooit gedoken of gesnorkeld?', pt: 'Você já mergulhou ou fez snorkel?' },
+      { en: 'What do you know about Mayan culture?', sv: 'Vad vet du om mayakulturen?', de: 'Was wissen Sie über die Maya-Kultur?', fr: 'Que savez-vous de la culture maya?', es: '¿Qué sabes sobre la cultura maya?', it: 'Cosa sai della cultura maya?', pl: 'Co wiesz o kulturze Majów?', nl: 'Wat weet je over de Mayacultuur?', pt: 'O que você sabe sobre a cultura maia?' },
+      { en: 'Do you enjoy Caribbean food?', sv: 'Tycker du om karibisk mat?', de: 'Mögen Sie karibisches Essen?', fr: 'Aimez-vous la cuisine caribéenne?', es: '¿Disfrutas de la comida caribeña?', it: 'Ti piace il cibo caraibico?', pl: 'Czy lubisz karaibskie jedzenie?', nl: 'Houd je van Caribisch eten?', pt: 'Você gosta de comida caribenha?' },
     ],
     quiz: [
       {

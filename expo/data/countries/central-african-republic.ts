@@ -250,7 +250,17 @@ export const centralAfricanRepublic: Country = {
         pt: 'The Manovo-Gounda St. Floris National Park is a UNESCO World Heritage Site',
       },
     ],
-    foodCulture: 'Central African cuisine features cassava, plantains, peanuts, and bushmeat. French influence is evident in urban areas. Meals are communal and eaten with hands. Palm oil and peanut sauces are staples.',
+    foodCulture: {
+      en: 'Central African cuisine features cassava, plantains, peanuts, and bushmeat. French influence is evident in urban areas. Meals are communal and eaten with hands. Palm oil and peanut sauces are staples.',
+      sv: 'Centralafrikansk mat innehåller kassava, bananer, jordnötter och viltbuskkött. Franskt inflytande är tydligt i stadsområden. Måltider är gemensamma och äts med händerna. Palmolja och jordnötssåser är stapelvaror.',
+      de: 'Die zentralafrikanische Küche umfasst Maniok, Kochbananen, Erdnüsse und Buschfleisch. Französischer Einfluss ist in städtischen Gebieten deutlich zu erkennen. Mahlzeiten sind kommunal und werden mit den Händen gegessen. Palmöl und Erdnusssaucen sind Grundnahrungsmittel.',
+      fr: 'La cuisine centrafricaine comprend du manioc, des plantains, des arachides et de la viande de brousse. L\'influence française est évidente dans les zones urbaines. Les repas sont communautaires et mangés avec les mains. L\'huile de palme et les sauces aux arachides sont des aliments de base.',
+      es: 'La cocina centroafricana incluye yuca, plátanos, cacahuetes y carne de monte. La influencia francesa es evidente en las zonas urbanas. Las comidas son comunales y se comen con las manos. El aceite de palma y las salsas de cacahuete son básicos.',
+      it: 'La cucina centrafricana comprende manioca, platani, arachidi e selvaggina. L\'influenza francese è evidente nelle aree urbane. I pasti sono comunitari e vengono mangiati con le mani. L\'olio di palma e le salse di arachidi sono alimenti di base.',
+      pl: 'Kuchnia środkowoafrykańska obejmuje maniok, banany, orzeszki ziemne i mięso dzikiej zwierzyny. Wpływ francuski jest widoczny na obszarach miejskich. Posiłki są wspólnotowe i spożywane rękami. Olej palmowy i sosy orzechowe są podstawowymi produktami.',
+      nl: 'De Centraal-Afrikaanse keuken bevat cassave, bakbananen, pinda\'s en busvlees. Franse invloed is duidelijk in stedelijke gebieden. Maaltijden zijn gemeenschappelijk en worden met de handen gegeten. Palmolie en pindasauzen zijn basisvoedsel.',
+      pt: 'A culinária centro-africana inclui mandioca, bananas-da-terra, amendoins e carne de caça. A influência francesa é evidente nas áreas urbanas. As refeições são comunitárias e comidas com as mãos. O óleo de palma e os molhos de amendoim são alimentos básicos.',
+    },
     history: [
       {
         year: '13th century',
@@ -1118,18 +1128,18 @@ export const centralAfricanRepublic: Country = {
       nonAlcoholic: 'Ginger juice, Hibiscus tea',
     },
     music: [
-      'Traditional Pygmy music',
-      'Sango folk songs',
-      'Central African rhythms',
+      { en: 'Traditional Pygmy music', sv: 'Traditionell pygmémusik', de: 'Traditionelle Pygmäenmusik', fr: 'Musique traditionnelle pygmée', es: 'Música tradicional pigmea', it: 'Musica tradizionale pigmea', pl: 'Tradycyjna muzyka pigmejska', nl: 'Traditionele Pygmeeënmuziek', pt: 'Música tradicional pigmeia' },
+      { en: 'Sango folk songs', sv: 'Sango folkvisor', de: 'Sango-Volkslieder', fr: 'Chansons folkloriques sango', es: 'Canciones populares sango', it: 'Canzoni folk sango', pl: 'Pieśni ludowe sango', nl: 'Sango volksliederen', pt: 'Canções folclóricas sango' },
+      { en: 'Central African rhythms', sv: 'Centralafrikanska rytmer', de: 'Zentralafrikanische Rhythmen', fr: 'Rythmes d\'Afrique centrale', es: 'Ritmos de África Central', it: 'Ritmi dell\'Africa centrale', pl: 'Rytmy Afryki Środkowej', nl: 'Centraal-Afrikaanse ritmes', pt: 'Ritmos da África Central' },
     ],
     decorationIdeas: [
-      'Blue, white, green, yellow and red flag colors',
-      'Tropical forest imagery',
-      'Traditional crafts',
+      { en: 'Blue, white, green, yellow and red flag colors', sv: 'Blå, vita, gröna, gula och röda flaggfärger', de: 'Blaue, weiße, grüne, gelbe und rote Flaggenfarben', fr: 'Couleurs bleu, blanc, vert, jaune et rouge du drapeau', es: 'Colores azul, blanco, verde, amarillo y rojo de la bandera', it: 'Colori blu, bianco, verde, giallo e rosso della bandiera', pl: 'Niebieskie, białe, zielone, żółte i czerwone kolory flagi', nl: 'Blauw, wit, groen, geel en rood van de vlag', pt: 'Cores azul, branco, verde, amarelo e vermelho da bandeira' },
+      { en: 'Tropical forest imagery', sv: 'Tropisk skogsimageri', de: 'Tropenwald-Bilder', fr: 'Images de forêt tropicale', es: 'Imágenes de bosque tropical', it: 'Immagini della foresta tropicale', pl: 'Obrazy lasów tropikalnych', nl: 'Tropisch bosbeelden', pt: 'Imagens de floresta tropical' },
+      { en: 'Traditional crafts', sv: 'Traditionellt hantverk', de: 'Traditionelles Handwerk', fr: 'Artisanat traditionnel', es: 'Artesanías tradicionales', it: 'Artigianato tradizionale', pl: 'Tradycyjne rzemiosło', nl: 'Traditioneel ambacht', pt: 'Artesanato tradicional' },
     ],
     conversationStarters: [
-      'What do you know about Central African wildlife?',
-      'Have you tried West African cuisine?',
+      { en: 'What do you know about Central African wildlife?', sv: 'Vad vet du om centralafrikanskt djurliv?', de: 'Was wissen Sie über die zentralafrikanische Tierwelt?', fr: 'Que savez-vous sur la faune d\'Afrique centrale ?', es: '¿Qué sabes sobre la vida silvestre de África Central?', it: 'Cosa sai della fauna selvatica dell\'Africa centrale?', pl: 'Co wiesz o faunie Afryki Środkowej?', nl: 'Wat weet je over de Centraal-Afrikaanse fauna?', pt: 'O que você sabe sobre a vida selvagem da África Central?' },
+      { en: 'Have you tried West African cuisine?', sv: 'Har du provat västafrikansk mat?', de: 'Haben Sie westafrikanische Küche probiert?', fr: 'Avez-vous goûté la cuisine d\'Afrique de l\'Ouest ?', es: '¿Has probado la cocina de África Occidental?', it: 'Hai provato la cucina dell\'Africa occidentale?', pl: 'Czy próbowałeś kuchni zachodnioafrykańskiej?', nl: 'Heb je West-Afrikaanse keuken geprobeerd?', pt: 'Você já experimentou a culinária da África Ocidental?' },
     ],
     quiz: [
       {

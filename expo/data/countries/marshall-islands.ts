@@ -206,7 +206,17 @@ export const marshallIslands: Country = {
         pt: 'Consists of 29 atolls and 5 islands',
       },
     ],
-    foodCulture: 'Marshallese cuisine features fish, breadfruit, taro, and coconut.',
+    foodCulture: {
+      en: 'Marshallese cuisine features fish, breadfruit, taro, and coconut.',
+      sv: 'Marshalesisk mat innehåller fisk, brödfrukt, taro och kokosnöt.',
+      de: 'Die marshallische Küche umfasst Fisch, Brotfrucht, Taro und Kokosnuss.',
+      fr: 'La cuisine des Îles Marshall comprend du poisson, du fruit à pain, du taro et de la noix de coco.',
+      es: 'La cocina de las Islas Marshall incluye pescado, fruta del pan, taro y coco.',
+      it: 'La cucina delle Isole Marshall comprende pesce, frutto dell\'albero del pane, taro e cocco.',
+      pl: 'Kuchnia Wysp Marshalla zawiera ryby, chlebowiec, taro i kokos.',
+      nl: 'De Marshallese keuken bevat vis, broodvrucht, taro en kokosnoot.',
+      pt: 'A cozinha das Ilhas Marshall inclui peixe, fruta-pão, taro e coco.',
+    },
     history: [
       {
         year: '1946',
@@ -851,19 +861,19 @@ export const marshallIslands: Country = {
       nonAlcoholic: 'Coconut water, Fresh juice',
     },
     music: [
-      'Traditional chants',
-      'Pacific island rhythms',
-      'Contemporary Marshallese pop',
+      { en: 'Traditional chants', sv: 'Traditionella sånger', de: 'Traditionelle Gesänge', fr: 'Chants traditionnels', es: 'Cantos tradicionales', it: 'Canti tradizionali', pl: 'Tradycyjne śpiewy', nl: 'Traditionele gezangen', pt: 'Cantos tradicionais' },
+      { en: 'Pacific island rhythms', sv: 'Stillahavssöarnas rytmer', de: 'Pazifische Inselrhythmen', fr: 'Rythmes des îles du Pacifique', es: 'Ritmos de las islas del Pacífico', it: 'Ritmi delle isole del Pacifico', pl: 'Rytmy wysp Pacyfiku', nl: 'Pacific eilandritmes', pt: 'Ritmos das ilhas do Pacífico' },
+      { en: 'Contemporary Marshallese pop', sv: 'Nutida marshalesisk pop', de: 'Zeitgenössischer marshallischer Pop', fr: 'Pop contemporaine des Îles Marshall', es: 'Pop de las Islas Marshall contemporáneo', it: 'Pop contemporaneo delle Isole Marshall', pl: 'Współczesny pop Wysp Marshalla', nl: 'Hedendaagse Marshallse pop', pt: 'Pop contemporâneo das Ilhas Marshall' },
     ],
     decorationIdeas: [
-      'Orange, white and blue flag colors',
-      'Ocean and atoll imagery',
-      'Traditional stick charts',
-      'Tropical themes',
+      { en: 'Orange, white and blue flag colors', sv: 'Orange, vita och blå flaggfärger', de: 'Orange, Weiß und Blau der Flaggenfarben', fr: 'Couleurs du drapeau : orange, blanc et bleu', es: 'Colores de la bandera: naranja, blanco y azul', it: 'Colori della bandiera: arancione, bianco e blu', pl: 'Pomarańczowe, białe i niebieskie barwy flagi', nl: 'Oranje, wit en blauw van de vlagkleuren', pt: 'Cores da bandeira: laranja, branco e azul' },
+      { en: 'Ocean and atoll imagery', sv: 'Bilder av hav och atoller', de: 'Ozean- und Atoll-Bilder', fr: 'Images d\'océan et d\'atolls', es: 'Imágenes de océano y atolones', it: 'Immagini di oceano e atolli', pl: 'Obrazy oceanu i atoli', nl: 'Oceaan- en atol afbeeldingen', pt: 'Imagens de oceano e atóis' },
+      { en: 'Traditional stick charts', sv: 'Traditionella pinnkort', de: 'Traditionelle Stab-Navigations-Karten', fr: 'Cartes à bâtons traditionnelles', es: 'Mapas de palos tradicionales', it: 'Mappe a bastoncini tradizionali', pl: 'Tradycyjne mapy z patyków', nl: 'Traditionele stokkaarten', pt: 'Mapas de varas tradicionais' },
+      { en: 'Tropical themes', sv: 'Tropiska teman', de: 'Tropische Motive', fr: 'Thèmes tropicaux', es: 'Temas tropicales', it: 'Temi tropicali', pl: 'Motywy tropikalne', nl: 'Tropische thema\'s', pt: 'Temas tropicais' },
     ],
     conversationStarters: [
-      'What do you know about Pacific atolls?',
-      'Have you heard of traditional navigation?',
+      { en: 'What do you know about Pacific atolls?', sv: 'Vad vet du om stillahavsatoller?', de: 'Was weißt du über pazifische Atolle?', fr: 'Que savez-vous des atolls du Pacifique ?', es: '¿Qué sabes sobre los atolones del Pacífico?', it: 'Cosa sai degli atolli del Pacifico?', pl: 'Co wiesz o atolach Pacyfiku?', nl: 'Wat weet je over Pacific atollen?', pt: 'O que você sabe sobre os atóis do Pacífico?' },
+      { en: 'Have you heard of traditional navigation?', sv: 'Har du hört talas om traditionell navigation?', de: 'Hast du von traditioneller Navigation gehört?', fr: 'Avez-vous entendu parler de la navigation traditionnelle ?', es: '¿Has oído hablar de la navegación tradicional?', it: 'Hai sentito parlare della navigazione tradizionale?', pl: 'Czy słyszałeś o tradycyjnej nawigacji?', nl: 'Heb je gehoord van traditionele navigatie?', pt: 'Você já ouviu falar de navegação tradicional?' },
     ],
     quiz: [
       {

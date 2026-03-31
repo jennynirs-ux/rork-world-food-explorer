@@ -206,7 +206,17 @@ export const uzbekistan: Country = {
         pt: 'Cotton has historically been a major export crop',
       },
     ],
-    foodCulture: 'Uzbek cuisine is hearty and communal, centered on rice, lamb, bread (non), and seasonal produce, with Central Asian and Persian influences.',
+    foodCulture: {
+      en: 'Uzbek cuisine is hearty and communal, centered on rice, lamb, bread (non), and seasonal produce, with Central Asian and Persian influences.',
+      sv: 'Det uzbekiska köket är rejält och gemensamt, centrerat kring ris, lamm, bröd (non) och säsongsprodukter, med centralasiatiska och persiska influenser.',
+      de: 'Die usbekische Küche ist herzhaft und gemeinschaftsorientiert, zentriert auf Reis, Lamm, Brot (Non) und saisonales Gemüse, mit zentralasiatischen und persischen Einflüssen.',
+      fr: 'La cuisine ouzbèke est copieuse et communautaire, centrée sur le riz, l\'agneau, le pain (non) et les produits saisonniers, avec des influences d\'Asie centrale et persanes.',
+      es: 'La cocina uzbeka es abundante y comunal, centrada en el arroz, el cordero, el pan (non) y los productos de temporada, con influencias de Asia Central y persa.',
+      it: 'La cucina uzbeka è sostanziosa e comunitaria, centrata su riso, agnello, pane (non) e prodotti stagionali, con influenze centroasiatiche e persiane.',
+      pl: 'Kuchnia uzbecka jest syta i wspólnotowa, skoncentrowana na ryżu, jagnięcinie, chlebie (non) i sezonowych produktach, z wpływami środkowoazjatyckimi i perskimi.',
+      nl: 'De Oezbeekse keuken is stevig en gemeenschappelijk, gecentreerd op rijst, lam, brood (non) en seizoensproducten, met Centraal-Aziatische en Perzische invloeden.',
+      pt: 'A culinária uzbeque é substancial e comunitária, centrada no arroz, borrego, pão (non) e produtos sazonais, com influências da Ásia Central e persas.',
+    },
     history: [
       {
         year: '500-1000 AD',
@@ -1115,19 +1125,19 @@ export const uzbekistan: Country = {
       nonAlcoholic: 'Green tea, Fresh pomegranate juice',
     },
     music: [
-      'Traditional Shashmaqam',
-      'Dutar music',
-      'Uzbek folk songs',
+      { en: 'Traditional Shashmaqam', sv: 'Traditionell Shashmaqam', de: 'Traditioneller Shashmaqam', fr: 'Shashmaqam traditionnel', es: 'Shashmaqam tradicional', it: 'Shashmaqam tradizionale', pl: 'Tradycyjny Shashmaqam', nl: 'Traditionele Shashmaqam', pt: 'Shashmaqam tradicional' },
+      { en: 'Dutar music', sv: 'Dutar-musik', de: 'Dutar-Musik', fr: 'Musique de dutar', es: 'Música de dutar', it: 'Musica di dutar', pl: 'Muzyka na dutarze', nl: 'Dutar muziek', pt: 'Música de dutar' },
+      { en: 'Uzbek folk songs', sv: 'Uzbekiska folksånger', de: 'Usbekische Volkslieder', fr: 'Chansons folkloriques ouzbèkes', es: 'Canciones folclóricas uzbekas', it: 'Canzoni folk uzbeke', pl: 'Uzbeckie pieśni ludowe', nl: 'Oezbeekse volksliederen', pt: 'Canções folclóricas uzbeques' },
     ],
     decorationIdeas: [
-      'Blue, white, and green flag colors',
-      'Islamic tilework patterns',
-      'Silk Road imagery',
-      'Blue domes and arch motifs',
+      { en: 'Blue, white, and green flag colors', sv: 'Blå, vita och gröna flaggfärger', de: 'Blaue, weiße und grüne Flaggenfarben', fr: 'Couleurs du drapeau bleu, blanc et vert', es: 'Colores de la bandera azul, blanco y verde', it: 'Colori della bandiera blu, bianco e verde', pl: 'Niebiesko-biało-zielone kolory flagi', nl: 'Blauwe, witte en groene vlagkleuren', pt: 'Cores da bandeira azul, branco e verde' },
+      { en: 'Islamic tilework patterns', sv: 'Islamiska kakelplattor-mönster', de: 'Islamische Fliesenmuster', fr: 'Motifs de carrelage islamique', es: 'Patrones de azulejos islámicos', it: 'Motivi di piastrelle islamiche', pl: 'Islamskie wzory na kafelkach', nl: 'Islamitische tegelpatronen', pt: 'Padrões de azulejos islâmicos' },
+      { en: 'Silk Road imagery', sv: 'Sidenvägens motiv', de: 'Seidenstraßen-Motive', fr: 'Images de la Route de la Soie', es: 'Imágenes de la Ruta de la Seda', it: 'Immagini della Via della Seta', pl: 'Motywy Jedwabnego Szlaku', nl: 'Zijderoutebeelden', pt: 'Imagens da Rota da Seda' },
+      { en: 'Blue domes and arch motifs', sv: 'Blå kupoler och bågmotiv', de: 'Blaue Kuppeln und Bogen-Motive', fr: 'Dômes bleus et motifs d\'arches', es: 'Cúpulas azules y motivos de arcos', it: 'Cupole blu e motivi ad arco', pl: 'Niebieskie kopuły i motywy łukowe', nl: 'Blauwe koepels en boogmotieven', pt: 'Cúpulas azuis e motivos de arco' },
     ],
     conversationStarters: [
-      'Have you visited any Silk Road cities?',
-      'What do you find most beautiful about Islamic architecture?',
+      { en: 'Have you visited any Silk Road cities?', sv: 'Har du besökt några städer längs Sidenvägen?', de: 'Haben Sie eine Stadt an der Seidenstraße besucht?', fr: 'Avez-vous visité des villes de la Route de la Soie ?', es: '¿Has visitado alguna ciudad de la Ruta de la Seda?', it: 'Hai visitato qualche città della Via della Seta?', pl: 'Czy odwiedziłeś jakieś miasta na Jedwabnym Szlaku?', nl: 'Heb je steden langs de Zijderoute bezocht?', pt: 'Já visitaste alguma cidade da Rota da Seda?' },
+      { en: 'What do you find most beautiful about Islamic architecture?', sv: 'Vad tycker du är vackrast med islamisk arkitektur?', de: 'Was finden Sie am schönsten an islamischer Architektur?', fr: 'Qu\'est-ce que vous trouvez le plus beau dans l\'architecture islamique ?', es: '¿Qué encuentras más bello en la arquitectura islámica?', it: 'Cosa trovi più bello dell\'architettura islamica?', pl: 'Co uważasz za najpiękniejsze w architekturze islamskiej?', nl: 'Wat vind je het mooiste aan islamitische architectuur?', pt: 'O que achaste mais bonito na arquitetura islâmica?' },
     ],
     quiz: [
       {

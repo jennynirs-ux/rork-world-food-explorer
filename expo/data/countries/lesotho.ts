@@ -206,7 +206,17 @@ export const lesotho: Country = {
         pt: 'Rich in diamonds and water resources',
       },
     ],
-    foodCulture: 'Basotho cuisine features maize, sorghum, and vegetables with Southern African influences.',
+    foodCulture: {
+      en: 'Basotho cuisine features maize, sorghum, and vegetables with Southern African influences.',
+      sv: 'Basotho-maten innehåller majs, sorghum och grönsaker med sydafrikanska influenser.',
+      de: 'Die Basotho-Küche bietet Mais, Sorghum und Gemüse mit südafrikanischen Einflüssen.',
+      fr: 'La cuisine basotho propose du maïs, du sorgho et des légumes avec des influences d\'Afrique australe.',
+      es: 'La cocina basotho incluye maíz, sorgo y verduras con influencias del sur de África.',
+      it: 'La cucina basotho presenta mais, sorgo e verdure con influenze dell\'Africa meridionale.',
+      pl: 'Kuchnia Basotho obejmuje kukurydzę, sorgo i warzywa z wpływami południowoafrykańskimi.',
+      nl: 'De Basotho-keuken omvat maïs, sorghum en groenten met Zuid-Afrikaanse invloeden.',
+      pt: 'A culinária basotho apresenta milho, sorgo e legumes com influências da África do Sul.',
+    },
     history: [
       {
         year: '1822',
@@ -902,19 +912,19 @@ export const lesotho: Country = {
       nonAlcoholic: 'Rooibos tea, Fresh milk',
     },
     music: [
-      'Traditional Famo music',
-      'Basotho folk songs',
-      'Accordion music',
+      { en: 'Traditional Famo music', sv: 'Traditionell Famo-musik', de: 'Traditionelle Famo-Musik', fr: 'Musique Famo traditionnelle', es: 'Música Famo tradicional', it: 'Musica Famo tradizionale', pl: 'Tradycyjna muzyka Famo', nl: 'Traditionele Famo-muziek', pt: 'Música Famo tradicional' },
+      { en: 'Basotho folk songs', sv: 'Basothofolksånger', de: 'Basotho-Volkslieder', fr: 'Chansons folk basotho', es: 'Canciones folclóricas basotho', it: 'Canzoni folk basotho', pl: 'Pieśni ludowe Basotho', nl: 'Basotho volksliederen', pt: 'Canções folclóricas basotho' },
+      { en: 'Accordion music', sv: 'Dragspelsmusik', de: 'Akkordeonmusik', fr: 'Musique à l\'accordéon', es: 'Música de acordeón', it: 'Musica con fisarmonica', pl: 'Muzyka akordeonowa', nl: 'Accordeonmuziek', pt: 'Música de acordeão' },
     ],
     decorationIdeas: [
-      'Blue, white and green flag colors',
-      'Mountain landscapes',
-      'Traditional Basotho blankets',
-      'Mokorotlo hat imagery',
+      { en: 'Blue, white and green flag colors', sv: 'Blå, vita och gröna flaggfärger', de: 'Blaue, weiße und grüne Flaggenfarben', fr: 'Couleurs du drapeau bleu, blanc et vert', es: 'Colores de la bandera azul, blanco y verde', it: 'Colori della bandiera blu, bianco e verde', pl: 'Niebieskie, białe i zielone kolory flagi', nl: 'Blauwe, witte en groene vlagkleuren', pt: 'Cores da bandeira azul, branco e verde' },
+      { en: 'Mountain landscapes', sv: 'Berglandskap', de: 'Berglandschaften', fr: 'Paysages montagneux', es: 'Paisajes montañosos', it: 'Paesaggi montani', pl: 'Krajobrazy górskie', nl: 'Berglandschappen', pt: 'Paisagens montanhosas' },
+      { en: 'Traditional Basotho blankets', sv: 'Traditionella Basotho-filtar', de: 'Traditionelle Basotho-Decken', fr: 'Couvertures basotho traditionnelles', es: 'Mantas basotho tradicionales', it: 'Coperte basotho tradizionali', pl: 'Tradycyjne koce Basotho', nl: 'Traditionele Basotho dekens', pt: 'Cobertores basotho tradicionais' },
+      { en: 'Mokorotlo hat imagery', sv: 'Mokorotlo-hattbilder', de: 'Mokorotlo-Hut-Motive', fr: 'Images du chapeau Mokorotlo', es: 'Imágenes del sombrero Mokorotlo', it: 'Immagini del cappello Mokorotlo', pl: 'Motywy kapelusza Mokorotlo', nl: 'Mokorotlo hoed beelden', pt: 'Imagens do chapéu Mokorotlo' },
     ],
     conversationStarters: [
-      'Have you been to a country within a country?',
-      'What do you know about African kingdoms?',
+      { en: 'Have you been to a country within a country?', sv: 'Har du besökt ett land inom ett land?', de: 'Warst du in einem Land innerhalb eines Landes?', fr: 'Avez-vous visité un pays enclavé dans un autre pays?', es: '¿Has estado en un país dentro de otro país?', it: 'Sei mai stato in un paese dentro un altro paese?', pl: 'Czy byłeś w kraju wewnątrz innego kraju?', nl: 'Ben je ooit in een land binnen een land geweest?', pt: 'Você já esteve em um país dentro de outro país?' },
+      { en: 'What do you know about African kingdoms?', sv: 'Vad vet du om afrikanska kungariken?', de: 'Was weißt du über afrikanische Königreiche?', fr: 'Que savez-vous des royaumes africains?', es: '¿Qué sabes sobre los reinos africanos?', it: 'Cosa sai dei regni africani?', pl: 'Co wiesz o afrykańskich królestwach?', nl: 'Wat weet je over Afrikaanse koninkrijken?', pt: 'O que você sabe sobre os reinos africanos?' },
     ],
     quiz: [
       {

@@ -250,7 +250,17 @@ export const azerbaijan: Country = {
         pt: 'Chess is extremely popular - it\'s taught in schools as a mandatory subject',
       },
     ],
-    foodCulture: 'Azerbaijani cuisine is rich and diverse, influenced by Persian, Turkish, and Russian traditions. Food is central to Azerbaijani hospitality, with meals often featuring multiple courses. Tea culture is particularly important - tea is served throughout the day from samovars.',
+    foodCulture: {
+      en: 'Azerbaijani cuisine is rich and diverse, influenced by Persian, Turkish, and Russian traditions. Food is central to Azerbaijani hospitality, with meals often featuring multiple courses. Tea culture is particularly important - tea is served throughout the day from samovars.',
+      sv: 'Azerbajdzjansk mat är rik och varierad, influerad av persiska, turkiska och ryska traditioner. Mat är central i azerbajdzjansk gästfrihet, och måltider har ofta flera rätter. Teekulturen är särskilt viktig — te serveras under hela dagen från samovarer.',
+      de: 'Die aserbaidschanische Küche ist reich und vielfältig, beeinflusst von persischen, türkischen und russischen Traditionen. Essen ist zentral für die aserbaidschanische Gastfreundschaft, mit Mahlzeiten, die oft mehrere Gänge umfassen. Die Teekultur ist besonders wichtig — Tee wird den ganzen Tag aus Samowaren serviert.',
+      fr: 'La cuisine azerbaïdjanaise est riche et diversifiée, influencée par les traditions persanes, turques et russes. La nourriture est centrale pour l\'hospitalité azerbaïdjanaise, avec des repas comportant souvent plusieurs plats. La culture du thé est particulièrement importante — le thé est servi toute la journée dans des samovars.',
+      es: 'La cocina azerbaiyana es rica y diversa, influenciada por las tradiciones persas, turcas y rusas. La comida es central en la hospitalidad azerbaiyana, con comidas que a menudo incluyen varios platos. La cultura del té es particularmente importante: el té se sirve durante todo el día en samovares.',
+      it: 'La cucina azerbaigiana è ricca e varia, influenzata dalle tradizioni persiane, turche e russe. Il cibo è centrale per l\'ospitalità azerbaigiana, con pasti che spesso presentano più portate. La cultura del tè è particolarmente importante — il tè viene servito tutto il giorno dai samovar.',
+      pl: 'Kuchnia azerska jest bogata i różnorodna, pod wpływem tradycji perskich, tureckich i rosyjskich. Jedzenie jest kluczowe dla gościnności azerskiej, a posiłki często mają wiele dań. Kultura herbaty jest szczególnie ważna — herbata jest podawana przez cały dzień z samowarów.',
+      nl: 'De Azerbeidzjaanse keuken is rijk en gevarieerd, beïnvloed door Perzische, Turkse en Russische tradities. Eten staat centraal in de Azerbeidzjaanse gastvrijheid, waarbij maaltijden vaak meerdere gangen bevatten. De theecultuur is bijzonder belangrijk — thee wordt de hele dag uit samovars geserveerd.',
+      pt: 'A culinária azerbaijana é rica e diversa, influenciada pelas tradições persa, turca e russa. A comida é central na hospitalidade azerbaijana, com refeições frequentemente compostas por vários pratos. A cultura do chá é particularmente importante — o chá é servido ao longo do dia em samovares.',
+    },
     innovations: [
       {
         name: {
@@ -1206,24 +1216,24 @@ export const azerbaijan: Country = {
       nonAlcoholic: 'Black tea (always served), Sherbet (fruit drink), Ayran',
     },
     music: [
-      'Mugham (traditional music)',
-      'Tar (traditional instrument)',
-      'Ashiq music',
-      'Folk dances',
+      { en: 'Mugham (traditional music)', sv: 'Mugham (traditionell musik)', de: 'Mugham (traditionelle Musik)', fr: 'Mugham (musique traditionnelle)', es: 'Mugham (música tradicional)', it: 'Mugham (musica tradizionale)', pl: 'Mugham (muzyka tradycyjna)', nl: 'Mugham (traditionele muziek)', pt: 'Mugham (música tradicional)' },
+      { en: 'Tar (traditional instrument)', sv: 'Tar (traditionellt instrument)', de: 'Tar (traditionelles Instrument)', fr: 'Tar (instrument traditionnel)', es: 'Tar (instrumento tradicional)', it: 'Tar (strumento tradizionale)', pl: 'Tar (tradycyjny instrument)', nl: 'Tar (traditioneel instrument)', pt: 'Tar (instrumento tradicional)' },
+      { en: 'Ashiq music', sv: 'Ashiq-musik', de: 'Ashiq-Musik', fr: 'Musique ashiq', es: 'Música ashiq', it: 'Musica ashiq', pl: 'Muzyka ashiq', nl: 'Ashiq-muziek', pt: 'Música ashiq' },
+      { en: 'Folk dances', sv: 'Folkdanser', de: 'Volkstänze', fr: 'Danses folkloriques', es: 'Danzas folclóricas', it: 'Danze popolari', pl: 'Tańce ludowe', nl: 'Volksdansen', pt: 'Danças folclóricas' },
     ],
     decorationIdeas: [
-      'Traditional Azerbaijani carpets',
-      'Fire-themed elements (red, orange, gold)',
-      'Copper samovars',
-      'Blue and red color scheme',
-      'Pomegranate motifs',
-      'Oriental lanterns',
+      { en: 'Traditional Azerbaijani carpets', sv: 'Traditionella azerbajdzjanska mattor', de: 'Traditionelle aserbaidschanische Teppiche', fr: 'Tapis azerbaïdjanais traditionnels', es: 'Alfombras azerbaiyanas tradicionales', it: 'Tappeti azerbaigiani tradizionali', pl: 'Tradycyjne dywany azerskie', nl: 'Traditionele Azerbeidzjaanse tapijten', pt: 'Tapetes azerbaijanos tradicionais' },
+      { en: 'Fire-themed elements (red, orange, gold)', sv: 'Eldtematiska element (röd, orange, guld)', de: 'Feuerthematische Elemente (Rot, Orange, Gold)', fr: 'Éléments thème feu (rouge, orange, or)', es: 'Elementos temáticos de fuego (rojo, naranja, dorado)', it: 'Elementi a tema fuoco (rosso, arancione, oro)', pl: 'Elementy o tematyce ognia (czerwony, pomarańczowy, złoty)', nl: 'Vuurthema elementen (rood, oranje, goud)', pt: 'Elementos temáticos de fogo (vermelho, laranja, dourado)' },
+      { en: 'Copper samovars', sv: 'Kopparsamovarer', de: 'Kupfer-Samowaren', fr: 'Samovars en cuivre', es: 'Samovares de cobre', it: 'Samovar in rame', pl: 'Miedziane samowary', nl: 'Koperen samovars', pt: 'Samovares de cobre' },
+      { en: 'Blue and red color scheme', sv: 'Blå och röd färgschema', de: 'Blau-Rot-Farbschema', fr: 'Palette de couleurs bleu et rouge', es: 'Combinación de colores azul y rojo', it: 'Schema di colori blu e rosso', pl: 'Kolorystyka niebiesko-czerwona', nl: 'Blauw en rood kleurenschema', pt: 'Esquema de cores azul e vermelho' },
+      { en: 'Pomegranate motifs', sv: 'Granatäppelsmotiv', de: 'Granatapfel-Motive', fr: 'Motifs de grenade', es: 'Motivos de granada', it: 'Motivi di melograno', pl: 'Motywy granatu', nl: 'Granaatappel-motieven', pt: 'Motivos de romã' },
+      { en: 'Oriental lanterns', sv: 'Orientaliska lyktor', de: 'Orientalische Laternen', fr: 'Lanternes orientales', es: 'Linternas orientales', it: 'Lanterne orientali', pl: 'Orientalne latarnie', nl: 'Oriëntaalse lantaarns', pt: 'Lanternas orientais' },
     ],
     conversationStarters: [
-      'Have you heard about the eternal flames that burn naturally in Azerbaijan?',
-      'Would you explore Baku\'s modern architecture or ancient Old City first?',
-      'What do you know about Azerbaijani carpet weaving traditions?',
-      'Have you ever tried plov? How does it compare to other rice dishes you know?',
+      { en: 'Have you heard about the eternal flames that burn naturally in Azerbaijan?', sv: 'Har du hört talas om de eviga lågorna som brinner naturligt i Azerbajdzjan?', de: 'Haben Sie von den ewigen Flammen gehört, die in Aserbaidschan auf natürliche Weise brennen?', fr: 'Avez-vous entendu parler des flammes éternelles qui brûlent naturellement en Azerbaïdjan?', es: '¿Has oído hablar de las llamas eternas que arden de forma natural en Azerbaiyán?', it: 'Hai sentito parlare delle fiamme eterne che bruciano naturalmente in Azerbaigian?', pl: 'Czy słyszałeś o wiecznych płomieniach, które naturalnie palą się w Azerbejdżanie?', nl: 'Heb je gehoord van de eeuwige vlammen die van nature branden in Azerbeidzjan?', pt: 'Você já ouviu falar das chamas eternas que queimam naturalmente no Azerbaijão?' },
+      { en: 'Would you explore Baku\'s modern architecture or ancient Old City first?', sv: 'Skulle du utforska Bakus moderna arkitektur eller den gamla staden först?', de: 'Würden Sie zuerst Bakus moderne Architektur oder die alte Altstadt erkunden?', fr: 'Exploreriez-vous d\'abord l\'architecture moderne de Bakou ou l\'ancienne vieille ville?', es: '¿Explorarías primero la arquitectura moderna de Bakú o la antigua ciudad vieja?', it: 'Esploreresti prima l\'architettura moderna di Baku o l\'antica città vecchia?', pl: 'Czy najpierw zwiedzałbyś nowoczesną architekturę Baku czy starożytną starówkę?', nl: 'Zou je eerst de moderne architectuur van Bakoe of de oude binnenstad verkennen?', pt: 'Você exploraria primeiro a arquitetura moderna de Baku ou a antiga cidade velha?' },
+      { en: 'What do you know about Azerbaijani carpet weaving traditions?', sv: 'Vad vet du om azerbajdzjanska mattvävarstraditioner?', de: 'Was wissen Sie über die aserbaidschanischen Teppichwebtraditionen?', fr: 'Que savez-vous des traditions de tissage de tapis azerbaïdjanaises?', es: '¿Qué sabes sobre las tradiciones de tejido de alfombras azerbaiyanas?', it: 'Cosa sai delle tradizioni di tessitura di tappeti azerbaigiane?', pl: 'Co wiesz o tradycjach tkania dywanów w Azerbejdżanie?', nl: 'Wat weet je over de Azerbeidzjaanse tapijtweestraditites?', pt: 'O que você sabe sobre as tradições de tecelagem de tapetes azerbaijanos?' },
+      { en: 'Have you ever tried plov? How does it compare to other rice dishes you know?', sv: 'Har du någonsin provat plov? Hur jämför det sig med andra rispersätter du känner till?', de: 'Haben Sie jemals Plov probiert? Wie vergleicht es sich mit anderen Reisgerichten, die Sie kennen?', fr: 'Avez-vous déjà essayé le plov? Comment se compare-t-il aux autres plats de riz que vous connaissez?', es: '¿Has probado alguna vez el plov? ¿Cómo se compara con otros platos de arroz que conoces?', it: 'Hai mai provato il plov? Come si confronta con altri piatti di riso che conosci?', pl: 'Czy kiedykolwiek próbowałeś plov? Jak porównuje się z innymi potrawami ryżowymi, które znasz?', nl: 'Heb je ooit plov geprobeerd? Hoe vergelijkt het met andere rijstgerechten die je kent?', pt: 'Você já experimentou plov? Como ele se compara a outros pratos de arroz que você conhece?' },
     ],
     quiz: [
       {

@@ -250,7 +250,17 @@ export const indonesia: Country = {
         pt: 'Bali is one of the world\'s most popular tourist destinations',
       },
     ],
-    foodCulture: 'Indonesian cuisine is incredibly diverse, varying by island and ethnic group. Rice is the staple, and dishes are often spicy with aromatic herbs and spices. Satay, rendang, and nasi goreng are famous worldwide.',
+    foodCulture: {
+      en: 'Indonesian cuisine is incredibly diverse, varying by island and ethnic group. Rice is the staple, and dishes are often spicy with aromatic herbs and spices. Satay, rendang, and nasi goreng are famous worldwide.',
+      sv: 'Det indonesiska köket är otroligt mångsidigt och varierar beroende på ö och etnisk grupp. Ris är basen, och rätterna är ofta kryddstarka med aromatiska örter och kryddor. Satay, rendang och nasi goreng är världsberömda.',
+      de: 'Die indonesische Küche ist unglaublich vielfältig und variiert je nach Insel und ethnischer Gruppe. Reis ist das Grundnahrungsmittel, und die Gerichte sind oft scharf mit aromatischen Kräutern und Gewürzen. Satay, Rendang und Nasi Goreng sind weltweit bekannt.',
+      fr: 'La cuisine indonésienne est incroyablement diverse, variant selon l\'île et le groupe ethnique. Le riz est la base, et les plats sont souvent épicés avec des herbes et épices aromatiques. Le satay, le rendang et le nasi goreng sont célèbres dans le monde entier.',
+      es: 'La cocina indonesia es increíblemente diversa, variando según la isla y el grupo étnico. El arroz es el alimento básico, y los platos suelen ser picantes con hierbas y especias aromáticas. El satay, el rendang y el nasi goreng son famosos en todo el mundo.',
+      it: 'La cucina indonesiana è incredibilmente diversa, variando per isola e gruppo etnico. Il riso è l\'alimento base, e i piatti sono spesso piccanti con erbe e spezie aromatiche. Satay, rendang e nasi goreng sono famosi in tutto il mondo.',
+      pl: 'Kuchnia indonezyjska jest niesamowicie różnorodna, różniąc się w zależności od wyspy i grupy etnicznej. Ryż jest podstawą, a dania są często pikantne z aromatycznymi ziołami i przyprawami. Satay, rendang i nasi goreng są sławne na całym świecie.',
+      nl: 'De Indonesische keuken is ongelooflijk divers en varieert per eiland en etnische groep. Rijst is het basisvoedsel, en gerechten zijn vaak pittig met aromatische kruiden en specerijen. Satay, rendang en nasi goreng zijn wereldwijd beroemd.',
+      pt: 'A culinária indonésia é incrivelmente diversa, variando por ilha e grupo étnico. O arroz é o alimento básico, e os pratos são frequentemente picantes com ervas e especiarias aromáticas. Satay, rendang e nasi goreng são famosos em todo o mundo.',
+    },
     innovations: [
       {
         name: {
@@ -1278,24 +1288,24 @@ export const indonesia: Country = {
       nonAlcoholic: 'Teh botol (bottled sweet tea), Es kelapa (coconut water), Jamu (herbal drink)',
     },
     music: [
-      'Gamelan (traditional orchestra)',
-      'Dangdut music',
-      'Keroncong',
-      'Modern Indonesian pop',
+      { en: 'Gamelan (traditional orchestra)', sv: 'Gamelan (traditionell orkester)', de: 'Gamelan (traditionelles Orchester)', fr: 'Gamelan (orchestre traditionnel)', es: 'Gamelan (orquesta tradicional)', it: 'Gamelan (orchestra tradizionale)', pl: 'Gamelan (tradycyjna orkiestra)', nl: 'Gamelan (traditioneel orkest)', pt: 'Gamelan (orquestra tradicional)' },
+      { en: 'Dangdut music', sv: 'Dangdut-musik', de: 'Dangdut-Musik', fr: 'Musique Dangdut', es: 'Música Dangdut', it: 'Musica Dangdut', pl: 'Muzyka Dangdut', nl: 'Dangdut-muziek', pt: 'Música Dangdut' },
+      { en: 'Keroncong', sv: 'Keroncong', de: 'Keroncong', fr: 'Keroncong', es: 'Keroncong', it: 'Keroncong', pl: 'Keroncong', nl: 'Keroncong', pt: 'Keroncong' },
+      { en: 'Modern Indonesian pop', sv: 'Modern indonesisk pop', de: 'Moderner indonesischer Pop', fr: 'Pop indonésien moderne', es: 'Pop indonesio moderno', it: 'Pop indonesiano moderno', pl: 'Nowoczesny indonezyjski pop', nl: 'Moderne Indonesische pop', pt: 'Pop indonésio moderno' },
     ],
     decorationIdeas: [
-      'Red and white (Indonesian flag colors)',
-      'Batik patterns (traditional fabric)',
-      'Wayang (shadow puppet) motifs',
-      'Tropical flowers like hibiscus',
-      'Bamboo elements',
-      'Balinese art and carvings',
+      { en: 'Red and white (Indonesian flag colors)', sv: 'Rött och vitt (indonesiska flaggfärger)', de: 'Rot und Weiß (indonesische Flaggenfarben)', fr: 'Rouge et blanc (couleurs du drapeau indonésien)', es: 'Rojo y blanco (colores de la bandera indonesia)', it: 'Rosso e bianco (colori della bandiera indonesiana)', pl: 'Czerwony i biały (kolory flagi indonezyjskiej)', nl: 'Rood en wit (Indonesische vlagkleuren)', pt: 'Vermelho e branco (cores da bandeira indonésia)' },
+      { en: 'Batik patterns (traditional fabric)', sv: 'Batikmönster (traditionellt tyg)', de: 'Batik-Muster (traditioneller Stoff)', fr: 'Motifs batik (tissu traditionnel)', es: 'Patrones batik (tela tradicional)', it: 'Motivi batik (tessuto tradizionale)', pl: 'Wzory batiku (tradycyjna tkanina)', nl: 'Batik patronen (traditionele stof)', pt: 'Padrões batik (tecido tradicional)' },
+      { en: 'Wayang (shadow puppet) motifs', sv: 'Wayang (skuggdocka) motiv', de: 'Wayang (Schattenspiel) Motive', fr: 'Motifs wayang (marionnettes d\'ombre)', es: 'Motivos wayang (títeres de sombra)', it: 'Motivi wayang (pupazzi d\'ombra)', pl: 'Motywy wayang (teatr cieni)', nl: 'Wayang (schaduwpop) motieven', pt: 'Motivos wayang (teatro de sombras)' },
+      { en: 'Tropical flowers like hibiscus', sv: 'Tropiska blommor som hibiskus', de: 'Tropische Blumen wie Hibiskus', fr: 'Fleurs tropicales comme l\'hibiscus', es: 'Flores tropicales como el hibisco', it: 'Fiori tropicali come l\'ibisco', pl: 'Tropikalne kwiaty jak hibiskus', nl: 'Tropische bloemen zoals hibiscus', pt: 'Flores tropicais como hibisco' },
+      { en: 'Bamboo elements', sv: 'Bambuelement', de: 'Bambus-Elemente', fr: 'Éléments en bambou', es: 'Elementos de bambú', it: 'Elementi di bambù', pl: 'Elementy bambusowe', nl: 'Bamboe-elementen', pt: 'Elementos de bambu' },
+      { en: 'Balinese art and carvings', sv: 'Balinesisk konst och träsniderier', de: 'Balinesische Kunst und Schnitzereien', fr: 'Art et sculptures balinais', es: 'Arte y tallas balinesas', it: 'Arte e intagli balinesi', pl: 'Balijskie sztuka i rzeźby', nl: 'Balinees kunst en houtsnijwerk', pt: 'Arte e esculturas balinesas' },
     ],
     conversationStarters: [
-      'Have you been to Bali? The beaches are stunning!',
-      'Komodo dragons are only found in Indonesia - so fascinating!',
-      'Indonesian satay is so flavorful - do you like it?',
-      'Over 17,000 islands - so much to explore!',
+      { en: 'Have you been to Bali? The beaches are stunning!', sv: 'Har du besökt Bali? Stränderna är fantastiska!', de: 'Warst du auf Bali? Die Strände sind atemberaubend!', fr: 'Avez-vous été à Bali? Les plages sont magnifiques!', es: '¿Has estado en Bali? ¡Las playas son impresionantes!', it: 'Sei stato a Bali? Le spiagge sono mozzafiato!', pl: 'Byłeś na Bali? Plaże są niesamowite!', nl: 'Ben je naar Bali geweest? De stranden zijn prachtig!', pt: 'Você já foi a Bali? As praias são deslumbrantes!' },
+      { en: 'Komodo dragons are only found in Indonesia - so fascinating!', sv: 'Komodovaran finns bara i Indonesien - så fascinerande!', de: 'Komodowarane gibt es nur in Indonesien - so faszinierend!', fr: 'Les dragons de Komodo ne se trouvent qu\'en Indonésie - fascinant!', es: '¡Los dragones de Komodo solo se encuentran en Indonesia - fascinante!', it: 'I draghi di Komodo si trovano solo in Indonesia - così affascinante!', pl: 'Smoki z Komodo żyją tylko w Indonezji - niesamowite!', nl: 'Komodovaranen komen alleen voor in Indonesië - zo fascinerend!', pt: 'Os dragões de Komodo só são encontrados na Indonésia - tão fascinante!' },
+      { en: 'Indonesian satay is so flavorful - do you like it?', sv: 'Indonesisk satay är så smakrik - gillar du det?', de: 'Indonesisches Satay ist so würzig - magst du es?', fr: 'Le satay indonésien est si savoureux - vous aimez ça?', es: 'El satay indonesio es tan sabroso - ¿te gusta?', it: 'Il satay indonesiano è così saporito - ti piace?', pl: 'Indonezyjskie satay jest takie aromatyczne - lubisz je?', nl: 'Indonesische satay is zo smaakvol - vind je het lekker?', pt: 'O satay indonésio é muito saboroso - você gosta?' },
+      { en: 'Over 17,000 islands - so much to explore!', sv: 'Över 17 000 öar - så mycket att utforska!', de: 'Über 17.000 Inseln - so viel zu entdecken!', fr: 'Plus de 17 000 îles - tellement à explorer!', es: '¡Más de 17.000 islas - tanto por explorar!', it: 'Oltre 17.000 isole - così tanto da esplorare!', pl: 'Ponad 17 000 wysp - tyle do odkrycia!', nl: 'Meer dan 17.000 eilanden - zoveel te ontdekken!', pt: 'Mais de 17.000 ilhas - tanto para explorar!' },
     ],
     quiz: [
       {

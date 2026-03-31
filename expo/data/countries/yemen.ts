@@ -239,7 +239,17 @@ export const yemen: Country = {
         pt: 'Coffee beans were first exported globally from the port of Mocha',
       },
     ],
-    foodCulture: 'Yemeni cuisine is hearty and communal, centered around stews, flatbreads, and spiced meats. Meals are often eaten by hand and shared from a single dish. Fenugreek, chili, and aromatic spices are common.',
+    foodCulture: {
+      en: 'Yemeni cuisine is hearty and communal, centered around stews, flatbreads, and spiced meats. Meals are often eaten by hand and shared from a single dish. Fenugreek, chili, and aromatic spices are common.',
+      sv: 'Jemenitisk mat är rejäl och gemensam, centrerad kring grytor, tunnbröd och kryddat kött. Måltider äts ofta för hand och delas från en enda maträtt. Bockhornsklöver, chili och aromatiska kryddor är vanliga.',
+      de: 'Die jemenitische Küche ist herzhaft und gemeinschaftsorientiert, zentriert auf Eintöpfe, Fladenbrote und gewürztes Fleisch. Mahlzeiten werden oft mit der Hand gegessen und aus einem gemeinsamen Gericht geteilt. Bockshornklee, Chili und aromatische Gewürze sind üblich.',
+      fr: 'La cuisine yéménite est copieuse et communautaire, centrée sur les ragoûts, les pains plats et les viandes épicées. Les repas sont souvent mangés à la main et partagés dans un seul plat. Le fenugrec, le piment et les épices aromatiques sont courants.',
+      es: 'La cocina yemení es abundante y comunal, centrada en guisos, panes planos y carnes especiadas. Las comidas suelen comerse con las manos y compartirse de un solo plato. El fenogreco, el chile y las especias aromáticas son comunes.',
+      it: 'La cucina yemenita è sostanziosa e comunitaria, centrata su stufati, pane piatto e carni speziate. I pasti vengono spesso consumati con le mani e condivisi da un singolo piatto. Il fieno greco, il peperoncino e le spezie aromatiche sono comuni.',
+      pl: 'Kuchnia jemeńska jest syta i wspólnotowa, skupiająca się wokół gulaszów, placków i przyprawionego mięsa. Posiłki są często spożywane rękami i dzielone z jednego naczynia. Kozieradka, chili i aromatyczne przyprawy są powszechne.',
+      nl: 'De Jemenitische keuken is stevig en gemeenschappelijk, gecentreerd op stoofschotels, plat brood en gekruid vlees. Maaltijden worden vaak met de hand gegeten en gedeeld uit één schotel. Fenegriek, chili en aromatische kruiden zijn gebruikelijk.',
+      pt: 'A culinária iemenita é substancial e comunitária, centrada em ensopados, pães achatados e carnes temperadas. As refeições são frequentemente comidas com as mãos e partilhadas de um único prato. O feno-grego, o chili e as especiarias aromáticas são comuns.',
+    },
     innovations: [
       {
         name: {
@@ -1108,20 +1118,20 @@ export const yemen: Country = {
       nonAlcoholic: 'Qishr (coffee husk tea), Yemeni coffee, Shai (tea)',
     },
     music: [
-      'Al-Ghina al-San’ani',
-      'Traditional oud music',
-      'Folk poetry chants',
+      { en: ‘Al-Ghina al-San\’ani’, sv: ‘Al-Ghina al-San\’ani’, de: ‘Al-Ghina al-San\’ani’, fr: ‘Al-Ghina al-San\’ani’, es: ‘Al-Ghina al-San\’ani’, it: ‘Al-Ghina al-San\’ani’, pl: ‘Al-Ghina al-San\’ani’, nl: ‘Al-Ghina al-San\’ani’, pt: ‘Al-Ghina al-San\’ani’ },
+      { en: ‘Traditional oud music’, sv: ‘Traditionell oudmusik’, de: ‘Traditionelle Oud-Musik’, fr: ‘Musique de oud traditionnelle’, es: ‘Música de oud tradicional’, it: ‘Musica tradizionale di oud’, pl: ‘Tradycyjna muzyka na oudzie’, nl: ‘Traditionele oud muziek’, pt: ‘Música tradicional de oud’ },
+      { en: ‘Folk poetry chants’, sv: ‘Folkliga diktssånger’, de: ‘Volkspoesie-Gesänge’, fr: ‘Chants de poésie folklorique’, es: ‘Cantos de poesía popular’, it: ‘Canti di poesia folk’, pl: ‘Pieśni poezji ludowej’, nl: ‘Volksdichterlijke gezangen’, pt: ‘Cantos de poesia popular’ },
     ],
     decorationIdeas: [
-      'Red, white, and black flag colors',
-      'Mud-brick tower house motifs',
-      'Coffee plant imagery',
-      'Geometric Islamic patterns',
+      { en: ‘Red, white, and black flag colors’, sv: ‘Röda, vita och svarta flaggfärger’, de: ‘Rote, weiße und schwarze Flaggenfarben’, fr: ‘Couleurs du drapeau rouge, blanc et noir’, es: ‘Colores de la bandera rojo, blanco y negro’, it: ‘Colori della bandiera rosso, bianco e nero’, pl: ‘Czerwono-biało-czarne kolory flagi’, nl: ‘Rode, witte en zwarte vlagkleuren’, pt: ‘Cores da bandeira vermelho, branco e preto’ },
+      { en: ‘Mud-brick tower house motifs’, sv: ‘Lermurtornshusmotiv’, de: ‘Lehmziegel-Turmhaus-Motive’, fr: ‘Motifs de maisons-tours en briques de boue’, es: ‘Motivos de casas torre de adobe’, it: ‘Motivi di case torre in mattoni di fango’, pl: ‘Motywy wieżowych domów z cegły mułowej’, nl: ‘Kleisteenstoren huismotieven’, pt: ‘Motivos de casas-torre de adobe’ },
+      { en: ‘Coffee plant imagery’, sv: ‘Kaffeväxtsmotiv’, de: ‘Kaffeepflanzenmotive’, fr: ‘Images de plantes de café’, es: ‘Imágenes de plantas de café’, it: ‘Immagini di piante di caffè’, pl: ‘Motywy roślin kawowych’, nl: ‘Koffieplant beelden’, pt: ‘Imagens de plantas de café’ },
+      { en: ‘Geometric Islamic patterns’, sv: ‘Geometriska islamiska mönster’, de: ‘Geometrische islamische Muster’, fr: ‘Motifs géométriques islamiques’, es: ‘Patrones geométricos islámicos’, it: ‘Motivi geometrici islamici’, pl: ‘Geometryczne wzory islamskie’, nl: ‘Geometrische islamitische patronen’, pt: ‘Padrões geométricos islâmicos’ },
     ],
     conversationStarters: [
-      'Have you heard about Yemen’s coffee history?',
-      'Would you like to visit the old city of Sana’a?',
-      'Have you tried Middle Eastern flatbreads?',
+      { en: ‘Have you heard about Yemen\’s coffee history?’, sv: ‘Har du hört om Jemens kaffehistoria?’, de: ‘Haben Sie von der Kaffeegeschichte des Jemen gehört?’, fr: ‘Avez-vous entendu parler de l\’histoire du café au Yémen ?’, es: ‘¿Has oído hablar de la historia del café en Yemen?’, it: ‘Hai sentito parlare della storia del caffè in Yemen?’, pl: ‘Czy słyszałeś o historii kawy w Jemenie?’, nl: ‘Heb je gehoord over de koffiegeschiedenis van Jemen?’, pt: ‘Já ouviste falar da história do café do Iémen?’ },
+      { en: ‘Would you like to visit the old city of Sana\’a?’, sv: ‘Skulle du vilja besöka den gamla staden Sanaa?’, de: ‘Würden Sie gerne die Altstadt von Sanaa besuchen?’, fr: ‘Aimeriez-vous visiter la vieille ville de Sanaa ?’, es: ‘¿Te gustaría visitar la ciudad antigua de Saná?’, it: ‘Vorresti visitare la città vecchia di Sana\’a?’, pl: ‘Czy chciałbyś odwiedzić stare miasto Sana\’a?’, nl: ‘Wil je graag de oude stad Sana\’a bezoeken?’, pt: ‘Gostaria de visitar a cidade antiga de Sana\’a?’ },
+      { en: ‘Have you tried Middle Eastern flatbreads?’, sv: ‘Har du provat mellanösternska tunnbröd?’, de: ‘Haben Sie nahöstliche Fladenbrote probiert?’, fr: ‘Avez-vous essayé les pains plats du Moyen-Orient ?’, es: ‘¿Has probado los panes planos de Oriente Medio?’, it: ‘Hai mai provato i pani piatti del Medio Oriente?’, pl: ‘Czy próbowałeś bliskowschodnich placków?’, nl: ‘Heb je Midden-Oosters plat brood geprobeerd?’, pt: ‘Já experimentaste pães achatados do Médio Oriente?’ },
     ],
     quiz: [
       {

@@ -239,7 +239,17 @@ export const sweden: Country = {
         pt: 'Most Swedes speak excellent English',
       },
     ],
-    foodCulture: 'Swedish cuisine emphasizes fresh, local ingredients and simple preparations. Traditional dishes often feature fish, potatoes, and berries. "Fika" (coffee break with pastries) is an important social tradition.',
+    foodCulture: {
+      en: 'Swedish cuisine emphasizes fresh, local ingredients and simple preparations. Traditional dishes often feature fish, potatoes, and berries. "Fika" (coffee break with pastries) is an important social tradition.',
+      sv: 'Svensk mat betonar färska, lokala ingredienser och enkla tillredningar. Traditionella rätter innehåller ofta fisk, potatis och bär. "Fika" (kaffepaus med bakverk) är en viktig social tradition.',
+      de: 'Die schwedische Küche betont frische, lokale Zutaten und einfache Zubereitung. Traditionelle Gerichte enthalten oft Fisch, Kartoffeln und Beeren. "Fika" (Kaffeepause mit Gebäck) ist eine wichtige soziale Tradition.',
+      fr: 'La cuisine suédoise met l\'accent sur des ingrédients frais et locaux et des préparations simples. Les plats traditionnels comportent souvent du poisson, des pommes de terre et des baies. Le "Fika" (pause café avec des pâtisseries) est une importante tradition sociale.',
+      es: 'La cocina sueca enfatiza los ingredientes frescos y locales y las preparaciones sencillas. Los platos tradicionales a menudo incluyen pescado, patatas y bayas. El "Fika" (pausa para el café con pasteles) es una importante tradición social.',
+      it: 'La cucina svedese enfatizza ingredienti freschi e locali e preparazioni semplici. I piatti tradizionali spesso includono pesce, patate e bacche. Il "Fika" (pausa caffè con pasticcini) è un\'importante tradizione sociale.',
+      pl: 'Kuchnia szwedzka kładzie nacisk na świeże, lokalne składniki i proste przygotowania. Tradycyjne dania często zawierają ryby, ziemniaki i jagody. "Fika" (przerwa kawowa z wypiekami) to ważna tradycja społeczna.',
+      nl: 'De Zweedse keuken benadrukt verse, lokale ingrediënten en eenvoudige bereidingen. Traditionele gerechten bevatten vaak vis, aardappelen en bessen. "Fika" (koffiepauze met gebak) is een belangrijke sociale traditie.',
+      pt: 'A culinária sueca enfatiza ingredientes frescos e locais e preparações simples. Os pratos tradicionais frequentemente incluem peixe, batatas e bagas. O "Fika" (pausa para o café com doces) é uma importante tradição social.',
+    },
     history: [
       {
         year: '800–1050',
@@ -1192,20 +1202,20 @@ export const sweden: Country = {
       nonAlcoholic: 'Coffee, Lingonberry juice, Elderflower cordial',
     },
     music: [
-      'ABBA',
-      'Avicii',
-      'Traditional Swedish folk music',
+      { en: 'ABBA', sv: 'ABBA', de: 'ABBA', fr: 'ABBA', es: 'ABBA', it: 'ABBA', pl: 'ABBA', nl: 'ABBA', pt: 'ABBA' },
+      { en: 'Avicii', sv: 'Avicii', de: 'Avicii', fr: 'Avicii', es: 'Avicii', it: 'Avicii', pl: 'Avicii', nl: 'Avicii', pt: 'Avicii' },
+      { en: 'Traditional Swedish folk music', sv: 'Traditionell svensk folkmusik', de: 'Traditionelle schwedische Volksmusik', fr: 'Musique folklorique suédoise traditionnelle', es: 'Música folclórica sueca tradicional', it: 'Musica folk svedese tradizionale', pl: 'Tradycyjna szwedzka muzyka ludowa', nl: 'Traditionele Zweedse volksmuziek', pt: 'Música folclórica sueca tradicional' },
     ],
     decorationIdeas: [
-      'Blue and yellow colors',
-      'Dala horses',
-      'Minimal Scandinavian design',
-      'Candles and natural wood',
+      { en: 'Blue and yellow colors', sv: 'Blå och gula färger', de: 'Blau und gelbe Farben', fr: 'Couleurs bleu et jaune', es: 'Colores azul y amarillo', it: 'Colori blu e giallo', pl: 'Niebieskie i żółte kolory', nl: 'Blauw en gele kleuren', pt: 'Cores azul e amarelo' },
+      { en: 'Dala horses', sv: 'Dalahästar', de: 'Dala-Pferde', fr: 'Chevaux de Dala', es: 'Caballos de Dala', it: 'Cavalli di Dala', pl: 'Konie Dala', nl: 'Dala-paarden', pt: 'Cavalos de Dala' },
+      { en: 'Minimal Scandinavian design', sv: 'Minimalistisk skandinavisk design', de: 'Minimales skandinavisches Design', fr: 'Design scandinave minimal', es: 'Diseño escandinavo minimal', it: 'Design scandinavo minimal', pl: 'Minimalistyczny design skandynawski', nl: 'Minimaal Scandinavisch design', pt: 'Design escandinavo minimalista' },
+      { en: 'Candles and natural wood', sv: 'Ljus och naturträ', de: 'Kerzen und Naturholz', fr: 'Bougies et bois naturel', es: 'Velas y madera natural', it: 'Candele e legno naturale', pl: 'Świece i naturalne drewno', nl: 'Kaarsen en natuurlijk hout', pt: 'Velas e madeira natural' },
     ],
     conversationStarters: [
-      'Have you experienced Swedish fika?',
-      'Would you like to see the Northern Lights?',
-      'Have you tried Swedish cinnamon buns?',
+      { en: 'Have you experienced Swedish fika?', sv: 'Har du upplevt svensk fika?', de: 'Haben Sie schwedisches Fika erlebt?', fr: 'Avez-vous vécu le fika suédois ?', es: '¿Has experimentado el fika sueco?', it: 'Hai sperimentato il fika svedese?', pl: 'Czy doświadczyłeś szwedzkiej fiki?', nl: 'Heb je Zweeds fika meegemaakt?', pt: 'Você já experienciou o fika sueco?' },
+      { en: 'Would you like to see the Northern Lights?', sv: 'Skulle du vilja se norrsken?', de: 'Würden Sie gerne das Nordlicht sehen?', fr: 'Aimeriez-vous voir les aurores boréales ?', es: '¿Te gustaría ver la aurora boreal?', it: 'Ti piacerebbe vedere l\'aurora boreale?', pl: 'Czy chciałbyś zobaczyć zorzę polarną?', nl: 'Zou je graag het noorderlicht zien?', pt: 'Você gostaria de ver as auroras boreais?' },
+      { en: 'Have you tried Swedish cinnamon buns?', sv: 'Har du provat svenska kanelbullar?', de: 'Haben Sie schwedische Zimtschnecken probiert?', fr: 'Avez-vous essayé les brioches à la cannelle suédoises ?', es: '¿Has probado los bollos de canela suecos?', it: 'Hai provato i panini alla cannella svedesi?', pl: 'Czy próbowałeś szwedzkich cynamonowych bułeczek?', nl: 'Heb je Zweedse kaneelbroodjes geprobeerd?', pt: 'Você já experimentou os pãezinhos de canela suecos?' },
     ],
     quiz: [
       {

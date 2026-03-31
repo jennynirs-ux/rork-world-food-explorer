@@ -206,7 +206,17 @@ export const maldives: Country = {
         pt: 'Most vulnerable to climate change and rising seas',
       },
     ],
-    foodCulture: 'Maldivian cuisine centers on fish, coconut, and starches with Indian and Sri Lankan influences.',
+    foodCulture: {
+      en: 'Maldivian cuisine centers on fish, coconut, and starches with Indian and Sri Lankan influences.',
+      sv: 'Maldivisk mat fokuserar på fisk, kokosnöt och stärkelserika livsmedel med indiska och srilankesiska influenser.',
+      de: 'Die maledivische Küche dreht sich um Fisch, Kokosnuss und Stärkeprodukte mit indischen und srilankischen Einflüssen.',
+      fr: 'La cuisine maldivienne est centrée sur le poisson, la noix de coco et les féculents, avec des influences indiennes et sri-lankaises.',
+      es: 'La cocina maldiva se centra en el pescado, el coco y los almidones con influencias indias y de Sri Lanka.',
+      it: 'La cucina maldiviana si concentra su pesce, cocco e amidi con influenze indiane e dello Sri Lanka.',
+      pl: 'Kuchnia malediwska skupia się na rybach, kokosie i produktach skrobiowych z wpływami indyjskimi i lankijskimi.',
+      nl: 'De Maldivische keuken draait om vis, kokosnoot en zetmeelrijke voedingsmiddelen met Indiase en Sri Lankaanse invloeden.',
+      pt: 'A cozinha maldiva centra-se no peixe, no coco e nos amidos com influências indianas e do Sri Lanka.',
+    },
     history: [
       {
         year: '1153',
@@ -962,19 +972,19 @@ export const maldives: Country = {
       nonAlcoholic: 'Raa (palm toddy), Fresh coconut water, Black tea',
     },
     music: [
-      'Boduberu traditional drumming',
-      'Maldivian folk songs',
-      'South Asian influences',
+      { en: 'Boduberu traditional drumming', sv: 'Boduberu traditionell trumning', de: 'Boduberu traditionelles Trommeln', fr: 'Percussions traditionnelles Boduberu', es: 'Percusión tradicional Boduberu', it: 'Percussioni tradizionali Boduberu', pl: 'Tradycyjne bębnienie Boduberu', nl: 'Boduberu traditioneel trommelen', pt: 'Percussão tradicional Boduberu' },
+      { en: 'Maldivian folk songs', sv: 'Maldiviska folksånger', de: 'Maledivische Volkslieder', fr: 'Chansons folkloriques maldivaises', es: 'Canciones folclóricas maldivas', it: 'Canzoni folk maldiviane', pl: 'Malediwskie pieśni ludowe', nl: 'Maldivische volksliederen', pt: 'Canções folclóricas maldivas' },
+      { en: 'South Asian influences', sv: 'Sydasiatiska influenser', de: 'Südasiatische Einflüsse', fr: 'Influences de l\'Asie du Sud', es: 'Influencias del sur de Asia', it: 'Influenze dell\'Asia meridionale', pl: 'Wpływy Azji Południowej', nl: 'Zuid-Aziatische invloeden', pt: 'Influências do sul da Ásia' },
     ],
     decorationIdeas: [
-      'Red, green and white flag colors',
-      'Ocean and beach themes',
-      'Tropical flowers',
-      'Coral and shell decorations',
+      { en: 'Red, green and white flag colors', sv: 'Röda, gröna och vita flaggfärger', de: 'Rot, Grün und Weiß der Flaggenfarben', fr: 'Couleurs du drapeau : rouge, vert et blanc', es: 'Colores de la bandera: rojo, verde y blanco', it: 'Colori della bandiera: rosso, verde e bianco', pl: 'Czerwone, zielone i białe barwy flagi', nl: 'Rood, groen en wit van de vlagkleuren', pt: 'Cores da bandeira: vermelho, verde e branco' },
+      { en: 'Ocean and beach themes', sv: 'Hav- och strandteman', de: 'Ozean- und Strandmotive', fr: 'Thèmes océan et plage', es: 'Temas de océano y playa', it: 'Temi di oceano e spiaggia', pl: 'Motywy oceanu i plaży', nl: 'Oceaan- en strandthema\'s', pt: 'Temas de oceano e praia' },
+      { en: 'Tropical flowers', sv: 'Tropiska blommor', de: 'Tropische Blumen', fr: 'Fleurs tropicales', es: 'Flores tropicales', it: 'Fiori tropicali', pl: 'Tropikalne kwiaty', nl: 'Tropische bloemen', pt: 'Flores tropicais' },
+      { en: 'Coral and shell decorations', sv: 'Korall- och snäckdekorationer', de: 'Korallen- und Muscheldekorationen', fr: 'Décorations de corail et de coquillages', es: 'Decoraciones de coral y conchas', it: 'Decorazioni di corallo e conchiglie', pl: 'Dekoracje z korali i muszli', nl: 'Koraal- en schelpenversieringen', pt: 'Decorações de coral e conchas' },
     ],
     conversationStarters: [
-      'Have you been to a tropical island paradise?',
-      'What concerns you about rising sea levels?',
+      { en: 'Have you been to a tropical island paradise?', sv: 'Har du besökt ett tropiskt paradisö?', de: 'Warst du schon auf einer tropischen Insel?', fr: 'Avez-vous visité un paradis insulaire tropical ?', es: '¿Has estado en un paraíso tropical?', it: 'Sei mai stato in un paradiso tropicale?', pl: 'Czy byłeś kiedyś na tropikalnej rajskiej wyspie?', nl: 'Ben je ooit op een tropisch eilandparadijs geweest?', pt: 'Você já esteve em um paraíso tropical?' },
+      { en: 'What concerns you about rising sea levels?', sv: 'Vad oroar dig med stigande havsnivåer?', de: 'Was beunruhigt dich am Meeresanstieg?', fr: 'Qu\'est-ce qui vous préoccupe concernant la montée des eaux ?', es: '¿Qué te preocupa del aumento del nivel del mar?', it: 'Cosa ti preoccupa dell\'innalzamento del livello del mare?', pl: 'Co cię niepokoi w kwestii wzrostu poziomu mórz?', nl: 'Wat baart jou zorgen over de stijgende zeespiegel?', pt: 'O que te preocupa com a elevação do nível do mar?' },
     ],
     quiz: [
       {

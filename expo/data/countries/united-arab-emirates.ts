@@ -217,7 +217,17 @@ export const unitedArabEmirates: Country = {
         pt: 'Rapid transformation from desert communities to global cities in under 50 years',
       },
     ],
-    foodCulture: 'Emirati cuisine is rooted in Bedouin traditions and shaped by Arab, Persian, and Indian influences. Dates, rice, lamb, wheat, and aromatic spices are staples, often served communally.',
+    foodCulture: {
+      en: 'Emirati cuisine is rooted in Bedouin traditions and shaped by Arab, Persian, and Indian influences. Dates, rice, lamb, wheat, and aromatic spices are staples, often served communally.',
+      sv: 'Emiratisk mat är rotad i beduintraditioner och präglad av arabiska, persiska och indiska influenser. Dadlar, ris, lamm, vete och aromatiska kryddor är bastjänster och serveras ofta gemensamt.',
+      de: 'Die emiratische Küche ist in beduinischen Traditionen verwurzelt und von arabischen, persischen und indischen Einflüssen geprägt. Datteln, Reis, Lamm, Weizen und aromatische Gewürze sind Grundnahrungsmittel, die oft gemeinschaftlich serviert werden.',
+      fr: 'La cuisine émiratie est ancrée dans les traditions bédouines et façonnée par les influences arabes, persanes et indiennes. Les dattes, le riz, l\'agneau, le blé et les épices aromatiques sont des aliments de base, souvent servis en commun.',
+      es: 'La cocina emiratí está arraigada en las tradiciones beduinas y moldeada por influencias árabes, persas e indias. Los dátiles, el arroz, el cordero, el trigo y las especias aromáticas son alimentos básicos, a menudo servidos de forma comunal.',
+      it: 'La cucina degli Emirati è radicata nelle tradizioni beduine e plasmata dalle influenze arabe, persiane e indiane. I datteri, il riso, l\'agnello, il grano e le spezie aromatiche sono alimenti base, spesso serviti in modo comunitario.',
+      pl: 'Kuchnia emiracka jest zakorzeniona w tradycjach beduińskich i kształtowana przez wpływy arabskie, perskie i indyjskie. Daktyle, ryż, jagnięcina, pszenica i aromatyczne przyprawy są podstawowymi produktami, często podawanymi wspólnie.',
+      nl: 'De Emiratische keuken is geworteld in Bedoeïenentradities en gevormd door Arabische, Perzische en Indiase invloeden. Dadels, rijst, lam, tarwe en aromatische kruiden zijn basisvoedsel, vaak gemeenschappelijk geserveerd.',
+      pt: 'A culinária emiradense está enraizada nas tradições beduínas e moldada por influências árabes, persas e indianas. As tâmaras, o arroz, o borrego, o trigo e as especiarias aromáticas são alimentos básicos, frequentemente servidos em comunidade.',
+    },
     innovations: [
       {
         name: {
@@ -1073,21 +1083,21 @@ export const unitedArabEmirates: Country = {
       nonAlcoholic: 'Arabic coffee (gahwa), Karak chai, Fresh juices',
     },
     music: [
-      'Traditional Emirati folk music',
-      'Yowla dance rhythms',
-      'Modern Arabic pop',
+      { en: 'Traditional Emirati folk music', sv: 'Traditionell emiratisk folkmusik', de: 'Traditionelle emiratische Volksmusik', fr: 'Musique folklorique émiratie traditionnelle', es: 'Música folclórica emiratí tradicional', it: 'Musica folk emiratina tradizionale', pl: 'Tradycyjna muzyka ludowa emiracka', nl: 'Traditionele Emiratische volksmuziek', pt: 'Música folclórica emiradense tradicional' },
+      { en: 'Yowla dance rhythms', sv: 'Yowla-dansrytmer', de: 'Yowla-Tanzrhythmen', fr: 'Rythmes de danse Yowla', es: 'Ritmos de danza Yowla', it: 'Ritmi di danza Yowla', pl: 'Rytmy tańca Yowla', nl: 'Yowla dansritmes', pt: 'Ritmos de dança Yowla' },
+      { en: 'Modern Arabic pop', sv: 'Modern arabisk pop', de: 'Moderner arabischer Pop', fr: 'Pop arabe moderne', es: 'Pop árabe moderno', it: 'Pop arabo moderno', pl: 'Nowoczesny arabski pop', nl: 'Moderne Arabische pop', pt: 'Pop árabe moderno' },
     ],
     decorationIdeas: [
-      'Red, green, white and black flag colors',
-      'Desert and dune imagery',
-      'Arabic calligraphy',
-      'Gold and luxury accents',
-      'Falcon motifs',
+      { en: 'Red, green, white and black flag colors', sv: 'Röda, gröna, vita och svarta flaggfärger', de: 'Rote, grüne, weiße und schwarze Flaggenfarben', fr: 'Couleurs du drapeau rouge, vert, blanc et noir', es: 'Colores de la bandera rojo, verde, blanco y negro', it: 'Colori della bandiera rosso, verde, bianco e nero', pl: 'Kolory flagi czerwony, zielony, biały i czarny', nl: 'Rode, groene, witte en zwarte vlagkleuren', pt: 'Cores da bandeira vermelho, verde, branco e preto' },
+      { en: 'Desert and dune imagery', sv: 'Öken- och dyner-motiv', de: 'Wüsten- und Dünen-Bilder', fr: 'Images du désert et des dunes', es: 'Imágenes del desierto y las dunas', it: 'Immagini del deserto e delle dune', pl: 'Motywy pustyni i wydm', nl: 'Woestijn- en duin beelden', pt: 'Imagens do deserto e dunas' },
+      { en: 'Arabic calligraphy', sv: 'Arabisk kalligrafi', de: 'Arabische Kalligraphie', fr: 'Calligraphie arabe', es: 'Caligrafía árabe', it: 'Calligrafia araba', pl: 'Arabska kaligrafia', nl: 'Arabische kalligrafie', pt: 'Caligrafia árabe' },
+      { en: 'Gold and luxury accents', sv: 'Guld och lyxiga accenter', de: 'Gold und Luxus-Akzente', fr: 'Accents d\'or et de luxe', es: 'Acentos dorados y de lujo', it: 'Accenti dorati e di lusso', pl: 'Złote i luksusowe akcenty', nl: 'Gouden en luxe accenten', pt: 'Acentos dourados e de luxo' },
+      { en: 'Falcon motifs', sv: 'Falkenmotiv', de: 'Falken-Motive', fr: 'Motifs de faucon', es: 'Motivos de halcón', it: 'Motivi di falco', pl: 'Motywy sokoła', nl: 'Valk motieven', pt: 'Motivos de falcão' },
     ],
     conversationStarters: [
-      'Have you visited Dubai or Abu Dhabi?',
-      'What do you think about modern cities in the desert?',
-      'Would you try traditional Emirati food?',
+      { en: 'Have you visited Dubai or Abu Dhabi?', sv: 'Har du besökt Dubai eller Abu Dhabi?', de: 'Haben Sie Dubai oder Abu Dhabi besucht?', fr: 'Avez-vous visité Dubaï ou Abou Dhabi ?', es: '¿Has visitado Dubái o Abu Dabi?', it: 'Hai visitato Dubai o Abu Dhabi?', pl: 'Czy odwiedziłeś Dubaj lub Abu Zabi?', nl: 'Heb je Dubai of Abu Dhabi bezocht?', pt: 'Já visitaste o Dubai ou Abu Dhabi?' },
+      { en: 'What do you think about modern cities in the desert?', sv: 'Vad tycker du om moderna städer i öknen?', de: 'Was denken Sie über moderne Städte in der Wüste?', fr: 'Que pensez-vous des villes modernes dans le désert ?', es: '¿Qué piensas sobre las ciudades modernas en el desierto?', it: 'Cosa pensi delle città moderne nel deserto?', pl: 'Co myślisz o nowoczesnych miastach na pustyni?', nl: 'Wat denk je over moderne steden in de woestijn?', pt: 'O que pensas sobre as cidades modernas no deserto?' },
+      { en: 'Would you try traditional Emirati food?', sv: 'Skulle du prova traditionell emiratisk mat?', de: 'Würden Sie traditionelles emiratisches Essen probieren?', fr: 'Essaieriez-vous la cuisine émiratie traditionnelle ?', es: '¿Probarías la comida emiratí tradicional?', it: 'Proveresti il cibo emiratino tradizionale?', pl: 'Czy spróbowałbyś tradycyjnej kuchni emirackiej?', nl: 'Zou je traditioneel Emiratisch eten proberen?', pt: 'Experimentaria a comida emiradense tradicional?' },
     ],
     quiz: [
       {

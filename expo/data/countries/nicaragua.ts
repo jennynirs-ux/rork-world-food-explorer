@@ -206,7 +206,17 @@ export const nicaragua: Country = {
         pt: 'Major coffee and tobacco producer',
       },
     ],
-    foodCulture: 'Nicaraguan cuisine features corn, beans, plantains, and fresh seafood with Spanish and indigenous influences.',
+    foodCulture: {
+      en: 'Nicaraguan cuisine features corn, beans, plantains, and fresh seafood with Spanish and indigenous influences.',
+      sv: 'Nicaraguansk mat innehåller majs, bönor, bananer och färsk skaldjur med spanska och inhemska influenser.',
+      de: 'Die nicaraguanische Küche umfasst Mais, Bohnen, Kochbananen und frische Meeresfrüchte mit spanischen und einheimischen Einflüssen.',
+      fr: 'La cuisine nicaraguayenne comprend du maïs, des haricots, des plantains et des fruits de mer frais avec des influences espagnoles et autochtones.',
+      es: 'La cocina nicaragüense incluye maíz, frijoles, plátanos y mariscos frescos con influencias españolas e indígenas.',
+      it: 'La cucina nicaraguense comprende mais, fagioli, platano e frutti di mare freschi con influenze spagnole e indigene.',
+      pl: 'Kuchnia nikaraguańska zawiera kukurydzę, fasolę, plantany i świeże owoce morza z wpływami hiszpańskimi i rdzennej ludności.',
+      nl: 'De Nicaraguaanse keuken bevat maïs, bonen, plantain en verse zeevruchten met Spaanse en inheemse invloeden.',
+      pt: 'A cozinha nicaraguense inclui milho, feijão, plátanos e frutos do mar frescos com influências espanholas e indígenas.',
+    },
     history: [
       {
         year: '1502',
@@ -988,19 +998,19 @@ export const nicaragua: Country = {
       nonAlcoholic: 'Pinolillo (corn and cacao drink), Tiste, Fresh fruit juice',
     },
     music: [
-      'Palo de Mayo',
-      'Marimba music',
-      'Latin pop',
+      { en: 'Palo de Mayo', sv: 'Palo de Mayo', de: 'Palo de Mayo', fr: 'Palo de Mayo', es: 'Palo de Mayo', it: 'Palo de Mayo', pl: 'Palo de Mayo', nl: 'Palo de Mayo', pt: 'Palo de Mayo' },
+      { en: 'Marimba music', sv: 'Marimbamusik', de: 'Marimba-Musik', fr: 'Musique de marimba', es: 'Música de marimba', it: 'Musica di marimba', pl: 'Muzyka marimbowa', nl: 'Marimba muziek', pt: 'Música de marimba' },
+      { en: 'Latin pop', sv: 'Latinpop', de: 'Lateinamerikanischer Pop', fr: 'Pop latin', es: 'Pop latino', it: 'Pop latino', pl: 'Pop latynoamerykański', nl: 'Latijns-Amerikaans pop', pt: 'Pop latino' },
     ],
     decorationIdeas: [
-      'Blue and white flag colors',
-      'Volcanic landscapes',
-      'Colonial architecture',
-      'Lake and ocean themes',
+      { en: 'Blue and white flag colors', sv: 'Blå och vita flaggfärger', de: 'Blau und Weiß der Flaggenfarben', fr: 'Couleurs du drapeau : bleu et blanc', es: 'Colores de la bandera: azul y blanco', it: 'Colori della bandiera: blu e bianco', pl: 'Niebieskie i białe barwy flagi', nl: 'Blauw en wit van de vlagkleuren', pt: 'Cores da bandeira: azul e branco' },
+      { en: 'Volcanic landscapes', sv: 'Vulkanlandskap', de: 'Vulkanlandschaften', fr: 'Paysages volcaniques', es: 'Paisajes volcánicos', it: 'Paesaggi vulcanici', pl: 'Krajobrazy wulkaniczne', nl: 'Vulkanische landschappen', pt: 'Paisagens vulcânicas' },
+      { en: 'Colonial architecture', sv: 'Kolonial arkitektur', de: 'Koloniale Architektur', fr: 'Architecture coloniale', es: 'Arquitectura colonial', it: 'Architettura coloniale', pl: 'Architektura kolonialna', nl: 'Koloniale architectuur', pt: 'Arquitetura colonial' },
+      { en: 'Lake and ocean themes', sv: 'Sjö- och havsteman', de: 'See- und Ozean-Motive', fr: 'Thèmes de lac et d\'océan', es: 'Temas de lago y océano', it: 'Temi di lago e oceano', pl: 'Motywy jeziora i oceanu', nl: 'Meer- en oceaanmotieven', pt: 'Temas de lago e oceano' },
     ],
     conversationStarters: [
-      'Have you visited Central American volcanoes?',
-      'What do you know about colonial cities?',
+      { en: 'Have you visited Central American volcanoes?', sv: 'Har du besökt centralamerikanska vulkaner?', de: 'Hast du mittelamerikanische Vulkane besucht?', fr: 'Avez-vous visité des volcans d\'Amérique centrale ?', es: '¿Has visitado volcanes de Centroamérica?', it: 'Hai visitato i vulcani dell\'America Centrale?', pl: 'Czy odwiedziłeś wulkany Ameryki Środkowej?', nl: 'Heb je Midden-Amerikaanse vulkanen bezocht?', pt: 'Você já visitou vulcões da América Central?' },
+      { en: 'What do you know about colonial cities?', sv: 'Vad vet du om koloniala städer?', de: 'Was weißt du über koloniale Städte?', fr: 'Que savez-vous des villes coloniales ?', es: '¿Qué sabes sobre las ciudades coloniales?', it: 'Cosa sai delle città coloniali?', pl: 'Co wiesz o miastach kolonialnych?', nl: 'Wat weet je over koloniale steden?', pt: 'O que você sabe sobre cidades coloniais?' },
     ],
     quiz: [
       {

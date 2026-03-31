@@ -250,7 +250,17 @@ export const barbados: Country = {
         pt: 'Barbados became a republic in 2021',
       },
     ],
-    foodCulture: 'Bajan cuisine combines African, British, and Caribbean influences. Flying fish is the national dish, often served with cou-cou. Fresh seafood, tropical fruits, and spicy pepper sauces are staples. The island has a strong tradition of street food and fish fries.',
+    foodCulture: {
+      en: 'Bajan cuisine combines African, British, and Caribbean influences. Flying fish is the national dish, often served with cou-cou. Fresh seafood, tropical fruits, and spicy pepper sauces are staples. The island has a strong tradition of street food and fish fries.',
+      sv: 'Bajansk mat kombinerar afrikanska, brittiska och karibiska influenser. Flygfisk är nationalrätten, som ofta serveras med cou-cou. Färska skaldjur, tropiska frukter och kryddiga peppar­såser är stapelvaror. Ön har en stark tradition av gatukök och fiskfester.',
+      de: 'Die bajani­sche Küche verbindet afrikanische, britische und karibische Einflüsse. Fliegender Fisch ist das Nationalgericht, oft mit Cou-Cou serviert. Frische Meeresfrüchte, tropische Früchte und scharfe Pfeffersaucen sind Grundnahrungsmittel. Die Insel hat eine starke Tradition von Street Food und Fischfesten.',
+      fr: 'La cuisine bajane combine les influences africaines, britanniques et caribéennes. Le poisson volant est le plat national, souvent servi avec du cou-cou. Les fruits de mer frais, les fruits tropicaux et les sauces pimentées épicées sont des aliments de base. L\'île a une forte tradition de street food et de friture de poisson.',
+      es: 'La cocina bajana combina influencias africanas, británicas y caribeñas. El pez volador es el plato nacional, que a menudo se sirve con cou-cou. Los mariscos frescos, las frutas tropicales y las salsas picantes de pimienta son alimentos básicos. La isla tiene una fuerte tradición de comida callejera y frituras de pescado.',
+      it: 'La cucina bajana combina influenze africane, britanniche e caraibiche. Il pesce volante è il piatto nazionale, spesso servito con cou-cou. Frutti di mare freschi, frutta tropicale e salse di peperoncino piccanti sono alimenti base. L\'isola ha una forte tradizione di street food e fritture di pesce.',
+      pl: 'Kuchnia bajańska łączy wpływy afrykańskie, brytyjskie i karaibskie. Latająca ryba jest daniem narodowym, często serwowanym z cou-cou. Świeże owoce morza, owoce tropikalne i ostre sosy pieprzowe są podstawą. Wyspa ma silną tradycję ulicznego jedzenia i smażenia ryb.',
+      nl: 'De Bajaanse keuken combineert Afrikaanse, Britse en Caribische invloeden. Vliegende vis is het nationaal gerecht, vaak geserveerd met cou-cou. Verse zeevruchten, tropisch fruit en pittige pepersauzen zijn basisvoedsel. Het eiland heeft een sterke traditie van straatvoedsel en visBakfeesten.',
+      pt: 'A culinária bajana combina influências africanas, britânicas e caribenhas. O peixe-voador é o prato nacional, frequentemente servido com cou-cou. Frutos do mar frescos, frutas tropicais e molhos apimentados são alimentos básicos. A ilha tem uma forte tradição de comida de rua e frituras de peixe.',
+    },
     history: [
       {
         year: '1627',
@@ -1207,21 +1217,21 @@ export const barbados: Country = {
       nonAlcoholic: 'Mauby, Sorrel, Coconut water',
     },
     music: [
-      'Calypso',
-      'Soca',
-      'Spouge',
-      'Rihanna hits',
+      { en: 'Calypso', sv: 'Calypso', de: 'Calypso', fr: 'Calypso', es: 'Calypso', it: 'Calypso', pl: 'Calypso', nl: 'Calypso', pt: 'Calypso' },
+      { en: 'Soca', sv: 'Soca', de: 'Soca', fr: 'Soca', es: 'Soca', it: 'Soca', pl: 'Soca', nl: 'Soca', pt: 'Soca' },
+      { en: 'Spouge', sv: 'Spouge', de: 'Spouge', fr: 'Spouge', es: 'Spouge', it: 'Spouge', pl: 'Spouge', nl: 'Spouge', pt: 'Spouge' },
+      { en: 'Rihanna hits', sv: 'Rihanna-hits', de: 'Rihanna-Hits', fr: 'Succès de Rihanna', es: 'Éxitos de Rihanna', it: 'Successi di Rihanna', pl: 'Przeboje Rihanny', nl: 'Rihanna-hits', pt: 'Hits da Rihanna' },
     ],
     decorationIdeas: [
-      'Blue, yellow, and black flag colors',
-      'Beach and ocean themes',
-      'Tropical flowers',
-      'Rum barrels',
+      { en: 'Blue, yellow, and black flag colors', sv: 'Blå, gula och svarta flaggfärger', de: 'Blau, Gelb und Schwarz als Flaggenfarben', fr: 'Couleurs bleu, jaune et noir du drapeau', es: 'Colores azul, amarillo y negro de la bandera', it: 'Colori blu, giallo e nero della bandiera', pl: 'Niebieskie, żółte i czarne barwy flagi', nl: 'Blauwe, gele en zwarte vlagkleuren', pt: 'Cores azul, amarelo e preto da bandeira' },
+      { en: 'Beach and ocean themes', sv: 'Strand- och havsteman', de: 'Strand- und Ozean-Themen', fr: 'Thèmes de plage et d\'océan', es: 'Temas de playa y océano', it: 'Temi di spiaggia e oceano', pl: 'Motywy plażowe i oceaniczne', nl: 'Strand- en oceaanthema\'s', pt: 'Temas de praia e oceano' },
+      { en: 'Tropical flowers', sv: 'Tropiska blommor', de: 'Tropische Blumen', fr: 'Fleurs tropicales', es: 'Flores tropicales', it: 'Fiori tropicali', pl: 'Tropikalne kwiaty', nl: 'Tropische bloemen', pt: 'Flores tropicais' },
+      { en: 'Rum barrels', sv: 'Romfat', de: 'Rumfässer', fr: 'Tonneaux de rhum', es: 'Barriles de ron', it: 'Botti di rum', pl: 'Beczki z rumem', nl: 'Rumvaten', pt: 'Barris de rum' },
     ],
     conversationStarters: [
-      'Have you tried authentic Caribbean rum?',
-      'Do you enjoy island music?',
-      'What\'s your ideal beach vacation?',
+      { en: 'Have you tried authentic Caribbean rum?', sv: 'Har du provat äkta karibisk rom?', de: 'Haben Sie authentischen karibischen Rum probiert?', fr: 'Avez-vous essayé le rhum caribéen authentique?', es: '¿Has probado el ron caribeño auténtico?', it: 'Hai provato il rum caraibico autentico?', pl: 'Czy próbowałeś autentycznego karaibskiego rumu?', nl: 'Heb je authentische Caribische rum geprobeerd?', pt: 'Você já experimentou rum caribenho autêntico?' },
+      { en: 'Do you enjoy island music?', sv: 'Tycker du om ö-musik?', de: 'Mögen Sie Inselmusik?', fr: 'Aimez-vous la musique insulaire?', es: '¿Disfrutas de la música de isla?', it: 'Ti piace la musica delle isole?', pl: 'Czy lubisz muzykę wyspiarską?', nl: 'Houd je van eilandmuziek?', pt: 'Você gosta de música das ilhas?' },
+      { en: 'What\'s your ideal beach vacation?', sv: 'Vad är din ideala strandsmester?', de: 'Was ist Ihr idealer Strandurlaub?', fr: 'Quelle est votre vacances de plage idéale?', es: '¿Cuáles son tus vacaciones de playa ideales?', it: 'Qual è la tua vacanza balneare ideale?', pl: 'Jaki jest twój idealny urlop na plaży?', nl: 'Wat is jouw ideale strandvakantie?', pt: 'Qual é a sua férias de praia ideal?' },
     ],
     quiz: [
       {

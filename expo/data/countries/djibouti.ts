@@ -206,7 +206,17 @@ export const djibouti: Country = {
         pt: 'Gateway to the Red Sea and Suez Canal',
       },
     ],
-    foodCulture: 'Djiboutian cuisine blends Somali, Afar, Yemeni, and French influences with seafood, goat meat, and spiced rice.',
+    foodCulture: {
+      en: 'Djiboutian cuisine blends Somali, Afar, Yemeni, and French influences with seafood, goat meat, and spiced rice.',
+      sv: 'Djiboutiansk mat blandar somaliska, afar, jemenitiska och franska influenser med skaldjur, gettkött och kryddat ris.',
+      de: 'Die dschibutische Küche vereint somalische, Afar-, jemenitische und französische Einflüsse mit Meeresfrüchten, Ziegenfleisch und gewürztem Reis.',
+      fr: 'La cuisine djiboutienne mélange les influences somalienne, afar, yéménite et française avec des fruits de mer, de la viande de chèvre et du riz épicé.',
+      es: 'La cocina yibutiana mezcla influencias somalíes, afar, yemenitas y francesas con mariscos, carne de cabra y arroz especiado.',
+      it: 'La cucina di Gibuti mescola influenze somale, afar, yemenite e francesi con frutti di mare, carne di capra e riso speziato.',
+      pl: 'Kuchnia dżibutyjska łączy wpływy somalijskie, afar, jemeńskie i francuskie z owocami morza, kozią mięsem i przyprawianym ryżem.',
+      nl: 'De Djiboutaanse keuken mengt Somalische, Afar-, Jemenitische en Franse invloeden met zeevruchten, geitenvlees en gekruid rijst.',
+      pt: 'A culinária do Djibouti mistura influências somali, afar, iemenita e francesa com frutos do mar, carne de cabra e arroz temperado.',
+    },
     history: [
       {
         year: '1862',
@@ -865,19 +875,19 @@ export const djibouti: Country = {
       nonAlcoholic: 'Spiced tea, Coffee, Fresh juice',
     },
     music: [
-      'Traditional Somali music',
-      'Afar folk songs',
-      'Red Sea coastal rhythms',
+      { en: 'Traditional Somali music', sv: 'Traditionell somalisk musik', de: 'Traditionelle somalische Musik', fr: 'Musique traditionnelle somalienne', es: 'Música tradicional somalí', it: 'Musica tradizionale somala', pl: 'Tradycyjna muzyka somalijska', nl: 'Traditionele Somalische muziek', pt: 'Música tradicional somali' },
+      { en: 'Afar folk songs', sv: 'Afar folkvisor', de: 'Afar-Volkslieder', fr: 'Chansons folkloriques afar', es: 'Canciones populares afar', it: 'Canzoni folk afar', pl: 'Pieśni ludowe afar', nl: 'Afar volksliederen', pt: 'Canções folclóricas afar' },
+      { en: 'Red Sea coastal rhythms', sv: 'Röda havets kustliga rytmer', de: 'Rhythmen der Roten-Meer-Küste', fr: 'Rythmes côtiers de la mer Rouge', es: 'Ritmos costeros del Mar Rojo', it: 'Ritmi costieri del Mar Rosso', pl: 'Rytmy wybrzeża Morza Czerwonego', nl: 'Kustritmes van de Rode Zee', pt: 'Ritmos costeiros do Mar Vermelho' },
     ],
     decorationIdeas: [
-      'Light blue, green and white flag colors',
-      'Red Sea imagery',
-      'Volcanic landscapes',
-      'Desert themes',
+      { en: 'Light blue, green and white flag colors', sv: 'Ljusblå, gröna och vita flaggfärger', de: 'Hellblaue, grüne und weiße Flaggenfarben', fr: 'Couleurs bleu clair, vert et blanc du drapeau', es: 'Colores azul claro, verde y blanco de la bandera', it: 'Colori blu chiaro, verde e bianco della bandiera', pl: 'Jasnoniebieskie, zielone i białe kolory flagi', nl: 'Lichtblauw, groen en wit van de vlag', pt: 'Cores azul claro, verde e branco da bandeira' },
+      { en: 'Red Sea imagery', sv: 'Röda havets bilder', de: 'Rotes-Meer-Bilder', fr: 'Images de la mer Rouge', es: 'Imágenes del Mar Rojo', it: 'Immagini del Mar Rosso', pl: 'Obrazy Morza Czerwonego', nl: 'Rode Zee beelden', pt: 'Imagens do Mar Vermelho' },
+      { en: 'Volcanic landscapes', sv: 'Vulkaniska landskap', de: 'Vulkanische Landschaften', fr: 'Paysages volcaniques', es: 'Paisajes volcánicos', it: 'Paesaggi vulcanici', pl: 'Krajobrazy wulkaniczne', nl: 'Vulkanische landschappen', pt: 'Paisagens vulcânicas' },
+      { en: 'Desert themes', sv: 'Ökenmatematik', de: 'Wüstenthemen', fr: 'Thèmes désertiques', es: 'Temas desérticos', it: 'Temi desertici', pl: 'Motywy pustynne', nl: 'Woestijnthema\'s', pt: 'Temas desérticos' },
     ],
     conversationStarters: [
-      'Have you been to the Red Sea?',
-      'What do you know about the Horn of Africa?',
+      { en: 'Have you been to the Red Sea?', sv: 'Har du varit vid Röda havet?', de: 'Waren Sie am Roten Meer?', fr: 'Êtes-vous allé à la mer Rouge ?', es: '¿Has estado en el Mar Rojo?', it: 'Sei mai stato al Mar Rosso?', pl: 'Czy byłeś nad Morzem Czerwonym?', nl: 'Ben je bij de Rode Zee geweest?', pt: 'Você já esteve no Mar Vermelho?' },
+      { en: 'What do you know about the Horn of Africa?', sv: 'Vad vet du om Afrikas horn?', de: 'Was wissen Sie über das Horn von Afrika?', fr: 'Que savez-vous sur la Corne de l\'Afrique ?', es: '¿Qué sabes sobre el Cuerno de África?', it: 'Cosa sai del Corno d\'Africa?', pl: 'Co wiesz o Rogu Afryki?', nl: 'Wat weet je over de Hoorn van Afrika?', pt: 'O que você sabe sobre o Chifre da África?' },
     ],
     innovations: [
       {

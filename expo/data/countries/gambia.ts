@@ -206,7 +206,17 @@ export const gambia: Country = {
         pt: 'Popular destination for birdwatching with over 500 species',
       },
     ],
-    foodCulture: 'Gambian cuisine features rice, fish, peanuts, and vegetables with West African spices.',
+    foodCulture: {
+      en: 'Gambian cuisine features rice, fish, peanuts, and vegetables with West African spices.',
+      sv: 'Gambisk mat innehåller ris, fisk, jordnötter och grönsaker med västafrikanska kryddor.',
+      de: 'Die gambische Küche zeichnet sich durch Reis, Fisch, Erdnüsse und Gemüse mit westafrikanischen Gewürzen aus.',
+      fr: 'La cuisine gambienne propose du riz, du poisson, des arachides et des légumes avec des épices d\'Afrique de l\'Ouest.',
+      es: 'La cocina gambiana presenta arroz, pescado, cacahuetes y verduras con especias de África Occidental.',
+      it: 'La cucina gambiana presenta riso, pesce, arachidi e verdure con spezie dell\'Africa occidentale.',
+      pl: 'Kuchnia gambijska oferuje ryż, ryby, orzeszki ziemne i warzywa z zachodnioafrykańskimi przyprawami.',
+      nl: 'De Gambiaanse keuken kenmerkt zich door rijst, vis, pinda\'s en groenten met West-Afrikaanse kruiden.',
+      pt: 'A culinária gambiana apresenta arroz, peixe, amendoins e vegetais com especiarias da África Ocidental.',
+    },
     history: [
       {
         year: '1783',
@@ -895,20 +905,20 @@ export const gambia: Country = {
       nonAlcoholic: 'Wonjo (hibiscus drink), Baobab juice, Attaya (green tea)',
     },
     music: [
-      'Kora music',
-      'Mbalax',
-      'Traditional Mandinka songs',
+      { en: 'Kora music', sv: 'Koramusik', de: 'Kora-Musik', fr: 'Musique de kora', es: 'Música de kora', it: 'Musica di kora', pl: 'Muzyka na korze', nl: 'Kora-muziek', pt: 'Música de kora' },
+      { en: 'Mbalax', sv: 'Mbalax', de: 'Mbalax', fr: 'Mbalax', es: 'Mbalax', it: 'Mbalax', pl: 'Mbalax', nl: 'Mbalax', pt: 'Mbalax' },
+      { en: 'Traditional Mandinka songs', sv: 'Traditionella Mandinka-sånger', de: 'Traditionelle Mandinka-Lieder', fr: 'Chansons mandinka traditionnelles', es: 'Canciones mandinka tradicionales', it: 'Canzoni mandinka tradizionali', pl: 'Tradycyjne pieśni mandinka', nl: 'Traditionele Mandinka-liedjes', pt: 'Canções mandinka tradicionais' },
     ],
     decorationIdeas: [
-      'Red, blue, green and white flag colors',
-      'River and mangrove imagery',
-      'Traditional kora instruments',
-      'Bird watching themes',
+      { en: 'Red, blue, green and white flag colors', sv: 'Röda, blå, gröna och vita flaggfärger', de: 'Rot, Blau, Grün und Weiß (Flaggenfarben)', fr: 'Couleurs du drapeau rouge, bleu, vert et blanc', es: 'Colores de la bandera rojo, azul, verde y blanco', it: 'Colori della bandiera rosso, blu, verde e bianco', pl: 'Czerwone, niebieskie, zielone i białe kolory flagi', nl: 'Rood, blauw, groen en wit (vlagkleuren)', pt: 'Cores da bandeira vermelho, azul, verde e branco' },
+      { en: 'River and mangrove imagery', sv: 'Flods- och mangrovebilder', de: 'Fluss- und Mangrovenbilder', fr: 'Imagerie de rivière et de mangrove', es: 'Imágenes de ríos y manglares', it: 'Immagini di fiumi e mangrovie', pl: 'Obrazy rzek i namorzynów', nl: 'Rivier- en mangroveafbeeldingen', pt: 'Imagens de rios e manguezais' },
+      { en: 'Traditional kora instruments', sv: 'Traditionella korainstrument', de: 'Traditionelle Kora-Instrumente', fr: 'Instruments kora traditionnels', es: 'Instrumentos kora tradicionales', it: 'Strumenti kora tradizionali', pl: 'Tradycyjne instrumenty kora', nl: 'Traditionele kora-instrumenten', pt: 'Instrumentos kora tradicionais' },
+      { en: 'Bird watching themes', sv: 'Fågelskådningsteman', de: 'Vogelbeobachtungsthemen', fr: 'Thèmes d\'observation des oiseaux', es: 'Temas de observación de aves', it: 'Temi di birdwatching', pl: 'Motywy obserwacji ptaków', nl: 'Vogelkijk-thema\'s', pt: 'Temas de observação de pássaros' },
     ],
     conversationStarters: [
-      'Have you heard kora music?',
-      'What do you know about West African rivers?',
-      'Do you enjoy birdwatching?',
+      { en: 'Have you heard kora music?', sv: 'Har du hört koramusik?', de: 'Hast du Kora-Musik gehört?', fr: 'Avez-vous entendu de la musique de kora ?', es: '¿Has escuchado música de kora?', it: 'Hai ascoltato musica di kora?', pl: 'Czy słyszałeś muzykę kora?', nl: 'Heb je kora-muziek gehoord?', pt: 'Você já ouviu música de kora?' },
+      { en: 'What do you know about West African rivers?', sv: 'Vad vet du om västafrikanska floder?', de: 'Was weißt du über westafrikanische Flüsse?', fr: 'Que savez-vous des fleuves d\'Afrique de l\'Ouest ?', es: '¿Qué sabes sobre los ríos de África Occidental?', it: 'Cosa sai dei fiumi dell\'Africa occidentale?', pl: 'Co wiesz o rzekach Afryki Zachodniej?', nl: 'Wat weet je over West-Afrikaanse rivieren?', pt: 'O que você sabe sobre os rios da África Ocidental?' },
+      { en: 'Do you enjoy birdwatching?', sv: 'Tycker du om fågelskådning?', de: 'Magst du Vogelbeobachtung?', fr: 'Aimez-vous l\'observation des oiseaux ?', es: '¿Disfrutas del avistamiento de aves?', it: 'Ti piace il birdwatching?', pl: 'Czy lubisz obserwowanie ptaków?', nl: 'Geniet jij van vogelkijken?', pt: 'Você aprecia a observação de pássaros?' },
     ],
     innovations: [
       {

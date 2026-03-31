@@ -16,6 +16,7 @@ import { isCountryAccessible } from '@/lib/access-control';
 import { hapticSuccess, hapticError, hapticMedium, hapticSelection, hapticLight } from '@/lib/haptics';
 import { shareRecipe, shareCookedIt } from '@/lib/share';
 import { trackPositiveAction } from '@/lib/rating';
+import { maybeAskForReview } from '@/lib/review-prompt';
 import Paywall from '@/components/Paywall';
 import CookingMode from '@/components/CookingMode';
 import { regionalVariations } from '@/data/regional-variations';
@@ -198,13 +199,20 @@ export default function CountryDetailScreen() {
     void trackPositiveAction();
 
     const dishName = isDessert
-      ? (country.dessert?.name || '') 
+      ? (country.dessert?.name || '')
       : country.mainDish.name;
-    
+
     Alert.alert(
       t.country.greatJob,
       t.country.earnedPoints.replace('{points}', points.toString()).replace('{dish}', dishName)
     );
+
+    // Ask for a review after cooking 3rd dish — peak satisfaction moment
+    const cookedCount = Object.values(countryProgress).filter(p => p.mainDishCooked).length;
+    if (cookedCount >= 2) {
+      // +1 for the dish just marked (progress update is async)
+      setTimeout(() => void maybeAskForReview(), 2000);
+    }
   };
 
   const handleAddToShoppingList = (isDessert: boolean) => {
@@ -351,6 +359,13 @@ export default function CountryDetailScreen() {
         t.country.quizResult.replace('{correct}', correctCount.toString()).replace('{total}', country.quiz.length.toString()).replace('{points}', points.toString())
       );
     }, 500);
+
+    // Ask for a review after first quiz completion — strong learning signal
+    const completedQuizzes = Object.values(countryProgress).filter(p => p.quizCompleted).length;
+    if (completedQuizzes === 0) {
+      // This is their first quiz — ask after the alert clears
+      setTimeout(() => void maybeAskForReview(), 3500);
+    }
   };
 
   const mainServingsMultiplier = mainDishServings / (country.mainDish?.servings || 1);
@@ -503,21 +518,19 @@ export default function CountryDetailScreen() {
         purchasedProducts={purchasedProducts}
       />
 
-      {cookingMode && (
-        <CookingMode
-          visible={true}
-          onClose={() => setCookingMode(null)}
-          steps={cookingMode.steps}
-          recipeName={cookingMode.name}
-          onComplete={() => {
-            if (!cookingMode.isDessert && !progress.mainDishCooked) {
-              handleMarkDishCooked(false);
-            } else if (cookingMode.isDessert && !progress.dessertCooked) {
-              handleMarkDishCooked(true);
-            }
-          }}
-        />
-      )}
+      <CookingMode
+        visible={cookingMode !== null}
+        onClose={() => setCookingMode(null)}
+        steps={cookingMode?.steps ?? []}
+        recipeName={cookingMode?.name ?? ''}
+        onComplete={() => {
+          if (cookingMode && !cookingMode.isDessert && !progress.mainDishCooked) {
+            handleMarkDishCooked(false);
+          } else if (cookingMode && cookingMode.isDessert && !progress.dessertCooked) {
+            handleMarkDishCooked(true);
+          }
+        }}
+      />
     </SafeAreaView>
   );
 }

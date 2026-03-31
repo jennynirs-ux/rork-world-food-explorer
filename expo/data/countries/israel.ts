@@ -206,7 +206,17 @@ export const israel: Country = {
         pt: 'Leader in technology and innovation',
       },
     ],
-    foodCulture: 'Israeli cuisine blends Middle Eastern, Mediterranean, and Jewish diaspora influences with fresh ingredients.',
+    foodCulture: {
+      en: 'Israeli cuisine blends Middle Eastern, Mediterranean, and Jewish diaspora influences with fresh ingredients.',
+      sv: 'Det israeliska köket blandar mellanösternska, mediterrana och judiska diasporainflytanden med färska ingredienser.',
+      de: 'Die israelische Küche vereint nahöstliche, mediterrane und jüdische Diaspora-Einflüsse mit frischen Zutaten.',
+      fr: 'La cuisine israélienne mêle des influences moyen-orientales, méditerranéennes et de la diaspora juive avec des ingrédients frais.',
+      es: 'La cocina israelí combina influencias del Medio Oriente, mediterráneas y de la diáspora judía con ingredientes frescos.',
+      it: 'La cucina israeliana combina influenze mediorientali, mediterranee e della diaspora ebraica con ingredienti freschi.',
+      pl: 'Kuchnia izraelska łączy wpływy bliskowschodnie, śródziemnomorskie i żydowskiej diaspory ze świeżymi składnikami.',
+      nl: 'De Israëlische keuken combineert Midden-Oosterse, Mediterrane en Joodse diaspora-invloeden met verse ingrediënten.',
+      pt: 'A culinária israelense combina influências do Oriente Médio, mediterrâneas e da diáspora judaica com ingredientes frescos.',
+    },
     history: [
       {
         year: '1200 BC',
@@ -504,19 +514,19 @@ export const israel: Country = {
       nonAlcoholic: 'Limonana (mint lemonade), Turkish coffee, Fresh juice',
     },
     music: [
-      'Mizrahi music',
-      'Israeli pop',
-      'Traditional Jewish songs',
+      { en: 'Mizrahi music', sv: 'Mizrahi-musik', de: 'Mizrahi-Musik', fr: 'Musique Mizrahi', es: 'Música Mizrahi', it: 'Musica Mizrahi', pl: 'Muzyka Mizrahi', nl: 'Mizrahi-muziek', pt: 'Música Mizrahi' },
+      { en: 'Israeli pop', sv: 'Israelisk pop', de: 'Israelischer Pop', fr: 'Pop israélien', es: 'Pop israelí', it: 'Pop israeliano', pl: 'Izraelski pop', nl: 'Israëlische pop', pt: 'Pop israelense' },
+      { en: 'Traditional Jewish songs', sv: 'Traditionella judiska sånger', de: 'Traditionelle jüdische Lieder', fr: 'Chants juifs traditionnels', es: 'Canciones judías tradicionales', it: 'Canti ebraici tradizionali', pl: 'Tradycyjne pieśni żydowskie', nl: 'Traditionele Joodse liederen', pt: 'Canções judaicas tradicionais' },
     ],
     decorationIdeas: [
-      'Blue and white flag colors',
-      'Star of David',
-      'Mediterranean themes',
-      'Ancient Jerusalem imagery',
+      { en: 'Blue and white flag colors', sv: 'Blå och vita flaggfärger', de: 'Blau-weiße Flaggenfarben', fr: 'Couleurs du drapeau bleu et blanc', es: 'Colores de la bandera azul y blanco', it: 'Colori della bandiera blu e bianco', pl: 'Niebieskie i białe kolory flagi', nl: 'Blauw-witte vlagkleuren', pt: 'Cores da bandeira azul e branco' },
+      { en: 'Star of David', sv: 'Davidsstjärna', de: 'Davidstern', fr: 'Étoile de David', es: 'Estrella de David', it: 'Stella di Davide', pl: 'Gwiazda Dawida', nl: 'Davidster', pt: 'Estrela de Davi' },
+      { en: 'Mediterranean themes', sv: 'Mediterrana teman', de: 'Mediterrane Themen', fr: 'Thèmes méditerranéens', es: 'Temas mediterráneos', it: 'Temi mediterranei', pl: 'Motywy śródziemnomorskie', nl: 'Mediterrane thema\'s', pt: 'Temas mediterrâneos' },
+      { en: 'Ancient Jerusalem imagery', sv: 'Bilder av det antika Jerusalem', de: 'Motive des antiken Jerusalems', fr: 'Images de l\'ancienne Jérusalem', es: 'Imágenes del antiguo Jerusalén', it: 'Immagini dell\'antica Gerusalemme', pl: 'Motywy starożytnej Jerozolimy', nl: 'Beelden van het oude Jeruzalem', pt: 'Imagens da antiga Jerusalém' },
     ],
     conversationStarters: [
-      'Have you visited historical religious sites?',
-      'What do you know about Middle Eastern cuisine?',
+      { en: 'Have you visited historical religious sites?', sv: 'Har du besökt historiska religiösa platser?', de: 'Hast du historische religiöse Stätten besucht?', fr: 'Avez-vous visité des sites religieux historiques?', es: '¿Has visitado lugares religiosos históricos?', it: 'Hai visitato siti religiosi storici?', pl: 'Czy odwiedziłeś historyczne miejsca religijne?', nl: 'Heb je historische religieuze plaatsen bezocht?', pt: 'Você já visitou locais religiosos históricos?' },
+      { en: 'What do you know about Middle Eastern cuisine?', sv: 'Vad vet du om mellanösternmat?', de: 'Was weißt du über nahöstliche Küche?', fr: 'Que savez-vous de la cuisine du Moyen-Orient?', es: '¿Qué sabes sobre la cocina del Medio Oriente?', it: 'Cosa sai della cucina mediorientale?', pl: 'Co wiesz o kuchni bliskowschodniej?', nl: 'Wat weet je over de Midden-Oosterse keuken?', pt: 'O que você sabe sobre a culinária do Oriente Médio?' },
     ],
     innovations: [
       {

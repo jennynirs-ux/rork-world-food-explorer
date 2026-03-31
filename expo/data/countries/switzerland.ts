@@ -250,7 +250,17 @@ export const switzerland: Country = {
         pt: 'Geneva hosts more international organizations than any other city',
       },
     ],
-    foodCulture: 'Swiss cuisine is hearty and comforting, varying by region. Cheese and chocolate are national treasures. Fondue and raclette are iconic social dishes, especially popular during winter.',
+    foodCulture: {
+      en: 'Swiss cuisine is hearty and comforting, varying by region. Cheese and chocolate are national treasures. Fondue and raclette are iconic social dishes, especially popular during winter.',
+      sv: 'Schweizisk mat är rejäl och tröstande och varierar beroende på region. Ost och choklad är nationalklenoder. Fondue och raclette är ikoniska sociala rätter, särskilt populära under vintern.',
+      de: 'Die Schweizer Küche ist herzhaft und tröstlich und variiert je nach Region. Käse und Schokolade sind nationale Schätze. Fondue und Raclette sind ikonische Gesellschaftsgerichte, besonders beliebt im Winter.',
+      fr: 'La cuisine suisse est consistante et réconfortante, variant selon les régions. Le fromage et le chocolat sont des trésors nationaux. La fondue et la raclette sont des plats conviviaux emblématiques, particulièrement populaires en hiver.',
+      es: 'La cocina suiza es abundante y reconfortante, variando según la región. El queso y el chocolate son tesoros nacionales. La fondue y la raclette son platos sociales icónicos, especialmente populares durante el invierno.',
+      it: 'La cucina svizzera è sostanziosa e confortante, variando per regione. Il formaggio e il cioccolato sono tesori nazionali. La fondue e la raclette sono piatti sociali iconici, particolarmente popolari in inverno.',
+      pl: 'Kuchnia szwajcarska jest sycąca i kojąca, różniąca się w zależności od regionu. Ser i czekolada to narodowe skarby. Fondue i raclette to ikoniczne dania towarzyskie, szczególnie popularne zimą.',
+      nl: 'De Zwitserse keuken is stevig en troostend, variërend per regio. Kaas en chocolade zijn nationale schatten. Fondue en raclette zijn iconische sociale gerechten, vooral populair in de winter.',
+      pt: 'A culinária suíça é farta e reconfortante, variando por região. Queijo e chocolate são tesouros nacionais. Fondue e raclette são pratos sociais icônicos, especialmente populares durante o inverno.',
+    },
     history: [
       {
         year: '1291',
@@ -1249,22 +1259,22 @@ export const switzerland: Country = {
       nonAlcoholic: 'Rivella, Hot chocolate, Herbal tea',
     },
     music: [
-      'Alphorn music',
-      'Yodeling',
-      'Swiss folk music',
+      { en: 'Alphorn music', sv: 'Alphornmusik', de: 'Alphorn-Musik', fr: 'Musique du cor des Alpes', es: 'Música de trompa alpina', it: 'Musica del corno delle Alpi', pl: 'Muzyka alpejskiego rogu', nl: 'Alphorn-muziek', pt: 'Música de trompa alpina' },
+      { en: 'Yodeling', sv: 'Joddling', de: 'Jodeln', fr: 'Yodel', es: 'Yodel', it: 'Yodel', pl: 'Jodłowanie', nl: 'Jodelen', pt: 'Iodel' },
+      { en: 'Swiss folk music', sv: 'Schweizisk folkmusik', de: 'Schweizer Volksmusik', fr: 'Musique folklorique suisse', es: 'Música folclórica suiza', it: 'Musica folk svizzera', pl: 'Szwajcarska muzyka ludowa', nl: 'Zwitserse volksmuziek', pt: 'Música folclórica suíça' },
     ],
     decorationIdeas: [
-      'Red and white color theme',
-      'Alpine decorations',
-      'Cowbells and edelweiss',
-      'Wooden chalet aesthetics',
-      'Snowy mountain and lake imagery',
+      { en: 'Red and white color theme', sv: 'Röd och vit färgtema', de: 'Rotes und weißes Farbthema', fr: 'Thème de couleur rouge et blanc', es: 'Tema de color rojo y blanco', it: 'Tema di colore rosso e bianco', pl: 'Motyw kolorystyczny czerwień i biel', nl: 'Rood en wit kleurthema', pt: 'Tema de cor vermelho e branco' },
+      { en: 'Alpine decorations', sv: 'Alpdekorationer', de: 'Alpen-Dekorationen', fr: 'Décorations alpines', es: 'Decoraciones alpinas', it: 'Decorazioni alpine', pl: 'Dekoracje alpejskie', nl: 'Alpijne decoraties', pt: 'Decorações alpinas' },
+      { en: 'Cowbells and edelweiss', sv: 'Kobjällror och edelweiss', de: 'Kuhglocken und Edelweiß', fr: 'Cloches de vaches et edelweiss', es: 'Cencerros y edelweiss', it: 'Campanacci e stelle alpine', pl: 'Dzwonki krowie i szarotka', nl: 'Koeibellen en edelweiss', pt: 'Sinos de vaca e estrela-dos-alpes' },
+      { en: 'Wooden chalet aesthetics', sv: 'Trächaletesteik', de: 'Holzchalet-Ästhetik', fr: 'Esthétique de chalet en bois', es: 'Estética de chalet de madera', it: 'Estetica dello chalet in legno', pl: 'Estetyka drewnianego szaletu', nl: 'Houten chalet esthetiek', pt: 'Estética de chalé de madeira' },
+      { en: 'Snowy mountain and lake imagery', sv: 'Snöiga berg och sjöbilder', de: 'Verschneite Berg- und Seebilder', fr: 'Imagerie de montagne enneigée et de lac', es: 'Imágenes de montañas nevadas y lagos', it: 'Immagini di montagne innevate e laghi', pl: 'Obrazy ośnieżonych gór i jezior', nl: 'Besneeuwde berg- en meerbeelden', pt: 'Imagens de montanhas nevadas e lagos' },
     ],
     conversationStarters: [
-      'Fondue or raclette – which do you prefer?',
-      'Would you travel by scenic Swiss train?',
-      'Have you tried Swiss chocolate?',
-      'If you visited Switzerland, would you choose skiing or hiking?',
+      { en: 'Fondue or raclette – which do you prefer?', sv: 'Fondue eller raclette – vilket föredrar du?', de: 'Fondue oder Raclette – was bevorzugen Sie?', fr: 'Fondue ou raclette – lequel préférez-vous ?', es: '¿Fondue o raclette – cuál prefieres?', it: 'Fondue o raclette – quale preferisci?', pl: 'Fondue czy raclette – które wolisz?', nl: 'Fondue of raclette – welke geef je de voorkeur?', pt: 'Fondue ou raclette – qual você prefere?' },
+      { en: 'Would you travel by scenic Swiss train?', sv: 'Skulle du resa med ett pittoreskt schweiziskt tåg?', de: 'Würden Sie mit dem malerischen Schweizer Zug reisen?', fr: 'Voyageriez-vous en train panoramique suisse ?', es: '¿Viajarías en un pintoresco tren suizo?', it: 'Viaggeresti con il treno panoramico svizzero?', pl: 'Czy podróżowałbyś malowniczym szwajcarskim pociągiem?', nl: 'Zou je reizen met een schilderachtige Zwitserse trein?', pt: 'Você viajaria pelo trem panorâmico suíço?' },
+      { en: 'Have you tried Swiss chocolate?', sv: 'Har du provat schweizisk choklad?', de: 'Haben Sie Schweizer Schokolade probiert?', fr: 'Avez-vous essayé le chocolat suisse ?', es: '¿Has probado el chocolate suizo?', it: 'Hai provato il cioccolato svizzero?', pl: 'Czy próbowałeś szwajcarskiej czekolady?', nl: 'Heb je Zwitserse chocolade geprobeerd?', pt: 'Você já experimentou chocolate suíço?' },
+      { en: 'If you visited Switzerland, would you choose skiing or hiking?', sv: 'Om du besökte Schweiz, skulle du välja skidåkning eller vandring?', de: 'Wenn Sie die Schweiz besuchen würden, würden Sie Skifahren oder Wandern wählen?', fr: 'Si vous visitiez la Suisse, choisiriez-vous le ski ou la randonnée ?', es: 'Si visitaras Suiza, ¿elegirías esquiar o hacer senderismo?', it: 'Se visitassi la Svizzera, sceglieresti lo sci o l\'escursionismo?', pl: 'Gdybyś odwiedził Szwajcarię, czy wybrałbyś narciarstwo czy piesze wędrówki?', nl: 'Als je Zwitserland bezocht, zou je kiezen voor skiën of wandelen?', pt: 'Se você visitasse a Suíça, escolheria esquiar ou fazer trilhas?' },
     ],
     quiz: [
       {

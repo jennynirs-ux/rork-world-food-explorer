@@ -206,7 +206,17 @@ export const papuaNewGuinea: Country = {
         pt: 'Covers the eastern half of New Guinea island',
       },
     ],
-    foodCulture: 'Papua New Guinean cuisine features sago, taro, sweet potato, and tropical fruits with Melanesian traditions.',
+    foodCulture: {
+      en: 'Papua New Guinean cuisine features sago, taro, sweet potato, and tropical fruits with Melanesian traditions.',
+      sv: 'Papua Nya Guineas mat erbjuder sago, taro, sötpotatis och tropiska frukter med melanesiska traditioner.',
+      de: 'Die papuanische Küche bietet Sago, Taro, Süßkartoffel und tropische Früchte mit melanesischen Traditionen.',
+      fr: 'La cuisine papoue-néo-guinéenne présente du sagou, du taro, de la patate douce et des fruits tropicaux selon les traditions mélanésiennes.',
+      es: 'La cocina de Papúa Nueva Guinea incluye sagú, taro, batata y frutas tropicales con tradiciones melanesias.',
+      it: 'La cucina della Papua Nuova Guinea presenta sago, taro, patata dolce e frutti tropicali con tradizioni melanesiane.',
+      pl: 'Kuchnia Papui Nowej Gwinei obejmuje sago, taro, słodkie ziemniaki i tropikalne owoce z tradycjami melanezyjskimi.',
+      nl: 'De Papoea-Nieuw-Guinese keuken bevat sago, taro, zoete aardappel en tropisch fruit met Melanesische tradities.',
+      pt: 'A culinária da Papua Nova Guiné apresenta sagu, taro, batata-doce e frutas tropicais com tradições melanésias.',
+    },
     history: [
       {
         year: '1526',
@@ -891,19 +901,19 @@ export const papuaNewGuinea: Country = {
       nonAlcoholic: 'Coconut water, Fresh tropical juice',
     },
     music: [
-      'Traditional kundu drumming',
-      'Melanesian chants',
-      'Contemporary PNG pop',
+      { en: 'Traditional kundu drumming', sv: 'Traditionell kundu-trumning', de: 'Traditionelles Kundu-Trommeln', fr: 'Batterie kundu traditionnelle', es: 'Percusión kundu tradicional', it: 'Percussioni kundu tradizionali', pl: 'Tradycyjne bębnienie kundu', nl: 'Traditioneel kundu-drummen', pt: 'Percussão kundu tradicional' },
+      { en: 'Melanesian chants', sv: 'Melanesiska sånger', de: 'Melanesische Gesänge', fr: 'Chants mélanésiens', es: 'Cantos melanesios', it: 'Canti melanesiani', pl: 'Śpiewy melanezyjskie', nl: 'Melanesische gezangen', pt: 'Cantos melanésios' },
+      { en: 'Contemporary PNG pop', sv: 'Samtida PNG-pop', de: 'Zeitgenössischer PNG-Pop', fr: 'Pop contemporain de Papouasie-Nouvelle-Guinée', es: 'Pop contemporáneo de Papúa Nueva Guinea', it: 'Pop contemporaneo della Papua Nuova Guinea', pl: 'Współczesny pop PNG', nl: 'Hedendaagse PNG-pop', pt: 'Pop contemporâneo de PNG' },
     ],
     decorationIdeas: [
-      'Red, black and yellow flag colors',
-      'Bird of Paradise imagery',
-      'Tribal masks and carvings',
-      'Rainforest themes',
+      { en: 'Red, black and yellow flag colors', sv: 'Röda, svarta och gula flaggfärger', de: 'Rote, schwarze und gelbe Flaggenfarben', fr: 'Couleurs du drapeau rouge, noir et jaune', es: 'Colores de la bandera rojo, negro y amarillo', it: 'Colori della bandiera rosso, nero e giallo', pl: 'Czerwone, czarne i żółte kolory flagi', nl: 'Rode, zwarte en gele vlagkleuren', pt: 'Cores da bandeira vermelho, preto e amarelo' },
+      { en: 'Bird of Paradise imagery', sv: 'Paradisfågelbilder', de: 'Paradiesvogel-Bilder', fr: 'Images d\'oiseaux de paradis', es: 'Imágenes del ave del paraíso', it: 'Immagini dell\'uccello del paradiso', pl: 'Zdjęcia rajskiego ptaka', nl: 'Paradijsvogel-afbeeldingen', pt: 'Imagens de aves do paraíso' },
+      { en: 'Tribal masks and carvings', sv: 'Stammasker och träsniderier', de: 'Stammesmasken und Schnitzereien', fr: 'Masques tribaux et sculptures', es: 'Máscaras tribales y tallas', it: 'Maschere tribali e intagli', pl: 'Maski plemienne i rzeźby', nl: 'Stammaskers en houtsnijwerk', pt: 'Máscaras tribais e entalhes' },
+      { en: 'Rainforest themes', sv: 'Regnskogsteman', de: 'Regenwald-Themen', fr: 'Thèmes de forêt tropicale', es: 'Temática de selva tropical', it: 'Temi della foresta pluviale', pl: 'Motywy lasów deszczowych', nl: 'Regenwoud-thema\'s', pt: 'Temas de floresta tropical' },
     ],
     conversationStarters: [
-      'What do you know about linguistic diversity?',
-      'Have you seen Birds of Paradise?',
+      { en: 'What do you know about linguistic diversity?', sv: 'Vad vet du om språklig mångfald?', de: 'Was weißt du über sprachliche Vielfalt?', fr: 'Que savez-vous de la diversité linguistique ?', es: '¿Qué sabes sobre la diversidad lingüística?', it: 'Cosa sai della diversità linguistica?', pl: 'Co wiesz o różnorodności językowej?', nl: 'Wat weet je over linguïstische diversiteit?', pt: 'O que você sabe sobre diversidade linguística?' },
+      { en: 'Have you seen Birds of Paradise?', sv: 'Har du sett Paradisvaglar?', de: 'Hast du Paradiesvögel gesehen?', fr: 'Avez-vous vu des oiseaux de paradis ?', es: '¿Has visto Aves del Paraíso?', it: 'Hai visto gli Uccelli del Paradiso?', pl: 'Czy widziałeś Rajskie Ptaki?', nl: 'Heb je Paradijsvogels gezien?', pt: 'Você já viu Aves do Paraíso?' },
     ],
     quiz: [
       {

@@ -250,7 +250,17 @@ export const bahrain: Country = {
         pt: 'The country consists of 33 natural islands',
       },
     ],
-    foodCulture: 'Bahraini cuisine blends Arab, Persian, and Indian influences. Fresh seafood, rice dishes, and dates are staples. Meals emphasize hospitality, with generous portions and communal dining traditions.',
+    foodCulture: {
+      en: 'Bahraini cuisine blends Arab, Persian, and Indian influences. Fresh seafood, rice dishes, and dates are staples. Meals emphasize hospitality, with generous portions and communal dining traditions.',
+      sv: 'Bahrainska mat blandar arabiska, persiska och indiska influenser. Färska skaldjur, risrätter och dadlar är stapelvaror. Måltider betonar gästfrihet med generösa portioner och gemensamma matvanor.',
+      de: 'Die bahrain­ische Küche verbindet arabische, persische und indische Einflüsse. Frische Meeresfrüchte, Reisgerichte und Datteln sind Grundnahrungsmittel. Mahlzeiten betonen Gastfreundschaft mit großzügigen Portionen und Gemeinschaftsessen-Traditionen.',
+      fr: 'La cuisine bahreïnie mêle les influences arabes, persanes et indiennes. Les fruits de mer frais, les plats de riz et les dattes sont des aliments de base. Les repas mettent l\'accent sur l\'hospitalité avec des portions généreuses et des traditions de repas communautaires.',
+      es: 'La cocina bahreini combina influencias árabes, persas e indias. Los mariscos frescos, los platos de arroz y los dátiles son alimentos básicos. Las comidas enfatizan la hospitalidad con porciones generosas y tradiciones de comidas comunales.',
+      it: 'La cucina del Bahrain unisce influenze arabe, persiane e indiane. Frutti di mare freschi, piatti di riso e datteri sono alimenti base. I pasti enfatizzano l\'ospitalità con porzioni generose e tradizioni di pasti in comune.',
+      pl: 'Kuchnia Bahrajnu łączy wpływy arabskie, perskie i indyjskie. Świeże owoce morza, dania ryżowe i daktyle są podstawą. Posiłki podkreślają gościnność z hojnymi porcjami i tradycjami wspólnych posiłków.',
+      nl: 'De Bahreinse keuken combineert Arabische, Perzische en Indiase invloeden. Verse zeevruchten, rijstgerechten en dadels zijn basisvoedsel. Maaltijden benadrukken gastvrijheid met royale porties en gemeenschappelijke eettradities.',
+      pt: 'A culinária do Bahrein combina influências árabes, persas e indianas. Frutos do mar frescos, pratos de arroz e tâmaras são alimentos básicos. As refeições enfatizam a hospitalidade com porções generosas e tradições de refeições comunais.',
+    },
     history: [
       {
         year: '3000 BC',
@@ -1207,20 +1217,20 @@ export const bahrain: Country = {
       nonAlcoholic: 'Arabic coffee, Cardamom tea, Fresh juice',
     },
     music: [
-      'Traditional Fidjeri sea music',
-      'Arabic pop',
-      'Pearl diving songs',
+      { en: 'Traditional Fidjeri sea music', sv: 'Traditionell Fidjeri-havsmusik', de: 'Traditionelle Fidjeri-Seemusik', fr: 'Musique maritime Fidjeri traditionnelle', es: 'Música marina Fidjeri tradicional', it: 'Musica marittima tradizionale Fidjeri', pl: 'Tradycyjna muzyka morska Fidjeri', nl: 'Traditionele Fidjeri zeemuziek', pt: 'Música marítima Fidjeri tradicional' },
+      { en: 'Arabic pop', sv: 'Arabisk pop', de: 'Arabischer Pop', fr: 'Pop arabe', es: 'Pop árabe', it: 'Pop arabo', pl: 'Arabski pop', nl: 'Arabische popmuziek', pt: 'Pop árabe' },
+      { en: 'Pearl diving songs', sv: 'Pärldykarsånger', de: 'Perlentaucherlieder', fr: 'Chants de plongeurs de perles', es: 'Canciones de buceadores de perlas', it: 'Canti dei pescatori di perle', pl: 'Pieśni nurków perłowych', nl: 'Pareldukerliederen', pt: 'Canções de mergulhadores de pérolas' },
     ],
     decorationIdeas: [
-      'Red and white flag colors',
-      'Pearl diving heritage elements',
-      'Modern architecture imagery',
-      'Arabian patterns',
+      { en: 'Red and white flag colors', sv: 'Röda och vita flaggfärger', de: 'Rot und Weiß als Flaggenfarben', fr: 'Couleurs rouge et blanc du drapeau', es: 'Colores rojo y blanco de la bandera', it: 'Colori rosso e bianco della bandiera', pl: 'Czerwone i białe barwy flagi', nl: 'Rode en witte vlagkleuren', pt: 'Cores vermelha e branca da bandeira' },
+      { en: 'Pearl diving heritage elements', sv: 'Pärldykar­arvsdekorationer', de: 'Perlentauchererbe-Elemente', fr: 'Éléments du patrimoine de la plongée perlière', es: 'Elementos del patrimonio de la pesca de perlas', it: 'Elementi del patrimonio della pesca delle perle', pl: 'Elementy dziedzictwa nurkowania perłowego', nl: 'Erfgoedelementen van pareldyken', pt: 'Elementos do patrimônio da pesca de pérolas' },
+      { en: 'Modern architecture imagery', sv: 'Bilder av modern arkitektur', de: 'Bilder moderner Architektur', fr: 'Images d\'architecture moderne', es: 'Imágenes de arquitectura moderna', it: 'Immagini di architettura moderna', pl: 'Obrazy nowoczesnej architektury', nl: 'Moderne architectuurafbeeldingen', pt: 'Imagens de arquitetura moderna' },
+      { en: 'Arabian patterns', sv: 'Arabiska mönster', de: 'Arabische Muster', fr: 'Motifs arabes', es: 'Patrones árabes', it: 'Motivi arabi', pl: 'Arabskie wzory', nl: 'Arabische patronen', pt: 'Padrões árabes' },
     ],
     conversationStarters: [
-      'Have you been to a Formula 1 race?',
-      'What do you know about pearl diving?',
-      'Do you enjoy Middle Eastern cuisine?',
+      { en: 'Have you been to a Formula 1 race?', sv: 'Har du sett ett Formel 1-lopp?', de: 'Waren Sie schon bei einem Formel-1-Rennen?', fr: 'Avez-vous assisté à une course de Formule 1?', es: '¿Has asistido a una carrera de Fórmula 1?', it: 'Sei mai stato a una gara di Formula 1?', pl: 'Czy byłeś na wyścigu Formuły 1?', nl: 'Ben je ooit bij een Formule 1-race geweest?', pt: 'Você já foi a uma corrida de Fórmula 1?' },
+      { en: 'What do you know about pearl diving?', sv: 'Vad vet du om pärldykning?', de: 'Was wissen Sie über Perlentauchen?', fr: 'Que savez-vous de la plongée perlière?', es: '¿Qué sabes sobre la pesca de perlas?', it: 'Cosa sai della pesca delle perle?', pl: 'Co wiesz o nurkowaniu po perły?', nl: 'Wat weet je over pareldyken?', pt: 'O que você sabe sobre a pesca de pérolas?' },
+      { en: 'Do you enjoy Middle Eastern cuisine?', sv: 'Tycker du om mellanösternsk mat?', de: 'Mögen Sie die Küche des Nahen Ostens?', fr: 'Aimez-vous la cuisine du Moyen-Orient?', es: '¿Disfrutas de la cocina de Oriente Medio?', it: 'Ti piace la cucina mediorientale?', pl: 'Czy lubisz kuchnię bliskowschodnią?', nl: 'Houd je van Midden-Oosterse keuken?', pt: 'Você gosta da culinária do Oriente Médio?' },
     ],
     quiz: [
       {

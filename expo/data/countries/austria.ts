@@ -250,7 +250,17 @@ export const austria: Country = {
         pt: 'Austrian coffeehouse culture is recognized by UNESCO as intangible cultural heritage',
       },
     ],
-    foodCulture: 'Austrian cuisine is influenced by the cuisines of the Austro-Hungarian Empire, combining flavors from across Central and Eastern Europe. It\'s known for its hearty meat dishes, delicate pastries, and sophisticated coffeehouse culture. Vienna is famous for its elegant café traditions where people gather for coffee and cakes.',
+    foodCulture: {
+      en: 'Austrian cuisine is influenced by the cuisines of the Austro-Hungarian Empire, combining flavors from across Central and Eastern Europe. It\'s known for its hearty meat dishes, delicate pastries, and sophisticated coffeehouse culture. Vienna is famous for its elegant café traditions where people gather for coffee and cakes.',
+      sv: 'Österrikisk mat är influerad av det österrikisk-ungerska imperiets kök och kombinerar smaker från hela Central- och Östeuropa. Den är känd för sina mustiga kötträtter, delikata bakverk och sofistikerade kafékulturen. Wien är känt för sina eleganta kafétraditioner där folk samlas för kaffe och kakor.',
+      de: 'Die österreichische Küche ist von den Küchen der Österreichisch-Ungarischen Monarchie beeinflusst und vereint Aromen aus ganz Mittel- und Osteuropa. Sie ist bekannt für herzhafte Fleischgerichte, feine Gebäcke und die anspruchsvolle Kaffeehauskultur. Wien ist berühmt für seine eleganten Kaffeehaustraditionen.',
+      fr: 'La cuisine autrichienne est influencée par les cuisines de l\'Empire austro-hongrois, combinant des saveurs de toute l\'Europe centrale et orientale. Elle est connue pour ses plats de viande copieux, ses délicieuses pâtisseries et sa sophistiquée culture des cafés. Vienne est célèbre pour ses élégantes traditions de café.',
+      es: 'La cocina austriaca está influenciada por las cocinas del Imperio Austrohúngaro, combinando sabores de toda Europa Central y del Este. Es conocida por sus contundentes platos de carne, exquisitas pastelerías y sofisticada cultura de cafés. Viena es famosa por sus elegantes tradiciones de cafeterías.',
+      it: 'La cucina austriaca è influenzata dalle cucine dell\'Impero austro-ungarico, unendo sapori da tutta l\'Europa centrale e orientale. È nota per i suoi sostanziosi piatti di carne, delicati dolci e la sofisticata cultura dei caffè. Vienna è famosa per le sue eleganti tradizioni di caffè.',
+      pl: 'Kuchnia austriacka jest pod wpływem kuchni cesarstwa austro-węgierskiego, łącząc smaki z całej Europy Środkowej i Wschodniej. Znana jest z sytych dań mięsnych, delikatnych wypieków i wyrafinowanej kultury kawiarni. Wiedeń słynie z eleganckich tradycji kawiarnianych.',
+      nl: 'De Oostenrijkse keuken is beïnvloed door de keukens van het Oostenrijks-Hongaarse Rijk en combineert smaken van heel Midden- en Oost-Europa. Ze staat bekend om haar stevige vleesgerechten, delicate gebakjes en de verfijnde koffiehuis cultuur. Wenen is beroemd om zijn elegante cafétradities.',
+      pt: 'A culinária austríaca é influenciada pelas culinárias do Império Austro-Húngaro, combinando sabores de toda a Europa Central e Oriental. É conhecida por seus pratos farto de carne, delicadas pastéis e sofisticada cultura de cafés. Viena é famosa por suas elegantes tradições de café.',
+    },
     innovations: [
       {
         name: {
@@ -1199,23 +1209,23 @@ export const austria: Country = {
       nonAlcoholic: 'Almdudler (herbal lemonade), Viennese coffee, Apple juice',
     },
     music: [
-      'Classical music (Mozart, Strauss waltzes)',
-      'Traditional Alpine folk music',
-      'Vienna Boys\' Choir',
+      { en: 'Classical music (Mozart, Strauss waltzes)', sv: 'Klassisk musik (Mozart, Strauss-valser)', de: 'Klassische Musik (Mozart, Strauss-Walzer)', fr: 'Musique classique (Mozart, valses de Strauss)', es: 'Música clásica (Mozart, valses de Strauss)', it: 'Musica classica (Mozart, valzer di Strauss)', pl: 'Muzyka klasyczna (Mozart, walce Straussa)', nl: 'Klassieke muziek (Mozart, Strauss-walsen)', pt: 'Música clássica (Mozart, valsas de Strauss)' },
+      { en: 'Traditional Alpine folk music', sv: 'Traditionell alpin folkmusik', de: 'Traditionelle alpine Volksmusik', fr: 'Musique folk alpine traditionnelle', es: 'Música folk alpina tradicional', it: 'Musica folk alpina tradizionale', pl: 'Tradycyjna alpejska muzyka ludowa', nl: 'Traditionele alpiene volksmuziek', pt: 'Música folclórica alpina tradicional' },
+      { en: 'Vienna Boys\' Choir', sv: 'Wiener pojkköret', de: 'Wiener Sängerknaben', fr: 'Chœur des garçons de Vienne', es: 'Coro de Niños de Viena', it: 'Coro dei Piccoli Cantori di Vienna', pl: 'Wiedeński Chór Chłopięcy', nl: 'Weense Jongenskoor', pt: 'Coral dos Meninos de Viena' },
     ],
     decorationIdeas: [
-      'Elegant white and gold color scheme',
-      'Crystal chandeliers and ornate mirrors',
-      'Fresh edelweiss flowers',
-      'Classical music decor elements',
-      'Baroque-style candelabras',
-      'Red and white (Austrian flag colors)',
+      { en: 'Elegant white and gold color scheme', sv: 'Elegant vit och guld färgschema', de: 'Elegantes Weiß-Gold-Farbschema', fr: 'Palette de couleurs blanc et or élégante', es: 'Elegante combinación de colores blanco y dorado', it: 'Elegante schema di colori bianco e oro', pl: 'Elegancka kolorystyka bieli i złota', nl: 'Elegant wit en goud kleurenschema', pt: 'Esquema de cores elegante branco e dourado' },
+      { en: 'Crystal chandeliers and ornate mirrors', sv: 'Kristallkronor och utsmyckade speglar', de: 'Kristallleuchter und verzierte Spiegel', fr: 'Lustres en cristal et miroirs ornés', es: 'Arañas de cristal y espejos ornamentados', it: 'Lampadari di cristallo e specchi ornati', pl: 'Kryształowe żyrandole i ozdobne lustra', nl: 'Kristallen kroonluchters en sierlijke spiegels', pt: 'Lustres de cristal e espelhos ornamentados' },
+      { en: 'Fresh edelweiss flowers', sv: 'Färska edelweissblommor', de: 'Frische Edelweißblumen', fr: 'Fleurs d\'edelweiss frais', es: 'Flores de edelweiss frescas', it: 'Fiori di edelweiss freschi', pl: 'Świeże kwiaty szarotki', nl: 'Verse edelweissbloemen', pt: 'Flores frescas de edelweiss' },
+      { en: 'Classical music decor elements', sv: 'Dekorativa element med klassisk musik', de: 'Dekorelemente mit klassischer Musik', fr: 'Éléments de décoration de musique classique', es: 'Elementos de decoración de música clásica', it: 'Elementi di arredo musicale classico', pl: 'Elementy dekoracyjne muzyki klasycznej', nl: 'Klassieke muziek decoratie-elementen', pt: 'Elementos decorativos de música clássica' },
+      { en: 'Baroque-style candelabras', sv: 'Kandelabrar i barockstil', de: 'Kandelaber im Barockstil', fr: 'Candélabres de style baroque', es: 'Candelabros de estilo barroco', it: 'Candelabri in stile barocco', pl: 'Kandelabry w stylu barokowym', nl: 'Barokke kandelaars', pt: 'Candelabros em estilo barroco' },
+      { en: 'Red and white (Austrian flag colors)', sv: 'Röd och vit (österrikiska flaggfärger)', de: 'Rot und Weiß (österreichische Flaggenfarben)', fr: 'Rouge et blanc (couleurs du drapeau autrichien)', es: 'Rojo y blanco (colores de la bandera austriaca)', it: 'Rosso e bianco (colori della bandiera austriaca)', pl: 'Czerwony i biały (kolory flagi austriackiej)', nl: 'Rood en wit (Oostenrijkse vlagkleuren)', pt: 'Vermelho e branco (cores da bandeira austríaca)' },
     ],
     conversationStarters: [
-      'Have you ever been to a Viennese Ball? What would you wear?',
-      'Which classical composer is your favorite: Mozart, Beethoven, or Strauss?',
-      'Would you prefer skiing in the Alps or exploring Vienna\'s palaces?',
-      'What\'s your favorite Austrian pastry: Sachertorte or Apple Strudel?',
+      { en: 'Have you ever been to a Viennese Ball? What would you wear?', sv: 'Har du någonsin varit på en wienerbal? Vad skulle du ha på dig?', de: 'Waren Sie jemals auf einem Wiener Ball? Was würden Sie tragen?', fr: 'Avez-vous déjà assisté à un bal viennois? Que porteriez-vous?', es: '¿Has estado alguna vez en un baile vienés? ¿Qué llevarías puesto?', it: 'Sei mai stato a un ballo viennese? Cosa indosseresti?', pl: 'Czy byłeś kiedyś na wiedeńskim balu? Co byś ubrał?', nl: 'Ben je ooit naar een Weense bal geweest? Wat zou je dragen?', pt: 'Você já foi a um baile vienense? O que usaria?' },
+      { en: 'Which classical composer is your favorite: Mozart, Beethoven, or Strauss?', sv: 'Vilken klassisk kompositör är din favorit: Mozart, Beethoven eller Strauss?', de: 'Welcher klassische Komponist ist Ihr Favorit: Mozart, Beethoven oder Strauss?', fr: 'Quel compositeur classique préférez-vous: Mozart, Beethoven ou Strauss?', es: '¿Cuál es tu compositor clásico favorito: Mozart, Beethoven o Strauss?', it: 'Qual è il tuo compositore classico preferito: Mozart, Beethoven o Strauss?', pl: 'Który kompozytor klasyczny jest twoim ulubionym: Mozart, Beethoven czy Strauss?', nl: 'Welke klassieke componist is uw favoriet: Mozart, Beethoven of Strauss?', pt: 'Qual compositor clássico é o seu favorito: Mozart, Beethoven ou Strauss?' },
+      { en: 'Would you prefer skiing in the Alps or exploring Vienna\'s palaces?', sv: 'Föredrar du att åka skidor i Alperna eller utforska Wiens palats?', de: 'Würden Sie lieber in den Alpen Ski fahren oder Wiens Paläste erkunden?', fr: 'Préféreriez-vous skier dans les Alpes ou explorer les palais de Vienne?', es: '¿Preferirías esquiar en los Alpes o explorar los palacios de Viena?', it: 'Preferiresti sciare nelle Alpi o esplorare i palazzi di Vienna?', pl: 'Wolisz jeździć na nartach w Alpach czy zwiedzać wiedeńskie pałace?', nl: 'Zou je liever skiën in de Alpen of de paleizen van Wenen verkennen?', pt: 'Você preferiria esquiar nos Alpes ou explorar os palácios de Viena?' },
+      { en: 'What\'s your favorite Austrian pastry: Sachertorte or Apple Strudel?', sv: 'Vilket är ditt favorit-österrikiska bakverk: Sachertorte eller Apfelstrudel?', de: 'Was ist Ihr Lieblings-österreichisches Gebäck: Sachertorte oder Apfelstrudel?', fr: 'Quel est votre pâtisserie autrichienne préférée: Sachertorte ou strudel aux pommes?', es: '¿Cuál es tu pastel austriaco favorito: Sachertorte o Strudel de manzana?', it: 'Qual è il tuo dolce austriaco preferito: Sachertorte o Strudel di mele?', pl: 'Jaki jest twój ulubiony austriacki wypiek: Sachertorte czy strudel jabłkowy?', nl: 'Wat is uw favoriete Oostenrijkse gebak: Sachertorte of Appelstrudel?', pt: 'Qual é a sua confeitaria austríaca favorita: Sachertorte ou Strudel de maçã?' },
     ],
     quiz: [
       {

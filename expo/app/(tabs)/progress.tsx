@@ -8,6 +8,9 @@ import { shareProgress } from '@/lib/share';
 import { hapticLight } from '@/lib/haptics';
 import colors from '@/constants/colors';
 
+// Convert hyphenated badge id to camelCase for i18n lookup
+const badgeKey = (id: string) => id.replace(/-([a-z])/g, (_, c: string) => c.toUpperCase());
+
 export default function ProgressScreen() {
   const router = useRouter();
   const { stats, badges, userProfile } = useApp();
@@ -140,14 +143,14 @@ export default function ProgressScreen() {
                   <View
                     key={badge.id}
                     style={styles.badgeCard}
-                    accessibilityLabel={`Earned badge: ${badge.name}, ${badge.description}`}
+                    accessibilityLabel={`Earned badge: ${(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.name || badge.name}, ${(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.description || badge.description}`}
                   >
                     <View style={styles.badgeIconContainer}>
                       <Icon size={32} color="#FF6B35" strokeWidth={2} />
                     </View>
                     <View style={styles.badgeTextContainer}>
-                      <Text style={styles.badgeName}>{badge.name}</Text>
-                      <Text style={styles.badgeDescription}>{badge.description}</Text>
+                      <Text style={styles.badgeName}>{(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.name || badge.name}</Text>
+                      <Text style={styles.badgeDescription}>{(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.description || badge.description}</Text>
                     </View>
                   </View>
                 );
@@ -166,14 +169,14 @@ export default function ProgressScreen() {
                   <View
                     key={badge.id}
                     style={[styles.badgeCard, styles.badgeCardLocked]}
-                    accessibilityLabel={`Locked badge: ${badge.name}, ${badge.description}`}
+                    accessibilityLabel={`Locked badge: ${(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.name || badge.name}, ${(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.description || badge.description}`}
                   >
                     <View style={styles.badgeIconContainer}>
                       <Icon size={32} color="#9CA3AF" strokeWidth={2} />
                     </View>
                     <View style={styles.badgeTextContainer}>
-                      <Text style={styles.badgeNameLocked}>{badge.name}</Text>
-                      <Text style={styles.badgeDescriptionLocked}>{badge.description}</Text>
+                      <Text style={styles.badgeNameLocked}>{(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.name || badge.name}</Text>
+                      <Text style={styles.badgeDescriptionLocked}>{(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.description || badge.description}</Text>
                     </View>
                   </View>
                 );

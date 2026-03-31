@@ -206,7 +206,17 @@ export const vanuatu: Country = {
         pt: 'Ranked highly on the Happy Planet Index',
       },
     ],
-    foodCulture: 'Ni-Vanuatu cuisine features root vegetables, coconut, seafood, and dishes cooked in earth ovens. Lap lap is considered the national dish.',
+    foodCulture: {
+      en: 'Ni-Vanuatu cuisine features root vegetables, coconut, seafood, and dishes cooked in earth ovens. Lap lap is considered the national dish.',
+      sv: 'Ni-Vanuatu-köket innehåller rotfrukter, kokosnöt, skaldjur och rätter tillagade i jordugnar. Lap lap anses vara nationalrätten.',
+      de: 'Die Ni-Vanuatu-Küche umfasst Wurzelgemüse, Kokosnuss, Meeresfrüchte und in Erdöfen zubereitete Gerichte. Lap Lap gilt als das Nationalgericht.',
+      fr: 'La cuisine ni-vanuataise comprend des légumes racines, de la noix de coco, des fruits de mer et des plats cuits dans des fours en terre. Le lap lap est considéré comme le plat national.',
+      es: 'La cocina ni-vanuatense incluye verduras de raíz, coco, mariscos y platos cocinados en hornos de tierra. El lap lap se considera el plato nacional.',
+      it: 'La cucina ni-vanuatana comprende verdure a radice, cocco, frutti di mare e piatti cotti in forni di terra. Il lap lap è considerato il piatto nazionale.',
+      pl: 'Kuchnia ni-vanuatu obejmuje warzywa korzeniowe, kokos, owoce morza i potrawy gotowane w ziemnych piecach. Lap lap jest uważany za danie narodowe.',
+      nl: 'De Ni-Vanuatu-keuken omvat wortelgroenten, kokosnoot, zeevruchten en gerechten bereid in aardovens. Lap lap wordt beschouwd als het nationale gerecht.',
+      pt: 'A culinária ni-vanuatu inclui vegetais de raiz, coco, frutos do mar e pratos cozinhados em fornos de terra. O lap lap é considerado o prato nacional.',
+    },
     history: [
       {
         year: '3000 BC',
@@ -1002,20 +1012,20 @@ export const vanuatu: Country = {
       nonAlcoholic: 'Coconut water, Fresh tropical juice',
     },
     music: [
-      'Traditional string band music',
-      'Melanesian chants',
-      'Island reggae',
+      { en: 'Traditional string band music', sv: 'Traditionell stränginstrumentbands-musik', de: 'Traditionelle Streichbandenmusik', fr: 'Musique de groupe de cordes traditionnelle', es: 'Música de banda de cuerdas tradicional', it: 'Musica tradizionale di gruppo di corde', pl: 'Tradycyjna muzyka zespołów strunowych', nl: 'Traditionele strijkbandmuziek', pt: 'Música tradicional de banda de cordas' },
+      { en: 'Melanesian chants', sv: 'Melanesiska sånger', de: 'Melanesische Gesänge', fr: 'Chants mélanésiens', es: 'Cánticos melanesios', it: 'Canti melanesiani', pl: 'Pieśni melanezyjskie', nl: 'Melanesische gezangen', pt: 'Cantos melanésios' },
+      { en: 'Island reggae', sv: 'Öreggae', de: 'Insel-Reggae', fr: 'Reggae insulaire', es: 'Reggae isleño', it: 'Reggae isolano', pl: 'Reggae wyspiarskie', nl: 'Eiland reggae', pt: 'Reggae insular' },
     ],
     decorationIdeas: [
-      'Red, yellow, green and black flag colors',
-      'Volcano and island imagery',
-      'Traditional masks and carvings',
-      'Ocean and reef themes',
+      { en: 'Red, yellow, green and black flag colors', sv: 'Röda, gula, gröna och svarta flaggfärger', de: 'Rote, gelbe, grüne und schwarze Flaggenfarben', fr: 'Couleurs du drapeau rouge, jaune, vert et noir', es: 'Colores de la bandera rojo, amarillo, verde y negro', it: 'Colori della bandiera rosso, giallo, verde e nero', pl: 'Kolory flagi czerwony, żółty, zielony i czarny', nl: 'Rode, gele, groene en zwarte vlagkleuren', pt: 'Cores da bandeira vermelho, amarelo, verde e preto' },
+      { en: 'Volcano and island imagery', sv: 'Vulkan- och ömotiv', de: 'Vulkan- und Insel-Bilder', fr: 'Images de volcans et d\'îles', es: 'Imágenes de volcanes e islas', it: 'Immagini di vulcani e isole', pl: 'Motywy wulkanów i wysp', nl: 'Vulkaan en eiland beelden', pt: 'Imagens de vulcões e ilhas' },
+      { en: 'Traditional masks and carvings', sv: 'Traditionella masker och träsniderier', de: 'Traditionelle Masken und Schnitzereien', fr: 'Masques et sculptures traditionnels', es: 'Máscaras y tallas tradicionales', it: 'Maschere e intagli tradizionali', pl: 'Tradycyjne maski i rzeźby', nl: 'Traditionele maskers en houtsnijwerk', pt: 'Máscaras e esculturas tradicionais' },
+      { en: 'Ocean and reef themes', sv: 'Hav- och revmotiv', de: 'Ozean- und Riff-Themen', fr: 'Thèmes d\'océan et de récif', es: 'Temas de océano y arrecife', it: 'Temi di oceano e barriera corallina', pl: 'Motywy oceanu i rafy', nl: 'Oceaan en rif thema\'s', pt: 'Temas de oceano e recife' },
     ],
     conversationStarters: [
-      'Have you ever seen an active volcano?',
-      'What do you know about traditional land diving?',
-      'Would you visit a remote Pacific island?',
+      { en: 'Have you ever seen an active volcano?', sv: 'Har du någonsin sett en aktiv vulkan?', de: 'Haben Sie jemals einen aktiven Vulkan gesehen?', fr: 'Avez-vous déjà vu un volcan actif ?', es: '¿Alguna vez has visto un volcán activo?', it: 'Hai mai visto un vulcano attivo?', pl: 'Czy kiedykolwiek widziałeś aktywny wulkan?', nl: 'Heb je ooit een actieve vulkaan gezien?', pt: 'Já alguma vez viste um vulcão ativo?' },
+      { en: 'What do you know about traditional land diving?', sv: 'Vad vet du om traditionell landdykning?', de: 'Was wissen Sie über traditionelles Landdiving?', fr: 'Que savez-vous sur le plongeon traditionnel depuis la terre ?', es: '¿Qué sabes sobre el buceo de tierra tradicional?', it: 'Cosa sai del tradizionale tuffo dalla terra?', pl: 'Co wiesz o tradycyjnym nurkowaniu z lądu?', nl: 'Wat weet je over traditioneel landdivingduiken?', pt: 'O que sabes sobre o mergulho de terra tradicional?' },
+      { en: 'Would you visit a remote Pacific island?', sv: 'Skulle du besöka en avlägsen Stillahavö?', de: 'Würden Sie eine abgelegene Pazifikinsel besuchen?', fr: 'Visiteriez-vous une île reculée du Pacifique ?', es: '¿Visitarías una isla remota del Pacífico?', it: 'Visiteresti un\'isola remota del Pacifico?', pl: 'Czy odwiedziłbyś odległą wyspę na Pacyfiku?', nl: 'Zou je een afgelegen Pacifisch eiland bezoeken?', pt: 'Visitaria uma ilha remota do Pacífico?' },
     ],
     quiz: [
       {

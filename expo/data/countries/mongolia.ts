@@ -206,7 +206,17 @@ export const mongolia: Country = {
         pt: 'The Gobi Desert spans southern Mongolia',
       },
     ],
-    foodCulture: 'Mongolian cuisine centers on meat and dairy with limited vegetables due to the harsh climate.',
+    foodCulture: {
+      en: 'Mongolian cuisine centers on meat and dairy with limited vegetables due to the harsh climate.',
+      sv: 'Mongolisk mat kretsar kring kött och mejeriprodukter med begränsade grönsaker på grund av det hårda klimatet.',
+      de: 'Die mongolische Küche dreht sich um Fleisch und Milchprodukte mit wenig Gemüse aufgrund des rauen Klimas.',
+      fr: 'La cuisine mongole est centrée sur la viande et les produits laitiers avec peu de légumes en raison du climat difficile.',
+      es: 'La cocina mongola se centra en la carne y los lácteos con pocas verduras debido al duro clima.',
+      it: 'La cucina mongola si concentra su carne e latticini con verdure limitate a causa del clima rigido.',
+      pl: 'Kuchnia mongolska skupia się na mięsie i nabiale z ograniczoną ilością warzyw ze względu na surowy klimat.',
+      nl: 'De Mongoolse keuken draait om vlees en zuivel met weinig groenten vanwege het harde klimaat.',
+      pt: 'A cozinha mongol centra-se na carne e nos laticínios com poucos vegetais devido ao clima severo.',
+    },
     history: [
       {
         year: '1206',
@@ -1053,20 +1063,20 @@ export const mongolia: Country = {
       nonAlcoholic: 'Suutei tsai (milk tea), Kumis',
     },
     music: [
-      'Throat singing (Khoomei)',
-      'Morin khuur (horsehead fiddle)',
-      'Traditional long songs',
+      { en: 'Throat singing (Khoomei)', sv: 'Strupesång (Khoomei)', de: 'Kehlkopfgesang (Khoomei)', fr: 'Chant diphonique (Khoomei)', es: 'Canto de garganta (Khoomei)', it: 'Canto di gola (Khoomei)', pl: 'Śpiew gardłowy (Khoomei)', nl: 'Keelzang (Khoomei)', pt: 'Canto de garganta (Khoomei)' },
+      { en: 'Morin khuur (horsehead fiddle)', sv: 'Morin khuur (hästhuvudfiol)', de: 'Morin-Khuur (Pferdekopfgeige)', fr: 'Morin khuur (vièle à tête de cheval)', es: 'Morin khuur (fiddle de cabeza de caballo)', it: 'Morin khuur (violino con testa di cavallo)', pl: 'Morin khuur (skrzypce z końską głową)', nl: 'Morin khuur (paardenhoofd viool)', pt: 'Morin khuur (rabeca com cabeça de cavalo)' },
+      { en: 'Traditional long songs', sv: 'Traditionella långa sånger', de: 'Traditionelle lange Lieder', fr: 'Chansons longues traditionnelles', es: 'Canciones largas tradicionales', it: 'Canzoni lunghe tradizionali', pl: 'Tradycyjne długie pieśni', nl: 'Traditionele lange liederen', pt: 'Canções longas tradicionais' },
     ],
     decorationIdeas: [
-      'Blue, red and yellow flag colors',
-      'Traditional gers (yurts)',
-      'Steppe landscapes',
-      'Horse imagery',
+      { en: 'Blue, red and yellow flag colors', sv: 'Blå, röda och gula flaggfärger', de: 'Blau, Rot und Gelb der Flaggenfarben', fr: 'Couleurs du drapeau : bleu, rouge et jaune', es: 'Colores de la bandera: azul, rojo y amarillo', it: 'Colori della bandiera: blu, rosso e giallo', pl: 'Niebieskie, czerwone i żółte barwy flagi', nl: 'Blauw, rood en geel van de vlagkleuren', pt: 'Cores da bandeira: azul, vermelho e amarelo' },
+      { en: 'Traditional gers (yurts)', sv: 'Traditionella gers (jurter)', de: 'Traditionelle Gers (Jurten)', fr: 'Gers traditionnels (yourtes)', es: 'Gers tradicionales (yurtas)', it: 'Ger tradizionali (yurte)', pl: 'Tradycyjne gery (jurty)', nl: 'Traditionele gers (yurten)', pt: 'Gers tradicionais (yurtes)' },
+      { en: 'Steppe landscapes', sv: 'Stäpplandskap', de: 'Steppenlandschaften', fr: 'Paysages de steppe', es: 'Paisajes de estepa', it: 'Paesaggi delle steppe', pl: 'Krajobrazy stepowe', nl: 'Steppelandschappen', pt: 'Paisagens de estepe' },
+      { en: 'Horse imagery', sv: 'Hästbilder', de: 'Pferde-Motive', fr: 'Images de chevaux', es: 'Imágenes de caballos', it: 'Immagini di cavalli', pl: 'Obrazy koni', nl: 'Paard afbeeldingen', pt: 'Imagens de cavalos' },
     ],
     conversationStarters: [
-      'Have you heard Mongolian throat singing?',
-      'What do you know about nomadic life?',
-      'Do you enjoy horseback riding?',
+      { en: 'Have you heard Mongolian throat singing?', sv: 'Har du hört mongolisk strupesång?', de: 'Hast du mongolischen Kehlkopfgesang gehört?', fr: 'Avez-vous entendu le chant diphonique mongol ?', es: '¿Has escuchado el canto de garganta mongol?', it: 'Hai sentito il canto di gola mongolo?', pl: 'Czy słyszałeś mongolski śpiew gardłowy?', nl: 'Heb je Mongoolse keelzang gehoord?', pt: 'Você já ouviu o canto de garganta mongol?' },
+      { en: 'What do you know about nomadic life?', sv: 'Vad vet du om nomadliv?', de: 'Was weißt du über das Nomadenleben?', fr: 'Que savez-vous de la vie nomade ?', es: '¿Qué sabes sobre la vida nómada?', it: 'Cosa sai della vita nomade?', pl: 'Co wiesz o życiu koczowniczym?', nl: 'Wat weet je over het nomadenbestaan?', pt: 'O que você sabe sobre a vida nômade?' },
+      { en: 'Do you enjoy horseback riding?', sv: 'Tycker du om ridning?', de: 'Magst du Reiten?', fr: 'Aimez-vous l\'équitation ?', es: '¿Disfrutas de la equitación?', it: 'Ti piace l\'equitazione?', pl: 'Czy lubisz jazdę konną?', nl: 'Geniet je van paardrijden?', pt: 'Você aprecia equitação?' },
     ],
     quiz: [
       {

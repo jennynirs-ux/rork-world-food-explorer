@@ -228,7 +228,17 @@ export const tonga: Country = {
         pt: 'Sunday is widely observed as a day of rest and worship',
       },
     ],
-    foodCulture: 'Tongan cuisine centers on root vegetables, coconut, seafood, and meats cooked in traditional earth ovens (umu). Meals are often communal and prepared for extended family gatherings and celebrations.',
+    foodCulture: {
+      en: 'Tongan cuisine centers on root vegetables, coconut, seafood, and meats cooked in traditional earth ovens (umu). Meals are often communal and prepared for extended family gatherings and celebrations.',
+      sv: 'Det tonganska köket kretsar kring rotfrukter, kokosnöt, skaldjur och kötträtter tillagade i traditionella jordugnar (umu). Måltider är ofta gemensamma och lagas för utökade familjesammankomster och firanden.',
+      de: 'Die tongaische Küche dreht sich um Wurzelgemüse, Kokosnuss, Meeresfrüchte und Fleisch, das in traditionellen Erdöfen (Umu) gegart wird. Mahlzeiten sind oft gemeinschaftlich und werden für Familientreffen und Feiern zubereitet.',
+      fr: 'La cuisine tongienne est centrée sur les légumes racines, la noix de coco, les fruits de mer et les viandes cuites dans des fours traditionnels en terre (umu). Les repas sont souvent communautaires et préparés pour les rassemblements familiaux et les célébrations.',
+      es: 'La cocina tongana se centra en verduras de raíz, coco, mariscos y carnes cocinadas en hornos de tierra tradicionales (umu). Las comidas suelen ser comunales y se preparan para reuniones familiares ampliadas y celebraciones.',
+      it: 'La cucina tongana si concentra su verdure a radice, cocco, frutti di mare e carni cotte in forni tradizionali sotterranei (umu). I pasti sono spesso comunitari e preparati per riunioni familiari allargate e celebrazioni.',
+      pl: 'Kuchnia tongańska opiera się na warzywach korzeniowych, kokosie, owocach morza i mięsach gotowanych w tradycyjnych ziemnych piecach (umu). Posiłki są często wspólne i przygotowywane na rozszerzone spotkania rodzinne i uroczystości.',
+      nl: 'De Tongaanse keuken draait om wortelgroenten, kokosnoot, zeevruchten en vlees bereid in traditionele aardovens (umu). Maaltijden zijn vaak gemeenschappelijk en worden bereid voor uitgebreide familiebijeenkomsten en vieringen.',
+      pt: 'A culinária tongana centra-se em vegetais de raiz, coco, frutos do mar e carnes cozidas em fornos de terra tradicionais (umu). As refeições são frequentemente comunitárias e preparadas para reuniões familiares alargadas e celebrações.',
+    },
     history: [
       {
         year: 'c. 950 AD',
@@ -904,20 +914,20 @@ export const tonga: Country = {
       nonAlcoholic: 'Coconut water, fresh tropical juices',
     },
     music: [
-      'Traditional log drum (nafa) performances',
-      'Tongan choral singing',
-      'Polynesian ceremonial music',
+      { en: 'Traditional log drum (nafa) performances', sv: 'Traditionella trumuppträdanden med stocktrumma (nafa)', de: 'Traditionelle Holztrommel (Nafa)-Aufführungen', fr: 'Performances traditionnelles de tambour en bois (nafa)', es: 'Actuaciones tradicionales de tambor de tronco (nafa)', it: 'Esibizioni tradizionali di tamburo di legno (nafa)', pl: 'Tradycyjne występy z bębnem pniowym (nafa)', nl: 'Traditionele houten trom (nafa) optredens', pt: 'Apresentações tradicionais de tambor de tronco (nafa)' },
+      { en: 'Tongan choral singing', sv: 'Tongansk korsång', de: 'Tongaischer Chorgesang', fr: 'Chant choral tongien', es: 'Canto coral tongano', it: 'Canto corale tongano', pl: 'Tongański śpiew chóralny', nl: 'Tongaans koorgeluid', pt: 'Canto coral tongano' },
+      { en: 'Polynesian ceremonial music', sv: 'Polynesisk ceremonimusik', de: 'Polynesische Zeremonialmusik', fr: 'Musique cérémonielle polynésienne', es: 'Música ceremonial polinesiana', it: 'Musica cerimoniale polinesiana', pl: 'Polinezyjska muzyka ceremonialna', nl: 'Polynesische ceremoniële muziek', pt: 'Música cerimonial polinésia' },
     ],
     decorationIdeas: [
-      'Red and white national colors',
-      'Royal and crown motifs',
-      'Tropical flowers and palm leaves',
-      'Ocean and whale symbolism',
+      { en: 'Red and white national colors', sv: 'Röda och vita nationalfärger', de: 'Rot-weiße Nationalfarben', fr: 'Couleurs nationales rouge et blanc', es: 'Colores nacionales rojo y blanco', it: 'Colori nazionali rosso e bianco', pl: 'Czerwono-białe barwy narodowe', nl: 'Rode en witte nationale kleuren', pt: 'Cores nacionais vermelho e branco' },
+      { en: 'Royal and crown motifs', sv: 'Kungliga motiv och kronmotiv', de: 'Königliche und Kronen-Motive', fr: 'Motifs royaux et couronnes', es: 'Motivos reales y de corona', it: 'Motivi reali e corone', pl: 'Motywy królewskie i koronowe', nl: 'Koninklijke en kroonmotieven', pt: 'Motivos reais e de coroa' },
+      { en: 'Tropical flowers and palm leaves', sv: 'Tropiska blommor och palmblad', de: 'Tropische Blumen und Palmblätter', fr: 'Fleurs tropicales et feuilles de palmier', es: 'Flores tropicales y hojas de palma', it: 'Fiori tropicali e foglie di palma', pl: 'Tropikalne kwiaty i liście palmowe', nl: 'Tropische bloemen en palmbladeren', pt: 'Flores tropicais e folhas de palmeira' },
+      { en: 'Ocean and whale symbolism', sv: 'Hav- och valsymbolik', de: 'Ozean- und Walsymbolik', fr: 'Symbolisme de l\'océan et des baleines', es: 'Simbolismo del océano y las ballenas', it: 'Simbolismo dell\'oceano e delle balene', pl: 'Symbolika oceanu i wielorybów', nl: 'Oceaan- en walvissymboliek', pt: 'Simbolismo do oceano e das baleias' },
     ],
     conversationStarters: [
-      'Have you ever swum with whales?',
-      'What do you know about Polynesian navigation?',
-      'Would you visit a country that shuts down on Sundays?',
+      { en: 'Have you ever swum with whales?', sv: 'Har du någonsin simmat med valar?', de: 'Sind Sie jemals mit Walen geschwommen?', fr: 'Avez-vous déjà nagé avec des baleines ?', es: '¿Alguna vez has nadado con ballenas?', it: 'Hai mai nuotato con le balene?', pl: 'Czy kiedykolwiek pływałeś z wielorybami?', nl: 'Heb je ooit met walvissen gezwommen?', pt: 'Já nadou alguma vez com baleias?' },
+      { en: 'What do you know about Polynesian navigation?', sv: 'Vad vet du om polynesisk navigation?', de: 'Was wissen Sie über polynesische Navigation?', fr: 'Que savez-vous de la navigation polynésienne ?', es: '¿Qué sabes sobre la navegación polinesia?', it: 'Cosa sai della navigazione polinesiana?', pl: 'Co wiesz o polinezyjskiej nawigacji?', nl: 'Wat weet je over Polynesische navigatie?', pt: 'O que sabes sobre a navegação polinésia?' },
+      { en: 'Would you visit a country that shuts down on Sundays?', sv: 'Skulle du besöka ett land som stänger ner på söndagar?', de: 'Würden Sie ein Land besuchen, das sonntags schließt?', fr: 'Visiteriez-vous un pays qui ferme le dimanche ?', es: '¿Visitarías un país que cierra los domingos?', it: 'Visiteresti un paese che chiude di domenica?', pl: 'Czy odwiedziłbyś kraj, który zamyka się w niedziele?', nl: 'Zou je een land bezoeken dat op zondag sluit?', pt: 'Visitaria um país que fecha aos domingos?' },
     ],
     quiz: [
       {

@@ -250,7 +250,17 @@ export const cyprus: Country = {
         pt: 'Commandaria is one of the oldest named wines in the world',
       },
     ],
-    foodCulture: 'Cypriot cuisine is a delicious blend of Greek, Turkish, and Middle Eastern influences. Meze culture is central, with tables filled with dozens of small dishes. Fresh ingredients, olive oil, and grilled meats are staples.',
+    foodCulture: {
+      en: 'Cypriot cuisine is a delicious blend of Greek, Turkish, and Middle Eastern influences. Meze culture is central, with tables filled with dozens of small dishes. Fresh ingredients, olive oil, and grilled meats are staples.',
+      sv: 'Cypriotisk mat är en läcker blandning av grekiska, turkiska och mellanösterninfluenser. Mezekultur är central, med bord fyllda med dussintals små rätter. Färska ingredienser, olivolja och grillat kött är stapelvaror.',
+      de: 'Die zypriotische Küche ist eine köstliche Mischung aus griechischen, türkischen und nahöstlichen Einflüssen. Die Meze-Kultur ist zentral, mit Tischen voller Dutzender kleiner Gerichte. Frische Zutaten, Olivenöl und gegrilltes Fleisch sind Grundnahrungsmittel.',
+      fr: 'La cuisine chypriote est un délicieux mélange d\'influences grecques, turques et du Moyen-Orient. La culture meze est centrale, avec des tables remplies de dizaines de petits plats. Les ingrédients frais, l\'huile d\'olive et les viandes grillées sont des aliments de base.',
+      es: 'La cocina chipriota es una deliciosa mezcla de influencias griega, turca y del Medio Oriente. La cultura del meze es central, con mesas llenas de docenas de pequeños platos. Los ingredientes frescos, el aceite de oliva y las carnes a la parrilla son básicos.',
+      it: 'La cucina cipriota è una deliziosa miscela di influenze greche, turche e mediorientali. La cultura del meze è centrale, con tavoli pieni di dozzine di piccoli piatti. Ingredienti freschi, olio d\'oliva e carni alla griglia sono alimenti di base.',
+      pl: 'Kuchnia cypryjska to pyszna mieszanka wpływów greckich, tureckich i bliskowschodnich. Kultura meze jest centralna, ze stołami pełnymi dziesiątek małych dań. Świeże składniki, oliwa z oliwek i grillowane mięsa są podstawowymi produktami.',
+      nl: 'De Cypriotische keuken is een heerlijke mix van Griekse, Turkse en Midden-Oosterse invloeden. Meze-cultuur is centraal, met tafels vol dozijnen kleine gerechten. Verse ingrediënten, olijfolie en gegrild vlees zijn basisvoedsel.',
+      pt: 'A culinária cipriota é uma deliciosa mistura de influências gregas, turcas e do Oriente Médio. A cultura do meze é central, com mesas repletas de dezenas de pequenos pratos. Ingredientes frescos, azeite e carnes grelhadas são alimentos básicos.',
+    },
     innovations: [
       {
         name: {
@@ -1003,24 +1013,24 @@ export const cyprus: Country = {
       nonAlcoholic: 'Cypriot coffee, Fresh orange juice, Iced frappe',
     },
     music: [
-      'Traditional Cypriot folk music',
-      'Bouzouki music',
-      'Modern Greek pop',
-      'Turkish Cypriot folk',
+      { en: 'Traditional Cypriot folk music', sv: 'Traditionell cypriotisk folkmusik', de: 'Traditionelle zypriotische Volksmusik', fr: 'Musique folklorique chypriote traditionnelle', es: 'Música folclórica chipriota tradicional', it: 'Musica folk cipriota tradizionale', pl: 'Tradycyjna cypryjska muzyka ludowa', nl: 'Traditionele Cypriotische volksmuziek', pt: 'Música folclórica cipriota tradicional' },
+      { en: 'Bouzouki music', sv: 'Buzukimusik', de: 'Bouzouki-Musik', fr: 'Musique de bouzouki', es: 'Música de bouzouki', it: 'Musica del bouzouki', pl: 'Muzyka buzuki', nl: 'Bouzouki-muziek', pt: 'Música de bouzouki' },
+      { en: 'Modern Greek pop', sv: 'Modern grekisk pop', de: 'Moderner griechischer Pop', fr: 'Pop grec moderne', es: 'Pop griego moderno', it: 'Pop greco moderno', pl: 'Nowoczesny grecki pop', nl: 'Moderne Griekse pop', pt: 'Pop grego moderno' },
+      { en: 'Turkish Cypriot folk', sv: 'Turkcypriotisk folkmusik', de: 'Türkisch-zypriotische Volksmusik', fr: 'Folklore chypriote turc', es: 'Folk chipriota turco', it: 'Folk cipriota turco', pl: 'Turecko-cypryjska muzyka ludowa', nl: 'Turks-Cypriotische volksmuziek', pt: 'Folk cipriota turco' },
     ],
     decorationIdeas: [
-      'Blue and white Mediterranean colors',
-      'Copper decorations (Cyprus named after copper)',
-      'Olive branches and leaves',
-      'Lace tablecloths',
-      'Ceramic pottery with traditional patterns',
-      'Bougainvillea flowers',
+      { en: 'Blue and white Mediterranean colors', sv: 'Blå och vita medelhavsfarger', de: 'Blaue und weiße Mittelmeerfarben', fr: 'Couleurs méditerranéennes bleu et blanc', es: 'Colores mediterráneos azul y blanco', it: 'Colori mediterranei blu e bianco', pl: 'Niebieskie i białe kolory śródziemnomorskie', nl: 'Blauw en witte Mediterrane kleuren', pt: 'Cores mediterrâneas azul e branco' },
+      { en: 'Copper decorations (Cyprus named after copper)', sv: 'Koppardekorationer (Cypern uppkallat efter koppar)', de: 'Kupferdekorationen (Zypern nach Kupfer benannt)', fr: 'Décorations en cuivre (Chypre nommée d\'après le cuivre)', es: 'Decoraciones de cobre (Chipre nombrada por el cobre)', it: 'Decorazioni in rame (Cipro prende il nome dal rame)', pl: 'Miedziane dekoracje (Cypr nazwany od miedzi)', nl: 'Koperen decoraties (Cyprus vernoemd naar koper)', pt: 'Decorações de cobre (Chipre nomeado pelo cobre)' },
+      { en: 'Olive branches and leaves', sv: 'Olivkvistar och blad', de: 'Olivenzweige und -blätter', fr: 'Branches et feuilles d\'olivier', es: 'Ramas y hojas de olivo', it: 'Rami e foglie d\'ulivo', pl: 'Gałęzie i liście oliwne', nl: 'Olijftakken en -bladeren', pt: 'Ramos e folhas de oliveira' },
+      { en: 'Lace tablecloths', sv: 'Spetsdukdukar', de: 'Spitzentischtücher', fr: 'Nappes en dentelle', es: 'Manteles de encaje', it: 'Tovaglie di pizzo', pl: 'Koronkowe obrusy', nl: 'Kanten tafelkleden', pt: 'Toalhas de mesa de renda' },
+      { en: 'Ceramic pottery with traditional patterns', sv: 'Keramik med traditionella mönster', de: 'Keramikgeschirr mit traditionellen Mustern', fr: 'Poterie en céramique avec des motifs traditionnels', es: 'Cerámica con patrones tradicionales', it: 'Ceramica con motivi tradizionali', pl: 'Ceramika z tradycyjnymi wzorami', nl: 'Keramiek met traditionele patronen', pt: 'Cerâmica com padrões tradicionais' },
+      { en: 'Bougainvillea flowers', sv: 'Bougainvilleablommor', de: 'Bougainvillea-Blüten', fr: 'Fleurs de bougainvillée', es: 'Flores de buganvilla', it: 'Fiori di bouganvillea', pl: 'Kwiaty bugenwilli', nl: 'Bougainvillea bloemen', pt: 'Flores de buganvília' },
     ],
     conversationStarters: [
-      'Have you visited Petra tou Romiou, Aphrodite\'s birthplace?',
-      'Halloumi cheese from Cyprus is amazing - do you like it?',
-      'The divided capital Nicosia is such a unique situation.',
-      'Would you try meze? It\'s like a feast of small dishes!',
+      { en: 'Have you visited Petra tou Romiou, Aphrodite\'s birthplace?', sv: 'Har du besökt Petra tou Romiou, Afrodites födelseort?', de: 'Haben Sie Petra tou Romiou, Aphrodites Geburtsort, besucht?', fr: 'Avez-vous visité Petra tou Romiou, le lieu de naissance d\'Aphrodite ?', es: '¿Has visitado Petra tou Romiou, el lugar de nacimiento de Afrodita?', it: 'Hai visitato Petra tou Romiou, il luogo di nascita di Afrodite?', pl: 'Czy odwiedziłeś Petra tou Romiou, miejsce narodzin Afrodyty?', nl: 'Heb je Petra tou Romiou bezocht, de geboorteplaats van Aphrodite?', pt: 'Você já visitou Petra tou Romiou, o local de nascimento de Afrodite?' },
+      { en: 'Halloumi cheese from Cyprus is amazing - do you like it?', sv: 'Halloumi-ost från Cypern är fantastisk - gillar du den?', de: 'Halloumi-Käse aus Zypern ist großartig - mögen Sie ihn?', fr: 'Le fromage halloumi de Chypre est incroyable - l\'aimez-vous ?', es: 'El queso halloumi de Chipre es increíble, ¿te gusta?', it: 'Il formaggio halloumi di Cipro è incredibile - ti piace?', pl: 'Ser halloumi z Cypru jest niesamowity - lubisz go?', nl: 'Halloumi kaas uit Cyprus is geweldig - vind je het lekker?', pt: 'O queijo halloumi do Chipre é incrível - você gosta?' },
+      { en: 'The divided capital Nicosia is such a unique situation.', sv: 'Den delade huvudstaden Nicosia är en så unik situation.', de: 'Die geteilte Hauptstadt Nikosia ist eine so einzigartige Situation.', fr: 'La capitale divisée Nicosie est une situation tellement unique.', es: 'La capital dividida Nicosia es una situación tan única.', it: 'La capitale divisa Nicosia è una situazione così unica.', pl: 'Podzielona stolica Nikozja to tak wyjątkowa sytuacja.', nl: 'De verdeelde hoofdstad Nicosia is zo\'n unieke situatie.', pt: 'A capital dividida Nicósia é uma situação tão única.' },
+      { en: 'Would you try meze? It\'s like a feast of small dishes!', sv: 'Skulle du prova meze? Det är som ett festmåltid av små rätter!', de: 'Würden Sie Meze probieren? Es ist wie ein Fest aus kleinen Gerichten!', fr: 'Essaieriez-vous le meze ? C\'est comme un festin de petits plats !', es: '¿Probarías el meze? ¡Es como un festín de pequeños platos!', it: 'Proveresti il meze? È come un banchetto di piccoli piatti!', pl: 'Czy spróbowałbyś meze? To jak uczta złożona z małych dań!', nl: 'Zou je meze proberen? Het is als een feestmaal van kleine gerechten!', pt: 'Você tentaria o meze? É como uma festa de pequenos pratos!' },
     ],
     quiz: [
       {

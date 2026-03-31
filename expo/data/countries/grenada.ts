@@ -206,7 +206,17 @@ export const grenada: Country = {
         pt: 'Known for its aromatic spices',
       },
     ],
-    foodCulture: 'Grenadian cuisine features fresh seafood, ground provisions, and abundant use of local spices.',
+    foodCulture: {
+      en: 'Grenadian cuisine features fresh seafood, ground provisions, and abundant use of local spices.',
+      sv: 'Grenadisk mat innehåller färska skaldjur, rotfrukter och riklig användning av lokala kryddor.',
+      de: 'Die grenadische Küche zeichnet sich durch frische Meeresfrüchte, Bodenprodukte und reichliche Verwendung lokaler Gewürze aus.',
+      fr: 'La cuisine grenadine propose des fruits de mer frais, des provisions de terre et une utilisation abondante d\'épices locales.',
+      es: 'La cocina granadina presenta mariscos frescos, provisiones de tierra y uso abundante de especias locales.',
+      it: 'La cucina grenadina presenta frutti di mare freschi, provviste di terra e abbondante uso di spezie locali.',
+      pl: 'Kuchnia grenadyjska oferuje świeże owoce morza, ziemne produkty spożywcze i obfite użycie lokalnych przypraw.',
+      nl: 'De Grenadiaanse keuken kenmerkt zich door verse zeevruchten, aardproviant en ruim gebruik van lokale kruiden.',
+      pt: 'A culinária grenadina apresenta frutos do mar frescos, provisões da terra e uso abundante de especiarias locais.',
+    },
     history: [
       {
         year: '1498',
@@ -913,21 +923,21 @@ export const grenada: Country = {
       nonAlcoholic: 'Sorrel, Mauby, Nutmeg juice',
     },
     music: [
-      'Calypso',
-      'Soca',
-      'Reggae',
-      'Steelpan music',
+      { en: 'Calypso', sv: 'Calypso', de: 'Calypso', fr: 'Calypso', es: 'Calipso', it: 'Calypso', pl: 'Calypso', nl: 'Calypso', pt: 'Calipso' },
+      { en: 'Soca', sv: 'Soca', de: 'Soca', fr: 'Soca', es: 'Soca', it: 'Soca', pl: 'Soca', nl: 'Soca', pt: 'Soca' },
+      { en: 'Reggae', sv: 'Reggae', de: 'Reggae', fr: 'Reggae', es: 'Reggae', it: 'Reggae', pl: 'Reggae', nl: 'Reggae', pt: 'Reggae' },
+      { en: 'Steelpan music', sv: 'Steelpan-musik', de: 'Steelpan-Musik', fr: 'Musique de steel-pan', es: 'Música de steelpan', it: 'Musica di steelpan', pl: 'Muzyka steelpan', nl: 'Steelpan-muziek', pt: 'Música de steelpan' },
     ],
     decorationIdeas: [
-      'Red, yellow and green flag colors',
-      'Nutmeg and spice imagery',
-      'Tropical beach themes',
-      'Underwater sculpture elements',
+      { en: 'Red, yellow and green flag colors', sv: 'Röda, gula och gröna flaggfärger', de: 'Rot, Gelb und Grün (Flaggenfarben)', fr: 'Couleurs du drapeau rouge, jaune et vert', es: 'Colores de la bandera rojo, amarillo y verde', it: 'Colori della bandiera rosso, giallo e verde', pl: 'Czerwone, żółte i zielone kolory flagi', nl: 'Rood, geel en groen (vlagkleuren)', pt: 'Cores da bandeira vermelho, amarelo e verde' },
+      { en: 'Nutmeg and spice imagery', sv: 'Muskotblomma och kryddbilder', de: 'Muskatnuss und Gewürzmotive', fr: 'Imagerie de noix de muscade et d\'épices', es: 'Imágenes de nuez moscada y especias', it: 'Immagini di noce moscata e spezie', pl: 'Obrazy gałki muszkatołowej i przypraw', nl: 'Nootmuskaat en kruidenafbeeldingen', pt: 'Imagens de noz-moscada e especiarias' },
+      { en: 'Tropical beach themes', sv: 'Tropiska strandteman', de: 'Tropische Strandthemen', fr: 'Thèmes de plage tropicale', es: 'Temas de playa tropical', it: 'Temi da spiaggia tropicale', pl: 'Motywy tropikalnej plaży', nl: 'Tropisch strand thema\'s', pt: 'Temas de praia tropical' },
+      { en: 'Underwater sculpture elements', sv: 'Undervattenskulpturelement', de: 'Unterwasser-Skulptur-Elemente', fr: 'Éléments de sculptures sous-marines', es: 'Elementos de esculturas submarinas', it: 'Elementi di sculture subacquee', pl: 'Elementy rzeźb podwodnych', nl: 'Onderwater sculptuur elementen', pt: 'Elementos de esculturas subaquáticas' },
     ],
     conversationStarters: [
-      'Have you seen underwater sculptures?',
-      'Do you cook with fresh nutmeg?',
-      'What\'s your favorite Caribbean island?',
+      { en: 'Have you seen underwater sculptures?', sv: 'Har du sett undervattenskulpturer?', de: 'Hast du Unterwasserskulpturen gesehen?', fr: 'Avez-vous vu des sculptures sous-marines ?', es: '¿Has visto esculturas submarinas?', it: 'Hai visto sculture subacquee?', pl: 'Czy widziałeś rzeźby podwodne?', nl: 'Heb je onderwater sculpturen gezien?', pt: 'Você já viu esculturas subaquáticas?' },
+      { en: 'Do you cook with fresh nutmeg?', sv: 'Lagar du mat med färsk muskotnöt?', de: 'Kochst du mit frischer Muskatnuss?', fr: 'Cuisinez-vous avec de la noix de muscade fraîche ?', es: '¿Cocinas con nuez moscada fresca?', it: 'Cucini con noce moscata fresca?', pl: 'Czy gotujesz ze świeżą gałką muszkatołową?', nl: 'Kook jij met verse nootmuskaat?', pt: 'Você cozinha com noz-moscada fresca?' },
+      { en: 'What\'s your favorite Caribbean island?', sv: 'Vilken är din favoritö i Karibien?', de: 'Was ist deine Lieblingskaribik-Insel?', fr: 'Quelle est votre île des Caraïbes préférée ?', es: '¿Cuál es tu isla caribeña favorita?', it: 'Qual è la tua isola caraibica preferita?', pl: 'Która wyspa karaibska jest twoją ulubioną?', nl: 'Wat is jouw favoriete Caribische eiland?', pt: 'Qual é a sua ilha caribenha favorita?' },
     ],
     quiz: [
       {

@@ -206,7 +206,17 @@ export const kuwait: Country = {
         pt: 'Historical pearl diving center',
       },
     ],
-    foodCulture: 'Kuwaiti cuisine blends Arab, Persian, Indian, and Mediterranean influences with rice, meat, and seafood.',
+    foodCulture: {
+      en: 'Kuwaiti cuisine blends Arab, Persian, Indian, and Mediterranean influences with rice, meat, and seafood.',
+      sv: 'Det kuwaitiska köket blandar arabiska, persiska, indiska och mediterrana influenser med ris, kött och skaldjur.',
+      de: 'Die kuwaitische Küche verbindet arabische, persische, indische und mediterrane Einflüsse mit Reis, Fleisch und Meeresfrüchten.',
+      fr: 'La cuisine koweïtienne mêle des influences arabes, persanes, indiennes et méditerranéennes avec du riz, de la viande et des fruits de mer.',
+      es: 'La cocina kuwaití combina influencias árabes, persas, indias y mediterráneas con arroz, carne y mariscos.',
+      it: 'La cucina kuwaitiana combina influenze arabe, persiane, indiane e mediterranee con riso, carne e frutti di mare.',
+      pl: 'Kuchnia kuwejcka łączy wpływy arabskie, perskie, indyjskie i śródziemnomorskie z ryżem, mięsem i owocami morza.',
+      nl: 'De Koeweitse keuken combineert Arabische, Perzische, Indiase en Mediterrane invloeden met rijst, vlees en zeevruchten.',
+      pt: 'A culinária kuwaitiana combina influências árabes, persas, indianas e mediterrâneas com arroz, carne e frutos do mar.',
+    },
     history: [
       {
         year: '1613',
@@ -1003,19 +1013,19 @@ export const kuwait: Country = {
       nonAlcoholic: 'Arabic coffee, Laban (buttermilk), Fresh juice',
     },
     music: [
-      'Traditional Sawt music',
-      'Arabic pop',
-      'Pearl diving songs',
+      { en: 'Traditional Sawt music', sv: 'Traditionell Sawt-musik', de: 'Traditionelle Sawt-Musik', fr: 'Musique Sawt traditionnelle', es: 'Música Sawt tradicional', it: 'Musica Sawt tradizionale', pl: 'Tradycyjna muzyka Sawt', nl: 'Traditionele Sawt-muziek', pt: 'Música Sawt tradicional' },
+      { en: 'Arabic pop', sv: 'Arabisk pop', de: 'Arabischer Pop', fr: 'Pop arabe', es: 'Pop árabe', it: 'Pop arabo', pl: 'Arabski pop', nl: 'Arabische pop', pt: 'Pop árabe' },
+      { en: 'Pearl diving songs', sv: 'Pärlodykarsånger', de: 'Perlentaucherlieder', fr: 'Chansons de plongée aux perles', es: 'Canciones de buceo de perlas', it: 'Canzoni della pesca delle perle', pl: 'Pieśni nurkowania po perły', nl: 'Parelduikerliederen', pt: 'Canções de mergulho de pérolas' },
     ],
     decorationIdeas: [
-      'Green, white, red and black flag colors',
-      'Kuwait Towers imagery',
-      'Desert and sea themes',
-      'Modern architecture',
+      { en: 'Green, white, red and black flag colors', sv: 'Gröna, vita, röda och svarta flaggfärger', de: 'Grüne, weiße, rote und schwarze Flaggenfarben', fr: 'Couleurs du drapeau vert, blanc, rouge et noir', es: 'Colores de la bandera verde, blanco, rojo y negro', it: 'Colori della bandiera verde, bianco, rosso e nero', pl: 'Zielone, białe, czerwone i czarne kolory flagi', nl: 'Groene, witte, rode en zwarte vlagkleuren', pt: 'Cores da bandeira verde, branco, vermelho e preto' },
+      { en: 'Kuwait Towers imagery', sv: 'Kuwaitiska tornsbilder', de: 'Kuwait-Türme-Motive', fr: 'Images des Tours du Koweït', es: 'Imágenes de las Torres de Kuwait', it: 'Immagini delle Torri del Kuwait', pl: 'Motywy Wież Kuwejtu', nl: 'Kuwait Towers beelden', pt: 'Imagens das Torres do Kuwait' },
+      { en: 'Desert and sea themes', sv: 'Öken- och havsteman', de: 'Wüsten- und Meeres-Themen', fr: 'Thèmes désert et mer', es: 'Temas de desierto y mar', it: 'Temi deserto e mare', pl: 'Motywy pustyni i morza', nl: 'Woestijn en zee thema\'s', pt: 'Temas de deserto e mar' },
+      { en: 'Modern architecture', sv: 'Modern arkitektur', de: 'Moderne Architektur', fr: 'Architecture moderne', es: 'Arquitectura moderna', it: 'Architettura moderna', pl: 'Nowoczesna architektura', nl: 'Moderne architectuur', pt: 'Arquitetura moderna' },
     ],
     conversationStarters: [
-      'What do you know about Gulf culture?',
-      'Have you tried Middle Eastern spices?',
+      { en: 'What do you know about Gulf culture?', sv: 'Vad vet du om gulfkulturen?', de: 'Was weißt du über die Golfkultur?', fr: 'Que savez-vous de la culture du Golfe?', es: '¿Qué sabes sobre la cultura del Golfo?', it: 'Cosa sai della cultura del Golfo?', pl: 'Co wiesz o kulturze Zatoki Perskiej?', nl: 'Wat weet je over de Golfcultuur?', pt: 'O que você sabe sobre a cultura do Golfo?' },
+      { en: 'Have you tried Middle Eastern spices?', sv: 'Har du provat mellanösternska kryddor?', de: 'Hast du nahöstliche Gewürze probiert?', fr: 'Avez-vous essayé les épices du Moyen-Orient?', es: '¿Has probado las especias del Medio Oriente?', it: 'Hai provato le spezie mediorientali?', pl: 'Czy próbowałeś bliskowschodnich przypraw?', nl: 'Heb je Midden-Oosterse kruiden geprobeerd?', pt: 'Você já experimentou especiarias do Oriente Médio?' },
     ],
     quiz: [
       {

@@ -206,7 +206,17 @@ export const belarus: Country = {
         pt: 'The country is sometimes called the “lungs of Europe” due to its extensive forests',
       },
     ],
-    foodCulture: 'Belarusian cuisine features hearty dishes with potatoes, meat, and mushrooms. Traditional recipes have been preserved for centuries.',
+    foodCulture: {
+      en: 'Belarusian cuisine features hearty dishes with potatoes, meat, and mushrooms. Traditional recipes have been preserved for centuries.',
+      sv: 'Vitrysk mat innehåller mustiga rätter med potatis, kött och svamp. Traditionella recept har bevarats i århundraden.',
+      de: 'Die belarussische Küche bietet herzhafte Gerichte mit Kartoffeln, Fleisch und Pilzen. Traditionelle Rezepte wurden über Jahrhunderte bewahrt.',
+      fr: 'La cuisine bélarusse propose des plats copieux à base de pommes de terre, de viande et de champignons. Les recettes traditionnelles ont été préservées pendant des siècles.',
+      es: 'La cocina bielorrusa ofrece platos contundentes con patatas, carne y setas. Las recetas tradicionales se han preservado durante siglos.',
+      it: 'La cucina bielorussa propone piatti sostanziosi con patate, carne e funghi. Le ricette tradizionali sono state preservate per secoli.',
+      pl: 'Kuchnia białoruska wyróżnia się sytymi daniami z ziemniaków, mięsa i grzybów. Tradycyjne przepisy były zachowane przez wieki.',
+      nl: 'De Belarussische keuken biedt stevige gerechten met aardappelen, vlees en paddenstoelen. Traditionele recepten zijn eeuwenlang bewaard gebleven.',
+      pt: 'A culinária bielorrussa apresenta pratos farto com batatas, carne e cogumelos. Receitas tradicionais foram preservadas por séculos.',
+    },
     history: [
       {
         year: '9th-13th Century',
@@ -1191,20 +1201,20 @@ export const belarus: Country = {
       nonAlcoholic: 'Kvass, Kisel (berry drink), Black tea',
     },
     music: [
-      'Traditional folk songs',
-      'Belarusian polkas',
-      'Modern Belarusian pop',
+      { en: 'Traditional folk songs', sv: 'Traditionella folkvisor', de: 'Traditionelle Volkslieder', fr: 'Chansons folkloriques traditionnelles', es: 'Canciones folclóricas tradicionales', it: 'Canzoni popolari tradizionali', pl: 'Tradycyjne pieśni ludowe', nl: 'Traditionele volksliederen', pt: 'Canções folclóricas tradicionais' },
+      { en: 'Belarusian polkas', sv: 'Vitryska polkor', de: 'Belarussische Polkas', fr: 'Polkas bélarussiennes', es: 'Polcas bielorrusas', it: 'Polche bielorusse', pl: 'Białoruskie polki', nl: 'Belarussische polka\'s', pt: 'Polcas bielorrussas' },
+      { en: 'Modern Belarusian pop', sv: 'Modern vitrysk pop', de: 'Moderner belarussischer Pop', fr: 'Pop bélarussien moderne', es: 'Pop bielorruso moderno', it: 'Pop bielorusso moderno', pl: 'Nowoczesny białoruski pop', nl: 'Moderne Belarussische popmuziek', pt: 'Pop bielorrusso moderno' },
     ],
     decorationIdeas: [
-      'Red and green flag colors',
-      'Traditional woven patterns',
-      'Forest and nature themes',
-      'Folk art elements',
+      { en: 'Red and green flag colors', sv: 'Röda och gröna flaggfärger', de: 'Rot und Grün als Flaggenfarben', fr: 'Couleurs rouge et vert du drapeau', es: 'Colores rojo y verde de la bandera', it: 'Colori rosso e verde della bandiera', pl: 'Czerwone i zielone barwy flagi', nl: 'Rode en groene vlagkleuren', pt: 'Cores vermelha e verde da bandeira' },
+      { en: 'Traditional woven patterns', sv: 'Traditionella vävda mönster', de: 'Traditionelle gewebte Muster', fr: 'Motifs tissés traditionnels', es: 'Patrones tejidos tradicionales', it: 'Motivi tessuti tradizionali', pl: 'Tradycyjne wzory tkane', nl: 'Traditionele geweven patronen', pt: 'Padrões tecidos tradicionais' },
+      { en: 'Forest and nature themes', sv: 'Skogs- och natursteman', de: 'Wald- und Naturthemen', fr: 'Thèmes de forêt et de nature', es: 'Temas de bosque y naturaleza', it: 'Temi di foresta e natura', pl: 'Motywy leśne i przyrodnicze', nl: 'Bos en natuur thema\'s', pt: 'Temas de floresta e natureza' },
+      { en: 'Folk art elements', sv: 'Folkkonstelement', de: 'Volkskunst-Elemente', fr: 'Éléments d\'art populaire', es: 'Elementos de arte popular', it: 'Elementi di arte popolare', pl: 'Elementy sztuki ludowej', nl: 'Volkskunst elementen', pt: 'Elementos de arte folclórica' },
     ],
     conversationStarters: [
-      'Have you explored Eastern European cuisine?',
-      'What do you know about primeval forests?',
-      'Do you enjoy hearty comfort food?',
+      { en: 'Have you explored Eastern European cuisine?', sv: 'Har du utforskat östeuropeisk mat?', de: 'Haben Sie osteuropäische Küche erkundet?', fr: 'Avez-vous exploré la cuisine d\'Europe de l\'Est?', es: '¿Has explorado la cocina de Europa del Este?', it: 'Hai esplorato la cucina dell\'Europa orientale?', pl: 'Czy eksplorowałeś kuchnię wschodnioeuropejską?', nl: 'Heb je Oost-Europese keuken verkend?', pt: 'Você explorou a culinária do Leste Europeu?' },
+      { en: 'What do you know about primeval forests?', sv: 'Vad vet du om urskog?', de: 'Was wissen Sie über Urwälder?', fr: 'Que savez-vous des forêts primaires?', es: '¿Qué sabes sobre los bosques primigenios?', it: 'Cosa sai delle foreste primordiali?', pl: 'Co wiesz o puszczy pierwotnej?', nl: 'Wat weet je over oerbossen?', pt: 'O que você sabe sobre florestas primárias?' },
+      { en: 'Do you enjoy hearty comfort food?', sv: 'Tycker du om mustig husmanskost?', de: 'Mögen Sie herzhaftes Comfort Food?', fr: 'Aimez-vous les plats réconfortants copieux?', es: '¿Disfrutas de la comida reconfortante contundente?', it: 'Ti piace il cibo confortante sostanzioso?', pl: 'Czy lubisz sycące domowe jedzenie?', nl: 'Houd je van stevig comfort food?', pt: 'Você gosta de comida caseira reconfortante?' },
     ],
     quiz: [
       {

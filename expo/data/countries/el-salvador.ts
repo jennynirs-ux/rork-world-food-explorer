@@ -206,7 +206,17 @@ export const elSalvador: Country = {
         pt: 'Major coffee producer',
       },
     ],
-    foodCulture: 'Salvadoran cuisine features corn-based dishes, beans, and tropical fruits with indigenous and Spanish influences.',
+    foodCulture: {
+      en: 'Salvadoran cuisine features corn-based dishes, beans, and tropical fruits with indigenous and Spanish influences.',
+      sv: 'Salvadoransk mat innehåller maïsbaserade rätter, bönor och tropiska frukter med inhemska och spanska influenser.',
+      de: 'Die salvadorianische Küche zeichnet sich durch maisbasierte Gerichte, Bohnen und tropische Früchte mit indigenen und spanischen Einflüssen aus.',
+      fr: 'La cuisine salvadorienne propose des plats à base de maïs, des haricots et des fruits tropicaux avec des influences indigènes et espagnoles.',
+      es: 'La cocina salvadoreña presenta platos a base de maíz, frijoles y frutas tropicales con influencias indígenas y españolas.',
+      it: 'La cucina salvadoregna presenta piatti a base di mais, fagioli e frutti tropicali con influenze indigene e spagnole.',
+      pl: 'Kuchnia salwadorska oferuje dania na bazie kukurydzy, fasoli i owoców tropikalnych z wpływami rdzennych ludów i Hiszpanów.',
+      nl: 'De Salvadoraanse keuken biedt maïsgebaseerde gerechten, bonen en tropisch fruit met inheemse en Spaanse invloeden.',
+      pt: 'A culinária salvadorenha apresenta pratos à base de milho, feijão e frutas tropicais com influências indígenas e espanholas.',
+    },
     history: [
       {
         year: '1821',
@@ -896,20 +906,20 @@ export const elSalvador: Country = {
       nonAlcoholic: 'Horchata, Kolashampan, Tamarind juice',
     },
     music: [
-      'Cumbia',
-      'Salsa',
-      'Traditional folk music',
+      { en: 'Cumbia', sv: 'Cumbia', de: 'Cumbia', fr: 'Cumbia', es: 'Cumbia', it: 'Cumbia', pl: 'Cumbia', nl: 'Cumbia', pt: 'Cumbia' },
+      { en: 'Salsa', sv: 'Salsa', de: 'Salsa', fr: 'Salsa', es: 'Salsa', it: 'Salsa', pl: 'Salsa', nl: 'Salsa', pt: 'Salsa' },
+      { en: 'Traditional folk music', sv: 'Traditionell folkmusik', de: 'Traditionelle Volksmusik', fr: 'Musique folklorique traditionnelle', es: 'Música folclórica tradicional', it: 'Musica folkloristica tradizionale', pl: 'Tradycyjna muzyka ludowa', nl: 'Traditionele volksmuziek', pt: 'Música folclórica tradicional' },
     ],
     decorationIdeas: [
-      'Blue and white flag colors',
-      'Volcanic landscapes',
-      'Coffee plant imagery',
-      'Traditional textiles',
+      { en: 'Blue and white flag colors', sv: 'Blå och vita flaggfärger', de: 'Blau und Weiß (Flaggenfarben)', fr: 'Couleurs du drapeau bleu et blanc', es: 'Colores de la bandera azul y blanco', it: 'Colori della bandiera blu e bianco', pl: 'Niebieskie i białe kolory flagi', nl: 'Blauw en witte vlagkleuren', pt: 'Cores da bandeira azul e branco' },
+      { en: 'Volcanic landscapes', sv: 'Vulkaniska landskap', de: 'Vulkanische Landschaften', fr: 'Paysages volcaniques', es: 'Paisajes volcánicos', it: 'Paesaggi vulcanici', pl: 'Krajobrazy wulkaniczne', nl: 'Vulkanische landschappen', pt: 'Paisagens vulcânicas' },
+      { en: 'Coffee plant imagery', sv: 'Kaffeplantsbilder', de: 'Kaffeepflanzenmotive', fr: 'Imagerie de plants de café', es: 'Imágenes de plantas de café', it: 'Immagini di piante di caffè', pl: 'Obrazy roślin kawowych', nl: 'Koffieplant afbeeldingen', pt: 'Imagens de plantas de café' },
+      { en: 'Traditional textiles', sv: 'Traditionella textilier', de: 'Traditionelle Textilien', fr: 'Textiles traditionnels', es: 'Textiles tradicionales', it: 'Tessuti tradizionali', pl: 'Tradycyjne tekstylia', nl: 'Traditionele textiel', pt: 'Têxteis tradicionais' },
     ],
     conversationStarters: [
-      'Have you tried pupusas?',
-      'Do you enjoy volcanic landscapes?',
-      'What do you know about Central American coffee?',
+      { en: 'Have you tried pupusas?', sv: 'Har du provat pupusas?', de: 'Hast du Pupusas probiert?', fr: 'Avez-vous essayé les pupusas ?', es: '¿Has probado las pupusas?', it: 'Hai provato le pupusas?', pl: 'Czy próbowałeś pupusas?', nl: 'Heb je pupusas geprobeerd?', pt: 'Você já experimentou pupusas?' },
+      { en: 'Do you enjoy volcanic landscapes?', sv: 'Tycker du om vulkaniska landskap?', de: 'Magst du vulkanische Landschaften?', fr: 'Aimez-vous les paysages volcaniques ?', es: '¿Disfrutas de los paisajes volcánicos?', it: 'Ti piacciono i paesaggi vulcanici?', pl: 'Czy lubisz krajobrazy wulkaniczne?', nl: 'Geniet jij van vulkanische landschappen?', pt: 'Você aprecia paisagens vulcânicas?' },
+      { en: 'What do you know about Central American coffee?', sv: 'Vad vet du om centralamerikanskt kaffe?', de: 'Was weißt du über mittelamerikanischen Kaffee?', fr: 'Que savez-vous du café d\'Amérique centrale ?', es: '¿Qué sabes sobre el café centroamericano?', it: 'Cosa sai del caffè dell\'America Centrale?', pl: 'Co wiesz o kawie z Ameryki Środkowej?', nl: 'Wat weet je over Midden-Amerikaans koffie?', pt: 'O que você sabe sobre o café da América Central?' },
     ],
     innovations: [
       {

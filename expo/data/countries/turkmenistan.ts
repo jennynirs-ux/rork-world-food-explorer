@@ -228,7 +228,17 @@ export const turkmenistan: Country = {
         pt: 'The country was a key region along the ancient Silk Road',
       },
     ],
-    foodCulture: 'Turkmen cuisine is based on lamb, rice, bread, and dairy products. Meals are hearty and influenced by nomadic Central Asian traditions, often accompanied by green tea. Hospitality plays an important role in daily life.',
+    foodCulture: {
+      en: 'Turkmen cuisine is based on lamb, rice, bread, and dairy products. Meals are hearty and influenced by nomadic Central Asian traditions, often accompanied by green tea. Hospitality plays an important role in daily life.',
+      sv: 'Turkmenisk mat är baserad på lamm, ris, bröd och mejeriprodukter. Måltiderna är rejäla och påverkade av nomadiska centralasiatiska traditioner, ofta ackompanjerade av grönt te. Gästfrihet spelar en viktig roll i det dagliga livet.',
+      de: 'Die turkmenische Küche basiert auf Lamm, Reis, Brot und Milchprodukten. Mahlzeiten sind herzhaft und von nomadischen zentralasiatischen Traditionen beeinflusst, oft von grünem Tee begleitet. Gastfreundschaft spielt eine wichtige Rolle im Alltag.',
+      fr: 'La cuisine turkmène est basée sur l\'agneau, le riz, le pain et les produits laitiers. Les repas sont copieux et influencés par les traditions nomades d\'Asie centrale, souvent accompagnés de thé vert. L\'hospitalité joue un rôle important dans la vie quotidienne.',
+      es: 'La cocina turcomana se basa en cordero, arroz, pan y productos lácteos. Las comidas son abundantes e influenciadas por las tradiciones nómadas de Asia Central, a menudo acompañadas de té verde. La hospitalidad juega un papel importante en la vida cotidiana.',
+      it: 'La cucina turkmena è basata su agnello, riso, pane e latticini. I pasti sono sostanziosi e influenzati dalle tradizioni nomadi dell\'Asia centrale, spesso accompagnati dal tè verde. L\'ospitalità svolge un ruolo importante nella vita quotidiana.',
+      pl: 'Kuchnia turkmeńska opiera się na jagnięcinie, ryżu, chlebie i produktach mlecznych. Posiłki są obfite i pod wpływem nomadycznych tradycji Azji Środkowej, często towarzyszyła im zielona herbata. Gościnność odgrywa ważną rolę w codziennym życiu.',
+      nl: 'De Turkmeense keuken is gebaseerd op lam, rijst, brood en zuivelproducten. Maaltijden zijn stevig en beïnvloed door nomadische Centraal-Aziatische tradities, vaak vergezeld van groene thee. Gastvrijheid speelt een belangrijke rol in het dagelijks leven.',
+      pt: 'A culinária turcomana é baseada em borrego, arroz, pão e produtos lácteos. As refeições são substanciais e influenciadas pelas tradições nómadas da Ásia Central, frequentemente acompanhadas de chá verde. A hospitalidade desempenha um papel importante na vida quotidiana.',
+    },
     history: [
       {
         year: '3rd Century BC',
@@ -1029,20 +1039,20 @@ export const turkmenistan: Country = {
       nonAlcoholic: 'Chal (fermented camel milk), Green tea',
     },
     music: [
-      'Traditional dutar string music',
-      'Turkmen folk songs',
-      'Epic oral poetry performances',
+      { en: 'Traditional dutar string music', sv: 'Traditionell dutar-strängmusik', de: 'Traditionelle Dutar-Saitenmusik', fr: 'Musique traditionnelle à cordes dutar', es: 'Música tradicional de cuerda dutar', it: 'Musica tradizionale a corde dutar', pl: 'Tradycyjna muzyka strunowa dutar', nl: 'Traditionele dutar snaarinstrumentmuziek', pt: 'Música tradicional de cordas dutar' },
+      { en: 'Turkmen folk songs', sv: 'Turkmeniska folksånger', de: 'Turkmenische Volkslieder', fr: 'Chansons folkloriques turkmènes', es: 'Canciones folclóricas turcomanas', it: 'Canzoni folk turkmene', pl: 'Turkmeńskie pieśni ludowe', nl: 'Turkmeense volksliederen', pt: 'Canções folclóricas turcomanas' },
+      { en: 'Epic oral poetry performances', sv: 'Episka muntliga diktuppträdanden', de: 'Epische mündliche Poesie-Aufführungen', fr: 'Représentations de poésie orale épique', es: 'Actuaciones de poesía oral épica', it: 'Esibizioni di poesia orale epica', pl: 'Epiczne występy poezji ustnej', nl: 'Epische mondelinge poëzie-uitvoeringen', pt: 'Apresentações de poesia oral épica' },
     ],
     decorationIdeas: [
-      'Green and red flag colors',
-      'Turkmen carpet patterns',
-      'Desert and oasis imagery',
-      'Akhal-Teke horse motifs',
+      { en: 'Green and red flag colors', sv: 'Gröna och röda flaggfärger', de: 'Grüne und rote Flaggenfarben', fr: 'Couleurs du drapeau vert et rouge', es: 'Colores de la bandera verde y rojo', it: 'Colori della bandiera verde e rosso', pl: 'Zielono-czerwone kolory flagi', nl: 'Groene en rode vlagkleuren', pt: 'Cores da bandeira verde e vermelho' },
+      { en: 'Turkmen carpet patterns', sv: 'Turkmeniska mönster på mattor', de: 'Turkmenische Teppichmuster', fr: 'Motifs de tapis turkmènes', es: 'Patrones de alfombras turcomanas', it: 'Motivi dei tappeti turkmeni', pl: 'Wzory turkmeńskich dywanów', nl: 'Turkmeense tapijpatronen', pt: 'Padrões de tapetes turcomanos' },
+      { en: 'Desert and oasis imagery', sv: 'Öken- och oasmotiv', de: 'Wüsten- und Oasen-Bilder', fr: 'Images du désert et de l\'oasis', es: 'Imágenes del desierto y oasis', it: 'Immagini del deserto e dell\'oasi', pl: 'Motywy pustyni i oazy', nl: 'Woestijn- en oase-afbeeldingen', pt: 'Imagens do deserto e oásis' },
+      { en: 'Akhal-Teke horse motifs', sv: 'Akhal-Teke-hästmotiv', de: 'Akhal-Teke-Pferde-Motive', fr: 'Motifs de chevaux Akhal-Teke', es: 'Motivos del caballo Akhal-Teke', it: 'Motivi del cavallo Akhal-Teke', pl: 'Motywy koni Akhal-Teke', nl: 'Akhal-Teke paard motieven', pt: 'Motivos do cavalo Akhal-Teke' },
     ],
     conversationStarters: [
-      'Have you heard about the Door to Hell crater?',
-      'What do you know about Silk Road cultures?',
-      'Would you visit a desert country like Turkmenistan?',
+      { en: 'Have you heard about the Door to Hell crater?', sv: 'Har du hört talas om porten till helvetets krater?', de: 'Haben Sie vom Tor zur Hölle-Krater gehört?', fr: 'Avez-vous entendu parler du cratère de la Porte de l\'Enfer ?', es: '¿Has oído hablar del cráter de la Puerta al Infierno?', it: 'Hai sentito parlare del cratere della Porta dell\'Inferno?', pl: 'Czy słyszałeś o kraterze Bramy do Piekła?', nl: 'Heb je gehoord over de Deur naar de Hel-krater?', pt: 'Já ouviste falar da cratera Porta do Inferno?' },
+      { en: 'What do you know about Silk Road cultures?', sv: 'Vad vet du om Sidenvägens kulturer?', de: 'Was wissen Sie über die Kulturen der Seidenstraße?', fr: 'Que savez-vous des cultures de la Route de la Soie ?', es: '¿Qué sabes sobre las culturas de la Ruta de la Seda?', it: 'Cosa sai delle culture della Via della Seta?', pl: 'Co wiesz o kulturach Jedwabnego Szlaku?', nl: 'Wat weet je over Zijderouteculturen?', pt: 'O que sabes sobre as culturas da Rota da Seda?' },
+      { en: 'Would you visit a desert country like Turkmenistan?', sv: 'Skulle du besöka ett ökenpräglat land som Turkmenistan?', de: 'Würden Sie ein Wüstenland wie Turkmenistan besuchen?', fr: 'Visiteriez-vous un pays désertique comme le Turkménistan ?', es: '¿Visitarías un país desértico como Turkmenistán?', it: 'Visiteresti un paese desertico come il Turkmenistan?', pl: 'Czy odwiedziłbyś pustynny kraj taki jak Turkmenistan?', nl: 'Zou je een woestijnland zoals Turkmenistan bezoeken?', pt: 'Visitaria um país desértico como o Turcomenistão?' },
     ],
     quiz: [
       {

@@ -206,7 +206,17 @@ export const guinea: Country = {
         pt: 'Rich in traditional music and dance',
       },
     ],
-    foodCulture: 'Guinean cuisine features rice, cassava, and peanut-based sauces with French colonial influences.',
+    foodCulture: {
+      en: 'Guinean cuisine features rice, cassava, and peanut-based sauces with French colonial influences.',
+      sv: 'Guineansk mat innehåller ris, kassava och jordnötsbaserade såser med franska koloniala influenser.',
+      de: 'Die guineische Küche zeichnet sich durch Reis, Maniok und erdnussbasierte Soßen mit französischen Kolonialeinflüssen aus.',
+      fr: 'La cuisine guinéenne propose du riz, du manioc et des sauces à base d\'arachides avec des influences coloniales françaises.',
+      es: 'La cocina guineana presenta arroz, yuca y salsas a base de maní con influencias coloniales francesas.',
+      it: 'La cucina guineana presenta riso, manioca e salse a base di arachidi con influenze coloniali francesi.',
+      pl: 'Kuchnia gwinejska oferuje ryż, maniok i sosy na bazie orzeszków ziemnych z wpływami kolonialnymi z Francji.',
+      nl: 'De Guineese keuken kenmerkt zich door rijst, cassave en op pinda\'s gebaseerde sauzen met Franse koloniale invloeden.',
+      pt: 'A culinária guineense apresenta arroz, mandioca e molhos à base de amendoim com influências coloniais francesas.',
+    },
     history: [
       {
         year: '1890s',
@@ -978,19 +988,19 @@ export const guinea: Country = {
       nonAlcoholic: 'Ginger juice, Bissap, Fresh juice',
     },
     music: [
-      'Traditional Djembe drumming',
-      'Mande music',
-      'Guinean folk songs',
+      { en: 'Traditional Djembe drumming', sv: 'Traditionellt djembetrummande', de: 'Traditionelles Djembe-Trommeln', fr: 'Percussions djembé traditionnelles', es: 'Percusión de djembé tradicional', it: 'Percussioni djembe tradizionali', pl: 'Tradycyjne bębnienie na djembe', nl: 'Traditioneel djembe-trommelen', pt: 'Percussão de djembê tradicional' },
+      { en: 'Mande music', sv: 'Mandemusik', de: 'Mande-Musik', fr: 'Musique mandé', es: 'Música mandé', it: 'Musica mandé', pl: 'Muzyka mande', nl: 'Mande-muziek', pt: 'Música mandê' },
+      { en: 'Guinean folk songs', sv: 'Guineanska folksånger', de: 'Guineische Volkslieder', fr: 'Chansons folkloriques guinéennes', es: 'Canciones folclóricas guineanas', it: 'Canzoni folk guineane', pl: 'Gwinejskie pieśni ludowe', nl: 'Guineese volksliedjes', pt: 'Canções folclóricas guineenses' },
     ],
     decorationIdeas: [
-      'Red, yellow and green flag colors',
-      'Traditional drums',
-      'River and waterfall imagery',
-      'West African textiles',
+      { en: 'Red, yellow and green flag colors', sv: 'Röda, gula och gröna flaggfärger', de: 'Rot, Gelb und Grün (Flaggenfarben)', fr: 'Couleurs du drapeau rouge, jaune et vert', es: 'Colores de la bandera rojo, amarillo y verde', it: 'Colori della bandiera rosso, giallo e verde', pl: 'Czerwone, żółte i zielone kolory flagi', nl: 'Rood, geel en groen (vlagkleuren)', pt: 'Cores da bandeira vermelho, amarelo e verde' },
+      { en: 'Traditional drums', sv: 'Traditionella trummor', de: 'Traditionelle Trommeln', fr: 'Tambours traditionnels', es: 'Tambores tradicionales', it: 'Tamburi tradizionali', pl: 'Tradycyjne bębny', nl: 'Traditionele trommels', pt: 'Tambores tradicionais' },
+      { en: 'River and waterfall imagery', sv: 'Flod- och vattenfallsbilder', de: 'Fluss- und Wasserfall-Motive', fr: 'Imagerie de rivière et de cascade', es: 'Imágenes de ríos y cascadas', it: 'Immagini di fiumi e cascate', pl: 'Obrazy rzek i wodospadów', nl: 'Rivier- en watervalafbeeldingen', pt: 'Imagens de rios e cachoeiras' },
+      { en: 'West African textiles', sv: 'Västafrikanska textilier', de: 'Westafrikanische Textilien', fr: 'Textiles d\'Afrique de l\'Ouest', es: 'Textiles de África Occidental', it: 'Tessuti dell\'Africa occidentale', pl: 'Tekstylia z Afryki Zachodniej', nl: 'West-Afrikaans textiel', pt: 'Têxteis da África Ocidental' },
     ],
     conversationStarters: [
-      'Have you heard djembe drumming?',
-      'What do you know about West African rivers?',
+      { en: 'Have you heard djembe drumming?', sv: 'Har du hört djembetrummande?', de: 'Hast du Djembe-Trommeln gehört?', fr: 'Avez-vous entendu des percussions de djembé ?', es: '¿Has escuchado percusión de djembé?', it: 'Hai ascoltato le percussioni djembe?', pl: 'Czy słyszałeś bębnienie na djembe?', nl: 'Heb je djembe-trommelen gehoord?', pt: 'Você já ouviu percussão de djembê?' },
+      { en: 'What do you know about West African rivers?', sv: 'Vad vet du om västafrikanska floder?', de: 'Was weißt du über westafrikanische Flüsse?', fr: 'Que savez-vous des fleuves d\'Afrique de l\'Ouest ?', es: '¿Qué sabes sobre los ríos de África Occidental?', it: 'Cosa sai dei fiumi dell\'Africa occidentale?', pl: 'Co wiesz o rzekach Afryki Zachodniej?', nl: 'Wat weet je over West-Afrikaanse rivieren?', pt: 'O que você sabe sobre os rios da África Ocidental?' },
     ],
     quiz: [
       {

@@ -228,7 +228,17 @@ export const tuvalu: Country = {
         pt: 'Community life is centered around family, churches, and shared traditions',
       },
     ],
-    foodCulture: 'Tuvaluan cuisine is based on fish, coconut, pulaka (swamp taro), breadfruit, and simple island ingredients, often cooked in earth ovens. Meals are practical, local, and community-oriented.',
+    foodCulture: {
+      en: 'Tuvaluan cuisine is based on fish, coconut, pulaka (swamp taro), breadfruit, and simple island ingredients, often cooked in earth ovens. Meals are practical, local, and community-oriented.',
+      sv: 'Det tuvalunska köket baseras på fisk, kokosnöt, pulaka (träsktaro), brödfrukt och enkla öingredien ser, ofta tillagade i jordugnar. Måltiderna är praktiska, lokala och gemenskapsorienterade.',
+      de: 'Die tuvaluische Küche basiert auf Fisch, Kokosnuss, Pulaka (Sumpftaro), Brotfrucht und einfachen Inselzutaten, die oft in Erdöfen gegart werden. Mahlzeiten sind praktisch, lokal und gemeinschaftsorientiert.',
+      fr: 'La cuisine tuvaluane est basée sur le poisson, la noix de coco, le pulaka (taro des marais), le fruit à pain et de simples ingrédients insulaires, souvent cuits dans des fours en terre. Les repas sont pratiques, locaux et orientés vers la communauté.',
+      es: 'La cocina tuvaluana se basa en pescado, coco, pulaka (taro de pantano), fruta del pan e ingredientes simples de isla, a menudo cocinados en hornos de tierra. Las comidas son prácticas, locales y orientadas a la comunidad.',
+      it: 'La cucina tuvaluana è basata su pesce, cocco, pulaka (taro di palude), frutto dell\'albero del pane e semplici ingredienti isolani, spesso cotti in forni di terra. I pasti sono pratici, locali e orientati alla comunità.',
+      pl: 'Kuchnia tuwalska opiera się na rybach, kokosie, pulaka (taro bagiennym), chlebie drzewnym i prostych składnikach wyspiarskich, często gotowanych w ziemnych piecach. Posiłki są praktyczne, lokalne i zorientowane na społeczność.',
+      nl: 'De Tuvaluaanse keuken is gebaseerd op vis, kokosnoot, pulaka (moerastaro), broodboom en eenvoudige eilandingrediënten, vaak bereid in aardovens. Maaltijden zijn praktisch, lokaal en gemeenschapsgericht.',
+      pt: 'A culinária tuvaluana baseia-se em peixe, coco, pulaka (taro de pântano), fruta-pão e ingredientes simples da ilha, muitas vezes cozinhados em fornos de terra. As refeições são práticas, locais e orientadas para a comunidade.',
+    },
     history: [
       {
         year: 'Pre-1800s',
@@ -919,20 +929,20 @@ export const tuvalu: Country = {
       nonAlcoholic: 'Coconut water, Fresh fruit juice',
     },
     music: [
-      'Traditional fatele dance music',
-      'Pacific island chants',
-      'Community drumming and singing',
+      { en: 'Traditional fatele dance music', sv: 'Traditionell fatele-dansmusik', de: 'Traditionelle Fatele-Tanzmusik', fr: 'Musique de danse fatele traditionnelle', es: 'Música de danza fatele tradicional', it: 'Musica da ballo fatele tradizionale', pl: 'Tradycyjna muzyka taneczna fatele', nl: 'Traditionele fatele dansmuziek', pt: 'Música de dança fatele tradicional' },
+      { en: 'Pacific island chants', sv: 'Stillahavöarnas sånger', de: 'Pazifische Inselgesänge', fr: 'Chants des îles du Pacifique', es: 'Cantos de las islas del Pacífico', it: 'Canti delle isole del Pacifico', pl: 'Pieśni wysp pacyficznych', nl: 'Pacifische eilandezangen', pt: 'Cantos das ilhas do Pacífico' },
+      { en: 'Community drumming and singing', sv: 'Gemensam trummande och sång', de: 'Gemeinschaftliches Trommeln und Singen', fr: 'Percussions et chants communautaires', es: 'Percusión y canto comunitario', it: 'Percussioni e canto comunitario', pl: 'Wspólne bębnienie i śpiewanie', nl: 'Gemeenschappelijk trommelen en zingen', pt: 'Percussão e canto comunitário' },
     ],
     decorationIdeas: [
-      'Light blue and yellow flag colors',
-      'Ocean and atoll imagery',
-      'Star motifs from the flag',
-      'Climate awareness themes',
+      { en: 'Light blue and yellow flag colors', sv: 'Ljusblå och gula flaggfärger', de: 'Hellblaue und gelbe Flaggenfarben', fr: 'Couleurs du drapeau bleu clair et jaune', es: 'Colores de la bandera azul claro y amarillo', it: 'Colori della bandiera azzurro e giallo', pl: 'Jasnoniebieskie i żółte kolory flagi', nl: 'Lichtblauwe en gele vlagkleuren', pt: 'Cores da bandeira azul-claro e amarelo' },
+      { en: 'Ocean and atoll imagery', sv: 'Hav- och atollmotiv', de: 'Ozean- und Atoll-Bilder', fr: 'Images de l\'océan et des atolls', es: 'Imágenes del océano y atolones', it: 'Immagini dell\'oceano e degli atolli', pl: 'Motywy oceanu i atoli', nl: 'Oceaan- en atol beelden', pt: 'Imagens do oceano e atóis' },
+      { en: 'Star motifs from the flag', sv: 'Stjärnmotiv från flaggan', de: 'Sternmotive aus der Flagge', fr: 'Motifs d\'étoiles du drapeau', es: 'Motivos de estrellas de la bandera', it: 'Motivi a stella dalla bandiera', pl: 'Motywy gwiazdkowe z flagi', nl: 'Stermotieven van de vlag', pt: 'Motivos de estrelas da bandeira' },
+      { en: 'Climate awareness themes', sv: 'Klimatmedvetenhetsteman', de: 'Themen zum Klimabewusstsein', fr: 'Thèmes de sensibilisation au climat', es: 'Temas de concienciación sobre el clima', it: 'Temi di sensibilizzazione climatica', pl: 'Tematy świadomości klimatycznej', nl: 'Thema\'s over klimaatbewustzijn', pt: 'Temas de consciência climática' },
     ],
     conversationStarters: [
-      'What do you know about climate change and island nations?',
-      'Would you like to visit a remote Pacific island?',
-      'How do you think rising sea levels affect daily life?',
+      { en: 'What do you know about climate change and island nations?', sv: 'Vad vet du om klimatförändringar och önationer?', de: 'Was wissen Sie über den Klimawandel und Inselstaaten?', fr: 'Que savez-vous sur le changement climatique et les nations insulaires ?', es: '¿Qué sabes sobre el cambio climático y los países insulares?', it: 'Cosa sai del cambiamento climatico e delle nazioni insulari?', pl: 'Co wiesz o zmianach klimatycznych i narodach wyspiarskich?', nl: 'Wat weet je over klimaatverandering en eilandnaties?', pt: 'O que sabes sobre as alterações climáticas e os países insulares?' },
+      { en: 'Would you like to visit a remote Pacific island?', sv: 'Skulle du vilja besöka en avlägsen Stillahavö?', de: 'Würden Sie gerne eine abgelegene Pazifikinsel besuchen?', fr: 'Aimeriez-vous visiter une île reculée du Pacifique ?', es: '¿Te gustaría visitar una isla remota del Pacífico?', it: 'Vorresti visitare un\'isola remota del Pacifico?', pl: 'Czy chciałbyś odwiedzić odległą wyspę na Pacyfiku?', nl: 'Wil je graag een afgelegen Pacifisch eiland bezoeken?', pt: 'Gostaria de visitar uma ilha remota do Pacífico?' },
+      { en: 'How do you think rising sea levels affect daily life?', sv: 'Hur tror du att stigande havsnivåer påverkar det dagliga livet?', de: 'Wie denken Sie, beeinflusst der steigende Meeresspiegel das tägliche Leben?', fr: 'Comment pensez-vous que la montée du niveau de la mer affecte la vie quotidienne ?', es: '¿Cómo crees que el aumento del nivel del mar afecta la vida cotidiana?', it: 'Come pensi che l\'innalzamento del livello del mare influenzi la vita quotidiana?', pl: 'Jak myślisz, jak rosnący poziom mórz wpływa na codzienne życie?', nl: 'Hoe denk je dat stijgende zeespiegels het dagelijks leven beïnvloeden?', pt: 'Como achas que a subida do nível do mar afeta a vida quotidiana?' },
     ],
     quiz: [
       {

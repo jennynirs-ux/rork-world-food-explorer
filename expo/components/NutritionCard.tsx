@@ -6,7 +6,6 @@ import colors from '@/constants/colors';
 
 interface NutritionCardProps {
   nutrition: NutritionInfo;
-  servingsMultiplier?: number;
 }
 
 function MacroBar({
@@ -33,13 +32,13 @@ function MacroBar({
   );
 }
 
-export default function NutritionCard({ nutrition, servingsMultiplier = 1 }: NutritionCardProps) {
+export default function NutritionCard({ nutrition }: NutritionCardProps) {
   const { t } = useTranslation();
-  const cal = Math.round(nutrition.caloriesPerServing * servingsMultiplier);
-  const protein = Math.round(nutrition.protein * servingsMultiplier);
-  const carbs = Math.round(nutrition.carbs * servingsMultiplier);
-  const fat = Math.round(nutrition.fat * servingsMultiplier);
-  const fiber = nutrition.fiber ? Math.round(nutrition.fiber * servingsMultiplier) : null;
+  const cal = Math.round(nutrition.caloriesPerServing);
+  const protein = Math.round(nutrition.protein);
+  const carbs = Math.round(nutrition.carbs);
+  const fat = Math.round(nutrition.fat);
+  const fiber = nutrition.fiber ? Math.round(nutrition.fiber) : null;
 
   // Max for bar scaling
   const maxGrams = Math.max(protein, carbs, fat, 1);

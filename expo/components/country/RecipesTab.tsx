@@ -174,7 +174,6 @@ export default function RecipesTab({
               {countryData?.mainDish && (
                 <NutritionCard
                   nutrition={estimateNutrition(countryData.mainDish)}
-                  servingsMultiplier={mainServingsMultiplier}
                 />
               )}
 
@@ -388,7 +387,6 @@ export default function RecipesTab({
               {countryData?.dessert && (
                 <NutritionCard
                   nutrition={estimateNutrition(countryData.dessert)}
-                  servingsMultiplier={dessertServingsMultiplier}
                 />
               )}
 

@@ -217,7 +217,17 @@ export const andorra: Country = {
         pt: 'Over 10 million tourists visit annually, despite its tiny size',
       },
     ],
-    foodCulture: 'Andorran cuisine reflects Catalan traditions with mountain influences. Hearty dishes feature wild game, mushrooms, and mountain herbs. Meals are accompanied by local wines and cheeses.',
+    foodCulture: {
+      en: 'Andorran cuisine reflects Catalan traditions with mountain influences. Hearty dishes feature wild game, mushrooms, and mountain herbs. Meals are accompanied by local wines and cheeses.',
+      sv: 'Andorransk mat speglar katalanska traditioner med bergsinfluenser. Mustiga rätter innehåller vilt, svamp och bergsörter. Måltider åtföljs av lokala viner och ostar.',
+      de: 'Die andorranische Küche spiegelt katalanische Traditionen mit Bergeinflüssen wider. Herzhafte Gerichte enthalten Wild, Pilze und Bergkräuter. Mahlzeiten werden von einheimischen Weinen und Käsen begleitet.',
+      fr: 'La cuisine andorrane reflète les traditions catalanes avec des influences montagnardes. Les plats copieux comprennent du gibier sauvage, des champignons et des herbes de montagne. Les repas sont accompagnés de vins et de fromages locaux.',
+      es: 'La cocina andorrana refleja las tradiciones catalanas con influencias de montaña. Los platos contundentes incluyen caza silvestre, setas y hierbas de montaña. Las comidas se acompañan con vinos y quesos locales.',
+      it: 'La cucina andorrana riflette le tradizioni catalane con influenze montane. I piatti sostanziosi includono selvaggina, funghi ed erbe di montagna. I pasti sono accompagnati da vini e formaggi locali.',
+      pl: 'Kuchnia andorańska odzwierciedla tradycje katalońskie z górskimi wpływami. Sycące dania zawierają dziczyznę, grzyby i górskie zioła. Posiłkom towarzyszą lokalne wina i sery.',
+      nl: 'De Andorrese keuken weerspiegelt Catalaanse tradities met bergse invloeden. Stevige gerechten bevatten wild, paddenstoelen en bergkruiden. Maaltijden worden vergezeld van lokale wijnen en kazen.',
+      pt: 'A culinária andorrana reflete as tradições catalãs com influências montanhosas. Pratos farto incluem caça, cogumelos e ervas de montanha. As refeições são acompanhadas de vinhos e queijos locais.',
+    },
     history: [
       {
         year: '9th Century',
@@ -1393,20 +1403,20 @@ export const andorra: Country = {
       nonAlcoholic: 'Mountain spring water, Hot chocolate',
     },
     music: [
-      'Traditional Catalan folk music',
-      'Sardana dances',
-      'Mountain shepherd songs',
+      { en: 'Traditional Catalan folk music', sv: 'Traditionell katalansk folkmusik', de: 'Traditionelle katalanische Volksmusik', fr: 'Musique folk catalane traditionnelle', es: 'Música folk catalana tradicional', it: 'Musica folk catalana tradizionale', pl: 'Tradycyjna katalońska muzyka ludowa', nl: 'Traditionele Catalaanse volksmuziek', pt: 'Música folclórica catalã tradicional' },
+      { en: 'Sardana dances', sv: 'Sardana-danser', de: 'Sardana-Tänze', fr: 'Danses sardane', es: 'Danzas sardana', it: 'Danze sardana', pl: 'Tańce sardana', nl: 'Sardana-dansen', pt: 'Danças sardana' },
+      { en: 'Mountain shepherd songs', sv: 'Bergsherdesånger', de: 'Berghirtenlieder', fr: 'Chants de bergers de montagne', es: 'Canciones de pastores de montaña', it: 'Canti dei pastori di montagna', pl: 'Pieśni górskich pasterzy', nl: 'Bergherdersliederen', pt: 'Canções de pastores de montanha' },
     ],
     decorationIdeas: [
-      'Mountain landscape imagery',
-      'Red and yellow colors from flag',
-      'Alpine flowers',
-      'Ski equipment as decor',
+      { en: 'Mountain landscape imagery', sv: 'Berglandskapsbilder', de: 'Berglandschaftsbilder', fr: 'Images de paysages montagneux', es: 'Imágenes de paisajes de montaña', it: 'Immagini di paesaggi montani', pl: 'Obrazy górskich krajobrazów', nl: 'Berglandschapbeelden', pt: 'Imagens de paisagens montanhosas' },
+      { en: 'Red and yellow colors from flag', sv: 'Röda och gula färger från flaggan', de: 'Rot und Gelb von der Flagge', fr: 'Couleurs rouge et jaune du drapeau', es: 'Colores rojo y amarillo de la bandera', it: 'Colori rosso e giallo della bandiera', pl: 'Czerwone i żółte barwy flagi', nl: 'Rode en gele kleuren van de vlag', pt: 'Cores vermelha e amarela da bandeira' },
+      { en: 'Alpine flowers', sv: 'Alpblommor', de: 'Alpenblumen', fr: 'Fleurs alpines', es: 'Flores alpinas', it: 'Fiori alpini', pl: 'Kwiaty alpejskie', nl: 'Alpenbloemen', pt: 'Flores alpinas' },
+      { en: 'Ski equipment as decor', sv: 'Skidutrustning som dekoration', de: 'Skiausrüstung als Dekoration', fr: 'Équipement de ski comme décoration', es: 'Equipo de esquí como decoración', it: 'Attrezzatura da sci come decorazione', pl: 'Sprzęt narciarski jako dekoracja', nl: 'Ski-uitrusting als decoratie', pt: 'Equipamento de esqui como decoração' },
     ],
     conversationStarters: [
-      'Have you been skiing in the Pyrenees?',
-      'What do you know about micro-nations?',
-      'Do you enjoy mountain hiking?',
+      { en: 'Have you been skiing in the Pyrenees?', sv: 'Har du åkt skidor i Pyrenéerna?', de: 'Sind Sie schon in den Pyrenäen Ski gefahren?', fr: 'Avez-vous skié dans les Pyrénées?', es: '¿Has esquiado en los Pirineos?', it: 'Hai mai sciato nei Pirenei?', pl: 'Czy jeździłeś na nartach w Pirenejach?', nl: 'Heb je geskied in de Pyreneeën?', pt: 'Você já esquiou nos Pirinéus?' },
+      { en: 'What do you know about micro-nations?', sv: 'Vad vet du om mikronationer?', de: 'Was wissen Sie über Mikronationen?', fr: 'Que savez-vous des micro-nations?', es: '¿Qué sabes sobre las micronaciones?', it: 'Cosa sai delle micro-nazioni?', pl: 'Co wiesz o mikronacjach?', nl: 'Wat weet je over micro-naties?', pt: 'O que você sabe sobre micro-nações?' },
+      { en: 'Do you enjoy mountain hiking?', sv: 'Tycker du om bergsvandringar?', de: 'Mögen Sie Bergwanderungen?', fr: 'Aimez-vous la randonnée en montagne?', es: '¿Disfrutas del senderismo en la montaña?', it: 'Ti piace fare escursioni in montagna?', pl: 'Czy lubisz wędrówki górskie?', nl: 'Houd je van bergwandelen?', pt: 'Você gosta de caminhadas na montanha?' },
     ],
     quiz: [
       {

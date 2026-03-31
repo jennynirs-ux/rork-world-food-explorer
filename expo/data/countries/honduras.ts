@@ -206,7 +206,17 @@ export const honduras: Country = {
         pt: 'Name means "depths" referring to deep waters off the coast',
       },
     ],
-    foodCulture: 'Honduran cuisine features corn-based dishes, beans, plantains, and fresh seafood along the coast.',
+    foodCulture: {
+      en: 'Honduran cuisine features corn-based dishes, beans, plantains, and fresh seafood along the coast.',
+      sv: 'Honduransk mat innehåller maïsbaserade rätter, bönor, plátanos och färska skaldjur längs kusten.',
+      de: 'Die honduranische Küche zeichnet sich durch maisbasierte Gerichte, Bohnen, Kochbananen und frische Meeresfrüchte an der Küste aus.',
+      fr: 'La cuisine hondurienne propose des plats à base de maïs, des haricots, des plantains et des fruits de mer frais le long de la côte.',
+      es: 'La cocina hondureña presenta platos a base de maíz, frijoles, plátanos y mariscos frescos a lo largo de la costa.',
+      it: 'La cucina honduregna presenta piatti a base di mais, fagioli, platano e frutti di mare freschi lungo la costa.',
+      pl: 'Kuchnia honduraska oferuje dania na bazie kukurydzy, fasolę, plantany i świeże owoce morza wzdłuż wybrzeża.',
+      nl: 'De Hondurese keuken kenmerkt zich door maïsgebaseerde gerechten, bonen, bakbananen en verse zeevruchten langs de kust.',
+      pt: 'A culinária hondurenha apresenta pratos à base de milho, feijão, plátanos e frutos do mar frescos ao longo da costa.',
+    },
     history: [
       {
         year: '1502',
@@ -1021,20 +1031,20 @@ export const honduras: Country = {
       nonAlcoholic: 'Horchata, Tamarind juice, Coffee',
     },
     music: [
-      'Punta music',
-      'Garifuna drums',
-      'Latin pop',
+      { en: 'Punta music', sv: 'Puntamusik', de: 'Punta-Musik', fr: 'Musique punta', es: 'Música punta', it: 'Musica punta', pl: 'Muzyka punta', nl: 'Punta-muziek', pt: 'Música punta' },
+      { en: 'Garifuna drums', sv: 'Garifuna-trummor', de: 'Garifuna-Trommeln', fr: 'Tambours garifuna', es: 'Tambores garífuna', it: 'Tamburi garifuna', pl: 'Bębny garifuna', nl: 'Garifuna trommels', pt: 'Tambores garífuna' },
+      { en: 'Latin pop', sv: 'Latinpop', de: 'Lateinamerikanischer Pop', fr: 'Pop latin', es: 'Pop latino', it: 'Pop latino', pl: 'Pop latynoski', nl: 'Latijnse pop', pt: 'Pop latino' },
     ],
     decorationIdeas: [
-      'Blue and white flag colors',
-      'Mayan symbols',
-      'Caribbean beach themes',
-      'Coffee plant imagery',
+      { en: 'Blue and white flag colors', sv: 'Blå och vita flaggfärger', de: 'Blau und Weiß (Flaggenfarben)', fr: 'Couleurs du drapeau bleu et blanc', es: 'Colores de la bandera azul y blanco', it: 'Colori della bandiera blu e bianco', pl: 'Niebieskie i białe kolory flagi', nl: 'Blauw en witte vlagkleuren', pt: 'Cores da bandeira azul e branco' },
+      { en: 'Mayan symbols', sv: 'Mayasymboler', de: 'Maya-Symbole', fr: 'Symboles mayas', es: 'Símbolos mayas', it: 'Simboli maya', pl: 'Symbole Majów', nl: 'Maya-symbolen', pt: 'Símbolos maias' },
+      { en: 'Caribbean beach themes', sv: 'Karibiska strandteman', de: 'Karibische Strandthemen', fr: 'Thèmes de plage caribéenne', es: 'Temas de playa caribeña', it: 'Temi da spiaggia caraibica', pl: 'Motywy karaibskiej plaży', nl: 'Caribisch strand thema\'s', pt: 'Temas de praia caribenha' },
+      { en: 'Coffee plant imagery', sv: 'Kaffeplantsbilder', de: 'Kaffeepflanzenmotive', fr: 'Imagerie de plants de café', es: 'Imágenes de plantas de café', it: 'Immagini di piante di caffè', pl: 'Obrazy roślin kawowych', nl: 'Koffieplant afbeeldingen', pt: 'Imagens de plantas de café' },
     ],
     conversationStarters: [
-      'Have you been diving in the Caribbean?',
-      'What do you know about Mayan civilization?',
-      'Do you enjoy Central American coffee?',
+      { en: 'Have you been diving in the Caribbean?', sv: 'Har du dykt i Karibien?', de: 'Bist du in der Karibik getaucht?', fr: 'Avez-vous plongé dans les Caraïbes ?', es: '¿Has buceado en el Caribe?', it: 'Hai fatto immersioni nei Caraibi?', pl: 'Czy nurkowałeś na Karaibach?', nl: 'Heb je gedoken in het Caribisch gebied?', pt: 'Você já mergulhou no Caribe?' },
+      { en: 'What do you know about Mayan civilization?', sv: 'Vad vet du om mayacivilisationen?', de: 'Was weißt du über die Maya-Zivilisation?', fr: 'Que savez-vous de la civilisation maya ?', es: '¿Qué sabes sobre la civilización maya?', it: 'Cosa sai della civiltà maya?', pl: 'Co wiesz o cywilizacji Majów?', nl: 'Wat weet je over de Maya-beschaving?', pt: 'O que você sabe sobre a civilização maia?' },
+      { en: 'Do you enjoy Central American coffee?', sv: 'Tycker du om centralamerikanskt kaffe?', de: 'Magst du mittelamerikanischen Kaffee?', fr: 'Aimez-vous le café d\'Amérique centrale ?', es: '¿Disfrutas del café centroamericano?', it: 'Ti piace il caffè dell\'America Centrale?', pl: 'Czy lubisz kawę z Ameryki Środkowej?', nl: 'Geniet jij van Midden-Amerikaans koffie?', pt: 'Você aprecia o café da América Central?' },
     ],
     quiz: [
       {

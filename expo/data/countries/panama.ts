@@ -206,7 +206,17 @@ export const panama: Country = {
         pt: 'Uses the US dollar as currency',
       },
     ],
-    foodCulture: 'Panamanian cuisine blends Spanish, African, and indigenous influences with fresh seafood and tropical fruits.',
+    foodCulture: {
+      en: 'Panamanian cuisine blends Spanish, African, and indigenous influences with fresh seafood and tropical fruits.',
+      sv: 'Panamansk mat blandar spanska, afrikanska och inhemska influenser med färsk skaldjur och tropiska frukter.',
+      de: 'Die panamaische Küche verbindet spanische, afrikanische und indigene Einflüsse mit frischen Meeresfrüchten und tropischen Früchten.',
+      fr: 'La cuisine panaméenne mêle des influences espagnoles, africaines et autochtones avec des fruits de mer frais et des fruits tropicaux.',
+      es: 'La cocina panameña combina influencias españolas, africanas e indígenas con mariscos frescos y frutas tropicales.',
+      it: 'La cucina panamense unisce influenze spagnole, africane e indigene con frutti di mare freschi e frutti tropicali.',
+      pl: 'Kuchnia panamska łączy wpływy hiszpańskie, afrykańskie i rdzenne z świeżymi owocami morza i tropikalnymi owocami.',
+      nl: 'De Panamese keuken vermengt Spaanse, Afrikaanse en inheemse invloeden met verse zeevruchten en tropisch fruit.',
+      pt: 'A culinária panamenha combina influências espanholas, africanas e indígenas com frutos do mar frescos e frutas tropicais.',
+    },
     history: [
       {
         year: '1501',
@@ -1003,20 +1013,20 @@ export const panama: Country = {
       nonAlcoholic: 'Chicheme, Raspao (shaved ice), Fresh coconut water',
     },
     music: [
-      'Típico (accordion music)',
-      'Reggaeton',
-      'Salsa',
-      'Afro-Caribbean rhythms',
+      { en: 'Típico (accordion music)', sv: 'Típico (dragspelsmusik)', de: 'Típico (Akkordeonmusik)', fr: 'Típico (musique d\'accordéon)', es: 'Típico (música de acordeón)', it: 'Típico (musica di fisarmonica)', pl: 'Típico (muzyka akordeonowa)', nl: 'Típico (accordeonmuziek)', pt: 'Típico (música de acordeão)' },
+      { en: 'Reggaeton', sv: 'Reggaeton', de: 'Reggaeton', fr: 'Reggaeton', es: 'Reggaeton', it: 'Reggaeton', pl: 'Reggaeton', nl: 'Reggaeton', pt: 'Reggaeton' },
+      { en: 'Salsa', sv: 'Salsa', de: 'Salsa', fr: 'Salsa', es: 'Salsa', it: 'Salsa', pl: 'Salsa', nl: 'Salsa', pt: 'Salsa' },
+      { en: 'Afro-Caribbean rhythms', sv: 'Afro-karibiska rytmer', de: 'Afro-karibische Rhythmen', fr: 'Rythmes afro-caribéens', es: 'Ritmos afrocaribeños', it: 'Ritmi afro-caraibici', pl: 'Rytmy afrokaribiskie', nl: 'Afro-Caribische ritmes', pt: 'Ritmos afro-caribenhos' },
     ],
     decorationIdeas: [
-      'Red, white and blue flag colors',
-      'Panama Canal imagery',
-      'Tropical rainforest themes',
-      'Indigenous mola textiles',
+      { en: 'Red, white and blue flag colors', sv: 'Röda, vita och blå flaggfärger', de: 'Rote, weiße und blaue Flaggenfarben', fr: 'Couleurs du drapeau rouge, blanc et bleu', es: 'Colores de la bandera rojo, blanco y azul', it: 'Colori della bandiera rosso, bianco e blu', pl: 'Czerwone, białe i niebieskie kolory flagi', nl: 'Rode, witte en blauwe vlagkleuren', pt: 'Cores da bandeira vermelho, branco e azul' },
+      { en: 'Panama Canal imagery', sv: 'Panamakanal-bilder', de: 'Panamakanal-Bilder', fr: 'Images du canal de Panama', es: 'Imágenes del Canal de Panamá', it: 'Immagini del Canale di Panama', pl: 'Zdjęcia Kanału Panamskiego', nl: 'Panama-kanaal afbeeldingen', pt: 'Imagens do Canal do Panamá' },
+      { en: 'Tropical rainforest themes', sv: 'Tropiska regnskogsteman', de: 'Tropische Regenwald-Themen', fr: 'Thèmes de forêt tropicale', es: 'Temática de selva tropical', it: 'Temi di foresta tropicale', pl: 'Motywy tropikalnych lasów deszczowych', nl: 'Tropisch regenwoud-thema\'s', pt: 'Temas de floresta tropical' },
+      { en: 'Indigenous mola textiles', sv: 'Inhemska mola-textilier', de: 'Indigene Mola-Textilien', fr: 'Textiles mola autochtones', es: 'Textiles mola indígenas', it: 'Tessuti mola indigeni', pl: 'Rdzenne tkaniny mola', nl: 'Inheemse mola-textiel', pt: 'Têxteis mola indígenas' },
     ],
     conversationStarters: [
-      'Have you been through the Panama Canal?',
-      'What do you know about connecting oceans?',
+      { en: 'Have you been through the Panama Canal?', sv: 'Har du åkt genom Panamakanalen?', de: 'Bist du durch den Panamakanal gefahren?', fr: 'Avez-vous traversé le canal de Panama ?', es: '¿Has pasado por el Canal de Panamá?', it: 'Hai attraversato il Canale di Panama?', pl: 'Czy przejechałeś przez Kanał Panamski?', nl: 'Ben je door het Panamakanaal gevaren?', pt: 'Você já passou pelo Canal do Panamá?' },
+      { en: 'What do you know about connecting oceans?', sv: 'Vad vet du om att förbinda hav?', de: 'Was weißt du über die Verbindung von Ozeanen?', fr: 'Que savez-vous de la connexion des océans ?', es: '¿Qué sabes sobre la conexión de océanos?', it: 'Cosa sai del collegamento degli oceani?', pl: 'Co wiesz o łączeniu oceanów?', nl: 'Wat weet je over het verbinden van oceanen?', pt: 'O que você sabe sobre a conexão de oceanos?' },
     ],
     quiz: [
       {

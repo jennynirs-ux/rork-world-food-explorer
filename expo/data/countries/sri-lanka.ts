@@ -250,7 +250,17 @@ export const sriLanka: Country = {
         pt: 'Sri Lanka has a literacy rate of over 92%',
       },
     ],
-    foodCulture: 'Sri Lankan cuisine is deeply aromatic and spice-driven, centered around rice served with multiple curries, sambols, and pickles. Coconut milk, curry leaves, chili, and spices are essential.',
+    foodCulture: {
+      en: 'Sri Lankan cuisine is deeply aromatic and spice-driven, centered around rice served with multiple curries, sambols, and pickles. Coconut milk, curry leaves, chili, and spices are essential.',
+      sv: 'Sri Lankansk mat är djupt aromatisk och kryddstyrd, centrerad kring ris serverat med flera curryrätter, sambols och pickles. Kokosmjölk, currylöv, chili och kryddor är väsentliga.',
+      de: 'Die sri-lankische Küche ist tief aromatisch und gewürzgetrieben, zentriert um Reis, der mit mehreren Currys, Sambols und Pickles serviert wird. Kokosmilch, Curryblätter, Chili und Gewürze sind unentbehrlich.',
+      fr: 'La cuisine sri-lankaise est profondément aromatique et axée sur les épices, centrée autour du riz servi avec de nombreux currys, sambols et pickles. Le lait de coco, les feuilles de curry, le piment et les épices sont essentiels.',
+      es: 'La cocina de Sri Lanka es profundamente aromática y orientada a las especias, centrada en el arroz servido con múltiples curries, sambols y encurtidos. La leche de coco, las hojas de curry, el chile y las especias son esenciales.',
+      it: 'La cucina dello Sri Lanka è profondamente aromatica e speziata, centrata sul riso servito con diversi curry, sambols e sottaceti. Il latte di cocco, le foglie di curry, il peperoncino e le spezie sono essenziali.',
+      pl: 'Kuchnia Sri Lanki jest głęboko aromatyczna i oparta na przyprawach, skoncentrowana na ryżu podawanym z wieloma currymi, sambolami i marynowanymi warzywami. Mleko kokosowe, liście curry, chili i przyprawy są niezbędne.',
+      nl: 'De Sri Lankaanse keuken is diep aromatisch en kruidengedreven, gericht op rijst geserveerd met meerdere curry\'s, sambols en augurken. Kokosmelk, kerrieblaren, chili en kruiden zijn essentieel.',
+      pt: 'A culinária do Sri Lanka é profundamente aromática e orientada por especiarias, centrada em arroz servido com vários curries, sambols e conservas. Leite de coco, folhas de curry, pimenta e especiarias são essenciais.',
+    },
     innovations: [
       {
         name: {
@@ -1340,24 +1350,24 @@ export const sriLanka: Country = {
       nonAlcoholic: 'Ceylon tea, King coconut water, Ginger beer, Fresh lime juice',
     },
     music: [
-      'Traditional Kandyan drumming',
-      'Baila music',
-      'Classical Sinhala songs',
-      'Tamil folk music',
+      { en: 'Traditional Kandyan drumming', sv: 'Traditionellt Kandyanskt trumspel', de: 'Traditionelles kandyanisches Trommeln', fr: 'Percussion kandyane traditionnelle', es: 'Percusión kandyana tradicional', it: 'Percussioni kandyane tradizionali', pl: 'Tradycyjne bębnienie kandyjskie', nl: 'Traditioneel Kandyaans drummen', pt: 'Percussão kandyana tradicional' },
+      { en: 'Baila music', sv: 'Bailamusik', de: 'Baila-Musik', fr: 'Musique baila', es: 'Música baila', it: 'Musica baila', pl: 'Muzyka baila', nl: 'Baila-muziek', pt: 'Música baila' },
+      { en: 'Classical Sinhala songs', sv: 'Klassiska sinhalesiska sånger', de: 'Klassische singhalesische Lieder', fr: 'Chansons cingalaises classiques', es: 'Canciones cingalesas clásicas', it: 'Canzoni singalesi classiche', pl: 'Klasyczne pieśni syngaleskie', nl: 'Klassieke Sinhalese liedjes', pt: 'Canções clássicas cingalesas' },
+      { en: 'Tamil folk music', sv: 'Tamilsk folkmusik', de: 'Tamilische Volksmusik', fr: 'Musique folklorique tamoule', es: 'Música folclórica tamil', it: 'Musica folk tamil', pl: 'Tamilska muzyka ludowa', nl: 'Tamil volksmuziek', pt: 'Música folclórica tâmil' },
     ],
     decorationIdeas: [
-      'Maroon, orange, and gold tones',
-      'Tea plantation imagery',
-      'Elephant motifs',
-      'Buddha statues',
-      'Colorful batik fabrics',
-      'Tropical flowers',
+      { en: 'Maroon, orange, and gold tones', sv: 'Rödbrun, orange och guldtoner', de: 'Kastanienbraune, orange und goldene Töne', fr: 'Tons bordeaux, orange et dorés', es: 'Tonos granate, naranja y dorado', it: 'Toni bordeaux, arancione e oro', pl: 'Tonalności bordowe, pomarańczowe i złote', nl: 'Kastanjebruin, oranje en gouden tinten', pt: 'Tons vinho, laranja e dourado' },
+      { en: 'Tea plantation imagery', sv: 'Teplantagenbilder', de: 'Teeplantagen-Bilder', fr: 'Imagerie de plantations de thé', es: 'Imágenes de plantaciones de té', it: 'Immagini di piantagioni di tè', pl: 'Obrazy plantacji herbaty', nl: 'Theeplantagebeelden', pt: 'Imagens de plantações de chá' },
+      { en: 'Elephant motifs', sv: 'Elefantmotiv', de: 'Elefantenmotive', fr: 'Motifs d\'éléphant', es: 'Motivos de elefante', it: 'Motivi di elefante', pl: 'Motywy słoni', nl: 'Olifantmotieven', pt: 'Motivos de elefante' },
+      { en: 'Buddha statues', sv: 'Buddhastatyer', de: 'Buddha-Statuen', fr: 'Statues de Bouddha', es: 'Estatuas de Buda', it: 'Statue di Buddha', pl: 'Posągi Buddy', nl: 'Boeddhabeelden', pt: 'Estátuas de Buda' },
+      { en: 'Colorful batik fabrics', sv: 'Färgglada batiktyger', de: 'Bunte Batik-Stoffe', fr: 'Tissus batik colorés', es: 'Telas de batik coloridas', it: 'Tessuti batik colorati', pl: 'Kolorowe tkaniny batik', nl: 'Kleurrijke batikstof', pt: 'Tecidos de batik coloridos' },
+      { en: 'Tropical flowers', sv: 'Tropiska blommor', de: 'Tropische Blumen', fr: 'Fleurs tropicales', es: 'Flores tropicales', it: 'Fiori tropicali', pl: 'Tropikalne kwiaty', nl: 'Tropische bloemen', pt: 'Flores tropicais' },
     ],
     conversationStarters: [
-      'Have you tried authentic Ceylon tea?',
-      'Would you visit Sigiriya Rock Fortress?',
-      'Sri Lanka has incredible wildlife — did you know about the leopards?',
-      'The train ride through tea country is world-famous!',
+      { en: 'Have you tried authentic Ceylon tea?', sv: 'Har du provat äkta Ceylon-te?', de: 'Haben Sie authentischen Ceylon-Tee probiert?', fr: 'Avez-vous essayé le vrai thé de Ceylan ?', es: '¿Has probado el auténtico té de Ceilán?', it: 'Hai provato il vero tè di Ceylon?', pl: 'Czy próbowałeś autentycznej herbaty cejlońskiej?', nl: 'Heb je authentieke Ceylon-thee geprobeerd?', pt: 'Você já experimentou chá autêntico do Ceilão?' },
+      { en: 'Would you visit Sigiriya Rock Fortress?', sv: 'Skulle du besöka Sigiriya klippfästning?', de: 'Würden Sie die Sigiriya-Felsfestung besuchen?', fr: 'Visiteriez-vous la forteresse rocheuse de Sigiriya ?', es: '¿Visitarías la Fortaleza de la Roca Sigiriya?', it: 'Visiteresti la Fortezza della Roccia Sigiriya?', pl: 'Czy odwiedziłbyś Twierdzę Skalną Sigiriya?', nl: 'Zou je de Sigiriya Rock Fortress bezoeken?', pt: 'Você visitaria a Fortaleza de Rocha de Sigiriya?' },
+      { en: 'Sri Lanka has incredible wildlife — did you know about the leopards?', sv: 'Sri Lanka har otrolig vild natur – visste du om leoparderna?', de: 'Sri Lanka hat unglaubliche Tierwelt – wussten Sie von den Leoparden?', fr: 'Le Sri Lanka possède une faune incroyable — saviez-vous pour les léopards ?', es: 'Sri Lanka tiene una vida silvestre increíble — ¿sabías lo de los leopardos?', it: 'Lo Sri Lanka ha una fauna incredibile — sapevi dei leopardi?', pl: 'Sri Lanka ma niesamowitą przyrodę – czy wiedziałeś o lampartach?', nl: 'Sri Lanka heeft ongelooflijk wild — wist je van de luipaarden?', pt: 'O Sri Lanka tem uma vida selvagem incrível — você sabia sobre os leopardos?' },
+      { en: 'The train ride through tea country is world-famous!', sv: 'Tågresan genom tédistriktet är världsberömd!', de: 'Die Zugfahrt durchs Teeland ist weltberühmt!', fr: 'Le trajet en train à travers le pays du thé est mondialement célèbre !', es: '¡El viaje en tren por la región del té es mundialmente famoso!', it: 'Il viaggio in treno attraverso il paese del tè è famoso in tutto il mondo!', pl: 'Przejazd pociągiem przez herbaciane tereny jest światowej sławy!', nl: 'De treinrit door het theeland is wereldberoemd!', pt: 'A viagem de trem pelo país do chá é mundialmente famosa!' },
     ],
     quiz: [
       {

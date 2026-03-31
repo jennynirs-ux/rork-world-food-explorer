@@ -164,8 +164,6 @@ export default function CookingMode({
 
   const stepMinutes = extractMinutes(steps[currentStep] || '');
 
-  if (!visible) return null;
-
   const content = (
     <SafeAreaView style={styles.container} edges={['top', 'bottom']}>
         {/* Header */}
@@ -308,12 +306,14 @@ export default function CookingMode({
 
   // On web, Modal doesn't work reliably — use a full-screen absolute overlay
   if (Platform.OS === 'web') {
+    if (!visible) return null;
     return <View style={styles.webOverlay}>{content}</View>;
   }
 
+  // On native, keep Modal mounted and toggle via visible prop so iOS can animate out cleanly
   return (
     <Modal
-      visible={true}
+      visible={visible}
       animationType="slide"
       presentationStyle="fullScreen"
       statusBarTranslucent

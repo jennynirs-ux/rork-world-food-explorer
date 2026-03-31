@@ -250,7 +250,17 @@ export const armenia: Country = {
         pt: 'Lake Sevan is one of the largest high-altitude lakes in Eurasia',
       },
     ],
-    foodCulture: 'Armenian cuisine features grilled meats, fresh herbs, and lavash bread. Meals are social gatherings with multiple courses. Cognac is highly regarded. Fresh vegetables, walnuts, pomegranates, and apricots feature prominently.',
+    foodCulture: {
+      en: 'Armenian cuisine features grilled meats, fresh herbs, and lavash bread. Meals are social gatherings with multiple courses. Cognac is highly regarded. Fresh vegetables, walnuts, pomegranates, and apricots feature prominently.',
+      sv: 'Armenisk mat har grillat kött, färska örter och lavasb-bröd. Måltider är sociala sammankomster med flera rätter. Konjak är högt ansedd. Färska grönsaker, valnötter, granatäpplen och aprikoser är framträdande ingredienser.',
+      de: 'Die armenische Küche zeichnet sich durch gegrilltes Fleisch, frische Kräuter und Lavash-Brot aus. Mahlzeiten sind gesellschaftliche Zusammenkünfte mit mehreren Gängen. Cognac ist hochgeschätzt. Frisches Gemüse, Walnüsse, Granatäpfel und Aprikosen spielen eine prominente Rolle.',
+      fr: 'La cuisine arménienne se distingue par ses viandes grillées, ses herbes fraîches et son pain lavash. Les repas sont des rassemblements sociaux avec plusieurs plats. Le cognac est très apprécié. Les légumes frais, les noix, les grenades et les abricots sont des ingrédients de premier plan.',
+      es: 'La cocina armenia se distingue por sus carnes a la parrilla, hierbas frescas y pan lavash. Las comidas son reuniones sociales con varios platos. El coñac es muy apreciado. Las verduras frescas, las nueces, las granadas y los albaricoques son ingredientes destacados.',
+      it: 'La cucina armena è caratterizzata da carni alla griglia, erbe fresche e pane lavash. I pasti sono incontri sociali con più portate. Il cognac è molto apprezzato. Verdure fresche, noci, melograni e albicocche sono ingredienti di primo piano.',
+      pl: 'Kuchnia ormiańska wyróżnia się grillowanymi mięsami, świeżymi ziołami i chlebem lavash. Posiłki są towarzyskimi spotkaniami z wieloma daniami. Koniak jest wysoko ceniony. Świeże warzywa, orzechy włoskie, granaty i morele są ważnymi składnikami.',
+      nl: 'De Armeense keuken kenmerkt zich door gegrild vlees, verse kruiden en lavashbrood. Maaltijden zijn sociale bijeenkomsten met meerdere gangen. Cognac staat in hoog aanzien. Verse groenten, walnoten, granaatappels en abrikozen spelen een prominente rol.',
+      pt: 'A culinária armênia é marcada por carnes grelhadas, ervas frescas e pão lavash. As refeições são encontros sociais com vários pratos. O conhaque é muito apreciado. Vegetais frescos, nozes, romãs e damascos são ingredientes de destaque.',
+    },
     history: [
       {
         year: '782 BC',
@@ -1207,20 +1217,20 @@ export const armenia: Country = {
       nonAlcoholic: 'Tan (yogurt drink), Armenian coffee, Apricot juice',
     },
     music: [
-      'Traditional duduk melodies',
-      'Armenian folk songs',
-      'Djivan Gasparyan performances',
+      { en: 'Traditional duduk melodies', sv: 'Traditionella duduk-melodier', de: 'Traditionelle Duduk-Melodien', fr: 'Mélodies de duduk traditionnelles', es: 'Melodías tradicionales de duduk', it: 'Melodie tradizionali di duduk', pl: 'Tradycyjne melodie duduk', nl: 'Traditionele duduk-melodieën', pt: 'Melodias tradicionais de duduk' },
+      { en: 'Armenian folk songs', sv: 'Armeniska folkvisor', de: 'Armenische Volkslieder', fr: 'Chansons folkloriques arméniennes', es: 'Canciones folclóricas armenias', it: 'Canzoni popolari armene', pl: 'Ormiańskie pieśni ludowe', nl: 'Armeense volksliederen', pt: 'Canções folclóricas armênias' },
+      { en: 'Djivan Gasparyan performances', sv: 'Djivan Gasparyan-framträdanden', de: 'Djivan Gasparyan Auftritte', fr: 'Performances de Djivan Gasparyan', es: 'Actuaciones de Djivan Gasparyan', it: 'Esibizioni di Djivan Gasparyan', pl: 'Występy Djivana Gasparyane', nl: 'Djivan Gasparyan optredens', pt: 'Apresentações de Djivan Gasparyan' },
     ],
     decorationIdeas: [
-      'Red, blue, and orange flag colors',
-      'Pomegranate motifs',
-      'Ancient Armenian script',
-      'Mount Ararat imagery',
+      { en: 'Red, blue, and orange flag colors', sv: 'Röda, blå och orangea flaggfärger', de: 'Rot, Blau und Orange als Flaggenfarben', fr: 'Couleurs rouge, bleu et orange du drapeau', es: 'Colores rojo, azul y naranja de la bandera', it: 'Colori rosso, blu e arancione della bandiera', pl: 'Czerwone, niebieskie i pomarańczowe barwy flagi', nl: 'Rode, blauwe en oranje vlagkleuren', pt: 'Cores vermelha, azul e laranja da bandeira' },
+      { en: 'Pomegranate motifs', sv: 'Granatäppelsmotiv', de: 'Granatapfel-Motive', fr: 'Motifs de grenade', es: 'Motivos de granada', it: 'Motivi di melograno', pl: 'Motywy granatu', nl: 'Granaatappel-motieven', pt: 'Motivos de romã' },
+      { en: 'Ancient Armenian script', sv: 'Forntida armeniskt skriftspråk', de: 'Alte armenische Schrift', fr: 'Écriture arménienne ancienne', es: 'Escritura armenia antigua', it: 'Scrittura armena antica', pl: 'Starożytne pismo ormiańskie', nl: 'Oud Armeens schrift', pt: 'Escrita armênia antiga' },
+      { en: 'Mount Ararat imagery', sv: 'Bilder av berget Ararat', de: 'Berg-Ararat-Bilder', fr: 'Images du mont Ararat', es: 'Imágenes del monte Ararat', it: 'Immagini del Monte Ararat', pl: 'Wizerunki góry Ararat', nl: 'Mount Ararat-beelden', pt: 'Imagens do Monte Ararat' },
     ],
     conversationStarters: [
-      'Have you tried Armenian cognac?',
-      'What do you know about ancient Christianity?',
-      'Do you enjoy grilled meats?',
+      { en: 'Have you tried Armenian cognac?', sv: 'Har du provat armenisk konjak?', de: 'Haben Sie armenischen Cognac probiert?', fr: 'Avez-vous essayé le cognac arménien?', es: '¿Has probado el coñac armenio?', it: 'Hai provato il cognac armeno?', pl: 'Czy próbowałeś ormiańskiego koniaku?', nl: 'Heb je Armeense cognac geprobeerd?', pt: 'Você já experimentou conhaque armênio?' },
+      { en: 'What do you know about ancient Christianity?', sv: 'Vad vet du om fornkristendomen?', de: 'Was wissen Sie über das frühe Christentum?', fr: 'Que savez-vous du christianisme ancien?', es: '¿Qué sabes sobre el cristianismo antiguo?', it: 'Cosa sai del cristianesimo antico?', pl: 'Co wiesz o wczesnym chrześcijaństwie?', nl: 'Wat weet je over het vroege christendom?', pt: 'O que você sabe sobre o cristianismo antigo?' },
+      { en: 'Do you enjoy grilled meats?', sv: 'Tycker du om grillat kött?', de: 'Mögen Sie gegrilltes Fleisch?', fr: 'Aimez-vous les viandes grillées?', es: '¿Disfrutas de las carnes a la parrilla?', it: 'Ti piacciono le carni alla griglia?', pl: 'Czy lubisz grillowane mięso?', nl: 'Houd je van gegrild vlees?', pt: 'Você gosta de carnes grelhadas?' },
     ],
     quiz: [
       {

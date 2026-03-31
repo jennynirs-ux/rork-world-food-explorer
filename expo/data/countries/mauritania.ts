@@ -206,7 +206,17 @@ export const mauritania: Country = {
         pt: 'Traditional nomadic lifestyle still practiced',
       },
     ],
-    foodCulture: 'Mauritanian cuisine features couscous, dates, camel meat, and mint tea with Arab and Berber influences.',
+    foodCulture: {
+      en: 'Mauritanian cuisine features couscous, dates, camel meat, and mint tea with Arab and Berber influences.',
+      sv: 'Mauritansk mat innehåller couscous, dadlar, kamelkött och mintté med arabiska och berbiska influenser.',
+      de: 'Die mauretanische Küche umfasst Couscous, Datteln, Kamelfleisch und Minztee mit arabischen und berberischen Einflüssen.',
+      fr: 'La cuisine mauritanienne comprend du couscous, des dattes, de la viande de chameau et du thé à la menthe avec des influences arabes et berbères.',
+      es: 'La cocina mauritana incluye cuscús, dátiles, carne de camello y té de menta con influencias árabes y bereberes.',
+      it: 'La cucina mauritana comprende couscous, datteri, carne di cammello e tè alla menta con influenze arabe e berbere.',
+      pl: 'Kuchnia mauretańska zawiera kuskus, daktyle, mięso wielbłąda i herbatę miętową z wpływami arabskimi i berberyjskimi.',
+      nl: 'De Mauritaanse keuken bevat couscous, dadels, kameelvlees en muntenthee met Arabische en Berberse invloeden.',
+      pt: 'A cozinha mauritana inclui cuscuz, tâmaras, carne de camelo e chá de hortelã com influências árabes e bérberes.',
+    },
     history: [
       {
         year: 'Ancient',
@@ -917,19 +927,19 @@ export const mauritania: Country = {
       nonAlcoholic: 'Mint tea (very sweet), Zrig (camel milk), Fresh dates',
     },
     music: [
-      'Traditional Moorish music',
-      'Tidinit lute music',
-      'Desert blues',
+      { en: 'Traditional Moorish music', sv: 'Traditionell morisk musik', de: 'Traditionelle maurische Musik', fr: 'Musique maure traditionnelle', es: 'Música mora tradicional', it: 'Musica mora tradizionale', pl: 'Tradycyjna muzyka mauryjska', nl: 'Traditionele Moorse muziek', pt: 'Música mourisca tradicional' },
+      { en: 'Tidinit lute music', sv: 'Tidinit-lutmusik', de: 'Tidinit-Laute-Musik', fr: 'Musique du luth tidinit', es: 'Música del laúd tidinit', it: 'Musica del liuto tidinit', pl: 'Muzyka na lutni tidinit', nl: 'Tidinit luit muziek', pt: 'Música do alaúde tidinit' },
+      { en: 'Desert blues', sv: 'Öknarblues', de: 'Wüsten-Blues', fr: 'Blues du désert', es: 'Blues del desierto', it: 'Blues del deserto', pl: 'Blues pustyni', nl: 'Woestijnblues', pt: 'Blues do deserto' },
     ],
     decorationIdeas: [
-      'Green and yellow flag colors',
-      'Desert dune imagery',
-      'Crescent moon and star',
-      'Camel themes',
+      { en: 'Green and yellow flag colors', sv: 'Gröna och gula flaggfärger', de: 'Grün und Gelb der Flaggenfarben', fr: 'Couleurs du drapeau : vert et jaune', es: 'Colores de la bandera: verde y amarillo', it: 'Colori della bandiera: verde e giallo', pl: 'Zielone i żółte barwy flagi', nl: 'Groen en geel van de vlagkleuren', pt: 'Cores da bandeira: verde e amarelo' },
+      { en: 'Desert dune imagery', sv: 'Bilder av ökenklitter', de: 'Wüstendünen-Bilder', fr: 'Images de dunes du désert', es: 'Imágenes de dunas del desierto', it: 'Immagini di dune del deserto', pl: 'Obrazy wydm pustynnych', nl: 'Woestijnduinen afbeeldingen', pt: 'Imagens de dunas do deserto' },
+      { en: 'Crescent moon and star', sv: 'Halvmåne och stjärna', de: 'Halbmond und Stern', fr: 'Croissant de lune et étoile', es: 'Luna creciente y estrella', it: 'Luna crescente e stella', pl: 'Półksiężyc i gwiazda', nl: 'Halve maan en ster', pt: 'Lua crescente e estrela' },
+      { en: 'Camel themes', sv: 'Kamelteman', de: 'Kamel-Motive', fr: 'Thèmes de chameaux', es: 'Temas de camellos', it: 'Temi sui cammelli', pl: 'Motywy wielbłądów', nl: 'Kameel thema\'s', pt: 'Temas de camelos' },
     ],
     conversationStarters: [
-      'Have you experienced Saharan culture?',
-      'What do you know about desert nomads?',
+      { en: 'Have you experienced Saharan culture?', sv: 'Har du upplevt sahararisk kultur?', de: 'Hast du die Sahara-Kultur erlebt?', fr: 'Avez-vous vécu la culture saharienne ?', es: '¿Has experimentado la cultura sahariana?', it: 'Hai vissuto la cultura sahariana?', pl: 'Czy doświadczyłeś kultury Sahary?', nl: 'Heb je de Saharische cultuur ervaren?', pt: 'Você já experienciou a cultura saariana?' },
+      { en: 'What do you know about desert nomads?', sv: 'Vad vet du om ökenomader?', de: 'Was weißt du über Wüstennomaden?', fr: 'Que savez-vous des nomades du désert ?', es: '¿Qué sabes sobre los nómadas del desierto?', it: 'Cosa sai dei nomadi del deserto?', pl: 'Co wiesz o nomadach pustyni?', nl: 'Wat weet je over woestijnnomaden?', pt: 'O que você sabe sobre nômades do deserto?' },
     ],
     quiz: [
       {

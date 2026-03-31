@@ -250,7 +250,17 @@ export const sierraLeone: Country = {
         pt: 'Krío is widely spoken as a lingua franca',
       },
     ],
-    foodCulture: 'Sierra Leonean cuisine is based on rice, cassava, palm oil, fish, and leafy sauces. Meals are often spicy and communal, with rice served alongside stews made from groundnuts, okra, cassava leaves, or fish.',
+    foodCulture: {
+      en: 'Sierra Leonean cuisine is based on rice, cassava, palm oil, fish, and leafy sauces. Meals are often spicy and communal, with rice served alongside stews made from groundnuts, okra, cassava leaves, or fish.',
+      sv: 'Sierra Leones mat bygger på ris, kassava, palmolja, fisk och bladiga såser. Måltider är ofta kryddiga och gemensamma, med ris serverat tillsammans med grytor gjorda av jordnötter, okra, kassavablad eller fisk.',
+      de: 'Die sierra-leonische Küche basiert auf Reis, Maniok, Palmöl, Fisch und Blattsaucen. Mahlzeiten sind oft würzig und gemeinschaftlich, mit Reis zusammen mit Eintöpfen aus Erdnüssen, Okra, Maniokblättern oder Fisch.',
+      fr: 'La cuisine sierra-léonaise est à base de riz, de manioc, d\'huile de palme, de poisson et de sauces aux feuilles. Les repas sont souvent épicés et communautaires, avec du riz servi avec des ragoûts à base d\'arachides, de gombo, de feuilles de manioc ou de poisson.',
+      es: 'La cocina de Sierra Leona se basa en arroz, yuca, aceite de palma, pescado y salsas de hojas. Las comidas suelen ser picantes y comunitarias, con arroz servido junto a guisos de cacahuetes, quimbombó, hojas de yuca o pescado.',
+      it: 'La cucina della Sierra Leone è basata su riso, manioca, olio di palma, pesce e salse di foglie. I pasti sono spesso piccanti e condivisi, con riso servito con stufati di arachidi, okra, foglie di manioca o pesce.',
+      pl: 'Kuchnia Sierra Leone opiera się na ryżu, manioku, oleju palmowym, rybach i liściastych sosach. Posiłki są często pikantne i wspólne, z ryżem podawanym wraz z gulaszami z orzeszków ziemnych, okry, liści manioku lub ryb.',
+      nl: 'De Sierra Leoonse keuken is gebaseerd op rijst, cassave, palmolie, vis en bladsoorten. Maaltijden zijn vaak gekruid en communaal, met rijst geserveerd naast stoofschotels van aardnoten, okra, cassavebladeren of vis.',
+      pt: 'A culinária de Serra Leoa baseia-se em arroz, mandioca, óleo de palma, peixe e molhos de folhas. As refeições são frequentemente picantes e comunitárias, com arroz servido junto com ensopados de amendoim, quiabo, folhas de mandioca ou peixe.',
+    },
     history: [
       {
         year: '1400s',
@@ -1097,22 +1107,22 @@ export const sierraLeone: Country = {
       nonAlcoholic: 'Ginger beer, Fresh coconut water, Hibiscus tea',
     },
     music: [
-      'Palm wine music',
-      'Bubu music',
-      'Afrobeat',
-      'Traditional drumming',
+      { en: 'Palm wine music', sv: 'Palmvinmusik', de: 'Palmwein-Musik', fr: 'Musique de vin de palme', es: 'Música de vino de palma', it: 'Musica del vino di palma', pl: 'Muzyka palmowego wina', nl: 'Palmwijnmuziek', pt: 'Música de vinho de palma' },
+      { en: 'Bubu music', sv: 'Bubu-musik', de: 'Bubu-Musik', fr: 'Musique bubu', es: 'Música bubu', it: 'Musica bubu', pl: 'Muzyka bubu', nl: 'Bubu-muziek', pt: 'Música bubu' },
+      { en: 'Afrobeat', sv: 'Afrobeat', de: 'Afrobeat', fr: 'Afrobeat', es: 'Afrobeat', it: 'Afrobeat', pl: 'Afrobeat', nl: 'Afrobeat', pt: 'Afrobeat' },
+      { en: 'Traditional drumming', sv: 'Traditionellt trumspel', de: 'Traditionelles Trommeln', fr: 'Percussion traditionnelle', es: 'Percusión tradicional', it: 'Percussioni tradizionali', pl: 'Tradycyjne bębnienie', nl: 'Traditioneel drummen', pt: 'Percussão tradicional' },
     ],
     decorationIdeas: [
-      'Green, white, and blue flag colors',
-      'Coastal and beach imagery',
-      'Traditional masks and textiles',
-      'Natural wood and woven decor',
+      { en: 'Green, white, and blue flag colors', sv: 'Gröna, vita och blå flaggfärger', de: 'Grüne, weiße und blaue Flaggenfarben', fr: 'Couleurs du drapeau : vert, blanc et bleu', es: 'Colores de la bandera: verde, blanco y azul', it: 'Colori della bandiera: verde, bianco e blu', pl: 'Kolory flagi: zielony, biały i niebieski', nl: 'Groene, witte en blauwe vlagkleuren', pt: 'Cores da bandeira: verde, branco e azul' },
+      { en: 'Coastal and beach imagery', sv: 'Kust- och strandbilder', de: 'Küsten- und Strandbilder', fr: 'Imagerie côtière et de plage', es: 'Imágenes costeras y de playa', it: 'Immagini costiere e di spiaggia', pl: 'Obrazy wybrzeża i plaży', nl: 'Kust- en strandbeelden', pt: 'Imagens costeiras e de praia' },
+      { en: 'Traditional masks and textiles', sv: 'Traditionella masker och textilier', de: 'Traditionelle Masken und Textilien', fr: 'Masques traditionnels et textiles', es: 'Máscaras tradicionales y textiles', it: 'Maschere tradizionali e tessuti', pl: 'Tradycyjne maski i tkaniny', nl: 'Traditionele maskers en textiel', pt: 'Máscaras tradicionais e têxteis' },
+      { en: 'Natural wood and woven decor', sv: 'Naturträ och vävda dekorationer', de: 'Naturholz und geflochtene Dekoration', fr: 'Décoration en bois naturel et tissée', es: 'Decoración de madera natural y tejida', it: 'Decorazioni in legno naturale e intrecciato', pl: 'Dekoracje z naturalnego drewna i tkanin', nl: 'Natureel hout en geweven decor', pt: 'Decoração de madeira natural e trançada' },
     ],
     conversationStarters: [
-      'Have you ever tried West African jollof rice?',
-      'Did you know Freetown was founded for freed enslaved people?',
-      'Would you rather visit beaches or rainforests?',
-      'What do you know about African music styles?',
+      { en: 'Have you ever tried West African jollof rice?', sv: 'Har du någonsin provat västafrikansk jollofris?', de: 'Haben Sie jemals westafrikanischen Jollof-Reis probiert?', fr: 'Avez-vous déjà goûté le riz jollof d\'Afrique de l\'Ouest ?', es: '¿Has probado alguna vez el arroz jollof de África Occidental?', it: 'Hai mai provato il riso jollof dell\'Africa occidentale?', pl: 'Czy próbowałeś kiedyś zachodnioafrykańskiego ryżu jollof?', nl: 'Heb je ooit West-Afrikaanse jollofrijst geprobeerd?', pt: 'Você já experimentou arroz jollof da África Ocidental?' },
+      { en: 'Did you know Freetown was founded for freed enslaved people?', sv: 'Visste du att Freetown grundades för frigivna slavar?', de: 'Wussten Sie, dass Freetown für befreite versklavte Menschen gegründet wurde?', fr: 'Saviez-vous que Freetown a été fondée pour des esclaves affranchis ?', es: '¿Sabías que Freetown fue fundada para personas esclavizadas liberadas?', it: 'Sapevi che Freetown fu fondata per le persone schiavizzate liberate?', pl: 'Czy wiedziałeś, że Freetown zostało założone dla wyzwolonych niewolników?', nl: 'Wist je dat Freetown werd opgericht voor vrijgelaten tot slaaf gemaakte mensen?', pt: 'Você sabia que Freetown foi fundada para pessoas escravizadas libertas?' },
+      { en: 'Would you rather visit beaches or rainforests?', sv: 'Föredrar du att besöka stränder eller regnskogar?', de: 'Würden Sie lieber Strände oder Regenwälder besuchen?', fr: 'Préférez-vous visiter des plages ou des forêts tropicales ?', es: '¿Preferirías visitar playas o selvas tropicales?', it: 'Preferiresti visitare spiagge o foreste pluviali?', pl: 'Czy wolisz odwiedzać plaże czy lasy tropikalne?', nl: 'Bezoek je liever stranden of regenwouden?', pt: 'Você preferiria visitar praias ou florestas tropicais?' },
+      { en: 'What do you know about African music styles?', sv: 'Vad vet du om afrikanska musikstilar?', de: 'Was wissen Sie über afrikanische Musikstile?', fr: 'Que savez-vous des styles musicaux africains ?', es: '¿Qué sabes sobre los estilos musicales africanos?', it: 'Cosa sai degli stili musicali africani?', pl: 'Co wiesz o afrykańskich stylach muzycznych?', nl: 'Wat weet u over Afrikaanse muziekstijlen?', pt: 'O que você sabe sobre os estilos musicais africanos?' },
     ],
     quiz: [
       {

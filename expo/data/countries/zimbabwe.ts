@@ -239,7 +239,17 @@ export const zimbabwe: Country = {
         pt: 'Zimbabwe is famous for its stone sculpture tradition',
       },
     ],
-    foodCulture: 'Zimbabwean cuisine is centered around sadza (thick maize porridge) served with relishes such as leafy greens, beans, peanut sauce, and stews. Meals are often shared communally and traditionally eaten by hand. Grilled meats and seasonal vegetables are also common.',
+    foodCulture: {
+      en: 'Zimbabwean cuisine is centered around sadza (thick maize porridge) served with relishes such as leafy greens, beans, peanut sauce, and stews. Meals are often shared communally and traditionally eaten by hand. Grilled meats and seasonal vegetables are also common.',
+      sv: 'Zimbabwisk mat är centrerad kring sadza (tjock majsgröt) serverad med tillbehör som bladgrönsaker, bönor, jordnötssås och grytor. Måltider delas ofta gemensamt och äts traditionellt med händerna. Grillade kötträtter och säsongsbetonade grönsaker är också vanliga.',
+      de: 'Die simbabwische Küche dreht sich um Sadza (dicker Maisbrei), der mit Beilagen wie Blattgemüse, Bohnen, Erdnusssauce und Eintöpfen serviert wird. Mahlzeiten werden oft gemeinschaftlich geteilt und traditionell mit der Hand gegessen. Gegrilltes Fleisch und saisonales Gemüse sind ebenfalls üblich.',
+      fr: 'La cuisine zimbabwéenne est centrée sur le sadza (épaisse bouillie de maïs) servi avec des garnitures telles que des légumes verts, des haricots, de la sauce aux arachides et des ragoûts. Les repas sont souvent partagés en commun et mangés traditionnellement à la main. Les viandes grillées et les légumes de saison sont également courants.',
+      es: 'La cocina zimbabuense se centra en el sadza (papilla espesa de maíz) servido con acompañamientos como verduras de hoja, frijoles, salsa de maní y guisos. Las comidas se comparten a menudo en comunidad y se comen tradicionalmente con las manos. Las carnes a la parrilla y las verduras de temporada también son comunes.',
+      it: 'La cucina zimbabwana è centrata sul sadza (densa pappa di mais) servito con contorni come verdure a foglia, fagioli, salsa di arachidi e stufati. I pasti vengono spesso condivisi in comunità e tradizionalmente mangiati con le mani. Carni grigliate e verdure di stagione sono anche comuni.',
+      pl: 'Kuchnia zimbabwejska skupia się na sadza (gęstej owsiance kukurydzianej) podawanej z dodatkami, takimi jak warzywa liściaste, fasola, sos orzechowy i gulasze. Posiłki są często dzielone wspólnie i tradycyjnie spożywane rękami. Grillowane mięsa i warzywa sezonowe są również powszechne.',
+      nl: 'De Zimbabwaanse keuken is gecentreerd op sadza (dikke maispap) geserveerd met garnituren zoals bladgroenten, bonen, pindasaus en stoofschotels. Maaltijden worden vaak gemeenschappelijk gedeeld en traditioneel met de hand gegeten. Gegrild vlees en seizoensgroenten zijn ook gebruikelijk.',
+      pt: 'A culinária zimbabweana centra-se no sadza (papa de milho espessa) servido com acompanhamentos como verduras de folha, feijão, molho de amendoim e ensopados. As refeições são frequentemente partilhadas em comunidade e tradicionalmente comidas com as mãos. Carnes grelhadas e legumes sazonais também são comuns.',
+    },
     innovations: [
       {
         name: {
@@ -1065,23 +1075,23 @@ export const zimbabwe: Country = {
       nonAlcoholic: 'Maheu (fermented maize drink), Sweet tea, Fresh fruit juices',
     },
     music: [
-      'Mbira music',
-      'Chimurenga music',
-      'Thomas Mapfumo songs',
-      'Contemporary Afro-jazz',
+      { en: 'Mbira music', sv: 'Mbira-musik', de: 'Mbira-Musik', fr: 'Musique mbira', es: 'Música mbira', it: 'Musica mbira', pl: 'Muzyka mbira', nl: 'Mbira muziek', pt: 'Música mbira' },
+      { en: 'Chimurenga music', sv: 'Chimurenga-musik', de: 'Chimurenga-Musik', fr: 'Musique chimurenga', es: 'Música chimurenga', it: 'Musica chimurenga', pl: 'Muzyka chimurenga', nl: 'Chimurenga muziek', pt: 'Música chimurenga' },
+      { en: 'Thomas Mapfumo songs', sv: 'Thomas Mapfumo-låtar', de: 'Thomas Mapfumo-Lieder', fr: 'Chansons de Thomas Mapfumo', es: 'Canciones de Thomas Mapfumo', it: 'Canzoni di Thomas Mapfumo', pl: 'Piosenki Thomasa Mapfumo', nl: 'Thomas Mapfumo nummers', pt: 'Canções de Thomas Mapfumo' },
+      { en: 'Contemporary Afro-jazz', sv: 'Samtida afrojazz', de: 'Zeitgenössischer Afro-Jazz', fr: 'Afro-jazz contemporain', es: 'Afro-jazz contemporáneo', it: 'Afro-jazz contemporaneo', pl: 'Współczesny afrojazz', nl: 'Hedendaagse Afro-jazz', pt: 'Afro-jazz contemporâneo' },
     ],
     decorationIdeas: [
-      'Green, yellow, red, and black flag colors',
-      'Stone sculpture replicas',
-      'Traditional baskets and woven textiles',
-      'Victoria Falls imagery',
-      'Wildlife safari themes',
+      { en: 'Green, yellow, red, and black flag colors', sv: 'Gröna, gula, röda och svarta flaggfärger', de: 'Grüne, gelbe, rote und schwarze Flaggenfarben', fr: 'Couleurs du drapeau vert, jaune, rouge et noir', es: 'Colores de la bandera verde, amarillo, rojo y negro', it: 'Colori della bandiera verde, giallo, rosso e nero', pl: 'Kolory flagi zielony, żółty, czerwony i czarny', nl: 'Groene, gele, rode en zwarte vlagkleuren', pt: 'Cores da bandeira verde, amarelo, vermelho e preto' },
+      { en: 'Stone sculpture replicas', sv: 'Stensskulpturrepliker', de: 'Steinskulpturen-Repliken', fr: 'Répliques de sculptures en pierre', es: 'Réplicas de esculturas de piedra', it: 'Repliche di sculture in pietra', pl: 'Repliki kamiennych rzeźb', nl: 'Stenen beeldhouwwerk replica\'s', pt: 'Réplicas de esculturas em pedra' },
+      { en: 'Traditional baskets and woven textiles', sv: 'Traditionella korgar och vävda textilier', de: 'Traditionelle Körbe und gewebte Textilien', fr: 'Paniers traditionnels et textiles tissés', es: 'Cestas tradicionales y textiles tejidos', it: 'Cesti tradizionali e tessuti intrecciati', pl: 'Tradycyjne kosze i tkaniny plecione', nl: 'Traditionele manden en geweven textiel', pt: 'Cestos tradicionais e têxteis tecidos' },
+      { en: 'Victoria Falls imagery', sv: 'Victoriafallens motiv', de: 'Victoria-Falls-Motive', fr: 'Images des chutes Victoria', es: 'Imágenes de las Cataratas Victoria', it: 'Immagini delle Cascate Vittoria', pl: 'Motywy Wodospadów Wiktorii', nl: 'Victoria Falls afbeeldingen', pt: 'Imagens das Cataratas Vitória' },
+      { en: 'Wildlife safari themes', sv: 'Djurlivsafari-teman', de: 'Wildtier-Safari-Themen', fr: 'Thèmes de safari animalier', es: 'Temas de safari de vida silvestre', it: 'Temi di safari della fauna selvatica', pl: 'Motywy safari dzikiej przyrody', nl: 'Wilde dieren safari thema\'s', pt: 'Temas de safari de fauna selvagem' },
     ],
     conversationStarters: [
-      'Have you seen Victoria Falls (in person or in photos)?',
-      'What do you find most fascinating about ancient ruins like Great Zimbabwe?',
-      'Have you tried sadza or similar maize-based dishes?',
-      'Which African wildlife would you most like to see on safari?',
+      { en: 'Have you seen Victoria Falls (in person or in photos)?', sv: 'Har du sett Victoriafallen (personligen eller i foton)?', de: 'Haben Sie die Victoriafälle gesehen (persönlich oder auf Fotos)?', fr: 'Avez-vous vu les chutes Victoria (en personne ou en photos) ?', es: '¿Has visto las Cataratas Victoria (en persona o en fotos)?', it: 'Hai visto le Cascate Vittoria (di persona o in foto)?', pl: 'Czy widziałeś Wodospady Wiktorii (osobiście lub na zdjęciach)?', nl: 'Heb je de Victoria Falls gezien (in persoon of op foto\'s)?', pt: 'Já viste as Cataratas Vitória (pessoalmente ou em fotos)?' },
+      { en: 'What do you find most fascinating about ancient ruins like Great Zimbabwe?', sv: 'Vad tycker du är mest fascinerande med antika ruiner som Great Zimbabwe?', de: 'Was finden Sie an alten Ruinen wie Groß-Simbabwe am faszinierendsten?', fr: 'Qu\'est-ce que vous trouvez le plus fascinant dans les ruines antiques comme le Grand Zimbabwe ?', es: '¿Qué encuentras más fascinante sobre las ruinas antiguas como Gran Zimbabue?', it: 'Cosa trovi più affascinante delle rovine antiche come il Grande Zimbabwe?', pl: 'Co uważasz za najbardziej fascynujące w starożytnych ruinach takich jak Wielkie Zimbabwe?', nl: 'Wat vind je het meest fascinerend aan oude ruïnes zoals Groot-Zimbabwe?', pt: 'O que achaste mais fascinante nas ruínas antigas como o Grande Zimbabué?' },
+      { en: 'Have you tried sadza or similar maize-based dishes?', sv: 'Har du provat sadza eller liknande majsbaserade rätter?', de: 'Haben Sie Sadza oder ähnliche maisbasierte Gerichte probiert?', fr: 'Avez-vous goûté le sadza ou des plats similaires à base de maïs ?', es: '¿Has probado el sadza o platos similares a base de maíz?', it: 'Hai mai assaggiato il sadza o piatti simili a base di mais?', pl: 'Czy próbowałeś sadzy lub podobnych dań na bazie kukurydzy?', nl: 'Heb je sadza of vergelijkbare maïsgebaseerde gerechten geprobeerd?', pt: 'Já experimentaste sadza ou pratos similares à base de milho?' },
+      { en: 'Which African wildlife would you most like to see on safari?', sv: 'Vilket afrikanskt djurliv skulle du mest vilja se på safari?', de: 'Welche afrikanische Tierwelt würden Sie am liebsten auf Safari sehen?', fr: 'Quelle faune africaine aimeriez-vous le plus voir en safari ?', es: '¿Qué fauna africana te gustaría ver más en un safari?', it: 'Quale fauna africana vorresti vedere di più in un safari?', pl: 'Jaką afrykańską faunę chciałbyś najbardziej zobaczyć na safari?', nl: 'Welke Afrikaanse wildlife wil je het meest zien op safari?', pt: 'Que fauna africana gostaria mais de ver num safari?' },
     ],
     quiz: [
       {

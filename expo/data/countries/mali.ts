@@ -206,7 +206,17 @@ export const mali: Country = {
         pt: 'Birthplace of kora music and blues',
       },
     ],
-    foodCulture: 'Malian cuisine features millet, rice, peanuts, and vegetables with West African spices.',
+    foodCulture: {
+      en: 'Malian cuisine features millet, rice, peanuts, and vegetables with West African spices.',
+      sv: 'Malisk mat innehåller hirs, ris, jordnötter och grönsaker med västafrikanska kryddor.',
+      de: 'Die malische Küche enthält Hirse, Reis, Erdnüsse und Gemüse mit westafrikanischen Gewürzen.',
+      fr: 'La cuisine malienne est composée de mil, de riz, d\'arachides et de légumes avec des épices d\'Afrique de l\'Ouest.',
+      es: 'La cocina maliense incluye mijo, arroz, cacahuetes y verduras con especias de África Occidental.',
+      it: 'La cucina maliana comprende miglio, riso, arachidi e verdure con spezie dell\'Africa occidentale.',
+      pl: 'Kuchnia malijska zawiera proso, ryż, orzeszki ziemne i warzywa z przyprawami Afryki Zachodniej.',
+      nl: 'De Malinese keuken bevat gierst, rijst, pinda\'s en groenten met West-Afrikaanse kruiden.',
+      pt: 'A cozinha maliana inclui milho, arroz, amendoins e vegetais com especiarias da África Ocidental.',
+    },
     history: [
       {
         year: '1235',
@@ -957,21 +967,21 @@ export const mali: Country = {
       nonAlcoholic: 'Bissap (hibiscus tea), Ginger juice, Baobab juice',
     },
     music: [
-      'Kora traditional music',
-      'Desert blues',
-      'Ali Farka Touré',
-      'Toumani Diabaté',
+      { en: 'Kora traditional music', sv: 'Traditionell koramusik', de: 'Traditionelle Kora-Musik', fr: 'Musique traditionnelle de kora', es: 'Música tradicional de kora', it: 'Musica tradizionale della kora', pl: 'Tradycyjna muzyka kora', nl: 'Traditionele koramuziek', pt: 'Música tradicional de kora' },
+      { en: 'Desert blues', sv: 'Öknarblues', de: 'Wüsten-Blues', fr: 'Blues du désert', es: 'Blues del desierto', it: 'Blues del deserto', pl: 'Blues pustyni', nl: 'Woestijnblues', pt: 'Blues do deserto' },
+      { en: 'Ali Farka Touré', sv: 'Ali Farka Touré', de: 'Ali Farka Touré', fr: 'Ali Farka Touré', es: 'Ali Farka Touré', it: 'Ali Farka Touré', pl: 'Ali Farka Touré', nl: 'Ali Farka Touré', pt: 'Ali Farka Touré' },
+      { en: 'Toumani Diabaté', sv: 'Toumani Diabaté', de: 'Toumani Diabaté', fr: 'Toumani Diabaté', es: 'Toumani Diabaté', it: 'Toumani Diabaté', pl: 'Toumani Diabaté', nl: 'Toumani Diabaté', pt: 'Toumani Diabaté' },
     ],
     decorationIdeas: [
-      'Green, yellow and red flag colors',
-      'Mud-brick architecture imagery',
-      'Kora instruments',
-      'Saharan themes',
+      { en: 'Green, yellow and red flag colors', sv: 'Gröna, gula och röda flaggfärger', de: 'Grün, Gelb und Rot der Flaggenfarben', fr: 'Couleurs du drapeau : vert, jaune et rouge', es: 'Colores de la bandera: verde, amarillo y rojo', it: 'Colori della bandiera: verde, giallo e rosso', pl: 'Zielone, żółte i czerwone barwy flagi', nl: 'Groen, geel en rood van de vlagkleuren', pt: 'Cores da bandeira: verde, amarelo e vermelho' },
+      { en: 'Mud-brick architecture imagery', sv: 'Bilder av lertegelarkitektur', de: 'Lehmziegelarchitektur-Bilder', fr: 'Images d\'architecture en banco', es: 'Imágenes de arquitectura de adobe', it: 'Immagini di architettura in mattoni di fango', pl: 'Obrazy architektury z cegły mułowej', nl: 'Afbeeldingen van leemsteenarchitectuur', pt: 'Imagens de arquitetura em adobe' },
+      { en: 'Kora instruments', sv: 'Korainstrument', de: 'Kora-Instrumente', fr: 'Instruments de kora', es: 'Instrumentos de kora', it: 'Strumenti kora', pl: 'Instrumenty kora', nl: 'Kora-instrumenten', pt: 'Instrumentos kora' },
+      { en: 'Saharan themes', sv: 'Saharateman', de: 'Sahara-Motive', fr: 'Thèmes sahariens', es: 'Temas del Sáhara', it: 'Temi sahariani', pl: 'Motywy Sahary', nl: 'Sahara thema\'s', pt: 'Temas do Saara' },
     ],
     conversationStarters: [
-      'Have you heard of Timbuktu?',
-      'What do you know about West African blues?',
-      'Do you enjoy traditional string instruments?',
+      { en: 'Have you heard of Timbuktu?', sv: 'Har du hört talas om Timbuktu?', de: 'Hast du von Timbuktu gehört?', fr: 'Avez-vous entendu parler de Tombouctou ?', es: '¿Has oído hablar de Tombuctú?', it: 'Hai sentito parlare di Timbuktu?', pl: 'Czy słyszałeś o Timbuktu?', nl: 'Heb je gehoord van Timboektoe?', pt: 'Você já ouviu falar de Tombuktu?' },
+      { en: 'What do you know about West African blues?', sv: 'Vad vet du om västafrikansk blues?', de: 'Was weißt du über westafrikanischen Blues?', fr: 'Que savez-vous du blues d\'Afrique de l\'Ouest ?', es: '¿Qué sabes sobre el blues de África Occidental?', it: 'Cosa sai del blues dell\'Africa occidentale?', pl: 'Co wiesz o bluesie Afryki Zachodniej?', nl: 'Wat weet je over West-Afrikaanse blues?', pt: 'O que você sabe sobre o blues da África Ocidental?' },
+      { en: 'Do you enjoy traditional string instruments?', sv: 'Tycker du om traditionella stränginstrument?', de: 'Magst du traditionelle Saiteninstrumente?', fr: 'Aimez-vous les instruments à cordes traditionnels ?', es: '¿Disfrutas de los instrumentos de cuerda tradicionales?', it: 'Ti piacciono gli strumenti a corde tradizionali?', pl: 'Czy lubisz tradycyjne instrumenty strunowe?', nl: 'Geniet je van traditionele snaarinstrumenten?', pt: 'Você gosta de instrumentos de corda tradicionais?' },
     ],
     quiz: [
       {

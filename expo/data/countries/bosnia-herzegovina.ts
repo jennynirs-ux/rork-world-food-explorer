@@ -250,7 +250,17 @@ export const bosniaHerzegovina: Country = {
         pt: 'Bosnian pyramid debate attracts archaeologists worldwide',
       },
     ],
-    foodCulture: 'Bosnian cuisine blends Ottoman, Mediterranean, and Central European influences. Grilled meats like ćevapi and pljeskavica are specialties. Burek pastry, ajvar pepper spread, and thick Bosnian coffee are staples. Meals reflect centuries of cultural exchange.',
+    foodCulture: {
+      en: 'Bosnian cuisine blends Ottoman, Mediterranean, and Central European influences. Grilled meats like ćevapi and pljeskavica are specialties. Burek pastry, ajvar pepper spread, and thick Bosnian coffee are staples. Meals reflect centuries of cultural exchange.',
+      sv: 'Bosnisk mat blandar osmanska, medelhavs- och centraleuropeiska influenser. Grillat kött som ćevapi och pljeskavica är specialiteter. Burek-bakverk, ajvar-pepparspread och tjockt bosniskt kaffe är stapelvaror. Måltider speglar århundraden av kulturellt utbyte.',
+      de: 'Die bosni­sche Küche verbindet osmanische, mediterrane und mitteleuropäische Einflüsse. Gegrilltes Fleisch wie Ćevapi und Pljeskavica sind Spezialitäten. Burek-Gebäck, Ajvar-Paprikaaufstrich und starker bosnischer Kaffee sind Grundnahrungsmittel. Mahlzeiten spiegeln Jahrhunderte des kulturellen Austauschs wider.',
+      fr: 'La cuisine bosnienne mêle les influences ottomanes, méditerranéennes et d\'Europe centrale. Les viandes grillées comme le ćevapi et la pljeskavica sont des spécialités. La pâtisserie burek, le spread ajvar et le café bosnien épais sont des aliments de base. Les repas reflètent des siècles d\'échanges culturels.',
+      es: 'La cocina bosnia combina influencias otomanas, mediterráneas y de Europa Central. Las carnes a la parrilla como el ćevapi y la pljeskavica son especialidades. La pastelería burek, el untable de pimiento ajvar y el espeso café bosnio son alimentos básicos. Las comidas reflejan siglos de intercambio cultural.',
+      it: 'La cucina bosniaca fonde influenze ottomane, mediterranee e dell\'Europa centrale. Le carni alla griglia come ćevapi e pljeskavica sono specialità. La pasticceria burek, il diffusore di peperoni ajvar e il denso caffè bosniaco sono alimenti base. I pasti riflettono secoli di scambio culturale.',
+      pl: 'Kuchnia bośniacka łączy wpływy osmańskie, śródziemnomorskie i środkowoeuropejskie. Grillowane mięsa jak ćevapi i pljeskavica to specjalności. Ciasto burek, pasta ajvar i gęsta bośniacka kawa są podstawą. Posiłki odzwierciedlają wieki wymiany kulturowej.',
+      nl: 'De Bosnische keuken combineert Ottomaanse, mediterrane en Midden-Europese invloeden. Gegrild vlees zoals ćevapi en pljeskavica zijn specialiteiten. Burek-gebak, ajvar-paprikaspread en dikke Bosnische koffie zijn basisvoedsel. Maaltijden weerspiegelen eeuwen van culturele uitwisseling.',
+      pt: 'A culinária bósnia combina influências otomanas, mediterrâneas e da Europa Central. Carnes grelhadas como ćevapi e pljeskavica são especialidades. Pastelaria burek, pasta de pimenta ajvar e café bósnio espesso são alimentos básicos. As refeições refletem séculos de troca cultural.',
+    },
     history: [
       {
         year: 'Medieval Period',
@@ -1167,20 +1177,20 @@ export const bosniaHerzegovina: Country = {
       nonAlcoholic: 'Bosnian coffee, Boza (fermented drink), Turkish tea',
     },
     music: [
-      'Sevdah traditional songs',
-      'Balkan folk music',
-      'Bosnian pop',
+      { en: 'Sevdah traditional songs', sv: 'Traditionella sevdah-sånger', de: 'Traditionelle Sevdah-Lieder', fr: 'Chansons traditionnelles sevdah', es: 'Canciones tradicionales sevdah', it: 'Canzoni tradizionali sevdah', pl: 'Tradycyjne piosenki sevdah', nl: 'Traditionele sevdah liedjes', pt: 'Canções tradicionais sevdah' },
+      { en: 'Balkan folk music', sv: 'Balkansk folkmusik', de: 'Balkanische Volksmusik', fr: 'Musique folk balkanique', es: 'Música folclórica balcánica', it: 'Musica folk balcanica', pl: 'Muzyka ludowa bałkańska', nl: 'Balkaanse volksmuziek', pt: 'Música folclórica balcânica' },
+      { en: 'Bosnian pop', sv: 'Bosnisk pop', de: 'Bosnischer Pop', fr: 'Pop bosniaque', es: 'Pop bosnio', it: 'Pop bosniaco', pl: 'Bośniacki pop', nl: 'Bosnische popmuziek', pt: 'Pop bósnio' },
     ],
     decorationIdeas: [
-      'Blue and yellow flag colors',
-      'Ottoman-inspired patterns',
-      'Copper coffee sets',
-      'Bridge imagery',
+      { en: 'Blue and yellow flag colors', sv: 'Blå och gula flaggfärger', de: 'Blau und Gelb als Flaggenfarben', fr: 'Couleurs bleu et jaune du drapeau', es: 'Colores azul y amarillo de la bandera', it: 'Colori blu e giallo della bandiera', pl: 'Niebieskie i żółte barwy flagi', nl: 'Blauwe en gele vlagkleuren', pt: 'Cores azul e amarelo da bandeira' },
+      { en: 'Ottoman-inspired patterns', sv: 'Osmanskt inspirerade mönster', de: 'Osmanisch inspirierte Muster', fr: 'Motifs inspirés ottomans', es: 'Patrones inspirados en el otomano', it: 'Motivi ispirati ottomani', pl: 'Wzory inspirowane osmańskie', nl: 'Ottomaans geïnspireerde patronen', pt: 'Padrões inspirados no otomano' },
+      { en: 'Copper coffee sets', sv: 'Kopparkaffeset', de: 'Kupfer-Kaffeeservice', fr: 'Services à café en cuivre', es: 'Juegos de café de cobre', it: 'Set da caffè in rame', pl: 'Miedziane serwisy kawowe', nl: 'Koperen koffieservies', pt: 'Serviços de café em cobre' },
+      { en: 'Bridge imagery', sv: 'Bro-bilder', de: 'Brücken-Bilder', fr: 'Images de ponts', es: 'Imágenes de puentes', it: 'Immagini di ponti', pl: 'Obrazy mostów', nl: 'Brug beelden', pt: 'Imagens de pontes' },
     ],
     conversationStarters: [
-      'Have you tried Bosnian coffee?',
-      'What do you know about Balkan cuisine?',
-      'Do you enjoy grilled meats?',
+      { en: 'Have you tried Bosnian coffee?', sv: 'Har du provat bosniskt kaffe?', de: 'Haben Sie bosnischen Kaffee probiert?', fr: 'Avez-vous essayé le café bosnien?', es: '¿Has probado el café bosnio?', it: 'Hai provato il caffè bosniaco?', pl: 'Czy próbowałeś bośniackiej kawy?', nl: 'Heb je Bosnische koffie geprobeerd?', pt: 'Você já experimentou café bósnio?' },
+      { en: 'What do you know about Balkan cuisine?', sv: 'Vad vet du om balkansk mat?', de: 'Was wissen Sie über die Balkanküche?', fr: 'Que savez-vous de la cuisine balkanique?', es: '¿Qué sabes sobre la cocina balcánica?', it: 'Cosa sai della cucina balcanica?', pl: 'Co wiesz o kuchni bałkańskiej?', nl: 'Wat weet je over de Balkankeuken?', pt: 'O que você sabe sobre a culinária balcânica?' },
+      { en: 'Do you enjoy grilled meats?', sv: 'Tycker du om grillat kött?', de: 'Mögen Sie gegrilltes Fleisch?', fr: 'Aimez-vous les viandes grillées?', es: '¿Disfrutas de las carnes a la parrilla?', it: 'Ti piacciono le carni alla griglia?', pl: 'Czy lubisz grillowane mięso?', nl: 'Houd je van gegrild vlees?', pt: 'Você gosta de carnes grelhadas?' },
     ],
     quiz: [
       {

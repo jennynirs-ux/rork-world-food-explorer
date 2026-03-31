@@ -188,7 +188,7 @@ export default function SubmitRecipeScreen() {
           <Text style={styles.label}>{t.submitRecipe.recipeName}</Text>
           <TextInput
             style={styles.textInput}
-            placeholder="e.g. Grandma's Chicken Soup"
+            placeholder={t.submitRecipe.recipeNamePlaceholder}
             placeholderTextColor={colors.textTertiary}
             value={recipeName}
             onChangeText={setRecipeName}
@@ -197,7 +197,7 @@ export default function SubmitRecipeScreen() {
           <Text style={styles.label}>{t.submitRecipe.countryOrigin}</Text>
           <TextInput
             style={styles.textInput}
-            placeholder="e.g. Sweden"
+            placeholder={t.submitRecipe.countryPlaceholder}
             placeholderTextColor={colors.textTertiary}
             value={countryOrigin}
             onChangeText={setCountryOrigin}
@@ -206,7 +206,7 @@ export default function SubmitRecipeScreen() {
           <Text style={styles.label}>{t.submitRecipe.description}</Text>
           <TextInput
             style={[styles.textInput, styles.textArea]}
-            placeholder="Brief description of the dish..."
+            placeholder={t.submitRecipe.descriptionPlaceholder}
             placeholderTextColor={colors.textTertiary}
             value={description}
             onChangeText={setDescription}
@@ -286,7 +286,7 @@ export default function SubmitRecipeScreen() {
               />
               <TextInput
                 style={[styles.textInput, styles.ingName]}
-                placeholder="Ingredient name"
+                placeholder={t.submitRecipe.ingredientPlaceholder}
                 placeholderTextColor={colors.textTertiary}
                 value={ing.name}
                 onChangeText={(v) => updateIngredient(idx, 'name', v)}
@@ -314,7 +314,7 @@ export default function SubmitRecipeScreen() {
               <Text style={styles.stepNum}>{idx + 1}.</Text>
               <TextInput
                 style={[styles.textInput, styles.stepInput]}
-                placeholder={`Step ${idx + 1}...`}
+                placeholder={`${t.submitRecipe.stepPlaceholder} ${idx + 1}...`}
                 placeholderTextColor={colors.textTertiary}
                 value={step}
                 onChangeText={(v) => updateStep(idx, v)}

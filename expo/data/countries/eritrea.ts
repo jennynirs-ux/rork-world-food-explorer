@@ -206,7 +206,17 @@ export const eritrea: Country = {
         pt: 'Gained independence from Ethiopia in 1993',
       },
     ],
-    foodCulture: 'Eritrean cuisine features injera flatbread with spicy stews, influenced by Ethiopian, Italian, and Middle Eastern flavors.',
+    foodCulture: {
+      en: 'Eritrean cuisine features injera flatbread with spicy stews, influenced by Ethiopian, Italian, and Middle Eastern flavors.',
+      sv: 'Eritreansk mat innehåller injera-bröd med kryddiga grytor, påverkad av etiopiska, italienska och mellanösternska smaker.',
+      de: 'Die eritreische Küche zeichnet sich durch Injera-Fladenbrot mit würzigen Eintöpfen aus und ist von äthiopischen, italienischen und nahöstlichen Aromen beeinflusst.',
+      fr: 'La cuisine érythréenne propose du pain plat injera avec des ragoûts épicés, influencée par les saveurs éthiopiennes, italiennes et moyen-orientales.',
+      es: 'La cocina eritrea presenta pan plano injera con guisos picantes, influenciada por los sabores etíopes, italianos y de Oriente Medio.',
+      it: 'La cucina eritrea presenta il pane piatto injera con stufati piccanti, influenzata dai sapori etiopi, italiani e mediorientali.',
+      pl: 'Kuchnia erytrejska oferuje chleb injera z ostrymi gulaszami, pod wpływem smaków etiopskich, włoskich i bliskowschodnich.',
+      nl: 'De Eritrese keuken kenmerkt zich door injera-flatbread met pittige stoofschotels, beïnvloed door Ethiopische, Italiaanse en Midden-Oosterse smaken.',
+      pt: 'A culinária eritreia apresenta pão plano injera com ensopados picantes, influenciada pelos sabores etíopes, italianos e do Oriente Médio.',
+    },
     history: [
       {
         year: '1890',
@@ -951,19 +961,19 @@ export const eritrea: Country = {
       nonAlcoholic: 'Eritrean coffee, Spris (yogurt drink)',
     },
     music: [
-      'Traditional Tigrinya music',
-      'Guayla dance music',
-      'Red Sea rhythms',
+      { en: 'Traditional Tigrinya music', sv: 'Traditionell tigrinyamusik', de: 'Traditionelle Tigrinya-Musik', fr: 'Musique tigrigna traditionnelle', es: 'Música tigriña tradicional', it: 'Musica tigrina tradizionale', pl: 'Tradycyjna muzyka tigrinya', nl: 'Traditionele Tigrinya-muziek', pt: 'Música tigrínia tradicional' },
+      { en: 'Guayla dance music', sv: 'Guayla-dansmusik', de: 'Guayla-Tanzmusik', fr: 'Musique de danse guayla', es: 'Música de danza guayla', it: 'Musica da ballo guayla', pl: 'Muzyka taneczna guayla', nl: 'Guayla dansmuziek', pt: 'Música de dança guayla' },
+      { en: 'Red Sea rhythms', sv: 'Röda havet-rytmer', de: 'Rotes Meer Rhythmen', fr: 'Rythmes de la mer Rouge', es: 'Ritmos del Mar Rojo', it: 'Ritmi del Mar Rosso', pl: 'Rytmy Morza Czerwonego', nl: 'Rode Zee-ritmes', pt: 'Ritmos do Mar Vermelho' },
     ],
     decorationIdeas: [
-      'Green, red and blue flag colors',
-      'Art Deco architectural elements',
-      'Coffee ceremony items',
-      'Red Sea coastal themes',
+      { en: 'Green, red and blue flag colors', sv: 'Gröna, röda och blå flaggfärger', de: 'Grün, Rot und Blau (Flaggenfarben)', fr: 'Couleurs du drapeau vert, rouge et bleu', es: 'Colores de la bandera verde, rojo y azul', it: 'Colori della bandiera verde, rosso e blu', pl: 'Zielone, czerwone i niebieskie kolory flagi', nl: 'Groen, rood en blauw (vlagkleuren)', pt: 'Cores da bandeira verde, vermelho e azul' },
+      { en: 'Art Deco architectural elements', sv: 'Art Deco arkitektoniska inslag', de: 'Art-Deco-Architekturelemente', fr: 'Éléments architecturaux Art déco', es: 'Elementos arquitectónicos Art Déco', it: 'Elementi architettonici Art Déco', pl: 'Elementy architektoniczne Art Deco', nl: 'Art Deco architecturale elementen', pt: 'Elementos arquitetônicos Art Déco' },
+      { en: 'Coffee ceremony items', sv: 'Kaffeceremoniföremål', de: 'Kaffeezereremonie-Gegenstände', fr: 'Articles de cérémonie du café', es: 'Artículos de la ceremonia del café', it: 'Oggetti per la cerimonia del caffè', pl: 'Przedmioty do ceremonii kawy', nl: 'Koffieceremonie-artikelen', pt: 'Itens de cerimônia do café' },
+      { en: 'Red Sea coastal themes', sv: 'Röda havet kustteman', de: 'Rotes Meer Küstenthemen', fr: 'Thèmes côtiers de la mer Rouge', es: 'Temas costeros del Mar Rojo', it: 'Temi costieri del Mar Rosso', pl: 'Motywy wybrzeża Morza Czerwonego', nl: 'Rode Zee kustthema\'s', pt: 'Temas costeiros do Mar Vermelho' },
     ],
     conversationStarters: [
-      'Have you experienced a traditional coffee ceremony?',
-      'What do you know about Italian colonial architecture?',
+      { en: 'Have you experienced a traditional coffee ceremony?', sv: 'Har du upplevt en traditionell kaffeceremoni?', de: 'Hast du eine traditionelle Kaffeezeremonie erlebt?', fr: 'Avez-vous vécu une cérémonie du café traditionnelle ?', es: '¿Has experimentado una ceremonia de café tradicional?', it: 'Hai vissuto una cerimonia del caffè tradizionale?', pl: 'Czy doświadczyłeś tradycyjnej ceremonii kawy?', nl: 'Heb je een traditionele koffieceremonie meegemaakt?', pt: 'Você já experimentou uma cerimônia de café tradicional?' },
+      { en: 'What do you know about Italian colonial architecture?', sv: 'Vad vet du om italiensk kolonial arkitektur?', de: 'Was weißt du über italienische Kolonialarchitektur?', fr: 'Que savez-vous de l\'architecture coloniale italienne ?', es: '¿Qué sabes sobre la arquitectura colonial italiana?', it: 'Cosa sai dell\'architettura coloniale italiana?', pl: 'Co wiesz o włoskiej architekturze kolonialnej?', nl: 'Wat weet je over Italiaanse koloniale architectuur?', pt: 'O que você sabe sobre a arquitetura colonial italiana?' },
     ],
     innovations: [
       {

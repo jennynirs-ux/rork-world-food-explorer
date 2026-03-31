@@ -250,7 +250,17 @@ export const comoros: Country = {
         pt: 'The country is a blend of African, Arab, and French cultures',
       },
     ],
-    foodCulture: 'Comorian cuisine blends African, Arab, and French influences with seafood, rice, and aromatic spices. Vanilla and ylang-ylang add unique flavors. Meals often feature fresh fish, coconut, and local spices.',
+    foodCulture: {
+      en: 'Comorian cuisine blends African, Arab, and French influences with seafood, rice, and aromatic spices. Vanilla and ylang-ylang add unique flavors. Meals often feature fresh fish, coconut, and local spices.',
+      sv: 'Komorensisk mat blandar afrikanska, arabiska och franska influenser med skaldjur, ris och aromatiska kryddor. Vanilj och ylang-ylang tillför unika smaker. Måltider innehåller ofta färsk fisk, kokosnöt och lokala kryddor.',
+      de: 'Die komorische Küche vereint afrikanische, arabische und französische Einflüsse mit Meeresfrüchten, Reis und aromatischen Gewürzen. Vanille und Ylang-Ylang verleihen einzigartige Aromen. Mahlzeiten umfassen oft frischen Fisch, Kokosnuss und lokale Gewürze.',
+      fr: 'La cuisine comorienne mélange les influences africaines, arabes et françaises avec des fruits de mer, du riz et des épices aromatiques. La vanille et l\'ylang-ylang ajoutent des saveurs uniques. Les repas comprennent souvent du poisson frais, de la noix de coco et des épices locales.',
+      es: 'La cocina comorense mezcla influencias africanas, árabes y francesas con mariscos, arroz y especias aromáticas. La vainilla y el ylang-ylang añaden sabores únicos. Las comidas a menudo incluyen pescado fresco, coco y especias locales.',
+      it: 'La cucina comoriana mescola influenze africane, arabe e francesi con frutti di mare, riso e spezie aromatiche. Vaniglia e ylang-ylang aggiungono sapori unici. I pasti spesso includono pesce fresco, cocco e spezie locali.',
+      pl: 'Kuchnia komoryjska łączy wpływy afrykańskie, arabskie i francuskie z owocami morza, ryżem i aromatycznymi przyprawami. Wanilia i ylang-ylang dodają unikalnych smaków. Posiłki często zawierają świeże ryby, kokos i lokalne przyprawy.',
+      nl: 'De Komorische keuken mengt Afrikaanse, Arabische en Franse invloeden met zeevruchten, rijst en aromatische specerijen. Vanille en ylang-ylang voegen unieke smaken toe. Maaltijden bevatten vaak verse vis, kokosnoot en lokale kruiden.',
+      pt: 'A culinária comorense mistura influências africanas, árabes e francesas com frutos do mar, arroz e especiarias aromáticas. A baunilha e o ylang-ylang adicionam sabores únicos. As refeições frequentemente incluem peixe fresco, coco e especiarias locais.',
+    },
     history: [
       {
         year: '9th century',
@@ -1118,20 +1128,20 @@ export const comoros: Country = {
       nonAlcoholic: 'Coconut water, Vanilla tea, Fresh juice',
     },
     music: [
-      'Twarab music',
-      'Traditional Comorian songs',
-      'African-Arab fusion',
+      { en: 'Twarab music', sv: 'Twarab-musik', de: 'Twarab-Musik', fr: 'Musique twarab', es: 'Música twarab', it: 'Musica twarab', pl: 'Muzyka twarab', nl: 'Twarab-muziek', pt: 'Música twarab' },
+      { en: 'Traditional Comorian songs', sv: 'Traditionella komorensiska sånger', de: 'Traditionelle komorische Lieder', fr: 'Chansons comoréennes traditionnelles', es: 'Canciones comorenses tradicionales', it: 'Canzoni tradizionali comoriane', pl: 'Tradycyjne pieśni komoryjskie', nl: 'Traditionele Comorische liederen', pt: 'Canções tradicionais comorianas' },
+      { en: 'African-Arab fusion', sv: 'Afrikansk-arabisk fusion', de: 'Afrikanisch-arabische Fusion', fr: 'Fusion africano-arabe', es: 'Fusión africano-árabe', it: 'Fusione africano-araba', pl: 'Afrykańsko-arabska fuzja', nl: 'Afrikaans-Arabische fusie', pt: 'Fusão africano-árabe' },
     ],
     decorationIdeas: [
-      'Green, white, red and yellow flag colors',
-      'Vanilla and ylang-ylang flowers',
-      'Ocean and volcanic imagery',
-      'Arabic calligraphy',
+      { en: 'Green, white, red and yellow flag colors', sv: 'Gröna, vita, röda och gula flaggfärger', de: 'Grüne, weiße, rote und gelbe Flaggenfarben', fr: 'Couleurs vert, blanc, rouge et jaune du drapeau', es: 'Colores verde, blanco, rojo y amarillo de la bandera', it: 'Colori verde, bianco, rosso e giallo della bandiera', pl: 'Zielone, białe, czerwone i żółte kolory flagi', nl: 'Groen, wit, rood en geel van de vlag', pt: 'Cores verde, branco, vermelho e amarelo da bandeira' },
+      { en: 'Vanilla and ylang-ylang flowers', sv: 'Vanilj och ylang-ylang-blommor', de: 'Vanille- und Ylang-Ylang-Blüten', fr: 'Fleurs de vanille et d\'ylang-ylang', es: 'Flores de vainilla y ylang-ylang', it: 'Fiori di vaniglia e ylang-ylang', pl: 'Kwiaty wanilii i ylang-ylang', nl: 'Vanille- en ylang-ylangbloemen', pt: 'Flores de baunilha e ylang-ylang' },
+      { en: 'Ocean and volcanic imagery', sv: 'Havs- och vulkanbilder', de: 'Ozean- und Vulkanbilder', fr: 'Images d\'océan et de volcans', es: 'Imágenes de océano y volcanes', it: 'Immagini di oceano e vulcani', pl: 'Obrazy oceanu i wulkanów', nl: 'Oceaan- en vulkaanbeelden', pt: 'Imagens de oceano e vulcões' },
+      { en: 'Arabic calligraphy', sv: 'Arabisk kalligrafi', de: 'Arabische Kalligraphie', fr: 'Calligraphie arabe', es: 'Caligrafía árabe', it: 'Calligrafia araba', pl: 'Arabska kaligrafia', nl: 'Arabische kalligrafie', pt: 'Caligrafia árabe' },
     ],
     conversationStarters: [
-      'Have you used ylang-ylang essential oil?',
-      'What do you know about volcanic islands?',
-      'Do you enjoy exotic seafood?',
+      { en: 'Have you used ylang-ylang essential oil?', sv: 'Har du använt ylang-ylang eterisk olja?', de: 'Haben Sie Ylang-Ylang-Ätherisches Öl verwendet?', fr: 'Avez-vous utilisé l\'huile essentielle d\'ylang-ylang ?', es: '¿Has usado aceite esencial de ylang-ylang?', it: 'Hai usato l\'olio essenziale di ylang-ylang?', pl: 'Czy używałeś olejku eterycznego ylang-ylang?', nl: 'Heb je ylang-ylang etherische olie gebruikt?', pt: 'Você já usou óleo essencial de ylang-ylang?' },
+      { en: 'What do you know about volcanic islands?', sv: 'Vad vet du om vulkaniska öar?', de: 'Was wissen Sie über Vulkaninseln?', fr: 'Que savez-vous sur les îles volcaniques ?', es: '¿Qué sabes sobre las islas volcánicas?', it: 'Cosa sai delle isole vulcaniche?', pl: 'Co wiesz o wyspach wulkanicznych?', nl: 'Wat weet je over vulkanische eilanden?', pt: 'O que você sabe sobre ilhas vulcânicas?' },
+      { en: 'Do you enjoy exotic seafood?', sv: 'Gillar du exotiska skaldjur?', de: 'Mögen Sie exotische Meeresfrüchte?', fr: 'Aimez-vous les fruits de mer exotiques ?', es: '¿Disfrutas de los mariscos exóticos?', it: 'Ti piacciono i frutti di mare esotici?', pl: 'Czy lubisz egzotyczne owoce morza?', nl: 'Houd je van exotische zeevruchten?', pt: 'Você gosta de frutos do mar exóticos?' },
     ],
     quiz: [
       {

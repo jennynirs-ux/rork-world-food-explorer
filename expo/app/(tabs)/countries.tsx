@@ -23,7 +23,7 @@ export default function ShoppingTabScreen() {
         url: 'https://worldfoodexplorer.app',
       });
     } catch {
-      Alert.alert('Sharing failed', 'Could not share the shopping list. Please try again.');
+      Alert.alert(t.shopping.sharingFailedTitle, t.shopping.sharingFailedMessage);
     }
   };
 

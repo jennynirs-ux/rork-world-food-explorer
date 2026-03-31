@@ -250,7 +250,17 @@ export const chad: Country = {
         pt: 'Zakouma National Park is home to recovering elephant populations',
       },
     ],
-    foodCulture: 'Chadian cuisine varies between the Arab north and African south, featuring millet, sorghum, and dried fish. In the north, Arab influences bring dates and camel meat, while the south enjoys more diverse vegetables and freshwater fish. Meals are communal and eaten by hand.',
+    foodCulture: {
+      en: 'Chadian cuisine varies between the Arab north and African south, featuring millet, sorghum, and dried fish. In the north, Arab influences bring dates and camel meat, while the south enjoys more diverse vegetables and freshwater fish. Meals are communal and eaten by hand.',
+      sv: 'Tchadisk mat varierar mellan den arabiska norddelen och den afrikanska södra delen, med hirs, sorghum och torkad fisk. I norr tillför arabiska influenser dadlar och kamelkött, medan söder njuter av mer varierade grönsaker och sötvattensfisk. Måltider är gemensamma och äts för hand.',
+      de: 'Die tschadische Küche variiert zwischen dem arabischen Norden und dem afrikanischen Süden mit Hirse, Sorghum und getrocknetem Fisch. Im Norden bringen arabische Einflüsse Datteln und Kamelfleisch, während der Süden vielfältigeres Gemüse und Süßwasserfisch genießt. Mahlzeiten sind kommunal und werden mit der Hand gegessen.',
+      fr: 'La cuisine tchadienne varie entre le nord arabe et le sud africain, avec du mil, du sorgho et du poisson séché. Dans le nord, les influences arabes apportent des dattes et de la viande de chameau, tandis que le sud profite de légumes plus variés et de poissons d\'eau douce. Les repas sont communautaires et mangés à la main.',
+      es: 'La cocina chadiana varía entre el norte árabe y el sur africano, con mijo, sorgo y pescado seco. En el norte, las influencias árabes traen dátiles y carne de camello, mientras que el sur disfruta de verduras más variadas y peces de agua dulce. Las comidas son comunales y se comen con la mano.',
+      it: 'La cucina ciadiana varia tra il nord arabo e il sud africano, con miglio, sorgo e pesce essiccato. Nel nord, le influenze arabe portano datteri e carne di cammello, mentre il sud gode di verdure più varie e pesce d\'acqua dolce. I pasti sono comunitari e vengono mangiati con le mani.',
+      pl: 'Kuchnia czadyjska różni się między arabską północą a afrykańskim południem, z prosem, sorgiem i suszonym rybem. Na północy arabskie wpływy przynoszą daktyle i mięso wielbłąda, podczas gdy południe cieszy się bardziej zróżnicowanymi warzywami i słodkowodnymi rybami. Posiłki są wspólnotowe i spożywane rękami.',
+      nl: 'De Tsjadische keuken varieert tussen het Arabische noorden en het Afrikaanse zuiden, met gierst, sorghum en gedroogde vis. In het noorden brengen Arabische invloeden dadels en kameelsvlees, terwijl het zuiden geniet van meer gevarieerde groenten en zoetwatervis. Maaltijden zijn gemeenschappelijk en worden met de hand gegeten.',
+      pt: 'A culinária chadiana varia entre o norte árabe e o sul africano, com milho, sorgo e peixe seco. No norte, as influências árabes trazem tâmaras e carne de camelo, enquanto o sul desfruta de vegetais mais variados e peixe de água doce. As refeições são comunitárias e comidas com a mão.',
+    },
     history: [
       {
         year: '7th century',
@@ -1066,19 +1076,19 @@ export const chad: Country = {
       nonAlcoholic: 'Karkanji (hibiscus tea), Fresh milk',
     },
     music: [
-      'Traditional Sai music',
-      'Arabic influences',
-      'Saharan rhythms',
+      { en: 'Traditional Sai music', sv: 'Traditionell sai-musik', de: 'Traditionelle Sai-Musik', fr: 'Musique traditionnelle sai', es: 'Música tradicional sai', it: 'Musica tradizionale sai', pl: 'Tradycyjna muzyka sai', nl: 'Traditionele sai-muziek', pt: 'Música tradicional sai' },
+      { en: 'Arabic influences', sv: 'Arabiska influenser', de: 'Arabische Einflüsse', fr: 'Influences arabes', es: 'Influencias árabes', it: 'Influenze arabe', pl: 'Wpływy arabskie', nl: 'Arabische invloeden', pt: 'Influências árabes' },
+      { en: 'Saharan rhythms', sv: 'Saharanska rytmer', de: 'Saharische Rhythmen', fr: 'Rythmes sahariens', es: 'Ritmos saharianos', it: 'Ritmi sahariani', pl: 'Rytmy saharyskie', nl: 'Saharaanse ritmes', pt: 'Ritmos saarinos' },
     ],
     decorationIdeas: [
-      'Blue, yellow and red flag colors',
-      'Desert landscapes',
-      'Traditional patterns',
-      'Lake Chad imagery',
+      { en: 'Blue, yellow and red flag colors', sv: 'Blå, gula och röda flaggfärger', de: 'Blaue, gelbe und rote Flaggenfarben', fr: 'Couleurs bleu, jaune et rouge du drapeau', es: 'Colores azul, amarillo y rojo de la bandera', it: 'Colori blu, giallo e rosso della bandiera', pl: 'Niebieskie, żółte i czerwone kolory flagi', nl: 'Blauw, geel en rood van de vlag', pt: 'Cores azul, amarelo e vermelho da bandeira' },
+      { en: 'Desert landscapes', sv: 'Öklandskap', de: 'Wüstenlandschaften', fr: 'Paysages désertiques', es: 'Paisajes desérticos', it: 'Paesaggi desertici', pl: 'Krajobrazy pustynne', nl: 'Woestijnlandschappen', pt: 'Paisagens desérticas' },
+      { en: 'Traditional patterns', sv: 'Traditionella mönster', de: 'Traditionelle Muster', fr: 'Motifs traditionnels', es: 'Patrones tradicionales', it: 'Motivi tradizionali', pl: 'Tradycyjne wzory', nl: 'Traditionele patronen', pt: 'Padrões tradicionais' },
+      { en: 'Lake Chad imagery', sv: 'Tjadsjöbilder', de: 'Tschadsee-Bilder', fr: 'Images du lac Tchad', es: 'Imágenes del lago Chad', it: 'Immagini del lago Ciad', pl: 'Obrazy jeziora Czad', nl: 'Tsjaadmeerbeelden', pt: 'Imagens do lago Chade' },
     ],
     conversationStarters: [
-      'What do you know about the Sahara Desert?',
-      'Have you explored Saharan cuisine?',
+      { en: 'What do you know about the Sahara Desert?', sv: 'Vad vet du om Saharaöknen?', de: 'Was wissen Sie über die Sahara?', fr: 'Que savez-vous sur le désert du Sahara ?', es: '¿Qué sabes sobre el desierto del Sahara?', it: 'Cosa sai del deserto del Sahara?', pl: 'Co wiesz o pustyni Sahara?', nl: 'Wat weet je over de Sahara woestijn?', pt: 'O que você sabe sobre o deserto do Saara?' },
+      { en: 'Have you explored Saharan cuisine?', sv: 'Har du utforskat saharansk mat?', de: 'Haben Sie die Sahara-Küche erkundet?', fr: 'Avez-vous exploré la cuisine saharienne ?', es: '¿Has explorado la cocina sahariana?', it: 'Hai esplorato la cucina sahariana?', pl: 'Czy poznałeś kuchnię saharyską?', nl: 'Heb je de Saharaanse keuken verkend?', pt: 'Você já explorou a culinária saariana?' },
     ],
     quiz: [
       {

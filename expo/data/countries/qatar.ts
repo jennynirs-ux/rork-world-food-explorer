@@ -206,7 +206,17 @@ export const qatar: Country = {
         pt: 'Has the world\'s third-largest natural gas reserves',
       },
     ],
-    foodCulture: 'Qatari cuisine blends Arab, Persian, and Indian influences with rice, lamb, and seafood.',
+    foodCulture: {
+      en: 'Qatari cuisine blends Arab, Persian, and Indian influences with rice, lamb, and seafood.',
+      sv: 'Qatarsk mat blandar arabiska, persiska och indiska influenser med ris, lamm och skaldjur.',
+      de: 'Die katarische Küche verbindet arabische, persische und indische Einflüsse mit Reis, Lamm und Meeresfrüchten.',
+      fr: 'La cuisine qatarienne mêle des influences arabes, persanes et indiennes avec du riz, de l\'agneau et des fruits de mer.',
+      es: 'La cocina qatarí combina influencias árabes, persas e indias con arroz, cordero y mariscos.',
+      it: 'La cucina qatariota fonde influenze arabe, persiane e indiane con riso, agnello e frutti di mare.',
+      pl: 'Kuchnia katarska łączy wpływy arabskie, perskie i indyjskie z ryżem, jagnięciną i owocami morza.',
+      nl: 'De Qatarese keuken combineert Arabische, Perzische en Indiase invloeden met rijst, lamsvlees en zeevruchten.',
+      pt: 'A culinária catarense combina influências árabes, persas e indianas com arroz, cordeiro e frutos do mar.',
+    },
     history: [
       {
         year: 'Ancient',
@@ -977,19 +987,19 @@ export const qatar: Country = {
       nonAlcoholic: 'Arabic coffee, Karak tea, Fresh juice',
     },
     music: [
-      'Traditional Ardah',
-      'Gulf music',
-      'Arabic pop',
+      { en: 'Traditional Ardah', sv: 'Traditionell Ardah', de: 'Traditionelle Ardah', fr: 'Ardah traditionnel', es: 'Ardah tradicional', it: 'Ardah tradizionale', pl: 'Tradycyjna Ardah', nl: 'Traditionele Ardah', pt: 'Ardah tradicional' },
+      { en: 'Gulf music', sv: 'Gulfmusik', de: 'Golf-Musik', fr: 'Musique du Golfe', es: 'Música del Golfo', it: 'Musica del Golfo', pl: 'Muzyka Zatoki', nl: 'Golfmuziek', pt: 'Música do Golfo' },
+      { en: 'Arabic pop', sv: 'Arabisk pop', de: 'Arabischer Pop', fr: 'Pop arabe', es: 'Pop árabe', it: 'Pop arabo', pl: 'Arabski pop', nl: 'Arabische pop', pt: 'Pop árabe' },
     ],
     decorationIdeas: [
-      'Maroon and white flag colors',
-      'Modern skyline imagery',
-      'Desert themes',
-      'Islamic architecture',
+      { en: 'Maroon and white flag colors', sv: 'Mörkröda och vita flaggfärger', de: 'Kastanienbraune und weiße Flaggenfarben', fr: 'Couleurs du drapeau bordeaux et blanc', es: 'Colores de la bandera granate y blanco', it: 'Colori della bandiera bordeaux e bianco', pl: 'Bordowe i białe kolory flagi', nl: 'Kastanjebruine en witte vlagkleuren', pt: 'Cores da bandeira bordô e branco' },
+      { en: 'Modern skyline imagery', sv: 'Modern horisontbilder', de: 'Moderne Skyline-Bilder', fr: 'Images de la skyline moderne', es: 'Imágenes del horizonte moderno', it: 'Immagini dello skyline moderno', pl: 'Zdjęcia nowoczesnej panoramy', nl: 'Moderne skyline-afbeeldingen', pt: 'Imagens do horizonte moderno' },
+      { en: 'Desert themes', sv: 'Ökenteman', de: 'Wüsten-Themen', fr: 'Thèmes désertiques', es: 'Temática desértica', it: 'Temi del deserto', pl: 'Motywy pustynne', nl: 'Woestijn-thema\'s', pt: 'Temas de deserto' },
+      { en: 'Islamic architecture', sv: 'Islamisk arkitektur', de: 'Islamische Architektur', fr: 'Architecture islamique', es: 'Arquitectura islámica', it: 'Architettura islamica', pl: 'Architektura islamska', nl: 'Islamitische architectuur', pt: 'Arquitetura islâmica' },
     ],
     conversationStarters: [
-      'Did you watch the 2022 World Cup?',
-      'What do you know about Gulf architecture?',
+      { en: 'Did you watch the 2022 World Cup?', sv: 'Såg du VM 2022?', de: 'Hast du die Weltmeisterschaft 2022 gesehen?', fr: 'Avez-vous regardé la Coupe du monde 2022 ?', es: '¿Viste la Copa del Mundo 2022?', it: 'Hai guardato la Coppa del Mondo 2022?', pl: 'Oglądałeś Mistrzostwa Świata 2022?', nl: 'Heb je het WK 2022 gekeken?', pt: 'Você assistiu à Copa do Mundo de 2022?' },
+      { en: 'What do you know about Gulf architecture?', sv: 'Vad vet du om gulfarkitektur?', de: 'Was weißt du über die Golf-Architektur?', fr: 'Que savez-vous de l\'architecture du Golfe ?', es: '¿Qué sabes sobre la arquitectura del Golfo?', it: 'Cosa sai dell\'architettura del Golfo?', pl: 'Co wiesz o architekturze Zatoki?', nl: 'Wat weet je over de Golfarchtectuur?', pt: 'O que você sabe sobre a arquitetura do Golfo?' },
     ],
     quiz: [
       {

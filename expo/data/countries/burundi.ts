@@ -250,7 +250,17 @@ export const burundi: Country = {
         pt: 'Traditional drumming is a UNESCO Intangible Cultural Heritage',
       },
     ],
-    foodCulture: 'Burundian cuisine is simple with beans, corn, sweet potatoes, and cassava as staples. Fish from Lake Tanganyika is popular. Meals are communal and often served on banana leaves.',
+    foodCulture: {
+      en: 'Burundian cuisine is simple with beans, corn, sweet potatoes, and cassava as staples. Fish from Lake Tanganyika is popular. Meals are communal and often served on banana leaves.',
+      sv: 'Burundisk mat är enkel med bönor, majs, sötpotatis och kassava som stapelvaror. Fisk från Tanganyikasjön är populär. Måltider är gemensamma och serveras ofta på bananblad.',
+      de: 'Die burundische Küche ist einfach mit Bohnen, Mais, Süßkartoffeln und Maniok als Grundnahrungsmitteln. Fisch aus dem Tanganjikasee ist beliebt. Mahlzeiten sind kommunal und werden oft auf Bananenblättern serviert.',
+      fr: 'La cuisine burundaise est simple avec des haricots, du maïs, des patates douces et du manioc comme aliments de base. Le poisson du lac Tanganyika est populaire. Les repas sont communautaires et souvent servis sur des feuilles de bananier.',
+      es: 'La cocina burundesa es sencilla con frijoles, maíz, batatas y yuca como alimentos básicos. El pescado del lago Tanganica es popular. Las comidas son comunales y frecuentemente se sirven sobre hojas de plátano.',
+      it: 'La cucina burundese è semplice con fagioli, mais, patate dolci e manioca come alimenti di base. Il pesce del lago Tanganica è popolare. I pasti sono comunitari e spesso serviti su foglie di banana.',
+      pl: 'Kuchnia burundyjska jest prosta, z fasolą, kukurydzą, słodkimi ziemniakami i maniokiem jako podstawowymi produktami. Ryby z jeziora Tanganika są popularne. Posiłki są wspólnotowe i często podawane na liściach bananowca.',
+      nl: 'De Burundese keuken is eenvoudig met bonen, maïs, zoete aardappelen en cassave als basisvoedsel. Vis uit het Tanganyikameer is populair. Maaltijden zijn gemeenschappelijk en worden vaak geserveerd op bananenbladeren.',
+      pt: 'A culinária burundesa é simples, com feijão, milho, batata-doce e mandioca como alimentos básicos. O peixe do lago Tanganica é popular. As refeições são comunitárias e frequentemente servidas em folhas de bananeira.',
+    },
     history: [
       {
         year: '16th Century',
@@ -1147,20 +1157,20 @@ export const burundi: Country = {
       nonAlcoholic: 'Ikivuguto (fermented milk), Fresh juice',
     },
     music: [
-      'Royal drum performances',
-      'Traditional Kirundi songs',
-      'African rhythms',
+      { en: 'Royal drum performances', sv: 'Kungliga trumföreställningar', de: 'Königliche Trommelvorführungen', fr: 'Performances de tambours royaux', es: 'Actuaciones de tambores reales', it: 'Esibizioni di tamburi reali', pl: 'Królewskie pokazy bębniarskie', nl: 'Koninklijke trommeloptredens', pt: 'Apresentações de tambores reais' },
+      { en: 'Traditional Kirundi songs', sv: 'Traditionella kirunditräsånger', de: 'Traditionelle Kirundi-Lieder', fr: 'Chansons traditionnelles kirundi', es: 'Canciones tradicionales kirundi', it: 'Canzoni tradizionali kirundi', pl: 'Tradycyjne pieśni kirundi', nl: 'Traditionele Kirundi-liederen', pt: 'Canções tradicionais kirundi' },
+      { en: 'African rhythms', sv: 'Afrikanska rytmer', de: 'Afrikanische Rhythmen', fr: 'Rythmes africains', es: 'Ritmos africanos', it: 'Ritmi africani', pl: 'Afrykańskie rytmy', nl: 'Afrikaanse ritmes', pt: 'Ritmos africanos' },
     ],
     decorationIdeas: [
-      'Red, white and green flag colors',
-      'Traditional drums',
-      'Lake imagery',
-      'Coffee plant decorations',
+      { en: 'Red, white and green flag colors', sv: 'Röda, vita och gröna flaggfärger', de: 'Rote, weiße und grüne Flaggenfarben', fr: 'Couleurs rouge, blanc et vert du drapeau', es: 'Colores rojo, blanco y verde de la bandera', it: 'Colori rosso, bianco e verde della bandiera', pl: 'Czerwone, białe i zielone kolory flagi', nl: 'Rood, wit en groen van de vlag', pt: 'Cores vermelho, branco e verde da bandeira' },
+      { en: 'Traditional drums', sv: 'Traditionella trummor', de: 'Traditionelle Trommeln', fr: 'Tambours traditionnels', es: 'Tambores tradicionales', it: 'Tamburi tradizionali', pl: 'Tradycyjne bębny', nl: 'Traditionele trommels', pt: 'Tambores tradicionais' },
+      { en: 'Lake imagery', sv: 'Sjömotiv', de: 'Seemotive', fr: 'Images de lac', es: 'Imágenes de lago', it: 'Immagini del lago', pl: 'Motywy jeziora', nl: 'Meerbeelden', pt: 'Imagens de lago' },
+      { en: 'Coffee plant decorations', sv: 'Kaffeväxtdekorationer', de: 'Kaffeepflanzendekoration', fr: 'Décorations de caféiers', es: 'Decoraciones de plantas de café', it: 'Decorazioni con piante di caffè', pl: 'Dekoracje z roślin kawowych', nl: 'Koffieplantdecoraties', pt: 'Decorações de plantas de café' },
     ],
     conversationStarters: [
-      'Have you tried African coffee?',
-      'What do you know about traditional drumming?',
-      'Do you enjoy lakeside destinations?',
+      { en: 'Have you tried African coffee?', sv: 'Har du provat afrikanskt kaffe?', de: 'Haben Sie afrikanischen Kaffee probiert?', fr: 'Avez-vous goûté le café africain ?', es: '¿Has probado el café africano?', it: 'Hai provato il caffè africano?', pl: 'Czy próbowałeś afrykańskiej kawy?', nl: 'Heb je Afrikaanse koffie geprobeerd?', pt: 'Você já experimentou café africano?' },
+      { en: 'What do you know about traditional drumming?', sv: 'Vad vet du om traditionellt trumspelande?', de: 'Was wissen Sie über traditionelles Trommeln?', fr: 'Que savez-vous sur la percussion traditionnelle ?', es: '¿Qué sabes sobre el tamborileo tradicional?', it: 'Cosa sai della percussione tradizionale?', pl: 'Co wiesz o tradycyjnym bębnieniu?', nl: 'Wat weet je over traditioneel trommelen?', pt: 'O que você sabe sobre o ritmo tradicional de tambores?' },
+      { en: 'Do you enjoy lakeside destinations?', sv: 'Gillar du sjöresemål?', de: 'Mögen Sie Seenregionen als Reiseziele?', fr: 'Aimez-vous les destinations au bord du lac ?', es: '¿Disfrutas de los destinos a orillas de un lago?', it: 'Ti piacciono le destinazioni lacustri?', pl: 'Czy lubisz miejscowości nad jeziorem?', nl: 'Houd je van bestemmingen aan het meer?', pt: 'Você gosta de destinos à beira do lago?' },
     ],
     quiz: [
       {

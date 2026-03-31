@@ -206,7 +206,17 @@ export const haiti: Country = {
         pt: 'Birthplace of Vodou religion',
       },
     ],
-    foodCulture: 'Haitian cuisine blends African, French, and Taíno influences with rice, beans, and spicy sauces.',
+    foodCulture: {
+      en: 'Haitian cuisine blends African, French, and Taíno influences with rice, beans, and spicy sauces.',
+      sv: 'Haitisk mat blandar afrikanska, franska och taínoinfluenser med ris, bönor och kryddiga såser.',
+      de: 'Die haitianische Küche verbindet afrikanische, französische und Taíno-Einflüsse mit Reis, Bohnen und würzigen Soßen.',
+      fr: 'La cuisine haïtienne mêle des influences africaines, françaises et taïnos avec du riz, des haricots et des sauces épicées.',
+      es: 'La cocina haitiana mezcla influencias africanas, francesas y taínas con arroz, frijoles y salsas picantes.',
+      it: 'La cucina haitiana mescola influenze africane, francesi e taíno con riso, fagioli e salse piccanti.',
+      pl: 'Kuchnia haitańska łączy wpływy afrykańskie, francuskie i Taíno z ryżem, fasolą i ostrymi sosami.',
+      nl: 'De Haïtiaanse keuken combineert Afrikaanse, Franse en Taíno invloeden met rijst, bonen en pittige sauzen.',
+      pt: 'A culinária haitiana mistura influências africanas, francesas e taínas com arroz, feijão e molhos picantes.',
+    },
     history: [
       {
         year: '1492',
@@ -999,20 +1009,20 @@ export const haiti: Country = {
       nonAlcoholic: 'Akasan (corn drink), Coconut water, Fresh juice',
     },
     music: [
-      'Kompa',
-      'Rara',
-      'Mizik rasin',
+      { en: 'Kompa', sv: 'Kompa', de: 'Kompa', fr: 'Kompa', es: 'Kompa', it: 'Kompa', pl: 'Kompa', nl: 'Kompa', pt: 'Kompa' },
+      { en: 'Rara', sv: 'Rara', de: 'Rara', fr: 'Rara', es: 'Rara', it: 'Rara', pl: 'Rara', nl: 'Rara', pt: 'Rara' },
+      { en: 'Mizik rasin', sv: 'Mizik rasin', de: 'Mizik rasin', fr: 'Mizik rasin', es: 'Mizik rasin', it: 'Mizik rasin', pl: 'Mizik rasin', nl: 'Mizik rasin', pt: 'Mizik rasin' },
     ],
     decorationIdeas: [
-      'Blue and red flag colors',
-      'Vibrant folk art',
-      'Tap-tap bus designs',
-      'Vodou symbols',
+      { en: 'Blue and red flag colors', sv: 'Blå och röda flaggfärger', de: 'Blau und Rot (Flaggenfarben)', fr: 'Couleurs du drapeau bleu et rouge', es: 'Colores de la bandera azul y rojo', it: 'Colori della bandiera blu e rosso', pl: 'Niebieskie i czerwone kolory flagi', nl: 'Blauw en rood (vlagkleuren)', pt: 'Cores da bandeira azul e vermelho' },
+      { en: 'Vibrant folk art', sv: 'Livfull folkkonst', de: 'Lebhafte Volkskunst', fr: 'Art populaire vibrant', es: 'Arte popular vibrante', it: 'Arte popolare vivace', pl: 'Żywa sztuka ludowa', nl: 'Levendige volkskunst', pt: 'Arte popular vibrante' },
+      { en: 'Tap-tap bus designs', sv: 'Tap-tap bussdesigner', de: 'Tap-Tap-Bus-Designs', fr: 'Designs de bus tap-tap', es: 'Diseños de autobús tap-tap', it: 'Design degli autobus tap-tap', pl: 'Wzory autobusów tap-tap', nl: 'Tap-tap bus ontwerpen', pt: 'Designs de ônibus tap-tap' },
+      { en: 'Vodou symbols', sv: 'Vodoosymboler', de: 'Vodou-Symbole', fr: 'Symboles vaudou', es: 'Símbolos vudú', it: 'Simboli vodou', pl: 'Symbole vodou', nl: 'Voodoo symbolen', pt: 'Símbolos vodu' },
     ],
     conversationStarters: [
-      'What do you know about Haitian independence?',
-      'Have you seen Haitian folk art?',
-      'Do you enjoy Caribbean rhythms?',
+      { en: 'What do you know about Haitian independence?', sv: 'Vad vet du om haitisk självständighet?', de: 'Was weißt du über die haitianische Unabhängigkeit?', fr: 'Que savez-vous de l\'indépendance haïtienne ?', es: '¿Qué sabes sobre la independencia haitiana?', it: 'Cosa sai dell\'indipendenza haitiana?', pl: 'Co wiesz o niezależności Haiti?', nl: 'Wat weet je over de Haïtiaanse onafhankelijkheid?', pt: 'O que você sabe sobre a independência haitiana?' },
+      { en: 'Have you seen Haitian folk art?', sv: 'Har du sett haitisk folkkonst?', de: 'Hast du haitianische Volkskunst gesehen?', fr: 'Avez-vous vu de l\'art populaire haïtien ?', es: '¿Has visto arte popular haitiano?', it: 'Hai visto l\'arte popolare haitiana?', pl: 'Czy widziałeś haitańską sztukę ludową?', nl: 'Heb je Haïtiaanse volkskunst gezien?', pt: 'Você já viu arte popular haitiana?' },
+      { en: 'Do you enjoy Caribbean rhythms?', sv: 'Tycker du om karibiska rytmer?', de: 'Magst du karibische Rhythmen?', fr: 'Aimez-vous les rythmes caribéens ?', es: '¿Disfrutas de los ritmos caribeños?', it: 'Ti piacciono i ritmi caraibici?', pl: 'Czy lubisz karaibskie rytmy?', nl: 'Geniet jij van Caribische ritmes?', pt: 'Você aprecia os ritmos caribenhos?' },
     ],
     quiz: [
       {

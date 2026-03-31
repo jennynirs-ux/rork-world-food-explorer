@@ -167,7 +167,7 @@ export default function MealPlanScreen() {
   const handleAddToShoppingList = (plan: MealPlan) => {
     hapticSuccess();
     addMealPlanToShoppingList(plan);
-    Alert.alert(t.mealPlan.added, 'Ingredients added to shopping list');
+    Alert.alert(t.mealPlan.added, t.mealPlan.ingredientsAdded);
   };
 
   const handleAddWeekToShoppingList = () => {
@@ -441,7 +441,7 @@ export default function MealPlanScreen() {
               <Search size={18} color={colors.textTertiary} />
               <TextInput
                 style={styles.modalSearchInput}
-                placeholder="Search recipes..."
+                placeholder={t.mealPlan.searchRecipes}
                 placeholderTextColor={colors.textTertiary}
                 value={recipeSearch}
                 onChangeText={setRecipeSearch}

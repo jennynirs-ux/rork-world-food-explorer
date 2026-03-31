@@ -250,7 +250,17 @@ export const vietnam: Country = {
         pt: 'Rice is the staple food across the country',
       },
     ],
-    foodCulture: 'Vietnamese cuisine focuses on balance, freshness, and harmony between sweet, sour, salty, bitter, and spicy flavors. Herbs, vegetables, rice noodles, and light broths are central, and street food is an essential part of everyday life.',
+    foodCulture: {
+      en: 'Vietnamese cuisine focuses on balance, freshness, and harmony between sweet, sour, salty, bitter, and spicy flavors. Herbs, vegetables, rice noodles, and light broths are central, and street food is an essential part of everyday life.',
+      sv: 'Vietnamesisk mat fokuserar på balans, fräschör och harmoni mellan söta, sura, salta, bittra och kryddiga smaker. Örter, grönsaker, risnudlar och lätta buljonger är centrala, och gatumat är en viktig del av det dagliga livet.',
+      de: 'Die vietnamesische Küche konzentriert sich auf Balance, Frische und Harmonie zwischen süßen, sauren, salzigen, bitteren und scharfen Aromen. Kräuter, Gemüse, Reisnudeln und leichte Brühen stehen im Mittelpunkt, und Straßenessen ist ein wesentlicher Teil des Alltags.',
+      fr: 'La cuisine vietnamienne se concentre sur l\'équilibre, la fraîcheur et l\'harmonie entre les saveurs sucrées, acides, salées, amères et épicées. Les herbes, les légumes, les nouilles de riz et les bouillons légers sont centraux, et la nourriture de rue est une partie essentielle de la vie quotidienne.',
+      es: 'La cocina vietnamita se centra en el equilibrio, la frescura y la armonía entre sabores dulces, ácidos, salados, amargos y picantes. Las hierbas, las verduras, los fideos de arroz y los caldos ligeros son centrales, y la comida callejera es una parte esencial de la vida cotidiana.',
+      it: 'La cucina vietnamita si concentra sull\'equilibrio, la freschezza e l\'armonia tra sapori dolci, agri, salati, amari e piccanti. Erbe, verdure, spaghetti di riso e brodi leggeri sono centrali, e il cibo di strada è una parte essenziale della vita quotidiana.',
+      pl: 'Kuchnia wietnamska koncentruje się na równowadze, świeżości i harmonii między słodkimi, kwaśnymi, słonymi, gorzkimi i pikantnymi smakami. Zioła, warzywa, makaron ryżowy i lekkie buliony są kluczowe, a jedzenie uliczne jest istotną częścią codziennego życia.',
+      nl: 'De Vietnamese keuken richt zich op balans, versheid en harmonie tussen zoete, zure, zoute, bittere en pittige smaken. Kruiden, groenten, rijstnoedels en lichte bouillons zijn centraal, en straatvoedsel is een essentieel onderdeel van het dagelijks leven.',
+      pt: 'A culinária vietnamita foca-se no equilíbrio, frescura e harmonia entre sabores doces, ácidos, salgados, amargos e picantes. As ervas, os legumes, as massas de arroz e os caldos leves são centrais, e a comida de rua é uma parte essencial da vida quotidiana.',
+    },
     history: [
       {
         year: '111 BC – 938 AD',
@@ -1193,20 +1203,20 @@ export const vietnam: Country = {
       nonAlcoholic: 'Vietnamese iced coffee, iced tea, coconut water, fruit smoothies',
     },
     music: [
-      'Traditional Ca Tru',
-      'Quan Ho folk songs',
-      'Modern Vietnamese pop',
+      { en: 'Traditional Ca Tru', sv: 'Traditionell Ca Tru', de: 'Traditioneller Ca Tru', fr: 'Ca Tru traditionnel', es: 'Ca Tru tradicional', it: 'Ca Tru tradizionale', pl: 'Tradycyjny Ca Tru', nl: 'Traditionele Ca Tru', pt: 'Ca Tru tradicional' },
+      { en: 'Quan Ho folk songs', sv: 'Quan Ho-folksånger', de: 'Quan Ho-Volkslieder', fr: 'Chansons folkloriques Quan Ho', es: 'Canciones folclóricas Quan Ho', it: 'Canzoni folk Quan Ho', pl: 'Pieśni ludowe Quan Ho', nl: 'Quan Ho volksliederen', pt: 'Canções folclóricas Quan Ho' },
+      { en: 'Modern Vietnamese pop', sv: 'Modern vietnamesisk pop', de: 'Moderner vietnamesischer Pop', fr: 'Pop vietnamien moderne', es: 'Pop vietnamita moderno', it: 'Pop vietnamita moderno', pl: 'Nowoczesny wietnamski pop', nl: 'Moderne Vietnamese pop', pt: 'Pop vietnamita moderno' },
     ],
     decorationIdeas: [
-      'Red and gold colors',
-      'Paper lanterns',
-      'Bamboo elements',
-      'Lotus flowers',
+      { en: 'Red and gold colors', sv: 'Röda och guldiga färger', de: 'Rote und goldene Farben', fr: 'Couleurs rouge et or', es: 'Colores rojo y dorado', it: 'Colori rosso e oro', pl: 'Czerwone i złote kolory', nl: 'Rode en gouden kleuren', pt: 'Cores vermelho e dourado' },
+      { en: 'Paper lanterns', sv: 'Papperslyktor', de: 'Papierlaternen', fr: 'Lanternes en papier', es: 'Linternas de papel', it: 'Lanterne di carta', pl: 'Papierowe lampiony', nl: 'Papieren lantaarns', pt: 'Lanternas de papel' },
+      { en: 'Bamboo elements', sv: 'Bambuelement', de: 'Bambus-Elemente', fr: 'Éléments en bambou', es: 'Elementos de bambú', it: 'Elementi in bambù', pl: 'Elementy bambusowe', nl: 'Bamboe elementen', pt: 'Elementos de bambu' },
+      { en: 'Lotus flowers', sv: 'Lotusblommor', de: 'Lotusblumen', fr: 'Fleurs de lotus', es: 'Flores de loto', it: 'Fiori di loto', pl: 'Kwiaty lotosu', nl: 'Lotusbloemen', pt: 'Flores de lótus' },
     ],
     conversationStarters: [
-      'Have you ever tried pho?',
-      'Would you explore Vietnam by motorbike?',
-      'What do you know about Vietnamese street food?',
+      { en: 'Have you ever tried pho?', sv: 'Har du någonsin provat pho?', de: 'Haben Sie jemals Pho probiert?', fr: 'Avez-vous déjà goûté le pho ?', es: '¿Alguna vez has probado el pho?', it: 'Hai mai provato il pho?', pl: 'Czy próbowałeś kiedyś pho?', nl: 'Heb je ooit pho geprobeerd?', pt: 'Já alguma vez experimentaste pho?' },
+      { en: 'Would you explore Vietnam by motorbike?', sv: 'Skulle du utforska Vietnam med motorcykel?', de: 'Würden Sie Vietnam auf dem Motorrad erkunden?', fr: 'Exploreriez-vous le Vietnam à moto ?', es: '¿Explorarías Vietnam en motocicleta?', it: 'Esploreresti il Vietnam in moto?', pl: 'Czy odkrywałbyś Wietnam motocyklem?', nl: 'Zou je Vietnam per motorfiets verkennen?', pt: 'Exploraria o Vietname de motocicleta?' },
+      { en: 'What do you know about Vietnamese street food?', sv: 'Vad vet du om vietnamesisk gatumat?', de: 'Was wissen Sie über vietnamesisches Straßenessen?', fr: 'Que savez-vous sur la nourriture de rue vietnamienne ?', es: '¿Qué sabes sobre la comida callejera vietnamita?', it: 'Cosa sai del cibo di strada vietnamita?', pl: 'Co wiesz o wietnamskim jedzeniu ulicznym?', nl: 'Wat weet je over Vietnamees straatvoedsel?', pt: 'O que sabes sobre a comida de rua vietnamita?' },
     ],
     quiz: [
       {

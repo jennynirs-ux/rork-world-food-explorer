@@ -206,7 +206,17 @@ export const eswatini: Country = {
         pt: 'Has excellent wildlife reserves and conservation areas',
       },
     ],
-    foodCulture: 'Swazi cuisine features maize porridge, grilled meats, and indigenous vegetables with Southern African influences.',
+    foodCulture: {
+      en: 'Swazi cuisine features maize porridge, grilled meats, and indigenous vegetables with Southern African influences.',
+      sv: 'Swazisk mat innehåller majsgröt, grillat kött och inhemska grönsaker med sydafrikanska influenser.',
+      de: 'Die swasische Küche zeichnet sich durch Maisbrei, gegrilltes Fleisch und einheimisches Gemüse mit südafrikanischen Einflüssen aus.',
+      fr: 'La cuisine swazi propose de la bouillie de maïs, des viandes grillées et des légumes indigènes avec des influences d\'Afrique australe.',
+      es: 'La cocina suazi presenta gachas de maíz, carnes a la parrilla y verduras autóctonas con influencias del sur de África.',
+      it: 'La cucina swazi presenta porridge di mais, carni alla griglia e verdure indigene con influenze dell\'Africa meridionale.',
+      pl: 'Kuchnia swazi oferuje owsiankę kukurydzianą, grillowane mięsa i rdzenną zielenninę z wpływami południowoafrykańskimi.',
+      nl: 'De Swazische keuken kenmerkt zich door maïspap, gegrild vlees en inheemse groenten met Zuid-Afrikaanse invloeden.',
+      pt: 'A culinária suazilandesa apresenta mingau de milho, carnes grelhadas e vegetais indígenas com influências da África do Sul.',
+    },
     history: [
       {
         year: '1815',
@@ -880,20 +890,20 @@ export const eswatini: Country = {
       nonAlcoholic: 'Mahewu (fermented porridge drink), Rooibos tea',
     },
     music: [
-      'Traditional Swazi songs',
-      'Sibhaca dance music',
-      'Marabi jazz',
+      { en: 'Traditional Swazi songs', sv: 'Traditionella swaziska sånger', de: 'Traditionelle swasische Lieder', fr: 'Chansons swazies traditionnelles', es: 'Canciones suazis tradicionales', it: 'Canzoni swazi tradizionali', pl: 'Tradycyjne pieśni swazi', nl: 'Traditionele Swazische liedjes', pt: 'Canções swazi tradicionais' },
+      { en: 'Sibhaca dance music', sv: 'Sibhaca-dansmusik', de: 'Sibhaca-Tanzmusik', fr: 'Musique de danse sibhaca', es: 'Música de danza sibhaca', it: 'Musica da ballo sibhaca', pl: 'Muzyka taneczna sibhaca', nl: 'Sibhaca dansmuziek', pt: 'Música de dança sibhaca' },
+      { en: 'Marabi jazz', sv: 'Marabi jazz', de: 'Marabi-Jazz', fr: 'Jazz marabi', es: 'Jazz marabi', it: 'Jazz marabi', pl: 'Jazz marabi', nl: 'Marabi jazz', pt: 'Jazz marabi' },
     ],
     decorationIdeas: [
-      'Blue, yellow and red flag colors',
-      'Traditional shields and spears',
-      'Beadwork patterns',
-      'Wildlife imagery',
+      { en: 'Blue, yellow and red flag colors', sv: 'Blå, gul och röda flaggfärger', de: 'Blau, Gelb und Rot (Flaggenfarben)', fr: 'Couleurs du drapeau bleu, jaune et rouge', es: 'Colores de la bandera azul, amarillo y rojo', it: 'Colori della bandiera blu, giallo e rosso', pl: 'Niebieskie, żółte i czerwone kolory flagi', nl: 'Blauw, geel en rood (vlagkleuren)', pt: 'Cores da bandeira azul, amarelo e vermelho' },
+      { en: 'Traditional shields and spears', sv: 'Traditionella sköldar och spjut', de: 'Traditionelle Schilde und Speere', fr: 'Boucliers et lances traditionnels', es: 'Escudos y lanzas tradicionales', it: 'Scudi e lance tradizionali', pl: 'Tradycyjne tarcze i włócznie', nl: 'Traditionele schilden en speren', pt: 'Escudos e lanças tradicionais' },
+      { en: 'Beadwork patterns', sv: 'Pärldekormönster', de: 'Perlenstickereimuster', fr: 'Motifs de perles', es: 'Patrones de abalorios', it: 'Motivi di perline', pl: 'Wzory z koralików', nl: 'Kralenwerk patronen', pt: 'Padrões de contas' },
+      { en: 'Wildlife imagery', sv: 'Viltbilder', de: 'Wildtiermotive', fr: 'Imagerie de la faune sauvage', es: 'Imágenes de vida salvaje', it: 'Immagini della fauna selvatica', pl: 'Motywy dzikich zwierząt', nl: 'Wilde dieren afbeeldingen', pt: 'Imagens de vida selvagem' },
     ],
     conversationStarters: [
-      'What do you know about African monarchies?',
-      'Have you experienced traditional African ceremonies?',
-      'Have you heard of the Reed Dance ceremony?',
+      { en: 'What do you know about African monarchies?', sv: 'Vad vet du om afrikanska monarkier?', de: 'Was weißt du über afrikanische Monarchien?', fr: 'Que savez-vous des monarchies africaines ?', es: '¿Qué sabes sobre las monarquías africanas?', it: 'Cosa sai delle monarchie africane?', pl: 'Co wiesz o afrykańskich monarchiach?', nl: 'Wat weet je over Afrikaanse monarchieën?', pt: 'O que você sabe sobre as monarquias africanas?' },
+      { en: 'Have you experienced traditional African ceremonies?', sv: 'Har du upplevt traditionella afrikanska ceremonier?', de: 'Hast du traditionelle afrikanische Zeremonien erlebt?', fr: 'Avez-vous vécu des cérémonies africaines traditionnelles ?', es: '¿Has experimentado ceremonias africanas tradicionales?', it: 'Hai vissuto cerimonie africane tradizionali?', pl: 'Czy doświadczyłeś tradycyjnych afrykańskich ceremonii?', nl: 'Heb je traditionele Afrikaanse ceremonies meegemaakt?', pt: 'Você já vivenciou cerimônias africanas tradicionais?' },
+      { en: 'Have you heard of the Reed Dance ceremony?', sv: 'Har du hört talas om Reed Dance-ceremonin?', de: 'Hast du von der Reed Dance Zeremonie gehört?', fr: 'Avez-vous entendu parler de la cérémonie de la danse des roseaux ?', es: '¿Has oído hablar de la ceremonia de la Danza del Junco?', it: 'Hai sentito parlare della cerimonia della Reed Dance?', pl: 'Czy słyszałeś o ceremonii Reed Dance?', nl: 'Heb je gehoord van de Reed Dance ceremonie?', pt: 'Você já ouviu falar da cerimônia Reed Dance?' },
     ],
     innovations: [
       {

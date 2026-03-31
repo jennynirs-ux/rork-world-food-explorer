@@ -250,7 +250,17 @@ export const romania: Country = {
         pt: 'Romania is one of the largest wine producers in Europe',
       },
     ],
-    foodCulture: 'Romanian cuisine is a hearty mix of Balkan, Turkish, and Hungarian influences. Pork, poultry, and lamb are the main meats, often grilled or stewed. Polenta (mămăligă) is a staple, and meals are often accompanied by pickled vegetables and strong plum brandy.',
+    foodCulture: {
+      en: 'Romanian cuisine is a hearty mix of Balkan, Turkish, and Hungarian influences. Pork, poultry, and lamb are the main meats, often grilled or stewed. Polenta (mămăligă) is a staple, and meals are often accompanied by pickled vegetables and strong plum brandy.',
+      sv: 'Rumänsk mat är en rejäl blandning av balkanska, turkiska och ungerska influenser. Fläsk, fågel och lamm är de viktigaste kötten, ofta grillat eller stuvet. Polenta (mămăligă) är en stapelvara och måltider åtföljs ofta av inlagda grönsaker och stark plommonbrandy.',
+      de: 'Die rumänische Küche ist eine herzhafte Mischung aus balkanischen, türkischen und ungarischen Einflüssen. Schweinefleisch, Geflügel und Lamm sind die Hauptfleischsorten, oft gegrillt oder geschmort. Polenta (Mămăligă) ist ein Grundnahrungsmittel, und Mahlzeiten werden oft von eingelegtem Gemüse und starkem Pflaumenbrand begleitet.',
+      fr: 'La cuisine roumaine est un mélange copieux d\'influences balkaniques, turques et hongroises. Le porc, la volaille et l\'agneau sont les principales viandes, souvent grillées ou mijotées. La polenta (mămăligă) est un aliment de base, et les repas sont souvent accompagnés de légumes marinés et de brandy de prune fort.',
+      es: 'La cocina rumana es una mezcla abundante de influencias balcánicas, turcas y húngaras. La carne de cerdo, las aves y el cordero son las principales carnes, a menudo a la parrilla o estofadas. La polenta (mămăligă) es un alimento básico, y las comidas suelen ir acompañadas de verduras encurtidas y fuerte aguardiente de ciruela.',
+      it: 'La cucina rumena è un sostanzioso mix di influenze balcaniche, turche e ungheresi. Maiale, pollame e agnello sono le carni principali, spesso alla griglia o in umido. La polenta (mămăligă) è un alimento base, e i pasti sono spesso accompagnati da verdure sottaceto e forte brandy di prugne.',
+      pl: 'Kuchnia rumuńska to syta mieszanka wpływów bałkańskich, tureckich i węgierskich. Wieprzowina, drób i jagnięcina są głównymi mięsami, często grillowanymi lub duszonymi. Polenta (mămăligă) jest podstawą, a posiłki często towarzyszą marynowane warzywa i mocna śliwowica.',
+      nl: 'De Roemeense keuken is een stevige mix van Balkan-, Turkse en Hongaarse invloeden. Varkensvlees, gevogelte en lamsvlees zijn de belangrijkste vleessoorten, vaak gegrild of gestoofd. Polenta (mămăligă) is een basisvoedsel, en maaltijden gaan vaak gepaard met ingelegde groenten en sterke pruimenbrandy.',
+      pt: 'A culinária romena é uma mistura substancial de influências balcânicas, turcas e húngaras. Porco, aves e cordeiro são as carnes principais, frequentemente grelhadas ou ensopadas. A polenta (mămăligă) é um alimento básico, e as refeições são frequentemente acompanhadas de vegetais em conserva e forte aguardente de ameixa.',
+    },
     innovations: [
       {
         name: {
@@ -1365,24 +1375,24 @@ export const romania: Country = {
       nonAlcoholic: 'Socată (elderflower drink), Turkish coffee, Fruit compote',
     },
     music: [
-      'Traditional Romanian folk music',
-      'Doina (melancholic songs)',
-      'Lăutari music',
-      'Pan flute melodies',
+      { en: 'Traditional Romanian folk music', sv: 'Traditionell rumänsk folkmusik', de: 'Traditionelle rumänische Volksmusik', fr: 'Musique folklorique roumaine traditionnelle', es: 'Música folclórica rumana tradicional', it: 'Musica folk rumena tradizionale', pl: 'Tradycyjna rumuńska muzyka ludowa', nl: 'Traditionele Roemeense volksmuziek', pt: 'Música folclórica romena tradicional' },
+      { en: 'Doina (melancholic songs)', sv: 'Doina (melankoliska sånger)', de: 'Doina (melancholische Lieder)', fr: 'Doina (chansons mélancoliques)', es: 'Doina (canciones melancólicas)', it: 'Doina (canzoni malinconiche)', pl: 'Doina (melancholijne pieśni)', nl: 'Doina (melancholische liedjes)', pt: 'Doina (canções melancólicas)' },
+      { en: 'Lăutari music', sv: 'Lăutari-musik', de: 'Lăutari-Musik', fr: 'Musique Lăutari', es: 'Música Lăutari', it: 'Musica Lăutari', pl: 'Muzyka Lăutari', nl: 'Lăutari muziek', pt: 'Música Lăutari' },
+      { en: 'Pan flute melodies', sv: 'Panflöjtsmelodier', de: 'Panflöten-Melodien', fr: 'Mélodies de flûte de Pan', es: 'Melodías de flauta de Pan', it: 'Melodie di flauto di Pan', pl: 'Melodie na flecie Pana', nl: 'Panfluitmelodieën', pt: 'Melodias de flauta de Pã' },
     ],
     decorationIdeas: [
-      'Red, yellow, and blue (Romanian flag colors)',
-      'Traditional woven textiles',
-      'Wooden carved items',
-      'Sunflower arrangements',
-      'Castle and medieval motifs',
-      'Folk art patterns',
+      { en: 'Red, yellow, and blue (Romanian flag colors)', sv: 'Röd, gul och blå (rumänska flaggfärger)', de: 'Rot, Gelb und Blau (rumänische Flaggenfarben)', fr: 'Rouge, jaune et bleu (couleurs du drapeau roumain)', es: 'Rojo, amarillo y azul (colores de la bandera rumana)', it: 'Rosso, giallo e blu (colori della bandiera rumena)', pl: 'Czerwony, żółty i niebieski (kolory flagi Rumunii)', nl: 'Rood, geel en blauw (Roemeense vlagkleuren)', pt: 'Vermelho, amarelo e azul (cores da bandeira romena)' },
+      { en: 'Traditional woven textiles', sv: 'Traditionella vävda textilier', de: 'Traditionelle gewebte Textilien', fr: 'Textiles tissés traditionnels', es: 'Textiles tejidos tradicionales', it: 'Tessuti tradizionali intrecciati', pl: 'Tradycyjne tkaniny tkane', nl: 'Traditioneel geweven textiel', pt: 'Têxteis tradicionais tecidos' },
+      { en: 'Wooden carved items', sv: 'Träsnidade föremål', de: 'Holzgeschnitzte Gegenstände', fr: 'Objets sculptés en bois', es: 'Objetos tallados en madera', it: 'Oggetti intagliati in legno', pl: 'Rzeźbione drewniane przedmioty', nl: 'Houten gesneden voorwerpen', pt: 'Objetos entalhados em madeira' },
+      { en: 'Sunflower arrangements', sv: 'Solrosarrangemang', de: 'Sonnenblumen-Arrangements', fr: 'Arrangements de tournesols', es: 'Arreglos de girasoles', it: 'Composizioni di girasoli', pl: 'Aranżacje słonecznikowe', nl: 'Zonnebloem-arrangementen', pt: 'Arranjos de girassóis' },
+      { en: 'Castle and medieval motifs', sv: 'Slott- och medeltida motiv', de: 'Schloss- und mittelalterliche Motive', fr: 'Motifs de châteaux et médiévaux', es: 'Motivos de castillos y medievales', it: 'Motivi di castelli e medievali', pl: 'Motywy zamków i średniowieczne', nl: 'Kasteel- en middeleeuwse motieven', pt: 'Motivos de castelos e medievais' },
+      { en: 'Folk art patterns', sv: 'Folkkonstmönster', de: 'Volkskunstmuster', fr: 'Motifs d\'art populaire', es: 'Patrones de arte popular', it: 'Motivi di arte popolare', pl: 'Wzory sztuki ludowej', nl: 'Volkskunstpatronen', pt: 'Padrões de arte popular' },
     ],
     conversationStarters: [
-      'Have you read Dracula? Would you visit Bran Castle?',
-      'What do you know about Romanian traditions and folklore?',
-      'Would you explore the Carpathian Mountains or visit medieval towns?',
-      'Have you tried Romanian wine? The country has a long winemaking tradition!',
+      { en: 'Have you read Dracula? Would you visit Bran Castle?', sv: 'Har du läst Dracula? Skulle du besöka Bran Castle?', de: 'Hast du Dracula gelesen? Würdest du Bran Castle besuchen?', fr: 'Avez-vous lu Dracula ? Visiteriez-vous le château de Bran ?', es: '¿Has leído Drácula? ¿Visitarías el Castillo de Bran?', it: 'Hai letto Dracula? Visiteresti il Castello di Bran?', pl: 'Czy czytałeś Draculę? Czy odwiedziłbyś Zamek Bran?', nl: 'Heb je Dracula gelezen? Zou je Bran Castle bezoeken?', pt: 'Você já leu Drácula? Visitaria o Castelo de Bran?' },
+      { en: 'What do you know about Romanian traditions and folklore?', sv: 'Vad vet du om rumänska traditioner och folklore?', de: 'Was weißt du über rumänische Traditionen und Folklore?', fr: 'Que savez-vous des traditions et du folklore roumains ?', es: '¿Qué sabes sobre las tradiciones y el folclore rumanos?', it: 'Cosa sai delle tradizioni e del folklore rumeno?', pl: 'Co wiesz o rumuńskich tradycjach i folklorze?', nl: 'Wat weet je over Roemeense tradities en folklore?', pt: 'O que você sabe sobre as tradições e o folclore romenos?' },
+      { en: 'Would you explore the Carpathian Mountains or visit medieval towns?', sv: 'Skulle du utforska Karpaterna eller besöka medeltida städer?', de: 'Würdest du die Karpaten erkunden oder mittelalterliche Städte besuchen?', fr: 'Exploreriez-vous les Carpates ou visiteriez-vous des villes médiévales ?', es: '¿Explorarías los Cárpatos o visitarías pueblos medievales?', it: 'Esploreresti i Carpazi o visiteresti città medievali?', pl: 'Czy zbadałbyś Karpaty czy odwiedził średniowieczne miasta?', nl: 'Zou je de Karpaten verkennen of middeleeuwse steden bezoeken?', pt: 'Você exploraria os Cárpatos ou visitaria cidades medievais?' },
+      { en: 'Have you tried Romanian wine? The country has a long winemaking tradition!', sv: 'Har du provat rumänsk vin? Landet har en lång vinmakartradition!', de: 'Hast du rumänischen Wein probiert? Das Land hat eine lange Weinbautradition!', fr: 'Avez-vous essayé le vin roumain ? Le pays a une longue tradition viticole !', es: '¿Has probado el vino rumano? ¡El país tiene una larga tradición vitivinícola!', it: 'Hai provato il vino rumeno? Il paese ha una lunga tradizione vitivinicola!', pl: 'Czy próbowałeś rumuńskiego wina? Kraj ma długą tradycję winiarską!', nl: 'Heb je Roemeense wijn geprobeerd? Het land heeft een lange wijnmakersstraditie!', pt: 'Você já experimentou vinho romeno? O país tem uma longa tradição vinícola!' },
     ],
     quiz: [
       {

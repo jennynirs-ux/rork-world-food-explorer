@@ -206,7 +206,17 @@ export const kazakhstan: Country = {
         pt: 'Traditional eagle hunting is still practiced',
       },
     ],
-    foodCulture: 'Kazakh cuisine features meat, dairy, and bread with Central Asian and Russian influences.',
+    foodCulture: {
+      en: 'Kazakh cuisine features meat, dairy, and bread with Central Asian and Russian influences.',
+      sv: 'Det kazakhstanska köket innehåller kött, mejeriprodukter och bröd med centralasiatiska och ryska influenser.',
+      de: 'Die kasachische Küche bietet Fleisch, Milchprodukte und Brot mit zentralasiatischen und russischen Einflüssen.',
+      fr: 'La cuisine kazakhe propose de la viande, des produits laitiers et du pain avec des influences d\'Asie centrale et russes.',
+      es: 'La cocina kazaja incluye carne, productos lácteos y pan con influencias de Asia Central y rusas.',
+      it: 'La cucina kazaka presenta carne, latticini e pane con influenze dell\'Asia centrale e russe.',
+      pl: 'Kuchnia kazachska obejmuje mięso, produkty mleczne i chleb z wpływami środkowoazjatyckimi i rosyjskimi.',
+      nl: 'De Kazachse keuken omvat vlees, zuivel en brood met Centraal-Aziatische en Russische invloeden.',
+      pt: 'A culinária cazaque apresenta carne, laticínios e pão com influências da Ásia Central e russas.',
+    },
     history: [
       {
         year: '1st Millennium BC',
@@ -957,19 +967,19 @@ export const kazakhstan: Country = {
       nonAlcoholic: 'Shubat (camel milk), Black tea',
     },
     music: [
-      'Traditional dombra music',
-      'Kazakh folk songs',
-      'Modern Kazakh pop',
+      { en: 'Traditional dombra music', sv: 'Traditionell dombramusik', de: 'Traditionelle Dombra-Musik', fr: 'Musique traditionnelle au dombra', es: 'Música tradicional de dombra', it: 'Musica tradizionale con dombra', pl: 'Tradycyjna muzyka dombra', nl: 'Traditionele dombra-muziek', pt: 'Música tradicional de dombra' },
+      { en: 'Kazakh folk songs', sv: 'Kazakhstanska folksånger', de: 'Kasachische Volkslieder', fr: 'Chansons folk kazakhes', es: 'Canciones folclóricas kazajas', it: 'Canzoni folk kazake', pl: 'Kazachskie pieśni ludowe', nl: 'Kazachse volksliederen', pt: 'Canções folclóricas cazaques' },
+      { en: 'Modern Kazakh pop', sv: 'Modern kazakhstansk pop', de: 'Moderner kasachischer Pop', fr: 'Pop kazakh moderne', es: 'Pop kazajo moderno', it: 'Pop kazako moderno', pl: 'Nowoczesny kazachski pop', nl: 'Moderne Kazachse pop', pt: 'Pop cazaque moderno' },
     ],
     decorationIdeas: [
-      'Blue and yellow flag colors',
-      'Steppe landscapes',
-      'Traditional yurts',
-      'Eagle imagery',
+      { en: 'Blue and yellow flag colors', sv: 'Blå och gula flaggfärger', de: 'Blau und gelbe Flaggenfarben', fr: 'Couleurs du drapeau bleu et jaune', es: 'Colores de la bandera azul y amarillo', it: 'Colori della bandiera blu e giallo', pl: 'Niebieskie i żółte kolory flagi', nl: 'Blauw en gele vlagkleuren', pt: 'Cores da bandeira azul e amarelo' },
+      { en: 'Steppe landscapes', sv: 'Stäpplandskap', de: 'Steppenlandschaften', fr: 'Paysages de steppe', es: 'Paisajes de estepa', it: 'Paesaggi della steppa', pl: 'Krajobrazy stepowe', nl: 'Steppenlandschappen', pt: 'Paisagens das estepes' },
+      { en: 'Traditional yurts', sv: 'Traditionella jurtor', de: 'Traditionelle Jurten', fr: 'Yourtes traditionnelles', es: 'Yurtas tradicionales', it: 'Yurte tradizionali', pl: 'Tradycyjne jurty', nl: 'Traditionele yurts', pt: 'Yurtas tradicionais' },
+      { en: 'Eagle imagery', sv: 'Örnbilder', de: 'Adler-Motive', fr: 'Images d\'aigles', es: 'Imágenes de águilas', it: 'Immagini di aquile', pl: 'Motywy orłów', nl: 'Arend afbeeldingen', pt: 'Imagens de águias' },
     ],
     conversationStarters: [
-      'What do you know about Central Asian culture?',
-      'Have you heard of the Silk Road?',
+      { en: 'What do you know about Central Asian culture?', sv: 'Vad vet du om centralasiatisk kultur?', de: 'Was weißt du über die zentralasiatische Kultur?', fr: 'Que savez-vous de la culture d\'Asie centrale?', es: '¿Qué sabes sobre la cultura de Asia Central?', it: 'Cosa sai della cultura dell\'Asia centrale?', pl: 'Co wiesz o kulturze Azji Środkowej?', nl: 'Wat weet je over de Centraal-Aziatische cultuur?', pt: 'O que você sabe sobre a cultura da Ásia Central?' },
+      { en: 'Have you heard of the Silk Road?', sv: 'Har du hört talas om Sidenvägen?', de: 'Hast du von der Seidenstraße gehört?', fr: 'Avez-vous entendu parler de la Route de la Soie?', es: '¿Has oído hablar de la Ruta de la Seda?', it: 'Hai sentito parlare della Via della Seta?', pl: 'Czy słyszałeś o Jedwabnym Szlaku?', nl: 'Heb je gehoord van de Zijderoute?', pt: 'Você já ouviu falar da Rota da Seda?' },
     ],
     quiz: [
       {

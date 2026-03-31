@@ -206,7 +206,17 @@ export const gabon: Country = {
         pt: 'Home to forest elephants and lowland gorillas',
       },
     ],
-    foodCulture: 'Gabonese cuisine features cassava, plantains, fish, and bushmeat with French colonial influences.',
+    foodCulture: {
+      en: 'Gabonese cuisine features cassava, plantains, fish, and bushmeat with French colonial influences.',
+      sv: 'Gabonsk mat innehåller kassava, plátanos, fisk och viltviande med franska koloniala influenser.',
+      de: 'Die gabunische Küche zeichnet sich durch Maniok, Kochbananen, Fisch und Buschfleisch mit französischen Kolonialeinflüssen aus.',
+      fr: 'La cuisine gabonaise propose du manioc, des plantains, du poisson et de la viande de brousse avec des influences coloniales françaises.',
+      es: 'La cocina gabonesa presenta yuca, plátanos, pescado y carne de monte con influencias coloniales francesas.',
+      it: 'La cucina gabonese presenta manioca, platano, pesce e carne selvatica con influenze coloniali francesi.',
+      pl: 'Kuchnia gabońska oferuje maniok, plantany, ryby i dziczyznę z wpływami kolonialnymi z Francji.',
+      nl: 'De Gabonese keuken kenmerkt zich door cassave, bakbananen, vis en busvlees met Franse koloniale invloeden.',
+      pt: 'A culinária gabonesa apresenta mandioca, plátanos, peixe e carne de caça com influências coloniais francesas.',
+    },
     history: [
       {
         year: '1472',
@@ -963,19 +973,19 @@ export const gabon: Country = {
       nonAlcoholic: 'Ginger juice, Fresh fruit juice',
     },
     music: [
-      'Traditional Bwiti music',
-      'Congolese rumba influence',
-      'Modern African pop',
+      { en: 'Traditional Bwiti music', sv: 'Traditionell Bwiti-musik', de: 'Traditionelle Bwiti-Musik', fr: 'Musique bwiti traditionnelle', es: 'Música bwiti tradicional', it: 'Musica bwiti tradizionale', pl: 'Tradycyjna muzyka bwiti', nl: 'Traditionele Bwiti-muziek', pt: 'Música bwiti tradicional' },
+      { en: 'Congolese rumba influence', sv: 'Kongolesisk rumbainflytande', de: 'Kongolesischer Rumba-Einfluss', fr: 'Influence de la rumba congolaise', es: 'Influencia de la rumba congoleña', it: 'Influenza della rumba congolese', pl: 'Wpływ kongijskiej rumby', nl: 'Congolese rumba invloed', pt: 'Influência da rumba congolesa' },
+      { en: 'Modern African pop', sv: 'Modern afrikansk pop', de: 'Moderne afrikanische Popmusik', fr: 'Pop africaine moderne', es: 'Pop africano moderno', it: 'Pop africano moderno', pl: 'Nowoczesny afrykański pop', nl: 'Moderne Afrikaanse pop', pt: 'Pop africano moderno' },
     ],
     decorationIdeas: [
-      'Green, yellow and blue flag colors',
-      'Rainforest themes',
-      'Wildlife imagery',
-      'Atlantic coast scenes',
+      { en: 'Green, yellow and blue flag colors', sv: 'Gröna, gula och blå flaggfärger', de: 'Grün, Gelb und Blau (Flaggenfarben)', fr: 'Couleurs du drapeau vert, jaune et bleu', es: 'Colores de la bandera verde, amarillo y azul', it: 'Colori della bandiera verde, giallo e blu', pl: 'Zielone, żółte i niebieskie kolory flagi', nl: 'Groen, geel en blauw (vlagkleuren)', pt: 'Cores da bandeira verde, amarelo e azul' },
+      { en: 'Rainforest themes', sv: 'Regnskogsteman', de: 'Regenwald-Themen', fr: 'Thèmes de la forêt tropicale', es: 'Temas de la selva tropical', it: 'Temi della foresta pluviale', pl: 'Motywy lasu deszczowego', nl: 'Regenwoud thema\'s', pt: 'Temas de floresta tropical' },
+      { en: 'Wildlife imagery', sv: 'Viltbilder', de: 'Wildtiermotive', fr: 'Imagerie de la faune sauvage', es: 'Imágenes de vida salvaje', it: 'Immagini della fauna selvatica', pl: 'Motywy dzikich zwierząt', nl: 'Wilde dieren afbeeldingen', pt: 'Imagens de vida selvagem' },
+      { en: 'Atlantic coast scenes', sv: 'Atlantkustscener', de: 'Atlantikküsten-Szenen', fr: 'Scènes de la côte atlantique', es: 'Escenas de la costa atlántica', it: 'Scene della costa atlantica', pl: 'Sceny wybrzeża Atlantyku', nl: 'Atlantische kust scènes', pt: 'Cenas da costa atlântica' },
     ],
     conversationStarters: [
-      'What do you know about African rainforests?',
-      'Have you seen forest elephants?',
+      { en: 'What do you know about African rainforests?', sv: 'Vad vet du om afrikanska regnskogar?', de: 'Was weißt du über afrikanische Regenwälder?', fr: 'Que savez-vous des forêts tropicales africaines ?', es: '¿Qué sabes sobre las selvas tropicales africanas?', it: 'Cosa sai delle foreste pluviali africane?', pl: 'Co wiesz o afrykańskich lasach deszczowych?', nl: 'Wat weet je over Afrikaanse regenwouden?', pt: 'O que você sabe sobre as florestas tropicais africanas?' },
+      { en: 'Have you seen forest elephants?', sv: 'Har du sett skogselijanter?', de: 'Hast du Waldelefanten gesehen?', fr: 'Avez-vous vu des éléphants de forêt ?', es: '¿Has visto elefantes de bosque?', it: 'Hai visto elefanti della foresta?', pl: 'Czy widziałeś leśne słonie?', nl: 'Heb je bosolifanten gezien?', pt: 'Você já viu elefantes de floresta?' },
     ],
     innovations: [
       {
