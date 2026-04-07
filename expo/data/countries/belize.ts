@@ -1122,21 +1122,21 @@ export const belize: Country = {
       nonAlcoholic: 'Seaweed shake, Horchata, Fresh coconut water',
     },
     music: [
-      { en: 'Punta music\', sv: \'Punta-musik\', de: \'Punta-Musik\', fr: \'Musique punta\', es: \'Música punta\', it: \'Musica punta\', pl: \'Muzyka punta\', nl: \'Punta-muziek\', pt: \'Música punta' },
-      { en: 'Brukdown\', sv: \'Brukdown\', de: \'Brukdown\', fr: \'Brukdown\', es: \'Brukdown\', it: \'Brukdown\', pl: \'Brukdown\', nl: \'Brukdown\', pt: \'Brukdown' },
-      { en: 'Paranda\', sv: \'Paranda\', de: \'Paranda\', fr: \'Paranda\', es: \'Paranda\', it: \'Paranda\', pl: \'Paranda\', nl: \'Paranda\', pt: \'Paranda' },
-      { en: 'Reggae\', sv: \'Reggae\', de: \'Reggae\', fr: \'Reggae\', es: \'Reggae\', it: \'Reggae\', pl: \'Reggae\', nl: \'Reggae\', pt: \'Reggae' },
+      { en: 'Punta music', sv: 'Punta-musik', de: 'Punta-Musik', fr: 'Musique punta', es: 'Música punta', it: 'Musica punta', pl: 'Muzyka punta', nl: 'Punta-muziek', pt: 'Música punta' },
+      { en: 'Brukdown', sv: 'Brukdown', de: 'Brukdown', fr: 'Brukdown', es: 'Brukdown', it: 'Brukdown', pl: 'Brukdown', nl: 'Brukdown', pt: 'Brukdown' },
+      { en: 'Paranda', sv: 'Paranda', de: 'Paranda', fr: 'Paranda', es: 'Paranda', it: 'Paranda', pl: 'Paranda', nl: 'Paranda', pt: 'Paranda' },
+      { en: 'Reggae', sv: 'Reggae', de: 'Reggae', fr: 'Reggae', es: 'Reggae', it: 'Reggae', pl: 'Reggae', nl: 'Reggae', pt: 'Reggae' },
     ],
     decorationIdeas: [
-      { en: 'Blue, red and white flag colors\', sv: \'Blå, röd och vit flaggfärger\', de: \'Blau, Rot und Weiß als Flaggenfarben\', fr: \'Couleurs bleu, rouge et blanc du drapeau\', es: \'Colores azul, rojo y blanco de la bandera\', it: \'Colori blu, rosso e bianco della bandiera\', pl: \'Niebieskie, czerwone i białe barwy flagi\', nl: \'Blauwe, rode en witte vlagkleuren\', pt: \'Cores azul, vermelho e branco da bandeira' },
-      { en: 'Tropical rainforest themes\', sv: \'Tropisk regnskog teman\', de: \'Tropische Regenwald-Themen\', fr: \'Thèmes de forêt tropicale\', es: \'Temas de selva tropical\', it: \'Temi della foresta tropicale\', pl: \'Motywy tropikalnego lasu deszczowego\', nl: \'Tropisch regenwoud thema\'s\', pt: \'Temas de floresta tropical' },
-      { en: 'Mayan symbols\', sv: \'Mayasymboler\', de: \'Maya-Symbole\', fr: \'Symboles mayas\', es: \'Símbolos mayas\', it: \'Simboli Maya\', pl: \'Symbole Majów\', nl: \'Maya-symbolen\', pt: \'Símbolos maias' },
-      { en: 'Ocean and reef imagery\', sv: \'Hav- och revbilder\', de: \'Ozean- und Riffbilder\', fr: \'Images d\'océan et de récif\', es: \'Imágenes de océano y arrecife\', it: \'Immagini di oceano e scogliera\', pl: \'Obrazy oceanów i raf\', nl: \'Oceaan en rif beelden\', pt: \'Imagens de oceano e recife' },
+      { en: 'Blue, red and white flag colors', sv: 'Blå, röd och vit flaggfärger', de: 'Blau, Rot und Weiß als Flaggenfarben', fr: 'Couleurs bleu, rouge et blanc du drapeau', es: 'Colores azul, rojo y blanco de la bandera', it: 'Colori blu, rosso e bianco della bandiera', pl: 'Niebieskie, czerwone i białe barwy flagi', nl: 'Blauwe, rode en witte vlagkleuren', pt: 'Cores azul, vermelho e branco da bandeira' },
+      { en: 'Tropical rainforest themes', sv: 'Tropisk regnskog teman', de: 'Tropische Regenwald-Themen', fr: 'Thèmes de forêt tropicale', es: 'Temas de selva tropical', it: 'Temi della foresta tropicale', pl: 'Motywy tropikalnego lasu deszczowego', nl: 'Tropisch regenwoud thema\'s', pt: 'Temas de floresta tropical' },
+      { en: 'Mayan symbols', sv: 'Mayasymboler', de: 'Maya-Symbole', fr: 'Symboles mayas', es: 'Símbolos mayas', it: 'Simboli Maya', pl: 'Symbole Majów', nl: 'Maya-symbolen', pt: 'Símbolos maias' },
+      { en: 'Ocean and reef imagery', sv: 'Hav- och revbilder', de: 'Ozean- und Riffbilder', fr: 'Images d\'océan et de récif', es: 'Imágenes de océano y arrecife', it: 'Immagini di oceano e scogliera', pl: 'Obrazy oceanów i raf', nl: 'Oceaan en rif beelden', pt: 'Imagens de oceano e recife' },
     ],
     conversationStarters: [
-      { en: 'Have you ever been diving or snorkeling?\', sv: \'Har du någonsin dykt eller snorklat?\', de: \'Sind Sie jemals getaucht oder geschnorchelt?\', fr: \'Avez-vous déjà plongé ou fait du snorkeling?\', es: \'¿Has practicado buceo o snorkel alguna vez?\', it: \'Hai mai fatto immersioni o snorkeling?\', pl: \'Czy kiedykolwiek nurkowałeś lub snorklowałeś?\', nl: \'Heb je ooit gedoken of gesnorkeld?\', pt: \'Você já mergulhou ou fez snorkel?' },
-      { en: 'What do you know about Mayan culture?\', sv: \'Vad vet du om mayakulturen?\', de: \'Was wissen Sie über die Maya-Kultur?\', fr: \'Que savez-vous de la culture maya?\', es: \'¿Qué sabes sobre la cultura maya?\', it: \'Cosa sai della cultura maya?\', pl: \'Co wiesz o kulturze Majów?\', nl: \'Wat weet je over de Mayacultuur?\', pt: \'O que você sabe sobre a cultura maia?' },
-      { en: 'Do you enjoy Caribbean food?\', sv: \'Tycker du om karibisk mat?\', de: \'Mögen Sie karibisches Essen?\', fr: \'Aimez-vous la cuisine caribéenne?\', es: \'¿Disfrutas de la comida caribeña?\', it: \'Ti piace il cibo caraibico?\', pl: \'Czy lubisz karaibskie jedzenie?\', nl: \'Houd je van Caribisch eten?\', pt: \'Você gosta de comida caribenha?' },
+      { en: 'Have you ever been diving or snorkeling?', sv: 'Har du någonsin dykt eller snorklat?', de: 'Sind Sie jemals getaucht oder geschnorchelt?', fr: 'Avez-vous déjà plongé ou fait du snorkeling?', es: '¿Has practicado buceo o snorkel alguna vez?', it: 'Hai mai fatto immersioni o snorkeling?', pl: 'Czy kiedykolwiek nurkowałeś lub snorklowałeś?', nl: 'Heb je ooit gedoken of gesnorkeld?', pt: 'Você já mergulhou ou fez snorkel?' },
+      { en: 'What do you know about Mayan culture?', sv: 'Vad vet du om mayakulturen?', de: 'Was wissen Sie über die Maya-Kultur?', fr: 'Que savez-vous de la culture maya?', es: '¿Qué sabes sobre la cultura maya?', it: 'Cosa sai della cultura maya?', pl: 'Co wiesz o kulturze Majów?', nl: 'Wat weet je over de Mayacultuur?', pt: 'O que você sabe sobre a cultura maia?' },
+      { en: 'Do you enjoy Caribbean food?', sv: 'Tycker du om karibisk mat?', de: 'Mögen Sie karibisches Essen?', fr: 'Aimez-vous la cuisine caribéenne?', es: '¿Disfrutas de la comida caribeña?', it: 'Ti piace il cibo caraibico?', pl: 'Czy lubisz karaibskie jedzenie?', nl: 'Houd je van Caribisch eten?', pt: 'Você gosta de comida caribenha?' },
     ],
     quiz: [
       {

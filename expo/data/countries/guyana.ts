@@ -968,19 +968,19 @@ export const guyana: Country = {
       nonAlcoholic: 'Mauby, Sorrel, Coconut water',
     },
     music: [
-      { en: 'Chutney music\', sv: \'Chutneymusik\', de: \'Chutney-Musik\', fr: \'Musique chutney\', es: \'Música chutney\', it: \'Musica chutney\', pl: \'Muzyka chutney\', nl: \'Chutney-muziek\', pt: \'Música chutney' },
-      { en: 'Soca\', sv: \'Soca\', de: \'Soca\', fr: \'Soca\', es: \'Soca\', it: \'Soca\', pl: \'Soca\', nl: \'Soca\', pt: \'Soca' },
-      { en: 'Reggae\', sv: \'Reggae\', de: \'Reggae\', fr: \'Reggae\', es: \'Reggae\', it: \'Reggae\', pl: \'Reggae\', nl: \'Reggae\', pt: \'Reggae' },
+      { en: 'Chutney music', sv: 'Chutneymusik', de: 'Chutney-Musik', fr: 'Musique chutney', es: 'Música chutney', it: 'Musica chutney', pl: 'Muzyka chutney', nl: 'Chutney-muziek', pt: 'Música chutney' },
+      { en: 'Soca', sv: 'Soca', de: 'Soca', fr: 'Soca', es: 'Soca', it: 'Soca', pl: 'Soca', nl: 'Soca', pt: 'Soca' },
+      { en: 'Reggae', sv: 'Reggae', de: 'Reggae', fr: 'Reggae', es: 'Reggae', it: 'Reggae', pl: 'Reggae', nl: 'Reggae', pt: 'Reggae' },
     ],
     decorationIdeas: [
-      { en: 'Green, yellow, red and black flag colors\', sv: \'Gröna, gula, röda och svarta flaggfärger\', de: \'Grün, Gelb, Rot und Schwarz (Flaggenfarben)\', fr: \'Couleurs du drapeau vert, jaune, rouge et noir\', es: \'Colores de la bandera verde, amarillo, rojo y negro\', it: \'Colori della bandiera verde, giallo, rosso e nero\', pl: \'Zielone, żółte, czerwone i czarne kolory flagi\', nl: \'Groen, geel, rood en zwart (vlagkleuren)\', pt: \'Cores da bandeira verde, amarelo, vermelho e preto' },
-      { en: 'Rainforest themes\', sv: \'Regnskogsteman\', de: \'Regenwald-Themen\', fr: \'Thèmes de la forêt tropicale\', es: \'Temas de la selva tropical\', it: \'Temi della foresta pluviale\', pl: \'Motywy lasu deszczowego\', nl: \'Regenwoud thema\'s\', pt: \'Temas de floresta tropical' },
-      { en: 'Waterfall imagery\', sv: \'Vattenfallsbilder\', de: \'Wasserfall-Motive\', fr: \'Imagerie de cascade\', es: \'Imágenes de cascadas\', it: \'Immagini di cascate\', pl: \'Obrazy wodospadów\', nl: \'Watervalafbeeldingen\', pt: \'Imagens de cachoeiras' },
-      { en: 'Caribbean-Indian fusion\', sv: \'Karibisk-indisk fusion\', de: \'Karibisch-indische Fusion\', fr: \'Fusion caraïbo-indienne\', es: \'Fusión caribeño-india\', it: \'Fusione caraibico-indiana\', pl: \'Fuzja karaibsko-indyjska\', nl: \'Caribisch-Indische fusie\', pt: \'Fusão caribenho-indiana' },
+      { en: 'Green, yellow, red and black flag colors', sv: 'Gröna, gula, röda och svarta flaggfärger', de: 'Grün, Gelb, Rot und Schwarz (Flaggenfarben)', fr: 'Couleurs du drapeau vert, jaune, rouge et noir', es: 'Colores de la bandera verde, amarillo, rojo y negro', it: 'Colori della bandiera verde, giallo, rosso e nero', pl: 'Zielone, żółte, czerwone i czarne kolory flagi', nl: 'Groen, geel, rood en zwart (vlagkleuren)', pt: 'Cores da bandeira verde, amarelo, vermelho e preto' },
+      { en: 'Rainforest themes', sv: 'Regnskogsteman', de: 'Regenwald-Themen', fr: 'Thèmes de la forêt tropicale', es: 'Temas de la selva tropical', it: 'Temi della foresta pluviale', pl: 'Motywy lasu deszczowego', nl: 'Regenwoud thema\'s', pt: 'Temas de floresta tropical' },
+      { en: 'Waterfall imagery', sv: 'Vattenfallsbilder', de: 'Wasserfall-Motive', fr: 'Imagerie de cascade', es: 'Imágenes de cascadas', it: 'Immagini di cascate', pl: 'Obrazy wodospadów', nl: 'Watervalafbeeldingen', pt: 'Imagens de cachoeiras' },
+      { en: 'Caribbean-Indian fusion', sv: 'Karibisk-indisk fusion', de: 'Karibisch-indische Fusion', fr: 'Fusion caraïbo-indienne', es: 'Fusión caribeño-india', it: 'Fusione caraibico-indiana', pl: 'Fuzja karaibsko-indyjska', nl: 'Caribisch-Indische fusie', pt: 'Fusão caribenho-indiana' },
     ],
     conversationStarters: [
-      { en: 'Have you been to a rainforest?\', sv: \'Har du besökt en regnskog?\', de: \'Warst du schon in einem Regenwald?\', fr: \'Avez-vous visité une forêt tropicale ?\', es: \'¿Has estado en una selva tropical?\', it: \'Sei mai stato in una foresta pluviale?\', pl: \'Czy byłeś w lesie deszczowym?\', nl: \'Ben je al in een regenwoud geweest?\', pt: \'Você já esteve em uma floresta tropical?' },
-      { en: 'What do you know about Caribbean culture?\', sv: \'Vad vet du om karibisk kultur?\', de: \'Was weißt du über karibische Kultur?\', fr: \'Que savez-vous de la culture caribéenne ?\', es: \'¿Qué sabes sobre la cultura caribeña?\', it: \'Cosa sai della cultura caraibica?\', pl: \'Co wiesz o kulturze karaibskiej?\', nl: \'Wat weet je over Caribische cultuur?\', pt: \'O que você sabe sobre a cultura caribenha?' },
+      { en: 'Have you been to a rainforest?', sv: 'Har du besökt en regnskog?', de: 'Warst du schon in einem Regenwald?', fr: 'Avez-vous visité une forêt tropicale ?', es: '¿Has estado en una selva tropical?', it: 'Sei mai stato in una foresta pluviale?', pl: 'Czy byłeś w lesie deszczowym?', nl: 'Ben je al in een regenwoud geweest?', pt: 'Você já esteve em uma floresta tropical?' },
+      { en: 'What do you know about Caribbean culture?', sv: 'Vad vet du om karibisk kultur?', de: 'Was weißt du über karibische Kultur?', fr: 'Que savez-vous de la culture caribéenne ?', es: '¿Qué sabes sobre la cultura caribeña?', it: 'Cosa sai della cultura caraibica?', pl: 'Co wiesz o kulturze karaibskiej?', nl: 'Wat weet je over Caribische cultuur?', pt: 'O que você sabe sobre a cultura caribenha?' },
     ],
     quiz: [
       {

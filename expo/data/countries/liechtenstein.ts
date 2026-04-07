@@ -964,19 +964,19 @@ export const liechtenstein: Country = {
       nonAlcoholic: 'Apple juice, Mountain spring water',
     },
     music: [
-      { en: 'Traditional Alpine folk\', sv: \'Traditionell alpin folkmusik\', de: \'Traditionelle Alpen-Volksmusik\', fr: \'Folk alpin traditionnel\', es: \'Folk alpino tradicional\', it: \'Folk alpino tradizionale\', pl: \'Tradycyjna alpejska muzyka ludowa\', nl: \'Traditionele Alpse volksmuziek\', pt: \'Folk alpino tradicional' },
-      { en: 'Classical music\', sv: \'Klassisk musik\', de: \'Klassische Musik\', fr: \'Musique classique\', es: \'Música clásica\', it: \'Musica classica\', pl: \'Muzyka klasyczna\', nl: \'Klassieke muziek\', pt: \'Música clássica' },
-      { en: 'Yodeling\', sv: \'Joddling\', de: \'Jodeln\', fr: \'Yodel\', es: \'Yodel\', it: \'Yodel\', pl: \'Jodłowanie\', nl: \'Jodelen\', pt: \'Iodeling' },
+      { en: 'Traditional Alpine folk', sv: 'Traditionell alpin folkmusik', de: 'Traditionelle Alpen-Volksmusik', fr: 'Folk alpin traditionnel', es: 'Folk alpino tradicional', it: 'Folk alpino tradizionale', pl: 'Tradycyjna alpejska muzyka ludowa', nl: 'Traditionele Alpse volksmuziek', pt: 'Folk alpino tradicional' },
+      { en: 'Classical music', sv: 'Klassisk musik', de: 'Klassische Musik', fr: 'Musique classique', es: 'Música clásica', it: 'Musica classica', pl: 'Muzyka klasyczna', nl: 'Klassieke muziek', pt: 'Música clássica' },
+      { en: 'Yodeling', sv: 'Joddling', de: 'Jodeln', fr: 'Yodel', es: 'Yodel', it: 'Yodel', pl: 'Jodłowanie', nl: 'Jodelen', pt: 'Iodeling' },
     ],
     decorationIdeas: [
-      { en: 'Blue and red flag colors\', sv: \'Blå och röda flaggfärger\', de: \'Blaue und rote Flaggenfarben\', fr: \'Couleurs du drapeau bleu et rouge\', es: \'Colores de la bandera azul y rojo\', it: \'Colori della bandiera blu e rosso\', pl: \'Niebieskie i czerwone kolory flagi\', nl: \'Blauwe en rode vlagkleuren\', pt: \'Cores da bandeira azul e vermelho' },
-      { en: 'Castle imagery\', sv: \'Slottsbilder\', de: \'Schloss-Motive\', fr: \'Images de châteaux\', es: \'Imágenes de castillos\', it: \'Immagini di castelli\', pl: \'Motywy zamków\', nl: \'Kasteel beelden\', pt: \'Imagens de castelos' },
-      { en: 'Alpine mountain themes\', sv: \'Alpina bergateman\', de: \'Alpenbergthemen\', fr: \'Thèmes des montagnes alpines\', es: \'Temas de montañas alpinas\', it: \'Temi delle montagne alpine\', pl: \'Motywy alpejskich gór\', nl: \'Alpiene bergthema\'s\', pt: \'Temas de montanhas alpinas' },
-      { en: 'Swiss-style decor\', sv: \'Schweizisk-stil dekoration\', de: \'Schweizer Stil-Dekor\', fr: \'Décoration de style suisse\', es: \'Decoración estilo suizo\', it: \'Decorazione in stile svizzero\', pl: \'Dekoracja w stylu szwajcarskim\', nl: \'Zwitserse stijl decor\', pt: \'Decoração estilo suíço' },
+      { en: 'Blue and red flag colors', sv: 'Blå och röda flaggfärger', de: 'Blaue und rote Flaggenfarben', fr: 'Couleurs du drapeau bleu et rouge', es: 'Colores de la bandera azul y rojo', it: 'Colori della bandiera blu e rosso', pl: 'Niebieskie i czerwone kolory flagi', nl: 'Blauwe en rode vlagkleuren', pt: 'Cores da bandeira azul e vermelho' },
+      { en: 'Castle imagery', sv: 'Slottsbilder', de: 'Schloss-Motive', fr: 'Images de châteaux', es: 'Imágenes de castillos', it: 'Immagini di castelli', pl: 'Motywy zamków', nl: 'Kasteel beelden', pt: 'Imagens de castelos' },
+      { en: 'Alpine mountain themes', sv: 'Alpina bergateman', de: 'Alpenbergthemen', fr: 'Thèmes des montagnes alpines', es: 'Temas de montañas alpinas', it: 'Temi delle montagne alpine', pl: 'Motywy alpejskich gór', nl: 'Alpiene bergthema\'s', pt: 'Temas de montanhas alpinas' },
+      { en: 'Swiss-style decor', sv: 'Schweizisk-stil dekoration', de: 'Schweizer Stil-Dekor', fr: 'Décoration de style suisse', es: 'Decoración estilo suizo', it: 'Decorazione in stile svizzero', pl: 'Dekoracja w stylu szwajcarskim', nl: 'Zwitserse stijl decor', pt: 'Decoração estilo suíço' },
     ],
     conversationStarters: [
-      { en: 'Have you visited any micro-nations?\', sv: \'Har du besökt några mikronationer?\', de: \'Hast du Mikronationen besucht?\', fr: \'Avez-vous visité des micro-nations?\', es: \'¿Has visitado alguna micro-nación?\', it: \'Hai visitato micro-nazioni?\', pl: \'Czy odwiedziłeś jakieś mikronacje?\', nl: \'Heb je micro-naties bezocht?\', pt: \'Você já visitou alguma micronação?' },
-      { en: 'Do you enjoy Alpine skiing?\', sv: \'Gillar du alpinåkning?\', de: \'Magst du Alpinski?\', fr: \'Aimez-vous le ski alpin?\', es: \'¿Disfrutas del esquí alpino?\', it: \'Ti piace lo sci alpino?\', pl: \'Czy lubisz narciarstwo alpejskie?\', nl: \'Geniet je van alpineskiën?\', pt: \'Você aprecia o esqui alpino?' },
+      { en: 'Have you visited any micro-nations?', sv: 'Har du besökt några mikronationer?', de: 'Hast du Mikronationen besucht?', fr: 'Avez-vous visité des micro-nations?', es: '¿Has visitado alguna micro-nación?', it: 'Hai visitato micro-nazioni?', pl: 'Czy odwiedziłeś jakieś mikronacje?', nl: 'Heb je micro-naties bezocht?', pt: 'Você já visitou alguma micronação?' },
+      { en: 'Do you enjoy Alpine skiing?', sv: 'Gillar du alpinåkning?', de: 'Magst du Alpinski?', fr: 'Aimez-vous le ski alpin?', es: '¿Disfrutas del esquí alpino?', it: 'Ti piace lo sci alpino?', pl: 'Czy lubisz narciarstwo alpejskie?', nl: 'Geniet je van alpineskiën?', pt: 'Você aprecia o esqui alpino?' },
     ],
     quiz: [
       {
