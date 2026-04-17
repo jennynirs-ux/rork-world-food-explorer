@@ -45,7 +45,14 @@
         }
       ],
       "expo-font",
-      "expo-web-browser"
+      "expo-web-browser",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "World Food Explorer uses your photo library so you can add cooking photos to your recipes.",
+          "cameraPermission": "World Food Explorer uses your camera so you can take photos of your finished dishes."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
