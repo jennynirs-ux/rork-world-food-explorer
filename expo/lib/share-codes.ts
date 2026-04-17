@@ -5,7 +5,7 @@ const SHARE_CODE_KEY = '@wfe_share_code';
 const REDEEMED_KEY = '@wfe_redeemed_code';
 const EXPIRY_KEY = '@wfe_code_expiry';
 
-const UNLOCK_DURATION_MS = 30 * 24 * 60 * 60 * 1000; // 30 days
+const UNLOCK_DURATION_MS = 14 * 24 * 60 * 60 * 1000; // 14 days
 
 /**
  * Generate a unique 6-character share code for this user.
@@ -98,7 +98,7 @@ export async function getDaysRemaining(): Promise<number> {
  */
 export async function shareCode(code: string): Promise<void> {
   await Share.share({
-    message: `🌍 Join me on World Food Explorer! Use my code ${code} to unlock all recipes for 30 days.\n\nhttps://worldfoodexplorer.app`,
+    message: `🌍 Join me on World Food Explorer! Use my code ${code} to unlock all recipes for 14 days.\n\nhttps://worldfoodexplorer.app`,
     title: 'World Food Explorer — Unlock All Recipes',
     url: 'https://worldfoodexplorer.app',
   });
