@@ -1,0 +1,46 @@
+build:
+  name: iOS Production Build
+  steps:
+    # Checkout the full GitHub repo
+    - eas/checkout
+
+    # Install dependencies from expo/package.json
+    - run:
+        name: Install dependencies
+        command: bun install
+        working_directory: expo
+
+    # Run expo prebuild to generate the ios/ Xcode project inside expo/
+    - run:
+        name: Expo Prebuild
+        command: bunx expo prebuild --non-interactive --platform ios --clean
+        working_directory: expo
+
+    # Symlink expo/ios → ios at the build root so eas/ credential
+    # functions (which look for ./ios/) resolve to expo/ios/
+    - run:
+        name: Symlink ios to build root
+        command: ln -sf expo/ios ios
+
+    # Install CocoaPods in the generated ios/ project
+    - run:
+        name: Install CocoaPods
+        command: pod install
+        working_directory: expo/ios
+
+    # Configure signing credentials (distribution cert + provisioning profile)
+    - eas/configure_ios_credentials
+
+    # Set the build number from EAS remote version source
+    - eas/configure_ios_version
+
+    # Generate the Gymfile for fastlane
+    - eas/generate_gymfile_from_template:
+        inputs:
+          credentials: ${ eas.job.secrets.buildCredentials }
+
+    # Build the .ipa
+    - eas/run_fastlane
+
+    # Upload the .ipa as a build artifact
+    - eas/find_and_upload_build_artifacts
