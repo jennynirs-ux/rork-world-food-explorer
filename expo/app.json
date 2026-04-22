@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "World Food Journey",
-    "slug": "world-food-explorer",
+    "slug": "world-food-journey",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -63,11 +63,11 @@
     "experiments": {
       "typedRoutes": true
     },
+    "owner": "jenny.nirs",
     "extra": {
       "eas": {
-        "projectId": "5b88a59c-0d28-4f89-a633-da5b510037d0"
+        "projectId": "eee3cf65-e133-4862-a605-c354a4003ee0"
       }
-    },
-    "owner": "jenny.nirs"
+    }
   }
 }
