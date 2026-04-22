@@ -63,7 +63,7 @@ export async function scheduleStreakReminder(): Promise<void> {
   await Notifications.scheduleNotificationAsync({
     content: {
       title: "Don't break your streak! 🔥",
-      body: 'Open World Food Explorer to keep your cooking streak alive.',
+      body: 'Open World Food Journey to keep your cooking streak alive.',
       data: { type: 'streak_reminder' },
     },
     trigger: {

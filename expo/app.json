@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "World Food Explorer",
+    "name": "World Food Journey",
     "slug": "world-food-explorer",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,11 +17,10 @@
       "supportsTablet": true,
       "bundleIdentifier": "app.rork.world-food-explorer",
       "infoPlist": {
-        "SKStoreReviewController": true
+        "SKStoreReviewController": true,
+        "ITSAppUsesNonExemptEncryption": false
       },
-      "entitlements": {
-        "com.apple.developer.in-app-payments": []
-      }
+      "entitlements": {}
     },
     "android": {
       "adaptiveIcon": {
@@ -31,7 +30,8 @@
       "package": "app.rork.world_food_explorer",
       "permissions": [
         "android.permission.VIBRATE",
-        "com.android.vending.BILLING"
+        "com.android.vending.BILLING",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "web": {
@@ -47,15 +47,27 @@
       "expo-font",
       "expo-web-browser",
       [
+        "expo-notifications",
+        {
+          "mode": "production"
+        }
+      ],
+      [
         "expo-image-picker",
         {
-          "photosPermission": "World Food Explorer uses your photo library so you can add cooking photos to your recipes.",
-          "cameraPermission": "World Food Explorer uses your camera so you can take photos of your finished dishes."
+          "photosPermission": "World Food Journey uses your photo library so you can add cooking photos to your recipes.",
+          "cameraPermission": "World Food Journey uses your camera so you can take photos of your finished dishes."
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5b88a59c-0d28-4f89-a633-da5b510037d0"
+      }
+    },
+    "owner": "jenny.nirs"
   }
 }

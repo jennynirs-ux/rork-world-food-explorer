@@ -17,11 +17,9 @@ import {
   ChevronUp,
 } from 'lucide-react-native';
 import { FoodImage } from '@/components/FoodImage';
-import NutritionCard from '@/components/NutritionCard';
 import DifficultyBadge from '@/components/DifficultyBadge';
 import IngredientSubstitutions from '@/components/IngredientSubstitutions';
 import CookedPhotoGallery from '@/components/CookedPhotoGallery';
-import { estimateNutrition } from '@/lib/nutrition';
 import { enrichWithSubstitutions } from '@/lib/substitutions';
 import { useTranslation } from '@/lib/i18n';
 import colors from '@/constants/colors';
@@ -171,12 +169,6 @@ export default function RecipesTab({
           {/* Expanded content — below the touchable card */}
           {mainExpanded && (
             <View style={styles.expandedContent}>
-              {countryData?.mainDish && (
-                <NutritionCard
-                  nutrition={estimateNutrition(countryData.mainDish)}
-                />
-              )}
-
               {/* Ingredients + Instructions: side-by-side in landscape */}
               <View style={isLandscape ? styles.landscapeRow : undefined}>
                 <View style={isLandscape ? styles.landscapeCol : undefined}>
@@ -384,12 +376,6 @@ export default function RecipesTab({
 
           {dessertExpanded && (
             <View style={styles.expandedContent}>
-              {countryData?.dessert && (
-                <NutritionCard
-                  nutrition={estimateNutrition(countryData.dessert)}
-                />
-              )}
-
               <View style={isLandscape ? styles.landscapeRow : undefined}>
                 <View style={isLandscape ? styles.landscapeCol : undefined}>
                   <Text style={styles.subheading}>{t.country.ingredients}</Text>

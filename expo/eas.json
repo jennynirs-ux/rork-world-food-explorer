@@ -11,9 +11,7 @@
         "simulator": true
       },
       "env": {
-        "EXPO_PUBLIC_RORK_API_BASE_URL": "http://localhost:3000",
-        "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "",
-        "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": ""
+        "EXPO_PUBLIC_RORK_API_BASE_URL": "http://localhost:3000"
       }
     },
     "preview": {
@@ -24,26 +22,24 @@
       "channel": "staging",
       "env": {
         "EXPO_PUBLIC_RORK_API_BASE_URL": "https://staging-api.worldfoodexplorer.app",
-        "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "",
-        "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": ""
+        "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "appl_xFpFRwUKzKxFBgSfCNZnJxMLgOm",
+        "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": "goog_bAoukABlCjPezXevSyQaNJSoBCO"
       }
     },
     "production": {
       "autoIncrement": true,
-      "channel": "production",
       "env": {
         "EXPO_PUBLIC_RORK_API_BASE_URL": "https://api.worldfoodexplorer.app",
-        "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "",
-        "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": ""
+        "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "appl_xFpFRwUKzKxFBgSfCNZnJxMLgOm",
+        "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": "goog_bAoukABlCjPezXevSyQaNJSoBCO"
       }
     }
   },
   "submit": {
     "production": {
       "ios": {
-        "appleId": "APPLE_ID_HERE",
-        "ascAppId": "ASC_APP_ID_HERE",
-        "appleTeamId": "APPLE_TEAM_ID_HERE"
+        "appleId": "jolofsson87@gmail.com",
+        "appleTeamId": "9PKHAN7F4Y"
       },
       "android": {
         "serviceAccountKeyPath": "./google-service-account.json",

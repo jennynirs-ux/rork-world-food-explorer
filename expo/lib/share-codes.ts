@@ -98,8 +98,8 @@ export async function getDaysRemaining(): Promise<number> {
  */
 export async function shareCode(code: string): Promise<void> {
   await Share.share({
-    message: `🌍 Join me on World Food Explorer! Use my code ${code} to unlock all recipes for 14 days.\n\nhttps://worldfoodexplorer.app`,
-    title: 'World Food Explorer — Unlock All Recipes',
+    message: `🌍 Join me on World Food Journey! Use my code ${code} to unlock all recipes for 14 days.\n\nhttps://worldfoodexplorer.app`,
+    title: 'World Food Journey — Unlock All Recipes',
     url: 'https://worldfoodexplorer.app',
   });
 }

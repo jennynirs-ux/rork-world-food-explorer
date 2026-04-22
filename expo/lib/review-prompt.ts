@@ -50,7 +50,7 @@ async function saveMeta(meta: ReviewMeta): Promise<void> {
  * It decides whether to show the gate prompt based on throttle rules.
  */
 export async function maybeAskForReview(
-  enjoyingMessage: string = 'Are you enjoying World Food Explorer?',
+  enjoyingMessage: string = 'Are you enjoying World Food Journey?',
   yesLabel: string = 'Yes, I love it! ❤️',
   noLabel: string = 'Not really'
 ): Promise<void> {

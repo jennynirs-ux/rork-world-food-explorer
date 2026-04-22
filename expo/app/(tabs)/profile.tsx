@@ -3,8 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { User, Award, Trash2, ShoppingCart, ChevronRight, Utensils, Ruler, Info, Beef, Fish, Salad, Sprout, Languages, Bell, Send, X, Check, Gift, Share2, Key } from 'lucide-react-native';
-import { DietType } from '@/types';
+import { User, Award, Trash2, ShoppingCart, ChevronRight, Ruler, Info, Languages, Bell, Send, X, Check, Gift, Share2, Key } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { useState, useEffect } from 'react';
 import { enableNotifications, disableNotifications, areNotificationsEnabled } from '@/lib/notifications';
@@ -85,14 +84,6 @@ export default function ProfileScreen() {
     );
   };
 
-  const toggleDietPreference = (diet: DietType) => {
-    const currentPrefs = userProfile.dietaryPreferences || [];
-    const newPrefs = currentPrefs.includes(diet)
-      ? currentPrefs.filter(d => d !== diet)
-      : [...currentPrefs, diet];
-    updateUserProfile({ dietaryPreferences: newPrefs });
-  };
-
   const toggleMetric = () => {
     updateUserProfile({ useMetric: !userProfile.useMetric });
   };
@@ -102,13 +93,6 @@ export default function ProfileScreen() {
   };
 
   const currentLanguage = LANGUAGES.find(l => l.code === (userProfile.language || 'en'));
-
-  const dietOptions: { type: DietType; label: string; IconComponent: typeof Beef }[] = [
-    { type: 'meat', label: t.profile.meat, IconComponent: Beef },
-    { type: 'fish', label: t.profile.fish, IconComponent: Fish },
-    { type: 'vegetarian', label: t.profile.vegetarian, IconComponent: Salad },
-    { type: 'vegan', label: t.profile.vegan, IconComponent: Sprout },
-  ];
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
@@ -125,43 +109,6 @@ export default function ProfileScreen() {
           <View style={styles.pointsBadge}>
             <Award size={16} color="#FFF" />
             <Text style={styles.pointsText}>{userProfile.totalPoints} {t.profile.points}</Text>
-          </View>
-        </View>
-
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>{t.profile.dietaryPreferences}</Text>
-          <View style={styles.card}>
-            <View style={styles.settingHeader}>
-              <Utensils size={20} color="#FF6B35" />
-              <Text style={styles.settingHeaderText}>{t.profile.selectPreferences}</Text>
-            </View>
-            <View style={styles.dietGrid}>
-              {dietOptions.map(option => (
-                <TouchableOpacity
-                  key={option.type}
-                  style={[
-                    styles.dietOption,
-                    userProfile.dietaryPreferences?.includes(option.type) && styles.dietOptionSelected,
-                  ]}
-                  onPress={() => toggleDietPreference(option.type)}
-                  accessibilityLabel={`${option.label}${userProfile.dietaryPreferences?.includes(option.type) ? ', selected' : ''}`}
-                  accessibilityRole="button"
-                >
-                  <option.IconComponent 
-                    size={32} 
-                    color={userProfile.dietaryPreferences?.includes(option.type) ? '#FF6B35' : '#9CA3AF'} 
-                  />
-                  <Text
-                    style={[
-                      styles.dietLabel,
-                      userProfile.dietaryPreferences?.includes(option.type) && styles.dietLabelSelected,
-                    ]}
-                  >
-                    {option.label}
-                  </Text>
-                </TouchableOpacity>
-              ))}
-            </View>
           </View>
         </View>
 
@@ -563,44 +510,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#FFF',
     borderRadius: 16,
     padding: 20,
-  },
-  settingHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    marginBottom: 16,
-  },
-  settingHeaderText: {
-    fontSize: 16,
-    fontWeight: '600' as const,
-    color: '#2D1B00',
-  },
-  dietGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 12,
-  },
-  dietOption: {
-    width: '47%',
-    backgroundColor: '#F9FAFB',
-    borderRadius: 12,
-    padding: 16,
-    alignItems: 'center',
-    borderWidth: 2,
-    borderColor: 'transparent',
-  },
-  dietOptionSelected: {
-    backgroundColor: '#FFF8F0',
-    borderColor: '#FF6B35',
-  },
-
-  dietLabel: {
-    fontSize: 15,
-    fontWeight: '600' as const,
-    color: '#6B7280',
-  },
-  dietLabelSelected: {
-    color: '#FF6B35',
   },
   settingRow: {
     flexDirection: 'row',

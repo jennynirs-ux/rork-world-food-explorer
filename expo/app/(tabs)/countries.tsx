@@ -19,7 +19,7 @@ export default function ShoppingTabScreen() {
 
     try {
       await Share.share({
-        message: `\uD83D\uDED2 Shopping List:\n\n${listText}\n\n\uD83C\uDF0D Made with World Food Explorer\nhttps://worldfoodexplorer.app`,
+        message: `\uD83D\uDED2 Shopping List:\n\n${listText}\n\n\uD83C\uDF0D Made with World Food Journey\nhttps://worldfoodexplorer.app`,
         url: 'https://worldfoodexplorer.app',
       });
     } catch {

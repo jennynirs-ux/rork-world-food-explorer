@@ -37,7 +37,7 @@ export async function shareRecipe(
     '👩‍🍳 Instructions:',
     steps,
     '',
-    `🌍 Explore more recipes on World Food Explorer`,
+    `🌍 Explore more recipes on World Food Journey`,
     APP_LINK,
   ].join('\n');
 
@@ -63,7 +63,7 @@ export async function shareCookedIt(
   const message = [
     `${flag} I just cooked ${recipeName} from ${countryName}!`,
     '',
-    `🍽 Made with World Food Explorer — explore cuisines from around the world!`,
+    `🍽 Made with World Food Journey — explore cuisines from around the world!`,
     APP_LINK,
   ].join('\n');
 
@@ -101,7 +101,7 @@ export async function shareProgress(
     : 0;
 
   const message = [
-    '🌍 My World Food Explorer Journey',
+    '🌍 My World Food Journey',
     '',
     `🗺 ${stats.visitedCountries}/${stats.totalCountries} countries explored (${pct}%)`,
     `🍳 ${stats.dishesCooked} dishes cooked`,
@@ -109,13 +109,13 @@ export async function shareProgress(
     `⭐ ${stats.totalPoints} points earned`,
     `🔥 ${stats.dayStreak} day streak`,
     '',
-    `Join me on World Food Explorer!`,
+    `Join me on World Food Journey!`,
     APP_LINK,
   ].join('\n');
 
   await Share.share({
     message,
-    title: 'My World Food Explorer Stats',
+    title: 'My World Food Journey Stats',
     url: APP_LINK,
   });
 }

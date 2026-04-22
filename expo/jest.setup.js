@@ -1,5 +1,5 @@
 /* global jest */
-// Jest setup file for World Food Explorer
+// Jest setup file for World Food Journey
 // This file runs after the test framework is installed but before tests run
 
 // Mock AsyncStorage
