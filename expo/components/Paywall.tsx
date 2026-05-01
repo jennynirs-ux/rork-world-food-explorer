@@ -244,7 +244,9 @@ export default function Paywall({
       visible={true}
       animationType="slide"
       transparent={true}
+      presentationStyle="overFullScreen"
       onRequestClose={onClose}
+      supportedOrientations={['portrait', 'landscape']}
     >
       {content}
     </Modal>

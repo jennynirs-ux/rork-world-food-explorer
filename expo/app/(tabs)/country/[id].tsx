@@ -161,9 +161,12 @@ export default function CountryDetailScreen() {
             <Text style={styles.lockedMessage}>{t.country.lockedCountry}</Text>
             <Text style={styles.lockedSubMessage}>{t.country.unlockMessage.replace('{continent}', country.continent)}</Text>
             
-            <TouchableOpacity 
+            <TouchableOpacity
               style={styles.unlockButton}
-              onPress={() => setShowPaywall(true)}
+              onPress={() => {
+                console.log('[Paywall] View unlock options tapped (locked country)');
+                setShowPaywall(true);
+              }}
             >
               <Text style={styles.unlockButtonText}>{t.country.viewUnlockOptions}</Text>
             </TouchableOpacity>
