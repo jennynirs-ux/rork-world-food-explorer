@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert, Platform, useWindowDimensions } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert, Platform, useWindowDimensions, Linking } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Lock, Globe, X, Check, RotateCcw } from 'lucide-react-native';
 import colors from '@/constants/colors';
@@ -226,6 +226,24 @@ export default function Paywall({
                   Dev mode: purchases are mocked
                 </Text>
               )}
+              <Text style={styles.legalIntro}>
+                Purchases are one-time and unlock recipe content permanently. Payment will be charged to your Apple ID at confirmation.
+              </Text>
+              <View style={styles.legalLinks}>
+                <TouchableOpacity
+                  onPress={() => Linking.openURL('https://sites.google.com/mojjo.se/world-food-journey/terms-of-service')}
+                  testID="paywall-terms"
+                >
+                  <Text style={styles.legalLink}>Terms of Service</Text>
+                </TouchableOpacity>
+                <Text style={styles.legalSeparator}>·</Text>
+                <TouchableOpacity
+                  onPress={() => Linking.openURL('https://sites.google.com/mojjo.se/world-food-journey/privacy-policy')}
+                  testID="paywall-privacy"
+                >
+                  <Text style={styles.legalLink}>Privacy Policy</Text>
+                </TouchableOpacity>
+              </View>
             </View>
       </ScrollView>
     </View>
@@ -495,5 +513,29 @@ const styles = StyleSheet.create({
     fontSize: 11,
     color: colors.textTertiary,
     fontStyle: 'italic',
+  },
+  legalIntro: {
+    fontSize: 11,
+    color: colors.textTertiary,
+    textAlign: 'center',
+    lineHeight: 16,
+    marginTop: 8,
+    paddingHorizontal: 12,
+  },
+  legalLinks: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginTop: 8,
+  },
+  legalLink: {
+    fontSize: 12,
+    color: colors.terracotta,
+    fontWeight: '600' as const,
+    textDecorationLine: 'underline',
+  },
+  legalSeparator: {
+    fontSize: 12,
+    color: colors.textTertiary,
   },
 });
