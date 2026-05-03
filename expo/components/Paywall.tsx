@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert, Platform } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert, Platform, useWindowDimensions } from 'react-native';
 import { Lock, Globe, X, Check, RotateCcw } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { MONETIZATION_PRODUCTS, PRODUCT_IDS } from '@/constants/monetization';
@@ -32,6 +32,8 @@ export default function Paywall({
 }: PaywallProps) {
   const [purchasing, setPurchasing] = useState<string | null>(null);
   const [restoring, setRestoring] = useState(false);
+  const { width: windowWidth, height: windowHeight } = useWindowDimensions();
+  const isTablet = Math.min(windowWidth, windowHeight) >= 600;
 
   const handlePurchase = async (productId: string) => {
     hapticHeavy();
@@ -93,8 +95,16 @@ export default function Paywall({
   if (!visible) return null;
 
   const content = (
-    <TouchableOpacity style={styles.modalOverlay} activeOpacity={1} onPress={onClose}>
-      <TouchableOpacity style={styles.modalContent} activeOpacity={1} onPress={() => {}}>
+    <TouchableOpacity
+      style={[styles.modalOverlay, isTablet && styles.modalOverlayTablet]}
+      activeOpacity={1}
+      onPress={onClose}
+    >
+      <TouchableOpacity
+        style={[styles.modalContent, isTablet && styles.modalContentTablet]}
+        activeOpacity={1}
+        onPress={() => {}}
+      >
           <TouchableOpacity style={styles.closeButton} onPress={onClose}>
             <X size={24} color={colors.text} />
           </TouchableOpacity>
@@ -267,12 +277,23 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     justifyContent: 'flex-end',
   },
+  modalOverlayTablet: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 24,
+  },
   modalContent: {
     backgroundColor: colors.background,
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
-    maxHeight: '90%',
+    height: '90%',
     paddingTop: 20,
+    width: '100%',
+  },
+  modalContentTablet: {
+    height: '85%',
+    maxWidth: 560,
+    borderRadius: 24,
   },
   scrollView: {
     flex: 1,
