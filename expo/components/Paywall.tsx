@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert, Platform, useWindowDimensions } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { Lock, Globe, X, Check, RotateCcw } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { MONETIZATION_PRODUCTS, PRODUCT_IDS } from '@/constants/monetization';
@@ -94,26 +95,17 @@ export default function Paywall({
 
   if (!visible) return null;
 
-  const content = (
-    <TouchableOpacity
-      style={[styles.modalOverlay, isTablet && styles.modalOverlayTablet]}
-      activeOpacity={1}
-      onPress={onClose}
-    >
-      <TouchableOpacity
-        style={[styles.modalContent, isTablet && styles.modalContentTablet]}
-        activeOpacity={1}
-        onPress={() => {}}
-      >
-          <TouchableOpacity style={styles.closeButton} onPress={onClose}>
-            <X size={24} color={colors.text} />
-          </TouchableOpacity>
+  const innerCard = (
+    <View style={[styles.modalContent, isTablet && styles.modalContentTablet]}>
+      <TouchableOpacity style={styles.closeButton} onPress={onClose} testID="paywall-close">
+        <X size={24} color={colors.text} />
+      </TouchableOpacity>
 
-          <ScrollView
-            style={styles.scrollView}
-            showsVerticalScrollIndicator={false}
-            bounces={false}
-          >
+      <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={styles.scrollContent}
+        showsVerticalScrollIndicator={false}
+      >
             <View style={styles.header}>
               <View style={styles.lockIconContainer}>
                 <Lock size={48} color={colors.terracotta} />
@@ -235,9 +227,20 @@ export default function Paywall({
                 </Text>
               )}
             </View>
-          </ScrollView>
-        </TouchableOpacity>
-      </TouchableOpacity>
+      </ScrollView>
+    </View>
+  );
+
+  const content = (
+    <View style={[styles.modalOverlay, isTablet && styles.modalOverlayTablet]}>
+      <TouchableOpacity
+        style={StyleSheet.absoluteFill}
+        activeOpacity={1}
+        onPress={onClose}
+        testID="paywall-backdrop"
+      />
+      {innerCard}
+    </View>
   );
 
   // On web, Modal can be unreliable — use a full-screen absolute overlay instead
@@ -252,13 +255,16 @@ export default function Paywall({
   return (
     <Modal
       visible={true}
-      animationType="slide"
+      animationType={isTablet ? 'fade' : 'slide'}
       transparent={true}
       presentationStyle="overFullScreen"
       onRequestClose={onClose}
       supportedOrientations={['portrait', 'landscape']}
+      statusBarTranslucent
     >
-      {content}
+      <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
+        {content}
+      </SafeAreaView>
     </Modal>
   );
 }
@@ -271,6 +277,10 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     zIndex: 1000,
+  },
+  safeArea: {
+    flex: 1,
+    backgroundColor: 'transparent',
   },
   modalOverlay: {
     flex: 1,
@@ -292,11 +302,15 @@ const styles = StyleSheet.create({
   },
   modalContentTablet: {
     height: '85%',
+    width: '100%',
     maxWidth: 560,
     borderRadius: 24,
   },
   scrollView: {
     flex: 1,
+  },
+  scrollContent: {
+    paddingBottom: 24,
   },
   closeButton: {
     position: 'absolute',
