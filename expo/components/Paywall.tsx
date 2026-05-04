@@ -42,13 +42,15 @@ export default function Paywall({
     try {
       const entitlements = await purchaseProductById(productId);
       if (entitlements.length > 0) {
+        // Real (or mocked) successful purchase — grant access
         entitlements.forEach((id) => onPurchase(id));
+        hapticSuccess();
+        onClose();
       } else {
-        // Mock mode or user cancelled
-        onPurchase(productId);
+        // User cancelled the Apple/Google purchase sheet — do NOT unlock.
+        // Keep the paywall open so they can try again or pick another option.
+        if (__DEV__) console.log('[Paywall] Purchase cancelled by user');
       }
-      hapticSuccess();
-      onClose();
     } catch (error: any) {
       hapticError();
       Alert.alert(
