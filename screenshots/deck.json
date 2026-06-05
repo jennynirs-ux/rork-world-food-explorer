@@ -1,0 +1,46 @@
+{
+  "theme": {
+    "style": "Rich, warm culinary-travel world built on deep espresso browns, spiced terracotta, and glowing saffron amber — evoking the atmosphere of a night market lit by lanterns and open flame. Backgrounds pulse with warm volumetric light, molten ribbon textures, and cinematic depth that feels both exotic and inviting. Every surface carries the heat and richness of spice-market energy, grounded in premium darkness that makes the app UI pop.",
+    "headlineFont": "font-family: 'Plus Jakarta Sans', sans-serif; /* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap') */",
+    "headlineFontSize": 112,
+    "mockupIds": {
+      "iphone": "cosmic-orange",
+      "ipad": "silver"
+    },
+    "palette": {
+      "primary": "#1E0D05",
+      "secondary": "#C85D22",
+      "accent": "#F7A823"
+    }
+  },
+  "slides": [
+    {
+      "label": "Explore Globe",
+      "backgroundPrompt": "Abstract 3D rendered environment with sweeping fluid arcs of warm terracotta and burnt sienna curving dramatically from the lower right, dissolving into deep espresso-brown in the upper third for calm text readability. Cascading translucent veils of saffron gold and molten amber light drift across a rich mahogany base, with soft volumetric rays emanating from the lower center creating cinematic warmth and expansive depth. Fine golden dust particles scatter across the mid-section, edges softened with depth-of-field blur for a premium layered feel. 8K quality, ultra smooth gradients, premium feel, no text, no letters, no UI elements, no device mockups",
+      "backgroundUrl": "https://r2-pub.rork.com/app-store-screenshots/5b25e1ce-fb54-4f0c-bc31-ec6f4567bf60.png"
+    },
+    {
+      "label": "Cooking Mode",
+      "backgroundPrompt": "Abstract digital art with a single massive bloom of warm ivory and pale cream light expanding softly from the right-center, melting into a deep cinnamon-brown base through long horizontal amber gradients. Thin translucent layers of frosted warm glass fan gently across the lower half, each edge catching a bright saffron-gold highlight line with deep warm shadows pooling between them. The upper 30% remains deep and calm in rich espresso darkness, with delicate wisps of warm haze drifting upward adding intimate texture. 8K quality, ultra smooth gradients, premium feel, no text, no letters, no UI elements, no device mockups",
+      "backgroundUrl": "https://r2-pub.rork.com/app-store-screenshots/573c1511-6d3d-43b8-b6aa-046181d35911.png"
+    },
+    {
+      "label": "What Can I Cook",
+      "backgroundPrompt": "3D rendered abstract scene with layered molten ribbons of burnt orange, copper, and spiced terracotta flowing horizontally across a deep mahogany background, dramatically lit from the bottom-left with warm rim lighting that traces each ribbon edge in bright amber gold. The ribbons fracture into silk-like strands near the right side, scattering fine luminous filaments across the frame, while deep warm shadows fill the spaces between for rich contrast. The upper region transitions smoothly to calm, near-black espresso tone, open and uncluttered for legible text overlay. 8K quality, ultra smooth gradients, premium feel, no text, no letters, no UI elements, no device mockups",
+      "backgroundUrl": "https://r2-pub.rork.com/app-store-screenshots/65e4bbc0-c234-4c1f-9a83-96bbfb96a90a.png"
+    },
+    {
+      "label": "Progress Passport",
+      "backgroundPrompt": "Abstract digital art featuring a radiant constellation of tiny warm saffron and liquid-gold spheres scattered across a deep amber-to-espresso gradient, connected by luminous hair-thin threads forming a glowing geometric web. A wide diffused bloom of bright amber light pools triumphantly in the lower center, radiating outward with celebratory warmth, while translucent geometric facets float in the mid-layer catching golden light and adding premium layered depth. The upper third fades gracefully into deep mahogany darkness, calm and open for headline text. 8K quality, ultra smooth gradients, premium feel, no text, no letters, no UI elements, no device mockups",
+      "backgroundUrl": "https://r2-pub.rork.com/app-store-screenshots/39f43ccd-b0de-40d7-b5c3-30117fdbcfc1.png"
+    }
+  ],
+  "headlines": {
+    "en": {
+      "Explore Globe": "The World<br>On Your Plate",
+      "Cooking Mode": "Cook Like<br>A Local",
+      "What Can I Cook": "Cook What<br>You Have",
+      "Progress Passport": "Your Food<br>Passport"
+    }
+  }
+}
