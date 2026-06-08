@@ -575,14 +575,15 @@ export const [AppProvider, useApp] = createContextHook(() => {
     return (userProfile.purchasedProducts || []).includes(productId);
   }, [userProfile.purchasedProducts]);
 
-  const redeemCode = useCallback(async (code: string): Promise<boolean> => {
-    const success = await redeemShareCode(code);
-    if (success) {
-      // Grant temporary access (30 days) via code_unlock_all
+  const redeemCode = useCallback(async (code: string): Promise<{ ok: boolean; reason?: 'invalid_format' | 'own_code' | 'already_used' }> => {
+    const result = await redeemShareCode(code, userId || 'anonymous');
+    if (result.ok) {
+      // Grant temporary access via code_unlock_all
       await purchaseProduct('code_unlock_all');
+      return { ok: true };
     }
-    return success;
-  }, [purchaseProduct]);
+    return { ok: false, reason: result.reason };
+  }, [purchaseProduct, userId]);
 
   const getShareCode = useCallback(async (): Promise<string> => {
     return getOrCreateShareCode(userId || 'anonymous');

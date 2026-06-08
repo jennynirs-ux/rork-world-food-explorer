@@ -237,6 +237,13 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
   }, [worldData, pathGenerator, projection, filterStatus, getCountryFromFeature, onCountryPress]);
 
   const panResponder = useMemo(() => PanResponder.create({
+    // Capture handlers run from parent → child BEFORE the regular set handlers
+    // run from child → parent. Returning true here prevents the parent
+    // ScrollView from stealing vertical drags (which made the page scroll
+    // while the user tried to rotate the globe). All globe-area touches now
+    // belong to this PanResponder.
+    onStartShouldSetPanResponderCapture: () => true,
+    onMoveShouldSetPanResponderCapture: () => true,
     onStartShouldSetPanResponder: () => true,
     onMoveShouldSetPanResponder: (_, gestureState) =>
       Math.abs(gestureState.dx) > 5 || Math.abs(gestureState.dy) > 5,
@@ -356,11 +363,15 @@ export default function Globe3D({ pins, onCountryPress, filterStatus, accessibil
       if (!projected) return null; // behind the globe
       const [x, y] = projected;
       if (!isFinite(x) || !isFinite(y)) return null;
-      // Only show pins whose center is within the globe circle
+      // Only show pins whose center is within the globe circle…
       const cx = GLOBE_SIZE / 2;
       const cy = GLOBE_SIZE / 2;
       const dist = Math.sqrt((x - cx) ** 2 + (y - cy) ** 2);
       if (dist > scale) return null; // outside the globe circle
+      // …and within the visible square viewport. When the user zooms in,
+      // the globe extends beyond GLOBE_SIZE; pins outside the rendered
+      // area would otherwise float over surrounding UI.
+      if (x < 0 || x > GLOBE_SIZE || y < 0 || y > GLOBE_SIZE) return null;
       return { country, x, y, idx };
     }).filter(Boolean) as { country: CountryPin; x: number; y: number; idx: number }[];
   }, [visiblePins, projection, filterStatus, GLOBE_SIZE, scale]);
@@ -546,9 +557,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   svgWrapper: {
-    overflow: 'visible',
+    // Clip to the GLOBE_SIZE viewport so zoomed-in country paths and
+    // overlaid touchable pins don't render over surrounding UI.
+    overflow: 'hidden',
     // Ensures touches are caught within the box
-    backgroundColor: 'transparent', 
+    backgroundColor: 'transparent',
   },
   controls: {
     position: 'absolute' as const,

@@ -88,13 +88,52 @@ export async function getOfferings(): Promise<PurchasesPackage[]> {
 /**
  * Purchase a specific package.
  * Returns the list of active entitlement identifiers on success.
+ *
+ * Apple/Google sometimes return a CustomerInfo whose `entitlements.active`
+ * has not yet been populated by the time `purchasePackage` resolves —
+ * the receipt is valid but RevenueCat's server-side validation hasn't
+ * caught up. We mitigate that by retrying once after a short delay, and
+ * as a final fallback, trusting the productId of the package we just
+ * purchased (since the purchase itself did succeed without an error).
+ *
+ * Without this safety net, a customer can be charged but see no unlock —
+ * the very bug a real customer hit shortly after launch.
  */
 export async function purchasePackage(
   pkg: PurchasesPackage
 ): Promise<string[]> {
   try {
     const { customerInfo } = await Purchases.purchasePackage(pkg);
-    return getActiveEntitlements(customerInfo);
+    let entitlements = getActiveEntitlements(customerInfo);
+
+    // Entitlements not yet propagated — wait briefly and re-fetch.
+    if (entitlements.length === 0) {
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      try {
+        const fresh = await Purchases.getCustomerInfo();
+        entitlements = getActiveEntitlements(fresh);
+      } catch (e) {
+        if (env.debugLogging) {
+          console.warn('[purchases] Retry getCustomerInfo failed:', e);
+        }
+      }
+    }
+
+    // Still empty — but the purchase did succeed (no thrown error). Trust
+    // the product identifier of the package we just bought so the customer
+    // is not charged without an unlock. The next app launch will re-sync
+    // via getCustomerInfo and self-correct if needed.
+    if (entitlements.length === 0) {
+      if (env.debugLogging) {
+        console.warn(
+          '[purchases] No entitlements returned after retry; falling back ' +
+          'to purchased productId: ' + pkg.product.identifier
+        );
+      }
+      entitlements = [pkg.product.identifier];
+    }
+
+    return entitlements;
   } catch (error: any) {
     if (error.userCancelled) {
       return [];

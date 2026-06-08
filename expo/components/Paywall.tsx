@@ -1,12 +1,13 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert, Platform, useWindowDimensions, Linking } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Lock, Globe, X, Check, RotateCcw } from 'lucide-react-native';
+import type { PurchasesPackage } from 'react-native-purchases';
 import colors from '@/constants/colors';
 import { MONETIZATION_PRODUCTS, PRODUCT_IDS } from '@/constants/monetization';
 import { Country, TranslatedString } from '@/types';
 import { getCountriesByContinent } from '@/lib/access-control';
-import { purchaseProductById, restorePurchases, isPurchasesConfigured } from '@/lib/purchases';
+import { getOfferings, purchaseProductById, restorePurchases, isPurchasesConfigured } from '@/lib/purchases';
 import { hapticHeavy, hapticSuccess, hapticError } from '@/lib/haptics';
 
 function getTranslatedName(name: TranslatedString): string {
@@ -33,8 +34,41 @@ export default function Paywall({
 }: PaywallProps) {
   const [purchasing, setPurchasing] = useState<string | null>(null);
   const [restoring, setRestoring] = useState(false);
+  const [packages, setPackages] = useState<PurchasesPackage[]>([]);
+  const [pricesLoading, setPricesLoading] = useState<boolean>(false);
   const { width: windowWidth, height: windowHeight } = useWindowDimensions();
   const isTablet = Math.min(windowWidth, windowHeight) >= 600;
+
+  // Load live prices from RevenueCat / StoreKit whenever the paywall opens.
+  // This is the source of truth for what Apple/Google will charge — never
+  // display the hardcoded price strings from MONETIZATION_PRODUCTS to users.
+  useEffect(() => {
+    if (!visible) return;
+    if (!isPurchasesConfigured()) return;
+    let cancelled = false;
+    setPricesLoading(true);
+    getOfferings()
+      .then((pkgs) => {
+        if (!cancelled) setPackages(pkgs);
+      })
+      .catch(() => {
+        // Swallow — fall through to hardcoded fallback prices in the render.
+      })
+      .finally(() => {
+        if (!cancelled) setPricesLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [visible]);
+
+  const getDisplayPrice = (productId: string): string => {
+    const pkg = packages.find((p) => p.product.identifier === productId);
+    if (pkg?.product.priceString) return pkg.product.priceString;
+    // Fallback for dev mode / RevenueCat not configured.
+    const fallback = MONETIZATION_PRODUCTS.find((p) => p.id === productId);
+    return fallback?.price ?? '';
+  };
 
   const handlePurchase = async (productId: string) => {
     hapticHeavy();
@@ -169,12 +203,16 @@ export default function Paywall({
                     </View>
 
                     <View style={styles.productFooter}>
-                      <Text style={[
-                        styles.productPrice,
-                        isWorldUnlock && styles.productPriceFeatured
-                      ]}>
-                        {product.price}
-                      </Text>
+                      {pricesLoading && packages.length === 0 ? (
+                        <ActivityIndicator size="small" color={colors.terracotta} />
+                      ) : (
+                        <Text style={[
+                          styles.productPrice,
+                          isWorldUnlock && styles.productPriceFeatured
+                        ]}>
+                          {getDisplayPrice(product.id)}
+                        </Text>
+                      )}
 
                       {purchased ? (
                         <View style={styles.purchasedButton}>

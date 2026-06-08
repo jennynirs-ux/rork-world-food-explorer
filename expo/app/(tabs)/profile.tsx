@@ -40,14 +40,18 @@ export default function ProfileScreen() {
 
   const handleRedeemCode = async () => {
     if (!redeemInput.trim()) return;
-    const success = await redeemCode(redeemInput);
-    setRedeemStatus(success ? 'success' : 'error');
-    if (success) {
+    const result = await redeemCode(redeemInput);
+    setRedeemStatus(result.ok ? 'success' : 'error');
+    if (result.ok) {
       Alert.alert(t.profile.unlockSuccessTitle, t.profile.unlockSuccessMessage);
       setDaysRemaining(30);
       setShowCodeModal(false);
       setRedeemInput('');
       setRedeemStatus('idle');
+    } else if (result.reason === 'own_code') {
+      Alert.alert('Invalid code', 'You cannot use your own referral code.');
+    } else if (result.reason === 'already_used') {
+      Alert.alert('Code already used', 'This code has already been redeemed on this device.');
     }
   };
 

@@ -4,8 +4,14 @@ import { Share } from 'react-native';
 const SHARE_CODE_KEY = '@wfe_share_code';
 const REDEEMED_KEY = '@wfe_redeemed_code';
 const EXPIRY_KEY = '@wfe_code_expiry';
+const REDEEMED_HISTORY_KEY = '@wfe_redeemed_history';
 
-const UNLOCK_DURATION_MS = 14 * 24 * 60 * 60 * 1000; // 14 days
+const UNLOCK_DURATION_MS = 30 * 24 * 60 * 60 * 1000; // 30 days
+
+export type RedeemFailureReason = 'invalid_format' | 'own_code' | 'already_used';
+export type RedeemResult =
+  | { ok: true }
+  | { ok: false; reason: RedeemFailureReason };
 
 /**
  * Generate a unique 6-character share code for this user.
@@ -34,23 +40,60 @@ function generateCode(seed: string): string {
   return code;
 }
 
+async function getRedeemedHistory(): Promise<string[]> {
+  try {
+    const raw = await AsyncStorage.getItem(REDEEMED_HISTORY_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed.filter((c) => typeof c === 'string') : [];
+  } catch {
+    return [];
+  }
+}
+
+async function appendRedeemedHistory(code: string): Promise<void> {
+  const history = await getRedeemedHistory();
+  if (history.includes(code)) return;
+  history.push(code);
+  await AsyncStorage.setItem(REDEEMED_HISTORY_KEY, JSON.stringify(history));
+}
+
 /**
  * Validate and redeem a share code.
- * Unlocks all recipes for 30 days from the redemption date.
- * Returns true if the code is valid and was redeemed.
+ *
+ * Rules:
+ *  - Must be a 6-character alphanumeric code.
+ *  - Cannot equal the user's own generated code (no self-referral).
+ *  - The same code cannot be redeemed twice by the same user.
+ *
+ * On success, unlocks all recipes for 30 days from the redemption date.
  */
-export async function redeemShareCode(code: string): Promise<boolean> {
+export async function redeemShareCode(
+  code: string,
+  userId: string,
+): Promise<RedeemResult> {
   const normalized = code.trim().toUpperCase();
-  if (normalized.length !== 6) return false;
+  if (normalized.length !== 6 || !/^[A-Z0-9]{6}$/.test(normalized)) {
+    return { ok: false, reason: 'invalid_format' };
+  }
 
-  // Any valid 6-character code works
-  const valid = /^[A-Z0-9]{6}$/.test(normalized);
-  if (!valid) return false;
+  // Reject self-referral: user can't use their own code.
+  const ownCode = generateCode(userId);
+  if (normalized === ownCode) {
+    return { ok: false, reason: 'own_code' };
+  }
+
+  // Reject if this user has already redeemed this exact code before.
+  const history = await getRedeemedHistory();
+  if (history.includes(normalized)) {
+    return { ok: false, reason: 'already_used' };
+  }
 
   const expiryDate = Date.now() + UNLOCK_DURATION_MS;
   await AsyncStorage.setItem(REDEEMED_KEY, normalized);
   await AsyncStorage.setItem(EXPIRY_KEY, expiryDate.toString());
-  return true;
+  await appendRedeemedHistory(normalized);
+  return { ok: true };
 }
 
 /**
@@ -98,7 +141,7 @@ export async function getDaysRemaining(): Promise<number> {
  */
 export async function shareCode(code: string): Promise<void> {
   await Share.share({
-    message: `🌍 Join me on World Food Journey! Use my code ${code} to unlock all recipes for 14 days.\n\nhttps://worldfoodexplorer.app`,
+    message: `🌍 Join me on World Food Journey! Use my code ${code} to unlock all recipes for 30 days.\n\nhttps://worldfoodexplorer.app`,
     title: 'World Food Journey — Unlock All Recipes',
     url: 'https://worldfoodexplorer.app',
   });
