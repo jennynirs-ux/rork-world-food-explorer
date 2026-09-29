@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import {
   View,
   Text,
@@ -9,11 +9,19 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { ArrowLeft, Plus, X, Search, Clock, MapPin } from 'lucide-react-native';
+import { ArrowLeft, Plus, X, Search, Clock, MapPin, Lock } from 'lucide-react-native';
 import { useApp } from '@/contexts/AppContext';
 import { translateContent } from '@/lib/translate-content';
 import { hapticLight, hapticSuccess } from '@/lib/haptics';
-import { findMatchingRecipes, COMMON_INGREDIENTS, RecipeMatch } from '@/lib/ingredient-match';
+import {
+  findMatchingRecipes,
+  getIngredientSuggestions,
+  splitIngredientInput,
+  foldText,
+  COMMON_INGREDIENTS,
+  RecipeMatch,
+} from '@/lib/ingredient-match';
+import { isCountryAccessible } from '@/lib/access-control';
 import DifficultyBadge from '@/components/DifficultyBadge';
 import { useTranslation } from '@/lib/i18n';
 import colors from '@/constants/colors';
@@ -27,11 +35,30 @@ export default function IngredientMatchScreen() {
   const [selectedIngredients, setSelectedIngredients] = useState<string[]>([]);
   const [inputText, setInputText] = useState('');
 
+  // Suggestions in the user's language. Building them indexes every recipe,
+  // so do it after the first frame instead of while the screen opens.
+  const [suggestions, setSuggestions] = useState<string[]>(lang === 'en' ? COMMON_INGREDIENTS : []);
+  useEffect(() => {
+    if (lang === 'en') {
+      setSuggestions(COMMON_INGREDIENTS);
+      return;
+    }
+    const timer = setTimeout(() => setSuggestions(getIngredientSuggestions(countries, lang)), 0);
+    return () => clearTimeout(timer);
+  }, [countries, lang]);
+
+  const accessibleCountryIds = useMemo(() => {
+    const purchased = userProfile.purchasedProducts || [];
+    return new Set(countries.filter(c => isCountryAccessible(c, purchased)).map(c => c.id));
+  }, [countries, userProfile.purchasedProducts]);
+
   const addIngredient = useCallback((ingredient: string) => {
-    const trimmed = ingredient.trim().toLowerCase();
-    if (trimmed && !selectedIngredients.includes(trimmed)) {
+    // "kyckling, ris, lök" adds three ingredients.
+    const added = splitIngredientInput(ingredient)
+      .filter((ing, i, all) => all.indexOf(ing) === i && !selectedIngredients.includes(ing));
+    if (added.length > 0) {
       hapticLight();
-      setSelectedIngredients(prev => [...prev, trimmed]);
+      setSelectedIngredients(prev => [...prev, ...added.filter(ing => !prev.includes(ing))]);
       setInputText('');
     }
   }, [selectedIngredients]);
@@ -43,17 +70,15 @@ export default function IngredientMatchScreen() {
 
   const matches = useMemo(() => {
     if (selectedIngredients.length === 0) return [];
-    return findMatchingRecipes(selectedIngredients, countries, 25);
-  }, [selectedIngredients, countries]);
+    return findMatchingRecipes(selectedIngredients, countries, 25, lang);
+  }, [selectedIngredients, countries, lang]);
 
   const filteredSuggestions = useMemo(() => {
-    if (inputText.length === 0) {
-      return COMMON_INGREDIENTS.filter(i => !selectedIngredients.includes(i));
-    }
-    const lower = inputText.toLowerCase();
-    return COMMON_INGREDIENTS
-      .filter(i => i.includes(lower) && !selectedIngredients.includes(i));
-  }, [inputText, selectedIngredients]);
+    const available = suggestions.filter(i => !selectedIngredients.includes(i));
+    const query = foldText(inputText);
+    if (query.length === 0) return available;
+    return available.filter(i => foldText(i).includes(query));
+  }, [inputText, selectedIngredients, suggestions]);
 
   const navigateToRecipe = (match: RecipeMatch) => {
     hapticSuccess();
@@ -157,6 +182,7 @@ export default function IngredientMatchScreen() {
 
             {matches.slice(0, 20).map((match, idx) => {
               const recipeName = translateContent(match.recipe.name, lang);
+              const locked = !accessibleCountryIds.has(match.countryId);
               return (
                 <TouchableOpacity
                   key={`${match.countryId}-${match.isDessert}-${idx}`}
@@ -168,9 +194,21 @@ export default function IngredientMatchScreen() {
                     <MapPin size={20} color={colors.terracotta} />
                   </View>
                   <View style={styles.resultInfo}>
-                    <Text style={styles.resultName} numberOfLines={1}>
-                      {recipeName}
-                    </Text>
+                    <View style={styles.resultNameRow}>
+                      <Text style={styles.resultName} numberOfLines={1}>
+                        {recipeName}
+                      </Text>
+                      {locked && (
+                        <View
+                          style={styles.lockBadge}
+                          accessible
+                          accessibilityLabel={t.country.lockedCountry}
+                          testID={`locked-${match.countryId}`}
+                        >
+                          <Lock size={11} color={colors.textSecondary} />
+                        </View>
+                      )}
+                    </View>
                     <Text style={styles.resultCountry}>
                       {match.countryName}
                       {match.isDessert ? ` ${t.ingredientMatch.dessert}` : ''}
@@ -345,10 +383,24 @@ const styles = StyleSheet.create({
   resultInfo: {
     flex: 1,
   },
+  resultNameRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
   resultName: {
+    flexShrink: 1,
     fontSize: 15,
     fontWeight: '600' as const,
     color: colors.text,
+  },
+  lockBadge: {
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+    backgroundColor: colors.background,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   resultCountry: {
     fontSize: 12,

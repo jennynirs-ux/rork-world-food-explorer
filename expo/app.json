@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "worldfoodexplorer",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash-icon.png",
@@ -17,8 +17,19 @@
       "supportsTablet": true,
       "bundleIdentifier": "app.rork.world-food-explorer",
       "infoPlist": {
-        "SKStoreReviewController": true,
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleAllowMixedLocalizations": true,
+        "CFBundleLocalizations": [
+          "en",
+          "sv",
+          "de",
+          "fr",
+          "es",
+          "it",
+          "pl",
+          "nl",
+          "pt"
+        ]
       },
       "entitlements": {}
     },
@@ -30,8 +41,13 @@
       "package": "app.rork.world_food_explorer",
       "permissions": [
         "android.permission.VIBRATE",
-        "com.android.vending.BILLING",
-        "android.permission.RECORD_AUDIO"
+        "com.android.vending.BILLING"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION"
       ]
     },
     "web": {
@@ -56,7 +72,8 @@
         "expo-image-picker",
         {
           "photosPermission": "World Food Journey uses your photo library so you can add cooking photos to your recipes.",
-          "cameraPermission": "World Food Journey uses your camera so you can take photos of your finished dishes."
+          "cameraPermission": "World Food Journey uses your camera so you can take photos of your finished dishes.",
+          "microphonePermission": false
         }
       ]
     ],

@@ -137,6 +137,7 @@ export type CountryProgress = {
   dessertCooked: boolean;
   quizCompleted: boolean;
   quizScore?: number;
+  quizBestScore?: number;
   fullyCompleted: boolean;
   visitedDate?: string;
   completedDate?: string;
@@ -199,10 +200,6 @@ export type UserProfile = {
   lastActiveDate?: string;
   subscription?: SubscriptionInfo;
   favoriteCountries?: string[];
-  referralCode?: string;
-  referredBy?: string;
-  referralCount?: number;
-  freeMonthsEarned?: number;
   purchasedProducts?: string[];
   skillLevel?: 'beginner' | 'intermediate' | 'advanced';
   recipesCompletedByDifficulty?: {

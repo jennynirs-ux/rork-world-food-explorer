@@ -1,7 +1,7 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useMemo } from 'react';
 import { View, Text, StyleSheet, ActivityIndicator, type ViewStyle, type StyleProp } from 'react-native';
-import { Image } from 'expo-image';
-import { optimizeUnsplashUrl } from '@/lib/image-utils';
+import { Image, type ImageProps } from 'expo-image';
+import { optimizeImageUrl } from '@/lib/image-utils';
 
 type FoodImageType = 'landscape' | 'food' | 'landmark' | 'generic';
 
@@ -11,7 +11,11 @@ type FoodImageProps = {
   style?: StyleProp<ViewStyle>;
   type?: FoodImageType;
   contentFit?: 'cover' | 'contain' | 'fill' | 'none' | 'scale-down';
+  /** Display width in points; lets the CDN (Unsplash/Pexels) serve a right-sized image. */
   width?: number;
+  /** Display height in points; used together with `width` to request an exact crop. */
+  height?: number;
+  cachePolicy?: ImageProps['cachePolicy'];
 };
 
 const PLACEHOLDER_COLORS: Record<FoodImageType, string> = {
@@ -28,7 +32,16 @@ const FALLBACK_ICONS: Record<FoodImageType, string> = {
   generic: '📷',
 };
 
-function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'cover', width }: FoodImageProps) {
+function FoodImageComponent({
+  uri,
+  alt,
+  style,
+  type = 'generic',
+  contentFit = 'cover',
+  width,
+  height,
+  cachePolicy = 'memory-disk',
+}: FoodImageProps) {
   const [hasError, setHasError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -47,6 +60,11 @@ function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'c
 
   const showFallback = !uri || uri.trim().length === 0 || hasError;
 
+  const optimizedUri = useMemo(
+    () => (uri ? optimizeImageUrl(uri, { width, height, crop: contentFit === 'cover' }) : ''),
+    [uri, width, height, contentFit]
+  );
+
   if (showFallback) {
     return (
       <View style={[styles.fallbackContainer, style]}>
@@ -56,8 +74,6 @@ function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'c
     );
   }
 
-  const optimizedUri = optimizeUnsplashUrl(uri, { width: width ?? 800 });
-
   return (
     <View style={[styles.imageWrapper, style]}>
       <Image
@@ -65,7 +81,7 @@ function FoodImageComponent({ uri, alt, style, type = 'generic', contentFit = 'c
         style={StyleSheet.absoluteFill}
         contentFit={contentFit}
         accessibilityLabel={alt}
-        cachePolicy="memory-disk"
+        cachePolicy={cachePolicy}
         transition={300}
         recyclingKey={uri}
         onLoadStart={handleLoadStart}

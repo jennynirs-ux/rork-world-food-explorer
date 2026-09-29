@@ -1,19 +1,56 @@
 import { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Modal, ActivityIndicator, Alert, Platform, useWindowDimensions, Linking } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import { Lock, Globe, X, Check, RotateCcw } from 'lucide-react-native';
-import type { PurchasesPackage } from 'react-native-purchases';
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  ScrollView,
+  Modal,
+  ActivityIndicator,
+  Alert,
+  Platform,
+  useWindowDimensions,
+  Linking,
+  LayoutAnimation,
+} from 'react-native';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Globe, X, Check, RotateCcw, ChevronDown, ChevronUp } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { MONETIZATION_PRODUCTS, PRODUCT_IDS } from '@/constants/monetization';
-import { Country, TranslatedString } from '@/types';
-import { getCountriesByContinent } from '@/lib/access-control';
-import { getOfferings, purchaseProductById, restorePurchases, isPurchasesConfigured } from '@/lib/purchases';
-import { hapticHeavy, hapticSuccess, hapticError } from '@/lib/haptics';
+import { Country } from '@/types';
+import { getCountriesByContinent, getProductsForCountry } from '@/lib/access-control';
+import {
+  purchaseProductById,
+  restorePurchases,
+  isPurchasesConfigured,
+  canMakePurchases,
+  PurchasePendingError,
+  PurchaseUnavailableError,
+} from '@/lib/purchases';
+import { hapticHeavy, hapticSuccess, hapticError, hapticSelection } from '@/lib/haptics';
+import { trackEvent } from '@/lib/analytics';
+import { useTranslation } from '@/lib/i18n';
+import { translateContent } from '@/lib/translate-content';
+import { useStrings, fill } from '@/lib/strings';
+import { paywallStrings } from '@/lib/strings/paywall';
+import { useOfferings } from '@/components/paywall/useOfferings';
+import {
+  PACK_PRODUCT_IDS,
+  WORLD_PRODUCT_ID,
+  resolvePrice,
+  worldSavingsPercent,
+} from '@/components/paywall/pricing';
 
-function getTranslatedName(name: TranslatedString): string {
-  if (typeof name === 'string') return name;
-  return name.en;
-}
+const PRODUCT_TEXT_KEYS: Record<string, { name: string; desc: string }> = {
+  [PRODUCT_IDS.UNLOCK_EUROPE]: { name: 'packEurope', desc: 'packEuropeDesc' },
+  [PRODUCT_IDS.UNLOCK_ASIA]: { name: 'packAsia', desc: 'packAsiaDesc' },
+  [PRODUCT_IDS.UNLOCK_AFRICA]: { name: 'packAfrica', desc: 'packAfricaDesc' },
+  [PRODUCT_IDS.UNLOCK_AMERICAS]: { name: 'packAmericas', desc: 'packAmericasDesc' },
+  [PRODUCT_IDS.UNLOCK_OCEANIA]: { name: 'packOceania', desc: 'packOceaniaDesc' },
+  [PRODUCT_IDS.WORLD_UNLOCK_ALL]: { name: 'packWorld', desc: 'packWorldDesc' },
+};
+
+const FEATURED_BG = '#FFF9F5';
 
 type PaywallProps = {
   visible: boolean;
@@ -34,41 +71,78 @@ export default function Paywall({
 }: PaywallProps) {
   const [purchasing, setPurchasing] = useState<string | null>(null);
   const [restoring, setRestoring] = useState(false);
-  const [packages, setPackages] = useState<PurchasesPackage[]>([]);
-  const [pricesLoading, setPricesLoading] = useState<boolean>(false);
+  const [reloadKey, setReloadKey] = useState(0);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [showAllPacks, setShowAllPacks] = useState(false);
+  const { t, language } = useTranslation();
+  const s = useStrings(paywallStrings);
+  const ui = t.ui as Record<string, string>;
+  const insets = useSafeAreaInsets();
   const { width: windowWidth, height: windowHeight } = useWindowDimensions();
   const isTablet = Math.min(windowWidth, windowHeight) >= 600;
 
-  // Load live prices from RevenueCat / StoreKit whenever the paywall opens.
-  // This is the source of truth for what Apple/Google will charge — never
-  // display the hardcoded price strings from MONETIZATION_PRODUCTS to users.
+  // Live prices from RevenueCat / StoreKit, refreshed every time the paywall
+  // opens. This is the source of truth for what Apple/Google will charge —
+  // never show the hardcoded MONETIZATION_PRODUCTS prices in a release build.
+  const { packages, loading: pricesLoading, settled } = useOfferings(visible, reloadKey);
+
+  const countryId = country?.id;
   useEffect(() => {
     if (!visible) return;
-    if (!isPurchasesConfigured()) return;
-    let cancelled = false;
-    setPricesLoading(true);
-    getOfferings()
-      .then((pkgs) => {
-        if (!cancelled) setPackages(pkgs);
-      })
-      .catch(() => {
-        // Swallow — fall through to hardcoded fallback prices in the render.
-      })
-      .finally(() => {
-        if (!cancelled) setPricesLoading(false);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [visible]);
+    // Start from the recommended option every time the paywall opens.
+    setSelectedId(null);
+    setShowAllPacks(false);
+    void trackEvent('paywall_viewed', { countryId: countryId ?? 'none' });
+  }, [visible, countryId]);
 
-  const getDisplayPrice = (productId: string): string => {
-    const pkg = packages.find((p) => p.product.identifier === productId);
-    if (pkg?.product.priceString) return pkg.product.priceString;
-    // Fallback for dev mode / RevenueCat not configured.
-    const fallback = MONETIZATION_PRODUCTS.find((p) => p.id === productId);
-    return fallback?.price ?? '';
+  const storeReady = isPurchasesConfigured();
+  const purchasesAvailable = canMakePurchases();
+  const devFallback = !storeReady && purchasesAvailable;
+  const pricesMissing = storeReady && settled && !pricesLoading && packages.length === 0;
+  const showPriceSpinner = storeReady && packages.length === 0 && (pricesLoading || !settled);
+
+  const isPurchased = (productId: string) => purchasedProducts.includes(productId);
+  const priceOf = (productId: string) => resolvePrice(productId, packages, devFallback);
+
+  // A product can only be bought when the store returned it — never let a
+  // customer tap "Unlock" on a price we couldn't confirm with Apple/Google.
+  const isProductAvailable = (productId: string): boolean => {
+    if (!storeReady) return purchasesAvailable; // dev mock
+    return packages.some((p) => p.product.identifier === productId);
   };
+
+  const getDisplayPrice = (productId: string): string => priceOf(productId)?.priceString ?? '—';
+
+  // Count only the countries a pack actually unlocks (free ones are already open).
+  const getCountryCount = (continent?: string) => {
+    const pool = continent ? getCountriesByContinent(countries, continent) : countries;
+    return pool.filter((c) => !c.isUnlockedByDefault).length;
+  };
+
+  // What to show: the world unlock first, then the pack(s) for this country
+  // ("See all packs" reveals the rest). Without a country: world + every pack.
+  const countryPackIds = country ? getProductsForCountry(country) : [];
+  const primaryIds = country ? [WORLD_PRODUCT_ID, ...countryPackIds] : [WORLD_PRODUCT_ID, ...PACK_PRODUCT_IDS];
+  const extraIds = country ? PACK_PRODUCT_IDS.filter((id) => !countryPackIds.includes(id)) : [];
+  const visibleIds = showAllPacks ? [...primaryIds, ...extraIds] : primaryIds;
+
+  const everythingUnlocked = isPurchased(WORLD_PRODUCT_ID) || PACK_PRODUCT_IDS.every(isPurchased);
+  const defaultId =
+    primaryIds.find((id) => !isPurchased(id)) ?? extraIds.find((id) => !isPurchased(id)) ?? null;
+  const selected =
+    selectedId && !isPurchased(selectedId) && visibleIds.includes(selectedId) ? selectedId : defaultId;
+
+  // Savings are computed from the store's numeric prices, against the packs
+  // the customer would still have to buy.
+  const ownsAnyPack = PACK_PRODUCT_IDS.some(isPurchased);
+  const savingsPct = worldSavingsPercent(
+    PACK_PRODUCT_IDS.filter((id) => !isPurchased(id)).map((id) => priceOf(id)?.price),
+    priceOf(WORLD_PRODUCT_ID)?.price,
+  );
+  const savingsText =
+    savingsPct == null ? null : fill(ownsAnyPack ? s.saveVsRemainingPacks : s.saveVsAllPacks, { pct: savingsPct });
+
+  const countryName = country ? translateContent(country.name, language) : '';
 
   const handlePurchase = async (productId: string) => {
     hapticHeavy();
@@ -79,6 +153,7 @@ export default function Paywall({
         // Real (or mocked) successful purchase — grant access
         entitlements.forEach((id) => onPurchase(id));
         hapticSuccess();
+        void trackEvent('purchase_completed', { productId, countryId: countryId ?? 'none' });
         onClose();
       } else {
         // User cancelled the Apple/Google purchase sheet — do NOT unlock.
@@ -86,10 +161,18 @@ export default function Paywall({
         if (__DEV__) console.log('[Paywall] Purchase cancelled by user');
       }
     } catch (error: any) {
+      if (error instanceof PurchasePendingError) {
+        // Ask to Buy / slow payment: the unlock arrives via the RevenueCat listener.
+        Alert.alert(t.ui.purchasePendingTitle, t.ui.purchasePendingMessage);
+        onClose();
+        return;
+      }
       hapticError();
       Alert.alert(
-        'Purchase Failed',
-        error.message || 'Something went wrong. Please try again.',
+        t.ui.purchaseFailedTitle,
+        error instanceof PurchaseUnavailableError
+          ? t.profile.storeUnavailableMessage
+          : t.ui.purchaseFailedGeneric,
       );
     } finally {
       setPurchasing(null);
@@ -103,189 +186,274 @@ export default function Paywall({
       if (entitlements.length > 0) {
         hapticSuccess();
         entitlements.forEach((id) => onPurchase(id));
-        Alert.alert('Restored!', `${entitlements.length} purchase(s) restored successfully.`);
+        Alert.alert(t.profile.restoreSuccessTitle, t.profile.restoreSuccessMessage);
         onClose();
       } else {
-        Alert.alert('No Purchases Found', 'No previous purchases were found to restore.');
+        Alert.alert(t.profile.restoreNoneTitle, t.profile.restoreNoneMessage);
       }
-    } catch (error: any) {
-      Alert.alert(
-        'Restore Failed',
-        error.message || 'Could not restore purchases. Please try again.',
-      );
+    } catch {
+      Alert.alert(t.profile.storeUnavailableTitle, t.profile.storeUnavailableMessage);
     } finally {
       setRestoring(false);
     }
   };
 
-  const getCountryCount = (continent?: string) => {
-    if (!continent) return countries.length;
-    return getCountriesByContinent(countries, continent).length;
+  const toggleAllPacks = () => {
+    LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
+    setShowAllPacks((v) => !v);
   };
-
-  const isPurchased = (productId: string) => {
-    return purchasedProducts.includes(productId);
-  };
-
-  const isRevenueCatReady = isPurchasesConfigured();
 
   if (!visible) return null;
 
-  const innerCard = (
-    <View style={[styles.modalContent, isTablet && styles.modalContentTablet]}>
-      <TouchableOpacity style={styles.closeButton} onPress={onClose} testID="paywall-close">
-        <X size={24} color={colors.text} />
+  const busy = !!purchasing || restoring;
+
+  const renderOption = (productId: string) => {
+    const product = MONETIZATION_PRODUCTS.find((p) => p.id === productId);
+    if (!product) return null;
+    const isWorld = productId === WORLD_PRODUCT_ID;
+    const purchased = isPurchased(productId);
+    const isSelected = !purchased && selected === productId;
+    const name = ui[PRODUCT_TEXT_KEYS[productId].name];
+    const countText = t.ui.countriesCount.replace('{count}', String(getCountryCount(product.continent)));
+    const price = getDisplayPrice(productId);
+    const unlocksThisCountry = !!country && countryPackIds.includes(productId);
+
+    return (
+      <TouchableOpacity
+        key={productId}
+        activeOpacity={0.85}
+        onPress={() => {
+          if (selected !== productId) hapticSelection();
+          setSelectedId(productId);
+        }}
+        disabled={purchased || busy}
+        accessibilityRole="radio"
+        aria-checked={isSelected}
+        aria-disabled={purchased}
+        accessibilityLabel={[name, countText, purchased ? t.ui.purchased : price, isWorld && !purchased ? savingsText : null]
+          .filter(Boolean)
+          .join(', ')}
+        testID={`paywall-option-${productId}`}
+        style={[
+          styles.option,
+          isWorld && styles.optionWorld,
+          isSelected && styles.optionSelected,
+          purchased && styles.optionPurchased,
+        ]}
+      >
+        {isWorld && !purchased && (
+          <View style={styles.featuredBadge}>
+            <Text style={styles.featuredBadgeText}>{t.ui.bestValue}</Text>
+          </View>
+        )}
+
+        <View style={styles.optionRow}>
+          {purchased ? (
+            <View style={styles.radioPurchased}>
+              <Check size={14} color="#FFF" strokeWidth={3} />
+            </View>
+          ) : (
+            <View style={[styles.radio, isSelected && styles.radioSelected]}>
+              {isSelected && <View style={styles.radioDot} />}
+            </View>
+          )}
+
+          <View style={styles.optionInfo}>
+            <Text style={[styles.optionName, isWorld && styles.optionNameWorld]}>{name}</Text>
+            {isWorld && <Text style={styles.optionDescription}>{ui[PRODUCT_TEXT_KEYS[productId].desc]}</Text>}
+            <View style={styles.optionMetaRow}>
+              <Text style={styles.optionMeta}>{countText}</Text>
+              {unlocksThisCountry && country && (
+                <View style={styles.includesChip}>
+                  <Check size={12} color={colors.success} strokeWidth={3} />
+                  <Text style={styles.includesChipText} numberOfLines={1}>
+                    {country.flag} {countryName}
+                  </Text>
+                </View>
+              )}
+            </View>
+          </View>
+
+          <View style={styles.priceColumn}>
+            {purchased ? (
+              <Text style={styles.purchasedText}>{t.ui.purchased}</Text>
+            ) : showPriceSpinner ? (
+              <ActivityIndicator size="small" color={colors.terracotta} />
+            ) : (
+              <Text style={[styles.price, isWorld && styles.priceWorld]}>{price}</Text>
+            )}
+          </View>
+        </View>
+
+        {isWorld && !purchased && savingsText && (
+          <View style={styles.savingsPill}>
+            <Text style={styles.savingsText}>{savingsText}</Text>
+          </View>
+        )}
       </TouchableOpacity>
+    );
+  };
+
+  const closeButton = (
+    <TouchableOpacity
+      style={styles.closeButton}
+      onPress={onClose}
+      testID="paywall-close"
+      accessibilityRole="button"
+      accessibilityLabel={t.common.close}
+      hitSlop={8}
+    >
+      <X size={22} color={colors.text} />
+    </TouchableOpacity>
+  );
+
+  const footerPadding = isTablet ? 16 : Math.max(insets.bottom, 16);
+
+  const allUnlockedCard = (
+    <View style={[styles.modalContent, styles.modalContentCompact, isTablet && styles.modalContentTablet, isTablet && styles.modalContentCompact]}>
+      {closeButton}
+      <View style={[styles.doneState, { paddingBottom: footerPadding + 8 }]}>
+        <View style={styles.doneIcon}>
+          <Check size={36} color="#FFF" strokeWidth={3} />
+        </View>
+        <Text style={styles.title} accessibilityRole="header">{s.allUnlockedTitle}</Text>
+        <Text style={styles.description}>{s.allUnlockedMessage}</Text>
+        <TouchableOpacity style={[styles.ctaButton, styles.doneButton]} onPress={onClose} accessibilityRole="button">
+          <Text style={styles.ctaButtonText}>{s.keepExploring}</Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+
+  const selectedPrice = selected ? getDisplayPrice(selected) : '—';
+  const selectedName = selected ? ui[PRODUCT_TEXT_KEYS[selected].name] : '';
+  const canBuySelected = !!selected && isProductAvailable(selected) && !busy;
+  const ctaLabel = selected && selectedPrice !== '—' ? `${t.ui.unlockNow} · ${selectedPrice}` : t.ui.unlockNow;
+
+  const purchaseCard = (
+    <View style={[styles.modalContent, isTablet && styles.modalContentTablet]}>
+      {closeButton}
 
       <ScrollView
         style={styles.scrollView}
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-            <View style={styles.header}>
-              <View style={styles.lockIconContainer}>
-                <Lock size={48} color={colors.terracotta} />
-              </View>
-              <Text style={styles.title}>Unlock More Countries</Text>
-              {country && (
-                <Text style={styles.subtitle}>
-                  {country.flag} {getTranslatedName(country.name)} is locked
-                </Text>
-              )}
-              <Text style={styles.description}>
-                Choose a pack to unlock countries and explore their cuisines
-              </Text>
+        <View style={styles.header}>
+          {!country && (
+            <View style={styles.headerIcon}>
+              <Globe size={36} color={colors.terracotta} />
             </View>
+          )}
+          <Text style={styles.title} accessibilityRole="header">
+            {country ? fill(s.unlockCountry, { country: `${country.flag} ${countryName}` }) : t.ui.paywallTitle}
+          </Text>
+          <Text style={styles.description}>{country ? s.countrySubtitle : t.ui.paywallDescription}</Text>
+        </View>
 
-            <View style={styles.productsContainer}>
-              {MONETIZATION_PRODUCTS.map((product) => {
-                const isWorldUnlock = product.id === PRODUCT_IDS.WORLD_UNLOCK_ALL;
-                const countryCount = getCountryCount(product.continent);
-                const purchased = isPurchased(product.id);
-                const isPurchasing = purchasing === product.id;
-
-                return (
-                  <View
-                    key={product.id}
-                    style={[
-                      styles.productCard,
-                      isWorldUnlock && styles.productCardFeatured,
-                      purchased && styles.productCardPurchased,
-                    ]}
-                  >
-                    {isWorldUnlock && (
-                      <View style={styles.featuredBadge}>
-                        <Text style={styles.featuredBadgeText}>BEST VALUE</Text>
-                      </View>
-                    )}
-
-                    <View style={styles.productHeader}>
-                      <View style={styles.productIcon}>
-                        <Globe
-                          size={24}
-                          color={isWorldUnlock ? colors.sand : colors.terracotta}
-                        />
-                      </View>
-                      <View style={styles.productInfo}>
-                        <Text style={[
-                          styles.productName,
-                          isWorldUnlock && styles.productNameFeatured
-                        ]}>
-                          {product.name}
-                        </Text>
-                        <Text style={styles.productDescription}>
-                          {product.description}
-                        </Text>
-                        <Text style={styles.countryCount}>
-                          {countryCount} countries
-                        </Text>
-                      </View>
-                    </View>
-
-                    <View style={styles.productFooter}>
-                      {pricesLoading && packages.length === 0 ? (
-                        <ActivityIndicator size="small" color={colors.terracotta} />
-                      ) : (
-                        <Text style={[
-                          styles.productPrice,
-                          isWorldUnlock && styles.productPriceFeatured
-                        ]}>
-                          {getDisplayPrice(product.id)}
-                        </Text>
-                      )}
-
-                      {purchased ? (
-                        <View style={styles.purchasedButton}>
-                          <Check size={20} color={colors.sage} />
-                          <Text style={styles.purchasedButtonText}>Purchased</Text>
-                        </View>
-                      ) : (
-                        <TouchableOpacity
-                          style={[
-                            styles.purchaseButton,
-                            isWorldUnlock && styles.purchaseButtonFeatured,
-                          ]}
-                          onPress={() => handlePurchase(product.id)}
-                          disabled={!!purchasing || restoring}
-                        >
-                          {isPurchasing ? (
-                            <ActivityIndicator size="small" color="#FFF" />
-                          ) : (
-                            <Text style={[
-                              styles.purchaseButtonText,
-                              isWorldUnlock && styles.purchaseButtonTextFeatured
-                            ]}>
-                              Unlock Now
-                            </Text>
-                          )}
-                        </TouchableOpacity>
-                      )}
-                    </View>
-                  </View>
-                );
-              })}
-            </View>
-
-            <View style={styles.footer}>
+        {(pricesMissing || !purchasesAvailable) && (
+          <View style={styles.unavailableBanner}>
+            <Text style={styles.unavailableText}>
+              {purchasesAvailable ? t.ui.pricesUnavailable : t.ui.purchasesUnavailable}
+            </Text>
+            {purchasesAvailable && (
               <TouchableOpacity
-                style={styles.restoreButton}
-                onPress={handleRestore}
-                disabled={!!purchasing || restoring}
+                onPress={() => setReloadKey((k) => k + 1)}
+                style={styles.retryButton}
+                accessibilityRole="button"
+                testID="paywall-retry"
               >
-                {restoring ? (
-                  <ActivityIndicator size="small" color={colors.terracotta} />
-                ) : (
-                  <>
-                    <RotateCcw size={16} color={colors.terracotta} />
-                    <Text style={styles.restoreButtonText}>Restore Purchases</Text>
-                  </>
-                )}
+                <Text style={styles.retryButtonText}>{t.ui.tryAgain}</Text>
               </TouchableOpacity>
-              {!isRevenueCatReady && __DEV__ && (
-                <Text style={styles.devNote}>
-                  Dev mode: purchases are mocked
-                </Text>
-              )}
-              <Text style={styles.legalIntro}>
-                Purchases are one-time and unlock recipe content permanently. Payment will be charged to your Apple ID at confirmation.
-              </Text>
-              <View style={styles.legalLinks}>
-                <TouchableOpacity
-                  onPress={() => Linking.openURL('https://sites.google.com/mojjo.se/world-food-journey/terms-of-service')}
-                  testID="paywall-terms"
-                >
-                  <Text style={styles.legalLink}>Terms of Service</Text>
-                </TouchableOpacity>
-                <Text style={styles.legalSeparator}>·</Text>
-                <TouchableOpacity
-                  onPress={() => Linking.openURL('https://sites.google.com/mojjo.se/world-food-journey/privacy-policy')}
-                  testID="paywall-privacy"
-                >
-                  <Text style={styles.legalLink}>Privacy Policy</Text>
-                </TouchableOpacity>
-              </View>
-            </View>
+            )}
+          </View>
+        )}
+
+        <View style={styles.options} accessibilityRole="radiogroup">
+          {visibleIds.map(renderOption)}
+        </View>
+
+        {extraIds.length > 0 && (
+          <TouchableOpacity
+            style={styles.toggleButton}
+            onPress={toggleAllPacks}
+            accessibilityRole="button"
+            aria-expanded={showAllPacks}
+            testID="paywall-toggle-packs"
+          >
+            <Text style={styles.toggleText}>{showAllPacks ? s.showFewerPacks : s.seeAllPacks}</Text>
+            {showAllPacks ? (
+              <ChevronUp size={18} color={colors.terracotta} />
+            ) : (
+              <ChevronDown size={18} color={colors.terracotta} />
+            )}
+          </TouchableOpacity>
+        )}
+
+        <View style={styles.legal}>
+          {!storeReady && purchasesAvailable && (
+            <Text style={styles.devNote}>Dev mode: purchases are mocked</Text>
+          )}
+          <Text style={styles.legalIntro}>
+            {Platform.OS === 'android' ? t.ui.paywallLegalGoogle : t.ui.paywallLegalApple}
+          </Text>
+          <View style={styles.legalLinks}>
+            <TouchableOpacity
+              onPress={() => Linking.openURL('https://sites.google.com/mojjo.se/world-food-journey/terms-of-service')}
+              testID="paywall-terms"
+              accessibilityRole="link"
+            >
+              <Text style={styles.legalLink}>{t.ui.termsOfService}</Text>
+            </TouchableOpacity>
+            <Text style={styles.legalSeparator}>·</Text>
+            <TouchableOpacity
+              onPress={() => Linking.openURL('https://sites.google.com/mojjo.se/world-food-journey/privacy-policy')}
+              testID="paywall-privacy"
+              accessibilityRole="link"
+            >
+              <Text style={styles.legalLink}>{t.ui.privacyPolicy}</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
       </ScrollView>
+
+      <View style={[styles.footer, { paddingBottom: footerPadding }]}>
+        <TouchableOpacity
+          style={[styles.ctaButton, !canBuySelected && !purchasing && styles.ctaButtonDisabled]}
+          onPress={() => selected && handlePurchase(selected)}
+          disabled={!canBuySelected}
+          accessibilityRole="button"
+          accessibilityLabel={selected ? `${selectedName}, ${selectedPrice}` : t.ui.unlockNow}
+          aria-disabled={!canBuySelected}
+          aria-busy={!!purchasing}
+          testID="paywall-cta"
+        >
+          {purchasing ? (
+            <ActivityIndicator size="small" color="#FFF" />
+          ) : (
+            <Text style={styles.ctaButtonText} numberOfLines={1} adjustsFontSizeToFit>
+              {ctaLabel}
+            </Text>
+          )}
+        </TouchableOpacity>
+        <Text style={styles.oneTimeText}>{s.oneTimePurchase}</Text>
+        <TouchableOpacity
+          style={styles.restoreButton}
+          onPress={handleRestore}
+          disabled={busy}
+          accessibilityRole="button"
+          testID="paywall-restore"
+        >
+          {restoring ? (
+            <ActivityIndicator size="small" color={colors.terracotta} />
+          ) : (
+            <>
+              <RotateCcw size={14} color={colors.terracotta} />
+              <Text style={styles.restoreButtonText}>{t.profile.restorePurchases}</Text>
+            </>
+          )}
+        </TouchableOpacity>
+      </View>
     </View>
   );
 
@@ -296,18 +464,15 @@ export default function Paywall({
         activeOpacity={1}
         onPress={onClose}
         testID="paywall-backdrop"
+        accessible={false}
       />
-      {innerCard}
+      {everythingUnlocked ? allUnlockedCard : purchaseCard}
     </View>
   );
 
   // On web, Modal can be unreliable — use a full-screen absolute overlay instead
   if (Platform.OS === 'web') {
-    return (
-      <View style={styles.webOverlay}>
-        {content}
-      </View>
-    );
+    return <View style={styles.webOverlay}>{content}</View>;
   }
 
   return (
@@ -320,7 +485,9 @@ export default function Paywall({
       supportedOrientations={['portrait', 'landscape']}
       statusBarTranslucent
     >
-      <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
+      {/* The sheet runs to the bottom edge (its footer pads for the home
+          indicator); only the top is inset. */}
+      <SafeAreaView style={styles.safeArea} edges={['top']}>
         {content}
       </SafeAreaView>
     </Modal>
@@ -335,14 +502,14 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     zIndex: 1000,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
   safeArea: {
     flex: 1,
-    backgroundColor: 'transparent',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
     justifyContent: 'flex-end',
   },
   modalOverlayTablet: {
@@ -355,8 +522,8 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 24,
     borderTopRightRadius: 24,
     height: '90%',
-    paddingTop: 20,
     width: '100%',
+    overflow: 'hidden',
   },
   modalContentTablet: {
     height: '85%',
@@ -364,20 +531,24 @@ const styles = StyleSheet.create({
     maxWidth: 560,
     borderRadius: 24,
   },
+  modalContentCompact: {
+    height: 'auto',
+  },
   scrollView: {
     flex: 1,
   },
   scrollContent: {
-    paddingBottom: 24,
+    paddingTop: 24,
+    paddingBottom: 16,
   },
   closeButton: {
     position: 'absolute',
-    top: 16,
-    right: 16,
+    top: 14,
+    right: 14,
     zIndex: 10,
-    width: 40,
-    height: 40,
-    borderRadius: 20,
+    width: 36,
+    height: 36,
+    borderRadius: 18,
     backgroundColor: colors.surface,
     justifyContent: 'center',
     alignItems: 'center',
@@ -385,169 +556,226 @@ const styles = StyleSheet.create({
   header: {
     alignItems: 'center',
     paddingHorizontal: 24,
-    paddingBottom: 24,
+    paddingBottom: 20,
   },
-  lockIconContainer: {
-    width: 80,
-    height: 80,
-    borderRadius: 40,
+  headerIcon: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
     backgroundColor: colors.sand,
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 16,
+    marginBottom: 14,
   },
   title: {
-    fontSize: 28,
-    fontWeight: '700' as const,
+    fontSize: 26,
+    fontWeight: '800' as const,
     color: colors.text,
     marginBottom: 8,
     textAlign: 'center',
-  },
-  subtitle: {
-    fontSize: 18,
-    color: colors.textSecondary,
-    marginBottom: 8,
-    textAlign: 'center',
+    paddingHorizontal: 28,
   },
   description: {
-    fontSize: 16,
+    fontSize: 15,
     color: colors.textSecondary,
     textAlign: 'center',
-    lineHeight: 24,
+    lineHeight: 22,
   },
-  productsContainer: {
-    paddingHorizontal: 24,
-    gap: 16,
-  },
-  productCard: {
+  unavailableBanner: {
+    marginHorizontal: 20,
+    marginBottom: 16,
+    padding: 16,
+    borderRadius: 12,
     backgroundColor: colors.surface,
-    borderRadius: 16,
-    padding: 20,
+    alignItems: 'center',
+    gap: 8,
+  },
+  unavailableText: {
+    fontSize: 14,
+    color: colors.textSecondary,
+    textAlign: 'center',
+  },
+  retryButton: {
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 10,
+    backgroundColor: colors.terracotta,
+  },
+  retryButtonText: {
+    fontSize: 14,
+    fontWeight: '600' as const,
+    color: '#FFF',
+  },
+  options: {
+    paddingHorizontal: 20,
+    paddingTop: 8,
+    gap: 14,
+  },
+  option: {
+    backgroundColor: colors.surface,
+    borderRadius: 18,
+    paddingVertical: 16,
+    paddingHorizontal: 16,
     borderWidth: 2,
     borderColor: colors.border,
   },
-  productCardFeatured: {
-    borderColor: colors.terracotta,
-    backgroundColor: '#FFF9F5',
+  optionWorld: {
+    backgroundColor: FEATURED_BG,
+    borderColor: colors.sand,
+    paddingTop: 20,
   },
-  productCardPurchased: {
-    borderColor: colors.sage,
-    opacity: 0.7,
+  optionSelected: {
+    borderColor: colors.terracotta,
+    boxShadow: '0px 6px 16px rgba(198, 93, 59, 0.18)',
+    elevation: 3,
+  },
+  optionPurchased: {
+    opacity: 0.6,
+    backgroundColor: colors.surfaceAlt,
   },
   featuredBadge: {
     position: 'absolute',
-    top: -10,
-    right: 20,
+    top: -11,
+    right: 16,
     backgroundColor: colors.terracotta,
-    paddingHorizontal: 12,
+    paddingHorizontal: 10,
     paddingVertical: 4,
-    borderRadius: 12,
+    borderRadius: 10,
   },
   featuredBadgeText: {
-    fontSize: 12,
-    fontWeight: '700' as const,
+    fontSize: 11,
+    fontWeight: '800' as const,
     color: '#FFF',
-    letterSpacing: 0.5,
+    letterSpacing: 0.6,
   },
-  productHeader: {
+  optionRow: {
     flexDirection: 'row',
+    alignItems: 'center',
     gap: 12,
-    marginBottom: 16,
   },
-  productIcon: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
-    backgroundColor: colors.sand,
+  radio: {
+    width: 22,
+    height: 22,
+    borderRadius: 11,
+    borderWidth: 2,
+    borderColor: colors.gray300,
     justifyContent: 'center',
     alignItems: 'center',
   },
-  productInfo: {
-    flex: 1,
+  radioSelected: {
+    borderColor: colors.terracotta,
   },
-  productName: {
-    fontSize: 20,
-    fontWeight: '700' as const,
-    color: colors.text,
-    marginBottom: 4,
-  },
-  productNameFeatured: {
-    color: colors.terracotta,
-  },
-  productDescription: {
-    fontSize: 14,
-    color: colors.textSecondary,
-    lineHeight: 20,
-    marginBottom: 4,
-  },
-  countryCount: {
-    fontSize: 13,
-    color: colors.textTertiary,
-    fontWeight: '600' as const,
-  },
-  productFooter: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  productPrice: {
-    fontSize: 24,
-    fontWeight: '700' as const,
-    color: colors.text,
-  },
-  productPriceFeatured: {
-    color: colors.terracotta,
-  },
-  purchaseButton: {
+  radioDot: {
+    width: 10,
+    height: 10,
+    borderRadius: 5,
     backgroundColor: colors.terracotta,
-    paddingHorizontal: 24,
-    paddingVertical: 12,
-    borderRadius: 12,
-    minWidth: 120,
+  },
+  radioPurchased: {
+    width: 22,
+    height: 22,
+    borderRadius: 11,
+    backgroundColor: colors.sage,
+    justifyContent: 'center',
     alignItems: 'center',
   },
-  purchaseButtonFeatured: {
-    backgroundColor: colors.earthBrown,
+  optionInfo: {
+    flex: 1,
+    gap: 2,
   },
-  purchaseButtonText: {
-    fontSize: 16,
-    fontWeight: '600' as const,
-    color: '#FFF',
+  optionName: {
+    fontSize: 17,
+    fontWeight: '700' as const,
+    color: colors.text,
   },
-  purchaseButtonTextFeatured: {
-    color: colors.sand,
+  optionNameWorld: {
+    fontSize: 19,
+    color: colors.terracotta,
   },
-  purchasedButton: {
+  optionDescription: {
+    fontSize: 13,
+    color: colors.textSecondary,
+    lineHeight: 18,
+  },
+  optionMetaRow: {
     flexDirection: 'row',
     alignItems: 'center',
+    flexWrap: 'wrap',
     gap: 8,
-    paddingHorizontal: 20,
-    paddingVertical: 12,
-    borderRadius: 12,
-    backgroundColor: colors.sand,
+    marginTop: 2,
   },
-  purchasedButtonText: {
-    fontSize: 16,
+  optionMeta: {
+    fontSize: 13,
     fontWeight: '600' as const,
+    color: colors.textTertiary,
+  },
+  includesChip: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    backgroundColor: '#EAF3EC',
+    paddingHorizontal: 8,
+    paddingVertical: 2,
+    borderRadius: 10,
+    maxWidth: 180,
+  },
+  includesChipText: {
+    fontSize: 12,
+    fontWeight: '600' as const,
+    color: colors.success,
+  },
+  priceColumn: {
+    alignItems: 'flex-end',
+    minWidth: 64,
+  },
+  price: {
+    fontSize: 18,
+    fontWeight: '700' as const,
+    color: colors.text,
+  },
+  priceWorld: {
+    fontSize: 21,
+    color: colors.terracotta,
+  },
+  purchasedText: {
+    fontSize: 14,
+    fontWeight: '700' as const,
     color: colors.sage,
   },
-  footer: {
-    paddingHorizontal: 24,
-    paddingVertical: 24,
-    alignItems: 'center',
-    gap: 8,
+  savingsPill: {
+    alignSelf: 'flex-start',
+    marginTop: 12,
+    marginLeft: 34,
+    backgroundColor: '#EAF3EC',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 10,
   },
-  restoreButton: {
+  savingsText: {
+    fontSize: 13,
+    fontWeight: '700' as const,
+    color: colors.success,
+  },
+  toggleButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
+    justifyContent: 'center',
+    alignSelf: 'center',
+    gap: 6,
     paddingVertical: 12,
-    paddingHorizontal: 20,
+    paddingHorizontal: 16,
+    marginTop: 6,
   },
-  restoreButtonText: {
-    fontSize: 14,
+  toggleText: {
+    fontSize: 15,
     fontWeight: '600' as const,
     color: colors.terracotta,
+  },
+  legal: {
+    paddingHorizontal: 24,
+    paddingTop: 12,
+    alignItems: 'center',
+    gap: 8,
   },
   devNote: {
     fontSize: 11,
@@ -559,14 +787,12 @@ const styles = StyleSheet.create({
     color: colors.textTertiary,
     textAlign: 'center',
     lineHeight: 16,
-    marginTop: 8,
     paddingHorizontal: 12,
   },
   legalLinks: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
-    marginTop: 8,
   },
   legalLink: {
     fontSize: 12,
@@ -577,5 +803,71 @@ const styles = StyleSheet.create({
   legalSeparator: {
     fontSize: 12,
     color: colors.textTertiary,
+  },
+  footer: {
+    paddingHorizontal: 20,
+    paddingTop: 14,
+    borderTopWidth: 1,
+    borderTopColor: colors.border,
+    backgroundColor: colors.background,
+    alignItems: 'stretch',
+  },
+  ctaButton: {
+    backgroundColor: colors.terracotta,
+    borderRadius: 16,
+    minHeight: 54,
+    paddingHorizontal: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+    boxShadow: '0px 4px 12px rgba(198, 93, 59, 0.35)',
+    elevation: 4,
+  },
+  ctaButtonDisabled: {
+    opacity: 0.45,
+  },
+  ctaButtonText: {
+    fontSize: 17,
+    fontWeight: '700' as const,
+    color: '#FFF',
+  },
+  oneTimeText: {
+    fontSize: 12,
+    color: colors.textSecondary,
+    textAlign: 'center',
+    marginTop: 8,
+  },
+  restoreButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    gap: 6,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    marginTop: 2,
+    minHeight: 36,
+  },
+  restoreButtonText: {
+    fontSize: 13,
+    fontWeight: '600' as const,
+    color: colors.terracotta,
+  },
+  doneState: {
+    alignItems: 'center',
+    paddingHorizontal: 28,
+    paddingTop: 44,
+  },
+  doneIcon: {
+    width: 72,
+    height: 72,
+    borderRadius: 36,
+    backgroundColor: colors.sage,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 18,
+  },
+  doneButton: {
+    alignSelf: 'stretch',
+    marginTop: 24,
   },
 });

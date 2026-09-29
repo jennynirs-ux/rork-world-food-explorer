@@ -4,6 +4,7 @@ import { endangeredDishes, EndangeredDish } from '@/data/endangered-dishes';
 import { translateContent } from '@/lib/translate-content';
 import { Country } from '@/types';
 import colors from '@/constants/colors';
+import { useTranslation } from '@/lib/i18n';
 
 interface EndangeredDishesProps {
   countries: Country[];
@@ -12,10 +13,11 @@ interface EndangeredDishesProps {
 }
 
 function ThreatBadge({ level }: { level: EndangeredDish['threatLevel'] }) {
+  const { t } = useTranslation();
   const config = {
-    critical: { color: '#DC2626', bg: '#FEE2E2', label: 'Critical' },
-    endangered: { color: '#D97706', bg: '#FEF3C7', label: 'Endangered' },
-    vulnerable: { color: '#2563EB', bg: '#DBEAFE', label: 'Vulnerable' },
+    critical: { color: '#DC2626', bg: '#FEE2E2', label: t.ui.statusCritical },
+    endangered: { color: '#D97706', bg: '#FEF3C7', label: t.ui.statusEndangered },
+    vulnerable: { color: '#2563EB', bg: '#DBEAFE', label: t.ui.statusVulnerable },
   };
   const c = config[level];
 
@@ -31,11 +33,12 @@ export default function EndangeredDishesSection({
   lang = 'en',
   onCountryPress,
 }: EndangeredDishesProps) {
+  const { t } = useTranslation();
   return (
     <View style={styles.container}>
       <View style={styles.header}>
         <AlertTriangle size={18} color="#D97706" />
-        <Text style={styles.title}>Endangered Food Heritage</Text>
+        <Text style={styles.title}>{t.ui.endangeredTitle}</Text>
       </View>
       <Text style={styles.intro}>
         These culinary traditions risk disappearing. Learn about them and help preserve food culture.

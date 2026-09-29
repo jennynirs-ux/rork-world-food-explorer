@@ -1,35 +1,45 @@
-import { Platform } from 'react-native';
-import Purchases, { PurchasesPackage, CustomerInfo, LOG_LEVEL } from 'react-native-purchases';
+import { Linking, Platform } from 'react-native';
+import Purchases, { PurchasesPackage, CustomerInfo, LOG_LEVEL, PURCHASES_ERROR_CODE } from 'react-native-purchases';
 import { PRODUCT_IDS } from '@/constants/monetization';
-import { env, APP_ENV } from '@/lib/env';
+import { env, APP_ENV, allowMockPurchases } from '@/lib/env';
 
 const IOS_API_KEY = env.revenueCatIosKey;
 const ANDROID_API_KEY = env.revenueCatAndroidKey;
 
 let isConfigured = false;
 
+/** Thrown when the store reports the payment as pending (Ask to Buy, slow card). */
+export class PurchasePendingError extends Error {
+  constructor() {
+    super('Purchase pending approval');
+    this.name = 'PurchasePendingError';
+  }
+}
+
+/** Thrown when the product can't be bought right now (store unreachable, not configured). */
+export class PurchaseUnavailableError extends Error {
+  constructor() {
+    super('Purchases are unavailable right now');
+    this.name = 'PurchaseUnavailableError';
+  }
+}
+
 /**
  * Initialize RevenueCat SDK. Call once at app startup.
  *
- * In development, missing API keys are tolerated (purchases are mocked).
- * In production, missing keys will throw so the issue surfaces immediately.
+ * Without an API key purchases are mocked in a local dev bundle and disabled
+ * everywhere else — a release build must never hand out content for free.
  */
 export async function configurePurchases(userId?: string): Promise<void> {
   if (isConfigured) return;
 
   const apiKey = Platform.OS === 'ios' ? IOS_API_KEY : ANDROID_API_KEY;
 
-  if (!apiKey) {
-    if (APP_ENV === 'production') {
-      throw new Error(
-        'RevenueCat API key is not set. Production builds require valid ' +
-        'EXPO_PUBLIC_REVENUECAT_IOS_KEY / EXPO_PUBLIC_REVENUECAT_ANDROID_KEY ' +
-        'environment variables. See .env.production.example.'
-      );
-    }
+  if (!apiKey || Platform.OS === 'web') {
     if (env.debugLogging) {
       console.warn(
-        '[purchases] RevenueCat API key not set \u2014 purchases will be mocked (' + APP_ENV + ')'
+        '[purchases] RevenueCat not available — purchases are ' +
+        (allowMockPurchases ? 'mocked' : 'disabled') + ' (' + APP_ENV + ')'
       );
     }
     return;
@@ -51,9 +61,6 @@ export async function configurePurchases(userId?: string): Promise<void> {
       console.log('[purchases] RevenueCat configured (' + APP_ENV + ')');
     }
   } catch (error) {
-    if (APP_ENV === 'production') {
-      throw error;
-    }
     if (env.debugLogging) {
       console.error('[purchases] Failed to configure RevenueCat:', error);
     }
@@ -65,6 +72,13 @@ export async function configurePurchases(userId?: string): Promise<void> {
  */
 export function isPurchasesConfigured(): boolean {
   return isConfigured;
+}
+
+/**
+ * Whether the paywall can take a purchase at all (real store or dev mock).
+ */
+export function canMakePurchases(): boolean {
+  return isConfigured || allowMockPurchases;
 }
 
 /**
@@ -87,14 +101,13 @@ export async function getOfferings(): Promise<PurchasesPackage[]> {
 
 /**
  * Purchase a specific package.
- * Returns the list of active entitlement identifiers on success.
+ * Returns the product ids the customer now owns on success, [] if cancelled.
  *
- * Apple/Google sometimes return a CustomerInfo whose `entitlements.active`
- * has not yet been populated by the time `purchasePackage` resolves —
- * the receipt is valid but RevenueCat's server-side validation hasn't
- * caught up. We mitigate that by retrying once after a short delay, and
- * as a final fallback, trusting the productId of the package we just
- * purchased (since the purchase itself did succeed without an error).
+ * Apple/Google sometimes return a CustomerInfo that doesn't list the new
+ * purchase yet — the receipt is valid but RevenueCat's server-side
+ * validation hasn't caught up. We mitigate that by retrying once after a
+ * short delay, and as a final fallback, trusting the productId of the
+ * package we just purchased (since the purchase itself did succeed).
  *
  * Without this safety net, a customer can be charged but see no unlock —
  * the very bug a real customer hit shortly after launch.
@@ -104,14 +117,13 @@ export async function purchasePackage(
 ): Promise<string[]> {
   try {
     const { customerInfo } = await Purchases.purchasePackage(pkg);
-    let entitlements = getActiveEntitlements(customerInfo);
+    let owned = getOwnedProducts(customerInfo);
 
-    // Entitlements not yet propagated — wait briefly and re-fetch.
-    if (entitlements.length === 0) {
+    if (!owned.includes(pkg.product.identifier)) {
       await new Promise((resolve) => setTimeout(resolve, 2000));
       try {
         const fresh = await Purchases.getCustomerInfo();
-        entitlements = getActiveEntitlements(fresh);
+        owned = getOwnedProducts(fresh);
       } catch (e) {
         if (env.debugLogging) {
           console.warn('[purchases] Retry getCustomerInfo failed:', e);
@@ -119,24 +131,23 @@ export async function purchasePackage(
       }
     }
 
-    // Still empty — but the purchase did succeed (no thrown error). Trust
-    // the product identifier of the package we just bought so the customer
-    // is not charged without an unlock. The next app launch will re-sync
-    // via getCustomerInfo and self-correct if needed.
-    if (entitlements.length === 0) {
+    if (!owned.includes(pkg.product.identifier)) {
       if (env.debugLogging) {
         console.warn(
-          '[purchases] No entitlements returned after retry; falling back ' +
-          'to purchased productId: ' + pkg.product.identifier
+          '[purchases] Purchase not reflected after retry; trusting ' +
+          'purchased productId: ' + pkg.product.identifier
         );
       }
-      entitlements = [pkg.product.identifier];
+      owned = [...owned, pkg.product.identifier];
     }
 
-    return entitlements;
+    return owned;
   } catch (error: any) {
-    if (error.userCancelled) {
+    if (error?.userCancelled) {
       return [];
+    }
+    if (error?.code === PURCHASES_ERROR_CODE.PAYMENT_PENDING_ERROR) {
+      throw new PurchasePendingError();
     }
     throw error;
   }
@@ -145,17 +156,13 @@ export async function purchasePackage(
 /**
  * Purchase a product by its RevenueCat product identifier.
  *
- * In production, throws if RevenueCat is not configured.
- * In development / staging, falls back to a mock purchase so the UI
- * can be exercised without a real App Store sandbox.
+ * In a local dev bundle without RevenueCat, falls back to a mock purchase so
+ * the UI can be exercised without a real App Store sandbox.
  */
 export async function purchaseProductById(productId: string): Promise<string[]> {
   if (!isConfigured) {
-    if (APP_ENV === 'production') {
-      throw new Error(
-        'Cannot purchase: RevenueCat is not configured. ' +
-        'Ensure API keys are set in the production environment.'
-      );
+    if (!allowMockPurchases) {
+      throw new PurchaseUnavailableError();
     }
     if (env.debugLogging) {
       console.warn('[purchases] Mock purchase: ' + productId);
@@ -167,7 +174,7 @@ export async function purchaseProductById(productId: string): Promise<string[]> 
   const pkg = offerings.find((p) => p.product.identifier === productId);
 
   if (!pkg) {
-    throw new Error('Product "' + productId + '" not found in RevenueCat offerings');
+    throw new PurchaseUnavailableError();
   }
 
   return await purchasePackage(pkg);
@@ -175,24 +182,22 @@ export async function purchaseProductById(productId: string): Promise<string[]> 
 
 /**
  * Restore previous purchases. Required by App Store guidelines.
- * Returns the list of active entitlement identifiers.
+ * Returns the product ids the customer owns.
  */
 export async function restorePurchases(): Promise<string[]> {
   if (!isConfigured) {
-    if (APP_ENV === 'production') {
-      throw new Error(
-        'Cannot restore purchases: RevenueCat is not configured.'
-      );
+    if (!allowMockPurchases) {
+      throw new PurchaseUnavailableError();
     }
     if (env.debugLogging) {
-      console.warn('[purchases] RevenueCat not configured \u2014 cannot restore');
+      console.warn('[purchases] RevenueCat not configured — cannot restore');
     }
     return [];
   }
 
   try {
     const customerInfo = await Purchases.restorePurchases();
-    return getActiveEntitlements(customerInfo);
+    return getOwnedProducts(customerInfo);
   } catch (error) {
     if (env.debugLogging) console.error('[purchases] Failed to restore purchases:', error);
     throw error;
@@ -200,27 +205,74 @@ export async function restorePurchases(): Promise<string[]> {
 }
 
 /**
- * Get current customer info and active entitlements.
+ * Get the product ids the customer currently owns according to RevenueCat.
+ *
+ * Returns null when the answer is unknown (not configured, offline, store
+ * error) so callers can keep their cached state instead of treating it as
+ * "owns nothing".
  */
-export async function getCustomerInfo(): Promise<string[]> {
-  if (!isConfigured) return [];
+export async function getCustomerInfo(): Promise<string[] | null> {
+  if (!isConfigured) return null;
 
   try {
     const customerInfo = await Purchases.getCustomerInfo();
-    return getActiveEntitlements(customerInfo);
+    return getOwnedProducts(customerInfo);
   } catch (error) {
     if (env.debugLogging) console.error('[purchases] Failed to get customer info:', error);
-    return [];
+    return null;
   }
 }
 
 /**
- * Extract active entitlement identifiers from CustomerInfo.
- * Maps RevenueCat entitlements back to our PRODUCT_IDS.
+ * Subscribe to CustomerInfo changes (purchases completed outside the paywall,
+ * redeemed offer codes, Ask to Buy approvals). Returns an unsubscribe function.
  */
-function getActiveEntitlements(customerInfo: CustomerInfo): string[] {
-  const activeEntitlements = Object.keys(customerInfo.entitlements.active);
+export function addOwnedProductsListener(listener: (owned: string[]) => void): () => void {
+  if (!isConfigured) return () => {};
+  const handler = (info: CustomerInfo) => listener(getOwnedProducts(info));
+  Purchases.addCustomerInfoUpdateListener(handler);
+  return () => {
+    Purchases.removeCustomerInfoUpdateListener(handler);
+  };
+}
 
+/**
+ * Open the platform's promo/offer code redemption flow.
+ * iOS: Apple's in-app Offer Code sheet. Android: Google Play's redeem page.
+ */
+export async function presentOfferCodeRedemption(): Promise<void> {
+  if (Platform.OS === 'ios') {
+    if (!isConfigured) throw new PurchaseUnavailableError();
+    await Purchases.presentCodeRedemptionSheet();
+    return;
+  }
+  if (Platform.OS === 'android') {
+    await Linking.openURL('https://play.google.com/redeem');
+    return;
+  }
+  throw new PurchaseUnavailableError();
+}
+
+/**
+ * Map CustomerInfo to the PRODUCT_IDS the customer owns.
+ *
+ * Reads active entitlements by id and by backing product, plus the
+ * non-subscription transactions, so ownership is detected even when the
+ * RevenueCat entitlement names don't match our product ids. Refunded
+ * purchases drop out of both, which revokes access.
+ */
+export function getOwnedProducts(customerInfo: CustomerInfo): string[] {
   const productIds = Object.values(PRODUCT_IDS) as string[];
-  return activeEntitlements.filter((id) => productIds.includes(id));
+  const owned = new Set<string>();
+
+  for (const [entitlementId, entitlement] of Object.entries(customerInfo.entitlements.active)) {
+    if (productIds.includes(entitlementId)) owned.add(entitlementId);
+    if (productIds.includes(entitlement.productIdentifier)) owned.add(entitlement.productIdentifier);
+  }
+
+  for (const transaction of customerInfo.nonSubscriptionTransactions ?? []) {
+    if (productIds.includes(transaction.productIdentifier)) owned.add(transaction.productIdentifier);
+  }
+
+  return [...owned];
 }

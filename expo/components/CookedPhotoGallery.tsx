@@ -8,6 +8,7 @@ import {
   Modal,
   Dimensions,
   Alert,
+  ActivityIndicator,
 } from 'react-native';
 import { Camera, ImagePlus, X, Trash2, Share2 } from 'lucide-react-native';
 import {
@@ -18,6 +19,13 @@ import {
 } from '@/lib/cooked-photos';
 import { hapticLight, hapticMedium } from '@/lib/haptics';
 import colors from '@/constants/colors';
+import { useTranslation } from '@/lib/i18n';
+import { useApp } from '@/contexts/AppContext';
+import { useStrings } from '@/lib/strings';
+import { shareStrings } from '@/lib/strings/share';
+import { translateContent } from '@/lib/translate-content';
+import { shareCookedIt } from '@/lib/share';
+import { useShareCard } from '@/components/share/ShareCard';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 const THUMB_SIZE = (SCREEN_WIDTH - 40 - 24) / 3; // 3 columns, 20px padding each side, 12px gaps
@@ -27,6 +35,11 @@ interface CookedPhotoGalleryProps {
   recipeId: string;
   isDessert: boolean;
   isCooked: boolean;
+  /**
+   * Optional text-share fallback. Photos are shared as a "cooked" story card;
+   * this is only called on web or if the image card can't be created
+   * (default: shareCookedIt from lib/share).
+   */
   onSharePhoto?: (photoUri: string) => void;
 }
 
@@ -37,6 +50,10 @@ export default function CookedPhotoGallery({
   isCooked,
   onSharePhoto,
 }: CookedPhotoGalleryProps) {
+  const { t, language } = useTranslation();
+  const s = useStrings(shareStrings);
+  const { countries } = useApp();
+  const { shareCard, shareCardHost, isSharing } = useShareCard();
   const [photos, setPhotos] = useState<CookedPhoto[]>([]);
   const [selectedPhoto, setSelectedPhoto] = useState<CookedPhoto | null>(null);
 
@@ -58,10 +75,10 @@ export default function CookedPhotoGallery({
 
   const handleDeletePhoto = useCallback(
     (photo: CookedPhoto) => {
-      Alert.alert('Delete Photo', 'Remove this cooking photo?', [
-        { text: 'Cancel', style: 'cancel' },
+      Alert.alert(t.ui.deletePhotoTitle, t.ui.deletePhotoMessage, [
+        { text: t.ui.cancel, style: 'cancel' },
         {
-          text: 'Delete',
+          text: t.ui.delete,
           style: 'destructive',
           onPress: async () => {
             hapticMedium();
@@ -72,7 +89,38 @@ export default function CookedPhotoGallery({
         },
       ]);
     },
-    [countryId, recipeId],
+    [countryId, recipeId, t],
+  );
+
+  const handleSharePhoto = useCallback(
+    (photo: CookedPhoto) => {
+      hapticLight();
+      const country = countries.find(c => c.id === countryId);
+      const recipe = isDessert ? country?.dessert : country?.mainDish;
+      const dishName = translateContent(recipe?.name, language);
+
+      const textFallback = async () => {
+        if (onSharePhoto) onSharePhoto(photo.uri);
+        else if (country) await shareCookedIt(country, dishName, photo.uri, language);
+      };
+
+      if (!country) {
+        void textFallback();
+        return;
+      }
+
+      void shareCard(
+        {
+          variant: 'cooked',
+          dishName,
+          countryName: translateContent(country.name, language),
+          flag: country.flag,
+          imageUri: photo.uri,
+        },
+        textFallback,
+      );
+    },
+    [countries, countryId, isDessert, language, onSharePhoto, shareCard],
   );
 
   const formatDate = (timestamp: string) => {
@@ -90,7 +138,7 @@ export default function CookedPhotoGallery({
     <View style={styles.container}>
       <View style={styles.header}>
         <Camera size={18} color={colors.terracotta} />
-        <Text style={styles.title}>My Cooking Photos</Text>
+        <Text style={styles.title}>{t.ui.myCookingPhotos}</Text>
         <Text style={styles.count}>{photos.length}</Text>
       </View>
 
@@ -116,7 +164,7 @@ export default function CookedPhotoGallery({
         <TouchableOpacity style={styles.addButton} onPress={handleAddPhoto}>
           <ImagePlus size={18} color={colors.terracotta} />
           <Text style={styles.addButtonText}>
-            {photos.length === 0 ? 'Add your first photo' : 'Add photo'}
+            {photos.length === 0 ? t.ui.addFirstPhoto : t.ui.addPhoto}
           </Text>
         </TouchableOpacity>
       )}
@@ -133,6 +181,8 @@ export default function CookedPhotoGallery({
             <TouchableOpacity
               style={styles.modalClose}
               onPress={() => setSelectedPhoto(null)}
+              accessibilityRole="button"
+              accessibilityLabel={t.common.close}
             >
               <X size={24} color="#FFF" />
             </TouchableOpacity>
@@ -140,22 +190,25 @@ export default function CookedPhotoGallery({
               {selectedPhoto ? formatDate(selectedPhoto.timestamp) : ''}
             </Text>
             <View style={styles.modalActions}>
-              {onSharePhoto && (
-                <TouchableOpacity
-                  style={styles.modalAction}
-                  onPress={() => {
-                    if (selectedPhoto) {
-                      hapticLight();
-                      onSharePhoto(selectedPhoto.uri);
-                    }
-                  }}
-                >
+              <TouchableOpacity
+                style={styles.modalAction}
+                onPress={() => selectedPhoto && handleSharePhoto(selectedPhoto)}
+                disabled={isSharing}
+                accessibilityRole="button"
+                accessibilityLabel={s.sharePhoto}
+                accessibilityState={{ busy: isSharing }}
+              >
+                {isSharing ? (
+                  <ActivityIndicator size="small" color="#60A5FA" />
+                ) : (
                   <Share2 size={22} color="#60A5FA" />
-                </TouchableOpacity>
-              )}
+                )}
+              </TouchableOpacity>
               <TouchableOpacity
                 style={styles.modalAction}
                 onPress={() => selectedPhoto && handleDeletePhoto(selectedPhoto)}
+                accessibilityRole="button"
+                accessibilityLabel={t.ui.delete}
               >
                 <Trash2 size={22} color="#EF4444" />
               </TouchableOpacity>
@@ -168,6 +221,8 @@ export default function CookedPhotoGallery({
               resizeMode="contain"
             />
           )}
+          {/* Off-screen share card lives inside the modal so it is captured from the visible window. */}
+          {shareCardHost}
         </View>
       </Modal>
     </View>

@@ -4,6 +4,7 @@ import { ArrowLeftRight, ChevronDown, ChevronUp } from 'lucide-react-native';
 import { RecipeIngredient } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 import colors from '@/constants/colors';
+import { useTranslation } from '@/lib/i18n';
 
 interface IngredientSubstitutionsProps {
   ingredients: RecipeIngredient[];
@@ -11,6 +12,7 @@ interface IngredientSubstitutionsProps {
 }
 
 export default function IngredientSubstitutions({ ingredients, lang = 'en' }: IngredientSubstitutionsProps) {
+  const { t } = useTranslation();
   const [expanded, setExpanded] = useState(false);
 
   // Filter to only ingredients that have substitutions
@@ -28,7 +30,7 @@ export default function IngredientSubstitutions({ ingredients, lang = 'en' }: In
         activeOpacity={0.7}
       >
         <ArrowLeftRight size={16} color={colors.sage} />
-        <Text style={styles.title}>Ingredient Substitutions</Text>
+        <Text style={styles.title}>{t.ui.substitutionsTitle}</Text>
         <Text style={styles.count}>{withSubs.length}</Text>
         {expanded ? (
           <ChevronUp size={18} color={colors.textTertiary} />

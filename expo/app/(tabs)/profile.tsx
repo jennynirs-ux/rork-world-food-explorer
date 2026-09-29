@@ -1,13 +1,15 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch, Modal, Pressable, TextInput, Linking } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Switch, Modal, Pressable, Linking, ActivityIndicator } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
-import { User, Award, Trash2, ShoppingCart, ChevronRight, Ruler, Info, Languages, Bell, Send, X, Check, Gift, Share2, Key, FileText, Shield } from 'lucide-react-native';
+import { User, Award, Trash2, ShoppingCart, ChevronRight, Ruler, Info, Languages, Bell, Send, X, Check, Gift, Share2, RotateCcw, FileText, Shield } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { useState, useEffect } from 'react';
 import { enableNotifications, disableNotifications, areNotificationsEnabled } from '@/lib/notifications';
-import { getDaysRemaining } from '@/lib/share-codes';
+import { getLegacyUnlockDaysRemaining } from '@/lib/legacy-code-unlock';
+import { shareApp } from '@/lib/share';
+import { presentOfferCodeRedemption, restorePurchases } from '@/lib/purchases';
 
 const LANGUAGES = [
   { code: 'en', name: 'English', flag: '🇬🇧' },
@@ -23,35 +25,46 @@ const LANGUAGES = [
 
 export default function ProfileScreen() {
   const router = useRouter();
-  const { userProfile, stats, resetProgress, shoppingList, updateUserProfile, redeemCode, getShareCode, shareMyCode } = useApp();
+  const { userProfile, stats, resetProgress, shoppingList, updateUserProfile, applyOwnedProducts, awardBadge } = useApp();
   const { t } = useTranslation();
   const [notificationsOn, setNotificationsOn] = useState(false);
   const [showLanguageModal, setShowLanguageModal] = useState(false);
-  const [showCodeModal, setShowCodeModal] = useState(false);
-  const [myCode, setMyCode] = useState('');
-  const [redeemInput, setRedeemInput] = useState('');
-  const [redeemStatus, setRedeemStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [daysRemaining, setDaysRemaining] = useState(0);
+  const [restoring, setRestoring] = useState(false);
 
   useEffect(() => {
-    getShareCode().then(setMyCode).catch(() => {});
-    getDaysRemaining().then(setDaysRemaining).catch(() => {});
-  }, [getShareCode]);
+    getLegacyUnlockDaysRemaining().then(setDaysRemaining).catch(() => {});
+  }, []);
 
-  const handleRedeemCode = async () => {
-    if (!redeemInput.trim()) return;
-    const result = await redeemCode(redeemInput);
-    setRedeemStatus(result.ok ? 'success' : 'error');
-    if (result.ok) {
-      Alert.alert(t.profile.unlockSuccessTitle, t.profile.unlockSuccessMessage);
-      setDaysRemaining(30);
-      setShowCodeModal(false);
-      setRedeemInput('');
-      setRedeemStatus('idle');
-    } else if (result.reason === 'own_code') {
-      Alert.alert('Invalid code', 'You cannot use your own referral code.');
-    } else if (result.reason === 'already_used') {
-      Alert.alert('Code already used', 'This code has already been redeemed on this device.');
+  const handleInvite = () => {
+    shareApp(userProfile.language || 'en')
+      .then(shared => { if (shared) awardBadge('ambassador'); })
+      .catch(() => {});
+  };
+
+  const handleRedeemOfferCode = async () => {
+    try {
+      // Redeemed purchases arrive through the RevenueCat listener in AppContext.
+      await presentOfferCodeRedemption();
+    } catch {
+      Alert.alert(t.profile.storeUnavailableTitle, t.profile.storeUnavailableMessage);
+    }
+  };
+
+  const handleRestore = async () => {
+    setRestoring(true);
+    try {
+      const owned = await restorePurchases();
+      applyOwnedProducts(owned, 'replace');
+      if (owned.length > 0) {
+        Alert.alert(t.profile.restoreSuccessTitle, t.profile.restoreSuccessMessage);
+      } else {
+        Alert.alert(t.profile.restoreNoneTitle, t.profile.restoreNoneMessage);
+      }
+    } catch {
+      Alert.alert(t.profile.storeUnavailableTitle, t.profile.storeUnavailableMessage);
+    } finally {
+      setRestoring(false);
     }
   };
 
@@ -134,7 +147,7 @@ export default function ProfileScreen() {
                 onValueChange={toggleMetric}
                 trackColor={{ false: '#D1D5DB', true: '#FF6B35' }}
                 thumbColor="#FFF"
-                accessibilityLabel={`Use metric system, ${userProfile.useMetric ? 'on' : 'off'}`}
+                accessibilityLabel={t.profile.useMetric}
                 accessibilityRole="switch"
               />
             </View>
@@ -159,7 +172,7 @@ export default function ProfileScreen() {
                 onValueChange={toggleNotifications}
                 trackColor={{ false: '#D1D5DB', true: '#FF6B35' }}
                 thumbColor="#FFF"
-                accessibilityLabel={`Cooking reminders, ${notificationsOn ? 'on' : 'off'}`}
+                accessibilityLabel={t.profile.cookingReminders}
                 accessibilityRole="switch"
               />
             </View>
@@ -182,7 +195,7 @@ export default function ProfileScreen() {
               <TouchableOpacity
                 onPress={() => setShowLanguageModal(true)}
                 style={styles.changeButton}
-                accessibilityLabel={`Change language, current: ${currentLanguage?.name || 'English'}`}
+                accessibilityLabel={`${t.profile.appLanguage}: ${currentLanguage?.name || 'English'}`}
                 accessibilityRole="button"
               >
                 <Text style={styles.changeButtonText}>{t.profile.change}</Text>
@@ -250,7 +263,7 @@ export default function ProfileScreen() {
           <TouchableOpacity
             style={styles.menuButton}
             onPress={() => router.push('/submit-recipe' as any)}
-            accessibilityLabel="Submit a recipe"
+            accessibilityLabel={t.profile.submitRecipe}
             accessibilityRole="button"
           >
             <Send size={20} color="#FF6B35" />
@@ -258,15 +271,53 @@ export default function ProfileScreen() {
             <ChevronRight size={20} color="#9CA3AF" />
           </TouchableOpacity>
 
+          <View style={{ height: 8 }} />
           <TouchableOpacity
             style={styles.menuButton}
-            onPress={() => setShowCodeModal(true)}
-            accessibilityLabel="Share or enter access code"
+            onPress={handleInvite}
+            accessibilityLabel={t.profile.inviteFriends}
             accessibilityRole="button"
+            testID="profile-invite"
+          >
+            <Share2 size={20} color="#FF6B35" />
+            <Text style={styles.menuButtonText}>{t.profile.inviteFriends}</Text>
+            <ChevronRight size={20} color="#9CA3AF" />
+          </TouchableOpacity>
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>{t.profile.purchases}</Text>
+          {daysRemaining > 0 && (
+            <View style={styles.activeCodeBanner}>
+              <Check size={20} color="#10B981" />
+              <Text style={styles.activeCodeText}>
+                {t.profile.legacyUnlockActive.replace('{days}', String(daysRemaining))}
+              </Text>
+            </View>
+          )}
+          <TouchableOpacity
+            style={styles.menuButton}
+            onPress={handleRedeemOfferCode}
+            accessibilityLabel={t.profile.redeemOfferCode}
+            accessibilityRole="button"
+            testID="profile-redeem-offer-code"
           >
             <Gift size={20} color="#FF6B35" />
-            <Text style={styles.menuButtonText}>{t.profile.shareCode}</Text>
+            <Text style={styles.menuButtonText}>{t.profile.redeemOfferCode}</Text>
             <ChevronRight size={20} color="#9CA3AF" />
+          </TouchableOpacity>
+          <View style={{ height: 8 }} />
+          <TouchableOpacity
+            style={styles.menuButton}
+            onPress={handleRestore}
+            disabled={restoring}
+            accessibilityLabel={t.profile.restorePurchases}
+            accessibilityRole="button"
+            testID="profile-restore-purchases"
+          >
+            <RotateCcw size={20} color="#FF6B35" />
+            <Text style={styles.menuButtonText}>{t.profile.restorePurchases}</Text>
+            {restoring ? <ActivityIndicator size="small" color="#FF6B35" /> : <ChevronRight size={20} color="#9CA3AF" />}
           </TouchableOpacity>
         </View>
 
@@ -286,28 +337,28 @@ export default function ProfileScreen() {
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Legal</Text>
+          <Text style={styles.sectionTitle}>{t.ui.legal}</Text>
           <TouchableOpacity
             style={styles.menuButton}
             onPress={() => Linking.openURL('https://sites.google.com/mojjo.se/world-food-journey/terms-of-service')}
-            accessibilityLabel="Terms of Service"
+            accessibilityLabel={t.ui.termsOfService}
             accessibilityRole="link"
             testID="profile-terms"
           >
             <FileText size={20} color="#FF6B35" />
-            <Text style={styles.menuButtonText}>Terms of Service</Text>
+            <Text style={styles.menuButtonText}>{t.ui.termsOfService}</Text>
             <ChevronRight size={20} color="#9CA3AF" />
           </TouchableOpacity>
           <View style={{ height: 8 }} />
           <TouchableOpacity
             style={styles.menuButton}
             onPress={() => Linking.openURL('https://sites.google.com/mojjo.se/world-food-journey/privacy-policy')}
-            accessibilityLabel="Privacy Policy"
+            accessibilityLabel={t.ui.privacyPolicy}
             accessibilityRole="link"
             testID="profile-privacy"
           >
             <Shield size={20} color="#FF6B35" />
-            <Text style={styles.menuButtonText}>Privacy Policy</Text>
+            <Text style={styles.menuButtonText}>{t.ui.privacyPolicy}</Text>
             <ChevronRight size={20} color="#9CA3AF" />
           </TouchableOpacity>
         </View>
@@ -317,7 +368,7 @@ export default function ProfileScreen() {
           <TouchableOpacity
             style={styles.dangerButton}
             onPress={handleReset}
-            accessibilityLabel="Reset all progress"
+            accessibilityLabel={t.profile.resetProgress}
             accessibilityRole="button"
           >
             <Trash2 size={20} color="#EF4444" />
@@ -345,7 +396,7 @@ export default function ProfileScreen() {
               <TouchableOpacity
                 onPress={() => setShowLanguageModal(false)}
                 style={styles.modalCloseButton}
-                accessibilityLabel="Close language picker"
+                accessibilityLabel={t.ui.cancel}
                 accessibilityRole="button"
               >
                 <X size={24} color="#6B7280" />
@@ -390,85 +441,6 @@ export default function ProfileScreen() {
         </Pressable>
       </Modal>
 
-      {/* Share Code Modal */}
-      <Modal
-        visible={showCodeModal}
-        animationType="slide"
-        transparent
-        onRequestClose={() => setShowCodeModal(false)}
-      >
-        <Pressable style={styles.modalOverlay} onPress={() => setShowCodeModal(false)}>
-          <Pressable style={styles.codeModalContent} onPress={() => {}}>
-            <View style={styles.modalHandle} />
-            <View style={styles.codeModalHeader}>
-              <Text style={styles.codeModalTitle}>Share & Redeem Codes</Text>
-              <TouchableOpacity onPress={() => setShowCodeModal(false)}>
-                <X size={24} color={colors.text} />
-              </TouchableOpacity>
-            </View>
-
-            {/* Active code status */}
-            {daysRemaining > 0 && (
-              <View style={styles.activeCodeBanner}>
-                <Check size={20} color="#10B981" />
-                <Text style={styles.activeCodeText}>
-                  All recipes unlocked — {daysRemaining} {daysRemaining === 1 ? 'day' : 'days'} remaining
-                </Text>
-              </View>
-            )}
-
-            {/* Your Code */}
-            <View style={styles.codeSection}>
-              <View style={styles.codeSectionHeader}>
-                <Share2 size={18} color={colors.brand} />
-                <Text style={styles.codeSectionTitle}>Your Code</Text>
-              </View>
-              <Text style={styles.codeSectionDesc}>
-                Share this code with a friend to give them access to all recipes for 30 days:
-              </Text>
-              <View style={styles.codeDisplay}>
-                <Text style={styles.codeText}>{myCode || '...'}</Text>
-              </View>
-              <TouchableOpacity style={styles.shareCodeButton} onPress={shareMyCode}>
-                <Share2 size={18} color="#FFF" />
-                <Text style={styles.shareCodeButtonText}>Share Code</Text>
-              </TouchableOpacity>
-            </View>
-
-            {/* Redeem Code */}
-            <View style={styles.codeSection}>
-              <View style={styles.codeSectionHeader}>
-                <Key size={18} color={colors.brand} />
-                <Text style={styles.codeSectionTitle}>{t.profile.enterCodeTitle}</Text>
-              </View>
-              <Text style={styles.codeSectionDesc}>
-                {t.profile.enterCodeDesc}
-              </Text>
-              <View style={styles.redeemRow}>
-                <TextInput
-                  style={styles.redeemInput}
-                  placeholder={t.profile.enterCodePlaceholder}
-                  placeholderTextColor="#9CA3AF"
-                  value={redeemInput}
-                  onChangeText={(text) => { setRedeemInput(text.toUpperCase()); setRedeemStatus('idle'); }}
-                  autoCapitalize="characters"
-                  maxLength={6}
-                />
-                <TouchableOpacity
-                  style={[styles.redeemButton, !redeemInput.trim() && styles.redeemButtonDisabled]}
-                  onPress={handleRedeemCode}
-                  disabled={!redeemInput.trim()}
-                >
-                  <Text style={styles.redeemButtonText}>{t.profile.unlockButton}</Text>
-                </TouchableOpacity>
-              </View>
-              {redeemStatus === 'error' && (
-                <Text style={styles.redeemError}>{t.profile.invalidCode}</Text>
-              )}
-            </View>
-          </Pressable>
-        </Pressable>
-      </Modal>
     </SafeAreaView>
   );
 }
@@ -746,118 +718,5 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '600' as const,
     color: '#065F46',
-  },
-  codeModalContent: {
-    backgroundColor: colors.background,
-    borderTopLeftRadius: 24,
-    borderTopRightRadius: 24,
-    paddingTop: 12,
-    paddingBottom: 40,
-    paddingHorizontal: 24,
-    maxHeight: '85%',
-  },
-  codeModalHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: 24,
-  },
-  codeModalTitle: {
-    fontSize: 20,
-    fontWeight: '700' as const,
-    color: colors.text,
-  },
-  codeSection: {
-    marginBottom: 24,
-    backgroundColor: colors.surface,
-    borderRadius: 16,
-    padding: 20,
-  },
-  codeSectionHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    marginBottom: 8,
-  },
-  codeSectionTitle: {
-    fontSize: 17,
-    fontWeight: '600' as const,
-    color: colors.text,
-  },
-  codeSectionDesc: {
-    fontSize: 14,
-    color: colors.textSecondary,
-    lineHeight: 20,
-    marginBottom: 16,
-  },
-  codeDisplay: {
-    backgroundColor: colors.surfaceAlt,
-    borderRadius: 12,
-    paddingVertical: 16,
-    paddingHorizontal: 24,
-    alignItems: 'center',
-    borderWidth: 2,
-    borderColor: colors.brand,
-    borderStyle: 'dashed',
-    marginBottom: 16,
-  },
-  codeText: {
-    fontSize: 32,
-    fontWeight: '800' as const,
-    color: colors.brand,
-    letterSpacing: 6,
-  },
-  shareCodeButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    gap: 8,
-    backgroundColor: colors.brand,
-    paddingVertical: 14,
-    borderRadius: 12,
-  },
-  shareCodeButtonText: {
-    color: '#FFF',
-    fontSize: 16,
-    fontWeight: '600' as const,
-  },
-  redeemRow: {
-    flexDirection: 'row',
-    gap: 12,
-    alignItems: 'center',
-  },
-  redeemInput: {
-    flex: 1,
-    backgroundColor: colors.surfaceAlt,
-    borderRadius: 12,
-    paddingVertical: 14,
-    paddingHorizontal: 16,
-    fontSize: 18,
-    fontWeight: '600' as const,
-    color: colors.text,
-    letterSpacing: 4,
-    textAlign: 'center',
-    borderWidth: 1,
-    borderColor: colors.border,
-  },
-  redeemButton: {
-    backgroundColor: colors.brand,
-    paddingVertical: 14,
-    paddingHorizontal: 24,
-    borderRadius: 12,
-  },
-  redeemButtonDisabled: {
-    opacity: 0.5,
-  },
-  redeemButtonText: {
-    color: '#FFF',
-    fontSize: 16,
-    fontWeight: '600' as const,
-  },
-  redeemError: {
-    color: '#EF4444',
-    fontSize: 13,
-    marginTop: 8,
-    textAlign: 'center',
   },
 });

@@ -22,9 +22,14 @@ import IngredientSubstitutions from '@/components/IngredientSubstitutions';
 import CookedPhotoGallery from '@/components/CookedPhotoGallery';
 import { enrichWithSubstitutions } from '@/lib/substitutions';
 import { useTranslation } from '@/lib/i18n';
+import { useStrings, fill } from '@/lib/strings';
+import { paywallStrings } from '@/lib/strings/paywall';
+import LockedDishCard from '@/components/country/LockedDishCard';
+import LockedPanel from '@/components/country/LockedPanel';
 import colors from '@/constants/colors';
 import type { Country, CountryProgress } from '@/types';
 import type { TranslatedCountry } from '@/lib/use-translated-country';
+import { formatAmount } from '@/lib/format-amount';
 
 // Enable LayoutAnimation on Android
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
@@ -55,6 +60,9 @@ type RecipesTabProps = {
   onShareCookedPhoto: (recipeName: string, photoUri?: string) => void;
   onStartCookingMode: (steps: string[], name: string, isDessert: boolean) => void;
   isRecipeFavorite: (recipeId: string) => boolean;
+  /** Locked country: show the dishes as a teaser and hide the recipe body. */
+  locked?: boolean;
+  onUnlockPress?: () => void;
 };
 
 export default function RecipesTab({
@@ -81,8 +89,11 @@ export default function RecipesTab({
   onShareCookedPhoto,
   onStartCookingMode,
   isRecipeFavorite,
+  locked = false,
+  onUnlockPress,
 }: RecipesTabProps) {
   const { t } = useTranslation();
+  const s = useStrings(paywallStrings);
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
 
@@ -95,6 +106,46 @@ export default function RecipesTab({
 
   const mainExpanded = expandedDish === 'main';
   const dessertExpanded = expandedDish === 'dessert';
+
+  if (locked) {
+    const openPaywall = () => onUnlockPress?.();
+    return (
+      <View style={styles.tabContent}>
+        {country.mainDish && (
+          <LockedDishCard
+            sectionTitle={t.country.mainDish}
+            recipe={country.mainDish}
+            difficulty={countryData?.mainDish?.difficulty}
+            showDietType
+            minutesLabel={t.common.minutes}
+            statsLabel={s.recipeStats(country.mainDish.ingredients.length, country.mainDish.steps.length)}
+            hint={s.unlockToSeeRecipe}
+            onPress={openPaywall}
+          />
+        )}
+        {country.dessert && (
+          <LockedDishCard
+            sectionTitle={t.country.dessert}
+            recipe={country.dessert}
+            difficulty={countryData?.dessert?.difficulty}
+            minutesLabel={t.common.minutes}
+            statsLabel={s.recipeStats(country.dessert.ingredients.length, country.dessert.steps.length)}
+            hint={s.unlockToSeeRecipe}
+            onPress={openPaywall}
+          />
+        )}
+        <View style={styles.lockedPanelSpacer} />
+        <LockedPanel
+          title={s.recipesLockedTitle}
+          body={s.recipesLockedBody}
+          perks={[s.recipesPerkServings, s.recipesPerkCookingMode, s.recipesPerkExtras]}
+          ctaLabel={fill(s.unlockCountry, { country: country.name })}
+          onPress={openPaywall}
+          testID="recipes-locked-panel"
+        />
+      </View>
+    );
+  }
 
   return (
     <View style={styles.tabContent}>
@@ -175,7 +226,7 @@ export default function RecipesTab({
                   <Text style={styles.subheading}>{t.country.ingredients}</Text>
                   {(country.mainDish.ingredients || []).map((ing, idx) => (
                     <Text key={idx} style={styles.ingredientText}>
-                      {'\u2022'} {(ing.amount * mainServingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
+                      {'\u2022'} {formatAmount(ing.amount * mainServingsMultiplier)} {ing.unit} {ing.name}
                     </Text>
                   ))}
                   {countryData?.mainDish && (
@@ -202,7 +253,7 @@ export default function RecipesTab({
                       }
                     >
                       <ChefHat size={16} color="#FFF" />
-                      <Text style={styles.startCookingText}>Cook</Text>
+                      <Text style={styles.startCookingText}>{t.ui.cook}</Text>
                     </TouchableOpacity>
                   </View>
                   {(country.mainDish?.steps || []).map((step, idx) => (
@@ -381,7 +432,7 @@ export default function RecipesTab({
                   <Text style={styles.subheading}>{t.country.ingredients}</Text>
                   {(country.dessert?.ingredients || []).map((ing, idx) => (
                     <Text key={idx} style={styles.ingredientText}>
-                      {'\u2022'} {(ing.amount * dessertServingsMultiplier).toFixed(1)} {ing.unit} {ing.name}
+                      {'\u2022'} {formatAmount(ing.amount * dessertServingsMultiplier)} {ing.unit} {ing.name}
                     </Text>
                   ))}
                   {countryData?.dessert && (
@@ -406,7 +457,7 @@ export default function RecipesTab({
                       }
                     >
                       <ChefHat size={16} color="#FFF" />
-                      <Text style={styles.startCookingText}>Cook</Text>
+                      <Text style={styles.startCookingText}>{t.ui.cook}</Text>
                     </TouchableOpacity>
                   </View>
                   {(country.dessert?.steps || []).map((step, idx) => (
@@ -581,6 +632,9 @@ export default function RecipesTab({
 const styles = StyleSheet.create({
   tabContent: {
     flex: 1,
+  },
+  lockedPanelSpacer: {
+    height: 12,
   },
   section: {
     paddingHorizontal: 20,

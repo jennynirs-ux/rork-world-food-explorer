@@ -1,5 +1,8 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { getDifficultyInfo } from '@/lib/nutrition';
+import { useTranslation } from '@/lib/i18n';
+
+const LABEL_KEYS = { easy: 'difficultyEasy', medium: 'difficultyMedium', hard: 'difficultyHard' } as const;
 
 interface DifficultyBadgeProps {
   difficulty?: 'easy' | 'medium' | 'hard';
@@ -7,13 +10,15 @@ interface DifficultyBadgeProps {
 }
 
 export default function DifficultyBadge({ difficulty, size = 'normal' }: DifficultyBadgeProps) {
+  const { t } = useTranslation();
   const info = getDifficultyInfo(difficulty);
+  const label = difficulty ? t.ui[LABEL_KEYS[difficulty]] : info.label;
   const isSmall = size === 'small';
 
   return (
     <View style={[styles.badge, { backgroundColor: info.bgColor }, isSmall && styles.badgeSmall]}>
       <Text style={[styles.label, { color: info.color }, isSmall && styles.labelSmall]}>
-        {info.label}
+        {label}
       </Text>
     </View>
   );

@@ -47,7 +47,7 @@ export default function CollectionsScreen() {
 
   const navigateToCountry = (countryId: string) => {
     hapticLight();
-    router.push(`/(tabs)/country/${countryId}`);
+    router.push({ pathname: '/country/[id]' as any, params: { id: countryId } });
   };
 
   return (

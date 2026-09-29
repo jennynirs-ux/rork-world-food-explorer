@@ -1,10 +1,13 @@
 import { Recipe, NutritionInfo } from '@/types';
+import { findKeyMatches, ingredientCoreWords, normalizeIngredientText } from '@/lib/substitutions';
+
+type NutritionValues = { cal: number; p: number; c: number; f: number; fi?: number };
 
 /**
  * Approximate nutrition database keyed by lowercase English ingredient keyword.
  * Values are per 100g: { calories, protein, carbs, fat, fiber }.
  */
-const NUTRITION_DB: Record<string, { cal: number; p: number; c: number; f: number; fi?: number }> = {
+const NUTRITION_DB: Record<string, NutritionValues> = {
   // Proteins
   beef: { cal: 250, p: 26, c: 0, f: 15 },
   pork: { cal: 242, p: 27, c: 0, f: 14 },
@@ -113,6 +116,50 @@ const NUTRITION_DB: Record<string, { cal: number; p: number; c: number; f: numbe
   basil: { cal: 23, p: 3.2, c: 2.7, f: 0.6, fi: 1.6 },
   thyme: { cal: 101, p: 5.6, c: 24, f: 1.7, fi: 14 },
   oregano: { cal: 265, p: 9, c: 69, f: 4.3, fi: 42.5 },
+  'curry powder': { cal: 325, p: 14, c: 58, f: 14 },
+  'chili powder': { cal: 282, p: 13.5, c: 50, f: 14 },
+
+  // Products whose name contains another keyword ("coconut milk" is not milk)
+  'coconut milk': { cal: 197, p: 2, c: 2.8, f: 21 },
+  'coconut cream': { cal: 330, p: 3.6, c: 6.7, f: 35 },
+  'coconut oil': { cal: 892, p: 0, c: 0, f: 99 },
+  'palm oil': { cal: 884, p: 0, c: 0, f: 100 },
+  'peanut oil': { cal: 884, p: 0, c: 0, f: 100 },
+  'peanut butter': { cal: 588, p: 25, c: 20, f: 50, fi: 6 },
+  'sweet potato': { cal: 86, p: 1.6, c: 20, f: 0.1, fi: 3 },
+  'rice flour': { cal: 366, p: 6, c: 80, f: 1.4, fi: 2.4 },
+  'rice noodle': { cal: 109, p: 0.9, c: 25, f: 0.2, fi: 1 },
+  'cream cheese': { cal: 342, p: 6, c: 4, f: 34 },
+  'sour cream': { cal: 193, p: 2.4, c: 4.6, f: 19 },
+  'condensed milk': { cal: 321, p: 7.9, c: 54, f: 8.7 },
+  'evaporated milk': { cal: 134, p: 6.8, c: 10, f: 7.6 },
+  'ice cream': { cal: 207, p: 3.5, c: 24, f: 11 },
+  'soy sauce': { cal: 53, p: 8, c: 5, f: 0.6 },
+  'fish sauce': { cal: 35, p: 5, c: 3.6, f: 0 },
+  'tomato paste': { cal: 82, p: 4.3, c: 19, f: 0.5, fi: 4.1 },
+  'powdered sugar': { cal: 389, p: 0, c: 100, f: 0 },
+  'icing sugar': { cal: 389, p: 0, c: 100, f: 0 },
+  'palm sugar': { cal: 375, p: 0, c: 97, f: 0 },
+  stock: { cal: 7, p: 1, c: 0.5, f: 0.2 },
+  broth: { cal: 7, p: 1, c: 0.5, f: 0.2 },
+};
+
+const NUTRITION_KEYS = Object.entries(NUTRITION_DB).map(([key, value]) => ({
+  key: normalizeIngredientText(key),
+  value,
+}));
+
+/** A keyword followed/preceded by these words is a different food ("chicken stock", "coconut milk"). */
+const NUTRITION_RULES = {
+  after: new Set([
+    'of', 'oil', 'flour', 'vinegar', 'wine', 'milk', 'cream', 'butter', 'cheese', 'powder',
+    'paste', 'sauce', 'stock', 'broth', 'bouillon', 'cube', 'extract', 'essence', 'syrup',
+    'noodle', 'water', 'leaf', 'leaves', 'starch', 'jam', 'juice', 'bone', 'bean', 'sugar',
+  ]),
+  before: new Set([
+    'coconut', 'peanut', 'almond', 'cashew', 'hazelnut', 'nut', 'palm', 'cocoa', 'shea', 'soy',
+    'sweet', 'sour', 'ice', 'cream', 'powdered', 'icing', 'condensed', 'evaporated', 'sweetened',
+  ]),
 };
 
 /**
@@ -156,17 +203,11 @@ function toGrams(amount: number, unit: string): number {
  * Match an ingredient name to our nutrition DB.
  * Returns null if no match found.
  */
-function matchIngredient(name: string): { cal: number; p: number; c: number; f: number; fi?: number } | null {
-  const lower = name.toLowerCase();
-
-  // Direct key match
-  for (const key of Object.keys(NUTRITION_DB)) {
-    if (lower.includes(key)) {
-      return NUTRITION_DB[key];
-    }
-  }
-
-  return null;
+function matchIngredient(name: string): NutritionValues | null {
+  // Whole-word match, most specific key first: "eggplant" is not "egg",
+  // "boiling water" is not "oil", "goat" is not "oat", "black pepper" beats "pepper".
+  const [best] = findKeyMatches(ingredientCoreWords(name), NUTRITION_KEYS, NUTRITION_RULES);
+  return best ? best.value : null;
 }
 
 /**

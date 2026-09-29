@@ -20,8 +20,10 @@ import {
   Check,
   ChefHat,
 } from 'lucide-react-native';
+import * as Notifications from 'expo-notifications';
 import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { hapticLight, hapticMedium, hapticSuccess } from '@/lib/haptics';
+import { useTranslation } from '@/lib/i18n';
 
 interface CookingModeProps {
   visible: boolean;
@@ -38,6 +40,7 @@ export default function CookingMode({
   recipeName,
   onComplete,
 }: CookingModeProps) {
+  const { t } = useTranslation();
   // Keep screen awake — wrapped in try/catch for sandboxed web environments
   useEffect(() => {
     if (!visible) return;
@@ -54,6 +57,27 @@ export default function CookingMode({
   const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set());
   const fadeAnim = useRef(new Animated.Value(1)).current;
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  // Wall-clock end time, so the countdown stays correct while the app is in
+  // the background (JS intervals are paused there).
+  const endAtRef = useRef(0);
+  const notificationIdRef = useRef<string | null>(null);
+
+  const cancelTimerNotification = useCallback(() => {
+    const id = notificationIdRef.current;
+    notificationIdRef.current = null;
+    if (id) Notifications.cancelScheduledNotificationAsync(id).catch(() => {});
+  }, []);
+
+  const scheduleTimerNotification = useCallback((seconds: number) => {
+    cancelTimerNotification();
+    if (Platform.OS === 'web' || seconds <= 0) return;
+    Notifications.scheduleNotificationAsync({
+      content: { title: t.ui.timesUp, body: recipeName, sound: true },
+      trigger: { type: Notifications.SchedulableTriggerInputTypes.TIME_INTERVAL, seconds },
+    })
+      .then(id => { notificationIdRef.current = id; })
+      .catch(() => {});
+  }, [cancelTimerNotification, recipeName, t.ui.timesUp]);
 
   // Reset state when modal opens
   useEffect(() => {
@@ -70,21 +94,26 @@ export default function CookingMode({
   useEffect(() => {
     if (timerRunning) {
       intervalRef.current = setInterval(() => {
-        setTimerSeconds(prev => {
-          if (prev <= 1) {
-            setTimerRunning(false);
-            Vibration.vibrate([0, 500, 200, 500, 200, 500]);
-            hapticSuccess();
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
+        const remaining = Math.max(0, Math.ceil((endAtRef.current - Date.now()) / 1000));
+        setTimerSeconds(remaining);
+        if (remaining === 0) {
+          setTimerRunning(false);
+          notificationIdRef.current = null;
+          Vibration.vibrate([0, 500, 200, 500, 200, 500]);
+          hapticSuccess();
+        }
+      }, 500);
     }
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
   }, [timerRunning]);
+
+  // Closing cooking mode cancels a pending "time's up" notification.
+  useEffect(() => {
+    if (!visible) cancelTimerNotification();
+    return cancelTimerNotification;
+  }, [visible, cancelTimerNotification]);
 
   const animateTransition = useCallback((direction: 'next' | 'prev') => {
     Animated.sequence([
@@ -125,22 +154,32 @@ export default function CookingMode({
   const startTimer = useCallback((minutes: number) => {
     hapticLight();
     const secs = minutes * 60;
+    endAtRef.current = Date.now() + secs * 1000;
     setTimerTarget(secs);
     setTimerSeconds(secs);
     setTimerRunning(true);
-  }, []);
+    scheduleTimerNotification(secs);
+  }, [scheduleTimerNotification]);
 
   const toggleTimer = useCallback(() => {
     hapticLight();
-    setTimerRunning(prev => !prev);
-  }, []);
+    if (timerRunning) {
+      cancelTimerNotification();
+      setTimerRunning(false);
+    } else if (timerSeconds > 0) {
+      endAtRef.current = Date.now() + timerSeconds * 1000;
+      scheduleTimerNotification(timerSeconds);
+      setTimerRunning(true);
+    }
+  }, [timerRunning, timerSeconds, cancelTimerNotification, scheduleTimerNotification]);
 
   const resetTimer = useCallback(() => {
     hapticLight();
+    cancelTimerNotification();
     setTimerRunning(false);
     setTimerSeconds(0);
     setTimerTarget(0);
-  }, []);
+  }, [cancelTimerNotification]);
 
   const formatTime = (secs: number) => {
     const m = Math.floor(secs / 60);
@@ -174,7 +213,7 @@ export default function CookingMode({
           <View style={styles.headerCenter}>
             <Text style={styles.recipeTitleSmall} numberOfLines={1}>{recipeName}</Text>
             <Text style={styles.stepCounter}>
-              Step {currentStep + 1} of {steps.length}
+              {t.ui.stepOf.replace('{current}', String(currentStep + 1)).replace('{total}', String(steps.length))}
             </Text>
           </View>
           <View style={styles.closeButton} />
@@ -196,7 +235,7 @@ export default function CookingMode({
 
         {/* Step content */}
         <Animated.View style={[styles.stepContainer, { opacity: fadeAnim }]}>
-          <Text style={styles.stepNumber}>Step {currentStep + 1}</Text>
+          <Text style={styles.stepNumber}>{t.ui.stepN.replace('{n}', String(currentStep + 1))}</Text>
           <Text style={styles.stepText}>{steps[currentStep]}</Text>
 
           {/* Quick timer suggestion */}
@@ -207,7 +246,7 @@ export default function CookingMode({
             >
               <Timer size={20} color="#FF6B35" />
               <Text style={styles.timerSuggestionText}>
-                Start {stepMinutes} min timer
+                {t.ui.startTimer.replace('{minutes}', String(stepMinutes))}
               </Text>
             </TouchableOpacity>
           )}
@@ -227,7 +266,7 @@ export default function CookingMode({
                 completedSteps.has(currentStep) && styles.completeStepTextDone,
               ]}
             >
-              {completedSteps.has(currentStep) ? 'Done' : 'Mark done'}
+              {completedSteps.has(currentStep) ? t.ui.stepDone : t.ui.markDone}
             </Text>
           </TouchableOpacity>
         </Animated.View>
@@ -236,7 +275,7 @@ export default function CookingMode({
         {timerTarget > 0 && (
           <View style={styles.timerContainer}>
             <Text style={[styles.timerDisplay, timerSeconds === 0 && styles.timerDone]}>
-              {timerSeconds === 0 ? "Time's up!" : formatTime(timerSeconds)}
+              {timerSeconds === 0 ? t.ui.timesUp : formatTime(timerSeconds)}
             </Text>
             <View style={styles.timerControls}>
               {timerSeconds > 0 ? (
@@ -280,7 +319,7 @@ export default function CookingMode({
           >
             <ChevronLeft size={32} color={currentStep === 0 ? '#4B5563' : '#FFF'} />
             <Text style={[styles.navText, currentStep === 0 && styles.navTextDisabled]}>
-              Previous
+              {t.ui.previous}
             </Text>
           </TouchableOpacity>
 
@@ -291,12 +330,12 @@ export default function CookingMode({
             >
               <ChefHat size={28} color="#FFF" />
               <Text style={styles.finishText}>
-                {allDone ? 'All Done!' : 'Finish'}
+                {allDone ? t.ui.allDone : t.ui.finish}
               </Text>
             </TouchableOpacity>
           ) : (
             <TouchableOpacity style={styles.navButton} onPress={goNext}>
-              <Text style={styles.navText}>Next</Text>
+              <Text style={styles.navText}>{t.ui.next}</Text>
               <ChevronRight size={32} color="#FFF" />
             </TouchableOpacity>
           )}

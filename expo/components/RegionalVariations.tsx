@@ -4,6 +4,7 @@ import { Globe, ChevronDown, ChevronUp, MapPin } from 'lucide-react-native';
 import { DishVariation, Country } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 import colors from '@/constants/colors';
+import { useTranslation } from '@/lib/i18n';
 
 interface RegionalVariationsProps {
   variations: DishVariation[];
@@ -18,6 +19,7 @@ export default function RegionalVariations({
   lang = 'en',
   onCountryPress,
 }: RegionalVariationsProps) {
+  const { t } = useTranslation();
   const [expandedIdx, setExpandedIdx] = useState<number | null>(null);
 
   if (variations.length === 0) return null;
@@ -26,7 +28,7 @@ export default function RegionalVariations({
     <View style={styles.container}>
       <View style={styles.header}>
         <Globe size={16} color={colors.blue} />
-        <Text style={styles.title}>Same Dish, Different Countries</Text>
+        <Text style={styles.title}>{t.ui.variationsTitle}</Text>
       </View>
 
       {variations.map((variation, idx) => {

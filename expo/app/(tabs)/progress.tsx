@@ -1,34 +1,72 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, ActivityIndicator } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
+import { useStrings } from '@/lib/strings';
+import { shareStrings } from '@/lib/strings/share';
 import { Trophy, Flame, Award as AwardIcon, Globe, Share2, ChefHat } from 'lucide-react-native';
-import { shareProgress } from '@/lib/share';
+import {
+  countCookedCountries,
+  localizeBadge,
+  selectPassportFlags,
+  shareBadge,
+  shareProgress,
+} from '@/lib/share';
+import { PASSPORT_MAX_FLAGS, useShareCard } from '@/components/share/ShareCard';
 import { hapticLight } from '@/lib/haptics';
 import colors from '@/constants/colors';
-
-// Convert hyphenated badge id to camelCase for i18n lookup
-const badgeKey = (id: string) => id.replace(/-([a-z])/g, (_, c: string) => c.toUpperCase());
+import type { Badge } from '@/types';
 
 export default function ProgressScreen() {
   const router = useRouter();
-  const { stats, badges, userProfile } = useApp();
-  const { t } = useTranslation();
+  const { stats, badges, userProfile, countries, countryProgress } = useApp();
+  const { t, language } = useTranslation();
+  const s = useStrings(shareStrings);
+  const { shareCard, shareCardHost, isSharing } = useShareCard();
 
   const earnedBadges = badges.filter(b => b.earned);
   const unearnedBadges = badges.filter(b => !b.earned);
 
   const handleShare = () => {
     hapticLight();
-    void shareProgress({
-      visitedCountries: stats.visitedCountries,
-      totalCountries: stats.totalCountries,
-      dishesCooked: stats.cookedDishes,
-      quizzesDone: stats.completedQuizzes,
-      totalPoints: userProfile.totalPoints,
-      dayStreak: userProfile.currentStreak || 0,
-    });
+    const { flags, more } = selectPassportFlags(countries, countryProgress, PASSPORT_MAX_FLAGS);
+    void shareCard(
+      {
+        variant: 'progress',
+        cookedCountries: countCookedCountries(countryProgress),
+        visitedCountries: stats.visitedCountries,
+        completedCountries: stats.completedCountries,
+        totalCountries: stats.totalCountries,
+        dishesCooked: stats.cookedDishes,
+        streak: stats.currentStreak,
+        flags,
+        moreFlags: more,
+      },
+      () => shareProgress({
+        visitedCountries: stats.visitedCountries,
+        totalCountries: stats.totalCountries,
+        dishesCooked: stats.cookedDishes,
+        quizzesDone: stats.completedQuizzes,
+        totalPoints: userProfile.totalPoints,
+        dayStreak: stats.currentStreak,
+      }, language),
+    );
+  };
+
+  const handleShareBadge = (badge: Badge) => {
+    hapticLight();
+    const text = localizeBadge(t.badges, badge);
+    void shareCard(
+      {
+        variant: 'badge',
+        name: text.name,
+        description: text.description,
+        icon: badge.icon,
+        earnedDate: badge.earnedDate,
+      },
+      () => shareBadge(text, language),
+    );
   };
 
   return (
@@ -40,10 +78,16 @@ export default function ProgressScreen() {
             <TouchableOpacity
               style={styles.shareHeaderButton}
               onPress={handleShare}
-              accessibilityLabel="Share progress"
+              disabled={isSharing}
+              accessibilityLabel={s.shareProgress}
               accessibilityRole="button"
+              accessibilityState={{ busy: isSharing }}
             >
-              <Share2 size={20} color="#FF6B35" />
+              {isSharing ? (
+                <ActivityIndicator size="small" color="#FF6B35" />
+              ) : (
+                <Share2 size={20} color="#FF6B35" />
+              )}
             </TouchableOpacity>
           </View>
           <View style={styles.pointsContainer}>
@@ -58,7 +102,7 @@ export default function ProgressScreen() {
               <Flame size={32} color="#FF6B35" strokeWidth={2} />
             </View>
             <View style={styles.streakInfo}>
-              <Text style={styles.streakValue}>{userProfile.currentStreak || 0}</Text>
+              <Text style={styles.streakValue}>{stats.currentStreak}</Text>
               <Text style={styles.streakLabel}>{t.progress.dayStreak}</Text>
             </View>
           </View>
@@ -101,7 +145,7 @@ export default function ProgressScreen() {
             <TouchableOpacity
               style={styles.exploreCtaButton}
               onPress={() => router.push('/(tabs)')}
-              accessibilityLabel="Explore your first country"
+              accessibilityLabel={t.progress.exploreCta}
               accessibilityRole="button"
             >
               <Text style={styles.exploreCtaText}>{t.progress.exploreCta}</Text>
@@ -139,20 +183,27 @@ export default function ProgressScreen() {
             <View style={styles.badgesGrid}>
               {earnedBadges.map(badge => {
                 const Icon = badge.icon || AwardIcon;
+                const text = localizeBadge(t.badges, badge);
                 return (
-                  <View
+                  <TouchableOpacity
                     key={badge.id}
                     style={styles.badgeCard}
-                    accessibilityLabel={`Earned badge: ${(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.name || badge.name}, ${(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.description || badge.description}`}
+                    onPress={() => handleShareBadge(badge)}
+                    disabled={isSharing}
+                    activeOpacity={0.75}
+                    accessibilityRole="button"
+                    accessibilityLabel={`${text.name}, ${text.description}`}
+                    accessibilityHint={s.shareBadge}
                   >
                     <View style={styles.badgeIconContainer}>
                       <Icon size={32} color="#FF6B35" strokeWidth={2} />
                     </View>
                     <View style={styles.badgeTextContainer}>
-                      <Text style={styles.badgeName}>{(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.name || badge.name}</Text>
-                      <Text style={styles.badgeDescription}>{(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.description || badge.description}</Text>
+                      <Text style={styles.badgeName}>{text.name}</Text>
+                      <Text style={styles.badgeDescription}>{text.description}</Text>
                     </View>
-                  </View>
+                    <Share2 size={18} color="#FF6B35" />
+                  </TouchableOpacity>
                 );
               })}
             </View>
@@ -165,18 +216,19 @@ export default function ProgressScreen() {
             <View style={styles.badgesGrid}>
               {unearnedBadges.map(badge => {
                 const Icon = badge.icon || AwardIcon;
+                const text = localizeBadge(t.badges, badge);
                 return (
                   <View
                     key={badge.id}
                     style={[styles.badgeCard, styles.badgeCardLocked]}
-                    accessibilityLabel={`Locked badge: ${(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.name || badge.name}, ${(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.description || badge.description}`}
+                    accessibilityLabel={`${t.progress.lockedBadges}: ${text.name}, ${text.description}`}
                   >
                     <View style={styles.badgeIconContainer}>
                       <Icon size={32} color="#9CA3AF" strokeWidth={2} />
                     </View>
                     <View style={styles.badgeTextContainer}>
-                      <Text style={styles.badgeNameLocked}>{(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.name || badge.name}</Text>
-                      <Text style={styles.badgeDescriptionLocked}>{(t.badges as Record<string, { name: string; description: string }>)[badgeKey(badge.id)]?.description || badge.description}</Text>
+                      <Text style={styles.badgeNameLocked}>{text.name}</Text>
+                      <Text style={styles.badgeDescriptionLocked}>{text.description}</Text>
                     </View>
                   </View>
                 );
@@ -187,6 +239,7 @@ export default function ProgressScreen() {
 
         <View style={{ height: 20 }} />
       </ScrollView>
+      {shareCardHost}
     </SafeAreaView>
   );
 }

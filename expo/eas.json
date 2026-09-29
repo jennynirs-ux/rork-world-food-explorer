@@ -11,7 +11,7 @@
         "simulator": true
       },
       "env": {
-        "EXPO_PUBLIC_RORK_API_BASE_URL": "http://localhost:3000"
+        "EXPO_PUBLIC_APP_ENV": "development"
       }
     },
     "preview": {
@@ -21,7 +21,7 @@
       },
       "channel": "staging",
       "env": {
-        "EXPO_PUBLIC_RORK_API_BASE_URL": "https://staging-api.worldfoodexplorer.app",
+        "EXPO_PUBLIC_APP_ENV": "staging",
         "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "appl_xFpFRwUKzKxFBgSfCNZnJxMLgOm",
         "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": "goog_bAoukABlCjPezXevSyQaNJSoBCO"
       }
@@ -29,7 +29,7 @@
     "production": {
       "autoIncrement": true,
       "env": {
-        "EXPO_PUBLIC_RORK_API_BASE_URL": "https://api.worldfoodexplorer.app",
+        "EXPO_PUBLIC_APP_ENV": "production",
         "EXPO_PUBLIC_REVENUECAT_IOS_KEY": "appl_xFpFRwUKzKxFBgSfCNZnJxMLgOm",
         "EXPO_PUBLIC_REVENUECAT_ANDROID_KEY": "goog_bAoukABlCjPezXevSyQaNJSoBCO"
       }

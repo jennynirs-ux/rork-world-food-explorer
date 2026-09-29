@@ -2,6 +2,24 @@ import { Country } from '@/types';
 import { PRODUCT_IDS, CONTINENT_TO_PRODUCT_MAP } from '@/constants/monetization';
 import { translateContent } from '@/lib/translate-content';
 
+/**
+ * Legacy 30-day unlock from the old share-code system. New codes can no
+ * longer be redeemed; this only honours unlocks that haven't expired yet.
+ */
+export const LEGACY_CODE_UNLOCK = 'code_unlock_all';
+
+/**
+ * Continent packs that unlock a country. Transcontinental countries
+ * ("Europe/Asia") are unlocked by either pack.
+ */
+export function getProductsForCountry(country: Country): string[] {
+  const continents = translateContent(country.continent, 'en').split('/').map(c => c.trim());
+  const products = continents
+    .map(c => CONTINENT_TO_PRODUCT_MAP[c])
+    .filter((p): p is string => !!p);
+  return [...new Set(products)];
+}
+
 export function isCountryAccessible(
   country: Country,
   purchasedProducts: string[]
@@ -14,28 +32,18 @@ export function isCountryAccessible(
     return true;
   }
 
-  // Temporary access from share code (30 days)
-  if (purchasedProducts.includes('code_unlock_all')) {
+  if (purchasedProducts.includes(LEGACY_CODE_UNLOCK)) {
     return true;
   }
 
-  const continent = translateContent(country.continent, 'en');
-  const continentProduct = CONTINENT_TO_PRODUCT_MAP[continent];
-  if (continentProduct && purchasedProducts.includes(continentProduct)) {
-    return true;
-  }
-
-  return false;
+  return getProductsForCountry(country).some(p => purchasedProducts.includes(p));
 }
 
 export function getRequiredProductForCountry(country: Country): string | null {
   if (country.isUnlockedByDefault) {
     return null;
   }
-
-  const continent = translateContent(country.continent, 'en');
-  const continentProduct = CONTINENT_TO_PRODUCT_MAP[continent];
-  return continentProduct || null;
+  return getProductsForCountry(country)[0] ?? null;
 }
 
 export function getLockedCountriesCount(
@@ -52,14 +60,16 @@ export function getAccessibleCountriesCount(
   return countries.filter(country => isCountryAccessible(country, purchasedProducts)).length;
 }
 
+/**
+ * Countries a continent pack unlocks, including transcontinental ones.
+ */
 export function getCountriesByContinent(
   countries: Country[],
   continent: string
 ): Country[] {
-  if (continent === 'Americas') {
-    return countries.filter(
-      c => translateContent(c.continent, 'en') === 'North America' || translateContent(c.continent, 'en') === 'South America'
-    );
-  }
-  return countries.filter(c => translateContent(c.continent, 'en') === continent);
+  const product = continent === 'Americas'
+    ? PRODUCT_IDS.UNLOCK_AMERICAS
+    : CONTINENT_TO_PRODUCT_MAP[continent];
+  if (!product) return [];
+  return countries.filter(c => getProductsForCountry(c).includes(product));
 }

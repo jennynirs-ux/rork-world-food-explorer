@@ -2,17 +2,18 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import createContextHook from '@nkzw/create-context-hook';
 import { CountryProgress, UserProfile, ShoppingListItem, Badge, FavoriteRecipe, MealPlan } from '@/types';
-import { countries as localCountries } from '@/data/countries';
+import { countries } from '@/data/countries';
 import { allBadges } from '@/data/badges';
-import { trpc } from '@/lib/trpc';
 import { translateContent } from '@/lib/translate-content';
-import { configurePurchases, getCustomerInfo } from '@/lib/purchases';
-import { filterValidCountries } from '@/lib/validate-country';
-import { initializeNotifications } from '@/lib/notifications';
+import { configurePurchases, getCustomerInfo, addOwnedProductsListener } from '@/lib/purchases';
+import { initializeNotifications, refreshStreakReminder } from '@/lib/notifications';
+import { getPlannedRecipe } from '@/lib/grocery-export';
 import { cache } from '@/lib/cache';
 import { calculateSkillLevel } from '@/lib/nutrition';
-import { hasActiveRedeemedCode, redeemShareCode, getOrCreateShareCode, shareCode } from '@/lib/share-codes';
-import { maybeAskForReview } from '@/lib/review-prompt';
+import { hasActiveLegacyCodeUnlock } from '@/lib/legacy-code-unlock';
+import { LEGACY_CODE_UNLOCK } from '@/lib/access-control';
+import { PRODUCT_IDS } from '@/constants/monetization';
+import { trackPositiveAction } from '@/lib/rating';
 
 const STORAGE_KEYS = {
   USER_PROFILE: '@world_cooking_user_profile',
@@ -25,6 +26,27 @@ const STORAGE_KEYS = {
 };
 
 type ProgressState = Record<string, CountryProgress>;
+
+const STORE_PRODUCT_IDS = Object.values(PRODUCT_IDS) as string[];
+
+/** Parse one stored value; a corrupt key falls back instead of wiping the rest. */
+function safeParse<T>(raw: string | null, fallback: T): T {
+  if (!raw) return fallback;
+  try {
+    return JSON.parse(raw) as T;
+  } catch {
+    return fallback;
+  }
+}
+
+/** Calendar day number in the user's local time zone. */
+function localDayNumber(date: Date): number {
+  return Math.floor((date.getTime() - date.getTimezoneOffset() * 60000) / 86400000);
+}
+
+function sameSet(a: string[], b: string[]): boolean {
+  return a.length === b.length && a.every(x => b.includes(x));
+}
 
 export const [AppProvider, useApp] = createContextHook(() => {
   const [userProfile, setUserProfile] = useState<UserProfile>({
@@ -42,83 +64,34 @@ export const [AppProvider, useApp] = createContextHook(() => {
   );
   const [favoriteRecipes, setFavoriteRecipes] = useState<FavoriteRecipe[]>([]);
   const [mealPlans, setMealPlans] = useState<MealPlan[]>([]);
-  const [countries, setCountries] = useState(localCountries);
   const [isLoading, setIsLoading] = useState(true);
-
-  const countriesQuery = trpc.countries.getAll.useQuery(undefined, {
-    refetchOnWindowFocus: false,
-    refetchOnMount: false,
-  });
-
-  const [hasInitialized, setHasInitialized] = useState(false);
   const [userId, setUserId] = useState<string>('');
-  const [referralStats, setReferralStats] = useState({ referralCount: 0, completedCount: 0, freeMonthsEarned: 0 });
 
-  const referralCodeQuery = trpc.referrals.getCode.useQuery(
-    { userId },
-    { enabled: !!userId, refetchOnWindowFocus: false, refetchOnMount: false }
-  );
-
-  const referralStatsQuery = trpc.referrals.getStats.useQuery(
-    { userId },
-    { enabled: !!userId, refetchOnWindowFocus: false, refetchOnMount: false }
-  );
-
-  const bulkUpdateMutation = trpc.countries.bulkUpdate.useMutation();
-
-  // Load cached countries on startup for offline-first experience
-  useEffect(() => {
-    const loadCachedCountries = async () => {
-      try {
-        const cached = await cache.get<typeof localCountries>('countries');
-        if (cached && cached.length > 0) {
-          setCountries(filterValidCountries(cached));
-        }
-      } catch {
-        /* non-fatal — will fall through to local data */
-      }
-    };
-    void loadCachedCountries();
+  /**
+   * Update the store-purchased products on the profile.
+   * 'replace' makes RevenueCat the source of truth (refunds revoke access);
+   * 'merge' only adds (purchase just completed, offer code redeemed).
+   * Non-store entries such as the legacy code unlock are left alone.
+   */
+  const applyOwnedProducts = useCallback((owned: string[], mode: 'replace' | 'merge') => {
+    setUserProfile(prev => {
+      const current = prev.purchasedProducts || [];
+      const nonStore = current.filter(p => !STORE_PRODUCT_IDS.includes(p));
+      const currentStore = current.filter(p => STORE_PRODUCT_IDS.includes(p));
+      const nextStore = mode === 'replace'
+        ? owned
+        : [...new Set([...currentStore, ...owned])];
+      const next = [...nonStore, ...nextStore];
+      if (sameSet(current, next)) return prev;
+      const updated = { ...prev, purchasedProducts: next };
+      void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updated));
+      return updated;
+    });
   }, []);
 
-  // When fresh data arrives from network, update state and cache
   useEffect(() => {
-    if (countriesQuery.data && countriesQuery.data.length > 0) {
-      const validated = filterValidCountries(countriesQuery.data);
-      setCountries(validated);
-      void cache.set('countries', countriesQuery.data);
-    }
-  }, [countriesQuery.data]);
+    let removeListener: () => void = () => {};
 
-  useEffect(() => {
-    const initUser = async () => {
-      try {
-        let storedUserId = await AsyncStorage.getItem('@world_cooking_user_id');
-        if (!storedUserId) {
-          storedUserId = `user-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
-          await AsyncStorage.setItem('@world_cooking_user_id', storedUserId);
-        }
-        setUserId(storedUserId);
-
-        // Initialize RevenueCat and sync any existing entitlements
-        await configurePurchases(storedUserId);
-        const activeEntitlements = await getCustomerInfo();
-        if (activeEntitlements.length > 0) {
-          setUserProfile(prev => {
-            const currentProducts = prev.purchasedProducts || [];
-            const merged = [...new Set([...currentProducts, ...activeEntitlements])];
-            if (merged.length !== currentProducts.length) {
-              const updated = { ...prev, purchasedProducts: merged };
-              void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updated));
-              return updated;
-            }
-            return prev;
-          });
-        }
-      } catch (error) {
-        if (__DEV__) console.error('Error initializing user ID:', error);
-      }
-    };
     const loadData = async () => {
       try {
         const [profileData, progressData, shoppingData, badgesData, favoritesData, mealPlanData] = await Promise.all([
@@ -130,67 +103,79 @@ export const [AppProvider, useApp] = createContextHook(() => {
           AsyncStorage.getItem(STORAGE_KEYS.MEAL_PLANS),
         ]);
 
-        if (profileData) {
-          const profile = JSON.parse(profileData);
-          setUserProfile(profile);
-        }
-        if (progressData) setCountryProgress(JSON.parse(progressData));
-        if (shoppingData) setShoppingList(JSON.parse(shoppingData));
-        if (favoritesData) setFavoriteRecipes(JSON.parse(favoritesData));
-        if (mealPlanData) setMealPlans(JSON.parse(mealPlanData));
-        if (badgesData) {
-          const loadedBadges = JSON.parse(badgesData);
-          const badgesWithIcons = loadedBadges.map((savedBadge: Badge) => {
-            const originalBadge = allBadges.find(b => b.id === savedBadge.id);
-            return {
-              ...savedBadge,
-              icon: originalBadge?.icon || savedBadge.icon,
-            };
-          });
-          setBadges(badgesWithIcons);
-        }
+        const profile = safeParse<UserProfile | null>(profileData, null);
+        if (profile) setUserProfile(profile);
+        setCountryProgress(safeParse<ProgressState>(progressData, {}));
+        setShoppingList(safeParse<ShoppingListItem[]>(shoppingData, []));
+        setFavoriteRecipes(safeParse<FavoriteRecipe[]>(favoritesData, []));
+        setMealPlans(safeParse<MealPlan[]>(mealPlanData, []));
+
+        // Merge by id so badges added in later app versions show up and can be earned.
+        const savedBadges = safeParse<Badge[]>(badgesData, []);
+        setBadges(allBadges.map(b => {
+          const saved = savedBadges.find(s => s.id === b.id);
+          return { ...b, earned: saved?.earned ?? false, earnedDate: saved?.earnedDate };
+        }));
       } catch (error) {
         if (__DEV__) console.error('Error loading data:', error);
       } finally {
         setIsLoading(false);
       }
     };
-    void initUser();
-    void loadData();
+
+    const initPurchases = async () => {
+      try {
+        let storedUserId = await AsyncStorage.getItem('@world_cooking_user_id');
+        if (!storedUserId) {
+          storedUserId = `user-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
+          await AsyncStorage.setItem('@world_cooking_user_id', storedUserId);
+        }
+        setUserId(storedUserId);
+
+        // Legacy share-code unlock: keep until it expires, then revoke.
+        const legacyActive = await hasActiveLegacyCodeUnlock();
+        setUserProfile(prev => {
+          const products = prev.purchasedProducts || [];
+          const hasLegacy = products.includes(LEGACY_CODE_UNLOCK);
+          if (legacyActive === hasLegacy) return prev;
+          const updated = {
+            ...prev,
+            purchasedProducts: legacyActive
+              ? [...products, LEGACY_CODE_UNLOCK]
+              : products.filter(p => p !== LEGACY_CODE_UNLOCK),
+          };
+          void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updated));
+          return updated;
+        });
+
+        await configurePurchases(storedUserId);
+        const owned = await getCustomerInfo();
+        // null = unknown (offline / store error): keep the cached purchases.
+        if (owned) applyOwnedProducts(owned, 'replace');
+        removeListener = addOwnedProductsListener(o => applyOwnedProducts(o, 'merge'));
+      } catch (error) {
+        if (__DEV__) console.error('Error initializing purchases:', error);
+      }
+    };
+
+    // Profile must be loaded before purchases touch it, or the default
+    // (empty) profile would be written over the saved one.
+    void loadData().then(initPurchases);
     void initializeNotifications();
+    // Server-synced country data was dropped; free the old 11 MB cache entry.
+    void cache.remove('countries');
 
-    // Check if user has an active (non-expired) share code → unlock/revoke
-    void hasActiveRedeemedCode().then(active => {
-      setUserProfile(prev => {
-        const products = prev.purchasedProducts || [];
-        const hasCodeUnlock = products.includes('code_unlock_all');
-        if (active && !hasCodeUnlock) {
-          // Code is active — grant access
-          return { ...prev, purchasedProducts: [...products, 'code_unlock_all'] };
-        }
-        if (!active && hasCodeUnlock) {
-          // Code expired — revoke access (keep real purchases)
-          return { ...prev, purchasedProducts: products.filter(p => p !== 'code_unlock_all') };
-        }
-        return prev;
-      });
-    });
-  }, []);
+    return () => removeListener();
+  }, [applyOwnedProducts]);
 
+  // Keep the 19:00 streak reminder in line with the actual streak.
   useEffect(() => {
-    if (countriesQuery.data !== undefined && !hasInitialized) {
-      setHasInitialized(true);
-      const syncCountries = async () => {
-        try {
-          await bulkUpdateMutation.mutateAsync({ countries: localCountries });
-          await countriesQuery.refetch();
-        } catch (error) {
-          if (__DEV__) console.error('Error syncing countries:', error);
-        }
-      };
-      void syncCountries();
-    }
-  }, [countriesQuery.data, hasInitialized, bulkUpdateMutation, countriesQuery]);
+    if (isLoading) return;
+    void refreshStreakReminder({
+      currentStreak: userProfile.currentStreak,
+      lastActiveDate: userProfile.lastActiveDate,
+    });
+  }, [isLoading, userProfile.currentStreak, userProfile.lastActiveDate]);
 
   const updateUserProfile = useCallback(async (updates: Partial<UserProfile>) => {
     setUserProfile(prev => {
@@ -200,37 +185,19 @@ export const [AppProvider, useApp] = createContextHook(() => {
     });
   }, []);
 
-  useEffect(() => {
-    if (referralCodeQuery.data?.code && userProfile.referralCode !== referralCodeQuery.data.code) {
-      void updateUserProfile({ referralCode: referralCodeQuery.data.code });
-    }
-  }, [referralCodeQuery.data?.code, userProfile.referralCode, updateUserProfile]);
-
-  useEffect(() => {
-    if (referralStatsQuery.data) {
-      setReferralStats(referralStatsQuery.data);
-      if (userProfile.referralCount !== referralStatsQuery.data.referralCount ||
-          userProfile.freeMonthsEarned !== referralStatsQuery.data.freeMonthsEarned) {
-        void updateUserProfile({
-          referralCount: referralStatsQuery.data.referralCount,
-          freeMonthsEarned: referralStatsQuery.data.freeMonthsEarned,
-        });
-      }
-    }
-  }, [referralStatsQuery.data, userProfile.referralCount, userProfile.freeMonthsEarned, updateUserProfile]);
-
-  const completeOnboarding = useCallback(async (name: string, language?: string, avatar?: string, referralCode?: string) => {
-    const updatedProfile: UserProfile = {
-      ...userProfile,
-      name,
-      language: language || 'en',
-      avatar,
-      completedOnboarding: true,
-      referredBy: referralCode,
-    };
-    setUserProfile(updatedProfile);
-    await AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updatedProfile));
-  }, [userProfile]);
+  const completeOnboarding = useCallback(async (name: string, language?: string, avatar?: string) => {
+    setUserProfile(prev => {
+      const updatedProfile: UserProfile = {
+        ...prev,
+        name,
+        language: language || 'en',
+        avatar,
+        completedOnboarding: true,
+      };
+      void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updatedProfile));
+      return updatedProfile;
+    });
+  }, []);
 
   const updateCountryProgress = useCallback(async (
     countryId: string,
@@ -264,15 +231,11 @@ export const [AppProvider, useApp] = createContextHook(() => {
 
       if (finalPoints > 0) {
         setUserProfile(prevProfile => {
-          const today = new Date().toISOString().split('T')[0];
-          const lastActive = prevProfile.lastActiveDate?.split('T')[0];
           let currentStreak = prevProfile.currentStreak || 0;
           let longestStreak = prevProfile.longestStreak || 0;
 
-          if (lastActive) {
-            const lastDate = new Date(lastActive);
-            const todayDate = new Date(today);
-            const daysDiff = Math.floor((todayDate.getTime() - lastDate.getTime()) / (1000 * 60 * 60 * 24));
+          if (prevProfile.lastActiveDate) {
+            const daysDiff = localDayNumber(new Date()) - localDayNumber(new Date(prevProfile.lastActiveDate));
             if (daysDiff === 1) {
               currentStreak += 1;
             } else if (daysDiff !== 0) {
@@ -306,9 +269,10 @@ export const [AppProvider, useApp] = createContextHook(() => {
         const completedQuizzes = Object.values(newProgress).filter(p => p.quizCompleted).length;
         const cookedMainDishes = Object.values(newProgress).filter(p => p.mainDishCooked).length;
         const cookedDesserts = Object.values(newProgress).filter(p => p.dessertCooked).length;
-        const perfectQuizzes = Object.values(newProgress).filter(
-          p => p.quizScore !== undefined && p.quizScore === 5
-        ).length;
+        const perfectQuizzes = Object.entries(newProgress).filter(([cId, p]) => {
+          const quizLength = countries.find(cn => cn.id === cId)?.quiz.length ?? 0;
+          return quizLength > 0 && p.quizScore === quizLength;
+        }).length;
 
         const visitedContinents = new Set(
           Object.entries(newProgress)
@@ -363,11 +327,8 @@ export const [AppProvider, useApp] = createContextHook(() => {
 
         if (hasChanges) {
           void AsyncStorage.setItem(STORAGE_KEYS.BADGES, JSON.stringify(updatedBadges));
-          // Ask for a review when the user earns their 3rd badge — strong engagement signal
-          const newlyEarnedCount = updatedBadges.filter(b => b.earned).length;
-          if (newlyEarnedCount === 3) {
-            setTimeout(() => void maybeAskForReview(), 2500);
-          }
+          // Earning a badge is a strong engagement signal for the review prompt
+          setTimeout(() => void trackPositiveAction(), 2500);
           return updatedBadges;
         }
         return prevBadges;
@@ -375,7 +336,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
 
       return newProgress;
     });
-  }, [countries]);
+  }, []);
 
   const addToShoppingList = useCallback(async (
     ingredients: { name: string; amount: number; unit: string }[],
@@ -461,7 +422,12 @@ export const [AppProvider, useApp] = createContextHook(() => {
 
   const stats = useMemo(() => {
     const progressArray = Object.values(countryProgress);
+    // A streak only counts if the last activity was today or yesterday.
+    const daysSinceActive = userProfile.lastActiveDate
+      ? localDayNumber(new Date()) - localDayNumber(new Date(userProfile.lastActiveDate))
+      : Infinity;
     return {
+      currentStreak: daysSinceActive <= 1 ? (userProfile.currentStreak || 0) : 0,
       totalCountries: countries.length,
       visitedCountries: progressArray.filter(p => p.visited).length,
       completedCountries: progressArray.filter(p => p.fullyCompleted).length,
@@ -472,7 +438,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
       cookedDishes: progressArray.filter(p => p.mainDishCooked).length,
       earnedBadges: badges.filter(b => b.earned).length,
     };
-  }, [countryProgress, badges, countries.length]);
+  }, [countryProgress, badges, userProfile.lastActiveDate, userProfile.currentStreak]);
 
   const addFavoriteRecipe = useCallback(async (
     recipeId: string,
@@ -548,51 +514,25 @@ export const [AppProvider, useApp] = createContextHook(() => {
     });
   }, []);
 
-  const refetchCountries = useCallback(async () => {
-    await countriesQuery.refetch();
-  }, [countriesQuery]);
-
-  const refreshReferralStats = useCallback(() => {
-    void referralStatsQuery.refetch();
-  }, [referralStatsQuery]);
-
-  const purchaseProduct = useCallback(async (productId: string) => {
-    setUserProfile(prev => {
-      const currentProducts = prev.purchasedProducts || [];
-      if (!currentProducts.includes(productId)) {
-        const updated = { 
-          ...prev,
-          purchasedProducts: [...currentProducts, productId] 
-        };
-        void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updated));
-        return updated;
-      }
-      return prev;
+  /** Award a badge that isn't tied to country progress (e.g. inviting a friend). */
+  const awardBadge = useCallback((badgeId: string) => {
+    setBadges(prev => {
+      const index = prev.findIndex(b => b.id === badgeId);
+      if (index === -1 || prev[index].earned) return prev;
+      const updated = [...prev];
+      updated[index] = { ...updated[index], earned: true, earnedDate: new Date().toISOString() };
+      void AsyncStorage.setItem(STORAGE_KEYS.BADGES, JSON.stringify(updated));
+      return updated;
     });
   }, []);
+
+  const purchaseProduct = useCallback(async (productId: string) => {
+    applyOwnedProducts([productId], 'merge');
+  }, [applyOwnedProducts]);
 
   const hasPurchasedProduct = useCallback((productId: string): boolean => {
     return (userProfile.purchasedProducts || []).includes(productId);
   }, [userProfile.purchasedProducts]);
-
-  const redeemCode = useCallback(async (code: string): Promise<{ ok: boolean; reason?: 'invalid_format' | 'own_code' | 'already_used' }> => {
-    const result = await redeemShareCode(code, userId || 'anonymous');
-    if (result.ok) {
-      // Grant temporary access via code_unlock_all
-      await purchaseProduct('code_unlock_all');
-      return { ok: true };
-    }
-    return { ok: false, reason: result.reason };
-  }, [purchaseProduct, userId]);
-
-  const getShareCode = useCallback(async (): Promise<string> => {
-    return getOrCreateShareCode(userId || 'anonymous');
-  }, [userId]);
-
-  const shareMyCode = useCallback(async () => {
-    const code = await getShareCode();
-    await shareCode(code);
-  }, [getShareCode]);
 
   const addMealPlan = useCallback((plan: MealPlan) => {
     setMealPlans(prev => {
@@ -621,18 +561,18 @@ export const [AppProvider, useApp] = createContextHook(() => {
   const addMealPlanToShoppingList = useCallback((plan: MealPlan) => {
     const c = countries.find(cn => cn.id === plan.countryId);
     if (!c) return;
-    const recipe = plan.recipeId.endsWith('-dessert') ? c.dessert : c.mainDish;
+    const recipe = getPlannedRecipe(c, plan);
     if (!recipe) return;
 
+    const lang = userProfile.language || 'en';
     const scaledIngredients = recipe.ingredients.map(ing => ({
-      name: typeof ing.name === 'string' ? ing.name : ing.name.en,
+      name: translateContent(ing.name, lang),
       amount: ing.amount,
-      unit: typeof ing.unit === 'string' ? ing.unit : ing.unit.en,
+      unit: translateContent(ing.unit, lang),
     }));
 
-    const countryName = typeof c.name === 'string' ? c.name : c.name.en;
-    addToShoppingList(scaledIngredients, c.id, countryName);
-  }, [countries, addToShoppingList]);
+    addToShoppingList(scaledIngredients, c.id, translateContent(c.name, lang));
+  }, [addToShoppingList, userProfile.language]);
 
   const trackDifficultyCooked = useCallback((difficulty: 'easy' | 'medium' | 'hard') => {
     setUserProfile(prev => {
@@ -657,8 +597,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     favoriteRecipes,
     countries,
     stats,
-    isLoading: isLoading || countriesQuery.isLoading,
-    countriesError: countriesQuery.error ? String(countriesQuery.error.message) : null,
+    isLoading,
     completeOnboarding,
     updateCountryProgress,
     addToShoppingList,
@@ -674,20 +613,16 @@ export const [AppProvider, useApp] = createContextHook(() => {
     isFavoriteCountry,
     updateRecipeRating,
     userId,
-    referralStats,
-    refreshReferralStats,
     purchaseProduct,
+    applyOwnedProducts,
+    awardBadge,
     hasPurchasedProduct,
-    redeemCode,
-    getShareCode,
-    shareMyCode,
     trackDifficultyCooked,
     mealPlans,
     addMealPlan,
     removeMealPlan,
     getMealPlansForDate,
     addMealPlanToShoppingList,
-    refetchCountries,
   }), [
     userProfile,
     countryProgress,
@@ -695,11 +630,8 @@ export const [AppProvider, useApp] = createContextHook(() => {
     badges,
     favoriteRecipes,
     mealPlans,
-    countries,
     stats,
     isLoading,
-    countriesQuery.isLoading,
-    countriesQuery.error,
     completeOnboarding,
     updateCountryProgress,
     addToShoppingList,
@@ -715,18 +647,14 @@ export const [AppProvider, useApp] = createContextHook(() => {
     isFavoriteCountry,
     updateRecipeRating,
     userId,
-    referralStats,
-    refreshReferralStats,
     purchaseProduct,
+    applyOwnedProducts,
+    awardBadge,
     hasPurchasedProduct,
-    redeemCode,
-    getShareCode,
-    shareMyCode,
     trackDifficultyCooked,
     addMealPlan,
     removeMealPlan,
     getMealPlansForDate,
     addMealPlanToShoppingList,
-    refetchCountries,
   ]);
 });

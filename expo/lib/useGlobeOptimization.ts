@@ -8,7 +8,8 @@
  * of SVG elements rendered at any given time.
  */
 
-import { useMemo, useCallback, useRef } from 'react';
+import { useMemo, useCallback, useEffect, useRef, useState, type MutableRefObject } from 'react';
+import { AccessibilityInfo } from 'react-native';
 
 interface GlobePin {
   id: string;
@@ -156,37 +157,219 @@ export function useOptimizedPins<T extends GlobePin>(
   }, [pins, centerLat, centerLng, scale, minScale, maxScale]);
 }
 
+export type GlobeRotation = [number, number, number];
+
+export interface FrameThrottle<T> {
+  /** Store `value` as the latest update; it is committed on the next animation frame. */
+  schedule: (value: T) => void;
+  /** Commit any pending value immediately (e.g. on gesture release). */
+  flush: () => void;
+  /** Drop any pending value without committing it. */
+  cancel: () => void;
+}
+
 /**
- * Throttled rotation handler to reduce re-renders during pan gestures.
- * Limits projection recalculations to ~30fps instead of every frame.
+ * Coalesces high-frequency updates (pan events arrive at up to 120 Hz on
+ * ProMotion displays) into at most one commit per animation frame. Only the
+ * most recent value is committed, so callers should keep their own ref as the
+ * source of truth and schedule the absolute value (not a delta).
+ *
+ * The returned object is referentially stable as long as `commit` is stable
+ * (a `useState` setter is), so it can be used inside memoized gesture handlers.
  */
-export function useThrottledRotation(delay: number = 33) {
-  const lastUpdate = useRef(0);
-  const pendingRotation = useRef<[number, number] | null>(null);
+export function useFrameThrottledValue<T>(commit: (value: T) => void): FrameThrottle<T> {
+  const pendingRef = useRef<{ value: T } | null>(null);
+  const frameRef = useRef<number | null>(null);
+  const commitRef = useRef(commit);
 
-  const throttle = useCallback(
-    (lat: number, lng: number, apply: (lat: number, lng: number) => void) => {
-      pendingRotation.current = [lat, lng];
-      const now = Date.now();
-      if (now - lastUpdate.current >= delay) {
-        lastUpdate.current = now;
-        apply(lat, lng);
-        pendingRotation.current = null;
+  useEffect(() => {
+    commitRef.current = commit;
+  }, [commit]);
+
+  const cancelFrame = useCallback(() => {
+    if (frameRef.current !== null) {
+      cancelAnimationFrame(frameRef.current);
+      frameRef.current = null;
+    }
+  }, []);
+
+  const flush = useCallback(() => {
+    cancelFrame();
+    const pending = pendingRef.current;
+    if (pending) {
+      pendingRef.current = null;
+      commitRef.current(pending.value);
+    }
+  }, [cancelFrame]);
+
+  const cancel = useCallback(() => {
+    cancelFrame();
+    pendingRef.current = null;
+  }, [cancelFrame]);
+
+  const schedule = useCallback((value: T) => {
+    pendingRef.current = { value };
+    if (frameRef.current === null) {
+      frameRef.current = requestAnimationFrame(() => {
+        frameRef.current = null;
+        const pending = pendingRef.current;
+        if (pending) {
+          pendingRef.current = null;
+          commitRef.current(pending.value);
+        }
+      });
+    }
+  }, []);
+
+  // Never commit into an unmounted component.
+  useEffect(() => cancel, [cancel]);
+
+  return useMemo(() => ({ schedule, flush, cancel }), [schedule, flush, cancel]);
+}
+
+/**
+ * Throttled rotation updates for the globe: pan-move events update a ref
+ * synchronously and call `schedule(nextRotation)`; the projection (and the
+ * ~177 SVG path strings derived from it) is rebuilt at most once per frame.
+ */
+export function useThrottledRotation(
+  commit: (rotation: GlobeRotation) => void
+): FrameThrottle<GlobeRotation> {
+  return useFrameThrottledValue<GlobeRotation>(commit);
+}
+
+/**
+ * Whether the user asked the OS to reduce motion. `null` until known, so
+ * callers can hold off on animations instead of starting and stopping them.
+ */
+export function useReduceMotion(): boolean | null {
+  const [reduceMotion, setReduceMotion] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    let mounted = true;
+    AccessibilityInfo.isReduceMotionEnabled()
+      .then((enabled) => { if (mounted) setReduceMotion(enabled); })
+      .catch(() => { if (mounted) setReduceMotion(false); });
+    const subscription = AccessibilityInfo.addEventListener('reduceMotionChanged', (enabled) => {
+      setReduceMotion(enabled);
+    });
+    return () => {
+      mounted = false;
+      subscription.remove();
+    };
+  }, []);
+
+  return reduceMotion;
+}
+
+export interface IdleAutoRotationOptions {
+  /** Auto-rotate at all (screen focused, reduce motion off, not zoomed in…). */
+  enabled: boolean;
+  /** Gesture source of truth for the rotation; updated before every commit. */
+  rotationRef: MutableRefObject<GlobeRotation>;
+  commit: (rotation: GlobeRotation) => void;
+  /** Checked right before starting; return false to skip (e.g. while touching). */
+  canStart?: () => boolean;
+  /** Called right before auto-rotation starts (e.g. to stop leftover momentum). */
+  onStart?: () => void;
+  degreesPerSecond?: number;
+  /** Delay before the first rotation once enabled. */
+  startDelayMs?: number;
+  /** Idle time after an interaction before rotation resumes. */
+  resumeDelayMs?: number;
+}
+
+export interface IdleAutoRotation {
+  /** Stop rotating now (e.g. on touch start). */
+  pause: () => void;
+  /** Stop rotating now and resume after the idle delay (e.g. on touch end). */
+  resumeLater: () => void;
+}
+
+// ~30 fps is plenty for a slow spin (≈0.13° per step) and halves the
+// projection/path work compared to committing on every frame.
+const AUTO_ROTATE_STEP_MS = 30;
+// Cap on a single step so a dropped/throttled frame doesn't jump the globe.
+const AUTO_ROTATE_MAX_STEP_MS = 100;
+
+/**
+ * Slow idle spin around the globe's axis. Pauses on interaction and resumes
+ * after a few idle seconds. The returned callbacks are stable, so they can be
+ * used from a PanResponder that is created once.
+ */
+export function useIdleAutoRotation({
+  enabled,
+  rotationRef,
+  commit,
+  canStart,
+  onStart,
+  degreesPerSecond = 4,
+  startDelayMs = 1500,
+  resumeDelayMs = 4000,
+}: IdleAutoRotationOptions): IdleAutoRotation {
+  const frameRef = useRef<number | null>(null);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const enabledRef = useRef(enabled);
+  const latest = useRef({ commit, canStart, onStart, degreesPerSecond, resumeDelayMs });
+
+  useEffect(() => {
+    latest.current = { commit, canStart, onStart, degreesPerSecond, resumeDelayMs };
+  });
+
+  const pause = useCallback(() => {
+    if (timerRef.current !== null) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+    if (frameRef.current !== null) {
+      cancelAnimationFrame(frameRef.current);
+      frameRef.current = null;
+    }
+  }, []);
+
+  const start = useCallback(() => {
+    if (!enabledRef.current || frameRef.current !== null) return;
+    if (latest.current.canStart && !latest.current.canStart()) return;
+    latest.current.onStart?.();
+
+    let last: number | null = null;
+    const step = (now: number) => {
+      if (last === null) last = now;
+      const elapsed = now - last;
+      if (elapsed >= AUTO_ROTATE_STEP_MS) {
+        last = now;
+        const delta = (latest.current.degreesPerSecond * Math.min(elapsed, AUTO_ROTATE_MAX_STEP_MS)) / 1000;
+        const [lambda, phi, gamma] = rotationRef.current;
+        const next: GlobeRotation = [(lambda + delta) % 360, phi, gamma];
+        rotationRef.current = next;
+        latest.current.commit(next);
       }
-    },
-    [delay]
-  );
+      frameRef.current = requestAnimationFrame(step);
+    };
+    frameRef.current = requestAnimationFrame(step);
+  }, [rotationRef]);
 
-  const flush = useCallback(
-    (apply: (lat: number, lng: number) => void) => {
-      if (pendingRotation.current) {
-        const [lat, lng] = pendingRotation.current;
-        apply(lat, lng);
-        pendingRotation.current = null;
-      }
-    },
-    []
-  );
+  const startAfter = useCallback((delay: number) => {
+    pause();
+    if (!enabledRef.current) return;
+    timerRef.current = setTimeout(() => {
+      timerRef.current = null;
+      start();
+    }, delay);
+  }, [pause, start]);
 
-  return { throttle, flush };
+  const resumeLater = useCallback(() => {
+    startAfter(latest.current.resumeDelayMs);
+  }, [startAfter]);
+
+  useEffect(() => {
+    enabledRef.current = enabled;
+    if (enabled) startAfter(startDelayMs);
+    else pause();
+  }, [enabled, startDelayMs, startAfter, pause]);
+
+  // Never keep animating (and committing state) after unmount.
+  useEffect(() => pause, [pause]);
+
+  return useMemo(() => ({ pause, resumeLater }), [pause, resumeLater]);
 }

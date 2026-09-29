@@ -1,41 +1,58 @@
 import { Share, Linking } from 'react-native';
-import { Country, MealPlan } from '@/types';
+import { Country, MealPlan, Recipe } from '@/types';
+import { translateContent } from '@/lib/translate-content';
 
-type GroceryItem = {
+export type GroceryItem = {
   name: string;
   amount: number;
   unit: string;
 };
 
 /**
+ * The recipe a meal plan entry refers to: the dessert for dessert slots,
+ * otherwise the main dish. (Recipe ids don't reliably end in "-dessert",
+ * e.g. "indonesia-klepon".)
+ */
+export function getPlannedRecipe(country: Country, plan: MealPlan): Recipe | undefined {
+  if (country.dessert && (plan.mealType === 'dessert' || plan.recipeId === country.dessert.id)) {
+    return country.dessert;
+  }
+  return country.mainDish;
+}
+
+/**
  * Aggregate ingredients from multiple recipes into a combined grocery list.
+ * Items are merged on their English name/unit and returned in `language`.
  */
 export function aggregateGroceries(
   plans: MealPlan[],
   countries: Country[],
+  language = 'en',
 ): GroceryItem[] {
   const map = new Map<string, GroceryItem>();
 
   for (const plan of plans) {
     const c = countries.find(cn => cn.id === plan.countryId);
     if (!c) continue;
-    const recipe = plan.recipeId.endsWith('-dessert') ? c.dessert : c.mainDish;
+    const recipe = getPlannedRecipe(c, plan);
     if (!recipe) continue;
 
     for (const ing of recipe.ingredients) {
-      const name = typeof ing.name === 'string' ? ing.name : ing.name.en;
-      const unit = typeof ing.unit === 'string' ? ing.unit : ing.unit.en;
-      const key = `${name.toLowerCase()}|${unit.toLowerCase()}`;
+      const key = `${translateContent(ing.name, 'en').toLowerCase()}|${translateContent(ing.unit, 'en').toLowerCase()}`;
       const existing = map.get(key);
       if (existing) {
         existing.amount += ing.amount;
       } else {
-        map.set(key, { name, amount: ing.amount, unit });
+        map.set(key, {
+          name: translateContent(ing.name, language),
+          amount: ing.amount,
+          unit: translateContent(ing.unit, language),
+        });
       }
     }
   }
 
-  return Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));
+  return Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name, language));
 }
 
 /**

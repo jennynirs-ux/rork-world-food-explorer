@@ -1,5 +1,6 @@
 import React, { Component, ErrorInfo, ReactNode } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
+import { useTranslation } from '@/lib/i18n';
 
 interface Props {
   children: ReactNode;
@@ -31,31 +32,32 @@ class ErrorBoundary extends Component<Props, State> {
 
   render() {
     if (this.state.hasError) {
-      return (
-        <View style={styles.container}>
-          <View style={styles.card}>
-            <Text style={styles.emoji}>⚠️</Text>
-            <Text style={styles.title}>Something went wrong</Text>
-            <Text style={styles.message}>
-              The app ran into an unexpected error. You can try again or restart the app.
-            </Text>
-            {__DEV__ && this.state.error && (
-              <ScrollView style={styles.errorBox}>
-                <Text style={styles.errorText}>
-                  {this.state.error.toString()}
-                </Text>
-              </ScrollView>
-            )}
-            <TouchableOpacity style={styles.button} onPress={this.handleReset}>
-              <Text style={styles.buttonText}>Try Again</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-      );
+      return <ErrorFallback error={this.state.error} onReset={this.handleReset} />;
     }
 
     return this.props.children;
   }
+}
+
+function ErrorFallback({ error, onReset }: { error: Error | null; onReset: () => void }) {
+  const { t } = useTranslation();
+  return (
+    <View style={styles.container}>
+      <View style={styles.card}>
+        <Text style={styles.emoji}>⚠️</Text>
+        <Text style={styles.title}>{t.ui.errorTitle}</Text>
+        <Text style={styles.message}>{t.ui.errorMessage}</Text>
+        {__DEV__ && error && (
+          <ScrollView style={styles.errorBox}>
+            <Text style={styles.errorText}>{error.toString()}</Text>
+          </ScrollView>
+        )}
+        <TouchableOpacity style={styles.button} onPress={onReset} accessibilityRole="button">
+          <Text style={styles.buttonText}>{t.ui.tryAgain}</Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({

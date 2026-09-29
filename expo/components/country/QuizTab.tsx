@@ -1,9 +1,13 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Check, RotateCcw } from 'lucide-react-native';
 import { useTranslation } from '@/lib/i18n';
+import { useStrings, fill } from '@/lib/strings';
+import { paywallStrings } from '@/lib/strings/paywall';
+import LockedPanel from '@/components/country/LockedPanel';
 import colors from '@/constants/colors';
 import type { CountryProgress } from '@/types';
 import type { TranslatedCountry } from '@/lib/use-translated-country';
+import { seededOrder } from '@/lib/shuffle';
 
 type QuizTabProps = {
   country: TranslatedCountry;
@@ -12,6 +16,9 @@ type QuizTabProps = {
   setQuizAnswers: (answers: number[]) => void;
   onSubmitQuiz: () => void;
   onResetQuiz?: () => void;
+  /** Locked country: show what the quiz offers instead of the questions. */
+  locked?: boolean;
+  onUnlockPress?: () => void;
 };
 
 export default function QuizTab({
@@ -21,8 +28,26 @@ export default function QuizTab({
   setQuizAnswers,
   onSubmitQuiz,
   onResetQuiz,
+  locked = false,
+  onUnlockPress,
 }: QuizTabProps) {
   const { t } = useTranslation();
+  const s = useStrings(paywallStrings);
+
+  if (locked) {
+    return (
+      <View style={styles.lockedContent}>
+        <LockedPanel
+          title={s.quizLockedTitle}
+          body={s.quizLockedBody(country.quiz.length)}
+          perks={[s.quizPerkPoints, s.quizPerkRetake]}
+          ctaLabel={fill(s.unlockCountry, { country: country.name })}
+          onPress={() => onUnlockPress?.()}
+          testID="quiz-locked-panel"
+        />
+      </View>
+    );
+  }
 
   return (
     <View style={styles.tabContent}>
@@ -49,7 +74,8 @@ export default function QuizTab({
               <Text style={styles.questionText}>
                 {qIdx + 1}. {question.question}
               </Text>
-              {question.options.map((option, oIdx) => {
+              {seededOrder(`${country.id}:${question.id}`, question.options.length).map((oIdx) => {
+                const option = question.options[oIdx];
                 const isSelected = quizAnswers[qIdx] === oIdx;
                 const isCorrect = question.correctAnswer === oIdx;
                 const showResult = progress.quizCompleted;
@@ -71,6 +97,9 @@ export default function QuizTab({
                       }
                     }}
                     disabled={progress.quizCompleted}
+                    accessibilityRole="radio"
+                    accessibilityState={{ selected: isSelected, disabled: progress.quizCompleted }}
+                    accessibilityLabel={option}
                   >
                     <Text
                       style={[
@@ -104,6 +133,10 @@ export default function QuizTab({
 const styles = StyleSheet.create({
   tabContent: {
     flex: 1,
+  },
+  lockedContent: {
+    flex: 1,
+    paddingTop: 20,
   },
   section: {
     paddingHorizontal: 20,

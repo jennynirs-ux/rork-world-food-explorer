@@ -1,70 +1,138 @@
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput, RefreshControl } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, TextInput, FlatList, type ListRenderItem } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useRouter } from 'expo-router';
+import { useFocusEffect, useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
 import Paywall from '@/components/Paywall';
-import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart, Lock, BookOpen, ChefHat } from 'lucide-react-native';
+import { Globe2, List, Shuffle, Search, Circle, UtensilsCrossed, CheckCircle2, Heart } from 'lucide-react-native';
 import Globe3D from '@/components/Globe3D';
-import { FoodImage } from '@/components/FoodImage';
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import CountryListRow, { getCountryThumbnailUrl } from '@/components/explore/CountryListRow';
+import DishOfTheDayCard from '@/components/explore/DishOfTheDayCard';
+import StreakChip from '@/components/explore/StreakChip';
+import UnlockWorldBanner from '@/components/explore/UnlockWorldBanner';
+import QuickActions from '@/components/explore/QuickActions';
+import { STATUS_COLORS, type CountryStatus } from '@/components/explore/palette';
+import { useLocalDayNumber } from '@/components/explore/useLocalDay';
+import { getDishForDay } from '@/lib/daily';
+import { useStrings } from '@/lib/strings';
+import { exploreStrings } from '@/lib/strings/explore';
+import { PRODUCT_IDS } from '@/constants/monetization';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import { isCountryAccessible } from '@/lib/access-control';
-import { preloadImages } from '@/lib/image-utils'
-import { Country } from '@/types';
+import { preloadImages } from '@/lib/image-utils';
+import type { Country, CountryProgress } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 import { CountryListSkeleton } from '@/components/SkeletonLoader';
 import { hapticLight, hapticMedium } from '@/lib/haptics';
 import colors from '@/constants/colors';
 import { COUNTRY_COORDINATES } from '@/data/country-coordinates';
 
+const EMPTY_IDS: string[] = [];
+const EMPTY_COUNTRIES: Country[] = [];
+const INITIAL_LIST_ROWS = 10;
+const PREFETCH_LIST_THUMBNAILS = 8;
+const PREFETCH_IN_PROGRESS = 5;
+
+type LocalizedCountry = {
+  name: string;
+  continent: string;
+  /** Normalized localized + English names, for search. */
+  searchNames: string[];
+};
+
+function getCountryStatus(progress: CountryProgress | undefined): Exclude<CountryStatus, 'locked'> {
+  if (!progress || !progress.visited) return 'to do';
+  if (progress.fullyCompleted) return 'done';
+  return 'cooking';
+}
+
+function getCompletionPercentage(progress: CountryProgress | undefined) {
+  if (!progress) return 0;
+  if (progress.fullyCompleted) return 100;
+  return (progress.mainDishCooked ? 50 : 0) + (progress.quizCompleted ? 50 : 0);
+}
+
+/** Lowercase and strip diacritics so "suede" matches "Suède". */
+function normalizeForSearch(value: string) {
+  const lower = value.toLowerCase().trim();
+  return typeof lower.normalize === 'function'
+    ? lower.normalize('NFD').replace(/[̀-ͯ]/g, '')
+    : lower;
+}
+
+const countryKeyExtractor = (country: Country) => country.id;
+
 export default function ExploreScreen() {
-  const { countryProgress, countries, userProfile, purchaseProduct, countriesError, refetchCountries, isLoading } = useApp();
-  const { t } = useTranslation();
+  const { countryProgress, countries, userProfile, purchaseProduct, isLoading, stats } = useApp();
+  const { t, language } = useTranslation();
+  const s = useStrings(exploreStrings);
   const purchasedProducts = useMemo(() => userProfile.purchasedProducts || [], [userProfile.purchasedProducts]);
+  const favoriteCountryIds = userProfile.favoriteCountries ?? EMPTY_IDS;
   const router = useRouter();
   const [viewMode, setViewMode] = useState<'map' | 'list'>('map');
   const [searchQuery, setSearchQuery] = useState('');
   const [filterStatus, setFilterStatus] = useState<string | null>(null);
   const [showPaywall, setShowPaywall] = useState(false);
-  const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
-  const [refreshing, setRefreshing] = useState(false);
+  // Disables the map ScrollView while the user is rotating the globe.
+  const [isGlobeDragging, setIsGlobeDragging] = useState(false);
+  // The globe only animates (idle spin, pulsing rings) while this tab is visible.
+  const [isScreenFocused, setIsScreenFocused] = useState(true);
+  useFocusEffect(useCallback(() => {
+    setIsScreenFocused(true);
+    return () => setIsScreenFocused(false);
+  }, []));
 
-  const getCountryStatus = (countryId: string) => {
-    const progress = countryProgress[countryId];
-    if (!progress || !progress.visited) return 'to do';
-    if (progress.fullyCompleted) return 'done';
-    return 'cooking';
-  };
+  const accessibleIds = useMemo(
+    () => new Set(countries.filter(c => isCountryAccessible(c, purchasedProducts)).map(c => c.id)),
+    [countries, purchasedProducts]
+  );
 
-  const getCountryColor = (countryId: string) => {
-    const progress = countryProgress[countryId];
-    if (!progress || !progress.visited) return '#D1D5DB';
-    if (progress.fullyCompleted) return '#10B981';
-    if (progress.mainDishCooked) return '#F59E0B';
-    return '#F59E0B';
-  };
+  const ownsWorld = purchasedProducts.includes(PRODUCT_IDS.WORLD_UNLOCK_ALL);
+  const showUnlockBanner = !ownsWorld && countries.length > 0 && accessibleIds.size < countries.length;
+
+  const today = useLocalDayNumber();
+  const dishOfTheDay = useMemo(() => getDishForDay(countries, today), [countries, today]);
+
+  // Names/continents in the user's language (search also matches English).
+  const localizedCountries = useMemo(() => {
+    const map = new Map<string, LocalizedCountry>();
+    for (const country of countries) {
+      const name = translateContent(country.name, language);
+      const englishName = translateContent(country.name, 'en');
+      const searchNames = [normalizeForSearch(name)];
+      if (englishName !== name) searchNames.push(normalizeForSearch(englishName));
+      map.set(country.id, {
+        name,
+        continent: translateContent(country.continent, language),
+        searchNames,
+      });
+    }
+    return map;
+  }, [countries, language]);
+
+  const getLocalizedName = useCallback(
+    (country: Country) => localizedCountries.get(country.id)?.name ?? translateContent(country.name, language),
+    [localizedCountries, language]
+  );
 
   const countryPins = useMemo(() => countries
-    .filter(country => {
-      const coords = COUNTRY_COORDINATES[country.code];
-      return !!coords;
-    })
+    .filter(country => !!COUNTRY_COORDINATES[country.code])
     .map(country => {
       const coords = COUNTRY_COORDINATES[country.code];
-      const accessible = isCountryAccessible(country, purchasedProducts);
+      const accessible = accessibleIds.has(country.id);
+      const progress = countryProgress[country.id];
 
       return {
         id: country.id,
-        name: translateContent(country.name),
+        name: getLocalizedName(country),
         flag: country.flag,
         code: country.code,
         lat: coords.lat,
         lng: coords.lng,
-        color: accessible ? getCountryColor(country.id) : '#C0C0C0',
-        status: accessible ? getCountryStatus(country.id) : 'locked',
+        color: STATUS_COLORS[accessible ? getCountryStatus(progress) : 'locked'],
+        status: accessible ? getCountryStatus(progress) : 'locked',
       };
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- getCountryColor/getCountryStatus depend on countryProgress which is in deps
-    }), [countries, purchasedProducts, countryProgress]);
+    }), [countries, accessibleIds, countryProgress, getLocalizedName]);
 
   const handleCountryPress = useCallback((countryId: string) => {
     const country = countries.find(c => c.id === countryId);
@@ -74,22 +142,24 @@ export default function ExploreScreen() {
     router.push({ pathname: '/country/[id]' as any, params: { id: countryId } });
   }, [countries, router]);
 
-  const handleRefresh = useCallback(async () => {
-    setRefreshing(true);
-    try {
-      await refetchCountries();
-      const urls = countries.slice(0, 20).map(c => c.landscapeImage).filter((u): u is string => !!u);
-      await preloadImages(urls);
-    } catch {
-      // Refresh failed silently — cached data still shown
-    } finally {
-      setRefreshing(false);
-    }
-  }, [countries, refetchCountries]);
+  // Locked countries open too: the country page shows a teaser.
+  const handleDishPress = useCallback(() => {
+    if (!dishOfTheDay) return;
+    hapticLight();
+    router.push({
+      pathname: '/country/[id]' as any,
+      params: { id: dishOfTheDay.country.id, tab: 'recipes', recipe: dishOfTheDay.kind },
+    });
+  }, [dishOfTheDay, router]);
+
+  const handleOpenPaywall = useCallback(() => {
+    hapticLight();
+    setShowPaywall(true);
+  }, []);
 
   const handleRandomCountry = () => {
     hapticMedium();
-    const accessibleCountries = countries.filter(c => isCountryAccessible(c, purchasedProducts));
+    const accessibleCountries = countries.filter(c => accessibleIds.has(c.id));
     if (accessibleCountries.length === 0) {
       setShowPaywall(true);
       return;
@@ -99,28 +169,32 @@ export default function ExploreScreen() {
     router.push({ pathname: '/country/[id]' as any, params: { id: randomCountry.id } });
   };
 
-  const filteredCountries = countries.filter(country => {
-    const name = translateContent(country.name);
-    const matchesSearch = name.toLowerCase().includes(searchQuery.toLowerCase());
-    if (!matchesSearch) return false;
-
-    if (!filterStatus) return true;
-    if (filterStatus === 'favorites') {
-      return (userProfile.favoriteCountries || []).includes(country.id);
-    }
-    // Locked countries always show (greyed out) regardless of filter, except in favorites view
-    const accessible = isCountryAccessible(country, purchasedProducts);
-    if (!accessible && filterStatus !== 'favorites') return true;
-    const status = getCountryStatus(country.id);
-    return status === filterStatus;
-  }).sort((a, b) => {
-    // Sort unlocked countries first, then locked
-    const aAccessible = isCountryAccessible(a, purchasedProducts);
-    const bAccessible = isCountryAccessible(b, purchasedProducts);
+  // Unlocked countries first, then locked; alphabetical by localized name.
+  const sortedCountries = useMemo(() => [...countries].sort((a, b) => {
+    const aAccessible = accessibleIds.has(a.id);
+    const bAccessible = accessibleIds.has(b.id);
     if (aAccessible && !bAccessible) return -1;
     if (!aAccessible && bAccessible) return 1;
-    return translateContent(a.name).localeCompare(translateContent(b.name));
-  });
+    return getLocalizedName(a).localeCompare(getLocalizedName(b), language);
+  }), [countries, accessibleIds, getLocalizedName, language]);
+
+  const filteredCountries = useMemo(() => {
+    const query = normalizeForSearch(searchQuery);
+    return sortedCountries.filter(country => {
+      if (query) {
+        const searchNames = localizedCountries.get(country.id)?.searchNames ?? [];
+        if (!searchNames.some(name => name.includes(query))) return false;
+      }
+
+      if (!filterStatus) return true;
+      if (filterStatus === 'favorites') {
+        return favoriteCountryIds.includes(country.id);
+      }
+      // Locked countries always show (greyed out) regardless of filter, except in favorites view
+      if (!accessibleIds.has(country.id)) return true;
+      return getCountryStatus(countryProgress[country.id]) === filterStatus;
+    });
+  }, [sortedCountries, searchQuery, filterStatus, favoriteCountryIds, accessibleIds, countryProgress, localizedCountries]);
 
   const inProgressCountries = useMemo(() =>
     countries.filter(country => {
@@ -130,77 +204,43 @@ export default function ExploreScreen() {
     [countries, countryProgress]
   );
 
+  // One-time, low-priority prefetch: the first list thumbnails (same resized
+  // URL FoodImage requests) and the banners of in-progress countries.
+  const hasPrefetchedRef = useRef(false);
   useEffect(() => {
+    if (hasPrefetchedRef.current || sortedCountries.length === 0) return;
     const timer = setTimeout(() => {
-      const urls = filteredCountries.slice(0, 20).map(c => c.landscapeImage).filter((u): u is string => !!u);
-      void preloadImages(urls);
+      hasPrefetchedRef.current = true;
+      const thumbnailUrls = sortedCountries
+        .slice(0, PREFETCH_LIST_THUMBNAILS)
+        .map(c => c.landscapeImage)
+        .filter((u): u is string => !!u)
+        .map(getCountryThumbnailUrl);
+      const inProgressUrls = inProgressCountries
+        .slice(0, PREFETCH_IN_PROGRESS)
+        .map(c => c.landscapeImage)
+        .filter((u): u is string => !!u);
+      void preloadImages(Array.from(new Set([...thumbnailUrls, ...inProgressUrls])));
     }, 500);
     return () => clearTimeout(timer);
-  }, [filteredCountries]);
+  }, [sortedCountries, inProgressCountries]);
 
-  const getInProgressPercentage = (countryId: string) => {
-    const progress = countryProgress[countryId];
-    if (!progress) return 0;
-    if (progress.fullyCompleted) return 100;
-    return (progress.mainDishCooked ? 50 : 0) + (progress.quizCompleted ? 50 : 0);
-  };
-
-  const renderCountryCard = useCallback((country: Country) => {
-    const progress = countryProgress[country.id];
-    const completionPercentage = !progress ? 0 : progress.fullyCompleted ? 100 :
-      (progress.mainDishCooked ? 50 : 0) + (progress.quizCompleted ? 50 : 0);
-    const isAccessible = isCountryAccessible(country, purchasedProducts);
-
+  const renderCountryItem = useCallback<ListRenderItem<Country>>(({ item: country }) => {
+    const localized = localizedCountries.get(country.id);
     return (
-      <TouchableOpacity
-        key={country.id}
-        style={[styles.countryCard, !isAccessible && styles.countryCardLocked]}
-        onPress={() => handleCountryPress(country.id)}
-        accessibilityLabel={`Explore ${translateContent(country.name)}, ${translateContent(country.continent)}${!isAccessible ? ', locked' : ''}`}
-        accessibilityRole="button"
-        activeOpacity={0.7}
-      >
-        <View style={!isAccessible ? styles.cardThumbnailLocked : undefined}>
-          <FoodImage
-            uri={country.landscapeImage}
-            alt={translateContent(country.name)}
-            type="landscape"
-            width={80}
-            style={styles.cardThumbnail}
-          />
-        </View>
-        <View style={styles.flagButton}>
-          <Text style={[styles.flag, !isAccessible && styles.flagLocked]}>{country.flag}</Text>
-          {!isAccessible && (
-            <View style={styles.lockBadge}>
-              <Lock size={12} color="#FFF" />
-            </View>
-          )}
-        </View>
-        <View style={styles.countryInfo}>
-          <View style={styles.countryNameRow}>
-            <Text style={styles.countryName}>{translateContent(country.name)}</Text>
-            {!isAccessible && (
-              <View style={styles.lockIcon}>
-                <Lock size={16} color="#9CA3AF" />
-              </View>
-            )}
-          </View>
-          <Text style={styles.continent}>{translateContent(country.continent)}</Text>
-          {isAccessible && (
-            <View style={styles.progressContainer}>
-              <View style={styles.progressRow}>
-                <View style={styles.progressBar}>
-                  <View style={[styles.progressFill, { width: `${completionPercentage}%` }]} />
-                </View>
-                <Text style={styles.progressLabel}>{completionPercentage}%</Text>
-              </View>
-            </View>
-          )}
-        </View>
-      </TouchableOpacity>
+      <CountryListRow
+        countryId={country.id}
+        name={localized?.name ?? translateContent(country.name, language)}
+        continent={localized?.continent ?? translateContent(country.continent, language)}
+        flag={country.flag}
+        imageUri={country.landscapeImage}
+        isAccessible={accessibleIds.has(country.id)}
+        completionPercentage={getCompletionPercentage(countryProgress[country.id])}
+        onPress={handleCountryPress}
+        lockedLabel={t.ui.lockedLabel}
+      />
     );
-  }, [countryProgress, purchasedProducts, handleCountryPress]);
+  }, [localizedCountries, language, accessibleIds, countryProgress, handleCountryPress, t.ui.lockedLabel]);
 
   const renderFilterBar = () => (
     <View style={styles.filterContainer}>
@@ -208,7 +248,8 @@ export default function ExploreScreen() {
         <TouchableOpacity
           style={[styles.filterButton, filterStatus === null && styles.filterButtonActive]}
           onPress={() => { hapticLight(); setFilterStatus(null); }}
-          accessibilityLabel={`Filter: All${filterStatus === null ? ', selected' : ''}`}
+          accessibilityLabel={t.explore.all}
+          accessibilityState={{ selected: filterStatus === null }}
           accessibilityRole="button"
         >
           <Circle size={10} color={filterStatus === null ? '#FFF' : colors.gray300} fill={filterStatus === null ? '#FFF' : colors.gray300} />
@@ -217,7 +258,8 @@ export default function ExploreScreen() {
         <TouchableOpacity
           style={[styles.filterButton, filterStatus === 'favorites' && styles.filterButtonActive]}
           onPress={() => { hapticLight(); setFilterStatus('favorites'); }}
-          accessibilityLabel={`Filter: Favorites${filterStatus === 'favorites' ? ', selected' : ''}`}
+          accessibilityLabel={t.explore.favsView}
+          accessibilityState={{ selected: filterStatus === 'favorites' }}
           accessibilityRole="button"
         >
           <Heart size={14} color={filterStatus === 'favorites' ? '#FFF' : '#EF4444'} fill={filterStatus === 'favorites' ? '#FFF' : 'transparent'} />
@@ -226,16 +268,18 @@ export default function ExploreScreen() {
         <TouchableOpacity
           style={[styles.filterButton, filterStatus === 'to do' && styles.filterButtonActive]}
           onPress={() => { hapticLight(); setFilterStatus('to do'); }}
-          accessibilityLabel={`Filter: To do${filterStatus === 'to do' ? ', selected' : ''}`}
+          accessibilityLabel={t.explore.toDo}
+          accessibilityState={{ selected: filterStatus === 'to do' }}
           accessibilityRole="button"
         >
-          <Circle size={10} color={filterStatus === 'to do' ? '#FFF' : colors.gray300} fill={filterStatus === 'to do' ? '#FFF' : colors.gray300} />
+          <Circle size={10} color={filterStatus === 'to do' ? '#FFF' : STATUS_COLORS['to do']} fill={filterStatus === 'to do' ? '#FFF' : STATUS_COLORS['to do']} />
           <Text style={[styles.filterText, filterStatus === 'to do' && styles.filterTextActive]}>{t.explore.toDo}</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={[styles.filterButton, filterStatus === 'cooking' && styles.filterButtonActive]}
           onPress={() => { hapticLight(); setFilterStatus('cooking'); }}
-          accessibilityLabel={`Filter: Cooking${filterStatus === 'cooking' ? ', selected' : ''}`}
+          accessibilityLabel={t.explore.cooking}
+          accessibilityState={{ selected: filterStatus === 'cooking' }}
           accessibilityRole="button"
         >
           <UtensilsCrossed size={14} color={filterStatus === 'cooking' ? '#FFF' : colors.warningYellow} />
@@ -244,7 +288,8 @@ export default function ExploreScreen() {
         <TouchableOpacity
           style={[styles.filterButton, filterStatus === 'done' && styles.filterButtonActive]}
           onPress={() => { hapticLight(); setFilterStatus('done'); }}
-          accessibilityLabel={`Filter: Done${filterStatus === 'done' ? ', selected' : ''}`}
+          accessibilityLabel={t.explore.done}
+          accessibilityState={{ selected: filterStatus === 'done' }}
           accessibilityRole="button"
         >
           <CheckCircle2 size={14} color={filterStatus === 'done' ? '#FFF' : colors.successGreen} />
@@ -258,40 +303,65 @@ export default function ExploreScreen() {
     if (inProgressCountries.length === 0) return null;
     return (
       <View style={styles.inProgressSection}>
-        <Text style={styles.inProgressTitle}>In Progress</Text>
+        <Text style={styles.inProgressTitle}>{t.progress.inProgress}</Text>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.inProgressScroll}>
-          {inProgressCountries.map(country => (
-            <TouchableOpacity
-              key={country.id}
-              style={styles.inProgressCard}
-              onPress={() => handleCountryPress(country.id)}
-              accessibilityLabel={`Continue ${translateContent(country.name)}, ${getInProgressPercentage(country.id)}% complete`}
-              accessibilityRole="button"
-            >
-              <Text style={styles.inProgressFlag}>{country.flag}</Text>
-              <Text style={styles.inProgressName} numberOfLines={1}>{translateContent(country.name)}</Text>
-              <Text style={styles.inProgressPercent}>{getInProgressPercentage(country.id)}%</Text>
-            </TouchableOpacity>
-          ))}
+          {inProgressCountries.map(country => {
+            const name = getLocalizedName(country);
+            const percentage = getCompletionPercentage(countryProgress[country.id]);
+            return (
+              <TouchableOpacity
+                key={country.id}
+                style={styles.inProgressCard}
+                onPress={() => handleCountryPress(country.id)}
+                accessibilityLabel={`${name}, ${percentage}%`}
+                accessibilityRole="button"
+              >
+                <Text style={styles.inProgressFlag}>{country.flag}</Text>
+                <Text style={styles.inProgressName} numberOfLines={1}>{name}</Text>
+                <Text style={styles.inProgressPercent}>{percentage}%</Text>
+              </TouchableOpacity>
+            );
+          })}
         </ScrollView>
+      </View>
+    );
+  };
+
+  const renderListEmpty = () => {
+    if (isLoading && countries.length === 0) {
+      return <CountryListSkeleton count={6} />;
+    }
+    return (
+      <View style={styles.emptyListState}>
+        {filterStatus === 'favorites' ? (
+          <>
+            <Heart size={48} color={colors.gray300} />
+            <Text style={styles.emptyListText}>{t.explore.noFavorites}</Text>
+            <Text style={styles.emptyListSubtext}>{t.explore.noFavoritesDesc}</Text>
+          </>
+        ) : (
+          <>
+            <Search size={48} color={colors.gray300} />
+            <Text style={styles.emptyListText}>{s.noResults}</Text>
+          </>
+        )}
       </View>
     );
   };
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
-      {countriesError && (
-        <View style={styles.errorBanner}>
-          <Text style={styles.errorBannerText}>Offline — showing cached data</Text>
-        </View>
-      )}
       <View style={styles.header}>
-        <Text style={styles.title}>{t.explore.title}</Text>
+        <View style={styles.titleRow}>
+          <Text style={styles.title}>{t.explore.title}</Text>
+          {stats.currentStreak > 0 && <StreakChip count={stats.currentStreak} />}
+        </View>
         <View style={styles.viewToggle}>
           <TouchableOpacity
             style={[styles.toggleButton, viewMode === 'map' && styles.toggleButtonActive]}
             onPress={() => { hapticLight(); setViewMode('map'); }}
-            accessibilityLabel={`Map view${viewMode === 'map' ? ', selected' : ''}`}
+            accessibilityLabel={t.explore.mapView}
+            accessibilityState={{ selected: viewMode === 'map' }}
             accessibilityRole="button"
           >
             <Globe2 size={18} color={viewMode === 'map' ? '#FFF' : colors.gray500} />
@@ -300,7 +370,8 @@ export default function ExploreScreen() {
           <TouchableOpacity
             style={[styles.toggleButton, viewMode === 'list' && styles.toggleButtonActive]}
             onPress={() => { hapticLight(); setViewMode('list'); }}
-            accessibilityLabel={`List view${viewMode === 'list' ? ', selected' : ''}`}
+            accessibilityLabel={t.explore.listView}
+            accessibilityState={{ selected: viewMode === 'list' }}
             accessibilityRole="button"
           >
             <List size={18} color={viewMode === 'list' ? '#FFF' : colors.gray500} />
@@ -311,42 +382,53 @@ export default function ExploreScreen() {
 
       {viewMode === 'map' ? (
         <View style={styles.mapViewContainer}>
-          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 20 }} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor={colors.brand} />}>
+          <ScrollView
+            style={styles.scrollView}
+            showsVerticalScrollIndicator={false}
+            contentContainerStyle={{ paddingBottom: 20 }}
+            scrollEnabled={!isGlobeDragging}
+          >
+            {dishOfTheDay && (
+              <DishOfTheDayCard
+                dishName={translateContent(dishOfTheDay.recipe.name, language)}
+                countryName={getLocalizedName(dishOfTheDay.country)}
+                flag={dishOfTheDay.country.flag}
+                imageUrl={dishOfTheDay.recipe.imageUrl}
+                cookingTime={dishOfTheDay.recipe.cookingTime}
+                kind={dishOfTheDay.kind}
+                isLocked={!accessibleIds.has(dishOfTheDay.country.id)}
+                onPress={handleDishPress}
+              />
+            )}
+
             {renderFilterBar()}
             {renderInProgressStrip()}
 
             <View style={styles.section}>
               <View style={styles.globeWrapper}>
-                <Globe3D pins={countryPins} onCountryPress={handleCountryPress} filterStatus={filterStatus} accessibilityExploreHint={t.globe?.exploreHint} />
+                <Globe3D
+                  pins={countryPins}
+                  onCountryPress={handleCountryPress}
+                  filterStatus={filterStatus}
+                  favoriteCountryIds={favoriteCountryIds}
+                  onDragStateChange={setIsGlobeDragging}
+                  accessibilityExploreHint={t.globe?.exploreHint}
+                  animate={isScreenFocused}
+                />
               </View>
             </View>
 
-            <View style={styles.quickActions}>
-              <TouchableOpacity
-                style={[styles.quickActionButton, styles.quickActionCook]}
-                onPress={() => { hapticLight(); router.push('/ingredient-match'); }}
-                accessibilityLabel="What can I cook"
-                accessibilityRole="button"
-              >
-                <ChefHat size={18} color="#E8590C" />
-                <View style={styles.quickActionTextContainer}>
-                  <Text style={styles.quickActionText}>{t.explore.whatCanICook}</Text>
-                  <Text style={styles.quickActionSubtitle}>Match your ingredients</Text>
-                </View>
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={[styles.quickActionButton, styles.quickActionCollections]}
-                onPress={() => { hapticLight(); router.push('/collections'); }}
-                accessibilityLabel="Collections"
-                accessibilityRole="button"
-              >
-                <BookOpen size={18} color="#16A34A" />
-                <View style={styles.quickActionTextContainer}>
-                  <Text style={styles.quickActionText}>{t.explore.collections}</Text>
-                  <Text style={styles.quickActionSubtitle}>Browse curated sets</Text>
-                </View>
-              </TouchableOpacity>
-            </View>
+            {showUnlockBanner && (
+              <View style={styles.bannerContainer}>
+                <UnlockWorldBanner
+                  unlocked={accessibleIds.size}
+                  total={countries.length}
+                  onPress={handleOpenPaywall}
+                />
+              </View>
+            )}
+
+            <QuickActions />
 
             <View style={{ height: 20 }} />
           </ScrollView>
@@ -354,7 +436,7 @@ export default function ExploreScreen() {
           <TouchableOpacity
             style={styles.fab}
             onPress={handleRandomCountry}
-            accessibilityLabel="Pick a random country"
+            accessibilityLabel={t.explore.pickRandom}
             accessibilityRole="button"
           >
             <Shuffle size={24} color="#FFF" />
@@ -378,75 +460,40 @@ export default function ExploreScreen() {
           {renderFilterBar()}
           {renderInProgressStrip()}
 
-          <ScrollView
+          {/* Rows vary in height (long names wrap, locked rows have no progress bar), so no getItemLayout. */}
+          <FlatList
             style={styles.list}
+            data={isLoading && countries.length === 0 ? EMPTY_COUNTRIES : filteredCountries}
+            keyExtractor={countryKeyExtractor}
+            renderItem={renderCountryItem}
+            ListHeaderComponent={showUnlockBanner && !searchQuery ? (
+              <View style={styles.listBanner}>
+                <UnlockWorldBanner
+                  unlocked={accessibleIds.size}
+                  total={countries.length}
+                  onPress={handleOpenPaywall}
+                />
+              </View>
+            ) : null}
+            ListEmptyComponent={renderListEmpty()}
+            ListFooterComponent={<View style={styles.listFooter} />}
             showsVerticalScrollIndicator={false}
-            refreshControl={<RefreshControl refreshing={refreshing} onRefresh={handleRefresh} tintColor={colors.brand} />}
-          >
-            {isLoading && countries.length === 0 ? (
-              <CountryListSkeleton count={6} />
-            ) : filteredCountries.length === 0 ? (
-              <View style={styles.emptyListState}>
-                {filterStatus === 'favorites' ? (
-                  <>
-                    <Heart size={48} color={colors.gray300} />
-                    <Text style={styles.emptyListText}>{t.explore.noFavorites}</Text>
-                    <Text style={styles.emptyListSubtext}>{t.explore.noFavoritesDesc}</Text>
-                  </>
-                ) : (
-                  <>
-                    <Search size={48} color={colors.gray300} />
-                    <Text style={styles.emptyListText}>No countries match your search</Text>
-                  </>
-                )}
-              </View>
-            ) : (
-              filteredCountries.map(renderCountryCard)
-            )}
-            <View style={{ height: 20 }} />
-          </ScrollView>
+            keyboardShouldPersistTaps="handled"
+            initialNumToRender={INITIAL_LIST_ROWS}
+            maxToRenderPerBatch={INITIAL_LIST_ROWS}
+            windowSize={7}
+          />
 
-          <View style={styles.quickActions}>
-            <TouchableOpacity
-              style={[styles.quickActionButton, styles.quickActionCook]}
-              onPress={() => { hapticLight(); router.push('/ingredient-match'); }}
-              accessibilityLabel="What can I cook"
-              accessibilityRole="button"
-            >
-              <ChefHat size={18} color="#E8590C" />
-              <View style={styles.quickActionTextContainer}>
-                <Text style={styles.quickActionText}>{t.explore.whatCanICook}</Text>
-                <Text style={styles.quickActionSubtitle}>Match your ingredients</Text>
-              </View>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={[styles.quickActionButton, styles.quickActionCollections]}
-              onPress={() => { hapticLight(); router.push('/collections'); }}
-              accessibilityLabel="Collections"
-              accessibilityRole="button"
-            >
-              <BookOpen size={18} color="#16A34A" />
-              <View style={styles.quickActionTextContainer}>
-                <Text style={styles.quickActionText}>{t.explore.collections}</Text>
-                <Text style={styles.quickActionSubtitle}>Browse curated sets</Text>
-              </View>
-            </TouchableOpacity>
-          </View>
         </View>
       )}
 
       <Paywall
         visible={showPaywall}
-        onClose={() => {
-          setShowPaywall(false);
-          setSelectedCountry(null);
-        }}
-        country={selectedCountry ? countries.find(c => c.id === selectedCountry) : undefined}
+        onClose={() => setShowPaywall(false)}
         countries={countries}
         onPurchase={(productId) => {
           void purchaseProduct(productId);
           setShowPaywall(false);
-          setSelectedCountry(null);
         }}
         purchasedProducts={purchasedProducts}
       />
@@ -458,17 +505,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
-  },
-  errorBanner: {
-    backgroundColor: '#FEF3C7',
-    paddingVertical: 6,
-    paddingHorizontal: 16,
-    alignItems: 'center',
-  },
-  errorBannerText: {
-    color: '#92400E',
-    fontSize: 13,
-    fontWeight: '500',
   },
   emptyListState: {
     alignItems: 'center',
@@ -494,48 +530,24 @@ const styles = StyleSheet.create({
     paddingTop: 16,
     paddingBottom: 12,
   },
+  titleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 12,
+    marginBottom: 12,
+  },
   title: {
     fontSize: 24,
     fontWeight: '700' as const,
     color: colors.text,
+  },
+  bannerContainer: {
+    paddingHorizontal: 16,
     marginBottom: 12,
   },
-  quickActions: {
-    flexDirection: 'row',
-    paddingHorizontal: 16,
-    gap: 8,
-    marginBottom: 8,
-  },
-  quickActionButton: {
-    flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    paddingHorizontal: 14,
-    paddingVertical: 10,
-    borderRadius: 14,
-    borderWidth: 1,
-  },
-  quickActionCook: {
-    backgroundColor: '#FFF3ED',
-    borderColor: '#FDDCC8',
-  },
-  quickActionCollections: {
-    backgroundColor: '#F0FDF4',
-    borderColor: '#D1FAE5',
-  },
-  quickActionTextContainer: {
-    flexShrink: 1,
-  },
-  quickActionText: {
-    fontSize: 13,
-    fontWeight: '600' as const,
-    color: colors.text,
-  },
-  quickActionSubtitle: {
-    fontSize: 11,
-    color: colors.gray400,
-    marginTop: 1,
+  listBanner: {
+    marginBottom: 12,
   },
   viewToggle: {
     flexDirection: 'row',
@@ -622,38 +634,37 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   inProgressTitle: {
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: '600' as const,
     color: colors.textSecondary,
-    marginBottom: 8,
+    marginBottom: 6,
   },
   inProgressScroll: {
-    gap: 10,
+    gap: 8,
   },
   inProgressCard: {
-    backgroundColor: colors.surface,
-    borderRadius: 12,
-    paddingVertical: 10,
-    paddingHorizontal: 12,
+    flexDirection: 'row',
     alignItems: 'center',
-    gap: 4,
-    minWidth: 80,
+    gap: 6,
+    backgroundColor: colors.surface,
+    borderRadius: 16,
+    paddingVertical: 6,
+    paddingHorizontal: 10,
     borderWidth: 1,
     borderColor: colors.border,
   },
   inProgressFlag: {
-    fontSize: 24,
+    fontSize: 16,
   },
   inProgressName: {
-    fontSize: 12,
+    fontSize: 13,
     fontWeight: '600' as const,
     color: colors.text,
-    maxWidth: 70,
-    textAlign: 'center',
+    maxWidth: 120,
   },
   inProgressPercent: {
-    fontSize: 11,
-    fontWeight: '500' as const,
+    fontSize: 12,
+    fontWeight: '600' as const,
     color: colors.warningYellow,
   },
   listContainer: {
@@ -681,158 +692,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 16,
   },
-  countryCard: {
-    flexDirection: 'row',
-    backgroundColor: colors.surface,
-    borderRadius: 12,
-    padding: 12,
-    marginBottom: 12,
-    gap: 12,
-    alignItems: 'center',
-  },
-  cardThumbnail: {
-    width: 80,
-    height: 56,
-    borderRadius: 8,
-  },
-  flagButton: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  flag: {
-    fontSize: 40,
-  },
-  countryInfo: {
-    flex: 1,
-    gap: 4,
-  },
-  countryName: {
-    fontSize: 18,
-    fontWeight: '600' as const,
-    color: colors.text,
-  },
-  continent: {
-    fontSize: 14,
-    color: colors.gray500,
-  },
-  progressContainer: {
-    marginTop: 4,
-  },
-  progressRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 6,
-  },
-  progressLabel: {
-    fontSize: 11,
-    fontWeight: '500' as const,
-    color: colors.gray400,
-  },
-  progressBar: {
-    flex: 1,
-    height: 6,
-    backgroundColor: colors.sand,
-    borderRadius: 3,
-    overflow: 'hidden',
-  },
-  progressFill: {
-    height: '100%',
-    backgroundColor: colors.successGreen,
-    borderRadius: 3,
-  },
-  countryListSection: {
-    paddingHorizontal: 16,
-    paddingTop: 24,
-  },
-  sectionTitle: {
-    fontSize: 20,
-    fontWeight: '700' as const,
-    color: colors.text,
-    marginBottom: 16,
-  },
-  countryGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 12,
-  },
-  countryChip: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: colors.surface,
-    paddingVertical: 10,
-    paddingHorizontal: 12,
-    borderRadius: 12,
-    gap: 8,
-    minWidth: '47%',
-    maxWidth: '47%',
-    boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.05)',
-    elevation: 1,
-  },
-  statusDot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-  },
-  countryChipFlag: {
-    fontSize: 20,
-  },
-  countryChipName: {
-    flex: 1,
-    fontSize: 14,
-    fontWeight: '600' as const,
-    color: colors.text,
-  },
-  emptyFavorites: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingHorizontal: 32,
-    paddingTop: 80,
-  },
-  emptyTitle: {
-    fontSize: 20,
-    fontWeight: '700' as const,
-    color: colors.text,
-    marginTop: 24,
-    marginBottom: 8,
-  },
-  emptyText: {
-    fontSize: 16,
-    color: colors.gray500,
-    textAlign: 'center',
-    lineHeight: 24,
-  },
-  countryNameRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  lockIcon: {
-    opacity: 0.6,
-  },
-  lockBadge: {
-    position: 'absolute',
-    bottom: -4,
-    right: -4,
-    backgroundColor: colors.brand,
-    borderRadius: 10,
-    width: 20,
+  listFooter: {
     height: 20,
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderWidth: 2,
-    borderColor: colors.surface,
   },
-  flagLocked: {
-    opacity: 0.5,
-  },
-  countryCardLocked: {
-    backgroundColor: '#F3F2EF',
-    opacity: 0.75,
-  },
-  cardThumbnailLocked: {
-    opacity: 0.5,
-    borderRadius: 8,
-    overflow: 'hidden',
-  },
-})
+});

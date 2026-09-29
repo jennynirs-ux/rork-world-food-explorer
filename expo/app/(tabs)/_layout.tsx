@@ -1,10 +1,16 @@
 import { Tabs } from "expo-router";
 import { View, StyleSheet } from "react-native";
-import { Compass, Award, ShoppingCart, User, CalendarDays } from "lucide-react-native";
+import { Compass, Award, BookOpen, User, CalendarDays } from "lucide-react-native";
+import { useTranslation } from '@/lib/i18n';
+import { useStrings } from '@/lib/strings';
+import { cookbookStrings } from '@/lib/strings/cookbook';
 
 export default function TabLayout() {
+  const { t } = useTranslation();
+  const cookbook = useStrings(cookbookStrings);
   return (
     <Tabs
+      backBehavior="history"
       screenOptions={{
         tabBarActiveTintColor: '#FF6B35',
         tabBarInactiveTintColor: '#9CA3AF',
@@ -28,15 +34,15 @@ export default function TabLayout() {
       <Tabs.Screen
         name="meal-plan"
         options={{
-          title: "Plan",
+          title: t.ui.tabPlan,
           tabBarIcon: ({ color, size }) => <CalendarDays color={color} size={size} />,
         }}
       />
       <Tabs.Screen
-        name="countries"
+        name="cookbook"
         options={{
-          title: "Shopping",
-          tabBarIcon: ({ color, size }) => <ShoppingCart color={color} size={size} />,
+          title: cookbook.tabTitle,
+          tabBarIcon: ({ color, size }) => <BookOpen color={color} size={size} />,
         }}
       />
 
@@ -44,7 +50,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Explore",
+          title: t.ui.tabExplore,
           tabBarIcon: ({ color, focused }) => (
             <View style={[styles.exploreIcon, focused && styles.exploreIconActive]}>
               <Compass color={focused ? '#FFF' : color} size={28} />
@@ -62,25 +68,18 @@ export default function TabLayout() {
       <Tabs.Screen
         name="progress"
         options={{
-          title: "Progress",
+          title: t.ui.tabProgress,
           tabBarIcon: ({ color, size }) => <Award color={color} size={size} />,
         }}
       />
       <Tabs.Screen
         name="profile"
         options={{
-          title: "Profile",
+          title: t.ui.tabProfile,
           tabBarIcon: ({ color, size }) => <User color={color} size={size} />,
         }}
       />
 
-      {/* Hidden route */}
-      <Tabs.Screen
-        name="country/[id]"
-        options={{
-          href: null,
-        }}
-      />
     </Tabs>
   );
 }

@@ -1,21 +1,22 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Stack, useRouter, useSegments } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { AppProvider, useApp } from "@/contexts/AppContext";
-import { trpc, trpcClient } from "@/lib/trpc";
 import ErrorBoundary from "@/components/ErrorBoundary";
-import OfflineBanner from "@/components/OfflineBanner";
 
 SplashScreen.preventAutoHideAsync();
-
-const queryClient = new QueryClient();
 
 function RootLayoutNav() {
   const { userProfile, isLoading } = useApp();
   const router = useRouter();
   const segments = useSegments();
+
+  // Keep the splash up until the saved profile is loaded, so returning users
+  // never see onboarding flash and new users never see Explore flash.
+  useEffect(() => {
+    if (!isLoading) void SplashScreen.hideAsync();
+  }, [isLoading]);
 
   useEffect(() => {
     if (isLoading) return;
@@ -32,36 +33,26 @@ function RootLayoutNav() {
     <Stack screenOptions={{ headerBackTitle: "Back" }}>
       <Stack.Screen name="onboarding" options={{ headerShown: false }} />
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-      <Stack.Screen 
-        name="shopping-list" 
-        options={{ 
+      <Stack.Screen name="country/[id]" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="shopping-list"
+        options={{
           headerShown: false,
           presentation: 'card'
-        }} 
+        }}
       />
     </Stack>
   );
 }
 
 export default function RootLayout() {
-  const [trpcClientState] = useState(() => trpcClient);
-
-  useEffect(() => {
-    SplashScreen.hideAsync();
-  }, []);
-
   return (
-    <trpc.Provider client={trpcClientState} queryClient={queryClient}>
-      <QueryClientProvider client={queryClient}>
-        <GestureHandlerRootView style={{ flex: 1 }}>
-          <AppProvider>
-            <ErrorBoundary>
-              <OfflineBanner />
-              <RootLayoutNav />
-            </ErrorBoundary>
-          </AppProvider>
-        </GestureHandlerRootView>
-      </QueryClientProvider>
-    </trpc.Provider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <AppProvider>
+        <ErrorBoundary>
+          <RootLayoutNav />
+        </ErrorBoundary>
+      </AppProvider>
+    </GestureHandlerRootView>
   );
 }

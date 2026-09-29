@@ -12,12 +12,14 @@ import {
   TextInput,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
 import {
   ChevronLeft,
   ChevronRight,
   Plus,
   Trash2,
   ShoppingCart,
+  ListPlus,
   Share2,
   CalendarDays,
   MapPin,
@@ -30,38 +32,63 @@ import { translateContent } from '@/lib/translate-content';
 import { hapticLight, hapticSuccess } from '@/lib/haptics';
 import { isCountryAccessible } from '@/lib/access-control';
 import colors from '@/constants/colors';
+import { getPlannedRecipe } from '@/lib/grocery-export';
 import { MealPlan } from '@/types';
+import { fill, useStrings } from '@/lib/strings';
+import { shoppingStrings } from '@/lib/strings/cookbook';
 
 const MEAL_TYPES = ['lunch', 'dinner', 'dessert'] as const;
 type MealType = typeof MEAL_TYPES[number];
 
-function getWeekDates(baseDate: Date): string[] {
-  const dates: string[] = [];
-  const day = baseDate.getDay();
-  const monday = new Date(baseDate);
-  monday.setDate(baseDate.getDate() - ((day + 6) % 7));
+/**
+ * Local calendar date as YYYY-MM-DD. (toISOString() gives the UTC date, which
+ * is already tomorrow on a US evening.)
+ */
+function toDateKey(d: Date): string {
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${d.getFullYear()}-${month}-${day}`;
+}
 
+/** Parse a YYYY-MM-DD key as local noon (safe from DST edges). */
+function fromDateKey(key: string): Date {
+  const [y, m, d] = key.split('-').map(Number);
+  return new Date(y, m - 1, d, 12);
+}
+
+function getWeekDates(baseDate: Date): string[] {
+  const offsetToMonday = (baseDate.getDay() + 6) % 7;
+  const dates: string[] = [];
   for (let i = 0; i < 7; i++) {
-    const d = new Date(monday);
-    d.setDate(monday.getDate() + i);
-    dates.push(d.toISOString().split('T')[0]);
+    dates.push(toDateKey(new Date(
+      baseDate.getFullYear(),
+      baseDate.getMonth(),
+      baseDate.getDate() - offsetToMonday + i,
+      12,
+    )));
   }
   return dates;
 }
 
-function formatDate(dateStr: string): string {
-  const d = new Date(dateStr + 'T12:00:00');
-  return d.toLocaleDateString('en', { weekday: 'short', month: 'short', day: 'numeric' });
+function formatLocalized(dateStr: string, locale: string, options: Intl.DateTimeFormatOptions): string {
+  const d = fromDateKey(dateStr);
+  try {
+    return d.toLocaleDateString(locale, options);
+  } catch {
+    return d.toLocaleDateString('en', options);
+  }
 }
 
-function formatShortDay(dateStr: string): string {
-  const d = new Date(dateStr + 'T12:00:00');
-  return d.toLocaleDateString('en', { weekday: 'short' });
+function formatDate(dateStr: string, locale: string): string {
+  return formatLocalized(dateStr, locale, { weekday: 'short', month: 'short', day: 'numeric' });
+}
+
+function formatShortDay(dateStr: string, locale: string): string {
+  return formatLocalized(dateStr, locale, { weekday: 'short' });
 }
 
 function formatDayNum(dateStr: string): string {
-  const d = new Date(dateStr + 'T12:00:00');
-  return d.getDate().toString();
+  return fromDateKey(dateStr).getDate().toString();
 }
 
 export default function MealPlanScreen() {
@@ -73,14 +100,22 @@ export default function MealPlanScreen() {
     getMealPlansForDate,
     addMealPlanToShoppingList,
     userProfile,
+    shoppingList,
   } = useApp();
   const { t } = useTranslation();
+  const router = useRouter();
+  const shopping = useStrings(shoppingStrings);
+  const toBuyCount = shoppingList.filter(item => !item.checked).length;
 
   const lang = userProfile.language || 'en';
+  const mealTypeLabel = (mealType: MealPlan['mealType']): string => {
+    const label = t.mealPlan[mealType as keyof typeof t.mealPlan];
+    return typeof label === 'string' && label
+      ? label
+      : mealType.charAt(0).toUpperCase() + mealType.slice(1);
+  };
   const [baseDate, setBaseDate] = useState(new Date());
-  const [selectedDate, setSelectedDate] = useState(
-    new Date().toISOString().split('T')[0],
-  );
+  const [selectedDate, setSelectedDate] = useState(() => toDateKey(new Date()));
   const [showRecipePicker, setShowRecipePicker] = useState(false);
   const [selectedMealType, setSelectedMealType] = useState<MealType>('lunch');
   const [recipeSearch, setRecipeSearch] = useState('');
@@ -180,7 +215,7 @@ export default function MealPlanScreen() {
     for (const plan of weekPlans) {
       addMealPlanToShoppingList(plan);
     }
-    Alert.alert(t.mealPlan.added, `Ingredients for ${weekPlans.length} meals added to shopping list`);
+    Alert.alert(t.mealPlan.added, t.mealPlan.ingredientsAdded);
   };
 
   const handleExportWeek = async () => {
@@ -196,44 +231,46 @@ export default function MealPlanScreen() {
       const dayPlans = weekPlans.filter(p => p.date === date);
       if (dayPlans.length === 0) continue;
 
-      text += `${formatDate(date)}:\n`;
+      text += `${formatDate(date, lang)}:\n`;
       for (const plan of dayPlans) {
         const c = countries.find(cn => cn.id === plan.countryId);
         if (!c) continue;
-        const recipe = plan.recipeId.endsWith('-dessert') ? c.dessert : c.mainDish;
+        const recipe = getPlannedRecipe(c, plan);
         if (!recipe) continue;
         const recipeName = translateContent(recipe.name, lang);
-        text += `  ${plan.mealType}: ${recipeName} (${translateContent(c.name, lang)})\n`;
+        text += `  ${mealTypeLabel(plan.mealType)}: ${recipeName} (${translateContent(c.name, lang)})\n`;
       }
       text += '\n';
     }
 
     // Add combined grocery list
     text += '---\nGrocery List:\n';
-    const groceryMap = new Map<string, { amount: number; unit: string }>();
+    // Merge on the English name/unit, show them in the user's language.
+    const groceryMap = new Map<string, { name: string; amount: number; unit: string }>();
 
     for (const plan of weekPlans) {
       const c = countries.find(cn => cn.id === plan.countryId);
       if (!c) continue;
-      const recipe = plan.recipeId.endsWith('-dessert') ? c.dessert : c.mainDish;
+      const recipe = getPlannedRecipe(c, plan);
       if (!recipe) continue;
 
       for (const ing of recipe.ingredients) {
-        const name = typeof ing.name === 'string' ? ing.name : ing.name.en;
-        const unit = typeof ing.unit === 'string' ? ing.unit : ing.unit.en;
-        const key = `${name}|${unit}`;
+        const key = `${translateContent(ing.name, 'en').toLowerCase()}|${translateContent(ing.unit, 'en').toLowerCase()}`;
         const existing = groceryMap.get(key);
         if (existing) {
           existing.amount += ing.amount;
         } else {
-          groceryMap.set(key, { amount: ing.amount, unit });
+          groceryMap.set(key, {
+            name: translateContent(ing.name, lang),
+            amount: ing.amount,
+            unit: translateContent(ing.unit, lang),
+          });
         }
       }
     }
 
-    for (const [key, val] of groceryMap.entries()) {
-      const name = key.split('|')[0];
-      text += `  - ${val.amount.toFixed(1)} ${val.unit} ${name}\n`;
+    for (const val of groceryMap.values()) {
+      text += `  - ${val.amount.toFixed(1)} ${val.unit} ${val.name}\n`;
     }
 
     try {
@@ -249,7 +286,7 @@ export default function MealPlanScreen() {
   const getRecipeInfo = (plan: MealPlan) => {
     const c = countries.find(cn => cn.id === plan.countryId);
     if (!c) return null;
-    const recipe = plan.recipeId.endsWith('-dessert') ? c.dessert : c.mainDish;
+    const recipe = getPlannedRecipe(c, plan);
     if (!recipe) return null;
     return {
       name: translateContent(recipe.name, lang),
@@ -258,7 +295,7 @@ export default function MealPlanScreen() {
     };
   };
 
-  const today = new Date().toISOString().split('T')[0];
+  const today = toDateKey(new Date());
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
@@ -266,11 +303,41 @@ export default function MealPlanScreen() {
         <View style={styles.header}>
           <Text style={styles.title}>{t.mealPlan.title}</Text>
           <View style={styles.headerActions}>
-            <TouchableOpacity style={styles.headerBtn} onPress={handleAddWeekToShoppingList}>
-              <ShoppingCart size={18} color={colors.terracotta} />
+            <TouchableOpacity
+              style={styles.headerBtn}
+              onPress={handleAddWeekToShoppingList}
+              accessibilityRole="button"
+              accessibilityLabel={shopping.addWeek}
+            >
+              <ListPlus size={18} color={colors.terracotta} />
             </TouchableOpacity>
-            <TouchableOpacity style={styles.headerBtn} onPress={handleExportWeek}>
+            <TouchableOpacity
+              style={styles.headerBtn}
+              onPress={handleExportWeek}
+              accessibilityRole="button"
+              accessibilityLabel={shopping.shareWeek}
+            >
               <Share2 size={18} color={colors.terracotta} />
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.headerBtn}
+              onPress={() => {
+                hapticLight();
+                router.push('/shopping-list');
+              }}
+              accessibilityRole="button"
+              accessibilityLabel={
+                toBuyCount > 0
+                  ? `${shopping.openList}, ${fill(shopping.toBuyCount, { count: toBuyCount })}`
+                  : shopping.openList
+              }
+            >
+              <ShoppingCart size={18} color={colors.terracotta} />
+              {toBuyCount > 0 && (
+                <View style={styles.cartBadge} pointerEvents="none">
+                  <Text style={styles.cartBadgeText}>{toBuyCount > 99 ? '99+' : toBuyCount}</Text>
+                </View>
+              )}
             </TouchableOpacity>
           </View>
         </View>
@@ -281,7 +348,7 @@ export default function MealPlanScreen() {
             <ChevronLeft size={24} color={colors.text} />
           </TouchableOpacity>
           <Text style={styles.weekLabel}>
-            {formatDate(weekDates[0])} – {formatDate(weekDates[6])}
+            {formatDate(weekDates[0], lang)} – {formatDate(weekDates[6], lang)}
           </Text>
           <TouchableOpacity onPress={() => navigateWeek(1)} style={styles.navBtn}>
             <ChevronRight size={24} color={colors.text} />
@@ -313,7 +380,7 @@ export default function MealPlanScreen() {
                     isSelected && styles.dayNameSelected,
                   ]}
                 >
-                  {formatShortDay(date)}
+                  {formatShortDay(date, lang)}
                 </Text>
                 <Text
                   style={[
@@ -337,7 +404,7 @@ export default function MealPlanScreen() {
         </View>
 
         {/* Selected Day */}
-        <Text style={styles.selectedDayLabel}>{formatDate(selectedDate)}</Text>
+        <Text style={styles.selectedDayLabel}>{formatDate(selectedDate, lang)}</Text>
 
         {/* Meal Slots */}
         {MEAL_TYPES.map(mealType => {
@@ -345,9 +412,7 @@ export default function MealPlanScreen() {
 
           return (
             <View key={mealType} style={styles.mealSlot}>
-              <Text style={styles.mealTypeLabel}>
-                {t.mealPlan[mealType as keyof typeof t.mealPlan] || mealType.charAt(0).toUpperCase() + mealType.slice(1)}
-              </Text>
+              <Text style={styles.mealTypeLabel}>{mealTypeLabel(mealType)}</Text>
               {plans.length > 0 ? (
                 <>
                   {plans.map(plan => {
@@ -430,9 +495,7 @@ export default function MealPlanScreen() {
         <View style={styles.modalOverlay}>
           <View style={styles.modalSheet}>
             <View style={styles.modalHeader}>
-              <Text style={styles.modalTitle}>
-                {t.mealPlan[selectedMealType as keyof typeof t.mealPlan] || selectedMealType.charAt(0).toUpperCase() + selectedMealType.slice(1)}
-              </Text>
+              <Text style={styles.modalTitle}>{mealTypeLabel(selectedMealType)}</Text>
               <TouchableOpacity onPress={() => setShowRecipePicker(false)} style={styles.modalCloseBtn}>
                 <X size={22} color={colors.text} />
               </TouchableOpacity>
@@ -518,6 +581,26 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderWidth: 1,
     borderColor: colors.border,
+  },
+  cartBadge: {
+    position: 'absolute',
+    top: -5,
+    right: -5,
+    minWidth: 18,
+    height: 18,
+    paddingHorizontal: 4,
+    borderRadius: 9,
+    backgroundColor: colors.brand,
+    borderWidth: 2,
+    borderColor: colors.background,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  cartBadgeText: {
+    color: '#FFF',
+    fontSize: 10,
+    fontWeight: '700' as const,
+    lineHeight: 12,
   },
   weekNav: {
     flexDirection: 'row',

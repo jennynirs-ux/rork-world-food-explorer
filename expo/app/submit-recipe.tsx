@@ -7,6 +7,8 @@ import {
   TouchableOpacity,
   TextInput,
   Alert,
+  Linking,
+  Share,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
@@ -21,6 +23,49 @@ type IngredientEntry = { name: string; amount: string; unit: string };
 
 const STORAGE_KEY = '@world_cooking_community_recipes';
 const DRAFT_KEY = '@world_cooking_recipe_draft';
+
+const SUBMISSION_EMAIL = 'support@mojjo.se';
+
+type Submission = {
+  recipeName: string;
+  countryOrigin: string;
+  description: string;
+  cookingTime: number;
+  servings: number;
+  difficulty: string;
+  ingredients: { name: string; amount: number; unit: string }[];
+  steps: string[];
+  submittedBy: string;
+};
+
+/**
+ * Hand the recipe to the user's mail app, addressed to the team.
+ * Falls back to the share sheet when no mail app is configured.
+ */
+async function sendSubmission(recipe: Submission): Promise<void> {
+  const body = [
+    `Recipe: ${recipe.recipeName}`,
+    `Country: ${recipe.countryOrigin}`,
+    `Submitted by: ${recipe.submittedBy}`,
+    `Time: ${recipe.cookingTime} min · Servings: ${recipe.servings} · Difficulty: ${recipe.difficulty}`,
+    '',
+    recipe.description,
+    '',
+    'Ingredients:',
+    ...recipe.ingredients.map(i => `- ${i.amount} ${i.unit} ${i.name}`),
+    '',
+    'Steps:',
+    ...recipe.steps.map((step, idx) => `${idx + 1}. ${step}`),
+  ].join('\n');
+  const subject = `Recipe submission: ${recipe.recipeName} (${recipe.countryOrigin})`;
+  const mailto = `mailto:${SUBMISSION_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  try {
+    await Linking.openURL(mailto);
+  } catch {
+    await Share.share({ title: subject, message: `${subject}\n\n${body}\n\n→ ${SUBMISSION_EMAIL}` });
+  }
+}
 
 export default function SubmitRecipeScreen() {
   const router = useRouter();
@@ -150,6 +195,8 @@ export default function SubmitRecipeScreen() {
       const submissions = existing ? JSON.parse(existing) : [];
       submissions.push(submission);
       await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(submissions));
+
+      await sendSubmission(submission);
 
       hapticSuccess();
       await AsyncStorage.removeItem(DRAFT_KEY);
