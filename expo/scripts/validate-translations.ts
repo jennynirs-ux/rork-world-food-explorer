@@ -2,7 +2,7 @@
  * Translation Validation Script (I18N-001)
  *
  * Scans all 195 country data files and reports:
- * - Missing translations (empty or undefined sv/es/fr/de fields)
+ * - Missing translations (empty or undefined sv/es/fr/de/it/pl/nl/pt fields)
  * - Suspiciously identical translations (sv === en, likely not translated)
  * - Extremely short translations (< 10 chars for descriptions)
  * - Placeholder text patterns (lorem, TODO, TBD, ???)
@@ -12,7 +12,7 @@
 
 import { countries } from '../data/countries';
 
-const SUPPORTED_LANGS = ['en', 'sv', 'es', 'fr', 'de'] as const;
+const SUPPORTED_LANGS = ['en', 'sv', 'es', 'fr', 'de', 'it', 'pl', 'nl', 'pt'] as const;
 type Lang = typeof SUPPORTED_LANGS[number];
 
 interface TranslationIssue {
