@@ -2,7 +2,7 @@
   "expo": {
     "name": "World Food Journey",
     "slug": "world-food-journey",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "worldfoodexplorer",
@@ -74,6 +74,15 @@
           "photosPermission": "World Food Journey uses your photo library so you can add cooking photos to your recipes.",
           "cameraPermission": "World Food Journey uses your camera so you can take photos of your finished dishes.",
           "microphonePermission": false
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableMinifyInReleaseBuilds": true,
+            "extraProguardRules": "# RevenueCat: keep the purchase flow exactly as in unminified builds\n-keep class com.revenuecat.purchases.** { *; }\n# React Native libraries without their own consumer rules (JNI / reflection)\n-keep class com.swmansion.gesturehandler.** { *; }\n-keep class com.swmansion.rnscreens.** { *; }\n-keep class com.th3rdwave.safeareacontext.** { *; }\n-keep class fr.greweb.reactnativeviewshot.** { *; }\n-keep class com.reactnativecommunity.asyncstorage.** { *; }\n-keep class expo.modules.notifications.** { *; }"
+          }
         }
       ]
     ],
