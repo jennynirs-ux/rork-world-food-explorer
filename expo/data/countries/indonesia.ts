@@ -265,7 +265,7 @@ export const indonesia: Country = {
       {
         name: {
           en: 'Batik Textile Art',
-          sv: 'Batik Textile Art',
+          sv: 'Batik – textilkonst',
           es: 'Arte textil batik',
           fr: 'Art textile batik',
           de: 'Batik Textilkunst',
@@ -290,7 +290,7 @@ export const indonesia: Country = {
       {
         name: {
           en: 'Gamelan Musical Innovation',
-          sv: 'Gamelan Musical Innovation',
+          sv: 'Gamelanmusikens nyskapande',
           es: 'Gamelan Innovación Musical',
           fr: 'Innovation Musicale Gamelan',
           de: 'Gamelan Musikinnovation',
@@ -315,7 +315,7 @@ export const indonesia: Country = {
       {
         name: {
           en: 'Tempeh Fermentation',
-          sv: 'Tempeh Fermentation',
+          sv: 'Fermentering av tempeh',
           es: 'Fermentación del tempeh',
           fr: 'Fermentation du tempeh',
           de: 'Tempeh-Fermentation',
@@ -768,14 +768,14 @@ export const indonesia: Country = {
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -820,7 +820,7 @@ export const indonesia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -841,7 +841,7 @@ export const indonesia: Country = {
             pt: 'Pasta de camarão',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -871,7 +871,7 @@ export const indonesia: Country = {
         {
           name: {
             en: 'Cucumber',
-            sv: 'Cucumber',
+            sv: 'Gurka',
             es: 'Pepino',
             fr: 'Concombre',
             de: 'Gurke',
@@ -1050,7 +1050,7 @@ export const indonesia: Country = {
         {
           name: {
             en: 'Glutinous rice flour',
-            sv: 'Glutinous rice flour',
+            sv: 'Klibbigt rismjöl',
             es: 'Harina de arroz glutinoso',
             fr: 'Farine de riz gluant',
             de: 'Klebreismehl',
@@ -1148,8 +1148,8 @@ export const indonesia: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1284,8 +1284,28 @@ export const indonesia: Country = {
       imageUrl: 'https://images.pexels.com/photos/7429103/pexels-photo-7429103.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Bintang beer, Arak (local spirit), Palm wine',
-      nonAlcoholic: 'Teh botol (bottled sweet tea), Es kelapa (coconut water), Jamu (herbal drink)',
+      alcoholic: {
+        en: 'Bintang beer, Arak (local spirit), Palm wine',
+        sv: 'Bintang-öl, Arak (lokal sprit), Palmvin',
+        de: 'Bintang-Bier, Arak (lokaler Schnaps), Palmwein',
+        fr: 'Bière Bintang, Arak (alcool local), Vin de palme',
+        es: 'Cerveza Bintang, Arak (licor local), Vino de palma',
+        it: 'Birra Bintang, Arak (distillato locale), Vino di palma',
+        pl: 'Piwo Bintang, Arak (lokalny trunek), Wino palmowe',
+        nl: 'Bintang-bier, Arak (lokale sterkedrank), Palmwijn',
+        pt: 'Cerveja Bintang, Arak (destilado local), Vinho de palma',
+      },
+      nonAlcoholic: {
+        en: 'Teh botol (bottled sweet tea), Es kelapa (coconut water), Jamu (herbal drink)',
+        sv: 'Teh botol (sött te på flaska), Es kelapa (kokosvatten), Jamu (örtdryck)',
+        de: 'Teh botol (gesüßter Flaschentee), Es kelapa (Kokoswasser), Jamu (Kräutergetränk)',
+        fr: 'Teh botol (thé sucré en bouteille), Es kelapa (eau de coco), Jamu (boisson aux herbes)',
+        es: 'Teh botol (té dulce embotellado), Es kelapa (agua de coco), Jamu (bebida de hierbas)',
+        it: 'Teh botol (tè dolce in bottiglia), Es kelapa (acqua di cocco), Jamu (bevanda alle erbe)',
+        pl: 'Teh botol (słodka herbata w butelce), Es kelapa (woda kokosowa), Jamu (napój ziołowy)',
+        nl: 'Teh botol (zoete thee in fles), Es kelapa (kokoswater), Jamu (kruidendrank)',
+        pt: 'Teh botol (chá doce engarrafado), Es kelapa (água de coco), Jamu (bebida de ervas)',
+      },
     },
     music: [
       { en: 'Gamelan (traditional orchestra)', sv: 'Gamelan (traditionell orkester)', de: 'Gamelan (traditionelles Orchester)', fr: 'Gamelan (orchestre traditionnel)', es: 'Gamelan (orquesta tradicional)', it: 'Gamelan (orchestra tradizionale)', pl: 'Gamelan (tradycyjna orkiestra)', nl: 'Gamelan (traditioneel orkest)', pt: 'Gamelan (orquestra tradicional)' },

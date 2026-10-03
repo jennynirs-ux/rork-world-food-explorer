@@ -724,7 +724,7 @@ export const unitedKingdom: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -739,7 +739,7 @@ export const unitedKingdom: Country = {
             pt: 'Sal',
           },
           amount: 1.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -946,7 +946,7 @@ export const unitedKingdom: Country = {
             pt: 'Bicarbonato de sódio',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1031,7 +1031,7 @@ export const unitedKingdom: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1046,7 +1046,7 @@ export const unitedKingdom: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1080,7 +1080,7 @@ export const unitedKingdom: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1182,8 +1182,28 @@ export const unitedKingdom: Country = {
       imageUrl: 'https://images.pexels.com/photos/5419205/pexels-photo-5419205.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Beer, Whisky, Gin, Pimm\'s',
-      nonAlcoholic: 'Tea (with milk), Irn-Bru, Elderflower cordial',
+      alcoholic: {
+        en: 'Beer, Whisky, Gin, Pimm\'s',
+        sv: 'Öl, Whisky, Gin, Pimm\'s',
+        de: 'Bier, Whisky, Gin, Pimm\'s',
+        fr: 'Bière, Whisky, Gin, Pimm\'s',
+        es: 'Cerveza, Whisky, Ginebra, Pimm\'s',
+        it: 'Birra, Whisky, Gin, Pimm\'s',
+        pl: 'Piwo, Whisky, Gin, Pimm\'s',
+        nl: 'Bier, Whisky, Gin, Pimm\'s',
+        pt: 'Cerveja, Uísque, Gim, Pimm\'s',
+      },
+      nonAlcoholic: {
+        en: 'Tea (with milk), Irn-Bru, Elderflower cordial',
+        sv: 'Te (med mjölk), Irn-Bru, Fläderblomssaft',
+        de: 'Tee (mit Milch), Irn-Bru, Holunderblütensirup',
+        fr: 'Thé (au lait), Irn-Bru, Sirop de fleurs de sureau',
+        es: 'Té (con leche), Irn-Bru, Sirope de flor de saúco',
+        it: 'Tè (con latte), Irn-Bru, Sciroppo di fiori di sambuco',
+        pl: 'Herbata (z mlekiem), Irn-Bru, Syrop z kwiatów czarnego bzu',
+        nl: 'Thee (met melk), Irn-Bru, Vlierbloesemsiroop',
+        pt: 'Chá (com leite), Irn-Bru, Xarope de flor de sabugueiro',
+      },
     },
     music: [
       { en: 'The Beatles', sv: 'The Beatles', de: 'The Beatles', fr: 'The Beatles', es: 'The Beatles', it: 'The Beatles', pl: 'The Beatles', nl: 'The Beatles', pt: 'The Beatles' },

@@ -333,7 +333,7 @@ export const mongolia: Country = {
       {
         name: {
           en: 'Ger (Yurt) Design',
-          sv: 'Ger (Yurt) Design',
+          sv: 'Jurtans konstruktion (ger)',
           es: 'Diseño Ger (Yurta)',
           fr: 'Conception de Ger (Yourte)',
           de: 'Ger (Jurte) Design',
@@ -698,7 +698,7 @@ export const mongolia: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -979,7 +979,7 @@ export const mongolia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1059,8 +1059,28 @@ export const mongolia: Country = {
       imageUrl: 'https://images.pexels.com/photos/6014/pexels-photo-6014.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Airag (fermented mare\'s milk), Vodka',
-      nonAlcoholic: 'Suutei tsai (milk tea), Kumis',
+      alcoholic: {
+        en: 'Airag (fermented mare\'s milk), Vodka',
+        sv: 'Airag (fermenterad stomjölk), Vodka',
+        de: 'Airag (vergorene Stutenmilch), Wodka',
+        fr: 'Airag (lait de jument fermenté), Vodka',
+        es: 'Airag (leche de yegua fermentada), Vodka',
+        it: 'Airag (latte di giumenta fermentato), Vodka',
+        pl: 'Airag (sfermentowane mleko klaczy), Wódka',
+        nl: 'Airag (gefermenteerde merriemelk), Wodka',
+        pt: 'Airag (leite de égua fermentado), Vodca',
+      },
+      nonAlcoholic: {
+        en: 'Suutei tsai (milk tea), Kumis',
+        sv: 'Suutei tsai (mjölkte), Kumis',
+        de: 'Suutei tsai (Milchtee), Kumys',
+        fr: 'Suutei tsai (thé au lait), Koumis',
+        es: 'Suutei tsai (té con leche), Kumis',
+        it: 'Suutei tsai (tè al latte), Kumis',
+        pl: 'Suutei tsai (herbata z mlekiem), Kumys',
+        nl: 'Suutei tsai (melkthee), Kumis',
+        pt: 'Suutei tsai (chá com leite), Kumis',
+      },
     },
     music: [
       { en: 'Throat singing (Khoomei)', sv: 'Strupesång (Khoomei)', de: 'Kehlkopfgesang (Khoomei)', fr: 'Chant diphonique (Khoomei)', es: 'Canto de garganta (Khoomei)', it: 'Canto di gola (Khoomei)', pl: 'Śpiew gardłowy (Khoomei)', nl: 'Keelzang (Khoomei)', pt: 'Canto de garganta (Khoomei)' },

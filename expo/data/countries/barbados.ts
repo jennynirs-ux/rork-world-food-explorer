@@ -392,7 +392,7 @@ export const barbados: Country = {
       {
         name: {
           en: 'Grantley Adams International Airport Hub',
-          sv: 'Grantley Adams International Airport Hub',
+          sv: 'Grantley Adams internationella flygplats som knutpunkt',
           es: 'Centro del aeropuerto internacional Grantley Adams',
           fr: 'Centre de l\'aéroport international Grantley Adams',
           de: 'Hub des internationalen Flughafens Grantley Adams',
@@ -805,7 +805,7 @@ export const barbados: Country = {
         {
           name: {
             en: 'Scotch bonnet pepper',
-            sv: 'Scotch bonnet pepper',
+            sv: 'Scotch bonnet-chili',
             es: 'Pimienta escocesa',
             fr: 'Poivre Scotch Bonnet',
             de: 'Scotch Bonnet Pepper',
@@ -1050,7 +1050,7 @@ export const barbados: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1065,7 +1065,7 @@ export const barbados: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1080,7 +1080,7 @@ export const barbados: Country = {
             pt: 'Noz-moscada',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1095,7 +1095,7 @@ export const barbados: Country = {
             pt: 'Canela',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1213,8 +1213,28 @@ export const barbados: Country = {
       imageUrl: 'https://images.pexels.com/photos/34153204/pexels-photo-34153204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Mount Gay Rum, Banks Beer, Rum punch',
-      nonAlcoholic: 'Mauby, Sorrel, Coconut water',
+      alcoholic: {
+        en: 'Mount Gay Rum, Banks Beer, Rum punch',
+        sv: 'Mount Gay-rom, Banks-öl, Rompunsch',
+        de: 'Mount Gay Rum, Banks-Bier, Rumpunsch',
+        fr: 'Rhum Mount Gay, Bière Banks, Punch au rhum',
+        es: 'Ron Mount Gay, Cerveza Banks, Ponche de ron',
+        it: 'Rum Mount Gay, Birra Banks, Punch al rum',
+        pl: 'Rum Mount Gay, Piwo Banks, Poncz z rumem',
+        nl: 'Mount Gay-rum, Banks-bier, Rumpunch',
+        pt: 'Rum Mount Gay, Cerveja Banks, Ponche de rum',
+      },
+      nonAlcoholic: {
+        en: 'Mauby, Sorrel, Coconut water',
+        sv: 'Mauby, Sorrel, Kokosvatten',
+        de: 'Mauby, Sorrel, Kokoswasser',
+        fr: 'Mauby, Sorrel, Eau de coco',
+        es: 'Mauby, Sorrel, Agua de coco',
+        it: 'Mauby, Sorrel, Acqua di cocco',
+        pl: 'Mauby, Sorrel, Woda kokosowa',
+        nl: 'Mauby, Sorrel, Kokoswater',
+        pt: 'Mauby, Sorrel, Água de coco',
+      },
     },
     music: [
       { en: 'Calypso', sv: 'Calypso', de: 'Calypso', fr: 'Calypso', es: 'Calypso', it: 'Calypso', pl: 'Calypso', nl: 'Calypso', pt: 'Calypso' },

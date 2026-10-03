@@ -449,7 +449,7 @@ export const china: Country = {
       {
         name: {
           en: 'The Great Wall',
-          sv: 'The Great Wall',
+          sv: 'Kinesiska muren',
           es: 'La Gran Muralla',
           fr: 'La Grande Muraille',
           de: 'Die Große Mauer',
@@ -657,7 +657,7 @@ export const china: Country = {
       id: 'china-main',
       name: {
         en: 'Kung Pao Chicken',
-        sv: 'Kung Pao Chicken',
+        sv: 'Kung Pao-kyckling',
         es: 'Pollo Kung Pao',
         fr: 'Poulet Kung Pao',
         de: 'Kung-Pao-Huhn',
@@ -760,7 +760,7 @@ export const china: Country = {
             pt: 'Pimenta de Sichuan',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -779,7 +779,7 @@ export const china: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -804,7 +804,7 @@ export const china: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -825,7 +825,7 @@ export const china: Country = {
             pt: 'Açúcar',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -840,7 +840,7 @@ export const china: Country = {
             pt: 'Amido de milho',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -859,7 +859,7 @@ export const china: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1000,7 +1000,7 @@ export const china: Country = {
       id: 'china-dessert',
       name: {
         en: 'Mango Pudding',
-        sv: 'Mango Pudding',
+        sv: 'Mangopudding',
         es: 'Pudín de mango',
         fr: 'Pudding à la mangue',
         de: 'Mangopudding',
@@ -1229,8 +1229,28 @@ export const china: Country = {
       imageUrl: 'https://images.pexels.com/photos/9550976/pexels-photo-9550976.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Baijiu, Tsingtao beer, Chinese rice wine',
-      nonAlcoholic: 'Green tea, Jasmine tea, Bubble tea, Soy milk',
+      alcoholic: {
+        en: 'Baijiu, Tsingtao beer, Chinese rice wine',
+        sv: 'Baijiu, Tsingtao-öl, Kinesiskt risvin',
+        de: 'Baijiu, Tsingtao-Bier, Chinesischer Reiswein',
+        fr: 'Baijiu, Bière Tsingtao, Vin de riz chinois',
+        es: 'Baijiu, Cerveza Tsingtao, Vino de arroz chino',
+        it: 'Baijiu, Birra Tsingtao, Vino di riso cinese',
+        pl: 'Baijiu, Piwo Tsingtao, Chińskie wino ryżowe',
+        nl: 'Baijiu, Tsingtao-bier, Chinese rijstwijn',
+        pt: 'Baijiu, Cerveja Tsingtao, Vinho de arroz chinês',
+      },
+      nonAlcoholic: {
+        en: 'Green tea, Jasmine tea, Bubble tea, Soy milk',
+        sv: 'Grönt te, Jasminte, Bubbelte, Sojamjölk',
+        de: 'Grüner Tee, Jasmintee, Bubble Tea, Sojamilch',
+        fr: 'Thé vert, Thé au jasmin, Bubble tea, Lait de soja',
+        es: 'Té verde, Té de jazmín, Té de burbujas, Leche de soja',
+        it: 'Tè verde, Tè al gelsomino, Bubble tea, Latte di soia',
+        pl: 'Zielona herbata, Herbata jaśminowa, Bubble tea, Mleko sojowe',
+        nl: 'Groene thee, Jasmijnthee, Bubbelthee, Sojamelk',
+        pt: 'Chá verde, Chá de jasmim, Bubble tea, Leite de soja',
+      },
     },
     music: [
       { en: 'Traditional Guzheng music', sv: 'Traditionell guzheng-musik', de: 'Traditionelle Guzheng-Musik', fr: 'Musique traditionnelle au guzheng', es: 'Música tradicional de guzheng', it: 'Musica tradizionale del guzheng', pl: 'Tradycyjna muzyka guzheng', nl: 'Traditionele guzheng-muziek', pt: 'Música tradicional de guzheng' },

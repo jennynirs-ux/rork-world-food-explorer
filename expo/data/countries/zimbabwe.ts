@@ -254,7 +254,7 @@ export const zimbabwe: Country = {
       {
         name: {
           en: 'Great Zimbabwe Stone Construction',
-          sv: 'Great Zimbabwe Stone Construction',
+          sv: 'Stenbyggnaderna i Stora Zimbabwe',
           es: 'Gran construcción de piedra de Zimbabwe',
           fr: 'Construction en pierre du Grand Zimbabwe',
           de: 'Tolle Steinkonstruktion aus Simbabwe',
@@ -304,7 +304,7 @@ export const zimbabwe: Country = {
       {
         name: {
           en: 'Mbira Musical Innovation',
-          sv: 'Mbira Musical Innovation',
+          sv: 'Mbiramusikens nyskapande',
           es: 'Innovación musical de Mbira',
           fr: 'Innovation Musicale Mbira',
           de: 'Mbira Musikalische Innovation',
@@ -329,7 +329,7 @@ export const zimbabwe: Country = {
       {
         name: {
           en: 'Terraced Farming Systems',
-          sv: 'Terraced Farming Systems',
+          sv: 'Terrassodling',
           es: 'Sistemas agrícolas en terrazas',
           fr: 'Systèmes agricoles en terrasses',
           de: 'Terrassenlandwirtschaftssysteme',
@@ -744,7 +744,7 @@ export const zimbabwe: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -765,7 +765,7 @@ export const zimbabwe: Country = {
             pt: 'Curry em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -780,7 +780,7 @@ export const zimbabwe: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -946,7 +946,7 @@ export const zimbabwe: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -982,7 +982,7 @@ export const zimbabwe: Country = {
             pt: 'Sal (opcional)',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1071,8 +1071,28 @@ export const zimbabwe: Country = {
       imageUrl: 'https://images.pexels.com/photos/7234218/pexels-photo-7234218.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Chibuku (traditional beer), Castle lager, Zambezi beer',
-      nonAlcoholic: 'Maheu (fermented maize drink), Sweet tea, Fresh fruit juices',
+      alcoholic: {
+        en: 'Chibuku (traditional beer), Castle lager, Zambezi beer',
+        sv: 'Chibuku (traditionellt öl), Castle Lager, Zambezi-öl',
+        de: 'Chibuku (traditionelles Bier), Castle Lager, Zambezi-Bier',
+        fr: 'Chibuku (bière traditionnelle), Castle Lager, Bière Zambezi',
+        es: 'Chibuku (cerveza tradicional), Castle Lager, Cerveza Zambezi',
+        it: 'Chibuku (birra tradizionale), Castle Lager, Birra Zambezi',
+        pl: 'Chibuku (tradycyjne piwo), Castle Lager, Piwo Zambezi',
+        nl: 'Chibuku (traditioneel bier), Castle Lager, Zambezi-bier',
+        pt: 'Chibuku (cerveja tradicional), Castle Lager, Cerveja Zambezi',
+      },
+      nonAlcoholic: {
+        en: 'Maheu (fermented maize drink), Sweet tea, Fresh fruit juices',
+        sv: 'Maheu (fermenterad majsdryck), Sött te, Färska fruktjuicer',
+        de: 'Maheu (fermentiertes Maisgetränk), Süßer Tee, Frische Fruchtsäfte',
+        fr: 'Maheu (boisson fermentée au maïs), Thé sucré, Jus de fruits frais',
+        es: 'Maheu (bebida fermentada de maíz), Té dulce, Jugos de frutas frescas',
+        it: 'Maheu (bevanda fermentata di mais), Tè zuccherato, Succhi di frutta freschi',
+        pl: 'Maheu (fermentowany napój kukurydziany), Słodka herbata, Świeże soki owocowe',
+        nl: 'Maheu (gefermenteerde maïsdrank), Zoete thee, Verse vruchtensappen',
+        pt: 'Maheu (bebida fermentada de milho), Chá adoçado, Sucos de frutas frescas',
+      },
     },
     music: [
       { en: 'Mbira music', sv: 'Mbira-musik', de: 'Mbira-Musik', fr: 'Musique mbira', es: 'Música mbira', it: 'Musica mbira', pl: 'Muzyka mbira', nl: 'Mbira muziek', pt: 'Música mbira' },

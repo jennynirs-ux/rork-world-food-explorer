@@ -800,7 +800,7 @@ export const elSalvador: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'cuillère à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -902,8 +902,28 @@ export const elSalvador: Country = {
       imageUrl: 'https://images.pexels.com/photos/5902956/pexels-photo-5902956.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Pilsener beer, Aguardiente',
-      nonAlcoholic: 'Horchata, Kolashampan, Tamarind juice',
+      alcoholic: {
+        en: 'Pilsener beer, Aguardiente',
+        sv: 'Pilsener-öl, Aguardiente',
+        de: 'Pilsener-Bier, Aguardiente',
+        fr: 'Bière Pilsener, Aguardiente',
+        es: 'Cerveza Pilsener, Aguardiente',
+        it: 'Birra Pilsener, Aguardiente',
+        pl: 'Piwo Pilsener, Aguardiente',
+        nl: 'Pilsener-bier, Aguardiente',
+        pt: 'Cerveja Pilsener, Aguardiente',
+      },
+      nonAlcoholic: {
+        en: 'Horchata, Kolashampan, Tamarind juice',
+        sv: 'Horchata, Kolashampan, Tamarindjuice',
+        de: 'Horchata, Kolashampan, Tamarindensaft',
+        fr: 'Horchata, Kolashampan, Jus de tamarin',
+        es: 'Horchata, Kolashampan, Jugo de tamarindo',
+        it: 'Horchata, Kolashampan, Succo di tamarindo',
+        pl: 'Horchata, Kolashampan, Sok z tamaryndowca',
+        nl: 'Horchata, Kolashampan, Tamarindesap',
+        pt: 'Horchata, Kolashampan, Suco de tamarindo',
+      },
     },
     music: [
       { en: 'Cumbia', sv: 'Cumbia', de: 'Cumbia', fr: 'Cumbia', es: 'Cumbia', it: 'Cumbia', pl: 'Cumbia', nl: 'Cumbia', pt: 'Cumbia' },
@@ -950,7 +970,7 @@ export const elSalvador: Country = {
       {
         name: {
           en: 'Indigo Dye Production',
-          sv: 'Indigo Dye Production',
+          sv: 'Produktion av indigofärg',
           es: 'Producción de tinte índigo',
           fr: 'Production de teinture indigo',
           de: 'Herstellung von Indigofarbstoffen',
@@ -975,7 +995,7 @@ export const elSalvador: Country = {
       {
         name: {
           en: 'Bitcoin Adoption',
-          sv: 'Bitcoin Adoption',
+          sv: 'Införandet av bitcoin',
           es: 'Adopción de Bitcoin',
           fr: 'Adoption de Bitcoins',
           de: 'Bitcoin-Einführung',
@@ -1159,7 +1179,7 @@ export const elSalvador: Country = {
           },
           {
             en: 'Land of Rivers',
-            sv: 'Land of Rivers',
+            sv: 'Flodernas land',
             es: 'Tierra de Ríos',
             fr: 'Terre de rivières',
             de: 'Land der Flüsse',

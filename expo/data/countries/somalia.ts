@@ -548,7 +548,7 @@ export const somalia: Country = {
       {
         name: {
           en: 'Mobile Money Innovation',
-          sv: 'Mobile Money Innovation',
+          sv: 'Mobila betalningar',
           es: 'Innovación en dinero móvil',
           fr: 'Innovation en matière d\'argent mobile',
           de: 'Mobile-Geld-Innovation',
@@ -718,7 +718,7 @@ export const somalia: Country = {
             pt: 'Cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -762,7 +762,7 @@ export const somalia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -802,7 +802,7 @@ export const somalia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1026,7 +1026,7 @@ export const somalia: Country = {
             pt: 'Cardamomo (moído)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1041,7 +1041,7 @@ export const somalia: Country = {
             pt: 'Noz-moscada (opcional)',
           },
           amount: 0.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1059,8 +1059,8 @@ export const somalia: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1096,7 +1096,7 @@ export const somalia: Country = {
             pt: 'Baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1203,8 +1203,28 @@ export const somalia: Country = {
       imageUrl: 'https://images.pexels.com/photos/13270171/pexels-photo-13270171.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Not commonly consumed (Islamic country)',
-      nonAlcoholic: 'Shaah (spiced tea), Camel milk, Fresh mango juice',
+      alcoholic: {
+        en: 'Not commonly consumed (Islamic country)',
+        sv: 'Konsumeras sällan (islamiskt land)',
+        de: 'Kaum konsumiert (islamisches Land)',
+        fr: 'Peu consommé (pays islamique)',
+        es: 'Poco consumido (país islámico)',
+        it: 'Poco consumato (paese islamico)',
+        pl: 'Rzadko spożywany (kraj islamski)',
+        nl: 'Wordt weinig gedronken (islamitisch land)',
+        pt: 'Pouco consumido (país islâmico)',
+      },
+      nonAlcoholic: {
+        en: 'Shaah (spiced tea), Camel milk, Fresh mango juice',
+        sv: 'Shaah (kryddat te), Kamelmjölk, Färsk mangojuice',
+        de: 'Shaah (Gewürztee), Kamelmilch, Frischer Mangosaft',
+        fr: 'Shaah (thé épicé), Lait de chamelle, Jus de mangue frais',
+        es: 'Shaah (té especiado), Leche de camella, Jugo de mango natural',
+        it: 'Shaah (tè speziato), Latte di cammella, Succo di mango fresco',
+        pl: 'Shaah (herbata z przyprawami), Mleko wielbłądzie, Świeży sok z mango',
+        nl: 'Shaah (kruidige thee), Kamelenmelk, Vers mangosap',
+        pt: 'Shaah (chá com especiarias), Leite de camela, Suco de manga natural',
+      },
     },
     music: [
       { en: 'Traditional Somali poetry chants', sv: 'Traditionella somaliska poesisånger', de: 'Traditionelle somalische Poesie-Gesänge', fr: 'Chants poétiques somaliens traditionnels', es: 'Cánticos de poesía somalí tradicional', it: 'Canti di poesia somala tradizionale', pl: 'Tradycyjne somalijskie pieśni poetyckie', nl: 'Traditionele Somalische poëzie-gezangen', pt: 'Cânticos de poesia somali tradicional' },

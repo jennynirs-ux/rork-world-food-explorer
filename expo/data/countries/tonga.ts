@@ -330,7 +330,7 @@ export const tonga: Country = {
       {
         name: {
           en: 'Tapa Cloth (Ngatu)',
-          sv: 'Tapa Cloth (Ngatu)',
+          sv: 'Tapatyg (ngatu)',
           es: 'Tela de tapa (Ngatu)',
           fr: 'Tissu Tapa (Ngatu)',
           de: 'Tapa-Tuch (Ngatu)',
@@ -815,7 +815,7 @@ export const tonga: Country = {
             pt: 'Baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -911,7 +911,17 @@ export const tonga: Country = {
         nl: 'Kava',
         pt: 'Kava',
       },
-      nonAlcoholic: 'Coconut water, fresh tropical juices',
+      nonAlcoholic: {
+        en: 'Coconut water, Fresh tropical juices',
+        sv: 'Kokosvatten, Färska tropiska juicer',
+        de: 'Kokoswasser, Frische tropische Säfte',
+        fr: 'Eau de coco, Jus tropicaux frais',
+        es: 'Agua de coco, Jugos tropicales naturales',
+        it: 'Acqua di cocco, Succhi tropicali freschi',
+        pl: 'Woda kokosowa, Świeże soki tropikalne',
+        nl: 'Kokoswater, Verse tropische sappen',
+        pt: 'Água de coco, Sucos tropicais naturais',
+      },
     },
     music: [
       { en: 'Traditional log drum (nafa) performances', sv: 'Traditionella trumuppträdanden med stocktrumma (nafa)', de: 'Traditionelle Holztrommel (Nafa)-Aufführungen', fr: 'Performances traditionnelles de tambour en bois (nafa)', es: 'Actuaciones tradicionales de tambor de tronco (nafa)', it: 'Esibizioni tradizionali di tamburo di legno (nafa)', pl: 'Tradycyjne występy z bębnem pniowym (nafa)', nl: 'Traditionele houten trom (nafa) optredens', pt: 'Apresentações tradicionais de tambor de tronco (nafa)' },

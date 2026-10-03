@@ -388,7 +388,7 @@ export const niger: Country = {
         },
         description: {
           en: 'Vital waterway through the southwest.',
-          sv: 'Vital waterway through the southwest.',
+          sv: 'Livsviktig vattenväg genom landets sydvästra del.',
           es: 'Vía fluvial vital por el suroeste.',
           fr: 'Voie navigable vitale à travers le sud-ouest.',
           de: 'Wichtige Wasserstraße durch den Südwesten.',
@@ -608,7 +608,7 @@ export const niger: Country = {
         {
           name: {
             en: 'Vanilla extract',
-            sv: 'Vanilla extract',
+            sv: 'Vaniljextrakt',
             es: 'Extracto de vainilla',
             fr: 'Extrait de vanille',
             de: 'Vanilleextrakt',
@@ -618,7 +618,7 @@ export const niger: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -672,7 +672,7 @@ export const niger: Country = {
         },
         {
           en: 'Let rise for 1 hour',
-          sv: 'Let rise for 1 hour',
+          sv: 'Låt jäsa i 1 timme',
           es: 'Dejar reposar durante 1 hora',
           fr: 'Laisser lever 1 heure',
           de: '1 Stunde gehen lassen',
@@ -938,8 +938,28 @@ export const niger: Country = {
       imageUrl: 'https://images.pexels.com/photos/9287534/pexels-photo-9287534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Bili-bili (millet beer)',
-      nonAlcoholic: 'Fura (millet drink), Hibiscus tea, Ginger juice',
+      alcoholic: {
+        en: 'Bili-bili (millet beer)',
+        sv: 'Bili-bili (hirsöl)',
+        de: 'Bili-bili (Hirsebier)',
+        fr: 'Bili-bili (bière de mil)',
+        es: 'Bili-bili (cerveza de mijo)',
+        it: 'Bili-bili (birra di miglio)',
+        pl: 'Bili-bili (piwo z prosa)',
+        nl: 'Bili-bili (gierstbier)',
+        pt: 'Bili-bili (cerveja de milheto)',
+      },
+      nonAlcoholic: {
+        en: 'Fura (millet drink), Hibiscus tea, Ginger juice',
+        sv: 'Fura (hirsdryck), Hibiskuste, Ingefärsjuice',
+        de: 'Fura (Hirsegetränk), Hibiskustee, Ingwersaft',
+        fr: 'Fura (boisson au mil), Infusion d\'hibiscus, Jus de gingembre',
+        es: 'Fura (bebida de mijo), Té de hibisco, Jugo de jengibre',
+        it: 'Fura (bevanda di miglio), Tè all\'ibisco, Succo di zenzero',
+        pl: 'Fura (napój z prosa), Herbata z hibiskusa, Sok imbirowy',
+        nl: 'Fura (gierstdrank), Hibiscusthee, Gembersap',
+        pt: 'Fura (bebida de milheto), Chá de hibisco, Suco de gengibre',
+      },
     },
     music: [
       { en: 'Tuareg guitar music', sv: 'Tuaregisk gitarrmusik', de: 'Tuareg-Gitarrenmusik', fr: 'Musique de guitare touarègue', es: 'Música de guitarra tuareg', it: 'Musica di chitarra tuareg', pl: 'Muzyka gitarowa Tuaregów', nl: 'Tuareg gitaarmuziek', pt: 'Música de guitarra tuaregue' },
@@ -1287,7 +1307,7 @@ export const niger: Country = {
         id: 'niger-q7',
         question: {
           en: 'Which river flows through Niger?',
-          sv: 'Which river flows through Niger?',
+          sv: 'Vilken flod rinner genom Niger?',
           es: '¿Qué río atraviesa Níger?',
           fr: 'Quel fleuve traverse le Niger ?',
           de: 'Welcher Fluss fließt durch Niger?',

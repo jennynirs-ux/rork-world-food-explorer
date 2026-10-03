@@ -342,7 +342,7 @@ export const burkinaFaso: Country = {
       {
         name: {
           en: 'FESPACO Film Festival',
-          sv: 'FESPACO Film Festival',
+          sv: 'Filmfestivalen FESPACO',
           es: 'Festival de Cine FESPACO',
           fr: 'Festival du cinéma FESPACO',
           de: 'FESPACO-Filmfestival',
@@ -794,7 +794,7 @@ export const burkinaFaso: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'cuillère à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -970,7 +970,7 @@ export const burkinaFaso: Country = {
             pt: 'Fermento biológico seco ativo',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1040,7 +1040,7 @@ export const burkinaFaso: Country = {
             pt: 'Noz-moscada',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1188,8 +1188,28 @@ export const burkinaFaso: Country = {
       imageUrl: 'https://images.pexels.com/photos/5779924/pexels-photo-5779924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Dolo (millet beer), Palm wine',
-      nonAlcoholic: 'Bissap (hibiscus tea), Ginger juice, Baobab juice',
+      alcoholic: {
+        en: 'Dolo (millet beer), Palm wine',
+        sv: 'Dolo (hirsöl), Palmvin',
+        de: 'Dolo (Hirsebier), Palmwein',
+        fr: 'Dolo (bière de mil), Vin de palme',
+        es: 'Dolo (cerveza de mijo), Vino de palma',
+        it: 'Dolo (birra di miglio), Vino di palma',
+        pl: 'Dolo (piwo z prosa), Wino palmowe',
+        nl: 'Dolo (gierstbier), Palmwijn',
+        pt: 'Dolo (cerveja de painço), Vinho de palma',
+      },
+      nonAlcoholic: {
+        en: 'Bissap (hibiscus tea), Ginger juice, Baobab juice',
+        sv: 'Bissap (hibiskuste), Ingefärsjuice, Baobabjuice',
+        de: 'Bissap (Hibiskustee), Ingwersaft, Baobabsaft',
+        fr: 'Bissap (infusion d\'hibiscus), Jus de gingembre, Jus de baobab',
+        es: 'Bissap (té de hibisco), Jugo de jengibre, Jugo de baobab',
+        it: 'Bissap (tè di ibisco), Succo di zenzero, Succo di baobab',
+        pl: 'Bissap (herbata z hibiskusa), Sok imbirowy, Sok z baobabu',
+        nl: 'Bissap (hibiscusthee), Gembersap, Baobabsap',
+        pt: 'Bissap (chá de hibisco), Suco de gengibre, Suco de baobá',
+      },
     },
     music: [
       { en: 'Balafon traditional music', sv: 'Traditionell balafonmusik', de: 'Traditionelle Balafonmusik', fr: 'Musique traditionnelle de balafon', es: 'Música tradicional de balafón', it: 'Musica tradizionale del balafon', pl: 'Tradycyjna muzyka balafonowa', nl: 'Traditionele balafonmuziek', pt: 'Música tradicional de balafão' },

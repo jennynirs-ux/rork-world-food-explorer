@@ -521,7 +521,7 @@ export const iceland: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'cuillère à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -599,9 +599,9 @@ export const iceland: Country = {
           amount: 1,
           unit: {
             en: 'to taste',
-            sv: 'att smaka',
+            sv: 'efter smak',
             es: 'al gusto',
-            fr: 'à déguster',
+            fr: 'au goût',
             de: 'nach Geschmack',
             it: 'a piacere',
             pl: 'do smaku',
@@ -850,7 +850,7 @@ export const iceland: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -865,7 +865,7 @@ export const iceland: Country = {
             pt: 'Cardamomo',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -880,7 +880,7 @@ export const iceland: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1190,7 +1190,7 @@ export const iceland: Country = {
       {
         name: {
           en: 'Reynisfjara Black Sand Beach',
-          sv: 'Reynisfjara Black Sand Beach',
+          sv: 'Reynisfjara, den svarta sandstranden',
           es: 'Playa de arena negra de Reynisfjara',
           fr: 'Plage de sable noir de Reynisfjara',
           de: 'Reynisfjara Schwarzer Sandstrand',
@@ -1237,8 +1237,28 @@ export const iceland: Country = {
       },
     ],
     drinks: {
-      alcoholic: 'Brennivín (schnapps), Icelandic beer, Local craft spirits',
-      nonAlcoholic: 'Glacier water, Coffee, Malt-based soft drink (Malt og Appelsín)',
+      alcoholic: {
+        en: 'Brennivín (schnapps), Icelandic beer, Local craft spirits',
+        sv: 'Brennivín (snaps), Isländskt öl, Lokal hantverkssprit',
+        de: 'Brennivín (Schnaps), Isländisches Bier, Lokale Craft-Spirituosen',
+        fr: 'Brennivín (schnaps), Bière islandaise, Spiritueux artisanaux locaux',
+        es: 'Brennivín (aguardiente), Cerveza islandesa, Licores artesanales locales',
+        it: 'Brennivín (acquavite), Birra islandese, Distillati artigianali locali',
+        pl: 'Brennivín (sznaps), Piwo islandzkie, Lokalne rzemieślnicze trunki',
+        nl: 'Brennivín (schnaps), IJslands bier, Lokale ambachtelijke sterkedrank',
+        pt: 'Brennivín (aguardente), Cerveja islandesa, Destilados artesanais locais',
+      },
+      nonAlcoholic: {
+        en: 'Glacier water, Coffee, Malt-based soft drink (Malt og Appelsín)',
+        sv: 'Glaciärvatten, Kaffe, Maltbaserad läskedryck (Malt og Appelsín)',
+        de: 'Gletscherwasser, Kaffee, Malzbasiertes Erfrischungsgetränk (Malt og Appelsín)',
+        fr: 'Eau de glacier, Café, Boisson gazeuse à base de malt (Malt og Appelsín)',
+        es: 'Agua de glaciar, Café, Refresco a base de malta (Malt og Appelsín)',
+        it: 'Acqua di ghiacciaio, Caffè, Bibita a base di malto (Malt og Appelsín)',
+        pl: 'Woda lodowcowa, Kawa, Napój gazowany na bazie słodu (Malt og Appelsín)',
+        nl: 'Gletsjerwater, Koffie, Frisdrank op basis van mout (Malt og Appelsín)',
+        pt: 'Água de geleira, Café, Refrigerante à base de malte (Malt og Appelsín)',
+      },
     },
     music: [
       { en: 'Sigur Rós', sv: 'Sigur Rós', de: 'Sigur Rós', fr: 'Sigur Rós', es: 'Sigur Rós', it: 'Sigur Rós', pl: 'Sigur Rós', nl: 'Sigur Rós', pt: 'Sigur Rós' },

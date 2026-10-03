@@ -422,7 +422,7 @@ export const tanzania: Country = {
       {
         name: {
           en: 'Taarab Music Evolution',
-          sv: 'Taarab Music Evolution',
+          sv: 'Taarabmusikens utveckling',
           es: 'Evolución de la música taarab',
           fr: 'Évolution de la musique Taarab',
           de: 'Taarab-Musikentwicklung',
@@ -804,7 +804,7 @@ export const tanzania: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -829,7 +829,7 @@ export const tanzania: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -854,7 +854,7 @@ export const tanzania: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -875,7 +875,7 @@ export const tanzania: Country = {
             pt: 'Sal',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -890,7 +890,7 @@ export const tanzania: Country = {
             pt: 'Pimenta preta',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1122,7 +1122,7 @@ export const tanzania: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1137,7 +1137,7 @@ export const tanzania: Country = {
             pt: 'Cardamomo moído (opcional)',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1152,7 +1152,7 @@ export const tanzania: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1292,8 +1292,28 @@ export const tanzania: Country = {
       imageUrl: 'https://images.pexels.com/photos/7235406/pexels-photo-7235406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Banana beer, Safari Lager, Konyagi (local gin)',
-      nonAlcoholic: 'Chai (spiced tea), Fresh coconut water, Tamarind juice',
+      alcoholic: {
+        en: 'Banana beer, Safari Lager, Konyagi (local gin)',
+        sv: 'Bananöl, Safari Lager, Konyagi (lokal gin)',
+        de: 'Bananenbier, Safari Lager, Konyagi (lokaler Gin)',
+        fr: 'Bière de banane, Safari Lager, Konyagi (gin local)',
+        es: 'Cerveza de plátano, Safari Lager, Konyagi (ginebra local)',
+        it: 'Birra di banana, Safari Lager, Konyagi (gin locale)',
+        pl: 'Piwo bananowe, Safari Lager, Konyagi (lokalny gin)',
+        nl: 'Bananenbier, Safari Lager, Konyagi (lokale gin)',
+        pt: 'Cerveja de banana, Safari Lager, Konyagi (gim local)',
+      },
+      nonAlcoholic: {
+        en: 'Chai (spiced tea), Fresh coconut water, Tamarind juice',
+        sv: 'Chai (kryddat te), Färskt kokosvatten, Tamarindjuice',
+        de: 'Chai (Gewürztee), Frisches Kokoswasser, Tamarindensaft',
+        fr: 'Chai (thé épicé), Eau de coco fraîche, Jus de tamarin',
+        es: 'Chai (té especiado), Agua de coco fresca, Jugo de tamarindo',
+        it: 'Chai (tè speziato), Acqua di cocco fresca, Succo di tamarindo',
+        pl: 'Chai (herbata z przyprawami), Świeża woda kokosowa, Sok z tamaryndowca',
+        nl: 'Chai (kruidige thee), Vers kokoswater, Tamarindesap',
+        pt: 'Chai (chá com especiarias), Água de coco fresca, Suco de tamarindo',
+      },
     },
     music: [
       { en: 'Bongo Flava', sv: 'Bongo Flava', de: 'Bongo Flava', fr: 'Bongo Flava', es: 'Bongo Flava', it: 'Bongo Flava', pl: 'Bongo Flava', nl: 'Bongo Flava', pt: 'Bongo Flava' },

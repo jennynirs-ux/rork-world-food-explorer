@@ -279,7 +279,7 @@ export const yemen: Country = {
       {
         name: {
           en: 'Tower House Architecture',
-          sv: 'Tower House Architecture',
+          sv: 'Tornhusarkitektur',
           es: 'Arquitectura de la casa torre',
           fr: 'Architecture de la maison-tour',
           de: 'Turmhaus-Architektur',
@@ -304,7 +304,7 @@ export const yemen: Country = {
       {
         name: {
           en: 'Ancient Dam Engineering',
-          sv: 'Ancient Dam Engineering',
+          sv: 'Forntida dammbyggnadskonst',
           es: 'Ingeniería de presas antiguas',
           fr: 'Ingénierie des barrages anciens',
           de: 'Alte Staudammtechnik',
@@ -329,7 +329,7 @@ export const yemen: Country = {
       {
         name: {
           en: 'Frankincense Trade Routes',
-          sv: 'Frankincense Trade Routes',
+          sv: 'Rökelsevägarna',
           es: 'Rutas comerciales del incienso',
           fr: 'Routes commerciales de l\'encens',
           de: 'Weihrauch-Handelsrouten',
@@ -769,7 +769,7 @@ export const yemen: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -792,14 +792,14 @@ export const yemen: Country = {
           amount: 3,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -815,7 +815,7 @@ export const yemen: Country = {
             pt: 'Cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1040,7 +1040,7 @@ export const yemen: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1114,8 +1114,28 @@ export const yemen: Country = {
       imageUrl: 'https://images.pexels.com/photos/11215343/pexels-photo-11215343.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Not common',
-      nonAlcoholic: 'Qishr (coffee husk tea), Yemeni coffee, Shai (tea)',
+      alcoholic: {
+        en: 'Not common',
+        sv: 'Inte vanligt',
+        de: 'Nicht verbreitet',
+        fr: 'Peu courant',
+        es: 'Poco común',
+        it: 'Poco diffuso',
+        pl: 'Mało popularny',
+        nl: 'Niet gebruikelijk',
+        pt: 'Pouco comum',
+      },
+      nonAlcoholic: {
+        en: 'Qishr (coffee husk tea), Yemeni coffee, Shai (tea)',
+        sv: 'Qishr (te på kaffeskal), Jemenitiskt kaffe, Shai (te)',
+        de: 'Qishr (Kaffeeschalentee), Jemenitischer Kaffee, Shai (Tee)',
+        fr: 'Qishr (infusion de cosses de café), Café yéménite, Shai (thé)',
+        es: 'Qishr (infusión de cáscara de café), Café yemení, Shai (té)',
+        it: 'Qishr (infuso di bucce di caffè), Caffè yemenita, Shai (tè)',
+        pl: 'Qishr (napar z łusek kawy), Kawa jemeńska, Shai (herbata)',
+        nl: 'Qishr (thee van koffieschillen), Jemenitische koffie, Shai (thee)',
+        pt: 'Qishr (chá de casca de café), Café iemenita, Shai (chá)',
+      },
     },
     music: [
       { en: 'Al-Ghina al-San\'ani', sv: 'Al-Ghina al-San\'ani', de: 'Al-Ghina al-San\'ani', fr: 'Al-Ghina al-San\'ani', es: 'Al-Ghina al-San\'ani', it: 'Al-Ghina al-San\'ani', pl: 'Al-Ghina al-San\'ani', nl: 'Al-Ghina al-San\'ani', pt: 'Al-Ghina al-San\'ani' },

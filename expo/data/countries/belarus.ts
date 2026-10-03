@@ -683,13 +683,13 @@ export const belarus: Country = {
           amount: 1,
           unit: {
             en: 'medium',
-            sv: 'medium',
-            es: 'medio',
+            sv: 'medelstor',
+            es: 'mediano',
             fr: 'moyen',
-            de: 'mittel',
+            de: 'mittelgroß',
             it: 'medio',
             pl: 'średni',
-            nl: 'gemiddeld',
+            nl: 'middelgroot',
             pt: 'médio',
           },
         },
@@ -746,7 +746,7 @@ export const belarus: Country = {
             pt: 'Sal',
           },
           amount: 1.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -761,7 +761,7 @@ export const belarus: Country = {
             pt: 'Pimenta preta',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1019,7 +1019,7 @@ export const belarus: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1034,7 +1034,7 @@ export const belarus: Country = {
             pt: 'Sal',
           },
           amount: 0.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1197,8 +1197,28 @@ export const belarus: Country = {
       imageUrl: 'https://images.pexels.com/photos/35672975/pexels-photo-35672975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Vodka, Krambambula (honey liqueur), Kvass',
-      nonAlcoholic: 'Kvass, Kisel (berry drink), Black tea',
+      alcoholic: {
+        en: 'Vodka, Krambambula (honey liqueur), Kvass',
+        sv: 'Vodka, Krambambula (honungslikör), Kvass',
+        de: 'Wodka, Krambambula (Honiglikör), Kwas',
+        fr: 'Vodka, Krambambula (liqueur de miel), Kvas',
+        es: 'Vodka, Krambambula (licor de miel), Kvas',
+        it: 'Vodka, Krambambula (liquore al miele), Kvas',
+        pl: 'Wódka, Krambambula (likier miodowy), Kwas chlebowy',
+        nl: 'Wodka, Krambambula (honinglikeur), Kvas',
+        pt: 'Vodca, Krambambula (licor de mel), Kvass',
+      },
+      nonAlcoholic: {
+        en: 'Kvass, Kisel (berry drink), Black tea',
+        sv: 'Kvass, Kisel (bärdryck), Svart te',
+        de: 'Kwas, Kisel (Beerengetränk), Schwarzer Tee',
+        fr: 'Kvas, Kisel (boisson aux baies), Thé noir',
+        es: 'Kvas, Kisel (bebida de frutos rojos), Té negro',
+        it: 'Kvas, Kisel (bevanda ai frutti di bosco), Tè nero',
+        pl: 'Kwas chlebowy, Kisiel (napój jagodowy), Czarna herbata',
+        nl: 'Kvas, Kisel (bessendrank), Zwarte thee',
+        pt: 'Kvass, Kisel (bebida de frutas vermelhas), Chá preto',
+      },
     },
     music: [
       { en: 'Traditional folk songs', sv: 'Traditionella folkvisor', de: 'Traditionelle Volkslieder', fr: 'Chansons folkloriques traditionnelles', es: 'Canciones folclóricas tradicionales', it: 'Canzoni popolari tradizionali', pl: 'Tradycyjne pieśni ludowe', nl: 'Traditionele volksliederen', pt: 'Canções folclóricas tradicionais' },

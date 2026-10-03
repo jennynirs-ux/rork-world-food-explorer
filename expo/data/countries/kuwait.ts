@@ -293,7 +293,7 @@ export const kuwait: Country = {
       {
         name: {
           en: 'Pearl Diving Techniques',
-          sv: 'Pearl Diving Techniques',
+          sv: 'Pärldykningstekniker',
           es: 'Técnicas de buceo con perlas',
           fr: 'Techniques de plongée aux perles',
           de: 'Perlentauchtechniken',
@@ -618,7 +618,7 @@ export const kuwait: Country = {
             pt: 'Fios de açafrão',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -633,7 +633,7 @@ export const kuwait: Country = {
             pt: 'Cardamomo em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -648,7 +648,7 @@ export const kuwait: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -667,7 +667,7 @@ export const kuwait: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -746,7 +746,7 @@ export const kuwait: Country = {
         {
           en: 'Bake at 350°F for 25-30 minutes',
           sv: 'Grädda i 350°F i 25-30 minuter',
-          es: 'Bake at 350°F for 25-30 minutes',
+          es: 'Hornear a 350 °F durante 25-30 minutos',
           fr: 'Cuire au four à 350°F pendant 25-30 minutes',
           de: '25-30 Minuten bei 350 °F backen',
           it: 'Inforna a 350°F per 25-30 minuti',
@@ -904,7 +904,7 @@ export const kuwait: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1009,8 +1009,28 @@ export const kuwait: Country = {
       imageUrl: 'https://images.pexels.com/photos/12916879/pexels-photo-12916879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Not available (prohibited)',
-      nonAlcoholic: 'Arabic coffee, Laban (buttermilk), Fresh juice',
+      alcoholic: {
+        en: 'Not available (prohibited)',
+        sv: 'Inte tillgängligt (förbjudet)',
+        de: 'Nicht erhältlich (verboten)',
+        fr: 'Non disponible (interdit)',
+        es: 'No disponible (prohibido)',
+        it: 'Non disponibile (vietato)',
+        pl: 'Niedostępne (zakazane)',
+        nl: 'Niet verkrijgbaar (verboden)',
+        pt: 'Não disponível (proibido)',
+      },
+      nonAlcoholic: {
+        en: 'Arabic coffee, Laban (buttermilk), Fresh juice',
+        sv: 'Arabiskt kaffe, Laban (kärnmjölk), Färskpressad juice',
+        de: 'Arabischer Kaffee, Laban (Buttermilch), Frischer Saft',
+        fr: 'Café arabe, Laban (babeurre), Jus frais',
+        es: 'Café árabe, Laban (suero de mantequilla), Jugo natural',
+        it: 'Caffè arabo, Laban (latticello), Succo fresco',
+        pl: 'Kawa arabska, Laban (maślanka), Świeży sok',
+        nl: 'Arabische koffie, Laban (karnemelk), Vers sap',
+        pt: 'Café árabe, Laban (leitelho), Suco natural',
+      },
     },
     music: [
       { en: 'Traditional Sawt music', sv: 'Traditionell Sawt-musik', de: 'Traditionelle Sawt-Musik', fr: 'Musique Sawt traditionnelle', es: 'Música Sawt tradicional', it: 'Musica Sawt tradizionale', pl: 'Tradycyjna muzyka Sawt', nl: 'Traditionele Sawt-muziek', pt: 'Música Sawt tradicional' },

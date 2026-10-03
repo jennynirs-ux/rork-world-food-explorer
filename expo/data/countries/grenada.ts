@@ -293,7 +293,7 @@ export const grenada: Country = {
           sv: 'Utvecklade effektiva metoder för bearbetning och klassificering av muskotnöt, och blev en global ledare inom kryddkvalitetsstandarder.',
           es: 'Desarrolló métodos eficientes para procesar y clasificar nuez moscada, convirtiéndose en un líder mundial en estándares de calidad de especias.',
           fr: 'Développement de méthodes efficaces de transformation et de classement de la noix de muscade, devenant ainsi un leader mondial en matière de normes de qualité des épices.',
-          de: 'Developed efficient methods for processing and grading nutmeg, becoming a global leader in spice quality standards.',
+          de: 'Entwickelte effiziente Methoden zur Verarbeitung und Sortierung von Muskatnuss und wurde so weltweit führend bei Qualitätsstandards für Gewürze.',
           it: 'Ha sviluppato metodi efficienti per la lavorazione e la classificazione della noce moscata, diventando un leader mondiale negli standard di qualità delle spezie.',
           pl: 'Opracowała skuteczne metody przetwarzania i klasyfikacji gałki muszkatołowej, stając się światowym liderem w standardach jakości przypraw.',
           nl: 'Ontwikkelde efficiënte methoden voor het verwerken en sorteren van nootmuskaat, en werd wereldleider op het gebied van kruidenkwaliteitsnormen.',
@@ -354,7 +354,7 @@ export const grenada: Country = {
       {
         name: {
           en: 'Grand Etang National Park',
-          sv: 'Grand Etang National Park',
+          sv: 'Grand Etang nationalpark',
           es: 'Parque Nacional Grand Etang',
           fr: 'Parc National du Grand Étang',
           de: 'Grand-Etang-Nationalpark',
@@ -591,7 +591,7 @@ export const grenada: Country = {
             pt: 'Curcuma',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -644,7 +644,7 @@ export const grenada: Country = {
           sv: 'Sjud tills vätskan absorberats',
           es: 'Cocine a fuego lento hasta que se absorba el líquido',
           fr: 'Laisser mijoter jusqu\'à ce que le liquide soit absorbé',
-          de: 'Simmer until liquid is absorbed',
+          de: 'Köcheln lassen, bis die Flüssigkeit aufgesogen ist',
           it: 'Cuocere a fuoco lento finché il liquido non è assorbito',
           pl: 'Gotuj na wolnym ogniu, aż płyn zostanie wchłonięty',
           nl: 'Laat sudderen tot de vloeistof is opgenomen',
@@ -786,7 +786,7 @@ export const grenada: Country = {
             pt: 'Noz-moscada fresca, ralada',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -801,7 +801,7 @@ export const grenada: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -919,8 +919,28 @@ export const grenada: Country = {
       imageUrl: 'https://images.pexels.com/photos/4662046/pexels-photo-4662046.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Rum punch, Carib beer, River Antoine rum',
-      nonAlcoholic: 'Sorrel, Mauby, Nutmeg juice',
+      alcoholic: {
+        en: 'Rum punch, Carib beer, River Antoine rum',
+        sv: 'Rompunsch, Carib-öl, River Antoine-rom',
+        de: 'Rumpunsch, Carib-Bier, River-Antoine-Rum',
+        fr: 'Punch au rhum, Bière Carib, Rhum River Antoine',
+        es: 'Ponche de ron, Cerveza Carib, Ron River Antoine',
+        it: 'Punch al rum, Birra Carib, Rum River Antoine',
+        pl: 'Poncz z rumem, Piwo Carib, Rum River Antoine',
+        nl: 'Rumpunch, Carib-bier, River Antoine-rum',
+        pt: 'Ponche de rum, Cerveja Carib, Rum River Antoine',
+      },
+      nonAlcoholic: {
+        en: 'Sorrel, Mauby, Nutmeg juice',
+        sv: 'Sorrel, Mauby, Muskotnötsjuice',
+        de: 'Sorrel, Mauby, Muskatnusssaft',
+        fr: 'Sorrel, Mauby, Jus de noix de muscade',
+        es: 'Sorrel, Mauby, Jugo de nuez moscada',
+        it: 'Sorrel, Mauby, Succo di noce moscata',
+        pl: 'Sorrel, Mauby, Sok z gałki muszkatołowej',
+        nl: 'Sorrel, Mauby, Nootmuskaatsap',
+        pt: 'Sorrel, Mauby, Suco de noz-moscada',
+      },
     },
     music: [
       { en: 'Calypso', sv: 'Calypso', de: 'Calypso', fr: 'Calypso', es: 'Calipso', it: 'Calypso', pl: 'Calypso', nl: 'Calypso', pt: 'Calipso' },

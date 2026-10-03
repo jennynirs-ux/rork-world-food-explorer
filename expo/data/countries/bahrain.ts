@@ -357,7 +357,7 @@ export const bahrain: Country = {
       {
         name: {
           en: 'Pearl Diving Techniques',
-          sv: 'Pearl Diving Techniques',
+          sv: 'Pärldykningstekniker',
           es: 'Técnicas de buceo con perlas',
           fr: 'Techniques de plongée aux perles',
           de: 'Perlentauchtechniken',
@@ -382,10 +382,10 @@ export const bahrain: Country = {
       {
         name: {
           en: 'Gulf Banking Hub',
-          sv: 'Gulf Banking Hub',
+          sv: 'Bankcentrum i Persiska viken',
           es: 'Centro bancario del Golfo',
           fr: 'Centre bancaire du Golfe',
-          de: 'Gulf Banking Hub',
+          de: 'Bankenzentrum am Golf',
           it: 'Centro bancario del Golfo',
           pl: 'Centrum bankowe Zatoki Perskiej',
           nl: 'Golf-bankcentrum',
@@ -459,10 +459,10 @@ export const bahrain: Country = {
       {
         name: {
           en: 'Bahrain Fort (Qal\'at al-Bahrain)',
-          sv: 'Bahrain Fort (Qal\'at al-Bahrain)',
+          sv: 'Bahrainfortet (Qal\'at al-Bahrain)',
           es: 'Fuerte de Bahréin (Qal\'at al-Bahrain)',
           fr: 'Fort de Bahreïn (Qal\'at al-Bahreïn)',
-          de: 'Bahrain Fort (Qal\'at al-Bahrain)',
+          de: 'Bahrain-Fort (Qal\'at al-Bahrain)',
           it: 'Forte del Bahrain (Qal\'at al-Bahrain)',
           pl: 'Fort Bahrajn (Qal\'at al-Bahrain)',
           nl: 'Fort van Bahrein (Qal\'at al-Bahrain)',
@@ -809,7 +809,7 @@ export const bahrain: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1025,7 +1025,7 @@ export const bahrain: Country = {
             pt: 'Fios de açafrão',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1040,7 +1040,7 @@ export const bahrain: Country = {
             pt: 'Cardamomo em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1059,7 +1059,7 @@ export const bahrain: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1213,8 +1213,28 @@ export const bahrain: Country = {
       imageUrl: 'https://images.pexels.com/photos/20446403/pexels-photo-20446403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Limited availability',
-      nonAlcoholic: 'Arabic coffee, Cardamom tea, Fresh juice',
+      alcoholic: {
+        en: 'Limited availability',
+        sv: 'Begränsad tillgång',
+        de: 'Begrenzt erhältlich',
+        fr: 'Disponibilité limitée',
+        es: 'Disponibilidad limitada',
+        it: 'Disponibilità limitata',
+        pl: 'Ograniczona dostępność',
+        nl: 'Beperkt verkrijgbaar',
+        pt: 'Disponibilidade limitada',
+      },
+      nonAlcoholic: {
+        en: 'Arabic coffee, Cardamom tea, Fresh juice',
+        sv: 'Arabiskt kaffe, Kardemummate, Färskpressad juice',
+        de: 'Arabischer Kaffee, Kardamomtee, Frischer Saft',
+        fr: 'Café arabe, Thé à la cardamome, Jus frais',
+        es: 'Café árabe, Té de cardamomo, Jugo natural',
+        it: 'Caffè arabo, Tè al cardamomo, Succo fresco',
+        pl: 'Kawa arabska, Herbata z kardamonem, Świeży sok',
+        nl: 'Arabische koffie, Kardemomthee, Vers sap',
+        pt: 'Café árabe, Chá de cardamomo, Suco natural',
+      },
     },
     music: [
       { en: 'Traditional Fidjeri sea music', sv: 'Traditionell Fidjeri-havsmusik', de: 'Traditionelle Fidjeri-Seemusik', fr: 'Musique maritime Fidjeri traditionnelle', es: 'Música marina Fidjeri tradicional', it: 'Musica marittima tradizionale Fidjeri', pl: 'Tradycyjna muzyka morska Fidjeri', nl: 'Traditionele Fidjeri zeemuziek', pt: 'Música marítima Fidjeri tradicional' },

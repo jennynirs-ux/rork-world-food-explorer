@@ -352,7 +352,7 @@ export const chad: Country = {
       {
         name: {
           en: 'Lake Chad Management',
-          sv: 'Lake Chad Management',
+          sv: 'Förvaltningen av Tchadsjön',
           es: 'Gestión del lago Chad',
           fr: 'Gestion du Lac Tchad',
           de: 'Management des Tschadsees',
@@ -770,7 +770,7 @@ export const chad: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -946,7 +946,7 @@ export const chad: Country = {
             pt: 'Canela em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -961,7 +961,7 @@ export const chad: Country = {
             pt: 'Cardamomo em pó',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -976,7 +976,7 @@ export const chad: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1072,8 +1072,28 @@ export const chad: Country = {
       imageUrl: 'https://images.pexels.com/photos/16122325/pexels-photo-16122325.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Bili-bili (millet beer)',
-      nonAlcoholic: 'Karkanji (hibiscus tea), Fresh milk',
+      alcoholic: {
+        en: 'Bili-bili (millet beer)',
+        sv: 'Bili-bili (hirsöl)',
+        de: 'Bili-bili (Hirsebier)',
+        fr: 'Bili-bili (bière de mil)',
+        es: 'Bili-bili (cerveza de mijo)',
+        it: 'Bili-bili (birra di miglio)',
+        pl: 'Bili-bili (piwo z prosa)',
+        nl: 'Bili-bili (gierstbier)',
+        pt: 'Bili-bili (cerveja de milheto)',
+      },
+      nonAlcoholic: {
+        en: 'Karkanji (hibiscus tea), Fresh milk',
+        sv: 'Karkanji (hibiskuste), Färsk mjölk',
+        de: 'Karkanji (Hibiskustee), Frische Milch',
+        fr: 'Karkanji (infusion d\'hibiscus), Lait frais',
+        es: 'Karkanji (té de hibisco), Leche fresca',
+        it: 'Karkanji (tè di ibisco), Latte fresco',
+        pl: 'Karkanji (herbata z hibiskusa), Świeże mleko',
+        nl: 'Karkanji (hibiscusthee), Verse melk',
+        pt: 'Karkanji (chá de hibisco), Leite fresco',
+      },
     },
     music: [
       { en: 'Traditional Sai music', sv: 'Traditionell sai-musik', de: 'Traditionelle Sai-Musik', fr: 'Musique traditionnelle sai', es: 'Música tradicional sai', it: 'Musica tradizionale sai', pl: 'Tradycyjna muzyka sai', nl: 'Traditionele sai-muziek', pt: 'Música tradicional sai' },

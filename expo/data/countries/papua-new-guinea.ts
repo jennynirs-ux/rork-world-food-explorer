@@ -485,7 +485,7 @@ export const papuaNewGuinea: Country = {
       id: 'papua-new-guinea-dessert',
       name: {
         en: 'Sago Pudding',
-        sv: 'Sago Pudding',
+        sv: 'Sagopudding',
         es: 'Pudín de sagú',
         fr: 'Pouding au sagou',
         de: 'Sago-Pudding',
@@ -578,7 +578,7 @@ export const papuaNewGuinea: Country = {
             pt: 'Extrato de pandano',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -897,8 +897,28 @@ export const papuaNewGuinea: Country = {
       imageUrl: 'https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'SP beer, Bush beer (fermented)',
-      nonAlcoholic: 'Coconut water, Fresh tropical juice',
+      alcoholic: {
+        en: 'SP beer, Bush beer (fermented)',
+        sv: 'SP-öl, Hembryggt öl (fermenterat)',
+        de: 'SP-Bier, Buschbier (fermentiert)',
+        fr: 'Bière SP, Bière de brousse (fermentée)',
+        es: 'Cerveza SP, Cerveza casera (fermentada)',
+        it: 'Birra SP, Birra casereccia (fermentata)',
+        pl: 'Piwo SP, Piwo z buszu (fermentowane)',
+        nl: 'SP-bier, Zelfgebrouwen bier (gefermenteerd)',
+        pt: 'Cerveja SP, Cerveja caseira (fermentada)',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Fresh tropical juice',
+        sv: 'Kokosvatten, Färsk tropisk juice',
+        de: 'Kokoswasser, Frischer Tropenfruchtsaft',
+        fr: 'Eau de coco, Jus tropical frais',
+        es: 'Agua de coco, Jugo tropical natural',
+        it: 'Acqua di cocco, Succo tropicale fresco',
+        pl: 'Woda kokosowa, Świeży sok tropikalny',
+        nl: 'Kokoswater, Vers tropisch sap',
+        pt: 'Água de coco, Suco tropical natural',
+      },
     },
     music: [
       { en: 'Traditional kundu drumming', sv: 'Traditionell kundu-trumning', de: 'Traditionelles Kundu-Trommeln', fr: 'Batterie kundu traditionnelle', es: 'Percusión kundu tradicional', it: 'Percussioni kundu tradizionali', pl: 'Tradycyjne bębnienie kundu', nl: 'Traditioneel kundu-drummen', pt: 'Percussão kundu tradicional' },

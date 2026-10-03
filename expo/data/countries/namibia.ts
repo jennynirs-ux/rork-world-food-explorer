@@ -659,7 +659,7 @@ export const namibia: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -674,7 +674,7 @@ export const namibia: Country = {
             pt: 'Canela',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -966,7 +966,7 @@ export const namibia: Country = {
             pt: 'Páprica',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -981,7 +981,7 @@ export const namibia: Country = {
             pt: 'Tomilho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1077,8 +1077,28 @@ export const namibia: Country = {
       imageUrl: 'https://images.pexels.com/photos/954677/pexels-photo-954677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Windhoek Lager, Tafel Lager, German-style beers',
-      nonAlcoholic: 'Rooibos tea, Oshikundu (fermented millet drink), Fresh juice',
+      alcoholic: {
+        en: 'Windhoek Lager, Tafel Lager, German-style beers',
+        sv: 'Windhoek Lager, Tafel Lager, Öl i tysk stil',
+        de: 'Windhoek Lager, Tafel Lager, Biere nach deutscher Art',
+        fr: 'Windhoek Lager, Tafel Lager, Bières de style allemand',
+        es: 'Windhoek Lager, Tafel Lager, Cervezas de estilo alemán',
+        it: 'Windhoek Lager, Tafel Lager, Birre in stile tedesco',
+        pl: 'Windhoek Lager, Tafel Lager, Piwa w stylu niemieckim',
+        nl: 'Windhoek Lager, Tafel Lager, Bieren in Duitse stijl',
+        pt: 'Windhoek Lager, Tafel Lager, Cervejas estilo alemão',
+      },
+      nonAlcoholic: {
+        en: 'Rooibos tea, Oshikundu (fermented millet drink), Fresh juice',
+        sv: 'Rooiboste, Oshikundu (fermenterad hirsdryck), Färskpressad juice',
+        de: 'Rooibostee, Oshikundu (fermentiertes Hirsegetränk), Frischer Saft',
+        fr: 'Thé rooibos, Oshikundu (boisson fermentée au mil), Jus frais',
+        es: 'Té rooibos, Oshikundu (bebida fermentada de mijo), Jugo natural',
+        it: 'Tè rooibos, Oshikundu (bevanda fermentata di miglio), Succo fresco',
+        pl: 'Herbata rooibos, Oshikundu (sfermentowany napój z prosa), Świeży sok',
+        nl: 'Rooibosthee, Oshikundu (gefermenteerde gierstdrank), Vers sap',
+        pt: 'Chá de rooibos, Oshikundu (bebida fermentada de painço), Suco natural',
+      },
     },
     music: [
       { en: 'Traditional Herero songs', sv: 'Traditionella hereroslånger', de: 'Traditionelle Herero-Lieder', fr: 'Chants héréro traditionnels', es: 'Canciones herero tradicionales', it: 'Canzoni herero tradizionali', pl: 'Tradycyjne pieśni Herero', nl: 'Traditionele Herero liedjes', pt: 'Canções herero tradicionais' },

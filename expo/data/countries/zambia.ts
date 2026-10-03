@@ -254,7 +254,7 @@ export const zambia: Country = {
       {
         name: {
           en: 'Walking Safari Concept',
-          sv: 'Walking Safari Concept',
+          sv: 'Gångsafari',
           es: 'Concepto de safari a pie',
           fr: 'Concept de safari à pied',
           de: 'Walking-Safari-Konzept',
@@ -304,7 +304,7 @@ export const zambia: Country = {
       {
         name: {
           en: 'Victoria Falls Tourism Development',
-          sv: 'Victoria Falls Tourism Development',
+          sv: 'Turismutvecklingen vid Victoriafallen',
           es: 'Desarrollo turístico de las Cataratas Victoria',
           fr: 'Développement touristique des chutes Victoria',
           de: 'Tourismusentwicklung in Victoria Falls',
@@ -474,7 +474,7 @@ export const zambia: Country = {
       {
         name: {
           en: 'South Luangwa National Park',
-          sv: 'South Luangwa National Park',
+          sv: 'South Luangwa nationalpark',
           es: 'Parque Nacional Luangwa del Sur',
           fr: 'Parc national de Luangwa Sud',
           de: 'Südluangwa-Nationalpark',
@@ -498,7 +498,7 @@ export const zambia: Country = {
       {
         name: {
           en: 'Lower Zambezi National Park',
-          sv: 'Lower Zambezi National Park',
+          sv: 'Lower Zambezi nationalpark',
           es: 'Parque Nacional del Bajo Zambezi',
           fr: 'Parc national du Bas Zambèze',
           de: 'Unterer Zambezi-Nationalpark',
@@ -719,7 +719,7 @@ export const zambia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -740,7 +740,7 @@ export const zambia: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1047,8 +1047,28 @@ export const zambia: Country = {
       imageUrl: 'https://images.pexels.com/photos/15801011/pexels-photo-15801011.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Mosi Lager, Chibuku (traditional beer)',
-      nonAlcoholic: 'Munkoyo (fermented root drink), Maheu, Fresh fruit juice',
+      alcoholic: {
+        en: 'Mosi Lager, Chibuku (traditional beer)',
+        sv: 'Mosi Lager, Chibuku (traditionellt öl)',
+        de: 'Mosi Lager, Chibuku (traditionelles Bier)',
+        fr: 'Mosi Lager, Chibuku (bière traditionnelle)',
+        es: 'Mosi Lager, Chibuku (cerveza tradicional)',
+        it: 'Mosi Lager, Chibuku (birra tradizionale)',
+        pl: 'Mosi Lager, Chibuku (tradycyjne piwo)',
+        nl: 'Mosi Lager, Chibuku (traditioneel bier)',
+        pt: 'Mosi Lager, Chibuku (cerveja tradicional)',
+      },
+      nonAlcoholic: {
+        en: 'Munkoyo (fermented root drink), Maheu, Fresh fruit juice',
+        sv: 'Munkoyo (fermenterad rotdryck), Maheu, Färsk fruktjuice',
+        de: 'Munkoyo (fermentiertes Wurzelgetränk), Maheu, Frischer Fruchtsaft',
+        fr: 'Munkoyo (boisson fermentée à base de racines), Maheu, Jus de fruits frais',
+        es: 'Munkoyo (bebida fermentada de raíces), Maheu, Jugo de frutas natural',
+        it: 'Munkoyo (bevanda fermentata di radici), Maheu, Succo di frutta fresco',
+        pl: 'Munkoyo (fermentowany napój z korzeni), Maheu, Świeży sok owocowy',
+        nl: 'Munkoyo (gefermenteerde drank van wortels), Maheu, Vers vruchtensap',
+        pt: 'Munkoyo (bebida fermentada de raízes), Maheu, Suco de fruta natural',
+      },
     },
     music: [
       { en: 'Zamrock', sv: 'Zamrock', de: 'Zamrock', fr: 'Zamrock', es: 'Zamrock', it: 'Zamrock', pl: 'Zamrock', nl: 'Zamrock', pt: 'Zamrock' },

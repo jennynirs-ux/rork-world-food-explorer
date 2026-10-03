@@ -811,7 +811,7 @@ export const sanMarino: Country = {
             pt: 'Noz-moscada',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -826,7 +826,7 @@ export const sanMarino: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1091,8 +1091,28 @@ export const sanMarino: Country = {
       imageUrl: 'https://images.pexels.com/photos/14661143/pexels-photo-14661143.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Sangiovese wine, Grappa',
-      nonAlcoholic: 'Espresso, Cappuccino, Sparkling water',
+      alcoholic: {
+        en: 'Sangiovese wine, Grappa',
+        sv: 'Sangiovese-vin, Grappa',
+        de: 'Sangiovese-Wein, Grappa',
+        fr: 'Vin Sangiovese, Grappa',
+        es: 'Vino Sangiovese, Grappa',
+        it: 'Vino Sangiovese, Grappa',
+        pl: 'Wino Sangiovese, Grappa',
+        nl: 'Sangiovese-wijn, Grappa',
+        pt: 'Vinho Sangiovese, Grappa',
+      },
+      nonAlcoholic: {
+        en: 'Espresso, Cappuccino, Sparkling water',
+        sv: 'Espresso, Cappuccino, Kolsyrat vatten',
+        de: 'Espresso, Cappuccino, Sprudelwasser',
+        fr: 'Expresso, Cappuccino, Eau pétillante',
+        es: 'Expreso, Capuchino, Agua con gas',
+        it: 'Espresso, Cappuccino, Acqua frizzante',
+        pl: 'Espresso, Cappuccino, Woda gazowana',
+        nl: 'Espresso, Cappuccino, Bruisend water',
+        pt: 'Expresso, Cappuccino, Água com gás',
+      },
     },
     music: [
       { en: 'Classical Italian', sv: 'Klassisk italiensk musik', de: 'Klassische italienische Musik', fr: 'Musique classique italienne', es: 'Música clásica italiana', it: 'Musica classica italiana', pl: 'Klasyczna muzyka włoska', nl: 'Klassieke Italiaanse muziek', pt: 'Música clássica italiana' },

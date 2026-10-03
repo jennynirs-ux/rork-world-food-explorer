@@ -840,7 +840,7 @@ export const egypt: Country = {
             pt: 'Cominho',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -859,7 +859,7 @@ export const egypt: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -880,7 +880,7 @@ export const egypt: Country = {
             pt: 'Pimenta em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1017,7 +1017,7 @@ export const egypt: Country = {
         {
           name: {
             en: 'Semolina',
-            sv: 'Semolina',
+            sv: 'Semolinagryn',
             es: 'Sémola',
             fr: 'Semoule',
             de: 'Grieß',
@@ -1102,7 +1102,7 @@ export const egypt: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1176,7 +1176,7 @@ export const egypt: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1289,8 +1289,28 @@ export const egypt: Country = {
       imageUrl: 'https://images.pexels.com/photos/13272918/pexels-photo-13272918.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Stella beer, Sakara Gold',
-      nonAlcoholic: 'Mint tea (shai), Turkish coffee, Hibiscus tea (karkadeh), Fresh sugarcane juice',
+      alcoholic: {
+        en: 'Stella beer, Sakara Gold',
+        sv: 'Stella-öl, Sakara Gold',
+        de: 'Stella-Bier, Sakara Gold',
+        fr: 'Bière Stella, Sakara Gold',
+        es: 'Cerveza Stella, Sakara Gold',
+        it: 'Birra Stella, Sakara Gold',
+        pl: 'Piwo Stella, Sakara Gold',
+        nl: 'Stella-bier, Sakara Gold',
+        pt: 'Cerveja Stella, Sakara Gold',
+      },
+      nonAlcoholic: {
+        en: 'Mint tea (shai), Turkish coffee, Hibiscus tea (karkadeh), Fresh sugarcane juice',
+        sv: 'Myntate (shai), Turkiskt kaffe, Hibiskuste (karkadeh), Färskpressad sockerrörsjuice',
+        de: 'Minztee (Shai), Türkischer Kaffee, Hibiskustee (Karkadeh), Frischer Zuckerrohrsaft',
+        fr: 'Thé à la menthe (shai), Café turc, Thé à l\'hibiscus (karkadeh), Jus de canne à sucre frais',
+        es: 'Té de menta (shai), Café turco, Té de hibisco (karkadeh), Jugo de caña de azúcar natural',
+        it: 'Tè alla menta (shai), Caffè turco, Tè all\'ibisco (karkadeh), Succo di canna da zucchero fresco',
+        pl: 'Herbata miętowa (shai), Kawa po turecku, Herbata z hibiskusa (karkadeh), Świeży sok z trzciny cukrowej',
+        nl: 'Muntthee (shai), Turkse koffie, Hibiscusthee (karkadeh), Vers suikerrietsap',
+        pt: 'Chá de hortelã (shai), Café turco, Chá de hibisco (karkadeh), Caldo de cana fresco',
+      },
     },
     music: [
       { en: 'Om Kalthoum classics', sv: 'Om Kalthoum klassiker', de: 'Om Kalthoum Klassiker', fr: 'Classiques d\'Om Kalthoum', es: 'Clásicos de Om Kalthoum', it: 'Classici di Om Kalthoum', pl: 'Klasyki Om Kalthoum', nl: 'Om Kalthoum klassiekers', pt: 'Clássicos de Om Kalthoum' },

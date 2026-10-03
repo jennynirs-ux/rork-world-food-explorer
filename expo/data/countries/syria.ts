@@ -342,7 +342,7 @@ export const syria: Country = {
       {
         name: {
           en: 'Aleppo Soap (Laurel Soap)',
-          sv: 'Aleppo Soap (Laurel Soap)',
+          sv: 'Aleppotvål (lagertvål)',
           es: 'Jabón de Alepo (Jabón de Laurel)',
           fr: 'Savon d\'Alep (Savon au Laurier)',
           de: 'Aleppo-Seife (Lorbeerseife)',
@@ -731,7 +731,7 @@ export const syria: Country = {
             pt: 'Pimenta-da-jamaica',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -746,7 +746,7 @@ export const syria: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -883,7 +883,7 @@ export const syria: Country = {
         {
           name: {
             en: 'Semolina',
-            sv: 'Semolina',
+            sv: 'Semolinagryn',
             es: 'Sémola',
             fr: 'Semoule',
             de: 'Grieß',
@@ -972,7 +972,7 @@ export const syria: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -997,7 +997,7 @@ export const syria: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1125,8 +1125,28 @@ export const syria: Country = {
       imageUrl: 'https://images.pexels.com/photos/17070158/pexels-photo-17070158.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Arak (anise-flavored)',
-      nonAlcoholic: 'Arabic coffee, Mint tea, Jallab (date syrup drink)',
+      alcoholic: {
+        en: 'Arak (anise-flavored)',
+        sv: 'Arak (med anissmak)',
+        de: 'Arak (mit Anisgeschmack)',
+        fr: 'Arak (parfumé à l\'anis)',
+        es: 'Arak (con sabor a anís)',
+        it: 'Arak (aromatizzato all\'anice)',
+        pl: 'Arak (o smaku anyżu)',
+        nl: 'Arak (met anijssmaak)',
+        pt: 'Arak (com sabor de anis)',
+      },
+      nonAlcoholic: {
+        en: 'Arabic coffee, Mint tea, Jallab (date syrup drink)',
+        sv: 'Arabiskt kaffe, Myntate, Jallab (dryck på dadelsirap)',
+        de: 'Arabischer Kaffee, Minztee, Jallab (Getränk aus Dattelsirup)',
+        fr: 'Café arabe, Thé à la menthe, Jallab (boisson au sirop de dattes)',
+        es: 'Café árabe, Té de menta, Jallab (bebida de jarabe de dátiles)',
+        it: 'Caffè arabo, Tè alla menta, Jallab (bevanda allo sciroppo di datteri)',
+        pl: 'Kawa arabska, Herbata miętowa, Jallab (napój z syropu daktylowego)',
+        nl: 'Arabische koffie, Muntthee, Jallab (drank van dadelsiroop)',
+        pt: 'Café árabe, Chá de hortelã, Jallab (bebida de xarope de tâmaras)',
+      },
     },
     music: [
       { en: 'Traditional Dabke', sv: 'Traditionell Dabke', de: 'Traditioneller Dabke', fr: 'Dabke traditionnel', es: 'Dabke tradicional', it: 'Dabke tradizionale', pl: 'Tradycyjny Dabke', nl: 'Traditionele Dabke', pt: 'Dabke tradicional' },

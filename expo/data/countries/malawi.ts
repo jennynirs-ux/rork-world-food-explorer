@@ -599,7 +599,7 @@ export const malawi: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -614,7 +614,7 @@ export const malawi: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -899,7 +899,7 @@ export const malawi: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -920,7 +920,7 @@ export const malawi: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1016,8 +1016,28 @@ export const malawi: Country = {
       imageUrl: 'https://images.pexels.com/photos/5739585/pexels-photo-5739585.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Carlsberg Malawi, Kuche Kuche beer, Chibuku',
-      nonAlcoholic: 'Thobwa (fermented maize drink), Maheu, Fresh mango juice',
+      alcoholic: {
+        en: 'Carlsberg Malawi, Kuche Kuche beer, Chibuku',
+        sv: 'Carlsberg Malawi, Kuche Kuche-öl, Chibuku',
+        de: 'Carlsberg Malawi, Kuche-Kuche-Bier, Chibuku',
+        fr: 'Carlsberg Malawi, Bière Kuche Kuche, Chibuku',
+        es: 'Carlsberg Malawi, Cerveza Kuche Kuche, Chibuku',
+        it: 'Carlsberg Malawi, Birra Kuche Kuche, Chibuku',
+        pl: 'Carlsberg Malawi, Piwo Kuche Kuche, Chibuku',
+        nl: 'Carlsberg Malawi, Kuche Kuche-bier, Chibuku',
+        pt: 'Carlsberg Malawi, Cerveja Kuche Kuche, Chibuku',
+      },
+      nonAlcoholic: {
+        en: 'Thobwa (fermented maize drink), Maheu, Fresh mango juice',
+        sv: 'Thobwa (fermenterad majsdryck), Maheu, Färsk mangojuice',
+        de: 'Thobwa (fermentiertes Maisgetränk), Maheu, Frischer Mangosaft',
+        fr: 'Thobwa (boisson fermentée au maïs), Maheu, Jus de mangue frais',
+        es: 'Thobwa (bebida fermentada de maíz), Maheu, Jugo de mango natural',
+        it: 'Thobwa (bevanda fermentata di mais), Maheu, Succo di mango fresco',
+        pl: 'Thobwa (fermentowany napój kukurydziany), Maheu, Świeży sok z mango',
+        nl: 'Thobwa (gefermenteerde maïsdrank), Maheu, Vers mangosap',
+        pt: 'Thobwa (bebida fermentada de milho), Maheu, Suco de manga natural',
+      },
     },
     music: [
       { en: 'Traditional Malawian drumming', sv: 'Traditionell malawisk trumning', de: 'Traditionelles malawisches Trommeln', fr: 'Percussions traditionnelles malawites', es: 'Percusión tradicional malauí', it: 'Percussioni tradizionali malawiane', pl: 'Tradycyjne bębnienie malawskie', nl: 'Traditioneel Malawisch trommelen', pt: 'Percussão tradicional malauiana' },
@@ -1088,7 +1108,7 @@ export const malawi: Country = {
           },
           {
             en: 'Land of a Thousand Hills',
-            sv: 'Land of a Thousand Hills',
+            sv: 'De tusen kullarnas land',
             es: 'Tierra de las Mil Colinas',
             fr: 'Pays des Mille Collines',
             de: 'Land der tausend Hügel',
@@ -1432,7 +1452,7 @@ export const malawi: Country = {
         options: [
           {
             en: 'Lake of Dreams',
-            sv: 'Lake of Dreams',
+            sv: 'Drömmarnas sjö',
             es: 'Lago de los Sueños',
             fr: 'Lac des rêves',
             de: 'See der Träume',
@@ -1443,7 +1463,7 @@ export const malawi: Country = {
           },
           {
             en: 'Lake of Stars',
-            sv: 'Lake of Stars',
+            sv: 'Stjärnornas sjö',
             es: 'Lago de las Estrellas',
             fr: 'Lac des Étoiles',
             de: 'Sternensee',
@@ -1465,7 +1485,7 @@ export const malawi: Country = {
           },
           {
             en: 'Lake of Hope',
-            sv: 'Lake of Hope',
+            sv: 'Hoppets sjö',
             es: 'Lago de la Esperanza',
             fr: 'Lac de l\'Espoir',
             de: 'See der Hoffnung',

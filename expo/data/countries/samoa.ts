@@ -382,7 +382,7 @@ export const samoa: Country = {
       {
         name: {
           en: 'Umu Earth-Oven Cooking',
-          sv: 'Umu Earth-Oven Cooking',
+          sv: 'Matlagning i jordugnen umu',
           es: 'Cocinar en horno de tierra Umu',
           fr: 'Cuisson au four en terre Umu',
           de: 'Umu-Erdofen-Kochen',
@@ -407,7 +407,7 @@ export const samoa: Country = {
       {
         name: {
           en: 'Siapo (Tapa Cloth) Craft',
-          sv: 'Siapo (Tapa Cloth) Craft',
+          sv: 'Siapo (tapatyg)',
           es: 'Artesanía de Siapo (tela de tapa)',
           fr: 'Artisanat Siapo (Tissu Tapa)',
           de: 'Siapo (Tapa-Tuch) Handwerk',
@@ -530,10 +530,10 @@ export const samoa: Country = {
       {
         name: {
           en: 'Vailima (Robert Louis Stevenson Museum)',
-          sv: 'Vailima (Robert Louis Stevenson Museum)',
+          sv: 'Vailima (Robert Louis Stevenson-museet)',
           es: 'Vailima (Museo Robert Louis Stevenson)',
           fr: 'Vailima (Musée Robert Louis Stevenson)',
-          de: 'Vailima (Robert Louis Stevenson Museum)',
+          de: 'Vailima (Robert-Louis-Stevenson-Museum)',
           it: 'Vailima (Museo di Robert Louis Stevenson)',
           pl: 'Vailima (Muzeum Roberta Louisa Stevensona)',
           nl: 'Vailima (Robert Louis Stevenson Museum)',
@@ -731,7 +731,7 @@ export const samoa: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -746,7 +746,7 @@ export const samoa: Country = {
             pt: 'Pimenta preta',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -908,7 +908,7 @@ export const samoa: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -941,8 +941,8 @@ export const samoa: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1008,7 +1008,7 @@ export const samoa: Country = {
             pt: 'Extrato de baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1104,8 +1104,28 @@ export const samoa: Country = {
       imageUrl: 'https://images.pexels.com/photos/8395781/pexels-photo-8395781.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Vailima beer, Kava (traditional ceremonial drink)',
-      nonAlcoholic: 'Coconut water, Fresh tropical juices, Lemon leaf tea',
+      alcoholic: {
+        en: 'Vailima beer, Kava (traditional ceremonial drink)',
+        sv: 'Vailima-öl, Kava (traditionell ceremoniell dryck)',
+        de: 'Vailima-Bier, Kava (traditionelles Zeremoniegetränk)',
+        fr: 'Bière Vailima, Kava (boisson cérémonielle traditionnelle)',
+        es: 'Cerveza Vailima, Kava (bebida ceremonial tradicional)',
+        it: 'Birra Vailima, Kava (bevanda cerimoniale tradizionale)',
+        pl: 'Piwo Vailima, Kava (tradycyjny napój ceremonialny)',
+        nl: 'Vailima-bier, Kava (traditionele ceremoniële drank)',
+        pt: 'Cerveja Vailima, Kava (bebida cerimonial tradicional)',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Fresh tropical juices, Lemon leaf tea',
+        sv: 'Kokosvatten, Färska tropiska juicer, Citronbladste',
+        de: 'Kokoswasser, Frische tropische Säfte, Zitronenblättertee',
+        fr: 'Eau de coco, Jus tropicaux frais, Thé aux feuilles de citronnier',
+        es: 'Agua de coco, Jugos tropicales naturales, Té de hojas de limonero',
+        it: 'Acqua di cocco, Succhi tropicali freschi, Tè di foglie di limone',
+        pl: 'Woda kokosowa, Świeże soki tropikalne, Herbata z liści cytryny',
+        nl: 'Kokoswater, Verse tropische sappen, Citroenbladthee',
+        pt: 'Água de coco, Sucos tropicais naturais, Chá de folha de limoeiro',
+      },
     },
     music: [
       { en: 'Traditional Samoan songs', sv: 'Traditionella samoanska sånger', de: 'Traditionelle samoanische Lieder', fr: 'Chansons samoanes traditionnelles', es: 'Canciones samoanas tradicionales', it: 'Canzoni samoane tradizionali', pl: 'Tradycyjne pieśni samoańskie', nl: 'Traditionele Samoaanse liedjes', pt: 'Canções samoanas tradicionais' },

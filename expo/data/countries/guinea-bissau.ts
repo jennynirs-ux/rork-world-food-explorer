@@ -278,7 +278,7 @@ export const guineaBissau: Country = {
       {
         name: {
           en: 'Bijagós Matriarchal Society',
-          sv: 'Bijagós Matriarchal Society',
+          sv: 'Det matriarkala samhället på Bijagós',
           es: 'Sociedad Matriarcal Bijagós',
           fr: 'Société matriarcale de Bijagós',
           de: 'Bijagós Matriarchalische Gesellschaft',
@@ -633,7 +633,7 @@ export const guineaBissau: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -849,7 +849,7 @@ export const guineaBissau: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -945,8 +945,28 @@ export const guineaBissau: Country = {
       imageUrl: 'https://images.pexels.com/photos/33626299/pexels-photo-33626299.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Caju (cashew wine), Palm wine',
-      nonAlcoholic: 'Bissap, Fresh coconut water',
+      alcoholic: {
+        en: 'Caju (cashew wine), Palm wine',
+        sv: 'Caju (cashewvin), Palmvin',
+        de: 'Caju (Cashewwein), Palmwein',
+        fr: 'Caju (vin de cajou), Vin de palme',
+        es: 'Caju (vino de anacardo), Vino de palma',
+        it: 'Caju (vino di anacardi), Vino di palma',
+        pl: 'Caju (wino z nerkowca), Wino palmowe',
+        nl: 'Caju (cashewwijn), Palmwijn',
+        pt: 'Caju (vinho de caju), Vinho de palma',
+      },
+      nonAlcoholic: {
+        en: 'Bissap, Fresh coconut water',
+        sv: 'Bissap, Färskt kokosvatten',
+        de: 'Bissap, Frisches Kokoswasser',
+        fr: 'Bissap, Eau de coco fraîche',
+        es: 'Bissap, Agua de coco fresca',
+        it: 'Bissap, Acqua di cocco fresca',
+        pl: 'Bissap, Świeża woda kokosowa',
+        nl: 'Bissap, Vers kokoswater',
+        pt: 'Bissap, Água de coco fresca',
+      },
     },
     music: [
       { en: 'Gumbé music', sv: 'Gumbé-musik', de: 'Gumbé-Musik', fr: 'Musique gumbé', es: 'Música gumbé', it: 'Musica gumbé', pl: 'Muzyka gumbé', nl: 'Gumbé-muziek', pt: 'Música gumbé' },

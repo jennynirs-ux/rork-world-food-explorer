@@ -390,7 +390,7 @@ export const sudan: Country = {
       {
         name: {
           en: 'Sanganeb Marine National Park',
-          sv: 'Sanganeb Marine National Park',
+          sv: 'Sanganeb marina nationalpark',
           es: 'Parque Nacional Marino Sanganeb',
           fr: 'Parc national marin de Sanganeb',
           de: 'Sanganeb Marine Nationalpark',
@@ -630,14 +630,14 @@ export const sudan: Country = {
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -657,7 +657,7 @@ export const sudan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -682,7 +682,7 @@ export const sudan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -703,7 +703,7 @@ export const sudan: Country = {
             pt: 'Cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -718,7 +718,7 @@ export const sudan: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -737,7 +737,7 @@ export const sudan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -930,7 +930,7 @@ export const sudan: Country = {
         {
           name: {
             en: 'Semolina',
-            sv: 'Semolina',
+            sv: 'Semolinagryn',
             es: 'Sémola',
             fr: 'Semoule',
             de: 'Grieß',
@@ -1000,7 +1000,7 @@ export const sudan: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1089,7 +1089,7 @@ export const sudan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1110,7 +1110,7 @@ export const sudan: Country = {
             pt: 'Calda: água de rosas ou flor de laranjeira (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1228,8 +1228,28 @@ export const sudan: Country = {
       imageUrl: 'https://images.pexels.com/photos/10395259/pexels-photo-10395259.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Not commonly consumed (Islamic country)',
-      nonAlcoholic: 'Hibiscus tea (Karkadeh), Ginger coffee, Fresh lime juice',
+      alcoholic: {
+        en: 'Not commonly consumed (Islamic country)',
+        sv: 'Dricks sällan (islamiskt land)',
+        de: 'Wird kaum getrunken (islamisches Land)',
+        fr: 'Rarement consommé (pays islamique)',
+        es: 'Poco consumido (país islámico)',
+        it: 'Poco consumato (paese islamico)',
+        pl: 'Rzadko spożywany (kraj islamski)',
+        nl: 'Wordt weinig gedronken (islamitisch land)',
+        pt: 'Pouco consumido (país islâmico)',
+      },
+      nonAlcoholic: {
+        en: 'Hibiscus tea (Karkadeh), Ginger coffee, Fresh lime juice',
+        sv: 'Hibiskuste (Karkadeh), Ingefärskaffe, Färskpressad limejuice',
+        de: 'Hibiskustee (Karkadeh), Ingwerkaffee, Frischer Limettensaft',
+        fr: 'Infusion d\'hibiscus (Karkadeh), Café au gingembre, Jus de citron vert frais',
+        es: 'Té de hibisco (Karkadeh), Café con jengibre, Jugo de lima natural',
+        it: 'Tè di ibisco (Karkadeh), Caffè allo zenzero, Succo di lime fresco',
+        pl: 'Herbata z hibiskusa (Karkadeh), Kawa z imbirem, Świeży sok z limonki',
+        nl: 'Hibiscusthee (Karkadeh), Gemberkoffie, Vers limoensap',
+        pt: 'Chá de hibisco (Karkadeh), Café com gengibre, Suco de limão natural',
+      },
     },
     music: [
       { en: 'Traditional Nubian music', sv: 'Traditionell nubisk musik', de: 'Traditionelle nubische Musik', fr: 'Musique nubienne traditionnelle', es: 'Música nubia tradicional', it: 'Musica nubiana tradizionale', pl: 'Tradycyjna muzyka nubijska', nl: 'Traditionele Nubische muziek', pt: 'Música nubiana tradicional' },

@@ -266,9 +266,9 @@ export const botswana: Country = {
         year: 'Ancient Times',
         title: {
           en: 'San Bushmen',
-          sv: 'San Bushmen',
+          sv: 'San-folket (bushmän)',
           es: 'San bosquimanos',
-          fr: 'San Bushmen',
+          fr: 'Les Bochimans San',
           de: 'San Buschmänner',
           it: 'Boscimani San',
           pl: 'Buszmeni San',
@@ -377,10 +377,10 @@ export const botswana: Country = {
       {
         name: {
           en: 'Diamond Revenue Management',
-          sv: 'Diamond Revenue Management',
+          sv: 'Förvaltning av diamantintäkter',
           es: 'Gestión de ingresos de diamantes',
           fr: 'Gestion des revenus des diamants',
-          de: 'Diamond Revenue Management',
+          de: 'Verwaltung der Diamanteinnahmen',
           it: 'Gestione dei ricavi dei diamanti',
           pl: 'Zarządzanie dochodami z diamentów',
           nl: 'Beheer van diamantinkomsten',
@@ -550,7 +550,7 @@ export const botswana: Country = {
       {
         name: {
           en: 'Central Kalahari Game Reserve',
-          sv: 'Central Kalahari Game Reserve',
+          sv: 'Central Kalahari viltreservat',
           es: 'Reserva de caza del Kalahari central',
           fr: 'Réserve de gibier du Kalahari central',
           de: 'Zentralkalahari-Wildreservat',
@@ -765,7 +765,7 @@ export const botswana: Country = {
             pt: 'Sal',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -780,7 +780,7 @@ export const botswana: Country = {
             pt: 'Pimenta preta',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1023,7 +1023,7 @@ export const botswana: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1141,8 +1141,28 @@ export const botswana: Country = {
       imageUrl: 'https://images.pexels.com/photos/5652196/pexels-photo-5652196.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Chibuku, St. Louis lager, Traditional sorghum beer',
-      nonAlcoholic: 'Ginger beer, Rooibos tea, Fresh fruit juices',
+      alcoholic: {
+        en: 'Chibuku, St. Louis lager, Traditional sorghum beer',
+        sv: 'Chibuku, St. Louis-lager, Traditionellt sorghumöl',
+        de: 'Chibuku, St. Louis Lager, Traditionelles Sorghumbier',
+        fr: 'Chibuku, Bière blonde St. Louis, Bière de sorgho traditionnelle',
+        es: 'Chibuku, Cerveza lager St. Louis, Cerveza tradicional de sorgo',
+        it: 'Chibuku, Birra lager St. Louis, Birra tradizionale di sorgo',
+        pl: 'Chibuku, Lager St. Louis, Tradycyjne piwo z sorga',
+        nl: 'Chibuku, St. Louis-lager, Traditioneel sorghumbier',
+        pt: 'Chibuku, Cerveja lager St. Louis, Cerveja tradicional de sorgo',
+      },
+      nonAlcoholic: {
+        en: 'Ginger beer, Rooibos tea, Fresh fruit juices',
+        sv: 'Ingefärsöl, Rooiboste, Färska fruktjuicer',
+        de: 'Ingwerbier, Rooibostee, Frische Fruchtsäfte',
+        fr: 'Bière de gingembre, Thé rooibos, Jus de fruits frais',
+        es: 'Cerveza de jengibre, Té rooibos, Jugos de fruta naturales',
+        it: 'Birra allo zenzero, Tè rooibos, Succhi di frutta freschi',
+        pl: 'Piwo imbirowe, Herbata rooibos, Świeże soki owocowe',
+        nl: 'Gemberbier, Rooibosthee, Verse vruchtensappen',
+        pt: 'Cerveja de gengibre, Chá de rooibos, Sucos de frutas naturais',
+      },
     },
     music: [
       { en: 'Traditional Tswana music', sv: 'Traditionell tswana-musik', de: 'Traditionelle Tswana-Musik', fr: 'Musique tswana traditionnelle', es: 'Música tswana tradicional', it: 'Musica tswana tradizionale', pl: 'Tradycyjna muzyka tswana', nl: 'Traditionele Tswana-muziek', pt: 'Música tswana tradicional' },
@@ -1589,9 +1609,9 @@ export const botswana: Country = {
           },
           {
             en: 'San Bushmen',
-            sv: 'San Bushmen',
+            sv: 'San-folket (bushmän)',
             es: 'San bosquimanos',
-            fr: 'San Bushmen',
+            fr: 'Les Bochimans San',
             de: 'San Buschmänner',
             it: 'Boscimani San',
             pl: 'Buszmeni San',

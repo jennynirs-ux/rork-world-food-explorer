@@ -693,7 +693,7 @@ export const sweden: Country = {
             pt: 'Pimenta-da-jamaica',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -945,7 +945,7 @@ export const sweden: Country = {
             pt: 'Cardamomo moído',
           },
           amount: 1.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -960,7 +960,7 @@ export const sweden: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1024,7 +1024,7 @@ export const sweden: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1074,7 +1074,7 @@ export const sweden: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1198,8 +1198,28 @@ export const sweden: Country = {
       imageUrl: 'https://images.pexels.com/photos/14576630/pexels-photo-14576630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Aquavit, Swedish beer, Glögg',
-      nonAlcoholic: 'Coffee, Lingonberry juice, Elderflower cordial',
+      alcoholic: {
+        en: 'Aquavit, Swedish beer, Glögg',
+        sv: 'Akvavit, Svenskt öl, Glögg',
+        de: 'Aquavit, Schwedisches Bier, Glögg',
+        fr: 'Aquavit, Bière suédoise, Glögg',
+        es: 'Aquavit, Cerveza sueca, Glögg',
+        it: 'Aquavit, Birra svedese, Glögg',
+        pl: 'Akwawit, Szwedzkie piwo, Glögg',
+        nl: 'Aquavit, Zweeds bier, Glögg',
+        pt: 'Aquavit, Cerveja sueca, Glögg',
+      },
+      nonAlcoholic: {
+        en: 'Coffee, Lingonberry juice, Elderflower cordial',
+        sv: 'Kaffe, Lingondricka, Fläderblomssaft',
+        de: 'Kaffee, Preiselbeersaft, Holunderblütensirup',
+        fr: 'Café, Jus d\'airelles, Sirop de fleurs de sureau',
+        es: 'Café, Jugo de arándano rojo, Sirope de flor de saúco',
+        it: 'Caffè, Succo di mirtilli rossi, Sciroppo di fiori di sambuco',
+        pl: 'Kawa, Sok z borówki brusznicy, Syrop z kwiatów czarnego bzu',
+        nl: 'Koffie, Vossenbessensap, Vlierbloesemsiroop',
+        pt: 'Café, Suco de mirtilo-vermelho, Xarope de flor de sabugueiro',
+      },
     },
     music: [
       { en: 'ABBA', sv: 'ABBA', de: 'ABBA', fr: 'ABBA', es: 'ABBA', it: 'ABBA', pl: 'ABBA', nl: 'ABBA', pt: 'ABBA' },

@@ -655,7 +655,7 @@ export const tuvalu: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -743,7 +743,7 @@ export const tuvalu: Country = {
       id: 'tuvalu-dessert',
       name: {
         en: 'Coconut Breadfruit Pudding',
-        sv: 'Coconut Breadfruit Pudding',
+        sv: 'Kokos- och brödfruktspudding',
         es: 'Pudín de coco y fruta del pan',
         fr: 'Pudding aux fruits à pain et à la noix de coco',
         de: 'Kokos-Brotfrucht-Pudding',
@@ -836,7 +836,7 @@ export const tuvalu: Country = {
             pt: 'Baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -851,7 +851,7 @@ export const tuvalu: Country = {
             pt: 'Sal',
           },
           amount: 0.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -925,8 +925,28 @@ export const tuvalu: Country = {
       imageUrl: 'https://images.pexels.com/photos/5997850/pexels-photo-5997850.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Toddy (palm wine)',
-      nonAlcoholic: 'Coconut water, Fresh fruit juice',
+      alcoholic: {
+        en: 'Toddy (palm wine)',
+        sv: 'Toddy (palmvin)',
+        de: 'Toddy (Palmwein)',
+        fr: 'Toddy (vin de palme)',
+        es: 'Toddy (vino de palma)',
+        it: 'Toddy (vino di palma)',
+        pl: 'Toddy (wino palmowe)',
+        nl: 'Toddy (palmwijn)',
+        pt: 'Toddy (vinho de palma)',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Fresh fruit juice',
+        sv: 'Kokosvatten, Färskpressad fruktjuice',
+        de: 'Kokoswasser, Frischer Fruchtsaft',
+        fr: 'Eau de coco, Jus de fruits frais',
+        es: 'Agua de coco, Jugo de fruta natural',
+        it: 'Acqua di cocco, Succo di frutta fresco',
+        pl: 'Woda kokosowa, Świeży sok owocowy',
+        nl: 'Kokoswater, Vers vruchtensap',
+        pt: 'Água de coco, Suco natural de frutas',
+      },
     },
     music: [
       { en: 'Traditional fatele dance music', sv: 'Traditionell fatele-dansmusik', de: 'Traditionelle Fatele-Tanzmusik', fr: 'Musique de danse fatele traditionnelle', es: 'Música de danza fatele tradicional', it: 'Musica da ballo fatele tradizionale', pl: 'Tradycyjna muzyka taneczna fatele', nl: 'Traditionele fatele dansmuziek', pt: 'Música de dança fatele tradicional' },

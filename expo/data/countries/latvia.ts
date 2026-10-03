@@ -290,7 +290,7 @@ export const latvia: Country = {
       {
         name: {
           en: 'Amber Trade',
-          sv: 'Amber Trade',
+          sv: 'Bärnstenshandel',
           es: 'Comercio de ámbar',
           fr: 'Commerce de l\'ambre',
           de: 'Bernsteinhandel',
@@ -572,7 +572,7 @@ export const latvia: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -693,7 +693,7 @@ export const latvia: Country = {
         description: {
           en: 'Latvia was occupied by the Soviet Union, followed by Nazi Germany, then Soviet Union again.',
           sv: 'Lettland ockuperades av Sovjetunionen, följt av Nazityskland, sedan Sovjetunionen igen.',
-          es: 'Latvia was occupied by the Soviet Union, followed by Nazi Germany, then Soviet Union again.',
+          es: 'Letonia fue ocupada por la Unión Soviética, luego por la Alemania nazi y de nuevo por la Unión Soviética.',
           fr: 'La Lettonie a été occupée par l\'Union soviétique, suivie par l\'Allemagne nazie, puis à nouveau par l\'Union soviétique.',
           de: 'Lettland wurde von der Sowjetunion besetzt, gefolgt von Nazi-Deutschland und dann wieder von der Sowjetunion.',
           it: 'La Lettonia fu occupata dall\'Unione Sovietica, poi dalla Germania nazista, e infine di nuovo dall\'Unione Sovietica.',
@@ -969,9 +969,9 @@ export const latvia: Country = {
           amount: 1,
           unit: {
             en: 'to taste',
-            sv: 'att smaka',
+            sv: 'efter smak',
             es: 'al gusto',
-            fr: 'à déguster',
+            fr: 'au goût',
             de: 'nach Geschmack',
             it: 'a piacere',
             pl: 'do smaku',
@@ -1084,8 +1084,28 @@ export const latvia: Country = {
       imageUrl: 'https://images.pexels.com/photos/7190222/pexels-photo-7190222.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Riga Black Balsam (herbal liqueur), Latvian beer, Kvass',
-      nonAlcoholic: 'Birch sap, Berry juices, Herbal teas',
+      alcoholic: {
+        en: 'Riga Black Balsam (herbal liqueur), Latvian beer, Kvass',
+        sv: 'Riga Black Balsam (örtlikör), Lettiskt öl, Kvass',
+        de: 'Riga Black Balsam (Kräuterlikör), Lettisches Bier, Kwass',
+        fr: 'Riga Black Balsam (liqueur aux herbes), Bière lettone, Kvas',
+        es: 'Riga Black Balsam (licor de hierbas), Cerveza letona, Kvas',
+        it: 'Riga Black Balsam (liquore alle erbe), Birra lettone, Kvass',
+        pl: 'Riga Black Balsam (likier ziołowy), Piwo łotewskie, Kwas chlebowy',
+        nl: 'Riga Black Balsam (kruidenlikeur), Lets bier, Kvas',
+        pt: 'Riga Black Balsam (licor de ervas), Cerveja letã, Kvass',
+      },
+      nonAlcoholic: {
+        en: 'Birch sap, Berry juices, Herbal teas',
+        sv: 'Björksav, Bärjuicer, Örtteer',
+        de: 'Birkensaft, Beerensäfte, Kräutertees',
+        fr: 'Sève de bouleau, Jus de baies, Tisanes',
+        es: 'Savia de abedul, Jugos de bayas, Infusiones de hierbas',
+        it: 'Linfa di betulla, Succhi di bacche, Tisane',
+        pl: 'Sok z brzozy, Soki jagodowe, Herbatki ziołowe',
+        nl: 'Berkensap, Bessensappen, Kruidenthee',
+        pt: 'Seiva de bétula, Sucos de frutas vermelhas, Chás de ervas',
+      },
     },
     music: [
       { en: 'Latvian folk songs (dainas)', sv: 'Lettiska folksånger (dainas)', de: 'Lettische Volkslieder (Dainas)', fr: 'Chansons folk lettones (dainas)', es: 'Canciones folclóricas letonas (dainas)', it: 'Canzoni folk lettoni (dainas)', pl: 'Łotewskie pieśni ludowe (dainas)', nl: 'Letse volksliederen (dainas)', pt: 'Canções folclóricas letãs (dainas)' },

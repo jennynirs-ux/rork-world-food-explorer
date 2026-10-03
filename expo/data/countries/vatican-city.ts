@@ -669,7 +669,7 @@ export const vaticanCity: Country = {
             pt: 'Pimenta-do-reino moída na hora',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -703,7 +703,7 @@ export const vaticanCity: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -967,7 +967,7 @@ export const vaticanCity: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -982,7 +982,7 @@ export const vaticanCity: Country = {
             pt: 'Raspas de laranja (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1016,7 +1016,7 @@ export const vaticanCity: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1037,7 +1037,7 @@ export const vaticanCity: Country = {
             pt: 'Baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1155,8 +1155,28 @@ export const vaticanCity: Country = {
       imageUrl: 'https://images.pexels.com/photos/19803563/pexels-photo-19803563.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Italian wine, Communion wine',
-      nonAlcoholic: 'Espresso, Cappuccino, Italian soda',
+      alcoholic: {
+        en: 'Italian wine, Communion wine',
+        sv: 'Italienskt vin, Nattvardsvin',
+        de: 'Italienischer Wein, Messwein',
+        fr: 'Vin italien, Vin de messe',
+        es: 'Vino italiano, Vino de misa',
+        it: 'Vino italiano, Vino da messa',
+        pl: 'Wino włoskie, Wino mszalne',
+        nl: 'Italiaanse wijn, Miswijn',
+        pt: 'Vinho italiano, Vinho de missa',
+      },
+      nonAlcoholic: {
+        en: 'Espresso, Cappuccino, Italian soda',
+        sv: 'Espresso, Cappuccino, Italiensk läsk',
+        de: 'Espresso, Cappuccino, Italienische Limonade',
+        fr: 'Expresso, Cappuccino, Soda italien',
+        es: 'Expreso, Capuchino, Refresco italiano',
+        it: 'Espresso, Cappuccino, Soda italiana',
+        pl: 'Espresso, Cappuccino, Włoski napój gazowany',
+        nl: 'Espresso, Cappuccino, Italiaanse frisdrank',
+        pt: 'Expresso, Cappuccino, Soda italiana',
+      },
     },
     music: [
       { en: 'Gregorian chant', sv: 'Gregoriansk sång', de: 'Gregorianischer Choral', fr: 'Chant grégorien', es: 'Canto gregoriano', it: 'Canto gregoriano', pl: 'Śpiew gregoriański', nl: 'Gregoriaans gezang', pt: 'Canto gregoriano' },

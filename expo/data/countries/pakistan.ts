@@ -266,7 +266,7 @@ export const pakistan: Country = {
         year: '2500 BC',
         title: {
           en: 'Indus Valley Civilization',
-          sv: 'Indus Valley Civilization',
+          sv: 'Induskulturen',
           es: 'Civilización del valle del Indo',
           fr: 'Civilisation de la vallée de l\'Indus',
           de: 'Industal-Zivilisation',
@@ -424,7 +424,7 @@ export const pakistan: Country = {
       {
         name: {
           en: 'Indus Valley Civilization',
-          sv: 'Indus Valley Civilization',
+          sv: 'Induskulturen',
           es: 'Civilización del valle del Indo',
           fr: 'Civilisation de la vallée de l\'Indus',
           de: 'Industal-Zivilisation',
@@ -449,7 +449,7 @@ export const pakistan: Country = {
       {
         name: {
           en: 'Truck Art',
-          sv: 'Truck Art',
+          sv: 'Lastbilskonst',
           es: 'Arte de camiones',
           fr: 'Art du camion',
           de: 'LKW-Kunst',
@@ -474,7 +474,7 @@ export const pakistan: Country = {
       {
         name: {
           en: 'Edhi Foundation',
-          sv: 'Edhi Foundation',
+          sv: 'Edhi-stiftelsen',
           es: 'Fundación Edhi',
           fr: 'Fondation Edhi',
           de: 'Edhi-Stiftung',
@@ -701,7 +701,7 @@ export const pakistan: Country = {
             pt: 'Bicarbonato de sódio',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -780,7 +780,7 @@ export const pakistan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -803,10 +803,10 @@ export const pakistan: Country = {
           amount: 3,
           unit: {
             en: 'pods',
-            sv: 'pods',
+            sv: 'kapslar',
             es: 'vainas',
             fr: 'gousses',
-            de: 'Schoten',
+            de: 'Kapseln',
             it: 'baccelli',
             pl: 'strąki',
             nl: 'peulen',
@@ -1057,7 +1057,7 @@ export const pakistan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1082,7 +1082,7 @@ export const pakistan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1106,8 +1106,8 @@ export const pakistan: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1130,10 +1130,10 @@ export const pakistan: Country = {
           amount: 1,
           unit: {
             en: 'bunch each',
-            sv: 'gäng varje',
-            es: 'grupo cada uno',
-            fr: 'groupe chacun',
-            de: 'jeweils bündeln',
+            sv: 'knippe av varje',
+            es: 'manojo de cada uno',
+            fr: 'botte de chaque',
+            de: 'Bund von jedem',
             it: 'un mazzetto ciascuno',
             pl: 'po pęczku każdego',
             nl: 'van elk een bosje',
@@ -1271,8 +1271,28 @@ export const pakistan: Country = {
       imageUrl: 'https://images.pexels.com/photos/32986476/pexels-photo-32986476.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Limited availability (Islamic country)',
-      nonAlcoholic: 'Chai (milk tea), Lassi (yogurt drink), Rooh Afza, Fresh sugarcane juice',
+      alcoholic: {
+        en: 'Limited availability (Islamic country)',
+        sv: 'Begränsad tillgång (islamiskt land)',
+        de: 'Begrenzt erhältlich (islamisches Land)',
+        fr: 'Disponibilité limitée (pays islamique)',
+        es: 'Disponibilidad limitada (país islámico)',
+        it: 'Disponibilità limitata (paese islamico)',
+        pl: 'Ograniczona dostępność (kraj islamski)',
+        nl: 'Beperkt verkrijgbaar (islamitisch land)',
+        pt: 'Disponibilidade limitada (país islâmico)',
+      },
+      nonAlcoholic: {
+        en: 'Chai (milk tea), Lassi (yogurt drink), Rooh Afza, Fresh sugarcane juice',
+        sv: 'Chai (mjölkte), Lassi (yoghurtdryck), Rooh Afza, Färskpressad sockerrörsjuice',
+        de: 'Chai (Milchtee), Lassi (Joghurtgetränk), Rooh Afza, Frischer Zuckerrohrsaft',
+        fr: 'Chai (thé au lait), Lassi (boisson au yaourt), Rooh Afza, Jus de canne à sucre frais',
+        es: 'Chai (té con leche), Lassi (bebida de yogur), Rooh Afza, Jugo de caña de azúcar natural',
+        it: 'Chai (tè al latte), Lassi (bevanda allo yogurt), Rooh Afza, Succo di canna da zucchero fresco',
+        pl: 'Chai (herbata z mlekiem), Lassi (napój jogurtowy), Rooh Afza, Świeży sok z trzciny cukrowej',
+        nl: 'Chai (melkthee), Lassi (yoghurtdrank), Rooh Afza, Vers suikerrietsap',
+        pt: 'Chai (chá com leite), Lassi (bebida de iogurte), Rooh Afza, Caldo de cana fresco',
+      },
     },
     music: [
       { en: 'Qawwali (Sufi devotional music)', sv: 'Qawwali (sufisk andaktsmusik)', de: 'Qawwali (Sufi-Andachtsmusik)', fr: 'Qawwali (musique dévotionnelle soufie)', es: 'Qawwali (música devocional sufí)', it: 'Qawwali (musica devozionale sufi)', pl: 'Qawwali (muzyka dewocyjna suficka)', nl: 'Qawwali (soefi-devotionele muziek)', pt: 'Qawwali (música devocional sufi)' },

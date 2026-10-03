@@ -290,7 +290,7 @@ export const lithuania: Country = {
       {
         name: {
           en: 'Cross Crafting',
-          sv: 'Cross Crafting',
+          sv: 'Korssnideri',
           es: 'Elaboración de cruces',
           fr: 'Artisanat croisé',
           de: 'Kreuzbasteln',
@@ -315,7 +315,7 @@ export const lithuania: Country = {
       {
         name: {
           en: 'Baltic Way',
-          sv: 'Baltic Way',
+          sv: 'Baltiska kedjan',
           es: 'Vía Báltica',
           fr: 'Voie Baltique',
           de: 'Baltischer Weg',
@@ -597,7 +597,7 @@ export const lithuania: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1008,7 +1008,7 @@ export const lithuania: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1031,9 +1031,9 @@ export const lithuania: Country = {
           amount: 1,
           unit: {
             en: 'to taste',
-            sv: 'att smaka',
+            sv: 'efter smak',
             es: 'al gusto',
-            fr: 'à déguster',
+            fr: 'au goût',
             de: 'nach Geschmack',
             it: 'a piacere',
             pl: 'do smaku',
@@ -1146,8 +1146,28 @@ export const lithuania: Country = {
       imageUrl: 'https://images.pexels.com/photos/4202392/pexels-photo-4202392.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Midus (honey mead), Lithuanian beer, Starka (rye vodka)',
-      nonAlcoholic: 'Kvas (fermented rye drink), Birch sap, Herbal teas',
+      alcoholic: {
+        en: 'Midus (honey mead), Lithuanian beer, Starka (rye vodka)',
+        sv: 'Midus (honungsmjöd), Litauiskt öl, Starka (rågvodka)',
+        de: 'Midus (Honigmet), Litauisches Bier, Starka (Roggenwodka)',
+        fr: 'Midus (hydromel), Bière lituanienne, Starka (vodka de seigle)',
+        es: 'Midus (hidromiel), Cerveza lituana, Starka (vodka de centeno)',
+        it: 'Midus (idromele), Birra lituana, Starka (vodka di segale)',
+        pl: 'Midus (miód pitny), Piwo litewskie, Starka (wódka żytnia)',
+        nl: 'Midus (honingmede), Litouws bier, Starka (roggewodka)',
+        pt: 'Midus (hidromel), Cerveja lituana, Starka (vodca de centeio)',
+      },
+      nonAlcoholic: {
+        en: 'Kvas (fermented rye drink), Birch sap, Herbal teas',
+        sv: 'Kvas (fermenterad rågdryck), Björksav, Örtteer',
+        de: 'Kvas (fermentiertes Roggengetränk), Birkensaft, Kräutertees',
+        fr: 'Kvas (boisson fermentée au seigle), Sève de bouleau, Tisanes',
+        es: 'Kvas (bebida fermentada de centeno), Savia de abedul, Infusiones de hierbas',
+        it: 'Kvas (bevanda fermentata di segale), Linfa di betulla, Tisane',
+        pl: 'Kwas chlebowy (sfermentowany napój żytni), Sok z brzozy, Herbatki ziołowe',
+        nl: 'Kvas (gefermenteerde roggedrank), Berkensap, Kruidentheeën',
+        pt: 'Kvas (bebida fermentada de centeio), Seiva de bétula, Chás de ervas',
+      },
     },
     music: [
       { en: 'Lithuanian folk songs (dainos)', sv: 'Litauiska folksånger (dainos)', de: 'Litauische Volkslieder (Dainos)', fr: 'Chansons folk lituaniennes (dainos)', es: 'Canciones folclóricas lituanas (dainos)', it: 'Canzoni folk lituane (dainos)', pl: 'Litewskie pieśni ludowe (dainos)', nl: 'Litouwse volksliederen (dainos)', pt: 'Canções folclóricas lituanas (dainos)' },

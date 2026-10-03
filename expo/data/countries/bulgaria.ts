@@ -427,7 +427,7 @@ export const bulgaria: Country = {
       {
         name: {
           en: 'Rose Oil Production',
-          sv: 'Rose Oil Production',
+          sv: 'Rosenoljeproduktion',
           es: 'Producción de aceite de rosas',
           fr: 'Production d\'huile de rose',
           de: 'Rosenölproduktion',
@@ -551,7 +551,7 @@ export const bulgaria: Country = {
       {
         name: {
           en: 'Sunny Beach & Golden Sands',
-          sv: 'Sunny Beach & Golden Sands',
+          sv: 'Sunny Beach och Golden Sands',
           es: 'Playa soleada y arenas doradas',
           fr: 'Plage ensoleillée et sable doré',
           de: 'Sonnenstrand und Goldstrand',
@@ -821,7 +821,7 @@ export const bulgaria: Country = {
             pt: 'Bicarbonato de sódio',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -836,7 +836,7 @@ export const bulgaria: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -979,7 +979,7 @@ export const bulgaria: Country = {
       id: 'bulgaria-dessert',
       name: {
         en: 'Garash Cake',
-        sv: 'Garash Cake',
+        sv: 'Garashtårta',
         es: 'Pastel de Garash',
         fr: 'Gâteau Garash',
         de: 'Garash-Kuchen',
@@ -1142,7 +1142,7 @@ export const bulgaria: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1260,8 +1260,28 @@ export const bulgaria: Country = {
       imageUrl: 'https://images.pexels.com/photos/34268536/pexels-photo-34268536.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Rakia (fruit brandy), Bulgarian wine, Mastika (anise drink)',
-      nonAlcoholic: 'Boza (fermented wheat drink), Bulgarian yogurt drink (ayran), Mint tea',
+      alcoholic: {
+        en: 'Rakia (fruit brandy), Bulgarian wine, Mastika (anise drink)',
+        sv: 'Rakia (fruktbrännvin), Bulgariskt vin, Mastika (anisdryck)',
+        de: 'Rakia (Obstbrand), Bulgarischer Wein, Mastika (Anisgetränk)',
+        fr: 'Rakia (eau-de-vie de fruits), Vin bulgare, Mastika (boisson anisée)',
+        es: 'Rakia (aguardiente de frutas), Vino búlgaro, Mastika (bebida anisada)',
+        it: 'Rakia (acquavite di frutta), Vino bulgaro, Mastika (bevanda all\'anice)',
+        pl: 'Rakia (wódka owocowa), Wino bułgarskie, Mastika (napój anyżowy)',
+        nl: 'Rakia (vruchtenbrandewijn), Bulgaarse wijn, Mastika (anijsdrank)',
+        pt: 'Rakia (aguardente de frutas), Vinho búlgaro, Mastika (bebida de anis)',
+      },
+      nonAlcoholic: {
+        en: 'Boza (fermented wheat drink), Bulgarian yogurt drink (ayran), Mint tea',
+        sv: 'Boza (fermenterad vetedryck), Bulgarisk yoghurtdryck (ayran), Myntate',
+        de: 'Boza (fermentiertes Weizengetränk), Bulgarisches Joghurtgetränk (Ayran), Minztee',
+        fr: 'Boza (boisson fermentée au blé), Boisson bulgare au yaourt (ayran), Thé à la menthe',
+        es: 'Boza (bebida fermentada de trigo), Bebida búlgara de yogur (ayran), Té de menta',
+        it: 'Boza (bevanda fermentata di grano), Bevanda bulgara allo yogurt (ayran), Tè alla menta',
+        pl: 'Boza (fermentowany napój pszenny), Bułgarski napój jogurtowy (ayran), Herbata miętowa',
+        nl: 'Boza (gefermenteerde tarwedrank), Bulgaarse yoghurtdrank (ayran), Muntthee',
+        pt: 'Boza (bebida fermentada de trigo), Bebida búlgara de iogurte (ayran), Chá de hortelã',
+      },
     },
     music: [
       { en: 'Bulgarian folk music', sv: 'Bulgarisk folkmusik', de: 'Bulgarische Volksmusik', fr: 'Musique folklorique bulgare', es: 'Música folclórica búlgara', it: 'Musica folk bulgara', pl: 'Bułgarska muzyka ludowa', nl: 'Bulgaarse volksmuziek', pt: 'Música folclórica búlgara' },

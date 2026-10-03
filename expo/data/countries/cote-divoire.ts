@@ -352,7 +352,7 @@ export const coteDivoire: Country = {
       {
         name: {
           en: 'Basilica of Our Lady of Peace',
-          sv: 'Basilica of Our Lady of Peace',
+          sv: 'Basilikan Notre-Dame de la Paix',
           es: 'Basílica de Nuestra Señora de la Paz',
           fr: 'Basilique Notre-Dame de la Paix',
           de: 'Basilika Unserer Lieben Frau vom Frieden',
@@ -429,7 +429,7 @@ export const coteDivoire: Country = {
       {
         name: {
           en: 'Basilica of Our Lady of Peace',
-          sv: 'Basilica of Our Lady of Peace',
+          sv: 'Basilikan Notre-Dame de la Paix',
           es: 'Basílica de Nuestra Señora de la Paz',
           fr: 'Basilique Notre-Dame de la Paix',
           de: 'Basilika Unserer Lieben Frau vom Frieden',
@@ -802,14 +802,14 @@ export const coteDivoire: Country = {
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -956,8 +956,28 @@ export const coteDivoire: Country = {
       imageUrl: 'https://images.pexels.com/photos/28872869/pexels-photo-28872869.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Bangui (palm wine), Flag beer, Ivoire beer',
-      nonAlcoholic: 'Bissap (hibiscus), Gnamakoudji (ginger drink), Fresh coconut water',
+      alcoholic: {
+        en: 'Bangui (palm wine), Flag beer, Ivoire beer',
+        sv: 'Bangui (palmvin), Flag-öl, Ivoire-öl',
+        de: 'Bangui (Palmwein), Flag-Bier, Ivoire-Bier',
+        fr: 'Bangui (vin de palme), Bière Flag, Bière Ivoire',
+        es: 'Bangui (vino de palma), Cerveza Flag, Cerveza Ivoire',
+        it: 'Bangui (vino di palma), Birra Flag, Birra Ivoire',
+        pl: 'Bangui (wino palmowe), Piwo Flag, Piwo Ivoire',
+        nl: 'Bangui (palmwijn), Flag-bier, Ivoire-bier',
+        pt: 'Bangui (vinho de palma), Cerveja Flag, Cerveja Ivoire',
+      },
+      nonAlcoholic: {
+        en: 'Bissap (hibiscus), Gnamakoudji (ginger drink), Fresh coconut water',
+        sv: 'Bissap (hibiskus), Gnamakoudji (ingefärsdryck), Färskt kokosvatten',
+        de: 'Bissap (Hibiskus), Gnamakoudji (Ingwergetränk), Frisches Kokoswasser',
+        fr: 'Bissap (hibiscus), Gnamakoudji (boisson au gingembre), Eau de coco fraîche',
+        es: 'Bissap (hibisco), Gnamakoudji (bebida de jengibre), Agua de coco fresca',
+        it: 'Bissap (ibisco), Gnamakoudji (bevanda allo zenzero), Acqua di cocco fresca',
+        pl: 'Bissap (hibiskus), Gnamakoudji (napój imbirowy), Świeża woda kokosowa',
+        nl: 'Bissap (hibiscus), Gnamakoudji (gemberdrank), Vers kokoswater',
+        pt: 'Bissap (hibisco), Gnamakoudji (bebida de gengibre), Água de coco fresca',
+      },
     },
     music: [
       { en: 'Coupé-Décalé', sv: 'Coupé-Décalé', de: 'Coupé-Décalé', fr: 'Coupé-Décalé', es: 'Coupé-Décalé', it: 'Coupé-Décalé', pl: 'Coupé-Décalé', nl: 'Coupé-Décalé', pt: 'Coupé-Décalé' },

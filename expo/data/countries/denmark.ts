@@ -749,7 +749,7 @@ export const denmark: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -975,7 +975,7 @@ export const denmark: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -996,7 +996,7 @@ export const denmark: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1011,7 +1011,7 @@ export const denmark: Country = {
             pt: 'Cardamomo',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1137,8 +1137,28 @@ export const denmark: Country = {
       imageUrl: 'https://images.pexels.com/photos/19995297/pexels-photo-19995297.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Carlsberg beer, Tuborg, Aquavit, Gløgg (Christmas)',
-      nonAlcoholic: 'Coffee, Hot chocolate, Apple juice, Hyldeblomstsaft (elderflower cordial)',
+      alcoholic: {
+        en: 'Carlsberg beer, Tuborg, Aquavit, Gløgg (Christmas)',
+        sv: 'Carlsberg-öl, Tuborg, Akvavit, Gløgg (till jul)',
+        de: 'Carlsberg-Bier, Tuborg, Aquavit, Gløgg (zu Weihnachten)',
+        fr: 'Bière Carlsberg, Tuborg, Aquavit, Gløgg (à Noël)',
+        es: 'Cerveza Carlsberg, Tuborg, Aquavit, Gløgg (en Navidad)',
+        it: 'Birra Carlsberg, Tuborg, Akvavit, Gløgg (a Natale)',
+        pl: 'Piwo Carlsberg, Tuborg, Akwawit, Gløgg (na Boże Narodzenie)',
+        nl: 'Carlsberg-bier, Tuborg, Aquavit, Gløgg (met kerst)',
+        pt: 'Cerveja Carlsberg, Tuborg, Aquavit, Gløgg (no Natal)',
+      },
+      nonAlcoholic: {
+        en: 'Coffee, Hot chocolate, Apple juice, Hyldeblomstsaft (elderflower cordial)',
+        sv: 'Kaffe, Varm choklad, Äppeljuice, Hyldeblomstsaft (fläderblomssaft)',
+        de: 'Kaffee, Heiße Schokolade, Apfelsaft, Hyldeblomstsaft (Holunderblütensirup)',
+        fr: 'Café, Chocolat chaud, Jus de pomme, Hyldeblomstsaft (sirop de fleurs de sureau)',
+        es: 'Café, Chocolate caliente, Jugo de manzana, Hyldeblomstsaft (jarabe de flor de saúco)',
+        it: 'Caffè, Cioccolata calda, Succo di mela, Hyldeblomstsaft (sciroppo di fiori di sambuco)',
+        pl: 'Kawa, Gorąca czekolada, Sok jabłkowy, Hyldeblomstsaft (syrop z kwiatów czarnego bzu)',
+        nl: 'Koffie, Warme chocolademelk, Appelsap, Hyldeblomstsaft (vlierbloesemsiroop)',
+        pt: 'Café, Chocolate quente, Suco de maçã, Hyldeblomstsaft (xarope de flor de sabugueiro)',
+      },
     },
     music: [
       { en: 'Aqua - Barbie Girl', sv: 'Aqua - Barbie Girl', de: 'Aqua - Barbie Girl', fr: 'Aqua - Barbie Girl', es: 'Aqua - Barbie Girl', it: 'Aqua - Barbie Girl', pl: 'Aqua - Barbie Girl', nl: 'Aqua - Barbie Girl', pt: 'Aqua - Barbie Girl' },

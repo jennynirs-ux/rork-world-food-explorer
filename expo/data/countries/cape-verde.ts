@@ -327,7 +327,7 @@ export const capeVerde: Country = {
       {
         name: {
           en: 'Morna Music',
-          sv: 'Morna Music',
+          sv: 'Morna-musik',
           es: 'Música de Morna',
           fr: 'Musique Morna',
           de: 'Morna-Musik',
@@ -731,7 +731,7 @@ export const capeVerde: Country = {
         {
           name: {
             en: 'Cassava',
-            sv: 'Cassava',
+            sv: 'Kassava',
             es: 'Yuca',
             fr: 'Manioc',
             de: 'Maniok',
@@ -976,7 +976,7 @@ export const capeVerde: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1109,8 +1109,28 @@ export const capeVerde: Country = {
       imageUrl: 'https://images.pexels.com/photos/7451345/pexels-photo-7451345.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Grogue (sugarcane rum), Strela beer',
-      nonAlcoholic: 'Grogue with honey, Fresh fruit juice',
+      alcoholic: {
+        en: 'Grogue (sugarcane rum), Strela beer, Grogue with honey',
+        sv: 'Grogue (sockerrörsrom), Strela-öl, Grogue med honung',
+        de: 'Grogue (Zuckerrohrrum), Strela-Bier, Grogue mit Honig',
+        fr: 'Grogue (rhum de canne à sucre), Bière Strela, Grogue au miel',
+        es: 'Grogue (ron de caña de azúcar), Cerveza Strela, Grogue con miel',
+        it: 'Grogue (rum di canna da zucchero), Birra Strela, Grogue con miele',
+        pl: 'Grogue (rum z trzciny cukrowej), Piwo Strela, Grogue z miodem',
+        nl: 'Grogue (suikerrietrum), Strela-bier, Grogue met honing',
+        pt: 'Grogue (aguardente de cana), Cerveja Strela, Grogue com mel',
+      },
+      nonAlcoholic: {
+        en: 'Fresh fruit juice',
+        sv: 'Färskpressad fruktjuice',
+        de: 'Frischer Fruchtsaft',
+        fr: 'Jus de fruits frais',
+        es: 'Jugo de fruta natural',
+        it: 'Succo di frutta fresco',
+        pl: 'Świeży sok owocowy',
+        nl: 'Vers vruchtensap',
+        pt: 'Suco natural de frutas',
+      },
     },
     music: [
       { en: 'Morna', sv: 'Morna', de: 'Morna', fr: 'Morna', es: 'Morna', it: 'Morna', pl: 'Morna', nl: 'Morna', pt: 'Morna' },
@@ -1372,7 +1392,7 @@ export const capeVerde: Country = {
           },
           {
             en: 'Jollof Rice',
-            sv: 'Jollof Rice',
+            sv: 'Jollofris',
             es: 'Arroz Jollof',
             fr: 'Riz Jollof',
             de: 'Jollof-Reis',

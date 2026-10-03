@@ -253,7 +253,7 @@ export const palau: Country = {
       {
         name: {
           en: 'Marine Sanctuary',
-          sv: 'Marine Sanctuary',
+          sv: 'Marint skyddsområde',
           es: 'Santuario Marino',
           fr: 'Sanctuaire marin',
           de: 'Meeresschutzgebiet',
@@ -903,8 +903,28 @@ export const palau: Country = {
       imageUrl: 'https://images.pexels.com/photos/4629324/pexels-photo-4629324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Local beer, Fermented beverages',
-      nonAlcoholic: 'Coconut water, Fresh juice',
+      alcoholic: {
+        en: 'Local beer, Fermented beverages',
+        sv: 'Lokalt öl, Fermenterade drycker',
+        de: 'Lokales Bier, Fermentierte Getränke',
+        fr: 'Bière locale, Boissons fermentées',
+        es: 'Cerveza local, Bebidas fermentadas',
+        it: 'Birra locale, Bevande fermentate',
+        pl: 'Lokalne piwo, Napoje fermentowane',
+        nl: 'Lokaal bier, Gefermenteerde dranken',
+        pt: 'Cerveja local, Bebidas fermentadas',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Fresh juice',
+        sv: 'Kokosvatten, Färskpressad juice',
+        de: 'Kokoswasser, Frischer Saft',
+        fr: 'Eau de coco, Jus frais',
+        es: 'Agua de coco, Jugo natural',
+        it: 'Acqua di cocco, Succo fresco',
+        pl: 'Woda kokosowa, Świeży sok',
+        nl: 'Kokoswater, Vers sap',
+        pt: 'Água de coco, Suco natural',
+      },
     },
     music: [
       { en: 'Traditional Palauan chants', sv: 'Traditionella palauanska sånger', de: 'Traditionelle palauische Gesänge', fr: 'Chants palauans traditionnels', es: 'Cantos palaueños tradicionales', it: 'Canti palauani tradizionali', pl: 'Tradycyjne śpiewy palauańskie', nl: 'Traditionele Palause gezangen', pt: 'Cantos palauenses tradicionais' },

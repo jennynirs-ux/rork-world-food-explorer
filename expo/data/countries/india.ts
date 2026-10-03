@@ -774,7 +774,7 @@ export const india: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'cuillère à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -795,7 +795,7 @@ export const india: Country = {
             pt: 'Garam masala',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -810,7 +810,7 @@ export const india: Country = {
             pt: 'Cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -825,7 +825,7 @@ export const india: Country = {
             pt: 'Coentro',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -840,7 +840,7 @@ export const india: Country = {
             pt: 'Curcuma',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1039,7 +1039,7 @@ export const india: Country = {
             pt: 'Bicarbonato de sódio',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1099,7 +1099,7 @@ export const india: Country = {
             pt: 'Água de rosas',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1114,7 +1114,7 @@ export const india: Country = {
             pt: 'Cardamomo em pó',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1247,8 +1247,28 @@ export const india: Country = {
       imageUrl: 'https://images.pexels.com/photos/14610769/pexels-photo-14610769.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Kingfisher beer, Old Monk rum, Indian whiskey',
-      nonAlcoholic: 'Masala chai, Lassi, Fresh lime soda, Sugarcane juice',
+      alcoholic: {
+        en: 'Kingfisher beer, Old Monk rum, Indian whiskey',
+        sv: 'Kingfisher-öl, Old Monk-rom, Indisk whisky',
+        de: 'Kingfisher-Bier, Old-Monk-Rum, Indischer Whisky',
+        fr: 'Bière Kingfisher, Rhum Old Monk, Whisky indien',
+        es: 'Cerveza Kingfisher, Ron Old Monk, Whisky indio',
+        it: 'Birra Kingfisher, Rum Old Monk, Whisky indiano',
+        pl: 'Piwo Kingfisher, Rum Old Monk, Indyjska whisky',
+        nl: 'Kingfisher-bier, Old Monk-rum, Indiase whisky',
+        pt: 'Cerveja Kingfisher, Rum Old Monk, Uísque indiano',
+      },
+      nonAlcoholic: {
+        en: 'Masala chai, Lassi, Fresh lime soda, Sugarcane juice',
+        sv: 'Masala chai, Lassi, Färsk limesoda, Sockerrörsjuice',
+        de: 'Masala Chai, Lassi, Frische Limetten-Soda, Zuckerrohrsaft',
+        fr: 'Masala chai, Lassi, Soda au citron vert frais, Jus de canne à sucre',
+        es: 'Masala chai, Lassi, Soda de lima fresca, Jugo de caña de azúcar',
+        it: 'Masala chai, Lassi, Soda al lime fresco, Succo di canna da zucchero',
+        pl: 'Masala chai, Lassi, Napój gazowany ze świeżą limonką, Sok z trzciny cukrowej',
+        nl: 'Masala chai, Lassi, Verse limoensoda, Suikerrietsap',
+        pt: 'Masala chai, Lassi, Soda de limão fresco, Caldo de cana',
+      },
     },
     music: [
       { en: 'Jai Ho - A.R. Rahman', sv: 'Jai Ho - A.R. Rahman', de: 'Jai Ho - A.R. Rahman', fr: 'Jai Ho - A.R. Rahman', es: 'Jai Ho - A.R. Rahman', it: 'Jai Ho - A.R. Rahman', pl: 'Jai Ho - A.R. Rahman', nl: 'Jai Ho - A.R. Rahman', pt: 'Jai Ho - A.R. Rahman' },

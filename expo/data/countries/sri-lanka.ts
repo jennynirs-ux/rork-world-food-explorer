@@ -540,7 +540,7 @@ export const sriLanka: Country = {
       {
         name: {
           en: 'Temple of the Tooth (Kandy)',
-          sv: 'Temple of the Tooth (Kandy)',
+          sv: 'Tandens tempel (Kandy)',
           es: 'Templo del Diente (Kandy)',
           fr: 'Temple de la Dent (Kandy)',
           de: 'Zahntempel (Kandy)',
@@ -763,13 +763,13 @@ export const sriLanka: Country = {
           amount: 3,
           unit: {
             en: 'medium',
-            sv: 'medium',
-            es: 'medio',
+            sv: 'medelstor',
+            es: 'mediano',
             fr: 'moyen',
-            de: 'mittel',
+            de: 'mittelgroß',
             it: 'medio',
             pl: 'średni',
-            nl: 'gemiddeld',
+            nl: 'middelgroot',
             pt: 'médio',
           },
         },
@@ -788,13 +788,13 @@ export const sriLanka: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medium',
-            es: 'medio',
+            sv: 'medelstor',
+            es: 'mediano',
             fr: 'moyen',
-            de: 'mittel',
+            de: 'mittelgroß',
             it: 'medio',
             pl: 'średni',
-            nl: 'gemiddeld',
+            nl: 'middelgroot',
             pt: 'médio',
           },
         },
@@ -836,7 +836,7 @@ export const sriLanka: Country = {
             pt: 'Sementes de mostarda',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -855,7 +855,7 @@ export const sriLanka: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -876,7 +876,7 @@ export const sriLanka: Country = {
             pt: 'Curcuma',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -960,7 +960,7 @@ export const sriLanka: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -981,7 +981,7 @@ export const sriLanka: Country = {
             pt: 'Sal',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1205,7 +1205,7 @@ export const sriLanka: Country = {
             pt: 'Cardamomo (moído)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1220,7 +1220,7 @@ export const sriLanka: Country = {
             pt: 'Noz-moscada (opcional)',
           },
           amount: 0.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1235,7 +1235,7 @@ export const sriLanka: Country = {
             pt: 'Baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1346,8 +1346,28 @@ export const sriLanka: Country = {
       imageUrl: 'https://images.pexels.com/photos/5803158/pexels-photo-5803158.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Arrack (coconut spirit), Lion Lager',
-      nonAlcoholic: 'Ceylon tea, King coconut water, Ginger beer, Fresh lime juice',
+      alcoholic: {
+        en: 'Arrack (coconut spirit), Lion Lager',
+        sv: 'Arrack (kokossprit), Lion Lager',
+        de: 'Arrack (Kokosschnaps), Lion Lager',
+        fr: 'Arrack (eau-de-vie de coco), Lion Lager',
+        es: 'Arrack (licor de coco), Lion Lager',
+        it: 'Arrack (distillato di cocco), Lion Lager',
+        pl: 'Arrack (trunek kokosowy), Lion Lager',
+        nl: 'Arrack (kokossterkedrank), Lion Lager',
+        pt: 'Arrack (destilado de coco), Lion Lager',
+      },
+      nonAlcoholic: {
+        en: 'Ceylon tea, King coconut water, Ginger beer, Fresh lime juice',
+        sv: 'Ceylonte, Vatten från kungskokosnöt, Ingefärsöl, Färskpressad limejuice',
+        de: 'Ceylon-Tee, Königskokosnusswasser, Ingwerbier, Frischer Limettensaft',
+        fr: 'Thé de Ceylan, Eau de coco royale, Bière de gingembre, Jus de citron vert frais',
+        es: 'Té de Ceilán, Agua de coco rey, Cerveza de jengibre, Jugo de lima natural',
+        it: 'Tè di Ceylon, Acqua di cocco reale, Birra allo zenzero, Succo di lime fresco',
+        pl: 'Herbata cejlońska, Woda z kokosa królewskiego, Piwo imbirowe, Świeży sok z limonki',
+        nl: 'Ceylonthee, Koningskokoswater, Gemberbier, Vers limoensap',
+        pt: 'Chá do Ceilão, Água de coco-rei, Cerveja de gengibre, Suco de limão natural',
+      },
     },
     music: [
       { en: 'Traditional Kandyan drumming', sv: 'Traditionellt Kandyanskt trumspel', de: 'Traditionelles kandyanisches Trommeln', fr: 'Percussion kandyane traditionnelle', es: 'Percusión kandyana tradicional', it: 'Percussioni kandyane tradizionali', pl: 'Tradycyjne bębnienie kandyjskie', nl: 'Traditioneel Kandyaans drummen', pt: 'Percussão kandyana tradicional' },

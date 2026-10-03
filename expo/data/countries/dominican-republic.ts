@@ -548,7 +548,7 @@ export const dominicanRepublic: Country = {
             en: 'Plantains',
             sv: 'Groblad',
             es: 'Plátanos',
-            fr: 'Plantains',
+            fr: 'Bananes plantains',
             de: 'Kochbananen',
             it: 'Platani',
             pl: 'Banany plantany',
@@ -841,7 +841,7 @@ export const dominicanRepublic: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -963,8 +963,28 @@ export const dominicanRepublic: Country = {
       imageUrl: 'https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Mamajuana, Brugal rum, Presidente beer',
-      nonAlcoholic: 'Morir Soñando, Fresh coconut water, Jugo de chinola',
+      alcoholic: {
+        en: 'Mamajuana, Brugal rum, Presidente beer',
+        sv: 'Mamajuana, Brugal-rom, Presidente-öl',
+        de: 'Mamajuana, Brugal-Rum, Presidente-Bier',
+        fr: 'Mamajuana, Rhum Brugal, Bière Presidente',
+        es: 'Mamajuana, Ron Brugal, Cerveza Presidente',
+        it: 'Mamajuana, Rum Brugal, Birra Presidente',
+        pl: 'Mamajuana, Rum Brugal, Piwo Presidente',
+        nl: 'Mamajuana, Brugal-rum, Presidente-bier',
+        pt: 'Mamajuana, Rum Brugal, Cerveja Presidente',
+      },
+      nonAlcoholic: {
+        en: 'Morir Soñando, Fresh coconut water, Jugo de chinola',
+        sv: 'Morir Soñando, Färskt kokosvatten, Passionsfruktjuice (jugo de chinola)',
+        de: 'Morir Soñando, Frisches Kokoswasser, Maracujasaft (Jugo de chinola)',
+        fr: 'Morir Soñando, Eau de coco fraîche, Jus de fruit de la passion (jugo de chinola)',
+        es: 'Morir Soñando, Agua de coco fresca, Jugo de chinola',
+        it: 'Morir Soñando, Acqua di cocco fresca, Succo di frutto della passione (jugo de chinola)',
+        pl: 'Morir Soñando, Świeża woda kokosowa, Sok z marakui (jugo de chinola)',
+        nl: 'Morir Soñando, Vers kokoswater, Passievruchtensap (jugo de chinola)',
+        pt: 'Morir Soñando, Água de coco fresca, Suco de maracujá (jugo de chinola)',
+      },
     },
     music: [
       { en: 'Merengue', sv: 'Merengue', de: 'Merengue', fr: 'Merengue', es: 'Merengue', it: 'Merengue', pl: 'Merengue', nl: 'Merengue', pt: 'Merengue' },
@@ -987,7 +1007,7 @@ export const dominicanRepublic: Country = {
       {
         name: {
           en: 'Merengue Music',
-          sv: 'Merengue Music',
+          sv: 'Merenguemusik',
           es: 'Música Merengue',
           fr: 'Musique Merengue',
           de: 'Merengue-Musik',
@@ -1037,7 +1057,7 @@ export const dominicanRepublic: Country = {
       {
         name: {
           en: 'Baseball Excellence',
-          sv: 'Baseball Excellence',
+          sv: 'Framgångar i baseboll',
           es: 'Excelencia en el béisbol',
           fr: 'Excellence du baseball',
           de: 'Baseball-Exzellenz',

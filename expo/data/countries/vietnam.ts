@@ -377,7 +377,7 @@ export const vietnam: Country = {
       {
         name: {
           en: 'Bamboo Basket Boats',
-          sv: 'Bamboo Basket Boats',
+          sv: 'Korgbåtar av bambu',
           es: 'Barcos de cesta de bambú',
           fr: 'Bateaux paniers en bambou',
           de: 'Bambuskorbboote',
@@ -785,7 +785,7 @@ export const vietnam: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -823,10 +823,10 @@ export const vietnam: Country = {
           amount: 1,
           unit: {
             en: 'bunch',
-            sv: 'gäng',
-            es: 'grupo',
-            fr: 'groupe',
-            de: 'Haufen',
+            sv: 'knippe',
+            es: 'manojo',
+            fr: 'botte',
+            de: 'Bund',
             it: 'mazzetto',
             pl: 'pęczek',
             nl: 'bosje',
@@ -1099,7 +1099,7 @@ export const vietnam: Country = {
             pt: 'Sal',
           },
           amount: 0.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1114,7 +1114,7 @@ export const vietnam: Country = {
             pt: 'Baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1199,8 +1199,28 @@ export const vietnam: Country = {
       imageUrl: 'https://images.pexels.com/photos/4069625/pexels-photo-4069625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Bia Hoi, rice wine',
-      nonAlcoholic: 'Vietnamese iced coffee, iced tea, coconut water, fruit smoothies',
+      alcoholic: {
+        en: 'Bia Hoi, rice wine',
+        sv: 'Bia Hoi, Risvin',
+        de: 'Bia Hoi, Reiswein',
+        fr: 'Bia Hoi, Vin de riz',
+        es: 'Bia Hoi, Vino de arroz',
+        it: 'Bia Hoi, Vino di riso',
+        pl: 'Bia Hoi, Wino ryżowe',
+        nl: 'Bia Hoi, Rijstwijn',
+        pt: 'Bia Hoi, Vinho de arroz',
+      },
+      nonAlcoholic: {
+        en: 'Vietnamese iced coffee, iced tea, coconut water, fruit smoothies',
+        sv: 'Vietnamesiskt iskaffe, Iste, Kokosvatten, Fruktsmoothies',
+        de: 'Vietnamesischer Eiskaffee, Eistee, Kokoswasser, Fruchtsmoothies',
+        fr: 'Café glacé vietnamien, Thé glacé, Eau de coco, Smoothies aux fruits',
+        es: 'Café helado vietnamita, Té helado, Agua de coco, Batidos de frutas',
+        it: 'Caffè freddo vietnamita, Tè freddo, Acqua di cocco, Frullati di frutta',
+        pl: 'Wietnamska kawa mrożona, Mrożona herbata, Woda kokosowa, Koktajle owocowe',
+        nl: 'Vietnamese ijskoffie, IJsthee, Kokoswater, Fruitsmoothies',
+        pt: 'Café gelado vietnamita, Chá gelado, Água de coco, Smoothies de frutas',
+      },
     },
     music: [
       { en: 'Traditional Ca Tru', sv: 'Traditionell Ca Tru', de: 'Traditioneller Ca Tru', fr: 'Ca Tru traditionnel', es: 'Ca Tru tradicional', it: 'Ca Tru tradizionale', pl: 'Tradycyjny Ca Tru', nl: 'Traditionele Ca Tru', pt: 'Ca Tru tradicional' },

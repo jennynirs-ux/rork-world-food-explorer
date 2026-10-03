@@ -340,7 +340,7 @@ export const azerbaijan: Country = {
       {
         name: {
           en: 'Mugham Music',
-          sv: 'Mugham Music',
+          sv: 'Mugham-musik',
           es: 'Música Mugham',
           fr: 'Musique Mugham',
           de: 'Mugham-Musik',
@@ -771,7 +771,7 @@ export const azerbaijan: Country = {
             pt: 'Fios de açafrão',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -816,7 +816,7 @@ export const azerbaijan: Country = {
             pt: 'Sal',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1068,7 +1068,7 @@ export const azerbaijan: Country = {
             pt: 'Cardamomo',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1083,7 +1083,7 @@ export const azerbaijan: Country = {
             pt: 'Fios de açafrão',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1212,8 +1212,28 @@ export const azerbaijan: Country = {
       imageUrl: 'https://images.pexels.com/photos/31472815/pexels-photo-31472815.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Azerbaijani wine, Cognac',
-      nonAlcoholic: 'Black tea (always served), Sherbet (fruit drink), Ayran',
+      alcoholic: {
+        en: 'Azerbaijani wine, Cognac',
+        sv: 'Azerbajdzjanskt vin, Konjak',
+        de: 'Aserbaidschanischer Wein, Cognac',
+        fr: 'Vin azerbaïdjanais, Cognac',
+        es: 'Vino azerbaiyano, Coñac',
+        it: 'Vino azero, Cognac',
+        pl: 'Wino azerbejdżańskie, Koniak',
+        nl: 'Azerbeidzjaanse wijn, Cognac',
+        pt: 'Vinho azerbaijano, Conhaque',
+      },
+      nonAlcoholic: {
+        en: 'Black tea (always served), Sherbet (fruit drink), Ayran',
+        sv: 'Svart te (serveras alltid), Sherbet (fruktdryck), Ayran',
+        de: 'Schwarzer Tee (wird immer serviert), Sherbet (Fruchtgetränk), Ayran',
+        fr: 'Thé noir (toujours servi), Sherbet (boisson aux fruits), Ayran',
+        es: 'Té negro (siempre se sirve), Sherbet (bebida de frutas), Ayran',
+        it: 'Tè nero (servito sempre), Sherbet (bevanda alla frutta), Ayran',
+        pl: 'Czarna herbata (podawana zawsze), Sherbet (napój owocowy), Ayran',
+        nl: 'Zwarte thee (wordt altijd geserveerd), Sherbet (vruchtendrank), Ayran',
+        pt: 'Chá preto (sempre servido), Sherbet (bebida de frutas), Ayran',
+      },
     },
     music: [
       { en: 'Mugham (traditional music)', sv: 'Mugham (traditionell musik)', de: 'Mugham (traditionelle Musik)', fr: 'Mugham (musique traditionnelle)', es: 'Mugham (música tradicional)', it: 'Mugham (musica tradizionale)', pl: 'Mugham (muzyka tradycyjna)', nl: 'Mugham (traditionele muziek)', pt: 'Mugham (música tradicional)' },

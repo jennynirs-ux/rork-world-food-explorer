@@ -125,7 +125,7 @@ export const sierraLeone: Country = {
         },
         value: {
           en: 'Sierra Leonean Leone (SLE)',
-          sv: 'Sierra Leonean Leone (SLE)',
+          sv: 'Sierraleonsk leone (SLE)',
           es: 'Leona de Sierra Leona (SLE)',
           fr: 'Leone sierra-léonais (SLE)',
           de: 'Sierra Leone Leone (SLE)',
@@ -434,10 +434,10 @@ export const sierraLeone: Country = {
       {
         name: {
           en: 'Lumley & River Number Two Beach',
-          sv: 'Lumley & River Number Two Beach',
+          sv: 'Lumley och River Number Two Beach',
           es: 'Lumley y la playa número dos del río',
           fr: 'Lumley et la plage numéro deux de la rivière',
-          de: 'Lumley & River Number Two Beach',
+          de: 'Lumley und River Number Two Beach',
           it: 'Lumley e River Number Two Beach',
           pl: 'Lumley i River Number Two Beach',
           nl: 'Lumley en River Number Two Beach',
@@ -506,7 +506,7 @@ export const sierraLeone: Country = {
       {
         name: {
           en: 'Tiwai Island Wildlife Sanctuary',
-          sv: 'Tiwai Island Wildlife Sanctuary',
+          sv: 'Tiwai Island viltreservat',
           es: 'Santuario de vida silvestre de la isla Tiwai',
           fr: 'Réserve faunique de l\'île Tiwai',
           de: 'Tierschutzgebiet der Insel Tiwai',
@@ -638,7 +638,7 @@ export const sierraLeone: Country = {
       id: 'sierra-leone-main',
       name: {
         en: 'Jollof Rice',
-        sv: 'Jollof Rice',
+        sv: 'Jollofris',
         es: 'Arroz Jollof',
         fr: 'Riz Jollof',
         de: 'Jollof-Reis',
@@ -756,7 +756,7 @@ export const sierraLeone: Country = {
         {
           name: {
             en: 'Scotch bonnet pepper',
-            sv: 'Scotch bonnet pepper',
+            sv: 'Scotch bonnet-chili',
             es: 'Pimienta escocesa',
             fr: 'Poivre Scotch Bonnet',
             de: 'Scotch Bonnet Pepper',
@@ -821,7 +821,7 @@ export const sierraLeone: Country = {
             pt: 'Sal',
           },
           amount: 1.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1022,8 +1022,8 @@ export const sierraLeone: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1103,8 +1103,28 @@ export const sierraLeone: Country = {
       imageUrl: 'https://images.pexels.com/photos/35136066/pexels-photo-35136066.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Star Beer, Palm wine, Poyo',
-      nonAlcoholic: 'Ginger beer, Fresh coconut water, Hibiscus tea',
+      alcoholic: {
+        en: 'Star Beer, Palm wine, Poyo',
+        sv: 'Star Beer, Palmvin, Poyo',
+        de: 'Star Beer, Palmwein, Poyo',
+        fr: 'Star Beer, Vin de palme, Poyo',
+        es: 'Star Beer, Vino de palma, Poyo',
+        it: 'Star Beer, Vino di palma, Poyo',
+        pl: 'Star Beer, Wino palmowe, Poyo',
+        nl: 'Star Beer, Palmwijn, Poyo',
+        pt: 'Star Beer, Vinho de palma, Poyo',
+      },
+      nonAlcoholic: {
+        en: 'Ginger beer, Fresh coconut water, Hibiscus tea',
+        sv: 'Ingefärsdricka, Färskt kokosvatten, Hibiskuste',
+        de: 'Ingwerbier, Frisches Kokoswasser, Hibiskustee',
+        fr: 'Bière de gingembre, Eau de coco fraîche, Thé à l\'hibiscus',
+        es: 'Cerveza de jengibre, Agua de coco fresca, Té de hibisco',
+        it: 'Birra allo zenzero, Acqua di cocco fresca, Tè all\'ibisco',
+        pl: 'Piwo imbirowe, Świeża woda kokosowa, Herbata z hibiskusa',
+        nl: 'Gemberbier, Vers kokoswater, Hibiscusthee',
+        pt: 'Cerveja de gengibre, Água de coco fresca, Chá de hibisco',
+      },
     },
     music: [
       { en: 'Palm wine music', sv: 'Palmvinmusik', de: 'Palmwein-Musik', fr: 'Musique de vin de palme', es: 'Música de vino de palma', it: 'Musica del vino di palma', pl: 'Muzyka palmowego wina', nl: 'Palmwijnmuziek', pt: 'Música de vinho de palma' },

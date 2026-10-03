@@ -574,14 +574,14 @@ export const eastTimor: Country = {
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -622,7 +622,7 @@ export const eastTimor: Country = {
             pt: 'Curcuma',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -666,7 +666,7 @@ export const eastTimor: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1014,8 +1014,28 @@ export const eastTimor: Country = {
       imageUrl: 'https://images.pexels.com/photos/7429251/pexels-photo-7429251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Timor coffee liqueur, Palm wine',
-      nonAlcoholic: 'Timor coffee (world-renowned), Fresh coconut water, Tropical fruit juices',
+      alcoholic: {
+        en: 'Timor coffee liqueur, Palm wine',
+        sv: 'Kaffelikör från Timor, Palmvin',
+        de: 'Timor-Kaffeelikör, Palmwein',
+        fr: 'Liqueur de café de Timor, Vin de palme',
+        es: 'Licor de café de Timor, Vino de palma',
+        it: 'Liquore al caffè di Timor, Vino di palma',
+        pl: 'Likier kawowy z Timoru, Wino palmowe',
+        nl: 'Timorese koffielikeur, Palmwijn',
+        pt: 'Licor de café timorense, Vinho de palma',
+      },
+      nonAlcoholic: {
+        en: 'Timor coffee (world-renowned), Fresh coconut water, Tropical fruit juices',
+        sv: 'Timorkaffe (världsberömt), Färskt kokosvatten, Tropiska fruktjuicer',
+        de: 'Timor-Kaffee (weltberühmt), Frisches Kokoswasser, Tropische Fruchtsäfte',
+        fr: 'Café de Timor (mondialement réputé), Eau de coco fraîche, Jus de fruits tropicaux',
+        es: 'Café de Timor (de fama mundial), Agua de coco fresca, Jugos de frutas tropicales',
+        it: 'Caffè di Timor (famoso in tutto il mondo), Acqua di cocco fresca, Succhi di frutta tropicale',
+        pl: 'Kawa z Timoru (słynna na całym świecie), Świeża woda kokosowa, Soki z owoców tropikalnych',
+        nl: 'Timorese koffie (wereldberoemd), Vers kokoswater, Tropische vruchtensappen',
+        pt: 'Café timorense (famoso mundialmente), Água de coco fresca, Sucos de frutas tropicais',
+      },
     },
     music: [
       { en: 'Traditional Timorese folk music', sv: 'Traditionell timorisk folkmusik', de: 'Traditionelle timoresische Volksmusik', fr: 'Musique folklorique timoraise traditionnelle', es: 'Música folclórica timorense tradicional', it: 'Musica folk timorese tradizionale', pl: 'Tradycyjna timorska muzyka ludowa', nl: 'Traditionele Timorese volksmuziek', pt: 'Música folclórica timorense tradicional' },
@@ -1065,7 +1085,7 @@ export const eastTimor: Country = {
       {
         name: {
           en: 'Tais Weaving',
-          sv: 'Tais Weaving',
+          sv: 'Tais-vävning',
           es: 'Tejido Tais',
           fr: 'Tissage Tais',
           de: 'Tais-Weberei',
@@ -1090,7 +1110,7 @@ export const eastTimor: Country = {
       {
         name: {
           en: 'Marine Conservation',
-          sv: 'Marine Conservation',
+          sv: 'Havsbevarande',
           es: 'Conservación Marina',
           fr: 'Conservation marine',
           de: 'Meeresschutz',

@@ -342,7 +342,7 @@ export const cambodia: Country = {
       {
         name: {
           en: 'Angkor Wat Construction',
-          sv: 'Angkor Wat Construction',
+          sv: 'Byggandet av Angkor Wat',
           es: 'Construcción de Angkor Wat',
           fr: 'Construction d\'Angkor Vat',
           de: 'Angkor Wat Bau',
@@ -367,7 +367,7 @@ export const cambodia: Country = {
       {
         name: {
           en: 'Baray Water Management',
-          sv: 'Baray Water Management',
+          sv: 'Vattenförvaltning med baray-reservoarer',
           es: 'Gestión del Agua de Baray',
           fr: 'Gestion de l\'eau du Baray',
           de: 'Baray Wassermanagement',
@@ -744,7 +744,7 @@ export const cambodia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -769,7 +769,7 @@ export const cambodia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -794,7 +794,7 @@ export const cambodia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -867,10 +867,10 @@ export const cambodia: Country = {
           amount: 4,
           unit: {
             en: 'squares',
-            sv: 'rutor',
+            sv: 'bitar',
             es: 'cuadrados',
             fr: 'carrés',
-            de: 'Quadrate',
+            de: 'Stücke',
             it: 'quadrati',
             pl: 'kwadraty',
             nl: 'vierkanten',
@@ -1092,7 +1092,7 @@ export const cambodia: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1235,8 +1235,28 @@ export const cambodia: Country = {
       imageUrl: 'https://images.pexels.com/photos/27913838/pexels-photo-27913838.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Angkor beer, Palm wine, Rice wine',
-      nonAlcoholic: 'Iced coffee with condensed milk, Sugar palm juice, Fresh coconut',
+      alcoholic: {
+        en: 'Angkor beer, Palm wine, Rice wine',
+        sv: 'Angkor-öl, Palmvin, Risvin',
+        de: 'Angkor-Bier, Palmwein, Reiswein',
+        fr: 'Bière Angkor, Vin de palme, Vin de riz',
+        es: 'Cerveza Angkor, Vino de palma, Vino de arroz',
+        it: 'Birra Angkor, Vino di palma, Vino di riso',
+        pl: 'Piwo Angkor, Wino palmowe, Wino ryżowe',
+        nl: 'Angkor-bier, Palmwijn, Rijstwijn',
+        pt: 'Cerveja Angkor, Vinho de palma, Vinho de arroz',
+      },
+      nonAlcoholic: {
+        en: 'Iced coffee with condensed milk, Sugar palm juice, Fresh coconut',
+        sv: 'Iskaffe med kondenserad mjölk, Sockerpalmsjuice, Färsk kokosnöt',
+        de: 'Eiskaffee mit Kondensmilch, Zuckerpalmensaft, Frische Kokosnuss',
+        fr: 'Café glacé au lait concentré, Jus de palmier à sucre, Noix de coco fraîche',
+        es: 'Café helado con leche condensada, Jugo de palma azucarera, Coco fresco',
+        it: 'Caffè freddo con latte condensato, Succo di palma da zucchero, Cocco fresco',
+        pl: 'Mrożona kawa z mlekiem skondensowanym, Sok z palmy cukrowej, Świeży kokos',
+        nl: 'IJskoffie met gecondenseerde melk, Suikerpalmsap, Verse kokosnoot',
+        pt: 'Café gelado com leite condensado, Suco de palmeira-de-açúcar, Coco fresco',
+      },
     },
     music: [
       { en: 'Traditional Pinpeat ensemble', sv: 'Traditionellt Pinpeat-ensemble', de: 'Traditionelles Pinpeat-Ensemble', fr: 'Ensemble Pinpeat traditionnel', es: 'Conjunto Pinpeat tradicional', it: 'Ensemble Pinpeat tradizionale', pl: 'Tradycyjny zespół Pinpeat', nl: 'Traditioneel Pinpeat-ensemble', pt: 'Conjunto Pinpeat tradicional' },

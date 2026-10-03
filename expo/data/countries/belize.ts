@@ -327,7 +327,7 @@ export const belize: Country = {
       {
         name: {
           en: 'Marine Reserve Network',
-          sv: 'Marine Reserve Network',
+          sv: 'Nätverk av marina reservat',
           es: 'Red de Reservas Marinas',
           fr: 'Réseau de réserves marines',
           de: 'Meeresschutzgebietsnetzwerk',
@@ -352,7 +352,7 @@ export const belize: Country = {
       {
         name: {
           en: 'Jaguar Preservation',
-          sv: 'Jaguar Preservation',
+          sv: 'Skydd av jaguaren',
           es: 'Preservación del jaguar',
           fr: 'Préservation du Jaguar',
           de: 'Jaguar-Erhaltung',
@@ -377,7 +377,7 @@ export const belize: Country = {
       {
         name: {
           en: 'Blue Hole Exploration',
-          sv: 'Blue Hole Exploration',
+          sv: 'Utforskningen av Great Blue Hole',
           es: 'Exploración del agujero azul',
           fr: 'Exploration du trou bleu',
           de: 'Blue-Hole-Erkundung',
@@ -759,7 +759,7 @@ export const belize: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -949,7 +949,7 @@ export const belize: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -985,7 +985,7 @@ export const belize: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1000,7 +1000,7 @@ export const belize: Country = {
             pt: 'Canela',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1118,8 +1118,28 @@ export const belize: Country = {
       imageUrl: 'https://images.pexels.com/photos/34578271/pexels-photo-34578271.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Belikin beer, Cashew wine, Rum',
-      nonAlcoholic: 'Seaweed shake, Horchata, Fresh coconut water',
+      alcoholic: {
+        en: 'Belikin beer, Cashew wine, Rum',
+        sv: 'Belikin-öl, Cashewvin, Rom',
+        de: 'Belikin-Bier, Cashewwein, Rum',
+        fr: 'Bière Belikin, Vin de cajou, Rhum',
+        es: 'Cerveza Belikin, Vino de marañón, Ron',
+        it: 'Birra Belikin, Vino di anacardi, Rum',
+        pl: 'Piwo Belikin, Wino z nerkowca, Rum',
+        nl: 'Belikin-bier, Cashewwijn, Rum',
+        pt: 'Cerveja Belikin, Vinho de caju, Rum',
+      },
+      nonAlcoholic: {
+        en: 'Seaweed shake, Horchata, Fresh coconut water',
+        sv: 'Tångshake, Horchata, Färskt kokosvatten',
+        de: 'Algen-Shake, Horchata, Frisches Kokoswasser',
+        fr: 'Milk-shake aux algues, Horchata, Eau de coco fraîche',
+        es: 'Batido de algas, Horchata, Agua de coco fresca',
+        it: 'Frullato di alghe, Horchata, Acqua di cocco fresca',
+        pl: 'Koktajl z wodorostów, Horchata, Świeża woda kokosowa',
+        nl: 'Zeewiershake, Horchata, Vers kokoswater',
+        pt: 'Shake de algas, Horchata, Água de coco fresca',
+      },
     },
     music: [
       { en: 'Punta music', sv: 'Punta-musik', de: 'Punta-Musik', fr: 'Musique punta', es: 'Música punta', it: 'Musica punta', pl: 'Muzyka punta', nl: 'Punta-muziek', pt: 'Música punta' },
@@ -1655,7 +1675,7 @@ export const belize: Country = {
           sv: 'Hur många procent av Belize är täckt av skogar?',
           es: '¿Qué porcentaje de Belice está cubierto de bosques?',
           fr: 'Quel pourcentage du Belize est couvert de forêts ?',
-          de: 'What percentage of Belize is covered in forests?',
+          de: 'Wie viel Prozent von Belize sind von Wald bedeckt?',
           it: 'Quale percentuale del Belize è coperta da foreste?',
           pl: 'Jaki procent powierzchni Belize pokrywają lasy?',
           nl: 'Hoeveel procent van Belize is bedekt met bos?',

@@ -316,7 +316,7 @@ export const uganda: Country = {
       {
         name: {
           en: 'Mountain Gorilla Conservation',
-          sv: 'Mountain Gorilla Conservation',
+          sv: 'Skydd av bergsgorillor',
           es: 'Conservación del gorila de montaña',
           fr: 'Conservation des gorilles de montagne',
           de: 'Schutz der Berggorillas',
@@ -393,7 +393,7 @@ export const uganda: Country = {
       {
         name: {
           en: 'Bwindi Impenetrable National Park',
-          sv: 'Bwindi Impenetrable National Park',
+          sv: 'Bwindi Impenetrable nationalpark',
           es: 'Parque Nacional Impenetrable de Bwindi',
           fr: 'Parc national impénétrable de Bwindi',
           de: 'Bwindi Impenetrable Nationalpark',
@@ -417,7 +417,7 @@ export const uganda: Country = {
       {
         name: {
           en: 'Murchison Falls National Park',
-          sv: 'Murchison Falls National Park',
+          sv: 'Murchison Falls nationalpark',
           es: 'Parque Nacional de las Cataratas Murchison',
           fr: 'Parc national des chutes Murchison',
           de: 'Murchison-Falls-Nationalpark',
@@ -441,7 +441,7 @@ export const uganda: Country = {
       {
         name: {
           en: 'Queen Elizabeth National Park',
-          sv: 'Queen Elizabeth National Park',
+          sv: 'Queen Elizabeth nationalpark',
           es: 'Parque Nacional Reina Isabel',
           fr: 'Parc national Reine Elizabeth',
           de: 'Queen-Elizabeth-Nationalpark',
@@ -727,14 +727,14 @@ export const uganda: Country = {
           amount: 3,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -754,7 +754,7 @@ export const uganda: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -800,7 +800,7 @@ export const uganda: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1042,7 +1042,7 @@ export const uganda: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1057,7 +1057,7 @@ export const uganda: Country = {
             pt: 'Sal',
           },
           amount: 0.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1076,7 +1076,7 @@ export const uganda: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1167,8 +1167,28 @@ export const uganda: Country = {
       imageUrl: 'https://images.pexels.com/photos/14263510/pexels-photo-14263510.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Waragi (banana gin), local banana beer, Bell Lager',
-      nonAlcoholic: 'Chai (milk tea), passion fruit juice, fresh juice blends',
+      alcoholic: {
+        en: 'Waragi (banana gin), local banana beer, Bell Lager',
+        sv: 'Waragi (banangin), lokalt bananöl, Bell Lager',
+        de: 'Waragi (Bananengin), lokales Bananenbier, Bell Lager',
+        fr: 'Waragi (gin de banane), bière de banane locale, Bell Lager',
+        es: 'Waragi (ginebra de plátano), cerveza de plátano local, Bell Lager',
+        it: 'Waragi (gin di banana), birra di banana locale, Bell Lager',
+        pl: 'Waragi (gin bananowy), lokalne piwo bananowe, Bell Lager',
+        nl: 'Waragi (bananengin), lokaal bananenbier, Bell Lager',
+        pt: 'Waragi (gim de banana), cerveja de banana local, Bell Lager',
+      },
+      nonAlcoholic: {
+        en: 'Chai (milk tea), passion fruit juice, fresh juice blends',
+        sv: 'Chai (mjölkte), passionsfruktjuice, färska juiceblandningar',
+        de: 'Chai (Milchtee), Maracujasaft, frische Saftmischungen',
+        fr: 'Chai (thé au lait), jus de fruit de la passion, mélanges de jus frais',
+        es: 'Chai (té con leche), jugo de maracuyá, mezclas de jugos naturales',
+        it: 'Chai (tè al latte), succo di frutto della passione, mix di succhi freschi',
+        pl: 'Chai (herbata z mlekiem), sok z marakui, mieszanki świeżych soków',
+        nl: 'Chai (melkthee), passievruchtensap, verse sapmixen',
+        pt: 'Chai (chá com leite), suco de maracujá, misturas de sucos naturais',
+      },
     },
     music: [
       { en: 'Traditional Kiganda music', sv: 'Traditionell Kiganda-musik', de: 'Traditionelle Kiganda-Musik', fr: 'Musique Kiganda traditionnelle', es: 'Música Kiganda tradicional', it: 'Musica Kiganda tradizionale', pl: 'Tradycyjna muzyka Kiganda', nl: 'Traditionele Kiganda muziek', pt: 'Música Kiganda tradicional' },

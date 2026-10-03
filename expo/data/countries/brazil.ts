@@ -825,7 +825,7 @@ export const brazil: Country = {
         {
           name: {
             en: 'Orange',
-            sv: 'Orange',
+            sv: 'Apelsin',
             es: 'Naranja',
             fr: 'Orange',
             de: 'Orange',
@@ -1033,7 +1033,7 @@ export const brazil: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1187,8 +1187,28 @@ export const brazil: Country = {
       imageUrl: 'https://images.pexels.com/photos/28613103/pexels-photo-28613103.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Caipirinha, Cachaça, Guaraná Antarctica, Brahma beer',
-      nonAlcoholic: 'Açaí juice, Coconut water, Guaraná, Fresh fruit juices',
+      alcoholic: {
+        en: 'Caipirinha, Cachaça, Guaraná Antarctica, Brahma beer',
+        sv: 'Caipirinha, Cachaça, Guaraná Antarctica, Brahma-öl',
+        de: 'Caipirinha, Cachaça, Guaraná Antarctica, Brahma-Bier',
+        fr: 'Caipirinha, Cachaça, Guaraná Antarctica, Bière Brahma',
+        es: 'Caipirinha, Cachaça, Guaraná Antarctica, Cerveza Brahma',
+        it: 'Caipirinha, Cachaça, Guaraná Antarctica, Birra Brahma',
+        pl: 'Caipirinha, Cachaça, Guaraná Antarctica, Piwo Brahma',
+        nl: 'Caipirinha, Cachaça, Guaraná Antarctica, Brahma-bier',
+        pt: 'Caipirinha, Cachaça, Guaraná Antarctica, Cerveja Brahma',
+      },
+      nonAlcoholic: {
+        en: 'Açaí juice, Coconut water, Guaraná, Fresh fruit juices',
+        sv: 'Açaí-juice, Kokosvatten, Guaraná, Färskpressade fruktjuicer',
+        de: 'Açaí-Saft, Kokoswasser, Guaraná, Frische Fruchtsäfte',
+        fr: 'Jus d\'açaí, Eau de coco, Guaraná, Jus de fruits frais',
+        es: 'Jugo de açaí, Agua de coco, Guaraná, Jugos de fruta naturales',
+        it: 'Succo di açaí, Acqua di cocco, Guaraná, Succhi di frutta freschi',
+        pl: 'Sok z açaí, Woda kokosowa, Guaraná, Świeże soki owocowe',
+        nl: 'Açaí-sap, Kokoswater, Guaraná, Verse vruchtensappen',
+        pt: 'Suco de açaí, Água de coco, Guaraná, Sucos naturais de frutas',
+      },
     },
     music: [
       { en: 'Samba', sv: 'Samba', de: 'Samba', fr: 'Samba', es: 'Samba', it: 'Samba', pl: 'Samba', nl: 'Samba', pt: 'Samba' },

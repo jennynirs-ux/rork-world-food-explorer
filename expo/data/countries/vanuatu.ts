@@ -537,7 +537,7 @@ export const vanuatu: Country = {
       {
         name: {
           en: 'Kastom System',
-          sv: 'Kastom System',
+          sv: 'Kastom-systemet',
           es: 'Sistema Kastom',
           fr: 'Système Kastom',
           de: 'Kastom-System',
@@ -682,7 +682,7 @@ export const vanuatu: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -873,7 +873,7 @@ export const vanuatu: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -894,7 +894,7 @@ export const vanuatu: Country = {
             pt: 'Baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -909,7 +909,7 @@ export const vanuatu: Country = {
             pt: 'Raspas de limão (opcional)',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -927,8 +927,8 @@ export const vanuatu: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1008,8 +1008,28 @@ export const vanuatu: Country = {
       imageUrl: 'https://images.pexels.com/photos/60713/pexels-photo-60713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Kava, Tusker beer',
-      nonAlcoholic: 'Coconut water, Fresh tropical juice',
+      alcoholic: {
+        en: 'Kava, Tusker beer',
+        sv: 'Kava, Tusker-öl',
+        de: 'Kava, Tusker-Bier',
+        fr: 'Kava, Bière Tusker',
+        es: 'Kava, Cerveza Tusker',
+        it: 'Kava, Birra Tusker',
+        pl: 'Kava, Piwo Tusker',
+        nl: 'Kava, Tusker-bier',
+        pt: 'Kava, Cerveja Tusker',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Fresh tropical juice',
+        sv: 'Kokosvatten, Färskpressad tropisk juice',
+        de: 'Kokoswasser, Frischer tropischer Saft',
+        fr: 'Eau de coco, Jus tropical frais',
+        es: 'Agua de coco, Jugo tropical natural',
+        it: 'Acqua di cocco, Succo tropicale fresco',
+        pl: 'Woda kokosowa, Świeży sok tropikalny',
+        nl: 'Kokoswater, Vers tropisch sap',
+        pt: 'Água de coco, Suco tropical natural',
+      },
     },
     music: [
       { en: 'Traditional string band music', sv: 'Traditionell stränginstrumentbands-musik', de: 'Traditionelle Streichbandenmusik', fr: 'Musique de groupe de cordes traditionnelle', es: 'Música de banda de cuerdas tradicional', it: 'Musica tradizionale di gruppo di corde', pl: 'Tradycyjna muzyka zespołów strunowych', nl: 'Traditionele strijkbandmuziek', pt: 'Música tradicional de banda de cordas' },

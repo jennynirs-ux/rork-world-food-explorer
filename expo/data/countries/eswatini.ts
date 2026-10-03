@@ -283,7 +283,7 @@ export const eswatini: Country = {
       {
         name: {
           en: 'Hlane Royal National Park',
-          sv: 'Hlane Royal National Park',
+          sv: 'Hlane kungliga nationalpark',
           es: 'Parque Nacional Real de Hlane',
           fr: 'Parc national royal de Hlane',
           de: 'Hlane Royal Nationalpark',
@@ -801,7 +801,7 @@ export const eswatini: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -886,8 +886,28 @@ export const eswatini: Country = {
       imageUrl: 'https://images.pexels.com/photos/4946999/pexels-photo-4946999.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Umcombotsi (traditional beer), Buganu (marula fruit beer)',
-      nonAlcoholic: 'Mahewu (fermented porridge drink), Rooibos tea',
+      alcoholic: {
+        en: 'Umcombotsi (traditional beer), Buganu (marula fruit beer)',
+        sv: 'Umcombotsi (traditionellt öl), Buganu (marulaöl)',
+        de: 'Umcombotsi (traditionelles Bier), Buganu (Marulafruchtbier)',
+        fr: 'Umcombotsi (bière traditionnelle), Buganu (bière de fruits de marula)',
+        es: 'Umcombotsi (cerveza tradicional), Buganu (cerveza de fruto de marula)',
+        it: 'Umcombotsi (birra tradizionale), Buganu (birra di frutti di marula)',
+        pl: 'Umcombotsi (tradycyjne piwo), Buganu (piwo z owoców maruli)',
+        nl: 'Umcombotsi (traditioneel bier), Buganu (bier van marulavruchten)',
+        pt: 'Umcombotsi (cerveja tradicional), Buganu (cerveja de fruta marula)',
+      },
+      nonAlcoholic: {
+        en: 'Mahewu (fermented porridge drink), Rooibos tea',
+        sv: 'Mahewu (fermenterad grötdryck), Rooibos-te',
+        de: 'Mahewu (fermentiertes Breigetränk), Rooibostee',
+        fr: 'Mahewu (boisson fermentée à base de bouillie), Thé rooibos',
+        es: 'Mahewu (bebida fermentada de gachas), Té rooibos',
+        it: 'Mahewu (bevanda fermentata a base di porridge), Tè rooibos',
+        pl: 'Mahewu (fermentowany napój z kaszy), Herbata rooibos',
+        nl: 'Mahewu (gefermenteerde papdrank), Rooibosthee',
+        pt: 'Mahewu (bebida fermentada de mingau), Chá de rooibos',
+      },
     },
     music: [
       { en: 'Traditional Swazi songs', sv: 'Traditionella swaziska sånger', de: 'Traditionelle swasische Lieder', fr: 'Chansons swazies traditionnelles', es: 'Canciones suazis tradicionales', it: 'Canzoni swazi tradizionali', pl: 'Tradycyjne pieśni swazi', nl: 'Traditionele Swazische liedjes', pt: 'Canções swazi tradicionais' },
@@ -909,7 +929,7 @@ export const eswatini: Country = {
       {
         name: {
           en: 'Reed Dance Tradition',
-          sv: 'Reed Dance Tradition',
+          sv: 'Vassdanstraditionen (Umhlanga)',
           es: 'Tradición de la danza de caña',
           fr: 'Tradition de la danse des roseaux',
           de: 'Schilfrohrtanztradition',
@@ -934,7 +954,7 @@ export const eswatini: Country = {
       {
         name: {
           en: 'Wildlife Conservation',
-          sv: 'Wildlife Conservation',
+          sv: 'Skydd av vilda djur',
           es: 'Conservación de la vida silvestre',
           fr: 'Conservation de la faune',
           de: 'Naturschutz',

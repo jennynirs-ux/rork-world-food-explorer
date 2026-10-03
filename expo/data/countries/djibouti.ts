@@ -553,10 +553,10 @@ export const djibouti: Country = {
           amount: 5,
           unit: {
             en: 'pods',
-            sv: 'pods',
+            sv: 'kapslar',
             es: 'vainas',
             fr: 'gousses',
-            de: 'Schoten',
+            de: 'Kapseln',
             it: 'baccelli',
             pl: 'strąki',
             nl: 'peulen',
@@ -578,11 +578,11 @@ export const djibouti: Country = {
           amount: 2,
           unit: {
             en: 'sticks',
-            sv: 'pinnar',
-            es: 'palos',
+            sv: 'stänger',
+            es: 'ramas',
             fr: 'bâtons',
-            de: 'Stöcke',
-            it: 'bastoncini',
+            de: 'Stangen',
+            it: 'stecche',
             pl: 'laski',
             nl: 'stokjes',
             pt: 'paus',
@@ -718,7 +718,7 @@ export const djibouti: Country = {
             en: 'Dates',
             sv: 'Datum',
             es: 'Fechas',
-            fr: 'Dates',
+            fr: 'Dattes',
             de: 'Termine',
             it: 'Datteri',
             pl: 'Daktyle',
@@ -771,7 +771,7 @@ export const djibouti: Country = {
             pt: 'Cardamomo',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -871,8 +871,28 @@ export const djibouti: Country = {
       imageUrl: 'https://images.pexels.com/photos/5453716/pexels-photo-5453716.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Limited availability',
-      nonAlcoholic: 'Spiced tea, Coffee, Fresh juice',
+      alcoholic: {
+        en: 'Limited availability',
+        sv: 'Begränsad tillgång',
+        de: 'Begrenzt erhältlich',
+        fr: 'Disponibilité limitée',
+        es: 'Disponibilidad limitada',
+        it: 'Disponibilità limitata',
+        pl: 'Ograniczona dostępność',
+        nl: 'Beperkt verkrijgbaar',
+        pt: 'Disponibilidade limitada',
+      },
+      nonAlcoholic: {
+        en: 'Spiced tea, Coffee, Fresh juice',
+        sv: 'Kryddat te, Kaffe, Färskpressad juice',
+        de: 'Gewürztee, Kaffee, Frischer Saft',
+        fr: 'Thé épicé, Café, Jus frais',
+        es: 'Té especiado, Café, Jugo natural',
+        it: 'Tè speziato, Caffè, Succo fresco',
+        pl: 'Herbata z przyprawami, Kawa, Świeży sok',
+        nl: 'Gekruide thee, Koffie, Vers sap',
+        pt: 'Chá com especiarias, Café, Suco natural',
+      },
     },
     music: [
       { en: 'Traditional Somali music', sv: 'Traditionell somalisk musik', de: 'Traditionelle somalische Musik', fr: 'Musique traditionnelle somalienne', es: 'Música tradicional somalí', it: 'Musica tradizionale somala', pl: 'Tradycyjna muzyka somalijska', nl: 'Traditionele Somalische muziek', pt: 'Música tradicional somali' },
@@ -918,7 +938,7 @@ export const djibouti: Country = {
       {
         name: {
           en: 'Port of Djibouti Expansion',
-          sv: 'Port of Djibouti Expansion',
+          sv: 'Utbyggnaden av Djiboutis hamn',
           es: 'Ampliación del puerto de Yibuti',
           fr: 'Agrandissement du port de Djibouti',
           de: 'Erweiterung des Hafens von Dschibuti',
@@ -943,7 +963,7 @@ export const djibouti: Country = {
       {
         name: {
           en: 'Lake Assal Salt Extraction',
-          sv: 'Lake Assal Salt Extraction',
+          sv: 'Saltutvinning i Assalsjön',
           es: 'Extracción de sal del lago Assal',
           fr: 'Extraction de sel du lac Assal',
           de: 'Salzgewinnung aus dem Assalsee',

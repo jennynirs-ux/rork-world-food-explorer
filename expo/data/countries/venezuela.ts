@@ -523,7 +523,7 @@ export const venezuela: Country = {
       {
         name: {
           en: 'Catatumbo Lightning Study',
-          sv: 'Catatumbo Lightning Study',
+          sv: 'Forskning om Catatumboblixtarna',
           es: 'Estudio sobre rayos del Catatumbo',
           fr: 'Étude sur la foudre de Catatumbo',
           de: 'Catatumbo-Blitzstudie',
@@ -793,7 +793,7 @@ export const venezuela: Country = {
             pt: 'Cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -812,7 +812,7 @@ export const venezuela: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1035,7 +1035,7 @@ export const venezuela: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1131,8 +1131,28 @@ export const venezuela: Country = {
       imageUrl: 'https://images.pexels.com/photos/34474034/pexels-photo-34474034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Polar beer, Venezuelan rum, Ponche Crema',
-      nonAlcoholic: 'Papelón con limón (sugarcane lemonade), Chicha, Fresh fruit juices',
+      alcoholic: {
+        en: 'Polar beer, Venezuelan rum, Ponche Crema',
+        sv: 'Polar-öl, Venezuelansk rom, Ponche Crema',
+        de: 'Polar-Bier, Venezolanischer Rum, Ponche Crema',
+        fr: 'Bière Polar, Rhum vénézuélien, Ponche Crema',
+        es: 'Cerveza Polar, Ron venezolano, Ponche Crema',
+        it: 'Birra Polar, Rum venezuelano, Ponche Crema',
+        pl: 'Piwo Polar, Rum wenezuelski, Ponche Crema',
+        nl: 'Polar-bier, Venezolaanse rum, Ponche Crema',
+        pt: 'Cerveja Polar, Rum venezuelano, Ponche Crema',
+      },
+      nonAlcoholic: {
+        en: 'Papelón con limón (sugarcane lemonade), Chicha, Fresh fruit juices',
+        sv: 'Papelón con limón (lemonad på rörsocker), Chicha, Färska fruktjuicer',
+        de: 'Papelón con limón (Zuckerrohr-Limonade), Chicha, Frische Fruchtsäfte',
+        fr: 'Papelón con limón (limonade au sucre de canne), Chicha, Jus de fruits frais',
+        es: 'Papelón con limón (limonada de caña de azúcar), Chicha, Jugos de frutas frescas',
+        it: 'Papelón con limón (limonata allo zucchero di canna), Chicha, Succhi di frutta freschi',
+        pl: 'Papelón con limón (lemoniada z cukru trzcinowego), Chicha, Świeże soki owocowe',
+        nl: 'Papelón con limón (rietsuikerlimonade), Chicha, Verse vruchtensappen',
+        pt: 'Papelón con limón (limonada de rapadura), Chicha, Sucos de frutas frescas',
+      },
     },
     music: [
       { en: 'Joropo', sv: 'Joropo', de: 'Joropo', fr: 'Joropo', es: 'Joropo', it: 'Joropo', pl: 'Joropo', nl: 'Joropo', pt: 'Joropo' },

@@ -595,7 +595,7 @@ export const equatorialGuinea: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -678,7 +678,7 @@ export const equatorialGuinea: Country = {
       id: 'equatorial-guinea-dessert',
       name: {
         en: 'Plantain Fritters',
-        sv: 'Plantain Fritters',
+        sv: 'Friterad kokbanan',
         es: 'Buñuelos de Plátano',
         fr: 'Beignets de plantain',
         de: 'Bananenkrapfen',
@@ -781,7 +781,7 @@ export const equatorialGuinea: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -881,8 +881,28 @@ export const equatorialGuinea: Country = {
       imageUrl: 'https://images.pexels.com/photos/36165404/pexels-photo-36165404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Palm wine, Local beer',
-      nonAlcoholic: 'Malamba (sugarcane juice), Fresh juice',
+      alcoholic: {
+        en: 'Palm wine, Local beer, Malamba (fermented sugarcane juice)',
+        sv: 'Palmvin, Lokalt öl, Malamba (jäst sockerrörsjuice)',
+        de: 'Palmwein, Lokales Bier, Malamba (vergorener Zuckerrohrsaft)',
+        fr: 'Vin de palme, Bière locale, Malamba (jus de canne à sucre fermenté)',
+        es: 'Vino de palma, Cerveza local, Malamba (jugo de caña de azúcar fermentado)',
+        it: 'Vino di palma, Birra locale, Malamba (succo di canna da zucchero fermentato)',
+        pl: 'Wino palmowe, Lokalne piwo, Malamba (sfermentowany sok z trzciny cukrowej)',
+        nl: 'Palmwijn, Lokaal bier, Malamba (gefermenteerd suikerrietsap)',
+        pt: 'Vinho de palma, Cerveja local, Malamba (caldo de cana fermentado)',
+      },
+      nonAlcoholic: {
+        en: 'Fresh juice',
+        sv: 'Färskpressad juice',
+        de: 'Frischer Saft',
+        fr: 'Jus frais',
+        es: 'Jugo natural',
+        it: 'Succo fresco',
+        pl: 'Świeży sok',
+        nl: 'Vers sap',
+        pt: 'Suco natural',
+      },
     },
     music: [
       { en: 'Traditional Fang music', sv: 'Traditionell Fang-musik', de: 'Traditionelle Fang-Musik', fr: 'Musique Fang traditionnelle', es: 'Música Fang tradicional', it: 'Musica Fang tradizionale', pl: 'Tradycyjna muzyka Fang', nl: 'Traditionele Fang-muziek', pt: 'Música Fang tradicional' },

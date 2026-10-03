@@ -855,7 +855,7 @@ export const guatemala: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1003,8 +1003,28 @@ export const guatemala: Country = {
       imageUrl: 'https://images.pexels.com/photos/12241298/pexels-photo-12241298.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Quetzalteca (aguardiente), Gallo beer',
-      nonAlcoholic: 'Horchata, Atol de elote, Rosa de Jamaica',
+      alcoholic: {
+        en: 'Quetzalteca (aguardiente), Gallo beer',
+        sv: 'Quetzalteca (aguardiente), Gallo-öl',
+        de: 'Quetzalteca (Aguardiente), Gallo-Bier',
+        fr: 'Quetzalteca (aguardiente), Bière Gallo',
+        es: 'Quetzalteca (aguardiente), Cerveza Gallo',
+        it: 'Quetzalteca (aguardiente), Birra Gallo',
+        pl: 'Quetzalteca (aguardiente), Piwo Gallo',
+        nl: 'Quetzalteca (aguardiente), Gallo-bier',
+        pt: 'Quetzalteca (aguardiente), Cerveja Gallo',
+      },
+      nonAlcoholic: {
+        en: 'Horchata, Atol de elote, Rosa de Jamaica',
+        sv: 'Horchata, Atol de elote, Rosa de Jamaica',
+        de: 'Horchata, Atol de elote, Rosa de Jamaica',
+        fr: 'Horchata, Atol de elote, Rosa de Jamaica',
+        es: 'Horchata, Atol de elote, Rosa de Jamaica',
+        it: 'Horchata, Atol de elote, Rosa de Jamaica',
+        pl: 'Horchata, Atol de elote, Rosa de Jamaica',
+        nl: 'Horchata, Atol de elote, Rosa de Jamaica',
+        pt: 'Horchata, Atol de elote, Rosa de Jamaica',
+      },
     },
     music: [
       { en: 'Marimba music', sv: 'Marimbamusik', de: 'Marimba-Musik', fr: 'Musique de marimba', es: 'Música de marimba', it: 'Musica di marimba', pl: 'Muzyka na marimbę', nl: 'Marimba-muziek', pt: 'Música de marimba' },

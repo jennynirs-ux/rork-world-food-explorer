@@ -360,7 +360,7 @@ export const iraq: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -431,7 +431,7 @@ export const iraq: Country = {
             pt: 'Curcuma',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -446,7 +446,7 @@ export const iraq: Country = {
             pt: 'Curry em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -520,8 +520,28 @@ export const iraq: Country = {
       imageUrl: 'https://images.pexels.com/photos/1321124/pexels-photo-1321124.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Arak (limited availability)',
-      nonAlcoholic: 'Chai (tea), Turkish coffee, Iced rose water',
+      alcoholic: {
+        en: 'Arak (limited availability)',
+        sv: 'Arak (begränsad tillgång)',
+        de: 'Arak (begrenzt erhältlich)',
+        fr: 'Arak (disponibilité limitée)',
+        es: 'Arak (disponibilidad limitada)',
+        it: 'Arak (disponibilità limitata)',
+        pl: 'Arak (ograniczona dostępność)',
+        nl: 'Arak (beperkt verkrijgbaar)',
+        pt: 'Arak (disponibilidade limitada)',
+      },
+      nonAlcoholic: {
+        en: 'Chai (tea), Turkish coffee, Iced rose water',
+        sv: 'Chai (te), Turkiskt kaffe, Iskallt rosenvatten',
+        de: 'Chai (Tee), Türkischer Kaffee, Eisgekühltes Rosenwasser',
+        fr: 'Chai (thé), Café turc, Eau de rose glacée',
+        es: 'Chai (té), Café turco, Agua de rosas helada',
+        it: 'Chai (tè), Caffè turco, Acqua di rose ghiacciata',
+        pl: 'Chai (herbata), Kawa po turecku, Mrożona woda różana',
+        nl: 'Chai (thee), Turkse koffie, IJskoud rozenwater',
+        pt: 'Chai (chá), Café turco, Água de rosas gelada',
+      },
     },
     music: [
       { en: 'Iraqi Maqam', sv: 'Irakisk maqam', de: 'Irakisches Maqam', fr: 'Maqam irakien', es: 'Maqam iraquí', it: 'Maqam iracheno', pl: 'Iracki maqam', nl: 'Iraaks Maqam', pt: 'Maqam iraquiano' },
@@ -946,7 +966,7 @@ export const iraq: Country = {
             pt: 'Cardamomo',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -965,7 +985,7 @@ export const iraq: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',

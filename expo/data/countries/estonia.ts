@@ -691,9 +691,9 @@ export const estonia: Country = {
           amount: 1,
           unit: {
             en: 'to taste',
-            sv: 'att smaka',
+            sv: 'efter smak',
             es: 'al gusto',
-            fr: 'à déguster',
+            fr: 'au goût',
             de: 'nach Geschmack',
             it: 'a piacere',
             pl: 'do smaku',
@@ -961,7 +961,7 @@ export const estonia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -982,7 +982,7 @@ export const estonia: Country = {
             pt: 'Cardamomo',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1115,8 +1115,28 @@ export const estonia: Country = {
       imageUrl: 'https://images.pexels.com/photos/5702925/pexels-photo-5702925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Vana Tallinn (liqueur), Estonian craft beer, Kali (fermented rye drink)',
-      nonAlcoholic: 'Berry juices, Herbal teas, Kefir',
+      alcoholic: {
+        en: 'Vana Tallinn (liqueur), Estonian craft beer, Kali (fermented rye drink)',
+        sv: 'Vana Tallinn (likör), Estniskt hantverksöl, Kali (fermenterad rågdryck)',
+        de: 'Vana Tallinn (Likör), Estnisches Craft-Bier, Kali (fermentiertes Roggengetränk)',
+        fr: 'Vana Tallinn (liqueur), Bière artisanale estonienne, Kali (boisson fermentée au seigle)',
+        es: 'Vana Tallinn (licor), Cerveza artesanal estonia, Kali (bebida fermentada de centeno)',
+        it: 'Vana Tallinn (liquore), Birra artigianale estone, Kali (bevanda fermentata di segale)',
+        pl: 'Vana Tallinn (likier), Estońskie piwo rzemieślnicze, Kali (fermentowany napój żytni)',
+        nl: 'Vana Tallinn (likeur), Estisch ambachtelijk bier, Kali (gefermenteerde roggedrank)',
+        pt: 'Vana Tallinn (licor), Cerveja artesanal estoniana, Kali (bebida fermentada de centeio)',
+      },
+      nonAlcoholic: {
+        en: 'Berry juices, Herbal teas, Kefir',
+        sv: 'Bärjuicer, Örtteer, Kefir',
+        de: 'Beerensäfte, Kräutertees, Kefir',
+        fr: 'Jus de baies, Tisanes, Kéfir',
+        es: 'Jugos de frutos rojos, Infusiones, Kéfir',
+        it: 'Succhi di frutti di bosco, Tisane, Kefir',
+        pl: 'Soki jagodowe, Herbatki ziołowe, Kefir',
+        nl: 'Bessensappen, Kruidenthee, Kefir',
+        pt: 'Sucos de frutas vermelhas, Chás de ervas, Kefir',
+      },
     },
     music: [
       { en: 'Estonian folk songs (regilaulud)', sv: 'Estniska folksånger (regilaulud)', de: 'Estnische Volkslieder (regilaulud)', fr: 'Chansons folkloriques estoniennes (regilaulud)', es: 'Canciones folclóricas estonias (regilaulud)', it: 'Canzoni folkloristiche estoni (regilaulud)', pl: 'Estońskie pieśni ludowe (regilaulud)', nl: 'Estse volksliederen (regilaulud)', pt: 'Canções folclóricas estonianas (regilaulud)' },
@@ -1217,7 +1237,7 @@ export const estonia: Country = {
       {
         name: {
           en: 'X-Road Data Exchange',
-          sv: 'X-Road Data Exchange',
+          sv: 'Datautbytet X-Road',
           es: 'Intercambio de datos X-Road',
           fr: 'Échange de données X-Road',
           de: 'X-Road-Datenaustausch',

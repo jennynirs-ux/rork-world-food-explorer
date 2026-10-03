@@ -329,7 +329,7 @@ export const paraguay: Country = {
       {
         name: {
           en: 'Yerba Mate Culture',
-          sv: 'Yerba Mate Culture',
+          sv: 'Yerba mate-kulturen',
           es: 'Cultura de la yerba mate',
           fr: 'Culture Yerba Maté',
           de: 'Yerba Mate-Kultur',
@@ -940,7 +940,7 @@ export const paraguay: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1036,8 +1036,28 @@ export const paraguay: Country = {
       imageUrl: 'https://images.pexels.com/photos/27397338/pexels-photo-27397338.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Caña (sugarcane liquor), Cerveza paraguaya',
-      nonAlcoholic: 'Tereré (cold yerba mate), Hot mate, Mosto (sugarcane juice)',
+      alcoholic: {
+        en: 'Caña (sugarcane liquor), Cerveza paraguaya',
+        sv: 'Caña (sockerrörssprit), Paraguayanskt öl',
+        de: 'Caña (Zuckerrohrschnaps), Paraguayisches Bier',
+        fr: 'Caña (eau-de-vie de canne à sucre), Bière paraguayenne',
+        es: 'Caña (aguardiente de caña de azúcar), Cerveza paraguaya',
+        it: 'Caña (acquavite di canna da zucchero), Birra paraguaiana',
+        pl: 'Caña (wódka z trzciny cukrowej), Piwo paragwajskie',
+        nl: 'Caña (sterkedrank van suikerriet), Paraguayaans bier',
+        pt: 'Caña (aguardente de cana), Cerveja paraguaia',
+      },
+      nonAlcoholic: {
+        en: 'Tereré (cold yerba mate), Hot mate, Mosto (sugarcane juice)',
+        sv: 'Tereré (kall yerba mate), Varm mate, Mosto (sockerrörsjuice)',
+        de: 'Tereré (kalter Yerba Mate), Heißer Mate, Mosto (Zuckerrohrsaft)',
+        fr: 'Tereré (maté froid), Maté chaud, Mosto (jus de canne à sucre)',
+        es: 'Tereré (yerba mate fría), Mate caliente, Mosto (jugo de caña de azúcar)',
+        it: 'Tereré (yerba mate fredda), Mate caldo, Mosto (succo di canna da zucchero)',
+        pl: 'Tereré (zimna yerba mate), Gorące mate, Mosto (sok z trzciny cukrowej)',
+        nl: 'Tereré (koude yerba mate), Warme mate, Mosto (suikerrietsap)',
+        pt: 'Tereré (erva-mate gelada), Mate quente, Mosto (caldo de cana)',
+      },
     },
     music: [
       { en: 'Paraguayan harp music', sv: 'Paraguayansk harpmusik', de: 'Paraguayische Harfenmusik', fr: 'Musique de harpe paraguayenne', es: 'Música de arpa paraguaya', it: 'Musica per arpa paraguaiana', pl: 'Paragwajska muzyka harfowa', nl: 'Paraguayaanse harpmuziek', pt: 'Música de harpa paraguaia' },

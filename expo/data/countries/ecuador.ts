@@ -713,7 +713,7 @@ export const ecuador: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -738,7 +738,7 @@ export const ecuador: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -991,7 +991,7 @@ export const ecuador: Country = {
             pt: 'Baunilha',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1006,7 +1006,7 @@ export const ecuador: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1113,8 +1113,28 @@ export const ecuador: Country = {
       imageUrl: 'https://images.pexels.com/photos/15639799/pexels-photo-15639799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Pilsener beer, Zhumir (sugarcane liquor), Canelazo (hot spiced drink)',
-      nonAlcoholic: 'Colada morada (berry drink), Naranjilla juice, Morocho (sweet corn drink)',
+      alcoholic: {
+        en: 'Pilsener beer, Zhumir (sugarcane liquor), Canelazo (hot spiced drink)',
+        sv: 'Pilsener-öl, Zhumir (sockerrörssprit), Canelazo (varm kryddad dryck)',
+        de: 'Pilsener-Bier, Zhumir (Zuckerrohrschnaps), Canelazo (heißes Gewürzgetränk)',
+        fr: 'Bière Pilsener, Zhumir (eau-de-vie de canne à sucre), Canelazo (boisson chaude épicée)',
+        es: 'Cerveza Pilsener, Zhumir (licor de caña de azúcar), Canelazo (bebida caliente especiada)',
+        it: 'Birra Pilsener, Zhumir (acquavite di canna da zucchero), Canelazo (bevanda calda speziata)',
+        pl: 'Piwo Pilsener, Zhumir (wódka z trzciny cukrowej), Canelazo (gorący napój z przyprawami)',
+        nl: 'Pilsener-bier, Zhumir (brandewijn van suikerriet), Canelazo (warme gekruide drank)',
+        pt: 'Cerveja Pilsener, Zhumir (aguardente de cana), Canelazo (bebida quente com especiarias)',
+      },
+      nonAlcoholic: {
+        en: 'Colada morada (berry drink), Naranjilla juice, Morocho (sweet corn drink)',
+        sv: 'Colada morada (bärdryck), Naranjillajuice, Morocho (söt majsdryck)',
+        de: 'Colada morada (Beerengetränk), Naranjilla-Saft, Morocho (süßes Maisgetränk)',
+        fr: 'Colada morada (boisson aux baies), Jus de naranjilla, Morocho (boisson sucrée au maïs)',
+        es: 'Colada morada (bebida de frutos rojos), Jugo de naranjilla, Morocho (bebida dulce de maíz)',
+        it: 'Colada morada (bevanda ai frutti di bosco), Succo di naranjilla, Morocho (bevanda dolce al mais)',
+        pl: 'Colada morada (napój z owoców jagodowych), Sok z naranjilli, Morocho (słodki napój kukurydziany)',
+        nl: 'Colada morada (bessendrank), Naranjillasap, Morocho (zoete maïsdrank)',
+        pt: 'Colada morada (bebida de frutas vermelhas), Suco de naranjilla, Morocho (bebida doce de milho)',
+      },
     },
     music: [
       { en: 'Pasillo', sv: 'Pasillo', de: 'Pasillo', fr: 'Pasillo', es: 'Pasillo', it: 'Pasillo', pl: 'Pasillo', nl: 'Pasillo', pt: 'Pasillo' },
@@ -1165,7 +1185,7 @@ export const ecuador: Country = {
       {
         name: {
           en: 'Galápagos Conservation',
-          sv: 'Galápagos Conservation',
+          sv: 'Bevarandet av Galápagos',
           es: 'Conservación de Galápagos',
           fr: 'Conservation des Galápagos',
           de: 'Galapagos-Erhaltung',
@@ -1190,7 +1210,7 @@ export const ecuador: Country = {
       {
         name: {
           en: 'Banana Export Excellence',
-          sv: 'Banana Export Excellence',
+          sv: 'Ledande bananexport',
           es: 'Excelencia en la exportación de banano',
           fr: 'Excellence à l\'exportation de bananes',
           de: 'Exzellenter Bananenexport',

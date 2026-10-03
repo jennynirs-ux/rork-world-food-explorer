@@ -377,7 +377,7 @@ export const morocco: Country = {
       {
         name: {
           en: 'Noor Solar Complex',
-          sv: 'Noor Solar Complex',
+          sv: 'Solkraftverket Noor',
           es: 'Complejo Solar Noor',
           fr: 'Complexe Solaire Noor',
           de: 'Noor-Solarkomplex',
@@ -512,7 +512,7 @@ export const morocco: Country = {
         },
         description: {
           en: 'UNESCO World Heritage medieval medina with ancient tanneries.',
-          sv: 'UNESCO World Heritage medieval medina with ancient tanneries.',
+          sv: 'Medeltida medina på UNESCO:s världsarvslista med uråldriga garverier.',
           es: 'Medina medieval declarada Patrimonio de la Humanidad por la UNESCO con antiguas curtidurías.',
           fr: 'Médina médiévale classée au patrimoine mondial de l\'UNESCO avec d\'anciennes tanneries.',
           de: 'UNESCO-Weltkulturerbe der mittelalterlichen Medina mit alten Gerbereien.',
@@ -536,7 +536,7 @@ export const morocco: Country = {
         },
         description: {
           en: 'Spectacular mosque in Casablanca with the world\'s tallest minaret.',
-          sv: 'Spectacular mosque in Casablanca with the world\'s tallest minaret.',
+          sv: 'Spektakulär moské i Casablanca med världens högsta minaret.',
           es: 'Espectacular mezquita en Casablanca con el minarete más alto del mundo.',
           fr: 'Mosquée spectaculaire à Casablanca avec le minaret le plus haut du monde.',
           de: 'Spektakuläre Moschee in Casablanca mit dem höchsten Minarett der Welt.',
@@ -552,7 +552,7 @@ export const morocco: Country = {
         item: 'Modest clothing',
         description: {
           en: 'Cover shoulders and knees, especially in religious areas.',
-          sv: 'Cover shoulders and knees, especially in religious areas.',
+          sv: 'Täck axlar och knän, särskilt på religiösa platser.',
           es: 'Cubrir hombros y rodillas, especialmente en zonas religiosas.',
           fr: 'Couvrez les épaules et les genoux, notamment dans les zones religieuses.',
           de: 'Bedecken Sie Schultern und Knie, insbesondere in religiösen Bereichen.',
@@ -566,7 +566,7 @@ export const morocco: Country = {
         item: 'Comfortable shoes',
         description: {
           en: 'Medinas have cobblestone streets and lots of walking.',
-          sv: 'Medinas have cobblestone streets and lots of walking.',
+          sv: 'Medinorna har kullerstensgator och mycket promenerande.',
           es: 'Las medinas tienen calles adoquinadas y se puede caminar mucho.',
           fr: 'Les médinas ont des rues pavées et de nombreuses promenades.',
           de: 'Medinas haben Kopfsteinpflasterstraßen und viele Spazierwege.',
@@ -634,7 +634,7 @@ export const morocco: Country = {
       },
       description: {
         en: 'Slow-cooked chicken with olives, preserved lemons, and aromatic spices',
-        sv: 'Slow-cooked chicken with olives, preserved lemons, and aromatic spices',
+        sv: 'Långkokt kyckling med oliver, inlagda citroner och aromatiska kryddor',
         es: 'Pollo cocido a fuego lento con aceitunas, limones en conserva y especias aromáticas',
         fr: 'Poulet mijoté aux olives, citrons confits et épices aromatiques',
         de: 'Langsam gegartes Hähnchen mit Oliven, eingelegten Zitronen und aromatischen Gewürzen',
@@ -700,27 +700,27 @@ export const morocco: Country = {
         },
         {
           name: {
-            en: 'Garlic cloves',
-            sv: 'Vitlöksklyftor',
-            es: 'Dientes de ajo',
-            fr: 'Gousses d\'ail',
-            de: 'Knoblauchzehen',
-            it: 'Spicchi d\'aglio',
-            pl: 'Ząbki czosnku',
-            nl: 'Teentjes knoflook',
-            pt: 'Dentes de alho',
+            en: 'Garlic',
+            sv: 'Vitlök',
+            es: 'Ajo',
+            fr: 'Ail',
+            de: 'Knoblauch',
+            it: 'Aglio',
+            pl: 'Czosnek',
+            nl: 'Knoflook',
+            pt: 'Alho',
           },
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -791,7 +791,7 @@ export const morocco: Country = {
             pt: 'Gengibre',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -806,7 +806,7 @@ export const morocco: Country = {
             pt: 'Curcuma',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -821,7 +821,7 @@ export const morocco: Country = {
             pt: 'Cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -839,8 +839,8 @@ export const morocco: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -863,10 +863,10 @@ export const morocco: Country = {
           amount: 1,
           unit: {
             en: 'bunch',
-            sv: 'gäng',
-            es: 'grupo',
-            fr: 'groupe',
-            de: 'Haufen',
+            sv: 'knippe',
+            es: 'manojo',
+            fr: 'botte',
+            de: 'Bund',
             it: 'mazzetto',
             pl: 'pęczek',
             nl: 'bosje',
@@ -892,7 +892,7 @@ export const morocco: Country = {
       steps: [
         {
           en: 'In a tagine or heavy pot, heat olive oil over medium heat',
-          sv: 'In a tagine or heavy pot, heat olive oil over medium heat',
+          sv: 'Hetta upp olivoljan på medelvärme i en tagine eller tjockbottnad gryta',
           es: 'En un tajine o una olla pesada, calienta el aceite de oliva a fuego medio',
           fr: 'Dans un tajine ou une marmite à fond épais, faire chauffer l\'huile d\'olive à feu moyen',
           de: 'In einer Tajine oder einem schweren Topf Olivenöl bei mittlerer Hitze erhitzen',
@@ -914,7 +914,7 @@ export const morocco: Country = {
         },
         {
           en: 'Add minced garlic, ginger, turmeric, cumin, and saffron',
-          sv: 'Add minced garlic, ginger, turmeric, cumin, and saffron',
+          sv: 'Tillsätt hackad vitlök, ingefära, gurkmeja, spiskummin och saffran',
           es: 'Agrega ajo picado, jengibre, cúrcuma, comino y azafrán',
           fr: 'Ajouter l\'ail émincé, le gingembre, le curcuma, le cumin et le safran',
           de: 'Gehackten Knoblauch, Ingwer, Kurkuma, Kreuzkümmel und Safran hinzufügen',
@@ -947,7 +947,7 @@ export const morocco: Country = {
         },
         {
           en: 'Add chopped cilantro, cover and cook on low for 45 minutes',
-          sv: 'Add chopped cilantro, cover and cook on low for 45 minutes',
+          sv: 'Tillsätt hackad koriander, lägg på locket och låt puttra på svag värme i 45 minuter',
           es: 'Agrega el cilantro picado, tapa y cocina a fuego lento durante 45 minutos',
           fr: 'Ajouter la coriandre hachée, couvrir et cuire à feu doux pendant 45 minutes',
           de: 'Gehackten Koriander hinzufügen, abdecken und 45 Minuten auf niedriger Stufe kochen',
@@ -958,7 +958,7 @@ export const morocco: Country = {
         },
         {
           en: 'Add olives and preserved lemon (cut into quarters)',
-          sv: 'Add olives and preserved lemon (cut into quarters)',
+          sv: 'Tillsätt oliver och inlagd citron (skuren i fyra delar)',
           es: 'Agrega las aceitunas y el limón en conserva (cortado en cuartos)',
           fr: 'Ajouter les olives et le citron confit (coupé en quartiers)',
           de: 'Oliven und eingelegte Zitrone (in Viertel geschnitten) hinzufügen',
@@ -969,7 +969,7 @@ export const morocco: Country = {
         },
         {
           en: 'Continue cooking for 30 more minutes until chicken is tender',
-          sv: 'Continue cooking for 30 more minutes until chicken is tender',
+          sv: 'Låt koka ytterligare 30 minuter tills kycklingen är mör',
           es: 'Continúe cocinando por 30 minutos más hasta que el pollo esté tierno',
           fr: 'Poursuivre la cuisson encore 30 minutes jusqu\'à ce que le poulet soit tendre',
           de: 'Weitere 30 Minuten kochen, bis das Hähnchen zart ist',
@@ -991,7 +991,7 @@ export const morocco: Country = {
         },
         {
           en: 'Garnish with fresh cilantro and serve with couscous or bread',
-          sv: 'Garnish with fresh cilantro and serve with couscous or bread',
+          sv: 'Garnera med färsk koriander och servera med couscous eller bröd',
           es: 'Adorne con cilantro fresco y sirva con cuscús o pan',
           fr: 'Garnir de coriandre fraîche et servir avec du couscous ou du pain',
           de: 'Mit frischem Koriander garnieren und mit Couscous oder Brot servieren',
@@ -1018,7 +1018,7 @@ export const morocco: Country = {
       },
       description: {
         en: 'Moist almond cake infused with orange blossom water',
-        sv: 'Moist almond cake infused with orange blossom water',
+        sv: 'Saftig mandelkaka smaksatt med apelsinblomvatten',
         es: 'Pastel húmedo de almendras infusionado con agua de azahar',
         fr: 'Gâteau moelleux aux amandes infusé à l\'eau de fleur d\'oranger',
         de: 'Saftiger Mandelkuchen mit Orangenblütenwasser',
@@ -1110,7 +1110,7 @@ export const morocco: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1129,7 +1129,7 @@ export const morocco: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1308,8 +1308,28 @@ export const morocco: Country = {
       imageUrl: 'https://images.pexels.com/photos/34174215/pexels-photo-34174215.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Moroccan wine (Domaine de Sahari, Guerrouane)',
-      nonAlcoholic: 'Mint tea (Atay), Fresh orange juice, Almond milk, Avocado smoothie',
+      alcoholic: {
+        en: 'Moroccan wine (Domaine de Sahari, Guerrouane)',
+        sv: 'Marockanskt vin (Domaine de Sahari, Guerrouane)',
+        de: 'Marokkanischer Wein (Domaine de Sahari, Guerrouane)',
+        fr: 'Vin marocain (Domaine de Sahari, Guerrouane)',
+        es: 'Vino marroquí (Domaine de Sahari, Guerrouane)',
+        it: 'Vino marocchino (Domaine de Sahari, Guerrouane)',
+        pl: 'Wino marokańskie (Domaine de Sahari, Guerrouane)',
+        nl: 'Marokkaanse wijn (Domaine de Sahari, Guerrouane)',
+        pt: 'Vinho marroquino (Domaine de Sahari, Guerrouane)',
+      },
+      nonAlcoholic: {
+        en: 'Mint tea (Atay), Fresh orange juice, Almond milk, Avocado smoothie',
+        sv: 'Myntate (Atay), Färskpressad apelsinjuice, Mandelmjölk, Avokadosmoothie',
+        de: 'Minztee (Atay), Frischer Orangensaft, Mandelmilch, Avocado-Smoothie',
+        fr: 'Thé à la menthe (Atay), Jus d\'orange frais, Lait d\'amande, Smoothie à l\'avocat',
+        es: 'Té de menta (Atay), Jugo de naranja natural, Leche de almendras, Batido de aguacate',
+        it: 'Tè alla menta (Atay), Spremuta d\'arancia, Latte di mandorla, Frullato di avocado',
+        pl: 'Herbata miętowa (Atay), Świeży sok pomarańczowy, Mleko migdałowe, Smoothie z awokado',
+        nl: 'Muntthee (Atay), Versgeperst sinaasappelsap, Amandelmelk, Avocadosmoothie',
+        pt: 'Chá de hortelã (Atay), Suco de laranja natural, Leite de amêndoas, Vitamina de abacate',
+      },
     },
     music: [
       { en: 'Gnawa music', sv: 'Gnawa-musik', de: 'Gnawa-Musik', fr: 'Musique Gnawa', es: 'Música gnawa', it: 'Musica gnawa', pl: 'Muzyka gnawa', nl: 'Gnawa muziek', pt: 'Música gnawa' },

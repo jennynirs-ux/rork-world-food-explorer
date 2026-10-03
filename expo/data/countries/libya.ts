@@ -890,7 +890,7 @@ export const libya: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -911,7 +911,7 @@ export const libya: Country = {
             pt: 'Cominho',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -926,7 +926,7 @@ export const libya: Country = {
             pt: 'Páprica',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -945,7 +945,7 @@ export const libya: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1047,8 +1047,28 @@ export const libya: Country = {
       imageUrl: 'https://images.pexels.com/photos/32623827/pexels-photo-32623827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Not commonly consumed (Islamic country)',
-      nonAlcoholic: 'Sweet tea, Arabic coffee, Fresh juice',
+      alcoholic: {
+        en: 'Not commonly consumed (Islamic country)',
+        sv: 'Konsumeras sällan (islamiskt land)',
+        de: 'Kaum konsumiert (islamisches Land)',
+        fr: 'Peu consommé (pays islamique)',
+        es: 'Poco consumido (país islámico)',
+        it: 'Poco consumato (paese islamico)',
+        pl: 'Rzadko spożywany (kraj islamski)',
+        nl: 'Wordt weinig gedronken (islamitisch land)',
+        pt: 'Pouco consumido (país islâmico)',
+      },
+      nonAlcoholic: {
+        en: 'Sweet tea, Arabic coffee, Fresh juice',
+        sv: 'Sött te, Arabiskt kaffe, Färskpressad juice',
+        de: 'Süßer Tee, Arabischer Kaffee, Frischer Saft',
+        fr: 'Thé sucré, Café arabe, Jus frais',
+        es: 'Té dulce, Café árabe, Jugo natural',
+        it: 'Tè zuccherato, Caffè arabo, Succo fresco',
+        pl: 'Słodka herbata, Kawa arabska, Świeży sok',
+        nl: 'Zoete thee, Arabische koffie, Vers sap',
+        pt: 'Chá doce, Café árabe, Suco natural',
+      },
     },
     music: [
       { en: 'Traditional Libyan folk music', sv: 'Traditionell libysk folkmusik', de: 'Traditionelle libysche Volksmusik', fr: 'Musique folk libyenne traditionnelle', es: 'Música folclórica libia tradicional', it: 'Musica folk libica tradizionale', pl: 'Tradycyjna libijska muzyka ludowa', nl: 'Traditionele Libische volksmuziek', pt: 'Música folclórica líbia tradicional' },

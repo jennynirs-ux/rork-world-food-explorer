@@ -253,7 +253,7 @@ export const kazakhstan: Country = {
       {
         name: {
           en: 'Baikonur Cosmodrome',
-          sv: 'Baikonur Cosmodrome',
+          sv: 'Rymdbasen Bajkonur',
           es: 'Cosmódromo de Baikonur',
           fr: 'Cosmodrome de Baïkonour',
           de: 'Kosmodrom Baikonur',
@@ -426,7 +426,7 @@ export const kazakhstan: Country = {
       {
         name: {
           en: 'Baikonur Cosmodrome',
-          sv: 'Baikonur Cosmodrome',
+          sv: 'Rymdbasen Bajkonur',
           es: 'Cosmódromo de Baikonur',
           fr: 'Cosmodrome de Baïkonour',
           de: 'Kosmodrom Baikonur',
@@ -874,7 +874,7 @@ export const kazakhstan: Country = {
             pt: 'Pimenta preta',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -897,7 +897,7 @@ export const kazakhstan: Country = {
           en: 'Boil meat with bay leaves until very tender',
           sv: 'Koka kött med lagerblad tills det är mycket mört',
           es: 'Hervir la carne con las hojas de laurel hasta que esté muy tierna',
-          fr: 'Boil meat with bay leaves until very tender',
+          fr: 'Faire bouillir la viande avec des feuilles de laurier jusqu\'à ce qu\'elle soit très tendre',
           de: 'Fleisch mit Lorbeerblättern kochen, bis es sehr zart ist',
           it: 'Fai bollire la carne con foglie di alloro finché non risulta molto tenera',
           pl: 'Gotuj mięso z liśćmi laurowymi, aż będzie bardzo miękkie',
@@ -908,7 +908,7 @@ export const kazakhstan: Country = {
           en: 'Cut pasta into squares and boil in broth',
           sv: 'Skär pastan i rutor och koka i buljong',
           es: 'Cortar la pasta en cuadritos y hervir en caldo',
-          fr: 'Cut pasta into squares and boil in broth',
+          fr: 'Couper la pâte en carrés et la cuire dans le bouillon',
           de: 'Nudeln in Quadrate schneiden und in Brühe kochen',
           it: 'Taglia la pasta a quadrati e falla bollire nel brodo',
           pl: 'Pokrój ciasto na kwadraty i ugotuj w bulionie',
@@ -930,7 +930,7 @@ export const kazakhstan: Country = {
           en: 'Layer noodles on large platter',
           sv: 'Lägg nudlar på ett stort fat',
           es: 'Coloque los fideos en capas en un plato grande',
-          fr: 'Layer noodles on large platter',
+          fr: 'Disposer les pâtes sur un grand plat',
           de: 'Nudeln auf einer großen Platte schichten',
           it: 'Disponi i noodles a strati su un grande piatto da portata',
           pl: 'Rozłóż makaron na dużym półmisku',
@@ -963,8 +963,28 @@ export const kazakhstan: Country = {
       imageUrl: 'https://images.pexels.com/photos/4224212/pexels-photo-4224212.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Kumis (fermented mare\'s milk), Vodka',
-      nonAlcoholic: 'Shubat (camel milk), Black tea',
+      alcoholic: {
+        en: 'Kumis (fermented mare\'s milk), Vodka',
+        sv: 'Kumis (fermenterad stomjölk), Vodka',
+        de: 'Kumis (fermentierte Stutenmilch), Wodka',
+        fr: 'Kumis (lait de jument fermenté), Vodka',
+        es: 'Kumis (leche de yegua fermentada), Vodka',
+        it: 'Kumis (latte di giumenta fermentato), Vodka',
+        pl: 'Kumis (sfermentowane mleko klaczy), Wódka',
+        nl: 'Kumis (gefermenteerde merriemelk), Wodka',
+        pt: 'Kumis (leite de égua fermentado), Vodca',
+      },
+      nonAlcoholic: {
+        en: 'Shubat (camel milk), Black tea',
+        sv: 'Shubat (kamelmjölk), Svart te',
+        de: 'Shubat (Kamelmilch), Schwarzer Tee',
+        fr: 'Shubat (lait de chamelle), Thé noir',
+        es: 'Shubat (leche de camella), Té negro',
+        it: 'Shubat (latte di cammella), Tè nero',
+        pl: 'Shubat (mleko wielbłądzie), Czarna herbata',
+        nl: 'Shubat (kamelenmelk), Zwarte thee',
+        pt: 'Shubat (leite de camela), Chá preto',
+      },
     },
     music: [
       { en: 'Traditional dombra music', sv: 'Traditionell dombramusik', de: 'Traditionelle Dombra-Musik', fr: 'Musique traditionnelle au dombra', es: 'Música tradicional de dombra', it: 'Musica tradizionale con dombra', pl: 'Tradycyjna muzyka dombra', nl: 'Traditionele dombra-muziek', pt: 'Música tradicional de dombra' },
@@ -1047,10 +1067,10 @@ export const kazakhstan: Country = {
         id: 'kazakhstan-q2',
         question: {
           en: 'Kazakhstan is the world\'s largest what?',
-          sv: 'Kazakstan är världens största vad?',
-          es: 'Kazajstán es el país más grande del mundo.',
-          fr: 'Kazakhstan is the world\'s largest what?',
-          de: 'Kasachstan ist das größte der Welt. Was?',
+          sv: 'Vilken typ av land är Kazakstan, det största i världen?',
+          es: '¿Qué tipo de país es Kazajistán, el más grande del mundo?',
+          fr: 'Quel type de pays est le Kazakhstan, le plus grand du monde dans sa catégorie ?',
+          de: 'Welche Art von Land ist Kasachstan, das größte der Welt?',
           it: 'Che tipo di paese è il Kazakistan, il più grande al mondo?',
           pl: 'Jakim krajem jest Kazachstan, największym na świecie?',
           nl: 'Wat voor land is Kazachstan, het grootste ter wereld?',
@@ -1131,7 +1151,7 @@ export const kazakhstan: Country = {
           },
           {
             en: 'Baikonur Cosmodrome',
-            sv: 'Baikonur Cosmodrome',
+            sv: 'Rymdbasen Bajkonur',
             es: 'Cosmódromo de Baikonur',
             fr: 'Cosmodrome de Baïkonour',
             de: 'Kosmodrom Baikonur',

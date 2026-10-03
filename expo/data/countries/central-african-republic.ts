@@ -402,7 +402,7 @@ export const centralAfricanRepublic: Country = {
       {
         name: {
           en: 'Pygmy Music Preservation',
-          sv: 'Pygmy Music Preservation',
+          sv: 'Bevarande av pygméernas musik',
           es: 'Preservación de la música pigmea',
           fr: 'Préservation de la musique pygmée',
           de: 'Erhaltung der Pygmäenmusik',
@@ -770,7 +770,7 @@ export const centralAfricanRepublic: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -931,7 +931,7 @@ export const centralAfricanRepublic: Country = {
             pt: 'Fermento',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -961,7 +961,7 @@ export const centralAfricanRepublic: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -976,7 +976,7 @@ export const centralAfricanRepublic: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1124,8 +1124,28 @@ export const centralAfricanRepublic: Country = {
       imageUrl: 'https://images.pexels.com/photos/34268537/pexels-photo-34268537.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Palm wine, Local beer',
-      nonAlcoholic: 'Ginger juice, Hibiscus tea',
+      alcoholic: {
+        en: 'Palm wine, Local beer',
+        sv: 'Palmvin, Lokalt öl',
+        de: 'Palmwein, Lokales Bier',
+        fr: 'Vin de palme, Bière locale',
+        es: 'Vino de palma, Cerveza local',
+        it: 'Vino di palma, Birra locale',
+        pl: 'Wino palmowe, Lokalne piwo',
+        nl: 'Palmwijn, Lokaal bier',
+        pt: 'Vinho de palma, Cerveja local',
+      },
+      nonAlcoholic: {
+        en: 'Ginger juice, Hibiscus tea',
+        sv: 'Ingefärsjuice, Hibiskuste',
+        de: 'Ingwersaft, Hibiskustee',
+        fr: 'Jus de gingembre, Infusion d\'hibiscus',
+        es: 'Jugo de jengibre, Té de hibisco',
+        it: 'Succo di zenzero, Tè all\'ibisco',
+        pl: 'Sok imbirowy, Herbata z hibiskusa',
+        nl: 'Gembersap, Hibiscusthee',
+        pt: 'Suco de gengibre, Chá de hibisco',
+      },
     },
     music: [
       { en: 'Traditional Pygmy music', sv: 'Traditionell pygmémusik', de: 'Traditionelle Pygmäenmusik', fr: 'Musique traditionnelle pygmée', es: 'Música tradicional pigmea', it: 'Musica tradizionale pigmea', pl: 'Tradycyjna muzyka pigmejska', nl: 'Traditionele Pygmeeënmuziek', pt: 'Música tradicional pigmeia' },

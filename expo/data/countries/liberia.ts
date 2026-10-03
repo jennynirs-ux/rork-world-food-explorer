@@ -578,7 +578,7 @@ export const liberia: Country = {
             pt: 'Gengibre em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -666,7 +666,7 @@ export const liberia: Country = {
       id: 'liberia-main',
       name: {
         en: 'Jollof Rice',
-        sv: 'Jollof Rice',
+        sv: 'Jollofris',
         es: 'Arroz Jollof',
         fr: 'Riz Jollof',
         de: 'Jollof-Reis',
@@ -784,7 +784,7 @@ export const liberia: Country = {
         {
           name: {
             en: 'Scotch bonnet pepper',
-            sv: 'Scotch bonnet pepper',
+            sv: 'Scotch bonnet-chili',
             es: 'Pimienta escocesa',
             fr: 'Poivre Scotch Bonnet',
             de: 'Scotch Bonnet Pepper',
@@ -823,7 +823,7 @@ export const liberia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'cuillère à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -903,8 +903,28 @@ export const liberia: Country = {
       imageUrl: 'https://images.pexels.com/photos/5333327/pexels-photo-5333327.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Palm wine, Club Beer',
-      nonAlcoholic: 'Ginger beer, Fresh coconut water',
+      alcoholic: {
+        en: 'Palm wine, Club Beer',
+        sv: 'Palmvin, Club Beer',
+        de: 'Palmwein, Club Beer',
+        fr: 'Vin de palme, Club Beer',
+        es: 'Vino de palma, Club Beer',
+        it: 'Vino di palma, Club Beer',
+        pl: 'Wino palmowe, Club Beer',
+        nl: 'Palmwijn, Club Beer',
+        pt: 'Vinho de palma, Club Beer',
+      },
+      nonAlcoholic: {
+        en: 'Ginger beer, Fresh coconut water',
+        sv: 'Ingefärsdricka, Färskt kokosvatten',
+        de: 'Ingwerbier, Frisches Kokoswasser',
+        fr: 'Bière de gingembre, Eau de coco fraîche',
+        es: 'Cerveza de jengibre, Agua de coco fresca',
+        it: 'Birra allo zenzero, Acqua di cocco fresca',
+        pl: 'Piwo imbirowe, Świeża woda kokosowa',
+        nl: 'Gemberbier, Vers kokoswater',
+        pt: 'Cerveja de gengibre, Água de coco fresca',
+      },
     },
     music: [
       { en: 'Hipco (Liberian hip-hop)', sv: 'Hipco (liberiansk hip-hop)', de: 'Hipco (Liberianischer Hip-Hop)', fr: 'Hipco (hip-hop libérien)', es: 'Hipco (hip-hop liberiano)', it: 'Hipco (hip-hop liberiano)', pl: 'Hipco (liberyański hip-hop)', nl: 'Hipco (Liberiaanse hip-hop)', pt: 'Hipco (hip-hop liberiano)' },

@@ -293,7 +293,7 @@ export const haiti: Country = {
       {
         name: {
           en: 'Vodou Religion',
-          sv: 'Vodou Religion',
+          sv: 'Vodoureligionen',
           es: 'Religión vudú',
           fr: 'Religion vaudou',
           de: 'Vodou-Religion',
@@ -646,14 +646,14 @@ export const haiti: Country = {
           amount: 5,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
       ],
@@ -864,7 +864,7 @@ export const haiti: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -879,7 +879,7 @@ export const haiti: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -894,7 +894,7 @@ export const haiti: Country = {
             pt: 'Noz-moscada',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1005,8 +1005,28 @@ export const haiti: Country = {
       imageUrl: 'https://images.pexels.com/photos/5038920/pexels-photo-5038920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Rhum Barbancourt, Prestige beer',
-      nonAlcoholic: 'Akasan (corn drink), Coconut water, Fresh juice',
+      alcoholic: {
+        en: 'Rhum Barbancourt, Prestige beer',
+        sv: 'Rhum Barbancourt, Prestige-öl',
+        de: 'Rhum Barbancourt, Prestige-Bier',
+        fr: 'Rhum Barbancourt, Bière Prestige',
+        es: 'Rhum Barbancourt, Cerveza Prestige',
+        it: 'Rhum Barbancourt, Birra Prestige',
+        pl: 'Rhum Barbancourt, Piwo Prestige',
+        nl: 'Rhum Barbancourt, Prestige-bier',
+        pt: 'Rhum Barbancourt, Cerveja Prestige',
+      },
+      nonAlcoholic: {
+        en: 'Akasan (corn drink), Coconut water, Fresh juice',
+        sv: 'Akasan (majsdryck), Kokosvatten, Färskpressad juice',
+        de: 'Akasan (Maisgetränk), Kokoswasser, Frischer Saft',
+        fr: 'Akasan (boisson au maïs), Eau de coco, Jus frais',
+        es: 'Akasan (bebida de maíz), Agua de coco, Jugo natural',
+        it: 'Akasan (bevanda di mais), Acqua di cocco, Succo fresco',
+        pl: 'Akasan (napój kukurydziany), Woda kokosowa, Świeży sok',
+        nl: 'Akasan (maïsdrank), Kokoswater, Vers sap',
+        pt: 'Akasan (bebida de milho), Água de coco, Suco natural',
+      },
     },
     music: [
       { en: 'Kompa', sv: 'Kompa', de: 'Kompa', fr: 'Kompa', es: 'Kompa', it: 'Kompa', pl: 'Kompa', nl: 'Kompa', pt: 'Kompa' },

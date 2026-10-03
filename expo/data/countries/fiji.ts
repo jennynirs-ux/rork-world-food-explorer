@@ -519,7 +519,7 @@ export const fiji: Country = {
             sv: 'Limefrukter',
             es: 'limas',
             fr: 'citrons verts',
-            de: 'Limes',
+            de: 'Limetten',
             it: 'Lime',
             pl: 'Limonki',
             nl: 'Limoenen',
@@ -781,7 +781,7 @@ export const fiji: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -796,7 +796,7 @@ export const fiji: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -892,8 +892,28 @@ export const fiji: Country = {
       imageUrl: 'https://images.pexels.com/photos/12118044/pexels-photo-12118044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Kava (traditional ceremony drink), Fiji Bitter beer',
-      nonAlcoholic: 'Fresh coconut water, Tropical fruit juice',
+      alcoholic: {
+        en: 'Kava (traditional ceremony drink), Fiji Bitter beer',
+        sv: 'Kava (traditionell ceremonidryck), Fiji Bitter-öl',
+        de: 'Kava (traditionelles Zeremoniengetränk), Fiji-Bitter-Bier',
+        fr: 'Kava (boisson cérémonielle traditionnelle), Bière Fiji Bitter',
+        es: 'Kava (bebida ceremonial tradicional), Cerveza Fiji Bitter',
+        it: 'Kava (bevanda cerimoniale tradizionale), Birra Fiji Bitter',
+        pl: 'Kava (tradycyjny napój ceremonialny), Piwo Fiji Bitter',
+        nl: 'Kava (traditionele ceremoniële drank), Fiji Bitter-bier',
+        pt: 'Kava (bebida cerimonial tradicional), Cerveja Fiji Bitter',
+      },
+      nonAlcoholic: {
+        en: 'Fresh coconut water, Tropical fruit juice',
+        sv: 'Färskt kokosvatten, Tropisk fruktjuice',
+        de: 'Frisches Kokoswasser, Tropischer Fruchtsaft',
+        fr: 'Eau de coco fraîche, Jus de fruits tropicaux',
+        es: 'Agua de coco fresca, Jugo de frutas tropicales',
+        it: 'Acqua di cocco fresca, Succo di frutta tropicale',
+        pl: 'Świeża woda kokosowa, Sok z owoców tropikalnych',
+        nl: 'Vers kokoswater, Tropisch vruchtensap',
+        pt: 'Água de coco fresca, Suco de frutas tropicais',
+      },
     },
     music: [
       { en: 'Traditional Fijian meke', sv: 'Traditionell fijiansk meke', de: 'Traditionelles fidschianisches Meke', fr: 'Meke fidjien traditionnel', es: 'Meke fiyiano tradicional', it: 'Meke figiano tradizionale', pl: 'Tradycyjne fidżyjskie meke', nl: 'Traditionele Fijische meke', pt: 'Meke fijiano tradicional' },

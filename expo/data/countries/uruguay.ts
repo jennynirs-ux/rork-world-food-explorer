@@ -687,7 +687,7 @@ export const uruguay: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -900,7 +900,7 @@ export const uruguay: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1052,8 +1052,28 @@ export const uruguay: Country = {
       imageUrl: 'https://images.pexels.com/photos/14730709/pexels-photo-14730709.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Tannat wine, Medio y medio (sparkling wine cocktail), Grappamiel',
-      nonAlcoholic: 'Mate (yerba mate tea), Clericó (fruit punch), Fresh orange juice',
+      alcoholic: {
+        en: 'Tannat wine, Medio y medio (sparkling wine cocktail), Grappamiel, Clericó (wine with fresh fruit)',
+        sv: 'Tannat-vin, Medio y medio (drink med mousserande vin), Grappamiel, Clericó (vin med färsk frukt)',
+        de: 'Tannat-Wein, Medio y medio (Schaumwein-Cocktail), Grappamiel, Clericó (Wein mit frischem Obst)',
+        fr: 'Vin Tannat, Medio y medio (cocktail au vin mousseux), Grappamiel, Clericó (vin aux fruits frais)',
+        es: 'Vino Tannat, Medio y medio (cóctel de vino espumoso), Grappamiel, Clericó (vino con fruta fresca)',
+        it: 'Vino Tannat, Medio y medio (cocktail a base di spumante), Grappamiel, Clericó (vino con frutta fresca)',
+        pl: 'Wino Tannat, Medio y medio (koktajl z wina musującego), Grappamiel, Clericó (wino ze świeżymi owocami)',
+        nl: 'Tannat-wijn, Medio y medio (cocktail met mousserende wijn), Grappamiel, Clericó (wijn met vers fruit)',
+        pt: 'Vinho Tannat, Medio y medio (coquetel de espumante), Grappamiel, Clericó (vinho com frutas frescas)',
+      },
+      nonAlcoholic: {
+        en: 'Mate (yerba mate tea), Fresh orange juice',
+        sv: 'Mate (yerba mate-te), Färskpressad apelsinjuice',
+        de: 'Mate (Yerba-Mate-Tee), Frischer Orangensaft',
+        fr: 'Maté (infusion de yerba maté), Jus d\'orange frais',
+        es: 'Mate (infusión de yerba mate), Jugo de naranja natural',
+        it: 'Mate (infuso di yerba mate), Spremuta d\'arancia',
+        pl: 'Mate (napar z yerba mate), Świeży sok pomarańczowy',
+        nl: 'Mate (yerba-matethee), Verse jus d\'orange',
+        pt: 'Mate (chimarrão), Suco de laranja natural',
+      },
     },
     music: [
       { en: 'Candombe', sv: 'Candombe', de: 'Candombe', fr: 'Candombe', es: 'Candombe', it: 'Candombe', pl: 'Candombe', nl: 'Candombe', pt: 'Candombe' },

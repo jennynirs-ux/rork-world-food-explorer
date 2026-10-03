@@ -311,7 +311,7 @@ export const bhutan: Country = {
         year: '1972',
         title: {
           en: 'Gross National Happiness',
-          sv: 'Gross National Happiness',
+          sv: 'Bruttonationallycka',
           es: 'Felicidad Nacional Bruta',
           fr: 'Bonheur national brut',
           de: 'Bruttonationalglück',
@@ -352,7 +352,7 @@ export const bhutan: Country = {
       {
         name: {
           en: 'Gross National Happiness',
-          sv: 'Gross National Happiness',
+          sv: 'Bruttonationallycka',
           es: 'Felicidad Nacional Bruta',
           fr: 'Bonheur national brut',
           de: 'Bruttonationalglück',
@@ -454,7 +454,7 @@ export const bhutan: Country = {
       {
         name: {
           en: 'Paro Taktsang (Tiger\'s Nest)',
-          sv: 'Paro Taktsang (Tiger\'s Nest)',
+          sv: 'Paro Taktsang (Tigerboet)',
           es: 'Paro Taktsang (Nido del Tigre)',
           fr: 'Paro Taktsang (Nid du Tigre)',
           de: 'Paro Taktsang (Tigernest)',
@@ -792,14 +792,14 @@ export const bhutan: Country = {
           amount: 3,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -819,7 +819,7 @@ export const bhutan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1072,7 +1072,7 @@ export const bhutan: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1087,7 +1087,7 @@ export const bhutan: Country = {
             pt: 'Cardamomo em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1220,8 +1220,28 @@ export const bhutan: Country = {
       imageUrl: 'https://images.pexels.com/photos/1089300/pexels-photo-1089300.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Ara (rice wine), Chang (barley beer)',
-      nonAlcoholic: 'Butter tea (suja), Sweet milk tea, Fresh apple juice',
+      alcoholic: {
+        en: 'Ara (rice wine), Chang (barley beer)',
+        sv: 'Ara (risvin), Chang (kornöl)',
+        de: 'Ara (Reiswein), Chang (Gerstenbier)',
+        fr: 'Ara (vin de riz), Chang (bière d\'orge)',
+        es: 'Ara (vino de arroz), Chang (cerveza de cebada)',
+        it: 'Ara (vino di riso), Chang (birra d\'orzo)',
+        pl: 'Ara (wino ryżowe), Chang (piwo jęczmienne)',
+        nl: 'Ara (rijstwijn), Chang (gerstebier)',
+        pt: 'Ara (vinho de arroz), Chang (cerveja de cevada)',
+      },
+      nonAlcoholic: {
+        en: 'Butter tea (suja), Sweet milk tea, Fresh apple juice',
+        sv: 'Smörte (suja), Sött mjölkte, Färskpressad äppeljuice',
+        de: 'Buttertee (Suja), Süßer Milchtee, Frischer Apfelsaft',
+        fr: 'Thé au beurre (suja), Thé au lait sucré, Jus de pomme frais',
+        es: 'Té de mantequilla (suja), Té con leche dulce, Jugo de manzana natural',
+        it: 'Tè al burro (suja), Tè al latte dolce, Succo di mela fresco',
+        pl: 'Herbata z masłem (suja), Słodka herbata z mlekiem, Świeży sok jabłkowy',
+        nl: 'Boterthee (suja), Zoete melkthee, Vers appelsap',
+        pt: 'Chá com manteiga (suja), Chá com leite adoçado, Suco de maçã natural',
+      },
     },
     music: [
       { en: 'Traditional Zhungdra', sv: 'Traditionell Zhungdra', de: 'Traditionelle Zhungdra', fr: 'Zhungdra traditionnel', es: 'Zhungdra tradicional', it: 'Zhungdra tradizionale', pl: 'Tradycyjny Zhungdra', nl: 'Traditionele Zhungdra', pt: 'Zhungdra tradicional' },
@@ -1270,7 +1290,7 @@ export const bhutan: Country = {
           },
           {
             en: 'Gross National Happiness',
-            sv: 'Gross National Happiness',
+            sv: 'Bruttonationallycka',
             es: 'Felicidad Nacional Bruta',
             fr: 'Bonheur national brut',
             de: 'Bruttonationalglück',

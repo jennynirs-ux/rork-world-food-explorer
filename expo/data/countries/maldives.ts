@@ -618,7 +618,7 @@ export const maldives: Country = {
             pt: 'Cardamomo em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -637,7 +637,7 @@ export const maldives: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -968,8 +968,28 @@ export const maldives: Country = {
       imageUrl: 'https://images.pexels.com/photos/12077982/pexels-photo-12077982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Limited (only in resorts)',
-      nonAlcoholic: 'Raa (palm toddy), Fresh coconut water, Black tea',
+      alcoholic: {
+        en: 'Limited (only in resorts)',
+        sv: 'Begränsat (endast på resorter)',
+        de: 'Eingeschränkt (nur in Resorts)',
+        fr: 'Limité (uniquement dans les complexes hôteliers)',
+        es: 'Limitado (solo en los resorts)',
+        it: 'Limitato (solo nei resort)',
+        pl: 'Ograniczony dostęp (tylko w kurortach)',
+        nl: 'Beperkt (alleen in resorts)',
+        pt: 'Limitado (apenas nos resorts)',
+      },
+      nonAlcoholic: {
+        en: 'Raa (palm toddy), Fresh coconut water, Black tea',
+        sv: 'Raa (palmsav), Färskt kokosvatten, Svart te',
+        de: 'Raa (Palmsaft), Frisches Kokoswasser, Schwarzer Tee',
+        fr: 'Raa (sève de palmier), Eau de coco fraîche, Thé noir',
+        es: 'Raa (savia de palma), Agua de coco fresca, Té negro',
+        it: 'Raa (linfa di palma), Acqua di cocco fresca, Tè nero',
+        pl: 'Raa (sok palmowy), Świeża woda kokosowa, Czarna herbata',
+        nl: 'Raa (palmsap), Vers kokoswater, Zwarte thee',
+        pt: 'Raa (seiva de palmeira), Água de coco fresca, Chá preto',
+      },
     },
     music: [
       { en: 'Boduberu traditional drumming', sv: 'Boduberu traditionell trumning', de: 'Boduberu traditionelles Trommeln', fr: 'Percussions traditionnelles Boduberu', es: 'Percusión tradicional Boduberu', it: 'Percussioni tradizionali Boduberu', pl: 'Tradycyjne bębnienie Boduberu', nl: 'Boduberu traditioneel trommelen', pt: 'Percussão tradicional Boduberu' },

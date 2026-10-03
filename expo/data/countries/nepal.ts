@@ -464,7 +464,7 @@ export const nepal: Country = {
       {
         name: {
           en: 'Kukri Knife',
-          sv: 'Kukri Knife',
+          sv: 'Kukrikniven',
           es: 'Cuchillo Kukri',
           fr: 'Couteau Kukri',
           de: 'Kukri-Messer',
@@ -746,7 +746,7 @@ export const nepal: Country = {
             pt: 'Cardamomo em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -761,7 +761,7 @@ export const nepal: Country = {
             pt: 'Bicarbonato de sódio',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -953,7 +953,7 @@ export const nepal: Country = {
             pt: 'Curcuma',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -968,7 +968,7 @@ export const nepal: Country = {
             pt: 'Sementes de cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1035,14 +1035,14 @@ export const nepal: Country = {
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -1060,14 +1060,14 @@ export const nepal: Country = {
           amount: 2,
           unit: {
             en: 'cm piece',
-            sv: 'cm stycke',
-            es: 'cm pieza',
-            fr: 'cm pièce',
+            sv: 'cm bit',
+            es: 'cm (trozo)',
+            fr: 'cm (morceau)',
             de: 'cm Stück',
-            it: 'pezzo da cm',
-            pl: 'kawałek cm',
+            it: 'cm (pezzo)',
+            pl: 'cm (kawałek)',
             nl: 'cm stuk',
-            pt: 'pedaço de cm',
+            pt: 'cm (pedaço)',
           },
         },
         {
@@ -1088,7 +1088,7 @@ export const nepal: Country = {
         {
           name: {
             en: 'Mango pickle',
-            sv: 'Mango pickle',
+            sv: 'Mangopickles',
             es: 'Pepinillo de mango',
             fr: 'Cornichon à la mangue',
             de: 'Mangogurke',
@@ -1216,8 +1216,28 @@ export const nepal: Country = {
       imageUrl: 'https://images.pexels.com/photos/28674561/pexels-photo-28674561.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Raksi (traditional rice spirit), Tongba (millet beer), Chyang',
-      nonAlcoholic: 'Butter tea (po cha), Masala chai, Lassi',
+      alcoholic: {
+        en: 'Raksi (traditional rice spirit), Tongba (millet beer), Chyang',
+        sv: 'Raksi (traditionell rissprit), Tongba (hirsöl), Chyang',
+        de: 'Raksi (traditioneller Reisschnaps), Tongba (Hirsebier), Chyang',
+        fr: 'Raksi (eau-de-vie de riz traditionnelle), Tongba (bière de mil), Chyang',
+        es: 'Raksi (aguardiente tradicional de arroz), Tongba (cerveza de mijo), Chyang',
+        it: 'Raksi (distillato tradizionale di riso), Tongba (birra di miglio), Chyang',
+        pl: 'Raksi (tradycyjna wódka ryżowa), Tongba (piwo z prosa), Chyang',
+        nl: 'Raksi (traditionele gedistilleerde rijstdrank), Tongba (gierstbier), Chyang',
+        pt: 'Raksi (destilado tradicional de arroz), Tongba (cerveja de milheto), Chyang',
+      },
+      nonAlcoholic: {
+        en: 'Butter tea (po cha), Masala chai, Lassi',
+        sv: 'Smörte (po cha), Masala chai, Lassi',
+        de: 'Buttertee (Po Cha), Masala Chai, Lassi',
+        fr: 'Thé au beurre (po cha), Masala chai, Lassi',
+        es: 'Té con mantequilla (po cha), Masala chai, Lassi',
+        it: 'Tè al burro (po cha), Masala chai, Lassi',
+        pl: 'Herbata z masłem (po cha), Masala chai, Lassi',
+        nl: 'Boterthee (po cha), Masala chai, Lassi',
+        pt: 'Chá com manteiga (po cha), Masala chai, Lassi',
+      },
     },
     music: [
       { en: 'Traditional Nepali folk music', sv: 'Traditionell nepalesisk folkmusik', de: 'Traditionelle nepalesische Volksmusik', fr: 'Musique folklorique népalaise traditionnelle', es: 'Música folclórica nepalesa tradicional', it: 'Musica folk nepalese tradizionale', pl: 'Tradycyjna nepalska muzyka ludowa', nl: 'Traditionele Nepalese volksmuziek', pt: 'Música folclórica nepalesa tradicional' },

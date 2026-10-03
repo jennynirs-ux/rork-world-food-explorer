@@ -304,7 +304,7 @@ export const mozambique: Country = {
       {
         name: {
           en: 'Marine Conservation',
-          sv: 'Marine Conservation',
+          sv: 'Havsbevarande',
           es: 'Conservación Marina',
           fr: 'Conservation marine',
           de: 'Meeresschutz',
@@ -659,7 +659,7 @@ export const mozambique: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -864,7 +864,7 @@ export const mozambique: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -889,7 +889,7 @@ export const mozambique: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -910,7 +910,7 @@ export const mozambique: Country = {
             pt: 'Páprica',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -950,7 +950,7 @@ export const mozambique: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1046,8 +1046,28 @@ export const mozambique: Country = {
       imageUrl: 'https://images.pexels.com/photos/29298662/pexels-photo-29298662.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: '2M beer, Laurentina, Portuguese wine',
-      nonAlcoholic: 'Mazoe orange drink, Fresh coconut water, Chai',
+      alcoholic: {
+        en: '2M beer, Laurentina, Portuguese wine',
+        sv: '2M-öl, Laurentina, Portugisiskt vin',
+        de: '2M-Bier, Laurentina, Portugiesischer Wein',
+        fr: 'Bière 2M, Laurentina, Vin portugais',
+        es: 'Cerveza 2M, Laurentina, Vino portugués',
+        it: 'Birra 2M, Laurentina, Vino portoghese',
+        pl: 'Piwo 2M, Laurentina, Wino portugalskie',
+        nl: '2M-bier, Laurentina, Portugese wijn',
+        pt: 'Cerveja 2M, Laurentina, Vinho português',
+      },
+      nonAlcoholic: {
+        en: 'Mazoe orange drink, Fresh coconut water, Chai',
+        sv: 'Mazoe-apelsindryck, Färskt kokosvatten, Chai',
+        de: 'Mazoe-Orangengetränk, Frisches Kokoswasser, Chai',
+        fr: 'Boisson à l\'orange Mazoe, Eau de coco fraîche, Chai',
+        es: 'Bebida de naranja Mazoe, Agua de coco fresca, Chai',
+        it: 'Bevanda all\'arancia Mazoe, Acqua di cocco fresca, Chai',
+        pl: 'Napój pomarańczowy Mazoe, Świeża woda kokosowa, Chai',
+        nl: 'Mazoe-sinaasappeldrank, Vers kokoswater, Chai',
+        pt: 'Bebida de laranja Mazoe, Água de coco fresca, Chai',
+      },
     },
     music: [
       { en: 'Marrabenta', sv: 'Marrabenta', de: 'Marrabenta', fr: 'Marrabenta', es: 'Marrabenta', it: 'Marrabenta', pl: 'Marrabenta', nl: 'Marrabenta', pt: 'Marrabenta' },

@@ -373,7 +373,7 @@ export const romania: Country = {
         year: '1456',
         title: {
           en: 'Vlad the Impaler',
-          sv: 'Vlad the Impaler',
+          sv: 'Vlad Pålspetsaren',
           es: 'Vlad el Empalador',
           fr: 'Vlad l\'Empaleur',
           de: 'Vlad der Pfähler',
@@ -686,7 +686,7 @@ export const romania: Country = {
             pt: 'Folhas de chucrute',
           },
           amount: 1,
-          unit: 'jar',
+          unit: { en: 'jar', sv: 'burk', de: 'Glas', fr: 'pot', es: 'frasco', it: 'barattolo', pl: 'słoik', nl: 'pot', pt: 'pote' },
         },
         {
           name: {
@@ -760,7 +760,7 @@ export const romania: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -821,7 +821,7 @@ export const romania: Country = {
             pt: 'Páprica',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -836,7 +836,7 @@ export const romania: Country = {
             pt: 'Tomilho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1131,7 +1131,7 @@ export const romania: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1146,7 +1146,7 @@ export const romania: Country = {
             pt: 'Raspa de limão',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1164,8 +1164,8 @@ export const romania: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1371,8 +1371,28 @@ export const romania: Country = {
       imageUrl: 'https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Țuică (plum brandy), Romanian wine, Beer',
-      nonAlcoholic: 'Socată (elderflower drink), Turkish coffee, Fruit compote',
+      alcoholic: {
+        en: 'Țuică (plum brandy), Romanian wine, Beer',
+        sv: 'Țuică (plommonbrännvin), Rumänskt vin, Öl',
+        de: 'Țuică (Pflaumenschnaps), Rumänischer Wein, Bier',
+        fr: 'Țuică (eau-de-vie de prune), Vin roumain, Bière',
+        es: 'Țuică (aguardiente de ciruela), Vino rumano, Cerveza',
+        it: 'Țuică (acquavite di prugne), Vino rumeno, Birra',
+        pl: 'Țuică (śliwowica), Wino rumuńskie, Piwo',
+        nl: 'Țuică (pruimenbrandewijn), Roemeense wijn, Bier',
+        pt: 'Țuică (aguardente de ameixa), Vinho romeno, Cerveja',
+      },
+      nonAlcoholic: {
+        en: 'Socată (elderflower drink), Turkish coffee, Fruit compote',
+        sv: 'Socată (fläderblomsdryck), Turkiskt kaffe, Fruktkompott',
+        de: 'Socată (Holunderblütengetränk), Türkischer Kaffee, Fruchtkompott',
+        fr: 'Socată (boisson à la fleur de sureau), Café turc, Compote de fruits',
+        es: 'Socată (bebida de flor de saúco), Café turco, Compota de frutas',
+        it: 'Socată (bevanda ai fiori di sambuco), Caffè turco, Composta di frutta',
+        pl: 'Socată (napój z kwiatów czarnego bzu), Kawa po turecku, Kompot owocowy',
+        nl: 'Socată (vlierbloesemdrank), Turkse koffie, Vruchtencompote',
+        pt: 'Socată (bebida de flor de sabugueiro), Café turco, Compota de frutas',
+      },
     },
     music: [
       { en: 'Traditional Romanian folk music', sv: 'Traditionell rumänsk folkmusik', de: 'Traditionelle rumänische Volksmusik', fr: 'Musique folklorique roumaine traditionnelle', es: 'Música folclórica rumana tradicional', it: 'Musica folk rumena tradizionale', pl: 'Tradycyjna rumuńska muzyka ludowa', nl: 'Traditionele Roemeense volksmuziek', pt: 'Música folclórica romena tradicional' },
@@ -1859,7 +1879,7 @@ export const romania: Country = {
         options: [
           {
             en: 'Vlad the Impaler',
-            sv: 'Vlad the Impaler',
+            sv: 'Vlad Pålspetsaren',
             es: 'Vlad el Empalador',
             fr: 'Vlad l\'Empaleur',
             de: 'Vlad der Pfähler',
@@ -1881,7 +1901,7 @@ export const romania: Country = {
           },
           {
             en: 'Michael the Brave',
-            sv: 'Michael the Brave',
+            sv: 'Mikael den modige',
             es: 'Miguel el Valiente',
             fr: 'Michel le Brave',
             de: 'Michael der Tapfere',

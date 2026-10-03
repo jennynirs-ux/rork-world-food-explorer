@@ -342,7 +342,7 @@ export const senegal: Country = {
       {
         name: {
           en: 'Dakar Rally Legacy',
-          sv: 'Dakar Rally Legacy',
+          sv: 'Arvet efter Dakarrallyt',
           es: 'Legado del Rally Dakar',
           fr: 'L\'héritage du Rallye Dakar',
           de: 'Vermächtnis der Rallye Dakar',
@@ -367,7 +367,7 @@ export const senegal: Country = {
       {
         name: {
           en: 'Mbalax Music',
-          sv: 'Mbalax Music',
+          sv: 'Mbalax-musik',
           es: 'Música Mbalax',
           fr: 'Musique Mbalax',
           de: 'Mbalax-Musik',
@@ -443,9 +443,9 @@ export const senegal: Country = {
       {
         name: {
           en: 'Dakar (Plateau & Corniche)',
-          sv: 'Dakar (Plateau & Corniche)',
+          sv: 'Dakar (Plateau och Corniche)',
           es: 'Dakar (Meseta y Cornisa)',
-          fr: 'Dakar (Plateau & Corniche)',
+          fr: 'Dakar (Plateau et Corniche)',
           de: 'Dakar (Hochebene und Corniche)',
           it: 'Dakar (Plateau e Corniche)',
           pl: 'Dakar (Plateau i Corniche)',
@@ -709,7 +709,7 @@ export const senegal: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -744,27 +744,27 @@ export const senegal: Country = {
         },
         {
           name: {
-            en: 'Garlic cloves',
-            sv: 'Vitlöksklyftor',
-            es: 'Dientes de ajo',
-            fr: 'Gousses d\'ail',
-            de: 'Knoblauchzehen',
-            it: 'Spicchi d\'aglio',
-            pl: 'Ząbki czosnku',
-            nl: 'Teentjes knoflook',
-            pt: 'Dentes de alho',
+            en: 'Garlic',
+            sv: 'Vitlök',
+            es: 'Ajo',
+            fr: 'Ail',
+            de: 'Knoblauch',
+            it: 'Aglio',
+            pl: 'Czosnek',
+            nl: 'Knoflook',
+            pt: 'Alho',
           },
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -850,7 +850,7 @@ export const senegal: Country = {
         {
           name: {
             en: 'Cassava (yuca)',
-            sv: 'Cassava (yuca)',
+            sv: 'Kassava (yuca)',
             es: 'Yuca (yuca)',
             fr: 'Manioc (yuca)',
             de: 'Maniok (Yuca)',
@@ -904,7 +904,7 @@ export const senegal: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -925,7 +925,7 @@ export const senegal: Country = {
             pt: 'Sal',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1139,7 +1139,7 @@ export const senegal: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1154,7 +1154,7 @@ export const senegal: Country = {
             pt: 'Noz-moscada (opcional)',
           },
           amount: 0.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1243,8 +1243,28 @@ export const senegal: Country = {
       imageUrl: 'https://images.pexels.com/photos/10738421/pexels-photo-10738421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Local beer (e.g., Flag), Palm wine',
-      nonAlcoholic: 'Bissap (hibiscus drink), Bouye (baobab drink), Ginger juice',
+      alcoholic: {
+        en: 'Local beer (e.g., Flag), Palm wine',
+        sv: 'Lokalt öl (t.ex. Flag), Palmvin',
+        de: 'Lokales Bier (z. B. Flag), Palmwein',
+        fr: 'Bière locale (p. ex. Flag), Vin de palme',
+        es: 'Cerveza local (p. ej., Flag), Vino de palma',
+        it: 'Birra locale (ad es. Flag), Vino di palma',
+        pl: 'Lokalne piwo (np. Flag), Wino palmowe',
+        nl: 'Lokaal bier (bijv. Flag), Palmwijn',
+        pt: 'Cerveja local (por ex., Flag), Vinho de palma',
+      },
+      nonAlcoholic: {
+        en: 'Bissap (hibiscus drink), Bouye (baobab drink), Ginger juice',
+        sv: 'Bissap (hibiskusdryck), Bouye (baobabdryck), Ingefärsjuice',
+        de: 'Bissap (Hibiskusgetränk), Bouye (Baobabgetränk), Ingwersaft',
+        fr: 'Bissap (boisson à l\'hibiscus), Bouye (boisson au baobab), Jus de gingembre',
+        es: 'Bissap (bebida de hibisco), Bouye (bebida de baobab), Jugo de jengibre',
+        it: 'Bissap (bevanda all\'ibisco), Bouye (bevanda al baobab), Succo di zenzero',
+        pl: 'Bissap (napój z hibiskusa), Bouye (napój z baobabu), Sok imbirowy',
+        nl: 'Bissap (hibiscusdrank), Bouye (baobabdrank), Gembersap',
+        pt: 'Bissap (bebida de hibisco), Bouye (bebida de baobá), Suco de gengibre',
+      },
     },
     music: [
       { en: 'Mbalax', sv: 'Mbalax', de: 'Mbalax', fr: 'Mbalax', es: 'Mbalax', it: 'Mbalax', pl: 'Mbalax', nl: 'Mbalax', pt: 'Mbalax' },

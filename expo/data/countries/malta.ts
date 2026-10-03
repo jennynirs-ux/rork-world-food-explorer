@@ -449,7 +449,7 @@ export const malta: Country = {
       {
         name: {
           en: 'Maritime Excellence',
-          sv: 'Maritime Excellence',
+          sv: 'Sjöfartskunnande',
           es: 'Excelencia Marítima',
           fr: 'Excellence maritime',
           de: 'Maritime Exzellenz',
@@ -474,7 +474,7 @@ export const malta: Country = {
       {
         name: {
           en: 'Film Industry Hub',
-          sv: 'Film Industry Hub',
+          sv: 'Nav för filmindustrin',
           es: 'Centro de la industria cinematográfica',
           fr: 'Centre de l\'industrie cinématographique',
           de: 'Drehscheibe der Filmindustrie',
@@ -701,7 +701,7 @@ export const malta: Country = {
             pt: 'Erva-doce (anis)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -716,7 +716,7 @@ export const malta: Country = {
             pt: 'Raspas de laranja',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -731,7 +731,7 @@ export const malta: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -916,7 +916,7 @@ export const malta: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1031,7 +1031,7 @@ export const malta: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1054,9 +1054,9 @@ export const malta: Country = {
           amount: 1,
           unit: {
             en: 'to taste',
-            sv: 'att smaka',
+            sv: 'efter smak',
             es: 'al gusto',
-            fr: 'à déguster',
+            fr: 'au goût',
             de: 'nach Geschmack',
             it: 'a piacere',
             pl: 'do smaku',
@@ -1180,8 +1180,28 @@ export const malta: Country = {
       imageUrl: 'https://images.pexels.com/photos/1320917/pexels-photo-1320917.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Cisk beer, Maltese wines, Kinnie (local soft drink with bitter oranges)',
-      nonAlcoholic: 'Kinnie, Fresh orange juice, Coffee',
+      alcoholic: {
+        en: 'Cisk beer, Maltese wines',
+        sv: 'Cisk-öl, Maltesiska viner',
+        de: 'Cisk-Bier, Maltesische Weine',
+        fr: 'Bière Cisk, Vins maltais',
+        es: 'Cerveza Cisk, Vinos malteses',
+        it: 'Birra Cisk, Vini maltesi',
+        pl: 'Piwo Cisk, Wina maltańskie',
+        nl: 'Cisk-bier, Maltese wijnen',
+        pt: 'Cerveja Cisk, Vinhos malteses',
+      },
+      nonAlcoholic: {
+        en: 'Kinnie (local soft drink with bitter oranges), Fresh orange juice, Coffee',
+        sv: 'Kinnie (lokal läskedryck med pomerans), Färskpressad apelsinjuice, Kaffe',
+        de: 'Kinnie (lokale Limonade mit Bitterorangen), Frischer Orangensaft, Kaffee',
+        fr: 'Kinnie (soda local aux oranges amères), Jus d\'orange frais, Café',
+        es: 'Kinnie (refresco local de naranja amarga), Jugo de naranja natural, Café',
+        it: 'Kinnie (bibita locale alle arance amare), Spremuta d\'arancia, Caffè',
+        pl: 'Kinnie (lokalny napój gazowany z gorzkich pomarańczy), Świeży sok pomarańczowy, Kawa',
+        nl: 'Kinnie (lokale frisdrank met bittere sinaasappels), Verse jus d\'orange, Koffie',
+        pt: 'Kinnie (refrigerante local de laranja-amarga), Suco de laranja natural, Café',
+      },
     },
     music: [
       { en: 'Ghana (Maltese folk music)', sv: 'Ghana (maltesisk folkmusik)', de: 'Ghana (maltesische Volksmusik)', fr: 'Ghana (musique folklorique maltaise)', es: 'Ghana (música folclórica maltesa)', it: 'Ghana (musica folk maltese)', pl: 'Ghana (maltańska muzyka ludowa)', nl: 'Ghana (Maltese volksmuziek)', pt: 'Ghana (música folclórica maltesa)' },

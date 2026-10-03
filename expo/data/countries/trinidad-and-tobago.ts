@@ -464,7 +464,7 @@ export const trinidadAndTobago: Country = {
       {
         name: {
           en: 'Tobago\'s Buccoo Reef & Nylon Pool',
-          sv: 'Tobago\'s Buccoo Reef & Nylon Pool',
+          sv: 'Buccoo Reef och Nylon Pool på Tobago',
           es: 'Arrecife Buccoo y piscina de nailon de Tobago',
           fr: 'Piscine Buccoo Reef et Nylon de Tobago',
           de: 'Tobagos Buccoo Reef & Nylon Pool',
@@ -644,7 +644,7 @@ export const trinidadAndTobago: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -665,7 +665,7 @@ export const trinidadAndTobago: Country = {
             pt: 'Curcuma',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -682,14 +682,14 @@ export const trinidadAndTobago: Country = {
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -705,7 +705,7 @@ export const trinidadAndTobago: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -720,7 +720,7 @@ export const trinidadAndTobago: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -908,7 +908,7 @@ export const trinidadAndTobago: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1008,7 +1008,7 @@ export const trinidadAndTobago: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1023,7 +1023,7 @@ export const trinidadAndTobago: Country = {
             pt: 'Canela em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1038,7 +1038,7 @@ export const trinidadAndTobago: Country = {
             pt: 'Noz-moscada moída',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1053,7 +1053,7 @@ export const trinidadAndTobago: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1171,8 +1171,28 @@ export const trinidadAndTobago: Country = {
       imageUrl: 'https://images.pexels.com/photos/34153206/pexels-photo-34153206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Carib beer, Rum punch, Angostura bitters (cocktails)',
-      nonAlcoholic: 'Mauby, Sorrel drink, Coconut water',
+      alcoholic: {
+        en: 'Carib beer, Rum punch, Angostura bitters (cocktails)',
+        sv: 'Carib-öl, Rompunsch, Angostura bitter (i cocktails)',
+        de: 'Carib-Bier, Rumpunsch, Angostura Bitter (für Cocktails)',
+        fr: 'Bière Carib, Punch au rhum, Amer Angostura (en cocktail)',
+        es: 'Cerveza Carib, Ponche de ron, Amargo de Angostura (en cócteles)',
+        it: 'Birra Carib, Punch al rum, Bitter Angostura (nei cocktail)',
+        pl: 'Piwo Carib, Poncz z rumem, Bitter Angostura (do koktajli)',
+        nl: 'Carib-bier, Rumpunch, Angostura bitter (in cocktails)',
+        pt: 'Cerveja Carib, Ponche de rum, Bitter Angostura (em coquetéis)',
+      },
+      nonAlcoholic: {
+        en: 'Mauby, Sorrel drink, Coconut water',
+        sv: 'Mauby, Sorreldryck, Kokosvatten',
+        de: 'Mauby, Sorrel-Getränk, Kokoswasser',
+        fr: 'Mauby, Boisson au sorrel, Eau de coco',
+        es: 'Mauby, Bebida de sorrel, Agua de coco',
+        it: 'Mauby, Bevanda al sorrel, Acqua di cocco',
+        pl: 'Mauby, Napój sorrel, Woda kokosowa',
+        nl: 'Mauby, Sorreldrank, Kokoswater',
+        pt: 'Mauby, Bebida de sorrel, Água de coco',
+      },
     },
     music: [
       { en: 'Calypso', sv: 'Calypso', de: 'Calypso', fr: 'Calypso', es: 'Calypso', it: 'Calypso', pl: 'Calypso', nl: 'Calypso', pt: 'Calypso' },

@@ -367,7 +367,7 @@ export const slovenia: Country = {
       {
         name: {
           en: 'Green Capital Urban Model',
-          sv: 'Green Capital Urban Model',
+          sv: 'Grön huvudstad som stadsmodell',
           es: 'Modelo Urbano de Capital Verde',
           fr: 'Modèle urbain de la capitale verte',
           de: 'Stadtmodell der grünen Hauptstadt',
@@ -392,7 +392,7 @@ export const slovenia: Country = {
       {
         name: {
           en: 'Cave Science & Karst Research',
-          sv: 'Cave Science & Karst Research',
+          sv: 'Grott- och karstforskning',
           es: 'Ciencia de las cavernas e investigación kárstica',
           fr: 'Science des grottes et recherche sur le karst',
           de: 'Höhlenforschung und Karstforschung',
@@ -734,7 +734,7 @@ export const slovenia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -759,7 +759,7 @@ export const slovenia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -780,7 +780,7 @@ export const slovenia: Country = {
             pt: 'Sementes de alcaravia',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1041,7 +1041,7 @@ export const slovenia: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1075,7 +1075,7 @@ export const slovenia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1096,7 +1096,7 @@ export const slovenia: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1111,7 +1111,7 @@ export const slovenia: Country = {
             pt: 'Extrato de baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1207,8 +1207,28 @@ export const slovenia: Country = {
       imageUrl: 'https://images.pexels.com/photos/19803494/pexels-photo-19803494.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Slovenian wine (Rebula, Teran), Schnapps (sadjevec), Craft beer',
-      nonAlcoholic: 'Cockta (Slovenian cola), Elderflower juice, Herbal teas',
+      alcoholic: {
+        en: 'Slovenian wine (Rebula, Teran), Schnapps (sadjevec), Craft beer',
+        sv: 'Slovenskt vin (Rebula, Teran), Fruktbrännvin (sadjevec), Hantverksöl',
+        de: 'Slowenischer Wein (Rebula, Teran), Obstschnaps (sadjevec), Craft-Bier',
+        fr: 'Vin slovène (Rebula, Teran), Eau-de-vie de fruits (sadjevec), Bière artisanale',
+        es: 'Vino esloveno (Rebula, Teran), Aguardiente de frutas (sadjevec), Cerveza artesanal',
+        it: 'Vino sloveno (Rebula, Teran), Acquavite di frutta (sadjevec), Birra artigianale',
+        pl: 'Wino słoweńskie (Rebula, Teran), Wódka owocowa (sadjevec), Piwo kraftowe',
+        nl: 'Sloveense wijn (Rebula, Teran), Vruchtenbrandewijn (sadjevec), Craftbier',
+        pt: 'Vinho esloveno (Rebula, Teran), Aguardente de frutas (sadjevec), Cerveja artesanal',
+      },
+      nonAlcoholic: {
+        en: 'Cockta (Slovenian cola), Elderflower juice, Herbal teas',
+        sv: 'Cockta (slovensk cola), Fläderblomssaft, Örtteer',
+        de: 'Cockta (slowenische Cola), Holunderblütensaft, Kräutertees',
+        fr: 'Cockta (cola slovène), Boisson à la fleur de sureau, Tisanes',
+        es: 'Cockta (refresco de cola esloveno), Bebida de flor de saúco, Infusiones de hierbas',
+        it: 'Cockta (cola slovena), Succo di fiori di sambuco, Tisane',
+        pl: 'Cockta (słoweńska cola), Sok z kwiatów czarnego bzu, Herbatki ziołowe',
+        nl: 'Cockta (Sloveense cola), Vlierbloesemsap, Kruidentheeën',
+        pt: 'Cockta (refrigerante de cola esloveno), Suco de flor de sabugueiro, Chás de ervas',
+      },
     },
     music: [
       { en: 'Slovenian folk music', sv: 'Slovenisk folkmusik', de: 'Slowenische Volksmusik', fr: 'Musique folklorique slovène', es: 'Música folclórica eslovena', it: 'Musica folk slovena', pl: 'Słoweńska muzyka ludowa', nl: 'Sloveense volksmuziek', pt: 'Música folclórica eslovena' },

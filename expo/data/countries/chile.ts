@@ -846,7 +846,7 @@ export const chile: Country = {
             pt: 'Cominho, páprica',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1113,7 +1113,7 @@ export const chile: Country = {
             pt: 'Raspas de laranja',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1128,7 +1128,7 @@ export const chile: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1235,8 +1235,28 @@ export const chile: Country = {
       imageUrl: 'https://images.pexels.com/photos/2372522/pexels-photo-2372522.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Chilean wine (Carmenere, Cabernet), Pisco Sour, Terremoto cocktail',
-      nonAlcoholic: 'Mote con huesillos (wheat and peach drink), Fresh fruit juices',
+      alcoholic: {
+        en: 'Chilean wine (Carmenere, Cabernet), Pisco Sour, Terremoto cocktail',
+        sv: 'Chilenskt vin (Carmenere, Cabernet), Pisco Sour, Terremoto-cocktail',
+        de: 'Chilenischer Wein (Carmenere, Cabernet), Pisco Sour, Terremoto-Cocktail',
+        fr: 'Vin chilien (Carmenere, Cabernet), Pisco Sour, Cocktail Terremoto',
+        es: 'Vino chileno (Carmenere, Cabernet), Pisco Sour, Cóctel Terremoto',
+        it: 'Vino cileno (Carmenere, Cabernet), Pisco Sour, Cocktail Terremoto',
+        pl: 'Wino chilijskie (Carmenere, Cabernet), Pisco Sour, Koktajl Terremoto',
+        nl: 'Chileense wijn (Carmenere, Cabernet), Pisco Sour, Terremoto-cocktail',
+        pt: 'Vinho chileno (Carmenere, Cabernet), Pisco Sour, Coquetel Terremoto',
+      },
+      nonAlcoholic: {
+        en: 'Mote con huesillos (wheat and peach drink), Fresh fruit juices',
+        sv: 'Mote con huesillos (dryck med vete och persika), Färska fruktjuicer',
+        de: 'Mote con huesillos (Getränk aus Weizen und Pfirsich), Frische Fruchtsäfte',
+        fr: 'Mote con huesillos (boisson au blé et à la pêche), Jus de fruits frais',
+        es: 'Mote con huesillos (bebida de trigo y durazno), Jugos de fruta naturales',
+        it: 'Mote con huesillos (bevanda di grano e pesca), Succhi di frutta freschi',
+        pl: 'Mote con huesillos (napój z pszenicy i brzoskwiń), Świeże soki owocowe',
+        nl: 'Mote con huesillos (drank van tarwe en perzik), Verse vruchtensappen',
+        pt: 'Mote con huesillos (bebida de trigo e pêssego), Sucos de frutas naturais',
+      },
     },
     music: [
       { en: 'Cueca (national dance)', sv: 'Cueca (nationaldans)', de: 'Cueca (Nationaltanz)', fr: 'Cueca (danse nationale)', es: 'Cueca (danza nacional)', it: 'Cueca (danza nazionale)', pl: 'Cueca (taniec narodowy)', nl: 'Cueca (nationale dans)', pt: 'Cueca (dança nacional)' },

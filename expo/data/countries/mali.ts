@@ -293,7 +293,7 @@ export const mali: Country = {
       {
         name: {
           en: 'Mud-Brick Architecture',
-          sv: 'Mud-Brick Architecture',
+          sv: 'Arkitektur i lertegel',
           es: 'Arquitectura de adobe',
           fr: 'Architecture en briques crues',
           de: 'Lehmziegel-Architektur',
@@ -618,7 +618,7 @@ export const mali: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -633,7 +633,7 @@ export const mali: Country = {
             pt: 'Noz-moscada moída',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -963,8 +963,28 @@ export const mali: Country = {
       imageUrl: 'https://images.pexels.com/photos/11015774/pexels-photo-11015774.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Dolo (millet beer), Palm wine',
-      nonAlcoholic: 'Bissap (hibiscus tea), Ginger juice, Baobab juice',
+      alcoholic: {
+        en: 'Dolo (millet beer), Palm wine',
+        sv: 'Dolo (hirsöl), Palmvin',
+        de: 'Dolo (Hirsebier), Palmwein',
+        fr: 'Dolo (bière de mil), Vin de palme',
+        es: 'Dolo (cerveza de mijo), Vino de palma',
+        it: 'Dolo (birra di miglio), Vino di palma',
+        pl: 'Dolo (piwo z prosa), Wino palmowe',
+        nl: 'Dolo (gierstbier), Palmwijn',
+        pt: 'Dolo (cerveja de milheto), Vinho de palma',
+      },
+      nonAlcoholic: {
+        en: 'Bissap (hibiscus tea), Ginger juice, Baobab juice',
+        sv: 'Bissap (hibiskuste), Ingefärsjuice, Baobabjuice',
+        de: 'Bissap (Hibiskustee), Ingwersaft, Baobabsaft',
+        fr: 'Bissap (infusion d\'hibiscus), Jus de gingembre, Jus de baobab',
+        es: 'Bissap (té de hibisco), Jugo de jengibre, Jugo de baobab',
+        it: 'Bissap (tè all\'ibisco), Succo di zenzero, Succo di baobab',
+        pl: 'Bissap (herbata z hibiskusa), Sok imbirowy, Sok z baobabu',
+        nl: 'Bissap (hibiscusthee), Gembersap, Baobabsap',
+        pt: 'Bissap (chá de hibisco), Suco de gengibre, Suco de baobá',
+      },
     },
     music: [
       { en: 'Kora traditional music', sv: 'Traditionell koramusik', de: 'Traditionelle Kora-Musik', fr: 'Musique traditionnelle de kora', es: 'Música tradicional de kora', it: 'Musica tradizionale della kora', pl: 'Tradycyjna muzyka kora', nl: 'Traditionele koramuziek', pt: 'Música tradicional de kora' },
@@ -1183,7 +1203,7 @@ export const mali: Country = {
         options: [
           {
             en: 'Palace of Bamako',
-            sv: 'Palace of Bamako',
+            sv: 'Palatset i Bamako',
             es: 'Palacio de Bamako',
             fr: 'Palais de Bamako',
             de: 'Palast von Bamako',

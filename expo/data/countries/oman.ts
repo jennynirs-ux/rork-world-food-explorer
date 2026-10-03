@@ -268,7 +268,7 @@ export const oman: Country = {
       {
         name: {
           en: 'Frankincense Trade',
-          sv: 'Frankincense Trade',
+          sv: 'Rökelsehandel',
           es: 'Comercio de incienso',
           fr: 'Commerce de l\'encens',
           de: 'Weihrauchhandel',
@@ -293,7 +293,7 @@ export const oman: Country = {
       {
         name: {
           en: 'Dhow Building',
-          sv: 'Dhow Building',
+          sv: 'Dhowbygge',
           es: 'Edificio Dhow',
           fr: 'Bâtiment de boutre',
           de: 'Dhau-Gebäude',
@@ -622,7 +622,7 @@ export const oman: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -643,7 +643,7 @@ export const oman: Country = {
             pt: 'Açafrão',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -658,7 +658,7 @@ export const oman: Country = {
             pt: 'Cardamomo',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -903,14 +903,14 @@ export const oman: Country = {
           amount: 10,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -1000,8 +1000,28 @@ export const oman: Country = {
       imageUrl: 'https://images.pexels.com/photos/29908554/pexels-photo-29908554.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Not common (Islamic country)',
-      nonAlcoholic: 'Qahwa (Omani coffee with cardamom), Laban, Fresh dates',
+      alcoholic: {
+        en: 'Not common (Islamic country)',
+        sv: 'Ovanligt (islamiskt land)',
+        de: 'Unüblich (islamisches Land)',
+        fr: 'Peu courant (pays musulman)',
+        es: 'Poco común (país islámico)',
+        it: 'Poco diffuso (paese islamico)',
+        pl: 'Mało popularny (kraj islamski)',
+        nl: 'Niet gebruikelijk (islamitisch land)',
+        pt: 'Pouco comum (país islâmico)',
+      },
+      nonAlcoholic: {
+        en: 'Qahwa (Omani coffee with cardamom), Laban, Fresh dates',
+        sv: 'Qahwa (omanskt kaffe med kardemumma), Laban, Färska dadlar',
+        de: 'Qahwa (omanischer Kaffee mit Kardamom), Laban, Frische Datteln',
+        fr: 'Qahwa (café omanais à la cardamome), Laban, Dattes fraîches',
+        es: 'Qahwa (café omaní con cardamomo), Laban, Dátiles frescos',
+        it: 'Qahwa (caffè omanita al cardamomo), Laban, Datteri freschi',
+        pl: 'Qahwa (omańska kawa z kardamonem), Laban, Świeże daktyle',
+        nl: 'Qahwa (Omaanse koffie met kardemom), Laban, Verse dadels',
+        pt: 'Qahwa (café omanense com cardamomo), Laban, Tâmaras frescas',
+      },
     },
     music: [
       { en: 'Traditional Omani folk', sv: 'Traditionell omansk folkmusik', de: 'Traditionelle omanische Volksmusik', fr: 'Musique folklorique omanaise traditionnelle', es: 'Música folclórica omaní tradicional', it: 'Musica folk omanita tradizionale', pl: 'Tradycyjna muzyka ludowa Omanu', nl: 'Traditionele Omaanse volksmuziek', pt: 'Música folclórica omanense tradicional' },

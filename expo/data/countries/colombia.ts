@@ -367,7 +367,7 @@ export const colombia: Country = {
       {
         name: {
           en: 'TransMilenio BRT System',
-          sv: 'TransMilenio BRT System',
+          sv: 'Snabbussystemet TransMilenio',
           es: 'Sistema BRT TransMilenio',
           fr: 'Système BRT TransMilenio',
           de: 'TransMilenio BRT-System',
@@ -516,8 +516,8 @@ export const colombia: Country = {
       {
         name: {
           en: 'Lost City (Ciudad Perdida)',
-          sv: 'Lost City (Ciudad Perdida)',
-          es: 'Lost City (Ciudad Perdida)',
+          sv: 'Förlorade staden (Ciudad Perdida)',
+          es: 'Ciudad Perdida',
           fr: 'Cité perdue',
           de: 'Verlorene Stadt (Ciudad Perdida)',
           it: 'Città Perduta (Ciudad Perdida)',
@@ -732,7 +732,7 @@ export const colombia: Country = {
           name: {
             en: 'Pork belly (chicharrón)',
             sv: 'Fläskmage (chicharrón)',
-            es: 'Pork belly (chicharrón)',
+            es: 'Panceta de cerdo (chicharrón)',
             fr: 'Poitrine de porc',
             de: 'Schweinebauch (Chicharrón)',
             it: 'Pancetta di maiale (chicharrón)',
@@ -1059,7 +1059,7 @@ export const colombia: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1074,12 +1074,12 @@ export const colombia: Country = {
             pt: 'Bicarbonato de sódio',
           },
           amount: 0.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
             en: 'Wafer cookies (obleas)',
-            sv: 'Wafer cookies (obleas)',
+            sv: 'Rånkex (obleas)',
             es: 'Galletas de oblea (obleas)',
             fr: 'Biscuits gaufrés (obleas)',
             de: 'Waffelkekse (obleas)',
@@ -1232,8 +1232,28 @@ export const colombia: Country = {
       imageUrl: 'https://images.pexels.com/photos/29548496/pexels-photo-29548496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Aguardiente (anise-flavored liquor), Colombian beer, Rum',
-      nonAlcoholic: 'Colombian coffee, Agua de panela (sugarcane drink), Fresh fruit juices',
+      alcoholic: {
+        en: 'Aguardiente (anise-flavored liquor), Colombian beer, Rum',
+        sv: 'Aguardiente (anissmaksatt sprit), Colombianskt öl, Rom',
+        de: 'Aguardiente (Anisschnaps), Kolumbianisches Bier, Rum',
+        fr: 'Aguardiente (eau-de-vie anisée), Bière colombienne, Rhum',
+        es: 'Aguardiente (licor anisado), Cerveza colombiana, Ron',
+        it: 'Aguardiente (liquore all\'anice), Birra colombiana, Rum',
+        pl: 'Aguardiente (wódka anyżowa), Piwo kolumbijskie, Rum',
+        nl: 'Aguardiente (anijslikeur), Colombiaans bier, Rum',
+        pt: 'Aguardiente (destilado com sabor de anis), Cerveja colombiana, Rum',
+      },
+      nonAlcoholic: {
+        en: 'Colombian coffee, Agua de panela (sugarcane drink), Fresh fruit juices',
+        sv: 'Colombianskt kaffe, Agua de panela (sockerrörsdryck), Färska fruktjuicer',
+        de: 'Kolumbianischer Kaffee, Agua de panela (Zuckerrohrgetränk), Frische Fruchtsäfte',
+        fr: 'Café colombien, Agua de panela (boisson à la canne à sucre), Jus de fruits frais',
+        es: 'Café colombiano, Agua de panela (bebida de caña de azúcar), Jugos de frutas naturales',
+        it: 'Caffè colombiano, Agua de panela (bevanda di canna da zucchero), Succhi di frutta freschi',
+        pl: 'Kawa kolumbijska, Agua de panela (napój z trzciny cukrowej), Świeże soki owocowe',
+        nl: 'Colombiaanse koffie, Agua de panela (suikerrietdrank), Verse vruchtensappen',
+        pt: 'Café colombiano, Agua de panela (bebida de cana-de-açúcar), Sucos de frutas frescas',
+      },
     },
     music: [
       { en: 'Cumbia', sv: 'Cumbia', de: 'Cumbia', fr: 'Cumbia', es: 'Cumbia', it: 'Cumbia', pl: 'Cumbia', nl: 'Cumbia', pt: 'Cumbia' },
@@ -1446,7 +1466,7 @@ export const colombia: Country = {
           en: 'When did Colombia gain independence?',
           sv: 'När blev Colombia självständigt?',
           es: '¿Cuándo se independizó colombia?',
-          fr: 'When did Colombia gain independence?',
+          fr: 'Quand la Colombie a-t-elle obtenu son indépendance ?',
           de: 'Wann erlangte Kolumbien die Unabhängigkeit?',
           it: 'Quando la Colombia ha ottenuto l\'indipendenza?',
           pl: 'Kiedy Kolumbia uzyskała niepodległość?',
@@ -1467,7 +1487,7 @@ export const colombia: Country = {
           en: 'What is Colombia\'s ranking for biodiversity?',
           sv: 'Vad är Colombias ranking för biologisk mångfald?',
           es: '¿Cuál es el ranking de Colombia en biodiversidad?',
-          fr: 'What is Colombia\'s ranking for biodiversity?',
+          fr: 'Quel est le rang de la Colombie en matière de biodiversité ?',
           de: 'Wie steht Kolumbien im Hinblick auf die Artenvielfalt?',
           it: 'Qual è la posizione della Colombia nella classifica mondiale per biodiversità?',
           pl: 'Jakie miejsce zajmuje Kolumbia pod względem bioróżnorodności?',
@@ -1528,7 +1548,7 @@ export const colombia: Country = {
           en: 'Which liberator led Colombia to independence?',
           sv: 'Vilken befriare ledde Colombia till självständighet?',
           es: '¿Qué libertador llevó a Colombia a la independencia?',
-          fr: 'Which liberator led Colombia to independence?',
+          fr: 'Quel libérateur a mené la Colombie à l\'indépendance ?',
           de: 'Welcher Befreier führte Kolumbien in die Unabhängigkeit?',
           it: 'Quale liberatore condusse la Colombia all\'indipendenza?',
           pl: 'Który wyzwoliciel doprowadził Kolumbię do niepodległości?',

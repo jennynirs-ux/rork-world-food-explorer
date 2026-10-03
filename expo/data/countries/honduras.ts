@@ -293,7 +293,7 @@ export const honduras: Country = {
       {
         name: {
           en: 'Bay Islands Diving',
-          sv: 'Bay Islands Diving',
+          sv: 'Dykning vid Bay Islands',
           es: 'Buceo en las Islas de la Bahía',
           fr: 'Plongée dans les îles de la Baie',
           de: 'Tauchen auf den Bay Islands',
@@ -318,7 +318,7 @@ export const honduras: Country = {
       {
         name: {
           en: 'Coffee Excellence',
-          sv: 'Coffee Excellence',
+          sv: 'Kaffe i världsklass',
           es: 'Excelencia en café',
           fr: 'Excellence du café',
           de: 'Kaffee-Exzellenz',
@@ -834,7 +834,7 @@ export const honduras: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -894,7 +894,7 @@ export const honduras: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1027,8 +1027,28 @@ export const honduras: Country = {
       imageUrl: 'https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Port Royal beer, Aguardiente',
-      nonAlcoholic: 'Horchata, Tamarind juice, Coffee',
+      alcoholic: {
+        en: 'Port Royal beer, Aguardiente',
+        sv: 'Port Royal-öl, Aguardiente',
+        de: 'Port-Royal-Bier, Aguardiente',
+        fr: 'Bière Port Royal, Aguardiente',
+        es: 'Cerveza Port Royal, Aguardiente',
+        it: 'Birra Port Royal, Aguardiente',
+        pl: 'Piwo Port Royal, Aguardiente',
+        nl: 'Port Royal-bier, Aguardiente',
+        pt: 'Cerveja Port Royal, Aguardente',
+      },
+      nonAlcoholic: {
+        en: 'Horchata, Tamarind juice, Coffee',
+        sv: 'Horchata, Tamarindjuice, Kaffe',
+        de: 'Horchata, Tamarindensaft, Kaffee',
+        fr: 'Horchata, Jus de tamarin, Café',
+        es: 'Horchata, Jugo de tamarindo, Café',
+        it: 'Horchata, Succo di tamarindo, Caffè',
+        pl: 'Horchata, Sok z tamaryndowca, Kawa',
+        nl: 'Horchata, Tamarindesap, Koffie',
+        pt: 'Horchata, Suco de tamarindo, Café',
+      },
     },
     music: [
       { en: 'Punta music', sv: 'Puntamusik', de: 'Punta-Musik', fr: 'Musique punta', es: 'Música punta', it: 'Musica punta', pl: 'Muzyka punta', nl: 'Punta-muziek', pt: 'Música punta' },

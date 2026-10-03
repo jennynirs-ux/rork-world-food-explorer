@@ -755,7 +755,7 @@ export const italy: Country = {
             pt: 'Pimenta preta',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -770,7 +770,7 @@ export const italy: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -896,7 +896,7 @@ export const italy: Country = {
         {
           name: {
             en: 'Ladyfinger cookies',
-            sv: 'Ladyfinger cookies',
+            sv: 'Savoiardikex',
             es: 'Galletas de bizcocho',
             fr: 'Biscuits aux doigts de dame',
             de: 'Löffelbiskuits',
@@ -995,7 +995,7 @@ export const italy: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1020,7 +1020,7 @@ export const italy: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1144,8 +1144,28 @@ export const italy: Country = {
       imageUrl: 'https://images.pexels.com/photos/34759482/pexels-photo-34759482.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
-      nonAlcoholic: 'Espresso, Cappuccino, Italian Soda, Fresh-squeezed orange juice',
+      alcoholic: {
+        en: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
+        sv: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
+        de: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
+        fr: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
+        es: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
+        it: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
+        pl: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
+        nl: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
+        pt: 'Chianti, Prosecco, Aperol Spritz, Limoncello',
+      },
+      nonAlcoholic: {
+        en: 'Espresso, Cappuccino, Italian Soda, Fresh-squeezed orange juice',
+        sv: 'Espresso, Cappuccino, Italiensk soda, Färskpressad apelsinjuice',
+        de: 'Espresso, Cappuccino, Italienische Limonade, Frisch gepresster Orangensaft',
+        fr: 'Espresso, Cappuccino, Soda italien, Jus d\'orange pressé',
+        es: 'Espresso, Capuchino, Soda italiana, Jugo de naranja recién exprimido',
+        it: 'Espresso, Cappuccino, Soda italiana, Spremuta d\'arancia fresca',
+        pl: 'Espresso, Cappuccino, Włoska soda, Świeżo wyciskany sok pomarańczowy',
+        nl: 'Espresso, Cappuccino, Italiaanse frisdrank, Vers geperst sinaasappelsap',
+        pt: 'Espresso, Cappuccino, Soda italiana, Suco de laranja espremido na hora',
+      },
     },
     music: [
       { en: 'O Sole Mio', sv: 'O Sole Mio', de: 'O Sole Mio', fr: 'O Sole Mio', es: 'O Sole Mio', it: 'O Sole Mio', pl: 'O Sole Mio', nl: 'O Sole Mio', pt: 'O Sole Mio' },

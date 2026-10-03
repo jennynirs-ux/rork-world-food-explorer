@@ -265,7 +265,7 @@ export const solomonIslands: Country = {
       {
         name: {
           en: 'Shell Money System',
-          sv: 'Shell Money System',
+          sv: 'Snäckpengar',
           es: 'Sistema monetario Shell',
           fr: 'Système d\'argent Shell',
           de: 'Shell-Geldsystem',
@@ -315,7 +315,7 @@ export const solomonIslands: Country = {
       {
         name: {
           en: 'Panpipe Musical Innovation',
-          sv: 'Panpipe Musical Innovation',
+          sv: 'Panflöjtsmusikens nyskapande',
           es: 'Innovación musical de flauta de pan',
           fr: 'Innovation musicale à la flûte de pan',
           de: 'Musikalische Innovation der Panflöte',
@@ -852,7 +852,7 @@ export const solomonIslands: Country = {
       id: 'solomon-islands-dessert',
       name: {
         en: 'Coconut Banana Sago Pudding',
-        sv: 'Coconut Banana Sago Pudding',
+        sv: 'Sagopudding med kokos och banan',
         es: 'Pudín de coco, plátano y sagú',
         fr: 'Pudding à la noix de coco, à la banane et au sagou',
         de: 'Kokos-Bananen-Sago-Pudding',
@@ -988,8 +988,8 @@ export const solomonIslands: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1010,7 +1010,7 @@ export const solomonIslands: Country = {
             pt: 'Raspas de limão (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1095,8 +1095,28 @@ export const solomonIslands: Country = {
       imageUrl: 'https://images.pexels.com/photos/13554342/pexels-photo-13554342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Kava, Local beer',
-      nonAlcoholic: 'Fresh coconut water, Banana juice, Herbal teas',
+      alcoholic: {
+        en: 'Kava, Local beer',
+        sv: 'Kava, Lokalt öl',
+        de: 'Kava, Lokales Bier',
+        fr: 'Kava, Bière locale',
+        es: 'Kava, Cerveza local',
+        it: 'Kava, Birra locale',
+        pl: 'Kava, Lokalne piwo',
+        nl: 'Kava, Lokaal bier',
+        pt: 'Kava, Cerveja local',
+      },
+      nonAlcoholic: {
+        en: 'Fresh coconut water, Banana juice, Herbal teas',
+        sv: 'Färskt kokosvatten, Bananjuice, Örtteer',
+        de: 'Frisches Kokoswasser, Bananensaft, Kräutertees',
+        fr: 'Eau de coco fraîche, Jus de banane, Tisanes',
+        es: 'Agua de coco fresca, Jugo de plátano, Infusiones',
+        it: 'Acqua di cocco fresca, Succo di banana, Tisane',
+        pl: 'Świeża woda kokosowa, Sok bananowy, Herbatki ziołowe',
+        nl: 'Vers kokoswater, Bananensap, Kruidenthee',
+        pt: 'Água de coco fresca, Suco de banana, Chás de ervas',
+      },
     },
     music: [
       { en: 'Traditional panpipe music', sv: 'Traditionell panflöjtsmusik', de: 'Traditionelle Panflötenmusik', fr: 'Musique traditionnelle de flûte de pan', es: 'Música tradicional de flauta de pan', it: 'Musica tradizionale di flauto di Pan', pl: 'Tradycyjna muzyka fletni Pana', nl: 'Traditionele panfluitenmuziek', pt: 'Música tradicional de flauta de pã' },

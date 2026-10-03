@@ -801,7 +801,7 @@ export const ukraine: Country = {
             pt: 'Sal',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -816,7 +816,7 @@ export const ukraine: Country = {
             pt: 'Pimenta preta',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1029,7 +1029,7 @@ export const ukraine: Country = {
             pt: 'Extrato de baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1059,7 +1059,7 @@ export const ukraine: Country = {
             pt: 'Sal',
           },
           amount: 0.25,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1078,7 +1078,7 @@ export const ukraine: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1118,7 +1118,7 @@ export const ukraine: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1209,8 +1209,28 @@ export const ukraine: Country = {
       imageUrl: 'https://images.pexels.com/photos/16269804/pexels-photo-16269804.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Horilka (Ukrainian vodka), Ukrainian wine, Medovukha (honey drink)',
-      nonAlcoholic: 'Uzvar (dried fruit drink), Compote, Kvass, Herbal tea',
+      alcoholic: {
+        en: 'Horilka (Ukrainian vodka), Ukrainian wine, Medovukha (honey drink)',
+        sv: 'Horilka (ukrainsk vodka), Ukrainskt vin, Medovukha (honungsdryck)',
+        de: 'Horilka (ukrainischer Wodka), Ukrainischer Wein, Medovukha (Honiggetränk)',
+        fr: 'Horilka (vodka ukrainienne), Vin ukrainien, Medovukha (boisson au miel)',
+        es: 'Horilka (vodka ucraniano), Vino ucraniano, Medovukha (bebida de miel)',
+        it: 'Horilka (vodka ucraina), Vino ucraino, Medovukha (bevanda al miele)',
+        pl: 'Horilka (ukraińska wódka), Wino ukraińskie, Medovukha (napój miodowy)',
+        nl: 'Horilka (Oekraïense wodka), Oekraïense wijn, Medovukha (honingdrank)',
+        pt: 'Horilka (vodca ucraniana), Vinho ucraniano, Medovukha (bebida de mel)',
+      },
+      nonAlcoholic: {
+        en: 'Uzvar (dried fruit drink), Compote, Kvass, Herbal tea',
+        sv: 'Uzvar (dryck på torkad frukt), Kompott, Kvass, Örtte',
+        de: 'Uzvar (Getränk aus Trockenfrüchten), Kompott, Kwas, Kräutertee',
+        fr: 'Uzvar (boisson aux fruits secs), Kompot, Kvas, Tisane',
+        es: 'Uzvar (bebida de frutas secas), Kompot, Kvas, Infusión de hierbas',
+        it: 'Uzvar (bevanda di frutta secca), Kompot, Kvas, Tisana',
+        pl: 'Uzvar (napój z suszonych owoców), Kompot, Kwas chlebowy, Herbata ziołowa',
+        nl: 'Uzvar (drank van gedroogd fruit), Kompot, Kvas, Kruidenthee',
+        pt: 'Uzvar (bebida de frutas secas), Kompot, Kvass, Chá de ervas',
+      },
     },
     music: [
       { en: 'Ukrainian folk songs', sv: 'Ukrainska folksånger', de: 'Ukrainische Volkslieder', fr: 'Chansons folkloriques ukrainiennes', es: 'Canciones folclóricas ucranianas', it: 'Canzoni folk ucraine', pl: 'Ukraińskie pieśni ludowe', nl: 'Oekraïense volksliederen', pt: 'Canções folclóricas ucranianas' },

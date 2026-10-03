@@ -593,7 +593,7 @@ export const mauritania: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -608,7 +608,7 @@ export const mauritania: Country = {
             pt: 'Noz-moscada',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -778,7 +778,7 @@ export const mauritania: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -923,8 +923,28 @@ export const mauritania: Country = {
       imageUrl: 'https://images.pexels.com/photos/11385115/pexels-photo-11385115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Not common (Islamic country)',
-      nonAlcoholic: 'Mint tea (very sweet), Zrig (camel milk), Fresh dates',
+      alcoholic: {
+        en: 'Not common (Islamic country)',
+        sv: 'Inte vanligt (islamiskt land)',
+        de: 'Nicht verbreitet (islamisches Land)',
+        fr: 'Peu courant (pays islamique)',
+        es: 'Poco común (país islámico)',
+        it: 'Poco diffuso (paese islamico)',
+        pl: 'Mało popularny (kraj islamski)',
+        nl: 'Niet gebruikelijk (islamitisch land)',
+        pt: 'Pouco comum (país islâmico)',
+      },
+      nonAlcoholic: {
+        en: 'Mint tea (very sweet), Zrig (camel milk), Fresh dates',
+        sv: 'Myntate (mycket sött), Zrig (kamelmjölk), Färska dadlar',
+        de: 'Minztee (sehr süß), Zrig (Kamelmilch), Frische Datteln',
+        fr: 'Thé à la menthe (très sucré), Zrig (lait de chamelle), Dattes fraîches',
+        es: 'Té de menta (muy dulce), Zrig (leche de camella), Dátiles frescos',
+        it: 'Tè alla menta (molto dolce), Zrig (latte di cammella), Datteri freschi',
+        pl: 'Herbata miętowa (bardzo słodka), Zrig (mleko wielbłądzie), Świeże daktyle',
+        nl: 'Muntthee (heel zoet), Zrig (kamelenmelk), Verse dadels',
+        pt: 'Chá de hortelã (bem doce), Zrig (leite de camela), Tâmaras frescas',
+      },
     },
     music: [
       { en: 'Traditional Moorish music', sv: 'Traditionell morisk musik', de: 'Traditionelle maurische Musik', fr: 'Musique maure traditionnelle', es: 'Música mora tradicional', it: 'Musica mora tradizionale', pl: 'Tradycyjna muzyka mauryjska', nl: 'Traditionele Moorse muziek', pt: 'Música mourisca tradicional' },

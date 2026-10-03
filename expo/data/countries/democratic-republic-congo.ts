@@ -448,7 +448,7 @@ export const democraticRepublicCongo: Country = {
       id: 'drc-main',
       name: {
         en: 'Moambe Chicken',
-        sv: 'Moambe Chicken',
+        sv: 'Moambe-kyckling',
         es: 'Pollo Moambe',
         fr: 'Poulet Moambé',
         de: 'Moambe-Huhn',
@@ -578,14 +578,14 @@ export const democraticRepublicCongo: Country = {
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -766,7 +766,7 @@ export const democraticRepublicCongo: Country = {
             pt: 'Fermento',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -796,7 +796,7 @@ export const democraticRepublicCongo: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -929,8 +929,28 @@ export const democraticRepublicCongo: Country = {
       imageUrl: 'https://images.pexels.com/photos/6646356/pexels-photo-6646356.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Primus beer, Turbo King, Palm wine',
-      nonAlcoholic: 'Ginger beer, Bissap, Fresh juice',
+      alcoholic: {
+        en: 'Primus beer, Turbo King, Palm wine',
+        sv: 'Primus-öl, Turbo King, Palmvin',
+        de: 'Primus-Bier, Turbo King, Palmwein',
+        fr: 'Bière Primus, Turbo King, Vin de palme',
+        es: 'Cerveza Primus, Turbo King, Vino de palma',
+        it: 'Birra Primus, Turbo King, Vino di palma',
+        pl: 'Piwo Primus, Turbo King, Wino palmowe',
+        nl: 'Primus-bier, Turbo King, Palmwijn',
+        pt: 'Cerveja Primus, Turbo King, Vinho de palma',
+      },
+      nonAlcoholic: {
+        en: 'Ginger beer, Bissap, Fresh juice',
+        sv: 'Ingefärsöl, Bissap, Färskpressad juice',
+        de: 'Ingwerbier, Bissap, Frischer Saft',
+        fr: 'Bière de gingembre, Bissap, Jus frais',
+        es: 'Cerveza de jengibre, Bissap, Jugo natural',
+        it: 'Birra allo zenzero, Bissap, Succo fresco',
+        pl: 'Piwo imbirowe, Bissap, Świeży sok',
+        nl: 'Gemberbier, Bissap, Vers sap',
+        pt: 'Cerveja de gengibre, Bissap, Suco natural',
+      },
     },
     music: [
       { en: 'Soukous/Rumba', sv: 'Soukous/Rumba', de: 'Soukous/Rumba', fr: 'Soukous/Rumba', es: 'Soukous/Rumba', it: 'Soukous/Rumba', pl: 'Soukous/Rumba', nl: 'Soukous/Rumba', pt: 'Soukous/Rumba' },

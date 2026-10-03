@@ -352,7 +352,7 @@ export const bahamas: Country = {
       {
         name: {
           en: 'Marine Conservation Techniques',
-          sv: 'Marine Conservation Techniques',
+          sv: 'Metoder för havsbevarande',
           es: 'Técnicas de conservación marina',
           fr: 'Techniques de conservation marine',
           de: 'Techniken zum Meeresschutz',
@@ -820,7 +820,7 @@ export const bahamas: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -841,7 +841,7 @@ export const bahamas: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1003,7 +1003,7 @@ export const bahamas: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1108,7 +1108,7 @@ export const bahamas: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1226,8 +1226,28 @@ export const bahamas: Country = {
       imageUrl: 'https://images.pexels.com/photos/3613159/pexels-photo-3613159.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Bahama Mama cocktail, Goombay Smash, Kalik beer, Rum punch',
-      nonAlcoholic: 'Coconut water, Sky Juice (coconut water with gin and milk), Fresh fruit juices',
+      alcoholic: {
+        en: 'Bahama Mama cocktail, Goombay Smash, Kalik beer, Rum punch, Sky Juice (coconut water with gin and milk)',
+        sv: 'Bahama Mama-cocktail, Goombay Smash, Kalik-öl, Rompunsch, Sky Juice (kokosvatten med gin och mjölk)',
+        de: 'Bahama-Mama-Cocktail, Goombay Smash, Kalik-Bier, Rumpunsch, Sky Juice (Kokoswasser mit Gin und Milch)',
+        fr: 'Cocktail Bahama Mama, Goombay Smash, Bière Kalik, Punch au rhum, Sky Juice (eau de coco avec gin et lait)',
+        es: 'Cóctel Bahama Mama, Goombay Smash, Cerveza Kalik, Ponche de ron, Sky Juice (agua de coco con ginebra y leche)',
+        it: 'Cocktail Bahama Mama, Goombay Smash, Birra Kalik, Punch al rum, Sky Juice (acqua di cocco con gin e latte)',
+        pl: 'Koktajl Bahama Mama, Goombay Smash, Piwo Kalik, Poncz z rumem, Sky Juice (woda kokosowa z ginem i mlekiem)',
+        nl: 'Bahama Mama-cocktail, Goombay Smash, Kalik-bier, Rumpunch, Sky Juice (kokoswater met gin en melk)',
+        pt: 'Coquetel Bahama Mama, Goombay Smash, Cerveja Kalik, Ponche de rum, Sky Juice (água de coco com gim e leite)',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Fresh fruit juices',
+        sv: 'Kokosvatten, Färskpressade fruktjuicer',
+        de: 'Kokoswasser, Frische Fruchtsäfte',
+        fr: 'Eau de coco, Jus de fruits frais',
+        es: 'Agua de coco, Jugos de fruta naturales',
+        it: 'Acqua di cocco, Succhi di frutta freschi',
+        pl: 'Woda kokosowa, Świeże soki owocowe',
+        nl: 'Kokoswater, Verse vruchtensappen',
+        pt: 'Água de coco, Sucos naturais de frutas',
+      },
     },
     music: [
       { en: 'Rake and Scrape', sv: 'Rake and Scrape', de: 'Rake and Scrape', fr: 'Rake and Scrape', es: 'Rake and Scrape', it: 'Rake and Scrape', pl: 'Rake and Scrape', nl: 'Rake and Scrape', pt: 'Rake and Scrape' },

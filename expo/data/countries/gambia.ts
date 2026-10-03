@@ -364,7 +364,7 @@ export const gambia: Country = {
       {
         name: {
           en: 'River Gambia National Park',
-          sv: 'River Gambia National Park',
+          sv: 'River Gambia nationalpark',
           es: 'Parque Nacional del Río Gambia',
           fr: 'Parc national du fleuve Gambie',
           de: 'River-Gambia-Nationalpark',
@@ -771,7 +771,7 @@ export const gambia: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -786,7 +786,7 @@ export const gambia: Country = {
             pt: 'Noz-moscada',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -901,8 +901,28 @@ export const gambia: Country = {
       imageUrl: 'https://images.pexels.com/photos/3547619/pexels-photo-3547619.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Palm wine, Julbrew beer',
-      nonAlcoholic: 'Wonjo (hibiscus drink), Baobab juice, Attaya (green tea)',
+      alcoholic: {
+        en: 'Palm wine, Julbrew beer',
+        sv: 'Palmvin, Julbrew-öl',
+        de: 'Palmwein, Julbrew-Bier',
+        fr: 'Vin de palme, Bière Julbrew',
+        es: 'Vino de palma, Cerveza Julbrew',
+        it: 'Vino di palma, Birra Julbrew',
+        pl: 'Wino palmowe, Piwo Julbrew',
+        nl: 'Palmwijn, Julbrew-bier',
+        pt: 'Vinho de palma, Cerveja Julbrew',
+      },
+      nonAlcoholic: {
+        en: 'Wonjo (hibiscus drink), Baobab juice, Attaya (green tea)',
+        sv: 'Wonjo (hibiskusdryck), Baobabjuice, Attaya (grönt te)',
+        de: 'Wonjo (Hibiskusgetränk), Baobabsaft, Attaya (grüner Tee)',
+        fr: 'Wonjo (boisson à l\'hibiscus), Jus de baobab, Attaya (thé vert)',
+        es: 'Wonjo (bebida de hibisco), Jugo de baobab, Attaya (té verde)',
+        it: 'Wonjo (bevanda all\'ibisco), Succo di baobab, Attaya (tè verde)',
+        pl: 'Wonjo (napój z hibiskusa), Sok z baobabu, Attaya (zielona herbata)',
+        nl: 'Wonjo (hibiscusdrank), Baobabsap, Attaya (groene thee)',
+        pt: 'Wonjo (bebida de hibisco), Suco de baobá, Attaya (chá verde)',
+      },
     },
     music: [
       { en: 'Kora music', sv: 'Koramusik', de: 'Kora-Musik', fr: 'Musique de kora', es: 'Música de kora', it: 'Musica di kora', pl: 'Muzyka na korze', nl: 'Kora-muziek', pt: 'Música de kora' },
@@ -949,7 +969,7 @@ export const gambia: Country = {
       {
         name: {
           en: 'River Navigation',
-          sv: 'River Navigation',
+          sv: 'Flodnavigering',
           es: 'Navegación fluvial',
           fr: 'Navigation fluviale',
           de: 'Flussschifffahrt',

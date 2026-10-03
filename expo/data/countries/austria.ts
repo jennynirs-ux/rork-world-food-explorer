@@ -439,7 +439,7 @@ export const austria: Country = {
       {
         name: {
           en: 'Grossglockner High Alpine Road',
-          sv: 'Grossglockner High Alpine Road',
+          sv: 'Grossglockners högalpina väg',
           es: 'Carretera alpina del Grossglockner',
           fr: 'Haute route alpine du Grossglockner',
           de: 'Großglockner Hochalpenstraße',
@@ -796,7 +796,7 @@ export const austria: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -811,7 +811,7 @@ export const austria: Country = {
             pt: 'Pimenta',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1205,8 +1205,28 @@ export const austria: Country = {
       imageUrl: 'https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Austrian wines (Grüner Veltliner, Riesling), Beer, Schnapps',
-      nonAlcoholic: 'Almdudler (herbal lemonade), Viennese coffee, Apple juice',
+      alcoholic: {
+        en: 'Austrian wines (Grüner Veltliner, Riesling), Beer, Schnapps',
+        sv: 'Österrikiska viner (Grüner Veltliner, Riesling), Öl, Snaps',
+        de: 'Österreichische Weine (Grüner Veltliner, Riesling), Bier, Schnaps',
+        fr: 'Vins autrichiens (Grüner Veltliner, Riesling), Bière, Schnaps',
+        es: 'Vinos austriacos (Grüner Veltliner, Riesling), Cerveza, Schnapps',
+        it: 'Vini austriaci (Grüner Veltliner, Riesling), Birra, Schnaps',
+        pl: 'Wina austriackie (Grüner Veltliner, Riesling), Piwo, Sznaps',
+        nl: 'Oostenrijkse wijnen (Grüner Veltliner, Riesling), Bier, Schnaps',
+        pt: 'Vinhos austríacos (Grüner Veltliner, Riesling), Cerveja, Schnapps',
+      },
+      nonAlcoholic: {
+        en: 'Almdudler (herbal lemonade), Viennese coffee, Apple juice',
+        sv: 'Almdudler (örtlemonad), Wienerkaffe, Äppeljuice',
+        de: 'Almdudler (Kräuterlimonade), Wiener Kaffee, Apfelsaft',
+        fr: 'Almdudler (limonade aux herbes), Café viennois, Jus de pomme',
+        es: 'Almdudler (limonada de hierbas), Café vienés, Jugo de manzana',
+        it: 'Almdudler (limonata alle erbe), Caffè viennese, Succo di mela',
+        pl: 'Almdudler (lemoniada ziołowa), Kawa po wiedeńsku, Sok jabłkowy',
+        nl: 'Almdudler (kruidenlimonade), Weense koffie, Appelsap',
+        pt: 'Almdudler (limonada de ervas), Café vienense, Suco de maçã',
+      },
     },
     music: [
       { en: 'Classical music (Mozart, Strauss waltzes)', sv: 'Klassisk musik (Mozart, Strauss-valser)', de: 'Klassische Musik (Mozart, Strauss-Walzer)', fr: 'Musique classique (Mozart, valses de Strauss)', es: 'Música clásica (Mozart, valses de Strauss)', it: 'Musica classica (Mozart, valzer di Strauss)', pl: 'Muzyka klasyczna (Mozart, walce Straussa)', nl: 'Klassieke muziek (Mozart, Strauss-walsen)', pt: 'Música clássica (Mozart, valsas de Strauss)' },

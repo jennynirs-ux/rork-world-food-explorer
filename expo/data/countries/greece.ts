@@ -780,7 +780,7 @@ export const greece: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1054,7 +1054,7 @@ export const greece: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1118,7 +1118,7 @@ export const greece: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1242,8 +1242,28 @@ export const greece: Country = {
       imageUrl: 'https://images.pexels.com/photos/25810607/pexels-photo-25810607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Ouzo, Retsina wine, Metaxa brandy, Greek beer',
-      nonAlcoholic: 'Greek coffee, Frappé, Mountain tea, Fresh lemonade',
+      alcoholic: {
+        en: 'Ouzo, Retsina wine, Metaxa brandy, Greek beer',
+        sv: 'Ouzo, Retsina-vin, Metaxa-brandy, Grekiskt öl',
+        de: 'Ouzo, Retsina-Wein, Metaxa-Weinbrand, Griechisches Bier',
+        fr: 'Ouzo, Vin retsina, Brandy Metaxa, Bière grecque',
+        es: 'Ouzo, Vino retsina, Brandy Metaxa, Cerveza griega',
+        it: 'Ouzo, Vino retsina, Brandy Metaxa, Birra greca',
+        pl: 'Ouzo, Wino retsina, Brandy Metaxa, Piwo greckie',
+        nl: 'Ouzo, Retsina-wijn, Metaxa-brandewijn, Grieks bier',
+        pt: 'Ouzo, Vinho retsina, Brandy Metaxa, Cerveja grega',
+      },
+      nonAlcoholic: {
+        en: 'Greek coffee, Frappé, Mountain tea, Fresh lemonade',
+        sv: 'Grekiskt kaffe, Frappé, Bergste, Färskpressad lemonad',
+        de: 'Griechischer Kaffee, Frappé, Bergtee, Frische Limonade',
+        fr: 'Café grec, Frappé, Thé des montagnes, Citronnade fraîche',
+        es: 'Café griego, Frappé, Té de montaña, Limonada natural',
+        it: 'Caffè greco, Frappé, Tè di montagna, Limonata fresca',
+        pl: 'Kawa po grecku, Frappé, Herbata górska, Świeża lemoniada',
+        nl: 'Griekse koffie, Frappé, Bergthee, Verse limonade',
+        pt: 'Café grego, Frappé, Chá da montanha, Limonada natural',
+      },
     },
     music: [
       { en: 'Zorba\'s Dance (Sirtaki)', sv: 'Zorbas dans (Sirtaki)', de: 'Zorbas Tanz (Sirtaki)', fr: 'La danse de Zorba (Sirtaki)', es: 'El baile de Zorba (Sirtaki)', it: 'Il ballo di Zorba (Sirtaki)', pl: 'Taniec Zorby (Sirtaki)', nl: 'Zorba\'s Dans (Sirtaki)', pt: 'A Dança de Zorba (Sirtaki)' },

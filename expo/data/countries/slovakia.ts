@@ -434,7 +434,7 @@ export const slovakia: Country = {
       {
         name: {
           en: 'High Tatras (Vysoké Tatry)',
-          sv: 'High Tatras (Vysoké Tatry)',
+          sv: 'Höga Tatra (Vysoké Tatry)',
           es: 'Altos Tatras (Vysoké Tatry)',
           fr: 'Hautes Tatras (Vysoké Tatry)',
           de: 'Hohe Tatra (Vysoké Tatry)',
@@ -745,7 +745,7 @@ export const slovakia: Country = {
             pt: 'Sal',
           },
           amount: 1.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1051,8 +1051,8 @@ export const slovakia: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1143,8 +1143,28 @@ export const slovakia: Country = {
       imageUrl: 'https://images.pexels.com/photos/31373327/pexels-photo-31373327.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Borovička (juniper brandy), Slovak wine, Tatratea (herbal liqueur)',
-      nonAlcoholic: 'Kofola, Vinea (grape drink), Mineral water, Herbal teas',
+      alcoholic: {
+        en: 'Borovička (juniper brandy), Slovak wine, Tatratea (herbal liqueur)',
+        sv: 'Borovička (enbärsbrännvin), Slovakiskt vin, Tatratea (örtlikör)',
+        de: 'Borovička (Wacholderschnaps), Slowakischer Wein, Tatratea (Kräuterlikör)',
+        fr: 'Borovička (eau-de-vie de genièvre), Vin slovaque, Tatratea (liqueur aux herbes)',
+        es: 'Borovička (aguardiente de enebro), Vino eslovaco, Tatratea (licor de hierbas)',
+        it: 'Borovička (acquavite di ginepro), Vino slovacco, Tatratea (liquore alle erbe)',
+        pl: 'Borovička (wódka jałowcowa), Wino słowackie, Tatratea (likier ziołowy)',
+        nl: 'Borovička (jeneverbesbrandewijn), Slowaakse wijn, Tatratea (kruidenlikeur)',
+        pt: 'Borovička (aguardente de zimbro), Vinho eslovaco, Tatratea (licor de ervas)',
+      },
+      nonAlcoholic: {
+        en: 'Kofola, Vinea (grape drink), Mineral water, Herbal teas',
+        sv: 'Kofola, Vinea (druvdryck), Mineralvatten, Örtteer',
+        de: 'Kofola, Vinea (Traubengetränk), Mineralwasser, Kräutertees',
+        fr: 'Kofola, Vinea (boisson au raisin), Eau minérale, Tisanes',
+        es: 'Kofola, Vinea (bebida de uva), Agua mineral, Infusiones de hierbas',
+        it: 'Kofola, Vinea (bevanda all\'uva), Acqua minerale, Tisane',
+        pl: 'Kofola, Vinea (napój winogronowy), Woda mineralna, Herbaty ziołowe',
+        nl: 'Kofola, Vinea (druivendrank), Mineraalwater, Kruidenthee',
+        pt: 'Kofola, Vinea (bebida de uva), Água mineral, Chás de ervas',
+      },
     },
     music: [
       { en: 'Slovak folk music', sv: 'Slovakisk folkmusik', de: 'Slowakische Volksmusik', fr: 'Musique folklorique slovaque', es: 'Música folclórica eslovaca', it: 'Musica folk slovacca', pl: 'Słowacka muzyka ludowa', nl: 'Slowaakse volksmuziek', pt: 'Música folclórica eslovaca' },

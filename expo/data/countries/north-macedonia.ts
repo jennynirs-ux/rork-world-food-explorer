@@ -647,7 +647,7 @@ export const northMacedonia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -905,7 +905,7 @@ export const northMacedonia: Country = {
             pt: 'Páprica',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -994,8 +994,28 @@ export const northMacedonia: Country = {
       imageUrl: 'https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Rakija, Macedonian wine, Skopsko beer',
-      nonAlcoholic: 'Boza, Turkish coffee, Salep',
+      alcoholic: {
+        en: 'Rakija, Macedonian wine, Skopsko beer',
+        sv: 'Rakija, Makedonskt vin, Skopsko-öl',
+        de: 'Rakija, Mazedonischer Wein, Skopsko-Bier',
+        fr: 'Rakija, Vin macédonien, Bière Skopsko',
+        es: 'Rakija, Vino macedonio, Cerveza Skopsko',
+        it: 'Rakija, Vino macedone, Birra Skopsko',
+        pl: 'Rakija, Wino macedońskie, Piwo Skopsko',
+        nl: 'Rakija, Macedonische wijn, Skopsko-bier',
+        pt: 'Rakija, Vinho macedônio, Cerveja Skopsko',
+      },
+      nonAlcoholic: {
+        en: 'Boza, Turkish coffee, Salep',
+        sv: 'Boza, Turkiskt kaffe, Salep',
+        de: 'Boza, Türkischer Kaffee, Salep',
+        fr: 'Boza, Café turc, Salep',
+        es: 'Boza, Café turco, Salep',
+        it: 'Boza, Caffè turco, Salep',
+        pl: 'Boza, Kawa po turecku, Salep',
+        nl: 'Boza, Turkse koffie, Salep',
+        pt: 'Boza, Café turco, Salep',
+      },
     },
     music: [
       { en: 'Traditional folk music', sv: 'Traditionell folkmusik', de: 'Traditionelle Volksmusik', fr: 'Musique folklorique traditionnelle', es: 'Música folclórica tradicional', it: 'Musica folk tradizionale', pl: 'Tradycyjna muzyka ludowa', nl: 'Traditionele volksmuziek', pt: 'Música folclórica tradicional' },

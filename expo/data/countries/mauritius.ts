@@ -619,7 +619,7 @@ export const mauritius: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -678,7 +678,7 @@ export const mauritius: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -861,7 +861,7 @@ export const mauritius: Country = {
             pt: 'Curcuma',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -876,7 +876,7 @@ export const mauritius: Country = {
             pt: 'Cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -895,7 +895,7 @@ export const mauritius: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1042,8 +1042,28 @@ export const mauritius: Country = {
       imageUrl: 'https://images.pexels.com/photos/32894826/pexels-photo-32894826.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Phoenix beer, Rum (Green Island), Alouda with rum',
-      nonAlcoholic: 'Alouda (milk drink), Fresh coconut water, Vanilla tea',
+      alcoholic: {
+        en: 'Phoenix beer, Rum (Green Island), Alouda with rum',
+        sv: 'Phoenix-öl, Rom (Green Island), Alouda med rom',
+        de: 'Phoenix-Bier, Rum (Green Island), Alouda mit Rum',
+        fr: 'Bière Phoenix, Rhum (Green Island), Alouda au rhum',
+        es: 'Cerveza Phoenix, Ron (Green Island), Alouda con ron',
+        it: 'Birra Phoenix, Rum (Green Island), Alouda al rum',
+        pl: 'Piwo Phoenix, Rum (Green Island), Alouda z rumem',
+        nl: 'Phoenix-bier, Rum (Green Island), Alouda met rum',
+        pt: 'Cerveja Phoenix, Rum (Green Island), Alouda com rum',
+      },
+      nonAlcoholic: {
+        en: 'Alouda (milk drink), Fresh coconut water, Vanilla tea',
+        sv: 'Alouda (mjölkdryck), Färskt kokosvatten, Vaniljte',
+        de: 'Alouda (Milchgetränk), Frisches Kokoswasser, Vanilletee',
+        fr: 'Alouda (boisson lactée), Eau de coco fraîche, Thé à la vanille',
+        es: 'Alouda (bebida de leche), Agua de coco fresca, Té de vainilla',
+        it: 'Alouda (bevanda al latte), Acqua di cocco fresca, Tè alla vaniglia',
+        pl: 'Alouda (napój mleczny), Świeża woda kokosowa, Herbata waniliowa',
+        nl: 'Alouda (melkdrank), Vers kokoswater, Vanillethee',
+        pt: 'Alouda (bebida láctea), Água de coco fresca, Chá de baunilha',
+      },
     },
     music: [
       { en: 'Sega', sv: 'Sega', de: 'Sega', fr: 'Séga', es: 'Sega', it: 'Sega', pl: 'Sega', nl: 'Sega', pt: 'Sega' },

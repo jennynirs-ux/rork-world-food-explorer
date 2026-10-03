@@ -366,7 +366,7 @@ export const rwanda: Country = {
       {
         name: {
           en: 'Nyungwe Forest National Park',
-          sv: 'Nyungwe Forest National Park',
+          sv: 'Nyungwe Forest nationalpark',
           es: 'Parque Nacional del Bosque Nyungwe',
           fr: 'Parc national de la forêt de Nyungwe',
           de: 'Nyungwe-Forest-Nationalpark',
@@ -498,7 +498,7 @@ export const rwanda: Country = {
       {
         name: {
           en: 'Imigongo Cow Dung Art',
-          sv: 'Imigongo Cow Dung Art',
+          sv: 'Imigongo – konst av kogödsel',
           es: 'Arte del estiércol de vaca Imigongo',
           fr: 'Art de bouse de vache Imigongo',
           de: 'Imigongo Kuhmist-Kunst',
@@ -523,7 +523,7 @@ export const rwanda: Country = {
       {
         name: {
           en: 'Zipline Medical Drone Delivery',
-          sv: 'Zipline Medical Drone Delivery',
+          sv: 'Zipline – sjukvårdsleveranser med drönare',
           es: 'Entrega de drones médicos en tirolesa',
           fr: 'Livraison de drones médicaux en tyrolienne',
           de: 'Zipline-Lieferung mit medizinischen Drohnen',
@@ -680,14 +680,14 @@ export const rwanda: Country = {
           amount: 3,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -757,7 +757,7 @@ export const rwanda: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -778,7 +778,7 @@ export const rwanda: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -995,7 +995,7 @@ export const rwanda: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1010,7 +1010,7 @@ export const rwanda: Country = {
             pt: 'Cardamomo (moído)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1028,8 +1028,8 @@ export const rwanda: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1179,8 +1179,28 @@ export const rwanda: Country = {
       imageUrl: 'https://images.pexels.com/photos/29850934/pexels-photo-29850934.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Banana beer (Urwagwa), Primus lager',
-      nonAlcoholic: 'Ikivuguto (fermented milk), Passion fruit juice, Ginger tea',
+      alcoholic: {
+        en: 'Banana beer (Urwagwa), Primus lager',
+        sv: 'Bananöl (Urwagwa), Primus-lager',
+        de: 'Bananenbier (Urwagwa), Primus-Lagerbier',
+        fr: 'Bière de banane (Urwagwa), Bière blonde Primus',
+        es: 'Cerveza de plátano (Urwagwa), Cerveza lager Primus',
+        it: 'Birra di banana (Urwagwa), Birra lager Primus',
+        pl: 'Piwo bananowe (Urwagwa), Lager Primus',
+        nl: 'Bananenbier (Urwagwa), Primus-lager',
+        pt: 'Cerveja de banana (Urwagwa), Cerveja lager Primus',
+      },
+      nonAlcoholic: {
+        en: 'Ikivuguto (fermented milk), Passion fruit juice, Ginger tea',
+        sv: 'Ikivuguto (fermenterad mjölk), Passionsfruktjuice, Ingefärste',
+        de: 'Ikivuguto (fermentierte Milch), Maracujasaft, Ingwertee',
+        fr: 'Ikivuguto (lait fermenté), Jus de fruit de la passion, Thé au gingembre',
+        es: 'Ikivuguto (leche fermentada), Jugo de maracuyá, Té de jengibre',
+        it: 'Ikivuguto (latte fermentato), Succo di frutto della passione, Tè allo zenzero',
+        pl: 'Ikivuguto (fermentowane mleko), Sok z marakui, Herbata imbirowa',
+        nl: 'Ikivuguto (gefermenteerde melk), Passievruchtensap, Gemberthee',
+        pt: 'Ikivuguto (leite fermentado), Suco de maracujá, Chá de gengibre',
+      },
     },
     music: [
       { en: 'Traditional Intore dance music', sv: 'Traditionell Intore-dansmusik', de: 'Traditionelle Intore-Tanzmusik', fr: 'Musique de danse Intore traditionnelle', es: 'Música de danza Intore tradicional', it: 'Musica della danza Intore tradizionale', pl: 'Tradycyjna muzyka taneczna Intore', nl: 'Traditionele Intore dansmuziek', pt: 'Música de dança Intore tradicional' },
@@ -1229,7 +1249,7 @@ export const rwanda: Country = {
           },
           {
             en: 'Land of a Thousand Hills',
-            sv: 'Land of a Thousand Hills',
+            sv: 'De tusen kullarnas land',
             es: 'Tierra de las Mil Colinas',
             fr: 'Pays des Mille Collines',
             de: 'Land der tausend Hügel',
@@ -1738,7 +1758,7 @@ export const rwanda: Country = {
           },
           {
             en: 'Land of a Thousand Hills',
-            sv: 'Land of a Thousand Hills',
+            sv: 'De tusen kullarnas land',
             es: 'Tierra de las Mil Colinas',
             fr: 'Pays des Mille Collines',
             de: 'Land der tausend Hügel',

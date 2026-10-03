@@ -618,7 +618,7 @@ export const liechtenstein: Country = {
             pt: 'Canela',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -960,8 +960,28 @@ export const liechtenstein: Country = {
       imageUrl: 'https://images.pexels.com/photos/722670/pexels-photo-722670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Local wines, Schnapps',
-      nonAlcoholic: 'Apple juice, Mountain spring water',
+      alcoholic: {
+        en: 'Local wines, Schnapps',
+        sv: 'Lokala viner, Snaps',
+        de: 'Lokale Weine, Schnaps',
+        fr: 'Vins locaux, Schnaps',
+        es: 'Vinos locales, Schnapps',
+        it: 'Vini locali, Schnaps',
+        pl: 'Lokalne wina, Sznaps',
+        nl: 'Lokale wijnen, Schnaps',
+        pt: 'Vinhos locais, Schnapps',
+      },
+      nonAlcoholic: {
+        en: 'Apple juice, Mountain spring water',
+        sv: 'Äppeljuice, Källvatten från bergen',
+        de: 'Apfelsaft, Bergquellwasser',
+        fr: 'Jus de pomme, Eau de source de montagne',
+        es: 'Jugo de manzana, Agua de manantial de montaña',
+        it: 'Succo di mela, Acqua di sorgente di montagna',
+        pl: 'Sok jabłkowy, Górska woda źródlana',
+        nl: 'Appelsap, Bergbronwater',
+        pt: 'Suco de maçã, Água de nascente da montanha',
+      },
     },
     music: [
       { en: 'Traditional Alpine folk', sv: 'Traditionell alpin folkmusik', de: 'Traditionelle Alpen-Volksmusik', fr: 'Folk alpin traditionnel', es: 'Folk alpino tradicional', it: 'Folk alpino tradizionale', pl: 'Tradycyjna alpejska muzyka ludowa', nl: 'Traditionele Alpse volksmuziek', pt: 'Folk alpino tradicional' },

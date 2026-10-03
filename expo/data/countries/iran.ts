@@ -720,7 +720,7 @@ export const iran: Country = {
             pt: 'Curcuma',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -901,7 +901,7 @@ export const iran: Country = {
             pt: 'Fios de açafrão',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -920,7 +920,7 @@ export const iran: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1073,8 +1073,28 @@ export const iran: Country = {
       imageUrl: 'https://images.pexels.com/photos/8807333/pexels-photo-8807333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Not available (alcohol prohibited)',
-      nonAlcoholic: 'Doogh (yogurt drink), Persian tea, Sharbat (fruit syrup), Fresh pomegranate juice',
+      alcoholic: {
+        en: 'Not available (alcohol prohibited)',
+        sv: 'Inte tillgängligt (alkohol är förbjudet)',
+        de: 'Nicht erhältlich (Alkohol ist verboten)',
+        fr: 'Non disponible (alcool interdit)',
+        es: 'No disponible (alcohol prohibido)',
+        it: 'Non disponibile (alcol vietato)',
+        pl: 'Niedostępne (alkohol jest zakazany)',
+        nl: 'Niet verkrijgbaar (alcohol is verboden)',
+        pt: 'Não disponível (álcool proibido)',
+      },
+      nonAlcoholic: {
+        en: 'Doogh (yogurt drink), Persian tea, Sharbat (fruit syrup), Fresh pomegranate juice',
+        sv: 'Doogh (yoghurtdryck), Persiskt te, Sharbat (fruktsaft), Färskpressad granatäppeljuice',
+        de: 'Doogh (Joghurtgetränk), Persischer Tee, Sharbat (Fruchtsirup), Frischer Granatapfelsaft',
+        fr: 'Doogh (boisson au yaourt), Thé persan, Sharbat (sirop de fruits), Jus de grenade frais',
+        es: 'Doogh (bebida de yogur), Té persa, Sharbat (jarabe de frutas), Jugo de granada natural',
+        it: 'Doogh (bevanda allo yogurt), Tè persiano, Sharbat (sciroppo di frutta), Succo di melagrana fresco',
+        pl: 'Doogh (napój jogurtowy), Herbata perska, Sharbat (syrop owocowy), Świeży sok z granatów',
+        nl: 'Doogh (yoghurtdrank), Perzische thee, Sharbat (vruchtensiroop), Vers granaatappelsap',
+        pt: 'Doogh (bebida de iogurte), Chá persa, Sharbat (xarope de frutas), Suco de romã natural',
+      },
     },
     music: [
       { en: 'Traditional Persian classical music', sv: 'Traditionell persisk klassisk musik', de: 'Traditionelle persische klassische Musik', fr: 'Musique classique persane traditionnelle', es: 'Música clásica persa tradicional', it: 'Musica classica persiana tradizionale', pl: 'Tradycyjna perska muzyka klasyczna', nl: 'Traditionele Perzische klassieke muziek', pt: 'Música clássica persa tradicional' },

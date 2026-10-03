@@ -377,7 +377,7 @@ export const comoros: Country = {
       {
         name: {
           en: 'Coelacanth Research',
-          sv: 'Coelacanth Research',
+          sv: 'Forskning om tofsstjärtfisken',
           es: 'Investigación sobre celacanto',
           fr: 'Recherche sur le cœlacanthe',
           de: 'Quastenflosserforschung',
@@ -738,14 +738,14 @@ export const comoros: Country = {
           amount: 3,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -961,7 +961,7 @@ export const comoros: Country = {
             pt: 'Fermento',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -976,7 +976,7 @@ export const comoros: Country = {
             pt: 'Cardamomo em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -991,7 +991,7 @@ export const comoros: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1124,8 +1124,28 @@ export const comoros: Country = {
       imageUrl: 'https://images.pexels.com/photos/36148047/pexels-photo-36148047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Local rum',
-      nonAlcoholic: 'Coconut water, Vanilla tea, Fresh juice',
+      alcoholic: {
+        en: 'Local rum',
+        sv: 'Lokal rom',
+        de: 'Lokaler Rum',
+        fr: 'Rhum local',
+        es: 'Ron local',
+        it: 'Rum locale',
+        pl: 'Lokalny rum',
+        nl: 'Lokale rum',
+        pt: 'Rum local',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Vanilla tea, Fresh juice',
+        sv: 'Kokosvatten, Vaniljte, Färskpressad juice',
+        de: 'Kokoswasser, Vanilletee, Frischer Saft',
+        fr: 'Eau de coco, Thé à la vanille, Jus frais',
+        es: 'Agua de coco, Té de vainilla, Jugo natural',
+        it: 'Acqua di cocco, Tè alla vaniglia, Succo fresco',
+        pl: 'Woda kokosowa, Herbata waniliowa, Świeży sok',
+        nl: 'Kokoswater, Vanillethee, Vers sap',
+        pt: 'Água de coco, Chá de baunilha, Suco natural',
+      },
     },
     music: [
       { en: 'Twarab music', sv: 'Twarab-musik', de: 'Twarab-Musik', fr: 'Musique twarab', es: 'Música twarab', it: 'Musica twarab', pl: 'Muzyka twarab', nl: 'Twarab-muziek', pt: 'Música twarab' },
@@ -1599,7 +1619,7 @@ export const comoros: Country = {
           sv: 'Vilken typ av öar är Komorerna?',
           es: '¿Qué tipo de islas son las Comoras?',
           fr: 'Quels types d\'îles sont les Comores ?',
-          de: 'What type of islands are the Comoros?',
+          de: 'Was für Inseln sind die Komoren?',
           it: 'Che tipo di isole sono le Comore?',
           pl: 'Jakiego typu wyspami są Komory?',
           nl: 'Wat voor soort eilanden zijn de Comoren?',
@@ -1660,7 +1680,7 @@ export const comoros: Country = {
           sv: 'Vilka influenser från köket finns i Komorerna?',
           es: '¿Qué influencias culinarias se encuentran en las Comoras?',
           fr: 'Quelles influences culinaires retrouve-t-on aux Comores ?',
-          de: 'What cuisine influences are found in Comoros?',
+          de: 'Welche kulinarischen Einflüsse findet man auf den Komoren?',
           it: 'Quali influenze culinarie si trovano alle Comore?',
           pl: 'Jakie wpływy kulinarne można znaleźć na Komorach?',
           nl: 'Welke culinaire invloeden vind je in de Comoren?',
@@ -1694,7 +1714,7 @@ export const comoros: Country = {
             sv: 'Afrikanska, arabiska och franska',
             es: 'Africanos, árabes y franceses',
             fr: 'Africains, Arabes et Français',
-            de: 'African, Arab, and French',
+            de: 'Afrikanisch, arabisch und französisch',
             it: 'Africana, araba e francese',
             pl: 'Afrykańskie, arabskie i francuskie',
             nl: 'Afrikaans, Arabisch en Frans',

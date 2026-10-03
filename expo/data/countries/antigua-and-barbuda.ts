@@ -760,7 +760,7 @@ export const antiguaAndBarbuda: Country = {
         {
           name: {
             en: 'Scotch bonnet pepper',
-            sv: 'Scotch bonnet pepper',
+            sv: 'Scotch bonnet-chili',
             es: 'Pimienta escocesa',
             fr: 'Poivre Scotch Bonnet',
             de: 'Scotch Bonnet Pepper',
@@ -980,7 +980,7 @@ export const antiguaAndBarbuda: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -995,7 +995,7 @@ export const antiguaAndBarbuda: Country = {
             pt: 'Noz-moscada',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1010,7 +1010,7 @@ export const antiguaAndBarbuda: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1168,8 +1168,28 @@ export const antiguaAndBarbuda: Country = {
       imageUrl: 'https://images.pexels.com/photos/6426146/pexels-photo-6426146.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Rum punch, Cavalier rum',
-      nonAlcoholic: 'Coconut water, Tamarind juice, Sorrel drink',
+      alcoholic: {
+        en: 'Rum punch, Cavalier rum',
+        sv: 'Rompunsch, Cavalier-rom',
+        de: 'Rumpunsch, Cavalier-Rum',
+        fr: 'Punch au rhum, Rhum Cavalier',
+        es: 'Ponche de ron, Ron Cavalier',
+        it: 'Punch al rum, Rum Cavalier',
+        pl: 'Poncz rumowy, Rum Cavalier',
+        nl: 'Rumpunch, Cavalier-rum',
+        pt: 'Ponche de rum, Rum Cavalier',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Tamarind juice, Sorrel drink',
+        sv: 'Kokosvatten, Tamarindjuice, Sorreldryck',
+        de: 'Kokoswasser, Tamarindensaft, Sorrel-Getränk',
+        fr: 'Eau de coco, Jus de tamarin, Boisson sorrel',
+        es: 'Agua de coco, Jugo de tamarindo, Bebida de sorrel',
+        it: 'Acqua di cocco, Succo di tamarindo, Bevanda di sorrel',
+        pl: 'Woda kokosowa, Sok z tamaryndowca, Napój sorrel',
+        nl: 'Kokoswater, Tamarindesap, Sorreldrank',
+        pt: 'Água de coco, Suco de tamarindo, Bebida de sorrel',
+      },
     },
     music: [
       { en: 'Calypso', sv: 'Calypso', de: 'Calypso', fr: 'Calypso', es: 'Calypso', it: 'Calypso', pl: 'Calypso', nl: 'Calypso', pt: 'Calypso' },

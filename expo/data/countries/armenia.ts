@@ -1040,7 +1040,7 @@ export const armenia: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1070,7 +1070,7 @@ export const armenia: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1213,8 +1213,28 @@ export const armenia: Country = {
       imageUrl: 'https://images.pexels.com/photos/11968759/pexels-photo-11968759.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Armenian cognac, Wine, Ararat brandy',
-      nonAlcoholic: 'Tan (yogurt drink), Armenian coffee, Apricot juice',
+      alcoholic: {
+        en: 'Armenian cognac, Wine, Ararat brandy',
+        sv: 'Armenisk konjak, Vin, Ararat-brandy',
+        de: 'Armenischer Cognac, Wein, Ararat-Brandy',
+        fr: 'Cognac arménien, Vin, Brandy Ararat',
+        es: 'Coñac armenio, Vino, Brandy Ararat',
+        it: 'Cognac armeno, Vino, Brandy Ararat',
+        pl: 'Koniak ormiański, Wino, Brandy Ararat',
+        nl: 'Armeense cognac, Wijn, Ararat-brandy',
+        pt: 'Conhaque armênio, Vinho, Brandy Ararat',
+      },
+      nonAlcoholic: {
+        en: 'Tan (yogurt drink), Armenian coffee, Apricot juice',
+        sv: 'Tan (yoghurtdryck), Armeniskt kaffe, Aprikosjuice',
+        de: 'Tan (Joghurtgetränk), Armenischer Kaffee, Aprikosensaft',
+        fr: 'Tan (boisson au yaourt), Café arménien, Jus d\'abricot',
+        es: 'Tan (bebida de yogur), Café armenio, Jugo de albaricoque',
+        it: 'Tan (bevanda allo yogurt), Caffè armeno, Succo di albicocca',
+        pl: 'Tan (napój jogurtowy), Kawa ormiańska, Sok morelowy',
+        nl: 'Tan (yoghurtdrank), Armeense koffie, Abrikozensap',
+        pt: 'Tan (bebida de iogurte), Café armênio, Suco de damasco',
+      },
     },
     music: [
       { en: 'Traditional duduk melodies', sv: 'Traditionella duduk-melodier', de: 'Traditionelle Duduk-Melodien', fr: 'Mélodies de duduk traditionnelles', es: 'Melodías tradicionales de duduk', it: 'Melodie tradizionali di duduk', pl: 'Tradycyjne melodie duduk', nl: 'Traditionele duduk-melodieën', pt: 'Melodias tradicionais de duduk' },

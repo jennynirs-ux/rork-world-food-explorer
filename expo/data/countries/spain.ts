@@ -803,8 +803,8 @@ export const spain: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -825,7 +825,7 @@ export const spain: Country = {
             pt: 'Páprica',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -844,7 +844,7 @@ export const spain: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1114,7 +1114,7 @@ export const spain: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1144,7 +1144,7 @@ export const spain: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1193,7 +1193,7 @@ export const spain: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1317,8 +1317,28 @@ export const spain: Country = {
       imageUrl: 'https://images.pexels.com/photos/5255955/pexels-photo-5255955.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Sangria, Rioja wine, Cava, Sherry, Agua de Valencia',
-      nonAlcoholic: 'Horchata, Café con leche, Fresh orange juice',
+      alcoholic: {
+        en: 'Sangria, Rioja wine, Cava, Sherry, Agua de Valencia',
+        sv: 'Sangria, Riojavin, Cava, Sherry, Agua de Valencia',
+        de: 'Sangria, Rioja-Wein, Cava, Sherry, Agua de Valencia',
+        fr: 'Sangria, Vin de Rioja, Cava, Xérès, Agua de Valencia',
+        es: 'Sangría, Vino de Rioja, Cava, Jerez, Agua de Valencia',
+        it: 'Sangria, Vino Rioja, Cava, Sherry, Agua de Valencia',
+        pl: 'Sangria, Wino Rioja, Cava, Sherry, Agua de Valencia',
+        nl: 'Sangria, Riojawijn, Cava, Sherry, Agua de Valencia',
+        pt: 'Sangria, Vinho Rioja, Cava, Xerez, Agua de Valencia',
+      },
+      nonAlcoholic: {
+        en: 'Horchata, Café con leche, Fresh orange juice',
+        sv: 'Horchata, Café con leche, Färskpressad apelsinjuice',
+        de: 'Horchata, Café con leche, Frisch gepresster Orangensaft',
+        fr: 'Horchata, Café con leche, Jus d\'orange frais',
+        es: 'Horchata, Café con leche, Jugo de naranja natural',
+        it: 'Horchata, Café con leche, Spremuta d\'arancia',
+        pl: 'Horchata, Café con leche, Świeży sok pomarańczowy',
+        nl: 'Horchata, Café con leche, Vers sinaasappelsap',
+        pt: 'Horchata, Café con leche, Suco de laranja natural',
+      },
     },
     music: [
       { en: 'Malagueña', sv: 'Malagueña', de: 'Malagueña', fr: 'Malagueña', es: 'Malagueña', it: 'Malagueña', pl: 'Malagueña', nl: 'Malagueña', pt: 'Malagueña' },

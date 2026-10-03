@@ -421,7 +421,7 @@ export const israel: Country = {
             pt: 'Cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -436,7 +436,7 @@ export const israel: Country = {
             pt: 'Páprica',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -510,8 +510,28 @@ export const israel: Country = {
       imageUrl: 'https://images.pexels.com/photos/6275164/pexels-photo-6275164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Israeli wine, Goldstar beer, Arak',
-      nonAlcoholic: 'Limonana (mint lemonade), Turkish coffee, Fresh juice',
+      alcoholic: {
+        en: 'Israeli wine, Goldstar beer, Arak',
+        sv: 'Israeliskt vin, Goldstar-öl, Arak',
+        de: 'Israelischer Wein, Goldstar-Bier, Arak',
+        fr: 'Vin israélien, Bière Goldstar, Arak',
+        es: 'Vino israelí, Cerveza Goldstar, Arak',
+        it: 'Vino israeliano, Birra Goldstar, Arak',
+        pl: 'Wino izraelskie, Piwo Goldstar, Arak',
+        nl: 'Israëlische wijn, Goldstar-bier, Arak',
+        pt: 'Vinho israelense, Cerveja Goldstar, Arak',
+      },
+      nonAlcoholic: {
+        en: 'Limonana (mint lemonade), Turkish coffee, Fresh juice',
+        sv: 'Limonana (myntlemonad), Turkiskt kaffe, Färskpressad juice',
+        de: 'Limonana (Minzlimonade), Türkischer Kaffee, Frischer Saft',
+        fr: 'Limonana (limonade à la menthe), Café turc, Jus frais',
+        es: 'Limonana (limonada con menta), Café turco, Jugo natural',
+        it: 'Limonana (limonata alla menta), Caffè turco, Succo fresco',
+        pl: 'Limonana (lemoniada miętowa), Kawa po turecku, Świeży sok',
+        nl: 'Limonana (muntlimonade), Turkse koffie, Vers sap',
+        pt: 'Limonana (limonada com hortelã), Café turco, Suco natural',
+      },
     },
     music: [
       { en: 'Mizrahi music', sv: 'Mizrahi-musik', de: 'Mizrahi-Musik', fr: 'Musique Mizrahi', es: 'Música Mizrahi', it: 'Musica Mizrahi', pl: 'Muzyka Mizrahi', nl: 'Mizrahi-muziek', pt: 'Música Mizrahi' },
@@ -921,7 +941,7 @@ export const israel: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -951,7 +971,7 @@ export const israel: Country = {
             pt: 'Cardamomo em pó',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [

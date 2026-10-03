@@ -382,7 +382,7 @@ export const serbia: Country = {
       {
         name: {
           en: 'Pupin Coils (Mihajlo Pupin)',
-          sv: 'Pupin Coils (Mihajlo Pupin)',
+          sv: 'Pupinspolar (Mihajlo Pupin)',
           es: 'Bobinas de Pupin (Mihajlo Pupin)',
           fr: 'Bobines Pupin (Mihajlo Pupin)',
           de: 'Pupin-Spulen (Mihajlo Pupin)',
@@ -719,27 +719,27 @@ export const serbia: Country = {
         },
         {
           name: {
-            en: 'Garlic cloves, minced',
-            sv: 'Vitlöksklyftor, hackade',
-            es: 'Dientes de ajo picados',
-            fr: 'Gousses d\'ail, hachées',
-            de: 'Knoblauchzehen, gehackt',
-            it: 'Spicchi d\'aglio, tritati',
-            pl: 'Ząbki czosnku, drobno posiekane',
-            nl: 'Teentjes knoflook, fijngehakt',
-            pt: 'Dentes de alho, picados',
+            en: 'Garlic, minced',
+            sv: 'Vitlök, hackad',
+            es: 'Ajo picado',
+            fr: 'Ail, haché',
+            de: 'Knoblauch, gehackt',
+            it: 'Aglio tritato',
+            pl: 'Czosnek, posiekany',
+            nl: 'Knoflook, fijngehakt',
+            pt: 'Alho picado',
           },
           amount: 3,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -755,7 +755,7 @@ export const serbia: Country = {
             pt: 'Sal fino',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -770,7 +770,7 @@ export const serbia: Country = {
             pt: 'Pimenta preta',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -785,7 +785,7 @@ export const serbia: Country = {
             pt: 'Páprica doce',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -800,7 +800,7 @@ export const serbia: Country = {
             pt: 'Bicarbonato de sódio',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1119,7 +1119,7 @@ export const serbia: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1282,8 +1282,28 @@ export const serbia: Country = {
       imageUrl: 'https://images.pexels.com/photos/8856901/pexels-photo-8856901.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Rakija (fruit brandy), Serbian wine, Local beer',
-      nonAlcoholic: 'Turkish-style coffee, Herbal teas, Fruit juices',
+      alcoholic: {
+        en: 'Rakija (fruit brandy), Serbian wine, Local beer',
+        sv: 'Rakija (fruktbrännvin), Serbiskt vin, Lokalt öl',
+        de: 'Rakija (Obstbrand), Serbischer Wein, Lokales Bier',
+        fr: 'Rakija (eau-de-vie de fruits), Vin serbe, Bière locale',
+        es: 'Rakija (aguardiente de frutas), Vino serbio, Cerveza local',
+        it: 'Rakija (acquavite di frutta), Vino serbo, Birra locale',
+        pl: 'Rakija (wódka owocowa), Wino serbskie, Lokalne piwo',
+        nl: 'Rakija (vruchtenbrandewijn), Servische wijn, Lokaal bier',
+        pt: 'Rakija (aguardente de frutas), Vinho sérvio, Cerveja local',
+      },
+      nonAlcoholic: {
+        en: 'Turkish-style coffee, Herbal teas, Fruit juices',
+        sv: 'Kaffe på turkiskt vis, Örtteer, Fruktjuicer',
+        de: 'Kaffee nach türkischer Art, Kräutertees, Fruchtsäfte',
+        fr: 'Café à la turque, Tisanes, Jus de fruits',
+        es: 'Café al estilo turco, Infusiones de hierbas, Jugos de frutas',
+        it: 'Caffè alla turca, Tisane, Succhi di frutta',
+        pl: 'Kawa po turecku, Herbaty ziołowe, Soki owocowe',
+        nl: 'Koffie op z\'n Turks, Kruidenthee, Vruchtensappen',
+        pt: 'Café à moda turca, Chás de ervas, Sucos de frutas',
+      },
     },
     music: [
       { en: 'Traditional folk & gusle', sv: 'Traditionell folkmusik och gusle', de: 'Traditionelle Folk- und Gusle-Musik', fr: 'Musique folklorique traditionnelle et gusle', es: 'Música folclórica tradicional y gusle', it: 'Musica folk tradizionale e gusle', pl: 'Tradycyjna muzyka ludowa i gusle', nl: 'Traditionele volksmuziek en gusle', pt: 'Música folclórica tradicional e gusle' },
@@ -1436,7 +1456,7 @@ export const serbia: Country = {
           sv: 'Vilken berömd uppfinnare är nära förknippad med det serbiska arvet?',
           es: '¿Qué inventor famoso está estrechamente asociado con la herencia serbia?',
           fr: 'Quel inventeur célèbre est étroitement associé au patrimoine serbe ?',
-          de: 'Which famous inventor is closely associated with Serbian heritage?',
+          de: 'Welcher berühmte Erfinder ist eng mit dem serbischen Erbe verbunden?',
           it: 'Quale famoso inventore è strettamente legato al patrimonio serbo?',
           pl: 'Który słynny wynalazca jest ściśle związany z serbskim dziedzictwem?',
           nl: 'Welke beroemde uitvinder wordt nauw geassocieerd met het Servische erfgoed?',
@@ -1558,7 +1578,7 @@ export const serbia: Country = {
           sv: 'Vilka pålägg är vanliga med grillat kött i Serbien?',
           es: '¿Qué productos para untar son comunes con las carnes a la parrilla en Serbia?',
           fr: 'Quelles tartinades sont courantes avec les viandes grillées en Serbie ?',
-          de: 'Which spreads are common with grilled meats in Serbia?',
+          de: 'Welche Aufstriche werden in Serbien häufig zu gegrilltem Fleisch gereicht?',
           it: 'Quali salse/creme sono comuni con le carni grigliate in Serbia?',
           pl: 'Jakie dodatki (pasty) są popularne z grillowanym mięsem w Serbii?',
           nl: 'Welke smeersels worden vaak bij gegrild vlees geserveerd in Servië?',

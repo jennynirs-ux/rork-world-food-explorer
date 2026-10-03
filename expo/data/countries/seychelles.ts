@@ -342,7 +342,7 @@ export const seychelles: Country = {
       {
         name: {
           en: 'Aldabra Conservation Model',
-          sv: 'Aldabra Conservation Model',
+          sv: 'Bevarandemodellen på Aldabra',
           es: 'Modelo de Conservación de Aldabra',
           fr: 'Modèle de conservation d\'Aldabra',
           de: 'Aldabra-Erhaltungsmodell',
@@ -367,7 +367,7 @@ export const seychelles: Country = {
       {
         name: {
           en: 'Marine Protection Leadership',
-          sv: 'Marine Protection Leadership',
+          sv: 'Ledande inom havsskydd',
           es: 'Liderazgo en protección marina',
           fr: 'Leadership en matière de protection marine',
           de: 'Führung im Meeresschutz',
@@ -392,7 +392,7 @@ export const seychelles: Country = {
       {
         name: {
           en: 'Creole Culinary Fusion',
-          sv: 'Creole Culinary Fusion',
+          sv: 'Kreolsk fusionsmat',
           es: 'Fusión Culinaria Criolla',
           fr: 'Fusion Culinaire Créole',
           de: 'Kreolische kulinarische Fusion',
@@ -719,27 +719,27 @@ export const seychelles: Country = {
         },
         {
           name: {
-            en: 'Garlic cloves, minced',
-            sv: 'Vitlöksklyftor, hackade',
-            es: 'Dientes de ajo picados',
-            fr: 'Gousses d\'ail, hachées',
-            de: 'Knoblauchzehen, gehackt',
-            it: 'Spicchi d\'aglio, tritati',
-            pl: 'Ząbki czosnku, drobno posiekane',
-            nl: 'Teentjes knoflook, fijngehakt',
-            pt: 'Dentes de alho, picados',
+            en: 'Garlic, minced',
+            sv: 'Vitlök, hackad',
+            es: 'Ajo picado',
+            fr: 'Ail, haché',
+            de: 'Knoblauch, gehackt',
+            it: 'Aglio tritato',
+            pl: 'Czosnek, posiekany',
+            nl: 'Knoflook, fijngehakt',
+            pt: 'Alho picado',
           },
           amount: 3,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -799,7 +799,7 @@ export const seychelles: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -820,7 +820,7 @@ export const seychelles: Country = {
             pt: 'Cúrcuma (opcional)',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -839,7 +839,7 @@ export const seychelles: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -864,7 +864,7 @@ export const seychelles: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -885,7 +885,7 @@ export const seychelles: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -900,7 +900,7 @@ export const seychelles: Country = {
             pt: 'Pimenta preta',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1164,7 +1164,7 @@ export const seychelles: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1234,7 +1234,7 @@ export const seychelles: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1252,8 +1252,8 @@ export const seychelles: Country = {
           unit: {
             en: 'pinch',
             sv: 'nypa',
-            es: 'pellizco',
-            fr: 'pincer',
+            es: 'pizca',
+            fr: 'pincée',
             de: 'Prise',
             it: 'pizzico',
             pl: 'szczypta',
@@ -1377,8 +1377,28 @@ export const seychelles: Country = {
       imageUrl: 'https://images.pexels.com/photos/14242068/pexels-photo-14242068.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'SeyBrew beer, Takamaka rum, Calou (palm wine)',
-      nonAlcoholic: 'Fresh coconut water, Passion fruit juice, Vanilla tea',
+      alcoholic: {
+        en: 'SeyBrew beer, Takamaka rum, Calou (palm wine)',
+        sv: 'SeyBrew-öl, Takamaka-rom, Calou (palmvin)',
+        de: 'SeyBrew-Bier, Takamaka-Rum, Calou (Palmwein)',
+        fr: 'Bière SeyBrew, Rhum Takamaka, Calou (vin de palme)',
+        es: 'Cerveza SeyBrew, Ron Takamaka, Calou (vino de palma)',
+        it: 'Birra SeyBrew, Rum Takamaka, Calou (vino di palma)',
+        pl: 'Piwo SeyBrew, Rum Takamaka, Calou (wino palmowe)',
+        nl: 'SeyBrew-bier, Takamaka-rum, Calou (palmwijn)',
+        pt: 'Cerveja SeyBrew, Rum Takamaka, Calou (vinho de palma)',
+      },
+      nonAlcoholic: {
+        en: 'Fresh coconut water, Passion fruit juice, Vanilla tea',
+        sv: 'Färskt kokosvatten, Passionsfruktsjuice, Vaniljte',
+        de: 'Frisches Kokoswasser, Maracujasaft, Vanilletee',
+        fr: 'Eau de coco fraîche, Jus de fruit de la passion, Thé à la vanille',
+        es: 'Agua de coco fresca, Jugo de maracuyá, Té de vainilla',
+        it: 'Acqua di cocco fresca, Succo di frutto della passione, Tè alla vaniglia',
+        pl: 'Świeża woda kokosowa, Sok z marakui, Herbata waniliowa',
+        nl: 'Vers kokoswater, Passievruchtensap, Vanillethee',
+        pt: 'Água de coco fresca, Suco de maracujá, Chá de baunilha',
+      },
     },
     music: [
       { en: 'Moutya', sv: 'Moutya', de: 'Moutya', fr: 'Moutya', es: 'Moutya', it: 'Moutya', pl: 'Moutya', nl: 'Moutya', pt: 'Moutya' },

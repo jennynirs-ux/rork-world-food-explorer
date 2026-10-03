@@ -294,7 +294,7 @@ export const southSudan: Country = {
       {
         name: {
           en: 'The Sudd Wetlands',
-          sv: 'The Sudd Wetlands',
+          sv: 'Våtmarkerna i Sudd',
           es: 'Los Humedales Sudd',
           fr: 'Les zones humides de Sudd',
           de: 'Die Sudd-Feuchtgebiete',
@@ -491,7 +491,7 @@ export const southSudan: Country = {
           sv: 'Sudd våtmarksförvaltning',
           es: 'Manejo repentino de humedales',
           fr: 'Gestion des zones humides de Sudd',
-          de: 'Sudd Wetland Management',
+          de: 'Bewirtschaftung des Sudd-Feuchtgebiets',
           it: 'Gestione delle zone umide del Sudd',
           pl: 'Zarządzanie terenami podmokłymi Sudd',
           nl: 'Beheer van de Sudd-moerassen',
@@ -513,7 +513,7 @@ export const southSudan: Country = {
       {
         name: {
           en: 'Kisra Fermentation',
-          sv: 'Kisra Fermentation',
+          sv: 'Fermentering av kisra',
           es: 'Fermentación de Kisra',
           fr: 'Fermentation Kisra',
           de: 'Kisra-Fermentation',
@@ -723,7 +723,7 @@ export const southSudan: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -911,7 +911,7 @@ export const southSudan: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -945,7 +945,7 @@ export const southSudan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1062,8 +1062,28 @@ export const southSudan: Country = {
       imageUrl: 'https://images.pexels.com/photos/5733111/pexels-photo-5733111.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Marisa (traditional sorghum beer)',
-      nonAlcoholic: 'Karkade (hibiscus tea), Fresh fruit juice',
+      alcoholic: {
+        en: 'Marisa (traditional sorghum beer)',
+        sv: 'Marisa (traditionellt sorghumöl)',
+        de: 'Marisa (traditionelles Sorghumbier)',
+        fr: 'Marisa (bière de sorgho traditionnelle)',
+        es: 'Marisa (cerveza tradicional de sorgo)',
+        it: 'Marisa (birra di sorgo tradizionale)',
+        pl: 'Marisa (tradycyjne piwo z sorgo)',
+        nl: 'Marisa (traditioneel sorghumbier)',
+        pt: 'Marisa (cerveja tradicional de sorgo)',
+      },
+      nonAlcoholic: {
+        en: 'Karkade (hibiscus tea), Fresh fruit juice',
+        sv: 'Karkade (hibiskuste), Färskpressad fruktjuice',
+        de: 'Karkade (Hibiskustee), Frischer Fruchtsaft',
+        fr: 'Karkade (thé à l\'hibiscus), Jus de fruits frais',
+        es: 'Karkade (té de hibisco), Jugo de fruta natural',
+        it: 'Karkade (tè all\'ibisco), Succo di frutta fresco',
+        pl: 'Karkade (herbata z hibiskusa), Świeży sok owocowy',
+        nl: 'Karkade (hibiscusthee), Vers vruchtensap',
+        pt: 'Karkade (chá de hibisco), Suco natural de frutas',
+      },
     },
     music: [
       { en: 'Traditional tribal drumming', sv: 'Traditionellt stamtrumspel', de: 'Traditionelles Stammstrommeln', fr: 'Percussion tribale traditionnelle', es: 'Percusión tribal tradicional', it: 'Percussioni tribali tradizionali', pl: 'Tradycyjne bębnienie plemienne', nl: 'Traditioneel tribaal drummen', pt: 'Percussão tribal tradicional' },

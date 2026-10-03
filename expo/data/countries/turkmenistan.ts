@@ -714,7 +714,7 @@ export const turkmenistan: Country = {
             pt: 'Cominho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -744,7 +744,7 @@ export const turkmenistan: Country = {
             pt: 'Sal',
           },
           amount: 1.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1035,8 +1035,28 @@ export const turkmenistan: Country = {
       imageUrl: 'https://images.pexels.com/photos/8635161/pexels-photo-8635161.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Vodka',
-      nonAlcoholic: 'Chal (fermented camel milk), Green tea',
+      alcoholic: {
+        en: 'Vodka',
+        sv: 'Vodka',
+        de: 'Wodka',
+        fr: 'Vodka',
+        es: 'Vodka',
+        it: 'Vodka',
+        pl: 'Wódka',
+        nl: 'Wodka',
+        pt: 'Vodca',
+      },
+      nonAlcoholic: {
+        en: 'Chal (fermented camel milk), Green tea',
+        sv: 'Chal (fermenterad kamelmjölk), Grönt te',
+        de: 'Chal (fermentierte Kamelmilch), Grüner Tee',
+        fr: 'Chal (lait de chamelle fermenté), Thé vert',
+        es: 'Chal (leche de camella fermentada), Té verde',
+        it: 'Chal (latte di cammella fermentato), Tè verde',
+        pl: 'Chal (sfermentowane mleko wielbłądzie), Zielona herbata',
+        nl: 'Chal (gefermenteerde kamelenmelk), Groene thee',
+        pt: 'Chal (leite de camela fermentado), Chá verde',
+      },
     },
     music: [
       { en: 'Traditional dutar string music', sv: 'Traditionell dutar-strängmusik', de: 'Traditionelle Dutar-Saitenmusik', fr: 'Musique traditionnelle à cordes dutar', es: 'Música tradicional de cuerda dutar', it: 'Musica tradizionale a corde dutar', pl: 'Tradycyjna muzyka strunowa dutar', nl: 'Traditionele dutar snaarinstrumentmuziek', pt: 'Música tradicional de cordas dutar' },

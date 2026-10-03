@@ -268,7 +268,7 @@ export const guyana: Country = {
       {
         name: {
           en: 'Cassareep Production',
-          sv: 'Cassareep Production',
+          sv: 'Tillverkning av cassareep',
           es: 'Producción de Cassareep',
           fr: 'Production de Cassareep',
           de: 'Cassareep-Produktion',
@@ -581,11 +581,11 @@ export const guyana: Country = {
           amount: 2,
           unit: {
             en: 'sticks',
-            sv: 'pinnar',
-            es: 'palos',
+            sv: 'stänger',
+            es: 'ramas',
             fr: 'bâtons',
-            de: 'Stöcke',
-            it: 'bastoncini',
+            de: 'Stangen',
+            it: 'stecche',
             pl: 'laski',
             nl: 'stokjes',
             pt: 'paus',
@@ -608,7 +608,7 @@ export const guyana: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -849,7 +849,7 @@ export const guyana: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -864,7 +864,7 @@ export const guyana: Country = {
             pt: 'Noz-moscada',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -879,7 +879,7 @@ export const guyana: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -964,8 +964,28 @@ export const guyana: Country = {
       imageUrl: 'https://images.pexels.com/photos/4023255/pexels-photo-4023255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'El Dorado rum, Banks beer',
-      nonAlcoholic: 'Mauby, Sorrel, Coconut water',
+      alcoholic: {
+        en: 'El Dorado rum, Banks beer',
+        sv: 'El Dorado-rom, Banks-öl',
+        de: 'El-Dorado-Rum, Banks-Bier',
+        fr: 'Rhum El Dorado, Bière Banks',
+        es: 'Ron El Dorado, Cerveza Banks',
+        it: 'Rum El Dorado, Birra Banks',
+        pl: 'Rum El Dorado, Piwo Banks',
+        nl: 'El Dorado-rum, Banks-bier',
+        pt: 'Rum El Dorado, Cerveja Banks',
+      },
+      nonAlcoholic: {
+        en: 'Mauby, Sorrel, Coconut water',
+        sv: 'Mauby, Sorrel, Kokosvatten',
+        de: 'Mauby, Sorrel, Kokoswasser',
+        fr: 'Mauby, Sorrel, Eau de coco',
+        es: 'Mauby, Sorrel, Agua de coco',
+        it: 'Mauby, Sorrel, Acqua di cocco',
+        pl: 'Mauby, Sorrel, Woda kokosowa',
+        nl: 'Mauby, Sorrel, Kokoswater',
+        pt: 'Mauby, Sorrel, Água de coco',
+      },
     },
     music: [
       { en: 'Chutney music', sv: 'Chutneymusik', de: 'Chutney-Musik', fr: 'Musique chutney', es: 'Música chutney', it: 'Musica chutney', pl: 'Muzyka chutney', nl: 'Chutney-muziek', pt: 'Música chutney' },
@@ -1353,7 +1373,7 @@ export const guyana: Country = {
         id: 'guyana-q7',
         question: {
           en: 'When did Guyana gain independence?',
-          sv: 'When did Guyana gain independence?',
+          sv: 'När blev Guyana självständigt?',
           es: '¿Cuándo obtuvo Guyana la independencia?',
           fr: 'Quand la Guyane a-t-elle obtenu son indépendance ?',
           de: 'Wann erlangte Guyana seine Unabhängigkeit?',
@@ -1435,7 +1455,7 @@ export const guyana: Country = {
         id: 'guyana-q9',
         question: {
           en: 'Which European country first colonized Guyana?',
-          sv: 'Which European country first colonized Guyana?',
+          sv: 'Vilket europeiskt land koloniserade Guyana först?',
           es: '¿Qué país europeo colonizó por primera vez Guyana?',
           fr: 'Quel pays européen a colonisé la Guyane pour la première fois ?',
           de: 'Welches europäische Land kolonisierte Guyana zuerst?',

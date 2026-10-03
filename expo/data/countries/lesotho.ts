@@ -603,7 +603,7 @@ export const lesotho: Country = {
             pt: 'Fermento em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -908,8 +908,28 @@ export const lesotho: Country = {
       imageUrl: 'https://images.pexels.com/photos/32421783/pexels-photo-32421783.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Joala (traditional beer)',
-      nonAlcoholic: 'Rooibos tea, Fresh milk',
+      alcoholic: {
+        en: 'Joala (traditional beer)',
+        sv: 'Joala (traditionellt öl)',
+        de: 'Joala (traditionelles Bier)',
+        fr: 'Joala (bière traditionnelle)',
+        es: 'Joala (cerveza tradicional)',
+        it: 'Joala (birra tradizionale)',
+        pl: 'Joala (tradycyjne piwo)',
+        nl: 'Joala (traditioneel bier)',
+        pt: 'Joala (cerveja tradicional)',
+      },
+      nonAlcoholic: {
+        en: 'Rooibos tea, Fresh milk',
+        sv: 'Rooiboste, Färsk mjölk',
+        de: 'Rooibostee, Frische Milch',
+        fr: 'Thé rooibos, Lait frais',
+        es: 'Té rooibos, Leche fresca',
+        it: 'Tè rooibos, Latte fresco',
+        pl: 'Herbata rooibos, Świeże mleko',
+        nl: 'Rooibosthee, Verse melk',
+        pt: 'Chá de rooibos, Leite fresco',
+      },
     },
     music: [
       { en: 'Traditional Famo music', sv: 'Traditionell Famo-musik', de: 'Traditionelle Famo-Musik', fr: 'Musique Famo traditionnelle', es: 'Música Famo tradicional', it: 'Musica Famo tradizionale', pl: 'Tradycyjna muzyka Famo', nl: 'Traditionele Famo-muziek', pt: 'Música Famo tradicional' },
@@ -1076,7 +1096,7 @@ export const lesotho: Country = {
           },
           {
             en: 'Kingdom in the Sky',
-            sv: 'Kingdom in the Sky',
+            sv: 'Kungariket i himlen',
             es: 'Reino en el cielo',
             fr: 'Royaume dans le ciel',
             de: 'Königreich im Himmel',

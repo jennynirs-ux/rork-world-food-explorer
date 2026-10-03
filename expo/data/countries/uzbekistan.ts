@@ -512,7 +512,7 @@ export const uzbekistan: Country = {
       {
         name: {
           en: 'Silk Road Trading System',
-          sv: 'Silk Road Trading System',
+          sv: 'Handelssystemet längs Sidenvägen',
           es: 'Sistema de comercio de la Ruta de la Seda',
           fr: 'Système commercial de la Route de la Soie',
           de: 'Seidenstraßen-Handelssystem',
@@ -537,7 +537,7 @@ export const uzbekistan: Country = {
       {
         name: {
           en: 'Ikat Textile Technique',
-          sv: 'Ikat Textile Technique',
+          sv: 'Ikat – textilteknik',
           es: 'Técnica Textil Ikat',
           fr: 'Technique textile Ikat',
           de: 'Ikat-Textiltechnik',
@@ -736,7 +736,7 @@ export const uzbekistan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -772,7 +772,7 @@ export const uzbekistan: Country = {
             pt: 'Sal',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1000,7 +1000,7 @@ export const uzbekistan: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1021,7 +1021,7 @@ export const uzbekistan: Country = {
             pt: 'Baunilha (opcional)',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1121,8 +1121,28 @@ export const uzbekistan: Country = {
       imageUrl: 'https://images.pexels.com/photos/6534454/pexels-photo-6534454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Vodka',
-      nonAlcoholic: 'Green tea, Fresh pomegranate juice',
+      alcoholic: {
+        en: 'Vodka',
+        sv: 'Vodka',
+        de: 'Wodka',
+        fr: 'Vodka',
+        es: 'Vodka',
+        it: 'Vodka',
+        pl: 'Wódka',
+        nl: 'Wodka',
+        pt: 'Vodca',
+      },
+      nonAlcoholic: {
+        en: 'Green tea, Fresh pomegranate juice',
+        sv: 'Grönt te, Färskpressad granatäppeljuice',
+        de: 'Grüner Tee, Frischer Granatapfelsaft',
+        fr: 'Thé vert, Jus de grenade frais',
+        es: 'Té verde, Jugo de granada natural',
+        it: 'Tè verde, Succo di melagrana fresco',
+        pl: 'Zielona herbata, Świeży sok z granatów',
+        nl: 'Groene thee, Vers granaatappelsap',
+        pt: 'Chá verde, Suco de romã natural',
+      },
     },
     music: [
       { en: 'Traditional Shashmaqam', sv: 'Traditionell Shashmaqam', de: 'Traditioneller Shashmaqam', fr: 'Shashmaqam traditionnel', es: 'Shashmaqam tradicional', it: 'Shashmaqam tradizionale', pl: 'Tradycyjny Shashmaqam', nl: 'Traditionele Shashmaqam', pt: 'Shashmaqam tradicional' },

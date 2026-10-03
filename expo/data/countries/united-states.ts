@@ -402,7 +402,7 @@ export const unitedStates: Country = {
       {
         name: {
           en: 'Smartphone Revolution',
-          sv: 'Smartphone Revolution',
+          sv: 'Smartphonerevolutionen',
           es: 'Revolución de los teléfonos inteligentes',
           fr: 'Révolution des smartphones',
           de: 'Smartphone-Revolution',
@@ -525,13 +525,13 @@ export const unitedStates: Country = {
       {
         name: {
           en: 'French Quarter, New Orleans',
-          sv: 'French Quarter, New Orleans',
+          sv: 'French Quarter i New Orleans',
           es: 'Barrio Francés, Nueva Orleans',
           fr: 'Quartier français, Nouvelle-Orléans',
-          de: 'French Quarter, New Orleans',
+          de: 'French Quarter in New Orleans',
           it: 'Quartiere Francese, New Orleans',
           pl: 'Dzielnica Francuska, Nowy Orlean',
-          nl: 'French Quarter, New Orleans',
+          nl: 'French Quarter in New Orleans',
           pt: 'Bairro Francês, Nova Orleans',
         },
         description: {
@@ -788,13 +788,13 @@ export const unitedStates: Country = {
           amount: 1,
           unit: {
             en: 'medium',
-            sv: 'medium',
-            es: 'medio',
+            sv: 'medelstor',
+            es: 'mediano',
             fr: 'moyen',
-            de: 'mittel',
+            de: 'mittelgroß',
             it: 'medio',
             pl: 'średni',
-            nl: 'gemiddeld',
+            nl: 'middelgroot',
             pt: 'médio',
           },
         },
@@ -863,9 +863,9 @@ export const unitedStates: Country = {
           amount: 1,
           unit: {
             en: 'to taste',
-            sv: 'att smaka',
+            sv: 'efter smak',
             es: 'al gusto',
-            fr: 'à déguster',
+            fr: 'au goût',
             de: 'nach Geschmack',
             it: 'a piacere',
             pl: 'do smaku',
@@ -1088,7 +1088,7 @@ export const unitedStates: Country = {
             pt: 'Canela',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1103,7 +1103,7 @@ export const unitedStates: Country = {
             pt: 'Noz-moscada',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1122,7 +1122,7 @@ export const unitedStates: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1147,7 +1147,7 @@ export const unitedStates: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1285,8 +1285,28 @@ export const unitedStates: Country = {
       imageUrl: 'https://images.pexels.com/photos/14892627/pexels-photo-14892627.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Bourbon, craft beer, California wine, classic cocktails',
-      nonAlcoholic: 'Coca-Cola, root beer, sweet tea, specialty coffee',
+      alcoholic: {
+        en: 'Bourbon, craft beer, California wine, classic cocktails',
+        sv: 'Bourbon, hantverksöl, kaliforniskt vin, klassiska cocktails',
+        de: 'Bourbon, Craft-Bier, kalifornischer Wein, klassische Cocktails',
+        fr: 'Bourbon, bière artisanale, vin de Californie, cocktails classiques',
+        es: 'Bourbon, cerveza artesanal, vino de California, cócteles clásicos',
+        it: 'Bourbon, birra artigianale, vino californiano, cocktail classici',
+        pl: 'Bourbon, piwo rzemieślnicze, wino kalifornijskie, klasyczne koktajle',
+        nl: 'Bourbon, ambachtelijk bier, Californische wijn, klassieke cocktails',
+        pt: 'Bourbon, cerveja artesanal, vinho da Califórnia, coquetéis clássicos',
+      },
+      nonAlcoholic: {
+        en: 'Coca-Cola, root beer, sweet tea, specialty coffee',
+        sv: 'Coca-Cola, root beer, sött iste, specialkaffe',
+        de: 'Coca-Cola, Root Beer, süßer Eistee, Spezialitätenkaffee',
+        fr: 'Coca-Cola, root beer, thé glacé sucré, café de spécialité',
+        es: 'Coca-Cola, root beer, té helado dulce, café de especialidad',
+        it: 'Coca-Cola, root beer, tè freddo zuccherato, caffè specialty',
+        pl: 'Coca-Cola, root beer, słodka mrożona herbata, kawa speciality',
+        nl: 'Coca-Cola, root beer, zoete ijsthee, speciaalkoffie',
+        pt: 'Coca-Cola, root beer, chá gelado adoçado, cafés especiais',
+      },
     },
     music: [
       { en: 'The Star-Spangled Banner', sv: 'The Star-Spangled Banner', de: 'The Star-Spangled Banner', fr: 'The Star-Spangled Banner', es: 'The Star-Spangled Banner', it: 'The Star-Spangled Banner', pl: 'The Star-Spangled Banner', nl: 'The Star-Spangled Banner', pt: 'The Star-Spangled Banner' },

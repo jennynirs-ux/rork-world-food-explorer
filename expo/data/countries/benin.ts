@@ -196,7 +196,7 @@ export const benin: Country = {
       },
       {
         en: 'The country was formerly called Dahomey',
-        sv: 'The country was formerly called Dahomey',
+        sv: 'Landet hette tidigare Dahomey',
         es: 'El país antes se llamaba Dahomey',
         fr: 'Le pays s\'appelait autrefois Dahomey',
         de: 'Das Land hieß früher Dahomey',
@@ -267,7 +267,7 @@ export const benin: Country = {
         title: 'Kingdom of Dahomey',
         description: {
           en: 'A powerful West African kingdom known for its military prowess, especially the all-female Agojie (Amazon Warriors), and its wealth from trade.',
-          sv: 'A powerful West African kingdom known for its military prowess, especially the all-female Agojie (Amazon Warriors), and its wealth from trade.',
+          sv: 'Ett mäktigt västafrikanskt kungadöme känt för sin militära styrka, särskilt de kvinnliga krigarna Agojie (amasonerna), och för sin rikedom från handel.',
           es: 'Un poderoso reino de África Occidental conocido por su destreza militar, especialmente las Agojie (Guerreras Amazónicas), exclusivamente femeninas, y su riqueza gracias al comercio.',
           fr: 'Un puissant royaume d\'Afrique de l\'Ouest connu pour ses prouesses militaires, en particulier les Agojie (guerrières amazoniennes) entièrement féminines, et pour ses richesses commerciales.',
           de: 'Ein mächtiges westafrikanisches Königreich, das für seine militärische Stärke, insbesondere die rein weiblichen Agojie (Amazonas-Krieger), und seinen Reichtum durch Handel bekannt ist.',
@@ -342,10 +342,10 @@ export const benin: Country = {
       {
         name: {
           en: 'Vodun (Voodoo) Religion',
-          sv: 'Vodun (Voodoo) Religion',
+          sv: 'Vodunreligionen (voodoo)',
           es: 'Religión vodún (vudú)',
           fr: 'Religion vaudou (vaudou)',
-          de: 'Vodun (Voodoo) Religion',
+          de: 'Vodun-Religion (Voodoo)',
           it: 'Religione Vodun (Voodoo)',
           pl: 'Religia wodu (voodoo)',
           nl: 'Vodun-religie (voodoo)',
@@ -367,10 +367,10 @@ export const benin: Country = {
       {
         name: {
           en: 'Amazon Women Warriors',
-          sv: 'Amazon Women Warriors',
+          sv: 'Amasonkrigarna',
           es: 'Mujeres Guerreras Amazonas',
           fr: 'Amazon Femmes Guerrières',
-          de: 'Amazon Women Warriors',
+          de: 'Amazonen-Kriegerinnen',
           it: 'Donne guerriere Amazzoni',
           pl: 'Wojowniczki Amazonki',
           nl: 'Amazonekrijgsters',
@@ -392,7 +392,7 @@ export const benin: Country = {
       {
         name: {
           en: 'Stilt Village Architecture',
-          sv: 'Stilt Village Architecture',
+          sv: 'Arkitektur i pålbyar',
           es: 'Arquitectura de pueblo sobre pilotes',
           fr: 'Architecture de village sur pilotis',
           de: 'Stelzendorf-Architektur',
@@ -468,7 +468,7 @@ export const benin: Country = {
       {
         name: {
           en: 'Door of No Return',
-          sv: 'Door of No Return',
+          sv: 'Porten utan återvändo',
           es: 'Puerta sin retorno',
           fr: 'Porte du non-retour',
           de: 'Tür ohne Wiederkehr',
@@ -492,7 +492,7 @@ export const benin: Country = {
       {
         name: {
           en: 'Royal Palaces of Abomey',
-          sv: 'Royal Palaces of Abomey',
+          sv: 'Kungliga palatsen i Abomey',
           es: 'Palacios Reales de Abomey',
           fr: 'Palais Royaux d\'Abomey',
           de: 'Königspaläste von Abomey',
@@ -567,7 +567,7 @@ export const benin: Country = {
         item: 'Best time to visit',
         description: {
           en: 'November to February for dry season with cooler temperatures.',
-          sv: 'November to February for dry season with cooler temperatures.',
+          sv: 'November till februari för torrsäsong med svalare temperaturer.',
           es: 'De noviembre a febrero es la estación seca con temperaturas más frescas.',
           fr: 'De novembre à février pour la saison sèche avec des températures plus fraîches.',
           de: 'November bis Februar für Trockenzeit mit kühleren Temperaturen.',
@@ -635,7 +635,7 @@ export const benin: Country = {
           en: 'Yellow fever vaccination required. Malaria prophylaxis recommended.',
           sv: 'Vaccination mot gula febern krävs. Malariaprofylax rekommenderas.',
           es: 'Se requiere vacuna contra la fiebre amarilla. Se recomienda profilaxis contra la malaria.',
-          fr: 'Yellow fever vaccination required. Malaria prophylaxis recommended.',
+          fr: 'Vaccination contre la fièvre jaune obligatoire. Prophylaxie antipaludique recommandée.',
           de: 'Gelbfieberimpfung erforderlich. Malariaprophylaxe empfohlen.',
           it: 'È richiesta la vaccinazione contro la febbre gialla. Si consiglia la profilassi antimalarica.',
           pl: 'Wymagane jest szczepienie przeciwko żółtej gorączce. Zalecana profilaktyka przeciwmalaryczna.',
@@ -649,7 +649,7 @@ export const benin: Country = {
           en: 'Vodun is deeply respected; seek permission before photographing ceremonies.',
           sv: 'Vodun är djupt respekterad; sök tillstånd innan du fotograferar ceremonier.',
           es: 'El vodun es profundamente respetado; Solicite permiso antes de fotografiar ceremonias.',
-          fr: 'Vodun is deeply respected; seek permission before photographing ceremonies.',
+          fr: 'Le vodoun est profondément respecté ; demandez la permission avant de photographier des cérémonies.',
           de: 'Vodun genießt großen Respekt; Holen Sie vor dem Fotografieren von Zeremonien eine Genehmigung ein.',
           it: 'Il Vodun è profondamente rispettato: chiedere il permesso prima di fotografare le cerimonie.',
           pl: 'Wodu jest głęboko szanowane – przed sfotografowaniem ceremonii zapytaj o pozwolenie.',
@@ -725,7 +725,7 @@ export const benin: Country = {
             pt: 'Cebola em pó',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -740,7 +740,7 @@ export const benin: Country = {
             pt: 'Gengibre em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -755,7 +755,7 @@ export const benin: Country = {
             pt: 'Pimenta caiena',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -770,7 +770,7 @@ export const benin: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -793,7 +793,7 @@ export const benin: Country = {
           en: 'Grind roasted peanuts into paste',
           sv: 'Mal rostade jordnötter till pasta',
           es: 'Moler maní tostado hasta obtener una pasta.',
-          fr: 'Grind roasted peanuts into paste',
+          fr: 'Moudre les cacahuètes grillées en pâte',
           de: 'Geröstete Erdnüsse zu einer Paste zermahlen',
           it: 'Macinare le arachidi tostate fino a ottenere una pasta',
           pl: 'Zmiel prażone orzeszki na pastę',
@@ -940,7 +940,7 @@ export const benin: Country = {
             pt: 'Fermento biológico seco ativo',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -970,7 +970,7 @@ export const benin: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -985,7 +985,7 @@ export const benin: Country = {
             pt: 'Noz-moscada',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1118,8 +1118,28 @@ export const benin: Country = {
       imageUrl: 'https://images.pexels.com/photos/18532489/pexels-photo-18532489.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Palm wine, Local beer, Sodabi (palm liquor)',
-      nonAlcoholic: 'Tchakpalo (millet drink), Bissap (hibiscus tea), Ginger juice',
+      alcoholic: {
+        en: 'Palm wine, Local beer, Sodabi (palm liquor)',
+        sv: 'Palmvin, Lokalt öl, Sodabi (palmsprit)',
+        de: 'Palmwein, Lokales Bier, Sodabi (Palmschnaps)',
+        fr: 'Vin de palme, Bière locale, Sodabi (alcool de palme)',
+        es: 'Vino de palma, Cerveza local, Sodabi (licor de palma)',
+        it: 'Vino di palma, Birra locale, Sodabi (liquore di palma)',
+        pl: 'Wino palmowe, Lokalne piwo, Sodabi (wódka palmowa)',
+        nl: 'Palmwijn, Lokaal bier, Sodabi (gedistilleerde palmwijn)',
+        pt: 'Vinho de palma, Cerveja local, Sodabi (aguardente de palma)',
+      },
+      nonAlcoholic: {
+        en: 'Tchakpalo (millet drink), Bissap (hibiscus tea), Ginger juice',
+        sv: 'Tchakpalo (hirsdryck), Bissap (hibiskuste), Ingefärsjuice',
+        de: 'Tchakpalo (Hirsegetränk), Bissap (Hibiskustee), Ingwersaft',
+        fr: 'Tchakpalo (boisson au mil), Bissap (infusion d\'hibiscus), Jus de gingembre',
+        es: 'Tchakpalo (bebida de mijo), Bissap (té de hibisco), Jugo de jengibre',
+        it: 'Tchakpalo (bevanda di miglio), Bissap (tè di ibisco), Succo di zenzero',
+        pl: 'Tchakpalo (napój z prosa), Bissap (herbata z hibiskusa), Sok imbirowy',
+        nl: 'Tchakpalo (gierstdrank), Bissap (hibiscusthee), Gembersap',
+        pt: 'Tchakpalo (bebida de painço), Bissap (chá de hibisco), Suco de gengibre',
+      },
     },
     music: [
       { en: 'Traditional Vodun music', sv: 'Traditionell Vodun-musik', de: 'Traditionelle Vodun-Musik', fr: 'Musique Vodun traditionnelle', es: 'Música Vodun tradicional', it: 'Musica Vodun tradizionale', pl: 'Tradycyjna muzyka Vodun', nl: 'Traditionele Vodun-muziek', pt: 'Música Vodun tradicional' },
@@ -1337,7 +1357,7 @@ export const benin: Country = {
         options: [
           {
             en: 'Warriors of Light',
-            sv: 'Warriors of Light',
+            sv: 'Ljusets krigare',
             es: 'Guerreros de la Luz',
             fr: 'Guerriers de Lumière',
             de: 'Krieger des Lichts',
@@ -1491,7 +1511,7 @@ export const benin: Country = {
           },
           {
             en: 'Door of No Return',
-            sv: 'Door of No Return',
+            sv: 'Porten utan återvändo',
             es: 'Puerta sin retorno',
             fr: 'Porte du non-retour',
             de: 'Tür ohne Wiederkehr',
@@ -1563,7 +1583,7 @@ export const benin: Country = {
           },
           {
             en: 'Royal Palaces of Abomey',
-            sv: 'Royal Palaces of Abomey',
+            sv: 'Kungliga palatsen i Abomey',
             es: 'Palacios Reales de Abomey',
             fr: 'Palais Royaux d\'Abomey',
             de: 'Königspaläste von Abomey',

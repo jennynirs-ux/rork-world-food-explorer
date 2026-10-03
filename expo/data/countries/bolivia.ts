@@ -815,7 +815,7 @@ export const bolivia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'cuillère à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -836,7 +836,7 @@ export const bolivia: Country = {
             pt: 'Cominho, páprica',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -855,7 +855,7 @@ export const bolivia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'cuillère à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1057,7 +1057,7 @@ export const bolivia: Country = {
             en: 'large',
             sv: 'stor',
             es: 'grande',
-            fr: 'grande',
+            fr: 'grand',
             de: 'groß',
             it: 'grande',
             pl: 'duży',
@@ -1078,7 +1078,7 @@ export const bolivia: Country = {
             pt: 'Fermento em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1093,7 +1093,7 @@ export const bolivia: Country = {
             pt: 'Sementes de erva-doce',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1241,8 +1241,28 @@ export const bolivia: Country = {
       imageUrl: 'https://images.pexels.com/photos/3970049/pexels-photo-3970049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Singani (grape brandy), Chicha (corn beer), Cerveza Paceña',
-      nonAlcoholic: 'Mocochinchi (dried peach drink), Api (hot corn drink), Coca tea',
+      alcoholic: {
+        en: 'Singani (grape brandy), Chicha (corn beer), Cerveza Paceña',
+        sv: 'Singani (druvbrandy), Chicha (majsöl), Cerveza Paceña',
+        de: 'Singani (Traubenbrand), Chicha (Maisbier), Cerveza Paceña',
+        fr: 'Singani (eau-de-vie de raisin), Chicha (bière de maïs), Cerveza Paceña',
+        es: 'Singani (aguardiente de uva), Chicha (cerveza de maíz), Cerveza Paceña',
+        it: 'Singani (acquavite d\'uva), Chicha (birra di mais), Cerveza Paceña',
+        pl: 'Singani (brandy z winogron), Chicha (piwo kukurydziane), Cerveza Paceña',
+        nl: 'Singani (druivenbrandewijn), Chicha (maïsbier), Cerveza Paceña',
+        pt: 'Singani (aguardente de uva), Chicha (cerveja de milho), Cerveza Paceña',
+      },
+      nonAlcoholic: {
+        en: 'Mocochinchi (dried peach drink), Api (hot corn drink), Coca tea',
+        sv: 'Mocochinchi (dryck på torkad persika), Api (varm majsdryck), Kokate',
+        de: 'Mocochinchi (Getränk aus getrockneten Pfirsichen), Api (heißes Maisgetränk), Coca-Tee',
+        fr: 'Mocochinchi (boisson à la pêche séchée), Api (boisson chaude au maïs), Thé de coca',
+        es: 'Mocochinchi (bebida de melocotón seco), Api (bebida caliente de maíz), Té de coca',
+        it: 'Mocochinchi (bevanda di pesche essiccate), Api (bevanda calda di mais), Tè di coca',
+        pl: 'Mocochinchi (napój z suszonych brzoskwiń), Api (gorący napój kukurydziany), Herbata z liści koki',
+        nl: 'Mocochinchi (drank van gedroogde perziken), Api (warme maïsdrank), Cocathee',
+        pt: 'Mocochinchi (bebida de pêssego seco), Api (bebida quente de milho), Chá de coca',
+      },
     },
     music: [
       { en: 'Andean folk music', sv: 'Andinska folkmusik', de: 'Andine Volksmusik', fr: 'Musique folk andine', es: 'Música folclórica andina', it: 'Musica folk andina', pl: 'Andyjska muzyka ludowa', nl: 'Andijns volksmuziek', pt: 'Música folclórica andina' },

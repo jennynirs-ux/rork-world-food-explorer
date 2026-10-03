@@ -278,7 +278,7 @@ export const micronesia: Country = {
       {
         name: {
           en: 'Stone Money System',
-          sv: 'Stone Money System',
+          sv: 'Stenpengar',
           es: 'Sistema de dinero de piedra',
           fr: 'Système d\'argent en pierre',
           de: 'Steingeldsystem',
@@ -592,7 +592,7 @@ export const micronesia: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -898,8 +898,28 @@ export const micronesia: Country = {
       imageUrl: 'https://images.pexels.com/photos/533325/pexels-photo-533325.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Sakau (kava)',
-      nonAlcoholic: 'Coconut water, Fresh fruit juice',
+      alcoholic: {
+        en: 'Sakau (kava)',
+        sv: 'Sakau (kavadryck)',
+        de: 'Sakau (Kava-Getränk)',
+        fr: 'Sakau (boisson de kava)',
+        es: 'Sakau (bebida de kava)',
+        it: 'Sakau (bevanda di kava)',
+        pl: 'Sakau (napój kava)',
+        nl: 'Sakau (kavadrank)',
+        pt: 'Sakau (bebida de kava)',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Fresh fruit juice',
+        sv: 'Kokosvatten, Färsk fruktjuice',
+        de: 'Kokoswasser, Frischer Fruchtsaft',
+        fr: 'Eau de coco, Jus de fruits frais',
+        es: 'Agua de coco, Jugo de fruta natural',
+        it: 'Acqua di cocco, Succo di frutta fresco',
+        pl: 'Woda kokosowa, Świeży sok owocowy',
+        nl: 'Kokoswater, Vers vruchtensap',
+        pt: 'Água de coco, Suco de fruta natural',
+      },
     },
     music: [
       { en: 'Traditional chants', sv: 'Traditionella sånger', de: 'Traditionelle Gesänge', fr: 'Chants traditionnels', es: 'Cantos tradicionales', it: 'Canti tradizionali', pl: 'Tradycyjne śpiewy', nl: 'Traditionele gezangen', pt: 'Cantos tradicionais' },

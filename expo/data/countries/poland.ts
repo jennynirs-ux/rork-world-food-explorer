@@ -340,7 +340,7 @@ export const poland: Country = {
       {
         name: {
           en: 'Radium & Polonium',
-          sv: 'Radium & Polonium',
+          sv: 'Radium och polonium',
           es: 'Radio y Polonio',
           fr: 'Radium et polonium',
           de: 'Radium und Polonium',
@@ -720,7 +720,7 @@ export const poland: Country = {
             pt: 'Sal e pimenta',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -937,7 +937,7 @@ export const poland: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -956,7 +956,7 @@ export const poland: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -981,7 +981,7 @@ export const poland: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1098,8 +1098,28 @@ export const poland: Country = {
       imageUrl: 'https://images.pexels.com/photos/33173914/pexels-photo-33173914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Vodka (Żubrówka, Belvedere), Polish beer (Tyskie, Żywiec), Nalewka (fruit liqueur)',
-      nonAlcoholic: 'Kompot (fruit drink), Herbata (tea), Apple juice, Hot chocolate',
+      alcoholic: {
+        en: 'Vodka (Żubrówka, Belvedere), Polish beer (Tyskie, Żywiec), Nalewka (fruit liqueur)',
+        sv: 'Vodka (Żubrówka, Belvedere), Polskt öl (Tyskie, Żywiec), Nalewka (fruktlikör)',
+        de: 'Wodka (Żubrówka, Belvedere), Polnisches Bier (Tyskie, Żywiec), Nalewka (Fruchtlikör)',
+        fr: 'Vodka (Żubrówka, Belvedere), Bière polonaise (Tyskie, Żywiec), Nalewka (liqueur de fruits)',
+        es: 'Vodka (Żubrówka, Belvedere), Cerveza polaca (Tyskie, Żywiec), Nalewka (licor de frutas)',
+        it: 'Vodka (Żubrówka, Belvedere), Birra polacca (Tyskie, Żywiec), Nalewka (liquore di frutta)',
+        pl: 'Wódka (Żubrówka, Belvedere), Polskie piwo (Tyskie, Żywiec), Nalewka (likier owocowy)',
+        nl: 'Wodka (Żubrówka, Belvedere), Pools bier (Tyskie, Żywiec), Nalewka (vruchtenlikeur)',
+        pt: 'Vodca (Żubrówka, Belvedere), Cerveja polonesa (Tyskie, Żywiec), Nalewka (licor de frutas)',
+      },
+      nonAlcoholic: {
+        en: 'Kompot (fruit drink), Herbata (tea), Apple juice, Hot chocolate',
+        sv: 'Kompot (fruktdryck), Herbata (te), Äppeljuice, Varm choklad',
+        de: 'Kompot (Fruchtgetränk), Herbata (Tee), Apfelsaft, Heiße Schokolade',
+        fr: 'Kompot (boisson aux fruits), Herbata (thé), Jus de pomme, Chocolat chaud',
+        es: 'Kompot (bebida de frutas), Herbata (té), Jugo de manzana, Chocolate caliente',
+        it: 'Kompot (bevanda alla frutta), Herbata (tè), Succo di mela, Cioccolata calda',
+        pl: 'Kompot (napój owocowy), Herbata, Sok jabłkowy, Gorąca czekolada',
+        nl: 'Kompot (vruchtendrank), Herbata (thee), Appelsap, Warme chocolademelk',
+        pt: 'Kompot (bebida de frutas), Herbata (chá), Suco de maçã, Chocolate quente',
+      },
     },
     music: [
       { en: 'Chopin - world-famous composer', sv: 'Chopin - världsberömd kompositör', de: 'Chopin - weltberühmter Komponist', fr: 'Chopin - compositeur de renommée mondiale', es: 'Chopin - compositor de fama mundial', it: 'Chopin - compositore di fama mondiale', pl: 'Chopin - kompozytor światowej sławy', nl: 'Chopin - wereldberoemde componist', pt: 'Chopin - compositor mundialmente famoso' },

@@ -513,7 +513,7 @@ export const suriname: Country = {
       {
         name: {
           en: 'Pom Dish Creation',
-          sv: 'Pom Dish Creation',
+          sv: 'Skapandet av rätten pom',
           es: 'Creación de platos con pompones',
           fr: 'Création de plat Pom',
           de: 'Kreation von Pom-Gerichten',
@@ -737,7 +737,7 @@ export const suriname: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -758,7 +758,7 @@ export const suriname: Country = {
             pt: 'Noz-moscada',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -773,7 +773,7 @@ export const suriname: Country = {
             pt: 'Pimenta preta',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -788,7 +788,7 @@ export const suriname: Country = {
             pt: 'Sal',
           },
           amount: 2,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -807,7 +807,7 @@ export const suriname: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1089,7 +1089,7 @@ export const suriname: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1104,7 +1104,7 @@ export const suriname: Country = {
             pt: 'Noz-moscada',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1119,7 +1119,7 @@ export const suriname: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1215,8 +1215,28 @@ export const suriname: Country = {
       imageUrl: 'https://images.pexels.com/photos/940838/pexels-photo-940838.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Parbo Beer, Rum',
-      nonAlcoholic: 'Dawet, Ginger beer, Fresh tropical juices',
+      alcoholic: {
+        en: 'Parbo Beer, Rum',
+        sv: 'Parbo-öl, Rom',
+        de: 'Parbo-Bier, Rum',
+        fr: 'Bière Parbo, Rhum',
+        es: 'Cerveza Parbo, Ron',
+        it: 'Birra Parbo, Rum',
+        pl: 'Piwo Parbo, Rum',
+        nl: 'Parbo Bier, Rum',
+        pt: 'Cerveja Parbo, Rum',
+      },
+      nonAlcoholic: {
+        en: 'Dawet, Ginger beer, Fresh tropical juices',
+        sv: 'Dawet, Ingefärsdricka, Färskpressade tropiska juicer',
+        de: 'Dawet, Ingwerbier, Frische tropische Säfte',
+        fr: 'Dawet, Bière de gingembre, Jus tropicaux frais',
+        es: 'Dawet, Cerveza de jengibre, Jugos tropicales naturales',
+        it: 'Dawet, Birra allo zenzero, Succhi tropicali freschi',
+        pl: 'Dawet, Piwo imbirowe, Świeże soki tropikalne',
+        nl: 'Dawet, Gemberbier, Verse tropische sappen',
+        pt: 'Dawet, Cerveja de gengibre, Sucos tropicais naturais',
+      },
     },
     music: [
       { en: 'Kaseko', sv: 'Kaseko', de: 'Kaseko', fr: 'Kaseko', es: 'Kaseko', it: 'Kaseko', pl: 'Kaseko', nl: 'Kaseko', pt: 'Kaseko' },

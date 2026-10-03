@@ -867,9 +867,9 @@ export const newZealand: Country = {
           amount: 1,
           unit: {
             en: 'to taste',
-            sv: 'att smaka',
+            sv: 'efter smak',
             es: 'al gusto',
-            fr: 'à déguster',
+            fr: 'au goût',
             de: 'nach Geschmack',
             it: 'a piacere',
             pl: 'do smaku',
@@ -1084,7 +1084,7 @@ export const newZealand: Country = {
             pt: 'Vinagre branco',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1099,7 +1099,7 @@ export const newZealand: Country = {
             pt: 'Amido de milho',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1297,8 +1297,28 @@ export const newZealand: Country = {
       imageUrl: 'https://images.pexels.com/photos/31500975/pexels-photo-31500975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Craft beer, L&P (lemon and paeroa soda)',
-      nonAlcoholic: 'Flat white coffee, Manuka honey drinks, Fresh fruit juices',
+      alcoholic: {
+        en: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Craft beer',
+        sv: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Hantverksöl',
+        de: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Craft-Bier',
+        fr: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Bière artisanale',
+        es: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Cerveza artesanal',
+        it: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Birra artigianale',
+        pl: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Piwo kraftowe',
+        nl: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Craftbier',
+        pt: 'Marlborough Sauvignon Blanc, Central Otago Pinot Noir, Cerveja artesanal',
+      },
+      nonAlcoholic: {
+        en: 'Flat white coffee, Manuka honey drinks, Fresh fruit juices, L&P (lemon and paeroa soda)',
+        sv: 'Flat white-kaffe, Drycker med manukahonung, Färska fruktjuicer, L&P (citronläsk från Paeroa)',
+        de: 'Flat-White-Kaffee, Getränke mit Manuka-Honig, Frische Fruchtsäfte, L&P (Zitronenlimonade aus Paeroa)',
+        fr: 'Café flat white, Boissons au miel de manuka, Jus de fruits frais, L&P (soda au citron de Paeroa)',
+        es: 'Café flat white, Bebidas con miel de manuka, Jugos de fruta naturales, L&P (refresco de limón de Paeroa)',
+        it: 'Caffè flat white, Bevande al miele di manuka, Succhi di frutta freschi, L&P (bibita al limone di Paeroa)',
+        pl: 'Kawa flat white, Napoje z miodem manuka, Świeże soki owocowe, L&P (napój cytrynowy z Paeroa)',
+        nl: 'Flat white-koffie, Drankjes met manukahoning, Verse vruchtensappen, L&P (citroenfrisdrank uit Paeroa)',
+        pt: 'Café flat white, Bebidas com mel de manuka, Sucos de frutas naturais, L&P (refrigerante de limão de Paeroa)',
+      },
     },
     music: [
       { en: 'Poi E - Patea Maori Club', sv: 'Poi E - Patea Maori Club', de: 'Poi E - Patea Maori Club', fr: 'Poi E - Patea Maori Club', es: 'Poi E - Patea Maori Club', it: 'Poi E - Patea Maori Club', pl: 'Poi E - Patea Maori Club', nl: 'Poi E - Patea Maori Club', pt: 'Poi E - Patea Maori Club' },

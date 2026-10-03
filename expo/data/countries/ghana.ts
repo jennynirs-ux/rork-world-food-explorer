@@ -290,7 +290,7 @@ export const ghana: Country = {
       {
         name: {
           en: 'Kente Cloth',
-          sv: 'Kente Cloth',
+          sv: 'Kentetyg',
           es: 'Tela Kente',
           fr: 'Tissu Kente',
           de: 'Kente-Tuch',
@@ -615,7 +615,7 @@ export const ghana: Country = {
             pt: 'Bicarbonato de sódio',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -630,7 +630,7 @@ export const ghana: Country = {
             pt: 'Sal',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -845,7 +845,7 @@ export const ghana: Country = {
             pt: 'Noz-moscada',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -860,7 +860,7 @@ export const ghana: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -960,8 +960,28 @@ export const ghana: Country = {
       imageUrl: 'https://images.pexels.com/photos/295043/pexels-photo-295043.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Akpeteshie (local gin), Club beer, Palm wine, Guinness',
-      nonAlcoholic: 'Sobolo (hibiscus drink), Asana (fermented corn drink), Fresh coconut water, Malt drinks',
+      alcoholic: {
+        en: 'Akpeteshie (local gin), Club beer, Palm wine, Guinness',
+        sv: 'Akpeteshie (lokal gin), Club-öl, Palmvin, Guinness',
+        de: 'Akpeteshie (lokaler Gin), Club-Bier, Palmwein, Guinness',
+        fr: 'Akpeteshie (gin local), Bière Club, Vin de palme, Guinness',
+        es: 'Akpeteshie (ginebra local), Cerveza Club, Vino de palma, Guinness',
+        it: 'Akpeteshie (gin locale), Birra Club, Vino di palma, Guinness',
+        pl: 'Akpeteshie (lokalny gin), Piwo Club, Wino palmowe, Guinness',
+        nl: 'Akpeteshie (lokale gin), Club-bier, Palmwijn, Guinness',
+        pt: 'Akpeteshie (gim local), Cerveja Club, Vinho de palma, Guinness',
+      },
+      nonAlcoholic: {
+        en: 'Sobolo (hibiscus drink), Asana (fermented corn drink), Fresh coconut water, Malt drinks',
+        sv: 'Sobolo (hibiskusdryck), Asana (fermenterad majsdryck), Färskt kokosvatten, Maltdrycker',
+        de: 'Sobolo (Hibiskusgetränk), Asana (fermentiertes Maisgetränk), Frisches Kokoswasser, Malzgetränke',
+        fr: 'Sobolo (boisson à l\'hibiscus), Asana (boisson fermentée au maïs), Eau de coco fraîche, Boissons maltées',
+        es: 'Sobolo (bebida de hibisco), Asana (bebida fermentada de maíz), Agua de coco fresca, Bebidas de malta',
+        it: 'Sobolo (bevanda all\'ibisco), Asana (bevanda fermentata di mais), Acqua di cocco fresca, Bevande al malto',
+        pl: 'Sobolo (napój z hibiskusa), Asana (fermentowany napój kukurydziany), Świeża woda kokosowa, Napoje słodowe',
+        nl: 'Sobolo (hibiscusdrank), Asana (gefermenteerde maïsdrank), Vers kokoswater, Moutdranken',
+        pt: 'Sobolo (bebida de hibisco), Asana (bebida fermentada de milho), Água de coco fresca, Bebidas de malte',
+      },
     },
     music: [
       { en: 'Highlife music - traditional Ghanaian genre', sv: 'Highlife-musik - traditionell ghanesisk genre', de: 'Highlife-Musik – traditionelles ghanaisches Genre', fr: 'Highlife – genre ghanéen traditionnel', es: 'Música highlife - género tradicional ghanés', it: 'Musica highlife - genere tradizionale ghanese', pl: 'Muzyka highlife - tradycyjny gatunek ghański', nl: 'Highlife-muziek - traditioneel Ghanees genre', pt: 'Música highlife - gênero tradicional ganense' },

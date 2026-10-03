@@ -813,10 +813,10 @@ export const ireland: Country = {
       id: 'ireland-dessert',
       name: {
         en: 'Baileys Irish Cream Cheesecake',
-        sv: 'Baileys Irish Cream Cheesecake',
+        sv: 'Cheesecake med Baileys',
         es: 'Tarta de queso con crema irlandesa Baileys',
         fr: 'Gâteau au fromage à la crème irlandais Baileys',
-        de: 'Baileys Irish Cream Cheesecake',
+        de: 'Baileys-Käsekuchen',
         it: 'Cheesecake al Baileys Irish Cream',
         pl: 'Sernik z Baileys Irish Cream',
         nl: 'Baileys Irish Cream-cheesecake',
@@ -976,7 +976,7 @@ export const ireland: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -1061,8 +1061,28 @@ export const ireland: Country = {
       imageUrl: 'https://images.pexels.com/photos/29559425/pexels-photo-29559425.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Guinness, Irish whiskey (Jameson, Bushmills), Baileys Irish Cream, Irish coffee',
-      nonAlcoholic: 'Barry\'s tea, Cidona (apple drink), Hot chocolate, Mineral water',
+      alcoholic: {
+        en: 'Guinness, Irish whiskey (Jameson, Bushmills), Baileys Irish Cream, Irish coffee',
+        sv: 'Guinness, Irländsk whiskey (Jameson, Bushmills), Baileys Irish Cream, Irish coffee',
+        de: 'Guinness, Irischer Whiskey (Jameson, Bushmills), Baileys Irish Cream, Irish Coffee',
+        fr: 'Guinness, Whiskey irlandais (Jameson, Bushmills), Baileys Irish Cream, Irish coffee',
+        es: 'Guinness, Whiskey irlandés (Jameson, Bushmills), Baileys Irish Cream, Café irlandés',
+        it: 'Guinness, Whiskey irlandese (Jameson, Bushmills), Baileys Irish Cream, Irish coffee',
+        pl: 'Guinness, Irlandzka whiskey (Jameson, Bushmills), Baileys Irish Cream, Kawa po irlandzku',
+        nl: 'Guinness, Ierse whiskey (Jameson, Bushmills), Baileys Irish Cream, Irish coffee',
+        pt: 'Guinness, Uísque irlandês (Jameson, Bushmills), Baileys Irish Cream, Café irlandês',
+      },
+      nonAlcoholic: {
+        en: 'Barry\'s tea, Cidona (apple drink), Hot chocolate, Mineral water',
+        sv: 'Barry\'s-te, Cidona (äppeldryck), Varm choklad, Mineralvatten',
+        de: 'Barry\'s Tee, Cidona (Apfelgetränk), Heiße Schokolade, Mineralwasser',
+        fr: 'Thé Barry\'s, Cidona (boisson à la pomme), Chocolat chaud, Eau minérale',
+        es: 'Té Barry\'s, Cidona (bebida de manzana), Chocolate caliente, Agua mineral',
+        it: 'Tè Barry\'s, Cidona (bevanda alla mela), Cioccolata calda, Acqua minerale',
+        pl: 'Herbata Barry\'s, Cidona (napój jabłkowy), Gorąca czekolada, Woda mineralna',
+        nl: 'Barry\'s thee, Cidona (appeldrank), Warme chocolademelk, Mineraalwater',
+        pt: 'Chá Barry\'s, Cidona (bebida de maçã), Chocolate quente, Água mineral',
+      },
     },
     music: [
       { en: 'Danny Boy - traditional', sv: 'Danny Boy - traditionell', de: 'Danny Boy - traditionell', fr: 'Danny Boy - traditionnel', es: 'Danny Boy - tradicional', it: 'Danny Boy - tradizionale', pl: 'Danny Boy - tradycyjny', nl: 'Danny Boy - traditioneel', pt: 'Danny Boy - tradicional' },
@@ -1112,7 +1132,7 @@ export const ireland: Country = {
           },
           {
             en: 'The Emerald Isle',
-            sv: 'The Emerald Isle',
+            sv: 'Smaragdön',
             es: 'La Isla Esmeralda',
             fr: 'L\'île d\'Émeraude',
             de: 'Die Smaragdinsel',
@@ -1528,7 +1548,7 @@ export const ireland: Country = {
         options: [
           {
             en: 'White Cliffs of Dover',
-            sv: 'White Cliffs of Dover',
+            sv: 'Vita klipporna i Dover',
             es: 'Acantilados blancos de Dover',
             fr: 'Falaises blanches de Douvres',
             de: 'Weiße Klippen von Dover',

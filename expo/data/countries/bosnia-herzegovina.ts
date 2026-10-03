@@ -357,7 +357,7 @@ export const bosniaHerzegovina: Country = {
       {
         name: {
           en: 'Stari Most Bridge Engineering',
-          sv: 'Stari Most Bridge Engineering',
+          sv: 'Brobyggnadskonsten bakom Stari Most',
           es: 'Ingeniería del puente Stari Most',
           fr: 'Ingénierie du pont Stari Most',
           de: 'Stari Most Brückenbau',
@@ -382,7 +382,7 @@ export const bosniaHerzegovina: Country = {
       {
         name: {
           en: 'Baščaršija Marketplace',
-          sv: 'Baščaršija Marketplace',
+          sv: 'Basaren Baščaršija',
           es: 'Mercado de Baščaršija',
           fr: 'Marché de Baščaršija',
           de: 'Baščaršija Marktplatz',
@@ -432,7 +432,7 @@ export const bosniaHerzegovina: Country = {
       {
         name: {
           en: 'Post-Conflict Reconciliation Models',
-          sv: 'Post-Conflict Reconciliation Models',
+          sv: 'Modeller för försoning efter konflikt',
           es: 'Modelos de reconciliación posconflicto',
           fr: 'Modèles de réconciliation post-conflit',
           de: 'Post-Konflikt-Versöhnungsmodelle',
@@ -757,14 +757,14 @@ export const bosniaHerzegovina: Country = {
           amount: 4,
           unit: {
             en: 'cloves',
-            sv: 'kryddnejlika',
-            es: 'clavo',
-            fr: 'clous de girofle',
-            de: 'Nelken',
-            it: 'chiodi di garofano',
-            pl: 'goździki',
-            nl: 'kruidnagels',
-            pt: 'cravo-da-índia',
+            sv: 'klyftor',
+            es: 'dientes',
+            fr: 'gousses',
+            de: 'Zehen',
+            it: 'spicchi',
+            pl: 'ząbki',
+            nl: 'teentjes',
+            pt: 'dentes',
           },
         },
         {
@@ -780,7 +780,7 @@ export const bosniaHerzegovina: Country = {
             pt: 'Páprica',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1019,7 +1019,7 @@ export const bosniaHerzegovina: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -1173,8 +1173,28 @@ export const bosniaHerzegovina: Country = {
       imageUrl: 'https://images.pexels.com/photos/6210968/pexels-photo-6210968.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Rakija (fruit brandy), Bosnian beer',
-      nonAlcoholic: 'Bosnian coffee, Boza (fermented drink), Turkish tea',
+      alcoholic: {
+        en: 'Rakija (fruit brandy), Bosnian beer',
+        sv: 'Rakija (fruktbrännvin), Bosniskt öl',
+        de: 'Rakija (Obstbrand), Bosnisches Bier',
+        fr: 'Rakija (eau-de-vie de fruits), Bière bosnienne',
+        es: 'Rakija (aguardiente de frutas), Cerveza bosnia',
+        it: 'Rakija (acquavite di frutta), Birra bosniaca',
+        pl: 'Rakija (wódka owocowa), Piwo bośniackie',
+        nl: 'Rakija (vruchtenbrandewijn), Bosnisch bier',
+        pt: 'Rakija (aguardente de frutas), Cerveja bósnia',
+      },
+      nonAlcoholic: {
+        en: 'Bosnian coffee, Boza (fermented drink), Turkish tea',
+        sv: 'Bosniskt kaffe, Boza (fermenterad dryck), Turkiskt te',
+        de: 'Bosnischer Kaffee, Boza (fermentiertes Getränk), Türkischer Tee',
+        fr: 'Café bosnien, Boza (boisson fermentée), Thé turc',
+        es: 'Café bosnio, Boza (bebida fermentada), Té turco',
+        it: 'Caffè bosniaco, Boza (bevanda fermentata), Tè turco',
+        pl: 'Kawa bośniacka, Boza (napój fermentowany), Herbata turecka',
+        nl: 'Bosnische koffie, Boza (gefermenteerde drank), Turkse thee',
+        pt: 'Café bósnio, Boza (bebida fermentada), Chá turco',
+      },
     },
     music: [
       { en: 'Sevdah traditional songs', sv: 'Traditionella sevdah-sånger', de: 'Traditionelle Sevdah-Lieder', fr: 'Chansons traditionnelles sevdah', es: 'Canciones tradicionales sevdah', it: 'Canzoni tradizionali sevdah', pl: 'Tradycyjne piosenki sevdah', nl: 'Traditionele sevdah liedjes', pt: 'Canções tradicionais sevdah' },

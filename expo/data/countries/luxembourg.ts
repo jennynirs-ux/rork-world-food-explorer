@@ -268,7 +268,7 @@ export const luxembourg: Country = {
       {
         name: {
           en: 'RTL Broadcasting',
-          sv: 'RTL Broadcasting',
+          sv: 'RTL:s sändningar',
           es: 'Radiodifusión RTL',
           fr: 'Diffusion RTL',
           de: 'RTL-Rundfunk',
@@ -593,7 +593,7 @@ export const luxembourg: Country = {
             pt: 'Canela',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -949,8 +949,28 @@ export const luxembourg: Country = {
       imageUrl: 'https://images.pexels.com/photos/35642154/pexels-photo-35642154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Moselle wine, Bofferding beer, Crémant sparkling wine',
-      nonAlcoholic: 'Apple juice, Mineral water',
+      alcoholic: {
+        en: 'Moselle wine, Bofferding beer, Crémant sparkling wine',
+        sv: 'Moselvin, Bofferding-öl, Crémant (mousserande vin)',
+        de: 'Moselwein, Bofferding-Bier, Crémant-Schaumwein',
+        fr: 'Vin de Moselle, Bière Bofferding, Crémant (vin mousseux)',
+        es: 'Vino del Mosela, Cerveza Bofferding, Vino espumoso Crémant',
+        it: 'Vino della Mosella, Birra Bofferding, Spumante Crémant',
+        pl: 'Wino z Mozeli, Piwo Bofferding, Wino musujące Crémant',
+        nl: 'Moezelwijn, Bofferding-bier, Crémant (mousserende wijn)',
+        pt: 'Vinho do Mosela, Cerveja Bofferding, Espumante Crémant',
+      },
+      nonAlcoholic: {
+        en: 'Apple juice, Mineral water',
+        sv: 'Äppeljuice, Mineralvatten',
+        de: 'Apfelsaft, Mineralwasser',
+        fr: 'Jus de pomme, Eau minérale',
+        es: 'Jugo de manzana, Agua mineral',
+        it: 'Succo di mela, Acqua minerale',
+        pl: 'Sok jabłkowy, Woda mineralna',
+        nl: 'Appelsap, Mineraalwater',
+        pt: 'Suco de maçã, Água mineral',
+      },
     },
     music: [
       { en: 'Traditional folk music', sv: 'Traditionell folkmusik', de: 'Traditionelle Volksmusik', fr: 'Musique folk traditionnelle', es: 'Música folclórica tradicional', it: 'Musica folk tradizionale', pl: 'Tradycyjna muzyka ludowa', nl: 'Traditionele volksmuziek', pt: 'Música folclórica tradicional' },

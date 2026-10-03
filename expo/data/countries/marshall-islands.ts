@@ -253,7 +253,7 @@ export const marshallIslands: Country = {
       {
         name: {
           en: 'Stick Chart Navigation',
-          sv: 'Stick Chart Navigation',
+          sv: 'Navigering med pinnkartor',
           es: 'Navegación con gráfico de barras',
           fr: 'Navigation par diagramme en bâtons',
           de: 'Stick-Chart-Navigation',
@@ -278,7 +278,7 @@ export const marshallIslands: Country = {
       {
         name: {
           en: 'Outrigger Canoe Design',
-          sv: 'Outrigger Canoe Design',
+          sv: 'Konstruktion av utriggarkanoter',
           es: 'Diseño de canoa con estabilizadores',
           fr: 'Conception de canoë à balancier',
           de: 'Auslegerkanu-Design',
@@ -578,7 +578,7 @@ export const marshallIslands: Country = {
             pt: 'Extrato de baunilha',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
       ],
       steps: [
@@ -857,8 +857,28 @@ export const marshallIslands: Country = {
       imageUrl: 'https://images.pexels.com/photos/5713767/pexels-photo-5713767.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Toddy (palm wine)',
-      nonAlcoholic: 'Coconut water, Fresh juice',
+      alcoholic: {
+        en: 'Toddy (palm wine)',
+        sv: 'Toddy (palmvin)',
+        de: 'Toddy (Palmwein)',
+        fr: 'Toddy (vin de palme)',
+        es: 'Toddy (vino de palma)',
+        it: 'Toddy (vino di palma)',
+        pl: 'Toddy (wino palmowe)',
+        nl: 'Toddy (palmwijn)',
+        pt: 'Toddy (vinho de palma)',
+      },
+      nonAlcoholic: {
+        en: 'Coconut water, Fresh juice',
+        sv: 'Kokosvatten, Färskpressad juice',
+        de: 'Kokoswasser, Frischer Saft',
+        fr: 'Eau de coco, Jus frais',
+        es: 'Agua de coco, Jugo natural',
+        it: 'Acqua di cocco, Succo fresco',
+        pl: 'Woda kokosowa, Świeży sok',
+        nl: 'Kokoswater, Vers sap',
+        pt: 'Água de coco, Suco natural',
+      },
     },
     music: [
       { en: 'Traditional chants', sv: 'Traditionella sånger', de: 'Traditionelle Gesänge', fr: 'Chants traditionnels', es: 'Cantos tradicionales', it: 'Canti tradizionali', pl: 'Tradycyjne śpiewy', nl: 'Traditionele gezangen', pt: 'Cantos tradicionais' },

@@ -279,7 +279,7 @@ export const laos: Country = {
       {
         name: {
           en: 'Sticky Rice Culture',
-          sv: 'Sticky Rice Culture',
+          sv: 'Kulturen kring klibbigt ris',
           es: 'Cultivo de arroz pegajoso',
           fr: 'Culture du riz gluant',
           de: 'Klebreiskultur',
@@ -604,7 +604,7 @@ export const laos: Country = {
             pt: 'Sal',
           },
           amount: 0.5,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -648,7 +648,7 @@ export const laos: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -824,7 +824,7 @@ export const laos: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -849,7 +849,7 @@ export const laos: Country = {
             en: 'tbsp',
             sv: 'msk',
             es: 'cucharada',
-            fr: 'à soupe',
+            fr: 'c. à soupe',
             de: 'EL',
             it: 'cucchiai',
             pl: 'łyżki',
@@ -925,7 +925,7 @@ export const laos: Country = {
             pt: 'Pimenta em pó',
           },
           amount: 1,
-          unit: 'tsp',
+          unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
         },
         {
           name: {
@@ -1046,8 +1046,28 @@ export const laos: Country = {
       imageUrl: 'https://images.pexels.com/photos/792026/pexels-photo-792026.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
     },
     drinks: {
-      alcoholic: 'Beerlao, Lao-Lao (rice whiskey)',
-      nonAlcoholic: 'Iced coffee, Sugar cane juice, Fresh coconut water',
+      alcoholic: {
+        en: 'Beerlao, Lao-Lao (rice whiskey)',
+        sv: 'Beerlao, Lao-Lao (riswhisky)',
+        de: 'Beerlao, Lao-Lao (Reiswhisky)',
+        fr: 'Beerlao, Lao-Lao (whisky de riz)',
+        es: 'Beerlao, Lao-Lao (whisky de arroz)',
+        it: 'Beerlao, Lao-Lao (whisky di riso)',
+        pl: 'Beerlao, Lao-Lao (whisky ryżowa)',
+        nl: 'Beerlao, Lao-Lao (rijstwhisky)',
+        pt: 'Beerlao, Lao-Lao (uísque de arroz)',
+      },
+      nonAlcoholic: {
+        en: 'Iced coffee, Sugar cane juice, Fresh coconut water',
+        sv: 'Iskaffe, Sockerrörsjuice, Färskt kokosvatten',
+        de: 'Eiskaffee, Zuckerrohrsaft, Frisches Kokoswasser',
+        fr: 'Café glacé, Jus de canne à sucre, Eau de coco fraîche',
+        es: 'Café helado, Jugo de caña de azúcar, Agua de coco fresca',
+        it: 'Caffè freddo, Succo di canna da zucchero, Acqua di cocco fresca',
+        pl: 'Mrożona kawa, Sok z trzciny cukrowej, Świeża woda kokosowa',
+        nl: 'IJskoffie, Suikerrietsap, Vers kokoswater',
+        pt: 'Café gelado, Caldo de cana, Água de coco fresca',
+      },
     },
     music: [
       { en: 'Traditional Lam music', sv: 'Traditionell Lam-musik', de: 'Traditionelle Lam-Musik', fr: 'Musique Lam traditionnelle', es: 'Música Lam tradicional', it: 'Musica Lam tradizionale', pl: 'Tradycyjna muzyka Lam', nl: 'Traditionele Lam-muziek', pt: 'Música Lam tradicional' },
