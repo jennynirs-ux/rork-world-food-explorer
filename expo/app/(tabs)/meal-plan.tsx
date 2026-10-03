@@ -244,7 +244,7 @@ export default function MealPlanScreen() {
     }
 
     // Add combined grocery list
-    text += '---\nGrocery List:\n';
+    text += `---\n${t.shopping.title}:\n`;
     // Merge on the English name/unit, show them in the user's language.
     const groceryMap = new Map<string, { name: string; amount: number; unit: string }>();
 
@@ -276,7 +276,7 @@ export default function MealPlanScreen() {
     try {
       await Share.share({
         message: text,
-        title: 'Meal Plan',
+        title: t.mealPlan.exportWeek,
       });
     } catch {
       // User cancelled
@@ -535,7 +535,7 @@ export default function MealPlanScreen() {
                 </TouchableOpacity>
               )}
               ListEmptyComponent={
-                <Text style={styles.modalEmptyText}>No recipes match your search</Text>
+                <Text style={styles.modalEmptyText}>{t.mealPlan.noSearchResults}</Text>
               }
               showsVerticalScrollIndicator={false}
               contentContainerStyle={styles.modalListContent}

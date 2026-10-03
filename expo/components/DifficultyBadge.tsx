@@ -12,7 +12,7 @@ interface DifficultyBadgeProps {
 export default function DifficultyBadge({ difficulty, size = 'normal' }: DifficultyBadgeProps) {
   const { t } = useTranslation();
   const info = getDifficultyInfo(difficulty);
-  const label = difficulty ? t.ui[LABEL_KEYS[difficulty]] : info.label;
+  const label = t.ui[LABEL_KEYS[difficulty ?? 'medium']];
   const isSmall = size === 'small';
 
   return (

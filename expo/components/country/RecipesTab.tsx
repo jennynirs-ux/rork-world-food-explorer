@@ -157,7 +157,7 @@ export default function RecipesTab({
             style={styles.recipeCard}
             onPress={() => toggleExpand('main')}
             activeOpacity={0.8}
-            accessibilityLabel={`${country.mainDish.name}, tap to ${mainExpanded ? 'collapse' : 'expand'}`}
+            accessibilityLabel={fill(mainExpanded ? t.ui.collapseA11y : t.ui.expandA11y, { name: country.mainDish.name })}
             accessibilityRole="button"
           >
             {/* Preview — always visible */}
@@ -370,7 +370,7 @@ export default function RecipesTab({
             style={styles.recipeCard}
             onPress={() => toggleExpand('dessert')}
             activeOpacity={0.8}
-            accessibilityLabel={`${country.dessert.name}, tap to ${dessertExpanded ? 'collapse' : 'expand'}`}
+            accessibilityLabel={fill(dessertExpanded ? t.ui.collapseA11y : t.ui.expandA11y, { name: country.dessert.name })}
             accessibilityRole="button"
           >
             <FoodImage

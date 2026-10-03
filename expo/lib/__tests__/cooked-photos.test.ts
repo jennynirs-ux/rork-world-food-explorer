@@ -1,8 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as FileSystem from 'expo-file-system/legacy';
 import * as ImagePicker from 'expo-image-picker';
-import { Platform } from 'react-native';
+import { Alert, Platform } from 'react-native';
 import { pickAndSavePhoto, takeAndSavePhoto, getPhotosForRecipe, deletePhoto } from '../cooked-photos';
+import { photoStrings } from '../strings/photos';
 
 jest.mock('expo-file-system/legacy', () => ({
   documentDirectory: 'file:///data/app-A/Documents/',
@@ -94,5 +95,23 @@ describe('cooked photos', () => {
     } finally {
       Object.defineProperty(Platform, 'OS', { value: original, configurable: true });
     }
+  });
+});
+
+describe('photo prompt copy', () => {
+  const LANGS = ['en', 'sv', 'de', 'fr', 'es', 'it', 'pl', 'nl', 'pt'] as const;
+
+  it.each(LANGS)('%s has every string', lang => {
+    const table = photoStrings[lang];
+    expect(Object.keys(table).sort()).toEqual(Object.keys(photoStrings.en).sort());
+    Object.values(table).forEach(text => expect(text.trim()).not.toBe(''));
+  });
+
+  it('shows the permission alert in the language it is given', async () => {
+    const alert = jest.spyOn(Alert, 'alert').mockImplementation(() => {});
+    (ImagePicker.requestCameraPermissionsAsync as jest.Mock).mockResolvedValueOnce({ status: 'denied' });
+    expect(await takeAndSavePhoto('peru', 'peru-main', false, photoStrings.sv)).toBeNull();
+    expect(alert).toHaveBeenCalledWith(photoStrings.sv.permissionTitle, photoStrings.sv.cameraPermission);
+    alert.mockRestore();
   });
 });

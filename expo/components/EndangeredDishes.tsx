@@ -40,9 +40,7 @@ export default function EndangeredDishesSection({
         <AlertTriangle size={18} color="#D97706" />
         <Text style={styles.title}>{t.ui.endangeredTitle}</Text>
       </View>
-      <Text style={styles.intro}>
-        These culinary traditions risk disappearing. Learn about them and help preserve food culture.
-      </Text>
+      <Text style={styles.intro}>{t.ui.endangeredIntro}</Text>
 
       {endangeredDishes.map(dish => {
         return (
@@ -73,14 +71,14 @@ export default function EndangeredDishesSection({
             </Text>
 
             <View style={styles.infoRow}>
-              <Text style={styles.infoLabel}>Why at risk:</Text>
+              <Text style={styles.infoLabel}>{t.ui.whyAtRisk}</Text>
               <Text style={styles.infoText}>
                 {translateContent(dish.reason, lang)}
               </Text>
             </View>
 
             <View style={styles.helpRow}>
-              <Text style={styles.helpLabel}>How to help:</Text>
+              <Text style={styles.helpLabel}>{t.ui.howToHelp}</Text>
               <Text style={styles.helpText}>
                 {translateContent(dish.howToHelp, lang)}
               </Text>

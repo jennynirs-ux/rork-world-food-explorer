@@ -3,12 +3,14 @@ import * as SplashScreen from "expo-splash-screen";
 import React, { useEffect } from "react";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { AppProvider, useApp } from "@/contexts/AppContext";
+import { useTranslation } from "@/lib/i18n";
 import ErrorBoundary from "@/components/ErrorBoundary";
 
 SplashScreen.preventAutoHideAsync();
 
 function RootLayoutNav() {
   const { userProfile, isLoading } = useApp();
+  const { t } = useTranslation();
   const router = useRouter();
   const segments = useSegments();
 
@@ -30,7 +32,7 @@ function RootLayoutNav() {
   }, [userProfile.completedOnboarding, isLoading, segments]);
 
   return (
-    <Stack screenOptions={{ headerBackTitle: "Back" }}>
+    <Stack screenOptions={{ headerBackTitle: t.common.back }}>
       <Stack.Screen name="onboarding" options={{ headerShown: false }} />
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       <Stack.Screen name="country/[id]" options={{ headerShown: false }} />

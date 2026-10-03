@@ -26,6 +26,8 @@ const DRAFT_KEY = '@world_cooking_recipe_draft';
 
 const SUBMISSION_EMAIL = 'support@mojjo.se';
 
+const DIFFICULTY_LABEL_KEYS = { easy: 'difficultyEasy', medium: 'difficultyMedium', hard: 'difficultyHard' } as const;
+
 type Submission = {
   recipeName: string;
   countryOrigin: string;
@@ -303,7 +305,7 @@ export default function SubmitRecipeScreen() {
                     difficulty === d && styles.difficultyTextActive,
                   ]}
                 >
-                  {d.charAt(0).toUpperCase() + d.slice(1)}
+                  {t.ui[DIFFICULTY_LABEL_KEYS[d]]}
                 </Text>
               </TouchableOpacity>
             ))}

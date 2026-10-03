@@ -9,6 +9,7 @@ import {
   disableNotifications,
   areNotificationsEnabled,
 } from '../notifications';
+import { notificationStrings } from '../strings/notifications';
 
 type Scheduled = { identifier: string; content: { data?: Record<string, unknown> }; trigger: unknown };
 
@@ -89,6 +90,15 @@ describe('getUpcomingWeeklyChallenges', () => {
     expect(fromSunday).toEqual(fromTuesday);
   });
 
+  it('writes the challenges in the requested language', () => {
+    const [sv] = getUpcomingWeeklyChallenges(local(2026, 3, 10, 12), 1, 'sv');
+    const [en] = getUpcomingWeeklyChallenges(local(2026, 3, 10, 12), 1);
+    expect(notificationStrings.sv.challenges).toContainEqual({ title: sv.title, body: sv.body });
+    expect(notificationStrings.en.challenges).toContainEqual({ title: en.title, body: en.body });
+    expect(sv.identifier).toBe(en.identifier);
+    expect(getUpcomingWeeklyChallenges(local(2026, 3, 10, 12), 1, 'xx')[0].body).toBe(en.body);
+  });
+
   it('uses today when it is Monday before 10:00', () => {
     expect(getUpcomingWeeklyChallenges(local(2026, 3, 16, 9), 1)[0].date).toEqual(local(2026, 3, 16, 10));
     expect(getUpcomingWeeklyChallenges(local(2026, 3, 16, 11), 1)[0].date).toEqual(local(2026, 3, 23, 10));
@@ -166,6 +176,20 @@ describe('scheduling', () => {
     expect(streakReminders()).toHaveLength(0);
   });
 
+  it('schedules in the app language and rewrites everything when it changes', async () => {
+    await refreshStreakReminder({ currentStreak: 2, lastActiveDate: local(2026, 3, 9, 8).toISOString() }, 'sv');
+    await enableNotifications();
+    const content = (n: Scheduled) => n.content as { title?: string; data?: Record<string, unknown> };
+    expect(content(streakReminders()[0]).title).toBe(notificationStrings.sv.streakTitle);
+    expect(weeklyChallenges().every(n => content(n).data?.lang === 'sv')).toBe(true);
+
+    await refreshStreakReminder({ currentStreak: 2, lastActiveDate: local(2026, 3, 9, 8).toISOString() }, 'pl');
+    expect(streakReminders()).toHaveLength(1);
+    expect(content(streakReminders()[0]).title).toBe(notificationStrings.pl.streakTitle);
+    expect(weeklyChallenges()).toHaveLength(4);
+    expect(weeklyChallenges().every(n => content(n).data?.lang === 'pl')).toBe(true);
+  });
+
   it('remembers the streak while disabled and uses it when enabled', async () => {
     await refreshStreakReminder({ currentStreak: 2, lastActiveDate: local(2026, 3, 9, 8).toISOString() });
     expect(mockScheduled).toHaveLength(0);
@@ -176,5 +200,18 @@ describe('scheduling', () => {
     await disableNotifications();
     expect(mockScheduled).toHaveLength(0);
     expect(await areNotificationsEnabled()).toBe(false);
+  });
+});
+
+describe('notificationStrings', () => {
+  const LANGS = ['en', 'sv', 'de', 'fr', 'es', 'it', 'pl', 'nl', 'pt'] as const;
+
+  it.each(LANGS)('%s has every message, non-empty, with as many challenges as English', lang => {
+    const table = notificationStrings[lang];
+    expect(Object.keys(table).sort()).toEqual(Object.keys(notificationStrings.en).sort());
+    expect(table.challenges).toHaveLength(notificationStrings.en.challenges.length);
+    for (const text of [table.channelName, table.streakTitle, table.streakBody, ...table.challenges.flatMap(c => [c.title, c.body])]) {
+      expect(text.trim()).not.toBe('');
+    }
   });
 });

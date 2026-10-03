@@ -168,14 +168,15 @@ export const [AppProvider, useApp] = createContextHook(() => {
     return () => removeListener();
   }, [applyOwnedProducts]);
 
-  // Keep the 19:00 streak reminder in line with the actual streak.
+  // Keep the 19:00 streak reminder in line with the actual streak (and the
+  // scheduled notifications in the app language).
   useEffect(() => {
     if (isLoading) return;
     void refreshStreakReminder({
       currentStreak: userProfile.currentStreak,
       lastActiveDate: userProfile.lastActiveDate,
-    });
-  }, [isLoading, userProfile.currentStreak, userProfile.lastActiveDate]);
+    }, userProfile.language || 'en');
+  }, [isLoading, userProfile.currentStreak, userProfile.lastActiveDate, userProfile.language]);
 
   const updateUserProfile = useCallback(async (updates: Partial<UserProfile>) => {
     setUserProfile(prev => {

@@ -18,6 +18,12 @@ import { hapticLight } from '@/lib/haptics';
 import colors from '@/constants/colors';
 import type { Badge } from '@/types';
 
+const SKILL_RANK_KEYS = {
+  beginner: 'rankBeginner',
+  intermediate: 'rankIntermediate',
+  advanced: 'rankAdvanced',
+} as const;
+
 export default function ProgressScreen() {
   const router = useRouter();
   const { stats, badges, userProfile, countries, countryProgress } = useApp();
@@ -123,7 +129,7 @@ export default function ProgressScreen() {
               <ChefHat size={24} color="#FF6B35" />
               <View style={styles.skillInfo}>
                 <Text style={styles.skillLevel}>
-                  {userProfile.skillLevel.charAt(0).toUpperCase() + userProfile.skillLevel.slice(1)} {t.progress.chef}
+                  {t.progress[SKILL_RANK_KEYS[userProfile.skillLevel]]}
                 </Text>
                 <Text style={styles.skillDetails}>
                   {(userProfile.recipesCompletedByDifficulty?.easy || 0) +

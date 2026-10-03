@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as FileSystem from 'expo-file-system/legacy';
 import * as ImagePicker from 'expo-image-picker';
 import { Alert, Platform } from 'react-native';
+import { photoStrings, type PhotoStrings } from '@/lib/strings/photos';
 
 const STORAGE_KEY = '@world_cooking_photos';
 const PHOTO_DIR = 'cooked-photos/';
@@ -169,13 +170,11 @@ export async function pickAndSavePhoto(
   countryId: string,
   recipeId: string,
   isDessert: boolean,
+  strings: PhotoStrings = photoStrings.en,
 ): Promise<CookedPhoto | null> {
   const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
   if (status !== 'granted') {
-    Alert.alert(
-      'Permission needed',
-      'Please allow access to your photo library to add cooking photos.',
-    );
+    Alert.alert(strings.permissionTitle, strings.libraryPermission);
     return null;
   }
 
@@ -195,13 +194,11 @@ export async function takeAndSavePhoto(
   countryId: string,
   recipeId: string,
   isDessert: boolean,
+  strings: PhotoStrings = photoStrings.en,
 ): Promise<CookedPhoto | null> {
   const { status } = await ImagePicker.requestCameraPermissionsAsync();
   if (status !== 'granted') {
-    Alert.alert(
-      'Permission needed',
-      'Please allow camera access to take cooking photos.',
-    );
+    Alert.alert(strings.permissionTitle, strings.cameraPermission);
     return null;
   }
 
@@ -221,32 +218,33 @@ export function promptPhotoSource(
   recipeId: string,
   isDessert: boolean,
   onPhoto: (photo: CookedPhoto) => void,
+  strings: PhotoStrings = photoStrings.en,
 ): void {
   if (Platform.OS === 'web') {
     // Web only supports library
-    void pickAndSavePhoto(countryId, recipeId, isDessert).then(p => {
+    void pickAndSavePhoto(countryId, recipeId, isDessert, strings).then(p => {
       if (p) onPhoto(p);
     });
     return;
   }
 
-  Alert.alert('Add Photo', 'How would you like to add your cooking photo?', [
+  Alert.alert(strings.addTitle, strings.addMessage, [
     {
-      text: 'Take Photo',
+      text: strings.takePhoto,
       onPress: () => {
-        void takeAndSavePhoto(countryId, recipeId, isDessert).then(p => {
+        void takeAndSavePhoto(countryId, recipeId, isDessert, strings).then(p => {
           if (p) onPhoto(p);
         });
       },
     },
     {
-      text: 'Choose from Library',
+      text: strings.chooseFromLibrary,
       onPress: () => {
-        void pickAndSavePhoto(countryId, recipeId, isDessert).then(p => {
+        void pickAndSavePhoto(countryId, recipeId, isDessert, strings).then(p => {
           if (p) onPhoto(p);
         });
       },
     },
-    { text: 'Cancel', style: 'cancel' },
+    { text: strings.cancel, style: 'cancel' },
   ]);
 }

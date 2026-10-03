@@ -449,7 +449,7 @@ export default function CountryDetailScreen() {
         <View style={styles.bannerContainer}>
           <FoodImage
             uri={country.landscapeImage}
-            alt={`${country.name} landscape`}
+            alt={country.name}
             style={styles.bannerImage}
             type="landscape"
           />

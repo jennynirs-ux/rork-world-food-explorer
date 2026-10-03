@@ -101,6 +101,38 @@ describe('getSubstitutions', () => {
   });
 });
 
+describe('translations', () => {
+  const LANGS = ['en', 'sv', 'es', 'fr', 'de', 'it', 'pl', 'nl', 'pt'] as const;
+  const missing = (value: unknown) =>
+    typeof value === 'object' && value
+      ? LANGS.filter(lang => !(value as Record<string, string>)[lang]?.trim())
+      : [...LANGS];
+
+  it('gives every suggested name and note all nine languages', () => {
+    const offenders = new Set<string>();
+    const check = (ingredient: string) => {
+      for (const sub of getSubstitutions(ingredient)) {
+        const label = typeof sub.name === 'string' ? sub.name : sub.name.en;
+        const gaps = [...missing(sub.name), ...(sub.note ? missing(sub.note).map(l => `note:${l}`) : [])];
+        if (gaps.length) offenders.add(`${label}: ${gaps.join(',')}`);
+      }
+    };
+    // Every keyword in the database, plus the real recipe ingredients.
+    ['butter', 'cream', 'sour cream', 'coconut cream', 'coconut milk', 'milk', 'buttermilk', 'condensed milk',
+      'evaporated milk', 'cheese', 'ricotta', 'cream cheese', 'yogurt', 'beef', 'chicken', 'pork', 'lamb', 'fish',
+      'shrimp', 'egg (for brushing)', 'egg', 'egg white', 'egg noodles', 'rice', 'rice vinegar', 'rice wine', 'pasta',
+      'flour', 'flour tortilla', 'potato', 'sweet potato', 'potato starch', 'stock', 'vegetable stock', 'soy sauce',
+      'fish sauce', 'shrimp paste', 'sugar', 'palm sugar', 'honey', 'peanut', 'peanut butter', 'almond', 'onion',
+      'spring onion', 'tomato', 'plantain', 'cassava', 'cassava leaves', 'yam', 'okra'].forEach(check);
+    for (const country of countries) {
+      for (const recipe of [country.mainDish, country.dessert]) {
+        for (const ing of recipe?.ingredients ?? []) check(typeof ing.name === 'string' ? ing.name : ing.name.en);
+      }
+    }
+    expect([...offenders]).toEqual([]);
+  }, 20000); // walks every recipe; slow on a cold, parallel run
+});
+
 describe('enrichWithSubstitutions', () => {
   it('fills in substitutions but keeps ones from the data', () => {
     const custom = [{ name: 'Tofu', ratio: 1 }];

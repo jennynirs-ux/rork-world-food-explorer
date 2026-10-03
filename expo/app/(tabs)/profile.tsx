@@ -3,6 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { useApp } from '@/contexts/AppContext';
 import { useTranslation } from '@/lib/i18n';
+import { fill } from '@/lib/strings';
 import { User, Award, Trash2, ShoppingCart, ChevronRight, Ruler, Info, Languages, Bell, Send, X, Check, Gift, Share2, RotateCcw, FileText, Shield } from 'lucide-react-native';
 import colors from '@/constants/colors';
 import { useState, useEffect } from 'react';
@@ -244,7 +245,9 @@ export default function ProfileScreen() {
           <TouchableOpacity
             style={styles.menuButton}
             onPress={() => router.push('/shopping-list' as any)}
-            accessibilityLabel={`Shopping list${shoppingList.length > 0 ? `, ${shoppingList.length} items` : ''}`}
+            accessibilityLabel={shoppingList.length > 0
+              ? fill(t.profile.shoppingListCountA11y, { label: t.profile.shoppingList, count: shoppingList.length })
+              : t.profile.shoppingList}
             accessibilityRole="button"
           >
             <ShoppingCart size={20} color="#FF6B35" />
@@ -420,7 +423,7 @@ export default function ProfileScreen() {
                       handleLanguageChange(lang.code);
                       setShowLanguageModal(false);
                     }}
-                    accessibilityLabel={`${lang.name}${isSelected ? ', selected' : ''}`}
+                    accessibilityLabel={isSelected ? fill(t.profile.languageSelectedA11y, { language: lang.name }) : lang.name}
                     accessibilityRole="button"
                   >
                     <Text style={styles.modalFlag}>{lang.flag}</Text>

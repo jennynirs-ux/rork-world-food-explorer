@@ -2,6 +2,7 @@ import React, { useState, useCallback, useMemo } from 'react';
 import { View, Text, StyleSheet, ActivityIndicator, type ViewStyle, type StyleProp } from 'react-native';
 import { Image, type ImageProps } from 'expo-image';
 import { optimizeImageUrl } from '@/lib/image-utils';
+import { useTranslation } from '@/lib/i18n';
 
 type FoodImageType = 'landscape' | 'food' | 'landmark' | 'generic';
 
@@ -42,6 +43,7 @@ function FoodImageComponent({
   height,
   cachePolicy = 'memory-disk',
 }: FoodImageProps) {
+  const { t } = useTranslation();
   const [hasError, setHasError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -69,7 +71,7 @@ function FoodImageComponent({
     return (
       <View style={[styles.fallbackContainer, style]}>
         <Text style={styles.fallbackIcon}>{FALLBACK_ICONS[type]}</Text>
-        <Text style={styles.fallbackText}>Image unavailable</Text>
+        <Text style={styles.fallbackText}>{t.ui.imageUnavailable}</Text>
       </View>
     );
   }

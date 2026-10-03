@@ -5,6 +5,8 @@ import { RecipeIngredient } from '@/types';
 import { translateContent } from '@/lib/translate-content';
 import colors from '@/constants/colors';
 import { useTranslation } from '@/lib/i18n';
+import { fill } from '@/lib/strings';
+import { formatAmount } from '@/lib/format-amount';
 
 interface IngredientSubstitutionsProps {
   ingredients: RecipeIngredient[];
@@ -53,7 +55,7 @@ export default function IngredientSubstitutions({ ingredients, lang = 'en' }: In
                     <Text style={styles.subName}>
                       {translateContent(sub.name, lang)}
                       {sub.ratio !== 1 && (
-                        <Text style={styles.ratio}> ({sub.ratio}x amount)</Text>
+                        <Text style={styles.ratio}> {fill(t.ui.substituteAmount, { ratio: formatAmount(sub.ratio) })}</Text>
                       )}
                     </Text>
                     {sub.note && (

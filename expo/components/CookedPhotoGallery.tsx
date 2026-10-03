@@ -23,6 +23,7 @@ import { useTranslation } from '@/lib/i18n';
 import { useApp } from '@/contexts/AppContext';
 import { useStrings } from '@/lib/strings';
 import { shareStrings } from '@/lib/strings/share';
+import { photoStrings } from '@/lib/strings/photos';
 import { translateContent } from '@/lib/translate-content';
 import { shareCookedIt } from '@/lib/share';
 import { useShareCard } from '@/components/share/ShareCard';
@@ -52,6 +53,7 @@ export default function CookedPhotoGallery({
 }: CookedPhotoGalleryProps) {
   const { t, language } = useTranslation();
   const s = useStrings(shareStrings);
+  const photoText = useStrings(photoStrings);
   const { countries } = useApp();
   const { shareCard, shareCardHost, isSharing } = useShareCard();
   const [photos, setPhotos] = useState<CookedPhoto[]>([]);
@@ -70,8 +72,8 @@ export default function CookedPhotoGallery({
     hapticLight();
     promptPhotoSource(countryId, recipeId, isDessert, (photo) => {
       setPhotos(prev => [photo, ...prev]);
-    });
-  }, [countryId, recipeId, isDessert]);
+    }, photoText);
+  }, [countryId, recipeId, isDessert, photoText]);
 
   const handleDeletePhoto = useCallback(
     (photo: CookedPhoto) => {

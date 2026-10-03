@@ -1,6 +1,7 @@
 import * as Notifications from 'expo-notifications';
 import { Platform } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { notificationStrings, type NotificationStrings } from '@/lib/strings/notifications';
 
 const NOTIF_KEY = '@world_cooking_notifications';
 
@@ -27,9 +28,16 @@ interface NotifState {
   enabled: boolean;
   /** Last streak info we were given, so startup can reschedule without the profile. */
   streak?: StreakInfo;
+  /** App language the notifications are written in (UserProfile.language). */
+  language?: string;
 }
 
 const DEFAULT_STATE: NotifState = { enabled: false };
+
+/** Notification copy in `language`, falling back to English. */
+function textFor(language: string | undefined): NotificationStrings {
+  return notificationStrings[(language ?? 'en') as keyof typeof notificationStrings] ?? notificationStrings.en;
+}
 
 /**
  * Run schedule changes one at a time. Startup sync and streak refreshes can
@@ -58,8 +66,9 @@ async function ensureAndroidChannel(): Promise<void> {
   if (Platform.OS !== 'android') return;
   try {
     // Android 13+ only shows the permission prompt once a channel exists.
+    const { language } = await getState();
     await Notifications.setNotificationChannelAsync('default', {
-      name: 'Reminders',
+      name: textFor(language).channelName,
       importance: Notifications.AndroidImportance.DEFAULT,
     });
   } catch {
@@ -95,7 +104,9 @@ async function getState(): Promise<NotifState> {
     const raw = await AsyncStorage.getItem(NOTIF_KEY);
     // Older versions stored extra "...Scheduled" flags; only `enabled` is kept.
     const parsed = raw ? JSON.parse(raw) : null;
-    return parsed ? { enabled: !!parsed.enabled, streak: parsed.streak } : { ...DEFAULT_STATE };
+    return parsed
+      ? { enabled: !!parsed.enabled, streak: parsed.streak, language: parsed.language }
+      : { ...DEFAULT_STATE };
   } catch {
     return { ...DEFAULT_STATE };
   }
@@ -166,17 +177,18 @@ async function cancelStreakReminders(): Promise<void> {
   }
 }
 
-async function scheduleStreakReminderFor(info: StreakInfo | undefined): Promise<void> {
+async function scheduleStreakReminderFor(info: StreakInfo | undefined, language?: string): Promise<void> {
   // Replaces the old repeating daily reminder as well as any earlier one-off.
   await cancelStreakReminders();
   const date = info ? getStreakReminderDate(info) : null;
   if (!date) return;
 
+  const text = textFor(language);
   await Notifications.scheduleNotificationAsync({
     identifier: STREAK_REMINDER_ID,
     content: {
-      title: "Don't break your streak! 🔥",
-      body: 'Cook something today to keep your cooking streak alive.',
+      title: text.streakTitle,
+      body: text.streakBody,
       data: { type: TYPE_STREAK },
     },
     trigger: {
@@ -188,20 +200,24 @@ async function scheduleStreakReminderFor(info: StreakInfo | undefined): Promise<
 
 /**
  * Re-plan the streak reminder from the user's current streak. Call on app
- * start once the profile is loaded, and whenever `currentStreak` or
- * `lastActiveDate` changes (i.e. after the user cooks something).
- * Safe to call when notifications are off: it only remembers the info.
+ * start once the profile is loaded, and whenever `currentStreak`,
+ * `lastActiveDate` (i.e. after the user cooks something) or the app language
+ * changes. Safe to call when notifications are off: it only remembers the info.
  */
-export function refreshStreakReminder(info: StreakInfo): Promise<void> {
+export function refreshStreakReminder(info: StreakInfo, language?: string): Promise<void> {
   if (Platform.OS === 'web') return Promise.resolve();
   return serialized(async () => {
     const state = await getState();
+    const languageChanged = !!language && language !== (state.language ?? 'en');
     state.streak = { currentStreak: info.currentStreak, lastActiveDate: info.lastActiveDate };
+    if (language) state.language = language;
     await setState(state);
 
     if (!state.enabled || !(await hasNotificationPermission())) return;
     try {
-      await scheduleStreakReminderFor(state.streak);
+      // A new language also rewrites the weekly challenges already scheduled.
+      if (languageChanged) await syncSchedule(state);
+      else await scheduleStreakReminderFor(state.streak, state.language);
     } catch (error) {
       if (__DEV__) console.warn('Could not schedule streak reminder:', error);
     }
@@ -217,20 +233,12 @@ export async function scheduleStreakReminder(info?: StreakInfo): Promise<void> {
     if (info) state.streak = info;
     state.enabled = true;
     await setState(state);
-    await scheduleStreakReminderFor(state.streak);
+    await scheduleStreakReminderFor(state.streak, state.language);
   });
 }
 
 // ── Weekly cooking challenge (Mondays at 10:00) ─────────────────
-const CHALLENGE_MESSAGES = [
-  { title: 'Weekly Challenge 🌍', body: 'Try cooking an Asian dish this week!' },
-  { title: 'Weekly Challenge 🌍', body: 'Explore a European recipe you haven\'t tried!' },
-  { title: 'Weekly Challenge 🌍', body: 'Cook something from Africa this week!' },
-  { title: 'Weekly Challenge 🌍', body: 'Try a dish from the Americas!' },
-  { title: 'Weekly Challenge 🌍', body: 'Discover Oceanian cuisine this week!' },
-  { title: 'New Recipe Awaits 🍳', body: 'Your next culinary adventure is waiting!' },
-  { title: 'Time to Cook! 👨‍🍳', body: 'Pick a random country and try something new!' },
-];
+// Messages live in lib/strings/notifications.ts (one list per language).
 
 function localDateKey(date: Date): string {
   const m = String(date.getMonth() + 1).padStart(2, '0');
@@ -246,7 +254,9 @@ function localDateKey(date: Date): string {
 export function getUpcomingWeeklyChallenges(
   now: Date = new Date(),
   count = WEEKLY_CHALLENGES_AHEAD,
+  language = 'en',
 ): { identifier: string; date: Date; title: string; body: string }[] {
+  const messages = textFor(language).challenges;
   const today = startOfLocalDay(now);
   const daysUntilMonday = (8 - today.getDay()) % 7;
   let monday = atHour(addDays(today, daysUntilMonday), WEEKLY_CHALLENGE_HOUR);
@@ -257,7 +267,7 @@ export function getUpcomingWeeklyChallenges(
     const date = atHour(addDays(monday, i * 7), WEEKLY_CHALLENGE_HOUR);
     // Weeks since a fixed Monday (1970-01-05), in local calendar days.
     const week = Math.floor(localDaysBetween(new Date(1970, 0, 5), date) / 7);
-    const msg = CHALLENGE_MESSAGES[((week % CHALLENGE_MESSAGES.length) + CHALLENGE_MESSAGES.length) % CHALLENGE_MESSAGES.length];
+    const msg = messages[((week % messages.length) + messages.length) % messages.length];
     result.push({ identifier: `${WEEKLY_CHALLENGE_PREFIX}${localDateKey(date)}`, date, ...msg });
   }
   return result;
@@ -266,18 +276,21 @@ export function getUpcomingWeeklyChallenges(
 /** Make sure the next few weekly challenges are scheduled, based on what the OS has. */
 async function syncWeeklyChallenges(
   scheduled: Notifications.NotificationRequest[],
+  language = 'en',
 ): Promise<void> {
-  const upcoming = getUpcomingWeeklyChallenges();
+  const upcoming = getUpcomingWeeklyChallenges(undefined, undefined, language);
   const wanted = new Set(upcoming.map(c => c.identifier));
 
-  // Drop the old repeating weekly trigger (same message forever) and stale entries.
+  // Drop the old repeating weekly trigger (same message forever), stale entries
+  // and challenges written in another language (entries without one are English).
   const stale = scheduled.filter(n =>
     (n.identifier.startsWith(WEEKLY_CHALLENGE_PREFIX) || n.content?.data?.type === TYPE_WEEKLY) &&
-    !wanted.has(n.identifier),
+    (!wanted.has(n.identifier) || (n.content?.data?.lang ?? 'en') !== language),
   );
   await Promise.all(stale.map(n => Notifications.cancelScheduledNotificationAsync(n.identifier)));
 
-  const have = new Set(scheduled.map(n => n.identifier));
+  const staleIds = new Set(stale.map(n => n.identifier));
+  const have = new Set(scheduled.filter(n => !staleIds.has(n.identifier)).map(n => n.identifier));
   for (const challenge of upcoming) {
     if (have.has(challenge.identifier)) continue;
     await Notifications.scheduleNotificationAsync({
@@ -285,7 +298,7 @@ async function syncWeeklyChallenges(
       content: {
         title: challenge.title,
         body: challenge.body,
-        data: { type: TYPE_WEEKLY },
+        data: { type: TYPE_WEEKLY, lang: language },
       },
       trigger: {
         type: Notifications.SchedulableTriggerInputTypes.DATE,
@@ -300,7 +313,7 @@ export async function scheduleWeeklyChallenge(): Promise<void> {
   const granted = await requestNotificationPermission();
   if (!granted) return;
   await serialized(async () =>
-    syncWeeklyChallenges(await Notifications.getAllScheduledNotificationsAsync()));
+    syncWeeklyChallenges(await Notifications.getAllScheduledNotificationsAsync(), (await getState()).language));
 }
 
 // ── Cancel all scheduled notifications ──────────────────────────
@@ -321,8 +334,8 @@ export function cancelAllNotifications(): Promise<void> {
  */
 async function syncSchedule(state: NotifState): Promise<void> {
   const scheduled = await Notifications.getAllScheduledNotificationsAsync();
-  await syncWeeklyChallenges(scheduled);
-  await scheduleStreakReminderFor(state.streak);
+  await syncWeeklyChallenges(scheduled, state.language);
+  await scheduleStreakReminderFor(state.streak, state.language);
 }
 
 // ── Initialize (call once on app startup) ───────────────────────

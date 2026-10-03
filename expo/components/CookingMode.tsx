@@ -297,7 +297,7 @@ export default function CookingMode({
         {/* Quick timer presets */}
         {timerTarget === 0 && (
           <View style={styles.timerPresets}>
-            <Text style={styles.timerPresetsLabel}>Quick timer:</Text>
+            <Text style={styles.timerPresetsLabel}>{t.ui.quickTimer}</Text>
             {[1, 3, 5, 10, 15, 20].map(m => (
               <TouchableOpacity
                 key={m}
@@ -524,6 +524,7 @@ const styles = StyleSheet.create({
   },
   timerPresets: {
     flexDirection: 'row',
+    flexWrap: 'wrap', // translated labels ("Temporizador rápido:") are longer
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,

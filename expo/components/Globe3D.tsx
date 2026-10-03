@@ -603,10 +603,10 @@ function Globe3D({
     content = (
       <View style={styles.loadingContainer}>
         <View style={[styles.loadingSkeleton, { width: globeSize, height: globeSize, borderRadius: globeSize / 2 }]}>
-          <Text style={styles.loadingText}>Failed to load map</Text>
+          <Text style={styles.loadingText}>{t.ui.mapLoadFailed}</Text>
           <TouchableOpacity style={styles.retryButton} onPress={loadWorldData}>
             <RefreshCw size={18} color="#FFF" />
-            <Text style={styles.retryButtonText}>Retry</Text>
+            <Text style={styles.retryButtonText}>{t.ui.tryAgain}</Text>
           </TouchableOpacity>
         </View>
       </View>
