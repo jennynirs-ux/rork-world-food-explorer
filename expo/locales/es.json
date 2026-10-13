@@ -1,0 +1,7 @@
+{
+  "ios": {
+    "NSCameraUsageDescription": "World Food Journey usa tu cámara para que puedas hacer fotos de tus platos terminados.",
+    "NSPhotoLibraryUsageDescription": "World Food Journey usa tu fototeca para que puedas añadir fotos de cocina a tus recetas.",
+    "NSPhotoLibraryAddUsageDescription": "World Food Journey guarda en tu fototeca las imágenes que compartes desde la app cuando eliges guardarlas."
+  }
+}

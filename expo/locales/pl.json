@@ -1,0 +1,7 @@
+{
+  "ios": {
+    "NSCameraUsageDescription": "World Food Journey używa aparatu, aby umożliwić robienie zdjęć gotowych potraw.",
+    "NSPhotoLibraryUsageDescription": "World Food Journey używa biblioteki zdjęć, aby umożliwić dodawanie zdjęć potraw do przepisów.",
+    "NSPhotoLibraryAddUsageDescription": "World Food Journey zapisuje w bibliotece zdjęć obrazy udostępniane z aplikacji, gdy zdecydujesz się je zachować."
+  }
+}

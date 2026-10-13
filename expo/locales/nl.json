@@ -1,0 +1,7 @@
+{
+  "ios": {
+    "NSCameraUsageDescription": "World Food Journey gebruikt je camera zodat je foto’s kunt maken van je klaargemaakte gerechten.",
+    "NSPhotoLibraryUsageDescription": "World Food Journey gebruikt je fotobibliotheek zodat je kookfoto’s aan je recepten kunt toevoegen.",
+    "NSPhotoLibraryAddUsageDescription": "World Food Journey bewaart afbeeldingen die je vanuit de app deelt in je fotobibliotheek wanneer je ervoor kiest ze te bewaren."
+  }
+}

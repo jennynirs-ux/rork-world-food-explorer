@@ -1,11 +1,11 @@
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import createContextHook from '@nkzw/create-context-hook';
 import { CountryProgress, UserProfile, ShoppingListItem, Badge, FavoriteRecipe, MealPlan } from '@/types';
 import { countries } from '@/data/countries';
 import { allBadges } from '@/data/badges';
 import { translateContent } from '@/lib/translate-content';
-import { configurePurchases, getCustomerInfo, addOwnedProductsListener } from '@/lib/purchases';
+import { configurePurchases, ensureAnonymousUser, completeAnonymousMigration, getCustomerInfo, addOwnedProductsListener } from '@/lib/purchases';
 import { initializeNotifications, refreshStreakReminder } from '@/lib/notifications';
 import { getPlannedRecipe } from '@/lib/grocery-export';
 import { cache } from '@/lib/cache';
@@ -67,6 +67,29 @@ export const [AppProvider, useApp] = createContextHook(() => {
   const [isLoading, setIsLoading] = useState(true);
   const [userId, setUserId] = useState<string>('');
 
+  // Nothing may be written before the saved data has been read back: a write
+  // built on the empty defaults (e.g. a cold-start deep link marking a country
+  // visited) would replace everything the user has saved under that key.
+  //   'loading' - mutations are queued and replayed on top of the loaded data
+  //   'ready'   - normal operation
+  //   'failed'  - the read failed: mutations only change memory, so the
+  //               defaults never overwrite what is on disk
+  const loadStateRef = useRef<'loading' | 'ready' | 'failed'>('loading');
+  const pendingMutationsRef = useRef<(() => void)[]>([]);
+
+  const persist = useCallback((key: string, value: unknown) => {
+    if (loadStateRef.current !== 'ready') return;
+    void AsyncStorage.setItem(key, JSON.stringify(value));
+  }, []);
+
+  const afterLoad = useCallback((mutation: () => void) => {
+    if (loadStateRef.current === 'loading') pendingMutationsRef.current.push(mutation);
+    else mutation();
+  }, []);
+
+  // Counts ownership updates, so an older RevenueCat answer can tell it is out of date.
+  const ownedUpdatesRef = useRef(0);
+
   /**
    * Update the store-purchased products on the profile.
    * 'replace' makes RevenueCat the source of truth (refunds revoke access);
@@ -74,7 +97,8 @@ export const [AppProvider, useApp] = createContextHook(() => {
    * Non-store entries such as the legacy code unlock are left alone.
    */
   const applyOwnedProducts = useCallback((owned: string[], mode: 'replace' | 'merge') => {
-    setUserProfile(prev => {
+    ownedUpdatesRef.current += 1;
+    afterLoad(() => setUserProfile(prev => {
       const current = prev.purchasedProducts || [];
       const nonStore = current.filter(p => !STORE_PRODUCT_IDS.includes(p));
       const currentStore = current.filter(p => STORE_PRODUCT_IDS.includes(p));
@@ -84,15 +108,18 @@ export const [AppProvider, useApp] = createContextHook(() => {
       const next = [...nonStore, ...nextStore];
       if (sameSet(current, next)) return prev;
       const updated = { ...prev, purchasedProducts: next };
-      void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updated));
+      persist(STORAGE_KEYS.USER_PROFILE, updated);
       return updated;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   useEffect(() => {
     let removeListener: () => void = () => {};
 
-    const loadData = async () => {
+    // Resolves to the store products saved on the profile, or null when the
+    // saved data couldn't be read.
+    const loadData = async (): Promise<string[] | null> => {
+      let cachedStoreProducts: string[] | null = null;
       try {
         const [profileData, progressData, shoppingData, badgesData, favoritesData, mealPlanData] = await Promise.all([
           AsyncStorage.getItem(STORAGE_KEYS.USER_PROFILE),
@@ -105,6 +132,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
 
         const profile = safeParse<UserProfile | null>(profileData, null);
         if (profile) setUserProfile(profile);
+        cachedStoreProducts = (profile?.purchasedProducts || []).filter(p => STORE_PRODUCT_IDS.includes(p));
         setCountryProgress(safeParse<ProgressState>(progressData, {}));
         setShoppingList(safeParse<ShoppingListItem[]>(shoppingData, []));
         setFavoriteRecipes(safeParse<FavoriteRecipe[]>(favoritesData, []));
@@ -116,15 +144,26 @@ export const [AppProvider, useApp] = createContextHook(() => {
           const saved = savedBadges.find(s => s.id === b.id);
           return { ...b, earned: saved?.earned ?? false, earnedDate: saved?.earnedDate };
         }));
+        loadStateRef.current = 'ready';
       } catch (error) {
         if (__DEV__) console.error('Error loading data:', error);
+        // Don't let the defaults be saved over data we just failed to read.
+        loadStateRef.current = 'failed';
       } finally {
+        // Replay changes made while loading on top of the loaded state; React
+        // batches them into the same render as the loaded values.
+        const pending = pendingMutationsRef.current;
+        pendingMutationsRef.current = [];
+        pending.forEach(mutation => mutation());
         setIsLoading(false);
       }
+      return cachedStoreProducts;
     };
 
-    const initPurchases = async () => {
+    const initPurchases = async (cachedStoreProducts: string[] | null) => {
       try {
+        // Local install id only. RevenueCat gets no custom App User ID any
+        // more (see configurePurchases), it uses its own anonymous one.
         let storedUserId = await AsyncStorage.getItem('@world_cooking_user_id');
         if (!storedUserId) {
           storedUserId = `user-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
@@ -144,15 +183,33 @@ export const [AppProvider, useApp] = createContextHook(() => {
               ? [...products, LEGACY_CODE_UNLOCK]
               : products.filter(p => p !== LEGACY_CODE_UNLOCK),
           };
-          void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updated));
+          persist(STORAGE_KEYS.USER_PROFILE, updated);
           return updated;
         });
 
-        await configurePurchases(storedUserId);
+        await configurePurchases();
+        const updatesBefore = ownedUpdatesRef.current;
+        const migrated = await ensureAnonymousUser();
+        // While a legacy install's purchases are still on their way to its
+        // anonymous ID, each answer is checked for them; the next launch
+        // after they have arrived may revoke.
+        const checkMigration = (o: string[]) => {
+          if (!migrated && cachedStoreProducts) void completeAnonymousMigration(o, cachedStoreProducts);
+        };
         const owned = await getCustomerInfo();
         // null = unknown (offline / store error): keep the cached purchases.
-        if (owned) applyOwnedProducts(owned, 'replace');
-        removeListener = addOwnedProductsListener(o => applyOwnedProducts(o, 'merge'));
+        // RevenueCat may only revoke (refunds) once a previous launch has
+        // seen this install's purchases on its anonymous ID, and only if
+        // nothing was bought or restored while we were waiting for this answer.
+        if (owned) {
+          const canRevoke = migrated && ownedUpdatesRef.current === updatesBefore;
+          applyOwnedProducts(owned, canRevoke ? 'replace' : 'merge');
+          checkMigration(owned);
+        }
+        removeListener = addOwnedProductsListener(o => {
+          applyOwnedProducts(o, 'merge');
+          checkMigration(o);
+        });
       } catch (error) {
         if (__DEV__) console.error('Error initializing purchases:', error);
       }
@@ -166,7 +223,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     void cache.remove('countries');
 
     return () => removeListener();
-  }, [applyOwnedProducts]);
+  }, [applyOwnedProducts, persist]);
 
   // Keep the 19:00 streak reminder in line with the actual streak (and the
   // scheduled notifications in the app language).
@@ -179,15 +236,15 @@ export const [AppProvider, useApp] = createContextHook(() => {
   }, [isLoading, userProfile.currentStreak, userProfile.lastActiveDate, userProfile.language]);
 
   const updateUserProfile = useCallback(async (updates: Partial<UserProfile>) => {
-    setUserProfile(prev => {
+    afterLoad(() => setUserProfile(prev => {
       const updatedProfile = { ...prev, ...updates };
-      void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updatedProfile));
+      persist(STORAGE_KEYS.USER_PROFILE, updatedProfile);
       return updatedProfile;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const completeOnboarding = useCallback(async (name: string, language?: string, avatar?: string) => {
-    setUserProfile(prev => {
+    afterLoad(() => setUserProfile(prev => {
       const updatedProfile: UserProfile = {
         ...prev,
         name,
@@ -195,17 +252,17 @@ export const [AppProvider, useApp] = createContextHook(() => {
         avatar,
         completedOnboarding: true,
       };
-      void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updatedProfile));
+      persist(STORAGE_KEYS.USER_PROFILE, updatedProfile);
       return updatedProfile;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const updateCountryProgress = useCallback(async (
     countryId: string,
     updates: Partial<CountryProgress>,
     pointsToAdd: number
   ) => {
-    setCountryProgress(prev => {
+    afterLoad(() => setCountryProgress(prev => {
       const current = prev[countryId] || {
         visited: false,
         mainDishCooked: false,
@@ -228,7 +285,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
       }
 
       const newProgress = { ...prev, [countryId]: updated };
-      void AsyncStorage.setItem(STORAGE_KEYS.COUNTRY_PROGRESS, JSON.stringify(newProgress));
+      persist(STORAGE_KEYS.COUNTRY_PROGRESS, newProgress);
 
       if (finalPoints > 0) {
         setUserProfile(prevProfile => {
@@ -257,7 +314,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
             longestStreak,
             lastActiveDate: new Date().toISOString(),
           };
-          void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updatedProfile));
+          persist(STORAGE_KEYS.USER_PROFILE, updatedProfile);
           return updatedProfile;
         });
       }
@@ -327,7 +384,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
         });
 
         if (hasChanges) {
-          void AsyncStorage.setItem(STORAGE_KEYS.BADGES, JSON.stringify(updatedBadges));
+          persist(STORAGE_KEYS.BADGES, updatedBadges);
           // Earning a badge is a strong engagement signal for the review prompt
           setTimeout(() => void trackPositiveAction(), 2500);
           return updatedBadges;
@@ -336,15 +393,15 @@ export const [AppProvider, useApp] = createContextHook(() => {
       });
 
       return newProgress;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const addToShoppingList = useCallback(async (
     ingredients: { name: string; amount: number; unit: string }[],
     countryId: string,
     countryName: string
   ) => {
-    setShoppingList(prev => {
+    afterLoad(() => setShoppingList(prev => {
       const newItems = ingredients.map(ingredient => {
         const existingItem = prev.find(
           item => item.name.toLowerCase() === ingredient.name.toLowerCase() && item.unit === ingredient.unit
@@ -377,49 +434,55 @@ export const [AppProvider, useApp] = createContextHook(() => {
         }
       });
 
-      void AsyncStorage.setItem(STORAGE_KEYS.SHOPPING_LIST, JSON.stringify(combinedList));
+      persist(STORAGE_KEYS.SHOPPING_LIST, combinedList);
       return combinedList;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const toggleShoppingItem = useCallback(async (itemId: string) => {
-    setShoppingList(prev => {
+    afterLoad(() => setShoppingList(prev => {
       const updatedList = prev.map(item =>
         item.id === itemId ? { ...item, checked: !item.checked } : item
       );
-      void AsyncStorage.setItem(STORAGE_KEYS.SHOPPING_LIST, JSON.stringify(updatedList));
+      persist(STORAGE_KEYS.SHOPPING_LIST, updatedList);
       return updatedList;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const removeShoppingItem = useCallback(async (itemId: string) => {
-    setShoppingList(prev => {
+    afterLoad(() => setShoppingList(prev => {
       const updatedList = prev.filter(item => item.id !== itemId);
-      void AsyncStorage.setItem(STORAGE_KEYS.SHOPPING_LIST, JSON.stringify(updatedList));
+      persist(STORAGE_KEYS.SHOPPING_LIST, updatedList);
       return updatedList;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const clearShoppingList = useCallback(async () => {
-    setShoppingList([]);
-    await AsyncStorage.setItem(STORAGE_KEYS.SHOPPING_LIST, JSON.stringify([]));
-  }, []);
+    afterLoad(() => {
+      setShoppingList([]);
+      persist(STORAGE_KEYS.SHOPPING_LIST, []);
+    });
+  }, [afterLoad, persist]);
 
   const resetProgress = useCallback(async () => {
-    await AsyncStorage.multiRemove([
-      STORAGE_KEYS.COUNTRY_PROGRESS,
-      STORAGE_KEYS.SHOPPING_LIST,
-      STORAGE_KEYS.BADGES,
-    ]);
-    setCountryProgress({});
-    setShoppingList([]);
-    setBadges(allBadges.map(b => ({ ...b, earned: false })));
-    setUserProfile(prev => {
-      const resetProfile = { ...prev, totalPoints: 0 };
-      void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(resetProfile));
-      return resetProfile;
+    afterLoad(async () => {
+      if (loadStateRef.current === 'ready') {
+        await AsyncStorage.multiRemove([
+          STORAGE_KEYS.COUNTRY_PROGRESS,
+          STORAGE_KEYS.SHOPPING_LIST,
+          STORAGE_KEYS.BADGES,
+        ]);
+      }
+      setCountryProgress({});
+      setShoppingList([]);
+      setBadges(allBadges.map(b => ({ ...b, earned: false })));
+      setUserProfile(prev => {
+        const resetProfile = { ...prev, totalPoints: 0 };
+        persist(STORAGE_KEYS.USER_PROFILE, resetProfile);
+        return resetProfile;
+      });
     });
-  }, []);
+  }, [afterLoad, persist]);
 
   const stats = useMemo(() => {
     const progressArray = Object.values(countryProgress);
@@ -449,7 +512,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     countryFlag: string,
     isDessert: boolean
   ) => {
-    setFavoriteRecipes(prev => {
+    afterLoad(() => setFavoriteRecipes(prev => {
       const newFavorite: FavoriteRecipe = {
         recipeId,
         recipeName,
@@ -460,35 +523,35 @@ export const [AppProvider, useApp] = createContextHook(() => {
         savedDate: new Date().toISOString(),
       };
       const updatedFavorites = [...prev, newFavorite];
-      void AsyncStorage.setItem(STORAGE_KEYS.FAVORITE_RECIPES, JSON.stringify(updatedFavorites));
+      persist(STORAGE_KEYS.FAVORITE_RECIPES, updatedFavorites);
       return updatedFavorites;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const removeFavoriteRecipe = useCallback(async (recipeId: string) => {
-    setFavoriteRecipes(prev => {
+    afterLoad(() => setFavoriteRecipes(prev => {
       const updatedFavorites = prev.filter(fav => fav.recipeId !== recipeId);
-      void AsyncStorage.setItem(STORAGE_KEYS.FAVORITE_RECIPES, JSON.stringify(updatedFavorites));
+      persist(STORAGE_KEYS.FAVORITE_RECIPES, updatedFavorites);
       return updatedFavorites;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const isRecipeFavorite = useCallback((recipeId: string): boolean => {
     return favoriteRecipes.some(fav => fav.recipeId === recipeId);
   }, [favoriteRecipes]);
 
   const toggleFavoriteCountry = useCallback(async (countryId: string) => {
-    setUserProfile(prev => {
+    afterLoad(() => setUserProfile(prev => {
       const favoriteCountries = prev.favoriteCountries || [];
       const isFavorite = favoriteCountries.includes(countryId);
       const updatedFavorites = isFavorite
         ? favoriteCountries.filter(id => id !== countryId)
         : [...favoriteCountries, countryId];
       const updated = { ...prev, favoriteCountries: updatedFavorites };
-      void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updated));
+      persist(STORAGE_KEYS.USER_PROFILE, updated);
       return updated;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const isFavoriteCountry = useCallback((countryId: string): boolean => {
     return (userProfile.favoriteCountries || []).includes(countryId);
@@ -500,7 +563,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
     rating: number
   ) => {
     const field = isDessert ? 'dessertRating' : 'mainDishRating';
-    setCountryProgress(prev => {
+    afterLoad(() => setCountryProgress(prev => {
       const current = prev[countryId] || {
         visited: false,
         mainDishCooked: false,
@@ -510,22 +573,22 @@ export const [AppProvider, useApp] = createContextHook(() => {
       };
       const updated = { ...current, [field]: rating };
       const newProgress = { ...prev, [countryId]: updated };
-      void AsyncStorage.setItem(STORAGE_KEYS.COUNTRY_PROGRESS, JSON.stringify(newProgress));
+      persist(STORAGE_KEYS.COUNTRY_PROGRESS, newProgress);
       return newProgress;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   /** Award a badge that isn't tied to country progress (e.g. inviting a friend). */
   const awardBadge = useCallback((badgeId: string) => {
-    setBadges(prev => {
+    afterLoad(() => setBadges(prev => {
       const index = prev.findIndex(b => b.id === badgeId);
       if (index === -1 || prev[index].earned) return prev;
       const updated = [...prev];
       updated[index] = { ...updated[index], earned: true, earnedDate: new Date().toISOString() };
-      void AsyncStorage.setItem(STORAGE_KEYS.BADGES, JSON.stringify(updated));
+      persist(STORAGE_KEYS.BADGES, updated);
       return updated;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const purchaseProduct = useCallback(async (productId: string) => {
     applyOwnedProducts([productId], 'merge');
@@ -536,24 +599,24 @@ export const [AppProvider, useApp] = createContextHook(() => {
   }, [userProfile.purchasedProducts]);
 
   const addMealPlan = useCallback((plan: MealPlan) => {
-    setMealPlans(prev => {
+    afterLoad(() => setMealPlans(prev => {
       // Replace if same date + mealType already exists
       const filtered = prev.filter(
         p => !(p.date === plan.date && p.mealType === plan.mealType),
       );
       const updated = [...filtered, plan];
-      void AsyncStorage.setItem(STORAGE_KEYS.MEAL_PLANS, JSON.stringify(updated));
+      persist(STORAGE_KEYS.MEAL_PLANS, updated);
       return updated;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const removeMealPlan = useCallback((planId: string) => {
-    setMealPlans(prev => {
+    afterLoad(() => setMealPlans(prev => {
       const updated = prev.filter(p => p.id !== planId);
-      void AsyncStorage.setItem(STORAGE_KEYS.MEAL_PLANS, JSON.stringify(updated));
+      persist(STORAGE_KEYS.MEAL_PLANS, updated);
       return updated;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   const getMealPlansForDate = useCallback((date: string): MealPlan[] => {
     return mealPlans.filter(p => p.date === date);
@@ -576,7 +639,7 @@ export const [AppProvider, useApp] = createContextHook(() => {
   }, [addToShoppingList, userProfile.language]);
 
   const trackDifficultyCooked = useCallback((difficulty: 'easy' | 'medium' | 'hard') => {
-    setUserProfile(prev => {
+    afterLoad(() => setUserProfile(prev => {
       const current = prev.recipesCompletedByDifficulty || { easy: 0, medium: 0, hard: 0 };
       const updated = { ...current, [difficulty]: current[difficulty] + 1 };
       const newSkill = calculateSkillLevel(updated);
@@ -585,10 +648,10 @@ export const [AppProvider, useApp] = createContextHook(() => {
         recipesCompletedByDifficulty: updated,
         skillLevel: newSkill,
       };
-      void AsyncStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(updatedProfile));
+      persist(STORAGE_KEYS.USER_PROFILE, updatedProfile);
       return updatedProfile;
-    });
-  }, []);
+    }));
+  }, [afterLoad, persist]);
 
   return useMemo(() => ({
     userProfile,

@@ -30,7 +30,10 @@ interface CookingModeProps {
   onClose: () => void;
   steps: string[];
   recipeName: string;
+  /** Called from Finish, before onClose. */
   onComplete: () => void;
+  /** iOS only: the modal has finished animating out, so another modal can be presented. */
+  onDismiss?: () => void;
 }
 
 export default function CookingMode({
@@ -39,6 +42,7 @@ export default function CookingMode({
   steps,
   recipeName,
   onComplete,
+  onDismiss,
 }: CookingModeProps) {
   const { t } = useTranslation();
   // Keep screen awake — wrapped in try/catch for sandboxed web environments
@@ -357,6 +361,7 @@ export default function CookingMode({
       presentationStyle="fullScreen"
       statusBarTranslucent
       onRequestClose={onClose}
+      onDismiss={onDismiss}
     >
       {content}
     </Modal>

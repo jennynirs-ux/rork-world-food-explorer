@@ -29,9 +29,21 @@
           "pl",
           "nl",
           "pt"
-        ]
+        ],
+        "NSPhotoLibraryAddUsageDescription": "World Food Journey saves images you share from the app to your photo library when you choose to save them."
       },
       "entitlements": {}
+    },
+    "locales": {
+      "en": "./locales/en.json",
+      "sv": "./locales/sv.json",
+      "de": "./locales/de.json",
+      "fr": "./locales/fr.json",
+      "es": "./locales/es.json",
+      "it": "./locales/it.json",
+      "pl": "./locales/pl.json",
+      "nl": "./locales/nl.json",
+      "pt": "./locales/pt.json"
     },
     "android": {
       "adaptiveIcon": {

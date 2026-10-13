@@ -24,18 +24,23 @@ function RootLayoutNav() {
     if (isLoading) return;
     const inOnboarding = (segments as string[]).includes('onboarding');
     if (!userProfile.completedOnboarding && !inOnboarding) {
-      router.replace('/onboarding' as any);
+      router.replace('/onboarding');
     } else if (userProfile.completedOnboarding && inOnboarding) {
-      router.replace('/(tabs)' as any);
+      router.replace('/(tabs)');
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [userProfile.completedOnboarding, isLoading, segments]);
 
+  // Every screen below draws its own header and back button. Only +not-found
+  // keeps the native header, so it gets a back arrow.
   return (
     <Stack screenOptions={{ headerBackTitle: t.common.back }}>
       <Stack.Screen name="onboarding" options={{ headerShown: false }} />
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       <Stack.Screen name="country/[id]" options={{ headerShown: false }} />
+      <Stack.Screen name="collections" options={{ headerShown: false }} />
+      <Stack.Screen name="ingredient-match" options={{ headerShown: false }} />
+      <Stack.Screen name="submit-recipe" options={{ headerShown: false }} />
       <Stack.Screen
         name="shopping-list"
         options={{

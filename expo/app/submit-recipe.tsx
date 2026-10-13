@@ -88,6 +88,12 @@ export default function SubmitRecipeScreen() {
   const [draftRestored, setDraftRestored] = useState(false);
   const draftLoaded = useRef(false);
 
+  // A cold-start deep link opens this screen with nothing underneath.
+  const goBack = () => {
+    if (router.canGoBack()) router.back();
+    else router.replace('/(tabs)');
+  };
+
   // Restore draft on mount
   useEffect(() => {
     (async () => {
@@ -205,7 +211,7 @@ export default function SubmitRecipeScreen() {
       Alert.alert(
         t.submitRecipe.submitted,
         t.submitRecipe.submittedMessage,
-        [{ text: t.common.ok, onPress: () => router.back() }],
+        [{ text: t.common.ok, onPress: goBack }],
       );
     } catch {
       Alert.alert(t.common.error, t.submitRecipe.submitError);
@@ -217,7 +223,7 @@ export default function SubmitRecipeScreen() {
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.header}>
-        <TouchableOpacity onPress={() => router.back()} style={styles.backBtn}>
+        <TouchableOpacity onPress={goBack} style={styles.backBtn} accessibilityRole="button" accessibilityLabel={t.common.back}>
           <ArrowLeft size={24} color={colors.text} />
         </TouchableOpacity>
         <Text style={styles.title}>{t.submitRecipe.title}</Text>

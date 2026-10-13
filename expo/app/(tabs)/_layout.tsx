@@ -1,5 +1,6 @@
 import { Tabs } from "expo-router";
 import { View, StyleSheet } from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Compass, Award, BookOpen, User, CalendarDays } from "lucide-react-native";
 import { useTranslation } from '@/lib/i18n';
 import { useStrings } from '@/lib/strings';
@@ -8,6 +9,11 @@ import { cookbookStrings } from '@/lib/strings/cookbook';
 export default function TabLayout() {
   const { t } = useTranslation();
   const cookbook = useStrings(cookbookStrings);
+  // A fixed height would override bottom-tabs' own safe-area handling, so size
+  // the bar from the inset. Android draws edge-to-edge, and its 3-button nav
+  // bar (~48dp) would otherwise cover the labels.
+  const insets = useSafeAreaInsets();
+  const bottomPadding = Math.max(insets.bottom, 8);
   return (
     <Tabs
       backBehavior="history"
@@ -19,8 +25,9 @@ export default function TabLayout() {
           backgroundColor: '#FFF',
           borderTopColor: '#E5E7EB',
           borderTopWidth: 1,
-          height: 88,
-          paddingBottom: 8,
+          // 64 fits the icon and label, including the raised Explore label.
+          height: 64 + bottomPadding,
+          paddingBottom: bottomPadding,
           paddingTop: 8,
         },
         tabBarLabelStyle: {

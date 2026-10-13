@@ -4,7 +4,8 @@ import {
   StyleSheet, 
   ScrollView, 
   TouchableOpacity, 
-  Alert
+  Alert,
+  Platform,
 } from 'react-native';
 import { FoodImage } from '@/components/FoodImage';
 import { preloadImages } from '@/lib/image-utils';
@@ -49,6 +50,14 @@ import {
   Lock,
 } from 'lucide-react-native';
 
+type Celebration = {
+  kind: 'dish' | 'quiz';
+  subtitle: string;
+  points: number;
+  isDessert?: boolean;
+  showReminder: boolean;
+};
+
 export default function CountryDetailScreen() {
   const { id, tab, recipe } = useLocalSearchParams<{ id: string; tab?: string; recipe?: string }>();
   const router = useRouter();
@@ -70,6 +79,7 @@ export default function CountryDetailScreen() {
     trackDifficultyCooked,
     badges,
     stats,
+    isLoading,
   } = useApp();
   
   const lang = userProfile.language || 'en';
@@ -88,13 +98,10 @@ export default function CountryDetailScreen() {
   const [showDessertRating, setShowDessertRating] = useState(false);
   const [showPaywall, setShowPaywall] = useState(false);
   const [cookingMode, setCookingMode] = useState<{ steps: string[]; name: string; isDessert: boolean } | null>(null);
-  const [celebration, setCelebration] = useState<{
-    kind: 'dish' | 'quiz';
-    subtitle: string;
-    points: number;
-    isDessert?: boolean;
-    showReminder: boolean;
-  } | null>(null);
+  const [celebration, setCelebration] = useState<Celebration | null>(null);
+  // iOS: a dish finished in Cooking Mode is celebrated only once that modal has
+  // fully closed — UIKit drops a modal presented while another is dismissing.
+  const pendingCelebration = useRef<Celebration | null>(null);
   const [newBadge, setNewBadge] = useState<Badge | null>(null);
   const [remindersOn, setRemindersOn] = useState(true);
   const { shareCard, shareCardHost, isSharing } = useShareCard();
@@ -106,6 +113,9 @@ export default function CountryDetailScreen() {
   // Surface a badge earned by the action being celebrated.
   const earnedBadgeIds = useRef<Set<string> | null>(null);
   useEffect(() => {
+    // Keep the old baseline while a celebration waits for Cooking Mode to
+    // close, so the badge that dish earned is still found when it shows.
+    if (pendingCelebration.current) return;
     const earned = new Set(badges.filter(b => b.earned).map(b => b.id));
     const previous = earnedBadgeIds.current;
     if (previous && celebration) {
@@ -161,7 +171,9 @@ export default function CountryDetailScreen() {
     ? isCountryAccessible(countryData, userProfile.purchasedProducts || [])
     : false;
   useEffect(() => {
-    if (!countryData) return;
+    // A cold-start deep link mounts this screen before the saved progress has
+    // loaded; marking the visit then would build on the empty defaults.
+    if (!countryData || isLoading) return;
     if (!canViewCountry) {
       // Locked countries are a preview only — no visit, no points.
       void trackEvent('country_previewed', { countryId: countryData.id });
@@ -172,7 +184,7 @@ export default function CountryDetailScreen() {
     }
     void trackEvent(EVENTS.COUNTRY_VIEWED, { countryId: countryData.id });
     // eslint-disable-next-line react-hooks/exhaustive-deps -- once per opened country
-  }, [countryData?.id, canViewCountry]);
+  }, [countryData?.id, canViewCountry, isLoading]);
 
   // Store prices for the "from {price}" teaser on locked countries.
   const { packages: storePackages } = useOfferings(!!countryData && !canViewCountry);
@@ -239,7 +251,8 @@ export default function CountryDetailScreen() {
         .join(' · ')
     : '';
 
-  const handleMarkDishCooked = (isDessert: boolean) => {
+  /** Saves a cooked dish and returns its celebration (not shown yet). */
+  const recordDishCooked = (isDessert: boolean): Celebration => {
     hapticSuccess();
     const field = isDessert ? 'dessertCooked' : 'mainDishCooked';
     const points = isDessert ? 15 : 30;
@@ -261,8 +274,19 @@ export default function CountryDetailScreen() {
 
     // First dish ever is the moment to offer streak reminders.
     const firstDishEver = !Object.values(countryProgress).some(p => p.mainDishCooked || p.dessertCooked);
+    return { kind: 'dish', subtitle: dishName, points, isDessert, showReminder: firstDishEver && !remindersOn };
+  };
+
+  const showCelebration = (next: Celebration) => {
+    // A newer celebration replaces one still waiting for Cooking Mode's
+    // onDismiss, so a missed dismiss event cannot freeze badge detection.
+    pendingCelebration.current = null;
     setNewBadge(null);
-    setCelebration({ kind: 'dish', subtitle: dishName, points, isDessert, showReminder: firstDishEver && !remindersOn });
+    setCelebration(next);
+  };
+
+  const handleMarkDishCooked = (isDessert: boolean) => {
+    showCelebration(recordDishCooked(isDessert));
   };
 
   const handleAddToShoppingList = (isDessert: boolean) => {
@@ -375,8 +399,7 @@ export default function CountryDetailScreen() {
     );
     void trackPositiveAction();
 
-    setNewBadge(null);
-    setCelebration({
+    showCelebration({
       kind: 'quiz',
       subtitle: t.country.quizResult
         .replace('{correct}', correctCount.toString())
@@ -585,7 +608,10 @@ export default function CountryDetailScreen() {
             onRateRecipe={handleRateRecipe}
             onShareRecipe={handleShareRecipe}
             onShareCookedPhoto={handleShareCookedPhoto}
-            onStartCookingMode={(steps, name, isDessert) => setCookingMode({ steps, name, isDessert })}
+            onStartCookingMode={(steps, name, isDessert) => {
+              pendingCelebration.current = null;
+              setCookingMode({ steps, name, isDessert });
+            }}
             isRecipeFavorite={isRecipeFavorite}
             locked={isLocked}
             onUnlockPress={openPaywall}
@@ -634,11 +660,18 @@ export default function CountryDetailScreen() {
         steps={cookingMode?.steps ?? []}
         recipeName={cookingMode?.name ?? ''}
         onComplete={() => {
-          if (cookingMode && !cookingMode.isDessert && !progress.mainDishCooked) {
-            handleMarkDishCooked(false);
-          } else if (cookingMode && cookingMode.isDessert && !progress.dessertCooked) {
-            handleMarkDishCooked(true);
-          }
+          if (!cookingMode) return;
+          const alreadyCooked = cookingMode.isDessert ? progress.dessertCooked : progress.mainDishCooked;
+          if (alreadyCooked) return;
+          // Progress is saved now; only the celebration waits for onDismiss on iOS.
+          const next = recordDishCooked(cookingMode.isDessert);
+          if (Platform.OS === 'ios') pendingCelebration.current = next;
+          else showCelebration(next);
+        }}
+        onDismiss={() => {
+          const next = pendingCelebration.current;
+          pendingCelebration.current = null;
+          if (next) showCelebration(next);
         }}
       />
 

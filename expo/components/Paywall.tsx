@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   View,
   Text,
@@ -24,8 +24,9 @@ import {
   restorePurchases,
   isPurchasesConfigured,
   canMakePurchases,
+  classifyPurchaseError,
   PurchasePendingError,
-  PurchaseUnavailableError,
+  type PurchaseErrorKind,
 } from '@/lib/purchases';
 import { hapticHeavy, hapticSuccess, hapticError, hapticSelection } from '@/lib/haptics';
 import { trackEvent } from '@/lib/analytics';
@@ -71,6 +72,9 @@ export default function Paywall({
 }: PaywallProps) {
   const [purchasing, setPurchasing] = useState<string | null>(null);
   const [restoring, setRestoring] = useState(false);
+  // Set synchronously, so a fast double tap that lands before the re-render
+  // disables the buttons can't start a second store call.
+  const storeBusyRef = useRef(false);
   const [reloadKey, setReloadKey] = useState(0);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [showAllPacks, setShowAllPacks] = useState(false);
@@ -145,6 +149,8 @@ export default function Paywall({
   const countryName = country ? translateContent(country.name, language) : '';
 
   const handlePurchase = async (productId: string) => {
+    if (storeBusyRef.current) return;
+    storeBusyRef.current = true;
     hapticHeavy();
     setPurchasing(productId);
     try {
@@ -160,26 +166,55 @@ export default function Paywall({
         // Keep the paywall open so they can try again or pick another option.
         if (__DEV__) console.log('[Paywall] Purchase cancelled by user');
       }
-    } catch (error: any) {
+    } catch (error) {
       if (error instanceof PurchasePendingError) {
         // Ask to Buy / slow payment: the unlock arrives via the RevenueCat listener.
         Alert.alert(t.ui.purchasePendingTitle, t.ui.purchasePendingMessage);
         onClose();
         return;
       }
+      const kind = classifyPurchaseError(error);
+      // Another store call is still running (double taps are stopped above); it carries on.
+      if (kind === 'ignore') return;
       hapticError();
-      Alert.alert(
-        t.ui.purchaseFailedTitle,
-        error instanceof PurchaseUnavailableError
-          ? t.profile.storeUnavailableMessage
-          : t.ui.purchaseFailedGeneric,
-      );
+      showPurchaseError(kind);
     } finally {
+      storeBusyRef.current = false;
       setPurchasing(null);
     }
   };
 
+  // Never say "you have not been charged": RevenueCat can fail after Apple or
+  // Google already took the payment. Those cases offer Restore right away.
+  const showPurchaseError = (kind: PurchaseErrorKind) => {
+    const withRestore = [
+      { text: t.common.ok, style: 'cancel' as const },
+      { text: t.profile.restorePurchases, onPress: () => void handleRestore() },
+    ];
+    switch (kind) {
+      case 'notAllowed':
+        Alert.alert(s.purchaseNotAllowedTitle, s.purchaseNotAllowedMessage);
+        break;
+      case 'connection':
+        Alert.alert(t.profile.storeUnavailableTitle, s.purchaseConnectionMessage);
+        break;
+      case 'unconfirmed':
+        Alert.alert(s.purchaseUnconfirmedTitle, s.purchaseUnconfirmedMessage, withRestore);
+        break;
+      case 'alreadyOwned':
+        Alert.alert(s.alreadyOwnedTitle, s.alreadyOwnedMessage, withRestore);
+        break;
+      case 'unavailable':
+        Alert.alert(t.ui.purchaseFailedTitle, t.profile.storeUnavailableMessage);
+        break;
+      default:
+        Alert.alert(t.ui.purchaseFailedTitle, t.ui.purchaseFailedGeneric);
+    }
+  };
+
   const handleRestore = async () => {
+    if (storeBusyRef.current) return;
+    storeBusyRef.current = true;
     setRestoring(true);
     try {
       const entitlements = await restorePurchases();
@@ -191,9 +226,19 @@ export default function Paywall({
       } else {
         Alert.alert(t.profile.restoreNoneTitle, t.profile.restoreNoneMessage);
       }
-    } catch {
-      Alert.alert(t.profile.storeUnavailableTitle, t.profile.storeUnavailableMessage);
+    } catch (error) {
+      // The Restore button is disabled while busy, so "already in progress"
+      // means another store call is running: ask to try again in a moment.
+      const kind = classifyPurchaseError(error);
+      if (kind === 'notAllowed') {
+        Alert.alert(s.purchaseNotAllowedTitle, s.purchaseNotAllowedMessage);
+      } else if (kind === 'connection' || kind === 'unavailable') {
+        Alert.alert(t.profile.storeUnavailableTitle, t.profile.storeUnavailableMessage);
+      } else {
+        Alert.alert(s.restoreFailedTitle, s.restoreFailedMessage);
+      }
     } finally {
+      storeBusyRef.current = false;
       setRestoring(false);
     }
   };

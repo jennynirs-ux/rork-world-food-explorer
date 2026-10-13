@@ -414,6 +414,8 @@ export default function ExploreScreen() {
                   onDragStateChange={setIsGlobeDragging}
                   accessibilityExploreHint={t.globe?.exploreHint}
                   animate={isScreenFocused}
+                  // The Paywall is a Modal, which doesn't blur this tab.
+                  paused={showPaywall}
                 />
               </View>
             </View>

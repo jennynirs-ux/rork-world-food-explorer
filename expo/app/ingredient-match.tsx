@@ -82,19 +82,27 @@ export default function IngredientMatchScreen() {
 
   const navigateToRecipe = (match: RecipeMatch) => {
     hapticSuccess();
+    // country/[id] lives in the root stack, not in (tabs).
     router.push({
-      pathname: `/(tabs)/country/${match.countryId}`,
+      pathname: '/country/[id]',
       params: {
+        id: match.countryId,
         tab: 'recipes',
         recipe: match.isDessert ? 'dessert' : 'main',
       },
-    } as any);
+    });
+  };
+
+  // A cold-start deep link opens this screen with nothing underneath.
+  const goBack = () => {
+    if (router.canGoBack()) router.back();
+    else router.replace('/(tabs)');
   };
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.header}>
-        <TouchableOpacity onPress={() => router.back()} style={styles.backBtn}>
+        <TouchableOpacity onPress={goBack} style={styles.backBtn} accessibilityRole="button" accessibilityLabel={t.common.back}>
           <ArrowLeft size={24} color={colors.text} />
         </TouchableOpacity>
         <View>

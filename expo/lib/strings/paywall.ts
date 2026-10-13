@@ -36,6 +36,16 @@ export type PaywallStrings = {
   unlockToSeeRecipe: string;
   /** Accessibility label for the country page's heart button. */
   favoriteLabel: string;
+  /** Purchase and restore errors (see classifyPurchaseError). */
+  purchaseNotAllowedTitle: string;
+  purchaseNotAllowedMessage: string;
+  purchaseConnectionMessage: string;
+  purchaseUnconfirmedTitle: string;
+  purchaseUnconfirmedMessage: string;
+  alreadyOwnedTitle: string;
+  alreadyOwnedMessage: string;
+  restoreFailedTitle: string;
+  restoreFailedMessage: string;
 };
 
 /** Polish has three plural forms: 1, 2–4 (not 12–14), and everything else. */
@@ -74,6 +84,15 @@ export const paywallStrings: StringTable<PaywallStrings> = {
     quizPerkRetake: 'Retake it anytime to beat your best score',
     unlockToSeeRecipe: 'Unlock to see the full recipe',
     favoriteLabel: 'Favorite',
+    purchaseNotAllowedTitle: 'Purchases are turned off',
+    purchaseNotAllowedMessage: 'In-app purchases aren’t allowed on this device, for example because of Screen Time or parental controls. Change the setting and try again.',
+    purchaseConnectionMessage: 'We couldn’t reach the store. Check your internet connection and try again. If the payment already went through, you won’t be charged twice.',
+    purchaseUnconfirmedTitle: 'Purchase not confirmed yet',
+    purchaseUnconfirmedMessage: 'We couldn’t confirm your purchase right now. If you were charged, it will unlock automatically shortly, or you can tap Restore Purchases.',
+    alreadyOwnedTitle: 'You already own this',
+    alreadyOwnedMessage: 'Your store account already owns this purchase, but we couldn’t unlock it right now. Check your connection and tap Restore Purchases.',
+    restoreFailedTitle: 'Couldn’t restore purchases',
+    restoreFailedMessage: 'Something went wrong while restoring your purchases. Please try again in a moment.',
   },
   sv: {
     unlockCountry: 'Lås upp {country}',
@@ -101,6 +120,15 @@ export const paywallStrings: StringTable<PaywallStrings> = {
     quizPerkRetake: 'Gör om det när du vill och slå ditt rekord',
     unlockToSeeRecipe: 'Lås upp för att se hela receptet',
     favoriteLabel: 'Favorit',
+    purchaseNotAllowedTitle: 'Köp är avstängda',
+    purchaseNotAllowedMessage: 'Köp i appar är inte tillåtna på den här enheten, till exempel på grund av Skärmtid eller föräldrakontroll. Ändra inställningen och försök igen.',
+    purchaseConnectionMessage: 'Vi når inte butiken just nu. Kontrollera din internetanslutning och försök igen. Om betalningen redan har gått igenom debiteras du inte två gånger.',
+    purchaseUnconfirmedTitle: 'Köpet är inte bekräftat än',
+    purchaseUnconfirmedMessage: 'Vi kunde inte bekräfta ditt köp just nu. Om du har debiterats låses det upp automatiskt inom kort, eller så kan du trycka på Återställ köp.',
+    alreadyOwnedTitle: 'Du äger redan det här',
+    alreadyOwnedMessage: 'Ditt butikskonto äger redan det här köpet, men vi kunde inte låsa upp det just nu. Kontrollera din anslutning och tryck på Återställ köp.',
+    restoreFailedTitle: 'Det gick inte att återställa köp',
+    restoreFailedMessage: 'Något gick fel när dina köp skulle återställas. Försök igen om en stund.',
   },
   de: {
     unlockCountry: '{country} freischalten',
@@ -128,6 +156,15 @@ export const paywallStrings: StringTable<PaywallStrings> = {
     quizPerkRetake: 'Jederzeit wiederholen und den eigenen Rekord knacken',
     unlockToSeeRecipe: 'Freischalten, um das ganze Rezept zu sehen',
     favoriteLabel: 'Favorit',
+    purchaseNotAllowedTitle: 'Käufe sind deaktiviert',
+    purchaseNotAllowedMessage: 'In-App-Käufe sind auf diesem Gerät nicht erlaubt, zum Beispiel durch die Bildschirmzeit oder die Kindersicherung. Ändere die Einstellung und versuche es erneut.',
+    purchaseConnectionMessage: 'Der Store ist gerade nicht erreichbar. Prüfe deine Internetverbindung und versuche es erneut. Falls die Zahlung schon durchgegangen ist, wird dir nichts doppelt berechnet.',
+    purchaseUnconfirmedTitle: 'Kauf noch nicht bestätigt',
+    purchaseUnconfirmedMessage: 'Wir konnten deinen Kauf gerade nicht bestätigen. Falls dir etwas berechnet wurde, wird er in Kürze automatisch freigeschaltet. Du kannst auch auf „Käufe wiederherstellen“ tippen.',
+    alreadyOwnedTitle: 'Du besitzt das bereits',
+    alreadyOwnedMessage: 'Dein Store-Konto besitzt diesen Kauf bereits, aber wir konnten ihn gerade nicht freischalten. Prüfe deine Verbindung und tippe auf „Käufe wiederherstellen“.',
+    restoreFailedTitle: 'Wiederherstellen fehlgeschlagen',
+    restoreFailedMessage: 'Beim Wiederherstellen deiner Käufe ist etwas schiefgelaufen. Bitte versuche es gleich noch einmal.',
   },
   fr: {
     unlockCountry: 'Débloquer : {country}',
@@ -155,6 +192,15 @@ export const paywallStrings: StringTable<PaywallStrings> = {
     quizPerkRetake: 'Rejouez quand vous voulez pour battre votre record',
     unlockToSeeRecipe: 'Débloquez pour voir la recette complète',
     favoriteLabel: 'Favori',
+    purchaseNotAllowedTitle: 'Achats désactivés',
+    purchaseNotAllowedMessage: 'Les achats intégrés ne sont pas autorisés sur cet appareil, par exemple à cause de Temps d’écran ou du contrôle parental. Modifiez ce réglage et réessayez.',
+    purchaseConnectionMessage: 'Impossible de joindre la boutique. Vérifiez votre connexion Internet et réessayez. Si le paiement est déjà passé, vous ne serez pas débité deux fois.',
+    purchaseUnconfirmedTitle: 'Achat pas encore confirmé',
+    purchaseUnconfirmedMessage: 'Nous n’avons pas pu confirmer votre achat pour le moment. Si vous avez été débité, il se débloquera automatiquement d’ici peu. Vous pouvez aussi toucher « Restaurer les achats ».',
+    alreadyOwnedTitle: 'Vous possédez déjà cet achat',
+    alreadyOwnedMessage: 'Votre compte de la boutique possède déjà cet achat, mais nous n’avons pas pu le débloquer pour le moment. Vérifiez votre connexion et touchez « Restaurer les achats ».',
+    restoreFailedTitle: 'Échec de la restauration',
+    restoreFailedMessage: 'Un problème est survenu lors de la restauration de vos achats. Réessayez dans un instant.',
   },
   es: {
     unlockCountry: 'Desbloquea {country}',
@@ -182,6 +228,15 @@ export const paywallStrings: StringTable<PaywallStrings> = {
     quizPerkRetake: 'Repítelo cuando quieras para superar tu récord',
     unlockToSeeRecipe: 'Desbloquea para ver la receta completa',
     favoriteLabel: 'Favorito',
+    purchaseNotAllowedTitle: 'Compras desactivadas',
+    purchaseNotAllowedMessage: 'Las compras dentro de la app no están permitidas en este dispositivo, por ejemplo por Tiempo de uso o el control parental. Cambia el ajuste e inténtalo de nuevo.',
+    purchaseConnectionMessage: 'No podemos conectar con la tienda. Comprueba tu conexión a internet e inténtalo de nuevo. Si el pago ya se realizó, no se te cobrará dos veces.',
+    purchaseUnconfirmedTitle: 'Compra aún sin confirmar',
+    purchaseUnconfirmedMessage: 'No hemos podido confirmar tu compra ahora mismo. Si se te ha cobrado, se desbloqueará automáticamente en breve. También puedes tocar «Restaurar compras».',
+    alreadyOwnedTitle: 'Ya tienes esta compra',
+    alreadyOwnedMessage: 'Tu cuenta de la tienda ya tiene esta compra, pero no hemos podido desbloquearla ahora mismo. Comprueba tu conexión y toca «Restaurar compras».',
+    restoreFailedTitle: 'No se pudieron restaurar las compras',
+    restoreFailedMessage: 'Algo salió mal al restaurar tus compras. Inténtalo de nuevo en un momento.',
   },
   it: {
     unlockCountry: 'Sblocca: {country}',
@@ -209,6 +264,15 @@ export const paywallStrings: StringTable<PaywallStrings> = {
     quizPerkRetake: 'Rifallo quando vuoi per battere il tuo record',
     unlockToSeeRecipe: 'Sblocca per vedere la ricetta completa',
     favoriteLabel: 'Preferito',
+    purchaseNotAllowedTitle: 'Acquisti disattivati',
+    purchaseNotAllowedMessage: 'Gli acquisti in-app non sono consentiti su questo dispositivo, ad esempio per via di Tempo di utilizzo o del controllo parentale. Modifica l’impostazione e riprova.',
+    purchaseConnectionMessage: 'Non riusciamo a raggiungere lo store. Controlla la connessione a internet e riprova. Se il pagamento è già andato a buon fine, non ti verrà addebitato due volte.',
+    purchaseUnconfirmedTitle: 'Acquisto non ancora confermato',
+    purchaseUnconfirmedMessage: 'Al momento non riusciamo a confermare il tuo acquisto. Se ti è stato addebitato, verrà sbloccato automaticamente a breve. Puoi anche toccare «Ripristina acquisti».',
+    alreadyOwnedTitle: 'Hai già questo acquisto',
+    alreadyOwnedMessage: 'Il tuo account dello store possiede già questo acquisto, ma al momento non riusciamo a sbloccarlo. Controlla la connessione e tocca «Ripristina acquisti».',
+    restoreFailedTitle: 'Ripristino non riuscito',
+    restoreFailedMessage: 'Qualcosa è andato storto durante il ripristino dei tuoi acquisti. Riprova tra poco.',
   },
   pl: {
     unlockCountry: 'Odblokuj: {country}',
@@ -237,6 +301,15 @@ export const paywallStrings: StringTable<PaywallStrings> = {
     quizPerkRetake: 'Powtarzaj go, kiedy chcesz, i pobijaj swój rekord',
     unlockToSeeRecipe: 'Odblokuj, aby zobaczyć cały przepis',
     favoriteLabel: 'Ulubione',
+    purchaseNotAllowedTitle: 'Zakupy są wyłączone',
+    purchaseNotAllowedMessage: 'Zakupy w aplikacjach są zablokowane na tym urządzeniu, np. przez Czas przed ekranem lub kontrolę rodzicielską. Zmień to ustawienie i spróbuj ponownie.',
+    purchaseConnectionMessage: 'Nie możemy połączyć się ze sklepem. Sprawdź połączenie z internetem i spróbuj ponownie. Jeśli płatność już przeszła, nie zostanie pobrana drugi raz.',
+    purchaseUnconfirmedTitle: 'Zakup jeszcze niepotwierdzony',
+    purchaseUnconfirmedMessage: 'Nie możemy teraz potwierdzić Twojego zakupu. Jeśli pobrano opłatę, zakup wkrótce odblokuje się automatycznie. Możesz też dotknąć „Przywróć zakupy”.',
+    alreadyOwnedTitle: 'Masz już ten zakup',
+    alreadyOwnedMessage: 'Twoje konto w sklepie ma już ten zakup, ale nie możemy go teraz odblokować. Sprawdź połączenie i dotknij „Przywróć zakupy”.',
+    restoreFailedTitle: 'Nie udało się przywrócić zakupów',
+    restoreFailedMessage: 'Coś poszło nie tak podczas przywracania zakupów. Spróbuj ponownie za chwilę.',
   },
   nl: {
     unlockCountry: 'Ontgrendel {country}',
@@ -264,6 +337,15 @@ export const paywallStrings: StringTable<PaywallStrings> = {
     quizPerkRetake: 'Doe hem opnieuw wanneer je wilt en verbeter je record',
     unlockToSeeRecipe: 'Ontgrendel om het hele recept te zien',
     favoriteLabel: 'Favoriet',
+    purchaseNotAllowedTitle: 'Aankopen staan uit',
+    purchaseNotAllowedMessage: 'In-app-aankopen zijn niet toegestaan op dit apparaat, bijvoorbeeld door Schermtijd of ouderlijk toezicht. Pas de instelling aan en probeer het opnieuw.',
+    purchaseConnectionMessage: 'We kunnen de winkel niet bereiken. Controleer je internetverbinding en probeer het opnieuw. Als de betaling al gelukt is, betaal je niet twee keer.',
+    purchaseUnconfirmedTitle: 'Aankoop nog niet bevestigd',
+    purchaseUnconfirmedMessage: 'We konden je aankoop nu niet bevestigen. Als je al betaald hebt, wordt de aankoop binnenkort automatisch ontgrendeld. Je kunt ook op ‘Aankopen herstellen’ tikken.',
+    alreadyOwnedTitle: 'Je hebt dit al gekocht',
+    alreadyOwnedMessage: 'Je winkelaccount heeft deze aankoop al, maar we konden hem nu niet ontgrendelen. Controleer je verbinding en tik op ‘Aankopen herstellen’.',
+    restoreFailedTitle: 'Herstellen mislukt',
+    restoreFailedMessage: 'Er ging iets mis bij het herstellen van je aankopen. Probeer het zo meteen opnieuw.',
   },
   pt: {
     unlockCountry: 'Desbloquear: {country}',
@@ -291,5 +373,14 @@ export const paywallStrings: StringTable<PaywallStrings> = {
     quizPerkRetake: 'Refaça quando quiser para bater o seu recorde',
     unlockToSeeRecipe: 'Desbloqueie para ver a receita completa',
     favoriteLabel: 'Favorito',
+    purchaseNotAllowedTitle: 'Compras desativadas',
+    purchaseNotAllowedMessage: 'Compras no app não são permitidas neste dispositivo, por exemplo por causa do Tempo de Uso ou do controle parental. Altere a configuração e tente novamente.',
+    purchaseConnectionMessage: 'Não foi possível acessar a loja. Verifique sua conexão com a internet e tente novamente. Se o pagamento já tiver sido feito, você não será cobrado duas vezes.',
+    purchaseUnconfirmedTitle: 'Compra ainda não confirmada',
+    purchaseUnconfirmedMessage: 'Não conseguimos confirmar sua compra agora. Se você foi cobrado, ela será desbloqueada automaticamente em breve. Você também pode tocar em “Restaurar compras”.',
+    alreadyOwnedTitle: 'Você já tem esta compra',
+    alreadyOwnedMessage: 'Sua conta da loja já tem esta compra, mas não conseguimos desbloqueá-la agora. Verifique sua conexão e toque em “Restaurar compras”.',
+    restoreFailedTitle: 'Não foi possível restaurar as compras',
+    restoreFailedMessage: 'Algo deu errado ao restaurar suas compras. Tente novamente em instantes.',
   },
 };

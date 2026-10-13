@@ -16,7 +16,7 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ZoomIn, ZoomOut, RefreshCw } from 'lucide-react-native';
 import Svg, { Path, Circle, Defs, RadialGradient, Stop, G } from 'react-native-svg';
-import { geoOrthographic, geoPath, geoContains, GeoPermissibleObjects, type GeoProjection } from 'd3-geo';
+import { geoOrthographic, geoPath, geoContains, geoArea, GeoPermissibleObjects, type GeoProjection } from 'd3-geo';
 import { feature } from 'topojson-client';
 import worldTopology from 'world-atlas/countries-110m.json';
 import {
@@ -25,6 +25,14 @@ import {
   useFrameThrottledValue,
   useIdleAutoRotation,
   useReduceMotion,
+  useScreenReaderEnabled,
+  useIsAppActive,
+  selectSpacedPins,
+  selectSpacedPositions,
+  findNearestPin,
+  getFeatureBounds,
+  getMaxVisibleAngle,
+  isBoundsVisible,
   type GlobeRotation,
 } from '@/lib/useGlobeOptimization';
 import { hapticMedium, hapticLight } from '@/lib/haptics';
@@ -63,13 +71,19 @@ interface Globe3DProps {
   accessibilityExploreHint?: string;
   /**
    * Allows the idle auto-rotation and pulsing rings (pass false while the
-   * screen isn't focused). Both are always off when the OS asks to reduce motion.
+   * screen isn't focused). Each time it turns true again the globe may spin
+   * briefly once more. Both are always off when the OS asks to reduce motion.
    */
   animate?: boolean;
+  /**
+   * Pauses the animations while something covers the globe (e.g. a modal),
+   * without allowing a new idle spin when it ends.
+   */
+  paused?: boolean;
 }
 
 type PinPosition = { country: CountryPin; x: number; y: number };
-type CountryPathData = { key: number; d: string; fill: string; opacity: number };
+type CountryPathData = { key: string; d: string; fill: string; opacity: number };
 
 const FAVORITES_FILTER = 'favorites';
 
@@ -91,12 +105,26 @@ const GLOBE_HORIZONTAL_INSET = 48;
 const ESTIMATED_PARENT_HORIZONTAL_PADDING = 32;
 const TAP_MAX_DRAG_DISTANCE = 10;
 const INITIAL_ROTATION: GlobeRotation = [0, -30, 0];
-// Slow idle spin: one turn every 90 s.
+// Slow idle spin (4°/s), only for a few seconds after the screen is focused.
 const AUTO_ROTATE_DEG_PER_SEC = 4;
 const AUTO_ROTATE_START_DELAY_MS = 1500;
-const AUTO_ROTATE_RESUME_DELAY_MS = 4000;
+const AUTO_ROTATE_DURATION_MS = 10000;
 const PULSE_DURATION_MS = 1800;
 const PIN_SIZE = 30;
+// A tap this close to a flag's centre opens that country.
+const PIN_HIT_RADIUS = PIN_SIZE / 2 + 4;
+// Flags may overlap by up to this share of their size at the deepest zoom
+// (so neighbouring island states like St Lucia and St Vincent both fit);
+// none at the default zoom, except near the rim (see pinPositions).
+const PIN_MAX_OVERLAP = 0.3;
+// Safety cap; the spacing alone keeps it to ~20–40 flags.
+const MAX_RENDERED_PINS = 60;
+// Which flag wins where flags would overlap: in-progress countries first,
+// then larger countries (small ones show up as you zoom in).
+const PIN_STATUS_RANK: Record<string, number> = { cooking: 0, 'to do': 1, done: 2, locked: 3 };
+// TalkBack's double-tap is an 'activate' action. On iOS VoiceOver uses
+// onAccessibilityTap instead (an action would show up as a custom rotor action).
+const PIN_ACCESSIBILITY_ACTIONS = Platform.OS === 'android' ? [{ name: 'activate' as const }] : undefined;
 const USE_NATIVE_DRIVER = Platform.OS !== 'web';
 const TOPOJSON_CACHE_KEY = '@globe_topojson_cache';
 
@@ -128,6 +156,18 @@ function rotationSensitivity(scale: number): number {
   return Math.max(0.35, 120 / scale);
 }
 
+/**
+ * Minimum angular distance (degrees) between two flags: one flag width at
+ * the default zoom, less towards the max zoom. The zoom is rounded to
+ * quarter-octave steps so the set of flags only changes in steps while pinching.
+ */
+function pinSpacingDegrees(baseScale: number, zoom: number): number {
+  const steppedZoom = 2 ** (Math.round(Math.log2(zoom) * 4) / 4);
+  const zoomProgress = Math.log(steppedZoom) / Math.log(MAX_ZOOM);
+  const spacingPx = PIN_SIZE * (1 - PIN_MAX_OVERLAP * zoomProgress);
+  return (spacingPx / (baseScale * steppedZoom)) * (180 / Math.PI);
+}
+
 function Globe3D({
   pins,
   onCountryPress,
@@ -136,6 +176,7 @@ function Globe3D({
   onDragStateChange,
   accessibilityExploreHint,
   animate = true,
+  paused = false,
 }: Globe3DProps) {
   const { t } = useTranslation();
 
@@ -183,16 +224,6 @@ function Globe3D({
     [pins, filterStatus, favoriteSet]
   );
 
-  // PERF-002: Viewport culling — only render pins visible on the current globe face
-  const { pins: visiblePins } = useOptimizedPins(
-    pinCandidates,
-    -rotation[1], // centerLat (d3-geo convention: negated)
-    -rotation[0], // centerLng (d3-geo convention: negated)
-    scale,
-    baseScale * MIN_ZOOM,
-    baseScale * MAX_ZOOM
-  );
-
   const [worldData, setWorldData] = useState<GeoFeatureCollection | null>(null);
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState(false);
@@ -206,9 +237,13 @@ function Globe3D({
   const animationFrameRef = useRef<number | null>(null);
   const totalDragDistanceRef = useRef(0);
   const isPinchingRef = useRef(false);
+  // A pinch happened during the current touch, so its release is never a tap.
+  const didPinchRef = useRef(false);
   const lastPinchDistRef = useRef(0);
   const overlaysHiddenRef = useRef(false);
   const isTouchActiveRef = useRef(false);
+  // Flags as last rendered, for resolving taps.
+  const pinPositionsRef = useRef<PinPosition[]>([]);
 
   // Colour lookup uses *all* pins (not just the culled visible ones) so it
   // stays stable while rotating and edge countries keep their colour.
@@ -228,6 +263,39 @@ function Globe3D({
       return country.status !== filterStatus;
     },
     [filterStatus, favoriteSet]
+  );
+
+  // Land area per ISO code, so larger countries win a flag spot.
+  const areaByIso = useMemo(() => {
+    const areas: Record<string, number> = {};
+    if (!worldData) return areas;
+    for (const feat of worldData.features) {
+      const iso = feat.id == null ? undefined : GEO_TO_ISO[String(feat.id).padStart(3, '0')];
+      if (iso) areas[iso] = (areas[iso] ?? 0) + geoArea(feat as GeoPermissibleObjects);
+    }
+    return areas;
+  }, [worldData]);
+
+  // At most one flag per flag-sized spot: after a world purchase up to ~175
+  // overlapping flags covered the globe and taps hit whichever was on top.
+  const pinSpacing = pinSpacingDegrees(baseScale, zoom);
+  const placedPins = useMemo(() => {
+    const ranked = pinCandidates
+      .filter((pin) => !isPinHidden(pin))
+      .sort((a, b) =>
+        (PIN_STATUS_RANK[a.status] ?? 9) - (PIN_STATUS_RANK[b.status] ?? 9) ||
+        (areaByIso[b.code.toUpperCase()] ?? 0) - (areaByIso[a.code.toUpperCase()] ?? 0));
+    return selectSpacedPins(ranked, pinSpacing);
+  }, [pinCandidates, isPinHidden, areaByIso, pinSpacing]);
+
+  // PERF-002: Viewport culling — only render pins visible on the current globe face
+  const { pins: visiblePins } = useOptimizedPins(
+    placedPins,
+    -rotation[1], // centerLat (d3-geo convention: negated)
+    -rotation[0], // centerLng (d3-geo convention: negated)
+    scale,
+    baseScale * MIN_ZOOM,
+    baseScale * MAX_ZOOM
   );
 
   const loadWorldData = useCallback(async () => {
@@ -255,7 +323,9 @@ function Globe3D({
   const { pathGenerator, projection } = useMemo(() => {
     try {
       const projection = createProjection(scale, rotation, globeSize);
-      const pathGenerator = geoPath().projection(projection);
+      // 0.1 pt precision is invisible and ~28% less path text for the
+      // native side to parse on every frame.
+      const pathGenerator = geoPath().projection(projection).digits(1);
       return { pathGenerator, projection };
     } catch (error) {
       if (__DEV__) console.error('Error creating projection:', error);
@@ -283,19 +353,24 @@ function Globe3D({
   useEffect(() => stopSpinning, [stopSpinning]);
 
   const reduceMotion = useReduceMotion();
-  const motionAllowed = animate && reduceMotion === false;
+  const isScreenReaderOn = useScreenReaderEnabled();
+  const isAppActive = useIsAppActive();
+  const motionAllowed = animate && !paused && isAppActive && reduceMotion === false;
 
-  // Slow idle spin; pauses on touch and resumes after a few idle seconds.
-  // Only at the default zoom, so it never drags away what the user zoomed into.
-  const { pause: pauseAutoRotate, resumeLater: resumeAutoRotateLater } = useIdleAutoRotation({
-    enabled: motionAllowed && !!worldData && zoom <= MIN_ZOOM,
+  // Short idle spin each time the screen is focused: it eases to a stop after
+  // a few seconds, and the first touch or zoom ends it. Only at the default
+  // zoom, so it never drags away what the user zoomed into, and never with a
+  // screen reader (it would move the flags away from the reader's focus).
+  const { stop: stopAutoRotate } = useIdleAutoRotation({
+    enabled: motionAllowed && isScreenReaderOn === false && !!worldData && zoom <= MIN_ZOOM,
+    resetKey: animate,
     rotationRef,
     commit: setRotation,
     canStart: () => !isTouchActiveRef.current,
     onStart: stopSpinning,
     degreesPerSecond: AUTO_ROTATE_DEG_PER_SEC,
     startDelayMs: AUTO_ROTATE_START_DELAY_MS,
-    resumeDelayMs: AUTO_ROTATE_RESUME_DELAY_MS,
+    durationMs: AUTO_ROTATE_DURATION_MS,
   });
 
   // One shared, natively driven value for all "not started yet" pulse rings.
@@ -355,6 +430,16 @@ function Globe3D({
     if (!worldData) return;
 
     const { locationX, locationY } = evt.nativeEvent;
+
+    // Flags don't take touches themselves (a drag that starts on one must
+    // still rotate the globe), so a tap on or next to a flag is resolved here.
+    const pin = findNearestPin(pinPositionsRef.current, locationX, locationY, PIN_HIT_RADIUS);
+    if (pin) {
+      hapticMedium();
+      setTimeout(() => onCountryPress(pin.country.id), 50);
+      return;
+    }
+
     // Build the projection from the gesture refs so this handler doesn't have
     // to change (and recreate the gesture) on every rotation frame.
     const tapProjection = createProjection(baseScale * zoomRef.current, rotationRef.current, globeSize);
@@ -414,8 +499,9 @@ function Globe3D({
       Math.abs(gestureState.dx) > 5 || Math.abs(gestureState.dy) > 5,
     onPanResponderGrant: (evt) => {
       stopSpinning();
-      pauseAutoRotate();
+      stopAutoRotate();
       isPinchingRef.current = false;
+      didPinchRef.current = false;
       totalDragDistanceRef.current = 0;
       lastXRef.current = evt.nativeEvent.pageX;
       lastYRef.current = evt.nativeEvent.pageY;
@@ -448,7 +534,14 @@ function Globe3D({
 
       // Single finger rotation
       if (isPinchingRef.current) {
+        // Back to one finger: restart the drag from where that finger is now.
+        // lastX/lastY still hold the position from before the pinch, which
+        // made the globe jump (and fling) on the next move.
         isPinchingRef.current = false;
+        didPinchRef.current = true;
+        lastXRef.current = evt.nativeEvent.pageX;
+        lastYRef.current = evt.nativeEvent.pageY;
+        velocityRef.current = { x: 0, y: 0 };
         return;
       }
 
@@ -487,10 +580,11 @@ function Globe3D({
       isPinchingRef.current = false;
       setOverlaysHidden(false);
       setTouchActive(false);
-      resumeAutoRotateLater();
-      if (!wasPinching && totalDragDistanceRef.current <= TAP_MAX_DRAG_DISTANCE) {
-        handleGlobeTapRef.current(evt);
-      } else if (!wasPinching) {
+      if (wasPinching) return;
+      if (totalDragDistanceRef.current <= TAP_MAX_DRAG_DISTANCE) {
+        // Lifting the fingers after a pinch isn't a tap.
+        if (!didPinchRef.current) handleGlobeTapRef.current(evt);
+      } else {
         applyMomentum();
       }
     },
@@ -501,7 +595,6 @@ function Globe3D({
       isPinchingRef.current = false;
       setOverlaysHidden(false);
       setTouchActive(false);
-      resumeAutoRotateLater();
     },
   }), [
     stopSpinning,
@@ -512,25 +605,30 @@ function Globe3D({
     flushZoom,
     setOverlaysHidden,
     setTouchActive,
-    pauseAutoRotate,
-    resumeAutoRotateLater,
+    stopAutoRotate,
   ]);
 
   const handleZoomIn = useCallback(() => {
     hapticLight();
-    resumeAutoRotateLater();
+    stopAutoRotate();
     const next = Math.min(zoomRef.current * 1.2, MAX_ZOOM);
     zoomRef.current = next;
     setZoom(next);
-  }, [resumeAutoRotateLater]);
+  }, [stopAutoRotate]);
 
   const handleZoomOut = useCallback(() => {
     hapticLight();
-    resumeAutoRotateLater();
+    stopAutoRotate();
     const next = Math.max(zoomRef.current * 0.8, MIN_ZOOM);
     zoomRef.current = next;
     setZoom(next);
-  }, [resumeAutoRotateLater]);
+  }, [stopAutoRotate]);
+
+  // Bounding caps, so countries on the far side are skipped before projecting.
+  const featureBounds = useMemo(
+    () => worldData?.features.map((feat) => getFeatureBounds(feat.geometry)) ?? [],
+    [worldData]
+  );
 
   // P-02: Per-country fill/opacity only depends on data + filter, not on the
   // projection, so it isn't recomputed on every rotation frame.
@@ -551,24 +649,38 @@ function Globe3D({
       else if (matchesFilter) fill = country.color;
       else fill = STATUS_COLORS.locked;
       return {
-        key: i,
         feat: feat as GeoPermissibleObjects,
+        bounds: featureBounds[i],
         fill,
         opacity: !matchesFilter ? 0.35 : country ? 1 : 0.7,
       };
     });
-  }, [worldData, getCountryFromFeature, filterStatus, favoriteSet]);
+  }, [worldData, featureBounds, getCountryFromFeature, filterStatus, favoriteSet]);
 
-  // Path strings are the only per-frame work while rotating.
+  // Per-frame work while rotating: one path string per visible country,
+  // joined into one <Path> per fill/opacity (~5 elements instead of ~110).
+  // Taps use geoContains on the data, not the paths, so merging is safe.
   const countryPaths = useMemo(() => {
     if (!pathGenerator) return [];
-    const result: CountryPathData[] = [];
-    for (const { key, feat, fill, opacity } of featureStyles) {
+    const centerLat = -rotation[1];
+    const centerLng = -rotation[0];
+    const maxAngle = getMaxVisibleAngle(scale, globeSize);
+    const groups = new Map<string, { fill: string; opacity: number; parts: string[] }>();
+    for (const { feat, bounds, fill, opacity } of featureStyles) {
+      if (!isBoundsVisible(bounds, centerLat, centerLng, maxAngle)) continue;
       const d = pathGenerator(feat);
-      if (d) result.push({ key, d, fill, opacity });
+      if (!d) continue;
+      const key = `${fill}|${opacity}`;
+      const group = groups.get(key);
+      if (group) group.parts.push(d);
+      else groups.set(key, { fill, opacity, parts: [d] });
+    }
+    const result: CountryPathData[] = [];
+    for (const [key, { fill, opacity, parts }] of groups) {
+      result.push({ key, d: parts.join(''), fill, opacity });
     }
     return result;
-  }, [featureStyles, pathGenerator]);
+  }, [featureStyles, pathGenerator, rotation, scale, globeSize]);
 
   // Compute pin positions directly from lat/lng using the d3 projection
   // This is more reliable than matching TopoJSON features by ISO code
@@ -577,12 +689,11 @@ function Globe3D({
     const cx = globeSize / 2;
     const cy = globeSize / 2;
     const result: PinPosition[] = [];
+    // visiblePins is already filtered, spaced, in priority order and culled
+    // to the visible face (projection() itself doesn't clip the far side).
     for (const country of visiblePins) {
-      // Filter: locked always show under status filters; favorites shows favourites only
-      if (isPinHidden(country)) continue;
-
       const projected = projection([country.lng, country.lat]);
-      if (!projected) continue; // behind the globe
+      if (!projected) continue;
       const [x, y] = projected;
       if (!isFinite(x) || !isFinite(y)) continue;
       // Only show pins whose center is within the globe circle…
@@ -594,8 +705,19 @@ function Globe3D({
       if (x < 0 || x > globeSize || y < 0 || y > globeSize) continue;
       result.push({ country, x, y });
     }
-    return result;
-  }, [visiblePins, projection, isPinHidden, globeSize, scale]);
+    // The angular spacing shrinks on screen towards the rim (by cos of the
+    // distance from the centre), so drop flags that would still overlap there
+    // by more than PIN_MAX_OVERLAP. Capped at the on-screen spacing in the
+    // middle (with a little slack for the quarter-octave zoom steps) so this
+    // never removes flags away from the rim.
+    const centreSpacingPx = pinSpacing * (Math.PI / 180) * scale;
+    const minScreenDistance = Math.min(PIN_SIZE * (1 - PIN_MAX_OVERLAP), centreSpacingPx * 0.9);
+    return selectSpacedPositions(result, minScreenDistance, MAX_RENDERED_PINS);
+  }, [visiblePins, projection, globeSize, scale, pinSpacing]);
+
+  useEffect(() => {
+    pinPositionsRef.current = pinPositions;
+  }, [pinPositions]);
 
   let content: ReactNode;
 
@@ -682,7 +804,7 @@ function Globe3D({
               </Svg>
             </View>
 
-            {/* Touchable flag pins overlaid on top — skipped while dragging */}
+            {/* Flag pins overlaid on top — skipped while dragging */}
             {!arePinOverlaysHidden && (
               <PinOverlays
                 positions={pinPositions}
@@ -692,6 +814,7 @@ function Globe3D({
                 lockedLabel={t.ui.lockedLabel}
                 pulse={pulse}
                 isPulseAnimated={motionAllowed}
+                acceptsTouches={isScreenReaderOn === true}
               />
             )}
           </View>
@@ -770,6 +893,12 @@ type PinOverlaysProps = {
   pulse: Animated.Value;
   /** false → a static halo instead (reduce motion / screen not focused). */
   isPulseAnimated: boolean;
+  /**
+   * Normally the flags let touches through to the globe (taps on them are
+   * resolved there). With a screen reader on they take touches, so touch
+   * exploration (Android hover events) can land on them.
+   */
+  acceptsTouches: boolean;
 };
 
 const PinOverlays = memo(function PinOverlays({
@@ -780,6 +909,7 @@ const PinOverlays = memo(function PinOverlays({
   lockedLabel,
   pulse,
   isPulseAnimated,
+  acceptsTouches,
 }: PinOverlaysProps) {
   const pulseStyle = useMemo(() => (isPulseAnimated
     ? {
@@ -789,7 +919,12 @@ const PinOverlays = memo(function PinOverlays({
     : styles.pulseRingStatic), [isPulseAnimated, pulse]);
 
   return (
-    <View style={[styles.pinOverlayLayer, { width: size, height: size }]}>
+    <View
+      style={[
+        styles.pinOverlayLayer,
+        { width: size, height: size, pointerEvents: acceptsTouches ? 'box-none' : 'none' },
+      ]}
+    >
       {/* Rings first so they sit underneath every pin. */}
       {positions.map(({ country, x, y }) => (country.status === 'to do' ? (
         <Animated.View
@@ -803,22 +938,27 @@ const PinOverlays = memo(function PinOverlays({
       ) : null))}
       {positions.map(({ country, x, y }) => {
         const isLocked = country.status === 'locked';
+        const open = () => { hapticMedium(); setTimeout(() => onCountryPress(country.id), 50); };
         return (
-          <TouchableOpacity
+          <View
             key={country.id}
             style={[
               styles.flagPin,
               { left: x - PIN_SIZE / 2, top: y - PIN_SIZE / 2, borderColor: country.color },
               isLocked && styles.flagPinLocked,
             ]}
-            onPress={() => { hapticMedium(); setTimeout(() => onCountryPress(country.id), 50); }}
-            activeOpacity={0.7}
+            accessible
             accessibilityLabel={isLocked ? `${country.name}, ${lockedLabel}` : country.name}
             accessibilityRole="button"
             accessibilityHint={accessibilityHint}
+            onAccessibilityTap={open}
+            accessibilityActions={PIN_ACCESSIBILITY_ACTIONS}
+            onAccessibilityAction={(event) => {
+              if (event.nativeEvent.actionName === 'activate') open();
+            }}
           >
             <FlagEmoji flag={country.flag} size={16} />
-          </TouchableOpacity>
+          </View>
         );
       })}
     </View>
@@ -847,7 +987,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 0,
     left: 0,
-    pointerEvents: 'box-none',
   },
   svgWrapper: {
     // Clip to the globe viewport so zoomed-in country paths and

@@ -47,13 +47,19 @@ export default function CollectionsScreen() {
 
   const navigateToCountry = (countryId: string) => {
     hapticLight();
-    router.push({ pathname: '/country/[id]' as any, params: { id: countryId } });
+    router.push({ pathname: '/country/[id]', params: { id: countryId } });
+  };
+
+  // A cold-start deep link opens this screen with nothing underneath.
+  const goBack = () => {
+    if (router.canGoBack()) router.back();
+    else router.replace('/(tabs)');
   };
 
   return (
     <SafeAreaView style={styles.container} edges={['top']}>
       <View style={styles.header}>
-        <TouchableOpacity onPress={() => router.back()} style={styles.backBtn}>
+        <TouchableOpacity onPress={goBack} style={styles.backBtn} accessibilityRole="button" accessibilityLabel={t.common.back}>
           <ArrowLeft size={24} color={colors.text} />
         </TouchableOpacity>
         <Text style={styles.title}>{t.collections.title}</Text>
