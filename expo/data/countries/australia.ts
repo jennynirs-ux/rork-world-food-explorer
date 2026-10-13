@@ -263,8 +263,28 @@ export const australia: Country = {
     },
     history: [
       {
-        year: '60,000+ years ago',
-        title: 'Aboriginal Settlement',
+        year: {
+          en: '60,000+ years ago',
+          sv: 'För över 60 000 år sedan',
+          es: 'Hace más de 60 000 años',
+          fr: 'Il y a plus de 60 000 ans',
+          de: 'Vor über 60.000 Jahren',
+          it: 'Oltre 60.000 anni fa',
+          pl: 'Ponad 60 000 lat temu',
+          nl: 'Meer dan 60.000 jaar geleden',
+          pt: 'Há mais de 60 mil anos',
+        },
+        title: {
+          en: 'Aboriginal Settlement',
+          sv: 'Aboriginernas bosättning',
+          es: 'Asentamiento aborigen',
+          fr: 'Peuplement aborigène',
+          de: 'Besiedlung durch die Aborigines',
+          it: 'Insediamento aborigeno',
+          pl: 'Osadnictwo Aborygenów',
+          nl: 'Komst van de Aboriginals',
+          pt: 'Povoamento aborígene',
+        },
         description: {
           en: 'Indigenous Australians arrived, making them one of the world\'s oldest continuous cultures.',
           sv: 'Ursprungsbefolkningen i Australien anlände, vilket gjorde dem till en av världens äldsta kontinuerliga kulturer.',
@@ -279,7 +299,17 @@ export const australia: Country = {
       },
       {
         year: '1770',
-        title: 'Captain Cook Arrives',
+        title: {
+          en: 'Captain Cook Arrives',
+          sv: 'Kapten Cook anländer',
+          es: 'Llega el capitán Cook',
+          fr: 'Arrivée du capitaine Cook',
+          de: 'Ankunft von Kapitän Cook',
+          it: 'Arriva il capitano Cook',
+          pl: 'Przybycie kapitana Cooka',
+          nl: 'Aankomst van kapitein Cook',
+          pt: 'Chegada do capitão Cook',
+        },
         description: {
           en: 'British explorer James Cook claimed the east coast for Great Britain.',
           sv: 'Den brittiske upptäcktsresanden James Cook gjorde anspråk på östkusten för Storbritannien.',
@@ -294,7 +324,17 @@ export const australia: Country = {
       },
       {
         year: '1788',
-        title: 'First Fleet',
+        title: {
+          en: 'First Fleet',
+          sv: 'Första flottan',
+          es: 'Primera Flota',
+          fr: 'Première flotte',
+          de: 'Erste Flotte',
+          it: 'Prima flotta',
+          pl: 'Pierwsza Flota',
+          nl: 'Eerste Vloot',
+          pt: 'Primeira Frota',
+        },
         description: {
           en: 'British colonization began with arrival of the First Fleet in Sydney.',
           sv: 'Brittisk kolonisering började med ankomsten av den första flottan till Sydney.',
@@ -309,7 +349,17 @@ export const australia: Country = {
       },
       {
         year: '1901',
-        title: 'Federation',
+        title: {
+          en: 'Federation',
+          sv: 'Federationen',
+          es: 'Federación',
+          fr: 'Fédération',
+          de: 'Föderation',
+          it: 'Federazione',
+          pl: 'Federacja',
+          nl: 'Federatie',
+          pt: 'Federação',
+        },
         description: {
           en: 'Six British colonies united to form the Commonwealth of Australia.',
           sv: 'Sex brittiska kolonier förenades och bildade Australiens samväldet.',
@@ -336,7 +386,17 @@ export const australia: Country = {
           nl: 'Wi-Fi',
           pt: 'Wi-Fi',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'CSIRO scientists developed the technology that became Wi-Fi.',
           sv: 'CSIRO-forskare utvecklade tekniken som blev Wi-Fi.',
@@ -453,7 +513,7 @@ export const australia: Country = {
       {
         name: {
           en: 'Sydney Opera House',
-          sv: 'Sydney Opera House',
+          sv: 'Sydneyoperan',
           es: 'Ópera de Sídney',
           fr: 'Opéra de Sydney',
           de: 'Sydney Opera House',
@@ -525,7 +585,7 @@ export const australia: Country = {
       {
         name: {
           en: 'Daintree Rainforest',
-          sv: 'Daintree Rainforest',
+          sv: 'Regnskogen Daintree',
           es: 'Selva tropical de Daintree',
           fr: 'Forêt tropicale de Daintree',
           de: 'Daintree Regenwald',
@@ -549,7 +609,17 @@ export const australia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'September-November and March-May for mild weather. Summer (Dec-Feb) is hot.',
           sv: 'September-november och mars-maj för milt väder. Sommaren (dec-feb) är varm.',
@@ -563,7 +633,17 @@ export const australia: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Australia has high UV levels. Slip, slop, slap (shirt, sunscreen, hat).',
           sv: 'Australien har höga UV-nivåer. Slip, slop, smäll (skjorta, solkräm, mössa).',
@@ -577,7 +657,17 @@ export const australia: Country = {
         },
       },
       {
-        item: 'Insect repellent',
+        item: {
+          en: 'Insect repellent',
+          sv: 'Myggmedel',
+          es: 'Repelente de insectos',
+          fr: 'Répulsif anti-insectes',
+          de: 'Insektenschutzmittel',
+          it: 'Repellente per insetti',
+          pl: 'Repelent na owady',
+          nl: 'Muggenmiddel',
+          pt: 'Repelente de insetos',
+        },
         description: {
           en: 'Essential for bush and coastal areas.',
           sv: 'Viktigt för bush och kustområden.',
@@ -591,7 +681,17 @@ export const australia: Country = {
         },
       },
       {
-        item: 'Water bottle',
+        item: {
+          en: 'Water bottle',
+          sv: 'Vattenflaska',
+          es: 'Botella de agua',
+          fr: 'Gourde',
+          de: 'Trinkflasche',
+          it: 'Borraccia',
+          pl: 'Butelka na wodę',
+          nl: 'Waterfles',
+          pt: 'Garrafa de água',
+        },
         description: {
           en: 'Stay hydrated in the dry, hot climate.',
           sv: 'Håll dig hydrerad i det torra, varma klimatet.',
@@ -605,7 +705,17 @@ export const australia: Country = {
         },
       },
       {
-        item: 'Travel adapter (Type I)',
+        item: {
+          en: 'Travel adapter (Type I)',
+          sv: 'Reseadapter (typ I)',
+          es: 'Adaptador de viaje (tipo I)',
+          fr: 'Adaptateur de voyage (type I)',
+          de: 'Reiseadapter (Typ I)',
+          it: 'Adattatore da viaggio (tipo I)',
+          pl: 'Adapter podróżny (typ I)',
+          nl: 'Reisadapter (type I)',
+          pt: 'Adaptador de viagem (tipo I)',
+        },
         description: {
           en: 'Australia uses unique three-pin plugs with 230V.',
           sv: 'Australien använder unika trestiftskontakter med 230V.',
@@ -619,7 +729,17 @@ export const australia: Country = {
         },
       },
       {
-        item: 'Reef-safe sunscreen',
+        item: {
+          en: 'Reef-safe sunscreen',
+          sv: 'Revvänlig solkräm',
+          es: 'Protector solar respetuoso con los corales',
+          fr: 'Crème solaire respectueuse des récifs',
+          de: 'Korallenfreundliche Sonnencreme',
+          it: 'Crema solare amica dei coralli',
+          pl: 'Krem z filtrem bezpieczny dla raf',
+          nl: 'Rifvriendelijke zonnebrandcrème',
+          pt: 'Protetor solar seguro para corais',
+        },
         description: {
           en: 'Required for swimming near coral reefs.',
           sv: 'Krävs för simning nära korallrev.',
@@ -637,7 +757,7 @@ export const australia: Country = {
       id: 'australia-main',
       name: {
         en: 'Meat Pie with Mushy Peas',
-        sv: 'Köttpaj med Mushy Peas',
+        sv: 'Köttpaj med ärtmos (mushy peas)',
         es: 'Pastel de carne con puré de guisantes',
         fr: 'Tourte à la viande avec purée de pois',
         de: 'Fleischpastete mit Erbsenpüree',
@@ -648,7 +768,7 @@ export const australia: Country = {
       },
       description: {
         en: 'Iconic Australian savory pie filled with minced meat and gravy, served with pea puree',
-        sv: 'Ikonisk australisk salta paj fylld med köttfärs och sås, serverad med ärtpuré',
+        sv: 'Klassisk australisk paj fylld med köttfärs i mustig sås, serverad med ärtmos',
         es: 'Icónico pastel salado australiano relleno de carne picada y salsa, servido con puré de guisantes',
         fr: 'Tarte salée australienne emblématique remplie de viande hachée et de sauce, servie avec une purée de pois',
         de: 'Kultiger herzhafter australischer Kuchen, gefüllt mit Hackfleisch und Soße, serviert mit Erbsenpüree',
@@ -702,7 +822,7 @@ export const australia: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -715,7 +835,7 @@ export const australia: Country = {
         {
           name: {
             en: 'Beef stock',
-            sv: 'Nötköttslager',
+            sv: 'Köttbuljong',
             es: 'Caldo de carne',
             fr: 'Bouillon de boeuf',
             de: 'Rinderbrühe',
@@ -837,7 +957,7 @@ export const australia: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -851,7 +971,7 @@ export const australia: Country = {
       steps: [
         {
           en: 'Brown beef mince with diced onion in a large pan',
-          sv: 'Bryn nötfärs med tärnad lök i en stor panna',
+          sv: 'Bryn nötfärsen och den hackade löken i en stor stekpanna',
           es: 'Dore la carne picada con la cebolla picada en una sartén grande',
           fr: 'Faire revenir le bœuf haché avec l\'oignon coupé en dés dans une grande poêle',
           de: 'Rinderhackfleisch mit Zwiebelwürfeln in einer großen Pfanne anbraten',
@@ -862,7 +982,7 @@ export const australia: Country = {
         },
         {
           en: 'Add beef stock, Worcestershire sauce, and tomato paste',
-          sv: 'Tillsätt nötbuljong, Worcestershiresås och tomatpuré',
+          sv: 'Tillsätt köttbuljong, Worcestershiresås och tomatpuré',
           es: 'Agregue caldo de res, salsa inglesa y pasta de tomate',
           fr: 'Ajouter le bouillon de bœuf, la sauce Worcestershire et la pâte de tomate',
           de: 'Rinderbrühe, Worcestershire-Sauce und Tomatenmark hinzufügen',
@@ -873,7 +993,7 @@ export const australia: Country = {
         },
         {
           en: 'Simmer for 30 minutes until thick, cool completely',
-          sv: 'Sjud i 30 minuter tills det är tjockt, svalna helt',
+          sv: 'Låt sjuda i 30 minuter tills fyllningen har tjocknat. Låt den sedan svalna helt.',
           es: 'Cocine a fuego lento durante 30 minutos hasta que espese, enfríe por completo',
           fr: 'Laisser mijoter pendant 30 minutes jusqu\'à épaississement, refroidir complètement',
           de: '30 Minuten köcheln lassen, bis eine dicke Masse entsteht, vollständig abkühlen lassen',
@@ -884,7 +1004,7 @@ export const australia: Country = {
         },
         {
           en: 'Line pie tins with pastry',
-          sv: 'Klä pajformar med bakverk',
+          sv: 'Klä pajformarna med smördeg',
           es: 'Forrar moldes para tarta con masa',
           fr: 'Tapisser les moules à tarte de pâte',
           de: 'Kuchenformen mit Teig auslegen',
@@ -895,7 +1015,7 @@ export const australia: Country = {
         },
         {
           en: 'Fill with cooled meat mixture',
-          sv: 'Fyll på med kyld köttblandning',
+          sv: 'Fyll formarna med den avsvalnade köttfyllningen',
           es: 'Rellenar con la mezcla de carne enfriada',
           fr: 'Remplissez avec le mélange de viande refroidi',
           de: 'Mit abgekühlter Fleischmischung füllen',
@@ -906,7 +1026,7 @@ export const australia: Country = {
         },
         {
           en: 'Top with pastry, seal edges, brush with beaten egg',
-          sv: 'Toppa med bakverk, försegla kanterna, pensla med uppvispat ägg',
+          sv: 'Lägg på ett lock av smördeg, tryck ihop kanterna och pensla med uppvispat ägg',
           es: 'Cubra con masa, selle los bordes, unte con huevo batido',
           fr: 'Garnir de pâte, sceller les bords, badigeonner d\'œuf battu',
           de: 'Den Teig darauflegen, die Ränder verschließen und mit verquirltem Ei bestreichen',
@@ -917,7 +1037,7 @@ export const australia: Country = {
         },
         {
           en: 'Cut small vent holes in top',
-          sv: 'Skär små ventilationshål i toppen',
+          sv: 'Gör några små lufthål i locket',
           es: 'Corte pequeños orificios de ventilación en la parte superior',
           fr: 'Découpez de petits trous d\'aération en haut',
           de: 'Schneiden Sie oben kleine Lüftungslöcher',
@@ -928,7 +1048,7 @@ export const australia: Country = {
         },
         {
           en: 'Bake at 200°C for 30 minutes until golden',
-          sv: 'Grädda i 200°C i 30 minuter tills de är gyllene',
+          sv: 'Grädda i 200°C i 30 minuter tills pajerna är gyllene',
           es: 'Hornear a 200°C durante 30 minutos hasta que esté dorado',
           fr: 'Cuire au four à 200°C pendant 30 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '30 Minuten bei 200°C goldbraun backen',
@@ -939,7 +1059,7 @@ export const australia: Country = {
         },
         {
           en: 'Boil peas, then mash with butter until smooth',
-          sv: 'Koka ärter och mosa sedan med smör tills de är jämna',
+          sv: 'Koka ärterna och mosa dem sedan slätt med smör',
           es: 'Hervir los guisantes y luego triturarlos con mantequilla hasta que quede suave',
           fr: 'Faire bouillir les pois, puis les écraser avec du beurre jusqu\'à consistance lisse',
           de: 'Erbsen kochen, dann mit Butter glatt pürieren',
@@ -950,7 +1070,7 @@ export const australia: Country = {
         },
         {
           en: 'Serve pies with mushy peas on the side',
-          sv: 'Servera pajer med mosiga ärtor vid sidan om',
+          sv: 'Servera pajerna med ärtmoset vid sidan om',
           es: 'Sirva las tartas con guisantes blandos a un lado',
           fr: 'Servir les tartes avec des petits pois en accompagnement',
           de: 'Torten mit Erbsenpüree als Beilage servieren',
@@ -977,7 +1097,7 @@ export const australia: Country = {
       },
       description: {
         en: 'Sponge cake cubes coated in chocolate and rolled in desiccated coconut',
-        sv: 'Sockerkakstärningar överdragna med choklad och rullade i torkad kokosnöt',
+        sv: 'Sockerkakstärningar doppade i choklad och rullade i riven kokos',
         es: 'Dados de bizcocho recubiertos de chocolate y enrollados en coco rallado',
         fr: 'Cubes de génoise enrobés de chocolat et roulés dans de la noix de coco desséchée',
         de: 'Mit Schokolade überzogene und in Kokosraspeln gewälzte Biskuitteigwürfel',
@@ -1016,7 +1136,7 @@ export const australia: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1044,7 +1164,7 @@ export const australia: Country = {
         {
           name: {
             en: 'Self-raising flour',
-            sv: 'Självhöjande mjöl',
+            sv: 'Självjäsande mjöl',
             es: 'Harina con levadura',
             fr: 'Farine autolevante',
             de: 'Selbstaufziehendes Mehl',
@@ -1059,7 +1179,7 @@ export const australia: Country = {
         {
           name: {
             en: 'Butter melted',
-            sv: 'Smör smält',
+            sv: 'Smör, smält',
             es: 'Mantequilla derretida',
             fr: 'Beurre fondu',
             de: 'Butter geschmolzen',
@@ -1129,7 +1249,7 @@ export const australia: Country = {
         {
           name: {
             en: 'Desiccated coconut',
-            sv: 'Torkad kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco desecado',
             fr: 'Noix de coco desséchée',
             de: 'Kokosraspeln',
@@ -1160,7 +1280,7 @@ export const australia: Country = {
       steps: [
         {
           en: 'Beat eggs and sugar until thick and pale',
-          sv: 'Vispa ägg och socker tjockt och blekt',
+          sv: 'Vispa ägg och socker vitt och pösigt',
           es: 'Batir los huevos y el azúcar hasta que estén espesos y pálidos',
           fr: 'Battre les œufs et le sucre jusqu\'à ce qu\'ils soient épais et pâles',
           de: 'Eier und Zucker schlagen, bis sie dick und hell sind',
@@ -1171,7 +1291,7 @@ export const australia: Country = {
         },
         {
           en: 'Fold in sifted flour gently',
-          sv: 'Vänd försiktigt i siktat mjöl',
+          sv: 'Vänd försiktigt ner det siktade mjölet',
           es: 'Incorporar suavemente la harina tamizada',
           fr: 'Incorporer délicatement la farine tamisée',
           de: 'Gesiebtes Mehl vorsichtig unterheben',
@@ -1182,7 +1302,7 @@ export const australia: Country = {
         },
         {
           en: 'Fold in melted butter',
-          sv: 'Vänd i smält smör',
+          sv: 'Vänd ner det smälta smöret',
           es: 'Incorporar la mantequilla derretida',
           fr: 'Incorporer le beurre fondu',
           de: 'Geschmolzene Butter unterheben',
@@ -1193,7 +1313,7 @@ export const australia: Country = {
         },
         {
           en: 'Pour into greased baking pan',
-          sv: 'Häll i smord ugnsform',
+          sv: 'Häll smeten i en smord form',
           es: 'Vierta en un molde para hornear engrasado',
           fr: 'Verser dans un moule graissé',
           de: 'In eine gefettete Backform gießen',
@@ -1204,7 +1324,7 @@ export const australia: Country = {
         },
         {
           en: 'Bake at 180°C for 25 minutes until golden',
-          sv: 'Grädda i 180°C i 25 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 25 minuter tills kakan är gyllene',
           es: 'Hornear a 180°C durante 25 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 25 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '25 Minuten bei 180°C goldbraun backen',
@@ -1215,7 +1335,7 @@ export const australia: Country = {
         },
         {
           en: 'Cool completely, then cut into squares',
-          sv: 'Kyl helt och skär sedan i rutor',
+          sv: 'Låt svalna helt och skär sedan kakan i rutor',
           es: 'Deje enfriar completamente y luego córtelo en cuadritos',
           fr: 'Laisser refroidir complètement, puis couper en carrés',
           de: 'Vollständig abkühlen lassen, dann in Quadrate schneiden',
@@ -1226,7 +1346,7 @@ export const australia: Country = {
         },
         {
           en: 'Make chocolate icing: melt chocolate with milk, add icing sugar and cocoa',
-          sv: 'Gör chokladglasyr: smält choklad med mjölk, tillsätt florsocker och kakao',
+          sv: 'Gör chokladglasyren: smält chokladen med mjölken och rör ner florsocker och kakao',
           es: 'Hacer glaseado de chocolate: derretir el chocolate con la leche, añadir el azúcar glas y el cacao',
           fr: 'Réaliser un glaçage au chocolat : faire fondre le chocolat avec le lait, ajouter le sucre glace et le cacao',
           de: 'Schokoladenglasur herstellen: Schokolade mit Milch schmelzen, Puderzucker und Kakao hinzufügen',
@@ -1248,7 +1368,7 @@ export const australia: Country = {
         },
         {
           en: 'Roll in desiccated coconut',
-          sv: 'Rulla i torkad kokos',
+          sv: 'Rulla i riven kokos',
           es: 'Rollo en coco rallado',
           fr: 'Rouler dans la noix de coco desséchée',
           de: 'In Kokosraspeln wälzen',
@@ -1259,7 +1379,7 @@ export const australia: Country = {
         },
         {
           en: 'Place on wire rack to set',
-          sv: 'Placera på galler för att ställa in',
+          sv: 'Lägg bitarna på ett galler och låt glasyren stelna',
           es: 'Colóquelo sobre una rejilla para que cuaje',
           fr: 'Placer sur une grille pour prendre',
           de: 'Zum Festwerden auf den Rost legen',
@@ -1427,7 +1547,7 @@ export const australia: Country = {
           },
           {
             en: 'Florida Reef',
-            sv: 'Florida Reef',
+            sv: 'Floridarevet',
             es: 'Arrecife de Florida',
             fr: 'Récif de Floride',
             de: 'Florida-Riff',

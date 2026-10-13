@@ -263,8 +263,28 @@ export const centralAfricanRepublic: Country = {
     },
     history: [
       {
-        year: '13th century',
-        title: 'Early Kingdoms',
+        year: {
+          en: '13th century',
+          sv: '1200-talet',
+          es: 'Siglo XIII',
+          fr: 'XIIIe siècle',
+          de: '13. Jahrhundert',
+          it: 'XIII secolo',
+          pl: 'XIII wiek',
+          nl: '13e eeuw',
+          pt: 'Século XIII',
+        },
+        title: {
+          en: 'Early Kingdoms',
+          sv: 'Tidiga kungariken',
+          es: 'Primeros reinos',
+          fr: 'Premiers royaumes',
+          de: 'Frühe Königreiche',
+          it: 'Primi regni',
+          pl: 'Wczesne królestwa',
+          nl: 'Vroege koninkrijken',
+          pt: 'Primeiros reinos',
+        },
         description: {
           en: 'Various Bantu kingdoms dominated the region, engaging in trans-Saharan trade routes.',
           sv: 'Olika banturiken dominerade regionen och engagerade sig i handelsvägar över Sahara.',
@@ -279,7 +299,17 @@ export const centralAfricanRepublic: Country = {
       },
       {
         year: '1889',
-        title: 'French Colonization',
+        title: {
+          en: 'French Colonization',
+          sv: 'Fransk kolonisering',
+          es: 'Colonización francesa',
+          fr: 'Colonisation française',
+          de: 'Französische Kolonisierung',
+          it: 'Colonizzazione francese',
+          pl: 'Kolonizacja francuska',
+          nl: 'Franse kolonisatie',
+          pt: 'Colonização francesa',
+        },
         description: {
           en: 'France established control over Ubangi-Shari (modern CAR) as part of French Equatorial Africa.',
           sv: 'Frankrike etablerade kontroll över Ubangi-Shari (moderna CAR) som en del av franska Ekvatorialafrika.',
@@ -294,7 +324,17 @@ export const centralAfricanRepublic: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'The Central African Republic gained independence from France with David Dacko as first president.',
           sv: 'Centralafrikanska republiken fick självständighet från Frankrike med David Dacko som första president.',
@@ -309,7 +349,17 @@ export const centralAfricanRepublic: Country = {
       },
       {
         year: '1966-1979',
-        title: 'Bokassa Era',
+        title: {
+          en: 'Bokassa Era',
+          sv: 'Bokassatiden',
+          es: 'Era de Bokassa',
+          fr: 'Ère Bokassa',
+          de: 'Bokassa-Ära',
+          it: 'Era Bokassa',
+          pl: 'Era Bokassy',
+          nl: 'Bokassa-tijdperk',
+          pt: 'Era Bokassa',
+        },
         description: {
           en: 'Jean-Bédel Bokassa ruled, declaring himself emperor in 1976, leading to economic decline and political turmoil.',
           sv: 'Jean-Bédel Bokassa regerade och utropade sig själv till kejsare 1976, vilket ledde till ekonomisk nedgång och politisk oro.',
@@ -336,7 +386,17 @@ export const centralAfricanRepublic: Country = {
           nl: 'Methoden voor bosbehoud',
           pt: 'Métodos de conservação florestal',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Developed community-based rainforest protection programs that became models for sustainable forestry in Central Africa.',
           sv: 'Utvecklade samhällsbaserade regnskogsskyddsprogram som blev modeller för hållbart skogsbruk i Centralafrika.',
@@ -361,7 +421,17 @@ export const centralAfricanRepublic: Country = {
           nl: 'Ontwikkeling van de Sango-taal',
           pt: 'Desenvolvimento da língua sango',
         },
-        year: '20th century',
+        year: {
+          en: '20th century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Evolved Sango into a national lingua franca that unites over 80 ethnic groups, one of Africa\'s most successful indigenous language projects.',
           sv: 'Utvecklade Sango till en nationell lingua franca som förenar över 80 etniska grupper, ett av Afrikas mest framgångsrika inhemska språkprojekt.',
@@ -386,7 +456,17 @@ export const centralAfricanRepublic: Country = {
           nl: 'Traditionele vlinderteelt',
           pt: 'Criação tradicional de borboletas',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Pioneered sustainable butterfly farming for international collectors, providing income while protecting rainforest habitats.',
           sv: 'Bana för hållbar fjärilsodling för internationella samlare, ge inkomster samtidigt som de skyddade regnskogens livsmiljöer.',
@@ -411,7 +491,17 @@ export const centralAfricanRepublic: Country = {
           nl: 'Behoud van pygmeeënmuziek',
           pt: 'Preservação da música pigmeia',
         },
-        year: 'Ancient-Modern',
+        year: {
+          en: 'Ancient-Modern',
+          sv: 'Forntid–nutid',
+          es: 'Antigüedad–época moderna',
+          fr: 'Antiquité–époque moderne',
+          de: 'Antike–Moderne',
+          it: 'Antichità–età moderna',
+          pl: 'Starożytność–współczesność',
+          nl: 'Oudheid–moderne tijd',
+          pt: 'Antiguidade–era moderna',
+        },
         description: {
           en: 'Maintained unique polyphonic music traditions of Pygmy peoples, recognized by UNESCO as Intangible Cultural Heritage.',
           sv: 'Upprätthållit unika polyfoniska musiktraditioner från pygméfolk, erkända av UNESCO som immateriella kulturarv.',
@@ -429,7 +519,7 @@ export const centralAfricanRepublic: Country = {
       {
         name: {
           en: 'Dzanga-Sangha Special Reserve',
-          sv: 'Dzanga-Sangha Special Reserve',
+          sv: 'Dzanga-Sangha-reservatet',
           es: 'Reserva Especial Dzanga-Sangha',
           fr: 'Réserve spéciale de Dzanga-Sangha',
           de: 'Dzanga-Sangha-Sonderreservat',
@@ -501,7 +591,7 @@ export const centralAfricanRepublic: Country = {
       {
         name: {
           en: 'Boali Falls',
-          sv: 'Boali Falls',
+          sv: 'Boalifallen',
           es: 'Cataratas de Boali',
           fr: 'Chutes de Boali',
           de: 'Boali-Wasserfälle',
@@ -525,7 +615,7 @@ export const centralAfricanRepublic: Country = {
       {
         name: {
           en: 'Lobaye Forest',
-          sv: 'Lobaye Forest',
+          sv: 'Lobayeskogen',
           es: 'Bosque de Lobaye',
           fr: 'Forêt de Lobaye',
           de: 'Lobaye-Wald',
@@ -549,7 +639,17 @@ export const centralAfricanRepublic: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Required for most visitors. Obtain in advance as on-arrival visas are limited.',
           sv: 'Krävs för de flesta besökare. Skaffa i förväg eftersom visum vid ankomst är begränsade.',
@@ -563,7 +663,17 @@ export const centralAfricanRepublic: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to April for dry season. June-September can be very wet.',
           sv: 'November till april för torrperioden. Juni-september kan vara mycket blöt.',
@@ -577,7 +687,17 @@ export const centralAfricanRepublic: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Limited infrastructure. Organized tours essential. 4x4 vehicles needed outside cities.',
           sv: 'Begränsad infrastruktur. Det är viktigt med organiserade turer. 4x4-fordon behövs utanför städer.',
@@ -591,7 +711,17 @@ export const centralAfricanRepublic: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'French and Sango are official. Sango is widely spoken. English very rare.',
           sv: 'Franska och Sango är officiella. Sango är allmänt talat. Engelska mycket sällsynt.',
@@ -605,7 +735,17 @@ export const centralAfricanRepublic: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories. Political instability affects some regions. Travel with experienced guides only.',
           sv: 'Kontrollera aktuella resemeddelanden. Politisk instabilitet påverkar vissa regioner. Res endast med erfarna guider.',
@@ -634,7 +774,7 @@ export const centralAfricanRepublic: Country = {
       },
       description: {
         en: 'Starchy dough served with rich peanut-based sauce',
-        sv: 'Stärkelsehaltig deg serverad med rik jordnötsbaserad sås',
+        sv: 'Fast deg av kassavamjöl som serveras med en fyllig jordnötssås',
         es: 'Masa con almidón servida con rica salsa a base de maní',
         fr: 'Pâte féculente servie avec une riche sauce à base de cacahuètes',
         de: 'Stärkehaltiger Teig, serviert mit reichhaltiger Erdnusssauce',
@@ -661,7 +801,7 @@ export const centralAfricanRepublic: Country = {
         {
           name: {
             en: 'Cassava flour',
-            sv: 'Cassavamjöl',
+            sv: 'Kassavamjöl',
             es: 'Harina de yuca',
             fr: 'Farine de manioc',
             de: 'Maniokmehl',
@@ -703,7 +843,7 @@ export const centralAfricanRepublic: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -728,7 +868,7 @@ export const centralAfricanRepublic: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -782,7 +922,7 @@ export const centralAfricanRepublic: Country = {
       steps: [
         {
           en: 'Boil water and gradually add cassava flour',
-          sv: 'Koka upp vatten och tillsätt gradvis kassavamjöl',
+          sv: 'Koka upp vatten och tillsätt kassavamjölet lite i taget',
           es: 'Hervir agua y agregar poco a poco la harina de yuca',
           fr: 'Faire bouillir de l\'eau et ajouter progressivement la farine de manioc',
           de: 'Wasser aufkochen und nach und nach Maniokmehl hinzufügen',
@@ -793,7 +933,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Stir vigorously to form smooth dough',
-          sv: 'Rör kraftigt till en smidig deg',
+          sv: 'Rör kraftigt till en slät deg',
           es: 'Revuelva vigorosamente para formar una masa suave.',
           fr: 'Remuer vigoureusement pour former une pâte lisse',
           de: 'Kräftig umrühren, bis ein glatter Teig entsteht',
@@ -815,7 +955,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Add peanut butter and water to make sauce',
-          sv: 'Tillsätt jordnötssmör och vatten för att göra sås',
+          sv: 'Tillsätt jordnötssmör och vatten och rör till en sås',
           es: 'Agrega mantequilla de maní y agua para hacer la salsa',
           fr: 'Ajouter le beurre de cacahuète et l\'eau pour faire la sauce',
           de: 'Erdnussbutter und Wasser hinzufügen, um eine Soße zuzubereiten',
@@ -864,7 +1004,7 @@ export const centralAfricanRepublic: Country = {
       },
       description: {
         en: 'Sweet fried dough balls, popular street food dessert',
-        sv: 'Sötstekta degbollar, populär street food dessert',
+        sv: 'Söta friterade degbollar – en populär efterrätt som säljs som gatumat',
         es: 'Bolas dulces de masa frita, postre popular de comida callejera',
         fr: 'Boulettes de pâte frites sucrées, dessert de rue populaire',
         de: 'Süße frittierte Teigbällchen, beliebtes Streetfood-Dessert',
@@ -891,7 +1031,7 @@ export const centralAfricanRepublic: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -981,7 +1121,7 @@ export const centralAfricanRepublic: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -996,7 +1136,7 @@ export const centralAfricanRepublic: Country = {
         {
           name: {
             en: 'Powdered sugar for dusting',
-            sv: 'Pulversocker för att pudra',
+            sv: 'Florsocker att pudra med',
             es: 'Azúcar en polvo para espolvorear',
             fr: 'Sucre en poudre pour saupoudrer',
             de: 'Puderzucker zum Bestäuben',
@@ -1012,7 +1152,7 @@ export const centralAfricanRepublic: Country = {
       steps: [
         {
           en: 'Mix warm water, sugar, and yeast. Let sit 10 minutes until foamy',
-          sv: 'Blanda varmt vatten, socker och jäst. Låt sitta i 10 minuter tills det skummar',
+          sv: 'Blanda varmt vatten, socker och jäst. Låt stå i 10 minuter tills det skummar',
           es: 'Mezcla agua tibia, azúcar y levadura. Deje reposar 10 minutos hasta que esté espumoso',
           fr: 'Mélangez l\'eau tiède, le sucre et la levure. Laisser reposer 10 minutes jusqu\'à ce que le mélange soit mousseux',
           de: 'Warmes Wasser, Zucker und Hefe vermischen. 10 Minuten ruhen lassen, bis es schaumig ist',
@@ -1023,7 +1163,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Add flour, salt, and vanilla. Mix into smooth dough',
-          sv: 'Tillsätt mjöl, salt och vanilj. Blanda till slät deg',
+          sv: 'Tillsätt vetemjöl, salt och vanilj och arbeta ihop till en slät deg',
           es: 'Agrega la harina, la sal y la vainilla. Mezclar hasta obtener una masa suave',
           fr: 'Ajouter la farine, le sel et la vanille. Mélanger pour obtenir une pâte lisse',
           de: 'Mehl, Salz und Vanille hinzufügen. Zu einem glatten Teig verrühren',
@@ -1034,7 +1174,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Cover and let rise for 1 hour until doubled',
-          sv: 'Täck och låt jäsa i 1 timme tills det fördubblats',
+          sv: 'Täck över och låt jäsa i 1 timme tills degen har fördubblats',
           es: 'Tapar y dejar reposar durante 1 hora hasta que doble',
           fr: 'Couvrir et laisser lever 1 heure jusqu\'à ce qu\'il double',
           de: 'Abdecken und 1 Stunde gehen lassen, bis sich der Teig verdoppelt hat',
@@ -1045,7 +1185,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Heat oil to 180°C in deep pot',
-          sv: 'Värm olja till 180°C i djup kastrull',
+          sv: 'Hetta upp oljan till 180°C i en djup kastrull',
           es: 'Calentar aceite a 180°C en una olla profunda',
           fr: 'Chauffer l\'huile à 180°C dans une marmite profonde',
           de: 'Öl in einem tiefen Topf auf 180 °C erhitzen',
@@ -1056,7 +1196,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Scoop small portions of dough with spoon',
-          sv: 'Ös små portioner av degen med sked',
+          sv: 'Ta upp små portioner av degen med en sked',
           es: 'Saque pequeñas porciones de masa con una cuchara.',
           fr: 'Prélever de petites portions de pâte avec une cuillère',
           de: 'Mit einem Löffel kleine Portionen Teig abstechen',
@@ -1067,7 +1207,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Carefully drop into hot oil',
-          sv: 'Släpp försiktigt ner i het olja',
+          sv: 'Lägg försiktigt ner degklickarna i den heta oljan',
           es: 'Sumerja con cuidado en aceite caliente',
           fr: 'Déposez délicatement dans l\'huile chaude',
           de: 'Vorsichtig in heißes Öl fallen lassen',
@@ -1078,7 +1218,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Fry until golden brown on all sides (3-4 minutes)',
-          sv: 'Stek tills gyllenbrun på alla sidor (3-4 minuter)',
+          sv: 'Fritera tills de är gyllenbruna runt om (3–4 minuter)',
           es: 'Freír hasta que estén dorados por todos lados (3-4 minutos)',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés de tous les côtés (3-4 minutes)',
           de: 'Von allen Seiten goldbraun braten (3-4 Minuten)',
@@ -1100,7 +1240,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Dust with powdered sugar while warm',
-          sv: 'Pudra med strösocker medan det är varmt',
+          sv: 'Pudra med florsocker medan de är varma',
           es: 'Espolvoree con azúcar en polvo mientras esté caliente',
           fr: 'Saupoudrer de sucre en poudre pendant qu\'il est chaud',
           de: 'Noch warm mit Puderzucker bestäuben',
@@ -1111,7 +1251,7 @@ export const centralAfricanRepublic: Country = {
         },
         {
           en: 'Serve immediately as a sweet treat',
-          sv: 'Servera omedelbart som godis',
+          sv: 'Servera direkt som ett sött mellanmål',
           es: 'Sirva inmediatamente como un dulce',
           fr: 'Servir immédiatement en guise de gourmandise',
           de: 'Sofort als süße Leckerei servieren',

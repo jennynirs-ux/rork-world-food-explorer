@@ -220,7 +220,17 @@ export const panama: Country = {
     history: [
       {
         year: '1501',
-        title: 'Spanish Colonization',
+        title: {
+          en: 'Spanish Colonization',
+          sv: 'Spansk kolonisering',
+          es: 'Colonización española',
+          fr: 'Colonisation espagnole',
+          de: 'Spanische Kolonisierung',
+          it: 'Colonizzazione spagnola',
+          pl: 'Kolonizacja hiszpańska',
+          nl: 'Spaanse kolonisatie',
+          pt: 'Colonização espanhola',
+        },
         description: {
           en: 'Spanish explorers arrived, establishing Panama as a key trade route between oceans.',
           sv: 'Spanska upptäcktsresande anlände och etablerade Panama som en viktig handelsväg mellan haven.',
@@ -235,7 +245,17 @@ export const panama: Country = {
       },
       {
         year: '1821',
-        title: 'Independence from Spain',
+        title: {
+          en: 'Independence from Spain',
+          sv: 'Självständighet från Spanien',
+          es: 'Independencia de España',
+          fr: 'Fin de la domination espagnole',
+          de: 'Unabhängigkeit von Spanien',
+          it: 'Indipendenza dalla Spagna',
+          pl: 'Uniezależnienie od Hiszpanii',
+          nl: 'Onafhankelijkheid van Spanje',
+          pt: 'Independência da Espanha',
+        },
         description: {
           en: 'Panama gained independence from Spain and joined Gran Colombia.',
           sv: 'Panama blev självständigt från Spanien och gick med i Gran Colombia.',
@@ -250,7 +270,17 @@ export const panama: Country = {
       },
       {
         year: '1903',
-        title: 'Independence from Colombia',
+        title: {
+          en: 'Independence from Colombia',
+          sv: 'Självständighet från Colombia',
+          es: 'Separación de Colombia',
+          fr: 'Rupture avec la Colombie',
+          de: 'Unabhängigkeit von Kolumbien',
+          it: 'Indipendenza dalla Colombia',
+          pl: 'Oderwanie od Kolumbii',
+          nl: 'Afscheiding van Colombia',
+          pt: 'Separação da Colômbia',
+        },
         description: {
           en: 'Panama separated from Colombia with US support.',
           sv: 'Panama separerades från Colombia med amerikanskt stöd.',
@@ -265,7 +295,17 @@ export const panama: Country = {
       },
       {
         year: '1914',
-        title: 'Panama Canal Opens',
+        title: {
+          en: 'Panama Canal Opens',
+          sv: 'Panamakanalen öppnas',
+          es: 'Inauguración del canal de Panamá',
+          fr: 'Ouverture du canal de Panama',
+          de: 'Eröffnung des Panamakanals',
+          it: 'Apertura del canale di Panama',
+          pl: 'Otwarcie Kanału Panamskiego',
+          nl: 'Opening van het Panamakanaal',
+          pt: 'Inauguração do Canal do Panamá',
+        },
         description: {
           en: 'The canal revolutionized global shipping and trade.',
           sv: 'Kanalen revolutionerade den globala sjöfarten och handeln.',
@@ -317,7 +357,17 @@ export const panama: Country = {
           nl: 'Panamahoed',
           pt: 'Chapéu Panamá',
         },
-        year: '19th Century',
+        year: {
+          en: '19th Century',
+          sv: '1800-talet',
+          es: 'Siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'Século XIX',
+        },
         description: {
           en: 'Ironically, Panama hats actually originated in Ecuador but shipped through Panama.',
           sv: 'Ironiskt nog har Panamahattar faktiskt sitt ursprung i Ecuador men skickades genom Panama.',
@@ -383,7 +433,7 @@ export const panama: Country = {
       {
         name: {
           en: 'San Blas Islands',
-          sv: 'San Blas Islands',
+          sv: 'San Blas-öarna',
           es: 'Islas San Blas',
           fr: 'Îles San Blas',
           de: 'San-Blas-Inseln',
@@ -455,7 +505,17 @@ export const panama: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December-April for dry season; May-November is rainy.',
           sv: 'December-april för torrperioden; Maj-november är regnig.',
@@ -469,7 +529,17 @@ export const panama: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for many nationalities for 180 days.',
           sv: 'Visumfritt för många nationaliteter i 180 dagar.',
@@ -507,7 +577,17 @@ export const panama: Country = {
         },
       },
       {
-        item: 'Spanish basics',
+        item: {
+          en: 'Spanish basics',
+          sv: 'Grundläggande spanska',
+          es: 'Español básico',
+          fr: 'Notions d\'espagnol',
+          de: 'Grundkenntnisse Spanisch',
+          it: 'Spagnolo di base',
+          pl: 'Podstawy hiszpańskiego',
+          nl: 'Basiskennis Spaans',
+          pt: 'Espanhol básico',
+        },
         description: {
           en: 'English spoken in tourist areas, Spanish elsewhere.',
           sv: 'Engelska talas i turistområden, spanska på andra håll.',
@@ -525,7 +605,7 @@ export const panama: Country = {
       id: 'panama-dessert',
       name: {
         en: 'Tres Leches Cake',
-        sv: 'Tres Leches tårta',
+        sv: 'Tres leches-tårta',
         es: 'Pastel Tres Leches',
         fr: 'Gâteau Tres Leches',
         de: 'Tres-Leches-Kuchen',
@@ -536,7 +616,7 @@ export const panama: Country = {
       },
       description: {
         en: 'Sponge cake soaked in three types of milk',
-        sv: 'Sockerkaka indränkt i tre typer av mjölk',
+        sv: 'Sockerkaka indränkt i tre sorters mjölk',
         es: 'Bizcocho bañado en tres tipos de leche',
         fr: 'Génoise imbibée de trois types de lait',
         de: 'In drei Milchsorten eingeweichter Biskuitkuchen',
@@ -563,7 +643,7 @@ export const panama: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -605,7 +685,7 @@ export const panama: Country = {
           amount: 5,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -618,7 +698,7 @@ export const panama: Country = {
         {
           name: {
             en: 'Evaporated milk',
-            sv: 'Indunstad mjölk',
+            sv: 'Evaporerad mjölk',
             es: 'Leche evaporada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -633,7 +713,7 @@ export const panama: Country = {
         {
           name: {
             en: 'Condensed milk',
-            sv: 'Kondenserad mjölk',
+            sv: 'Sötad kondenserad mjölk',
             es: 'Leche condensada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -648,7 +728,7 @@ export const panama: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -679,7 +759,7 @@ export const panama: Country = {
       steps: [
         {
           en: 'Beat eggs and sugar until fluffy',
-          sv: 'Vispa ägg och socker fluffigt',
+          sv: 'Vispa ägg och socker pösigt',
           es: 'Batir los huevos y el azúcar hasta que queden esponjosos',
           fr: 'Battre les œufs et le sucre jusqu\'à consistance mousseuse',
           de: 'Eier und Zucker schaumig schlagen',
@@ -690,7 +770,7 @@ export const panama: Country = {
         },
         {
           en: 'Fold in flour and vanilla',
-          sv: 'Vänd i mjöl och vanilj',
+          sv: 'Vänd ner vetemjöl och vanilj',
           es: 'Incorporar la harina y la vainilla',
           fr: 'Incorporer la farine et la vanille',
           de: 'Mehl und Vanille unterheben',
@@ -701,7 +781,7 @@ export const panama: Country = {
         },
         {
           en: 'Bake at 350°F for 30 minutes',
-          sv: 'Grädda i 350°F i 30 minuter',
+          sv: 'Grädda i 175°C i 30 minuter',
           es: 'Hornee a 350°F durante 30 minutos',
           fr: 'Cuire au four à 350°F pendant 30 minutes',
           de: '30 Minuten bei 350 °F backen',
@@ -712,7 +792,7 @@ export const panama: Country = {
         },
         {
           en: 'Cool and poke holes all over',
-          sv: 'Kyl och stick hål överallt',
+          sv: 'Låt svalna och stick hål över hela kakan',
           es: 'Enfriar y hacer agujeros por todas partes',
           fr: 'Refroidissez et percez des trous partout',
           de: 'Abkühlen lassen und überall Löcher hineinstechen',
@@ -723,7 +803,7 @@ export const panama: Country = {
         },
         {
           en: 'Mix three milks together',
-          sv: 'Blanda tre mjölkar tillsammans',
+          sv: 'Blanda ihop de tre mjölksorterna',
           es: 'Mezclar tres leches',
           fr: 'Mélanger trois laits ensemble',
           de: 'Drei Milchsorten miteinander vermischen',
@@ -745,7 +825,7 @@ export const panama: Country = {
         },
         {
           en: 'Refrigerate 3+ hours',
-          sv: 'Kyl i 3+ timmar',
+          sv: 'Ställ i kylen i minst 3 timmar',
           es: 'Refrigere más de 3 horas',
           fr: 'Réfrigérer pendant plus de 3 heures',
           de: '3+ Stunden im Kühlschrank lagern',
@@ -783,7 +863,7 @@ export const panama: Country = {
       },
       description: {
         en: 'Traditional chicken soup with yuca and culantro',
-        sv: 'Traditionell kycklingsoppa med yuca och culantro',
+        sv: 'Traditionell kycklingsoppa med kassava och culantro',
         es: 'Tradicional caldo de pollo con yuca y culantro',
         fr: 'Soupe de poulet traditionnelle au yuca et au culantro',
         de: 'Traditionelle Hühnersuppe mit Yuca und Culantro',
@@ -825,7 +905,7 @@ export const panama: Country = {
         {
           name: {
             en: 'Yuca',
-            sv: 'Yuca',
+            sv: 'Kassava (yuca)',
             es: 'Yuca',
             fr: 'Yuca',
             de: 'Yuca',
@@ -902,7 +982,7 @@ export const panama: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -941,7 +1021,7 @@ export const panama: Country = {
       steps: [
         {
           en: 'Boil chicken with aromatics',
-          sv: 'Koka kyckling med aromater',
+          sv: 'Koka kycklingen med lök och vitlök',
           es: 'Hervir pollo con aromáticas',
           fr: 'Faire bouillir le poulet avec des aromates',
           de: 'Hähnchen mit Aromastoffen kochen',
@@ -952,7 +1032,7 @@ export const panama: Country = {
         },
         {
           en: 'Add yuca and corn',
-          sv: 'Lägg till yuca och majs',
+          sv: 'Tillsätt kassava och majs',
           es: 'Agrega yuca y maíz',
           fr: 'Ajouter le yuca et le maïs',
           de: 'Yuca und Mais hinzufügen',
@@ -974,7 +1054,7 @@ export const panama: Country = {
         },
         {
           en: 'Add culantro at the end',
-          sv: 'Lägg till culantro i slutet',
+          sv: 'Tillsätt culantro mot slutet',
           es: 'Agrega culantro al final',
           fr: 'Ajouter culantro à la fin',
           de: 'Am Ende Culantro hinzufügen',
@@ -996,7 +1076,7 @@ export const panama: Country = {
         },
         {
           en: 'Serve with white rice and hot sauce',
-          sv: 'Servera med vitt ris och varm sås',
+          sv: 'Servera med vitt ris och chilisås',
           es: 'Servir con arroz blanco y salsa picante',
           fr: 'Servir avec du riz blanc et de la sauce piquante',
           de: 'Mit weißem Reis und scharfer Soße servieren',
@@ -1087,7 +1167,7 @@ export const panama: Country = {
           },
           {
             en: 'Erie Canal',
-            sv: 'Erie Canal',
+            sv: 'Eriekanalen',
             es: 'Canal Erie',
             fr: 'Canal Érié',
             de: 'Erie-Kanal',

@@ -219,8 +219,28 @@ export const niger: Country = {
     },
     history: [
       {
-        year: 'Ancient',
-        title: 'Trans-Saharan Trade',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
+        title: {
+          en: 'Trans-Saharan Trade',
+          sv: 'Handeln över Sahara',
+          es: 'Comercio transahariano',
+          fr: 'Commerce transsaharien',
+          de: 'Transsaharahandel',
+          it: 'Commercio transahariano',
+          pl: 'Handel transsaharyjski',
+          nl: 'Trans-Saharahandel',
+          pt: 'Comércio transaariano',
+        },
         description: {
           en: 'Niger was a crucial link in trans-Saharan trade routes, particularly Agadez.',
           sv: 'Niger var en avgörande länk i handelsvägar över Sahara, särskilt Agadez.',
@@ -235,7 +255,17 @@ export const niger: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Niger gained independence from France.',
           sv: 'Niger blev självständigt från Frankrike.',
@@ -262,7 +292,17 @@ export const niger: Country = {
           nl: 'Toearegse zilversmeedkunst',
           pt: 'Artesanato em prata tuaregue',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Intricate silver jewelry and metalwork traditions.',
           sv: 'Intrikata silversmycken och metallsmyckenstraditioner.',
@@ -287,7 +327,17 @@ export const niger: Country = {
           nl: 'Woestijnlandbouw',
           pt: 'Agricultura do deserto',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Techniques for farming in harsh Sahel and Saharan conditions.',
           sv: 'Tekniker för jordbruk i tuffa Sahel och Sahara förhållanden.',
@@ -329,7 +379,7 @@ export const niger: Country = {
       {
         name: {
           en: 'W National Park',
-          sv: 'W National Park',
+          sv: 'Nationalparken W',
           es: 'Parque Nacional W',
           fr: 'Parc national W',
           de: 'W-Nationalpark',
@@ -401,7 +451,7 @@ export const niger: Country = {
       {
         name: {
           en: 'Niamey Grand Market',
-          sv: 'Niamey Grand Market',
+          sv: 'Stora marknaden i Niamey',
           es: 'Gran Mercado de Niamey',
           fr: 'Grand Marché de Niamey',
           de: 'Großer Markt von Niamey',
@@ -425,7 +475,17 @@ export const niger: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories; some regions have security concerns.',
           sv: 'Kontrollera aktuella resemeddelanden; vissa regioner har säkerhetsproblem.',
@@ -439,7 +499,17 @@ export const niger: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-February for cooler temperatures.',
           sv: 'November-februari för kallare temperaturer.',
@@ -453,7 +523,17 @@ export const niger: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need visa arranged in advance.',
           sv: 'De flesta besökare behöver visum ordnas i förväg.',
@@ -467,7 +547,17 @@ export const niger: Country = {
         },
       },
       {
-        item: 'Desert preparation',
+        item: {
+          en: 'Desert preparation',
+          sv: 'Förberedelser för öknen',
+          es: 'Preparación para el desierto',
+          fr: 'Préparation au désert',
+          de: 'Vorbereitung auf die Wüste',
+          it: 'Prepararsi al deserto',
+          pl: 'Przygotowanie na pustynię',
+          nl: 'Voorbereiding op de woestijn',
+          pt: 'Preparação para o deserto',
+        },
         description: {
           en: 'Essential gear for Saharan conditions.',
           sv: 'Nödvändig utrustning för förhållanden i Sahara.',
@@ -496,7 +586,7 @@ export const niger: Country = {
       },
       description: {
         en: 'Sweet fried dough, French-influenced Nigerien treat',
-        sv: 'Sötstekt deg, fransk-influerad nigeriansk godbit',
+        sv: 'Söt friterad deg – en franskinfluerad godbit från Niger',
         es: 'Masa dulce frita, delicia nigerina de influencia francesa',
         fr: 'Pâte frite sucrée, gourmandise nigérienne d\'influence française',
         de: 'Süßer frittierter Teig, französisch beeinflusster nigerianischer Leckerbissen',
@@ -523,7 +613,7 @@ export const niger: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -580,7 +670,7 @@ export const niger: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -623,7 +713,7 @@ export const niger: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -639,7 +729,7 @@ export const niger: Country = {
       steps: [
         {
           en: 'Activate yeast in warm milk with sugar',
-          sv: 'Aktivera jäst i varm mjölk med socker',
+          sv: 'Lös upp jästen i fingervarm mjölk med socker',
           es: 'Activar la levadura en leche tibia con azúcar',
           fr: 'Activer la levure dans du lait tiède avec du sucre',
           de: 'Hefe in warmer Milch mit Zucker aktivieren',
@@ -650,7 +740,7 @@ export const niger: Country = {
         },
         {
           en: 'Mix flour, eggs, yeast mixture, and vanilla',
-          sv: 'Blanda mjöl, ägg, jästblandning och vanilj',
+          sv: 'Blanda vetemjöl, ägg, jästblandningen och vanilj',
           es: 'Mezclar la harina, los huevos, la mezcla de levadura y la vainilla',
           fr: 'Mélanger la farine, les œufs, le mélange de levure et la vanille',
           de: 'Mehl, Eier, Hefemischung und Vanille mischen',
@@ -694,7 +784,7 @@ export const niger: Country = {
         },
         {
           en: 'Deep fry until puffy and golden',
-          sv: 'Fritera tills de är pösigt och gyllene',
+          sv: 'Fritera tills de är pösiga och gyllene',
           es: 'Freír hasta que estén hinchados y dorados',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient gonflés et dorés',
           de: 'Frittieren, bis es geschwollen und goldbraun ist',
@@ -705,7 +795,7 @@ export const niger: Country = {
         },
         {
           en: 'Dust with powdered sugar and serve',
-          sv: 'Pudra över strösocker och servera',
+          sv: 'Pudra över florsocker och servera',
           es: 'Espolvoree con azúcar glass y sirva',
           fr: 'Saupoudrer de sucre en poudre et servir',
           de: 'Mit Puderzucker bestäuben und servieren',
@@ -786,7 +876,7 @@ export const niger: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -811,7 +901,7 @@ export const niger: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -881,7 +971,7 @@ export const niger: Country = {
         },
         {
           en: 'Make sauce with tomatoes and onions',
-          sv: 'Gör sås med tomater och lök',
+          sv: 'Gör en sås på tomater och lök',
           es: 'Hacer salsa con tomates y cebollas',
           fr: 'Faire une sauce avec des tomates et des oignons',
           de: 'Soße mit Tomaten und Zwiebeln zubereiten',
@@ -892,7 +982,7 @@ export const niger: Country = {
         },
         {
           en: 'Add okra and baobab leaves',
-          sv: 'Lägg till okra och baobabblad',
+          sv: 'Tillsätt okra och baobabblad',
           es: 'Añade okra y hojas de baobab',
           fr: 'Ajouter les feuilles de gombo et de baobab',
           de: 'Okra- und Baobabblätter hinzufügen',
@@ -903,7 +993,7 @@ export const niger: Country = {
         },
         {
           en: 'Stir in peanut paste',
-          sv: 'Rör ner jordnötspasta',
+          sv: 'Rör ner jordnötspastan',
           es: 'Agregue la pasta de maní',
           fr: 'Incorporer la pâte de cacahuète',
           de: 'Erdnusspaste einrühren',
@@ -914,7 +1004,7 @@ export const niger: Country = {
         },
         {
           en: 'Simmer until thick',
-          sv: 'Sjud tills det blir tjockt',
+          sv: 'Låt sjuda tills såsen tjocknar',
           es: 'Cocine a fuego lento hasta que espese',
           fr: 'Laisser mijoter jusqu\'à épaississement',
           de: 'köcheln lassen, bis es dickflüssig ist',
@@ -925,7 +1015,7 @@ export const niger: Country = {
         },
         {
           en: 'Serve couscous with sauce',
-          sv: 'Servera couscous med sås',
+          sv: 'Servera couscousen med såsen',
           es: 'Servir el cuscús con salsa',
           fr: 'Servir le couscous avec la sauce',
           de: 'Couscous mit Soße servieren',
@@ -1402,7 +1492,7 @@ export const niger: Country = {
           },
           {
             en: 'Niger Dollar',
-            sv: 'Niger Dollar',
+            sv: 'Nigerdollar',
             es: 'Dólar de Níger',
             fr: 'Dollar nigérien',
             de: 'Niger-Dollar',

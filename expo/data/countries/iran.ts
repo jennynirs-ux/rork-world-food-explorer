@@ -241,8 +241,28 @@ export const iran: Country = {
     },
     history: [
       {
-        year: '550 BC',
-        title: 'Persian Empire',
+        year: {
+          en: '550 BC',
+          sv: '550 f.Kr.',
+          es: '550 a. C.',
+          fr: '550 av. J.-C.',
+          de: '550 v. Chr.',
+          it: '550 a.C.',
+          pl: '550 p.n.e.',
+          nl: '550 v.Chr.',
+          pt: '550 a.C.',
+        },
+        title: {
+          en: 'Persian Empire',
+          sv: 'Persiska riket',
+          es: 'Imperio persa',
+          fr: 'Empire perse',
+          de: 'Perserreich',
+          it: 'Impero persiano',
+          pl: 'Imperium Perskie',
+          nl: 'Perzische Rijk',
+          pt: 'Império Persa',
+        },
         description: {
           en: 'Cyrus the Great founded the Achaemenid Empire, one of the largest empires in ancient history.',
           sv: 'Cyrus den store grundade det akemenidiska riket, ett av de största rikena i antikens historia.',
@@ -257,7 +277,17 @@ export const iran: Country = {
       },
       {
         year: '1501',
-        title: 'Safavid Dynasty',
+        title: {
+          en: 'Safavid Dynasty',
+          sv: 'Safaviddynastin',
+          es: 'Dinastía safávida',
+          fr: 'Dynastie safavide',
+          de: 'Dynastie der Safawiden',
+          it: 'Dinastia safavide',
+          pl: 'Dynastia Safawidów',
+          nl: 'Safavidische dynastie',
+          pt: 'Dinastia safávida',
+        },
         description: {
           en: 'The Safavid dynasty established Shi\'a Islam as the state religion and created stunning architectural masterpieces.',
           sv: 'Safaviddynastin etablerade shiaislam som statsreligion och skapade fantastiska arkitektoniska mästerverk.',
@@ -272,7 +302,17 @@ export const iran: Country = {
       },
       {
         year: '1979',
-        title: 'Islamic Revolution',
+        title: {
+          en: 'Islamic Revolution',
+          sv: 'Islamiska revolutionen',
+          es: 'Revolución islámica',
+          fr: 'Révolution islamique',
+          de: 'Islamische Revolution',
+          it: 'Rivoluzione islamica',
+          pl: 'Rewolucja islamska',
+          nl: 'Islamitische Revolutie',
+          pt: 'Revolução Islâmica',
+        },
         description: {
           en: 'The monarchy was overthrown, establishing the Islamic Republic of Iran.',
           sv: 'Monarkin störtades och etablerade den islamiska republiken Iran.',
@@ -299,7 +339,17 @@ export const iran: Country = {
           nl: 'Algebra',
           pt: 'Álgebra',
         },
-        year: '9th Century',
+        year: {
+          en: '9th Century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
         description: {
           en: 'Persian mathematician Al-Khwarizmi is known as the father of algebra.',
           sv: 'Den persiske matematikern Al-Khwarizmi är känd som fadern till algebra.',
@@ -324,7 +374,17 @@ export const iran: Country = {
           nl: 'Windmolen',
           pt: 'Moinho de vento',
         },
-        year: '7th Century',
+        year: {
+          en: '7th Century',
+          sv: '600-talet',
+          es: 'siglo VII',
+          fr: 'VIIe siècle',
+          de: '7. Jahrhundert',
+          it: 'VII secolo',
+          pl: 'VII wiek',
+          nl: '7e eeuw',
+          pt: 'século VII',
+        },
         description: {
           en: 'The first windmills for grinding grain were built in ancient Persia.',
           sv: 'De första väderkvarnarna för att mala spannmål byggdes i det antika Persien.',
@@ -349,7 +409,17 @@ export const iran: Country = {
           nl: 'IJs',
           pt: 'Sorvete',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Ancient Persians were among the first to create frozen desserts using ice from mountains.',
           sv: 'Forntida perser var bland de första som skapade frysta desserter med is från berg.',
@@ -391,7 +461,7 @@ export const iran: Country = {
       {
         name: {
           en: 'Naqsh-e Jahan Square',
-          sv: 'Naqsh-e Jahan Square',
+          sv: 'Naqsh-e Jahan-torget',
           es: 'Plaza Naqsh-e Jahan',
           fr: 'Place Naqsh-e Jahan',
           de: 'Naqsh-e Jahan-Platz',
@@ -439,7 +509,7 @@ export const iran: Country = {
       {
         name: {
           en: 'Golestan Palace',
-          sv: 'Golestan Palace',
+          sv: 'Golestanpalatset',
           es: 'Palacio de Golestán',
           fr: 'Palais du Golestan',
           de: 'Golestan-Palast',
@@ -463,7 +533,7 @@ export const iran: Country = {
       {
         name: {
           en: 'Yazd Old City',
-          sv: 'Yazd Old City',
+          sv: 'Yazds gamla stad',
           es: 'Ciudad vieja de Yazd',
           fr: 'Vieille ville de Yazd',
           de: 'Altstadt von Yazd',
@@ -487,7 +557,17 @@ export const iran: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-May and September-October for comfortable weather.',
           sv: 'April-maj och september-oktober för behagligt väder.',
@@ -501,7 +581,17 @@ export const iran: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival available for many nationalities.',
           sv: 'Visum vid ankomst tillgängligt för många nationaliteter.',
@@ -515,7 +605,17 @@ export const iran: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Headscarves required for women, modest dress for all.',
           sv: 'Huvuddukar krävs för kvinnor, blygsam klänning för alla.',
@@ -529,7 +629,17 @@ export const iran: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Credit cards don\'t work, bring euros or dollars to exchange.',
           sv: 'Kreditkort fungerar inte, ta med euro eller dollar för att växla.',
@@ -697,7 +807,7 @@ export const iran: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -737,7 +847,7 @@ export const iran: Country = {
         },
         {
           en: 'Brown meat with onions and turmeric',
-          sv: 'Bryn kött med lök och gurkmeja',
+          sv: 'Bryn köttet med lök och gurkmeja',
           es: 'Dorar la carne con cebolla y cúrcuma',
           fr: 'Faire dorer la viande aux oignons et au curcuma',
           de: 'Braunes Fleisch mit Zwiebeln und Kurkuma',
@@ -748,7 +858,7 @@ export const iran: Country = {
         },
         {
           en: 'Add sautéed herbs to meat',
-          sv: 'Lägg sauterade örter till kött',
+          sv: 'Rör ner de frästa örterna i köttet',
           es: 'Agregue hierbas salteadas a la carne',
           fr: 'Ajouter des herbes sautées à la viande',
           de: 'Gebratene Kräuter zum Fleisch geben',
@@ -759,7 +869,7 @@ export const iran: Country = {
         },
         {
           en: 'Add water, cover and simmer for 2 hours',
-          sv: 'Tillsätt vatten, lock och låt sjuda i 2 timmar',
+          sv: 'Tillsätt vatten, lägg på lock och låt sjuda i 2 timmar',
           es: 'Agregue agua, cubra y cocine a fuego lento durante 2 horas',
           fr: 'Ajouter l\'eau, couvrir et laisser mijoter 2 heures',
           de: 'Wasser hinzufügen, abdecken und 2 Stunden köcheln lassen',
@@ -770,7 +880,7 @@ export const iran: Country = {
         },
         {
           en: 'Add cooked kidney beans and pierced dried limes',
-          sv: 'Tillsätt kokta kidneybönor och genomborrade torkade limefrukter',
+          sv: 'Stick hål i de torkade limefrukterna och tillsätt dem tillsammans med de kokta kidneybönorna',
           es: 'Agregue los frijoles cocidos y las limas secas picadas.',
           fr: 'Ajouter les haricots rouges cuits et les citrons verts séchés percés',
           de: 'Gekochte Kidneybohnen und gehackte getrocknete Limetten hinzufügen',
@@ -781,7 +891,7 @@ export const iran: Country = {
         },
         {
           en: 'Simmer for 30 more minutes',
-          sv: 'Sjud i 30 minuter till',
+          sv: 'Låt sjuda ytterligare 30 minuter',
           es: 'Cocine a fuego lento durante 30 minutos más',
           fr: 'Laisser mijoter encore 30 minutes',
           de: 'Weitere 30 Minuten köcheln lassen',
@@ -792,7 +902,7 @@ export const iran: Country = {
         },
         {
           en: 'Serve over saffron rice (chelow)',
-          sv: 'Servera över saffransris (chelow)',
+          sv: 'Servera med saffransris (chelow)',
           es: 'Servir sobre arroz con azafrán (chelow)',
           fr: 'Servir sur du riz au safran (chelow)',
           de: 'Über Safranreis (Chelow) servieren',
@@ -819,7 +929,7 @@ export const iran: Country = {
       },
       description: {
         en: 'Traditional Persian ice cream with saffron, rose water, and pistachios',
-        sv: 'Traditionell persisk glass med saffran, rosenvatten och pistagenötter',
+        sv: 'Traditionell persisk glass med saffran, rosenvatten och pistaschnötter',
         es: 'Helado tradicional persa con azafrán, agua de rosas y pistachos',
         fr: 'Glace persane traditionnelle au safran, eau de rose et pistaches',
         de: 'Traditionelles persisches Eis mit Safran, Rosenwasser und Pistazien',
@@ -846,7 +956,7 @@ export const iran: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -931,7 +1041,7 @@ export const iran: Country = {
         {
           name: {
             en: 'Pistachios',
-            sv: 'Pistagenötter',
+            sv: 'Pistaschnötter',
             es: 'Pistachos',
             fr: 'Pistaches',
             de: 'Pistazien',
@@ -958,7 +1068,7 @@ export const iran: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -972,7 +1082,7 @@ export const iran: Country = {
       steps: [
         {
           en: 'Steep saffron in 2 tbsp hot water',
-          sv: 'Brant saffran i 2 msk varmt vatten',
+          sv: 'Låt saffranet dra i 2 msk varmt vatten',
           es: 'Reposar el azafrán en 2 cucharadas de agua caliente',
           fr: 'Faire tremper le safran dans 2 cuillères à soupe d\'eau chaude',
           de: 'Safran in 2 EL heißem Wasser ziehen lassen',
@@ -983,7 +1093,7 @@ export const iran: Country = {
         },
         {
           en: 'Heat milk and cream to simmer',
-          sv: 'Värm mjölk och grädde för att sjuda',
+          sv: 'Värm mjölk och grädde tills det sjuder',
           es: 'Calentar la leche y la nata a fuego lento',
           fr: 'Faites chauffer le lait et la crème pour laisser mijoter',
           de: 'Milch und Sahne zum Kochen bringen',
@@ -994,7 +1104,7 @@ export const iran: Country = {
         },
         {
           en: 'Whisk egg yolks with sugar until pale',
-          sv: 'Vispa äggulor med socker blekt',
+          sv: 'Vispa äggulor och socker ljust och pösigt',
           es: 'Batir las yemas de huevo con el azúcar hasta que estén pálidas',
           fr: 'Fouetter les jaunes d\'œufs avec le sucre jusqu\'à ce qu\'ils soient pâles',
           de: 'Eigelb mit Zucker schaumig schlagen',
@@ -1005,7 +1115,7 @@ export const iran: Country = {
         },
         {
           en: 'Temper eggs with hot milk, return to heat',
-          sv: 'Tempera ägg med varm mjölk, återgå till värmen',
+          sv: 'Vispa ner lite av den varma mjölken i äggen, häll sedan tillbaka allt i kastrullen och ställ på värmen',
           es: 'Templar los huevos con leche caliente, volver al fuego',
           fr: 'Tempérer les œufs avec le lait chaud, remettre au feu',
           de: 'Eier mit heißer Milch temperieren, wieder erhitzen',
@@ -1016,7 +1126,7 @@ export const iran: Country = {
         },
         {
           en: 'Cook until thick custard forms',
-          sv: 'Koka tills det bildas tjock vaniljsås',
+          sv: 'Värm under omrörning tills krämen tjocknar, utan att den kokar',
           es: 'Cocine hasta que se forme una natilla espesa',
           fr: 'Cuire jusqu\'à ce qu\'une crème épaisse se forme',
           de: 'Kochen, bis eine dicke Creme entsteht',
@@ -1038,7 +1148,7 @@ export const iran: Country = {
         },
         {
           en: 'Chill completely, then churn in ice cream maker',
-          sv: 'Kyl helt och kör sedan i glassmaskin',
+          sv: 'Kyl ordentligt och kör sedan i glassmaskin',
           es: 'Enfríe completamente y luego bata en una máquina para hacer helados.',
           fr: 'Refroidissez complètement, puis barattez dans la sorbetière',
           de: 'Vollständig abkühlen lassen und dann in der Eismaschine umrühren',
@@ -1049,7 +1159,7 @@ export const iran: Country = {
         },
         {
           en: 'Fold in chopped pistachios, freeze until firm',
-          sv: 'Vänd ner hackade pistagenötter, frys tills de blir fasta',
+          sv: 'Vänd ner hackade pistaschnötter och frys tills glassen är fast',
           es: 'Incorpora los pistachos picados y congela hasta que estén firmes',
           fr: 'Incorporer les pistaches hachées, congeler jusqu\'à ce qu\'elles soient fermes',
           de: 'Gehackte Pistazien unterheben, einfrieren, bis sie fest sind',
@@ -1060,7 +1170,7 @@ export const iran: Country = {
         },
         {
           en: 'Serve between two wafers (traditional style)',
-          sv: 'Servera mellan två rån (traditionell stil)',
+          sv: 'Servera mellan två rån, på traditionellt vis',
           es: 'Servir entre dos galletas (estilo tradicional)',
           fr: 'Servir entre deux gaufrettes (style traditionnel)',
           de: 'Zwischen zwei Waffeln servieren (traditionelle Art)',

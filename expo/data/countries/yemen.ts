@@ -263,7 +263,17 @@ export const yemen: Country = {
           nl: 'Koffieteelt',
           pt: 'Cultivo de Café',
         },
-        year: '6th Century',
+        year: {
+          en: '6th Century',
+          sv: '500-talet',
+          es: 'siglo VI',
+          fr: 'VIe siècle',
+          de: '6. Jahrhundert',
+          it: 'VI secolo',
+          pl: 'VI wiek',
+          nl: '6e eeuw',
+          pt: 'século VI',
+        },
         description: {
           en: 'Yemen pioneered coffee cultivation and trade, with Mocha port giving name to coffee variety',
           sv: 'Jemen var pionjär inom kaffeodling och handel, med Mockaport som gav namn åt kaffesorten',
@@ -288,7 +298,17 @@ export const yemen: Country = {
           nl: 'Torenhuisarchitectuur',
           pt: 'Arquitetura de casas-torre',
         },
-        year: 'Medieval',
+        year: {
+          en: 'Medieval',
+          sv: 'Medeltiden',
+          es: 'Edad Media',
+          fr: 'Moyen Âge',
+          de: 'Mittelalter',
+          it: 'Medioevo',
+          pl: 'Średniowiecze',
+          nl: 'Middeleeuwen',
+          pt: 'Idade Média',
+        },
         description: {
           en: 'Distinctive multi-story mud-brick buildings, pioneering vertical living in Old Sana\'a',
           sv: 'Distinkta flervåningsbyggnader i lertegel, banbrytande vertikalt boende i Gamla Sana\'a',
@@ -313,7 +333,17 @@ export const yemen: Country = {
           nl: 'Oude damtechniek',
           pt: 'Engenharia antiga de barragens',
         },
-        year: '8th Century BC',
+        year: {
+          en: '8th Century BC',
+          sv: '700-talet f.Kr.',
+          es: 'siglo VIII a. C.',
+          fr: 'VIIIe siècle av. J.-C.',
+          de: '8. Jahrhundert v. Chr.',
+          it: 'VIII secolo a.C.',
+          pl: 'VIII wiek p.n.e.',
+          nl: '8e eeuw v.Chr.',
+          pt: 'século VIII a.C.',
+        },
         description: {
           en: 'Marib Dam was one of ancient world\'s greatest engineering achievements, irrigating vast areas',
           sv: 'Marib Dam var en av den antika världens största ingenjörsprestationer och bevattnade stora områden',
@@ -338,7 +368,17 @@ export const yemen: Country = {
           nl: 'Handelsroutes voor wierook',
           pt: 'Rotas comerciais do incenso',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Established global trade networks for frankincense and myrrh, connecting civilizations',
           sv: 'Etablerade globala handelsnätverk för rökelse och myrra, som förbinder civilisationer',
@@ -354,8 +394,28 @@ export const yemen: Country = {
     ],
     history: [
       {
-        year: '1000 BC',
-        title: 'Kingdom of Saba',
+        year: {
+          en: '1000 BC',
+          sv: '1000 f.Kr.',
+          es: '1000 a. C.',
+          fr: '1000 av. J.-C.',
+          de: '1000 v. Chr.',
+          it: '1000 a.C.',
+          pl: '1000 p.n.e.',
+          nl: '1000 v.Chr.',
+          pt: '1000 a.C.',
+        },
+        title: {
+          en: 'Kingdom of Saba',
+          sv: 'Kungariket Saba',
+          es: 'Reino de Saba',
+          fr: 'Royaume de Saba',
+          de: 'Königreich Saba',
+          it: 'Regno di Saba',
+          pl: 'Królestwo Saby',
+          nl: 'Koninkrijk Saba',
+          pt: 'Reino de Sabá',
+        },
         description: {
           en: 'An ancient civilization famous for trade, engineering, and the legendary Queen of Sheba.',
           sv: 'En uråldrig civilisation känd för handel, ingenjörskonst och den legendariska drottningen av Saba.',
@@ -369,8 +429,28 @@ export const yemen: Country = {
         },
       },
       {
-        year: '7th century',
-        title: 'Spread of Islam',
+        year: {
+          en: '7th century',
+          sv: '600-talet',
+          es: 'siglo VII',
+          fr: 'VIIe siècle',
+          de: '7. Jahrhundert',
+          it: 'VII secolo',
+          pl: 'VII wiek',
+          nl: '7e eeuw',
+          pt: 'século VII',
+        },
+        title: {
+          en: 'Spread of Islam',
+          sv: 'Islams spridning',
+          es: 'Expansión del islam',
+          fr: 'Expansion de l\'islam',
+          de: 'Ausbreitung des Islam',
+          it: 'Diffusione dell\'islam',
+          pl: 'Szerzenie się islamu',
+          nl: 'Verspreiding van de islam',
+          pt: 'Expansão do islã',
+        },
         description: {
           en: 'Yemen became one of the earliest regions to embrace Islam.',
           sv: 'Jemen blev en av de tidigaste regionerna att anamma islam.',
@@ -384,8 +464,28 @@ export const yemen: Country = {
         },
       },
       {
-        year: '16th–19th century',
-        title: 'Coffee Trade Era',
+        year: {
+          en: '16th–19th century',
+          sv: '1500–1800-talet',
+          es: 'siglos XVI–XIX',
+          fr: 'XVIe–XIXe siècles',
+          de: '16.–19. Jahrhundert',
+          it: 'XVI–XIX secolo',
+          pl: 'XVI–XIX wiek',
+          nl: '16e–19e eeuw',
+          pt: 'séculos XVI–XIX',
+        },
+        title: {
+          en: 'Coffee Trade Era',
+          sv: 'Kaffehandelns storhetstid',
+          es: 'Era del comercio del café',
+          fr: 'Ère du commerce du café',
+          de: 'Ära des Kaffeehandels',
+          it: 'Era del commercio del caffè',
+          pl: 'Epoka handlu kawą',
+          nl: 'Tijdperk van de koffiehandel',
+          pt: 'Era do comércio de café',
+        },
         description: {
           en: 'Mocha became the world\'s most important coffee export hub.',
           sv: 'Mocka blev världens viktigaste kaffeexportnav.',
@@ -400,7 +500,17 @@ export const yemen: Country = {
       },
       {
         year: '1990',
-        title: 'Modern Yemen',
+        title: {
+          en: 'Modern Yemen',
+          sv: 'Det moderna Jemen',
+          es: 'Yemen moderno',
+          fr: 'Le Yémen moderne',
+          de: 'Der moderne Jemen',
+          it: 'Lo Yemen moderno',
+          pl: 'Współczesny Jemen',
+          nl: 'Modern Jemen',
+          pt: 'Iêmen moderno',
+        },
         description: {
           en: 'North and South Yemen unified into a single country.',
           sv: 'Norra och södra Jemen förenade till ett enda land.',
@@ -416,7 +526,17 @@ export const yemen: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa requirements vary; check current travel advisories before planning.',
           sv: 'Visumkraven varierar; kontrollera aktuella reseråd före planering.',
@@ -430,7 +550,17 @@ export const yemen: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'March to May and September to November for moderate temperatures.',
           sv: 'Mars till maj och september till november för måttliga temperaturer.',
@@ -444,7 +574,17 @@ export const yemen: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories. Some areas require caution.',
           sv: 'Kontrollera aktuella resemeddelanden. Vissa områden kräver försiktighet.',
@@ -458,7 +598,17 @@ export const yemen: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Arabic is essential. Limited English in urban areas.',
           sv: 'Arabiska är viktigt. Begränsad engelska i stadsområden.',
@@ -472,7 +622,17 @@ export const yemen: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Modest clothing is important, especially for women.',
           sv: 'Moderata kläder är viktigt, särskilt för kvinnor.',
@@ -586,7 +746,7 @@ export const yemen: Country = {
       {
         name: {
           en: 'Marib Dam',
-          sv: 'Marib Dam',
+          sv: 'Maribdammen',
           es: 'Presa de Marib',
           fr: 'Barrage de Marib',
           de: 'Marib-Staudamm',
@@ -692,7 +852,7 @@ export const yemen: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -717,7 +877,7 @@ export const yemen: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -742,7 +902,7 @@ export const yemen: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -805,7 +965,7 @@ export const yemen: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -832,7 +992,7 @@ export const yemen: Country = {
         },
         {
           en: 'Cook meat with onions, garlic, potatoes, and spices until tender',
-          sv: 'Koka kött med lök, vitlök, potatis och kryddor tills det är mört',
+          sv: 'Koka köttet med lök, vitlök, potatis och kryddor tills det är mört',
           es: 'Cocine la carne con cebolla, ajo, patatas y especias hasta que esté tierna',
           fr: 'Cuire la viande avec les oignons, l\'ail, les pommes de terre et les épices jusqu\'à ce qu\'elles soient tendres',
           de: 'Fleisch mit Zwiebeln, Knoblauch, Kartoffeln und Gewürzen kochen, bis es weich ist',
@@ -843,7 +1003,7 @@ export const yemen: Country = {
         },
         {
           en: 'Add chopped tomatoes and simmer until thick',
-          sv: 'Tillsätt hackade tomater och låt sjuda tills det blir tjockt',
+          sv: 'Tillsätt hackade tomater och låt sjuda tills grytan tjocknar',
           es: 'Agregue los tomates picados y cocine a fuego lento hasta que espese',
           fr: 'Ajouter les tomates hachées et laisser mijoter jusqu\'à épaississement',
           de: 'Gehackte Tomaten hinzufügen und köcheln lassen, bis eine dicke Masse entsteht',
@@ -854,7 +1014,7 @@ export const yemen: Country = {
         },
         {
           en: 'Top stew with zhug and fenugreek foam',
-          sv: 'Toppgryta med zhug och bockhornsklöverskum',
+          sv: 'Toppa grytan med zhug och bockhornsklöverskummet',
           es: 'Cubra el guiso con zhug y espuma de fenogreco',
           fr: 'Garnir le ragoût de zhug et de mousse de fenugrec',
           de: 'Top-Eintopf mit Zhug und Bockshornkleeschaum',
@@ -865,7 +1025,7 @@ export const yemen: Country = {
         },
         {
           en: 'Heat until bubbling in a stone pot',
-          sv: 'Värm tills det bubblar i en stengryta',
+          sv: 'Hetta upp i en stengryta tills det bubblar',
           es: 'Calentar hasta que burbujee en una olla de piedra',
           fr: 'Chauffer jusqu\'à bouillonnement dans une casserole en pierre',
           de: 'In einem Steintopf erhitzen, bis es brodelt',
@@ -903,7 +1063,7 @@ export const yemen: Country = {
       },
       description: {
         en: 'Traditional Yemeni honey cake made with thin layers of buttery dough and drizzled with honey.',
-        sv: 'Traditionell jemenitisk honungstårta gjord med tunna lager av smörig deg och översållad med honung.',
+        sv: 'Traditionell jemenitisk honungskaka av tunna lager smörig deg, ringlad med honung.',
         es: 'Pastel de miel tradicional yemení elaborado con finas capas de masa mantecosa y rociado con miel.',
         fr: 'Gâteau au miel traditionnel yéménite composé de fines couches de pâte au beurre et arrosé de miel.',
         de: 'Traditioneller jemenitischer Honigkuchen, hergestellt aus dünnen Butterteigschichten und mit Honig beträufelt.',
@@ -930,7 +1090,7 @@ export const yemen: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -985,7 +1145,7 @@ export const yemen: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -1046,7 +1206,7 @@ export const yemen: Country = {
       steps: [
         {
           en: 'Mix yeast with warm water and let activate',
-          sv: 'Blanda jäst med varmt vatten och låt aktivera',
+          sv: 'Rör ut jästen i ljummet vatten och låt stå tills det bubblar',
           es: 'Mezclar la levadura con agua tibia y dejar activar',
           fr: 'Mélangez la levure avec de l\'eau tiède et laissez activer',
           de: 'Hefe mit warmem Wasser vermischen und einwirken lassen',
@@ -1057,7 +1217,7 @@ export const yemen: Country = {
         },
         {
           en: 'Combine flour, eggs, butter, salt, and yeast mixture',
-          sv: 'Blanda mjöl, ägg, smör, salt och jästblandning',
+          sv: 'Blanda vetemjöl, ägg, smör, salt och jästblandningen',
           es: 'Combine la harina, los huevos, la mantequilla, la sal y la mezcla de levadura.',
           fr: 'Mélanger la farine, les œufs, le beurre, le sel et le mélange de levure',
           de: 'Mehl, Eier, Butter, Salz und Hefemischung vermischen',
@@ -1090,7 +1250,7 @@ export const yemen: Country = {
         },
         {
           en: 'Bake at 180°C until golden',
-          sv: 'Grädda i 180°C tills de är gyllene',
+          sv: 'Grädda i 180 °C tills kakan är gyllenbrun',
           es: 'Hornear a 180°C hasta que esté dorado',
           fr: 'Cuire au four à 180°C jusqu\'à ce qu\'il soit doré',
           de: 'Bei 180°C goldbraun backen',
@@ -1101,7 +1261,7 @@ export const yemen: Country = {
         },
         {
           en: 'Drizzle generously with honey before serving',
-          sv: 'Ringla rejält med honung före servering',
+          sv: 'Ringla rikligt med honung över kakan före servering',
           es: 'Rocíe generosamente con miel antes de servir',
           fr: 'Arrosez généreusement de miel avant de servir',
           de: 'Vor dem Servieren großzügig mit Honig beträufeln',

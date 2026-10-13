@@ -220,7 +220,17 @@ export const democraticRepublicCongo: Country = {
     history: [
       {
         year: '1885',
-        title: 'Congo Free State',
+        title: {
+          en: 'Congo Free State',
+          sv: 'Kongostaten',
+          es: 'Estado Libre del Congo',
+          fr: 'État indépendant du Congo',
+          de: 'Kongo-Freistaat',
+          it: 'Stato Libero del Congo',
+          pl: 'Wolne Państwo Kongo',
+          nl: 'Onafhankelijke Congostaat',
+          pt: 'Estado Livre do Congo',
+        },
         description: {
           en: 'King Leopold II of Belgium established control, leading to one of history\'s most brutal colonial periods.',
           sv: 'Kung Leopold II av Belgien etablerade kontroll, vilket ledde till en av historiens mest brutala kolonialperioder.',
@@ -235,7 +245,17 @@ export const democraticRepublicCongo: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'The DRC gained independence from Belgium, beginning a tumultuous post-colonial era.',
           sv: 'Demokratiska republiken Kongo blev självständigt från Belgien, vilket inledde en tumultartad postkolonial era.',
@@ -262,7 +282,17 @@ export const democraticRepublicCongo: Country = {
           nl: 'Soukousmuziek',
           pt: 'Música soukous',
         },
-        year: '1940s-1960s',
+        year: {
+          en: '1940s-1960s',
+          sv: '1940–1960-talen',
+          es: 'Décadas de 1940–1960',
+          fr: 'Années 1940–1960',
+          de: '1940er–1960er',
+          it: 'Anni \'40–\'60',
+          pl: 'Lata 40.–60.',
+          nl: 'Jaren 40–60',
+          pt: 'Décadas de 1940–1960',
+        },
         description: {
           en: 'Congolese musicians pioneered Soukous/Rumba, influencing African music across the continent with its distinctive guitar style.',
           sv: 'Kongolesiska musiker var pionjärer i Soukous/Rumba och påverkade afrikansk musik över hela kontinenten med sin distinkta gitarrstil.',
@@ -287,7 +317,17 @@ export const democraticRepublicCongo: Country = {
           nl: 'Duurzame bosbouwpraktijken',
           pt: 'Práticas florestais sustentáveis',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Indigenous communities developed sustainable forest management techniques now studied globally for rainforest conservation.',
           sv: 'Ursprungssamhällen utvecklade hållbara skogsbrukstekniker som nu studerats globalt för att bevara regnskogen.',
@@ -312,7 +352,17 @@ export const democraticRepublicCongo: Country = {
           nl: 'Traditionele geneeskunde',
           pt: 'Medicina tradicional',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Congo\'s biodiversity led to extensive botanical medicine knowledge, with many modern pharmaceuticals derived from these plants.',
           sv: 'Kongos biologiska mångfald ledde till omfattande kunskap om botanisk medicin, med många moderna läkemedel som härrörde från dessa växter.',
@@ -402,7 +452,17 @@ export const democraticRepublicCongo: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Required for most nationalities; arrange in advance.',
           sv: 'Krävs för de flesta nationaliteter; ordna i förväg.',
@@ -416,7 +476,17 @@ export const democraticRepublicCongo: Country = {
         },
       },
       {
-        item: 'Vaccinations',
+        item: {
+          en: 'Vaccinations',
+          sv: 'Vaccinationer',
+          es: 'Vacunas',
+          fr: 'Vaccins',
+          de: 'Impfungen',
+          it: 'Vaccinazioni',
+          pl: 'Szczepienia',
+          nl: 'Vaccinaties',
+          pt: 'Vacinas',
+        },
         description: {
           en: 'Yellow fever, malaria prophylaxis recommended.',
           sv: 'Gul feber, malariaprofylax rekommenderas.',
@@ -430,7 +500,17 @@ export const democraticRepublicCongo: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current advisories; some regions unstable.',
           sv: 'Kontrollera aktuella råd; vissa regioner är instabila.',
@@ -459,7 +539,7 @@ export const democraticRepublicCongo: Country = {
       },
       description: {
         en: 'Chicken in rich palm nut sauce',
-        sv: 'Kyckling i rik palmnötsås',
+        sv: 'Kyckling i fyllig palmnötssås',
         es: 'Pollo en rica salsa de palmitos',
         fr: 'Poulet à la riche sauce aux noix de palme',
         de: 'Hähnchen in reichhaltiger Palmnusssauce',
@@ -501,7 +581,7 @@ export const democraticRepublicCongo: Country = {
         {
           name: {
             en: 'Palm nut cream',
-            sv: 'Palmnötkräm',
+            sv: 'Palmnötskräm',
             es: 'Crema de nueces de palma',
             fr: 'Crème de noix de palme',
             de: 'Palmnusscreme',
@@ -528,7 +608,7 @@ export const democraticRepublicCongo: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -553,7 +633,7 @@ export const democraticRepublicCongo: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -603,7 +683,7 @@ export const democraticRepublicCongo: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -617,7 +697,7 @@ export const democraticRepublicCongo: Country = {
       steps: [
         {
           en: 'Brown chicken pieces in oil',
-          sv: 'Bryn kycklingbitar i olja',
+          sv: 'Bryn kycklingbitarna i olja',
           es: 'Dorar los trozos de pollo en aceite',
           fr: 'Faire revenir les morceaux de poulet dans l\'huile',
           de: 'Hähnchenstücke in Öl anbraten',
@@ -639,7 +719,7 @@ export const democraticRepublicCongo: Country = {
         },
         {
           en: 'Pour in palm nut cream',
-          sv: 'Häll i palmnötskräm',
+          sv: 'Häll i palmnötskrämen',
           es: 'Vierta la crema de nueces de palma',
           fr: 'Verser la crème de noix de palme',
           de: 'Palmnusscreme einfüllen',
@@ -661,7 +741,7 @@ export const democraticRepublicCongo: Country = {
         },
         {
           en: 'Cook until chicken is tender and sauce thickens',
-          sv: 'Koka tills kycklingen är mör och såsen tjocknar',
+          sv: 'Låt koka tills kycklingen är mör och såsen har tjocknat',
           es: 'Cocine hasta que el pollo esté tierno y la salsa espese',
           fr: 'Cuire jusqu\'à ce que le poulet soit tendre et que la sauce épaississe',
           de: 'Kochen, bis das Huhn zart ist und die Soße eindickt',
@@ -699,7 +779,7 @@ export const democraticRepublicCongo: Country = {
       },
       description: {
         en: 'Sweet fried dough balls, Congolese donuts often enjoyed with coffee',
-        sv: 'Sötstekta degbollar, kongolesiska munkar som ofta avnjuts med kaffe',
+        sv: 'Söta friterade degbollar – kongolesiska munkar som ofta äts till kaffet',
         es: 'Bolas de masa dulce frita, rosquillas congoleñas que a menudo se disfrutan con café',
         fr: 'Boulettes de pâte frites sucrées, beignets congolais souvent dégustés avec du café',
         de: 'Süße frittierte Teigbällchen, kongolesische Donuts, die oft zum Kaffee genossen werden',
@@ -726,7 +806,7 @@ export const democraticRepublicCongo: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -801,7 +881,7 @@ export const democraticRepublicCongo: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour la friture',
             de: 'Pflanzenöl zum Braten',
@@ -828,7 +908,7 @@ export const democraticRepublicCongo: Country = {
         },
         {
           en: 'Let sit for 10 minutes until foamy.',
-          sv: 'Låt sitta i 10 minuter tills skum.',
+          sv: 'Låt stå i 10 minuter tills det skummar.',
           es: 'Deje reposar durante 10 minutos hasta que esté espumoso.',
           fr: 'Laisser reposer 10 minutes jusqu\'à ce qu\'il soit mousseux.',
           de: '10 Minuten ruhen lassen, bis es schaumig ist.',
@@ -839,7 +919,7 @@ export const democraticRepublicCongo: Country = {
         },
         {
           en: 'Mix flour, remaining sugar, and salt in bowl.',
-          sv: 'Blanda mjöl, resterande socker och salt i en skål.',
+          sv: 'Blanda vetemjöl, resten av sockret och saltet i en skål.',
           es: 'Mezcle la harina, el azúcar restante y la sal en un tazón.',
           fr: 'Mélanger la farine, le reste du sucre et le sel dans un bol.',
           de: 'Mehl, restlichen Zucker und Salz in einer Schüssel vermischen.',
@@ -861,7 +941,7 @@ export const democraticRepublicCongo: Country = {
         },
         {
           en: 'Cover and let rise for 1 hour until doubled.',
-          sv: 'Täck och låt jäsa i 1 timme tills det fördubblats.',
+          sv: 'Täck över och låt degen jäsa till dubbel storlek, ca 1 timme.',
           es: 'Cubra y deje reposar durante 1 hora hasta que doble.',
           fr: 'Couvrir et laisser lever 1 heure jusqu\'à ce qu\'il double.',
           de: 'Abdecken und 1 Stunde gehen lassen, bis sich das Volumen verdoppelt hat.',
@@ -872,7 +952,7 @@ export const democraticRepublicCongo: Country = {
         },
         {
           en: 'Heat oil to 350°F.',
-          sv: 'Värm olja till 350°F.',
+          sv: 'Hetta upp oljan till 175 °C.',
           es: 'Caliente el aceite a 350°F.',
           fr: 'Chauffer l\'huile à 350°F.',
           de: 'Öl auf 350 °F erhitzen.',
@@ -883,7 +963,7 @@ export const democraticRepublicCongo: Country = {
         },
         {
           en: 'Form small balls of dough.',
-          sv: 'Forma små bollar av deg.',
+          sv: 'Forma degen till små bollar.',
           es: 'Formar pequeñas bolitas de masa.',
           fr: 'Former des petites boules de pâte.',
           de: 'Aus dem Teig kleine Kugeln formen.',
@@ -894,7 +974,7 @@ export const democraticRepublicCongo: Country = {
         },
         {
           en: 'Fry until golden brown on all sides.',
-          sv: 'Stek tills de är gyllenbruna på alla sidor.',
+          sv: 'Fritera bollarna tills de är gyllenbruna runt om.',
           es: 'Freír hasta que estén dorados por todos lados.',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés de tous les côtés.',
           de: 'Von allen Seiten goldbraun braten.',
@@ -916,7 +996,7 @@ export const democraticRepublicCongo: Country = {
         },
         {
           en: 'Serve warm, optionally dusted with powdered sugar.',
-          sv: 'Servera varm, eventuellt pudrad med strösocker.',
+          sv: 'Servera varma, gärna pudrade med florsocker.',
           es: 'Sirva caliente, opcionalmente espolvoreado con azúcar en polvo.',
           fr: 'Servir chaud, éventuellement saupoudré de sucre en poudre.',
           de: 'Warm servieren, optional mit Puderzucker bestäubt.',
@@ -1068,7 +1148,7 @@ export const democraticRepublicCongo: Country = {
           },
           {
             en: 'Daintree Rainforest',
-            sv: 'Daintree Rainforest',
+            sv: 'Daintreeregnskogen',
             es: 'Selva tropical de Daintree',
             fr: 'Forêt tropicale de Daintree',
             de: 'Daintree Regenwald',
@@ -1079,7 +1159,7 @@ export const democraticRepublicCongo: Country = {
           },
           {
             en: 'Valdivian Rainforest',
-            sv: 'Valdivian Rainforest',
+            sv: 'Valdiviaregnskogen',
             es: 'Selva Valdiviana',
             fr: 'Forêt tropicale valdivienne',
             de: 'Valdivianischer Regenwald',

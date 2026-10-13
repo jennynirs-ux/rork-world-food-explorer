@@ -264,7 +264,17 @@ export const finland: Country = {
     history: [
       {
         year: '1155',
-        title: 'Swedish Rule Begins',
+        title: {
+          en: 'Swedish Rule Begins',
+          sv: 'Svenskt styre inleds',
+          es: 'Comienzo del dominio sueco',
+          fr: 'Début de la domination suédoise',
+          de: 'Beginn der schwedischen Herrschaft',
+          it: 'Inizio del dominio svedese',
+          pl: 'Początek panowania szwedzkiego',
+          nl: 'Begin van de Zweedse heerschappij',
+          pt: 'Início do domínio sueco',
+        },
         description: {
           en: 'Sweden gradually incorporated Finland into its realm through crusades, beginning centuries of Swedish influence.',
           sv: 'Sverige införlivade gradvis Finland i sitt rike genom korståg, vilket inledde århundraden av svenskt inflytande.',
@@ -279,7 +289,17 @@ export const finland: Country = {
       },
       {
         year: '1809',
-        title: 'Russian Grand Duchy',
+        title: {
+          en: 'Russian Grand Duchy',
+          sv: 'Ryskt storfurstendöme',
+          es: 'Gran ducado ruso',
+          fr: 'Grand-duché russe',
+          de: 'Russisches Großfürstentum',
+          it: 'Granducato russo',
+          pl: 'Wielkie Księstwo Finlandii',
+          nl: 'Russisch grootvorstendom',
+          pt: 'Grão-ducado russo',
+        },
         description: {
           en: 'Finland became an autonomous Grand Duchy of the Russian Empire after Sweden ceded it in the Finnish War.',
           sv: 'Finland blev ett autonomt storfurstendöme av det ryska riket efter att Sverige avstod från det i finska kriget.',
@@ -294,7 +314,17 @@ export const finland: Country = {
       },
       {
         year: '1917',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Finland declared independence from Russia during the turmoil of the Russian Revolution.',
           sv: 'Finland förklarade sig självständigt från Ryssland under den ryska revolutionens turbulens.',
@@ -309,7 +339,17 @@ export const finland: Country = {
       },
       {
         year: '1939-1940',
-        title: 'Winter War',
+        title: {
+          en: 'Winter War',
+          sv: 'Vinterkriget',
+          es: 'Guerra de Invierno',
+          fr: 'Guerre d\'Hiver',
+          de: 'Winterkrieg',
+          it: 'Guerra d\'inverno',
+          pl: 'Wojna zimowa',
+          nl: 'Winteroorlog',
+          pt: 'Guerra de Inverno',
+        },
         description: {
           en: 'Finland fought against Soviet invasion, maintaining independence despite being vastly outnumbered.',
           sv: 'Finland kämpade mot den sovjetiska invasionen och bibehöll självständigheten trots att det var kraftigt i undertal.',
@@ -324,7 +364,17 @@ export const finland: Country = {
       },
       {
         year: '1995',
-        title: 'EU Membership',
+        title: {
+          en: 'EU Membership',
+          sv: 'EU-medlemskap',
+          es: 'Adhesión a la UE',
+          fr: 'Adhésion à l\'UE',
+          de: 'EU-Beitritt',
+          it: 'Adesione all\'UE',
+          pl: 'Przystąpienie do UE',
+          nl: 'EU-lidmaatschap',
+          pt: 'Adesão à UE',
+        },
         description: {
           en: 'Finland joined the European Union, integrating more closely with Western Europe.',
           sv: 'Finland gick med i Europeiska unionen och integrerade sig närmare med Västeuropa.',
@@ -339,7 +389,17 @@ export const finland: Country = {
       },
       {
         year: '2023',
-        title: 'NATO Membership',
+        title: {
+          en: 'NATO Membership',
+          sv: 'Medlemskap i Nato',
+          es: 'Ingreso en la OTAN',
+          fr: 'Adhésion à l\'OTAN',
+          de: 'NATO-Beitritt',
+          it: 'Adesione alla NATO',
+          pl: 'Członkostwo w NATO',
+          nl: 'NAVO-lidmaatschap',
+          pt: 'Adesão à OTAN',
+        },
         description: {
           en: 'Finland joined NATO, marking a significant shift in its defense policy.',
           sv: 'Finland gick med i Nato, vilket markerade en betydande förändring av dess försvarspolitik.',
@@ -355,7 +415,17 @@ export const finland: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen visa rules apply. Many nationalities can visit visa-free for up to 90 days.',
           sv: 'Schengenvisumregler gäller. Många nationaliteter kan besöka visumfritt i upp till 90 dagar.',
@@ -369,7 +439,17 @@ export const finland: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June to August for midnight sun; December to March for winter activities and Northern Lights',
           sv: 'Juni till augusti för midnattssol; December till mars för vinteraktiviteter och norrsken',
@@ -383,7 +463,17 @@ export const finland: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent public transport, trains, buses. Rental cars for exploring countryside.',
           sv: 'Utmärkt kollektivtrafik, tåg, bussar. Hyrbilar för att utforska landsbygden.',
@@ -397,7 +487,17 @@ export const finland: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Finnish and Swedish official. English widely spoken.',
           sv: 'finsk och svensk tjänsteman. Engelska talas allmänt.',
@@ -411,7 +511,17 @@ export const finland: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'One of the safest countries in the world.',
           sv: 'Ett av de säkraste länderna i världen.',
@@ -562,7 +672,7 @@ export const finland: Country = {
       },
       description: {
         en: 'Finland\'s comforting national dish - a creamy soup with fresh salmon, potatoes, carrots, leeks, and dill. Simple yet flavorful, it embodies Finnish cuisine\'s emphasis on high-quality, fresh ingredients. Perfect for cold Nordic days.',
-        sv: 'Finlands tröstande nationalrätt - en krämig soppa med färsk lax, potatis, morötter, purjolök och dill. Enkel men ändå smakrik, den förkroppsligar det finska kökets betoning på högkvalitativa, färska ingredienser. Perfekt för kalla nordiska dagar.',
+        sv: 'Finlands värmande nationalrätt – en krämig soppa med färsk lax, potatis, morötter, purjolök och dill. Enkel men smakrik och ett typiskt exempel på det finska kökets fokus på färska råvaror av hög kvalitet. Perfekt en kall nordisk dag.',
         es: 'El reconfortante plato nacional de Finlandia: una sopa cremosa con salmón fresco, patatas, zanahorias, puerros y eneldo. Sencillo pero sabroso, encarna el énfasis de la cocina finlandesa en ingredientes frescos y de alta calidad. Perfecto para los fríos días nórdicos.',
         fr: 'Le plat national réconfortant de la Finlande : une soupe crémeuse avec du saumon frais, des pommes de terre, des carottes, des poireaux et de l\'aneth. Simple mais savoureux, il incarne l\'accent mis par la cuisine finlandaise sur des ingrédients frais de haute qualité. Parfait pour les froides journées nordiques.',
         de: 'Finnlands wohltuendes Nationalgericht – eine cremige Suppe mit frischem Lachs, Kartoffeln, Karotten, Lauch und Dill. Es ist schlicht und doch geschmackvoll und verkörpert den Schwerpunkt der finnischen Küche auf hochwertige, frische Zutaten. Perfekt für kalte nordische Tage.',
@@ -656,7 +766,7 @@ export const finland: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -694,7 +804,7 @@ export const finland: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -771,7 +881,7 @@ export const finland: Country = {
         },
         {
           en: 'Add diced potatoes, sliced carrots, and stock',
-          sv: 'Lägg till tärnad potatis, skivade morötter och fond',
+          sv: 'Tillsätt tärnad potatis, skivade morötter och buljong',
           es: 'Agregue las patatas cortadas en cubitos, las zanahorias en rodajas y el caldo',
           fr: 'Ajouter les pommes de terre en dés, les carottes tranchées et le bouillon',
           de: 'Gewürfelte Kartoffeln, geschnittene Karotten und Brühe hinzufügen',
@@ -815,7 +925,7 @@ export const finland: Country = {
         },
         {
           en: 'Pour in heavy cream and heat through (don\'t boil)',
-          sv: 'Häll i tjock grädde och värm igenom (koka inte)',
+          sv: 'Häll i vispgrädden och värm upp utan att låta soppan koka',
           es: 'Vierta la crema espesa y caliente (no hierva)',
           fr: 'Verser la crème épaisse et faire chauffer (ne pas faire bouillir)',
           de: 'Sahne einfüllen und erhitzen (nicht kochen)',
@@ -837,7 +947,7 @@ export const finland: Country = {
         },
         {
           en: 'Add fresh dill just before serving',
-          sv: 'Tillsätt färsk dill precis innan servering',
+          sv: 'Tillsätt färsk dill precis före servering',
           es: 'Agregue eneldo fresco justo antes de servir',
           fr: 'Ajouter l\'aneth frais juste avant de servir',
           de: 'Kurz vor dem Servieren frischen Dill hinzufügen',
@@ -864,7 +974,7 @@ export const finland: Country = {
       id: 'finland-dessert',
       name: {
         en: 'Mustikkapiirakka (Blueberry Pie)',
-        sv: 'Mustikkapiirakka (Blåbärspaj)',
+        sv: 'Mustikkapiirakka (blåbärspaj)',
         es: 'Mustikkapiirakka (pastel de arándanos)',
         fr: 'Mustikkapiirakka (Tarte aux bleuets)',
         de: 'Mustikkapiirakka (Blaubeerkuchen)',
@@ -875,7 +985,7 @@ export const finland: Country = {
       },
       description: {
         en: 'Traditional Finnish blueberry pie with cardamom-spiced crust',
-        sv: 'Traditionell finsk blåbärspaj med kardemummakryddad skorpa',
+        sv: 'Traditionell finsk blåbärspaj med kardemummakryddad pajdeg',
         es: 'Pastel tradicional finlandés de arándanos con corteza especiada con cardamomo',
         fr: 'Tarte finlandaise traditionnelle aux myrtilles avec croûte épicée à la cardamome',
         de: 'Traditioneller finnischer Blaubeerkuchen mit Kardamom-gewürzter Kruste',
@@ -932,7 +1042,7 @@ export const finland: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -959,7 +1069,7 @@ export const finland: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1028,7 +1138,7 @@ export const finland: Country = {
       steps: [
         {
           en: 'Mix butter, sugar, flour, egg, and cardamom into dough',
-          sv: 'Blanda smör, socker, mjöl, ägg och kardemumma till deg',
+          sv: 'Blanda smör, socker, vetemjöl, ägg och kardemumma till en deg',
           es: 'Mezcle mantequilla, azúcar, harina, huevo y cardamomo hasta formar una masa',
           fr: 'Mélanger le beurre, le sucre, la farine, l\'œuf et la cardamome dans la pâte',
           de: 'Butter, Zucker, Mehl, Ei und Kardamom zu einem Teig verrühren',
@@ -1039,7 +1149,7 @@ export const finland: Country = {
         },
         {
           en: 'Press 2/3 of dough into pie pan',
-          sv: 'Tryck ut 2/3 av degen i pajform',
+          sv: 'Tryck ut 2/3 av degen i en pajform',
           es: 'Presione 2/3 de la masa en el molde para pastel',
           fr: 'Presser les 2/3 de la pâte dans le moule à tarte',
           de: '2/3 des Teigs in die Kuchenform drücken',
@@ -1061,7 +1171,7 @@ export const finland: Country = {
         },
         {
           en: 'Pour blueberry filling over crust',
-          sv: 'Häll blåbärsfyllning över skorpan',
+          sv: 'Häll blåbärsfyllningen över pajbotten',
           es: 'Vierta el relleno de arándanos sobre la base',
           fr: 'Verser la garniture aux bleuets sur la croûte',
           de: 'Blaubeerfüllung über die Kruste gießen',
@@ -1072,7 +1182,7 @@ export const finland: Country = {
         },
         {
           en: 'Crumble remaining dough on top',
-          sv: 'Smula resterande deg ovanpå',
+          sv: 'Smula resten av degen över',
           es: 'Desmenuza la masa restante encima',
           fr: 'Émietter le reste de la pâte dessus',
           de: 'Restlichen Teig darüberkrümeln',
@@ -1083,7 +1193,7 @@ export const finland: Country = {
         },
         {
           en: 'Bake at 180°C for 45 minutes until golden',
-          sv: 'Grädda i 180°C i 45 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 45 minuter tills pajen är gyllenbrun',
           es: 'Hornear a 180°C durante 45 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 45 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '45 Minuten bei 180°C goldbraun backen',
@@ -1094,7 +1204,7 @@ export const finland: Country = {
         },
         {
           en: 'Cool before serving',
-          sv: 'Kyl innan servering',
+          sv: 'Låt svalna före servering',
           es: 'Dejar enfriar antes de servir',
           fr: 'Laisser refroidir avant de servir',
           de: 'Vor dem Servieren abkühlen lassen',
@@ -1174,7 +1284,17 @@ export const finland: Country = {
           nl: 'Nokia mobiele telefoons',
           pt: 'Telefones Móveis Nokia',
         },
-        year: '1980s-2000s',
+        year: {
+          en: '1980s-2000s',
+          sv: '1980–2000-talen',
+          es: 'Décadas de 1980–2000',
+          fr: 'Années 1980–2000',
+          de: '1980er–2000er',
+          it: 'Anni \'80–2000',
+          pl: 'Lata 80.–2000.',
+          nl: 'Jaren 80–2000',
+          pt: 'Décadas de 1980–2000',
+        },
         description: {
           en: 'Dominated the mobile phone industry before smartphones, connecting the world',
           sv: 'Dominerade mobiltelefonindustrin före smartphones och förenade världen',
@@ -1224,7 +1344,17 @@ export const finland: Country = {
           nl: 'Saunacultuur',
           pt: 'Cultura da Sauna',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Developed the sauna tradition that has spread worldwide',
           sv: 'Utvecklade bastutraditionen som har spridit sig över hela världen',

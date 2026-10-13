@@ -220,7 +220,17 @@ export const kuwait: Country = {
     history: [
       {
         year: '1613',
-        title: 'Founding',
+        title: {
+          en: 'Founding',
+          sv: 'Grundandet',
+          es: 'Fundación',
+          fr: 'Fondation',
+          de: 'Gründung',
+          it: 'Fondazione',
+          pl: 'Założenie',
+          nl: 'Stichting',
+          pt: 'Fundação',
+        },
         description: {
           en: 'Kuwait was founded as a small fishing and trading village on the Persian Gulf.',
           sv: 'Kuwait grundades som en liten fiske- och handelsby vid Persiska viken.',
@@ -235,7 +245,17 @@ export const kuwait: Country = {
       },
       {
         year: '1938',
-        title: 'Oil Discovery',
+        title: {
+          en: 'Oil Discovery',
+          sv: 'Oljefynd',
+          es: 'Descubrimiento de petróleo',
+          fr: 'Découverte du pétrole',
+          de: 'Entdeckung des Erdöls',
+          it: 'Scoperta del petrolio',
+          pl: 'Odkrycie ropy naftowej',
+          nl: 'Olievondst',
+          pt: 'Descoberta de petróleo',
+        },
         description: {
           en: 'Discovery of oil transformed Kuwait into one of the world\'s wealthiest nations.',
           sv: 'Upptäckten av olja förvandlade Kuwait till en av världens rikaste nationer.',
@@ -250,7 +270,17 @@ export const kuwait: Country = {
       },
       {
         year: '1961',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Kuwait gained independence from British protection.',
           sv: 'Kuwait fick självständighet från brittiskt skydd.',
@@ -277,7 +307,17 @@ export const kuwait: Country = {
           nl: 'Ontzilting van zeewater',
           pt: 'Dessalinização da água do mar',
         },
-        year: '1950s',
+        year: {
+          en: '1950s',
+          sv: '1950-talet',
+          es: 'Década de 1950',
+          fr: 'Années 1950',
+          de: '1950er',
+          it: 'Anni \'50',
+          pl: 'Lata 50.',
+          nl: 'Jaren 50',
+          pt: 'Década de 1950',
+        },
         description: {
           en: 'Kuwait pioneered large-scale seawater desalination in the Gulf region.',
           sv: 'Kuwait var banbrytande för storskalig avsaltning av havsvatten i Gulfregionen.',
@@ -302,7 +342,17 @@ export const kuwait: Country = {
           nl: 'Parelduiktechnieken',
           pt: 'Técnicas de mergulho para pesca de pérolas',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Historical expertise in pearl diving made Kuwait a major trading center.',
           sv: 'Historisk expertis inom päreldykning gjorde Kuwait till ett stort handelscentrum.',
@@ -416,7 +466,7 @@ export const kuwait: Country = {
       {
         name: {
           en: 'Failaka Island',
-          sv: 'Failaka Island',
+          sv: 'Failakaön',
           es: 'Isla Failaka',
           fr: 'Île de Faïlaka',
           de: 'Insel Failaka',
@@ -440,7 +490,17 @@ export const kuwait: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-March for cooler weather; summers are extremely hot.',
           sv: 'November-mars för svalare väder; somrarna är extremt varma.',
@@ -454,7 +514,17 @@ export const kuwait: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Dress conservatively, especially in public places.',
           sv: 'Klä dig konservativt, särskilt på offentliga platser.',
@@ -468,7 +538,17 @@ export const kuwait: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'E-visa available for many nationalities.',
           sv: 'E-visum tillgängligt för många nationaliteter.',
@@ -482,7 +562,17 @@ export const kuwait: Country = {
         },
       },
       {
-        item: 'Cash and cards',
+        item: {
+          en: 'Cash and cards',
+          sv: 'Kontanter och kort',
+          es: 'Efectivo y tarjetas',
+          fr: 'Espèces et cartes',
+          de: 'Bargeld und Karten',
+          it: 'Contanti e carte',
+          pl: 'Gotówka i karty',
+          nl: 'Contant geld en kaarten',
+          pt: 'Dinheiro e cartões',
+        },
         description: {
           en: 'Credit cards widely accepted, ATMs available.',
           sv: 'Kreditkort allmänt accepterade, bankomater tillgängliga.',
@@ -538,7 +628,7 @@ export const kuwait: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -580,7 +670,7 @@ export const kuwait: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -623,7 +713,7 @@ export const kuwait: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -679,7 +769,7 @@ export const kuwait: Country = {
       steps: [
         {
           en: 'Steep saffron in 2 tbsp warm water',
-          sv: 'Brant saffran i 2 msk varmt vatten',
+          sv: 'Låt saffranet dra i 2 msk varmt vatten',
           es: 'Remoje el azafrán en 2 cucharadas de agua tibia',
           fr: 'Faire tremper le safran dans 2 cuillères à soupe d\'eau tiède',
           de: 'Safran in 2 EL warmem Wasser ziehen lassen',
@@ -690,7 +780,7 @@ export const kuwait: Country = {
         },
         {
           en: 'Beat eggs and sugar until fluffy',
-          sv: 'Vispa ägg och socker fluffigt',
+          sv: 'Vispa ägg och socker pösigt',
           es: 'Batir los huevos y el azúcar hasta que queden esponjosos',
           fr: 'Battre les œufs et le sucre jusqu\'à consistance mousseuse',
           de: 'Eier und Zucker schaumig schlagen',
@@ -723,7 +813,7 @@ export const kuwait: Country = {
         },
         {
           en: 'Fold in flour and baking powder',
-          sv: 'Vänd i mjöl och bakpulver',
+          sv: 'Vänd ner mjölet och bakpulvret',
           es: 'Incorporar la harina y la levadura en polvo',
           fr: 'Incorporer la farine et la levure chimique',
           de: 'Mehl und Backpulver unterheben',
@@ -734,7 +824,7 @@ export const kuwait: Country = {
         },
         {
           en: 'Pour into greased square pan',
-          sv: 'Häll i smord fyrkantig form',
+          sv: 'Häll smeten i en smord fyrkantig form',
           es: 'Vierta en un molde cuadrado engrasado',
           fr: 'Verser dans un moule carré graissé',
           de: 'In eine gefettete quadratische Pfanne gießen',
@@ -745,7 +835,7 @@ export const kuwait: Country = {
         },
         {
           en: 'Bake at 350°F for 25-30 minutes',
-          sv: 'Grädda i 350°F i 25-30 minuter',
+          sv: 'Grädda i 180°C i 25–30 minuter',
           es: 'Hornear a 350 °F durante 25-30 minutos',
           fr: 'Cuire au four à 350°F pendant 25-30 minutes',
           de: '25-30 Minuten bei 350 °F backen',
@@ -756,7 +846,7 @@ export const kuwait: Country = {
         },
         {
           en: 'Cool and cut into diamond shapes',
-          sv: 'Kyl och skär i diamantformer',
+          sv: 'Låt kakan svalna och skär den i romber',
           es: 'Dejar enfriar y cortar en forma de diamantes',
           fr: 'Refroidir et couper en losanges',
           de: 'Abkühlen lassen und in Rautenform schneiden',
@@ -852,7 +942,7 @@ export const kuwait: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -877,7 +967,7 @@ export const kuwait: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -890,7 +980,7 @@ export const kuwait: Country = {
         {
           name: {
             en: 'Baharat spice',
-            sv: 'Baharat krydda',
+            sv: 'Baharatkrydda',
             es: 'Especia Baharat',
             fr: 'Épice Baharat',
             de: 'Baharat-Gewürz',
@@ -927,7 +1017,7 @@ export const kuwait: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -941,7 +1031,7 @@ export const kuwait: Country = {
       steps: [
         {
           en: 'Brown meat with onions',
-          sv: 'Bryn kött med lök',
+          sv: 'Bryn köttet med löken',
           es: 'Dorar la carne con cebolla',
           fr: 'Faire dorer la viande aux oignons',
           de: 'Braunes Fleisch mit Zwiebeln',
@@ -974,7 +1064,7 @@ export const kuwait: Country = {
         },
         {
           en: 'Cook rice with meat broth and dried limes',
-          sv: 'Koka ris med köttbuljong och torkade limefrukter',
+          sv: 'Koka riset i köttspadet med de torkade limefrukterna',
           es: 'Cocer arroz con caldo de carne y limas secas',
           fr: 'Cuire le riz avec le bouillon de viande et les citrons verts séchés',
           de: 'Reis mit Fleischbrühe und getrockneten Limetten kochen',

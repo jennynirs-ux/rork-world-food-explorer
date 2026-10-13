@@ -220,7 +220,17 @@ export const grenada: Country = {
     history: [
       {
         year: '1498',
-        title: 'Columbus Sighting',
+        title: {
+          en: 'Columbus Sighting',
+          sv: 'Columbus får syn på ön',
+          es: 'Colón avista la isla',
+          fr: 'Colomb aperçoit l\'île',
+          de: 'Kolumbus sichtet die Insel',
+          it: 'Colombo avvista l\'isola',
+          pl: 'Kolumb dostrzega wyspę',
+          nl: 'Columbus krijgt het eiland in zicht',
+          pt: 'Colombo avista a ilha',
+        },
         description: {
           en: 'Christopher Columbus sighted Grenada during his third voyage but did not land.',
           sv: 'Christopher Columbus såg Grenada under sin tredje resa men landade inte.',
@@ -235,7 +245,17 @@ export const grenada: Country = {
       },
       {
         year: '1974',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Grenada gained independence from the United Kingdom.',
           sv: 'Grenada blev självständigt från Storbritannien.',
@@ -287,7 +307,17 @@ export const grenada: Country = {
           nl: 'Nootmuskaatverwerking',
           pt: 'Processamento de noz-moscada',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Developed efficient methods for processing and grading nutmeg, becoming a global leader in spice quality standards.',
           sv: 'Utvecklade effektiva metoder för bearbetning och klassificering av muskotnöt, och blev en global ledare inom kryddkvalitetsstandarder.',
@@ -312,7 +342,17 @@ export const grenada: Country = {
           nl: 'Chocoladeërfgoed',
           pt: 'Herança do chocolate',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Pioneered tree-to-bar chocolate production in the Caribbean, preserving traditional cacao varieties and processing methods.',
           sv: 'Blev banbrytande för produktion av choklad från träd till bar i Karibien, och bevarade traditionella kakaosorter och bearbetningsmetoder.',
@@ -402,7 +442,17 @@ export const grenada: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time',
+        item: {
+          en: 'Best time',
+          sv: 'Bästa tiden',
+          es: 'Mejor época',
+          fr: 'Meilleure période',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore',
+          pl: 'Najlepszy czas',
+          nl: 'Beste tijd',
+          pt: 'Melhor época',
+        },
         description: {
           en: 'January-May for dry season; avoid hurricane season September-November.',
           sv: 'Januari-maj för torrperioden; undvik orkansäsongen september-november.',
@@ -440,7 +490,17 @@ export const grenada: Country = {
         },
       },
       {
-        item: 'Water activities',
+        item: {
+          en: 'Water activities',
+          sv: 'Vattenaktiviteter',
+          es: 'Actividades acuáticas',
+          fr: 'Activités nautiques',
+          de: 'Wassersport',
+          it: 'Attività acquatiche',
+          pl: 'Sporty wodne',
+          nl: 'Wateractiviteiten',
+          pt: 'Atividades aquáticas',
+        },
         description: {
           en: 'Bring snorkel gear for underwater sculpture park and coral reefs.',
           sv: 'Ta med snorkelutrustning för undervattensskulpturpark och korallrev.',
@@ -458,7 +518,7 @@ export const grenada: Country = {
       id: 'grenada-main',
       name: {
         en: 'Oil Down',
-        sv: 'Olja ner',
+        sv: 'Oil Down',
         es: 'Bajada de petróleo',
         fr: 'Pétrole en baisse',
         de: 'Öl runter',
@@ -508,7 +568,7 @@ export const grenada: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -521,7 +581,7 @@ export const grenada: Country = {
         {
           name: {
             en: 'Salted pigtail',
-            sv: 'Saltad pigtail',
+            sv: 'Saltad grissvans',
             es: 'Coleta salada',
             fr: 'Queue de cochon salée',
             de: 'Gesalzener Zopf',
@@ -566,7 +626,7 @@ export const grenada: Country = {
         {
           name: {
             en: 'Callaloo leaves',
-            sv: 'Callaloo lämnar',
+            sv: 'Callaloo-blad',
             es: 'Callaloo se va',
             fr: 'Feuilles de Callaloo',
             de: 'Callaloo geht',
@@ -630,7 +690,7 @@ export const grenada: Country = {
         },
         {
           en: 'Add callaloo leaves on top',
-          sv: 'Lägg callaloo-blad på toppen',
+          sv: 'Lägg callaloo-bladen överst',
           es: 'Agrega hojas de callaloo encima',
           fr: 'Ajoutez des feuilles de callaloo sur le dessus',
           de: 'Callaloo-Blätter darüber geben',
@@ -641,7 +701,7 @@ export const grenada: Country = {
         },
         {
           en: 'Simmer until liquid is absorbed',
-          sv: 'Sjud tills vätskan absorberats',
+          sv: 'Låt sjuda tills vätskan har sugits upp',
           es: 'Cocine a fuego lento hasta que se absorba el líquido',
           fr: 'Laisser mijoter jusqu\'à ce que le liquide soit absorbé',
           de: 'Köcheln lassen, bis die Flüssigkeit aufgesogen ist',
@@ -652,7 +712,7 @@ export const grenada: Country = {
         },
         {
           en: 'Serve when "oil down" to bottom',
-          sv: 'Servera när "olja ner" till botten',
+          sv: 'Servera när vätskan har kokat in och bara kokosoljan finns kvar i botten (därav namnet Oil Down)',
           es: 'Sirva cuando "el aceite haya bajado" hasta el fondo',
           fr: 'Servir lorsque "l\'huile descend" jusqu\'au fond',
           de: 'Servieren, wenn das Öl bis zum Boden reicht',
@@ -679,7 +739,7 @@ export const grenada: Country = {
       },
       description: {
         en: 'Creamy ice cream infused with fresh Grenadian nutmeg',
-        sv: 'Krämig glass infunderad med färsk Grenadian muskot',
+        sv: 'Krämig glass smaksatt med färsk muskotnöt från Grenada',
         es: 'Helado cremoso con nuez moscada fresca de Granada',
         fr: 'Glace crémeuse infusée à la muscade fraîche de Grenade',
         de: 'Cremiges Eis mit frischer grenadischer Muskatnuss',
@@ -706,7 +766,7 @@ export const grenada: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -721,7 +781,7 @@ export const grenada: Country = {
         {
           name: {
             en: 'Whole milk',
-            sv: 'Helmjölk',
+            sv: 'Standardmjölk',
             es: 'Leche entera',
             fr: 'Lait entier',
             de: 'Vollmilch',
@@ -763,7 +823,7 @@ export const grenada: Country = {
           amount: 5,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -776,7 +836,7 @@ export const grenada: Country = {
         {
           name: {
             en: 'Fresh nutmeg, grated',
-            sv: 'Färsk muskotnöt, riven',
+            sv: 'Muskotnöt, nyriven',
             es: 'Nuez moscada fresca rallada',
             fr: 'Noix de muscade fraîche, râpée',
             de: 'Frische Muskatnuss, gerieben',
@@ -807,7 +867,7 @@ export const grenada: Country = {
       steps: [
         {
           en: 'Heat cream and milk with nutmeg until warm.',
-          sv: 'Värm grädde och mjölk med muskotnöt tills det är varmt.',
+          sv: 'Värm grädde, mjölk och muskotnöt tills blandningen är varm.',
           es: 'Calentar la nata y la leche con nuez moscada hasta que estén tibias.',
           fr: 'Chauffer la crème et le lait avec la muscade jusqu\'à ce qu\'ils soient chauds.',
           de: 'Sahne und Milch mit Muskatnuss erhitzen, bis sie warm sind.',
@@ -818,7 +878,7 @@ export const grenada: Country = {
         },
         {
           en: 'Whisk egg yolks with sugar until pale.',
-          sv: 'Vispa äggulor med socker blek.',
+          sv: 'Vispa äggulorna med sockret tills smeten är ljus.',
           es: 'Batir las yemas con el azúcar hasta que estén pálidas.',
           fr: 'Fouetter les jaunes d\'œufs avec le sucre jusqu\'à ce qu\'ils blanchissent.',
           de: 'Eigelb mit Zucker schaumig schlagen.',
@@ -829,7 +889,7 @@ export const grenada: Country = {
         },
         {
           en: 'Slowly add warm cream to eggs, whisking constantly.',
-          sv: 'Tillsätt långsamt varm grädde till äggen under konstant vispning.',
+          sv: 'Häll den varma gräddblandningen i äggsmeten lite i taget under ständig vispning.',
           es: 'Agregue lentamente la crema tibia a los huevos, batiendo constantemente.',
           fr: 'Ajoutez lentement la crème tiède aux œufs en fouettant constamment.',
           de: 'Unter ständigem Rühren langsam die warme Sahne zu den Eiern geben.',
@@ -840,7 +900,7 @@ export const grenada: Country = {
         },
         {
           en: 'Return to pan and cook until thickened (coats spoon).',
-          sv: 'Återgå till pannan och koka tills det tjocknat (belägger sked).',
+          sv: 'Häll tillbaka i kastrullen och värm under omrörning tills krämen tjocknar (den ska täcka baksidan av en sked).',
           es: 'Regrese a la sartén y cocine hasta que espese (cubre la cuchara).',
           fr: 'Remettre dans la poêle et cuire jusqu\'à épaississement (enduire une cuillère).',
           de: 'Zurück in die Pfanne geben und kochen, bis die Masse eingedickt ist (einen Löffel darüber geben).',
@@ -873,7 +933,7 @@ export const grenada: Country = {
         },
         {
           en: 'Chill completely in refrigerator.',
-          sv: 'Kyl helt i kylen.',
+          sv: 'Låt kallna helt i kylskåpet.',
           es: 'Enfríe completamente en el refrigerador.',
           fr: 'Refroidir complètement au réfrigérateur.',
           de: 'Im Kühlschrank vollständig abkühlen lassen.',
@@ -884,7 +944,7 @@ export const grenada: Country = {
         },
         {
           en: 'Churn in ice cream maker according to instructions.',
-          sv: 'Kärna i glassmaskin enligt instruktionerna.',
+          sv: 'Kör smeten i glassmaskin enligt bruksanvisningen.',
           es: 'Batir en la máquina para hacer helados según las instrucciones.',
           fr: 'Passer à la sorbetière selon les instructions.',
           de: 'Die Eismaschine gemäß den Anweisungen umrühren.',
@@ -906,7 +966,7 @@ export const grenada: Country = {
         },
         {
           en: 'Garnish with fresh grated nutmeg.',
-          sv: 'Garnera med färsk riven muskotnöt.',
+          sv: 'Garnera med nyriven muskotnöt.',
           es: 'Adorne con nuez moscada fresca rallada.',
           fr: 'Garnir de muscade fraîche râpée.',
           de: 'Mit frisch geriebener Muskatnuss garnieren.',
@@ -1120,7 +1180,7 @@ export const grenada: Country = {
           },
           {
             en: 'Sky bridge',
-            sv: 'Sky bridge',
+            sv: 'Himmelsbro',
             es: 'Puente aéreo',
             fr: 'Pont aérien',
             de: 'Himmelsbrücke',
@@ -1180,7 +1240,7 @@ export const grenada: Country = {
         options: [
           {
             en: 'Jerk chicken',
-            sv: 'Jerk chicken',
+            sv: 'Jerkkyckling',
             es: 'Pollo Jerk',
             fr: 'Poulet jerk',
             de: 'Jerk Chicken',
@@ -1191,7 +1251,7 @@ export const grenada: Country = {
           },
           {
             en: 'Oil Down',
-            sv: 'Olja ner',
+            sv: 'Oil Down',
             es: 'Bajada de petróleo',
             fr: 'Pétrole en baisse',
             de: 'Öl runter',

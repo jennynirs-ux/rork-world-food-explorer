@@ -274,7 +274,17 @@ export const sriLanka: Country = {
           nl: 'Oude irrigatiesystemen',
           pt: 'Antigos sistemas de irrigação',
         },
-        year: '300 BC',
+        year: {
+          en: '300 BC',
+          sv: '300 f.Kr.',
+          es: '300 a. C.',
+          fr: '300 av. J.-C.',
+          de: '300 v. Chr.',
+          it: '300 a.C.',
+          pl: '300 p.n.e.',
+          nl: '300 v.Chr.',
+          pt: '300 a.C.',
+        },
         description: {
           en: 'Sophisticated hydraulic engineering with massive reservoirs and canal networks still in use today',
           sv: 'Sofistikerad hydraulisk teknik med massiva reservoarer och kanalnät som fortfarande används idag',
@@ -324,7 +334,17 @@ export const sriLanka: Country = {
           nl: 'Architectuur van het Sigiriya-fort',
           pt: 'Arquitetura da fortaleza de Sigiriya',
         },
-        year: '5th Century',
+        year: {
+          en: '5th Century',
+          sv: '400-talet',
+          es: 'siglo V',
+          fr: 'Ve siècle',
+          de: '5. Jahrhundert',
+          it: 'V secolo',
+          pl: 'V wiek',
+          nl: '5e eeuw',
+          pt: 'século V',
+        },
         description: {
           en: 'Engineering marvel combining rock fortress, water gardens, and frescoes at 200m height',
           sv: 'Tekniskt underverk som kombinerar stenfästning, vattenträdgårdar och fresker på 200 meters höjd',
@@ -349,7 +369,17 @@ export const sriLanka: Country = {
           nl: 'Ayurvedische geneeskunde',
           pt: 'Prática da medicina ayurvédica',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Preserved and developed traditional Ayurvedic healing practices over 3,000 years',
           sv: 'Bevarade och utvecklade traditionella ayurvediska läkningsmetoder under 3 000 år',
@@ -365,8 +395,28 @@ export const sriLanka: Country = {
     ],
     history: [
       {
-        year: '543 BC',
-        title: 'Arrival of Buddhism',
+        year: {
+          en: '543 BC',
+          sv: '543 f.Kr.',
+          es: '543 a. C.',
+          fr: '543 av. J.-C.',
+          de: '543 v. Chr.',
+          it: '543 a.C.',
+          pl: '543 p.n.e.',
+          nl: '543 v.Chr.',
+          pt: '543 a.C.',
+        },
+        title: {
+          en: 'Arrival of Buddhism',
+          sv: 'Buddhismen når landet',
+          es: 'Llegada del budismo',
+          fr: 'Arrivée du bouddhisme',
+          de: 'Einzug des Buddhismus',
+          it: 'Arrivo del buddhismo',
+          pl: 'Przybycie buddyzmu',
+          nl: 'Komst van het boeddhisme',
+          pt: 'Chegada do budismo',
+        },
         description: {
           en: 'Buddhism was introduced to the island and became central to Sri Lanka\'s culture and identity.',
           sv: 'Buddhismen introducerades på ön och blev central för Sri Lankas kultur och identitet.',
@@ -380,8 +430,28 @@ export const sriLanka: Country = {
         },
       },
       {
-        year: '200 BC',
-        title: 'Ancient Kingdoms',
+        year: {
+          en: '200 BC',
+          sv: '200 f.Kr.',
+          es: '200 a. C.',
+          fr: '200 av. J.-C.',
+          de: '200 v. Chr.',
+          it: '200 a.C.',
+          pl: '200 p.n.e.',
+          nl: '200 v.Chr.',
+          pt: '200 a.C.',
+        },
+        title: {
+          en: 'Ancient Kingdoms',
+          sv: 'Forntida kungariken',
+          es: 'Reinos antiguos',
+          fr: 'Anciens royaumes',
+          de: 'Alte Königreiche',
+          it: 'Antichi regni',
+          pl: 'Starożytne królestwa',
+          nl: 'Oude koninkrijken',
+          pt: 'Reinos antigos',
+        },
         description: {
           en: 'Advanced civilizations built cities like Anuradhapura with sophisticated irrigation systems.',
           sv: 'Avancerade civilisationer byggde städer som Anuradhapura med sofistikerade bevattningssystem.',
@@ -396,7 +466,17 @@ export const sriLanka: Country = {
       },
       {
         year: '1505',
-        title: 'European Colonization',
+        title: {
+          en: 'European Colonization',
+          sv: 'Europeisk kolonisation',
+          es: 'Colonización europea',
+          fr: 'Colonisation européenne',
+          de: 'Europäische Kolonisierung',
+          it: 'Colonizzazione europea',
+          pl: 'Kolonizacja europejska',
+          nl: 'Europese kolonisatie',
+          pt: 'Colonização europeia',
+        },
         description: {
           en: 'Portuguese, Dutch, and later British rule shaped Sri Lanka for over 400 years.',
           sv: 'Portugisiskt, holländskt och senare brittiskt styre formade Sri Lanka i över 400 år.',
@@ -411,7 +491,17 @@ export const sriLanka: Country = {
       },
       {
         year: '1948',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Sri Lanka gained independence from British colonial rule.',
           sv: 'Sri Lanka blev självständigt från det brittiska kolonialstyret.',
@@ -426,7 +516,17 @@ export const sriLanka: Country = {
       },
       {
         year: '1972',
-        title: 'Republic of Sri Lanka',
+        title: {
+          en: 'Republic of Sri Lanka',
+          sv: 'Republiken Sri Lanka',
+          es: 'República de Sri Lanka',
+          fr: 'République du Sri Lanka',
+          de: 'Republik Sri Lanka',
+          it: 'Repubblica dello Sri Lanka',
+          pl: 'Republika Sri Lanki',
+          nl: 'Republiek Sri Lanka',
+          pt: 'República do Sri Lanka',
+        },
         description: {
           en: 'The country officially changed its name from Ceylon to Sri Lanka.',
           sv: 'Landet bytte officiellt namn från Ceylon till Sri Lanka.',
@@ -442,7 +542,17 @@ export const sriLanka: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December–March for west and south coast, April–September for east coast',
           sv: 'December–mars för väst- och sydkusten, april–september för ostkusten',
@@ -456,7 +566,17 @@ export const sriLanka: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Electronic Travel Authorization (ETA) required for most visitors',
           sv: 'Electronic Travel Authorization (ETA) krävs för de flesta besökare',
@@ -470,7 +590,17 @@ export const sriLanka: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Scenic trains, tuk-tuks, and buses are common and affordable',
           sv: 'Natursköna tåg, tuk-tuk och bussar är vanliga och prisvärda',
@@ -484,7 +614,17 @@ export const sriLanka: Country = {
         },
       },
       {
-        item: 'Clothing',
+        item: {
+          en: 'Clothing',
+          sv: 'Klädsel',
+          es: 'Ropa',
+          fr: 'Vêtements',
+          de: 'Kleidung',
+          it: 'Abbigliamento',
+          pl: 'Ubiór',
+          nl: 'Kleding',
+          pt: 'Roupas',
+        },
         description: {
           en: 'Light clothing recommended; modest dress required at temples',
           sv: 'Lätta kläder rekommenderas; blygsam klänning krävs vid tinningarna',
@@ -498,7 +638,17 @@ export const sriLanka: Country = {
         },
       },
       {
-        item: 'Wildlife safety',
+        item: {
+          en: 'Wildlife safety',
+          sv: 'Säkerhet kring vilda djur',
+          es: 'Seguridad ante la fauna salvaje',
+          fr: 'Sécurité face à la faune sauvage',
+          de: 'Sicherheit im Umgang mit Wildtieren',
+          it: 'Attenzione agli animali selvatici',
+          pl: 'Bezpieczeństwo wśród dzikich zwierząt',
+          nl: 'Veiligheid bij wilde dieren',
+          pt: 'Cuidados com animais selvagens',
+        },
         description: {
           en: 'Always follow park guidelines when on safari',
           sv: 'Följ alltid parkens riktlinjer när du är på safari',
@@ -588,7 +738,7 @@ export const sriLanka: Country = {
       {
         name: {
           en: 'Galle Fort',
-          sv: 'Galle Fort',
+          sv: 'Fortet i Galle',
           es: 'Fuerte de Galle',
           fr: 'Fort de Galle',
           de: 'Galle Fort',
@@ -638,7 +788,7 @@ export const sriLanka: Country = {
       id: 'sri-lanka-rice-and-curry',
       name: {
         en: 'Sri Lankan Rice and Curry (Vegetarian)',
-        sv: 'Sri Lankas ris och curry (vegetariskt)',
+        sv: 'Srilankesiskt ris och curry (vegetariskt)',
         es: 'Arroz y curry de Sri Lanka (vegetariano)',
         fr: 'Riz et curry sri lankais (végétarien)',
         de: 'Reis und Curry aus Sri Lanka (vegetarisch)',
@@ -649,7 +799,7 @@ export const sriLanka: Country = {
       },
       description: {
         en: 'A traditional Sri Lankan meal consisting of steamed rice served with dhal curry, vegetable curries, and coconut sambol.',
-        sv: 'En traditionell lankesisk måltid som består av ångat ris som serveras med dhal curry, grönsakscurry och kokosnötsambol.',
+        sv: 'En traditionell srilankesisk måltid med ångat ris som serveras med dhalcurry, grönsakscurryer och kokossambol.',
         es: 'Una comida tradicional de Sri Lanka que consiste en arroz al vapor servido con curry dhal, curry de verduras y sambol de coco.',
         fr: 'Un repas traditionnel sri lankais composé de riz cuit à la vapeur servi avec du curry dhal, des currys de légumes et du sambol à la noix de coco.',
         de: 'Eine traditionelle srilankische Mahlzeit, bestehend aus gedämpftem Reis, serviert mit Dhal-Curry, Gemüsecurrys und Kokosnuss-Sambol.',
@@ -763,7 +913,7 @@ export const sriLanka: Country = {
           amount: 3,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -788,7 +938,7 @@ export const sriLanka: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -841,7 +991,7 @@ export const sriLanka: Country = {
         {
           name: {
             en: 'Ceylon curry powder',
-            sv: 'Ceylon currypulver',
+            sv: 'Srilankesiskt currypulver',
             es: 'Curry en polvo de Ceilán',
             fr: 'Poudre de curry de Ceylan',
             de: 'Ceylon-Curry-Pulver',
@@ -908,7 +1058,7 @@ export const sriLanka: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -933,7 +1083,7 @@ export const sriLanka: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -946,7 +1096,7 @@ export const sriLanka: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -987,7 +1137,7 @@ export const sriLanka: Country = {
       steps: [
         {
           en: 'Rinse rice and cook in 1.2 liters of water with a pinch of salt; keep warm',
-          sv: 'Skölj ris och koka i 1,2 liter vatten med en nypa salt; håll dig varm',
+          sv: 'Skölj riset och koka det i 1,2 liter vatten med en nypa salt; håll det varmt',
           es: 'Enjuagar el arroz y cocer en 1,2 litros de agua con una pizca de sal; mantener caliente',
           fr: 'Rincer le riz et cuire dans 1,2 litre d\'eau avec une pincée de sel ; garder au chaud',
           de: 'Reis abspülen und in 1,2 Liter Wasser mit einer Prise Salz kochen; warm halten',
@@ -1020,7 +1170,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Add cooked lentils and coconut milk; simmer 10 minutes',
-          sv: 'Tillsätt kokta linser och kokosmjölk; sjuda 10 minuter',
+          sv: 'Tillsätt de kokta linserna och kokosmjölken; låt sjuda i 10 minuter',
           es: 'Agrega las lentejas cocidas y la leche de coco; cocine a fuego lento 10 minutos',
           fr: 'Ajouter les lentilles cuites et le lait de coco; laisser mijoter 10 minutes',
           de: 'Gekochte Linsen und Kokosmilch hinzufügen; 10 Minuten köcheln lassen',
@@ -1031,7 +1181,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Cook diced potatoes in coconut milk, curry powder, salt, and water for 20 minutes',
-          sv: 'Koka tärnad potatis i kokosmjölk, curry, salt och vatten i 20 minuter',
+          sv: 'Koka potatistärningar i kokosmjölk, currypulver, salt och vatten i 20 minuter',
           es: 'Cocine las patatas cortadas en cubitos en leche de coco, curry en polvo, sal y agua durante 20 minutos',
           fr: 'Cuire les pommes de terre coupées en dés dans le lait de coco, la poudre de curry, le sel et l\'eau pendant 20 minutes',
           de: 'Gewürfelte Kartoffeln in Kokosmilch, Currypulver, Salz und Wasser 20 Minuten kochen',
@@ -1053,7 +1203,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Prepare coconut sambol by mixing grated coconut, chopped chili, salt, and lime juice',
-          sv: 'Förbered kokosnötsambol genom att blanda riven kokos, hackad chili, salt och limejuice',
+          sv: 'Gör kokossambol genom att blanda riven kokos, hackad chili, salt och limejuice',
           es: 'Prepare sambol de coco mezclando coco rallado, chile picado, sal y jugo de lima',
           fr: 'Préparez le sambol à la noix de coco en mélangeant la noix de coco râpée, le piment haché, le sel et le jus de citron vert',
           de: 'Bereiten Sie Kokosnuss-Sambol zu, indem Sie Kokosraspeln, gehacktes Chili, Salz und Limettensaft mischen',
@@ -1064,7 +1214,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Taste and adjust seasoning of all curries',
-          sv: 'Smaka av och justera smaksättning av alla curryrätter',
+          sv: 'Smaka av alla curryrätter och justera kryddningen',
           es: 'Pruebe y ajuste el condimento de todos los curry.',
           fr: 'Goûtez et rectifiez l\'assaisonnement de tous les currys',
           de: 'Alle Currys abschmecken und nachwürzen',
@@ -1075,7 +1225,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Serve rice in the center with curries arranged around it',
-          sv: 'Servera ris i mitten med curryrätter runt om',
+          sv: 'Servera riset i mitten med curryrätterna runt omkring',
           es: 'Sirva el arroz en el centro con curry dispuesto a su alrededor',
           fr: 'Servir le riz au centre avec les currys disposés autour',
           de: 'Den Reis in der Mitte servieren und die Currys darum herum arrangieren',
@@ -1086,7 +1236,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Mix rice with curries while eating, as traditionally done',
-          sv: 'Blanda ris med curryrätter medan du äter, som traditionellt gjorts',
+          sv: 'Blanda riset med curryrätterna medan du äter, som man traditionellt gör',
           es: 'Mezclar arroz con curry mientras se come, como se hace tradicionalmente',
           fr: 'Mélangez du riz avec des currys en mangeant, comme le fait traditionnellement',
           de: 'Reis mit Currys während des Essens mischen, wie es traditionell gemacht wird',
@@ -1102,7 +1252,7 @@ export const sriLanka: Country = {
       id: 'sri-lanka-dessert',
       name: {
         en: 'Watalappan',
-        sv: 'Vadalappan',
+        sv: 'Watalappan',
         es: 'Watalappan',
         fr: 'Watalappan',
         de: 'Watalappan',
@@ -1113,7 +1263,7 @@ export const sriLanka: Country = {
       },
       description: {
         en: 'A rich Sri Lankan coconut custard sweetened with jaggery and scented with cardamom.',
-        sv: 'En rik lankesisk kokoskräm sötad med jaggery och doftad med kardemumma.',
+        sv: 'En mäktig srilankesisk kokospudding sötad med jaggery och smaksatt med kardemumma.',
         es: 'Una rica crema de coco de Sri Lanka endulzada con azúcar moreno y perfumada con cardamomo.',
         fr: 'Une riche crème anglaise à la noix de coco du Sri Lanka sucrée au jaggery et parfumée à la cardamome.',
         de: 'Ein reichhaltiger Kokosnusspudding aus Sri Lanka, gesüßt mit Jaggery und parfümiert mit Kardamom.',
@@ -1182,7 +1332,7 @@ export const sriLanka: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1256,7 +1406,7 @@ export const sriLanka: Country = {
       steps: [
         {
           en: 'Gently warm coconut milk with jaggery until dissolved (do not boil), then cool slightly',
-          sv: 'Värm försiktigt kokosmjölk med jaggery tills den lösts upp (koka inte), kyl sedan något',
+          sv: 'Värm kokosmjölken och jaggeryn försiktigt tills jaggeryn har löst sig (låt inte koka) och låt sedan svalna något',
           es: 'Caliente suavemente la leche de coco con azúcar moreno hasta que se disuelva (no hierva), luego enfríe un poco',
           fr: 'Réchauffer doucement le lait de coco avec le jaggery jusqu\'à dissolution (ne pas faire bouillir), puis laisser refroidir légèrement',
           de: 'Kokosmilch mit Jaggery vorsichtig erwärmen, bis sie sich aufgelöst hat (nicht kochen), dann leicht abkühlen',
@@ -1267,7 +1417,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Whisk eggs in a bowl until just combined (avoid making it foamy)',
-          sv: 'Vispa ägg i en skål tills de precis blandats (undvik att göra det skummande)',
+          sv: 'Vispa äggen i en skål tills de precis har blandats (undvik att det blir skummigt)',
           es: 'Batir los huevos en un tazón hasta que estén combinados (evite que queden espumosos)',
           fr: 'Fouetter les œufs dans un bol jusqu\'à ce qu\'ils soient juste combinés (évitez de les rendre mousseux)',
           de: 'Eier in einer Schüssel verquirlen, bis sie gerade vermischt sind (Schaumbildung vermeiden)',
@@ -1278,7 +1428,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Slowly whisk in the warm coconut-jaggery mixture',
-          sv: 'Vispa långsamt i den varma kokos-jaggeryblandningen',
+          sv: 'Vispa långsamt ner den varma blandningen av kokosmjölk och jaggery',
           es: 'Incorpora lentamente la mezcla tibia de coco y azúcar moreno',
           fr: 'Incorporer lentement le mélange chaud de noix de coco et de jagré',
           de: 'Die warme Kokosnuss-Jaggery-Mischung langsam unterrühren',
@@ -1289,7 +1439,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Stir in cardamom and optional nutmeg/vanilla',
-          sv: 'Rör ner kardemumma och valfri muskot/vanilj',
+          sv: 'Rör ner kardemumma och eventuellt muskot eller vanilj',
           es: 'Agregue el cardamomo y la nuez moscada/vainilla opcional',
           fr: 'Incorporer la cardamome et la muscade/vanille en option',
           de: 'Kardamom und optional Muskatnuss/Vanille hinzufügen',
@@ -1300,7 +1450,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Strain mixture for a smooth custard (optional but recommended)',
-          sv: 'Sila blandningen för en slät vaniljsås (valfritt men rekommenderas)',
+          sv: 'Sila smeten för en slätare pudding (valfritt men rekommenderas)',
           es: 'Cuela la mezcla para obtener una crema suave (opcional pero recomendado)',
           fr: 'Filtrer le mélange pour obtenir une crème anglaise onctueuse (facultatif mais recommandé)',
           de: 'Die Mischung abseihen, um eine glatte Creme zu erhalten (optional, aber empfohlen)',
@@ -1311,7 +1461,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Pour into ramekins or a baking dish; top with cashews if using',
-          sv: 'Häll i ramekins eller en ugnsform; toppa med cashewnötter om du använder',
+          sv: 'Häll upp i portionsformar eller en ugnsform; toppa med cashewnötter om du vill',
           es: 'Vierta en moldes o en una fuente para horno; cubra con anacardos si los usa',
           fr: 'Verser dans des ramequins ou un plat allant au four ; garnir de noix de cajou si vous utilisez',
           de: 'In Auflaufförmchen oder eine Auflaufform füllen; Bei Verwendung von',
@@ -1322,7 +1472,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Steam or bake in a water bath at 160°C for 35–45 minutes until just set',
-          sv: 'Ånga eller grädda i vattenbad vid 160°C i 35–45 minuter tills precis stelnat',
+          sv: 'Ånga eller grädda i vattenbad vid 160°C i 35–45 minuter tills puddingen precis har stelnat',
           es: 'Cocine al vapor o hornee en un baño de agua a 160 °C durante 35 a 45 minutos hasta que cuaje',
           fr: 'Cuire à la vapeur ou au bain-marie à 160 °C pendant 35 à 45 minutes jusqu\'à ce que tout soit pris',
           de: 'mit Cashewkernen belegen Dämpfen oder im Wasserbad bei 160 °C 35–45 Minuten backen, bis es gerade fest ist',
@@ -1333,7 +1483,7 @@ export const sriLanka: Country = {
         },
         {
           en: 'Cool, then chill before serving',
-          sv: 'Kyl och kyl sedan innan servering',
+          sv: 'Låt svalna och ställ sedan i kylen före servering',
           es: 'Deje enfriar y luego enfríe antes de servir',
           fr: 'Laisser refroidir, puis réfrigérer avant de servir',
           de: 'Abkühlen lassen, dann vor dem Servieren kalt stellen',

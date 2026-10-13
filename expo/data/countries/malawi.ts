@@ -231,7 +231,17 @@ export const malawi: Country = {
     history: [
       {
         year: '1859',
-        title: 'European Exploration',
+        title: {
+          en: 'European Exploration',
+          sv: 'Europeiska upptäcktsresor',
+          es: 'Exploraciones europeas',
+          fr: 'Explorations européennes',
+          de: 'Europäische Entdeckungsreisen',
+          it: 'Esplorazioni europee',
+          pl: 'Europejskie wyprawy odkrywcze',
+          nl: 'Europese ontdekkingsreizen',
+          pt: 'Explorações europeias',
+        },
         description: {
           en: 'David Livingstone explored the region, calling Lake Malawi the "Lake of Stars."',
           sv: 'David Livingstone utforskade regionen och kallade Malawisjön för "stjärnornas sjö".',
@@ -246,7 +256,17 @@ export const malawi: Country = {
       },
       {
         year: '1964',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Malawi gained independence from Britain under Dr. Hastings Banda.',
           sv: 'Malawi blev självständigt från Storbritannien under Dr Hastings Banda.',
@@ -273,7 +293,17 @@ export const malawi: Country = {
           nl: 'Malawimeer-cichliden',
           pt: 'Ciclídeos do Lago Malawi',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Unique evolutionary diversification created hundreds of endemic fish species.',
           sv: 'Unik evolutionär diversifiering skapade hundratals endemiska fiskarter.',
@@ -298,7 +328,17 @@ export const malawi: Country = {
           nl: 'Duurzame visserij',
           pt: 'Pesca sustentável',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Traditional fishing methods developed for Lake Malawi\'s unique ecosystem.',
           sv: 'Traditionella fiskemetoder utvecklade för Malawis unika ekosystem.',
@@ -388,7 +428,7 @@ export const malawi: Country = {
       {
         name: {
           en: 'Zomba Plateau',
-          sv: 'Zomba Plateau',
+          sv: 'Zombaplatån',
           es: 'Meseta de Zomba',
           fr: 'Plateau de Zomba',
           de: 'Zomba-Plateau',
@@ -412,7 +452,7 @@ export const malawi: Country = {
       {
         name: {
           en: 'Likoma Island',
-          sv: 'Likoma Island',
+          sv: 'Likomaön',
           es: 'Isla Likoma',
           fr: 'Île de Likoma',
           de: 'Likoma-Insel',
@@ -436,7 +476,17 @@ export const malawi: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-October for dry season; lake is pleasant year-round.',
           sv: 'Maj-oktober för torrperioden; sjön är trevlig året runt.',
@@ -450,7 +500,17 @@ export const malawi: Country = {
         },
       },
       {
-        item: 'Malaria prophylaxis',
+        item: {
+          en: 'Malaria prophylaxis',
+          sv: 'Malariaprofylax',
+          es: 'Profilaxis antimalárica',
+          fr: 'Prophylaxie antipaludique',
+          de: 'Malariaprophylaxe',
+          it: 'Profilassi antimalarica',
+          pl: 'Profilaktyka przeciwmalaryczna',
+          nl: 'Malariaprofylaxe',
+          pt: 'Profilaxia contra a malária',
+        },
         description: {
           en: 'Recommended for most of the country.',
           sv: 'Rekommenderas för större delen av landet.',
@@ -464,7 +524,17 @@ export const malawi: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival available for many nationalities.',
           sv: 'Visum vid ankomst tillgängligt för många nationaliteter.',
@@ -478,7 +548,17 @@ export const malawi: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'ATMs available in cities; bring cash for rural areas.',
           sv: 'Uttagsautomater tillgängliga i städer; ta med kontanter till landsbygden.',
@@ -507,7 +587,7 @@ export const malawi: Country = {
       },
       description: {
         en: 'Sweet banana fritters, a popular Malawian treat',
-        sv: 'Söta bananfritter, en populär malawisk godis',
+        sv: 'Söta friterade bananbollar, en populär malawisk läckerhet',
         es: 'Buñuelos dulces de plátano, una delicia popular de Malawi',
         fr: 'Beignets sucrés à la banane, un régal populaire au Malawi',
         de: 'Süße Bananenkrapfen, ein beliebter malawischer Leckerbissen',
@@ -546,7 +626,7 @@ export const malawi: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -559,7 +639,7 @@ export const malawi: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -619,7 +699,7 @@ export const malawi: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -635,7 +715,7 @@ export const malawi: Country = {
       steps: [
         {
           en: 'Mash bananas in a bowl',
-          sv: 'Mosa bananer i en skål',
+          sv: 'Mosa bananerna i en skål',
           es: 'Triture los plátanos en un bol',
           fr: 'Écraser les bananes dans un bol',
           de: 'Bananen in einer Schüssel zerdrücken',
@@ -657,7 +737,7 @@ export const malawi: Country = {
         },
         {
           en: 'Mix into thick batter',
-          sv: 'Blanda till tjock smet',
+          sv: 'Blanda till en tjock smet',
           es: 'Mezclar hasta obtener una masa espesa',
           fr: 'Mélanger à une pâte épaisse',
           de: 'Unter den dicken Teig mischen',
@@ -668,7 +748,7 @@ export const malawi: Country = {
         },
         {
           en: 'Heat oil to 350°F',
-          sv: 'Värm olja till 350°F',
+          sv: 'Hetta upp oljan till 175°C',
           es: 'Caliente el aceite a 350°F',
           fr: 'Chauffer l\'huile à 350°F',
           de: 'Öl auf 350 °F erhitzen',
@@ -679,7 +759,7 @@ export const malawi: Country = {
         },
         {
           en: 'Drop spoonfuls of batter into oil',
-          sv: 'Droppa skedar smet i olja',
+          sv: 'Klicka ner smeten i oljan med en sked',
           es: 'Eche cucharadas de masa en aceite',
           fr: 'Déposez des cuillerées de pâte dans l\'huile',
           de: 'Geben Sie einen Löffel Teig in das Öl',
@@ -690,7 +770,7 @@ export const malawi: Country = {
         },
         {
           en: 'Fry until golden brown',
-          sv: 'Stek tills gyllenbrun',
+          sv: 'Fritera tills de är gyllenbruna',
           es: 'Freír hasta que estén doradas',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés',
           de: 'Goldbraun braten',
@@ -701,7 +781,7 @@ export const malawi: Country = {
         },
         {
           en: 'Drain and serve warm',
-          sv: 'Låt rinna av och servera varmt',
+          sv: 'Låt rinna av och servera varma',
           es: 'Escurrir y servir caliente',
           fr: 'Égoutter et servir chaud',
           de: 'Abgießen und warm servieren',
@@ -717,7 +797,7 @@ export const malawi: Country = {
       id: 'malawi-main',
       name: {
         en: 'Chambo with Nsima',
-        sv: 'Chambo med Nsima',
+        sv: 'Chambo med nsima',
         es: 'Chambo con Nsima',
         fr: 'Chambo avec Nsima',
         de: 'Chambo mit Nsima',
@@ -767,7 +847,7 @@ export const malawi: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -780,7 +860,7 @@ export const malawi: Country = {
         {
           name: {
             en: 'White maize meal',
-            sv: 'Vit majsmjöl',
+            sv: 'Vitt majsmjöl',
             es: 'Harina de maíz blanco',
             fr: 'Farine de maïs blanc',
             de: 'Weißes Maismehl',
@@ -807,7 +887,7 @@ export const malawi: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -832,7 +912,7 @@ export const malawi: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -845,7 +925,7 @@ export const malawi: Country = {
         {
           name: {
             en: 'Mustard greens',
-            sv: 'Senapsgrönt',
+            sv: 'Bladsenap',
             es: 'Hojas de mostaza',
             fr: 'Feuilles de moutarde',
             de: 'Senfgrün',
@@ -872,7 +952,7 @@ export const malawi: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -926,7 +1006,7 @@ export const malawi: Country = {
       steps: [
         {
           en: 'Clean and scale fish, season with salt and lemon',
-          sv: 'Rensa och fjäll fisk, krydda med salt och citron',
+          sv: 'Rensa och fjälla fisken och krydda den med salt och citron',
           es: 'Limpiar y escamar el pescado, sazonar con sal y limón',
           fr: 'Nettoyer et écailler le poisson, assaisonner de sel et de citron',
           de: 'Fisch putzen, entschuppen, mit Salz und Zitrone würzen',
@@ -948,7 +1028,7 @@ export const malawi: Country = {
         },
         {
           en: 'Boil water for nsima',
-          sv: 'Koka vatten för nsima',
+          sv: 'Koka upp vatten till nsima',
           es: 'Hervir agua por nsima',
           fr: 'Faire bouillir de l\'eau pour nsima',
           de: 'Wasser für Nsima kochen',
@@ -970,7 +1050,7 @@ export const malawi: Country = {
         },
         {
           en: 'Cook until very thick and smooth',
-          sv: 'Koka tills mycket tjock och slät',
+          sv: 'Koka tills gröten är mycket tjock och slät',
           es: 'Cocine hasta que esté muy espeso y suave',
           fr: 'Cuire jusqu\'à ce que ce soit très épais et lisse',
           de: 'Kochen, bis es sehr dick und glatt ist',
@@ -981,7 +1061,7 @@ export const malawi: Country = {
         },
         {
           en: 'Sauté tomatoes, onions, and greens for relish',
-          sv: 'Fräs tomater, lök och grönt för njutning',
+          sv: 'Fräs tomater, lök och bladsenap som tillbehör',
           es: 'Saltee tomates, cebollas y verduras para saborear',
           fr: 'Faire sauter les tomates, les oignons et les légumes verts pour la relish',
           de: 'Zum Würzen Tomaten, Zwiebeln und Gemüse anbraten',
@@ -1003,7 +1083,7 @@ export const malawi: Country = {
         },
         {
           en: 'Eat with hands, using nsima to pick up fish',
-          sv: 'Ät med händerna, använd nsima för att plocka upp fisk',
+          sv: 'Ät med händerna och använd nsima för att plocka upp fisken',
           es: 'Come con las manos, usando nsima para recoger pescado',
           fr: 'Mangez avec les mains, en utilisant nsima pour ramasser le poisson',
           de: 'Essen Sie mit den Händen und verwenden Sie Nsima, um Fische aufzunehmen',
@@ -1097,7 +1177,7 @@ export const malawi: Country = {
           },
           {
             en: 'Rainbow Nation',
-            sv: 'Rainbow Nation',
+            sv: 'Regnbågsnationen',
             es: 'Nación arcoiris',
             fr: 'Nation arc-en-ciel',
             de: 'Regenbogennation',

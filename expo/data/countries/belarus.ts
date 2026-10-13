@@ -219,8 +219,28 @@ export const belarus: Country = {
     },
     history: [
       {
-        year: '9th-13th Century',
-        title: 'Kievan Rus and Principalities',
+        year: {
+          en: '9th-13th Century',
+          sv: '800–1200-talet',
+          es: 'siglos IX–XIII',
+          fr: 'IXe–XIIIe siècles',
+          de: '9.–13. Jahrhundert',
+          it: 'secoli IX–XIII',
+          pl: 'IX–XIII wiek',
+          nl: '9e–13e eeuw',
+          pt: 'séculos IX–XIII',
+        },
+        title: {
+          en: 'Kievan Rus and Principalities',
+          sv: 'Kievriket och furstendömena',
+          es: 'Rus de Kiev y principados',
+          fr: 'Rus\' de Kiev et principautés',
+          de: 'Kiewer Rus und Fürstentümer',
+          it: 'Rus\' di Kiev e principati',
+          pl: 'Ruś Kijowska i księstwa',
+          nl: 'Kievse Rijk en vorstendommen',
+          pt: 'Rus de Kiev e principados',
+        },
         description: {
           en: 'The territory was part of Kievan Rus and later divided into principalities like Polotsk and Turov.',
           sv: 'Territoriet var en del av Kievan Rus och senare uppdelat i furstendömen som Polotsk och Turov.',
@@ -234,8 +254,28 @@ export const belarus: Country = {
         },
       },
       {
-        year: '14th-18th Century',
-        title: 'Grand Duchy of Lithuania',
+        year: {
+          en: '14th-18th Century',
+          sv: '1300–1700-talen',
+          es: 'Siglos XIV–XVIII',
+          fr: 'XIVe–XVIIIe siècles',
+          de: '14.–18. Jahrhundert',
+          it: 'XIV–XVIII secolo',
+          pl: 'XIV–XVIII wiek',
+          nl: '14e–18e eeuw',
+          pt: 'Séculos XIV–XVIII',
+        },
+        title: {
+          en: 'Grand Duchy of Lithuania',
+          sv: 'Storfurstendömet Litauen',
+          es: 'Gran Ducado de Lituania',
+          fr: 'Grand-duché de Lituanie',
+          de: 'Großfürstentum Litauen',
+          it: 'Granducato di Lituania',
+          pl: 'Wielkie Księstwo Litewskie',
+          nl: 'Grootvorstendom Litouwen',
+          pt: 'Grão-Ducado da Lituânia',
+        },
         description: {
           en: 'Belarus became part of the Grand Duchy of Lithuania, where the Old Belarusian language flourished as an official language.',
           sv: 'Vitryssland blev en del av storfurstendömet Litauen, där det gamla vitryska språket blomstrade som officiellt språk.',
@@ -250,7 +290,17 @@ export const belarus: Country = {
       },
       {
         year: '1795',
-        title: 'Russian Empire',
+        title: {
+          en: 'Russian Empire',
+          sv: 'Ryska imperiet',
+          es: 'Imperio ruso',
+          fr: 'Empire russe',
+          de: 'Russisches Kaiserreich',
+          it: 'Impero russo',
+          pl: 'Imperium Rosyjskie',
+          nl: 'Russische Rijk',
+          pt: 'Império Russo',
+        },
         description: {
           en: 'After partitions of Poland, Belarus was absorbed into the Russian Empire.',
           sv: 'Efter uppdelningen av Polen absorberades Vitryssland i det ryska imperiet.',
@@ -265,7 +315,17 @@ export const belarus: Country = {
       },
       {
         year: '1918-1919',
-        title: 'Brief Independence',
+        title: {
+          en: 'Brief Independence',
+          sv: 'Kortvarig självständighet',
+          es: 'Breve independencia',
+          fr: 'Brève indépendance',
+          de: 'Kurze Unabhängigkeit',
+          it: 'Breve indipendenza',
+          pl: 'Krótka niepodległość',
+          nl: 'Korte onafhankelijkheid',
+          pt: 'Breve independência',
+        },
         description: {
           en: 'The Belarusian People\'s Republic was declared but quickly fell to Soviet forces.',
           sv: 'Den vitryska folkrepubliken utropades men föll snabbt till sovjetiska styrkor.',
@@ -280,7 +340,17 @@ export const belarus: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Belarus gained independence following the dissolution of the Soviet Union.',
           sv: 'Vitryssland blev självständigt efter Sovjetunionens upplösning.',
@@ -357,7 +427,17 @@ export const belarus: Country = {
           nl: '\'s Werelds eerste microprocessor',
           pt: 'O primeiro microprocessador do mundo',
         },
-        year: '1970s',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
         description: {
           en: 'Soviet-era computing centers in Minsk contributed to early microprocessor development and computer manufacturing.',
           sv: 'Sovjettidens datorcenter i Minsk bidrog till tidig utveckling av mikroprocessorer och datortillverkning.',
@@ -382,7 +462,17 @@ export const belarus: Country = {
           nl: 'Belarussische tractoren',
           pt: 'Tratores bielorrussos',
         },
-        year: '1950s',
+        year: {
+          en: '1950s',
+          sv: '1950-talet',
+          es: 'Década de 1950',
+          fr: 'Années 1950',
+          de: '1950er',
+          it: 'Anni \'50',
+          pl: 'Lata 50.',
+          nl: 'Jaren 50',
+          pt: 'Década de 1950',
+        },
         description: {
           en: 'MTZ (Minsk Tractor Works) became one of the world\'s largest tractor manufacturers, exporting globally.',
           sv: 'MTZ (Minsk Tractor Works) blev en av världens största traktortillverkare och exporterade globalt.',
@@ -400,7 +490,7 @@ export const belarus: Country = {
       {
         name: {
           en: 'Białowieża Forest',
-          sv: 'Białowieża Forest',
+          sv: 'Białowieżaskogen',
           es: 'Bosque de Białowieża',
           fr: 'Forêt de Białowieza',
           de: 'Białowieża-Wald',
@@ -472,7 +562,7 @@ export const belarus: Country = {
       {
         name: {
           en: 'Nesvizh Palace',
-          sv: 'Nesvizh Palace',
+          sv: 'Slottet i Nesvizj',
           es: 'Palacio Nesvizh',
           fr: 'Palais Nesvij',
           de: 'Neswisch-Palast',
@@ -520,7 +610,17 @@ export const belarus: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free entry for up to 30 days via Minsk airport for many nationalities.',
           sv: 'Visumfritt inträde i upp till 30 dagar via Minsks flygplats för många nationaliteter.',
@@ -534,7 +634,17 @@ export const belarus: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to September for pleasant weather; December for winter charm.',
           sv: 'Maj till september för behagligt väder; December för vintercharm.',
@@ -548,7 +658,17 @@ export const belarus: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Russian and Belarusian. English limited outside Minsk.',
           sv: 'ryska och vitryska. Engelska begränsad utanför Minsk.',
@@ -586,7 +706,17 @@ export const belarus: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Efficient metro and buses in Minsk. Trains and buses connect major cities.',
           sv: 'Effektiv tunnelbana och bussar i Minsk. Tåg och bussar förbinder större städer.',
@@ -600,7 +730,17 @@ export const belarus: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe for tourists. Be aware of local laws and political sensitivities.',
           sv: 'Generellt säker för turister. Var medveten om lokala lagar och politiska känsligheter.',
@@ -629,7 +769,7 @@ export const belarus: Country = {
       },
       description: {
         en: 'Belarusian potato pancakes: crisp edges, tender center, traditionally served with sour cream.',
-        sv: 'Vitryska potatispannkakor: skarpa kanter, mört mitt, traditionellt serveras med gräddfil.',
+        sv: 'Vitryska rårakor med frasiga kanter och mjuk mitt, serveras traditionellt med gräddfil.',
         es: 'Tortitas de patata bielorrusas: bordes crujientes, centro tierno, tradicionalmente servidas con crema agria.',
         fr: 'Crêpes de pommes de terre biélorusses : bords croustillants, centre tendre, traditionnellement servies avec de la crème sure.',
         de: 'Weißrussische Kartoffelpuffer: knackige Ränder, zarte Mitte, traditionell serviert mit Sauerrahm.',
@@ -656,7 +796,7 @@ export const belarus: Country = {
         {
           name: {
             en: 'Potatoes (starchy, e.g., Russet)',
-            sv: 'Potatis (stärkelsehaltig, t.ex. Russet)',
+            sv: 'Potatis (mjölig, t.ex. King Edward)',
             es: 'Patatas (con almidón, por ejemplo, Russet)',
             fr: 'Pommes de terre (féculentes, par exemple Russet)',
             de: 'Kartoffeln (stärkehaltig, z. B. Russet)',
@@ -683,7 +823,7 @@ export const belarus: Country = {
           amount: 1,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -708,7 +848,7 @@ export const belarus: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -721,7 +861,7 @@ export const belarus: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -766,7 +906,7 @@ export const belarus: Country = {
         {
           name: {
             en: 'Vegetable oil (for frying)',
-            sv: 'Vegetabilisk olja (för stekning)',
+            sv: 'Neutral olja (till stekning)',
             es: 'Aceite vegetal (para freír)',
             fr: 'Huile végétale (pour la friture)',
             de: 'Pflanzenöl (zum Braten)',
@@ -781,7 +921,7 @@ export const belarus: Country = {
         {
           name: {
             en: 'Sour cream (to serve)',
-            sv: 'Gräddfil (att servera)',
+            sv: 'Gräddfil (till servering)',
             es: 'Crema agria (para servir)',
             fr: 'Crème sure (pour servir)',
             de: 'Sauerrahm (zum Servieren)',
@@ -808,7 +948,7 @@ export const belarus: Country = {
         },
         {
           en: 'Remove liquid: Transfer grated potato/onion to a clean kitchen towel and squeeze hard over a bowl. Keep squeezing until the mixture is fairly dry.',
-          sv: 'Ta bort vätska: Lägg över riven potatis/lök till en ren kökshandduk och pressa hårt över en skål. Fortsätt pressa tills blandningen är ganska torr.',
+          sv: 'Pressa ur vätskan: Lägg den rivna potatisen och löken i en ren kökshandduk och pressa hårt över en skål. Fortsätt pressa tills blandningen är ganska torr.',
           es: 'Retire el líquido: transfiera la papa/cebolla rallada a un paño de cocina limpio y exprima con fuerza sobre un tazón. Sigue apretando hasta que la mezcla esté bastante seca.',
           fr: 'Retirer le liquide : transférer la pomme de terre/l\'oignon râpés sur un torchon propre et presser fort au-dessus d\'un bol. Continuez à presser jusqu\'à ce que le mélange soit assez sec.',
           de: 'Flüssigkeit entfernen: Geriebene Kartoffeln/Zwiebeln auf ein sauberes Küchentuch geben und über einer Schüssel kräftig ausdrücken. Drücken Sie weiter, bis die Mischung ziemlich trocken ist.',
@@ -819,7 +959,7 @@ export const belarus: Country = {
         },
         {
           en: 'Optional (better texture): Let the squeezed potato liquid sit 2 minutes so starch settles at the bottom. Pour off the water and add the starch back into the potato mixture.',
-          sv: 'Valfritt (bättre konsistens): Låt den pressade potatisvätskan sitta i 2 minuter så stärkelsen lägger sig i botten. Häll av vattnet och tillsätt tillbaka stärkelsen i potatisblandningen.',
+          sv: 'Valfritt (ger bättre konsistens): Låt den urpressade vätskan stå i 2 minuter så att stärkelsen sjunker till botten. Häll av vattnet och blanda tillbaka stärkelsen i potatisblandningen.',
           es: 'Opcional (mejor textura): Deje reposar el líquido de papa exprimido durante 2 minutos para que el almidón se asiente en el fondo. Vierta el agua y agregue el almidón nuevamente a la mezcla de papa.',
           fr: 'Facultatif (meilleure texture) : laissez reposer le liquide de pomme de terre pressé pendant 2 minutes pour que l\'amidon se dépose au fond. Videz l\'eau et ajoutez la fécule au mélange de pommes de terre.',
           de: 'Optional (bessere Konsistenz): Lassen Sie die ausgepresste Kartoffelflüssigkeit 2 Minuten ruhen, damit sich die Stärke am Boden absetzt. Gießen Sie das Wasser ab und geben Sie die Stärke wieder in die Kartoffelmischung.',
@@ -830,7 +970,7 @@ export const belarus: Country = {
         },
         {
           en: 'Mix batter: In a bowl, combine potato/onion mixture with eggs, flour, salt, and pepper. Stir until evenly mixed (it should be thick, spoonable).',
-          sv: 'Blanda smeten: I en skål, kombinera potatis/lökblandning med ägg, mjöl, salt och peppar. Rör om tills den är jämn blandad (den ska vara tjock, skedbar).',
+          sv: 'Gör smeten: Rör ihop potatis- och lökblandningen med ägg, vetemjöl, salt och peppar i en skål. Rör tills allt är jämnt blandat (smeten ska vara tjock men gå att ta med sked).',
           es: 'Mezclar la masa: En un tazón, combine la mezcla de papa y cebolla con los huevos, la harina, la sal y la pimienta. Revuelva hasta que se mezcle uniformemente (debe quedar espeso y que se pueda tomar con una cuchara).',
           fr: 'Mélanger la pâte : Dans un bol, mélanger le mélange pomme de terre/oignon avec les œufs, la farine, le sel et le poivre. Remuer jusqu\'à ce que le mélange soit homogène (il doit être épais et cuillère).',
           de: 'Teig mischen: In einer Schüssel die Kartoffel-Zwiebel-Mischung mit Eiern, Mehl, Salz und Pfeffer vermischen. Rühren, bis alles gleichmäßig vermischt ist (es sollte dick und löffelbar sein).',
@@ -841,7 +981,7 @@ export const belarus: Country = {
         },
         {
           en: 'Heat pan: Heat 2–3 tbsp oil in a large frying pan over medium-high heat. Oil should shimmer but not smoke.',
-          sv: 'Värm panna: Hetta upp 2–3 msk olja i en stor stekpanna på medelhög värme. Olja ska skimra men inte ryka.',
+          sv: 'Hetta upp pannan: Hetta upp 2–3 msk olja i en stor stekpanna på medelhög värme. Oljan ska skimra men inte ryka.',
           es: 'Calentar sartén: Caliente 2 a 3 cucharadas de aceite en una sartén grande a fuego medio-alto. El aceite debe brillar pero no humear.',
           fr: 'Chauffer une poêle : faites chauffer 2 à 3 cuillères à soupe d\'huile dans une grande poêle à feu moyen-vif. L\'huile doit scintiller mais ne pas fumer.',
           de: 'Pfanne erhitzen: 2–3 EL Öl in einer großen Bratpfanne bei mittlerer bis hoher Hitze erhitzen. Das Öl sollte schimmern, aber nicht rauchen.',
@@ -852,7 +992,7 @@ export const belarus: Country = {
         },
         {
           en: 'Fry: Drop heaped tablespoons (about 2 tbsp each) into the pan and flatten to ~8–10 mm thick.',
-          sv: 'Stek: Släpp rågade matskedar (cirka 2 msk vardera) i pannan och platta till ~8–10 mm tjock.',
+          sv: 'Stek: Klicka ut rågade matskedar smet (cirka 2 msk per råraka) i pannan och platta till dem till 8–10 mm tjocklek.',
           es: 'Freír: Coloque cucharadas colmadas (aproximadamente 2 cucharadas cada una) en la sartén y aplánelas hasta obtener un espesor de entre 8 y 10 mm.',
           fr: 'Frire : déposez des cuillères à soupe bombées (environ 2 cuillères à soupe chacune) dans la poêle et aplatissez-les à environ 8 à 10 mm d\'épaisseur.',
           de: 'Frittieren: Gehäufte Esslöffel (je etwa 2 EL) in die Pfanne geben und auf eine Dicke von ca. 8–10 mm flach drücken.',
@@ -863,7 +1003,7 @@ export const belarus: Country = {
         },
         {
           en: 'Cook: Fry 3–4 minutes per side until deep golden and crisp. Adjust heat so they brown steadily without burning.',
-          sv: 'Tillagning: Stek 3–4 minuter per sida tills de är djupt gyllene och knapriga. Justera värmen så att de brunnar stadigt utan att brännas.',
+          sv: 'Stek klart: Stek 3–4 minuter per sida tills rårakorna är djupt gyllenbruna och krispiga. Reglera värmen så att de får jämn färg utan att brännas.',
           es: 'Cocinar: Freír de 3 a 4 minutos por lado hasta que estén bien dorados y crujientes. Ajusta el fuego para que se doren constantemente sin quemarse.',
           fr: 'Cuisson : Faire frire 3 à 4 minutes de chaque côté jusqu\'à ce qu\'elles soient bien dorées et croustillantes. Ajustez la chaleur pour qu\'ils dorent régulièrement sans brûler.',
           de: 'Kochen: 3–4 Minuten pro Seite braten, bis es tiefgolden und knusprig ist. Passen Sie die Hitze so an, dass sie gleichmäßig bräunen, ohne zu verbrennen.',
@@ -874,7 +1014,7 @@ export const belarus: Country = {
         },
         {
           en: 'Drain & repeat: Transfer to paper towels or a rack. Add a little more oil between batches as needed.',
-          sv: 'Töm och upprepa: Överför till hushållspapper eller ett galler. Tillsätt lite mer olja mellan omgångarna efter behov.',
+          sv: 'Låt rinna av och upprepa: Lägg över rårakorna på hushållspapper eller ett galler. Tillsätt lite mer olja mellan omgångarna vid behov.',
           es: 'Escurrir y repetir: transferir a toallas de papel o una rejilla. Agregue un poco más de aceite entre lotes según sea necesario.',
           fr: 'Égoutter et répéter : transférer sur du papier absorbant ou sur une grille. Ajoutez un peu plus d\'huile entre les lots si nécessaire.',
           de: 'Abtropfen lassen und wiederholen: Auf Papiertücher oder ein Gestell geben. Bei Bedarf zwischen den Portionen noch etwas Öl hinzufügen.',
@@ -885,7 +1025,7 @@ export const belarus: Country = {
         },
         {
           en: 'Serve: Serve immediately with sour cream (and optional chopped dill or chives if you like).',
-          sv: 'Servera: Servera genast med gräddfil (och valfri hackad dill eller gräslök om du vill).',
+          sv: 'Servera: Servera genast med gräddfil (och gärna hackad dill eller gräslök).',
           es: 'Servir: Sirva inmediatamente con crema agria (y opcionalmente eneldo picado o cebollino si lo desea).',
           fr: 'Servir : Servir immédiatement avec de la crème sure (et éventuellement de l\'aneth ou de la ciboulette hachée si vous le souhaitez).',
           de: 'Servieren: Sofort mit Sauerrahm servieren (und optional gehacktem Dill oder Schnittlauch, wenn Sie möchten).',
@@ -912,7 +1052,7 @@ export const belarus: Country = {
       },
       description: {
         en: 'Belarusian cottage cheese pancakes, lightly fried and served with sour cream and jam',
-        sv: 'Vitryska kesopannkakor, lätt stekta och serverade med gräddfil och sylt',
+        sv: 'Vitryska kesoplättar, lätt stekta och serverade med gräddfil och sylt',
         es: 'Tortitas de requesón bielorruso, ligeramente fritas y servidas con crema agria y mermelada',
         fr: 'Crêpes au fromage cottage biélorusse, légèrement frites et servies avec de la crème sure et de la confiture',
         de: 'Weißrussische Hüttenkäsepfannkuchen, leicht gebraten und serviert mit Sauerrahm und Marmelade',
@@ -966,7 +1106,7 @@ export const belarus: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -979,7 +1119,7 @@ export const belarus: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1054,7 +1194,7 @@ export const belarus: Country = {
         {
           name: {
             en: 'Sour cream to serve',
-            sv: 'Gräddfil att servera',
+            sv: 'Gräddfil till servering',
             es: 'Crema agria para servir',
             fr: 'Crème sure pour servir',
             de: 'Sauerrahm zum Servieren',
@@ -1069,7 +1209,7 @@ export const belarus: Country = {
         {
           name: {
             en: 'Berry jam to serve',
-            sv: 'Bärsylt att servera',
+            sv: 'Bärsylt till servering',
             es: 'Mermelada de frutos rojos para servir',
             fr: 'Confiture de baies à servir',
             de: 'Beerenmarmelade zum Servieren',
@@ -1085,7 +1225,7 @@ export const belarus: Country = {
       steps: [
         {
           en: 'Press cottage cheese through a sieve for smooth texture.',
-          sv: 'Pressa keso genom en sil för slät konsistens.',
+          sv: 'Pressa keson genom en sil så att den blir slät.',
           es: 'Presione el requesón a través de un colador para obtener una textura suave.',
           fr: 'Presser le fromage cottage au tamis pour obtenir une texture lisse.',
           de: 'Für eine gleichmäßige Konsistenz den Hüttenkäse durch ein Sieb drücken.',
@@ -1107,7 +1247,7 @@ export const belarus: Country = {
         },
         {
           en: 'Gradually add flour, mixing until smooth dough forms.',
-          sv: 'Tillsätt gradvis mjöl, blanda tills en slät deg bildas.',
+          sv: 'Tillsätt vetemjölet lite i taget och blanda till en slät deg.',
           es: 'Agregue gradualmente la harina, mezclando hasta que se forme una masa suave.',
           fr: 'Ajouter progressivement la farine en mélangeant jusqu\'à l\'obtention d\'une pâte lisse.',
           de: 'Nach und nach Mehl hinzufügen und verrühren, bis ein glatter Teig entsteht.',
@@ -1118,7 +1258,7 @@ export const belarus: Country = {
         },
         {
           en: 'Shape dough into small patties about 2cm thick.',
-          sv: 'Forma degen till små biffar ca 2 cm tjocka.',
+          sv: 'Forma degen till små, cirka 2 cm tjocka biffar.',
           es: 'Forme hamburguesas pequeñas con la masa de unos 2 cm de grosor.',
           fr: 'Façonner la pâte en petites galettes d\'environ 2 cm d\'épaisseur.',
           de: 'Aus dem Teig kleine, etwa 2 cm dicke Fladen formen.',
@@ -1129,7 +1269,7 @@ export const belarus: Country = {
         },
         {
           en: 'Lightly dust each patty with flour.',
-          sv: 'Pudra lätt varje biff med mjöl.',
+          sv: 'Pudra varje biff lätt med vetemjöl.',
           es: 'Espolvorea ligeramente cada hamburguesa con harina.',
           fr: 'Saupoudrez légèrement chaque galette de farine.',
           de: 'Bestäuben Sie jedes Patty leicht mit Mehl.',
@@ -1151,7 +1291,7 @@ export const belarus: Country = {
         },
         {
           en: 'Fry syrniki for 3-4 minutes per side until golden brown.',
-          sv: 'Stek syrniki i 3-4 minuter per sida tills den är gyllenbrun.',
+          sv: 'Stek syrniki i 3–4 minuter per sida tills de är gyllenbruna.',
           es: 'Freír el syrniki durante 3-4 minutos por lado hasta que estén dorados.',
           fr: 'Faire frire les syrniki pendant 3 à 4 minutes de chaque côté jusqu\'à ce qu\'ils soient dorés.',
           de: 'Syrniki auf jeder Seite 3–4 Minuten goldbraun braten.',
@@ -1162,7 +1302,7 @@ export const belarus: Country = {
         },
         {
           en: 'They should puff up slightly and be cooked through.',
-          sv: 'De ska blåsa upp något och vara genomstekta.',
+          sv: 'De ska pösa upp lite och vara genomstekta.',
           es: 'Deben hincharse un poco y estar bien cocidos.',
           fr: 'Ils doivent gonfler légèrement et être bien cuits.',
           de: 'Sie sollten leicht aufgehen und durchgegart sein.',
@@ -1173,7 +1313,7 @@ export const belarus: Country = {
         },
         {
           en: 'Serve hot with sour cream and berry jam.',
-          sv: 'Servera varm med gräddfil och bärsylt.',
+          sv: 'Servera varma med gräddfil och bärsylt.',
           es: 'Sirva caliente con crema agria y mermelada de frutos rojos.',
           fr: 'Servir chaud avec de la crème sure et de la confiture de baies.',
           de: 'Heiß mit Sauerrahm und Beerenmarmelade servieren.',
@@ -1184,7 +1324,7 @@ export const belarus: Country = {
         },
         {
           en: 'Optional: dust with powdered sugar.',
-          sv: 'Valfritt: pudra med strösocker.',
+          sv: 'Valfritt: pudra över lite florsocker.',
           es: 'Opcional: espolvorear con azúcar glass.',
           fr: 'Facultatif : saupoudrer de sucre en poudre.',
           de: 'Optional: Mit Puderzucker bestäuben.',
@@ -1569,7 +1709,7 @@ export const belarus: Country = {
           },
           {
             en: 'Białowieża Forest',
-            sv: 'Białowieża Forest',
+            sv: 'Białowieżaskogen',
             es: 'Bosque de Białowieża',
             fr: 'Forêt de Białowieza',
             de: 'Białowieża-Wald',
@@ -1580,7 +1720,7 @@ export const belarus: Country = {
           },
           {
             en: 'Sherwood Forest',
-            sv: 'Sherwood Forest',
+            sv: 'Sherwoodskogen',
             es: 'Bosque de Sherwood',
             fr: 'Forêt de Sherwood',
             de: 'Sherwood Forest',

@@ -219,8 +219,28 @@ export const israel: Country = {
     },
     history: [
       {
-        year: '1200 BC',
-        title: 'Olive Cultivation',
+        year: {
+          en: '1200 BC',
+          sv: '1200 f.Kr.',
+          es: '1200 a. C.',
+          fr: '1200 av. J.-C.',
+          de: '1200 v. Chr.',
+          it: '1200 a.C.',
+          pl: '1200 p.n.e.',
+          nl: '1200 v.Chr.',
+          pt: '1200 a.C.',
+        },
+        title: {
+          en: 'Olive Cultivation',
+          sv: 'Olivodling',
+          es: 'Cultivo del olivo',
+          fr: 'Culture de l\'olivier',
+          de: 'Olivenanbau',
+          it: 'Coltivazione dell\'olivo',
+          pl: 'Uprawa oliwek',
+          nl: 'Olijventeelt',
+          pt: 'Cultivo de oliveiras',
+        },
         description: {
           en: 'Olive trees were planted throughout ancient Judea, becoming central to diet and economy, providing oil for cooking and lamps',
           sv: 'Olivträd planterades över hela det antika Judeen',
@@ -234,8 +254,28 @@ export const israel: Country = {
         },
       },
       {
-        year: '500 BC',
-        title: 'Bread Staple Emerges',
+        year: {
+          en: '500 BC',
+          sv: '500 f.Kr.',
+          es: '500 a. C.',
+          fr: '500 av. J.-C.',
+          de: '500 v. Chr.',
+          it: '500 a.C.',
+          pl: '500 p.n.e.',
+          nl: '500 v.Chr.',
+          pt: '500 a.C.',
+        },
+        title: {
+          en: 'Bread Staple Emerges',
+          sv: 'Brödet blir basföda',
+          es: 'El pan, alimento básico',
+          fr: 'Le pain, aliment de base',
+          de: 'Brot wird Grundnahrungsmittel',
+          it: 'Il pane diventa alimento base',
+          pl: 'Chleb podstawą wyżywienia',
+          nl: 'Brood wordt basisvoedsel',
+          pt: 'O pão se torna alimento básico',
+        },
         description: {
           en: 'Barley and wheat bread became fundamental food in ancient Israel, with stone ovens appearing in archaeological evidence',
           sv: 'Korn- och vetetbröd blev en grundläggande mat i det antika Israel',
@@ -249,8 +289,28 @@ export const israel: Country = {
         },
       },
       {
-        year: '800 AD',
-        title: 'Mediterranean Spice Integration',
+        year: {
+          en: '800 AD',
+          sv: '800 e.Kr.',
+          es: '800 d. C.',
+          fr: '800 apr. J.-C.',
+          de: '800 n. Chr.',
+          it: '800 d.C.',
+          pl: '800 n.e.',
+          nl: '800 n.Chr.',
+          pt: '800 d.C.',
+        },
+        title: {
+          en: 'Mediterranean Spice Integration',
+          sv: 'Medelhavskryddor införlivas i köket',
+          es: 'Integración de especias mediterráneas',
+          fr: 'Intégration des épices méditerranéennes',
+          de: 'Integration mediterraner Gewürze',
+          it: 'Integrazione delle spezie mediterranee',
+          pl: 'Integracja śródziemnomorskich przypraw',
+          nl: 'Integratie van mediterrane specerijen',
+          pt: 'Integração de especiarias mediterrâneas',
+        },
         description: {
           en: 'Arab conquest brought new spices and culinary techniques, blending Mediterranean flavors with Middle Eastern preparations',
           sv: 'Arabisk erövring införde nya kryddor och kulinariska tekniker',
@@ -264,8 +324,28 @@ export const israel: Country = {
         },
       },
       {
-        year: '1900s',
-        title: 'Jewish Diaspora Fusion',
+        year: {
+          en: '1900s',
+          sv: '1900-talet',
+          es: 'siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'século XX',
+        },
+        title: {
+          en: 'Jewish Diaspora Fusion',
+          sv: 'Den judiska diasporans kök möts',
+          es: 'Fusión de cocinas de la diáspora judía',
+          fr: 'Fusion des cuisines de la diaspora juive',
+          de: 'Verschmelzung jüdischer Diasporaküchen',
+          it: 'Fusione delle cucine della diaspora ebraica',
+          pl: 'Fuzja kuchni diaspory żydowskiej',
+          nl: 'Fusie van Joodse diasporakeukens',
+          pt: 'Fusão das cozinhas da diáspora judaica',
+        },
         description: {
           en: 'Jewish immigration brought Ashkenazi, Sephardic, and Mizrahi culinary traditions, creating modern Israeli cuisine fusion',
           sv: 'Judisk invandring förde med sig kulinariska traditioner',
@@ -333,7 +413,7 @@ export const israel: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -373,7 +453,7 @@ export const israel: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -398,7 +478,7 @@ export const israel: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -411,7 +491,7 @@ export const israel: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -464,7 +544,7 @@ export const israel: Country = {
         },
         {
           en: 'Simmer until thick sauce forms',
-          sv: 'Sjud tills en tjock sås bildas',
+          sv: 'Låt sjuda tills såsen tjocknar',
           es: 'Cocine a fuego lento hasta que se forme una salsa espesa',
           fr: 'Laisser mijoter jusqu\'à ce qu\'une sauce épaisse se forme',
           de: 'Köcheln lassen, bis eine dicke Soße entsteht',
@@ -475,7 +555,7 @@ export const israel: Country = {
         },
         {
           en: 'Make wells and crack eggs in',
-          sv: 'Gör brunnar och knäck ägg i',
+          sv: 'Gör gropar i såsen och knäck i äggen',
           es: 'Haga pocillos y rompa los huevos',
           fr: 'Faire des puits et casser des œufs dans',
           de: 'Machen Sie Vertiefungen und schlagen Sie die Eier hinein',
@@ -486,7 +566,7 @@ export const israel: Country = {
         },
         {
           en: 'Cover and cook until eggs are set',
-          sv: 'Täck över och koka tills äggen stelnat',
+          sv: 'Lägg på lock och låt sjuda tills äggen har stelnat',
           es: 'Cubra y cocine hasta que los huevos estén cuajados',
           fr: 'Couvrir et cuire jusqu\'à ce que les œufs soient pris',
           de: 'Abdecken und kochen, bis die Eier fest sind',
@@ -561,7 +641,17 @@ export const israel: Country = {
           nl: 'Druppelirrigatie',
           pt: 'Irrigação por gotejamento',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'Israeli engineer Simcha Blass invented modern drip irrigation, revolutionizing agriculture.',
           sv: 'Den israeliska ingenjören Simcha Blass uppfann modern droppbevattning, vilket revolutionerade jordbruket.',
@@ -774,7 +864,17 @@ export const israel: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most tourists receive free 3-month visa on arrival. Check requirements for your nationality.',
           sv: 'De flesta turister får gratis 3-månadersvisum vid ankomst. Kontrollera kraven för din nationalitet.',
@@ -788,7 +888,17 @@ export const israel: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'March to May and September to November for pleasant weather.',
           sv: 'Mars till maj och september till november för behagligt väder.',
@@ -802,7 +912,17 @@ export const israel: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent public transport. Buses and trains connect major cities.',
           sv: 'Utmärkt kollektivtrafik. Bussar och tåg förbinder större städer.',
@@ -816,7 +936,17 @@ export const israel: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe for tourists. Follow local advice and avoid border areas.',
           sv: 'Generellt säker för turister. Följ lokala råd och undvik gränsområden.',
@@ -830,7 +960,17 @@ export const israel: Country = {
         },
       },
       {
-        item: 'Sabbath',
+        item: {
+          en: 'Sabbath',
+          sv: 'Sabbat',
+          es: 'Shabat',
+          fr: 'Shabbat',
+          de: 'Schabbat',
+          it: 'Shabbat',
+          pl: 'Szabat',
+          nl: 'Sjabbat',
+          pt: 'Shabat',
+        },
         description: {
           en: 'Friday evening to Saturday evening. Public transport stops, shops close in religious areas.',
           sv: 'Fredag ​​kväll till lördag kväll. Kollektivtrafiken stannar, butiker stänger i religiösa områden.',
@@ -859,7 +999,7 @@ export const israel: Country = {
       },
       description: {
         en: 'Sweet tahini-based confection with a crumbly, fudge-like texture',
-        sv: 'Söt tahini-baserad konfekt med en smulig, fudge-liknande konsistens',
+        sv: 'Söt konfekt av tahini med smulig, fudgeliknande konsistens',
         es: 'Dulce dulce a base de tahini con una textura quebradiza similar a un dulce de azúcar',
         fr: 'Confiserie sucrée à base de tahini avec une texture friable semblable à celle d\'un fudge',
         de: 'Süßes Konfekt auf Tahini-Basis mit einer krümeligen, fudgeartigen Textur',
@@ -946,7 +1086,7 @@ export const israel: Country = {
         {
           name: {
             en: 'Pistachios (optional)',
-            sv: 'Pistagenötter (valfritt)',
+            sv: 'Pistaschnötter (valfritt)',
             es: 'Pistachos (opcional)',
             fr: 'Pistaches (facultatif)',
             de: 'Pistazien (optional)',
@@ -961,7 +1101,7 @@ export const israel: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -977,7 +1117,7 @@ export const israel: Country = {
       steps: [
         {
           en: 'Heat sugar and water to 240°F, creating a syrup',
-          sv: 'Värm socker och vatten till 240°F, skapa en sirap',
+          sv: 'Koka socker och vatten till en sirap på 115°C',
           es: 'Calienta el azúcar y el agua a 240 °F, creando un almíbar',
           fr: 'Chauffer le sucre et l\'eau à 240°F pour créer un sirop',
           de: 'Zucker und Wasser auf 240 °F erhitzen, sodass ein Sirup entsteht',
@@ -988,7 +1128,7 @@ export const israel: Country = {
         },
         {
           en: 'Let syrup cool slightly',
-          sv: 'Låt sirap svalna något',
+          sv: 'Låt sirapen svalna något',
           es: 'Deje que el almíbar se enfríe un poco',
           fr: 'Laisser le sirop refroidir légèrement',
           de: 'Sirup etwas abkühlen lassen',
@@ -1010,7 +1150,7 @@ export const israel: Country = {
         },
         {
           en: 'Slowly pour hot syrup into tahini while stirring',
-          sv: 'Häll långsamt varm sirap i tahini under omrörning',
+          sv: 'Häll den varma sirapen i en tunn stråle i tahinin under omrörning',
           es: 'Vierta lentamente el almíbar caliente en el tahini mientras revuelve',
           fr: 'Versez lentement le sirop chaud dans le tahini tout en remuant',
           de: 'Den heißen Sirup unter Rühren langsam in das Tahini gießen',
@@ -1021,7 +1161,7 @@ export const israel: Country = {
         },
         {
           en: 'Mix vigorously until well combined',
-          sv: 'Blanda kraftigt tills väl blandat',
+          sv: 'Rör kraftigt tills allt är väl blandat',
           es: 'Mezclar vigorosamente hasta que esté bien combinado',
           fr: 'Mélanger vigoureusement jusqu\'à ce que le tout soit bien mélangé',
           de: 'Kräftig mischen, bis alles gut vermischt ist',
@@ -1032,7 +1172,7 @@ export const israel: Country = {
         },
         {
           en: 'Fold in chopped pistachios if using',
-          sv: 'Vänd ner hackade pistagenötter om du använder',
+          sv: 'Vänd eventuellt ner hackade pistaschnötter',
           es: 'Incorpora los pistachos picados si los usas',
           fr: 'Incorporer les pistaches hachées si vous utilisez',
           de: 'Bei Verwendung von',
@@ -1043,7 +1183,7 @@ export const israel: Country = {
         },
         {
           en: 'Pour into lined pan and smooth top',
-          sv: 'Häll i fodrad form och släta ut toppen',
+          sv: 'Häll i en form klädd med bakplåtspapper och släta till ytan',
           es: 'Vierta en un molde forrado y alise la parte superior',
           fr: 'Verser dans un moule tapissé et lisser le dessus',
           de: 'gehackte Pistazien unterheben In eine mit Backpapier ausgelegte Pfanne gießen und die Oberseite glatt streichen',
@@ -1054,7 +1194,7 @@ export const israel: Country = {
         },
         {
           en: 'Refrigerate for at least 2 hours until firm',
-          sv: 'Kyl i minst 2 timmar tills den stelnar',
+          sv: 'Ställ i kylen i minst 2 timmar, tills den har stelnat',
           es: 'Refrigere durante al menos 2 horas hasta que esté firme',
           fr: 'Réfrigérer pendant au moins 2 heures jusqu\'à consistance ferme',
           de: 'Mindestens 2 Stunden im Kühlschrank lagern, bis die Masse fest ist',

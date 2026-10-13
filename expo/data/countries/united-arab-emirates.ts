@@ -125,7 +125,7 @@ export const unitedArabEmirates: Country = {
         },
         value: {
           en: 'UAE Dirham (AED)',
-          sv: 'UAE Dirham (AED)',
+          sv: 'Emiratisk dirham (AED)',
           es: 'Dírham de los Emiratos Árabes Unidos (AED)',
           fr: 'Dirham des Émirats arabes unis (AED)',
           de: 'VAE-Dirham (AED)',
@@ -266,7 +266,17 @@ export const unitedArabEmirates: Country = {
           nl: 'Woestijnlandbouwtechnieken',
           pt: 'Técnicas de agricultura no deserto',
         },
-        year: 'Ancient-Modern',
+        year: {
+          en: 'Ancient-Modern',
+          sv: 'Forntid–nutid',
+          es: 'Antigüedad–época moderna',
+          fr: 'Antiquité–époque moderne',
+          de: 'Antike–Moderne',
+          it: 'Antichità–età moderna',
+          pl: 'Starożytność–współczesność',
+          nl: 'Oudheid–moderne tijd',
+          pt: 'Antiguidade–era moderna',
+        },
         description: {
           en: 'Advanced hydroponics and desalination enabling agriculture in extreme desert conditions',
           sv: 'Avancerad hydrokultur och avsaltning som möjliggör jordbruk under extrema ökenförhållanden',
@@ -332,8 +342,28 @@ export const unitedArabEmirates: Country = {
     ],
     history: [
       {
-        year: 'Pre-1800s',
-        title: 'Bedouin & Coastal Settlements',
+        year: {
+          en: 'Pre-1800s',
+          sv: 'Före 1800',
+          es: 'Antes de 1800',
+          fr: 'Avant 1800',
+          de: 'Vor 1800',
+          it: 'Prima del 1800',
+          pl: 'Przed 1800 r.',
+          nl: 'Vóór 1800',
+          pt: 'Antes de 1800',
+        },
+        title: {
+          en: 'Bedouin & Coastal Settlements',
+          sv: 'Beduin- och kustsamhällen',
+          es: 'Asentamientos beduinos y costeros',
+          fr: 'Communautés bédouines et côtières',
+          de: 'Beduinen- und Küstensiedlungen',
+          it: 'Insediamenti beduini e costieri',
+          pl: 'Osady beduińskie i nadmorskie',
+          nl: 'Bedoeïenen- en kustnederzettingen',
+          pt: 'Assentamentos beduínos e costeiros',
+        },
         description: {
           en: 'Communities relied on pearl diving, fishing, herding, and trade across the Arabian Gulf.',
           sv: 'Samhällen förlitade sig på pärldykning, fiske, vallning och handel över Persiska viken.',
@@ -348,7 +378,17 @@ export const unitedArabEmirates: Country = {
       },
       {
         year: '1820',
-        title: 'Trucial States',
+        title: {
+          en: 'Trucial States',
+          sv: 'Fördragsstaterna',
+          es: 'Estados de la Tregua',
+          fr: 'États de la Trêve',
+          de: 'Vertragsstaaten',
+          it: 'Stati della Tregua',
+          pl: 'Oman Traktatowy',
+          nl: 'Verdragsstaten',
+          pt: 'Estados da Trégua',
+        },
         description: {
           en: 'The region became known as the Trucial States under British protection.',
           sv: 'Regionen blev känd som Trucial States under brittiskt skydd.',
@@ -363,7 +403,17 @@ export const unitedArabEmirates: Country = {
       },
       {
         year: '1971',
-        title: 'UAE Founded',
+        title: {
+          en: 'UAE Founded',
+          sv: 'Förenade Arabemiraten bildas',
+          es: 'Fundación de los EAU',
+          fr: 'Fondation des EAU',
+          de: 'Gründung der VAE',
+          it: 'Fondazione degli EAU',
+          pl: 'Powstanie ZEA',
+          nl: 'Oprichting van de VAE',
+          pt: 'Fundação dos EAU',
+        },
         description: {
           en: 'Six emirates united to form the UAE; Ras Al Khaimah joined shortly after.',
           sv: 'Sex emirat förenades för att bilda UAE; Ras Al Khaimah anslöt sig kort efter.',
@@ -377,8 +427,28 @@ export const unitedArabEmirates: Country = {
         },
       },
       {
-        year: '2000s',
-        title: 'Modern Global Hub',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
+        title: {
+          en: 'Modern Global Hub',
+          sv: 'Modern global knutpunkt',
+          es: 'Centro mundial moderno',
+          fr: 'Carrefour mondial moderne',
+          de: 'Moderne globale Drehscheibe',
+          it: 'Crocevia mondiale moderno',
+          pl: 'Nowoczesne globalne centrum',
+          nl: 'Modern internationaal knooppunt',
+          pt: 'Polo global moderno',
+        },
         description: {
           en: 'Rapid development transformed cities like Dubai and Abu Dhabi into global centers for finance, tourism, and innovation.',
           sv: 'Snabb utveckling förvandlade städer som Dubai och Abu Dhabi till globala centra för finans, turism och innovation.',
@@ -394,7 +464,17 @@ export const unitedArabEmirates: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free or visa-on-arrival access for many nationalities.',
           sv: 'Visumfri eller visum vid ankomst för många nationaliteter.',
@@ -408,7 +488,17 @@ export const unitedArabEmirates: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November–March for cooler temperatures.',
           sv: 'November–mars för kallare temperaturer.',
@@ -422,7 +512,17 @@ export const unitedArabEmirates: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Modest clothing recommended in public places; beachwear allowed at resorts.',
           sv: 'Anspråkslösa kläder rekommenderas på offentliga platser; strandkläder tillåtet på resorter.',
@@ -436,7 +536,17 @@ export const unitedArabEmirates: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent roads, taxis, metro (Dubai), and domestic flights.',
           sv: 'Utmärkta vägar, taxibilar, tunnelbana (Dubai) och inrikesflyg.',
@@ -450,7 +560,17 @@ export const unitedArabEmirates: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe with low crime rates.',
           sv: 'Mycket säker med låg brottslighet.',
@@ -601,7 +721,7 @@ export const unitedArabEmirates: Country = {
       },
       description: {
         en: 'A traditional slow-cooked dish of wheat and meat, especially served during Ramadan and celebrations.',
-        sv: 'En traditionell långsamt tillagad maträtt av vete och kött, speciellt serverad under ramadan och högtider.',
+        sv: 'En traditionell långkokt rätt av vete och kött som särskilt serveras under ramadan och vid högtider.',
         es: 'Un plato tradicional de trigo y carne cocinado a fuego lento, que se sirve especialmente durante el Ramadán y las celebraciones.',
         fr: 'Un plat traditionnel mijoté à base de blé et de viande, particulièrement servi pendant le Ramadan et les célébrations.',
         de: 'Ein traditionelles, langsam gegartes Gericht aus Weizen und Fleisch, das besonders während des Ramadan und bei Feierlichkeiten serviert wird.',
@@ -628,7 +748,7 @@ export const unitedArabEmirates: Country = {
         {
           name: {
             en: 'Whole wheat',
-            sv: 'Fullkornsvete',
+            sv: 'Hela vetekorn',
             es: 'Trigo integral',
             fr: 'Blé entier',
             de: 'Vollkorn',
@@ -704,7 +824,7 @@ export const unitedArabEmirates: Country = {
       steps: [
         {
           en: 'Soak wheat overnight',
-          sv: 'Blötlägg vete över natten',
+          sv: 'Blötlägg vetekornen över natten',
           es: 'Remojar el trigo durante la noche',
           fr: 'Faire tremper le blé pendant la nuit',
           de: 'Weizen über Nacht einweichen',
@@ -715,7 +835,7 @@ export const unitedArabEmirates: Country = {
         },
         {
           en: 'Combine wheat, meat, water, and salt in a large pot',
-          sv: 'Kombinera vete, kött, vatten och salt i en stor gryta',
+          sv: 'Lägg vetekorn, kött, vatten och salt i en stor gryta',
           es: 'Combine el trigo, la carne, el agua y la sal en una olla grande',
           fr: 'Mélangez le blé, la viande, l\'eau et le sel dans une grande casserole',
           de: 'Weizen, Fleisch, Wasser und Salz in einem großen Topf vermischen',
@@ -726,7 +846,7 @@ export const unitedArabEmirates: Country = {
         },
         {
           en: 'Simmer gently for 4 hours until very soft',
-          sv: 'Sjud försiktigt i 4 timmar tills den är väldigt mjuk',
+          sv: 'Låt sjuda på svag värme i 4 timmar tills allt är mycket mjukt',
           es: 'Cocine a fuego lento durante 4 horas hasta que esté muy suave',
           fr: 'Laisser mijoter doucement pendant 4 heures jusqu\'à ce qu\'il soit très tendre',
           de: '4 Stunden sanft köcheln lassen, bis es sehr weich ist',
@@ -737,7 +857,7 @@ export const unitedArabEmirates: Country = {
         },
         {
           en: 'Beat mixture until smooth and porridge-like',
-          sv: 'Vispa blandningen till en slät och grötliknande',
+          sv: 'Vispa blandningen tills den är slät och grötliknande',
           es: 'Batir la mezcla hasta que quede suave y parecida a una papilla',
           fr: 'Battre le mélange jusqu\'à ce qu\'il soit lisse et semblable à une bouillie',
           de: 'Die Mischung glatt und breiartig schlagen',
@@ -786,7 +906,7 @@ export const unitedArabEmirates: Country = {
       },
       description: {
         en: 'Golden, crispy Emirati dumplings drizzled with date syrup or honey and sprinkled with sesame seeds.',
-        sv: 'Gyllene, krispiga Emirati-dumplings som är drypta med dadelsirap eller honung och strö över sesamfrön.',
+        sv: 'Gyllene, krispiga degbollar från Emiraten, toppade med dadelsirap eller honung och sesamfrön.',
         es: 'Empanadillas emiratíes doradas y crujientes rociadas con sirope de dátiles o miel y espolvoreadas con semillas de sésamo.',
         fr: 'Dumplings émiratis dorés et croustillants arrosés de sirop de dattes ou de miel et saupoudrés de graines de sésame.',
         de: 'Goldene, knusprige emiratische Knödel, beträufelt mit Dattelsirup oder Honig und bestreut mit Sesamkörnern.',
@@ -813,7 +933,7 @@ export const unitedArabEmirates: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -923,7 +1043,7 @@ export const unitedArabEmirates: Country = {
         {
           name: {
             en: 'Vegetable oil (for frying)',
-            sv: 'Vegetabilisk olja (för stekning)',
+            sv: 'Neutral olja (till stekning)',
             es: 'Aceite vegetal (para freír)',
             fr: 'Huile végétale (pour la friture)',
             de: 'Pflanzenöl (zum Braten)',
@@ -1011,7 +1131,7 @@ export const unitedArabEmirates: Country = {
         },
         {
           en: 'Heat oil to medium-high',
-          sv: 'Värm olja till medelhög',
+          sv: 'Hetta upp oljan på medelhög värme',
           es: 'Calienta el aceite a fuego medio-alto',
           fr: 'Chauffer l\'huile à feu moyen-vif',
           de: 'Öl auf mittlere bis hohe Stufe erhitzen',
@@ -1022,7 +1142,7 @@ export const unitedArabEmirates: Country = {
         },
         {
           en: 'Drop spoonfuls of batter into oil',
-          sv: 'Droppa skedar smet i olja',
+          sv: 'Klicka ner smeten i oljan med en sked, lite i taget',
           es: 'Eche cucharadas de masa en aceite',
           fr: 'Déposez des cuillerées de pâte dans l\'huile',
           de: 'Geben Sie einen Löffel Teig in das Öl',
@@ -1033,7 +1153,7 @@ export const unitedArabEmirates: Country = {
         },
         {
           en: 'Fry until golden and crispy',
-          sv: 'Stek tills de är gyllene och krispiga',
+          sv: 'Fritera tills de är gyllene och krispiga',
           es: 'Freír hasta que estén dorados y crujientes',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés et croustillants',
           de: 'Goldbraun und knusprig braten',
@@ -1044,7 +1164,7 @@ export const unitedArabEmirates: Country = {
         },
         {
           en: 'Drain briefly on paper towels',
-          sv: 'Låt rinna av kort på hushållspapper',
+          sv: 'Låt rinna av en kort stund på hushållspapper',
           es: 'Escurrir brevemente sobre toallas de papel',
           fr: 'Égoutter brièvement sur du papier absorbant',
           de: 'Auf Küchenpapier kurz abtropfen lassen',

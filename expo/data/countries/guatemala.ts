@@ -219,8 +219,28 @@ export const guatemala: Country = {
     },
     history: [
       {
-        year: '250-900 AD',
-        title: 'Mayan Civilization',
+        year: {
+          en: '250-900 AD',
+          sv: '250–900 e.Kr.',
+          es: '250–900 d. C.',
+          fr: '250–900 apr. J.-C.',
+          de: '250–900 n. Chr.',
+          it: '250–900 d.C.',
+          pl: '250–900 n.e.',
+          nl: '250–900 n.Chr.',
+          pt: '250–900 d.C.',
+        },
+        title: {
+          en: 'Mayan Civilization',
+          sv: 'Mayacivilisationen',
+          es: 'Civilización maya',
+          fr: 'Civilisation maya',
+          de: 'Maya-Zivilisation',
+          it: 'Civiltà maya',
+          pl: 'Cywilizacja Majów',
+          nl: 'Mayabeschaving',
+          pt: 'Civilização maia',
+        },
         description: {
           en: 'The Mayan civilization flourished in Guatemala, building great cities like Tikal and developing advanced mathematics and astronomy.',
           sv: 'Mayacivilisationen blomstrade i Guatemala, byggde stora städer som Tikal och utvecklade avancerad matematik och astronomi.',
@@ -235,7 +255,17 @@ export const guatemala: Country = {
       },
       {
         year: '1524',
-        title: 'Spanish Conquest',
+        title: {
+          en: 'Spanish Conquest',
+          sv: 'Spanska erövringen',
+          es: 'Conquista española',
+          fr: 'Conquête espagnole',
+          de: 'Spanische Eroberung',
+          it: 'Conquista spagnola',
+          pl: 'Podbój hiszpański',
+          nl: 'Spaanse verovering',
+          pt: 'Conquista espanhola',
+        },
         description: {
           en: 'Pedro de Alvarado conquered Guatemala for Spain, beginning centuries of colonial rule.',
           sv: 'Pedro de Alvarado erövrade Guatemala för Spanien, vilket inledde århundraden av kolonialt styre.',
@@ -250,7 +280,17 @@ export const guatemala: Country = {
       },
       {
         year: '1821',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Guatemala gained independence from Spain as part of the Federal Republic of Central America.',
           sv: 'Guatemala blev självständigt från Spanien som en del av Förbundsrepubliken Centralamerika.',
@@ -277,7 +317,17 @@ export const guatemala: Country = {
           nl: 'Mayakalender',
           pt: 'Calendário Maia',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'The Maya developed one of the most accurate calendar systems in ancient history, still studied today.',
           sv: 'Mayaerna utvecklade ett av de mest exakta kalendersystemen i antikens historia, som fortfarande studeras idag.',
@@ -302,7 +352,17 @@ export const guatemala: Country = {
           nl: 'Cacaoverwerking',
           pt: 'Processamento de cacau',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Guatemala was a center for cacao cultivation and chocolate preparation, traditions that continue today.',
           sv: 'Guatemala var ett centrum för kakaoodling och chokladberedning, traditioner som fortsätter idag.',
@@ -327,7 +387,17 @@ export const guatemala: Country = {
           nl: 'Textielkunst',
           pt: 'Artes têxteis',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Indigenous Guatemalans perfected backstrap weaving techniques creating intricate huipil textiles recognized globally.',
           sv: 'Ursprungsbefolkningen i guatemalaner fulländade tekniker för vävning av ryggband och skapade invecklade huipil-textilier som är erkända globalt.',
@@ -352,7 +422,17 @@ export const guatemala: Country = {
           nl: 'Mayawiskunde',
           pt: 'Matemática Maia',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'The Maya independently developed the concept of zero and a sophisticated vigesimal (base-20) number system.',
           sv: 'Mayaerna utvecklade självständigt konceptet noll och ett sofistikerat vigesimalt (bas-20) talsystem.',
@@ -370,7 +450,7 @@ export const guatemala: Country = {
       {
         name: {
           en: 'Tikal National Park',
-          sv: 'Tikal National Park',
+          sv: 'Tikals nationalpark',
           es: 'Parque Nacional Tikal',
           fr: 'Parc national de Tikal',
           de: 'Tikal-Nationalpark',
@@ -466,7 +546,17 @@ export const guatemala: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time',
+        item: {
+          en: 'Best time',
+          sv: 'Bästa tiden',
+          es: 'Mejor época',
+          fr: 'Meilleure période',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore',
+          pl: 'Najlepszy czas',
+          nl: 'Beste tijd',
+          pt: 'Melhor época',
+        },
         description: {
           en: 'November-April for dry season; rainy season May-October.',
           sv: 'November-april för torrperioden; regnperioden maj-oktober.',
@@ -504,7 +594,17 @@ export const guatemala: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Spanish essential; indigenous languages in rural areas.',
           sv: 'Spanska väsentligt; inhemska språk på landsbygden.',
@@ -587,7 +687,7 @@ export const guatemala: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -642,7 +742,7 @@ export const guatemala: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -667,7 +767,7 @@ export const guatemala: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -692,7 +792,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Blend into thick sauce',
-          sv: 'Blanda till tjock sås',
+          sv: 'Mixa till en tjock sås',
           es: 'Mezclar hasta obtener una salsa espesa',
           fr: 'Mélanger dans une sauce épaisse',
           de: 'Zu einer dicken Soße verrühren',
@@ -703,7 +803,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Brown chicken pieces',
-          sv: 'Bruna kycklingbitar',
+          sv: 'Bryn kycklingbitarna',
           es: 'Dorar trozos de pollo',
           fr: 'Faire dorer les morceaux de poulet',
           de: 'Braune Hähnchenstücke',
@@ -725,7 +825,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Add potatoes in last 30 minutes',
-          sv: 'Lägg till potatis under de senaste 30 minuterna',
+          sv: 'Lägg i potatisen de sista 30 minuterna',
           es: 'Agregue papas en los últimos 30 minutos',
           fr: 'Ajouter les pommes de terre dans les 30 dernières minutes',
           de: 'In den letzten 30 Minuten Kartoffeln hinzufügen',
@@ -763,7 +863,7 @@ export const guatemala: Country = {
       },
       description: {
         en: 'Sweet plantain patties filled with sweetened black beans',
-        sv: 'Söta grobladbiffar fyllda med sötade svarta bönor',
+        sv: 'Små kakor av mogen kokbanan, fyllda med sötade svarta bönor',
         es: 'Empanadas de plátano dulce rellenas de frijoles negros endulzados',
         fr: 'Galettes de plantain sucrées fourrées aux haricots noirs sucrés',
         de: 'Süße Bananenfrikadellen gefüllt mit gesüßten schwarzen Bohnen',
@@ -790,7 +890,7 @@ export const guatemala: Country = {
         {
           name: {
             en: 'Ripe plantains',
-            sv: 'Mogna groblad',
+            sv: 'Mogna kokbananer',
             es: 'Plátanos maduros',
             fr: 'Plantains mûrs',
             de: 'Reife Kochbananen',
@@ -802,7 +902,7 @@ export const guatemala: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -860,7 +960,7 @@ export const guatemala: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -875,7 +975,7 @@ export const guatemala: Country = {
         {
           name: {
             en: 'Powdered sugar for dusting',
-            sv: 'Pulversocker för att pudra',
+            sv: 'Florsocker att pudra med',
             es: 'Azúcar en polvo para espolvorear',
             fr: 'Sucre en poudre pour saupoudrer',
             de: 'Puderzucker zum Bestäuben',
@@ -891,7 +991,7 @@ export const guatemala: Country = {
       steps: [
         {
           en: 'Boil plantains until very soft, about 20 minutes.',
-          sv: 'Koka kokbananer tills de är mycket mjuka, cirka 20 minuter.',
+          sv: 'Koka kokbananerna tills de är mycket mjuka, cirka 20 minuter.',
           es: 'Hierva los plátanos hasta que estén muy suaves, unos 20 minutos.',
           fr: 'Faire bouillir les plantains jusqu\'à ce qu\'ils soient très tendres, environ 20 minutes.',
           de: 'Kochbananen etwa 20 Minuten lang kochen, bis sie sehr weich sind.',
@@ -913,7 +1013,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Mash plantains until smooth.',
-          sv: 'Mosa plantains tills de är slät.',
+          sv: 'Mosa kokbananerna till ett slätt mos.',
           es: 'Triture los plátanos hasta que quede suave.',
           fr: 'Écraser les plantains jusqu\'à consistance lisse.',
           de: 'Kochbananen pürieren, bis sie glatt sind.',
@@ -924,7 +1024,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Form plantain into small balls, flatten into discs.',
-          sv: 'Forma groblad till små bollar, platta till skivor.',
+          sv: 'Forma kokbananmoset till små bollar och platta ut dem till runda kakor.',
           es: 'Forme bolitas con el plátano y aplánelas hasta formar discos.',
           fr: 'Formez des petites boules de plantain et aplatissez-les en disques.',
           de: 'Aus Kochbananen kleine Kugeln formen und zu Scheiben flach drücken.',
@@ -935,7 +1035,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Place spoonful of bean mixture in center.',
-          sv: 'Placera en sked bönblandning i mitten.',
+          sv: 'Lägg en sked bönfyllning i mitten.',
           es: 'Coloque una cucharada de la mezcla de frijoles en el centro.',
           fr: 'Placer une cuillerée de mélange de haricots au centre.',
           de: 'Geben Sie einen Löffel Bohnenmischung in die Mitte.',
@@ -946,7 +1046,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Fold plantain over filling and seal edges.',
-          sv: 'Vik groblad över fyllningen och försegla kanterna.',
+          sv: 'Vik kokbananmoset över fyllningen och tryck ihop kanterna.',
           es: 'Dobla el plátano sobre el relleno y sella los bordes.',
           fr: 'Pliez le plantain sur la garniture et scellez les bords.',
           de: 'Kochbananen über die Füllung falten und die Ränder verschließen.',
@@ -957,7 +1057,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Heat oil to 350°F.',
-          sv: 'Värm olja till 350°F.',
+          sv: 'Värm oljan till 175°C.',
           es: 'Caliente el aceite a 350°F.',
           fr: 'Chauffer l\'huile à 350°F.',
           de: 'Öl auf 350 °F erhitzen.',
@@ -968,7 +1068,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Fry patties until golden brown, 3-4 minutes per side.',
-          sv: 'Stek biffarna gyllenbruna, 3-4 minuter per sida.',
+          sv: 'Stek kakorna gyllenbruna, 3–4 minuter per sida.',
           es: 'Freír las hamburguesas hasta que estén doradas, 3-4 minutos por lado.',
           fr: 'Faire frire les galettes jusqu\'à ce qu\'elles soient dorées, 3 à 4 minutes de chaque côté.',
           de: 'Braten Sie die Pastetchen 3–4 Minuten pro Seite goldbraun.',
@@ -990,7 +1090,7 @@ export const guatemala: Country = {
         },
         {
           en: 'Dust with powdered sugar before serving.',
-          sv: 'Pudra över strösocker före servering.',
+          sv: 'Pudra över florsocker före servering.',
           es: 'Espolvoree con azúcar en polvo antes de servir.',
           fr: 'Saupoudrer de sucre en poudre avant de servir.',
           de: 'Vor dem Servieren mit Puderzucker bestäuben.',
@@ -1561,7 +1661,7 @@ export const guatemala: Country = {
           },
           {
             en: 'Lake Managua',
-            sv: 'Lake Managua',
+            sv: 'Managuasjön',
             es: 'Lago Managua',
             fr: 'Lac Managua',
             de: 'Managuasee',

@@ -220,7 +220,17 @@ export const dominica: Country = {
     history: [
       {
         year: '1493',
-        title: 'Columbus Arrival',
+        title: {
+          en: 'Columbus Arrival',
+          sv: 'Columbus ankomst',
+          es: 'Llegada de Colón',
+          fr: 'Arrivée de Colomb',
+          de: 'Ankunft des Kolumbus',
+          it: 'Arrivo di Colombo',
+          pl: 'Przybycie Kolumba',
+          nl: 'Aankomst van Columbus',
+          pt: 'Chegada de Colombo',
+        },
         description: {
           en: 'Christopher Columbus sighted the island on a Sunday (Dominica means "Sunday" in Latin).',
           sv: 'Christopher Columbus såg ön på en söndag (Dominica betyder "söndag" på latin).',
@@ -235,7 +245,17 @@ export const dominica: Country = {
       },
       {
         year: '1763',
-        title: 'British Control',
+        title: {
+          en: 'British Control',
+          sv: 'Brittisk kontroll',
+          es: 'Control británico',
+          fr: 'Contrôle britannique',
+          de: 'Britische Kontrolle',
+          it: 'Controllo britannico',
+          pl: 'Kontrola brytyjska',
+          nl: 'Brits gezag',
+          pt: 'Controle britânico',
+        },
         description: {
           en: 'Britain took control after years of being passed between France and Britain.',
           sv: 'Storbritannien tog kontrollen efter år av passerat mellan Frankrike och Storbritannien.',
@@ -250,7 +270,17 @@ export const dominica: Country = {
       },
       {
         year: '1978',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Dominica gained independence from the United Kingdom.',
           sv: 'Dominica blev självständigt från Storbritannien.',
@@ -316,7 +346,7 @@ export const dominica: Country = {
       {
         name: {
           en: 'Trafalgar Falls',
-          sv: 'Trafalgar Falls',
+          sv: 'Trafalgarfallen',
           es: 'Cataratas de Trafalgar',
           fr: 'Chutes de Trafalgar',
           de: 'Trafalgarfälle',
@@ -388,7 +418,17 @@ export const dominica: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December-May for dry season. June-November is hurricane season.',
           sv: 'December-maj för torrperioden. Juni-november är orkansäsong.',
@@ -402,7 +442,17 @@ export const dominica: Country = {
         },
       },
       {
-        item: 'Hiking gear',
+        item: {
+          en: 'Hiking gear',
+          sv: 'Vandringsutrustning',
+          es: 'Equipo de senderismo',
+          fr: 'Équipement de randonnée',
+          de: 'Wanderausrüstung',
+          it: 'Attrezzatura da trekking',
+          pl: 'Sprzęt trekkingowy',
+          nl: 'Wandeluitrusting',
+          pt: 'Equipamento de trilha',
+        },
         description: {
           en: 'Sturdy boots and rain gear for rainforest trails.',
           sv: 'Rejäla stövlar och regnkläder för regnskogsstigar.',
@@ -416,7 +466,17 @@ export const dominica: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'East Caribbean Dollars. Many places don\'t accept cards.',
           sv: 'östkaribiska dollar. Många ställen accepterar inte kort.',
@@ -430,7 +490,17 @@ export const dominica: Country = {
         },
       },
       {
-        item: 'Insect repellent',
+        item: {
+          en: 'Insect repellent',
+          sv: 'Myggmedel',
+          es: 'Repelente de insectos',
+          fr: 'Répulsif anti-insectes',
+          de: 'Insektenschutzmittel',
+          it: 'Repellente per insetti',
+          pl: 'Repelent na owady',
+          nl: 'Muggenmiddel',
+          pt: 'Repelente de insetos',
+        },
         description: {
           en: 'Essential for rainforest exploration.',
           sv: 'Viktigt för utforskning av regnskogen.',
@@ -448,7 +518,7 @@ export const dominica: Country = {
       id: 'dominica-main',
       name: {
         en: 'Callaloo Soup',
-        sv: 'Callaloo Soppa',
+        sv: 'Callaloosoppa',
         es: 'Sopa de callaloo',
         fr: 'Soupe Callaloo',
         de: 'Callaloo-Suppe',
@@ -459,7 +529,7 @@ export const dominica: Country = {
       },
       description: {
         en: 'Traditional soup with dasheen leaves and crab',
-        sv: 'Traditionell soppa med dasheenblad och krabba',
+        sv: 'Traditionell soppa med taroblad (dasheen) och krabba',
         es: 'Sopa tradicional con hojas de dasheen y cangrejo',
         fr: 'Soupe traditionnelle aux feuilles de dasheen et au crabe',
         de: 'Traditionelle Suppe mit Dasheen-Blättern und Krabben',
@@ -486,7 +556,7 @@ export const dominica: Country = {
         {
           name: {
             en: 'Dasheen leaves',
-            sv: 'Dasheen blad',
+            sv: 'Taroblad (dasheen)',
             es: 'Dasheen se va',
             fr: 'Dasheen part',
             de: 'Dasheen geht',
@@ -587,7 +657,7 @@ export const dominica: Country = {
       steps: [
         {
           en: 'Boil dasheen leaves until tender',
-          sv: 'Koka dasheenbladen tills de är mjuka',
+          sv: 'Koka tarobladen tills de är mjuka',
           es: 'Hervir las hojas de dasheen hasta que estén tiernas',
           fr: 'Faire bouillir les feuilles de dasheen jusqu\'à ce qu\'elles soient tendres',
           de: 'Dasheen-Blätter kochen, bis sie weich sind',
@@ -598,7 +668,7 @@ export const dominica: Country = {
         },
         {
           en: 'Blend with coconut milk',
-          sv: 'Blanda med kokosmjölk',
+          sv: 'Mixa bladen med kokosmjölken',
           es: 'Licuar con leche de coco',
           fr: 'Mélanger avec du lait de coco',
           de: 'Mit Kokosmilch vermischen',
@@ -609,7 +679,7 @@ export const dominica: Country = {
         },
         {
           en: 'Add crab, okra, and pumpkin',
-          sv: 'Lägg till krabba, okra och pumpa',
+          sv: 'Tillsätt krabba, okra och pumpa',
           es: 'Agregue cangrejo, okra y calabaza',
           fr: 'Ajouter le crabe, le gombo et la citrouille',
           de: 'Krabben, Okraschoten und Kürbis hinzufügen',
@@ -620,7 +690,7 @@ export const dominica: Country = {
         },
         {
           en: 'Simmer until vegetables are soft',
-          sv: 'Sjud tills grönsakerna är mjuka',
+          sv: 'Låt sjuda tills grönsakerna är mjuka',
           es: 'Cocine a fuego lento hasta que las verduras estén suaves',
           fr: 'Laisser mijoter jusqu\'à ce que les légumes soient tendres',
           de: 'Köcheln lassen, bis das Gemüse weich ist',
@@ -642,7 +712,7 @@ export const dominica: Country = {
         },
         {
           en: 'Serve hot with dumplings',
-          sv: 'Servera varm med dumplings',
+          sv: 'Servera varm med klimpar',
           es: 'Servir caliente con albóndigas',
           fr: 'Servir chaud avec des dumplings',
           de: 'Heiß mit Knödeln servieren',
@@ -658,7 +728,7 @@ export const dominica: Country = {
       id: 'dominica-dessert',
       name: {
         en: 'Coconut Drops',
-        sv: 'Kokosdroppar',
+        sv: 'Coconut drops',
         es: 'Gotas de coco',
         fr: 'Gouttes de noix de coco',
         de: 'Kokosnuss-Tropfen',
@@ -669,7 +739,7 @@ export const dominica: Country = {
       },
       description: {
         en: 'Sweet coconut candies with ginger and spices',
-        sv: 'Söta kokosgodis med ingefära och kryddor',
+        sv: 'Sött kokosgodis med ingefära och kryddor',
         es: 'Caramelos dulces de coco con jengibre y especias',
         fr: 'Bonbons sucrés à la noix de coco, au gingembre et aux épices',
         de: 'Süße Kokosbonbons mit Ingwer und Gewürzen',
@@ -696,7 +766,7 @@ export const dominica: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -772,7 +842,7 @@ export const dominica: Country = {
       steps: [
         {
           en: 'Boil sugar and water until syrup forms',
-          sv: 'Koka upp socker och vatten tills det bildas sirap',
+          sv: 'Koka socker och vatten till en sirap',
           es: 'Hervir el azúcar y el agua hasta que se forme almíbar',
           fr: 'Faire bouillir le sucre et l\'eau jusqu\'à ce que le sirop se forme',
           de: 'Zucker und Wasser aufkochen, bis Sirup entsteht',
@@ -794,7 +864,7 @@ export const dominica: Country = {
         },
         {
           en: 'Add cinnamon',
-          sv: 'Lägg till kanel',
+          sv: 'Tillsätt kanel',
           es: 'Agrega canela',
           fr: 'Ajouter la cannelle',
           de: 'Zimt hinzufügen',
@@ -805,7 +875,7 @@ export const dominica: Country = {
         },
         {
           en: 'Cook stirring until mixture thickens',
-          sv: 'Koka under omrörning tills blandningen tjocknar',
+          sv: 'Låt koka under omrörning tills smeten tjocknar',
           es: 'Cocine revolviendo hasta que la mezcla espese',
           fr: 'Cuire en remuant jusqu\'à ce que le mélange épaississe',
           de: 'Unter Rühren kochen, bis die Mischung eindickt',
@@ -816,7 +886,7 @@ export const dominica: Country = {
         },
         {
           en: 'Drop spoonfuls onto greased tray',
-          sv: 'Släpp skedar på en smord bricka',
+          sv: 'Klicka ut smeten med en sked på en smord plåt',
           es: 'Deje caer cucharadas en una bandeja engrasada',
           fr: 'Déposer des cuillerées sur un plateau graissé',
           de: 'Löffelweise auf das gefettete Blech geben',
@@ -903,7 +973,17 @@ export const dominica: Country = {
           nl: 'Geothermische energie',
           pt: 'Energia geotérmica',
         },
-        year: '2020s',
+        year: {
+          en: '2020s',
+          sv: '2020-talet',
+          es: 'Década de 2020',
+          fr: 'Années 2020',
+          de: '2020er',
+          it: 'Anni 2020',
+          pl: 'Lata 2020.',
+          nl: 'Jaren 2020',
+          pt: 'Década de 2020',
+        },
         description: {
           en: 'Developing geothermal power from volcanic activity to become the first climate-resilient nation',
           sv: 'Utveckla geotermisk kraft från vulkanisk aktivitet för att bli den första klimattåliga nationen',
@@ -953,7 +1033,17 @@ export const dominica: Country = {
           nl: 'Ecotoerismemodel',
           pt: 'Modelo de Ecoturismo',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Pioneering sustainable tourism focused on nature preservation',
           sv: 'Banbrytande hållbar turism med fokus på naturvård',
@@ -1033,7 +1123,7 @@ export const dominica: Country = {
         id: 'dominica-q2',
         question: {
           en: 'What is Dominica nicknamed?',
-          sv: 'Vad heter Dominica?',
+          sv: 'Vilket smeknamn har Dominica?',
           es: '¿Cómo se apoda a Dominica?',
           fr: 'Quel est le surnom de la Dominique ?',
           de: 'Welchen Spitznamen trägt Dominica?',
@@ -1045,7 +1135,7 @@ export const dominica: Country = {
         options: [
           {
             en: 'Spice Island',
-            sv: 'Spice Island',
+            sv: 'Kryddön',
             es: 'Isla de las Especias',
             fr: 'Île aux épices',
             de: 'Gewürzinsel',
@@ -1056,7 +1146,7 @@ export const dominica: Country = {
           },
           {
             en: 'Nature Island',
-            sv: 'Nature Island',
+            sv: 'Naturön',
             es: 'Isla de la Naturaleza',
             fr: 'Île naturelle',
             de: 'Naturinsel',
@@ -1078,7 +1168,7 @@ export const dominica: Country = {
           },
           {
             en: 'Emerald Isle',
-            sv: 'Emerald Isle',
+            sv: 'Smaragdön',
             es: 'Isla Esmeralda',
             fr: 'Île d\'Émeraude',
             de: 'Smaragdinsel',

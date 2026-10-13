@@ -264,7 +264,17 @@ export const france: Country = {
     history: [
       {
         year: '843',
-        title: 'Treaty of Verdun',
+        title: {
+          en: 'Treaty of Verdun',
+          sv: 'Fördraget i Verdun',
+          es: 'Tratado de Verdún',
+          fr: 'Traité de Verdun',
+          de: 'Vertrag von Verdun',
+          it: 'Trattato di Verdun',
+          pl: 'Traktat w Verdun',
+          nl: 'Verdrag van Verdun',
+          pt: 'Tratado de Verdun',
+        },
         description: {
           en: 'The Carolingian Empire was divided, creating the foundation for modern France.',
           sv: 'Det karolingiska riket delades och skapade grunden för det moderna Frankrike.',
@@ -279,7 +289,17 @@ export const france: Country = {
       },
       {
         year: '1789',
-        title: 'French Revolution',
+        title: {
+          en: 'French Revolution',
+          sv: 'Franska revolutionen',
+          es: 'Revolución francesa',
+          fr: 'Révolution française',
+          de: 'Französische Revolution',
+          it: 'Rivoluzione francese',
+          pl: 'Rewolucja francuska',
+          nl: 'Franse Revolutie',
+          pt: 'Revolução Francesa',
+        },
         description: {
           en: 'The overthrow of the monarchy led to the Declaration of the Rights of Man and ideals of liberty, equality, and fraternity.',
           sv: 'Störtandet av monarkin ledde till deklarationen om mänskliga rättigheter och ideal om frihet, jämlikhet och broderskap.',
@@ -294,7 +314,17 @@ export const france: Country = {
       },
       {
         year: '1804',
-        title: 'Napoleonic Era',
+        title: {
+          en: 'Napoleonic Era',
+          sv: 'Napoleontiden',
+          es: 'Época napoleónica',
+          fr: 'Époque napoléonienne',
+          de: 'Napoleonische Ära',
+          it: 'Età napoleonica',
+          pl: 'Epoka napoleońska',
+          nl: 'Napoleontische tijd',
+          pt: 'Era napoleônica',
+        },
         description: {
           en: 'Napoleon Bonaparte crowned himself Emperor and transformed Europe through military conquest and legal reform.',
           sv: 'Napoleon Bonaparte krönte sig själv till kejsare och förvandlade Europa genom militär erövring och juridisk reform.',
@@ -308,8 +338,28 @@ export const france: Country = {
         },
       },
       {
-        year: '1944-Present',
-        title: 'Modern France',
+        year: {
+          en: '1944-Present',
+          sv: '1944–idag',
+          es: '1944–actualidad',
+          fr: '1944–aujourd\'hui',
+          de: '1944–heute',
+          it: '1944–oggi',
+          pl: '1944–obecnie',
+          nl: '1944–heden',
+          pt: '1944–presente',
+        },
+        title: {
+          en: 'Modern France',
+          sv: 'Det moderna Frankrike',
+          es: 'Francia moderna',
+          fr: 'La France moderne',
+          de: 'Das moderne Frankreich',
+          it: 'La Francia moderna',
+          pl: 'Współczesna Francja',
+          nl: 'Modern Frankrijk',
+          pt: 'França moderna',
+        },
         description: {
           en: 'After liberation in WWII, France became a founding member of the EU and a major global power.',
           sv: 'Efter befrielsen under andra världskriget blev Frankrike en av grundarna av EU och en stormakt.',
@@ -549,7 +599,17 @@ export const france: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-June and September-October for pleasant weather and fewer crowds.',
           sv: 'April-juni och september-oktober för behagligt väder och mindre publik.',
@@ -563,7 +623,17 @@ export const france: Country = {
         },
       },
       {
-        item: 'Basic French phrases',
+        item: {
+          en: 'Basic French phrases',
+          sv: 'Grundläggande fraser på franska',
+          es: 'Frases básicas en francés',
+          fr: 'Phrases de base en français',
+          de: 'Wichtige Redewendungen auf Französisch',
+          it: 'Frasi di base in francese',
+          pl: 'Podstawowe zwroty po francusku',
+          nl: 'Basiszinnen in het Frans',
+          pt: 'Frases básicas em francês',
+        },
         description: {
           en: 'Learning "Bonjour", "Merci", and "Pardon" goes a long way.',
           sv: 'Att lära sig "Bonjour", "Merci" och "Pardon" räcker långt.',
@@ -577,7 +647,17 @@ export const france: Country = {
         },
       },
       {
-        item: 'Comfortable walking shoes',
+        item: {
+          en: 'Comfortable walking shoes',
+          sv: 'Bekväma promenadskor',
+          es: 'Calzado cómodo para caminar',
+          fr: 'Chaussures de marche confortables',
+          de: 'Bequemes Schuhwerk',
+          it: 'Scarpe comode da passeggio',
+          pl: 'Wygodne buty do chodzenia',
+          nl: 'Comfortabele wandelschoenen',
+          pt: 'Calçados confortáveis para caminhada',
+        },
         description: {
           en: 'Paris and other cities require lots of walking on cobblestones.',
           sv: 'Paris och andra städer kräver mycket promenader på kullerstenar.',
@@ -591,7 +671,17 @@ export const france: Country = {
         },
       },
       {
-        item: 'Museum pass',
+        item: {
+          en: 'Museum pass',
+          sv: 'Museipass',
+          es: 'Pase de museos',
+          fr: 'Pass musées',
+          de: 'Museumspass',
+          it: 'Pass musei',
+          pl: 'Karnet muzealny',
+          nl: 'Museumpas',
+          pt: 'Passe de museus',
+        },
         description: {
           en: 'Paris Museum Pass saves money and time at major attractions.',
           sv: 'Paris Museum Pass sparar pengar och tid vid stora attraktioner.',
@@ -605,7 +695,17 @@ export const france: Country = {
         },
       },
       {
-        item: 'Power adapter',
+        item: {
+          en: 'Power adapter',
+          sv: 'Reseadapter',
+          es: 'Adaptador de enchufe',
+          fr: 'Adaptateur de prise',
+          de: 'Reiseadapter',
+          it: 'Adattatore per prese',
+          pl: 'Adapter do gniazdek',
+          nl: 'Reisstekker',
+          pt: 'Adaptador de tomada',
+        },
         description: {
           en: 'France uses Type E plugs with 230V.',
           sv: 'Frankrike använder typ E-kontakter med 230V.',
@@ -619,7 +719,17 @@ export const france: Country = {
         },
       },
       {
-        item: 'Cash for small purchases',
+        item: {
+          en: 'Cash for small purchases',
+          sv: 'Kontanter för småköp',
+          es: 'Efectivo para compras pequeñas',
+          fr: 'Espèces pour les petits achats',
+          de: 'Bargeld für kleine Einkäufe',
+          it: 'Contanti per piccoli acquisti',
+          pl: 'Gotówka na drobne zakupy',
+          nl: 'Contant geld voor kleine aankopen',
+          pt: 'Dinheiro para pequenas compras',
+        },
         description: {
           en: 'Some cafés and markets prefer cash for small transactions.',
           sv: 'Vissa kaféer och marknader föredrar kontanter för små transaktioner.',
@@ -637,7 +747,7 @@ export const france: Country = {
       id: 'france-main',
       name: {
         en: 'Coq au Vin',
-        sv: 'Coq au Vin',
+        sv: 'Coq au vin',
         es: 'Coq al vino',
         fr: 'Coq au Vin',
         de: 'Coq au Vin',
@@ -648,7 +758,7 @@ export const france: Country = {
       },
       description: {
         en: 'Classic French dish of chicken braised in red wine with mushrooms, onions, and bacon',
-        sv: 'Klassisk fransk rätt med kyckling bräserad i rött vin med svamp, lök och bacon',
+        sv: 'Klassisk fransk rätt med kyckling som bräseras i rödvin med champinjoner, lök och bacon',
         es: 'Plato clásico francés de pollo estofado en vino tinto con champiñones, cebolla y tocino',
         fr: 'Plat français classique de poulet braisé au vin rouge avec champignons, oignons et bacon',
         de: 'Klassisches französisches Gericht aus in Rotwein geschmortem Hühnchen mit Pilzen, Zwiebeln und Speck',
@@ -690,7 +800,7 @@ export const france: Country = {
         {
           name: {
             en: 'Red wine (Burgundy)',
-            sv: 'Rött vin (Bourgogne)',
+            sv: 'Rödvin (gärna bourgogne)',
             es: 'Vino tinto (Borgoña)',
             fr: 'Vin rouge (Bourgogne)',
             de: 'Rotwein (Burgunder)',
@@ -705,7 +815,7 @@ export const france: Country = {
         {
           name: {
             en: 'Bacon lardons',
-            sv: 'Baconlardon',
+            sv: 'Bacontärningar',
             es: 'Lardons de tocino',
             fr: 'Lardons au bacon',
             de: 'Speckschmalz',
@@ -732,7 +842,7 @@ export const france: Country = {
           amount: 12,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -745,7 +855,7 @@ export const france: Country = {
         {
           name: {
             en: 'Button mushrooms',
-            sv: 'Knappsvamp',
+            sv: 'Champinjoner',
             es: 'Champiñones',
             fr: 'Champignons de Paris',
             de: 'Champignons',
@@ -772,7 +882,7 @@ export const france: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -785,7 +895,7 @@ export const france: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -810,7 +920,7 @@ export const france: Country = {
         {
           name: {
             en: 'Chicken stock',
-            sv: 'Kycklingfond',
+            sv: 'Kycklingbuljong',
             es: 'Caldo de pollo',
             fr: 'Bouillon de poulet',
             de: 'Hühnerbrühe',
@@ -887,7 +997,7 @@ export const france: Country = {
         },
         {
           en: 'In a large Dutch oven, cook bacon until crispy, then remove',
-          sv: 'Stek bacon i en stor holländsk ugn tills det är knaprigt, ta sedan bort',
+          sv: 'Stek baconet knaprigt i en stor gjutjärnsgryta och lyft sedan upp det',
           es: 'En una olla grande, cocine el tocino hasta que esté crujiente, luego retírelo',
           fr: 'Dans une grande cocotte, cuire le bacon jusqu\'à ce qu\'il soit croustillant, puis retirer',
           de: 'Den Speck in einem großen Schmortopf knusprig braten und dann',
@@ -898,7 +1008,7 @@ export const france: Country = {
         },
         {
           en: 'Brown chicken pieces in bacon fat on all sides, then remove',
-          sv: 'Bryn kycklingbitar i baconfett på alla sidor, ta sedan bort',
+          sv: 'Bryn kycklingbitarna runt om i baconfettet och lyft sedan upp dem',
           es: 'Dore los trozos de pollo en grasa de tocino por todos lados y luego retírelos',
           fr: 'Faire dorer les morceaux de poulet dans la graisse de bacon de tous les côtés, puis retirer',
           de: 'herausnehmen Hähnchenstücke im Speckfett von allen Seiten anbraten, dann herausnehmen',
@@ -909,7 +1019,7 @@ export const france: Country = {
         },
         {
           en: 'Add pearl onions and mushrooms, sauté until golden',
-          sv: 'Tillsätt pärllök och svamp, fräs tills de är gyllene',
+          sv: 'Tillsätt pärllöken och champinjonerna och fräs tills de är gyllene',
           es: 'Agregue las cebollas perla y los champiñones, saltee hasta que estén dorados',
           fr: 'Ajouter les oignons perlés et les champignons, faire revenir jusqu\'à ce qu\'ils soient dorés',
           de: 'Perlzwiebeln und Champignons dazugeben und goldbraun anbraten',
@@ -920,7 +1030,7 @@ export const france: Country = {
         },
         {
           en: 'Add garlic and flour, cook for 1 minute',
-          sv: 'Tillsätt vitlök och mjöl, koka i 1 minut',
+          sv: 'Tillsätt vitlök och vetemjöl och låt fräsa i 1 minut',
           es: 'Agrega el ajo y la harina, cocina por 1 minuto',
           fr: 'Ajouter l\'ail et la farine, cuire 1 minute',
           de: 'Knoblauch und Mehl hinzufügen, 1 Minute kochen lassen',
@@ -931,7 +1041,7 @@ export const france: Country = {
         },
         {
           en: 'Pour in red wine and stock, add tomato paste and thyme',
-          sv: 'Häll i rött vin och fond, tillsätt tomatpuré och timjan',
+          sv: 'Häll i rödvin och buljong och tillsätt tomatpuré och timjan',
           es: 'Vierta el vino tinto y el caldo, agregue la pasta de tomate y el tomillo',
           fr: 'Versez le vin rouge et le bouillon, ajoutez le concentré de tomate et le thym',
           de: 'Rotwein und Brühe angießen, Tomatenmark und Thymian dazugeben',
@@ -942,7 +1052,7 @@ export const france: Country = {
         },
         {
           en: 'Return chicken and bacon to pot, bring to simmer',
-          sv: 'Lägg tillbaka kyckling och bacon i grytan, låt sjuda',
+          sv: 'Lägg tillbaka kycklingen och baconet i grytan och låt det börja sjuda',
           es: 'Regrese el pollo y el tocino a la olla y cocine a fuego lento',
           fr: 'Remettre le poulet et le bacon dans la casserole, porter à ébullition',
           de: 'Hähnchen und Speck zurück in den Topf geben und zum Köcheln bringen',
@@ -953,7 +1063,7 @@ export const france: Country = {
         },
         {
           en: 'Cover and cook in 325°F oven for 1 hour until chicken is tender',
-          sv: 'Täck över och tillaga i 325°F ugn i 1 timme tills kycklingen är mjuk',
+          sv: 'Lägg på locket och tillaga i ugnen på 160°C i 1 timme, tills kycklingen är mör',
           es: 'Cubra y cocine en el horno a 325°F durante 1 hora hasta que el pollo esté tierno',
           fr: 'Couvrir et cuire au four à 325°F pendant 1 heure jusqu\'à ce que le poulet soit tendre',
           de: 'Abdecken und 1 Stunde lang im 325 °F heißen Ofen garen, bis das Hähnchen zart ist',
@@ -964,7 +1074,7 @@ export const france: Country = {
         },
         {
           en: 'Remove chicken, reduce sauce if needed',
-          sv: 'Ta bort kycklingen, reducera såsen om det behövs',
+          sv: 'Lyft upp kycklingen och reducera såsen vid behov',
           es: 'Retire el pollo, reduzca la salsa si es necesario',
           fr: 'Retirer le poulet, réduire la sauce si besoin',
           de: 'Hähnchen herausnehmen, Soße bei Bedarf reduzieren',
@@ -975,7 +1085,7 @@ export const france: Country = {
         },
         {
           en: 'Serve with crusty bread or mashed potatoes',
-          sv: 'Servera med knaprigt bröd eller potatismos',
+          sv: 'Servera med frasigt bröd eller potatismos',
           es: 'Servir con pan crujiente o puré de patatas',
           fr: 'Servir avec du pain croustillant ou de la purée de pommes de terre',
           de: 'Mit knusprigem Brot oder Kartoffelpüree servieren',
@@ -991,7 +1101,7 @@ export const france: Country = {
       id: 'france-dessert',
       name: {
         en: 'Crème Brûlée',
-        sv: 'Crème Brûlée',
+        sv: 'Crème brûlée',
         es: 'Crème Brulée',
         fr: 'Crème Brûlée',
         de: 'Crème Brûlée',
@@ -1002,7 +1112,7 @@ export const france: Country = {
       },
       description: {
         en: 'Silky vanilla custard topped with caramelized sugar crust',
-        sv: 'Silkeslen vaniljkräm toppad med karamelliserad sockerskorpa',
+        sv: 'Silkeslen vaniljkräm med ett krispigt täcke av karamelliserat socker',
         es: 'Natillas sedosas de vainilla cubiertas con una costra de azúcar caramelizada',
         fr: 'Crème anglaise soyeuse à la vanille garnie d\'une croûte de sucre caramélisée',
         de: 'Seidiger Vanillepudding mit karamellisierter Zuckerkruste',
@@ -1029,7 +1139,7 @@ export const france: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -1056,7 +1166,7 @@ export const france: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1096,7 +1206,7 @@ export const france: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1109,7 +1219,7 @@ export const france: Country = {
         {
           name: {
             en: 'Extra sugar for topping',
-            sv: 'Extra socker till topping',
+            sv: 'Extra socker att strö över',
             es: 'Azúcar extra para cubrir',
             fr: 'Sucre supplémentaire pour la garniture',
             de: 'Extra Zucker zum Bestreuen',
@@ -1125,7 +1235,7 @@ export const france: Country = {
       steps: [
         {
           en: 'Preheat oven to 325°F',
-          sv: 'Värm ugnen till 325°F',
+          sv: 'Sätt ugnen på 160°C',
           es: 'Precalienta el horno a 325°F',
           fr: 'Préchauffer le four à 325°F',
           de: 'Ofen auf 325°F vorheizen',
@@ -1136,7 +1246,7 @@ export const france: Country = {
         },
         {
           en: 'Split vanilla bean and scrape seeds into cream',
-          sv: 'Dela vaniljstången och skrapa frön till grädde',
+          sv: 'Dela vaniljstången på längden och skrapa ner fröna i grädden',
           es: 'Divida la vaina de vainilla y raspe las semillas hasta obtener la crema',
           fr: 'Fendre la gousse de vanille et gratter les graines pour en faire de la crème',
           de: 'Vanilleschote aufschneiden und das Mark in die Sahne kratzen',
@@ -1147,7 +1257,7 @@ export const france: Country = {
         },
         {
           en: 'Heat cream with vanilla until just simmering',
-          sv: 'Värm grädde med vanilj tills det precis sjuder',
+          sv: 'Värm grädden med vaniljen tills den precis börjar sjuda',
           es: 'Calentar la nata con vainilla hasta que hierva a fuego lento',
           fr: 'Chauffer la crème avec la vanille jusqu\'à ce qu\'elle frémisse',
           de: 'Sahne mit Vanille erhitzen, bis sie gerade noch köchelt',
@@ -1158,7 +1268,7 @@ export const france: Country = {
         },
         {
           en: 'Whisk egg yolks with sugar until pale',
-          sv: 'Vispa äggulor med socker blekt',
+          sv: 'Vispa äggulorna och sockret tills smeten blir ljus',
           es: 'Batir las yemas de huevo con el azúcar hasta que estén pálidas',
           fr: 'Fouetter les jaunes d\'œufs avec le sucre jusqu\'à ce qu\'ils soient pâles',
           de: 'Eigelb mit Zucker schaumig schlagen',
@@ -1169,7 +1279,7 @@ export const france: Country = {
         },
         {
           en: 'Slowly pour hot cream into eggs while whisking',
-          sv: 'Häll långsamt varm grädde i äggen under vispning',
+          sv: 'Häll den varma grädden i en tunn stråle över äggulorna under vispning',
           es: 'Vierta lentamente la crema caliente en los huevos mientras bate',
           fr: 'Versez lentement la crème chaude dans les œufs en fouettant',
           de: 'Heiße Sahne langsam unter Rühren in die Eier gießen',
@@ -1180,7 +1290,7 @@ export const france: Country = {
         },
         {
           en: 'Strain mixture and divide among ramekins',
-          sv: 'Sila blandningen och dela mellan ramekins',
+          sv: 'Sila smeten och fördela den i små ugnssäkra portionsformar',
           es: 'Cuele la mezcla y divídala entre moldes',
           fr: 'Filtrer le mélange et répartir dans les ramequins',
           de: 'Die Mischung abseihen und auf die Auflaufförmchen verteilen',
@@ -1191,7 +1301,7 @@ export const france: Country = {
         },
         {
           en: 'Place ramekins in baking dish, add hot water halfway up sides',
-          sv: 'Lägg ramekins i en ugnsform, tillsätt varmt vatten halvvägs upp på sidorna',
+          sv: 'Ställ formarna i en större ugnsform och häll i hett vatten så att det når halvvägs upp på formarna',
           es: 'Coloque los moldes en una fuente para hornear, agregue agua caliente hasta la mitad de los lados',
           fr: 'Placer les ramequins dans un plat allant au four, ajouter de l\'eau chaude à mi-hauteur',
           de: 'Auflaufförmchen in die Auflaufform geben, heißes Wasser auf halber Höhe hinzufügen',
@@ -1202,7 +1312,7 @@ export const france: Country = {
         },
         {
           en: 'Bake 30-35 minutes until set but still jiggly',
-          sv: 'Grädda i 30-35 minuter tills den stelnat men fortfarande skakigt',
+          sv: 'Grädda i 30–35 minuter tills krämen har stannat men fortfarande dallrar lite i mitten',
           es: 'Hornee de 30 a 35 minutos hasta que esté listo pero aún tembloroso',
           fr: 'Cuire au four 30 à 35 minutes jusqu\'à ce qu\'il soit pris mais toujours tremblant',
           de: '30-35 Minuten backen, bis es fest, aber noch wackelig ist',
@@ -1224,7 +1334,7 @@ export const france: Country = {
         },
         {
           en: 'Before serving, sprinkle sugar on top and caramelize with torch',
-          sv: 'Innan servering, strö socker på toppen och karamellisera med fackla',
+          sv: 'Strö socker över krämen strax före servering och karamellisera det med en gasbrännare',
           es: 'Antes de servir, espolvorear azúcar por encima y caramelizar con soplete',
           fr: 'Avant de servir, saupoudrer de sucre et caraméliser au chalumeau',
           de: 'Vor dem Servieren Zucker darüber streuen und mit dem Brenner karamellisieren',

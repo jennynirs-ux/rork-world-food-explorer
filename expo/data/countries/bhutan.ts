@@ -263,8 +263,28 @@ export const bhutan: Country = {
     },
     history: [
       {
-        year: '7th Century',
-        title: 'Buddhism Introduction',
+        year: {
+          en: '7th Century',
+          sv: '600-talet',
+          es: 'siglo VII',
+          fr: 'VIIe siècle',
+          de: '7. Jahrhundert',
+          it: 'VII secolo',
+          pl: 'VII wiek',
+          nl: '7e eeuw',
+          pt: 'século VII',
+        },
+        title: {
+          en: 'Buddhism Introduction',
+          sv: 'Buddhismen införs',
+          es: 'Llegada del budismo',
+          fr: 'Arrivée du bouddhisme',
+          de: 'Einführung des Buddhismus',
+          it: 'Arrivo del buddismo',
+          pl: 'Wprowadzenie buddyzmu',
+          nl: 'Komst van het boeddhisme',
+          pt: 'Chegada do budismo',
+        },
         description: {
           en: 'Guru Rinpoche brought Buddhism to Bhutan, establishing monasteries and converting the region.',
           sv: 'Guru Rinpoche förde buddhismen till Bhutan, etablerade kloster och omvandlade regionen.',
@@ -279,7 +299,17 @@ export const bhutan: Country = {
       },
       {
         year: '1616',
-        title: 'Unification',
+        title: {
+          en: 'Unification',
+          sv: 'Enandet',
+          es: 'Unificación',
+          fr: 'Unification',
+          de: 'Einigung',
+          it: 'Unificazione',
+          pl: 'Zjednoczenie',
+          nl: 'Eenwording',
+          pt: 'Unificação',
+        },
         description: {
           en: 'Ngawang Namgyal unified Bhutan as a nation-state and established the dual system of government combining religious and civil administration.',
           sv: 'Ngawang Namgyal enade Bhutan som en nationalstat och etablerade det dubbla regeringssystemet som kombinerar religiös och civil administration.',
@@ -294,7 +324,17 @@ export const bhutan: Country = {
       },
       {
         year: '1907',
-        title: 'Monarchy Established',
+        title: {
+          en: 'Monarchy Established',
+          sv: 'Monarkin grundas',
+          es: 'Establecimiento de la monarquía',
+          fr: 'Instauration de la monarchie',
+          de: 'Gründung der Monarchie',
+          it: 'Instaurazione della monarchia',
+          pl: 'Ustanowienie monarchii',
+          nl: 'Instelling van de monarchie',
+          pt: 'Instauração da monarquia',
+        },
         description: {
           en: 'The Wangchuck dynasty was established, creating the hereditary monarchy that continues today.',
           sv: 'Wangchuck-dynastin etablerades och skapade den ärftliga monarkin som fortsätter idag.',
@@ -334,7 +374,17 @@ export const bhutan: Country = {
       },
       {
         year: '2008',
-        title: 'Democratic Constitution',
+        title: {
+          en: 'Democratic Constitution',
+          sv: 'Demokratisk konstitution',
+          es: 'Constitución democrática',
+          fr: 'Constitution démocratique',
+          de: 'Demokratische Verfassung',
+          it: 'Costituzione democratica',
+          pl: 'Demokratyczna konstytucja',
+          nl: 'Democratische grondwet',
+          pt: 'Constituição democrática',
+        },
         description: {
           en: 'Bhutan transitioned from absolute monarchy to constitutional democracy while maintaining the monarchy.',
           sv: 'Bhutan övergick från absolut monarki till konstitutionell demokrati samtidigt som monarkin bibehölls.',
@@ -502,7 +552,7 @@ export const bhutan: Country = {
       {
         name: {
           en: 'Dochula Pass',
-          sv: 'Dochula Pass',
+          sv: 'Dochulapasset',
           es: 'Paso Dochula',
           fr: 'Col Dochula',
           de: 'Dochula-Pass',
@@ -526,7 +576,7 @@ export const bhutan: Country = {
       {
         name: {
           en: 'Phobjikha Valley',
-          sv: 'Phobjikha Valley',
+          sv: 'Phobjikhadalen',
           es: 'Valle de Phobjikha',
           fr: 'Vallée de Phobjikha',
           de: 'Phobjikha-Tal',
@@ -574,7 +624,17 @@ export const bhutan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa and daily fee',
+        item: {
+          en: 'Visa and daily fee',
+          sv: 'Visum och dagsavgift',
+          es: 'Visa y tasa diaria',
+          fr: 'Visa et taxe journalière',
+          de: 'Visum und Tagesgebühr',
+          it: 'Visto e tassa giornaliera',
+          pl: 'Wiza i opłata dzienna',
+          nl: 'Visum en dagelijkse heffing',
+          pt: 'Visto e taxa diária',
+        },
         description: {
           en: 'Pre-arranged tour required for most nationalities. Daily Sustainable Development Fee applies.',
           sv: 'Förarrangerad rundtur krävs för de flesta nationaliteter. Daglig avgift för hållbar utveckling tillkommer.',
@@ -588,7 +648,17 @@ export const bhutan: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'March-May and September-November for clear skies and festivals.',
           sv: 'Mars-maj och september-november för klar himmel och festivaler.',
@@ -602,7 +672,17 @@ export const bhutan: Country = {
         },
       },
       {
-        item: 'Altitude preparation',
+        item: {
+          en: 'Altitude preparation',
+          sv: 'Förberedelser för hög höjd',
+          es: 'Preparación para la altitud',
+          fr: 'Préparation à l\'altitude',
+          de: 'Vorbereitung auf große Höhen',
+          it: 'Preparazione all\'altitudine',
+          pl: 'Przygotowanie na dużą wysokość',
+          nl: 'Voorbereiding op hoogte',
+          pt: 'Preparação para a altitude',
+        },
         description: {
           en: 'Most areas are 2,000-3,000m elevation. Acclimatize and stay hydrated.',
           sv: 'De flesta områden är 2 000-3 000 m höjd. Acklimatisera dig och håll dig hydrerad.',
@@ -616,7 +696,17 @@ export const bhutan: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Cover shoulders and knees when visiting religious sites. Remove shoes and hats.',
           sv: 'Täck axlar och knän när du besöker religiösa platser. Ta bort skor och hattar.',
@@ -630,7 +720,17 @@ export const bhutan: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Indian rupees widely accepted alongside Ngultrum. Credit cards limited outside Thimphu and Paro.',
           sv: 'Indiska rupier accepteras allmänt tillsammans med Ngultrum. Kreditkort är begränsat utanför Thimphu och Paro.',
@@ -644,7 +744,17 @@ export const bhutan: Country = {
         },
       },
       {
-        item: 'Layers',
+        item: {
+          en: 'Layers',
+          sv: 'Lager på lager',
+          es: 'Vestirse por capas',
+          fr: 'S\'habiller en couches',
+          de: 'Zwiebellook',
+          it: 'Vestirsi a strati',
+          pl: 'Ubranie na cebulkę',
+          nl: 'Laagjes dragen',
+          pt: 'Vestir-se em camadas',
+        },
         description: {
           en: 'Mountain weather changes quickly. Bring warm clothing even in summer.',
           sv: 'Fjällvädret ändras snabbt. Ta med varma kläder även på sommaren.',
@@ -673,7 +783,7 @@ export const bhutan: Country = {
       },
       description: {
         en: 'National dish of chili peppers cooked in cheese sauce',
-        sv: 'Nationalrätt av chilipeppar tillagad i ostsås',
+        sv: 'Bhutans nationalrätt – chili som tillagas i ostsås',
         es: 'Plato nacional de chiles cocidos en salsa de queso',
         fr: 'Plat national de piments cuits dans une sauce au fromage',
         de: 'Nationalgericht aus in Käsesauce gekochten Chilischoten',
@@ -715,7 +825,7 @@ export const bhutan: Country = {
         {
           name: {
             en: 'Bhutanese cheese (or feta)',
-            sv: 'Bhutan ost (eller fetaost)',
+            sv: 'Bhutanesisk ost (eller fetaost)',
             es: 'Queso butanés (o feta)',
             fr: 'Fromage bhoutanais (ou feta)',
             de: 'Bhutanischer Käse (oder Feta)',
@@ -742,7 +852,7 @@ export const bhutan: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -767,7 +877,7 @@ export const bhutan: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -846,7 +956,7 @@ export const bhutan: Country = {
       steps: [
         {
           en: 'Slice chilies lengthwise and remove seeds if preferred',
-          sv: 'Skiva chili på längden och ta bort frön om så önskas',
+          sv: 'Dela chilin på längden och kärna ur den om du vill',
           es: 'Corta los chiles a lo largo y quita las semillas si lo prefieres',
           fr: 'Tranchez les piments dans le sens de la longueur et retirez les graines si vous préférez',
           de: 'Chilis der Länge nach aufschneiden und bei Bedarf Kerne entfernen',
@@ -868,7 +978,7 @@ export const bhutan: Country = {
         },
         {
           en: 'Add chilies and tomatoes, cook 5 minutes',
-          sv: 'Tillsätt chili och tomater, koka 5 minuter',
+          sv: 'Tillsätt chili och tomater och låt koka i 5 minuter',
           es: 'Agrega los chiles y los tomates, cocina 5 minutos',
           fr: 'Ajouter les piments et les tomates, cuire 5 minutes',
           de: 'Chilis und Tomaten hinzufügen, 5 Minuten kochen',
@@ -890,7 +1000,7 @@ export const bhutan: Country = {
         },
         {
           en: 'Crumble cheese into the mixture',
-          sv: 'Smula ner ost i blandningen',
+          sv: 'Smula ner osten i blandningen',
           es: 'Desmenuza el queso en la mezcla',
           fr: 'Émietter le fromage dans le mélange',
           de: 'Käse in die Mischung bröckeln',
@@ -901,7 +1011,7 @@ export const bhutan: Country = {
         },
         {
           en: 'Stir until cheese melts into creamy sauce',
-          sv: 'Rör om tills osten smälter till krämig sås',
+          sv: 'Rör om tills osten har smält till en krämig sås',
           es: 'Revuelva hasta que el queso se derrita y forme una salsa cremosa',
           fr: 'Remuer jusqu\'à ce que le fromage fonde dans la sauce crémeuse',
           de: 'Rühren, bis der Käse zu einer cremigen Sauce schmilzt',
@@ -950,7 +1060,7 @@ export const bhutan: Country = {
       },
       description: {
         en: 'Traditional Bhutanese deep-fried biscuits, often made during Losar (New Year)',
-        sv: 'Traditionella bhutanesiska friterade kex, ofta gjorda under Losar (nyår)',
+        sv: 'Traditionella friterade småkakor från Bhutan som ofta görs till Losar (nyåret)',
         es: 'Galletas fritas tradicionales de Bután, que a menudo se elaboran durante Losar (Año Nuevo)',
         fr: 'Biscuits frits traditionnels bhoutanais, souvent préparés pendant le Losar (Nouvel An)',
         de: 'Traditionelle bhutanische frittierte Kekse, die oft zu Losar (Neujahr) hergestellt werden',
@@ -977,7 +1087,7 @@ export const bhutan: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1049,7 +1159,7 @@ export const bhutan: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1077,7 +1187,7 @@ export const bhutan: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -1092,7 +1202,7 @@ export const bhutan: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -1108,7 +1218,7 @@ export const bhutan: Country = {
       steps: [
         {
           en: 'Mix flour, sugar, baking powder, and cardamom.',
-          sv: 'Blanda mjöl, socker, bakpulver och kardemumma.',
+          sv: 'Blanda vetemjöl, socker, bakpulver och kardemumma.',
           es: 'Mezcle la harina, el azúcar, el polvo para hornear y el cardamomo.',
           fr: 'Mélangez la farine, le sucre, la levure chimique et la cardamome.',
           de: 'Mehl, Zucker, Backpulver und Kardamom mischen.',
@@ -1163,7 +1273,7 @@ export const bhutan: Country = {
         },
         {
           en: 'Cut into decorative shapes or strips.',
-          sv: 'Skär i dekorativa former eller remsor.',
+          sv: 'Skär ut dekorativa former eller skär degen i remsor.',
           es: 'Cortar en formas decorativas o tiras.',
           fr: 'Couper en formes ou en bandes décoratives.',
           de: 'In dekorative Formen oder Streifen schneiden.',
@@ -1174,7 +1284,7 @@ export const bhutan: Country = {
         },
         {
           en: 'Heat oil to 180°C.',
-          sv: 'Värm olja till 180°C.',
+          sv: 'Hetta upp oljan till 180°C.',
           es: 'Calentar el aceite a 180°C.',
           fr: 'Chauffer l\'huile à 180°C.',
           de: 'Öl auf 180°C erhitzen.',
@@ -1185,7 +1295,7 @@ export const bhutan: Country = {
         },
         {
           en: 'Fry khapse until golden and crispy, about 2-3 minutes per side.',
-          sv: 'Stek khapse tills den är gyllene och krispig, ca 2-3 minuter per sida.',
+          sv: 'Fritera kakorna tills de är gyllene och krispiga, ca 2–3 minuter per sida.',
           es: 'Freír el khapse hasta que esté dorado y crujiente, aproximadamente 2-3 minutos por lado.',
           fr: 'Faites frire les khapse jusqu\'à ce qu\'ils soient dorés et croustillants, environ 2-3 minutes de chaque côté.',
           de: 'Khapse braten, bis es goldbraun und knusprig ist, etwa 2-3 Minuten pro Seite.',
@@ -1207,7 +1317,7 @@ export const bhutan: Country = {
         },
         {
           en: 'Store in airtight container, stays crispy for weeks.',
-          sv: 'Förvaras i lufttät behållare, håller sig krispig i flera veckor.',
+          sv: 'Förvara i en lufttät burk – de håller sig krispiga i flera veckor.',
           es: 'Guárdelo en un recipiente hermético; permanece crujiente durante semanas.',
           fr: 'Conserver dans un contenant hermétique, reste croustillant pendant des semaines.',
           de: 'In einem luftdichten Behälter aufbewahren, bleibt wochenlang knusprig.',
@@ -1279,7 +1389,7 @@ export const bhutan: Country = {
         options: [
           {
             en: 'National Wealth',
-            sv: 'National Wealth',
+            sv: 'Nationalförmögenhet',
             es: 'Riqueza Nacional',
             fr: 'Richesse nationale',
             de: 'Nationaler Reichtum',
@@ -1605,7 +1715,7 @@ export const bhutan: Country = {
         options: [
           {
             en: 'Dragon\'s Nest',
-            sv: 'Dragon\'s Nest',
+            sv: 'Drakboet',
             es: 'Nido del Dragón',
             fr: 'Nid du dragon',
             de: 'Drachennest',
@@ -1616,7 +1726,7 @@ export const bhutan: Country = {
           },
           {
             en: 'Tiger\'s Nest',
-            sv: 'Tiger\'s Nest',
+            sv: 'Tigerboet',
             es: 'Nido del tigre',
             fr: 'Nid du Tigre',
             de: 'Tigernest',
@@ -1687,7 +1797,7 @@ export const bhutan: Country = {
         options: [
           {
             en: 'Snow Leopard',
-            sv: 'Snow Leopard',
+            sv: 'Snöleopard',
             es: 'Leopardo de las nieves',
             fr: 'Léopard des neiges',
             de: 'Schneeleopard',

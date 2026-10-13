@@ -220,7 +220,17 @@ export const dominicanRepublic: Country = {
     history: [
       {
         year: '1492',
-        title: 'Columbus Arrival',
+        title: {
+          en: 'Columbus Arrival',
+          sv: 'Columbus ankomst',
+          es: 'Llegada de Colón',
+          fr: 'Arrivée de Colomb',
+          de: 'Ankunft des Kolumbus',
+          it: 'Arrivo di Colombo',
+          pl: 'Przybycie Kolumba',
+          nl: 'Aankomst van Columbus',
+          pt: 'Chegada de Colombo',
+        },
         description: {
           en: 'Christopher Columbus landed on Hispaniola, establishing the first European settlement in the Americas.',
           sv: 'Christopher Columbus landade på Hispaniola och etablerade den första europeiska bosättningen i Amerika.',
@@ -235,7 +245,17 @@ export const dominicanRepublic: Country = {
       },
       {
         year: '1496',
-        title: 'Santo Domingo Founded',
+        title: {
+          en: 'Santo Domingo Founded',
+          sv: 'Santo Domingo grundas',
+          es: 'Fundación de Santo Domingo',
+          fr: 'Fondation de Saint-Domingue',
+          de: 'Gründung von Santo Domingo',
+          it: 'Fondazione di Santo Domingo',
+          pl: 'Założenie Santo Domingo',
+          nl: 'Stichting van Santo Domingo',
+          pt: 'Fundação de Santo Domingo',
+        },
         description: {
           en: 'Santo Domingo became the oldest continuously inhabited European city in the Americas.',
           sv: 'Santo Domingo blev den äldsta kontinuerligt bebodda europeiska staden i Amerika.',
@@ -250,7 +270,17 @@ export const dominicanRepublic: Country = {
       },
       {
         year: '1844',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'The Dominican Republic gained independence from Haiti after 22 years of Haitian rule.',
           sv: 'Dominikanska republiken blev självständigt från Haiti efter 22 år av haitiskt styre.',
@@ -265,7 +295,17 @@ export const dominicanRepublic: Country = {
       },
       {
         year: '1916-1924',
-        title: 'US Occupation',
+        title: {
+          en: 'US Occupation',
+          sv: 'Amerikansk ockupation',
+          es: 'Ocupación estadounidense',
+          fr: 'Occupation américaine',
+          de: 'US-Besatzung',
+          it: 'Occupazione statunitense',
+          pl: 'Okupacja amerykańska',
+          nl: 'Amerikaanse bezetting',
+          pt: 'Ocupação norte-americana',
+        },
         description: {
           en: 'United States occupied the country, influencing its political and economic development.',
           sv: 'USA ockuperade landet och påverkade dess politiska och ekonomiska utveckling.',
@@ -403,7 +443,17 @@ export const dominicanRepublic: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December-April for dry season. August-October is hurricane season.',
           sv: 'December-april för torrperioden. Augusti-oktober är orkansäsong.',
@@ -417,7 +467,17 @@ export const dominicanRepublic: Country = {
         },
       },
       {
-        item: 'Tourist card',
+        item: {
+          en: 'Tourist card',
+          sv: 'Turistkort',
+          es: 'Tarjeta de turista',
+          fr: 'Carte de touriste',
+          de: 'Touristenkarte',
+          it: 'Carta turistica',
+          pl: 'Karta turystyczna',
+          nl: 'Toeristenkaart',
+          pt: 'Cartão de turista',
+        },
         description: {
           en: 'Available on arrival at airports for most nationalities.',
           sv: 'Tillgängligt vid ankomst till flygplatser för de flesta nationaliteter.',
@@ -431,7 +491,17 @@ export const dominicanRepublic: Country = {
         },
       },
       {
-        item: 'Spanish basics',
+        item: {
+          en: 'Spanish basics',
+          sv: 'Grundläggande spanska',
+          es: 'Español básico',
+          fr: 'Notions d\'espagnol',
+          de: 'Grundkenntnisse Spanisch',
+          it: 'Spagnolo di base',
+          pl: 'Podstawy hiszpańskiego',
+          nl: 'Basiskennis Spaans',
+          pt: 'Espanhol básico',
+        },
         description: {
           en: 'English is limited outside tourist areas.',
           sv: 'Engelska är begränsad utanför turistområdena.',
@@ -445,7 +515,17 @@ export const dominicanRepublic: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Strong Caribbean sun requires high SPF.',
           sv: 'Stark karibisk sol kräver hög SPF.',
@@ -546,7 +626,7 @@ export const dominicanRepublic: Country = {
         {
           name: {
             en: 'Plantains',
-            sv: 'Groblad',
+            sv: 'Kokbananer',
             es: 'Plátanos',
             fr: 'Bananes plantains',
             de: 'Kochbananen',
@@ -558,7 +638,7 @@ export const dominicanRepublic: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -583,7 +663,7 @@ export const dominicanRepublic: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -608,7 +688,7 @@ export const dominicanRepublic: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -622,7 +702,7 @@ export const dominicanRepublic: Country = {
       steps: [
         {
           en: 'Cook beans with onions and peppers',
-          sv: 'Koka bönor med lök och paprika',
+          sv: 'Koka bönorna med lök och paprika',
           es: 'Cocinar frijoles con cebolla y pimientos',
           fr: 'Cuire les haricots avec les oignons et les poivrons',
           de: 'Bohnen mit Zwiebeln und Paprika kochen',
@@ -633,7 +713,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Stew meat with tomatoes and spices',
-          sv: 'Gryta kött med tomater och kryddor',
+          sv: 'Låt köttet puttra med tomater och kryddor',
           es: 'Carne guisada con tomates y especias',
           fr: 'Ragoût de viande aux tomates et épices',
           de: 'Fleisch mit Tomaten und Gewürzen dünsten',
@@ -644,7 +724,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Cook rice separately',
-          sv: 'Koka ris separat',
+          sv: 'Koka riset separat',
           es: 'Cocine el arroz por separado',
           fr: 'Cuire le riz séparément',
           de: 'Reis separat kochen',
@@ -655,7 +735,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Fry plantains until golden',
-          sv: 'Stek plantains tills de är gyllene',
+          sv: 'Stek kokbananerna gyllene',
           es: 'Freír los plátanos hasta que estén dorados',
           fr: 'Faire frire les plantains jusqu\'à ce qu\'ils soient dorés',
           de: 'Kochbananen goldbraun braten',
@@ -666,7 +746,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Plate rice, beans, and meat together',
-          sv: 'Tallrik ris, bönor och kött tillsammans',
+          sv: 'Lägg upp ris, bönor och kött på samma tallrik',
           es: 'Plato de arroz, frijoles y carne juntos',
           fr: 'Assiettez le riz, les haricots et la viande ensemble',
           de: 'Reis, Bohnen und Fleisch zusammen anrichten',
@@ -677,7 +757,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Serve with fried plantains and avocado salad',
-          sv: 'Servera med stekt kålbanan och avokadosallad',
+          sv: 'Servera med stekta kokbananer och avokadosallad',
           es: 'Servir con plátanos fritos y ensalada de aguacate',
           fr: 'Servir avec des plantains frits et une salade d\'avocat',
           de: 'Mit gebratenen Kochbananen und Avocadosalat servieren',
@@ -693,7 +773,7 @@ export const dominicanRepublic: Country = {
       id: 'dominican-dessert',
       name: {
         en: 'Tres Leches Cake',
-        sv: 'Tres Leches tårta',
+        sv: 'Tres leches-kaka',
         es: 'Pastel Tres Leches',
         fr: 'Gâteau Tres Leches',
         de: 'Tres-Leches-Kuchen',
@@ -704,7 +784,7 @@ export const dominicanRepublic: Country = {
       },
       description: {
         en: 'Sponge cake soaked in three types of milk',
-        sv: 'Sockerkaka indränkt i tre typer av mjölk',
+        sv: 'Sockerkaka indränkt i tre sorters mjölk',
         es: 'Bizcocho bañado en tres tipos de leche',
         fr: 'Génoise imbibée de trois types de lait',
         de: 'In drei Milchsorten eingeweichter Biskuitkuchen',
@@ -743,7 +823,7 @@ export const dominicanRepublic: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -771,7 +851,7 @@ export const dominicanRepublic: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -786,7 +866,7 @@ export const dominicanRepublic: Country = {
         {
           name: {
             en: 'Evaporated milk',
-            sv: 'Indunstad mjölk',
+            sv: 'Evaporerad mjölk',
             es: 'Leche evaporada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -801,7 +881,7 @@ export const dominicanRepublic: Country = {
         {
           name: {
             en: 'Condensed milk',
-            sv: 'Kondenserad mjölk',
+            sv: 'Sötad kondenserad mjölk',
             es: 'Leche condensada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -816,7 +896,7 @@ export const dominicanRepublic: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -846,7 +926,7 @@ export const dominicanRepublic: Country = {
         {
           name: {
             en: 'Whipped cream for topping',
-            sv: 'Vispad grädde till topping',
+            sv: 'Vispad grädde till garnering',
             es: 'Crema batida para cubrir',
             fr: 'Crème fouettée pour garniture',
             de: 'Schlagsahne zum Garnieren',
@@ -862,7 +942,7 @@ export const dominicanRepublic: Country = {
       steps: [
         {
           en: 'Beat eggs and sugar until fluffy',
-          sv: 'Vispa ägg och socker fluffigt',
+          sv: 'Vispa ägg och socker pösigt',
           es: 'Batir los huevos y el azúcar hasta que queden esponjosos',
           fr: 'Battre les œufs et le sucre jusqu\'à consistance mousseuse',
           de: 'Eier und Zucker schaumig schlagen',
@@ -873,7 +953,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Fold in flour gently',
-          sv: 'Vänd försiktigt ner mjöl',
+          sv: 'Vänd försiktigt ner mjölet',
           es: 'Incorporar la harina suavemente',
           fr: 'Incorporer délicatement la farine',
           de: 'Mehl vorsichtig unterheben',
@@ -884,7 +964,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Bake in greased pan at 180°C for 30 minutes',
-          sv: 'Grädda i smord form vid 180°C i 30 minuter',
+          sv: 'Häll smeten i en smord form och grädda i 180°C i 30 minuter',
           es: 'Hornear en molde engrasado a 180°C durante 30 minutos',
           fr: 'Cuire au four dans un moule beurré à 180°C pendant 30 minutes',
           de: 'In einer gefetteten Pfanne bei 180°C 30 Minuten backen',
@@ -906,7 +986,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Mix three milks together with vanilla',
-          sv: 'Blanda tre mjölkar tillsammans med vanilj',
+          sv: 'Blanda de tre mjölksorterna med vaniljen',
           es: 'Mezclar tres leches junto con la vainilla',
           fr: 'Mélangez trois laits avec de la vanille',
           de: 'Mischen Sie drei Milchsorten mit Vanille',
@@ -917,7 +997,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Poke holes in cake with fork',
-          sv: 'Stick hål i tårtan med gaffel',
+          sv: 'Stick hål i kakan med en gaffel',
           es: 'Haz agujeros en el pastel con un tenedor',
           fr: 'Percez des trous dans le gâteau avec une fourchette',
           de: 'Mit der Gabel Löcher in den Kuchen stechen',
@@ -939,7 +1019,7 @@ export const dominicanRepublic: Country = {
         },
         {
           en: 'Refrigerate overnight',
-          sv: 'Kyl över natten',
+          sv: 'Ställ i kylen över natten',
           es: 'Refrigere durante la noche',
           fr: 'Réfrigérer toute la nuit',
           de: 'Über Nacht kühl stellen',
@@ -1016,7 +1096,17 @@ export const dominicanRepublic: Country = {
           nl: 'Merenguemuziek',
           pt: 'Música merengue',
         },
-        year: '19th Century',
+        year: {
+          en: '19th Century',
+          sv: '1800-talet',
+          es: 'Siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'Século XIX',
+        },
         description: {
           en: 'Created the iconic merengue dance and music style that spread worldwide',
           sv: 'Skapade den ikoniska merengue-dans- och musikstilen som spreds över hela världen',
@@ -1041,7 +1131,17 @@ export const dominicanRepublic: Country = {
           nl: 'Bachata',
           pt: 'Bachata',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'Developed bachata music genre that became globally popular',
           sv: 'Utvecklade bachatamusikgenren som blev globalt populär',
@@ -1066,7 +1166,17 @@ export const dominicanRepublic: Country = {
           nl: 'Uitmuntendheid in honkbal',
           pt: 'Excelência no beisebol',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Produces more MLB players per capita than any other country',
           sv: 'Producerar fler MLB-spelare per capita än något annat land',
@@ -1091,7 +1201,17 @@ export const dominicanRepublic: Country = {
           nl: 'Productie van premium sigaren',
           pt: 'Produção de charutos premium',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'Became world leader in hand-rolled premium cigars',
           sv: 'Blev världsledande inom handrullade premiumcigarrer',

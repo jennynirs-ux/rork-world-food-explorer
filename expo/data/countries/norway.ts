@@ -267,7 +267,17 @@ export const norway: Country = {
       },
       {
         year: '1905',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Norway peacefully gained independence from Sweden after centuries of union.',
           sv: 'Norge fick fredligt självständighet från Sverige efter århundraden av union.',
@@ -281,8 +291,28 @@ export const norway: Country = {
         },
       },
       {
-        year: '1970s',
-        title: 'Oil Discovery',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
+        title: {
+          en: 'Oil Discovery',
+          sv: 'Oljefynd',
+          es: 'Descubrimiento de petróleo',
+          fr: 'Découverte du pétrole',
+          de: 'Entdeckung des Erdöls',
+          it: 'Scoperta del petrolio',
+          pl: 'Odkrycie ropy naftowej',
+          nl: 'Olievondst',
+          pt: 'Descoberta de petróleo',
+        },
         description: {
           en: 'Discovery of North Sea oil transformed Norway into one of the world\'s wealthiest nations.',
           sv: 'Upptäckten av Nordsjöolja förvandlade Norge till en av världens rikaste nationer.',
@@ -472,7 +502,17 @@ export const norway: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June-August for midnight sun, September-March for Northern Lights.',
           sv: 'Juni-augusti för midnattssol, september-mars för norrsken.',
@@ -486,7 +526,17 @@ export const norway: Country = {
         },
       },
       {
-        item: 'Warm layers',
+        item: {
+          en: 'Warm layers',
+          sv: 'Varma kläder i lager',
+          es: 'Capas de abrigo',
+          fr: 'Vêtements chauds superposables',
+          de: 'Warme Kleidungsschichten',
+          it: 'Abiti caldi a strati',
+          pl: 'Ciepłe warstwy',
+          nl: 'Warme laagjes',
+          pt: 'Agasalhos em camadas',
+        },
         description: {
           en: 'Weather can be cold even in summer, especially in the north.',
           sv: 'Vädret kan vara kallt även på sommaren, särskilt i norr.',
@@ -500,7 +550,17 @@ export const norway: Country = {
         },
       },
       {
-        item: 'Budget planning',
+        item: {
+          en: 'Budget planning',
+          sv: 'Budgetplanering',
+          es: 'Planificación del presupuesto',
+          fr: 'Planifier son budget',
+          de: 'Budgetplanung',
+          it: 'Pianificare il budget',
+          pl: 'Planowanie budżetu',
+          nl: 'Budgetplanning',
+          pt: 'Planejamento do orçamento',
+        },
         description: {
           en: 'Norway is expensive, plan accordingly.',
           sv: 'Norge är dyrt, planera därefter.',
@@ -514,7 +574,17 @@ export const norway: Country = {
         },
       },
       {
-        item: 'Outdoor gear',
+        item: {
+          en: 'Outdoor gear',
+          sv: 'Friluftsutrustning',
+          es: 'Equipo para el aire libre',
+          fr: 'Équipement de plein air',
+          de: 'Outdoor-Ausrüstung',
+          it: 'Attrezzatura outdoor',
+          pl: 'Sprzęt outdoorowy',
+          nl: 'Outdooruitrusting',
+          pt: 'Equipamento outdoor',
+        },
         description: {
           en: 'Hiking boots and rain gear for outdoor activities.',
           sv: 'Vandringsskor och regnkläder för utomhusaktiviteter.',
@@ -570,7 +640,7 @@ export const norway: Country = {
         {
           name: {
             en: 'Lamb shoulder',
-            sv: 'Lammskuldra',
+            sv: 'Lammbog',
             es: 'Paletilla de cordero',
             fr: 'Épaule d\'agneau',
             de: 'Lammschulter',
@@ -625,7 +695,7 @@ export const norway: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -665,7 +735,7 @@ export const norway: Country = {
         {
           name: {
             en: 'Water or stock',
-            sv: 'Vatten eller lager',
+            sv: 'Vatten eller buljong',
             es: 'Agua o caldo',
             fr: 'Eau ou bouillon',
             de: 'Wasser oder Brühe',
@@ -681,7 +751,7 @@ export const norway: Country = {
       steps: [
         {
           en: 'Cut lamb into large chunks with bone',
-          sv: 'Skär lamm i stora bitar med ben',
+          sv: 'Skär lammet i stora bitar med benet kvar',
           es: 'Cortar el cordero en trozos grandes con hueso',
           fr: 'Couper l\'agneau en gros morceaux avec l\'os',
           de: 'Lammfleisch mit Knochen in große Stücke schneiden',
@@ -692,7 +762,7 @@ export const norway: Country = {
         },
         {
           en: 'Cut cabbage into large pieces',
-          sv: 'Skär kål i stora bitar',
+          sv: 'Skär kålen i stora klyftor',
           es: 'Cortar el repollo en trozos grandes',
           fr: 'Couper le chou en gros morceaux',
           de: 'Kohl in große Stücke schneiden',
@@ -703,7 +773,7 @@ export const norway: Country = {
         },
         {
           en: 'Layer lamb and cabbage in large pot',
-          sv: 'Varva lamm och kål i stor kruka',
+          sv: 'Varva lamm och kål i en stor gryta',
           es: 'Coloque capas de cordero y repollo en una olla grande',
           fr: 'Disposez l\'agneau et le chou dans une grande casserole',
           de: 'Lammfleisch und Kohl in einen großen Topf schichten',
@@ -714,7 +784,7 @@ export const norway: Country = {
         },
         {
           en: 'Sprinkle flour, salt, and peppercorns between layers',
-          sv: 'Strö mjöl, salt och pepparkorn mellan lagren',
+          sv: 'Strö vetemjöl, salt och hela pepparkorn mellan lagren',
           es: 'Espolvoree harina, sal y granos de pimienta entre las capas',
           fr: 'Saupoudrer de farine, de sel et de grains de poivre entre les couches',
           de: 'Mehl, Salz und Pfefferkörner zwischen die Schichten streuen',
@@ -725,7 +795,7 @@ export const norway: Country = {
         },
         {
           en: 'Add water or stock',
-          sv: 'Tillsätt vatten eller fond',
+          sv: 'Tillsätt vatten eller buljong',
           es: 'Añadir agua o caldo',
           fr: 'Ajouter de l\'eau ou du bouillon',
           de: 'Wasser oder Brühe hinzufügen',
@@ -736,7 +806,7 @@ export const norway: Country = {
         },
         {
           en: 'Bring to boil, then simmer covered for 2-3 hours',
-          sv: 'Koka upp och låt sjuda under lock i 2-3 timmar',
+          sv: 'Koka upp och låt sjuda under lock i 2–3 timmar',
           es: 'Deje hervir y luego cocine a fuego lento tapado durante 2-3 horas',
           fr: 'Porter à ébullition, puis laisser mijoter à couvert pendant 2-3 heures',
           de: 'Zum Kochen bringen, dann zugedeckt 2-3 Stunden köcheln lassen',
@@ -774,7 +844,7 @@ export const norway: Country = {
       },
       description: {
         en: 'World\'s best cake with meringue, custard, and almond layers',
-        sv: 'Världens bästa tårta med lager maräng, vaniljsås och mandel',
+        sv: 'Världens bästa kaka med lager av maräng, vaniljkräm och mandel',
         es: 'El mejor pastel del mundo con capas de merengue, natillas y almendras',
         fr: 'Le meilleur gâteau du monde avec des couches de meringue, de crème anglaise et d\'amandes',
         de: 'Der beste Kuchen der Welt mit Baiser-, Vanillesoße- und Mandelschichten',
@@ -856,7 +926,7 @@ export const norway: Country = {
         {
           name: {
             en: 'Egg whites',
-            sv: 'Äggvita',
+            sv: 'Äggvitor',
             es: 'Claras de huevo',
             fr: 'Blancs d\'œufs',
             de: 'Eiweiß',
@@ -881,7 +951,7 @@ export const norway: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -942,7 +1012,7 @@ export const norway: Country = {
       steps: [
         {
           en: 'Beat butter and half the sugar, add egg yolks',
-          sv: 'Vispa smör och hälften av sockret, tillsätt äggulor',
+          sv: 'Rör smör och hälften av sockret poröst och tillsätt äggulorna',
           es: 'Batir la mantequilla y la mitad del azúcar, añadir las yemas',
           fr: 'Battre le beurre et la moitié du sucre, ajouter les jaunes d\'œufs',
           de: 'Butter und die Hälfte des Zuckers verrühren, Eigelb hinzufügen',
@@ -953,7 +1023,7 @@ export const norway: Country = {
         },
         {
           en: 'Mix in flour and milk to form batter',
-          sv: 'Blanda i mjöl och mjölk till en smet',
+          sv: 'Rör ner vetemjöl och mjölk till en smet',
           es: 'Mezcle la harina y la leche para formar una masa',
           fr: 'Incorporer la farine et le lait pour former une pâte',
           de: 'Mehl und Milch zu einem Teig vermischen',
@@ -964,7 +1034,7 @@ export const norway: Country = {
         },
         {
           en: 'Spread in greased pan',
-          sv: 'Bred ut i smord panna',
+          sv: 'Bred ut smeten i en smord långpanna',
           es: 'Untar en un molde engrasado',
           fr: 'Étaler dans un moule graissé',
           de: 'In einer gefetteten Pfanne verteilen',
@@ -975,7 +1045,7 @@ export const norway: Country = {
         },
         {
           en: 'Beat egg whites to stiff peaks with remaining sugar',
-          sv: 'Vispa äggvitan till hårda toppar med resterande socker',
+          sv: 'Vispa äggvitorna med resten av sockret till en fast maräng',
           es: 'Batir las claras a punto de nieve con el azúcar restante',
           fr: 'Battre les blancs d\'œufs en neige ferme avec le reste du sucre',
           de: 'Eiweiß mit restlichem Zucker steif schlagen',
@@ -986,7 +1056,7 @@ export const norway: Country = {
         },
         {
           en: 'Spread meringue over batter, sprinkle with almonds',
-          sv: 'Bred maräng över smeten, strö över mandel',
+          sv: 'Bred marängen över smeten och strö över mandel',
           es: 'Unte el merengue sobre la masa y espolvoree con almendras',
           fr: 'Étaler la meringue sur la pâte, parsemer d\'amandes',
           de: 'Baiser auf dem Teig verteilen, mit Mandeln bestreuen',
@@ -997,7 +1067,7 @@ export const norway: Country = {
         },
         {
           en: 'Bake at 180°C for 30 minutes until golden',
-          sv: 'Grädda i 180°C i 30 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i cirka 30 minuter tills kakan är gyllene',
           es: 'Hornear a 180°C durante 30 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 30 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '30 Minuten bei 180°C goldbraun backen',
@@ -1008,7 +1078,7 @@ export const norway: Country = {
         },
         {
           en: 'Cool, slice horizontally, fill with vanilla custard',
-          sv: 'Kyl, skiva horisontellt, fyll med vaniljkräm',
+          sv: 'Låt kakan svalna, dela den på mitten och lägg ihop halvorna med vaniljkräm emellan',
           es: 'Dejar enfriar, cortar en rodajas horizontales y rellenar con natillas de vainilla',
           fr: 'Laisser refroidir, trancher horizontalement, remplir de crème anglaise à la vanille',
           de: 'Abkühlen lassen, waagerecht aufschneiden, mit Vanillepudding füllen',

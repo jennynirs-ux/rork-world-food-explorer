@@ -263,8 +263,28 @@ export const saintKittsAndNevis: Country = {
     },
     history: [
       {
-        year: 'Pre-1600s',
-        title: 'Indigenous Settlement',
+        year: {
+          en: 'Pre-1600s',
+          sv: 'Före 1600',
+          es: 'Antes de 1600',
+          fr: 'Avant 1600',
+          de: 'Vor 1600',
+          it: 'Prima del 1600',
+          pl: 'Przed 1600 r.',
+          nl: 'Vóór 1600',
+          pt: 'Antes de 1600',
+        },
+        title: {
+          en: 'Indigenous Settlement',
+          sv: 'Ursprungsfolkens bosättningar',
+          es: 'Asentamientos indígenas',
+          fr: 'Peuplement autochtone',
+          de: 'Indigene Besiedlung',
+          it: 'Insediamenti indigeni',
+          pl: 'Osadnictwo rdzennych ludów',
+          nl: 'Inheemse bewoning',
+          pt: 'Povoamento indígena',
+        },
         description: {
           en: 'Indigenous peoples lived on the islands for centuries before European colonization, shaping early place names and regional trade routes.',
           sv: 'Ursprungsbefolkningar levde på öarna i århundraden innan den europeiska koloniseringen, och formade tidiga ortnamn och regionala handelsvägar.',
@@ -279,7 +299,17 @@ export const saintKittsAndNevis: Country = {
       },
       {
         year: '1493',
-        title: 'European Arrival',
+        title: {
+          en: 'European Arrival',
+          sv: 'Européernas ankomst',
+          es: 'Llegada de los europeos',
+          fr: 'Arrivée des Européens',
+          de: 'Ankunft der Europäer',
+          it: 'Arrivo degli europei',
+          pl: 'Przybycie Europejczyków',
+          nl: 'Komst van de Europeanen',
+          pt: 'Chegada dos europeus',
+        },
         description: {
           en: 'Christopher Columbus reached the region during his second voyage, beginning a new era of European interest in the Caribbean.',
           sv: 'Christopher Columbus nådde regionen under sin andra resa och inledde en ny era av europeiskt intresse i Karibien.',
@@ -293,8 +323,28 @@ export const saintKittsAndNevis: Country = {
         },
       },
       {
-        year: '1620s',
-        title: 'British and French Colonization',
+        year: {
+          en: '1620s',
+          sv: '1620-talet',
+          es: 'década de 1620',
+          fr: 'années 1620',
+          de: '1620er',
+          it: 'anni 1620',
+          pl: 'lata 20. XVII wieku',
+          nl: 'jaren 1620',
+          pt: 'década de 1620',
+        },
+        title: {
+          en: 'British and French Colonization',
+          sv: 'Brittisk och fransk kolonisering',
+          es: 'Colonización británica y francesa',
+          fr: 'Colonisation britannique et française',
+          de: 'Britische und französische Kolonisierung',
+          it: 'Colonizzazione britannica e francese',
+          pl: 'Kolonizacja brytyjska i francuska',
+          nl: 'Britse en Franse kolonisatie',
+          pt: 'Colonização britânica e francesa',
+        },
         description: {
           en: 'European settlements expanded on Saint Kitts, and the islands became strategically important for regional power struggles.',
           sv: 'Europeiska bosättningar expanderade på Saint Kitts, och öarna blev strategiskt viktiga för regional maktkamp.',
@@ -308,8 +358,28 @@ export const saintKittsAndNevis: Country = {
         },
       },
       {
-        year: '1700s',
-        title: 'Sugar Plantation Era',
+        year: {
+          en: '1700s',
+          sv: '1700-talet',
+          es: 'siglo XVIII',
+          fr: 'XVIIIe siècle',
+          de: '18. Jahrhundert',
+          it: 'XVIII secolo',
+          pl: 'XVIII wiek',
+          nl: '18e eeuw',
+          pt: 'século XVIII',
+        },
+        title: {
+          en: 'Sugar Plantation Era',
+          sv: 'Sockerplantagernas tid',
+          es: 'Época de las plantaciones de azúcar',
+          fr: 'Époque des plantations sucrières',
+          de: 'Zeit der Zuckerplantagen',
+          it: 'Epoca delle piantagioni di zucchero',
+          pl: 'Epoka plantacji trzciny cukrowej',
+          nl: 'Tijdperk van de suikerplantages',
+          pt: 'Era das plantações de açúcar',
+        },
         description: {
           en: 'Sugarcane plantations transformed the economy and society, driving major infrastructure development and transatlantic trade.',
           sv: 'Sockerrörsplantager förvandlade ekonomin och samhället, vilket ledde till stor infrastrukturutveckling och transatlantisk handel.',
@@ -323,8 +393,28 @@ export const saintKittsAndNevis: Country = {
         },
       },
       {
-        year: '1800s',
-        title: 'Fortifications and Imperial Rivalry',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
+        title: {
+          en: 'Fortifications and Imperial Rivalry',
+          sv: 'Befästningar och stormaktsrivalitet',
+          es: 'Fortificaciones y rivalidad imperial',
+          fr: 'Fortifications et rivalités impériales',
+          de: 'Festungsbau und imperiale Rivalität',
+          it: 'Fortificazioni e rivalità imperiali',
+          pl: 'Fortyfikacje i rywalizacja mocarstw',
+          nl: 'Vestingwerken en imperiale rivaliteit',
+          pt: 'Fortificações e rivalidade imperial',
+        },
         description: {
           en: 'Defensive sites like Brimstone Hill were strengthened as colonial powers competed for Caribbean dominance.',
           sv: 'Defensiva platser som Brimstone Hill stärktes när kolonialmakter tävlade om karibisk dominans.',
@@ -339,7 +429,17 @@ export const saintKittsAndNevis: Country = {
       },
       {
         year: '1983',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Saint Kitts and Nevis became an independent nation within the Commonwealth, with Basseterre as the capital.',
           sv: 'Saint Kitts och Nevis blev en självständig nation inom Commonwealth, med Basseterre som huvudstad.',
@@ -366,7 +466,17 @@ export const saintKittsAndNevis: Country = {
           nl: 'Techniek van de suikerspoorweg',
           pt: 'Engenharia Ferroviária do Açúcar',
         },
-        year: '1900s',
+        year: {
+          en: '1900s',
+          sv: '1900-talet',
+          es: 'siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'século XX',
+        },
         description: {
           en: 'A narrow-gauge railway network was developed to support sugar production and transport, later adapted into the St Kitts Scenic Railway for tourism.',
           sv: 'Ett smalspårigt järnvägsnät utvecklades för att stödja sockerproduktion och transport, senare anpassat till St Kitts Scenic Railway för turism.',
@@ -391,7 +501,17 @@ export const saintKittsAndNevis: Country = {
           nl: 'Programma Burgerschap door Investering',
           pt: 'Programa de Cidadania por Investimento',
         },
-        year: '1980s',
+        year: {
+          en: '1980s',
+          sv: '1980-talet',
+          es: 'Década de 1980',
+          fr: 'Années 1980',
+          de: '1980er',
+          it: 'Anni \'80',
+          pl: 'Lata 80.',
+          nl: 'Jaren 80',
+          pt: 'Década de 1980',
+        },
         description: {
           en: 'Saint Kitts and Nevis pioneered one of the earliest citizenship-by-investment programs, influencing similar economic models worldwide.',
           sv: 'Saint Kitts och Nevis var pionjärer för ett av de tidigaste medborgarskap-för-investering-programmen, och påverkade liknande ekonomiska modeller över hela världen.',
@@ -409,7 +529,7 @@ export const saintKittsAndNevis: Country = {
       {
         name: {
           en: 'Brimstone Hill Fortress',
-          sv: 'Brimstone Hill Fortress',
+          sv: 'Brimstone Hill-fästningen',
           es: 'Fortaleza de Brimstone Hill',
           fr: 'Forteresse de Brimstone Hill',
           de: 'Brimstone Hill Festung',
@@ -529,7 +649,17 @@ export const saintKittsAndNevis: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to April is popular for drier weather; late summer can be hotter and more humid.',
           sv: 'December till april är populärt för torrare väder; sensommaren kan vara varmare och fuktigare.',
@@ -567,7 +697,17 @@ export const saintKittsAndNevis: Country = {
         },
       },
       {
-        item: 'Getting around',
+        item: {
+          en: 'Getting around',
+          sv: 'Att ta sig runt',
+          es: 'Cómo moverse',
+          fr: 'Se déplacer',
+          de: 'Unterwegs vor Ort',
+          it: 'Come spostarsi',
+          pl: 'Poruszanie się',
+          nl: 'Vervoer ter plaatse',
+          pt: 'Como se locomover',
+        },
         description: {
           en: 'Taxis and minibuses are common; renting a car can be convenient for exploring beaches and hikes.',
           sv: 'Taxi och minibussar är vanliga; Att hyra en bil kan vara praktiskt för att utforska stränder och vandringar.',
@@ -581,7 +721,17 @@ export const saintKittsAndNevis: Country = {
         },
       },
       {
-        item: 'Sun and mosquito protection',
+        item: {
+          en: 'Sun and mosquito protection',
+          sv: 'Sol- och myggskydd',
+          es: 'Protección contra el sol y los mosquitos',
+          fr: 'Protection contre le soleil et les moustiques',
+          de: 'Sonnen- und Mückenschutz',
+          it: 'Protezione da sole e zanzare',
+          pl: 'Ochrona przed słońcem i komarami',
+          nl: 'Bescherming tegen zon en muggen',
+          pt: 'Protetor solar e repelente',
+        },
         description: {
           en: 'Bring sunscreen and repellent, especially for rainforest hikes and evenings.',
           sv: 'Ta med solskyddsmedel och avvisande medel, speciellt för regnskogsvandringar och kvällar.',
@@ -595,7 +745,17 @@ export const saintKittsAndNevis: Country = {
         },
       },
       {
-        item: 'Light hiking gear',
+        item: {
+          en: 'Light hiking gear',
+          sv: 'Lätt vandringsutrustning',
+          es: 'Equipo ligero de senderismo',
+          fr: 'Équipement de randonnée léger',
+          de: 'Leichte Wanderausrüstung',
+          it: 'Attrezzatura leggera da trekking',
+          pl: 'Lekki sprzęt trekkingowy',
+          nl: 'Lichte wandeluitrusting',
+          pt: 'Equipamento leve de trilha',
+        },
         description: {
           en: 'For volcanic trails: breathable layers, sturdy shoes, and plenty of water.',
           sv: 'För vulkanstigar: lager som andas, rejäla skor och mycket vatten.',
@@ -613,7 +773,7 @@ export const saintKittsAndNevis: Country = {
       id: 'saint-kitts-main',
       name: {
         en: 'Stewed Saltfish',
-        sv: 'Stuvad Saltfisk',
+        sv: 'Saltfiskgryta',
         es: 'Pescado Salado Guisado',
         fr: 'Ragoût de poisson salé',
         de: 'Geschmorter Salzfisch',
@@ -624,7 +784,7 @@ export const saintKittsAndNevis: Country = {
       },
       description: {
         en: 'A Caribbean staple: salted cod simmered with tomatoes, peppers, onions, herbs, and a little heat. Often served with dumplings or johnny cakes.',
-        sv: 'En karibisk basvara: saltad torsk puttad med tomater, paprika, lök, örter och lite värme. Serveras ofta med dumplings eller johnnykakor.',
+        sv: 'En karibisk klassiker: salttorsk som får sjuda med tomater, paprika, lök, örter och lite hetta. Serveras ofta med dumplings eller johnny cakes.',
         es: 'Un alimento básico caribeño: bacalao salado cocido a fuego lento con tomates, pimientos, cebollas, hierbas y un poco de picante. A menudo se sirve con albóndigas o pasteles de Johnny.',
         fr: 'Un incontournable des Caraïbes : de la morue salée mijotée avec des tomates, des poivrons, des oignons, des herbes et un peu de piquant. Souvent servi avec des raviolis ou des Johnny Cakes.',
         de: 'Ein karibisches Grundnahrungsmittel: gesalzener Kabeljau, gekocht mit Tomaten, Paprika, Zwiebeln, Kräutern und etwas Hitze. Wird oft mit Knödeln oder Johnny Cakes serviert.',
@@ -651,7 +811,7 @@ export const saintKittsAndNevis: Country = {
         {
           name: {
             en: 'Salted codfish',
-            sv: 'Saltad torsk',
+            sv: 'Salttorsk',
             es: 'Bacalao salado',
             fr: 'Morue salée',
             de: 'Gesalzener Kabeljau',
@@ -678,7 +838,7 @@ export const saintKittsAndNevis: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -791,7 +951,7 @@ export const saintKittsAndNevis: Country = {
         {
           name: {
             en: 'Scotch bonnet pepper',
-            sv: 'Scotch bonnet peppar',
+            sv: 'Scotch bonnet-chili',
             es: 'Pimienta escocesa',
             fr: 'Poivre Scotch Bonnet',
             de: 'Scotch Bonnet Pepper',
@@ -803,7 +963,7 @@ export const saintKittsAndNevis: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -816,7 +976,7 @@ export const saintKittsAndNevis: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -882,7 +1042,7 @@ export const saintKittsAndNevis: Country = {
       steps: [
         {
           en: 'Soak saltfish in cold water for 6-12 hours, changing water 2-3 times.',
-          sv: 'Blötlägg saltfisk i kallt vatten i 6-12 timmar, byt vatten 2-3 gånger.',
+          sv: 'Blötlägg saltfisken i kallt vatten i 6-12 timmar och byt vatten 2-3 gånger.',
           es: 'Remoje el pescado salado en agua fría durante 6 a 12 horas, cambiando el agua 2 o 3 veces.',
           fr: 'Faites tremper le poisson salé dans l\'eau froide pendant 6 à 12 heures, en changeant l\'eau 2 à 3 fois.',
           de: 'Salzfisch 6–12 Stunden in kaltem Wasser einweichen, dabei das Wasser 2–3 Mal wechseln.',
@@ -893,7 +1053,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Rinse, then simmer the fish 8-10 minutes to remove excess salt; drain and flake.',
-          sv: 'Skölj och sjud sedan fisken i 8-10 minuter för att ta bort överflödigt salt; dränera och flaga.',
+          sv: 'Skölj och sjud sedan fisken i 8-10 minuter så att överflödigt salt försvinner; låt rinna av och dela i flagor.',
           es: 'Enjuague y cocine a fuego lento el pescado durante 8 a 10 minutos para eliminar el exceso de sal; escurrir y desmenuzar.',
           fr: 'Rincez, puis laissez mijoter le poisson 8 à 10 minutes pour éliminer l\'excès de sel ; égoutter et floconner.',
           de: 'Spülen Sie den Fisch ab und lassen Sie ihn 8–10 Minuten köcheln, um überschüssiges Salz zu entfernen. abtropfen lassen und flocken.',
@@ -915,7 +1075,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Add garlic and cook 30 seconds until fragrant.',
-          sv: 'Tillsätt vitlök och koka 30 sekunder tills den doftar.',
+          sv: 'Tillsätt vitlöken och fräs i 30 sekunder tills det doftar.',
           es: 'Agregue el ajo y cocine durante 30 segundos hasta que esté fragante.',
           fr: 'Ajouter l\'ail et cuire 30 secondes jusqu\'à ce qu\'il soit parfumé.',
           de: 'Fügen Sie Knoblauch hinzu und kochen Sie ihn 30 Sekunden lang, bis er duftet.',
@@ -926,7 +1086,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Add tomatoes, thyme, black pepper, and scotch bonnet (whole for mild heat).',
-          sv: 'Tillsätt tomater, timjan, svartpeppar och skotsk huv (hel för mild värme).',
+          sv: 'Tillsätt tomater, timjan, svartpeppar och scotch bonnet-chilin (hel för mildare hetta).',
           es: 'Agregue los tomates, el tomillo, la pimienta negra y el whisky escocés (enteros para un picante suave).',
           fr: 'Ajouter les tomates, le thym, le poivre noir et le scotch bonnet (entier à feu doux).',
           de: 'Tomaten, Thymian, schwarzen Pfeffer und Scotch Bonnet (ganz für milde Schärfe) hinzufügen.',
@@ -937,7 +1097,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Simmer 8-10 minutes until saucy.',
-          sv: 'Sjud i 8-10 minuter tills det är fräscht.',
+          sv: 'Låt sjuda i 8-10 minuter tills det har blivit en sås.',
           es: 'Cocine a fuego lento de 8 a 10 minutos hasta que esté picante.',
           fr: 'Laisser mijoter 8 à 10 minutes jusqu\'à ce que ce soit savoureux.',
           de: '8-10 Minuten köcheln lassen, bis es pikant ist.',
@@ -948,7 +1108,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Stir in flaked saltfish and simmer 5-7 minutes to blend flavors.',
-          sv: 'Rör i flingad saltfisk och låt sjuda i 5-7 minuter för att blanda smaker.',
+          sv: 'Rör ner den flagade saltfisken och låt sjuda i 5-7 minuter så att smakerna går ihop.',
           es: 'Agregue el pescado salado desmenuzado y cocine a fuego lento durante 5 a 7 minutos para mezclar los sabores.',
           fr: 'Incorporer le poisson salé émietté et laisser mijoter 5 à 7 minutes pour mélanger les saveurs.',
           de: 'Salzfischflocken unterrühren und 5–7 Minuten köcheln lassen, um die Aromen zu vermischen.',
@@ -959,7 +1119,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Remove scotch bonnet if used whole; add lime juice.',
-          sv: 'Ta bort den skotska motorhuven om den används hel; tillsätt limejuice.',
+          sv: 'Ta upp chilin om du har använt den hel; tillsätt limejuice.',
           es: 'Retire el gorro escocés si se usa entero; agrega jugo de lima.',
           fr: 'Retirez le scotch bonnet s\'il est utilisé entier ; ajouter le jus de citron vert.',
           de: 'Entfernen Sie die Motorhaube, wenn sie im Ganzen verwendet wird. Limettensaft hinzufügen.',
@@ -970,7 +1130,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Taste and adjust (usually no extra salt needed).',
-          sv: 'Smaka av och justera (vanligtvis behövs inget extra salt).',
+          sv: 'Smaka av och krydda efter behov (oftast behövs inget extra salt).',
           es: 'Pruebe y ajuste (normalmente no se necesita sal adicional).',
           fr: 'Goûtez et ajustez (généralement aucun sel supplémentaire n\'est nécessaire).',
           de: 'Abschmecken und anpassen (normalerweise ist kein zusätzliches Salz erforderlich).',
@@ -981,7 +1141,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Serve warm with dumplings, johnny cakes, or rice.',
-          sv: 'Servera varm med dumplings, johnnykakor eller ris.',
+          sv: 'Servera varm med dumplings, johnny cakes eller ris.',
           es: 'Sirva caliente con albóndigas, pasteles de Johnny o arroz.',
           fr: 'Servir chaud avec des dumplings, des Johnny Cakes ou du riz.',
           de: 'Warm mit Knödeln, Johnny Cakes oder Reis servieren.',
@@ -997,7 +1157,7 @@ export const saintKittsAndNevis: Country = {
       id: 'saint-kitts-dessert',
       name: {
         en: 'Coconut Tart',
-        sv: 'Kokos tårta',
+        sv: 'Kokospaj',
         es: 'Tarta De Coco',
         fr: 'Tarte à la noix de coco',
         de: 'Kokosnuss-Tarte',
@@ -1008,7 +1168,7 @@ export const saintKittsAndNevis: Country = {
       },
       description: {
         en: 'A simple Caribbean-style coconut tart with a sweet coconut filling and a lightly crisp pastry crust.',
-        sv: 'En enkel karibisk kokostårta med söt kokosfyllning och en lätt knaprig bakelse.',
+        sv: 'En enkel karibisk kokospaj med söt kokosfyllning och en lätt frasig pajbotten.',
         es: 'Una sencilla tarta de coco al estilo caribeño con un relleno de coco dulce y una corteza de hojaldre ligeramente crujiente.',
         fr: 'Une simple tarte à la noix de coco de style caribéen avec une garniture sucrée à la noix de coco et une croûte pâtissière légèrement croustillante.',
         de: 'Eine einfache Kokosnusstarte im karibischen Stil mit einer süßen Kokosnussfüllung und einer leicht knusprigen Teigkruste.',
@@ -1035,7 +1195,7 @@ export const saintKittsAndNevis: Country = {
         {
           name: {
             en: 'Desiccated coconut',
-            sv: 'Torkad kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco desecado',
             fr: 'Noix de coco desséchée',
             de: 'Kokosraspeln',
@@ -1092,7 +1252,7 @@ export const saintKittsAndNevis: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -1147,7 +1307,7 @@ export const saintKittsAndNevis: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -1160,7 +1320,7 @@ export const saintKittsAndNevis: Country = {
         {
           name: {
             en: 'Pinch of salt',
-            sv: 'Nypa salt',
+            sv: 'Salt',
             es: 'Una pizca de sal',
             fr: 'Pincée de sel',
             de: 'Prise Salz',
@@ -1186,7 +1346,7 @@ export const saintKittsAndNevis: Country = {
       steps: [
         {
           en: 'Preheat oven to 180C and place pie crust in a tart tin.',
-          sv: 'Värm ugnen till 180 grader och lägg pajskalet i en tårtform.',
+          sv: 'Värm ugnen till 180 grader och lägg pajskalet i en pajform.',
           es: 'Precalienta el horno a 180°C y coloca la masa de tarta en un molde para tarta.',
           fr: 'Préchauffer le four à 180°C et déposer le fond de tarte dans un moule à tarte.',
           de: 'Den Ofen auf 180 °C vorheizen und den Tortenboden in eine Tarteform geben.',
@@ -1219,7 +1379,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Pour filling into crust and smooth the top.',
-          sv: 'Häll fyllningen i skorpan och jämna till toppen.',
+          sv: 'Häll fyllningen i pajskalet och jämna till ytan.',
           es: 'Vierta el relleno en la base y alise la parte superior.',
           fr: 'Versez la garniture dans la croûte et lissez le dessus.',
           de: 'Die Füllung in die Kruste gießen und die Oberseite glatt streichen.',
@@ -1230,7 +1390,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Bake 30-35 minutes until golden and set.',
-          sv: 'Grädda 30-35 minuter tills de är gyllene och stelnade.',
+          sv: 'Grädda i 30-35 minuter tills pajen är gyllene och fyllningen har stelnat.',
           es: 'Hornee de 30 a 35 minutos hasta que esté dorado y cuajado.',
           fr: 'Cuire au four 30 à 35 minutes jusqu\'à ce qu\'ils soient dorés et pris.',
           de: '30-35 Minuten backen, bis sie goldbraun und fest sind.',
@@ -1241,7 +1401,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Cool at least 15 minutes before slicing.',
-          sv: 'Kyl minst 15 minuter innan skivning.',
+          sv: 'Låt svalna i minst 15 minuter innan du skär upp pajen.',
           es: 'Deje enfriar al menos 15 minutos antes de cortar.',
           fr: 'Laisser refroidir au moins 15 minutes avant de trancher.',
           de: 'Vor dem Schneiden mindestens 15 Minuten abkühlen lassen.',
@@ -1252,7 +1412,7 @@ export const saintKittsAndNevis: Country = {
         },
         {
           en: 'Serve plain or with a little whipped cream.',
-          sv: 'Servera vanlig eller med lite vispad grädde.',
+          sv: 'Servera som den är eller med lite vispad grädde.',
           es: 'Servir solo o con un poco de nata montada.',
           fr: 'Servir nature ou avec un peu de chantilly.',
           de: 'Pur oder mit etwas Schlagsahne servieren.',
@@ -1580,7 +1740,7 @@ export const saintKittsAndNevis: Country = {
           },
           {
             en: 'Brimstone Hill Fortress',
-            sv: 'Brimstone Hill Fortress',
+            sv: 'Brimstone Hill-fästningen',
             es: 'Fortaleza de Brimstone Hill',
             fr: 'Forteresse de Brimstone Hill',
             de: 'Brimstone Hill Festung',

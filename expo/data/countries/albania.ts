@@ -263,8 +263,28 @@ export const albania: Country = {
     },
     history: [
       {
-        year: '1000 BC',
-        title: 'Illyrian Tribes',
+        year: {
+          en: '1000 BC',
+          sv: '1000 f.Kr.',
+          es: '1000 a. C.',
+          fr: '1000 av. J.-C.',
+          de: '1000 v. Chr.',
+          it: '1000 a.C.',
+          pl: '1000 p.n.e.',
+          nl: '1000 v.Chr.',
+          pt: '1000 a.C.',
+        },
+        title: {
+          en: 'Illyrian Tribes',
+          sv: 'Illyriska stammar',
+          es: 'Tribus ilirias',
+          fr: 'Tribus illyriennes',
+          de: 'Illyrische Stämme',
+          it: 'Tribù illiriche',
+          pl: 'Plemiona iliryjskie',
+          nl: 'Illyrische stammen',
+          pt: 'Tribos ilírias',
+        },
         description: {
           en: 'Illyrian tribes inhabited the region, developing distinct cultures and trading with Greek colonies and, later, the Romans.',
           sv: 'Illyriska stammar bebodde regionen, utvecklade distinkta kulturer och handlade med grekiska kolonier och, senare, romarna.',
@@ -278,8 +298,28 @@ export const albania: Country = {
         },
       },
       {
-        year: '168 BC',
-        title: 'Roman Influence',
+        year: {
+          en: '168 BC',
+          sv: '168 f.Kr.',
+          es: '168 a. C.',
+          fr: '168 av. J.-C.',
+          de: '168 v. Chr.',
+          it: '168 a.C.',
+          pl: '168 p.n.e.',
+          nl: '168 v.Chr.',
+          pt: '168 a.C.',
+        },
+        title: {
+          en: 'Roman Influence',
+          sv: 'Romerskt inflytande',
+          es: 'Influencia romana',
+          fr: 'Influence romaine',
+          de: 'Römischer Einfluss',
+          it: 'Influenza romana',
+          pl: 'Wpływy rzymskie',
+          nl: 'Romeinse invloed',
+          pt: 'Influência romana',
+        },
         description: {
           en: 'Roman rule connected the region to major roads and trade networks, leaving archaeological traces still visible today.',
           sv: 'Romerskt styre kopplade regionen till stora vägar och handelsnät, vilket lämnade arkeologiska spår fortfarande synliga idag.',
@@ -293,8 +333,28 @@ export const albania: Country = {
         },
       },
       {
-        year: '4th–15th Century',
-        title: 'Byzantine & Medieval Principalities',
+        year: {
+          en: '4th–15th Century',
+          sv: '300–1400-talen',
+          es: 'Siglos IV–XV',
+          fr: 'IVe–XVe siècle',
+          de: '4.–15. Jahrhundert',
+          it: 'IV–XV secolo',
+          pl: 'IV–XV wiek',
+          nl: '4e–15e eeuw',
+          pt: 'Séculos IV–XV',
+        },
+        title: {
+          en: 'Byzantine & Medieval Principalities',
+          sv: 'Bysans och medeltida furstendömen',
+          es: 'Bizancio y principados medievales',
+          fr: 'Byzance et principautés médiévales',
+          de: 'Byzanz und mittelalterliche Fürstentümer',
+          it: 'Bisanzio e principati medievali',
+          pl: 'Bizancjum i średniowieczne księstwa',
+          nl: 'Byzantium en middeleeuwse vorstendommen',
+          pt: 'Bizâncio e principados medievais',
+        },
         description: {
           en: 'Following the Roman era, the region passed through Byzantine influence and local medieval principalities, shaping language, faith, and fortress architecture.',
           sv: 'Efter romartiden passerade regionen genom bysantinskt inflytande och lokala medeltida furstendömen, som formade språk, tro och fästningsarkitektur.',
@@ -308,8 +368,28 @@ export const albania: Country = {
         },
       },
       {
-        year: '15th Century',
-        title: 'Skanderbeg\'s Resistance',
+        year: {
+          en: '15th Century',
+          sv: '1400-talet',
+          es: 'Siglo XV',
+          fr: 'XVe siècle',
+          de: '15. Jahrhundert',
+          it: 'XV secolo',
+          pl: 'XV wiek',
+          nl: '15e eeuw',
+          pt: 'Século XV',
+        },
+        title: {
+          en: 'Skanderbeg\'s Resistance',
+          sv: 'Skanderbegs motstånd',
+          es: 'Resistencia de Skanderbeg',
+          fr: 'Résistance de Skanderbeg',
+          de: 'Skanderbegs Widerstand',
+          it: 'Resistenza di Scanderbeg',
+          pl: 'Opór Skanderbega',
+          nl: 'Verzet van Skanderbeg',
+          pt: 'Resistência de Skanderbeg',
+        },
         description: {
           en: 'National hero Gjergj Kastrioti (Skanderbeg) led a long resistance against Ottoman expansion, becoming a defining symbol of Albanian identity.',
           sv: 'Nationalhjälten Gjergj Kastrioti (Skanderbeg) ledde ett långt motstånd mot den osmanska expansionen och blev en avgörande symbol för albansk identitet.',
@@ -323,8 +403,28 @@ export const albania: Country = {
         },
       },
       {
-        year: '168 BC - 1912',
-        title: 'Foreign Rule',
+        year: {
+          en: '168 BC - 1912',
+          sv: '168 f.Kr. – 1912',
+          es: '168 a. C. – 1912',
+          fr: '168 av. J.-C. – 1912',
+          de: '168 v. Chr. – 1912',
+          it: '168 a.C. – 1912',
+          pl: '168 p.n.e. – 1912',
+          nl: '168 v.Chr. – 1912',
+          pt: '168 a.C. – 1912',
+        },
+        title: {
+          en: 'Foreign Rule',
+          sv: 'Främmande styre',
+          es: 'Dominio extranjero',
+          fr: 'Domination étrangère',
+          de: 'Fremdherrschaft',
+          it: 'Dominazione straniera',
+          pl: 'Obce panowanie',
+          nl: 'Vreemde overheersing',
+          pt: 'Domínio estrangeiro',
+        },
         description: {
           en: 'Albania was ruled at different times by Romans, Byzantines, Venetians, and the Ottoman Empire for many centuries, shaping culture, religion, and architecture.',
           sv: 'Albanien styrdes vid olika tidpunkter av romare, bysantiner, venetianare och det osmanska riket under många århundraden, vilket formade kultur, religion och arkitektur.',
@@ -339,7 +439,17 @@ export const albania: Country = {
       },
       {
         year: '1912',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Albania declared independence from the Ottoman Empire and began forming modern state institutions.',
           sv: 'Albanien förklarade sig självständigt från det osmanska riket och började bilda moderna statliga institutioner.',
@@ -354,7 +464,17 @@ export const albania: Country = {
       },
       {
         year: '1944-1991',
-        title: 'Communist Era',
+        title: {
+          en: 'Communist Era',
+          sv: 'Kommunisttiden',
+          es: 'Época comunista',
+          fr: 'Période communiste',
+          de: 'Kommunistische Ära',
+          it: 'Periodo comunista',
+          pl: 'Okres komunistyczny',
+          nl: 'Communistisch tijdperk',
+          pt: 'Era comunista',
+        },
         description: {
           en: 'Under Enver Hoxha, Albania became one of the world\'s most isolated countries, marked by strict state control and widespread bunker construction.',
           sv: 'Under Enver Hoxha blev Albanien ett av världens mest isolerade länder, präglat av strikt statlig kontroll och omfattande bunkerkonstruktion.',
@@ -368,8 +488,28 @@ export const albania: Country = {
         },
       },
       {
-        year: '1990s–Present',
-        title: 'Transition & Modern Albania',
+        year: {
+          en: '1990s–Present',
+          sv: '1990-talet–idag',
+          es: 'Década de 1990–actualidad',
+          fr: 'Années 1990–aujourd\'hui',
+          de: '1990er–heute',
+          it: 'Anni \'90–oggi',
+          pl: 'Lata 90.–obecnie',
+          nl: 'Jaren 90–heden',
+          pt: 'Década de 1990–presente',
+        },
+        title: {
+          en: 'Transition & Modern Albania',
+          sv: 'Övergången och dagens Albanien',
+          es: 'Transición y Albania actual',
+          fr: 'Transition et Albanie moderne',
+          de: 'Umbruch und das heutige Albanien',
+          it: 'Transizione e Albania moderna',
+          pl: 'Transformacja i współczesna Albania',
+          nl: 'Overgang en het moderne Albanië',
+          pt: 'Transição e Albânia moderna',
+        },
         description: {
           en: 'After communism, Albania transitioned toward a market economy, expanded international ties, and grew tourism driven by beaches, heritage cities, and mountains.',
           sv: 'Efter kommunismen övergick Albanien till en marknadsekonomi, utökade internationella band och växte turism som drivs av stränder, kulturarvsstäder och berg.',
@@ -396,7 +536,17 @@ export const albania: Country = {
           nl: 'Behoud van de Albanese taal',
           pt: 'Preservação da língua albanesa',
         },
-        year: '15th Century',
+        year: {
+          en: '15th Century',
+          sv: '1400-talet',
+          es: 'Siglo XV',
+          fr: 'XVe siècle',
+          de: '15. Jahrhundert',
+          it: 'XV secolo',
+          pl: 'XV wiek',
+          nl: '15e eeuw',
+          pt: 'Século XV',
+        },
         description: {
           en: 'Despite centuries of foreign influence, Albanians preserved their language and identity, with early written Albanian emerging in medieval times.',
           sv: 'Trots århundraden av utländskt inflytande bevarade albanerna sitt språk och sin identitet, med tidig skriven albanska framträdande under medeltiden.',
@@ -421,7 +571,17 @@ export const albania: Country = {
           nl: 'Besa (Erecode)',
           pt: 'Besa (Código de Honra)',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'A traditional moral code emphasizing keeping promises, protecting guests, and personal honor—often cited as a pillar of Albanian hospitality.',
           sv: 'En traditionell moralisk kod som betonar att hålla löften, skydda gäster och personlig ära – ofta citerad som en pelare för albansk gästfrihet.',
@@ -446,7 +606,17 @@ export const albania: Country = {
           nl: 'Polyfonische zang',
           pt: 'Canto polifónico',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'A distinctive multi-voice singing tradition (iso-polyphony) recognized by UNESCO for its unique harmonies and cultural importance.',
           sv: 'En distinkt sångtradition med flera röster (iso-polyfoni) erkänd av UNESCO för sina unika harmonier och kulturella betydelse.',
@@ -471,7 +641,17 @@ export const albania: Country = {
           nl: 'Kulla-torenhuizen',
           pt: 'Casas-torre Kulla',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Fortified stone tower houses adapted to mountainous regions, reflecting local craftsmanship and historical needs for protection.',
           sv: 'Befästa hus i stentorn anpassade till bergsområden, vilket speglar lokalt hantverk och historiska behov av skydd.',
@@ -585,7 +765,7 @@ export const albania: Country = {
       {
         name: {
           en: 'Theth National Park',
-          sv: 'Theth National Park',
+          sv: 'Theth nationalpark',
           es: 'Parque Nacional Theth',
           fr: 'Parc national de Theth',
           de: 'Theth-Nationalpark',
@@ -609,7 +789,17 @@ export const albania: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May–June and September–October for mild weather; July–August for peak beach season.',
           sv: 'Maj–juni och september–oktober för milt väder; Juli–augusti för högsäsong på stranden.',
@@ -623,7 +813,17 @@ export const albania: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Cards are improving in cities, but cash is still essential in smaller towns and rural areas.',
           sv: 'Korten förbättras i städerna, men kontanter är fortfarande viktiga i mindre städer och på landsbygden.',
@@ -637,7 +837,17 @@ export const albania: Country = {
         },
       },
       {
-        item: 'Comfortable shoes',
+        item: {
+          en: 'Comfortable shoes',
+          sv: 'Bekväma skor',
+          es: 'Calzado cómodo',
+          fr: 'Chaussures confortables',
+          de: 'Bequeme Schuhe',
+          it: 'Scarpe comode',
+          pl: 'Wygodne buty',
+          nl: 'Comfortabele schoenen',
+          pt: 'Sapatos confortáveis',
+        },
         description: {
           en: 'Ancient sites, cobblestone towns, and mountain trails need sturdy footwear.',
           sv: 'Forntida platser, kullerstensstäder och bergsleder behöver robusta skor.',
@@ -651,7 +861,17 @@ export const albania: Country = {
         },
       },
       {
-        item: 'Modest clothing for religious sites',
+        item: {
+          en: 'Modest clothing for religious sites',
+          sv: 'Täckande klädsel på religiösa platser',
+          es: 'Ropa recatada en lugares religiosos',
+          fr: 'Tenue décente dans les lieux de culte',
+          de: 'Angemessene Kleidung an religiösen Stätten',
+          it: 'Abbigliamento decoroso nei luoghi di culto',
+          pl: 'Skromny strój w miejscach kultu',
+          nl: 'Bedekkende kleding op religieuze plekken',
+          pt: 'Roupas discretas em locais religiosos',
+        },
         description: {
           en: 'Cover shoulders and knees when visiting mosques and churches.',
           sv: 'Täck axlar och knän när du besöker moskéer och kyrkor.',
@@ -665,7 +885,17 @@ export const albania: Country = {
         },
       },
       {
-        item: 'Basic Albanian phrases',
+        item: {
+          en: 'Basic Albanian phrases',
+          sv: 'Grundläggande fraser på albanska',
+          es: 'Frases básicas en albanés',
+          fr: 'Phrases de base en albanais',
+          de: 'Wichtige Redewendungen auf Albanisch',
+          it: 'Frasi di base in albanese',
+          pl: 'Podstawowe zwroty po albańsku',
+          nl: 'Basiszinnen in het Albanees',
+          pt: 'Frases básicas em albanês',
+        },
         description: {
           en: 'English is more common in tourist areas; a few local phrases help a lot.',
           sv: 'Engelska är vanligare i turistområden; några lokala fraser hjälper mycket.',
@@ -679,7 +909,17 @@ export const albania: Country = {
         },
       },
       {
-        item: 'Sunscreen',
+        item: {
+          en: 'Sunscreen',
+          sv: 'Solkräm',
+          es: 'Protector solar',
+          fr: 'Crème solaire',
+          de: 'Sonnencreme',
+          it: 'Crema solare',
+          pl: 'Krem z filtrem',
+          nl: 'Zonnebrandcrème',
+          pt: 'Protetor solar',
+        },
         description: {
           en: 'Strong summer sun along the coast and at higher elevations.',
           sv: 'Stark sommarsol längs kusten och på högre höjder.',
@@ -697,7 +937,7 @@ export const albania: Country = {
       id: 'albania-main',
       name: {
         en: 'Tavë Kosi (Baked Lamb and Yogurt)',
-        sv: 'Tavë Kosi (bakat lamm och yoghurt)',
+        sv: 'Tavë Kosi (ugnsbakat lamm med yoghurt)',
         es: 'Tavë Kosi (cordero al horno y yogur)',
         fr: 'Tavë Kosi (agneau au four et yaourt)',
         de: 'Tavë Kosi (Gebackenes Lamm und Joghurt)',
@@ -708,7 +948,7 @@ export const albania: Country = {
       },
       description: {
         en: 'Albania\'s iconic dinner dish: tender lamb and rice baked under a tangy yogurt-and-egg custard until golden.',
-        sv: 'Albaniens ikoniska middagsrätt: mört lamm och ris bakat under en syrlig yoghurt-och-äggkräm tills de är gyllene.',
+        sv: 'Albaniens ikoniska middagsrätt: mört lammkött och ris som gräddas under ett syrligt täcke av yoghurt och ägg tills ytan är gyllene.',
         es: 'El plato icónico de Albania: cordero tierno y arroz horneados bajo una crema picante de yogur y huevo hasta que estén dorados.',
         fr: 'Le plat emblématique de l\'Albanie : de l\'agneau tendre et du riz cuits sous une crème anglaise piquante au yaourt et aux œufs jusqu\'à ce qu\'ils soient dorés.',
         de: 'Albaniens ikonisches Abendgericht: zartes Lammfleisch und Reis, unter einer würzigen Joghurt-Ei-Vanillesoße goldbraun gebacken.',
@@ -735,7 +975,7 @@ export const albania: Country = {
         {
           name: {
             en: 'Lamb shoulder (boneless), cut into 3–4 cm cubes',
-            sv: 'Lammaxel (benfri), skuren i 3–4 cm tärningar',
+            sv: 'Benfri lammbog, skuren i 3–4 cm stora tärningar',
             es: 'Paletilla de cordero (deshuesada), cortada en cubos de 3 a 4 cm',
             fr: 'Épaule d\'agneau (désossée), coupée en cubes de 3 à 4 cm',
             de: 'Lammschulter (ohne Knochen), in 3–4 cm große Würfel geschnitten',
@@ -887,7 +1127,7 @@ export const albania: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -915,7 +1155,7 @@ export const albania: Country = {
         {
           name: {
             en: 'Plain Greek yogurt (full fat, ~10%)',
-            sv: 'Vanlig grekisk yoghurt (helfett, ~10%)',
+            sv: 'Grekisk yoghurt naturell (ca 10 %)',
             es: 'Yogur griego natural (con toda la grasa, ~10%)',
             fr: 'Yaourt grec nature (entier en matières grasses, ~10 %)',
             de: 'Einfacher griechischer Joghurt (Vollfett, ~10 %)',
@@ -942,7 +1182,7 @@ export const albania: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -955,7 +1195,7 @@ export const albania: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -980,7 +1220,7 @@ export const albania: Country = {
         {
           name: {
             en: 'Lamb cooking broth (reserved)',
-            sv: 'Lammkokbuljong (reserverad)',
+            sv: 'Kokspad från lammet (sparat)',
             es: 'Caldo de cocción de cordero (reservado)',
             fr: 'Bouillon de cuisson d\'agneau (réservé)',
             de: 'Lammkochbrühe (reserviert)',
@@ -1011,7 +1251,7 @@ export const albania: Country = {
       steps: [
         {
           en: 'Preheat the oven to 190°C (375°F). Place a rack in the middle.',
-          sv: 'Värm ugnen till 190°C (375°F). Placera ett galler i mitten.',
+          sv: 'Sätt ugnen på 190 °C och placera ett galler mitt i ugnen.',
           es: 'Precalienta el horno a 190°C (375°F). Coloque una rejilla en el medio.',
           fr: 'Préchauffer le four à 190°C (375°F). Placez une grille au milieu.',
           de: 'Den Backofen auf 190 °C (375 °F) vorheizen. Stellen Sie einen Rost in die Mitte.',
@@ -1033,7 +1273,7 @@ export const albania: Country = {
         },
         {
           en: 'Heat 50 g butter + 1 tbsp olive oil in a heavy pot over medium-high heat.',
-          sv: 'Värm 50 g smör + 1 msk olivolja i en tjock gryta på medelhög värme.',
+          sv: 'Värm 50 g smör och 1 msk olivolja i en tjockbottnad gryta på medelhög värme.',
           es: 'Calienta 50 g de mantequilla + 1 cucharada de aceite de oliva en una olla pesada a fuego medio-alto.',
           fr: 'Faites chauffer 50 g de beurre + 1 cuillère à soupe d\'huile d\'olive dans une casserole à fond épais à feu moyen-vif.',
           de: '50 g Butter + 1 EL Olivenöl in einem schweren Topf bei mittlerer bis hoher Hitze erhitzen.',
@@ -1044,7 +1284,7 @@ export const albania: Country = {
         },
         {
           en: 'Add lamb in 2 batches. Brown 6–8 minutes per batch, stirring occasionally, until well-colored. Transfer browned lamb to a plate.',
-          sv: 'Tillsätt lamm i 2 omgångar. Bryn 6–8 minuter per sats, rör om då och då, tills de fått fin färg. Överför brynt lamm till en tallrik.',
+          sv: 'Bryn lammet i 2 omgångar, 6–8 minuter per omgång, och rör om då och då tills köttet fått fin färg. Lägg över det brynta lammet på en tallrik.',
           es: 'Agregue el cordero en 2 tandas. Dorar de 6 a 8 minutos por tanda, revolviendo ocasionalmente, hasta que adquiera un buen color. Transfiera el cordero dorado a un plato.',
           fr: 'Ajouter l\'agneau en 2 lots. Faire revenir 6 à 8 minutes par lot, en remuant de temps en temps, jusqu\'à ce qu\'ils soient bien colorés. Transférer l\'agneau doré dans une assiette.',
           de: 'Lammfleisch in 2 Portionen hinzufügen. Pro Portion 6–8 Minuten bräunen, dabei gelegentlich umrühren, bis eine schöne Farbe entsteht. Gebräuntes Lammfleisch auf einen Teller geben.',
@@ -1055,7 +1295,7 @@ export const albania: Country = {
         },
         {
           en: 'Lower heat to medium. Add crushed garlic cloves to the pot and sauté for 30 seconds until fragrant (do not burn).',
-          sv: 'Sänk värmen till medium. Tillsätt pressade vitlöksklyftor i grytan och fräs i 30 sekunder tills det doftar (bränns inte).',
+          sv: 'Sänk till medelvärme. Lägg de krossade vitlöksklyftorna i grytan och fräs i 30 sekunder tills det doftar (se till att vitlöken inte bränns).',
           es: 'Baja el fuego a medio. Agregue los dientes de ajo machacados a la olla y saltee durante 30 segundos hasta que estén fragantes (no se queme).',
           fr: 'Baisser le feu à moyen. Ajouter les gousses d\'ail écrasées dans la casserole et faire revenir pendant 30 secondes jusqu\'à ce qu\'elles soient parfumées (ne pas brûler).',
           de: 'Reduzieren Sie die Hitze auf mittel. Geben Sie die zerdrückten Knoblauchzehen in den Topf und braten Sie sie 30 Sekunden lang an, bis sie duften (nicht anbrennen).',
@@ -1066,7 +1306,7 @@ export const albania: Country = {
         },
         {
           en: 'Pour in 120 ml white wine. Scrape the bottom of the pot to dissolve browned bits. Simmer 2 minutes.',
-          sv: 'Häll i 120 ml vitt vin. Skrapa botten av grytan för att lösa upp brynta bitar. Sjud 2 minuter.',
+          sv: 'Häll i 120 ml vitt vin. Skrapa loss stekskorpan från grytans botten. Låt sjuda i 2 minuter.',
           es: 'Vierta 120 ml de vino blanco. Raspe el fondo de la olla para disolver los trozos dorados. Cocine a fuego lento durante 2 minutos.',
           fr: 'Versez 120 ml de vin blanc. Grattez le fond de la casserole pour dissoudre les morceaux dorés. Laisser mijoter 2 minutes.',
           de: '120 ml Weißwein angießen. Kratzen Sie den Topfboden ab, um die gebräunten Stücke aufzulösen. 2 Minuten köcheln lassen.',
@@ -1099,7 +1339,7 @@ export const albania: Country = {
         },
         {
           en: 'Remove lamb with a slotted spoon and set aside. Strain the broth into a measuring jug. You need 350 ml broth for the yogurt sauce (top up with water if short). Discard bay leaves and garlic.',
-          sv: 'Ta bort lammet med en hålslev och ställ åt sidan. Sila av buljongen i en måttkanna. Du behöver 350 ml buljong till yoghurtsåsen (fyll på med vatten om det är kort). Kassera lagerblad och vitlök.',
+          sv: 'Ta upp lammet med en hålslev och ställ åt sidan. Sila buljongen ner i en måttkanna. Du behöver 350 ml buljong till yoghurtsåsen (fyll på med vatten om det inte räcker). Släng lagerbladen och vitlöken.',
           es: 'Retire el cordero con una espumadera y reserve. Cuela el caldo en una jarra medidora. Necesitas 350 ml de caldo para la salsa de yogur (rellénalo con agua si te falta). Deseche las hojas de laurel y el ajo.',
           fr: 'Retirer l\'agneau avec une écumoire et réserver. Filtrez le bouillon dans un verre doseur. Il vous faut 350 ml de bouillon pour la sauce au yaourt (rajouter de l\'eau si elle est courte). Jeter les feuilles de laurier et l\'ail.',
           de: 'Lammfleisch mit einem Schaumlöffel herausnehmen und beiseite stellen. Die Brühe in einen Messbecher abseihen. Für die Joghurtsauce benötigen Sie 350 ml Brühe (bei Bedarf mit Wasser auffüllen). Lorbeerblätter und Knoblauch wegwerfen.',
@@ -1110,7 +1350,7 @@ export const albania: Country = {
         },
         {
           en: 'Cook the rice: in a small pot, bring 450 ml water to a boil. Add rinsed rice and 1/2 tsp salt. Simmer uncovered 10 minutes until the rice is about 70% cooked. Drain well.',
-          sv: 'Koka riset: koka upp 450 ml vatten i en liten kastrull. Tillsätt sköljt ris och 1/2 tsk salt. Sjud utan lock i 10 minuter tills riset är ca 70 % kokt. Dränera väl.',
+          sv: 'Koka riset: koka upp 450 ml vatten i en liten kastrull. Tillsätt det sköljda riset och 1/2 tsk salt. Låt sjuda utan lock i 10 minuter tills riset är ungefär 70 % klart. Låt rinna av ordentligt.',
           es: 'Cocer el arroz: en una olla pequeña poner a hervir 450 ml de agua. Agrega el arroz enjuagado y 1/2 cucharadita de sal. Cocine a fuego lento sin tapar durante 10 minutos hasta que el arroz esté cocido aproximadamente al 70%. Escurrir bien.',
           fr: 'Cuire le riz : dans une petite casserole, porter à ébullition 450 ml d\'eau. Ajouter le riz rincé et 1/2 cuillère à café de sel. Laisser mijoter à découvert 10 minutes jusqu\'à ce que le riz soit cuit à environ 70 %. Bien égoutter.',
           de: 'Reis kochen: In einem kleinen Topf 450 ml Wasser zum Kochen bringen. Gespülten Reis und 1/2 TL Salz hinzufügen. Ohne Deckel 10 Minuten köcheln lassen, bis der Reis zu etwa 70 % gar ist. Gut abtropfen lassen.',
@@ -1143,7 +1383,7 @@ export const albania: Country = {
         },
         {
           en: 'Make the yogurt sauce: in a large bowl, whisk 700 g yogurt until smooth. Whisk in 4 eggs one at a time.',
-          sv: 'Gör yoghurtsåsen: i en stor skål, vispa 700 g yoghurt tills den är slät. Vispa i 4 ägg ett i taget.',
+          sv: 'Gör yoghurtsåsen: vispa 700 g yoghurt slät i en stor skål. Vispa ner 4 ägg, ett i taget.',
           es: 'Prepara la salsa de yogur: en un bol grande, bate 700 g de yogur hasta que quede suave. Incorpora 4 huevos uno a la vez.',
           fr: 'Préparez la sauce au yaourt : dans un grand bol, fouettez 700 g de yaourt jusqu\'à consistance lisse. Incorporer 4 œufs un à la fois.',
           de: 'Bereiten Sie die Joghurtsauce zu: In einer großen Schüssel 700 g Joghurt glatt rühren. 4 Eier einzeln unterrühren.',
@@ -1154,7 +1394,7 @@ export const albania: Country = {
         },
         {
           en: 'Sprinkle in 3 tbsp flour and whisk until fully combined and lump-free. Add 1/4 tsp nutmeg if using.',
-          sv: 'Strö i 3 msk mjöl och vispa tills det är helt blandat och klumpfritt. Tillsätt 1/4 tsk muskotnöt om du använder.',
+          sv: 'Strö ner 3 msk vetemjöl och vispa tills smeten är helt slät och fri från klumpar. Tillsätt 1/4 tsk muskotnöt om du vill.',
           es: 'Espolvorea 3 cucharadas de harina y bate hasta que esté completamente combinado y sin grumos. Agregue 1/4 cucharadita de nuez moscada si la usa.',
           fr: 'Saupoudrer de 3 cuillères à soupe de farine et fouetter jusqu\'à ce que le tout soit bien mélangé et sans grumeaux. Ajoutez 1/4 cuillère à café de muscade si vous en utilisez.',
           de: '3 EL Mehl einstreuen und verrühren, bis alles gut vermischt und klumpenfrei ist. Bei Verwendung 1/4 TL Muskatnuss hinzufügen.',
@@ -1165,7 +1405,7 @@ export const albania: Country = {
         },
         {
           en: 'Warm 350 ml of the reserved lamb broth (hot but not boiling). Slowly drizzle it into the yogurt mixture while whisking constantly to temper it (prevents curdling).',
-          sv: 'Värm 350 ml av den reserverade lammbuljongen (varm men inte kokande). Ringla långsamt ner den i yoghurtblandningen under ständig vispning för att temperera den (förhindrar att den jäst).',
+          sv: 'Värm 350 ml av den sparade lammbuljongen (het men inte kokande). Ringla långsamt ner den i yoghurtblandningen under ständig vispning så att den tempereras (det förhindrar att den skär sig).',
           es: 'Calentar 350 ml del caldo de cordero reservado (caliente pero no hirviendo). Rocíelo lentamente con la mezcla de yogur mientras bate constantemente para templarlo (evita que se cuaje).',
           fr: 'Faites chauffer 350 ml du bouillon d\'agneau réservé (chaud mais non bouillant). Versez-le lentement dans le mélange de yaourt tout en fouettant constamment pour le tempérer (évite le caillage).',
           de: '350 ml der beiseite gestellten Lammbrühe erwärmen (heiß, aber nicht kochend). Geben Sie es langsam unter ständigem Rühren in die Joghurtmischung, um es zu temperieren (verhindert ein Gerinnen).',
@@ -1176,7 +1416,7 @@ export const albania: Country = {
         },
         {
           en: 'Pour the yogurt sauce evenly over the lamb and rice. Tap the dish lightly on the counter to settle the mixture.',
-          sv: 'Häll yoghurtsåsen jämnt över lammet och riset. Knacka lätt fatet på bänken för att sätta blandningen.',
+          sv: 'Häll yoghurtsåsen jämnt över lammet och riset. Knacka formen lätt mot bänken så att smeten sätter sig.',
           es: 'Vierta la salsa de yogur de manera uniforme sobre el cordero y el arroz. Golpee ligeramente el plato sobre la encimera para asentar la mezcla.',
           fr: 'Versez uniformément la sauce au yaourt sur l\'agneau et le riz. Tapotez légèrement le plat sur le comptoir pour décanter le mélange.',
           de: 'Die Joghurtsauce gleichmäßig über das Lamm und den Reis gießen. Klopfen Sie mit der Schüssel leicht auf die Arbeitsfläche, damit sich die Mischung setzt.',
@@ -1187,7 +1427,7 @@ export const albania: Country = {
         },
         {
           en: 'Bake at 190°C (375°F) for 35–40 minutes, until the top is deeply golden and the center is set (it should wobble slightly, not slosh).',
-          sv: 'Grädda i 190°C (375°F) i 35–40 minuter, tills toppen är djupt gyllene och mitten är stel (den ska vingla något, inte skvalpa).',
+          sv: 'Grädda i 190 °C i 35–40 minuter, tills ytan är djupt gyllenbrun och mitten har stannat (den ska darra lite, inte skvalpa).',
           es: 'Hornee a 190°C (375°F) durante 35 a 40 minutos, hasta que la parte superior esté muy dorada y el centro firme (debe tambalearse ligeramente, no chapotear).',
           fr: 'Cuire au four à 190°C (375°F) pendant 35 à 40 minutes, jusqu\'à ce que le dessus soit bien doré et que le centre soit pris (il doit vaciller légèrement, pas s\'écouler).',
           de: 'Bei 190 °C (375 °F) 35–40 Minuten backen, bis die Oberseite goldbraun und die Mitte fest ist (sie sollte leicht wackeln, nicht schwappen).',
@@ -1198,7 +1438,7 @@ export const albania: Country = {
         },
         {
           en: 'Rest 10–15 minutes before serving so the custard firms up. Serve warm with a simple tomato-cucumber salad.',
-          sv: 'Vila 10–15 minuter innan servering så att vaniljsåsen stelnar. Servera varm med en enkel tomat-gurksallad.',
+          sv: 'Låt vila 10–15 minuter före servering så att yoghurttäcket hinner stelna. Servera varm med en enkel tomat- och gurksallad.',
           es: 'Descanse de 10 a 15 minutos antes de servir para que la crema se endurezca. Sirva caliente con una sencilla ensalada de tomate y pepino.',
           fr: 'Reposez-vous 10 à 15 minutes avant de servir pour que la crème se raffermisse. Servir chaud avec une simple salade de tomates et de concombres.',
           de: 'Vor dem Servieren 10–15 Minuten ruhen lassen, damit die Creme fester wird. Warm servieren mit einem einfachen Tomaten-Gurken-Salat.',
@@ -1309,7 +1549,7 @@ export const albania: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1364,7 +1604,7 @@ export const albania: Country = {
         },
         {
           en: 'Cream butter and sugar until fluffy',
-          sv: 'Grädde smör och socker fluffigt',
+          sv: 'Vispa smör och socker pösigt',
           es: 'Batir la mantequilla y el azúcar hasta que quede esponjoso',
           fr: 'Crémer le beurre et le sucre jusqu\'à consistance mousseuse',
           de: 'Butter und Zucker schaumig rühren',
@@ -1375,7 +1615,7 @@ export const albania: Country = {
         },
         {
           en: 'Beat in eggs one at a time',
-          sv: 'Vispa i äggen ett i taget',
+          sv: 'Vispa ner äggen, ett i taget',
           es: 'Batir los huevos uno a la vez',
           fr: 'Incorporer les œufs un à la fois',
           de: 'Eier einzeln unterrühren',
@@ -1397,7 +1637,7 @@ export const albania: Country = {
         },
         {
           en: 'Mix in toasted cornmeal and baking powder',
-          sv: 'Blanda i rostat majsmjöl och bakpulver',
+          sv: 'Blanda ner det rostade majsmjölet och bakpulvret',
           es: 'Incorpora la harina de maíz tostada y el polvo para hornear',
           fr: 'Incorporer la semoule de maïs grillée et la levure chimique',
           de: 'Geröstetes Maismehl und Backpulver untermischen',
@@ -1408,7 +1648,7 @@ export const albania: Country = {
         },
         {
           en: 'Form dough into small balls',
-          sv: 'Forma degen till små bollar',
+          sv: 'Rulla degen till små kulor',
           es: 'Forme bolitas con la masa',
           fr: 'Former de petites boules de pâte',
           de: 'Den Teig zu kleinen Kugeln formen',
@@ -1419,7 +1659,7 @@ export const albania: Country = {
         },
         {
           en: 'Place on baking sheet and flatten slightly',
-          sv: 'Lägg på plåt och platta till något',
+          sv: 'Lägg dem på en plåt och platta till dem lätt',
           es: 'Colóquelo en una bandeja para hornear y aplánelo ligeramente',
           fr: 'Placer sur une plaque à pâtisserie et aplatir légèrement',
           de: 'Auf ein Backblech legen und leicht flach drücken',
@@ -1430,7 +1670,7 @@ export const albania: Country = {
         },
         {
           en: 'Bake at 350°F for 15-20 minutes',
-          sv: 'Grädda i 350°F i 15-20 minuter',
+          sv: 'Grädda i 175 °C i 15–20 minuter',
           es: 'Hornee a 350°F durante 15-20 minutos',
           fr: 'Cuire au four à 350°F pendant 15-20 minutes',
           de: '15-20 Minuten bei 350°F backen',
@@ -1441,7 +1681,7 @@ export const albania: Country = {
         },
         {
           en: 'Cookies should be pale golden, not browned',
-          sv: 'Kakor ska vara blekt gyllene, inte brynta',
+          sv: 'Kakorna ska vara ljust gyllene, inte bruna',
           es: 'Las galletas deben tener un color dorado pálido, no doradas',
           fr: 'Les biscuits doivent être dorés pâles et non dorés',
           de: 'Kekse sollten hellgolden und nicht gebräunt sein',
@@ -1452,7 +1692,7 @@ export const albania: Country = {
         },
         {
           en: 'Cool completely before serving',
-          sv: 'Kyl helt innan servering',
+          sv: 'Låt svalna helt före servering',
           es: 'Dejar enfriar completamente antes de servir',
           fr: 'Laisser refroidir complètement avant de servir',
           de: 'Vor dem Servieren vollständig abkühlen lassen',

@@ -264,7 +264,17 @@ export const singapore: Country = {
     history: [
       {
         year: '1819',
-        title: 'British Trading Port',
+        title: {
+          en: 'British Trading Port',
+          sv: 'Brittisk handelshamn',
+          es: 'Puerto comercial británico',
+          fr: 'Comptoir britannique',
+          de: 'Britischer Handelshafen',
+          it: 'Porto commerciale britannico',
+          pl: 'Brytyjski port handlowy',
+          nl: 'Britse handelshaven',
+          pt: 'Porto comercial britânico',
+        },
         description: {
           en: 'Stamford Raffles established Singapore as a British trading post, accelerating migration and commerce.',
           sv: 'Stamford Raffles etablerade Singapore som en brittisk handelsplats, vilket påskyndade migration och handel.',
@@ -279,7 +289,17 @@ export const singapore: Country = {
       },
       {
         year: '1942–1945',
-        title: 'Japanese Occupation',
+        title: {
+          en: 'Japanese Occupation',
+          sv: 'Japansk ockupation',
+          es: 'Ocupación japonesa',
+          fr: 'Occupation japonaise',
+          de: 'Japanische Besatzung',
+          it: 'Occupazione giapponese',
+          pl: 'Okupacja japońska',
+          nl: 'Japanse bezetting',
+          pt: 'Ocupação japonesa',
+        },
         description: {
           en: 'Singapore fell to Japan during World War II and endured a difficult occupation period.',
           sv: 'Singapore föll till Japan under andra världskriget och fick utstå en svår ockupationsperiod.',
@@ -294,7 +314,17 @@ export const singapore: Country = {
       },
       {
         year: '1959',
-        title: 'Self-Government',
+        title: {
+          en: 'Self-Government',
+          sv: 'Självstyre',
+          es: 'Autogobierno',
+          fr: 'Autonomie interne',
+          de: 'Innere Autonomie',
+          it: 'Autogoverno',
+          pl: 'Autonomia wewnętrzna',
+          nl: 'Zelfbestuur',
+          pt: 'Autogoverno',
+        },
         description: {
           en: 'Singapore gained internal self-government, laying groundwork for full sovereignty.',
           sv: 'Singapore fick internt självstyre och lade grunden för full suveränitet.',
@@ -309,7 +339,17 @@ export const singapore: Country = {
       },
       {
         year: '1963',
-        title: 'Joined Malaysia',
+        title: {
+          en: 'Joined Malaysia',
+          sv: 'Anslutning till Malaysia',
+          es: 'Integración en Malasia',
+          fr: 'Rattachement à la Malaisie',
+          de: 'Beitritt zu Malaysia',
+          it: 'Adesione alla Malesia',
+          pl: 'Przyłączenie do Malezji',
+          nl: 'Aansluiting bij Maleisië',
+          pt: 'Adesão à Malásia',
+        },
         description: {
           en: 'Singapore became part of the Federation of Malaysia for a short period.',
           sv: 'Singapore blev en del av Federation of Malaysia under en kort period.',
@@ -324,7 +364,17 @@ export const singapore: Country = {
       },
       {
         year: '1965',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Singapore separated from Malaysia and became an independent nation.',
           sv: 'Singapore separerade från Malaysia och blev en självständig nation.',
@@ -338,8 +388,28 @@ export const singapore: Country = {
         },
       },
       {
-        year: '1965–1990s',
-        title: 'Rapid Economic Transformation',
+        year: {
+          en: '1965–1990s',
+          sv: '1965–1990-talet',
+          es: '1965–década de 1990',
+          fr: '1965–années 1990',
+          de: '1965–1990er',
+          it: '1965–anni \'90',
+          pl: '1965–lata 90.',
+          nl: '1965–jaren 90',
+          pt: '1965–década de 1990',
+        },
+        title: {
+          en: 'Rapid Economic Transformation',
+          sv: 'Snabb ekonomisk omvandling',
+          es: 'Rápida transformación económica',
+          fr: 'Transformation économique rapide',
+          de: 'Rasanter wirtschaftlicher Wandel',
+          it: 'Rapida trasformazione economica',
+          pl: 'Szybka transformacja gospodarcza',
+          nl: 'Snelle economische transformatie',
+          pt: 'Rápida transformação econômica',
+        },
         description: {
           en: 'Singapore grew into a major global hub for trade, finance, and manufacturing, supported by strong institutions and infrastructure.',
           sv: 'Singapore växte till ett stort globalt nav för handel, finans och tillverkning, med stöd av starka institutioner och infrastruktur.',
@@ -391,7 +461,17 @@ export const singapore: Country = {
           nl: 'Stedelijke vergroening en verticale tuinen',
           pt: 'Arborização urbana e jardins verticais',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'The "City in a Garden" approach integrates parks, green corridors, and vertical greenery into dense urban planning.',
           sv: '"Stad i en trädgård"-metoden integrerar parker, gröna korridorer och vertikal grönska i tät stadsplanering.',
@@ -416,7 +496,17 @@ export const singapore: Country = {
           nl: 'Containerhaventerminal van wereldklasse',
           pt: 'Operações portuárias de contêineres de classe mundial',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Singapore became a logistics powerhouse through highly optimized port operations and global shipping connectivity.',
           sv: 'Singapore blev ett logistikkraftverk genom mycket optimerad hamndrift och globala sjöfartsanslutningar.',
@@ -579,7 +669,17 @@ export const singapore: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Year-round destination; February–April is often slightly less rainy.',
           sv: 'Resmål året runt; Februari–april är ofta något mindre regnig.',
@@ -593,7 +693,17 @@ export const singapore: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'MRT and buses are fast, clean, and easy; contactless payment is common.',
           sv: 'MRT och bussar är snabba, rena och enkla; kontaktlös betalning är vanligt.',
@@ -607,7 +717,17 @@ export const singapore: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'English is widely spoken; you will also hear Singlish in daily conversation.',
           sv: 'Engelska talas allmänt; du kommer också att höra Singlish i dagliga samtal.',
@@ -621,7 +741,17 @@ export const singapore: Country = {
         },
       },
       {
-        item: 'Etiquette',
+        item: {
+          en: 'Etiquette',
+          sv: 'Vett och etikett',
+          es: 'Normas de cortesía',
+          fr: 'Savoir-vivre',
+          de: 'Umgangsformen',
+          it: 'Galateo',
+          pl: 'Savoir-vivre',
+          nl: 'Etiquette',
+          pt: 'Etiqueta',
+        },
         description: {
           en: 'Queueing, cleanliness, and public rules are taken seriously.',
           sv: 'Kö, renlighet och offentliga regler tas på allvar.',
@@ -635,7 +765,17 @@ export const singapore: Country = {
         },
       },
       {
-        item: 'Weather',
+        item: {
+          en: 'Weather',
+          sv: 'Väder',
+          es: 'Clima',
+          fr: 'Météo',
+          de: 'Wetter',
+          it: 'Meteo',
+          pl: 'Pogoda',
+          nl: 'Weer',
+          pt: 'Clima',
+        },
         description: {
           en: 'Hot and humid—pack breathable clothes and plan indoor breaks.',
           sv: 'Varmt och fuktigt – packa kläder som andas och planera inomhusraster.',
@@ -664,7 +804,7 @@ export const singapore: Country = {
       },
       description: {
         en: 'Singapore\'s most iconic comfort food: poached chicken served with fragrant rice, chili sauce, and ginger-scallion dip.',
-        sv: 'Singapores mest ikoniska komfortmat: pocherad kyckling serverad med doftande ris, chilisås och ingefärslökslök.',
+        sv: 'Singapores mest ikoniska vardagsrätt: pocherad kyckling med doftande ris, chilisås och en dippsås på ingefära och salladslök.',
         es: 'La comida reconfortante más emblemática de Singapur: pollo escalfado servido con arroz aromático, salsa picante y salsa de jengibre y cebollín.',
         fr: 'Le plat réconfortant le plus emblématique de Singapour : du poulet poché servi avec du riz parfumé, une sauce chili et une trempette au gingembre et aux oignons verts.',
         de: 'Singapurs kultigstes Wohlfühlessen: pochiertes Hühnchen, serviert mit Duftreis, Chilisauce und Ingwer-Frühlingszwiebel-Dip.',
@@ -721,7 +861,7 @@ export const singapore: Country = {
         {
           name: {
             en: 'Chicken stock (from poaching)',
-            sv: 'Kycklingfond (från tjuvjakt)',
+            sv: 'Kycklingbuljong (från pocheringen)',
             es: 'Caldo de pollo (de la caza furtiva)',
             fr: 'Bouillon de poulet (issu du braconnage)',
             de: 'Hühnerbrühe (aus Wilderung)',
@@ -776,7 +916,7 @@ export const singapore: Country = {
         {
           name: {
             en: 'Spring onions',
-            sv: 'Vårlök',
+            sv: 'Salladslök',
             es: 'Cebolletas tiernas',
             fr: 'Oignons nouveaux',
             de: 'Frühlingszwiebeln',
@@ -863,7 +1003,7 @@ export const singapore: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -888,7 +1028,7 @@ export const singapore: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -913,7 +1053,7 @@ export const singapore: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -942,7 +1082,7 @@ export const singapore: Country = {
       steps: [
         {
           en: 'Rub chicken with salt, then rinse (this helps clean the skin).',
-          sv: 'Gnid in kycklingen med salt och skölj sedan (detta hjälper till att rengöra huden).',
+          sv: 'Gnid in kycklingen med salt och skölj den sedan (det gör skinnet rent).',
           es: 'Frote el pollo con sal y luego enjuáguelo (esto ayuda a limpiar la piel).',
           fr: 'Frotter le poulet avec du sel, puis rincer (cela aide à nettoyer la peau).',
           de: 'Reiben Sie das Hähnchen mit Salz ein und spülen Sie es dann ab (dies hilft, die Haut zu reinigen).',
@@ -953,7 +1093,7 @@ export const singapore: Country = {
         },
         {
           en: 'Poach chicken: place in a pot, cover with water, add sliced ginger and 1 tsp salt. Bring to a gentle simmer and cook 35–40 minutes (avoid hard boiling).',
-          sv: 'Pochera kyckling: lägg i en kastrull, täck med vatten, tillsätt skivad ingefära och 1 tsk salt. Låt sjuda försiktigt och koka 35–40 minuter (undvik hårdkokning).',
+          sv: 'Pochera kycklingen: lägg den i en kastrull, täck med vatten och tillsätt skivad ingefära och 1 tsk salt. Låt sjuda försiktigt i 35–40 minuter (låt det inte koka häftigt).',
           es: 'Pollo escalfado: colocar en una olla, cubrir con agua, agregar jengibre en rodajas y 1 cucharadita de sal. Lleve a fuego lento y cocine de 35 a 40 minutos (evite que hierva fuerte).',
           fr: 'Pocher le poulet : mettre dans une casserole, couvrir d\'eau, ajouter le gingembre émincé et 1 cuillère à café de sel. Porter à ébullition douce et cuire 35 à 40 minutes (éviter les ébullitions fortes).',
           de: 'Hähnchen pochieren: In einen Topf geben, mit Wasser bedecken, geschnittenen Ingwer und 1 TL Salz hinzufügen. Leicht köcheln lassen und 35–40 Minuten kochen lassen (hartes Kochen vermeiden).',
@@ -964,7 +1104,7 @@ export const singapore: Country = {
         },
         {
           en: 'Ice bath: remove chicken and plunge into ice water for 5 minutes to set the skin. Drain and rest.',
-          sv: 'Isbad: ta bort kycklingen och kasta ner i isvatten i 5 minuter för att stelna huden. Dränera och vila.',
+          sv: 'Isbad: lyft upp kycklingen och lägg den i isvatten i 5 minuter så att skinnet blir fast och spänstigt. Låt den sedan rinna av och vila.',
           es: 'Baño de hielo: retire el pollo y sumérjalo en agua helada durante 5 minutos para fijar la piel. Escurrir y reposar.',
           fr: 'Bain glacé : retirer le poulet et le plonger dans l\'eau glacée pendant 5 minutes pour fixer la peau. Égoutter et reposer.',
           de: 'Eisbad: Hähnchen herausnehmen und 5 Minuten lang in Eiswasser tauchen, damit die Haut fest wird. Abgießen und ruhen lassen.',
@@ -975,7 +1115,7 @@ export const singapore: Country = {
         },
         {
           en: 'Make rice base: finely mince 3 cloves garlic and 10 g ginger. Sauté in 1 tbsp oil until fragrant.',
-          sv: 'Gör risbas: finhacka 3 vitlöksklyftor och 10 g ingefära. Fräs i 1 msk olja tills det doftar.',
+          sv: 'Risbasen: finhacka 3 vitlöksklyftor och 10 g ingefära. Fräs i 1 msk olja tills det doftar.',
           es: 'Hacer una base de arroz: picar finamente 3 dientes de ajo y 10 g de jengibre. Saltee en 1 cucharada de aceite hasta que esté fragante.',
           fr: 'Préparez la base de riz : émincez finement 3 gousses d\'ail et 10 g de gingembre. Faire sauter dans 1 cuillère à soupe d\'huile jusqu\'à ce qu\'il soit parfumé.',
           de: 'Reisbasis zubereiten: 3 Knoblauchzehen und 10 g Ingwer fein hacken. In 1 EL Öl anbraten, bis es duftet.',
@@ -986,7 +1126,7 @@ export const singapore: Country = {
         },
         {
           en: 'Add washed rice and stir 1 minute. Add 650 ml chicken stock and cook rice until done.',
-          sv: 'Tillsätt tvättat ris och rör om 1 minut. Tillsätt 650 ml kycklingfond och koka riset tills det är klart.',
+          sv: 'Tillsätt det sköljda riset och rör om i 1 minut. Häll i 650 ml kycklingbuljong och koka riset tills det är klart.',
           es: 'Agregue el arroz lavado y revuelva durante 1 minuto. Añade 650 ml de caldo de pollo y cocina el arroz hasta que esté cocido.',
           fr: 'Ajouter le riz lavé et remuer 1 minute. Ajoutez 650 ml de bouillon de poulet et faites cuire le riz jusqu\'à ce qu\'il soit cuit.',
           de: 'Gewaschenen Reis hinzufügen und 1 Minute rühren. 650 ml Hühnerbrühe hinzufügen und den Reis kochen, bis er gar ist.',
@@ -997,7 +1137,7 @@ export const singapore: Country = {
         },
         {
           en: 'Chili sauce: blend chili, a bit of ginger, lime juice, and a pinch of salt (add a splash of stock if needed).',
-          sv: 'Chilisås: blanda chili, lite ingefära, limejuice och en nypa salt (tillsätt en skvätt fond om det behövs).',
+          sv: 'Chilisås: mixa chili, lite ingefära, limejuice och en nypa salt (späd med en skvätt buljong vid behov).',
           es: 'Salsa de chile: licua el chile, un poco de jengibre, jugo de lima y una pizca de sal (agrega un chorrito de caldo si es necesario).',
           fr: 'Sauce chili : mélangez le piment, un peu de gingembre, du jus de citron vert et une pincée de sel (ajoutez un peu de bouillon si nécessaire).',
           de: 'Chilisauce: Chili, etwas Ingwer, Limettensaft und eine Prise Salz vermischen (bei Bedarf einen Schuss Brühe hinzufügen).',
@@ -1008,7 +1148,7 @@ export const singapore: Country = {
         },
         {
           en: 'Ginger-scallion dip: finely chop spring onions + ginger, heat sesame oil and pour over, add a pinch of salt.',
-          sv: 'Ingefära-salladslök: finhacka vårlök + ingefära, hetta upp sesamolja och häll över, tillsätt en nypa salt.',
+          sv: 'Dippsås med ingefära och salladslök: finhacka salladslök och ingefära, hetta upp sesamoljan och häll den över, tillsätt sedan en nypa salt.',
           es: 'Dip de jengibre y cebollino: pique finamente las cebolletas + jengibre, caliente el aceite de sésamo y vierta, agregue una pizca de sal.',
           fr: 'Dip gingembre-oignons verts : hachez finement oignons nouveaux + gingembre, faites chauffer l\'huile de sésame et versez dessus, ajoutez une pincée de sel.',
           de: 'Ingwer-Frühlingszwiebel-Dip: Frühlingszwiebeln + Ingwer fein hacken, Sesamöl erhitzen und darübergießen, eine Prise Salz hinzufügen.',
@@ -1019,7 +1159,7 @@ export const singapore: Country = {
         },
         {
           en: 'Slice chicken and drizzle with soy sauce (or light + dark soy mix if you use both).',
-          sv: 'Skiva kycklingen och ringla över sojasås (eller ljus + mörk sojamix om du använder båda).',
+          sv: 'Skiva kycklingen och ringla över sojasås (eller en blandning av ljus och mörk soja om du använder båda).',
           es: 'Corte el pollo en rodajas y rocíelo con salsa de soja (o una mezcla de soja clara y oscura si usa ambas).',
           fr: 'Trancher le poulet et arroser de sauce soja (ou d\'un mélange de soja clair + foncé si vous utilisez les deux).',
           de: 'Hähnchen in Scheiben schneiden und mit Sojasauce beträufeln (oder einer hellen und dunklen Sojasauce, wenn Sie beides verwenden).',
@@ -1045,36 +1185,36 @@ export const singapore: Country = {
     dessert: {
       id: 'singapore-dessert',
       name: {
-        en: 'Chendol',
-        sv: 'Kaya Toast Set (Sweet Kaya Toast)',
-        es: 'Juego de tostadas Kaya (tostadas dulces de Kaya)',
-        fr: 'Ensemble de toasts Kaya (toasts sucrés Kaya)',
-        de: 'Kaya-Toast-Set (süßer Kaya-Toast)',
-        it: 'Kaya Toast Set (Sweet Kaya Toast)',
-        pl: 'Kaya Toast Set (Sweet Kaya Toast)',
-        nl: 'Kaya Toast Set (Sweet Kaya Toast)',
-        pt: 'Kaya Toast Set (Sweet Kaya Toast)',
+        en: 'Kaya toast',
+        sv: 'Kayatoast',
+        es: 'Tostadas con kaya',
+        fr: 'Toasts au kaya',
+        de: 'Kaya-Toast',
+        it: 'Toast al kaya',
+        pl: 'Tosty z dżemem kaya',
+        nl: 'Kayatoast',
+        pt: 'Torrada com kaya',
       },
       description: {
-        en: 'A beloved Singaporean iced dessert with green rice flour jelly, coconut milk, and gula melaka (palm sugar).',
-        sv: 'En klassisk singaporiansk sötbit: rostat bröd med kaya (kokos-äggsylt) och smör, ofta serverad med kaffe eller te.',
+        en: 'A classic Singaporean sweet bite: toasted bread with kaya (coconut-egg jam) and butter, often served with coffee or tea.',
+        sv: 'En klassisk singaporiansk sötsak: rostat bröd med kaya (kokos- och äggsylt) och smör, som ofta serveras med kaffe eller te.',
         es: 'Un bocado dulce clásico de Singapur: pan tostado con kaya (mermelada de huevo y coco) y mantequilla, a menudo servido con café o té.',
         fr: 'Une bouchée sucrée classique de Singapour : du pain grillé avec du kaya (confiture d\'œufs de coco) et du beurre, souvent servi avec du café ou du thé.',
         de: 'Ein klassischer süßer Snack aus Singapur: geröstetes Brot mit Kaya (Kokos-Ei-Marmelade) und Butter, oft serviert mit Kaffee oder Tee.',
-        it: 'A classic Singaporean sweet bite: toasted bread with kaya (coconut-egg jam) and butter, often served with coffee or tea.',
-        pl: 'A classic Singaporean sweet bite: toasted bread with kaya (coconut-egg jam) and butter, often served with coffee or tea.',
-        nl: 'A classic Singaporean sweet bite: toasted bread with kaya (coconut-egg jam) and butter, often served with coffee or tea.',
-        pt: 'A classic Singaporean sweet bite: toasted bread with kaya (coconut-egg jam) and butter, often served with coffee or tea.',
+        it: 'Un classico dolce di Singapore: pane tostato con kaya (crema di cocco e uova) e burro, spesso servito con caffè o tè.',
+        pl: 'Klasyczna słodka przekąska z Singapuru: tosty z dżemem kaya (z kokosa i jajek) i masłem, często podawane z kawą lub herbatą.',
+        nl: 'Een klassieke zoete lekkernij uit Singapore: geroosterd brood met kaya (jam van kokos en ei) en boter, vaak geserveerd bij koffie of thee.',
+        pt: 'Um clássico doce de Cingapura: pão torrado com kaya (geleia de coco e ovos) e manteiga, muitas vezes servido com café ou chá.',
       },
       cookingTime: 15,
       difficulty: 'easy',
       servings: 2,
       dietType: {
         en: 'vegetarian',
-        sv: 'vegetarian',
+        sv: 'vegetarisk',
         es: 'vegetariano',
         fr: 'végétarien',
-        de: 'Vegetarier',
+        de: 'vegetarisch',
         it: 'vegetariano',
         pl: 'wegetariańskie',
         nl: 'vegetarisch',
@@ -1084,7 +1224,7 @@ export const singapore: Country = {
         {
           name: {
             en: 'White bread slices',
-            sv: 'Vita brödskivor',
+            sv: 'Skivor vitt bröd',
             es: 'Rebanadas de pan blanco',
             fr: 'Tranches de pain blanc',
             de: 'Weißbrotscheiben',
@@ -1097,12 +1237,12 @@ export const singapore: Country = {
           unit: {
             en: 'slices',
             sv: 'skivor',
-            es: 'rodajas',
+            es: 'rebanadas',
             fr: 'tranches',
             de: 'Scheiben',
             it: 'fette',
-            pl: 'plastry',
-            nl: 'plakjes',
+            pl: 'kromki',
+            nl: 'sneetjes',
             pt: 'fatias',
           },
         },
@@ -1150,10 +1290,10 @@ export const singapore: Country = {
       steps: [
         {
           en: 'Toast bread until crisp and golden.',
-          sv: 'Rosta brödet tills det är knaprigt och gyllene.',
+          sv: 'Rosta brödet tills det är knaprigt och gyllenbrunt.',
           es: 'Tostar el pan hasta que esté crujiente y dorado.',
           fr: 'Faire griller le pain jusqu\'à ce qu\'il soit croustillant et doré.',
-          de: 'Toasten Sie das Brot, bis es knusprig und goldbraun ist.',
+          de: 'Brot knusprig und goldbraun toasten.',
           it: 'Tosta il pane finché non diventa croccante e dorato.',
           pl: 'Opiecz chleb, aż będzie chrupiący i złocisty.',
           nl: 'Rooster het brood tot het knapperig en goudbruin is.',
@@ -1162,7 +1302,7 @@ export const singapore: Country = {
         {
           en: 'Spread kaya on two slices.',
           sv: 'Bred kaya på två skivor.',
-          es: 'Unte kaya en dos rebanadas.',
+          es: 'Untar kaya en dos rebanadas.',
           fr: 'Étalez le kaya sur deux tranches.',
           de: 'Kaya auf zwei Scheiben verteilen.',
           it: 'Spalma il kaya su due fette.',
@@ -1172,8 +1312,8 @@ export const singapore: Country = {
         },
         {
           en: 'Add butter slices, then sandwich with remaining toast.',
-          sv: 'Lägg till smörskivor, sedan smörgås med resterande rostat bröd.',
-          es: 'Agregue las rebanadas de mantequilla y luego emparéjelas con las tostadas restantes.',
+          sv: 'Lägg på tunna skivor smör och täck med de övriga brödskivorna.',
+          es: 'Añadir unas láminas de mantequilla y cubrir con las tostadas restantes.',
           fr: 'Ajouter les tranches de beurre, puis prendre en sandwich avec le reste du pain grillé.',
           de: 'Butterscheiben hinzufügen und mit dem restlichen Toast belegen.',
           it: 'Aggiungi fette di burro, quindi chiudi con l\'altra fetta di pane tostato.',

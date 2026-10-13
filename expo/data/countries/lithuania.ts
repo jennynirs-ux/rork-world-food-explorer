@@ -274,7 +274,17 @@ export const lithuania: Country = {
           nl: 'Behoud van de Litouwse taal',
           pt: 'Preservação da língua lituana',
         },
-        year: 'Continuous',
+        year: {
+          en: 'Continuous',
+          sv: 'Genom tiderna',
+          es: 'Sin interrupción',
+          fr: 'Sans interruption',
+          de: 'Ununterbrochen',
+          it: 'Senza interruzione',
+          pl: 'Nieprzerwanie',
+          nl: 'Onafgebroken',
+          pt: 'Sem interrupção',
+        },
         description: {
           en: 'Maintained one of the oldest living Indo-European languages despite occupations.',
           sv: 'Behöll ett av de äldsta levande indoeuropeiska språken trots yrken.',
@@ -299,7 +309,17 @@ export const lithuania: Country = {
           nl: 'Kruisensnijkunst',
           pt: 'Arte de fazer cruzes',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Traditional cross-making became a cultural and spiritual practice.',
           sv: 'Traditionell korsning blev en kulturell och andlig praxis.',
@@ -366,7 +386,7 @@ export const lithuania: Country = {
       {
         name: {
           en: 'Trakai Island Castle',
-          sv: 'Trakai Island Castle',
+          sv: 'Trakai slott',
           es: 'Castillo de la isla de Trakai',
           fr: 'Château de l\'île de Trakai',
           de: 'Burg der Insel Trakai',
@@ -414,7 +434,7 @@ export const lithuania: Country = {
       {
         name: {
           en: 'Curonian Spit',
-          sv: 'Kuriska spottar',
+          sv: 'Kuriska näset',
           es: 'Istmo de Curlandia',
           fr: 'Isthme de Courlande',
           de: 'Kurische Nehrung',
@@ -475,7 +495,7 @@ export const lithuania: Country = {
       },
       description: {
         en: 'Traditional tree cake with crispy branches, served at celebrations',
-        sv: 'Traditionell trädkaka med krispiga grenar, serverad vid firandet',
+        sv: 'Traditionell spettkaka med krispiga ”grenar” som serveras vid fester och högtider',
         es: 'Tradicional pastel de árbol con ramas crujientes, servido en celebraciones',
         fr: 'Gâteau d\'arbre traditionnel aux branches croustillantes, servi lors des célébrations',
         de: 'Traditioneller Baumkuchen mit knusprigen Zweigen, serviert bei Feiern',
@@ -514,7 +534,7 @@ export const lithuania: Country = {
           amount: 12,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -572,7 +592,7 @@ export const lithuania: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -603,7 +623,7 @@ export const lithuania: Country = {
       steps: [
         {
           en: 'Beat eggs and sugar until very fluffy',
-          sv: 'Vispa ägg och socker mycket fluffigt',
+          sv: 'Vispa ägg och socker riktigt pösigt',
           es: 'Batir los huevos y el azúcar hasta que estén muy esponjosos',
           fr: 'Battre les œufs et le sucre jusqu\'à consistance très mousseuse',
           de: 'Eier und Zucker schaumig schlagen',
@@ -614,7 +634,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Melt butter and cool slightly',
-          sv: 'Smält smör och svalna något',
+          sv: 'Smält smöret och låt det svalna något',
           es: 'Derretir la mantequilla y enfriar un poco',
           fr: 'Faire fondre le beurre et laisser refroidir légèrement',
           de: 'Butter schmelzen und leicht abkühlen lassen',
@@ -625,7 +645,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Fold in butter, sour cream, and vanilla',
-          sv: 'Vänd ner smör, gräddfil och vanilj',
+          sv: 'Vänd ner smöret, gräddfilen och vaniljextraktet',
           es: 'Incorporar la mantequilla, la crema agria y la vainilla',
           fr: 'Incorporer le beurre, la crème sure et la vanille',
           de: 'Butter, Sauerrahm und Vanille unterheben',
@@ -636,7 +656,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Gradually add flour',
-          sv: 'Tillsätt gradvis mjöl',
+          sv: 'Tillsätt mjölet lite i taget',
           es: 'Agrega poco a poco la harina',
           fr: 'Ajouter progressivement la farine',
           de: 'Nach und nach Mehl hinzufügen',
@@ -647,7 +667,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Pour batter over rotating spit in layers',
-          sv: 'Häll smeten över roterande spett i lager',
+          sv: 'Häll smeten i omgångar över ett roterande spett',
           es: 'Vierta la masa sobre el asador giratorio en capas',
           fr: 'Verser la pâte sur la broche tournante en couches',
           de: 'Den Teig schichtweise über den rotierenden Spieß gießen',
@@ -658,7 +678,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Bake each layer until golden before adding next',
-          sv: 'Grädda varje lager tills de är gyllene innan du lägger till nästa',
+          sv: 'Grädda varje lager tills det är gyllene innan du häller på nästa',
           es: 'Hornee cada capa hasta que esté dorada antes de agregar la siguiente',
           fr: 'Cuire chaque couche jusqu\'à ce qu\'elle soit dorée avant d\'ajouter la suivante',
           de: 'Jede Schicht goldbraun backen, bevor das nächste',
@@ -669,7 +689,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Continue until desired size',
-          sv: 'Fortsätt tills önskad storlek',
+          sv: 'Fortsätt tills kakan har önskad storlek',
           es: 'Continuar hasta el tamaño deseado',
           fr: 'Continuez jusqu\'à la taille désirée',
           de: 'hinzugefügt wird Fahren Sie fort, bis die gewünschte Größe',
@@ -680,7 +700,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Cool completely and remove from spit',
-          sv: 'Kyl helt och ta bort från spottet',
+          sv: 'Låt kakan svalna helt och ta sedan av den från spettet',
           es: 'Dejar enfriar completamente y retirar del asador',
           fr: 'Laisser refroidir complètement et retirer de la broche',
           de: 'erreicht ist Vollständig abkühlen lassen und vom Spieß nehmen',
@@ -691,7 +711,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Dust with powdered sugar',
-          sv: 'Pudra med strösocker',
+          sv: 'Pudra över florsocker',
           es: 'Espolvorear con azúcar glass',
           fr: 'Saupoudrer de sucre en poudre',
           de: 'Mit Puderzucker bestäuben',
@@ -706,7 +726,17 @@ export const lithuania: Country = {
     history: [
       {
         year: '1253',
-        title: 'Kingdom of Lithuania',
+        title: {
+          en: 'Kingdom of Lithuania',
+          sv: 'Kungariket Litauen',
+          es: 'Reino de Lituania',
+          fr: 'Royaume de Lituanie',
+          de: 'Königreich Litauen',
+          it: 'Regno di Lituania',
+          pl: 'Królestwo Litwy',
+          nl: 'Koninkrijk Litouwen',
+          pt: 'Reino da Lituânia',
+        },
         description: {
           en: 'Mindaugas was crowned as the first and only King of Lithuania.',
           sv: 'Mindaugas kröntes som den första och enda kungen av Litauen.',
@@ -721,7 +751,17 @@ export const lithuania: Country = {
       },
       {
         year: '1386',
-        title: 'Union with Poland',
+        title: {
+          en: 'Union with Poland',
+          sv: 'Union med Polen',
+          es: 'Unión con Polonia',
+          fr: 'Union avec la Pologne',
+          de: 'Union mit Polen',
+          it: 'Unione con la Polonia',
+          pl: 'Unia z Polską',
+          nl: 'Unie met Polen',
+          pt: 'União com a Polônia',
+        },
         description: {
           en: 'Grand Duke Jogaila married Polish queen and created the powerful Polish-Lithuanian Commonwealth.',
           sv: 'Storhertig Jogaila gifte sig med polsk drottning och skapade det mäktiga polsk-litauiska samväldet.',
@@ -736,7 +776,17 @@ export const lithuania: Country = {
       },
       {
         year: '1795',
-        title: 'Lost Independence',
+        title: {
+          en: 'Lost Independence',
+          sv: 'Förlorad självständighet',
+          es: 'Pérdida de la independencia',
+          fr: 'Perte de l\'indépendance',
+          de: 'Verlust der Unabhängigkeit',
+          it: 'Perdita dell\'indipendenza',
+          pl: 'Utrata niepodległości',
+          nl: 'Verlies van de onafhankelijkheid',
+          pt: 'Perda da independência',
+        },
         description: {
           en: 'Lithuania was partitioned and became part of the Russian Empire.',
           sv: 'Litauen delades upp och blev en del av det ryska imperiet.',
@@ -751,7 +801,17 @@ export const lithuania: Country = {
       },
       {
         year: '1918',
-        title: 'Independence Restored',
+        title: {
+          en: 'Independence Restored',
+          sv: 'Återvunnen självständighet',
+          es: 'Independencia restaurada',
+          fr: 'Indépendance retrouvée',
+          de: 'Wiederherstellung der Unabhängigkeit',
+          it: 'Indipendenza ritrovata',
+          pl: 'Odzyskanie niepodległości',
+          nl: 'Onafhankelijkheid hersteld',
+          pt: 'Independência restaurada',
+        },
         description: {
           en: 'Lithuania declared independence after World War I.',
           sv: 'Litauen förklarade sig självständigt efter första världskriget.',
@@ -766,7 +826,17 @@ export const lithuania: Country = {
       },
       {
         year: '1940-1990',
-        title: 'Soviet Occupation',
+        title: {
+          en: 'Soviet Occupation',
+          sv: 'Sovjetisk ockupation',
+          es: 'Ocupación soviética',
+          fr: 'Occupation soviétique',
+          de: 'Sowjetische Besatzung',
+          it: 'Occupazione sovietica',
+          pl: 'Okupacja sowiecka',
+          nl: 'Sovjetbezetting',
+          pt: 'Ocupação soviética',
+        },
         description: {
           en: 'Lithuania was occupied by the Soviet Union, enduring deportations and repression.',
           sv: 'Litauen ockuperades av Sovjetunionen och fick utstå deportationer och förtryck.',
@@ -781,7 +851,17 @@ export const lithuania: Country = {
       },
       {
         year: '1990',
-        title: 'Second Independence',
+        title: {
+          en: 'Second Independence',
+          sv: 'Självständigheten återupprättas',
+          es: 'Segunda independencia',
+          fr: 'Indépendance retrouvée',
+          de: 'Erneute Unabhängigkeit',
+          it: 'Seconda indipendenza',
+          pl: 'Odzyskanie niepodległości',
+          nl: 'Herwonnen onafhankelijkheid',
+          pt: 'Segunda independência',
+        },
         description: {
           en: 'Lithuania became the first Soviet republic to declare independence, inspiring others.',
           sv: 'Litauen blev den första sovjetrepubliken som utropade självständighet och inspirerade andra.',
@@ -797,7 +877,17 @@ export const lithuania: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for warm weather and festivals',
           sv: 'Maj-september för varmt väder och festivaler',
@@ -811,7 +901,17 @@ export const lithuania: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'EU member. Schengen visa rules apply.',
           sv: 'EU-medlem. Schengenvisumregler gäller.',
@@ -825,7 +925,17 @@ export const lithuania: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Good public transport. Buses connect cities efficiently.',
           sv: 'Bra kollektivtrafik. Bussar förbinder städer effektivt.',
@@ -839,7 +949,17 @@ export const lithuania: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Lithuanian. English spoken in cities and by younger people.',
           sv: 'litauiska. Engelska talas i städer och av yngre människor.',
@@ -853,7 +973,17 @@ export const lithuania: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe. Standard precautions in tourist areas.',
           sv: 'Mycket säker. Standardförsiktighetsåtgärder i turistområden.',
@@ -882,7 +1012,7 @@ export const lithuania: Country = {
       },
       description: {
         en: 'Lithuania\'s national dish - large potato dumplings filled with meat, served with sour cream and bacon sauce',
-        sv: 'Litauens nationalrätt - stora potatisdumplings fyllda med kött, serverad med gräddfil och baconsås',
+        sv: 'Litauens nationalrätt – stora köttfyllda potatisbollar som serveras med en sås av gräddfil och bacon',
         es: 'El plato nacional de Lituania: grandes bolas de masa de patata rellenas de carne, servidas con crema agria y salsa de tocino',
         fr: 'Le plat national de la Lituanie : de grosses boulettes de pommes de terre farcies à la viande, servies avec de la crème sure et une sauce au bacon',
         de: 'Litauens Nationalgericht – große Kartoffelknödel gefüllt mit Fleisch, serviert mit Sauerrahm und Specksauce',
@@ -909,7 +1039,7 @@ export const lithuania: Country = {
         {
           name: {
             en: 'Potatoes (starchy)',
-            sv: 'Potatis (stärkelsehaltig)',
+            sv: 'Potatis (mjölig)',
             es: 'Patatas (con almidón)',
             fr: 'Pommes de terre (féculentes)',
             de: 'Kartoffeln (stärkehaltig)',
@@ -924,7 +1054,7 @@ export const lithuania: Country = {
         {
           name: {
             en: 'Ground pork',
-            sv: 'Malet fläsk',
+            sv: 'Fläskfärs',
             es: 'Carne de cerdo molida',
             fr: 'Porc haché',
             de: 'Hackfleisch',
@@ -951,7 +1081,7 @@ export const lithuania: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -994,7 +1124,7 @@ export const lithuania: Country = {
         {
           name: {
             en: 'Potato starch',
-            sv: 'Potatisstärkelse',
+            sv: 'Potatismjöl',
             es: 'Almidón de patata',
             fr: 'Fécule de pomme de terre',
             de: 'Kartoffelstärke',
@@ -1045,7 +1175,7 @@ export const lithuania: Country = {
       steps: [
         {
           en: 'Peel and grate 2/3 of the potatoes, squeeze out excess water',
-          sv: 'Skala och riv 2/3 av potatisen, krama ur överflödigt vatten',
+          sv: 'Skala och riv 2/3 av potatisen och krama ur vätskan ordentligt',
           es: 'Pelar y rallar 2/3 de las patatas, exprimir el exceso de agua',
           fr: 'Épluchez et râpez les 2/3 des pommes de terre, essorez l\'excès d\'eau',
           de: '2/3 der Kartoffeln schälen und reiben, überschüssiges Wasser ausdrücken',
@@ -1056,7 +1186,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Boil remaining 1/3 potatoes, mash and mix with grated potatoes',
-          sv: 'Koka resterande 1/3 potatis, mosa och blanda med riven potatis',
+          sv: 'Koka resten av potatisen, mosa den och blanda med den rivna potatisen',
           es: 'Hervir el 1/3 de patatas restante, triturar y mezclar con las patatas ralladas.',
           fr: 'Faire bouillir le tiers des pommes de terre restantes, les écraser et mélanger avec les pommes de terre râpées.',
           de: 'Das restliche Drittel der Kartoffeln kochen, pürieren und mit den geriebenen Kartoffeln vermischen',
@@ -1067,7 +1197,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Add potato starch and salt to potato mixture',
-          sv: 'Tillsätt potatisstärkelse och salt till potatisblandningen',
+          sv: 'Tillsätt potatismjöl och salt i potatisblandningen',
           es: 'Agregue almidón de papa y sal a la mezcla de papa',
           fr: 'Ajouter la fécule de pomme de terre et le sel au mélange de pommes de terre',
           de: 'Kartoffelstärke und Salz zur Kartoffelmischung hinzufügen',
@@ -1078,7 +1208,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Brown ground pork with diced onion, season well',
-          sv: 'Bryn malet fläsk med tärnad lök, krydda väl',
+          sv: 'Bryn fläskfärsen med hackad lök och krydda ordentligt',
           es: 'Dore la carne de cerdo molida con cebolla picada y sazone bien',
           fr: 'Faire dorer le porc haché avec les oignons coupés en dés, bien assaisonner',
           de: 'Schweinehackfleisch mit gewürfelten Zwiebeln anbraten, gut würzen',
@@ -1089,7 +1219,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Form potato mixture into oval shapes, add meat filling in center',
-          sv: 'Forma potatisblandningen till ovala former, tillsätt köttfyllningen i mitten',
+          sv: 'Forma potatisblandningen till ovala kakor och lägg köttfyllningen i mitten',
           es: 'Forme formas ovaladas con la mezcla de papa, agregue el relleno de carne en el centro',
           fr: 'Former le mélange de pommes de terre en formes ovales, ajouter la viande au centre',
           de: 'Aus der Kartoffelmischung ovale Formen formen und die Fleischfüllung in die Mitte geben',
@@ -1100,7 +1230,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Seal edges to create zeppelin-shaped dumplings',
-          sv: 'Försegla kanterna för att skapa zeppelinformade dumplings',
+          sv: 'Tryck ihop kanterna och forma till zeppelinarformade bollar',
           es: 'Sellar los bordes para crear bolas de masa con forma de zepelín',
           fr: 'Scellez les bords pour créer des boulettes en forme de zeppelin',
           de: 'Versiegeln Sie die Ränder, um zeppelinförmige Knödel zu erhalten',
@@ -1111,7 +1241,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Boil in salted water for 30-40 minutes until they float',
-          sv: 'Koka i saltat vatten i 30-40 minuter tills de flyter',
+          sv: 'Koka i saltat vatten i 30–40 minuter tills de flyter upp',
           es: 'Hervir en agua con sal durante 30-40 minutos hasta que floten',
           fr: 'Faire bouillir dans de l\'eau salée pendant 30 à 40 minutes jusqu\'à ce qu\'ils flottent',
           de: 'In Salzwasser 30-40 Minuten kochen, bis sie schwimmen',
@@ -1122,7 +1252,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Fry diced bacon until crispy, mix with sour cream',
-          sv: 'Stek tärnad bacon knaprig, blanda med gräddfil',
+          sv: 'Stek tärnat bacon tills det är knaprigt och blanda med gräddfil',
           es: 'Freír el tocino cortado en cubitos hasta que esté crujiente y mezclar con la crema agria',
           fr: 'Faire frire les dés de bacon jusqu\'à ce qu\'ils soient croustillants, mélanger avec la crème sure',
           de: 'Speckwürfel knusprig braten, mit Sauerrahm vermischen',
@@ -1133,7 +1263,7 @@ export const lithuania: Country = {
         },
         {
           en: 'Serve cepelinai hot with bacon-sour cream sauce',
-          sv: 'Servera cepelinai varm med bacon-gräddfilssås',
+          sv: 'Servera cepelinai varma med såsen av bacon och gräddfil',
           es: 'Sirva el cepelinai caliente con salsa de crema agria y tocino',
           fr: 'Servir les cepelinai chauds avec une sauce bacon-crème aigre',
           de: 'Cepelinai heiß mit Speck-Sauerrahm-Sauce servieren',
@@ -1532,7 +1662,7 @@ export const lithuania: Country = {
         options: [
           {
             en: 'Cross Mountain',
-            sv: 'Cross Mountain',
+            sv: 'Korsberget',
             es: 'Cruz de Montaña',
             fr: 'Traverser la montagne',
             de: 'Kreuzberg',
@@ -1565,7 +1695,7 @@ export const lithuania: Country = {
           },
           {
             en: 'Cross Fields',
-            sv: 'Cross Fields',
+            sv: 'Korsfälten',
             es: 'Campos cruzados',
             fr: 'Champs croisés',
             de: 'Kreuzfelder',
@@ -1726,7 +1856,7 @@ export const lithuania: Country = {
           },
           {
             en: 'Curonian Spit',
-            sv: 'Kuriska spottar',
+            sv: 'Kuriska näset',
             es: 'Istmo de Curlandia',
             fr: 'Isthme de Courlande',
             de: 'Kurische Nehrung',
@@ -1737,7 +1867,7 @@ export const lithuania: Country = {
           },
           {
             en: 'Nida Beach',
-            sv: 'Nida Beach',
+            sv: 'Nida strand',
             es: 'Playa de Nida',
             fr: 'Plage de Nida',
             de: 'Strand von Nida',

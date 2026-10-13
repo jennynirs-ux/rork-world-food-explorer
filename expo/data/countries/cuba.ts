@@ -242,7 +242,17 @@ export const cuba: Country = {
     history: [
       {
         year: '1492',
-        title: 'Columbus Arrives',
+        title: {
+          en: 'Columbus Arrives',
+          sv: 'Columbus anländer',
+          es: 'Llega Colón',
+          fr: 'Colomb débarque',
+          de: 'Kolumbus landet',
+          it: 'Arriva Colombo',
+          pl: 'Kolumb przybywa',
+          nl: 'Columbus komt aan',
+          pt: 'Colombo chega',
+        },
         description: {
           en: 'Christopher Columbus claimed Cuba for Spain, beginning over 400 years of Spanish colonial rule.',
           sv: 'Christopher Columbus gjorde anspråk på Kuba för Spanien, och började över 400 år av spanskt kolonialstyre.',
@@ -257,7 +267,17 @@ export const cuba: Country = {
       },
       {
         year: '1959',
-        title: 'Cuban Revolution',
+        title: {
+          en: 'Cuban Revolution',
+          sv: 'Kubanska revolutionen',
+          es: 'Revolución cubana',
+          fr: 'Révolution cubaine',
+          de: 'Kubanische Revolution',
+          it: 'Rivoluzione cubana',
+          pl: 'Rewolucja kubańska',
+          nl: 'Cubaanse revolutie',
+          pt: 'Revolução cubana',
+        },
         description: {
           en: 'Fidel Castro led a revolution that overthrew the Batista government, establishing a socialist state.',
           sv: 'Fidel Castro ledde en revolution som störtade Batista-regeringen och etablerade en socialistisk stat.',
@@ -272,7 +292,17 @@ export const cuba: Country = {
       },
       {
         year: '1962',
-        title: 'Cuban Missile Crisis',
+        title: {
+          en: 'Cuban Missile Crisis',
+          sv: 'Kubakrisen',
+          es: 'Crisis de los misiles de Cuba',
+          fr: 'Crise des missiles de Cuba',
+          de: 'Kubakrise',
+          it: 'Crisi dei missili di Cuba',
+          pl: 'Kryzys kubański',
+          nl: 'Cubacrisis',
+          pt: 'Crise dos mísseis de Cuba',
+        },
         description: {
           en: 'A 13-day confrontation between the US and Soviet Union that brought the world to the brink of nuclear war.',
           sv: 'En 13-dagars konfrontation mellan USA och Sovjetunionen som förde världen till randen av kärnvapenkrig.',
@@ -324,7 +354,17 @@ export const cuba: Country = {
           nl: 'Vaccin tegen meningitis B',
           pt: 'Vacina contra a meningite B',
         },
-        year: '1980s',
+        year: {
+          en: '1980s',
+          sv: '1980-talet',
+          es: 'Década de 1980',
+          fr: 'Années 1980',
+          de: '1980er',
+          it: 'Anni \'80',
+          pl: 'Lata 80.',
+          nl: 'Jaren 80',
+          pt: 'Década de 1980',
+        },
         description: {
           en: 'Cuba was the first country to develop an effective vaccine against Meningitis B, saving countless lives globally.',
           sv: 'Kuba var det första landet som utvecklade ett effektivt vaccin mot meningit B, vilket räddade otaliga liv globalt.',
@@ -374,7 +414,17 @@ export const cuba: Country = {
           nl: 'Model van medische diplomatie',
           pt: 'Modelo de diplomacia médica',
         },
-        year: '1960s-present',
+        year: {
+          en: '1960s-present',
+          sv: '1960-talet–idag',
+          es: 'Década de 1960–actualidad',
+          fr: 'Années 1960–aujourd\'hui',
+          de: '1960er–heute',
+          it: 'Anni \'60–oggi',
+          pl: 'Lata 60.–obecnie',
+          nl: 'Jaren 60–heden',
+          pt: 'Década de 1960–presente',
+        },
         description: {
           en: 'Pioneered international medical cooperation, sending doctors worldwide and creating a model for healthcare diplomacy.',
           sv: 'Banade internationellt medicinskt samarbete, skickade läkare över hela världen och skapade en modell för sjukvårdsdiplomati.',
@@ -416,7 +466,7 @@ export const cuba: Country = {
       {
         name: {
           en: 'Viñales Valley',
-          sv: 'Viñales Valley',
+          sv: 'Viñalesdalen',
           es: 'Valle de Viñales',
           fr: 'Vallée de Viñales',
           de: 'Viñales-Tal',
@@ -464,7 +514,7 @@ export const cuba: Country = {
       {
         name: {
           en: 'Varadero Beach',
-          sv: 'Varadero Beach',
+          sv: 'Varaderostranden',
           es: 'Playa de Varadero',
           fr: 'Plage de Varadero',
           de: 'Strand von Varadero',
@@ -512,7 +562,17 @@ export const cuba: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-April for dry season, avoid hurricane season.',
           sv: 'November-april för torrperioden, undvik orkansäsong.',
@@ -526,7 +586,17 @@ export const cuba: Country = {
         },
       },
       {
-        item: 'Cash (Euros or Canadian Dollars)',
+        item: {
+          en: 'Cash (Euros or Canadian Dollars)',
+          sv: 'Kontanter (euro eller kanadensiska dollar)',
+          es: 'Efectivo (euros o dólares canadienses)',
+          fr: 'Espèces (euros ou dollars canadiens)',
+          de: 'Bargeld (Euro oder kanadische Dollar)',
+          it: 'Contanti (euro o dollari canadesi)',
+          pl: 'Gotówka (euro lub dolary kanadyjskie)',
+          nl: 'Contant geld (euro\'s of Canadese dollars)',
+          pt: 'Dinheiro (euros ou dólares canadenses)',
+        },
         description: {
           en: 'US cards don\'t work; bring cash to exchange.',
           sv: 'USA-kort fungerar inte; ta med kontanter att växla.',
@@ -540,7 +610,17 @@ export const cuba: Country = {
         },
       },
       {
-        item: 'Tourist card (visa)',
+        item: {
+          en: 'Tourist card (visa)',
+          sv: 'Turistkort (visum)',
+          es: 'Tarjeta de turista (visa)',
+          fr: 'Carte de touriste (visa)',
+          de: 'Touristenkarte (Visum)',
+          it: 'Carta turistica (visto)',
+          pl: 'Karta turystyczna (wiza)',
+          nl: 'Toeristenkaart (visum)',
+          pt: 'Cartão de turista (visto)',
+        },
         description: {
           en: 'Required for entry, available at airport or through airlines.',
           sv: 'Krävs för inträde, tillgängligt på flygplatsen eller via flygbolag.',
@@ -554,7 +634,17 @@ export const cuba: Country = {
         },
       },
       {
-        item: 'Spanish phrasebook',
+        item: {
+          en: 'Spanish phrasebook',
+          sv: 'Spansk parlör',
+          es: 'Frases útiles en español',
+          fr: 'Guide de conversation espagnol',
+          de: 'Spanisch-Sprachführer',
+          it: 'Frasario di spagnolo',
+          pl: 'Rozmówki hiszpańskie',
+          nl: 'Spaanse taalgids',
+          pt: 'Guia de conversação em espanhol',
+        },
         description: {
           en: 'English is not widely spoken outside tourist areas.',
           sv: 'Engelska talas inte i stor utsträckning utanför turistområdena.',
@@ -583,7 +673,7 @@ export const cuba: Country = {
       },
       description: {
         en: 'Shredded beef stewed in tomato sauce, Cuba\'s national dish',
-        sv: 'Strimlat nötkött stuvat i tomatsås, Kubas nationalrätt',
+        sv: 'Strimlat nötkött som puttrat i tomatsås – Kubas nationalrätt',
         es: 'Carne deshebrada guisada en salsa de tomate, plato nacional de Cuba',
         fr: 'Ragoût de bœuf effiloché à la sauce tomate, plat national cubain',
         de: 'Geschnetzeltes Rindfleisch in Tomatensoße geschmort, Kubas Nationalgericht',
@@ -637,7 +727,7 @@ export const cuba: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -662,7 +752,7 @@ export const cuba: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -715,7 +805,7 @@ export const cuba: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -781,7 +871,7 @@ export const cuba: Country = {
       steps: [
         {
           en: 'Boil beef with bay leaves until tender (2 hours), reserve broth',
-          sv: 'Koka nötkött med lagerblad tills det är mört (2 timmar), reservera buljong',
+          sv: 'Koka köttet med lagerblad tills det är mört (ca 2 timmar) och spara buljongen',
           es: 'Hervir la carne con las hojas de laurel hasta que estén tiernas (2 horas), reservar el caldo.',
           fr: 'Faire bouillir le bœuf avec les feuilles de laurier jusqu\'à ce qu\'il soit tendre (2 heures), réserver le bouillon',
           de: 'Rindfleisch mit Lorbeerblättern weich kochen (2 Stunden), Brühe aufbewahren',
@@ -792,7 +882,7 @@ export const cuba: Country = {
         },
         {
           en: 'Shred cooked beef with forks',
-          sv: 'Strimla kokt nötkött med gafflar',
+          sv: 'Dra isär det kokta köttet med två gafflar',
           es: 'Desmenuzar la carne cocida con tenedores',
           fr: 'Râpez le bœuf cuit à la fourchette',
           de: 'Gekochtes Rindfleisch mit Gabeln zerkleinern',
@@ -836,7 +926,7 @@ export const cuba: Country = {
         },
         {
           en: 'Serve over white rice with black beans and plantains',
-          sv: 'Servera över vitt ris med svarta bönor och mjölbananer',
+          sv: 'Servera på vitt ris med svarta bönor och kokbananer',
           es: 'Sirva sobre arroz blanco con frijoles negros y plátanos',
           fr: 'Servir sur du riz blanc avec des haricots noirs et des plantains',
           de: 'Über weißem Reis mit schwarzen Bohnen und Kochbananen servieren',
@@ -863,7 +953,7 @@ export const cuba: Country = {
       },
       description: {
         en: 'Creamy caramel custard, a beloved Cuban dessert',
-        sv: 'Krämig kola vaniljsås, en älskad kubansk dessert',
+        sv: 'Krämig karamellpudding, en älskad kubansk dessert',
         es: 'Natillas cremosas de caramelo, un postre cubano querido',
         fr: 'Crème anglaise au caramel crémeuse, un dessert cubain très apprécié',
         de: 'Cremiger Karamellpudding, ein beliebtes kubanisches Dessert',
@@ -917,7 +1007,7 @@ export const cuba: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -930,7 +1020,7 @@ export const cuba: Country = {
         {
           name: {
             en: 'Condensed milk',
-            sv: 'Kondenserad mjölk',
+            sv: 'Sötad kondenserad mjölk',
             es: 'Leche condensada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -945,7 +1035,7 @@ export const cuba: Country = {
         {
           name: {
             en: 'Evaporated milk',
-            sv: 'Indunstad mjölk',
+            sv: 'Evaporerad mjölk',
             es: 'Leche evaporada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -991,7 +1081,7 @@ export const cuba: Country = {
       steps: [
         {
           en: 'Melt 150g sugar in pan until golden for caramel',
-          sv: 'Smält 150 g socker i pannan tills det är gyllene för karamell',
+          sv: 'Smält 150 g socker i en kastrull tills det blir gyllene karamell',
           es: 'Derrita 150 g de azúcar en una sartén hasta que esté dorado para hacer caramelo',
           fr: 'Faire fondre 150 g de sucre dans une poêle jusqu\'à ce qu\'il soit doré pour le caramel',
           de: '150 g Zucker in der Pfanne schmelzen, bis Karamell entsteht',
@@ -1002,7 +1092,7 @@ export const cuba: Country = {
         },
         {
           en: 'Pour caramel into flan mold, coating bottom',
-          sv: 'Häll kola i flanform, belägg botten',
+          sv: 'Häll karamellen i en flanform så att den täcker botten',
           es: 'Vierte el caramelo en el molde para flan, cubriendo el fondo',
           fr: 'Verser le caramel dans le moule à flan en recouvrant le fond',
           de: 'Karamell in die Flanform gießen und den Boden damit bestreichen',
@@ -1013,7 +1103,7 @@ export const cuba: Country = {
         },
         {
           en: 'Blend eggs, both milks, remaining sugar, vanilla, and lime zest',
-          sv: 'Blanda ägg, både mjölk, resterande socker, vanilj och limeskal',
+          sv: 'Mixa ägg, båda sorterna mjölk, resterande socker, vanilj och limeskal',
           es: 'Licuar los huevos, ambas leches, el azúcar restante, la vainilla y la ralladura de lima',
           fr: 'Mélangez les œufs, les deux laits, le reste du sucre, la vanille et le zeste de citron vert',
           de: 'Eier, beide Milchsorten, restlichen Zucker, Vanille und Limettenschale verrühren',
@@ -1024,7 +1114,7 @@ export const cuba: Country = {
         },
         {
           en: 'Pour mixture over caramel in mold',
-          sv: 'Häll blandningen över karamell i formen',
+          sv: 'Häll smeten över karamellen i formen',
           es: 'Vierta la mezcla sobre el caramelo en el molde',
           fr: 'Verser le mélange sur le caramel dans le moule',
           de: 'Die Mischung über das Karamell in der Form gießen',
@@ -1035,7 +1125,7 @@ export const cuba: Country = {
         },
         {
           en: 'Place mold in water bath, bake at 180°C for 60 minutes',
-          sv: 'Placera formen i vattenbad, grädda i 180°C i 60 minuter',
+          sv: 'Ställ formen i vattenbad och grädda i 180°C i 60 minuter',
           es: 'Colocar el molde al baño maría, hornear a 180°C por 60 minutos',
           fr: 'Placer le moule au bain-marie, cuire au four à 180°C pendant 60 minutes',
           de: 'Form ins Wasserbad stellen, 60 Minuten bei 180°C backen',
@@ -1046,7 +1136,7 @@ export const cuba: Country = {
         },
         {
           en: 'Cool completely, then refrigerate for 4 hours',
-          sv: 'Kyl helt och ställ sedan i kylen i 4 timmar',
+          sv: 'Låt svalna helt och ställ sedan i kylen i 4 timmar',
           es: 'Deje enfriar completamente, luego refrigere por 4 horas.',
           fr: 'Laisser refroidir complètement puis réfrigérer 4 heures',
           de: 'Vollständig abkühlen lassen, dann 4 Stunden in den Kühlschrank stellen',
@@ -1057,7 +1147,7 @@ export const cuba: Country = {
         },
         {
           en: 'Invert onto plate to serve',
-          sv: 'Vänd upp på tallrik för att servera',
+          sv: 'Stjälp upp på ett fat och servera',
           es: 'Invierta en un plato para servir',
           fr: 'Retourner sur une assiette pour servir',
           de: 'Zum Servieren auf den Teller stürzen',
@@ -1477,7 +1567,7 @@ export const cuba: Country = {
           },
           {
             en: 'Pina Colada',
-            sv: 'Pina Colada',
+            sv: 'Piña colada',
             es: 'Piña Colada',
             fr: 'Pina Colada',
             de: 'Pina Colada',

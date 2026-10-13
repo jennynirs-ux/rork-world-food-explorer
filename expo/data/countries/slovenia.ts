@@ -263,8 +263,28 @@ export const slovenia: Country = {
     },
     history: [
       {
-        year: '7th century',
-        title: 'Slavic Settlement',
+        year: {
+          en: '7th century',
+          sv: '600-talet',
+          es: 'siglo VII',
+          fr: 'VIIe siècle',
+          de: '7. Jahrhundert',
+          it: 'VII secolo',
+          pl: 'VII wiek',
+          nl: '7e eeuw',
+          pt: 'século VII',
+        },
+        title: {
+          en: 'Slavic Settlement',
+          sv: 'Slavisk bosättning',
+          es: 'Asentamiento eslavo',
+          fr: 'Installation des Slaves',
+          de: 'Slawische Besiedlung',
+          it: 'Insediamento slavo',
+          pl: 'Osadnictwo słowiańskie',
+          nl: 'Vestiging van de Slaven',
+          pt: 'Assentamento eslavo',
+        },
         description: {
           en: 'Slavic tribes settled in the area, establishing early Slovene communities and the first Slovene principality known as Carantania.',
           sv: 'Slaviska stammar bosatte sig i området och etablerade tidiga slovenska samhällen och det första slovenska furstendömet känt som Carantania.',
@@ -278,8 +298,28 @@ export const slovenia: Country = {
         },
       },
       {
-        year: '14th century',
-        title: 'Habsburg Rule',
+        year: {
+          en: '14th century',
+          sv: '1300-talet',
+          es: 'Siglo XIV',
+          fr: 'XIVe siècle',
+          de: '14. Jahrhundert',
+          it: 'XIV secolo',
+          pl: 'XIV wiek',
+          nl: '14e eeuw',
+          pt: 'Século XIV',
+        },
+        title: {
+          en: 'Habsburg Rule',
+          sv: 'Habsburgskt styre',
+          es: 'Dominio de los Habsburgo',
+          fr: 'Domination des Habsbourg',
+          de: 'Habsburgerherrschaft',
+          it: 'Dominio asburgico',
+          pl: 'Panowanie Habsburgów',
+          nl: 'Habsburgse heerschappij',
+          pt: 'Domínio dos Habsburgo',
+        },
         description: {
           en: 'Most Slovenian lands came under Habsburg rule, which would last for centuries and strongly influence culture and architecture.',
           sv: 'De flesta slovenska länder kom under Habsburgs styre, vilket skulle vara i århundraden och starkt påverka kultur och arkitektur.',
@@ -294,7 +334,17 @@ export const slovenia: Country = {
       },
       {
         year: '1918',
-        title: 'Kingdom of Yugoslavia',
+        title: {
+          en: 'Kingdom of Yugoslavia',
+          sv: 'Kungariket Jugoslavien',
+          es: 'Reino de Yugoslavia',
+          fr: 'Royaume de Yougoslavie',
+          de: 'Königreich Jugoslawien',
+          it: 'Regno di Jugoslavia',
+          pl: 'Królestwo Jugosławii',
+          nl: 'Koninkrijk Joegoslavië',
+          pt: 'Reino da Iugoslávia',
+        },
         description: {
           en: 'After World War I, Slovenia became part of the Kingdom of Serbs, Croats and Slovenes, later known as Yugoslavia.',
           sv: 'Efter första världskriget blev Slovenien en del av kungariket av serber, kroater och slovener, senare känt som Jugoslavien.',
@@ -309,7 +359,17 @@ export const slovenia: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Slovenia declared independence from Yugoslavia after a brief 10-day war, becoming a sovereign nation.',
           sv: 'Slovenien förklarade sig självständigt från Jugoslavien efter ett kort 10-dagars krig och blev en suverän nation.',
@@ -324,7 +384,17 @@ export const slovenia: Country = {
       },
       {
         year: '2004',
-        title: 'EU and NATO',
+        title: {
+          en: 'EU and NATO',
+          sv: 'EU och Nato',
+          es: 'UE y OTAN',
+          fr: 'UE et OTAN',
+          de: 'EU und NATO',
+          it: 'UE e NATO',
+          pl: 'UE i NATO',
+          nl: 'EU en NAVO',
+          pt: 'UE e OTAN',
+        },
         description: {
           en: 'Slovenia joined both the European Union and NATO, integrating with Western institutions.',
           sv: 'Slovenien gick med i både Europeiska unionen och Nato och integrerade sig med västerländska institutioner.',
@@ -351,7 +421,17 @@ export const slovenia: Country = {
           nl: 'Moderne bijenteelt en imkererfgoed',
           pt: 'Apicultura moderna e patrimônio da criação de abelhas',
         },
-        year: '1700s–Modern',
+        year: {
+          en: '1700s–Modern',
+          sv: '1700-talet–idag',
+          es: 'siglo XVIII – actualidad',
+          fr: 'XVIIIe siècle – aujourd\'hui',
+          de: '18. Jahrhundert – heute',
+          it: 'XVIII secolo – oggi',
+          pl: 'XVIII wiek – obecnie',
+          nl: '18e eeuw – heden',
+          pt: 'século XVIII – presente',
+        },
         description: {
           en: 'Slovenia is internationally known for beekeeping traditions and modern apiculture, including distinctive painted beehive panels and strong support for pollinator awareness.',
           sv: 'Slovenien är internationellt känt för biodlingstraditioner och modern biodling, inklusive distinkta målade bikupapaneler och starkt stöd för pollinatörers medvetenhet.',
@@ -401,7 +481,17 @@ export const slovenia: Country = {
           nl: 'Grottenwetenschap en karstonderzoek',
           pt: 'Ciência das cavernas e pesquisa cárstica',
         },
-        year: '1800s–Modern',
+        year: {
+          en: '1800s–Modern',
+          sv: '1800-talet–idag',
+          es: 'siglo XIX – actualidad',
+          fr: 'XIXe siècle – aujourd\'hui',
+          de: '19. Jahrhundert – heute',
+          it: 'XIX secolo – oggi',
+          pl: 'XIX wiek – obecnie',
+          nl: '19e eeuw – heden',
+          pt: 'século XIX – presente',
+        },
         description: {
           en: 'Slovenia\'s Karst region and extensive caves helped shape modern speleology and karst science, supporting research into subterranean geology and ecosystems.',
           sv: 'Sloveniens Karst-region och omfattande grottor hjälpte till att forma modern speleologi och karstvetenskap, och stödde forskning om underjordisk geologi och ekosystem.',
@@ -419,7 +509,7 @@ export const slovenia: Country = {
       {
         name: {
           en: 'Lake Bled',
-          sv: 'Lake Bled',
+          sv: 'Bledsjön',
           es: 'Lago Bled',
           fr: 'Lac de Bled',
           de: 'Bleder See',
@@ -539,7 +629,17 @@ export const slovenia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen visa rules apply. EU citizens and many others can visit visa-free for short stays.',
           sv: 'Schengenvisumregler gäller. EU-medborgare och många andra kan besöka visumfritt för kortare vistelser.',
@@ -553,7 +653,17 @@ export const slovenia: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to September for lakes and hiking; December to March for skiing in the Alps.',
           sv: 'Maj till september för sjöar och vandring; December till mars för skidåkning i Alperna.',
@@ -567,7 +677,17 @@ export const slovenia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Well-connected by trains and buses. Renting a car helps for countryside and mountain areas.',
           sv: 'Bra förbindelser med tåg och bussar. Att hyra en bil hjälper till på landsbygden och i bergsområden.',
@@ -581,7 +701,17 @@ export const slovenia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Slovene is official. English is widely spoken in tourist areas; German and Italian are also understood in some regions.',
           sv: 'Slovenska är officiellt. Engelska talas allmänt i turistområden; Tyska och italienska förstås också i vissa regioner.',
@@ -595,7 +725,17 @@ export const slovenia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe country with low crime rates and a welcoming, outdoorsy culture.',
           sv: 'Mycket tryggt land med låg brottslighet och en välkomnande, friluftslivskultur.',
@@ -609,7 +749,17 @@ export const slovenia: Country = {
         },
       },
       {
-        item: 'Money',
+        item: {
+          en: 'Money',
+          sv: 'Pengar',
+          es: 'Dinero',
+          fr: 'Argent',
+          de: 'Geld',
+          it: 'Denaro',
+          pl: 'Pieniądze',
+          nl: 'Geld',
+          pt: 'Dinheiro',
+        },
         description: {
           en: 'Euro (€). Cards are common, but carry some cash for small towns and mountain huts.',
           sv: 'Euro (€). Kort är vanliga, men medför lite kontanter för små städer och fjällstugor.',
@@ -627,7 +777,7 @@ export const slovenia: Country = {
       id: 'slovenia-kranjska-klobasa',
       name: {
         en: 'Kranjska Klobasa',
-        sv: 'Kranjska Klobasa',
+        sv: 'Kranjska klobasa',
         es: 'Kranjska Klobasa',
         fr: 'Kranjska Klobasa',
         de: 'Kranjska Klobasa',
@@ -638,7 +788,7 @@ export const slovenia: Country = {
       },
       description: {
         en: 'Traditional Slovenian sausage from the Carniola region, made with pork and protected by EU geographical indication. Served with mustard, horseradish, and dark bread.',
-        sv: 'Traditionell slovensk korv från Carniola-regionen, gjord på fläsk och skyddad av EU:s geografiska beteckning. Serveras med senap, pepparrot och mörkt bröd.',
+        sv: 'Traditionell slovensk korv från regionen Krain (Kranjska), gjord på fläskkött och med skyddad geografisk beteckning inom EU. Serveras med senap, pepparrot och mörkt bröd.',
         es: 'Salchicha tradicional eslovena de la región de Carniola, elaborada con carne de cerdo y protegida por indicación geográfica de la UE. Servido con mostaza, rábano picante y pan negro.',
         fr: 'Saucisse traditionnelle slovène de la région de Carniole, à base de porc et protégée par l\'indication géographique de l\'UE. Servi avec moutarde, raifort et pain noir.',
         de: 'Traditionelle slowenische Wurst aus der Region Krain, hergestellt aus Schweinefleisch und geschützt durch die geografische Angabe der EU. Serviert mit Senf, Meerrettich und dunklem Brot.',
@@ -665,7 +815,7 @@ export const slovenia: Country = {
         {
           name: {
             en: 'Kranjska sausages',
-            sv: 'Kranjska korvar',
+            sv: 'Kranjskakorvar',
             es: 'Salchichas Kranjska',
             fr: 'Saucisses Kranjska',
             de: 'Kranjska-Würstchen',
@@ -833,7 +983,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Bring a pot of water to a bare simmer (do not hard-boil).',
-          sv: 'Låt koka upp en kastrull med vatten (hårdkoka inte).',
+          sv: 'Värm en kastrull med vatten tills det precis sjuder (låt det inte koka).',
           es: 'Lleve una olla con agua a fuego lento (no la hierva).',
           fr: 'Portez une casserole d\'eau à ébullition (ne pas faire bouillir).',
           de: 'Bringen Sie einen Topf mit Wasser zum Kochen (nicht hart kochen).',
@@ -844,7 +994,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Add sausages to the simmering water and cook 10–15 minutes until heated through.',
-          sv: 'Tillsätt korv i det sjudande vattnet och koka 10–15 minuter tills de är genomvärmda.',
+          sv: 'Lägg korvarna i det sjudande vattnet och låt dem dra i 10–15 minuter tills de är genomvarma.',
           es: 'Agregue las salchichas al agua hirviendo y cocine de 10 a 15 minutos hasta que estén completamente calientes.',
           fr: 'Ajouter les saucisses à l\'eau frémissante et cuire 10 à 15 minutes jusqu\'à ce qu\'elles soient bien chaudes.',
           de: 'Die Würstchen in das kochende Wasser geben und 10–15 Minuten kochen lassen, bis sie durchgewärmt sind.',
@@ -855,7 +1005,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Drain sausages and rest 2 minutes.',
-          sv: 'Häll av korven och vila 2 minuter.',
+          sv: 'Lyft upp korvarna och låt dem vila i 2 minuter.',
           es: 'Escurrir las salchichas y dejar reposar 2 minutos.',
           fr: 'Égoutter les saucisses et laisser reposer 2 minutes.',
           de: 'Würste abtropfen lassen und 2 Minuten ruhen lassen.',
@@ -866,7 +1016,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Serve sausages with sauerkraut and potatoes.',
-          sv: 'Servera korv med surkål och potatis.',
+          sv: 'Servera korvarna med surkål och potatis.',
           es: 'Sirva las salchichas con chucrut y patatas.',
           fr: 'Servir les saucisses avec la choucroute et les pommes de terre.',
           de: 'Würstchen mit Sauerkraut und Kartoffeln servieren.',
@@ -877,7 +1027,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Add mustard and horseradish on the side, plus dark bread.',
-          sv: 'Lägg senap och pepparrot vid sidan om, plus mörkt bröd.',
+          sv: 'Servera senap och pepparrot vid sidan om, samt mörkt bröd.',
           es: 'Agregue mostaza y rábano picante a un lado, además de pan oscuro.',
           fr: 'Ajouter la moutarde et le raifort à côté, ainsi que le pain noir.',
           de: 'Als Beilage Senf und Meerrettich hinzufügen, dazu dunkles Brot.',
@@ -904,7 +1054,7 @@ export const slovenia: Country = {
       },
       description: {
         en: 'A beloved Slovenian rolled pastry, traditionally filled with walnuts (or poppy seed) and served on holidays and special occasions.',
-        sv: 'En älskad slovensk rullad bakelse, traditionellt fylld med valnötter (eller vallmofrön) och serverad vid högtider och speciella tillfällen.',
+        sv: 'En älskad slovensk kaka av rullad jäsdeg, traditionellt fylld med valnötter (eller vallmofrön), som serveras vid högtider och andra speciella tillfällen.',
         es: 'Un querido pastel enrollado esloveno, tradicionalmente relleno con nueces (o semillas de amapola) y servido en días festivos y ocasiones especiales.',
         fr: 'Une pâtisserie roulée slovène très appréciée, traditionnellement fourrée aux noix (ou aux graines de pavot) et servie lors des fêtes et des occasions spéciales.',
         de: 'Ein beliebtes slowenisches Rollgebäck, traditionell gefüllt mit Walnüssen (oder Mohn) und an Feiertagen und besonderen Anlässen serviert.',
@@ -931,7 +1081,7 @@ export const slovenia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1018,7 +1168,7 @@ export const slovenia: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -1046,7 +1196,7 @@ export const slovenia: Country = {
         {
           name: {
             en: 'Ground walnuts',
-            sv: 'Malde valnötter',
+            sv: 'Malda valnötter',
             es: 'Nueces molidas',
             fr: 'Noix moulues',
             de: 'Gemahlene Walnüsse',
@@ -1061,7 +1211,7 @@ export const slovenia: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -1117,7 +1267,7 @@ export const slovenia: Country = {
       steps: [
         {
           en: 'Activate yeast in lukewarm milk with 1 tbsp sugar for 10 minutes until foamy.',
-          sv: 'Aktivera jäst i ljummen mjölk med 1 msk socker i 10 minuter tills det skummar.',
+          sv: 'Rör ut jästen i den ljumna mjölken med 1 msk socker och låt stå i 10 minuter tills det skummar.',
           es: 'Active la levadura en leche tibia con 1 cucharada de azúcar durante 10 minutos hasta que esté espumosa.',
           fr: 'Activez la levure dans le lait tiède avec 1 cuillère à soupe de sucre pendant 10 minutes jusqu\'à ce qu\'elle soit mousseuse.',
           de: 'Hefe in lauwarmer Milch mit 1 EL Zucker 10 Minuten schaumig rühren.',
@@ -1128,7 +1278,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Mix flour, salt, remaining sugar, egg, melted butter, and yeast mixture into a soft dough.',
-          sv: 'Blanda mjöl, salt, resterande socker, ägg, smält smör och jästblandning till en mjuk deg.',
+          sv: 'Blanda vetemjöl, salt, resten av sockret, ägget, det smälta smöret och jästblandningen till en mjuk deg.',
           es: 'Mezcle la harina, la sal, el azúcar restante, el huevo, la mantequilla derretida y la mezcla de levadura hasta obtener una masa suave.',
           fr: 'Mélanger la farine, le sel, le reste du sucre, l\'œuf, le beurre fondu et le mélange de levure pour obtenir une pâte molle.',
           de: 'Mehl, Salz, restlichen Zucker, Ei, zerlassene Butter und Hefemischung zu einem weichen Teig verrühren.',
@@ -1139,7 +1289,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Knead 8–10 minutes until smooth; cover and let rise 60 minutes.',
-          sv: 'Knåda 8–10 minuter tills den är slät; täck och låt jäsa 60 minuter.',
+          sv: 'Knåda i 8–10 minuter tills degen är slät; täck över och låt jäsa i 60 minuter.',
           es: 'Amasar de 8 a 10 minutos hasta que quede suave; tapar y dejar reposar durante 60 minutos.',
           fr: 'Pétrir 8 à 10 minutes jusqu\'à consistance lisse; couvrir et laisser lever 60 minutes.',
           de: '8–10 Minuten lang kneten, bis eine glatte Masse entsteht; abdecken und 60 Minuten gehen lassen.',
@@ -1150,7 +1300,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Mix ground walnuts with honey, cinnamon, and vanilla (optional). Add a spoon of warm milk if needed to make a spreadable filling.',
-          sv: 'Blanda malda valnötter med honung, kanel och vanilj (valfritt). Tillsätt en sked varm mjölk om det behövs för att göra en bredbar fyllning.',
+          sv: 'Blanda de malda valnötterna med honung, kanel och vanilj (valfritt). Tillsätt en sked varm mjölk vid behov så att fyllningen blir bredbar.',
           es: 'Mezcla nueces molidas con miel, canela y vainilla (opcional). Agregue una cucharada de leche tibia si es necesario para hacer un relleno untable.',
           fr: 'Mélangez les noix moulues avec le miel, la cannelle et la vanille (facultatif). Ajoutez une cuillère de lait tiède si nécessaire pour faire une garniture à tartiner.',
           de: 'Gemahlene Walnüsse mit Honig, Zimt und Vanille (optional) vermischen. Bei Bedarf einen Löffel warme Milch hinzufügen, um eine streichfähige Füllung zu erhalten.',
@@ -1161,7 +1311,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Roll dough into a large rectangle (about 3–5 mm thick). Spread filling evenly.',
-          sv: 'Rulla degen till en stor rektangel (ca 3–5 mm tjock). Fördela fyllningen jämnt.',
+          sv: 'Kavla ut degen till en stor rektangel (ca 3–5 mm tjock). Bred ut fyllningen jämnt.',
           es: 'Enrolle la masa hasta formar un rectángulo grande (de unos 3 a 5 mm de grosor). Extienda el relleno de manera uniforme.',
           fr: 'Abaisser la pâte en un grand rectangle (environ 3 à 5 mm d\'épaisseur). Répartir la garniture uniformément.',
           de: 'Den Teig zu einem großen Rechteck ausrollen (ca. 3–5 mm dick). Füllung gleichmäßig verteilen.',
@@ -1172,7 +1322,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Roll up tightly, seam-side down. Place in a greased loaf tin or ring mold.',
-          sv: 'Rulla ihop hårt, med sömmen nedåt. Lägg i en smord brödform eller ringform.',
+          sv: 'Rulla ihop degen hårt och lägg den med skarven nedåt i en smord brödform eller ringform.',
           es: 'Enrolle bien, con la costura hacia abajo. Colocar en un molde para pan o molde para pan engrasado.',
           fr: 'Roulez fermement, couture vers le bas. Placer dans un moule à pain ou un moule à anneau graissé.',
           de: 'Mit der Nahtseite nach unten fest aufrollen. In eine gefettete Kastenform oder Ringform geben.',
@@ -1183,7 +1333,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Let rise 30 minutes. Bake at 180°C for 40–50 minutes until golden.',
-          sv: 'Låt jäsa 30 minuter. Grädda i 180°C i 40–50 minuter tills de är gyllene.',
+          sv: 'Låt jäsa i 30 minuter. Grädda i 180 °C i 40–50 minuter tills den är gyllene.',
           es: 'Dejar reposar 30 minutos. Hornee a 180°C durante 40 a 50 minutos hasta que esté dorado.',
           fr: 'Laisser lever 30 minutes. Cuire au four à 180°C pendant 40 à 50 minutes jusqu\'à ce qu\'ils soient dorés.',
           de: '30 Minuten gehen lassen. Bei 180 °C 40–50 Minuten goldbraun backen.',
@@ -1194,7 +1344,7 @@ export const slovenia: Country = {
         },
         {
           en: 'Cool before slicing so the swirl holds.',
-          sv: 'Kyl innan du skivar så att virveln håller.',
+          sv: 'Låt svalna innan du skivar den så att spiralen håller formen.',
           es: 'Déjelo enfriar antes de cortarlo para que se mantenga el remolino.',
           fr: 'Laisser refroidir avant de trancher pour que le tourbillon tienne.',
           de: 'Vor dem Schneiden abkühlen lassen, damit der Wirbel erhalten bleibt.',
@@ -1338,7 +1488,7 @@ export const slovenia: Country = {
           },
           {
             en: 'Lake Bled',
-            sv: 'Lake Bled',
+            sv: 'Bledsjön',
             es: 'Lago Bled',
             fr: 'Lac de Bled',
             de: 'Bleder See',

@@ -219,8 +219,28 @@ export const palestine: Country = {
     },
     history: [
       {
-        year: 'Ancient',
-        title: 'Biblical Times',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
+        title: {
+          en: 'Biblical Times',
+          sv: 'Biblisk tid',
+          es: 'Tiempos bíblicos',
+          fr: 'Temps bibliques',
+          de: 'Biblische Zeit',
+          it: 'Tempi biblici',
+          pl: 'Czasy biblijne',
+          nl: 'Bijbelse tijd',
+          pt: 'Tempos bíblicos',
+        },
         description: {
           en: 'Region has been continuously inhabited for thousands of years with immense religious significance.',
           sv: 'Regionen har varit kontinuerligt bebodd i tusentals år med enorm religiös betydelse.',
@@ -235,7 +255,17 @@ export const palestine: Country = {
       },
       {
         year: '1917',
-        title: 'British Mandate',
+        title: {
+          en: 'British Mandate',
+          sv: 'Brittiska mandatet',
+          es: 'Mandato británico',
+          fr: 'Mandat britannique',
+          de: 'Britisches Mandat',
+          it: 'Mandato britannico',
+          pl: 'Mandat brytyjski',
+          nl: 'Brits mandaat',
+          pt: 'Mandato britânico',
+        },
         description: {
           en: 'Palestine came under British administration after Ottoman rule.',
           sv: 'Palestina kom under brittisk administration efter det osmanska styret.',
@@ -250,7 +280,17 @@ export const palestine: Country = {
       },
       {
         year: '1988',
-        title: 'Declaration of Independence',
+        title: {
+          en: 'Declaration of Independence',
+          sv: 'Självständighetsförklaringen',
+          es: 'Declaración de independencia',
+          fr: 'Déclaration d\'indépendance',
+          de: 'Unabhängigkeitserklärung',
+          it: 'Dichiarazione d\'indipendenza',
+          pl: 'Deklaracja niepodległości',
+          nl: 'Onafhankelijkheidsverklaring',
+          pt: 'Declaração de independência',
+        },
         description: {
           en: 'Palestine declared independence, recognized by many countries.',
           sv: 'Palestina förklarade sig självständigt, erkänt av många länder.',
@@ -277,7 +317,17 @@ export const palestine: Country = {
           nl: 'Olijfolieproductie',
           pt: 'Produção de azeite de oliva',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Traditional olive cultivation and oil production methods for millennia.',
           sv: 'Traditionella metoder för olivodling och oljeproduktion under årtusenden.',
@@ -302,7 +352,17 @@ export const palestine: Country = {
           nl: 'Traditioneel borduurwerk',
           pt: 'Bordado tradicional',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Distinctive Palestinian cross-stitch embroidery patterns.',
           sv: 'Distinkta palestinska broderimönster med korsstygn.',
@@ -440,7 +500,17 @@ export const palestine: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'March-May and September-November for pleasant weather.',
           sv: 'Mars-maj och september-november för behagligt väder.',
@@ -454,7 +524,17 @@ export const palestine: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Complex entry requirements; check current regulations.',
           sv: 'Komplexa behörighetskrav; kontrollera gällande bestämmelser.',
@@ -468,7 +548,17 @@ export const palestine: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Dress conservatively, especially in religious sites.',
           sv: 'Klä dig konservativt, särskilt på religiösa platser.',
@@ -482,7 +572,17 @@ export const palestine: Country = {
         },
       },
       {
-        item: 'Political awareness',
+        item: {
+          en: 'Political awareness',
+          sv: 'Politiska läget',
+          es: 'Situación política',
+          fr: 'Situation politique',
+          de: 'Politische Lage',
+          it: 'Situazione politica',
+          pl: 'Sytuacja polityczna',
+          nl: 'Politieke situatie',
+          pt: 'Situação política',
+        },
         description: {
           en: 'Be aware of current political situation.',
           sv: 'Var medveten om den nuvarande politiska situationen.',
@@ -538,7 +638,7 @@ export const palestine: Country = {
         {
           name: {
             en: 'Kataifi pastry',
-            sv: 'Kataifi bakverk',
+            sv: 'Kataifideg',
             es: 'Pastelería kataifi',
             fr: 'Pâtisserie Kataïfi',
             de: 'Kataifi-Gebäck',
@@ -553,7 +653,7 @@ export const palestine: Country = {
         {
           name: {
             en: 'Nabulsi cheese',
-            sv: 'Nabulsi ost',
+            sv: 'Nabulsiost',
             es: 'Queso nabulsi',
             fr: 'Fromage Nabulsi',
             de: 'Nabulsi-Käse',
@@ -663,7 +763,7 @@ export const palestine: Country = {
         {
           name: {
             en: 'Pistachios',
-            sv: 'Pistagenötter',
+            sv: 'Pistaschnötter',
             es: 'Pistachos',
             fr: 'Pistaches',
             de: 'Pistazien',
@@ -690,7 +790,7 @@ export const palestine: Country = {
         },
         {
           en: 'Add orange blossom water, cool syrup',
-          sv: 'Tillsätt apelsinblomsvatten, kall sirap',
+          sv: 'Tillsätt apelsinblomvatten och låt sirapen kallna',
           es: 'Añadir agua de azahar, almíbar frío',
           fr: 'Ajouter l\'eau de fleur d\'oranger, le sirop frais',
           de: 'Orangenblütenwasser hinzufügen, Sirup abkühlen lassen',
@@ -701,7 +801,7 @@ export const palestine: Country = {
         },
         {
           en: 'Mix shredded kataifi with melted butter',
-          sv: 'Blanda strimlad kataifi med smält smör',
+          sv: 'Blanda den strimlade kataifidegen med smält smör',
           es: 'Mezclar kataifi rallado con mantequilla derretida',
           fr: 'Mélanger le kataifi râpé avec le beurre fondu',
           de: 'Zerkleinertes Kataifi mit geschmolzener Butter vermischen',
@@ -712,7 +812,7 @@ export const palestine: Country = {
         },
         {
           en: 'Press half into round pan',
-          sv: 'Tryck ut hälften i en rund panna',
+          sv: 'Tryck ut hälften i en rund form',
           es: 'Presione la mitad en un molde redondo',
           fr: 'Presser la moitié dans un moule rond',
           de: 'Die Hälfte in eine runde Form drücken',
@@ -723,7 +823,7 @@ export const palestine: Country = {
         },
         {
           en: 'Layer cheese evenly',
-          sv: 'Varva ost jämnt',
+          sv: 'Fördela osten jämnt över',
           es: 'Coloque capas de queso uniformemente',
           fr: 'Étaler le fromage uniformément',
           de: 'Käse gleichmäßig schichten',
@@ -734,7 +834,7 @@ export const palestine: Country = {
         },
         {
           en: 'Top with remaining kataifi',
-          sv: 'Topp med återstående kataifi',
+          sv: 'Täck med resten av kataifidegen',
           es: 'Cubra con el kataifi restante',
           fr: 'Garnir du reste du kataifi',
           de: 'Mit dem restlichen Kataifi',
@@ -745,7 +845,7 @@ export const palestine: Country = {
         },
         {
           en: 'Bake at 350°F until golden (30 minutes)',
-          sv: 'Grädda i 350°F tills de är gyllene (30 minuter)',
+          sv: 'Grädda i 175°C tills den är gyllene (ca 30 minuter)',
           es: 'Hornee a 350°F hasta que esté dorado (30 minutos)',
           fr: 'Cuire au four à 350°F jusqu\'à ce qu\'il soit doré (30 minutes)',
           de: 'belegen Bei 350 °F goldbraun backen (30 Minuten)',
@@ -756,7 +856,7 @@ export const palestine: Country = {
         },
         {
           en: 'Pour cold syrup over hot kanafeh',
-          sv: 'Häll kall sirap över het kanafeh',
+          sv: 'Häll den kalla sirapen över kanafehn medan den är het',
           es: 'Vierta almíbar frío sobre kanafeh caliente',
           fr: 'Versez le sirop froid sur le kanafeh chaud',
           de: 'Kalten Sirup über heißes Kanafeh gießen',
@@ -767,7 +867,7 @@ export const palestine: Country = {
         },
         {
           en: 'Sprinkle with pistachios and serve warm',
-          sv: 'Strö över pistagenötter och servera varma',
+          sv: 'Strö över pistaschnötter och servera varm',
           es: 'Espolvorea con pistachos y sirve caliente',
           fr: 'Saupoudrer de pistaches et servir chaud',
           de: 'Mit Pistazien bestreuen und warm servieren',
@@ -794,7 +894,7 @@ export const palestine: Country = {
       },
       description: {
         en: 'Roasted chicken with sumac and onions on taboon bread',
-        sv: 'Stekt kyckling med sumak och lök på tabunbröd',
+        sv: 'Ugnsstekt kyckling med sumak och lök på tabunbröd',
         es: 'Pollo asado con zumaque y cebolla sobre pan tabón',
         fr: 'Poulet rôti au sumac et oignons sur pain taboon',
         de: 'Gebratenes Hähnchen mit Sumach und Zwiebeln auf Taboon-Brot',
@@ -848,7 +948,7 @@ export const palestine: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -942,7 +1042,7 @@ export const palestine: Country = {
       steps: [
         {
           en: 'Roast chicken with sumac and olive oil',
-          sv: 'Helstekt kyckling med sumak och olivolja',
+          sv: 'Ugnsstek kycklingen med sumak och olivolja',
           es: 'Pollo asado con zumaque y aceite de oliva',
           fr: 'Poulet rôti au sumac et à l\'huile d\'olive',
           de: 'Gebratenes Hähnchen mit Sumach und Olivenöl',
@@ -953,7 +1053,7 @@ export const palestine: Country = {
         },
         {
           en: 'Caramelize onions slowly',
-          sv: 'Karamellisera lök långsamt',
+          sv: 'Karamellisera löken långsamt',
           es: 'Caramelizar las cebollas lentamente',
           fr: 'Caraméliser les oignons lentement',
           de: 'Zwiebeln langsam karamellisieren',
@@ -964,7 +1064,7 @@ export const palestine: Country = {
         },
         {
           en: 'Toast pine nuts',
-          sv: 'Rosta pinjenötter',
+          sv: 'Rosta pinjenötterna',
           es: 'Piñones tostados',
           fr: 'Faire griller des pignons de pin',
           de: 'Pinienkerne rösten',
@@ -975,7 +1075,7 @@ export const palestine: Country = {
         },
         {
           en: 'Layer bread on platter',
-          sv: 'Lägg bröd på ett fat',
+          sv: 'Lägg bröden på ett serveringsfat',
           es: 'Coloque capas de pan en un plato',
           fr: 'Couche de pain sur une assiette',
           de: 'Brot auf Platte schichten',
@@ -1514,7 +1614,7 @@ export const palestine: Country = {
           },
           {
             en: 'Five spice',
-            sv: 'Five spice',
+            sv: 'Femkryddspulver',
             es: 'Cinco especias',
             fr: 'Cinq épices',
             de: 'Fünf Gewürze',

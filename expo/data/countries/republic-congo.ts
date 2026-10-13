@@ -220,7 +220,17 @@ export const republicCongo: Country = {
     history: [
       {
         year: '1880',
-        title: 'French Colonization',
+        title: {
+          en: 'French Colonization',
+          sv: 'Fransk kolonisering',
+          es: 'Colonización francesa',
+          fr: 'Colonisation française',
+          de: 'Französische Kolonisierung',
+          it: 'Colonizzazione francese',
+          pl: 'Kolonizacja francuska',
+          nl: 'Franse kolonisatie',
+          pt: 'Colonização francesa',
+        },
         description: {
           en: 'The region became part of French Equatorial Africa, shaping modern political boundaries.',
           sv: 'Regionen blev en del av franska Ekvatorialafrika och formade moderna politiska gränser.',
@@ -235,7 +245,17 @@ export const republicCongo: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Congo gained independence from France, establishing the Republic of the Congo.',
           sv: 'Kongo blev självständigt från Frankrike och etablerade Republiken Kongo.',
@@ -262,7 +282,17 @@ export const republicCongo: Country = {
           nl: 'Sapeur-cultuur',
           pt: 'Cultura Sapeur',
         },
-        year: '1920s',
+        year: {
+          en: '1920s',
+          sv: '1920-talet',
+          es: 'década de 1920',
+          fr: 'années 1920',
+          de: '1920er',
+          it: 'anni \'20',
+          pl: 'lata 20.',
+          nl: 'jaren 20',
+          pt: 'década de 1920',
+        },
         description: {
           en: 'The Society of Tastemakers and Elegant People (SAPE) created a unique fashion subculture emphasizing dignity through style.',
           sv: 'Society of Tastemakers and Elegant People (SAPE) skapade en unik modesubkultur som betonade värdighet genom stil.',
@@ -287,7 +317,17 @@ export const republicCongo: Country = {
           nl: 'Rumbamuziek',
           pt: 'Música Rumba',
         },
-        year: '1950s',
+        year: {
+          en: '1950s',
+          sv: '1950-talet',
+          es: 'Década de 1950',
+          fr: 'Années 1950',
+          de: '1950er',
+          it: 'Anni \'50',
+          pl: 'Lata 50.',
+          nl: 'Jaren 50',
+          pt: 'Década de 1950',
+        },
         description: {
           en: 'Congolese musicians contributed significantly to the development of African rumba and soukous music.',
           sv: 'Kongolesiska musiker bidrog avsevärt till utvecklingen av afrikansk rumba och soukousmusik.',
@@ -312,7 +352,17 @@ export const republicCongo: Country = {
           nl: 'Duurzame palmolie',
           pt: 'Óleo de Palma Sustentável',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Traditional methods of palm oil production that maintain forest ecosystems while providing livelihoods.',
           sv: 'Traditionella metoder för produktion av palmolja som upprätthåller skogens ekosystem samtidigt som de ger försörjning.',
@@ -402,7 +452,17 @@ export const republicCongo: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Required for most nationalities; obtain in advance.',
           sv: 'Krävs för de flesta nationaliteter; få i förväg.',
@@ -416,7 +476,17 @@ export const republicCongo: Country = {
         },
       },
       {
-        item: 'Vaccinations',
+        item: {
+          en: 'Vaccinations',
+          sv: 'Vaccinationer',
+          es: 'Vacunas',
+          fr: 'Vaccins',
+          de: 'Impfungen',
+          it: 'Vaccinazioni',
+          pl: 'Szczepienia',
+          nl: 'Vaccinaties',
+          pt: 'Vacinas',
+        },
         description: {
           en: 'Yellow fever certificate required; malaria prophylaxis recommended.',
           sv: 'Intyg om gul feber krävs; malariaprofylax rekommenderas.',
@@ -430,7 +500,17 @@ export const republicCongo: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'French is official; Lingala and Kituba widely spoken.',
           sv: 'Franska är officiellt; Lingala och Kituba talas vida.',
@@ -501,7 +581,7 @@ export const republicCongo: Country = {
         {
           name: {
             en: 'Palm butter',
-            sv: 'Palmsmör',
+            sv: 'Palmsmör (palmnötspuré)',
             es: 'Mantequilla de palma',
             fr: 'Beurre de palme',
             de: 'Palmbutter',
@@ -528,7 +608,7 @@ export const republicCongo: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -553,7 +633,7 @@ export const republicCongo: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -591,7 +671,7 @@ export const republicCongo: Country = {
         {
           name: {
             en: 'Pili-pili pepper',
-            sv: 'Pili-pili peppar',
+            sv: 'Pili pili-chili',
             es: 'Pimiento pili-pili',
             fr: 'Piment pili-pili',
             de: 'Pili-Pili-Pfeffer',
@@ -607,7 +687,7 @@ export const republicCongo: Country = {
       steps: [
         {
           en: 'Season and brown chicken',
-          sv: 'Krydda och brun kyckling',
+          sv: 'Krydda och bryn kycklingen',
           es: 'Sazonar y dorar el pollo',
           fr: 'Assaisonner et dorer le poulet',
           de: 'Hähnchen würzen und anbraten',
@@ -651,7 +731,7 @@ export const republicCongo: Country = {
         },
         {
           en: 'Season with pili-pili',
-          sv: 'Krydda med pili-pili',
+          sv: 'Krydda med pili pili-chili',
           es: 'Condimentar con pili-pili',
           fr: 'Assaisonner de pili-pili',
           de: 'Mit Pili-Pili würzen',
@@ -689,7 +769,7 @@ export const republicCongo: Country = {
       },
       description: {
         en: 'Fried sweet plantains, a popular Congolese dessert',
-        sv: 'Friterade söta bananer, en populär kongolesisk efterrätt',
+        sv: 'Friterade söta kokbananer, en populär kongolesisk efterrätt',
         es: 'Plátanos dulces fritos, un postre popular congoleño',
         fr: 'Plantains sucrés frits, un dessert congolais populaire',
         de: 'Frittierte süße Kochbananen, ein beliebtes kongolesisches Dessert',
@@ -716,7 +796,7 @@ export const republicCongo: Country = {
         {
           name: {
             en: 'Ripe plantains',
-            sv: 'Mogna groblad',
+            sv: 'Mogna kokbananer',
             es: 'Plátanos maduros',
             fr: 'Plantains mûrs',
             de: 'Reife Kochbananen',
@@ -728,7 +808,7 @@ export const republicCongo: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -741,7 +821,7 @@ export const republicCongo: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -797,7 +877,7 @@ export const republicCongo: Country = {
       steps: [
         {
           en: 'Peel ripe plantains and slice diagonally into 1cm pieces.',
-          sv: 'Skala mogna plantains och skiva diagonalt i 1 cm bitar.',
+          sv: 'Skala de mogna kokbananerna och skiva dem diagonalt i 1 cm tjocka bitar.',
           es: 'Pele los plátanos maduros y córtelos en diagonal en trozos de 1 cm.',
           fr: 'Épluchez les plantains mûrs et coupez-les en diagonale en morceaux de 1 cm.',
           de: 'Reife Kochbananen schälen und schräg in 1 cm große Stücke schneiden.',
@@ -808,7 +888,7 @@ export const republicCongo: Country = {
         },
         {
           en: 'Heat oil in deep pan to 350°F.',
-          sv: 'Värm olja i djup panna till 350°F.',
+          sv: 'Hetta upp olja i en djup panna till 175°C.',
           es: 'Caliente el aceite en una sartén profunda a 350°F.',
           fr: 'Chauffer l\'huile dans une poêle profonde à 350°F.',
           de: 'Öl in einer tiefen Pfanne auf 350 °F erhitzen.',
@@ -819,7 +899,7 @@ export const republicCongo: Country = {
         },
         {
           en: 'Fry plantain slices in batches for 2-3 minutes per side until golden.',
-          sv: 'Stek plantainskivorna i omgångar 2-3 minuter per sida tills de är gyllene.',
+          sv: 'Fritera kokbananskivorna i omgångar, 2–3 minuter per sida, tills de är gyllene.',
           es: 'Freír las rodajas de plátano en tandas durante 2-3 minutos por lado hasta que estén doradas.',
           fr: 'Faites frire les tranches de plantain par lots pendant 2 à 3 minutes de chaque côté jusqu\'à ce qu\'elles soient dorées.',
           de: 'Kochbananenscheiben portionsweise auf jeder Seite 2-3 Minuten goldbraun braten.',
@@ -841,7 +921,7 @@ export const republicCongo: Country = {
         },
         {
           en: 'Optionally sprinkle with sugar and cinnamon while hot.',
-          sv: 'Strö eventuellt över socker och kanel medan det är varmt.',
+          sv: 'Strö gärna över socker och kanel medan de är varma.',
           es: 'Opcionalmente espolvorea con azúcar y canela mientras esté caliente.',
           fr: 'Saupoudrez éventuellement de sucre et de cannelle pendant qu\'il est chaud.',
           de: 'Optional noch heiß mit Zucker und Zimt bestreuen.',
@@ -852,7 +932,7 @@ export const republicCongo: Country = {
         },
         {
           en: 'Serve warm as dessert or snack.',
-          sv: 'Servera varm som efterrätt eller mellanmål.',
+          sv: 'Servera varma som efterrätt eller mellanmål.',
           es: 'Servir caliente como postre o merienda.',
           fr: 'Servir chaud en dessert ou en collation.',
           de: 'Warm als Dessert oder Snack servieren.',
@@ -890,7 +970,7 @@ export const republicCongo: Country = {
     },
     music: [
       { en: 'Soukous', sv: 'Soukous', de: 'Soukous', fr: 'Soukous', es: 'Soukous', it: 'Soukous', pl: 'Soukous', nl: 'Soukous', pt: 'Soukous' },
-      { en: 'Rumba Congolaise', sv: 'Rumba Congolaise', de: 'Rumba Congolaise', fr: 'Rumba Congolaise', es: 'Rumba Congolaise', it: 'Rumba Congolaise', pl: 'Rumba Congolaise', nl: 'Rumba Congolaise', pt: 'Rumba Congolaise' },
+      { en: 'Rumba Congolaise', sv: 'Kongolesisk rumba', de: 'Rumba Congolaise', fr: 'Rumba Congolaise', es: 'Rumba Congolaise', it: 'Rumba Congolaise', pl: 'Rumba Congolaise', nl: 'Rumba Congolaise', pt: 'Rumba Congolaise' },
       { en: 'Traditional rhythms', sv: 'Traditionella rytmer', de: 'Traditionelle Rhythmen', fr: 'Rythmes traditionnels', es: 'Ritmos tradicionales', it: 'Ritmi tradizionali', pl: 'Tradycyjne rytmy', nl: 'Traditionele ritmes', pt: 'Ritmos tradicionais' },
     ],
     decorationIdeas: [
@@ -1042,7 +1122,7 @@ export const republicCongo: Country = {
         options: [
           {
             en: 'Haute Couture',
-            sv: 'Haute Couture',
+            sv: 'Haute couture',
             es: 'Alta Costura',
             fr: 'Haute Couture',
             de: 'Haute Couture',

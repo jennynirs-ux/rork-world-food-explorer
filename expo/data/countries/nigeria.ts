@@ -241,8 +241,28 @@ export const nigeria: Country = {
     },
     history: [
       {
-        year: '1000 AD',
-        title: 'Ancient Kingdoms',
+        year: {
+          en: '1000 AD',
+          sv: '1000 e.Kr.',
+          es: '1000 d. C.',
+          fr: '1000 apr. J.-C.',
+          de: '1000 n. Chr.',
+          it: '1000 d.C.',
+          pl: '1000 n.e.',
+          nl: '1000 n.Chr.',
+          pt: '1000 d.C.',
+        },
+        title: {
+          en: 'Ancient Kingdoms',
+          sv: 'Forntida kungariken',
+          es: 'Reinos antiguos',
+          fr: 'Anciens royaumes',
+          de: 'Alte Königreiche',
+          it: 'Antichi regni',
+          pl: 'Starożytne królestwa',
+          nl: 'Oude koninkrijken',
+          pt: 'Reinos antigos',
+        },
         description: {
           en: 'Powerful kingdoms like Benin, Oyo, and Kanem-Bornu flourished with sophisticated governance and art.',
           sv: 'Mäktiga kungadömen som Benin, Oyo och Kanem-Bornu blomstrade med sofistikerad förvaltning och konst.',
@@ -257,7 +277,17 @@ export const nigeria: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Nigeria gained independence from British colonial rule, becoming a sovereign nation.',
           sv: 'Nigeria fick självständighet från det brittiska kolonialstyret och blev en suverän nation.',
@@ -271,8 +301,28 @@ export const nigeria: Country = {
         },
       },
       {
-        year: '1990s-Present',
-        title: 'Cultural Renaissance',
+        year: {
+          en: '1990s-Present',
+          sv: '1990-talet–idag',
+          es: 'Década de 1990–actualidad',
+          fr: 'Années 1990–aujourd\'hui',
+          de: '1990er–heute',
+          it: 'Anni \'90–oggi',
+          pl: 'Lata 90.–obecnie',
+          nl: 'Jaren 90–heden',
+          pt: 'Década de 1990–presente',
+        },
+        title: {
+          en: 'Cultural Renaissance',
+          sv: 'Kulturell renässans',
+          es: 'Renacimiento cultural',
+          fr: 'Renaissance culturelle',
+          de: 'Kulturelle Renaissance',
+          it: 'Rinascita culturale',
+          pl: 'Odrodzenie kulturalne',
+          nl: 'Culturele renaissance',
+          pt: 'Renascimento cultural',
+        },
         description: {
           en: 'Nollywood and Afrobeats music brought Nigerian culture to global prominence.',
           sv: 'Musiken Nollywood och Afrobeats förde den nigerianska kulturen till en global framträdande plats.',
@@ -299,7 +349,17 @@ export const nigeria: Country = {
           nl: 'Nollywood',
           pt: 'Nollywood',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Nigeria built the world\'s second-largest film industry, producing over 2,500 films annually.',
           sv: 'Nigeria byggde världens näst största filmindustri och producerade över 2 500 filmer årligen.',
@@ -324,7 +384,17 @@ export const nigeria: Country = {
           nl: 'Afrobeats',
           pt: 'Afrobeats',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'A fusion music genre that has taken the world by storm, with artists like Burna Boy and Wizkid.',
           sv: 'En fusionsmusikgenre som har tagit världen med storm, med artister som Burna Boy och Wizkid.',
@@ -366,7 +436,7 @@ export const nigeria: Country = {
       {
         name: {
           en: 'Yankari National Park',
-          sv: 'Yankari National Park',
+          sv: 'Yankari nationalpark',
           es: 'Parque Nacional Yankari',
           fr: 'Parc national de Yankari',
           de: 'Yankari-Nationalpark',
@@ -390,7 +460,7 @@ export const nigeria: Country = {
       {
         name: {
           en: 'Olumo Rock',
-          sv: 'Olumo Rock',
+          sv: 'Olumoklippan',
           es: 'Roca Olumo',
           fr: 'Rocher d\'Olumo',
           de: 'Olumo Rock',
@@ -414,7 +484,7 @@ export const nigeria: Country = {
       {
         name: {
           en: 'Lekki Conservation Centre',
-          sv: 'Lekki Conservation Centre',
+          sv: 'Lekki naturreservat',
           es: 'Centro de Conservación Lekki',
           fr: 'Centre de conservation de Lekki',
           de: 'Lekki Conservation Center',
@@ -462,7 +532,17 @@ export const nigeria: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-March for dry season and cooler weather.',
           sv: 'November-mars för torrperiod och svalare väder.',
@@ -476,7 +556,17 @@ export const nigeria: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Mandatory for entry into Nigeria.',
           sv: 'Obligatorisk för inresa till Nigeria.',
@@ -490,7 +580,17 @@ export const nigeria: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Required for most nationalities, apply in advance.',
           sv: 'Krävs för de flesta nationaliteter, ansök i förväg.',
@@ -504,7 +604,17 @@ export const nigeria: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Carry local currency, ATMs available in cities.',
           sv: 'Bär lokal valuta, bankomater tillgängliga i städer.',
@@ -533,7 +643,7 @@ export const nigeria: Country = {
       },
       description: {
         en: 'Iconic West African rice dish cooked in tomato sauce with spices',
-        sv: 'Ikonisk västafrikansk risrätt tillagad i tomatsås med kryddor',
+        sv: 'Klassisk västafrikansk risrätt kokt i kryddig tomatsås',
         es: 'Icónico plato de arroz de África Occidental cocinado en salsa de tomate con especias',
         fr: 'Plat de riz emblématique d\'Afrique de l\'Ouest cuit dans une sauce tomate aux épices',
         de: 'Kultiges westafrikanisches Reisgericht, gekocht in Tomatensauce mit Gewürzen',
@@ -602,7 +712,7 @@ export const nigeria: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -615,7 +725,7 @@ export const nigeria: Country = {
         {
           name: {
             en: 'Scotch bonnet peppers',
-            sv: 'Scotch bonnet paprika',
+            sv: 'Scotch bonnet-chili',
             es: 'Pimientos Scotch Bonnet',
             fr: 'Piments Scotch Bonnet',
             de: 'Scotch Bonnet Peppers',
@@ -652,7 +762,7 @@ export const nigeria: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -756,7 +866,7 @@ export const nigeria: Country = {
       steps: [
         {
           en: 'Blend tomatoes, peppers, and onions into smooth paste',
-          sv: 'Blanda tomater, paprika och lök till en slät pasta',
+          sv: 'Mixa tomater, paprika, chili och lök slätt',
           es: 'Licue los tomates, los pimientos y las cebollas hasta obtener una pasta suave',
           fr: 'Mélangez les tomates, les poivrons et les oignons en une pâte lisse',
           de: 'Tomaten, Paprika und Zwiebeln zu einer glatten Paste vermischen',
@@ -767,7 +877,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Fry tomato paste until oil separates and paste darkens',
-          sv: 'Stek tomatpuré tills oljan separerar och pastan mörknar',
+          sv: 'Fräs tomatpurén i olja tills den mörknar och oljan börjar skilja sig',
           es: 'Freír la pasta de tomate hasta que el aceite se separe y la pasta se oscurezca',
           fr: 'Faire frire la pâte de tomate jusqu\'à ce que l\'huile se sépare et que la pâte noircisse',
           de: 'Tomatenmark anbraten, bis sich das Öl trennt und das Paste dunkler wird',
@@ -778,7 +888,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Add blended mixture, fry until reduced',
-          sv: 'Tillsätt blandad blandning, stek tills den är reducerad',
+          sv: 'Tillsätt den mixade tomatblandningen och fräs tills den har kokat ihop',
           es: 'Agrega la mezcla licuada, fríe hasta que reduzca',
           fr: 'Ajouter le mélange mélangé, faire frire jusqu\'à réduction',
           de: 'Die gemischte Mischung hinzufügen und braten, bis sie reduziert ist',
@@ -789,7 +899,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Add stock, curry, thyme, and bay leaves, bring to boil',
-          sv: 'Tillsätt fond, curry, timjan och lagerblad, låt koka upp',
+          sv: 'Tillsätt buljong, curry, timjan och lagerblad och låt koka upp',
           es: 'Agregue el caldo, el curry, el tomillo y las hojas de laurel, deje hervir',
           fr: 'Ajouter le bouillon, le curry, le thym et les feuilles de laurier, porter à ébullition',
           de: 'Brühe, Curry, Thymian und Lorbeerblätter hinzufügen und zum Kochen bringen',
@@ -800,7 +910,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Add washed rice, stir, cover tightly',
-          sv: 'Tillsätt tvättat ris, rör om, täck ordentligt',
+          sv: 'Tillsätt det sköljda riset, rör om och lägg på ett tättslutande lock',
           es: 'Agregue el arroz lavado, revuelva y cubra bien.',
           fr: 'Ajouter le riz lavé, remuer, couvrir hermétiquement',
           de: 'Den gewaschenen Reis dazugeben, umrühren und gut abdecken',
@@ -811,7 +921,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Cook on low heat until rice absorbs liquid (30-40 mins)',
-          sv: 'Koka på låg värme tills ris absorberar vätska (30-40 min)',
+          sv: 'Låt koka på låg värme tills riset har sugit upp vätskan (30–40 min)',
           es: 'Cocine a fuego lento hasta que el arroz absorba líquido (30-40 minutos)',
           fr: 'Cuire à feu doux jusqu\'à ce que le riz absorbe le liquide (30-40 minutes)',
           de: 'Bei schwacher Hitze kochen, bis der Reis Flüssigkeit aufnimmt (30-40 Min.)',
@@ -822,7 +932,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Serve with fried plantains and chicken',
-          sv: 'Servera med stekt plantains och kyckling',
+          sv: 'Servera med stekta kokbananer och kyckling',
           es: 'Servir con plátanos fritos y pollo',
           fr: 'Servir avec des plantains frits et du poulet',
           de: 'Mit gebratenen Kochbananen und Hühnchen servieren',
@@ -849,7 +959,7 @@ export const nigeria: Country = {
       },
       description: {
         en: 'Sweet fried dough balls, a popular Nigerian street snack',
-        sv: 'Sötstekta degbollar, ett populärt nigerianskt gatusnack',
+        sv: 'Söta friterade degbollar – populär gatumat i Nigeria',
         es: 'Bolas de masa dulce frita, un bocadillo callejero popular en Nigeria',
         fr: 'Boulettes de pâte frites sucrées, une collation de rue nigériane populaire',
         de: 'Süße frittierte Teigbällchen, ein beliebter nigerianischer Straßensnack',
@@ -876,7 +986,7 @@ export const nigeria: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -976,7 +1086,7 @@ export const nigeria: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -992,7 +1102,7 @@ export const nigeria: Country = {
       steps: [
         {
           en: 'Mix flour, sugar, yeast, nutmeg, and salt',
-          sv: 'Blanda mjöl, socker, jäst, muskotnöt och salt',
+          sv: 'Blanda vetemjöl, socker, jäst, muskotnöt och salt',
           es: 'Mezclar harina, azúcar, levadura, nuez moscada y sal',
           fr: 'Mélanger la farine, le sucre, la levure, la muscade et le sel',
           de: 'Mehl, Zucker, Hefe, Muskatnuss und Salz mischen',
@@ -1003,7 +1113,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Add warm water gradually to form smooth batter',
-          sv: 'Tillsätt varmt vatten gradvis för att bilda en slät smet',
+          sv: 'Tillsätt det ljumma vattnet lite i taget och rör till en slät smet',
           es: 'Agregue agua tibia gradualmente para formar una masa suave',
           fr: 'Ajouter progressivement de l\'eau tiède pour former une pâte lisse',
           de: 'Nach und nach warmes Wasser hinzufügen, bis ein glatter Teig entsteht',
@@ -1014,7 +1124,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Let batter rise for 1-2 hours until doubled',
-          sv: 'Låt smeten jäsa i 1-2 timmar tills den fördubblats',
+          sv: 'Låt smeten jäsa i 1–2 timmar, tills den har fördubblats i volym',
           es: 'Deje que la masa crezca durante 1 a 2 horas hasta que se duplique',
           fr: 'Laisser lever la pâte pendant 1 à 2 heures jusqu\'à ce qu\'elle double',
           de: 'Den Teig 1–2 Stunden gehen lassen, bis er sich verdoppelt hat',
@@ -1025,7 +1135,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Heat oil in deep pan',
-          sv: 'Värm olja i djup panna',
+          sv: 'Hetta upp oljan i en djup kastrull',
           es: 'Calentar aceite en una sartén honda',
           fr: 'Faire chauffer l\'huile dans une poêle profonde',
           de: 'Öl in einer tiefen Pfanne erhitzen',
@@ -1036,7 +1146,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Scoop batter with wet hands and drop into hot oil',
-          sv: 'Ös smeten med våta händer och släpp i het olja',
+          sv: 'Ta upp små klickar smet med blöta händer och släpp ner dem i den heta oljan',
           es: 'Saque la masa con las manos mojadas y colóquela en aceite caliente',
           fr: 'Verser la pâte avec les mains mouillées et la déposer dans l\'huile chaude',
           de: 'Mit nassen Händen Teig ausschöpfen und in heißes Öl geben',
@@ -1047,7 +1157,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Fry until golden brown on all sides',
-          sv: 'Stek tills gyllenbrun på alla sidor',
+          sv: 'Fritera tills de är gyllenbruna runt om',
           es: 'Freír hasta que estén dorados por todos lados',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés de tous les côtés',
           de: 'Von allen Seiten goldbraun braten',
@@ -1058,7 +1168,7 @@ export const nigeria: Country = {
         },
         {
           en: 'Drain and dust with powdered sugar if desired',
-          sv: 'Häll av och pudra med strösocker om så önskas',
+          sv: 'Låt rinna av på hushållspapper och pudra över florsocker om du vill',
           es: 'Escurrir y espolvorear con azúcar en polvo si lo desea.',
           fr: 'Égoutter et saupoudrer de sucre en poudre si désiré',
           de: 'Abgießen und nach Belieben mit Puderzucker bestäuben',

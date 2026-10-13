@@ -263,8 +263,28 @@ export const seychelles: Country = {
     },
     history: [
       {
-        year: '1700s',
-        title: 'Early European Settlement',
+        year: {
+          en: '1700s',
+          sv: '1700-talet',
+          es: 'siglo XVIII',
+          fr: 'XVIIIe siècle',
+          de: '18. Jahrhundert',
+          it: 'XVIII secolo',
+          pl: 'XVIII wiek',
+          nl: '18e eeuw',
+          pt: 'século XVIII',
+        },
+        title: {
+          en: 'Early European Settlement',
+          sv: 'Tidig europeisk bosättning',
+          es: 'Primeros asentamientos europeos',
+          fr: 'Premières implantations européennes',
+          de: 'Frühe europäische Besiedlung',
+          it: 'Primi insediamenti europei',
+          pl: 'Wczesne osadnictwo europejskie',
+          nl: 'Eerste Europese nederzettingen',
+          pt: 'Primeiros assentamentos europeus',
+        },
         description: {
           en: 'French influence shaped early place names, administration, and Creole culture, later followed by British colonial rule.',
           sv: 'Franskt inflytande formade tidiga ortnamn, administration och kreolsk kultur, senare följt av brittiskt kolonialstyre.',
@@ -278,8 +298,28 @@ export const seychelles: Country = {
         },
       },
       {
-        year: '1900s',
-        title: 'Creole Identity',
+        year: {
+          en: '1900s',
+          sv: '1900-talet',
+          es: 'siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'século XX',
+        },
+        title: {
+          en: 'Creole Identity',
+          sv: 'Kreolsk identitet',
+          es: 'Identidad criolla',
+          fr: 'Identité créole',
+          de: 'Kreolische Identität',
+          it: 'Identità creola',
+          pl: 'Tożsamość kreolska',
+          nl: 'Creoolse identiteit',
+          pt: 'Identidade crioula',
+        },
         description: {
           en: 'A distinct Seychellois Creole identity strengthened through language, music, and cuisine across the islands.',
           sv: 'En distinkt seychellisk kreolsk identitet stärkts genom språk, musik och mat över öarna.',
@@ -294,7 +334,17 @@ export const seychelles: Country = {
       },
       {
         year: '1976',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Seychelles gained independence and developed its modern national institutions while expanding tourism and conservation.',
           sv: 'Seychellerna fick självständighet och utvecklade sina moderna nationella institutioner samtidigt som turismen och bevarandet utökades.',
@@ -308,8 +358,28 @@ export const seychelles: Country = {
         },
       },
       {
-        year: 'Modern Era',
-        title: 'Conservation & Sustainable Tourism',
+        year: {
+          en: 'Modern Era',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
+        title: {
+          en: 'Conservation & Sustainable Tourism',
+          sv: 'Naturvård och hållbar turism',
+          es: 'Conservación y turismo sostenible',
+          fr: 'Conservation et tourisme durable',
+          de: 'Naturschutz und nachhaltiger Tourismus',
+          it: 'Conservazione e turismo sostenibile',
+          pl: 'Ochrona przyrody i zrównoważona turystyka',
+          nl: 'Natuurbehoud en duurzaam toerisme',
+          pt: 'Conservação e turismo sustentável',
+        },
         description: {
           en: 'Seychelles became known for protecting unique habitats, including marine zones, coral reefs, and island biodiversity.',
           sv: 'Seychellerna blev kända för att skydda unika livsmiljöer, inklusive marina zoner, korallrev och öarnas biologiska mångfald.',
@@ -323,8 +393,28 @@ export const seychelles: Country = {
         },
       },
       {
-        year: 'Today',
-        title: 'Island Nation Lifestyle',
+        year: {
+          en: 'Today',
+          sv: 'Idag',
+          es: 'Hoy',
+          fr: 'Aujourd\'hui',
+          de: 'Heute',
+          it: 'Oggi',
+          pl: 'Dziś',
+          nl: 'Heden',
+          pt: 'Hoje',
+        },
+        title: {
+          en: 'Island Nation Lifestyle',
+          sv: 'Livet i en östat',
+          es: 'Estilo de vida isleño',
+          fr: 'Mode de vie insulaire',
+          de: 'Leben im Inselstaat',
+          it: 'Stile di vita insulare',
+          pl: 'Wyspiarski styl życia',
+          nl: 'Leven in een eilandstaat',
+          pt: 'Estilo de vida insular',
+        },
         description: {
           en: 'Seychelles combines beach tourism, fisheries, and services with strong environmental protection and cultural traditions.',
           sv: 'Seychellerna kombinerar strandturism, fiske och tjänster med starkt miljöskydd och kulturella traditioner.',
@@ -351,7 +441,17 @@ export const seychelles: Country = {
           nl: 'Het Aldabra-natuurbehoudmodel',
           pt: 'O modelo de conservação de Aldabra',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Long-term protection of Aldabra Atoll and its giant tortoises has become a flagship example of large-scale island ecosystem conservation.',
           sv: 'Långsiktigt skydd av Aldabra-atollen och dess gigantiska sköldpaddor har blivit ett flaggskeppsexempel på storskaligt bevarande av ekosystem på ön.',
@@ -376,7 +476,17 @@ export const seychelles: Country = {
           nl: 'Voortrekkersrol in mariene bescherming',
           pt: 'Liderança em proteção marinha',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Seychelles is known for expanding protected marine areas to help safeguard reefs, fisheries, and biodiversity while supporting sustainable tourism.',
           sv: 'Seychellerna är kända för att utöka skyddade marina områden för att skydda rev, fiske och biologisk mångfald samtidigt som de stödjer hållbar turism.',
@@ -401,7 +511,17 @@ export const seychelles: Country = {
           nl: 'Creoolse culinaire fusie',
           pt: 'Fusão culinária crioula',
         },
-        year: 'Traditional–Modern',
+        year: {
+          en: 'Traditional–Modern',
+          sv: 'Traditionell–modern',
+          es: 'Tradicional–moderno',
+          fr: 'Traditionnel–moderne',
+          de: 'Traditionell–modern',
+          it: 'Tradizionale–moderno',
+          pl: 'Tradycyjnie–współcześnie',
+          nl: 'Traditioneel–modern',
+          pt: 'Tradicional–moderno',
+        },
         description: {
           en: 'A distinctive Creole food culture blends African, French, Indian, and Chinese techniques into island dishes centered on seafood and coconut.',
           sv: 'En distinkt kreolsk matkultur blandar afrikanska, franska, indiska och kinesiska tekniker till örätter centrerade på skaldjur och kokosnöt.',
@@ -467,7 +587,7 @@ export const seychelles: Country = {
       {
         name: {
           en: 'Aldabra Atoll',
-          sv: 'Aldabra Atoll',
+          sv: 'Aldabraatollen',
           es: 'Atolón de Aldabra',
           fr: 'Atoll d\'Aldabra',
           de: 'Aldabra-Atoll',
@@ -515,7 +635,7 @@ export const seychelles: Country = {
       {
         name: {
           en: 'Curieuse Island',
-          sv: 'Curieuse Island',
+          sv: 'Curieuse',
           es: 'Isla Curieuse',
           fr: 'Île Curieuse',
           de: 'Curieuse-Insel',
@@ -539,7 +659,17 @@ export const seychelles: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April–May and October–November often bring calmer seas and good visibility for snorkeling.',
           sv: 'April–maj och oktober–november ger ofta lugnare hav och god sikt för snorkling.',
@@ -553,7 +683,17 @@ export const seychelles: Country = {
         },
       },
       {
-        item: 'Island hopping',
+        item: {
+          en: 'Island hopping',
+          sv: 'Öhoppning',
+          es: 'De isla en isla',
+          fr: 'D\'île en île',
+          de: 'Inselhopping',
+          it: 'Di isola in isola',
+          pl: 'Podróże między wyspami',
+          nl: 'Eilandhoppen',
+          pt: 'De ilha em ilha',
+        },
         description: {
           en: 'Ferries and short flights connect Mahé, Praslin, and La Digue—plan transfers ahead.',
           sv: 'Färjor och korta flygresor förbinder Mahé, Praslin och La Digue—planera transfer i förväg.',
@@ -567,7 +707,17 @@ export const seychelles: Country = {
         },
       },
       {
-        item: 'Reef-safe sun protection',
+        item: {
+          en: 'Reef-safe sun protection',
+          sv: 'Revvänligt solskydd',
+          es: 'Protección solar respetuosa con los corales',
+          fr: 'Protection solaire respectueuse des récifs',
+          de: 'Korallenfreundlicher Sonnenschutz',
+          it: 'Protezione solare amica dei coralli',
+          pl: 'Ochrona przeciwsłoneczna bezpieczna dla raf',
+          nl: 'Rifvriendelijke zonbescherming',
+          pt: 'Proteção solar segura para corais',
+        },
         description: {
           en: 'Use reef-safe sunscreen and protective clothing to reduce coral impact.',
           sv: 'Använd revsäker solskyddsmedel och skyddskläder för att minska korallpåverkan.',
@@ -581,7 +731,17 @@ export const seychelles: Country = {
         },
       },
       {
-        item: 'Cash & cards',
+        item: {
+          en: 'Cash & cards',
+          sv: 'Kontanter och kort',
+          es: 'Efectivo y tarjetas',
+          fr: 'Espèces et cartes',
+          de: 'Bargeld und Karten',
+          it: 'Contanti e carte',
+          pl: 'Gotówka i karty',
+          nl: 'Contant geld en kaarten',
+          pt: 'Dinheiro e cartões',
+        },
         description: {
           en: 'Cards are common in hotels, but carry cash for small shops, buses, and takeaway.',
           sv: 'Kort är vanliga på hotell, men tar med kontanter för små butiker, bussar och takeaway.',
@@ -595,7 +755,17 @@ export const seychelles: Country = {
         },
       },
       {
-        item: 'Driving',
+        item: {
+          en: 'Driving',
+          sv: 'Bilkörning',
+          es: 'Conducir',
+          fr: 'Conduite',
+          de: 'Autofahren',
+          it: 'Guidare',
+          pl: 'Jazda samochodem',
+          nl: 'Autorijden',
+          pt: 'Dirigir',
+        },
         description: {
           en: 'Mahé and Praslin are easy to explore by rental car; La Digue is famous for bicycles.',
           sv: 'Mahé och Praslin är lätta att utforska med hyrbil; La Digue är känt för sina cyklar.',
@@ -609,7 +779,17 @@ export const seychelles: Country = {
         },
       },
       {
-        item: 'Respect nature rules',
+        item: {
+          en: 'Respect nature rules',
+          sv: 'Följ reglerna i naturen',
+          es: 'Respeta las normas en la naturaleza',
+          fr: 'Respecter les règles en milieu naturel',
+          de: 'Naturschutzregeln beachten',
+          it: 'Rispettare le regole nella natura',
+          pl: 'Przestrzegaj zasad ochrony przyrody',
+          nl: 'Respecteer de natuurregels',
+          pt: 'Respeite as regras ambientais',
+        },
         description: {
           en: 'Follow park guidelines and keep distance from wildlife, especially tortoises and nesting areas.',
           sv: 'Följ parkens riktlinjer och håll avstånd från vilda djur, särskilt sköldpaddor och häckningsområden.',
@@ -638,7 +818,7 @@ export const seychelles: Country = {
       },
       description: {
         en: 'Creole-style fish curry gently simmered in coconut milk with tomatoes, lime, and warm spices—bright, fragrant, and best with rice.',
-        sv: 'Fiskcurry i kreolsk stil som varsamt sjudad i kokosmjölk med tomater, lime och varma kryddor – ljus, doftande och bäst med ris.',
+        sv: 'Fiskcurry i kreolsk stil som får sjuda varsamt i kokosmjölk med tomater, lime och värmande kryddor – frisk, doftande och godast med ris.',
         es: 'Curry de pescado al estilo criollo cocido suavemente a fuego lento en leche de coco con tomates, lima y especias calientes: brillante, fragante y mejor con arroz.',
         fr: 'Curry de poisson à la créole mijoté doucement dans du lait de coco avec des tomates, du citron vert et des épices chaudes – brillant, parfumé et meilleur avec du riz.',
         de: 'Fischcurry nach kreolischer Art, sanft in Kokosmilch gegart, mit Tomaten, Limette und warmen Gewürzen – hell, duftend und am besten mit Reis.',
@@ -665,7 +845,7 @@ export const seychelles: Country = {
         {
           name: {
             en: 'White fish fillets (firm)',
-            sv: 'Vita fiskfiléer (fasta)',
+            sv: 'Filéer av fast vit fisk',
             es: 'Filetes de pescado blanco (firme)',
             fr: 'Filets de poisson blanc (ferme)',
             de: 'Weiße Fischfilets (fest)',
@@ -707,7 +887,7 @@ export const seychelles: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -772,7 +952,7 @@ export const seychelles: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -850,7 +1030,7 @@ export const seychelles: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -917,7 +1097,7 @@ export const seychelles: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -942,7 +1122,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Add garlic and ginger; cook 30 seconds until fragrant.',
-          sv: 'Tillsätt vitlök och ingefära; koka 30 sekunder tills det doftar.',
+          sv: 'Tillsätt vitlök och ingefära och fräs i 30 sekunder tills det doftar.',
           es: 'Agrega el ajo y el jengibre; cocine 30 segundos hasta que esté fragante.',
           fr: 'Ajouter l\'ail et le gingembre; cuire 30 secondes jusqu\'à ce qu\'il soit parfumé.',
           de: 'Knoblauch und Ingwer hinzufügen; 30 Sekunden kochen, bis es duftet.',
@@ -953,7 +1133,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Stir in curry powder (and turmeric if using) and cook 30 seconds to bloom the spices.',
-          sv: 'Rör ner curry (och gurkmeja om du använder det) och koka 30 sekunder för att blomma kryddorna.',
+          sv: 'Rör ner currypulvret (och gurkmejan, om du använder den) och fräs i 30 sekunder så att kryddorna frigör sin arom.',
           es: 'Agregue el curry en polvo (y la cúrcuma si la usa) y cocine durante 30 segundos para que florezcan las especias.',
           fr: 'Incorporer la poudre de curry (et le curcuma si vous en utilisez) et cuire 30 secondes pour faire fleurir les épices.',
           de: 'Currypulver (und ggf. Kurkuma) einrühren und 30 Sekunden kochen lassen, damit die Gewürze aufgehen.',
@@ -964,7 +1144,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Add chopped tomatoes and cook 3–4 minutes until they break down.',
-          sv: 'Tillsätt hackade tomater och koka 3–4 minuter tills de bryts ner.',
+          sv: 'Tillsätt de hackade tomaterna och låt koka i 3–4 minuter tills de har fallit sönder.',
           es: 'Agregue los tomates picados y cocine de 3 a 4 minutos hasta que se deshagan.',
           fr: 'Ajouter les tomates hachées et cuire 3 à 4 minutes jusqu\'à ce qu\'elles se décomposent.',
           de: 'Gehackte Tomaten hinzufügen und 3–4 Minuten kochen, bis sie zerfallen.',
@@ -997,7 +1177,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Simmer gently 8–10 minutes (avoid hard boiling) until fish is just cooked.',
-          sv: 'Sjud försiktigt 8–10 minuter (undvik hårdkokning) tills fisken precis är genomstekt.',
+          sv: 'Låt sjuda försiktigt i 8–10 minuter (låt det inte koka häftigt) tills fisken precis är genomkokt.',
           es: 'Cocine a fuego lento durante 8 a 10 minutos (evite hervir fuerte) hasta que el pescado esté apenas cocido.',
           fr: 'Laisser mijoter doucement 8 à 10 minutes (éviter de faire bouillir fort) jusqu\'à ce que le poisson soit juste cuit.',
           de: '8–10 Minuten leicht köcheln lassen (hartes Kochen vermeiden), bis der Fisch gerade gar ist.',
@@ -1008,7 +1188,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Stir in lime juice and taste—adjust salt, pepper, and lime.',
-          sv: 'Rör ner limejuice och smaka av – justera salt, peppar och lime.',
+          sv: 'Rör ner limejuicen och smaka av med salt, peppar och mer lime.',
           es: 'Agregue el jugo de lima y pruebe; ajuste la sal, la pimienta y la lima.',
           fr: 'Incorporer le jus de citron vert et goûter – ajuster le sel, le poivre et le citron vert.',
           de: 'Limettensaft einrühren und abschmecken – Salz, Pfeffer und Limette anpassen.',
@@ -1019,7 +1199,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Optional: add a slit chili for heat during the simmer, then remove before serving.',
-          sv: 'Valfritt: tillsätt en skårad chili för värme under sjudningen, ta sedan bort innan servering.',
+          sv: 'Valfritt: lägg i en skårad chili under sjudningen för extra hetta och ta upp den före servering.',
           es: 'Opcional: agregue un chile cortado en rodajas para calentar durante la cocción a fuego lento, luego retírelo antes de servir.',
           fr: 'Facultatif : ajoutez un piment fendu pour réchauffer pendant la cuisson, puis retirez-le avant de servir.',
           de: 'Optional: Fügen Sie eine geschlitzte Chilischote hinzu, um sie während des Kochens zu erhitzen, und nehmen Sie sie dann vor dem Servieren heraus.',
@@ -1046,7 +1226,7 @@ export const seychelles: Country = {
       id: 'seychelles-dessert',
       name: {
         en: 'Coconut & Banana Cake',
-        sv: 'Kokos & banankaka',
+        sv: 'Kokos- och banankaka',
         es: 'Pastel de coco y plátano',
         fr: 'Gâteau à la noix de coco et à la banane',
         de: 'Kokos-Bananen-Kuchen',
@@ -1057,7 +1237,7 @@ export const seychelles: Country = {
       },
       description: {
         en: 'Moist island-style cake combining ripe bananas and coconut—simple, tropical, and perfect with tea.',
-        sv: 'Fuktig kaka i ö-stil som kombinerar mogna bananer och kokosnöt – enkel, tropisk och perfekt med te.',
+        sv: 'Saftig kaka från öarna med mogna bananer och kokos – enkel, tropisk och perfekt till en kopp te.',
         es: 'Pastel húmedo estilo isleño que combina plátanos maduros y coco: simple, tropical y perfecto con té.',
         fr: 'Gâteau moelleux de style insulaire combinant bananes mûres et noix de coco : simple, tropical et parfait avec du thé.',
         de: 'Saftiger Inselkuchen mit einer Kombination aus reifen Bananen und Kokosnuss – einfach, tropisch und perfekt zu Tee.',
@@ -1096,7 +1276,7 @@ export const seychelles: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1109,7 +1289,7 @@ export const seychelles: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1139,7 +1319,7 @@ export const seychelles: Country = {
         {
           name: {
             en: 'Desiccated coconut',
-            sv: 'Torkad kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco desecado',
             fr: 'Noix de coco desséchée',
             de: 'Kokosraspeln',
@@ -1181,7 +1361,7 @@ export const seychelles: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1239,7 +1419,7 @@ export const seychelles: Country = {
         {
           name: {
             en: 'Pinch of salt',
-            sv: 'Nypa salt',
+            sv: 'Salt',
             es: 'Una pizca de sal',
             fr: 'Pincée de sel',
             de: 'Prise Salz',
@@ -1265,7 +1445,7 @@ export const seychelles: Country = {
       steps: [
         {
           en: 'Preheat oven to 180°C and grease a loaf tin or round cake pan.',
-          sv: 'Värm ugnen till 180°C och smörj en brödform eller rund kakform.',
+          sv: 'Värm ugnen till 180 °C och smörj en brödform eller en rund kakform.',
           es: 'Precalienta el horno a 180°C y engrasa un molde para pan o un molde para pastel redondo.',
           fr: 'Préchauffer le four à 180°C et beurrer un moule à cake ou un moule à cake rond.',
           de: 'Den Backofen auf 180 °C vorheizen und eine Kastenform oder eine runde Kuchenform einfetten.',
@@ -1276,7 +1456,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Whisk flour, baking powder, salt, and coconut in a bowl.',
-          sv: 'Vispa mjöl, bakpulver, salt och kokos i en skål.',
+          sv: 'Blanda vetemjöl, bakpulver, salt och riven kokos i en skål.',
           es: 'Batir la harina, el polvo para hornear, la sal y el coco en un bol.',
           fr: 'Fouetter la farine, la levure chimique, le sel et la noix de coco dans un bol.',
           de: 'Mehl, Backpulver, Salz und Kokosnuss in einer Schüssel verquirlen.',
@@ -1298,7 +1478,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Fold wet mixture into dry mixture until just combined (do not overmix).',
-          sv: 'Vik den våta blandningen i den torra blandningen tills den precis blandas (blanda inte för mycket).',
+          sv: 'Vänd ner den våta blandningen i den torra tills allt precis har blandats (rör inte för mycket).',
           es: 'Incorpora la mezcla húmeda a la mezcla seca hasta que esté combinada (no mezcle demasiado).',
           fr: 'Incorporer le mélange humide au mélange sec jusqu\'à ce qu\'il soit tout juste combiné (ne pas trop mélanger).',
           de: 'Die feuchte Mischung unter die trockene Mischung heben, bis sie sich gerade vermischt hat (nicht zu viel vermischen).',
@@ -1309,7 +1489,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Pour into the pan and smooth the top.',
-          sv: 'Häll i pannan och jämna till toppen.',
+          sv: 'Häll smeten i formen och jämna till ytan.',
           es: 'Vierta en la sartén y alise la parte superior.',
           fr: 'Versez dans le moule et lissez le dessus.',
           de: 'In die Pfanne gießen und die Oberseite glatt streichen.',
@@ -1320,7 +1500,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Bake 35–45 minutes until a toothpick comes out clean.',
-          sv: 'Grädda 35–45 minuter tills en tandpetare kommer ut ren.',
+          sv: 'Grädda i 35–45 minuter tills en provsticka kommer ut torr.',
           es: 'Hornee de 35 a 45 minutos hasta que al introducir un palillo éste salga limpio.',
           fr: 'Cuire au four 35 à 45 minutes jusqu\'à ce qu\'un cure-dent en ressorte propre.',
           de: '35–45 Minuten backen, bis ein Zahnstocher sauber herauskommt.',
@@ -1331,7 +1511,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Cool 10 minutes in the pan, then transfer to a rack to cool fully.',
-          sv: 'Kyl 10 minuter i pannan och överför sedan till ett galler för att svalna helt.',
+          sv: 'Låt svalna i formen i 10 minuter och stjälp sedan upp kakan på ett galler så att den svalnar helt.',
           es: 'Deje enfriar durante 10 minutos en la sartén, luego transfiéralo a una rejilla para que se enfríe por completo.',
           fr: 'Laisser refroidir 10 minutes dans le moule, puis transférer sur une grille pour refroidir complètement.',
           de: '10 Minuten in der Pfanne abkühlen lassen, dann zum vollständigen Abkühlen auf ein Gestell geben.',
@@ -1342,7 +1522,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Slice and serve plain or with fresh fruit.',
-          sv: 'Skiva och servera vanlig eller med färsk frukt.',
+          sv: 'Skiva och servera som den är eller med färsk frukt.',
           es: 'Cortar y servir solo o con fruta fresca.',
           fr: 'Trancher et servir nature ou avec des fruits frais.',
           de: 'In Scheiben schneiden und pur oder mit frischem Obst servieren.',
@@ -1364,7 +1544,7 @@ export const seychelles: Country = {
         },
         {
           en: 'Store airtight; the cake stays moist for 2–3 days.',
-          sv: 'Förvara lufttätt; kakan håller sig fuktig i 2–3 dagar.',
+          sv: 'Förvara kakan i en lufttät burk; den håller sig saftig i 2–3 dagar.',
           es: 'Almacenar herméticamente; el pastel permanece húmedo durante 2 a 3 días.',
           fr: 'Conserver hermétiquement; le gâteau reste humide pendant 2 à 3 jours.',
           de: 'Luftdicht aufbewahren; Der Kuchen bleibt 2–3 Tage saftig.',
@@ -1614,7 +1794,7 @@ export const seychelles: Country = {
           },
           {
             en: 'Areca palm',
-            sv: 'Areca palm',
+            sv: 'Arekapalm',
             es: 'Palma areca',
             fr: 'Palmier d\'Aréca',
             de: 'Areca-Palme',
@@ -1897,7 +2077,7 @@ export const seychelles: Country = {
           },
           {
             en: 'Deep-dish pizza',
-            sv: 'Deep-dish pizza',
+            sv: 'Deep dish-pizza',
             es: 'Pizza de plato hondo',
             fr: 'Pizza à plat profond',
             de: 'Deep-Dish-Pizza',

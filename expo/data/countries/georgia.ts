@@ -219,8 +219,28 @@ export const georgia: Country = {
     },
     history: [
       {
-        year: '4th century',
-        title: 'Christianity Adopted',
+        year: {
+          en: '4th century',
+          sv: '300-talet',
+          es: 'Siglo IV',
+          fr: 'IVe siècle',
+          de: '4. Jahrhundert',
+          it: 'IV secolo',
+          pl: 'IV wiek',
+          nl: '4e eeuw',
+          pt: 'Século IV',
+        },
+        title: {
+          en: 'Christianity Adopted',
+          sv: 'Kristendomen antas',
+          es: 'Adopción del cristianismo',
+          fr: 'Adoption du christianisme',
+          de: 'Annahme des Christentums',
+          it: 'Adozione del cristianesimo',
+          pl: 'Przyjęcie chrześcijaństwa',
+          nl: 'Invoering van het christendom',
+          pt: 'Adoção do cristianismo',
+        },
         description: {
           en: 'Georgia became one of the first nations to adopt Christianity as the state religion.',
           sv: 'Georgien blev en av de första nationerna att anta kristendomen som statsreligion.',
@@ -235,7 +255,17 @@ export const georgia: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Georgia regained independence following the collapse of the Soviet Union.',
           sv: 'Georgien återvann självständighet efter Sovjetunionens kollaps.',
@@ -262,7 +292,17 @@ export const georgia: Country = {
           nl: 'Qvevri-wijnbereiding',
           pt: 'Vinificação em qvevri',
         },
-        year: '6000 BC',
+        year: {
+          en: '6000 BC',
+          sv: '6000 f.Kr.',
+          es: '6000 a. C.',
+          fr: '6000 av. J.-C.',
+          de: '6000 v. Chr.',
+          it: '6000 a.C.',
+          pl: '6000 p.n.e.',
+          nl: '6000 v.Chr.',
+          pt: '6000 a.C.',
+        },
         description: {
           en: 'Ancient method of fermenting wine in clay vessels buried underground, recognized by UNESCO as cultural heritage.',
           sv: 'Urgammal metod att jäsa vin i lerkärl begravda under jorden, erkänd av UNESCO som kulturarv.',
@@ -287,7 +327,17 @@ export const georgia: Country = {
           nl: 'Georgisch alfabet',
           pt: 'Alfabeto georgiano',
         },
-        year: '5th century',
+        year: {
+          en: '5th century',
+          sv: '400-talet',
+          es: 'siglo V',
+          fr: 'Ve siècle',
+          de: '5. Jahrhundert',
+          it: 'V secolo',
+          pl: 'V wiek',
+          nl: '5e eeuw',
+          pt: 'século V',
+        },
         description: {
           en: 'Unique writing system, one of only 14 alphabets in use today, designed to preserve Georgian language and culture.',
           sv: 'Unikt skriftsystem, ett av endast 14 alfabet som används idag, designat för att bevara georgiskt språk och kultur.',
@@ -312,7 +362,17 @@ export const georgia: Country = {
           nl: 'Polyfonische zang',
           pt: 'Canto polifónico',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Traditional multi-part harmony singing technique recognized by UNESCO as intangible cultural heritage.',
           sv: 'Traditionell flerstemmig harmonisångsteknik erkänd av UNESCO som immateriellt kulturarv.',
@@ -337,7 +397,17 @@ export const georgia: Country = {
           nl: 'Supra-traditie',
           pt: 'Tradição da Supra',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Elaborate feast ritual with toastmaster (tamada) that influenced communal dining traditions across the Caucasus.',
           sv: 'Utvecklad festritual med toastmaster (tamada) som påverkade gemensamma middagstraditioner över hela Kaukasus.',
@@ -451,7 +521,17 @@ export const georgia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for many nationalities; e-visa available.',
           sv: 'Visumfritt för många nationaliteter; e-visum tillgängligt.',
@@ -465,7 +545,17 @@ export const georgia: Country = {
         },
       },
       {
-        item: 'Best time',
+        item: {
+          en: 'Best time',
+          sv: 'Bästa tiden',
+          es: 'Mejor época',
+          fr: 'Meilleure période',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore',
+          pl: 'Najlepszy czas',
+          nl: 'Beste tijd',
+          pt: 'Melhor época',
+        },
         description: {
           en: 'May-October for hiking; December-March for skiing.',
           sv: 'Maj-oktober för vandring; December-mars för skidåkning.',
@@ -479,7 +569,17 @@ export const georgia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Georgian; Russian widely spoken; English in tourist areas.',
           sv: 'georgisk; ryska allmänt talad; engelska i turistområden.',
@@ -550,7 +650,7 @@ export const georgia: Country = {
         {
           name: {
             en: 'Sulguni cheese',
-            sv: 'Sulguni ost',
+            sv: 'Sulguniost',
             es: 'Queso Sulguni',
             fr: 'Fromage Sulguni',
             de: 'Sulguni-Käse',
@@ -592,7 +692,7 @@ export const georgia: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -636,7 +736,7 @@ export const georgia: Country = {
       steps: [
         {
           en: 'Mix cheeses together',
-          sv: 'Blanda ostar tillsammans',
+          sv: 'Blanda ostarna',
           es: 'Mezclar quesos',
           fr: 'Mélanger les fromages ensemble',
           de: 'Käse miteinander vermischen',
@@ -647,7 +747,7 @@ export const georgia: Country = {
         },
         {
           en: 'Roll dough into boat shape',
-          sv: 'Rulla degen till båtform',
+          sv: 'Forma degen till en båt',
           es: 'Enrolle la masa en forma de barco',
           fr: 'Abaisser la pâte en forme de bateau',
           de: 'Teig in Bootsform ausrollen',
@@ -658,7 +758,7 @@ export const georgia: Country = {
         },
         {
           en: 'Fill with cheese mixture',
-          sv: 'Fyll med ostblandning',
+          sv: 'Fyll med ostblandningen',
           es: 'Rellenar con la mezcla de queso',
           fr: 'Remplir avec le mélange de fromage',
           de: 'Mit Käsemischung füllen',
@@ -669,7 +769,7 @@ export const georgia: Country = {
         },
         {
           en: 'Bake at 450°F for 15 minutes',
-          sv: 'Grädda i 450°F i 15 minuter',
+          sv: 'Grädda i 230°C i 15 minuter',
           es: 'Hornee a 450°F durante 15 minutos',
           fr: 'Cuire au four à 450°F pendant 15 minutes',
           de: '15 Minuten bei 200 °C backen',
@@ -680,7 +780,7 @@ export const georgia: Country = {
         },
         {
           en: 'Crack egg on top and bake 5 more minutes',
-          sv: 'Knäck ägg ovanpå och grädda i 5 minuter till',
+          sv: 'Knäck ett ägg ovanpå och grädda ytterligare 5 minuter',
           es: 'Rompe el huevo encima y hornea 5 minutos más',
           fr: 'Casser l\'œuf dessus et cuire encore 5 minutes',
           de: 'Das Ei darauf aufschlagen und weitere 5 Minuten backen',
@@ -691,7 +791,7 @@ export const georgia: Country = {
         },
         {
           en: 'Top with butter and serve hot',
-          sv: 'Toppa med smör och servera varm',
+          sv: 'Lägg en klick smör ovanpå och servera varm',
           es: 'Cubra con mantequilla y sirva caliente',
           fr: 'Garnir de beurre et servir chaud',
           de: 'Mit Butter belegen und heiß servieren',
@@ -718,7 +818,7 @@ export const georgia: Country = {
       },
       description: {
         en: 'Traditional Georgian candy: walnuts threaded on string and dipped in grape must',
-        sv: 'Traditionellt georgiskt godis: valnötter gängade på snöre och doppade i druvmust',
+        sv: 'Traditionellt georgiskt godis: valnötter uppträdda på snöre och doppade i druvmust',
         es: 'Dulces tradicionales georgianos: nueces ensartadas en un cordel y bañadas en mosto de uva',
         fr: 'Bonbons géorgiens traditionnels : noix enfilées sur une ficelle et trempées dans du moût de raisin',
         de: 'Traditionelle georgische Süßigkeit: Walnüsse auf einer Schnur aufgefädelt und in Traubenmost getaucht',
@@ -775,7 +875,7 @@ export const georgia: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -806,7 +906,7 @@ export const georgia: Country = {
       steps: [
         {
           en: 'Thread walnuts onto strings, leaving space at top.',
-          sv: 'Trä valnötter på snören, lämna utrymme på toppen.',
+          sv: 'Trä upp valnötterna på snören och lämna en bit fri upptill.',
           es: 'Enhebre las nueces en cuerdas, dejando espacio en la parte superior.',
           fr: 'Enfilez les noix sur les ficelles en laissant de l\'espace en haut.',
           de: 'Walnüsse auf Schnüre fädeln, dabei oben Platz lassen.',
@@ -817,7 +917,7 @@ export const georgia: Country = {
         },
         {
           en: 'Heat grape juice with sugar until dissolved.',
-          sv: 'Värm druvjuice med socker tills den lösts upp.',
+          sv: 'Värm druvjuicen och sockret tills sockret har löst sig.',
           es: 'Calentar el jugo de uva con el azúcar hasta que se disuelva.',
           fr: 'Chauffer le jus de raisin avec le sucre jusqu\'à dissolution.',
           de: 'Traubensaft mit Zucker erhitzen, bis er sich aufgelöst hat.',
@@ -828,7 +928,7 @@ export const georgia: Country = {
         },
         {
           en: 'Gradually whisk in flour to avoid lumps.',
-          sv: 'Vispa gradvis i mjöl för att undvika klumpar.',
+          sv: 'Vispa ner mjölet lite i taget så att det inte blir klumpar.',
           es: 'Incorpora poco a poco la harina para evitar grumos.',
           fr: 'Incorporer progressivement la farine pour éviter les grumeaux.',
           de: 'Nach und nach Mehl unterrühren, um Klümpchen zu vermeiden.',
@@ -839,7 +939,7 @@ export const georgia: Country = {
         },
         {
           en: 'Simmer, stirring constantly, until thickened (15-20 minutes).',
-          sv: 'Sjud under konstant omrörning tills det tjocknat (15-20 minuter).',
+          sv: 'Låt sjuda under konstant omrörning tills det tjocknat (15–20 minuter).',
           es: 'Cocine a fuego lento, revolviendo constantemente, hasta que espese (15-20 minutos).',
           fr: 'Laisser mijoter en remuant constamment jusqu\'à épaississement (15-20 minutes).',
           de: 'Unter ständigem Rühren köcheln lassen, bis die Masse eingedickt ist (15–20 Minuten).',
@@ -850,7 +950,7 @@ export const georgia: Country = {
         },
         {
           en: 'Cool mixture to warm temperature.',
-          sv: 'Kyl blandningen till varm temperatur.',
+          sv: 'Låt smeten svalna tills den är ljummen.',
           es: 'Enfríe la mezcla a temperatura cálida.',
           fr: 'Refroidir le mélange à température chaude.',
           de: 'Die Mischung auf warme Temperatur abkühlen lassen.',
@@ -861,7 +961,7 @@ export const georgia: Country = {
         },
         {
           en: 'Dip walnut strings into mixture, coating evenly.',
-          sv: 'Doppa valnötssträngar i blandningen, täck jämnt.',
+          sv: 'Doppa valnötssnörena i smeten så att de täcks jämnt.',
           es: 'Sumerja las tiras de nueces en la mezcla, cubriendo uniformemente.',
           fr: 'Trempez les cordes de noix dans le mélange, en les enrobant uniformément.',
           de: 'Walnussfäden in die Mischung eintauchen und gleichmäßig damit bestreichen.',
@@ -872,7 +972,7 @@ export const georgia: Country = {
         },
         {
           en: 'Hang to dry for 1 hour.',
-          sv: 'Låt torka i 1 timme.',
+          sv: 'Häng upp dem och låt torka i 1 timme.',
           es: 'Colgar para secar durante 1 hora.',
           fr: 'Suspendre pour sécher pendant 1 heure.',
           de: '1 Stunde zum Trocknen aufhängen.',
@@ -883,7 +983,7 @@ export const georgia: Country = {
         },
         {
           en: 'Repeat dipping 2-3 more times for thick coating.',
-          sv: 'Upprepa doppningen 2-3 gånger till för tjock beläggning.',
+          sv: 'Upprepa doppningen 2–3 gånger till för ett tjockt lager.',
           es: 'Repita la inmersión 2 o 3 veces más para obtener una capa espesa.',
           fr: 'Répétez le trempage 2 à 3 fois de plus pour obtenir une couche épaisse.',
           de: 'Wiederholen Sie das Eintauchen noch 2–3 Mal, um eine dickere Schicht zu erhalten.',
@@ -894,7 +994,7 @@ export const georgia: Country = {
         },
         {
           en: 'Hang in cool, dry place for 2-3 days to fully dry.',
-          sv: 'Häng på en sval, torr plats i 2-3 dagar för att torka helt.',
+          sv: 'Häng dem på en sval, torr plats i 2–3 dagar så att de torkar helt.',
           es: 'Cuélguelo en un lugar fresco y seco durante 2 o 3 días para que se seque por completo.',
           fr: 'Suspendre dans un endroit frais et sec pendant 2 à 3 jours pour sécher complètement.',
           de: 'Zum vollständigen Trocknen 2–3 Tage an einem kühlen, trockenen Ort aufhängen.',
@@ -905,7 +1005,7 @@ export const georgia: Country = {
         },
         {
           en: 'Store in airtight container up to 3 months.',
-          sv: 'Förvaras i lufttät behållare upp till 3 månader.',
+          sv: 'Förvara i lufttät burk i upp till 3 månader.',
           es: 'Almacenar en un recipiente hermético hasta por 3 meses.',
           fr: 'Conserver dans un contenant hermétique jusqu\'à 3 mois.',
           de: 'In einem luftdichten Behälter bis zu 3 Monate lagern.',

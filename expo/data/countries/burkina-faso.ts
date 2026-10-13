@@ -263,8 +263,28 @@ export const burkinaFaso: Country = {
     },
     history: [
       {
-        year: '11th-19th Century',
-        title: 'Mossi Kingdoms',
+        year: {
+          en: '11th-19th Century',
+          sv: '1000–1800-talen',
+          es: 'Siglos XI–XIX',
+          fr: 'XIe–XIXe siècles',
+          de: '11.–19. Jahrhundert',
+          it: 'XI–XIX secolo',
+          pl: 'XI–XIX wiek',
+          nl: '11e–19e eeuw',
+          pt: 'Séculos XI–XIX',
+        },
+        title: {
+          en: 'Mossi Kingdoms',
+          sv: 'Mossirikena',
+          es: 'Reinos mossi',
+          fr: 'Royaumes mossi',
+          de: 'Mossi-Reiche',
+          it: 'Regni mossi',
+          pl: 'Królestwa Mossi',
+          nl: 'Mossi-koninkrijken',
+          pt: 'Reinos mossi',
+        },
         description: {
           en: 'Powerful Mossi kingdoms dominated the region, resisting Islamic conversion and maintaining traditional beliefs.',
           sv: 'Mäktiga Mossi kungadömen dominerade regionen, gjorde motstånd mot islamisk omvändelse och upprätthöll traditionell tro.',
@@ -279,7 +299,17 @@ export const burkinaFaso: Country = {
       },
       {
         year: '1896',
-        title: 'French Colonization',
+        title: {
+          en: 'French Colonization',
+          sv: 'Fransk kolonisering',
+          es: 'Colonización francesa',
+          fr: 'Colonisation française',
+          de: 'Französische Kolonisierung',
+          it: 'Colonizzazione francese',
+          pl: 'Kolonizacja francuska',
+          nl: 'Franse kolonisatie',
+          pt: 'Colonização francesa',
+        },
         description: {
           en: 'France established the colony of Upper Volta, exploiting resources and using forced labor.',
           sv: 'Frankrike etablerade kolonin Övre Volta, exploaterade resurser och använde tvångsarbete.',
@@ -294,7 +324,17 @@ export const burkinaFaso: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Upper Volta gained independence from France, beginning an era of political instability.',
           sv: 'Övre Volta blev självständigt från Frankrike, vilket inledde en era av politisk instabilitet.',
@@ -309,7 +349,17 @@ export const burkinaFaso: Country = {
       },
       {
         year: '1983-1987',
-        title: 'Thomas Sankara Era',
+        title: {
+          en: 'Thomas Sankara Era',
+          sv: 'Thomas Sankaras tid',
+          es: 'Época de Thomas Sankara',
+          fr: 'Ère Thomas Sankara',
+          de: 'Ära Thomas Sankara',
+          it: 'Era di Thomas Sankara',
+          pl: 'Rządy Thomasa Sankary',
+          nl: 'Tijdperk van Thomas Sankara',
+          pt: 'Era de Thomas Sankara',
+        },
         description: {
           en: 'Revolutionary leader Thomas Sankara renamed the country Burkina Faso and implemented radical reforms before his assassination.',
           sv: 'Den revolutionära ledaren Thomas Sankara döpte om landet till Burkina Faso och genomförde radikala reformer innan hans mord.',
@@ -324,7 +374,17 @@ export const burkinaFaso: Country = {
       },
       {
         year: '1987-2014',
-        title: 'Blaise Compaoré Rule',
+        title: {
+          en: 'Blaise Compaoré Rule',
+          sv: 'Blaise Compaorés styre',
+          es: 'Gobierno de Blaise Compaoré',
+          fr: 'Régime de Blaise Compaoré',
+          de: 'Herrschaft von Blaise Compaoré',
+          it: 'Regime di Blaise Compaoré',
+          pl: 'Rządy Blaise\'a Compaoré',
+          nl: 'Bewind van Blaise Compaoré',
+          pt: 'Governo de Blaise Compaoré',
+        },
         description: {
           en: 'Compaoré ruled for 27 years until popular uprising forced him from power.',
           sv: 'Compaoré regerade i 27 år tills folkupproret tvingade honom från makten.',
@@ -376,7 +436,17 @@ export const burkinaFaso: Country = {
           nl: 'Traditioneel maskers maken',
           pt: 'Fabricação tradicional de máscaras',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Burkinabé artisans perfected intricate mask-making traditions that influenced art worldwide, particularly among Bobo and Bwa peoples.',
           sv: 'Burkinabé hantverkare fulländade invecklade masktillverkningstraditioner som påverkade konsten över hela världen, särskilt bland Bobo- och Bwa-folken.',
@@ -401,7 +471,17 @@ export const burkinaFaso: Country = {
           nl: 'Sankara\'s hervormingen',
           pt: 'As reformas de Sankara',
         },
-        year: '1980s',
+        year: {
+          en: '1980s',
+          sv: '1980-talet',
+          es: 'Década de 1980',
+          fr: 'Années 1980',
+          de: '1980er',
+          it: 'Anni \'80',
+          pl: 'Lata 80.',
+          nl: 'Jaren 80',
+          pt: 'Década de 1980',
+        },
         description: {
           en: 'Thomas Sankara implemented innovative programs: mass vaccination, tree planting, women\'s rights, and self-sufficiency initiatives.',
           sv: 'Thomas Sankara implementerade innovativa program: massvaccination, trädplantering, kvinnors rättigheter och självförsörjningsinitiativ.',
@@ -426,7 +506,17 @@ export const burkinaFaso: Country = {
           nl: 'Katoenproductietechnieken',
           pt: 'Técnicas de produção de algodão',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Developed efficient organic and conventional cotton farming methods adapted to Sahel conditions.',
           sv: 'Utvecklade effektiva ekologiska och konventionella bomullsodlingsmetoder anpassade till Sahel-förhållanden.',
@@ -516,7 +606,7 @@ export const burkinaFaso: Country = {
       {
         name: {
           en: 'Sindou Peaks',
-          sv: 'Sindou Peaks',
+          sv: 'Sindoutopparna',
           es: 'Picos Sindou',
           fr: 'Pics Sindou',
           de: 'Sindou-Gipfel',
@@ -540,7 +630,7 @@ export const burkinaFaso: Country = {
       {
         name: {
           en: 'Nazinga Game Ranch',
-          sv: 'Nazinga Game Ranch',
+          sv: 'Nazinga viltreservat',
           es: 'Rancho de Caza Nazinga',
           fr: 'Ranch de gibier de Nazinga',
           de: 'Nazinga Game Ranch',
@@ -564,7 +654,17 @@ export const burkinaFaso: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa; e-visa available for some nationalities. Visa on arrival possible.',
           sv: 'De flesta besökare behöver visum; e-visum tillgängligt för vissa nationaliteter. Visum vid ankomst möjligt.',
@@ -578,7 +678,17 @@ export const burkinaFaso: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to February for cooler, dry weather. Avoid June-October rainy season.',
           sv: 'November till februari för svalare, torrt väder. Undvik regnperioden juni-oktober.',
@@ -592,7 +702,17 @@ export const burkinaFaso: Country = {
         },
       },
       {
-        item: 'Health precautions',
+        item: {
+          en: 'Health precautions',
+          sv: 'Hälsoråd',
+          es: 'Precauciones sanitarias',
+          fr: 'Précautions sanitaires',
+          de: 'Gesundheitsvorsorge',
+          it: 'Precauzioni sanitarie',
+          pl: 'Profilaktyka zdrowotna',
+          nl: 'Gezondheidsmaatregelen',
+          pt: 'Cuidados com a saúde',
+        },
         description: {
           en: 'Yellow fever vaccination required. Malaria prophylaxis essential.',
           sv: 'Vaccination mot gula febern krävs. Malariaprofylax viktigt.',
@@ -606,7 +726,17 @@ export const burkinaFaso: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'French is official. Learn basic French phrases; local languages include Mooré and Dioula.',
           sv: 'Franska är officiellt. Lär dig grundläggande franska fraser; lokala språk inkluderar Moore och Dioula.',
@@ -644,7 +774,17 @@ export const burkinaFaso: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current security situation. Some border areas have travel warnings.',
           sv: 'Kontrollera aktuell säkerhetssituation. Vissa gränsområden har resevarningar.',
@@ -673,7 +813,7 @@ export const burkinaFaso: Country = {
       },
       description: {
         en: 'Rich rice cooked with meat and vegetables',
-        sv: 'Riktigt ris tillagat med kött och grönsaker',
+        sv: 'Mäktig risrätt tillagad med kött och grönsaker',
         es: 'Rico arroz cocinado con carne y verduras',
         fr: 'Riz riche cuit avec de la viande et des légumes',
         de: 'Reichhaltiger Reis, gekocht mit Fleisch und Gemüse',
@@ -742,7 +882,7 @@ export const burkinaFaso: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -767,7 +907,7 @@ export const burkinaFaso: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -821,7 +961,7 @@ export const burkinaFaso: Country = {
       steps: [
         {
           en: 'Brown meat with onions',
-          sv: 'Bryn kött med lök',
+          sv: 'Bryn köttet tillsammans med löken',
           es: 'Dorar la carne con cebolla',
           fr: 'Faire dorer la viande aux oignons',
           de: 'Braunes Fleisch mit Zwiebeln',
@@ -865,7 +1005,7 @@ export const burkinaFaso: Country = {
         },
         {
           en: 'Cook until rice absorbs all liquid',
-          sv: 'Koka tills ris absorberar all vätska',
+          sv: 'Koka tills riset har sugit upp all vätska',
           es: 'Cocine hasta que el arroz absorba todo el líquido',
           fr: 'Cuire jusqu\'à ce que le riz absorbe tout le liquide',
           de: 'Kochen, bis der Reis die gesamte Flüssigkeit aufnimmt',
@@ -903,7 +1043,7 @@ export const burkinaFaso: Country = {
       },
       description: {
         en: 'West African sweet fried dough balls, light and fluffy',
-        sv: 'Västafrikanska sötstekta degbollar, lätta och fluffiga',
+        sv: 'Västafrikanska söta friterade degbollar, lätta och luftiga',
         es: 'Bolitas de masa frita dulce de África Occidental, ligeras y esponjosas',
         fr: 'Boulettes de pâte frite sucrée d\'Afrique de l\'Ouest, légères et moelleuses',
         de: 'Westafrikanische süße frittierte Teigbällchen, leicht und locker',
@@ -930,7 +1070,7 @@ export const burkinaFaso: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -960,7 +1100,7 @@ export const burkinaFaso: Country = {
         {
           name: {
             en: 'Active dry yeast',
-            sv: 'Aktiv torrjäst',
+            sv: 'Torrjäst',
             es: 'Levadura seca activa',
             fr: 'Levure sèche active',
             de: 'Aktive Trockenhefe',
@@ -1002,7 +1142,7 @@ export const burkinaFaso: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1045,7 +1185,7 @@ export const burkinaFaso: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -1060,7 +1200,7 @@ export const burkinaFaso: Country = {
         {
           name: {
             en: 'Powdered sugar for dusting',
-            sv: 'Pulversocker för att pudra',
+            sv: 'Florsocker att pudra med',
             es: 'Azúcar en polvo para espolvorear',
             fr: 'Sucre en poudre pour saupoudrer',
             de: 'Puderzucker zum Bestäuben',
@@ -1076,7 +1216,7 @@ export const burkinaFaso: Country = {
       steps: [
         {
           en: 'Mix yeast with warm milk and 1 tbsp sugar, let foam 10 minutes.',
-          sv: 'Blanda jäst med varm mjölk och 1 msk socker, låt skumma 10 minuter.',
+          sv: 'Rör ut jästen i den varma mjölken med 1 msk socker. Låt stå i 10 minuter tills det skummar.',
           es: 'Mezclar la levadura con la leche tibia y 1 cucharada de azúcar, dejar espumar 10 minutos.',
           fr: 'Mélangez la levure avec le lait tiède et 1 cuillère à soupe de sucre, laissez mousser 10 minutes.',
           de: 'Hefe mit warmer Milch und 1 EL Zucker verrühren, 10 Minuten aufschäumen lassen.',
@@ -1087,7 +1227,7 @@ export const burkinaFaso: Country = {
         },
         {
           en: 'Combine flour, remaining sugar, and nutmeg.',
-          sv: 'Blanda mjöl, resterande socker och muskotnöt.',
+          sv: 'Blanda vetemjöl, resten av sockret och muskotnöt.',
           es: 'Combine la harina, el azúcar restante y la nuez moscada.',
           fr: 'Mélanger la farine, le reste du sucre et la muscade.',
           de: 'Mehl, restlichen Zucker und Muskatnuss vermischen.',
@@ -1098,7 +1238,7 @@ export const burkinaFaso: Country = {
         },
         {
           en: 'Add yeast mixture, egg, and melted butter.',
-          sv: 'Tillsätt jästblandning, ägg och smält smör.',
+          sv: 'Tillsätt jästblandningen, ägget och det smälta smöret.',
           es: 'Agregue la mezcla de levadura, el huevo y la mantequilla derretida.',
           fr: 'Ajouter le mélange de levure, l\'œuf et le beurre fondu.',
           de: 'Hefemischung, Ei und geschmolzene Butter hinzufügen.',
@@ -1120,7 +1260,7 @@ export const burkinaFaso: Country = {
         },
         {
           en: 'Cover and let rise 1 hour until doubled.',
-          sv: 'Täck och låt jäsa 1 timme tills det fördubblats.',
+          sv: 'Täck över och låt degen jäsa till dubbel storlek, ca 1 timme.',
           es: 'Cubra y deje reposar 1 hora hasta que doble.',
           fr: 'Couvrir et laisser lever 1 heure jusqu\'à ce qu\'il double.',
           de: 'Abdecken und 1 Stunde gehen lassen, bis sich das Volumen verdoppelt hat.',
@@ -1131,7 +1271,7 @@ export const burkinaFaso: Country = {
         },
         {
           en: 'Heat oil to 180°C.',
-          sv: 'Värm olja till 180°C.',
+          sv: 'Hetta upp oljan till 180°C.',
           es: 'Calentar el aceite a 180°C.',
           fr: 'Chauffer l\'huile à 180°C.',
           de: 'Öl auf 180°C erhitzen.',
@@ -1142,7 +1282,7 @@ export const burkinaFaso: Country = {
         },
         {
           en: 'Drop spoonfuls of dough into hot oil.',
-          sv: 'Lägg skedar av deg i het olja.',
+          sv: 'Klicka ner degen med en sked i den heta oljan.',
           es: 'Echar cucharadas de masa en aceite caliente.',
           fr: 'Déposez des cuillerées de pâte dans l\'huile chaude.',
           de: 'Löffelweise Teig in heißes Öl geben.',
@@ -1153,7 +1293,7 @@ export const burkinaFaso: Country = {
         },
         {
           en: 'Fry until golden brown, turning once.',
-          sv: 'Stek tills de är gyllenbruna, vänd en gång.',
+          sv: 'Fritera tills de är gyllenbruna och vänd dem en gång.',
           es: 'Freír hasta que estén doradas, volteando una vez.',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés, en les retournant une fois.',
           de: 'Goldbraun braten, dabei einmal wenden.',
@@ -1175,7 +1315,7 @@ export const burkinaFaso: Country = {
         },
         {
           en: 'Dust with powdered sugar while warm.',
-          sv: 'Pudra med strösocker medan den är varm.',
+          sv: 'Pudra med florsocker medan de är varma.',
           es: 'Espolvoree con azúcar en polvo mientras esté caliente.',
           fr: 'Saupoudrer de sucre en poudre pendant qu\'il est chaud.',
           de: 'Noch warm mit Puderzucker bestäuben.',

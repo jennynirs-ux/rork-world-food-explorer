@@ -264,7 +264,17 @@ export const barbados: Country = {
     history: [
       {
         year: '1627',
-        title: 'British Settlement',
+        title: {
+          en: 'British Settlement',
+          sv: 'Brittisk bosättning',
+          es: 'Asentamiento británico',
+          fr: 'Établissement britannique',
+          de: 'Britische Besiedlung',
+          it: 'Insediamento britannico',
+          pl: 'Osadnictwo brytyjskie',
+          nl: 'Britse nederzetting',
+          pt: 'Assentamento britânico',
+        },
         description: {
           en: 'The English landed and established the first permanent European settlement, making Barbados a British colony.',
           sv: 'Engelsmännen landade och etablerade den första permanenta europeiska bosättningen, vilket gjorde Barbados till en brittisk koloni.',
@@ -278,8 +288,28 @@ export const barbados: Country = {
         },
       },
       {
-        year: '1600s-1800s',
-        title: 'Sugar Plantation Era',
+        year: {
+          en: '1600s-1800s',
+          sv: '1600–1800-talet',
+          es: 'siglos XVII–XIX',
+          fr: 'XVIIe–XIXe siècles',
+          de: '17.–19. Jahrhundert',
+          it: 'XVII–XIX secolo',
+          pl: 'XVII–XIX wiek',
+          nl: '17e–19e eeuw',
+          pt: 'séculos XVII–XIX',
+        },
+        title: {
+          en: 'Sugar Plantation Era',
+          sv: 'Sockerplantagernas tid',
+          es: 'Época de las plantaciones de azúcar',
+          fr: 'Époque des plantations sucrières',
+          de: 'Zeit der Zuckerplantagen',
+          it: 'Epoca delle piantagioni di zucchero',
+          pl: 'Epoka plantacji trzciny cukrowej',
+          nl: 'Tijdperk van de suikerplantages',
+          pt: 'Era das plantações de açúcar',
+        },
         description: {
           en: 'Barbados became one of the world\'s leading sugar producers, powered by enslaved African labor and creating immense wealth.',
           sv: 'Barbados blev en av världens ledande sockerproducenter, drevet av förslavat afrikanskt arbete och skapade enorma rikedomar.',
@@ -294,7 +324,17 @@ export const barbados: Country = {
       },
       {
         year: '1834',
-        title: 'Emancipation',
+        title: {
+          en: 'Emancipation',
+          sv: 'Slaveriets avskaffande',
+          es: 'Abolición de la esclavitud',
+          fr: 'Abolition de l\'esclavage',
+          de: 'Abschaffung der Sklaverei',
+          it: 'Abolizione della schiavitù',
+          pl: 'Zniesienie niewolnictwa',
+          nl: 'Afschaffing van de slavernij',
+          pt: 'Abolição da escravidão',
+        },
         description: {
           en: 'Slavery was abolished throughout the British Empire, fundamentally changing Barbadian society.',
           sv: 'Slaveriet avskaffades i hela det brittiska imperiet, vilket i grunden förändrade det barbadiska samhället.',
@@ -309,7 +349,17 @@ export const barbados: Country = {
       },
       {
         year: '1966',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Barbados gained independence from Britain while remaining part of the Commonwealth.',
           sv: 'Barbados blev självständigt från Storbritannien samtidigt som det förblev en del av Commonwealth.',
@@ -324,7 +374,17 @@ export const barbados: Country = {
       },
       {
         year: '2021',
-        title: 'Republic Status',
+        title: {
+          en: 'Republic Status',
+          sv: 'Övergång till republik',
+          es: 'Conversión en república',
+          fr: 'Passage à la république',
+          de: 'Übergang zur Republik',
+          it: 'Passaggio alla repubblica',
+          pl: 'Przekształcenie w republikę',
+          nl: 'Overgang naar republiek',
+          pt: 'Transição para a república',
+        },
         description: {
           en: 'Barbados removed Queen Elizabeth II as head of state and became a republic.',
           sv: 'Barbados tog bort drottning Elizabeth II som statschef och blev en republik.',
@@ -367,7 +427,7 @@ export const barbados: Country = {
       {
         name: {
           en: 'Crop Over Festival',
-          sv: 'Crop Over Festival',
+          sv: 'Crop Over-festivalen',
           es: 'Festival de la cosecha',
           fr: 'Festival de récolte',
           de: 'Crop Over Festival',
@@ -376,7 +436,17 @@ export const barbados: Country = {
           nl: 'Crop Over Festival',
           pt: 'Festival Crop Over',
         },
-        year: '1780s',
+        year: {
+          en: '1780s',
+          sv: '1780-talet',
+          es: 'década de 1780',
+          fr: 'années 1780',
+          de: '1780er',
+          it: 'anni 1780',
+          pl: 'lata 80. XVIII wieku',
+          nl: 'jaren 1780',
+          pt: 'década de 1780',
+        },
         description: {
           en: 'A harvest festival tradition that evolved into one of the Caribbean\'s most vibrant cultural celebrations, influencing carnival culture across the region.',
           sv: 'En skördefesttradition som utvecklades till en av Karibiens mest livfulla kulturfirande, som påverkade karnevalskulturen i hela regionen.',
@@ -426,7 +496,17 @@ export const barbados: Country = {
           nl: 'Opkomst van zonneboilers',
           pt: 'Adoção do aquecimento solar de água',
         },
-        year: '1970s',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
         description: {
           en: 'Barbados achieved one of the world\'s highest rates of solar water heater installation per capita, pioneering renewable energy in the Caribbean.',
           sv: 'Barbados uppnådde en av världens högsta nivåer av installation av solvärmare per capita, banbrytande förnybar energi i Karibien.',
@@ -468,7 +548,7 @@ export const barbados: Country = {
       {
         name: {
           en: 'Bathsheba Beach',
-          sv: 'Bathsheba Beach',
+          sv: 'Stranden i Bathsheba',
           es: 'Playa de Betsabé',
           fr: 'Plage de Bethsabée',
           de: 'Bathsheba-Strand',
@@ -564,7 +644,17 @@ export const barbados: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to April for dry season and perfect beach weather.',
           sv: 'December till april för torrperiod och perfekt strandväder.',
@@ -578,7 +668,17 @@ export const barbados: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities receive visa-free entry for up to 90 days.',
           sv: 'Många nationaliteter får visumfritt inträde i upp till 90 dagar.',
@@ -616,7 +716,17 @@ export const barbados: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Buses are cheap and frequent. Taxis and rental cars available.',
           sv: 'Bussar är billiga och täta. Taxi och hyrbilar tillgängliga.',
@@ -630,7 +740,17 @@ export const barbados: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Strong tropical sun year-round—bring reef-safe sunscreen.',
           sv: 'Stark tropisk sol året runt – ta med solskyddskräm som är säker på revet.',
@@ -644,7 +764,17 @@ export const barbados: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Beachwear for beaches only; dress modestly when in town or at restaurants.',
           sv: 'Strandkläder endast för stränder; klä dig anständigt när du är på stan eller på restauranger.',
@@ -662,7 +792,7 @@ export const barbados: Country = {
       id: 'barbados-main',
       name: {
         en: 'Flying Fish and Cou-Cou',
-        sv: 'Flying Fish och Cou-Cou',
+        sv: 'Flygfisk och cou-cou',
         es: 'Pez Volador y Cou-Cou',
         fr: 'Poissons volants et Cou-Cou',
         de: 'Fliegender Fisch und Cou-Cou',
@@ -673,7 +803,7 @@ export const barbados: Country = {
       },
       description: {
         en: 'National dish with seasoned flying fish and cornmeal-okra pudding',
-        sv: 'Nationalrätt med kryddad flygfisk och majsmjöl-okrapudding',
+        sv: 'Nationalrätt med kryddad flygfisk och cou-cou, en gröt på majsmjöl och okra',
         es: 'Plato nacional con pez volador sazonado y pudín de harina de maíz y okra',
         fr: 'Plat national avec poisson volant assaisonné et pudding à la semoule de maïs et au gombo',
         de: 'Nationalgericht mit gewürztem fliegendem Fisch und Maismehl-Okra-Pudding',
@@ -767,7 +897,7 @@ export const barbados: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -792,7 +922,7 @@ export const barbados: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -817,7 +947,7 @@ export const barbados: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -842,7 +972,7 @@ export const barbados: Country = {
         },
         {
           en: 'Steam or fry fish until cooked',
-          sv: 'Ånga eller stek fisken tills den är kokt',
+          sv: 'Ångkoka eller stek fisken tills den är klar',
           es: 'Cocer al vapor o freír el pescado hasta que esté cocido',
           fr: 'Cuire à la vapeur ou frire le poisson jusqu\'à ce qu\'il soit cuit',
           de: 'Fisch dämpfen oder braten, bis er gar ist',
@@ -853,7 +983,7 @@ export const barbados: Country = {
         },
         {
           en: 'Boil okra until soft',
-          sv: 'Koka okra tills den är mjuk',
+          sv: 'Koka okran tills den är mjuk',
           es: 'Hervir la okra hasta que esté blanda',
           fr: 'Faire bouillir le gombo jusqu\'à ce qu\'il soit tendre',
           de: 'Okraschoten kochen, bis sie weich sind',
@@ -864,7 +994,7 @@ export const barbados: Country = {
         },
         {
           en: 'Gradually add cornmeal to okra water, stirring constantly',
-          sv: 'Tillsätt majsmjöl gradvis till okravattnet, under konstant omrörning',
+          sv: 'Tillsätt majsmjölet gradvis i okrans kokvatten under ständig omrörning',
           es: 'Agregue gradualmente la harina de maíz al agua de okra, revolviendo constantemente',
           fr: 'Ajoutez progressivement la semoule de maïs à l\'eau de gombo en remuant constamment',
           de: 'Nach und nach Maismehl zum Okrawasser geben und dabei ständig umrühren',
@@ -875,7 +1005,7 @@ export const barbados: Country = {
         },
         {
           en: 'Cook until smooth pudding forms',
-          sv: 'Koka tills en slät pudding bildas',
+          sv: 'Låt koka tills det blir en slät och fast gröt',
           es: 'Cocine hasta que se forme un pudín suave',
           fr: 'Cuire jusqu\'à ce qu\'un pudding lisse se forme',
           de: 'Kochen, bis ein glatter Pudding entsteht',
@@ -886,7 +1016,7 @@ export const barbados: Country = {
         },
         {
           en: 'Serve fish over cou-cou with tomato sauce',
-          sv: 'Servera fisk över cou-cou med tomatsås',
+          sv: 'Servera fisken på en bädd av cou-cou med tomatsås',
           es: 'Sirve el pescado sobre cou-cou con salsa de tomate',
           fr: 'Servir le poisson sur un coucou avec une sauce tomate',
           de: 'Fisch über Cou-Cou mit Tomatensauce servieren',
@@ -913,7 +1043,7 @@ export const barbados: Country = {
       },
       description: {
         en: 'Sweet Bajan coconut bread with hints of spice, perfect with tea',
-        sv: 'Söt Bajan kokosbröd med inslag av kryddor, perfekt med te',
+        sv: 'Sött och lätt kryddat kokosbröd från Barbados, perfekt till te',
         es: 'Pan de coco dulce de Bajan con toques especiados, perfecto con té',
         fr: 'Pain sucré à la noix de coco Bajan avec des notes épicées, parfait avec le thé',
         de: 'Süßes Bajan-Kokosbrot mit einem Hauch von Gewürzen, perfekt zu Tee',
@@ -940,7 +1070,7 @@ export const barbados: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -955,7 +1085,7 @@ export const barbados: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -1012,7 +1142,7 @@ export const barbados: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1112,7 +1242,7 @@ export const barbados: Country = {
         },
         {
           en: 'Mix flour, baking powder, nutmeg, and cinnamon.',
-          sv: 'Blanda mjöl, bakpulver, muskotnöt och kanel.',
+          sv: 'Blanda vetemjöl, bakpulver, muskotnöt och kanel.',
           es: 'Mezclar la harina, el polvo para hornear, la nuez moscada y la canela.',
           fr: 'Mélanger la farine, la levure chimique, la muscade et la cannelle.',
           de: 'Mehl, Backpulver, Muskatnuss und Zimt mischen.',
@@ -1123,7 +1253,7 @@ export const barbados: Country = {
         },
         {
           en: 'In another bowl, beat eggs with brown sugar.',
-          sv: 'I en annan skål, vispa ägg med farinsocker.',
+          sv: 'Vispa ägg och farinsocker i en annan skål.',
           es: 'En otro bol batir los huevos con el azúcar moreno.',
           fr: 'Dans un autre bol, battre les œufs avec la cassonade.',
           de: 'In einer anderen Schüssel Eier mit braunem Zucker verquirlen.',
@@ -1156,7 +1286,7 @@ export const barbados: Country = {
         },
         {
           en: 'Combine wet and dry ingredients, mix until just combined.',
-          sv: 'Kombinera våta och torra ingredienser, blanda tills det precis blandas.',
+          sv: 'Blanda de våta och torra ingredienserna och rör bara tills allt precis har gått ihop.',
           es: 'Combine los ingredientes húmedos y secos, mezcle hasta que estén combinados.',
           fr: 'Mélanger les ingrédients humides et secs, mélanger jusqu\'à ce qu\'ils soient tout juste combinés.',
           de: 'Kombinieren Sie die nassen und trockenen Zutaten und verrühren Sie alles, bis alles gut vermischt ist.',
@@ -1167,7 +1297,7 @@ export const barbados: Country = {
         },
         {
           en: 'Pour into prepared loaf pan.',
-          sv: 'Häll i förberedd brödform.',
+          sv: 'Häll smeten i den smorda formen.',
           es: 'Vierta en el molde para pan preparado.',
           fr: 'Verser dans le moule à pain préparé.',
           de: 'In die vorbereitete Kastenform gießen.',
@@ -1178,7 +1308,7 @@ export const barbados: Country = {
         },
         {
           en: 'Bake for 55-65 minutes until golden and a skewer comes out clean.',
-          sv: 'Grädda i 55-65 minuter tills de är gyllene och ett spett kommer ut rent.',
+          sv: 'Grädda i 55–65 minuter tills brödet är gyllene och en provsticka kommer ut torr.',
           es: 'Hornear durante 55-65 minutos hasta que esté dorado y al pinchar con una brocheta salga limpio.',
           fr: 'Cuire au four pendant 55 à 65 minutes jusqu\'à ce qu\'ils soient dorés et qu\'un cure-dent en ressorte propre.',
           de: '55–65 Minuten backen, bis es goldbraun ist und ein Spieß sauber herauskommt.',
@@ -1189,7 +1319,7 @@ export const barbados: Country = {
         },
         {
           en: 'Cool in pan for 10 minutes, then turn out onto wire rack.',
-          sv: 'Kyl i pannan i 10 minuter, vänd sedan upp på galler.',
+          sv: 'Låt svalna i formen i 10 minuter och stjälp sedan upp brödet på ett galler.',
           es: 'Deje enfriar en el molde durante 10 minutos y luego colóquelo sobre una rejilla.',
           fr: 'Laisser refroidir dans le moule pendant 10 minutes, puis démouler sur une grille.',
           de: '10 Minuten in der Form abkühlen lassen, dann auf ein Kuchengitter stürzen.',
@@ -1200,7 +1330,7 @@ export const barbados: Country = {
         },
         {
           en: 'Slice and serve warm or at room temperature.',
-          sv: 'Skiva och servera varm eller rumstemperatur.',
+          sv: 'Skiva och servera ljummet eller rumsvarmt.',
           es: 'Cortar y servir tibio o a temperatura ambiente.',
           fr: 'Trancher et servir chaud ou à température ambiante.',
           de: 'In Scheiben schneiden und warm oder bei Zimmertemperatur servieren.',
@@ -1761,7 +1891,7 @@ export const barbados: Country = {
           },
           {
             en: 'Bridgetown BBQ',
-            sv: 'Bridgetown BBQ',
+            sv: 'Grillfest i Bridgetown',
             es: 'Barbacoa en Bridgetown',
             fr: 'Barbecue de Bridgetown',
             de: 'Bridgetown BBQ',

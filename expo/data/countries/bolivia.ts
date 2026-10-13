@@ -263,8 +263,28 @@ export const bolivia: Country = {
     },
     history: [
       {
-        year: '1200 BC - 1000 AD',
-        title: 'Tiwanaku Empire',
+        year: {
+          en: '1200 BC - 1000 AD',
+          sv: '1200 f.Kr. – 1000 e.Kr.',
+          es: '1200 a. C. – 1000 d. C.',
+          fr: '1200 av. J.-C. – 1000 apr. J.-C.',
+          de: '1200 v. Chr. – 1000 n. Chr.',
+          it: '1200 a.C. – 1000 d.C.',
+          pl: '1200 p.n.e. – 1000 n.e.',
+          nl: '1200 v.Chr. – 1000 n.Chr.',
+          pt: '1200 a.C. – 1000 d.C.',
+        },
+        title: {
+          en: 'Tiwanaku Empire',
+          sv: 'Tiwanakuriket',
+          es: 'Imperio de Tiwanaku',
+          fr: 'Empire de Tiwanaku',
+          de: 'Tiwanaku-Reich',
+          it: 'Impero di Tiwanaku',
+          pl: 'Imperium Tiwanaku',
+          nl: 'Rijk van Tiwanaku',
+          pt: 'Império de Tiwanaku',
+        },
         description: {
           en: 'The powerful Tiwanaku civilization flourished near Lake Titicaca, leaving behind impressive architectural ruins.',
           sv: 'Den mäktiga Tiwanaku-civilisationen blomstrade nära Titicacasjön och lämnade efter sig imponerande arkitektoniska ruiner.',
@@ -279,7 +299,17 @@ export const bolivia: Country = {
       },
       {
         year: '1438-1533',
-        title: 'Inca Empire',
+        title: {
+          en: 'Inca Empire',
+          sv: 'Inkariket',
+          es: 'Imperio inca',
+          fr: 'Empire inca',
+          de: 'Inkareich',
+          it: 'Impero inca',
+          pl: 'Imperium Inków',
+          nl: 'Incarijk',
+          pt: 'Império Inca',
+        },
         description: {
           en: 'The region became part of the vast Inca Empire, which brought Quechua language and culture.',
           sv: 'Regionen blev en del av det vidsträckta Inkariket, som förde quechuas språk och kultur.',
@@ -294,7 +324,17 @@ export const bolivia: Country = {
       },
       {
         year: '1545',
-        title: 'Spanish Colonial Period',
+        title: {
+          en: 'Spanish Colonial Period',
+          sv: 'Spanska kolonialtiden',
+          es: 'Período colonial español',
+          fr: 'Période coloniale espagnole',
+          de: 'Spanische Kolonialzeit',
+          it: 'Periodo coloniale spagnolo',
+          pl: 'Hiszpański okres kolonialny',
+          nl: 'Spaanse koloniale periode',
+          pt: 'Período colonial espanhol',
+        },
         description: {
           en: 'Rich silver deposits at Potosí made Bolivia one of the wealthiest regions in the Spanish Empire.',
           sv: 'Rika silverfyndigheter vid Potosí gjorde Bolivia till en av de rikaste regionerna i det spanska imperiet.',
@@ -309,7 +349,17 @@ export const bolivia: Country = {
       },
       {
         year: '1825',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Bolivia gained independence from Spain and was named after liberator Simón Bolívar.',
           sv: 'Bolivia blev självständigt från Spanien och fick sitt namn efter befriaren Simón Bolívar.',
@@ -324,7 +374,17 @@ export const bolivia: Country = {
       },
       {
         year: '1879-1884',
-        title: 'War of the Pacific',
+        title: {
+          en: 'War of the Pacific',
+          sv: 'Salpeterkriget',
+          es: 'Guerra del Pacífico',
+          fr: 'Guerre du Pacifique',
+          de: 'Salpeterkrieg',
+          it: 'Guerra del Pacifico',
+          pl: 'Wojna o Pacyfik',
+          nl: 'Salpeteroorlog',
+          pt: 'Guerra do Pacífico',
+        },
         description: {
           en: 'Bolivia lost its coastal territory to Chile, becoming landlocked.',
           sv: 'Bolivia förlorade sitt kustterritorium till Chile och blev landlocked.',
@@ -339,7 +399,17 @@ export const bolivia: Country = {
       },
       {
         year: '2009',
-        title: 'Plurinational State',
+        title: {
+          en: 'Plurinational State',
+          sv: 'Plurinationell stat',
+          es: 'Estado Plurinacional',
+          fr: 'État plurinational',
+          de: 'Plurinationaler Staat',
+          it: 'Stato plurinazionale',
+          pl: 'Państwo wielonarodowe',
+          nl: 'Plurinationale staat',
+          pt: 'Estado Plurinacional',
+        },
         description: {
           en: 'A new constitution was adopted, recognizing Bolivia as a plurinational state with 37 official languages.',
           sv: 'En ny konstitution antogs som erkänner Bolivia som en plurinationell stat med 37 officiella språk.',
@@ -366,7 +436,17 @@ export const bolivia: Country = {
           nl: 'Oude landbouwterrassen',
           pt: 'Antigos terraços agrícolas',
         },
-        year: 'Pre-Columbian',
+        year: {
+          en: 'Pre-Columbian',
+          sv: 'Förcolumbiansk tid',
+          es: 'Época precolombina',
+          fr: 'Époque précolombienne',
+          de: 'Präkolumbische Zeit',
+          it: 'Epoca precolombiana',
+          pl: 'Okres prekolumbijski',
+          nl: 'Precolumbiaanse tijd',
+          pt: 'Período pré-colombiano',
+        },
         description: {
           en: 'Tiwanaku and Inca civilizations developed sophisticated terrace farming systems in the Andes, allowing agriculture at extreme altitudes.',
           sv: 'Tiwanaku- och Inca-civilisationerna utvecklade sofistikerade terrassodlingssystem i Anderna, vilket möjliggjorde jordbruk på extrema höjder.',
@@ -391,7 +471,17 @@ export const bolivia: Country = {
           nl: 'Domesticatie van quinoa',
           pt: 'Domesticação da quinoa',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Indigenous Andean peoples domesticated quinoa thousands of years ago, creating a protein-rich superfood now popular worldwide.',
           sv: 'Ursprungsbefolkningar i Andinska folket tämjde quinoa för tusentals år sedan och skapade en proteinrik superfood som nu är populär över hela världen.',
@@ -507,7 +597,7 @@ export const bolivia: Country = {
       {
         name: {
           en: 'Death Road (Yungas Road)',
-          sv: 'Death Road (Yungas Road)',
+          sv: 'Dödsvägen (Yungasvägen)',
           es: 'Camino de la Muerte (Camino de los Yungas)',
           fr: 'Route de la mort (route des Yungas)',
           de: 'Todesstraße (Yungas-Straße)',
@@ -555,7 +645,7 @@ export const bolivia: Country = {
       {
         name: {
           en: 'Madidi National Park',
-          sv: 'Madidi National Park',
+          sv: 'Madidi nationalpark',
           es: 'Parque Nacional Madidi',
           fr: 'Parc National Madidi',
           de: 'Madidi-Nationalpark',
@@ -579,7 +669,17 @@ export const bolivia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa requirements vary by nationality. Many countries require visa on arrival.',
           sv: 'Visumkraven varierar beroende på nationalitet. Många länder kräver visum vid ankomst.',
@@ -593,7 +693,17 @@ export const bolivia: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to October for dry season (winter)',
           sv: 'Maj till oktober för torrperioden (vinter)',
@@ -607,7 +717,17 @@ export const bolivia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Buses are the main form of transport. Domestic flights for long distances. Cable cars in La Paz.',
           sv: 'Bussar är den huvudsakliga transportformen. Inrikesflyg för långa sträckor. Linbanor i La Paz.',
@@ -621,7 +741,17 @@ export const bolivia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Spanish is widely spoken. Indigenous languages in rural areas.',
           sv: 'Spanska talas mycket. Ursprungsspråk på landsbygden.',
@@ -635,7 +765,17 @@ export const bolivia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe but altitude sickness is a concern. Exercise caution in cities.',
           sv: 'Generellt säkert men höjdsjuka är ett problem. Var försiktig i städer.',
@@ -664,7 +804,7 @@ export const bolivia: Country = {
       },
       description: {
         en: 'Bolivia\'s beloved savory pastry - a juicy, slightly sweet baked empanada filled with meat, potatoes, peas, and a flavorful sauce. The secret is the soupy filling that should be eaten carefully to avoid spills. Traditionally eaten mid-morning.',
-        sv: 'Bolivias älskade salta bakverk - en saftig, lite söt bakad empanada fylld med kött, potatis, ärtor och en smakrik sås. Hemligheten är den soppiga fyllningen som bör ätas försiktigt för att undvika spill. Traditionellt ätit mitt på morgonen.',
+        sv: 'Bolivias älskade piroger – saftiga, lätt söta ugnsbakade empanadas fyllda med kött, potatis, ärter och en smakrik sås. Hemligheten är den nästan soppiga fyllningen, så ät försiktigt för att inte spilla. Äts traditionellt mitt på förmiddagen.',
         es: 'El querido pastel salado de Bolivia: una empanada horneada jugosa y ligeramente dulce, rellena de carne, papas, guisantes y una salsa sabrosa. El secreto es el relleno caldoso que se debe comer con cuidado para evitar derrames. Se come tradicionalmente a media mañana.',
         fr: 'La pâtisserie salée bien-aimée de la Bolivie - une empanada cuite au four juteuse et légèrement sucrée, remplie de viande, de pommes de terre, de pois et d\'une sauce savoureuse. Le secret réside dans la garniture en soupe qui doit être consommée avec précaution pour éviter les déversements. Traditionnellement consommé en milieu de matinée.',
         de: 'Boliviens beliebtes herzhaftes Gebäck – eine saftige, leicht süßliche gebackene Empanada, gefüllt mit Fleisch, Kartoffeln, Erbsen und einer würzigen Sauce. Das Geheimnis ist die suppige Füllung, die vorsichtig gegessen werden sollte, um ein Verschütten zu vermeiden. Wird traditionell am Vormittag gegessen.',
@@ -691,7 +831,7 @@ export const bolivia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -826,7 +966,7 @@ export const bolivia: Country = {
         {
           name: {
             en: 'Cumin, paprika',
-            sv: 'Kummin, paprika',
+            sv: 'Spiskummin, paprikapulver',
             es: 'Comino, pimentón',
             fr: 'Cumin, paprika',
             de: 'Kreuzkümmel, Paprika',
@@ -867,7 +1007,7 @@ export const bolivia: Country = {
       steps: [
         {
           en: 'Prepare dough with flour, butter, sugar, and water; let rest',
-          sv: 'Förbered degen med mjöl, smör, socker och vatten; låt vila',
+          sv: 'Gör en deg av vetemjöl, smör, socker och vatten och låt den vila',
           es: 'Preparar la masa con harina, mantequilla, azúcar y agua; dejar reposar',
           fr: 'Préparez la pâte avec la farine, le beurre, le sucre et l\'eau ; laisse reposer',
           de: 'Bereiten Sie den Teig aus Mehl, Butter, Zucker und Wasser vor. ruhen lassen',
@@ -878,7 +1018,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Cook meat with onions, spices, and gelatin dissolved in broth',
-          sv: 'Koka kött med lök, kryddor och gelatin löst i buljong',
+          sv: 'Koka köttet med lök, kryddor och gelatin upplöst i buljong',
           es: 'Cocine la carne con cebolla, especias y gelatina disuelta en caldo',
           fr: 'Cuire la viande avec les oignons, les épices et la gélatine dissoute dans le bouillon',
           de: 'Fleisch mit Zwiebeln, Gewürzen und in Brühe aufgelöster Gelatine kochen',
@@ -889,7 +1029,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Add diced potatoes and peas; let cool completely (filling should gel)',
-          sv: 'Lägg till tärnad potatis och ärtor; låt svalna helt (fyllningen ska gela)',
+          sv: 'Tillsätt tärnad potatis och ärter och låt svalna helt (fyllningen ska stelna)',
           es: 'Agrega las papas y los guisantes cortados en cubitos; dejar enfriar completamente (el relleno debe gelificar)',
           fr: 'Ajouter les pommes de terre et les petits pois coupés en dés; laisser refroidir complètement (la garniture doit gélifier)',
           de: 'Gewürfelte Kartoffeln und Erbsen hinzufügen; vollständig abkühlen lassen (Füllung sollte gelieren)',
@@ -900,7 +1040,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Roll out dough and cut into circles',
-          sv: 'Kavla ut degen och skär i cirklar',
+          sv: 'Kavla ut degen och stansa ut rundlar',
           es: 'Estirar la masa y cortar en círculos',
           fr: 'Étalez la pâte et coupez-la en cercles',
           de: 'Teig ausrollen und in Kreise schneiden',
@@ -911,7 +1051,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Place filling and chopped egg in center of each circle',
-          sv: 'Placera fyllningen och det hackade ägget i mitten av varje cirkel',
+          sv: 'Lägg fyllning och hackat ägg mitt på varje rundel',
           es: 'Coloca el relleno y el huevo picado en el centro de cada círculo',
           fr: 'Placer la garniture et l\'œuf haché au centre de chaque cercle',
           de: 'Die Füllung und das gehackte Ei in die Mitte jedes Kreises legen',
@@ -922,7 +1062,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Fold and seal edges with decorative crimps',
-          sv: 'Vik och försegla kanter med dekorativa krusningar',
+          sv: 'Vik över degen och nyp ihop kanterna till en dekorativ fläta',
           es: 'Doblar y sellar los bordes con engarces decorativos',
           fr: 'Pliez et scellez les bords avec des sertissages décoratifs',
           de: 'Kanten falten und mit Zierkanten versiegeln',
@@ -933,7 +1073,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Brush with egg wash and sprinkle with sugar',
-          sv: 'Pensla med äggtvätt och strö över socker',
+          sv: 'Pensla med uppvispat ägg och strö över socker',
           es: 'Pincelar con huevo batido y espolvorear con azúcar',
           fr: 'Badigeonner de dorure à l\'œuf et saupoudrer de sucre',
           de: 'Mit Ei bestreichen und mit Zucker bestreuen',
@@ -971,7 +1111,7 @@ export const bolivia: Country = {
       },
       description: {
         en: 'Sweet fried pastries served with syrup, a beloved Bolivian treat',
-        sv: 'Sötstekta bakverk serveras med sirap, en älskad boliviansk godis',
+        sv: 'Söta friterade bakverk som serveras med sirap – en älskad boliviansk godsak',
         es: 'Pastelitos fritos servidos con almíbar, una delicia boliviana muy apreciada',
         fr: 'Pâtisseries frites servies avec du sirop, un régal bolivien très apprécié',
         de: 'Süßes frittiertes Gebäck serviert mit Sirup, einem beliebten bolivianischen Leckerbissen',
@@ -998,7 +1138,7 @@ export const bolivia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1055,7 +1195,7 @@ export const bolivia: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1083,7 +1223,7 @@ export const bolivia: Country = {
         {
           name: {
             en: 'Anise seeds',
-            sv: 'Anis frön',
+            sv: 'Anisfrön',
             es: 'semillas de anís',
             fr: 'Graines d\'anis',
             de: 'Anissamen',
@@ -1098,7 +1238,7 @@ export const bolivia: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -1129,7 +1269,7 @@ export const bolivia: Country = {
       steps: [
         {
           en: 'Mix flour, baking powder, anise seeds, sugar, and butter.',
-          sv: 'Blanda mjöl, bakpulver, anisfrön, socker och smör.',
+          sv: 'Blanda vetemjöl, bakpulver, anisfrön, socker och smör.',
           es: 'Mezclar la harina, el polvo para hornear, las semillas de anís, el azúcar y la mantequilla.',
           fr: 'Mélanger la farine, la levure chimique, les graines d\'anis, le sucre et le beurre.',
           de: 'Mehl, Backpulver, Anissamen, Zucker und Butter vermischen.',
@@ -1162,7 +1302,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Roll out thin and cut into rectangles.',
-          sv: 'Kavla ut tunt och skär i rektanglar.',
+          sv: 'Kavla ut degen tunt och skär den i rektanglar.',
           es: 'Estirar finamente y cortar en rectángulos.',
           fr: 'Étalez-le finement et coupez-le en rectangles.',
           de: 'Dünn ausrollen und in Rechtecke schneiden.',
@@ -1173,7 +1313,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Heat oil to 180°C.',
-          sv: 'Värm olja till 180°C.',
+          sv: 'Hetta upp oljan till 180°C.',
           es: 'Calentar el aceite a 180°C.',
           fr: 'Chauffer l\'huile à 180°C.',
           de: 'Öl auf 180°C erhitzen.',
@@ -1184,7 +1324,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Fry until puffed and golden, about 2 minutes per side.',
-          sv: 'Stek tills de är puffade och gyllene, ca 2 minuter per sida.',
+          sv: 'Fritera tills de har pöst upp och är gyllene, ca 2 minuter per sida.',
           es: 'Freír hasta que estén inflados y dorados, aproximadamente 2 minutos por lado.',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient gonflés et dorés, environ 2 minutes de chaque côté.',
           de: 'Etwa 2 Minuten pro Seite braten, bis es goldbraun und aufgebläht ist.',
@@ -1228,7 +1368,7 @@ export const bolivia: Country = {
         },
         {
           en: 'Serve warm or at room temperature.',
-          sv: 'Servera varm eller i rumstemperatur.',
+          sv: 'Servera varma eller rumstempererade.',
           es: 'Servir tibio o a temperatura ambiente.',
           fr: 'Servir tiède ou à température ambiante.',
           de: 'Warm oder bei Zimmertemperatur servieren.',
@@ -1578,7 +1718,7 @@ export const bolivia: Country = {
           },
           {
             en: 'Christopher Columbus',
-            sv: 'Christopher Columbus',
+            sv: 'Christofer Columbus',
             es: 'Cristóbal Colón',
             fr: 'Christophe Colomb',
             de: 'Christoph Kolumbus',
@@ -1804,7 +1944,7 @@ export const bolivia: Country = {
           },
           {
             en: 'Uyuni Lift',
-            sv: 'Uyuni Lift',
+            sv: 'Linbanan i Uyuni',
             es: 'Ascensor Uyuni',
             fr: 'Ascenseur d\'Uyuni',
             de: 'Uyuni-Lift',

@@ -343,8 +343,28 @@ export const unitedKingdom: Country = {
     ],
     history: [
       {
-        year: '43 AD',
-        title: 'Roman Britain',
+        year: {
+          en: '43 AD',
+          sv: '43 e.Kr.',
+          es: '43 d. C.',
+          fr: '43 apr. J.-C.',
+          de: '43 n. Chr.',
+          it: '43 d.C.',
+          pl: '43 n.e.',
+          nl: '43 n.Chr.',
+          pt: '43 d.C.',
+        },
+        title: {
+          en: 'Roman Britain',
+          sv: 'Romerska Britannien',
+          es: 'Britania romana',
+          fr: 'Bretagne romaine',
+          de: 'Römisches Britannien',
+          it: 'Britannia romana',
+          pl: 'Brytania rzymska',
+          nl: 'Romeins Brittannië',
+          pt: 'Britânia romana',
+        },
         description: {
           en: 'The Romans invaded and ruled much of Britain for nearly four centuries, leaving roads, cities, and Hadrian\'s Wall.',
           sv: 'Romarna invaderade och styrde stora delar av Storbritannien i nästan fyra århundraden och lämnade vägar, städer och Hadrianus mur.',
@@ -359,7 +379,17 @@ export const unitedKingdom: Country = {
       },
       {
         year: '1066',
-        title: 'Norman Conquest',
+        title: {
+          en: 'Norman Conquest',
+          sv: 'Normandiska erövringen',
+          es: 'Conquista normanda',
+          fr: 'Conquête normande',
+          de: 'Normannische Eroberung',
+          it: 'Conquista normanna',
+          pl: 'Podbój normański',
+          nl: 'Normandische verovering',
+          pt: 'Conquista normanda',
+        },
         description: {
           en: 'William the Conqueror\'s victory reshaped English politics, culture, and language.',
           sv: 'Vilhelm Erövrarens seger omformade engelsk politik, kultur och språk.',
@@ -374,7 +404,17 @@ export const unitedKingdom: Country = {
       },
       {
         year: '1707',
-        title: 'Act of Union',
+        title: {
+          en: 'Act of Union',
+          sv: 'Unionsakten',
+          es: 'Acta de Unión',
+          fr: 'Acte d\'Union',
+          de: 'Act of Union',
+          it: 'Atto di Unione',
+          pl: 'Akt Unii',
+          nl: 'Act of Union',
+          pt: 'Ato de União',
+        },
         description: {
           en: 'England and Scotland united to form the Kingdom of Great Britain.',
           sv: 'England och Skottland förenades och bildade kungariket Storbritannien.',
@@ -389,7 +429,17 @@ export const unitedKingdom: Country = {
       },
       {
         year: '1801',
-        title: 'United Kingdom Formed',
+        title: {
+          en: 'United Kingdom Formed',
+          sv: 'Förenade kungariket bildas',
+          es: 'Formación del Reino Unido',
+          fr: 'Formation du Royaume-Uni',
+          de: 'Gründung des Vereinigten Königreichs',
+          it: 'Nascita del Regno Unito',
+          pl: 'Powstanie Zjednoczonego Królestwa',
+          nl: 'Ontstaan van het Verenigd Koninkrijk',
+          pt: 'Formação do Reino Unido',
+        },
         description: {
           en: 'Great Britain and Ireland united, forming the United Kingdom of Great Britain and Ireland.',
           sv: 'Storbritannien och Irland förenades och bildade Förenade kungariket Storbritannien och Irland.',
@@ -404,7 +454,17 @@ export const unitedKingdom: Country = {
       },
       {
         year: '1922',
-        title: 'Irish Free State',
+        title: {
+          en: 'Irish Free State',
+          sv: 'Irländska fristaten',
+          es: 'Estado Libre Irlandés',
+          fr: 'État libre d\'Irlande',
+          de: 'Irischer Freistaat',
+          it: 'Stato Libero d\'Irlanda',
+          pl: 'Wolne Państwo Irlandzkie',
+          nl: 'Ierse Vrijstaat',
+          pt: 'Estado Livre Irlandês',
+        },
         description: {
           en: 'Most of Ireland left the UK; Northern Ireland remained part of the United Kingdom.',
           sv: 'Det mesta av Irland lämnade Storbritannien; Nordirland förblev en del av Storbritannien.',
@@ -420,7 +480,17 @@ export const unitedKingdom: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Depends on nationality; check current entry rules before travel.',
           sv: 'Beror på nationalitet; kontrollera gällande inreseregler innan resa.',
@@ -434,7 +504,17 @@ export const unitedKingdom: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Late spring to early autumn (May–September) for milder weather.',
           sv: 'Sen vår till tidig höst (maj–september) för mildare väder.',
@@ -448,7 +528,17 @@ export const unitedKingdom: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent rail network; London Underground is extensive. Driving is on the left.',
           sv: 'Utmärkt järnvägsnät; Londons tunnelbana är omfattande. Körning är till vänster.',
@@ -462,7 +552,17 @@ export const unitedKingdom: Country = {
         },
       },
       {
-        item: 'Weather',
+        item: {
+          en: 'Weather',
+          sv: 'Väder',
+          es: 'Clima',
+          fr: 'Météo',
+          de: 'Wetter',
+          it: 'Meteo',
+          pl: 'Pogoda',
+          nl: 'Weer',
+          pt: 'Clima',
+        },
         description: {
           en: 'Changeable—pack layers and a rain jacket year-round.',
           sv: 'Utbytbar – packa lager och en regnjacka året runt.',
@@ -476,7 +576,17 @@ export const unitedKingdom: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe; take normal city precautions in busy areas.',
           sv: 'Generellt säker; ta normala försiktighetsåtgärder i staden i livliga områden.',
@@ -627,7 +737,7 @@ export const unitedKingdom: Country = {
       },
       description: {
         en: 'Crispy battered fish served with thick-cut chips, often with mushy peas and malt vinegar.',
-        sv: 'Krispig smeten fisk serverad med tjockt skurna chips, ofta med mosiga ärtor och maltvinäger.',
+        sv: 'Krispig fisk i frityrsmet med tjocka pommes frites, ofta serverad med ärtmos (mushy peas) och maltvinäger.',
         es: 'Pescado crujiente rebozado servido con patatas fritas gruesas, a menudo con guisantes blandos y vinagre de malta.',
         fr: 'Poisson pané croustillant servi avec des frites épaisses, souvent avec de la purée de pois et du vinaigre de malt.',
         de: 'Knusprig panierter Fisch, serviert mit dick geschnittenen Pommes Frites, oft mit Erbsenpüree und Malzessig.',
@@ -684,7 +794,7 @@ export const unitedKingdom: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -759,7 +869,7 @@ export const unitedKingdom: Country = {
         {
           name: {
             en: 'Vegetable oil (for frying)',
-            sv: 'Vegetabilisk olja (för stekning)',
+            sv: 'Neutral olja (till stekning)',
             es: 'Aceite vegetal (para freír)',
             fr: 'Huile végétale (pour la friture)',
             de: 'Pflanzenöl (zum Braten)',
@@ -775,7 +885,7 @@ export const unitedKingdom: Country = {
       steps: [
         {
           en: 'Cut potatoes into thick chips and rinse to remove excess starch',
-          sv: 'Skär potatis i tjocka chips och skölj för att ta bort överflödig stärkelse',
+          sv: 'Skär potatisen i tjocka stavar och skölj dem för att få bort överflödig stärkelse',
           es: 'Cortar las patatas en trozos gruesos y enjuagarlas para eliminar el exceso de almidón',
           fr: 'Couper les pommes de terre en chips épaisses et rincer pour éliminer l\'excès d\'amidon',
           de: 'Kartoffeln in dicke Chips schneiden und abspülen, um überschüssige Stärke zu entfernen',
@@ -786,7 +896,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Par-fry chips at medium heat until pale and tender; drain',
-          sv: 'Stek chips på medelvärme tills de är bleka och mjuka; dränera',
+          sv: 'Förfritera potatisstavarna på medelvärme tills de är mjuka men fortfarande ljusa; låt rinna av',
           es: 'Freír los chips a fuego medio hasta que estén pálidos y tiernos; drenaje',
           fr: 'Faire frire les chips à feu moyen jusqu\'à ce qu\'elles soient pâles et tendres; égoutter',
           de: 'Die Chips bei mittlerer Hitze vorbraten, bis sie blass und zart sind. ablassen',
@@ -808,7 +918,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Heat oil to frying temperature',
-          sv: 'Värm olja till stektemperatur',
+          sv: 'Hetta upp oljan till frityrtemperatur',
           es: 'Calentar el aceite a temperatura de freír',
           fr: 'Chauffer l\'huile à la température de friture',
           de: 'Öl auf Brattemperatur erhitzen',
@@ -819,7 +929,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Pat fish dry, dust lightly with flour, then dip into batter',
-          sv: 'Torka fisken torr, pudra lätt med mjöl och doppa sedan i smeten',
+          sv: 'Torka av fisken med hushållspapper, mjöla den lätt och doppa den sedan i smeten',
           es: 'Seque el pescado, espolvoréelo ligeramente con harina y luego sumérjalo en la masa',
           fr: 'Séchez le poisson, saupoudrez légèrement de farine, puis plongez-le dans la pâte',
           de: 'Fisch trocken tupfen, leicht mit Mehl bestäuben und dann in den Teig tauchen',
@@ -830,7 +940,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Fry fish until crisp and golden; drain',
-          sv: 'Stek fisken tills den är knaprig och gyllene; dränera',
+          sv: 'Fritera fisken tills den är krispig och gyllene; låt rinna av',
           es: 'Freír el pescado hasta que esté crujiente y dorado; drenaje',
           fr: 'Faire frire le poisson jusqu\'à ce qu\'il soit croustillant et doré ; égoutter',
           de: 'Den Fisch knusprig und goldbraun braten; ablassen',
@@ -841,7 +951,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Fry chips again at higher heat until golden and crunchy',
-          sv: 'Stek chips igen på högre värme tills de är gyllene och knapriga',
+          sv: 'Fritera potatisstavarna en gång till på högre värme tills de är gyllene och krispiga',
           es: 'Freír las patatas fritas nuevamente a fuego más alto hasta que estén doradas y crujientes',
           fr: 'Faites frire à nouveau les chips à feu plus élevé jusqu\'à ce qu\'elles soient dorées et croustillantes',
           de: 'Die Chips noch einmal bei höherer Hitze goldbraun und knusprig braten',
@@ -852,7 +962,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Serve fish with chips, add salt and malt vinegar',
-          sv: 'Servera fisk med chips, tillsätt salt och maltvinäger',
+          sv: 'Servera fisken med pommes frites och smaksätt med salt och maltvinäger',
           es: 'Servir el pescado con patatas fritas, añadir sal y vinagre de malta',
           fr: 'Servir le poisson avec des frites, ajouter du sel et du vinaigre de malt',
           de: 'Fisch mit Pommes frites servieren, Salz und Malzessig hinzufügen',
@@ -879,7 +989,7 @@ export const unitedKingdom: Country = {
       },
       description: {
         en: 'A classic British dessert: moist date sponge cake served warm with rich toffee sauce, often with vanilla ice cream or custard.',
-        sv: 'En klassisk brittisk dessert: fuktig dadelkaka serverad varm med rik kolasås, ofta med vaniljglass eller vaniljsås.',
+        sv: 'En klassisk brittisk dessert: saftig dadelkaka som serveras varm med fyllig kolasås, ofta med vaniljglass eller vaniljsås.',
         es: 'Un postre británico clásico: bizcocho húmedo de dátiles servido caliente con una rica salsa de caramelo, a menudo con helado de vainilla o natillas.',
         fr: 'Un dessert britannique classique : une génoise moelleuse aux dattes servie chaude avec une riche sauce au caramel, souvent avec de la glace à la vanille ou de la crème anglaise.',
         de: 'Ein klassisches britisches Dessert: feuchter Dattel-Biskuitkuchen, warm serviert mit reichhaltiger Toffeesauce, oft mit Vanilleeis oder Vanillesoße.',
@@ -906,7 +1016,7 @@ export const unitedKingdom: Country = {
         {
           name: {
             en: 'Dates (pitted)',
-            sv: 'Datum (urkärnade)',
+            sv: 'Dadlar (urkärnade)',
             es: 'Dátiles (sin hueso)',
             fr: 'Dattes (dénoyautées)',
             de: 'Datteln (entkernt)',
@@ -936,7 +1046,7 @@ export const unitedKingdom: Country = {
         {
           name: {
             en: 'Baking soda',
-            sv: 'Bakpulver',
+            sv: 'Bikarbonat',
             es: 'Bicarbonato de sodio',
             fr: 'Bicarbonate de soude',
             de: 'Backpulver',
@@ -951,7 +1061,7 @@ export const unitedKingdom: Country = {
         {
           name: {
             en: 'Butter (soft)',
-            sv: 'Smör (mjukt)',
+            sv: 'Smör (rumsvarmt)',
             es: 'Mantequilla (blanda)',
             fr: 'Beurre (doux)',
             de: 'Butter (weich)',
@@ -993,7 +1103,7 @@ export const unitedKingdom: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1006,7 +1116,7 @@ export const unitedKingdom: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1051,7 +1161,7 @@ export const unitedKingdom: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -1066,7 +1176,7 @@ export const unitedKingdom: Country = {
         {
           name: {
             en: 'Golden syrup (or honey)',
-            sv: 'Gyllene sirap (eller honung)',
+            sv: 'Ljus sirap (eller honung)',
             es: 'Almíbar dorado (o miel)',
             fr: 'Sirop doré (ou miel)',
             de: 'Goldener Sirup (oder Honig)',
@@ -1103,7 +1213,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Chop dates and pour boiling water over them; stir in baking soda and rest 10 minutes',
-          sv: 'Hacka dadlar och häll kokande vatten över dem; rör i bakpulver och vila 10 minuter',
+          sv: 'Hacka dadlarna och häll kokande vatten över dem; rör ner bikarbonaten och låt stå i 10 minuter',
           es: 'Picar los dátiles y verter agua hirviendo sobre ellos; agregue el bicarbonato de sodio y descanse 10 minutos',
           fr: 'Hachez les dattes et versez dessus de l\'eau bouillante ; incorporer le bicarbonate de soude et laisser reposer 10 minutes',
           de: 'Datteln hacken und mit kochendem Wasser übergießen; Backpulver einrühren und 10 Minuten ruhen lassen',
@@ -1114,7 +1224,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Cream butter and brown sugar until fluffy',
-          sv: 'Grädde smör och farinsocker fluffigt',
+          sv: 'Vispa smör och farinsocker pösigt',
           es: 'Batir la mantequilla y el azúcar moreno hasta que quede esponjoso',
           fr: 'Crémer le beurre et la cassonade jusqu\'à consistance mousseuse',
           de: 'Butter und braunen Zucker schaumig rühren',
@@ -1125,7 +1235,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Beat in eggs and vanilla',
-          sv: 'Vispa i ägg och vanilj',
+          sv: 'Vispa ner äggen och vaniljen',
           es: 'Batir los huevos y la vainilla',
           fr: 'Incorporer les œufs et la vanille',
           de: 'Eier und Vanille unterrühren',
@@ -1147,7 +1257,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Bake 25–30 minutes until set and springy',
-          sv: 'Grädda 25–30 minuter tills stelnat och spänstigt',
+          sv: 'Grädda i 25–30 minuter tills kakan har stelnat och känns spänstig',
           es: 'Hornee de 25 a 30 minutos hasta que esté listo y elástico',
           fr: 'Cuire au four 25 à 30 minutes jusqu\'à ce que le tout soit pris et élastique',
           de: '25–30 Minuten backen, bis es fest und federnd ist',
@@ -1158,7 +1268,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Make toffee sauce: simmer cream, brown sugar, butter (optional), and golden syrup until glossy',
-          sv: 'Gör kolasås: sjud grädde, farinsocker, smör (valfritt) och gyllene sirap tills det blir glansigt',
+          sv: 'Gör kolasåsen: låt grädde, farinsocker, smör (valfritt) och ljus sirap sjuda tills såsen blir blank',
           es: 'Prepare salsa de caramelo: cocine a fuego lento la crema, el azúcar moreno, la mantequilla (opcional) y el almíbar dorado hasta que esté brillante',
           fr: 'Préparez la sauce au caramel : laissez mijoter la crème, la cassonade, le beurre (facultatif) et le sirop doré jusqu\'à ce qu\'ils soient brillants',
           de: 'Toffeesauce zubereiten: Sahne, braunen Zucker, Butter (optional) und goldenen Sirup köcheln lassen, bis sie glänzend ist',
@@ -1169,7 +1279,7 @@ export const unitedKingdom: Country = {
         },
         {
           en: 'Serve warm pudding drenched in sauce (with custard or ice cream)',
-          sv: 'Servera varm pudding dränkt i sås (med vaniljsås eller glass)',
+          sv: 'Servera puddingen varm, dränkt i kolasås, med vaniljsås eller glass',
           es: 'Sirva el pudín tibio bañado en salsa (con natillas o helado)',
           fr: 'Servir le pudding chaud nappé de sauce (avec de la crème anglaise ou de la glace)',
           de: 'Warmen, in Sauce getränkten Pudding servieren (mit Vanillesoße oder Eis)',

@@ -263,8 +263,28 @@ export const greece: Country = {
     },
     history: [
       {
-        year: '800-500 BC',
-        title: 'Classical Greece',
+        year: {
+          en: '800-500 BC',
+          sv: '800–500 f.Kr.',
+          es: '800–500 a. C.',
+          fr: '800–500 av. J.-C.',
+          de: '800–500 v. Chr.',
+          it: '800–500 a.C.',
+          pl: '800–500 p.n.e.',
+          nl: '800–500 v.Chr.',
+          pt: '800–500 a.C.',
+        },
+        title: {
+          en: 'Classical Greece',
+          sv: 'Det klassiska Grekland',
+          es: 'Grecia clásica',
+          fr: 'Grèce classique',
+          de: 'Klassisches Griechenland',
+          it: 'Grecia classica',
+          pl: 'Grecja klasyczna',
+          nl: 'Klassiek Griekenland',
+          pt: 'Grécia clássica',
+        },
         description: {
           en: 'The golden age of Greek culture, producing philosophy, democracy, theater, and architectural marvels.',
           sv: 'Den grekiska kulturens guldålder, som producerar filosofi, demokrati, teater och arkitektoniska underverk.',
@@ -278,8 +298,28 @@ export const greece: Country = {
         },
       },
       {
-        year: '336-323 BC',
-        title: 'Alexander the Great',
+        year: {
+          en: '336-323 BC',
+          sv: '336–323 f.Kr.',
+          es: '336–323 a. C.',
+          fr: '336–323 av. J.-C.',
+          de: '336–323 v. Chr.',
+          it: '336–323 a.C.',
+          pl: '336–323 p.n.e.',
+          nl: '336–323 v.Chr.',
+          pt: '336–323 a.C.',
+        },
+        title: {
+          en: 'Alexander the Great',
+          sv: 'Alexander den store',
+          es: 'Alejandro Magno',
+          fr: 'Alexandre le Grand',
+          de: 'Alexander der Große',
+          it: 'Alessandro Magno',
+          pl: 'Aleksander Wielki',
+          nl: 'Alexander de Grote',
+          pt: 'Alexandre, o Grande',
+        },
         description: {
           en: 'Macedonian conquest spread Greek culture across the known world, creating the Hellenistic period.',
           sv: 'Makedonsk erövring spred grekisk kultur över den kända världen, vilket skapade den hellenistiska perioden.',
@@ -293,8 +333,28 @@ export const greece: Country = {
         },
       },
       {
-        year: '146 BC-1453 AD',
-        title: 'Roman and Byzantine Era',
+        year: {
+          en: '146 BC-1453 AD',
+          sv: '146 f.Kr. – 1453 e.Kr.',
+          es: '146 a. C. – 1453 d. C.',
+          fr: '146 av. J.-C. – 1453 apr. J.-C.',
+          de: '146 v. Chr. – 1453 n. Chr.',
+          it: '146 a.C. – 1453 d.C.',
+          pl: '146 p.n.e. – 1453 n.e.',
+          nl: '146 v.Chr. – 1453 n.Chr.',
+          pt: '146 a.C. – 1453 d.C.',
+        },
+        title: {
+          en: 'Roman and Byzantine Era',
+          sv: 'Romersk och bysantinsk tid',
+          es: 'Época romana y bizantina',
+          fr: 'Époque romaine et byzantine',
+          de: 'Römische und byzantinische Zeit',
+          it: 'Epoca romana e bizantina',
+          pl: 'Okres rzymski i bizantyjski',
+          nl: 'Romeinse en Byzantijnse tijd',
+          pt: 'Período romano e bizantino',
+        },
         description: {
           en: 'Greece became part of the Roman Empire, then the Byzantine Empire, preserving Greek Orthodox traditions.',
           sv: 'Grekland blev en del av det romerska riket, sedan det bysantinska riket, och bevarade grekisk-ortodoxa traditioner.',
@@ -308,8 +368,28 @@ export const greece: Country = {
         },
       },
       {
-        year: '1821-Present',
-        title: 'Modern Greece',
+        year: {
+          en: '1821-Present',
+          sv: '1821–idag',
+          es: '1821–actualidad',
+          fr: '1821–aujourd\'hui',
+          de: '1821–heute',
+          it: '1821–oggi',
+          pl: '1821–obecnie',
+          nl: '1821–heden',
+          pt: '1821–presente',
+        },
+        title: {
+          en: 'Modern Greece',
+          sv: 'Det moderna Grekland',
+          es: 'Grecia moderna',
+          fr: 'La Grèce moderne',
+          de: 'Das moderne Griechenland',
+          it: 'La Grecia moderna',
+          pl: 'Współczesna Grecja',
+          nl: 'Modern Griekenland',
+          pt: 'Grécia moderna',
+        },
         description: {
           en: 'After 400 years of Ottoman rule, Greece gained independence and eventually became a democratic republic.',
           sv: 'Efter 400 år av ottomanskt styre fick Grekland självständighet och blev så småningom en demokratisk republik.',
@@ -336,7 +416,17 @@ export const greece: Country = {
           nl: 'Democratie',
           pt: 'Democracia',
         },
-        year: '508 BC',
+        year: {
+          en: '508 BC',
+          sv: '508 f.Kr.',
+          es: '508 a. C.',
+          fr: '508 av. J.-C.',
+          de: '508 v. Chr.',
+          it: '508 a.C.',
+          pl: '508 p.n.e.',
+          nl: '508 v.Chr.',
+          pt: '508 a.C.',
+        },
         description: {
           en: 'Ancient Athens developed the first democratic system of government, influencing modern political systems.',
           sv: 'Forntida Aten utvecklade det första demokratiska regeringssystemet, som påverkade moderna politiska system.',
@@ -361,7 +451,17 @@ export const greece: Country = {
           nl: 'Olympische Spelen',
           pt: 'Olimpíadas',
         },
-        year: '776 BC',
+        year: {
+          en: '776 BC',
+          sv: '776 f.Kr.',
+          es: '776 a. C.',
+          fr: '776 av. J.-C.',
+          de: '776 v. Chr.',
+          it: '776 a.C.',
+          pl: '776 p.n.e.',
+          nl: '776 v.Chr.',
+          pt: '776 a.C.',
+        },
         description: {
           en: 'The ancient Olympic Games began in Olympia, creating a tradition that continues today.',
           sv: 'De gamla olympiska spelen började i Olympia och skapade en tradition som fortsätter idag.',
@@ -386,7 +486,17 @@ export const greece: Country = {
           nl: 'Theater',
           pt: 'Teatro',
         },
-        year: '6th Century BC',
+        year: {
+          en: '6th Century BC',
+          sv: '500-talet f.Kr.',
+          es: 'siglo VI a. C.',
+          fr: 'VIe siècle av. J.-C.',
+          de: '6. Jahrhundert v. Chr.',
+          it: 'VI secolo a.C.',
+          pl: 'VI wiek p.n.e.',
+          nl: '6e eeuw v.Chr.',
+          pt: 'século VI a.C.',
+        },
         description: {
           en: 'Greeks invented theatrical drama with tragedies and comedies, establishing the foundation of modern theater.',
           sv: 'Grekerna uppfann teaterdramatik med tragedier och komedier, som etablerade grunden för modern teater.',
@@ -411,7 +521,17 @@ export const greece: Country = {
           nl: 'Meetkunde',
           pt: 'Geometria',
         },
-        year: '300 BC',
+        year: {
+          en: '300 BC',
+          sv: '300 f.Kr.',
+          es: '300 a. C.',
+          fr: '300 av. J.-C.',
+          de: '300 v. Chr.',
+          it: '300 a.C.',
+          pl: '300 p.n.e.',
+          nl: '300 v.Chr.',
+          pt: '300 a.C.',
+        },
         description: {
           en: 'Euclid\'s Elements laid the foundation for geometry and mathematical thinking.',
           sv: 'Euklids element lade grunden för geometri och matematiskt tänkande.',
@@ -549,7 +669,17 @@ export const greece: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-June and September-October for warm weather without extreme heat or crowds.',
           sv: 'Maj-juni och september-oktober för varmt väder utan extrem värme eller trängsel.',
@@ -563,7 +693,17 @@ export const greece: Country = {
         },
       },
       {
-        item: 'Modest clothing for monasteries',
+        item: {
+          en: 'Modest clothing for monasteries',
+          sv: 'Täckande klädsel i kloster',
+          es: 'Ropa recatada en monasterios',
+          fr: 'Tenue décente dans les monastères',
+          de: 'Angemessene Kleidung in Klöstern',
+          it: 'Abbigliamento decoroso nei monasteri',
+          pl: 'Skromny strój w klasztorach',
+          nl: 'Bedekkende kleding in kloosters',
+          pt: 'Roupas discretas em mosteiros',
+        },
         description: {
           en: 'Shoulders and knees must be covered at religious sites.',
           sv: 'Axlar och knän måste täckas på religiösa platser.',
@@ -577,7 +717,17 @@ export const greece: Country = {
         },
       },
       {
-        item: 'Sunscreen and hat',
+        item: {
+          en: 'Sunscreen and hat',
+          sv: 'Solkräm och hatt',
+          es: 'Protector solar y sombrero',
+          fr: 'Crème solaire et chapeau',
+          de: 'Sonnencreme und Hut',
+          it: 'Crema solare e cappello',
+          pl: 'Krem z filtrem i kapelusz',
+          nl: 'Zonnebrandcrème en hoed',
+          pt: 'Protetor solar e chapéu',
+        },
         description: {
           en: 'Greek sun is very strong, especially on islands.',
           sv: 'Grekisk sol är mycket stark, särskilt på öar.',
@@ -591,7 +741,17 @@ export const greece: Country = {
         },
       },
       {
-        item: 'Comfortable sandals',
+        item: {
+          en: 'Comfortable sandals',
+          sv: 'Bekväma sandaler',
+          es: 'Sandalias cómodas',
+          fr: 'Sandales confortables',
+          de: 'Bequeme Sandalen',
+          it: 'Sandali comodi',
+          pl: 'Wygodne sandały',
+          nl: 'Comfortabele sandalen',
+          pt: 'Sandálias confortáveis',
+        },
         description: {
           en: 'Ancient sites involve uneven terrain and marble steps.',
           sv: 'Forntida platser involverar ojämn terräng och marmortrappor.',
@@ -605,7 +765,17 @@ export const greece: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Smaller islands and tavernas may not accept cards.',
           sv: 'Mindre öar och tavernor kanske inte accepterar kort.',
@@ -619,7 +789,17 @@ export const greece: Country = {
         },
       },
       {
-        item: 'Greek phrase book',
+        item: {
+          en: 'Greek phrase book',
+          sv: 'Grekisk parlör',
+          es: 'Frases en griego',
+          fr: 'Guide de conversation grec',
+          de: 'Sprachführer Griechisch',
+          it: 'Frasario greco',
+          pl: 'Rozmówki greckie',
+          nl: 'Taalgids Grieks',
+          pt: 'Frases em grego',
+        },
         description: {
           en: 'Basic Greek like "Kalimera" (good morning) is appreciated.',
           sv: 'Grundläggande grekiska som "Kalimera" (god morgon) uppskattas.',
@@ -648,7 +828,7 @@ export const greece: Country = {
       },
       description: {
         en: 'Layered casserole with eggplant, spiced meat sauce, and creamy béchamel topping',
-        sv: 'Lagrad gryta med aubergine, kryddad köttsås och krämig bechameltopping',
+        sv: 'Gratäng med lager av aubergine och kryddad köttfärssås, täckt med krämig béchamelsås',
         es: 'Cazuela en capas con berenjenas, salsa de carne especiada y cobertura cremosa de bechamel',
         fr: 'Casserole étagée avec aubergines, sauce à la viande épicée et garniture crémeuse de béchamel',
         de: 'Schichtauflauf mit Auberginen, gewürzter Fleischsauce und cremigem Béchamel-Topping',
@@ -675,7 +855,7 @@ export const greece: Country = {
         {
           name: {
             en: 'Eggplants',
-            sv: 'Aubergine',
+            sv: 'Auberginer',
             es: 'Berenjenas',
             fr: 'Aubergines',
             de: 'Auberginen',
@@ -687,7 +867,7 @@ export const greece: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -700,7 +880,7 @@ export const greece: Country = {
         {
           name: {
             en: 'Ground lamb or beef',
-            sv: 'Malet lamm eller nötkött',
+            sv: 'Lamm- eller nötfärs',
             es: 'Carne molida de cordero o ternera',
             fr: 'Agneau ou bœuf haché',
             de: 'Lamm- oder Rinderhackfleisch',
@@ -727,7 +907,7 @@ export const greece: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -755,7 +935,7 @@ export const greece: Country = {
         {
           name: {
             en: 'Red wine',
-            sv: 'Rött vin',
+            sv: 'Rödvin',
             es: 'Vino tinto',
             fr: 'Vin rouge',
             de: 'Rotwein',
@@ -800,7 +980,7 @@ export const greece: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -846,7 +1026,7 @@ export const greece: Country = {
       steps: [
         {
           en: 'Slice eggplants, salt them, and let sit 30 minutes to remove bitterness',
-          sv: 'Skiva aubergine, salta dem och låt stå i 30 minuter för att ta bort bitterhet',
+          sv: 'Skiva auberginerna, salta dem och låt dem stå i 30 minuter så att bitterheten dras ut',
           es: 'Cortar las berenjenas en rodajas, salarlas y dejar reposar 30 minutos para quitarles el amargor',
           fr: 'Tranchez les aubergines, salez-les et laissez reposer 30 minutes pour éliminer l\'amertume',
           de: 'Auberginen in Scheiben schneiden, salzen und 30 Minuten ruhen lassen, um die Bitterkeit zu entfernen',
@@ -857,7 +1037,7 @@ export const greece: Country = {
         },
         {
           en: 'Rinse and pat dry, brush with oil and bake at 400°F until tender',
-          sv: 'Skölj och torka torrt, pensla med olja och grädda i 400°F tills de är mjuka',
+          sv: 'Skölj och torka dem med hushållspapper, pensla med olja och rosta i ugnen i 200°C tills de är mjuka',
           es: 'Enjuague y seque, unte con aceite y hornee a 400 °F hasta que estén tiernos',
           fr: 'Rincer et sécher, badigeonner d\'huile et cuire au four à 400°F jusqu\'à tendreté',
           de: 'Spülen und trocken tupfen, mit Öl bestreichen und bei 200 °C backen, bis sie weich sind',
@@ -868,7 +1048,7 @@ export const greece: Country = {
         },
         {
           en: 'Sauté onions, add meat and brown, then add tomatoes, wine, and cinnamon',
-          sv: 'Fräs lök, tillsätt kött och bryn, tillsätt sedan tomater, vin och kanel',
+          sv: 'Fräs löken, tillsätt köttfärsen och bryn den, tillsätt sedan tomater, vin och kanel',
           es: 'Saltee las cebollas, agregue la carne y dore, luego agregue los tomates, el vino y la canela',
           fr: 'Faire revenir les oignons, ajouter la viande et faire dorer, puis ajouter les tomates, le vin et la cannelle',
           de: 'Zwiebeln anbraten, Fleisch hinzufügen und anbraten, dann Tomaten, Wein und Zimt hinzufügen',
@@ -879,7 +1059,7 @@ export const greece: Country = {
         },
         {
           en: 'Simmer meat sauce for 20 minutes until thick',
-          sv: 'Sjud köttsåsen i 20 minuter tills den är tjock',
+          sv: 'Låt köttfärssåsen sjuda i 20 minuter tills den har tjocknat',
           es: 'Cocine a fuego lento la salsa de carne durante 20 minutos hasta que espese',
           fr: 'Laisser mijoter la sauce à la viande pendant 20 minutes jusqu\'à ce qu\'elle soit épaisse',
           de: 'Fleischsauce 20 Minuten köcheln lassen, bis sie dickflüssig ist',
@@ -890,7 +1070,7 @@ export const greece: Country = {
         },
         {
           en: 'For béchamel: melt butter, add flour, cook 2 minutes',
-          sv: 'För béchamel: smält smör, tillsätt mjöl, koka 2 minuter',
+          sv: 'Till béchamelsåsen: smält smöret, rör ner mjölet och låt fräsa i 2 minuter',
           es: 'Para bechamel: derretir la mantequilla, agregar la harina, cocinar 2 minutos',
           fr: 'Pour la béchamel : faire fondre le beurre, ajouter la farine, cuire 2 minutes',
           de: 'Für Béchamel: Butter schmelzen, Mehl hinzufügen, 2 Minuten kochen',
@@ -901,7 +1081,7 @@ export const greece: Country = {
         },
         {
           en: 'Gradually whisk in milk, cook until thick and creamy',
-          sv: 'Vispa gradvis i mjölk, koka tills det är tjockt och krämigt',
+          sv: 'Vispa ner mjölken lite i taget och låt sjuda tills såsen är tjock och krämig',
           es: 'Incorpora poco a poco la leche y cocina hasta que esté espesa y cremosa',
           fr: 'Incorporer progressivement le lait, cuire jusqu\'à consistance épaisse et crémeuse',
           de: 'Nach und nach Milch einrühren und kochen, bis eine dicke und cremige Masse entsteht',
@@ -912,7 +1092,7 @@ export const greece: Country = {
         },
         {
           en: 'Layer half the eggplant in a baking dish',
-          sv: 'Lägg hälften av auberginen i en ugnsform',
+          sv: 'Lägg hälften av aubergineskivorna i en ugnsform',
           es: 'Coloque la mitad de la berenjena en una fuente para horno',
           fr: 'Disposez la moitié de l\'aubergine dans un plat allant au four',
           de: 'Die Hälfte der Aubergine in eine Auflaufform schichten',
@@ -923,7 +1103,7 @@ export const greece: Country = {
         },
         {
           en: 'Add all the meat sauce, then remaining eggplant',
-          sv: 'Tillsätt all köttsås och sedan resterande aubergine',
+          sv: 'Bred ut all köttfärssås ovanpå och täck med resten av aubergineskivorna',
           es: 'Agrega toda la salsa de carne y luego la berenjena restante',
           fr: 'Ajouter toute la sauce à la viande, puis le reste des aubergines',
           de: 'Fügen Sie die gesamte Fleischsauce und dann die restlichen Auberginen hinzu',
@@ -934,7 +1114,7 @@ export const greece: Country = {
         },
         {
           en: 'Pour béchamel over top and sprinkle with cheese',
-          sv: 'Häll bechamel över toppen och strö över ost',
+          sv: 'Häll béchamelsåsen över och strö över osten',
           es: 'Vierta la bechamel por encima y espolvoree con queso',
           fr: 'Verser la béchamel dessus et saupoudrer de fromage',
           de: 'Bechamelsauce darübergießen und mit Käse bestreuen',
@@ -945,7 +1125,7 @@ export const greece: Country = {
         },
         {
           en: 'Bake at 350°F for 45 minutes until golden brown',
-          sv: 'Grädda i 350°F i 45 minuter tills de är gyllenbruna',
+          sv: 'Grädda i 175°C i 45 minuter tills ytan är gyllenbrun',
           es: 'Hornee a 350°F durante 45 minutos hasta que estén dorados',
           fr: 'Cuire au four à 350°F pendant 45 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '45 Minuten bei 350 °F backen, bis es goldbraun ist',
@@ -972,7 +1152,7 @@ export const greece: Country = {
       },
       description: {
         en: 'Sweet pastry made of layers of phyllo filled with chopped nuts and honey',
-        sv: 'Söta bakverk gjorda av lager filo fyllda med hackade nötter och honung',
+        sv: 'Sött bakverk av filodeg i lager, fyllt med hackade nötter och honung',
         es: 'Masa dulce hecha de capas de hojaldre rellenas de nueces picadas y miel',
         fr: 'Pâte sucrée composée de couches de pâte phyllo fourrée de noix hachées et de miel',
         de: 'Süßes Gebäck aus Blätterteigschichten, gefüllt mit gehackten Nüssen und Honig',
@@ -1089,7 +1269,7 @@ export const greece: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -1141,7 +1321,7 @@ export const greece: Country = {
         },
         {
           en: 'Brush baking pan with butter',
-          sv: 'Pensla bakplåten med smör',
+          sv: 'Pensla en ugnsform med smör',
           es: 'Unte un molde para hornear con mantequilla',
           fr: 'Badigeonner le plat de cuisson de beurre',
           de: 'Backform mit Butter bestreichen',
@@ -1152,7 +1332,7 @@ export const greece: Country = {
         },
         {
           en: 'Layer 8 sheets of phyllo, brushing each with butter',
-          sv: 'Varva 8 ark filo, pensla varje med smör',
+          sv: 'Lägg 8 filoark i lager och pensla vart och ett med smör',
           es: 'Coloque en capas 8 hojas de pasta filo, untando cada una con mantequilla',
           fr: 'Étalez 8 feuilles de pâte phyllo, en badigeonnant chacune de beurre',
           de: '8 Blätter Phyllo schichten und jeweils mit Butter bestreichen',
@@ -1163,7 +1343,7 @@ export const greece: Country = {
         },
         {
           en: 'Spread a thin layer of nut mixture',
-          sv: 'Bred ut ett tunt lager nötblandning',
+          sv: 'Bred ut ett tunt lager av nötblandningen',
           es: 'Extiende una fina capa de mezcla de frutos secos',
           fr: 'Étalez une fine couche de mélange de noix',
           de: 'Eine dünne Schicht Nussmischung auftragen',
@@ -1174,7 +1354,7 @@ export const greece: Country = {
         },
         {
           en: 'Add 4 more phyllo sheets (buttered), then nuts',
-          sv: 'Lägg till ytterligare 4 filoark (smörde), sedan nötter',
+          sv: 'Lägg på ytterligare 4 smörpenslade filoark och sedan ett lager nötter',
           es: 'Agregue 4 hojas de masa filo más (untadas con mantequilla), luego nueces',
           fr: 'Ajoutez 4 autres feuilles de pâte phyllo (beurrées), puis les noix',
           de: 'Fügen Sie 4 weitere Phyllo-Blätter (gebuttert) hinzu, dann Nüsse',
@@ -1185,7 +1365,7 @@ export const greece: Country = {
         },
         {
           en: 'Repeat layering, finishing with 8 phyllo sheets on top',
-          sv: 'Upprepa skiktningen, avsluta med 8 filoark på toppen',
+          sv: 'Upprepa varvningen och avsluta med 8 filoark överst',
           es: 'Repita las capas, terminando con 8 hojas de masa filo en la parte superior',
           fr: 'Répétez la superposition en terminant avec 8 feuilles de pâte phyllo sur le dessus',
           de: 'Wiederholen Sie die Schichtung und schließen Sie mit 8 Phyllo-Blättern oben ab',
@@ -1196,7 +1376,7 @@ export const greece: Country = {
         },
         {
           en: 'Cut into diamond shapes before baking',
-          sv: 'Skär i diamantformer före gräddning',
+          sv: 'Skär baklavan i romber före gräddningen',
           es: 'Cortar en forma de diamante antes de hornear',
           fr: 'Couper en losanges avant la cuisson',
           de: 'Vor dem Backen in Rauten schneiden',
@@ -1207,7 +1387,7 @@ export const greece: Country = {
         },
         {
           en: 'Bake at 350°F for 45-50 minutes until golden',
-          sv: 'Grädda i 350°F i 45-50 minuter tills de är gyllene',
+          sv: 'Grädda i 175°C i 45–50 minuter tills den är gyllene',
           es: 'Hornee a 350°F durante 45-50 minutos hasta que esté dorado',
           fr: 'Cuire au four à 350 °F pendant 45 à 50 minutes jusqu\'à ce qu\'ils soient dorés',
           de: 'Bei 350 °F 45–50 Minuten backen, bis es goldbraun ist',
@@ -1218,7 +1398,7 @@ export const greece: Country = {
         },
         {
           en: 'Meanwhile, boil sugar, water, honey, and lemon for 10 minutes',
-          sv: 'Koka under tiden socker, vatten, honung och citron i 10 minuter',
+          sv: 'Koka under tiden socker, vatten, honung och citronsaft i 10 minuter',
           es: 'Mientras tanto, hierve el azúcar, el agua, la miel y el limón durante 10 minutos',
           fr: 'Pendant ce temps, faites bouillir le sucre, l\'eau, le miel et le citron pendant 10 minutes',
           de: 'In der Zwischenzeit Zucker, Wasser, Honig und Zitrone 10 Minuten lang kochen',
@@ -1229,7 +1409,7 @@ export const greece: Country = {
         },
         {
           en: 'Pour hot syrup over baked baklava and let absorb for several hours',
-          sv: 'Häll varm sirap över bakad baklava och låt dra i flera timmar',
+          sv: 'Häll den varma sirapen över den gräddade baklavan och låt den dra i flera timmar',
           es: 'Vierta el almíbar caliente sobre el baklava horneado y déjelo absorber durante varias horas',
           fr: 'Versez le sirop chaud sur le baklava cuit et laissez-le absorber pendant plusieurs heures',
           de: 'Den heißen Sirup über das gebackene Baklava gießen und mehrere Stunden einwirken lassen',

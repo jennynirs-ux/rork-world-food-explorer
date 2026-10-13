@@ -53,7 +53,7 @@ export const djibouti: Country = {
         },
         value: {
           en: 'Djibouti City',
-          sv: 'Djibouti City',
+          sv: 'Djibouti',
           es: 'Ciudad de Yibuti',
           fr: 'Ville de Djibouti',
           de: 'Dschibuti-Stadt',
@@ -220,7 +220,17 @@ export const djibouti: Country = {
     history: [
       {
         year: '1862',
-        title: 'French Interest',
+        title: {
+          en: 'French Interest',
+          sv: 'Franskt intresse',
+          es: 'Interés francés',
+          fr: 'Intérêts français',
+          de: 'Französisches Interesse',
+          it: 'Interesse francese',
+          pl: 'Zainteresowanie Francji',
+          nl: 'Franse belangstelling',
+          pt: 'Interesse francês',
+        },
         description: {
           en: 'France began establishing presence in the region, seeking a strategic port on the Red Sea.',
           sv: 'Frankrike började etablera sig i regionen och letade efter en strategisk hamn vid Röda havet.',
@@ -235,7 +245,17 @@ export const djibouti: Country = {
       },
       {
         year: '1977',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Djibouti gained independence from France, becoming the last French colony in Africa to do so.',
           sv: 'Djibouti blev självständigt från Frankrike och blev den sista franska kolonin i Afrika som gjorde det.',
@@ -250,7 +270,17 @@ export const djibouti: Country = {
       },
       {
         year: '2017',
-        title: 'Strategic Hub',
+        title: {
+          en: 'Strategic Hub',
+          sv: 'Strategiskt nav',
+          es: 'Enclave estratégico',
+          fr: 'Carrefour stratégique',
+          de: 'Strategischer Knotenpunkt',
+          it: 'Snodo strategico',
+          pl: 'Strategiczny węzeł',
+          nl: 'Strategisch knooppunt',
+          pt: 'Polo estratégico',
+        },
         description: {
           en: 'Opened China\'s first overseas military base, cementing its role as a strategic international location.',
           sv: 'Öppnade Kinas första utomeuropeiska militärbas och befäste dess roll som en strategisk internationell plats.',
@@ -268,7 +298,7 @@ export const djibouti: Country = {
       {
         name: {
           en: 'Lake Assal',
-          sv: 'Lake Assal',
+          sv: 'Assalsjön',
           es: 'Lago Assal',
           fr: 'Lac Assal',
           de: 'Assalsee',
@@ -292,7 +322,7 @@ export const djibouti: Country = {
       {
         name: {
           en: 'Day Forest National Park',
-          sv: 'Day Forest National Park',
+          sv: 'Day Forest nationalpark',
           es: 'Parque Nacional Day Forest',
           fr: 'Parc national de la forêt de Day',
           de: 'Day Forest Nationalpark',
@@ -316,7 +346,7 @@ export const djibouti: Country = {
       {
         name: {
           en: 'Lac Abbé',
-          sv: 'Lac Abbé',
+          sv: 'Abbésjön',
           es: 'Lago Abbé',
           fr: 'Lac Abbé',
           de: 'Lac Abbé',
@@ -364,7 +394,7 @@ export const djibouti: Country = {
       {
         name: {
           en: 'Grand Bara Desert',
-          sv: 'Grand Bara Desert',
+          sv: 'Grand Bara-öknen',
           es: 'Desierto de Gran Bara',
           fr: 'Désert du Grand Bara',
           de: 'Grand-Bara-Wüste',
@@ -388,7 +418,17 @@ export const djibouti: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-March for cooler weather. Summer is extremely hot.',
           sv: 'November-mars för svalare väder. Sommaren är extremt varm.',
@@ -402,7 +442,17 @@ export const djibouti: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Available on arrival for most nationalities at Djibouti-Ambouli Airport.',
           sv: 'Tillgängligt vid ankomst för de flesta nationaliteter på Djibouti-Ambouli flygplats.',
@@ -416,7 +466,17 @@ export const djibouti: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Essential due to intense desert sun and high temperatures.',
           sv: 'Nödvändig på grund av intensiv ökensol och höga temperaturer.',
@@ -430,7 +490,17 @@ export const djibouti: Country = {
         },
       },
       {
-        item: 'French language',
+        item: {
+          en: 'French language',
+          sv: 'Franska',
+          es: 'Francés',
+          fr: 'Langue française',
+          de: 'Französisch',
+          it: 'Lingua francese',
+          pl: 'Język francuski',
+          nl: 'Frans',
+          pt: 'Francês',
+        },
         description: {
           en: 'Helpful as French is widely spoken alongside Arabic and Somali.',
           sv: 'Hjälpsamt eftersom franska talas vid sidan av arabiska och somaliska.',
@@ -486,7 +556,7 @@ export const djibouti: Country = {
         {
           name: {
             en: 'Lamb or goat',
-            sv: 'Lamm eller get',
+            sv: 'Lamm- eller getkött',
             es: 'Cordero o cabra',
             fr: 'Agneau ou chèvre',
             de: 'Lamm oder Ziege',
@@ -528,7 +598,7 @@ export const djibouti: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -607,7 +677,7 @@ export const djibouti: Country = {
       steps: [
         {
           en: 'Brown meat with onions and spices',
-          sv: 'Bryn kött med lök och kryddor',
+          sv: 'Bryn köttet med lök och kryddor',
           es: 'Dorar la carne con cebolla y especias',
           fr: 'Viande brune aux oignons et épices',
           de: 'Braunes Fleisch mit Zwiebeln und Gewürzen',
@@ -618,7 +688,7 @@ export const djibouti: Country = {
         },
         {
           en: 'Add water and simmer until tender',
-          sv: 'Tillsätt vatten och låt sjuda tills det är mjukt',
+          sv: 'Tillsätt vatten och låt sjuda tills köttet är mört',
           es: 'Agregue agua y cocine a fuego lento hasta que estén tiernos',
           fr: 'Ajouter de l\'eau et laisser mijoter jusqu\'à tendreté',
           de: 'Wasser hinzufügen und köcheln lassen, bis es weich ist',
@@ -629,7 +699,7 @@ export const djibouti: Country = {
         },
         {
           en: 'Cook rice separately with meat broth',
-          sv: 'Koka ris separat med köttbuljong',
+          sv: 'Koka riset separat i köttspadet',
           es: 'Cocine el arroz por separado con caldo de carne',
           fr: 'Cuire le riz séparément avec le bouillon de viande',
           de: 'Reis separat mit Fleischbrühe kochen',
@@ -640,7 +710,7 @@ export const djibouti: Country = {
         },
         {
           en: 'Layer rice and meat',
-          sv: 'Lager ris och kött',
+          sv: 'Varva riset och köttet',
           es: 'Capas de arroz y carne',
           fr: 'Couche de riz et de viande',
           de: 'Reis und Fleisch schichten',
@@ -716,7 +786,7 @@ export const djibouti: Country = {
         {
           name: {
             en: 'Dates',
-            sv: 'Datum',
+            sv: 'Dadlar',
             es: 'Fechas',
             fr: 'Dattes',
             de: 'Termine',
@@ -746,7 +816,7 @@ export const djibouti: Country = {
         {
           name: {
             en: 'Almonds',
-            sv: 'Mandlar',
+            sv: 'Mandel',
             es: 'Almendras',
             fr: 'Amandes',
             de: 'Mandeln',
@@ -792,7 +862,7 @@ export const djibouti: Country = {
       steps: [
         {
           en: 'Pit and chop dates finely',
-          sv: 'Gröp och hacka dadlarna fint',
+          sv: 'Kärna ur dadlarna och hacka dem fint',
           es: 'Deshuesar y picar finamente los dátiles',
           fr: 'Dénoyauter et hacher finement les dattes',
           de: 'Datteln entkernen und fein hacken',
@@ -803,7 +873,7 @@ export const djibouti: Country = {
         },
         {
           en: 'Melt butter in pan',
-          sv: 'Smält smör i pannan',
+          sv: 'Smält smöret i en panna',
           es: 'Derretir la mantequilla en una sartén',
           fr: 'Faire fondre le beurre dans la poêle',
           de: 'Butter in der Pfanne schmelzen',
@@ -814,7 +884,7 @@ export const djibouti: Country = {
         },
         {
           en: 'Add dates and cardamom',
-          sv: 'Lägg till dadlar och kardemumma',
+          sv: 'Tillsätt dadlarna och kardemumman',
           es: 'Añadir dátiles y cardamomo',
           fr: 'Ajouter les dattes et la cardamome',
           de: 'Datteln und Kardamom hinzufügen',
@@ -825,7 +895,7 @@ export const djibouti: Country = {
         },
         {
           en: 'Cook until thick paste forms',
-          sv: 'Koka tills tjock pasta bildas',
+          sv: 'Låt koka tills det bildas en tjock massa',
           es: 'Cocine hasta que se forme una pasta espesa',
           fr: 'Cuire jusqu\'à ce qu\'une pâte épaisse se forme',
           de: 'Kochen, bis eine dicke Paste entsteht',
@@ -836,7 +906,7 @@ export const djibouti: Country = {
         },
         {
           en: 'Mix in chopped almonds',
-          sv: 'Blanda i hackad mandel',
+          sv: 'Blanda ner den hackade mandeln',
           es: 'Incorporar las almendras picadas',
           fr: 'Incorporer les amandes hachées',
           de: 'Gehackte Mandeln untermischen',
@@ -847,7 +917,7 @@ export const djibouti: Country = {
         },
         {
           en: 'Spread on tray and top with sesame seeds',
-          sv: 'Bred ut på bricka och toppa med sesamfrön',
+          sv: 'Bred ut massan i en form och strö över sesamfrön',
           es: 'Unte en una bandeja y cubra con semillas de sésamo',
           fr: 'Étaler sur un plateau et garnir de graines de sésame',
           de: 'Auf dem Blech verteilen und mit Sesamkörnern belegen',
@@ -858,7 +928,7 @@ export const djibouti: Country = {
         },
         {
           en: 'Cool and cut into squares',
-          sv: 'Kyl och skär i rutor',
+          sv: 'Låt svalna och skär i rutor',
           es: 'Dejar enfriar y cortar en cuadritos',
           fr: 'Laisser refroidir et couper en carrés',
           de: 'Abkühlen lassen und in Quadrate schneiden',
@@ -972,7 +1042,17 @@ export const djibouti: Country = {
           nl: 'Zoutwinning uit het Assalmeer',
           pt: 'Extração de sal do Lago Assal',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Innovative salt mining techniques in one of the saltiest bodies of water on Earth',
           sv: 'Innovativa saltbrytningstekniker i en av de saltaste vattenmassorna på jorden',
@@ -1003,7 +1083,7 @@ export const djibouti: Country = {
         options: [
           {
             en: 'Djibouti City',
-            sv: 'Djibouti City',
+            sv: 'Djibouti',
             es: 'Ciudad de Yibuti',
             fr: 'Ville de Djibouti',
             de: 'Dschibuti-Stadt',
@@ -1052,7 +1132,7 @@ export const djibouti: Country = {
         id: 'djibouti-q2',
         question: {
           en: 'What is Lake Assal known for?',
-          sv: 'Vad är Lake Assal känd för?',
+          sv: 'Vad är Assalsjön känd för?',
           es: '¿Por qué es conocido el lago Assal?',
           fr: 'Pourquoi le lac Assal est-il connu ?',
           de: 'Wofür ist der Assalsee bekannt?',

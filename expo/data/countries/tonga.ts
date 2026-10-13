@@ -241,8 +241,28 @@ export const tonga: Country = {
     },
     history: [
       {
-        year: 'c. 950 AD',
-        title: 'Tui Tonga Empire',
+        year: {
+          en: 'c. 950 AD',
+          sv: 'ca 950 e.Kr.',
+          es: 'c. 950 d. C.',
+          fr: 'vers 950 apr. J.-C.',
+          de: 'um 950 n. Chr.',
+          it: 'ca. 950 d.C.',
+          pl: 'ok. 950 n.e.',
+          nl: 'ca. 950 n.Chr.',
+          pt: 'c. 950 d.C.',
+        },
+        title: {
+          en: 'Tui Tonga Empire',
+          sv: 'Tui Tonga-riket',
+          es: 'Imperio Tui Tonga',
+          fr: 'Empire Tui Tonga',
+          de: 'Tui-Tonga-Reich',
+          it: 'Impero Tui Tonga',
+          pl: 'Imperium Tui Tonga',
+          nl: 'Tui Tonga-rijk',
+          pt: 'Império Tui Tonga',
+        },
         description: {
           en: 'The Tui Tonga dynasty emerged, establishing one of the earliest Polynesian maritime empires.',
           sv: 'Tui Tonga-dynastin uppstod och etablerade ett av de tidigaste polynesiska maritima imperiet.',
@@ -257,7 +277,17 @@ export const tonga: Country = {
       },
       {
         year: '1773',
-        title: 'European Contact',
+        title: {
+          en: 'European Contact',
+          sv: 'Kontakt med européer',
+          es: 'Contacto con los europeos',
+          fr: 'Contact avec les Européens',
+          de: 'Kontakt mit Europäern',
+          it: 'Contatto con gli europei',
+          pl: 'Kontakt z Europejczykami',
+          nl: 'Contact met Europeanen',
+          pt: 'Contato com os europeus',
+        },
         description: {
           en: 'Captain James Cook visited Tonga, later referring to it as the "Friendly Islands."',
           sv: 'Kapten James Cook besökte Tonga och hänvisade senare till det som de "vänliga öarna".',
@@ -272,7 +302,17 @@ export const tonga: Country = {
       },
       {
         year: '1900',
-        title: 'British Protected State',
+        title: {
+          en: 'British Protected State',
+          sv: 'Under brittiskt beskydd',
+          es: 'Estado protegido británico',
+          fr: 'État protégé britannique',
+          de: 'Britischer Schutzstaat',
+          it: 'Stato protetto britannico',
+          pl: 'Państwo pod ochroną brytyjską',
+          nl: 'Britse beschermde staat',
+          pt: 'Estado protegido britânico',
+        },
         description: {
           en: 'Tonga became a British-protected state but retained its monarchy and internal governance.',
           sv: 'Tonga blev en brittiskt skyddad stat men behöll sin monarki och interna styrning.',
@@ -287,7 +327,17 @@ export const tonga: Country = {
       },
       {
         year: '1970',
-        title: 'Full Independence',
+        title: {
+          en: 'Full Independence',
+          sv: 'Full självständighet',
+          es: 'Independencia plena',
+          fr: 'Pleine indépendance',
+          de: 'Volle Unabhängigkeit',
+          it: 'Piena indipendenza',
+          pl: 'Pełna niepodległość',
+          nl: 'Volledige onafhankelijkheid',
+          pt: 'Independência plena',
+        },
         description: {
           en: 'Tonga regained full sovereignty and joined the Commonwealth of Nations.',
           sv: 'Tonga återfick full suveränitet och gick med i Nationernas Commonwealth.',
@@ -314,7 +364,17 @@ export const tonga: Country = {
           nl: 'Traditionele navigatie',
           pt: 'Navegação tradicional',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Polynesian navigators used stars, waves, and bird patterns to travel vast ocean distances.',
           sv: 'Polynesiska navigatörer använde stjärnor, vågor och fågelmönster för att resa stora havsavstånd.',
@@ -339,7 +399,17 @@ export const tonga: Country = {
           nl: 'Tapa-stof (Ngatu)',
           pt: 'Tecido tapa (Ngatu)',
         },
-        year: 'Centuries-old',
+        year: {
+          en: 'Centuries-old',
+          sv: 'Sedan århundraden',
+          es: 'Desde hace siglos',
+          fr: 'Séculaire',
+          de: 'Jahrhundertealt',
+          it: 'Secolare',
+          pl: 'Od wieków',
+          nl: 'Eeuwenoud',
+          pt: 'Há séculos',
+        },
         description: {
           en: 'Decorative bark cloth production remains a key cultural and artistic tradition.',
           sv: 'Tillverkning av dekorativa barktyger är fortfarande en viktig kulturell och konstnärlig tradition.',
@@ -357,7 +427,7 @@ export const tonga: Country = {
       {
         name: {
           en: 'Vavaʻu Islands',
-          sv: 'Vavaʻu Islands',
+          sv: 'Vavaʻuöarna',
           es: 'Islas Vava\'u',
           fr: 'Îles Vava\'u',
           de: 'Vavaʻu-Inseln',
@@ -381,7 +451,7 @@ export const tonga: Country = {
       {
         name: {
           en: 'Haʻamonga ʻa Maui Trilithon',
-          sv: 'Haʻamonga ʻa Maui Trilithon',
+          sv: 'Triliten Haʻamonga ʻa Maui',
           es: 'Trilito de Haʻamonga ʻa Maui',
           fr: 'Ha\'amonga\'a Maui Trilithon',
           de: 'Haʻamonga ʻa Maui Trilithon',
@@ -453,7 +523,17 @@ export const tonga: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May–October offers drier weather and whale season (July–October).',
           sv: 'Maj–oktober erbjuder torrare väder och valsäsong (juli–oktober).',
@@ -467,7 +547,17 @@ export const tonga: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Modest clothing is expected, especially in villages and on Sundays.',
           sv: 'Det förväntas blygsamma kläder, särskilt i byar och på söndagar.',
@@ -481,7 +571,17 @@ export const tonga: Country = {
         },
       },
       {
-        item: 'Sunday observance',
+        item: {
+          en: 'Sunday observance',
+          sv: 'Söndagsvila',
+          es: 'Descanso dominical',
+          fr: 'Repos dominical',
+          de: 'Sonntagsruhe',
+          it: 'Riposo domenicale',
+          pl: 'Niedzielny odpoczynek',
+          nl: 'Zondagsrust',
+          pt: 'Descanso dominical',
+        },
         description: {
           en: 'Most businesses close on Sundays; plan activities accordingly.',
           sv: 'De flesta företag stänger på söndagar; planera verksamheten därefter.',
@@ -495,7 +595,17 @@ export const tonga: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Cash is widely used outside major hotels; ATMs are limited.',
           sv: 'Kontanter används i stor utsträckning utanför stora hotell; Uttagsautomater är begränsade.',
@@ -509,7 +619,17 @@ export const tonga: Country = {
         },
       },
       {
-        item: 'Respect & etiquette',
+        item: {
+          en: 'Respect & etiquette',
+          sv: 'Respekt och etikett',
+          es: 'Respeto y etiqueta',
+          fr: 'Respect et savoir-vivre',
+          de: 'Respekt und Etikette',
+          it: 'Rispetto e galateo',
+          pl: 'Szacunek i savoir-vivre',
+          nl: 'Respect en etiquette',
+          pt: 'Respeito e etiqueta',
+        },
         description: {
           en: 'Respect for elders, royalty, and church traditions is very important.',
           sv: 'Respekt för äldste, kungligheter och kyrkliga traditioner är mycket viktigt.',
@@ -580,7 +700,7 @@ export const tonga: Country = {
         {
           name: {
             en: 'Taro leaves',
-            sv: 'Taro blad',
+            sv: 'Taroblad',
             es: 'Hojas de taro',
             fr: 'Feuilles de taro',
             de: 'Taroblätter',
@@ -622,7 +742,7 @@ export const tonga: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -669,7 +789,7 @@ export const tonga: Country = {
         },
         {
           en: 'Bake in an earth oven (umu) or conventional oven',
-          sv: 'Baka i jordugn (umu) eller vanlig ugn',
+          sv: 'Tillaga i jordugn (umu) eller i vanlig ugn',
           es: 'Hornear en horno de tierra (umu) u horno convencional',
           fr: 'Cuire au four en terre (umu) ou au four conventionnel',
           de: 'Im Erdofen (umu) oder im herkömmlichen Ofen backen',
@@ -680,7 +800,7 @@ export const tonga: Country = {
         },
         {
           en: 'Cook for about 2 hours until tender',
-          sv: 'Koka i cirka 2 timmar tills de är mjuka',
+          sv: 'Låt tillagas i cirka 2 timmar tills köttet är mört',
           es: 'Cocine durante aproximadamente 2 horas hasta que estén tiernos',
           fr: 'Cuire environ 2 heures jusqu\'à tendreté',
           de: 'Etwa 2 Stunden kochen, bis es weich ist',
@@ -691,7 +811,7 @@ export const tonga: Country = {
         },
         {
           en: 'Serve with taro, yam, or cassava',
-          sv: 'Servera med taro, yam eller kassava',
+          sv: 'Servera med taro, jams eller kassava',
           es: 'Sirva con taro, ñame o yuca',
           fr: 'Servir avec du taro, de l\'igname ou du manioc',
           de: 'Mit Taro, Yamswurzel oder Maniok servieren',
@@ -718,7 +838,7 @@ export const tonga: Country = {
       },
       description: {
         en: 'Soft dumplings served in sweet coconut syrup, commonly enjoyed as a dessert.',
-        sv: 'Mjuka dumplings serverade i söt kokossirap, som vanligtvis avnjuts som efterrätt.',
+        sv: 'Mjuka degklimpar i söt kokossirap, en vanlig efterrätt.',
         es: 'Albóndigas suaves servidas en almíbar de coco dulce, comúnmente disfrutadas como postre.',
         fr: 'Dumplings moelleux servis dans du sirop de noix de coco sucré, couramment appréciés en dessert.',
         de: 'Weiche Knödel serviert in süßem Kokossirup, die häufig als Dessert genossen werden.',
@@ -745,7 +865,7 @@ export const tonga: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -821,7 +941,7 @@ export const tonga: Country = {
       steps: [
         {
           en: 'Mix flour and water to form a soft dough',
-          sv: 'Blanda mjöl och vatten till en mjuk deg',
+          sv: 'Blanda vetemjöl och vatten till en mjuk deg',
           es: 'Mezclar harina y agua hasta formar una masa suave',
           fr: 'Mélanger la farine et l\'eau pour former une pâte molle',
           de: 'Mehl und Wasser zu einem weichen Teig vermischen',
@@ -832,7 +952,7 @@ export const tonga: Country = {
         },
         {
           en: 'Shape into small dumplings',
-          sv: 'Forma till små dumplings',
+          sv: 'Forma små klimpar av degen',
           es: 'Forme pequeñas bolas de masa',
           fr: 'Façonner de petites boulettes',
           de: 'Kleine Knödel daraus formen',
@@ -843,7 +963,7 @@ export const tonga: Country = {
         },
         {
           en: 'Boil dumplings until they float',
-          sv: 'Koka dumplings tills de flyter',
+          sv: 'Koka klimparna tills de flyter upp',
           es: 'Hervir las bolas de masa hasta que floten',
           fr: 'Faire bouillir les boulettes jusqu\'à ce qu\'elles flottent',
           de: 'Knödel kochen, bis sie schwimmen',
@@ -854,7 +974,7 @@ export const tonga: Country = {
         },
         {
           en: 'Heat coconut milk and sugar in a separate pot',
-          sv: 'Värm kokosmjölk och socker i en separat gryta',
+          sv: 'Värm kokosmjölk och socker i en annan kastrull',
           es: 'Calentar la leche de coco y el azúcar en una olla aparte',
           fr: 'Faites chauffer le lait de coco et le sucre dans une casserole séparée',
           de: 'Kokosmilch und Zucker in einem separaten Topf erhitzen',
@@ -865,7 +985,7 @@ export const tonga: Country = {
         },
         {
           en: 'Add cooked dumplings to coconut sauce',
-          sv: 'Tillsätt kokta dumplings i kokossås',
+          sv: 'Lägg de kokta klimparna i kokossåsen',
           es: 'Agregue bolas de masa cocidas a la salsa de coco',
           fr: 'Ajouter les raviolis cuits à la sauce à la noix de coco',
           de: 'Gekochte Knödel zur Kokossauce hinzufügen',
@@ -887,7 +1007,7 @@ export const tonga: Country = {
         },
         {
           en: 'Serve warm',
-          sv: 'Servera varm',
+          sv: 'Servera varma',
           es: 'Servir caliente',
           fr: 'Servir chaud',
           de: 'Warm servieren',
@@ -1343,7 +1463,7 @@ export const tonga: Country = {
         options: [
           {
             en: 'Tongan Paʻanga',
-            sv: 'Tongan Paʻanga',
+            sv: 'Tongansk paʻanga',
             es: 'Pa\'anga tongano',
             fr: 'Pa\'anga tongien',
             de: 'Tongaisches Paʻanga',

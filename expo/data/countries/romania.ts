@@ -340,8 +340,28 @@ export const romania: Country = {
     ],
     history: [
       {
-        year: '106 AD',
-        title: 'Roman Dacia',
+        year: {
+          en: '106 AD',
+          sv: '106 e.Kr.',
+          es: '106 d. C.',
+          fr: '106 apr. J.-C.',
+          de: '106 n. Chr.',
+          it: '106 d.C.',
+          pl: '106 n.e.',
+          nl: '106 n.Chr.',
+          pt: '106 d.C.',
+        },
+        title: {
+          en: 'Roman Dacia',
+          sv: 'Romerska Dakien',
+          es: 'Dacia romana',
+          fr: 'Dacie romaine',
+          de: 'Römisches Dakien',
+          it: 'Dacia romana',
+          pl: 'Dacja rzymska',
+          nl: 'Romeins Dacië',
+          pt: 'Dácia romana',
+        },
         description: {
           en: 'The Romans conquered Dacia, bringing Latin language and culture that would form the basis of Romanian identity.',
           sv: 'Romarna erövrade Dacia och förde med sig latinskt språk och kultur som skulle utgöra grunden för den rumänska identiteten.',
@@ -355,8 +375,28 @@ export const romania: Country = {
         },
       },
       {
-        year: '14th century',
-        title: 'Principalities Formed',
+        year: {
+          en: '14th century',
+          sv: '1300-talet',
+          es: 'Siglo XIV',
+          fr: 'XIVe siècle',
+          de: '14. Jahrhundert',
+          it: 'XIV secolo',
+          pl: 'XIV wiek',
+          nl: '14e eeuw',
+          pt: 'Século XIV',
+        },
+        title: {
+          en: 'Principalities Formed',
+          sv: 'Furstendömena bildas',
+          es: 'Formación de los principados',
+          fr: 'Formation des principautés',
+          de: 'Entstehung der Fürstentümer',
+          it: 'Nascita dei principati',
+          pl: 'Powstanie księstw',
+          nl: 'Ontstaan van de vorstendommen',
+          pt: 'Formação dos principados',
+        },
         description: {
           en: 'Wallachia and Moldavia emerged as independent principalities, resisting Ottoman expansion.',
           sv: 'Valakien och Moldavien växte fram som självständiga furstendömen och gjorde motstånd mot den osmanska expansionen.',
@@ -396,7 +436,17 @@ export const romania: Country = {
       },
       {
         year: '1859',
-        title: 'United Principalities',
+        title: {
+          en: 'United Principalities',
+          sv: 'Förenade furstendömena',
+          es: 'Principados Unidos',
+          fr: 'Principautés unies',
+          de: 'Vereinigte Fürstentümer',
+          it: 'Principati Uniti',
+          pl: 'Zjednoczone Księstwa',
+          nl: 'Verenigde Vorstendommen',
+          pt: 'Principados Unidos',
+        },
         description: {
           en: 'Wallachia and Moldavia united, forming the basis of modern Romania.',
           sv: 'Valakien och Moldavien förenades och utgjorde grunden för det moderna Rumänien.',
@@ -411,7 +461,17 @@ export const romania: Country = {
       },
       {
         year: '1918',
-        title: 'Greater Romania',
+        title: {
+          en: 'Greater Romania',
+          sv: 'Storrumänien',
+          es: 'Gran Rumania',
+          fr: 'Grande Roumanie',
+          de: 'Großrumänien',
+          it: 'Grande Romania',
+          pl: 'Wielka Rumunia',
+          nl: 'Groot-Roemenië',
+          pt: 'Grande Romênia',
+        },
         description: {
           en: 'After World War I, Romania achieved its greatest territorial extent, uniting all Romanian-speaking regions.',
           sv: 'Efter första världskriget uppnådde Rumänien sin största territoriella utsträckning och förenade alla rumänsktalande regioner.',
@@ -426,7 +486,17 @@ export const romania: Country = {
       },
       {
         year: '1989',
-        title: 'Fall of Communism',
+        title: {
+          en: 'Fall of Communism',
+          sv: 'Kommunismens fall',
+          es: 'Caída del comunismo',
+          fr: 'Chute du communisme',
+          de: 'Ende des Kommunismus',
+          it: 'Caduta del comunismo',
+          pl: 'Upadek komunizmu',
+          nl: 'Val van het communisme',
+          pt: 'Queda do comunismo',
+        },
         description: {
           en: 'Romanian Revolution ended communist rule, leading to democratic reforms.',
           sv: 'Den rumänska revolutionen avslutade det kommunistiska styret, vilket ledde till demokratiska reformer.',
@@ -442,7 +512,17 @@ export const romania: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'EU citizens visa-free. Many others can visit up to 90 days without visa.',
           sv: 'EU-medborgare är visumfria. Många andra kan besöka upp till 90 dagar utan visum.',
@@ -456,7 +536,17 @@ export const romania: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to September for hiking; December to March for skiing',
           sv: 'Maj till september för vandring; December till mars för skidåkning',
@@ -470,7 +560,17 @@ export const romania: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Trains connect major cities, buses for rural areas, metro in Bucharest',
           sv: 'Tåg förbinder större städer, bussar för landsbygdsområden, tunnelbana i Bukarest',
@@ -484,7 +584,17 @@ export const romania: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Romanian official. English common in cities, French also understood.',
           sv: 'rumänsk tjänsteman. Engelska vanlig i städer, franska förstod också.',
@@ -498,7 +608,17 @@ export const romania: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe. Watch for pickpockets in tourist areas.',
           sv: 'Generellt säker. Se upp för ficktjuvar i turistområden.',
@@ -516,7 +636,7 @@ export const romania: Country = {
       {
         name: {
           en: 'Bran Castle',
-          sv: 'Bran Castle',
+          sv: 'Bran slott',
           es: 'Castillo de Bran',
           fr: 'Château de Bran',
           de: 'Schloss Bran',
@@ -564,7 +684,7 @@ export const romania: Country = {
       {
         name: {
           en: 'Transfăgărășan Highway',
-          sv: 'Transfăgărășan Highway',
+          sv: 'Transfăgărășan-vägen',
           es: 'Autopista Transfăgărășan',
           fr: 'Autoroute Transfăgărășan',
           de: 'Transfăgărășan-Autobahn',
@@ -649,7 +769,7 @@ export const romania: Country = {
       },
       description: {
         en: 'Traditional Romanian cabbage rolls stuffed with a mixture of ground meat and rice, slow-cooked in tomato sauce. A festive dish served at celebrations and holidays.',
-        sv: 'Traditionella rumänska kålrullar fyllda med en blandning av malet kött och ris, långsamt tillagade i tomatsås. En festlig rätt som serveras vid högtider och högtider.',
+        sv: 'Traditionella rumänska kålrullar fyllda med köttfärs och ris, långkokta i tomatsås. En festrätt som serveras vid fester och högtider.',
         es: 'Rollitos de col tradicionales rumanos rellenos con una mezcla de carne molida y arroz, cocidos a fuego lento en salsa de tomate. Un plato festivo que se sirve en celebraciones y días festivos.',
         fr: 'Rouleaux de chou roumains traditionnels farcis d\'un mélange de viande hachée et de riz, cuits lentement dans une sauce tomate. Un plat de fête servi lors des célébrations et des jours fériés.',
         de: 'Traditionelle rumänische Kohlrouladen, gefüllt mit einer Mischung aus Hackfleisch und Reis, langsam gegart in Tomatensauce. Ein festliches Gericht, das bei Feiern und Feiertagen serviert wird.',
@@ -676,7 +796,7 @@ export const romania: Country = {
         {
           name: {
             en: 'Sauerkraut leaves',
-            sv: 'Surkålsblad',
+            sv: 'Syrade kålblad',
             es: 'Hojas de chucrut',
             fr: 'Feuilles de choucroute',
             de: 'Sauerkrautblätter',
@@ -691,7 +811,7 @@ export const romania: Country = {
         {
           name: {
             en: 'Ground pork and beef',
-            sv: 'Malet fläsk och nötkött',
+            sv: 'Blandfärs (fläsk och nöt)',
             es: 'Carne molida de cerdo y ternera',
             fr: 'Porc et bœuf hachés',
             de: 'Hackfleisch vom Schwein und Rind',
@@ -857,7 +977,7 @@ export const romania: Country = {
       steps: [
         {
           en: 'Soak rice in water for 20 minutes',
-          sv: 'Blötlägg ris i vatten i 20 minuter',
+          sv: 'Blötlägg riset i vatten i 20 minuter',
           es: 'Remojar el arroz en agua durante 20 minutos',
           fr: 'Faire tremper le riz dans l\'eau pendant 20 minutes',
           de: 'Reis 20 Minuten in Wasser einweichen',
@@ -879,7 +999,7 @@ export const romania: Country = {
         },
         {
           en: 'Mix ground meat with rice, onions, paprika, and salt',
-          sv: 'Blanda malet kött med ris, lök, paprika och salt',
+          sv: 'Blanda färsen med ris, lök, paprikapulver och salt',
           es: 'Mezclar carne molida con arroz, cebolla, pimentón y sal',
           fr: 'Mélangez la viande hachée avec le riz, les oignons, le paprika et le sel',
           de: 'Hackfleisch mit Reis, Zwiebeln, Paprika und Salz mischen',
@@ -890,7 +1010,7 @@ export const romania: Country = {
         },
         {
           en: 'Separate sauerkraut leaves carefully',
-          sv: 'Separera surkålsbladen försiktigt',
+          sv: 'Lossa de syrade kålbladen försiktigt från varandra',
           es: 'Separe las hojas de chucrut con cuidado',
           fr: 'Séparez soigneusement les feuilles de choucroute',
           de: 'Sauerkrautblätter vorsichtig trennen',
@@ -901,7 +1021,7 @@ export const romania: Country = {
         },
         {
           en: 'Place meat mixture on each leaf, fold and roll tightly',
-          sv: 'Lägg köttblandningen på varje blad, vik ihop och rulla hårt',
+          sv: 'Lägg lite färs på varje blad, vik in kanterna och rulla ihop tätt',
           es: 'Coloque la mezcla de carne en cada hoja, doble y enrolle bien',
           fr: 'Placer le mélange de viande sur chaque feuille, plier et rouler fermement',
           de: 'Die Fleischmischung auf jedes Blatt legen, falten und fest aufrollen',
@@ -912,7 +1032,7 @@ export const romania: Country = {
         },
         {
           en: 'Line pot bottom with bacon and extra cabbage leaves',
-          sv: 'Klä krukans botten med bacon och extra kålblad',
+          sv: 'Täck botten av grytan med bacon och extra kålblad',
           es: 'Cubra el fondo de la olla con tocino y hojas de repollo adicionales',
           fr: 'Tapisser le fond de la casserole de bacon et de feuilles de chou supplémentaires',
           de: 'Den Topfboden mit Speck und zusätzlichen Kohlblättern auslegen',
@@ -923,7 +1043,7 @@ export const romania: Country = {
         },
         {
           en: 'Layer sarmale tightly in pot',
-          sv: 'Varva sarmale tätt i potten',
+          sv: 'Lägg sarmale tätt i lager i grytan',
           es: 'Coloque capas de sarmale bien ajustadas en la olla',
           fr: 'Étalez bien le sarmale dans le pot',
           de: 'Sarmale fest in den Topf schichten',
@@ -934,7 +1054,7 @@ export const romania: Country = {
         },
         {
           en: 'Mix tomato paste with water and pour over sarmale',
-          sv: 'Blanda tomatpuré med vatten och häll över sarmale',
+          sv: 'Rör ut tomatpurén i vatten och häll över sarmale',
           es: 'Mezclar pasta de tomate con agua y verter sobre sarmale',
           fr: 'Mélanger le concentré de tomate avec de l\'eau et verser sur le sarmale',
           de: 'Tomatenmark mit Wasser vermischen und über Sarmale gießen',
@@ -967,7 +1087,7 @@ export const romania: Country = {
         },
         {
           en: 'Serve hot with sour cream and mămăligă (polenta)',
-          sv: 'Servera varm med gräddfil och mămăligă (polenta)',
+          sv: 'Servera varma med gräddfil och mămăligă (polenta)',
           es: 'Servir caliente con crema agria y mămăligă (polenta)',
           fr: 'Servir chaud avec de la crème sure et de la mămăligă (polenta)',
           de: 'Heiß servieren mit Sauerrahm und Mămăligă (Polenta)',
@@ -994,7 +1114,7 @@ export const romania: Country = {
       },
       description: {
         en: 'Traditional sweet bread filled with walnut or cocoa paste, served at Christmas and Easter celebrations',
-        sv: 'Traditionellt sött bröd fyllt med valnöts- eller kakaopasta, serveras vid jul- och påskfirande',
+        sv: 'Traditionellt sött bröd med valnöts- eller kakaofyllning som serveras till jul och påsk',
         es: 'Pan dulce tradicional relleno de nuez o pasta de cacao, servido en las celebraciones de Navidad y Semana Santa',
         fr: 'Pain sucré traditionnel fourré à la pâte de noix ou de cacao, servi lors des fêtes de Noël et de Pâques',
         de: 'Traditionelles süßes Brot gefüllt mit Walnuss- oder Kakaomasse, serviert zu Weihnachts- und Osterfeierlichkeiten',
@@ -1021,7 +1141,7 @@ export const romania: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1176,7 +1296,7 @@ export const romania: Country = {
         {
           name: {
             en: 'Ground walnuts (for filling)',
-            sv: 'Malda valnötter (för fyllning)',
+            sv: 'Malda valnötter (till fyllningen)',
             es: 'Nueces molidas (para relleno)',
             fr: 'Noix moulues (pour la garniture)',
             de: 'Gemahlene Walnüsse (zum Füllen)',
@@ -1191,7 +1311,7 @@ export const romania: Country = {
         {
           name: {
             en: 'Cocoa powder (for filling)',
-            sv: 'Kakaopulver (för fyllning)',
+            sv: 'Kakaopulver (till fyllningen)',
             es: 'Cacao en polvo (para relleno)',
             fr: 'Poudre de cacao (pour garniture)',
             de: 'Kakaopulver (zum Füllen)',
@@ -1221,7 +1341,7 @@ export const romania: Country = {
         {
           name: {
             en: 'Milk (for filling)',
-            sv: 'Mjölk (för fyllning)',
+            sv: 'Mjölk (till fyllningen)',
             es: 'Leche (para relleno)',
             fr: 'Lait (pour la garniture)',
             de: 'Milch (zum Füllen)',
@@ -1237,7 +1357,7 @@ export const romania: Country = {
       steps: [
         {
           en: 'Dissolve yeast in warm milk with 1 tbsp sugar, let stand 10 minutes',
-          sv: 'Lös upp jäst i varm mjölk med 1 msk socker, låt stå i 10 minuter',
+          sv: 'Lös upp jästen i den ljumma mjölken med 1 msk socker och låt stå i 10 minuter',
           es: 'Disolver la levadura en la leche tibia con 1 cucharada de azúcar, dejar reposar 10 minutos',
           fr: 'Dissoudre la levure dans le lait tiède avec 1 cuillère à soupe de sucre, laisser reposer 10 minutes',
           de: 'Hefe in warmer Milch mit 1 EL Zucker auflösen, 10 Minuten stehen lassen',
@@ -1248,7 +1368,7 @@ export const romania: Country = {
         },
         {
           en: 'Mix flour, remaining sugar, and salt in large bowl',
-          sv: 'Blanda mjöl, resterande socker och salt i en stor skål',
+          sv: 'Blanda vetemjöl, resten av sockret och saltet i en stor skål',
           es: 'Mezcle la harina, el azúcar restante y la sal en un tazón grande',
           fr: 'Mélanger la farine, le reste du sucre et le sel dans un grand bol',
           de: 'Mehl, restlichen Zucker und Salz in einer großen Schüssel vermischen',
@@ -1259,7 +1379,7 @@ export const romania: Country = {
         },
         {
           en: 'Add eggs, melted butter, yeast mixture, vanilla, and lemon zest',
-          sv: 'Tillsätt ägg, smält smör, jästblandning, vanilj och citronskal',
+          sv: 'Tillsätt ägg, smält smör, jästblandningen, vanilj och citronskal',
           es: 'Agrega los huevos, la mantequilla derretida, la mezcla de levadura, la vainilla y la ralladura de limón',
           fr: 'Ajouter les œufs, le beurre fondu, le mélange de levure, la vanille et le zeste de citron',
           de: 'Eier, geschmolzene Butter, Hefemischung, Vanille und Zitronenschale hinzufügen',
@@ -1270,7 +1390,7 @@ export const romania: Country = {
         },
         {
           en: 'Knead until smooth and elastic (15 minutes)',
-          sv: 'Knåda tills den är slät och elastisk (15 minuter)',
+          sv: 'Knåda degen tills den är slät och elastisk (15 minuter)',
           es: 'Amasar hasta que quede suave y elástico (15 minutos)',
           fr: 'Pétrir jusqu\'à consistance lisse et élastique (15 minutes)',
           de: 'Kneten, bis es glatt und elastisch ist (15 Minuten)',
@@ -1281,7 +1401,7 @@ export const romania: Country = {
         },
         {
           en: 'Cover and let rise until doubled (about 90 minutes)',
-          sv: 'Täck över och låt jäsa tills det fördubblats (ca 90 minuter)',
+          sv: 'Täck över och låt degen jäsa till dubbel storlek (ca 90 minuter)',
           es: 'Cubra y deje crecer hasta que duplique (aproximadamente 90 minutos)',
           fr: 'Couvrir et laisser lever jusqu\'à ce qu\'il double (environ 90 minutes)',
           de: 'Abdecken und gehen lassen, bis sich das Volumen verdoppelt hat (ca. 90 Minuten)',
@@ -1292,7 +1412,7 @@ export const romania: Country = {
         },
         {
           en: 'Make filling: mix walnuts, cocoa, sugar, and milk into paste',
-          sv: 'Gör fyllning: blanda valnötter, kakao, socker och mjölk till pasta',
+          sv: 'Gör fyllningen: blanda valnötter, kakao, socker och mjölk till en kräm',
           es: 'Haga el relleno: mezcle nueces, cacao, azúcar y leche hasta formar una pasta',
           fr: 'Préparez la garniture : mélangez les noix, le cacao, le sucre et le lait pour obtenir une pâte',
           de: 'Füllung herstellen: Walnüsse, Kakao, Zucker und Milch zu einer Paste vermischen',
@@ -1303,7 +1423,7 @@ export const romania: Country = {
         },
         {
           en: 'Roll dough into rectangle, spread filling evenly',
-          sv: 'Rulla degen till en rektangel, fördela fyllningen jämnt',
+          sv: 'Kavla ut degen till en rektangel och bred ut fyllningen jämnt',
           es: 'Enrolle la masa formando un rectángulo y extienda el relleno uniformemente',
           fr: 'Abaisser la pâte en rectangle et étaler la garniture uniformément',
           de: 'Den Teig zu einem Rechteck ausrollen, die Füllung gleichmäßig verteilen',
@@ -1314,7 +1434,7 @@ export const romania: Country = {
         },
         {
           en: 'Roll tightly into log, place in greased loaf pan',
-          sv: 'Rulla hårt till stock, lägg i smord brödform',
+          sv: 'Rulla ihop degen tätt till en rulle och lägg den i en smord brödform',
           es: 'Enrolle bien hasta formar un tronco y colóquelo en un molde para pan engrasado',
           fr: 'Rouler fermement en bûche, placer dans un moule à pain graissé',
           de: 'Fest zu einem Baumstamm rollen und in eine gefettete Kastenform legen',
@@ -1325,7 +1445,7 @@ export const romania: Country = {
         },
         {
           en: 'Let rise 30 minutes',
-          sv: 'Låt jäsa 30 minuter',
+          sv: 'Låt jäsa i 30 minuter',
           es: 'Dejar leudar 30 minutos',
           fr: 'Laisser lever 30 minutes',
           de: '30 Minuten gehen lassen',
@@ -1347,7 +1467,7 @@ export const romania: Country = {
         },
         {
           en: 'Bake at 180°C for 45-50 minutes until golden',
-          sv: 'Grädda i 180°C i 45-50 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 45-50 minuter tills brödet är gyllenbrunt',
           es: 'Hornear a 180°C durante 45-50 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 45 à 50 minutes jusqu\'à ce qu\'ils soient dorés',
           de: 'Bei 180°C 45–50 Minuten goldbraun backen',
@@ -1358,7 +1478,7 @@ export const romania: Country = {
         },
         {
           en: 'Cool before slicing',
-          sv: 'Kyl innan du skär',
+          sv: 'Låt svalna innan du skär upp brödet',
           es: 'Dejar enfriar antes de cortar',
           fr: 'Laisser refroidir avant de trancher',
           de: 'Vor dem Schneiden abkühlen',
@@ -1503,7 +1623,7 @@ export const romania: Country = {
           },
           {
             en: 'Corvin Castle',
-            sv: 'Corvin Castle',
+            sv: 'Corvin slott',
             es: 'Castillo de Corvin',
             fr: 'Château de Corvin',
             de: 'Corvin Castle',
@@ -1514,7 +1634,7 @@ export const romania: Country = {
           },
           {
             en: 'Bran Castle',
-            sv: 'Bran Castle',
+            sv: 'Bran slott',
             es: 'Castillo de Bran',
             fr: 'Château de Bran',
             de: 'Schloss Bran',

@@ -125,7 +125,7 @@ export const turkmenistan: Country = {
         },
         value: {
           en: 'Turkmenistan Manat',
-          sv: 'Turkmenistan Manat',
+          sv: 'Turkmenistansk manat',
           es: 'Manat de Turkmenistán',
           fr: 'Turkménistan Manat',
           de: 'Turkmenistan-Manat',
@@ -241,8 +241,28 @@ export const turkmenistan: Country = {
     },
     history: [
       {
-        year: '3rd Century BC',
-        title: 'Silk Road Era',
+        year: {
+          en: '3rd Century BC',
+          sv: '200-talet f.Kr.',
+          es: 'Siglo III a. C.',
+          fr: 'IIIe siècle av. J.-C.',
+          de: '3. Jahrhundert v. Chr.',
+          it: 'III secolo a.C.',
+          pl: 'III wiek p.n.e.',
+          nl: '3e eeuw v.Chr.',
+          pt: 'Século III a.C.',
+        },
+        title: {
+          en: 'Silk Road Era',
+          sv: 'Sidenvägens era',
+          es: 'Época de la Ruta de la Seda',
+          fr: 'Époque de la route de la soie',
+          de: 'Zeit der Seidenstraße',
+          it: 'Epoca della Via della Seta',
+          pl: 'Era Jedwabnego Szlaku',
+          nl: 'Tijdperk van de Zijderoute',
+          pt: 'Era da Rota da Seda',
+        },
         description: {
           en: 'Cities like Merv became major centers of trade, culture, and learning along the Silk Road.',
           sv: 'Städer som Merv blev stora centra för handel, kultur och lärande längs sidenvägen.',
@@ -256,8 +276,28 @@ export const turkmenistan: Country = {
         },
       },
       {
-        year: '11th Century',
-        title: 'Seljuk Empire',
+        year: {
+          en: '11th Century',
+          sv: '1000-talet',
+          es: 'Siglo XI',
+          fr: 'XIe siècle',
+          de: '11. Jahrhundert',
+          it: 'XI secolo',
+          pl: 'XI wiek',
+          nl: '11e eeuw',
+          pt: 'Século XI',
+        },
+        title: {
+          en: 'Seljuk Empire',
+          sv: 'Seldjukiska riket',
+          es: 'Imperio selyúcida',
+          fr: 'Empire seldjoukide',
+          de: 'Seldschukenreich',
+          it: 'Impero selgiuchide',
+          pl: 'Imperium Seldżuków',
+          nl: 'Seltsjoekenrijk',
+          pt: 'Império Seljúcida',
+        },
         description: {
           en: 'The Seljuks ruled much of the region, spreading Turkic culture and Islamic scholarship.',
           sv: 'Seljukerna styrde stora delar av regionen och spred turkisk kultur och islamisk vetenskap.',
@@ -272,7 +312,17 @@ export const turkmenistan: Country = {
       },
       {
         year: '1881',
-        title: 'Russian Conquest',
+        title: {
+          en: 'Russian Conquest',
+          sv: 'Rysk erövring',
+          es: 'Conquista rusa',
+          fr: 'Conquête russe',
+          de: 'Russische Eroberung',
+          it: 'Conquista russa',
+          pl: 'Podbój rosyjski',
+          nl: 'Russische verovering',
+          pt: 'Conquista russa',
+        },
         description: {
           en: 'The region was absorbed into the Russian Empire after the Battle of Geok Tepe.',
           sv: 'Regionen absorberades av det ryska imperiet efter slaget vid Geok Tepe.',
@@ -287,7 +337,17 @@ export const turkmenistan: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Turkmenistan gained independence following the collapse of the Soviet Union.',
           sv: 'Turkmenistan blev självständigt efter Sovjetunionens kollaps.',
@@ -314,7 +374,17 @@ export const turkmenistan: Country = {
           nl: 'Turkmeense tapijten',
           pt: 'Tapetes turcomanos',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Handwoven carpets are a national symbol and are recognized by UNESCO as intangible cultural heritage.',
           sv: 'Handvävda mattor är en nationell symbol och erkänns av UNESCO som immateriellt kulturarv.',
@@ -339,7 +409,17 @@ export const turkmenistan: Country = {
           nl: 'Woestijnirrigatiesystemen',
           pt: 'Sistemas de irrigação do deserto',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Large-scale irrigation projects transformed arid land for agriculture, especially cotton.',
           sv: 'Storskaliga bevattningsprojekt förvandlade torr mark för jordbruk, särskilt bomull.',
@@ -364,7 +444,17 @@ export const turkmenistan: Country = {
           nl: 'Stedenbouw in wit marmer',
           pt: 'Design urbano em mármore branco',
         },
-        year: 'Modern Era',
+        year: {
+          en: 'Modern Era',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Ashgabat\'s architecture features extensive use of white marble, earning world records.',
           sv: 'Ashgabats arkitektur har omfattande användning av vit marmor, vilket tjänar världsrekord.',
@@ -502,7 +592,17 @@ export const turkmenistan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa requirements',
+        item: {
+          en: 'Visa requirements',
+          sv: 'Visumkrav',
+          es: 'Requisitos de visa',
+          fr: 'Conditions de visa',
+          de: 'Visabestimmungen',
+          it: 'Requisiti per il visto',
+          pl: 'Wymogi wizowe',
+          nl: 'Visumvereisten',
+          pt: 'Exigências de visto',
+        },
         description: {
           en: 'Most visitors require a visa and official invitation; travel planning is essential.',
           sv: 'De flesta besökare kräver visum och officiell inbjudan; reseplanering är viktigt.',
@@ -516,7 +616,17 @@ export const turkmenistan: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Spring (April–May) and autumn (September–October) offer the most comfortable weather.',
           sv: 'Våren (april–maj) och hösten (september–oktober) erbjuder det mest behagliga vädret.',
@@ -530,7 +640,17 @@ export const turkmenistan: Country = {
         },
       },
       {
-        item: 'Getting around',
+        item: {
+          en: 'Getting around',
+          sv: 'Att ta sig runt',
+          es: 'Cómo moverse',
+          fr: 'Se déplacer',
+          de: 'Unterwegs vor Ort',
+          it: 'Come spostarsi',
+          pl: 'Poruszanie się',
+          nl: 'Vervoer ter plaatse',
+          pt: 'Como se locomover',
+        },
         description: {
           en: 'Travel is controlled; guided tours are common for foreign visitors.',
           sv: 'Resan är kontrollerad; guidade turer är vanliga för utländska besökare.',
@@ -568,7 +688,17 @@ export const turkmenistan: Country = {
         },
       },
       {
-        item: 'Cultural respect',
+        item: {
+          en: 'Cultural respect',
+          sv: 'Respekt för kulturen',
+          es: 'Respeto cultural',
+          fr: 'Respect de la culture',
+          de: 'Respekt vor der Kultur',
+          it: 'Rispetto culturale',
+          pl: 'Szacunek dla kultury',
+          nl: 'Respect voor de cultuur',
+          pt: 'Respeito cultural',
+        },
         description: {
           en: 'Modest clothing and respectful behavior are expected, especially outside cities.',
           sv: 'Anspråkslös klädsel och respektfullt beteende förväntas, särskilt utanför städer.',
@@ -666,7 +796,7 @@ export const turkmenistan: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -691,7 +821,7 @@ export const turkmenistan: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -704,7 +834,7 @@ export const turkmenistan: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -719,7 +849,7 @@ export const turkmenistan: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -750,7 +880,7 @@ export const turkmenistan: Country = {
       steps: [
         {
           en: 'Heat oil in a large heavy-bottomed pot',
-          sv: 'Värm olja i en stor tjockbottnad gryta',
+          sv: 'Hetta upp oljan i en stor gryta med tjock botten',
           es: 'Calentar aceite en una olla grande de fondo grueso',
           fr: 'Faites chauffer l\'huile dans une grande casserole à fond épais',
           de: 'Öl in einem großen Topf mit starkem Boden erhitzen',
@@ -772,7 +902,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Add sliced onions and cook until soft',
-          sv: 'Lägg i skivad lök och koka tills den är mjuk',
+          sv: 'Tillsätt skivad lök och fräs tills den har mjuknat',
           es: 'Agregue las cebollas en rodajas y cocine hasta que estén suaves',
           fr: 'Ajouter les oignons émincés et cuire jusqu\'à ce qu\'ils soient tendres',
           de: 'In Scheiben geschnittene Zwiebeln dazugeben und weich kochen',
@@ -783,7 +913,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Stir in julienned carrots and cumin',
-          sv: 'Rör i julienned morötter och spiskummin',
+          sv: 'Rör ner tunt strimlade morötter och spiskummin',
           es: 'Agregue las zanahorias cortadas en juliana y el comino',
           fr: 'Incorporer les carottes en julienne et le cumin',
           de: 'Julienne-Karotten und Kreuzkümmel unterrühren',
@@ -794,7 +924,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Add water to cover meat and simmer for 30 minutes',
-          sv: 'Tillsätt vatten så att köttet täcker och låt sjuda i 30 minuter',
+          sv: 'Häll på vatten så att det täcker köttet och låt sjuda i 30 minuter',
           es: 'Agregue agua para cubrir la carne y cocine a fuego lento durante 30 minutos',
           fr: 'Ajouter de l\'eau pour couvrir la viande et laisser mijoter pendant 30 minutes',
           de: 'Wasser hinzufügen, bis das Fleisch bedeckt ist, und 30 Minuten köcheln lassen',
@@ -816,7 +946,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Cover and steam until rice is tender and liquid absorbed',
-          sv: 'Täck över och ånga tills riset är mört och vätskan absorberats',
+          sv: 'Lägg på lock och låt riset ånga tills det är mjukt och vätskan har sugits upp',
           es: 'Cubra y cocine al vapor hasta que el arroz esté tierno y se absorba el líquido',
           fr: 'Couvrir et cuire à la vapeur jusqu\'à ce que le riz soit tendre et que le liquide soit absorbé',
           de: 'Abdecken und dämpfen, bis der Reis weich ist und die Flüssigkeit aufgesogen ist',
@@ -827,7 +957,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Fluff gently before serving',
-          sv: 'Fluffa försiktigt före servering',
+          sv: 'Lucka försiktigt upp riset med en gaffel före servering',
           es: 'Revuelva suavemente antes de servir',
           fr: 'Remuez doucement avant de servir',
           de: 'Vor dem Servieren vorsichtig auflockern',
@@ -854,7 +984,7 @@ export const turkmenistan: Country = {
       },
       description: {
         en: 'A traditional Central Asian dessert made from fried dough pieces bound together with honey syrup.',
-        sv: 'En traditionell centralasiatisk dessert gjord av stekta degbitar sammanbundna med honungssirap.',
+        sv: 'En traditionell centralasiatisk dessert av friterade degbitar som binds samman med honungssirap.',
         es: 'Un postre tradicional de Asia Central elaborado con trozos de masa frita unidos con almíbar de miel.',
         fr: 'Un dessert traditionnel d\'Asie centrale à base de morceaux de pâte frits liés ensemble avec du sirop de miel.',
         de: 'Ein traditionelles zentralasiatisches Dessert aus frittierten Teigstücken, die mit Honigsirup zusammengebunden werden.',
@@ -881,7 +1011,7 @@ export const turkmenistan: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -908,7 +1038,7 @@ export const turkmenistan: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -921,7 +1051,7 @@ export const turkmenistan: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -951,7 +1081,7 @@ export const turkmenistan: Country = {
         {
           name: {
             en: 'Vegetable oil (for frying)',
-            sv: 'Vegetabilisk olja (för stekning)',
+            sv: 'Neutral olja (till stekning)',
             es: 'Aceite vegetal (para freír)',
             fr: 'Huile végétale (pour la friture)',
             de: 'Pflanzenöl (zum Braten)',
@@ -978,7 +1108,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Roll dough thin and cut into small strips or balls',
-          sv: 'Rulla degen tunn och skär i små remsor eller bollar',
+          sv: 'Kavla ut degen tunt och skär den i små remsor, eller rulla den till små kulor',
           es: 'Enrolle la masa hasta que quede fina y córtela en tiras o bolitas pequeñas',
           fr: 'Abaisser la pâte finement et la couper en petites bandes ou boules',
           de: 'Den Teig dünn ausrollen und in kleine Streifen oder Kugeln schneiden',
@@ -989,7 +1119,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Deep-fry until golden and crisp',
-          sv: 'Fritera tills de är gyllene och knapriga',
+          sv: 'Fritera degbitarna tills de är gyllene och krispiga',
           es: 'Freír hasta que estén dorados y crujientes',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés et croustillants',
           de: 'Frittieren, bis es goldbraun und knusprig ist',
@@ -1000,7 +1130,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Heat honey and sugar until smooth',
-          sv: 'Värm honung och socker tills det är slätt',
+          sv: 'Värm honung och socker tills sockret har smält och sirapen är slät',
           es: 'Calienta la miel y el azúcar hasta que quede suave',
           fr: 'Chauffer le miel et le sucre jusqu\'à consistance lisse',
           de: 'Honig und Zucker erhitzen, bis eine glatte Masse entsteht',
@@ -1011,7 +1141,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Pour syrup over fried dough and mix well',
-          sv: 'Häll sirap över stekt deg och blanda väl',
+          sv: 'Häll sirapen över de friterade degbitarna och blanda väl',
           es: 'Vierta el almíbar sobre la masa frita y mezcle bien',
           fr: 'Verser le sirop sur la pâte frite et bien mélanger',
           de: 'Sirup über den frittierten Teig gießen und gut vermischen',
@@ -1022,7 +1152,7 @@ export const turkmenistan: Country = {
         },
         {
           en: 'Shape into a mound and let cool before serving',
-          sv: 'Forma till en hög och låt svalna innan servering',
+          sv: 'Forma till en hög och låt svalna före servering',
           es: 'Forme un montículo y déjelo enfriar antes de servir',
           fr: 'Formez un monticule et laissez refroidir avant de servir',
           de: 'Zu einem Hügel formen und vor dem Servieren abkühlen lassen',
@@ -1224,7 +1354,7 @@ export const turkmenistan: Country = {
           },
           {
             en: 'Darvaza crater',
-            sv: 'Darvaza krater',
+            sv: 'Darvazakratern',
             es: 'Cráter de Darvaza',
             fr: 'Cratère Darvaza',
             de: 'Darvaza-Krater',
@@ -1235,7 +1365,7 @@ export const turkmenistan: Country = {
           },
           {
             en: 'Ustyurt Plateau',
-            sv: 'Ustyurt Plateau',
+            sv: 'Ustjurtplatån',
             es: 'Meseta de Ustyurt',
             fr: 'Plateau d\'Oustyurt',
             de: 'Ustjurt-Plateau',
@@ -1579,7 +1709,7 @@ export const turkmenistan: Country = {
         options: [
           {
             en: 'Amber Road',
-            sv: 'Amber Road',
+            sv: 'Bärnstensvägen',
             es: 'Camino ámbar',
             fr: 'Route de l\'Ambre',
             de: 'Bernsteinstraße',
@@ -1590,7 +1720,7 @@ export const turkmenistan: Country = {
           },
           {
             en: 'Spice Route',
-            sv: 'Kryddväg',
+            sv: 'Kryddvägen',
             es: 'Ruta de las Especias',
             fr: 'Route des épices',
             de: 'Gewürzroute',
@@ -1612,7 +1742,7 @@ export const turkmenistan: Country = {
           },
           {
             en: 'Royal Road',
-            sv: 'Royal Road',
+            sv: 'Kungsvägen',
             es: 'Camino Real',
             fr: 'Route Royale',
             de: 'Königsstraße',

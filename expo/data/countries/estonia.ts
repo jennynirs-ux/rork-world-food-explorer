@@ -264,7 +264,17 @@ export const estonia: Country = {
     history: [
       {
         year: '1219',
-        title: 'Danish Conquest',
+        title: {
+          en: 'Danish Conquest',
+          sv: 'Danska erövringen',
+          es: 'Conquista danesa',
+          fr: 'Conquête danoise',
+          de: 'Dänische Eroberung',
+          it: 'Conquista danese',
+          pl: 'Duński podbój',
+          nl: 'Deense verovering',
+          pt: 'Conquista dinamarquesa',
+        },
         description: {
           en: 'Denmark conquered northern Estonia. The Danish flag allegedly fell from the sky during the battle.',
           sv: 'Danmark erövrade norra Estland. Den danska flaggan ska ha fallit från himlen under striden.',
@@ -279,7 +289,17 @@ export const estonia: Country = {
       },
       {
         year: '1561-1721',
-        title: 'Swedish Period',
+        title: {
+          en: 'Swedish Period',
+          sv: 'Den svenska tiden',
+          es: 'Período sueco',
+          fr: 'Période suédoise',
+          de: 'Schwedische Zeit',
+          it: 'Periodo svedese',
+          pl: 'Okres szwedzki',
+          nl: 'Zweedse tijd',
+          pt: 'Período sueco',
+        },
         description: {
           en: 'Estonia came under Swedish rule, considered a golden age with education reforms.',
           sv: 'Estland kom under svenskt styre, ansett som en guldålder med utbildningsreformer.',
@@ -294,7 +314,17 @@ export const estonia: Country = {
       },
       {
         year: '1918',
-        title: 'First Independence',
+        title: {
+          en: 'First Independence',
+          sv: 'Första självständigheten',
+          es: 'Primera independencia',
+          fr: 'Première indépendance',
+          de: 'Erste Unabhängigkeit',
+          it: 'Prima indipendenza',
+          pl: 'Pierwsza niepodległość',
+          nl: 'Eerste onafhankelijkheid',
+          pt: 'Primeira independência',
+        },
         description: {
           en: 'Estonia declared independence and successfully defended it in the War of Independence.',
           sv: 'Estland förklarade självständighet och försvarade det framgångsrikt i frihetskriget.',
@@ -309,7 +339,17 @@ export const estonia: Country = {
       },
       {
         year: '1940-1991',
-        title: 'Soviet Occupation',
+        title: {
+          en: 'Soviet Occupation',
+          sv: 'Sovjetisk ockupation',
+          es: 'Ocupación soviética',
+          fr: 'Occupation soviétique',
+          de: 'Sowjetische Besatzung',
+          it: 'Occupazione sovietica',
+          pl: 'Okupacja sowiecka',
+          nl: 'Sovjetbezetting',
+          pt: 'Ocupação soviética',
+        },
         description: {
           en: 'Estonia was occupied by the Soviet Union, enduring deportations and Russification.',
           sv: 'Estland ockuperades av Sovjetunionen och fick utstå deportationer och förryskning.',
@@ -324,7 +364,17 @@ export const estonia: Country = {
       },
       {
         year: '1991',
-        title: 'Independence Restored',
+        title: {
+          en: 'Independence Restored',
+          sv: 'Återvunnen självständighet',
+          es: 'Independencia restaurada',
+          fr: 'Indépendance retrouvée',
+          de: 'Wiederherstellung der Unabhängigkeit',
+          it: 'Indipendenza ritrovata',
+          pl: 'Odzyskanie niepodległości',
+          nl: 'Onafhankelijkheid hersteld',
+          pt: 'Independência restaurada',
+        },
         description: {
           en: 'Estonia regained independence through the Singing Revolution, a peaceful movement.',
           sv: 'Estland återvann självständighet genom den sjungande revolutionen, en fredlig rörelse.',
@@ -339,7 +389,17 @@ export const estonia: Country = {
       },
       {
         year: '2011',
-        title: 'Euro Adoption',
+        title: {
+          en: 'Euro Adoption',
+          sv: 'Införandet av euron',
+          es: 'Adopción del euro',
+          fr: 'Adoption de l\'euro',
+          de: 'Einführung des Euro',
+          it: 'Adozione dell\'euro',
+          pl: 'Przyjęcie euro',
+          nl: 'Invoering van de euro',
+          pt: 'Adoção do euro',
+        },
         description: {
           en: 'Estonia adopted the Euro, becoming the first ex-Soviet state to do so.',
           sv: 'Estland antog euron och blev den första före detta sovjetstaten att göra det.',
@@ -429,7 +489,7 @@ export const estonia: Country = {
       {
         name: {
           en: 'Saaremaa Island',
-          sv: 'Saaremaa Island',
+          sv: 'Saaremaa (Ösel)',
           es: 'Isla Saaremaa',
           fr: 'Île de Saaremaa',
           de: 'Insel Saaremaa',
@@ -453,7 +513,7 @@ export const estonia: Country = {
       {
         name: {
           en: 'Pärnu Beach',
-          sv: 'Pärnu Beach',
+          sv: 'Pärnus strand',
           es: 'Playa de Pärnu',
           fr: 'Plage de Parnu',
           de: 'Strand von Pärnu',
@@ -477,7 +537,17 @@ export const estonia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for warm weather and white nights',
           sv: 'Maj-september för varmt väder och vita nätter',
@@ -491,7 +561,17 @@ export const estonia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'EU member. Schengen visa rules apply.',
           sv: 'EU-medlem. Schengenvisumregler gäller.',
@@ -505,7 +585,17 @@ export const estonia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent public transport. Tallinn has free public transport for residents.',
           sv: 'Utmärkt kollektivtrafik. Tallinn har gratis kollektivtrafik för invånarna.',
@@ -519,7 +609,17 @@ export const estonia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Estonian. English widely spoken, especially by younger generation.',
           sv: 'estniska. Engelska talas mycket, särskilt av den yngre generationen.',
@@ -533,7 +633,17 @@ export const estonia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe. One of the safest countries in Europe.',
           sv: 'Mycket säker. Ett av de säkraste länderna i Europa.',
@@ -551,7 +661,7 @@ export const estonia: Country = {
       id: 'estonia-verivorst',
       name: {
         en: 'Verivorst with Mulgipuder',
-        sv: 'Verivorst med Mulgipuder',
+        sv: 'Verivorst med mulgipuder',
         es: 'Verivorst con Mulgipuder',
         fr: 'Verivorst avec Mulgipuder',
         de: 'Verivorst mit Mulgipuder',
@@ -562,7 +672,7 @@ export const estonia: Country = {
       },
       description: {
         en: 'Traditional Estonian blood sausage served with mashed potatoes and barley, a Christmas favorite',
-        sv: 'Traditionell estnisk blodkorv serverad med potatismos och korn, en julfavorit',
+        sv: 'Traditionell estnisk blodkorv med mos av potatis och korngryn – en julklassiker',
         es: 'Morcilla tradicional estonia servida con puré de patatas y cebada, una de las favoritas navideñas',
         fr: 'Boudin estonien traditionnel servi avec de la purée de pommes de terre et de l\'orge, un favori de Noël',
         de: 'Traditionelle estnische Blutwurst, serviert mit Kartoffelpüree und Gerste, ein Weihnachtsfavorit',
@@ -716,7 +826,7 @@ export const estonia: Country = {
         },
         {
           en: 'Boil potatoes until soft, then drain',
-          sv: 'Koka potatisen tills den är mjuk och låt den rinna av',
+          sv: 'Koka potatisen mjuk och häll av vattnet',
           es: 'Hervir las patatas hasta que estén blandas y luego escurrirlas',
           fr: 'Faire bouillir les pommes de terre jusqu\'à ce qu\'elles soient tendres, puis égoutter',
           de: 'Kartoffeln weich kochen, dann abtropfen lassen',
@@ -727,7 +837,7 @@ export const estonia: Country = {
         },
         {
           en: 'Mash potatoes and mix with cooked barley',
-          sv: 'Mosa potatis och blanda med kokt korn',
+          sv: 'Mosa potatisen och blanda med de kokta korngrynen',
           es: 'Triturar patatas y mezclar con cebada cocida',
           fr: 'Écraser les pommes de terre et mélanger avec l\'orge cuite',
           de: 'Kartoffeln zerstampfen und mit gekochter Gerste vermischen',
@@ -738,7 +848,7 @@ export const estonia: Country = {
         },
         {
           en: 'Add butter and sour cream to the potato-barley mixture',
-          sv: 'Tillsätt smör och gräddfil i potatis-kornblandningen',
+          sv: 'Tillsätt smör och gräddfil i moset',
           es: 'Agregue mantequilla y crema agria a la mezcla de papa y cebada',
           fr: 'Ajouter le beurre et la crème sure au mélange pomme de terre-orge',
           de: 'Butter und Sauerrahm zur Kartoffel-Gersten-Mischung hinzufügen',
@@ -749,7 +859,7 @@ export const estonia: Country = {
         },
         {
           en: 'Season with salt and mix until creamy',
-          sv: 'Krydda med salt och blanda tills det blir krämigt',
+          sv: 'Smaka av med salt och rör tills moset är krämigt',
           es: 'Sazone con sal y mezcle hasta que esté cremoso',
           fr: 'Assaisonner avec du sel et mélanger jusqu\'à obtenir une consistance crémeuse',
           de: 'Mit Salz würzen und cremig rühren',
@@ -760,7 +870,7 @@ export const estonia: Country = {
         },
         {
           en: 'Fry blood sausage in a pan until heated through and crispy',
-          sv: 'Stek blodkorv i panna tills den är genomvärmd och krispig',
+          sv: 'Stek blodkorven i en panna tills den är genomvarm och krispig',
           es: 'Freír la morcilla en una sartén hasta que esté bien caliente y crujiente',
           fr: 'Faire frire le boudin dans une poêle jusqu\'à ce qu\'il soit bien chaud et croustillant',
           de: 'Blutwurst in einer Pfanne anbraten, bis sie durchgewärmt und knusprig ist',
@@ -771,7 +881,7 @@ export const estonia: Country = {
         },
         {
           en: 'Serve sausage on top of mulgipuder (potato-barley mash)',
-          sv: 'Servera korv ovanpå mulgipuder (potatis-kornmos)',
+          sv: 'Servera korven ovanpå mulgipudern (mos av potatis och korngryn)',
           es: 'Sirva la salchicha encima del mulgipuder (puré de patatas y cebada)',
           fr: 'Servir les saucisses sur le mulgipuder (purée de pommes de terre et d\'orge)',
           de: 'Die Wurst auf dem Mulgipuder (Kartoffel-Gerstenbrei) servieren.',
@@ -782,7 +892,7 @@ export const estonia: Country = {
         },
         {
           en: 'Accompany with lingonberry jam on the side',
-          sv: 'Komplettera med lingonsylt vid sidan om',
+          sv: 'Servera med lingonsylt vid sidan av',
           es: 'Acompañar con mermelada de arándanos rojos',
           fr: 'Accompagner de confiture d\'airelles en accompagnement',
           de: 'Mit Preiselbeermarmelade als Beilage servieren',
@@ -793,7 +903,7 @@ export const estonia: Country = {
         },
         {
           en: 'Traditionally served with sauerkraut',
-          sv: 'Traditionellt serverad med surkål',
+          sv: 'Serveras traditionellt med surkål',
           es: 'Servido tradicionalmente con chucrut',
           fr: 'Traditionnellement servi avec de la choucroute',
           de: 'Traditionell serviert mit Sauerkraut',
@@ -820,7 +930,7 @@ export const estonia: Country = {
       },
       description: {
         en: 'Traditional Estonian sweet bread with cinnamon and cardamom',
-        sv: 'Traditionellt estniskt sött bröd med kanel och kardemumma',
+        sv: 'Traditionell estnisk vetekrans med kanel och kardemumma',
         es: 'Pan dulce tradicional estonio con canela y cardamomo',
         fr: 'Pain sucré traditionnel estonien à la cannelle et à la cardamome',
         de: 'Traditionelles estnisches süßes Brot mit Zimt und Kardamom',
@@ -847,7 +957,7 @@ export const estonia: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -919,7 +1029,7 @@ export const estonia: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1003,7 +1113,7 @@ export const estonia: Country = {
       steps: [
         {
           en: 'Warm milk and activate yeast with sugar',
-          sv: 'Värm mjölk och aktivera jäst med socker',
+          sv: 'Värm mjölken fingervarm och rör ut jästen med lite socker',
           es: 'Calentar la leche y activar la levadura con azúcar',
           fr: 'Faire chauffer le lait et activer la levure avec le sucre',
           de: 'Milch erwärmen und Hefe mit Zucker aktivieren',
@@ -1014,7 +1124,7 @@ export const estonia: Country = {
         },
         {
           en: 'Mix flour, eggs, butter, and yeast mixture',
-          sv: 'Blanda mjöl, ägg, smör och jästblandning',
+          sv: 'Blanda vetemjöl, ägg, smör och jästblandningen',
           es: 'Mezcle la mezcla de harina, huevos, mantequilla y levadura',
           fr: 'Mélanger la farine, les œufs, le beurre et le mélange de levure',
           de: 'Mehl, Eier, Butter und Hefemischung vermischen',
@@ -1036,7 +1146,7 @@ export const estonia: Country = {
         },
         {
           en: 'Roll out dough into rectangle',
-          sv: 'Kavla ut degen till rektangel',
+          sv: 'Kavla ut degen till en rektangel',
           es: 'Estire la masa hasta formar un rectángulo',
           fr: 'Abaisser la pâte en rectangle',
           de: 'Den Teig zu einem Rechteck ausrollen',
@@ -1047,7 +1157,7 @@ export const estonia: Country = {
         },
         {
           en: 'Spread butter, cinnamon, sugar, and raisins',
-          sv: 'Bred ut smör, kanel, socker och russin',
+          sv: 'Bred på smör och strö över kanel, socker och russin',
           es: 'Untar mantequilla, canela, azúcar y pasas.',
           fr: 'Tartiner le beurre, la cannelle, le sucre et les raisins secs',
           de: 'Butter, Zimt, Zucker und Rosinen darauf verteilen',
@@ -1058,7 +1168,7 @@ export const estonia: Country = {
         },
         {
           en: 'Roll up and form into figure-8 or pretzel shape',
-          sv: 'Rulla ihop och forma till figur-8 eller kringla form',
+          sv: 'Rulla ihop degen och forma den till en åtta eller en kringla',
           es: 'Enrollar y darle forma de 8 o pretzel',
           fr: 'Rouler et former en forme de 8 ou de bretzel',
           de: 'Aufrollen und zu einer Acht oder Brezelform formen',
@@ -1080,7 +1190,7 @@ export const estonia: Country = {
         },
         {
           en: 'Brush with egg wash',
-          sv: 'Pensla med äggtvätt',
+          sv: 'Pensla med uppvispat ägg',
           es: 'Pincelar con huevo batido',
           fr: 'Badigeonner de dorure à l\'œuf',
           de: 'Mit Eigelb bestreichen',
@@ -1091,7 +1201,7 @@ export const estonia: Country = {
         },
         {
           en: 'Bake at 180°C for 35-40 minutes until golden',
-          sv: 'Grädda i 180°C i 35-40 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 35–40 minuter tills kringeln är gyllenbrun',
           es: 'Hornear a 180°C durante 35-40 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 35 à 40 minutes jusqu\'à ce qu\'ils soient dorés',
           de: 'Bei 180°C 35–40 Minuten goldbraun backen',
@@ -1221,7 +1331,17 @@ export const estonia: Country = {
           nl: 'Digitaal bestuur',
           pt: 'Governança Digital',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Pioneer of e-governance with 99% of public services available online',
           sv: 'Pionjär inom e-förvaltning med 99 % av offentliga tjänster tillgängliga online',

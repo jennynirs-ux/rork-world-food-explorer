@@ -220,7 +220,17 @@ export const monaco: Country = {
     history: [
       {
         year: '1297',
-        title: 'Grimaldi Rule',
+        title: {
+          en: 'Grimaldi Rule',
+          sv: 'Huset Grimaldis styre',
+          es: 'Dominio de los Grimaldi',
+          fr: 'Règne des Grimaldi',
+          de: 'Herrschaft der Grimaldi',
+          it: 'Signoria dei Grimaldi',
+          pl: 'Rządy Grimaldich',
+          nl: 'Heerschappij van de Grimaldi\'s',
+          pt: 'Domínio dos Grimaldi',
+        },
         description: {
           en: 'The Grimaldi family began ruling Monaco, continuing to this day.',
           sv: 'Familjen Grimaldi började styra Monaco och fortsatte till denna dag.',
@@ -235,7 +245,17 @@ export const monaco: Country = {
       },
       {
         year: '1861',
-        title: 'French Protection',
+        title: {
+          en: 'French Protection',
+          sv: 'Franskt beskydd',
+          es: 'Protección francesa',
+          fr: 'Protection française',
+          de: 'Französischer Schutz',
+          it: 'Protezione francese',
+          pl: 'Pod ochroną Francji',
+          nl: 'Franse bescherming',
+          pt: 'Proteção francesa',
+        },
         description: {
           en: 'Monaco came under French protection while maintaining sovereignty.',
           sv: 'Monaco kom under franskt skydd samtidigt som det behöll suveräniteten.',
@@ -250,7 +270,17 @@ export const monaco: Country = {
       },
       {
         year: '1956',
-        title: 'Prince Rainier & Grace Kelly',
+        title: {
+          en: 'Prince Rainier & Grace Kelly',
+          sv: 'Furst Rainier och Grace Kelly',
+          es: 'El príncipe Rainiero y Grace Kelly',
+          fr: 'Le prince Rainier et Grace Kelly',
+          de: 'Fürst Rainier und Grace Kelly',
+          it: 'Il principe Ranieri e Grace Kelly',
+          pl: 'Książę Rainier i Grace Kelly',
+          nl: 'Prins Rainier en Grace Kelly',
+          pt: 'Príncipe Rainier e Grace Kelly',
+        },
         description: {
           en: 'The wedding of Prince Rainier and actress Grace Kelly brought global attention.',
           sv: 'Prins Rainiers och skådespelerskan Grace Kellys bröllop väckte global uppmärksamhet.',
@@ -277,7 +307,17 @@ export const monaco: Country = {
           nl: 'Monte-Carlomethode',
           pt: 'Método Monte Carlo',
         },
-        year: '1940s',
+        year: {
+          en: '1940s',
+          sv: '1940-talet',
+          es: 'Década de 1940',
+          fr: 'Années 1940',
+          de: '1940er',
+          it: 'Anni \'40',
+          pl: 'Lata 40.',
+          nl: 'Jaren 40',
+          pt: 'Década de 1940',
+        },
         description: {
           en: 'Statistical algorithm named after Monaco\'s famous casino.',
           sv: 'Statistisk algoritm uppkallad efter Monacos berömda kasino.',
@@ -302,7 +342,17 @@ export const monaco: Country = {
           nl: 'Oceaanbehoud',
           pt: 'Conservação dos oceanos',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Prince Albert II leads global ocean conservation efforts.',
           sv: 'Prins Albert II leder globala ansträngningar för att bevara havet.',
@@ -320,7 +370,7 @@ export const monaco: Country = {
       {
         name: {
           en: 'Monte Carlo Casino',
-          sv: 'Monte Carlo Casino',
+          sv: 'Kasinot i Monte Carlo',
           es: 'Casino de Montecarlo',
           fr: 'Casino de Monte-Carlo',
           de: 'Monte Carlo Casino',
@@ -440,7 +490,17 @@ export const monaco: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-October for warm weather; May for Grand Prix.',
           sv: 'April-oktober för varmt väder; maj för Grand Prix.',
@@ -454,7 +514,17 @@ export const monaco: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Same as France (Schengen).',
           sv: 'Samma som Frankrike (Schengen).',
@@ -468,7 +538,17 @@ export const monaco: Country = {
         },
       },
       {
-        item: 'Budget',
+        item: {
+          en: 'Budget',
+          sv: 'Budget',
+          es: 'Presupuesto',
+          fr: 'Budget',
+          de: 'Budget',
+          it: 'Budget',
+          pl: 'Budżet',
+          nl: 'Budget',
+          pt: 'Orçamento',
+        },
         description: {
           en: 'One of the world\'s most expensive destinations.',
           sv: 'En av världens dyraste resmål.',
@@ -482,7 +562,17 @@ export const monaco: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Smart casual; casinos require jacket for men.',
           sv: 'Smart casual; kasinon kräver jacka för män.',
@@ -511,7 +601,7 @@ export const monaco: Country = {
       },
       description: {
         en: 'Traditional sweet bread with anise and orange blossom',
-        sv: 'Traditionellt sött bröd med anis och apelsinblomma',
+        sv: 'Traditionellt sött bröd med anis och apelsinblomvatten',
         es: 'Pan dulce tradicional con anís y azahar',
         fr: 'Pain sucré traditionnel à l\'anis et à la fleur d\'oranger',
         de: 'Traditionelles süßes Brot mit Anis und Orangenblüten',
@@ -538,7 +628,7 @@ export const monaco: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -595,7 +685,7 @@ export const monaco: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -674,7 +764,7 @@ export const monaco: Country = {
       steps: [
         {
           en: 'Activate yeast in warm water',
-          sv: 'Aktivera jäst i varmt vatten',
+          sv: 'Lös upp jästen i ljummet vatten',
           es: 'Activar la levadura en agua tibia',
           fr: 'Activer la levure dans l\'eau tiède',
           de: 'Hefe in warmem Wasser aktivieren',
@@ -685,7 +775,7 @@ export const monaco: Country = {
         },
         {
           en: 'Mix flour, sugar, eggs, butter, and yeast',
-          sv: 'Blanda mjöl, socker, ägg, smör och jäst',
+          sv: 'Blanda vetemjöl, socker, ägg, smör och jästblandningen',
           es: 'Mezclar harina, azúcar, huevos, mantequilla y levadura',
           fr: 'Mélanger la farine, le sucre, les œufs, le beurre et la levure',
           de: 'Mehl, Zucker, Eier, Butter und Hefe mischen',
@@ -707,7 +797,7 @@ export const monaco: Country = {
         },
         {
           en: 'Knead into smooth dough, let rise 1 hour',
-          sv: 'Knåda till smidig deg, låt jäsa 1 timme',
+          sv: 'Knåda till en smidig deg och låt jäsa i 1 timme',
           es: 'Amasar hasta obtener una masa suave, dejar reposar 1 hora',
           fr: 'Pétrir jusqu\'à obtenir une pâte lisse, laisser lever 1 heure',
           de: 'Zu einem glatten Teig kneten, 1 Stunde gehen lassen',
@@ -718,7 +808,7 @@ export const monaco: Country = {
         },
         {
           en: 'Shape into flat oval bread',
-          sv: 'Forma till platt ovalt bröd',
+          sv: 'Forma till ett platt, ovalt bröd',
           es: 'Forme un pan plano ovalado',
           fr: 'Façonner en pain ovale plat',
           de: 'Zu flachen, ovalen Broten formen',
@@ -740,7 +830,7 @@ export const monaco: Country = {
         },
         {
           en: 'Bake at 350°F for 25 minutes until golden',
-          sv: 'Grädda i 350°F i 25 minuter tills de är gyllene',
+          sv: 'Grädda i 175°C i 25 minuter tills brödet är gyllenbrunt',
           es: 'Hornee a 350°F durante 25 minutos hasta que esté dorado',
           fr: 'Cuire au four à 350°F pendant 25 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '25 Minuten bei 350 °F backen, bis sie goldbraun sind',
@@ -751,7 +841,7 @@ export const monaco: Country = {
         },
         {
           en: 'Cool and slice to serve',
-          sv: 'Kyl och skiva för att servera',
+          sv: 'Låt svalna, skiva upp och servera',
           es: 'Dejar enfriar y cortar en rodajas para servir',
           fr: 'Laisser refroidir et trancher pour servir',
           de: 'Abkühlen lassen und zum Servieren in Scheiben schneiden',
@@ -778,7 +868,7 @@ export const monaco: Country = {
       },
       description: {
         en: 'Fried pastry filled with Swiss chard and ricotta',
-        sv: 'Stekt bakverk fylld med mangold och ricotta',
+        sv: 'Friterade degknyten fyllda med mangold och ricotta',
         es: 'Masa frita rellena de acelgas y ricotta',
         fr: 'Pâtisserie frite fourrée aux blettes et à la ricotta',
         de: 'Frittierter Teig gefüllt mit Mangold und Ricotta',
@@ -805,7 +895,7 @@ export const monaco: Country = {
         {
           name: {
             en: 'Pastry dough',
-            sv: 'Bakelse deg',
+            sv: 'Deg',
             es: 'masa de hojaldre',
             fr: 'Pâte à pâtisserie',
             de: 'Gebäckteig',
@@ -877,7 +967,7 @@ export const monaco: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -917,7 +1007,7 @@ export const monaco: Country = {
         },
         {
           en: 'Mix with cheeses',
-          sv: 'Blanda med ostar',
+          sv: 'Blanda med ostarna',
           es: 'Mezclar con quesos',
           fr: 'Mélanger avec des fromages',
           de: 'Mit Käse mischen',
@@ -928,7 +1018,7 @@ export const monaco: Country = {
         },
         {
           en: 'Roll out pastry dough',
-          sv: 'Kavla ut konditorivaror',
+          sv: 'Kavla ut degen',
           es: 'Estirar la masa de hojaldre',
           fr: 'Abaisser la pâte feuilletée',
           de: 'Den Teig ausrollen',
@@ -939,7 +1029,7 @@ export const monaco: Country = {
         },
         {
           en: 'Fill with chard mixture',
-          sv: 'Fyll med mangoldblandning',
+          sv: 'Fyll med mangoldblandningen',
           es: 'Rellenar con la mezcla de acelgas',
           fr: 'Remplissez avec le mélange de blettes',
           de: 'Mit Mangoldmischung füllen',
@@ -950,7 +1040,7 @@ export const monaco: Country = {
         },
         {
           en: 'Fold into half-moons and seal',
-          sv: 'Vik till halvmånar och försegla',
+          sv: 'Vik till halvmånar och tryck ihop kanterna',
           es: 'Doblar en medias lunas y sellar',
           fr: 'Pliez en demi-lunes et scellez',
           de: 'Zu Halbmonden falten und verschließen',
@@ -961,7 +1051,7 @@ export const monaco: Country = {
         },
         {
           en: 'Deep fry until golden',
-          sv: 'Fritera tills de är gyllene',
+          sv: 'Fritera tills de är gyllenbruna',
           es: 'Freír hasta que estén dorados',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés',
           de: 'Frittieren, bis sie goldbraun sind',
@@ -1029,7 +1119,7 @@ export const monaco: Country = {
         options: [
           {
             en: 'Le Mans 24',
-            sv: 'Le Mans 24',
+            sv: 'Le Mans 24-timmars',
             es: 'Le Mans 24',
             fr: 'Le Mans24',
             de: 'Le Mans 24',
@@ -1040,7 +1130,7 @@ export const monaco: Country = {
           },
           {
             en: 'Monaco Grand Prix',
-            sv: 'Monaco Grand Prix',
+            sv: 'Monacos Grand Prix',
             es: 'Gran Premio de Mónaco',
             fr: 'Grand Prix de Monaco',
             de: 'Großer Preis von Monaco',
@@ -1062,7 +1152,7 @@ export const monaco: Country = {
           },
           {
             en: 'Dakar Rally',
-            sv: 'Dakar Rally',
+            sv: 'Dakarrallyt',
             es: 'Rally Dakar',
             fr: 'Rallye Dakar',
             de: 'Rallye Dakar',
@@ -1273,7 +1363,7 @@ export const monaco: Country = {
         options: [
           {
             en: 'Monaco Franc',
-            sv: 'Monaco Franc',
+            sv: 'Monegaskisk franc',
             es: 'Franco de Mónaco',
             fr: 'Franc monégasque',
             de: 'Monaco-Franc',

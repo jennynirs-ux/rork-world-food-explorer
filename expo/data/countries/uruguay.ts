@@ -231,7 +231,17 @@ export const uruguay: Country = {
     history: [
       {
         year: '1500',
-        title: 'Gaucho Cattle Herding Begins',
+        title: {
+          en: 'Gaucho Cattle Herding Begins',
+          sv: 'Gauchornas boskapsskötsel börjar',
+          es: 'Comienza la ganadería gaucha',
+          fr: 'Débuts de l\'élevage gaucho',
+          de: 'Beginn der Gaucho-Viehzucht',
+          it: 'Inizia l\'allevamento dei gauchos',
+          pl: 'Początki pasterstwa gauchów',
+          nl: 'Begin van de veeteelt door gaucho\'s',
+          pt: 'Início da pecuária dos gaúchos',
+        },
         description: {
           en: 'Spanish introduced cattle to Pampas, and gauchos developed iconic asado barbecue traditions, establishing beef as central to Uruguayan identity',
           sv: 'Spanjorer introducerade boskap till Pampas',
@@ -246,7 +256,17 @@ export const uruguay: Country = {
       },
       {
         year: '1850',
-        title: 'Italian Immigration and Pasta',
+        title: {
+          en: 'Italian Immigration and Pasta',
+          sv: 'Italiensk invandring och pasta',
+          es: 'Inmigración italiana y pasta',
+          fr: 'Immigration italienne et pâtes',
+          de: 'Italienische Einwanderung und Pasta',
+          it: 'Immigrazione italiana e pasta',
+          pl: 'Imigracja włoska i makaron',
+          nl: 'Italiaanse immigratie en pasta',
+          pt: 'Imigração italiana e massas',
+        },
         description: {
           en: 'Italian immigrants brought pasta-making traditions and techniques, blending with local beef culture to create fusion dishes',
           sv: 'Italienska immigranter förde med sig pastamakningstraditionen',
@@ -261,7 +281,17 @@ export const uruguay: Country = {
       },
       {
         year: '1900',
-        title: 'Mate Ritual Culture',
+        title: {
+          en: 'Mate Ritual Culture',
+          sv: 'Matekulturen',
+          es: 'Cultura del mate',
+          fr: 'Culture du maté',
+          de: 'Mate-Kultur',
+          it: 'Cultura del mate',
+          pl: 'Kultura picia mate',
+          nl: 'Matecultuur',
+          pt: 'Cultura do chimarrão',
+        },
         description: {
           en: 'Mate drinking became widespread social ritual among all classes, with gourd and bombilla becoming symbols of Uruguayan hospitality and community',
           sv: 'Mateidrande blev utbredd social ritual',
@@ -276,7 +306,17 @@ export const uruguay: Country = {
       },
       {
         year: '1950',
-        title: 'Dulce de Leche Commercialization',
+        title: {
+          en: 'Dulce de Leche Commercialization',
+          sv: 'Kommersialiseringen av dulce de leche',
+          es: 'Comercialización del dulce de leche',
+          fr: 'Commercialisation du dulce de leche',
+          de: 'Kommerzialisierung von Dulce de Leche',
+          it: 'Commercializzazione del dulce de leche',
+          pl: 'Komercjalizacja dulce de leche',
+          nl: 'Commercialisering van dulce de leche',
+          pt: 'Comercialização do doce de leite',
+        },
         description: {
           en: 'Traditional dulce de leche production was commercialized, becoming national symbol and export product beloved throughout Latin America',
           sv: 'Traditionell dulce de leche-produktion kommersialiserades',
@@ -342,7 +382,7 @@ export const uruguay: Country = {
       {
         name: {
           en: 'Montevideo Old Town',
-          sv: 'Montevideo Old Town',
+          sv: 'Gamla stan i Montevideo',
           es: 'Casco antiguo de Montevideo',
           fr: 'Vieille ville de Montevideo',
           de: 'Altstadt von Montevideo',
@@ -414,7 +454,17 @@ export const uruguay: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'No visa required for most nationalities for stays up to 90 days.',
           sv: 'Inget visum krävs för de flesta nationaliteter för vistelser upp till 90 dagar.',
@@ -428,7 +478,17 @@ export const uruguay: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to March (summer) for beaches. September to November for mild weather.',
           sv: 'December till mars (sommar) för stränder. September till november för milt väder.',
@@ -442,7 +502,17 @@ export const uruguay: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent bus network. Car rental easy. Ferries connect with Argentina.',
           sv: 'Utmärkt bussnät. Biluthyrning enkelt. Färjor ansluter till Argentina.',
@@ -456,7 +526,17 @@ export const uruguay: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Spanish is official. English spoken in tourist areas.',
           sv: 'Spanska är officiellt. Engelska talas i turistområden.',
@@ -586,7 +666,7 @@ export const uruguay: Country = {
       },
       description: {
         en: 'Traditional barbecue of various cuts of beef grilled over wood',
-        sv: 'Traditionell grillning av olika styckningsdelar av nötkött grillad över trä',
+        sv: 'Traditionell grillfest där olika styckningsdetaljer av nötkött grillas över ved',
         es: 'Barbacoa tradicional de varios cortes de carne asada sobre leña',
         fr: 'Barbecue traditionnel de différentes coupes de bœuf grillées au bois',
         de: 'Traditionelles Barbecue mit verschiedenen auf Holz gegrillten Rindfleischstücken',
@@ -613,7 +693,7 @@ export const uruguay: Country = {
         {
           name: {
             en: 'Short ribs (asado de tira)',
-            sv: 'Korta revben (asado de tira)',
+            sv: 'Nötrevben (asado de tira)',
             es: 'Costillas cortas (asado de tira)',
             fr: 'Côtes levées (asado de tira)',
             de: 'Kurze Rippchen (Asado de Tira)',
@@ -628,7 +708,7 @@ export const uruguay: Country = {
         {
           name: {
             en: 'Beef sausages (chorizo)',
-            sv: 'Nötköttskorvar (chorizo)',
+            sv: 'Korv av nötkött (chorizo)',
             es: 'Salchichas de ternera (chorizo)',
             fr: 'Saucisses de boeuf (chorizo)',
             de: 'Rinderwürste (Chorizo)',
@@ -658,7 +738,7 @@ export const uruguay: Country = {
         {
           name: {
             en: 'Sweetbreads',
-            sv: 'Bröd',
+            sv: 'Kalvbräss',
             es: 'Mollejas',
             fr: 'Ris de veau',
             de: 'Bries',
@@ -714,7 +794,7 @@ export const uruguay: Country = {
       steps: [
         {
           en: 'Prepare a wood or charcoal fire',
-          sv: 'Förbered en ved- eller koleld',
+          sv: 'Gör upp en eld med ved eller grillkol',
           es: 'Preparar un fuego de leña o carbón',
           fr: 'Préparer un feu de bois ou de charbon de bois',
           de: 'Bereiten Sie ein Holz- oder Holzkohlefeuer vor',
@@ -736,7 +816,7 @@ export const uruguay: Country = {
         },
         {
           en: 'Place ribs on grill first, as they take longest',
-          sv: 'Placera revbenen på grillen först, eftersom de tar längst tid',
+          sv: 'Lägg revbenen på grillen först, eftersom de tar längst tid',
           es: 'Coloque primero las costillas en la parrilla, ya que tardan más',
           fr: 'Placez d\'abord les côtes levées sur le gril, car elles prennent le plus de temps',
           de: 'Legen Sie die Rippchen zuerst auf den Grill, da sie am längsten brauchen',
@@ -747,7 +827,7 @@ export const uruguay: Country = {
         },
         {
           en: 'Add sausages after 30 minutes',
-          sv: 'Lägg till korv efter 30 minuter',
+          sv: 'Lägg på korvarna efter 30 minuter',
           es: 'Agrega las salchichas después de 30 minutos',
           fr: 'Ajouter les saucisses après 30 minutes',
           de: 'Nach 30 Minuten Würstchen hinzufügen',
@@ -769,7 +849,7 @@ export const uruguay: Country = {
         },
         {
           en: 'Turn occasionally until cooked through',
-          sv: 'Vänd då och då tills den är genomstekt',
+          sv: 'Vänd köttet då och då tills allt är genomstekt',
           es: 'Voltee ocasionalmente hasta que esté bien cocido',
           fr: 'Retourner de temps en temps jusqu\'à ce qu\'il soit bien cuit',
           de: 'Gelegentlich wenden, bis alles gar ist',
@@ -845,7 +925,7 @@ export const uruguay: Country = {
         {
           name: {
             en: 'Sponge cake (store-bought or homemade)',
-            sv: 'Sockerkaka (köpt i butik eller hemmagjord)',
+            sv: 'Sockerkaka (köpt eller hembakad)',
             es: 'Bizcocho (comprado en tienda o casero)',
             fr: 'Génoise (du commerce ou maison)',
             de: 'Biskuitkuchen (im Laden gekauft oder selbstgemacht)',
@@ -860,7 +940,7 @@ export const uruguay: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -951,7 +1031,7 @@ export const uruguay: Country = {
       steps: [
         {
           en: 'Whip cream with sugar and vanilla until soft peaks form',
-          sv: 'Vispa grädde med socker och vanilj tills mjuka toppar bildas',
+          sv: 'Vispa grädden med socker och vanilj till ett löst skum',
           es: 'Batir la nata con el azúcar y la vainilla hasta que se formen picos suaves',
           fr: 'Fouetter la crème avec le sucre et la vanille jusqu\'à formation de pics mous',
           de: 'Sahne mit Zucker und Vanille schlagen, bis sich weiche Spitzen bilden',
@@ -962,7 +1042,7 @@ export const uruguay: Country = {
         },
         {
           en: 'Slice sponge cake into 2–3 layers (or cut into strips for layering)',
-          sv: 'Skiva sockerkakan i 2–3 lager (eller skär i remsor för lagring)',
+          sv: 'Dela sockerkakan i 2–3 bottnar (eller skär den i remsor att varva med)',
           es: 'Corta el bizcocho en 2 o 3 capas (o córtalo en tiras para formar capas)',
           fr: 'Coupez la génoise en 2 à 3 couches (ou coupez-la en lanières pour superposer)',
           de: 'Den Biskuitkuchen in 2–3 Schichten schneiden (oder zum Schichten in Streifen schneiden)',
@@ -973,7 +1053,7 @@ export const uruguay: Country = {
         },
         {
           en: 'Drain and slice peaches if using canned',
-          sv: 'Låt rinna av och skiva persikorna om du använder konserverad',
+          sv: 'Låt persikorna rinna av och skiva dem om du använder konserverade',
           es: 'Escurra y corte los duraznos si los usa enlatados',
           fr: 'Égoutter et trancher les pêches si vous utilisez des pêches en conserve',
           de: 'Bei Verwendung von Pfirsichen aus der Dose abtropfen lassen und in Scheiben schneiden',
@@ -984,7 +1064,7 @@ export const uruguay: Country = {
         },
         {
           en: 'Spread a thin layer of dulce de leche on the first cake layer',
-          sv: 'Bred ut ett tunt lager dulce de leche på det första tårtlagret',
+          sv: 'Bred ett tunt lager dulce de leche på den första bottnen',
           es: 'Unta una fina capa de dulce de leche sobre la primera capa de bizcocho',
           fr: 'Étalez une fine couche de dulce de leche sur la première couche de gâteau',
           de: 'Den ersten Tortenboden mit einer dünnen Schicht Dulce de Leche bestreichen',
@@ -995,7 +1075,7 @@ export const uruguay: Country = {
         },
         {
           en: 'Add whipped cream and peaches',
-          sv: 'Tillsätt vispad grädde och persikor',
+          sv: 'Lägg på vispad grädde och persikor',
           es: 'Añade la nata montada y los melocotones',
           fr: 'Ajouter la crème fouettée et les pêches',
           de: 'Schlagsahne und Pfirsiche hinzufügen',
@@ -1006,7 +1086,7 @@ export const uruguay: Country = {
         },
         {
           en: 'Crumble meringue over the cream for crunch',
-          sv: 'Smula maräng över grädden för crunch',
+          sv: 'Smula maräng över grädden så att det blir krispigt',
           es: 'Desmenuza el merengue sobre la nata para que quede crujiente',
           fr: 'Émiettez la meringue sur la crème pour le croquant',
           de: 'Das Baiser über die Sahne streuen, damit es knusprig wird',
@@ -1017,7 +1097,7 @@ export const uruguay: Country = {
         },
         {
           en: 'Repeat layers until finished',
-          sv: 'Upprepa lager tills du är klar',
+          sv: 'Fortsätt varva tills allt är slut',
           es: 'Repetir capas hasta terminar',
           fr: 'Répétez les couches jusqu\'à ce que vous ayez terminé',
           de: 'Wiederholen Sie die Schichten, bis Sie fertig sind',

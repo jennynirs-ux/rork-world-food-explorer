@@ -220,7 +220,17 @@ export const haiti: Country = {
     history: [
       {
         year: '1492',
-        title: 'Spanish Colonization',
+        title: {
+          en: 'Spanish Colonization',
+          sv: 'Spansk kolonisering',
+          es: 'Colonización española',
+          fr: 'Colonisation espagnole',
+          de: 'Spanische Kolonisierung',
+          it: 'Colonizzazione spagnola',
+          pl: 'Kolonizacja hiszpańska',
+          nl: 'Spaanse kolonisatie',
+          pt: 'Colonização espanhola',
+        },
         description: {
           en: 'Columbus arrived on Hispaniola, beginning Spanish colonial rule.',
           sv: 'Columbus anlände till Hispaniola och började det spanska kolonialstyret.',
@@ -235,7 +245,17 @@ export const haiti: Country = {
       },
       {
         year: '1697',
-        title: 'French Colony',
+        title: {
+          en: 'French Colony',
+          sv: 'Fransk koloni',
+          es: 'Colonia francesa',
+          fr: 'Colonie française',
+          de: 'Französische Kolonie',
+          it: 'Colonia francese',
+          pl: 'Kolonia francuska',
+          nl: 'Franse kolonie',
+          pt: 'Colônia francesa',
+        },
         description: {
           en: 'Western Hispaniola became the French colony of Saint-Domingue, becoming the wealthiest colony in the Caribbean.',
           sv: 'Västra Hispaniola blev den franska kolonin Saint-Domingue och blev den rikaste kolonin i Karibien.',
@@ -250,7 +270,17 @@ export const haiti: Country = {
       },
       {
         year: '1804',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Haiti became the first Black republic and second independent nation in the Americas after a successful slave revolt.',
           sv: 'Haiti blev den första svarta republiken och andra självständiga nationen i Amerika efter en framgångsrik slavuppror.',
@@ -302,7 +332,17 @@ export const haiti: Country = {
           nl: 'Voodoo-religie',
           pt: 'Religião vodu',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Syncretic religion blending African, Catholic, and indigenous beliefs that played a key role in the revolution.',
           sv: 'Synkretisk religion som blandar afrikansk, katolsk och inhemsk tro som spelade en nyckelroll i revolutionen.',
@@ -327,7 +367,17 @@ export const haiti: Country = {
           nl: 'Haïtiaanse Creoolse taal',
           pt: 'Língua crioula haitiana',
         },
-        year: 'Colonial Era',
+        year: {
+          en: 'Colonial Era',
+          sv: 'Kolonialtiden',
+          es: 'Época colonial',
+          fr: 'Époque coloniale',
+          de: 'Kolonialzeit',
+          it: 'Epoca coloniale',
+          pl: 'Epoka kolonialna',
+          nl: 'Koloniale tijd',
+          pt: 'Período colonial',
+        },
         description: {
           en: 'Developed unique French-based creole that became an official language and cultural identity marker.',
           sv: 'Utvecklade unik fransk-baserad kreol som blev en officiell språk- och kulturell identitetsmarkör.',
@@ -441,7 +491,17 @@ export const haiti: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Available on arrival for most nationalities.',
           sv: 'Tillgängligt vid ankomst för de flesta nationaliteter.',
@@ -455,7 +515,17 @@ export const haiti: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-March for dry season.',
           sv: 'November-mars för torrperioden.',
@@ -469,7 +539,17 @@ export const haiti: Country = {
         },
       },
       {
-        item: 'French/Creole',
+        item: {
+          en: 'French/Creole',
+          sv: 'Franska/kreolska',
+          es: 'Francés/criollo',
+          fr: 'Français/créole',
+          de: 'Französisch/Kreolisch',
+          it: 'Francese/creolo',
+          pl: 'Francuski/kreolski',
+          nl: 'Frans/Creools',
+          pt: 'Francês/crioulo',
+        },
         description: {
           en: 'Helpful as English is limited. French or Haitian Creole preferred.',
           sv: 'Hjälpsamt eftersom engelska är begränsad. Franska eller haitiska kreoler föredras.',
@@ -483,7 +563,17 @@ export const haiti: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current advisories. Stick to tourist areas.',
           sv: 'Kontrollera aktuella råd. Håll dig till turistområden.',
@@ -501,7 +591,7 @@ export const haiti: Country = {
       id: 'haiti-main',
       name: {
         en: 'Griot with Pikliz',
-        sv: 'Griot med Pikliz',
+        sv: 'Griot med pikliz',
         es: 'Griot con Pikliz',
         fr: 'Griot avec Pikliz',
         de: 'Griot mit Pikliz',
@@ -512,7 +602,7 @@ export const haiti: Country = {
       },
       description: {
         en: 'Fried pork with spicy pickled vegetables',
-        sv: 'Stekt fläsk med kryddiga inlagda grönsaker',
+        sv: 'Friterat fläskkött med starka inlagda grönsaker',
         es: 'Cerdo frito con verduras encurtidas picantes',
         fr: 'Porc frit aux légumes marinés épicés',
         de: 'Gebratenes Schweinefleisch mit scharf eingelegtem Gemüse',
@@ -539,7 +629,7 @@ export const haiti: Country = {
         {
           name: {
             en: 'Pork shoulder',
-            sv: 'Fläskaxel',
+            sv: 'Fläskbog',
             es: 'Paletilla de cerdo',
             fr: 'Épaule de porc',
             de: 'Schweineschulter',
@@ -554,7 +644,7 @@ export const haiti: Country = {
         {
           name: {
             en: 'Sour orange juice',
-            sv: 'Syrlig apelsinjuice',
+            sv: 'Pomeranssaft',
             es: 'Jugo de naranja agria',
             fr: 'Jus d\'orange aigre',
             de: 'Saurer Orangensaft',
@@ -569,7 +659,7 @@ export const haiti: Country = {
         {
           name: {
             en: 'Scotch bonnet peppers',
-            sv: 'Scotch bonnet paprika',
+            sv: 'Scotch bonnet-chili',
             es: 'Pimientos Scotch Bonnet',
             fr: 'Piments Scotch Bonnet',
             de: 'Scotch Bonnet Peppers',
@@ -581,7 +671,7 @@ export const haiti: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -594,7 +684,7 @@ export const haiti: Country = {
         {
           name: {
             en: 'Cabbage for pikliz',
-            sv: 'Kål för pikliz',
+            sv: 'Kål till pikliz',
             es: 'Repollo para pikliz',
             fr: 'Chou pour pikliz',
             de: 'Kohl für Pikliz',
@@ -621,7 +711,7 @@ export const haiti: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -660,7 +750,7 @@ export const haiti: Country = {
       steps: [
         {
           en: 'Marinate pork in citrus and spices overnight',
-          sv: 'Marinera fläsk i citrus och kryddor över natten',
+          sv: 'Marinera fläskköttet i citrussaft och kryddor över natten',
           es: 'Marinar la carne de cerdo en cítricos y especias durante la noche',
           fr: 'Faire mariner le porc dans les agrumes et les épices pendant la nuit',
           de: 'Schweinefleisch über Nacht in Zitrusfrüchten und Gewürzen marinieren',
@@ -671,7 +761,7 @@ export const haiti: Country = {
         },
         {
           en: 'Boil pork until tender',
-          sv: 'Koka fläsk tills det är mört',
+          sv: 'Koka fläskköttet tills det är mört',
           es: 'Hervir la carne de cerdo hasta que esté tierna',
           fr: 'Faire bouillir le porc jusqu\'à ce qu\'il soit tendre',
           de: 'Schweinefleisch kochen, bis es weich ist',
@@ -693,7 +783,7 @@ export const haiti: Country = {
         },
         {
           en: 'Make pikliz with shredded vegetables and peppers',
-          sv: 'Gör pikliz med strimlade grönsaker och paprika',
+          sv: 'Gör pikliz av strimlade grönsaker och chili',
           es: 'Hacer pikliz con verduras ralladas y pimientos',
           fr: 'Préparez du pikliz avec des légumes râpés et des poivrons',
           de: 'Machen Sie Pikliz mit geriebenem Gemüse und Paprika',
@@ -704,7 +794,7 @@ export const haiti: Country = {
         },
         {
           en: 'Let pikliz ferment for 24 hours',
-          sv: 'Låt pikliz jäsa i 24 timmar',
+          sv: 'Låt pikliz stå och dra i 24 timmar',
           es: 'Dejar fermentar el pikliz durante 24 horas',
           fr: 'Laisser fermenter le pikliz pendant 24 heures',
           de: 'Pikliz 24 Stunden lang gären lassen',
@@ -769,7 +859,7 @@ export const haiti: Country = {
         {
           name: {
             en: 'Sweet potatoes cooked and mashed',
-            sv: 'Sötpotatis kokt och mosad',
+            sv: 'Sötpotatis, kokt och mosad',
             es: 'Batatas cocidas y trituradas',
             fr: 'Patates douces cuites et écrasées',
             de: 'Süßkartoffeln gekocht und püriert',
@@ -814,7 +904,7 @@ export const haiti: Country = {
         {
           name: {
             en: 'Evaporated milk',
-            sv: 'Indunstad mjölk',
+            sv: 'Evaporerad mjölk',
             es: 'Leche evaporada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -841,7 +931,7 @@ export const haiti: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -937,7 +1027,7 @@ export const haiti: Country = {
         },
         {
           en: 'Stir in vanilla, cinnamon, nutmeg',
-          sv: 'Rör i vanilj, kanel, muskot',
+          sv: 'Rör ner vanilj, kanel och muskot',
           es: 'Agregue la vainilla, la canela y la nuez moscada',
           fr: 'Incorporer la vanille, la cannelle et la muscade',
           de: 'Vanille, Zimt, Muskatnuss unterrühren',
@@ -948,7 +1038,7 @@ export const haiti: Country = {
         },
         {
           en: 'Fold in raisins',
-          sv: 'Vik in russin',
+          sv: 'Vänd ner russinen',
           es: 'Incorporar las pasas',
           fr: 'Incorporer les raisins secs',
           de: 'Rosinen unterheben',
@@ -959,7 +1049,7 @@ export const haiti: Country = {
         },
         {
           en: 'Pour into greased baking dish',
-          sv: 'Häll i smord ugnsform',
+          sv: 'Häll smeten i en smord ugnsform',
           es: 'Vierta en una fuente para hornear engrasada',
           fr: 'Verser dans un plat allant au four graissé',
           de: 'In eine gefettete Auflaufform gießen',
@@ -970,7 +1060,7 @@ export const haiti: Country = {
         },
         {
           en: 'Bake at 175°C for 60 minutes until set',
-          sv: 'Grädda i 175°C i 60 minuter tills den stelnat',
+          sv: 'Grädda i 175°C i 60 minuter tills puddingen har stelnat',
           es: 'Hornear a 175°C durante 60 minutos hasta que cuaje',
           fr: 'Cuire au four à 175°C pendant 60 minutes jusqu\'à ce que le tout soit pris',
           de: '60 Minuten bei 175 °C backen, bis der Teig fest ist',
@@ -981,7 +1071,7 @@ export const haiti: Country = {
         },
         {
           en: 'Cool before cutting into squares',
-          sv: 'Kyl innan du skär i rutor',
+          sv: 'Låt svalna innan du skär i rutor',
           es: 'Dejar enfriar antes de cortar en cuadritos',
           fr: 'Laisser refroidir avant de couper en carrés',
           de: 'Vor dem Schneiden in Quadrate abkühlen lassen',

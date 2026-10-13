@@ -263,8 +263,28 @@ export const hungary: Country = {
     },
     history: [
       {
-        year: '896 AD',
-        title: 'Magyar Conquest',
+        year: {
+          en: '896 AD',
+          sv: '896 e.Kr.',
+          es: '896 d. C.',
+          fr: '896 apr. J.-C.',
+          de: '896 n. Chr.',
+          it: '896 d.C.',
+          pl: '896 n.e.',
+          nl: '896 n.Chr.',
+          pt: '896 d.C.',
+        },
+        title: {
+          en: 'Magyar Conquest',
+          sv: 'Magyarernas erövring',
+          es: 'Conquista magiar',
+          fr: 'Conquête magyare',
+          de: 'Ungarische Landnahme',
+          it: 'Conquista magiara',
+          pl: 'Podbój madziarski',
+          nl: 'Magyaarse verovering',
+          pt: 'Conquista magiar',
+        },
         description: {
           en: 'Magyar tribes led by Árpád conquered the Carpathian Basin, establishing the Hungarian nation.',
           sv: 'Magyarstammar ledda av Árpád erövrade Karpaterna och etablerade den ungerska nationen.',
@@ -278,8 +298,28 @@ export const hungary: Country = {
         },
       },
       {
-        year: '1000 AD',
-        title: 'Kingdom of Hungary',
+        year: {
+          en: '1000 AD',
+          sv: '1000 e.Kr.',
+          es: '1000 d. C.',
+          fr: '1000 apr. J.-C.',
+          de: '1000 n. Chr.',
+          it: '1000 d.C.',
+          pl: '1000 n.e.',
+          nl: '1000 n.Chr.',
+          pt: '1000 d.C.',
+        },
+        title: {
+          en: 'Kingdom of Hungary',
+          sv: 'Kungariket Ungern',
+          es: 'Reino de Hungría',
+          fr: 'Royaume de Hongrie',
+          de: 'Königreich Ungarn',
+          it: 'Regno d\'Ungheria',
+          pl: 'Królestwo Węgier',
+          nl: 'Koninkrijk Hongarije',
+          pt: 'Reino da Hungria',
+        },
         description: {
           en: 'Stephen I became the first King of Hungary and converted the nation to Christianity.',
           sv: 'Stephen I blev den första kungen av Ungern och konverterade nationen till kristendomen.',
@@ -294,7 +334,17 @@ export const hungary: Country = {
       },
       {
         year: '1526',
-        title: 'Ottoman Invasion',
+        title: {
+          en: 'Ottoman Invasion',
+          sv: 'Osmansk invasion',
+          es: 'Invasión otomana',
+          fr: 'Invasion ottomane',
+          de: 'Osmanische Invasion',
+          it: 'Invasione ottomana',
+          pl: 'Inwazja osmańska',
+          nl: 'Ottomaanse invasie',
+          pt: 'Invasão otomana',
+        },
         description: {
           en: 'The Battle of Mohács led to Ottoman conquest of much of Hungary for 150 years.',
           sv: 'Slaget vid Mohács ledde till ottomanernas erövring av stora delar av Ungern i 150 år.',
@@ -309,7 +359,17 @@ export const hungary: Country = {
       },
       {
         year: '1867',
-        title: 'Austro-Hungarian Compromise',
+        title: {
+          en: 'Austro-Hungarian Compromise',
+          sv: 'Österrikisk-ungerska kompromissen',
+          es: 'Compromiso austrohúngaro',
+          fr: 'Compromis austro-hongrois',
+          de: 'Österreichisch-Ungarischer Ausgleich',
+          it: 'Compromesso austro-ungarico',
+          pl: 'Ugoda austro-węgierska',
+          nl: 'Oostenrijks-Hongaars compromis',
+          pt: 'Compromisso Austro-Húngaro',
+        },
         description: {
           en: 'Creation of the Austro-Hungarian Empire with Hungary as an equal partner.',
           sv: 'Skapandet av det österrikisk-ungerska riket med Ungern som en jämlik partner.',
@@ -324,7 +384,17 @@ export const hungary: Country = {
       },
       {
         year: '1956',
-        title: 'Hungarian Revolution',
+        title: {
+          en: 'Hungarian Revolution',
+          sv: 'Ungernrevolten',
+          es: 'Revolución húngara',
+          fr: 'Révolution hongroise',
+          de: 'Ungarischer Volksaufstand',
+          it: 'Rivoluzione ungherese',
+          pl: 'Powstanie węgierskie',
+          nl: 'Hongaarse Opstand',
+          pt: 'Revolução Húngara',
+        },
         description: {
           en: 'A nationwide revolt against Soviet rule, brutally suppressed but remembered as a symbol of resistance.',
           sv: 'En rikstäckande revolt mot sovjetstyret, brutalt undertryckt men ihågkommen som en symbol för motstånd.',
@@ -339,7 +409,17 @@ export const hungary: Country = {
       },
       {
         year: '1989',
-        title: 'Democratic Transition',
+        title: {
+          en: 'Democratic Transition',
+          sv: 'Övergång till demokrati',
+          es: 'Transición democrática',
+          fr: 'Transition démocratique',
+          de: 'Übergang zur Demokratie',
+          it: 'Transizione democratica',
+          pl: 'Przejście do demokracji',
+          nl: 'Overgang naar democratie',
+          pt: 'Transição democrática',
+        },
         description: {
           en: 'Hungary peacefully transitioned from communism to democracy.',
           sv: 'Ungern övergick fredligt från kommunism till demokrati.',
@@ -355,7 +435,17 @@ export const hungary: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen visa rules apply. EU citizens and many others can visit visa-free.',
           sv: 'Schengenvisumregler gäller. EU-medborgare och många andra kan besöka visumfritt.',
@@ -369,7 +459,17 @@ export const hungary: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April to June and September to October for pleasant weather',
           sv: 'April till juni och september till oktober för behagligt väder',
@@ -383,7 +483,17 @@ export const hungary: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent public transport in Budapest. Trains connect major cities.',
           sv: 'Utmärkt kollektivtrafik i Budapest. Tåg förbinder större städer.',
@@ -397,7 +507,17 @@ export const hungary: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Hungarian. English spoken in Budapest and tourist areas.',
           sv: 'ungerska. Engelska talas i Budapest och turistområden.',
@@ -411,7 +531,17 @@ export const hungary: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe. Watch for pickpockets in tourist areas.',
           sv: 'Generellt säker. Se upp för ficktjuvar i turistområden.',
@@ -429,7 +559,7 @@ export const hungary: Country = {
       id: 'hungary-goulash',
       name: {
         en: 'Gulyás (Goulash)',
-        sv: 'Gulyás (Gulasch)',
+        sv: 'Gulyás (gulasch)',
         es: 'Gulyás (gulash)',
         fr: 'Gulyás (goulache)',
         de: 'Gulyás (Gulasch)',
@@ -440,7 +570,7 @@ export const hungary: Country = {
       },
       description: {
         en: 'Hungary\'s national dish - a hearty soup-stew made with beef, vegetables, and lots of paprika. Originally a shepherd\'s dish, now beloved worldwide.',
-        sv: 'Ungerns nationalrätt - en rejäl soppgryta gjord på nötkött, grönsaker och massor av paprika. Ursprungligen en herderätt, nu älskad över hela världen.',
+        sv: 'Ungerns nationalrätt – en mustig soppgryta med nötkött, grönsaker och rikligt med paprikapulver. Ursprungligen en herderätt, i dag älskad över hela världen.',
         es: 'El plato nacional de Hungría: una abundante sopa guisada hecha con carne de res, verduras y mucho pimentón. Originalmente un plato de pastor, ahora amado en todo el mundo.',
         fr: 'Le plat national de la Hongrie : une soupe-ragoût copieuse à base de bœuf, de légumes et de beaucoup de paprika. À l\'origine un plat de berger, aujourd\'hui apprécié dans le monde entier.',
         de: 'Ungarns Nationalgericht – ein herzhafter Suppeneintopf aus Rindfleisch, Gemüse und viel Paprika. Ursprünglich ein Hirtengericht, heute weltweit beliebt.',
@@ -467,7 +597,7 @@ export const hungary: Country = {
         {
           name: {
             en: 'Beef chuck',
-            sv: 'Biffchuck',
+            sv: 'Högrev',
             es: 'Chuleta de ternera',
             fr: 'Mandrin de boeuf',
             de: 'Rinderfutter',
@@ -507,7 +637,7 @@ export const hungary: Country = {
         {
           name: {
             en: 'Hungarian paprika',
-            sv: 'Ungersk paprika',
+            sv: 'Ungerskt paprikapulver',
             es: 'Pimentón húngaro',
             fr: 'Paprika hongrois',
             de: 'Ungarischer Paprika',
@@ -697,7 +827,7 @@ export const hungary: Country = {
         {
           name: {
             en: 'Beef broth',
-            sv: 'Nötköttsbuljong',
+            sv: 'Köttbuljong',
             es: 'Caldo de carne',
             fr: 'Bouillon de boeuf',
             de: 'Rinderbrühe',
@@ -723,7 +853,7 @@ export const hungary: Country = {
       steps: [
         {
           en: 'Cut beef into 2-3 cm cubes',
-          sv: 'Skär nötkött i 2-3 cm tärningar',
+          sv: 'Skär köttet i 2–3 cm stora tärningar',
           es: 'Cortar la carne en cubos de 2-3 cm',
           fr: 'Couper le bœuf en cubes de 2-3 cm',
           de: 'Rindfleisch in 2-3 cm große Würfel schneiden',
@@ -734,7 +864,7 @@ export const hungary: Country = {
         },
         {
           en: 'Finely chop onions and sauté in oil until golden',
-          sv: 'Finhacka lök och fräs i olja tills den är gyllene',
+          sv: 'Finhacka löken och fräs den i olja tills den är gyllene',
           es: 'Picar finamente las cebollas y sofreír en aceite hasta que estén doradas',
           fr: 'Hacher finement les oignons et les faire revenir dans l\'huile jusqu\'à ce qu\'ils soient dorés',
           de: 'Zwiebeln fein hacken und in Öl goldbraun anbraten',
@@ -745,7 +875,7 @@ export const hungary: Country = {
         },
         {
           en: 'Remove from heat, add paprika, stir quickly (paprika burns easily)',
-          sv: 'Ta bort från värmen, tillsätt paprika, rör om snabbt (paprika bränns lätt)',
+          sv: 'Dra kastrullen från värmen, tillsätt paprikapulvret och rör om snabbt (paprikapulver bränns lätt)',
           es: 'Retire del fuego, agregue el pimentón, revuelva rápidamente (el pimentón se quema fácilmente)',
           fr: 'Retirer du feu, ajouter le paprika, remuer rapidement (le paprika brûle facilement)',
           de: 'Vom Herd nehmen, Paprika hinzufügen, schnell umrühren (Paprika verbrennt leicht)',
@@ -789,7 +919,7 @@ export const hungary: Country = {
         },
         {
           en: 'Add diced potatoes, carrots, and peppers',
-          sv: 'Lägg till tärnad potatis, morötter och paprika',
+          sv: 'Tillsätt potatis, morötter och paprika i tärningar',
           es: 'Agregue patatas, zanahorias y pimientos cortados en cubitos',
           fr: 'Ajouter les pommes de terre en dés, les carottes et les poivrons',
           de: 'Gewürfelte Kartoffeln, Karotten und Paprika hinzufügen',
@@ -800,7 +930,7 @@ export const hungary: Country = {
         },
         {
           en: 'Add chopped tomatoes and enough broth for soup consistency',
-          sv: 'Tillsätt hackade tomater och tillräckligt med buljong för soppans konsistens',
+          sv: 'Tillsätt hackade tomater och så mycket buljong att grytan får en soppig konsistens',
           es: 'Agregue los tomates picados y suficiente caldo para obtener la consistencia de la sopa',
           fr: 'Ajouter les tomates hachées et suffisamment de bouillon pour obtenir la consistance de la soupe',
           de: 'Gehackte Tomaten und genügend Brühe hinzufügen, bis die Suppe eine Konsistenz hat',
@@ -849,7 +979,7 @@ export const hungary: Country = {
       id: 'hungary-dessert',
       name: {
         en: 'Dobos Torta',
-        sv: 'Dobos Torta',
+        sv: 'Dobos torta',
         es: 'Torta Dobos',
         fr: 'Dobos Torta',
         de: 'Dobos Torta',
@@ -860,7 +990,7 @@ export const hungary: Country = {
       },
       description: {
         en: 'Layered sponge cake with chocolate buttercream and caramel topping',
-        sv: 'Sockerkaka i lager med chokladsmörkräm och kolatoppning',
+        sv: 'Tårta med tunna sockerkaksbottnar, chokladsmörkräm och ett täcke av karamell',
         es: 'Bizcocho en capas con crema de chocolate y cobertura de caramelo',
         fr: 'Gâteau éponge en couches avec crème au beurre au chocolat et garniture au caramel',
         de: 'Schicht-Biskuitkuchen mit Schokoladenbuttercreme und Karamell-Topping',
@@ -899,7 +1029,7 @@ export const hungary: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -927,7 +1057,7 @@ export const hungary: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -972,7 +1102,7 @@ export const hungary: Country = {
         {
           name: {
             en: 'For caramel: sugar',
-            sv: 'För kola: socker',
+            sv: 'Till karamellen: socker',
             es: 'Para el caramelo: azúcar',
             fr: 'Pour le caramel : sucre',
             de: 'Für Karamell: Zucker',
@@ -988,7 +1118,7 @@ export const hungary: Country = {
       steps: [
         {
           en: 'Beat eggs and sugar until fluffy',
-          sv: 'Vispa ägg och socker fluffigt',
+          sv: 'Vispa ägg och socker poröst',
           es: 'Batir los huevos y el azúcar hasta que queden esponjosos',
           fr: 'Battre les œufs et le sucre jusqu\'à consistance mousseuse',
           de: 'Eier und Zucker schaumig schlagen',
@@ -999,7 +1129,7 @@ export const hungary: Country = {
         },
         {
           en: 'Fold in flour gently',
-          sv: 'Vänd försiktigt ner mjöl',
+          sv: 'Vänd försiktigt ner vetemjölet',
           es: 'Incorporar la harina suavemente',
           fr: 'Incorporer délicatement la farine',
           de: 'Mehl vorsichtig unterheben',
@@ -1010,7 +1140,7 @@ export const hungary: Country = {
         },
         {
           en: 'Bake 6 thin layers at 180°C',
-          sv: 'Grädda 6 tunna lager i 180°C',
+          sv: 'Grädda 6 tunna bottnar i 180°C',
           es: 'Hornear 6 capas finas a 180°C',
           fr: 'Cuire 6 fines couches à 180°C',
           de: '6 dünne Schichten bei 180°C backen',
@@ -1032,7 +1162,7 @@ export const hungary: Country = {
         },
         {
           en: 'Layer cake with buttercream',
-          sv: 'Skiktårta med smörkräm',
+          sv: 'Lägg ihop bottnarna med smörkräm emellan',
           es: 'Pastel de capas con crema de mantequilla',
           fr: 'Gâteau étagé à la crème au beurre',
           de: 'Schichtkuchen mit Buttercreme',
@@ -1043,7 +1173,7 @@ export const hungary: Country = {
         },
         {
           en: 'Make caramel and pour over top layer',
-          sv: 'Gör karamell och häll över det övre lagret',
+          sv: 'Koka karamell och häll den över den översta bottnen',
           es: 'Hacer caramelo y verter sobre la capa superior',
           fr: 'Faire du caramel et verser sur la couche supérieure',
           de: 'Karamell zubereiten und über die oberste Schicht gießen',
@@ -1054,7 +1184,7 @@ export const hungary: Country = {
         },
         {
           en: 'Score caramel into slices before it hardens',
-          sv: 'Skär karamell i skivor innan den stelnar',
+          sv: 'Markera tårtbitarna i karamellen med en kniv innan den stelnar',
           es: 'Corta el caramelo en rodajas antes de que se endurezca',
           fr: 'Coupez le caramel en tranches avant qu\'il ne durcisse',
           de: 'Karamell in Scheiben schneiden, bevor es hart wird',
@@ -1065,7 +1195,7 @@ export const hungary: Country = {
         },
         {
           en: 'Refrigerate before serving',
-          sv: 'Kyl innan servering',
+          sv: 'Kyl före servering',
           es: 'Refrigere antes de servir',
           fr: 'Réfrigérer avant de servir',
           de: 'Vor dem Servieren im Kühlschrank aufbewahren',
@@ -1255,7 +1385,7 @@ export const hungary: Country = {
       {
         name: {
           en: 'Fisherman\'s Bastion',
-          sv: 'Fisherman\'s Bastion',
+          sv: 'Fiskarbastionen',
           es: 'Bastión de los Pescadores',
           fr: 'Bastion des Pêcheurs',
           de: 'Fischerbastei',
@@ -1279,7 +1409,7 @@ export const hungary: Country = {
       {
         name: {
           en: 'Tokaj Wine Region',
-          sv: 'Tokaj Wine Region',
+          sv: 'Vinregionen Tokaj',
           es: 'Región vinícola de Tokaj',
           fr: 'Région viticole de Tokaj',
           de: 'Tokajer Weinregion',

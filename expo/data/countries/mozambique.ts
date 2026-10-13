@@ -231,7 +231,17 @@ export const mozambique: Country = {
     history: [
       {
         year: '1498',
-        title: 'Portuguese Arrival',
+        title: {
+          en: 'Portuguese Arrival',
+          sv: 'Portugiserna anländer',
+          es: 'Llegada de los portugueses',
+          fr: 'Arrivée des Portugais',
+          de: 'Ankunft der Portugiesen',
+          it: 'Arrivo dei portoghesi',
+          pl: 'Przybycie Portugalczyków',
+          nl: 'Aankomst van de Portugezen',
+          pt: 'Chegada dos portugueses',
+        },
         description: {
           en: 'Vasco da Gama reached Mozambique, beginning centuries of Portuguese influence.',
           sv: 'Vasco da Gama nådde Moçambique och började århundraden av portugisiskt inflytande.',
@@ -246,7 +256,17 @@ export const mozambique: Country = {
       },
       {
         year: '1975',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Mozambique gained independence from Portugal after a liberation war.',
           sv: 'Moçambique blev självständigt från Portugal efter ett befrielsekrig.',
@@ -261,7 +281,17 @@ export const mozambique: Country = {
       },
       {
         year: '1992',
-        title: 'Peace Agreement',
+        title: {
+          en: 'Peace Agreement',
+          sv: 'Fredsavtal',
+          es: 'Acuerdo de paz',
+          fr: 'Accord de paix',
+          de: 'Friedensabkommen',
+          it: 'Accordo di pace',
+          pl: 'Porozumienie pokojowe',
+          nl: 'Vredesakkoord',
+          pt: 'Acordo de paz',
+        },
         description: {
           en: 'End of civil war, beginning of democratic development.',
           sv: 'Slut på inbördeskrig, början på demokratisk utveckling.',
@@ -288,7 +318,17 @@ export const mozambique: Country = {
           nl: 'Peri-Peri-keuken',
           pt: 'Culinária Peri-Peri',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Development of peri-peri chili sauce that became internationally famous.',
           sv: 'Utveckling av peri-peri chilisås som blev internationellt känd.',
@@ -313,7 +353,17 @@ export const mozambique: Country = {
           nl: 'Mariene bescherming',
           pt: 'Conservação Marinha',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Pioneering marine protected areas along the coast.',
           sv: 'Banbrytande marina skyddade områden längs kusten.',
@@ -403,7 +453,7 @@ export const mozambique: Country = {
       {
         name: {
           en: 'Tofo Beach',
-          sv: 'Tofo Beach',
+          sv: 'Tofostranden',
           es: 'Playa de Tofo',
           fr: 'Plage de Tofo',
           de: 'Tofo-Strand',
@@ -451,7 +501,17 @@ export const mozambique: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-November for dry season; December-March is hot and rainy.',
           sv: 'Maj-november för torrperioden; December-mars är varmt och regnigt.',
@@ -465,7 +525,17 @@ export const mozambique: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival or e-visa available for many nationalities.',
           sv: 'Visum vid ankomst eller e-visum tillgängligt för många nationaliteter.',
@@ -479,7 +549,17 @@ export const mozambique: Country = {
         },
       },
       {
-        item: 'Malaria prophylaxis',
+        item: {
+          en: 'Malaria prophylaxis',
+          sv: 'Malariaprofylax',
+          es: 'Profilaxis antimalárica',
+          fr: 'Prophylaxie antipaludique',
+          de: 'Malariaprophylaxe',
+          it: 'Profilassi antimalarica',
+          pl: 'Profilaktyka przeciwmalaryczna',
+          nl: 'Malariaprofylaxe',
+          pt: 'Profilaxia contra a malária',
+        },
         description: {
           en: 'Recommended for most areas.',
           sv: 'Rekommenderas för de flesta områden.',
@@ -493,7 +573,17 @@ export const mozambique: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Required if coming from endemic countries.',
           sv: 'Krävs om man kommer från endemiska länder.',
@@ -522,7 +612,7 @@ export const mozambique: Country = {
       },
       description: {
         en: 'Cashew and potato cake, a beloved Mozambican dessert',
-        sv: 'Cashew och potatistårta, en älskad moçambikisk dessert',
+        sv: 'Kaka med cashewnötter och potatis – en omtyckt dessert i Moçambique',
         es: 'Pastel de anacardos y patatas, un postre querido en Mozambique',
         fr: 'Gâteau aux noix de cajou et aux pommes de terre, un dessert mozambicain très apprécié',
         de: 'Cashew-Kartoffel-Kuchen, ein beliebtes mosambikanisches Dessert',
@@ -564,7 +654,7 @@ export const mozambique: Country = {
         {
           name: {
             en: 'Ground cashews',
-            sv: 'Malde cashewnötter',
+            sv: 'Malda cashewnötter',
             es: 'Anacardos molidos',
             fr: 'Noix de cajou moulues',
             de: 'Gemahlene Cashewnüsse',
@@ -621,7 +711,7 @@ export const mozambique: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -634,7 +724,7 @@ export const mozambique: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -665,7 +755,7 @@ export const mozambique: Country = {
       steps: [
         {
           en: 'Cream butter and sugar until fluffy',
-          sv: 'Grädde smör och socker fluffigt',
+          sv: 'Vispa smör och socker pösigt',
           es: 'Batir la mantequilla y el azúcar hasta que quede esponjoso',
           fr: 'Crémer le beurre et le sucre jusqu\'à consistance mousseuse',
           de: 'Butter und Zucker schaumig rühren',
@@ -676,7 +766,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Beat in eggs one at a time',
-          sv: 'Vispa i äggen ett i taget',
+          sv: 'Vispa ner äggen ett i taget',
           es: 'Batir los huevos uno a la vez',
           fr: 'Incorporer les œufs un à la fois',
           de: 'Eier einzeln unterrühren',
@@ -687,7 +777,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Fold in mashed potatoes and ground cashews',
-          sv: 'Vik i potatismos och malda cashewnötter',
+          sv: 'Vänd ner potatismoset och de malda cashewnötterna',
           es: 'Incorporar el puré de patatas y los anacardos molidos',
           fr: 'Incorporer la purée de pommes de terre et les noix de cajou moulues',
           de: 'Kartoffelpüree und gemahlene Cashewnüsse unterheben',
@@ -698,7 +788,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Add flour and baking powder',
-          sv: 'Tillsätt mjöl och bakpulver',
+          sv: 'Tillsätt vetemjöl och bakpulver',
           es: 'Agrega la harina y la levadura en polvo',
           fr: 'Ajouter la farine et la levure chimique',
           de: 'Mehl und Backpulver hinzufügen',
@@ -709,7 +799,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Pour into greased pan',
-          sv: 'Häll i smord form',
+          sv: 'Häll smeten i en smord form',
           es: 'Vierta en un molde engrasado',
           fr: 'Verser dans un moule graissé',
           de: 'In eine gefettete Pfanne gießen',
@@ -720,7 +810,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Bake at 350°F for 40 minutes',
-          sv: 'Grädda i 350°F i 40 minuter',
+          sv: 'Grädda i 175°C i 40 minuter',
           es: 'Hornee a 350°F durante 40 minutos',
           fr: 'Cuire au four à 350°F pendant 40 minutes',
           de: '40 Minuten bei 350 °F backen',
@@ -731,7 +821,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Cool and dust with powdered sugar',
-          sv: 'Kyl och pudra med strösocker',
+          sv: 'Låt svalna och pudra över florsocker',
           es: 'Dejar enfriar y espolvorear con azúcar glass',
           fr: 'Laisser refroidir et saupoudrer de sucre en poudre',
           de: 'Abkühlen lassen und mit Puderzucker bestäuben',
@@ -747,7 +837,7 @@ export const mozambique: Country = {
       id: 'mozambique-main',
       name: {
         en: 'Peri-Peri Prawns',
-        sv: 'Peri-Peri Räkor',
+        sv: 'Piri piri-räkor',
         es: 'Gambas Peri-Peri',
         fr: 'Crevettes Péri-Péri',
         de: 'Peri-Peri-Garnelen',
@@ -758,7 +848,7 @@ export const mozambique: Country = {
       },
       description: {
         en: 'Grilled prawns marinated in spicy peri-peri sauce',
-        sv: 'Grillade räkor marinerade i kryddig peri-peri-sås',
+        sv: 'Grillade räkor marinerade i stark piri piri-sås',
         es: 'Gambas a la plancha marinadas en salsa peri-peri picante',
         fr: 'Crevettes grillées marinées dans une sauce peri-peri épicée',
         de: 'Gegrillte Garnelen, mariniert in würziger Peri-Peri-Sauce',
@@ -800,7 +890,7 @@ export const mozambique: Country = {
         {
           name: {
             en: 'Peri-peri peppers',
-            sv: 'Peri-peri paprika',
+            sv: 'Piri piri-chili',
             es: 'Pimientos peri-peri',
             fr: 'Poivrons péri-péri',
             de: 'Peri-Peri-Paprika',
@@ -812,7 +902,7 @@ export const mozambique: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -837,7 +927,7 @@ export const mozambique: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -927,7 +1017,7 @@ export const mozambique: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -956,7 +1046,7 @@ export const mozambique: Country = {
       steps: [
         {
           en: 'Blend peri-peri peppers, garlic, lemon juice, and oil',
-          sv: 'Blanda peri-peri-peppar, vitlök, citronsaft och olja',
+          sv: 'Mixa piri piri-chili, vitlök, citronsaft och olja',
           es: 'Licúa los pimientos peri-peri, el ajo, el jugo de limón y el aceite',
           fr: 'Mélanger les poivrons peri-peri, l\'ail, le jus de citron et l\'huile',
           de: 'Peri-Peri-Paprika, Knoblauch, Zitronensaft und Öl vermischen',
@@ -967,7 +1057,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Add paprika and salt to make marinade',
-          sv: 'Tillsätt paprika och salt för att göra marinad',
+          sv: 'Rör ner paprikapulver och salt till en marinad',
           es: 'Agrega pimentón y sal para hacer la marinada',
           fr: 'Ajouter le paprika et le sel pour faire la marinade',
           de: 'Paprika und Salz hinzufügen, um eine Marinade herzustellen',
@@ -978,7 +1068,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Butterfly prawns and remove veins',
-          sv: 'Fjärilsräkor och ta bort ådror',
+          sv: 'Fläka räkorna och ta bort tarmen',
           es: 'Gambas mariposa y quitar venas',
           fr: 'Crevettes papillon et enlever les veines',
           de: 'Schmetterlingsgarnelen und die Adern entfernen',
@@ -989,7 +1079,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Marinate prawns for 30 minutes',
-          sv: 'Marinera räkor i 30 minuter',
+          sv: 'Marinera räkorna i 30 minuter',
           es: 'Marinar las gambas durante 30 minutos',
           fr: 'Faire mariner les crevettes pendant 30 minutes',
           de: 'Garnelen 30 Minuten marinieren',
@@ -1000,7 +1090,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Preheat grill or BBQ to high heat',
-          sv: 'Förvärm grillen eller grillen till hög värme',
+          sv: 'Hetta upp grillen till hög värme',
           es: 'Precaliente la parrilla o barbacoa a fuego alto',
           fr: 'Préchauffer le gril ou le barbecue à feu vif',
           de: 'Grill oder BBQ auf hohe Hitze vorheizen',
@@ -1011,7 +1101,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Grill prawns 2-3 minutes per side',
-          sv: 'Grilla räkor 2-3 minuter per sida',
+          sv: 'Grilla räkorna 2–3 minuter per sida',
           es: 'Asa los langostinos 2-3 minutos por lado',
           fr: 'Griller les crevettes 2-3 minutes de chaque côté',
           de: 'Garnelen 2-3 Minuten pro Seite grillen',
@@ -1022,7 +1112,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Baste with extra marinade while grilling',
-          sv: 'Tröja med extra marinad medan du grillar',
+          sv: 'Pensla med mer marinad under grillningen',
           es: 'Rocíe con más marinada mientras asa',
           fr: 'Arroser de marinade supplémentaire pendant la cuisson',
           de: 'Während des Grillens mit zusätzlicher Marinade begießen',
@@ -1033,7 +1123,7 @@ export const mozambique: Country = {
         },
         {
           en: 'Serve hot with lime wedges and fresh bread',
-          sv: 'Servera varm med limeklyftor och färskt bröd',
+          sv: 'Servera varma med limeklyftor och färskt bröd',
           es: 'Sirva caliente con rodajas de lima y pan fresco',
           fr: 'Servir chaud avec des quartiers de citron vert et du pain frais',
           de: 'Heiß mit Limettenschnitzen und frischem Brot servieren',
@@ -1525,7 +1615,7 @@ export const mozambique: Country = {
           },
           {
             en: 'Gorée Island',
-            sv: 'Gorée Island',
+            sv: 'Gorée',
             es: 'Isla de Gorée',
             fr: 'Île de Gorée',
             de: 'Insel Gorée',

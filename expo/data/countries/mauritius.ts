@@ -231,7 +231,17 @@ export const mauritius: Country = {
     history: [
       {
         year: '1638',
-        title: 'Dutch Settlement',
+        title: {
+          en: 'Dutch Settlement',
+          sv: 'Nederländsk bosättning',
+          es: 'Asentamiento neerlandés',
+          fr: 'Implantation néerlandaise',
+          de: 'Niederländische Besiedlung',
+          it: 'Insediamento olandese',
+          pl: 'Osadnictwo holenderskie',
+          nl: 'Nederlandse vestiging',
+          pt: 'Povoamento holandês',
+        },
         description: {
           en: 'The Dutch were the first to settle the uninhabited island.',
           sv: 'Holländarna var de första som bosatte sig på den obebodda ön.',
@@ -246,7 +256,17 @@ export const mauritius: Country = {
       },
       {
         year: '1715',
-        title: 'French Rule',
+        title: {
+          en: 'French Rule',
+          sv: 'Franskt styre',
+          es: 'Dominio francés',
+          fr: 'Domination française',
+          de: 'Französische Herrschaft',
+          it: 'Dominio francese',
+          pl: 'Panowanie francuskie',
+          nl: 'Frans bewind',
+          pt: 'Domínio francês',
+        },
         description: {
           en: 'France took control, developing the sugar industry with slave labor.',
           sv: 'Frankrike tog kontroll och utvecklade sockerindustrin med slavarbete.',
@@ -261,7 +281,17 @@ export const mauritius: Country = {
       },
       {
         year: '1810',
-        title: 'British Colony',
+        title: {
+          en: 'British Colony',
+          sv: 'Brittisk koloni',
+          es: 'Colonia británica',
+          fr: 'Colonie britannique',
+          de: 'Britische Kolonie',
+          it: 'Colonia britannica',
+          pl: 'Kolonia brytyjska',
+          nl: 'Britse kolonie',
+          pt: 'Colônia britânica',
+        },
         description: {
           en: 'Britain captured Mauritius and brought indentured laborers from India.',
           sv: 'Storbritannien erövrade Mauritius och tog med sig arbetare från Indien.',
@@ -276,7 +306,17 @@ export const mauritius: Country = {
       },
       {
         year: '1968',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Mauritius gained independence from Britain.',
           sv: 'Mauritius blev självständigt från Storbritannien.',
@@ -303,7 +343,17 @@ export const mauritius: Country = {
           nl: 'Technieken van de suikerindustrie',
           pt: 'Técnicas da indústria açucareira',
         },
-        year: '18th Century',
+        year: {
+          en: '18th Century',
+          sv: '1700-talet',
+          es: 'siglo XVIII',
+          fr: 'XVIIIe siècle',
+          de: '18. Jahrhundert',
+          it: 'XVIII secolo',
+          pl: 'XVIII wiek',
+          nl: '18e eeuw',
+          pt: 'século XVIII',
+        },
         description: {
           en: 'Development of efficient sugar cane processing methods.',
           sv: 'Utveckling av effektiva metoder för bearbetning av sockerrör.',
@@ -328,7 +378,17 @@ export const mauritius: Country = {
           nl: 'Multiculturele harmonie',
           pt: 'Harmonia multicultural',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Successfully created a harmonious multi-ethnic society as a model.',
           sv: 'Framgångsrikt skapat ett harmoniskt multietniskt samhälle som modell.',
@@ -466,7 +526,17 @@ export const mauritius: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-December for dry season; avoid cyclones January-March.',
           sv: 'Maj-december för torrperioden; undvika cykloner januari-mars.',
@@ -480,7 +550,17 @@ export const mauritius: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for most nationalities for 60-90 days.',
           sv: 'Visumfritt för de flesta nationaliteter i 60-90 dagar.',
@@ -494,7 +574,17 @@ export const mauritius: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Strong tropical sun requires high SPF.',
           sv: 'Stark tropisk sol kräver hög SPF.',
@@ -508,7 +598,17 @@ export const mauritius: Country = {
         },
       },
       {
-        item: 'Cash and cards',
+        item: {
+          en: 'Cash and cards',
+          sv: 'Kontanter och kort',
+          es: 'Efectivo y tarjetas',
+          fr: 'Espèces et cartes',
+          de: 'Bargeld und Karten',
+          it: 'Contanti e carte',
+          pl: 'Gotówka i karty',
+          nl: 'Contant geld en kaarten',
+          pt: 'Dinheiro e cartões',
+        },
         description: {
           en: 'Cards widely accepted; ATMs available.',
           sv: 'Kort allmänt accepterade; Uttagsautomater tillgängliga.',
@@ -537,7 +637,7 @@ export const mauritius: Country = {
       },
       description: {
         en: 'Shortbread cookies with pink icing, beloved Mauritian treat',
-        sv: 'Sandkakor med rosa glasyr, älskade mauritiska godis',
+        sv: 'Mördegskakor med rosa glasyr, en omtyckt mauritisk sötsak',
         es: 'Galletas de mantequilla con glaseado rosa, la amada delicia de Mauricio',
         fr: 'Biscuits sablés au glaçage rose, la gourmandise mauricienne bien-aimée',
         de: 'Shortbread-Kekse mit rosa Zuckerguss, ein beliebter mauritischer Leckerbissen',
@@ -594,7 +694,7 @@ export const mauritius: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -624,7 +724,7 @@ export const mauritius: Country = {
         {
           name: {
             en: 'Powdered sugar for icing',
-            sv: 'Pulversocker för glasyr',
+            sv: 'Florsocker till glasyr',
             es: 'Azúcar en polvo para glaseado',
             fr: 'Sucre en poudre pour le glaçage',
             de: 'Puderzucker zum Zuckerguss',
@@ -690,7 +790,7 @@ export const mauritius: Country = {
       steps: [
         {
           en: 'Cream butter and sugar until fluffy',
-          sv: 'Grädde smör och socker fluffigt',
+          sv: 'Vispa smör och socker pösigt',
           es: 'Batir la mantequilla y el azúcar hasta que quede esponjoso',
           fr: 'Crémer le beurre et le sucre jusqu\'à consistance mousseuse',
           de: 'Butter und Zucker schaumig rühren',
@@ -701,7 +801,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Add vanilla and flour, mix into dough',
-          sv: 'Tillsätt vanilj och mjöl, blanda till degen',
+          sv: 'Tillsätt vanilj och vetemjöl och arbeta ihop till en deg',
           es: 'Agregue la vainilla y la harina, mezcle hasta formar la masa',
           fr: 'Ajouter la vanille et la farine, mélanger à la pâte',
           de: 'Vanille und Mehl hinzufügen, unter den Teig mischen',
@@ -723,7 +823,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Bake at 325°F for 15 minutes until pale golden',
-          sv: 'Grädda i 325°F i 15 minuter tills ljust gyllene',
+          sv: 'Grädda i 160°C i 15 minuter tills kakorna är ljust gyllene',
           es: 'Hornee a 325°F durante 15 minutos hasta que esté dorado pálido',
           fr: 'Cuire au four à 325°F pendant 15 minutes jusqu\'à ce qu\'ils soient légèrement dorés',
           de: '15 Minuten bei 180 °C backen, bis es hellgolden ist',
@@ -734,7 +834,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Cool completely',
-          sv: 'Cool helt',
+          sv: 'Låt svalna helt',
           es: 'Enfriar completamente',
           fr: 'Refroidir complètement',
           de: 'Vollständig abkühlen lassen',
@@ -745,7 +845,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Make icing with powdered sugar, lemon juice, and pink coloring',
-          sv: 'Gör glasyr med strösocker, citronsaft och rosa färg',
+          sv: 'Rör ihop glasyr av florsocker, citronsaft och rosa hushållsfärg',
           es: 'Haz glaseado con azúcar glass, jugo de limón y colorante rosa',
           fr: 'Préparez le glaçage avec du sucre en poudre, du jus de citron et du colorant rose',
           de: 'Machen Sie eine Glasur aus Puderzucker, Zitronensaft und rosa Farbe',
@@ -756,7 +856,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Ice half of each cookie and sandwich together',
-          sv: 'Is hälften av varje kaka och smörgås tillsammans',
+          sv: 'Lägg ihop kakorna två och två och bred glasyr på ovansidan',
           es: 'Hiele la mitad de cada galleta y haga un sándwich juntos',
           fr: 'Glacer la moitié de chaque biscuit et sandwich ensemble',
           de: 'Die Hälfte jedes Kekses einfrieren und zusammen ein Sandwich machen',
@@ -794,7 +894,7 @@ export const mauritius: Country = {
       },
       description: {
         en: 'Yellow split pea flatbread served with curry and chutneys',
-        sv: 'Gult delat ärttunnbröd serveras med curry och chutney',
+        sv: 'Tunnbröd fyllt med delade gula ärtor, serverat med curry och chutney',
         es: 'Pan plano de guisantes amarillos servido con curry y chutneys',
         fr: 'Pain plat aux pois cassés jaunes servi avec curry et chutneys',
         de: 'Fladenbrot aus gelben Erbsen, serviert mit Curry und Chutneys',
@@ -821,7 +921,7 @@ export const mauritius: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -836,7 +936,7 @@ export const mauritius: Country = {
         {
           name: {
             en: 'Yellow split peas',
-            sv: 'Gula kluvna ärtor',
+            sv: 'Delade gula ärtor',
             es: 'Guisantes amarillos partidos',
             fr: 'Pois cassés jaunes',
             de: 'Gelbe Erbsen',
@@ -866,7 +966,7 @@ export const mauritius: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -881,7 +981,7 @@ export const mauritius: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -906,7 +1006,7 @@ export const mauritius: Country = {
         {
           name: {
             en: 'Lima beans curry',
-            sv: 'Lima bönor curry',
+            sv: 'Curry med limabönor',
             es: 'Curry de frijoles lima',
             fr: 'Curry de haricots de Lima',
             de: 'Limabohnen-Curry',
@@ -952,7 +1052,7 @@ export const mauritius: Country = {
       steps: [
         {
           en: 'Soak split peas overnight, then grind with spices',
-          sv: 'Blötlägg delade ärter över natten och mal sedan med kryddor',
+          sv: 'Blötlägg de delade ärtorna över natten och mal dem sedan med kryddorna',
           es: 'Remoje los guisantes partidos durante la noche y luego muela con especias',
           fr: 'Faire tremper les pois cassés toute la nuit, puis les broyer avec des épices',
           de: 'Spalterbsen über Nacht einweichen, dann mit Gewürzen mahlen',
@@ -963,7 +1063,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Make dough with flour, water, and oil',
-          sv: 'Gör en deg med mjöl, vatten och olja',
+          sv: 'Gör en deg av vetemjöl, vatten och olja',
           es: 'Hacer masa con harina, agua y aceite',
           fr: 'Faire la pâte avec de la farine, de l\'eau et de l\'huile',
           de: 'Teig aus Mehl, Wasser und Öl herstellen',
@@ -985,7 +1085,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Place pea filling in center and seal',
-          sv: 'Placera ärtfyllningen i mitten och försegla',
+          sv: 'Lägg ärtfyllningen i mitten och nyp ihop degen runt den',
           es: 'Coloque el relleno de guisantes en el centro y selle',
           fr: 'Placer la garniture aux pois au centre et sceller',
           de: 'Erbsenfüllung in die Mitte geben und verschließen',
@@ -996,7 +1096,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Roll out filled dough into thin circles',
-          sv: 'Kavla ut fylld deg till tunna cirklar',
+          sv: 'Kavla ut de fyllda degbollarna till tunna, runda bröd',
           es: 'Estire la masa rellena en círculos finos',
           fr: 'Étalez la pâte farcie en cercles fins',
           de: 'Den gefüllten Teig zu dünnen Kreisen ausrollen',
@@ -1007,7 +1107,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Cook on hot griddle until lightly browned',
-          sv: 'Koka på het stekpanna tills de fått lite färg',
+          sv: 'Grädda bröden i en het stekpanna tills de fått lite färg',
           es: 'Cocine en una plancha caliente hasta que esté ligeramente dorado',
           fr: 'Cuire sur une plaque chauffante jusqu\'à ce qu\'il soit légèrement doré',
           de: 'Auf der heißen Grillplatte garen, bis es leicht gebräunt ist',
@@ -1018,7 +1118,7 @@ export const mauritius: Country = {
         },
         {
           en: 'Prepare bean curry and chutneys',
-          sv: 'Förbered böncurry och chutneyer',
+          sv: 'Gör i ordning böncurry och chutney',
           es: 'Prepara curry de frijoles y chutneys',
           fr: 'Préparez le curry de haricots et les chutneys',
           de: 'Bohnencurry und Chutneys zubereiten',

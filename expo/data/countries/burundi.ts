@@ -263,8 +263,28 @@ export const burundi: Country = {
     },
     history: [
       {
-        year: '16th Century',
-        title: 'Kingdom of Burundi',
+        year: {
+          en: '16th Century',
+          sv: '1500-talet',
+          es: 'siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'século XVI',
+        },
+        title: {
+          en: 'Kingdom of Burundi',
+          sv: 'Kungariket Burundi',
+          es: 'Reino de Burundi',
+          fr: 'Royaume du Burundi',
+          de: 'Königreich Burundi',
+          it: 'Regno del Burundi',
+          pl: 'Królestwo Burundi',
+          nl: 'Koninkrijk Burundi',
+          pt: 'Reino do Burundi',
+        },
         description: {
           en: 'The Kingdom of Burundi was established, ruled by the Ganwa princes under the Mwami (king).',
           sv: 'Kungariket Burundi etablerades, styrt av Ganwa-prinsarna under Mwami (kung).',
@@ -279,7 +299,17 @@ export const burundi: Country = {
       },
       {
         year: '1899',
-        title: 'German East Africa',
+        title: {
+          en: 'German East Africa',
+          sv: 'Tyska Östafrika',
+          es: 'África Oriental Alemana',
+          fr: 'Afrique orientale allemande',
+          de: 'Deutsch-Ostafrika',
+          it: 'Africa Orientale Tedesca',
+          pl: 'Niemiecka Afryka Wschodnia',
+          nl: 'Duits-Oost-Afrika',
+          pt: 'África Oriental Alemã',
+        },
         description: {
           en: 'Burundi became part of German East Africa after European colonization.',
           sv: 'Burundi blev en del av tyska Östafrika efter europeisk kolonisering.',
@@ -294,7 +324,17 @@ export const burundi: Country = {
       },
       {
         year: '1916',
-        title: 'Belgian Rule',
+        title: {
+          en: 'Belgian Rule',
+          sv: 'Belgiskt styre',
+          es: 'Dominio belga',
+          fr: 'Domination belge',
+          de: 'Belgische Herrschaft',
+          it: 'Dominio belga',
+          pl: 'Rządy belgijskie',
+          nl: 'Belgisch bestuur',
+          pt: 'Domínio belga',
+        },
         description: {
           en: 'Belgium took control after World War I, administering Burundi with Rwanda as Ruanda-Urundi.',
           sv: 'Belgien tog kontroll efter första världskriget och administrerade Burundi med Rwanda som Ruanda-Urundi.',
@@ -309,7 +349,17 @@ export const burundi: Country = {
       },
       {
         year: '1962',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Burundi gained independence from Belgium, initially as a constitutional monarchy.',
           sv: 'Burundi blev självständigt från Belgien, till en början som en konstitutionell monarki.',
@@ -324,7 +374,17 @@ export const burundi: Country = {
       },
       {
         year: '1966',
-        title: 'Republic Declared',
+        title: {
+          en: 'Republic Declared',
+          sv: 'Republiken utropas',
+          es: 'Proclamación de la república',
+          fr: 'Proclamation de la république',
+          de: 'Ausrufung der Republik',
+          it: 'Proclamazione della repubblica',
+          pl: 'Proklamacja republiki',
+          nl: 'Uitroeping van de republiek',
+          pt: 'Proclamação da república',
+        },
         description: {
           en: 'The monarchy was abolished and Burundi became a republic.',
           sv: 'Monarkin avskaffades och Burundi blev en republik.',
@@ -339,7 +399,17 @@ export const burundi: Country = {
       },
       {
         year: '1993-2005',
-        title: 'Civil War',
+        title: {
+          en: 'Civil War',
+          sv: 'Inbördeskrig',
+          es: 'Guerra civil',
+          fr: 'Guerre civile',
+          de: 'Bürgerkrieg',
+          it: 'Guerra civile',
+          pl: 'Wojna domowa',
+          nl: 'Burgeroorlog',
+          pt: 'Guerra civil',
+        },
         description: {
           en: 'Ethnic conflict between Hutu and Tutsi led to civil war, ending with peace accords in 2005.',
           sv: 'Etnisk konflikt mellan hutu och tutsi ledde till inbördeskrig som slutade med fredsavtal 2005.',
@@ -366,7 +436,17 @@ export const burundi: Country = {
           nl: 'Koninklijke trommeltraditie',
           pt: 'Tradição dos tambores reais',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'The Karyenda drummers developed complex rhythmic patterns and rituals that influenced percussion worldwide, recognized by UNESCO.',
           sv: 'Karyenda-trummisarna utvecklade komplexa rytmiska mönster och ritualer som påverkade slagverk över hela världen, erkända av UNESCO.',
@@ -391,7 +471,17 @@ export const burundi: Country = {
           nl: 'Teelt van specialty koffie',
           pt: 'Cultivo de café especial',
         },
-        year: '1930s',
+        year: {
+          en: '1930s',
+          sv: '1930-talet',
+          es: 'década de 1930',
+          fr: 'années 1930',
+          de: '1930er',
+          it: 'anni \'30',
+          pl: 'lata 30.',
+          nl: 'jaren 30',
+          pt: 'década de 1930',
+        },
         description: {
           en: 'Burundi perfected high-altitude Arabica coffee growing, producing some of the world\'s finest single-origin coffees.',
           sv: 'Burundi fulländade Arabica-kaffeodling på hög höjd och producerade några av världens finaste kaffe med ett ursprung.',
@@ -416,7 +506,17 @@ export const burundi: Country = {
           nl: 'Vistechnieken van het Tanganyikameer',
           pt: 'Técnicas de pesca no Lago Tanganica',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Developed unique methods for fishing in one of the world\'s deepest lakes with endemic species.',
           sv: 'Utvecklat unika metoder för fiske i en av världens djupaste sjöar med endemiska arter.',
@@ -441,7 +541,17 @@ export const burundi: Country = {
           nl: 'Kunst van mandenvlechten',
           pt: 'Arte da tecelagem de cestos',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Burundian weavers created distinctive coiled basket patterns that became internationally recognized art forms.',
           sv: 'Burundiska vävare skapade distinkta rullade korgmönster som blev internationellt erkända konstformer.',
@@ -579,7 +689,17 @@ export const burundi: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa; available on arrival at airport or in advance.',
           sv: 'De flesta besökare behöver visum; tillgänglig vid ankomst till flygplatsen eller i förväg.',
@@ -593,7 +713,17 @@ export const burundi: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Dry seasons: June-August and December-January for easier travel.',
           sv: 'Torra årstider: juni-augusti och december-januari för enklare resor.',
@@ -607,7 +737,17 @@ export const burundi: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Kirundi is official. French widely spoken. Limited English in tourist areas.',
           sv: 'Kirundi är officiellt. Franska talas vida. Begränsad engelska i turistområden.',
@@ -645,7 +785,17 @@ export const burundi: Country = {
         },
       },
       {
-        item: 'Health precautions',
+        item: {
+          en: 'Health precautions',
+          sv: 'Hälsoråd',
+          es: 'Precauciones sanitarias',
+          fr: 'Précautions sanitaires',
+          de: 'Gesundheitsvorsorge',
+          it: 'Precauzioni sanitarie',
+          pl: 'Profilaktyka zdrowotna',
+          nl: 'Gezondheidsmaatregelen',
+          pt: 'Cuidados com a saúde',
+        },
         description: {
           en: 'Yellow fever vaccination required. Malaria prophylaxis essential.',
           sv: 'Vaccination mot gula febern krävs. Malariaprofylax viktigt.',
@@ -659,7 +809,17 @@ export const burundi: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current situation. Some areas have travel advisories.',
           sv: 'Kontrollera aktuell situation. Vissa områden har reserådgivning.',
@@ -677,7 +837,7 @@ export const burundi: Country = {
       id: 'burundi-main',
       name: {
         en: 'Beans and Plantains',
-        sv: 'Bönor och Kokbanan',
+        sv: 'Bönor och kokbananer',
         es: 'Frijoles y Plátanos',
         fr: 'Haricots et plantains',
         de: 'Bohnen und Kochbananen',
@@ -688,7 +848,7 @@ export const burundi: Country = {
       },
       description: {
         en: 'Traditional dish with stewed beans and fried plantains',
-        sv: 'Traditionell rätt med stuvade bönor och stekta mjölbananer',
+        sv: 'Traditionell rätt med bönor i gryta och stekta kokbananer',
         es: 'Plato tradicional de frijoles guisados ​​y plátanos fritos',
         fr: 'Plat traditionnel avec compote de haricots et plantains frits',
         de: 'Traditionelles Gericht mit gedünsteten Bohnen und gebratenen Kochbananen',
@@ -730,7 +890,7 @@ export const burundi: Country = {
         {
           name: {
             en: 'Plantains',
-            sv: 'Groblad',
+            sv: 'Kokbananer',
             es: 'Plátanos',
             fr: 'Bananes plantains',
             de: 'Kochbananen',
@@ -742,7 +902,7 @@ export const burundi: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -767,7 +927,7 @@ export const burundi: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -792,7 +952,7 @@ export const burundi: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -856,7 +1016,7 @@ export const burundi: Country = {
       steps: [
         {
           en: 'Soak beans overnight',
-          sv: 'Blötlägg bönor över natten',
+          sv: 'Blötlägg bönorna över natten',
           es: 'Remojar los frijoles durante la noche',
           fr: 'Faire tremper les haricots pendant la nuit',
           de: 'Bohnen über Nacht einweichen',
@@ -889,7 +1049,7 @@ export const burundi: Country = {
         },
         {
           en: 'Add beans and simmer together',
-          sv: 'Tillsätt bönor och låt sjuda tillsammans',
+          sv: 'Tillsätt bönorna och låt allt sjuda tillsammans',
           es: 'Agregue los frijoles y cocine a fuego lento',
           fr: 'Ajouter les haricots et laisser mijoter ensemble',
           de: 'Bohnen hinzufügen und zusammen köcheln lassen',
@@ -900,7 +1060,7 @@ export const burundi: Country = {
         },
         {
           en: 'Slice and fry plantains until golden',
-          sv: 'Skiva och stek plantains tills de är gyllene',
+          sv: 'Skiva kokbananerna och stek dem gyllene',
           es: 'Rebanar y freír los plátanos hasta que estén dorados',
           fr: 'Trancher et faire frire les plantains jusqu\'à ce qu\'ils soient dorés',
           de: 'Kochbananen in Scheiben schneiden und goldbraun braten',
@@ -911,7 +1071,7 @@ export const burundi: Country = {
         },
         {
           en: 'Serve beans with fried plantains',
-          sv: 'Servera bönor med friterade mjölbananer',
+          sv: 'Servera bönorna med de stekta kokbananerna',
           es: 'Sirva los frijoles con plátanos fritos',
           fr: 'Servir les haricots avec des plantains frits',
           de: 'Bohnen mit gebratenen Kochbananen servieren',
@@ -926,26 +1086,26 @@ export const burundi: Country = {
     dessert: {
       id: 'burundi-dessert',
       name: {
-        en: 'Banana Fritters',
-        sv: 'Umutsima Sweet',
-        es: 'Dulce Umutsima',
-        fr: 'Umutsima Doux',
-        de: 'Umutsima süß',
-        it: 'Umutsima Sweet',
-        pl: 'Umutsima Sweet',
-        nl: 'Umutsima Sweet',
-        pt: 'Umutsima Sweet',
+        en: 'Sweet umutsima',
+        sv: 'Söt umutsima',
+        es: 'Umutsima dulce',
+        fr: 'Umutsima sucré',
+        de: 'Süßes Umutsima',
+        it: 'Umutsima dolce',
+        pl: 'Słodkie umutsima',
+        nl: 'Zoete umutsima',
+        pt: 'Umutsima doce',
       },
       description: {
-        en: 'Sweet Burundian banana fritters dusted with sugar, a popular dessert enjoyed across the country.',
-        sv: 'Söt kassava och majsgröt, en tröstande burundisk dessert',
+        en: 'Sweet cassava and corn porridge, a comforting Burundian dessert.',
+        sv: 'Söt gröt på kassava och majs – en värmande efterrätt från Burundi.',
         es: 'Gachas dulces de yuca y maíz, un reconfortante postre burundés',
         fr: 'Bouillie sucrée de manioc et maïs, un dessert burundais réconfortant',
         de: 'Süßer Maniok- und Maisbrei, ein wohliges burundisches Dessert',
-        it: 'Sweet cassava and corn porridge, a comforting Burundian dessert',
-        pl: 'Sweet cassava and corn porridge, a comforting Burundian dessert',
-        nl: 'Sweet cassava and corn porridge, a comforting Burundian dessert',
-        pt: 'Sweet cassava and corn porridge, a comforting Burundian dessert',
+        it: 'Porridge dolce di manioca e mais, un dessert confortante del Burundi.',
+        pl: 'Słodka kasza z manioku i kukurydzy – rozgrzewający deser z Burundi.',
+        nl: 'Zoete pap van cassave en maïs, een hartverwarmend dessert uit Burundi.',
+        pt: 'Mingau doce de mandioca e milho, uma sobremesa reconfortante do Burundi.',
       },
       cookingTime: 40,
       difficulty: 'medium',
@@ -965,7 +1125,7 @@ export const burundi: Country = {
         {
           name: {
             en: 'Cassava flour',
-            sv: 'Cassavamjöl',
+            sv: 'Kassavamjöl',
             es: 'Harina de yuca',
             fr: 'Farine de manioc',
             de: 'Maniokmehl',
@@ -1041,13 +1201,13 @@ export const burundi: Country = {
       steps: [
         {
           en: 'Mix cassava flour and cornmeal together.',
-          sv: 'Blanda kassavamjöl och majsmjöl tillsammans.',
+          sv: 'Blanda kassavamjölet och majsmjölet.',
           es: 'Mezcle la harina de yuca y la harina de maíz.',
           fr: 'Mélanger la farine de manioc et la semoule de maïs.',
           de: 'Maniokmehl und Maismehl vermischen.',
           it: 'Mescolare insieme la farina di manioca e la farina di mais.',
           pl: 'Wymieszaj razem mąkę z manioku i mąkę kukurydzianą.',
-          nl: 'Meng het cassavemeel en het maismeel samen.',
+          nl: 'Meng het cassavemeel en het maïsmeel.',
           pt: 'Misture a farinha de mandioca e o fubá.',
         },
         {
@@ -1063,7 +1223,7 @@ export const burundi: Country = {
         },
         {
           en: 'Gradually add flour mixture, stirring constantly.',
-          sv: 'Tillsätt gradvis mjölblandningen under konstant omrörning.',
+          sv: 'Tillsätt mjölblandningen lite i taget under ständig omrörning.',
           es: 'Agregue gradualmente la mezcla de harina, revolviendo constantemente.',
           fr: 'Ajouter progressivement le mélange de farine en remuant constamment.',
           de: 'Unter ständigem Rühren nach und nach die Mehlmischung hinzufügen.',
@@ -1074,7 +1234,7 @@ export const burundi: Country = {
         },
         {
           en: 'Reduce heat and cook for 25 minutes, stirring often.',
-          sv: 'Sänk värmen och koka i 25 minuter, rör ofta.',
+          sv: 'Sänk värmen och låt koka i 25 minuter under flitig omrörning.',
           es: 'Reduzca el fuego y cocine durante 25 minutos, revolviendo con frecuencia.',
           fr: 'Réduire le feu et cuire 25 minutes en remuant souvent.',
           de: 'Hitze reduzieren und 25 Minuten kochen lassen, dabei häufig umrühren.',
@@ -1085,7 +1245,7 @@ export const burundi: Country = {
         },
         {
           en: 'Add sugar and salt, mix well.',
-          sv: 'Tillsätt socker och salt, blanda väl.',
+          sv: 'Tillsätt socker och salt och blanda väl.',
           es: 'Agrega el azúcar y la sal, mezcla bien.',
           fr: 'Ajouter le sucre et le sel, bien mélanger.',
           de: 'Zucker und Salz hinzufügen, gut vermischen.',
@@ -1096,7 +1256,7 @@ export const burundi: Country = {
         },
         {
           en: 'Continue cooking for 5 more minutes.',
-          sv: 'Fortsätt koka i 5 minuter till.',
+          sv: 'Låt koka ytterligare 5 minuter.',
           es: 'Continúe cocinando por 5 minutos más.',
           fr: 'Poursuivez la cuisson encore 5 minutes.',
           de: 'Weitere 5 Minuten weiterkochen.',
@@ -1106,8 +1266,8 @@ export const burundi: Country = {
           pt: 'Continue cozinhando por mais 5 minutos.',
         },
         {
-          en: 'Should be thick and smooth consistency.',
-          sv: 'Bör vara tjock och slät konsistens.',
+          en: 'The porridge should be thick and smooth.',
+          sv: 'Gröten ska bli tjock och slät.',
           es: 'Debe quedar una consistencia espesa y suave.',
           fr: 'Doit avoir une consistance épaisse et lisse.',
           de: 'Sollte eine dicke und glatte Konsistenz haben.',
@@ -1128,15 +1288,15 @@ export const burundi: Country = {
           pt: 'Sirva morno em tigelas.',
         },
         {
-          en: 'Optional: add a pat of butter on top.',
-          sv: 'Valfritt: lägg en klick smör ovanpå.',
-          es: 'Opcional: añadir un poco de mantequilla encima.',
-          fr: 'Facultatif : ajoutez une noisette de beurre par dessus.',
-          de: 'Optional: ein Stück Butter darüber geben.',
-          it: 'Facoltativo: aggiungere una noce di burro sopra.',
-          pl: 'Opcjonalnie: dodaj kawałek masła na wierzchu.',
-          nl: 'Optioneel: voeg een klontje boter toe bovenop.',
-          pt: 'Opcional: adicione um pedaço de manteiga por cima.',
+          en: 'Optional: add a pat of plant-based butter on top.',
+          sv: 'Valfritt: lägg en klick växtbaserat smör ovanpå.',
+          es: 'Opcional: añadir un poco de mantequilla vegetal encima.',
+          fr: 'Facultatif : ajoutez une noisette de beurre végétal par-dessus.',
+          de: 'Optional: ein Stück vegane Butter daraufgeben.',
+          it: 'Facoltativo: aggiungere sopra una noce di burro vegetale.',
+          pl: 'Opcjonalnie: połóż na wierzchu kawałek roślinnego masła.',
+          nl: 'Optioneel: leg er een klontje plantaardige boter op.',
+          pt: 'Opcional: coloque um pedaço de manteiga vegetal por cima.',
         },
         {
           en: 'Can be eaten as breakfast or dessert.',
@@ -1303,7 +1463,7 @@ export const burundi: Country = {
           },
           {
             en: 'Lake Turkana',
-            sv: 'Lake Turkana',
+            sv: 'Turkanasjön',
             es: 'Lago Turkana',
             fr: 'Lac Turkana',
             de: 'Turkana-See',

@@ -263,8 +263,28 @@ export const tajikistan: Country = {
     },
     history: [
       {
-        year: '6th–4th Century BC',
-        title: 'Achaemenid & Iranian Influence',
+        year: {
+          en: '6th–4th Century BC',
+          sv: '500–300-talet f.Kr.',
+          es: 'siglos VI–IV a. C.',
+          fr: 'VIe–IVe siècles av. J.-C.',
+          de: '6.–4. Jahrhundert v. Chr.',
+          it: 'secoli VI–IV a.C.',
+          pl: 'VI–IV wiek p.n.e.',
+          nl: '6e–4e eeuw v.Chr.',
+          pt: 'séculos VI–IV a.C.',
+        },
+        title: {
+          en: 'Achaemenid & Iranian Influence',
+          sv: 'Akemenidiskt och iranskt inflytande',
+          es: 'Influencia aqueménida e iraní',
+          fr: 'Influence achéménide et iranienne',
+          de: 'Achämenidischer und iranischer Einfluss',
+          it: 'Influenza achemenide e iraniana',
+          pl: 'Wpływy achemenidzkie i irańskie',
+          nl: 'Achaemenidische en Iraanse invloed',
+          pt: 'Influência aquemênida e iraniana',
+        },
         description: {
           en: 'The region was influenced by ancient Iranian empires and Persianate culture, shaping language and identity.',
           sv: 'Regionen var influerad av forntida iranska imperier och persisk kultur, som formade språk och identitet.',
@@ -278,8 +298,28 @@ export const tajikistan: Country = {
         },
       },
       {
-        year: '329 BC',
-        title: 'Hellenistic Period',
+        year: {
+          en: '329 BC',
+          sv: '329 f.Kr.',
+          es: '329 a. C.',
+          fr: '329 av. J.-C.',
+          de: '329 v. Chr.',
+          it: '329 a.C.',
+          pl: '329 p.n.e.',
+          nl: '329 v.Chr.',
+          pt: '329 a.C.',
+        },
+        title: {
+          en: 'Hellenistic Period',
+          sv: 'Hellenistisk tid',
+          es: 'Período helenístico',
+          fr: 'Période hellénistique',
+          de: 'Hellenistische Zeit',
+          it: 'Periodo ellenistico',
+          pl: 'Okres hellenistyczny',
+          nl: 'Hellenistische periode',
+          pt: 'Período helenístico',
+        },
         description: {
           en: 'After Alexander the Great\'s campaigns, Hellenistic states and trade networks influenced parts of Central Asia.',
           sv: 'Efter Alexander den Stores kampanjer påverkade hellenistiska stater och handelsnätverk delar av Centralasien.',
@@ -293,8 +333,28 @@ export const tajikistan: Country = {
         },
       },
       {
-        year: '8th–10th Century',
-        title: 'Silk Road & Cultural Flourishing',
+        year: {
+          en: '8th–10th Century',
+          sv: '700–900-talet',
+          es: 'siglos VIII–X',
+          fr: 'VIIIe–Xe siècles',
+          de: '8.–10. Jahrhundert',
+          it: 'secoli VIII–X',
+          pl: 'VIII–X wiek',
+          nl: '8e–10e eeuw',
+          pt: 'séculos VIII–X',
+        },
+        title: {
+          en: 'Silk Road & Cultural Flourishing',
+          sv: 'Sidenvägen och kulturell blomstring',
+          es: 'Ruta de la Seda y esplendor cultural',
+          fr: 'Route de la soie et essor culturel',
+          de: 'Seidenstraße und kulturelle Blüte',
+          it: 'Via della Seta e fioritura culturale',
+          pl: 'Jedwabny Szlak i rozkwit kultury',
+          nl: 'Zijderoute en culturele bloei',
+          pt: 'Rota da Seda e florescimento cultural',
+        },
         description: {
           en: 'Trade along Silk Road routes supported cities and scholarship, strengthening Persian-influenced culture in the region.',
           sv: 'Handel längs Silk Road-rutter stödde städer och stipendier, vilket stärkte den persisk influerade kulturen i regionen.',
@@ -309,7 +369,17 @@ export const tajikistan: Country = {
       },
       {
         year: '1929',
-        title: 'Tajik SSR',
+        title: {
+          en: 'Tajik SSR',
+          sv: 'Tadzjikiska SSR',
+          es: 'RSS de Tayikistán',
+          fr: 'RSS du Tadjikistan',
+          de: 'Tadschikische SSR',
+          it: 'RSS Tagika',
+          pl: 'Tadżycka SRR',
+          nl: 'Tadzjiekse SSR',
+          pt: 'RSS Tajique',
+        },
         description: {
           en: 'Tajikistan became a Soviet republic, bringing major social, economic, and infrastructure changes.',
           sv: 'Tadzjikistan blev en sovjetrepublik, vilket medförde stora sociala, ekonomiska och infrastrukturförändringar.',
@@ -324,7 +394,17 @@ export const tajikistan: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Tajikistan became independent following the dissolution of the Soviet Union.',
           sv: 'Tadzjikistan blev självständigt efter Sovjetunionens upplösning.',
@@ -351,7 +431,17 @@ export const tajikistan: Country = {
           nl: 'Perzische poëzie en literatuur',
           pt: 'Poesia e literatura persa',
         },
-        year: '10th–15th Century',
+        year: {
+          en: '10th–15th Century',
+          sv: '900–1400-talen',
+          es: 'Siglos X–XV',
+          fr: 'Xe–XVe siècles',
+          de: '10.–15. Jahrhundert',
+          it: 'X–XV secolo',
+          pl: 'X–XV wiek',
+          nl: '10e–15e eeuw',
+          pt: 'Séculos X–XV',
+        },
         description: {
           en: 'Tajik (Persian) literary traditions form a major part of the region\'s cultural identity, with poetry central to education and celebrations.',
           sv: 'Tadzjikiska (persiska) litterära traditioner utgör en stor del av regionens kulturella identitet, med poesi centralt för utbildning och firande.',
@@ -376,7 +466,17 @@ export const tajikistan: Country = {
           nl: 'Bergirrigatie en terrassenbouw',
           pt: 'Irrigação e terraceamento de montanha',
         },
-        year: 'Centuries',
+        year: {
+          en: 'Centuries',
+          sv: 'Sedan århundraden',
+          es: 'Desde hace siglos',
+          fr: 'Depuis des siècles',
+          de: 'Seit Jahrhunderten',
+          it: 'Da secoli',
+          pl: 'Od wieków',
+          nl: 'Al eeuwen',
+          pt: 'Há séculos',
+        },
         description: {
           en: 'Communities developed practical agricultural techniques for steep terrain, including channels and terraced fields in valleys.',
           sv: 'Samhällen utvecklade praktiska jordbrukstekniker för brant terräng, inklusive kanaler och terrasserade fält i dalar.',
@@ -401,7 +501,17 @@ export const tajikistan: Country = {
           nl: 'Traditionele textielkunst',
           pt: 'Artes têxteis tradicionais',
         },
-        year: 'Centuries',
+        year: {
+          en: 'Centuries',
+          sv: 'Sedan århundraden',
+          es: 'Desde hace siglos',
+          fr: 'Depuis des siècles',
+          de: 'Seit Jahrhunderten',
+          it: 'Da secoli',
+          pl: 'Od wieków',
+          nl: 'Al eeuwen',
+          pt: 'Há séculos',
+        },
         description: {
           en: 'Embroidery, suzani-style patterns, and regional weaving traditions remain important cultural crafts and local economies.',
           sv: 'Broderier, mönster i suzanistil och regionala vävtraditioner är fortfarande viktiga kulturhantverk och lokala ekonomier.',
@@ -419,7 +529,7 @@ export const tajikistan: Country = {
       {
         name: {
           en: 'Pamir Highway (M41)',
-          sv: 'Pamir Highway (M41)',
+          sv: 'Pamirvägen (M41)',
           es: 'Autopista del Pamir (M41)',
           fr: 'Autoroute du Pamir (M41)',
           de: 'Pamir Highway (M41)',
@@ -539,7 +649,17 @@ export const tajikistan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Late spring to early autumn (May–October) for most regions; Pamirs are best in summer.',
           sv: 'Sen vår till tidig höst (maj–oktober) för de flesta regioner; Pamirs är bäst på sommaren.',
@@ -553,7 +673,17 @@ export const tajikistan: Country = {
         },
       },
       {
-        item: 'Permits & borders',
+        item: {
+          en: 'Permits & borders',
+          sv: 'Tillstånd och gränser',
+          es: 'Permisos y fronteras',
+          fr: 'Permis et frontières',
+          de: 'Genehmigungen und Grenzen',
+          it: 'Permessi e frontiere',
+          pl: 'Pozwolenia i granice',
+          nl: 'Vergunningen en grenzen',
+          pt: 'Autorizações e fronteiras',
+        },
         description: {
           en: 'Some areas (especially in GBAO/Pamirs) may require additional permits—check requirements in advance.',
           sv: 'Vissa områden (särskilt i GBAO/Pamirs) kan kräva ytterligare tillstånd – kontrollera kraven i förväg.',
@@ -567,7 +697,17 @@ export const tajikistan: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Shared taxis and 4x4s are common for mountain routes; roads can be slow and weather-dependent.',
           sv: 'Delade taxibilar och fyrhjulingar är vanliga för bergsvägar; vägar kan vara långsamma och väderberoende.',
@@ -581,7 +721,17 @@ export const tajikistan: Country = {
         },
       },
       {
-        item: 'Altitude',
+        item: {
+          en: 'Altitude',
+          sv: 'Hög höjd',
+          es: 'Altitud',
+          fr: 'Altitude',
+          de: 'Höhenlage',
+          it: 'Altitudine',
+          pl: 'Duża wysokość',
+          nl: 'Hoogte',
+          pt: 'Altitude',
+        },
         description: {
           en: 'Take time to acclimatize in high regions like the Pamirs; hydrate and plan easy days early on.',
           sv: 'Ta dig tid att acklimatisera dig i höga regioner som Pamirs; återfukta och planera enkla dagar tidigt.',
@@ -595,7 +745,17 @@ export const tajikistan: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Carry somoni in rural areas; card acceptance can be limited outside major cities.',
           sv: 'Bär somoni på landsbygden; kortacceptans kan begränsas utanför större städer.',
@@ -624,7 +784,7 @@ export const tajikistan: Country = {
       },
       description: {
         en: 'Traditional pilaf made with rice, meat, carrots, and spices',
-        sv: 'Traditionell pilaff gjord med ris, kött, morötter och kryddor',
+        sv: 'Traditionell pilaff med ris, kött, morötter och kryddor',
         es: 'Pilaf tradicional elaborado con arroz, carne, zanahorias y especias',
         fr: 'Pilaf traditionnel à base de riz, de viande, de carottes et d\'épices',
         de: 'Traditioneller Pilaw aus Reis, Fleisch, Karotten und Gewürzen',
@@ -693,7 +853,7 @@ export const tajikistan: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -718,7 +878,7 @@ export const tajikistan: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -743,7 +903,7 @@ export const tajikistan: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -756,7 +916,7 @@ export const tajikistan: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -781,7 +941,7 @@ export const tajikistan: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -834,7 +994,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'Add sliced onions and cook until golden',
-          sv: 'Lägg i skivad lök och koka tills den är gyllene',
+          sv: 'Lägg i skivad lök och fräs tills den är gyllene',
           es: 'Agregue las cebollas en rodajas y cocine hasta que estén doradas',
           fr: 'Ajouter les oignons émincés et cuire jusqu\'à ce qu\'ils soient dorés',
           de: 'In Scheiben geschnittene Zwiebeln hinzufügen und goldbraun braten',
@@ -845,7 +1005,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'Add julienned carrots and sauté gently',
-          sv: 'Tillsätt julienade morötter och fräs försiktigt',
+          sv: 'Tillsätt tunt strimlade morötter och fräs försiktigt',
           es: 'Añade las zanahorias cortadas en juliana y saltea suavemente',
           fr: 'Ajouter les carottes en julienne et faire revenir doucement',
           de: 'Julienne-Karotten dazugeben und leicht anbraten',
@@ -900,7 +1060,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'Cover and steam until rice is tender and liquid absorbed',
-          sv: 'Täck över och ånga tills riset är mört och vätskan absorberats',
+          sv: 'Lägg på lock och låt ångkoka tills riset är mjukt och vätskan har sugits upp',
           es: 'Cubra y cocine al vapor hasta que el arroz esté tierno y se absorba el líquido',
           fr: 'Couvrir et cuire à la vapeur jusqu\'à ce que le riz soit tendre et que le liquide soit absorbé',
           de: 'Abdecken und dämpfen, bis der Reis weich ist und die Flüssigkeit aufgesogen ist',
@@ -911,7 +1071,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'Gently mix before serving and serve family-style',
-          sv: 'Blanda försiktigt före servering och servera i familjestil',
+          sv: 'Blanda försiktigt och servera på ett stort fat mitt på bordet',
           es: 'Mezcle suavemente antes de servir y sirva al estilo familiar',
           fr: 'Mélanger délicatement avant de servir et servir en famille',
           de: 'Vor dem Servieren vorsichtig mischen und im Familienstil servieren',
@@ -938,7 +1098,7 @@ export const tajikistan: Country = {
       },
       description: {
         en: 'A traditional Tajik sweet made from flour, oil, sugar, and nuts, often prepared for celebrations and guests.',
-        sv: 'En traditionell tadzjikisk sötsak gjord av mjöl, olja, socker och nötter, ofta förberedd för fester och gäster.',
+        sv: 'En traditionell tadzjikisk sötsak gjord på mjöl, olja, socker och nötter, som ofta lagas till fester och när man får gäster.',
         es: 'Un dulce tradicional tayiko elaborado con harina, aceite, azúcar y nueces, que a menudo se prepara para celebraciones e invitados.',
         fr: 'Une friandise tadjike traditionnelle à base de farine, d\'huile, de sucre et de noix, souvent préparée pour les célébrations et les invités.',
         de: 'Eine traditionelle tadschikische Süßigkeit aus Mehl, Öl, Zucker und Nüssen, die oft für Feiern und Gäste zubereitet wird.',
@@ -965,7 +1125,7 @@ export const tajikistan: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -980,7 +1140,7 @@ export const tajikistan: Country = {
         {
           name: {
             en: 'Vegetable oil or butter',
-            sv: 'Vegetabilisk olja eller smör',
+            sv: 'Neutral olja eller smör',
             es: 'Aceite vegetal o mantequilla',
             fr: 'Huile végétale ou beurre',
             de: 'Pflanzenöl oder Butter',
@@ -1078,7 +1238,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'In a separate pot, dissolve sugar in water and bring to a boil',
-          sv: 'Lös socker i vatten i en separat kastrull och koka upp',
+          sv: 'Lös upp sockret i vattnet i en separat kastrull och koka upp',
           es: 'En una olla aparte, disolver el azúcar en agua y llevar a ebullición',
           fr: 'Dans une autre casserole, dissoudre le sucre dans l\'eau et porter à ébullition',
           de: 'In einem separaten Topf Zucker in Wasser auflösen und zum Kochen bringen',
@@ -1089,7 +1249,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'Carefully pour syrup into flour mixture while stirring',
-          sv: 'Häll försiktigt sirap i mjölblandningen under omrörning',
+          sv: 'Häll försiktigt sirapen i mjölblandningen under omrörning',
           es: 'Vierta con cuidado el almíbar en la mezcla de harina mientras revuelve',
           fr: 'Versez délicatement le sirop dans le mélange de farine tout en remuant',
           de: 'Den Sirup vorsichtig unter Rühren in die Mehlmischung gießen',
@@ -1100,7 +1260,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'Add cardamom and mix until thick and smooth',
-          sv: 'Tillsätt kardemumma och blanda tills det är tjockt och slätt',
+          sv: 'Tillsätt kardemumma och rör tills smeten är tjock och slät',
           es: 'Agregue el cardamomo y mezcle hasta que esté espeso y suave',
           fr: 'Ajouter la cardamome et mélanger jusqu\'à consistance épaisse et lisse',
           de: 'Kardamom hinzufügen und verrühren, bis es dick und glatt ist',
@@ -1111,7 +1271,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'Stir in crushed nuts',
-          sv: 'Rör ner krossade nötter',
+          sv: 'Rör ner de krossade nötterna',
           es: 'Agregue las nueces trituradas',
           fr: 'Incorporer les noix concassées',
           de: 'Gemahlene Nüsse unterrühren',
@@ -1122,7 +1282,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'Cook for 2–3 minutes until glossy',
-          sv: 'Koka i 2–3 minuter tills det blir glansigt',
+          sv: 'Låt koka i 2–3 minuter tills smeten blir blank',
           es: 'Cocine durante 2 a 3 minutos hasta que esté brillante',
           fr: 'Cuire pendant 2 à 3 minutes jusqu\'à ce que ce soit brillant',
           de: '2–3 Minuten kochen, bis es glänzt',
@@ -1133,7 +1293,7 @@ export const tajikistan: Country = {
         },
         {
           en: 'Transfer to a dish and smooth the surface',
-          sv: 'Överför till ett fat och jämna till ytan',
+          sv: 'Lägg över halvan på ett fat och jämna till ytan',
           es: 'Transfiera a un plato y alise la superficie',
           fr: 'Transférer dans un plat et lisser la surface',
           de: 'In eine Schüssel geben und die Oberfläche glatt streichen',
@@ -1288,7 +1448,7 @@ export const tajikistan: Country = {
           },
           {
             en: 'Pamir Mountains',
-            sv: 'Pamir Mountains',
+            sv: 'Pamirbergen',
             es: 'Montañas Pamir',
             fr: 'Montagnes du Pamir',
             de: 'Pamir-Gebirge',
@@ -1310,7 +1470,7 @@ export const tajikistan: Country = {
           },
           {
             en: 'Ural Mountains',
-            sv: 'Ural Mountains',
+            sv: 'Uralbergen',
             es: 'Montes Urales',
             fr: 'Montagnes de l\'Oural',
             de: 'Uralgebirge',
@@ -1338,7 +1498,7 @@ export const tajikistan: Country = {
         options: [
           {
             en: 'Amber Road',
-            sv: 'Amber Road',
+            sv: 'Bärnstensvägen',
             es: 'Camino ámbar',
             fr: 'Route de l\'Ambre',
             de: 'Bernsteinstraße',
@@ -1349,7 +1509,7 @@ export const tajikistan: Country = {
           },
           {
             en: 'Spice Route',
-            sv: 'Kryddväg',
+            sv: 'Kryddvägen',
             es: 'Ruta de las Especias',
             fr: 'Route des épices',
             de: 'Gewürzroute',
@@ -1360,7 +1520,7 @@ export const tajikistan: Country = {
           },
           {
             en: 'Silk Road',
-            sv: 'Silk Road',
+            sv: 'Sidenvägen',
             es: 'Ruta de la Seda',
             fr: 'Route de la Soie',
             de: 'Seidenstraße',
@@ -1371,7 +1531,7 @@ export const tajikistan: Country = {
           },
           {
             en: 'Tea Horse Road',
-            sv: 'Tea Horse Road',
+            sv: 'Te- och hästvägen',
             es: 'Ruta del té y los caballos',
             fr: 'Route du cheval du thé',
             de: 'Tee-Pferde-Straße',

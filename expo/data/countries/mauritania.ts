@@ -219,8 +219,28 @@ export const mauritania: Country = {
     },
     history: [
       {
-        year: 'Ancient',
-        title: 'Trans-Saharan Trade',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
+        title: {
+          en: 'Trans-Saharan Trade',
+          sv: 'Handeln över Sahara',
+          es: 'Comercio transahariano',
+          fr: 'Commerce transsaharien',
+          de: 'Transsaharahandel',
+          it: 'Commercio transahariano',
+          pl: 'Handel transsaharyjski',
+          nl: 'Trans-Saharahandel',
+          pt: 'Comércio transaariano',
+        },
         description: {
           en: 'Mauritania was a key route for trans-Saharan trade caravans.',
           sv: 'Mauretanien var en nyckelväg för handelskaravaner över Sahara.',
@@ -235,7 +255,17 @@ export const mauritania: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Mauritania gained independence from France.',
           sv: 'Mauretanien blev självständigt från Frankrike.',
@@ -262,7 +292,17 @@ export const mauritania: Country = {
           nl: 'Behoud van bibliotheken',
           pt: 'Preservação de bibliotecas',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Ancient manuscript libraries in desert cities like Chinguetti.',
           sv: 'Gamla manuskriptbibliotek i ökenstäder som Chinguetti.',
@@ -287,7 +327,17 @@ export const mauritania: Country = {
           nl: 'Overlevingstechnieken in de woestijn',
           pt: 'Técnicas de sobrevivência no deserto',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Nomadic expertise in surviving harsh Saharan conditions.',
           sv: 'Nomadisk expertis för att överleva hårda Sahara-förhållanden.',
@@ -353,7 +403,7 @@ export const mauritania: Country = {
       {
         name: {
           en: 'Terjit Oasis',
-          sv: 'Terjit Oasis',
+          sv: 'Oasen Terjit',
           es: 'Oasis de Terjit',
           fr: 'Oasis de Terjit',
           de: 'Terjit-Oase',
@@ -401,7 +451,7 @@ export const mauritania: Country = {
       {
         name: {
           en: 'Adrar Region',
-          sv: 'Adrar Region',
+          sv: 'Adrarregionen',
           es: 'Región de Adrar',
           fr: 'Région de l\'Adrar',
           de: 'Adrar-Region',
@@ -425,7 +475,17 @@ export const mauritania: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-February for cooler desert temperatures.',
           sv: 'November-februari för kallare ökentemperaturer.',
@@ -439,7 +499,17 @@ export const mauritania: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa arranged in advance.',
           sv: 'De flesta besökare behöver ett visum som ordnas i förväg.',
@@ -453,7 +523,17 @@ export const mauritania: Country = {
         },
       },
       {
-        item: 'Desert gear',
+        item: {
+          en: 'Desert gear',
+          sv: 'Ökenutrustning',
+          es: 'Equipo para el desierto',
+          fr: 'Équipement pour le désert',
+          de: 'Wüstenausrüstung',
+          it: 'Attrezzatura per il deserto',
+          pl: 'Sprzęt na pustynię',
+          nl: 'Woestijnuitrusting',
+          pt: 'Equipamento para o deserto',
+        },
         description: {
           en: 'Sun protection, plenty of water, warm layers for cold nights.',
           sv: 'Solskydd, mycket vatten, varma lager för kalla nätter.',
@@ -467,7 +547,17 @@ export const mauritania: Country = {
         },
       },
       {
-        item: 'French or Arabic',
+        item: {
+          en: 'French or Arabic',
+          sv: 'Franska eller arabiska',
+          es: 'Francés o árabe',
+          fr: 'Français ou arabe',
+          de: 'Französisch oder Arabisch',
+          it: 'Francese o arabo',
+          pl: 'Francuski lub arabski',
+          nl: 'Frans of Arabisch',
+          pt: 'Francês ou árabe',
+        },
         description: {
           en: 'Helpful for communication; English less common.',
           sv: 'Hjälpsam för kommunikation; Engelska mindre vanligt.',
@@ -538,7 +628,7 @@ export const mauritania: Country = {
         {
           name: {
             en: 'Plain yogurt',
-            sv: 'Vanlig yoghurt',
+            sv: 'Naturell yoghurt',
             es: 'Yogur natural',
             fr: 'Yaourt nature',
             de: 'Naturjoghurt',
@@ -553,7 +643,7 @@ export const mauritania: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -614,7 +704,7 @@ export const mauritania: Country = {
       steps: [
         {
           en: 'Steam couscous until fluffy',
-          sv: 'Ånga couscousen tills den är fluffig',
+          sv: 'Ångkoka couscousen tills den är luftig',
           es: 'Cuscús al vapor hasta que quede esponjoso',
           fr: 'Cuire le couscous à la vapeur jusqu\'à ce qu\'il soit mousseux',
           de: 'Couscous dämpfen, bis es locker ist',
@@ -647,7 +737,7 @@ export const mauritania: Country = {
         },
         {
           en: 'Fold in cooled couscous',
-          sv: 'Vik i kyld couscous',
+          sv: 'Vänd ner den avsvalnade couscousen',
           es: 'Incorporar el cuscús enfriado',
           fr: 'Incorporer le couscous refroidi',
           de: 'Den abgekühlten Couscous unterheben',
@@ -816,7 +906,7 @@ export const mauritania: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -841,7 +931,7 @@ export const mauritania: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -855,7 +945,7 @@ export const mauritania: Country = {
       steps: [
         {
           en: 'Stuff fish with herbs and fry',
-          sv: 'Fyll fisk med örter och stek',
+          sv: 'Fyll fisken med örter och stek den',
           es: 'Rellenar el pescado con hierbas y freír',
           fr: 'Farcir le poisson avec les herbes et le faire frire',
           de: 'Fisch mit Kräutern füllen und anbraten',
@@ -866,7 +956,7 @@ export const mauritania: Country = {
         },
         {
           en: 'Remove fish and cook vegetables in oil',
-          sv: 'Ta bort fisken och koka grönsaker i olja',
+          sv: 'Lyft upp fisken och fräs grönsakerna i oljan',
           es: 'Retire el pescado y cocine las verduras en aceite',
           fr: 'Retirer le poisson et cuire les légumes dans l\'huile',
           de: 'Fisch herausnehmen und Gemüse in Öl garen',
@@ -899,7 +989,7 @@ export const mauritania: Country = {
         },
         {
           en: 'Return fish to pot',
-          sv: 'Lägg tillbaka fisken i krukan',
+          sv: 'Lägg tillbaka fisken i grytan',
           es: 'Devolver el pescado a la olla',
           fr: 'Remettre le poisson dans la marmite',
           de: 'Den Fisch wieder in den Topf geben',
@@ -910,7 +1000,7 @@ export const mauritania: Country = {
         },
         {
           en: 'Serve rice with fish and vegetables',
-          sv: 'Servera ris med fisk och grönsaker',
+          sv: 'Servera riset med fisken och grönsakerna',
           es: 'Servir arroz con pescado y verduras',
           fr: 'Servir le riz avec du poisson et des légumes',
           de: 'Reis mit Fisch und Gemüse servieren',
@@ -1133,7 +1223,7 @@ export const mauritania: Country = {
           },
           {
             en: 'Amber Road',
-            sv: 'Amber Road',
+            sv: 'Bärnstensvägen',
             es: 'Camino ámbar',
             fr: 'Route de l\'Ambre',
             de: 'Bernsteinstraße',

@@ -264,7 +264,17 @@ export const ecuador: Country = {
     history: [
       {
         year: '1463',
-        title: 'Inca Conquest',
+        title: {
+          en: 'Inca Conquest',
+          sv: 'Inkarnas erövring',
+          es: 'Conquista inca',
+          fr: 'Conquête inca',
+          de: 'Eroberung durch die Inka',
+          it: 'Conquista inca',
+          pl: 'Podbój inkaski',
+          nl: 'Verovering door de Inca\'s',
+          pt: 'Conquista inca',
+        },
         description: {
           en: 'The Inca Empire conquered the region, integrating it into their vast territory before Spanish arrival.',
           sv: 'Inkariket erövrade regionen och integrerade den i deras stora territorium innan spanska ankomsten.',
@@ -279,7 +289,17 @@ export const ecuador: Country = {
       },
       {
         year: '1534',
-        title: 'Spanish Colonization',
+        title: {
+          en: 'Spanish Colonization',
+          sv: 'Spansk kolonisering',
+          es: 'Colonización española',
+          fr: 'Colonisation espagnole',
+          de: 'Spanische Kolonisierung',
+          it: 'Colonizzazione spagnola',
+          pl: 'Kolonizacja hiszpańska',
+          nl: 'Spaanse kolonisatie',
+          pt: 'Colonização espanhola',
+        },
         description: {
           en: 'Spanish conquistadors established colonial rule, founding Quito and Guayaquil.',
           sv: 'Spanska conquistadorer etablerade kolonialt styre och grundade Quito och Guayaquil.',
@@ -294,7 +314,17 @@ export const ecuador: Country = {
       },
       {
         year: '1822',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Ecuador gained independence from Spain after the Battle of Pichincha, initially joining Gran Colombia.',
           sv: 'Ecuador blev självständigt från Spanien efter slaget vid Pichincha och anslöt sig först till Gran Colombia.',
@@ -309,7 +339,17 @@ export const ecuador: Country = {
       },
       {
         year: '1830',
-        title: 'Republic Established',
+        title: {
+          en: 'Republic Established',
+          sv: 'Republiken bildas',
+          es: 'Instauración de la república',
+          fr: 'Instauration de la république',
+          de: 'Gründung der Republik',
+          it: 'Nascita della repubblica',
+          pl: 'Powstanie republiki',
+          nl: 'Ontstaan van de republiek',
+          pt: 'Instauração da república',
+        },
         description: {
           en: 'Ecuador separated from Gran Colombia to become an independent republic.',
           sv: 'Ecuador separerades från Gran Colombia för att bli en självständig republik.',
@@ -324,7 +364,17 @@ export const ecuador: Country = {
       },
       {
         year: '1835',
-        title: 'Galápagos Discovery',
+        title: {
+          en: 'Galápagos Discovery',
+          sv: 'Upptäckter på Galápagos',
+          es: 'Descubrimientos en Galápagos',
+          fr: 'Découvertes aux Galápagos',
+          de: 'Entdeckungen auf Galápagos',
+          it: 'Scoperte alle Galápagos',
+          pl: 'Odkrycia na Galapagos',
+          nl: 'Ontdekkingen op de Galápagos',
+          pt: 'Descobertas nas Galápagos',
+        },
         description: {
           en: 'Charles Darwin visited the Galápagos Islands, leading to observations that inspired his theory of evolution.',
           sv: 'Charles Darwin besökte Galápagosöarna, vilket ledde till observationer som inspirerade hans evolutionsteori.',
@@ -339,7 +389,17 @@ export const ecuador: Country = {
       },
       {
         year: '2000',
-        title: 'Dollarization',
+        title: {
+          en: 'Dollarization',
+          sv: 'Dollarisering',
+          es: 'Dolarización',
+          fr: 'Dollarisation',
+          de: 'Dollarisierung',
+          it: 'Dollarizzazione',
+          pl: 'Dolaryzacja',
+          nl: 'Dollarisering',
+          pt: 'Dolarização',
+        },
         description: {
           en: 'Ecuador adopted the US dollar as its official currency to combat economic instability.',
           sv: 'Ecuador antog den amerikanska dollarn som sin officiella valuta för att bekämpa ekonomisk instabilitet.',
@@ -355,7 +415,17 @@ export const ecuador: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can visit visa-free for up to 90 days.',
           sv: 'Många nationaliteter kan besöka visumfritt i upp till 90 dagar.',
@@ -369,7 +439,17 @@ export const ecuador: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June to September for highlands; December to May for coast and Galápagos',
           sv: 'Juni till september för höglandet; December till maj för kusten och Galápagos',
@@ -383,7 +463,17 @@ export const ecuador: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Buses for intercity travel, domestic flights, taxis in cities.',
           sv: 'Bussar för intercityresor, inrikesflyg, taxi i städer.',
@@ -397,7 +487,17 @@ export const ecuador: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Spanish is essential. Indigenous languages in rural areas. Limited English.',
           sv: 'Spanska är viktigt. Ursprungsspråk på landsbygden. Begränsad engelska.',
@@ -411,7 +511,17 @@ export const ecuador: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Exercise caution in cities. Tourist areas generally safe.',
           sv: 'Var försiktig i städer. Turistområden i allmänhet säkra.',
@@ -501,7 +611,7 @@ export const ecuador: Country = {
       {
         name: {
           en: 'Otavalo Market',
-          sv: 'Otavalo Market',
+          sv: 'Marknaden i Otavalo',
           es: 'Mercado de Otavalo',
           fr: 'Marché d\'Otavalo',
           de: 'Otavalo-Markt',
@@ -551,7 +661,7 @@ export const ecuador: Country = {
       id: 'ecuador-ceviche',
       name: {
         en: 'Ecuadorian Ceviche',
-        sv: 'Ecuadoriansk Ceviche',
+        sv: 'Ecuadoriansk ceviche',
         es: 'Ceviche ecuatoriano',
         fr: 'Ceviche équatorien',
         de: 'Ecuadorianisches Ceviche',
@@ -562,7 +672,7 @@ export const ecuador: Country = {
       },
       description: {
         en: 'Ecuador\'s signature coastal dish - fresh shrimp marinated in lime juice with tomato sauce, served in a flavorful broth with onions, tomatoes, and cilantro. Unlike Peruvian ceviche, it\'s served in a soupy style and often accompanied by popcorn and plantain chips.',
-        sv: 'Ecuadors signatur kusträtt - färska räkor marinerade i limejuice med tomatsås, serverad i en smakrik buljong med lök, tomater och koriander. Till skillnad från peruansk ceviche, serveras den i en soppig stil och ofta tillsammans med popcorn och groblad.',
+        sv: 'Ecuadors klassiska kusträtt – färska räkor marinerade i limejuice och tomatsås, serverade i en smakrik buljong med lök, tomat och koriander. Till skillnad från peruansk ceviche serveras den som en soppa, ofta med popcorn och kokbananchips.',
         es: 'El plato costero característico de Ecuador: camarones frescos marinados en jugo de limón con salsa de tomate, servidos en un sabroso caldo con cebolla, tomate y cilantro. A diferencia del ceviche peruano, se sirve en forma de sopa y, a menudo, se acompaña de palomitas de maíz y chips de plátano.',
         fr: 'Le plat côtier emblématique de l\'Équateur : des crevettes fraîches marinées dans du jus de citron vert avec une sauce tomate, servies dans un bouillon savoureux avec des oignons, des tomates et de la coriandre. Contrairement au ceviche péruvien, il est servi sous forme de soupe et souvent accompagné de pop-corn et de chips de plantain.',
         de: 'Ecuadors typisches Küstengericht – frische Garnelen, mariniert in Limettensaft mit Tomatensauce, serviert in einer würzigen Brühe mit Zwiebeln, Tomaten und Koriander. Im Gegensatz zum peruanischen Ceviche wird es suppenartig serviert und oft mit Popcorn und Kochbananenchips serviert.',
@@ -750,7 +860,7 @@ export const ecuador: Country = {
       steps: [
         {
           en: 'Boil shrimp briefly (1-2 minutes) until just pink, then cool',
-          sv: 'Koka räkor kort (1-2 minuter) tills de bara är rosa, kyl sedan',
+          sv: 'Koka räkorna kort (1–2 minuter) tills de precis har blivit rosa och låt dem sedan svalna',
           es: 'Hierva los camarones brevemente (1-2 minutos) hasta que estén rosados, luego enfríelos',
           fr: 'Faire bouillir les crevettes brièvement (1 à 2 minutes) jusqu\'à ce qu\'elles soient juste roses, puis laisser refroidir',
           de: 'Garnelen kurz kochen (1-2 Minuten), bis sie leicht rosa sind, dann abkühlen lassen',
@@ -761,7 +871,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Soak diced red onion in ice water for 10 minutes to reduce sharpness',
-          sv: 'Blötlägg tärnad rödlök i isvatten i 10 minuter för att minska skärpan',
+          sv: 'Lägg den tärnade rödlöken i isvatten i 10 minuter så att den blir mildare',
           es: 'Remoje la cebolla morada picada en agua helada durante 10 minutos para reducir el picante',
           fr: 'Faire tremper l\'oignon rouge coupé en dés dans de l\'eau glacée pendant 10 minutes pour réduire le piquant',
           de: 'Gewürfelte rote Zwiebeln 10 Minuten in Eiswasser einweichen, um die Schärfe zu verringern',
@@ -772,7 +882,7 @@ export const ecuador: Country = {
         },
         {
           en: 'In a large bowl, mix lime juice, orange juice, tomato sauce, and ketchup',
-          sv: 'I en stor skål, blanda limejuice, apelsinjuice, tomatsås och ketchup',
+          sv: 'Blanda limejuice, apelsinjuice, tomatsås och ketchup i en stor skål',
           es: 'En un tazón grande, mezcle el jugo de lima, el jugo de naranja, la salsa de tomate y el ketchup',
           fr: 'Dans un grand bol, mélanger le jus de citron vert, le jus d\'orange, la sauce tomate et le ketchup',
           de: 'In einer großen Schüssel Limettensaft, Orangensaft, Tomatensauce und Ketchup vermischen',
@@ -794,7 +904,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Fold in cooked shrimp',
-          sv: 'Vik i kokta räkor',
+          sv: 'Vänd ner de kokta räkorna',
           es: 'Incorporar los camarones cocidos',
           fr: 'Incorporer les crevettes cuites',
           de: 'Gekochte Garnelen unterheben',
@@ -805,7 +915,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Season with salt and pepper to taste',
-          sv: 'Krydda med salt och peppar efter smak',
+          sv: 'Smaka av med salt och peppar',
           es: 'Sazone con sal y pimienta al gusto',
           fr: 'Assaisonner avec du sel et du poivre au goût',
           de: 'Mit Salz und Pfeffer abschmecken',
@@ -816,7 +926,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Refrigerate for 30 minutes to let flavors meld',
-          sv: 'Kyl i 30 minuter för att låta smakerna smälta',
+          sv: 'Låt stå i kylen i 30 minuter så att smakerna går ihop',
           es: 'Refrigere durante 30 minutos para que los sabores se mezclen',
           fr: 'Réfrigérer 30 minutes pour laisser les saveurs se fondre',
           de: '30 Minuten in den Kühlschrank stellen, damit sich die Aromen vermischen',
@@ -827,7 +937,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Serve in bowls with popcorn, plantain chips, and crackers',
-          sv: 'Servera i skålar med popcorn, plantainchips och kex',
+          sv: 'Servera i skålar med popcorn, kokbananchips och salta kex',
           es: 'Sirva en tazones con palomitas de maíz, chips de plátano y galletas saladas',
           fr: 'Servir dans des bols avec du pop-corn, des chips de plantain et des craquelins',
           de: 'In Schüsseln mit Popcorn, Kochbananenchips und Crackern servieren',
@@ -843,7 +953,7 @@ export const ecuador: Country = {
       id: 'ecuador-dessert',
       name: {
         en: 'Tres Leches Cake',
-        sv: 'Tres Leches tårta',
+        sv: 'Tres leches-kaka',
         es: 'Pastel Tres Leches',
         fr: 'Gâteau Tres Leches',
         de: 'Tres-Leches-Kuchen',
@@ -854,7 +964,7 @@ export const ecuador: Country = {
       },
       description: {
         en: 'Light sponge cake soaked in three types of milk, topped with meringue',
-        sv: 'Lätt sockerkaka indränkt i tre typer av mjölk, toppad med maräng',
+        sv: 'Luftig sockerkaka indränkt i tre sorters mjölk och toppad med maräng',
         es: 'Bizcocho ligero bañado en tres tipos de leche y cubierto con merengue',
         fr: 'Génoise légère imbibée de trois types de lait, garnie de meringue',
         de: 'Leichter Biskuitkuchen, eingeweicht in drei Milchsorten, garniert mit Baiser',
@@ -893,7 +1003,7 @@ export const ecuador: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -921,7 +1031,7 @@ export const ecuador: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -936,7 +1046,7 @@ export const ecuador: Country = {
         {
           name: {
             en: 'Evaporated milk',
-            sv: 'Indunstad mjölk',
+            sv: 'Evaporerad mjölk',
             es: 'Leche evaporada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -951,7 +1061,7 @@ export const ecuador: Country = {
         {
           name: {
             en: 'Condensed milk',
-            sv: 'Kondenserad mjölk',
+            sv: 'Sötad kondenserad mjölk',
             es: 'Leche condensada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -966,7 +1076,7 @@ export const ecuador: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -1012,7 +1122,7 @@ export const ecuador: Country = {
       steps: [
         {
           en: 'Beat eggs and sugar until fluffy and pale',
-          sv: 'Vispa ägg och socker fluffigt och blekt',
+          sv: 'Vispa ägg och socker ljust och pösigt',
           es: 'Batir los huevos y el azúcar hasta que estén esponjosos y pálidos',
           fr: 'Battre les œufs et le sucre jusqu\'à consistance mousseuse et pâle',
           de: 'Eier und Zucker schaumig schlagen',
@@ -1023,7 +1133,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Gently fold in flour',
-          sv: 'Vänd försiktigt ner mjöl',
+          sv: 'Vänd försiktigt ner mjölet',
           es: 'Incorpora suavemente la harina',
           fr: 'Incorporer délicatement la farine',
           de: 'Mehl vorsichtig unterheben',
@@ -1034,7 +1144,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Pour into greased pan, bake at 180°C for 30 minutes',
-          sv: 'Häll i smord form, grädda i 180°C i 30 minuter',
+          sv: 'Häll smeten i en smord form och grädda i 180°C i 30 minuter',
           es: 'Vierta en un molde engrasado y hornee a 180°C por 30 minutos',
           fr: 'Verser dans un moule beurré, enfourner à 180°C pendant 30 minutes',
           de: 'In eine gefettete Backform gießen, 30 Minuten bei 180°C backen',
@@ -1045,7 +1155,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Cool cake completely',
-          sv: 'Kyl kakan helt',
+          sv: 'Låt kakan svalna helt',
           es: 'Enfriar el pastel por completo',
           fr: 'Refroidir complètement le gâteau',
           de: 'Kuchen vollständig abkühlen lassen',
@@ -1056,7 +1166,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Mix three milks with vanilla and cinnamon',
-          sv: 'Blanda tre mjölkar med vanilj och kanel',
+          sv: 'Blanda de tre mjölksorterna med vanilj och kanel',
           es: 'Mezclar tres leches con vainilla y canela.',
           fr: 'Mélanger trois laits avec de la vanille et de la cannelle',
           de: 'Drei Milchsorten mit Vanille und Zimt vermischen',
@@ -1067,7 +1177,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Poke holes in cake with fork',
-          sv: 'Stick hål i tårtan med gaffel',
+          sv: 'Stick hål i kakan med en gaffel',
           es: 'Haz agujeros en el pastel con un tenedor',
           fr: 'Percez des trous dans le gâteau avec une fourchette',
           de: 'Mit der Gabel Löcher in den Kuchen stechen',
@@ -1089,7 +1199,7 @@ export const ecuador: Country = {
         },
         {
           en: 'Refrigerate overnight to absorb',
-          sv: 'Kyl över natten för att absorbera',
+          sv: 'Ställ i kylen över natten så att kakan suger upp vätskan',
           es: 'Refrigere durante la noche para absorber',
           fr: 'Réfrigérer toute la nuit pour absorber',
           de: 'Zum Aufsaugen',
@@ -1169,7 +1279,17 @@ export const ecuador: Country = {
           nl: 'Panamahoed',
           pt: 'Chapéu Panamá',
         },
-        year: '1600s',
+        year: {
+          en: '1600s',
+          sv: '1600-talet',
+          es: 'siglo XVII',
+          fr: 'XVIIe siècle',
+          de: '17. Jahrhundert',
+          it: 'XVII secolo',
+          pl: 'XVII wiek',
+          nl: '17e eeuw',
+          pt: 'século XVII',
+        },
         description: {
           en: 'Despite the name, Panama hats are actually from Ecuador, a world-renowned woven craft',
           sv: 'Trots namnet kommer panamahattar faktiskt från Ecuador, ett världskänt vävt hantverk',
@@ -1219,7 +1339,17 @@ export const ecuador: Country = {
           nl: 'Uitmuntendheid in bananenexport',
           pt: 'Excelência na Exportação de Banana',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Became the world\'s largest banana exporter with advanced cultivation techniques',
           sv: 'Blev världens största bananexportör med avancerade odlingstekniker',
@@ -1455,7 +1585,7 @@ export const ecuador: Country = {
           },
           {
             en: 'Prime Meridian',
-            sv: 'Prime Meridian',
+            sv: 'Nollmeridianen',
             es: 'Primer Meridiano',
             fr: 'Premier méridien',
             de: 'Nullmeridian',

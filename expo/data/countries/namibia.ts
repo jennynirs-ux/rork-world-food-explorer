@@ -231,7 +231,17 @@ export const namibia: Country = {
     history: [
       {
         year: '1884',
-        title: 'German Colony',
+        title: {
+          en: 'German Colony',
+          sv: 'Tysk koloni',
+          es: 'Colonia alemana',
+          fr: 'Colonie allemande',
+          de: 'Deutsche Kolonie',
+          it: 'Colonia tedesca',
+          pl: 'Kolonia niemiecka',
+          nl: 'Duitse kolonie',
+          pt: 'Colônia alemã',
+        },
         description: {
           en: 'Germany colonized the region as German South West Africa.',
           sv: 'Tyskland koloniserade regionen som tyska sydvästra Afrika.',
@@ -246,7 +256,17 @@ export const namibia: Country = {
       },
       {
         year: '1920',
-        title: 'South African Mandate',
+        title: {
+          en: 'South African Mandate',
+          sv: 'Sydafrikanskt mandat',
+          es: 'Mandato sudafricano',
+          fr: 'Mandat sud-africain',
+          de: 'Südafrikanisches Mandat',
+          it: 'Mandato sudafricano',
+          pl: 'Mandat południowoafrykański',
+          nl: 'Zuid-Afrikaans mandaat',
+          pt: 'Mandato sul-africano',
+        },
         description: {
           en: 'After WWI, South Africa administered the territory.',
           sv: 'Efter första världskriget administrerade Sydafrika territoriet.',
@@ -261,7 +281,17 @@ export const namibia: Country = {
       },
       {
         year: '1990',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Namibia gained independence, one of Africa\'s youngest nations.',
           sv: 'Namibia fick självständighet, en av Afrikas yngsta nationer.',
@@ -288,7 +318,17 @@ export const namibia: Country = {
           nl: 'Leiderschap op het gebied van natuurbehoud',
           pt: 'Liderança em conservação',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Community-based conservation became a model for Africa.',
           sv: 'Gemenskapsbaserat bevarande blev en modell för Afrika.',
@@ -313,7 +353,17 @@ export const namibia: Country = {
           nl: 'Woestijnaanpassing',
           pt: 'Adaptação ao deserto',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Indigenous San people developed survival techniques in harsh desert.',
           sv: 'Ursprungsbefolkningen i San utvecklade överlevnadstekniker i hård öken.',
@@ -451,7 +501,17 @@ export const namibia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-October for dry season and wildlife viewing.',
           sv: 'Maj-oktober för torrperioden och djurliv.',
@@ -465,7 +525,17 @@ export const namibia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for many nationalities for 90 days.',
           sv: 'Visumfritt för många nationaliteter i 90 dagar.',
@@ -479,7 +549,17 @@ export const namibia: Country = {
         },
       },
       {
-        item: 'Self-drive',
+        item: {
+          en: 'Self-drive',
+          sv: 'Köra själv',
+          es: 'Conducir por cuenta propia',
+          fr: 'Conduire soi-même',
+          de: 'Selbst fahren',
+          it: 'Guidare in autonomia',
+          pl: 'Samodzielna jazda',
+          nl: 'Zelf rijden',
+          pt: 'Dirigir por conta própria',
+        },
         description: {
           en: 'Car rental recommended; roads are generally good.',
           sv: 'Biluthyrning rekommenderas; vägarna är i allmänhet bra.',
@@ -493,7 +573,17 @@ export const namibia: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Desert sun is intense; high SPF essential.',
           sv: 'Ökensolen är intensiv; hög SPF viktigt.',
@@ -522,7 +612,7 @@ export const namibia: Country = {
       },
       description: {
         en: 'Milk tart with cinnamon, a South African-Namibian favorite',
-        sv: 'Mjölktårta med kanel, en sydafrikansk-namibisk favorit',
+        sv: 'Mjölkpaj med kanel – en favorit i Sydafrika och Namibia',
         es: 'Tarta de leche con canela, una de las favoritas de Sudáfrica y Namibia',
         fr: 'Tarte au lait à la cannelle, un favori sud-africain-namibien',
         de: 'Milchtarte mit Zimt, ein südafrikanisch-namibischer Favorit',
@@ -549,7 +639,7 @@ export const namibia: Country = {
         {
           name: {
             en: 'Shortcrust pastry',
-            sv: 'Smördeg',
+            sv: 'Mördeg',
             es: 'Masa quebrada',
             fr: 'Pâte brisée',
             de: 'Mürbeteig',
@@ -594,7 +684,7 @@ export const namibia: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -621,7 +711,7 @@ export const namibia: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -680,7 +770,7 @@ export const namibia: Country = {
       steps: [
         {
           en: 'Line tart pan with pastry, prick base',
-          sv: 'Klä den syrta formen med bakverk, stickbotten',
+          sv: 'Klä en pajform med mördegen och nagga botten',
           es: 'Forre el molde para tarta con la masa y pinche la base',
           fr: 'Tapisser le moule à tarte de pâte, fond piqué',
           de: 'Tarteform mit Teig auslegen, Boden einstechen',
@@ -691,7 +781,7 @@ export const namibia: Country = {
         },
         {
           en: 'Blind bake at 350°F for 15 minutes',
-          sv: 'Blindgrädda vid 350°F i 15 minuter',
+          sv: 'Förgrädda pajskalet i 175 °C i 15 minuter',
           es: 'Hornee a ciegas a 350 °F durante 15 minutos',
           fr: 'Cuire à blanc à 350°F pendant 15 minutes',
           de: 'Blindbacken bei 350 °F für 15 Minuten',
@@ -702,7 +792,7 @@ export const namibia: Country = {
         },
         {
           en: 'Heat milk with butter to simmer',
-          sv: 'Värm mjölk med smör för att sjuda',
+          sv: 'Värm mjölken och smöret tills det börjar sjuda',
           es: 'Calentar la leche con mantequilla a fuego lento',
           fr: 'Faites chauffer le lait avec le beurre pour laisser mijoter',
           de: 'Milch mit Butter zum Kochen bringen',
@@ -713,7 +803,7 @@ export const namibia: Country = {
         },
         {
           en: 'Mix flour, sugar, and eggs',
-          sv: 'Blanda mjöl, socker och ägg',
+          sv: 'Blanda vetemjöl, socker och ägg',
           es: 'Mezclar harina, azúcar y huevos',
           fr: 'Mélanger la farine, le sucre et les œufs',
           de: 'Mehl, Zucker und Eier mischen',
@@ -724,7 +814,7 @@ export const namibia: Country = {
         },
         {
           en: 'Temper egg mixture with hot milk',
-          sv: 'Temperera äggblandningen med varm mjölk',
+          sv: 'Vispa ner den varma mjölken i äggblandningen lite i taget',
           es: 'Templar la mezcla de huevo con leche caliente',
           fr: 'Tempérer le mélange d\'œufs avec du lait chaud',
           de: 'Eiermischung mit heißer Milch temperieren',
@@ -735,7 +825,7 @@ export const namibia: Country = {
         },
         {
           en: 'Cook until thick custard forms',
-          sv: 'Koka tills det bildas tjock vaniljsås',
+          sv: 'Värm under omrörning tills krämen tjocknar',
           es: 'Cocine hasta que se forme una natilla espesa',
           fr: 'Cuire jusqu\'à ce qu\'une crème épaisse se forme',
           de: 'Kochen, bis eine dicke Creme entsteht',
@@ -746,7 +836,7 @@ export const namibia: Country = {
         },
         {
           en: 'Add vanilla, pour into baked shell',
-          sv: 'Tillsätt vanilj, häll i bakat skal',
+          sv: 'Tillsätt vaniljen och häll krämen i det förgräddade pajskalet',
           es: 'Agregue la vainilla, vierta sobre la cáscara horneada',
           fr: 'Ajouter la vanille, verser dans la coque cuite',
           de: 'Vanille hinzufügen, in die gebackene Schale gießen',
@@ -757,7 +847,7 @@ export const namibia: Country = {
         },
         {
           en: 'Cool, then dust with cinnamon',
-          sv: 'Kyl, pudra sedan med kanel',
+          sv: 'Låt svalna och strö sedan över kanel',
           es: 'Deje enfriar y luego espolvoree con canela',
           fr: 'Laisser refroidir, puis saupoudrer de cannelle',
           de: 'Abkühlen lassen, dann mit Zimt bestäuben',
@@ -784,7 +874,7 @@ export const namibia: Country = {
       },
       description: {
         en: 'Traditional three-legged pot stew with meat and vegetables',
-        sv: 'Traditionell trebent gryta med kött och grönsaker',
+        sv: 'Traditionell rätt med kött och grönsaker som tillagas i en trebent gjutjärnsgryta',
         es: 'Tradicional guiso de olla de tres patas con carne y verduras',
         fr: 'Ragoût traditionnel à trois pattes avec viande et légumes',
         de: 'Traditioneller dreibeiniger Eintopf mit Fleisch und Gemüse',
@@ -838,7 +928,7 @@ export const namibia: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -863,7 +953,7 @@ export const namibia: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -888,7 +978,7 @@ export const namibia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -928,7 +1018,7 @@ export const namibia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -941,7 +1031,7 @@ export const namibia: Country = {
         {
           name: {
             en: 'Beef stock',
-            sv: 'Nötköttslager',
+            sv: 'Köttbuljong',
             es: 'Caldo de carne',
             fr: 'Bouillon de boeuf',
             de: 'Rinderbrühe',
@@ -987,7 +1077,7 @@ export const namibia: Country = {
       steps: [
         {
           en: 'Brown meat in cast iron pot over fire',
-          sv: 'Bryn kött i gjutjärnsgryta över eld',
+          sv: 'Bryn köttet i en gjutjärnsgryta över öppen eld',
           es: 'Dorar la carne en una olla de hierro fundido al fuego',
           fr: 'Faire dorer la viande dans une marmite en fonte sur le feu',
           de: 'Braunes Fleisch in einem gusseisernen Topf über dem Feuer',
@@ -998,7 +1088,7 @@ export const namibia: Country = {
         },
         {
           en: 'Layer onions on top of meat',
-          sv: 'Lägg lök ovanpå köttet',
+          sv: 'Lägg löken ovanpå köttet',
           es: 'Coloque capas de cebollas encima de la carne',
           fr: 'Disposez les oignons sur la viande',
           de: 'Zwiebeln auf das Fleisch legen',
@@ -1009,7 +1099,7 @@ export const namibia: Country = {
         },
         {
           en: 'Add carrots, potatoes, and cabbage in layers',
-          sv: 'Lägg till morötter, potatis och kål i lager',
+          sv: 'Lägg morötter, potatis och kål i lager',
           es: 'Agrega las zanahorias, las patatas y el repollo en capas',
           fr: 'Ajouter les carottes, les pommes de terre et le chou en couches',
           de: 'Karotten, Kartoffeln und Kohl schichtweise hinzufügen',
@@ -1020,7 +1110,7 @@ export const namibia: Country = {
         },
         {
           en: 'Season each layer with salt, pepper, paprika',
-          sv: 'Krydda varje lager med salt, peppar, paprika',
+          sv: 'Krydda varje lager med salt, peppar och paprikapulver',
           es: 'Sazone cada capa con sal, pimienta, pimentón',
           fr: 'Assaisonner chaque couche avec du sel, du poivre et du paprika',
           de: 'Jede Schicht mit Salz, Pfeffer und Paprika würzen',
@@ -1031,7 +1121,7 @@ export const namibia: Country = {
         },
         {
           en: 'Add tomatoes and pour in stock',
-          sv: 'Tillsätt tomater och häll i lager',
+          sv: 'Tillsätt tomaterna och häll i buljongen',
           es: 'Agregue los tomates y vierta el caldo',
           fr: 'Ajouter les tomates et verser le bouillon',
           de: 'Tomaten hinzufügen und mit Brühe aufgießen',
@@ -1042,7 +1132,7 @@ export const namibia: Country = {
         },
         {
           en: 'Cover and cook slowly over coals for 2 hours',
-          sv: 'Täck över och koka långsamt över kol i 2 timmar',
+          sv: 'Lägg på locket och låt puttra långsamt över glöden i 2 timmar',
           es: 'Tapar y cocinar lentamente sobre brasas durante 2 horas',
           fr: 'Couvrir et cuire lentement sur la braise pendant 2 heures',
           de: 'Abdecken und 2 Stunden lang langsam über Kohlen kochen',
@@ -1053,7 +1143,7 @@ export const namibia: Country = {
         },
         {
           en: 'Do not stir - let flavors meld naturally',
-          sv: 'Rör inte om - låt smakerna smälta naturligt',
+          sv: 'Rör inte om – låt smakerna smälta samman',
           es: 'No revuelva, deje que los sabores se mezclen naturalmente',
           fr: 'Ne remuez pas - laissez les saveurs se fondre naturellement',
           de: 'Nicht umrühren – Aromen auf natürliche Weise verschmelzen lassen',
@@ -1556,7 +1646,7 @@ export const namibia: Country = {
           },
           {
             en: 'Diamond Coast',
-            sv: 'Diamond Coast',
+            sv: 'Diamantkusten',
             es: 'Costa del Diamante',
             fr: 'Côte du Diamant',
             de: 'Diamantenküste',
@@ -1595,7 +1685,7 @@ export const namibia: Country = {
           },
           {
             en: 'Dollar (Namibian)',
-            sv: 'Dollar (Namibian)',
+            sv: 'Namibisk dollar',
             es: 'Dólar (Namibio)',
             fr: 'Dollar (Namibien)',
             de: 'Dollar (Namibian)',

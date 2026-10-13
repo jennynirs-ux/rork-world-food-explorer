@@ -220,7 +220,17 @@ export const honduras: Country = {
     history: [
       {
         year: '1502',
-        title: 'Columbus Arrival',
+        title: {
+          en: 'Columbus Arrival',
+          sv: 'Columbus ankomst',
+          es: 'Llegada de Colón',
+          fr: 'Arrivée de Colomb',
+          de: 'Ankunft des Kolumbus',
+          it: 'Arrivo di Colombo',
+          pl: 'Przybycie Kolumba',
+          nl: 'Aankomst van Columbus',
+          pt: 'Chegada de Colombo',
+        },
         description: {
           en: 'Christopher Columbus landed on Honduras during his fourth voyage.',
           sv: 'Christopher Columbus landade på Honduras under sin fjärde resa.',
@@ -235,7 +245,17 @@ export const honduras: Country = {
       },
       {
         year: '1821',
-        title: 'Independence from Spain',
+        title: {
+          en: 'Independence from Spain',
+          sv: 'Självständighet från Spanien',
+          es: 'Independencia de España',
+          fr: 'Fin de la domination espagnole',
+          de: 'Unabhängigkeit von Spanien',
+          it: 'Indipendenza dalla Spagna',
+          pl: 'Uniezależnienie od Hiszpanii',
+          nl: 'Onafhankelijkheid van Spanje',
+          pt: 'Independência da Espanha',
+        },
         description: {
           en: 'Honduras gained independence, briefly joining the Mexican Empire then the Federal Republic of Central America.',
           sv: 'Honduras blev självständigt och gick en kort stund med i det mexikanska imperiet sedan Centralamerika.',
@@ -250,7 +270,17 @@ export const honduras: Country = {
       },
       {
         year: '1838',
-        title: 'Full Independence',
+        title: {
+          en: 'Full Independence',
+          sv: 'Full självständighet',
+          es: 'Independencia plena',
+          fr: 'Pleine indépendance',
+          de: 'Volle Unabhängigkeit',
+          it: 'Piena indipendenza',
+          pl: 'Pełna niepodległość',
+          nl: 'Volledige onafhankelijkheid',
+          pt: 'Independência plena',
+        },
         description: {
           en: 'Honduras became a fully independent republic.',
           sv: 'Honduras blev en helt självständig republik.',
@@ -277,7 +307,17 @@ export const honduras: Country = {
           nl: 'Maya-site van Copán',
           pt: 'Sítio Maia de Copán',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Mayan city with hieroglyphic stairway containing longest Mayan text, advancing understanding of Mayan civilization.',
           sv: 'Mayastad med hieroglyfisk trappa som innehåller den längsta mayatexten, främjar förståelsen av mayacivilisationen.',
@@ -302,7 +342,17 @@ export const honduras: Country = {
           nl: 'Duiken bij de Bay Islands',
           pt: 'Mergulho nas Ilhas da Baía',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'Pioneered Caribbean diving tourism with the Mesoamerican Barrier Reef.',
           sv: 'Blev banbrytande för karibisk dykturism med Mesoamerican Barrier Reef.',
@@ -327,7 +377,17 @@ export const honduras: Country = {
           nl: 'Uitmuntende koffie',
           pt: 'Excelência do café',
         },
-        year: '1800s',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
         description: {
           en: 'Developed high-altitude coffee cultivation producing specialty-grade beans.',
           sv: 'Utvecklat kaffeodling på hög höjd som producerar specialbönor.',
@@ -441,7 +501,17 @@ export const honduras: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Available on arrival for most nationalities.',
           sv: 'Tillgängligt vid ankomst för de flesta nationaliteter.',
@@ -455,7 +525,17 @@ export const honduras: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-April for dry season.',
           sv: 'November-april för torrperioden.',
@@ -469,7 +549,17 @@ export const honduras: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current advisories. Tourist areas generally safe.',
           sv: 'Kontrollera aktuella råd. Turistområden i allmänhet säkra.',
@@ -483,7 +573,17 @@ export const honduras: Country = {
         },
       },
       {
-        item: 'Spanish language',
+        item: {
+          en: 'Spanish language',
+          sv: 'Spanska',
+          es: 'Idioma español',
+          fr: 'Langue espagnole',
+          de: 'Spanisch',
+          it: 'Lingua spagnola',
+          pl: 'Język hiszpański',
+          nl: 'Spaans',
+          pt: 'Língua espanhola',
+        },
         description: {
           en: 'Helpful, especially outside Bay Islands.',
           sv: 'Hjälpsamt, särskilt utanför Bay Islands.',
@@ -512,7 +612,7 @@ export const honduras: Country = {
       },
       description: {
         en: 'Flour tortillas filled with beans, cheese, and cream',
-        sv: 'Mjöltortillas fyllda med bönor, ost och grädde',
+        sv: 'Vetetortillas fyllda med bönor, ost och crema',
         es: 'Tortillas de harina rellenas de frijoles, queso y crema',
         fr: 'Tortillas de farine fourrées aux haricots, au fromage et à la crème',
         de: 'Mehl-Tortillas gefüllt mit Bohnen, Käse und Sahne',
@@ -539,7 +639,7 @@ export const honduras: Country = {
         {
           name: {
             en: 'Flour tortillas',
-            sv: 'Mjöletortilla',
+            sv: 'Vetetortillas',
             es: 'Tortillas de harina',
             fr: 'Tortillas à la farine',
             de: 'Mehl-Tortillas',
@@ -564,7 +664,7 @@ export const honduras: Country = {
         {
           name: {
             en: 'Refried beans',
-            sv: 'Friterade bönor',
+            sv: 'Refried beans',
             es: 'Frijoles refritos',
             fr: 'Haricots frits',
             de: 'Gekühlte Bohnen',
@@ -594,7 +694,7 @@ export const honduras: Country = {
         {
           name: {
             en: 'Honduran crema',
-            sv: 'Honduras crema',
+            sv: 'Honduransk crema',
             es: 'Crema hondureña',
             fr: 'Crème hondurienne',
             de: 'Honduranische Crema',
@@ -621,7 +721,7 @@ export const honduras: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -646,7 +746,7 @@ export const honduras: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -660,7 +760,7 @@ export const honduras: Country = {
       steps: [
         {
           en: 'Warm tortillas on griddle',
-          sv: 'Varma tortillas på stekpanna',
+          sv: 'Värm tortillorna i en het stekpanna',
           es: 'Tortillas calientes al comal',
           fr: 'Tortillas chaudes sur plaque chauffante',
           de: 'Warme Tortillas auf der Grillplatte',
@@ -671,7 +771,7 @@ export const honduras: Country = {
         },
         {
           en: 'Spread refried beans on tortilla',
-          sv: 'Bred refried bönor på tortilla',
+          sv: 'Bred refried beans på varje tortilla',
           es: 'Unte frijoles refritos sobre tortilla',
           fr: 'Étalez des haricots frits sur une tortilla',
           de: 'Gekühlte Bohnen auf Tortilla verteilen',
@@ -682,7 +782,7 @@ export const honduras: Country = {
         },
         {
           en: 'Add crumbled cheese',
-          sv: 'Tillsätt smulad ost',
+          sv: 'Strö över smulad ost',
           es: 'Agrega queso desmenuzado',
           fr: 'Ajouter le fromage émietté',
           de: 'Zerbröckelten Käse hinzufügen',
@@ -704,7 +804,7 @@ export const honduras: Country = {
         },
         {
           en: 'Add sliced avocado',
-          sv: 'Lägg till skivad avokado',
+          sv: 'Lägg på skivad avokado',
           es: 'Agrega aguacate en rodajas',
           fr: 'Ajouter les tranches d\'avocat',
           de: 'In Scheiben geschnittene Avocado hinzufügen',
@@ -715,7 +815,7 @@ export const honduras: Country = {
         },
         {
           en: 'Fold and serve immediately',
-          sv: 'Vik och servera omedelbart',
+          sv: 'Vik ihop och servera direkt',
           es: 'Doblar y servir inmediatamente',
           fr: 'Pliez et servez immédiatement',
           de: 'Falten und sofort servieren',
@@ -731,7 +831,7 @@ export const honduras: Country = {
       id: 'honduras-dessert',
       name: {
         en: 'Tres Leches Cake',
-        sv: 'Tres Leches tårta',
+        sv: 'Tres leches-tårta',
         es: 'Pastel Tres Leches',
         fr: 'Gâteau Tres Leches',
         de: 'Tres-Leches-Kuchen',
@@ -742,7 +842,7 @@ export const honduras: Country = {
       },
       description: {
         en: 'Sponge cake soaked in three types of milk',
-        sv: 'Sockerkaka indränkt i tre typer av mjölk',
+        sv: 'Sockerkaka indränkt i tre sorters mjölk',
         es: 'Bizcocho bañado en tres tipos de leche',
         fr: 'Génoise imbibée de trois types de lait',
         de: 'In drei Milchsorten eingeweichter Biskuitkuchen',
@@ -781,7 +881,7 @@ export const honduras: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -809,7 +909,7 @@ export const honduras: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -839,7 +939,7 @@ export const honduras: Country = {
         {
           name: {
             en: 'Evaporated milk',
-            sv: 'Indunstad mjölk',
+            sv: 'Evaporerad mjölk',
             es: 'Leche evaporada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -854,7 +954,7 @@ export const honduras: Country = {
         {
           name: {
             en: 'Condensed milk',
-            sv: 'Kondenserad mjölk',
+            sv: 'Sötad kondenserad mjölk',
             es: 'Leche condensada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -869,7 +969,7 @@ export const honduras: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -899,7 +999,7 @@ export const honduras: Country = {
         {
           name: {
             en: 'Whipped cream for topping',
-            sv: 'Vispad grädde till topping',
+            sv: 'Vispad grädde till garnering',
             es: 'Crema batida para cubrir',
             fr: 'Crème fouettée pour garniture',
             de: 'Schlagsahne zum Garnieren',
@@ -915,7 +1015,7 @@ export const honduras: Country = {
       steps: [
         {
           en: 'Beat eggs and sugar until fluffy',
-          sv: 'Vispa ägg och socker fluffigt',
+          sv: 'Vispa ägg och socker poröst',
           es: 'Batir los huevos y el azúcar hasta que queden esponjosos',
           fr: 'Battre les œufs et le sucre jusqu\'à consistance mousseuse',
           de: 'Eier und Zucker schaumig schlagen',
@@ -926,7 +1026,7 @@ export const honduras: Country = {
         },
         {
           en: 'Fold in flour and baking powder',
-          sv: 'Vänd i mjöl och bakpulver',
+          sv: 'Vänd ner vetemjöl och bakpulver',
           es: 'Incorporar la harina y la levadura en polvo',
           fr: 'Incorporer la farine et la levure chimique',
           de: 'Mehl und Backpulver unterheben',
@@ -937,7 +1037,7 @@ export const honduras: Country = {
         },
         {
           en: 'Pour into greased pan',
-          sv: 'Häll i smord form',
+          sv: 'Häll smeten i en smord form',
           es: 'Vierta en un molde engrasado',
           fr: 'Verser dans un moule graissé',
           de: 'In eine gefettete Pfanne gießen',
@@ -959,7 +1059,7 @@ export const honduras: Country = {
         },
         {
           en: 'Cool cake completely',
-          sv: 'Kyl kakan helt',
+          sv: 'Låt kakan svalna helt',
           es: 'Enfriar el pastel por completo',
           fr: 'Refroidir complètement le gâteau',
           de: 'Kuchen vollständig abkühlen lassen',
@@ -970,7 +1070,7 @@ export const honduras: Country = {
         },
         {
           en: 'Mix three milks with vanilla',
-          sv: 'Blanda tre mjölkar med vanilj',
+          sv: 'Blanda de tre mjölksorterna med vanilj',
           es: 'Mezclar tres leches con vainilla',
           fr: 'Mélanger trois laits avec de la vanille',
           de: 'Drei Milchsorten mit Vanille mischen',
@@ -981,7 +1081,7 @@ export const honduras: Country = {
         },
         {
           en: 'Poke holes in cake with fork',
-          sv: 'Stick hål i tårtan med gaffel',
+          sv: 'Stick hål i kakan med en gaffel',
           es: 'Haz agujeros en el pastel con un tenedor',
           fr: 'Percez des trous dans le gâteau avec une fourchette',
           de: 'Mit der Gabel Löcher in den Kuchen stechen',

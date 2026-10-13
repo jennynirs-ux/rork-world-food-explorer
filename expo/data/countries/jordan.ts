@@ -219,8 +219,28 @@ export const jordan: Country = {
     },
     history: [
       {
-        year: '9th Century BC',
-        title: 'Ancient Kingdoms',
+        year: {
+          en: '9th Century BC',
+          sv: '800-talet f.Kr.',
+          es: 'siglo IX a. C.',
+          fr: 'IXe siècle av. J.-C.',
+          de: '9. Jahrhundert v. Chr.',
+          it: 'IX secolo a.C.',
+          pl: 'IX wiek p.n.e.',
+          nl: '9e eeuw v.Chr.',
+          pt: 'século IX a.C.',
+        },
+        title: {
+          en: 'Ancient Kingdoms',
+          sv: 'Forntida kungariken',
+          es: 'Reinos antiguos',
+          fr: 'Anciens royaumes',
+          de: 'Alte Königreiche',
+          it: 'Antichi regni',
+          pl: 'Starożytne królestwa',
+          nl: 'Oude koninkrijken',
+          pt: 'Reinos antigos',
+        },
         description: {
           en: 'The Nabataeans built the magnificent city of Petra, carved into rose-red cliffs.',
           sv: 'Nabatéerna byggde den magnifika staden Petra, uthuggen i rosenröda klippor.',
@@ -235,7 +255,17 @@ export const jordan: Country = {
       },
       {
         year: '1946',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Jordan gained independence from British mandate as the Hashemite Kingdom of Jordan.',
           sv: 'Jordanien fick självständighet från det brittiska mandatet som det hashemitiska kungariket Jordan.',
@@ -262,7 +292,17 @@ export const jordan: Country = {
           nl: 'Bouw van Petra',
           pt: 'Construção de Petra',
         },
-        year: '312 BC',
+        year: {
+          en: '312 BC',
+          sv: '312 f.Kr.',
+          es: '312 a. C.',
+          fr: '312 av. J.-C.',
+          de: '312 v. Chr.',
+          it: '312 a.C.',
+          pl: '312 p.n.e.',
+          nl: '312 v.Chr.',
+          pt: '312 a.C.',
+        },
         description: {
           en: 'The Nabataeans pioneered advanced water management and rock-carving techniques in Petra.',
           sv: 'Nabatéerna var pionjärer för avancerad vattenhantering och hällristningstekniker i Petra.',
@@ -287,7 +327,17 @@ export const jordan: Country = {
           nl: 'Woestijnlandbouw',
           pt: 'Agricultura do deserto',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Development of sustainable farming techniques in arid environments.',
           sv: 'Utveckling av hållbara jordbrukstekniker i torra miljöer.',
@@ -425,7 +475,17 @@ export const jordan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'March-May and September-November for pleasant temperatures.',
           sv: 'Mars-maj och september-november för behagliga temperaturer.',
@@ -439,7 +499,17 @@ export const jordan: Country = {
         },
       },
       {
-        item: 'Jordan Pass',
+        item: {
+          en: 'Jordan Pass',
+          sv: 'Jordan Pass',
+          es: 'Jordan Pass',
+          fr: 'Jordan Pass',
+          de: 'Jordan Pass',
+          it: 'Jordan Pass',
+          pl: 'Jordan Pass',
+          nl: 'Jordan Pass',
+          pt: 'Jordan Pass',
+        },
         description: {
           en: 'Includes visa and entry to major attractions like Petra.',
           sv: 'Inkluderar visum och inträde till stora attraktioner som Petra.',
@@ -453,7 +523,17 @@ export const jordan: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Dress conservatively, especially in religious sites.',
           sv: 'Klä dig konservativt, särskilt på religiösa platser.',
@@ -467,7 +547,17 @@ export const jordan: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Strong desert sun requires SPF and head covering.',
           sv: 'Stark ökensol kräver SPF och huvudtäckning.',
@@ -496,7 +586,7 @@ export const jordan: Country = {
       },
       description: {
         en: 'Sweet cheese pastry soaked in sugar syrup, a beloved Middle Eastern dessert',
-        sv: 'Sötostbakelse indränkt i sockersirap, en älskad mellanösterndessert',
+        sv: 'Söt ostbakelse indränkt i sockerlag – en älskad dessert i Mellanöstern',
         es: 'Hojaldre de queso dulce bañado en almíbar de azúcar, un postre muy apreciado en Oriente Medio',
         fr: 'Pâtisserie au fromage sucré imbibée de sirop de sucre, un dessert très apprécié du Moyen-Orient',
         de: 'In Zuckersirup getränktes süßes Käsegebäck, ein beliebtes Dessert aus dem Nahen Osten',
@@ -553,7 +643,7 @@ export const jordan: Country = {
         {
           name: {
             en: 'Akkawi cheese or mozzarella',
-            sv: 'Akkawi ost eller mozzarella',
+            sv: 'Akkawiost eller mozzarella',
             es: 'Queso akkawi o mozzarella',
             fr: 'Fromage Akkawi ou mozzarella',
             de: 'Akkawi-Käse oder Mozzarella',
@@ -664,7 +754,7 @@ export const jordan: Country = {
       steps: [
         {
           en: 'Make sugar syrup: boil sugar, water, and lemon juice for 10 minutes',
-          sv: 'Gör sockersirap: koka socker, vatten och citronsaft i 10 minuter',
+          sv: 'Gör sockerlagen: koka socker, vatten och citronsaft i 10 minuter',
           es: 'Hacer almíbar de azúcar: hervir el azúcar, el agua y el jugo de limón durante 10 minutos',
           fr: 'Préparez du sirop de sucre : faites bouillir le sucre, l\'eau et le jus de citron pendant 10 minutes',
           de: 'Zuckersirup herstellen: Zucker, Wasser und Zitronensaft 10 Minuten lang kochen',
@@ -675,7 +765,7 @@ export const jordan: Country = {
         },
         {
           en: 'Add orange blossom water to syrup, let cool',
-          sv: 'Tillsätt apelsinblomsvatten i sirapen, låt svalna',
+          sv: 'Rör ner apelsinblomvattnet i sockerlagen och låt svalna',
           es: 'Agrega agua de azahar al almíbar, deja enfriar',
           fr: 'Ajouter l\'eau de fleur d\'oranger au sirop, laisser refroidir',
           de: 'Orangenblütenwasser zum Sirup hinzufügen, abkühlen lassen',
@@ -686,7 +776,7 @@ export const jordan: Country = {
         },
         {
           en: 'Mix shredded phyllo with melted butter',
-          sv: 'Blanda strimlad filo med smält smör',
+          sv: 'Blanda den strimlade filodegen med det smälta smöret',
           es: 'Mezclar masa filo rallada con mantequilla derretida',
           fr: 'Mélanger la pâte phyllo râpée avec le beurre fondu',
           de: 'Geraspeltes Phyllo mit zerlassener Butter vermischen',
@@ -697,7 +787,7 @@ export const jordan: Country = {
         },
         {
           en: 'Press half the phyllo mixture into greased pan',
-          sv: 'Tryck ut hälften av filoblandningen i en smord form',
+          sv: 'Tryck ut hälften av degen i en smord form',
           es: 'Presione la mitad de la mezcla de masa filo en un molde engrasado',
           fr: 'Presser la moitié du mélange de pâte phyllo dans un moule graissé',
           de: 'Drücken Sie die Hälfte der Phyllo-Mischung in eine gefettete Pfanne',
@@ -708,7 +798,7 @@ export const jordan: Country = {
         },
         {
           en: 'Spread cheese evenly over phyllo',
-          sv: 'Fördela osten jämnt över filo',
+          sv: 'Fördela osten jämnt över degen',
           es: 'Unte el queso uniformemente sobre el filo',
           fr: 'Étaler le fromage uniformément sur la pâte phyllo',
           de: 'Den Käse gleichmäßig auf dem Phyllo verteilen',
@@ -719,7 +809,7 @@ export const jordan: Country = {
         },
         {
           en: 'Cover with remaining phyllo mixture',
-          sv: 'Täck med återstående filoblandning',
+          sv: 'Täck med resten av degen',
           es: 'Cubrir con el resto de la mezcla filo',
           fr: 'Couvrir du reste du mélange phyllo',
           de: 'Mit der restlichen Phyllo-Mischung bedecken',
@@ -730,7 +820,7 @@ export const jordan: Country = {
         },
         {
           en: 'Bake at 350°F for 30-40 minutes until golden',
-          sv: 'Grädda i 350°F i 30-40 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 30–40 minuter tills ytan är gyllene',
           es: 'Hornee a 350°F durante 30-40 minutos hasta que esté dorado',
           fr: 'Cuire au four à 350 °F pendant 30 à 40 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '30-40 Minuten bei 180 °C backen, bis sie goldbraun sind',
@@ -741,7 +831,7 @@ export const jordan: Country = {
         },
         {
           en: 'Pour cooled syrup over hot knafeh',
-          sv: 'Häll kyld sirap över het knafeh',
+          sv: 'Häll den avsvalnade sockerlagen över knafehn medan den är het',
           es: 'Vierta el almíbar enfriado sobre el knafeh caliente',
           fr: 'Versez le sirop refroidi sur le knafeh chaud',
           de: 'Den abgekühlten Sirup über das heiße Knafeh gießen',
@@ -752,7 +842,7 @@ export const jordan: Country = {
         },
         {
           en: 'Garnish with crushed pistachios and serve warm',
-          sv: 'Garnera med krossade pistagenötter och servera varma',
+          sv: 'Strö över krossade pistaschnötter och servera varm',
           es: 'Adorne con pistachos triturados y sirva caliente',
           fr: 'Garnir de pistaches concassées et servir chaud',
           de: 'Mit zerstoßenen Pistazien garnieren und warm servieren',
@@ -866,7 +956,7 @@ export const jordan: Country = {
         {
           name: {
             en: 'Almonds',
-            sv: 'Mandlar',
+            sv: 'Mandel',
             es: 'Almendras',
             fr: 'Amandes',
             de: 'Mandeln',
@@ -897,7 +987,7 @@ export const jordan: Country = {
       steps: [
         {
           en: 'Cook lamb until very tender',
-          sv: 'Koka lamm tills det är mycket mört',
+          sv: 'Koka lammet tills det är mycket mört',
           es: 'Cocine el cordero hasta que esté muy tierno',
           fr: 'Cuire l\'agneau jusqu\'à ce qu\'il soit très tendre',
           de: 'Lammfleisch kochen, bis es sehr zart ist',
@@ -908,7 +998,7 @@ export const jordan: Country = {
         },
         {
           en: 'Prepare jameed sauce with yogurt',
-          sv: 'Förbered jameedsås med yoghurt',
+          sv: 'Gör jameedsåsen av den torkade yoghurten',
           es: 'Prepara salsa jameed con yogur',
           fr: 'Préparer une sauce jameed avec du yaourt',
           de: 'Jameed-Sauce mit Joghurt zubereiten',
@@ -919,7 +1009,7 @@ export const jordan: Country = {
         },
         {
           en: 'Cook rice with turmeric',
-          sv: 'Koka ris med gurkmeja',
+          sv: 'Koka riset med gurkmeja',
           es: 'Cocer arroz con cúrcuma',
           fr: 'Cuire du riz au curcuma',
           de: 'Reis mit Kurkuma kochen',
@@ -941,7 +1031,7 @@ export const jordan: Country = {
         },
         {
           en: 'Layer rice on large platter',
-          sv: 'Lägg ris på ett stort fat',
+          sv: 'Bred ut riset på ett stort fat',
           es: 'Coloque capas de arroz en un plato grande',
           fr: 'Étaler le riz sur une grande assiette',
           de: 'Reis auf einer großen Platte schichten',
@@ -952,7 +1042,7 @@ export const jordan: Country = {
         },
         {
           en: 'Top with lamb, sauce, and nuts',
-          sv: 'Toppa med lamm, sås och nötter',
+          sv: 'Toppa med lammet, såsen och nötterna',
           es: 'Cubra con cordero, salsa y nueces',
           fr: 'Garnir d\'agneau, de sauce et de noix',
           de: 'Mit Lammfleisch, Soße und Nüssen belegen',

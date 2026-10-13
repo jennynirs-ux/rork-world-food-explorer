@@ -220,7 +220,17 @@ export const mongolia: Country = {
     history: [
       {
         year: '1206',
-        title: 'Mongol Empire Founded',
+        title: {
+          en: 'Mongol Empire Founded',
+          sv: 'Mongolriket grundas',
+          es: 'Fundación del Imperio mongol',
+          fr: 'Fondation de l\'Empire mongol',
+          de: 'Gründung des Mongolischen Reiches',
+          it: 'Fondazione dell\'Impero mongolo',
+          pl: 'Powstanie imperium mongolskiego',
+          nl: 'Stichting van het Mongoolse Rijk',
+          pt: 'Fundação do Império Mongol',
+        },
         description: {
           en: 'Genghis Khan united the Mongol tribes and created the largest contiguous empire.',
           sv: 'Djingis Khan förenade de mongoliska stammarna och skapade det största sammanhängande imperiet.',
@@ -235,7 +245,17 @@ export const mongolia: Country = {
       },
       {
         year: '1368',
-        title: 'Yuan Dynasty Falls',
+        title: {
+          en: 'Yuan Dynasty Falls',
+          sv: 'Yuandynastins fall',
+          es: 'Caída de la dinastía Yuan',
+          fr: 'Chute de la dynastie Yuan',
+          de: 'Untergang der Yuan-Dynastie',
+          it: 'Caduta della dinastia Yuan',
+          pl: 'Upadek dynastii Yuan',
+          nl: 'Val van de Yuan-dynastie',
+          pt: 'Queda da dinastia Yuan',
+        },
         description: {
           en: 'Mongols lost control of China and retreated to Mongolia.',
           sv: 'Mongoler förlorade kontrollen över Kina och drog sig tillbaka till Mongoliet.',
@@ -250,7 +270,17 @@ export const mongolia: Country = {
       },
       {
         year: '1921',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Mongolia gained independence from China with Soviet support.',
           sv: 'Mongoliet blev självständigt från Kina med sovjetiskt stöd.',
@@ -265,7 +295,17 @@ export const mongolia: Country = {
       },
       {
         year: '1990',
-        title: 'Democratic Revolution',
+        title: {
+          en: 'Democratic Revolution',
+          sv: 'Demokratisk revolution',
+          es: 'Revolución democrática',
+          fr: 'Révolution démocratique',
+          de: 'Demokratische Revolution',
+          it: 'Rivoluzione democratica',
+          pl: 'Rewolucja demokratyczna',
+          nl: 'Democratische revolutie',
+          pt: 'Revolução democrática',
+        },
         description: {
           en: 'Peaceful transition from communism to democracy.',
           sv: 'Fredlig övergång från kommunism till demokrati.',
@@ -292,7 +332,17 @@ export const mongolia: Country = {
           nl: 'Organisatie van het Mongoolse Rijk',
           pt: 'Organização do Império Mongol',
         },
-        year: '13th Century',
+        year: {
+          en: '13th Century',
+          sv: '1200-talet',
+          es: 'Siglo XIII',
+          fr: 'XIIIe siècle',
+          de: '13. Jahrhundert',
+          it: 'XIII secolo',
+          pl: 'XIII wiek',
+          nl: '13e eeuw',
+          pt: 'Século XIII',
+        },
         description: {
           en: 'Created efficient communication systems and trade routes across Eurasia.',
           sv: 'Skapat effektiva kommunikationssystem och handelsvägar över Eurasien.',
@@ -342,7 +392,17 @@ export const mongolia: Country = {
           nl: 'Ger (jurt) ontwerp',
           pt: 'Design da ger (iurta)',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Perfected portable dwelling ideal for nomadic lifestyle.',
           sv: 'Perfekt portabel bostad idealisk för nomadlivsstil.',
@@ -367,7 +427,17 @@ export const mongolia: Country = {
           nl: 'Boogschieten te paard',
           pt: 'Tiro com arco a cavalo',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Mastered mounted archery techniques that dominated medieval warfare.',
           sv: 'Bemästrade bågskyttetekniker som dominerade medeltida krigföring.',
@@ -505,7 +575,17 @@ export const mongolia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June-September for warm weather; winter is extremely cold (-40°C).',
           sv: 'Juni-september för varmt väder; vintern är extremt kall (-40°C).',
@@ -519,7 +599,17 @@ export const mongolia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities visa-free for 30 days.',
           sv: 'Många nationaliteter är visumfria i 30 dagar.',
@@ -533,7 +623,17 @@ export const mongolia: Country = {
         },
       },
       {
-        item: 'Warm clothing',
+        item: {
+          en: 'Warm clothing',
+          sv: 'Varma kläder',
+          es: 'Ropa de abrigo',
+          fr: 'Vêtements chauds',
+          de: 'Warme Kleidung',
+          it: 'Abiti caldi',
+          pl: 'Ciepła odzież',
+          nl: 'Warme kleding',
+          pt: 'Roupas de frio',
+        },
         description: {
           en: 'Essential for winter; nights can be cold even in summer.',
           sv: 'Viktigt för vintern; nätterna kan vara kalla även på sommaren.',
@@ -547,7 +647,17 @@ export const mongolia: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Bring cash for countryside; cards work in Ulaanbaatar.',
           sv: 'Ta med kontanter för landsbygden; kort fungerar i Ulaanbaatar.',
@@ -576,7 +686,7 @@ export const mongolia: Country = {
       },
       description: {
         en: 'Deep-fried dough cookies, traditional Mongolian treat',
-        sv: 'Friterade degkakor, traditionella mongoliska godsaker',
+        sv: 'Friterade degbitar – ett traditionellt mongoliskt bakverk',
         es: 'Galletas de masa frita, delicia tradicional de Mongolia',
         fr: 'Biscuits à la pâte frite, friandise traditionnelle mongole',
         de: 'Frittierte Teigkekse, traditioneller mongolischer Leckerbissen',
@@ -603,7 +713,7 @@ export const mongolia: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -675,7 +785,7 @@ export const mongolia: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -703,7 +813,7 @@ export const mongolia: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -719,7 +829,7 @@ export const mongolia: Country = {
       steps: [
         {
           en: 'Mix flour, sugar, and baking powder',
-          sv: 'Blanda mjöl, socker och bakpulver',
+          sv: 'Blanda vetemjöl, socker och bakpulver',
           es: 'Mezclar harina, azúcar y levadura en polvo',
           fr: 'Mélanger la farine, le sucre et la levure chimique',
           de: 'Mehl, Zucker und Backpulver mischen',
@@ -741,7 +851,7 @@ export const mongolia: Country = {
         },
         {
           en: 'Knead into smooth dough',
-          sv: 'Knåda till slät deg',
+          sv: 'Knåda till en smidig deg',
           es: 'Amasar hasta obtener una masa suave',
           fr: 'Pétrir pour obtenir une pâte lisse',
           de: 'Zu einem glatten Teig kneten',
@@ -763,7 +873,7 @@ export const mongolia: Country = {
         },
         {
           en: 'Roll out and cut into diamond shapes',
-          sv: 'Kavla ut och skär till diamantformer',
+          sv: 'Kavla ut degen och skär den i romber',
           es: 'Estirar y cortar en forma de diamante',
           fr: 'Étalez et coupez en losanges',
           de: 'Ausrollen und in Rautenform schneiden',
@@ -774,7 +884,7 @@ export const mongolia: Country = {
         },
         {
           en: 'Make slit in center of each piece',
-          sv: 'Gör en slits i mitten av varje del',
+          sv: 'Skär ett snitt i mitten av varje bit',
           es: 'Haz un corte en el centro de cada pieza.',
           fr: 'Faire une fente au centre de chaque pièce',
           de: 'Machen Sie in der Mitte jedes Stücks einen Schlitz',
@@ -823,7 +933,7 @@ export const mongolia: Country = {
       },
       description: {
         en: 'Traditional barbecue with mutton and hot stones',
-        sv: 'Traditionell grill med fårkött och varma stenar',
+        sv: 'Traditionell rätt med fårkött som tillagas med heta stenar',
         es: 'Barbacoa tradicional de cordero y piedras calientes',
         fr: 'Barbecue traditionnel avec mouton et pierres chaudes',
         de: 'Traditionelles Barbecue mit Hammelfleisch und heißen Steinen',
@@ -877,7 +987,7 @@ export const mongolia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -902,7 +1012,7 @@ export const mongolia: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -927,7 +1037,7 @@ export const mongolia: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -991,7 +1101,7 @@ export const mongolia: Country = {
       steps: [
         {
           en: 'Heat stones in fire until very hot',
-          sv: 'Värm stenar i eld tills de är mycket heta',
+          sv: 'Hetta upp stenarna i elden tills de är mycket heta',
           es: 'Calentar piedras al fuego hasta que estén muy calientes',
           fr: 'Chauffer les pierres au feu jusqu\'à ce qu\'elles soient très chaudes',
           de: 'Steine ​​im Feuer erhitzen, bis sie sehr heiß sind',
@@ -1002,7 +1112,7 @@ export const mongolia: Country = {
         },
         {
           en: 'Layer meat and vegetables in pot',
-          sv: 'Lägg kött och grönsaker i lager',
+          sv: 'Varva kött och grönsaker i en gryta',
           es: 'Coloque capas de carne y verduras en una olla',
           fr: 'Disposez la viande et les légumes dans une marmite',
           de: 'Fleisch und Gemüse in den Topf schichten',
@@ -1013,7 +1123,7 @@ export const mongolia: Country = {
         },
         {
           en: 'Add hot stones between layers',
-          sv: 'Lägg varma stenar mellan lagren',
+          sv: 'Lägg de heta stenarna mellan lagren',
           es: 'Agrega piedras calientes entre capas',
           fr: 'Ajoutez des pierres chaudes entre les couches',
           de: 'Zwischen den Schichten heiße Steine ​​hinzufügen',
@@ -1035,7 +1145,7 @@ export const mongolia: Country = {
         },
         {
           en: 'Open carefully to release steam',
-          sv: 'Öppna försiktigt för att släppa ut ånga',
+          sv: 'Öppna försiktigt så att ångan pyser ut',
           es: 'Abrir con cuidado para liberar vapor',
           fr: 'Ouvrir soigneusement pour évacuer la vapeur',
           de: 'Vorsichtig öffnen, um Dampf abzulassen',
@@ -1046,7 +1156,7 @@ export const mongolia: Country = {
         },
         {
           en: 'Serve with the tender, smoky meat',
-          sv: 'Servera till det möra, rökiga köttet',
+          sv: 'Servera det möra, rökiga köttet',
           es: 'Servir con la carne tierna y ahumada.',
           fr: 'Servir avec la viande tendre et fumée',
           de: 'Mit dem zarten, rauchigen Fleisch servieren',
@@ -1370,7 +1480,7 @@ export const mongolia: Country = {
           },
           {
             en: 'Ger (Yurt)',
-            sv: 'Ger (Yurt)',
+            sv: 'Ger (jurta)',
             es: 'Ger (Yurta)',
             fr: 'Ger (Yourte)',
             de: 'Ger (Jurte)',

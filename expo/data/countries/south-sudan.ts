@@ -230,8 +230,28 @@ export const southSudan: Country = {
     },
     history: [
       {
-        year: '2000 BC',
-        title: 'Sorghum Domestication',
+        year: {
+          en: '2000 BC',
+          sv: '2000 f.Kr.',
+          es: '2000 a. C.',
+          fr: '2000 av. J.-C.',
+          de: '2000 v. Chr.',
+          it: '2000 a.C.',
+          pl: '2000 p.n.e.',
+          nl: '2000 v.Chr.',
+          pt: '2000 a.C.',
+        },
+        title: {
+          en: 'Sorghum Domestication',
+          sv: 'Domesticering av durra',
+          es: 'Domesticación del sorgo',
+          fr: 'Domestication du sorgho',
+          de: 'Domestizierung von Sorghum',
+          it: 'Domesticazione del sorgo',
+          pl: 'Udomowienie sorga',
+          nl: 'Domesticatie van sorghum',
+          pt: 'Domesticação do sorgo',
+        },
         description: {
           en: 'Ancient peoples of Sudan and South Sudan domesticated sorghum, a drought-resistant grain that became foundation of regional food security',
           sv: 'Antika människor domesticerade sorghum',
@@ -245,8 +265,28 @@ export const southSudan: Country = {
         },
       },
       {
-        year: '1000 AD',
-        title: 'Nilotic Agricultural Development',
+        year: {
+          en: '1000 AD',
+          sv: '1000 e.Kr.',
+          es: '1000 d. C.',
+          fr: '1000 apr. J.-C.',
+          de: '1000 n. Chr.',
+          it: '1000 d.C.',
+          pl: '1000 n.e.',
+          nl: '1000 n.Chr.',
+          pt: '1000 d.C.',
+        },
+        title: {
+          en: 'Nilotic Agricultural Development',
+          sv: 'Nilotisk jordbruksutveckling',
+          es: 'Desarrollo agrícola nilótico',
+          fr: 'Développement agricole nilotique',
+          de: 'Landwirtschaftliche Entwicklung der Niloten',
+          it: 'Sviluppo agricolo nilotico',
+          pl: 'Rozwój rolnictwa ludów nilotyckich',
+          nl: 'Nilotische landbouwontwikkeling',
+          pt: 'Desenvolvimento agrícola nilótico',
+        },
         description: {
           en: 'Nilotic peoples developed sustainable farming along the White Nile, cultivating millet and integrating it with cattle herding',
           sv: 'Nilotiska folk utvecklade hållbar jordbruk',
@@ -260,8 +300,28 @@ export const southSudan: Country = {
         },
       },
       {
-        year: '1500s',
-        title: 'Peanut and Okra Cultivation',
+        year: {
+          en: '1500s',
+          sv: '1500-talet',
+          es: 'Siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'Século XVI',
+        },
+        title: {
+          en: 'Peanut and Okra Cultivation',
+          sv: 'Odling av jordnötter och okra',
+          es: 'Cultivo de cacahuete y okra',
+          fr: 'Culture de l\'arachide et du gombo',
+          de: 'Anbau von Erdnüssen und Okra',
+          it: 'Coltivazione di arachidi e okra',
+          pl: 'Uprawa orzeszków ziemnych i okry',
+          nl: 'Teelt van pinda\'s en okra',
+          pt: 'Cultivo de amendoim e quiabo',
+        },
         description: {
           en: 'Peanut and okra crops gained importance, providing protein and nutrition, especially during dry seasons and food shortages',
           sv: 'Jordnöt och okra odling vann betydelse',
@@ -275,8 +335,28 @@ export const southSudan: Country = {
         },
       },
       {
-        year: '1900s',
-        title: 'Sudd Wetland Food Resources',
+        year: {
+          en: '1900s',
+          sv: '1900-talet',
+          es: 'siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'século XX',
+        },
+        title: {
+          en: 'Sudd Wetland Food Resources',
+          sv: 'Matresurser i Suddträsket',
+          es: 'Recursos alimentarios del humedal del Sudd',
+          fr: 'Ressources alimentaires des marais du Sudd',
+          de: 'Nahrungsquellen im Sudd-Feuchtgebiet',
+          it: 'Risorse alimentari delle paludi del Sudd',
+          pl: 'Zasoby żywności z mokradeł Sudd',
+          nl: 'Voedselbronnen uit het Sudd-moeras',
+          pt: 'Recursos alimentares do pântano do Sudd',
+        },
         description: {
           en: 'Traditional knowledge of harvesting fish, water lilies, and papyrus from Sudd wetlands sustained communities for millennia',
           sv: 'Traditionell kunskap om att skörda från Sudd våtmarker',
@@ -414,7 +494,17 @@ export const southSudan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa required in advance. Apply at South Sudanese embassy or consulate.',
           sv: 'Visum krävs i förväg. Ansök på Sydsudans ambassad eller konsulat.',
@@ -428,7 +518,17 @@ export const southSudan: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to April (dry season) for better road conditions and travel.',
           sv: 'November till april (torrsäsong) för bättre väglag och resor.',
@@ -442,7 +542,17 @@ export const southSudan: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories. Security situation can be unpredictable.',
           sv: 'Kontrollera aktuella resemeddelanden. Säkerhetssituationen kan vara oförutsägbar.',
@@ -456,7 +566,17 @@ export const southSudan: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Yellow fever vaccination required. Malaria prophylaxis essential.',
           sv: 'Vaccination mot gula febern krävs. Malariaprofylax viktigt.',
@@ -470,7 +590,17 @@ export const southSudan: Country = {
         },
       },
       {
-        item: 'Infrastructure',
+        item: {
+          en: 'Infrastructure',
+          sv: 'Infrastruktur',
+          es: 'Infraestructura',
+          fr: 'Infrastructures',
+          de: 'Infrastruktur',
+          it: 'Infrastrutture',
+          pl: 'Infrastruktura',
+          nl: 'Infrastructuur',
+          pt: 'Infraestrutura',
+        },
         description: {
           en: 'Limited tourism infrastructure. Plan carefully and consider guided tours.',
           sv: 'Begränsad turisminfrastruktur. Planera noga och överväg guidade turer.',
@@ -497,7 +627,17 @@ export const southSudan: Country = {
           nl: 'Beheer van de Sudd-moerassen',
           pt: 'Gestão das áreas úmidas do Sudd',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Indigenous knowledge of navigating and living sustainably within one of the world\'s largest wetlands',
           sv: 'Inhemsk kunskap om att navigera och leva hållbart inom en av världens största våtmarker',
@@ -522,7 +662,17 @@ export const southSudan: Country = {
           nl: 'Kisra-fermentatie',
           pt: 'Fermentação do kisra',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Ancient sourdough-like fermentation technique for sorghum flatbread, preserving nutrition',
           sv: 'Urgammal surdegsliknande jäsningsteknik för durra tunnbröd, bevarar näring',
@@ -547,7 +697,17 @@ export const southSudan: Country = {
           nl: 'Tradities van veehouderij',
           pt: 'Tradições de pastoreio de gado',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Advanced pastoral systems for managing cattle herds in challenging semi-arid environments',
           sv: 'Avancerade pastorala system för hantering av boskapsbesättningar i utmanande halvtorra miljöer',
@@ -565,7 +725,7 @@ export const southSudan: Country = {
       id: 'south-sudan-main',
       name: {
         en: 'Kisra with Mullah',
-        sv: 'Kisra med Mullah',
+        sv: 'Kisra med mullah',
         es: 'Kisra con Mullah',
         fr: 'Kisra avec le mollah',
         de: 'Kisra mit Mullah',
@@ -576,7 +736,7 @@ export const southSudan: Country = {
       },
       description: {
         en: 'Traditional fermented sorghum flatbread served with a thick okra and peanut stew.',
-        sv: 'Traditionellt jäst durra tunnbröd serveras med en tjock okra och jordnötsgryta.',
+        sv: 'Traditionellt fermenterat tunnbröd av sorghummjöl som serveras med en tjock gryta på okra och jordnötter.',
         es: 'Pan plano tradicional de sorgo fermentado servido con un guiso espeso de okra y maní.',
         fr: 'Pain plat traditionnel au sorgho fermenté servi avec un épais ragoût de gombo et de cacahuètes.',
         de: 'Traditionelles fermentiertes Sorghum-Fladenbrot, serviert mit einem dicken Okra-Erdnuss-Eintopf.',
@@ -675,7 +835,7 @@ export const southSudan: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -700,7 +860,7 @@ export const southSudan: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -729,7 +889,7 @@ export const southSudan: Country = {
       steps: [
         {
           en: 'Mix sorghum flour with water to form a thin batter',
-          sv: 'Blanda sorghummjöl med vatten för att bilda en tunn smet',
+          sv: 'Blanda sorghummjölet med vatten till en tunn smet',
           es: 'Mezclar harina de sorgo con agua para formar una masa fina',
           fr: 'Mélanger la farine de sorgho avec de l\'eau pour former une fine pâte',
           de: 'Sorghummehl mit Wasser zu einem dünnen Teig vermischen',
@@ -751,7 +911,7 @@ export const southSudan: Country = {
         },
         {
           en: 'Heat a non-stick pan and pour a thin layer of batter',
-          sv: 'Hetta upp en non-stick panna och häll ett tunt lager smet',
+          sv: 'Hetta upp en stekpanna med nonstickbeläggning och häll i ett tunt lager smet',
           es: 'Calienta una sartén antiadherente y vierte una fina capa de masa',
           fr: 'Faites chauffer une poêle antiadhésive et versez une fine couche de pâte',
           de: 'Eine beschichtete Pfanne erhitzen und eine dünne Schicht Teig hineingießen',
@@ -762,7 +922,7 @@ export const southSudan: Country = {
         },
         {
           en: 'Cook briefly until set, do not flip, and set aside',
-          sv: 'Koka kort tills det stelnat, vänd inte och ställ åt sidan',
+          sv: 'Grädda kort tills smeten har stelnat – vänd inte brödet – och lägg det åt sidan',
           es: 'Cocine brevemente hasta que esté listo, no le dé la vuelta y reserve',
           fr: 'Cuire brièvement jusqu\'à ce que le tout soit pris, ne pas retourner et réserver',
           de: 'Kurz kochen, bis es fest ist, nicht wenden und beiseite stellen',
@@ -784,7 +944,7 @@ export const southSudan: Country = {
         },
         {
           en: 'Simmer onions and tomatoes with okra until soft',
-          sv: 'Sjud lök och tomater med okra tills de är mjuka',
+          sv: 'Låt löken och tomaterna sjuda med okran tills de är mjuka',
           es: 'Cocine a fuego lento las cebollas y los tomates con okra hasta que estén tiernos',
           fr: 'Laisser mijoter les oignons et les tomates avec le gombo jusqu\'à ce qu\'ils soient tendres',
           de: 'Zwiebeln und Tomaten mit Okra köcheln lassen, bis sie weich sind',
@@ -817,7 +977,7 @@ export const southSudan: Country = {
         },
         {
           en: 'Serve the mullah stew with warm kisra',
-          sv: 'Servera mullagrytan med varm kisra',
+          sv: 'Servera mullahgrytan med varm kisra',
           es: 'Sirve el guiso de mullah con kisra tibio',
           fr: 'Servir le ragoût de mollah avec du kisra chaud',
           de: 'Servieren Sie den Mullah-Eintopf mit warmem Kisra',
@@ -833,7 +993,7 @@ export const southSudan: Country = {
       id: 'south-sudan-dessert',
       name: {
         en: 'Asida (Sweet Porridge)',
-        sv: 'Asida (Sötgröt)',
+        sv: 'Asida (söt gröt)',
         es: 'Asida (Gachas Dulces)',
         fr: 'Asida (bouillie sucrée)',
         de: 'Asida (süßer Brei)',
@@ -844,7 +1004,7 @@ export const southSudan: Country = {
       },
       description: {
         en: 'A simple, comforting porridge-like dish made from flour and water, often served with sweetened milk, honey, or a light date syrup.',
-        sv: 'En enkel, tröstande grötliknande rätt gjord av mjöl och vatten, ofta serverad med sötad mjölk, honung eller en lätt dadelsirap.',
+        sv: 'En enkel och värmande grötliknande rätt av mjöl och vatten som ofta serveras med sötad mjölk, honung eller lite dadelsirap.',
         es: 'Un plato sencillo y reconfortante parecido a una papilla hecho con harina y agua, que a menudo se sirve con leche azucarada, miel o un almíbar ligero de dátiles.',
         fr: 'Un plat simple et réconfortant semblable à une bouillie à base de farine et d\'eau, souvent servi avec du lait sucré, du miel ou un sirop de dattes léger.',
         de: 'Ein einfaches, wohltuendes, breiartiges Gericht aus Mehl und Wasser, oft serviert mit gesüßter Milch, Honig oder einem leichten Dattelsirup.',
@@ -916,7 +1076,7 @@ export const southSudan: Country = {
         {
           name: {
             en: 'Milk (for serving)',
-            sv: 'Mjölk (för servering)',
+            sv: 'Mjölk (till servering)',
             es: 'Leche (para servir)',
             fr: 'Lait (pour servir)',
             de: 'Milch (zum Servieren)',
@@ -983,7 +1143,7 @@ export const southSudan: Country = {
         },
         {
           en: 'Whisk in flour gradually to avoid lumps.',
-          sv: 'Vispa i mjöl gradvis för att undvika klumpar.',
+          sv: 'Vispa ner mjölet lite i taget så att det inte blir klumpar.',
           es: 'Incorpora la harina poco a poco para evitar grumos.',
           fr: 'Incorporer progressivement la farine pour éviter les grumeaux.',
           de: 'Mehl nach und nach einrühren, um Klümpchen zu vermeiden.',
@@ -994,7 +1154,7 @@ export const southSudan: Country = {
         },
         {
           en: 'Stir continuously over low heat until very thick and smooth.',
-          sv: 'Rör hela tiden på låg värme tills den är väldigt tjock och slät.',
+          sv: 'Rör hela tiden på låg värme tills gröten är mycket tjock och slät.',
           es: 'Revuelva continuamente a fuego lento hasta que esté muy espeso y suave.',
           fr: 'Remuer continuellement à feu doux jusqu\'à ce qu\'il soit très épais et lisse.',
           de: 'Bei schwacher Hitze kontinuierlich rühren, bis die Masse sehr dick und glatt ist.',
@@ -1005,7 +1165,7 @@ export const southSudan: Country = {
         },
         {
           en: 'Cook 10–15 minutes, stirring, until the mixture pulls from the sides.',
-          sv: 'Koka 10–15 minuter under omrörning tills blandningen drar sig från sidorna.',
+          sv: 'Låt koka i 10–15 minuter under omrörning tills gröten släpper från kastrullens kanter.',
           es: 'Cocine de 10 a 15 minutos, revolviendo, hasta que la mezcla se desprenda de los lados.',
           fr: 'Cuire 10 à 15 minutes en remuant jusqu\'à ce que le mélange se détache des côtés.',
           de: '10–15 Minuten unter Rühren kochen, bis sich die Mischung von den Seiten löst.',
@@ -1016,7 +1176,7 @@ export const southSudan: Country = {
         },
         {
           en: 'Spoon into a serving bowl and make a small well in the center.',
-          sv: 'Häll upp i en serveringsskål och gör en liten brunn i mitten.',
+          sv: 'Lägg upp i en serveringsskål och gör en liten grop i mitten.',
           es: 'Vierta en un tazón para servir y haga un pequeño hueco en el centro.',
           fr: 'Verser dans un bol de service et faire un petit puits au centre.',
           de: 'In eine Servierschüssel geben und in der Mitte eine kleine Mulde formen.',
@@ -1038,7 +1198,7 @@ export const southSudan: Country = {
         },
         {
           en: 'Optional: add a small knob of butter for richness.',
-          sv: 'Valfritt: tillsätt en liten klick smör för fyllighet.',
+          sv: 'Valfritt: lägg i en liten klick smör för en fylligare smak.',
           es: 'Opcional: agregue una pequeña nuez de mantequilla para enriquecer.',
           fr: 'Facultatif : ajoutez une petite noix de beurre pour plus de richesse.',
           de: 'Optional: Für mehr Fülle ein kleines Stück Butter hinzufügen.',
@@ -1200,7 +1360,7 @@ export const southSudan: Country = {
         options: [
           {
             en: 'Okavango Delta',
-            sv: 'Okavango Delta',
+            sv: 'Okavangodeltat',
             es: 'Delta del Okavango',
             fr: 'Delta de l\'Okavango',
             de: 'Okavangodelta',
@@ -1222,7 +1382,7 @@ export const southSudan: Country = {
           },
           {
             en: 'The Sudd',
-            sv: 'The Sudd',
+            sv: 'Sudd',
             es: 'Lo repentino',
             fr: 'Le Sudd',
             de: 'Der Sudd',

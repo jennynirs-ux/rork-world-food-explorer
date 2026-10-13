@@ -125,7 +125,7 @@ export const kyrgyzstan: Country = {
         },
         value: {
           en: 'Kyrgyzstani Som',
-          sv: 'Kyrgyzstani Som',
+          sv: 'Kirgizisk som',
           es: 'Som kirguís',
           fr: 'Som kirghize',
           de: 'Kirgisischer Som',
@@ -219,8 +219,28 @@ export const kyrgyzstan: Country = {
     },
     history: [
       {
-        year: 'Ancient',
-        title: 'Silk Road Trade',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
+        title: {
+          en: 'Silk Road Trade',
+          sv: 'Handel längs Sidenvägen',
+          es: 'Comercio por la Ruta de la Seda',
+          fr: 'Commerce sur la route de la soie',
+          de: 'Handel auf der Seidenstraße',
+          it: 'Commercio sulla Via della Seta',
+          pl: 'Handel na Jedwabnym Szlaku',
+          nl: 'Handel over de Zijderoute',
+          pt: 'Comércio na Rota da Seda',
+        },
         description: {
           en: 'Kyrgyzstan was a key location along the historic Silk Road trade routes.',
           sv: 'Kirgizistan var en viktig plats längs de historiska handelsvägarna från Sidenvägen.',
@@ -235,7 +255,17 @@ export const kyrgyzstan: Country = {
       },
       {
         year: '1876',
-        title: 'Russian Empire',
+        title: {
+          en: 'Russian Empire',
+          sv: 'Ryska imperiet',
+          es: 'Imperio ruso',
+          fr: 'Empire russe',
+          de: 'Russisches Kaiserreich',
+          it: 'Impero russo',
+          pl: 'Imperium Rosyjskie',
+          nl: 'Russische Rijk',
+          pt: 'Império Russo',
+        },
         description: {
           en: 'The region became part of the Russian Empire.',
           sv: 'Regionen blev en del av det ryska imperiet.',
@@ -250,7 +280,17 @@ export const kyrgyzstan: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Kyrgyzstan gained independence from the Soviet Union.',
           sv: 'Kirgizistan blev självständigt från Sovjetunionen.',
@@ -277,7 +317,17 @@ export const kyrgyzstan: Country = {
           nl: 'Epos van Manas',
           pt: 'Epopeia de Manas',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'One of the world\'s longest epic poems, passed down orally for centuries.',
           sv: 'En av världens längsta episka dikter, som gått i arv i århundraden.',
@@ -302,7 +352,17 @@ export const kyrgyzstan: Country = {
           nl: 'Jurtbouw',
           pt: 'Construção de iurtas',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Portable dwelling design perfected by Kyrgyz nomads.',
           sv: 'Bärbar bostadsdesign fulländad av kirgiziska nomader.',
@@ -327,7 +387,17 @@ export const kyrgyzstan: Country = {
           nl: 'Vilten ambachtskunst',
           pt: 'Artesanato em feltro',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Traditional felt-making techniques used for clothing, carpets, and yurt decorations.',
           sv: 'Traditionella filttillverkningstekniker som används för kläder, mattor och jurtdekorationer.',
@@ -393,7 +463,7 @@ export const kyrgyzstan: Country = {
       {
         name: {
           en: 'Burana Tower',
-          sv: 'Burana Tower',
+          sv: 'Buranatornet',
           es: 'Torre Burana',
           fr: 'Tour Burana',
           de: 'Burana-Turm',
@@ -441,7 +511,7 @@ export const kyrgyzstan: Country = {
       {
         name: {
           en: 'Osh Bazaar',
-          sv: 'Osh Bazaar',
+          sv: 'Basaren i Osj',
           es: 'Bazar de Osh',
           fr: 'Bazar d\'Och',
           de: 'Osch-Basar',
@@ -465,7 +535,17 @@ export const kyrgyzstan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June-September for mountain activities; winter for skiing.',
           sv: 'Juni-september för fjällaktiviteter; vinter för skidåkning.',
@@ -479,7 +559,17 @@ export const kyrgyzstan: Country = {
         },
       },
       {
-        item: 'Warm layers',
+        item: {
+          en: 'Warm layers',
+          sv: 'Varma kläder i lager',
+          es: 'Capas de abrigo',
+          fr: 'Vêtements chauds superposables',
+          de: 'Warme Kleidungsschichten',
+          it: 'Abiti caldi a strati',
+          pl: 'Ciepłe warstwy',
+          nl: 'Warme laagjes',
+          pt: 'Agasalhos em camadas',
+        },
         description: {
           en: 'Mountains can be cold even in summer; bring layers.',
           sv: 'Berg kan vara kalla även på sommaren; ta med lager.',
@@ -493,7 +583,17 @@ export const kyrgyzstan: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can enter visa-free for short stays.',
           sv: 'Många nationaliteter kan resa in visumfritt för kortare vistelser.',
@@ -507,7 +607,17 @@ export const kyrgyzstan: Country = {
         },
       },
       {
-        item: 'Russian phrases',
+        item: {
+          en: 'Russian phrases',
+          sv: 'Ryska fraser',
+          es: 'Frases en ruso',
+          fr: 'Expressions en russe',
+          de: 'Russische Redewendungen',
+          it: 'Frasi in russo',
+          pl: 'Zwroty po rosyjsku',
+          nl: 'Russische zinnen',
+          pt: 'Frases em russo',
+        },
         description: {
           en: 'Russian is widely spoken alongside Kyrgyz.',
           sv: 'Ryska talas flitigt vid sidan av kirgiziska.',
@@ -536,7 +646,7 @@ export const kyrgyzstan: Country = {
       },
       description: {
         en: 'Honey-coated fried dough dessert, popular in Central Asia',
-        sv: 'Honungsöverdragen friterad degdessert, populär i Centralasien',
+        sv: 'Friterade degbitar med honungsglasyr – en populär dessert i Centralasien',
         es: 'Postre de masa frita recubierto de miel, popular en Asia Central',
         fr: 'Dessert à base de pâte frite enrobé de miel, populaire en Asie centrale',
         de: 'Mit Honig überzogenes frittiertes Teigdessert, beliebt in Zentralasien',
@@ -563,7 +673,7 @@ export const kyrgyzstan: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -590,7 +700,7 @@ export const kyrgyzstan: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -618,7 +728,7 @@ export const kyrgyzstan: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -648,7 +758,7 @@ export const kyrgyzstan: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -664,7 +774,7 @@ export const kyrgyzstan: Country = {
       steps: [
         {
           en: 'Mix flour, eggs, and melted butter into dough',
-          sv: 'Blanda mjöl, ägg och smält smör till degen',
+          sv: 'Arbeta ihop mjöl, ägg och smält smör till en deg',
           es: 'Mezcle la harina, los huevos y la mantequilla derretida hasta obtener la masa',
           fr: 'Mélanger la farine, les œufs et le beurre fondu dans la pâte',
           de: 'Mehl, Eier und geschmolzene Butter zu einem Teig vermischen',
@@ -686,7 +796,7 @@ export const kyrgyzstan: Country = {
         },
         {
           en: 'Deep fry strips until golden',
-          sv: 'Fritera remsor tills de är gyllene',
+          sv: 'Fritera remsorna tills de är gyllene',
           es: 'Freír las tiras hasta que estén doradas',
           fr: 'Faire frire les lanières jusqu\'à ce qu\'elles soient dorées',
           de: 'Die Streifen goldbraun frittieren',
@@ -697,7 +807,7 @@ export const kyrgyzstan: Country = {
         },
         {
           en: 'Heat honey and sugar until combined',
-          sv: 'Värm honung och socker tills det blandas',
+          sv: 'Värm honung och socker tills sockret har löst sig',
           es: 'Calienta la miel y el azúcar hasta que se combinen',
           fr: 'Chauffer le miel et le sucre jusqu\'à ce que le tout soit bien mélangé',
           de: 'Honig und Zucker erhitzen, bis alles gut vermischt ist',
@@ -708,7 +818,7 @@ export const kyrgyzstan: Country = {
         },
         {
           en: 'Mix fried strips with honey mixture',
-          sv: 'Blanda stekta strimlor med honungsblandning',
+          sv: 'Blanda de friterade remsorna med honungsblandningen',
           es: 'Mezclar tiras fritas con mezcla de miel',
           fr: 'Mélanger les lanières frites avec le mélange de miel',
           de: 'Frittierte Streifen mit der Honigmischung vermischen',
@@ -719,7 +829,7 @@ export const kyrgyzstan: Country = {
         },
         {
           en: 'Press into mound shape',
-          sv: 'Tryck till högform',
+          sv: 'Tryck ihop till en kupolformad hög',
           es: 'Presione hasta formar un montículo',
           fr: 'Presser en forme de monticule',
           de: 'In Hügelform drücken',
@@ -826,7 +936,7 @@ export const kyrgyzstan: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -851,7 +961,7 @@ export const kyrgyzstan: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -891,7 +1001,7 @@ export const kyrgyzstan: Country = {
         },
         {
           en: 'Cook noodles in meat broth',
-          sv: 'Koka nudlar i köttbuljong',
+          sv: 'Koka nudlarna i köttspadet',
           es: 'Cocine los fideos en caldo de carne',
           fr: 'Cuire les nouilles dans un bouillon de viande',
           de: 'Nudeln in Fleischbrühe kochen',
@@ -913,7 +1023,7 @@ export const kyrgyzstan: Country = {
         },
         {
           en: 'Layer noodles on platter',
-          sv: 'Lägg nudlar i lager på fat',
+          sv: 'Bred ut nudlarna på ett fat',
           es: 'Coloque los fideos en capas en un plato',
           fr: 'Superposez les nouilles sur une assiette',
           de: 'Nudeln auf Teller schichten',
@@ -924,7 +1034,7 @@ export const kyrgyzstan: Country = {
         },
         {
           en: 'Top with meat and raw onions',
-          sv: 'Toppa med kött och rå lök',
+          sv: 'Lägg köttet och rå lök ovanpå',
           es: 'Cubra con carne y cebollas crudas',
           fr: 'Garnir de viande et d\'oignons crus',
           de: 'Mit Fleisch und rohen Zwiebeln belegen',
@@ -935,7 +1045,7 @@ export const kyrgyzstan: Country = {
         },
         {
           en: 'Pour broth over and serve',
-          sv: 'Häll buljong över och servera',
+          sv: 'Häll över lite buljong och servera',
           es: 'Vierta el caldo y sirva',
           fr: 'Verser le bouillon dessus et servir',
           de: 'Brühe darübergießen und servieren',
@@ -1473,7 +1583,7 @@ export const kyrgyzstan: Country = {
           },
           {
             en: 'Amber Road',
-            sv: 'Amber Road',
+            sv: 'Bärnstensvägen',
             es: 'Camino ámbar',
             fr: 'Route de l\'Ambre',
             de: 'Bernsteinstraße',

@@ -241,8 +241,28 @@ export const tuvalu: Country = {
     },
     history: [
       {
-        year: 'Pre-1800s',
-        title: 'Polynesian Settlement',
+        year: {
+          en: 'Pre-1800s',
+          sv: 'Före 1800',
+          es: 'Antes de 1800',
+          fr: 'Avant 1800',
+          de: 'Vor 1800',
+          it: 'Prima del 1800',
+          pl: 'Przed 1800 r.',
+          nl: 'Vóór 1800',
+          pt: 'Antes de 1800',
+        },
+        title: {
+          en: 'Polynesian Settlement',
+          sv: 'Polynesisk bosättning',
+          es: 'Asentamiento polinesio',
+          fr: 'Peuplement polynésien',
+          de: 'Polynesische Besiedlung',
+          it: 'Insediamento polinesiano',
+          pl: 'Osadnictwo polinezyjskie',
+          nl: 'Polynesische bewoning',
+          pt: 'Povoamento polinésio',
+        },
         description: {
           en: 'Tuvalu\'s islands were settled by Polynesian navigators, with traditions shaped by ocean travel, fishing, and communal island life.',
           sv: 'Tuvalus öar bosattes av polynesiska navigatörer, med traditioner som formats av havsresor, fiske och det kommunala ölivet.',
@@ -257,7 +277,17 @@ export const tuvalu: Country = {
       },
       {
         year: '1892',
-        title: 'British Protectorate',
+        title: {
+          en: 'British Protectorate',
+          sv: 'Brittiskt protektorat',
+          es: 'Protectorado británico',
+          fr: 'Protectorat britannique',
+          de: 'Britisches Protektorat',
+          it: 'Protettorato britannico',
+          pl: 'Protektorat brytyjski',
+          nl: 'Brits protectoraat',
+          pt: 'Protetorado britânico',
+        },
         description: {
           en: 'Tuvalu (then part of the Ellice Islands) became a British protectorate, later administered together with the Gilbert Islands.',
           sv: 'Tuvalu (då en del av Elliceöarna) blev ett brittiskt protektorat, senare administrerat tillsammans med Gilbertöarna.',
@@ -272,7 +302,17 @@ export const tuvalu: Country = {
       },
       {
         year: '1978',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Tuvalu became an independent nation and joined the Commonwealth, establishing its own government and national identity.',
           sv: 'Tuvalu blev en självständig nation och gick med i samväldet och etablerade sin egen regering och nationella identitet.',
@@ -286,8 +326,28 @@ export const tuvalu: Country = {
         },
       },
       {
-        year: '1990s–Present',
-        title: 'Climate Advocacy',
+        year: {
+          en: '1990s–Present',
+          sv: '1990-talet–idag',
+          es: 'Década de 1990–actualidad',
+          fr: 'Années 1990–aujourd\'hui',
+          de: '1990er–heute',
+          it: 'Anni \'90–oggi',
+          pl: 'Lata 90.–obecnie',
+          nl: 'Jaren 90–heden',
+          pt: 'Década de 1990–presente',
+        },
+        title: {
+          en: 'Climate Advocacy',
+          sv: 'Klimatengagemang',
+          es: 'Defensa del clima',
+          fr: 'Plaidoyer pour le climat',
+          de: 'Einsatz für das Klima',
+          it: 'Impegno per il clima',
+          pl: 'Walka o klimat',
+          nl: 'Inzet voor het klimaat',
+          pt: 'Defesa do clima',
+        },
         description: {
           en: 'Tuvalu has become globally recognized for climate advocacy, highlighting the risks low-lying island nations face from sea level rise.',
           sv: 'Tuvalu har blivit globalt erkänt för klimatförespråkande, vilket lyfter fram de risker som låglänta ö-nationer står inför på grund av höjning av havsnivån.',
@@ -314,7 +374,17 @@ export const tuvalu: Country = {
           nl: '.tv-internetdomein',
           pt: 'Domínio de internet .tv',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Tuvalu\'s ".tv" country domain became a notable source of revenue and international visibility.',
           sv: 'Tuvalus ".tv"-landsdomän blev en anmärkningsvärd inkomstkälla och internationell synlighet.',
@@ -339,7 +409,17 @@ export const tuvalu: Country = {
           nl: 'Traditionele navigatie- en gemeenschapssystemen',
           pt: 'Sistemas tradicionais de navegação e comunidade',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Local knowledge of the ocean, weather patterns, and community cooperation remains a core "technology" sustaining island life.',
           sv: 'Lokal kunskap om havet, vädermönster och samhällssamarbete förblir en central "teknik" som upprätthåller ölivet.',
@@ -364,7 +444,17 @@ export const tuvalu: Country = {
           nl: 'Klimaatadaptatie-initiatieven',
           pt: 'Iniciativas de adaptação climática',
         },
-        year: 'Modern Era',
+        year: {
+          en: 'Modern Era',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Tuvalu participates in coastal protection, water security, and resilience initiatives to adapt to climate change impacts.',
           sv: 'Tuvalu deltar i initiativ för kustskydd, vattensäkerhet och motståndskraft för att anpassa sig till klimatförändringarnas effekter.',
@@ -382,7 +472,7 @@ export const tuvalu: Country = {
       {
         name: {
           en: 'Funafuti Lagoon',
-          sv: 'Funafuti Lagoon',
+          sv: 'Funafutilagunen',
           es: 'Laguna Funafuti',
           fr: 'Lagune de Funafuti',
           de: 'Funafuti-Lagune',
@@ -406,7 +496,7 @@ export const tuvalu: Country = {
       {
         name: {
           en: 'Funafuti Conservation Area',
-          sv: 'Funafuti Conservation Area',
+          sv: 'Funafutis naturskyddsområde',
           es: 'Área de Conservación Funafuti',
           fr: 'Zone de conservation de Funafuti',
           de: 'Funafuti-Schutzgebiet',
@@ -454,7 +544,7 @@ export const tuvalu: Country = {
       {
         name: {
           en: 'Atoll Island Life',
-          sv: 'Atoll Island Life',
+          sv: 'Livet på atollöarna',
           es: 'Vida en la isla del atolón',
           fr: 'La vie sur l\'île des atolls',
           de: 'Atoll-Inselleben',
@@ -478,7 +568,17 @@ export const tuvalu: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Remote logistics',
+        item: {
+          en: 'Remote logistics',
+          sv: 'Avlägset resmål – planera i förväg',
+          es: 'Logística en destinos remotos',
+          fr: 'Logistique en zone isolée',
+          de: 'Planung für abgelegene Reiseziele',
+          it: 'Logistica in luoghi remoti',
+          pl: 'Logistyka w odległych miejscach',
+          nl: 'Logistiek op afgelegen plekken',
+          pt: 'Logística em destinos remotos',
+        },
         description: {
           en: 'Tuvalu is very remote with limited flights and services—plan ahead for transport, accommodation, and supplies.',
           sv: 'Tuvalu är mycket avlägset med begränsade flygningar och tjänster – planera i förväg för transport, boende och förnödenheter.',
@@ -492,7 +592,17 @@ export const tuvalu: Country = {
         },
       },
       {
-        item: 'Respect local culture',
+        item: {
+          en: 'Respect local culture',
+          sv: 'Respektera den lokala kulturen',
+          es: 'Respeta la cultura local',
+          fr: 'Respecter la culture locale',
+          de: 'Lokale Kultur respektieren',
+          it: 'Rispettare la cultura locale',
+          pl: 'Szanuj lokalną kulturę',
+          nl: 'Respecteer de lokale cultuur',
+          pt: 'Respeite a cultura local',
+        },
         description: {
           en: 'Dress modestly, especially in villages; Sunday is often quiet due to church and family traditions.',
           sv: 'Klä dig anständigt, särskilt i byar; Söndagen är ofta lugn på grund av kyrkliga och familjetraditioner.',
@@ -506,7 +616,17 @@ export const tuvalu: Country = {
         },
       },
       {
-        item: 'Cash & connectivity',
+        item: {
+          en: 'Cash & connectivity',
+          sv: 'Kontanter och uppkoppling',
+          es: 'Efectivo y conectividad',
+          fr: 'Espèces et connexion',
+          de: 'Bargeld und Internet',
+          it: 'Contanti e connessione',
+          pl: 'Gotówka i internet',
+          nl: 'Contant geld en internet',
+          pt: 'Dinheiro e conexão',
+        },
         description: {
           en: 'Card payments may be limited; mobile/internet can be slower—download essentials in advance.',
           sv: 'Kortbetalningar kan vara begränsade; mobil/internet kan vara långsammare – ladda ner väsentligheter i förväg.',
@@ -520,7 +640,17 @@ export const tuvalu: Country = {
         },
       },
       {
-        item: 'Heat & sun protection',
+        item: {
+          en: 'Heat & sun protection',
+          sv: 'Värme och solskydd',
+          es: 'Calor y protección solar',
+          fr: 'Chaleur et protection solaire',
+          de: 'Hitze und Sonnenschutz',
+          it: 'Caldo e protezione solare',
+          pl: 'Upał i ochrona przed słońcem',
+          nl: 'Hitte en zonbescherming',
+          pt: 'Calor e proteção solar',
+        },
         description: {
           en: 'It\'s hot and sunny—bring reef-safe sunscreen, hydration, and lightweight clothing.',
           sv: 'Det är varmt och soligt – ta med dig solskyddskräm, fukt och lätta kläder.',
@@ -534,7 +664,17 @@ export const tuvalu: Country = {
         },
       },
       {
-        item: 'Environmental care',
+        item: {
+          en: 'Environmental care',
+          sv: 'Miljöhänsyn',
+          es: 'Cuidado del medio ambiente',
+          fr: 'Respect de l\'environnement',
+          de: 'Umweltbewusstsein',
+          it: 'Rispetto dell\'ambiente',
+          pl: 'Dbałość o środowisko',
+          nl: 'Zorg voor het milieu',
+          pt: 'Cuidado com o meio ambiente',
+        },
         description: {
           en: 'Reefs and coastlines are fragile—avoid damaging coral and follow local conservation guidance.',
           sv: 'Rev och kustlinjer är ömtåliga – undvik att skada koraller och följ lokala riktlinjer för bevarande.',
@@ -590,7 +730,7 @@ export const tuvalu: Country = {
         {
           name: {
             en: 'Taro leaves',
-            sv: 'Taro blad',
+            sv: 'Taroblad',
             es: 'Hojas de taro',
             fr: 'Feuilles de taro',
             de: 'Taroblätter',
@@ -632,7 +772,7 @@ export const tuvalu: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -683,7 +823,7 @@ export const tuvalu: Country = {
         },
         {
           en: 'Place coconut mixture in the center of taro leaves',
-          sv: 'Placera kokosblandningen i mitten av tarobladen',
+          sv: 'Lägg kokosblandningen mitt på tarobladen',
           es: 'Coloque la mezcla de coco en el centro de las hojas de taro',
           fr: 'Placer le mélange de noix de coco au centre des feuilles de taro',
           de: 'Geben Sie die Kokosnussmischung in die Mitte der Taroblätter',
@@ -694,7 +834,7 @@ export const tuvalu: Country = {
         },
         {
           en: 'Wrap leaves tightly into parcels',
-          sv: 'Slå in bladen tätt i paket',
+          sv: 'Vik ihop bladen till täta paket',
           es: 'Envuelva bien las hojas en paquetes',
           fr: 'Enveloppez hermétiquement les feuilles en paquets',
           de: 'Wickeln Sie die Blätter fest in Päckchen ein',
@@ -705,7 +845,7 @@ export const tuvalu: Country = {
         },
         {
           en: 'Bake in an earth oven or regular oven at low heat',
-          sv: 'Baka i jordugn eller vanlig ugn på låg värme',
+          sv: 'Tillaga paketen i jordugn eller i vanlig ugn på låg värme',
           es: 'Hornear en horno de tierra o en horno normal a fuego lento',
           fr: 'Cuire au four en terre ou au four ordinaire à feu doux',
           de: 'Im Erdofen oder normalen Ofen bei schwacher Hitze backen',
@@ -716,7 +856,7 @@ export const tuvalu: Country = {
         },
         {
           en: 'Cook for about 90 minutes until tender',
-          sv: 'Koka i cirka 90 minuter tills de är mjuka',
+          sv: 'Låt paketen stå i ugnen i cirka 90 minuter tills bladen är mjuka',
           es: 'Cocine durante unos 90 minutos hasta que estén tiernos',
           fr: 'Cuire environ 90 minutes jusqu\'à tendreté',
           de: 'Etwa 90 Minuten kochen, bis es weich ist',
@@ -754,7 +894,7 @@ export const tuvalu: Country = {
       },
       description: {
         en: 'A simple island-style dessert made by baking breadfruit with coconut cream and a touch of sweetness until soft and custardy.',
-        sv: 'En enkel dessert i ö-stil gjord genom att baka brödfrukt med kokosgrädde och en touch av sötma tills den är mjuk och mjuk.',
+        sv: 'En enkel dessert från öarna där brödfrukt bakas i ugnen med kokosgrädde och lite sötma tills den blir mjuk och krämig.',
         es: 'Un postre sencillo estilo isleño que se elabora horneando fruta del pan con crema de coco y un toque de dulzura hasta que esté suave y cremoso.',
         fr: 'Un dessert simple de style insulaire composé de fruits à pain cuits avec de la crème de noix de coco et une touche de douceur jusqu\'à ce qu\'ils soient tendres et crémeux.',
         de: 'Ein einfaches Dessert im Inselstil, bei dem Brotfrüchte mit Kokoscreme und einem Hauch Süße gebacken werden, bis sie weich und puddingartig sind.',
@@ -901,7 +1041,7 @@ export const tuvalu: Country = {
         },
         {
           en: 'Bake 40–50 minutes until tender and lightly golden on top',
-          sv: 'Grädda 40–50 minuter tills de är mjuka och lätt gyllene på toppen',
+          sv: 'Grädda i 40–50 minuter tills brödfrukten är mjuk och lätt gyllene på ytan',
           es: 'Hornee de 40 a 50 minutos hasta que estén tiernos y ligeramente dorados por encima',
           fr: 'Cuire au four 40 à 50 minutes jusqu\'à ce que le dessus soit tendre et légèrement doré',
           de: '40–50 Minuten backen, bis es weich und oben leicht goldbraun ist',
@@ -912,7 +1052,7 @@ export const tuvalu: Country = {
         },
         {
           en: 'Cool slightly and serve warm or chilled',
-          sv: 'Kyl något och servera varm eller kyld',
+          sv: 'Låt svalna något och servera varm eller kall',
           es: 'Deje enfriar un poco y sirva tibio o frío',
           fr: 'Laisser refroidir légèrement et servir chaud ou frais',
           de: 'Etwas abkühlen lassen und warm oder gekühlt servieren',

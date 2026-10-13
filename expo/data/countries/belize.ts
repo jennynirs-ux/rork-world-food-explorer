@@ -263,8 +263,28 @@ export const belize: Country = {
     },
     history: [
       {
-        year: '1500 BC-900 AD',
-        title: 'Mayan Civilization',
+        year: {
+          en: '1500 BC-900 AD',
+          sv: '1500 f.Kr. – 900 e.Kr.',
+          es: '1500 a. C. – 900 d. C.',
+          fr: '1500 av. J.-C. – 900 apr. J.-C.',
+          de: '1500 v. Chr. – 900 n. Chr.',
+          it: '1500 a.C. – 900 d.C.',
+          pl: '1500 p.n.e. – 900 n.e.',
+          nl: '1500 v.Chr. – 900 n.Chr.',
+          pt: '1500 a.C. – 900 d.C.',
+        },
+        title: {
+          en: 'Mayan Civilization',
+          sv: 'Mayacivilisationen',
+          es: 'Civilización maya',
+          fr: 'Civilisation maya',
+          de: 'Maya-Zivilisation',
+          it: 'Civiltà maya',
+          pl: 'Cywilizacja Majów',
+          nl: 'Mayabeschaving',
+          pt: 'Civilização maia',
+        },
         description: {
           en: 'The Maya built sophisticated cities and ceremonial centers across Belize, leaving impressive archaeological sites.',
           sv: 'Mayafolket byggde sofistikerade städer och ceremoniella centra över hela Belize och lämnade efter sig imponerande arkeologiska platser.',
@@ -279,7 +299,17 @@ export const belize: Country = {
       },
       {
         year: '1638',
-        title: 'British Settlement',
+        title: {
+          en: 'British Settlement',
+          sv: 'Brittisk bosättning',
+          es: 'Asentamiento británico',
+          fr: 'Établissement britannique',
+          de: 'Britische Besiedlung',
+          it: 'Insediamento britannico',
+          pl: 'Osadnictwo brytyjskie',
+          nl: 'Britse nederzetting',
+          pt: 'Assentamento britânico',
+        },
         description: {
           en: 'English and Scottish settlers arrived to harvest logwood, establishing what would become British Honduras.',
           sv: 'Engelska och skotska bosättare anlände för att skörda timmer, och etablerade det som skulle bli Brittiska Honduras.',
@@ -294,7 +324,17 @@ export const belize: Country = {
       },
       {
         year: '1862',
-        title: 'British Crown Colony',
+        title: {
+          en: 'British Crown Colony',
+          sv: 'Brittisk kronkoloni',
+          es: 'Colonia de la Corona británica',
+          fr: 'Colonie de la Couronne britannique',
+          de: 'Britische Kronkolonie',
+          it: 'Colonia della Corona britannica',
+          pl: 'Brytyjska kolonia koronna',
+          nl: 'Britse kroonkolonie',
+          pt: 'Colônia da Coroa britânica',
+        },
         description: {
           en: 'Belize officially became a British Crown Colony known as British Honduras.',
           sv: 'Belize blev officiellt en brittisk kronkoloni känd som Brittiska Honduras.',
@@ -309,7 +349,17 @@ export const belize: Country = {
       },
       {
         year: '1981',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Belize gained independence from Britain, becoming the last British colony on the American mainland to do so.',
           sv: 'Belize blev självständigt från Storbritannien och blev den sista brittiska kolonin på det amerikanska fastlandet som gjorde det.',
@@ -386,7 +436,17 @@ export const belize: Country = {
           nl: 'Verkenning van het Blue Hole',
           pt: 'Exploração do Blue Hole',
         },
-        year: '1970s',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
         description: {
           en: 'Jacques Cousteau declared Belize\'s Blue Hole one of the top diving sites in the world, popularizing underwater cave exploration.',
           sv: 'Jacques Cousteau förklarade Belizes Blue Hole till en av de bästa dykplatserna i världen, och gjorde utforskning av undervattensgrottor populärt.',
@@ -411,7 +471,17 @@ export const belize: Country = {
           nl: 'Behoud van de Garifuna-cultuur',
           pt: 'Preservação cultural garífuna',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Belize has been instrumental in preserving Garifuna language, music, and dance traditions, recognized by UNESCO as intangible heritage.',
           sv: 'Belize har varit avgörande för att bevara Garifunas språk-, musik- och danstraditioner, erkända av UNESCO som immateriella arv.',
@@ -549,7 +619,17 @@ export const belize: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to April for dry season; avoid September-October (hurricane season peak).',
           sv: 'November till april för torrperioden; undvik september-oktober (orkansäsongens topp).',
@@ -563,7 +643,17 @@ export const belize: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities get visa-free entry for up to 30 days.',
           sv: 'Många nationaliteter får visumfritt inträde i upp till 30 dagar.',
@@ -577,7 +667,17 @@ export const belize: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'English is official, but Spanish, Creole, and Garifuna are widely spoken.',
           sv: 'Engelska är officiellt, men spanska, kreolska och garifuna talas ofta.',
@@ -615,7 +715,17 @@ export const belize: Country = {
         },
       },
       {
-        item: 'Water activities gear',
+        item: {
+          en: 'Water activities gear',
+          sv: 'Utrustning för vattenaktiviteter',
+          es: 'Equipo para actividades acuáticas',
+          fr: 'Équipement nautique',
+          de: 'Wassersportausrüstung',
+          it: 'Attrezzatura per attività acquatiche',
+          pl: 'Sprzęt do sportów wodnych',
+          nl: 'Uitrusting voor wateractiviteiten',
+          pt: 'Equipamento para atividades aquáticas',
+        },
         description: {
           en: 'Bring reef-safe sunscreen, snorkel gear, and waterproof bags.',
           sv: 'Ta med revsäker solskyddsmedel, snorkelutrustning och vattentäta väskor.',
@@ -629,7 +739,17 @@ export const belize: Country = {
         },
       },
       {
-        item: 'Bug spray',
+        item: {
+          en: 'Bug spray',
+          sv: 'Myggmedel',
+          es: 'Repelente de insectos',
+          fr: 'Répulsif anti-moustiques',
+          de: 'Mückenschutz',
+          it: 'Repellente antizanzare',
+          pl: 'Środek na komary',
+          nl: 'Muggenspray',
+          pt: 'Repelente',
+        },
         description: {
           en: 'Mosquito repellent essential for jungle areas and evenings.',
           sv: 'Myggmedel nödvändigt för djungelområden och kvällar.',
@@ -647,7 +767,7 @@ export const belize: Country = {
       id: 'belize-main',
       name: {
         en: 'Rice and Beans with Stew Chicken',
-        sv: 'Ris och bönor med gryta kyckling',
+        sv: 'Ris och bönor med kycklinggryta',
         es: 'Arroz y Frijoles con Pollo Guisado',
         fr: 'Riz et haricots avec ragoût de poulet',
         de: 'Reis und Bohnen mit geschmortem Hähnchen',
@@ -745,7 +865,7 @@ export const belize: Country = {
         {
           name: {
             en: 'Recado spice paste',
-            sv: 'Recado kryddpasta',
+            sv: 'Recado (kryddpasta)',
             es: 'Pasta de especias recado',
             fr: 'Pâte d\'épices Recado',
             de: 'Recado-Gewürzpaste',
@@ -770,7 +890,7 @@ export const belize: Country = {
         {
           name: {
             en: 'Habanero pepper',
-            sv: 'Habanero peppar',
+            sv: 'Habanero',
             es: 'Pimiento habanero',
             fr: 'Piment Habanero',
             de: 'Habanero-Pfeffer',
@@ -782,7 +902,7 @@ export const belize: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -796,7 +916,7 @@ export const belize: Country = {
       steps: [
         {
           en: 'Marinate chicken with recado paste',
-          sv: 'Marinera kyckling med recadopasta',
+          sv: 'Marinera kycklingen i recadopasta',
           es: 'Marinar pollo con pasta de recado',
           fr: 'Faire mariner le poulet avec la pâte de recado',
           de: 'Hähnchen mit Recadopaste marinieren',
@@ -818,7 +938,7 @@ export const belize: Country = {
         },
         {
           en: 'Stew chicken with onions and peppers',
-          sv: 'Stev kyckling med lök och paprika',
+          sv: 'Låt kycklingen puttra med lök och paprika',
           es: 'Pollo guisado con cebolla y pimientos',
           fr: 'Ragoût de poulet aux oignons et poivrons',
           de: 'Hähnchen mit Zwiebeln und Paprika dünsten',
@@ -840,7 +960,7 @@ export const belize: Country = {
         },
         {
           en: 'Serve rice and beans with stew chicken',
-          sv: 'Servera ris och bönor med gryta kyckling',
+          sv: 'Servera riset och bönorna med kycklinggrytan',
           es: 'Sirve arroz y frijoles con pollo guisado',
           fr: 'Servir le riz et les haricots avec un ragoût de poulet',
           de: 'Reis und Bohnen mit geschmortem Hähnchen servieren',
@@ -851,7 +971,7 @@ export const belize: Country = {
         },
         {
           en: 'Add plantains on the side',
-          sv: 'Lägg till kobananer på sidan',
+          sv: 'Servera kokbananer vid sidan om',
           es: 'Agrega los plátanos a un lado',
           fr: 'Ajouter des plantains sur le côté',
           de: 'Fügen Sie Kochbananen als Beilage hinzu',
@@ -878,7 +998,7 @@ export const belize: Country = {
       },
       description: {
         en: 'Traditional Belizean coconut candy squares, sweet and chewy',
-        sv: 'Traditionella beliziska kokosgodisrutor, söta och sega',
+        sv: 'Traditionella kokosgodisbitar från Belize, söta och sega',
         es: 'Cuadritos de caramelo de coco tradicionales de Belice, dulces y masticables',
         fr: 'Carrés de bonbons traditionnels béliziens à la noix de coco, sucrés et moelleux',
         de: 'Traditionelle belizische Kokosnuss-Bonbonquadrate, süß und zäh',
@@ -905,7 +1025,7 @@ export const belize: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -1006,7 +1126,7 @@ export const belize: Country = {
       steps: [
         {
           en: 'Combine sugar and water in a heavy pot.',
-          sv: 'Blanda socker och vatten i en tjock gryta.',
+          sv: 'Blanda socker och vatten i en tjockbottnad kastrull.',
           es: 'Combine el azúcar y el agua en una olla pesada.',
           fr: 'Mélangez le sucre et l\'eau dans une casserole à fond épais.',
           de: 'Zucker und Wasser in einem schweren Topf vermischen.',
@@ -1039,7 +1159,7 @@ export const belize: Country = {
         },
         {
           en: 'Cook over medium heat, stirring constantly for 20-25 minutes.',
-          sv: 'Koka på medelvärme under konstant omrörning i 20-25 minuter.',
+          sv: 'Låt koka på medelvärme i 20–25 minuter under ständig omrörning.',
           es: 'Cocine a fuego medio, revolviendo constantemente durante 20-25 minutos.',
           fr: 'Cuire à feu moyen en remuant constamment pendant 20 à 25 minutes.',
           de: 'Bei mittlerer Hitze unter ständigem Rühren 20–25 Minuten kochen lassen.',
@@ -1050,7 +1170,7 @@ export const belize: Country = {
         },
         {
           en: 'Mixture should thicken and pull away from sides.',
-          sv: 'Blandningen ska tjockna och dra bort från sidorna.',
+          sv: 'Blandningen ska tjockna och släppa från kastrullens kanter.',
           es: 'La mezcla debe espesarse y separarse de los lados.',
           fr: 'Le mélange doit épaissir et se détacher des côtés.',
           de: 'Die Mischung sollte dicker werden und sich von den Seiten lösen.',
@@ -1072,7 +1192,7 @@ export const belize: Country = {
         },
         {
           en: 'Pour into greased baking dish.',
-          sv: 'Häll i smord ugnsform.',
+          sv: 'Häll smeten i en smord form.',
           es: 'Vierta en una fuente para hornear engrasada.',
           fr: 'Verser dans un plat allant au four graissé.',
           de: 'In eine gefettete Auflaufform gießen.',
@@ -1380,7 +1500,7 @@ export const belize: Country = {
           },
           {
             en: 'Deep Blue Sea',
-            sv: 'Deep Blue Sea',
+            sv: 'Djupblått hav',
             es: 'Mar azul profundo',
             fr: 'Mer d\'un bleu profond',
             de: 'Tiefblaues Meer',
@@ -1391,7 +1511,7 @@ export const belize: Country = {
           },
           {
             en: 'Ocean Cave',
-            sv: 'Ocean Cave',
+            sv: 'Havsgrotta',
             es: 'Cueva del Océano',
             fr: 'Grotte océanique',
             de: 'Ozeanhöhle',

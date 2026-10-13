@@ -125,7 +125,7 @@ export const eswatini: Country = {
         },
         value: {
           en: 'Swazi Lilangeni',
-          sv: 'Swazi Lilangeni',
+          sv: 'Swazisk lilangeni',
           es: 'Lilangeni suazi',
           fr: 'Lilangeni swazi',
           de: 'Swazi Lilangeni',
@@ -220,7 +220,17 @@ export const eswatini: Country = {
     history: [
       {
         year: '1815',
-        title: 'Kingdom Founded',
+        title: {
+          en: 'Kingdom Founded',
+          sv: 'Kungariket grundas',
+          es: 'Fundación del reino',
+          fr: 'Fondation du royaume',
+          de: 'Gründung des Königreichs',
+          it: 'Fondazione del regno',
+          pl: 'Założenie królestwa',
+          nl: 'Stichting van het koninkrijk',
+          pt: 'Fundação do reino',
+        },
         description: {
           en: 'King Sobhuza I established the Swazi kingdom, uniting various clans.',
           sv: 'Kung Sobhuza I etablerade det swaziska kungariket och förenade olika klaner.',
@@ -235,7 +245,17 @@ export const eswatini: Country = {
       },
       {
         year: '1894',
-        title: 'British Protectorate',
+        title: {
+          en: 'British Protectorate',
+          sv: 'Brittiskt protektorat',
+          es: 'Protectorado británico',
+          fr: 'Protectorat britannique',
+          de: 'Britisches Protektorat',
+          it: 'Protettorato britannico',
+          pl: 'Protektorat brytyjski',
+          nl: 'Brits protectoraat',
+          pt: 'Protetorado britânico',
+        },
         description: {
           en: 'Swaziland became a British protectorate after Boer control.',
           sv: 'Swaziland blev ett brittiskt protektorat efter Boerkontroll.',
@@ -250,7 +270,17 @@ export const eswatini: Country = {
       },
       {
         year: '1968',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Swaziland gained independence from Britain, maintaining its monarchy.',
           sv: 'Swaziland blev självständigt från Storbritannien och bibehöll sin monarki.',
@@ -265,7 +295,17 @@ export const eswatini: Country = {
       },
       {
         year: '2018',
-        title: 'Name Change',
+        title: {
+          en: 'Name Change',
+          sv: 'Namnbyte',
+          es: 'Cambio de nombre',
+          fr: 'Changement de nom',
+          de: 'Namensänderung',
+          it: 'Cambio di nome',
+          pl: 'Zmiana nazwy',
+          nl: 'Naamswijziging',
+          pt: 'Mudança de nome',
+        },
         description: {
           en: 'King Mswati III renamed the country from Swaziland to eSwatini.',
           sv: 'Kung Mswati III döpte om landet från Swaziland till eSwatini.',
@@ -307,7 +347,7 @@ export const eswatini: Country = {
       {
         name: {
           en: 'Mlilwane Wildlife Sanctuary',
-          sv: 'Mlilwane Wildlife Sanctuary',
+          sv: 'Viltreservatet Mlilwane',
           es: 'Santuario de vida silvestre de Mlilwane',
           fr: 'Sanctuaire de faune de Mlilwane',
           de: 'Mlilwane Wildlife Sanctuary',
@@ -331,7 +371,7 @@ export const eswatini: Country = {
       {
         name: {
           en: 'Sibebe Rock',
-          sv: 'Sibebe Rock',
+          sv: 'Sibebeklippan',
           es: 'Roca de Sibebe',
           fr: 'Rocher de Sibébé',
           de: 'Sibebe-Felsen',
@@ -403,7 +443,17 @@ export const eswatini: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can enter visa-free for short stays.',
           sv: 'Många nationaliteter kan resa in visumfritt för kortare vistelser.',
@@ -417,7 +467,17 @@ export const eswatini: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for cooler, dry weather and wildlife viewing.',
           sv: 'Maj-september för svalare, torrt väder och djurliv.',
@@ -431,7 +491,17 @@ export const eswatini: Country = {
         },
       },
       {
-        item: 'Malaria precautions',
+        item: {
+          en: 'Malaria precautions',
+          sv: 'Skydd mot malaria',
+          es: 'Precauciones contra la malaria',
+          fr: 'Précautions contre le paludisme',
+          de: 'Malariavorsorge',
+          it: 'Precauzioni contro la malaria',
+          pl: 'Ochrona przed malarią',
+          nl: 'Voorzorgsmaatregelen tegen malaria',
+          pt: 'Cuidados contra a malária',
+        },
         description: {
           en: 'Required in lowveld areas, especially summer.',
           sv: 'Krävs i lågmarksområden, särskilt sommaren.',
@@ -484,7 +554,7 @@ export const eswatini: Country = {
       },
       description: {
         en: 'Maize porridge with pumpkin and peanut stew',
-        sv: 'Majsgröt med pumpa och jordnötsgryta',
+        sv: 'Majsgröt med gryta på pumpa och jordnötter',
         es: 'Gachas de maíz con guiso de calabaza y maní',
         fr: 'Bouillie de maïs avec ragoût de potiron et cacahuètes',
         de: 'Maisbrei mit Kürbis-Erdnuss-Eintopf',
@@ -568,7 +638,7 @@ export const eswatini: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -593,7 +663,7 @@ export const eswatini: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -622,7 +692,7 @@ export const eswatini: Country = {
       steps: [
         {
           en: 'Cook maize meal with water to make thick porridge',
-          sv: 'Koka majsmjöl med vatten för att göra tjock gröt',
+          sv: 'Koka majsmjölet med vatten till en tjock gröt',
           es: 'Cocine harina de maíz con agua para hacer una papilla espesa',
           fr: 'Cuire la farine de maïs avec de l\'eau pour obtenir une bouillie épaisse',
           de: 'Maismehl mit Wasser zu einem dicken Brei kochen',
@@ -666,7 +736,7 @@ export const eswatini: Country = {
         },
         {
           en: 'Simmer pumpkin stew until thick',
-          sv: 'Sjud pumpagrytan tills den blir tjock',
+          sv: 'Låt pumpagrytan sjuda tills den tjocknar',
           es: 'Cocine a fuego lento el guiso de calabaza hasta que espese',
           fr: 'Laisser mijoter le ragoût de citrouille jusqu\'à ce qu\'il soit épais',
           de: 'Kürbiseintopf köcheln lassen, bis er dickflüssig ist',
@@ -677,7 +747,7 @@ export const eswatini: Country = {
         },
         {
           en: 'Serve porridge with stew',
-          sv: 'Servera gröt med gryta',
+          sv: 'Servera gröten med grytan',
           es: 'Servir gachas con guiso',
           fr: 'Servir le porridge avec le ragoût',
           de: 'Porridge mit Eintopf servieren',
@@ -704,7 +774,7 @@ export const eswatini: Country = {
       },
       description: {
         en: 'Sweet maize cake with peanuts',
-        sv: 'Sötmajskaka med jordnötter',
+        sv: 'Söt majskaka med jordnötter',
         es: 'Pastel dulce de maíz con maní',
         fr: 'Gâteau de maïs sucré aux cacahuètes',
         de: 'Süßer Maiskuchen mit Erdnüssen',
@@ -746,7 +816,7 @@ export const eswatini: Country = {
         {
           name: {
             en: 'Peanuts ground',
-            sv: 'Jordnötter malda',
+            sv: 'Malda jordnötter',
             es: 'Cacahuete molido',
             fr: 'Cacahuètes moulues',
             de: 'Erdnüsse gemahlen',
@@ -829,7 +899,7 @@ export const eswatini: Country = {
         },
         {
           en: 'Gradually add water to form thick batter',
-          sv: 'Tillsätt gradvis vatten för att bilda en tjock smet',
+          sv: 'Tillsätt vattnet lite i taget till en tjock smet',
           es: 'Agregue gradualmente agua para formar una masa espesa.',
           fr: 'Ajouter progressivement de l\'eau pour former une pâte épaisse',
           de: 'Nach und nach Wasser hinzufügen, bis ein dicker Teig entsteht',
@@ -862,7 +932,7 @@ export const eswatini: Country = {
         },
         {
           en: 'Cool and cut into squares',
-          sv: 'Kyl och skär i rutor',
+          sv: 'Låt svalna och skär i rutor',
           es: 'Dejar enfriar y cortar en cuadritos',
           fr: 'Laisser refroidir et couper en carrés',
           de: 'Abkühlen lassen und in Quadrate schneiden',
@@ -912,7 +982,7 @@ export const eswatini: Country = {
     music: [
       { en: 'Traditional Swazi songs', sv: 'Traditionella swaziska sånger', de: 'Traditionelle swasische Lieder', fr: 'Chansons swazies traditionnelles', es: 'Canciones suazis tradicionales', it: 'Canzoni swazi tradizionali', pl: 'Tradycyjne pieśni swazi', nl: 'Traditionele Swazische liedjes', pt: 'Canções swazi tradicionais' },
       { en: 'Sibhaca dance music', sv: 'Sibhaca-dansmusik', de: 'Sibhaca-Tanzmusik', fr: 'Musique de danse sibhaca', es: 'Música de danza sibhaca', it: 'Musica da ballo sibhaca', pl: 'Muzyka taneczna sibhaca', nl: 'Sibhaca dansmuziek', pt: 'Música de dança sibhaca' },
-      { en: 'Marabi jazz', sv: 'Marabi jazz', de: 'Marabi-Jazz', fr: 'Jazz marabi', es: 'Jazz marabi', it: 'Jazz marabi', pl: 'Jazz marabi', nl: 'Marabi jazz', pt: 'Jazz marabi' },
+      { en: 'Marabi jazz', sv: 'Marabijazz', de: 'Marabi-Jazz', fr: 'Jazz marabi', es: 'Jazz marabi', it: 'Jazz marabi', pl: 'Jazz marabi', nl: 'Marabi jazz', pt: 'Jazz marabi' },
     ],
     decorationIdeas: [
       { en: 'Blue, yellow and red flag colors', sv: 'Blå, gul och röda flaggfärger', de: 'Blau, Gelb und Rot (Flaggenfarben)', fr: 'Couleurs du drapeau bleu, jaune et rouge', es: 'Colores de la bandera azul, amarillo y rojo', it: 'Colori della bandiera blu, giallo e rosso', pl: 'Niebieskie, żółte i czerwone kolory flagi', nl: 'Blauw, geel en rood (vlagkleuren)', pt: 'Cores da bandeira azul, amarelo e vermelho' },
@@ -938,7 +1008,17 @@ export const eswatini: Country = {
           nl: 'Traditie van de rietdans',
           pt: 'Tradição da Dança das Canas',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Umhlanga ceremony celebrating womanhood and unity, attended by thousands',
           sv: 'Umhlanga-ceremoni för att fira kvinnlighet och enhet, besökta av tusentals',
@@ -963,7 +1043,17 @@ export const eswatini: Country = {
           nl: 'Natuurbehoud',
           pt: 'Conservação da Vida Selvagem',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'Early establishment of nature reserves protecting endangered species',
           sv: 'Tidig etablering av naturreservat som skyddar hotade arter',
@@ -1173,7 +1263,7 @@ export const eswatini: Country = {
           },
           {
             en: 'Reed Dance',
-            sv: 'Reed Dance',
+            sv: 'Vassdans',
             es: 'Danza de caña',
             fr: 'Danse des roseaux',
             de: 'Schilfrohrtanz',

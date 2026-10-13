@@ -220,7 +220,17 @@ export const palau: Country = {
     history: [
       {
         year: '1947',
-        title: 'UN Trust Territory',
+        title: {
+          en: 'UN Trust Territory',
+          sv: 'FN:s förvaltarskapsområde',
+          es: 'Territorio en fideicomiso de la ONU',
+          fr: 'Territoire sous tutelle de l\'ONU',
+          de: 'UN-Treuhandgebiet',
+          it: 'Territorio in amministrazione fiduciaria ONU',
+          pl: 'Terytorium powiernicze ONZ',
+          nl: 'VN-trustgebied',
+          pt: 'Território sob tutela da ONU',
+        },
         description: {
           en: 'Became part of UN Trust Territory of Pacific Islands under US administration.',
           sv: 'Blev en del av UN Trust Territory of Pacific Islands under amerikansk administration.',
@@ -235,7 +245,17 @@ export const palau: Country = {
       },
       {
         year: '1994',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Palau became independent under Compact of Free Association with the US.',
           sv: 'Palau blev oberoende under Compact of Free Association med USA.',
@@ -330,7 +350,7 @@ export const palau: Country = {
       {
         name: {
           en: 'Jellyfish Lake',
-          sv: 'Manet Lake',
+          sv: 'Jellyfish Lake',
           es: 'Lago de las medusas',
           fr: 'Lac aux méduses',
           de: 'Quallensee',
@@ -450,7 +470,17 @@ export const palau: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-April for drier weather and best diving.',
           sv: 'November-april för torrare väder och bästa dykning.',
@@ -464,7 +494,17 @@ export const palau: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for most nationalities for 30-90 days.',
           sv: 'Visumfritt för de flesta nationaliteter i 30-90 dagar.',
@@ -478,7 +518,17 @@ export const palau: Country = {
         },
       },
       {
-        item: 'Reef-safe sunscreen',
+        item: {
+          en: 'Reef-safe sunscreen',
+          sv: 'Revvänlig solkräm',
+          es: 'Protector solar respetuoso con los corales',
+          fr: 'Crème solaire respectueuse des récifs',
+          de: 'Korallenfreundliche Sonnencreme',
+          it: 'Crema solare amica dei coralli',
+          pl: 'Krem z filtrem bezpieczny dla raf',
+          nl: 'Rifvriendelijke zonnebrandcrème',
+          pt: 'Protetor solar seguro para corais',
+        },
         description: {
           en: 'Required! Bring approved sunscreen or buy locally.',
           sv: 'Nödvändig! Ta med godkänd solkräm eller köp lokalt.',
@@ -492,7 +542,17 @@ export const palau: Country = {
         },
       },
       {
-        item: 'Diving certification',
+        item: {
+          en: 'Diving certification',
+          sv: 'Dykcertifikat',
+          es: 'Certificado de buceo',
+          fr: 'Brevet de plongée',
+          de: 'Tauchschein',
+          it: 'Brevetto subacqueo',
+          pl: 'Certyfikat nurkowy',
+          nl: 'Duikbrevet',
+          pt: 'Certificação de mergulho',
+        },
         description: {
           en: 'Helpful for accessing world-class dive sites.',
           sv: 'Användbar för att komma åt dykplatser i världsklass.',
@@ -521,7 +581,7 @@ export const palau: Country = {
       },
       description: {
         en: 'Sweet cassava and coconut cake wrapped in leaves',
-        sv: 'Söt kassava och kokosnötskaka inlindad i löv',
+        sv: 'Söt kaka av kassava och kokos, inlindad i blad',
         es: 'Pastel dulce de yuca y coco envuelto en hojas',
         fr: 'Gâteau sucré au manioc et à la noix de coco enveloppé dans des feuilles',
         de: 'Süßer Maniok-Kokos-Kuchen, eingewickelt in Blätter',
@@ -605,7 +665,7 @@ export const palau: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -630,7 +690,7 @@ export const palau: Country = {
         },
         {
           en: 'Soften banana leaves over flame',
-          sv: 'Mjuka upp bananblad över låga',
+          sv: 'Mjuka upp bananbladen över öppen låga',
           es: 'Ablanda las hojas de plátano al fuego',
           fr: 'Ramollir les feuilles de bananier sur le feu',
           de: 'Bananenblätter über der Flamme einweichen',
@@ -652,7 +712,7 @@ export const palau: Country = {
         },
         {
           en: 'Wrap tightly and secure',
-          sv: 'Linda tätt och säkert',
+          sv: 'Linda in tätt och fäst ordentligt',
           es: 'Envuelva bien y asegure',
           fr: 'Envelopper hermétiquement et sécuriser',
           de: 'Fest umwickeln und sichern',
@@ -663,7 +723,7 @@ export const palau: Country = {
         },
         {
           en: 'Steam for 60 minutes',
-          sv: 'Ånga i 60 minuter',
+          sv: 'Ångkoka i 60 minuter',
           es: 'Cocine al vapor durante 60 minutos',
           fr: 'Cuire à la vapeur pendant 60 minutes',
           de: '60 Minuten dämpfen',
@@ -674,7 +734,7 @@ export const palau: Country = {
         },
         {
           en: 'Cool before unwrapping',
-          sv: 'Kyl innan du packar upp',
+          sv: 'Låt svalna innan du öppnar paketen',
           es: 'Déjelo enfriar antes de desenvolverlo',
           fr: 'Laisser refroidir avant de déballer',
           de: 'Vor dem Auspacken abkühlen lassen',
@@ -701,7 +761,7 @@ export const palau: Country = {
       id: 'palau-main',
       name: {
         en: 'Fruit Bat Soup',
-        sv: 'Fruktfladdermussoppa',
+        sv: 'Flyghundssoppa',
         es: 'Sopa de murciélago frugívoro',
         fr: 'Soupe de chauve-souris aux fruits',
         de: 'Fruchtfledermaussuppe',
@@ -712,7 +772,7 @@ export const palau: Country = {
       },
       description: {
         en: 'Traditional soup with fruit bat and vegetables',
-        sv: 'Traditionell soppa med fruktfladdermus och grönsaker',
+        sv: 'Traditionell soppa med flyghund och grönsaker',
         es: 'Sopa tradicional con murciélago frugívoro y verduras',
         fr: 'Soupe traditionnelle aux chauves-souris et légumes',
         de: 'Traditionelle Suppe mit Fruchtfledermaus und Gemüse',
@@ -739,7 +799,7 @@ export const palau: Country = {
         {
           name: {
             en: 'Fruit bat',
-            sv: 'Fruktfladdermus',
+            sv: 'Flyghund',
             es: 'Murciélago frugívoro',
             fr: 'Chauve-souris fruitière',
             de: 'Flughund',
@@ -751,7 +811,7 @@ export const palau: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -806,7 +866,7 @@ export const palau: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -819,7 +879,7 @@ export const palau: Country = {
         {
           name: {
             en: 'Taro leaves',
-            sv: 'Taro blad',
+            sv: 'Taroblad',
             es: 'Hojas de taro',
             fr: 'Feuilles de taro',
             de: 'Taroblätter',
@@ -835,7 +895,7 @@ export const palau: Country = {
       steps: [
         {
           en: 'Clean and prepare bat',
-          sv: 'Rengör och förbered bat',
+          sv: 'Rensa och förbered flyghunden',
           es: 'Limpiar y preparar murciélago',
           fr: 'Nettoyer et préparer la chauve-souris',
           de: 'Schläger reinigen und vorbereiten',
@@ -868,7 +928,7 @@ export const palau: Country = {
         },
         {
           en: 'Simmer until tender',
-          sv: 'Sjud tills det är mjukt',
+          sv: 'Sjud tills köttet är mört',
           es: 'Cocine a fuego lento hasta que estén tiernos',
           fr: 'Laisser mijoter jusqu\'à tendreté',
           de: 'Köcheln lassen, bis es weich ist',
@@ -879,7 +939,7 @@ export const palau: Country = {
         },
         {
           en: 'Add taro leaves at end',
-          sv: 'Lägg till taroblad i slutet',
+          sv: 'Tillsätt tarobladen mot slutet',
           es: 'Agregue hojas de taro al final',
           fr: 'Ajouter les feuilles de taro à la fin',
           de: 'Zum Schluss Taroblätter hinzufügen',
@@ -1090,7 +1150,7 @@ export const palau: Country = {
           },
           {
             en: 'Jellyfish Lake',
-            sv: 'Manet Lake',
+            sv: 'Jellyfish Lake',
             es: 'Lago de las medusas',
             fr: 'Lac aux méduses',
             de: 'Quallensee',

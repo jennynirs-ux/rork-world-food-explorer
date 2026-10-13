@@ -263,8 +263,28 @@ export const slovakia: Country = {
     },
     history: [
       {
-        year: '5th–6th century',
-        title: 'Slavic Settlement',
+        year: {
+          en: '5th–6th century',
+          sv: '400–500-talet',
+          es: 'siglos V–VI',
+          fr: 'Ve–VIe siècles',
+          de: '5.–6. Jahrhundert',
+          it: 'secoli V–VI',
+          pl: 'V–VI wiek',
+          nl: '5e–6e eeuw',
+          pt: 'séculos V–VI',
+        },
+        title: {
+          en: 'Slavic Settlement',
+          sv: 'Slavisk bosättning',
+          es: 'Asentamiento eslavo',
+          fr: 'Installation des Slaves',
+          de: 'Slawische Besiedlung',
+          it: 'Insediamento slavo',
+          pl: 'Osadnictwo słowiańskie',
+          nl: 'Vestiging van de Slaven',
+          pt: 'Assentamento eslavo',
+        },
         description: {
           en: 'Slavic communities settled in the region and gradually formed the cultural foundations of Slovak identity.',
           sv: 'Slaviska samhällen bosatte sig i regionen och bildade gradvis de kulturella grunderna för den slovakiska identiteten.',
@@ -278,8 +298,28 @@ export const slovakia: Country = {
         },
       },
       {
-        year: '9th century',
-        title: 'Great Moravia',
+        year: {
+          en: '9th century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
+        title: {
+          en: 'Great Moravia',
+          sv: 'Stormähriska riket',
+          es: 'Gran Moravia',
+          fr: 'Grande-Moravie',
+          de: 'Großmähren',
+          it: 'Grande Moravia',
+          pl: 'Wielkie Morawy',
+          nl: 'Groot-Moravië',
+          pt: 'Grande Morávia',
+        },
         description: {
           en: 'The territory became part of Great Moravia, a significant early Slavic state linked to the spread of Christianity and literacy.',
           sv: 'Territoriet blev en del av Stora Mähren, en betydande tidig slavisk stat kopplad till spridningen av kristendomen och läskunnighet.',
@@ -294,7 +334,17 @@ export const slovakia: Country = {
       },
       {
         year: '1000–1918',
-        title: 'Kingdom of Hungary and Austria-Hungary',
+        title: {
+          en: 'Kingdom of Hungary and Austria-Hungary',
+          sv: 'Kungariket Ungern och Österrike-Ungern',
+          es: 'Reino de Hungría y Austria-Hungría',
+          fr: 'Royaume de Hongrie et Autriche-Hongrie',
+          de: 'Königreich Ungarn und Österreich-Ungarn',
+          it: 'Regno d\'Ungheria e Austria-Ungheria',
+          pl: 'Królestwo Węgier i Austro-Węgry',
+          nl: 'Koninkrijk Hongarije en Oostenrijk-Hongarije',
+          pt: 'Reino da Hungria e Áustria-Hungria',
+        },
         description: {
           en: 'For centuries, Slovakia was part of the Kingdom of Hungary and later the Austro-Hungarian realm, shaping administration, trade, and architecture.',
           sv: 'I århundraden var Slovakien en del av kungariket Ungern och senare det österrikisk-ungerska riket, som formade administration, handel och arkitektur.',
@@ -309,7 +359,17 @@ export const slovakia: Country = {
       },
       {
         year: '1918',
-        title: 'Czechoslovakia Formed',
+        title: {
+          en: 'Czechoslovakia Formed',
+          sv: 'Tjeckoslovakien bildas',
+          es: 'Formación de Checoslovaquia',
+          fr: 'Formation de la Tchécoslovaquie',
+          de: 'Entstehung der Tschechoslowakei',
+          it: 'Nascita della Cecoslovacchia',
+          pl: 'Powstanie Czechosłowacji',
+          nl: 'Ontstaan van Tsjecho-Slowakije',
+          pt: 'Formação da Tchecoslováquia',
+        },
         description: {
           en: 'After World War I, Slovakia joined with the Czech lands to form the state of Czechoslovakia.',
           sv: 'Efter första världskriget gick Slovakien samman med de tjeckiska länderna för att bilda staten Tjeckoslovakien.',
@@ -324,7 +384,17 @@ export const slovakia: Country = {
       },
       {
         year: '1993',
-        title: 'Velvet Divorce',
+        title: {
+          en: 'Velvet Divorce',
+          sv: 'Sammetsskilsmässan',
+          es: 'Divorcio de terciopelo',
+          fr: 'Divorce de velours',
+          de: 'Samtene Scheidung',
+          it: 'Divorzio di velluto',
+          pl: 'Aksamitny rozwód',
+          nl: 'Fluwelen scheiding',
+          pt: 'Divórcio de veludo',
+        },
         description: {
           en: 'Slovakia became independent through a peaceful split from the Czech Republic, known as the "Velvet Divorce."',
           sv: 'Slovakien blev självständigt genom en fredlig splittring från Tjeckien, känd som "sammetsskilsmässan".',
@@ -339,7 +409,17 @@ export const slovakia: Country = {
       },
       {
         year: '2004–2009',
-        title: 'EU Integration and the Euro',
+        title: {
+          en: 'EU Integration and the Euro',
+          sv: 'EU-integration och euron',
+          es: 'Integración en la UE y el euro',
+          fr: 'Intégration européenne et euro',
+          de: 'EU-Integration und Euro',
+          it: 'Integrazione nell\'UE ed euro',
+          pl: 'Integracja z UE i euro',
+          nl: 'EU-integratie en de euro',
+          pt: 'Integração na UE e o euro',
+        },
         description: {
           en: 'Slovakia joined the European Union in 2004 and adopted the euro in 2009, deepening ties with the European economy.',
           sv: 'Slovakien gick med i Europeiska unionen 2004 och antog euron 2009, vilket fördjupade banden med den europeiska ekonomin.',
@@ -366,7 +446,17 @@ export const slovakia: Country = {
           nl: 'Hoogvolume auto-industrie',
           pt: 'Manufatura automotiva de alta produção',
         },
-        year: '1990s–Present',
+        year: {
+          en: '1990s–Present',
+          sv: '1990-talet–idag',
+          es: 'Década de 1990–actualidad',
+          fr: 'Années 1990–aujourd\'hui',
+          de: '1990er–heute',
+          it: 'Anni \'90–oggi',
+          pl: 'Lata 90.–obecnie',
+          nl: 'Jaren 90–heden',
+          pt: 'Década de 1990–presente',
+        },
         description: {
           en: 'Slovakia became a major European hub for car production, building a strong supplier network and advanced manufacturing capabilities.',
           sv: 'Slovakien blev ett stort europeiskt nav för biltillverkning och byggde upp ett starkt leverantörsnätverk och avancerade tillverkningsmöjligheter.',
@@ -391,7 +481,17 @@ export const slovakia: Country = {
           nl: 'Ontwikkeling van thermale baden en wellness',
           pt: 'Desenvolvimento de termas e bem-estar',
         },
-        year: '1900s–Present',
+        year: {
+          en: '1900s–Present',
+          sv: '1900-talet–idag',
+          es: 'siglo XX – actualidad',
+          fr: 'XXe siècle – aujourd\'hui',
+          de: '20. Jahrhundert – heute',
+          it: 'XX secolo – oggi',
+          pl: 'XX wiek – obecnie',
+          nl: '20e eeuw – heden',
+          pt: 'século XX – presente',
+        },
         description: {
           en: 'Spa towns and thermal areas evolved into modern wellness destinations, combining health tourism with regional infrastructure.',
           sv: 'Spastäder och termiska områden utvecklades till moderna hälsodestinationer, som kombinerar hälsoturism med regional infrastruktur.',
@@ -416,7 +516,17 @@ export const slovakia: Country = {
           nl: 'Grottenonderzoek en -behoud',
           pt: 'Pesquisa e conservação de cavernas',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Slovakia supports significant speleology (cave study) and protection of karst ecosystems, including internationally recognized cave sites.',
           sv: 'Slovakien stöder betydande speleologi (grottstudier) och skydd av karst-ekosystem, inklusive internationellt erkända grottplatser.',
@@ -554,7 +664,17 @@ export const slovakia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen rules apply; many travelers can enter visa-free for short stays.',
           sv: 'Schengenreglerna gäller; många resenärer kan komma in visumfritt för kortare vistelser.',
@@ -568,7 +688,17 @@ export const slovakia: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June–September for hiking; December–March for skiing and winter markets.',
           sv: 'Juni–september för vandring; December–mars för skidåkning och vintermarknader.',
@@ -582,7 +712,17 @@ export const slovakia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Trains and buses connect cities well; cars help for mountains and rural areas.',
           sv: 'Tåg och bussar förbinder städer väl; bilar hjälper till i berg och på landsbygden.',
@@ -596,7 +736,17 @@ export const slovakia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Slovak; English is common in Bratislava and tourist centers.',
           sv: 'slovakiska; Engelska är vanlig i Bratislava och turistcentra.',
@@ -610,7 +760,17 @@ export const slovakia: Country = {
         },
       },
       {
-        item: 'Money',
+        item: {
+          en: 'Money',
+          sv: 'Pengar',
+          es: 'Dinero',
+          fr: 'Argent',
+          de: 'Geld',
+          it: 'Denaro',
+          pl: 'Pieniądze',
+          nl: 'Geld',
+          pt: 'Dinheiro',
+        },
         description: {
           en: 'Euro (€). Cards are widely accepted, but carry cash for smaller villages.',
           sv: 'Euro (€). Kort är allmänt accepterade, men bär kontanter för mindre byar.',
@@ -624,7 +784,17 @@ export const slovakia: Country = {
         },
       },
       {
-        item: 'Outdoor readiness',
+        item: {
+          en: 'Outdoor readiness',
+          sv: 'Redo för friluftsliv',
+          es: 'Listos para el aire libre',
+          fr: 'Prêt pour le plein air',
+          de: 'Gut gerüstet für draußen',
+          it: 'Pronti per l\'aria aperta',
+          pl: 'Gotowi na szlak',
+          nl: 'Goed voorbereid op pad',
+          pt: 'Pronto para a trilha',
+        },
         description: {
           en: 'In the Tatras, weather shifts quickly—pack layers and proper footwear.',
           sv: 'I Tatras skiftar vädret snabbt - packa lager och ordentliga skor.',
@@ -642,7 +812,7 @@ export const slovakia: Country = {
       id: 'slovakia-main',
       name: {
         en: 'Bryndzové Halušky',
-        sv: 'Bryndzové Halušky',
+        sv: 'Bryndzové halušky',
         es: 'Bryndzové Halušky',
         fr: 'Bryndzové Halušky',
         de: 'Bryndzové Halušky',
@@ -653,7 +823,7 @@ export const slovakia: Country = {
       },
       description: {
         en: 'Slovakia\'s national favorite: soft potato dumplings tossed with tangy sheep cheese (bryndza) and topped with crispy bacon.',
-        sv: 'Slovakiens nationella favorit: mjuka potatisdumplings kastade med syrlig fårost (bryndza) och toppad med knaperstekt bacon.',
+        sv: 'Slovakiens älskade nationalrätt: små, mjuka potatisklimpar som blandas med syrlig fårost (bryndza) och toppas med knaperstekt bacon.',
         es: 'El favorito nacional de Eslovaquia: albóndigas de patata blandas mezcladas con queso de oveja picante (bryndza) y cubiertas con tocino crujiente.',
         fr: 'Le favori national de la Slovaquie : des boulettes de pommes de terre moelleuses agrémentées de fromage de brebis piquant (bryndza) et garnies de bacon croustillant.',
         de: 'Der nationale Favorit der Slowakei: weiche Kartoffelknödel mit würzigem Schafskäse (Bryndza) und garniert mit knusprigem Speck.',
@@ -695,7 +865,7 @@ export const slovakia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -722,7 +892,7 @@ export const slovakia: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -807,7 +977,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Stir in egg and salt, then add flour gradually to make a thick, sticky batter.',
-          sv: 'Rör ner ägg och salt och tillsätt sedan mjöl gradvis till en tjock, klibbig smet.',
+          sv: 'Rör ner ägg och salt och tillsätt sedan vetemjölet lite i taget till en tjock, kladdig smet.',
           es: 'Agregue el huevo y la sal, luego agregue la harina gradualmente para hacer una masa espesa y pegajosa.',
           fr: 'Incorporer l\'œuf et le sel, puis ajouter progressivement la farine pour obtenir une pâte épaisse et collante.',
           de: 'Ei und Salz einrühren, dann nach und nach Mehl hinzufügen, bis ein dicker, klebriger Teig entsteht.',
@@ -829,7 +999,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Push small pieces of batter into the water using a halušky board, spaetzle maker, or coarse grater.',
-          sv: 'Tryck ner små bitar av smeten i vattnet med hjälp av en halušky-bräda, spaetzlemaskin eller ett grovt rivjärn.',
+          sv: 'Pressa ner små bitar av smeten i vattnet med ett haluškybräde, ett spätzlejärn eller ett grovt rivjärn.',
           es: 'Introduzca pequeños trozos de masa en el agua con una tabla halušky, una máquina para hacer spaetzle o un rallador grueso.',
           fr: 'Poussez de petits morceaux de pâte dans l\'eau à l\'aide d\'une planche halušky, d\'un appareil à spaetzle ou d\'une râpe grossière.',
           de: 'Schieben Sie mit einem Halušky-Brett, einem Spätzleschneider oder einer groben Reibe kleine Teigstücke ins Wasser.',
@@ -840,7 +1010,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Cook 2–3 minutes until dumplings float, then scoop out with a slotted spoon and drain well.',
-          sv: 'Koka 2–3 minuter tills dumplings flyter, häll sedan ur med en hålslev och låt rinna av väl.',
+          sv: 'Koka i 2–3 minuter tills klimparna flyter upp, lyft sedan upp dem med en hålslev och låt rinna av ordentligt.',
           es: 'Cocine de 2 a 3 minutos hasta que las bolas de masa floten, luego sáquelas con una espumadera y escúrralas bien.',
           fr: 'Cuire 2 à 3 minutes jusqu\'à ce que les boulettes flottent, puis les retirer avec une écumoire et bien les égoutter.',
           de: '2–3 Minuten kochen, bis die Knödel schwimmen, dann mit einem Schaumlöffel herauslöffeln und gut abtropfen lassen.',
@@ -851,7 +1021,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Dice bacon and fry until crisp; keep the rendered fat.',
-          sv: 'Tärna bacon och stek tills det är knaprigt; behålla det utsmälta fettet.',
+          sv: 'Tärna baconet och stek det knaprigt; spara det utsmälta fettet.',
           es: 'Corta el tocino en dados y fríelo hasta que esté crujiente; conservar la grasa extraída.',
           fr: 'Couper le bacon en dés et faire revenir jusqu\'à ce qu\'il soit croustillant ; conserver la graisse fondue.',
           de: 'Speck würfeln und knusprig braten; Behalten Sie das ausgeschmolzene Fett.',
@@ -862,7 +1032,7 @@ export const slovakia: Country = {
         },
         {
           en: 'While dumplings are hot, mix them with bryndza until creamy and coated.',
-          sv: 'Medan dumplings är varma, blanda dem med bryndza tills de är krämiga och täckta.',
+          sv: 'Blanda de heta klimparna med bryndzan tills allt är krämigt och klimparna är väl täckta.',
           es: 'Mientras las albóndigas estén calientes, mézclelas con bryndza hasta que estén cremosas y cubiertas.',
           fr: 'Pendant que les raviolis sont chauds, mélangez-les avec le bryndza jusqu\'à ce qu\'ils soient crémeux et enrobés.',
           de: 'Während die Knödel heiß sind, vermischen Sie sie mit Bryndza, bis sie cremig und überzogen sind.',
@@ -873,7 +1043,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Top with crispy bacon and a spoon of rendered fat for classic flavor.',
-          sv: 'Toppa med knaperstekt bacon och en sked utsmält fett för klassisk smak.',
+          sv: 'Toppa med det knapriga baconet och en sked av det utsmälta fettet för den klassiska smaken.',
           es: 'Cubra con tocino crujiente y una cucharada de grasa extraída para darle un sabor clásico.',
           fr: 'Garnir de bacon croustillant et d\'une cuillère de graisse fondue pour une saveur classique.',
           de: 'Mit knusprigem Speck und einem Löffel ausgeschmolzenem Fett belegen, um einen klassischen Geschmack zu erhalten.',
@@ -884,7 +1054,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Serve immediately; add sour cream if you like it extra creamy.',
-          sv: 'Servera omedelbart; tillsätt gräddfil om du gillar det extra krämigt.',
+          sv: 'Servera genast; toppa med gräddfil om du vill ha det extra krämigt.',
           es: 'Sirva inmediatamente; agregue crema agria si le gusta más cremosa.',
           fr: 'Servir immédiatement; ajoutez de la crème sure si vous l\'aimez très crémeuse.',
           de: 'Sofort servieren; Wer es besonders cremig mag, fügt saure Sahne hinzu.',
@@ -900,7 +1070,7 @@ export const slovakia: Country = {
       id: 'slovakia-dessert',
       name: {
         en: 'Šúľance s makom (Poppy Seed Noodles)',
-        sv: 'Šúľance s makom (vallmofrönudlar)',
+        sv: 'Šúľance s makom (potatisnudlar med vallmofrön)',
         es: 'Šúľance s makom (Fideos con semillas de amapola)',
         fr: 'Šúľance s makom (nouilles aux graines de pavot)',
         de: 'Šúľance s makom (Mohnnudeln)',
@@ -911,7 +1081,7 @@ export const slovakia: Country = {
       },
       description: {
         en: 'Soft potato noodles tossed with butter, ground poppy seeds, and sugar—an old-school Slovak sweet comfort dessert.',
-        sv: 'Mjuka potatisnudlar kastade med smör, malda vallmofrön och socker – en gammaldags slovakisk efterrätt.',
+        sv: 'Mjuka potatisnudlar som vänds i smör, malda vallmofrön och socker – en gammaldags slovakisk efterrätt att värma sig med.',
         es: 'Fideos de patata blandos mezclados con mantequilla, semillas de amapola molidas y azúcar: un postre dulce y reconfortante eslovaco de la vieja escuela.',
         fr: 'Nouilles de pommes de terre molles agrémentées de beurre, de graines de pavot moulues et de sucre : un dessert sucré et réconfortant à l\'ancienne slovaque.',
         de: 'Weiche Kartoffelnudeln mit Butter, gemahlenem Mohn und Zucker – ein süßer, süßer Komfort-Dessert der alten Schule aus der Slowakei.',
@@ -953,7 +1123,7 @@ export const slovakia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -980,7 +1150,7 @@ export const slovakia: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1038,7 +1208,7 @@ export const slovakia: Country = {
         {
           name: {
             en: 'Pinch of salt',
-            sv: 'Nypa salt',
+            sv: 'Salt',
             es: 'Una pizca de sal',
             fr: 'Pincée de sel',
             de: 'Prise Salz',
@@ -1064,7 +1234,7 @@ export const slovakia: Country = {
       steps: [
         {
           en: 'Boil potatoes until tender, drain, and mash until smooth; cool slightly.',
-          sv: 'Koka potatisen tills den är mjuk, låt rinna av och mosa tills den är slät; svalna något.',
+          sv: 'Koka potatisen mjuk, häll av och mosa den slät; låt svalna något.',
           es: 'Hervir las patatas hasta que estén tiernas, escurrirlas y triturarlas hasta que quede suave; enfriar un poco.',
           fr: 'Faire bouillir les pommes de terre jusqu\'à ce qu\'elles soient tendres, les égoutter et les écraser jusqu\'à consistance lisse ; refroidir légèrement.',
           de: 'Kartoffeln kochen, bis sie weich sind, abtropfen lassen und pürieren, bis eine glatte Masse entsteht. etwas abkühlen lassen.',
@@ -1075,7 +1245,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Mix in egg, pinch of salt, and flour to form a soft dough.',
-          sv: 'Blanda i ägg, nypa salt och mjöl till en mjuk deg.',
+          sv: 'Blanda i ägg, en nypa salt och vetemjöl till en mjuk deg.',
           es: 'Incorpora el huevo, una pizca de sal y la harina hasta formar una masa suave.',
           fr: 'Incorporer l\'œuf, la pincée de sel et la farine pour former une pâte molle.',
           de: 'Ei, eine Prise Salz und Mehl unterrühren, bis ein weicher Teig entsteht.',
@@ -1086,7 +1256,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Roll dough into thin ropes and cut into short pieces.',
-          sv: 'Rulla degen till tunna rep och skär i korta bitar.',
+          sv: 'Rulla degen till tunna längder och skär dem i korta bitar.',
           es: 'Enrolle la masa en tiras finas y córtela en trozos cortos.',
           fr: 'Roulez la pâte en fines cordes et coupez-la en petits morceaux.',
           de: 'Den Teig zu dünnen Strängen rollen und in kurze Stücke schneiden.',
@@ -1097,7 +1267,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Boil in lightly salted water until they float (2–3 minutes), then drain.',
-          sv: 'Koka i lättsaltat vatten tills de flyter (2–3 minuter), låt rinna av.',
+          sv: 'Koka i lättsaltat vatten tills de flyter upp (2–3 minuter) och låt sedan rinna av.',
           es: 'Hervir en agua ligeramente salada hasta que floten (2 a 3 minutos) y luego escurrir.',
           fr: 'Faire bouillir dans de l\'eau légèrement salée jusqu\'à ce qu\'ils flottent (2 à 3 minutes), puis égoutter.',
           de: 'In leicht gesalzenem Wasser kochen, bis sie schwimmen (2–3 Minuten), dann abtropfen lassen.',
@@ -1108,7 +1278,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Melt butter and toss the cooked noodles in butter.',
-          sv: 'Smält smör och släng de kokta nudlarna i smör.',
+          sv: 'Smält smöret och vänd de kokta nudlarna i det.',
           es: 'Derrita la mantequilla y mezcle los fideos cocidos con mantequilla.',
           fr: 'Faire fondre le beurre et mélanger les nouilles cuites dans le beurre.',
           de: 'Butter schmelzen und die gekochten Nudeln darin wenden.',
@@ -1119,7 +1289,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Mix ground poppy seeds with sugar, then sprinkle over noodles and toss gently.',
-          sv: 'Blanda malda vallmofrön med socker, strö sedan över nudlar och blanda försiktigt.',
+          sv: 'Blanda de malda vallmofröna med sockret, strö över nudlarna och vänd försiktigt.',
           es: 'Mezcle las semillas de amapola molidas con azúcar, luego espolvoree sobre los fideos y revuelva suavemente.',
           fr: 'Mélangez les graines de pavot moulues avec le sucre, puis saupoudrez-les sur les nouilles et mélangez délicatement.',
           de: 'Gemahlenen Mohn mit Zucker vermischen, dann über die Nudeln streuen und vorsichtig verrühren.',
@@ -1130,7 +1300,7 @@ export const slovakia: Country = {
         },
         {
           en: 'Serve warm.',
-          sv: 'Servera varm.',
+          sv: 'Servera varma.',
           es: 'Servir caliente.',
           fr: 'Servir chaud.',
           de: 'Warm servieren.',

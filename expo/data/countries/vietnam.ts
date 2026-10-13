@@ -263,8 +263,28 @@ export const vietnam: Country = {
     },
     history: [
       {
-        year: '111 BC – 938 AD',
-        title: 'Chinese Rule',
+        year: {
+          en: '111 BC – 938 AD',
+          sv: '111 f.Kr. – 938 e.Kr.',
+          es: '111 a. C. – 938 d. C.',
+          fr: '111 av. J.-C. – 938 apr. J.-C.',
+          de: '111 v. Chr. – 938 n. Chr.',
+          it: '111 a.C. – 938 d.C.',
+          pl: '111 p.n.e. – 938 n.e.',
+          nl: '111 v.Chr. – 938 n.Chr.',
+          pt: '111 a.C. – 938 d.C.',
+        },
+        title: {
+          en: 'Chinese Rule',
+          sv: 'Kinesiskt styre',
+          es: 'Dominio chino',
+          fr: 'Domination chinoise',
+          de: 'Chinesische Herrschaft',
+          it: 'Dominio cinese',
+          pl: 'Panowanie chińskie',
+          nl: 'Chinese overheersing',
+          pt: 'Domínio chinês',
+        },
         description: {
           en: 'Vietnam was under Chinese domination for over a millennium, shaping its language, philosophy, and governance.',
           sv: 'Vietnam var under kinesisk dominans i över ett årtusende och formade dess språk, filosofi och styrelseformer.',
@@ -279,7 +299,17 @@ export const vietnam: Country = {
       },
       {
         year: '1954',
-        title: 'Division of Vietnam',
+        title: {
+          en: 'Division of Vietnam',
+          sv: 'Vietnams delning',
+          es: 'División de Vietnam',
+          fr: 'Partition du Vietnam',
+          de: 'Teilung Vietnams',
+          it: 'Divisione del Vietnam',
+          pl: 'Podział Wietnamu',
+          nl: 'Deling van Vietnam',
+          pt: 'Divisão do Vietnã',
+        },
         description: {
           en: 'After French defeat, Vietnam was divided into North and South.',
           sv: 'Efter franskt nederlag delades Vietnam i nord och syd.',
@@ -294,7 +324,17 @@ export const vietnam: Country = {
       },
       {
         year: '1955–1975',
-        title: 'Vietnam War',
+        title: {
+          en: 'Vietnam War',
+          sv: 'Vietnamkriget',
+          es: 'Guerra de Vietnam',
+          fr: 'Guerre du Viêt Nam',
+          de: 'Vietnamkrieg',
+          it: 'Guerra del Vietnam',
+          pl: 'Wojna wietnamska',
+          nl: 'Vietnamoorlog',
+          pt: 'Guerra do Vietnã',
+        },
         description: {
           en: 'A prolonged and devastating conflict that ended with reunification.',
           sv: 'En utdragen och förödande konflikt som slutade med återförening.',
@@ -309,7 +349,17 @@ export const vietnam: Country = {
       },
       {
         year: '1986',
-        title: 'Đổi Mới Reforms',
+        title: {
+          en: 'Đổi Mới Reforms',
+          sv: 'Đổi Mới-reformerna',
+          es: 'Reformas Đổi Mới',
+          fr: 'Réformes Đổi Mới',
+          de: 'Đổi-Mới-Reformen',
+          it: 'Riforme Đổi Mới',
+          pl: 'Reformy Đổi Mới',
+          nl: 'Đổi Mới-hervormingen',
+          pt: 'Reformas Đổi Mới',
+        },
         description: {
           en: 'Economic reforms opened Vietnam to global markets and rapid growth.',
           sv: 'Ekonomiska reformer öppnade Vietnam för globala marknader och snabb tillväxt.',
@@ -336,7 +386,17 @@ export const vietnam: Country = {
           nl: 'Ao Dai',
           pt: 'Ao Dai',
         },
-        year: '18th century',
+        year: {
+          en: '18th century',
+          sv: '1700-talet',
+          es: 'siglo XVIII',
+          fr: 'XVIIIe siècle',
+          de: '18. Jahrhundert',
+          it: 'XVIII secolo',
+          pl: 'XVIII wiek',
+          nl: '18e eeuw',
+          pt: 'século XVIII',
+        },
         description: {
           en: 'The traditional Vietnamese dress symbolizing elegance and identity.',
           sv: 'Den traditionella vietnamesiska klänningen symboliserar elegans och identitet.',
@@ -361,7 +421,17 @@ export const vietnam: Country = {
           nl: 'Phin-koffiefilter',
           pt: 'Filtro de café Phin',
         },
-        year: '1800s',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
         description: {
           en: 'A slow-drip metal filter creating Vietnam\'s signature strong coffee.',
           sv: 'Ett långsamt droppande metallfilter skapar Vietnams starka signaturkaffe.',
@@ -386,7 +456,17 @@ export const vietnam: Country = {
           nl: 'Bamboe mandboten',
           pt: 'Barcos-cesto de bambu',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Circular bamboo boats still used by fishermen today.',
           sv: 'Cirkulära bambubåtar används fortfarande av fiskare idag.',
@@ -404,7 +484,7 @@ export const vietnam: Country = {
       {
         name: {
           en: 'Ha Long Bay',
-          sv: 'Ha Long Bay',
+          sv: 'Ha Long-bukten',
           es: 'Bahía de Ha Long',
           fr: 'Baie d\'Ha Long',
           de: 'Halong-Bucht',
@@ -524,7 +604,17 @@ export const vietnam: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November–April for most regions; climate varies by geography.',
           sv: 'November–april för de flesta regioner; klimatet varierar beroende på geografi.',
@@ -538,7 +628,17 @@ export const vietnam: Country = {
         },
       },
       {
-        item: 'Money',
+        item: {
+          en: 'Money',
+          sv: 'Pengar',
+          es: 'Dinero',
+          fr: 'Argent',
+          de: 'Geld',
+          it: 'Denaro',
+          pl: 'Pieniądze',
+          nl: 'Geld',
+          pt: 'Dinheiro',
+        },
         description: {
           en: 'Cash is widely used, especially for street food and small vendors.',
           sv: 'Kontanter används flitigt, särskilt för gatumat och småförsäljare.',
@@ -552,7 +652,17 @@ export const vietnam: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can use e-visa or visa-on-arrival.',
           sv: 'Många nationaliteter kan använda e-visum eller visum vid ankomst.',
@@ -566,7 +676,17 @@ export const vietnam: Country = {
         },
       },
       {
-        item: 'Power',
+        item: {
+          en: 'Power',
+          sv: 'Ström',
+          es: 'Electricidad',
+          fr: 'Électricité',
+          de: 'Strom',
+          it: 'Elettricità',
+          pl: 'Prąd',
+          nl: 'Stroom',
+          pt: 'Eletricidade',
+        },
         description: {
           en: 'Uses Type A, C, and G plugs with 220V.',
           sv: 'Använder typ A-, C- och G-kontakter med 220V.',
@@ -580,7 +700,17 @@ export const vietnam: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Light clothing for heat; modest attire for temples.',
           sv: 'Lätta kläder för värme; blygsam klädsel för tempel.',
@@ -609,7 +739,7 @@ export const vietnam: Country = {
       },
       description: {
         en: 'Iconic Vietnamese noodle soup with aromatic beef broth, rice noodles, herbs, and thinly sliced beef.',
-        sv: 'Ikonisk vietnamesisk nudelsoppa med aromatisk nötköttsbuljong, risnudlar, örter och tunt skivat nötkött.',
+        sv: 'Vietnams klassiska nudelsoppa med aromatisk köttbuljong, risnudlar, färska örter och tunt skivat nötkött.',
         es: 'Icónica sopa de fideos vietnamita con caldo de carne aromático, fideos de arroz, hierbas y carne de res en rodajas finas.',
         fr: 'Soupe de nouilles vietnamienne emblématique avec bouillon de bœuf aromatique, nouilles de riz, herbes et bœuf tranché finement.',
         de: 'Kultige vietnamesische Nudelsuppe mit aromatischer Rinderbrühe, Reisnudeln, Kräutern und dünn geschnittenem Rindfleisch.',
@@ -636,7 +766,7 @@ export const vietnam: Country = {
         {
           name: {
             en: 'Beef bones',
-            sv: 'Nötköttsben',
+            sv: 'Nötben',
             es: 'Huesos de ternera',
             fr: 'Os de bœuf',
             de: 'Rinderknochen',
@@ -666,7 +796,7 @@ export const vietnam: Country = {
         {
           name: {
             en: 'Beef sirloin',
-            sv: 'Oxbiff',
+            sv: 'Ryggbiff',
             es: 'Solomillo de ternera',
             fr: 'Surlonge de bœuf',
             de: 'Rinderfilet',
@@ -718,7 +848,7 @@ export const vietnam: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -758,7 +888,7 @@ export const vietnam: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -848,7 +978,7 @@ export const vietnam: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -862,7 +992,7 @@ export const vietnam: Country = {
       steps: [
         {
           en: 'Char ginger and onions until lightly blackened',
-          sv: 'Charge ingefära och lök tills de är lätt svärtade',
+          sv: 'Rosta ingefäran och löken i en torr stekpanna tills de är lätt svartbrända',
           es: 'Cocine el jengibre y la cebolla hasta que estén ligeramente ennegrecidos',
           fr: 'Charbonner le gingembre et les oignons jusqu\'à ce qu\'ils soient légèrement noircis',
           de: 'Ingwer und Zwiebeln anbraten, bis sie leicht geschwärzt sind',
@@ -873,7 +1003,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Boil beef bones with spices, ginger, and onions for 3 hours',
-          sv: 'Koka nötköttsben med kryddor, ingefära och lök i 3 timmar',
+          sv: 'Koka nötbenen med kryddorna, ingefäran och löken i 3 timmar',
           es: 'Hervir huesos de res con especias, jengibre y cebolla durante 3 horas',
           fr: 'Faire bouillir les os de bœuf avec les épices, le gingembre et les oignons pendant 3 heures',
           de: 'Rinderknochen mit Gewürzen, Ingwer und Zwiebeln 3 Stunden kochen',
@@ -884,7 +1014,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Skim foam regularly to keep broth clear',
-          sv: 'Skumma skum regelbundet för att hålla buljongen ren',
+          sv: 'Skumma buljongen regelbundet så att den blir klar',
           es: 'Quite la espuma con regularidad para mantener el caldo claro',
           fr: 'Écumez régulièrement la mousse pour garder le bouillon clair',
           de: 'Schaum regelmäßig abschöpfen, um die Brühe klar zu halten',
@@ -895,7 +1025,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Season broth with fish sauce and salt',
-          sv: 'Smaksätt buljong med fisksås och salt',
+          sv: 'Smaka av buljongen med fisksås och salt',
           es: 'Sazone el caldo con salsa de pescado y sal',
           fr: 'Assaisonner le bouillon avec la sauce de poisson et le sel',
           de: 'Brühe mit Fischsauce und Salz würzen',
@@ -906,7 +1036,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Soak rice noodles in hot water until tender',
-          sv: 'Blötlägg risnudlar i varmt vatten tills de är mjuka',
+          sv: 'Blötlägg risnudlarna i hett vatten tills de är mjuka',
           es: 'Remojar los fideos de arroz en agua caliente hasta que estén tiernos',
           fr: 'Faire tremper les nouilles de riz dans l\'eau chaude jusqu\'à ce qu\'elles soient tendres',
           de: 'Reisnudeln in heißem Wasser einweichen, bis sie weich sind',
@@ -917,7 +1047,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Slice beef very thinly',
-          sv: 'Skiva nötkött mycket tunt',
+          sv: 'Skiva nötköttet mycket tunt',
           es: 'Cortar la carne en rodajas muy finas',
           fr: 'Trancher le bœuf très finement',
           de: 'Rindfleisch sehr dünn schneiden',
@@ -928,7 +1058,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Place noodles and beef in bowls',
-          sv: 'Lägg nudlar och nötkött i skålar',
+          sv: 'Fördela nudlarna och köttet i skålar',
           es: 'Coloque los fideos y la carne en tazones',
           fr: 'Placer les nouilles et le bœuf dans des bols',
           de: 'Nudeln und Rindfleisch in Schüsseln geben',
@@ -939,7 +1069,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Pour boiling broth over beef to cook it',
-          sv: 'Häll kokande buljong över nötkött för att tillaga det',
+          sv: 'Häll den kokande buljongen över köttet så att det tillagas',
           es: 'Vierta caldo hirviendo sobre la carne para cocinarla',
           fr: 'Versez le bouillon bouillant sur le bœuf pour le cuire',
           de: 'Gießen Sie kochende Brühe über das Rindfleisch, um es zu garen',
@@ -1016,7 +1146,7 @@ export const vietnam: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1131,7 +1261,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Slice bananas into thick pieces',
-          sv: 'Skiva bananer i tjocka bitar',
+          sv: 'Skär bananerna i tjocka bitar',
           es: 'Cortar los plátanos en trozos gruesos',
           fr: 'Coupez les bananes en morceaux épais',
           de: 'Bananen in dicke Stücke schneiden',
@@ -1164,7 +1294,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Add bananas and cook 3–5 minutes',
-          sv: 'Tillsätt bananer och koka 3–5 minuter',
+          sv: 'Tillsätt bananerna och låt koka i 3–5 minuter',
           es: 'Agregue los plátanos y cocine de 3 a 5 minutos',
           fr: 'Ajouter les bananes et cuire 3 à 5 minutes',
           de: 'Bananen hinzufügen und 3–5 Minuten kochen',
@@ -1175,7 +1305,7 @@ export const vietnam: Country = {
         },
         {
           en: 'Stir in vanilla if using',
-          sv: 'Rör i vanilj om du använder',
+          sv: 'Rör ner vanilj om du vill',
           es: 'Agregue la vainilla si la usa',
           fr: 'Incorporer la vanille si vous utilisez',
           de: 'Bei Verwendung von',
@@ -1266,7 +1396,7 @@ export const vietnam: Country = {
           },
           {
             en: 'Ho Chi Minh City',
-            sv: 'Ho Chi Minh City',
+            sv: 'Ho Chi Minh-staden',
             es: 'Ciudad Ho Chi Minh',
             fr: 'Hô Chi Minh Ville',
             de: 'Ho-Chi-Minh-Stadt',
@@ -1499,7 +1629,7 @@ export const vietnam: Country = {
         options: [
           {
             en: 'Ha Long Bay',
-            sv: 'Ha Long Bay',
+            sv: 'Ha Long-bukten',
             es: 'Bahía de Ha Long',
             fr: 'Baie d\'Ha Long',
             de: 'Halong-Bucht',
@@ -1510,7 +1640,7 @@ export const vietnam: Country = {
           },
           {
             en: 'Nha Trang Bay',
-            sv: 'Nha Trang Bay',
+            sv: 'Nha Trang-bukten',
             es: 'Bahía de Nha Trang',
             fr: 'Baie de Nha Trang',
             de: 'Nha Trang Bucht',
@@ -1521,7 +1651,7 @@ export const vietnam: Country = {
           },
           {
             en: 'Cam Ranh Bay',
-            sv: 'Cam Ranh Bay',
+            sv: 'Cam Ranh-bukten',
             es: 'Bahía de Cam Ranh',
             fr: 'Baie de Cam Ranh',
             de: 'Cam Ranh Bucht',
@@ -1725,7 +1855,7 @@ export const vietnam: Country = {
           },
           {
             en: 'Ho Chi Minh City',
-            sv: 'Ho Chi Minh City',
+            sv: 'Ho Chi Minh-staden',
             es: 'Ciudad Ho Chi Minh',
             fr: 'Hô Chi Minh Ville',
             de: 'Ho-Chi-Minh-Stadt',

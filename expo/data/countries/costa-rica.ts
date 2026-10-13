@@ -264,7 +264,17 @@ export const costaRica: Country = {
     history: [
       {
         year: '1502',
-        title: 'Columbus Arrives',
+        title: {
+          en: 'Columbus Arrives',
+          sv: 'Columbus anländer',
+          es: 'Llega Colón',
+          fr: 'Colomb débarque',
+          de: 'Kolumbus landet',
+          it: 'Arriva Colombo',
+          pl: 'Kolumb przybywa',
+          nl: 'Columbus komt aan',
+          pt: 'Colombo chega',
+        },
         description: {
           en: 'Christopher Columbus landed on the Caribbean coast, naming the region "Rich Coast" believing it held vast gold deposits.',
           sv: 'Christopher Columbus landade på den karibiska kusten och döpte regionen till "Rich Coast" i tron ​​att den innehöll stora guldfyndigheter.',
@@ -279,7 +289,17 @@ export const costaRica: Country = {
       },
       {
         year: '1821',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Costa Rica gained independence from Spain as part of the Central American independence movement.',
           sv: 'Costa Rica blev självständigt från Spanien som en del av den centralamerikanska självständighetsrörelsen.',
@@ -294,7 +314,17 @@ export const costaRica: Country = {
       },
       {
         year: '1948',
-        title: 'Civil War',
+        title: {
+          en: 'Civil War',
+          sv: 'Inbördeskrig',
+          es: 'Guerra civil',
+          fr: 'Guerre civile',
+          de: 'Bürgerkrieg',
+          it: 'Guerra civile',
+          pl: 'Wojna domowa',
+          nl: 'Burgeroorlog',
+          pt: 'Guerra civil',
+        },
         description: {
           en: 'A brief but significant civil war led to constitutional reforms and the abolition of the military.',
           sv: 'Ett kort men betydande inbördeskrig ledde till konstitutionella reformer och avskaffandet av militären.',
@@ -334,7 +364,17 @@ export const costaRica: Country = {
       },
       {
         year: '1987',
-        title: 'Nobel Peace Prize',
+        title: {
+          en: 'Nobel Peace Prize',
+          sv: 'Nobels fredspris',
+          es: 'Premio Nobel de la Paz',
+          fr: 'Prix Nobel de la paix',
+          de: 'Friedensnobelpreis',
+          it: 'Premio Nobel per la pace',
+          pl: 'Pokojowa Nagroda Nobla',
+          nl: 'Nobelprijs voor de Vrede',
+          pt: 'Prêmio Nobel da Paz',
+        },
         description: {
           en: 'President Óscar Arias received the Nobel Peace Prize for his work in ending civil wars in Central America.',
           sv: 'President Óscar Arias fick Nobels fredspris för sitt arbete med att avsluta inbördeskrigen i Centralamerika.',
@@ -386,7 +426,17 @@ export const costaRica: Country = {
           nl: 'Ecotoerismemodel',
           pt: 'Modelo de Ecoturismo',
         },
-        year: '1980s-present',
+        year: {
+          en: '1980s-present',
+          sv: '1980-talet–idag',
+          es: 'Década de 1980–actualidad',
+          fr: 'Années 1980–aujourd\'hui',
+          de: '1980er–heute',
+          it: 'Anni \'80–oggi',
+          pl: 'Lata 80.–obecnie',
+          nl: 'Jaren 80–heden',
+          pt: 'Década de 1980–presente',
+        },
         description: {
           en: 'Created the blueprint for sustainable eco-tourism, balancing conservation with economic development, now studied worldwide.',
           sv: 'Skapade ritningen för hållbar ekoturism, balanserade bevarande med ekonomisk utveckling, nu studerad över hela världen.',
@@ -411,7 +461,17 @@ export const costaRica: Country = {
           nl: 'Leiderschap in hernieuwbare energie',
           pt: 'Liderança em energias renováveis',
         },
-        year: '2000s-present',
+        year: {
+          en: '2000s-present',
+          sv: '2000-talet–idag',
+          es: 'Década de 2000 – actualidad',
+          fr: 'Années 2000 – aujourd\'hui',
+          de: '2000er–heute',
+          it: 'Anni 2000 – oggi',
+          pl: 'Lata 2000. – obecnie',
+          nl: 'Jaren 2000 – heden',
+          pt: 'Década de 2000 – presente',
+        },
         description: {
           en: 'Achieved over 99% renewable electricity generation using hydro, geothermal, wind, and solar, becoming a model for green energy transition.',
           sv: 'Uppnådde över 99 % förnybar elproduktion med vattenkraft, geotermisk energi, vindkraft och solenergi, vilket blev en modell för grön energiomställning.',
@@ -454,7 +514,7 @@ export const costaRica: Country = {
       {
         name: {
           en: 'Monteverde Cloud Forest',
-          sv: 'Monteverde Cloud Forest',
+          sv: 'Monteverdes molnskog',
           es: 'Bosque Nuboso Monteverde',
           fr: 'Forêt nuageuse de Monteverde',
           de: 'Nebelwald von Monteverde',
@@ -574,7 +634,17 @@ export const costaRica: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can visit visa-free for up to 90 days.',
           sv: 'Många nationaliteter kan besöka visumfritt i upp till 90 dagar.',
@@ -588,7 +658,17 @@ export const costaRica: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to April (dry season) for best weather',
           sv: 'December till april (torrsäsong) för bästa väder',
@@ -602,7 +682,17 @@ export const costaRica: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Rental cars, buses, domestic flights, boat taxis in coastal areas.',
           sv: 'Hyrbilar, bussar, inrikesflyg, båttaxi i kustområden.',
@@ -616,7 +706,17 @@ export const costaRica: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Spanish is official. English widely spoken in tourist areas.',
           sv: 'Spanska är officiellt. Engelska talas allmänt i turistområden.',
@@ -630,7 +730,17 @@ export const costaRica: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe by Central American standards. Standard precautions in cities.',
           sv: 'Mycket säker med centralamerikanska standarder. Standardförsiktighetsåtgärder i städer.',
@@ -659,7 +769,7 @@ export const costaRica: Country = {
       },
       description: {
         en: 'Costa Rica\'s national breakfast dish - rice and black beans mixed together and fried with onions, peppers, and spices. Often served with eggs, cheese, tortillas, and fried plantains. It\'s comfort food that Ticos eat daily.',
-        sv: 'Costa Ricas nationella frukosträtt - ris och svarta bönor blandade och stekta med lök, paprika och kryddor. Serveras ofta med ägg, ost, tortillas och stekta mjölbananer. Det är tröstmat som Ticos äter dagligen.',
+        sv: 'Costa Ricas nationella frukosträtt – ris och svarta bönor som blandas och steks med lök, paprika och kryddor. Serveras ofta med ägg, ost, tortillas och stekta kokbananer. Det är tröstmat som costaricanerna, ticos, äter varje dag.',
         es: 'El desayuno nacional de Costa Rica: arroz y frijoles negros mezclados y fritos con cebolla, pimiento y especias. A menudo se sirve con huevos, queso, tortillas y plátanos fritos. Es comida reconfortante que los ticos comen a diario.',
         fr: 'Le plat national du petit-déjeuner du Costa Rica : du riz et des haricots noirs mélangés et frits avec des oignons, des poivrons et des épices. Souvent servi avec des œufs, du fromage, des tortillas et des plantains frits. C\'est une nourriture réconfortante que les Ticos mangent quotidiennement.',
         de: 'Costa Ricas nationales Frühstücksgericht – Reis und schwarze Bohnen gemischt und mit Zwiebeln, Paprika und Gewürzen gebraten. Wird oft mit Eiern, Käse, Tortillas und gebratenen Kochbananen serviert. Es ist Wohlfühlnahrung, die Ticos täglich essen.',
@@ -748,7 +858,7 @@ export const costaRica: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -773,7 +883,7 @@ export const costaRica: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -861,7 +971,7 @@ export const costaRica: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -898,7 +1008,7 @@ export const costaRica: Country = {
         },
         {
           en: 'Sauté onion and bell pepper until soft',
-          sv: 'Fräs lök och paprika tills den är mjuk',
+          sv: 'Fräs lök och paprika tills de är mjuka',
           es: 'Saltee la cebolla y el pimiento morrón hasta que estén tiernos',
           fr: 'Faire revenir l\'oignon et le poivron jusqu\'à ce qu\'ils soient tendres',
           de: 'Zwiebel und Paprika anbraten, bis sie weich sind',
@@ -909,7 +1019,7 @@ export const costaRica: Country = {
         },
         {
           en: 'Add minced garlic and cook for 1 minute',
-          sv: 'Tillsätt hackad vitlök och koka i 1 minut',
+          sv: 'Tillsätt hackad vitlök och fräs i 1 minut',
           es: 'Agrega el ajo picado y cocina por 1 minuto',
           fr: 'Ajouter l\'ail émincé et cuire 1 minute',
           de: 'Gehackten Knoblauch hinzufügen und 1 Minute kochen lassen',
@@ -942,7 +1052,7 @@ export const costaRica: Country = {
         },
         {
           en: 'Fry everything together, stirring occasionally, for 5-7 minutes',
-          sv: 'Stek allt tillsammans, rör om då och då, i 5-7 minuter',
+          sv: 'Stek allt tillsammans i 5–7 minuter och rör om då och då',
           es: 'Freír todo junto, revolviendo de vez en cuando, durante 5-7 minutos',
           fr: 'Faites frire le tout ensemble, en remuant de temps en temps, pendant 5 à 7 minutes',
           de: 'Alles zusammen unter gelegentlichem Rühren 5-7 Minuten braten',
@@ -964,7 +1074,7 @@ export const costaRica: Country = {
         },
         {
           en: 'Serve hot with eggs, cheese, tortillas, and fried plantains',
-          sv: 'Servera varm med ägg, ost, tortillas och stekta mjölbananer',
+          sv: 'Servera varm med ägg, ost, tortillas och stekta kokbananer',
           es: 'Sirva caliente con huevos, queso, tortillas y plátanos fritos',
           fr: 'Servir chaud avec des œufs, du fromage, des tortillas et des plantains frits',
           de: 'Heiß servieren mit Eiern, Käse, Tortillas und gebratenen Kochbananen',
@@ -980,7 +1090,7 @@ export const costaRica: Country = {
       id: 'costa-rica-dessert',
       name: {
         en: 'Tres Leches Cake',
-        sv: 'Tres Leches tårta',
+        sv: 'Tres leches-tårta',
         es: 'Pastel Tres Leches',
         fr: 'Gâteau Tres Leches',
         de: 'Tres-Leches-Kuchen',
@@ -991,7 +1101,7 @@ export const costaRica: Country = {
       },
       description: {
         en: 'Ultra-moist sponge cake soaked in three types of milk, topped with whipped cream - a Costa Rican favorite',
-        sv: 'Ultrafuktig sockerkaka indränkt i tre typer av mjölk, toppad med vispgrädde - en costaricansk favorit',
+        sv: 'Supersaftig sockerkaka indränkt i tre sorters mjölk och toppad med vispgrädde – en costaricansk favorit',
         es: 'Bizcocho ultrahúmedo empapado en tres tipos de leche, cubierto con crema batida: uno de los favoritos de Costa Rica',
         fr: 'Gâteau éponge ultra moelleux imbibé de trois types de lait, garni de crème fouettée - un favori du Costa Rica',
         de: 'Ultra-feuchter Biskuitkuchen, eingeweicht in drei Milchsorten, garniert mit Schlagsahne – ein Favorit Costa Ricas',
@@ -1018,7 +1128,7 @@ export const costaRica: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1073,7 +1183,7 @@ export const costaRica: Country = {
         {
           name: {
             en: 'Evaporated milk',
-            sv: 'Indunstad mjölk',
+            sv: 'Evaporerad mjölk',
             es: 'Leche evaporada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -1103,7 +1213,7 @@ export const costaRica: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -1148,7 +1258,7 @@ export const costaRica: Country = {
         {
           name: {
             en: 'Whipped cream for topping',
-            sv: 'Vispad grädde till topping',
+            sv: 'Vispad grädde till garnering',
             es: 'Crema batida para cubrir',
             fr: 'Crème fouettée pour garniture',
             de: 'Schlagsahne zum Garnieren',
@@ -1164,7 +1274,7 @@ export const costaRica: Country = {
       steps: [
         {
           en: 'Preheat oven to 180°C. Grease 9x13 inch pan',
-          sv: 'Värm ugnen till 180°C. Smörj 9x13 tumsform',
+          sv: 'Sätt ugnen på 180°C. Smörj en form på ca 23 × 33 cm',
           es: 'Precalienta el horno a 180°C. Engrase un molde de 9x13 pulgadas',
           fr: 'Préchauffer le four à 180°C. Graisser un moule de 9x13 pouces',
           de: 'Backofen auf 180°C vorheizen. Eine 9x13-Zoll-Pfanne einfetten',
@@ -1175,7 +1285,7 @@ export const costaRica: Country = {
         },
         {
           en: 'Beat eggs and sugar until light and fluffy',
-          sv: 'Vispa ägg och socker ljust och fluffigt',
+          sv: 'Vispa ägg och socker ljust och pösigt',
           es: 'Batir los huevos y el azúcar hasta que estén suaves y esponjosos',
           fr: 'Battre les œufs et le sucre jusqu\'à consistance légère et mousseuse',
           de: 'Eier und Zucker schaumig schlagen',
@@ -1197,7 +1307,7 @@ export const costaRica: Country = {
         },
         {
           en: 'Pour into pan and bake 25-30 minutes until golden',
-          sv: 'Häll i formen och grädda 25-30 minuter tills de är gyllene',
+          sv: 'Häll smeten i formen och grädda i 25–30 minuter, tills kakan är gyllene',
           es: 'Vierta en el molde y hornee durante 25-30 minutos hasta que esté dorado',
           fr: 'Verser dans le moule et cuire au four 25 à 30 minutes jusqu\'à ce qu\'il soit doré',
           de: 'In die Pfanne gießen und 25–30 Minuten goldbraun backen',
@@ -1219,7 +1329,7 @@ export const costaRica: Country = {
         },
         {
           en: 'Mix evaporated milk, condensed milk, and heavy cream with vanilla',
-          sv: 'Blanda indunstad mjölk, kondenserad mjölk och tjock grädde med vanilj',
+          sv: 'Blanda evaporerad mjölk, sötad kondenserad mjölk och vispgrädde med vaniljen',
           es: 'Mezcla leche evaporada, leche condensada y crema espesa con vainilla',
           fr: 'Mélangez le lait concentré, le lait concentré et la crème épaisse avec la vanille',
           de: 'Kondensmilch, Kondensmilch und Sahne mit Vanille mischen',
@@ -1230,7 +1340,7 @@ export const costaRica: Country = {
         },
         {
           en: 'Poke holes all over cooled cake with fork',
-          sv: 'Stick hål över hela den kylda kakan med gaffel',
+          sv: 'Stick hål över hela den avsvalnade kakan med en gaffel',
           es: 'Haz agujeros por todo el pastel enfriado con un tenedor',
           fr: 'Percez des trous partout dans le gâteau refroidi avec une fourchette',
           de: 'Stechen Sie mit einer Gabel überall Löcher in den abgekühlten Kuchen',
@@ -1241,7 +1351,7 @@ export const costaRica: Country = {
         },
         {
           en: 'Slowly pour milk mixture over cake, letting it absorb',
-          sv: 'Häll långsamt mjölkblandningen över kakan, låt den absorberas',
+          sv: 'Häll långsamt mjölkblandningen över kakan så att den sugs upp',
           es: 'Vierta lentamente la mezcla de leche sobre el pastel, dejando que se absorba',
           fr: 'Versez lentement le mélange de lait sur le gâteau en le laissant absorber',
           de: 'Gießen Sie die Milchmischung langsam über den Kuchen und lassen Sie ihn einziehen',

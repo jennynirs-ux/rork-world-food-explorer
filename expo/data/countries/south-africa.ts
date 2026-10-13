@@ -264,7 +264,17 @@ export const southAfrica: Country = {
     history: [
       {
         year: '1652',
-        title: 'Dutch Settlement',
+        title: {
+          en: 'Dutch Settlement',
+          sv: 'Nederländsk bosättning',
+          es: 'Asentamiento neerlandés',
+          fr: 'Implantation néerlandaise',
+          de: 'Niederländische Besiedlung',
+          it: 'Insediamento olandese',
+          pl: 'Osadnictwo holenderskie',
+          nl: 'Nederlandse vestiging',
+          pt: 'Povoamento holandês',
+        },
         description: {
           en: 'Jan van Riebeeck established the first European settlement at the Cape of Good Hope.',
           sv: 'Jan van Riebeeck etablerade den första europeiska bosättningen vid Godahoppsudden.',
@@ -279,7 +289,17 @@ export const southAfrica: Country = {
       },
       {
         year: '1948–1994',
-        title: 'Apartheid Era',
+        title: {
+          en: 'Apartheid Era',
+          sv: 'Apartheidtiden',
+          es: 'Época del apartheid',
+          fr: 'Ère de l\'apartheid',
+          de: 'Zeit der Apartheid',
+          it: 'Epoca dell\'apartheid',
+          pl: 'Epoka apartheidu',
+          nl: 'Apartheidstijdperk',
+          pt: 'Era do apartheid',
+        },
         description: {
           en: 'A system of institutionalized racial segregation enforced by law.',
           sv: 'Ett system med institutionaliserad rassegregation som upprätthålls genom lag.',
@@ -294,7 +314,17 @@ export const southAfrica: Country = {
       },
       {
         year: '1994',
-        title: 'Democratic Transition',
+        title: {
+          en: 'Democratic Transition',
+          sv: 'Övergång till demokrati',
+          es: 'Transición democrática',
+          fr: 'Transition démocratique',
+          de: 'Übergang zur Demokratie',
+          it: 'Transizione democratica',
+          pl: 'Przejście do demokracji',
+          nl: 'Overgang naar democratie',
+          pt: 'Transição democrática',
+        },
         description: {
           en: 'South Africa held its first democratic elections, electing Nelson Mandela as president.',
           sv: 'Sydafrika höll sitt första demokratiska val och valde Nelson Mandela till president.',
@@ -388,7 +418,7 @@ export const southAfrica: Country = {
       {
         name: {
           en: 'Kruger National Park',
-          sv: 'Kruger National Park',
+          sv: 'Krugers nationalpark',
           es: 'Parque Nacional Kruger',
           fr: 'Parc national Kruger',
           de: 'Krüger-Nationalpark',
@@ -484,7 +514,17 @@ export const southAfrica: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May–September for safaris; November–March for beaches.',
           sv: 'maj–september för safari; November–mars för stränder.',
@@ -498,7 +538,17 @@ export const southAfrica: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'High SPF sunscreen and hats are essential.',
           sv: 'Solskyddsmedel med hög SPF och hattar är viktiga.',
@@ -512,7 +562,17 @@ export const southAfrica: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Car rental recommended for flexibility.',
           sv: 'Biluthyrning rekommenderas för flexibilitet.',
@@ -526,7 +586,17 @@ export const southAfrica: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Travel insurance advised for long distances.',
           sv: 'Reseförsäkring rekommenderas för långa sträckor.',
@@ -555,7 +625,7 @@ export const southAfrica: Country = {
       },
       description: {
         en: 'A traditional Cape Malay dish of spiced minced meat baked with a savory egg custard topping.',
-        sv: 'En traditionell Cape Malay-rätt av kryddat köttfärs bakat med en salta äggkrämstoppning.',
+        sv: 'En traditionell kapmalajisk rätt med kryddad köttfärs som gräddas med en äggstanning ovanpå.',
         es: 'Un plato tradicional malayo del Cabo de carne picada especiada al horno con una sabrosa cobertura de crema de huevo.',
         fr: 'Un plat traditionnel du Cap Malay composé de viande hachée épicée cuite avec une garniture de crème aux œufs savoureuse.',
         de: 'Ein traditionelles kapmalaiisches Gericht aus gewürztem Hackfleisch, gebacken mit einer herzhaften Eiercreme-Beschichtung.',
@@ -609,7 +679,7 @@ export const southAfrica: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -744,7 +814,7 @@ export const southAfrica: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -868,7 +938,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Transfer mixture to baking dish and insert bay leaves.',
-          sv: 'Lägg över blandningen i en ugnsform och lägg i lagerblad.',
+          sv: 'Lägg över blandningen i en ugnsform och stick ner lagerbladen.',
           es: 'Transfiera la mezcla a una fuente para hornear e inserte las hojas de laurel.',
           fr: 'Transférer le mélange dans un plat allant au four et insérer les feuilles de laurier.',
           de: 'Die Mischung in eine Auflaufform geben und Lorbeerblätter hineinlegen.',
@@ -879,7 +949,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Whisk eggs with remaining milk and pour over meat.',
-          sv: 'Vispa ägg med resterande mjölk och häll över köttet.',
+          sv: 'Vispa ihop äggen med resten av mjölken och häll över köttfärsen.',
           es: 'Batir los huevos con la leche restante y verter sobre la carne.',
           fr: 'Battez les œufs avec le reste du lait et versez sur la viande.',
           de: 'Eier mit restlicher Milch verquirlen und über das Fleisch gießen.',
@@ -890,7 +960,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Bake for 40 minutes until golden and set.',
-          sv: 'Grädda i 40 minuter tills de är gyllene och stelnat.',
+          sv: 'Grädda i 40 minuter tills ytan är gyllene och äggstanningen har stelnat.',
           es: 'Hornee por 40 minutos hasta que esté dorado y cuajado.',
           fr: 'Cuire au four pendant 40 minutes jusqu\'à ce qu\'ils soient dorés et pris.',
           de: '40 Minuten backen, bis sie goldbraun und fest sind.',
@@ -901,7 +971,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Remove bay leaves before serving.',
-          sv: 'Ta bort lagerblad innan servering.',
+          sv: 'Ta bort lagerbladen före servering.',
           es: 'Retire las hojas de laurel antes de servir.',
           fr: 'Retirez les feuilles de laurier avant de servir.',
           de: 'Lorbeerblätter vor dem Servieren entfernen.',
@@ -939,7 +1009,7 @@ export const southAfrica: Country = {
       },
       description: {
         en: 'A classic South African sponge pudding soaked in warm cream sauce.',
-        sv: 'En klassisk sydafrikansk svamppudding indränkt i varm gräddsås.',
+        sv: 'En klassisk sydafrikansk pudding med sockerkakskonsistens som dränks i varm gräddsås.',
         es: 'Un pudín de bizcocho clásico sudafricano empapado en salsa de crema tibia.',
         fr: 'Un pouding éponge sud-africain classique imbibé d\'une sauce à la crème chaude.',
         de: 'Ein klassischer südafrikanischer Biskuitpudding, getränkt in warmer Sahnesauce.',
@@ -993,7 +1063,7 @@ export const southAfrica: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1006,7 +1076,7 @@ export const southAfrica: Country = {
         {
           name: {
             en: 'Apricot jam',
-            sv: 'Aprikossylt',
+            sv: 'Aprikosmarmelad',
             es: 'Mermelada de albaricoque',
             fr: 'Confiture d\'abricots',
             de: 'Aprikosenmarmelade',
@@ -1031,7 +1101,7 @@ export const southAfrica: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -1092,7 +1162,7 @@ export const southAfrica: Country = {
       steps: [
         {
           en: 'Beat sugar and eggs until pale.',
-          sv: 'Vispa socker och ägg blekt.',
+          sv: 'Vispa socker och ägg pösigt.',
           es: 'Batir el azúcar y los huevos hasta que estén pálidos.',
           fr: 'Battre le sucre et les œufs jusqu\'à ce qu\'ils soient pâles.',
           de: 'Zucker und Eier schaumig schlagen.',
@@ -1103,7 +1173,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Mix in apricot jam.',
-          sv: 'Blanda i aprikossylt.',
+          sv: 'Blanda i aprikosmarmeladen.',
           es: 'Incorpora la mermelada de albaricoque.',
           fr: 'Incorporer la confiture d\'abricots.',
           de: 'Aprikosenmarmelade untermischen.',
@@ -1114,7 +1184,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Fold in flour and milk alternately.',
-          sv: 'Vänd ner mjöl och mjölk växelvis.',
+          sv: 'Vänd ner vetemjöl och mjölk växelvis.',
           es: 'Incorpora la harina y la leche alternativamente.',
           fr: 'Incorporer alternativement la farine et le lait.',
           de: 'Abwechselnd Mehl und Milch unterheben.',
@@ -1125,7 +1195,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Bake at 180°C for 35 minutes.',
-          sv: 'Grädda i 180°C i 35 minuter.',
+          sv: 'Grädda vid 180°C i 35 minuter.',
           es: 'Hornear a 180°C por 35 minutos.',
           fr: 'Cuire au four à 180°C pendant 35 minutes.',
           de: '35 Minuten bei 180 °C backen.',
@@ -1136,7 +1206,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Heat butter and cream to make sauce.',
-          sv: 'Värm smör och grädde för att göra sås.',
+          sv: 'Värm smör och grädde till en sås.',
           es: 'Calentar la mantequilla y la nata para hacer la salsa.',
           fr: 'Faites chauffer le beurre et la crème pour faire la sauce.',
           de: 'Butter und Sahne erhitzen, um eine Soße herzustellen.',
@@ -1147,7 +1217,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Pour hot sauce over hot pudding.',
-          sv: 'Häll varm sås över varm pudding.',
+          sv: 'Häll den varma såsen över den nygräddade puddingen.',
           es: 'Vierta la salsa picante sobre el pudín caliente.',
           fr: 'Verser la sauce piquante sur le pudding chaud.',
           de: 'Heiße Soße über den heißen Pudding gießen.',
@@ -1158,7 +1228,7 @@ export const southAfrica: Country = {
         },
         {
           en: 'Rest 5 minutes before serving.',
-          sv: 'Vila 5 minuter innan servering.',
+          sv: 'Låt vila i 5 minuter före servering.',
           es: 'Descanse 5 minutos antes de servir.',
           fr: 'Reposez-vous 5 minutes avant de servir.',
           de: 'Vor dem Servieren 5 Minuten ruhen lassen.',
@@ -1518,7 +1588,7 @@ export const southAfrica: Country = {
           },
           {
             en: 'Mount Kilimanjaro',
-            sv: 'Mount Kilimanjaro',
+            sv: 'Kilimanjaro',
             es: 'Monte Kilimanjaro',
             fr: 'Mont Kilimandjaro',
             de: 'Kilimandscharo',

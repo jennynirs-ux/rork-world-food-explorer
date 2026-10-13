@@ -220,7 +220,17 @@ export const nicaragua: Country = {
     history: [
       {
         year: '1502',
-        title: 'Spanish Conquest',
+        title: {
+          en: 'Spanish Conquest',
+          sv: 'Spanska erövringen',
+          es: 'Conquista española',
+          fr: 'Conquête espagnole',
+          de: 'Spanische Eroberung',
+          it: 'Conquista spagnola',
+          pl: 'Podbój hiszpański',
+          nl: 'Spaanse verovering',
+          pt: 'Conquista espanhola',
+        },
         description: {
           en: 'Christopher Columbus reached Nicaragua during his fourth voyage.',
           sv: 'Christopher Columbus nådde Nicaragua under sin fjärde resa.',
@@ -235,7 +245,17 @@ export const nicaragua: Country = {
       },
       {
         year: '1821',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Nicaragua gained independence from Spain.',
           sv: 'Nicaragua blev självständigt från Spanien.',
@@ -250,7 +270,17 @@ export const nicaragua: Country = {
       },
       {
         year: '1979',
-        title: 'Sandinista Revolution',
+        title: {
+          en: 'Sandinista Revolution',
+          sv: 'Sandinistrevolutionen',
+          es: 'Revolución sandinista',
+          fr: 'Révolution sandiniste',
+          de: 'Sandinistische Revolution',
+          it: 'Rivoluzione sandinista',
+          pl: 'Rewolucja sandinistów',
+          nl: 'Sandinistische revolutie',
+          pt: 'Revolução Sandinista',
+        },
         description: {
           en: 'Revolution overthrew the Somoza dictatorship.',
           sv: 'Revolutionen störtade Somoza-diktaturen.',
@@ -277,7 +307,17 @@ export const nicaragua: Country = {
           nl: 'Koloniale architectuur',
           pt: 'Arquitetura colonial',
         },
-        year: '16th Century',
+        year: {
+          en: '16th Century',
+          sv: '1500-talet',
+          es: 'siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'século XVI',
+        },
         description: {
           en: 'Granada and León showcase well-preserved Spanish colonial architecture.',
           sv: 'Granada och León visar upp välbevarad spansk kolonialarkitektur.',
@@ -302,7 +342,17 @@ export const nicaragua: Country = {
           nl: 'Koffieproductie',
           pt: 'Produção de café',
         },
-        year: '19th Century',
+        year: {
+          en: '19th Century',
+          sv: '1800-talet',
+          es: 'Siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'Século XIX',
+        },
         description: {
           en: 'Development of high-quality coffee growing in volcanic highlands.',
           sv: 'Utveckling av högkvalitativt kaffe som odlas i vulkaniskt högland.',
@@ -344,7 +394,7 @@ export const nicaragua: Country = {
       {
         name: {
           en: 'Ometepe Island',
-          sv: 'Ometepe Island',
+          sv: 'Ön Ometepe',
           es: 'Isla de Ometepe',
           fr: 'Île d\'Ometepe',
           de: 'Insel Ometepe',
@@ -440,7 +490,17 @@ export const nicaragua: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December-April for dry season; rainy season May-November.',
           sv: 'December-april för torrperioden; regnperioden maj-november.',
@@ -454,7 +514,17 @@ export const nicaragua: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for many nationalities for 90 days.',
           sv: 'Visumfritt för många nationaliteter i 90 dagar.',
@@ -468,7 +538,17 @@ export const nicaragua: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'US dollars widely accepted; bring cash for rural areas.',
           sv: 'US-dollar allmänt accepterad; ta med kontanter till landsbygden.',
@@ -521,7 +601,7 @@ export const nicaragua: Country = {
       },
       description: {
         en: 'Three-milk cake, sponge soaked in milk mixture',
-        sv: 'Tre-mjölkskaka, svamp indränkt i mjölkblandning',
+        sv: 'Kaka med tre sorters mjölk – en sockerkaka indränkt i en mjölkblandning',
         es: 'Bizcocho de tres leches, bizcocho empapado en mezcla de leche',
         fr: 'Gâteau aux trois laits, génoise imbibée du mélange de lait',
         de: 'Drei-Milch-Kuchen, in Milchmischung getränkter Biskuit',
@@ -548,7 +628,7 @@ export const nicaragua: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -590,7 +670,7 @@ export const nicaragua: Country = {
           amount: 5,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -603,7 +683,7 @@ export const nicaragua: Country = {
         {
           name: {
             en: 'Evaporated milk',
-            sv: 'Indunstad mjölk',
+            sv: 'Evaporerad mjölk',
             es: 'Leche evaporada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -618,7 +698,7 @@ export const nicaragua: Country = {
         {
           name: {
             en: 'Condensed milk',
-            sv: 'Kondenserad mjölk',
+            sv: 'Sötad kondenserad mjölk',
             es: 'Leche condensada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -633,7 +713,7 @@ export const nicaragua: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -664,7 +744,7 @@ export const nicaragua: Country = {
       steps: [
         {
           en: 'Beat eggs and sugar until fluffy',
-          sv: 'Vispa ägg och socker fluffigt',
+          sv: 'Vispa ägg och socker pösigt',
           es: 'Batir los huevos y el azúcar hasta que queden esponjosos',
           fr: 'Battre les œufs et le sucre jusqu\'à consistance mousseuse',
           de: 'Eier und Zucker schaumig schlagen',
@@ -675,7 +755,7 @@ export const nicaragua: Country = {
         },
         {
           en: 'Fold in flour and vanilla',
-          sv: 'Vänd i mjöl och vanilj',
+          sv: 'Vänd ner vetemjöl och vanilj',
           es: 'Incorporar la harina y la vainilla',
           fr: 'Incorporer la farine et la vanille',
           de: 'Mehl und Vanille unterheben',
@@ -686,7 +766,7 @@ export const nicaragua: Country = {
         },
         {
           en: 'Bake at 350°F for 30 minutes',
-          sv: 'Grädda i 350°F i 30 minuter',
+          sv: 'Grädda i 175 °C i 30 minuter',
           es: 'Hornee a 350°F durante 30 minutos',
           fr: 'Cuire au four à 350°F pendant 30 minutes',
           de: '30 Minuten bei 350 °F backen',
@@ -697,7 +777,7 @@ export const nicaragua: Country = {
         },
         {
           en: 'Cool cake and poke holes all over',
-          sv: 'Sval tårta och stick hål överallt',
+          sv: 'Låt kakan svalna och stick hål över hela ytan',
           es: 'Enfriar el pastel y hacer agujeros por todas partes',
           fr: 'Refroidissez le gâteau et percez des trous partout',
           de: 'Den Kuchen abkühlen lassen und überall Löcher hineinstechen',
@@ -708,7 +788,7 @@ export const nicaragua: Country = {
         },
         {
           en: 'Mix three milks together',
-          sv: 'Blanda tre mjölkar tillsammans',
+          sv: 'Blanda ihop de tre mjölksorterna',
           es: 'Mezclar tres leches',
           fr: 'Mélanger trois laits ensemble',
           de: 'Drei Milchsorten miteinander vermischen',
@@ -837,7 +917,7 @@ export const nicaragua: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -862,7 +942,7 @@ export const nicaragua: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -900,7 +980,7 @@ export const nicaragua: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -937,7 +1017,7 @@ export const nicaragua: Country = {
         },
         {
           en: 'Add cooked beans with liquid',
-          sv: 'Tillsätt kokta bönor med vätska',
+          sv: 'Tillsätt de kokta bönorna med spadet',
           es: 'Agrega los frijoles cocidos con el líquido',
           fr: 'Ajouter les haricots cuits avec le liquide',
           de: 'Gekochte Bohnen mit Flüssigkeit hinzufügen',
@@ -948,7 +1028,7 @@ export const nicaragua: Country = {
         },
         {
           en: 'Stir in rice',
-          sv: 'Rör ner ris',
+          sv: 'Rör ner riset',
           es: 'Agregue el arroz',
           fr: 'Incorporer le riz',
           de: 'Reis unterrühren',
@@ -959,7 +1039,7 @@ export const nicaragua: Country = {
         },
         {
           en: 'Mix until beans slightly mash',
-          sv: 'Blanda tills bönorna mosas lätt',
+          sv: 'Rör om tills bönorna har mosats lätt',
           es: 'Mezclar hasta que los frijoles estén ligeramente triturados',
           fr: 'Mélanger jusqu\'à ce que les haricots soient légèrement écrasés',
           de: 'Mischen, bis die Bohnen leicht zerdrückt sind',
@@ -981,7 +1061,7 @@ export const nicaragua: Country = {
         },
         {
           en: 'Serve with fried eggs and tortillas',
-          sv: 'Servera med stekt ägg och tortillas',
+          sv: 'Servera med stekta ägg och tortillas',
           es: 'Servir con huevos fritos y tortillas',
           fr: 'Servir avec des œufs au plat et des tortillas',
           de: 'Mit Spiegeleiern und Tortillas servieren',
@@ -1225,7 +1305,7 @@ export const nicaragua: Country = {
           },
           {
             en: 'Lake Managua',
-            sv: 'Lake Managua',
+            sv: 'Managuasjön',
             es: 'Lago Managua',
             fr: 'Lac Managua',
             de: 'Managuasee',
@@ -1429,7 +1509,7 @@ export const nicaragua: Country = {
           },
           {
             en: 'Havana Club',
-            sv: 'Havanna Club',
+            sv: 'Havana Club',
             es: 'Club Habana',
             fr: 'Havane Club',
             de: 'Havana Club',

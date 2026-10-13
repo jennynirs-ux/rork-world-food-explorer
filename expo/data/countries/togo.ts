@@ -242,7 +242,17 @@ export const togo: Country = {
     history: [
       {
         year: '1884',
-        title: 'German Protectorate',
+        title: {
+          en: 'German Protectorate',
+          sv: 'Tyskt protektorat',
+          es: 'Protectorado alemán',
+          fr: 'Protectorat allemand',
+          de: 'Deutsches Schutzgebiet',
+          it: 'Protettorato tedesco',
+          pl: 'Protektorat niemiecki',
+          nl: 'Duits protectoraat',
+          pt: 'Protetorado alemão',
+        },
         description: {
           en: 'The coastal region became part of German Togoland during the colonial era.',
           sv: 'Kustregionen blev en del av tyska Togoland under kolonialtiden.',
@@ -257,7 +267,17 @@ export const togo: Country = {
       },
       {
         year: '1914–1919',
-        title: 'Partition After World War I',
+        title: {
+          en: 'Partition After World War I',
+          sv: 'Delning efter första världskriget',
+          es: 'División tras la Primera Guerra Mundial',
+          fr: 'Partage après la Première Guerre mondiale',
+          de: 'Teilung nach dem Ersten Weltkrieg',
+          it: 'Spartizione dopo la prima guerra mondiale',
+          pl: 'Podział po I wojnie światowej',
+          nl: 'Deling na de Eerste Wereldoorlog',
+          pt: 'Divisão após a Primeira Guerra Mundial',
+        },
         description: {
           en: 'After Germany\'s defeat, Togoland was divided between British and French administration.',
           sv: 'Efter Tysklands nederlag delades Togoland mellan brittisk och fransk administration.',
@@ -272,7 +292,17 @@ export const togo: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Togo gained independence and Lomé became the capital of the modern state.',
           sv: 'Togo blev självständigt och Lomé blev huvudstad i den moderna staten.',
@@ -299,7 +329,17 @@ export const togo: Country = {
           nl: 'Fosfaatindustrie',
           pt: 'Indústria de fosfato',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Phosphate mining has been a major economic activity and export sector for decades.',
           sv: 'Fosfatbrytning har varit en viktig ekonomisk aktivitet och exportsektor i decennier.',
@@ -324,7 +364,17 @@ export const togo: Country = {
           nl: 'Textiel en wax prints',
           pt: 'Tecidos e estampas wax',
         },
-        year: 'Modern era',
+        year: {
+          en: 'Modern era',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Colorful fabrics and tailoring traditions are central to daily life and celebrations, with vibrant patterns used across West Africa.',
           sv: 'Färgglada tyger och skrädderitraditioner är centrala i det dagliga livet och festligheterna, med levande mönster som används över hela Västafrika.',
@@ -390,7 +440,7 @@ export const togo: Country = {
       {
         name: {
           en: 'Mount Agou',
-          sv: 'Mount Agou',
+          sv: 'Mont Agou',
           es: 'Monte Agou',
           fr: 'Mont Agou',
           de: 'Berg Agou',
@@ -462,7 +512,17 @@ export const togo: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa requirements vary by nationality; check before travel.',
           sv: 'Visumkraven varierar beroende på nationalitet; kolla innan resan.',
@@ -476,7 +536,17 @@ export const togo: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Dry season is generally easier for travel; timing varies slightly by region.',
           sv: 'Torrsäsongen är i allmänhet lättare för resor; tidpunkten varierar något beroende på region.',
@@ -490,7 +560,17 @@ export const togo: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Shared taxis and buses are common; plan extra time for intercity travel.',
           sv: 'Delade taxibilar och bussar är vanliga; planera extra tid för intercityresor.',
@@ -504,7 +584,17 @@ export const togo: Country = {
         },
       },
       {
-        item: 'Money',
+        item: {
+          en: 'Money',
+          sv: 'Pengar',
+          es: 'Dinero',
+          fr: 'Argent',
+          de: 'Geld',
+          it: 'Denaro',
+          pl: 'Pieniądze',
+          nl: 'Geld',
+          pt: 'Dinheiro',
+        },
         description: {
           en: 'Cash is important for markets and transport; ATMs are mainly in larger towns.',
           sv: 'Kontanter är viktiga för marknader och transporter; Bankomater finns främst i större städer.',
@@ -518,7 +608,17 @@ export const togo: Country = {
         },
       },
       {
-        item: 'Languages',
+        item: {
+          en: 'Languages',
+          sv: 'Språk',
+          es: 'Idiomas',
+          fr: 'Langues',
+          de: 'Sprachen',
+          it: 'Lingue',
+          pl: 'Języki',
+          nl: 'Talen',
+          pt: 'Idiomas',
+        },
         description: {
           en: 'French is official; local languages (e.g., Ewe, Kabyé) are widely spoken.',
           sv: 'Franska är officiellt; lokala språk (t.ex. Ewe, Kabyé) talas ofta.',
@@ -532,7 +632,17 @@ export const togo: Country = {
         },
       },
       {
-        item: 'Etiquette',
+        item: {
+          en: 'Etiquette',
+          sv: 'Vett och etikett',
+          es: 'Normas de cortesía',
+          fr: 'Savoir-vivre',
+          de: 'Umgangsformen',
+          it: 'Galateo',
+          pl: 'Savoir-vivre',
+          nl: 'Etiquette',
+          pt: 'Etiqueta',
+        },
         description: {
           en: 'Greetings matter—take time to say hello before jumping into questions or business.',
           sv: 'Hälsningar är viktiga – ta dig tid att säga hej innan du går in i frågor eller affärer.',
@@ -550,7 +660,7 @@ export const togo: Country = {
       id: 'togo-main',
       name: {
         en: 'Fufu with Light Soup',
-        sv: 'Fufu med lätt soppa',
+        sv: 'Fufu med light soup',
         es: 'Fufu con sopa ligera',
         fr: 'Fufu avec soupe légère',
         de: 'Fufu mit leichter Suppe',
@@ -561,7 +671,7 @@ export const togo: Country = {
       },
       description: {
         en: 'Pounded cassava or yam served with a flavorful, spicy soup',
-        sv: 'Dunkade kassava eller yam serveras med en smakrik, kryddig soppa',
+        sv: 'Stött kassava eller jams, serverad med en smakrik och kryddstark soppa',
         es: 'Yuca o ñame machacados servidos con una sopa picante y sabrosa',
         fr: 'Manioc ou igname pilé servi avec une soupe savoureuse et épicée',
         de: 'Zerstampfter Maniok oder Yamswurzel, serviert mit einer würzigen, würzigen Suppe',
@@ -588,7 +698,7 @@ export const togo: Country = {
         {
           name: {
             en: 'Cassava or yam',
-            sv: 'Cassava eller yam',
+            sv: 'Kassava eller jams',
             es: 'Yuca o ñame',
             fr: 'Manioc ou igname',
             de: 'Maniok oder Yamswurzel',
@@ -603,7 +713,7 @@ export const togo: Country = {
         {
           name: {
             en: 'Goat or chicken',
-            sv: 'Get eller kyckling',
+            sv: 'Getkött eller kyckling',
             es: 'Cabra o pollo',
             fr: 'Chèvre ou poulet',
             de: 'Ziege oder Huhn',
@@ -630,7 +740,7 @@ export const togo: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -655,7 +765,7 @@ export const togo: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -680,7 +790,7 @@ export const togo: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -739,7 +849,7 @@ export const togo: Country = {
       steps: [
         {
           en: 'Boil cassava or yam until very soft',
-          sv: 'Koka kassava eller yam tills det är mycket mjukt',
+          sv: 'Koka kassavan eller jamsen tills den är mycket mjuk',
           es: 'Hervir la yuca o el ñame hasta que estén muy suaves',
           fr: 'Faire bouillir le manioc ou l\'igname jusqu\'à ce qu\'ils soient très tendres',
           de: 'Maniok oder Yamswurzel kochen, bis sie sehr weich sind',
@@ -750,7 +860,7 @@ export const togo: Country = {
         },
         {
           en: 'Pound (or mash) until smooth and elastic; shape into balls',
-          sv: 'Pudra (eller mosa) tills det är slätt och elastiskt; forma till bollar',
+          sv: 'Stöt (eller mosa) tills massan är slät och elastisk; forma den till bollar',
           es: 'Golpee (o triture) hasta que quede suave y elástico; formar bolas',
           fr: 'Piler (ou écraser) jusqu\'à consistance lisse et élastique ; façonner en boules',
           de: 'Stampfen (oder pürieren), bis es glatt und elastisch ist; zu Kugeln formen',
@@ -761,7 +871,7 @@ export const togo: Country = {
         },
         {
           en: 'For the soup: simmer meat with chopped tomatoes, onions, chilies, salt, and pepper',
-          sv: 'Till soppan: sjud kött med hackade tomater, lök, chili, salt och peppar',
+          sv: 'Till soppan: sjud köttet med hackade tomater, lök, chili, salt och peppar',
           es: 'Para la sopa: cocine a fuego lento la carne con tomates picados, cebolla, chiles, sal y pimienta',
           fr: 'Pour la soupe : laisser mijoter la viande avec les tomates hachées, les oignons, les piments, le sel et le poivre',
           de: 'Für die Suppe: Fleisch mit gehackten Tomaten, Zwiebeln, Chilis, Salz und Pfeffer köcheln lassen',
@@ -772,7 +882,7 @@ export const togo: Country = {
         },
         {
           en: 'Add palm oil and continue simmering until the meat is tender and flavors deepen',
-          sv: 'Tillsätt palmolja och fortsätt sjuda tills köttet är mört och smakerna fördjupas',
+          sv: 'Tillsätt palmoljan och låt sjuda vidare tills köttet är mört och smakerna har fördjupats',
           es: 'Agregue aceite de palma y continúe cocinando a fuego lento hasta que la carne esté tierna y los sabores se profundicen',
           fr: 'Ajouter l\'huile de palme et poursuivre la cuisson jusqu\'à ce que la viande soit tendre et que les saveurs s\'approfondissent',
           de: 'Palmöl hinzufügen und weiter köcheln lassen, bis das Fleisch zart ist und sich der Geschmack intensiviert',
@@ -794,7 +904,7 @@ export const togo: Country = {
         },
         {
           en: 'Eat by pinching off small pieces of fufu and dipping into the soup',
-          sv: 'Ät genom att nypa bort små bitar av fufu och doppa i soppan',
+          sv: 'Ät genom att nypa av små bitar fufu och doppa dem i soppan',
           es: 'Coma pellizcando pequeños trozos de fufu y sumergiéndolos en la sopa',
           fr: 'Mangez en pinçant des petits morceaux de fufu et en les plongeant dans la soupe',
           de: 'Essen Sie, indem Sie kleine Fufu-Stücke abschneiden und in die Suppe tauchen',
@@ -810,7 +920,7 @@ export const togo: Country = {
       id: 'togo-dessert',
       name: {
         en: 'Coconut Peanut Candy',
-        sv: 'Kokosjordnötsgodis',
+        sv: 'Kokos- och jordnötsgodis',
         es: 'Caramelo De Coco Y Maní',
         fr: 'Bonbons à la noix de coco et aux arachides',
         de: 'Kokos-Erdnuss-Bonbons',
@@ -821,7 +931,7 @@ export const togo: Country = {
       },
       description: {
         en: 'A simple sweet made by cooking shredded coconut with sugar and peanuts until sticky and caramelized.',
-        sv: 'En enkel sötsak gjord genom att koka riven kokos med socker och jordnötter tills den blir klibbig och karamelliserad.',
+        sv: 'En enkel sötsak där riven kokos kokas med socker och jordnötter tills blandningen blir klibbig och karamelliserad.',
         es: 'Un dulce sencillo que se elabora cocinando coco rallado con azúcar y maní hasta que quede pegajoso y caramelizado.',
         fr: 'Un bonbon simple préparé en cuisant de la noix de coco râpée avec du sucre et des cacahuètes jusqu\'à ce qu\'elle soit collante et caramélisée.',
         de: 'Eine einfache Süßigkeit, die durch Kochen von Kokosraspeln mit Zucker und Erdnüssen hergestellt wird, bis sie klebrig und karamellisiert sind.',
@@ -848,7 +958,7 @@ export const togo: Country = {
         {
           name: {
             en: 'Shredded coconut',
-            sv: 'Strimlad kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -950,7 +1060,7 @@ export const togo: Country = {
         },
         {
           en: 'Add sugar and water to a pan and heat until bubbling',
-          sv: 'Tillsätt socker och vatten i en kastrull och värm tills det bubblar',
+          sv: 'Häll socker och vatten i en kastrull och värm tills det bubblar',
           es: 'Agrega el azúcar y el agua a una sartén y calienta hasta que burbujee',
           fr: 'Ajouter le sucre et l\'eau dans une casserole et faire chauffer jusqu\'à bouillonnement',
           de: 'Zucker und Wasser in eine Pfanne geben und erhitzen, bis Blasen entstehen',
@@ -972,7 +1082,7 @@ export const togo: Country = {
         },
         {
           en: 'Cook, stirring, until thick and sticky (about 8–10 minutes)',
-          sv: 'Koka under omrörning tills den är tjock och klibbig (cirka 8–10 minuter)',
+          sv: 'Låt koka under omrörning tills massan är tjock och klibbig (cirka 8–10 minuter)',
           es: 'Cocine, revolviendo, hasta que esté espeso y pegajoso (aproximadamente de 8 a 10 minutos)',
           fr: 'Cuire en remuant jusqu\'à ce qu\'il soit épais et collant (environ 8 à 10 minutes)',
           de: 'Unter Rühren kochen, bis es dick und klebrig ist (ca. 8–10 Minuten)',
@@ -994,7 +1104,7 @@ export const togo: Country = {
         },
         {
           en: 'Spoon small mounds onto the tray',
-          sv: 'Sked små högar på brickan',
+          sv: 'Lägg ut små högar med en sked på plåten',
           es: 'Coloque pequeños montículos en la bandeja',
           fr: 'Déposer de petits monticules sur le plateau',
           de: 'Kleine Häufchen auf das Blech geben',
@@ -1005,7 +1115,7 @@ export const togo: Country = {
         },
         {
           en: 'Let cool completely until firm',
-          sv: 'Låt svalna helt tills den stelnar',
+          sv: 'Låt svalna helt tills godiset har stelnat',
           es: 'Deje enfriar completamente hasta que esté firme',
           fr: 'Laisser refroidir complètement jusqu\'à consistance ferme',
           de: 'Vollständig abkühlen lassen, bis es fest ist',
@@ -1016,7 +1126,7 @@ export const togo: Country = {
         },
         {
           en: 'Serve as bite-size candies',
-          sv: 'Servera som godis i lagom storlek',
+          sv: 'Servera som små godisbitar',
           es: 'Sirva como caramelos del tamaño de un bocado',
           fr: 'Servir sous forme de bouchées de bonbons',
           de: 'Als mundgerechte Bonbons servieren',

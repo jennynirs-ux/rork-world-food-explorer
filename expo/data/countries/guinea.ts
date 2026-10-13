@@ -219,8 +219,28 @@ export const guinea: Country = {
     },
     history: [
       {
-        year: '1890s',
-        title: 'French Colonization',
+        year: {
+          en: '1890s',
+          sv: '1890-talet',
+          es: 'década de 1890',
+          fr: 'années 1890',
+          de: '1890er',
+          it: 'anni 1890',
+          pl: 'lata 90. XIX wieku',
+          nl: 'jaren 1890',
+          pt: 'década de 1890',
+        },
+        title: {
+          en: 'French Colonization',
+          sv: 'Fransk kolonisering',
+          es: 'Colonización francesa',
+          fr: 'Colonisation française',
+          de: 'Französische Kolonisierung',
+          it: 'Colonizzazione francese',
+          pl: 'Kolonizacja francuska',
+          nl: 'Franse kolonisatie',
+          pt: 'Colonização francesa',
+        },
         description: {
           en: 'France established colonial control as part of French West Africa.',
           sv: 'Frankrike etablerade kolonial kontroll som en del av Franska Västafrika.',
@@ -235,7 +255,17 @@ export const guinea: Country = {
       },
       {
         year: '1958',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Guinea became the first French colony in Africa to gain independence, led by Ahmed Sékou Touré.',
           sv: 'Guinea blev den första franska kolonin i Afrika som fick självständighet, ledd av Ahmed Sékou Touré.',
@@ -262,7 +292,17 @@ export const guinea: Country = {
           nl: 'Djembetrommel',
           pt: 'Tambor djembê',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'The djembe drum originated in Guinea, becoming one of the most recognized African instruments worldwide.',
           sv: 'Djembetrumman har sitt ursprung i Guinea och blev ett av de mest erkända afrikanska instrumenten i världen.',
@@ -287,7 +327,17 @@ export const guinea: Country = {
           nl: 'Bauxietwinningstechnieken',
           pt: 'Técnicas de mineração de bauxita',
         },
-        year: '1950s',
+        year: {
+          en: '1950s',
+          sv: '1950-talet',
+          es: 'Década de 1950',
+          fr: 'Années 1950',
+          de: '1950er',
+          it: 'Anni \'50',
+          pl: 'Lata 50.',
+          nl: 'Jaren 50',
+          pt: 'Década de 1950',
+        },
         description: {
           en: 'Developed efficient bauxite extraction methods, becoming a world leader in aluminum ore production.',
           sv: 'Utvecklade effektiva bauxitutvinningsmetoder och blev världsledande inom produktion av aluminiummalm.',
@@ -312,7 +362,17 @@ export const guinea: Country = {
           nl: 'Mande-muziektraditie',
           pt: 'Tradição musical Mandé',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Preserved and developed the griot tradition of oral history and music that influenced West African culture.',
           sv: 'Bevarade och utvecklade griottraditionen av muntlig historia och musik som påverkade den västafrikanska kulturen.',
@@ -330,7 +390,7 @@ export const guinea: Country = {
       {
         name: {
           en: 'Fouta Djallon Highlands',
-          sv: 'Fouta Djallon Highlands',
+          sv: 'Fouta Djallon-höglandet',
           es: 'Fouta Djallon Tierras Altas',
           fr: 'Hauts Plateaux du Fouta Djallon',
           de: 'Fouta-Djallon-Hochland',
@@ -354,7 +414,7 @@ export const guinea: Country = {
       {
         name: {
           en: 'Mount Nimba Reserve',
-          sv: 'Mount Nimba Reserve',
+          sv: 'Nimbabergets naturreservat',
           es: 'Reserva del Monte Nimba',
           fr: 'Réserve du Mont Nimba',
           de: 'Mount-Nimba-Reservat',
@@ -426,7 +486,17 @@ export const guinea: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Required for most nationalities. Apply in advance.',
           sv: 'Krävs för de flesta nationaliteter. Ansök i förväg.',
@@ -440,7 +510,17 @@ export const guinea: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-April for dry season.',
           sv: 'November-april för torrperioden.',
@@ -454,7 +534,17 @@ export const guinea: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Mandatory with certificate required.',
           sv: 'Obligatorisk med certifikat krävs.',
@@ -468,7 +558,17 @@ export const guinea: Country = {
         },
       },
       {
-        item: 'French language',
+        item: {
+          en: 'French language',
+          sv: 'Franska',
+          es: 'Francés',
+          fr: 'Langue française',
+          de: 'Französisch',
+          it: 'Lingua francese',
+          pl: 'Język francuski',
+          nl: 'Frans',
+          pt: 'Francês',
+        },
         description: {
           en: 'Essential as English is rarely spoken.',
           sv: 'Viktigt eftersom engelska sällan talas.',
@@ -485,7 +585,7 @@ export const guinea: Country = {
     mainDish: {
       id: 'guinea-main',
       name: {
-        en: 'Sauce Feuilles',
+        en: 'Poulet Yassa',
         sv: 'Poulet Yassa',
         es: 'Pollo Yassa',
         fr: 'Poulet Yassa',
@@ -496,15 +596,15 @@ export const guinea: Country = {
         pt: 'Poulet Yassa',
       },
       description: {
-        en: 'A traditional Guinean stew made with cassava leaves, meat or fish, and palm oil, simmered into a rich, hearty sauce.',
+        en: 'Marinated chicken with onions and lemon',
         sv: 'Marinerad kyckling med lök och citron',
         es: 'Pollo marinado con cebolla y limón',
         fr: 'Poulet mariné aux oignons et citron',
         de: 'Mariniertes Hähnchen mit Zwiebeln und Zitrone',
-        it: 'Marinated chicken with onions and lemon',
-        pl: 'Marinated chicken with onions and lemon',
-        nl: 'Marinated chicken with onions and lemon',
-        pt: 'Marinated chicken with onions and lemon',
+        it: 'Pollo marinato con cipolle e limone',
+        pl: 'Marynowany kurczak z cebulą i cytryną',
+        nl: 'Gemarineerde kip met uien en citroen',
+        pt: 'Frango marinado com cebola e limão',
       },
       cookingTime: 90,
       difficulty: 'hard',
@@ -551,7 +651,7 @@ export const guinea: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -576,7 +676,7 @@ export const guinea: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -590,7 +690,7 @@ export const guinea: Country = {
           name: {
             en: 'Dijon mustard',
             sv: 'Dijonsenap',
-            es: 'mostaza de Dijon',
+            es: 'Mostaza de Dijon',
             fr: 'Moutarde de Dijon',
             de: 'Dijon-Senf',
             it: 'Senape di Digione',
@@ -639,19 +739,19 @@ export const guinea: Country = {
         {
           name: {
             en: 'Habanero pepper',
-            sv: 'Habanero peppar',
-            es: 'Pimiento habanero',
-            fr: 'Piment Habanero',
-            de: 'Habanero-Pfeffer',
+            sv: 'Habanerochili',
+            es: 'Chile habanero',
+            fr: 'Piment habanero',
+            de: 'Habanero-Chili',
             it: 'Peperoncino habanero',
             pl: 'Papryczka habanero',
-            nl: 'Habanero peper',
+            nl: 'Habaneropeper',
             pt: 'Pimenta habanero',
           },
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -665,7 +765,7 @@ export const guinea: Country = {
       steps: [
         {
           en: 'Marinate chicken with lemon, mustard, and garlic',
-          sv: 'Marinera kyckling med citron, senap och vitlök',
+          sv: 'Marinera kycklingen med citron, senap och vitlök',
           es: 'Marinar el pollo con limón, mostaza y ajo',
           fr: 'Faire mariner le poulet avec du citron, de la moutarde et de l\'ail',
           de: 'Hähnchen mit Zitrone, Senf und Knoblauch marinieren',
@@ -676,7 +776,7 @@ export const guinea: Country = {
         },
         {
           en: 'Refrigerate for 2 hours',
-          sv: 'Kyl i 2 timmar',
+          sv: 'Låt stå i kylen i 2 timmar',
           es: 'Refrigerar por 2 horas',
           fr: 'Réfrigérer 2 heures',
           de: '2 Stunden kühl stellen',
@@ -687,13 +787,13 @@ export const guinea: Country = {
         },
         {
           en: 'Grill or bake chicken',
-          sv: 'Grilla eller baka kyckling',
-          es: 'Pollo a la parrilla o al horno',
-          fr: 'Griller ou cuire du poulet',
-          de: 'Hähnchen grillen oder backen',
+          sv: 'Grilla eller ugnsstek kycklingen',
+          es: 'Ase el pollo a la parrilla o al horno',
+          fr: 'Griller le poulet ou le cuire au four',
+          de: 'Hähnchen grillen oder im Ofen garen',
           it: 'Grigliare o cuocere il pollo al forno',
           pl: 'Grilluj lub piecz kurczaka',
-          nl: 'Grill of bak de kip',
+          nl: 'Grill de kip of bak hem in de oven',
           pt: 'Grelhe ou asse o frango',
         },
         {
@@ -709,7 +809,7 @@ export const guinea: Country = {
         },
         {
           en: 'Add marinade and simmer',
-          sv: 'Tillsätt marinad och låt sjuda',
+          sv: 'Tillsätt marinaden och låt sjuda',
           es: 'Agregue la marinada y cocine a fuego lento',
           fr: 'Ajouter la marinade et laisser mijoter',
           de: 'Marinade hinzufügen und köcheln lassen',
@@ -720,7 +820,7 @@ export const guinea: Country = {
         },
         {
           en: 'Serve chicken with onion sauce over rice',
-          sv: 'Servera kyckling med löksås över ris',
+          sv: 'Servera kycklingen med löksåsen på ris',
           es: 'Sirva el pollo con salsa de cebolla sobre arroz',
           fr: 'Servir le poulet avec la sauce à l\'oignon sur du riz',
           de: 'Hähnchen mit Zwiebelsauce über Reis servieren',
@@ -736,7 +836,7 @@ export const guinea: Country = {
       id: 'guinea-dessert',
       name: {
         en: 'Tapalapa Bread Pudding',
-        sv: 'Tapalapa Brödpudding',
+        sv: 'Brödpudding med tapalapa',
         es: 'Budín de pan de tapalapa',
         fr: 'Pouding au pain Tapalapa',
         de: 'Tapalapa-Brotpudding',
@@ -747,7 +847,7 @@ export const guinea: Country = {
       },
       description: {
         en: 'Sweet bread pudding made with local tapalapa bread and coconut',
-        sv: 'Söt brödpudding gjord på lokalt tapalapabröd och kokosnöt',
+        sv: 'Söt brödpudding gjord på lokalt tapalapabröd och kokos',
         es: 'Budín de pan dulce elaborado con pan tapalapa local y coco',
         fr: 'Pouding au pain sucré à base de pain tapalapa local et de noix de coco',
         de: 'Süßer Brotpudding aus lokalem Tapalapa-Brot und Kokosnuss',
@@ -774,7 +874,7 @@ export const guinea: Country = {
         {
           name: {
             en: 'Tapalapa bread or baguette',
-            sv: 'Tapalapa bröd eller baguette',
+            sv: 'Tapalapabröd eller baguette',
             es: 'Pan tapalapa o baguette',
             fr: 'Pain ou baguette Tapalapa',
             de: 'Tapalapa-Brot oder Baguette',
@@ -804,7 +904,7 @@ export const guinea: Country = {
         {
           name: {
             en: 'Regular milk',
-            sv: 'Vanlig mjölk',
+            sv: 'Mjölk',
             es: 'Leche normal',
             fr: 'Lait ordinaire',
             de: 'Normale Milch',
@@ -846,7 +946,7 @@ export const guinea: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -905,7 +1005,7 @@ export const guinea: Country = {
       steps: [
         {
           en: 'Cut bread into cubes',
-          sv: 'Skär bröd i tärningar',
+          sv: 'Skär brödet i tärningar',
           es: 'Cortar el pan en cubos',
           fr: 'Couper le pain en cubes',
           de: 'Brot in Würfel schneiden',
@@ -916,7 +1016,7 @@ export const guinea: Country = {
         },
         {
           en: 'Mix coconut milk, regular milk, eggs, sugar, vanilla',
-          sv: 'Blanda kokosmjölk, vanlig mjölk, ägg, socker, vanilj',
+          sv: 'Blanda kokosmjölk, mjölk, ägg, socker och vanilj',
           es: 'Mezclar leche de coco, leche normal, huevos, azúcar, vainilla',
           fr: 'Mélanger le lait de coco, le lait ordinaire, les œufs, le sucre, la vanille',
           de: 'Kokosmilch, normale Milch, Eier, Zucker, Vanille vermischen',
@@ -927,7 +1027,7 @@ export const guinea: Country = {
         },
         {
           en: 'Pour over bread cubes and let soak 30 minutes',
-          sv: 'Häll över brödtärningar och låt dra i 30 minuter',
+          sv: 'Häll över brödtärningarna och låt dra i 30 minuter',
           es: 'Vierta sobre los cubitos de pan y déjelo en remojo 30 minutos',
           fr: 'Verser sur les cubes de pain et laisser tremper 30 minutes',
           de: 'Über die Brotwürfel gießen und 30 Minuten einweichen lassen',
@@ -960,7 +1060,7 @@ export const guinea: Country = {
         },
         {
           en: 'Bake at 180°C for 45 minutes until golden',
-          sv: 'Grädda i 180°C i 45 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 45 minuter tills puddingen är gyllene',
           es: 'Hornear a 180°C durante 45 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 45 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '45 Minuten bei 180°C goldbraun backen',
@@ -1426,7 +1526,7 @@ export const guinea: Country = {
         options: [
           {
             en: 'Mount Kenya',
-            sv: 'Mount Kenya',
+            sv: 'Kenyaberget',
             es: 'Monte Kenia',
             fr: 'Mont Kenya',
             de: 'Mount Kenia',
@@ -1437,7 +1537,7 @@ export const guinea: Country = {
           },
           {
             en: 'Mount Nimba',
-            sv: 'Mount Nimba',
+            sv: 'Nimbaberget',
             es: 'Monte Nimba',
             fr: 'Mont Nimba',
             de: 'Berg Nimba',
@@ -1448,7 +1548,7 @@ export const guinea: Country = {
           },
           {
             en: 'Mount Kilimanjaro',
-            sv: 'Mount Kilimanjaro',
+            sv: 'Kilimanjaro',
             es: 'Monte Kilimanjaro',
             fr: 'Mont Kilimandjaro',
             de: 'Kilimandscharo',
@@ -1459,7 +1559,7 @@ export const guinea: Country = {
           },
           {
             en: 'Mount Atlas',
-            sv: 'Mount Atlas',
+            sv: 'Atlasbergen',
             es: 'Monte Atlas',
             fr: 'Mont Atlas',
             de: 'Berg Atlas',
@@ -1559,7 +1659,7 @@ export const guinea: Country = {
           },
           {
             en: 'Highland region',
-            sv: 'Highland region',
+            sv: 'Ett höglandsområde',
             es: 'Región montañosa',
             fr: 'Région des Hautes Terres',
             de: 'Hochlandregion',

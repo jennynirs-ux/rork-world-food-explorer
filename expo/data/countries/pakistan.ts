@@ -263,7 +263,17 @@ export const pakistan: Country = {
     },
     history: [
       {
-        year: '2500 BC',
+        year: {
+          en: '2500 BC',
+          sv: '2500 f.Kr.',
+          es: '2500 a. C.',
+          fr: '2500 av. J.-C.',
+          de: '2500 v. Chr.',
+          it: '2500 a.C.',
+          pl: '2500 p.n.e.',
+          nl: '2500 v.Chr.',
+          pt: '2500 a.C.',
+        },
         title: {
           en: 'Indus Valley Civilization',
           sv: 'Induskulturen',
@@ -289,7 +299,17 @@ export const pakistan: Country = {
       },
       {
         year: '1526',
-        title: 'Mughal Empire',
+        title: {
+          en: 'Mughal Empire',
+          sv: 'Mogulriket',
+          es: 'Imperio mogol',
+          fr: 'Empire moghol',
+          de: 'Mogulreich',
+          it: 'Impero moghul',
+          pl: 'Imperium Wielkich Mogołów',
+          nl: 'Mogolrijk',
+          pt: 'Império Mogol',
+        },
         description: {
           en: 'The Mughal Empire brought Islamic architecture and culture to the region.',
           sv: 'Mughalriket förde islamisk arkitektur och kultur till regionen.',
@@ -304,7 +324,17 @@ export const pakistan: Country = {
       },
       {
         year: '1858',
-        title: 'British Raj',
+        title: {
+          en: 'British Raj',
+          sv: 'Brittiska Indien',
+          es: 'Raj británico',
+          fr: 'Raj britannique',
+          de: 'Britisch-Indien',
+          it: 'Raj britannico',
+          pl: 'Indie Brytyjskie',
+          nl: 'Brits-Indië',
+          pt: 'Raj britânico',
+        },
         description: {
           en: 'The region became part of British India after the end of Mughal rule.',
           sv: 'Regionen blev en del av Brittiska Indien efter slutet av Mughal-styret.',
@@ -319,7 +349,17 @@ export const pakistan: Country = {
       },
       {
         year: '1947',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Pakistan gained independence from Britain as a homeland for Muslims of the subcontinent.',
           sv: 'Pakistan blev självständigt från Storbritannien som ett hemland för muslimer på subkontinenten.',
@@ -334,7 +374,17 @@ export const pakistan: Country = {
       },
       {
         year: '1971',
-        title: 'Bangladesh Independence',
+        title: {
+          en: 'Bangladesh Independence',
+          sv: 'Bangladeshs självständighet',
+          es: 'Independencia de Bangladés',
+          fr: 'Indépendance du Bangladesh',
+          de: 'Unabhängigkeit Bangladeschs',
+          it: 'Indipendenza del Bangladesh',
+          pl: 'Niepodległość Bangladeszu',
+          nl: 'Onafhankelijkheid van Bangladesh',
+          pt: 'Independência de Bangladesh',
+        },
         description: {
           en: 'East Pakistan became the independent nation of Bangladesh.',
           sv: 'Östra Pakistan blev den självständiga nationen Bangladesh.',
@@ -350,7 +400,17 @@ export const pakistan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October-April for most regions, June-September for northern mountains',
           sv: 'Oktober-april för de flesta regioner, juni-september för norra bergen',
@@ -364,7 +424,17 @@ export const pakistan: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'E-visa available for many nationalities. Check requirements.',
           sv: 'E-visum tillgängligt för många nationaliteter. Kontrollera kraven.',
@@ -378,7 +448,17 @@ export const pakistan: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights, buses, and hired cars available.',
           sv: 'Inrikesflyg, bussar och hyrbilar tillgängliga.',
@@ -392,7 +472,17 @@ export const pakistan: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Urdu and English. Regional languages vary.',
           sv: 'Urdu och engelska. Regionala språk varierar.',
@@ -406,7 +496,17 @@ export const pakistan: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check travel advisories. Northern areas generally safe for tourists.',
           sv: 'Kontrollera reseinformation. Nordliga områden är generellt säkra för turister.',
@@ -433,7 +533,17 @@ export const pakistan: Country = {
           nl: 'Indusvallei-beschaving',
           pt: 'Civilização do Vale do Indo',
         },
-        year: '2500 BC',
+        year: {
+          en: '2500 BC',
+          sv: '2500 f.Kr.',
+          es: '2500 a. C.',
+          fr: '2500 av. J.-C.',
+          de: '2500 v. Chr.',
+          it: '2500 a.C.',
+          pl: '2500 p.n.e.',
+          nl: '2500 v.Chr.',
+          pt: '2500 a.C.',
+        },
         description: {
           en: 'One of the world\'s earliest urban civilizations with advanced city planning.',
           sv: 'En av världens tidigaste urbana civilisationer med avancerad stadsplanering.',
@@ -458,7 +568,17 @@ export const pakistan: Country = {
           nl: 'Truckkunst',
           pt: 'Arte em caminhões',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Colorful truck decoration art form unique to Pakistan.',
           sv: 'Färgglad konstform för lastbilsdekoration unik för Pakistan.',
@@ -634,7 +754,7 @@ export const pakistan: Country = {
       },
       description: {
         en: 'Deep-fried milk dumplings in rose syrup',
-        sv: 'Friterade mjölkdumplings i rosésirap',
+        sv: 'Friterade mjölkbollar i sockerlag med rosenvatten',
         es: 'Empanadillas de leche fritas en almíbar de rosas',
         fr: 'Raviolis au lait frits au sirop de rose',
         de: 'Frittierte Milchknödel in Rosensirup',
@@ -676,7 +796,7 @@ export const pakistan: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -691,7 +811,7 @@ export const pakistan: Country = {
         {
           name: {
             en: 'Baking soda',
-            sv: 'Bakpulver',
+            sv: 'Bikarbonat',
             es: 'Bicarbonato de sodio',
             fr: 'Bicarbonate de soude',
             de: 'Backpulver',
@@ -721,7 +841,7 @@ export const pakistan: Country = {
         {
           name: {
             en: 'Ghee for frying',
-            sv: 'Ghee för stekning',
+            sv: 'Ghee till stekning',
             es: 'Manteca para freír',
             fr: 'Ghee pour la friture',
             de: 'Ghee zum Braten',
@@ -817,7 +937,7 @@ export const pakistan: Country = {
       steps: [
         {
           en: 'Mix milk powder, flour, and baking soda',
-          sv: 'Blanda mjölkpulver, mjöl och bakpulver',
+          sv: 'Blanda mjölkpulver, vetemjöl och bikarbonat',
           es: 'Mezcla leche en polvo, harina y bicarbonato de sodio',
           fr: 'Mélanger le lait en poudre, la farine et le bicarbonate de soude',
           de: 'Milchpulver, Mehl und Backpulver vermischen',
@@ -828,7 +948,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Add milk to form soft dough',
-          sv: 'Tillsätt mjölk för att bilda en mjuk deg',
+          sv: 'Tillsätt mjölken och arbeta ihop till en mjuk deg',
           es: 'Agrega la leche para formar una masa suave',
           fr: 'Ajouter le lait pour former une pâte molle',
           de: 'Milch hinzufügen, um einen weichen Teig zu formen',
@@ -839,7 +959,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Shape into small smooth balls',
-          sv: 'Forma till små släta bollar',
+          sv: 'Forma degen till små, släta bollar',
           es: 'Forme bolitas pequeñas y suaves',
           fr: 'Façonner en petites boules lisses',
           de: 'Zu kleinen glatten Kugeln formen',
@@ -850,7 +970,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Make syrup: boil sugar, water, cardamom',
-          sv: 'Gör sirap: koka socker, vatten, kardemumma',
+          sv: 'Gör sockerlagen: koka upp socker, vatten och kardemumma',
           es: 'Hacer almíbar: hervir azúcar, agua, cardamomo',
           fr: 'Préparer le sirop : faire bouillir le sucre, l\'eau, la cardamome',
           de: 'Sirup herstellen: Zucker, Wasser, Kardamom aufkochen',
@@ -861,7 +981,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Add rose water to syrup',
-          sv: 'Tillsätt rosenvatten till sirap',
+          sv: 'Tillsätt rosenvatten i sockerlagen',
           es: 'Agregue agua de rosas al almíbar',
           fr: 'Ajouter l\'eau de rose au sirop',
           de: 'Rosenwasser zum Sirup hinzufügen',
@@ -872,7 +992,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Deep fry balls in ghee on low heat until golden',
-          sv: 'Fritera bollar i ghee på låg värme tills de är gyllene',
+          sv: 'Fritera bollarna i ghee på låg värme tills de är gyllene',
           es: 'Freír las bolas en ghee a fuego lento hasta que estén doradas',
           fr: 'Faites frire les boules dans du ghee à feu doux jusqu\'à ce qu\'elles soient dorées',
           de: 'Bällchen in Ghee bei schwacher Hitze frittieren, bis sie goldbraun sind',
@@ -883,7 +1003,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Add hot balls to warm syrup',
-          sv: 'Lägg varma bollar till varm sirap',
+          sv: 'Lägg ner de varma bollarna i den ljumma sockerlagen',
           es: 'Agregue bolas calientes al almíbar tibio',
           fr: 'Ajouter les boules chaudes au sirop chaud',
           de: 'Heiße Kugeln zum warmen Sirup hinzufügen',
@@ -910,7 +1030,7 @@ export const pakistan: Country = {
       id: 'pakistan-biryani',
       name: {
         en: 'Chicken Biryani',
-        sv: 'Kyckling Biryani',
+        sv: 'Kycklingbiryani',
         es: 'Pollo Biryani',
         fr: 'Poulet Biryani',
         de: 'Hühnchen-Biryani',
@@ -921,7 +1041,7 @@ export const pakistan: Country = {
       },
       description: {
         en: 'Aromatic rice dish layered with spiced chicken, one of Pakistan\'s most beloved dishes',
-        sv: 'Aromatisk risrätt i lager med kryddad kyckling, en av Pakistans mest älskade rätter',
+        sv: 'Aromatisk risrätt varvad med kryddad kyckling, en av Pakistans mest älskade rätter',
         es: 'Plato de arroz aromático con capas de pollo especiado, uno de los platos más queridos de Pakistán',
         fr: 'Plat de riz aromatique garni de poulet épicé, l\'un des plats les plus appréciés du Pakistan',
         de: 'Aromatisches Reisgericht mit gewürztem Hühnchen, eines der beliebtesten Gerichte Pakistans',
@@ -1005,7 +1125,7 @@ export const pakistan: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1043,7 +1163,7 @@ export const pakistan: Country = {
         {
           name: {
             en: 'Ginger-garlic paste',
-            sv: 'Ingefära-vitlökspasta',
+            sv: 'Ingefärs- och vitlökspasta',
             es: 'Pasta de jengibre y ajo',
             fr: 'Pâte gingembre-ail',
             de: 'Ingwer-Knoblauch-Paste',
@@ -1130,7 +1250,7 @@ export const pakistan: Country = {
           amount: 1,
           unit: {
             en: 'bunch each',
-            sv: 'knippe av varje',
+            sv: 'knippe av vardera',
             es: 'manojo de cada uno',
             fr: 'botte de chaque',
             de: 'Bund von jedem',
@@ -1159,7 +1279,7 @@ export const pakistan: Country = {
       steps: [
         {
           en: 'Marinate chicken with yogurt, ginger-garlic paste, and half the biryani masala for 30 min',
-          sv: 'Marinera kyckling med yoghurt, ingefära-vitlökspasta och hälften av biryani masala i 30 min',
+          sv: 'Marinera kycklingen med yoghurt, ingefärs- och vitlökspasta och hälften av biryani masalan i 30 min',
           es: 'Marina el pollo con yogur, pasta de jengibre y ajo y la mitad del biryani masala durante 30 min',
           fr: 'Faire mariner le poulet avec le yaourt, la pâte gingembre-ail et la moitié du biryani masala pendant 30 min',
           de: 'Hähnchen mit Joghurt, Ingwer-Knoblauch-Paste und der Hälfte des Biryani Masala 30 Minuten lang marinieren',
@@ -1170,7 +1290,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Parboil rice with whole spices until 70% cooked, drain',
-          sv: 'Parboil ris med hela kryddor tills 70% kokt, rinna av',
+          sv: 'Förkoka riset med hela kryddor tills det är nästan klart (ca 70 %) och låt rinna av',
           es: 'Sancochar el arroz con especias enteras hasta que esté cocido al 70%, escurrir',
           fr: 'Faire bouillir le riz avec les épices entières jusqu\'à ce qu\'il soit cuit à 70 %, égoutter',
           de: 'Reis mit ganzen Gewürzen vorkochen, bis er zu 70 % gar ist, abtropfen lassen',
@@ -1181,7 +1301,7 @@ export const pakistan: Country = {
         },
         {
           en: 'In a heavy pot, layer: fried onions, marinated chicken, remaining masala',
-          sv: 'I en tjock gryta, lager: stekt lök, marinerad kyckling, återstående masala',
+          sv: 'Lägg i lager i en tjockbottnad gryta: stekt lök, marinerad kyckling och resten av masalan',
           es: 'En una olla pesada, coloque capas: cebollas fritas, pollo marinado y masala restante',
           fr: 'Dans une casserole à fond épais, déposer en couches : les oignons frits, le poulet mariné, le reste du masala',
           de: 'In einem schweren Topf schichten: Röstzwiebeln, mariniertes Hähnchen, restliches Masala',
@@ -1203,7 +1323,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Layer parboiled rice on top',
-          sv: 'Lägg parboiled ris på toppen',
+          sv: 'Lägg det förkokta riset överst',
           es: 'Coloque capas de arroz sancochado encima',
           fr: 'Étendre du riz étuvé dessus',
           de: 'Parboiled-Reis darüber schichten',
@@ -1214,7 +1334,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Sprinkle saffron soaked in milk, remaining fried onions, and ghee',
-          sv: 'Strö saffran indränkt i mjölk, resterande stekt lök och ghee',
+          sv: 'Ringla över saffran blött i mjölk samt ghee och strö över resten av den stekta löken',
           es: 'Espolvorea el azafrán remojado en leche, el resto de las cebollas fritas y el ghee',
           fr: 'Saupoudrer le safran imbibé de lait, le reste des oignons frits et le ghee',
           de: 'In Milch getränkten Safran, restliche Röstzwiebeln und Ghee darüberstreuen',
@@ -1225,7 +1345,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Cover pot tightly with foil and lid',
-          sv: 'Täck grytan ordentligt med folie och lock',
+          sv: 'Täck grytan tätt med folie och lock',
           es: 'Cubra bien la olla con papel de aluminio y tapa',
           fr: 'Couvrir hermétiquement le pot avec du papier d\'aluminium et un couvercle',
           de: 'Den Topf fest mit Folie und Deckel abdecken',
@@ -1236,7 +1356,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Cook on high heat for 5 min, then low heat for 30-40 min (dum)',
-          sv: 'Koka på hög värme i 5 min, sedan låg värme i 30-40 min (dum)',
+          sv: 'Ha grytan på hög värme i 5 min och sänk sedan till låg värme i 30–40 min (dum)',
           es: 'Cocine a fuego alto durante 5 min, luego a fuego lento durante 30-40 min (tonto)',
           fr: 'Cuire à feu vif pendant 5 min, puis à feu doux pendant 30-40 min (dum)',
           de: '5 Min. bei starker Hitze kochen, dann 30-40 Min. bei schwacher Hitze kochen (Dum)',
@@ -1247,7 +1367,7 @@ export const pakistan: Country = {
         },
         {
           en: 'Let rest for 5 minutes before opening',
-          sv: 'Låt vila i 5 minuter innan du öppnar',
+          sv: 'Låt vila i 5 minuter innan du lyfter på locket',
           es: 'Dejar reposar 5 minutos antes de abrir',
           fr: 'Laisser reposer 5 minutes avant ouverture',
           de: 'Vor dem Öffnen 5 Minuten ruhen lassen',
@@ -1414,7 +1534,7 @@ export const pakistan: Country = {
           },
           {
             en: 'Hindu Kush',
-            sv: 'Hindu Kush',
+            sv: 'Hindukush',
             es: 'Hindú Kush',
             fr: 'Hindou Kush',
             de: 'Hindukusch',

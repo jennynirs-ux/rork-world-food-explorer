@@ -220,7 +220,17 @@ export const mali: Country = {
     history: [
       {
         year: '1235',
-        title: 'Mali Empire',
+        title: {
+          en: 'Mali Empire',
+          sv: 'Maliriket',
+          es: 'Imperio de Malí',
+          fr: 'Empire du Mali',
+          de: 'Malireich',
+          it: 'Impero del Mali',
+          pl: 'Imperium Mali',
+          nl: 'Malirijk',
+          pt: 'Império do Mali',
+        },
         description: {
           en: 'Sundiata Keita founded the Mali Empire, which became one of the wealthiest in the world.',
           sv: 'Sundiata Keita grundade Mali-imperiet, som blev ett av de rikaste i världen.',
@@ -235,7 +245,17 @@ export const mali: Country = {
       },
       {
         year: '1324',
-        title: 'Mansa Musa\'s Pilgrimage',
+        title: {
+          en: 'Mansa Musa\'s Pilgrimage',
+          sv: 'Mansa Musas pilgrimsfärd',
+          es: 'Peregrinación de Mansa Musa',
+          fr: 'Pèlerinage de Mansa Moussa',
+          de: 'Mansa Musas Pilgerreise',
+          it: 'Pellegrinaggio di Mansa Musa',
+          pl: 'Pielgrzymka Mansy Musy',
+          nl: 'Pelgrimstocht van Mansa Musa',
+          pt: 'Peregrinação de Mansa Musa',
+        },
         description: {
           en: 'The richest man in history traveled to Mecca with so much gold he caused inflation.',
           sv: 'Den rikaste mannen i historien reste till Mecka med så mycket guld att han orsakade inflation.',
@@ -250,7 +270,17 @@ export const mali: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Mali gained independence from France.',
           sv: 'Mali blev självständigt från Frankrike.',
@@ -277,7 +307,17 @@ export const mali: Country = {
           nl: 'Manuscripten van Timboektoe',
           pt: 'Manuscritos de Timbuctu',
         },
-        year: '13th Century',
+        year: {
+          en: '13th Century',
+          sv: '1200-talet',
+          es: 'Siglo XIII',
+          fr: 'XIIIe siècle',
+          de: '13. Jahrhundert',
+          it: 'XIII secolo',
+          pl: 'XIII wiek',
+          nl: '13e eeuw',
+          pt: 'Século XIII',
+        },
         description: {
           en: 'Preservation of ancient Islamic manuscripts and scholarly traditions.',
           sv: 'Bevarande av gamla islamiska manuskript och vetenskapliga traditioner.',
@@ -302,7 +342,17 @@ export const mali: Country = {
           nl: 'Leemsteenarchitectuur',
           pt: 'Arquitetura de tijolos de barro',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Great Mosque of Djenné showcases traditional Sudano-Sahelian architecture.',
           sv: 'Den stora moskén i Djenné visar upp traditionell sudano-sahelisk arkitektur.',
@@ -327,7 +377,17 @@ export const mali: Country = {
           nl: 'Kora-muziek',
           pt: 'Música de kora',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Development of the 21-string kora instrument and its playing techniques.',
           sv: 'Utveckling av det 21-strängade korainstrumentet och dess spelteknik.',
@@ -393,7 +453,7 @@ export const mali: Country = {
       {
         name: {
           en: 'Dogon Country',
-          sv: 'Dogon Country',
+          sv: 'Dogonlandet',
           es: 'País Dogón',
           fr: 'Pays Dogon',
           de: 'Dogon-Land',
@@ -441,7 +501,7 @@ export const mali: Country = {
       {
         name: {
           en: 'Bamako National Museum',
-          sv: 'Bamako National Museum',
+          sv: 'Nationalmuseet i Bamako',
           es: 'Museo Nacional de Bamako',
           fr: 'Musée National de Bamako',
           de: 'Nationalmuseum Bamako',
@@ -465,7 +525,17 @@ export const mali: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories; some areas have security concerns.',
           sv: 'Kontrollera aktuella resemeddelanden; vissa områden har säkerhetsproblem.',
@@ -479,7 +549,17 @@ export const mali: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-February for cooler, dry weather.',
           sv: 'November-februari för svalare, torrt väder.',
@@ -493,7 +573,17 @@ export const mali: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa arranged in advance.',
           sv: 'De flesta besökare behöver ett visum som ordnas i förväg.',
@@ -507,7 +597,17 @@ export const mali: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Required for entry into Mali.',
           sv: 'Krävs för inresa till Mali.',
@@ -578,7 +678,7 @@ export const mali: Country = {
         {
           name: {
             en: 'Plain yogurt',
-            sv: 'Vanlig yoghurt',
+            sv: 'Naturell yoghurt',
             es: 'Yogur natural',
             fr: 'Yaourt nature',
             de: 'Naturjoghurt',
@@ -623,7 +723,7 @@ export const mali: Country = {
         {
           name: {
             en: 'Ground nutmeg',
-            sv: 'Malen muskotnöt',
+            sv: 'Mald muskotnöt',
             es: 'Nuez moscada molida',
             fr: 'Noix de muscade moulue',
             de: 'Gemahlene Muskatnuss',
@@ -654,7 +754,7 @@ export const mali: Country = {
       steps: [
         {
           en: 'Steam millet couscous until fluffy',
-          sv: 'Ånga hirscouscousen tills den är fluffig',
+          sv: 'Ångkoka hirscouscousen tills den är luftig',
           es: 'Cuscús de mijo al vapor hasta que quede esponjoso',
           fr: 'Couscous au mil cuit à la vapeur jusqu\'à ce qu\'il soit mousseux',
           de: 'Hirse-Couscous dämpfen, bis er locker ist',
@@ -687,7 +787,7 @@ export const mali: Country = {
         },
         {
           en: 'Fold cooled millet into yogurt mixture',
-          sv: 'Vik ned kyld hirs i yoghurtblandningen',
+          sv: 'Vänd ner den avsvalnade hirsen i yoghurtblandningen',
           es: 'Incorpora el mijo enfriado a la mezcla de yogur',
           fr: 'Incorporer le millet refroidi au mélange de yaourt',
           de: 'Abgekühlte Hirse unter die Joghurtmischung heben',
@@ -747,7 +847,7 @@ export const mali: Country = {
       },
       description: {
         en: 'Peanut butter stew with meat and vegetables',
-        sv: 'Jordnötssmörsgryta med kött och grönsaker',
+        sv: 'Gryta med jordnötssmör, kött och grönsaker',
         es: 'Guiso de mantequilla de maní con carne y verduras',
         fr: 'Ragoût de beurre de cacahuète avec viande et légumes',
         de: 'Erdnussbuttereintopf mit Fleisch und Gemüse',
@@ -816,7 +916,7 @@ export const mali: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -856,7 +956,7 @@ export const mali: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -881,7 +981,7 @@ export const mali: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -895,7 +995,7 @@ export const mali: Country = {
       steps: [
         {
           en: 'Brown meat with onions',
-          sv: 'Bryn kött med lök',
+          sv: 'Bryn köttet med löken',
           es: 'Dorar la carne con cebolla',
           fr: 'Faire dorer la viande aux oignons',
           de: 'Braunes Fleisch mit Zwiebeln',
@@ -928,7 +1028,7 @@ export const mali: Country = {
         },
         {
           en: 'Add vegetables',
-          sv: 'Lägg till grönsaker',
+          sv: 'Tillsätt grönsakerna',
           es: 'Añadir verduras',
           fr: 'Ajouter des légumes',
           de: 'Gemüse hinzufügen',
@@ -939,7 +1039,7 @@ export const mali: Country = {
         },
         {
           en: 'Simmer until thick',
-          sv: 'Sjud tills det blir tjockt',
+          sv: 'Låt sjuda tills grytan tjocknar',
           es: 'Cocine a fuego lento hasta que espese',
           fr: 'Laisser mijoter jusqu\'à épaississement',
           de: 'köcheln lassen, bis es dickflüssig ist',

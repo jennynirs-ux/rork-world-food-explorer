@@ -264,7 +264,17 @@ export const germany: Country = {
     history: [
       {
         year: '1871',
-        title: 'German Unification',
+        title: {
+          en: 'German Unification',
+          sv: 'Tysklands enande',
+          es: 'Unificación alemana',
+          fr: 'Unification allemande',
+          de: 'Reichsgründung',
+          it: 'Unificazione tedesca',
+          pl: 'Zjednoczenie Niemiec',
+          nl: 'Duitse eenwording',
+          pt: 'Unificação alemã',
+        },
         description: {
           en: 'Otto von Bismarck unified German states into a single empire under Prussian leadership.',
           sv: 'Otto von Bismarck enade tyska stater till ett enda imperium under preussiskt ledarskap.',
@@ -279,7 +289,17 @@ export const germany: Country = {
       },
       {
         year: '1939-1945',
-        title: 'World War II',
+        title: {
+          en: 'World War II',
+          sv: 'Andra världskriget',
+          es: 'Segunda Guerra Mundial',
+          fr: 'Seconde Guerre mondiale',
+          de: 'Zweiter Weltkrieg',
+          it: 'Seconda guerra mondiale',
+          pl: 'II wojna światowa',
+          nl: 'Tweede Wereldoorlog',
+          pt: 'Segunda Guerra Mundial',
+        },
         description: {
           en: 'Nazi Germany\'s aggression led to the most devastating war in human history.',
           sv: 'Nazitysklands aggression ledde till det mest förödande kriget i mänsklighetens historia.',
@@ -294,7 +314,17 @@ export const germany: Country = {
       },
       {
         year: '1961-1989',
-        title: 'Berlin Wall',
+        title: {
+          en: 'Berlin Wall',
+          sv: 'Berlinmuren',
+          es: 'Muro de Berlín',
+          fr: 'Mur de Berlin',
+          de: 'Berliner Mauer',
+          it: 'Muro di Berlino',
+          pl: 'Mur berliński',
+          nl: 'Berlijnse Muur',
+          pt: 'Muro de Berlim',
+        },
         description: {
           en: 'The wall divided East and West Berlin, symbolizing the Cold War division of Europe.',
           sv: 'Muren delade Öst- och Västberlin, vilket symboliserar det kalla krigets uppdelning av Europa.',
@@ -309,7 +339,17 @@ export const germany: Country = {
       },
       {
         year: '1990',
-        title: 'Reunification',
+        title: {
+          en: 'Reunification',
+          sv: 'Återföreningen',
+          es: 'Reunificación',
+          fr: 'Réunification',
+          de: 'Wiedervereinigung',
+          it: 'Riunificazione',
+          pl: 'Zjednoczenie Niemiec',
+          nl: 'Hereniging',
+          pt: 'Reunificação',
+        },
         description: {
           en: 'East and West Germany reunited after the fall of the Berlin Wall, becoming one nation again.',
           sv: 'Öst- och Västtyskland återförenades efter Berlinmurens fall och blev en nation igen.',
@@ -549,7 +589,17 @@ export const germany: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for warm weather, or December for magical Christmas markets.',
           sv: 'Maj-september för varmt väder, eller december för magiska julmarknader.',
@@ -563,7 +613,17 @@ export const germany: Country = {
         },
       },
       {
-        item: 'Rail pass',
+        item: {
+          en: 'Rail pass',
+          sv: 'Tågpass',
+          es: 'Pase de tren',
+          fr: 'Pass ferroviaire',
+          de: 'Bahnpass',
+          it: 'Pass ferroviario',
+          pl: 'Karnet kolejowy',
+          nl: 'Treinpas',
+          pt: 'Passe de trem',
+        },
         description: {
           en: 'Germany has an excellent train system connecting all major cities.',
           sv: 'Tyskland har ett utmärkt tågsystem som förbinder alla större städer.',
@@ -577,7 +637,17 @@ export const germany: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Many places still prefer cash over cards, especially smaller establishments.',
           sv: 'Många platser föredrar fortfarande kontanter framför kort, särskilt mindre anläggningar.',
@@ -591,7 +661,17 @@ export const germany: Country = {
         },
       },
       {
-        item: 'Power adapter',
+        item: {
+          en: 'Power adapter',
+          sv: 'Reseadapter',
+          es: 'Adaptador de enchufe',
+          fr: 'Adaptateur de prise',
+          de: 'Reiseadapter',
+          it: 'Adattatore per prese',
+          pl: 'Adapter do gniazdek',
+          nl: 'Reisstekker',
+          pt: 'Adaptador de tomada',
+        },
         description: {
           en: 'Germany uses Type C and F plugs with 230V.',
           sv: 'Tyskland använder typ C- och F-kontakter med 230V.',
@@ -605,7 +685,17 @@ export const germany: Country = {
         },
       },
       {
-        item: 'Comfortable shoes',
+        item: {
+          en: 'Comfortable shoes',
+          sv: 'Bekväma skor',
+          es: 'Calzado cómodo',
+          fr: 'Chaussures confortables',
+          de: 'Bequeme Schuhe',
+          it: 'Scarpe comode',
+          pl: 'Wygodne buty',
+          nl: 'Comfortabele schoenen',
+          pt: 'Sapatos confortáveis',
+        },
         description: {
           en: 'German cities are very walkable with cobblestone streets.',
           sv: 'Tyska städer är mycket gångbara med kullerstensgator.',
@@ -619,7 +709,17 @@ export const germany: Country = {
         },
       },
       {
-        item: 'German phrasebook',
+        item: {
+          en: 'German phrasebook',
+          sv: 'Tysk parlör',
+          es: 'Guía de conversación en alemán',
+          fr: 'Guide de conversation allemand',
+          de: 'Sprachführer Deutsch',
+          it: 'Frasario di tedesco',
+          pl: 'Rozmówki niemieckie',
+          nl: 'Duitse taalgids',
+          pt: 'Guia de conversação em alemão',
+        },
         description: {
           en: 'While many speak English, locals appreciate efforts to speak German.',
           sv: 'Medan många talar engelska, uppskattar lokalbefolkningen ansträngningar att tala tyska.',
@@ -648,7 +748,7 @@ export const germany: Country = {
       },
       description: {
         en: 'Traditional German pot roast, marinated in vinegar and spices, served with red cabbage',
-        sv: 'Traditionell tysk grytstek, marinerad i vinäger och kryddor, serverad med rödkål',
+        sv: 'Traditionell tysk grytstek som marineras i vinäger och kryddor och serveras med rödkål',
         es: 'Asado tradicional alemán, marinado en vinagre y especias, servido con col lombarda',
         fr: 'Rôti allemand traditionnel, mariné dans du vinaigre et des épices, servi avec du chou rouge',
         de: 'Traditioneller deutscher Schmorbraten, mariniert in Essig und Gewürzen, serviert mit Rotkohl',
@@ -705,7 +805,7 @@ export const germany: Country = {
         {
           name: {
             en: 'Red wine',
-            sv: 'Rött vin',
+            sv: 'Rödvin',
             es: 'Vino tinto',
             fr: 'Vin rouge',
             de: 'Rotwein',
@@ -732,7 +832,7 @@ export const germany: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -757,7 +857,7 @@ export const germany: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -835,7 +935,7 @@ export const germany: Country = {
         {
           name: {
             en: 'Beef broth',
-            sv: 'Nötköttsbuljong',
+            sv: 'Köttbuljong',
             es: 'Caldo de carne',
             fr: 'Bouillon de boeuf',
             de: 'Rinderbrühe',
@@ -851,7 +951,7 @@ export const germany: Country = {
       steps: [
         {
           en: 'Combine vinegar, wine, sliced onions, carrots, bay leaves, and juniper berries',
-          sv: 'Kombinera vinäger, vin, skivad lök, morötter, lagerblad och enbär',
+          sv: 'Blanda vinäger, vin, skivad lök, morötter, lagerblad och enbär',
           es: 'Combine vinagre, vino, cebollas en rodajas, zanahorias, hojas de laurel y bayas de enebro',
           fr: 'Mélanger le vinaigre, le vin, les oignons émincés, les carottes, les feuilles de laurier et les baies de genièvre',
           de: 'Essig, Wein, geschnittene Zwiebeln, Karotten, Lorbeerblätter und Wacholderbeeren vermischen',
@@ -862,7 +962,7 @@ export const germany: Country = {
         },
         {
           en: 'Place beef in marinade, refrigerate for 2-3 days, turning daily',
-          sv: 'Lägg nötköttet i marinaden, kyl i 2-3 dagar, vänd dagligen',
+          sv: 'Lägg köttet i marinaden och låt det stå i kylen i 2–3 dagar, vänd det en gång om dagen',
           es: 'Coloque la carne en la marinada, refrigere durante 2-3 días, volteándola diariamente',
           fr: 'Placer le bœuf dans la marinade, réfrigérer pendant 2-3 jours, en le retournant quotidiennement',
           de: 'Rindfleisch in die Marinade legen, 2-3 Tage im Kühlschrank lagern, dabei täglich wenden',
@@ -873,7 +973,7 @@ export const germany: Country = {
         },
         {
           en: 'Remove beef from marinade, pat dry, season with salt and pepper',
-          sv: 'Ta bort nötköttet från marinaden, torka torrt, smaka av med salt och peppar',
+          sv: 'Ta upp köttet ur marinaden, torka det torrt och krydda med salt och peppar',
           es: 'Retire la carne de la marinada, séquela y sazone con sal y pimienta',
           fr: 'Retirer le bœuf de la marinade, l\'éponger, l\'assaisonner de sel et de poivre',
           de: 'Rindfleisch aus der Marinade nehmen, trocken tupfen, mit Salz und Pfeffer würzen',
@@ -884,7 +984,7 @@ export const germany: Country = {
         },
         {
           en: 'Brown beef on all sides in a Dutch oven',
-          sv: 'Bryn nötkött på alla sidor i en holländsk ugn',
+          sv: 'Bryn köttet runt om i en gjutjärnsgryta',
           es: 'Dore la carne por todos lados en una olla',
           fr: 'Faire dorer le bœuf de tous les côtés dans une cocotte',
           de: 'Rindfleisch im Schmortopf von allen Seiten anbraten',
@@ -895,7 +995,7 @@ export const germany: Country = {
         },
         {
           en: 'Add strained marinade and beef broth',
-          sv: 'Tillsätt silad marinad och nötbuljong',
+          sv: 'Tillsätt den silade marinaden och köttbuljongen',
           es: 'Agregue la marinada colada y el caldo de res',
           fr: 'Ajouter la marinade égouttée et le bouillon de bœuf',
           de: 'Passierte Marinade und Rinderbrühe hinzufügen',
@@ -906,7 +1006,7 @@ export const germany: Country = {
         },
         {
           en: 'Cover and simmer for 3-4 hours until meat is tender',
-          sv: 'Täck och låt sjuda i 3-4 timmar tills köttet är mört',
+          sv: 'Lägg på locket och låt sjuda i 3–4 timmar tills köttet är mört',
           es: 'Tape y cocine a fuego lento durante 3-4 horas hasta que la carne esté tierna',
           fr: 'Couvrir et laisser mijoter pendant 3 à 4 heures jusqu\'à ce que la viande soit tendre',
           de: 'Abdecken und 3-4 Stunden köcheln lassen, bis das Fleisch zart ist',
@@ -917,7 +1017,7 @@ export const germany: Country = {
         },
         {
           en: 'Remove meat, keep warm',
-          sv: 'Ta bort köttet, håll varmt',
+          sv: 'Lyft upp köttet och håll det varmt',
           es: 'Retire la carne, manténgala caliente',
           fr: 'Retirer la viande, garder au chaud',
           de: 'Fleisch herausnehmen, warm halten',
@@ -928,7 +1028,7 @@ export const germany: Country = {
         },
         {
           en: 'Strain sauce, add crumbled gingersnap cookies to thicken',
-          sv: 'Sila såsen, tillsätt smulade gingersnap cookies för att tjockna',
+          sv: 'Sila såsen och red den med smulade pepparkakor',
           es: 'Cuele la salsa, agregue las galletas de jengibre desmenuzadas para espesar',
           fr: 'Filtrer la sauce, ajouter les biscuits au gingembre émiettés pour épaissir',
           de: 'Die Soße abseihen und zum Eindicken zerbröselte Lebkuchenplätzchen hinzufügen',
@@ -939,7 +1039,7 @@ export const germany: Country = {
         },
         {
           en: 'Slice meat, serve with sauce, red cabbage, and dumplings',
-          sv: 'Skiva kött, servera med sås, rödkål och dumplings',
+          sv: 'Skiva köttet och servera med såsen, rödkål och knödlar',
           es: 'Cortar la carne en rodajas, servir con salsa, col lombarda y albóndigas',
           fr: 'Trancher la viande, servir avec la sauce, le chou rouge et les raviolis',
           de: 'Fleisch in Scheiben schneiden, mit Soße, Rotkohl und Knödeln servieren',
@@ -955,7 +1055,7 @@ export const germany: Country = {
       id: 'germany-dessert',
       name: {
         en: 'Black Forest Cake (Schwarzwälder Kirschtorte)',
-        sv: 'Schwarzwaldkaka (Schwarzwälder Kirschtorte)',
+        sv: 'Schwarzwaldtårta (Schwarzwälder Kirschtorte)',
         es: 'Pastel de la Selva Negra (Schwarzwälder Kirschtorte)',
         fr: 'Gâteau Forêt-Noire (Schwarzwälder Kirschtorte)',
         de: 'Schwarzwälder Kirschtorte',
@@ -966,7 +1066,7 @@ export const germany: Country = {
       },
       description: {
         en: 'Chocolate sponge cake layered with whipped cream and cherries, soaked in kirsch',
-        sv: 'Choklad sockerkaka i lager med vispad grädde och körsbär, indränkt i kirsch',
+        sv: 'Chokladtårtbottnar fuktade med kirsch och varvade med vispad grädde och körsbär',
         es: 'Bizcocho de chocolate con capas de nata montada y cerezas, bañado en kirsch',
         fr: 'Génoise au chocolat recouverte de chantilly et de cerises, imbibée de kirsch',
         de: 'Schokoladen-Biskuitkuchen mit Schlagsahne und Kirschen, getränkt in Kirschwasser',
@@ -1008,7 +1108,7 @@ export const germany: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -1050,7 +1150,7 @@ export const germany: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1063,7 +1163,7 @@ export const germany: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -1124,7 +1224,7 @@ export const germany: Country = {
       steps: [
         {
           en: 'Bake chocolate sponge cake, let cool completely',
-          sv: 'Baka choklad sockerkaka, låt svalna helt',
+          sv: 'Grädda en chokladsockerkaka och låt den svalna helt',
           es: 'Hornear bizcocho de chocolate, dejar enfriar por completo',
           fr: 'Cuire la génoise au chocolat, laisser refroidir complètement',
           de: 'Schokoladen-Biskuitkuchen backen, vollständig abkühlen lassen',
@@ -1135,7 +1235,7 @@ export const germany: Country = {
         },
         {
           en: 'Cut cake horizontally into 3 layers',
-          sv: 'Skär kakan horisontellt i 3 lager',
+          sv: 'Dela kakan vågrätt i 3 bottnar',
           es: 'Cortar el pastel horizontalmente en 3 capas',
           fr: 'Couper le gâteau horizontalement en 3 couches',
           de: 'Kuchen horizontal in 3 Schichten schneiden',
@@ -1146,7 +1246,7 @@ export const germany: Country = {
         },
         {
           en: 'Drain cherries, reserve juice, mix juice with kirsch',
-          sv: 'Häll av körsbär, reservera juice, blanda juice med kirsch',
+          sv: 'Låt körsbären rinna av, spara saften och blanda den med kirsch',
           es: 'Escurrir las cerezas, reservar el jugo, mezclar el jugo con el kirsch',
           fr: 'Égoutter les cerises, réserver le jus, mélanger le jus avec le kirsch',
           de: 'Kirschen abtropfen lassen, Saft auffangen, Saft mit Kirschwasser mischen',
@@ -1157,7 +1257,7 @@ export const germany: Country = {
         },
         {
           en: 'Whip heavy cream with sugar until stiff peaks form',
-          sv: 'Vispa tjock grädde med socker tills det bildas styva toppar',
+          sv: 'Vispa grädden med socker till ett hårt skum',
           es: 'Batir la crema espesa con el azúcar hasta que se formen picos rígidos',
           fr: 'Fouetter la crème épaisse avec le sucre jusqu\'à formation de pics fermes',
           de: 'Schlagsahne mit Zucker schlagen, bis sich steife Spitzen bilden',
@@ -1168,7 +1268,7 @@ export const germany: Country = {
         },
         {
           en: 'Brush cake layers with kirsch syrup',
-          sv: 'Pensla tårtlager med kirschsirap',
+          sv: 'Pensla bottnarna med kirschblandningen',
           es: 'Unte las capas del pastel con sirope de kirsch',
           fr: 'Badigeonner les couches de gâteau de sirop de kirsch',
           de: 'Kuchenschichten mit Kirschsirup bestreichen',
@@ -1179,7 +1279,7 @@ export const germany: Country = {
         },
         {
           en: 'Layer cake with whipped cream and cherries',
-          sv: 'Skiktårta med vispad grädde och körsbär',
+          sv: 'Varva bottnarna med vispad grädde och körsbär',
           es: 'Pastel de capas con nata montada y cerezas',
           fr: 'Gâteau étagé à la crème fouettée et aux cerises',
           de: 'Schichtkuchen mit Schlagsahne und Kirschen',
@@ -1190,7 +1290,7 @@ export const germany: Country = {
         },
         {
           en: 'Cover entire cake with remaining whipped cream',
-          sv: 'Täck hela kakan med återstående vispad grädde',
+          sv: 'Täck hela tårtan med resten av grädden',
           es: 'Cubrir todo el pastel con la crema batida restante',
           fr: 'Couvrir tout le gâteau avec le reste de la crème fouettée',
           de: 'Den gesamten Kuchen mit der restlichen Schlagsahne bedecken',
@@ -1212,7 +1312,7 @@ export const germany: Country = {
         },
         {
           en: 'Refrigerate for at least 4 hours before serving',
-          sv: 'Kyl i minst 4 timmar innan servering',
+          sv: 'Kyl i minst 4 timmar före servering',
           es: 'Refrigere durante al menos 4 horas antes de servir',
           fr: 'Réfrigérer au moins 4 heures avant de servir',
           de: 'Vor dem Servieren mindestens 4 Stunden im Kühlschrank lagern',
@@ -1755,7 +1855,7 @@ export const germany: Country = {
         options: [
           {
             en: 'Sacher Torte',
-            sv: 'Sacher Torte',
+            sv: 'Sachertårta',
             es: 'Torta Sacher',
             fr: 'Sacher Torte',
             de: 'Sachertorte',

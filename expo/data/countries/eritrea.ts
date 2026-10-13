@@ -220,7 +220,17 @@ export const eritrea: Country = {
     history: [
       {
         year: '1890',
-        title: 'Italian Colony',
+        title: {
+          en: 'Italian Colony',
+          sv: 'Italiensk koloni',
+          es: 'Colonia italiana',
+          fr: 'Colonie italienne',
+          de: 'Italienische Kolonie',
+          it: 'Colonia italiana',
+          pl: 'Kolonia włoska',
+          nl: 'Italiaanse kolonie',
+          pt: 'Colônia italiana',
+        },
         description: {
           en: 'Italy established Eritrea as its first colony, leaving lasting architectural influence.',
           sv: 'Italien etablerade Eritrea som sin första koloni och lämnade bestående arkitektoniskt inflytande.',
@@ -235,7 +245,17 @@ export const eritrea: Country = {
       },
       {
         year: '1941-1952',
-        title: 'British Administration',
+        title: {
+          en: 'British Administration',
+          sv: 'Brittisk förvaltning',
+          es: 'Administración británica',
+          fr: 'Administration britannique',
+          de: 'Britische Verwaltung',
+          it: 'Amministrazione britannica',
+          pl: 'Administracja brytyjska',
+          nl: 'Brits bestuur',
+          pt: 'Administração britânica',
+        },
         description: {
           en: 'British forces liberated Eritrea from Italy during WWII.',
           sv: 'Brittiska styrkor befriade Eritrea från Italien under andra världskriget.',
@@ -250,7 +270,17 @@ export const eritrea: Country = {
       },
       {
         year: '1952-1991',
-        title: 'Ethiopian Federation',
+        title: {
+          en: 'Ethiopian Federation',
+          sv: 'Federationen med Etiopien',
+          es: 'Federación con Etiopía',
+          fr: 'Fédération avec l\'Éthiopie',
+          de: 'Föderation mit Äthiopien',
+          it: 'Federazione con l\'Etiopia',
+          pl: 'Federacja z Etiopią',
+          nl: 'Federatie met Ethiopië',
+          pt: 'Federação com a Etiópia',
+        },
         description: {
           en: 'Eritrea was federated with Ethiopia, later leading to 30-year independence war.',
           sv: 'Eritrea federerades med Etiopien, vilket senare ledde till ett 30-årigt självständighetskrig.',
@@ -265,7 +295,17 @@ export const eritrea: Country = {
       },
       {
         year: '1993',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Eritrea gained independence after referendum with 99.8% voting for independence.',
           sv: 'Eritrea fick självständighet efter folkomröstning med 99,8% röstade för självständighet.',
@@ -307,7 +347,7 @@ export const eritrea: Country = {
       {
         name: {
           en: 'Massawa Old Town',
-          sv: 'Massawa Old Town',
+          sv: 'Massawas gamla stad',
           es: 'Casco antiguo de Massawa',
           fr: 'Vieille ville de Massaoua',
           de: 'Altstadt von Massawa',
@@ -403,7 +443,17 @@ export const eritrea: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Required for most nationalities. Apply in advance.',
           sv: 'Krävs för de flesta nationaliteter. Ansök i förväg.',
@@ -417,7 +467,17 @@ export const eritrea: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October-March for cooler weather.',
           sv: 'Oktober-mars för svalare väder.',
@@ -431,7 +491,17 @@ export const eritrea: Country = {
         },
       },
       {
-        item: 'Travel permits',
+        item: {
+          en: 'Travel permits',
+          sv: 'Resetillstånd',
+          es: 'Permisos de viaje',
+          fr: 'Autorisations de voyage',
+          de: 'Reisegenehmigungen',
+          it: 'Permessi di viaggio',
+          pl: 'Zezwolenia na podróż',
+          nl: 'Reisvergunningen',
+          pt: 'Autorizações de viagem',
+        },
         description: {
           en: 'Required for travel outside Asmara.',
           sv: 'Krävs för resor utanför Asmara.',
@@ -445,7 +515,17 @@ export const eritrea: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Credit cards rarely accepted. Bring sufficient nakfa or USD.',
           sv: 'Kreditkort accepteras sällan. Ta med tillräckligt med nakfa eller USD.',
@@ -474,7 +554,7 @@ export const eritrea: Country = {
       },
       description: {
         en: 'Spicy beef stew served with injera',
-        sv: 'Kryddig biffgryta serverad med injera',
+        sv: 'Kryddstark nötköttsgryta som serveras med injera',
         es: 'Estofado de ternera picante servido con injera',
         fr: 'Ragoût de bœuf épicé servi avec injera',
         de: 'Würziger Rindereintopf serviert mit Injera',
@@ -501,7 +581,7 @@ export const eritrea: Country = {
         {
           name: {
             en: 'Beef chunks',
-            sv: 'Nötköttsbitar',
+            sv: 'Grytbitar av nöt',
             es: 'Trozos de ternera',
             fr: 'Morceaux de boeuf',
             de: 'Rindfleischstücke',
@@ -516,7 +596,7 @@ export const eritrea: Country = {
         {
           name: {
             en: 'Berbere spice',
-            sv: 'Berbere krydda',
+            sv: 'Berberekrydda',
             es: 'Especia berebere',
             fr: 'Épice berbère',
             de: 'Berbere-Gewürz',
@@ -553,7 +633,7 @@ export const eritrea: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -578,7 +658,7 @@ export const eritrea: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -616,7 +696,7 @@ export const eritrea: Country = {
         {
           name: {
             en: 'Injera bread',
-            sv: 'Injera bröd',
+            sv: 'Injera',
             es: 'Pan injera',
             fr: 'Pain Injera',
             de: 'Injera-Brot',
@@ -642,7 +722,7 @@ export const eritrea: Country = {
       steps: [
         {
           en: 'Dry-roast onions until soft',
-          sv: 'Torrstekt lök tills den är mjuk',
+          sv: 'Torrstek löken utan fett tills den är mjuk',
           es: 'Ase las cebollas en seco hasta que estén blandas',
           fr: 'Faire rôtir les oignons à sec jusqu\'à ce qu\'ils soient tendres',
           de: 'Zwiebeln trocken rösten, bis sie weich sind',
@@ -653,7 +733,7 @@ export const eritrea: Country = {
         },
         {
           en: 'Add berbere spice and tomatoes',
-          sv: 'Tillsätt berbere krydda och tomater',
+          sv: 'Tillsätt berberekrydda och tomater',
           es: 'Añade especias berebere y tomates',
           fr: 'Ajouter les épices berbère et les tomates',
           de: 'Berbere-Gewürz und Tomaten hinzufügen',
@@ -675,7 +755,7 @@ export const eritrea: Country = {
         },
         {
           en: 'Simmer for 2 hours until tender',
-          sv: 'Sjud i 2 timmar tills de är mjuka',
+          sv: 'Låt sjuda i 2 timmar tills köttet är mört',
           es: 'Cocine a fuego lento durante 2 horas hasta que estén tiernos',
           fr: 'Laisser mijoter pendant 2 heures jusqu\'à tendreté',
           de: '2 Stunden köcheln lassen, bis es weich ist',
@@ -686,7 +766,7 @@ export const eritrea: Country = {
         },
         {
           en: 'Adjust seasoning',
-          sv: 'Justera krydda',
+          sv: 'Smaka av och justera kryddningen',
           es: 'Ajustar la sazón',
           fr: 'Ajuster l\'assaisonnement',
           de: 'Gewürze anpassen',
@@ -697,7 +777,7 @@ export const eritrea: Country = {
         },
         {
           en: 'Serve on injera bread',
-          sv: 'Servera på injerabröd',
+          sv: 'Servera på injera',
           es: 'Servir sobre pan injera',
           fr: 'Servir sur du pain injera',
           de: 'Auf Injera-Brot',
@@ -724,7 +804,7 @@ export const eritrea: Country = {
       },
       description: {
         en: 'Sweet cardamom bread, often served during celebrations',
-        sv: 'Söt kardemummabröd, ofta serverad under festligheter',
+        sv: 'Sött kardemummabröd som ofta serveras vid högtider',
         es: 'Pan dulce de cardamomo, que se sirve a menudo durante las celebraciones',
         fr: 'Pain sucré à la cardamome, souvent servi lors des célébrations',
         de: 'Süßes Kardamombrot, oft bei Feierlichkeiten serviert',
@@ -751,7 +831,7 @@ export const eritrea: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -808,7 +888,7 @@ export const eritrea: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -867,7 +947,7 @@ export const eritrea: Country = {
       steps: [
         {
           en: 'Activate yeast in warm milk',
-          sv: 'Aktivera jäst i varm mjölk',
+          sv: 'Lös upp jästen i fingervarm mjölk',
           es: 'Activar la levadura en leche tibia',
           fr: 'Activer la levure dans le lait chaud',
           de: 'Hefe in warmer Milch aktivieren',
@@ -878,7 +958,7 @@ export const eritrea: Country = {
         },
         {
           en: 'Mix flour, sugar, and cardamom',
-          sv: 'Blanda mjöl, socker och kardemumma',
+          sv: 'Blanda vetemjöl, socker och kardemumma',
           es: 'Mezclar harina, azúcar y cardamomo',
           fr: 'Mélanger la farine, le sucre et la cardamome',
           de: 'Mehl, Zucker und Kardamom mischen',
@@ -889,7 +969,7 @@ export const eritrea: Country = {
         },
         {
           en: 'Add butter, eggs, and yeast mixture',
-          sv: 'Tillsätt smör, ägg och jästblandning',
+          sv: 'Tillsätt smör, ägg och jästblandningen',
           es: 'Agregue la mezcla de mantequilla, huevos y levadura',
           fr: 'Ajouter le beurre, les œufs et le mélange de levure',
           de: 'Butter, Eier und Hefemischung hinzufügen',
@@ -900,7 +980,7 @@ export const eritrea: Country = {
         },
         {
           en: 'Knead until smooth dough forms',
-          sv: 'Knåda tills en smidig deg bildas',
+          sv: 'Knåda till en smidig deg',
           es: 'Amasar hasta que se forme una masa suave',
           fr: 'Pétrir jusqu\'à ce qu\'une pâte lisse se forme',
           de: 'Kneten, bis ein glatter Teig entsteht',
@@ -933,7 +1013,7 @@ export const eritrea: Country = {
         },
         {
           en: 'Bake at 180°C for 35 minutes until golden',
-          sv: 'Grädda i 180°C i 35 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 35 minuter tills brödet är gyllenbrunt',
           es: 'Hornear a 180°C durante 35 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 35 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '35 Minuten bei 180°C goldbraun backen',
@@ -1008,7 +1088,17 @@ export const eritrea: Country = {
           nl: 'Traditie van de koffieceremonie',
           pt: 'Tradição da Cerimônia do Café',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Elaborate coffee preparation ritual that takes hours and brings communities together',
           sv: 'Utvecklad ritual för kaffeberedning som tar timmar och förenar samhällen',
@@ -1033,7 +1123,17 @@ export const eritrea: Country = {
           nl: 'Mariene bescherming Dahlak',
           pt: 'Conservação Marinha de Dahlak',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Protecting pristine Red Sea coral reefs and marine ecosystems',
           sv: 'Skydda orörda Röda havets korallrev och marina ekosystem',

@@ -264,7 +264,17 @@ export const portugal: Country = {
     history: [
       {
         year: '1139',
-        title: 'Kingdom Founded',
+        title: {
+          en: 'Kingdom Founded',
+          sv: 'Kungariket grundas',
+          es: 'Fundación del reino',
+          fr: 'Fondation du royaume',
+          de: 'Gründung des Königreichs',
+          it: 'Fondazione del regno',
+          pl: 'Założenie królestwa',
+          nl: 'Stichting van het koninkrijk',
+          pt: 'Fundação do reino',
+        },
         description: {
           en: 'Portugal became an independent kingdom under King Afonso I, making it one of Europe\'s oldest nation-states.',
           sv: 'Portugal blev ett självständigt kungarike under kung Afonso I, vilket gjorde det till en av Europas äldsta nationalstater.',
@@ -278,8 +288,28 @@ export const portugal: Country = {
         },
       },
       {
-        year: '1415-1600s',
-        title: 'Age of Discoveries',
+        year: {
+          en: '1415-1600s',
+          sv: '1415–1600-talet',
+          es: '1415 – siglo XVII',
+          fr: '1415 – XVIIe siècle',
+          de: '1415 – 17. Jahrhundert',
+          it: '1415 – XVII secolo',
+          pl: '1415 – XVII wiek',
+          nl: '1415 – 17e eeuw',
+          pt: '1415 – século XVII',
+        },
+        title: {
+          en: 'Age of Discoveries',
+          sv: 'De stora upptäcktsresornas tid',
+          es: 'Era de los Descubrimientos',
+          fr: 'Grandes découvertes',
+          de: 'Zeitalter der Entdeckungen',
+          it: 'Età delle scoperte',
+          pl: 'Epoka wielkich odkryć',
+          nl: 'Tijdperk van de ontdekkingen',
+          pt: 'Era dos Descobrimentos',
+        },
         description: {
           en: 'Portugal led global exploration, establishing trading routes to Asia, Africa, and the Americas.',
           sv: 'Portugal ledde global utforskning och etablerade handelsvägar till Asien, Afrika och Amerika.',
@@ -294,7 +324,17 @@ export const portugal: Country = {
       },
       {
         year: '1755',
-        title: 'Great Earthquake',
+        title: {
+          en: 'Great Earthquake',
+          sv: 'Den stora jordbävningen',
+          es: 'Gran terremoto',
+          fr: 'Grand séisme',
+          de: 'Großes Erdbeben',
+          it: 'Grande terremoto',
+          pl: 'Wielkie trzęsienie ziemi',
+          nl: 'Grote aardbeving',
+          pt: 'Grande terremoto',
+        },
         description: {
           en: 'Devastating earthquake destroyed much of Lisbon, leading to modern urban planning under Marquis of Pombal.',
           sv: 'En förödande jordbävning förstörde stora delar av Lissabon, vilket ledde till modern stadsplanering under markisen av Pombal.',
@@ -309,7 +349,17 @@ export const portugal: Country = {
       },
       {
         year: '1974',
-        title: 'Carnation Revolution',
+        title: {
+          en: 'Carnation Revolution',
+          sv: 'Nejlikerevolutionen',
+          es: 'Revolución de los Claveles',
+          fr: 'Révolution des Œillets',
+          de: 'Nelkenrevolution',
+          it: 'Rivoluzione dei garofani',
+          pl: 'Rewolucja goździków',
+          nl: 'Anjerrevolutie',
+          pt: 'Revolução dos Cravos',
+        },
         description: {
           en: 'Peaceful revolution ended decades of dictatorship, establishing democracy in Portugal.',
           sv: 'En fredlig revolution avslutade årtionden av diktatur och etablerade demokrati i Portugal.',
@@ -336,7 +386,17 @@ export const portugal: Country = {
           nl: 'Karveelschip',
           pt: 'Navio Caravela',
         },
-        year: '15th century',
+        year: {
+          en: '15th century',
+          sv: '1400-talet',
+          es: 'Siglo XV',
+          fr: 'XVe siècle',
+          de: '15. Jahrhundert',
+          it: 'XV secolo',
+          pl: 'XV wiek',
+          nl: '15e eeuw',
+          pt: 'Século XV',
+        },
         description: {
           en: 'Revolutionary ship design that enabled long-distance ocean exploration.',
           sv: 'Revolutionerande fartygsdesign som möjliggjorde långdistansutforskning av havet.',
@@ -361,7 +421,17 @@ export const portugal: Country = {
           nl: 'Maritieme navigatie',
           pt: 'Navegação Marítima',
         },
-        year: '1400s',
+        year: {
+          en: '1400s',
+          sv: '1400-talet',
+          es: 'Siglo XV',
+          fr: 'XVe siècle',
+          de: '15. Jahrhundert',
+          it: 'XV secolo',
+          pl: 'XV wiek',
+          nl: '15e eeuw',
+          pt: 'Século XV',
+        },
         description: {
           en: 'Advanced techniques in navigation and cartography that made global exploration possible.',
           sv: 'Avancerade tekniker inom navigering och kartografi som möjliggjorde global utforskning.',
@@ -386,7 +456,17 @@ export const portugal: Country = {
           nl: 'Piri-Piri-saus',
           pt: 'Molho Piri Piri',
         },
-        year: '1500s',
+        year: {
+          en: '1500s',
+          sv: '1500-talet',
+          es: 'Siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'Século XVI',
+        },
         description: {
           en: 'Spicy sauce created from African bird\'s eye chili peppers brought back by explorers.',
           sv: 'Kryddig sås skapad av afrikansk chilipeppar som tagits tillbaka av upptäcktsresande.',
@@ -404,7 +484,7 @@ export const portugal: Country = {
       {
         name: {
           en: 'Belém Tower',
-          sv: 'Belém Tower',
+          sv: 'Belémtornet',
           es: 'Torre de Belém',
           fr: 'Tour de Belém',
           de: 'Belém-Turm',
@@ -452,7 +532,7 @@ export const portugal: Country = {
       {
         name: {
           en: 'Sintra Palaces',
-          sv: 'Sintra Palaces',
+          sv: 'Slotten i Sintra',
           es: 'Palacios de Sintra',
           fr: 'Palais de Sintra',
           de: 'Sintra-Paläste',
@@ -476,7 +556,7 @@ export const portugal: Country = {
       {
         name: {
           en: 'Porto Ribeira',
-          sv: 'Porto Ribeira',
+          sv: 'Ribeira i Porto',
           es: 'Puerto Ribeira',
           fr: 'Porto Ribeira',
           de: 'Porto Ribeira',
@@ -524,7 +604,17 @@ export const portugal: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'March-May and September-October for pleasant weather. Summer is hot and crowded.',
           sv: 'Mars-maj och september-oktober för behagligt väder. Sommaren är varm och trångt.',
@@ -538,7 +628,17 @@ export const portugal: Country = {
         },
       },
       {
-        item: 'Comfortable walking shoes',
+        item: {
+          en: 'Comfortable walking shoes',
+          sv: 'Bekväma promenadskor',
+          es: 'Calzado cómodo para caminar',
+          fr: 'Chaussures de marche confortables',
+          de: 'Bequemes Schuhwerk',
+          it: 'Scarpe comode da passeggio',
+          pl: 'Wygodne buty do chodzenia',
+          nl: 'Comfortabele wandelschoenen',
+          pt: 'Calçados confortáveis para caminhada',
+        },
         description: {
           en: 'Portugal\'s cities have steep hills and cobblestone streets.',
           sv: 'Portugals städer har branta kullar och kullerstensgator.',
@@ -552,7 +652,17 @@ export const portugal: Country = {
         },
       },
       {
-        item: 'Light layers',
+        item: {
+          en: 'Light layers',
+          sv: 'Tunna plagg i lager',
+          es: 'Capas ligeras',
+          fr: 'Couches légères',
+          de: 'Leichter Zwiebellook',
+          it: 'Strati leggeri',
+          pl: 'Lekkie warstwy',
+          nl: 'Lichte laagjes',
+          pt: 'Camadas leves',
+        },
         description: {
           en: 'Weather can vary, especially near the coast.',
           sv: 'Vädret kan variera, särskilt nära kusten.',
@@ -566,7 +676,17 @@ export const portugal: Country = {
         },
       },
       {
-        item: 'Cash for small purchases',
+        item: {
+          en: 'Cash for small purchases',
+          sv: 'Kontanter för småköp',
+          es: 'Efectivo para compras pequeñas',
+          fr: 'Espèces pour les petits achats',
+          de: 'Bargeld für kleine Einkäufe',
+          it: 'Contanti per piccoli acquisti',
+          pl: 'Gotówka na drobne zakupy',
+          nl: 'Contant geld voor kleine aankopen',
+          pt: 'Dinheiro para pequenas compras',
+        },
         description: {
           en: 'Some traditional spots prefer cash over cards.',
           sv: 'Vissa traditionella platser föredrar kontanter framför kort.',
@@ -580,7 +700,17 @@ export const portugal: Country = {
         },
       },
       {
-        item: 'Sunscreen',
+        item: {
+          en: 'Sunscreen',
+          sv: 'Solkräm',
+          es: 'Protector solar',
+          fr: 'Crème solaire',
+          de: 'Sonnencreme',
+          it: 'Crema solare',
+          pl: 'Krem z filtrem',
+          nl: 'Zonnebrandcrème',
+          pt: 'Protetor solar',
+        },
         description: {
           en: 'Strong sun, especially in summer months.',
           sv: 'Stark sol, särskilt under sommarmånaderna.',
@@ -594,7 +724,17 @@ export const portugal: Country = {
         },
       },
       {
-        item: 'Portuguese phrasebook',
+        item: {
+          en: 'Portuguese phrasebook',
+          sv: 'Portugisisk parlör',
+          es: 'Guía de conversación en portugués',
+          fr: 'Guide de conversation en portugais',
+          de: 'Portugiesischer Sprachführer',
+          it: 'Frasario portoghese',
+          pl: 'Rozmówki portugalskie',
+          nl: 'Portugese taalgids',
+          pt: 'Guia de conversação em português',
+        },
         description: {
           en: 'English is less common outside tourist areas.',
           sv: 'Engelska är mindre vanligt utanför turistområdena.',
@@ -623,7 +763,7 @@ export const portugal: Country = {
       },
       description: {
         en: 'Traditional Portuguese dish with shredded salt cod, crispy potatoes, onions, and eggs',
-        sv: 'Traditionell portugisisk rätt med strimlad salt torsk, knaprig potatis, lök och ägg',
+        sv: 'Traditionell portugisisk rätt med strimlad salttorsk, krispig potatis, lök och ägg',
         es: 'Plato tradicional portugués con bacalao salado rallado, patatas crujientes, cebolla y huevos',
         fr: 'Plat traditionnel portugais avec morue salée râpée, pommes de terre croustillantes, oignons et œufs',
         de: 'Traditionelles portugiesisches Gericht mit geriebenem Kabeljau, knusprigen Kartoffeln, Zwiebeln und Eiern',
@@ -677,7 +817,7 @@ export const portugal: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -702,7 +842,7 @@ export const portugal: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -752,7 +892,7 @@ export const portugal: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -846,7 +986,7 @@ export const portugal: Country = {
       steps: [
         {
           en: 'Soak salt cod in cold water for 24-48 hours, changing water several times',
-          sv: 'Blötlägg salt torsk i kallt vatten i 24-48 timmar, byt vatten flera gånger',
+          sv: 'Lägg salttorsken i blöt i kallt vatten i 24–48 timmar och byt vatten flera gånger',
           es: 'Remojar el bacalao en agua fría durante 24-48 horas, cambiando el agua varias veces',
           fr: 'Faire tremper la morue salée dans l\'eau froide pendant 24 à 48 heures, en changeant l\'eau plusieurs fois',
           de: 'Gesalzener Kabeljau 24–48 Stunden in kaltem Wasser einweichen, dabei das Wasser mehrmals wechseln',
@@ -857,7 +997,7 @@ export const portugal: Country = {
         },
         {
           en: 'Boil cod for 10 minutes, then shred into small pieces',
-          sv: 'Koka torsken i 10 minuter, strimla sedan i små bitar',
+          sv: 'Koka torsken i 10 minuter och plocka sedan isär den i små bitar',
           es: 'Hervir el bacalao durante 10 minutos y luego desmenuzarlo en trozos pequeños',
           fr: 'Faire bouillir la morue pendant 10 minutes, puis la déchiqueter en petits morceaux',
           de: 'Kabeljau 10 Minuten kochen, dann in kleine Stücke schneiden',
@@ -868,7 +1008,7 @@ export const portugal: Country = {
         },
         {
           en: 'Cut potatoes into thin matchsticks and fry until golden and crispy',
-          sv: 'Skär potatis i tunna tändstickor och stek tills de är gyllene och krispiga',
+          sv: 'Skär potatisen i tunna stickor, ungefär som tändstickor, och fritera dem gyllene och krispiga',
           es: 'Cortar las patatas en palitos finos y freír hasta que estén doradas y crujientes',
           fr: 'Coupez les pommes de terre en fines allumettes et faites-les frire jusqu\'à ce qu\'elles soient dorées et croustillantes',
           de: 'Kartoffeln in dünne Streifen schneiden und goldbraun und knusprig braten',
@@ -879,7 +1019,7 @@ export const portugal: Country = {
         },
         {
           en: 'Thinly slice onions and sauté with garlic in olive oil until soft',
-          sv: 'Skiva lök tunt och fräs med vitlök i olivolja tills den är mjuk',
+          sv: 'Skiva löken tunt och fräs den mjuk med vitlöken i olivolja',
           es: 'Cortar las cebollas en rodajas finas y saltearlas con el ajo en aceite de oliva hasta que estén tiernas',
           fr: 'Émincer finement les oignons et les faire revenir avec l\'ail dans l\'huile d\'olive jusqu\'à ce qu\'ils soient tendres',
           de: 'Zwiebeln in dünne Scheiben schneiden und mit Knoblauch in Olivenöl anbraten, bis sie weich sind',
@@ -890,7 +1030,7 @@ export const portugal: Country = {
         },
         {
           en: 'Add shredded cod to onions, cook for 5 minutes',
-          sv: 'Lägg strimlad torsk i lök, koka i 5 minuter',
+          sv: 'Tillsätt den strimlade torsken och låt steka med i 5 minuter',
           es: 'Agregue el bacalao rallado a la cebolla y cocine por 5 minutos',
           fr: 'Ajouter la morue râpée aux oignons, cuire 5 minutes',
           de: 'Den zerkleinerten Kabeljau zu den Zwiebeln geben und 5 Minuten kochen lassen',
@@ -961,7 +1101,7 @@ export const portugal: Country = {
       },
       description: {
         en: 'Iconic Portuguese custard tart with flaky pastry and creamy egg custard filling',
-        sv: 'Ikonisk portugisisk vaniljsås med flingiga bakverk och krämig äggkrämfyllning',
+        sv: 'Ikonisk portugisisk tartelett med frasig smördeg och en krämig fyllning av äggkräm',
         es: 'Icónica tarta de natillas portuguesas con hojaldre y relleno cremoso de natillas de huevo',
         fr: 'Tarte à la crème portugaise emblématique avec pâte feuilletée et garniture de crème aux œufs crémeuse',
         de: 'Kultige portugiesische Vanillepudding-Torte mit Blätterteig und cremiger Eierpudding-Füllung',
@@ -1058,7 +1198,7 @@ export const portugal: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'crema espesa',
             fr: 'Crème épaisse',
             de: 'Schlagsahne',
@@ -1139,7 +1279,7 @@ export const portugal: Country = {
       steps: [
         {
           en: 'Roll puff pastry and cut into circles to fit muffin tins',
-          sv: 'Rulla smördegen och skär i cirklar för att passa muffinsformar',
+          sv: 'Kavla ut smördegen och stansa ut rundlar som passar i muffinsformen',
           es: 'Enrolle el hojaldre y córtelo en círculos para que quepan en moldes para muffins.',
           fr: 'Abaisser la pâte feuilletée et la couper en cercles pour s\'adapter aux moules à muffins',
           de: 'Blätterteig ausrollen und in Kreise schneiden, damit sie in Muffinformen passen',
@@ -1161,7 +1301,7 @@ export const portugal: Country = {
         },
         {
           en: 'Make custard: heat milk, cream, sugar, and cinnamon stick until boiling',
-          sv: 'Gör vaniljsås: värm mjölk, grädde, socker och kanelstång tills det kokar',
+          sv: 'Gör krämen: värm mjölk, grädde, socker och kanelstång tills det kokar upp',
           es: 'Hacer natillas: calentar la leche, la nata, el azúcar y la rama de canela hasta que hierva',
           fr: 'Préparez la crème anglaise : faites chauffer le lait, la crème, le sucre et le bâton de cannelle jusqu\'à ébullition',
           de: 'Vanillepudding zubereiten: Milch, Sahne, Zucker und Zimtstange erhitzen, bis sie kocht',
@@ -1172,7 +1312,7 @@ export const portugal: Country = {
         },
         {
           en: 'Mix cornstarch with a little cold milk, then add to hot mixture',
-          sv: 'Blanda majsstärkelse med lite kall mjölk och lägg sedan till den heta blandningen',
+          sv: 'Rör ut majsstärkelsen i lite kall mjölk och vispa ner i den varma blandningen',
           es: 'Mezclar la maicena con un poco de leche fría y luego agregar a la mezcla caliente.',
           fr: 'Mélangez la fécule de maïs avec un peu de lait froid, puis ajoutez-la au mélange chaud',
           de: 'Maisstärke mit etwas kalter Milch vermischen und dann zur heißen Mischung hinzufügen',
@@ -1183,7 +1323,7 @@ export const portugal: Country = {
         },
         {
           en: 'Stir until thickened, remove from heat',
-          sv: 'Rör om tills det tjocknat, ta bort från värmen',
+          sv: 'Rör tills det tjocknar och ta sedan kastrullen från värmen',
           es: 'Revuelva hasta que espese, retire del fuego.',
           fr: 'Remuer jusqu\'à épaississement, retirer du feu',
           de: 'Rühren, bis die Masse eingedickt ist, vom Herd nehmen',
@@ -1194,7 +1334,7 @@ export const portugal: Country = {
         },
         {
           en: 'Whisk egg yolks, slowly add hot custard while whisking',
-          sv: 'Vispa äggulor, tillsätt långsamt varm vaniljsås under vispning',
+          sv: 'Vispa äggulorna och tillsätt den varma krämen lite i taget under vispning',
           es: 'Batir las yemas de huevo, agregar lentamente las natillas calientes mientras se bate.',
           fr: 'Fouetter les jaunes d\'œufs, ajouter lentement la crème anglaise chaude en fouettant',
           de: 'Eigelb verquirlen, unter Rühren langsam heiße Vanillesoße hinzufügen',
@@ -1205,7 +1345,7 @@ export const portugal: Country = {
         },
         {
           en: 'Strain custard and add vanilla',
-          sv: 'Sila vaniljsås och tillsätt vanilj',
+          sv: 'Sila krämen och tillsätt vaniljen',
           es: 'Colar las natillas y agregar la vainilla.',
           fr: 'Filtrer la crème anglaise et ajouter la vanille',
           de: 'Den Vanillepudding abseihen und Vanille hinzufügen',
@@ -1216,7 +1356,7 @@ export const portugal: Country = {
         },
         {
           en: 'Fill pastry cases 3/4 full with custard',
-          sv: 'Fyll bakverk till 3/4 med vaniljsås',
+          sv: 'Fyll degskalen till tre fjärdedelar med krämen',
           es: 'Rellenar las cajas de repostería hasta 3/4 de su capacidad con natillas.',
           fr: 'Remplissez les fonds de tarte aux 3/4 de crème anglaise',
           de: 'Füllen Sie die Teigförmchen zu 3/4 mit Vanillesoße',
@@ -1227,7 +1367,7 @@ export const portugal: Country = {
         },
         {
           en: 'Bake at 250°C for 15-20 minutes until tops are caramelized with dark spots',
-          sv: 'Grädda i 250°C i 15-20 minuter tills topparna är karamelliserade med mörka fläckar',
+          sv: 'Grädda i 250°C i 15–20 minuter tills ytan är karamelliserad med mörka fläckar',
           es: 'Hornee a 250°C durante 15-20 minutos hasta que la parte superior esté caramelizada con manchas oscuras.',
           fr: 'Cuire au four à 250°C pendant 15-20 minutes jusqu\'à ce que le dessus soit caramélisé avec des taches sombres',
           de: '15–20 Minuten bei 250 °C backen, bis die Oberfläche karamellisiert ist und dunkle Flecken aufweist',
@@ -1238,7 +1378,7 @@ export const portugal: Country = {
         },
         {
           en: 'Cool and dust with cinnamon and powdered sugar',
-          sv: 'Kyl och pudra med kanel och strösocker',
+          sv: 'Låt svalna och pudra med kanel och florsocker',
           es: 'Dejar enfriar y espolvorear con canela y azúcar en polvo.',
           fr: 'Laisser refroidir et saupoudrer de cannelle et de sucre en poudre',
           de: 'Abkühlen lassen und mit Zimt und Puderzucker bestäuben',
@@ -1277,7 +1417,7 @@ export const portugal: Country = {
     music: [
       { en: 'Fado music (traditional Portuguese genre)', sv: 'Fadomusik (traditionell portugisisk genre)', de: 'Fado-Musik (traditionelles portugiesisches Genre)', fr: 'Musique fado (genre portugais traditionnel)', es: 'Música fado (género portugués tradicional)', it: 'Musica fado (genere portoghese tradizionale)', pl: 'Muzyka fado (tradycyjny gatunek portugalski)', nl: 'Fadomuziek (traditioneel Portugees genre)', pt: 'Música fado (género português tradicional)' },
       { en: 'Amália Rodrigues - Fado classics', sv: 'Amália Rodrigues - Fado-klassiker', de: 'Amália Rodrigues - Fado-Klassiker', fr: 'Amália Rodrigues - classiques du Fado', es: 'Amália Rodrigues - clásicos del Fado', it: 'Amália Rodrigues - classici del Fado', pl: 'Amália Rodrigues - klasyki Fado', nl: 'Amália Rodrigues - Fado klassiekers', pt: 'Amália Rodrigues - clássicos do Fado' },
-      { en: 'Mariza - modern Fado', sv: 'Mariza - modern Fado', de: 'Mariza - modernes Fado', fr: 'Mariza - Fado moderne', es: 'Mariza - Fado moderno', it: 'Mariza - Fado moderno', pl: 'Mariza - nowoczesne Fado', nl: 'Mariza - moderne Fado', pt: 'Mariza - Fado moderno' },
+      { en: 'Mariza - modern Fado', sv: 'Mariza – modern fado', de: 'Mariza - modernes Fado', fr: 'Mariza - Fado moderne', es: 'Mariza - Fado moderno', it: 'Mariza - Fado moderno', pl: 'Mariza - nowoczesne Fado', nl: 'Mariza - moderne Fado', pt: 'Mariza - Fado moderno' },
       { en: 'Portuguese guitar melodies', sv: 'Portugisiska gitarrmelodier', de: 'Portugiesische Gitarrenmelodien', fr: 'Mélodies de guitare portugaise', es: 'Melodías de guitarra portuguesa', it: 'Melodie di chitarra portoghese', pl: 'Melodie portugalskiej gitary', nl: 'Portugese gitaarmelodieën', pt: 'Melodias de guitarra portuguesa' },
     ],
     decorationIdeas: [

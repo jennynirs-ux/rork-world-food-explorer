@@ -241,8 +241,28 @@ export const denmark: Country = {
     },
     history: [
       {
-        year: '8th-11th Century',
-        title: 'Viking Age',
+        year: {
+          en: '8th-11th Century',
+          sv: '700–1000-talet',
+          es: 'siglos VIII–XI',
+          fr: 'VIIIe–XIe siècles',
+          de: '8.–11. Jahrhundert',
+          it: 'secoli VIII–XI',
+          pl: 'VIII–XI wiek',
+          nl: '8e–11e eeuw',
+          pt: 'séculos VIII–XI',
+        },
+        title: {
+          en: 'Viking Age',
+          sv: 'Vikingatiden',
+          es: 'Era vikinga',
+          fr: 'Âge des Vikings',
+          de: 'Wikingerzeit',
+          it: 'Epoca vichinga',
+          pl: 'Epoka wikingów',
+          nl: 'Vikingtijd',
+          pt: 'Era viking',
+        },
         description: {
           en: 'Danish Vikings were powerful seafarers who influenced much of Northern Europe.',
           sv: 'Danska vikingar var mäktiga sjöfarare som påverkade stora delar av Nordeuropa.',
@@ -257,7 +277,17 @@ export const denmark: Country = {
       },
       {
         year: '1849',
-        title: 'Constitutional Monarchy',
+        title: {
+          en: 'Constitutional Monarchy',
+          sv: 'Konstitutionell monarki',
+          es: 'Monarquía constitucional',
+          fr: 'Monarchie constitutionnelle',
+          de: 'Konstitutionelle Monarchie',
+          it: 'Monarchia costituzionale',
+          pl: 'Monarchia konstytucyjna',
+          nl: 'Constitutionele monarchie',
+          pt: 'Monarquia constitucional',
+        },
         description: {
           en: 'Denmark became a constitutional monarchy with a new democratic constitution.',
           sv: 'Danmark blev en konstitutionell monarki med en ny demokratisk konstitution.',
@@ -272,7 +302,17 @@ export const denmark: Country = {
       },
       {
         year: '1973',
-        title: 'EU Membership',
+        title: {
+          en: 'EU Membership',
+          sv: 'EU-medlemskap',
+          es: 'Adhesión a la UE',
+          fr: 'Adhésion à l\'UE',
+          de: 'EU-Beitritt',
+          it: 'Adesione all\'UE',
+          pl: 'Przystąpienie do UE',
+          nl: 'EU-lidmaatschap',
+          pt: 'Adesão à UE',
+        },
         description: {
           en: 'Denmark joined the European Economic Community, now the European Union.',
           sv: 'Danmark gick med i Europeiska ekonomiska gemenskapen, nu Europeiska unionen.',
@@ -374,7 +414,17 @@ export const denmark: Country = {
           nl: 'Windturbinetechnologie',
           pt: 'Tecnologia de turbinas eólicas',
         },
-        year: '1970s-present',
+        year: {
+          en: '1970s-present',
+          sv: '1970-talet–idag',
+          es: 'Década de 1970–actualidad',
+          fr: 'Années 1970–aujourd\'hui',
+          de: '1970er–heute',
+          it: 'Anni \'70–oggi',
+          pl: 'Lata 70.–obecnie',
+          nl: 'Jaren 70–heden',
+          pt: 'Década de 1970–presente',
+        },
         description: {
           en: 'Denmark pioneered modern wind turbine design and became a world leader in wind energy technology.',
           sv: 'Danmark var banbrytande för modern vindkraftsdesign och blev världsledande inom vindenergiteknik.',
@@ -512,7 +562,17 @@ export const denmark: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for warmest weather and long days.',
           sv: 'Maj-september för varmaste väder och långa dagar.',
@@ -526,7 +586,17 @@ export const denmark: Country = {
         },
       },
       {
-        item: 'Bicycle',
+        item: {
+          en: 'Bicycle',
+          sv: 'Cykel',
+          es: 'Bicicleta',
+          fr: 'Vélo',
+          de: 'Fahrrad',
+          it: 'Bicicletta',
+          pl: 'Rower',
+          nl: 'Fiets',
+          pt: 'Bicicleta',
+        },
         description: {
           en: 'Rent a bike to explore like a local.',
           sv: 'Hyr en cykel för att utforska som en lokal.',
@@ -540,7 +610,17 @@ export const denmark: Country = {
         },
       },
       {
-        item: 'Copenhagen Card',
+        item: {
+          en: 'Copenhagen Card',
+          sv: 'Copenhagen Card',
+          es: 'Copenhagen Card',
+          fr: 'Copenhagen Card',
+          de: 'Copenhagen Card',
+          it: 'Copenhagen Card',
+          pl: 'Copenhagen Card',
+          nl: 'Copenhagen Card',
+          pt: 'Copenhagen Card',
+        },
         description: {
           en: 'Free public transport and museum entry.',
           sv: 'Gratis kollektivtrafik och museumsinträde.',
@@ -554,7 +634,17 @@ export const denmark: Country = {
         },
       },
       {
-        item: 'Weather layers',
+        item: {
+          en: 'Weather layers',
+          sv: 'Lager på lager',
+          es: 'Ropa en capas',
+          fr: 'S\'habiller en couches',
+          de: 'Zwiebellook',
+          it: 'Vestirsi a strati',
+          pl: 'Ubiór na cebulkę',
+          nl: 'Laagjes dragen',
+          pt: 'Roupas em camadas',
+        },
         description: {
           en: 'Weather can change quickly, dress in layers.',
           sv: 'Vädret kan förändras snabbt, klä dig i lager.',
@@ -572,7 +662,7 @@ export const denmark: Country = {
       id: 'denmark-main',
       name: {
         en: 'Smørrebrød',
-        sv: 'Smörrebröd',
+        sv: 'Smørrebrød',
         es: 'Smørrebrød',
         fr: 'Smørrebrød',
         de: 'Smørrebrød',
@@ -583,7 +673,7 @@ export const denmark: Country = {
       },
       description: {
         en: 'Traditional open-faced sandwiches with various toppings',
-        sv: 'Traditionella smörgåsar med öppet ansikte med olika pålägg',
+        sv: 'Traditionella danska smörgåsar med olika pålägg',
         es: 'Sándwiches tradicionales abiertos con varios aderezos',
         fr: 'Sandwichs traditionnels ouverts avec diverses garnitures',
         de: 'Traditionelle offene Sandwiches mit verschiedenen Belägen',
@@ -786,7 +876,7 @@ export const denmark: Country = {
       steps: [
         {
           en: 'Butter each slice of rye bread generously',
-          sv: 'Smör varje skiva rågbröd generöst',
+          sv: 'Bred ett generöst lager smör på varje skiva rågbröd',
           es: 'Unte generosamente con mantequilla cada rebanada de pan de centeno',
           fr: 'Beurrer généreusement chaque tranche de pain de seigle',
           de: 'Jede Scheibe Roggenbrot großzügig mit Butter bestreichen',
@@ -797,7 +887,7 @@ export const denmark: Country = {
         },
         {
           en: 'For salmon: top with smoked salmon, dill, lemon',
-          sv: 'För lax: toppa med rökt lax, dill, citron',
+          sv: 'Med lax: toppa med rökt lax, dill och citron',
           es: 'Para el salmón: cubra con salmón ahumado, eneldo y limón',
           fr: 'Pour le saumon : garnir de saumon fumé, aneth, citron',
           de: 'Für Lachs: Mit Räucherlachs, Dill und Zitrone belegen',
@@ -808,7 +898,7 @@ export const denmark: Country = {
         },
         {
           en: 'For herring: add pickled herring, onion rings, capers',
-          sv: 'Till sill: tillsätt inlagd sill, lökringar, kapris',
+          sv: 'Med sill: lägg på inlagd sill, lökringar och kapris',
           es: 'Para el arenque: agregue arenque en escabeche, aros de cebolla, alcaparras',
           fr: 'Pour le hareng : ajoutez le hareng mariné, les rondelles d\'oignon, les câpres',
           de: 'Für Hering: eingelegten Hering, Zwiebelringe, Kapern hinzufügen',
@@ -819,7 +909,7 @@ export const denmark: Country = {
         },
         {
           en: 'For beef: layer roast beef, remoulade, crispy onions',
-          sv: 'För nötkött: lager rostbiff, remoulad, krispig lök',
+          sv: 'Med rostbiff: lägg på rostbiff, remouladsås och rostad lök',
           es: 'Para la ternera: capas de rosbif, remoulade, cebollas crujientes',
           fr: 'Pour le bœuf : rosbif étagé, rémoulade, oignons croustillants',
           de: 'Für Rindfleisch: Roastbeef, Remoulade, knusprige Zwiebeln',
@@ -830,7 +920,7 @@ export const denmark: Country = {
         },
         {
           en: 'For egg: top with sliced eggs, shrimp, mayo',
-          sv: 'För ägg: toppa med skivade ägg, räkor, majonnäs',
+          sv: 'Med ägg: toppa med skivat ägg, räkor och majonnäs',
           es: 'Para el huevo: cubra con huevos rebanados, camarones y mayonesa',
           fr: 'Pour l\'œuf : garnir d\'œufs tranchés, de crevettes et de mayonnaise',
           de: 'schichten Für Eier: Mit geschnittenen Eiern, Garnelen und Mayonnaise belegen',
@@ -841,7 +931,7 @@ export const denmark: Country = {
         },
         {
           en: 'Arrange beautifully on plates',
-          sv: 'Arrangera vackert på tallrikar',
+          sv: 'Lägg upp smörgåsarna snyggt på tallrikar',
           es: 'Organizar maravillosamente en platos',
           fr: 'Disposer joliment sur des assiettes',
           de: 'Schön auf Tellern anrichten',
@@ -879,7 +969,7 @@ export const denmark: Country = {
       },
       description: {
         en: 'Round Danish pancakes, traditionally served at Christmas',
-        sv: 'Runda danska pannkakor, traditionellt serverade till jul',
+        sv: 'Runda danska pannkakor som traditionellt serveras till jul',
         es: 'Panqueques daneses redondos, servidos tradicionalmente en Navidad',
         fr: 'Crêpes rondes danoises, traditionnellement servies à Noël',
         de: 'Runde dänische Pfannkuchen, traditionell zu Weihnachten serviert',
@@ -906,7 +996,7 @@ export const denmark: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -948,7 +1038,7 @@ export const denmark: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1016,7 +1106,7 @@ export const denmark: Country = {
         {
           name: {
             en: 'Butter for pan',
-            sv: 'Smör till panna',
+            sv: 'Smör till pannan',
             es: 'Mantequilla para sartén',
             fr: 'Beurre pour poêle',
             de: 'Butter für die Pfanne',
@@ -1031,7 +1121,7 @@ export const denmark: Country = {
         {
           name: {
             en: 'Powdered sugar',
-            sv: 'Pulversocker',
+            sv: 'Florsocker',
             es: 'Azúcar en polvo',
             fr: 'Sucre en poudre',
             de: 'Puderzucker',
@@ -1047,7 +1137,7 @@ export const denmark: Country = {
       steps: [
         {
           en: 'Separate eggs, beat whites to stiff peaks',
-          sv: 'Separera äggen, vispa vitorna till hårda toppar',
+          sv: 'Skilj vitorna från gulorna och vispa vitorna till ett hårt skum',
           es: 'Separar los huevos, batir las claras a punto de nieve.',
           fr: 'Séparez les œufs, battez les blancs en pics fermes',
           de: 'Eier trennen, Eiweiß steif schlagen',
@@ -1058,7 +1148,7 @@ export const denmark: Country = {
         },
         {
           en: 'Mix flour, baking powder, cardamom, sugar',
-          sv: 'Blanda mjöl, bakpulver, kardemumma, socker',
+          sv: 'Blanda vetemjöl, bakpulver, kardemumma och socker',
           es: 'Mezclar harina, levadura en polvo, cardamomo, azúcar.',
           fr: 'Mélanger la farine, la levure chimique, la cardamome, le sucre',
           de: 'Mehl, Backpulver, Kardamom, Zucker mischen',
@@ -1069,7 +1159,7 @@ export const denmark: Country = {
         },
         {
           en: 'Whisk in buttermilk and egg yolks',
-          sv: 'Vispa i kärnmjölk och äggulor',
+          sv: 'Vispa ner kärnmjölken och äggulorna',
           es: 'Batir el suero de leche y las yemas de huevo.',
           fr: 'Incorporer le babeurre et les jaunes d\'œufs',
           de: 'Buttermilch und Eigelb unterrühren',
@@ -1080,7 +1170,7 @@ export const denmark: Country = {
         },
         {
           en: 'Fold in beaten egg whites',
-          sv: 'Vänd i vispad äggvita',
+          sv: 'Vänd ner de vispade äggvitorna',
           es: 'Incorporar las claras de huevo batidas.',
           fr: 'Incorporer les blancs d\'œufs battus',
           de: 'Geschlagenes Eiweiß unterheben',
@@ -1091,7 +1181,7 @@ export const denmark: Country = {
         },
         {
           en: 'Heat æbleskiver pan, add butter to each hole',
-          sv: 'Hetta upp en kastrull, tillsätt smör i varje hål',
+          sv: 'Hetta upp en munkpanna (æbleskivepanna) och lägg lite smör i varje grop',
           es: 'Caliente la sartén æbleskiver, agregue mantequilla en cada hoyo.',
           fr: 'Faites chauffer la poêle æbleskiver, ajoutez du beurre dans chaque trou',
           de: 'æbleskiver-Pfanne erhitzen, Butter in jedes Loch geben',
@@ -1102,7 +1192,7 @@ export const denmark: Country = {
         },
         {
           en: 'Pour batter into holes, turn with skewer when half-cooked',
-          sv: 'Häll smeten i hål, vänd med spett när den är halvkokt',
+          sv: 'Fyll groparna med smet och vänd bollarna med en sticka när de är halvgräddade',
           es: 'Vierta la masa en los agujeros y gírela con una brocheta cuando esté medio cocida.',
           fr: 'Verser la pâte dans les trous, retourner avec un pique à brochette à mi-cuisson',
           de: 'Den Teig in die Löcher füllen und mit einem Spieß umdrehen, wenn er halb gar ist',
@@ -1113,7 +1203,7 @@ export const denmark: Country = {
         },
         {
           en: 'Cook until golden all around',
-          sv: 'Koka tills de är gyllene runt om',
+          sv: 'Grädda tills de är gyllene runt om',
           es: 'Cocine hasta que esté dorado por todos lados.',
           fr: 'Cuire jusqu\'à ce que tout soit doré',
           de: 'Rundherum goldbraun backen',
@@ -1124,7 +1214,7 @@ export const denmark: Country = {
         },
         {
           en: 'Serve with powdered sugar and jam',
-          sv: 'Servera med strösocker och sylt',
+          sv: 'Servera med florsocker och sylt',
           es: 'Servir con azúcar glass y mermelada.',
           fr: 'Servir avec du sucre en poudre et de la confiture',
           de: 'Mit Puderzucker und Marmelade servieren',

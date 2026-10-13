@@ -299,7 +299,17 @@ export const latvia: Country = {
           nl: 'Barnsteenhandel',
           pt: 'Comércio de âmbar',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Latvia was a key source and trader of Baltic amber for millennia.',
           sv: 'Lettland var en nyckelkälla och handlare av baltisk bärnsten i årtusenden.',
@@ -324,7 +334,17 @@ export const latvia: Country = {
           nl: 'Lets wantenpatroon',
           pt: 'Padrão de luvas letãs',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Complex traditional knitting patterns unique to Latvian folk art.',
           sv: 'Komplexa traditionella stickmönster som är unika för lettisk folkkonst.',
@@ -414,7 +434,7 @@ export const latvia: Country = {
       {
         name: {
           en: 'Rundale Palace',
-          sv: 'Rundale Palace',
+          sv: 'Rundāle slott',
           es: 'Palacio Rundale',
           fr: 'Palais Rundale',
           de: 'Rundale-Palast',
@@ -475,7 +495,7 @@ export const latvia: Country = {
       },
       description: {
         en: 'Rye bread layered dessert with whipped cream and cranberries',
-        sv: 'Rågbröd efterrätt med vispgrädde och tranbär',
+        sv: 'Varvad efterrätt med rågbrödssmulor, vispgrädde och tranbär',
         es: 'Postre en capas de pan de centeno con crema batida y arándanos',
         fr: 'Dessert étagé de pain de seigle avec crème fouettée et canneberges',
         de: 'Schichtdessert aus Roggenbrot mit Schlagsahne und Preiselbeeren',
@@ -517,7 +537,7 @@ export const latvia: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -578,7 +598,7 @@ export const latvia: Country = {
       steps: [
         {
           en: 'Toast rye bread until crispy, grind into crumbs',
-          sv: 'Rosta rågbröd tills det är knaprigt, mal till smulor',
+          sv: 'Rosta rågbrödet tills det är knaprigt och mal det sedan till smulor',
           es: 'Tostar pan de centeno hasta que esté crujiente, molerlo hasta obtener migajas',
           fr: 'Faire griller le pain de seigle jusqu\'à ce qu\'il soit croustillant, le réduire en miettes',
           de: 'Roggenbrot knusprig rösten, zu Krümeln zermahlen',
@@ -589,7 +609,7 @@ export const latvia: Country = {
         },
         {
           en: 'Mix breadcrumbs with cinnamon and 2 tbsp sugar',
-          sv: 'Blanda ströbröd med kanel och 2 msk socker',
+          sv: 'Blanda rågbrödssmulorna med kanel och 2 msk socker',
           es: 'Mezclar el pan rallado con canela y 2 cucharadas de azúcar',
           fr: 'Mélanger la chapelure avec la cannelle et 2 cuillères à soupe de sucre',
           de: 'Semmelbrösel mit Zimt und 2 EL Zucker vermischen',
@@ -600,7 +620,7 @@ export const latvia: Country = {
         },
         {
           en: 'Whip cream with remaining sugar until stiff peaks',
-          sv: 'Vispa grädde med resten av sockret tills det blir hårt',
+          sv: 'Vispa grädden hårt med resten av sockret',
           es: 'Batir la nata con el azúcar restante hasta obtener picos rígidos',
           fr: 'Fouetter la crème avec le reste du sucre jusqu\'à obtenir des pics fermes',
           de: 'Sahne mit restlichem Zucker steif schlagen',
@@ -611,7 +631,7 @@ export const latvia: Country = {
         },
         {
           en: 'Layer breadcrumbs, whipped cream, and cranberry jam',
-          sv: 'Varva ströbröd, vispad grädde och tranbärssylt',
+          sv: 'Varva rågbrödssmulor, vispad grädde och tranbärssylt',
           es: 'Coloque capas de pan rallado, crema batida y mermelada de arándanos',
           fr: 'Étalez la chapelure, la crème fouettée et la confiture de canneberges',
           de: 'Semmelbrösel, Schlagsahne und Preiselbeermarmelade schichten',
@@ -622,7 +642,7 @@ export const latvia: Country = {
         },
         {
           en: 'Repeat layers ending with cream',
-          sv: 'Upprepa lager som slutar med kräm',
+          sv: 'Upprepa varvningen och avsluta med grädde',
           es: 'Repetir capas terminando con crema',
           fr: 'Répéter les couches en terminant par la crème',
           de: 'Wiederholen Sie die Schichten und enden Sie mit Sahne',
@@ -659,7 +679,17 @@ export const latvia: Country = {
     history: [
       {
         year: '1201',
-        title: 'Riga Founded',
+        title: {
+          en: 'Riga Founded',
+          sv: 'Riga grundas',
+          es: 'Fundación de Riga',
+          fr: 'Fondation de Riga',
+          de: 'Gründung Rigas',
+          it: 'Fondazione di Riga',
+          pl: 'Założenie Rygi',
+          nl: 'Stichting van Riga',
+          pt: 'Fundação de Riga',
+        },
         description: {
           en: 'German crusaders founded Riga, which became a major trading center in the Baltic region.',
           sv: 'Tyska korsfarare grundade Riga, som blev ett stort handelscentrum i Östersjöområdet.',
@@ -674,7 +704,17 @@ export const latvia: Country = {
       },
       {
         year: '1918',
-        title: 'First Independence',
+        title: {
+          en: 'First Independence',
+          sv: 'Första självständigheten',
+          es: 'Primera independencia',
+          fr: 'Première indépendance',
+          de: 'Erste Unabhängigkeit',
+          it: 'Prima indipendenza',
+          pl: 'Pierwsza niepodległość',
+          nl: 'Eerste onafhankelijkheid',
+          pt: 'Primeira independência',
+        },
         description: {
           en: 'Latvia declared independence after World War I, establishing a democratic republic.',
           sv: 'Lettland förklarade sig självständigt efter första världskriget och upprättade en demokratisk republik.',
@@ -689,7 +729,17 @@ export const latvia: Country = {
       },
       {
         year: '1940',
-        title: 'Soviet Occupation',
+        title: {
+          en: 'Soviet Occupation',
+          sv: 'Sovjetisk ockupation',
+          es: 'Ocupación soviética',
+          fr: 'Occupation soviétique',
+          de: 'Sowjetische Besatzung',
+          it: 'Occupazione sovietica',
+          pl: 'Okupacja sowiecka',
+          nl: 'Sovjetbezetting',
+          pt: 'Ocupação soviética',
+        },
         description: {
           en: 'Latvia was occupied by the Soviet Union, followed by Nazi Germany, then Soviet Union again.',
           sv: 'Lettland ockuperades av Sovjetunionen, följt av Nazityskland, sedan Sovjetunionen igen.',
@@ -704,7 +754,17 @@ export const latvia: Country = {
       },
       {
         year: '1991',
-        title: 'Independence Restored',
+        title: {
+          en: 'Independence Restored',
+          sv: 'Återvunnen självständighet',
+          es: 'Independencia restaurada',
+          fr: 'Indépendance retrouvée',
+          de: 'Wiederherstellung der Unabhängigkeit',
+          it: 'Indipendenza ritrovata',
+          pl: 'Odzyskanie niepodległości',
+          nl: 'Onafhankelijkheid hersteld',
+          pt: 'Independência restaurada',
+        },
         description: {
           en: 'Latvia regained independence after the collapse of the Soviet Union.',
           sv: 'Lettland återvann självständighet efter Sovjetunionens kollaps.',
@@ -719,7 +779,17 @@ export const latvia: Country = {
       },
       {
         year: '2004',
-        title: 'EU Membership',
+        title: {
+          en: 'EU Membership',
+          sv: 'EU-medlemskap',
+          es: 'Adhesión a la UE',
+          fr: 'Adhésion à l\'UE',
+          de: 'EU-Beitritt',
+          it: 'Adesione all\'UE',
+          pl: 'Przystąpienie do UE',
+          nl: 'EU-lidmaatschap',
+          pt: 'Adesão à UE',
+        },
         description: {
           en: 'Latvia joined the European Union and NATO.',
           sv: 'Lettland gick med i Europeiska unionen och Nato.',
@@ -735,7 +805,17 @@ export const latvia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June-August for warm weather, December for Christmas markets',
           sv: 'Juni-augusti för varmt väder, december för julmarknader',
@@ -749,7 +829,17 @@ export const latvia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'EU member. Schengen visa rules apply.',
           sv: 'EU-medlem. Schengenvisumregler gäller.',
@@ -763,7 +853,17 @@ export const latvia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Good public transport in Riga. Buses connect cities.',
           sv: 'Bra kollektivtrafik i Riga. Bussar förbinder städer.',
@@ -777,7 +877,17 @@ export const latvia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Latvian. Russian and English commonly spoken.',
           sv: 'lettiska. Vanligtvis talas ryska och engelska.',
@@ -791,7 +901,17 @@ export const latvia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe. Normal city precautions apply.',
           sv: 'Mycket säker. Normala stadsförsiktighetsåtgärder gäller.',
@@ -820,7 +940,7 @@ export const latvia: Country = {
       },
       description: {
         en: 'Traditional Latvian dish of boiled grey peas served with fried bacon and onions',
-        sv: 'Traditionell lettisk rätt med kokta gråärtor serverad med stekt bacon och lök',
+        sv: 'Traditionell lettisk rätt med kokta gråärtor som serveras med stekt bacon och lök',
         es: 'Plato tradicional letón de guisantes grises hervidos servidos con tocino frito y cebolla',
         fr: 'Plat traditionnel letton de pois gris bouillis servi avec du bacon frit et des oignons',
         de: 'Traditionelles lettisches Gericht aus gekochten grauen Erbsen, serviert mit gebratenem Speck und Zwiebeln',
@@ -889,7 +1009,7 @@ export const latvia: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -983,7 +1103,7 @@ export const latvia: Country = {
       steps: [
         {
           en: 'Soak grey peas overnight in cold water',
-          sv: 'Blötlägg gråärter över natten i kallt vatten',
+          sv: 'Blötlägg gråärtorna i kallt vatten över natten',
           es: 'Remojar los guisantes grises durante la noche en agua fría',
           fr: 'Faire tremper les pois gris toute la nuit dans de l\'eau froide',
           de: 'Graue Erbsen über Nacht in kaltem Wasser einweichen',
@@ -994,7 +1114,7 @@ export const latvia: Country = {
         },
         {
           en: 'Drain and rinse peas',
-          sv: 'Töm och skölj ärter',
+          sv: 'Häll av vattnet och skölj ärtorna',
           es: 'Escurrir y enjuagar los guisantes',
           fr: 'Égoutter et rincer les petits pois',
           de: 'Erbsen abgießen und abspülen',
@@ -1005,7 +1125,7 @@ export const latvia: Country = {
         },
         {
           en: 'Boil peas with bay leaves for 1.5-2 hours until soft',
-          sv: 'Koka ärtor med lagerblad i 1,5-2 timmar tills de är mjuka',
+          sv: 'Koka ärtorna med lagerbladen i 1,5–2 timmar tills de är mjuka',
           es: 'Hervir los guisantes con hojas de laurel durante 1,5-2 horas hasta que estén tiernos',
           fr: 'Faire bouillir les pois avec les feuilles de laurier pendant 1,5 à 2 heures jusqu\'à ce qu\'ils soient tendres',
           de: 'Erbsen mit Lorbeerblättern 1,5-2 Stunden kochen, bis sie weich sind',
@@ -1016,7 +1136,7 @@ export const latvia: Country = {
         },
         {
           en: 'Dice bacon and fry until crispy',
-          sv: 'Tärna bacon och stek tills det blir knaprigt',
+          sv: 'Tärna baconet och stek det knaprigt',
           es: 'Cortar el tocino en dados y freír hasta que esté crujiente',
           fr: 'Couper le bacon en dés et faire revenir jusqu\'à ce qu\'il soit croustillant',
           de: 'Speck würfeln und knusprig braten',
@@ -1027,7 +1147,7 @@ export const latvia: Country = {
         },
         {
           en: 'Slice onions and sauté in butter until golden',
-          sv: 'Skiva lök och fräs i smör tills den är gyllene',
+          sv: 'Skiva löken och fräs den i smör tills den är gyllene',
           es: 'Cortar las cebollas y saltear en mantequilla hasta que estén doradas.',
           fr: 'Trancher les oignons et les faire revenir dans le beurre jusqu\'à ce qu\'ils soient dorés',
           de: 'Zwiebeln in Scheiben schneiden und in Butter goldbraun anbraten',
@@ -1038,7 +1158,7 @@ export const latvia: Country = {
         },
         {
           en: 'Drain peas and season with salt and pepper',
-          sv: 'Låt ärterna rinna av och smaka av med salt och peppar',
+          sv: 'Låt ärtorna rinna av och smaka av med salt och peppar',
           es: 'Escurrir los guisantes y sazonar con sal y pimienta',
           fr: 'Égoutter les petits pois et assaisonner de sel et de poivre',
           de: 'Erbsen abtropfen lassen und mit Salz und Pfeffer würzen',
@@ -1049,7 +1169,7 @@ export const latvia: Country = {
         },
         {
           en: 'Serve peas topped with crispy bacon and onions',
-          sv: 'Servera ärtor toppade med knaperstekt bacon och lök',
+          sv: 'Servera ärtorna toppade med knaperstekt bacon och lök',
           es: 'Sirva los guisantes cubiertos con tocino crujiente y cebolla',
           fr: 'Servir les petits pois garnis de bacon croustillant et d\'oignons',
           de: 'Erbsen mit knusprigem Speck und Zwiebeln servieren',
@@ -1060,7 +1180,7 @@ export const latvia: Country = {
         },
         {
           en: 'Add a dollop of sour cream on top',
-          sv: 'Lägg en klick gräddfil på toppen',
+          sv: 'Lägg en klick gräddfil ovanpå',
           es: 'Agrega una cucharada de crema agria encima',
           fr: 'Ajoutez une cuillerée de crème sure dessus',
           de: 'Einen Klecks Sauerrahm darüber geben',
@@ -1431,7 +1551,7 @@ export const latvia: Country = {
           },
           {
             en: 'Art Nouveau',
-            sv: 'Art Nouveau',
+            sv: 'Jugend',
             es: 'Art Nouveau',
             fr: 'Art Nouveau',
             de: 'Jugendstil',

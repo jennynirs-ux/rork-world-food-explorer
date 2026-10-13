@@ -263,8 +263,28 @@ export const malaysia: Country = {
     },
     history: [
       {
-        year: '1400s',
-        title: 'Malacca Sultanate',
+        year: {
+          en: '1400s',
+          sv: '1400-talet',
+          es: 'Siglo XV',
+          fr: 'XVe siècle',
+          de: '15. Jahrhundert',
+          it: 'XV secolo',
+          pl: 'XV wiek',
+          nl: '15e eeuw',
+          pt: 'Século XV',
+        },
+        title: {
+          en: 'Malacca Sultanate',
+          sv: 'Sultanatet Malacka',
+          es: 'Sultanato de Malaca',
+          fr: 'Sultanat de Malacca',
+          de: 'Sultanat Malakka',
+          it: 'Sultanato di Malacca',
+          pl: 'Sułtanat Malakki',
+          nl: 'Sultanaat Malakka',
+          pt: 'Sultanato de Malaca',
+        },
         description: {
           en: 'The powerful Malacca Sultanate established Islam and trade dominance in the region.',
           sv: 'Det mäktiga Malacka-sultanatet etablerade islam och handelsdominans i regionen.',
@@ -279,7 +299,17 @@ export const malaysia: Country = {
       },
       {
         year: '1511',
-        title: 'Portuguese Conquest',
+        title: {
+          en: 'Portuguese Conquest',
+          sv: 'Portugisisk erövring',
+          es: 'Conquista portuguesa',
+          fr: 'Conquête portugaise',
+          de: 'Portugiesische Eroberung',
+          it: 'Conquista portoghese',
+          pl: 'Podbój portugalski',
+          nl: 'Portugese verovering',
+          pt: 'Conquista portuguesa',
+        },
         description: {
           en: 'Portugal conquered Malacca, beginning centuries of European colonial interest.',
           sv: 'Portugal erövrade Malacka och började århundraden av europeiskt kolonialt intresse.',
@@ -294,7 +324,17 @@ export const malaysia: Country = {
       },
       {
         year: '1824-1957',
-        title: 'British Rule',
+        title: {
+          en: 'British Rule',
+          sv: 'Brittiskt styre',
+          es: 'Dominio británico',
+          fr: 'Domination britannique',
+          de: 'Britische Herrschaft',
+          it: 'Dominio britannico',
+          pl: 'Rządy brytyjskie',
+          nl: 'Brits bewind',
+          pt: 'Domínio britânico',
+        },
         description: {
           en: 'Britain gradually took control of Malaya, bringing together various territories.',
           sv: 'Storbritannien tog gradvis kontroll över Malaya och sammanförde olika territorier.',
@@ -309,7 +349,17 @@ export const malaysia: Country = {
       },
       {
         year: '1957',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Malaya gained independence from Britain.',
           sv: 'Malaya blev självständigt från Storbritannien.',
@@ -324,7 +374,17 @@ export const malaysia: Country = {
       },
       {
         year: '1963',
-        title: 'Malaysia Formed',
+        title: {
+          en: 'Malaysia Formed',
+          sv: 'Malaysia bildas',
+          es: 'Formación de Malasia',
+          fr: 'Création de la Malaisie',
+          de: 'Gründung Malaysias',
+          it: 'Nascita della Malesia',
+          pl: 'Powstanie Malezji',
+          nl: 'Oprichting van Maleisië',
+          pt: 'Formação da Malásia',
+        },
         description: {
           en: 'Malaysia was formed by uniting Malaya, Singapore, Sabah, and Sarawak.',
           sv: 'Malaysia bildades genom att förena Malaya, Singapore, Sabah och Sarawak.',
@@ -340,7 +400,17 @@ export const malaysia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Year-round destination. December-February generally best.',
           sv: 'Resmål året runt. December-februari i allmänhet bäst.',
@@ -354,7 +424,17 @@ export const malaysia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free entry for many nationalities for 90 days.',
           sv: 'Visumfritt inträde för många nationaliteter i 90 dagar.',
@@ -368,7 +448,17 @@ export const malaysia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent transport system. Trains, buses, budget airlines.',
           sv: 'Utmärkt transportsystem. Tåg, bussar, lågprisflygbolag.',
@@ -382,7 +472,17 @@ export const malaysia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Malay. English widely spoken in cities.',
           sv: 'malajiska. Engelska talas allmänt i städer.',
@@ -396,7 +496,17 @@ export const malaysia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe. Standard precautions in cities.',
           sv: 'Mycket säker. Standardförsiktighetsåtgärder i städer.',
@@ -448,7 +558,17 @@ export const malaysia: Country = {
           nl: 'Palmolie-industrie',
           pt: 'Indústria do óleo de palma',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'Malaysia became a global leader in sustainable palm oil production.',
           sv: 'Malaysia blev en global ledare inom hållbar palmoljeproduktion.',
@@ -498,7 +618,17 @@ export const malaysia: Country = {
           nl: 'Behoud van het regenwoud',
           pt: 'Conservação da floresta tropical',
         },
-        year: 'Ongoing',
+        year: {
+          en: 'Ongoing',
+          sv: 'Pågående',
+          es: 'En curso',
+          fr: 'En cours',
+          de: 'Andauernd',
+          it: 'In corso',
+          pl: 'Trwa nadal',
+          nl: 'Voortdurend',
+          pt: 'Em andamento',
+        },
         description: {
           en: 'Pioneering conservation efforts in some of the world\'s oldest rainforests.',
           sv: 'Banbrytande bevarandeinsatser i några av världens äldsta regnskogar.',
@@ -612,7 +742,7 @@ export const malaysia: Country = {
       {
         name: {
           en: 'Perhentian Islands',
-          sv: 'Perhentian Islands',
+          sv: 'Perhentianöarna',
           es: 'Islas Perhentian',
           fr: 'Îles Perhentiennes',
           de: 'Perhentian-Inseln',
@@ -649,7 +779,7 @@ export const malaysia: Country = {
       },
       description: {
         en: 'Colorful layered steamed cake with pandan and coconut',
-        sv: 'Färgglad lager ångad tårta med pandan och kokosnöt',
+        sv: 'Färggrann ångkokt lagerkaka med pandan och kokos',
         es: 'Pastel colorido al vapor en capas con pandan y coco',
         fr: 'Gâteau cuit à la vapeur en couches colorées avec pandan et noix de coco',
         de: 'Bunter geschichteter gedämpfter Kuchen mit Pandan und Kokosnuss',
@@ -736,7 +866,7 @@ export const malaysia: Country = {
         {
           name: {
             en: 'Pandan extract',
-            sv: 'Pandan-extrakt',
+            sv: 'Pandanextrakt',
             es: 'Extracto de pandan',
             fr: 'Extrait de pandan',
             de: 'Pandan-Extrakt',
@@ -751,7 +881,7 @@ export const malaysia: Country = {
         {
           name: {
             en: 'Food coloring (various)',
-            sv: 'Livsmedelsfärg (olika)',
+            sv: 'Hushållsfärg (olika färger)',
             es: 'Colorantes alimentarios (varios)',
             fr: 'Colorant alimentaire (divers)',
             de: 'Lebensmittelfarbe (verschiedene)',
@@ -810,7 +940,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Steam one layer at a time for 5 minutes',
-          sv: 'Ånga ett lager i taget i 5 minuter',
+          sv: 'Ångkoka ett lager i taget i 5 minuter',
           es: 'Cocine al vapor una capa a la vez durante 5 minutos',
           fr: 'Cuire à la vapeur une couche à la fois pendant 5 minutes',
           de: 'Eine Schicht nach der anderen 5 Minuten lang dämpfen',
@@ -821,7 +951,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Pour next colored layer and steam again',
-          sv: 'Häll nästa färgade lager och ånga igen',
+          sv: 'Häll på nästa färgade lager och ångkoka igen',
           es: 'Vierta la siguiente capa de color y cocine al vapor nuevamente',
           fr: 'Versez la couche colorée suivante et vaporisez à nouveau',
           de: 'Nächste Farbschicht aufgießen und erneut dämpfen',
@@ -843,7 +973,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Cool completely before cutting',
-          sv: 'Kyl helt innan du skär',
+          sv: 'Låt kakan svalna helt innan du skär upp den',
           es: 'Dejar enfriar completamente antes de cortar',
           fr: 'Refroidir complètement avant de couper',
           de: 'Vor dem Schneiden vollständig abkühlen',
@@ -854,7 +984,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Cut into diamond shapes and serve',
-          sv: 'Skär i diamantformer och servera',
+          sv: 'Skär i romber och servera',
           es: 'Cortar en forma de rombos y servir',
           fr: 'Couper en losanges et servir',
           de: 'In Rauten schneiden und servieren',
@@ -881,7 +1011,7 @@ export const malaysia: Country = {
       },
       description: {
         en: 'Malaysia\'s national dish - fragrant coconut rice served with sambal, anchovies, peanuts, and egg',
-        sv: 'Malaysias nationalrätt - doftande kokosris serveras med sambal, ansjovis, jordnötter och ägg',
+        sv: 'Malaysias nationalrätt – doftande kokosris som serveras med sambal, ansjovis, jordnötter och ägg',
         es: 'El plato nacional de Malasia: arroz con coco aromático servido con sambal, anchoas, maní y huevo',
         fr: 'Le plat national de la Malaisie : du riz parfumé à la noix de coco servi avec du sambal, des anchois, des cacahuètes et des œufs',
         de: 'Malaysias Nationalgericht – duftender Kokosreis, serviert mit Sambal, Sardellen, Erdnüssen und Ei',
@@ -938,7 +1068,7 @@ export const malaysia: Country = {
         {
           name: {
             en: 'Pandan leaves',
-            sv: 'Pandan lämnar',
+            sv: 'Pandanblad',
             es: 'Hojas de pandan',
             fr: 'Feuilles de Pandan',
             de: 'Pandan verlässt',
@@ -1030,7 +1160,7 @@ export const malaysia: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -1084,7 +1214,7 @@ export const malaysia: Country = {
       steps: [
         {
           en: 'Wash rice and drain',
-          sv: 'Tvätta ris och låt rinna av',
+          sv: 'Skölj riset och låt det rinna av',
           es: 'Lavar el arroz y escurrir',
           fr: 'Laver le riz et l\'égoutter',
           de: 'Reis waschen und abtropfen lassen',
@@ -1095,7 +1225,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Cook rice with coconut milk, water, pandan leaves, and ginger',
-          sv: 'Koka ris med kokosmjölk, vatten, pandanblad och ingefära',
+          sv: 'Koka riset med kokosmjölk, vatten, pandanblad och ingefära',
           es: 'Cocine arroz con leche de coco, agua, hojas de pandan y jengibre',
           fr: 'Cuire du riz avec du lait de coco, de l\'eau, des feuilles de pandan et du gingembre',
           de: 'Reis mit Kokosmilch, Wasser, Pandanblättern und Ingwer kochen',
@@ -1106,7 +1236,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Let rice steam until fluffy and fragrant',
-          sv: 'Låt riset ånga tills det är fluffigt och doftande',
+          sv: 'Låt riset dra under lock tills det är fluffigt och doftande',
           es: 'Deje que el arroz se cocine al vapor hasta que quede esponjoso y fragante',
           fr: 'Laissez le riz cuire à la vapeur jusqu\'à ce qu\'il soit mousseux et parfumé',
           de: 'Lassen Sie den Reis dämpfen, bis er locker und duftend ist',
@@ -1117,7 +1247,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Fry dried anchovies until crispy, drain on paper',
-          sv: 'Stek torkad ansjovis tills den är knaprig, låt rinna av på papper',
+          sv: 'Stek den torkade ansjovisen krispig och låt den rinna av på hushållspapper',
           es: 'Freír las anchoas secas hasta que estén crujientes, escurrir sobre papel',
           fr: 'Faire frire les anchois séchés jusqu\'à ce qu\'ils soient croustillants, égoutter sur du papier',
           de: 'Getrocknete Sardellen knusprig braten, auf Papier abtropfen lassen',
@@ -1128,7 +1258,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Hard-boil eggs and slice in half',
-          sv: 'Hårdkoka ägg och dela på mitten',
+          sv: 'Hårdkoka äggen och dela dem på mitten',
           es: 'Hervir los huevos duros y cortarlos por la mitad',
           fr: 'Œufs durs et coupés en deux',
           de: 'Eier hart kochen und halbieren',
@@ -1139,7 +1269,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Slice cucumber thinly',
-          sv: 'Skiva gurka tunt',
+          sv: 'Skiva gurkan tunt',
           es: 'Cortar el pepino en rodajas finas',
           fr: 'Trancher finement le concombre',
           de: 'Gurke in dünne Scheiben schneiden',
@@ -1150,7 +1280,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Prepare or buy sambal (spicy chili paste)',
-          sv: 'Förbered eller köp sambal (kryddig chilipasta)',
+          sv: 'Gör egen sambal (stark chilipasta) eller köp färdig',
           es: 'Preparar o comprar sambal (pasta de chile picante)',
           fr: 'Préparez ou achetez du sambal (pâte de piment épicé)',
           de: 'Sambal (scharfe Chilipaste) zubereiten oder kaufen',
@@ -1161,7 +1291,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Serve rice on a banana leaf or plate',
-          sv: 'Servera ris på ett bananblad eller tallrik',
+          sv: 'Lägg upp riset på ett bananblad eller en tallrik',
           es: 'Sirve el arroz en una hoja de plátano o en un plato',
           fr: 'Servir le riz sur une feuille ou une assiette de bananier',
           de: 'Reis auf einem Bananenblatt oder Teller servieren',
@@ -1172,7 +1302,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Arrange anchovies, peanuts, cucumber, and egg around rice',
-          sv: 'Ordna ansjovis, jordnötter, gurka och ägg runt ris',
+          sv: 'Lägg ansjovis, jordnötter, gurka och ägg runt riset',
           es: 'Coloque las anchoas, el maní, el pepino y el huevo alrededor del arroz',
           fr: 'Disposer les anchois, les cacahuètes, le concombre et l\'œuf autour du riz',
           de: 'Sardellen, Erdnüsse, Gurke und Ei um den Reis verteilen',
@@ -1183,7 +1313,7 @@ export const malaysia: Country = {
         },
         {
           en: 'Add a generous spoonful of sambal on the side',
-          sv: 'Lägg en generös sked sambal på sidan',
+          sv: 'Lägg en rejäl klick sambal vid sidan om',
           es: 'Agrega una cucharada generosa de sambal al lado',
           fr: 'Ajoutez une généreuse cuillerée de sambal à côté',
           de: 'Geben Sie einen großzügigen Löffel Sambal als Beilage hinzu',

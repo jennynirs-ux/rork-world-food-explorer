@@ -230,8 +230,28 @@ export const suriname: Country = {
     },
     history: [
       {
-        year: '3000 BC',
-        title: 'Indigenous Cassava Culture',
+        year: {
+          en: '3000 BC',
+          sv: '3000 f.Kr.',
+          es: '3000 a. C.',
+          fr: '3000 av. J.-C.',
+          de: '3000 v. Chr.',
+          it: '3000 a.C.',
+          pl: '3000 p.n.e.',
+          nl: '3000 v.Chr.',
+          pt: '3000 a.C.',
+        },
+        title: {
+          en: 'Indigenous Cassava Culture',
+          sv: 'Ursprungsfolkens kassavakultur',
+          es: 'Cultura indígena de la yuca',
+          fr: 'Culture autochtone du manioc',
+          de: 'Indigene Maniokkultur',
+          it: 'Cultura indigena della manioca',
+          pl: 'Kultura manioku ludów rdzennych',
+          nl: 'Inheemse cassavecultuur',
+          pt: 'Cultura indígena da mandioca',
+        },
         description: {
           en: 'Indigenous Arawak and Carib peoples domesticate cassava root, developing traditional processing methods, cassava bread production, and culinary techniques that remain foundational to Surinamese cooking.',
           sv: 'Ursprungliga Arawak- och Caribfolket domesticerar kassavarot, utvecklar traditionell bearbetningsmetod, kassavabrödsproduktion och kulinariska tekniker som förblir grundläggande för surinamesisk matlagning.',
@@ -246,7 +266,17 @@ export const suriname: Country = {
       },
       {
         year: '1600-1750',
-        title: 'African Culinary Traditions',
+        title: {
+          en: 'African Culinary Traditions',
+          sv: 'Afrikanska mattraditioner',
+          es: 'Tradiciones culinarias africanas',
+          fr: 'Traditions culinaires africaines',
+          de: 'Afrikanische Kochtraditionen',
+          it: 'Tradizioni culinarie africane',
+          pl: 'Afrykańskie tradycje kulinarne',
+          nl: 'Afrikaanse culinaire tradities',
+          pt: 'Tradições culinárias africanas',
+        },
         description: {
           en: 'Enslaved African peoples bring diverse cooking traditions, preparation methods, and flavor profiles. These merge with indigenous and European ingredients to create the multicultural foundation of Surinamese cuisine.',
           sv: 'Enslaved afrikanska människor för diverse matlagningstraditionen, tillagnads metoder och smakprofiler. Dessa smälter samman med inhemska och europeiska ingredienser för att skapa den flerkulturella grunden för surinamesisk mat.',
@@ -261,7 +291,17 @@ export const suriname: Country = {
       },
       {
         year: '1870-1920',
-        title: 'Indian and Indonesian Immigration',
+        title: {
+          en: 'Indian and Indonesian Immigration',
+          sv: 'Indisk och indonesisk invandring',
+          es: 'Inmigración india e indonesia',
+          fr: 'Immigration indienne et indonésienne',
+          de: 'Indische und indonesische Einwanderung',
+          it: 'Immigrazione indiana e indonesiana',
+          pl: 'Imigracja z Indii i Indonezji',
+          nl: 'Hindostaanse en Javaanse immigratie',
+          pt: 'Imigração indiana e indonésia',
+        },
         description: {
           en: 'Indian and Javanese contract laborers introduce roti, rice dishes, spice blends, and cooking techniques that transform Surinamese foodways and establish new culinary traditions.',
           sv: 'Indiska och javanska kontraktarbetare introducerar roti, risrätter, kryddeblandningar och lagningsmetoder som omvandlar surinamesisk matkultur och etablerar nya kulinariska traditioner.',
@@ -275,8 +315,28 @@ export const suriname: Country = {
         },
       },
       {
-        year: '1900-Present',
-        title: 'Chinese and Dutch Influences',
+        year: {
+          en: '1900-Present',
+          sv: '1900–idag',
+          es: '1900–actualidad',
+          fr: '1900–aujourd\'hui',
+          de: '1900–heute',
+          it: '1900–oggi',
+          pl: '1900–obecnie',
+          nl: '1900–heden',
+          pt: '1900–presente',
+        },
+        title: {
+          en: 'Chinese and Dutch Influences',
+          sv: 'Kinesiska och nederländska influenser',
+          es: 'Influencias chinas y neerlandesas',
+          fr: 'Influences chinoises et néerlandaises',
+          de: 'Chinesische und niederländische Einflüsse',
+          it: 'Influenze cinesi e olandesi',
+          pl: 'Wpływy chińskie i holenderskie',
+          nl: 'Chinese en Nederlandse invloeden',
+          pt: 'Influências chinesas e holandesas',
+        },
         description: {
           en: 'Chinese merchants and traders establish communities, introducing cooking styles and ingredients. Dutch colonial heritage also influences restaurant culture and ingredient availability, completing Suriname\'s unique culinary fusion.',
           sv: 'Kinesiska köpmän och handlare etablerar samhällen och introducerar lagningstilar och ingredienser. Nederländskt kolonialt arv påverkar också restaurangkultur och ingrediensmöjligheter, vilket fullbordar Surinames unika kulinariska fusion.',
@@ -366,7 +426,7 @@ export const suriname: Country = {
       {
         name: {
           en: 'Brownsberg Nature Park',
-          sv: 'Brownsberg Nature Park',
+          sv: 'Brownsberg naturpark',
           es: 'Parque Natural de Brownsberg',
           fr: 'Parc naturel du Brownsberg',
           de: 'Brownsberg-Naturpark',
@@ -414,7 +474,17 @@ export const suriname: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities need tourist visa. Check requirements or apply for e-visa online.',
           sv: 'Många nationaliteter behöver turistvisum. Kontrollera kraven eller ansök om e-visum online.',
@@ -428,7 +498,17 @@ export const suriname: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'February to April and August to November for drier weather.',
           sv: 'Februari till april och augusti till november för torrare väder.',
@@ -442,7 +522,17 @@ export const suriname: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Limited roads outside Paramaribo. River boats and small planes for interior travel.',
           sv: 'Begränsade vägar utanför Paramaribo. Flodbåtar och småplan för inrikesresor.',
@@ -456,7 +546,17 @@ export const suriname: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Dutch is official. English and Sranan Tongo widely spoken.',
           sv: 'Holländska är officiellt. Engelska och Sranan Tongo talas allmänt.',
@@ -470,7 +570,17 @@ export const suriname: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Yellow fever vaccination required. Malaria prophylaxis for rainforest areas.',
           sv: 'Vaccination mot gula febern krävs. Malariaprofylax för regnskogsområden.',
@@ -497,7 +607,17 @@ export const suriname: Country = {
           nl: 'Multiculturele fusiekeuken',
           pt: 'Culinária fusion multicultural',
         },
-        year: 'Colonial Era',
+        year: {
+          en: 'Colonial Era',
+          sv: 'Kolonialtiden',
+          es: 'Época colonial',
+          fr: 'Époque coloniale',
+          de: 'Kolonialzeit',
+          it: 'Epoca coloniale',
+          pl: 'Epoka kolonialna',
+          nl: 'Koloniale tijd',
+          pt: 'Período colonial',
+        },
         description: {
           en: 'Unique blending of African, Indian, Javanese, Chinese, and Indigenous culinary traditions',
           sv: 'Unik blandning av afrikanska, indiska, javanesiska, kinesiska och inhemska kulinariska traditioner',
@@ -522,7 +642,17 @@ export const suriname: Country = {
           nl: 'Ontstaan van het Pom-gerecht',
           pt: 'Criação do prato Pom',
         },
-        year: '18th Century',
+        year: {
+          en: '18th Century',
+          sv: '1700-talet',
+          es: 'siglo XVIII',
+          fr: 'XVIIIe siècle',
+          de: '18. Jahrhundert',
+          it: 'XVIII secolo',
+          pl: 'XVIII wiek',
+          nl: '18e eeuw',
+          pt: 'século XVIII',
+        },
         description: {
           en: 'Invented distinctive pomtajer root casserole, now the national dish',
           sv: 'Uppfann distinkta pomtajerrotgryta, nu nationalrätten',
@@ -547,7 +677,17 @@ export const suriname: Country = {
           nl: 'Technieken voor het behoud van het regenwoud',
           pt: 'Técnicas de conservação da floresta tropical',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Indigenous communities developed sustainable forest management practices for 90% forested land',
           sv: 'Ursprungssamhällen utvecklade hållbara skogsbruksmetoder för 90 % skogsmark',
@@ -576,7 +716,7 @@ export const suriname: Country = {
       },
       description: {
         en: 'Suriname\'s national dish – a baked casserole made from grated pomtajer (taro root) layered with seasoned chicken and citrus flavors.',
-        sv: 'Surinams nationalrätt – en bakad gryta gjord av riven pomtajer (tarorot) i lager med kryddade kyckling- och citrussmaker.',
+        sv: 'Surinams nationalrätt – en ugnsbakad gratäng av riven pomtajer (tarorot) varvad med kryddad kyckling och smaksatt med citrus.',
         es: 'El plato nacional de Surinam: una cazuela horneada hecha de pomtajer (raíz de taro) rallada con capas de pollo sazonado y sabores cítricos.',
         fr: 'Le plat national du Suriname : une cocotte cuite au four à base de pomtajer râpé (racine de taro) recouverte de saveurs de poulet assaisonné et d\'agrumes.',
         de: 'Surinams Nationalgericht – ein gebackener Auflauf aus geriebenem Pomtajer (Taro-Wurzel), überzogen mit gewürztem Hühnchen und Zitrusaromen.',
@@ -645,7 +785,7 @@ export const suriname: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -670,7 +810,7 @@ export const suriname: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -793,7 +933,7 @@ export const suriname: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -819,7 +959,7 @@ export const suriname: Country = {
       steps: [
         {
           en: 'Peel and finely grate the pomtajer, then mix with orange and lime juice',
-          sv: 'Skala och riv pomtajeren fint, blanda sedan med apelsin- och limejuice',
+          sv: 'Skala och finriv pomtajern och blanda den sedan med apelsin- och limejuice',
           es: 'Pela y ralla finamente el pomtajer, luego mézclalo con el jugo de naranja y lima',
           fr: 'Épluchez et râpez finement le pomtajer, puis mélangez-le avec le jus d\'orange et de citron vert',
           de: 'Den Pomtajer schälen und fein reiben, dann mit Orangen- und Limettensaft vermischen',
@@ -830,7 +970,7 @@ export const suriname: Country = {
         },
         {
           en: 'Season chicken with salt, pepper, nutmeg, and minced garlic',
-          sv: 'Krydda kycklingen med salt, peppar, muskotnöt och hackad vitlök',
+          sv: 'Krydda kycklingen med salt, peppar, muskotnöt och finhackad vitlök',
           es: 'Sazone el pollo con sal, pimienta, nuez moscada y ajo picado',
           fr: 'Assaisonner le poulet avec du sel, du poivre, de la muscade et de l\'ail émincé',
           de: 'Hähnchen mit Salz, Pfeffer, Muskatnuss und gehacktem Knoblauch würzen',
@@ -863,7 +1003,7 @@ export const suriname: Country = {
         },
         {
           en: 'Shred or chop cooked chicken and mix with onion-tomato mixture',
-          sv: 'Strimla eller hacka kokt kyckling och blanda med lök-tomatblandning',
+          sv: 'Strimla eller hacka den kokta kycklingen och blanda med lök- och tomatblandningen',
           es: 'Tritura o pica el pollo cocido y mézclalo con la mezcla de cebolla y tomate',
           fr: 'Râpez ou hachez le poulet cuit et mélangez-le avec le mélange oignon-tomate',
           de: 'Gekochtes Hähnchen zerkleinern oder hacken und mit der Zwiebel-Tomaten-Mischung vermischen',
@@ -907,7 +1047,7 @@ export const suriname: Country = {
         },
         {
           en: 'Cover with remaining pomtajer mixture',
-          sv: 'Täck med återstående pomtajerblandning',
+          sv: 'Täck med resten av pomtajerblandningen',
           es: 'Cubrir con el resto de la mezcla de pomtajer',
           fr: 'Couvrir du reste du mélange de pomtajer',
           de: 'Mit der restlichen Pomtajer-Mischung bedecken',
@@ -929,7 +1069,7 @@ export const suriname: Country = {
         },
         {
           en: 'Remove foil and bake another 30 minutes until golden',
-          sv: 'Ta bort folien och grädda ytterligare 30 minuter tills de är gyllene',
+          sv: 'Ta bort folien och grädda ytterligare 30 minuter tills ytan är gyllene',
           es: 'Retire el papel aluminio y hornee otros 30 minutos hasta que esté dorado',
           fr: 'Retirer le papier d\'aluminium et cuire encore 30 minutes jusqu\'à ce qu\'il soit doré',
           de: 'Folie entfernen und weitere 30 Minuten goldbraun backen',
@@ -940,7 +1080,7 @@ export const suriname: Country = {
         },
         {
           en: 'Rest 10 minutes before serving, traditionally with rice',
-          sv: 'Vila 10 minuter före servering, traditionellt med ris',
+          sv: 'Låt vila i 10 minuter före servering, traditionellt med ris',
           es: 'Reposar 10 minutos antes de servir, tradicionalmente con arroz',
           fr: 'Reposer 10 minutes avant de servir, traditionnellement avec du riz',
           de: 'Vor dem Servieren 10 Minuten ruhen lassen, traditionell mit Reis',
@@ -967,7 +1107,7 @@ export const suriname: Country = {
       },
       description: {
         en: 'A dense, chewy cassava and coconut cake flavored with spices, popular at celebrations and family gatherings.',
-        sv: 'En tät, seg kassava och kokosnötskaka smaksatt med kryddor, populär vid fester och familjesammankomster.',
+        sv: 'En kompakt, seg kaka på kassava och kokos, smaksatt med kryddor och populär vid fester och släktträffar.',
         es: 'Un pastel denso y masticable de yuca y coco condimentado con especias, popular en celebraciones y reuniones familiares.',
         fr: 'Un gâteau dense et moelleux au manioc et à la noix de coco, parfumé aux épices, populaire lors des célébrations et des réunions de famille.',
         de: 'Ein dichter, zäher Maniok-Kokos-Kuchen mit Gewürzen, beliebt bei Feiern und Familientreffen.',
@@ -1009,7 +1149,7 @@ export const suriname: Country = {
         {
           name: {
             en: 'Desiccated coconut',
-            sv: 'Torkad kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco desecado',
             fr: 'Noix de coco desséchée',
             de: 'Kokosraspeln',
@@ -1066,7 +1206,7 @@ export const suriname: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1158,7 +1298,7 @@ export const suriname: Country = {
         },
         {
           en: 'Stir until fully combined into a thick batter',
-          sv: 'Rör tills det är helt blandat till en tjock smet',
+          sv: 'Rör tills allt är väl blandat och bildar en tjock smet',
           es: 'Revuelva hasta que esté completamente combinado y forme una masa espesa',
           fr: 'Remuer jusqu\'à ce que le tout soit bien mélangé pour obtenir une pâte épaisse',
           de: 'Rühren, bis ein dicker Teig entsteht',
@@ -1169,7 +1309,7 @@ export const suriname: Country = {
         },
         {
           en: 'Spread evenly in the baking pan',
-          sv: 'Fördela jämnt i bakformen',
+          sv: 'Fördela smeten jämnt i formen',
           es: 'Distribuya uniformemente en la bandeja para hornear',
           fr: 'Répartir uniformément dans le plat de cuisson',
           de: 'Gleichmäßig in der Backform verteilen',
@@ -1180,7 +1320,7 @@ export const suriname: Country = {
         },
         {
           en: 'Bake uncovered for 60–75 minutes until firm and golden on top',
-          sv: 'Grädda utan lock i 60–75 minuter tills den är fast och gyllene på toppen',
+          sv: 'Grädda i 60–75 minuter tills kakan är fast och gyllene på ytan',
           es: 'Hornee sin tapar durante 60 a 75 minutos hasta que esté firme y dorado por encima',
           fr: 'Cuire au four à découvert pendant 60 à 75 minutes jusqu\'à ce que le dessus soit ferme et doré',
           de: 'Ohne Deckel 60–75 Minuten backen, bis die Oberfläche fest und goldbraun ist',
@@ -1191,7 +1331,7 @@ export const suriname: Country = {
         },
         {
           en: 'Cool completely before slicing',
-          sv: 'Kyl helt innan du skär',
+          sv: 'Låt svalna helt innan du skär upp kakan',
           es: 'Deje enfriar completamente antes de cortar',
           fr: 'Laisser refroidir complètement avant de trancher',
           de: 'Vor dem Schneiden vollständig abkühlen',
@@ -1202,7 +1342,7 @@ export const suriname: Country = {
         },
         {
           en: 'Serve plain or with coffee or tea',
-          sv: 'Servera vanlig eller med kaffe eller te',
+          sv: 'Servera som den är eller till kaffe eller te',
           es: 'Sirva solo o con café o té',
           fr: 'Servir nature ou avec du café ou du thé',
           de: 'Pur oder mit Kaffee oder Tee servieren',

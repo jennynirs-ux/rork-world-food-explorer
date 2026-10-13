@@ -263,7 +263,17 @@ export const zambia: Country = {
           nl: 'Concept van de wandelsafari',
           pt: 'Conceito de safári a pé',
         },
-        year: '1950s',
+        year: {
+          en: '1950s',
+          sv: '1950-talet',
+          es: 'Década de 1950',
+          fr: 'Années 1950',
+          de: '1950er',
+          it: 'Anni \'50',
+          pl: 'Lata 50.',
+          nl: 'Jaren 50',
+          pt: 'Década de 1950',
+        },
         description: {
           en: 'South Luangwa pioneered walking safaris, revolutionizing wildlife tourism and conservation',
           sv: 'South Luangwa var banbrytande för vandringssafari, revolutionerade turism och bevarande av vilda djur',
@@ -288,7 +298,17 @@ export const zambia: Country = {
           nl: 'Kopermijntechnieken',
           pt: 'Técnicas de mineração de cobre',
         },
-        year: '1920s-Present',
+        year: {
+          en: '1920s-Present',
+          sv: '1920-talet–idag',
+          es: 'década de 1920 – actualidad',
+          fr: 'années 1920 – aujourd\'hui',
+          de: '1920er–heute',
+          it: 'anni \'20 – oggi',
+          pl: 'lata 20. – obecnie',
+          nl: 'jaren 20 – heden',
+          pt: 'década de 1920 – presente',
+        },
         description: {
           en: 'Developed advanced deep mining methods for Copperbelt, one of world\'s richest mineral regions',
           sv: 'Utvecklade avancerade djupbrytningsmetoder för Copperbelt, en av världens rikaste mineralområden',
@@ -329,8 +349,28 @@ export const zambia: Country = {
     ],
     history: [
       {
-        year: 'Pre-1800s',
-        title: 'Early Kingdoms',
+        year: {
+          en: 'Pre-1800s',
+          sv: 'Före 1800',
+          es: 'Antes de 1800',
+          fr: 'Avant 1800',
+          de: 'Vor 1800',
+          it: 'Prima del 1800',
+          pl: 'Przed 1800 r.',
+          nl: 'Vóór 1800',
+          pt: 'Antes de 1800',
+        },
+        title: {
+          en: 'Early Kingdoms',
+          sv: 'Tidiga kungariken',
+          es: 'Primeros reinos',
+          fr: 'Premiers royaumes',
+          de: 'Frühe Königreiche',
+          it: 'Primi regni',
+          pl: 'Wczesne królestwa',
+          nl: 'Vroege koninkrijken',
+          pt: 'Primeiros reinos',
+        },
         description: {
           en: 'Zambia was home to powerful African kingdoms and trade routes long before European contact.',
           sv: 'Zambia var hem för mäktiga afrikanska kungadömen och handelsvägar långt före kontakt med Europa.',
@@ -345,7 +385,17 @@ export const zambia: Country = {
       },
       {
         year: '1890',
-        title: 'British Rule',
+        title: {
+          en: 'British Rule',
+          sv: 'Brittiskt styre',
+          es: 'Dominio británico',
+          fr: 'Domination britannique',
+          de: 'Britische Herrschaft',
+          it: 'Dominio britannico',
+          pl: 'Rządy brytyjskie',
+          nl: 'Brits bewind',
+          pt: 'Domínio britânico',
+        },
         description: {
           en: 'The region became part of Northern Rhodesia under British administration.',
           sv: 'Regionen blev en del av norra Rhodesia under brittisk administration.',
@@ -360,7 +410,17 @@ export const zambia: Country = {
       },
       {
         year: '1964',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Zambia gained independence from Britain with Kenneth Kaunda as its first president.',
           sv: 'Zambia blev självständigt från Storbritannien med Kenneth Kaunda som sin första president.',
@@ -376,7 +436,17 @@ export const zambia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa required for most visitors, available on arrival at major entry points.',
           sv: 'Visum krävs för de flesta besökare, tillgängligt vid ankomst till större infarter.',
@@ -390,7 +460,17 @@ export const zambia: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to October (dry season) for best wildlife viewing and Victoria Falls.',
           sv: 'Maj till oktober (torrsäsong) för bästa visning av vilda djur och Victoriafallen.',
@@ -404,7 +484,17 @@ export const zambia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights, buses, and 4x4 rentals for safari areas.',
           sv: 'Inrikesflyg, bussar och 4x4-uthyrning för safariområden.',
@@ -418,7 +508,17 @@ export const zambia: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Malaria precautions essential. Yellow fever certificate may be required.',
           sv: 'Malaria försiktighetsåtgärder viktiga. Gul feberintyg kan krävas.',
@@ -432,7 +532,17 @@ export const zambia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe. Take normal precautions in cities and on safaris.',
           sv: 'Generellt säker. Ta normala försiktighetsåtgärder i städer och på safari.',
@@ -522,7 +632,7 @@ export const zambia: Country = {
       {
         name: {
           en: 'Lake Kariba',
-          sv: 'Lake Kariba',
+          sv: 'Karibasjön',
           es: 'Lago Kariba',
           fr: 'Lac Kariba',
           de: 'Kariba-See',
@@ -572,7 +682,7 @@ export const zambia: Country = {
       id: 'zambia-main',
       name: {
         en: 'Nshima with Vegetable Relish',
-        sv: 'Nshima med grönsaksrelish',
+        sv: 'Nshima med grönsaker i jordnötssås',
         es: 'Nshima con salsa de verduras',
         fr: 'Nshima avec relish aux légumes',
         de: 'Nshima mit Gemüserelish',
@@ -583,7 +693,7 @@ export const zambia: Country = {
       },
       description: {
         en: 'Zambia\'s staple dish: thick maize porridge served with pumpkin leaves and groundnut sauce.',
-        sv: 'Zambias basrätt: tjock majsgröt serverad med pumpablad och jordnötsås.',
+        sv: 'Zambias basrätt: tjock majsgröt serverad med pumpablad i jordnötssås.',
         es: 'El plato básico de Zambia: gachas espesas de maíz servidas con hojas de calabaza y salsa de maní.',
         fr: 'Le plat de base de la Zambie : une bouillie de maïs épaisse servie avec des feuilles de citrouille et une sauce aux arachides.',
         de: 'Sambias Hauptgericht: dicker Maisbrei, serviert mit Kürbisblättern und Erdnusssauce.',
@@ -610,7 +720,7 @@ export const zambia: Country = {
         {
           name: {
             en: 'White maize meal',
-            sv: 'Vit majsmjöl',
+            sv: 'Vitt majsmjöl',
             es: 'Harina de maíz blanco',
             fr: 'Farine de maïs blanc',
             de: 'Weißes Maismehl',
@@ -640,7 +750,7 @@ export const zambia: Country = {
         {
           name: {
             en: 'Groundnuts (peanuts)',
-            sv: 'Jordnötter (jordnötter)',
+            sv: 'Jordnötter',
             es: 'Cacahuetes (cacahuetes)',
             fr: 'Arachides (cacahuètes)',
             de: 'Erdnüsse (Erdnüsse)',
@@ -667,7 +777,7 @@ export const zambia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -692,7 +802,7 @@ export const zambia: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -757,7 +867,7 @@ export const zambia: Country = {
         },
         {
           en: 'Gradually add maize meal while stirring constantly',
-          sv: 'Tillsätt majsmjöl gradvis under ständig omrörning',
+          sv: 'Strö ner majsmjölet lite i taget under ständig omrörning',
           es: 'Agregue gradualmente la harina de maíz mientras revuelve constantemente',
           fr: 'Ajouter progressivement la farine de maïs en remuant constamment',
           de: 'Unter ständigem Rühren nach und nach Maismehl hinzufügen',
@@ -768,7 +878,7 @@ export const zambia: Country = {
         },
         {
           en: 'Cook until very thick and smooth',
-          sv: 'Koka tills mycket tjock och slät',
+          sv: 'Koka tills gröten är mycket tjock och slät',
           es: 'Cocine hasta que esté muy espeso y suave',
           fr: 'Cuire jusqu\'à ce que ce soit très épais et lisse',
           de: 'Kochen, bis es sehr dick und glatt ist',
@@ -812,7 +922,7 @@ export const zambia: Country = {
         },
         {
           en: 'Add groundnut sauce to vegetables and simmer',
-          sv: 'Tillsätt jordnötssås till grönsakerna och låt sjuda',
+          sv: 'Rör ner jordnötssåsen i grönsakerna och låt sjuda',
           es: 'Agregue salsa de maní a las verduras y cocine a fuego lento',
           fr: 'Ajouter la sauce aux arachides aux légumes et laisser mijoter',
           de: 'Erdnusssauce zum Gemüse geben und köcheln lassen',
@@ -823,7 +933,7 @@ export const zambia: Country = {
         },
         {
           en: 'Serve nshima hot with relish on the side',
-          sv: 'Servera nshima varm med relish vid sidan om',
+          sv: 'Servera nshiman varm med grönsakerna vid sidan om',
           es: 'Sirva nshima caliente con salsa a un lado',
           fr: 'Servir le nshima chaud avec de la relish en accompagnement',
           de: 'Servieren Sie Nshima heiß mit Relish als Beilage',
@@ -850,7 +960,7 @@ export const zambia: Country = {
       },
       description: {
         en: 'Traditional fried maize and wheat fritters, lightly sweet and crispy on the outside.',
-        sv: 'Traditionella friterade majs- och vetefritter, lätt söta och krispiga på utsidan.',
+        sv: 'Traditionella friterade munkar av majs- och vetemjöl, lätt söta och frasiga utanpå.',
         es: 'Buñuelos tradicionales de maíz y trigo fritos, ligeramente dulces y crujientes por fuera.',
         fr: 'Beignets de maïs et de blé frits traditionnels, légèrement sucrés et croustillants à l\'extérieur.',
         de: 'Traditionelle frittierte Mais- und Weizenkrapfen, außen leicht süß und knusprig.',
@@ -952,7 +1062,7 @@ export const zambia: Country = {
         {
           name: {
             en: 'Vegetable oil (for frying)',
-            sv: 'Vegetabilisk olja (för stekning)',
+            sv: 'Neutral olja (till stekning)',
             es: 'Aceite vegetal (para freír)',
             fr: 'Huile végétale (pour la friture)',
             de: 'Pflanzenöl (zum Braten)',
@@ -1001,7 +1111,7 @@ export const zambia: Country = {
         },
         {
           en: 'Heat oil in a deep pan',
-          sv: 'Värm olja i en djup panna',
+          sv: 'Hetta upp oljan i en djup kastrull',
           es: 'Calentar aceite en una sartén honda',
           fr: 'Faire chauffer l\'huile dans une poêle profonde',
           de: 'Öl in einer tiefen Pfanne erhitzen',
@@ -1012,7 +1122,7 @@ export const zambia: Country = {
         },
         {
           en: 'Spoon batter into oil and fry until golden',
-          sv: 'Häll smeten i olja och stek tills den är gyllene',
+          sv: 'Klicka ner smeten i oljan med en sked och fritera tills munkarna är gyllene',
           es: 'Vierta la masa en aceite y fría hasta que esté dorada',
           fr: 'Verser la pâte dans l\'huile et faire frire jusqu\'à ce qu\'elle soit dorée',
           de: 'Den Teig in Öl geben und goldbraun braten',
@@ -1023,7 +1133,7 @@ export const zambia: Country = {
         },
         {
           en: 'Remove and drain on paper towels',
-          sv: 'Ta bort och låt rinna av på hushållspapper',
+          sv: 'Lyft upp dem och låt rinna av på hushållspapper',
           es: 'Retirar y escurrir sobre toallas de papel',
           fr: 'Retirer et égoutter sur du papier absorbant',
           de: 'Herausnehmen und auf Papiertüchern abtropfen lassen',
@@ -1034,7 +1144,7 @@ export const zambia: Country = {
         },
         {
           en: 'Serve warm as a snack or dessert',
-          sv: 'Servera varm som mellanmål eller efterrätt',
+          sv: 'Servera dem varma som mellanmål eller efterrätt',
           es: 'Servir caliente como merienda o postre.',
           fr: 'Servir chaud en collation ou en dessert',
           de: 'Warm als Snack oder Dessert servieren',
@@ -1189,7 +1299,7 @@ export const zambia: Country = {
           },
           {
             en: 'Angel Falls',
-            sv: 'Angel Falls',
+            sv: 'Angelfallet',
             es: 'Salto Ángel',
             fr: 'Chutes d\'Ange',
             de: 'Angel Falls',
@@ -1200,7 +1310,7 @@ export const zambia: Country = {
           },
           {
             en: 'Kaieteur Falls',
-            sv: 'Kaieteur Falls',
+            sv: 'Kaieteurfallet',
             es: 'Cataratas Kaieteur',
             fr: 'Chutes de Kaieteur',
             de: 'Kaieteur-Wasserfälle',

@@ -264,7 +264,17 @@ export const peru: Country = {
     history: [
       {
         year: '1200-1533',
-        title: 'Inca Empire',
+        title: {
+          en: 'Inca Empire',
+          sv: 'Inkariket',
+          es: 'Imperio inca',
+          fr: 'Empire inca',
+          de: 'Inkareich',
+          it: 'Impero inca',
+          pl: 'Imperium Inków',
+          nl: 'Incarijk',
+          pt: 'Império Inca',
+        },
         description: {
           en: 'The Inca civilization flourished, building Machu Picchu and creating a vast empire across the Andes.',
           sv: 'Inkacivilisationen blomstrade, byggde Machu Picchu och skapade ett stort imperium över Anderna.',
@@ -279,7 +289,17 @@ export const peru: Country = {
       },
       {
         year: '1533',
-        title: 'Spanish Conquest',
+        title: {
+          en: 'Spanish Conquest',
+          sv: 'Spanska erövringen',
+          es: 'Conquista española',
+          fr: 'Conquête espagnole',
+          de: 'Spanische Eroberung',
+          it: 'Conquista spagnola',
+          pl: 'Podbój hiszpański',
+          nl: 'Spaanse verovering',
+          pt: 'Conquista espanhola',
+        },
         description: {
           en: 'Francisco Pizarro conquered the Inca Empire, beginning Spanish colonial rule that lasted nearly 300 years.',
           sv: 'Francisco Pizarro erövrade Inkariket och började det spanska kolonialstyret som varade i nästan 300 år.',
@@ -294,7 +314,17 @@ export const peru: Country = {
       },
       {
         year: '1821',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Peru declared independence from Spain, led by José de San Martín and Simón Bolívar.',
           sv: 'Peru förklarade sig självständigt från Spanien, ledd av José de San Martín och Simón Bolívar.',
@@ -309,7 +339,17 @@ export const peru: Country = {
       },
       {
         year: '1911',
-        title: 'Machu Picchu Discovery',
+        title: {
+          en: 'Machu Picchu Discovery',
+          sv: 'Upptäckten av Machu Picchu',
+          es: 'Descubrimiento de Machu Picchu',
+          fr: 'Découverte du Machu Picchu',
+          de: 'Entdeckung von Machu Picchu',
+          it: 'Scoperta di Machu Picchu',
+          pl: 'Odkrycie Machu Picchu',
+          nl: 'Ontdekking van Machu Picchu',
+          pt: 'Descoberta de Machu Picchu',
+        },
         description: {
           en: 'American historian Hiram Bingham brought international attention to Machu Picchu.',
           sv: 'Den amerikanske historikern Hiram Bingham väckte internationell uppmärksamhet till Machu Picchu.',
@@ -336,7 +376,17 @@ export const peru: Country = {
           nl: 'Terraslandbouw',
           pt: 'Agricultura em terraços',
         },
-        year: '1200s',
+        year: {
+          en: '1200s',
+          sv: '1200-talet',
+          es: 'Siglo XIII',
+          fr: 'XIIIe siècle',
+          de: '13. Jahrhundert',
+          it: 'XIII secolo',
+          pl: 'XIII wiek',
+          nl: '13e eeuw',
+          pt: 'Século XIII',
+        },
         description: {
           en: 'The Incas perfected agricultural terraces to grow crops in the steep Andes mountains.',
           sv: 'Inkafolket fulländade jordbruksterrasser för att odla grödor i de branta Anderna.',
@@ -361,7 +411,17 @@ export const peru: Country = {
           nl: 'Vriesdrogen van voedsel',
           pt: 'Liofilização de alimentos',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Incas invented chuño, freeze-dried potatoes, by using high altitude freezing nights and hot days.',
           sv: 'Inkafolket uppfann chuño, frystorkad potatis, genom att använda frysnätter på hög höjd och varma dagar.',
@@ -386,7 +446,17 @@ export const peru: Country = {
           nl: 'Quipu-systeem',
           pt: 'Sistema de quipu',
         },
-        year: '1400s',
+        year: {
+          en: '1400s',
+          sv: '1400-talet',
+          es: 'Siglo XV',
+          fr: 'XVe siècle',
+          de: '15. Jahrhundert',
+          it: 'XV secolo',
+          pl: 'XV wiek',
+          nl: '15e eeuw',
+          pt: 'Século XV',
+        },
         description: {
           en: 'A recording device using knotted strings for accounting and record-keeping.',
           sv: 'En inspelningsenhet som använder knutna strängar för redovisning och journalföring.',
@@ -476,7 +546,7 @@ export const peru: Country = {
       {
         name: {
           en: 'Rainbow Mountain',
-          sv: 'Rainbow Mountain',
+          sv: 'Regnbågsberget',
           es: 'Montaña Arcoíris',
           fr: 'Montagne arc-en-ciel',
           de: 'Regenbogenberg',
@@ -524,7 +594,17 @@ export const peru: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for dry season in the Andes; year-round for Amazon and coast.',
           sv: 'Maj-september för torrperioden i Anderna; året runt för Amazon och kust.',
@@ -538,7 +618,17 @@ export const peru: Country = {
         },
       },
       {
-        item: 'Altitude sickness medication',
+        item: {
+          en: 'Altitude sickness medication',
+          sv: 'Medicin mot höjdsjuka',
+          es: 'Medicamentos para el mal de altura',
+          fr: 'Médicaments contre le mal d\'altitude',
+          de: 'Medikamente gegen Höhenkrankheit',
+          it: 'Farmaci per il mal di montagna',
+          pl: 'Leki na chorobę wysokościową',
+          nl: 'Medicijnen tegen hoogteziekte',
+          pt: 'Remédio para o mal da altitude',
+        },
         description: {
           en: 'Essential for high-altitude areas like Cusco and Puno.',
           sv: 'Viktigt för höghöjdsområden som Cusco och Puno.',
@@ -552,7 +642,17 @@ export const peru: Country = {
         },
       },
       {
-        item: 'Layers of clothing',
+        item: {
+          en: 'Layers of clothing',
+          sv: 'Kläder i lager',
+          es: 'Ropa en capas',
+          fr: 'Vêtements superposés',
+          de: 'Kleidung im Zwiebellook',
+          it: 'Abbigliamento a strati',
+          pl: 'Ubrania na cebulkę',
+          nl: 'Kleding in laagjes',
+          pt: 'Roupas em camadas',
+        },
         description: {
           en: 'Temperature varies greatly from hot days to cold nights in the mountains.',
           sv: 'Temperaturen varierar mycket från varma dagar till kalla nätter i bergen.',
@@ -566,7 +666,17 @@ export const peru: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'UV rays are intense at high altitudes.',
           sv: 'UV-strålar är intensiva på höga höjder.',
@@ -580,7 +690,17 @@ export const peru: Country = {
         },
       },
       {
-        item: 'Cash in local currency',
+        item: {
+          en: 'Cash in local currency',
+          sv: 'Kontanter i lokal valuta',
+          es: 'Efectivo en moneda local',
+          fr: 'Espèces en monnaie locale',
+          de: 'Bargeld in Landeswährung',
+          it: 'Contanti in valuta locale',
+          pl: 'Gotówka w lokalnej walucie',
+          nl: 'Contant geld in lokale valuta',
+          pt: 'Dinheiro em moeda local',
+        },
         description: {
           en: 'Many places don\'t accept cards, especially in rural areas.',
           sv: 'Många ställen accepterar inte kort, särskilt på landsbygden.',
@@ -594,7 +714,17 @@ export const peru: Country = {
         },
       },
       {
-        item: 'Water purification',
+        item: {
+          en: 'Water purification',
+          sv: 'Vattenrening',
+          es: 'Purificación del agua',
+          fr: 'Purification de l\'eau',
+          de: 'Wasseraufbereitung',
+          it: 'Purificazione dell\'acqua',
+          pl: 'Uzdatnianie wody',
+          nl: 'Waterzuivering',
+          pt: 'Purificação da água',
+        },
         description: {
           en: 'Drink bottled water to avoid altitude sickness complications.',
           sv: 'Drick vatten på flaska för att undvika höjdsjukakomplikationer.',
@@ -623,7 +753,7 @@ export const peru: Country = {
       },
       description: {
         en: 'Fresh raw fish marinated in citrus juices, typically lime, and spiced with chili peppers',
-        sv: 'Färsk rå fisk marinerad i citrusjuice, vanligtvis lime, och kryddad med chilipeppar',
+        sv: 'Rå, färsk fisk marinerad i citrussaft, oftast lime, och smaksatt med chili',
         es: 'Pescado crudo fresco marinado en jugos de cítricos, típicamente lima, y ​​condimentado con chiles',
         fr: 'Poisson cru frais mariné dans des jus d\'agrumes, généralement du citron vert, et épicé avec des piments',
         de: 'Frischer roher Fisch, mariniert in Zitrussäften, typischerweise Limette, und gewürzt mit Chilischoten',
@@ -650,7 +780,7 @@ export const peru: Country = {
         {
           name: {
             en: 'Fresh white fish (sea bass or sole)',
-            sv: 'Färsk vit fisk (havsabborre eller tunga)',
+            sv: 'Färsk vit fisk (havsabborre eller sjötunga)',
             es: 'Pescado blanco fresco (lubina o lenguado)',
             fr: 'Poisson blanc frais (bar ou sole)',
             de: 'Frischer Weißfisch (Wolfsbarsch oder Seezunge)',
@@ -665,7 +795,7 @@ export const peru: Country = {
         {
           name: {
             en: 'Fresh lime juice',
-            sv: 'Färsk limejuice',
+            sv: 'Nypressad limejuice',
             es: 'Jugo de lima fresco',
             fr: 'Jus de citron vert frais',
             de: 'Frischer Limettensaft',
@@ -692,7 +822,7 @@ export const peru: Country = {
           amount: 1,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -717,7 +847,7 @@ export const peru: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -767,7 +897,7 @@ export const peru: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -831,7 +961,7 @@ export const peru: Country = {
       steps: [
         {
           en: 'Cut fish into small cubes, about 1cm each',
-          sv: 'Skär fisken i små tärningar, ca 1 cm vardera',
+          sv: 'Skär fisken i små tärningar, ca 1 cm stora',
           es: 'Cortar el pescado en cubos pequeños, de aproximadamente 1 cm cada uno',
           fr: 'Coupez le poisson en petits cubes d\'environ 1 cm chacun',
           de: 'Den Fisch in kleine Würfel schneiden, jeweils ca. 1 cm groß',
@@ -842,7 +972,7 @@ export const peru: Country = {
         },
         {
           en: 'Thinly slice red onion and soak in cold water for 10 minutes to reduce sharpness',
-          sv: 'Skiva rödlök tunt och lägg i kallt vatten i 10 minuter för att minska skärpan',
+          sv: 'Skiva rödlöken tunt och lägg den i kallt vatten i 10 minuter så att den blir mildare',
           es: 'Cortar en rodajas finas la cebolla morada y remojarla en agua fría durante 10 minutos para reducir el picante',
           fr: 'Tranchez finement l\'oignon rouge et faites-le tremper dans l\'eau froide pendant 10 minutes pour en réduire le piquant',
           de: 'Rote Zwiebeln in dünne Scheiben schneiden und 10 Minuten in kaltem Wasser einweichen, um die Schärfe zu verringern',
@@ -864,7 +994,7 @@ export const peru: Country = {
         },
         {
           en: 'Mix fish with lime juice, ensuring all pieces are covered',
-          sv: 'Blanda fisk med limejuice, se till att alla bitar är täckta',
+          sv: 'Blanda fisken med limejuicen och se till att alla bitar täcks av saften',
           es: 'Mezcla el pescado con el jugo de limón, asegurándote de que todos los trozos queden cubiertos',
           fr: 'Mélangez le poisson avec le jus de citron vert, en vous assurant que tous les morceaux sont couverts',
           de: 'Mischen Sie den Fisch mit Limettensaft und achten Sie darauf, dass alle Stücke bedeckt sind',
@@ -908,7 +1038,7 @@ export const peru: Country = {
         },
         {
           en: 'Serve ceviche immediately with sweet potato and corn on the side',
-          sv: 'Servera ceviche omedelbart med sötpotatis och majs vid sidan om',
+          sv: 'Servera cevichen direkt med sötpotatis och majs som tillbehör',
           es: 'Sirva el ceviche inmediatamente con camote y maíz a un lado',
           fr: 'Servir le ceviche immédiatement avec de la patate douce et du maïs en accompagnement',
           de: 'Ceviche sofort mit Süßkartoffel und Mais als Beilage servieren',
@@ -935,7 +1065,7 @@ export const peru: Country = {
       },
       description: {
         en: 'Delicate shortbread cookies sandwiched with dulce de leche and dusted with powdered sugar',
-        sv: 'Fina mördegskakor med dulce de leche och pudrade med strösocker',
+        sv: 'Sköra mördegskakor som läggs ihop med dulce de leche och pudras med florsocker',
         es: 'Delicadas galletas de mantequilla intercaladas con dulce de leche y espolvoreadas con azúcar glass',
         fr: 'Délicats sablés pris en sandwich avec du dulce de leche et saupoudrés de sucre en poudre',
         de: 'Zarte Shortbread-Kekse mit Dulce de Leche belegt und mit Puderzucker bestäubt',
@@ -977,7 +1107,7 @@ export const peru: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1062,7 +1192,7 @@ export const peru: Country = {
         {
           name: {
             en: 'Powdered sugar',
-            sv: 'Pulversocker',
+            sv: 'Florsocker',
             es: 'Azúcar en polvo',
             fr: 'Sucre en poudre',
             de: 'Puderzucker',
@@ -1093,7 +1223,7 @@ export const peru: Country = {
       steps: [
         {
           en: 'Mix butter and sugar until creamy',
-          sv: 'Blanda smör och socker krämigt',
+          sv: 'Rör smör och socker krämigt',
           es: 'Mezclar la mantequilla y el azúcar hasta que esté cremoso',
           fr: 'Mélanger le beurre et le sucre jusqu\'à obtenir une consistance crémeuse',
           de: 'Butter und Zucker cremig rühren',
@@ -1104,7 +1234,7 @@ export const peru: Country = {
         },
         {
           en: 'Add egg yolks and vanilla, beat well',
-          sv: 'Tillsätt äggulor och vanilj, vispa väl',
+          sv: 'Tillsätt äggulorna och vaniljen och vispa ordentligt',
           es: 'Agrega las yemas de huevo y la vainilla, bate bien',
           fr: 'Ajouter les jaunes d\'œufs et la vanille, bien battre',
           de: 'Eigelb und Vanille dazugeben, gut verrühren',
@@ -1115,7 +1245,7 @@ export const peru: Country = {
         },
         {
           en: 'Sift together cornstarch and flour, add to mixture',
-          sv: 'Sikta samman majsstärkelse och mjöl, lägg till blandningen',
+          sv: 'Sikta ihop majsstärkelse och vetemjöl och arbeta in det i smörblandningen',
           es: 'Tamizar la maicena y la harina, agregar a la mezcla',
           fr: 'Tamiser ensemble la fécule de maïs et la farine, ajouter au mélange',
           de: 'Maisstärke und Mehl sieben und zur Mischung hinzufügen',
@@ -1137,7 +1267,7 @@ export const peru: Country = {
         },
         {
           en: 'Roll out dough to 5mm thickness',
-          sv: 'Kavla ut degen till 5 mm tjocklek',
+          sv: 'Kavla ut degen ca 5 mm tjock',
           es: 'Estire la masa hasta que tenga un grosor de 5 mm',
           fr: 'Abaisser la pâte sur 5 mm d\'épaisseur',
           de: 'Den Teig 5 mm dick ausrollen',
@@ -1148,7 +1278,7 @@ export const peru: Country = {
         },
         {
           en: 'Cut circles with cookie cutter',
-          sv: 'Skär cirklar med kakformen',
+          sv: 'Ta ut runda kakor med en utstickare',
           es: 'Cortar círculos con un cortador de galletas',
           fr: 'Découpez des cercles à l\'emporte-pièce',
           de: 'Kreise mit Ausstecher ausstechen',
@@ -1170,7 +1300,7 @@ export const peru: Country = {
         },
         {
           en: 'Cool completely, then sandwich cookies with dulce de leche',
-          sv: 'Kyl helt, sedan smörgås kakor med dulce de leche',
+          sv: 'Låt kakorna svalna helt och lägg sedan ihop dem två och två med dulce de leche',
           es: 'Deje enfriar completamente, luego intercale las galletas con dulce de leche',
           fr: 'Laisser refroidir complètement, puis sandwicher les biscuits avec du dulce de leche',
           de: 'Vollständig abkühlen lassen, dann Kekse mit Dulce de Leche belegen',
@@ -1181,7 +1311,7 @@ export const peru: Country = {
         },
         {
           en: 'Dust with powdered sugar',
-          sv: 'Pudra med strösocker',
+          sv: 'Pudra med florsocker',
           es: 'Espolvorear con azúcar glass',
           fr: 'Saupoudrer de sucre en poudre',
           de: 'Mit Puderzucker bestäuben',
@@ -1549,7 +1679,7 @@ export const peru: Country = {
         options: [
           {
             en: 'Lake Superior',
-            sv: 'Lake Superior',
+            sv: 'Övre sjön',
             es: 'Lago Superior',
             fr: 'Lac Supérieur',
             de: 'Oberer See',
@@ -1621,7 +1751,7 @@ export const peru: Country = {
           },
           {
             en: 'Nazca Lines',
-            sv: 'Nazca Lines',
+            sv: 'Nazcalinjerna',
             es: 'Líneas de Nazca',
             fr: 'Lignes de Nazca',
             de: 'Nazca-Linien',

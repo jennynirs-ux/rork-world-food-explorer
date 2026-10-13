@@ -230,8 +230,28 @@ export const somalia: Country = {
     },
     history: [
       {
-        year: '2000 BC',
-        title: 'Nomadic Pastoralism',
+        year: {
+          en: '2000 BC',
+          sv: '2000 f.Kr.',
+          es: '2000 a. C.',
+          fr: '2000 av. J.-C.',
+          de: '2000 v. Chr.',
+          it: '2000 a.C.',
+          pl: '2000 p.n.e.',
+          nl: '2000 v.Chr.',
+          pt: '2000 a.C.',
+        },
+        title: {
+          en: 'Nomadic Pastoralism',
+          sv: 'Nomadisk boskapsskötsel',
+          es: 'Pastoreo nómada',
+          fr: 'Pastoralisme nomade',
+          de: 'Nomadische Weidewirtschaft',
+          it: 'Pastorizia nomade',
+          pl: 'Pasterstwo koczownicze',
+          nl: 'Nomadische veeteelt',
+          pt: 'Pastoreio nômade',
+        },
         description: {
           en: 'Early Somali pastoralists develop sophisticated pastoral culture centered on camel, goat, and sheep herding, creating meat-based and milk-based culinary traditions.',
           sv: 'Tidiga somaliska pastoralisters utvecklar sofistikerad pastoral kultur centrerad på kamel-, get- och fåruppfödning, vilket skapar köttkäd och mjölkbaserade kulinära traditioner.',
@@ -245,8 +265,28 @@ export const somalia: Country = {
         },
       },
       {
-        year: '800 AD',
-        title: 'Spice Route Trade',
+        year: {
+          en: '800 AD',
+          sv: '800 e.Kr.',
+          es: '800 d. C.',
+          fr: '800 apr. J.-C.',
+          de: '800 n. Chr.',
+          it: '800 d.C.',
+          pl: '800 n.e.',
+          nl: '800 n.Chr.',
+          pt: '800 d.C.',
+        },
+        title: {
+          en: 'Spice Route Trade',
+          sv: 'Handel längs kryddvägen',
+          es: 'Comercio por la ruta de las especias',
+          fr: 'Commerce sur la route des épices',
+          de: 'Handel auf der Gewürzroute',
+          it: 'Commercio sulla via delle spezie',
+          pl: 'Handel na szlaku korzennym',
+          nl: 'Handel over de specerijenroute',
+          pt: 'Comércio na rota das especiarias',
+        },
         description: {
           en: 'Somalia becomes a crucial hub on the Indian Ocean spice trade route, introducing cloves, cardamom, cinnamon, and pepper to local cuisine and creating fusion dishes with Arab traders.',
           sv: 'Somalia blir ett avgörande nav på Indiska oceanens kryddväg, introducerande nejlika, kardamom, kanel och peppar till lokal mat och skapar fusionrätter med arabiska handlare.',
@@ -260,8 +300,28 @@ export const somalia: Country = {
         },
       },
       {
-        year: '1500s',
-        title: 'Coastal Seafood Mastery',
+        year: {
+          en: '1500s',
+          sv: '1500-talet',
+          es: 'Siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'Século XVI',
+        },
+        title: {
+          en: 'Coastal Seafood Mastery',
+          sv: 'Kustens fisk- och skaldjurskonst',
+          es: 'Maestría en pescados y mariscos',
+          fr: 'Maîtrise des produits de la mer',
+          de: 'Meisterhafte Küstenküche',
+          it: 'Maestria nella cucina di mare',
+          pl: 'Mistrzowska kuchnia nadmorska',
+          nl: 'Meesterschap in vis en zeevruchten',
+          pt: 'Maestria em frutos do mar',
+        },
         description: {
           en: 'Somali coastal communities develop expertise in fishing and seafood preparation, incorporating grouper, tuna, and lobster into meals alongside grains and creating seasoned fish and rice dishes.',
           sv: 'Somaliska kustsamhällen utvecklar expertis i fiske och seafood-beredning, införlivandet gruppfisk, tonfisk och hummer i måltider tillsammans med spannmål och skapar kryddad fisk och risrätter.',
@@ -275,8 +335,28 @@ export const somalia: Country = {
         },
       },
       {
-        year: '1600s',
-        title: 'Colonial Culinary Exchange',
+        year: {
+          en: '1600s',
+          sv: '1600-talet',
+          es: 'siglo XVII',
+          fr: 'XVIIe siècle',
+          de: '17. Jahrhundert',
+          it: 'XVII secolo',
+          pl: 'XVII wiek',
+          nl: '17e eeuw',
+          pt: 'século XVII',
+        },
+        title: {
+          en: 'Colonial Culinary Exchange',
+          sv: 'Kulinariskt utbyte under kolonialtiden',
+          es: 'Intercambio culinario colonial',
+          fr: 'Échanges culinaires coloniaux',
+          de: 'Kulinarischer Austausch in der Kolonialzeit',
+          it: 'Scambi culinari coloniali',
+          pl: 'Wymiana kulinarna w czasach kolonialnych',
+          nl: 'Koloniale culinaire uitwisseling',
+          pt: 'Intercâmbio culinário colonial',
+        },
         description: {
           en: 'Italian colonization introduces pasta and tomato-based dishes to Somalia, which blend with local ingredients and techniques, creating unique fusion cuisine that becomes foundational to Somali food identity.',
           sv: 'Italiensk kolonisering introducerar pasta och tomatbaserade rätter till Somalia, som blandas med lokala ingredienser och tekniker, skapar unik fusionskuisine som blir grundläggande för somalisk matidentitet.',
@@ -366,7 +446,7 @@ export const somalia: Country = {
       {
         name: {
           en: 'Cal Madow Mountains',
-          sv: 'Cal Madow Mountains',
+          sv: 'Cal Madow-bergen',
           es: 'Montañas Cal Madow',
           fr: 'Montagnes Cal Madow',
           de: 'Cal Madow Mountains',
@@ -414,7 +494,17 @@ export const somalia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa required. Check with Somali embassy for current requirements and procedures.',
           sv: 'Visum krävs. Kontrollera med Somaliska ambassaden för aktuella krav och förfaranden.',
@@ -428,7 +518,17 @@ export const somalia: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to March for cooler weather. Avoid monsoon season (May-September).',
           sv: 'December till mars för svalare väder. Undvik monsunsäsong (maj-september).',
@@ -442,7 +542,17 @@ export const somalia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories carefully. Security situation varies by region.',
           sv: 'Kontrollera aktuella reseråd noggrant. Säkerhetssituationen varierar beroende på region.',
@@ -456,7 +566,17 @@ export const somalia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Somali and Arabic are official. English understood in some urban areas.',
           sv: 'Somaliska och arabiska är officiella. Engelska förstås i vissa stadsområden.',
@@ -507,7 +627,17 @@ export const somalia: Country = {
           nl: 'Somalisch schriftsysteem',
           pt: 'Sistema de escrita somali',
         },
-        year: '1920s-1972',
+        year: {
+          en: '1920s-1972',
+          sv: '1920-talet–1972',
+          es: 'década de 1920 – 1972',
+          fr: 'années 1920 – 1972',
+          de: '1920er–1972',
+          it: 'anni \'20 – 1972',
+          pl: 'lata 20. – 1972',
+          nl: 'jaren 20 – 1972',
+          pt: 'década de 1920 – 1972',
+        },
         description: {
           en: 'Development of Osmanya and later Latin-based scripts for the Somali language, promoting literacy',
           sv: 'Utveckling av Osmanya och senare latinbaserade manus för det somaliska språket, främjande av läskunnighet',
@@ -532,7 +662,17 @@ export const somalia: Country = {
           nl: 'Oude wierookhandel',
           pt: 'Antigo comércio de incenso',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Pioneered global trade routes for frankincense and myrrh, connecting Africa, Arabia, and Asia',
           sv: 'Banade globala handelsvägar för rökelse och myrra som förbinder Afrika, Arabien och Asien',
@@ -557,7 +697,17 @@ export const somalia: Country = {
           nl: 'Innovatie in mobiel betalen',
           pt: 'Inovação em dinheiro móvel',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Despite challenges, Somalia developed one of Africa\'s most advanced mobile money systems',
           sv: 'Trots utmaningar utvecklade Somalia ett av Afrikas mest avancerade mobila penningsystem',
@@ -655,7 +805,7 @@ export const somalia: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -695,7 +845,7 @@ export const somalia: Country = {
           amount: 5,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -708,7 +858,7 @@ export const somalia: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -735,7 +885,7 @@ export const somalia: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -748,7 +898,7 @@ export const somalia: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -773,7 +923,7 @@ export const somalia: Country = {
         {
           name: {
             en: 'Chicken stock',
-            sv: 'Kycklingfond',
+            sv: 'Kycklingbuljong',
             es: 'Caldo de pollo',
             fr: 'Bouillon de poulet',
             de: 'Hühnerbrühe',
@@ -825,7 +975,7 @@ export const somalia: Country = {
         },
         {
           en: 'Remove half the onions and set aside',
-          sv: 'Ta bort hälften av löken och ställ åt sidan',
+          sv: 'Ta upp hälften av löken och lägg den åt sidan',
           es: 'Retire la mitad de las cebollas y reserve',
           fr: 'Retirez la moitié des oignons et réservez',
           de: 'Die Hälfte der Zwiebeln herausnehmen und beiseite stellen',
@@ -836,7 +986,7 @@ export const somalia: Country = {
         },
         {
           en: 'Brown meat pieces with remaining onions',
-          sv: 'Bryn köttbitar med resterande lök',
+          sv: 'Bryn köttbitarna med resten av löken',
           es: 'Dorar los trozos de carne con las cebollas restantes',
           fr: 'Faire dorer les morceaux de viande avec le reste des oignons',
           de: 'Fleischstücke mit restlichen Zwiebeln anbraten',
@@ -858,7 +1008,7 @@ export const somalia: Country = {
         },
         {
           en: 'Add rice and toast for 2 minutes',
-          sv: 'Tillsätt ris och rosta i 2 minuter',
+          sv: 'Tillsätt riset och rosta det i 2 minuter',
           es: 'Agrega el arroz y tuesta por 2 minutos',
           fr: 'Ajouter le riz et faire griller pendant 2 minutes',
           de: 'Reis hinzufügen und 2 Minuten rösten',
@@ -869,7 +1019,7 @@ export const somalia: Country = {
         },
         {
           en: 'Pour in stock, bring to boil',
-          sv: 'Häll i lager, låt koka upp',
+          sv: 'Häll i buljongen och låt koka upp',
           es: 'Vierta el caldo y déjelo hervir.',
           fr: 'Verser le bouillon, porter à ébullition',
           de: 'Brühe angießen, aufkochen',
@@ -880,7 +1030,7 @@ export const somalia: Country = {
         },
         {
           en: 'Cover and simmer 20 minutes',
-          sv: 'Täck och låt sjuda i 20 minuter',
+          sv: 'Lägg på lock och låt sjuda i 20 minuter',
           es: 'Tapar y cocinar a fuego lento 20 minutos',
           fr: 'Couvrir et laisser mijoter 20 minutes',
           de: 'Abdecken und 20 Minuten köcheln lassen',
@@ -891,7 +1041,7 @@ export const somalia: Country = {
         },
         {
           en: 'Mix in raisins and reserved caramelized onions',
-          sv: 'Blanda i russin och reserverad karamelliserad lök',
+          sv: 'Blanda ner russinen och den karamelliserade löken som du lagt åt sidan',
           es: 'Incorpora las pasas y las cebollas caramelizadas reservadas',
           fr: 'Incorporer les raisins secs et les oignons caramélisés réservés',
           de: 'Rosinen und beiseite gestellte karamellisierte Zwiebeln untermischen',
@@ -918,7 +1068,7 @@ export const somalia: Country = {
       id: 'somalia-dessert',
       name: {
         en: 'Somali Halwa',
-        sv: 'Somaliska Halwa',
+        sv: 'Somalisk halwa',
         es: 'Halwa somalí',
         fr: 'Halwa somalienne',
         de: 'Somalische Halwa',
@@ -929,7 +1079,7 @@ export const somalia: Country = {
       },
       description: {
         en: 'A rich, aromatic sweet made with sugar, spices, and nuts, often served at celebrations and special gatherings.',
-        sv: 'En rik, aromatisk sötsak gjord på socker, kryddor och nötter, ofta serverad vid fester och speciella sammankomster.',
+        sv: 'En mäktig, aromatisk sötsak gjord på socker, kryddor och nötter som ofta serveras vid fester och högtidliga sammankomster.',
         es: 'Un dulce rico y aromático elaborado con azúcar, especias y nueces, que suele servirse en celebraciones y reuniones especiales.',
         fr: 'Un bonbon riche et aromatique à base de sucre, d\'épices et de noix, souvent servi lors de célébrations et de rassemblements spéciaux.',
         de: 'Eine reichhaltige, aromatische Süßigkeit aus Zucker, Gewürzen und Nüssen, die oft bei Feiern und besonderen Zusammenkünften serviert wird.',
@@ -1102,7 +1252,7 @@ export const somalia: Country = {
       steps: [
         {
           en: 'Mix cornstarch with 150 ml water until smooth (no lumps).',
-          sv: 'Blanda majsstärkelse med 150 ml vatten tills den är slät (inga klumpar).',
+          sv: 'Blanda majsstärkelsen med 150 ml vatten till en slät smet utan klumpar.',
           es: 'Mezclar la maicena con 150 ml de agua hasta que quede suave (sin grumos).',
           fr: 'Mélanger la fécule de maïs avec 150 ml d\'eau jusqu\'à consistance lisse (sans grumeaux).',
           de: 'Speisestärke mit 150 ml Wasser glatt rühren (keine Klümpchen bilden).',
@@ -1113,7 +1263,7 @@ export const somalia: Country = {
         },
         {
           en: 'In a pot, combine sugar with remaining water and bring to a gentle boil.',
-          sv: 'I en kastrull, blanda socker med återstående vatten och koka upp försiktigt.',
+          sv: 'Blanda sockret med resten av vattnet i en kastrull och låt det försiktigt koka upp.',
           es: 'En una olla, combine el azúcar con el agua restante y deje hervir suavemente.',
           fr: 'Dans une casserole, mélanger le sucre avec le reste de l\'eau et porter à légère ébullition.',
           de: 'In einem Topf den Zucker mit dem restlichen Wasser vermischen und leicht aufkochen lassen.',
@@ -1124,7 +1274,7 @@ export const somalia: Country = {
         },
         {
           en: 'Lower heat and whisk in the cornstarch mixture slowly.',
-          sv: 'Sänk värmen och vispa långsamt i maizenablandningen.',
+          sv: 'Sänk värmen och vispa långsamt ner majsstärkelseblandningen.',
           es: 'Baje el fuego y agregue lentamente la mezcla de maicena.',
           fr: 'Baisser le feu et incorporer lentement le mélange de fécule de maïs.',
           de: 'Reduzieren Sie die Hitze und rühren Sie die Maisstärkemischung langsam ein.',
@@ -1135,7 +1285,7 @@ export const somalia: Country = {
         },
         {
           en: 'Stir continuously until it thickens and becomes glossy.',
-          sv: 'Rör hela tiden tills den tjocknar och blir glansig.',
+          sv: 'Rör hela tiden tills smeten tjocknar och blir blank.',
           es: 'Revuelva continuamente hasta que espese y adquiera brillo.',
           fr: 'Remuer continuellement jusqu\'à ce qu\'il épaississe et devienne brillant.',
           de: 'Ständig rühren, bis die Masse eindickt und glänzt.',
@@ -1146,7 +1296,7 @@ export const somalia: Country = {
         },
         {
           en: 'Add ghee gradually, stirring until fully absorbed and the mixture pulls from the sides.',
-          sv: 'Tillsätt ghee gradvis, rör om tills det är helt absorberat och blandningen drar från sidorna.',
+          sv: 'Tillsätt gheen lite i taget och rör tills den har absorberats helt och massan släpper från kastrullens kanter.',
           es: 'Agregue ghee gradualmente, revolviendo hasta que se absorba por completo y la mezcla se desprenda de los lados.',
           fr: 'Ajoutez progressivement le ghee, en remuant jusqu\'à ce qu\'il soit complètement absorbé et que le mélange se détache des côtés.',
           de: 'Fügen Sie nach und nach Ghee hinzu und rühren Sie, bis es vollständig absorbiert ist und sich die Mischung von den Seiten löst.',
@@ -1157,7 +1307,7 @@ export const somalia: Country = {
         },
         {
           en: 'Add cardamom (and optional saffron/nutmeg/vanilla).',
-          sv: 'Tillsätt kardemumma (och valfritt saffran/muskot/vanilj).',
+          sv: 'Tillsätt kardemumma (och eventuellt saffran, muskot eller vanilj).',
           es: 'Agregue cardamomo (y opcionalmente azafrán/nuez moscada/vainilla).',
           fr: 'Ajoutez de la cardamome (et éventuellement du safran/muscade/vanille).',
           de: 'Kardamom (und optional Safran/Muskatnuss/Vanille) hinzufügen.',
@@ -1168,7 +1318,7 @@ export const somalia: Country = {
         },
         {
           en: 'Fold in roasted nuts.',
-          sv: 'Vänd ner rostade nötter.',
+          sv: 'Vänd ner de rostade nötterna.',
           es: 'Incorpora las nueces tostadas.',
           fr: 'Incorporer les noix grillées.',
           de: 'Geröstete Nüsse unterheben.',
@@ -1179,7 +1329,7 @@ export const somalia: Country = {
         },
         {
           en: 'Pour into a greased dish, smooth the top, and let set.',
-          sv: 'Häll upp i en smord form, släta till toppen och låt stelna.',
+          sv: 'Häll upp i en smord form, släta till ytan och låt stelna.',
           es: 'Vierta en un plato engrasado, alise la parte superior y deje reposar.',
           fr: 'Versez dans un plat beurré, lissez le dessus et laissez reposer.',
           de: 'In eine gefettete Form füllen, die Oberfläche glatt streichen und fest werden lassen.',
@@ -1190,7 +1340,7 @@ export const somalia: Country = {
         },
         {
           en: 'Slice into small diamonds or squares to serve.',
-          sv: 'Skiva i små diamanter eller rutor för servering.',
+          sv: 'Skär i små romber eller rutor och servera.',
           es: 'Córtelo en pequeños diamantes o cuadrados para servir.',
           fr: 'Coupez-le en petits losanges ou en carrés pour servir.',
           de: 'Zum Servieren in kleine Rauten oder Quadrate schneiden.',

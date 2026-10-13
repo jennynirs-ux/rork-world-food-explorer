@@ -263,8 +263,28 @@ export const egypt: Country = {
     },
     history: [
       {
-        year: '3100 BC',
-        title: 'Ancient Egypt United',
+        year: {
+          en: '3100 BC',
+          sv: '3100 f.Kr.',
+          es: '3100 a. C.',
+          fr: '3100 av. J.-C.',
+          de: '3100 v. Chr.',
+          it: '3100 a.C.',
+          pl: '3100 p.n.e.',
+          nl: '3100 v.Chr.',
+          pt: '3100 a.C.',
+        },
+        title: {
+          en: 'Ancient Egypt United',
+          sv: 'Det forntida Egypten enas',
+          es: 'Unificación del antiguo Egipto',
+          fr: 'Unification de l\'Égypte antique',
+          de: 'Vereinigung des Alten Ägyptens',
+          it: 'Unificazione dell\'antico Egitto',
+          pl: 'Zjednoczenie starożytnego Egiptu',
+          nl: 'Eenwording van het oude Egypte',
+          pt: 'Unificação do Antigo Egito',
+        },
         description: {
           en: 'King Menes united Upper and Lower Egypt, beginning one of history\'s greatest civilizations.',
           sv: 'Kung Menes förenade övre och nedre Egypten och började en av historiens största civilisationer.',
@@ -289,7 +309,17 @@ export const egypt: Country = {
           nl: '2560 v.Chr.',
           pt: '2560 a.C.',
         },
-        title: 'Great Pyramid Built',
+        title: {
+          en: 'Great Pyramid Built',
+          sv: 'Den stora pyramiden byggs',
+          es: 'Construcción de la Gran Pirámide',
+          fr: 'Construction de la Grande Pyramide',
+          de: 'Bau der Großen Pyramide',
+          it: 'Costruzione della Grande Piramide',
+          pl: 'Budowa Wielkiej Piramidy',
+          nl: 'Bouw van de Grote Piramide',
+          pt: 'Construção da Grande Pirâmide',
+        },
         description: {
           en: 'The Great Pyramid of Giza was completed for Pharaoh Khufu, the largest of the Egyptian pyramids.',
           sv: 'Den stora pyramiden i Giza färdigställdes för farao Khufu, den största av de egyptiska pyramiderna.',
@@ -303,8 +333,28 @@ export const egypt: Country = {
         },
       },
       {
-        year: '1323 BC',
-        title: 'Tutankhamun\'s Reign',
+        year: {
+          en: '1323 BC',
+          sv: '1323 f.Kr.',
+          es: '1323 a. C.',
+          fr: '1323 av. J.-C.',
+          de: '1323 v. Chr.',
+          it: '1323 a.C.',
+          pl: '1323 p.n.e.',
+          nl: '1323 v.Chr.',
+          pt: '1323 a.C.',
+        },
+        title: {
+          en: 'Tutankhamun\'s Reign',
+          sv: 'Tutankhamuns regeringstid',
+          es: 'Reinado de Tutankamón',
+          fr: 'Règne de Toutânkhamon',
+          de: 'Herrschaft Tutanchamuns',
+          it: 'Regno di Tutankhamon',
+          pl: 'Panowanie Tutanchamona',
+          nl: 'Bewind van Toetanchamon',
+          pt: 'Reinado de Tutancâmon',
+        },
         description: {
           en: 'The boy king Tutankhamun ruled Egypt. His intact tomb would later become one of archaeology\'s greatest discoveries.',
           sv: 'Pojkkungen Tutankhamon styrde Egypten. Hans intakta grav skulle senare bli en av arkeologins största upptäckter.',
@@ -318,8 +368,28 @@ export const egypt: Country = {
         },
       },
       {
-        year: '30 BC',
-        title: 'End of Pharaonic Era',
+        year: {
+          en: '30 BC',
+          sv: '30 f.Kr.',
+          es: '30 a. C.',
+          fr: '30 av. J.-C.',
+          de: '30 v. Chr.',
+          it: '30 a.C.',
+          pl: '30 p.n.e.',
+          nl: '30 v.Chr.',
+          pt: '30 a.C.',
+        },
+        title: {
+          en: 'End of Pharaonic Era',
+          sv: 'Slutet på faraonernas tid',
+          es: 'Fin de la era faraónica',
+          fr: 'Fin de l\'ère pharaonique',
+          de: 'Ende der Pharaonenzeit',
+          it: 'Fine dell\'era faraonica',
+          pl: 'Koniec epoki faraonów',
+          nl: 'Einde van het tijdperk van de farao\'s',
+          pt: 'Fim da era faraônica',
+        },
         description: {
           en: 'After Cleopatra\'s death, Egypt became a province of Rome, ending 3,000 years of pharaonic rule.',
           sv: 'Efter Kleopatras död blev Egypten en provins i Rom, vilket avslutade 3 000 år av faraoniskt styre.',
@@ -346,7 +416,17 @@ export const egypt: Country = {
           nl: 'Hiërogliefenschrift',
           pt: 'Escrita Hieroglífica',
         },
-        year: '3200 BC',
+        year: {
+          en: '3200 BC',
+          sv: '3200 f.Kr.',
+          es: '3200 a. C.',
+          fr: '3200 av. J.-C.',
+          de: '3200 v. Chr.',
+          it: '3200 a.C.',
+          pl: '3200 p.n.e.',
+          nl: '3200 v.Chr.',
+          pt: '3200 a.C.',
+        },
         description: {
           en: 'One of the earliest writing systems, using pictorial symbols to represent words and sounds.',
           sv: 'Ett av de tidigaste skrivsystemen som använder bildsymboler för att representera ord och ljud.',
@@ -441,7 +521,17 @@ export const egypt: Country = {
           nl: 'Geneeskunde en chirurgie',
           pt: 'Medicina e Cirurgia',
         },
-        year: '2500 BC',
+        year: {
+          en: '2500 BC',
+          sv: '2500 f.Kr.',
+          es: '2500 a. C.',
+          fr: '2500 av. J.-C.',
+          de: '2500 v. Chr.',
+          it: '2500 a.C.',
+          pl: '2500 p.n.e.',
+          nl: '2500 v.Chr.',
+          pt: '2500 a.C.',
+        },
         description: {
           en: 'Advanced medical knowledge including surgical procedures, anatomy, and pharmaceutical treatments.',
           sv: 'Avancerad medicinsk kunskap inklusive kirurgiska ingrepp, anatomi och farmaceutiska behandlingar.',
@@ -579,7 +669,17 @@ export const egypt: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October-April for cooler weather. Summer (May-Sep) is extremely hot.',
           sv: 'Oktober-april för svalare väder. Sommaren (maj-sep) är extremt varm.',
@@ -593,7 +693,17 @@ export const egypt: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Cover shoulders and knees, especially at religious sites and conservative areas.',
           sv: 'Täck axlar och knän, särskilt på religiösa platser och konservativa områden.',
@@ -607,7 +717,17 @@ export const egypt: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Strong desert sun requires hat, sunglasses, and high SPF sunscreen.',
           sv: 'Stark ökensol kräver hatt, solglasögon och solskyddsmedel med hög SPF.',
@@ -621,7 +741,17 @@ export const egypt: Country = {
         },
       },
       {
-        item: 'Cash in Egyptian Pounds',
+        item: {
+          en: 'Cash in Egyptian Pounds',
+          sv: 'Kontanter i egyptiska pund',
+          es: 'Efectivo en libras egipcias',
+          fr: 'Espèces en livres égyptiennes',
+          de: 'Bargeld in ägyptischen Pfund',
+          it: 'Contanti in lire egiziane',
+          pl: 'Gotówka w funtach egipskich',
+          nl: 'Contant geld in Egyptische ponden',
+          pt: 'Dinheiro em libras egípcias',
+        },
         description: {
           en: 'Many vendors and small shops don\'t accept cards.',
           sv: 'Många försäljare och små butiker accepterar inte kort.',
@@ -635,7 +765,17 @@ export const egypt: Country = {
         },
       },
       {
-        item: 'Comfortable walking shoes',
+        item: {
+          en: 'Comfortable walking shoes',
+          sv: 'Bekväma promenadskor',
+          es: 'Calzado cómodo para caminar',
+          fr: 'Chaussures de marche confortables',
+          de: 'Bequemes Schuhwerk',
+          it: 'Scarpe comode da passeggio',
+          pl: 'Wygodne buty do chodzenia',
+          nl: 'Comfortabele wandelschoenen',
+          pt: 'Calçados confortáveis para caminhada',
+        },
         description: {
           en: 'Sandy terrain and extensive archaeological sites require sturdy footwear.',
           sv: 'Sandig terräng och omfattande arkeologiska platser kräver robusta skor.',
@@ -649,7 +789,17 @@ export const egypt: Country = {
         },
       },
       {
-        item: 'Travel insurance',
+        item: {
+          en: 'Travel insurance',
+          sv: 'Reseförsäkring',
+          es: 'Seguro de viaje',
+          fr: 'Assurance voyage',
+          de: 'Reiseversicherung',
+          it: 'Assicurazione viaggio',
+          pl: 'Ubezpieczenie podróżne',
+          nl: 'Reisverzekering',
+          pt: 'Seguro-viagem',
+        },
         description: {
           en: 'Recommended for peace of mind with health and safety coverage.',
           sv: 'Rekommenderas för sinnesfrid med hälso- och säkerhetsskydd.',
@@ -735,7 +885,7 @@ export const egypt: Country = {
         {
           name: {
             en: 'Macaroni pasta',
-            sv: 'Makaroner pasta',
+            sv: 'Makaroner',
             es: 'Pasta de macarrones',
             fr: 'Pâtes macaronis',
             de: 'Makkaroni-Nudeln',
@@ -777,7 +927,7 @@ export const egypt: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -830,7 +980,7 @@ export const egypt: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -897,7 +1047,7 @@ export const egypt: Country = {
         },
         {
           en: 'Drain and season each with salt',
-          sv: 'Låt rinna av och krydda var och en med salt',
+          sv: 'Låt rinna av och salta var för sig',
           es: 'Escurrir y sazonar cada uno con sal',
           fr: 'Égoutter et assaisonner chacun avec du sel',
           de: 'Abgießen und jeweils mit Salz würzen',
@@ -908,7 +1058,7 @@ export const egypt: Country = {
         },
         {
           en: 'Slice onions thinly and fry until deeply caramelized and crispy',
-          sv: 'Skiva löken tunt och stek tills den är djupt karamelliserad och krispig',
+          sv: 'Skiva löken tunt och stek den tills den är mörkt karamelliserad och krispig',
           es: 'Cortar las cebollas en rodajas finas y freírlas hasta que estén profundamente caramelizadas y crujientes',
           fr: 'Tranchez finement les oignons et faites-les frire jusqu\'à ce qu\'ils soient profondément caramélisés et croustillants',
           de: 'Zwiebeln in dünne Scheiben schneiden und braten, bis sie tief karamellisiert und knusprig sind',
@@ -990,7 +1140,7 @@ export const egypt: Country = {
       },
       description: {
         en: 'Sweet semolina cake soaked in sugar syrup, topped with almonds or coconut',
-        sv: 'Söt mannagrynskaka indränkt i sockersirap, toppad med mandel eller kokos',
+        sv: 'Söt mannagrynskaka indränkt i sockerlag, toppad med mandel eller kokos',
         es: 'Pastel dulce de sémola bañado en almíbar de azúcar, cubierto con almendras o coco',
         fr: 'Gâteau de semoule sucré imbibé de sirop de sucre, garni d\'amandes ou de noix de coco',
         de: 'In Zuckersirup getränkter, süßer Grießkuchen, belegt mit Mandeln oder Kokosnuss',
@@ -1062,7 +1212,7 @@ export const egypt: Country = {
         {
           name: {
             en: 'Butter melted',
-            sv: 'Smör smält',
+            sv: 'Smör, smält',
             es: 'Mantequilla derretida',
             fr: 'Beurre fondu',
             de: 'Butter geschmolzen',
@@ -1107,7 +1257,7 @@ export const egypt: Country = {
         {
           name: {
             en: 'Almonds',
-            sv: 'Mandlar',
+            sv: 'Mandel',
             es: 'Almendras',
             fr: 'Amandes',
             de: 'Mandeln',
@@ -1132,7 +1282,7 @@ export const egypt: Country = {
         {
           name: {
             en: 'For syrup: water',
-            sv: 'För sirap: vatten',
+            sv: 'Till sockerlagen: vatten',
             es: 'Para almíbar: agua',
             fr: 'Pour le sirop : eau',
             de: 'Für Sirup: Wasser',
@@ -1147,7 +1297,7 @@ export const egypt: Country = {
         {
           name: {
             en: 'For syrup: sugar',
-            sv: 'För sirap: socker',
+            sv: 'Till sockerlagen: socker',
             es: 'Para almíbar: azúcar',
             fr: 'Pour le sirop : sucre',
             de: 'Für Sirup: Zucker',
@@ -1188,7 +1338,7 @@ export const egypt: Country = {
       steps: [
         {
           en: 'Make syrup: boil water and sugar for 10 minutes, add lemon juice, let cool',
-          sv: 'Gör sirap: koka vatten och socker i 10 minuter, tillsätt citronsaft, låt svalna',
+          sv: 'Gör sockerlagen: koka vatten och socker i 10 minuter, tillsätt citronsaften och låt svalna',
           es: 'Hacer almíbar: hervir agua y azúcar durante 10 minutos, agregar jugo de limón, dejar enfriar',
           fr: 'Préparez le sirop : faites bouillir l\'eau et le sucre pendant 10 minutes, ajoutez le jus de citron, laissez refroidir',
           de: 'Sirup zubereiten: Wasser und Zucker 10 Minuten kochen, Zitronensaft hinzufügen, abkühlen lassen',
@@ -1210,7 +1360,7 @@ export const egypt: Country = {
         },
         {
           en: 'Add yogurt and melted butter, mix until combined',
-          sv: 'Tillsätt yoghurt och smält smör, blanda tills det blandas',
+          sv: 'Tillsätt yoghurt och smält smör och rör tills allt är väl blandat',
           es: 'Agregue el yogur y la mantequilla derretida, mezcle hasta que se combinen',
           fr: 'Ajouter le yaourt et le beurre fondu, mélanger jusqu\'à homogénéité',
           de: 'Joghurt und geschmolzene Butter hinzufügen und verrühren, bis alles gut vermischt ist',
@@ -1221,7 +1371,7 @@ export const egypt: Country = {
         },
         {
           en: 'Pour into greased baking pan, smooth top',
-          sv: 'Häll i smord ugnsform, slät topp',
+          sv: 'Häll smeten i en smord ugnsform och släta till ytan',
           es: 'Vierta en un molde para hornear engrasado, alise la parte superior',
           fr: 'Verser dans un moule graissé, lisser le dessus',
           de: 'In eine gefettete Backform gießen, Oberseite glatt streichen',
@@ -1232,7 +1382,7 @@ export const egypt: Country = {
         },
         {
           en: 'Cut into diamond or square shapes',
-          sv: 'Skär i diamanter eller fyrkantiga former',
+          sv: 'Skär smeten i romber eller rutor',
           es: 'Cortar en forma de diamante o cuadrado',
           fr: 'Découpé en losanges ou en carrés',
           de: 'In Rauten- oder Quadratform schneiden',
@@ -1254,7 +1404,7 @@ export const egypt: Country = {
         },
         {
           en: 'Bake at 180°C for 30-35 minutes until golden',
-          sv: 'Grädda i 180°C i 30-35 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 30–35 minuter tills kakan är gyllene',
           es: 'Hornear a 180°C durante 30-35 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 30-35 minutes jusqu\'à ce qu\'ils soient dorés',
           de: 'Bei 180°C 30–35 Minuten goldbraun backen',
@@ -1265,7 +1415,7 @@ export const egypt: Country = {
         },
         {
           en: 'Immediately pour cold syrup over hot cake',
-          sv: 'Häll omedelbart kall sirap över varm kaka',
+          sv: 'Häll genast den kalla sockerlagen över den varma kakan',
           es: 'Vierta inmediatamente el almíbar frío sobre el hot cake',
           fr: 'Versez immédiatement le sirop froid sur le gâteau chaud',
           de: 'Den heißen Kuchen sofort mit kaltem Sirup übergießen',

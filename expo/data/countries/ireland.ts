@@ -241,8 +241,28 @@ export const ireland: Country = {
     },
     history: [
       {
-        year: '432 AD',
-        title: 'St. Patrick Arrives',
+        year: {
+          en: '432 AD',
+          sv: '432 e.Kr.',
+          es: '432 d. C.',
+          fr: '432 apr. J.-C.',
+          de: '432 n. Chr.',
+          it: '432 d.C.',
+          pl: '432 n.e.',
+          nl: '432 n.Chr.',
+          pt: '432 d.C.',
+        },
+        title: {
+          en: 'St. Patrick Arrives',
+          sv: 'Sankt Patrick anländer',
+          es: 'Llegada de san Patricio',
+          fr: 'Arrivée de saint Patrick',
+          de: 'Ankunft des heiligen Patrick',
+          it: 'Arrivo di san Patrizio',
+          pl: 'Przybycie św. Patryka',
+          nl: 'Aankomst van Sint-Patrick',
+          pt: 'Chegada de São Patrício',
+        },
         description: {
           en: 'St. Patrick brought Christianity to Ireland, becoming the country\'s patron saint.',
           sv: 'St. Patrick tog med sig kristendomen till Irland och blev landets skyddshelgon.',
@@ -282,7 +302,17 @@ export const ireland: Country = {
       },
       {
         year: '1922',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'The Irish Free State was established, leading to the Republic of Ireland in 1949.',
           sv: 'Den irländska fristaten grundades, vilket ledde till Irland 1949.',
@@ -309,7 +339,17 @@ export const ireland: Country = {
           nl: 'Kleurenfotografie',
           pt: 'Fotografia colorida',
         },
-        year: '1850s',
+        year: {
+          en: '1850s',
+          sv: '1850-talet',
+          es: 'década de 1850',
+          fr: 'années 1850',
+          de: '1850er',
+          it: 'anni 1850',
+          pl: 'lata 50. XIX wieku',
+          nl: 'jaren 1850',
+          pt: 'década de 1850',
+        },
         description: {
           en: 'John Joly invented a method of color photography using screens.',
           sv: 'John Joly uppfann en metod för färgfotografering med hjälp av skärmar.',
@@ -448,7 +488,7 @@ export const ireland: Country = {
       {
         name: {
           en: 'Killarney National Park',
-          sv: 'Killarney National Park',
+          sv: 'Killarneys nationalpark',
           es: 'Parque Nacional Killarney',
           fr: 'Parc national de Killarney',
           de: 'Killarney-Nationalpark',
@@ -472,7 +512,17 @@ export const ireland: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for warmest weather and longest days.',
           sv: 'Maj-september för varmaste väder och längsta dagar.',
@@ -486,7 +536,17 @@ export const ireland: Country = {
         },
       },
       {
-        item: 'Rain gear',
+        item: {
+          en: 'Rain gear',
+          sv: 'Regnkläder',
+          es: 'Ropa impermeable',
+          fr: 'Vêtements de pluie',
+          de: 'Regenkleidung',
+          it: 'Abbigliamento antipioggia',
+          pl: 'Odzież przeciwdeszczowa',
+          nl: 'Regenkleding',
+          pt: 'Roupas para chuva',
+        },
         description: {
           en: 'Essential! Ireland has frequent rain showers.',
           sv: 'Grundläggande! Irland har täta regnskurar.',
@@ -500,7 +560,17 @@ export const ireland: Country = {
         },
       },
       {
-        item: 'Layers',
+        item: {
+          en: 'Layers',
+          sv: 'Lager på lager',
+          es: 'Vestirse por capas',
+          fr: 'S\'habiller en couches',
+          de: 'Zwiebellook',
+          it: 'Vestirsi a strati',
+          pl: 'Ubranie na cebulkę',
+          nl: 'Laagjes dragen',
+          pt: 'Vestir-se em camadas',
+        },
         description: {
           en: 'Weather changes quickly, dress in layers.',
           sv: 'Vädret växlar snabbt, klä dig i lager.',
@@ -514,7 +584,17 @@ export const ireland: Country = {
         },
       },
       {
-        item: 'Car rental',
+        item: {
+          en: 'Car rental',
+          sv: 'Biluthyrning',
+          es: 'Alquiler de coches',
+          fr: 'Location de voiture',
+          de: 'Mietwagen',
+          it: 'Noleggio auto',
+          pl: 'Wynajem samochodu',
+          nl: 'Autoverhuur',
+          pt: 'Aluguel de carro',
+        },
         description: {
           en: 'Best way to explore the countryside and scenic routes.',
           sv: 'Bästa sättet att utforska landsbygden och natursköna vägar.',
@@ -543,7 +623,7 @@ export const ireland: Country = {
       },
       description: {
         en: 'Traditional lamb and vegetable stew, hearty and comforting',
-        sv: 'Traditionell lamm- och grönsaksgryta, rejäl och tröstande',
+        sv: 'Traditionell lamm- och grönsaksgryta, mustig och värmande',
         es: 'Tradicional guiso de cordero y verduras, sustancioso y reconfortante',
         fr: 'Ragoût traditionnel d\'agneau et de légumes, copieux et réconfortant',
         de: 'Traditioneller Lamm-Gemüse-Eintopf, herzhaft und wohltuend',
@@ -570,7 +650,7 @@ export const ireland: Country = {
         {
           name: {
             en: 'Lamb shoulder chunks',
-            sv: 'Lammaxelbitar',
+            sv: 'Lammbog i bitar',
             es: 'Trozos de paleta de cordero',
             fr: 'Morceaux d\'épaule d\'agneau',
             de: 'Lammschulterstücke',
@@ -627,7 +707,7 @@ export const ireland: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -652,7 +732,7 @@ export const ireland: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -731,7 +811,7 @@ export const ireland: Country = {
       steps: [
         {
           en: 'Brown lamb pieces in large pot',
-          sv: 'Bruna lammbitar i stor kruka',
+          sv: 'Bryn lammbitarna i en stor gryta',
           es: 'Trozos de cordero dorados en una olla grande',
           fr: 'Faire dorer les morceaux d\'agneau dans une grande marmite',
           de: 'Braune Lammstücke in einem großen Topf',
@@ -742,7 +822,7 @@ export const ireland: Country = {
         },
         {
           en: 'Layer onions, carrots, potatoes, and lamb in pot',
-          sv: 'Lägg lök, morötter, potatis och lamm i lager',
+          sv: 'Varva lök, morötter, potatis och lamm i grytan',
           es: 'Coloque capas de cebollas, zanahorias, patatas y cordero en una olla',
           fr: 'Disposez les oignons, les carottes, les pommes de terre et l\'agneau dans une casserole',
           de: 'Zwiebeln, Karotten, Kartoffeln und Lammfleisch in den Topf schichten',
@@ -764,7 +844,7 @@ export const ireland: Country = {
         },
         {
           en: 'Pour stock over everything',
-          sv: 'Häll fond över allt',
+          sv: 'Häll buljongen över alltihop',
           es: 'Vierta caldo sobre todo',
           fr: 'Versez le bouillon sur le tout',
           de: 'Alles mit Brühe übergießen',
@@ -786,7 +866,7 @@ export const ireland: Country = {
         },
         {
           en: 'Check seasoning, adjust if needed',
-          sv: 'Kontrollera krydda, justera om det behövs',
+          sv: 'Smaka av och justera kryddningen vid behov',
           es: 'Verifique la sazón, ajuste si es necesario',
           fr: 'Vérifier l\'assaisonnement, rectifier si besoin',
           de: 'Gewürze prüfen, bei Bedarf anpassen',
@@ -797,7 +877,7 @@ export const ireland: Country = {
         },
         {
           en: 'Serve with crusty soda bread',
-          sv: 'Servera med knaprig sodabröd',
+          sv: 'Servera med frasigt sodabröd',
           es: 'Servir con pan de soda crujiente',
           fr: 'Servir avec du pain soda croustillant',
           de: 'Mit knusprigem Sodabrot servieren',
@@ -851,7 +931,7 @@ export const ireland: Country = {
         {
           name: {
             en: 'Cream cheese',
-            sv: 'Gräddost',
+            sv: 'Färskost',
             es: 'Queso crema',
             fr: 'Fromage à la crème',
             de: 'Frischkäse',
@@ -896,7 +976,7 @@ export const ireland: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -923,7 +1003,7 @@ export const ireland: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -936,7 +1016,7 @@ export const ireland: Country = {
         {
           name: {
             en: 'Chocolate cookies for crust',
-            sv: 'Chokladkakor för skorpa',
+            sv: 'Chokladkex till botten',
             es: 'Galletas de chocolate para masa',
             fr: 'Biscuits au chocolat pour croûte',
             de: 'Schokoladenkekse für die Kruste',
@@ -982,7 +1062,7 @@ export const ireland: Country = {
       steps: [
         {
           en: 'Crush cookies, mix with melted butter, press into pan',
-          sv: 'Krossa kakor, blanda med smält smör, tryck ut i pannan',
+          sv: 'Krossa kexen, blanda med smält smör och tryck ut i botten av formen',
           es: 'Triture las galletas, mezcle con mantequilla derretida, presione en el molde',
           fr: 'Écraser les biscuits, mélanger avec le beurre fondu, presser dans le moule',
           de: 'Kekse zerdrücken, mit geschmolzener Butter vermischen, in die Pfanne drücken',
@@ -993,7 +1073,7 @@ export const ireland: Country = {
         },
         {
           en: 'Beat cream cheese and sugar until smooth',
-          sv: 'Vispa färskost och socker slät',
+          sv: 'Vispa färskost och socker till en slät smet',
           es: 'Batir el queso crema y el azúcar hasta que quede suave',
           fr: 'Battre le fromage à la crème et le sucre jusqu\'à consistance lisse',
           de: 'Frischkäse und Zucker glatt rühren',
@@ -1015,7 +1095,7 @@ export const ireland: Country = {
         },
         {
           en: 'Pour over crust, bake at 160°C for 50 minutes',
-          sv: 'Häll över skorpan, grädda i 160°C i 50 minuter',
+          sv: 'Häll smeten över botten och grädda i 160°C i 50 minuter',
           es: 'Vierta sobre la base y hornee a 160°C durante 50 minutos',
           fr: 'Verser sur le fond de tarte, enfourner à 160°C pendant 50 minutes',
           de: 'Über den Boden gießen und 50 Minuten bei 160 °C backen',
@@ -1026,7 +1106,7 @@ export const ireland: Country = {
         },
         {
           en: 'Cool in oven with door ajar for 1 hour',
-          sv: 'Kyl i ugnen med luckan på glänt i 1 timme',
+          sv: 'Låt svalna i ugnen med luckan på glänt i 1 timme',
           es: 'Dejar enfriar en el horno con la puerta entreabierta durante 1 hora',
           fr: 'Laisser refroidir au four avec la porte entrouverte pendant 1 heure',
           de: 'Im Ofen bei geöffneter Tür 1 Stunde lang abkühlen lassen',
@@ -1037,7 +1117,7 @@ export const ireland: Country = {
         },
         {
           en: 'Refrigerate for at least 4 hours',
-          sv: 'Kyl i minst 4 timmar',
+          sv: 'Ställ i kylen i minst 4 timmar',
           es: 'Refrigerar durante al menos 4 horas',
           fr: 'Réfrigérer au moins 4 heures',
           de: 'Mindestens 4 Stunden im Kühlschrank lagern',
@@ -1642,7 +1722,7 @@ export const ireland: Country = {
           },
           {
             en: 'Viking Invasion',
-            sv: 'Viking Invasion',
+            sv: 'Vikingainvasionen',
             es: 'Invasión vikinga',
             fr: 'Invasion viking',
             de: 'Wikinger-Invasion',

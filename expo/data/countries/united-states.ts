@@ -264,7 +264,17 @@ export const unitedStates: Country = {
     history: [
       {
         year: '1776',
-        title: 'Declaration of Independence',
+        title: {
+          en: 'Declaration of Independence',
+          sv: 'Självständighetsförklaringen',
+          es: 'Declaración de independencia',
+          fr: 'Déclaration d\'indépendance',
+          de: 'Unabhängigkeitserklärung',
+          it: 'Dichiarazione d\'indipendenza',
+          pl: 'Deklaracja niepodległości',
+          nl: 'Onafhankelijkheidsverklaring',
+          pt: 'Declaração de independência',
+        },
         description: {
           en: 'The 13 colonies declared independence from Britain, founding a new nation based on democratic principles.',
           sv: 'De 13 kolonierna förklarade sig självständiga från Storbritannien och grundade en ny nation baserad på demokratiska principer.',
@@ -279,7 +289,17 @@ export const unitedStates: Country = {
       },
       {
         year: '1861–1865',
-        title: 'American Civil War',
+        title: {
+          en: 'American Civil War',
+          sv: 'Amerikanska inbördeskriget',
+          es: 'Guerra de Secesión',
+          fr: 'Guerre de Sécession',
+          de: 'Amerikanischer Bürgerkrieg',
+          it: 'Guerra di secessione americana',
+          pl: 'Wojna secesyjna',
+          nl: 'Amerikaanse Burgeroorlog',
+          pt: 'Guerra de Secessão',
+        },
         description: {
           en: 'A war between Northern and Southern states over slavery and states\' rights, ending with abolition.',
           sv: 'Ett krig mellan nord- och sydstater om slaveri och staters rättigheter, som slutade med avskaffande.',
@@ -294,7 +314,17 @@ export const unitedStates: Country = {
       },
       {
         year: '1969',
-        title: 'Moon Landing',
+        title: {
+          en: 'Moon Landing',
+          sv: 'Månlandningen',
+          es: 'Llegada a la Luna',
+          fr: 'Premiers pas sur la Lune',
+          de: 'Mondlandung',
+          it: 'Sbarco sulla Luna',
+          pl: 'Lądowanie na Księżycu',
+          nl: 'Maanlanding',
+          pt: 'Chegada à Lua',
+        },
         description: {
           en: 'NASA\'s Apollo 11 mission put the first humans on the Moon, led by Neil Armstrong.',
           sv: 'NASA:s Apollo 11-uppdrag satte de första människorna på månen, ledd av Neil Armstrong.',
@@ -308,8 +338,28 @@ export const unitedStates: Country = {
         },
       },
       {
-        year: '2000s',
-        title: 'Digital & Tech Era',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
+        title: {
+          en: 'Digital & Tech Era',
+          sv: 'Den digitala eran',
+          es: 'Era digital y tecnológica',
+          fr: 'Ère numérique et technologique',
+          de: 'Digitales Zeitalter',
+          it: 'Era digitale e tecnologica',
+          pl: 'Era cyfrowa i technologiczna',
+          nl: 'Digitaal en technologisch tijdperk',
+          pt: 'Era digital e tecnológica',
+        },
         description: {
           en: 'Silicon Valley companies reshaped global technology, communication, and innovation.',
           sv: 'Silicon Valley-företag omformade global teknik, kommunikation och innovation.',
@@ -477,7 +527,7 @@ export const unitedStates: Country = {
       {
         name: {
           en: 'Yellowstone National Park',
-          sv: 'Yellowstone National Park',
+          sv: 'Yellowstone nationalpark',
           es: 'Parque Nacional de Yellowstone',
           fr: 'Parc national de Yellowstone',
           de: 'Yellowstone-Nationalpark',
@@ -549,7 +599,17 @@ export const unitedStates: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Varies by region; spring and fall are ideal for most destinations.',
           sv: 'Varierar efter region; våren och hösten är idealiska för de flesta destinationer.',
@@ -563,7 +623,17 @@ export const unitedStates: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'A car is essential outside major cities; distances are long.',
           sv: 'En bil är nödvändig utanför större städer; avstånden är långa.',
@@ -577,7 +647,17 @@ export const unitedStates: Country = {
         },
       },
       {
-        item: 'Travel insurance',
+        item: {
+          en: 'Travel insurance',
+          sv: 'Reseförsäkring',
+          es: 'Seguro de viaje',
+          fr: 'Assurance voyage',
+          de: 'Reiseversicherung',
+          it: 'Assicurazione viaggio',
+          pl: 'Ubezpieczenie podróżne',
+          nl: 'Reisverzekering',
+          pt: 'Seguro-viagem',
+        },
         description: {
           en: 'Strongly recommended due to high healthcare costs.',
           sv: 'Rekommenderas starkt på grund av höga vårdkostnader.',
@@ -591,7 +671,17 @@ export const unitedStates: Country = {
         },
       },
       {
-        item: 'Power',
+        item: {
+          en: 'Power',
+          sv: 'Ström',
+          es: 'Electricidad',
+          fr: 'Électricité',
+          de: 'Strom',
+          it: 'Elettricità',
+          pl: 'Prąd',
+          nl: 'Stroom',
+          pt: 'Eletricidade',
+        },
         description: {
           en: 'Type A & B plugs, 120V electricity.',
           sv: 'Typ A & B kontakter, 120V el.',
@@ -605,7 +695,17 @@ export const unitedStates: Country = {
         },
       },
       {
-        item: 'Tipping',
+        item: {
+          en: 'Tipping',
+          sv: 'Dricks',
+          es: 'Propinas',
+          fr: 'Pourboires',
+          de: 'Trinkgeld',
+          it: 'Mance',
+          pl: 'Napiwki',
+          nl: 'Fooi',
+          pt: 'Gorjetas',
+        },
         description: {
           en: '15–20% tips expected in restaurants and service industries.',
           sv: '15–20 % dricks förväntas inom restauranger och servicebranscher.',
@@ -634,7 +734,7 @@ export const unitedStates: Country = {
       },
       description: {
         en: 'Juicy beef burger with melted cheese, fresh toppings, and crispy fries.',
-        sv: 'Saftig biffburgare med smält ost, färska pålägg och krispiga pommes frites.',
+        sv: 'Saftig hamburgare av nötfärs med smält ost, färska grönsaker och krispiga pommes frites.',
         es: 'Jugosa hamburguesa de ternera con queso derretido, aderezos frescos y patatas fritas crujientes.',
         fr: 'Burger de bœuf juteux avec fromage fondu, garnitures fraîches et frites croustillantes.',
         de: 'Saftiger Rindfleischburger mit geschmolzenem Käse, frischen Belägen und knusprigen Pommes Frites.',
@@ -676,7 +776,7 @@ export const unitedStates: Country = {
         {
           name: {
             en: 'Burger buns',
-            sv: 'Burgerbullar',
+            sv: 'Hamburgerbröd',
             es: 'Panes de hamburguesa',
             fr: 'Petits pains à hamburger',
             de: 'Burgerbrötchen',
@@ -701,7 +801,7 @@ export const unitedStates: Country = {
         {
           name: {
             en: 'Cheddar cheese slices',
-            sv: 'Cheddarostskivor',
+            sv: 'Skivad cheddarost',
             es: 'Lonchas de queso cheddar',
             fr: 'Tranches de fromage cheddar',
             de: 'Cheddar-Käsescheiben',
@@ -763,7 +863,7 @@ export const unitedStates: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -788,7 +888,7 @@ export const unitedStates: Country = {
           amount: 1,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -838,7 +938,7 @@ export const unitedStates: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -877,7 +977,7 @@ export const unitedStates: Country = {
       steps: [
         {
           en: 'Cut potatoes into fries and soak in cold water for 30 minutes',
-          sv: 'Skär potatis i pommes frites och blötlägg i kallt vatten i 30 minuter',
+          sv: 'Skär potatisen i stavar och lägg dem i kallt vatten i 30 minuter',
           es: 'Cortar las patatas en forma de patatas fritas y remojarlas en agua fría durante 30 minutos',
           fr: 'Coupez les pommes de terre en frites et faites-les tremper dans l\'eau froide pendant 30 minutes',
           de: 'Kartoffeln in Pommes schneiden und 30 Minuten in kaltem Wasser einweichen',
@@ -888,7 +988,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Form beef into 4 patties and season generously',
-          sv: 'Forma nötkött till 4 biffar och krydda generöst',
+          sv: 'Forma färsen till 4 biffar och krydda generöst',
           es: 'Forme 4 hamburguesas con carne y sazone generosamente',
           fr: 'Former 4 galettes de bœuf et assaisonner généreusement',
           de: 'Aus dem Rindfleisch 4 Patties formen und großzügig würzen',
@@ -899,7 +999,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Heat grill or pan to high heat',
-          sv: 'Värm grillen eller pannan till hög värme',
+          sv: 'Hetta upp grillen eller stekpannan ordentligt',
           es: 'Calienta la parrilla o sartén a fuego alto',
           fr: 'Chauffer le gril ou la poêle à feu vif',
           de: 'Grill oder Pfanne auf hohe Hitze erhitzen',
@@ -910,7 +1010,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Fry potatoes at 160°C until soft, then 180°C until golden',
-          sv: 'Stek potatisen i 160°C tills den är mjuk, sedan 180°C tills den är gyllene',
+          sv: 'Fritera potatisen i 160°C tills den är mjuk och sedan i 180°C tills den är gyllene',
           es: 'Freír las patatas a 160°C hasta que estén blandas, luego a 180°C hasta que estén doradas',
           fr: 'Faire frire les pommes de terre à 160°C jusqu\'à ce qu\'elles soient tendres, puis à 180°C jusqu\'à ce qu\'elles soient dorées',
           de: 'Kartoffeln bei 160°C weich braten, dann bei 180°C goldbraun braten',
@@ -921,7 +1021,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Cook patties 3–4 minutes per side',
-          sv: 'Koka biffarna 3–4 minuter per sida',
+          sv: 'Stek biffarna 3–4 minuter per sida',
           es: 'Cocine las hamburguesas de 3 a 4 minutos por lado',
           fr: 'Cuire les galettes 3 à 4 minutes de chaque côté',
           de: 'Braten Sie die Pastetchen 3–4 Minuten pro Seite',
@@ -932,7 +1032,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Add cheese during final minute',
-          sv: 'Tillsätt ost under sista minuten',
+          sv: 'Lägg på osten under den sista minuten',
           es: 'Agrega queso durante el último minuto',
           fr: 'Ajouter le fromage pendant la dernière minute',
           de: 'In der letzten Minute Käse hinzufügen',
@@ -943,7 +1043,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Toast buns lightly',
-          sv: 'Rosta bullar lätt',
+          sv: 'Rosta hamburgerbröden lätt',
           es: 'Tostar ligeramente los bollos',
           fr: 'Faire griller légèrement les petits pains',
           de: 'Brötchen leicht toasten',
@@ -954,7 +1054,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Assemble burgers with toppings and serve with fries',
-          sv: 'Sätt ihop hamburgare med pålägg och servera med pommes',
+          sv: 'Bygg ihop hamburgarna med sallad, tomat, lök och pickles och servera med pommes frites',
           es: 'Prepare hamburguesas con aderezos y sírvalas con papas fritas',
           fr: 'Assemblez les hamburgers avec les garnitures et servez avec des frites',
           de: 'Burger mit Toppings zusammenstellen und mit Pommes servieren',
@@ -981,7 +1081,7 @@ export const unitedStates: Country = {
       },
       description: {
         en: 'Classic American dessert with spiced apples in a flaky buttery crust.',
-        sv: 'Klassisk amerikansk dessert med kryddade äpplen i en flagnande smörig skorpa.',
+        sv: 'Klassisk amerikansk dessert med kryddade äpplen i ett frasigt, smörigt pajskal.',
         es: 'Postre americano clásico con manzanas especiadas en una corteza hojaldrada y mantecosa.',
         fr: 'Dessert américain classique avec des pommes épicées dans une croûte feuilletée au beurre.',
         de: 'Klassisches amerikanisches Dessert mit gewürzten Äpfeln in einer flockigen Butterkruste.',
@@ -1008,7 +1108,7 @@ export const unitedStates: Country = {
         {
           name: {
             en: 'Pie crust dough',
-            sv: 'Pajskalsdeg',
+            sv: 'Pajdeg',
             es: 'Masa de masa para tarta',
             fr: 'Pâte à tarte',
             de: 'Tortenkrustenteig',
@@ -1023,7 +1123,7 @@ export const unitedStates: Country = {
         {
           name: {
             en: 'Granny Smith apples',
-            sv: 'Granny Smith äpplen',
+            sv: 'Granny Smith-äpplen',
             es: 'Manzanas Granny Smith',
             fr: 'Pommes Granny Smith',
             de: 'Granny-Smith-Äpfel',
@@ -1035,7 +1135,7 @@ export const unitedStates: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1133,7 +1233,7 @@ export const unitedStates: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -1158,7 +1258,7 @@ export const unitedStates: Country = {
         {
           name: {
             en: 'Egg (for egg wash)',
-            sv: 'Ägg (för äggtvätt)',
+            sv: 'Ägg (till pensling)',
             es: 'Huevo (para lavar huevos)',
             fr: 'Oeuf (pour la dorure aux œufs)',
             de: 'Ei (zum Eierwaschen)',
@@ -1170,7 +1270,7 @@ export const unitedStates: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1206,7 +1306,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Mix apples with sugar, spices, lemon juice, and flour',
-          sv: 'Blanda äpplen med socker, kryddor, citronsaft och mjöl',
+          sv: 'Blanda äpplena med socker, kryddor, citronsaft och vetemjöl',
           es: 'Mezclar las manzanas con el azúcar, las especias, el jugo de limón y la harina',
           fr: 'Mélangez les pommes avec le sucre, les épices, le jus de citron et la farine',
           de: 'Äpfel mit Zucker, Gewürzen, Zitronensaft und Mehl vermischen',
@@ -1217,7 +1317,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Line pie pan with bottom crust',
-          sv: 'Klä pajformen med bottenskorpan',
+          sv: 'Klä pajformen med hälften av degen',
           es: 'Forre el molde para pastel con la base inferior',
           fr: 'Tapisser le moule à tarte avec la croûte inférieure',
           de: 'Kuchenform mit Bodenkruste auslegen',
@@ -1228,7 +1328,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Fill with apple mixture and dot with butter',
-          sv: 'Fyll med äppelblandning och pricka med smör',
+          sv: 'Fyll med äppelblandningen och lägg ut smörklickar ovanpå',
           es: 'Rellenar con la mezcla de manzana y salpicar con mantequilla',
           fr: 'Remplir du mélange de pommes et parsemer de beurre',
           de: 'Mit Apfelmischung füllen und mit Butter bestreuen',
@@ -1239,7 +1339,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Cover with top crust, seal edges, cut steam vents',
-          sv: 'Täck med toppskorpa, täta kanter, skär ångventiler',
+          sv: 'Täck med resten av degen, nyp ihop kanterna och skär några ånghål',
           es: 'Cubrir con la base superior, sellar los bordes, cortar las salidas de vapor',
           fr: 'Couvrir avec la croûte supérieure, sceller les bords, couper les évents de vapeur',
           de: 'Mit der oberen Kruste bedecken, Ränder versiegeln, Dampföffnungen ausschneiden',
@@ -1250,7 +1350,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Brush with egg wash and sprinkle sugar',
-          sv: 'Pensla med äggtvätt och strö över socker',
+          sv: 'Pensla med uppvispat ägg och strö över socker',
           es: 'Pincelar con huevo batido y espolvorear azúcar',
           fr: 'Badigeonner de dorure à l\'œuf et saupoudrer de sucre',
           de: 'Mit Eigelb bestreichen und mit Zucker bestreuen',
@@ -1261,7 +1361,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Bake 45–50 minutes until golden and bubbling',
-          sv: 'Grädda 45–50 minuter tills de är gyllene och bubblar',
+          sv: 'Grädda i 45–50 minuter tills pajen är gyllene och fyllningen bubblar',
           es: 'Hornee de 45 a 50 minutos hasta que esté dorado y burbujeante',
           fr: 'Cuire au four 45 à 50 minutes jusqu\'à ce qu\'ils soient dorés et bouillonnants',
           de: '45–50 Minuten backen, bis es goldbraun ist und Blasen wirft',
@@ -1272,7 +1372,7 @@ export const unitedStates: Country = {
         },
         {
           en: 'Cool before serving (best with vanilla ice cream)',
-          sv: 'Kyl innan servering (bäst med vaniljglass)',
+          sv: 'Låt svalna före servering (godast med vaniljglass)',
           es: 'Dejar enfriar antes de servir (mejor con helado de vainilla)',
           fr: 'Laisser refroidir avant de servir (meilleur avec de la glace à la vanille)',
           de: 'Vor dem Servieren abkühlen lassen (am besten mit Vanilleeis)',
@@ -1520,7 +1620,7 @@ export const unitedStates: Country = {
           },
           {
             en: 'Bald Eagle',
-            sv: 'Bald Eagle',
+            sv: 'Vithövdad havsörn',
             es: 'Águila calva',
             fr: 'Pygargue à tête blanche',
             de: 'Weißkopfseeadler',
@@ -1531,7 +1631,7 @@ export const unitedStates: Country = {
           },
           {
             en: 'Turkey',
-            sv: 'Turkiet',
+            sv: 'Kalkon',
             es: 'Turquía',
             fr: 'Turquie',
             de: 'Türkei',
@@ -1542,7 +1642,7 @@ export const unitedStates: Country = {
           },
           {
             en: 'Falcon',
-            sv: 'Falcon',
+            sv: 'Falk',
             es: 'Halcón',
             fr: 'Faucon',
             de: 'Falke',
@@ -1603,7 +1703,7 @@ export const unitedStates: Country = {
           },
           {
             en: 'Glacier National Park',
-            sv: 'Glacier National Park',
+            sv: 'Glacier nationalpark',
             es: 'Parque Nacional Glaciar',
             fr: 'Parc national des Glaciers',
             de: 'Glacier-Nationalpark',
@@ -1642,7 +1742,7 @@ export const unitedStates: Country = {
           },
           {
             en: 'US Pound',
-            sv: 'US Pund',
+            sv: 'US-pund',
             es: 'Libra estadounidense',
             fr: 'Livre américaine',
             de: 'US-Pfund',
@@ -1653,7 +1753,7 @@ export const unitedStates: Country = {
           },
           {
             en: 'US Peso',
-            sv: 'US Peso',
+            sv: 'US-peso',
             es: 'Peso estadounidense',
             fr: 'Peso américain',
             de: 'US-Peso',
@@ -1703,7 +1803,7 @@ export const unitedStates: Country = {
           },
           {
             en: 'Wright Brothers',
-            sv: 'Wright Brothers',
+            sv: 'Bröderna Wright',
             es: 'Hermanos Wright',
             fr: 'Frères Wright',
             de: 'Gebrüder Wright',
@@ -1725,7 +1825,7 @@ export const unitedStates: Country = {
           },
           {
             en: 'Smith Brothers',
-            sv: 'Smith Brothers',
+            sv: 'Bröderna Smith',
             es: 'Hermanos Smith',
             fr: 'Frères Smith',
             de: 'Smith Brothers',

@@ -220,7 +220,17 @@ export const kiribati: Country = {
     history: [
       {
         year: '1979',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Kiribati gained independence from the United Kingdom.',
           sv: 'Kiribati blev självständigt från Storbritannien.',
@@ -235,7 +245,17 @@ export const kiribati: Country = {
       },
       {
         year: '1995',
-        title: 'Climate Action',
+        title: {
+          en: 'Climate Action',
+          sv: 'Klimatarbete',
+          es: 'Acción climática',
+          fr: 'Action climatique',
+          de: 'Klimaschutz',
+          it: 'Azione per il clima',
+          pl: 'Działania na rzecz klimatu',
+          nl: 'Klimaatactie',
+          pt: 'Ação climática',
+        },
         description: {
           en: 'Kiribati became a leading voice on climate change and sea level rise issues.',
           sv: 'Kiribati blev en ledande röst i frågor om klimatförändringar och havsnivåhöjningar.',
@@ -262,7 +282,17 @@ export const kiribati: Country = {
           nl: 'Traditionele navigatie',
           pt: 'Navegação tradicional',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'I-Kiribati navigators used stars, waves, and birds for ocean navigation.',
           sv: 'I-Kiribati-navigatörer använde stjärnor, vågor och fåglar för havsnavigering.',
@@ -287,7 +317,17 @@ export const kiribati: Country = {
           nl: 'Stokkenkaarten',
           pt: 'Mapas de varetas',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Traditional wave navigation charts made from sticks and shells.',
           sv: 'Traditionella vågnavigeringssjökort gjorda av pinnar och snäckor.',
@@ -353,7 +393,7 @@ export const kiribati: Country = {
       {
         name: {
           en: 'Tarawa Lagoon',
-          sv: 'Tarawa Lagoon',
+          sv: 'Tarawalagunen',
           es: 'Laguna Tarawa',
           fr: 'Lagune de Tarawa',
           de: 'Tarawa-Lagune',
@@ -401,7 +441,17 @@ export const kiribati: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-October for drier weather and calmer seas.',
           sv: 'Maj-oktober för torrare väder och lugnare hav.',
@@ -415,7 +465,17 @@ export const kiribati: Country = {
         },
       },
       {
-        item: 'Reef shoes',
+        item: {
+          en: 'Reef shoes',
+          sv: 'Badskor',
+          es: 'Escarpines',
+          fr: 'Chaussures aquatiques',
+          de: 'Wasserschuhe',
+          it: 'Scarpette da scoglio',
+          pl: 'Buty do wody',
+          nl: 'Waterschoenen',
+          pt: 'Sapatilha aquática',
+        },
         description: {
           en: 'Essential for walking on coral and rocky areas.',
           sv: 'Nödvändigt för att gå på koraller och steniga områden.',
@@ -429,7 +489,17 @@ export const kiribati: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Strong equatorial sun requires maximum protection.',
           sv: 'Stark ekvatorialsol kräver maximalt skydd.',
@@ -443,7 +513,17 @@ export const kiribati: Country = {
         },
       },
       {
-        item: 'Limited facilities',
+        item: {
+          en: 'Limited facilities',
+          sv: 'Begränsad service',
+          es: 'Servicios limitados',
+          fr: 'Services limités',
+          de: 'Eingeschränktes Angebot',
+          it: 'Servizi limitati',
+          pl: 'Ograniczone udogodnienia',
+          nl: 'Beperkte voorzieningen',
+          pt: 'Estrutura limitada',
+        },
         description: {
           en: 'Bring essentials as tourist infrastructure is minimal.',
           sv: 'Ta med nödvändigheter eftersom turistinfrastrukturen är minimal.',
@@ -472,7 +552,7 @@ export const kiribati: Country = {
       },
       description: {
         en: 'Sweet coconut balls, a traditional I-Kiribati treat',
-        sv: 'Söta kokosbollar, en traditionell I-Kiribati-godis',
+        sv: 'Söta kokosbollar, ett traditionellt godis från Kiribati',
         es: 'Bolas de coco dulces, una delicia tradicional de Kiribati',
         fr: 'Boules de noix de coco sucrées, un régal traditionnel des Kiribati',
         de: 'Süße Kokosnussbällchen, ein traditioneller Leckerbissen aus I-Kiribati',
@@ -514,7 +594,7 @@ export const kiribati: Country = {
         {
           name: {
             en: 'Pandanus fruit paste',
-            sv: 'Pandanus fruktpasta',
+            sv: 'Pasta av pandanusfrukt',
             es: 'Pasta de fruta pandanus',
             fr: 'Pâte de fruits Pandanus',
             de: 'Pandanus-Fruchtpaste',
@@ -560,7 +640,7 @@ export const kiribati: Country = {
       steps: [
         {
           en: 'Mix grated coconut with pandanus paste',
-          sv: 'Blanda riven kokos med pandanuspasta',
+          sv: 'Blanda den rivna kokosen med pandanuspastan',
           es: 'Mezclar coco rallado con pasta de pandanus',
           fr: 'Mélanger la noix de coco râpée avec la pâte de pandanus',
           de: 'Kokosraspeln mit Pandanuspaste mischen',
@@ -582,7 +662,7 @@ export const kiribati: Country = {
         },
         {
           en: 'Add water slowly to bind mixture',
-          sv: 'Tillsätt vatten långsamt för att binda blandningen',
+          sv: 'Tillsätt vatten lite i taget tills blandningen håller ihop',
           es: 'Agregue agua lentamente para unir la mezcla',
           fr: 'Ajouter de l\'eau lentement pour lier le mélange',
           de: 'Langsam Wasser hinzufügen, um die Mischung zu binden',
@@ -642,7 +722,7 @@ export const kiribati: Country = {
       },
       description: {
         en: 'Taro leaves cooked in coconut cream',
-        sv: 'Taroblad kokta i kokosgrädde',
+        sv: 'Ugnsbakade taroblad i kokosgrädde',
         es: 'Hojas de taro cocidas en crema de coco',
         fr: 'Feuilles de taro cuites à la crème de coco',
         de: 'In Kokoscreme gekochte Taroblätter',
@@ -669,7 +749,7 @@ export const kiribati: Country = {
         {
           name: {
             en: 'Taro leaves',
-            sv: 'Taro blad',
+            sv: 'Taroblad',
             es: 'Hojas de taro',
             fr: 'Feuilles de taro',
             de: 'Taroblätter',
@@ -711,7 +791,7 @@ export const kiribati: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -776,7 +856,7 @@ export const kiribati: Country = {
         },
         {
           en: 'Layer leaves in baking dish',
-          sv: 'Lägg bladen i en ugnsform',
+          sv: 'Lägg bladen i lager i en ugnsform',
           es: 'Coloque capas de hojas en una fuente para hornear',
           fr: 'Disposez les feuilles dans un plat allant au four',
           de: 'Blätter in eine Auflaufform schichten',
@@ -787,7 +867,7 @@ export const kiribati: Country = {
         },
         {
           en: 'Mix coconut cream with onions and garlic',
-          sv: 'Blanda kokosgrädde med lök och vitlök',
+          sv: 'Blanda kokosgrädden med löken och vitlöken',
           es: 'Mezclar crema de coco con cebolla y ajo.',
           fr: 'Mélanger la crème de coco avec les oignons et l\'ail',
           de: 'Kokoscreme mit Zwiebeln und Knoblauch verrühren',
@@ -809,7 +889,7 @@ export const kiribati: Country = {
         },
         {
           en: 'Cover and bake at 350°F for 90 minutes',
-          sv: 'Täck över och grädda i 350°F i 90 minuter',
+          sv: 'Täck över och tillaga i ugnen i 180°C i 90 minuter',
           es: 'Cubra y hornee a 350°F durante 90 minutos',
           fr: 'Couvrir et cuire au four à 350°F pendant 90 minutes',
           de: 'Abdecken und 90 Minuten bei 350 °F backen',
@@ -1346,7 +1426,7 @@ export const kiribati: Country = {
           },
           {
             en: 'Caroline Island',
-            sv: 'Caroline Island',
+            sv: 'Carolineön',
             es: 'Isla Carolina',
             fr: 'Île Caroline',
             de: 'Karolineninsel',

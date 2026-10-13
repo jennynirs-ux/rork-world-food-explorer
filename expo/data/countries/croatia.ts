@@ -263,8 +263,28 @@ export const croatia: Country = {
     },
     history: [
       {
-        year: '7th century',
-        title: 'Croat Settlement',
+        year: {
+          en: '7th century',
+          sv: '600-talet',
+          es: 'siglo VII',
+          fr: 'VIIe siècle',
+          de: '7. Jahrhundert',
+          it: 'VII secolo',
+          pl: 'VII wiek',
+          nl: '7e eeuw',
+          pt: 'século VII',
+        },
+        title: {
+          en: 'Croat Settlement',
+          sv: 'Kroaterna bosätter sig',
+          es: 'Asentamiento de los croatas',
+          fr: 'Installation des Croates',
+          de: 'Ansiedlung der Kroaten',
+          it: 'Insediamento dei croati',
+          pl: 'Osiedlenie się Chorwatów',
+          nl: 'Vestiging van de Kroaten',
+          pt: 'Fixação dos croatas',
+        },
         description: {
           en: 'Croat tribes arrived in the region, establishing settlements that would become the foundation of Croatian identity.',
           sv: 'Kroatiska stammar anlände till regionen och etablerade bosättningar som skulle bli grunden för den kroatiska identiteten.',
@@ -278,8 +298,28 @@ export const croatia: Country = {
         },
       },
       {
-        year: '925 AD',
-        title: 'Kingdom of Croatia',
+        year: {
+          en: '925 AD',
+          sv: '925 e.Kr.',
+          es: '925 d. C.',
+          fr: '925 apr. J.-C.',
+          de: '925 n. Chr.',
+          it: '925 d.C.',
+          pl: '925 n.e.',
+          nl: '925 n.Chr.',
+          pt: '925 d.C.',
+        },
+        title: {
+          en: 'Kingdom of Croatia',
+          sv: 'Kungariket Kroatien',
+          es: 'Reino de Croacia',
+          fr: 'Royaume de Croatie',
+          de: 'Königreich Kroatien',
+          it: 'Regno di Croazia',
+          pl: 'Królestwo Chorwacji',
+          nl: 'Koninkrijk Kroatië',
+          pt: 'Reino da Croácia',
+        },
         description: {
           en: 'The Kingdom of Croatia was established, lasting until 1102 when it entered a union with Hungary.',
           sv: 'Konungariket Kroatien bildades och varade till 1102 då det gick in i en union med Ungern.',
@@ -294,7 +334,17 @@ export const croatia: Country = {
       },
       {
         year: '1918',
-        title: 'Kingdom of Yugoslavia',
+        title: {
+          en: 'Kingdom of Yugoslavia',
+          sv: 'Kungariket Jugoslavien',
+          es: 'Reino de Yugoslavia',
+          fr: 'Royaume de Yougoslavie',
+          de: 'Königreich Jugoslawien',
+          it: 'Regno di Jugoslavia',
+          pl: 'Królestwo Jugosławii',
+          nl: 'Koninkrijk Joegoslavië',
+          pt: 'Reino da Iugoslávia',
+        },
         description: {
           en: 'After WWI, Croatia became part of the Kingdom of Serbs, Croats, and Slovenes, later renamed Yugoslavia.',
           sv: 'Efter första världskriget blev Kroatien en del av kungariket av serber, kroater och slovener, senare omdöpt till Jugoslavien.',
@@ -309,7 +359,17 @@ export const croatia: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Croatia declared independence from Yugoslavia, followed by the Croatian War of Independence.',
           sv: 'Kroatien förklarade sig självständigt från Jugoslavien, följt av det kroatiska frihetskriget.',
@@ -324,7 +384,17 @@ export const croatia: Country = {
       },
       {
         year: '2013',
-        title: 'EU Membership',
+        title: {
+          en: 'EU Membership',
+          sv: 'EU-medlemskap',
+          es: 'Adhesión a la UE',
+          fr: 'Adhésion à l\'UE',
+          de: 'EU-Beitritt',
+          it: 'Adesione all\'UE',
+          pl: 'Przystąpienie do UE',
+          nl: 'EU-lidmaatschap',
+          pt: 'Adesão à UE',
+        },
         description: {
           en: 'Croatia joined the European Union, opening new opportunities for economic development and tourism.',
           sv: 'Kroatien gick med i Europeiska unionen, vilket öppnade nya möjligheter för ekonomisk utveckling och turism.',
@@ -340,7 +410,17 @@ export const croatia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen visa rules apply. Many nationalities can visit visa-free for up to 90 days.',
           sv: 'Schengenvisumregler gäller. Många nationaliteter kan besöka visumfritt i upp till 90 dagar.',
@@ -354,7 +434,17 @@ export const croatia: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to September for beach weather; April-May and September-October for fewer crowds',
           sv: 'Maj till september för strandväder; April-maj och september-oktober för färre folksamlingar',
@@ -368,7 +458,17 @@ export const croatia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Buses along the coast, ferries between islands, rental cars, domestic flights.',
           sv: 'Bussar längs kusten, färjor mellan öar, hyrbilar, inrikesflyg.',
@@ -382,7 +482,17 @@ export const croatia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Croatian is official. English widely spoken in tourist areas.',
           sv: 'Kroatiska är officiellt. Engelska talas allmänt i turistområden.',
@@ -396,7 +506,17 @@ export const croatia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe for tourists. Standard precautions in crowded areas.',
           sv: 'Mycket säkert för turister. Standardförsiktighetsåtgärder i trånga områden.',
@@ -462,7 +582,7 @@ export const croatia: Country = {
       {
         name: {
           en: 'Hvar Island',
-          sv: 'Hvar Island',
+          sv: 'Ön Hvar',
           es: 'Isla de Hvar',
           fr: 'Île de Hvar',
           de: 'Insel Hvar',
@@ -547,7 +667,7 @@ export const croatia: Country = {
       },
       description: {
         en: 'A traditional Croatian dish where meat (usually lamb or octopus) and vegetables are slow-cooked under a bell-shaped lid covered with hot coals. The result is incredibly tender, flavorful meat. A true taste of Dalmatia.',
-        sv: 'En traditionell kroatisk rätt där kött (vanligtvis lamm eller bläckfisk) och grönsaker långsamt tillagas under ett klockformat lock täckt med glödande kol. Resultatet är otroligt mört, smakrikt kött. En sann smak av Dalmatien.',
+        sv: 'En traditionell kroatisk rätt där kött (oftast lamm eller bläckfisk) och grönsaker tillagas långsamt under ett klockformat lock täckt med glödande kol. Resultatet blir otroligt mört och smakrikt kött. En äkta smak av Dalmatien.',
         es: 'Un plato tradicional croata en el que la carne (normalmente cordero o pulpo) y las verduras se cuecen a fuego lento bajo una tapa en forma de campana cubierta con brasas. El resultado es una carne increíblemente tierna y sabrosa. Un verdadero sabor de Dalmacia.',
         fr: 'Un plat traditionnel croate où la viande (généralement de l\'agneau ou du poulpe) et les légumes sont cuits lentement sous un couvercle en forme de cloche recouvert de charbons ardents. Le résultat est une viande incroyablement tendre et savoureuse. Un vrai goût de Dalmatie.',
         de: 'Ein traditionelles kroatisches Gericht, bei dem Fleisch (normalerweise Lamm oder Oktopus) und Gemüse unter einem glockenförmigen Deckel, der mit heißen Kohlen bedeckt ist, langsam gegart werden. Das Ergebnis ist unglaublich zartes, aromatisches Fleisch. Ein wahrer Geschmack Dalmatiens.',
@@ -589,7 +709,7 @@ export const croatia: Country = {
         {
           name: {
             en: 'Potatoes, quartered',
-            sv: 'Potatis, tärnad',
+            sv: 'Potatis, delad i fyra',
             es: 'Patatas cortadas en cuartos',
             fr: 'Pommes de terre, coupées en quartiers',
             de: 'Kartoffeln, geviertelt',
@@ -604,7 +724,7 @@ export const croatia: Country = {
         {
           name: {
             en: 'Onions, quartered',
-            sv: 'Lök, tärnad',
+            sv: 'Lök, delad i fyra',
             es: 'Cebollas, en cuartos',
             fr: 'Oignons, coupés en quartiers',
             de: 'Zwiebeln, geviertelt',
@@ -760,7 +880,7 @@ export const croatia: Country = {
       steps: [
         {
           en: 'In a large baking dish, arrange meat at the bottom',
-          sv: 'I en stor ugnsform, arrangera kött i botten',
+          sv: 'Lägg köttet i botten av en stor ugnsform',
           es: 'En una fuente para horno grande, coloque la carne en el fondo',
           fr: 'Dans un grand plat allant au four, disposer la viande au fond',
           de: 'In einer großen Auflaufform das Fleisch unten anordnen',
@@ -782,7 +902,7 @@ export const croatia: Country = {
         },
         {
           en: 'Arrange vegetables around and on top of meat',
-          sv: 'Ordna grönsaker runt och ovanpå kött',
+          sv: 'Lägg grönsakerna runt och ovanpå köttet',
           es: 'Coloque las verduras alrededor y encima de la carne',
           fr: 'Disposer les légumes autour et sur la viande',
           de: 'Gemüse um und auf dem Fleisch anordnen',
@@ -815,7 +935,7 @@ export const croatia: Country = {
         },
         {
           en: 'If using peka method: cover with bell lid and place coals on top',
-          sv: 'Om du använder peka-metoden: täck med klocklock och lägg kol på toppen',
+          sv: 'Om du använder peka-metoden: täck med klocklocket och lägg glödande kol ovanpå',
           es: 'Si usa el método peka: cubra con una tapa de campana y coloque las brasas encima',
           fr: 'Si vous utilisez la méthode peka : couvrez avec un couvercle en forme de cloche et placez les charbons dessus',
           de: 'Bei Verwendung der Peka-Methode: Mit einem Glockendeckel abdecken und Kohlen darauf legen',
@@ -826,7 +946,7 @@ export const croatia: Country = {
         },
         {
           en: 'For oven: bake at 160°C for 2.5-3 hours until meat is tender',
-          sv: 'För ugn: grädda i 160°C i 2,5-3 timmar tills köttet är mört',
+          sv: 'I ugn: tillaga i 160°C i 2,5–3 timmar, tills köttet är mört',
           es: 'Para horno: hornear a 160°C durante 2,5-3 horas hasta que la carne esté tierna',
           fr: 'Pour le four : cuire au four à 160°C pendant 2,5 à 3 heures jusqu\'à ce que la viande soit tendre',
           de: 'Für den Ofen: 2,5–3 Stunden bei 160 °C backen, bis das Fleisch zart ist',
@@ -1397,7 +1517,17 @@ export const croatia: Country = {
           nl: 'Stropdas (Das)',
           pt: 'Gravata (Gravata)',
         },
-        year: '17th century',
+        year: {
+          en: '17th century',
+          sv: '1600-talet',
+          es: 'siglo XVII',
+          fr: 'XVIIe siècle',
+          de: '17. Jahrhundert',
+          it: 'XVII secolo',
+          pl: 'XVII wiek',
+          nl: '17e eeuw',
+          pt: 'século XVII',
+        },
         description: {
           en: 'Croatian mercenaries introduced the cravat to France, which evolved into the modern necktie worn worldwide.',
           sv: 'Kroatiska legosoldater introducerade cravaten till Frankrike, som utvecklades till den moderna slipsen som bärs över hela världen.',
@@ -1472,7 +1602,17 @@ export const croatia: Country = {
           nl: 'Wisselstroommotor',
           pt: 'Motor elétrico de corrente alternada',
         },
-        year: '1880s',
+        year: {
+          en: '1880s',
+          sv: '1880-talet',
+          es: 'década de 1880',
+          fr: 'années 1880',
+          de: '1880er',
+          it: 'anni 1880',
+          pl: 'lata 80. XIX wieku',
+          nl: 'jaren 1880',
+          pt: 'década de 1880',
+        },
         description: {
           en: 'Nikola Tesla, born in Croatia, invented the AC induction motor and polyphase electrical system, powering the modern world.',
           sv: 'Nikola Tesla, född i Kroatien, uppfann AC-induktionsmotorn och det flerfasiga elektriska systemet, som driver den moderna världen.',
@@ -1501,7 +1641,7 @@ export const croatia: Country = {
       },
       description: {
         en: 'Creamy custard slice - layers of puff pastry with vanilla custard cream, a beloved Croatian dessert',
-        sv: 'Krämig vaniljsåsskiva - lager av smördeg med vaniljkräm, en älskad kroatisk efterrätt',
+        sv: 'Krämig vaniljbakelse – lager av smördeg med vaniljkräm, en älskad kroatisk efterrätt',
         es: 'Rebanada de natillas cremosas: capas de hojaldre con crema de vainilla, un postre croata muy apreciado',
         fr: 'Tranche de crème anglaise crémeuse - couches de pâte feuilletée avec crème anglaise à la vanille, un dessert croate bien-aimé',
         de: 'Cremige Vanillepuddingscheibe – Blätterteigschichten mit Vanillepuddingcreme, ein beliebtes kroatisches Dessert',
@@ -1528,7 +1668,7 @@ export const croatia: Country = {
         {
           name: {
             en: 'Puff pastry sheets',
-            sv: 'Smördegsark',
+            sv: 'Smördegsplattor',
             es: 'Hojas de hojaldre',
             fr: 'Feuilles de pâte feuilletée',
             de: 'Blätterteigblätter',
@@ -1543,7 +1683,7 @@ export const croatia: Country = {
         {
           name: {
             en: 'Whole milk',
-            sv: 'Helmjölk',
+            sv: 'Standardmjölk',
             es: 'Leche entera',
             fr: 'Lait entier',
             de: 'Vollmilch',
@@ -1570,7 +1710,7 @@ export const croatia: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1628,7 +1768,7 @@ export const croatia: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -1643,7 +1783,7 @@ export const croatia: Country = {
         {
           name: {
             en: 'Powdered sugar for dusting',
-            sv: 'Pulversocker för att pudra',
+            sv: 'Florsocker att pudra med',
             es: 'Azúcar en polvo para espolvorear',
             fr: 'Sucre en poudre pour saupoudrer',
             de: 'Puderzucker zum Bestäuben',
@@ -1659,7 +1799,7 @@ export const croatia: Country = {
       steps: [
         {
           en: 'Bake puff pastry sheets at 200°C until golden and crispy.',
-          sv: 'Grädda smördegsplattor i 200°C tills de är gyllene och krispiga.',
+          sv: 'Grädda smördegsplattorna i 200°C tills de är gyllene och frasiga.',
           es: 'Hornear las láminas de hojaldre a 200°C hasta que estén doradas y crujientes.',
           fr: 'Cuire les feuilles de pâte feuilletée à 200°C jusqu\'à ce qu\'elles soient dorées et croustillantes.',
           de: 'Blätterteigblätter bei 200 °C backen, bis sie goldbraun und knusprig sind.',
@@ -1692,7 +1832,7 @@ export const croatia: Country = {
         },
         {
           en: 'Temper eggs with hot milk, return to pot.',
-          sv: 'Tempera ägg med varm mjölk, återgå till grytan.',
+          sv: 'Vispa ner lite av den varma mjölken i äggblandningen och häll sedan tillbaka allt i kastrullen.',
           es: 'Templar los huevos con leche caliente y volver a colocarlos en la olla.',
           fr: 'Tempérer les œufs avec le lait chaud, remettre dans la casserole.',
           de: 'Eier mit heißer Milch temperieren und zurück in den Topf geben.',
@@ -1703,7 +1843,7 @@ export const croatia: Country = {
         },
         {
           en: 'Cook until thick, stirring constantly.',
-          sv: 'Koka tills det är tjockt, rör hela tiden.',
+          sv: 'Låt koka under ständig omrörning tills krämen tjocknar.',
           es: 'Cocine hasta que espese, revolviendo constantemente.',
           fr: 'Cuire jusqu\'à consistance épaisse, en remuant constamment.',
           de: 'Unter ständigem Rühren dickflüssig kochen.',
@@ -1714,7 +1854,7 @@ export const croatia: Country = {
         },
         {
           en: 'Remove from heat, add butter, stir until smooth.',
-          sv: 'Ta bort från värmen, tillsätt smör, rör om tills det är slätt.',
+          sv: 'Ta kastrullen från värmen, tillsätt smöret och rör tills krämen är slät.',
           es: 'Retire del fuego, agregue la mantequilla, revuelva hasta que quede suave.',
           fr: 'Retirer du feu, ajouter le beurre, remuer jusqu\'à consistance lisse.',
           de: 'Vom Herd nehmen, Butter hinzufügen und glatt rühren.',
@@ -1736,7 +1876,7 @@ export const croatia: Country = {
         },
         {
           en: 'Whip heavy cream to stiff peaks, fold into custard.',
-          sv: 'Vispa tjock grädde till hårda toppar, vänd ner i vaniljsås.',
+          sv: 'Vispa grädden till hårt skum och vänd ner den i vaniljkrämen.',
           es: 'Batir la crema espesa hasta obtener picos rígidos e incorporarla a la crema pastelera.',
           fr: 'Fouetter la crème épaisse en pics fermes, incorporer à la crème anglaise.',
           de: 'Schlagsahne steif schlagen und unter die Creme heben.',
@@ -1747,7 +1887,7 @@ export const croatia: Country = {
         },
         {
           en: 'Place one pastry layer in pan, spread custard, top with second layer.',
-          sv: 'Lägg ett lager lager i formen, bred vaniljsås, toppa med andra lagret.',
+          sv: 'Lägg en smördegsplatta i formen, bred ut vaniljkrämen och lägg den andra plattan ovanpå.',
           es: 'Coloque una capa de masa en el molde, unte la crema pastelera y cubra con la segunda capa.',
           fr: 'Placer une couche de pâte dans le moule, étaler la crème anglaise et recouvrir de la deuxième couche.',
           de: 'Legen Sie eine Teigschicht in die Form, verteilen Sie die Vanillesoße und bedecken Sie sie mit der zweiten Schicht.',
@@ -1758,7 +1898,7 @@ export const croatia: Country = {
         },
         {
           en: 'Refrigerate for 4 hours, dust with powdered sugar before serving.',
-          sv: 'Ställ i kylen i 4 timmar, pudra över strösocker före servering.',
+          sv: 'Ställ i kylen i 4 timmar och pudra över florsocker före servering.',
           es: 'Refrigere por 4 horas, espolvoree con azúcar en polvo antes de servir.',
           fr: 'Réfrigérer 4 heures, saupoudrer de sucre glace avant de servir.',
           de: '4 Stunden im Kühlschrank lagern, vor dem Servieren mit Puderzucker bestäuben.',

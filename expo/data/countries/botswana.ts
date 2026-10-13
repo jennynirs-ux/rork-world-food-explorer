@@ -125,7 +125,7 @@ export const botswana: Country = {
         },
         value: {
           en: 'Botswana Pula',
-          sv: 'Botswana Pula',
+          sv: 'Botswansk pula',
           es: 'Pula de Botsuana',
           fr: 'Pula du Botswana',
           de: 'Botswana Pula',
@@ -263,7 +263,17 @@ export const botswana: Country = {
     },
     history: [
       {
-        year: 'Ancient Times',
+        year: {
+          en: 'Ancient Times',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         title: {
           en: 'San Bushmen',
           sv: 'San-folket (bushmän)',
@@ -289,7 +299,17 @@ export const botswana: Country = {
       },
       {
         year: '1885',
-        title: 'British Protectorate',
+        title: {
+          en: 'British Protectorate',
+          sv: 'Brittiskt protektorat',
+          es: 'Protectorado británico',
+          fr: 'Protectorat britannique',
+          de: 'Britisches Protektorat',
+          it: 'Protettorato britannico',
+          pl: 'Protektorat brytyjski',
+          nl: 'Brits protectoraat',
+          pt: 'Protetorado britânico',
+        },
         description: {
           en: 'Bechuanaland became a British protectorate, protecting it from Boer expansion and maintaining traditional chieftaincy systems.',
           sv: 'Bechuanaland blev ett brittiskt protektorat, skyddade det från boerexpansion och upprätthöll traditionella hövdingssystem.',
@@ -304,7 +324,17 @@ export const botswana: Country = {
       },
       {
         year: '1966',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Botswana gained independence peacefully, with Seretse Khama becoming the first president and establishing democratic governance.',
           sv: 'Botswana fick självständighet i fred, med Seretse Khama som blev den första presidenten och etablerade demokratiskt styre.',
@@ -319,7 +349,17 @@ export const botswana: Country = {
       },
       {
         year: '1967',
-        title: 'Diamond Discovery',
+        title: {
+          en: 'Diamond Discovery',
+          sv: 'Diamanter upptäcks',
+          es: 'Descubrimiento de diamantes',
+          fr: 'Découverte de diamants',
+          de: 'Diamantenfund',
+          it: 'Scoperta dei diamanti',
+          pl: 'Odkrycie diamentów',
+          nl: 'Ontdekking van diamanten',
+          pt: 'Descoberta de diamantes',
+        },
         description: {
           en: 'Massive diamond deposits were discovered, transforming Botswana from one of the poorest to an upper-middle-income country.',
           sv: 'Massiva diamantfyndigheter upptäcktes som förvandlade Botswana från ett av de fattigaste till ett land med högre medelinkomst.',
@@ -333,8 +373,28 @@ export const botswana: Country = {
         },
       },
       {
-        year: '1990s-Present',
-        title: 'Conservation Leadership',
+        year: {
+          en: '1990s-Present',
+          sv: '1990-talet–idag',
+          es: 'Década de 1990–actualidad',
+          fr: 'Années 1990–aujourd\'hui',
+          de: '1990er–heute',
+          it: 'Anni \'90–oggi',
+          pl: 'Lata 90.–obecnie',
+          nl: 'Jaren 90–heden',
+          pt: 'Década de 1990–presente',
+        },
+        title: {
+          en: 'Conservation Leadership',
+          sv: 'Föregångare inom naturvård',
+          es: 'Liderazgo en conservación',
+          fr: 'Pionnier de la protection de la nature',
+          de: 'Vorreiter im Naturschutz',
+          it: 'Pionieri della conservazione',
+          pl: 'Lider ochrony przyrody',
+          nl: 'Voortrekker in natuurbehoud',
+          pt: 'Liderança em conservação',
+        },
         description: {
           en: 'Botswana became a leader in wildlife conservation and community-based natural resource management.',
           sv: 'Botswana blev ledande inom naturvård och samhällsbaserad naturresursförvaltning.',
@@ -361,7 +421,17 @@ export const botswana: Country = {
           nl: 'Gemeenschapsgericht beheer van natuurlijke hulpbronnen',
           pt: 'Gestão comunitária de recursos naturais',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Botswana pioneered giving local communities control over wildlife resources, creating sustainable conservation and tourism income.',
           sv: 'Botswana var pionjär för att ge lokala samhällen kontroll över vilda resurser, skapa hållbart bevarande och turistinkomster.',
@@ -386,7 +456,17 @@ export const botswana: Country = {
           nl: 'Beheer van diamantinkomsten',
           pt: 'Gestão da receita dos diamantes',
         },
-        year: '1970s',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
         description: {
           en: 'Successfully negotiated favorable diamond deals and managed mineral wealth prudently, avoiding the "resource curse" affecting many countries.',
           sv: 'Framgångsrikt förhandlat fram gynnsamma diamantaffärer och förvaltat mineralrikedomar försiktigt, och undvikit "resursförbannelsen" som drabbar många länder.',
@@ -411,7 +491,17 @@ export const botswana: Country = {
           nl: 'Strategieën tegen stroperij',
           pt: 'Estratégias contra a caça furtiva',
         },
-        year: '2010s',
+        year: {
+          en: '2010s',
+          sv: '2010-talet',
+          es: 'Década de 2010',
+          fr: 'Années 2010',
+          de: '2010er',
+          it: 'Anni 2010',
+          pl: 'Lata 2010.',
+          nl: 'Jaren 2010',
+          pt: 'Década de 2010',
+        },
         description: {
           en: 'Developed some of Africa\'s most effective anti-poaching measures, creating safe havens for elephants and other wildlife.',
           sv: 'Utvecklade några av Afrikas mest effektiva åtgärder mot tjuvjakt och skapade säkra tillflyktsorter för elefanter och andra vilda djur.',
@@ -436,7 +526,17 @@ export const botswana: Country = {
           nl: 'Meerpartijendemocratie',
           pt: 'Democracia multipartidária',
         },
-        year: '1966-Present',
+        year: {
+          en: '1966-Present',
+          sv: '1966–idag',
+          es: '1966–actualidad',
+          fr: '1966–aujourd\'hui',
+          de: '1966–heute',
+          it: '1966–oggi',
+          pl: '1966–obecnie',
+          nl: '1966–heden',
+          pt: '1966–presente',
+        },
         description: {
           en: 'Maintained stable democratic governance for over 55 years, one of Africa\'s longest continuous democracies.',
           sv: 'Upprätthållit en stabil demokratisk styrning i över 55 år, en av Afrikas längsta kontinuerliga demokratier.',
@@ -454,7 +554,7 @@ export const botswana: Country = {
       {
         name: {
           en: 'Okavango Delta',
-          sv: 'Okavango Delta',
+          sv: 'Okavangodeltat',
           es: 'Delta del Okavango',
           fr: 'Delta de l\'Okavango',
           de: 'Okavangodelta',
@@ -502,7 +602,7 @@ export const botswana: Country = {
       {
         name: {
           en: 'Moremi Game Reserve',
-          sv: 'Moremi Game Reserve',
+          sv: 'Moremi viltreservat',
           es: 'Reserva de Caza Moremi',
           fr: 'Réserve de chasse de Moremi',
           de: 'Moremi Wildreservat',
@@ -574,7 +674,17 @@ export const botswana: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-October for dry season (prime game viewing); November-April for birding and green landscapes.',
           sv: 'Maj-oktober för torrperioden (främst viltvisning); November-april för fågelskådning och gröna landskap.',
@@ -588,7 +698,17 @@ export const botswana: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities receive visa-free entry for up to 90 days.',
           sv: 'Många nationaliteter får visumfritt inträde i upp till 90 dagar.',
@@ -602,7 +722,17 @@ export const botswana: Country = {
         },
       },
       {
-        item: 'Malaria prevention',
+        item: {
+          en: 'Malaria prevention',
+          sv: 'Malariaskydd',
+          es: 'Prevención de la malaria',
+          fr: 'Prévention du paludisme',
+          de: 'Malariaprävention',
+          it: 'Prevenzione della malaria',
+          pl: 'Zapobieganie malarii',
+          nl: 'Malariapreventie',
+          pt: 'Prevenção da malária',
+        },
         description: {
           en: 'Take prophylaxis for northern areas (Okavango, Chobe). Lower risk in south.',
           sv: 'Ta profylax för nordliga områden (Okavango, Chobe). Lägre risk i söder.',
@@ -616,7 +746,17 @@ export const botswana: Country = {
         },
       },
       {
-        item: 'Safari bookings',
+        item: {
+          en: 'Safari bookings',
+          sv: 'Safaribokning',
+          es: 'Reservas de safari',
+          fr: 'Réservation de safaris',
+          de: 'Safaribuchung',
+          it: 'Prenotazioni safari',
+          pl: 'Rezerwacja safari',
+          nl: 'Safari boeken',
+          pt: 'Reservas de safári',
+        },
         description: {
           en: 'Book accommodations and activities well in advance, especially for peak season.',
           sv: 'Boka boende och aktiviteter i god tid, speciellt under högsäsong.',
@@ -630,7 +770,17 @@ export const botswana: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Pula is the currency. Credit cards accepted in lodges; carry cash for small purchases.',
           sv: 'Pula är valutan. Kreditkort som accepteras i loger; bära kontanter för små inköp.',
@@ -644,7 +794,17 @@ export const botswana: Country = {
         },
       },
       {
-        item: 'Respect for wildlife',
+        item: {
+          en: 'Respect for wildlife',
+          sv: 'Respekt för djurlivet',
+          es: 'Respeto por la fauna',
+          fr: 'Respect de la faune',
+          de: 'Rücksicht auf Wildtiere',
+          it: 'Rispetto della fauna selvatica',
+          pl: 'Szacunek dla dzikiej przyrody',
+          nl: 'Respect voor wilde dieren',
+          pt: 'Respeito à vida selvagem',
+        },
         description: {
           en: 'Follow guide instructions strictly. Wild animals are unpredictable and dangerous.',
           sv: 'Följ instruktionerna i guiden strikt. Vilda djur är oförutsägbara och farliga.',
@@ -673,7 +833,7 @@ export const botswana: Country = {
       },
       description: {
         en: 'Slow-cooked, pounded beef or goat meat served with pap',
-        sv: 'Långsamt kokt, krossat nöt- eller getkött serveras med pap',
+        sv: 'Långkokt, stött nöt- eller getkött som serveras med pap (majsgröt)',
         es: 'Carne de res o de cabra machacada y cocida a fuego lento, servida con papilla',
         fr: 'Viande de bœuf ou de chèvre pilée, cuite lentement, servie avec de la bouillie',
         de: 'Langsam gegartes, zerstoßenes Rind- oder Ziegenfleisch, serviert mit Brei',
@@ -742,7 +902,7 @@ export const botswana: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -811,7 +971,7 @@ export const botswana: Country = {
       steps: [
         {
           en: 'Cut meat into large chunks with bones',
-          sv: 'Skär köttet i stora bitar med ben',
+          sv: 'Skär köttet med ben i stora bitar',
           es: 'Cortar la carne en trozos grandes con huesos',
           fr: 'Couper la viande en gros morceaux avec les os',
           de: 'Fleisch mit Knochen in große Stücke schneiden',
@@ -855,7 +1015,7 @@ export const botswana: Country = {
         },
         {
           en: 'Remove bones and pound meat with wooden spoon',
-          sv: 'Ta bort ben och krossa kött med träslev',
+          sv: 'Ta bort benen och stöt sönder köttet med en träslev',
           es: 'Retire los huesos y machaque la carne con una cuchara de madera',
           fr: 'Retirez les os et pilez la viande avec une cuillère en bois',
           de: 'Knochen entfernen und Fleisch mit einem Holzlöffel zerstampfen',
@@ -866,7 +1026,7 @@ export const botswana: Country = {
         },
         {
           en: 'Continue pounding until meat is shredded',
-          sv: 'Fortsätt dunka tills köttet är strimlat',
+          sv: 'Fortsätt stöta tills köttet faller sönder i trådar',
           es: 'Continúe golpeando hasta que la carne esté desmenuzada',
           fr: 'Continuez à battre jusqu\'à ce que la viande soit déchiquetée',
           de: 'Weiter hämmern, bis das Fleisch zerfetzt ist',
@@ -877,7 +1037,7 @@ export const botswana: Country = {
         },
         {
           en: 'Mix in cooking liquid to keep moist',
-          sv: 'Blanda i matlagningsvätska för att hålla det fuktigt',
+          sv: 'Blanda i lite av spadet så att köttet håller sig saftigt',
           es: 'Mezcle el líquido de cocción para mantener la humedad',
           fr: 'Incorporer le liquide de cuisson pour garder l\'humidité',
           de: 'Kochflüssigkeit unterrühren, um die Flüssigkeit feucht zu halten',
@@ -888,7 +1048,7 @@ export const botswana: Country = {
         },
         {
           en: 'For pap: cook maize meal with water until thick',
-          sv: 'För pap: koka majsmjöl med vatten tills det blir tjockt',
+          sv: 'Pap: koka majsmjöl med vatten till en tjock gröt',
           es: 'Para papilla: cocine la harina de maíz con agua hasta que espese',
           fr: 'Pour la bouillie : cuire la farine de maïs avec de l\'eau jusqu\'à ce qu\'elle soit épaisse',
           de: 'Für Brei: Maismehl mit Wasser dick kochen',
@@ -914,26 +1074,26 @@ export const botswana: Country = {
     dessert: {
       id: 'botswana-dessert',
       name: {
-        en: 'Magwinya',
-        sv: 'Dikgobe Sötgröt',
-        es: 'Gachas dulces de Dikgobe',
-        fr: 'Porridge sucré Dikgobe',
-        de: 'Dikgobe süßer Brei',
-        it: 'Dikgobe Sweet Porridge',
-        pl: 'Dikgobe Sweet Porridge',
-        nl: 'Dikgobe Sweet Porridge',
-        pt: 'Dikgobe Sweet Porridge',
+        en: 'Sweet sorghum porridge (bogobe)',
+        sv: 'Söt sorghumgröt (bogobe)',
+        es: 'Gachas dulces de sorgo (bogobe)',
+        fr: 'Bouillie de sorgho sucrée (bogobe)',
+        de: 'Süßer Sorghumbrei (Bogobe)',
+        it: 'Porridge dolce di sorgo (bogobe)',
+        pl: 'Słodka kasza z sorgo (bogobe)',
+        nl: 'Zoete sorghumpap (bogobe)',
+        pt: 'Mingau doce de sorgo (bogobe)',
       },
       description: {
-        en: 'Botswanan sweet fried dough balls, golden and fluffy, often enjoyed as a beloved street treat.',
-        sv: 'Söt durragröt med jordnötter och socker, en tröstande Botswanansk dessert',
+        en: 'Sweet sorghum porridge with peanuts and sugar, a comforting Botswanan dessert.',
+        sv: 'Söt sorghumgröt med jordnötter och socker – en värmande efterrätt från Botswana.',
         es: 'Gachas de sorgo dulce con cacahuetes y azúcar, un postre reconfortante de Botsuana',
         fr: 'Bouillie de sorgho sucrée aux cacahuètes et au sucre, un dessert botswanais réconfortant',
         de: 'Süßer Sorghumbrei mit Erdnüssen und Zucker, ein wohliges Dessert aus Botswana',
-        it: 'Sweet sorghum porridge with peanuts and sugar, a comforting Botswanan dessert',
-        pl: 'Sweet sorghum porridge with peanuts and sugar, a comforting Botswanan dessert',
-        nl: 'Sweet sorghum porridge with peanuts and sugar, a comforting Botswanan dessert',
-        pt: 'Sweet sorghum porridge with peanuts and sugar, a comforting Botswanan dessert',
+        it: 'Porridge dolce di sorgo con arachidi e zucchero, un dessert confortante del Botswana.',
+        pl: 'Słodka kasza z sorgo z orzeszkami ziemnymi i cukrem – rozgrzewający deser z Botswany.',
+        nl: 'Zoete sorghumpap met pinda\'s en suiker, een hartverwarmend dessert uit Botswana.',
+        pt: 'Mingau doce de sorgo com amendoim e açúcar, uma sobremesa reconfortante de Botsuana.',
       },
       cookingTime: 45,
       difficulty: 'medium',
@@ -1029,7 +1189,7 @@ export const botswana: Country = {
       steps: [
         {
           en: 'Mix sorghum flour with cold water to form smooth paste.',
-          sv: 'Blanda sorghummjöl med kallt vatten för att bilda en slät pasta.',
+          sv: 'Blanda sorghummjölet med kallt vatten till en slät smet.',
           es: 'Mezcle la harina de sorgo con agua fría hasta formar una pasta suave.',
           fr: 'Mélangez la farine de sorgho avec de l\'eau froide pour former une pâte lisse.',
           de: 'Sorghummehl mit kaltem Wasser zu einer glatten Paste vermischen.',
@@ -1051,7 +1211,7 @@ export const botswana: Country = {
         },
         {
           en: 'Slowly add flour paste while stirring constantly.',
-          sv: 'Tillsätt sakta mjölpasta under konstant omrörning.',
+          sv: 'Tillsätt mjölsmeten lite i taget under ständig omrörning.',
           es: 'Agregue lentamente la pasta de harina mientras revuelve constantemente.',
           fr: 'Ajoutez lentement la pâte de farine en remuant constamment.',
           de: 'Unter ständigem Rühren langsam Mehlpaste hinzufügen.',
@@ -1062,7 +1222,7 @@ export const botswana: Country = {
         },
         {
           en: 'Reduce heat and simmer for 30 minutes, stirring frequently.',
-          sv: 'Sänk värmen och låt sjuda i 30 minuter, rör om ofta.',
+          sv: 'Sänk värmen och låt gröten sjuda i 30 minuter. Rör om ofta.',
           es: 'Reduzca el fuego y cocine a fuego lento durante 30 minutos, revolviendo frecuentemente.',
           fr: 'Réduire le feu et laisser mijoter 30 minutes en remuant fréquemment.',
           de: 'Hitze reduzieren und 30 Minuten köcheln lassen, dabei häufig umrühren.',
@@ -1084,7 +1244,7 @@ export const botswana: Country = {
         },
         {
           en: 'Cook for another 10 minutes until thick.',
-          sv: 'Koka i ytterligare 10 minuter tills den är tjock.',
+          sv: 'Låt koka ytterligare 10 minuter tills gröten har tjocknat.',
           es: 'Cocine por otros 10 minutos hasta que espese.',
           fr: 'Cuire encore 10 minutes jusqu\'à épaississement.',
           de: 'Weitere 10 Minuten kochen, bis es dickflüssig ist.',
@@ -1098,7 +1258,7 @@ export const botswana: Country = {
           sv: 'Tillsätt en nypa salt för att balansera sötman.',
           es: 'Agregue una pizca de sal para equilibrar el dulzor.',
           fr: 'Ajoutez une pincée de sel pour équilibrer la douceur.',
-          de: 'Fügen Sie eine Prise Salz hinzu, um die Süße auszugleichen.',
+          de: 'Eine Prise Salz hinzufügen, um die Süße auszugleichen.',
           it: 'Aggiungere un pizzico di sale per bilanciare la dolcezza.',
           pl: 'Dodaj szczyptę soli, aby zrównoważyć słodycz.',
           nl: 'Voeg een snufje zout toe om de zoetheid in balans te brengen.',
@@ -1120,7 +1280,7 @@ export const botswana: Country = {
           sv: 'Valfritt: toppa med extra malda jordnötter.',
           es: 'Opcional: cubra con maní molido extra.',
           fr: 'Facultatif : garnir de cacahuètes moulues supplémentaires.',
-          de: 'Optional: mit zusätzlichen gemahlenen Erdnüssen belegen.',
+          de: 'Optional: mit weiteren gemahlenen Erdnüssen bestreuen.',
           it: 'Facoltativo: guarnire con altre arachidi macinate.',
           pl: 'Opcjonalnie: posyp dodatkowymi zmielonymi orzeszkami ziemnymi.',
           nl: 'Optioneel: garneer met extra gemalen pinda\'s.',
@@ -1709,7 +1869,7 @@ export const botswana: Country = {
         options: [
           {
             en: 'Kruger National Park',
-            sv: 'Kruger National Park',
+            sv: 'Krugers nationalpark',
             es: 'Parque Nacional Kruger',
             fr: 'Parc national Kruger',
             de: 'Krüger-Nationalpark',

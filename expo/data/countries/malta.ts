@@ -263,7 +263,17 @@ export const malta: Country = {
     },
     history: [
       {
-        year: '3600 BC',
+        year: {
+          en: '3600 BC',
+          sv: '3600 f.Kr.',
+          es: '3600 a. C.',
+          fr: '3600 av. J.-C.',
+          de: '3600 v. Chr.',
+          it: '3600 a.C.',
+          pl: '3600 p.n.e.',
+          nl: '3600 v.Chr.',
+          pt: '3600 a.C.',
+        },
         title: {
           en: 'Megalithic Temples',
           sv: 'Megalitiska tempel',
@@ -289,7 +299,17 @@ export const malta: Country = {
       },
       {
         year: '1530',
-        title: 'Knights of Malta',
+        title: {
+          en: 'Knights of Malta',
+          sv: 'Malteserriddarna',
+          es: 'Caballeros de Malta',
+          fr: 'Chevaliers de Malte',
+          de: 'Malteserritter',
+          it: 'Cavalieri di Malta',
+          pl: 'Kawalerowie maltańscy',
+          nl: 'Maltezer ridders',
+          pt: 'Cavaleiros de Malta',
+        },
         description: {
           en: 'The Knights Hospitaller made Malta their home, building fortifications and Valletta.',
           sv: 'Knights Hospitaller gjorde Malta till sitt hem, byggde befästningar och Valletta.',
@@ -304,7 +324,17 @@ export const malta: Country = {
       },
       {
         year: '1565',
-        title: 'Great Siege',
+        title: {
+          en: 'Great Siege',
+          sv: 'Den stora belägringen',
+          es: 'Gran Sitio',
+          fr: 'Grand Siège',
+          de: 'Große Belagerung',
+          it: 'Grande assedio',
+          pl: 'Wielkie oblężenie',
+          nl: 'Het Grote Beleg',
+          pt: 'Grande Cerco',
+        },
         description: {
           en: 'Malta withstood a massive Ottoman siege, one of the most famous battles in history.',
           sv: 'Malta stod emot en massiv osmansk belägring, en av de mest kända striderna i historien.',
@@ -319,7 +349,17 @@ export const malta: Country = {
       },
       {
         year: '1800-1964',
-        title: 'British Rule',
+        title: {
+          en: 'British Rule',
+          sv: 'Brittiskt styre',
+          es: 'Dominio británico',
+          fr: 'Domination britannique',
+          de: 'Britische Herrschaft',
+          it: 'Dominio britannico',
+          pl: 'Rządy brytyjskie',
+          nl: 'Brits bewind',
+          pt: 'Domínio britânico',
+        },
         description: {
           en: 'Malta became a British colony and played a crucial role in WWII.',
           sv: 'Malta blev en brittisk koloni och spelade en avgörande roll under andra världskriget.',
@@ -334,7 +374,17 @@ export const malta: Country = {
       },
       {
         year: '1964',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Malta gained independence from Britain while remaining in the Commonwealth.',
           sv: 'Malta blev självständigt från Storbritannien medan han förblev i samväldet.',
@@ -350,7 +400,17 @@ export const malta: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-June and September-November for pleasant weather',
           sv: 'April-juni och september-november för behagligt väder',
@@ -364,7 +424,17 @@ export const malta: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'EU member. Schengen visa rules apply.',
           sv: 'EU-medlem. Schengenvisumregler gäller.',
@@ -378,7 +448,17 @@ export const malta: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Buses connect the islands. Ferries to Gozo and Comino.',
           sv: 'Bussar förbinder öarna. Färjor till Gozo och Comino.',
@@ -392,7 +472,17 @@ export const malta: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Maltese and English. English widely spoken everywhere.',
           sv: 'maltesiska och engelska. Engelska talas allmänt överallt.',
@@ -406,7 +496,17 @@ export const malta: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe. Watch for strong sun and heat in summer.',
           sv: 'Mycket säker. Håll utkik efter stark sol och värme på sommaren.',
@@ -433,7 +533,17 @@ export const malta: Country = {
           nl: 'Megalithische tempels',
           pt: 'Templos megalíticos',
         },
-        year: '3600 BC',
+        year: {
+          en: '3600 BC',
+          sv: '3600 f.Kr.',
+          es: '3600 a. C.',
+          fr: '3600 av. J.-C.',
+          de: '3600 v. Chr.',
+          it: '3600 a.C.',
+          pl: '3600 p.n.e.',
+          nl: '3600 v.Chr.',
+          pt: '3600 a.C.',
+        },
         description: {
           en: 'Built some of the world\'s oldest free-standing structures, older than Stonehenge.',
           sv: 'Byggde några av världens äldsta fristående strukturer, äldre än Stonehenge.',
@@ -458,7 +568,17 @@ export const malta: Country = {
           nl: 'Maritieme uitmuntendheid',
           pt: 'Excelência marítima',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Centuries of maritime expertise made Malta a strategic naval base.',
           sv: 'Århundraden av maritim expertis gjorde Malta till en strategisk flottbas.',
@@ -483,7 +603,17 @@ export const malta: Country = {
           nl: 'Filmindustrieknooppunt',
           pt: 'Centro da indústria cinematográfica',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Malta became a popular filming location with water tanks for maritime scenes.',
           sv: 'Malta blev en populär inspelningsplats med vattentankar för maritima scener.',
@@ -549,7 +679,7 @@ export const malta: Country = {
       {
         name: {
           en: 'Blue Lagoon, Comino',
-          sv: 'Blue Lagoon, Comino',
+          sv: 'Blå lagunen, Comino',
           es: 'Laguna Azul, Comino',
           fr: 'Lagon Bleu, Comino',
           de: 'Blaue Lagune, Comino',
@@ -634,7 +764,7 @@ export const malta: Country = {
       },
       description: {
         en: 'Deep-fried date pastries, a beloved Maltese sweet',
-        sv: 'Friterade dadelbakelser, en älskad maltesisk sötsak',
+        sv: 'Friterade bakelser med dadelfyllning, en omtyckt maltesisk sötsak',
         es: 'Pasteles de dátiles fritos, un dulce muy apreciado por los malteses',
         fr: 'Pâtisseries aux dattes frites, un bonbon maltais bien-aimé',
         de: 'Frittiertes Dattelgebäck, eine beliebte maltesische Süßigkeit',
@@ -661,7 +791,7 @@ export const malta: Country = {
         {
           name: {
             en: 'Pastry dough',
-            sv: 'Konditorivaror',
+            sv: 'Deg',
             es: 'Masa de hojaldre',
             fr: 'Pâte à pâtisserie',
             de: 'Blätterteig',
@@ -676,7 +806,7 @@ export const malta: Country = {
         {
           name: {
             en: 'Date paste',
-            sv: 'Datumklistra',
+            sv: 'Dadelpasta',
             es: 'Pasta de dátil',
             fr: 'Pâte de dattes',
             de: 'Datum einfügen',
@@ -736,7 +866,7 @@ export const malta: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -763,7 +893,7 @@ export const malta: Country = {
         },
         {
           en: 'Roll out pastry dough thin',
-          sv: 'Kavla ut konditorivaror tunt',
+          sv: 'Kavla ut degen tunt',
           es: 'Estirar la masa de hojaldre fina',
           fr: 'Abaisser finement la pâte feuilletée',
           de: 'Den Teig dünn ausrollen',
@@ -785,7 +915,7 @@ export const malta: Country = {
         },
         {
           en: 'Place date mixture on each rectangle',
-          sv: 'Placera dadelblandningen på varje rektangel',
+          sv: 'Lägg dadelblandningen på varje rektangel',
           es: 'Coloque la mezcla de dátiles en cada rectángulo',
           fr: 'Placer le mélange de dattes sur chaque rectangle',
           de: 'Auf jedes Rechteck',
@@ -796,7 +926,7 @@ export const malta: Country = {
         },
         {
           en: 'Fold and seal edges',
-          sv: 'Vik och täta kanter',
+          sv: 'Vik ihop och tryck till kanterna',
           es: 'Doblar y sellar bordes',
           fr: 'Pliez et scellez les bords',
           de: 'die Dattelmischung geben Kanten falten und versiegeln',
@@ -818,7 +948,7 @@ export const malta: Country = {
         },
         {
           en: 'Drain and serve warm or cool',
-          sv: 'Låt rinna av och servera varmt eller svalt',
+          sv: 'Låt rinna av och servera varma eller rumstempererade',
           es: 'Escurrir y servir tibio o frío',
           fr: 'Égoutter et servir tiède ou frais',
           de: 'Abgießen und warm oder kühl servieren',
@@ -845,7 +975,7 @@ export const malta: Country = {
       },
       description: {
         en: 'Traditional Maltese rabbit stew, considered the national dish, slow-cooked in red wine and garlic',
-        sv: 'Traditionell maltesisk kaningryta, som anses vara nationalrätten, långsamt tillagad i rött vin och vitlök',
+        sv: 'Traditionell maltesisk kaningryta som räknas som landets nationalrätt, långkokt med rödvin och vitlök',
         es: 'Tradicional guiso de conejo maltés, considerado el plato nacional, cocinado a fuego lento en vino tinto y ajo',
         fr: 'Ragoût de lapin maltais traditionnel, considéré comme le plat national, mijoté dans du vin rouge et de l\'ail',
         de: 'Traditioneller maltesischer Kanincheneintopf, der als Nationalgericht gilt, langsam in Rotwein und Knoblauch gegart',
@@ -872,7 +1002,7 @@ export const malta: Country = {
         {
           name: {
             en: 'Rabbit (cut into pieces)',
-            sv: 'Kanin (skuren i bitar)',
+            sv: 'Kanin, styckad',
             es: 'Conejo (cortado en trozos)',
             fr: 'Lapin (coupé en morceaux)',
             de: 'Kaninchen (in Stücke geschnitten)',
@@ -887,7 +1017,7 @@ export const malta: Country = {
         {
           name: {
             en: 'Red wine',
-            sv: 'Rött vin',
+            sv: 'Rödvin',
             es: 'Vino tinto',
             fr: 'Vin rouge',
             de: 'Rotwein',
@@ -964,7 +1094,7 @@ export const malta: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1068,7 +1198,7 @@ export const malta: Country = {
       steps: [
         {
           en: 'Marinate rabbit pieces in red wine with garlic for 2 hours',
-          sv: 'Marinera kaninbitar i rött vin med vitlök i 2 timmar',
+          sv: 'Marinera kaninbitarna i rödvin och vitlök i 2 timmar',
           es: 'Marinar los trozos de conejo en vino tinto con ajo durante 2 horas',
           fr: 'Faire mariner les morceaux de lapin dans le vin rouge avec l\'ail pendant 2 heures',
           de: 'Kaninchenstücke 2 Stunden in Rotwein mit Knoblauch marinieren',
@@ -1079,7 +1209,7 @@ export const malta: Country = {
         },
         {
           en: 'Heat olive oil in a large pot, brown rabbit pieces',
-          sv: 'Hetta upp olivolja i en stor gryta, bryn kaninbitar',
+          sv: 'Hetta upp olivoljan i en stor gryta och bryn kaninbitarna',
           es: 'Calentar el aceite de oliva en una olla grande y dorar los trozos de conejo.',
           fr: 'Faites chauffer l\'huile d\'olive dans une grande casserole, faites revenir les morceaux de lapin',
           de: 'Olivenöl in einem großen Topf erhitzen, Kaninchenstücke anbraten',
@@ -1112,7 +1242,7 @@ export const malta: Country = {
         },
         {
           en: 'Pour in the wine marinade and add bay leaves',
-          sv: 'Häll i vinmarinad och tillsätt lagerblad',
+          sv: 'Häll i vinmarinaden och tillsätt lagerbladen',
           es: 'Vierta la marinada de vino y agregue las hojas de laurel',
           fr: 'Versez la marinade au vin et ajoutez les feuilles de laurier',
           de: 'Weinmarinade dazugeben und Lorbeerblätter hinzufügen',
@@ -1123,7 +1253,7 @@ export const malta: Country = {
         },
         {
           en: 'Add water to cover, bring to boil then simmer',
-          sv: 'Tillsätt vatten så att det täcker, koka upp och låt puttra',
+          sv: 'Häll på vatten så att det täcker köttet, koka upp och låt sedan puttra',
           es: 'Agregue agua hasta cubrir, deje hervir y cocine a fuego lento',
           fr: 'Ajouter de l\'eau pour couvrir, porter à ébullition puis laisser mijoter',
           de: 'Mit Wasser bedecken, zum Kochen bringen und dann köcheln lassen',
@@ -1134,7 +1264,7 @@ export const malta: Country = {
         },
         {
           en: 'Cook covered for 1.5 hours until rabbit is tender',
-          sv: 'Koka under lock i 1,5 timme tills kaninen är mjuk',
+          sv: 'Låt puttra under lock i 1,5 timme tills köttet är mört',
           es: 'Cocine tapado durante 1,5 horas hasta que el conejo esté tierno',
           fr: 'Cuire à couvert pendant 1,5 heure jusqu\'à ce que le lapin soit tendre',
           de: 'Zugedeckt 1,5 Stunden kochen, bis das Kaninchen weich ist',
@@ -1145,7 +1275,7 @@ export const malta: Country = {
         },
         {
           en: 'Add peas in the last 15 minutes',
-          sv: 'Lägg till ärter under de senaste 15 minuterna',
+          sv: 'Tillsätt ärterna de sista 15 minuterna',
           es: 'Agrega los guisantes en los últimos 15 minutos',
           fr: 'Ajouter les petits pois dans les 15 dernières minutes',
           de: 'In den letzten 15 Minuten Erbsen hinzufügen',
@@ -1156,7 +1286,7 @@ export const malta: Country = {
         },
         {
           en: 'Season with salt and pepper',
-          sv: 'Krydda med salt och peppar',
+          sv: 'Smaka av med salt och peppar',
           es: 'Sazone con sal y pimienta',
           fr: 'Assaisonner de sel et de poivre',
           de: 'Mit Salz und Pfeffer würzen',
@@ -1167,7 +1297,7 @@ export const malta: Country = {
         },
         {
           en: 'Serve with crusty bread or pasta',
-          sv: 'Servera med knaprigt bröd eller pasta',
+          sv: 'Servera med frasigt bröd eller pasta',
           es: 'Servir con pan crujiente o pasta',
           fr: 'Servir avec du pain croustillant ou des pâtes',
           de: 'Mit knusprigem Brot oder Nudeln servieren',
@@ -1668,7 +1798,7 @@ export const malta: Country = {
           },
           {
             en: 'Knights Hospitaller',
-            sv: 'Knights Hospitaller',
+            sv: 'Johanniterorden',
             es: 'Caballeros Hospitalarios',
             fr: 'Chevaliers Hospitaliers',
             de: 'Johanniter',

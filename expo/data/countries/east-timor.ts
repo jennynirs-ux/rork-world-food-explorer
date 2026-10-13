@@ -220,7 +220,17 @@ export const eastTimor: Country = {
     history: [
       {
         year: '1515',
-        title: 'Portuguese Arrival',
+        title: {
+          en: 'Portuguese Arrival',
+          sv: 'Portugiserna anländer',
+          es: 'Llegada de los portugueses',
+          fr: 'Arrivée des Portugais',
+          de: 'Ankunft der Portugiesen',
+          it: 'Arrivo dei portoghesi',
+          pl: 'Przybycie Portugalczyków',
+          nl: 'Aankomst van de Portugezen',
+          pt: 'Chegada dos portugueses',
+        },
         description: {
           en: 'Portuguese traders arrived, beginning centuries of colonial influence.',
           sv: 'Portugisiska handlare anlände och började århundraden av kolonialt inflytande.',
@@ -235,7 +245,17 @@ export const eastTimor: Country = {
       },
       {
         year: '1975',
-        title: 'Indonesian Invasion',
+        title: {
+          en: 'Indonesian Invasion',
+          sv: 'Indonesiens invasion',
+          es: 'Invasión indonesia',
+          fr: 'Invasion indonésienne',
+          de: 'Indonesische Invasion',
+          it: 'Invasione indonesiana',
+          pl: 'Inwazja indonezyjska',
+          nl: 'Indonesische invasie',
+          pt: 'Invasão indonésia',
+        },
         description: {
           en: 'Indonesia invaded after Portugal withdrew, beginning 24 years of occupation.',
           sv: 'Indonesien invaderade efter att Portugal drog sig tillbaka och började 24 år av ockupation.',
@@ -250,7 +270,17 @@ export const eastTimor: Country = {
       },
       {
         year: '2002',
-        title: 'Independence Achieved',
+        title: {
+          en: 'Independence Achieved',
+          sv: 'Full självständighet',
+          es: 'Independencia lograda',
+          fr: 'Indépendance acquise',
+          de: 'Erlangung der Unabhängigkeit',
+          it: 'Indipendenza raggiunta',
+          pl: 'Uzyskanie niepodległości',
+          nl: 'Onafhankelijkheid bereikt',
+          pt: 'Independência conquistada',
+        },
         description: {
           en: 'East Timor became the first new sovereign state of the 21st century.',
           sv: 'Östtimor blev 2000-talets första nya suveräna stat.',
@@ -292,7 +322,7 @@ export const eastTimor: Country = {
       {
         name: {
           en: 'Atauro Island',
-          sv: 'Atauro Island',
+          sv: 'Atauroön',
           es: 'Isla Atauro',
           fr: 'Île d\'Atauro',
           de: 'Insel Atauro',
@@ -340,7 +370,7 @@ export const eastTimor: Country = {
       {
         name: {
           en: 'Jaco Island',
-          sv: 'Jaco Island',
+          sv: 'Jacoön',
           es: 'Isla Jacó',
           fr: 'Île de Jaco',
           de: 'Jaco-Insel',
@@ -364,7 +394,7 @@ export const eastTimor: Country = {
       {
         name: {
           en: 'Tais Market',
-          sv: 'Tais Market',
+          sv: 'Taismarknaden',
           es: 'Mercado de Tais',
           fr: 'Marché Tais',
           de: 'Tais-Markt',
@@ -388,7 +418,17 @@ export const eastTimor: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-November for dry season. December-April is wet season.',
           sv: 'Maj-november för torrperioden. December-april är den våta säsongen.',
@@ -402,7 +442,17 @@ export const eastTimor: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Available on arrival for most nationalities at Dili airport.',
           sv: 'Tillgängligt vid ankomst för de flesta nationaliteter på Dili flygplats.',
@@ -416,7 +466,17 @@ export const eastTimor: Country = {
         },
       },
       {
-        item: 'US Dollars',
+        item: {
+          en: 'US Dollars',
+          sv: 'Amerikanska dollar',
+          es: 'Dólares estadounidenses',
+          fr: 'Dollars américains',
+          de: 'US-Dollar',
+          it: 'Dollari statunitensi',
+          pl: 'Dolary amerykańskie',
+          nl: 'Amerikaanse dollars',
+          pt: 'Dólares americanos',
+        },
         description: {
           en: 'Bring cash as ATMs are limited outside Dili.',
           sv: 'Ta med kontanter eftersom uttagsautomater är begränsade utanför Dili.',
@@ -430,7 +490,17 @@ export const eastTimor: Country = {
         },
       },
       {
-        item: 'Basic Portuguese',
+        item: {
+          en: 'Basic Portuguese',
+          sv: 'Grundläggande portugisiska',
+          es: 'Portugués básico',
+          fr: 'Notions de portugais',
+          de: 'Grundkenntnisse in Portugiesisch',
+          it: 'Portoghese di base',
+          pl: 'Podstawy portugalskiego',
+          nl: 'Basiskennis Portugees',
+          pt: 'Português básico',
+        },
         description: {
           en: 'Helpful, though Tetum and Indonesian also spoken.',
           sv: 'Hjälpsamt, även om Tetum och indonesiska också talas.',
@@ -458,10 +528,10 @@ export const eastTimor: Country = {
     mainDish: {
       id: 'east-timor-main',
       name: {
-        en: 'Batar Da\'an',
+        en: 'Ikan Pepes',
         sv: 'Ikan Pepes',
-        es: 'Ikán Pepes',
-        fr: 'Ikan Pépés',
+        es: 'Ikan Pepes',
+        fr: 'Ikan Pepes',
         de: 'Ikan Pepes',
         it: 'Ikan Pepes',
         pl: 'Ikan Pepes',
@@ -469,15 +539,15 @@ export const eastTimor: Country = {
         pt: 'Ikan Pepes',
       },
       description: {
-        en: 'A hearty Timorese stew of corn and mung beans with pumpkin and coconut milk, a staple comfort dish of East Timor.',
+        en: 'Fish grilled in banana leaves with spices',
         sv: 'Fisk grillad i bananblad med kryddor',
         es: 'Pescado asado en hojas de plátano con especias',
         fr: 'Poisson grillé dans des feuilles de bananier aux épices',
         de: 'In Bananenblättern gegrillter Fisch mit Gewürzen',
-        it: 'Fish grilled in banana leaves with spices',
-        pl: 'Fish grilled in banana leaves with spices',
-        nl: 'Fish grilled in banana leaves with spices',
-        pt: 'Fish grilled in banana leaves with spices',
+        it: 'Pesce speziato grigliato in foglie di banano',
+        pl: 'Ryba z przyprawami grillowana w liściach bananowca',
+        nl: 'Gekruide vis gegrild in bananenbladeren',
+        pt: 'Peixe temperado grelhado em folhas de bananeira',
       },
       cookingTime: 40,
       difficulty: 'medium',
@@ -504,7 +574,7 @@ export const eastTimor: Country = {
             it: 'Pesce intero o filetti',
             pl: 'Cała ryba lub filety',
             nl: 'Hele vis of filets',
-            pt: 'Peixe inteiro ou filetes',
+            pt: 'Peixe inteiro ou filés',
           },
           amount: 600,
           unit: 'g',
@@ -513,7 +583,7 @@ export const eastTimor: Country = {
           name: {
             en: 'Banana leaves',
             sv: 'Bananblad',
-            es: 'hojas de platano',
+            es: 'Hojas de plátano',
             fr: 'Feuilles de bananier',
             de: 'Bananenblätter',
             it: 'Foglie di banano',
@@ -524,7 +594,7 @@ export const eastTimor: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -549,7 +619,7 @@ export const eastTimor: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -599,7 +669,7 @@ export const eastTimor: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -619,7 +689,7 @@ export const eastTimor: Country = {
             it: 'Curcuma',
             pl: 'Kurkuma',
             nl: 'Kurkuma',
-            pt: 'Curcuma',
+            pt: 'Cúrcuma',
           },
           amount: 1,
           unit: { en: 'tsp', sv: 'tsk', de: 'TL', fr: 'c. à café', es: 'cucharadita', it: 'cucchiaini', pl: 'łyżeczki', nl: 'tl', pt: 'colheres de chá' },
@@ -689,7 +759,7 @@ export const eastTimor: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -703,29 +773,29 @@ export const eastTimor: Country = {
       steps: [
         {
           en: 'Make spice paste with shallots, garlic, chilies, turmeric',
-          sv: 'Gör kryddpasta med schalottenlök, vitlök, chili, gurkmeja',
-          es: 'Haga pasta de especias con chalotas, ajo, chiles y cúrcuma',
+          sv: 'Mixa en kryddpasta av schalottenlök, vitlök, chili och gurkmeja',
+          es: 'Prepare una pasta de especias con chalotas, ajo, chiles y cúrcuma',
           fr: 'Préparez une pâte d\'épices avec des échalotes, de l\'ail, des piments, du curcuma',
           de: 'Gewürzpaste aus Schalotten, Knoblauch, Chilis und Kurkuma herstellen',
           it: 'Preparare una pasta di spezie con scalogno, aglio, peperoncini e curcuma',
           pl: 'Przygotować pastę z szalotek, czosnku, papryczek chili i kurkumy',
           nl: 'Maak een kruidenpasta van sjalotten, knoflook, chilipepers en kurkuma',
-          pt: 'Prepare uma pasta de temperos com chalotas, alho, pimentas e curcuma',
+          pt: 'Prepare uma pasta de temperos com chalotas, alho, pimentas e cúrcuma',
         },
         {
           en: 'Rub fish with spice paste and lime juice',
-          sv: 'Gnid in fisken med kryddpasta och limejuice',
+          sv: 'Gnid in fisken med kryddpastan och limejuicen',
           es: 'Frote el pescado con pasta de especias y jugo de lima',
           fr: 'Frotter le poisson avec de la pâte d\'épices et du jus de citron vert',
           de: 'Fisch mit Gewürzpaste und Limettensaft einreiben',
           it: 'Massaggiare il pesce con la pasta di spezie e succo di lime',
           pl: 'Natrzeć rybę pastą z przypraw i sokiem z limonki',
           nl: 'Wrijf de vis in met de kruidenpasta en limoensap',
-          pt: 'Esfregue o peixe com a pasta de temperos e sumo de lima',
+          pt: 'Esfregue o peixe com a pasta de temperos e suco de limão',
         },
         {
           en: 'Place lemongrass and tomato slices on fish',
-          sv: 'Lägg citrongräs och tomatskivor på fisk',
+          sv: 'Lägg citrongräs och tomatskivor på fisken',
           es: 'Coloque rodajas de limoncillo y tomate sobre el pescado',
           fr: 'Placer les tranches de citronnelle et de tomate sur le poisson',
           de: 'Zitronengras und Tomatenscheiben auf den Fisch legen',
@@ -747,25 +817,25 @@ export const eastTimor: Country = {
         },
         {
           en: 'Secure with toothpicks or string',
-          sv: 'Säkra med tandpetare eller snöre',
+          sv: 'Fäst med tandpetare eller snöre',
           es: 'Asegúrelo con palillos o hilo',
           fr: 'Fixez avec des cure-dents ou de la ficelle',
           de: 'Mit Zahnstochern oder einer Schnur befestigen',
           it: 'Fissare con stuzzicadenti o spago',
-          pl: 'Zabezpieczyć wykałaczkami lub sznurkiem',
+          pl: 'Spiąć wykałaczkami lub związać sznurkiem',
           nl: 'Zet vast met prikkers of touw',
-          pt: 'Prenda com palitos ou cordel',
+          pt: 'Prenda com palitos ou barbante',
         },
         {
           en: 'Grill over charcoal or bake for 30 minutes',
-          sv: 'Grilla över kol eller grädda i 30 minuter',
+          sv: 'Grilla över kol eller tillaga i ugnen i 30 minuter',
           es: 'Ase a la parrilla sobre carbón u hornee por 30 minutos',
           fr: 'Griller sur du charbon de bois ou cuire au four pendant 30 minutes',
-          de: 'Über Holzkohle grillen oder 30 Minuten backen',
+          de: 'Über Holzkohle grillen oder 30 Minuten im Ofen garen',
           it: 'Grigliare sulla brace o cuocere in forno per 30 minuti',
           pl: 'Grillować na węglu drzewnym lub piec przez 30 minut',
           nl: 'Grill boven houtskool of bak 30 minuten in de oven',
-          pt: 'Grelhe no carvão ou asse por 30 minutos',
+          pt: 'Grelhe no carvão ou asse no forno por 30 minutos',
         },
         {
           en: 'Serve hot with rice',
@@ -780,14 +850,14 @@ export const eastTimor: Country = {
         },
         {
           en: 'Unwrap at the table for aromatic effect',
-          sv: 'Packa upp vid bordet för aromatisk effekt',
-          es: 'Desenvolver en la mesa para un efecto aromático.',
-          fr: 'Déballer à table pour un effet aromatique',
-          de: 'Für eine aromatische Wirkung am Tisch auspacken',
-          it: 'Aprire a tavola per un effetto aromatico',
-          pl: 'Rozwinąć przy stole dla aromatycznego efektu',
-          nl: 'Pak het aan tafel uit voor een aromatisch effect',
-          pt: 'Desembrulhe à mesa para um efeito aromático',
+          sv: 'Öppna paketen vid bordet så att doften sprids',
+          es: 'Desenvuélvalo en la mesa para liberar todo el aroma',
+          fr: 'Ouvrir les papillotes à table pour libérer les arômes',
+          de: 'Erst am Tisch auspacken, damit sich das Aroma entfaltet',
+          it: 'Aprire i cartocci a tavola per sprigionare tutto l\'aroma',
+          pl: 'Rozwinąć przy stole, aby uwolnić pełnię aromatu',
+          nl: 'Pak de vis pas aan tafel uit, zodat het aroma vrijkomt',
+          pt: 'Desembrulhe à mesa para liberar todo o aroma',
         },
       ],
       imageUrl: 'https://images.pexels.com/photos/33800819/pexels-photo-33800819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
@@ -807,7 +877,7 @@ export const eastTimor: Country = {
       },
       description: {
         en: 'Portuguese-influenced coconut rice cake',
-        sv: 'Portugisisk-influerad kokosriskaka',
+        sv: 'Kokoskaka på rismjöl med portugisiska influenser',
         es: 'Pastel de arroz con coco con influencia portuguesa',
         fr: 'Gâteau de riz à la noix de coco d\'influence portugaise',
         de: 'Portugiesisch beeinflusster Kokosnuss-Reiskuchen',
@@ -891,7 +961,7 @@ export const eastTimor: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -904,7 +974,7 @@ export const eastTimor: Country = {
         {
           name: {
             en: 'Butter melted',
-            sv: 'Smör smält',
+            sv: 'Smör, smält',
             es: 'Mantequilla derretida',
             fr: 'Beurre fondu',
             de: 'Butter geschmolzen',
@@ -919,7 +989,7 @@ export const eastTimor: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -946,7 +1016,7 @@ export const eastTimor: Country = {
         },
         {
           en: 'Beat in eggs and sugar',
-          sv: 'Vispa i ägg och socker',
+          sv: 'Vispa ner ägg och socker',
           es: 'Batir los huevos y el azúcar',
           fr: 'Incorporer les œufs et le sucre',
           de: 'Eier und Zucker unterrühren',
@@ -968,7 +1038,7 @@ export const eastTimor: Country = {
         },
         {
           en: 'Pour into greased pan',
-          sv: 'Häll i smord form',
+          sv: 'Häll smeten i en smord form',
           es: 'Vierta en un molde engrasado',
           fr: 'Verser dans un moule graissé',
           de: 'In eine gefettete Pfanne gießen',
@@ -1001,7 +1071,7 @@ export const eastTimor: Country = {
         },
         {
           en: 'Cool before slicing',
-          sv: 'Kyl innan du skär',
+          sv: 'Låt svalna innan du skär upp kakan',
           es: 'Dejar enfriar antes de cortar',
           fr: 'Laisser refroidir avant de trancher',
           de: 'Vor dem Schneiden abkühlen',
@@ -1069,7 +1139,17 @@ export const eastTimor: Country = {
           nl: 'Uitmuntende biologische koffie',
           pt: 'Excelência em Café Orgânico',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Producing some of the world\'s finest organic, shade-grown coffee',
           sv: 'Producerar något av världens finaste ekologiska, skuggodlade kaffe',
@@ -1094,7 +1174,17 @@ export const eastTimor: Country = {
           nl: 'Tais-weverij',
           pt: 'Tecelagem Tais',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Traditional textile weaving techniques passed through generations',
           sv: 'Traditionella textilvävningstekniker passerade genom generationer',
@@ -1119,7 +1209,17 @@ export const eastTimor: Country = {
           nl: 'Mariene bescherming',
           pt: 'Conservação Marinha',
         },
-        year: '2010s',
+        year: {
+          en: '2010s',
+          sv: '2010-talet',
+          es: 'Década de 2010',
+          fr: 'Années 2010',
+          de: '2010er',
+          it: 'Anni 2010',
+          pl: 'Lata 2010.',
+          nl: 'Jaren 2010',
+          pt: 'Década de 2010',
+        },
         description: {
           en: 'Establishing coral triangle marine protected areas',
           sv: 'Inrättande av koralltriangeln marina skyddade områden',
@@ -1476,7 +1576,7 @@ export const eastTimor: Country = {
         options: [
           {
             en: 'Mount Kinabalu',
-            sv: 'Mount Kinabalu',
+            sv: 'Berget Kinabalu',
             es: 'Monte Kinabalu',
             fr: 'Mont Kinabalu',
             de: 'Berg Kinabalu',
@@ -1498,7 +1598,7 @@ export const eastTimor: Country = {
           },
           {
             en: 'Mount Fuji',
-            sv: 'Mount Fuji',
+            sv: 'Berget Fuji',
             es: 'Monte Fuji',
             fr: 'Mont Fuji',
             de: 'Berg Fuji',
@@ -1509,7 +1609,7 @@ export const eastTimor: Country = {
           },
           {
             en: 'Mount Apo',
-            sv: 'Mount Apo',
+            sv: 'Berget Apo',
             es: 'Monte Apo',
             fr: 'Mont Apo',
             de: 'Berg Apo',

@@ -263,8 +263,28 @@ export const india: Country = {
     },
     history: [
       {
-        year: '2500 BC',
-        title: 'Indus Valley Civilization',
+        year: {
+          en: '2500 BC',
+          sv: '2500 f.Kr.',
+          es: '2500 a. C.',
+          fr: '2500 av. J.-C.',
+          de: '2500 v. Chr.',
+          it: '2500 a.C.',
+          pl: '2500 p.n.e.',
+          nl: '2500 v.Chr.',
+          pt: '2500 a.C.',
+        },
+        title: {
+          en: 'Indus Valley Civilization',
+          sv: 'Induskulturen',
+          es: 'Civilización del valle del Indo',
+          fr: 'Civilisation de la vallée de l\'Indus',
+          de: 'Indus-Kultur',
+          it: 'Civiltà della valle dell\'Indo',
+          pl: 'Cywilizacja doliny Indusu',
+          nl: 'Indusbeschaving',
+          pt: 'Civilização do vale do Indo',
+        },
         description: {
           en: 'One of the world\'s oldest urban civilizations flourished in the Indus River valley.',
           sv: 'En av världens äldsta urbana civilisationer blomstrade i Indusflodens dalgång.',
@@ -278,8 +298,28 @@ export const india: Country = {
         },
       },
       {
-        year: '322 BC - 500 AD',
-        title: 'Classical Period',
+        year: {
+          en: '322 BC - 500 AD',
+          sv: '322 f.Kr. – 500 e.Kr.',
+          es: '322 a. C. – 500 d. C.',
+          fr: '322 av. J.-C. – 500 apr. J.-C.',
+          de: '322 v. Chr. – 500 n. Chr.',
+          it: '322 a.C. – 500 d.C.',
+          pl: '322 p.n.e. – 500 n.e.',
+          nl: '322 v.Chr. – 500 n.Chr.',
+          pt: '322 a.C. – 500 d.C.',
+        },
+        title: {
+          en: 'Classical Period',
+          sv: 'Klassiska perioden',
+          es: 'Período clásico',
+          fr: 'Période classique',
+          de: 'Klassische Zeit',
+          it: 'Periodo classico',
+          pl: 'Okres klasyczny',
+          nl: 'Klassieke periode',
+          pt: 'Período clássico',
+        },
         description: {
           en: 'Great empires like Maurya and Gupta ruled, ushering in a golden age of art, literature, and science.',
           sv: 'Stora imperier som Maurya och Gupta styrde och inledde en guldålder av konst, litteratur och vetenskap.',
@@ -294,7 +334,17 @@ export const india: Country = {
       },
       {
         year: '1526-1857',
-        title: 'Mughal Empire',
+        title: {
+          en: 'Mughal Empire',
+          sv: 'Mogulriket',
+          es: 'Imperio mogol',
+          fr: 'Empire moghol',
+          de: 'Mogulreich',
+          it: 'Impero moghul',
+          pl: 'Imperium Wielkich Mogołów',
+          nl: 'Mogolrijk',
+          pt: 'Império Mogol',
+        },
         description: {
           en: 'Muslim rulers created magnificent architecture like the Taj Mahal and enriched Indian culture.',
           sv: 'Muslimska härskare skapade magnifik arkitektur som Taj Mahal och berikade den indiska kulturen.',
@@ -308,8 +358,28 @@ export const india: Country = {
         },
       },
       {
-        year: '1947-Present',
-        title: 'Independent India',
+        year: {
+          en: '1947-Present',
+          sv: '1947–idag',
+          es: '1947–actualidad',
+          fr: '1947–aujourd\'hui',
+          de: '1947–heute',
+          it: '1947–oggi',
+          pl: '1947–obecnie',
+          nl: '1947–heden',
+          pt: '1947–presente',
+        },
+        title: {
+          en: 'Independent India',
+          sv: 'Det självständiga Indien',
+          es: 'India independiente',
+          fr: 'Inde indépendante',
+          de: 'Unabhängiges Indien',
+          it: 'India indipendente',
+          pl: 'Niepodległe Indie',
+          nl: 'Onafhankelijk India',
+          pt: 'Índia independente',
+        },
         description: {
           en: 'After centuries of British rule, India gained independence and became the world\'s largest democracy.',
           sv: 'Efter århundraden av brittiskt styre fick Indien självständighet och blev världens största demokrati.',
@@ -336,7 +406,17 @@ export const india: Country = {
           nl: 'Nul',
           pt: 'Zero',
         },
-        year: '5th Century',
+        year: {
+          en: '5th Century',
+          sv: '400-talet',
+          es: 'siglo V',
+          fr: 'Ve siècle',
+          de: '5. Jahrhundert',
+          it: 'V secolo',
+          pl: 'V wiek',
+          nl: '5e eeuw',
+          pt: 'século V',
+        },
         description: {
           en: 'Indian mathematicians invented the concept of zero and the decimal system.',
           sv: 'Indiska matematiker uppfann begreppet noll och decimalsystemet.',
@@ -361,7 +441,17 @@ export const india: Country = {
           nl: 'Ayurveda',
           pt: 'Ayurveda',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Traditional system of medicine practiced for over 3,000 years.',
           sv: 'Traditionellt system för medicin som praktiserats i över 3 000 år.',
@@ -411,7 +501,17 @@ export const india: Country = {
           nl: 'Glasvezel',
           pt: 'Fibra óptica',
         },
-        year: '1950s',
+        year: {
+          en: '1950s',
+          sv: '1950-talet',
+          es: 'Década de 1950',
+          fr: 'Années 1950',
+          de: '1950er',
+          it: 'Anni \'50',
+          pl: 'Lata 50.',
+          nl: 'Jaren 50',
+          pt: 'Década de 1950',
+        },
         description: {
           en: 'Indian physicist Narinder Singh Kapany pioneered fiber optic technology.',
           sv: 'Den indiske fysikern Narinder Singh Kapany var pionjär inom fiberoptisk teknik.',
@@ -501,7 +601,7 @@ export const india: Country = {
       {
         name: {
           en: 'Kerala Backwaters',
-          sv: 'Kerala Backwaters',
+          sv: 'Keralas backwaters',
           es: 'Remansos de Kerala',
           fr: 'Les Backwaters du Kerala',
           de: 'Kerala Backwaters',
@@ -549,7 +649,17 @@ export const india: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October-March for most regions; avoid monsoon season (June-September).',
           sv: 'Oktober-mars för de flesta regioner; undvik monsunsäsongen (juni-september).',
@@ -563,7 +673,17 @@ export const india: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Cover shoulders and knees, especially at religious sites.',
           sv: 'Täck axlar och knän, särskilt på religiösa platser.',
@@ -577,7 +697,17 @@ export const india: Country = {
         },
       },
       {
-        item: 'Stomach medication',
+        item: {
+          en: 'Stomach medication',
+          sv: 'Magmedicin',
+          es: 'Medicamentos para el estómago',
+          fr: 'Médicaments pour l\'estomac',
+          de: 'Magenmittel',
+          it: 'Farmaci per lo stomaco',
+          pl: 'Leki na żołądek',
+          nl: 'Maagmedicijnen',
+          pt: 'Remédios para o estômago',
+        },
         description: {
           en: 'Prepare for different food and water; drink only bottled water.',
           sv: 'Förbered dig på olika mat och vatten; drick bara vatten på flaska.',
@@ -591,7 +721,17 @@ export const india: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'ATMs available but cards not accepted everywhere.',
           sv: 'Uttagsautomater tillgängliga men kort accepteras inte överallt.',
@@ -605,7 +745,17 @@ export const india: Country = {
         },
       },
       {
-        item: 'Scarf or shawl',
+        item: {
+          en: 'Scarf or shawl',
+          sv: 'Sjal eller scarf',
+          es: 'Pañuelo o chal',
+          fr: 'Foulard ou châle',
+          de: 'Tuch oder Schal',
+          it: 'Foulard o scialle',
+          pl: 'Szal lub chusta',
+          nl: 'Sjaal of omslagdoek',
+          pt: 'Lenço ou xale',
+        },
         description: {
           en: 'Useful for temple visits and as protection from sun.',
           sv: 'Användbar för tempelbesök och som skydd mot solen.',
@@ -619,7 +769,17 @@ export const india: Country = {
         },
       },
       {
-        item: 'Patience',
+        item: {
+          en: 'Patience',
+          sv: 'Tålamod',
+          es: 'Paciencia',
+          fr: 'Patience',
+          de: 'Geduld',
+          it: 'Pazienza',
+          pl: 'Cierpliwość',
+          nl: 'Geduld',
+          pt: 'Paciência',
+        },
         description: {
           en: 'India can be chaotic; embrace the experience with an open mind.',
           sv: 'Indien kan vara kaotiskt; omfamna upplevelsen med ett öppet sinne.',
@@ -720,7 +880,7 @@ export const india: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -747,7 +907,7 @@ export const india: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -760,7 +920,7 @@ export const india: Country = {
         {
           name: {
             en: 'Ginger-garlic paste',
-            sv: 'Ingefära-vitlökspasta',
+            sv: 'Ingefärs- och vitlökspasta',
             es: 'Pasta de jengibre y ajo',
             fr: 'Pâte gingembre-ail',
             de: 'Ingwer-Knoblauch-Paste',
@@ -800,7 +960,7 @@ export const india: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -815,7 +975,7 @@ export const india: Country = {
         {
           name: {
             en: 'Coriander',
-            sv: 'Koriander',
+            sv: 'Malen koriander',
             es: 'Cilantro',
             fr: 'Coriandre',
             de: 'Koriander',
@@ -846,7 +1006,7 @@ export const india: Country = {
       steps: [
         {
           en: 'Marinate chicken in yogurt, ginger-garlic, and spices for 2 hours',
-          sv: 'Marinera kyckling i yoghurt, ingefära-vitlök och kryddor i 2 timmar',
+          sv: 'Marinera kycklingen i yoghurt, ingefärs- och vitlökspasta och kryddor i 2 timmar',
           es: 'Marinar el pollo en yogur, jengibre, ajo y especias durante 2 horas',
           fr: 'Faire mariner le poulet dans le yaourt, le gingembre, l\'ail et les épices pendant 2 heures',
           de: 'Hähnchen in Joghurt, Ingwer-Knoblauch und Gewürzen 2 Stunden lang marinieren',
@@ -857,7 +1017,7 @@ export const india: Country = {
         },
         {
           en: 'Grill or broil chicken until charred edges form',
-          sv: 'Grilla eller stek kyckling tills förkolnade kanter bildas',
+          sv: 'Grilla kycklingen på grillen eller i ugnen tills kanterna är lätt svedda',
           es: 'Ase o ase el pollo hasta que se formen bordes carbonizados',
           fr: 'Griller ou griller le poulet jusqu\'à ce que des bords carbonisés se forment',
           de: 'Hähnchen grillen oder grillen, bis sich verkohlte Ränder bilden',
@@ -868,7 +1028,7 @@ export const india: Country = {
         },
         {
           en: 'Sauté onions in butter until golden',
-          sv: 'Fräs lök i smör tills de är gyllene',
+          sv: 'Fräs löken i smör tills den är gyllene',
           es: 'Saltee las cebollas en mantequilla hasta que estén doradas',
           fr: 'Faire revenir les oignons dans le beurre jusqu\'à ce qu\'ils soient dorés',
           de: 'Zwiebeln in Butter goldbraun anbraten',
@@ -879,7 +1039,7 @@ export const india: Country = {
         },
         {
           en: 'Add ginger-garlic paste, cook until fragrant',
-          sv: 'Tillsätt ingefära-vitlökspasta, koka tills det doftar',
+          sv: 'Tillsätt ingefärs- och vitlökspastan och fräs tills det doftar',
           es: 'Agregue la pasta de jengibre y ajo y cocine hasta que esté fragante',
           fr: 'Ajouter la pâte gingembre-ail, cuire jusqu\'à ce qu\'elle soit parfumée',
           de: 'Ingwer-Knoblauch-Paste hinzufügen und kochen, bis es duftet',
@@ -890,7 +1050,7 @@ export const india: Country = {
         },
         {
           en: 'Add tomato puree and spices, cook for 10 minutes',
-          sv: 'Tillsätt tomatpuré och kryddor, koka i 10 minuter',
+          sv: 'Tillsätt tomatpuré och kryddor och låt puttra i 10 minuter',
           es: 'Agrega el puré de tomate y las especias, cocina por 10 minutos',
           fr: 'Ajouter le concentré de tomates et les épices, cuire 10 minutes',
           de: 'Tomatenpüree und Gewürze hinzufügen, 10 Minuten kochen lassen',
@@ -912,7 +1072,7 @@ export const india: Country = {
         },
         {
           en: 'Cut chicken into bite-size pieces, add to sauce',
-          sv: 'Skär kycklingen i lagom stora bitar, lägg till såsen',
+          sv: 'Skär kycklingen i lagom stora bitar och lägg ner dem i såsen',
           es: 'Corte el pollo en trozos pequeños y agréguelo a la salsa',
           fr: 'Couper le poulet en bouchées et l\'ajouter à la sauce',
           de: 'Hähnchen in mundgerechte Stücke schneiden, zur Soße geben',
@@ -934,7 +1094,7 @@ export const india: Country = {
         },
         {
           en: 'Garnish with cilantro',
-          sv: 'Garnera med koriander',
+          sv: 'Garnera med färsk koriander',
           es: 'Adorne con cilantro',
           fr: 'Garnir de coriandre',
           de: 'Mit Koriander garnieren',
@@ -972,7 +1132,7 @@ export const india: Country = {
       },
       description: {
         en: 'Sweet milk-solid dumplings soaked in rose-flavored sugar syrup',
-        sv: 'Söta mjölkfasta klimpar indränkta i sockersirap med rosmak',
+        sv: 'Söta bollar av mjölkpulver indränkta i sockerlag smaksatt med rosenvatten',
         es: 'Empanadillas dulces de leche empapadas en almíbar de azúcar con sabor a rosas',
         fr: 'Dumplings sucrés au lait solide imbibés de sirop de sucre à la rose',
         de: 'Süße, milchfeste Knödel, eingeweicht in Zuckersirup mit Rosengeschmack',
@@ -1014,7 +1174,7 @@ export const india: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1029,7 +1189,7 @@ export const india: Country = {
         {
           name: {
             en: 'Baking soda',
-            sv: 'Bakpulver',
+            sv: 'Bikarbonat',
             es: 'Bicarbonato',
             fr: 'Bicarbonate de soude',
             de: 'Backpulver',
@@ -1104,7 +1264,7 @@ export const india: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -1119,7 +1279,7 @@ export const india: Country = {
         {
           name: {
             en: 'Ghee for frying',
-            sv: 'Ghee för stekning',
+            sv: 'Ghee till stekning',
             es: 'Manteca para freír',
             fr: 'Ghee pour la friture',
             de: 'Ghee zum Braten',
@@ -1135,7 +1295,7 @@ export const india: Country = {
       steps: [
         {
           en: 'Make syrup: boil sugar and water until slightly thick',
-          sv: 'Gör sirap: koka socker och vatten tills det blir lite tjockt',
+          sv: 'Gör sockerlagen: koka socker och vatten tills det tjocknar något',
           es: 'Hacer almíbar: hervir el azúcar y el agua hasta que espese un poco',
           fr: 'Préparez le sirop : faites bouillir le sucre et l\'eau jusqu\'à ce qu\'ils soient légèrement épais',
           de: 'Sirup zubereiten: Zucker und Wasser aufkochen, bis sie leicht dickflüssig sind',
@@ -1146,7 +1306,7 @@ export const india: Country = {
         },
         {
           en: 'Add rose water and cardamom, keep warm',
-          sv: 'Tillsätt rosenvatten och kardemumma, håll varmt',
+          sv: 'Tillsätt rosenvatten och kardemumma och håll lagen varm',
           es: 'Agregue agua de rosas y cardamomo, manténgalo caliente',
           fr: 'Ajouter l\'eau de rose et la cardamome, réserver au chaud',
           de: 'Rosenwasser und Kardamom hinzufügen, warm halten',
@@ -1157,7 +1317,7 @@ export const india: Country = {
         },
         {
           en: 'Mix milk powder, flour, and baking soda',
-          sv: 'Blanda mjölkpulver, mjöl och bakpulver',
+          sv: 'Blanda mjölkpulver, vetemjöl och bikarbonat',
           es: 'Mezcla leche en polvo, harina y bicarbonato de sodio',
           fr: 'Mélanger le lait en poudre, la farine et le bicarbonate de soude',
           de: 'Milchpulver, Mehl und Backpulver vermischen',
@@ -1168,7 +1328,7 @@ export const india: Country = {
         },
         {
           en: 'Add milk gradually to form soft dough',
-          sv: 'Tillsätt mjölk gradvis för att bilda en mjuk deg',
+          sv: 'Tillsätt mjölken lite i taget och arbeta ihop till en mjuk deg',
           es: 'Agrega la leche poco a poco hasta formar una masa suave',
           fr: 'Ajouter le lait progressivement pour former une pâte molle',
           de: 'Nach und nach Milch hinzufügen, bis ein weicher Teig entsteht',
@@ -1179,7 +1339,7 @@ export const india: Country = {
         },
         {
           en: 'Divide into small balls, roll smooth without cracks',
-          sv: 'Dela i små bollar, rulla slät utan sprickor',
+          sv: 'Dela degen i små bitar och rulla till släta bollar utan sprickor',
           es: 'Dividir en bolitas y extenderlas hasta obtener una textura suave y sin grietas',
           fr: 'Divisez en petites boules, roulez doucement sans fissures',
           de: 'In kleine Kugeln teilen, glatt rollen, ohne Risse',
@@ -1190,7 +1350,7 @@ export const india: Country = {
         },
         {
           en: 'Heat ghee to medium temperature',
-          sv: 'Värm ghee till medeltemperatur',
+          sv: 'Hetta upp gheen på medelvärme',
           es: 'Calienta el ghee a temperatura media',
           fr: 'Chauffer le ghee à température moyenne',
           de: 'Ghee auf mittlere Temperatur erhitzen',
@@ -1201,7 +1361,7 @@ export const india: Country = {
         },
         {
           en: 'Fry balls on low heat until golden brown',
-          sv: 'Stek bollar på låg värme tills de är gyllenbruna',
+          sv: 'Fritera bollarna på låg värme tills de är gyllenbruna',
           es: 'Freír las bolitas a fuego lento hasta que estén doradas',
           fr: 'Faire frire les boules à feu doux jusqu\'à ce qu\'elles soient dorées',
           de: 'Bällchen bei schwacher Hitze goldbraun braten',
@@ -1212,7 +1372,7 @@ export const india: Country = {
         },
         {
           en: 'Drain and immediately immerse in warm syrup',
-          sv: 'Häll av och sänk omedelbart i varm sirap',
+          sv: 'Låt rinna av och lägg dem genast i den varma sockerlagen',
           es: 'Escurrir y sumergir inmediatamente en almíbar tibio',
           fr: 'Égoutter et plonger immédiatement dans le sirop tiède',
           de: 'Abgießen und sofort in warmen Sirup tauchen',
@@ -1223,7 +1383,7 @@ export const india: Country = {
         },
         {
           en: 'Soak for at least 2 hours',
-          sv: 'Blötlägg i minst 2 timmar',
+          sv: 'Låt dra i minst 2 timmar',
           es: 'Remojar durante al menos 2 horas',
           fr: 'Faire tremper pendant au moins 2 heures',
           de: 'Mindestens 2 Stunden einweichen',
@@ -1574,7 +1734,7 @@ export const india: Country = {
           },
           {
             en: 'Bengal Tiger',
-            sv: 'Bengal Tiger',
+            sv: 'Bengalisk tiger',
             es: 'Tigre de Bengala',
             fr: 'Tigre du Bengale',
             de: 'Bengalischer Tiger',

@@ -264,7 +264,17 @@ export const brazil: Country = {
     history: [
       {
         year: '1500',
-        title: 'Portuguese Discovery',
+        title: {
+          en: 'Portuguese Discovery',
+          sv: 'Portugisisk upptäckt',
+          es: 'Descubrimiento portugués',
+          fr: 'Découverte par les Portugais',
+          de: 'Entdeckung durch die Portugiesen',
+          it: 'Scoperta portoghese',
+          pl: 'Odkrycie przez Portugalczyków',
+          nl: 'Portugese ontdekking',
+          pt: 'Descobrimento português',
+        },
         description: {
           en: 'Pedro Álvares Cabral claimed Brazil for Portugal, beginning over 300 years of colonial rule.',
           sv: 'Pedro Álvares Cabral gjorde anspråk på Brasilien för Portugal och började över 300 år av kolonialt styre.',
@@ -279,7 +289,17 @@ export const brazil: Country = {
       },
       {
         year: '1822',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Brazil became independent from Portugal, uniquely as an empire rather than a republic.',
           sv: 'Brasilien blev självständigt från Portugal, unikt som ett imperium snarare än en republik.',
@@ -294,7 +314,17 @@ export const brazil: Country = {
       },
       {
         year: '1888',
-        title: 'Abolition of Slavery',
+        title: {
+          en: 'Abolition of Slavery',
+          sv: 'Slaveriets avskaffande',
+          es: 'Abolición de la esclavitud',
+          fr: 'Abolition de l\'esclavage',
+          de: 'Abschaffung der Sklaverei',
+          it: 'Abolizione della schiavitù',
+          pl: 'Zniesienie niewolnictwa',
+          nl: 'Afschaffing van de slavernij',
+          pt: 'Abolição da escravidão',
+        },
         description: {
           en: 'Brazil was the last country in the Americas to abolish slavery.',
           sv: 'Brasilien var det sista landet i Amerika som avskaffade slaveriet.',
@@ -308,8 +338,28 @@ export const brazil: Country = {
         },
       },
       {
-        year: '1960-Present',
-        title: 'Modern Brazil',
+        year: {
+          en: '1960-Present',
+          sv: '1960–idag',
+          es: '1960–actualidad',
+          fr: '1960–aujourd\'hui',
+          de: '1960–heute',
+          it: '1960–oggi',
+          pl: '1960–obecnie',
+          nl: '1960–heden',
+          pt: '1960–presente',
+        },
+        title: {
+          en: 'Modern Brazil',
+          sv: 'Det moderna Brasilien',
+          es: 'Brasil moderno',
+          fr: 'Le Brésil moderne',
+          de: 'Das moderne Brasilien',
+          it: 'Il Brasile moderno',
+          pl: 'Współczesna Brazylia',
+          nl: 'Modern Brazilië',
+          pt: 'Brasil moderno',
+        },
         description: {
           en: 'Brasília became the new capital, and Brazil emerged as a major global economic power.',
           sv: 'Brasília blev den nya huvudstaden och Brasilien växte fram som en stor global ekonomisk makt.',
@@ -361,7 +411,17 @@ export const brazil: Country = {
           nl: 'Ethanolbrandstof',
           pt: 'Combustível de etanol',
         },
-        year: '1970s',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
         description: {
           en: 'Brazil pioneered large-scale use of sugarcane ethanol as vehicle fuel.',
           sv: 'Brasilien var pionjärer i storskalig användning av sockerrörsetanol som fordonsbränsle.',
@@ -386,7 +446,17 @@ export const brazil: Country = {
           nl: 'Bancaire innovaties',
           pt: 'Inovações bancárias',
         },
-        year: '1980s',
+        year: {
+          en: '1980s',
+          sv: '1980-talet',
+          es: 'Década de 1980',
+          fr: 'Années 1980',
+          de: '1980er',
+          it: 'Anni \'80',
+          pl: 'Lata 80.',
+          nl: 'Jaren 80',
+          pt: 'Década de 1980',
+        },
         description: {
           en: 'Brazil developed electronic voting and banking systems still used worldwide.',
           sv: 'Brasilien utvecklade elektroniska röstnings- och banksystem som fortfarande används över hela världen.',
@@ -411,7 +481,17 @@ export const brazil: Country = {
           nl: 'Braziliaans jiujitsu',
           pt: 'Jiu-jitsu brasileiro',
         },
-        year: '1920s',
+        year: {
+          en: '1920s',
+          sv: '1920-talet',
+          es: 'década de 1920',
+          fr: 'années 1920',
+          de: '1920er',
+          it: 'anni \'20',
+          pl: 'lata 20.',
+          nl: 'jaren 20',
+          pt: 'década de 1920',
+        },
         description: {
           en: 'The Gracie family adapted Japanese jiu-jitsu into a highly effective martial art.',
           sv: 'Familjen Gracie anpassade japansk jiu-jitsu till en mycket effektiv kampsport.',
@@ -453,7 +533,7 @@ export const brazil: Country = {
       {
         name: {
           en: 'Iguazu Falls',
-          sv: 'Iguazu Falls',
+          sv: 'Iguazúfallen',
           es: 'Cataratas del Iguazú',
           fr: 'Chutes d\'Iguazú',
           de: 'Iguazu-Wasserfälle',
@@ -549,7 +629,17 @@ export const brazil: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December-March for beaches; June-September for Amazon and Southern regions.',
           sv: 'December-mars för stränder; Juni-september för Amazonas och södra regioner.',
@@ -563,7 +653,17 @@ export const brazil: Country = {
         },
       },
       {
-        item: 'Portuguese phrases',
+        item: {
+          en: 'Portuguese phrases',
+          sv: 'Portugisiska fraser',
+          es: 'Frases en portugués',
+          fr: 'Expressions en portugais',
+          de: 'Portugiesische Redewendungen',
+          it: 'Frasi in portoghese',
+          pl: 'Zwroty po portugalsku',
+          nl: 'Portugese zinnen',
+          pt: 'Frases em português',
+        },
         description: {
           en: 'Basic Portuguese very helpful; English not widely spoken.',
           sv: 'Grundläggande portugisiska mycket hjälpsam; Engelska inte allmänt talad.',
@@ -577,7 +677,17 @@ export const brazil: Country = {
         },
       },
       {
-        item: 'Mosquito protection',
+        item: {
+          en: 'Mosquito protection',
+          sv: 'Myggskydd',
+          es: 'Protección contra mosquitos',
+          fr: 'Protection anti-moustiques',
+          de: 'Mückenschutz',
+          it: 'Protezione dalle zanzare',
+          pl: 'Ochrona przed komarami',
+          nl: 'Bescherming tegen muggen',
+          pt: 'Proteção contra mosquitos',
+        },
         description: {
           en: 'Essential for tropical regions and Amazon.',
           sv: 'Viktigt för tropiska regioner och Amazonas.',
@@ -591,7 +701,17 @@ export const brazil: Country = {
         },
       },
       {
-        item: 'Beach gear',
+        item: {
+          en: 'Beach gear',
+          sv: 'Strandutrustning',
+          es: 'Artículos de playa',
+          fr: 'Affaires de plage',
+          de: 'Strandausrüstung',
+          it: 'Attrezzatura da spiaggia',
+          pl: 'Rzeczy na plażę',
+          nl: 'Strandspullen',
+          pt: 'Artigos de praia',
+        },
         description: {
           en: 'Brazilians love beach culture; pack swimwear and flip-flops.',
           sv: 'Brasilianare älskar strandkultur; packa badkläder och flipflops.',
@@ -605,7 +725,17 @@ export const brazil: Country = {
         },
       },
       {
-        item: 'Safety awareness',
+        item: {
+          en: 'Safety awareness',
+          sv: 'Var vaksam',
+          es: 'Precauciones de seguridad',
+          fr: 'Vigilance',
+          de: 'Wachsam bleiben',
+          it: 'Attenzione alla sicurezza',
+          pl: 'Ostrożność',
+          nl: 'Wees alert',
+          pt: 'Atenção à segurança',
+        },
         description: {
           en: 'Be cautious in big cities; avoid displaying valuables.',
           sv: 'Var försiktig i storstäder; undvika att visa värdesaker.',
@@ -619,7 +749,17 @@ export const brazil: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Many small vendors prefer cash; ATMs widely available.',
           sv: 'Många små försäljare föredrar kontanter; Bankomater allmänt tillgängliga.',
@@ -648,7 +788,7 @@ export const brazil: Country = {
       },
       description: {
         en: 'Brazil\'s national dish: black bean stew with pork, beef, and sausages',
-        sv: 'Brasiliens nationalrätt: gryta med svarta bönor med fläsk, nötkött och korv',
+        sv: 'Brasiliens nationalrätt: en gryta på svarta bönor med fläsk, nötkött och korv',
         es: 'Plato nacional de Brasil: guiso de frijoles negros con cerdo, ternera y salchichas',
         fr: 'Le plat national du Brésil : ragoût de haricots noirs avec du porc, du bœuf et des saucisses',
         de: 'Brasiliens Nationalgericht: schwarzer Bohneneintopf mit Schweinefleisch, Rindfleisch und Würstchen',
@@ -762,7 +902,7 @@ export const brazil: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -787,7 +927,7 @@ export const brazil: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -812,7 +952,7 @@ export const brazil: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -837,7 +977,7 @@ export const brazil: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -851,7 +991,7 @@ export const brazil: Country = {
       steps: [
         {
           en: 'Soak black beans overnight',
-          sv: 'Blötlägg svarta bönor över natten',
+          sv: 'Blötlägg bönorna över natten',
           es: 'Remojar los frijoles negros durante la noche',
           fr: 'Faire tremper les haricots noirs pendant la nuit',
           de: 'Schwarze Bohnen über Nacht einweichen',
@@ -862,7 +1002,7 @@ export const brazil: Country = {
         },
         {
           en: 'Cook beans with bay leaves for 1 hour',
-          sv: 'Koka bönor med lagerblad i 1 timme',
+          sv: 'Koka bönorna med lagerbladen i 1 timme',
           es: 'Cocine los frijoles con hojas de laurel durante 1 hora',
           fr: 'Cuire les haricots avec les feuilles de laurier pendant 1 heure',
           de: 'Bohnen mit Lorbeerblättern 1 Stunde kochen',
@@ -873,7 +1013,7 @@ export const brazil: Country = {
         },
         {
           en: 'Brown bacon and pork ribs in large pot',
-          sv: 'Brunt bacon och fläsk revben i stor gryta',
+          sv: 'Bryn bacon och revbensspjäll i en stor gryta',
           es: 'Dore el tocino y las costillas de cerdo en una olla grande',
           fr: 'Faire dorer le bacon et les côtes de porc dans une grande marmite',
           de: 'Brauner Speck und Schweinerippchen in einem großen Topf',
@@ -884,7 +1024,7 @@ export const brazil: Country = {
         },
         {
           en: 'Add beef and sausage, brown all meats',
-          sv: 'Lägg till nötkött och korv, bryn allt kött',
+          sv: 'Tillsätt nötkött och korv och bryn allt kött',
           es: 'Agregue la carne y las salchichas, dore todas las carnes',
           fr: 'Ajouter le bœuf et les saucisses, faire dorer toutes les viandes',
           de: 'Rindfleisch und Wurst hinzufügen, alles Fleisch anbraten',
@@ -895,7 +1035,7 @@ export const brazil: Country = {
         },
         {
           en: 'Add onions and garlic, sauté until soft',
-          sv: 'Tillsätt lök och vitlök, fräs tills den är mjuk',
+          sv: 'Tillsätt lök och vitlök och fräs tills löken har mjuknat',
           es: 'Agrega la cebolla y el ajo, saltea hasta que estén tiernos',
           fr: 'Ajouter les oignons et l\'ail, faire revenir jusqu\'à ce qu\'ils soient tendres',
           de: 'Zwiebeln und Knoblauch dazugeben und weich anbraten',
@@ -906,7 +1046,7 @@ export const brazil: Country = {
         },
         {
           en: 'Add cooked beans with their liquid to meat',
-          sv: 'Tillsätt kokta bönor med vätskan i köttet',
+          sv: 'Häll de kokta bönorna med sitt spad över köttet',
           es: 'Agrega frijoles cocidos con su líquido a la carne',
           fr: 'Ajouter les haricots cuits avec leur liquide à la viande',
           de: 'Gekochte Bohnen mit ihrer Flüssigkeit zum Fleisch geben',
@@ -917,7 +1057,7 @@ export const brazil: Country = {
         },
         {
           en: 'Simmer together for 1.5-2 hours',
-          sv: 'Sjud ihop i 1,5-2 timmar',
+          sv: 'Låt allt sjuda ihop i 1,5–2 timmar',
           es: 'Cocine a fuego lento durante 1,5 a 2 horas',
           fr: 'Laisser mijoter ensemble pendant 1,5 à 2 heures',
           de: 'Zusammen 1,5–2 Stunden köcheln lassen',
@@ -939,7 +1079,7 @@ export const brazil: Country = {
         },
         {
           en: 'Season with salt, pepper, and squeeze of orange',
-          sv: 'Krydda med salt, peppar och pressa apelsin',
+          sv: 'Smaka av med salt, peppar och lite pressad apelsin',
           es: 'Sazone con sal, pimienta y chorrito de naranja',
           fr: 'Assaisonner avec du sel, du poivre et un filet d\'orange',
           de: 'Mit Salz, Pfeffer und einer Prise Orange würzen',
@@ -950,7 +1090,7 @@ export const brazil: Country = {
         },
         {
           en: 'Serve with white rice, farofa, orange slices, and collard greens',
-          sv: 'Servera med vitt ris, farofa, apelsinskivor och collard greener',
+          sv: 'Servera med vitt ris, farofa, apelsinskivor och bladkål',
           es: 'Sirva con arroz blanco, farofa, rodajas de naranja y col rizada',
           fr: 'Servir avec du riz blanc, de la farofa, des tranches d\'orange et du chou vert',
           de: 'Mit weißem Reis, Farofa, Orangenscheiben und Grünkohl servieren',
@@ -977,7 +1117,7 @@ export const brazil: Country = {
       },
       description: {
         en: 'Chocolate truffle-like candy made with condensed milk, cocoa, and butter',
-        sv: 'Chokladtryffelliknande godis med kondenserad mjölk, kakao och smör',
+        sv: 'Tryffelliknande chokladgodis gjort på sötad kondenserad mjölk, kakao och smör',
         es: 'Caramelo tipo trufa de chocolate elaborado con leche condensada, cacao y manteca',
         fr: 'Bonbons ressemblant à des truffes au chocolat à base de lait concentré, de cacao et de beurre',
         de: 'Schokoladentrüffelartige Bonbons aus Kondensmilch, Kakao und Butter',
@@ -1075,7 +1215,7 @@ export const brazil: Country = {
       steps: [
         {
           en: 'Combine condensed milk, cocoa powder, and butter in pot',
-          sv: 'Kombinera kondenserad mjölk, kakaopulver och smör i grytan',
+          sv: 'Blanda sötad kondenserad mjölk, kakaopulver och smör i en kastrull',
           es: 'Combine la leche condensada, el cacao en polvo y la mantequilla en una olla',
           fr: 'Mélanger le lait concentré, la poudre de cacao et le beurre dans une casserole',
           de: 'Kondensmilch, Kakaopulver und Butter im Topf vermischen',
@@ -1086,7 +1226,7 @@ export const brazil: Country = {
         },
         {
           en: 'Cook over medium heat, stirring constantly',
-          sv: 'Koka på medelvärme, rör hela tiden',
+          sv: 'Låt koka på medelvärme under ständig omrörning',
           es: 'Cocine a fuego medio, revolviendo constantemente',
           fr: 'Cuire à feu moyen en remuant constamment',
           de: 'Bei mittlerer Hitze unter ständigem Rühren kochen',
@@ -1097,7 +1237,7 @@ export const brazil: Country = {
         },
         {
           en: 'Cook for 10-15 minutes until mixture thickens',
-          sv: 'Koka i 10-15 minuter tills blandningen tjocknar',
+          sv: 'Låt koka i 10–15 minuter tills smeten tjocknar',
           es: 'Cocine durante 10-15 minutos hasta que la mezcla espese',
           fr: 'Cuire 10 à 15 minutes jusqu\'à ce que le mélange épaississe',
           de: '10-15 Minuten kochen, bis die Mischung eindickt',
@@ -1108,7 +1248,7 @@ export const brazil: Country = {
         },
         {
           en: 'Mixture should pull away from bottom of pan',
-          sv: 'Blandningen ska dra bort från botten av pannan',
+          sv: 'Smeten är klar när den släpper från kastrullens botten',
           es: 'La mezcla debe separarse del fondo del molde',
           fr: 'Le mélange doit se détacher du fond du moule',
           de: 'Die Mischung sollte sich vom Boden der Pfanne lösen',
@@ -1119,7 +1259,7 @@ export const brazil: Country = {
         },
         {
           en: 'Transfer to greased plate and let cool',
-          sv: 'Överför till smord plåt och låt svalna',
+          sv: 'Häll upp smeten på en smord tallrik och låt svalna',
           es: 'Transfiera a un plato engrasado y deje enfriar',
           fr: 'Transférer sur une assiette graissée et laisser refroidir',
           de: 'Auf einen gefetteten Teller geben und abkühlen lassen',
@@ -1141,7 +1281,7 @@ export const brazil: Country = {
         },
         {
           en: 'Roll mixture into small balls',
-          sv: 'Rulla blandningen till små bollar',
+          sv: 'Rulla små bollar av smeten',
           es: 'Enrolle la mezcla en bolitas',
           fr: 'Rouler le mélange en petites boules',
           de: 'Rollen Sie die Mischung zu kleinen Kugeln',
@@ -1163,7 +1303,7 @@ export const brazil: Country = {
         },
         {
           en: 'Place in mini paper cups',
-          sv: 'Lägg i minipappersmuggar',
+          sv: 'Lägg bollarna i små konfektformar',
           es: 'Colocar en mini vasos de papel',
           fr: 'Placer dans des mini gobelets en papier',
           de: 'In Mini-Pappbecher füllen',
@@ -1212,7 +1352,7 @@ export const brazil: Country = {
     },
     music: [
       { en: 'Samba', sv: 'Samba', de: 'Samba', fr: 'Samba', es: 'Samba', it: 'Samba', pl: 'Samba', nl: 'Samba', pt: 'Samba' },
-      { en: 'Bossa Nova - The Girl from Ipanema', sv: 'Bossa Nova - The Girl from Ipanema', de: 'Bossa Nova - The Girl from Ipanema', fr: 'Bossa Nova - The Girl from Ipanema', es: 'Bossa Nova - The Girl from Ipanema', it: 'Bossa Nova - The Girl from Ipanema', pl: 'Bossa Nova - The Girl from Ipanema', nl: 'Bossa Nova - The Girl from Ipanema', pt: 'Bossa Nova - The Girl from Ipanema' },
+      { en: 'Bossa Nova - The Girl from Ipanema', sv: 'Bossa nova – The Girl from Ipanema', de: 'Bossa Nova - The Girl from Ipanema', fr: 'Bossa Nova - The Girl from Ipanema', es: 'Bossa Nova - The Girl from Ipanema', it: 'Bossa Nova - The Girl from Ipanema', pl: 'Bossa Nova - The Girl from Ipanema', nl: 'Bossa Nova - The Girl from Ipanema', pt: 'Bossa Nova - The Girl from Ipanema' },
       { en: 'Samba de Janeiro', sv: 'Samba de Janeiro', de: 'Samba de Janeiro', fr: 'Samba de Janeiro', es: 'Samba de Janeiro', it: 'Samba de Janeiro', pl: 'Samba de Janeiro', nl: 'Samba de Janeiro', pt: 'Samba de Janeiro' },
       { en: 'Mas Que Nada - Sergio Mendes', sv: 'Mas Que Nada - Sergio Mendes', de: 'Mas Que Nada - Sergio Mendes', fr: 'Mas Que Nada - Sergio Mendes', es: 'Mas Que Nada - Sergio Mendes', it: 'Mas Que Nada - Sergio Mendes', pl: 'Mas Que Nada - Sergio Mendes', nl: 'Mas Que Nada - Sergio Mendes', pt: 'Mas Que Nada - Sergio Mendes' },
       { en: 'Traditional Forró', sv: 'Traditionell Forró', de: 'Traditionelles Forró', fr: 'Forró traditionnel', es: 'Forró tradicional', it: 'Forró tradizionale', pl: 'Tradycyjny Forró', nl: 'Traditionele Forró', pt: 'Forró tradicional' },
@@ -1424,7 +1564,7 @@ export const brazil: Country = {
           },
           {
             en: 'Piña Colada',
-            sv: 'Piña Colada',
+            sv: 'Piña colada',
             es: 'Piña Colada',
             fr: 'Piña Colada',
             de: 'Piña Colada',

@@ -264,7 +264,17 @@ export const capeVerde: Country = {
     history: [
       {
         year: '1456',
-        title: 'Portuguese Discovery',
+        title: {
+          en: 'Portuguese Discovery',
+          sv: 'Portugisisk upptäckt',
+          es: 'Descubrimiento portugués',
+          fr: 'Découverte par les Portugais',
+          de: 'Entdeckung durch die Portugiesen',
+          it: 'Scoperta portoghese',
+          pl: 'Odkrycie przez Portugalczyków',
+          nl: 'Portugese ontdekking',
+          pt: 'Descobrimento português',
+        },
         description: {
           en: 'Portuguese explorers discovered the uninhabited islands, which became a key trading post for the Atlantic slave trade.',
           sv: 'Portugisiska upptäcktsresande upptäckte de obebodda öarna, som blev en viktig handelsplats för den atlantiska slavhandeln.',
@@ -279,7 +289,17 @@ export const capeVerde: Country = {
       },
       {
         year: '1495',
-        title: 'Settlement Begins',
+        title: {
+          en: 'Settlement Begins',
+          sv: 'Bosättningen inleds',
+          es: 'Inicio del poblamiento',
+          fr: 'Début du peuplement',
+          de: 'Beginn der Besiedlung',
+          it: 'Inizio del popolamento',
+          pl: 'Początek osadnictwa',
+          nl: 'Begin van de bewoning',
+          pt: 'Início do povoamento',
+        },
         description: {
           en: 'Portuguese settlers and enslaved Africans began inhabiting the islands, creating a unique Creole culture.',
           sv: 'Portugisiska nybyggare och förslavade afrikaner började bebo öarna och skapade en unik kreolsk kultur.',
@@ -294,7 +314,17 @@ export const capeVerde: Country = {
       },
       {
         year: '1975',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Cape Verde gained independence from Portugal, establishing itself as a sovereign nation.',
           sv: 'Kap Verde blev självständigt från Portugal och etablerade sig som en suverän nation.',
@@ -309,7 +339,17 @@ export const capeVerde: Country = {
       },
       {
         year: '1991',
-        title: 'Democratic Transition',
+        title: {
+          en: 'Democratic Transition',
+          sv: 'Övergång till demokrati',
+          es: 'Transición democrática',
+          fr: 'Transition démocratique',
+          de: 'Übergang zur Demokratie',
+          it: 'Transizione democratica',
+          pl: 'Przejście do demokracji',
+          nl: 'Overgang naar democratie',
+          pt: 'Transição democrática',
+        },
         description: {
           en: 'The country held its first multi-party elections, becoming one of Africa\'s most stable democracies.',
           sv: 'Landet höll sitt första flerpartival och blev en av Afrikas mest stabila demokratier.',
@@ -336,7 +376,17 @@ export const capeVerde: Country = {
           nl: 'Morna-muziek',
           pt: 'Música Morna',
         },
-        year: '19th century',
+        year: {
+          en: '19th century',
+          sv: '1800-talet',
+          es: 'Siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'Século XIX',
+        },
         description: {
           en: 'Created the haunting Morna music genre, which influenced Brazilian saudade and Portuguese fado, gaining worldwide recognition through Cesária Évora.',
           sv: 'Skapat den hemsökande musikgenren Morna, som påverkade brasiliansk saudade och portugisisk fado, och fick världsomspännande erkännande genom Cesária Évora.',
@@ -361,7 +411,17 @@ export const capeVerde: Country = {
           nl: 'Duurzame ontzilting',
           pt: 'Dessalinização sustentável',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Pioneered solar-powered desalination plants to combat water scarcity, becoming a model for other island nations.',
           sv: 'Pionjärer för soldrivna avsaltningsanläggningar för att bekämpa vattenbrist och blev en modell för andra önationer.',
@@ -386,7 +446,17 @@ export const capeVerde: Country = {
           nl: 'Ontwikkeling van windenergie',
           pt: 'Desenvolvimento da energia eólica',
         },
-        year: '2010s',
+        year: {
+          en: '2010s',
+          sv: '2010-talet',
+          es: 'Década de 2010',
+          fr: 'Années 2010',
+          de: '2010er',
+          it: 'Anni 2010',
+          pl: 'Lata 2010.',
+          nl: 'Jaren 2010',
+          pt: 'Década de 2010',
+        },
         description: {
           en: 'Developed one of Africa\'s first large-scale wind farms, aiming for 100% renewable energy by 2025.',
           sv: 'Utvecklade en av Afrikas första storskaliga vindkraftsparker som siktar på 100 % förnybar energi till 2025.',
@@ -411,7 +481,17 @@ export const capeVerde: Country = {
           nl: 'Diaspora-betrokkenheidsmodel',
           pt: 'Modelo de envolvimento da diáspora',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Created innovative programs to engage its large diaspora community (more Cape Verdeans live abroad than at home) in national development.',
           sv: 'Skapat innovativa program för att engagera sin stora diasporagemenskap (fler kapverdianer bor utomlands än hemma) i nationell utveckling.',
@@ -429,7 +509,7 @@ export const capeVerde: Country = {
       {
         name: {
           en: 'Sal Island',
-          sv: 'Sal Island',
+          sv: 'Ön Sal',
           es: 'Isla de Sal',
           fr: 'Île de Sal',
           de: 'Insel Sal',
@@ -549,7 +629,17 @@ export const capeVerde: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa, which can be obtained online (e-visa) before travel.',
           sv: 'De flesta besökare behöver ett visum, som kan erhållas online (e-visum) innan resan.',
@@ -563,7 +653,17 @@ export const capeVerde: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to June for dry season and best beach weather. August-October for music festivals.',
           sv: 'November till juni för torrperioden och bästa strandvädret. Augusti-oktober för musikfestivaler.',
@@ -577,7 +677,17 @@ export const capeVerde: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Inter-island flights, ferries (can be unreliable), local taxis called "aluguer", and shared minibuses.',
           sv: 'Flyg mellan öarna, färjor (kan vara opålitliga), lokala taxibilar som kallas "aluguer" och delade minibussar.',
@@ -591,7 +701,17 @@ export const capeVerde: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Portuguese is official, but Cape Verdean Creole (Kriolu) is widely spoken. Some English in tourist areas.',
           sv: 'Portugisiska är officiellt, men kapverdisk kreol (Kriolu) talas allmänt. Lite engelska i turistområden.',
@@ -605,7 +725,17 @@ export const capeVerde: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally very safe. Exercise normal precautions. Respect local customs and traditions.',
           sv: 'Generellt mycket säker. Utöva normala försiktighetsåtgärder. Respektera lokala seder och traditioner.',
@@ -634,7 +764,7 @@ export const capeVerde: Country = {
       },
       description: {
         en: 'National stew with corn, beans, and meat or fish',
-        sv: 'Nationell gryta med majs, bönor och kött eller fisk',
+        sv: 'Kap Verdes nationalrätt – en gryta med majs, bönor och kött eller fisk',
         es: 'Guiso nacional con maíz, frijol y carne o pescado',
         fr: 'Ragoût national avec du maïs, des haricots et de la viande ou du poisson',
         de: 'Nationaler Eintopf mit Mais, Bohnen und Fleisch oder Fisch',
@@ -691,7 +821,7 @@ export const capeVerde: Country = {
         {
           name: {
             en: 'Pork or fish',
-            sv: 'Fläsk eller fisk',
+            sv: 'Fläskkött eller fisk',
             es: 'Cerdo o pescado',
             fr: 'Porc ou poisson',
             de: 'Schweinefleisch oder Fisch',
@@ -718,7 +848,7 @@ export const capeVerde: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -758,7 +888,7 @@ export const capeVerde: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -794,7 +924,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Add meat or fish and vegetables',
-          sv: 'Lägg till kött eller fisk och grönsaker',
+          sv: 'Tillsätt kött eller fisk och grönsakerna',
           es: 'Añade carne o pescado y verduras',
           fr: 'Ajouter de la viande ou du poisson et des légumes',
           de: 'Fleisch oder Fisch und Gemüse hinzufügen',
@@ -805,7 +935,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Simmer for 2 hours until thick',
-          sv: 'Sjud i 2 timmar tills det blir tjockt',
+          sv: 'Låt sjuda i 2 timmar tills grytan har tjocknat',
           es: 'Cocine a fuego lento durante 2 horas hasta que espese',
           fr: 'Laisser mijoter pendant 2 heures jusqu\'à épaississement',
           de: '2 Stunden köcheln lassen, bis eine dicke Masse entsteht',
@@ -827,7 +957,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Serve hot or fried as Cachupa frita',
-          sv: 'Servera varm eller stekt som Cachupa frita',
+          sv: 'Servera grytan varm – eller stek upp den i en panna till cachupa frita',
           es: 'Sirva caliente o frito como Cachupa frita',
           fr: 'Servir chaud ou frit comme Cachupa frita',
           de: 'Heiß oder frittiert als Cachupa frita servieren',
@@ -854,7 +984,7 @@ export const capeVerde: Country = {
       },
       description: {
         en: 'Sweet papaya jam often served with fresh cheese, a beloved Cape Verdean dessert combining Portuguese and tropical influences',
-        sv: 'Söt papayasylt serveras ofta med färskost, en älskad efterrätt från Kap Verde som kombinerar portugisiska och tropiska influenser',
+        sv: 'Söt papayasylt som ofta serveras med färskost – en älskad efterrätt från Kap Verde med både portugisiska och tropiska influenser',
         es: 'Mermelada dulce de papaya que a menudo se sirve con queso fresco, un postre muy apreciado por los caboverdianos que combina influencias portuguesas y tropicales',
         fr: 'Confiture de papaye sucrée souvent servie avec du fromage frais, un dessert cap-verdien très apprécié mêlant influences portugaises et tropicales',
         de: 'Süße Papaya-Marmelade, oft serviert mit Frischkäse, ein beliebtes kapverdisches Dessert, das portugiesische und tropische Einflüsse vereint',
@@ -953,7 +1083,7 @@ export const capeVerde: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -1008,7 +1138,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Cut papaya into small cubes or strips',
-          sv: 'Skär papaya i små tärningar eller remsor',
+          sv: 'Skär papayan i små tärningar eller strimlor',
           es: 'Cortar la papaya en cubos pequeños o en tiras',
           fr: 'Couper la papaye en petits cubes ou en lanières',
           de: 'Papaya in kleine Würfel oder Streifen schneiden',
@@ -1019,7 +1149,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Soak papaya in water overnight to remove bitterness',
-          sv: 'Blötlägg papaya i vatten över natten för att ta bort bitterhet',
+          sv: 'Lägg papayan i blöt över natten så att beskan försvinner',
           es: 'Remojar la papaya en agua durante la noche para eliminar el amargor',
           fr: 'Faire tremper la papaye dans l\'eau pendant la nuit pour éliminer l\'amertume',
           de: 'Papaya über Nacht in Wasser einweichen, um die Bitterkeit zu entfernen',
@@ -1030,7 +1160,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Drain and rinse papaya thoroughly',
-          sv: 'Töm och skölj papayan noggrant',
+          sv: 'Låt rinna av och skölj papayan noga',
           es: 'Escurrir y enjuagar bien la papaya',
           fr: 'Égouttez et rincez soigneusement la papaye',
           de: 'Papaya abtropfen lassen und gründlich abspülen',
@@ -1041,7 +1171,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'In a large pot, combine sugar and water to make syrup',
-          sv: 'I en stor gryta, kombinera socker och vatten för att göra sirap',
+          sv: 'Koka upp socker och vatten till en sockerlag i en stor kastrull',
           es: 'En una olla grande, combine el azúcar y el agua para hacer almíbar.',
           fr: 'Dans une grande casserole, mélanger le sucre et l\'eau pour faire un sirop',
           de: 'In einem großen Topf Zucker und Wasser zu einem Sirup verrühren',
@@ -1052,7 +1182,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Add papaya, cinnamon stick, and lemon juice',
-          sv: 'Tillsätt papaya, kanelstång och citronsaft',
+          sv: 'Tillsätt papayan, kanelstången och citronsaften',
           es: 'Agrega papaya, canela en rama y jugo de limón',
           fr: 'Ajouter la papaye, le bâton de cannelle et le jus de citron',
           de: 'Papaya, Zimtstange und Zitronensaft hinzufügen',
@@ -1063,7 +1193,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Cook on medium heat, stirring occasionally, for 60-75 minutes',
-          sv: 'Koka på medelvärme, rör om då och då, i 60-75 minuter',
+          sv: 'Låt koka på medelvärme i 60–75 minuter och rör om då och då',
           es: 'Cocine a fuego medio, revolviendo ocasionalmente, durante 60-75 minutos',
           fr: 'Cuire à feu moyen, en remuant de temps en temps, pendant 60 à 75 minutes',
           de: 'Bei mittlerer Hitze unter gelegentlichem Rühren 60–75 Minuten kochen',
@@ -1085,7 +1215,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Add vanilla extract and remove from heat',
-          sv: 'Tillsätt vaniljextrakt och ta bort från värmen',
+          sv: 'Tillsätt vaniljextraktet och ta kastrullen från värmen',
           es: 'Agrega el extracto de vainilla y retira del fuego',
           fr: 'Ajouter l\'extrait de vanille et retirer du feu',
           de: 'Vanilleextrakt hinzufügen und vom Herd nehmen',
@@ -1096,7 +1226,7 @@ export const capeVerde: Country = {
         },
         {
           en: 'Cool and serve with sliced fresh cheese',
-          sv: 'Kyl och servera med skivad färskost',
+          sv: 'Låt svalna och servera med skivad färskost',
           es: 'Dejar enfriar y servir con queso fresco en rodajas',
           fr: 'Laisser refroidir et servir avec des tranches de fromage frais',
           de: 'Abkühlen lassen und mit geschnittenem Frischkäse servieren',

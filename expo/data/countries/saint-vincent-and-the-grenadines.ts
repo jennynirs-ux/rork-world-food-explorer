@@ -263,8 +263,28 @@ export const saintVincentAndTheGrenadines: Country = {
     },
     history: [
       {
-        year: 'Pre-1600s',
-        title: 'Indigenous Caribbean Roots',
+        year: {
+          en: 'Pre-1600s',
+          sv: 'Före 1600',
+          es: 'Antes de 1600',
+          fr: 'Avant 1600',
+          de: 'Vor 1600',
+          it: 'Prima del 1600',
+          pl: 'Przed 1600 r.',
+          nl: 'Vóór 1600',
+          pt: 'Antes de 1600',
+        },
+        title: {
+          en: 'Indigenous Caribbean Roots',
+          sv: 'Karibiens ursprungsfolk',
+          es: 'Raíces indígenas caribeñas',
+          fr: 'Racines autochtones des Caraïbes',
+          de: 'Indigene Wurzeln der Karibik',
+          it: 'Radici indigene caraibiche',
+          pl: 'Rdzenni mieszkańcy Karaibów',
+          nl: 'Inheemse Caribische wortels',
+          pt: 'Raízes indígenas caribenhas',
+        },
         description: {
           en: 'Indigenous communities lived across the islands for centuries, developing navigation and coastal livelihoods that shaped early island culture.',
           sv: 'Ursprungssamhällen levde över öarna i århundraden och utvecklade navigering och kustnära försörjning som formade tidig ökultur.',
@@ -278,8 +298,28 @@ export const saintVincentAndTheGrenadines: Country = {
         },
       },
       {
-        year: '1600s',
-        title: 'European Rivalry',
+        year: {
+          en: '1600s',
+          sv: '1600-talet',
+          es: 'siglo XVII',
+          fr: 'XVIIe siècle',
+          de: '17. Jahrhundert',
+          it: 'XVII secolo',
+          pl: 'XVII wiek',
+          nl: '17e eeuw',
+          pt: 'século XVII',
+        },
+        title: {
+          en: 'European Rivalry',
+          sv: 'Europeisk maktkamp',
+          es: 'Rivalidad europea',
+          fr: 'Rivalités européennes',
+          de: 'Europäische Rivalität',
+          it: 'Rivalità europee',
+          pl: 'Rywalizacja mocarstw europejskich',
+          nl: 'Europese rivaliteit',
+          pt: 'Rivalidade europeia',
+        },
         description: {
           en: 'European powers competed for control in the region, and the islands became part of wider Caribbean trade and conflict.',
           sv: 'Europeiska makter tävlade om kontroll i regionen, och öarna blev en del av en bredare karibisk handel och konflikt.',
@@ -293,8 +333,28 @@ export const saintVincentAndTheGrenadines: Country = {
         },
       },
       {
-        year: '1700s',
-        title: 'Plantation Economy',
+        year: {
+          en: '1700s',
+          sv: '1700-talet',
+          es: 'siglo XVIII',
+          fr: 'XVIIIe siècle',
+          de: '18. Jahrhundert',
+          it: 'XVIII secolo',
+          pl: 'XVIII wiek',
+          nl: '18e eeuw',
+          pt: 'século XVIII',
+        },
+        title: {
+          en: 'Plantation Economy',
+          sv: 'Plantageekonomi',
+          es: 'Economía de plantación',
+          fr: 'Économie de plantation',
+          de: 'Plantagenwirtschaft',
+          it: 'Economia di piantagione',
+          pl: 'Gospodarka plantacyjna',
+          nl: 'Plantage-economie',
+          pt: 'Economia de plantações',
+        },
         description: {
           en: 'Plantations expanded, transforming land use and society and tying the islands into Atlantic trade networks.',
           sv: 'Plantager expanderade, omvandlade markanvändning och samhälle och knöt öarna till atlantiska handelsnätverk.',
@@ -308,8 +368,28 @@ export const saintVincentAndTheGrenadines: Country = {
         },
       },
       {
-        year: '1800s',
-        title: 'Colonial Administration',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
+        title: {
+          en: 'Colonial Administration',
+          sv: 'Kolonialförvaltning',
+          es: 'Administración colonial',
+          fr: 'Administration coloniale',
+          de: 'Kolonialverwaltung',
+          it: 'Amministrazione coloniale',
+          pl: 'Administracja kolonialna',
+          nl: 'Koloniaal bestuur',
+          pt: 'Administração colonial',
+        },
         description: {
           en: 'British rule consolidated over time, and the islands developed administrative centers including Kingstown.',
           sv: 'Det brittiska styret konsoliderades med tiden, och öarna utvecklade administrativa centra inklusive Kingstown.',
@@ -324,7 +404,17 @@ export const saintVincentAndTheGrenadines: Country = {
       },
       {
         year: '1979',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Saint Vincent and the Grenadines became an independent state within the Commonwealth, with Kingstown as the capital.',
           sv: 'Saint Vincent och Grenadinerna blev en självständig stat inom Commonwealth, med Kingstown som huvudstad.',
@@ -338,8 +428,28 @@ export const saintVincentAndTheGrenadines: Country = {
         },
       },
       {
-        year: 'Modern Era',
-        title: 'Tourism and Island Life',
+        year: {
+          en: 'Modern Era',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
+        title: {
+          en: 'Tourism and Island Life',
+          sv: 'Turism och öliv',
+          es: 'Turismo y vida isleña',
+          fr: 'Tourisme et vie insulaire',
+          de: 'Tourismus und Inselleben',
+          it: 'Turismo e vita isolana',
+          pl: 'Turystyka i życie na wyspach',
+          nl: 'Toerisme en eilandleven',
+          pt: 'Turismo e vida insular',
+        },
         description: {
           en: 'The Grenadines grew into a world-famous sailing destination, while Saint Vincent balances agriculture, services, and eco-tourism.',
           sv: 'Grenadinerna växte till en världsberömd seglingsdestination, medan Saint Vincent balanserar jordbruk, tjänster och ekoturism.',
@@ -366,7 +476,17 @@ export const saintVincentAndTheGrenadines: Country = {
           nl: 'Mariene Bescherming en Duurzaam Toerisme',
           pt: 'Proteção Marinha e Turismo Sustentável',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Protected marine areas, especially around the Tobago Cays, help conserve reefs and turtle habitats while supporting sustainable tourism.',
           sv: 'Skyddade marina områden, särskilt runt Tobago Cays, hjälper till att bevara rev och sköldpadds livsmiljöer och samtidigt stödja hållbar turism.',
@@ -391,7 +511,17 @@ export const saintVincentAndTheGrenadines: Country = {
           nl: 'Infrastructuur voor Jachtverhuur en Eilandhoppen',
           pt: 'Infraestrutura de Fretamento de Iates e Turismo entre Ilhas',
         },
-        year: 'Late 1900s-Present',
+        year: {
+          en: 'Late 1900s-Present',
+          sv: 'Slutet av 1900-talet–idag',
+          es: 'Finales del siglo XX–actualidad',
+          fr: 'Fin du XXe siècle–aujourd\'hui',
+          de: 'Ende des 20. Jh.–heute',
+          it: 'Fine del XX secolo–oggi',
+          pl: 'Koniec XX wieku–obecnie',
+          nl: 'Eind 20e eeuw–heden',
+          pt: 'Final do século XX–presente',
+        },
         description: {
           en: 'The Grenadines developed into a globally recognized sailing destination, with charter services and anchorages supporting island-to-island travel.',
           sv: 'Grenadinerna utvecklades till en globalt erkänd seglingsdestination, med chartertjänster och ankarplatser som stödde resor från ö till ö.',
@@ -409,7 +539,7 @@ export const saintVincentAndTheGrenadines: Country = {
       {
         name: {
           en: 'Tobago Cays Marine Park',
-          sv: 'Tobago Cays Marine Park',
+          sv: 'Tobago Cays marinpark',
           es: 'Parque Marino de los Cayos de Tobago',
           fr: 'Parc marin des Tobago Cays',
           de: 'Tobago Cays Marine Park',
@@ -529,7 +659,17 @@ export const saintVincentAndTheGrenadines: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to April for drier weather; May to November is warmer and wetter.',
           sv: 'December till april för torrare väder; Maj till november är varmare och blötare.',
@@ -543,7 +683,17 @@ export const saintVincentAndTheGrenadines: Country = {
         },
       },
       {
-        item: 'Island hopping',
+        item: {
+          en: 'Island hopping',
+          sv: 'Öhoppning',
+          es: 'De isla en isla',
+          fr: 'D\'île en île',
+          de: 'Inselhopping',
+          it: 'Di isola in isola',
+          pl: 'Podróże między wyspami',
+          nl: 'Eilandhoppen',
+          pt: 'De ilha em ilha',
+        },
         description: {
           en: 'Ferries, short flights, and boat charters connect Saint Vincent with the Grenadines.',
           sv: 'Färjor, korta flygningar och båtcharter förbinder Saint Vincent med Grenadinerna.',
@@ -581,7 +731,17 @@ export const saintVincentAndTheGrenadines: Country = {
         },
       },
       {
-        item: 'Reef-safe sun protection',
+        item: {
+          en: 'Reef-safe sun protection',
+          sv: 'Revvänligt solskydd',
+          es: 'Protección solar respetuosa con los corales',
+          fr: 'Protection solaire respectueuse des récifs',
+          de: 'Korallenfreundlicher Sonnenschutz',
+          it: 'Protezione solare amica dei coralli',
+          pl: 'Ochrona przeciwsłoneczna bezpieczna dla raf',
+          nl: 'Rifvriendelijke zonbescherming',
+          pt: 'Proteção solar segura para corais',
+        },
         description: {
           en: 'Use reef-safe sunscreen and protective clothing to help protect coral reefs.',
           sv: 'Använd revsäker solskyddsmedel och skyddskläder för att skydda korallreven.',
@@ -595,7 +755,17 @@ export const saintVincentAndTheGrenadines: Country = {
         },
       },
       {
-        item: 'Volcano awareness',
+        item: {
+          en: 'Volcano awareness',
+          sv: 'Säkerhet vid vulkanen',
+          es: 'Precaución con el volcán',
+          fr: 'Vigilance volcanique',
+          de: 'Vorsicht am Vulkan',
+          it: 'Attenzione al vulcano',
+          pl: 'Bezpieczeństwo na wulkanie',
+          nl: 'Veiligheid bij de vulkaan',
+          pt: 'Atenção ao vulcão',
+        },
         description: {
           en: 'If hiking La Soufriere, check local guidance and conditions before you go.',
           sv: 'Om du vandrar i La Soufriere, kontrollera lokala riktlinjer och villkor innan du går.',
@@ -613,7 +783,7 @@ export const saintVincentAndTheGrenadines: Country = {
       id: 'saint-vincent-main',
       name: {
         en: 'Roasted Breadfruit and Fried Jackfish',
-        sv: 'Rostad brödfrukt och stekt Jackfish',
+        sv: 'Rostad brödfrukt och stekt taggmakrill',
         es: 'Fruta del pan asada y jackfish frito',
         fr: 'Fruit à pain rôti et carangue frite',
         de: 'Geröstete Brotfrucht und gebratener Makrele',
@@ -624,7 +794,7 @@ export const saintVincentAndTheGrenadines: Country = {
       },
       description: {
         en: 'A classic Vincentian comfort meal: smoky roasted breadfruit paired with crispy fried fish, lime, and pepper sauce.',
-        sv: 'En klassisk Vincentiansk tröstmåltid: rökig rostad brödfrukt tillsammans med krispig stekt fisk, lime och pepparsås.',
+        sv: 'En klassisk vardagsfavorit från Saint Vincent: rökig rostad brödfrukt med krispig stekt fisk, lime och chilisås.',
         es: 'Una comida reconfortante clásica vicenciana: fruta del pan asada ahumada acompañada de pescado frito crujiente, lima y salsa de pimienta.',
         fr: 'Un repas réconfortant vincentien classique : fruit à pain rôti fumé accompagné de poisson frit croustillant, de citron vert et de sauce au poivre.',
         de: 'Eine klassische vinzentinische Wohlfühlmahlzeit: rauchig geröstete Brotfrüchte gepaart mit knusprig gebratenem Fisch, Limette und Pfeffersauce.',
@@ -663,7 +833,7 @@ export const saintVincentAndTheGrenadines: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -676,7 +846,7 @@ export const saintVincentAndTheGrenadines: Country = {
         {
           name: {
             en: 'Jackfish (or mackerel), cleaned',
-            sv: 'Jackfisk (eller makrill), rensad',
+            sv: 'Taggmakrill (eller makrill), rensad',
             es: 'Jackez (o caballa), limpio',
             fr: 'Carangue (ou maquereau), nettoyée',
             de: 'Makrele (oder Makrele), gereinigt',
@@ -781,7 +951,7 @@ export const saintVincentAndTheGrenadines: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -796,7 +966,7 @@ export const saintVincentAndTheGrenadines: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -811,7 +981,7 @@ export const saintVincentAndTheGrenadines: Country = {
         {
           name: {
             en: 'Hot pepper sauce (to serve)',
-            sv: 'Varm pepparsås (att servera)',
+            sv: 'Stark chilisås (till servering)',
             es: 'Salsa de pimiento picante (para servir)',
             fr: 'Sauce au piment fort (pour servir)',
             de: 'Peperonisauce (zum Servieren)',
@@ -837,7 +1007,7 @@ export const saintVincentAndTheGrenadines: Country = {
       steps: [
         {
           en: 'Roast the breadfruit: bake at 200C for 50-60 minutes (turn once) until the skin is dark and the inside is soft.',
-          sv: 'Rosta brödfrukten: grädda i 200C i 50-60 minuter (vänd en gång) tills skalet är mörkt och insidan mjuk.',
+          sv: 'Rosta brödfrukten i ugnen på 200 grader i 50-60 minuter (vänd den en gång) tills skalet är mörkt och fruktköttet mjukt.',
           es: 'Ase el fruto del pan: hornee a 200 ° C durante 50-60 minutos (gírelo una vez) hasta que la piel esté oscura y el interior suave.',
           fr: 'Rôtir le fruit à pain : cuire au four à 200°C pendant 50 à 60 minutes (retourner une fois) jusqu\'à ce que la peau soit foncée et l\'intérieur tendre.',
           de: 'Brotfrucht rösten: 50–60 Minuten bei 200 °C backen (einmal wenden), bis die Schale dunkel und das Innere weich ist.',
@@ -848,7 +1018,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Cool slightly, then peel and cut into thick slices.',
-          sv: 'Kyl något, skala sedan och skär i tjocka skivor.',
+          sv: 'Låt svalna något, skala sedan och skär i tjocka skivor.',
           es: 'Dejar enfriar un poco, luego pelar y cortar en rodajas gruesas.',
           fr: 'Laisser refroidir légèrement, puis éplucher et couper en tranches épaisses.',
           de: 'Etwas abkühlen lassen, dann schälen und in dicke Scheiben schneiden.',
@@ -859,7 +1029,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Pat fish dry. Rub with lime juice, garlic, salt, and pepper. Let sit 10 minutes.',
-          sv: 'Torka fisken torr. Gnid in med limejuice, vitlök, salt och peppar. Låt sitta i 10 minuter.',
+          sv: 'Torka fisken med hushållspapper. Gnid in den med limejuice, vitlök, salt och peppar. Låt dra i 10 minuter.',
           es: 'Seque el pescado con palmaditas. Frote con jugo de lima, ajo, sal y pimienta. Deja reposar 10 minutos.',
           fr: 'Séchez le poisson. Frotter avec le jus de citron vert, l\'ail, le sel et le poivre. Laissez reposer 10 minutes.',
           de: 'Fisch trocken tupfen. Mit Limettensaft, Knoblauch, Salz und Pfeffer einreiben. 10 Minuten ruhen lassen.',
@@ -870,7 +1040,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Lightly dredge fish in flour, shaking off excess.',
-          sv: 'Muddra fisken lätt i mjöl, skaka av överskottet.',
+          sv: 'Vänd fisken lätt i vetemjöl och skaka av överflödigt mjöl.',
           es: 'Pasar ligeramente el pescado por harina, sacudiendo el exceso.',
           fr: 'Saupoudrez légèrement le poisson dans la farine en secouant l\'excédent.',
           de: 'Den Fisch leicht in Mehl wenden und überschüssiges Mehl abschütteln.',
@@ -892,7 +1062,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Fry fish 3-5 minutes per side until golden and cooked through.',
-          sv: 'Stek fisken 3-5 minuter per sida tills den är gyllene och genomstekt.',
+          sv: 'Stek fisken i 3-5 minuter per sida tills den är gyllene och genomstekt.',
           es: 'Freír el pescado de 3 a 5 minutos por lado hasta que esté dorado y bien cocido.',
           fr: 'Faire frire le poisson 3 à 5 minutes de chaque côté jusqu\'à ce qu\'il soit doré et bien cuit.',
           de: 'Den Fisch auf jeder Seite 3–5 Minuten braten, bis er goldbraun und gar ist.',
@@ -914,7 +1084,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Serve fried fish with warm breadfruit slices and extra lime.',
-          sv: 'Servera stekt fisk med varma brödfruktskivor och extra lime.',
+          sv: 'Servera den stekta fisken med varma brödfruktskivor och extra lime.',
           es: 'Sirva el pescado frito con rodajas de fruta del pan calientes y lima extra.',
           fr: 'Servir le poisson frit avec des tranches de fruit à pain chaudes et du citron vert supplémentaire.',
           de: 'Servieren Sie gebratenen Fisch mit warmen Brotfruchtscheiben und extra Limette.',
@@ -925,7 +1095,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Add pepper sauce to taste.',
-          sv: 'Tillsätt pepparsås efter smak.',
+          sv: 'Toppa med chilisås efter smak.',
           es: 'Agrega salsa de pimienta al gusto.',
           fr: 'Ajouter la sauce au poivre au goût.',
           de: 'Nach Geschmack Pfeffersauce hinzufügen.',
@@ -936,7 +1106,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Optional: serve with a simple salad or steamed greens.',
-          sv: 'Valfritt: servera med en enkel sallad eller ångad grönsak.',
+          sv: 'Servera gärna med en enkel sallad eller ångade bladgrönsaker.',
           es: 'Opcional: sírvalo con una ensalada sencilla o verduras al vapor.',
           fr: 'Facultatif : servir avec une simple salade ou des légumes verts cuits à la vapeur.',
           de: 'Optional: Mit einem einfachen Salat oder gedünstetem Gemüse servieren.',
@@ -963,7 +1133,7 @@ export const saintVincentAndTheGrenadines: Country = {
       },
       description: {
         en: 'A lightly sweet coconut bread that can be served as a snack or dessert, often enjoyed with tea or fresh fruit.',
-        sv: 'Ett lätt sött kokosbröd som kan serveras som mellanmål eller efterrätt, ofta avnjutit med te eller färsk frukt.',
+        sv: 'Ett lätt sött kokosbröd som kan serveras som mellanmål eller efterrätt, gärna till te eller färsk frukt.',
         es: 'Un pan de coco ligeramente dulce que se puede servir como refrigerio o postre y que a menudo se disfruta con té o fruta fresca.',
         fr: 'Un pain à la noix de coco légèrement sucré qui peut être servi en collation ou en dessert, souvent accompagné de thé ou de fruits frais.',
         de: 'Ein leicht süßes Kokosnussbrot, das als Snack oder Dessert serviert werden kann, oft mit Tee oder frischem Obst genossen.',
@@ -990,7 +1160,7 @@ export const saintVincentAndTheGrenadines: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1035,7 +1205,7 @@ export const saintVincentAndTheGrenadines: Country = {
         {
           name: {
             en: 'Desiccated coconut',
-            sv: 'Torkad kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco desecado',
             fr: 'Noix de coco desséchée',
             de: 'Kokosraspeln',
@@ -1095,7 +1265,7 @@ export const saintVincentAndTheGrenadines: Country = {
         {
           name: {
             en: 'Pinch of salt',
-            sv: 'Nypa salt',
+            sv: 'Salt',
             es: 'Una pizca de sal',
             fr: 'Pincée de sel',
             de: 'Prise Salz',
@@ -1132,7 +1302,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Mix flour, baking powder, sugar, coconut, and salt in a bowl.',
-          sv: 'Blanda mjöl, bakpulver, socker, kokos och salt i en skål.',
+          sv: 'Blanda vetemjöl, bakpulver, socker, kokos och salt i en skål.',
           es: 'Mezcle la harina, el polvo para hornear, el azúcar, el coco y la sal en un bol.',
           fr: 'Mélanger la farine, la levure chimique, le sucre, la noix de coco et le sel dans un bol.',
           de: 'Mehl, Backpulver, Zucker, Kokosnuss und Salz in einer Schüssel vermischen.',
@@ -1143,7 +1313,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Stir in melted butter, milk, and vanilla until a soft dough/batter forms.',
-          sv: 'Rör ner smält smör, mjölk och vanilj tills en mjuk deg/smet bildats.',
+          sv: 'Rör ner smält smör, mjölk och vanilj tills det blir en mjuk deg eller smet.',
           es: 'Agregue la mantequilla derretida, la leche y la vainilla hasta que se forme una masa suave.',
           fr: 'Incorporer le beurre fondu, le lait et la vanille jusqu\'à ce qu\'une pâte molle se forme.',
           de: 'Geschmolzene Butter, Milch und Vanille einrühren, bis ein weicher Teig/Teig entsteht.',
@@ -1154,7 +1324,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Spread into the tin and smooth the top.',
-          sv: 'Bred ut i formen och jämna till toppen.',
+          sv: 'Bred ut smeten i formen och jämna till ytan.',
           es: 'Extender en el molde y alisar la parte superior.',
           fr: 'Répartir dans le moule et lisser le dessus.',
           de: 'In die Form streichen und die Oberseite glatt streichen.',
@@ -1165,7 +1335,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Bake 30-35 minutes until golden and a toothpick comes out clean.',
-          sv: 'Grädda 30-35 minuter tills de är gyllene och en tandpetare kommer ut ren.',
+          sv: 'Grädda i 30-35 minuter tills brödet är gyllene och en provsticka kommer ut torr.',
           es: 'Hornea 30-35 minutos hasta que estén doradas y al introducir un palillo éste salga limpio.',
           fr: 'Cuire au four 30 à 35 minutes jusqu\'à ce qu\'ils soient dorés et qu\'un cure-dent en ressorte propre.',
           de: '30–35 Minuten backen, bis es goldbraun ist und ein Zahnstocher sauber herauskommt.',
@@ -1176,7 +1346,7 @@ export const saintVincentAndTheGrenadines: Country = {
         },
         {
           en: 'Cool 10-15 minutes before slicing.',
-          sv: 'Kyl 10-15 minuter innan skivning.',
+          sv: 'Låt svalna i 10-15 minuter innan du skär upp brödet.',
           es: 'Deje enfriar de 10 a 15 minutos antes de cortarlo.',
           fr: 'Laisser refroidir 10 à 15 minutes avant de trancher.',
           de: 'Vor dem Schneiden 10–15 Minuten abkühlen lassen.',
@@ -1770,7 +1940,7 @@ export const saintVincentAndTheGrenadines: Country = {
           },
           {
             en: 'Carnaval de Oruro',
-            sv: 'Carnaval de Oruro',
+            sv: 'Karnevalen i Oruro',
             es: 'Carnaval de Oruro',
             fr: 'Carnaval d\'Oruro',
             de: 'Karneval von Oruro',

@@ -365,8 +365,28 @@ export const czechRepublic: Country = {
     ],
     history: [
       {
-        year: '9th century',
-        title: 'Great Moravia',
+        year: {
+          en: '9th century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
+        title: {
+          en: 'Great Moravia',
+          sv: 'Stormähriska riket',
+          es: 'Gran Moravia',
+          fr: 'Grande-Moravie',
+          de: 'Großmähren',
+          it: 'Grande Moravia',
+          pl: 'Wielkie Morawy',
+          nl: 'Groot-Moravië',
+          pt: 'Grande Morávia',
+        },
         description: {
           en: 'The Slavic Great Moravian Empire flourished, bringing Christianity and establishing early Czech identity.',
           sv: 'Det slaviska Mähriska riket blomstrade, förde kristendomen och etablerade en tidig tjeckisk identitet.',
@@ -381,7 +401,17 @@ export const czechRepublic: Country = {
       },
       {
         year: '1348',
-        title: 'Charles University',
+        title: {
+          en: 'Charles University',
+          sv: 'Karlsuniversitetet',
+          es: 'Universidad Carolina',
+          fr: 'Université Charles',
+          de: 'Karls-Universität',
+          it: 'Università Carolina',
+          pl: 'Uniwersytet Karola',
+          nl: 'Karelsuniversiteit',
+          pt: 'Universidade Carolina',
+        },
         description: {
           en: 'Charles IV founded Charles University in Prague, the oldest university in Central Europe.',
           sv: 'Karl IV grundade Charles University i Prag, det äldsta universitetet i Centraleuropa.',
@@ -396,7 +426,17 @@ export const czechRepublic: Country = {
       },
       {
         year: '1918',
-        title: 'Czechoslovakia Founded',
+        title: {
+          en: 'Czechoslovakia Founded',
+          sv: 'Tjeckoslovakien grundas',
+          es: 'Fundación de Checoslovaquia',
+          fr: 'Fondation de la Tchécoslovaquie',
+          de: 'Gründung der Tschechoslowakei',
+          it: 'Fondazione della Cecoslovacchia',
+          pl: 'Utworzenie Czechosłowacji',
+          nl: 'Oprichting van Tsjecho-Slowakije',
+          pt: 'Fundação da Tchecoslováquia',
+        },
         description: {
           en: 'After WWI, Czechoslovakia was established as an independent nation combining Czech lands and Slovakia.',
           sv: 'Efter första världskriget etablerades Tjeckoslovakien som en självständig nation som kombinerade Tjeckien och Slovakien.',
@@ -436,7 +476,17 @@ export const czechRepublic: Country = {
       },
       {
         year: '1993',
-        title: 'Peaceful Separation',
+        title: {
+          en: 'Peaceful Separation',
+          sv: 'Fredlig delning',
+          es: 'Separación pacífica',
+          fr: 'Séparation pacifique',
+          de: 'Friedliche Trennung',
+          it: 'Separazione pacifica',
+          pl: 'Pokojowy podział',
+          nl: 'Vreedzame scheiding',
+          pt: 'Separação pacífica',
+        },
         description: {
           en: 'The "Velvet Divorce" peacefully divided Czechoslovakia into the Czech Republic and Slovakia.',
           sv: '"Velvet Divorce" delade fredligt Tjeckoslovakien i Tjeckien och Slovakien.',
@@ -451,7 +501,17 @@ export const czechRepublic: Country = {
       },
       {
         year: '2004',
-        title: 'EU Membership',
+        title: {
+          en: 'EU Membership',
+          sv: 'EU-medlemskap',
+          es: 'Adhesión a la UE',
+          fr: 'Adhésion à l\'UE',
+          de: 'EU-Beitritt',
+          it: 'Adesione all\'UE',
+          pl: 'Przystąpienie do UE',
+          nl: 'EU-lidmaatschap',
+          pt: 'Adesão à UE',
+        },
         description: {
           en: 'The Czech Republic joined the European Union, strengthening its ties with Western Europe.',
           sv: 'Tjeckien gick med i Europeiska unionen och stärkte sina band med Västeuropa.',
@@ -467,7 +527,17 @@ export const czechRepublic: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen visa rules apply. Many nationalities can visit visa-free for up to 90 days.',
           sv: 'Schengenvisumregler gäller. Många nationaliteter kan besöka visumfritt i upp till 90 dagar.',
@@ -481,7 +551,17 @@ export const czechRepublic: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to September for warm weather; December for Christmas markets',
           sv: 'Maj till september för varmt väder; December för julmarknader',
@@ -495,7 +575,17 @@ export const czechRepublic: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent public transport including trams, metro, and trains.',
           sv: 'Utmärkt kollektivtrafik inklusive spårvagnar, tunnelbana och tåg.',
@@ -509,7 +599,17 @@ export const czechRepublic: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Czech is official. English spoken in tourist areas, especially Prague.',
           sv: 'Tjeckiska är officiellt. Engelska talas i turistområden, särskilt Prag.',
@@ -523,7 +623,17 @@ export const czechRepublic: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe. Watch for pickpockets in tourist areas.',
           sv: 'Mycket säker. Se upp för ficktjuvar i turistområden.',
@@ -674,7 +784,7 @@ export const czechRepublic: Country = {
       },
       description: {
         en: 'The Czech Republic\'s beloved national dish - tender beef sirloin in a creamy vegetable sauce, served with bread dumplings, cranberry sauce, and a slice of lemon. It\'s comfort food at its finest and a must-try in any Czech restaurant.',
-        sv: 'Tjeckiens älskade nationalrätt - mör nötbiff i en krämig grönsakssås, serverad med bröddumplings, tranbärssås och en citronskiva. Det är komfortmat när den är som bäst och ett måste att prova på vilken tjeckisk restaurang som helst.',
+        sv: 'Tjeckiens älskade nationalrätt – mör ryggbiff i en krämig grönsakssås, serverad med brödknödlar, tranbärssylt och en citronskiva. Det är husmanskost när den är som bäst och ett måste på vilken tjeckisk restaurang som helst.',
         es: 'El querido plato nacional de la República Checa: tierno solomillo de ternera en una cremosa salsa de verduras, servido con albóndigas de pan, salsa de arándanos y una rodaja de limón. Es comida reconfortante en su máxima expresión y hay que probarla en cualquier restaurante checo.',
         fr: 'Le plat national bien-aimé de la République tchèque est un surlonge de bœuf tendre dans une sauce crémeuse aux légumes, servi avec des quenelles de pain, une sauce aux canneberges et une tranche de citron. C\'est une cuisine réconfortante à son meilleur et un incontournable dans tout restaurant tchèque.',
         de: 'Das beliebteste Nationalgericht der Tschechischen Republik – zartes Rinderfilet in einer cremigen Gemüsesauce, serviert mit Semmelknödeln, Preiselbeersauce und einer Zitronenscheibe. Es ist Hausmannskost vom Feinsten und ein Muss in jedem tschechischen Restaurant.',
@@ -701,7 +811,7 @@ export const czechRepublic: Country = {
         {
           name: {
             en: 'Beef sirloin',
-            sv: 'Oxbiff',
+            sv: 'Ryggbiff',
             es: 'Solomillo de ternera',
             fr: 'Surlonge de bœuf',
             de: 'Rinderfilet',
@@ -716,7 +826,7 @@ export const czechRepublic: Country = {
         {
           name: {
             en: 'Root vegetables (carrots, celery, parsnip)',
-            sv: 'Rotfrukter (morötter, selleri, palsternacka)',
+            sv: 'Rotfrukter (morötter, rotselleri, palsternacka)',
             es: 'Hortalizas de raíz (zanahorias, apio, chirivía)',
             fr: 'Légumes racines (carottes, céleri, panais)',
             de: 'Wurzelgemüse (Karotten, Sellerie, Pastinaken)',
@@ -756,7 +866,7 @@ export const czechRepublic: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -846,7 +956,7 @@ export const czechRepublic: Country = {
         {
           name: {
             en: 'Bread dumplings',
-            sv: 'Bröddumplings',
+            sv: 'Brödknödlar',
             es: 'Albóndigas de pan',
             fr: 'Boulettes de pain',
             de: 'Semmelknödel',
@@ -872,7 +982,7 @@ export const czechRepublic: Country = {
       steps: [
         {
           en: 'Marinate beef overnight with vegetables, spices, and vinegar',
-          sv: 'Marinera nötkött över natten med grönsaker, kryddor och vinäger',
+          sv: 'Marinera köttet över natten med grönsaker, kryddor och vinäger',
           es: 'Marina la carne durante la noche con verduras, especias y vinagre',
           fr: 'Faire mariner le bœuf toute la nuit avec des légumes, des épices et du vinaigre',
           de: 'Rindfleisch über Nacht mit Gemüse, Gewürzen und Essig marinieren',
@@ -883,7 +993,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Remove beef, pat dry, and sear on all sides',
-          sv: 'Ta bort nötköttet, torka torrt och stek på alla sidor',
+          sv: 'Ta upp köttet, torka det och bryn det runt om',
           es: 'Retire la carne, séquela y dore por todos lados',
           fr: 'Retirer le bœuf, l\'éponger et le saisir de tous les côtés',
           de: 'Rindfleisch herausnehmen, trocken tupfen und von allen Seiten scharf anbraten',
@@ -894,7 +1004,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Roast marinated vegetables until caramelized',
-          sv: 'Rosta marinerade grönsaker tills de är karamelliserade',
+          sv: 'Rosta de marinerade grönsakerna tills de är karamelliserade',
           es: 'Ase las verduras marinadas hasta que estén caramelizadas',
           fr: 'Rôtir les légumes marinés jusqu\'à ce qu\'ils soient caramélisés',
           de: 'Mariniertes Gemüse rösten, bis es karamellisiert ist',
@@ -905,7 +1015,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Simmer beef with vegetables and broth for 1.5 hours until tender',
-          sv: 'Sjud nötkött med grönsaker och buljong i 1,5 timme tills det är mört',
+          sv: 'Låt köttet sjuda med grönsakerna och buljongen i 1,5 timme, tills det är mört',
           es: 'Cocine a fuego lento la carne con verduras y caldo durante 1,5 horas hasta que estén tiernas',
           fr: 'Laisser mijoter le bœuf avec les légumes et le bouillon pendant 1,5 heure jusqu\'à ce qu\'il soit tendre',
           de: 'Rindfleisch mit Gemüse und Brühe 1,5 Stunden köcheln lassen, bis es weich ist',
@@ -916,7 +1026,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Remove beef and blend vegetables with cream into smooth sauce',
-          sv: 'Ta bort nötköttet och blanda grönsaker med grädde till en slät sås',
+          sv: 'Ta upp köttet och mixa grönsakerna med grädden till en slät sås',
           es: 'Retire la carne y mezcle las verduras con la crema hasta obtener una salsa suave',
           fr: 'Retirer le bœuf et mélanger les légumes avec la crème pour obtenir une sauce onctueuse',
           de: 'Das Rindfleisch herausnehmen und das Gemüse mit der Sahne zu einer glatten Soße verrühren',
@@ -927,7 +1037,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Add lemon juice and sugar to sauce, adjust seasoning',
-          sv: 'Tillsätt citronsaft och socker i såsen, justera krydda',
+          sv: 'Tillsätt citronsaft och socker i såsen och smaka av',
           es: 'Agrega el jugo de limón y el azúcar a la salsa, ajusta la sazón',
           fr: 'Ajouter le jus de citron et le sucre à la sauce, rectifier l\'assaisonnement',
           de: 'Zitronensaft und Zucker zur Sauce hinzufügen, abschmecken',
@@ -938,7 +1048,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Slice beef thinly and serve with sauce',
-          sv: 'Skiva nötkött tunt och servera med sås',
+          sv: 'Skiva köttet tunt och servera med såsen',
           es: 'Corta la carne en rodajas finas y sírvela con salsa',
           fr: 'Trancher finement le bœuf et servir avec la sauce',
           de: 'Rindfleisch in dünne Scheiben schneiden und mit Soße servieren',
@@ -949,7 +1059,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Garnish with cranberry sauce, whipped cream, and lemon slice',
-          sv: 'Garnera med tranbärssås, vispad grädde och citronskiva',
+          sv: 'Garnera med tranbärssylt, vispad grädde och en citronskiva',
           es: 'Adorne con salsa de arándanos, crema batida y una rodaja de limón',
           fr: 'Garnir de sauce aux canneberges, de crème fouettée et d\'une tranche de citron',
           de: 'Mit Preiselbeersauce, Schlagsahne und Zitronenscheibe garnieren',
@@ -960,7 +1070,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Serve with warm bread dumplings',
-          sv: 'Servera med varma bröddumplings',
+          sv: 'Servera med varma brödknödlar',
           es: 'Sirva con albóndigas de pan calientes',
           fr: 'Servir avec des boulettes de pain chaudes',
           de: 'Mit warmen Semmelknödeln',
@@ -1337,7 +1447,7 @@ export const czechRepublic: Country = {
         options: [
           {
             en: 'Orange Revolution',
-            sv: 'Orange revolution',
+            sv: 'Orangea revolutionen',
             es: 'Revolución Naranja',
             fr: 'Révolution orange',
             de: 'Orange Revolution',
@@ -1348,7 +1458,7 @@ export const czechRepublic: Country = {
           },
           {
             en: 'Velvet Revolution',
-            sv: 'Sammetsrevolution',
+            sv: 'Sammetsrevolutionen',
             es: 'Revolución de Terciopelo',
             fr: 'Révolution de velours',
             de: 'Samtene Revolution',
@@ -1359,7 +1469,7 @@ export const czechRepublic: Country = {
           },
           {
             en: 'Rose Revolution',
-            sv: 'Rose revolution',
+            sv: 'Rosenrevolutionen',
             es: 'Revolución rosa',
             fr: 'Révolution des roses',
             de: 'Rosenrevolution',
@@ -1370,7 +1480,7 @@ export const czechRepublic: Country = {
           },
           {
             en: 'Cedar Revolution',
-            sv: 'Cedar Revolution',
+            sv: 'Cederrevolutionen',
             es: 'Revolución del cedro',
             fr: 'Révolution du cèdre',
             de: 'Zedernrevolution',
@@ -1562,7 +1672,7 @@ export const czechRepublic: Country = {
       },
       description: {
         en: 'Sweet pastry rolled in cinnamon sugar, grilled over open flame',
-        sv: 'Söt bakelse rullad i kanelsocker, grillad över öppen låga',
+        sv: 'Sött bakverk som rullas i kanelsocker och grillas över öppen eld',
         es: 'Masa dulce enrollada en azúcar con canela y asada a fuego abierto',
         fr: 'Pâte sucrée roulée dans du sucre à la cannelle, grillée à la flamme nue',
         de: 'Süßes Gebäck in Zimtzucker gerollt, über offener Flamme gegrillt',
@@ -1589,7 +1699,7 @@ export const czechRepublic: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1646,7 +1756,7 @@ export const czechRepublic: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1741,7 +1851,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Mix flour, remaining sugar, melted butter, eggs, and yeast mixture.',
-          sv: 'Blanda mjöl, resterande socker, smält smör, ägg och jästblandning.',
+          sv: 'Blanda vetemjöl, resten av sockret, det smälta smöret, äggen och jästblandningen.',
           es: 'Mezcle la harina, el azúcar restante, la mantequilla derretida, los huevos y la mezcla de levadura.',
           fr: 'Mélanger la farine, le reste du sucre, le beurre fondu, les œufs et le mélange de levure.',
           de: 'Mehl, restlichen Zucker, geschmolzene Butter, Eier und Hefemischung vermischen.',
@@ -1752,7 +1862,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Knead into smooth dough, let rise 1 hour.',
-          sv: 'Knåda ihop till smidig deg, låt jäsa 1 timme.',
+          sv: 'Knåda till en smidig deg och låt jäsa i 1 timme.',
           es: 'Amasar hasta obtener una masa suave, dejar reposar 1 hora.',
           fr: 'Pétrir jusqu\'à obtenir une pâte lisse, laisser lever 1 heure.',
           de: 'Zu einem glatten Teig kneten und 1 Stunde gehen lassen.',
@@ -1763,7 +1873,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Roll dough into long strips.',
-          sv: 'Rulla degen till långa remsor.',
+          sv: 'Kavla ut degen och skär den i långa remsor.',
           es: 'Enrolle la masa en tiras largas.',
           fr: 'Abaisser la pâte en longues bandes.',
           de: 'Den Teig in lange Streifen rollen.',
@@ -1774,7 +1884,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Wrap strips around wooden rolling pins.',
-          sv: 'Linda remsor runt träkavel.',
+          sv: 'Linda remsorna runt träkavlar.',
           es: 'Envuelva las tiras alrededor de rodillos de madera.',
           fr: 'Enroulez les bandes autour de rouleaux à pâtisserie en bois.',
           de: 'Wickeln Sie die Streifen um hölzerne Nudelhölzer.',
@@ -1807,7 +1917,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Grill over open flame or bake at 200°C, turning until golden.',
-          sv: 'Grilla över öppen låga eller grädda i 200°C, vänd tills de är gyllene.',
+          sv: 'Grilla över öppen eld eller grädda i ugnen i 200 °C. Vänd dem tills de är gyllene runt om.',
           es: 'Ase a fuego abierto u hornee a 200°C, dándoles vuelta hasta que estén dorados.',
           fr: 'Griller sur une flamme nue ou cuire au four à 200°C en retournant jusqu\'à ce qu\'ils soient dorés.',
           de: 'Über offener Flamme grillen oder bei 200 °C backen und dabei goldbraun wenden.',
@@ -1818,7 +1928,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Slide off pins while warm.',
-          sv: 'Dra av stift medan de är varma.',
+          sv: 'Dra av dem från kavlarna medan de är varma.',
           es: 'Retire los alfileres mientras esté caliente.',
           fr: 'Faites glisser les épingles pendant qu\'elles sont chaudes.',
           de: 'Ziehen Sie die Stifte im warmen Zustand ab.',
@@ -1829,7 +1939,7 @@ export const czechRepublic: Country = {
         },
         {
           en: 'Serve immediately.',
-          sv: 'Servera omedelbart.',
+          sv: 'Servera direkt.',
           es: 'Servir inmediatamente.',
           fr: 'Servir immédiatement.',
           de: 'Sofort servieren.',

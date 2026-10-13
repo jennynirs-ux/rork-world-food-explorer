@@ -99,6 +99,55 @@ describe('country data integrity', () => {
     expect(wrong).toEqual([]);
   });
 
+  it('About-tab headings and era labels carry translations', () => {
+    // Plain strings showed English history titles and travel headings in every language.
+    const plain: string[] = [];
+    const hasWords = (s: unknown) => typeof s === 'string' && /[A-Za-z]/.test(s);
+    for (const c of countries) {
+      c.history?.forEach((h, i) => {
+        if (typeof h.title === 'string') plain.push(`${c.id}:history${i}:title`);
+        if (hasWords(h.year)) plain.push(`${c.id}:history${i}:year`);
+      });
+      c.innovations?.forEach((inv, i) => {
+        if (hasWords(inv.year)) plain.push(`${c.id}:innovation${i}:year`);
+      });
+      c.travelEssentials?.forEach((t, i) => {
+        if (typeof t.item === 'string') plain.push(`${c.id}:travel${i}:item`);
+      });
+    }
+    expect(plain).toEqual([]);
+  });
+
+  it('recipe names and descriptions are not English copies in it/pl/nl/pt', () => {
+    // Identical English text in these four languages meant only en was rewritten for another dish.
+    const english = /\b(with|and|the|of|served)\b/i;
+    const copies: string[] = [];
+    for (const c of countries) {
+      for (const [kind, recipe] of [['main', c.mainDish], ['dessert', c.dessert]] as const) {
+        if (!recipe) continue;
+        for (const field of ['name', 'description'] as const) {
+          const values = ['it', 'pl', 'nl', 'pt'].map((lang) => translateContent(recipe[field], lang));
+          if (new Set(values).size === 1 && english.test(values[0])) copies.push(`${c.id}:${kind}:${field}`);
+        }
+      }
+    }
+    expect(copies).toEqual([]);
+  });
+
+  it('Swedish ingredient names avoid known machine-translation errors', () => {
+    const bad = /^(Älskling|Datumklistra|Tung kräm|Mjöl för alla ändamål|Chaux|Mullvad|Bröd)$/i;
+    const wrong: string[] = [];
+    for (const c of countries) {
+      for (const recipe of [c.mainDish, c.dessert]) {
+        for (const ing of recipe?.ingredients ?? []) {
+          const sv = translateContent(ing.name, 'sv');
+          if (bad.test(sv.trim())) wrong.push(`${c.id}:${sv}`);
+        }
+      }
+    }
+    expect(wrong).toEqual([]);
+  });
+
   it('has a name in every supported language', () => {
     const missing: string[] = [];
     for (const c of countries) {

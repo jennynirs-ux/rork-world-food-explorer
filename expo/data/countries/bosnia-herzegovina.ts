@@ -125,7 +125,7 @@ export const bosniaHerzegovina: Country = {
         },
         value: {
           en: 'Convertible Mark',
-          sv: 'Convertible Mark',
+          sv: 'Konvertibel mark',
           es: 'Marca convertible',
           fr: 'Marque convertible',
           de: 'Wandelbare Mark',
@@ -263,8 +263,28 @@ export const bosniaHerzegovina: Country = {
     },
     history: [
       {
-        year: 'Medieval Period',
-        title: 'Kingdom of Bosnia',
+        year: {
+          en: 'Medieval Period',
+          sv: 'Medeltiden',
+          es: 'Edad Media',
+          fr: 'Moyen Âge',
+          de: 'Mittelalter',
+          it: 'Medioevo',
+          pl: 'Średniowiecze',
+          nl: 'Middeleeuwen',
+          pt: 'Idade Média',
+        },
+        title: {
+          en: 'Kingdom of Bosnia',
+          sv: 'Kungariket Bosnien',
+          es: 'Reino de Bosnia',
+          fr: 'Royaume de Bosnie',
+          de: 'Königreich Bosnien',
+          it: 'Regno di Bosnia',
+          pl: 'Królestwo Bośni',
+          nl: 'Koninkrijk Bosnië',
+          pt: 'Reino da Bósnia',
+        },
         description: {
           en: 'Bosnia emerged as an independent medieval kingdom, developing its own Christian church and culture before Ottoman arrival.',
           sv: 'Bosnien uppstod som ett självständigt medeltida kungarike och utvecklade sin egen kristna kyrka och kultur innan den osmanska ankomsten.',
@@ -279,7 +299,17 @@ export const bosniaHerzegovina: Country = {
       },
       {
         year: '1463-1878',
-        title: 'Ottoman Rule',
+        title: {
+          en: 'Ottoman Rule',
+          sv: 'Osmanskt styre',
+          es: 'Dominio otomano',
+          fr: 'Domination ottomane',
+          de: 'Osmanische Herrschaft',
+          it: 'Dominazione ottomana',
+          pl: 'Panowanie osmańskie',
+          nl: 'Ottomaanse overheersing',
+          pt: 'Domínio otomano',
+        },
         description: {
           en: 'The Ottoman Empire conquered Bosnia, bringing Islam, new architecture, and cultural influences that still shape the region.',
           sv: 'Det osmanska riket erövrade Bosnien och förde med sig islam, ny arkitektur och kulturella influenser som fortfarande formar regionen.',
@@ -294,7 +324,17 @@ export const bosniaHerzegovina: Country = {
       },
       {
         year: '1878-1918',
-        title: 'Austro-Hungarian Period',
+        title: {
+          en: 'Austro-Hungarian Period',
+          sv: 'Den österrikisk-ungerska tiden',
+          es: 'Período austrohúngaro',
+          fr: 'Période austro-hongroise',
+          de: 'Österreichisch-ungarische Zeit',
+          it: 'Periodo austro-ungarico',
+          pl: 'Okres austro-węgierski',
+          nl: 'Oostenrijks-Hongaarse periode',
+          pt: 'Período austro-húngaro',
+        },
         description: {
           en: 'Bosnia came under Austro-Hungarian control, leading to modernization and the 1914 assassination that triggered WWI.',
           sv: 'Bosnien kom under österrikisk-ungersk kontroll, vilket ledde till modernisering och mordet 1914 som utlöste första världskriget.',
@@ -309,7 +349,17 @@ export const bosniaHerzegovina: Country = {
       },
       {
         year: '1918-1992',
-        title: 'Yugoslav Era',
+        title: {
+          en: 'Yugoslav Era',
+          sv: 'Jugoslaviska tiden',
+          es: 'Época yugoslava',
+          fr: 'Époque yougoslave',
+          de: 'Jugoslawische Ära',
+          it: 'Epoca jugoslava',
+          pl: 'Okres jugosłowiański',
+          nl: 'Joegoslavische periode',
+          pt: 'Era iugoslava',
+        },
         description: {
           en: 'Bosnia became part of Yugoslavia, experiencing socialist modernization and hosting the 1984 Winter Olympics.',
           sv: 'Bosnien blev en del av Jugoslavien, upplevde en socialistisk modernisering och var värd för vinter-OS 1984.',
@@ -324,7 +374,17 @@ export const bosniaHerzegovina: Country = {
       },
       {
         year: '1992-1995',
-        title: 'Bosnian War',
+        title: {
+          en: 'Bosnian War',
+          sv: 'Bosnienkriget',
+          es: 'Guerra de Bosnia',
+          fr: 'Guerre de Bosnie',
+          de: 'Bosnienkrieg',
+          it: 'Guerra in Bosnia',
+          pl: 'Wojna w Bośni',
+          nl: 'Bosnische Oorlog',
+          pt: 'Guerra da Bósnia',
+        },
         description: {
           en: 'A devastating conflict followed Yugoslavia\'s breakup, resulting in massive casualties and the Dayton Peace Agreement.',
           sv: 'En förödande konflikt följde Jugoslaviens upplösning, vilket resulterade i massiva offer och Dayton-fredsavtalet.',
@@ -338,8 +398,28 @@ export const bosniaHerzegovina: Country = {
         },
       },
       {
-        year: '1995-Present',
-        title: 'Post-War Recovery',
+        year: {
+          en: '1995-Present',
+          sv: '1995–idag',
+          es: '1995–actualidad',
+          fr: '1995–aujourd\'hui',
+          de: '1995–heute',
+          it: '1995–oggi',
+          pl: '1995–obecnie',
+          nl: '1995–heden',
+          pt: '1995–presente',
+        },
+        title: {
+          en: 'Post-War Recovery',
+          sv: 'Återuppbyggnad efter kriget',
+          es: 'Recuperación de posguerra',
+          fr: 'Reconstruction d\'après-guerre',
+          de: 'Wiederaufbau nach dem Krieg',
+          it: 'Ripresa del dopoguerra',
+          pl: 'Odbudowa powojenna',
+          nl: 'Wederopbouw na de oorlog',
+          pt: 'Recuperação pós-guerra',
+        },
         description: {
           en: 'Bosnia and Herzegovina emerged as an independent state, working toward reconciliation and European integration.',
           sv: 'Bosnien och Hercegovina växte fram som en självständig stat som arbetade mot försoning och europeisk integration.',
@@ -391,7 +471,17 @@ export const bosniaHerzegovina: Country = {
           nl: 'Baščaršija-marktplein',
           pt: 'Mercado de Baščaršija',
         },
-        year: '15th Century',
+        year: {
+          en: '15th Century',
+          sv: '1400-talet',
+          es: 'Siglo XV',
+          fr: 'XVe siècle',
+          de: '15. Jahrhundert',
+          it: 'XV secolo',
+          pl: 'XV wiek',
+          nl: '15e eeuw',
+          pt: 'Século XV',
+        },
         description: {
           en: 'Sarajevo\'s old bazaar became a model of Ottoman urban planning and multicultural commerce in the Balkans.',
           sv: 'Sarajevos gamla basar blev en modell för ottomansk stadsplanering och mångkulturell handel på Balkan.',
@@ -416,7 +506,17 @@ export const bosniaHerzegovina: Country = {
           nl: 'Bosnische koffietraditie',
           pt: 'Tradição do café bósnio',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Bosnia developed unique coffee preparation and serving customs, becoming an integral part of social life and hospitality.',
           sv: 'Bosnien utvecklade unika kaffeberednings- och serveringsvanor och blev en integrerad del av det sociala livet och gästfriheten.',
@@ -441,7 +541,17 @@ export const bosniaHerzegovina: Country = {
           nl: 'Modellen voor verzoening na een conflict',
           pt: 'Modelos de reconciliação pós-conflito',
         },
-        year: '1990s-2000s',
+        year: {
+          en: '1990s-2000s',
+          sv: '1990–2000-talen',
+          es: 'Décadas de 1990–2000',
+          fr: 'Années 1990–2000',
+          de: '1990er–2000er',
+          it: 'Anni \'90–2000',
+          pl: 'Lata 90.–2000.',
+          nl: 'Jaren 90–2000',
+          pt: 'Décadas de 1990–2000',
+        },
         description: {
           en: 'Bosnia\'s experience with post-war reconciliation and transitional justice has informed international peacebuilding efforts.',
           sv: 'Bosniens erfarenhet av efterkrigsförsoning och övergångsrättvisa har varit till hjälp för internationella fredsbyggande ansträngningar.',
@@ -531,7 +641,7 @@ export const bosniaHerzegovina: Country = {
       {
         name: {
           en: 'Blagaj Tekke',
-          sv: 'Blagaj Tekke',
+          sv: 'Dervischklostret i Blagaj',
           es: 'Blagaj Tekke',
           fr: 'Blagaj Tekke',
           de: 'Blagaj Tekke',
@@ -555,7 +665,7 @@ export const bosniaHerzegovina: Country = {
       {
         name: {
           en: 'Jahorina & Bjelašnica',
-          sv: 'Jahorina & Bjelašnica',
+          sv: 'Jahorina och Bjelašnica',
           es: 'Jahorina y Bjelašnica',
           fr: 'Jahorina et Bjelašnica',
           de: 'Jahorina & Bjelašnica',
@@ -579,7 +689,17 @@ export const bosniaHerzegovina: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for warm weather; December-March for skiing.',
           sv: 'Maj-september för varmt väder; December-mars för skidåkning.',
@@ -593,7 +713,17 @@ export const bosniaHerzegovina: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can enter visa-free for up to 90 days.',
           sv: 'Många nationaliteter kan resa in visumfritt i upp till 90 dagar.',
@@ -631,7 +761,17 @@ export const bosniaHerzegovina: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Bosnian, Croatian, Serbian are mutually intelligible. English spoken in tourist areas.',
           sv: 'Bosniska, kroatiska, serbiska är ömsesidigt begripliga. Engelska talas i turistområden.',
@@ -645,7 +785,17 @@ export const bosniaHerzegovina: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe for tourists. Avoid landmine-marked areas off main paths.',
           sv: 'Generellt säker för turister. Undvik landminmarkerade områden utanför huvudstigarna.',
@@ -659,7 +809,17 @@ export const bosniaHerzegovina: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'ATMs widely available in cities. Small towns prefer cash.',
           sv: 'Uttagsautomater är allmänt tillgängliga i städer. Små städer föredrar kontanter.',
@@ -688,7 +848,7 @@ export const bosniaHerzegovina: Country = {
       },
       description: {
         en: 'Grilled minced meat sausages served with flatbread',
-        sv: 'Grillad köttfärskorv serverad med tunnbröd',
+        sv: 'Små grillade korvar av köttfärs som serveras i flatbröd',
         es: 'Salchichas de carne picada a la parrilla servidas con pan plano',
         fr: 'Saucisses de viande hachée grillées servies avec du pain plat',
         de: 'Gegrillte Hackfleischwürste, serviert mit Fladenbrot',
@@ -730,7 +890,7 @@ export const bosniaHerzegovina: Country = {
         {
           name: {
             en: 'Ground lamb',
-            sv: 'Malet lamm',
+            sv: 'Lammfärs',
             es: 'Cordero molido',
             fr: 'Agneau haché',
             de: 'Lammhackfleisch',
@@ -785,7 +945,7 @@ export const bosniaHerzegovina: Country = {
         {
           name: {
             en: 'Somun bread',
-            sv: 'Somun bröd',
+            sv: 'Somunbröd',
             es: 'pan somun',
             fr: 'Pain de somun',
             de: 'Somun-Brot',
@@ -810,7 +970,7 @@ export const bosniaHerzegovina: Country = {
         {
           name: {
             en: 'Kajmak cream',
-            sv: 'Kajmak kräm',
+            sv: 'Kajmak',
             es: 'Crema kajmak',
             fr: 'Crème Kajmak',
             de: 'Kajmak-Creme',
@@ -826,7 +986,7 @@ export const bosniaHerzegovina: Country = {
       steps: [
         {
           en: 'Mix ground meats with minced garlic and spices',
-          sv: 'Blanda köttfärs med hackad vitlök och kryddor',
+          sv: 'Blanda färsen med finhackad vitlök och kryddor',
           es: 'Mezclar carnes molidas con ajo picado y especias',
           fr: 'Mélanger les viandes hachées avec l\'ail émincé et les épices',
           de: 'Hackfleisch mit gehacktem Knoblauch und Gewürzen mischen',
@@ -837,7 +997,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Form into small sausage shapes',
-          sv: 'Forma till små korvformar',
+          sv: 'Forma färsen till små avlånga korvar',
           es: 'Forme pequeñas salchichas',
           fr: 'Former des petites saucisses',
           de: 'Zu kleinen Wurstformen formen',
@@ -859,7 +1019,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Grill over charcoal until cooked',
-          sv: 'Grilla över kol tills de är kokta',
+          sv: 'Grilla över kol tills de är genomstekta',
           es: 'Ase sobre carbón hasta que esté cocido',
           fr: 'Griller sur du charbon de bois jusqu\'à ce qu\'il soit cuit',
           de: 'Über Holzkohle grillen, bis es gar ist',
@@ -881,7 +1041,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Add ajvar sauce on the side',
-          sv: 'Lägg till ajvarsås vid sidan av',
+          sv: 'Servera med ajvar vid sidan av',
           es: 'Agrega salsa ajvar al lado',
           fr: 'Ajouter la sauce ajvar à côté',
           de: 'Ajvar-Sauce als Beilage hinzufügen',
@@ -908,7 +1068,7 @@ export const bosniaHerzegovina: Country = {
       },
       description: {
         en: 'Poached apples stuffed with walnuts, served with whipped cream',
-        sv: 'Pocherade äpplen fyllda med valnötter, serverade med vispgrädde',
+        sv: 'Pocherade äpplen fyllda med valnötter som serveras med vispad grädde',
         es: 'Manzanas escalfadas rellenas de nueces, servidas con crema batida',
         fr: 'Pommes pochées farcies aux noix, servies avec de la chantilly',
         de: 'Pochierte Äpfel gefüllt mit Walnüssen, serviert mit Schlagsahne',
@@ -947,7 +1107,7 @@ export const bosniaHerzegovina: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1045,7 +1205,7 @@ export const bosniaHerzegovina: Country = {
         {
           name: {
             en: 'Powdered sugar',
-            sv: 'Strösocker',
+            sv: 'Florsocker',
             es: 'Azúcar en polvo',
             fr: 'Sucre en poudre',
             de: 'Puderzucker',
@@ -1061,7 +1221,7 @@ export const bosniaHerzegovina: Country = {
       steps: [
         {
           en: 'Peel apples and carefully core them, leaving bottom intact.',
-          sv: 'Skala äpplena och kärna ur dem försiktigt, lämna botten intakt.',
+          sv: 'Skala äpplena och kärna försiktigt ur dem utan att gå igenom botten.',
           es: 'Pele las manzanas y quíteles el corazón con cuidado, dejando el fondo intacto.',
           fr: 'Épluchez les pommes et épépinez-les soigneusement en laissant le fond intact.',
           de: 'Äpfel schälen und vorsichtig entkernen, dabei den Boden intakt lassen.',
@@ -1083,7 +1243,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Stuff apples with walnut mixture.',
-          sv: 'Fyll äpplen med valnötsblandning.',
+          sv: 'Fyll äpplena med valnötsblandningen.',
           es: 'Rellena las manzanas con la mezcla de nueces.',
           fr: 'Farcir les pommes avec le mélange de noix.',
           de: 'Äpfel mit Walnussmischung füllen.',
@@ -1094,7 +1254,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Boil remaining sugar with water and lemon juice.',
-          sv: 'Koka upp resterande socker med vatten och citronsaft.',
+          sv: 'Koka upp resten av sockret med vattnet och citronsaften till en sockerlag.',
           es: 'Hervir el azúcar restante con agua y jugo de limón.',
           fr: 'Faire bouillir le reste du sucre avec l\'eau et le jus de citron.',
           de: 'Restlichen Zucker mit Wasser und Zitronensaft aufkochen.',
@@ -1105,7 +1265,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Place apples in syrup, simmer 20-25 minutes until tender.',
-          sv: 'Lägg äpplena i sirap, låt sjuda i 20-25 minuter tills de är mjuka.',
+          sv: 'Lägg äpplena i sockerlagen och låt sjuda i 20–25 minuter tills de är mjuka.',
           es: 'Coloque las manzanas en almíbar y cocine a fuego lento durante 20 a 25 minutos hasta que estén tiernas.',
           fr: 'Placer les pommes dans le sirop, laisser mijoter 20 à 25 minutes jusqu\'à ce qu\'elles soient tendres.',
           de: 'Äpfel in Sirup geben und 20–25 Minuten köcheln lassen, bis sie weich sind.',
@@ -1116,7 +1276,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Let cool in syrup, refrigerate.',
-          sv: 'Låt svalna i sirap, kyl.',
+          sv: 'Låt äpplena svalna i sockerlagen och ställ dem sedan i kylen.',
           es: 'Dejar enfriar en almíbar, refrigerar.',
           fr: 'Laisser refroidir dans le sirop, réfrigérer.',
           de: 'Im Sirup abkühlen lassen, kühl stellen.',
@@ -1127,7 +1287,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Whip cream with powdered sugar.',
-          sv: 'Vispa grädde med strösocker.',
+          sv: 'Vispa grädden med florsocker.',
           es: 'Montar la nata con el azúcar glass.',
           fr: 'Fouetter la crème avec le sucre en poudre.',
           de: 'Sahne mit Puderzucker aufschlagen.',
@@ -1138,7 +1298,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Serve chilled apples with syrup.',
-          sv: 'Servera kylda äpplen med sirap.',
+          sv: 'Servera de kalla äpplena med sockerlagen.',
           es: 'Sirva las manzanas frías con almíbar.',
           fr: 'Servir les pommes réfrigérées avec du sirop.',
           de: 'Gekühlte Äpfel mit Sirup servieren.',
@@ -1149,7 +1309,7 @@ export const bosniaHerzegovina: Country = {
         },
         {
           en: 'Top with whipped cream.',
-          sv: 'Toppa med vispad grädde.',
+          sv: 'Toppa med den vispade grädden.',
           es: 'Cubra con crema batida.',
           fr: 'Garnir de crème fouettée.',
           de: 'Mit Schlagsahne belegen.',
@@ -1576,7 +1736,7 @@ export const bosniaHerzegovina: Country = {
         options: [
           {
             en: 'Grand Bazaar',
-            sv: 'Grand Bazaar',
+            sv: 'Stora basaren',
             es: 'Gran Bazar',
             fr: 'Grand Bazar',
             de: 'Großer Basar',
@@ -1680,7 +1840,7 @@ export const bosniaHerzegovina: Country = {
           },
           {
             en: 'Convertible Mark',
-            sv: 'Convertible Mark',
+            sv: 'Konvertibel mark',
             es: 'Marca convertible',
             fr: 'Marque convertible',
             de: 'Wandelbare Mark',

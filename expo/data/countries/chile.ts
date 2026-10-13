@@ -263,8 +263,28 @@ export const chile: Country = {
     },
     history: [
       {
-        year: '12,000 BC',
-        title: 'Indigenous Peoples',
+        year: {
+          en: '12,000 BC',
+          sv: '12 000 f.Kr.',
+          es: '12 000 a. C.',
+          fr: '12 000 av. J.-C.',
+          de: '12.000 v. Chr.',
+          it: '12.000 a.C.',
+          pl: '12 000 p.n.e.',
+          nl: '12.000 v.Chr.',
+          pt: '12.000 a.C.',
+        },
+        title: {
+          en: 'Indigenous Peoples',
+          sv: 'Ursprungsfolk',
+          es: 'Pueblos originarios',
+          fr: 'Peuples autochtones',
+          de: 'Indigene Völker',
+          it: 'Popoli indigeni',
+          pl: 'Ludy rdzenne',
+          nl: 'Inheemse volken',
+          pt: 'Povos indígenas',
+        },
         description: {
           en: 'Various indigenous groups including the Mapuche inhabited the region for thousands of years.',
           sv: 'Olika inhemska grupper inklusive Mapuche bebodde regionen i tusentals år.',
@@ -279,7 +299,17 @@ export const chile: Country = {
       },
       {
         year: '1540',
-        title: 'Spanish Conquest',
+        title: {
+          en: 'Spanish Conquest',
+          sv: 'Spanska erövringen',
+          es: 'Conquista española',
+          fr: 'Conquête espagnole',
+          de: 'Spanische Eroberung',
+          it: 'Conquista spagnola',
+          pl: 'Podbój hiszpański',
+          nl: 'Spaanse verovering',
+          pt: 'Conquista espanhola',
+        },
         description: {
           en: 'Spanish conquistadors led by Pedro de Valdivia began colonization, founding Santiago in 1541.',
           sv: 'Spanska conquistadorer ledda av Pedro de Valdivia började kolonisera och grundade Santiago 1541.',
@@ -294,7 +324,17 @@ export const chile: Country = {
       },
       {
         year: '1810-1818',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Chile fought for and gained independence from Spain, led by Bernardo O\'Higgins and José de San Martín.',
           sv: 'Chile kämpade för och fick självständighet från Spanien, ledd av Bernardo O\'Higgins och José de San Martín.',
@@ -309,7 +349,17 @@ export const chile: Country = {
       },
       {
         year: '1879-1884',
-        title: 'War of the Pacific',
+        title: {
+          en: 'War of the Pacific',
+          sv: 'Salpeterkriget',
+          es: 'Guerra del Pacífico',
+          fr: 'Guerre du Pacifique',
+          de: 'Salpeterkrieg',
+          it: 'Guerra del Pacifico',
+          pl: 'Wojna o Pacyfik',
+          nl: 'Salpeteroorlog',
+          pt: 'Guerra do Pacífico',
+        },
         description: {
           en: 'Chile defeated Peru and Bolivia, gaining significant northern territory rich in natural resources.',
           sv: 'Chile besegrade Peru och Bolivia och fick ett betydande nordligt territorium rikt på naturresurser.',
@@ -324,7 +374,17 @@ export const chile: Country = {
       },
       {
         year: '1973-1990',
-        title: 'Military Dictatorship',
+        title: {
+          en: 'Military Dictatorship',
+          sv: 'Militärdiktatur',
+          es: 'Dictadura militar',
+          fr: 'Dictature militaire',
+          de: 'Militärdiktatur',
+          it: 'Dittatura militare',
+          pl: 'Dyktatura wojskowa',
+          nl: 'Militaire dictatuur',
+          pt: 'Ditadura militar',
+        },
         description: {
           en: 'General Pinochet\'s military regime controlled Chile, a dark period that ended with return to democracy.',
           sv: 'General Pinochets militärregim kontrollerade Chile, en mörk period som slutade med återgång till demokrati.',
@@ -339,7 +399,17 @@ export const chile: Country = {
       },
       {
         year: '2010',
-        title: 'Modern Era',
+        title: {
+          en: 'Modern Era',
+          sv: 'Modern tid',
+          es: 'Época contemporánea',
+          fr: 'Époque contemporaine',
+          de: 'Gegenwart',
+          it: 'Età contemporanea',
+          pl: 'Czasy współczesne',
+          nl: 'Moderne tijd',
+          pt: 'Época contemporânea',
+        },
         description: {
           en: 'Chile joined the OECD and continued developing as one of South America\'s most stable economies.',
           sv: 'Chile gick med i OECD och fortsatte att utvecklas som en av Sydamerikas mest stabila ekonomier.',
@@ -366,7 +436,17 @@ export const chile: Country = {
           nl: 'Innovatie in de wijnindustrie',
           pt: 'Inovação na indústria vinícola',
         },
-        year: '1980s-present',
+        year: {
+          en: '1980s-present',
+          sv: '1980-talet–idag',
+          es: 'Década de 1980–actualidad',
+          fr: 'Années 1980–aujourd\'hui',
+          de: '1980er–heute',
+          it: 'Anni \'80–oggi',
+          pl: 'Lata 80.–obecnie',
+          nl: 'Jaren 80–heden',
+          pt: 'Década de 1980–presente',
+        },
         description: {
           en: 'Revolutionized modern winemaking techniques in South America, particularly with Carmenère grape cultivation, making Chile a world leader in quality wine production.',
           sv: 'Revolutionerade moderna vinframställningstekniker i Sydamerika, särskilt med Carmenère-druvodling, vilket gjorde Chile till världsledande inom kvalitetsvinproduktion.',
@@ -391,7 +471,17 @@ export const chile: Country = {
           nl: 'Seismische techniek',
           pt: 'Engenharia sísmica',
         },
-        year: '20th century',
+        year: {
+          en: '20th century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Developed advanced earthquake-resistant building techniques that became global standards after surviving numerous major earthquakes.',
           sv: 'Utvecklade avancerade jordbävningsbeständiga byggtekniker som blev globala standarder efter att ha överlevt många stora jordbävningar.',
@@ -416,7 +506,17 @@ export const chile: Country = {
           nl: 'Kopermijnbouwtechnologie',
           pt: 'Tecnologia de mineração de cobre',
         },
-        year: '1900s-present',
+        year: {
+          en: '1900s-present',
+          sv: '1900-talet–idag',
+          es: 'siglo XX – actualidad',
+          fr: 'XXe siècle – aujourd\'hui',
+          de: '20. Jahrhundert – heute',
+          it: 'XX secolo – oggi',
+          pl: 'XX wiek – obecnie',
+          nl: '20e eeuw – heden',
+          pt: 'século XX – presente',
+        },
         description: {
           en: 'Pioneered large-scale open-pit copper mining methods and extraction technologies, producing over 25% of world\'s copper supply.',
           sv: 'Banade med storskaliga kopparbrytningsmetoder och utvinningstekniker i dagbrott, och producerade över 25 % av världens kopparförsörjning.',
@@ -441,7 +541,17 @@ export const chile: Country = {
           nl: 'Antarctisch onderzoek',
           pt: 'Investigação antártica',
         },
-        year: '1940s-present',
+        year: {
+          en: '1940s-present',
+          sv: '1940-talet–idag',
+          es: 'Década de 1940–actualidad',
+          fr: 'Années 1940–aujourd\'hui',
+          de: '1940er–heute',
+          it: 'Anni \'40–oggi',
+          pl: 'Lata 40.–obecnie',
+          nl: 'Jaren 40–heden',
+          pt: 'Década de 1940–presente',
+        },
         description: {
           en: 'Established early Antarctic bases and contributed significantly to climate science and polar research from South America.',
           sv: 'Etablerade tidiga antarktiska baser och bidrog avsevärt till klimatvetenskap och polarforskning från Sydamerika.',
@@ -579,7 +689,17 @@ export const chile: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can visit visa-free for tourism up to 90 days.',
           sv: 'Många nationaliteter kan besöka visumfritt för turism upp till 90 dagar.',
@@ -593,7 +713,17 @@ export const chile: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to February (summer) for most regions; June-September for skiing',
           sv: 'December till februari (sommar) för de flesta regioner; Juni-september för skidåkning',
@@ -607,7 +737,17 @@ export const chile: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights, long-distance buses, metro in Santiago.',
           sv: 'Inrikesflyg, långväga bussar, tunnelbana i Santiago.',
@@ -621,7 +761,17 @@ export const chile: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Spanish with unique Chilean slang. English in tourist areas.',
           sv: 'Spanska med unik chilensk slang. engelska i turistområden.',
@@ -635,7 +785,17 @@ export const chile: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe by South American standards. Standard precautions in cities.',
           sv: 'Mycket säker med sydamerikanska standarder. Standardförsiktighetsåtgärder i städer.',
@@ -664,7 +824,7 @@ export const chile: Country = {
       },
       description: {
         en: 'Chile\'s comfort food - a hearty casserole with a savory ground beef filling (pino) topped with a sweet corn cough. The contrast between the sweet corn topping and savory meat is what makes this dish special. Traditionally baked in clay dishes.',
-        sv: 'Chiles komfortmat - en rejäl gryta med en välsmakande nötfärsfyllning (pino) toppad med majshosta. Kontrasten mellan sockermajstoppingen och det salta köttet är det som gör denna rätt speciell. Traditionellt bakat i lerrätter.',
+        sv: 'Chilensk husmanskost – en rejäl ugnsrätt med en välkryddad fyllning av nötfärs (pino) under ett täcke av söt majsröra. Det är kontrasten mellan den söta majsen och den salta färsen som gör rätten så speciell. Den bakas traditionellt i lerformar.',
         es: 'La comida reconfortante de Chile: una cazuela abundante con un sabroso relleno de carne molida (pino) cubierta con tos de maíz dulce. El contraste entre la cobertura de maíz dulce y la sabrosa carne es lo que hace que este plato sea especial. Tradicionalmente horneado en cazuelas de barro.',
         fr: 'La nourriture réconfortante du Chili : une cocotte copieuse avec une garniture savoureuse de bœuf haché (pino) surmontée d\'une toux de maïs sucrée. Le contraste entre la garniture de maïs sucrée et la viande salée est ce qui rend ce plat spécial. Traditionnellement cuit dans des plats en argile.',
         de: 'Chiles Hausmannskost – ein herzhafter Auflauf mit einer herzhaften Hackfleischfüllung (Pino), garniert mit Maishusten. Der Kontrast zwischen dem Zuckermais-Topping und dem herzhaften Fleisch macht dieses Gericht zu etwas Besonderem. Traditionell in Tonschalen gebacken.',
@@ -836,7 +996,7 @@ export const chile: Country = {
         {
           name: {
             en: 'Cumin, paprika',
-            sv: 'Kummin, paprika',
+            sv: 'Spiskummin, paprikapulver',
             es: 'Comino, pimentón',
             fr: 'Cumin, paprika',
             de: 'Kreuzkümmel, Paprika',
@@ -877,7 +1037,7 @@ export const chile: Country = {
       steps: [
         {
           en: 'Sauté onions until soft, add ground beef and spices, cook until browned',
-          sv: 'Fräs löken tills den är mjuk, tillsätt nötfärs och kryddor, koka tills den fått färg',
+          sv: 'Fräs löken tills den är mjuk, tillsätt nötfärsen och kryddorna och stek tills färsen har fått färg',
           es: 'Saltee las cebollas hasta que estén blandas, agregue la carne molida y las especias, cocine hasta que se doren',
           fr: 'Faire revenir les oignons jusqu\'à ce qu\'ils soient tendres, ajouter le bœuf haché et les épices, cuire jusqu\'à ce qu\'ils soient dorés',
           de: 'Zwiebeln anbraten, bis sie weich sind, Hackfleisch und Gewürze hinzufügen und braten, bis sie braun sind',
@@ -888,7 +1048,7 @@ export const chile: Country = {
         },
         {
           en: 'Add raisins and basil, set aside to cool',
-          sv: 'Tillsätt russin och basilika, ställ åt sidan för att svalna',
+          sv: 'Tillsätt russin och basilika och låt svalna',
           es: 'Agregue las pasas y la albahaca, deje enfriar',
           fr: 'Ajouter les raisins secs et le basilic, laisser refroidir',
           de: 'Rosinen und Basilikum hinzufügen, zum Abkühlen beiseite stellen',
@@ -899,7 +1059,7 @@ export const chile: Country = {
         },
         {
           en: 'Blend corn kernels until smooth, cook with butter and basil until thick',
-          sv: 'Mixa majskärnor tills det är slätt, koka med smör och basilika tills det blir tjockt',
+          sv: 'Mixa majskärnorna slätt och koka majsröran med smör och basilika tills den tjocknar',
           es: 'Licue los granos de maíz hasta que queden suaves, cocine con mantequilla y albahaca hasta que espese',
           fr: 'Mélanger les grains de maïs jusqu\'à consistance lisse, cuire avec du beurre et du basilic jusqu\'à épaississement',
           de: 'Maiskörner glatt rühren, mit Butter und Basilikum dick kochen',
@@ -910,7 +1070,7 @@ export const chile: Country = {
         },
         {
           en: 'In baking dish, layer the meat mixture',
-          sv: 'I en ugnsform, varva köttblandningen',
+          sv: 'Bred ut köttblandningen i botten av en ugnsform',
           es: 'En una fuente para hornear, coloque capas de la mezcla de carne',
           fr: 'Dans un plat allant au four, répartir le mélange de viande',
           de: 'In die Auflaufform die Fleischmischung schichten',
@@ -921,7 +1081,7 @@ export const chile: Country = {
         },
         {
           en: 'Add sliced hard-boiled eggs, chicken pieces, and olives',
-          sv: 'Lägg till skivade hårdkokta ägg, kycklingbitar och oliver',
+          sv: 'Lägg på skivade hårdkokta ägg, kycklingbitar och oliver',
           es: 'Agregue huevos duros en rodajas, trozos de pollo y aceitunas',
           fr: 'Ajouter les œufs durs tranchés, les morceaux de poulet et les olives',
           de: 'In Scheiben geschnittene hartgekochte Eier, Hähnchenstücke und Oliven hinzufügen',
@@ -932,7 +1092,7 @@ export const chile: Country = {
         },
         {
           en: 'Cover completely with corn mixture',
-          sv: 'Täck helt med majsblandning',
+          sv: 'Täck helt med majsröran',
           es: 'Cubrir completamente con la mezcla de maíz',
           fr: 'Couvrir complètement avec le mélange de maïs',
           de: 'Vollständig mit der Maismischung bedecken',
@@ -943,7 +1103,7 @@ export const chile: Country = {
         },
         {
           en: 'Sprinkle with sugar on top',
-          sv: 'Strö över socker på toppen',
+          sv: 'Strö socker över ytan',
           es: 'Espolvorear con azúcar por encima',
           fr: 'Saupoudrer de sucre',
           de: 'Mit Zucker bestreuen',
@@ -954,7 +1114,7 @@ export const chile: Country = {
         },
         {
           en: 'Bake at 200°C for 30-40 minutes until golden',
-          sv: 'Grädda i 200°C i 30-40 minuter tills de är gyllene',
+          sv: 'Grädda i 200°C i 30–40 minuter tills ytan är gyllene',
           es: 'Hornear a 200°C durante 30-40 minutos hasta que esté dorado',
           fr: 'Cuire au four à 200°C pendant 30 à 40 minutes jusqu\'à ce qu\'ils soient dorés',
           de: 'Bei 200°C 30-40 Minuten goldbraun backen',
@@ -981,7 +1141,7 @@ export const chile: Country = {
       },
       description: {
         en: 'Refreshing traditional Chilean drink-dessert with wheat, dried peaches, and sweet syrup',
-        sv: 'Uppfriskande traditionell chilensk drink-dessert med vete, torkade persikor och söt sirap',
+        sv: 'Uppfriskande traditionell chilensk dessertdryck med vetekorn, torkade persikor och söt sirap',
         es: 'Bebida-postre refrescante tradicional chilena con trigo, duraznos secos y almíbar dulce',
         fr: 'Boisson-dessert chilienne traditionnelle rafraîchissante avec du blé, des pêches séchées et du sirop sucré',
         de: 'Erfrischendes traditionelles chilenisches Getränkedessert mit Weizen, getrockneten Pfirsichen und süßem Sirup',
@@ -1090,7 +1250,7 @@ export const chile: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -1134,7 +1294,7 @@ export const chile: Country = {
       steps: [
         {
           en: 'Soak wheat overnight, then cook until tender (about 45 minutes)',
-          sv: 'Blötlägg vete över natten och koka sedan tills det är mjukt (cirka 45 minuter)',
+          sv: 'Blötlägg vetet över natten och koka det sedan mjukt (ca 45 minuter)',
           es: 'Remoje el trigo durante la noche, luego cocine hasta que esté tierno (aproximadamente 45 minutos)',
           fr: 'Faire tremper le blé toute la nuit, puis cuire jusqu\'à tendreté (environ 45 minutes)',
           de: 'Weizen über Nacht einweichen, dann kochen, bis er weich ist (ca. 45 Minuten)',
@@ -1145,7 +1305,7 @@ export const chile: Country = {
         },
         {
           en: 'Drain wheat and set aside',
-          sv: 'Häll av vetet och ställ åt sidan',
+          sv: 'Låt vetet rinna av och ställ det åt sidan',
           es: 'Escurrir el trigo y reservar',
           fr: 'Égoutter le blé et réserver',
           de: 'Weizen abtropfen lassen und beiseite stellen',
@@ -1156,7 +1316,7 @@ export const chile: Country = {
         },
         {
           en: 'In large pot, combine dried peaches, sugar, water, cinnamon, and orange zest',
-          sv: 'I en stor gryta, kombinera torkade persikor, socker, vatten, kanel och apelsinskal',
+          sv: 'Blanda torkade persikor, socker, vatten, kanel och apelsinskal i en stor kastrull',
           es: 'En una olla grande, combine los duraznos secos, el azúcar, el agua, la canela y la ralladura de naranja',
           fr: 'Dans une grande casserole, mélanger les pêches séchées, le sucre, l\'eau, la cannelle et le zeste d\'orange',
           de: 'In einem großen Topf getrocknete Pfirsiche, Zucker, Wasser, Zimt und Orangenschale vermischen',
@@ -1189,7 +1349,7 @@ export const chile: Country = {
         },
         {
           en: 'Remove cinnamon stick',
-          sv: 'Ta bort kanelstång',
+          sv: 'Ta upp kanelstången',
           es: 'Retire la ramita de canela',
           fr: 'Retirer le bâton de cannelle',
           de: 'Zimtstange entfernen',
@@ -1200,7 +1360,7 @@ export const chile: Country = {
         },
         {
           en: 'To serve, place wheat and a peach in glass',
-          sv: 'För att servera, placera vete och en persika i glas',
+          sv: 'Lägg lite vete och en persika i varje glas',
           es: 'Para servir, coloque en el vaso trigo y un melocotón',
           fr: 'Pour servir, placez le blé et une pêche dans un verre',
           de: 'Zum Servieren Weizen und einen Pfirsich in das Glas',
@@ -1211,7 +1371,7 @@ export const chile: Country = {
         },
         {
           en: 'Pour syrup over top',
-          sv: 'Häll sirap över toppen',
+          sv: 'Häll sirapen över',
           es: 'Vierta el almíbar por encima',
           fr: 'Verser le sirop dessus',
           de: 'geben Sirup darübergießen',
@@ -1222,7 +1382,7 @@ export const chile: Country = {
         },
         {
           en: 'Serve chilled as refreshing dessert drink',
-          sv: 'Servera kyld som uppfriskande dessertdryck',
+          sv: 'Servera väl kyld som en uppfriskande dessertdryck',
           es: 'Servir frío como postre refrescante',
           fr: 'Servir frais comme boisson dessert rafraîchissante',
           de: 'Gekühlt als erfrischendes Dessertgetränk servieren',
@@ -1815,7 +1975,7 @@ export const chile: Country = {
           },
           {
             en: 'Gabriel Garcia Marquez',
-            sv: 'Gabriel Garcia Marquez',
+            sv: 'Gabriel García Márquez',
             es: 'Gabriel García Márquez',
             fr: 'Gabriel García Márquez',
             de: 'Gabriel Garcia Marquez',

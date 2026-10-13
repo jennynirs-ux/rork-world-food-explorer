@@ -264,7 +264,17 @@ export const cambodia: Country = {
     history: [
       {
         year: '802-1431',
-        title: 'Angkor Empire',
+        title: {
+          en: 'Angkor Empire',
+          sv: 'Angkorriket',
+          es: 'Imperio de Angkor',
+          fr: 'Empire angkorien',
+          de: 'Reich von Angkor',
+          it: 'Impero di Angkor',
+          pl: 'Imperium Angkoru',
+          nl: 'Rijk van Angkor',
+          pt: 'Império de Angkor',
+        },
         description: {
           en: 'The Khmer Empire built Angkor Wat and ruled much of Southeast Asia, creating one of history\'s great civilizations.',
           sv: 'Khmerriket byggde Angkor Wat och styrde stora delar av Sydostasien, vilket skapade en av historiens stora civilisationer.',
@@ -279,7 +289,17 @@ export const cambodia: Country = {
       },
       {
         year: '1863',
-        title: 'French Protectorate',
+        title: {
+          en: 'French Protectorate',
+          sv: 'Franskt protektorat',
+          es: 'Protectorado francés',
+          fr: 'Protectorat français',
+          de: 'Französisches Protektorat',
+          it: 'Protettorato francese',
+          pl: 'Protektorat francuski',
+          nl: 'Frans protectoraat',
+          pt: 'Protetorado francês',
+        },
         description: {
           en: 'Cambodia became a French protectorate, introducing lasting cultural and architectural influences.',
           sv: 'Kambodja blev ett franskt protektorat som introducerade bestående kulturella och arkitektoniska influenser.',
@@ -294,7 +314,17 @@ export const cambodia: Country = {
       },
       {
         year: '1953',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'King Norodom Sihanouk negotiated Cambodia\'s independence from France.',
           sv: 'Kung Norodom Sihanouk förhandlade fram Kambodjas självständighet från Frankrike.',
@@ -309,7 +339,17 @@ export const cambodia: Country = {
       },
       {
         year: '1975-1979',
-        title: 'Khmer Rouge Regime',
+        title: {
+          en: 'Khmer Rouge Regime',
+          sv: 'Röda khmerernas regim',
+          es: 'Régimen de los Jemeres Rojos',
+          fr: 'Régime des Khmers rouges',
+          de: 'Herrschaft der Roten Khmer',
+          it: 'Regime dei Khmer rossi',
+          pl: 'Reżim Czerwonych Khmerów',
+          nl: 'Bewind van de Rode Khmer',
+          pt: 'Regime do Khmer Vermelho',
+        },
         description: {
           en: 'Pol Pot\'s brutal regime caused genocide, killing an estimated 1.7-2 million Cambodians.',
           sv: 'Pol Pots brutala regim orsakade folkmord och dödade uppskattningsvis 1,7-2 miljoner kambodjaner.',
@@ -324,7 +364,17 @@ export const cambodia: Country = {
       },
       {
         year: '1993',
-        title: 'Democratic Elections',
+        title: {
+          en: 'Democratic Elections',
+          sv: 'Demokratiska val',
+          es: 'Elecciones democráticas',
+          fr: 'Élections démocratiques',
+          de: 'Demokratische Wahlen',
+          it: 'Elezioni democratiche',
+          pl: 'Demokratyczne wybory',
+          nl: 'Democratische verkiezingen',
+          pt: 'Eleições democráticas',
+        },
         description: {
           en: 'UN-supervised elections restored constitutional monarchy and began national reconciliation.',
           sv: 'FN-övervakade val återställde den konstitutionella monarkin och inledde nationell försoning.',
@@ -376,7 +426,17 @@ export const cambodia: Country = {
           nl: 'Baray-waterbeheer',
           pt: 'Gestão hídrica dos barays',
         },
-        year: 'Angkor Period',
+        year: {
+          en: 'Angkor Period',
+          sv: 'Angkortiden',
+          es: 'Período de Angkor',
+          fr: 'Période angkorienne',
+          de: 'Angkor-Zeit',
+          it: 'Periodo di Angkor',
+          pl: 'Okres angkorski',
+          nl: 'Angkorperiode',
+          pt: 'Período de Angkor',
+        },
         description: {
           en: 'Developed massive reservoir systems (barays) for irrigation and flood control that supported a million people.',
           sv: 'Utvecklade massiva reservoarsystem (barays) för bevattning och översvämningskontroll som stödde en miljon människor.',
@@ -401,7 +461,17 @@ export const cambodia: Country = {
           nl: 'Behoud van de Apsara-dans',
           pt: 'Preservação da dança Apsara',
         },
-        year: 'Ancient-Present',
+        year: {
+          en: 'Ancient-Present',
+          sv: 'Forntid–idag',
+          es: 'Antigüedad–actualidad',
+          fr: 'Antiquité–aujourd\'hui',
+          de: 'Antike–heute',
+          it: 'Antichità–oggi',
+          pl: 'Starożytność–obecnie',
+          nl: 'Oudheid–heden',
+          pt: 'Antiguidade–presente',
+        },
         description: {
           en: 'Classical Khmer dance survived centuries and genocide, recognized by UNESCO as intangible cultural heritage.',
           sv: 'Klassisk khmerdans överlevde århundraden och folkmord, erkänd av UNESCO som immateriellt kulturarv.',
@@ -426,7 +496,17 @@ export const cambodia: Country = {
           nl: 'Traditioneel geneeskundesysteem',
           pt: 'Sistema de medicina tradicional',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Developed Khmer traditional medicine using local herbs and healing practices that complement modern healthcare.',
           sv: 'Utvecklade traditionell khmermedicin med hjälp av lokala örter och läkningsmetoder som kompletterar modern sjukvård.',
@@ -468,7 +548,7 @@ export const cambodia: Country = {
       {
         name: {
           en: 'Bayon Temple',
-          sv: 'Bayon Temple',
+          sv: 'Bayontemplet',
           es: 'Templo de Bayón',
           fr: 'Temple du Bayon',
           de: 'Bayon-Tempel',
@@ -492,7 +572,7 @@ export const cambodia: Country = {
       {
         name: {
           en: 'Tonle Sap Lake',
-          sv: 'Tonle Sap Lake',
+          sv: 'Tonle Sap-sjön',
           es: 'Lago Tonlé Sap',
           fr: 'Lac Tonlé Sap',
           de: 'Tonle Sap See',
@@ -540,7 +620,7 @@ export const cambodia: Country = {
       {
         name: {
           en: 'Koh Rong Islands',
-          sv: 'Koh Rong Islands',
+          sv: 'Koh Rong-öarna',
           es: 'Islas Koh Rong',
           fr: 'Îles de Koh Rong',
           de: 'Koh-Rong-Inseln',
@@ -564,7 +644,17 @@ export const cambodia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'E-visa or visa on arrival available for most nationalities.',
           sv: 'E-visum eller visum vid ankomst tillgängligt för de flesta nationaliteter.',
@@ -578,7 +668,17 @@ export const cambodia: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-February for cool, dry weather. Avoid April-May (hottest period).',
           sv: 'November-februari för svalt, torrt väder. Undvik april-maj (hetaste perioden).',
@@ -616,7 +716,17 @@ export const cambodia: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Cover shoulders and knees when visiting temples. Remove shoes at entrances.',
           sv: 'Täck axlar och knän när du besöker tinningar. Ta av skor vid entréer.',
@@ -630,7 +740,17 @@ export const cambodia: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Malaria prophylaxis for rural areas. Drink only bottled water.',
           sv: 'Malariaprofylax för landsbygdsområden. Drick bara vatten på flaska.',
@@ -644,7 +764,17 @@ export const cambodia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Tuk-tuks for cities, buses for long distances. Bike tours popular in Angkor.',
           sv: 'Tuktukar för städer, bussar för långa sträckor. Cykelturer populära i Angkor.',
@@ -673,7 +803,7 @@ export const cambodia: Country = {
       },
       description: {
         en: 'Fish steamed in coconut curry custard with lemongrass',
-        sv: 'Fisk ångad i kokoscurry vaniljsås med citrongräs',
+        sv: 'Fisk ångkokt i en krämig kokoscurry med ägg och citrongräs',
         es: 'Pescado al vapor en natilla de curry de coco con limoncillo',
         fr: 'Poisson cuit à la vapeur dans une crème anglaise au curry de coco et à la citronnelle',
         de: 'In Kokos-Curry-Creme mit Zitronengras gedämpfter Fisch',
@@ -700,7 +830,7 @@ export const cambodia: Country = {
         {
           name: {
             en: 'White fish fillets',
-            sv: 'Vita fiskfiléer',
+            sv: 'Filéer av vit fisk',
             es: 'Filetes de pescado blanco',
             fr: 'Filets de poisson blanc',
             de: 'Weiße Fischfilets',
@@ -730,7 +860,7 @@ export const cambodia: Country = {
         {
           name: {
             en: 'Kroeung paste',
-            sv: 'Kroeung pasta',
+            sv: 'Kroeungpasta',
             es: 'Pasta kroeung',
             fr: 'Pâte Kroeung',
             de: 'Kroeung-Paste',
@@ -817,7 +947,7 @@ export const cambodia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -830,7 +960,7 @@ export const cambodia: Country = {
         {
           name: {
             en: 'Kaffir lime leaves',
-            sv: 'Kaffir limeblad',
+            sv: 'Kaffirlimeblad',
             es: 'Hojas de lima kaffir',
             fr: 'Feuilles de combava',
             de: 'Kaffernlimettenblätter',
@@ -842,7 +972,7 @@ export const cambodia: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -881,7 +1011,7 @@ export const cambodia: Country = {
       steps: [
         {
           en: 'Blend kroeung paste (lemongrass, galangal, turmeric)',
-          sv: 'Blanda kroeungpasta (citrongräs, galangal, gurkmeja)',
+          sv: 'Mixa en kroeungpasta av citrongräs, galangal och gurkmeja',
           es: 'Mezcla de pasta kroeung (limoncillo, galanga, cúrcuma)',
           fr: 'Mélanger la pâte de kroeung (citronnelle, galanga, curcuma)',
           de: 'Kroeung-Paste (Zitronengras, Galgant, Kurkuma) mischen',
@@ -892,7 +1022,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Mix paste with coconut cream, fish sauce, sugar',
-          sv: 'Blanda pasta med kokosgrädde, fisksås, socker',
+          sv: 'Blanda pastan med kokosgrädde, fisksås och palmsocker',
           es: 'Mezclar pasta con crema de coco, salsa de pescado, azúcar',
           fr: 'Mélanger la pâte avec la crème de coco, la sauce de poisson, le sucre',
           de: 'Paste mit Kokoscreme, Fischsauce, Zucker vermischen',
@@ -903,7 +1033,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Beat eggs and fold into mixture',
-          sv: 'Vispa ägg och vänd ner i blandningen',
+          sv: 'Vispa upp äggen och vänd ner dem i blandningen',
           es: 'Batir los huevos e incorporar a la mezcla',
           fr: 'Battre les œufs et les incorporer au mélange',
           de: 'Eier verquirlen und unter die Masse heben',
@@ -936,7 +1066,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Place fish in bowls and pour curry mixture over',
-          sv: 'Lägg fisken i skålar och häll curryblandningen över',
+          sv: 'Lägg fisken i skålarna och häll över curryblandningen',
           es: 'Coloque el pescado en tazones y vierta la mezcla de curry encima',
           fr: 'Placer le poisson dans des bols et verser le mélange de curry dessus',
           de: 'Legen Sie den Fisch in Schüsseln und gießen Sie die Currymischung darüber',
@@ -947,7 +1077,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Steam for 30 minutes until set',
-          sv: 'Ånga i 30 minuter tills den stelnat',
+          sv: 'Ångkoka i 30 minuter tills smeten har stannat',
           es: 'Cocine al vapor durante 30 minutos hasta que cuaje',
           fr: 'Cuire à la vapeur pendant 30 minutes jusqu\'à ce que le tout soit pris',
           de: '30 Minuten lang dämpfen, bis es fest ist',
@@ -985,7 +1115,7 @@ export const cambodia: Country = {
       },
       description: {
         en: 'Grilled banana sticky rice cakes wrapped in banana leaves',
-        sv: 'Grillade bananklibbiga riskakor inslagna i bananblad',
+        sv: 'Grillade kakor av klibbigt ris med banan, inslagna i bananblad',
         es: 'Tortitas de arroz pegajoso con plátano asado y envueltas en hojas de plátano',
         fr: 'Gâteaux de riz gluant à la banane grillée enveloppés dans des feuilles de bananier',
         de: 'Gegrillte Bananenklebreiskuchen, eingewickelt in Bananenblätter',
@@ -1039,7 +1169,7 @@ export const cambodia: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1123,7 +1253,7 @@ export const cambodia: Country = {
       steps: [
         {
           en: 'Soak sticky rice overnight, then steam for 20 minutes.',
-          sv: 'Blötlägg klibbigt ris över natten och ånga sedan i 20 minuter.',
+          sv: 'Blötlägg det klibbiga riset över natten och ångkoka det sedan i 20 minuter.',
           es: 'Remoje el arroz glutinoso durante la noche y luego cocine al vapor durante 20 minutos.',
           fr: 'Faire tremper le riz gluant toute la nuit, puis cuire à la vapeur pendant 20 minutes.',
           de: 'Klebreis über Nacht einweichen, dann 20 Minuten dämpfen.',
@@ -1134,7 +1264,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Mix warm rice with coconut milk, sugar, and salt.',
-          sv: 'Blanda varmt ris med kokosmjölk, socker och salt.',
+          sv: 'Blanda det varma riset med kokosmjölk, socker och salt.',
           es: 'Mezcle arroz tibio con leche de coco, azúcar y sal.',
           fr: 'Mélangez le riz chaud avec le lait de coco, le sucre et le sel.',
           de: 'Warmen Reis mit Kokosmilch, Zucker und Salz vermischen.',
@@ -1167,7 +1297,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Soften banana leaves over flame.',
-          sv: 'Mjuka upp bananbladen över lågan.',
+          sv: 'Mjuka upp bananbladen över öppen låga.',
           es: 'Ablande las hojas de plátano al fuego.',
           fr: 'Ramollir les feuilles de bananier sur le feu.',
           de: 'Bananenblätter über der Flamme einweichen.',
@@ -1178,7 +1308,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Place rice mixture on banana leaf.',
-          sv: 'Lägg risblandningen på bananbladet.',
+          sv: 'Lägg risblandningen på ett bananblad.',
           es: 'Coloque la mezcla de arroz sobre la hoja de plátano.',
           fr: 'Placer le mélange de riz sur une feuille de bananier.',
           de: 'Die Reismischung auf das Bananenblatt legen.',
@@ -1189,7 +1319,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Add banana slice on top.',
-          sv: 'Lägg bananskivan ovanpå.',
+          sv: 'Lägg en bananskiva ovanpå.',
           es: 'Agregue una rodaja de plátano encima.',
           fr: 'Ajoutez une tranche de banane par dessus.',
           de: 'Legen Sie die Bananenscheibe darüber.',
@@ -1200,7 +1330,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Wrap tightly and secure with string.',
-          sv: 'Linda tätt och säkra med snöre.',
+          sv: 'Vik ihop till ett tätt paket och knyt om med snöre.',
           es: 'Envuélvalo bien y asegúrelo con una cuerda.',
           fr: 'Enveloppez hermétiquement et fixez avec de la ficelle.',
           de: 'Fest umwickeln und mit einer Schnur sichern.',
@@ -1211,7 +1341,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Grill over charcoal for 15-20 minutes, turning occasionally.',
-          sv: 'Grilla över kol i 15-20 minuter, vänd då och då.',
+          sv: 'Grilla över grillkol i 15-20 minuter och vänd då och då.',
           es: 'Ase sobre carbón durante 15 a 20 minutos, volteándolos de vez en cuando.',
           fr: 'Griller sur du charbon de bois pendant 15 à 20 minutes, en retournant de temps en temps.',
           de: 'Über Holzkohle 15–20 Minuten grillen, dabei gelegentlich wenden.',
@@ -1222,7 +1352,7 @@ export const cambodia: Country = {
         },
         {
           en: 'Serve warm in the banana leaf wrapping.',
-          sv: 'Servera varm i bananbladsomslaget.',
+          sv: 'Servera varma i bananbladen.',
           es: 'Sirva caliente envuelto en hojas de plátano.',
           fr: 'Servir chaud dans une feuille de bananier.',
           de: 'Warm in der Bananenblattverpackung servieren.',
@@ -1599,7 +1729,7 @@ export const cambodia: Country = {
         options: [
           {
             en: 'Viet Cong',
-            sv: 'Viet Cong',
+            sv: 'Vietcong',
             es: 'Viet Cong',
             fr: 'Viet-Cong',
             de: 'Vietcong',
@@ -1671,7 +1801,7 @@ export const cambodia: Country = {
           },
           {
             en: 'Inle Lake',
-            sv: 'Inle Lake',
+            sv: 'Inlesjön',
             es: 'Lago Inle',
             fr: 'Lac Inlé',
             de: 'Inle-See',
@@ -1682,7 +1812,7 @@ export const cambodia: Country = {
           },
           {
             en: 'Taal Lake',
-            sv: 'Taal Lake',
+            sv: 'Taalsjön',
             es: 'Lago Taál',
             fr: 'Lac Taal',
             de: 'Taal-See',

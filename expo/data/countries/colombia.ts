@@ -264,7 +264,17 @@ export const colombia: Country = {
     history: [
       {
         year: '1499',
-        title: 'Spanish Arrival',
+        title: {
+          en: 'Spanish Arrival',
+          sv: 'Spanjorerna anländer',
+          es: 'Llegada de los españoles',
+          fr: 'Arrivée des Espagnols',
+          de: 'Ankunft der Spanier',
+          it: 'Arrivo degli spagnoli',
+          pl: 'Przybycie Hiszpanów',
+          nl: 'Aankomst van de Spanjaarden',
+          pt: 'Chegada dos espanhóis',
+        },
         description: {
           en: 'Spanish explorers arrived on Colombian shores, beginning the colonial period that would last over 300 years.',
           sv: 'Spanska upptäcktsresande anlände till colombianska stränder och började kolonialperioden som skulle vara över 300 år.',
@@ -279,7 +289,17 @@ export const colombia: Country = {
       },
       {
         year: '1810-1819',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Led by Simón Bolívar, Colombia gained independence from Spain after nearly a decade of revolutionary wars.',
           sv: 'Under ledning av Simón Bolívar fick Colombia självständighet från Spanien efter nästan ett decennium av revolutionära krig.',
@@ -294,7 +314,17 @@ export const colombia: Country = {
       },
       {
         year: '1903',
-        title: 'Panama Separation',
+        title: {
+          en: 'Panama Separation',
+          sv: 'Panamas utbrytning',
+          es: 'Separación de Panamá',
+          fr: 'Séparation du Panama',
+          de: 'Abspaltung Panamas',
+          it: 'Separazione di Panama',
+          pl: 'Oderwanie się Panamy',
+          nl: 'Afscheiding van Panama',
+          pt: 'Separação do Panamá',
+        },
         description: {
           en: 'Panama separated from Colombia with U.S. support to facilitate the construction of the Panama Canal.',
           sv: 'Panama separerades från Colombia med amerikanskt stöd för att underlätta byggandet av Panamakanalen.',
@@ -309,7 +339,17 @@ export const colombia: Country = {
       },
       {
         year: '1948-1958',
-        title: 'La Violencia',
+        title: {
+          en: 'La Violencia',
+          sv: 'La Violencia',
+          es: 'La Violencia',
+          fr: 'La Violencia',
+          de: 'La Violencia',
+          it: 'La Violencia',
+          pl: 'La Violencia',
+          nl: 'La Violencia',
+          pt: 'La Violencia',
+        },
         description: {
           en: 'A period of intense political violence between Liberal and Conservative parties that claimed hundreds of thousands of lives.',
           sv: 'En period av intensivt politiskt våld mellan liberala och konservativa partier som krävde hundratusentals liv.',
@@ -324,7 +364,17 @@ export const colombia: Country = {
       },
       {
         year: '2016',
-        title: 'Peace Agreement',
+        title: {
+          en: 'Peace Agreement',
+          sv: 'Fredsavtal',
+          es: 'Acuerdo de paz',
+          fr: 'Accord de paix',
+          de: 'Friedensabkommen',
+          it: 'Accordo di pace',
+          pl: 'Porozumienie pokojowe',
+          nl: 'Vredesakkoord',
+          pt: 'Acordo de paz',
+        },
         description: {
           en: 'After decades of armed conflict, the government signed a historic peace agreement with FARC guerrillas.',
           sv: 'Efter decennier av väpnad konflikt undertecknade regeringen ett historiskt fredsavtal med FARC-gerillan.',
@@ -351,7 +401,17 @@ export const colombia: Country = {
           nl: 'Koffieproductiemethoden',
           pt: 'Métodos de produção de café',
         },
-        year: '19th-20th century',
+        year: {
+          en: '19th-20th century',
+          sv: '1800–1900-talen',
+          es: 'Siglos XIX–XX',
+          fr: 'XIXe–XXe siècles',
+          de: '19.–20. Jahrhundert',
+          it: 'XIX–XX secolo',
+          pl: 'XIX–XX wiek',
+          nl: '19e–20e eeuw',
+          pt: 'Séculos XIX–XX',
+        },
         description: {
           en: 'Perfected high-altitude coffee growing techniques that produce some of the world\'s finest Arabica beans, setting global standards for quality.',
           sv: 'Fulländade kaffeodlingstekniker på hög höjd som producerar några av världens finaste Arabicabönor, vilket sätter globala standarder för kvalitet.',
@@ -401,7 +461,17 @@ export const colombia: Country = {
           nl: 'Biodiversiteitsbehoud',
           pt: 'Conservação da biodiversidade',
         },
-        year: '1990s-present',
+        year: {
+          en: '1990s-present',
+          sv: '1990-talet–idag',
+          es: 'Década de 1990–actualidad',
+          fr: 'Années 1990–aujourd\'hui',
+          de: '1990er–heute',
+          it: 'Anni \'90–oggi',
+          pl: 'Lata 90.–obecnie',
+          nl: 'Jaren 90–heden',
+          pt: 'Década de 1990–presente',
+        },
         description: {
           en: 'Created pioneering programs to protect the world\'s second-most biodiverse country, including community-led conservation projects.',
           sv: 'Skapade banbrytande program för att skydda världens näst mest biologiska mångfald, inklusive samhällsledda bevarandeprojekt.',
@@ -426,7 +496,17 @@ export const colombia: Country = {
           nl: 'Chirurgische innovaties',
           pt: 'Inovações cirúrgicas',
         },
-        year: '20th century',
+        year: {
+          en: '20th century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Colombian surgeons developed advanced reconstructive surgery techniques, making the country a leader in medical tourism for plastic surgery.',
           sv: 'Colombianska kirurger utvecklade avancerade tekniker för rekonstruktiv kirurgi, vilket gjorde landet ledande inom medicinsk turism för plastikkirurgi.',
@@ -564,7 +644,17 @@ export const colombia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can visit visa-free for up to 90 days for tourism.',
           sv: 'Många nationaliteter kan besöka visumfritt i upp till 90 dagar för turism.',
@@ -578,7 +668,17 @@ export const colombia: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to March and July to August for dry season',
           sv: 'December till mars och juli till augusti för torrperioden',
@@ -592,7 +692,17 @@ export const colombia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights for long distances, buses for regional travel, metro in Medellín and Bogotá.',
           sv: 'Inrikesflyg för långa sträckor, bussar för regionala resor, tunnelbana i Medellín och Bogotá.',
@@ -606,7 +716,17 @@ export const colombia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Spanish is essential. English is limited outside tourist areas.',
           sv: 'Spanska är viktigt. Engelska är begränsad utanför turistområdena.',
@@ -620,7 +740,17 @@ export const colombia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Much safer than its past reputation. Exercise standard precautions.',
           sv: 'Mycket säkrare än sitt tidigare rykte. Iaktta vanliga försiktighetsåtgärder.',
@@ -649,7 +779,7 @@ export const colombia: Country = {
       },
       description: {
         en: 'Colombia\'s most famous dish from the Antioquia region - a hearty platter featuring beans, rice, ground beef, chorizo, fried egg, plantain, avocado, and arepa. It\'s a complete feast on one plate.',
-        sv: 'Colombias mest kända rätt från Antioquia-regionen - en rejäl tallrik med bönor, ris, nötfärs, chorizo, stekt ägg, groblad, avokado och arepa. Det är en komplett fest på en tallrik.',
+        sv: 'Colombias mest kända rätt, från regionen Antioquia – en rejäl tallrik med bönor, ris, nötfärs, chorizo, stekt ägg, kokbanan, avokado och arepa. En hel festmåltid på en enda tallrik.',
         es: 'El plato más famoso de la región de Antioquia en Colombia: un abundante plato con frijoles, arroz, carne molida, chorizo, huevo frito, plátano macho, aguacate y arepa. Es un festín completo en un solo plato.',
         fr: 'Le plat le plus célèbre de Colombie de la région d\'Antioquia : un plateau copieux composé de haricots, de riz, de bœuf haché, de chorizo, d\'œuf au plat, de plantain, d\'avocat et d\'arepa. C\'est un festin complet dans une seule assiette.',
         de: 'Kolumbiens berühmtestes Gericht aus der Region Antioquia – eine herzhafte Platte mit Bohnen, Reis, Rinderhackfleisch, Chorizo, Spiegelei, Kochbananen, Avocado und Arepa. Es ist ein komplettes Fest auf einem Teller.',
@@ -731,7 +861,7 @@ export const colombia: Country = {
         {
           name: {
             en: 'Pork belly (chicharrón)',
-            sv: 'Fläskmage (chicharrón)',
+            sv: 'Sidfläsk (chicharrón)',
             es: 'Panceta de cerdo (chicharrón)',
             fr: 'Poitrine de porc',
             de: 'Schweinebauch (Chicharrón)',
@@ -786,7 +916,7 @@ export const colombia: Country = {
         {
           name: {
             en: 'Ripe plantains',
-            sv: 'Mogna groblad',
+            sv: 'Mogna kokbananer',
             es: 'plátanos maduros',
             fr: 'Plantains mûrs',
             de: 'Reife Kochbananen',
@@ -906,7 +1036,7 @@ export const colombia: Country = {
         },
         {
           en: 'Fry pork belly until crispy',
-          sv: 'Stek fläskkött tills det är knaprigt',
+          sv: 'Stek sidfläsket tills det är knaprigt',
           es: 'Freír la panceta de cerdo hasta que esté crujiente',
           fr: 'Faire frire la poitrine de porc jusqu\'à ce qu\'elle soit croustillante',
           de: 'Schweinebauch knusprig braten',
@@ -917,7 +1047,7 @@ export const colombia: Country = {
         },
         {
           en: 'Slice and fry plantains until golden',
-          sv: 'Skiva och stek plantains tills de är gyllene',
+          sv: 'Skiva kokbananerna och stek dem tills de är gyllene',
           es: 'Rebanar y freír los plátanos hasta que estén dorados',
           fr: 'Trancher et faire frire les plantains jusqu\'à ce qu\'ils soient dorés',
           de: 'Kochbananen in Scheiben schneiden und goldbraun braten',
@@ -928,7 +1058,7 @@ export const colombia: Country = {
         },
         {
           en: 'Fry eggs sunny-side up',
-          sv: 'Stek ägg med solsidan uppåt',
+          sv: 'Stek äggen på ena sidan, med gulan uppåt',
           es: 'Freír los huevos con el lado soleado hacia arriba',
           fr: 'Faire frire les œufs côté ensoleillé',
           de: 'Eier mit der Sonnenseite nach oben braten',
@@ -939,7 +1069,7 @@ export const colombia: Country = {
         },
         {
           en: 'Warm or grill arepas',
-          sv: 'Varma eller grilla arepas',
+          sv: 'Värm eller grilla arepas',
           es: 'Arepas calientes o grill',
           fr: 'Arepas tièdes ou grillées',
           de: 'Arepas erwärmen oder grillen',
@@ -950,7 +1080,7 @@ export const colombia: Country = {
         },
         {
           en: 'Arrange all components on a large platter with sliced avocado',
-          sv: 'Ordna alla komponenter på ett stort fat med skivad avokado',
+          sv: 'Lägg upp alla delar på ett stort fat tillsammans med skivad avokado',
           es: 'Coloque todos los componentes en un plato grande con aguacate en rodajas',
           fr: 'Disposer tous les composants sur une grande assiette avec des tranches d\'avocat',
           de: 'Alle Zutaten auf einer großen Platte mit den Avocadoscheiben',
@@ -966,7 +1096,7 @@ export const colombia: Country = {
       id: 'colombia-dessert',
       name: {
         en: 'Arequipe with Obleas',
-        sv: 'Arequipe med Obleas',
+        sv: 'Arequipe med obleas',
         es: 'Arequipe con Obleas',
         fr: 'S\'équiper d\'Obleas',
         de: 'anrichten Arequipe mit Obleas',
@@ -977,7 +1107,7 @@ export const colombia: Country = {
       },
       description: {
         en: 'Thin crispy wafers filled with dulce de leche (arequipe), a beloved Colombian street food dessert',
-        sv: 'Tunna krispiga rån fyllda med dulce de leche (arequipe), en älskad colombiansk street food-dessert',
+        sv: 'Tunna, frasiga rån fyllda med dulce de leche (arequipe) – en älskad colombiansk gatumatsdessert',
         es: 'Obleas finas y crujientes rellenas de dulce de leche (arequipe), un postre muy querido de la comida callejera colombiana',
         fr: 'De fines gaufrettes croustillantes remplies de dulce de leche (arequipe), un dessert de rue colombien très apprécié',
         de: 'Dünne knusprige Waffeln gefüllt mit Dulce de Leche (Arequipe), einem beliebten kolumbianischen Streetfood-Dessert',
@@ -1019,7 +1149,7 @@ export const colombia: Country = {
         {
           name: {
             en: 'Whole milk',
-            sv: 'Helmjölk',
+            sv: 'Standardmjölk',
             es: 'Leche entera',
             fr: 'Lait entier',
             de: 'Vollmilch',
@@ -1064,7 +1194,7 @@ export const colombia: Country = {
         {
           name: {
             en: 'Baking soda',
-            sv: 'Bakpulver',
+            sv: 'Bikarbonat',
             es: 'Bicarbonato de sodio',
             fr: 'Bicarbonate de soude',
             de: 'Backpulver',
@@ -1079,7 +1209,7 @@ export const colombia: Country = {
         {
           name: {
             en: 'Wafer cookies (obleas)',
-            sv: 'Rånkex (obleas)',
+            sv: 'Tunna rån (obleas)',
             es: 'Galletas de oblea (obleas)',
             fr: 'Biscuits gaufrés (obleas)',
             de: 'Waffelkekse (obleas)',
@@ -1104,7 +1234,7 @@ export const colombia: Country = {
         {
           name: {
             en: 'Shredded cheese (optional)',
-            sv: 'Strimlad ost (valfritt)',
+            sv: 'Riven ost (valfritt)',
             es: 'Queso rallado (opcional)',
             fr: 'Fromage râpé (facultatif)',
             de: 'Geriebener Käse (optional)',
@@ -1120,7 +1250,7 @@ export const colombia: Country = {
       steps: [
         {
           en: 'In heavy-bottomed pot, combine condensed milk, whole milk, and sugar',
-          sv: 'Blanda kondenserad mjölk, helmjölk och socker i en tjockbottnad kastrull',
+          sv: 'Blanda sötad kondenserad mjölk, standardmjölk och socker i en tjockbottnad kastrull',
           es: 'En una olla de fondo grueso, combine la leche condensada, la leche entera y el azúcar',
           fr: 'Dans une casserole à fond épais, mélanger le lait concentré, le lait entier et le sucre',
           de: 'In einem Topf mit dickem Boden Kondensmilch, Vollmilch und Zucker vermischen',
@@ -1131,7 +1261,7 @@ export const colombia: Country = {
         },
         {
           en: 'Cook on medium heat, stirring constantly',
-          sv: 'Koka på medelvärme, rör hela tiden',
+          sv: 'Låt koka på medelvärme under ständig omrörning',
           es: 'Cocine a fuego medio, revolviendo constantemente',
           fr: 'Cuire à feu moyen en remuant constamment',
           de: 'Bei mittlerer Hitze unter ständigem Rühren kochen',
@@ -1142,7 +1272,7 @@ export const colombia: Country = {
         },
         {
           en: 'Add baking soda and vanilla',
-          sv: 'Tillsätt bakpulver och vanilj',
+          sv: 'Tillsätt bikarbonat och vanilj',
           es: 'Agrega bicarbonato de sodio y vainilla',
           fr: 'Ajouter le bicarbonate de soude et la vanille',
           de: 'Backpulver und Vanille hinzufügen',
@@ -1175,7 +1305,7 @@ export const colombia: Country = {
         },
         {
           en: 'Remove from heat and let cool slightly',
-          sv: 'Ta bort från värmen och låt svalna något',
+          sv: 'Ta kastrullen från värmen och låt svalna något',
           es: 'Retirar del fuego y dejar enfriar un poco',
           fr: 'Retirer du feu et laisser refroidir légèrement',
           de: 'Vom Herd nehmen und etwas abkühlen lassen',
@@ -1186,7 +1316,7 @@ export const colombia: Country = {
         },
         {
           en: 'Spread arequipe generously on one oblea',
-          sv: 'Sprid arequipe generöst på en oblea',
+          sv: 'Bred ett generöst lager arequipe på en oblea',
           es: 'Unte generosamente el arequipe en una oblea',
           fr: 'Étalez généreusement l\'arequipe sur une oblée',
           de: 'Verteilen Sie Arequipe großzügig auf einem Oblea',
@@ -1208,7 +1338,7 @@ export const colombia: Country = {
         },
         {
           en: 'Top with another oblea to make sandwich',
-          sv: 'Toppa med en annan oblea för att göra smörgås',
+          sv: 'Lägg ytterligare en oblea ovanpå.',
           es: 'Cubra con otra oblea para hacer sándwich',
           fr: 'Garnir d\'un autre obléa pour faire un sandwich',
           de: 'Mit einem weiteren Oblea belegen, um ein Sandwich zu machen',
@@ -1219,7 +1349,7 @@ export const colombia: Country = {
         },
         {
           en: 'Serve immediately while crispy',
-          sv: 'Servera omedelbart medan den är krispig',
+          sv: 'Servera genast, medan rånen är frasiga',
           es: 'Sirva inmediatamente mientras esté crujiente',
           fr: 'Servir immédiatement lorsqu\'il est croustillant',
           de: 'Sofort knusprig servieren',

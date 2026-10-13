@@ -242,7 +242,17 @@ export const jamaica: Country = {
     history: [
       {
         year: '1494',
-        title: 'Columbus Arrival',
+        title: {
+          en: 'Columbus Arrival',
+          sv: 'Columbus ankomst',
+          es: 'Llegada de Colón',
+          fr: 'Arrivée de Colomb',
+          de: 'Ankunft des Kolumbus',
+          it: 'Arrivo di Colombo',
+          pl: 'Przybycie Kolumba',
+          nl: 'Aankomst van Columbus',
+          pt: 'Chegada de Colombo',
+        },
         description: {
           en: 'Christopher Columbus landed on Jamaica during his second voyage to the Americas.',
           sv: 'Christopher Columbus landade på Jamaica under sin andra resa till Amerika.',
@@ -257,7 +267,17 @@ export const jamaica: Country = {
       },
       {
         year: '1962',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Jamaica gained independence from Britain, becoming a sovereign nation within the Commonwealth.',
           sv: 'Jamaica blev självständigt från Storbritannien och blev en suverän nation inom Commonwealth.',
@@ -271,8 +291,28 @@ export const jamaica: Country = {
         },
       },
       {
-        year: '1970s',
-        title: 'Reggae Goes Global',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
+        title: {
+          en: 'Reggae Goes Global',
+          sv: 'Reggaen erövrar världen',
+          es: 'El reggae conquista el mundo',
+          fr: 'Le reggae conquiert le monde',
+          de: 'Reggae erobert die Welt',
+          it: 'Il reggae conquista il mondo',
+          pl: 'Reggae podbija świat',
+          nl: 'Reggae verovert de wereld',
+          pt: 'O reggae conquista o mundo',
+        },
         description: {
           en: 'Bob Marley and reggae music brought Jamaican culture to worldwide prominence.',
           sv: 'Bob Marley och reggaemusik förde jamaicansk kultur till världsomspännande framträdande plats.',
@@ -299,7 +339,17 @@ export const jamaica: Country = {
           nl: 'Reggaemuziek',
           pt: 'Música Reggae',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'A music genre that originated in Jamaica and influenced popular music globally.',
           sv: 'En musikgenre som har sitt ursprung i Jamaica och påverkat populärmusiken globalt.',
@@ -324,7 +374,17 @@ export const jamaica: Country = {
           nl: 'Jerk-keuken',
           pt: 'Culinária Jerk',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'A unique cooking method and spice blend that became internationally famous.',
           sv: 'En unik tillagningsmetod och kryddblandning som blev internationellt känd.',
@@ -390,7 +450,7 @@ export const jamaica: Country = {
       {
         name: {
           en: 'Bob Marley Museum',
-          sv: 'Bob Marley Museum',
+          sv: 'Bob Marley-museet',
           es: 'Museo Bob Marley',
           fr: 'Musée Bob Marley',
           de: 'Bob-Marley-Museum',
@@ -462,7 +522,17 @@ export const jamaica: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December-April for dry season, avoid hurricane season (June-November).',
           sv: 'December-april för torrperioden, undvik orkansäsong (juni-november).',
@@ -476,7 +546,17 @@ export const jamaica: Country = {
         },
       },
       {
-        item: 'Light clothing',
+        item: {
+          en: 'Light clothing',
+          sv: 'Lätta kläder',
+          es: 'Ropa ligera',
+          fr: 'Vêtements légers',
+          de: 'Leichte Kleidung',
+          it: 'Abbigliamento leggero',
+          pl: 'Lekkie ubrania',
+          nl: 'Lichte kleding',
+          pt: 'Roupas leves',
+        },
         description: {
           en: 'Tropical climate requires breathable, light fabrics.',
           sv: 'Tropiskt klimat kräver lätta tyger som andas.',
@@ -490,7 +570,17 @@ export const jamaica: Country = {
         },
       },
       {
-        item: 'Water shoes',
+        item: {
+          en: 'Water shoes',
+          sv: 'Badskor',
+          es: 'Zapatos acuáticos',
+          fr: 'Chaussures aquatiques',
+          de: 'Wasserschuhe',
+          it: 'Scarpette da scoglio',
+          pl: 'Buty do wody',
+          nl: 'Waterschoenen',
+          pt: 'Calçados aquáticos',
+        },
         description: {
           en: 'Useful for climbing Dunn\'s River Falls and rocky beaches.',
           sv: 'Användbar för att bestiga Dunn\'s River Falls och klippiga stränder.',
@@ -504,7 +594,17 @@ export const jamaica: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Strong Caribbean sun requires high SPF and hat.',
           sv: 'Stark karibisk sol kräver hög SPF och hatt.',
@@ -575,7 +675,7 @@ export const jamaica: Country = {
         {
           name: {
             en: 'Scotch bonnet peppers',
-            sv: 'Scotch bonnet paprika',
+            sv: 'Scotch bonnet-chili',
             es: 'Pimientos Scotch Bonnet',
             fr: 'Piments Scotch Bonnet',
             de: 'Scotch Bonnet Peppers',
@@ -791,7 +891,7 @@ export const jamaica: Country = {
       steps: [
         {
           en: 'Blend peppers, allspice, thyme, scallions, garlic, ginger into paste',
-          sv: 'Blanda paprika, kryddpeppar, timjan, salladslök, vitlök, ingefära till en pasta',
+          sv: 'Mixa chili, kryddpeppar, timjan, salladslök, vitlök och ingefära till en pasta',
           es: 'Licue pimientos, pimienta de Jamaica, tomillo, cebolletas, ajo y jengibre hasta formar una pasta',
           fr: 'Mélanger les poivrons, le piment de la Jamaïque, le thym, les oignons verts, l\'ail et le gingembre en pâte',
           de: 'Paprika, Piment, Thymian, Frühlingszwiebeln, Knoblauch und Ingwer zu einer Paste vermengen',
@@ -802,7 +902,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Mix paste with soy sauce, lime juice, and brown sugar',
-          sv: 'Blanda pasta med sojasås, limejuice och farinsocker',
+          sv: 'Blanda pastan med sojasås, limejuice och farinsocker',
           es: 'Mezclar la pasta con salsa de soja, jugo de lima y azúcar moreno',
           fr: 'Mélanger la pâte avec la sauce soja, le jus de citron vert et la cassonade',
           de: 'Paste mit Sojasauce, Limettensaft und braunem Zucker mischen',
@@ -824,7 +924,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Grill over pimento wood or charcoal for authentic flavor',
-          sv: 'Grilla över piment eller kol för autentisk smak',
+          sv: 'Grilla över ved från kryddpepparträd (pimento) eller grillkol för äkta smak',
           es: 'Ase a la parrilla sobre leña o carbón para obtener un sabor auténtico',
           fr: 'Griller sur du bois de piment ou du charbon de bois pour une saveur authentique',
           de: 'Für authentischen Geschmack über Pimentholz oder Holzkohle grillen',
@@ -835,7 +935,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Cook until chicken is charred and fully cooked through',
-          sv: 'Koka tills kycklingen är förkolnad och genomstekt',
+          sv: 'Grilla tills kycklingen är lätt svedd och genomstekt',
           es: 'Cocine hasta que el pollo esté carbonizado y completamente cocido',
           fr: 'Cuire jusqu\'à ce que le poulet soit carbonisé et entièrement cuit',
           de: 'Kochen, bis das Huhn verkohlt und vollständig durchgegart ist',
@@ -846,7 +946,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Serve with rice and peas, festival (fried dough), and coleslaw',
-          sv: 'Servera med ris och ärter, festival (stekt deg) och coleslaw',
+          sv: 'Servera med rice and peas (ris med bönor), festival (friterade söta bröd) och coleslaw',
           es: 'Sirva con arroz y guisantes, festival (masa frita) y ensalada de col',
           fr: 'Servir avec du riz et des petits pois, du festival (pâte frite) et de la salade de chou',
           de: 'Mit Reis und Erbsen, Festival (frittiertem Teig) und Krautsalat',
@@ -873,7 +973,7 @@ export const jamaica: Country = {
       },
       description: {
         en: 'Moist, rich cake soaked in rum syrup, a Jamaican favorite',
-        sv: 'Fuktig, rik kaka indränkt i romsirap, en jamaicansk favorit',
+        sv: 'Saftig, mäktig kaka indränkt i romsirap – en jamaicansk favorit',
         es: 'Pastel rico y húmedo empapado en almíbar de ron, uno de los favoritos de Jamaica',
         fr: 'Gâteau moelleux et riche imbibé de sirop de rhum, un favori jamaïcain',
         de: 'Saftiger, reichhaltiger Kuchen, getränkt in Rumsirup, ein jamaikanischer Favorit',
@@ -900,7 +1000,7 @@ export const jamaica: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -957,7 +1057,7 @@ export const jamaica: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1015,7 +1115,7 @@ export const jamaica: Country = {
         {
           name: {
             en: 'Browning sauce',
-            sv: 'Brynsås',
+            sv: 'Kulör',
             es: 'Salsa para dorar',
             fr: 'Sauce brune',
             de: 'Bräunungssoße',
@@ -1052,7 +1152,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Cream butter and sugar, beat in eggs',
-          sv: 'Grädde smör och socker, vispa i ägg',
+          sv: 'Vispa smör och socker pösigt och vispa sedan i äggen',
           es: 'Batir la mantequilla y el azúcar, incorporar los huevos',
           fr: 'Crémer le beurre et le sucre, incorporer les œufs',
           de: 'Butter und Zucker schaumig rühren, Eier unterrühren',
@@ -1063,7 +1163,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Fold in flour and soaked raisins with rum',
-          sv: 'Vik i mjöl och blötlagda russin med rom',
+          sv: 'Vänd ner vetemjölet och de blötlagda russinen tillsammans med romen',
           es: 'Incorporar la harina y las pasas remojadas con ron',
           fr: 'Incorporer la farine et les raisins secs trempés dans le rhum',
           de: 'Mehl und eingeweichte Rosinen mit Rum unterheben',
@@ -1074,7 +1174,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Add browning sauce for color',
-          sv: 'Lägg till bryningssås för färg',
+          sv: 'Tillsätt kulör för att ge färg',
           es: 'Agregue salsa para dorar para darle color',
           fr: 'Ajoutez de la sauce brune pour la couleur',
           de: 'Für mehr Farbe bräunende Soße hinzufügen',
@@ -1085,7 +1185,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Pour into greased pan, bake at 160°C for 60 minutes',
-          sv: 'Häll i smord form, grädda i 160°C i 60 minuter',
+          sv: 'Häll smeten i en smord form och grädda i 160°C i 60 minuter',
           es: 'Vierta en un molde engrasado y hornee a 160°C por 60 minutos.',
           fr: 'Verser dans un moule beurré, enfourner à 160°C pendant 60 minutes',
           de: 'In eine gefettete Backform füllen und 60 Minuten bei 160 °C backen',
@@ -1096,7 +1196,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Poke holes in warm cake, pour rum syrup over',
-          sv: 'Gör hål i varm kaka, häll romsirap över',
+          sv: 'Stick hål i den varma kakan och häll romsirapen över',
           es: 'Haga agujeros en el pastel caliente y vierta el almíbar de ron encima',
           fr: 'Percez des trous dans le gâteau chaud, versez le sirop de rhum dessus',
           de: 'Löcher in den warmen Kuchen stechen, Rumsirup darübergießen',
@@ -1107,7 +1207,7 @@ export const jamaica: Country = {
         },
         {
           en: 'Let cake absorb syrup completely before serving',
-          sv: 'Låt kakan absorbera sirap helt innan servering',
+          sv: 'Låt kakan suga upp all sirap före servering',
           es: 'Deje que el pastel absorba el almíbar por completo antes de servir',
           fr: 'Laisser le gâteau absorber complètement le sirop avant de servir',
           de: 'Lassen Sie den Sirup vor dem Servieren vollständig vom Kuchen aufsaugen',
@@ -1485,7 +1585,7 @@ export const jamaica: Country = {
         options: [
           {
             en: 'Kona Coffee',
-            sv: 'Kona Coffee',
+            sv: 'Konakaffe',
             es: 'Café Kona',
             fr: 'Café Kona',
             de: 'Kona-Kaffee',
@@ -1496,7 +1596,7 @@ export const jamaica: Country = {
           },
           {
             en: 'Blue Mountain Coffee',
-            sv: 'Blue Mountain Coffee',
+            sv: 'Blue Mountain-kaffe',
             es: 'Café de Montaña Azul',
             fr: 'Café Blue Mountain',
             de: 'Blauer Bergkaffee',
@@ -1661,7 +1761,7 @@ export const jamaica: Country = {
           },
           {
             en: 'Angel Falls',
-            sv: 'Angel Falls',
+            sv: 'Angelfallet',
             es: 'Salto Ángel',
             fr: 'Chutes d\'Ange',
             de: 'Angel Falls',

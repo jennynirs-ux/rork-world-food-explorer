@@ -230,8 +230,28 @@ export const madagascar: Country = {
     },
     history: [
       {
-        year: '500 AD',
-        title: 'First Settlers',
+        year: {
+          en: '500 AD',
+          sv: '500 e.Kr.',
+          es: '500 d. C.',
+          fr: '500 apr. J.-C.',
+          de: '500 n. Chr.',
+          it: '500 d.C.',
+          pl: '500 n.e.',
+          nl: '500 n.Chr.',
+          pt: '500 d.C.',
+        },
+        title: {
+          en: 'First Settlers',
+          sv: 'De första bosättarna',
+          es: 'Primeros pobladores',
+          fr: 'Premiers habitants',
+          de: 'Erste Siedler',
+          it: 'Primi abitanti',
+          pl: 'Pierwsi osadnicy',
+          nl: 'Eerste bewoners',
+          pt: 'Primeiros habitantes',
+        },
         description: {
           en: 'Austronesian peoples arrived from Southeast Asia, shaping Malagasy culture.',
           sv: 'Austronesiska folk kom från Sydostasien och formade den madagaskiska kulturen.',
@@ -246,7 +266,17 @@ export const madagascar: Country = {
       },
       {
         year: '1896',
-        title: 'French Colony',
+        title: {
+          en: 'French Colony',
+          sv: 'Fransk koloni',
+          es: 'Colonia francesa',
+          fr: 'Colonie française',
+          de: 'Französische Kolonie',
+          it: 'Colonia francese',
+          pl: 'Kolonia francuska',
+          nl: 'Franse kolonie',
+          pt: 'Colônia francesa',
+        },
         description: {
           en: 'Madagascar became a French colony.',
           sv: 'Madagaskar blev en fransk koloni.',
@@ -261,7 +291,17 @@ export const madagascar: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Madagascar gained independence from France.',
           sv: 'Madagaskar blev självständigt från Frankrike.',
@@ -288,7 +328,17 @@ export const madagascar: Country = {
           nl: 'Vanilleteelt',
           pt: 'Cultivo de baunilha',
         },
-        year: '19th Century',
+        year: {
+          en: '19th Century',
+          sv: '1800-talet',
+          es: 'Siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'Século XIX',
+        },
         description: {
           en: 'Madagascar became the world\'s leading producer of natural vanilla.',
           sv: 'Madagaskar blev världens ledande producent av naturlig vanilj.',
@@ -313,7 +363,17 @@ export const madagascar: Country = {
           nl: 'Unieke biodiversiteit',
           pt: 'Biodiversidade única',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Island isolation created unique evolutionary innovations in flora and fauna.',
           sv: 'Öisolering skapade unika evolutionära innovationer inom flora och fauna.',
@@ -338,7 +398,17 @@ export const madagascar: Country = {
           nl: 'Cultuur rond zeboerunderen',
           pt: 'Cultura do gado zebu',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Developed distinctive zebu cattle herding and cultural practices.',
           sv: 'Utvecklade distinkta zebuboskapsskötsel och kulturella metoder.',
@@ -476,7 +546,17 @@ export const madagascar: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-November for dry season; avoid cyclone season December-March.',
           sv: 'April-november för torrperioden; undvika cyklonsäsongen december-mars.',
@@ -490,7 +570,17 @@ export const madagascar: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival available for most nationalities.',
           sv: 'Visum vid ankomst tillgängligt för de flesta nationaliteter.',
@@ -504,7 +594,17 @@ export const madagascar: Country = {
         },
       },
       {
-        item: 'Malaria prophylaxis',
+        item: {
+          en: 'Malaria prophylaxis',
+          sv: 'Malariaprofylax',
+          es: 'Profilaxis antimalárica',
+          fr: 'Prophylaxie antipaludique',
+          de: 'Malariaprophylaxe',
+          it: 'Profilassi antimalarica',
+          pl: 'Profilaktyka przeciwmalaryczna',
+          nl: 'Malariaprofylaxe',
+          pt: 'Profilaxia contra a malária',
+        },
         description: {
           en: 'Recommended for coastal and lowland areas.',
           sv: 'Rekommenderas för kust- och låglandsområden.',
@@ -518,7 +618,17 @@ export const madagascar: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Bring euros or dollars to exchange; ATMs limited outside cities.',
           sv: 'Ta med euro eller dollar för att växla; Uttagsautomater är begränsade utanför städer.',
@@ -586,7 +696,7 @@ export const madagascar: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -644,7 +754,7 @@ export const madagascar: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -671,7 +781,7 @@ export const madagascar: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -685,7 +795,7 @@ export const madagascar: Country = {
       steps: [
         {
           en: 'Mash bananas until smooth',
-          sv: 'Mosa bananerna tills de är slät',
+          sv: 'Mosa bananerna tills de är helt släta',
           es: 'Triture los plátanos hasta que quede suave',
           fr: 'Écraser les bananes jusqu\'à consistance lisse',
           de: 'Bananen zerdrücken, bis sie glatt sind',
@@ -696,7 +806,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Mix in ground peanuts, rice flour, and sugar',
-          sv: 'Blanda i malda jordnötter, rismjöl och socker',
+          sv: 'Rör ner de malda jordnötterna, rismjölet och sockret',
           es: 'Incorpora el maní molido, la harina de arroz y el azúcar',
           fr: 'Mélanger les cacahuètes moulues, la farine de riz et le sucre',
           de: 'Gemahlene Erdnüsse, Reismehl und Zucker untermischen',
@@ -707,7 +817,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Add honey and mix into thick paste',
-          sv: 'Tillsätt honung och blanda till en tjock pasta',
+          sv: 'Tillsätt honungen och rör till en tjock smet',
           es: 'Agregue miel y mezcle hasta obtener una pasta espesa',
           fr: 'Ajouter le miel et mélanger en pâte épaisse',
           de: 'Honig hinzufügen und zu einer dicken Paste verrühren',
@@ -718,7 +828,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Soften banana leaves over flame',
-          sv: 'Mjuka upp bananblad över låga',
+          sv: 'Mjuka upp bananbladen över öppen låga',
           es: 'Ablanda las hojas de plátano al fuego',
           fr: 'Ramollir les feuilles de bananier sur le feu',
           de: 'Bananenblätter über der Flamme einweichen',
@@ -729,7 +839,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Spread mixture onto banana leaves',
-          sv: 'Bred ut blandningen på bananblad',
+          sv: 'Bred ut smeten på bananbladen',
           es: 'Unte la mezcla sobre hojas de plátano',
           fr: 'Étaler le mélange sur des feuilles de bananier',
           de: 'Die Mischung auf den Bananenblättern verteilen',
@@ -740,7 +850,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Roll tightly and secure with string',
-          sv: 'Rulla hårt och säkra med snöre',
+          sv: 'Rulla ihop hårt och knyt fast med snöre',
           es: 'Enrolle bien y asegúrelo con una cuerda',
           fr: 'Roulez fermement et fixez avec de la ficelle',
           de: 'Fest zusammenrollen und mit einer Schnur sichern',
@@ -751,7 +861,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Steam for 90 minutes',
-          sv: 'Ånga i 90 minuter',
+          sv: 'Ångkoka i 90 minuter',
           es: 'Cocine al vapor durante 90 minutos',
           fr: 'Cuire à la vapeur pendant 90 minutes',
           de: '90 Minuten dämpfen',
@@ -762,7 +872,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Cool completely before slicing',
-          sv: 'Kyl helt innan du skär',
+          sv: 'Låt kakan svalna helt innan du skär upp den',
           es: 'Deje enfriar completamente antes de cortar',
           fr: 'Laisser refroidir complètement avant de trancher',
           de: 'Vor dem Schneiden vollständig abkühlen',
@@ -827,7 +937,7 @@ export const madagascar: Country = {
         {
           name: {
             en: 'Beef or zebu meat',
-            sv: 'Nötkött eller zebu kött',
+            sv: 'Nötkött eller zebukött',
             es: 'Carne de ternera o cebú',
             fr: 'Viande de bœuf ou de zébu',
             de: 'Rind- oder Zebufleisch',
@@ -842,7 +952,7 @@ export const madagascar: Country = {
         {
           name: {
             en: 'Mustard greens',
-            sv: 'Senapsgrönt',
+            sv: 'Bladsenap',
             es: 'Hojas de mostaza',
             fr: 'Feuilles de moutarde',
             de: 'Senfgrün',
@@ -869,7 +979,7 @@ export const madagascar: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -894,7 +1004,7 @@ export const madagascar: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -947,7 +1057,7 @@ export const madagascar: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -1010,7 +1120,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Add tomatoes and water to cover',
-          sv: 'Tillsätt tomater och vatten så att det täcker',
+          sv: 'Tillsätt tomaterna och så mycket vatten att det täcker',
           es: 'Agrega los tomates y el agua hasta cubrir',
           fr: 'Ajouter les tomates et l\'eau pour couvrir',
           de: 'Fügen Sie Tomaten und Wasser hinzu, um',
@@ -1032,7 +1142,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Add washed and chopped greens',
-          sv: 'Tillsätt tvättade och hackade gröna',
+          sv: 'Tillsätt den sköljda och hackade bladsenapen',
           es: 'Agregue las verduras lavadas y picadas',
           fr: 'Ajouter les légumes verts lavés et hachés',
           de: 'Gewaschenes und gehacktes Grün hinzufügen',
@@ -1043,7 +1153,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Cook 15 more minutes until greens are tender',
-          sv: 'Koka ytterligare 15 minuter tills grönsakerna är mjuka',
+          sv: 'Koka ytterligare 15 minuter tills bladsenapen är mjuk',
           es: 'Cocine 15 minutos más hasta que las verduras estén tiernas.',
           fr: 'Cuire encore 15 minutes jusqu\'à ce que les légumes verts soient tendres',
           de: 'Weitere 15 Minuten kochen, bis das Grün weich ist',
@@ -1065,7 +1175,7 @@ export const madagascar: Country = {
         },
         {
           en: 'Serve over white rice',
-          sv: 'Servera över vitt ris',
+          sv: 'Servera med kokt vitt ris',
           es: 'Servir sobre arroz blanco',
           fr: 'Servir sur du riz blanc',
           de: 'Über weißem Reis servieren',

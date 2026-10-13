@@ -220,7 +220,17 @@ export const liechtenstein: Country = {
     history: [
       {
         year: '1719',
-        title: 'Principality Founded',
+        title: {
+          en: 'Principality Founded',
+          sv: 'Furstendömet grundas',
+          es: 'Fundación del principado',
+          fr: 'Fondation de la principauté',
+          de: 'Gründung des Fürstentums',
+          it: 'Fondazione del principato',
+          pl: 'Powstanie księstwa',
+          nl: 'Stichting van het vorstendom',
+          pt: 'Fundação do principado',
+        },
         description: {
           en: 'The Holy Roman Emperor combined two lordships to create Liechtenstein.',
           sv: 'Den helige romerske kejsaren kombinerade två herrskap för att skapa Liechtenstein.',
@@ -235,7 +245,17 @@ export const liechtenstein: Country = {
       },
       {
         year: '1866',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Liechtenstein gained full independence and dissolved its military.',
           sv: 'Liechtenstein fick fullständig självständighet och upplöste sin militär.',
@@ -250,7 +270,17 @@ export const liechtenstein: Country = {
       },
       {
         year: '1984',
-        title: 'Women\'s Suffrage',
+        title: {
+          en: 'Women\'s Suffrage',
+          sv: 'Kvinnlig rösträtt',
+          es: 'Sufragio femenino',
+          fr: 'Droit de vote des femmes',
+          de: 'Frauenwahlrecht',
+          it: 'Suffragio femminile',
+          pl: 'Prawa wyborcze kobiet',
+          nl: 'Vrouwenkiesrecht',
+          pt: 'Voto feminino',
+        },
         description: {
           en: 'Liechtenstein was one of the last European countries to grant women voting rights.',
           sv: 'Liechtenstein var ett av de sista europeiska länderna som gav kvinnor rösträtt.',
@@ -277,7 +307,17 @@ export const liechtenstein: Country = {
           nl: 'Banksysteem',
           pt: 'Sistema bancário',
         },
-        year: '1920s',
+        year: {
+          en: '1920s',
+          sv: '1920-talet',
+          es: 'década de 1920',
+          fr: 'années 1920',
+          de: '1920er',
+          it: 'anni \'20',
+          pl: 'lata 20.',
+          nl: 'jaren 20',
+          pt: 'década de 1920',
+        },
         description: {
           en: 'Development of a sophisticated banking and financial services sector.',
           sv: 'Utveckling av en sofistikerad bank- och finanssektor.',
@@ -302,7 +342,17 @@ export const liechtenstein: Country = {
           nl: 'Precisiefabricage',
           pt: 'Fabricação de precisão',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'High-tech manufacturing of precision instruments and dental products.',
           sv: 'Högteknologisk tillverkning av precisionsinstrument och dentalprodukter.',
@@ -416,7 +466,7 @@ export const liechtenstein: Country = {
       {
         name: {
           en: 'Liechtenstein Trail',
-          sv: 'Liechtenstein Trail',
+          sv: 'Liechtensteinleden',
           es: 'Ruta de Liechtenstein',
           fr: 'Sentier du Liechtenstein',
           de: 'Liechtensteinweg',
@@ -440,7 +490,17 @@ export const liechtenstein: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June-September for hiking; December-March for skiing.',
           sv: 'Juni-september för vandring; December-mars för skidåkning.',
@@ -454,7 +514,17 @@ export const liechtenstein: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Same visa requirements as Switzerland (Schengen).',
           sv: 'Samma visumkrav som Schweiz (Schengen).',
@@ -492,7 +562,17 @@ export const liechtenstein: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'German is official; English often spoken in tourist areas.',
           sv: 'Tyska är officiellt; Engelska talas ofta i turistområden.',
@@ -521,7 +601,7 @@ export const liechtenstein: Country = {
       },
       description: {
         en: 'Traditional apple strudel pastry',
-        sv: 'Traditionell äppelstrudelbakelse',
+        sv: 'Traditionell äppelstrudel',
         es: 'Pastel tradicional de strudel de manzana',
         fr: 'Pâtisserie traditionnelle de strudel aux pommes',
         de: 'Traditionelles Apfelstrudelgebäck',
@@ -623,7 +703,7 @@ export const liechtenstein: Country = {
         {
           name: {
             en: 'Breadcrumbs',
-            sv: 'Brödsmulor',
+            sv: 'Ströbröd',
             es: 'Pan rallado',
             fr: 'Fil d\'Ariane',
             de: 'Semmelbrösel',
@@ -665,7 +745,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Mix apples with sugar, raisins, and cinnamon',
-          sv: 'Blanda äpplen med socker, russin och kanel',
+          sv: 'Blanda äpplena med socker, russin och kanel',
           es: 'Mezclar manzanas con azúcar, pasas y canela',
           fr: 'Mélangez les pommes avec le sucre, les raisins secs et la cannelle',
           de: 'Äpfel mit Zucker, Rosinen und Zimt mischen',
@@ -676,7 +756,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Lay out phyllo dough and brush with melted butter',
-          sv: 'Lägg ut filodeg och pensla med smält smör',
+          sv: 'Lägg ut filodegen och pensla den med smält smör',
           es: 'Extienda la masa filo y unte con mantequilla derretida',
           fr: 'Étalez la pâte phyllo et badigeonnez-la de beurre fondu',
           de: 'Den Filoteig auslegen und mit zerlassener Butter bestreichen',
@@ -687,7 +767,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Sprinkle breadcrumbs over phyllo',
-          sv: 'Strö ströbröd över filo',
+          sv: 'Strö ströbröd över filodegen',
           es: 'Espolvorea pan rallado sobre masa filo',
           fr: 'Saupoudrer de chapelure sur la pâte phyllo',
           de: 'Semmelbrösel über den Phyllo streuen',
@@ -709,7 +789,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Roll up carefully, tucking in sides',
-          sv: 'Rulla ihop försiktigt, stoppa in sidorna',
+          sv: 'Rulla försiktigt ihop strudeln och vik in sidorna',
           es: 'Enrollar con cuidado, metiendo los lados',
           fr: 'Roulez soigneusement en rentrant les côtés',
           de: 'Vorsichtig aufrollen und die Seiten einschlagen',
@@ -720,7 +800,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Brush top with butter',
-          sv: 'Pensla toppen med smör',
+          sv: 'Pensla ovansidan med smör',
           es: 'Unte la parte superior con mantequilla',
           fr: 'Badigeonner le dessus de beurre',
           de: 'Die Oberseite mit Butter bestreichen',
@@ -731,7 +811,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Bake at 375°F for 45 minutes until golden',
-          sv: 'Grädda i 375°F i 45 minuter tills de är gyllene',
+          sv: 'Grädda i 190°C i 45 minuter tills strudeln är gyllene',
           es: 'Hornee a 375°F durante 45 minutos hasta que esté dorado',
           fr: 'Cuire au four à 375°F pendant 45 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '45 Minuten bei 180 °C backen, bis sie goldbraun sind',
@@ -742,7 +822,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Dust with powdered sugar, serve warm with cream',
-          sv: 'Pudra över strösocker, servera varmt med grädde',
+          sv: 'Pudra över florsocker och servera varm med grädde',
           es: 'Espolvorear con azúcar glass y servir caliente con nata',
           fr: 'Saupoudrer de sucre glace, servir chaud avec de la crème',
           de: 'Mit Puderzucker bestäuben, warm mit Sahne servieren',
@@ -811,7 +891,7 @@ export const liechtenstein: Country = {
         {
           name: {
             en: 'Cheese (Emmentaler)',
-            sv: 'Ost (Emmentaler)',
+            sv: 'Ost (emmentaler)',
             es: 'Queso (Emmentaler)',
             fr: 'Fromage (Emmental)',
             de: 'Käse (Emmentaler)',
@@ -838,7 +918,7 @@ export const liechtenstein: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -878,7 +958,7 @@ export const liechtenstein: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -892,7 +972,7 @@ export const liechtenstein: Country = {
       steps: [
         {
           en: 'Cook noodles in salted water',
-          sv: 'Koka nudlar i saltat vatten',
+          sv: 'Koka nudlarna i saltat vatten',
           es: 'Cocine los fideos en agua con sal',
           fr: 'Cuire les nouilles dans de l\'eau salée',
           de: 'Nudeln in Salzwasser kochen',
@@ -903,7 +983,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Layer hot noodles with grated cheese',
-          sv: 'Varva varma nudlar med riven ost',
+          sv: 'Varva de varma nudlarna med riven ost',
           es: 'Coloque capas de fideos calientes con queso rallado',
           fr: 'Superposez des nouilles chaudes avec du fromage râpé',
           de: 'Heiße Nudeln mit geriebenem Käse belegen',
@@ -914,7 +994,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Repeat layers until cheese melts',
-          sv: 'Upprepa lager tills osten smälter',
+          sv: 'Fortsätt varva tills osten har smält',
           es: 'Repita las capas hasta que el queso se derrita',
           fr: 'Répétez les couches jusqu\'à ce que le fromage fonde',
           de: 'Wiederholen Sie die Schichten, bis der Käse schmilzt',
@@ -925,7 +1005,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Fry onions in butter until crispy',
-          sv: 'Fräs lök i smör tills den är knaprig',
+          sv: 'Stek löken i smör tills den är krispig',
           es: 'Freír las cebollas en mantequilla hasta que estén crujientes',
           fr: 'Faire revenir les oignons dans le beurre jusqu\'à ce qu\'ils soient croustillants',
           de: 'Zwiebeln in Butter knusprig anbraten',
@@ -936,7 +1016,7 @@ export const liechtenstein: Country = {
         },
         {
           en: 'Top noodles with fried onions',
-          sv: 'Toppnudlar med stekt lök',
+          sv: 'Toppa nudlarna med den stekta löken',
           es: 'Cubra los fideos con cebollas fritas',
           fr: 'Garnir les nouilles d\'oignons frits',
           de: 'Nudeln mit Röstzwiebeln belegen',
@@ -1148,7 +1228,7 @@ export const liechtenstein: Country = {
           },
           {
             en: 'Liechtenstein Franc',
-            sv: 'Liechtenstein Franc',
+            sv: 'Liechtensteinsk franc',
             es: 'Franco de Liechtenstein',
             fr: 'Franc liechtensteinois',
             de: 'Liechtensteiner Franken',

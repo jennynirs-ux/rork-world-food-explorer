@@ -349,7 +349,17 @@ export const austria: Country = {
           nl: 'Naaimachine',
           pt: 'Máquina de costura',
         },
-        year: '1830s',
+        year: {
+          en: '1830s',
+          sv: '1830-talet',
+          es: 'década de 1830',
+          fr: 'années 1830',
+          de: '1830er',
+          it: 'anni 1830',
+          pl: 'lata 30. XIX wieku',
+          nl: 'jaren 1830',
+          pt: 'década de 1830',
+        },
         description: {
           en: 'Josef Madersperger contributed to early sewing machine development in Austria.',
           sv: 'Josef Madersperger bidrog till tidig utveckling av symaskiner i Österrike.',
@@ -463,7 +473,7 @@ export const austria: Country = {
       {
         name: {
           en: 'Hofburg Palace',
-          sv: 'Hofburg Palace',
+          sv: 'Hofburg',
           es: 'Palacio de Hofburg',
           fr: 'Palais de la Hofburg',
           de: 'Hofburg',
@@ -487,8 +497,28 @@ export const austria: Country = {
     ],
     history: [
       {
-        year: '996 AD',
-        title: 'First Mention',
+        year: {
+          en: '996 AD',
+          sv: '996 e.Kr.',
+          es: '996 d. C.',
+          fr: '996 apr. J.-C.',
+          de: '996 n. Chr.',
+          it: '996 d.C.',
+          pl: '996 n.e.',
+          nl: '996 n.Chr.',
+          pt: '996 d.C.',
+        },
+        title: {
+          en: 'First Mention',
+          sv: 'Första omnämnandet',
+          es: 'Primera mención',
+          fr: 'Première mention',
+          de: 'Erste Erwähnung',
+          it: 'Prima menzione',
+          pl: 'Pierwsza wzmianka',
+          nl: 'Eerste vermelding',
+          pt: 'Primeira menção',
+        },
         description: {
           en: 'Austria was first mentioned in historical records as "Ostarrîchi", marking the beginning of Austrian identity.',
           sv: 'Österrike nämndes först i historiska dokument som "Ostarrîchi", vilket markerar början på den österrikiska identiteten.',
@@ -503,7 +533,17 @@ export const austria: Country = {
       },
       {
         year: '1278',
-        title: 'Habsburg Rule Begins',
+        title: {
+          en: 'Habsburg Rule Begins',
+          sv: 'Habsburgarnas styre inleds',
+          es: 'Comienza el dominio de los Habsburgo',
+          fr: 'Début du règne des Habsbourg',
+          de: 'Beginn der Habsburgerherrschaft',
+          it: 'Inizio del dominio asburgico',
+          pl: 'Początek panowania Habsburgów',
+          nl: 'Begin van het Habsburgse bewind',
+          pt: 'Início do domínio dos Habsburgo',
+        },
         description: {
           en: 'The Habsburg dynasty began its rule over Austria, which would last for over 640 years until 1918.',
           sv: 'Habsburgdynastin började sitt styre över Österrike, vilket skulle pågå i över 640 år fram till 1918.',
@@ -518,7 +558,17 @@ export const austria: Country = {
       },
       {
         year: '1867',
-        title: 'Austro-Hungarian Empire',
+        title: {
+          en: 'Austro-Hungarian Empire',
+          sv: 'Österrike-Ungern',
+          es: 'Imperio austrohúngaro',
+          fr: 'Empire austro-hongrois',
+          de: 'Österreich-Ungarn',
+          it: 'Impero austro-ungarico',
+          pl: 'Austro-Węgry',
+          nl: 'Oostenrijk-Hongarije',
+          pt: 'Império Austro-Húngaro',
+        },
         description: {
           en: 'The Austrian Empire transformed into the dual monarchy of Austria-Hungary, becoming one of Europe\'s great powers.',
           sv: 'Det österrikiska imperiet förvandlades till den dubbla monarkin Österrike-Ungern och blev en av Europas stormakter.',
@@ -533,7 +583,17 @@ export const austria: Country = {
       },
       {
         year: '1918',
-        title: 'Republic Established',
+        title: {
+          en: 'Republic Established',
+          sv: 'Republiken bildas',
+          es: 'Instauración de la república',
+          fr: 'Instauration de la république',
+          de: 'Gründung der Republik',
+          it: 'Nascita della repubblica',
+          pl: 'Powstanie republiki',
+          nl: 'Ontstaan van de republiek',
+          pt: 'Instauração da república',
+        },
         description: {
           en: 'After World War I, the Habsburg monarchy ended and Austria became a republic.',
           sv: 'Efter första världskriget upphörde den habsburgska monarkin och Österrike blev en republik.',
@@ -548,7 +608,17 @@ export const austria: Country = {
       },
       {
         year: '1955',
-        title: 'Independence and Neutrality',
+        title: {
+          en: 'Independence and Neutrality',
+          sv: 'Självständighet och neutralitet',
+          es: 'Independencia y neutralidad',
+          fr: 'Indépendance et neutralité',
+          de: 'Unabhängigkeit und Neutralität',
+          it: 'Indipendenza e neutralità',
+          pl: 'Niepodległość i neutralność',
+          nl: 'Onafhankelijkheid en neutraliteit',
+          pt: 'Independência e neutralidade',
+        },
         description: {
           en: 'Austria regained full independence and declared permanent neutrality after World War II occupation ended.',
           sv: 'Österrike återfick fullständig självständighet och förklarade permanent neutralitet efter att andra världskrigets ockupation upphörde.',
@@ -563,7 +633,17 @@ export const austria: Country = {
       },
       {
         year: '1995',
-        title: 'EU Membership',
+        title: {
+          en: 'EU Membership',
+          sv: 'EU-medlemskap',
+          es: 'Adhesión a la UE',
+          fr: 'Adhésion à l\'UE',
+          de: 'EU-Beitritt',
+          it: 'Adesione all\'UE',
+          pl: 'Przystąpienie do UE',
+          nl: 'EU-lidmaatschap',
+          pt: 'Adesão à UE',
+        },
         description: {
           en: 'Austria joined the European Union, strengthening its ties with Western Europe.',
           sv: 'Österrike gick med i Europeiska unionen och stärkte sina band med Västeuropa.',
@@ -579,7 +659,17 @@ export const austria: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen visa rules apply. Many nationalities can visit visa-free for up to 90 days.',
           sv: 'Schengenvisumregler gäller. Många nationaliteter kan besöka visumfritt i upp till 90 dagar.',
@@ -593,7 +683,17 @@ export const austria: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to September for hiking and sightseeing; December to March for skiing',
           sv: 'Maj till september för vandring och sightseeing; December till mars för skidåkning',
@@ -607,7 +707,17 @@ export const austria: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Excellent public transport including trains, trams, and buses. Vienna has an efficient metro system.',
           sv: 'Utmärkt kollektivtrafik inklusive tåg, spårvagnar och bussar. Wien har ett effektivt tunnelbanesystem.',
@@ -621,7 +731,17 @@ export const austria: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'German is the official language. English is widely spoken in tourist areas.',
           sv: 'Tyska är det officiella språket. Engelska talas mycket i turistområden.',
@@ -635,7 +755,17 @@ export const austria: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe country with low crime rates. Standard precautions in tourist areas.',
           sv: 'Mycket säkert land med låg brottslighet. Standardförsiktighetsåtgärder i turistområden.',
@@ -664,7 +794,7 @@ export const austria: Country = {
       },
       description: {
         en: 'Austria\'s national dish - a thin, breaded, and pan-fried veal cutlet. Traditionally served with potato salad, cucumber salad, or parsley potatoes and a slice of lemon.',
-        sv: 'Österrikes nationalrätt - en tunn, panerad och stekt kalvkotlett. Serveras traditionellt med potatissallad, gurksallad eller persiljepotatis och en citronskiva.',
+        sv: 'Österrikes nationalrätt – en tunn, panerad och stekt kalvschnitzel. Serveras traditionellt med potatissallad, gurksallad eller persiljepotatis och en citronskiva.',
         es: 'El plato nacional de Austria: una fina chuleta de ternera empanizada y frita. Tradicionalmente se sirve con ensalada de patatas, ensalada de pepino o patatas con perejil y una rodaja de limón.',
         fr: 'Le plat national autrichien : une fine escalope de veau panée et poêlée. Traditionnellement servi avec une salade de pommes de terre, une salade de concombre ou des pommes de terre persillées et une tranche de citron.',
         de: 'Österreichs Nationalgericht – ein dünnes, paniertes und in der Pfanne gebratenes Kalbsschnitzel. Traditionell serviert mit Kartoffelsalat, Gurkensalat oder Petersilienkartoffeln und einer Zitronenscheibe.',
@@ -716,7 +846,7 @@ export const austria: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -756,7 +886,7 @@ export const austria: Country = {
         {
           name: {
             en: 'Breadcrumbs',
-            sv: 'Brödsmulor',
+            sv: 'Ströbröd',
             es: 'Pan rallado',
             fr: 'Fil d\'Ariane',
             de: 'Semmelbrösel',
@@ -842,7 +972,7 @@ export const austria: Country = {
       steps: [
         {
           en: 'Pound the veal cutlets until very thin (about 3-4mm thick)',
-          sv: 'Banka kalvkotletterna tills de är väldigt tunna (ca 3-4 mm tjocka)',
+          sv: 'Banka kalvköttet tunt (ca 3–4 mm)',
           es: 'Machacar las chuletas de ternera hasta que queden muy finas (de unos 3-4 mm de grosor)',
           fr: 'Pilez les escalopes de veau jusqu\'à ce qu\'elles soient très fines (environ 3-4 mm d\'épaisseur)',
           de: 'Die Kalbsschnitzel sehr dünn klopfen (ca. 3–4 mm dick)',
@@ -853,7 +983,7 @@ export const austria: Country = {
         },
         {
           en: 'Season both sides with salt and pepper',
-          sv: 'Krydda båda sidor med salt och peppar',
+          sv: 'Salta och peppra på båda sidor',
           es: 'Sazone ambos lados con sal y pimienta',
           fr: 'Assaisonner les deux côtés avec du sel et du poivre',
           de: 'Beide Seiten mit Salz und Pfeffer würzen',
@@ -864,7 +994,7 @@ export const austria: Country = {
         },
         {
           en: 'Set up three shallow dishes: one with flour, one with beaten eggs, one with breadcrumbs',
-          sv: 'Ställ upp tre grunda rätter: en med mjöl, en med uppvispade ägg, en med ströbröd',
+          sv: 'Ställ fram tre djupa tallrikar: en med vetemjöl, en med uppvispade ägg och en med ströbröd',
           es: 'Prepara tres platos llanos: uno con harina, otro con huevos batidos y otro con pan rallado',
           fr: 'Préparez trois plats peu profonds : un avec de la farine, un avec des œufs battus, un avec de la chapelure',
           de: 'Stellen Sie drei flache Schüsseln bereit: eine mit Mehl, eine mit verquirlten Eiern, eine mit Semmelbröseln',
@@ -875,7 +1005,7 @@ export const austria: Country = {
         },
         {
           en: 'Coat each cutlet in flour, then egg, then breadcrumbs, pressing gently to adhere',
-          sv: 'Belägg varje kotlett med mjöl, sedan ägg, sedan ströbröd, tryck försiktigt för att fästa',
+          sv: 'Vänd köttbitarna först i mjöl, sedan i ägg och sist i ströbröd, och tryck lätt så att paneringen fäster',
           es: 'Cubra cada chuleta con harina, luego con huevo y luego con pan rallado, presionando suavemente para que se adhiera',
           fr: 'Enrober chaque escalope de farine, puis d\'œuf, puis de chapelure en pressant doucement pour faire adhérer',
           de: 'Bestreichen Sie jedes Schnitzel mit Mehl, dann mit Ei und dann mit Semmelbröseln und drücken Sie es leicht an, damit es festklebt',
@@ -886,7 +1016,7 @@ export const austria: Country = {
         },
         {
           en: 'Heat butter/lard in a large pan over medium-high heat until foaming',
-          sv: 'Värm smör/fett i en stor panna på medelhög värme tills det skummar',
+          sv: 'Hetta upp smör eller ister i en stor stekpanna på medelhög värme tills det skummar',
           es: 'Caliente la mantequilla/manteca de cerdo en una sartén grande a fuego medio-alto hasta que forme espuma',
           fr: 'Chauffer le beurre/le saindoux dans une grande poêle à feu moyen-vif jusqu\'à ce qu\'ils moussent',
           de: 'Butter/Schmalz in einer großen Pfanne bei mittlerer bis hoher Hitze erhitzen, bis Schaum entsteht',
@@ -897,7 +1027,7 @@ export const austria: Country = {
         },
         {
           en: 'Fry schnitzels for 2-3 minutes per side until golden brown',
-          sv: 'Stek schnitzlar i 2-3 minuter per sida tills de är gyllenbruna',
+          sv: 'Stek schnitzlarna 2–3 minuter per sida tills de är gyllenbruna',
           es: 'Freír los escalopes durante 2-3 minutos por lado hasta que estén dorados',
           fr: 'Faire frire les escalopes pendant 2-3 minutes de chaque côté jusqu\'à ce qu\'elles soient dorées',
           de: 'Schnitzel von jeder Seite 2-3 Minuten goldbraun braten',
@@ -935,7 +1065,7 @@ export const austria: Country = {
       },
       description: {
         en: 'Famous Viennese chocolate cake with apricot jam filling, glazed with dark chocolate',
-        sv: 'Berömd wiensk chokladkaka med fyllning av aprikossylt, glaserad med mörk choklad',
+        sv: 'Berömd wiensk chokladtårta med aprikosmarmelad, glaserad med mörk choklad',
         es: 'Famoso pastel vienés de chocolate relleno de mermelada de albaricoque, glaseado con chocolate negro',
         fr: 'Célèbre gâteau au chocolat viennois fourré à la confiture d\'abricots, glacé au chocolat noir',
         de: 'Berühmter Wiener Schokoladenkuchen mit Marillenmarmeladefüllung, glasiert mit dunkler Schokolade',
@@ -1019,7 +1149,7 @@ export const austria: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1032,7 +1162,7 @@ export const austria: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1047,7 +1177,7 @@ export const austria: Country = {
         {
           name: {
             en: 'Apricot jam',
-            sv: 'Aprikossylt',
+            sv: 'Aprikosmarmelad',
             es: 'Mermelada de albaricoque',
             fr: 'Confiture d\'abricots',
             de: 'Aprikosenmarmelade',
@@ -1062,7 +1192,7 @@ export const austria: Country = {
         {
           name: {
             en: 'Dark chocolate for glaze',
-            sv: 'Mörk choklad för glasyr',
+            sv: 'Mörk choklad till glasyr',
             es: 'Chocolate negro para glaseado',
             fr: 'Chocolat noir pour glaçage',
             de: 'Dunkle Schokolade zum Glasieren',
@@ -1077,7 +1207,7 @@ export const austria: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -1093,7 +1223,7 @@ export const austria: Country = {
       steps: [
         {
           en: 'Melt 200g chocolate with butter, let cool slightly.',
-          sv: 'Smält 200g choklad med smör, låt svalna något.',
+          sv: 'Smält 200 g choklad med smöret och låt svalna något.',
           es: 'Derretir 200 g de chocolate con mantequilla y dejar enfriar un poco.',
           fr: 'Faire fondre 200 g de chocolat avec le beurre, laisser refroidir légèrement.',
           de: '200g Schokolade mit Butter schmelzen, etwas abkühlen lassen.',
@@ -1104,7 +1234,7 @@ export const austria: Country = {
         },
         {
           en: 'Separate eggs. Beat yolks with half the sugar until pale.',
-          sv: 'Separera ägg. Vispa äggulorna med hälften av sockret tills det blir blekt.',
+          sv: 'Dela äggen. Vispa äggulorna med hälften av sockret tills det blir ljust och pösigt.',
           es: 'Separar los huevos. Batir las yemas con la mitad del azúcar hasta que estén pálidas.',
           fr: 'Séparez les œufs. Battre les jaunes avec la moitié du sucre jusqu\'à ce qu\'ils blanchissent.',
           de: 'Eier trennen. Eigelb mit der Hälfte des Zuckers schaumig schlagen.',
@@ -1115,7 +1245,7 @@ export const austria: Country = {
         },
         {
           en: 'Mix melted chocolate into yolk mixture.',
-          sv: 'Blanda smält choklad i äggulablandningen.',
+          sv: 'Rör ner den smälta chokladen i äggulesmeten.',
           es: 'Mezcle el chocolate derretido con la mezcla de yemas.',
           fr: 'Mélanger le chocolat fondu au mélange de jaunes.',
           de: 'Geschmolzene Schokolade unter die Eigelbmischung mischen.',
@@ -1126,7 +1256,7 @@ export const austria: Country = {
         },
         {
           en: 'Beat egg whites with remaining sugar to stiff peaks.',
-          sv: 'Vispa äggvitan med resterande socker till hårda toppar.',
+          sv: 'Vispa äggvitorna med resten av sockret till ett hårt skum.',
           es: 'Batir las claras con el azúcar restante hasta obtener picos rígidos.',
           fr: 'Battre les blancs d\'œufs avec le reste du sucre en pics fermes.',
           de: 'Eiweiß mit restlichem Zucker steif schlagen.',
@@ -1137,7 +1267,7 @@ export const austria: Country = {
         },
         {
           en: 'Fold flour into chocolate mixture, then fold in egg whites.',
-          sv: 'Vänd ner mjölet i chokladblandningen och vänd sedan i äggvitan.',
+          sv: 'Vänd ner mjölet i chokladsmeten och vänd sedan försiktigt ner äggviteskummet.',
           es: 'Incorpora la harina a la mezcla de chocolate y luego incorpora las claras de huevo.',
           fr: 'Incorporer la farine au mélange de chocolat, puis incorporer les blancs d\'œufs.',
           de: 'Mehl unter die Schokoladenmischung heben, dann Eiweiß unterheben.',
@@ -1148,7 +1278,7 @@ export const austria: Country = {
         },
         {
           en: 'Pour into greased pan, bake at 170°C for 50-60 minutes.',
-          sv: 'Häll i smord form, grädda i 170°C i 50-60 minuter.',
+          sv: 'Häll smeten i en smord form och grädda i 170°C i 50–60 minuter.',
           es: 'Vierta en un molde engrasado y hornee a 170°C durante 50-60 minutos.',
           fr: 'Verser dans un moule beurré et cuire au four à 170°C pendant 50 à 60 minutes.',
           de: 'In eine gefettete Backform füllen und bei 170 °C 50–60 Minuten backen.',
@@ -1159,7 +1289,7 @@ export const austria: Country = {
         },
         {
           en: 'Cool completely, slice horizontally into two layers.',
-          sv: 'Kyl helt, skiva horisontellt i två lager.',
+          sv: 'Låt svalna helt och dela sedan tårtan horisontellt i två bottnar.',
           es: 'Deje enfriar completamente, córtelo horizontalmente en dos capas.',
           fr: 'Laisser refroidir complètement, couper horizontalement en deux couches.',
           de: 'Vollständig abkühlen lassen und horizontal in zwei Schichten schneiden.',
@@ -1170,7 +1300,7 @@ export const austria: Country = {
         },
         {
           en: 'Heat apricot jam until liquid, spread between layers and over top.',
-          sv: 'Värm aprikossylt tills det är flytande, fördela mellan lagren och ovanpå.',
+          sv: 'Värm aprikosmarmeladen tills den blir flytande och bred den mellan bottnarna och över tårtan.',
           es: 'Caliente la mermelada de albaricoque hasta que esté líquida, extiéndala en capas y por encima.',
           fr: 'Chauffer la confiture d\'abricots jusqu\'à ce qu\'elle soit liquide, étaler entre les couches et sur le dessus.',
           de: 'Aprikosenmarmelade erhitzen, bis sie flüssig ist, zwischen den Schichten und darüber verteilen.',
@@ -1181,7 +1311,7 @@ export const austria: Country = {
         },
         {
           en: 'Make glaze: heat cream, pour over 200g chocolate, stir until smooth.',
-          sv: 'Gör glasyr: värm grädde, häll över 200g choklad, rör om tills den är slät.',
+          sv: 'Gör glasyren: värm grädden, häll den över 200 g choklad och rör tills glasyren är slät.',
           es: 'Hacer el glaseado: calentar la nata, verter sobre 200 g de chocolate y remover hasta que quede suave.',
           fr: 'Réaliser le glaçage : faire chauffer la crème, verser dessus 200 g de chocolat, remuer jusqu\'à consistance lisse.',
           de: 'Glasur herstellen: Sahne erhitzen, 200 g Schokolade darübergießen, glatt rühren.',
@@ -1192,7 +1322,7 @@ export const austria: Country = {
         },
         {
           en: 'Pour glaze over cake, smooth with spatula. Let set before serving.',
-          sv: 'Häll glasyr över kakan, jämna till med spatel. Låt stelna innan servering.',
+          sv: 'Häll glasyren över tårtan och jämna till med en spatel. Låt stelna före servering.',
           es: 'Vierta el glaseado sobre el pastel y alise con una espátula. Dejar reposar antes de servir.',
           fr: 'Verser le glaçage sur le gâteau, lisser à la spatule. Laisser reposer avant de servir.',
           de: 'Glasur über den Kuchen gießen und mit einem Spatel glatt streichen. Vor dem Servieren fest werden lassen.',

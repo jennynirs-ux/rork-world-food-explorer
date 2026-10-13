@@ -263,8 +263,28 @@ export const syria: Country = {
     },
     history: [
       {
-        year: '3000–2000 BC',
-        title: 'Early Cities & Trade Routes',
+        year: {
+          en: '3000–2000 BC',
+          sv: '3000–2000 f.Kr.',
+          es: '3000–2000 a. C.',
+          fr: '3000–2000 av. J.-C.',
+          de: '3000–2000 v. Chr.',
+          it: '3000–2000 a.C.',
+          pl: '3000–2000 p.n.e.',
+          nl: '3000–2000 v.Chr.',
+          pt: '3000–2000 a.C.',
+        },
+        title: {
+          en: 'Early Cities & Trade Routes',
+          sv: 'Tidiga städer och handelsvägar',
+          es: 'Primeras ciudades y rutas comerciales',
+          fr: 'Premières villes et routes commerciales',
+          de: 'Frühe Städte und Handelswege',
+          it: 'Prime città e rotte commerciali',
+          pl: 'Pierwsze miasta i szlaki handlowe',
+          nl: 'Vroege steden en handelsroutes',
+          pt: 'Primeiras cidades e rotas comerciais',
+        },
         description: {
           en: 'Ancient settlements and city-states flourished in the region, positioned on important trade routes linking Mesopotamia and the Mediterranean.',
           sv: 'Forntida bosättningar och stadsstater blomstrade i regionen, placerade på viktiga handelsvägar som förbinder Mesopotamien och Medelhavet.',
@@ -278,8 +298,28 @@ export const syria: Country = {
         },
       },
       {
-        year: '64 BC',
-        title: 'Roman Province of Syria',
+        year: {
+          en: '64 BC',
+          sv: '64 f.Kr.',
+          es: '64 a. C.',
+          fr: '64 av. J.-C.',
+          de: '64 v. Chr.',
+          it: '64 a.C.',
+          pl: '64 p.n.e.',
+          nl: '64 v.Chr.',
+          pt: '64 a.C.',
+        },
+        title: {
+          en: 'Roman Province of Syria',
+          sv: 'Romerska provinsen Syrien',
+          es: 'Provincia romana de Siria',
+          fr: 'Province romaine de Syrie',
+          de: 'Römische Provinz Syrien',
+          it: 'Provincia romana di Siria',
+          pl: 'Rzymska prowincja Syria',
+          nl: 'Romeinse provincie Syrië',
+          pt: 'Província romana da Síria',
+        },
         description: {
           en: 'Syria became a Roman province, with cities like Palmyra and Antioch playing major roles in commerce and culture.',
           sv: 'Syrien blev en romersk provins, med städer som Palmyra och Antiokia som spelade stora roller inom handel och kultur.',
@@ -294,7 +334,17 @@ export const syria: Country = {
       },
       {
         year: '661–750',
-        title: 'Umayyad Caliphate',
+        title: {
+          en: 'Umayyad Caliphate',
+          sv: 'Umayyadkalifatet',
+          es: 'Califato omeya',
+          fr: 'Califat omeyyade',
+          de: 'Kalifat der Umayyaden',
+          it: 'Califfato omayyade',
+          pl: 'Kalifat Umajjadów',
+          nl: 'Omajjadenkalifaat',
+          pt: 'Califado omíada',
+        },
         description: {
           en: 'Damascus became the capital of the Umayyad Caliphate, shaping architecture, scholarship, and regional influence.',
           sv: 'Damaskus blev huvudstad i Umayyad-kalifatet och formade arkitektur, stipendium och regionalt inflytande.',
@@ -309,7 +359,17 @@ export const syria: Country = {
       },
       {
         year: '1516–1918',
-        title: 'Ottoman Era',
+        title: {
+          en: 'Ottoman Era',
+          sv: 'Osmansk tid',
+          es: 'Época otomana',
+          fr: 'Époque ottomane',
+          de: 'Osmanische Zeit',
+          it: 'Epoca ottomana',
+          pl: 'Okres osmański',
+          nl: 'Ottomaanse tijd',
+          pt: 'Era otomana',
+        },
         description: {
           en: 'Syria was part of the Ottoman Empire for centuries, influencing food, crafts, and urban life.',
           sv: 'Syrien var en del av det osmanska riket i århundraden och påverkade mat, hantverk och stadsliv.',
@@ -324,7 +384,17 @@ export const syria: Country = {
       },
       {
         year: '1946',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Syria gained full independence after the end of the French Mandate period.',
           sv: 'Syrien fick fullständig självständighet efter utgången av den franska mandatperioden.',
@@ -351,7 +421,17 @@ export const syria: Country = {
           nl: 'Aleppozeep (laurierzeep)',
           pt: 'Sabonete de Alepo (sabonete de louro)',
         },
-        year: 'Ancient–Medieval',
+        year: {
+          en: 'Ancient–Medieval',
+          sv: 'Forntid–medeltid',
+          es: 'Antigüedad–Edad Media',
+          fr: 'Antiquité–Moyen Âge',
+          de: 'Antike–Mittelalter',
+          it: 'Antichità–Medioevo',
+          pl: 'Starożytność–średniowiecze',
+          nl: 'Oudheid–middeleeuwen',
+          pt: 'Antiguidade–Idade Média',
+        },
         description: {
           en: 'Traditional laurel and olive oil soap-making from Aleppo influenced soap traditions across the Mediterranean.',
           sv: 'Traditionell tvåltillverkning av lager och olivolja från Aleppo påverkade tvåltraditionerna över Medelhavet.',
@@ -376,7 +456,17 @@ export const syria: Country = {
           nl: 'Damasceens vakmanschap',
           pt: 'Artesanato damasceno',
         },
-        year: 'Medieval Era',
+        year: {
+          en: 'Medieval Era',
+          sv: 'Medeltiden',
+          es: 'Edad Media',
+          fr: 'Moyen Âge',
+          de: 'Mittelalter',
+          it: 'Medioevo',
+          pl: 'Średniowiecze',
+          nl: 'Middeleeuwen',
+          pt: 'Idade Média',
+        },
         description: {
           en: 'Damascus became renowned for intricate metalwork, textiles, and artisan crafts traded across regions.',
           sv: 'Damaskus blev känt för invecklat metallarbete, textilier och hantverk som handlas över regioner.',
@@ -401,7 +491,17 @@ export const syria: Country = {
           nl: 'Levantijnse culinaire tradities',
           pt: 'Tradições culinárias levantinas',
         },
-        year: 'Centuries',
+        year: {
+          en: 'Centuries',
+          sv: 'Sedan århundraden',
+          es: 'Desde hace siglos',
+          fr: 'Depuis des siècles',
+          de: 'Seit Jahrhunderten',
+          it: 'Da secoli',
+          pl: 'Od wieków',
+          nl: 'Al eeuwen',
+          pt: 'Há séculos',
+        },
         description: {
           en: 'Syrian mezze culture and dessert techniques helped shape food traditions across the Levant and beyond.',
           sv: 'Syrisk mezze-kultur och desserttekniker hjälpte till att forma mattraditioner över hela Levanten och bortom.',
@@ -539,7 +639,17 @@ export const syria: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Safety & advisories',
+        item: {
+          en: 'Safety & advisories',
+          sv: 'Säkerhet och reseråd',
+          es: 'Seguridad y recomendaciones de viaje',
+          fr: 'Sécurité et conseils aux voyageurs',
+          de: 'Sicherheit und Reisehinweise',
+          it: 'Sicurezza e avvisi di viaggio',
+          pl: 'Bezpieczeństwo i ostrzeżenia',
+          nl: 'Veiligheid en reisadviezen',
+          pt: 'Segurança e alertas de viagem',
+        },
         description: {
           en: 'Check current travel advisories and local guidance; conditions can vary significantly by region.',
           sv: 'Kontrollera aktuella reserådgivningar och lokal vägledning; förhållandena kan variera avsevärt beroende på region.',
@@ -553,7 +663,17 @@ export const syria: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Arabic is the official language; learning basic greetings is appreciated.',
           sv: 'Arabiska är det officiella språket; att lära sig grundläggande hälsningar uppskattas.',
@@ -567,7 +687,17 @@ export const syria: Country = {
         },
       },
       {
-        item: 'Etiquette',
+        item: {
+          en: 'Etiquette',
+          sv: 'Vett och etikett',
+          es: 'Normas de cortesía',
+          fr: 'Savoir-vivre',
+          de: 'Umgangsformen',
+          it: 'Galateo',
+          pl: 'Savoir-vivre',
+          nl: 'Etiquette',
+          pt: 'Etiqueta',
+        },
         description: {
           en: 'Modest dress is respectful, especially at religious or traditional sites.',
           sv: 'Modest klädsel är respektfullt, särskilt på religiösa eller traditionella platser.',
@@ -581,7 +711,17 @@ export const syria: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Card acceptance can be limited; carry local currency where relevant.',
           sv: 'Kortacceptans kan begränsas; bära lokal valuta där det är relevant.',
@@ -595,7 +735,17 @@ export const syria: Country = {
         },
       },
       {
-        item: 'Food culture',
+        item: {
+          en: 'Food culture',
+          sv: 'Matkultur',
+          es: 'Cultura gastronómica',
+          fr: 'Culture culinaire',
+          de: 'Esskultur',
+          it: 'Cultura gastronomica',
+          pl: 'Kultura kulinarna',
+          nl: 'Eetcultuur',
+          pt: 'Cultura gastronômica',
+        },
         description: {
           en: 'Expect shared dishes and hospitality—meals are often communal and generous.',
           sv: 'Förvänta dig delade rätter och gästfrihet – måltiderna är ofta gemensamma och generösa.',
@@ -624,7 +774,7 @@ export const syria: Country = {
       },
       description: {
         en: 'Bulgur and meat croquettes, national dish',
-        sv: 'Bulgur och köttkroketter, nationalrätt',
+        sv: 'Kroketter av bulgur och köttfärs – Syriens nationalrätt',
         es: 'Croquetas de bulgur y carne, plato nacional',
         fr: 'Croquettes de boulgour et viande, plat national',
         de: 'Bulgur- und Fleischkroketten, Nationalgericht',
@@ -651,7 +801,7 @@ export const syria: Country = {
         {
           name: {
             en: 'Ground lamb',
-            sv: 'Malet lamm',
+            sv: 'Lammfärs',
             es: 'Cordero molido',
             fr: 'Agneau haché',
             de: 'Lammhackfleisch',
@@ -693,7 +843,7 @@ export const syria: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -763,7 +913,7 @@ export const syria: Country = {
         },
         {
           en: 'Mix bulgur with half the meat, grated onion, and spices',
-          sv: 'Blanda bulgur med hälften av köttet, riven lök och kryddor',
+          sv: 'Blanda bulguren med hälften av färsen, riven lök och kryddor',
           es: 'Mezcla el bulgur con la mitad de la carne, la cebolla rallada y las especias',
           fr: 'Mélanger le boulgour avec la moitié de la viande, l\'oignon râpé et les épices',
           de: 'Bulgur mit der Hälfte des Fleisches, der geriebenen Zwiebel und den Gewürzen vermischen',
@@ -774,7 +924,7 @@ export const syria: Country = {
         },
         {
           en: 'Prepare filling by cooking remaining meat with pine nuts and spices',
-          sv: 'Förbered fyllningen genom att tillaga resterande kött med pinjenötter och kryddor',
+          sv: 'Gör fyllningen genom att steka resten av färsen med pinjenötter och kryddor',
           es: 'Prepare el relleno cocinando la carne restante con piñones y especias.',
           fr: 'Préparez la garniture en cuisant le reste de la viande avec des pignons de pin et des épices',
           de: 'Bereiten Sie die Füllung vor, indem Sie das restliche Fleisch mit Pinienkernen und Gewürzen kochen',
@@ -785,7 +935,7 @@ export const syria: Country = {
         },
         {
           en: 'Form oval shells and fill with meat mixture',
-          sv: 'Forma ovala skal och fyll med köttblandning',
+          sv: 'Forma ovala skal och fyll dem med köttfyllningen',
           es: 'Formar conchas ovaladas y rellenar con la mezcla de carne',
           fr: 'Former des coquilles ovales et remplir du mélange de viande',
           de: 'Ovale Schalen formen und mit der Fleischmischung füllen',
@@ -796,7 +946,7 @@ export const syria: Country = {
         },
         {
           en: 'Seal carefully and shape into torpedoes',
-          sv: 'Förslut försiktigt och forma till torpeder',
+          sv: 'Nyp ihop öppningen noga och forma dem till små torpeder',
           es: 'Sellar con cuidado y darles forma de torpedos',
           fr: 'Scellez soigneusement et façonnez des torpilles',
           de: 'Sorgfältig verschließen und zu Torpedos formen',
@@ -829,7 +979,7 @@ export const syria: Country = {
         },
         {
           en: 'Serve with yogurt and fresh salad',
-          sv: 'Servera med yoghurt och fräsch sallad',
+          sv: 'Servera med yoghurt och färsk sallad',
           es: 'Servir con yogur y ensalada fresca',
           fr: 'Servir avec du yaourt et de la salade fraîche',
           de: 'Mit Joghurt und frischem Salat servieren',
@@ -856,7 +1006,7 @@ export const syria: Country = {
       },
       description: {
         en: 'Traditional Syrian semolina cookies filled with dates or nuts, commonly prepared for religious holidays.',
-        sv: 'Traditionella syriska mannagrynkakor fyllda med dadlar eller nötter, vanligtvis tillagade för religiösa högtider.',
+        sv: 'Traditionella syriska mannagrynskakor fyllda med dadlar eller nötter, som ofta bakas till religiösa högtider.',
         es: 'Galletas de sémola tradicionales sirias rellenas de dátiles o nueces, comúnmente preparadas para fiestas religiosas.',
         fr: 'Biscuits traditionnels syriens à la semoule remplis de dattes ou de noix, généralement préparés pour les fêtes religieuses.',
         de: 'Traditionelle syrische Grießkekse gefüllt mit Datteln oder Nüssen, die üblicherweise für religiöse Feiertage zubereitet werden.',
@@ -943,7 +1093,7 @@ export const syria: Country = {
         {
           name: {
             en: 'Date paste',
-            sv: 'Datumklistra',
+            sv: 'Dadelpasta',
             es: 'Pasta de dátil',
             fr: 'Pâte de dattes',
             de: 'Datum einfügen',
@@ -1008,7 +1158,7 @@ export const syria: Country = {
         {
           name: {
             en: 'Powdered sugar (optional)',
-            sv: 'Pulversocker (valfritt)',
+            sv: 'Florsocker (valfritt)',
             es: 'Azúcar en polvo (opcional)',
             fr: 'Sucre en poudre (facultatif)',
             de: 'Puderzucker (optional)',
@@ -1024,7 +1174,7 @@ export const syria: Country = {
       steps: [
         {
           en: 'Mix semolina with melted butter and let rest 30 minutes',
-          sv: 'Blanda mannagryn med smält smör och låt vila 30 minuter',
+          sv: 'Blanda mannagryn med smält smör och låt vila i 30 minuter',
           es: 'Mezclar la sémola con la mantequilla derretida y dejar reposar 30 minutos',
           fr: 'Mélanger la semoule avec le beurre fondu et laisser reposer 30 minutes',
           de: 'Grieß mit zerlassener Butter vermischen und 30 Minuten ruhen lassen',
@@ -1057,7 +1207,7 @@ export const syria: Country = {
         },
         {
           en: 'Take small portions and flatten in your palm',
-          sv: 'Ta små portioner och platta till i din handflata',
+          sv: 'Ta små bitar av degen och platta till dem i handflatan',
           es: 'Tome porciones pequeñas y aplánelas en la palma',
           fr: 'Prenez de petites portions et aplatissez-les dans votre paume',
           de: 'Nehmen Sie kleine Portionen und drücken Sie sie in Ihrer Handfläche flach',
@@ -1068,7 +1218,7 @@ export const syria: Country = {
         },
         {
           en: 'Fill with date paste and seal into balls',
-          sv: 'Fyll med dadelmassa och försegla till bollar',
+          sv: 'Fyll med dadelpasta och nyp ihop till bollar',
           es: 'Rellenar con pasta de dátiles y sellar formando bolitas',
           fr: 'Remplissez de pâte de dattes et formez des boules',
           de: 'Mit Dattelpaste füllen und zu Kugeln verschließen',
@@ -1079,7 +1229,7 @@ export const syria: Country = {
         },
         {
           en: 'Press into decorative molds if available',
-          sv: 'Tryck ut i dekorativa formar om det finns',
+          sv: 'Tryck ner bollarna i dekorativa formar om du har sådana',
           es: 'Presione en moldes decorativos si está disponible',
           fr: 'Presser dans des moules décoratifs si disponibles',
           de: 'Falls vorhanden, in dekorative Formen drücken',
@@ -1112,7 +1262,7 @@ export const syria: Country = {
         },
         {
           en: 'Dust lightly with powdered sugar if desired',
-          sv: 'Pudra lätt med strösocker om så önskas',
+          sv: 'Pudra lätt med florsocker om du vill',
           es: 'Espolvoree ligeramente con azúcar en polvo si lo desea',
           fr: 'Saupoudrer légèrement de sucre en poudre si désiré',
           de: 'Nach Belieben leicht mit Puderzucker bestäuben',

@@ -264,7 +264,17 @@ export const southKorea: Country = {
     history: [
       {
         year: '1392–1897',
-        title: 'Joseon Dynasty',
+        title: {
+          en: 'Joseon Dynasty',
+          sv: 'Joseondynastin',
+          es: 'Dinastía Joseon',
+          fr: 'Dynastie Joseon',
+          de: 'Joseon-Dynastie',
+          it: 'Dinastia Joseon',
+          pl: 'Dynastia Joseon',
+          nl: 'Joseondynastie',
+          pt: 'Dinastia Joseon',
+        },
         description: {
           en: 'The longest-ruling Korean dynasty, which established Confucian principles and helped develop Hangul.',
           sv: 'Den längst regerande koreanska dynastin, som etablerade konfucianska principer och hjälpte till att utveckla Hangul.',
@@ -279,7 +289,17 @@ export const southKorea: Country = {
       },
       {
         year: '1950–1953',
-        title: 'Korean War',
+        title: {
+          en: 'Korean War',
+          sv: 'Koreakriget',
+          es: 'Guerra de Corea',
+          fr: 'Guerre de Corée',
+          de: 'Koreakrieg',
+          it: 'Guerra di Corea',
+          pl: 'Wojna koreańska',
+          nl: 'Koreaanse Oorlog',
+          pt: 'Guerra da Coreia',
+        },
         description: {
           en: 'The war ended in an armistice and solidified the division of the peninsula into North and South Korea.',
           sv: 'Kriget slutade i ett vapenstillestånd och befäste uppdelningen av halvön i Nord- och Sydkorea.',
@@ -293,8 +313,28 @@ export const southKorea: Country = {
         },
       },
       {
-        year: '1960s–1990s',
-        title: 'Economic Miracle',
+        year: {
+          en: '1960s–1990s',
+          sv: '1960–1990-talen',
+          es: 'Décadas de 1960–1990',
+          fr: 'Années 1960–1990',
+          de: '1960er–1990er',
+          it: 'Anni \'60–\'90',
+          pl: 'Lata 60.–90.',
+          nl: 'Jaren 60–90',
+          pt: 'Décadas de 1960–1990',
+        },
+        title: {
+          en: 'Economic Miracle',
+          sv: 'Det ekonomiska undret',
+          es: 'Milagro económico',
+          fr: 'Miracle économique',
+          de: 'Wirtschaftswunder',
+          it: 'Miracolo economico',
+          pl: 'Cud gospodarczy',
+          nl: 'Economisch wonder',
+          pt: 'Milagre econômico',
+        },
         description: {
           en: 'South Korea rapidly industrialized and became a major global economy.',
           sv: 'Sydkorea industrialiserades snabbt och blev en stor global ekonomi.',
@@ -308,8 +348,28 @@ export const southKorea: Country = {
         },
       },
       {
-        year: '2000s–Present',
-        title: 'Hallyu Wave',
+        year: {
+          en: '2000s–Present',
+          sv: '2000-talet–idag',
+          es: 'Década de 2000 – actualidad',
+          fr: 'Années 2000 – aujourd\'hui',
+          de: '2000er–heute',
+          it: 'Anni 2000 – oggi',
+          pl: 'Lata 2000. – obecnie',
+          nl: 'Jaren 2000 – heden',
+          pt: 'Década de 2000 – presente',
+        },
+        title: {
+          en: 'Hallyu Wave',
+          sv: 'Den koreanska vågen',
+          es: 'Ola coreana',
+          fr: 'Vague coréenne',
+          de: 'Koreanische Welle',
+          it: 'Onda coreana',
+          pl: 'Koreańska fala',
+          nl: 'Koreaanse golf',
+          pt: 'Onda coreana',
+        },
         description: {
           en: 'K-pop, K-dramas, and Korean cinema became globally influential.',
           sv: 'K-pop, K-drama och koreansk film blev globalt inflytelserika.',
@@ -386,7 +446,17 @@ export const southKorea: Country = {
           nl: 'Wereldwijd leiderschap in elektronica',
           pt: 'Liderança global em eletrônicos',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'South Korea became a leader in semiconductors, displays, and consumer electronics.',
           sv: 'Sydkorea blev ledande inom halvledare, bildskärmar och hemelektronik.',
@@ -404,7 +474,7 @@ export const southKorea: Country = {
       {
         name: {
           en: 'Gyeongbokgung Palace',
-          sv: 'Gyeongbokgung Palace',
+          sv: 'Gyeongbokgung-palatset',
           es: 'Palacio Gyeongbokgung',
           fr: 'Palais Gyeongbokgung',
           de: 'Gyeongbokgung-Palast',
@@ -428,7 +498,7 @@ export const southKorea: Country = {
       {
         name: {
           en: 'Jeju Island',
-          sv: 'Jeju Island',
+          sv: 'Jejuön',
           es: 'Isla de Jeju',
           fr: 'Île de Jeju',
           de: 'Insel Jeju',
@@ -452,7 +522,7 @@ export const southKorea: Country = {
       {
         name: {
           en: 'Bukchon Hanok Village',
-          sv: 'Bukchon Hanok Village',
+          sv: 'Hanokbyn Bukchon',
           es: 'Aldea Hanok de Bukchon',
           fr: 'Village Hanok de Bukchon',
           de: 'Bukchon Hanok-Dorf',
@@ -524,7 +594,17 @@ export const southKorea: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Spring (April–May) for cherry blossoms or autumn (September–November) for foliage.',
           sv: 'Vår (april–maj) för körsbärsblommor eller höst (september–november) för bladverk.',
@@ -538,7 +618,17 @@ export const southKorea: Country = {
         },
       },
       {
-        item: 'T-money card',
+        item: {
+          en: 'T-money card',
+          sv: 'T-money-kort',
+          es: 'Tarjeta T-money',
+          fr: 'Carte T-money',
+          de: 'T-money-Karte',
+          it: 'Carta T-money',
+          pl: 'Karta T-money',
+          nl: 'T-money-kaart',
+          pt: 'Cartão T-money',
+        },
         description: {
           en: 'Rechargeable transit card for subway, buses, convenience stores, and taxis.',
           sv: 'Uppladdningsbart transitkort för tunnelbana, bussar, närbutiker och taxibilar.',
@@ -552,7 +642,17 @@ export const southKorea: Country = {
         },
       },
       {
-        item: 'Connectivity',
+        item: {
+          en: 'Connectivity',
+          sv: 'Uppkoppling',
+          es: 'Conectividad',
+          fr: 'Connexion',
+          de: 'Internet und Mobilfunk',
+          it: 'Connettività',
+          pl: 'Łączność',
+          nl: 'Internet en mobiel',
+          pt: 'Conectividade',
+        },
         description: {
           en: 'Excellent public Wi-Fi and affordable SIM/eSIM options make navigation easy.',
           sv: 'Utmärkt offentligt Wi-Fi och prisvärda SIM/eSIM-alternativ gör navigeringen enkel.',
@@ -566,7 +666,17 @@ export const southKorea: Country = {
         },
       },
       {
-        item: 'Power adapter',
+        item: {
+          en: 'Power adapter',
+          sv: 'Reseadapter',
+          es: 'Adaptador de enchufe',
+          fr: 'Adaptateur de prise',
+          de: 'Reiseadapter',
+          it: 'Adattatore per prese',
+          pl: 'Adapter do gniazdek',
+          nl: 'Reisstekker',
+          pt: 'Adaptador de tomada',
+        },
         description: {
           en: 'Type C/F plugs, 220V. Many hotels provide USB charging too.',
           sv: 'Typ C/F-kontakter, 220V. Många hotell har också USB-laddning.',
@@ -580,7 +690,17 @@ export const southKorea: Country = {
         },
       },
       {
-        item: 'Shoes',
+        item: {
+          en: 'Shoes',
+          sv: 'Skor',
+          es: 'Calzado',
+          fr: 'Chaussures',
+          de: 'Schuhe',
+          it: 'Scarpe',
+          pl: 'Buty',
+          nl: 'Schoenen',
+          pt: 'Calçados',
+        },
         description: {
           en: 'Comfortable walking shoes help for city exploring and temple/hiking days.',
           sv: 'Bekväma promenadskor hjälper till att utforska staden och tempel-/vandringsdagar.',
@@ -609,7 +729,7 @@ export const southKorea: Country = {
       },
       description: {
         en: 'Mixed rice bowl with seasoned vegetables, beef, a fried egg, and spicy gochujang—stirred together before eating.',
-        sv: 'Blandad risskål med kryddade grönsaker, nötkött, ett stekt ägg och kryddig gochujang – rör om innan de äts.',
+        sv: 'Risskål med kryddade grönsaker, nötkött, stekt ägg och stark gochujang – allt blandas ihop innan man äter.',
         es: 'Tazón de arroz mixto con verduras sazonadas, carne de res, huevo frito y gochujang picante, revueltos antes de comer.',
         fr: 'Bol de riz mélangé avec des légumes assaisonnés, du bœuf, un œuf au plat et du gochujang épicé, mélangés avant de manger.',
         de: 'Gemischte Reisschüssel mit gewürztem Gemüse, Rindfleisch, einem Spiegelei und würzigem Gochujang – vor dem Essen verrührt.',
@@ -651,7 +771,7 @@ export const southKorea: Country = {
         {
           name: {
             en: 'Beef sirloin, thinly sliced',
-            sv: 'Oxbiff, tunt skivad',
+            sv: 'Ryggbiff, tunt skivad',
             es: 'Solomillo de ternera, en rodajas finas',
             fr: 'Surlonge de bœuf, tranché finement',
             de: 'Rinderfilet, in dünne Scheiben geschnitten',
@@ -696,7 +816,7 @@ export const southKorea: Country = {
         {
           name: {
             en: 'Carrots, julienned',
-            sv: 'Morötter, julienned',
+            sv: 'Morötter, tunt strimlade',
             es: 'Zanahorias cortadas en juliana',
             fr: 'Carottes, en juliennes',
             de: 'Karotten, julieniert',
@@ -708,7 +828,7 @@ export const southKorea: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -733,7 +853,7 @@ export const southKorea: Country = {
           amount: 1,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -758,7 +878,7 @@ export const southKorea: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -919,7 +1039,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Blanch spinach for 30 seconds, squeeze dry, and season with a little sesame oil and salt.',
-          sv: 'Blanchera spenat i 30 sekunder, pressa torrt och krydda med lite sesamolja och salt.',
+          sv: 'Blanchera spenaten i 30 sekunder, krama ur vattnet och smaka av med lite sesamolja och salt.',
           es: 'Blanquear las espinacas durante 30 segundos, exprimirlas y sazonarlas con un poco de aceite de sésamo y sal.',
           fr: 'Blanchir les épinards pendant 30 secondes, les essorer et les assaisonner avec un peu d\'huile de sésame et de sel.',
           de: 'Spinat 30 Sekunden blanchieren, trockendrücken und mit etwas Sesamöl und Salz würzen.',
@@ -941,7 +1061,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Sauté carrots briefly until just tender; repeat with zucchini.',
-          sv: 'Fräs morötter kort tills de är precis mjuka; upprepa med zucchini.',
+          sv: 'Fräs morötterna kort tills de precis har mjuknat; gör sedan likadant med zucchinin.',
           es: 'Saltee las zanahorias brevemente hasta que estén tiernas; repita con el calabacín.',
           fr: 'Faire revenir brièvement les carottes jusqu\'à ce qu\'elles soient juste tendres; répéter avec les courgettes.',
           de: 'Karotten kurz anbraten, bis sie gerade weich sind; Mit Zucchini wiederholen.',
@@ -952,7 +1072,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Cook the marinated beef in a hot pan until browned and cooked through.',
-          sv: 'Koka det marinerade köttet i en het panna tills det fått färg och genomstekt.',
+          sv: 'Stek det marinerade köttet i en het panna tills det har fått färg och är genomstekt.',
           es: 'Cocine la carne marinada en una sartén caliente hasta que se dore y esté bien cocida.',
           fr: 'Cuire le bœuf mariné dans une poêle chaude jusqu\'à ce qu\'il soit doré et bien cuit.',
           de: 'Das marinierte Rindfleisch in einer heißen Pfanne anbraten, bis es braun und gar ist.',
@@ -963,7 +1083,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Fry eggs sunny-side up (or to your preference).',
-          sv: 'Stek ägg med solsidan uppåt (eller enligt dina önskemål).',
+          sv: 'Stek äggen bara på ena sidan (eller som du föredrar).',
           es: 'Freír los huevos con el lado soleado hacia arriba (o al gusto).',
           fr: 'Faites frire les œufs sur le côté ensoleillé (ou selon votre préférence).',
           de: 'Eier mit der Sonnenseite nach oben braten (oder nach Belieben).',
@@ -974,7 +1094,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Divide rice into bowls and arrange vegetables and beef in sections on top.',
-          sv: 'Dela ris i skålar och arrangera grönsaker och nötkött i sektioner ovanpå.',
+          sv: 'Fördela riset i skålar och lägg grönsakerna och köttet i var sin hög ovanpå.',
           es: 'Divida el arroz en tazones y coloque las verduras y la carne en secciones encima.',
           fr: 'Répartissez le riz dans des bols et disposez les légumes et le bœuf en sections dessus.',
           de: 'Den Reis auf Schüsseln verteilen und Gemüse und Rindfleisch in Abschnitten darauf anrichten.',
@@ -985,7 +1105,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Add a fried egg to each bowl and a spoonful of gochujang.',
-          sv: 'Tillsätt ett stekt ägg i varje skål och en sked gochujang.',
+          sv: 'Lägg ett stekt ägg och en sked gochujang i varje skål.',
           es: 'Agrega un huevo frito a cada bol y una cucharada de gochujang.',
           fr: 'Ajoutez un œuf au plat dans chaque bol et une cuillerée de gochujang.',
           de: 'In jede Schüssel ein Spiegelei und einen Löffel Gochujang geben.',
@@ -996,7 +1116,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Sprinkle sesame seeds if using, then mix everything together before eating.',
-          sv: 'Strö över sesamfrön om du använder, blanda sedan ihop allt innan du äter.',
+          sv: 'Strö över sesamfrön om du vill och blanda sedan ihop allt innan du äter.',
           es: 'Espolvoree semillas de sésamo si las usa, luego mezcle todo antes de comer.',
           fr: 'Saupoudrez de graines de sésame si vous en utilisez, puis mélangez le tout avant de manger.',
           de: 'Streuen Sie bei Bedarf Sesamsamen darüber und vermischen Sie alles vor dem Verzehr.',
@@ -1023,7 +1143,7 @@ export const southKorea: Country = {
       },
       description: {
         en: 'Shaved ice dessert topped with sweet red beans, fruit, and condensed milk (often with mochi or ice cream).',
-        sv: 'Rakad isdessert toppad med söta röda bönor, frukt och kondenserad mjölk (ofta med mochi eller glass).',
+        sv: 'Dessert av hyvlad is toppad med sötade röda bönor, frukt och sötad kondenserad mjölk (ofta med mochi eller glass).',
         es: 'Postre de hielo raspado cubierto con frijoles rojos dulces, fruta y leche condensada (a menudo con mochi o helado).',
         fr: 'Dessert glacé garni de haricots rouges sucrés, de fruits et de lait concentré (souvent accompagné de mochi ou de glace).',
         de: 'Dessert aus geraspeltem Eis, garniert mit süßen roten Bohnen, Früchten und Kondensmilch (oft mit Mochi oder Eis).',
@@ -1050,7 +1170,7 @@ export const southKorea: Country = {
         {
           name: {
             en: 'Ice cubes (or frozen milk cubes)',
-            sv: 'Isbitar (eller frysta mjölktärningar)',
+            sv: 'Isbitar (eller mjölk fryst i isbitsform)',
             es: 'Cubitos de hielo (o cubitos de leche congelada)',
             fr: 'Glaçons (ou cubes de lait congelés)',
             de: 'Eiswürfel (oder gefrorene Milchwürfel)',
@@ -1065,7 +1185,7 @@ export const southKorea: Country = {
         {
           name: {
             en: 'Sweetened red beans (pat)',
-            sv: 'Sötade röda bönor (klapp)',
+            sv: 'Sötade röda bönor (pat)',
             es: 'Frijoles rojos endulzados (pat)',
             fr: 'Haricots rouges sucrés (pat)',
             de: 'Gesüßte rote Bohnen (pat)',
@@ -1080,7 +1200,7 @@ export const southKorea: Country = {
         {
           name: {
             en: 'Condensed milk',
-            sv: 'Kondenserad mjölk',
+            sv: 'Sötad kondenserad mjölk',
             es: 'Leche condensada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -1166,7 +1286,7 @@ export const southKorea: Country = {
       steps: [
         {
           en: 'Optional: freeze milk in an ice tray for a creamier bingsu texture.',
-          sv: 'Valfritt: frys in mjölk i en isbricka för en krämigare bingu-struktur.',
+          sv: 'Valfritt: frys mjölk i en isbitsform för en krämigare bingsu.',
           es: 'Opcional: congele la leche en una bandeja para hielo para obtener una textura de bingsu más cremosa.',
           fr: 'Facultatif : congelez le lait dans un bac à glaçons pour une texture de bingsu plus crémeuse.',
           de: 'Optional: Milch in einer Eisschale einfrieren, um eine cremigere Bingsu-Textur zu erhalten.',
@@ -1177,7 +1297,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Crush ice (or frozen milk cubes) in a blender or shaved-ice machine until fluffy.',
-          sv: 'Krossa is (eller frysta mjölktärningar) i en mixer eller rakismaskin tills den är fluffig.',
+          sv: 'Krossa isbitarna (eller den frysta mjölken) i en mixer eller ishyvel tills isen är fluffig.',
           es: 'Triture hielo (o cubitos de leche congelada) en una licuadora o máquina de hielo raspado hasta que quede esponjoso.',
           fr: 'Pilez de la glace (ou des cubes de lait congelés) dans un mélangeur ou une machine à glace pilée jusqu\'à consistance mousseuse.',
           de: 'Zerkleinern Sie Eis (oder gefrorene Milchwürfel) in einem Mixer oder einer Eismaschine, bis es schaumig ist.',
@@ -1188,7 +1308,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Pile shaved ice into bowls.',
-          sv: 'Lägg rakad is i skålar.',
+          sv: 'Fördela den hyvlade isen i skålar.',
           es: 'Apila hielo raspado en tazones.',
           fr: 'Empilez de la glace pilée dans des bols.',
           de: 'Geschabtes Eis in Schüsseln füllen.',
@@ -1210,7 +1330,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Add strawberries and mochi pieces.',
-          sv: 'Tillsätt jordgubbar och mochibitar.',
+          sv: 'Lägg på jordgubbar och mochibitar.',
           es: 'Agrega las fresas y los trozos de mochi.',
           fr: 'Ajoutez les fraises et les morceaux de mochi.',
           de: 'Erdbeeren und Mochistücke hinzufügen.',
@@ -1221,7 +1341,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Add a scoop of ice cream.',
-          sv: 'Tillsätt en kula glass.',
+          sv: 'Lägg på en kula glass.',
           es: 'Agrega una bola de helado.',
           fr: 'Ajoutez une boule de glace.',
           de: 'Fügen Sie eine Kugel Eis hinzu.',
@@ -1232,7 +1352,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Drizzle generously with condensed milk.',
-          sv: 'Ringla generöst med kondenserad mjölk.',
+          sv: 'Ringla rikligt med sötad kondenserad mjölk över.',
           es: 'Rocíe generosamente con leche condensada.',
           fr: 'Arrosez généreusement de lait concentré.',
           de: 'Großzügig mit Kondensmilch beträufeln.',
@@ -1243,7 +1363,7 @@ export const southKorea: Country = {
         },
         {
           en: 'Optional: finish with a small handful of cornflakes for crunch.',
-          sv: 'Valfritt: avsluta med en liten näve cornflakes för crunch.',
+          sv: 'Valfritt: strö över en liten näve cornflakes för extra krisp.',
           es: 'Opcional: termine con un pequeño puñado de copos de maíz para que queden crujientes.',
           fr: 'Facultatif : terminez par une petite poignée de cornflakes pour le croquant.',
           de: 'Optional: Zum Schluss noch eine kleine Handvoll Cornflakes für den Crunch dazugeben.',

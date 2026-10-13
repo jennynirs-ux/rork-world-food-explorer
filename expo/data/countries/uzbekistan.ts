@@ -219,8 +219,28 @@ export const uzbekistan: Country = {
     },
     history: [
       {
-        year: '500-1000 AD',
-        title: 'Silk Road Spice Integration',
+        year: {
+          en: '500-1000 AD',
+          sv: '500–1000 e.Kr.',
+          es: '500–1000 d. C.',
+          fr: '500–1000 apr. J.-C.',
+          de: '500–1000 n. Chr.',
+          it: '500–1000 d.C.',
+          pl: '500–1000 n.e.',
+          nl: '500–1000 n.Chr.',
+          pt: '500–1000 d.C.',
+        },
+        title: {
+          en: 'Silk Road Spice Integration',
+          sv: 'Kryddor från Sidenvägen',
+          es: 'Especias de la Ruta de la Seda',
+          fr: 'Épices de la route de la soie',
+          de: 'Gewürze der Seidenstraße',
+          it: 'Spezie della Via della Seta',
+          pl: 'Przyprawy z Jedwabnego Szlaku',
+          nl: 'Specerijen van de Zijderoute',
+          pt: 'Especiarias da Rota da Seda',
+        },
         description: {
           en: 'The Silk Road trade routes transform Uzbek cuisine through introduction of exotic spices, dried fruits, nuts, and herbs from China, Persia, and India. These become signature flavors in pilaf and breads.',
           sv: 'Silkvägenes handelsvägar omvandlar uzbekisk mat genom introduktion av exotiska kryddor, torkad frukt, nötter och örter från Kina, Persien och Indien. Dessa blir signatursmak i pilaf och bröd.',
@@ -235,7 +255,17 @@ export const uzbekistan: Country = {
       },
       {
         year: '1200-1400',
-        title: 'Rice Pilaf Refinement',
+        title: {
+          en: 'Rice Pilaf Refinement',
+          sv: 'Pilaffen förfinas',
+          es: 'Perfeccionamiento del pilaf',
+          fr: 'Raffinement du pilaf',
+          de: 'Verfeinerung des Pilaws',
+          it: 'Perfezionamento del pilaf',
+          pl: 'Doskonalenie pilawu',
+          nl: 'Verfijning van de pilav',
+          pt: 'Refinamento do pilaf',
+        },
         description: {
           en: 'Plov (rice pilaf) becomes the centerpiece of Uzbek dining culture, perfected through generations of Timurid and Safavid influences. Complex layering techniques and meat-rice combinations achieve regional mastery.',
           sv: 'Plov (rispilaff) blir centerpiece av uzbekisk matkultur, perfektionerad genom generationer av Timurid och Safavid influenser. Komplexa lagerföringsteknik och kött-riskombinatione uppnår regional expertis.',
@@ -250,7 +280,17 @@ export const uzbekistan: Country = {
       },
       {
         year: '1400-1600',
-        title: 'Timurid Court Culinary Arts',
+        title: {
+          en: 'Timurid Court Culinary Arts',
+          sv: 'Kokkonsten vid timuridernas hov',
+          es: 'Gastronomía de la corte timúrida',
+          fr: 'Art culinaire à la cour timouride',
+          de: 'Kochkunst am Hof der Timuriden',
+          it: 'Arte culinaria della corte timuride',
+          pl: 'Sztuka kulinarna dworu Timurydów',
+          nl: 'Kookkunst aan het Timuridische hof',
+          pt: 'Arte culinária da corte timúrida',
+        },
         description: {
           en: 'Timurid dynasty courts elevate Uzbek cuisine to an art form, developing sophisticated preparation techniques, elaborate feasts, and documentation of recipes that influence regional dining traditions.',
           sv: 'Timuridisk dynasti gårdar höjer uzbekisk mat till en konstform, utvecklar sofistikerad tillagningsmetoder, utarbetade fester och dokumentation av recept som påverkar regionala matvanor.',
@@ -264,8 +304,28 @@ export const uzbekistan: Country = {
         },
       },
       {
-        year: '1600-Present',
-        title: 'Noodle Traditions and Communal Dining',
+        year: {
+          en: '1600-Present',
+          sv: '1600–idag',
+          es: '1600–actualidad',
+          fr: '1600–aujourd\'hui',
+          de: '1600–heute',
+          it: '1600–oggi',
+          pl: '1600–obecnie',
+          nl: '1600–heden',
+          pt: '1600–presente',
+        },
+        title: {
+          en: 'Noodle Traditions and Communal Dining',
+          sv: 'Nudeltraditioner och gemensamma måltider',
+          es: 'Tradiciones de fideos y comidas compartidas',
+          fr: 'Traditions des nouilles et repas partagés',
+          de: 'Nudeltraditionen und gemeinsames Essen',
+          it: 'Tradizioni dei noodles e pasti conviviali',
+          pl: 'Tradycje makaronu i wspólne posiłki',
+          nl: 'Noedeltradities en gezamenlijke maaltijden',
+          pt: 'Tradições do macarrão e refeições compartilhadas',
+        },
         description: {
           en: 'Noodle dishes like lagman and manti become entrenched in Uzbek culture, while communal feasting traditions formalize around shared platters, establishing the collective dining philosophy that defines modern Uzbek food culture.',
           sv: 'Nudelerätter som lagman och manti blir rotfast i uzbekisk kultur, medan gemensamma festtraditionen formaliserar runt delade rätter, etablerande den kollektiva diningfilosofin som definierar modern uzbekisk matkultur.',
@@ -379,7 +439,7 @@ export const uzbekistan: Country = {
       {
         name: {
           en: 'Fergana Valley',
-          sv: 'Fergana Valley',
+          sv: 'Ferganadalen',
           es: 'Valle de Ferganá',
           fr: 'Vallée de Fergana',
           de: 'Fergana-Tal',
@@ -403,7 +463,17 @@ export const uzbekistan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can enter visa-free for 30 days. E-visa available for others.',
           sv: 'Många nationaliteter kan resa in visumfritt i 30 dagar. E-visum tillgängligt för andra.',
@@ -417,7 +487,17 @@ export const uzbekistan: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April to June and September to October for pleasant weather.',
           sv: 'April till juni och september till oktober för behagligt väder.',
@@ -431,7 +511,17 @@ export const uzbekistan: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'High-speed trains connect major cities. Taxis and shared taxis affordable.',
           sv: 'Höghastighetståg förbinder större städer. Taxibilar och delade taxibilar överkomliga.',
@@ -445,7 +535,17 @@ export const uzbekistan: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Uzbek and Russian widely spoken. English limited outside tourist areas.',
           sv: 'Uzbekiska och ryska talas allmänt. Engelska begränsad utanför turistområdena.',
@@ -496,7 +596,17 @@ export const uzbekistan: Country = {
           nl: 'Astronomie uit de islamitische Gouden Eeuw',
           pt: 'Astronomia da Era de Ouro Islâmica',
         },
-        year: '9th-15th Century',
+        year: {
+          en: '9th-15th Century',
+          sv: '800–1400-talet',
+          es: 'siglos IX–XV',
+          fr: 'IXe–XVe siècles',
+          de: '9.–15. Jahrhundert',
+          it: 'secoli IX–XV',
+          pl: 'IX–XV wiek',
+          nl: '9e–15e eeuw',
+          pt: 'séculos IX–XV',
+        },
         description: {
           en: 'Ulugh Beg\'s observatory in Samarkand produced groundbreaking astronomical calculations',
           sv: 'Ulugh Begs observatorium i Samarkand producerade banbrytande astronomiska beräkningar',
@@ -521,7 +631,17 @@ export const uzbekistan: Country = {
           nl: 'Handelssysteem van de Zijderoute',
           pt: 'Sistema comercial da Rota da Seda',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Developed sophisticated merchant networks and caravanserais connecting East and West',
           sv: 'Utvecklade sofistikerade handelsnätverk och husvagnshus som förbinder öst och väst',
@@ -546,7 +666,17 @@ export const uzbekistan: Country = {
           nl: 'Ikat-textieltechniek',
           pt: 'Técnica têxtil Ikat',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Perfected resist-dyeing technique creating vibrant Uzbek silk fabrics admired worldwide',
           sv: 'Fulländad resist-färgningsteknik skapar livfulla uzbekiska sidentyger beundrade över hela världen',
@@ -571,7 +701,17 @@ export const uzbekistan: Country = {
           nl: 'Architecturaal tegelwerk',
           pt: 'Azulejaria arquitetônica',
         },
-        year: '14th-16th Century',
+        year: {
+          en: '14th-16th Century',
+          sv: '1300–1500-talen',
+          es: 'Siglos XIV–XVI',
+          fr: 'XIVe–XVIe siècles',
+          de: '14.–16. Jahrhundert',
+          it: 'XIV–XVI secolo',
+          pl: 'XIV–XVI wiek',
+          nl: '14e–16e eeuw',
+          pt: 'Séculos XIV–XVI',
+        },
         description: {
           en: 'Revolutionized Islamic architecture with intricate blue ceramic tilework and majolica',
           sv: 'Revolutionerad islamisk arkitektur med invecklade blå keramiska kakel och majolika',
@@ -600,7 +740,7 @@ export const uzbekistan: Country = {
       },
       description: {
         en: 'National rice pilaf cooked with lamb, carrots, onions, and spices',
-        sv: 'Nationell rispilaff tillagad med lamm, morötter, lök och kryddor',
+        sv: 'Uzbekistans nationalrätt – pilaff med lamm, morötter, lök och kryddor',
         es: 'Pilaf de arroz nacional cocinado con cordero, zanahoria, cebolla y especias',
         fr: 'Riz pilaf national cuit avec de l\'agneau, des carottes, des oignons et des épices',
         de: 'Nationaler Reispilaf, gekocht mit Lamm, Karotten, Zwiebeln und Gewürzen',
@@ -684,7 +824,7 @@ export const uzbekistan: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -709,7 +849,7 @@ export const uzbekistan: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -722,7 +862,7 @@ export const uzbekistan: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -747,7 +887,7 @@ export const uzbekistan: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -778,7 +918,7 @@ export const uzbekistan: Country = {
       steps: [
         {
           en: 'Rinse rice thoroughly until water runs mostly clear; set aside',
-          sv: 'Skölj riset noggrant tills vattnet är nästan klart; avsätta',
+          sv: 'Skölj riset noggrant tills vattnet är nästan klart och ställ det åt sidan',
           es: 'Enjuague bien el arroz hasta que el agua salga casi clara; reservar',
           fr: 'Rincez soigneusement le riz jusqu\'à ce que l\'eau soit presque claire ; mettre de côté',
           de: 'Spülen Sie den Reis gründlich ab, bis das Wasser größtenteils klar ist. beiseite legen',
@@ -789,7 +929,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Heat oil in a large heavy pot (kazan if available)',
-          sv: 'Värm olja i en stor tjock gryta (kazan om tillgängligt)',
+          sv: 'Hetta upp oljan i en stor, tjockbottnad gryta (gärna en kazan)',
           es: 'Caliente el aceite en una olla grande y pesada (kazan si está disponible)',
           fr: 'Faites chauffer l\'huile dans une grande marmite épaisse (kazan si disponible)',
           de: 'Öl in einem großen schweren Topf (Kazan, falls verfügbar) erhitzen',
@@ -800,7 +940,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Brown lamb pieces well, then add sliced onions and cook until softened',
-          sv: 'Bryn lammbitarna väl, lägg sedan i skivad lök och koka tills de mjuknat',
+          sv: 'Bryn lammbitarna ordentligt, lägg sedan i skivad lök och fräs tills den mjuknat',
           es: 'Dore bien los trozos de cordero, luego agregue las cebollas en rodajas y cocine hasta que se ablanden',
           fr: 'Faites bien revenir les morceaux d\'agneau, puis ajoutez les oignons émincés et faites cuire jusqu\'à ce qu\'ils soient ramollis',
           de: 'Lammfleischstücke gut anbraten, dann in Scheiben geschnittene Zwiebeln hinzufügen und kochen, bis sie weich sind',
@@ -811,7 +951,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Add julienned carrots and cook 8–10 minutes until slightly tender',
-          sv: 'Tillsätt julienade morötter och koka 8–10 minuter tills de är lite mjuka',
+          sv: 'Tillsätt tunt strimlade morötter och fräs i 8–10 minuter tills de mjuknat något',
           es: 'Agregue las zanahorias cortadas en juliana y cocine de 8 a 10 minutos hasta que estén ligeramente tiernas',
           fr: 'Ajouter les carottes en julienne et cuire 8 à 10 minutes jusqu\'à ce qu\'elles soient légèrement tendres',
           de: 'Julienne-Karotten dazugeben und 8–10 Minuten kochen, bis sie leicht weich sind',
@@ -833,7 +973,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Simmer 25–30 minutes to build a flavorful base (zirvak)',
-          sv: 'Sjud 25–30 minuter för att skapa en smakrik bas (zirvak)',
+          sv: 'Låt sjuda i 25–30 minuter så att det blir en smakrik bas (zirvak)',
           es: 'Cocine a fuego lento durante 25 a 30 minutos para crear una base sabrosa (zirvak)',
           fr: 'Laisser mijoter 25 à 30 minutes pour créer une base savoureuse (zirvak)',
           de: '25–30 Minuten köcheln lassen, um eine aromatische Basis (Zirvak) zu bilden',
@@ -855,7 +995,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Cover and steam on low heat until rice is tender and liquid absorbed (about 20–25 minutes)',
-          sv: 'Täck över och ånga på låg värme tills riset är mört och vätskan absorberats (ca 20–25 minuter)',
+          sv: 'Lägg på lock och låt ånga på låg värme tills riset är mjukt och vätskan har absorberats (ca 20–25 minuter)',
           es: 'Cubra y cocine al vapor a fuego lento hasta que el arroz esté tierno y se absorba el líquido (aproximadamente 20 a 25 minutos).',
           fr: 'Couvrir et cuire à la vapeur à feu doux jusqu\'à ce que le riz soit tendre et que le liquide soit absorbé (environ 20 à 25 minutes).',
           de: 'Abdecken und bei schwacher Hitze dämpfen, bis der Reis weich ist und die Flüssigkeit aufgesogen ist (ca. 20–25 Minuten).',
@@ -866,7 +1006,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Let rest 10 minutes off heat, then gently fluff and mix before serving',
-          sv: 'Låt vila 10 minuter från värmen, fluffa sedan försiktigt och blanda innan servering',
+          sv: 'Ta grytan från värmen och låt vila i 10 minuter, luckra sedan försiktigt upp riset och blanda före servering',
           es: 'Deje reposar 10 minutos fuera del fuego, luego esponje suavemente y mezcle antes de servir',
           fr: 'Laisser reposer 10 minutes hors du feu, puis remuer délicatement et mélanger avant de servir',
           de: '10 Minuten ohne Hitze ruhen lassen, dann vor dem Servieren vorsichtig auflockern und vermischen',
@@ -877,7 +1017,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Serve family-style, often with sliced tomato/onion salad and pickles',
-          sv: 'Servera i familjestil, ofta med skivad tomat/löksallad och pickles',
+          sv: 'Servera på ett stort fat att dela på, gärna med en sallad av skivad tomat och lök samt pickles',
           es: 'Sirva al estilo familiar, a menudo con ensalada de tomate/cebolla en rodajas y pepinillos',
           fr: 'Servir en famille, souvent avec une salade de tomates/oignons tranchés et des cornichons',
           de: 'Im Familienstil servieren, oft mit geschnittenem Tomaten-/Zwiebelsalat und Gurken',
@@ -904,7 +1044,7 @@ export const uzbekistan: Country = {
       },
       description: {
         en: 'A traditional airy sweet mousse made from whipped egg whites and a fragrant sugar syrup, often flavored with herbs and served during springtime celebrations.',
-        sv: 'En traditionell luftig söt mousse gjord av vispad äggvita och en doftande sockersirap, ofta smaksatt med örter och serverad under vårens firande.',
+        sv: 'En traditionell, luftig och söt mousse gjord på vispade äggvitor och en doftande sockerlag, ofta smaksatt med örter och serverad vid vårens högtider.',
         es: 'Una mousse dulce y aireada tradicional hecha con claras de huevo batidas y un jarabe de azúcar fragante, a menudo aromatizada con hierbas y servida durante las celebraciones de primavera.',
         fr: 'Une mousse sucrée et aérienne traditionnelle à base de blancs d\'œufs battus et d\'un sirop de sucre parfumé, souvent parfumée aux herbes et servie lors des fêtes printanières.',
         de: 'Eine traditionelle, luftig-süße Mousse aus geschlagenem Eiweiß und einem duftenden Zuckersirup, oft mit Kräutern aromatisiert und bei Frühlingsfesten serviert.',
@@ -931,7 +1071,7 @@ export const uzbekistan: Country = {
         {
           name: {
             en: 'Egg whites',
-            sv: 'Äggvita',
+            sv: 'Äggvitor',
             es: 'Claras de huevo',
             fr: 'Blancs d\'œufs',
             de: 'Eiweiß',
@@ -1026,7 +1166,7 @@ export const uzbekistan: Country = {
         {
           name: {
             en: 'Pistachios (optional, chopped)',
-            sv: 'Pistagenötter (valfritt, hackade)',
+            sv: 'Pistaschnötter, hackade (valfritt)',
             es: 'Pistachos (opcional, picados)',
             fr: 'Pistaches (facultatif, hachées)',
             de: 'Pistazien (optional, gehackt)',
@@ -1053,7 +1193,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Simmer 8–10 minutes until slightly thickened, then stir in lemon juice (and vanilla if using)',
-          sv: 'Sjud 8–10 minuter tills det tjocknat något, rör sedan i citronsaft (och vanilj om du använder det)',
+          sv: 'Låt sjuda i 8–10 minuter tills lagen tjocknat något, rör sedan i citronsaft (och vanilj, om du använder det)',
           es: 'Cocine a fuego lento de 8 a 10 minutos hasta que espese un poco, luego agregue el jugo de limón (y la vainilla si se usa)',
           fr: 'Laisser mijoter 8 à 10 minutes jusqu\'à ce que légèrement épaissi, puis incorporer le jus de citron (et la vanille si vous en utilisez)',
           de: '8–10 Minuten köcheln lassen, bis es leicht eingedickt ist, dann Zitronensaft (und ggf. Vanille) unterrühren',
@@ -1064,7 +1204,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Whip egg whites to stiff peaks in a clean bowl',
-          sv: 'Vispa äggvitor till hårda toppar i en ren skål',
+          sv: 'Vispa äggvitorna till ett hårt skum i en ren skål',
           es: 'Batir las claras de huevo a punto de nieve en un recipiente limpio',
           fr: 'Fouetter les blancs d\'œufs en neige ferme dans un bol propre',
           de: 'Eiweiß in einer sauberen Schüssel steif schlagen',
@@ -1075,7 +1215,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Slowly pour the hot syrup into the egg whites while whisking continuously',
-          sv: 'Häll långsamt den varma sirapen i äggvitorna under kontinuerlig vispning',
+          sv: 'Häll den varma sockerlagen i en tunn stråle i äggvitorna under konstant vispning',
           es: 'Vierta lentamente el almíbar caliente sobre las claras mientras bate continuamente',
           fr: 'Versez lentement le sirop chaud sur les blancs d\'œufs en fouettant continuellement',
           de: 'Den heißen Sirup langsam unter ständigem Rühren zum Eiweiß gießen',
@@ -1097,7 +1237,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Spoon into bowls and chill for at least 30 minutes',
-          sv: 'Häll upp i skålar och kyl i minst 30 minuter',
+          sv: 'Fördela i skålar och kyl i minst 30 minuter',
           es: 'Vierta en tazones y enfríe durante al menos 30 minutos',
           fr: 'Verser dans des bols et réfrigérer pendant au moins 30 minutes',
           de: 'In Schüsseln füllen und mindestens 30 Minuten kalt stellen',
@@ -1108,7 +1248,7 @@ export const uzbekistan: Country = {
         },
         {
           en: 'Top with chopped pistachios if desired',
-          sv: 'Toppa med hackade pistagenötter om så önskas',
+          sv: 'Toppa med hackade pistaschnötter om du vill',
           es: 'Cubra con pistachos picados si lo desea',
           fr: 'Garnir de pistaches hachées si désiré',
           de: 'Nach Belieben mit gehackten Pistazien belegen',
@@ -1237,7 +1377,7 @@ export const uzbekistan: Country = {
         options: [
           {
             en: 'Spice Route',
-            sv: 'Kryddväg',
+            sv: 'Kryddvägen',
             es: 'Ruta de las Especias',
             fr: 'Route des épices',
             de: 'Gewürzroute',
@@ -1259,7 +1399,7 @@ export const uzbekistan: Country = {
           },
           {
             en: 'Amber Road',
-            sv: 'Amber Road',
+            sv: 'Bärnstensvägen',
             es: 'Camino ámbar',
             fr: 'Route de l\'Ambre',
             de: 'Bernsteinstraße',
@@ -1270,7 +1410,7 @@ export const uzbekistan: Country = {
           },
           {
             en: 'Tea Horse Road',
-            sv: 'Tea Horse Road',
+            sv: 'Te- och hästvägen',
             es: 'Ruta del té y los caballos',
             fr: 'Route du cheval du thé',
             de: 'Tee-Pferde-Straße',

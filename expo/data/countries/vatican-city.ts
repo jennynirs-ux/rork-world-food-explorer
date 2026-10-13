@@ -231,8 +231,28 @@ export const vaticanCity: Country = {
     },
     history: [
       {
-        year: '500-1200 AD',
-        title: 'Early Papal Feasting',
+        year: {
+          en: '500-1200 AD',
+          sv: '500–1200 e.Kr.',
+          es: '500–1200 d. C.',
+          fr: '500–1200 apr. J.-C.',
+          de: '500–1200 n. Chr.',
+          it: '500–1200 d.C.',
+          pl: '500–1200 n.e.',
+          nl: '500–1200 n.Chr.',
+          pt: '500–1200 d.C.',
+        },
+        title: {
+          en: 'Early Papal Feasting',
+          sv: 'Tidiga påvliga gästabud',
+          es: 'Primeros banquetes papales',
+          fr: 'Premiers festins pontificaux',
+          de: 'Frühe päpstliche Festmähler',
+          it: 'Primi banchetti papali',
+          pl: 'Wczesne uczty papieskie',
+          nl: 'Vroege pauselijke feestmalen',
+          pt: 'Primeiros banquetes papais',
+        },
         description: {
           en: 'The Papal courts establish grand feasting traditions, combining Roman culinary practices with ingredients sourced from papal territories. These elaborate meals become symbols of ecclesiastical power and hospitality.',
           sv: 'De pausliga gårdarna etablerar grandösa festtraditionen, kombinerar romerska matlagningsmetoder med ingredienser från pausliga territorier. Dessa utarbetade måltider blir symbolen för kyrklig makt och gästvänlighet.',
@@ -247,7 +267,17 @@ export const vaticanCity: Country = {
       },
       {
         year: '1400-1600',
-        title: 'Renaissance Culinary Art',
+        title: {
+          en: 'Renaissance Culinary Art',
+          sv: 'Renässansens kokkonst',
+          es: 'Arte culinario renacentista',
+          fr: 'Art culinaire de la Renaissance',
+          de: 'Kochkunst der Renaissance',
+          it: 'Arte culinaria rinascimentale',
+          pl: 'Sztuka kulinarna renesansu',
+          nl: 'Kookkunst van de renaissance',
+          pt: 'Arte culinária renascentista',
+        },
         description: {
           en: 'During the Renaissance, papal kitchens become centers of culinary innovation, where ingredients are treated as art materials. New cooking techniques and ingredient combinations reflect humanist values and artistic refinement.',
           sv: 'Under renässansen blir pausliga kök centrum för kulinarisk innovation, där ingredienser behandlas som konstmaterial. Nya lagningsmetoder och ingredientkombinationer reflekterar humanistiska värden och konstnärisk förfining.',
@@ -262,7 +292,17 @@ export const vaticanCity: Country = {
       },
       {
         year: '1600-1800',
-        title: 'Baroque Banquets and Papal Splendor',
+        title: {
+          en: 'Baroque Banquets and Papal Splendor',
+          sv: 'Barockbanketter och påvlig prakt',
+          es: 'Banquetes barrocos y esplendor papal',
+          fr: 'Banquets baroques et faste pontifical',
+          de: 'Barocke Bankette und päpstliche Pracht',
+          it: 'Banchetti barocchi e splendore papale',
+          pl: 'Barokowe bankiety i papieski przepych',
+          nl: 'Barokke banketten en pauselijke pracht',
+          pt: 'Banquetes barrocos e esplendor papal',
+        },
         description: {
           en: 'Baroque era papal banquets showcase unprecedented luxury and complexity. Multiple courses, exotic ingredients, and theatrical presentation establish Vatican dining as a symbol of papal authority and European Catholic prestige.',
           sv: 'Barockaida pausliga banketter visar ostörd lyx och komplexitet. Flera rätter, exotiska ingredienser och teatralisk presentation etablerar Vatikanmaltid som en symbol på pauslig auktoritet och europeisk katolsk prestige.',
@@ -276,8 +316,28 @@ export const vaticanCity: Country = {
         },
       },
       {
-        year: '1800-Present',
-        title: 'Modern Papal Simplicity and Italian Tradition',
+        year: {
+          en: '1800-Present',
+          sv: '1800–idag',
+          es: '1800–actualidad',
+          fr: '1800–aujourd\'hui',
+          de: '1800–heute',
+          it: '1800–oggi',
+          pl: '1800–obecnie',
+          nl: '1800–heden',
+          pt: '1800–presente',
+        },
+        title: {
+          en: 'Modern Papal Simplicity and Italian Tradition',
+          sv: 'Modern påvlig enkelhet och italiensk tradition',
+          es: 'Sencillez papal moderna y tradición italiana',
+          fr: 'Simplicité pontificale moderne et tradition italienne',
+          de: 'Moderne päpstliche Schlichtheit und italienische Tradition',
+          it: 'Semplicità papale moderna e tradizione italiana',
+          pl: 'Współczesna papieska prostota i włoska tradycja',
+          nl: 'Moderne pauselijke eenvoud en Italiaanse traditie',
+          pt: 'Simplicidade papal moderna e tradição italiana',
+        },
         description: {
           en: 'Modern popes emphasize simplicity and humility in Vatican dining. While maintaining Italian culinary traditions with quality olive oil, pasta, and fresh ingredients, contemporary papal meals reflect spiritual values and accessibility.',
           sv: 'Moderna påvar betonar enkelhet och ödmjukhet i Vatikanmaltider. Medan man upprätthållar italienska kulinariska traditionen med kvalitativt olivolja, pasta och färska ingredienser, reflekterar samtida pausliga måltider andliga värden och tillgänglighet.',
@@ -415,7 +475,17 @@ export const vaticanCity: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Entry',
+        item: {
+          en: 'Entry',
+          sv: 'Inresa',
+          es: 'Entrada',
+          fr: 'Entrée',
+          de: 'Einreise',
+          it: 'Ingresso',
+          pl: 'Wjazd',
+          nl: 'Toegang',
+          pt: 'Entrada',
+        },
         description: {
           en: 'No visa needed. Vatican is within Rome, Italy. Entry to St. Peter\'s is free.',
           sv: 'Inget visum behövs. Vatikanen ligger i Rom, Italien. Inträde till Peterskyrkan är gratis.',
@@ -429,7 +499,17 @@ export const vaticanCity: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Early morning or late afternoon to avoid crowds. Wednesday for Papal audience.',
           sv: 'Tidig morgon eller sen eftermiddag för att undvika trängsel. Onsdag för påvlig publik.',
@@ -443,7 +523,17 @@ export const vaticanCity: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Modest dress required: shoulders and knees covered. Enforced strictly.',
           sv: 'Anspråkslös klänning krävs: axlar och knän täckta. Genomförs strikt.',
@@ -457,7 +547,17 @@ export const vaticanCity: Country = {
         },
       },
       {
-        item: 'Tickets',
+        item: {
+          en: 'Tickets',
+          sv: 'Biljetter',
+          es: 'Entradas',
+          fr: 'Billets',
+          de: 'Eintrittskarten',
+          it: 'Biglietti',
+          pl: 'Bilety',
+          nl: 'Tickets',
+          pt: 'Ingressos',
+        },
         description: {
           en: 'Vatican Museums require timed tickets. Book online in advance to skip lines.',
           sv: 'Vatikanmuseerna kräver tidsinställda biljetter. Boka online i förväg för att hoppa över köer.',
@@ -471,7 +571,17 @@ export const vaticanCity: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Italian widely spoken. English available for tours and information.',
           sv: 'Italienska vida talat. Engelska tillgänglig för turer och information.',
@@ -498,7 +608,17 @@ export const vaticanCity: Country = {
           nl: 'Renaissance kunstmecenaat',
           pt: 'Mecenato artístico renascentista',
         },
-        year: '15th-16th Century',
+        year: {
+          en: '15th-16th Century',
+          sv: '1400–1500-talet',
+          es: 'siglos XV–XVI',
+          fr: 'XVe–XVIe siècles',
+          de: '15.–16. Jahrhundert',
+          it: 'XV–XVI secolo',
+          pl: 'XV–XVI wiek',
+          nl: '15e–16e eeuw',
+          pt: 'séculos XV–XVI',
+        },
         description: {
           en: 'Vatican commissioned masterpieces by Michelangelo, Raphael, transforming Western art',
           sv: 'Vatikanen beställde mästerverk av Michelangelo, Raphael, som förvandlar västerländsk konst',
@@ -573,7 +693,17 @@ export const vaticanCity: Country = {
           nl: 'Diplomatiek protocol',
           pt: 'Protocolo diplomático',
         },
-        year: 'Medieval-Modern',
+        year: {
+          en: 'Medieval-Modern',
+          sv: 'Medeltid–nutid',
+          es: 'Edad Media–época moderna',
+          fr: 'Moyen Âge–époque moderne',
+          de: 'Mittelalter–Moderne',
+          it: 'Medioevo–età moderna',
+          pl: 'Średniowiecze–współczesność',
+          nl: 'Middeleeuwen–moderne tijd',
+          pt: 'Idade Média–era moderna',
+        },
         description: {
           en: 'Developed modern diplomatic practices and international law frameworks',
           sv: 'Utvecklade modern diplomatisk praxis och internationella rättsliga ramar',
@@ -644,7 +774,7 @@ export const vaticanCity: Country = {
         {
           name: {
             en: 'Pecorino Romano cheese, finely grated',
-            sv: 'Pecorino Romano ost, finriven',
+            sv: 'Pecorino Romano, finriven',
             es: 'Queso pecorino romano, finamente rallado',
             fr: 'Fromage Pecorino Romano, finement râpé',
             de: 'Pecorino Romano-Käse, fein gerieben',
@@ -674,7 +804,7 @@ export const vaticanCity: Country = {
         {
           name: {
             en: 'Pasta water (reserved)',
-            sv: 'Pastavatten (reserverat)',
+            sv: 'Pastavatten (sparat)',
             es: 'Agua de pasta (reservada)',
             fr: 'Eau de pâtes (réservée)',
             de: 'Nudelwasser (reserviert)',
@@ -726,7 +856,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'While pasta cooks, toast black pepper in a dry pan over medium heat for 30–60 seconds until fragrant',
-          sv: 'Medan pastan kokar, rosta svartpeppar i en torr panna på medelvärme i 30–60 sekunder tills den doftar',
+          sv: 'Rosta under tiden svartpepparn i en torr panna på medelvärme i 30–60 sekunder tills den doftar',
           es: 'Mientras se cocina la pasta, tuesta la pimienta negra en una sartén seca a fuego medio durante 30 a 60 segundos hasta que esté fragante',
           fr: 'Pendant la cuisson des pâtes, faire griller le poivre noir dans une poêle sèche à feu moyen pendant 30 à 60 secondes jusqu\'à ce qu\'il soit parfumé',
           de: 'Während die Nudeln kochen, rösten Sie schwarzen Pfeffer in einer trockenen Pfanne bei mittlerer Hitze 30–60 Sekunden lang, bis er duftet',
@@ -737,7 +867,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Add a ladle of pasta water to the pan to bloom the pepper and create a peppery base',
-          sv: 'Tillsätt en slev pastavatten i pannan för att blomma paprikan och skapa en pepprig bas',
+          sv: 'Häll en slev pastavatten i pannan så att pepparn släpper sin smak och bildar en pepprig bas',
           es: 'Agrega un cucharón de agua de pasta a la sartén para hacer florecer el pimiento y crear una base picante',
           fr: 'Ajoutez une louche d\'eau de pâtes dans la poêle pour faire fleurir le poivre et créer une base poivrée',
           de: 'Geben Sie eine Kelle Nudelwasser in die Pfanne, um die Paprika zum Blühen zu bringen und eine pfeffrige Basis zu schaffen',
@@ -748,7 +878,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'In a bowl, mix grated Pecorino with a little warm pasta water to form a thick paste (not too hot, so it doesn\'t clump)',
-          sv: 'Blanda riven Pecorino med lite varmt pastavatten i en skål för att bilda en tjock pasta (inte för varm, så att den inte klumpar sig)',
+          sv: 'Blanda den rivna pecorinon med lite varmt pastavatten i en skål till en tjock kräm (vattnet får inte vara för varmt, då klumpar sig osten)',
           es: 'En un bol, mezcle el queso pecorino rallado con un poco de agua tibia para la pasta hasta formar una pasta espesa (no demasiado caliente para que no se forme grumos)',
           fr: 'Dans un bol, mélangez le Pecorino râpé avec un peu d\'eau tiède pour pâtes pour former une pâte épaisse (pas trop chaude pour ne pas s\'agglutiner)',
           de: 'In einer Schüssel geriebenen Pecorino mit etwas warmem Nudelwasser zu einer dicken Paste verrühren (nicht zu heiß, damit sie nicht verklumpt)',
@@ -759,7 +889,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Drain pasta, reserving more pasta water',
-          sv: 'Häll av pastan, reservera mer pastavatten',
+          sv: 'Häll av pastan och spara mer pastavatten',
           es: 'Escurrir la pasta, reservando más agua para la pasta',
           fr: 'Égoutter les pâtes en réservant plus d\'eau pour les pâtes',
           de: 'Nudeln abgießen, dabei mehr Nudelwasser auffangen',
@@ -770,7 +900,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Add pasta to the pan and toss to coat in the peppery water',
-          sv: 'Tillsätt pasta i pannan och häll i det peppriga vattnet',
+          sv: 'Lägg pastan i pannan och vänd runt den i det peppriga vattnet',
           es: 'Agregue la pasta a la sartén y revuelva para cubrirla con el agua con pimienta',
           fr: 'Ajouter les pâtes dans la poêle et mélanger pour les enrober d\'eau poivrée',
           de: 'Geben Sie die Nudeln in die Pfanne und vermengen Sie sie mit dem Pfefferwasser',
@@ -781,7 +911,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Remove pan from heat and add the Pecorino paste, tossing vigorously until glossy and creamy',
-          sv: 'Ta kastrullen från värmen och tillsätt Pecorino-pastan, rör kraftigt tills den blir glansig och krämig',
+          sv: 'Ta pannan från värmen och tillsätt pecorinokrämen, vänd kraftigt tills det blir glansigt och krämigt',
           es: 'Retire la sartén del fuego y agregue la pasta de pecorino, revolviendo vigorosamente hasta que esté brillante y cremosa',
           fr: 'Retirer la casserole du feu et ajouter la pâte de Pecorino en remuant vigoureusement jusqu\'à ce qu\'elle soit brillante et crémeuse',
           de: 'Nehmen Sie die Pfanne vom Herd, geben Sie die Pecorino-Paste hinzu und rühren Sie kräftig um, bis sie glänzend und cremig ist',
@@ -792,7 +922,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Adjust consistency with small splashes of pasta water until silky',
-          sv: 'Justera konsistensen med små skvätt pastavatten tills den blir silkeslen',
+          sv: 'Justera konsistensen med små skvättar pastavatten tills såsen är silkeslen',
           es: 'Ajustar la consistencia con pequeños chorros de agua de pasta hasta que quede sedosa',
           fr: 'Ajuster la consistance avec de petites éclaboussures d\'eau pour pâtes jusqu\'à ce qu\'elle soit soyeuse',
           de: 'Passen Sie die Konsistenz mit kleinen Spritzern Nudelwasser an, bis eine seidige Konsistenz entsteht',
@@ -803,7 +933,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Serve immediately with extra Pecorino and black pepper',
-          sv: 'Servera genast med extra Pecorino och svartpeppar',
+          sv: 'Servera genast med extra pecorino och svartpeppar',
           es: 'Sirva inmediatamente con pecorino extra y pimienta negra',
           fr: 'Servir immédiatement avec du Pecorino supplémentaire et du poivre noir',
           de: 'Sofort mit zusätzlichem Pecorino und schwarzem Pfeffer servieren',
@@ -830,7 +960,7 @@ export const vaticanCity: Country = {
       },
       description: {
         en: 'Soft sweet buns split and filled with lightly sweetened whipped cream—an iconic Roman pastry often enjoyed with espresso.',
-        sv: 'Mjuka söta bullar delade och fyllda med lätt sötad vispgrädde – en ikonisk romersk bakelse som ofta avnjuts med espresso.',
+        sv: 'Mjuka söta bullar som delas och fylls med lätt sötad vispgrädde – ett ikoniskt romerskt bakverk som ofta avnjuts till espresso.',
         es: 'Bollos dulces y suaves, partidos y rellenos con crema batida ligeramente endulzada, un pastel romano icónico que a menudo se disfruta con espresso.',
         fr: 'Des petits pains moelleux et sucrés fendus et remplis de crème fouettée légèrement sucrée, une pâtisserie romaine emblématique souvent appréciée avec un expresso.',
         de: 'Weiche, süße Brötchen, geteilt und mit leicht gesüßter Schlagsahne gefüllt – ein ikonisches römisches Gebäck, das oft mit Espresso genossen wird.',
@@ -857,7 +987,7 @@ export const vaticanCity: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -917,7 +1047,7 @@ export const vaticanCity: Country = {
         {
           name: {
             en: 'Butter (soft)',
-            sv: 'Smör (mjukt)',
+            sv: 'Smör (rumsvarmt)',
             es: 'Mantequilla (blanda)',
             fr: 'Beurre (doux)',
             de: 'Butter (weich)',
@@ -944,7 +1074,7 @@ export const vaticanCity: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -1002,7 +1132,7 @@ export const vaticanCity: Country = {
         {
           name: {
             en: 'Powdered sugar (for cream)',
-            sv: 'Pulversocker (för grädde)',
+            sv: 'Florsocker (till grädden)',
             es: 'Azúcar en polvo (para nata)',
             fr: 'Sucre en poudre (pour la crème)',
             de: 'Puderzucker (für Sahne)',
@@ -1054,7 +1184,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'In a bowl, combine flour, remaining sugar, and salt',
-          sv: 'I en skål, kombinera mjöl, resterande socker och salt',
+          sv: 'Blanda vetemjöl, resten av sockret och saltet i en skål',
           es: 'En un tazón, combine la harina, el azúcar restante y la sal',
           fr: 'Dans un bol, mélanger la farine, le reste du sucre et le sel',
           de: 'Mehl, restlichen Zucker und Salz in einer Schüssel vermischen',
@@ -1065,7 +1195,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Add yeast mixture and egg; knead until a rough dough forms',
-          sv: 'Tillsätt jästblandning och ägg; knåda tills en grov deg bildas',
+          sv: 'Tillsätt jästblandningen och ägget; knåda till en grov deg',
           es: 'Agrega la mezcla de levadura y el huevo; amasar hasta que se forme una masa rugosa',
           fr: 'Ajouter le mélange de levure et l\'œuf; pétrir jusqu\'à ce qu\'une pâte grossière se forme',
           de: 'Hefemischung und Ei hinzufügen; kneten, bis ein grober Teig entsteht',
@@ -1076,7 +1206,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Knead in soft butter (and orange zest if using) until smooth and elastic (8–10 minutes)',
-          sv: 'Knåda in mjukt smör (och apelsinskal om det används) tills det är slätt och elastiskt (8–10 minuter)',
+          sv: 'Knåda in det rumsvarma smöret (och apelsinskalet, om du använder det) tills degen är slät och elastisk (8–10 minuter)',
           es: 'Amasar con mantequilla blanda (y ralladura de naranja, si se usa) hasta que quede suave y elástica (8 a 10 minutos)',
           fr: 'Incorporer le beurre mou (et le zeste d\'orange si vous en utilisez) jusqu\'à ce qu\'il soit lisse et élastique (8 à 10 minutes)',
           de: 'Weiche Butter (und ggf. Orangenschale) unterkneten, bis eine glatte und elastische Masse entsteht (8–10 Minuten)',
@@ -1087,7 +1217,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Cover and let rise until doubled (about 60 minutes)',
-          sv: 'Täck över och låt jäsa tills det fördubblats (ca 60 minuter)',
+          sv: 'Täck över och låt jäsa tills degen har dubblats i storlek (ca 60 minuter)',
           es: 'Cubra y deje crecer hasta que duplique (aproximadamente 60 minutos)',
           fr: 'Couvrir et laisser lever jusqu\'à ce qu\'il double (environ 60 minutes)',
           de: 'Abdecken und gehen lassen, bis sich das Volumen verdoppelt hat (ca. 60 Minuten)',
@@ -1098,7 +1228,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Divide into 8 pieces, shape into small buns, place on a tray, and rise again for 25–30 minutes',
-          sv: 'Dela i 8 bitar, forma till små bullar, lägg på en bricka och jäs igen i 25–30 minuter',
+          sv: 'Dela degen i 8 bitar, forma till små bullar, lägg dem på en plåt och låt jäsa igen i 25–30 minuter',
           es: 'Dividir en 8 trozos, darles forma de bollos pequeños, colocarlos en una bandeja y volver a fermentar durante 25 a 30 minutos',
           fr: 'Divisez en 8 morceaux, façonnez des petits pains, placez-les sur une plaque et faites lever à nouveau pendant 25 à 30 minutes',
           de: 'In 8 Stücke teilen, kleine Brötchen formen, auf ein Blech legen und nochmals 25–30 Minuten gehen lassen',
@@ -1109,7 +1239,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Bake at 180°C for 15–18 minutes until golden; cool completely',
-          sv: 'Grädda i 180°C i 15–18 minuter tills de är gyllene; cool helt',
+          sv: 'Grädda i 180°C i 15–18 minuter tills de är gyllene; låt svalna helt',
           es: 'Hornee a 180°C durante 15 a 18 minutos hasta que esté dorado; enfriar completamente',
           fr: 'Cuire au four à 180°C pendant 15 à 18 minutes jusqu\'à ce qu\'ils soient dorés ; refroidir complètement',
           de: 'Bei 180 °C 15–18 Minuten goldbraun backen; vollständig abkühlen',
@@ -1120,7 +1250,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Whip cream with powdered sugar (and vanilla if using) to soft peaks',
-          sv: 'Vispa grädde med strösocker (och vanilj om du använder) till mjuka toppar',
+          sv: 'Vispa grädden med florsocker (och vanilj, om du använder det) till ett löst skum',
           es: 'Batir la crema con el azúcar en polvo (y la vainilla si se usa) hasta obtener picos suaves.',
           fr: 'Fouetter la crème avec le sucre en poudre (et la vanille si vous en utilisez) jusqu\'à obtenir des pics mous.',
           de: 'Sahne mit Puderzucker (und ggf. Vanille) schaumig schlagen',
@@ -1131,7 +1261,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Slice buns lengthwise (not all the way through) and generously fill with whipped cream',
-          sv: 'Skiva bullar på längden (inte hela vägen igenom) och fyll generöst med vispad grädde',
+          sv: 'Snitta bullarna på längden (inte hela vägen igenom) och fyll generöst med den vispade grädden',
           es: 'Corta los bollos a lo largo (no del todo) y rellénalos generosamente con crema batida',
           fr: 'Trancher les petits pains dans le sens de la longueur (pas complètement) et remplir généreusement de crème fouettée',
           de: 'Brötchen der Länge nach aufschneiden (nicht ganz durchschneiden) und großzügig mit Schlagsahne füllen',
@@ -1142,7 +1272,7 @@ export const vaticanCity: Country = {
         },
         {
           en: 'Serve fresh—best the same day',
-          sv: 'Servera färsk – bäst samma dag',
+          sv: 'Servera färska – godast samma dag',
           es: 'Sirva fresco; mejor el mismo día',
           fr: 'Servir frais, meilleur le jour même',
           de: 'Frisch servieren – am besten noch am selben Tag',
@@ -1418,7 +1548,7 @@ export const vaticanCity: Country = {
           },
           {
             en: 'St. John Lateran',
-            sv: 'St. John Lateran',
+            sv: 'Lateranbasilikan',
             es: 'San Juan de Letrán',
             fr: 'Saint Jean de Latran',
             de: 'St. Johannes im Lateran',

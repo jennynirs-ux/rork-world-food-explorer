@@ -53,7 +53,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         value: {
           en: 'Sao Tome',
-          sv: 'Sao Tome',
+          sv: 'São Tomé',
           es: 'Santo Tomé',
           fr: 'Sao Tomé',
           de: 'Sao Tome',
@@ -263,8 +263,28 @@ export const saoTomeAndPrincipe: Country = {
     },
     history: [
       {
-        year: '1470s',
-        title: 'Portuguese Arrival',
+        year: {
+          en: '1470s',
+          sv: '1470-talet',
+          es: 'Década de 1470',
+          fr: 'Années 1470',
+          de: '1470er',
+          it: 'Anni \'70 del XV secolo',
+          pl: 'Lata 70. XV wieku',
+          nl: 'Jaren 1470',
+          pt: 'Década de 1470',
+        },
+        title: {
+          en: 'Portuguese Arrival',
+          sv: 'Portugiserna anländer',
+          es: 'Llegada de los portugueses',
+          fr: 'Arrivée des Portugais',
+          de: 'Ankunft der Portugiesen',
+          it: 'Arrivo dei portoghesi',
+          pl: 'Przybycie Portugalczyków',
+          nl: 'Aankomst van de Portugezen',
+          pt: 'Chegada dos portugueses',
+        },
         description: {
           en: 'Portuguese navigators reached the uninhabited islands and began establishing settlements and trade routes.',
           sv: 'Portugisiska navigatörer nådde de obebodda öarna och började etablera bosättningar och handelsvägar.',
@@ -278,8 +298,28 @@ export const saoTomeAndPrincipe: Country = {
         },
       },
       {
-        year: '1500s',
-        title: 'Sugar and Early Plantations',
+        year: {
+          en: '1500s',
+          sv: '1500-talet',
+          es: 'Siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'Século XVI',
+        },
+        title: {
+          en: 'Sugar and Early Plantations',
+          sv: 'Socker och de första plantagerna',
+          es: 'Azúcar y primeras plantaciones',
+          fr: 'Sucre et premières plantations',
+          de: 'Zucker und erste Plantagen',
+          it: 'Zucchero e prime piantagioni',
+          pl: 'Cukier i pierwsze plantacje',
+          nl: 'Suiker en de eerste plantages',
+          pt: 'Açúcar e primeiras plantações',
+        },
         description: {
           en: 'Plantation agriculture expanded, initially focused on sugar, shaping labor systems and colonial society.',
           sv: 'Plantagejordbruket expanderade, inledningsvis fokuserat på socker, att forma arbetssystem och det koloniala samhället.',
@@ -293,8 +333,28 @@ export const saoTomeAndPrincipe: Country = {
         },
       },
       {
-        year: '1800s',
-        title: 'Cocoa Boom',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
+        title: {
+          en: 'Cocoa Boom',
+          sv: 'Kakaoboomen',
+          es: 'Auge del cacao',
+          fr: 'Essor du cacao',
+          de: 'Kakaoboom',
+          it: 'Boom del cacao',
+          pl: 'Boom kakaowy',
+          nl: 'Bloei van de cacaoteelt',
+          pt: 'Boom do cacau',
+        },
         description: {
           en: 'Cocoa became the dominant crop and the islands grew into a major cocoa producer through plantation networks known as rocas.',
           sv: 'Kakao blev den dominerande grödan och öarna växte till en stor kakaoproducent genom plantagenätverk som kallas rocas.',
@@ -309,7 +369,17 @@ export const saoTomeAndPrincipe: Country = {
       },
       {
         year: '1975',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Sao Tome and Principe became an independent nation after Portuguese rule, building modern state institutions.',
           sv: 'Sao Tomé och Principe blev en självständig nation efter portugisiskt styre, och byggde upp moderna statliga institutioner.',
@@ -323,8 +393,28 @@ export const saoTomeAndPrincipe: Country = {
         },
       },
       {
-        year: 'Modern Era',
-        title: 'Eco-tourism and Conservation',
+        year: {
+          en: 'Modern Era',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
+        title: {
+          en: 'Eco-tourism and Conservation',
+          sv: 'Ekoturism och naturskydd',
+          es: 'Ecoturismo y conservación',
+          fr: 'Écotourisme et conservation',
+          de: 'Ökotourismus und Naturschutz',
+          it: 'Ecoturismo e conservazione',
+          pl: 'Ekoturystyka i ochrona przyrody',
+          nl: 'Ecotoerisme en natuurbehoud',
+          pt: 'Ecoturismo e conservação',
+        },
         description: {
           en: 'The country increasingly focuses on biodiversity protection, sustainable tourism, and specialty cacao exports.',
           sv: 'Landet fokuserar alltmer på skydd av biologisk mångfald, hållbar turism och specialkakaoexport.',
@@ -351,7 +441,17 @@ export const saoTomeAndPrincipe: Country = {
           nl: 'Specialty Cacao en Chocolade',
           pt: 'Cacau Especial e Chocolate',
         },
-        year: '1800s-Present',
+        year: {
+          en: '1800s-Present',
+          sv: '1800-talet–idag',
+          es: 'siglo XIX – actualidad',
+          fr: 'XIXe siècle – aujourd\'hui',
+          de: '19. Jahrhundert – heute',
+          it: 'XIX secolo – oggi',
+          pl: 'XIX wiek – obecnie',
+          nl: '19e eeuw – heden',
+          pt: 'século XIX – presente',
+        },
         description: {
           en: 'The islands developed a reputation for fine cacao, and today promote specialty cocoa and bean-to-bar chocolate production.',
           sv: 'Öarna utvecklade ett rykte för fin kakao och främjar idag specialkakao och produktion av choklad från bönor till bar.',
@@ -376,7 +476,17 @@ export const saoTomeAndPrincipe: Country = {
           nl: 'Biodiversiteitsbehoud op Principe',
           pt: 'Conservação da Biodiversidade em Príncipe',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Principe has become a model for conservation-led development, supporting protected forests and marine environments.',
           sv: 'Principe har blivit en modell för bevarandeledd utveckling, som stödjer skyddade skogar och marina miljöer.',
@@ -490,7 +600,7 @@ export const saoTomeAndPrincipe: Country = {
       {
         name: {
           en: 'Ilheu das Rolas',
-          sv: 'Ilheu das Rolas',
+          sv: 'Ilhéu das Rolas',
           es: 'Ilhéu das Rolas',
           fr: 'Île des Rolas',
           de: 'Ilheu das Rolas',
@@ -514,7 +624,17 @@ export const saoTomeAndPrincipe: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June to September is generally drier; October to May is wetter with lush landscapes.',
           sv: 'Juni till september är i allmänhet torrare; Oktober till maj är blötare med frodiga landskap.',
@@ -528,7 +648,17 @@ export const saoTomeAndPrincipe: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Portuguese is official; some locals speak creole languages and basic English in tourist areas.',
           sv: 'Portugisiska är officiellt; vissa lokalbefolkningen talar kreolska språk och grundläggande engelska i turistområden.',
@@ -566,7 +696,17 @@ export const saoTomeAndPrincipe: Country = {
         },
       },
       {
-        item: 'Getting around',
+        item: {
+          en: 'Getting around',
+          sv: 'Att ta sig runt',
+          es: 'Cómo moverse',
+          fr: 'Se déplacer',
+          de: 'Unterwegs vor Ort',
+          it: 'Come spostarsi',
+          pl: 'Poruszanie się',
+          nl: 'Vervoer ter plaatse',
+          pt: 'Como se locomover',
+        },
         description: {
           en: 'Taxis and hired drivers are common; roads vary in quality outside main areas.',
           sv: 'Taxibilar och inhyrda chaufförer är vanliga; vägarna varierar i kvalitet utanför huvudområdena.',
@@ -580,7 +720,17 @@ export const saoTomeAndPrincipe: Country = {
         },
       },
       {
-        item: 'Nature prep',
+        item: {
+          en: 'Nature prep',
+          sv: 'Inför naturutflykter',
+          es: 'Preparación para excursiones',
+          fr: 'Préparer ses sorties nature',
+          de: 'Naturausflüge vorbereiten',
+          it: 'Prepararsi alle escursioni',
+          pl: 'Przygotowanie do wędrówek',
+          nl: 'Voorbereiding op natuurtochten',
+          pt: 'Preparação para trilhas',
+        },
         description: {
           en: 'Bring lightweight rain gear, sturdy shoes, and insect repellent for rainforest hikes.',
           sv: 'Ta med lätta regnkläder, rejäla skor och insektsmedel för regnskogsvandringar.',
@@ -594,7 +744,17 @@ export const saoTomeAndPrincipe: Country = {
         },
       },
       {
-        item: 'Island hopping',
+        item: {
+          en: 'Island hopping',
+          sv: 'Öhoppning',
+          es: 'De isla en isla',
+          fr: 'D\'île en île',
+          de: 'Inselhopping',
+          it: 'Di isola in isola',
+          pl: 'Podróże między wyspami',
+          nl: 'Eilandhoppen',
+          pt: 'De ilha em ilha',
+        },
         description: {
           en: 'Domestic flights and boats connect Sao Tome with Principe depending on conditions and schedules.',
           sv: 'Inrikesflyg och båtar förbinder Sao Tome med Principe beroende på förhållanden och tidtabeller.',
@@ -612,7 +772,7 @@ export const saoTomeAndPrincipe: Country = {
       id: 'sao-tome-main',
       name: {
         en: 'Calulu (Fish Stew)',
-        sv: 'Calulu (Fiskgryta)',
+        sv: 'Calulu (fiskgryta)',
         es: 'Calulu (estofado de pescado)',
         fr: 'Calulu (ragoût de poisson)',
         de: 'Calulu (Fischeintopf)',
@@ -623,7 +783,7 @@ export const saoTomeAndPrincipe: Country = {
       },
       description: {
         en: 'A classic island stew featuring fish, greens, okra, tomatoes, and palm oil, served with starchy sides like cassava or banana.',
-        sv: 'En klassisk ö-gryta med fisk, grönsaker, okra, tomater och palmolja, serverad med stärkelsehaltiga sidor som kassava eller banan.',
+        sv: 'En klassisk gryta från öarna med fisk, bladgrönsaker, okra, tomater och palmolja, som serveras med mättande tillbehör som kassava eller banan.',
         es: 'Un guiso clásico de la isla con pescado, verduras, okra, tomates y aceite de palma, servido con guarniciones con almidón como yuca o plátano.',
         fr: 'Un ragoût insulaire classique composé de poisson, de légumes verts, de gombo, de tomates et d\'huile de palme, servi avec des accompagnements féculents comme du manioc ou de la banane.',
         de: 'Ein klassischer Inseleintopf mit Fisch, Gemüse, Okra, Tomaten und Palmöl, serviert mit stärkehaltigen Beilagen wie Maniok oder Banane.',
@@ -692,7 +852,7 @@ export const saoTomeAndPrincipe: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -717,7 +877,7 @@ export const saoTomeAndPrincipe: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -770,7 +930,7 @@ export const saoTomeAndPrincipe: Country = {
         {
           name: {
             en: 'Greens (spinach or similar)',
-            sv: 'Gröna (spenat eller liknande)',
+            sv: 'Bladgrönsaker (spenat eller liknande)',
             es: 'Verduras (espinacas o similares)',
             fr: 'Légumes verts (épinards ou similaires)',
             de: 'Grünes (Spinat oder ähnliches)',
@@ -797,7 +957,7 @@ export const saoTomeAndPrincipe: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -863,7 +1023,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Add garlic and cook 30 seconds.',
-          sv: 'Tillsätt vitlök och koka 30 sekunder.',
+          sv: 'Tillsätt vitlöken och fräs i 30 sekunder.',
           es: 'Agregue el ajo y cocine por 30 segundos.',
           fr: 'Ajouter l\'ail et cuire 30 secondes.',
           de: 'Knoblauch hinzufügen und 30 Sekunden kochen lassen.',
@@ -874,7 +1034,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Add tomatoes and cook 6-8 minutes until they break down into a sauce.',
-          sv: 'Tillsätt tomaterna och koka 6-8 minuter tills de bryts ner till en sås.',
+          sv: 'Tillsätt tomaterna och låt koka i 6–8 minuter tills de har fallit sönder till en sås.',
           es: 'Agregue los tomates y cocine de 6 a 8 minutos hasta que se conviertan en una salsa.',
           fr: 'Ajouter les tomates et cuire 6 à 8 minutes jusqu\'à ce qu\'elles se transforment en sauce.',
           de: 'Tomaten hinzufügen und 6-8 Minuten kochen, bis eine Soße entsteht.',
@@ -896,7 +1056,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Add fish and 250 ml water, then simmer gently 12-15 minutes until fish is cooked.',
-          sv: 'Tillsätt fisk och 250 ml vatten och låt sjuda försiktigt i 12-15 minuter tills fisken är kokt.',
+          sv: 'Tillsätt fisken och 2,5 dl vatten och låt sjuda försiktigt i 12–15 minuter tills fisken är genomkokt.',
           es: 'Agregue el pescado y 250 ml de agua, luego cocine a fuego lento durante 12 a 15 minutos hasta que el pescado esté cocido.',
           fr: 'Ajouter le poisson et 250 ml d\'eau, puis laisser mijoter doucement 12 à 15 minutes jusqu\'à ce que le poisson soit cuit.',
           de: 'Fisch und 250 ml Wasser hinzufügen und 12–15 Minuten leicht köcheln lassen, bis der Fisch gar ist.',
@@ -907,7 +1067,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Add greens and cook 5 minutes until wilted and tender.',
-          sv: 'Tillsätt gröna och koka 5 minuter tills vissnat och mjukt.',
+          sv: 'Tillsätt bladgrönsakerna och låt koka i 5 minuter tills de har sjunkit ihop och mjuknat.',
           es: 'Agregue las verduras y cocine durante 5 minutos hasta que se ablanden y estén tiernas.',
           fr: 'Ajouter les légumes verts et cuire 5 minutes jusqu\'à ce qu\'ils soient fanés et tendres.',
           de: 'Fügen Sie das Gemüse hinzu und kochen Sie es 5 Minuten lang, bis es zusammengefallen und zart ist.',
@@ -918,7 +1078,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Taste and adjust seasoning with salt and lime.',
-          sv: 'Smaka av och krydda med salt och lime.',
+          sv: 'Smaka av med salt och lime.',
           es: 'Pruebe y ajuste la sazón con sal y lima.',
           fr: 'Goûtez et rectifiez l\'assaisonnement avec du sel et du citron vert.',
           de: 'Abschmecken und mit Salz und Limette abschmecken.',
@@ -929,7 +1089,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Serve hot with boiled cassava, rice, or fried plantain.',
-          sv: 'Servera varm med kokt kassava, ris eller stekt groblad.',
+          sv: 'Servera varm med kokt kassava, ris eller stekt kokbanan.',
           es: 'Sirva caliente con yuca hervida, arroz o plátano frito.',
           fr: 'Servir chaud avec du manioc bouilli, du riz ou du plantain frit.',
           de: 'Heiß mit gekochtem Maniok, Reis oder gebratenen Kochbananen servieren.',
@@ -945,7 +1105,7 @@ export const saoTomeAndPrincipe: Country = {
       id: 'sao-tome-dessert',
       name: {
         en: 'Banana and Coconut Cake',
-        sv: 'Banan- och kokosnötskaka',
+        sv: 'Banan- och kokoskaka',
         es: 'Pastel de Plátano y Coco',
         fr: 'Gâteau à la banane et à la noix de coco',
         de: 'Bananen-Kokos-Kuchen',
@@ -956,7 +1116,7 @@ export const saoTomeAndPrincipe: Country = {
       },
       description: {
         en: 'A simple tropical dessert combining ripe banana and coconut for a soft, fragrant cake-style treat.',
-        sv: 'En enkel tropisk dessert som kombinerar mogen banan och kokosnöt för en mjuk, doftande kaka.',
+        sv: 'En enkel tropisk efterrätt där mogen banan och kokos blir en mjuk, doftande kaka.',
         es: 'Un postre tropical sencillo que combina plátano maduro y coco para obtener una delicia estilo pastel suave y fragante.',
         fr: 'Un dessert tropical simple combinant banane mûre et noix de coco pour une gâterie douce et parfumée de type gâteau.',
         de: 'Ein einfaches tropisches Dessert, das reife Banane und Kokosnuss für einen weichen, duftenden Kuchengenuss kombiniert.',
@@ -995,7 +1155,7 @@ export const saoTomeAndPrincipe: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1008,7 +1168,7 @@ export const saoTomeAndPrincipe: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1038,7 +1198,7 @@ export const saoTomeAndPrincipe: Country = {
         {
           name: {
             en: 'Desiccated coconut',
-            sv: 'Torkad kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco desecado',
             fr: 'Noix de coco desséchée',
             de: 'Kokosraspeln',
@@ -1080,7 +1240,7 @@ export const saoTomeAndPrincipe: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1108,7 +1268,7 @@ export const saoTomeAndPrincipe: Country = {
         {
           name: {
             en: 'Pinch of salt',
-            sv: 'Nypa salt',
+            sv: 'Salt',
             es: 'Una pizca de sal',
             fr: 'Pincée de sel',
             de: 'Prise Salz',
@@ -1149,7 +1309,7 @@ export const saoTomeAndPrincipe: Country = {
       steps: [
         {
           en: 'Preheat oven to 180C and grease a small loaf pan or cake tin.',
-          sv: 'Värm ugnen till 180 grader och smörj en liten brödform eller kakform.',
+          sv: 'Sätt ugnen på 180 °C och smörj en liten avlång form eller en kakform.',
           es: 'Precalienta el horno a 180°C y engrasa un molde para pan pequeño o un molde para pastel.',
           fr: 'Préchauffer le four à 180°C et beurrer un petit moule à cake ou un moule à cake.',
           de: 'Den Backofen auf 180 °C vorheizen und eine kleine Kastenform oder Kuchenform einfetten.',
@@ -1182,7 +1342,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Combine wet and dry ingredients until just mixed.',
-          sv: 'Blanda våta och torra ingredienser tills de precis blandas.',
+          sv: 'Rör ihop de våta och torra ingredienserna tills allt precis har blandats.',
           es: 'Combine los ingredientes húmedos y secos hasta que estén mezclados.',
           fr: 'Mélanger les ingrédients humides et secs jusqu\'à ce qu\'ils soient juste mélangés.',
           de: 'Kombinieren Sie die nassen und trockenen Zutaten, bis sie gerade vermischt sind.',
@@ -1193,7 +1353,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Pour into the pan and smooth the top.',
-          sv: 'Häll i pannan och jämna till toppen.',
+          sv: 'Häll smeten i formen och jämna till ytan.',
           es: 'Vierta en la sartén y alise la parte superior.',
           fr: 'Versez dans le moule et lissez le dessus.',
           de: 'In die Pfanne gießen und die Oberseite glatt streichen.',
@@ -1204,7 +1364,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Bake 35-45 minutes until a toothpick comes out clean.',
-          sv: 'Grädda 35-45 minuter tills en tandpetare kommer ut ren.',
+          sv: 'Grädda i 35–45 minuter tills en provsticka kommer ut torr.',
           es: 'Hornea durante 35-45 minutos hasta que al introducir un palillo éste salga limpio.',
           fr: 'Cuire au four 35 à 45 minutes jusqu\'à ce qu\'un cure-dent en ressorte propre.',
           de: '35–45 Minuten backen, bis ein Zahnstocher sauber herauskommt.',
@@ -1215,7 +1375,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Cool 15 minutes before slicing.',
-          sv: 'Kyl 15 minuter innan skivning.',
+          sv: 'Låt svalna i 15 minuter innan du skär upp kakan.',
           es: 'Deje enfriar 15 minutos antes de cortar.',
           fr: 'Laisser refroidir 15 minutes avant de trancher.',
           de: 'Vor dem Schneiden 15 Minuten abkühlen lassen.',
@@ -1226,7 +1386,7 @@ export const saoTomeAndPrincipe: Country = {
         },
         {
           en: 'Serve plain or with fresh fruit.',
-          sv: 'Servera vanlig eller med färsk frukt.',
+          sv: 'Servera som den är eller med färsk frukt.',
           es: 'Sirva solo o con fruta fresca.',
           fr: 'Servir nature ou avec des fruits frais.',
           de: 'Pur oder mit frischem Obst servieren.',
@@ -1299,7 +1459,7 @@ export const saoTomeAndPrincipe: Country = {
         options: [
           {
             en: 'Sao Tome',
-            sv: 'Sao Tome',
+            sv: 'São Tomé',
             es: 'Santo Tomé',
             fr: 'Sao Tomé',
             de: 'Sao Tome',

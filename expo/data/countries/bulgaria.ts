@@ -163,7 +163,7 @@ export const bulgaria: Country = {
     facts: [
       {
         en: 'Bulgaria is one of the oldest countries in Europe, founded in 681 AD',
-        sv: 'Bulgarien är ett av de äldsta länderna i Europa, grundat 681 AD',
+        sv: 'Bulgarien är ett av de äldsta länderna i Europa, grundat år 681 e.Kr.',
         es: 'Bulgaria es uno de los países más antiguos de Europa, fundado en el año 681 d.C.',
         fr: 'La Bulgarie est l\'un des pays les plus anciens d\'Europe, fondée en 681 après JC',
         de: 'Bulgarien ist eines der ältesten Länder Europas und wurde 681 n. Chr. gegründet',
@@ -265,7 +265,7 @@ export const bulgaria: Country = {
       {
         year: {
           en: '681 AD',
-          sv: '681 AD',
+          sv: '681 e.Kr.',
           es: '681 d.C.',
           fr: '681 après JC',
           de: '681 n. Chr.',
@@ -274,7 +274,17 @@ export const bulgaria: Country = {
           nl: '681 na Chr.',
           pt: '681 d.C.',
         },
-        title: 'First Bulgarian Empire',
+        title: {
+          en: 'First Bulgarian Empire',
+          sv: 'Första bulgariska riket',
+          es: 'Primer Imperio búlgaro',
+          fr: 'Premier Empire bulgare',
+          de: 'Erstes Bulgarisches Reich',
+          it: 'Primo Impero bulgaro',
+          pl: 'Pierwsze Carstwo Bułgarskie',
+          nl: 'Eerste Bulgaarse Rijk',
+          pt: 'Primeiro Império Búlgaro',
+        },
         description: {
           en: 'Khan Asparuh founded the First Bulgarian Empire, one of the oldest states in Europe still existing today.',
           sv: 'Khan Asparuh grundade det första bulgariska riket, en av de äldsta staterna i Europa som fortfarande existerar idag.',
@@ -288,7 +298,17 @@ export const bulgaria: Country = {
         },
       },
       {
-        year: '9th century',
+        year: {
+          en: '9th century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
         title: {
           en: 'Cyrillic Alphabet',
           sv: 'Kyrilliska alfabetet',
@@ -314,7 +334,17 @@ export const bulgaria: Country = {
       },
       {
         year: '1396',
-        title: 'Ottoman Rule Begins',
+        title: {
+          en: 'Ottoman Rule Begins',
+          sv: 'Osmanskt styre inleds',
+          es: 'Comienza el dominio otomano',
+          fr: 'Début de la domination ottomane',
+          de: 'Beginn der osmanischen Herrschaft',
+          it: 'Inizia la dominazione ottomana',
+          pl: 'Początek panowania osmańskiego',
+          nl: 'Begin van de Ottomaanse overheersing',
+          pt: 'Início do domínio otomano',
+        },
         description: {
           en: 'Bulgaria fell under Ottoman rule for nearly 500 years, profoundly influencing its culture and cuisine.',
           sv: 'Bulgarien föll under ottomanskt styre i nästan 500 år, vilket djupt påverkade dess kultur och matlagning.',
@@ -329,7 +359,17 @@ export const bulgaria: Country = {
       },
       {
         year: '1878',
-        title: 'Liberation from Ottoman Rule',
+        title: {
+          en: 'Liberation from Ottoman Rule',
+          sv: 'Befrielse från osmanskt styre',
+          es: 'Liberación del dominio otomano',
+          fr: 'Libération de la domination ottomane',
+          de: 'Befreiung von der osmanischen Herrschaft',
+          it: 'Liberazione dal dominio ottomano',
+          pl: 'Wyzwolenie spod panowania osmańskiego',
+          nl: 'Bevrijding van de Ottomaanse heerschappij',
+          pt: 'Libertação do domínio otomano',
+        },
         description: {
           en: 'Bulgaria regained independence after the Russo-Turkish War, celebrated annually on March 3rd.',
           sv: 'Bulgarien återvann självständighet efter det rysk-turkiska kriget, som firas årligen den 3 mars.',
@@ -344,7 +384,17 @@ export const bulgaria: Country = {
       },
       {
         year: '1944',
-        title: 'Communist Era',
+        title: {
+          en: 'Communist Era',
+          sv: 'Kommunisttiden',
+          es: 'Época comunista',
+          fr: 'Période communiste',
+          de: 'Kommunistische Ära',
+          it: 'Periodo comunista',
+          pl: 'Okres komunistyczny',
+          nl: 'Communistisch tijdperk',
+          pt: 'Era comunista',
+        },
         description: {
           en: 'Bulgaria became a communist state, lasting until 1989.',
           sv: 'Bulgarien blev en kommunistisk stat, som varade till 1989.',
@@ -359,7 +409,17 @@ export const bulgaria: Country = {
       },
       {
         year: '2007',
-        title: 'EU Membership',
+        title: {
+          en: 'EU Membership',
+          sv: 'EU-medlemskap',
+          es: 'Adhesión a la UE',
+          fr: 'Adhésion à l\'UE',
+          de: 'EU-Beitritt',
+          it: 'Adesione all\'UE',
+          pl: 'Przystąpienie do UE',
+          nl: 'EU-lidmaatschap',
+          pt: 'Adesão à UE',
+        },
         description: {
           en: 'Bulgaria joined the European Union, opening new opportunities for economic development.',
           sv: 'Bulgarien gick med i Europeiska unionen, vilket öppnade nya möjligheter för ekonomisk utveckling.',
@@ -386,7 +446,17 @@ export const bulgaria: Country = {
           nl: 'Cyrillisch alfabet',
           pt: 'Alfabeto cirílico',
         },
-        year: '9th Century',
+        year: {
+          en: '9th Century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
         description: {
           en: 'Saints Cyril and Methodius created the Glagolitic alphabet in Bulgaria, which evolved into the Cyrillic script used by over 250 million people today.',
           sv: 'Heliga Cyril och Methodius skapade det glagolitiska alfabetet i Bulgarien, som utvecklades till den kyrilliska skriften som används av över 250 miljoner människor idag.',
@@ -411,7 +481,17 @@ export const bulgaria: Country = {
           nl: 'Bulgaarse yoghurtcultuur',
           pt: 'Cultura do iogurte búlgaro',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Lactobacillus bulgaricus bacterium, unique to Bulgaria, creates the distinctive taste and health benefits of Bulgarian yogurt.',
           sv: 'Lactobacillus bulgaricus-bakterien, unik för Bulgarien, skapar den distinkta smaken och hälsofördelarna med bulgarisk yoghurt.',
@@ -436,7 +516,17 @@ export const bulgaria: Country = {
           nl: 'Rozenolieproductie',
           pt: 'Produção de óleo de rosas',
         },
-        year: '17th Century',
+        year: {
+          en: '17th Century',
+          sv: '1600-talet',
+          es: 'siglo XVII',
+          fr: 'XVIIe siècle',
+          de: '17. Jahrhundert',
+          it: 'XVII secolo',
+          pl: 'XVII wiek',
+          nl: '17e eeuw',
+          pt: 'século XVII',
+        },
         description: {
           en: 'Bulgaria\'s Rose Valley produces 70% of the world\'s rose oil, perfecting distillation techniques over centuries.',
           sv: 'Bulgariens Rose Valley producerar 70 % av världens rosenolja, vilket perfektionerar destillationstekniker under århundraden.',
@@ -461,7 +551,17 @@ export const bulgaria: Country = {
           nl: 'Elektronische computer',
           pt: 'Computador eletrônico',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'Bulgarian scientists contributed to early computer development in Eastern Europe, building the ELKA computer series.',
           sv: 'Bulgariska forskare bidrog till tidig datorutveckling i Östeuropa och byggde ELKA-datorserien.',
@@ -599,7 +699,17 @@ export const bulgaria: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'EU citizens visa-free. Many nationalities can visit up to 90 days without visa.',
           sv: 'EU-medborgare är visumfria. Många nationaliteter kan besöka upp till 90 dagar utan visum.',
@@ -613,7 +723,17 @@ export const bulgaria: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to September for beach; December to March for skiing',
           sv: 'Maj till september för stranden; December till mars för skidåkning',
@@ -627,7 +747,17 @@ export const bulgaria: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Buses connect cities, trains available but slower, taxis affordable',
           sv: 'Bussar förbinder städer, tåg tillgängliga men långsammare, taxibilar överkomliga',
@@ -641,7 +771,17 @@ export const bulgaria: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Bulgarian (Cyrillic script). Russian understood, English in tourist areas.',
           sv: 'Bulgariska (kyrilliska skrift). Ryska förstod, engelska i turistområden.',
@@ -655,7 +795,17 @@ export const bulgaria: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe country. Bulgarians are hospitable and friendly.',
           sv: 'Mycket säkert land. Bulgarerna är gästvänliga och vänliga.',
@@ -684,7 +834,7 @@ export const bulgaria: Country = {
       },
       description: {
         en: 'Traditional Bulgarian pastry made with layers of filo dough filled with a mixture of eggs, white cheese, and yogurt. Often eaten for breakfast or as a snack.',
-        sv: 'Traditionella bulgariska bakverk gjorda med lager av filodeg fyllda med en blandning av ägg, vit ost och yoghurt. Äts ofta till frukost eller som mellanmål.',
+        sv: 'Traditionellt bulgariskt bakverk av filodeg i lager, fyllt med en blandning av ägg, vitost och yoghurt. Äts ofta till frukost eller som mellanmål.',
         es: 'Pastelería tradicional búlgara elaborada con capas de masa filo rellenas con una mezcla de huevos, queso blanco y yogur. A menudo se consume en el desayuno o como merienda.',
         fr: 'Pâtisserie traditionnelle bulgare composée de couches de pâte filo remplies d\'un mélange d\'œufs, de fromage blanc et de yaourt. Souvent consommé au petit-déjeuner ou comme collation.',
         de: 'Traditionelles bulgarisches Gebäck aus Filoteigschichten, gefüllt mit einer Mischung aus Eiern, Weißkäse und Joghurt. Wird oft zum Frühstück oder als Snack gegessen.',
@@ -726,7 +876,7 @@ export const bulgaria: Country = {
         {
           name: {
             en: 'White cheese (sirene)',
-            sv: 'Vit ost (siren)',
+            sv: 'Vitost (sirene)',
             es: 'Queso blanco (sirene)',
             fr: 'Fromage blanc (sirene)',
             de: 'Weißkäse (Sirene)',
@@ -811,7 +961,7 @@ export const bulgaria: Country = {
         {
           name: {
             en: 'Baking soda',
-            sv: 'Bakpulver',
+            sv: 'Bikarbonat',
             es: 'Bicarbonato de sodio',
             fr: 'Bicarbonate de soude',
             de: 'Backpulver',
@@ -853,7 +1003,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Crumble white cheese into a bowl',
-          sv: 'Smula ner vit ost i en skål',
+          sv: 'Smula sönder vitosten i en skål',
           es: 'Desmenuza el queso blanco en un bol',
           fr: 'Émietter le fromage blanc dans un bol',
           de: 'Weißkäse in eine Schüssel zerbröckeln',
@@ -864,7 +1014,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Beat eggs with yogurt, add cheese and mix well',
-          sv: 'Vispa ägg med yoghurt, tillsätt ost och blanda väl',
+          sv: 'Vispa äggen med yoghurten, tillsätt osten och blanda väl',
           es: 'Batir los huevos con el yogur, añadir el queso y mezclar bien',
           fr: 'Battre les œufs avec le yaourt, ajouter le fromage et bien mélanger',
           de: 'Eier mit Joghurt verquirlen, Käse hinzufügen und gut vermischen',
@@ -875,7 +1025,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Melt butter',
-          sv: 'Smält smör',
+          sv: 'Smält smöret',
           es: 'Derretir mantequilla',
           fr: 'Faire fondre le beurre',
           de: 'Butter schmelzen',
@@ -886,7 +1036,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Brush baking pan with butter',
-          sv: 'Pensla bakplåten med smör',
+          sv: 'Pensla en ugnsform med smör',
           es: 'Unte un molde para hornear con mantequilla',
           fr: 'Badigeonner le plat de cuisson de beurre',
           de: 'Backform mit Butter bestreichen',
@@ -897,7 +1047,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Layer filo sheets, brushing each with melted butter',
-          sv: 'Varva filoark, pensla var och en med smält smör',
+          sv: 'Lägg filoarken i lager och pensla varje ark med smält smör',
           es: 'Coloque capas de hojas de filo, untando cada una con mantequilla derretida',
           fr: 'Superposez les feuilles de filo en badigeonnant chacune de beurre fondu',
           de: 'Filoblätter schichten und jeweils mit zerlassener Butter bestreichen',
@@ -908,7 +1058,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Spread cheese mixture over filo',
-          sv: 'Bred ostblandningen över filo',
+          sv: 'Bred ut ostblandningen över filodegen',
           es: 'Unte la mezcla de queso sobre filo',
           fr: 'Étaler le mélange de fromage sur le filo',
           de: 'Die Käsemischung auf dem Filo verteilen',
@@ -919,7 +1069,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Continue layering and buttering filo sheets',
-          sv: 'Fortsätt lägga i lager och smörja filoark',
+          sv: 'Fortsätt att varva filoark och pensla dem med smör',
           es: 'Continúe colocando capas y untando con mantequilla las hojas de filo',
           fr: 'Continuez à superposer et à beurrer les feuilles de filo',
           de: 'Filoblätter weiter schichten und mit Butter bestreichen',
@@ -930,7 +1080,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Mix sparkling water with baking soda and pour over top',
-          sv: 'Blanda kolsyrat vatten med bakpulver och häll över',
+          sv: 'Blanda kolsyrat vatten med bikarbonat och häll över',
           es: 'Mezcla agua con gas con bicarbonato de sodio y vierte encima',
           fr: 'Mélangez de l\'eau gazeuse avec du bicarbonate de soude et versez dessus',
           de: 'Mischen Sie Sprudelwasser mit Backpulver und gießen Sie es darüber',
@@ -941,7 +1091,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Score the top into serving pieces',
-          sv: 'Skär toppen i portionsbitar',
+          sv: 'Skär i ytan för att markera portionsbitar',
           es: 'Marque la parte superior en trozos para servir',
           fr: 'Coupez le dessus en morceaux de service',
           de: 'Die Oberseite in Portionsstücke einschneiden',
@@ -952,7 +1102,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Bake for 40-45 minutes until golden brown',
-          sv: 'Grädda i 40-45 minuter tills de är gyllenbruna',
+          sv: 'Grädda i 40-45 minuter tills banitsan är gyllenbrun',
           es: 'Hornee durante 40-45 minutos hasta que estén dorados',
           fr: 'Cuire au four pendant 40 à 45 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '40-45 Minuten backen, bis sie goldbraun sind',
@@ -990,7 +1140,7 @@ export const bulgaria: Country = {
       },
       description: {
         en: 'Rich Bulgarian chocolate walnut cake with chocolate ganache',
-        sv: 'Rik bulgarisk chokladvalnötstårta med chokladganache',
+        sv: 'Mäktig bulgarisk chokladtårta med valnötter och chokladganache',
         es: 'Rica tarta búlgara de chocolate y nueces con ganache de chocolate',
         fr: 'Riche gâteau bulgare au chocolat et aux noix avec ganache au chocolat',
         de: 'Reichhaltiger bulgarischer Schokoladen-Walnuss-Kuchen mit Schokoladen-Ganache',
@@ -1044,7 +1194,7 @@ export const bulgaria: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1102,7 +1252,7 @@ export const bulgaria: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -1148,7 +1298,7 @@ export const bulgaria: Country = {
       steps: [
         {
           en: 'Separate eggs. Beat egg whites to stiff peaks.',
-          sv: 'Separera ägg. Vispa äggvitan till hårda toppar.',
+          sv: 'Skilj äggulorna från äggvitorna. Vispa äggvitorna till hårt skum.',
           es: 'Separar los huevos. Batir las claras de huevo a punto de nieve.',
           fr: 'Séparez les œufs. Battre les blancs d\'œufs en neige ferme.',
           de: 'Eier trennen. Eiweiß steif schlagen.',
@@ -1159,7 +1309,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Beat egg yolks with 150g sugar until pale.',
-          sv: 'Vispa äggulor med 150 g socker tills den blir blek.',
+          sv: 'Vispa äggulorna med 150 g socker tills smeten blir ljus.',
           es: 'Batir las yemas con 150 g de azúcar hasta que estén pálidas.',
           fr: 'Battre les jaunes d\'œufs avec 150 g de sucre jusqu\'à ce qu\'ils blanchissent.',
           de: 'Eigelb mit 150 g Zucker hell schlagen.',
@@ -1170,7 +1320,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Fold ground walnuts into yolk mixture.',
-          sv: 'Vänd ner malda valnötter i äggulablandningen.',
+          sv: 'Vänd ner de malda valnötterna i äggulesmeten.',
           es: 'Incorpora las nueces molidas a la mezcla de yemas.',
           fr: 'Incorporer les noix moulues au mélange de jaunes.',
           de: 'Gemahlene Walnüsse unter die Eigelbmischung heben.',
@@ -1181,7 +1331,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Gently fold in egg whites.',
-          sv: 'Vänd försiktigt ner äggvitan.',
+          sv: 'Vänd försiktigt ner äggvitorna.',
           es: 'Incorpora suavemente las claras de huevo.',
           fr: 'Incorporer délicatement les blancs d\'œufs.',
           de: 'Eiweiß vorsichtig unterheben.',
@@ -1192,7 +1342,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Pour into greased pan, bake at 170°C for 30-35 minutes.',
-          sv: 'Häll i smord form, grädda i 170°C i 30-35 minuter.',
+          sv: 'Häll smeten i en smord form och grädda i 170°C i 30-35 minuter.',
           es: 'Vierta en un molde engrasado y hornee a 170°C durante 30-35 minutos.',
           fr: 'Verser dans un moule beurré et enfourner à 170°C pendant 30-35 minutes.',
           de: 'In eine gefettete Backform gießen und 30–35 Minuten bei 170 °C backen.',
@@ -1203,7 +1353,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Cool completely, slice into 3 layers.',
-          sv: 'Kyl helt, skiva i 3 lager.',
+          sv: 'Låt svalna helt och dela sedan kakan i 3 bottnar.',
           es: 'Deje enfriar completamente, córtelo en 3 capas.',
           fr: 'Laisser refroidir complètement, couper en 3 couches.',
           de: 'Vollständig abkühlen lassen, in 3 Schichten schneiden.',
@@ -1214,7 +1364,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Make ganache: heat cream, pour over chopped chocolate.',
-          sv: 'Gör ganache: värm grädde, häll över hackad choklad.',
+          sv: 'Gör ganachen: värm grädden och häll den över den hackade chokladen.',
           es: 'Hacer ganache: calentar la nata y verter sobre el chocolate picado.',
           fr: 'Réaliser la ganache : faire chauffer la crème, verser sur le chocolat haché.',
           de: 'Ganache zubereiten: Sahne erhitzen, über die gehackte Schokolade gießen.',
@@ -1225,7 +1375,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Stir until smooth, add butter.',
-          sv: 'Rör tills det är slätt, tillsätt smör.',
+          sv: 'Rör tills ganachen är slät och rör sedan ner smöret.',
           es: 'Revuelva hasta que quede suave, agregue la mantequilla.',
           fr: 'Remuer jusqu\'à consistance lisse, ajouter le beurre.',
           de: 'Glatt rühren, Butter hinzufügen.',
@@ -1236,7 +1386,7 @@ export const bulgaria: Country = {
         },
         {
           en: 'Spread ganache between layers and over top.',
-          sv: 'Fördela ganache mellan lagren och ovanpå.',
+          sv: 'Bred ganachen mellan bottnarna och över tårtan.',
           es: 'Extienda la ganache entre las capas y por encima.',
           fr: 'Étalez la ganache entre les couches et sur le dessus.',
           de: 'Ganache zwischen den Schichten und darüber verteilen.',
@@ -1503,7 +1653,7 @@ export const bulgaria: Country = {
         options: [
           {
             en: '481 AD',
-            sv: '481 AD',
+            sv: '481 e.Kr.',
             es: '481 d.C.',
             fr: '481 après JC',
             de: '481 n. Chr.',
@@ -1514,7 +1664,7 @@ export const bulgaria: Country = {
           },
           {
             en: '681 AD',
-            sv: '681 AD',
+            sv: '681 e.Kr.',
             es: '681 d.C.',
             fr: '681 après JC',
             de: '681 n. Chr.',
@@ -1525,7 +1675,7 @@ export const bulgaria: Country = {
           },
           {
             en: '881 AD',
-            sv: '881 AD',
+            sv: '881 e.Kr.',
             es: '881 d.C.',
             fr: '881 après JC',
             de: '881 n. Chr.',
@@ -1536,7 +1686,7 @@ export const bulgaria: Country = {
           },
           {
             en: '1081 AD',
-            sv: '1081 AD',
+            sv: '1081 e.Kr.',
             es: '1081 d.C.',
             fr: '1081 après JC',
             de: '1081 n. Chr.',

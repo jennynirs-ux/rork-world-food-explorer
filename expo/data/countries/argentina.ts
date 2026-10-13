@@ -264,7 +264,17 @@ export const argentina: Country = {
     history: [
       {
         year: '1816',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Argentina declared independence from Spain on July 9, 1816, after years of revolutionary struggle.',
           sv: 'Argentina förklarade sig självständigt från Spanien den 9 juli 1816, efter år av revolutionär kamp.',
@@ -279,7 +289,17 @@ export const argentina: Country = {
       },
       {
         year: '1880-1916',
-        title: 'Golden Age',
+        title: {
+          en: 'Golden Age',
+          sv: 'Guldåldern',
+          es: 'Edad de oro',
+          fr: 'Âge d\'or',
+          de: 'Goldenes Zeitalter',
+          it: 'Età dell\'oro',
+          pl: 'Złoty wiek',
+          nl: 'Gouden tijdperk',
+          pt: 'Era de ouro',
+        },
         description: {
           en: 'Massive European immigration and agricultural exports made Argentina one of the world\'s wealthiest nations.',
           sv: 'Massiv europeisk immigration och jordbruksexport gjorde Argentina till en av världens rikaste nationer.',
@@ -294,7 +314,17 @@ export const argentina: Country = {
       },
       {
         year: '1946-1955',
-        title: 'Perón Era',
+        title: {
+          en: 'Perón Era',
+          sv: 'Peróntiden',
+          es: 'Era peronista',
+          fr: 'Ère péroniste',
+          de: 'Perón-Ära',
+          it: 'Era peronista',
+          pl: 'Era Peróna',
+          nl: 'Perón-tijdperk',
+          pt: 'Era peronista',
+        },
         description: {
           en: 'Juan Perón and his wife Eva (Evita) transformed Argentine politics with their populist movement.',
           sv: 'Juan Perón och hans fru Eva (Evita) förvandlade argentinsk politik med sin populistiska rörelse.',
@@ -309,7 +339,17 @@ export const argentina: Country = {
       },
       {
         year: '2022',
-        title: 'World Cup Victory',
+        title: {
+          en: 'World Cup Victory',
+          sv: 'VM-guld',
+          es: 'Victoria en el Mundial',
+          fr: 'Victoire en Coupe du monde',
+          de: 'WM-Titel',
+          it: 'Vittoria ai Mondiali',
+          pl: 'Mistrzostwo świata',
+          nl: 'WK-titel',
+          pt: 'Título da Copa do Mundo',
+        },
         description: {
           en: 'Argentina won their third FIFA World Cup, led by Lionel Messi in what many called the greatest final ever.',
           sv: 'Argentina vann sitt tredje fotbolls-VM, ledd av Lionel Messi i vad många kallade den största finalen någonsin.',
@@ -404,7 +444,7 @@ export const argentina: Country = {
       {
         name: {
           en: 'Iguazu Falls',
-          sv: 'Iguazu Falls',
+          sv: 'Iguazúfallen',
           es: 'Cataratas del Iguazú',
           fr: 'Chutes d\'Iguazú',
           de: 'Iguazu-Wasserfälle',
@@ -476,7 +516,7 @@ export const argentina: Country = {
       {
         name: {
           en: 'Mendoza Wine Country',
-          sv: 'Mendoza Wine Country',
+          sv: 'Vinregionen Mendoza',
           es: 'País vitivinícola de Mendoza',
           fr: 'Pays viticole de Mendoza',
           de: 'Weinland Mendoza',
@@ -524,7 +564,17 @@ export const argentina: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Spring (September-November) and Fall (March-May) offer pleasant weather.',
           sv: 'Våren (september-november) och hösten (mars-maj) erbjuder behagligt väder.',
@@ -538,7 +588,17 @@ export const argentina: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'US dollars are widely accepted. ATMs available but may have limits.',
           sv: 'US-dollar är allmänt accepterade. Uttagsautomater tillgängliga men kan ha begränsningar.',
@@ -552,7 +612,17 @@ export const argentina: Country = {
         },
       },
       {
-        item: 'Power adapter',
+        item: {
+          en: 'Power adapter',
+          sv: 'Reseadapter',
+          es: 'Adaptador de enchufe',
+          fr: 'Adaptateur de prise',
+          de: 'Reiseadapter',
+          it: 'Adattatore per prese',
+          pl: 'Adapter do gniazdek',
+          nl: 'Reisstekker',
+          pt: 'Adaptador de tomada',
+        },
         description: {
           en: 'Argentina uses Type C and I plugs with 220V.',
           sv: 'Argentina använder typ C- och I-kontakter med 220V.',
@@ -566,7 +636,17 @@ export const argentina: Country = {
         },
       },
       {
-        item: 'Spanish phrasebook',
+        item: {
+          en: 'Spanish phrasebook',
+          sv: 'Spansk parlör',
+          es: 'Frases útiles en español',
+          fr: 'Guide de conversation espagnol',
+          de: 'Spanisch-Sprachführer',
+          it: 'Frasario di spagnolo',
+          pl: 'Rozmówki hiszpańskie',
+          nl: 'Spaanse taalgids',
+          pt: 'Guia de conversação em espanhol',
+        },
         description: {
           en: 'English is limited outside major tourist areas.',
           sv: 'Engelska är begränsad utanför större turistområden.',
@@ -580,7 +660,17 @@ export const argentina: Country = {
         },
       },
       {
-        item: 'Layers of clothing',
+        item: {
+          en: 'Layers of clothing',
+          sv: 'Kläder i lager',
+          es: 'Ropa en capas',
+          fr: 'Vêtements superposés',
+          de: 'Kleidung im Zwiebellook',
+          it: 'Abbigliamento a strati',
+          pl: 'Ubrania na cebulkę',
+          nl: 'Kleding in laagjes',
+          pt: 'Roupas em camadas',
+        },
         description: {
           en: 'Weather can vary greatly depending on the region.',
           sv: 'Vädret kan variera mycket beroende på region.',
@@ -594,7 +684,17 @@ export const argentina: Country = {
         },
       },
       {
-        item: 'Comfortable shoes',
+        item: {
+          en: 'Comfortable shoes',
+          sv: 'Bekväma skor',
+          es: 'Calzado cómodo',
+          fr: 'Chaussures confortables',
+          de: 'Bequeme Schuhe',
+          it: 'Scarpe comode',
+          pl: 'Wygodne buty',
+          nl: 'Comfortabele schoenen',
+          pt: 'Sapatos confortáveis',
+        },
         description: {
           en: 'Buenos Aires is a walking city with lots to explore.',
           sv: 'Buenos Aires är en promenadstad med mycket att utforska.',
@@ -623,7 +723,7 @@ export const argentina: Country = {
       },
       description: {
         en: 'Traditional Argentine barbecue featuring various cuts of beef cooked slowly over wood fire',
-        sv: 'Traditionell argentinsk grill med olika nötkött som tillagas långsamt över vedeld',
+        sv: 'Traditionell argentinsk grillning med olika styckdetaljer av nötkött som tillagas långsamt över vedeld',
         es: 'Asado tradicional argentino con varios cortes de carne cocinados lentamente sobre fuego de leña.',
         fr: 'Barbecue argentin traditionnel composé de diverses coupes de bœuf cuites lentement au feu de bois',
         de: 'Traditionelles argentinisches Barbecue mit verschiedenen Rindfleischstücken, die langsam über Holzfeuer gegart werden',
@@ -650,7 +750,7 @@ export const argentina: Country = {
         {
           name: {
             en: 'Beef short ribs',
-            sv: 'Nötkött kort revben',
+            sv: 'Short ribs av nöt',
             es: 'Costillas de res',
             fr: 'Côtes levées de boeuf',
             de: 'Kurze Rippchen vom Rind',
@@ -665,7 +765,7 @@ export const argentina: Country = {
         {
           name: {
             en: 'Beef sirloin',
-            sv: 'Oxbiff',
+            sv: 'Ryggbiff',
             es: 'Solomillo de ternera',
             fr: 'Surlonge de boeuf',
             de: 'Rinderfilet',
@@ -735,7 +835,7 @@ export const argentina: Country = {
         {
           name: {
             en: 'Wood or charcoal',
-            sv: 'Trä eller träkol',
+            sv: 'Ved eller grillkol',
             es: 'Madera o carbón',
             fr: 'Bois ou charbon de bois',
             de: 'Holz oder Holzkohle',
@@ -761,7 +861,7 @@ export const argentina: Country = {
       steps: [
         {
           en: 'Build a fire with wood or charcoal and let it burn down to hot coals',
-          sv: 'Bygg en eld med ved eller kol och låt den brinna ner till heta kol',
+          sv: 'Gör upp en eld med ved eller grillkol och låt den brinna ner till het glöd',
           es: 'Enciende un fuego con leña o carbón y deja que se queme hasta convertirlo en brasas.',
           fr: 'Faites un feu avec du bois ou du charbon de bois et laissez-le se transformer en charbons ardents.',
           de: 'Machen Sie ein Feuer mit Holz oder Holzkohle und lassen Sie es zu heißen Kohlen abbrennen',
@@ -772,7 +872,7 @@ export const argentina: Country = {
         },
         {
           en: 'Season all meat generously with coarse salt',
-          sv: 'Krydda allt kött generöst med grovt salt',
+          sv: 'Salta allt kött rikligt med grovt salt',
           es: 'Sazone generosamente toda la carne con sal gruesa.',
           fr: 'Assaisonner généreusement toutes les viandes avec du gros sel',
           de: 'Alles Fleisch großzügig mit grobem Salz würzen',
@@ -783,7 +883,7 @@ export const argentina: Country = {
         },
         {
           en: 'Place ribs on the grill first, as they take longest to cook',
-          sv: 'Placera revbenen på grillen först, eftersom de tar längst tid att tillaga',
+          sv: 'Lägg revbenen på grillen först, eftersom de tar längst tid',
           es: 'Coloque primero las costillas en la parrilla, ya que tardan más en cocinarse.',
           fr: 'Placez d\'abord les côtes levées sur le gril, car elles mettent plus de temps à cuire.',
           de: 'Legen Sie die Rippchen zuerst auf den Grill, da sie am längsten zum Garen brauchen',
@@ -794,7 +894,7 @@ export const argentina: Country = {
         },
         {
           en: 'Add other cuts of meat, maintaining a medium-low heat',
-          sv: 'Lägg till andra köttbitar, bibehåll medel-låg värme',
+          sv: 'Lägg på resten av köttet och håll en jämn, ganska låg värme',
           es: 'Agrega otros cortes de carne, manteniendo a fuego medio-bajo',
           fr: 'Ajouter les autres morceaux de viande en maintenant un feu moyen-doux',
           de: 'Weitere Fleischstücke hinzufügen und dabei eine mittlere bis niedrige Hitze beibehalten',
@@ -805,7 +905,7 @@ export const argentina: Country = {
         },
         {
           en: 'Cook slowly for 2-3 hours, turning occasionally',
-          sv: 'Koka långsamt i 2-3 timmar, vänd då och då',
+          sv: 'Grilla långsamt i 2–3 timmar och vänd köttet då och då',
           es: 'Cocine lentamente durante 2-3 horas, volteando ocasionalmente',
           fr: 'Cuire lentement pendant 2-3 heures, en retournant de temps en temps',
           de: '2-3 Stunden lang langsam garen, dabei gelegentlich wenden',
@@ -827,7 +927,7 @@ export const argentina: Country = {
         },
         {
           en: 'Slice and serve with chimichurri sauce and crusty bread',
-          sv: 'Skiva och servera med chimichurrisås och knaprigt bröd',
+          sv: 'Skiva köttet och servera med chimichurrisås och frasigt bröd',
           es: 'Cortar y servir con salsa chimichurri y pan crujiente',
           fr: 'Trancher et servir avec une sauce chimichurri et du pain croustillant',
           de: 'In Scheiben schneiden und mit Chimichurri-Sauce und knusprigem Brot servieren',
@@ -854,7 +954,7 @@ export const argentina: Country = {
       },
       description: {
         en: 'Traditional cookies filled with dulce de leche and coated in chocolate or powdered sugar',
-        sv: 'Traditionella kakor fyllda med dulce de leche och överdragna med choklad eller strösocker',
+        sv: 'Traditionella småkakor fyllda med dulce de leche och doppade i choklad eller pudrade med florsocker',
         es: 'Galletas tradicionales rellenas de dulce de leche y recubiertas de chocolate o azúcar glass',
         fr: 'Biscuits traditionnels fourrés au dulce de leche et enrobés de chocolat ou de sucre en poudre',
         de: 'Traditionelle Kekse gefüllt mit Dulce de Leche und überzogen mit Schokolade oder Puderzucker',
@@ -896,7 +996,7 @@ export const argentina: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -953,7 +1053,7 @@ export const argentina: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -981,7 +1081,7 @@ export const argentina: Country = {
         {
           name: {
             en: 'Shredded coconut',
-            sv: 'Strimlad kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -1012,7 +1112,7 @@ export const argentina: Country = {
       steps: [
         {
           en: 'Mix cornstarch, flour, and baking powder together',
-          sv: 'Blanda majsstärkelse, mjöl och bakpulver tillsammans',
+          sv: 'Blanda majsstärkelse, vetemjöl och bakpulver',
           es: 'Mezcle la maicena, la harina y el polvo para hornear',
           fr: 'Mélanger la fécule de maïs, la farine et la levure chimique',
           de: 'Maisstärke, Mehl und Backpulver vermischen',
@@ -1023,7 +1123,7 @@ export const argentina: Country = {
         },
         {
           en: 'Cream butter with sugar until light and fluffy',
-          sv: 'Grädde smör med socker tills det är ljust och fluffigt',
+          sv: 'Rör smör och socker ljust och pösigt',
           es: 'Batir la mantequilla con el azúcar hasta que esté suave y esponjosa',
           fr: 'Crémer le beurre avec le sucre jusqu\'à consistance légère et mousseuse',
           de: 'Butter mit Zucker schaumig schlagen',
@@ -1034,7 +1134,7 @@ export const argentina: Country = {
         },
         {
           en: 'Add egg yolks one at a time, mixing well',
-          sv: 'Tillsätt äggulor en i taget, blanda väl',
+          sv: 'Tillsätt äggulorna en i taget och blanda väl efter varje',
           es: 'Agrega las yemas de huevo una a la vez, mezclando bien',
           fr: 'Ajouter les jaunes d\'œufs un à un en mélangeant bien',
           de: 'Eigelb einzeln hinzufügen und gut vermischen',
@@ -1045,7 +1145,7 @@ export const argentina: Country = {
         },
         {
           en: 'Gradually add dry ingredients until dough forms',
-          sv: 'Tillsätt de torra ingredienserna gradvis tills degen bildas',
+          sv: 'Tillsätt de torra ingredienserna lite i taget och arbeta ihop till en deg',
           es: 'Agregue gradualmente los ingredientes secos hasta que se forme una masa.',
           fr: 'Ajouter progressivement les ingrédients secs jusqu\'à ce que la pâte se forme',
           de: 'Nach und nach die trockenen Zutaten hinzufügen, bis sich ein Teig bildet',
@@ -1067,7 +1167,7 @@ export const argentina: Country = {
         },
         {
           en: 'Roll out dough and cut into circles',
-          sv: 'Kavla ut degen och skär i cirklar',
+          sv: 'Kavla ut degen och stick ut runda kakor',
           es: 'Estirar la masa y cortar en círculos',
           fr: 'Étalez la pâte et coupez-la en cercles',
           de: 'Teig ausrollen und in Kreise schneiden',
@@ -1078,7 +1178,7 @@ export const argentina: Country = {
         },
         {
           en: 'Bake at 180°C (350°F) for 12-15 minutes until lightly golden',
-          sv: 'Grädda i 180°C (350°F) i 12-15 minuter tills de är lätt gyllene',
+          sv: 'Grädda i 180°C i 12–15 minuter tills kakorna är lätt gyllene',
           es: 'Hornee a 180°C (350°F) durante 12-15 minutos hasta que esté ligeramente dorado',
           fr: 'Cuire au four à 180°C (350°F) pendant 12-15 minutes jusqu\'à ce qu\'ils soient légèrement dorés',
           de: 'Bei 180 °C (350 °F) 12–15 Minuten backen, bis es leicht goldbraun ist',
@@ -1089,7 +1189,7 @@ export const argentina: Country = {
         },
         {
           en: 'Let cool completely, then sandwich with dulce de leche',
-          sv: 'Låt svalna helt och smörgå sedan med dulce de leche',
+          sv: 'Låt svalna helt och lägg sedan ihop kakorna två och två med dulce de leche emellan',
           es: 'Deje enfriar por completo, luego haga un sándwich con dulce de leche',
           fr: 'Laisser refroidir complètement, puis sandwicher avec du dulce de leche',
           de: 'Vollständig abkühlen lassen und dann mit Dulce de Leche belegen',
@@ -1100,7 +1200,7 @@ export const argentina: Country = {
         },
         {
           en: 'Roll edges in shredded coconut',
-          sv: 'Rulla kanter i riven kokos',
+          sv: 'Rulla kanterna i riven kokos',
           es: 'Bordes enrollados en coco rallado',
           fr: 'Rouler les bords dans de la noix de coco râpée',
           de: 'Ränder in Kokosraspeln wälzen',
@@ -1500,7 +1600,7 @@ export const argentina: Country = {
         options: [
           {
             en: 'Upsala Glacier',
-            sv: 'Upsala Glaciär',
+            sv: 'Upsalaglaciären',
             es: 'Glaciar Upsala',
             fr: 'Glacier d\'Upsala',
             de: 'Upsala-Gletscher',
@@ -1522,7 +1622,7 @@ export const argentina: Country = {
           },
           {
             en: 'Viedma Glacier',
-            sv: 'Viedma Glacier',
+            sv: 'Viedmaglaciären',
             es: 'Glaciar Viedma',
             fr: 'Glacier Viedma',
             de: 'Viedma-Gletscher',
@@ -1533,7 +1633,7 @@ export const argentina: Country = {
           },
           {
             en: 'Grey Glacier',
-            sv: 'Grå glaciären',
+            sv: 'Greyglaciären',
             es: 'Glaciar Gris',
             fr: 'Glacier Gris',
             de: 'Grauer Gletscher',
@@ -1561,7 +1661,7 @@ export const argentina: Country = {
         options: [
           {
             en: 'Angel Falls',
-            sv: 'Angel Falls',
+            sv: 'Angelfallet',
             es: 'Salto Ángel',
             fr: 'Chutes d\'Ange',
             de: 'Angel Falls',
@@ -1583,7 +1683,7 @@ export const argentina: Country = {
           },
           {
             en: 'Iguazu Falls',
-            sv: 'Iguazu Falls',
+            sv: 'Iguazúfallen',
             es: 'Cataratas del Iguazú',
             fr: 'Chutes d\'Iguazú',
             de: 'Iguazu-Wasserfälle',

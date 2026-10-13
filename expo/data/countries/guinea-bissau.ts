@@ -220,7 +220,17 @@ export const guineaBissau: Country = {
     history: [
       {
         year: '1446',
-        title: 'Portuguese Arrival',
+        title: {
+          en: 'Portuguese Arrival',
+          sv: 'Portugiserna anländer',
+          es: 'Llegada de los portugueses',
+          fr: 'Arrivée des Portugais',
+          de: 'Ankunft der Portugiesen',
+          it: 'Arrivo dei portoghesi',
+          pl: 'Przybycie Portugalczyków',
+          nl: 'Aankomst van de Portugezen',
+          pt: 'Chegada dos portugueses',
+        },
         description: {
           en: 'Portuguese explorers arrived, establishing trading posts along the coast.',
           sv: 'Portugisiska upptäcktsresande anlände och etablerade handelsplatser längs kusten.',
@@ -235,7 +245,17 @@ export const guineaBissau: Country = {
       },
       {
         year: '1974',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Guinea-Bissau gained independence from Portugal after a prolonged armed struggle.',
           sv: 'Guinea-Bissau blev självständigt från Portugal efter en långvarig väpnad kamp.',
@@ -262,7 +282,17 @@ export const guineaBissau: Country = {
           nl: 'Cashewverwerking',
           pt: 'Processamento de castanha de caju',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Developed efficient traditional methods for processing cashews, now a major export.',
           sv: 'Utvecklade effektiva traditionella metoder för bearbetning av cashewnötter, nu en stor exportvara.',
@@ -287,7 +317,17 @@ export const guineaBissau: Country = {
           nl: 'Matriarchale samenleving van de Bijagos',
           pt: 'Sociedade matriarcal dos Bijagós',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Unique matriarchal social structure where women hold significant power and property rights.',
           sv: 'Unik matriarkal social struktur där kvinnor innehar betydande makt och äganderätt.',
@@ -312,7 +352,17 @@ export const guineaBissau: Country = {
           nl: 'Duurzame visserij',
           pt: 'Pesca sustentável',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Traditional fishing methods in the Bijagós Archipelago preserving marine ecosystems.',
           sv: 'Traditionella fiskemetoder i Bijagós skärgård som bevarar marina ekosystem.',
@@ -426,7 +476,17 @@ export const guineaBissau: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Required for most nationalities. Available on arrival at airport.',
           sv: 'Krävs för de flesta nationaliteter. Tillgänglig vid ankomst till flygplatsen.',
@@ -440,7 +500,17 @@ export const guineaBissau: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-May for dry season.',
           sv: 'November-maj för torrperioden.',
@@ -454,7 +524,17 @@ export const guineaBissau: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Mandatory with certificate required.',
           sv: 'Obligatorisk med certifikat krävs.',
@@ -468,7 +548,17 @@ export const guineaBissau: Country = {
         },
       },
       {
-        item: 'Portuguese language',
+        item: {
+          en: 'Portuguese language',
+          sv: 'Portugisiska',
+          es: 'Idioma portugués',
+          fr: 'Langue portugaise',
+          de: 'Portugiesisch',
+          it: 'Lingua portoghese',
+          pl: 'Język portugalski',
+          nl: 'Portugees',
+          pt: 'Língua portuguesa',
+        },
         description: {
           en: 'Helpful as English is rarely spoken. Creole widely used.',
           sv: 'Hjälpsamt eftersom engelska sällan talas. Kreol flitigt använt.',
@@ -566,7 +656,7 @@ export const guineaBissau: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -606,7 +696,7 @@ export const guineaBissau: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -678,7 +768,7 @@ export const guineaBissau: Country = {
         },
         {
           en: 'Add sweet potatoes and okra',
-          sv: 'Lägg till sötpotatis och okra',
+          sv: 'Lägg i sötpotatis och okra',
           es: 'Agrega las batatas y la okra',
           fr: 'Ajouter les patates douces et le gombo',
           de: 'Fügen Sie Süßkartoffeln und Okra hinzu',
@@ -689,7 +779,7 @@ export const guineaBissau: Country = {
         },
         {
           en: 'Simmer until thick',
-          sv: 'Sjud tills det blir tjockt',
+          sv: 'Låt sjuda tills det tjocknar',
           es: 'Cocine a fuego lento hasta que espese',
           fr: 'Laisser mijoter jusqu\'à épaississement',
           de: 'köcheln lassen, bis es dickflüssig ist',
@@ -700,7 +790,7 @@ export const guineaBissau: Country = {
         },
         {
           en: 'Serve over rice',
-          sv: 'Servera över ris',
+          sv: 'Servera med ris',
           es: 'Servir sobre arroz',
           fr: 'Servir sur du riz',
           de: 'Über Reis servieren',
@@ -727,7 +817,7 @@ export const guineaBissau: Country = {
       },
       description: {
         en: 'Cashew cookies made with local cashew nuts',
-        sv: 'Cashewkakor gjorda med lokala cashewnötter',
+        sv: 'Cashewkakor gjorda på lokala cashewnötter',
         es: 'Galletas de anacardos elaboradas con anacardos locales',
         fr: 'Biscuits aux noix de cajou à base de noix de cajou locales',
         de: 'Cashewkekse aus lokalen Cashewnüssen',
@@ -754,7 +844,7 @@ export const guineaBissau: Country = {
         {
           name: {
             en: 'Cashew nuts chopped',
-            sv: 'Cashewnötter hackade',
+            sv: 'Cashewnötter, hackade',
             es: 'Anacardos picados',
             fr: 'Noix de cajou hachées',
             de: 'Cashewnüsse gehackt',
@@ -769,7 +859,7 @@ export const guineaBissau: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -826,7 +916,7 @@ export const guineaBissau: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -855,7 +945,7 @@ export const guineaBissau: Country = {
       steps: [
         {
           en: 'Cream butter and sugar together',
-          sv: 'Rör ihop smör och socker',
+          sv: 'Vispa smör och socker pösigt',
           es: 'Batir la mantequilla y el azúcar',
           fr: 'Crémer le beurre et le sucre ensemble',
           de: 'Butter und Zucker schaumig rühren',
@@ -866,7 +956,7 @@ export const guineaBissau: Country = {
         },
         {
           en: 'Beat in eggs and vanilla',
-          sv: 'Vispa i ägg och vanilj',
+          sv: 'Vispa ner ägg och vanilj',
           es: 'Batir los huevos y la vainilla',
           fr: 'Incorporer les œufs et la vanille',
           de: 'Eier und Vanille unterrühren',
@@ -877,7 +967,7 @@ export const guineaBissau: Country = {
         },
         {
           en: 'Mix in flour and chopped cashews',
-          sv: 'Blanda i mjöl och hackade cashewnötter',
+          sv: 'Rör ner mjölet och de hackade cashewnötterna',
           es: 'Incorpora la harina y los anacardos picados',
           fr: 'Incorporer la farine et les noix de cajou hachées',
           de: 'Mehl und gehackte Cashewnüsse untermischen',
@@ -899,7 +989,7 @@ export const guineaBissau: Country = {
         },
         {
           en: 'Flatten slightly on baking sheet',
-          sv: 'Platta till något på plåt',
+          sv: 'Platta till dem lätt på en plåt',
           es: 'Aplanar ligeramente sobre una bandeja para hornear',
           fr: 'Aplatir légèrement sur une plaque à pâtisserie',
           de: 'Auf dem Backblech leicht flach drücken',
@@ -921,7 +1011,7 @@ export const guineaBissau: Country = {
         },
         {
           en: 'Cool on wire rack',
-          sv: 'Kyl på galler',
+          sv: 'Låt svalna på galler',
           es: 'Dejar enfriar sobre una rejilla',
           fr: 'Laisser refroidir sur une grille',
           de: 'Auf einem Gitter abkühlen lassen',

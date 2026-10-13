@@ -220,7 +220,17 @@ export const gabon: Country = {
     history: [
       {
         year: '1472',
-        title: 'Portuguese Arrival',
+        title: {
+          en: 'Portuguese Arrival',
+          sv: 'Portugiserna anländer',
+          es: 'Llegada de los portugueses',
+          fr: 'Arrivée des Portugais',
+          de: 'Ankunft der Portugiesen',
+          it: 'Arrivo dei portoghesi',
+          pl: 'Przybycie Portugalczyków',
+          nl: 'Aankomst van de Portugezen',
+          pt: 'Chegada dos portugueses',
+        },
         description: {
           en: 'Portuguese explorers arrived on the coast, beginning European contact with the region.',
           sv: 'Portugisiska upptäcktsresande anlände till kusten och började europeisk kontakt med regionen.',
@@ -235,7 +245,17 @@ export const gabon: Country = {
       },
       {
         year: '1849',
-        title: 'French Settlement',
+        title: {
+          en: 'French Settlement',
+          sv: 'Fransk bosättning',
+          es: 'Asentamiento francés',
+          fr: 'Établissement français',
+          de: 'Französische Siedlung',
+          it: 'Insediamento francese',
+          pl: 'Osada francuska',
+          nl: 'Franse nederzetting',
+          pt: 'Assentamento francês',
+        },
         description: {
           en: 'France established Libreville ("Freetown") for freed slaves.',
           sv: 'Frankrike etablerade Libreville ("Freetown") för frigivna slavar.',
@@ -250,7 +270,17 @@ export const gabon: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Gabon gained independence from France.',
           sv: 'Gabon blev självständigt från Frankrike.',
@@ -268,7 +298,7 @@ export const gabon: Country = {
       {
         name: {
           en: 'Loango National Park',
-          sv: 'Loango National Park',
+          sv: 'Loango nationalpark',
           es: 'Parque Nacional Loango',
           fr: 'Parc National de Loango',
           de: 'Loango-Nationalpark',
@@ -388,7 +418,17 @@ export const gabon: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Required for most nationalities. Apply in advance.',
           sv: 'Krävs för de flesta nationaliteter. Ansök i förväg.',
@@ -402,7 +442,17 @@ export const gabon: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June-September for dry season in national parks.',
           sv: 'Juni-september för torrperioden i nationalparker.',
@@ -416,7 +466,17 @@ export const gabon: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Mandatory with certificate required for entry.',
           sv: 'Obligatorisk med intyg krävs för inträde.',
@@ -430,7 +490,17 @@ export const gabon: Country = {
         },
       },
       {
-        item: 'French language',
+        item: {
+          en: 'French language',
+          sv: 'Franska',
+          es: 'Francés',
+          fr: 'Langue française',
+          de: 'Französisch',
+          it: 'Lingua francese',
+          pl: 'Język francuski',
+          nl: 'Frans',
+          pt: 'Francês',
+        },
         description: {
           en: 'Essential as English is rarely spoken.',
           sv: 'Viktigt eftersom engelska sällan talas.',
@@ -501,7 +571,7 @@ export const gabon: Country = {
         {
           name: {
             en: 'Palm butter',
-            sv: 'Palmsmör',
+            sv: 'Palmsmör (palmnötspuré)',
             es: 'Mantequilla de palma',
             fr: 'Beurre de palme',
             de: 'Palmbutter',
@@ -528,7 +598,7 @@ export const gabon: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -553,7 +623,7 @@ export const gabon: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -591,7 +661,7 @@ export const gabon: Country = {
         {
           name: {
             en: 'Habanero pepper',
-            sv: 'Habanero peppar',
+            sv: 'Habanero',
             es: 'Pimiento habanero',
             fr: 'Piment Habanero',
             de: 'Habanero-Pfeffer',
@@ -603,7 +673,7 @@ export const gabon: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -617,7 +687,7 @@ export const gabon: Country = {
       steps: [
         {
           en: 'Brown chicken pieces',
-          sv: 'Bruna kycklingbitar',
+          sv: 'Bryn kycklingbitarna',
           es: 'Dorar trozos de pollo',
           fr: 'Faire dorer les morceaux de poulet',
           de: 'Braune Hähnchenstücke',
@@ -661,7 +731,7 @@ export const gabon: Country = {
         },
         {
           en: 'Add habanero for heat',
-          sv: 'Lägg till habanero för värme',
+          sv: 'Tillsätt habanero för hetta',
           es: 'Agrega habanero para calentar',
           fr: 'Ajoutez du habanero pour chauffer',
           de: 'Zum Erhitzen Habanero hinzufügen',
@@ -672,7 +742,7 @@ export const gabon: Country = {
         },
         {
           en: 'Serve with rice or plantains',
-          sv: 'Servera med ris eller mjölbananer',
+          sv: 'Servera med ris eller kokbananer',
           es: 'Servir con arroz o plátanos',
           fr: 'Servir avec du riz ou des plantains',
           de: 'Mit Reis oder Kochbananen servieren',
@@ -699,7 +769,7 @@ export const gabon: Country = {
       },
       description: {
         en: 'French-style fried dough pastries dusted with sugar',
-        sv: 'Friterade degbakelser i fransk stil pudrade med socker',
+        sv: 'Friterade bakverk i fransk stil, pudrade med florsocker',
         es: 'Pastelitos de masa fritos a la francesa espolvoreados con azúcar',
         fr: 'Pâte frite à la française saupoudrée de sucre',
         de: 'Frittiertes Teiggebäck nach französischer Art, mit Zucker bestäubt',
@@ -726,7 +796,7 @@ export const gabon: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -798,7 +868,7 @@ export const gabon: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -826,7 +896,7 @@ export const gabon: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -841,7 +911,7 @@ export const gabon: Country = {
         {
           name: {
             en: 'Powdered sugar',
-            sv: 'Pulversocker',
+            sv: 'Florsocker',
             es: 'Azúcar en polvo',
             fr: 'Sucre en poudre',
             de: 'Puderzucker',
@@ -857,7 +927,7 @@ export const gabon: Country = {
       steps: [
         {
           en: 'Warm milk and activate yeast with sugar',
-          sv: 'Värm mjölk och aktivera jäst med socker',
+          sv: 'Värm mjölken till fingervarm och lös upp jästen och sockret i den',
           es: 'Calentar la leche y activar la levadura con azúcar',
           fr: 'Faire chauffer le lait et activer la levure avec le sucre',
           de: 'Milch erwärmen und Hefe mit Zucker aktivieren',
@@ -868,7 +938,7 @@ export const gabon: Country = {
         },
         {
           en: 'Mix flour, eggs, butter, and yeast mixture',
-          sv: 'Blanda mjöl, ägg, smör och jästblandning',
+          sv: 'Blanda vetemjöl, ägg, smör och jästblandningen',
           es: 'Mezcle la mezcla de harina, huevos, mantequilla y levadura',
           fr: 'Mélanger la farine, les œufs, le beurre et le mélange de levure',
           de: 'Mehl, Eier, Butter und Hefemischung vermischen',
@@ -879,7 +949,7 @@ export const gabon: Country = {
         },
         {
           en: 'Knead into soft dough',
-          sv: 'Knåda till mjuk deg',
+          sv: 'Knåda till en mjuk deg',
           es: 'Amasar hasta obtener una masa suave',
           fr: 'Pétrir en pâte molle',
           de: 'Zu einem weichen Teig kneten',
@@ -890,7 +960,7 @@ export const gabon: Country = {
         },
         {
           en: 'Let rise for 1 hour until doubled',
-          sv: 'Låt jäsa i 1 timme tills det fördubblas',
+          sv: 'Låt jäsa i 1 timme, tills degen har fördubblats',
           es: 'Dejar reposar durante 1 hora hasta que doble',
           fr: 'Laisser lever 1 heure jusqu\'à ce qu\'il double',
           de: '1 Stunde gehen lassen, bis sich der Teig verdoppelt hat',
@@ -912,7 +982,7 @@ export const gabon: Country = {
         },
         {
           en: 'Heat oil to 180°C',
-          sv: 'Värm olja till 180°C',
+          sv: 'Värm oljan till 180°C',
           es: 'Calentar el aceite a 180°C',
           fr: 'Chauffer l\'huile à 180°C',
           de: 'Öl auf 180°C erhitzen',
@@ -923,7 +993,7 @@ export const gabon: Country = {
         },
         {
           en: 'Fry beignets until golden on both sides',
-          sv: 'Stek beignets tills de är gyllene på båda sidor',
+          sv: 'Fritera degbitarna tills de är gyllene på båda sidor',
           es: 'Freír los buñuelos hasta que estén dorados por ambos lados',
           fr: 'Faire frire les beignets jusqu\'à ce qu\'ils soient dorés des deux côtés',
           de: 'Beignets auf beiden Seiten goldbraun braten',
@@ -945,7 +1015,7 @@ export const gabon: Country = {
         },
         {
           en: 'Dust generously with powdered sugar while warm',
-          sv: 'Pudra generöst med strösocker medan det är varmt',
+          sv: 'Pudra rikligt med florsocker medan de är varma',
           es: 'Espolvoree generosamente con azúcar en polvo mientras esté caliente',
           fr: 'Saupoudrer généreusement de sucre en poudre pendant qu\'il est chaud',
           de: 'Im warmen Zustand großzügig mit Puderzucker bestäuben',
@@ -1045,7 +1115,17 @@ export const gabon: Country = {
           nl: 'Bescherming van bosolifanten',
           pt: 'Conservação dos elefantes-da-floresta',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Leading efforts to protect endangered forest elephants',
           sv: 'Ledande ansträngningar för att skydda hotade skogselefanter',
@@ -1070,7 +1150,17 @@ export const gabon: Country = {
           nl: 'Duurzame bosbouw',
           pt: 'Silvicultura sustentável',
         },
-        year: '2010s',
+        year: {
+          en: '2010s',
+          sv: '2010-talet',
+          es: 'Década de 2010',
+          fr: 'Années 2010',
+          de: '2010er',
+          it: 'Anni 2010',
+          pl: 'Lata 2010.',
+          nl: 'Jaren 2010',
+          pt: 'Década de 2010',
+        },
         description: {
           en: 'Balancing oil economy with rainforest preservation',
           sv: 'Balansera oljeekonomi med regnskogsbevarande',

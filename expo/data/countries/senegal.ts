@@ -263,8 +263,28 @@ export const senegal: Country = {
     },
     history: [
       {
-        year: '1400s–1600s',
-        title: 'Atlantic Trade Era',
+        year: {
+          en: '1400s–1600s',
+          sv: '1400–1600-talen',
+          es: 'Siglos XV–XVII',
+          fr: 'XVe–XVIIe siècles',
+          de: '15.–17. Jahrhundert',
+          it: 'XV–XVII secolo',
+          pl: 'XV–XVII wiek',
+          nl: '15e–17e eeuw',
+          pt: 'Séculos XV–XVII',
+        },
+        title: {
+          en: 'Atlantic Trade Era',
+          sv: 'Atlanthandelns tid',
+          es: 'Era del comercio atlántico',
+          fr: 'Ère du commerce atlantique',
+          de: 'Zeit des Atlantikhandels',
+          it: 'Epoca del commercio atlantico',
+          pl: 'Epoka handlu atlantyckiego',
+          nl: 'Tijdperk van de Atlantische handel',
+          pt: 'Era do comércio atlântico',
+        },
         description: {
           en: 'Coastal trading routes expanded, connecting Senegal\'s shoreline with wider Atlantic commerce and shaping early colonial encounters.',
           sv: 'Kusthandelsvägarna utökades, förenade Senegals kustlinje med bredare atlantisk handel och formade tidiga koloniala möten.',
@@ -278,8 +298,28 @@ export const senegal: Country = {
         },
       },
       {
-        year: '1700s–1800s',
-        title: 'Colonial Expansion',
+        year: {
+          en: '1700s–1800s',
+          sv: '1700–1800-talet',
+          es: 'siglos XVIII–XIX',
+          fr: 'XVIIIe–XIXe siècles',
+          de: '18.–19. Jahrhundert',
+          it: 'XVIII–XIX secolo',
+          pl: 'XVIII–XIX wiek',
+          nl: '18e–19e eeuw',
+          pt: 'séculos XVIII–XIX',
+        },
+        title: {
+          en: 'Colonial Expansion',
+          sv: 'Kolonial expansion',
+          es: 'Expansión colonial',
+          fr: 'Expansion coloniale',
+          de: 'Koloniale Expansion',
+          it: 'Espansione coloniale',
+          pl: 'Ekspansja kolonialna',
+          nl: 'Koloniale expansie',
+          pt: 'Expansão colonial',
+        },
         description: {
           en: 'French influence grew through coastal settlements and river trade, affecting governance, language, and urban development.',
           sv: 'Franskt inflytande växte genom kustbosättningar och flodhandel, vilket påverkade styrning, språk och stadsutveckling.',
@@ -293,8 +333,28 @@ export const senegal: Country = {
         },
       },
       {
-        year: '1940s–1950s',
-        title: 'Independence Movement',
+        year: {
+          en: '1940s–1950s',
+          sv: '1940–1950-talen',
+          es: 'Décadas de 1940–1950',
+          fr: 'Années 1940–1950',
+          de: '1940er–1950er',
+          it: 'Anni \'40–\'50',
+          pl: 'Lata 40.–50.',
+          nl: 'Jaren 40–50',
+          pt: 'Décadas de 1940–1950',
+        },
+        title: {
+          en: 'Independence Movement',
+          sv: 'Självständighetsrörelsen',
+          es: 'Movimiento independentista',
+          fr: 'Mouvement indépendantiste',
+          de: 'Unabhängigkeitsbewegung',
+          it: 'Movimento indipendentista',
+          pl: 'Ruch niepodległościowy',
+          nl: 'Onafhankelijkheidsbeweging',
+          pt: 'Movimento de independência',
+        },
         description: {
           en: 'Political organizing and cultural revival accelerated, setting the stage for a peaceful transition to sovereignty.',
           sv: 'Politisk organisering och kulturell väckelse accelererade, vilket satte scenen för en fredlig övergång till suveränitet.',
@@ -309,7 +369,17 @@ export const senegal: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Senegal became an independent nation with Dakar as its capital.',
           sv: 'Senegal blev en självständig nation med Dakar som huvudstad.',
@@ -323,8 +393,28 @@ export const senegal: Country = {
         },
       },
       {
-        year: '1970s–Present',
-        title: 'Culture and Global Influence',
+        year: {
+          en: '1970s–Present',
+          sv: '1970-talet–idag',
+          es: 'Década de 1970–actualidad',
+          fr: 'Années 1970–aujourd\'hui',
+          de: '1970er–heute',
+          it: 'Anni \'70–oggi',
+          pl: 'Lata 70.–obecnie',
+          nl: 'Jaren 70–heden',
+          pt: 'Década de 1970–presente',
+        },
+        title: {
+          en: 'Culture and Global Influence',
+          sv: 'Kultur och internationellt inflytande',
+          es: 'Cultura e influencia global',
+          fr: 'Culture et rayonnement international',
+          de: 'Kultur und globaler Einfluss',
+          it: 'Cultura e influenza globale',
+          pl: 'Kultura i wpływy na świecie',
+          nl: 'Cultuur en wereldwijde invloed',
+          pt: 'Cultura e influência global',
+        },
         description: {
           en: 'Senegal developed a strong international profile through music, arts, and sport, with Dakar remaining a creative powerhouse.',
           sv: 'Senegal utvecklade en stark internationell profil genom musik, konst och sport, och Dakar förblev ett kreativt kraftpaket.',
@@ -376,7 +466,17 @@ export const senegal: Country = {
           nl: 'Mbalax-muziek',
           pt: 'Música Mbalax',
         },
-        year: '1970s–1980s',
+        year: {
+          en: '1970s–1980s',
+          sv: '1970–1980-talen',
+          es: 'Décadas de 1970–1980',
+          fr: 'Années 1970–1980',
+          de: '1970er–1980er',
+          it: 'Anni \'70–\'80',
+          pl: 'Lata 70.–80.',
+          nl: 'Jaren 70–80',
+          pt: 'Décadas de 1970–1980',
+        },
         description: {
           en: 'A modern genre blending sabar drumming traditions with contemporary sounds, helping Senegalese music reach worldwide audiences.',
           sv: 'En modern genre som blandar traditioner med sabartrummor med samtida ljud, vilket hjälper senegalesisk musik att nå en världsomspännande publik.',
@@ -401,7 +501,17 @@ export const senegal: Country = {
           nl: 'Thieboudienne (Culinair Symbool)',
           pt: 'Thieboudienne (Marco Culinário)',
         },
-        year: '1800s',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
         description: {
           en: 'Often credited to Saint-Louis cooks, this iconic fish-and-rice dish became a defining culinary innovation of Senegal.',
           sv: 'Ofta krediteras Saint-Louis kockar, denna ikoniska fisk-och-risrätt blev en avgörande kulinarisk innovation i Senegal.',
@@ -419,7 +529,7 @@ export const senegal: Country = {
       {
         name: {
           en: 'Gorée Island',
-          sv: 'Gorée Island',
+          sv: 'Gorée',
           es: 'Isla de Gorée',
           fr: 'Île de Gorée',
           de: 'Insel Gorée',
@@ -467,7 +577,7 @@ export const senegal: Country = {
       {
         name: {
           en: 'Lac Rose (Lake Retba)',
-          sv: 'Lac Rose (Lake Retba)',
+          sv: 'Lac Rose (Retbasjön)',
           es: 'Lago Rose (Lago Retba)',
           fr: 'Lac Rose (Lac Retba)',
           de: 'Lac Rose (Retba-See)',
@@ -515,7 +625,7 @@ export const senegal: Country = {
       {
         name: {
           en: 'Sine-Saloum Delta',
-          sv: 'Sine-Saloum Delta',
+          sv: 'Sine-Saloum-deltat',
           es: 'Delta del Sine-Saloum',
           fr: 'Delta du Sine-Saloum',
           de: 'Sinus-Saloum-Delta',
@@ -539,7 +649,17 @@ export const senegal: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November–May (dry season) for lower humidity and easier travel.',
           sv: 'November–maj (torrsäsong) för lägre luftfuktighet och enklare resor.',
@@ -553,7 +673,17 @@ export const senegal: Country = {
         },
       },
       {
-        item: 'Getting around',
+        item: {
+          en: 'Getting around',
+          sv: 'Att ta sig runt',
+          es: 'Cómo moverse',
+          fr: 'Se déplacer',
+          de: 'Unterwegs vor Ort',
+          it: 'Come spostarsi',
+          pl: 'Poruszanie się',
+          nl: 'Vervoer ter plaatse',
+          pt: 'Como se locomover',
+        },
         description: {
           en: 'In cities, taxis and ride-hailing are common; for regions, consider a driver or organized tours.',
           sv: 'I städer är taxibilar och skjutsning vanligt; för regioner, överväg en förare eller organiserade turer.',
@@ -567,7 +697,17 @@ export const senegal: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'French is official; Wolof is widely spoken and useful for greetings.',
           sv: 'Franska är officiellt; Wolof är allmänt talat och användbart för hälsningar.',
@@ -581,7 +721,17 @@ export const senegal: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Carry some XOF for markets and small restaurants; cards are more common in major hotels.',
           sv: 'Bär lite XOF för marknader och små restauranger; kort är vanligare på större hotell.',
@@ -595,7 +745,17 @@ export const senegal: Country = {
         },
       },
       {
-        item: 'Sun and heat',
+        item: {
+          en: 'Sun and heat',
+          sv: 'Sol och värme',
+          es: 'Sol y calor',
+          fr: 'Soleil et chaleur',
+          de: 'Sonne und Hitze',
+          it: 'Sole e caldo',
+          pl: 'Słońce i upał',
+          nl: 'Zon en hitte',
+          pt: 'Sol e calor',
+        },
         description: {
           en: 'Bring sun protection and stay hydrated, especially along the coast.',
           sv: 'Ta med solskydd och håll dig hydrerad, särskilt längs kusten.',
@@ -609,7 +769,17 @@ export const senegal: Country = {
         },
       },
       {
-        item: 'Respectful markets',
+        item: {
+          en: 'Respectful markets',
+          sv: 'Respekt på marknaden',
+          es: 'Respeto en los mercados',
+          fr: 'Courtoisie au marché',
+          de: 'Respekt auf dem Markt',
+          it: 'Rispetto nei mercati',
+          pl: 'Szacunek na targu',
+          nl: 'Respect op de markt',
+          pt: 'Respeito nos mercados',
+        },
         description: {
           en: 'Bargaining is common—keep it friendly and polite.',
           sv: 'Att förhandla är vanligt – håll det vänligt och artigt.',
@@ -665,7 +835,7 @@ export const senegal: Country = {
         {
           name: {
             en: 'Firm white fish (snapper, grouper, cod)',
-            sv: 'Fast vit fisk (snapper, havabborre, torsk)',
+            sv: 'Fast vit fisk (t.ex. snapper, grouper eller torsk)',
             es: 'Pescado blanco firme (pargo, mero, bacalao)',
             fr: 'Poissons blancs fermes (vivaneau, mérou, cabillaud)',
             de: 'Fester Weißfisch (Schnapper, Zackenbarsch, Kabeljau)',
@@ -732,7 +902,7 @@ export const senegal: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -797,7 +967,7 @@ export const senegal: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -837,7 +1007,7 @@ export const senegal: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -865,7 +1035,7 @@ export const senegal: Country = {
         {
           name: {
             en: 'Hot chili (optional)',
-            sv: 'Varm chili (valfritt)',
+            sv: 'Stark chili (valfritt)',
             es: 'Chile picante (opcional)',
             fr: 'Piment fort (facultatif)',
             de: 'Scharfes Chili (optional)',
@@ -877,7 +1047,7 @@ export const senegal: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -890,7 +1060,7 @@ export const senegal: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -931,7 +1101,7 @@ export const senegal: Country = {
       steps: [
         {
           en: 'Rinse rice until water runs mostly clear; soak 15 minutes, then drain.',
-          sv: 'Skölj ris tills vattnet är nästan klart; blötlägg 15 minuter och låt rinna av.',
+          sv: 'Skölj riset tills vattnet är nästan klart, låt det ligga i blöt i 15 minuter och låt det sedan rinna av.',
           es: 'Enjuague el arroz hasta que el agua salga casi clara; remojar durante 15 minutos, luego escurrir.',
           fr: 'Rincer le riz jusqu\'à ce que l\'eau soit presque claire ; laisser tremper 15 minutes, puis égoutter.',
           de: 'Spülen Sie den Reis ab, bis das Wasser größtenteils klar ist. 15 Minuten einweichen, dann abtropfen lassen.',
@@ -942,7 +1112,7 @@ export const senegal: Country = {
         },
         {
           en: 'Make a herb paste: blend parsley, garlic, a little onion, and a pinch of salt.',
-          sv: 'Gör en örtpasta: blanda persilja, vitlök, lite lök och en nypa salt.',
+          sv: 'Gör en örtpasta: mixa persilja, vitlök, lite lök och en nypa salt.',
           es: 'Hacer una pasta de hierbas: licuar perejil, ajo, un poco de cebolla y una pizca de sal.',
           fr: 'Préparez une pâte d\'herbes : mélangez le persil, l\'ail, un peu d\'oignon et une pincée de sel.',
           de: 'Machen Sie eine Kräuterpaste: Mischen Sie Petersilie, Knoblauch, etwas Zwiebel und eine Prise Salz.',
@@ -964,7 +1134,7 @@ export const senegal: Country = {
         },
         {
           en: 'Heat oil in a large pot and lightly brown the fish 2 minutes per side; remove to a plate.',
-          sv: 'Hetta upp olja i en stor gryta och bryn fisken lätt 2 minuter per sida; ta bort till en tallrik.',
+          sv: 'Hetta upp olja i en stor gryta och bryn fisken lätt i 2 minuter per sida. Lyft över den till en tallrik.',
           es: 'Calienta el aceite en una olla grande y dora ligeramente el pescado 2 minutos por lado; retirar a un plato.',
           fr: 'Faites chauffer l\'huile dans une grande casserole et faites légèrement dorer le poisson 2 minutes de chaque côté; retirer dans une assiette.',
           de: 'Öl in einem großen Topf erhitzen und den Fisch 2 Minuten pro Seite leicht anbraten; Auf einen Teller legen.',
@@ -975,7 +1145,7 @@ export const senegal: Country = {
         },
         {
           en: 'Saute remaining onions in the same pot 5 minutes. Stir in tomato paste and cook 1 minute.',
-          sv: 'Fräs resterande lök i samma gryta i 5 minuter. Rör ner tomatpuré och koka 1 minut.',
+          sv: 'Fräs resten av löken i samma gryta i 5 minuter. Rör ner tomatpurén och fräs i 1 minut till.',
           es: 'Saltee las cebollas restantes en la misma olla durante 5 minutos. Agregue la pasta de tomate y cocine por 1 minuto.',
           fr: 'Faire revenir les oignons restants dans la même casserole 5 minutes. Incorporer la pâte de tomate et cuire 1 minute.',
           de: 'Restliche Zwiebeln im gleichen Topf 5 Minuten anbraten. Tomatenmark einrühren und 1 Minute kochen lassen.',
@@ -997,7 +1167,7 @@ export const senegal: Country = {
         },
         {
           en: 'Add the vegetables and simmer until just tender (about 15–25 minutes depending on size). Remove vegetables to a tray.',
-          sv: 'Tillsätt grönsakerna och låt puttra tills de är mjuka (ca 15–25 minuter beroende på storlek). Ta bort grönsakerna till en bricka.',
+          sv: 'Tillsätt grönsakerna och låt puttra tills de precis är mjuka (ca 15–25 minuter beroende på storlek). Lyft upp grönsakerna på en bricka.',
           es: 'Agregue las verduras y cocine a fuego lento hasta que estén tiernas (entre 15 y 25 minutos, según el tamaño). Retire las verduras a una bandeja.',
           fr: 'Ajouter les légumes et laisser mijoter jusqu\'à ce qu\'ils soient juste tendres (environ 15 à 25 minutes selon la taille). Retirer les légumes dans un plateau.',
           de: 'Das Gemüse hinzufügen und köcheln lassen, bis es gerade weich ist (ca. 15–25 Minuten, je nach Größe). Gemüse auf ein Tablett legen.',
@@ -1008,7 +1178,7 @@ export const senegal: Country = {
         },
         {
           en: 'Return fish to the sauce and simmer 8–10 minutes, then remove fish carefully.',
-          sv: 'Lägg tillbaka fisken i såsen och låt puttra i 8–10 minuter, ta sedan bort fisken försiktigt.',
+          sv: 'Lägg tillbaka fisken i såsen och låt puttra i 8–10 minuter. Lyft sedan försiktigt upp fisken.',
           es: 'Regrese el pescado a la salsa y cocine a fuego lento durante 8 a 10 minutos, luego retírelo con cuidado.',
           fr: 'Remettez le poisson dans la sauce et laissez mijoter 8 à 10 minutes, puis retirez délicatement le poisson.',
           de: 'Den Fisch wieder in die Sauce geben und 8–10 Minuten köcheln lassen, dann den Fisch vorsichtig herausnehmen.',
@@ -1019,7 +1189,7 @@ export const senegal: Country = {
         },
         {
           en: 'Add drained rice to the pot, stir once, cover, and cook on low 18–20 minutes until rice is tender and has absorbed the sauce.',
-          sv: 'Tillsätt avrunnat ris i grytan, rör om en gång, täck över och koka på låg 18–20 minuter tills riset är mört och har absorberat såsen.',
+          sv: 'Tillsätt det avrunna riset i grytan, rör om en gång, lägg på lock och låt koka på låg värme i 18–20 minuter tills riset är mjukt och har sugit upp såsen.',
           es: 'Agregue el arroz escurrido a la olla, revuelva una vez, cubra y cocine a fuego lento de 18 a 20 minutos hasta que el arroz esté tierno y haya absorbido la salsa.',
           fr: 'Ajoutez le riz égoutté dans la casserole, remuez une fois, couvrez et faites cuire à feu doux pendant 18 à 20 minutes jusqu\'à ce que le riz soit tendre et ait absorbé la sauce.',
           de: 'Den abgetropften Reis in den Topf geben, einmal umrühren, abdecken und auf niedriger Stufe 18–20 Minuten kochen, bis der Reis zart ist und die Sauce aufgesogen hat.',
@@ -1030,7 +1200,7 @@ export const senegal: Country = {
         },
         {
           en: 'Serve rice on a platter, top with fish and vegetables, and spoon a little extra sauce over everything.',
-          sv: 'Servera ris på ett fat, toppa med fisk och grönsaker och sked lite extra sås över allt.',
+          sv: 'Lägg upp riset på ett fat, toppa med fisk och grönsaker och ringla lite extra sås över alltihop.',
           es: 'Sirva el arroz en una fuente, cubra con pescado y verduras y vierta un poco más de salsa sobre todo.',
           fr: 'Servir le riz sur une assiette, garnir de poisson et de légumes et verser un peu de sauce supplémentaire sur le tout.',
           de: 'Servieren Sie den Reis auf einer Platte, belegen Sie ihn mit Fisch und Gemüse und geben Sie noch etwas Soße darüber.',
@@ -1084,7 +1254,7 @@ export const senegal: Country = {
         {
           name: {
             en: 'Millet couscous (or fine millet semolina)',
-            sv: 'Hirscouscous (eller fin hirsgryn)',
+            sv: 'Hirscouscous (eller fina hirsgryn)',
             es: 'Cuscús de mijo (o sémola fina de mijo)',
             fr: 'Couscous de millet (ou semoule fine de mil)',
             de: 'Hirse-Couscous (oder feiner Hirsegrieß)',
@@ -1099,7 +1269,7 @@ export const senegal: Country = {
         {
           name: {
             en: 'Plain yogurt',
-            sv: 'Vanlig yoghurt',
+            sv: 'Naturell yoghurt',
             es: 'Yogur natural',
             fr: 'Yaourt nature',
             de: 'Naturjoghurt',
@@ -1175,7 +1345,7 @@ export const senegal: Country = {
       steps: [
         {
           en: 'Steam or hydrate millet couscous according to package instructions; let cool to room temperature.',
-          sv: 'Ånga eller hydrat hirscouscous enligt förpackningens instruktioner; låt svalna till rumstemperatur.',
+          sv: 'Ångkoka eller blötlägg hirscouscousen enligt anvisningen på förpackningen och låt den svalna till rumstemperatur.',
           es: 'Cocine al vapor o hidrate el cuscús de mijo según las instrucciones del paquete; dejar enfriar a temperatura ambiente.',
           fr: 'Cuire à la vapeur ou hydrater le couscous au mil selon les instructions sur l\'emballage ; laisser refroidir à température ambiante.',
           de: 'Hirse-Couscous nach Packungsanleitung dämpfen oder hydratisieren; auf Raumtemperatur abkühlen lassen.',
@@ -1186,7 +1356,7 @@ export const senegal: Country = {
         },
         {
           en: 'Whisk yogurt with sugar and vanilla (and nutmeg if using).',
-          sv: 'Vispa yoghurt med socker och vanilj (och muskot om du använder).',
+          sv: 'Vispa yoghurten med socker och vanilj (och muskot om du vill).',
           es: 'Batir el yogur con el azúcar y la vainilla (y nuez moscada si se usa).',
           fr: 'Fouetter le yaourt avec le sucre et la vanille (et la muscade si vous en utilisez).',
           de: 'Joghurt mit Zucker und Vanille (und ggf. Muskatnuss) verquirlen.',
@@ -1197,7 +1367,7 @@ export const senegal: Country = {
         },
         {
           en: 'Fold cooled millet couscous into the yogurt mixture.',
-          sv: 'Vänd ner den kylda hirscouscousen i yoghurtblandningen.',
+          sv: 'Vänd ner den avsvalnade hirscouscousen i yoghurtblandningen.',
           es: 'Incorpora el cuscús de mijo enfriado a la mezcla de yogur.',
           fr: 'Incorporer le couscous au millet refroidi au mélange de yaourt.',
           de: 'Abgekühltes Hirse-Couscous unter die Joghurtmischung heben.',
@@ -1208,7 +1378,7 @@ export const senegal: Country = {
         },
         {
           en: 'Add raisins if using and mix well.',
-          sv: 'Tillsätt russin om du använder och blanda väl.',
+          sv: 'Tillsätt russin om du vill och blanda väl.',
           es: 'Agregue pasas si las usa y mezcle bien.',
           fr: 'Ajouter les raisins secs si vous en utilisez et bien mélanger.',
           de: 'Bei Bedarf Rosinen hinzufügen und gut vermischen.',
@@ -1498,7 +1668,7 @@ export const senegal: Country = {
           },
           {
             en: 'Gorée Island',
-            sv: 'Gorée Island',
+            sv: 'Gorée',
             es: 'Isla de Gorée',
             fr: 'Île de Gorée',
             de: 'Insel Gorée',
@@ -1681,7 +1851,7 @@ export const senegal: Country = {
           },
           {
             en: 'Lac Rose (Pink Lake)',
-            sv: 'Lac Rose (Pink Lake)',
+            sv: 'Lac Rose (Rosa sjön)',
             es: 'Lac Rose (Lago Rosa)',
             fr: 'Lac Rose (Lac Rose)',
             de: 'Lac Rose (Rosa See)',
@@ -1692,7 +1862,7 @@ export const senegal: Country = {
           },
           {
             en: 'Silver Lake',
-            sv: 'Silver Lake',
+            sv: 'Silversjön',
             es: 'Lago plateado',
             fr: 'Lac d\'Argent',
             de: 'Silbersee',
@@ -1703,7 +1873,7 @@ export const senegal: Country = {
           },
           {
             en: 'Black Lake',
-            sv: 'Black Lake',
+            sv: 'Svarta sjön',
             es: 'Lago Negro',
             fr: 'Lac Noir',
             de: 'Schwarzer See',

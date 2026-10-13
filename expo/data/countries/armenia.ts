@@ -263,8 +263,28 @@ export const armenia: Country = {
     },
     history: [
       {
-        year: '782 BC',
-        title: 'Kingdom of Urartu',
+        year: {
+          en: '782 BC',
+          sv: '782 f.Kr.',
+          es: '782 a. C.',
+          fr: '782 av. J.-C.',
+          de: '782 v. Chr.',
+          it: '782 a.C.',
+          pl: '782 p.n.e.',
+          nl: '782 v.Chr.',
+          pt: '782 a.C.',
+        },
+        title: {
+          en: 'Kingdom of Urartu',
+          sv: 'Kungariket Urartu',
+          es: 'Reino de Urartu',
+          fr: 'Royaume d\'Urartu',
+          de: 'Königreich Urartu',
+          it: 'Regno di Urartu',
+          pl: 'Królestwo Urartu',
+          nl: 'Koninkrijk Urartu',
+          pt: 'Reino de Urartu',
+        },
         description: {
           en: 'The ancient kingdom of Urartu, centered around Lake Van, was a powerful state that influenced later Armenian culture.',
           sv: 'Det antika kungariket Urartu, centrerat kring Van-sjön, var en mäktig stat som påverkade den senare armeniska kulturen.',
@@ -280,7 +300,7 @@ export const armenia: Country = {
       {
         year: {
           en: '301 AD',
-          sv: '301 AD',
+          sv: '301 e.Kr.',
           es: '301 d.C.',
           fr: '301 après JC',
           de: '301 n. Chr.',
@@ -289,7 +309,17 @@ export const armenia: Country = {
           nl: '301 na Chr.',
           pt: '301 d.C.',
         },
-        title: 'First Christian Nation',
+        title: {
+          en: 'First Christian Nation',
+          sv: 'Den första kristna nationen',
+          es: 'Primera nación cristiana',
+          fr: 'Première nation chrétienne',
+          de: 'Erste christliche Nation',
+          it: 'Prima nazione cristiana',
+          pl: 'Pierwsze państwo chrześcijańskie',
+          nl: 'Eerste christelijke natie',
+          pt: 'Primeira nação cristã',
+        },
         description: {
           en: 'Armenia became the first country to officially adopt Christianity as the state religion under King Tiridates III.',
           sv: 'Armenien blev det första landet som officiellt antog kristendomen som statsreligion under kung Tiridates III.',
@@ -305,7 +335,7 @@ export const armenia: Country = {
       {
         year: {
           en: '405 AD',
-          sv: '405 e.Kr',
+          sv: '405 e.Kr.',
           es: '405 d.C.',
           fr: '405 après JC',
           de: '405 n. Chr',
@@ -314,7 +344,17 @@ export const armenia: Country = {
           nl: '405 na Chr.',
           pt: '405 d.C.',
         },
-        title: 'Armenian Alphabet Created',
+        title: {
+          en: 'Armenian Alphabet Created',
+          sv: 'Det armeniska alfabetet skapas',
+          es: 'Creación del alfabeto armenio',
+          fr: 'Création de l\'alphabet arménien',
+          de: 'Entstehung des armenischen Alphabets',
+          it: 'Nascita dell\'alfabeto armeno',
+          pl: 'Powstanie alfabetu ormiańskiego',
+          nl: 'Ontstaan van het Armeense alfabet',
+          pt: 'Criação do alfabeto armênio',
+        },
         description: {
           en: 'Mesrop Mashtots invented the Armenian alphabet, enabling the translation of the Bible and preservation of Armenian identity.',
           sv: 'Mesrop Mashtots uppfann det armeniska alfabetet, vilket möjliggör översättning av Bibeln och bevarande av armenisk identitet.',
@@ -329,7 +369,17 @@ export const armenia: Country = {
       },
       {
         year: '1915-1923',
-        title: 'Armenian Genocide',
+        title: {
+          en: 'Armenian Genocide',
+          sv: 'Armeniska folkmordet',
+          es: 'Genocidio armenio',
+          fr: 'Génocide arménien',
+          de: 'Völkermord an den Armeniern',
+          it: 'Genocidio armeno',
+          pl: 'Ludobójstwo Ormian',
+          nl: 'Armeense genocide',
+          pt: 'Genocídio armênio',
+        },
         description: {
           en: 'The systematic deportation and massacre of Armenians by the Ottoman Empire resulted in the deaths of 1.5 million people.',
           sv: 'Osmanska rikets systematiska deportation och massaker av armenier ledde till att 1,5 miljoner människor dog.',
@@ -344,7 +394,17 @@ export const armenia: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Armenia regained independence following the collapse of the Soviet Union, becoming a democratic republic.',
           sv: 'Armenien återvann självständighet efter Sovjetunionens kollaps och blev en demokratisk republik.',
@@ -431,7 +491,17 @@ export const armenia: Country = {
           nl: 'Khachkar-steenhouwkunst',
           pt: 'Escultura em pedra Khachkar',
         },
-        year: 'Medieval',
+        year: {
+          en: 'Medieval',
+          sv: 'Medeltiden',
+          es: 'Edad Media',
+          fr: 'Moyen Âge',
+          de: 'Mittelalter',
+          it: 'Medioevo',
+          pl: 'Średniowiecze',
+          nl: 'Middeleeuwen',
+          pt: 'Idade Média',
+        },
         description: {
           en: 'Unique Armenian cross-stone monuments featuring intricate carvings, recognized as UNESCO Intangible Cultural Heritage.',
           sv: 'Unika armeniska monument i korssten med invecklade sniderier, erkända som UNESCO:s immateriella kulturarv.',
@@ -546,7 +616,7 @@ export const armenia: Country = {
       {
         name: {
           en: 'Garni Temple',
-          sv: 'Garni Temple',
+          sv: 'Garnitemplet',
           es: 'Templo Garni',
           fr: 'Temple Garni',
           de: 'Garni-Tempel',
@@ -594,7 +664,17 @@ export const armenia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-June and September-October for pleasant weather; avoid harsh winters.',
           sv: 'Maj-juni och september-oktober för behagligt väder; undvika hårda vintrar.',
@@ -632,7 +712,17 @@ export const armenia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Armenian; Russian widely spoken; English in tourist areas and younger generation.',
           sv: 'armeniska; ryska allmänt talad; Engelska i turistområden och yngre generationer.',
@@ -646,7 +736,17 @@ export const armenia: Country = {
         },
       },
       {
-        item: 'Modest dress',
+        item: {
+          en: 'Modest dress',
+          sv: 'Täckande klädsel',
+          es: 'Vestimenta recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Cover shoulders and knees when visiting churches and monasteries.',
           sv: 'Täck axlar och knän när du besöker kyrkor och kloster.',
@@ -660,7 +760,17 @@ export const armenia: Country = {
         },
       },
       {
-        item: 'Hiking gear',
+        item: {
+          en: 'Hiking gear',
+          sv: 'Vandringsutrustning',
+          es: 'Equipo de senderismo',
+          fr: 'Équipement de randonnée',
+          de: 'Wanderausrüstung',
+          it: 'Attrezzatura da trekking',
+          pl: 'Sprzęt trekkingowy',
+          nl: 'Wandeluitrusting',
+          pt: 'Equipamento de trilha',
+        },
         description: {
           en: 'Comfortable shoes for exploring monasteries and mountain trails.',
           sv: 'Bekväma skor för att utforska kloster och bergsleder.',
@@ -674,7 +784,17 @@ export const armenia: Country = {
         },
       },
       {
-        item: 'Try local cognac',
+        item: {
+          en: 'Try local cognac',
+          sv: 'Prova lokal konjak',
+          es: 'Prueba el coñac local',
+          fr: 'Goûtez le cognac local',
+          de: 'Lokalen Cognac probieren',
+          it: 'Assaggia il cognac locale',
+          pl: 'Spróbuj lokalnego koniaku',
+          nl: 'Proef de lokale cognac',
+          pt: 'Prove o conhaque local',
+        },
         description: {
           en: 'Visit the Ararat Brandy Factory for tastings of world-class Armenian cognac.',
           sv: 'Besök Ararat Brandy Factory för provsmakning av armenisk konjak i världsklass.',
@@ -730,7 +850,7 @@ export const armenia: Country = {
         {
           name: {
             en: 'Pork or lamb',
-            sv: 'Fläsk eller lamm',
+            sv: 'Fläskkött eller lammkött',
             es: 'Cerdo o cordero',
             fr: 'Porc ou agneau',
             de: 'Schweine- oder Lammfleisch',
@@ -757,7 +877,7 @@ export const armenia: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -782,7 +902,7 @@ export const armenia: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -807,7 +927,7 @@ export const armenia: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -820,7 +940,7 @@ export const armenia: Country = {
         {
           name: {
             en: 'Red wine',
-            sv: 'Rött vin',
+            sv: 'Rödvin',
             es: 'Vino tinto',
             fr: 'Vin rouge',
             de: 'Rotwein',
@@ -851,7 +971,7 @@ export const armenia: Country = {
       steps: [
         {
           en: 'Cut meat into chunks, marinate with wine and onions',
-          sv: 'Skär köttet i bitar, marinera med vin och lök',
+          sv: 'Skär köttet i bitar och marinera det i vin och lök',
           es: 'Cortar la carne en trozos, marinar con vino y cebolla',
           fr: 'Couper la viande en morceaux, mariner avec le vin et les oignons',
           de: 'Fleisch in Stücke schneiden, mit Wein und Zwiebeln marinieren',
@@ -862,7 +982,7 @@ export const armenia: Country = {
         },
         {
           en: 'Refrigerate for 2-4 hours',
-          sv: 'Kyl i 2-4 timmar',
+          sv: 'Låt marinera i kylskåp i 2–4 timmar',
           es: 'Refrigere durante 2-4 horas',
           fr: 'Réfrigérer pendant 2 à 4 heures',
           de: '2-4 Stunden im Kühlschrank lagern',
@@ -884,7 +1004,7 @@ export const armenia: Country = {
         },
         {
           en: 'Grill over charcoal until cooked',
-          sv: 'Grilla över kol tills de är kokta',
+          sv: 'Grilla över glödande kol tills köttet är klart',
           es: 'Ase sobre carbón hasta que esté cocido',
           fr: 'Griller sur du charbon de bois jusqu\'à ce qu\'il soit cuit',
           de: 'Über Holzkohle grillen, bis es gar ist',
@@ -895,7 +1015,7 @@ export const armenia: Country = {
         },
         {
           en: 'Baste with pomegranate juice while grilling',
-          sv: 'Tröja med granatäpplejuice medan du grillar',
+          sv: 'Pensla med granatäpplejuice under grillningen',
           es: 'Rocíe con jugo de granada mientras asa',
           fr: 'Arrosez de jus de grenade pendant la cuisson',
           de: 'Während des Grillens mit Granatapfelsaft beträufeln',
@@ -960,7 +1080,7 @@ export const armenia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -975,7 +1095,7 @@ export const armenia: Country = {
         {
           name: {
             en: 'Butter, softened',
-            sv: 'Smör, mjukat',
+            sv: 'Smör, rumsvarmt',
             es: 'Mantequilla ablandada',
             fr: 'Beurre ramolli',
             de: 'Butter, weich',
@@ -1017,7 +1137,7 @@ export const armenia: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1075,7 +1195,7 @@ export const armenia: Country = {
         {
           name: {
             en: 'Egg yolk for brushing',
-            sv: 'Äggula för borstning',
+            sv: 'Äggula till pensling',
             es: 'Yema de huevo para cepillar',
             fr: 'Jaune d\'oeuf pour badigeonner',
             de: 'Eigelb zum Bestreichen',
@@ -1087,7 +1207,7 @@ export const armenia: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -1112,7 +1232,7 @@ export const armenia: Country = {
         },
         {
           en: 'Cut in 150g butter until mixture resembles breadcrumbs.',
-          sv: 'Skär i 150 g smör tills blandningen liknar ströbröd.',
+          sv: 'Nyp ihop 150 g smör med mjölblandningen till en smulig massa.',
           es: 'Cortar 150 g de mantequilla hasta que la mezcla parezca pan rallado.',
           fr: 'Incorporer 150 g de beurre jusqu\'à ce que le mélange ressemble à de la chapelure.',
           de: '150 g Butter hineinschneiden, bis die Mischung wie Semmelbrösel aussieht.',
@@ -1145,7 +1265,7 @@ export const armenia: Country = {
         },
         {
           en: 'For filling: cream remaining 100g butter with sugar and vanilla.',
-          sv: 'Till fyllning: grädde resterande 100 g smör med socker och vanilj.',
+          sv: 'Gör fyllningen: rör ihop resterande 100 g smör med socker och vanilj till en krämig massa.',
           es: 'Para el relleno: batir los 100 g restantes de mantequilla con el azúcar y la vainilla.',
           fr: 'Pour la garniture : crémer les 100 g de beurre restants avec le sucre et la vanille.',
           de: 'Zum Füllen: Restliche 100 g Butter mit Zucker und Vanille schaumig rühren.',
@@ -1156,7 +1276,7 @@ export const armenia: Country = {
         },
         {
           en: 'Roll dough into rectangle about 1cm thick.',
-          sv: 'Rulla degen till en rektangel ca 1 cm tjock.',
+          sv: 'Kavla ut degen till en rektangel, ca 1 cm tjock.',
           es: 'Enrolle la masa formando un rectángulo de aproximadamente 1 cm de grosor.',
           fr: 'Abaisser la pâte en rectangle d\'environ 1 cm d\'épaisseur.',
           de: 'Den Teig zu einem etwa 1 cm dicken Rechteck ausrollen.',
@@ -1178,7 +1298,7 @@ export const armenia: Country = {
         },
         {
           en: 'Roll up like a log and shape into spiral or cut into pieces.',
-          sv: 'Rulla ihop som en stock och forma till spiral eller skär i bitar.',
+          sv: 'Rulla ihop degen till en längd och forma den till en spiral, eller skär den i bitar.',
           es: 'Enrollar como un tronco y darle forma de espiral o cortarlo en trozos.',
           fr: 'Rouler comme une bûche et façonner en spirale ou couper en morceaux.',
           de: 'Wie einen Klotz aufrollen und zu einer Spirale formen oder in Stücke schneiden.',
@@ -1330,7 +1450,7 @@ export const armenia: Country = {
         options: [
           {
             en: '301 AD',
-            sv: '301 AD',
+            sv: '301 e.Kr.',
             es: '301 d.C.',
             fr: '301 après JC',
             de: '301 n. Chr.',
@@ -1341,7 +1461,7 @@ export const armenia: Country = {
           },
           {
             en: '500 AD',
-            sv: '500 AD',
+            sv: '500 e.Kr.',
             es: '500 dC',
             fr: '500 après JC',
             de: '500 n. Chr.',
@@ -1352,7 +1472,7 @@ export const armenia: Country = {
           },
           {
             en: '100 AD',
-            sv: '100 AD',
+            sv: '100 e.Kr.',
             es: '100 d.C.',
             fr: '100 après JC',
             de: '100 n. Chr.',
@@ -1363,7 +1483,7 @@ export const armenia: Country = {
           },
           {
             en: '800 AD',
-            sv: '800 AD',
+            sv: '800 e.Kr.',
             es: '800 d.C.',
             fr: '800 après JC',
             de: '800 n. Chr.',
@@ -1391,7 +1511,7 @@ export const armenia: Country = {
         options: [
           {
             en: '301 AD',
-            sv: '301 AD',
+            sv: '301 e.Kr.',
             es: '301 d.C.',
             fr: '301 après JC',
             de: '301 n. Chr.',
@@ -1402,7 +1522,7 @@ export const armenia: Country = {
           },
           {
             en: '405 AD',
-            sv: '405 e.Kr',
+            sv: '405 e.Kr.',
             es: '405 d.C.',
             fr: '405 après JC',
             de: '405 n. Chr',
@@ -1413,7 +1533,7 @@ export const armenia: Country = {
           },
           {
             en: '500 AD',
-            sv: '500 AD',
+            sv: '500 e.Kr.',
             es: '500 dC',
             fr: '500 après JC',
             de: '500 n. Chr.',
@@ -1424,7 +1544,7 @@ export const armenia: Country = {
           },
           {
             en: '600 AD',
-            sv: '600 AD',
+            sv: '600 e.Kr.',
             es: '600 dC',
             fr: '600 après JC',
             de: '600 n. Chr.',
@@ -1513,7 +1633,7 @@ export const armenia: Country = {
         options: [
           {
             en: 'Mount Elbrus',
-            sv: 'Mount Elbrus',
+            sv: 'Berget Elbrus',
             es: 'Monte Elbrús',
             fr: 'Mont Elbrouz',
             de: 'Elbrus',
@@ -1535,7 +1655,7 @@ export const armenia: Country = {
           },
           {
             en: 'Mount Kazbek',
-            sv: 'Mount Kazbek',
+            sv: 'Berget Kazbek',
             es: 'Monte Kazbek',
             fr: 'Mont Kazbek',
             de: 'Berg Kasbek',
@@ -1546,7 +1666,7 @@ export const armenia: Country = {
           },
           {
             en: 'Mount Aragats',
-            sv: 'Mount Aragats',
+            sv: 'Berget Aragats',
             es: 'Monte Aragats',
             fr: 'Mont Aragats',
             de: 'Berg Aragats',

@@ -125,7 +125,7 @@ export const vanuatu: Country = {
         },
         value: {
           en: 'Vanuatu Vatu',
-          sv: 'Vanuatu Vatu',
+          sv: 'Vanuatisk vatu',
           es: 'Vanuatu Vatu',
           fr: 'Vanuatu Vatu',
           de: 'Vanuatu Vatu',
@@ -219,8 +219,28 @@ export const vanuatu: Country = {
     },
     history: [
       {
-        year: '3000 BC',
-        title: 'Taro and Yam Domestication',
+        year: {
+          en: '3000 BC',
+          sv: '3000 f.Kr.',
+          es: '3000 a. C.',
+          fr: '3000 av. J.-C.',
+          de: '3000 v. Chr.',
+          it: '3000 a.C.',
+          pl: '3000 p.n.e.',
+          nl: '3000 v.Chr.',
+          pt: '3000 a.C.',
+        },
+        title: {
+          en: 'Taro and Yam Domestication',
+          sv: 'Domesticering av taro och jams',
+          es: 'Domesticación del taro y el ñame',
+          fr: 'Domestication du taro et de l\'igname',
+          de: 'Domestizierung von Taro und Yams',
+          it: 'Domesticazione di taro e igname',
+          pl: 'Udomowienie taro i pochrzynu',
+          nl: 'Domesticatie van taro en yam',
+          pt: 'Domesticação do taro e do inhame',
+        },
         description: {
           en: 'Melanesian ancestors domesticated taro and yam on Vanuatu islands, establishing root crops as dietary foundation for island communities',
           sv: 'Melanesiska förfäder domesticerade taro och yam',
@@ -234,8 +254,28 @@ export const vanuatu: Country = {
         },
       },
       {
-        year: '1000 BC',
-        title: 'Coconut Palm Cultivation',
+        year: {
+          en: '1000 BC',
+          sv: '1000 f.Kr.',
+          es: '1000 a. C.',
+          fr: '1000 av. J.-C.',
+          de: '1000 v. Chr.',
+          it: '1000 a.C.',
+          pl: '1000 p.n.e.',
+          nl: '1000 v.Chr.',
+          pt: '1000 a.C.',
+        },
+        title: {
+          en: 'Coconut Palm Cultivation',
+          sv: 'Odling av kokospalmer',
+          es: 'Cultivo del cocotero',
+          fr: 'Culture du cocotier',
+          de: 'Anbau der Kokospalme',
+          it: 'Coltivazione della palma da cocco',
+          pl: 'Uprawa palmy kokosowej',
+          nl: 'Teelt van de kokospalm',
+          pt: 'Cultivo do coqueiro',
+        },
         description: {
           en: 'Coconut palms were cultivated across islands, providing oil, milk, and fiber, becoming integral to Ni-Vanuatu food culture',
           sv: 'Kokospalmer odlades på hela öarna',
@@ -249,8 +289,28 @@ export const vanuatu: Country = {
         },
       },
       {
-        year: '500 AD',
-        title: 'Seafood and Fishing Mastery',
+        year: {
+          en: '500 AD',
+          sv: '500 e.Kr.',
+          es: '500 d. C.',
+          fr: '500 apr. J.-C.',
+          de: '500 n. Chr.',
+          it: '500 d.C.',
+          pl: '500 n.e.',
+          nl: '500 n.Chr.',
+          pt: '500 d.C.',
+        },
+        title: {
+          en: 'Seafood and Fishing Mastery',
+          sv: 'Fiskekonst och skaldjur',
+          es: 'Maestría en la pesca y el marisco',
+          fr: 'Maîtrise de la pêche et des fruits de mer',
+          de: 'Fischfangkunst und Meeresfrüchte',
+          it: 'Maestria nella pesca e nei frutti di mare',
+          pl: 'Kunszt rybacki i owoce morza',
+          nl: 'Meesterschap in visserij en zeevruchten',
+          pt: 'Maestria na pesca e em frutos do mar',
+        },
         description: {
           en: 'Vanuatu developed sophisticated fishing techniques with canoes and nets, making seafood central dietary component and trade commodity',
           sv: 'Vanuatu utvecklade sofistikerade fiskningsteknik',
@@ -265,7 +325,17 @@ export const vanuatu: Country = {
       },
       {
         year: '1800',
-        title: 'Earth Oven Cooking Traditions',
+        title: {
+          en: 'Earth Oven Cooking Traditions',
+          sv: 'Matlagning i jordugn',
+          es: 'Tradiciones del horno de tierra',
+          fr: 'Traditions de cuisson au four enterré',
+          de: 'Kochtraditionen mit dem Erdofen',
+          it: 'Tradizioni di cottura nel forno interrato',
+          pl: 'Tradycje gotowania w piecu ziemnym',
+          nl: 'Kooktradities met de aardoven',
+          pt: 'Tradições de cozimento em forno subterrâneo',
+        },
         description: {
           en: 'Traditional earth oven (umu) cooking methods became refined, with lap lap and other wrapped dishes cooked in heated volcanic stones',
           sv: 'Traditionell jordugn-matlagning blev förfinad',
@@ -283,7 +353,7 @@ export const vanuatu: Country = {
       {
         name: {
           en: 'Mount Yasur',
-          sv: 'Mount Yasur',
+          sv: 'Vulkanen Yasur',
           es: 'Monte Yasur',
           fr: 'Mont Yasur',
           de: 'Berg Yasur',
@@ -379,7 +449,7 @@ export const vanuatu: Country = {
       {
         name: {
           en: 'Port Vila Markets',
-          sv: 'Port Vila Markets',
+          sv: 'Marknaderna i Port Vila',
           es: 'Mercados de Port Vila',
           fr: 'Marchés de Port-Vila',
           de: 'Port Vila Märkte',
@@ -403,7 +473,17 @@ export const vanuatu: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free entry for most nationalities for stays up to 30 days.',
           sv: 'Visumfritt inträde för de flesta nationaliteter för vistelser upp till 30 dagar.',
@@ -417,7 +497,17 @@ export const vanuatu: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to October (dry season) for best weather and diving conditions.',
           sv: 'Maj till oktober (torrsäsong) för bästa väder och dykförhållanden.',
@@ -431,7 +521,17 @@ export const vanuatu: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights between islands. Boats and limited roads on main islands.',
           sv: 'Inrikesflyg mellan öarna. Båtar och begränsade vägar på huvudöarna.',
@@ -445,7 +545,17 @@ export const vanuatu: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Bislama, English, and French are official. English widely understood.',
           sv: 'Bislama, engelska och franska är officiella. Engelska allmänt förstådd.',
@@ -496,7 +606,17 @@ export const vanuatu: Country = {
           nl: 'Land diving-ritueel',
           pt: 'Ritual do land diving',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Traditional vine jumping ceremony that inspired modern bungee jumping',
           sv: 'Traditionell vinhoppningsceremoni som inspirerade modern bungyjump',
@@ -521,7 +641,17 @@ export const vanuatu: Country = {
           nl: 'Zandtekenkunst',
           pt: 'Arte de desenho na areia',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'UNESCO-recognized ephemeral geometric drawings used for storytelling and communication',
           sv: 'UNESCO-erkända efemära geometriska teckningar som används för berättande och kommunikation',
@@ -546,7 +676,17 @@ export const vanuatu: Country = {
           nl: 'Kastom-systeem',
           pt: 'Sistema Kastom',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Complex customary law system successfully coexisting with modern legal frameworks',
           sv: 'Komplext sedvanerättssystem som framgångsrikt samexisterar med moderna rättsliga ramar',
@@ -564,7 +704,7 @@ export const vanuatu: Country = {
       id: 'vanuatu-main',
       name: {
         en: 'Lap Lap',
-        sv: 'Varv Varv',
+        sv: 'Lap lap',
         es: 'Vuelta Vuelta',
         fr: 'Tour Tour',
         de: 'Runde Runde',
@@ -575,7 +715,7 @@ export const vanuatu: Country = {
       },
       description: {
         en: 'Traditional dish made from grated root vegetables and coconut milk, wrapped and cooked slowly',
-        sv: 'Traditionell rätt gjord av rivna rotfrukter och kokosmjölk, inslagna och långsamt tillagade',
+        sv: 'Traditionell rätt av rivna rotfrukter och kokosmjölk, inslagen i blad och långsamt tillagad',
         es: 'Plato tradicional elaborado con tubérculos rallados y leche de coco, envuelto y cocinado lentamente.',
         fr: 'Plat traditionnel à base de légumes racines râpés et de lait de coco, enveloppé et cuit lentement',
         de: 'Traditionelles Gericht aus geriebenem Wurzelgemüse und Kokosmilch, eingewickelt und langsam gegart',
@@ -602,7 +742,7 @@ export const vanuatu: Country = {
         {
           name: {
             en: 'Yam or taro',
-            sv: 'Yam eller taro',
+            sv: 'Jams eller taro',
             es: 'Ñame o taro',
             fr: 'Igname ou taro',
             de: 'Yamswurzel oder Taro',
@@ -688,7 +828,7 @@ export const vanuatu: Country = {
       steps: [
         {
           en: 'Peel and finely grate the yam/taro and manioc (cassava)',
-          sv: 'Skala och riv yam/taro och maniok (cassava) fint',
+          sv: 'Skala och finriv jams/taro och maniok (kassava)',
           es: 'Pelar y rallar finamente el ñame/taro y la mandioca (yuca)',
           fr: 'Épluchez et râpez finement l\'igname/taro et le manioc (manioc)',
           de: 'Yam/Taro und Maniok (Maniok) schälen und fein reiben',
@@ -699,7 +839,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Mix the grated root vegetables with coconut milk and salt until thick and well combined',
-          sv: 'Blanda de rivna rotfrukterna med kokosmjölk och salt tills de är tjocka och väl blandade',
+          sv: 'Blanda de rivna rotfrukterna med kokosmjölk och salt till en tjock, jämn smet',
           es: 'Mezcle los tubérculos rallados con leche de coco y sal hasta que estén espesos y bien combinados',
           fr: 'Mélangez les légumes-racines râpés avec le lait de coco et le sel jusqu\'à ce qu\'ils soient épais et bien mélangés',
           de: 'Das geriebene Wurzelgemüse mit Kokosmilch und Salz vermischen, bis eine dicke Masse entsteht',
@@ -710,7 +850,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Line a baking dish with banana leaves (or cabbage leaves), letting the leaves hang over the sides',
-          sv: 'Klä en ugnsform med bananblad (eller kålblad), låt bladen hänga över sidorna',
+          sv: 'Klä en ugnsform med bananblad (eller kålblad) och låt bladen hänga över kanterna',
           es: 'Forre una fuente para hornear con hojas de plátano (u hojas de col), dejando que las hojas cuelguen por los lados',
           fr: 'Tapisser un plat allant au four de feuilles de bananier (ou de feuilles de chou), en laissant les feuilles pendre sur les côtés',
           de: 'Eine Auflaufform mit Bananenblättern (oder Kohlblättern) auslegen und die Blätter über den Rand hängen lassen',
@@ -721,7 +861,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Spread the mixture evenly into the lined dish',
-          sv: 'Fördela blandningen jämnt i den fodrade formen',
+          sv: 'Bred ut blandningen jämnt i den bladklädda formen',
           es: 'Extienda la mezcla uniformemente en el plato forrado',
           fr: 'Répartir uniformément le mélange dans le plat tapissé',
           de: 'Verteilen Sie die Mischung gleichmäßig in der mit Backpapier ausgelegten Form',
@@ -732,7 +872,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Fold the leaves over the top to wrap the mixture tightly (add an extra leaf layer if needed)',
-          sv: 'Vik bladen över toppen för att slå in blandningen tätt (lägg till ett extra bladlager om det behövs)',
+          sv: 'Vik bladen över så att blandningen blir tätt inslagen (lägg på ett extra lager blad vid behov)',
           es: 'Dobla las hojas por encima para envolver bien la mezcla (agrega una capa adicional de hojas si es necesario)',
           fr: 'Pliez les feuilles sur le dessus pour bien envelopper le mélange (ajoutez une couche de feuilles supplémentaire si nécessaire)',
           de: 'Falten Sie die Blätter darüber, um die Mischung fest einzuwickeln (fügen Sie bei Bedarf eine zusätzliche Blattschicht hinzu)',
@@ -743,7 +883,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Bake covered at low heat (around 160°C) for about 2 hours, or steam until set and tender',
-          sv: 'Grädda under lock på låg värme (cirka 160°C) i cirka 2 timmar, eller ånga tills det stelnat och mjukt',
+          sv: 'Grädda övertäckt i ugnen på låg värme (ca 160°C) i ca 2 timmar, eller ånga tills smeten har stelnat och är mjuk',
           es: 'Hornee tapado a fuego lento (alrededor de 160 °C) durante aproximadamente 2 horas, o cocine al vapor hasta que esté cuajado y tierno',
           fr: 'Cuire au four à couvert à feu doux (environ 160°C) pendant environ 2 heures, ou cuire à la vapeur jusqu\'à ce que le tout soit pris et tendre',
           de: 'Zugedeckt bei schwacher Hitze (ca. 160 °C) etwa 2 Stunden backen oder dämpfen, bis es fest und zart ist',
@@ -754,7 +894,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Let rest for 10 minutes before slicing',
-          sv: 'Låt vila i 10 minuter innan du skär',
+          sv: 'Låt vila i 10 minuter innan du skär den i bitar',
           es: 'Dejar reposar 10 minutos antes de cortar',
           fr: 'Laisser reposer 10 minutes avant de trancher',
           de: 'Vor dem Schneiden',
@@ -765,7 +905,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Serve warm as a main dish or hearty side (often alongside fish or greens)',
-          sv: 'Servera varm som huvudrätt eller rejäl sida (ofta tillsammans med fisk eller grönt)',
+          sv: 'Servera varm som huvudrätt eller mättande tillbehör (ofta tillsammans med fisk eller bladgrönsaker)',
           es: 'Sirva caliente como plato principal o acompañamiento abundante (a menudo junto con pescado o verduras)',
           fr: 'Servir chaud comme plat principal ou en accompagnement copieux (souvent avec du poisson ou des légumes verts)',
           de: '10 Minuten ruhen lassen Warm als Hauptgericht oder herzhafte Beilage servieren (oft zu Fisch oder Gemüse)',
@@ -781,7 +921,7 @@ export const vanuatu: Country = {
       id: 'vanuatu-dessert',
       name: {
         en: 'Coconut Banana Pudding',
-        sv: 'Kokos Bananpudding',
+        sv: 'Bananpudding med kokos',
         es: 'Pudín de coco y plátano',
         fr: 'Pudding à la banane et à la noix de coco',
         de: 'Kokos-Bananen-Pudding',
@@ -792,7 +932,7 @@ export const vanuatu: Country = {
       },
       description: {
         en: 'A simple island-style dessert of bananas gently cooked with coconut milk and a touch of sweetness, served warm or chilled.',
-        sv: 'En enkel dessert i ö-stil med bananer varsamt kokta med kokosmjölk och en touch av sötma, serverad varm eller kyld.',
+        sv: 'En enkel dessert i östil: bananer som sjuds varsamt i lätt sötad kokosmjölk. Serveras varm eller kall.',
         es: 'Un postre sencillo estilo isleño a base de plátanos cocidos suavemente con leche de coco y un toque de dulzura, que se sirve caliente o frío.',
         fr: 'Un dessert simple de style insulaire composé de bananes délicatement cuites avec du lait de coco et une touche sucrée, servies chaudes ou froides.',
         de: 'Ein einfaches Dessert im Inselstil aus Bananen, schonend gekocht mit Kokosmilch und einem Hauch Süße, warm oder gekühlt serviert.',
@@ -831,7 +971,7 @@ export const vanuatu: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -940,7 +1080,7 @@ export const vanuatu: Country = {
       steps: [
         {
           en: 'Slice bananas into thick coins',
-          sv: 'Skiva bananer i tjocka mynt',
+          sv: 'Skiva bananerna i tjocka slantar',
           es: 'Cortar los plátanos en monedas gruesas',
           fr: 'Coupez les bananes en pièces épaisses',
           de: 'Bananen in dicke Münzen schneiden',
@@ -973,7 +1113,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Add bananas and simmer gently for 6–8 minutes until softened',
-          sv: 'Tillsätt bananer och låt sjuda försiktigt i 6–8 minuter tills de mjuknat',
+          sv: 'Tillsätt bananerna och låt sjuda försiktigt i 6–8 minuter tills de mjuknat',
           es: 'Agregue los plátanos y cocine a fuego lento durante 6 a 8 minutos hasta que se ablanden',
           fr: 'Ajouter les bananes et laisser mijoter doucement pendant 6 à 8 minutes jusqu\'à ce qu\'elles soient ramollies',
           de: 'Bananen hinzufügen und 6–8 Minuten leicht köcheln lassen, bis sie weich sind',
@@ -984,7 +1124,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Remove from heat and add lime zest (optional)',
-          sv: 'Ta bort från värmen och tillsätt limeskal (valfritt)',
+          sv: 'Ta kastrullen från värmen och tillsätt limeskal (valfritt)',
           es: 'Retirar del fuego y agregar ralladura de lima (opcional)',
           fr: 'Retirer du feu et ajouter le zeste de citron vert (facultatif)',
           de: 'Vom Herd nehmen und Limettenschale hinzufügen (optional)',
@@ -995,7 +1135,7 @@ export const vanuatu: Country = {
         },
         {
           en: 'Serve warm, or chill for 1 hour for a thicker pudding-like texture',
-          sv: 'Servera varm eller kall i 1 timme för en tjockare puddingliknande konsistens',
+          sv: 'Servera varm, eller kyl i 1 timme för en tjockare, mer puddinglik konsistens',
           es: 'Sirva tibio o enfríe durante 1 hora para obtener una textura más espesa similar a la de un pudín',
           fr: 'Servir chaud ou réfrigérer pendant 1 heure pour une texture plus épaisse semblable à celle d\'un pudding',
           de: 'Warm servieren oder 1 Stunde kalt stellen, um eine dickere, puddingartige Konsistenz zu erhalten',
@@ -1329,7 +1469,7 @@ export const vanuatu: Country = {
         options: [
           {
             en: 'Mount Yasur',
-            sv: 'Mount Yasur',
+            sv: 'Yasur',
             es: 'Monte Yasur',
             fr: 'Mont Yasur',
             de: 'Berg Yasur',
@@ -1340,7 +1480,7 @@ export const vanuatu: Country = {
           },
           {
             en: 'Mount Fuji',
-            sv: 'Mount Fuji',
+            sv: 'Fuji',
             es: 'Monte Fuji',
             fr: 'Mont Fuji',
             de: 'Berg Fuji',
@@ -1362,7 +1502,7 @@ export const vanuatu: Country = {
           },
           {
             en: 'Mount Agung',
-            sv: 'Mount Agung',
+            sv: 'Agung',
             es: 'Monte Agung',
             fr: 'Mont Agung',
             de: 'Berg Agung',

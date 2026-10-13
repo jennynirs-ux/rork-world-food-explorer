@@ -220,7 +220,17 @@ export const papuaNewGuinea: Country = {
     history: [
       {
         year: '1526',
-        title: 'European Discovery',
+        title: {
+          en: 'European Discovery',
+          sv: 'Europeisk upptäckt',
+          es: 'Descubrimiento por los europeos',
+          fr: 'Découverte par les Européens',
+          de: 'Entdeckung durch Europäer',
+          it: 'Scoperta da parte degli europei',
+          pl: 'Odkrycie przez Europejczyków',
+          nl: 'Ontdekking door Europeanen',
+          pt: 'Descoberta pelos europeus',
+        },
         description: {
           en: 'Portuguese explorer Jorge de Meneses landed on the island.',
           sv: 'Den portugisiske upptäcktsresanden Jorge de Meneses landade på ön.',
@@ -235,7 +245,17 @@ export const papuaNewGuinea: Country = {
       },
       {
         year: '1975',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Papua New Guinea gained independence from Australia.',
           sv: 'Papua Nya Guinea blev självständigt från Australien.',
@@ -262,7 +282,17 @@ export const papuaNewGuinea: Country = {
           nl: 'Culturele Diversiteit',
           pt: 'Diversidade Cultural',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Maintained incredible linguistic and cultural diversity with 800+ languages.',
           sv: 'Upprätthållit en otrolig språklig och kulturell mångfald med 800+ språk.',
@@ -287,7 +317,17 @@ export const papuaNewGuinea: Country = {
           nl: 'Traditionele geneeskunde',
           pt: 'Medicina tradicional',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Rich knowledge of rainforest medicinal plants.',
           sv: 'Rik kunskap om regnskogens medicinalväxter.',
@@ -401,7 +441,7 @@ export const papuaNewGuinea: Country = {
       {
         name: {
           en: 'Sepik River',
-          sv: 'Sepik River',
+          sv: 'Sepikfloden',
           es: 'Río Sepik',
           fr: 'Rivière Sépik',
           de: 'Sepik-Fluss',
@@ -425,7 +465,17 @@ export const papuaNewGuinea: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Exercise caution, especially in Port Moresby. Use reputable guides.',
           sv: 'Var försiktig, särskilt i Port Moresby. Använd seriösa guider.',
@@ -439,7 +489,17 @@ export const papuaNewGuinea: Country = {
         },
       },
       {
-        item: 'Malaria prophylaxis',
+        item: {
+          en: 'Malaria prophylaxis',
+          sv: 'Malariaprofylax',
+          es: 'Profilaxis antimalárica',
+          fr: 'Prophylaxie antipaludique',
+          de: 'Malariaprophylaxe',
+          it: 'Profilassi antimalarica',
+          pl: 'Profilaktyka przeciwmalaryczna',
+          nl: 'Malariaprofylaxe',
+          pt: 'Profilaxia contra a malária',
+        },
         description: {
           en: 'Essential for lowland areas.',
           sv: 'Nödvändigt för låglänta områden.',
@@ -453,7 +513,17 @@ export const papuaNewGuinea: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival available for most nationalities.',
           sv: 'Visum vid ankomst tillgängligt för de flesta nationaliteter.',
@@ -467,7 +537,17 @@ export const papuaNewGuinea: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Credit cards limited outside major hotels.',
           sv: 'Kreditkort är begränsat utanför större hotell.',
@@ -496,7 +576,7 @@ export const papuaNewGuinea: Country = {
       },
       description: {
         en: 'Sweet pudding made from sago palm',
-        sv: 'Söt pudding gjord av sagopalm',
+        sv: 'Söt pudding på sago från sagopalmen',
         es: 'Pudín dulce elaborado con palma de sagú',
         fr: 'Pudding sucré à base de sagoutier',
         de: 'Süßer Pudding aus Sagopalme',
@@ -568,7 +648,7 @@ export const papuaNewGuinea: Country = {
         {
           name: {
             en: 'Pandanus extract',
-            sv: 'Pandanus-extrakt',
+            sv: 'Pandanusextrakt',
             es: 'Extracto de pandano',
             fr: 'Extrait de pandanus',
             de: 'Pandanus-Extrakt',
@@ -595,7 +675,7 @@ export const papuaNewGuinea: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -631,7 +711,7 @@ export const papuaNewGuinea: Country = {
         },
         {
           en: 'Add pandanus extract',
-          sv: 'Lägg till pandanusextrakt',
+          sv: 'Tillsätt pandanusextrakt',
           es: 'Añadir extracto de pandanus',
           fr: 'Ajouter l\'extrait de pandanus',
           de: 'Pandanus-Extrakt hinzufügen',
@@ -642,7 +722,7 @@ export const papuaNewGuinea: Country = {
         },
         {
           en: 'Wrap in banana leaves',
-          sv: 'Slå in bananblad',
+          sv: 'Slå in smeten i bananblad',
           es: 'Envolver en hojas de plátano',
           fr: 'Envelopper dans des feuilles de bananier',
           de: 'In Bananenblätter einwickeln',
@@ -653,7 +733,7 @@ export const papuaNewGuinea: Country = {
         },
         {
           en: 'Steam for 30 minutes',
-          sv: 'Ånga i 30 minuter',
+          sv: 'Ångkoka i 30 minuter',
           es: 'Cocine al vapor durante 30 minutos',
           fr: 'Cuire à la vapeur pendant 30 minutes',
           de: '30 Minuten dämpfen',
@@ -664,7 +744,7 @@ export const papuaNewGuinea: Country = {
         },
         {
           en: 'Cool before serving',
-          sv: 'Kyl innan servering',
+          sv: 'Låt svalna före servering',
           es: 'Dejar enfriar antes de servir',
           fr: 'Laisser refroidir avant de servir',
           de: 'Vor dem Servieren abkühlen lassen',
@@ -691,7 +771,7 @@ export const papuaNewGuinea: Country = {
       },
       description: {
         en: 'Traditional earth oven feast with pork and vegetables',
-        sv: 'Traditionell jordugnsfest med fläsk och grönsaker',
+        sv: 'Traditionell festmåltid tillagad i jordugn, med fläskkött och grönsaker',
         es: 'Festín tradicional al horno de tierra con carne de cerdo y verduras',
         fr: 'Festin traditionnel au four en terre avec du porc et des légumes',
         de: 'Traditionelles Erdofenfest mit Schweinefleisch und Gemüse',
@@ -718,7 +798,7 @@ export const papuaNewGuinea: Country = {
         {
           name: {
             en: 'Pork',
-            sv: 'Fläsk',
+            sv: 'Fläskkött',
             es: 'Cerdo',
             fr: 'Porc',
             de: 'Schweinefleisch',
@@ -788,7 +868,7 @@ export const papuaNewGuinea: Country = {
         {
           name: {
             en: 'Greens',
-            sv: 'Gröna',
+            sv: 'Bladgrönsaker',
             es: 'Verduras',
             fr: 'Légumes verts',
             de: 'Grüne',
@@ -829,7 +909,7 @@ export const papuaNewGuinea: Country = {
       steps: [
         {
           en: 'Dig pit and heat stones in fire',
-          sv: 'Gräv grop och värm stenar i eld',
+          sv: 'Gräv en grop och värm stenar i elden',
           es: 'Cavar un hoyo y calentar piedras al fuego',
           fr: 'Creusez une fosse et faites chauffer les pierres au feu',
           de: 'Grabe eine Grube und erhitze die Steine ​​im Feuer',
@@ -840,7 +920,7 @@ export const papuaNewGuinea: Country = {
         },
         {
           en: 'Line pit with banana leaves',
-          sv: 'Linjegrop med bananblad',
+          sv: 'Klä gropen med bananblad',
           es: 'Forrar el hoyo con hojas de plátano',
           fr: 'Tapisser la fosse de feuilles de bananier',
           de: 'Den Kern mit Bananenblättern auslegen',
@@ -862,7 +942,7 @@ export const papuaNewGuinea: Country = {
         },
         {
           en: 'Add hot stones between layers',
-          sv: 'Lägg varma stenar mellan lagren',
+          sv: 'Lägg heta stenar mellan lagren',
           es: 'Agrega piedras calientes entre capas',
           fr: 'Ajoutez des pierres chaudes entre les couches',
           de: 'Zwischen den Schichten heiße Steine ​​hinzufügen',
@@ -873,7 +953,7 @@ export const papuaNewGuinea: Country = {
         },
         {
           en: 'Cover with leaves and earth',
-          sv: 'Täck med löv och jord',
+          sv: 'Täck med blad och jord',
           es: 'Cubrir con hojas y tierra',
           fr: 'Couvrir de feuilles et de terre',
           de: 'Mit Blättern und Erde bedecken',
@@ -884,7 +964,7 @@ export const papuaNewGuinea: Country = {
         },
         {
           en: 'Cook for 3 hours then uncover',
-          sv: 'Koka i 3 timmar och avtäck sedan',
+          sv: 'Låt tillagas i 3 timmar och öppna sedan gropen',
           es: 'Cocine durante 3 horas y luego destape',
           fr: 'Cuire 3 heures puis découvrir',
           de: '3 Stunden kochen lassen, dann aufdecken',

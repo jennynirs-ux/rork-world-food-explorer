@@ -264,7 +264,17 @@ export const benin: Country = {
     history: [
       {
         year: '1600-1894',
-        title: 'Kingdom of Dahomey',
+        title: {
+          en: 'Kingdom of Dahomey',
+          sv: 'Kungariket Dahomey',
+          es: 'Reino de Dahomey',
+          fr: 'Royaume du Dahomey',
+          de: 'Königreich Dahomey',
+          it: 'Regno del Dahomey',
+          pl: 'Królestwo Dahomeju',
+          nl: 'Koninkrijk Dahomey',
+          pt: 'Reino do Daomé',
+        },
         description: {
           en: 'A powerful West African kingdom known for its military prowess, especially the all-female Agojie (Amazon Warriors), and its wealth from trade.',
           sv: 'Ett mäktigt västafrikanskt kungadöme känt för sin militära styrka, särskilt de kvinnliga krigarna Agojie (amasonerna), och för sin rikedom från handel.',
@@ -279,7 +289,17 @@ export const benin: Country = {
       },
       {
         year: '1892-1894',
-        title: 'French Conquest',
+        title: {
+          en: 'French Conquest',
+          sv: 'Fransk erövring',
+          es: 'Conquista francesa',
+          fr: 'Conquête française',
+          de: 'Französische Eroberung',
+          it: 'Conquista francese',
+          pl: 'Podbój francuski',
+          nl: 'Franse verovering',
+          pt: 'Conquista francesa',
+        },
         description: {
           en: 'France conquered the Kingdom of Dahomey after fierce resistance, establishing colonial rule over the region.',
           sv: 'Frankrike erövrade kungariket Dahomey efter hårt motstånd och etablerade kolonialt styre över regionen.',
@@ -294,7 +314,17 @@ export const benin: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Benin gained independence from France as the Republic of Dahomey.',
           sv: 'Benin blev självständigt från Frankrike som Republiken Dahomey.',
@@ -309,7 +339,17 @@ export const benin: Country = {
       },
       {
         year: '1975',
-        title: 'Name Change to Benin',
+        title: {
+          en: 'Name Change to Benin',
+          sv: 'Namnbyte till Benin',
+          es: 'Cambio de nombre a Benín',
+          fr: 'Adoption du nom Bénin',
+          de: 'Umbenennung in Benin',
+          it: 'Cambio di nome in Benin',
+          pl: 'Zmiana nazwy na Benin',
+          nl: 'Omdoping tot Benin',
+          pt: 'Mudança de nome para Benin',
+        },
         description: {
           en: 'The country changed its name from Dahomey to the People\'s Republic of Benin, referencing the historic Benin Empire.',
           sv: 'Landet bytte namn från Dahomey till Folkrepubliken Benin, med hänvisning till det historiska Beninriket.',
@@ -324,7 +364,17 @@ export const benin: Country = {
       },
       {
         year: '1990',
-        title: 'Democratic Transition',
+        title: {
+          en: 'Democratic Transition',
+          sv: 'Övergång till demokrati',
+          es: 'Transición democrática',
+          fr: 'Transition démocratique',
+          de: 'Übergang zur Demokratie',
+          it: 'Transizione democratica',
+          pl: 'Przejście do demokracji',
+          nl: 'Overgang naar democratie',
+          pt: 'Transição democrática',
+        },
         description: {
           en: 'Benin transitioned to multi-party democracy, becoming a model for democratic reform in West Africa.',
           sv: 'Benin övergick till flerpartidemokrati och blev en modell för demokratiska reformer i Västafrika.',
@@ -351,7 +401,17 @@ export const benin: Country = {
           nl: 'Vodun-religie (voodoo)',
           pt: 'Religião vodum (vodu)',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Benin is the birthplace of Vodun, a complex spiritual system that spread to the Caribbean and Americas, influencing cultures worldwide.',
           sv: 'Benin är födelseplatsen för Vodun, ett komplext andligt system som spred sig till Karibien och Amerika och påverkade kulturer över hela världen.',
@@ -376,7 +436,17 @@ export const benin: Country = {
           nl: 'Amazonekrijgsters',
           pt: 'Guerreiras Amazonas',
         },
-        year: '17th-19th Century',
+        year: {
+          en: '17th-19th Century',
+          sv: '1600–1800-talet',
+          es: 'siglos XVII–XIX',
+          fr: 'XVIIe–XIXe siècles',
+          de: '17.–19. Jahrhundert',
+          it: 'XVII–XIX secolo',
+          pl: 'XVII–XIX wiek',
+          nl: '17e–19e eeuw',
+          pt: 'séculos XVII–XIX',
+        },
         description: {
           en: 'The Kingdom of Dahomey created an elite all-female military unit, the Agojie, who fought alongside male soldiers and became legendary.',
           sv: 'Konungariket Dahomey skapade en elit-helkvinnlig militärenhet, Agojie, som kämpade tillsammans med manliga soldater och blev legendarisk.',
@@ -401,7 +471,17 @@ export const benin: Country = {
           nl: 'Paalwoningarchitectuur',
           pt: 'Arquitetura de vilarejos sobre palafitas',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Communities built entire villages on stilts over Lake Nokoué, creating unique floating settlements adapted to aquatic life.',
           sv: 'Samhällen byggde hela byar på pålar över sjön Nokoué och skapade unika flytande bosättningar anpassade till vattenlivet.',
@@ -444,7 +524,7 @@ export const benin: Country = {
       {
         name: {
           en: 'Ganvié Stilt Village',
-          sv: 'Ganvié Stilt Village',
+          sv: 'Pålbyn Ganvié',
           es: 'Pueblo sobre pilotes de Ganvié',
           fr: 'Village sur pilotis de Ganvié',
           de: 'Ganvié Stelzendorf',
@@ -540,7 +620,7 @@ export const benin: Country = {
       {
         name: {
           en: 'Python Temple',
-          sv: 'Python Temple',
+          sv: 'Pytontemplet',
           es: 'Templo de Pitón',
           fr: 'Temple des Pythons',
           de: 'Python-Tempel',
@@ -564,7 +644,17 @@ export const benin: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to February for dry season with cooler temperatures.',
           sv: 'November till februari för torrsäsong med svalare temperaturer.',
@@ -578,7 +668,17 @@ export const benin: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa; e-visa available for many nationalities.',
           sv: 'De flesta besökare behöver visum; e-visum tillgängligt för många nationaliteter.',
@@ -592,7 +692,17 @@ export const benin: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'French is official; Fon and Yoruba widely spoken locally.',
           sv: 'Franska är officiellt; Fon och Yoruba talas mycket lokalt.',
@@ -630,7 +740,17 @@ export const benin: Country = {
         },
       },
       {
-        item: 'Health precautions',
+        item: {
+          en: 'Health precautions',
+          sv: 'Hälsoråd',
+          es: 'Precauciones sanitarias',
+          fr: 'Précautions sanitaires',
+          de: 'Gesundheitsvorsorge',
+          it: 'Precauzioni sanitarie',
+          pl: 'Profilaktyka zdrowotna',
+          nl: 'Gezondheidsmaatregelen',
+          pt: 'Cuidados com a saúde',
+        },
         description: {
           en: 'Yellow fever vaccination required. Malaria prophylaxis recommended.',
           sv: 'Vaccination mot gula febern krävs. Malariaprofylax rekommenderas.',
@@ -644,7 +764,17 @@ export const benin: Country = {
         },
       },
       {
-        item: 'Respect for traditions',
+        item: {
+          en: 'Respect for traditions',
+          sv: 'Respekt för traditioner',
+          es: 'Respeto por las tradiciones',
+          fr: 'Respect des traditions',
+          de: 'Traditionen respektieren',
+          it: 'Rispetto delle tradizioni',
+          pl: 'Szacunek dla tradycji',
+          nl: 'Respect voor tradities',
+          pt: 'Respeito às tradições',
+        },
         description: {
           en: 'Vodun is deeply respected; seek permission before photographing ceremonies.',
           sv: 'Vodun är djupt respekterad; sök tillstånd innan du fotograferar ceremonier.',
@@ -661,7 +791,7 @@ export const benin: Country = {
     mainDish: {
       id: 'benin-main',
       name: {
-        en: 'Amiwo',
+        en: 'Kuli-Kuli',
         sv: 'Kuli-Kuli',
         es: 'Kuli-Kuli',
         fr: 'Kuli-Kuli',
@@ -672,15 +802,15 @@ export const benin: Country = {
         pt: 'Kuli-Kuli',
       },
       description: {
-        en: 'Beninese cornmeal porridge served with a rich tomato and crab sauce, a beloved traditional main dish.',
-        sv: 'Kryddade stekta jordnötskakor',
-        es: 'Pasteles de maní fritos con especias',
-        fr: 'Gâteaux aux cacahuètes frits épicés',
-        de: 'Gewürzte frittierte Erdnusskuchen',
-        it: 'Spiced fried peanut cakes',
-        pl: 'Spiced fried peanut cakes',
-        nl: 'Spiced fried peanut cakes',
-        pt: 'Spiced fried peanut cakes',
+        en: 'Crunchy fried peanut cakes seasoned with ginger and cayenne pepper',
+        sv: 'Krispiga friterade jordnötskakor kryddade med ingefära och cayennepeppar',
+        es: 'Crujientes bocaditos fritos de maní sazonados con jengibre y pimienta de cayena',
+        fr: 'Galettes de cacahuètes frites et croustillantes, relevées de gingembre et de piment de Cayenne',
+        de: 'Knusprig frittierte Erdnussküchlein, gewürzt mit Ingwer und Cayennepfeffer',
+        it: 'Croccanti bocconcini di arachidi fritti, insaporiti con zenzero e pepe di Cayenna',
+        pl: 'Chrupiące smażone placuszki z orzeszków ziemnych, doprawione imbirem i pieprzem cayenne',
+        nl: 'Knapperige gefrituurde pindakoekjes, gekruid met gember en cayennepeper',
+        pt: 'Bolinhos de amendoim fritos e crocantes, temperados com gengibre e pimenta-caiena',
       },
       cookingTime: 45,
       difficulty: 'medium',
@@ -775,10 +905,10 @@ export const benin: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
-            de: 'Pflanzenöl zum Braten',
+            de: 'Pflanzenöl zum Frittieren',
             it: 'Olio vegetale per friggere',
             pl: 'Olej roślinny do smażenia',
             nl: 'Plantaardige olie om te frituren',
@@ -791,7 +921,7 @@ export const benin: Country = {
       steps: [
         {
           en: 'Grind roasted peanuts into paste',
-          sv: 'Mal rostade jordnötter till pasta',
+          sv: 'Mal de rostade jordnötterna till en jämn massa',
           es: 'Moler maní tostado hasta obtener una pasta.',
           fr: 'Moudre les cacahuètes grillées en pâte',
           de: 'Geröstete Erdnüsse zu einer Paste zermahlen',
@@ -802,7 +932,7 @@ export const benin: Country = {
         },
         {
           en: 'Extract excess oil from paste',
-          sv: 'Extrahera överflödig olja från pastan',
+          sv: 'Pressa ut överflödig olja ur massan',
           es: 'Extraer el exceso de aceite de la pasta',
           fr: 'Extraire l\'excès d\'huile de la pâte',
           de: 'Überschüssiges Öl aus der Paste entfernen',
@@ -824,7 +954,7 @@ export const benin: Country = {
         },
         {
           en: 'Form into small cakes or sticks',
-          sv: 'Forma till små kakor eller stavar',
+          sv: 'Forma pastan till små kakor eller stänger',
           es: 'Forme pequeños pasteles o palitos',
           fr: 'Former des petits gâteaux ou des bâtonnets',
           de: 'Zu kleinen Küchlein oder Stäbchen formen',
@@ -873,7 +1003,7 @@ export const benin: Country = {
       },
       description: {
         en: 'Sweet fried dough balls, popular West African snack',
-        sv: 'Sötstekta degbollar, populärt västafrikanskt mellanmål',
+        sv: 'Söta friterade degbollar, ett populärt västafrikanskt mellanmål',
         es: 'Bolas de masa dulce frita, snack popular de África Occidental',
         fr: 'Boulettes de pâte frites sucrées, collation populaire ouest-africaine',
         de: 'Süße frittierte Teigbällchen, beliebter westafrikanischer Snack',
@@ -900,7 +1030,7 @@ export const benin: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -930,7 +1060,7 @@ export const benin: Country = {
         {
           name: {
             en: 'Active dry yeast',
-            sv: 'Aktiv torrjäst',
+            sv: 'Torrjäst',
             es: 'Levadura seca activa',
             fr: 'Levure sèche active',
             de: 'Aktive Trockenhefe',
@@ -990,7 +1120,7 @@ export const benin: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -1006,7 +1136,7 @@ export const benin: Country = {
       steps: [
         {
           en: 'Mix yeast with warm water and 1 tbsp sugar, let foam for 10 minutes.',
-          sv: 'Blanda jäst med varmt vatten och 1 msk socker, låt skumma i 10 minuter.',
+          sv: 'Rör ut torrjästen i ljummet vatten med 1 msk av sockret och låt stå i 10 minuter tills det skummar.',
           es: 'Mezclar la levadura con agua tibia y 1 cucharada de azúcar, dejar espumar durante 10 minutos.',
           fr: 'Mélangez la levure avec de l\'eau tiède et 1 cuillère à soupe de sucre, laissez mousser 10 minutes.',
           de: 'Hefe mit warmem Wasser und 1 EL Zucker verrühren, 10 Minuten schäumen lassen.',
@@ -1017,7 +1147,7 @@ export const benin: Country = {
         },
         {
           en: 'Combine flour, remaining sugar, salt, and nutmeg in bowl.',
-          sv: 'Blanda mjöl, resterande socker, salt och muskotnöt i en skål.',
+          sv: 'Blanda vetemjöl, resten av sockret, salt och muskotnöt i en skål.',
           es: 'Combine la harina, el azúcar restante, la sal y la nuez moscada en un tazón.',
           fr: 'Mélanger la farine, le reste du sucre, le sel et la muscade dans un bol.',
           de: 'Mehl, restlichen Zucker, Salz und Muskatnuss in einer Schüssel vermischen.',
@@ -1028,7 +1158,7 @@ export const benin: Country = {
         },
         {
           en: 'Add yeast mixture, mix into smooth batter.',
-          sv: 'Tillsätt jästblandningen, blanda till en slät smet.',
+          sv: 'Tillsätt jästblandningen och rör ihop till en slät smet.',
           es: 'Agregue la mezcla de levadura y mezcle hasta obtener una masa suave.',
           fr: 'Ajouter le mélange de levure, mélanger à une pâte lisse.',
           de: 'Hefemischung hinzufügen und zu einem glatten Teig verrühren.',
@@ -1050,7 +1180,7 @@ export const benin: Country = {
         },
         {
           en: 'Heat oil to 180°C in deep pot.',
-          sv: 'Hetta upp olja till 180°C i djup kastrull.',
+          sv: 'Hetta upp oljan till 180°C i en djup kastrull.',
           es: 'Calienta el aceite a 180°C en una olla profunda.',
           fr: 'Chauffer l\'huile à 180°C dans une casserole profonde.',
           de: 'Öl in einem tiefen Topf auf 180 °C erhitzen.',
@@ -1061,7 +1191,7 @@ export const benin: Country = {
         },
         {
           en: 'Drop spoonfuls of batter into hot oil.',
-          sv: 'Häll ner skedar smet i het olja.',
+          sv: 'Klicka ner smeten med en sked i den heta oljan.',
           es: 'Eche cucharadas de masa en aceite caliente.',
           fr: 'Déposez des cuillerées de pâte dans l\'huile chaude.',
           de: 'Geben Sie einen Löffel Teig in das heiße Öl.',
@@ -1072,7 +1202,7 @@ export const benin: Country = {
         },
         {
           en: 'Fry for 3-4 minutes, turning until golden brown all over.',
-          sv: 'Stek i 3-4 minuter, vänd tills den är gyllenbrun överallt.',
+          sv: 'Fritera i 3–4 minuter och vänd bollarna tills de är gyllenbruna runt om.',
           es: 'Freír durante 3-4 minutos, volteando hasta que estén dorados por todas partes.',
           fr: 'Faire frire pendant 3 à 4 minutes, en retournant jusqu\'à ce qu\'ils soient dorés partout.',
           de: '3-4 Minuten braten, dabei wenden, bis alles goldbraun ist.',
@@ -1083,7 +1213,7 @@ export const benin: Country = {
         },
         {
           en: 'Remove with slotted spoon, drain on paper towels.',
-          sv: 'Ta bort med hålslev, låt rinna av på hushållspapper.',
+          sv: 'Lyft upp med hålslev och låt rinna av på hushållspapper.',
           es: 'Retirar con una espumadera y escurrir sobre toallas de papel.',
           fr: 'Retirer avec une écumoire, égoutter sur du papier absorbant.',
           de: 'Mit einem Schaumlöffel herausnehmen und auf Küchenpapier abtropfen lassen.',
@@ -1094,7 +1224,7 @@ export const benin: Country = {
         },
         {
           en: 'Optional: roll in sugar while warm.',
-          sv: 'Valfritt: rulla i socker medan det är varmt.',
+          sv: 'Valfritt: rulla bollarna i socker medan de är varma.',
           es: 'Opcional: rebozar en azúcar mientras esté caliente.',
           fr: 'Facultatif : rouler dans le sucre tiède.',
           de: 'Optional: Den Zucker noch warm wälzen.',
@@ -1105,7 +1235,7 @@ export const benin: Country = {
         },
         {
           en: 'Serve warm or at room temperature.',
-          sv: 'Servera varm eller i rumstemperatur.',
+          sv: 'Servera varma eller rumstempererade.',
           es: 'Servir tibio o a temperatura ambiente.',
           fr: 'Servir tiède ou à température ambiante.',
           de: 'Warm oder bei Zimmertemperatur servieren.',
@@ -1257,7 +1387,7 @@ export const benin: Country = {
           },
           {
             en: 'Vodun (Voodoo)',
-            sv: 'Vodun (Voodoo)',
+            sv: 'Vodun (voodoo)',
             es: 'Vodún (vudú)',
             fr: 'Vodun (Vaudou)',
             de: 'Vodun (Voodoo)',
@@ -1368,7 +1498,7 @@ export const benin: Country = {
           },
           {
             en: 'Amazon Women (Agojie)',
-            sv: 'Amazon Women (Agojie)',
+            sv: 'Amasonerna (Agojie)',
             es: 'Mujeres Amazonas (Agojie)',
             fr: 'Femmes amazoniennes (Agojie)',
             de: 'Amazonas-Frauen (Agojie)',
@@ -1379,7 +1509,7 @@ export const benin: Country = {
           },
           {
             en: 'Shield Maidens',
-            sv: 'Shield Maidens',
+            sv: 'Sköldmör',
             es: 'Doncellas Escudo',
             fr: 'Jeunes filles du bouclier',
             de: 'Schildmädchen',
@@ -1533,7 +1663,7 @@ export const benin: Country = {
           },
           {
             en: 'Freedom Arch',
-            sv: 'Freedom Arch',
+            sv: 'Frihetsbågen',
             es: 'Arco de la Libertad',
             fr: 'Arche de la Liberté',
             de: 'Freiheitsbogen',
@@ -1594,7 +1724,7 @@ export const benin: Country = {
           },
           {
             en: 'Porto-Novo Palace',
-            sv: 'Porto-Novo Palace',
+            sv: 'Palatset i Porto-Novo',
             es: 'Palacio de Porto Novo',
             fr: 'Palais de Porto Novo',
             de: 'Porto-Novo-Palast',
@@ -1654,7 +1784,7 @@ export const benin: Country = {
           },
           {
             en: 'W National Park',
-            sv: 'W National Park',
+            sv: 'W nationalpark',
             es: 'Parque Nacional W',
             fr: 'Parc national W',
             de: 'W-Nationalpark',
@@ -1665,7 +1795,7 @@ export const benin: Country = {
           },
           {
             en: 'Nokoué Reserve',
-            sv: 'Nokoué Reserve',
+            sv: 'Nokouéreservatet',
             es: 'Reserva Nokoué',
             fr: 'Réserve de Nokoué',
             de: 'Nokoué-Reservat',
@@ -1676,7 +1806,7 @@ export const benin: Country = {
           },
           {
             en: 'Abomey Park',
-            sv: 'Abomey Park',
+            sv: 'Abomeyparken',
             es: 'Parque Abomey',
             fr: 'Parc d\'Abomey',
             de: 'Abomey Park',

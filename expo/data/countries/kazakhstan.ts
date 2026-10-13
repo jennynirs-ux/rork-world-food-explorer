@@ -125,7 +125,7 @@ export const kazakhstan: Country = {
         },
         value: {
           en: 'Kazakhstani Tenge',
-          sv: 'Kazakhstani Tenge',
+          sv: 'Kazakstansk tenge',
           es: 'Tenge kazajo',
           fr: 'Tenge kazakh',
           de: 'Kasachischer Tenge',
@@ -219,8 +219,28 @@ export const kazakhstan: Country = {
     },
     history: [
       {
-        year: '1st Millennium BC',
-        title: 'Nomadic Tribes',
+        year: {
+          en: '1st Millennium BC',
+          sv: 'Första årtusendet f.Kr.',
+          es: 'I milenio a. C.',
+          fr: 'Ier millénaire av. J.-C.',
+          de: '1. Jahrtausend v. Chr.',
+          it: 'I millennio a.C.',
+          pl: 'I tysiąclecie p.n.e.',
+          nl: '1e millennium v.Chr.',
+          pt: 'I milênio a.C.',
+        },
+        title: {
+          en: 'Nomadic Tribes',
+          sv: 'Nomadstammar',
+          es: 'Tribus nómadas',
+          fr: 'Tribus nomades',
+          de: 'Nomadenstämme',
+          it: 'Tribù nomadi',
+          pl: 'Plemiona koczownicze',
+          nl: 'Nomadische stammen',
+          pt: 'Tribos nômades',
+        },
         description: {
           en: 'The Kazakh steppes were home to nomadic tribes and key Silk Road trade routes.',
           sv: 'De kazakiska stäpperna var hem för nomadstammar och viktiga handelsvägar från Sidenvägen.',
@@ -235,7 +255,17 @@ export const kazakhstan: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Kazakhstan gained independence from the Soviet Union, becoming the last Soviet republic to do so.',
           sv: 'Kazakstan blev självständigt från Sovjetunionen och blev den sista sovjetrepubliken att göra det.',
@@ -287,7 +317,17 @@ export const kazakhstan: Country = {
           nl: 'Nomadische architectuur',
           pt: 'Arquitetura nômade',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Development of the yurt, a portable dwelling perfect for nomadic lifestyles.',
           sv: 'Utveckling av jurtan, en bärbar bostad perfekt för nomadiska livsstilar.',
@@ -312,7 +352,17 @@ export const kazakhstan: Country = {
           nl: 'Jagen met arenden',
           pt: 'Caça com águias',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Traditional Kazakh method of hunting with trained golden eagles.',
           sv: 'Traditionell kazakisk jaktmetod med tränade kungsörnar.',
@@ -378,7 +428,7 @@ export const kazakhstan: Country = {
       {
         name: {
           en: 'Charyn Canyon',
-          sv: 'Charyn Canyon',
+          sv: 'Charynkanjonen',
           es: 'Cañón Charyn',
           fr: 'Canyon de Charyn',
           de: 'Charyn Canyon',
@@ -450,7 +500,17 @@ export const kazakhstan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for pleasant weather; winters are extremely cold.',
           sv: 'Maj-september för behagligt väder; vintrarna är extremt kalla.',
@@ -464,7 +524,17 @@ export const kazakhstan: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can enter visa-free for short stays.',
           sv: 'Många nationaliteter kan resa in visumfritt för kortare vistelser.',
@@ -478,7 +548,17 @@ export const kazakhstan: Country = {
         },
       },
       {
-        item: 'Warm clothing',
+        item: {
+          en: 'Warm clothing',
+          sv: 'Varma kläder',
+          es: 'Ropa de abrigo',
+          fr: 'Vêtements chauds',
+          de: 'Warme Kleidung',
+          it: 'Abiti caldi',
+          pl: 'Ciepła odzież',
+          nl: 'Warme kleding',
+          pt: 'Roupas de frio',
+        },
         description: {
           en: 'Essential for winter visits, temperatures can drop to -40°C.',
           sv: 'Viktigt för vinterbesök, temperaturen kan sjunka till -40°C.',
@@ -492,7 +572,17 @@ export const kazakhstan: Country = {
         },
       },
       {
-        item: 'Russian phrases',
+        item: {
+          en: 'Russian phrases',
+          sv: 'Ryska fraser',
+          es: 'Frases en ruso',
+          fr: 'Expressions en russe',
+          de: 'Russische Redewendungen',
+          it: 'Frasi in russo',
+          pl: 'Zwroty po rosyjsku',
+          nl: 'Russische zinnen',
+          pt: 'Frases em russo',
+        },
         description: {
           en: 'Russian is widely spoken alongside Kazakh.',
           sv: 'Ryska talas allmänt vid sidan av kazakiska.',
@@ -521,7 +611,7 @@ export const kazakhstan: Country = {
       },
       description: {
         en: 'Traditional fried dough balls, often served with tea',
-        sv: 'Traditionella stekta degbollar, ofta serverade med te',
+        sv: 'Traditionella friterade degbollar som ofta serveras till te',
         es: 'Bolas de masa fritas tradicionales, a menudo servidas con té',
         fr: 'Boulettes de pâte frites traditionnelles, souvent servies avec du thé',
         de: 'Traditionelle frittierte Teigbällchen, oft serviert mit Tee',
@@ -548,7 +638,7 @@ export const kazakhstan: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -590,7 +680,7 @@ export const kazakhstan: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -648,7 +738,7 @@ export const kazakhstan: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -664,7 +754,7 @@ export const kazakhstan: Country = {
       steps: [
         {
           en: 'Warm milk and dissolve yeast with sugar',
-          sv: 'Värm mjölk och lös upp jäst med socker',
+          sv: 'Värm mjölken och rör ut jästen och sockret i den',
           es: 'Calentar la leche y disolver la levadura con el azúcar',
           fr: 'Faire chauffer le lait et dissoudre la levure avec le sucre',
           de: 'Milch erwärmen und Hefe mit Zucker auflösen',
@@ -675,7 +765,7 @@ export const kazakhstan: Country = {
         },
         {
           en: 'Mix in eggs and melted butter',
-          sv: 'Blanda i ägg och smält smör',
+          sv: 'Rör ner äggen och det smälta smöret',
           es: 'Incorpora los huevos y la mantequilla derretida',
           fr: 'Incorporer les œufs et le beurre fondu',
           de: 'Eier und zerlassene Butter untermischen',
@@ -686,7 +776,7 @@ export const kazakhstan: Country = {
         },
         {
           en: 'Add flour gradually, knead into soft dough',
-          sv: 'Tillsätt mjöl gradvis, knåda till en mjuk deg',
+          sv: 'Tillsätt mjölet lite i taget och knåda till en smidig deg',
           es: 'Agregue la harina gradualmente, amase hasta obtener una masa suave',
           fr: 'Ajouter progressivement la farine, pétrir jusqu\'à obtenir une pâte molle',
           de: 'Mehl nach und nach hinzufügen, zu einem weichen Teig kneten',
@@ -697,7 +787,7 @@ export const kazakhstan: Country = {
         },
         {
           en: 'Let rise for 1 hour until doubled',
-          sv: 'Låt jäsa i 1 timme tills det fördubblas',
+          sv: 'Låt degen jäsa i 1 timme, tills den har fördubblats i storlek',
           es: 'Dejar reposar durante 1 hora hasta que doble',
           fr: 'Laisser lever 1 heure jusqu\'à ce qu\'il double',
           de: '1 Stunde gehen lassen, bis sich der Teig verdoppelt hat',
@@ -708,7 +798,7 @@ export const kazakhstan: Country = {
         },
         {
           en: 'Roll out and cut into small squares or diamonds',
-          sv: 'Kavla ut och skär i små rutor eller diamanter',
+          sv: 'Kavla ut degen och skär den i små rutor eller romber',
           es: 'Estirar y cortar en pequeños cuadrados o rombos',
           fr: 'Étalez et coupez en petits carrés ou losanges',
           de: 'Ausrollen und in kleine Quadrate oder Rauten schneiden',
@@ -730,7 +820,7 @@ export const kazakhstan: Country = {
         },
         {
           en: 'Drain and serve warm with honey or jam',
-          sv: 'Låt rinna av och servera varmt med honung eller sylt',
+          sv: 'Låt rinna av på hushållspapper och servera varma med honung eller sylt',
           es: 'Escurrir y servir caliente con miel o mermelada',
           fr: 'Égoutter et servir chaud avec du miel ou de la confiture',
           de: 'Abgießen und warm mit Honig oder Marmelade servieren',
@@ -799,7 +889,7 @@ export const kazakhstan: Country = {
         {
           name: {
             en: 'Fresh pasta sheets',
-            sv: 'Färska pastaark',
+            sv: 'Färska pastaplattor',
             es: 'Hojas de pasta fresca',
             fr: 'Feuilles de pâtes fraîches',
             de: 'Frische Nudelblätter',
@@ -826,7 +916,7 @@ export const kazakhstan: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -851,7 +941,7 @@ export const kazakhstan: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -895,7 +985,7 @@ export const kazakhstan: Country = {
       steps: [
         {
           en: 'Boil meat with bay leaves until very tender',
-          sv: 'Koka kött med lagerblad tills det är mycket mört',
+          sv: 'Koka köttet med lagerbladen tills det är mycket mört',
           es: 'Hervir la carne con las hojas de laurel hasta que esté muy tierna',
           fr: 'Faire bouillir la viande avec des feuilles de laurier jusqu\'à ce qu\'elle soit très tendre',
           de: 'Fleisch mit Lorbeerblättern kochen, bis es sehr zart ist',
@@ -906,7 +996,7 @@ export const kazakhstan: Country = {
         },
         {
           en: 'Cut pasta into squares and boil in broth',
-          sv: 'Skär pastan i rutor och koka i buljong',
+          sv: 'Skär pastaplattorna i rutor och koka dem i buljongen',
           es: 'Cortar la pasta en cuadritos y hervir en caldo',
           fr: 'Couper la pâte en carrés et la cuire dans le bouillon',
           de: 'Nudeln in Quadrate schneiden und in Brühe kochen',
@@ -928,7 +1018,7 @@ export const kazakhstan: Country = {
         },
         {
           en: 'Layer noodles on large platter',
-          sv: 'Lägg nudlar på ett stort fat',
+          sv: 'Bred ut pastarutorna på ett stort fat',
           es: 'Coloque los fideos en capas en un plato grande',
           fr: 'Disposer les pâtes sur un grand plat',
           de: 'Nudeln auf einer großen Platte schichten',
@@ -939,7 +1029,7 @@ export const kazakhstan: Country = {
         },
         {
           en: 'Top with meat and raw onions',
-          sv: 'Toppa med kött och rå lök',
+          sv: 'Lägg köttet och rå lök ovanpå',
           es: 'Cubra con carne y cebollas crudas',
           fr: 'Garnir de viande et d\'oignons crus',
           de: 'Mit Fleisch und rohen Zwiebeln belegen',
@@ -950,7 +1040,7 @@ export const kazakhstan: Country = {
         },
         {
           en: 'Pour broth over and garnish with dill',
-          sv: 'Häll buljong över och garnera med dill',
+          sv: 'Häll över lite buljong och garnera med dill',
           es: 'Vierta el caldo y decore con eneldo',
           fr: 'Verser le bouillon dessus et garnir d\'aneth',
           de: 'Mit der Brühe übergießen und mit Dill',
@@ -1173,7 +1263,7 @@ export const kazakhstan: Country = {
           },
           {
             en: 'Plesetsk Cosmodrome',
-            sv: 'Plesetsk Cosmodrome',
+            sv: 'Rymdbasen Plesetsk',
             es: 'Cosmódromo de Plesetsk',
             fr: 'Cosmodrome de Plesetsk',
             de: 'Kosmodrom Plessezk',
@@ -1334,7 +1424,7 @@ export const kazakhstan: Country = {
           },
           {
             en: 'Golden Eagle',
-            sv: 'Golden Eagle',
+            sv: 'Kungsörn',
             es: 'Águila real',
             fr: 'Aigle royal',
             de: 'Steinadler',

@@ -253,7 +253,17 @@ export const trinidadAndTobago: Country = {
     history: [
       {
         year: '1498',
-        title: 'European Contact',
+        title: {
+          en: 'European Contact',
+          sv: 'Kontakt med européer',
+          es: 'Contacto con los europeos',
+          fr: 'Contact avec les Européens',
+          de: 'Kontakt mit Europäern',
+          it: 'Contatto con gli europei',
+          pl: 'Kontakt z Europejczykami',
+          nl: 'Contact met Europeanen',
+          pt: 'Contato com os europeus',
+        },
         description: {
           en: 'Christopher Columbus encountered Trinidad during his third voyage, initiating centuries of European influence.',
           sv: 'Christopher Columbus mötte Trinidad under sin tredje resa, vilket inledde århundraden av europeiskt inflytande.',
@@ -268,7 +278,17 @@ export const trinidadAndTobago: Country = {
       },
       {
         year: '1797',
-        title: 'British Control',
+        title: {
+          en: 'British Control',
+          sv: 'Brittisk kontroll',
+          es: 'Control británico',
+          fr: 'Contrôle britannique',
+          de: 'Britische Kontrolle',
+          it: 'Controllo britannico',
+          pl: 'Kontrola brytyjska',
+          nl: 'Brits gezag',
+          pt: 'Controle britânico',
+        },
         description: {
           en: 'Trinidad came under British control, shaping administration, language, and institutions.',
           sv: 'Trinidad kom under brittisk kontroll, formade administration, språk och institutioner.',
@@ -283,7 +303,17 @@ export const trinidadAndTobago: Country = {
       },
       {
         year: '1962',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Trinidad and Tobago gained independence, beginning a new era as a sovereign nation.',
           sv: 'Trinidad och Tobago fick självständighet och inledde en ny era som en suverän nation.',
@@ -298,7 +328,17 @@ export const trinidadAndTobago: Country = {
       },
       {
         year: '1976',
-        title: 'Republic',
+        title: {
+          en: 'Republic',
+          sv: 'Republik',
+          es: 'República',
+          fr: 'République',
+          de: 'Republik',
+          it: 'Repubblica',
+          pl: 'Republika',
+          nl: 'Republiek',
+          pt: 'República',
+        },
         description: {
           en: 'The country became a republic within the Commonwealth, with a President as head of state.',
           sv: 'Landet blev en republik inom samväldet, med en president som statschef.',
@@ -325,7 +365,17 @@ export const trinidadAndTobago: Country = {
           nl: 'Steelpan (stalen trommel)',
           pt: 'Steelpan (tambor de aço)',
         },
-        year: '1930s–1940s',
+        year: {
+          en: '1930s–1940s',
+          sv: '1930–1940-talen',
+          es: 'Décadas de 1930–1940',
+          fr: 'Années 1930–1940',
+          de: '1930er–1940er',
+          it: 'Anni \'30–\'40',
+          pl: 'Lata 30.–40.',
+          nl: 'Jaren 30–40',
+          pt: 'Décadas de 1930–1940',
+        },
         description: {
           en: 'The steelpan is the only widely recognized acoustic instrument invented in the 20th century, born from Trinidad\'s Carnival culture.',
           sv: 'Stålpannan är det enda allmänt erkända akustiska instrumentet som uppfanns på 1900-talet, född från Trinidads karnevalskultur.',
@@ -350,7 +400,17 @@ export const trinidadAndTobago: Country = {
           nl: 'Angostura Bitters',
           pt: 'Angostura Bitters',
         },
-        year: '19th Century',
+        year: {
+          en: '19th Century',
+          sv: '1800-talet',
+          es: 'Siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'Século XIX',
+        },
         description: {
           en: 'A globally famous aromatic bitters brand closely associated with Trinidad and used in cocktails worldwide.',
           sv: 'Ett globalt känt aromatisk bittervarumärke nära förknippat med Trinidad och används i cocktails över hela världen.',
@@ -488,7 +548,17 @@ export const trinidadAndTobago: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Dry season (roughly December–May) for beach weather; Carnival season for peak festival energy.',
           sv: 'Torrsäsong (ungefär december–maj) för strandväder; Karnevalssäsong för toppfestivalenergi.',
@@ -502,7 +572,17 @@ export const trinidadAndTobago: Country = {
         },
       },
       {
-        item: 'Getting around',
+        item: {
+          en: 'Getting around',
+          sv: 'Att ta sig runt',
+          es: 'Cómo moverse',
+          fr: 'Se déplacer',
+          de: 'Unterwegs vor Ort',
+          it: 'Come spostarsi',
+          pl: 'Poruszanie się',
+          nl: 'Vervoer ter plaatse',
+          pt: 'Como se locomover',
+        },
         description: {
           en: 'Taxis and ride options are common in cities; domestic flights/ferries connect Trinidad and Tobago.',
           sv: 'Taxi- och åkalternativ är vanliga i städer; inrikesflyg/färjor förbinder Trinidad och Tobago.',
@@ -516,7 +596,17 @@ export const trinidadAndTobago: Country = {
         },
       },
       {
-        item: 'Money',
+        item: {
+          en: 'Money',
+          sv: 'Pengar',
+          es: 'Dinero',
+          fr: 'Argent',
+          de: 'Geld',
+          it: 'Denaro',
+          pl: 'Pieniądze',
+          nl: 'Geld',
+          pt: 'Dinheiro',
+        },
         description: {
           en: 'Trinidad and Tobago Dollar (TTD); cards work in many places, but cash helps for street food and smaller shops.',
           sv: 'Trinidad och Tobago Dollar (TTD); kort fungerar på många ställen, men kontanter hjälper till för gatumat och mindre butiker.',
@@ -530,7 +620,17 @@ export const trinidadAndTobago: Country = {
         },
       },
       {
-        item: 'What to pack',
+        item: {
+          en: 'What to pack',
+          sv: 'Packlista',
+          es: 'Qué llevar',
+          fr: 'À emporter',
+          de: 'Packliste',
+          it: 'Cosa mettere in valigia',
+          pl: 'Co spakować',
+          nl: 'Paklijst',
+          pt: 'O que levar',
+        },
         description: {
           en: 'Light clothing, reef-safe sunscreen, insect repellent, and a rain layer for quick tropical showers.',
           sv: 'Lätta kläder, revsäker solskyddsmedel, insektsmedel och ett regnlager för snabba tropiska duschar.',
@@ -544,7 +644,17 @@ export const trinidadAndTobago: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Stick to well-traveled areas at night, use registered taxis, and keep valuables discreet in busy zones.',
           sv: 'Håll dig till välbesökta områden på natten, använd registrerade taxibilar och håll värdesaker diskreta i livliga områden.',
@@ -562,7 +672,7 @@ export const trinidadAndTobago: Country = {
       id: 'trinidad-main',
       name: {
         en: 'Doubles',
-        sv: 'Dubblar',
+        sv: 'Doubles',
         es: 'Dobles',
         fr: 'Doubles',
         de: 'Doppel',
@@ -573,7 +683,7 @@ export const trinidadAndTobago: Country = {
       },
       description: {
         en: 'Iconic Trinidadian street food: fried flatbread filled with curried chickpeas and chutneys',
-        sv: 'Ikonisk trinidadisk gatumat: stekt tunnbröd fyllt med currykikärter och chutney',
+        sv: 'Klassisk trinidadisk gatumat: friterat flatbröd fyllt med currykryddade kikärter och chutney',
         es: 'Comida callejera icónica de Trinidad: pan plano frito relleno de garbanzos al curry y chutneys',
         fr: 'Cuisine de rue emblématique de Trinidad : pain plat frit rempli de pois chiches au curry et de chutneys',
         de: 'Kultiges trinidadisches Streetfood: frittiertes Fladenbrot gefüllt mit Curry-Kichererbsen und Chutneys',
@@ -600,7 +710,7 @@ export const trinidadAndTobago: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -615,7 +725,7 @@ export const trinidadAndTobago: Country = {
         {
           name: {
             en: 'Dry chickpeas',
-            sv: 'Torra kikärter',
+            sv: 'Torkade kikärter',
             es: 'Garbanzos secos',
             fr: 'Pois chiches secs',
             de: 'Trockene Kichererbsen',
@@ -725,7 +835,7 @@ export const trinidadAndTobago: Country = {
         {
           name: {
             en: 'Vegetable oil (for frying)',
-            sv: 'Vegetabilisk olja (för stekning)',
+            sv: 'Neutral olja (till stekning)',
             es: 'Aceite vegetal (para freír)',
             fr: 'Huile végétale (pour la friture)',
             de: 'Pflanzenöl (zum Braten)',
@@ -752,7 +862,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Cook chickpeas with curry powder, garlic, turmeric, salt, and water until thick',
-          sv: 'Koka kikärtor med currypulver, vitlök, gurkmeja, salt och vatten tills de blir tjocka',
+          sv: 'Koka kikärterna med currypulver, vitlök, gurkmeja, salt och vatten tills det tjocknar',
           es: 'Cocine los garbanzos con curry en polvo, ajo, cúrcuma, sal y agua hasta que espese',
           fr: 'Cuire les pois chiches avec la poudre de curry, l\'ail, le curcuma, le sel et l\'eau jusqu\'à ce qu\'ils soient épais',
           de: 'Kichererbsen mit Currypulver, Knoblauch, Kurkuma, Salz und Wasser kochen, bis sie dickflüssig sind',
@@ -763,7 +873,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Mix flour, baking powder, turmeric, salt, and water into a soft dough',
-          sv: 'Blanda mjöl, bakpulver, gurkmeja, salt och vatten till en mjuk deg',
+          sv: 'Blanda vetemjöl, bakpulver, gurkmeja, salt och vatten till en mjuk deg',
           es: 'Mezcle la harina, el polvo para hornear, la cúrcuma, la sal y el agua hasta obtener una masa suave',
           fr: 'Mélanger la farine, la levure chimique, le curcuma, le sel et l\'eau pour obtenir une pâte molle',
           de: 'Mehl, Backpulver, Kurkuma, Salz und Wasser zu einem weichen Teig vermischen',
@@ -774,7 +884,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Rest dough for 30 minutes',
-          sv: 'Vila degen i 30 minuter',
+          sv: 'Låt degen vila i 30 minuter',
           es: 'Reposar la masa durante 30 minutos',
           fr: 'Laisser reposer la pâte pendant 30 minutes',
           de: 'Den Teig 30 Minuten ruhen lassen',
@@ -785,7 +895,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Divide dough into small balls and flatten',
-          sv: 'Dela degen i små bollar och platta till',
+          sv: 'Dela degen i små bollar och platta ut dem',
           es: 'Dividir la masa en bolitas y aplanar',
           fr: 'Divisez la pâte en petites boules et aplatissez',
           de: 'Den Teig in kleine Kugeln teilen und flach drücken',
@@ -796,7 +906,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Deep-fry until puffed and lightly golden',
-          sv: 'Fritera tills de är puffade och lätt gyllene',
+          sv: 'Fritera tills bröden har pösat upp och är ljust gyllene',
           es: 'Freír hasta que esté inflado y ligeramente dorado',
           fr: 'Faire frire jusqu\'à ce qu\'il soit gonflé et légèrement doré',
           de: 'Frittieren, bis es aufgebläht und leicht goldbraun ist',
@@ -807,7 +917,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Place curried chickpeas between two fried breads',
-          sv: 'Lägg currykikärtor mellan två stekta bröd',
+          sv: 'Lägg de currykryddade kikärterna mellan två friterade bröd',
           es: 'Coloca los garbanzos al curry entre dos panes fritos',
           fr: 'Placer les pois chiches au curry entre deux pains frits',
           de: 'Curry-Kichererbsen zwischen zwei frittierte Brote legen',
@@ -818,7 +928,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Top with tamarind chutney and pepper sauce',
-          sv: 'Toppa med tamarindchutney och pepparsås',
+          sv: 'Toppa med tamarindchutney och stark chilisås',
           es: 'Cubra con chutney de tamarindo y salsa de pimienta',
           fr: 'Garnir de chutney de tamarin et de sauce au poivre',
           de: 'Mit Tamarinden-Chutney und Pfeffersauce belegen',
@@ -829,7 +939,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Serve immediately while hot',
-          sv: 'Servera omedelbart medan den är varm',
+          sv: 'Servera genast medan de är varma',
           es: 'Servir inmediatamente mientras esté caliente',
           fr: 'Servir aussitôt chaud',
           de: 'Sofort heiß servieren',
@@ -845,7 +955,7 @@ export const trinidadAndTobago: Country = {
       id: 'trinidad-dessert',
       name: {
         en: 'Coconut Sweet Bread',
-        sv: 'Kokossötbröd',
+        sv: 'Sött kokosbröd',
         es: 'Pan Dulce De Coco',
         fr: 'Pain sucré à la noix de coco',
         de: 'Süßes Kokosnussbrot',
@@ -883,7 +993,7 @@ export const trinidadAndTobago: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -928,7 +1038,7 @@ export const trinidadAndTobago: Country = {
         {
           name: {
             en: 'Butter (soft)',
-            sv: 'Smör (mjukt)',
+            sv: 'Smör (rumsvarmt)',
             es: 'Mantequilla (blanda)',
             fr: 'Beurre (doux)',
             de: 'Butter (weich)',
@@ -955,7 +1065,7 @@ export const trinidadAndTobago: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -968,7 +1078,7 @@ export const trinidadAndTobago: Country = {
         {
           name: {
             en: 'Grated coconut (or desiccated)',
-            sv: 'Riven kokosnöt (eller torkad)',
+            sv: 'Riven kokos (färsk eller torkad)',
             es: 'Coco rallado (o desecado)',
             fr: 'Noix de coco râpée (ou desséchée)',
             de: 'Kokosraspeln (oder getrocknet)',
@@ -1028,7 +1138,7 @@ export const trinidadAndTobago: Country = {
         {
           name: {
             en: 'Ground nutmeg',
-            sv: 'Malen muskotnöt',
+            sv: 'Mald muskotnöt',
             es: 'Nuez moscada molida',
             fr: 'Noix de muscade moulue',
             de: 'Gemahlene Muskatnuss',
@@ -1059,7 +1169,7 @@ export const trinidadAndTobago: Country = {
       steps: [
         {
           en: 'Preheat oven to 175°C and grease a loaf pan',
-          sv: 'Värm ugnen till 175°C och smörj en brödform',
+          sv: 'Sätt ugnen på 175 °C och smörj en brödform',
           es: 'Precalienta el horno a 175°C y engrasa un molde para pan',
           fr: 'Préchauffer le four à 175°C et beurrer un moule à cake',
           de: 'Backofen auf 175°C vorheizen und eine Kastenform einfetten',
@@ -1070,7 +1180,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Mix flour, baking powder, salt, cinnamon, and nutmeg',
-          sv: 'Blanda mjöl, bakpulver, salt, kanel och muskotnöt',
+          sv: 'Blanda vetemjöl, bakpulver, salt, kanel och muskotnöt',
           es: 'Mezclar harina, levadura en polvo, sal, canela y nuez moscada',
           fr: 'Mélanger la farine, la levure chimique, le sel, la cannelle et la muscade',
           de: 'Mehl, Backpulver, Salz, Zimt und Muskatnuss vermischen',
@@ -1081,7 +1191,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Cream butter and brown sugar until fluffy',
-          sv: 'Grädde smör och farinsocker fluffigt',
+          sv: 'Vispa smör och farinsocker pösigt',
           es: 'Batir la mantequilla y el azúcar moreno hasta que quede esponjoso',
           fr: 'Crémer le beurre et la cassonade jusqu\'à consistance mousseuse',
           de: 'Butter und braunen Zucker schaumig rühren',
@@ -1092,7 +1202,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Beat in eggs and vanilla',
-          sv: 'Vispa i ägg och vanilj',
+          sv: 'Vispa ner äggen och vaniljen',
           es: 'Batir los huevos y la vainilla.',
           fr: 'Incorporer les œufs et la vanille',
           de: 'Eier und Vanille unterrühren',
@@ -1103,7 +1213,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Fold in dry ingredients alternating with milk',
-          sv: 'Vänd i torra ingredienser omväxlande med mjölk',
+          sv: 'Vänd ner de torra ingredienserna växelvis med mjölken',
           es: 'Incorporar los ingredientes secos alternando con la leche',
           fr: 'Incorporer les ingrédients secs en alternant avec le lait',
           de: 'Trockene Zutaten abwechselnd mit Milch unterheben',
@@ -1125,7 +1235,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Pour into pan and smooth the top',
-          sv: 'Häll i pannan och jämna till toppen',
+          sv: 'Häll smeten i formen och jämna till ytan',
           es: 'Vierta en el molde y alise la parte superior',
           fr: 'Verser dans le moule et lisser le dessus',
           de: 'In die Pfanne gießen und die Oberseite glatt streichen',
@@ -1136,7 +1246,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Bake 45–55 minutes until a skewer comes out clean',
-          sv: 'Grädda 45–55 minuter tills ett spett kommer ut rent',
+          sv: 'Grädda i 45–55 minuter tills en provsticka kommer ut ren',
           es: 'Hornee de 45 a 55 minutos hasta que al pinchar una brocheta salga limpia',
           fr: 'Cuire au four 45 à 55 minutes jusqu\'à ce qu\'un cure-dent en ressorte propre',
           de: '45–55 Minuten backen, bis ein Spieß sauber herauskommt',
@@ -1147,7 +1257,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Cool 15 minutes in pan, then transfer to a rack',
-          sv: 'Kyl 15 minuter i pannan och överför sedan till ett galler',
+          sv: 'Låt svalna i formen i 15 minuter och stjälp sedan upp på ett galler',
           es: 'Deje enfriar durante 15 minutos en el molde y luego transfiéralo a una rejilla',
           fr: 'Laisser refroidir 15 minutes dans le moule, puis transférer sur une grille',
           de: '15 Minuten in der Form abkühlen lassen, dann auf ein Gestell',
@@ -1158,7 +1268,7 @@ export const trinidadAndTobago: Country = {
         },
         {
           en: 'Slice and serve slightly warm or at room temperature',
-          sv: 'Skiva och servera något varmt eller i rumstemperatur',
+          sv: 'Skiva och servera ljummet eller rumstempererat',
           es: 'Cortar y servir ligeramente tibio o a temperatura ambiente',
           fr: 'Trancher et servir légèrement tiède ou à température ambiante',
           de: 'geben In Scheiben schneiden und leicht warm oder bei Zimmertemperatur servieren',
@@ -1350,7 +1460,7 @@ export const trinidadAndTobago: Country = {
         options: [
           {
             en: 'Rio Carnival',
-            sv: 'Rio Carnival',
+            sv: 'Karnevalen i Rio',
             es: 'Carnaval de Río',
             fr: 'Carnaval de Rio',
             de: 'Karneval in Rio',
@@ -1361,7 +1471,7 @@ export const trinidadAndTobago: Country = {
           },
           {
             en: 'Notting Hill Carnival',
-            sv: 'Notting Hill Carnival',
+            sv: 'Notting Hill-karnevalen',
             es: 'Carnaval de Notting Hill',
             fr: 'Carnaval de Notting Hill',
             de: 'Notting Hill Karneval',
@@ -1372,7 +1482,7 @@ export const trinidadAndTobago: Country = {
           },
           {
             en: 'Trinidad Carnival',
-            sv: 'Trinidad Carnival',
+            sv: 'Karnevalen i Trinidad',
             es: 'Carnaval de Trinidad',
             fr: 'Carnaval de Trinidad',
             de: 'Karneval in Trinidad',

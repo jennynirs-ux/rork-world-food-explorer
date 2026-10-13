@@ -242,7 +242,17 @@ export const kenya: Country = {
     history: [
       {
         year: '1963',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Kenya gained independence from British colonial rule, with Jomo Kenyatta as the first president.',
           sv: 'Kenya blev självständigt från det brittiska kolonialstyret, med Jomo Kenyatta som den första presidenten.',
@@ -257,7 +267,17 @@ export const kenya: Country = {
       },
       {
         year: '1977',
-        title: 'Safari Tourism Boom',
+        title: {
+          en: 'Safari Tourism Boom',
+          sv: 'Safariturismen tar fart',
+          es: 'Auge del turismo de safari',
+          fr: 'Essor du tourisme de safari',
+          de: 'Boom des Safaritourismus',
+          it: 'Boom del turismo dei safari',
+          pl: 'Rozkwit turystyki safari',
+          nl: 'Opmars van het safaritoerisme',
+          pt: 'Boom do turismo de safári',
+        },
         description: {
           en: 'Kenya became one of Africa\'s premier safari destinations, attracting visitors from around the world.',
           sv: 'Kenya blev en av Afrikas främsta safari-destinationer och lockade besökare från hela världen.',
@@ -272,7 +292,17 @@ export const kenya: Country = {
       },
       {
         year: '2007',
-        title: 'M-Pesa Launch',
+        title: {
+          en: 'M-Pesa Launch',
+          sv: 'M-Pesa lanseras',
+          es: 'Lanzamiento de M-Pesa',
+          fr: 'Lancement de M-Pesa',
+          de: 'Einführung von M-Pesa',
+          it: 'Lancio di M-Pesa',
+          pl: 'Uruchomienie M-Pesa',
+          nl: 'Lancering van M-Pesa',
+          pt: 'Lançamento do M-Pesa',
+        },
         description: {
           en: 'Kenya pioneered mobile money transfer service, revolutionizing financial access in Africa.',
           sv: 'Kenya banade väg för mobila pengaöverföringstjänster, revolutionerade ekonomisk tillgång i Afrika.',
@@ -414,7 +444,7 @@ export const kenya: Country = {
       {
         name: {
           en: 'Lake Nakuru',
-          sv: 'Lake Nakuru',
+          sv: 'Nakurusjön',
           es: 'Lago Nakuru',
           fr: 'Lac Nakuru',
           de: 'Nakuru-See',
@@ -462,7 +492,17 @@ export const kenya: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'July-October for the Great Migration, December-March for beach holidays.',
           sv: 'Juli-oktober för den stora migrationen, december-mars för strandsemester.',
@@ -476,7 +516,17 @@ export const kenya: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Required for entry into Kenya.',
           sv: 'Krävs för inresa till Kenya.',
@@ -490,7 +540,17 @@ export const kenya: Country = {
         },
       },
       {
-        item: 'Safari clothing',
+        item: {
+          en: 'Safari clothing',
+          sv: 'Safarikläder',
+          es: 'Ropa para safari',
+          fr: 'Tenue de safari',
+          de: 'Safarikleidung',
+          it: 'Abbigliamento da safari',
+          pl: 'Strój na safari',
+          nl: 'Safarikleding',
+          pt: 'Roupas para safári',
+        },
         description: {
           en: 'Neutral colors for game drives, layers for varying temperatures.',
           sv: 'Neutrala färger för game drives, lager för varierande temperaturer.',
@@ -504,7 +564,17 @@ export const kenya: Country = {
         },
       },
       {
-        item: 'Insect repellent',
+        item: {
+          en: 'Insect repellent',
+          sv: 'Myggmedel',
+          es: 'Repelente de insectos',
+          fr: 'Répulsif anti-insectes',
+          de: 'Insektenschutzmittel',
+          it: 'Repellente per insetti',
+          pl: 'Repelent na owady',
+          nl: 'Muggenmiddel',
+          pt: 'Repelente de insetos',
+        },
         description: {
           en: 'Essential for malaria prevention in certain areas.',
           sv: 'Viktigt för att förebygga malaria i vissa områden.',
@@ -533,7 +603,7 @@ export const kenya: Country = {
       },
       description: {
         en: 'Grilled meat, typically goat or beef, a beloved Kenyan dish often enjoyed socially',
-        sv: 'Grillat kött, typiskt get- eller nötkött, en älskad kenyansk rätt som ofta avnjuts socialt',
+        sv: 'Grillat kött, oftast get- eller nötkött – en älskad kenyansk rätt som gärna äts i sällskap',
         es: 'Carne a la parrilla, típicamente de cabra o ternera, un plato muy querido en Kenia que a menudo se disfruta socialmente',
         fr: 'Viande grillée, généralement de chèvre ou de bœuf, un plat kenyan très apprécié et souvent apprécié en société',
         de: 'Gegrilltes Fleisch, typischerweise Ziege oder Rind, ein beliebtes kenianisches Gericht, das oft in Gesellschaft genossen wird',
@@ -560,7 +630,7 @@ export const kenya: Country = {
         {
           name: {
             en: 'Goat or beef',
-            sv: 'Get eller nötkött',
+            sv: 'Get- eller nötkött',
             es: 'Cabra o ternera',
             fr: 'Chèvre ou bœuf',
             de: 'Ziege oder Rind',
@@ -698,7 +768,7 @@ export const kenya: Country = {
         },
         {
           en: 'Marinate with lemon juice for at least 2 hours',
-          sv: 'Marinera med citronsaft i minst 2 timmar',
+          sv: 'Ringla över citronsaften och låt marinera i minst 2 timmar',
           es: 'Marinar con jugo de limón durante al menos 2 horas',
           fr: 'Faire mariner avec du jus de citron pendant au moins 2 heures',
           de: 'Mit Zitronensaft mindestens 2 Stunden marinieren',
@@ -709,7 +779,7 @@ export const kenya: Country = {
         },
         {
           en: 'Grill over open charcoal fire, turning frequently',
-          sv: 'Grilla över öppen koleld, vänd ofta',
+          sv: 'Grilla över glödande kol och vänd ofta',
           es: 'Ase a la parrilla sobre fuego de carbón abierto, volteándolo con frecuencia',
           fr: 'Griller sur un feu de charbon de bois ouvert, en retournant fréquemment',
           de: 'Über offenem Holzkohlefeuer grillen, dabei häufig wenden',
@@ -720,7 +790,7 @@ export const kenya: Country = {
         },
         {
           en: 'Cook until well-done and slightly charred',
-          sv: 'Koka tills de är genomstekt och lätt förkolnade',
+          sv: 'Grilla tills köttet är helt genomstekt och lätt förkolnat på ytan',
           es: 'Cocine hasta que esté bien cocido y ligeramente carbonizado',
           fr: 'Cuire jusqu\'à ce qu\'il soit bien cuit et légèrement carbonisé',
           de: 'Kochen, bis alles gut durchgegart und leicht verkohlt ist',
@@ -758,7 +828,7 @@ export const kenya: Country = {
       },
       description: {
         en: 'Sweet fried dough, similar to donuts, often enjoyed with chai',
-        sv: 'Sötstekt deg, liknande munkar, avnjuts ofta med chai',
+        sv: 'Söta friterade degbitar som påminner om munkar och ofta äts till chai',
         es: 'Masa dulce frita, similar a las rosquillas, que a menudo se disfruta con chai',
         fr: 'Pâte frite sucrée, semblable aux beignets, souvent dégustée avec du chai',
         de: 'Süßer frittierter Teig, ähnlich wie Donuts, oft mit Chai genossen',
@@ -785,7 +855,7 @@ export const kenya: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -842,7 +912,7 @@ export const kenya: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -885,7 +955,7 @@ export const kenya: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -912,7 +982,7 @@ export const kenya: Country = {
         },
         {
           en: 'Add eggs and coconut milk, knead into soft dough',
-          sv: 'Tillsätt ägg och kokosmjölk, knåda ihop till en mjuk deg',
+          sv: 'Tillsätt ägg och kokosmjölk och knåda ihop till en smidig deg',
           es: 'Agregue los huevos y la leche de coco, amase hasta obtener una masa suave',
           fr: 'Ajouter les œufs et le lait de coco, pétrir jusqu\'à obtenir une pâte molle',
           de: 'Eier und Kokosmilch hinzufügen, zu einem weichen Teig verkneten',
@@ -956,7 +1026,7 @@ export const kenya: Country = {
         },
         {
           en: 'Serve warm with chai tea',
-          sv: 'Servera varmt med chai-te',
+          sv: 'Servera varma med chai',
           es: 'Servir caliente con té chai',
           fr: 'Servir chaud avec du thé chai',
           de: 'Warm mit Chai-Tee servieren',
@@ -1272,7 +1342,7 @@ export const kenya: Country = {
         options: [
           {
             en: 'Mount Kilimanjaro',
-            sv: 'Mount Kilimanjaro',
+            sv: 'Kilimanjaro',
             es: 'Monte Kilimanjaro',
             fr: 'Mont Kilimandjaro',
             de: 'Kilimandscharo',
@@ -1487,7 +1557,7 @@ export const kenya: Country = {
           },
           {
             en: 'Lake Turkana',
-            sv: 'Lake Turkana',
+            sv: 'Turkanasjön',
             es: 'Lago Turkana',
             fr: 'Lac Turkana',
             de: 'Turkana-See',
@@ -1498,7 +1568,7 @@ export const kenya: Country = {
           },
           {
             en: 'Lake Nakuru',
-            sv: 'Lake Nakuru',
+            sv: 'Nakurusjön',
             es: 'Lago Nakuru',
             fr: 'Lac Nakuru',
             de: 'Nakuru-See',
@@ -1509,7 +1579,7 @@ export const kenya: Country = {
           },
           {
             en: 'Lake Naivasha',
-            sv: 'Lake Naivasha',
+            sv: 'Naivashasjön',
             es: 'Lago Naivasha',
             fr: 'Lac Naivasha',
             de: 'Naivasha-See',

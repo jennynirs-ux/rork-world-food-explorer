@@ -220,7 +220,17 @@ export const liberia: Country = {
     history: [
       {
         year: '1822',
-        title: 'Founding',
+        title: {
+          en: 'Founding',
+          sv: 'Grundandet',
+          es: 'Fundación',
+          fr: 'Fondation',
+          de: 'Gründung',
+          it: 'Fondazione',
+          pl: 'Założenie',
+          nl: 'Stichting',
+          pt: 'Fundação',
+        },
         description: {
           en: 'Freed American slaves began settling in Liberia under the American Colonization Society.',
           sv: 'Befriade amerikanska slavar började bosätta sig i Liberia under American Colonization Society.',
@@ -235,7 +245,17 @@ export const liberia: Country = {
       },
       {
         year: '1847',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Liberia declared independence, becoming Africa\'s first republic.',
           sv: 'Liberia förklarade sig självständigt och blev Afrikas första republik.',
@@ -287,7 +307,17 @@ export const liberia: Country = {
           nl: 'Rubberindustrie',
           pt: 'Indústria da borracha',
         },
-        year: '1920s',
+        year: {
+          en: '1920s',
+          sv: '1920-talet',
+          es: 'década de 1920',
+          fr: 'années 1920',
+          de: '1920er',
+          it: 'anni \'20',
+          pl: 'lata 20.',
+          nl: 'jaren 20',
+          pt: 'década de 1920',
+        },
         description: {
           en: 'Developed one of Africa\'s largest rubber industries.',
           sv: 'Utvecklade en av Afrikas största gummiindustrier.',
@@ -425,7 +455,17 @@ export const liberia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-April for dry season; rainy season is May-October.',
           sv: 'November-april för torrperioden; regnperioden är maj-oktober.',
@@ -439,7 +479,17 @@ export const liberia: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Required for entry into Liberia.',
           sv: 'Krävs för inresa till Liberia.',
@@ -453,7 +503,17 @@ export const liberia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa arranged in advance.',
           sv: 'De flesta besökare behöver ett visum som ordnas i förväg.',
@@ -467,7 +527,17 @@ export const liberia: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'US dollars widely used; bring cash as ATMs are limited.',
           sv: 'US-dollar används i stor utsträckning; ta med kontanter eftersom uttagsautomater är begränsade.',
@@ -496,7 +566,7 @@ export const liberia: Country = {
       },
       description: {
         en: 'Sweet peanut candy, a Liberian favorite',
-        sv: 'Söt jordnötsgodis, en liberiansk favorit',
+        sv: 'Sött jordnötsgodis, en liberiansk favorit',
         es: 'Dulce de maní, uno de los favoritos de Liberia',
         fr: 'Les bonbons sucrés aux arachides, un favori des Libériens',
         de: 'Süße Erdnusssüßigkeiten, ein liberianischer Favorit',
@@ -568,7 +638,7 @@ export const liberia: Country = {
         {
           name: {
             en: 'Ginger powder',
-            sv: 'Ingefära pulver',
+            sv: 'Mald ingefära',
             es: 'Jengibre en polvo',
             fr: 'Poudre de gingembre',
             de: 'Ingwerpulver',
@@ -584,7 +654,7 @@ export const liberia: Country = {
       steps: [
         {
           en: 'Grind roasted peanuts coarsely',
-          sv: 'Mal rostade jordnötter grovt',
+          sv: 'Mal de rostade jordnötterna grovt',
           es: 'Moler los cacahuetes tostados en trozos grandes',
           fr: 'Broyer grossièrement les cacahuètes grillées',
           de: 'Geröstete Erdnüsse grob mahlen',
@@ -595,7 +665,7 @@ export const liberia: Country = {
         },
         {
           en: 'Boil sugar and water until it reaches soft ball stage',
-          sv: 'Koka socker och vatten tills det når mjukkulstadiet',
+          sv: 'Koka socker och vatten till mjuk kula (ca 115 °C)',
           es: 'Hervir el azúcar y el agua hasta alcanzar la etapa de bola blanda',
           fr: 'Faire bouillir le sucre et l\'eau jusqu\'à ce qu\'ils atteignent le stade de boule molle',
           de: 'Zucker und Wasser aufkochen, bis eine weiche Kugel entsteht',
@@ -606,7 +676,7 @@ export const liberia: Country = {
         },
         {
           en: 'Mix in ground peanuts and ginger',
-          sv: 'Blanda i malda jordnötter och ingefära',
+          sv: 'Rör ner de malda jordnötterna och ingefäran',
           es: 'Incorpora el maní molido y el jengibre',
           fr: 'Incorporer les cacahuètes moulues et le gingembre',
           de: 'Gemahlene Erdnüsse und Ingwer untermischen',
@@ -617,7 +687,7 @@ export const liberia: Country = {
         },
         {
           en: 'Stir until well combined',
-          sv: 'Rör om tills väl blandat',
+          sv: 'Rör tills allt är väl blandat',
           es: 'Revuelva hasta que esté bien combinado',
           fr: 'Remuer jusqu\'à ce que le tout soit bien mélangé',
           de: 'Rühren, bis alles gut vermischt ist',
@@ -628,7 +698,7 @@ export const liberia: Country = {
         },
         {
           en: 'Pour onto greased surface',
-          sv: 'Häll på smord yta',
+          sv: 'Häll ut massan på en smord yta',
           es: 'Vierta sobre una superficie engrasada',
           fr: 'Verser sur une surface graissée',
           de: 'Auf die gefettete Oberfläche gießen',
@@ -650,7 +720,7 @@ export const liberia: Country = {
         },
         {
           en: 'Store in airtight container',
-          sv: 'Förvara i lufttät behållare',
+          sv: 'Förvara i en lufttät burk',
           es: 'Almacenar en un recipiente hermético',
           fr: 'Conserver dans un contenant hermétique',
           de: 'In einem luftdichten Behälter aufbewahren',
@@ -746,7 +816,7 @@ export const liberia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -771,7 +841,7 @@ export const liberia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -796,7 +866,7 @@ export const liberia: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -868,7 +938,7 @@ export const liberia: Country = {
         },
         {
           en: 'Cover and simmer until rice absorbs liquid',
-          sv: 'Täck över och låt sjuda tills ris absorberar vätska',
+          sv: 'Lägg på lock och låt sjuda tills riset har sugit upp vätskan',
           es: 'Tape y cocine a fuego lento hasta que el arroz absorba el líquido',
           fr: 'Couvrir et laisser mijoter jusqu\'à ce que le riz absorbe le liquide',
           de: 'Abdecken und köcheln lassen, bis der Reis Flüssigkeit aufnimmt',
@@ -879,7 +949,7 @@ export const liberia: Country = {
         },
         {
           en: 'Fluff with fork',
-          sv: 'Ludd med gaffel',
+          sv: 'Luckra upp riset med en gaffel',
           es: 'Pelusa con tenedor',
           fr: 'Fluff avec une fourchette',
           de: 'Mit der Gabel auflockern',
@@ -890,7 +960,7 @@ export const liberia: Country = {
         },
         {
           en: 'Serve with fried plantains',
-          sv: 'Servera med stekt kålbanan',
+          sv: 'Servera med stekta kokbananer',
           es: 'Servir con plátanos fritos',
           fr: 'Servir avec des plantains frits',
           de: 'Mit gebratenen Kochbananen servieren',

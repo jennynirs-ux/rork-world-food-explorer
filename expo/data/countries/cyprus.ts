@@ -274,7 +274,17 @@ export const cyprus: Country = {
           nl: 'Halloumikaas',
           pt: 'Queijo halloumi',
         },
-        year: 'Medieval',
+        year: {
+          en: 'Medieval',
+          sv: 'Medeltiden',
+          es: 'Edad Media',
+          fr: 'Moyen Âge',
+          de: 'Mittelalter',
+          it: 'Medioevo',
+          pl: 'Średniowiecze',
+          nl: 'Middeleeuwen',
+          pt: 'Idade Média',
+        },
         description: {
           en: 'Created unique high-temperature resistant cheese that can be grilled without melting, now popular worldwide.',
           sv: 'Skapade unik högtemperaturbeständig ost som kan grillas utan att smälta, nu populär över hela världen.',
@@ -299,7 +309,17 @@ export const cyprus: Country = {
           nl: 'Commandaria-wijn',
           pt: 'Vinho Commandaria',
         },
-        year: '800 BC',
+        year: {
+          en: '800 BC',
+          sv: '800 f.Kr.',
+          es: '800 a. C.',
+          fr: '800 av. J.-C.',
+          de: '800 v. Chr.',
+          it: '800 a.C.',
+          pl: '800 p.n.e.',
+          nl: '800 v.Chr.',
+          pt: '800 a.C.',
+        },
         description: {
           en: 'One of the world\'s oldest named wines still in production, a sweet dessert wine made using ancient methods.',
           sv: 'Ett av världens äldsta namngivna viner som fortfarande tillverkas, ett sött dessertvin gjort med uråldriga metoder.',
@@ -324,7 +344,17 @@ export const cyprus: Country = {
           nl: 'Kopermetallurgie',
           pt: 'Metalurgia do cobre',
         },
-        year: '4000 BC',
+        year: {
+          en: '4000 BC',
+          sv: '4000 f.Kr.',
+          es: '4000 a. C.',
+          fr: '4000 av. J.-C.',
+          de: '4000 v. Chr.',
+          it: '4000 a.C.',
+          pl: '4000 p.n.e.',
+          nl: '4000 v.Chr.',
+          pt: '4000 a.C.',
+        },
         description: {
           en: 'Ancient Cyprus was a major center of copper production, giving the metal its name (from Latin cuprum, meaning "from Cyprus").',
           sv: 'Antikens Cypern var ett viktigt centrum för kopparproduktion, vilket gav metallen dess namn (från latin cuprum, som betyder "från Cypern").',
@@ -349,7 +379,17 @@ export const cyprus: Country = {
           nl: 'Bicommunautaire onderwijsmodellen',
           pt: 'Modelos educacionais bicomunitários',
         },
-        year: '1990s-present',
+        year: {
+          en: '1990s-present',
+          sv: '1990-talet–idag',
+          es: 'Década de 1990–actualidad',
+          fr: 'Années 1990–aujourd\'hui',
+          de: '1990er–heute',
+          it: 'Anni \'90–oggi',
+          pl: 'Lata 90.–obecnie',
+          nl: 'Jaren 90–heden',
+          pt: 'Década de 1990–presente',
+        },
         description: {
           en: 'Developed innovative approaches to education in divided societies, studied by conflict resolution experts worldwide.',
           sv: 'Utvecklade innovativa metoder för utbildning i splittrade samhällen, studerade av konfliktlösningsexperter över hela världen.',
@@ -365,8 +405,28 @@ export const cyprus: Country = {
     ],
     history: [
       {
-        year: '1400 BC',
-        title: 'Ancient Cyprus',
+        year: {
+          en: '1400 BC',
+          sv: '1400 f.Kr.',
+          es: '1400 a. C.',
+          fr: '1400 av. J.-C.',
+          de: '1400 v. Chr.',
+          it: '1400 a.C.',
+          pl: '1400 p.n.e.',
+          nl: '1400 v.Chr.',
+          pt: '1400 a.C.',
+        },
+        title: {
+          en: 'Ancient Cyprus',
+          sv: 'Det forntida Cypern',
+          es: 'Chipre en la Antigüedad',
+          fr: 'Chypre antique',
+          de: 'Antikes Zypern',
+          it: 'Antica Cipro',
+          pl: 'Starożytny Cypr',
+          nl: 'Het oude Cyprus',
+          pt: 'Chipre na Antiguidade',
+        },
         description: {
           en: 'Cyprus became a major center of copper production and trade in the ancient Mediterranean.',
           sv: 'Cypern blev ett viktigt centrum för kopparproduktion och handel i det antika Medelhavet.',
@@ -380,8 +440,28 @@ export const cyprus: Country = {
         },
       },
       {
-        year: '58 BC',
-        title: 'Roman Rule',
+        year: {
+          en: '58 BC',
+          sv: '58 f.Kr.',
+          es: '58 a. C.',
+          fr: '58 av. J.-C.',
+          de: '58 v. Chr.',
+          it: '58 a.C.',
+          pl: '58 p.n.e.',
+          nl: '58 v.Chr.',
+          pt: '58 a.C.',
+        },
+        title: {
+          en: 'Roman Rule',
+          sv: 'Romerskt styre',
+          es: 'Dominio romano',
+          fr: 'Domination romaine',
+          de: 'Römische Herrschaft',
+          it: 'Dominazione romana',
+          pl: 'Panowanie rzymskie',
+          nl: 'Romeinse overheersing',
+          pt: 'Domínio romano',
+        },
         description: {
           en: 'Cyprus became part of the Roman Empire, entering a period of prosperity.',
           sv: 'Cypern blev en del av det romerska riket och gick in i en period av välstånd.',
@@ -396,7 +476,17 @@ export const cyprus: Country = {
       },
       {
         year: '1571',
-        title: 'Ottoman Conquest',
+        title: {
+          en: 'Ottoman Conquest',
+          sv: 'Osmansk erövring',
+          es: 'Conquista otomana',
+          fr: 'Conquête ottomane',
+          de: 'Osmanische Eroberung',
+          it: 'Conquista ottomana',
+          pl: 'Podbój osmański',
+          nl: 'Ottomaanse verovering',
+          pt: 'Conquista otomana',
+        },
         description: {
           en: 'The Ottoman Empire conquered Cyprus, ruling for over 300 years.',
           sv: 'Det osmanska riket erövrade Cypern och regerade i över 300 år.',
@@ -411,7 +501,17 @@ export const cyprus: Country = {
       },
       {
         year: '1878',
-        title: 'British Administration',
+        title: {
+          en: 'British Administration',
+          sv: 'Brittisk förvaltning',
+          es: 'Administración británica',
+          fr: 'Administration britannique',
+          de: 'Britische Verwaltung',
+          it: 'Amministrazione britannica',
+          pl: 'Administracja brytyjska',
+          nl: 'Brits bestuur',
+          pt: 'Administração britânica',
+        },
         description: {
           en: 'Cyprus came under British administration, later becoming a Crown Colony.',
           sv: 'Cypern kom under brittisk administration och blev senare en kronkoloni.',
@@ -426,7 +526,17 @@ export const cyprus: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Cyprus gained independence from Britain with Archbishop Makarios as president.',
           sv: 'Cypern blev självständigt från Storbritannien med ärkebiskop Makarios som president.',
@@ -441,7 +551,17 @@ export const cyprus: Country = {
       },
       {
         year: '1974',
-        title: 'Division',
+        title: {
+          en: 'Division',
+          sv: 'Delningen',
+          es: 'División',
+          fr: 'Partition',
+          de: 'Teilung',
+          it: 'Divisione',
+          pl: 'Podział',
+          nl: 'Deling',
+          pt: 'Divisão',
+        },
         description: {
           en: 'Turkish invasion and subsequent division of the island into Greek and Turkish areas.',
           sv: 'Turkisk invasion och efterföljande uppdelning av ön i grekiska och turkiska områden.',
@@ -457,7 +577,17 @@ export const cyprus: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-June and September-October for ideal weather',
           sv: 'April-juni och september-oktober för perfekt väder',
@@ -471,7 +601,17 @@ export const cyprus: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'EU member. Special visa rules apply for the divided areas.',
           sv: 'EU-medlem. Särskilda visumregler gäller för de delade områdena.',
@@ -485,7 +625,17 @@ export const cyprus: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Car rental recommended. Left-side driving (British legacy).',
           sv: 'Biluthyrning rekommenderas. Vänsterkörning (brittisk arv).',
@@ -499,7 +649,17 @@ export const cyprus: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Greek and Turkish. English widely spoken.',
           sv: 'grekiska och turkiska. Engelska talas allmänt.',
@@ -513,7 +673,17 @@ export const cyprus: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe. Respect the buffer zone division.',
           sv: 'Mycket säker. Respektera buffertzonsindelningen.',
@@ -627,7 +797,7 @@ export const cyprus: Country = {
       {
         name: {
           en: 'Larnaca Salt Lake',
-          sv: 'Larnaca Salt Lake',
+          sv: 'Saltsjön i Larnaca',
           es: 'Lago salado de Lárnaca',
           fr: 'Lac salé de Larnaca',
           de: 'Salzsee von Larnaca',
@@ -653,7 +823,7 @@ export const cyprus: Country = {
       id: 'cyprus-souvlaki',
       name: {
         en: 'Cypriot Souvlaki',
-        sv: 'Cypriotisk Souvlaki',
+        sv: 'Cypriotisk souvlaki',
         es: 'Souvlaki chipriota',
         fr: 'Souvlaki chypriote',
         de: 'Zypriotischer Souvlaki',
@@ -664,7 +834,7 @@ export const cyprus: Country = {
       },
       description: {
         en: 'Grilled meat skewers served in pita with salad, the most popular street food in Cyprus',
-        sv: 'Grillade köttspett serveras i pitabröd med sallad, den populäraste gatumaten på Cypern',
+        sv: 'Grillade köttspett som serveras i pitabröd med sallad – den populäraste gatumaten på Cypern',
         es: 'Brochetas de carne a la parrilla servidas en pita con ensalada, la comida callejera más popular de Chipre',
         fr: 'Brochettes de viande grillée servies dans du pita avec salade, la cuisine de rue la plus populaire à Chypre',
         de: 'Gegrillte Fleischspieße serviert in Pita mit Salat, das beliebteste Streetfood auf Zypern',
@@ -691,7 +861,7 @@ export const cyprus: Country = {
         {
           name: {
             en: 'Pork shoulder',
-            sv: 'Fläskaxel',
+            sv: 'Fläskbog',
             es: 'Paletilla de cerdo',
             fr: 'Épaule de porc',
             de: 'Schweineschulter',
@@ -897,7 +1067,7 @@ export const cyprus: Country = {
       steps: [
         {
           en: 'Cut pork into 2cm cubes',
-          sv: 'Skär fläsk i 2 cm tärningar',
+          sv: 'Skär fläskbogen i 2 cm stora tärningar',
           es: 'Cortar la carne de cerdo en cubos de 2 cm',
           fr: 'Couper le porc en cubes de 2 cm',
           de: 'Schweinefleisch in 2 cm große Würfel schneiden',
@@ -908,7 +1078,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Mix olive oil, lemon juice, minced garlic, and oregano',
-          sv: 'Blanda olivolja, citronsaft, hackad vitlök och oregano',
+          sv: 'Blanda olivolja, citronsaft, finhackad vitlök och oregano',
           es: 'Mezcla aceite de oliva, jugo de limón, ajo picado y orégano',
           fr: 'Mélanger l\'huile d\'olive, le jus de citron, l\'ail émincé et l\'origan',
           de: 'Olivenöl, Zitronensaft, gehackten Knoblauch und Oregano mischen',
@@ -919,7 +1089,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Marinate pork for at least 2 hours (or overnight)',
-          sv: 'Marinera fläsk i minst 2 timmar (eller över natten)',
+          sv: 'Låt köttet marinera i minst 2 timmar (eller över natten)',
           es: 'Marinar la carne de cerdo durante al menos 2 horas (o toda la noche)',
           fr: 'Faire mariner le porc pendant au moins 2 heures (ou toute la nuit)',
           de: 'Schweinefleisch mindestens 2 Stunden (oder über Nacht) marinieren',
@@ -941,7 +1111,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Grill over hot coals or high heat for 10-12 minutes, turning',
-          sv: 'Grilla över glödande kol eller hög värme i 10-12 minuter, vänd',
+          sv: 'Grilla över het glöd eller på hög värme i 10–12 minuter och vänd spetten då och då',
           es: 'Ase sobre brasas o fuego alto durante 10-12 minutos, volteando',
           fr: 'Griller sur des charbons ardents ou à feu vif pendant 10 à 12 minutes, en retournant',
           de: 'Über heißen Kohlen oder bei starker Hitze 10–12 Minuten grillen, dabei',
@@ -952,7 +1122,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Warm pita bread on the grill',
-          sv: 'Varmt pitabröd på grillen',
+          sv: 'Värm pitabröden på grillen',
           es: 'Pan de pita caliente a la parrilla',
           fr: 'Pain pita chaud sur le grill',
           de: 'wenden Warmes Fladenbrot auf dem Grill',
@@ -963,7 +1133,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Chop tomatoes and slice onions thinly',
-          sv: 'Hacka tomater och skiva lök tunt',
+          sv: 'Hacka tomaterna och skiva löken tunt',
           es: 'Picar los tomates y cortar las cebollas en rodajas finas',
           fr: 'Hacher les tomates et émincer les oignons',
           de: 'Tomaten hacken und Zwiebeln in dünne Scheiben schneiden',
@@ -974,7 +1144,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Remove meat from skewers into pita',
-          sv: 'Ta bort köttet från spetten i pitabröd',
+          sv: 'Dra av köttet från spetten och lägg det i pitabröden',
           es: 'Retire la carne de las brochetas y colóquela en pita',
           fr: 'Retirer la viande des brochettes et la mettre dans le pita',
           de: 'Nehmen Sie das Fleisch vom Spieß und füllen Sie es in das Pita',
@@ -985,7 +1155,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Add salad and drizzle with tahini sauce',
-          sv: 'Tillsätt sallad och ringla över tahinisås',
+          sv: 'Lägg på sallad och ringla över tahinisås',
           es: 'Agregue la ensalada y rocíe con salsa tahini',
           fr: 'Ajouter la salade et arroser de sauce tahini',
           de: 'Salat hinzufügen und mit Tahinisauce beträufeln',
@@ -996,7 +1166,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Wrap and serve immediately',
-          sv: 'Slå in och servera omedelbart',
+          sv: 'Vik ihop och servera direkt',
           es: 'Envolver y servir inmediatamente',
           fr: 'Emballer et servir immédiatement',
           de: 'Einwickeln und sofort servieren',
@@ -1559,7 +1729,7 @@ export const cyprus: Country = {
       },
       description: {
         en: 'Custard-filled phyllo pastry soaked in honey syrup, a beloved Cypriot dessert',
-        sv: 'Vaniljsåsfylld filobakelse indränkt i honungssirap, en älskad cypriotisk efterrätt',
+        sv: 'Filodeg fylld med vaniljkräm och indränkt i honungssirap – en älskad cypriotisk efterrätt',
         es: 'Masa filo rellena de natillas empapada en almíbar de miel, un postre muy apreciado por los chipriotas',
         fr: 'Pâte phyllo fourrée à la crème anglaise imbibée de sirop de miel, un dessert chypriote très apprécié',
         de: 'In Honigsirup getränkter, mit Vanillesoße gefüllter Blätterteig, ein beliebtes zyprisches Dessert',
@@ -1586,7 +1756,7 @@ export const cyprus: Country = {
         {
           name: {
             en: 'Phyllo pastry',
-            sv: 'Filobakelse',
+            sv: 'Filodeg',
             es: 'Masa filo',
             fr: 'Pâte phyllo',
             de: 'Blätterteig',
@@ -1601,7 +1771,7 @@ export const cyprus: Country = {
         {
           name: {
             en: 'Whole milk',
-            sv: 'Helmjölk',
+            sv: 'Standardmjölk',
             es: 'Leche entera',
             fr: 'Lait entier',
             de: 'Vollmilch',
@@ -1658,7 +1828,7 @@ export const cyprus: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1701,7 +1871,7 @@ export const cyprus: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -1716,7 +1886,7 @@ export const cyprus: Country = {
         {
           name: {
             en: 'Water for syrup',
-            sv: 'Vatten för sirap',
+            sv: 'Vatten till sirapen',
             es: 'Agua para almíbar',
             fr: 'Eau pour sirop',
             de: 'Wasser für Sirup',
@@ -1732,7 +1902,7 @@ export const cyprus: Country = {
       steps: [
         {
           en: 'Heat milk with half the sugar.',
-          sv: 'Värm mjölk med hälften av sockret.',
+          sv: 'Värm mjölken med hälften av sockret.',
           es: 'Calentar la leche con la mitad del azúcar.',
           fr: 'Faites chauffer le lait avec la moitié du sucre.',
           de: 'Milch mit der Hälfte des Zuckers erhitzen.',
@@ -1743,7 +1913,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Whisk in semolina gradually, cook until thick.',
-          sv: 'Vispa i mannagryn gradvis, koka tills den är tjock.',
+          sv: 'Vispa ner mannagrynen lite i taget och låt koka tills krämen tjocknar.',
           es: 'Agregue la sémola gradualmente y cocine hasta que espese.',
           fr: 'Incorporer progressivement la semoule et cuire jusqu\'à consistance épaisse.',
           de: 'Den Grieß nach und nach einrühren und einkochen, bis er dickflüssig ist.',
@@ -1754,7 +1924,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Remove from heat, cool slightly.',
-          sv: 'Ta bort från värmen, svalna något.',
+          sv: 'Ta kastrullen från värmen och låt svalna något.',
           es: 'Retirar del fuego, enfriar un poco.',
           fr: 'Retirer du feu, laisser refroidir légèrement.',
           de: 'Vom Herd nehmen, leicht abkühlen lassen.',
@@ -1765,7 +1935,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Beat eggs with remaining sugar and vanilla.',
-          sv: 'Vispa ägg med resterande socker och vanilj.',
+          sv: 'Vispa äggen med resten av sockret och vaniljen.',
           es: 'Batir los huevos con el azúcar restante y la vainilla.',
           fr: 'Battre les œufs avec le reste du sucre et de la vanille.',
           de: 'Eier mit restlichem Zucker und Vanille verquirlen.',
@@ -1776,7 +1946,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Mix egg mixture into cooled semolina custard.',
-          sv: 'Blanda äggblandningen i den avsvalnade mannagrynskrädden.',
+          sv: 'Rör ner äggblandningen i den avsvalnade mannagrynskrämen.',
           es: 'Mezcle la mezcla de huevo con la natilla de sémola enfriada.',
           fr: 'Mélanger le mélange d\'œufs à la crème de semoule refroidie.',
           de: 'Eiermischung unter die abgekühlte Grießcreme rühren.',
@@ -1787,7 +1957,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Layer half the phyllo in buttered pan, brushing each with butter.',
-          sv: 'Varva hälften av filon i smörad panna, pensla var och en med smör.',
+          sv: 'Lägg hälften av filoarken i en smord form och pensla varje ark med smör.',
           es: 'Coloque la mitad del filo en una sartén untada con mantequilla, untando cada uno con mantequilla.',
           fr: 'Étalez la moitié de la pâte phyllo dans un moule beurré, en badigeonnant chacune de beurre.',
           de: 'Die Hälfte des Phyllo in eine gebutterte Pfanne schichten und jeweils mit Butter bestreichen.',
@@ -1798,7 +1968,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Pour custard over phyllo.',
-          sv: 'Häll vaniljsås över filo.',
+          sv: 'Häll krämen över filodegen.',
           es: 'Vierta la crema pastelera sobre el filo.',
           fr: 'Verser la crème anglaise sur la pâte phyllo.',
           de: 'Pudding über Phyllo gießen.',
@@ -1809,7 +1979,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Top with remaining phyllo sheets, each brushed with butter.',
-          sv: 'Toppa med resterande filoplattor, var och en penslad med smör.',
+          sv: 'Täck med resten av filoarken och pensla varje ark med smör.',
           es: 'Cubra con las hojas de masa filo restantes, cada una untada con mantequilla.',
           fr: 'Garnir du reste des feuilles de pâte phyllo, chacune badigeonnée de beurre.',
           de: 'Mit den restlichen Phyllo-Blättern belegen und jeweils mit Butter bepinseln.',
@@ -1820,7 +1990,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Score into squares, bake at 180°C for 40 minutes until golden.',
-          sv: 'Skär i rutor, grädda i 180°C i 40 minuter tills de är gyllene.',
+          sv: 'Skär rutor i ytan och grädda i 180 °C i 40 minuter, tills kakan är gyllene.',
           es: 'Cortar en cuadritos, hornear a 180°C por 40 minutos hasta que esté dorado.',
           fr: 'Détaillez des carrés et enfournez à 180°C pendant 40 minutes jusqu\'à ce qu\'ils soient dorés.',
           de: 'In Quadrate schneiden und 40 Minuten bei 180 °C goldbraun backen.',
@@ -1831,7 +2001,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Make syrup by boiling honey, sugar, and water.',
-          sv: 'Gör sirap genom att koka honung, socker och vatten.',
+          sv: 'Koka ihop honung, socker och vatten till en sirap.',
           es: 'Haga almíbar hirviendo miel, azúcar y agua.',
           fr: 'Préparez le sirop en faisant bouillir du miel, du sucre et de l\'eau.',
           de: 'Machen Sie Sirup, indem Sie Honig, Zucker und Wasser kochen.',
@@ -1842,7 +2012,7 @@ export const cyprus: Country = {
         },
         {
           en: 'Pour hot syrup over warm pastry.',
-          sv: 'Häll varm sirap över varma bakverk.',
+          sv: 'Häll den varma sirapen över den varma kakan.',
           es: 'Vierta el almíbar caliente sobre la masa tibia.',
           fr: 'Versez le sirop chaud sur la pâte tiède.',
           de: 'Den heißen Sirup über den warmen Teig gießen.',

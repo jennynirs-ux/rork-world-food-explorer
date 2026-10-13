@@ -220,7 +220,17 @@ export const micronesia: Country = {
     history: [
       {
         year: '1947',
-        title: 'UN Trust Territory',
+        title: {
+          en: 'UN Trust Territory',
+          sv: 'FN:s förvaltarskapsområde',
+          es: 'Territorio en fideicomiso de la ONU',
+          fr: 'Territoire sous tutelle de l\'ONU',
+          de: 'UN-Treuhandgebiet',
+          it: 'Territorio in amministrazione fiduciaria ONU',
+          pl: 'Terytorium powiernicze ONZ',
+          nl: 'VN-trustgebied',
+          pt: 'Território sob tutela da ONU',
+        },
         description: {
           en: 'Became a UN Trust Territory administered by the United States.',
           sv: 'Blev ett UN Trust Territory administrerat av USA.',
@@ -235,7 +245,17 @@ export const micronesia: Country = {
       },
       {
         year: '1986',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Gained sovereignty under Compact of Free Association with the US.',
           sv: 'Fick suveränitet under Compact of Free Association med USA.',
@@ -262,7 +282,17 @@ export const micronesia: Country = {
           nl: 'Oceaannavigatie',
           pt: 'Navegação oceânica',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Traditional star navigation techniques for long Pacific voyages.',
           sv: 'Traditionella stjärnnavigeringstekniker för långa Stillahavsresor.',
@@ -287,7 +317,17 @@ export const micronesia: Country = {
           nl: 'Stenen geldsysteem',
           pt: 'Sistema de dinheiro de pedra',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Massive stone discs (Rai) used as currency on Yap island.',
           sv: 'Massiva stenskivor (Rai) som används som valuta på ön Yap.',
@@ -305,7 +345,7 @@ export const micronesia: Country = {
       {
         name: {
           en: 'Chuuk Lagoon',
-          sv: 'Chuuk Lagoon',
+          sv: 'Chuuklagunen',
           es: 'Laguna Chuuk',
           fr: 'Lagune de Chuuk',
           de: 'Chuuk-Lagune',
@@ -353,7 +393,7 @@ export const micronesia: Country = {
       {
         name: {
           en: 'Yap Stone Money',
-          sv: 'Yap Stone Money',
+          sv: 'Stenpengarna på Yap',
           es: 'Dinero de piedra Yap',
           fr: 'Yap Pierre Argent',
           de: 'Yap Stone Money',
@@ -425,7 +465,17 @@ export const micronesia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December-April for drier weather.',
           sv: 'December-april för torrare väder.',
@@ -439,7 +489,17 @@ export const micronesia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'US citizens visa-free; others may need visa.',
           sv: 'Amerikanska medborgare är visumfria; andra kan behöva visum.',
@@ -453,7 +513,17 @@ export const micronesia: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'US dollars used; ATMs limited outside main islands.',
           sv: 'Använda amerikanska dollar; Uttagsautomater är begränsade utanför huvudöarna.',
@@ -467,7 +537,17 @@ export const micronesia: Country = {
         },
       },
       {
-        item: 'Diving gear',
+        item: {
+          en: 'Diving gear',
+          sv: 'Dykutrustning',
+          es: 'Equipo de buceo',
+          fr: 'Équipement de plongée',
+          de: 'Tauchausrüstung',
+          it: 'Attrezzatura subacquea',
+          pl: 'Sprzęt nurkowy',
+          nl: 'Duikuitrusting',
+          pt: 'Equipamento de mergulho',
+        },
         description: {
           en: 'Bring your own or rent for amazing wreck diving.',
           sv: 'Ta med din egen eller hyr för fantastisk vrakdykning.',
@@ -485,7 +565,7 @@ export const micronesia: Country = {
       id: 'micronesia-dessert',
       name: {
         en: 'Banana Pohnpei',
-        sv: 'Banan Pohnpei',
+        sv: 'Bakade bananer från Pohnpei',
         es: 'Plátano Pohnpei',
         fr: 'Banane Pohnpei',
         de: 'Bananen-Pohnpei',
@@ -535,7 +615,7 @@ export const micronesia: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -615,7 +695,7 @@ export const micronesia: Country = {
         },
         {
           en: 'Arrange in baking dish',
-          sv: 'Ordna i ugnsform',
+          sv: 'Lägg dem i en ugnsform',
           es: 'Organizar en una fuente para horno',
           fr: 'Disposer dans un plat allant au four',
           de: 'In einer Auflaufform',
@@ -626,7 +706,7 @@ export const micronesia: Country = {
         },
         {
           en: 'Mix coconut cream with sugar',
-          sv: 'Blanda kokosgrädde med socker',
+          sv: 'Blanda kokosgrädden med sockret',
           es: 'Mezclar crema de coco con azúcar',
           fr: 'Mélanger la crème de coco avec le sucre',
           de: 'anrichten Kokoscreme mit Zucker verrühren',
@@ -637,7 +717,7 @@ export const micronesia: Country = {
         },
         {
           en: 'Pour over bananas',
-          sv: 'Häll över bananer',
+          sv: 'Häll blandningen över bananerna',
           es: 'Vierta sobre los plátanos',
           fr: 'Verser sur les bananes',
           de: 'Über die Bananen gießen',
@@ -659,7 +739,7 @@ export const micronesia: Country = {
         },
         {
           en: 'Bake at 350°F for 25 minutes',
-          sv: 'Grädda i 350°F i 25 minuter',
+          sv: 'Grädda i 175°C i 25 minuter',
           es: 'Hornee a 350°F durante 25 minutos',
           fr: 'Cuire au four à 350°F pendant 25 minutes',
           de: '25 Minuten bei 350 °F backen',
@@ -670,7 +750,7 @@ export const micronesia: Country = {
         },
         {
           en: 'Serve warm',
-          sv: 'Servera varm',
+          sv: 'Servera varma',
           es: 'Servir caliente',
           fr: 'Servir chaud',
           de: 'Warm servieren',
@@ -685,7 +765,7 @@ export const micronesia: Country = {
     mainDish: {
       id: 'micronesia-main',
       name: {
-        en: 'Breadfruit with Coconut Cream',
+        en: 'Kelaguen',
         sv: 'Kelaguen',
         es: 'Kelaguen',
         fr: 'Kelaguen',
@@ -696,15 +776,15 @@ export const micronesia: Country = {
         pt: 'Kelaguen',
       },
       description: {
-        en: 'Roasted breadfruit served with a fresh coconut cream sauce, a beloved Micronesian staple dish.',
-        sv: 'Grillad fisk eller kyckling med citron och kokos',
-        es: 'Pescado o pollo a la plancha con limón y coco',
-        fr: 'Poisson ou poulet grillé au citron et noix de coco',
-        de: 'Gegrillter Fisch oder Hühnchen mit Zitrone und Kokosnuss',
-        it: 'Grilled fish or chicken with lemon and coconut',
-        pl: 'Grilled fish or chicken with lemon and coconut',
-        nl: 'Grilled fish or chicken with lemon and coconut',
-        pt: 'Grilled fish or chicken with lemon and coconut',
+        en: 'Grilled fish or chicken, chopped and mixed with lemon juice, grated coconut and hot peppers',
+        sv: 'Grillad fisk eller kyckling, finhackad och blandad med citronsaft, riven kokos och chili',
+        es: 'Pescado o pollo a la parrilla, picado y mezclado con jugo de limón, coco rallado y chile',
+        fr: 'Poisson ou poulet grillé, haché et mélangé à du jus de citron, de la noix de coco râpée et du piment',
+        de: 'Gegrillter Fisch oder Hähnchen, klein geschnitten und mit Zitronensaft, Kokosraspeln und Chili vermischt',
+        it: 'Pesce o pollo alla griglia, tritato e condito con succo di limone, cocco grattugiato e peperoncino',
+        pl: 'Grillowana ryba lub kurczak, posiekane i wymieszane z sokiem z cytryny, wiórkami kokosowymi i papryczką chili',
+        nl: 'Gegrilde vis of kip, fijngesneden en gemengd met citroensap, geraspte kokos en pepertjes',
+        pt: 'Peixe ou frango grelhado, picado e misturado com suco de limão, coco ralado e pimenta',
       },
       cookingTime: 30,
       difficulty: 'easy',
@@ -751,7 +831,7 @@ export const micronesia: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -765,7 +845,7 @@ export const micronesia: Country = {
           name: {
             en: 'Grated coconut',
             sv: 'Riven kokos',
-            es: 'coco rallado',
+            es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
             it: 'Cocco grattugiato',
@@ -779,7 +859,7 @@ export const micronesia: Country = {
         {
           name: {
             en: 'Green onions',
-            sv: 'Grön lök',
+            sv: 'Salladslök',
             es: 'Cebollas verdes',
             fr: 'Oignons verts',
             de: 'Frühlingszwiebeln',
@@ -791,7 +871,7 @@ export const micronesia: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -804,7 +884,7 @@ export const micronesia: Country = {
         {
           name: {
             en: 'Hot peppers',
-            sv: 'Het paprika',
+            sv: 'Stark chili',
             es: 'Pimientos picantes',
             fr: 'Piments forts',
             de: 'Peperoni',
@@ -816,7 +896,7 @@ export const micronesia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -830,13 +910,13 @@ export const micronesia: Country = {
       steps: [
         {
           en: 'Grill fish or chicken',
-          sv: 'Grilla fisk eller kyckling',
-          es: 'Pescado o pollo a la parrilla',
+          sv: 'Grilla fisken eller kycklingen',
+          es: 'Asar el pescado o el pollo a la parrilla',
           fr: 'Griller du poisson ou du poulet',
           de: 'Fisch oder Hähnchen grillen',
           it: 'Grigliare pesce o pollo',
           pl: 'Grillować rybę lub kurczaka',
-          nl: 'Grill vis of kip',
+          nl: 'Gril de vis of kip',
           pt: 'Grelhe peixe ou frango',
         },
         {
@@ -864,24 +944,24 @@ export const micronesia: Country = {
         {
           en: 'Add grated coconut',
           sv: 'Tillsätt riven kokos',
-          es: 'Agrega coco rallado',
+          es: 'Agregar el coco rallado',
           fr: 'Ajouter la noix de coco râpée',
           de: 'Kokosraspeln hinzufügen',
           it: 'Aggiungere il cocco grattugiato',
-          pl: 'Dodać starty kokos',
+          pl: 'Dodać wiórki kokosowe',
           nl: 'Voeg geraspte kokos toe',
           pt: 'Adicione coco ralado',
         },
         {
           en: 'Add chopped onions and peppers',
-          sv: 'Tillsätt hackad lök och paprika',
-          es: 'Agrega las cebollas y los pimientos picados',
-          fr: 'Ajouter les oignons et les poivrons hachés',
-          de: 'Gehackte Zwiebeln und Paprika hinzufügen',
-          it: 'Aggiungere cipolle e peperoni tritati',
-          pl: 'Dodać posiekaną cebulę i paprykę',
-          nl: 'Voeg gehakte uien en paprika\'s toe',
-          pt: 'Adicione cebola e pimentão picados',
+          sv: 'Tillsätt hackad salladslök och chili',
+          es: 'Agregar las cebollas verdes y los pimientos picantes picados',
+          fr: 'Ajouter les oignons verts et les piments hachés',
+          de: 'Gehackte Frühlingszwiebeln und Peperoni hinzufügen',
+          it: 'Aggiungere cipollotti e peperoncini tritati',
+          pl: 'Dodać posiekaną dymkę i ostre papryczki',
+          nl: 'Voeg gehakte lente-uitjes en pepertjes toe',
+          pt: 'Adicione a cebolinha e a pimenta picadas',
         },
         {
           en: 'Serve with rice',

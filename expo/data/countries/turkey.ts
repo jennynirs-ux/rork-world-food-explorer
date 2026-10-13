@@ -263,8 +263,28 @@ export const turkey: Country = {
     },
     history: [
       {
-        year: '330 AD',
-        title: 'Constantinople Founded',
+        year: {
+          en: '330 AD',
+          sv: '330 e.Kr.',
+          es: '330 d. C.',
+          fr: '330 apr. J.-C.',
+          de: '330 n. Chr.',
+          it: '330 d.C.',
+          pl: '330 n.e.',
+          nl: '330 n.Chr.',
+          pt: '330 d.C.',
+        },
+        title: {
+          en: 'Constantinople Founded',
+          sv: 'Konstantinopel grundas',
+          es: 'Fundación de Constantinopla',
+          fr: 'Fondation de Constantinople',
+          de: 'Gründung Konstantinopels',
+          it: 'Fondazione di Costantinopoli',
+          pl: 'Założenie Konstantynopola',
+          nl: 'Stichting van Constantinopel',
+          pt: 'Fundação de Constantinopla',
+        },
         description: {
           en: 'Emperor Constantine established Constantinople (modern Istanbul) as the capital of the Byzantine Empire.',
           sv: 'Kejsar Konstantin etablerade Konstantinopel (moderna Istanbul) som huvudstad i det bysantinska riket.',
@@ -279,7 +299,17 @@ export const turkey: Country = {
       },
       {
         year: '1299',
-        title: 'Ottoman Empire Begins',
+        title: {
+          en: 'Ottoman Empire Begins',
+          sv: 'Osmanska riket grundas',
+          es: 'Nace el Imperio otomano',
+          fr: 'Naissance de l\'Empire ottoman',
+          de: 'Gründung des Osmanischen Reiches',
+          it: 'Nasce l\'Impero ottomano',
+          pl: 'Powstanie Imperium Osmańskiego',
+          nl: 'Ontstaan van het Ottomaanse Rijk',
+          pt: 'Fundação do Império Otomano',
+        },
         description: {
           en: 'Osman I founded the Ottoman Empire, which grew to control vast territories across three continents.',
           sv: 'Osman I grundade det osmanska riket, som växte till att kontrollera stora territorier över tre kontinenter.',
@@ -294,7 +324,17 @@ export const turkey: Country = {
       },
       {
         year: '1453',
-        title: 'Fall of Constantinople',
+        title: {
+          en: 'Fall of Constantinople',
+          sv: 'Konstantinopels fall',
+          es: 'Caída de Constantinopla',
+          fr: 'Chute de Constantinople',
+          de: 'Fall Konstantinopels',
+          it: 'Caduta di Costantinopoli',
+          pl: 'Upadek Konstantynopola',
+          nl: 'Val van Constantinopel',
+          pt: 'Queda de Constantinopla',
+        },
         description: {
           en: 'Ottoman Sultan Mehmed II conquered Constantinople, ending the Byzantine Empire.',
           sv: 'Den ottomanske sultanen Mehmed II erövrade Konstantinopel och gjorde slut på det bysantinska riket.',
@@ -309,7 +349,17 @@ export const turkey: Country = {
       },
       {
         year: '1923',
-        title: 'Republic Founded',
+        title: {
+          en: 'Republic Founded',
+          sv: 'Republiken grundas',
+          es: 'Fundación de la república',
+          fr: 'Fondation de la république',
+          de: 'Gründung der Republik',
+          it: 'Fondazione della repubblica',
+          pl: 'Utworzenie republiki',
+          nl: 'Stichting van de republiek',
+          pt: 'Fundação da república',
+        },
         description: {
           en: 'Mustafa Kemal Atatürk established the modern Republic of Turkey.',
           sv: 'Mustafa Kemal Atatürk etablerade den moderna republiken Turkiet.',
@@ -336,7 +386,17 @@ export const turkey: Country = {
           nl: 'Architecturaal meesterschap (Sinan)',
           pt: 'Maestria arquitetônica (Sinan)',
         },
-        year: '16th Century',
+        year: {
+          en: '16th Century',
+          sv: '1500-talet',
+          es: 'siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'século XVI',
+        },
         description: {
           en: 'Ottoman architect Mimar Sinan shaped Istanbul\'s skyline and influenced global mosque architecture with landmark designs.',
           sv: 'Den ottomanske arkitekten Mimar Sinan formade Istanbuls skyline och påverkade global moskéarkitektur med landmärkedesigner.',
@@ -361,7 +421,17 @@ export const turkey: Country = {
           nl: 'Iznik-keramiek',
           pt: 'Cerâmica de Iznik',
         },
-        year: '15th–17th Century',
+        year: {
+          en: '15th–17th Century',
+          sv: '1400–1600-talet',
+          es: 'siglos XV–XVII',
+          fr: 'XVe–XVIIe siècles',
+          de: '15.–17. Jahrhundert',
+          it: 'XV–XVII secolo',
+          pl: 'XV–XVII wiek',
+          nl: '15e–17e eeuw',
+          pt: 'séculos XV–XVII',
+        },
         description: {
           en: 'Iznik tilework became famous for vivid colors and intricate patterns, used in mosques and palaces across the empire.',
           sv: 'Izniks kakelarbete blev känt för levande färger och invecklade mönster, som användes i moskéer och palats över hela imperiet.',
@@ -386,7 +456,17 @@ export const turkey: Country = {
           nl: 'Vroege stedelijke megaprojecten',
           pt: 'Primeiros megaprojetos urbanos',
         },
-        year: 'Byzantine–Ottoman Era',
+        year: {
+          en: 'Byzantine–Ottoman Era',
+          sv: 'Bysantinsk och osmansk tid',
+          es: 'Época bizantino-otomana',
+          fr: 'Époque byzantine et ottomane',
+          de: 'Byzantinisch-osmanische Zeit',
+          it: 'Epoca bizantino-ottomana',
+          pl: 'Epoka bizantyjsko-osmańska',
+          nl: 'Byzantijns-Ottomaanse tijd',
+          pt: 'Era bizantino-otomana',
+        },
         description: {
           en: 'Monumental cisterns, bridges, and aqueducts (like those around Istanbul) supported dense cities with advanced water systems.',
           sv: 'Monumentala cisterner, broar och akvedukter (som de runt Istanbul) stödde täta städer med avancerade vattensystem.',
@@ -411,7 +491,17 @@ export const turkey: Country = {
           nl: 'Hazelnoot- en landbouwproductie',
           pt: 'Produção de avelã e agrícola',
         },
-        year: 'Modern Era',
+        year: {
+          en: 'Modern Era',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Turkey developed large-scale, globally important hazelnut cultivation and supply chains, dominating world production.',
           sv: 'Turkiet utvecklade storskalig, globalt viktig hasselnötsodling och leveranskedjor, som dominerade världsproduktionen.',
@@ -549,7 +639,17 @@ export const turkey: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Spring (April–May) and autumn (September–October) are ideal for cities and coast; winter is great for skiing and hammams.',
           sv: 'Vår (april–maj) och höst (september–oktober) är idealiska för städer och kust; vintern är bra för skidåkning och hamam.',
@@ -563,7 +663,17 @@ export const turkey: Country = {
         },
       },
       {
-        item: 'Getting around',
+        item: {
+          en: 'Getting around',
+          sv: 'Att ta sig runt',
+          es: 'Cómo moverse',
+          fr: 'Se déplacer',
+          de: 'Unterwegs vor Ort',
+          it: 'Come spostarsi',
+          pl: 'Poruszanie się',
+          nl: 'Vervoer ter plaatse',
+          pt: 'Como se locomover',
+        },
         description: {
           en: 'Domestic flights are common; intercity buses are extensive; Istanbul public transport is efficient (metro, tram, ferries).',
           sv: 'Inrikesflyg är vanliga; linjetrafikbussar är omfattande; Istanbuls kollektivtrafik är effektiv (tunnelbana, spårvagn, färjor).',
@@ -577,7 +687,17 @@ export const turkey: Country = {
         },
       },
       {
-        item: 'Cash & cards',
+        item: {
+          en: 'Cash & cards',
+          sv: 'Kontanter och kort',
+          es: 'Efectivo y tarjetas',
+          fr: 'Espèces et cartes',
+          de: 'Bargeld und Karten',
+          it: 'Contanti e carte',
+          pl: 'Gotówka i karty',
+          nl: 'Contant geld en kaarten',
+          pt: 'Dinheiro e cartões',
+        },
         description: {
           en: 'Cards are widely accepted in cities; keep cash for markets, taxis, and smaller towns.',
           sv: 'Kort är allmänt accepterade i städer; hålla kontanter för marknader, taxibilar och mindre städer.',
@@ -591,7 +711,17 @@ export const turkey: Country = {
         },
       },
       {
-        item: 'Etiquette',
+        item: {
+          en: 'Etiquette',
+          sv: 'Vett och etikett',
+          es: 'Normas de cortesía',
+          fr: 'Savoir-vivre',
+          de: 'Umgangsformen',
+          it: 'Galateo',
+          pl: 'Savoir-vivre',
+          nl: 'Etiquette',
+          pt: 'Etiqueta',
+        },
         description: {
           en: 'Dress modestly in mosques, remove shoes, and be respectful during calls to prayer and religious holidays.',
           sv: 'Klä dig anständigt i moskéer, ta av dig skor och var respektfull under bönerop och religiösa högtider.',
@@ -605,7 +735,17 @@ export const turkey: Country = {
         },
       },
       {
-        item: 'Food tip',
+        item: {
+          en: 'Food tip',
+          sv: 'Mattips',
+          es: 'Consejo gastronómico',
+          fr: 'Conseil gourmand',
+          de: 'Kulinarischer Tipp',
+          it: 'Consiglio gastronomico',
+          pl: 'Wskazówka kulinarna',
+          nl: 'Eettip',
+          pt: 'Dica gastronômica',
+        },
         description: {
           en: 'Try regional specialties: Gaziantep for baklava and pistachios, the Black Sea for anchovy dishes, and Aegean for olive-oil mezze.',
           sv: 'Prova regionala specialiteter: Gaziantep för baklava och pistagenötter, Svarta havet för ansjovisrätter och Egeiska för olivolja mezze.',
@@ -634,7 +774,7 @@ export const turkey: Country = {
       },
       description: {
         en: 'Thinly sliced döner kebab over pita bread, topped with tomato sauce, melted butter, and yogurt',
-        sv: 'Tunt skivad döner kebab över pitabröd, toppad med tomatsås, smält smör och yoghurt',
+        sv: 'Tunt skivad dönerkebab på pitabröd, toppad med tomatsås, smält smör och yoghurt',
         es: 'Döner kebab en rodajas finas sobre pan de pita, cubierto con salsa de tomate, mantequilla derretida y yogur',
         fr: 'Döner kebab tranché finement sur du pain pita, garni de sauce tomate, de beurre fondu et de yaourt',
         de: 'Dünn geschnittener Döner-Kebab auf Fladenbrot, garniert mit Tomatensauce, zerlassener Butter und Joghurt',
@@ -728,7 +868,7 @@ export const turkey: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -796,7 +936,7 @@ export const turkey: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -812,7 +952,7 @@ export const turkey: Country = {
       steps: [
         {
           en: 'Marinate meat with spices and garlic for 2 hours',
-          sv: 'Marinera kött med kryddor och vitlök i 2 timmar',
+          sv: 'Marinera köttet med kryddor och vitlök i 2 timmar',
           es: 'Marinar la carne con especias y ajo durante 2 horas',
           fr: 'Faire mariner la viande avec les épices et l\'ail pendant 2 heures',
           de: 'Fleisch mit Gewürzen und Knoblauch 2 Stunden lang marinieren',
@@ -823,7 +963,7 @@ export const turkey: Country = {
         },
         {
           en: 'Grill or pan-fry meat and slice thinly',
-          sv: 'Grilla eller stek kött och skiva tunt',
+          sv: 'Grilla eller stek köttet och skiva det tunt',
           es: 'Asa o fríe la carne y córtala en rodajas finas',
           fr: 'Griller ou poêler la viande et la trancher finement',
           de: 'Fleisch grillen oder braten und in dünne Scheiben schneiden',
@@ -834,7 +974,7 @@ export const turkey: Country = {
         },
         {
           en: 'Cook blended tomatoes with garlic into a thick sauce',
-          sv: 'Koka blandade tomater med vitlök till en tjock sås',
+          sv: 'Koka mixade tomater med vitlök till en tjock sås',
           es: 'Cocine los tomates licuados con ajo hasta obtener una salsa espesa',
           fr: 'Cuire les tomates mélangées avec l\'ail dans une sauce épaisse',
           de: 'Gemischte Tomaten mit Knoblauch zu einer dicken Soße kochen',
@@ -845,7 +985,7 @@ export const turkey: Country = {
         },
         {
           en: 'Cut pita bread into pieces and place on plates',
-          sv: 'Skär pitabröd i bitar och lägg på tallrikar',
+          sv: 'Skär pitabröden i bitar och lägg dem på tallrikar',
           es: 'Cortar el pan de pita en trozos y colocar en platos',
           fr: 'Coupez le pain pita en morceaux et disposez-le sur des assiettes',
           de: 'Fladenbrot in Stücke schneiden und auf Teller legen',
@@ -856,7 +996,7 @@ export const turkey: Country = {
         },
         {
           en: 'Top bread with meat and tomato sauce',
-          sv: 'Toppa bröd med kött och tomatsås',
+          sv: 'Toppa brödet med kött och tomatsås',
           es: 'Cubra el pan con carne y salsa de tomate',
           fr: 'Garnir le pain de viande et de sauce tomate',
           de: 'Brot mit Fleisch und Tomatensauce belegen',
@@ -867,7 +1007,7 @@ export const turkey: Country = {
         },
         {
           en: 'Melt butter with paprika and drizzle on top',
-          sv: 'Smält smör med paprika och ringla över',
+          sv: 'Smält smöret med paprikapulver och ringla över',
           es: 'Derretir la mantequilla con pimentón y rociar encima',
           fr: 'Faire fondre le beurre avec le paprika et arroser dessus',
           de: 'Butter mit Paprika schmelzen und darüber träufeln',
@@ -905,7 +1045,7 @@ export const turkey: Country = {
       },
       description: {
         en: 'Layers of flaky phyllo pastry filled with nuts and soaked in sweet syrup',
-        sv: 'Lager av flingigt filodeg fylld med nötter och indränkt i söt sirap',
+        sv: 'Lager av frasig filodeg med nötfyllning, indränkta i söt sirap',
         es: 'Capas de hojaldre de masa filo rellenas de nueces y bañadas en almíbar dulce',
         fr: 'Étages de pâte phyllo feuilletée fourrés aux noix et imbibés de sirop sucré',
         de: 'Schichten Blätterteig, gefüllt mit Nüssen und getränkt in süßem Sirup',
@@ -947,7 +1087,7 @@ export const turkey: Country = {
         {
           name: {
             en: 'Pistachios or walnuts',
-            sv: 'Pistagenötter eller valnötter',
+            sv: 'Pistaschnötter eller valnötter',
             es: 'Pistachos o nueces',
             fr: 'Pistaches ou noix',
             de: 'Pistazien oder Walnüsse',
@@ -1007,7 +1147,7 @@ export const turkey: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -1048,7 +1188,7 @@ export const turkey: Country = {
       steps: [
         {
           en: 'Layer phyllo sheets with butter in a baking tray',
-          sv: 'Varva filoplattor med smör i en bakplåt',
+          sv: 'Lägg filodegsark i lager i en ugnsform och pensla varje ark med smält smör',
           es: 'Coloque capas de hojas filo con mantequilla en una bandeja para hornear.',
           fr: 'Étalez des feuilles de pâte phyllo avec du beurre dans une plaque à pâtisserie',
           de: 'Phyllo-Blätter mit Butter auf ein Backblech legen',
@@ -1070,7 +1210,7 @@ export const turkey: Country = {
         },
         {
           en: 'Cut into diamonds before baking',
-          sv: 'Skär till diamanter före bakning',
+          sv: 'Skär i romber före gräddningen',
           es: 'Cortar en diamantes antes de hornear',
           fr: 'Couper en diamants avant la cuisson',
           de: 'Vor dem Backen in Rauten schneiden',
@@ -1081,7 +1221,7 @@ export const turkey: Country = {
         },
         {
           en: 'Bake at 180°C for 45 minutes',
-          sv: 'Grädda i 180°C i 45 minuter',
+          sv: 'Grädda i 180 °C i 45 minuter',
           es: 'Hornear a 180°C durante 45 minutos',
           fr: 'Cuire au four à 180°C pendant 45 minutes',
           de: '45 Minuten bei 180°C backen',
@@ -1092,7 +1232,7 @@ export const turkey: Country = {
         },
         {
           en: 'Boil sugar, water, honey, and lemon into syrup',
-          sv: 'Koka upp socker, vatten, honung och citron till sirap',
+          sv: 'Koka socker, vatten, honung och citronsaft till en sirap',
           es: 'Hervir el azúcar, el agua, la miel y el limón hasta obtener almíbar',
           fr: 'Faire bouillir le sucre, l\'eau, le miel et le citron dans le sirop',
           de: 'Zucker, Wasser, Honig und Zitrone zu Sirup aufkochen',
@@ -1103,7 +1243,7 @@ export const turkey: Country = {
         },
         {
           en: 'Pour hot syrup over baked baklava',
-          sv: 'Häll varm sirap över bakad baklava',
+          sv: 'Häll den varma sirapen över den gräddade baklavan',
           es: 'Vierta almíbar caliente sobre el baklava horneado',
           fr: 'Versez le sirop chaud sur le baklava cuit',
           de: 'Gießen Sie heißen Sirup über gebackenes Baklava',
@@ -1685,7 +1825,7 @@ export const turkey: Country = {
           },
           {
             en: 'Grand Bazaar',
-            sv: 'Grand Bazaar',
+            sv: 'Stora basaren',
             es: 'Gran Bazar',
             fr: 'Grand Bazar',
             de: 'Großer Basar',

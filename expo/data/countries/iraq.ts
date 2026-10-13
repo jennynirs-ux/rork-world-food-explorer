@@ -219,8 +219,28 @@ export const iraq: Country = {
     },
     history: [
       {
-        year: '3000 BC',
-        title: 'Barley Cultivation',
+        year: {
+          en: '3000 BC',
+          sv: '3000 f.Kr.',
+          es: '3000 a. C.',
+          fr: '3000 av. J.-C.',
+          de: '3000 v. Chr.',
+          it: '3000 a.C.',
+          pl: '3000 p.n.e.',
+          nl: '3000 v.Chr.',
+          pt: '3000 a.C.',
+        },
+        title: {
+          en: 'Barley Cultivation',
+          sv: 'Kornodling',
+          es: 'Cultivo de cebada',
+          fr: 'Culture de l\'orge',
+          de: 'Gerstenanbau',
+          it: 'Coltivazione dell\'orzo',
+          pl: 'Uprawa jęczmienia',
+          nl: 'Gerstteelt',
+          pt: 'Cultivo de cevada',
+        },
         description: {
           en: 'Ancient Mesopotamians cultivated barley and emmer wheat in fertile lands between Tigris and Euphrates rivers, establishing agriculture',
           sv: 'Antika mesopotamier odlade korn och emmervete i fertil mark mellan floderna Tigris och Eufrat',
@@ -234,8 +254,28 @@ export const iraq: Country = {
         },
       },
       {
-        year: '2100 BC',
-        title: 'Sumerian Date Culture',
+        year: {
+          en: '2100 BC',
+          sv: '2100 f.Kr.',
+          es: '2100 a. C.',
+          fr: '2100 av. J.-C.',
+          de: '2100 v. Chr.',
+          it: '2100 a.C.',
+          pl: '2100 p.n.e.',
+          nl: '2100 v.Chr.',
+          pt: '2100 a.C.',
+        },
+        title: {
+          en: 'Sumerian Date Culture',
+          sv: 'Sumerisk dadelodling',
+          es: 'Cultivo sumerio de dátiles',
+          fr: 'Culture du dattier à Sumer',
+          de: 'Dattelanbau der Sumerer',
+          it: 'Coltivazione sumera dei datteri',
+          pl: 'Sumeryjska uprawa daktyli',
+          nl: 'Sumerische dadelteelt',
+          pt: 'Cultivo sumério de tâmaras',
+        },
         description: {
           en: 'Date palm cultivation flourished in Mesopotamia, becoming a staple food with over 360 varieties documented by Sumerians',
           sv: 'Dadelpalmsodling blomstrade i Mesopotamien och blev en stapelvara',
@@ -249,8 +289,28 @@ export const iraq: Country = {
         },
       },
       {
-        year: '500 AD',
-        title: 'Kebab Traditions Emerge',
+        year: {
+          en: '500 AD',
+          sv: '500 e.Kr.',
+          es: '500 d. C.',
+          fr: '500 apr. J.-C.',
+          de: '500 n. Chr.',
+          it: '500 d.C.',
+          pl: '500 n.e.',
+          nl: '500 n.Chr.',
+          pt: '500 d.C.',
+        },
+        title: {
+          en: 'Kebab Traditions Emerge',
+          sv: 'Kebabtraditioner växer fram',
+          es: 'Nacen las tradiciones del kebab',
+          fr: 'Naissance des traditions du kebab',
+          de: 'Kebab-Traditionen entstehen',
+          it: 'Nascono le tradizioni del kebab',
+          pl: 'Narodziny tradycji kebabu',
+          nl: 'Opkomst van de kebabtraditie',
+          pt: 'Surgem as tradições do kebab',
+        },
         description: {
           en: 'Grilled meat preparations became central to Iraqi cuisine, with early forms of masgouf and kebab dishes developing along the Tigris',
           sv: 'Grillad köttberedning blev central i irakisk mat',
@@ -264,8 +324,28 @@ export const iraq: Country = {
         },
       },
       {
-        year: '1500s',
-        title: 'Rice and Spice Trade',
+        year: {
+          en: '1500s',
+          sv: '1500-talet',
+          es: 'Siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'Século XVI',
+        },
+        title: {
+          en: 'Rice and Spice Trade',
+          sv: 'Handel med ris och kryddor',
+          es: 'Comercio de arroz y especias',
+          fr: 'Commerce du riz et des épices',
+          de: 'Reis- und Gewürzhandel',
+          it: 'Commercio di riso e spezie',
+          pl: 'Handel ryżem i przyprawami',
+          nl: 'Rijst- en specerijenhandel',
+          pt: 'Comércio de arroz e especiarias',
+        },
         description: {
           en: 'Baghdad became center of Silk Road trade, introducing new spices and rice cultivation techniques that transformed Iraqi cookery',
           sv: 'Bagdad blev centrum för Silkvägshandel',
@@ -333,7 +413,7 @@ export const iraq: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -383,7 +463,7 @@ export const iraq: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -408,7 +488,7 @@ export const iraq: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -452,7 +532,7 @@ export const iraq: Country = {
       steps: [
         {
           en: 'Butterfly fish and remove bones',
-          sv: 'Fjärilsfisk och ta bort ben',
+          sv: 'Fläk fisken och ta bort benen',
           es: 'Pez mariposa y quitar espinas',
           fr: 'Poisson papillon et enlever les arêtes',
           de: 'Falterfische und Gräten entfernen',
@@ -496,7 +576,7 @@ export const iraq: Country = {
         },
         {
           en: 'Serve fish with grilled vegetables',
-          sv: 'Servera fisk med grillade grönsaker',
+          sv: 'Servera fisken med de grillade grönsakerna',
           es: 'Servir pescado con verduras asadas',
           fr: 'Servir le poisson avec des légumes grillés',
           de: 'Fisch mit gegrilltem Gemüse servieren',
@@ -507,7 +587,7 @@ export const iraq: Country = {
         },
         {
           en: 'Accompany with flatbread and pickles',
-          sv: 'Följ med tunnbröd och saltgurka',
+          sv: 'Servera med flatbröd och inlagda grönsaker',
           es: 'Acompañar con pan plano y pepinillos',
           fr: 'Accompagner de pain plat et de cornichons',
           de: 'Mit Fladenbrot und Gurken',
@@ -571,7 +651,17 @@ export const iraq: Country = {
           nl: 'Schriftsysteem',
           pt: 'Sistema de escrita',
         },
-        year: '3400 BC',
+        year: {
+          en: '3400 BC',
+          sv: '3400 f.Kr.',
+          es: '3400 a. C.',
+          fr: '3400 av. J.-C.',
+          de: '3400 v. Chr.',
+          it: '3400 a.C.',
+          pl: '3400 p.n.e.',
+          nl: '3400 v.Chr.',
+          pt: '3400 a.C.',
+        },
         description: {
           en: 'Mesopotamians invented cuneiform, one of the earliest writing systems in human history.',
           sv: 'Mesopotamierna uppfann kilskrift, ett av de tidigaste skriftsystemen i mänsklighetens historia.',
@@ -596,7 +686,17 @@ export const iraq: Country = {
           nl: 'Het wiel',
           pt: 'A roda',
         },
-        year: '3500 BC',
+        year: {
+          en: '3500 BC',
+          sv: '3500 f.Kr.',
+          es: '3500 a. C.',
+          fr: '3500 av. J.-C.',
+          de: '3500 v. Chr.',
+          it: '3500 a.C.',
+          pl: '3500 p.n.e.',
+          nl: '3500 v.Chr.',
+          pt: '3500 a.C.',
+        },
         description: {
           en: 'The wheel was invented in ancient Mesopotamia, revolutionizing transportation and pottery.',
           sv: 'Hjulet uppfanns i det antika Mesopotamien, vilket revolutionerade transport och keramik.',
@@ -621,7 +721,17 @@ export const iraq: Country = {
           nl: 'Wiskunde',
           pt: 'Matemática',
         },
-        year: '3000 BC',
+        year: {
+          en: '3000 BC',
+          sv: '3000 f.Kr.',
+          es: '3000 a. C.',
+          fr: '3000 av. J.-C.',
+          de: '3000 v. Chr.',
+          it: '3000 a.C.',
+          pl: '3000 p.n.e.',
+          nl: '3000 v.Chr.',
+          pt: '3000 a.C.',
+        },
         description: {
           en: 'Babylonians developed advanced mathematics including the base-60 system still used for time.',
           sv: 'Babylonier utvecklade avancerad matematik inklusive bas-60-systemet som fortfarande användes under tiden.',
@@ -646,7 +756,17 @@ export const iraq: Country = {
           nl: 'De Hangende Tuinen',
           pt: 'Os Jardins Suspensos',
         },
-        year: '600 BC',
+        year: {
+          en: '600 BC',
+          sv: '600 f.Kr.',
+          es: '600 a. C.',
+          fr: '600 av. J.-C.',
+          de: '600 v. Chr.',
+          it: '600 a.C.',
+          pl: '600 p.n.e.',
+          nl: '600 v.Chr.',
+          pt: '600 a.C.',
+        },
         description: {
           en: 'One of the Seven Wonders of the Ancient World was built in Babylon.',
           sv: 'Ett av den antika världens sju underverk byggdes i Babylon.',
@@ -736,7 +856,7 @@ export const iraq: Country = {
       {
         name: {
           en: 'Erbil Citadel',
-          sv: 'Erbil Citadel',
+          sv: 'Erbils citadell',
           es: 'Ciudadela de Erbil',
           fr: 'Citadelle d\'Erbil',
           de: 'Zitadelle von Erbil',
@@ -784,7 +904,17 @@ export const iraq: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa required for most nationalities. Apply in advance or check current entry requirements.',
           sv: 'Visum krävs för de flesta nationaliteter. Ansök i förväg eller kontrollera aktuella behörighetskrav.',
@@ -798,7 +928,17 @@ export const iraq: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October to April for mild weather. Summer can be extremely hot.',
           sv: 'Oktober till april för milt väder. Sommaren kan vara extremt varm.',
@@ -812,7 +952,17 @@ export const iraq: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories. Some areas require special permits or caution.',
           sv: 'Kontrollera aktuella resemeddelanden. Vissa områden kräver särskilda tillstånd eller försiktighet.',
@@ -826,7 +976,17 @@ export const iraq: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Arabic and Kurdish are official. English limited outside major cities.',
           sv: 'Arabiska och kurdiska är officiella. Engelska begränsad utanför större städer.',
@@ -840,7 +1000,17 @@ export const iraq: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Modest clothing recommended. Respect local customs and traditions.',
           sv: 'Moderat kläder rekommenderas. Respektera lokala seder och traditioner.',
@@ -869,7 +1039,7 @@ export const iraq: Country = {
       },
       description: {
         en: 'Traditional Iraqi date-filled cookies, often served with tea',
-        sv: 'Traditionella irakiska dadelfyllda kakor, ofta serverade med te',
+        sv: 'Traditionella irakiska kakor fyllda med dadlar, ofta serverade till te',
         es: 'Galletas tradicionales iraquíes rellenas de dátiles, a menudo servidas con té',
         fr: 'Biscuits traditionnels irakiens fourrés aux dattes, souvent servis avec du thé',
         de: 'Traditionelle irakische Kekse mit Dattelfüllung, oft serviert mit Tee',
@@ -896,7 +1066,7 @@ export const iraq: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -941,7 +1111,7 @@ export const iraq: Country = {
         {
           name: {
             en: 'Date paste',
-            sv: 'Datumklistra',
+            sv: 'Dadelpasta',
             es: 'Pasta de dátil',
             fr: 'Pâte de dattes',
             de: 'Datum einfügen',
@@ -1012,7 +1182,7 @@ export const iraq: Country = {
       steps: [
         {
           en: 'Mix flour, butter, sugar, and cardamom until crumbly',
-          sv: 'Blanda mjöl, smör, socker och kardemumma till smuligt',
+          sv: 'Nyp ihop vetemjöl, smör, socker och kardemumma till en smulig massa',
           es: 'Mezcle la harina, la mantequilla, el azúcar y el cardamomo hasta que se desmorone',
           fr: 'Mélanger la farine, le beurre, le sucre et la cardamome jusqu\'à obtenir une texture friable',
           de: 'Mehl, Butter, Zucker und Kardamom vermischen, bis es krümelig ist',
@@ -1023,7 +1193,7 @@ export const iraq: Country = {
         },
         {
           en: 'Add milk and rose water, knead into smooth dough',
-          sv: 'Tillsätt mjölk och rosenvatten, knåda till smidig deg',
+          sv: 'Tillsätt mjölk och rosenvatten och knåda till en smidig deg',
           es: 'Agregue la leche y el agua de rosas, amase hasta obtener una masa suave',
           fr: 'Ajouter le lait et l\'eau de rose, pétrir jusqu\'à obtenir une pâte lisse',
           de: 'Milch und Rosenwasser hinzufügen, zu einem glatten Teig verkneten',
@@ -1045,7 +1215,7 @@ export const iraq: Country = {
         },
         {
           en: 'Roll dough and cut into circles',
-          sv: 'Rulla degen och skär i cirklar',
+          sv: 'Kavla ut degen och stansa ut rundlar',
           es: 'Enrollar la masa y cortarla en círculos',
           fr: 'Abaisser la pâte et la couper en cercles',
           de: 'Teig ausrollen und in Kreise schneiden',
@@ -1056,7 +1226,7 @@ export const iraq: Country = {
         },
         {
           en: 'Place date paste in center of each circle',
-          sv: 'Placera datumpasta i mitten av varje cirkel',
+          sv: 'Lägg en klick dadelpasta mitt på varje rundel',
           es: 'Coloque pasta de dátiles en el centro de cada círculo',
           fr: 'Placez la pâte de datte au centre de chaque cercle',
           de: 'Platzieren Sie Dattelpaste in der Mitte jedes Kreises',
@@ -1067,7 +1237,7 @@ export const iraq: Country = {
         },
         {
           en: 'Fold and seal, creating traditional patterns with fork',
-          sv: 'Vik och försegla, skapa traditionella mönster med gaffel',
+          sv: 'Vik ihop, tryck till kanterna och gör traditionella mönster med en gaffel',
           es: 'Doblar y sellar, creando patrones tradicionales con un tenedor',
           fr: 'Pliez et scellez pour créer des motifs traditionnels avec une fourchette',
           de: 'Falten und versiegeln, so dass mit der Gabel traditionelle Muster entstehen',
@@ -1078,7 +1248,7 @@ export const iraq: Country = {
         },
         {
           en: 'Bake at 350°F for 20-25 minutes until golden',
-          sv: 'Grädda i 350°F i 20-25 minuter tills de är gyllene',
+          sv: 'Grädda i 175°C i 20–25 minuter tills de är gyllene',
           es: 'Hornee a 350°F durante 20-25 minutos hasta que esté dorado',
           fr: 'Cuire au four à 350°F pendant 20-25 minutes jusqu\'à ce qu\'ils soient dorés',
           de: 'Bei 350 °F 20–25 Minuten backen, bis es goldbraun ist',
@@ -1089,7 +1259,7 @@ export const iraq: Country = {
         },
         {
           en: 'Cool completely and serve with tea',
-          sv: 'Kyl helt och servera med te',
+          sv: 'Låt svalna helt och servera till te',
           es: 'Deje enfriar completamente y sirva con té',
           fr: 'Laisser refroidir complètement et servir avec du thé',
           de: 'Vollständig abkühlen lassen und mit Tee servieren',
@@ -1384,7 +1554,7 @@ export const iraq: Country = {
           },
           {
             en: 'Fish and Chips',
-            sv: 'Fish and Chips',
+            sv: 'Fish and chips',
             es: 'Pescado y patatas fritas',
             fr: 'Poisson-frites',
             de: 'Fish and Chips',

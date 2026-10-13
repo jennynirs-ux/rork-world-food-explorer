@@ -252,8 +252,28 @@ export const tunisia: Country = {
     },
     history: [
       {
-        year: '814 BC',
-        title: 'Founding of Carthage',
+        year: {
+          en: '814 BC',
+          sv: '814 f.Kr.',
+          es: '814 a. C.',
+          fr: '814 av. J.-C.',
+          de: '814 v. Chr.',
+          it: '814 a.C.',
+          pl: '814 p.n.e.',
+          nl: '814 v.Chr.',
+          pt: '814 a.C.',
+        },
+        title: {
+          en: 'Founding of Carthage',
+          sv: 'Karthagos grundande',
+          es: 'Fundación de Cartago',
+          fr: 'Fondation de Carthage',
+          de: 'Gründung Karthagos',
+          it: 'Fondazione di Cartagine',
+          pl: 'Założenie Kartaginy',
+          nl: 'Stichting van Carthago',
+          pt: 'Fundação de Cartago',
+        },
         description: {
           en: 'The Phoenicians founded Carthage, which became a major Mediterranean power and Rome\'s greatest rival.',
           sv: 'Fenicierna grundade Kartago, som blev en stor medelhavsmakt och Roms största rival.',
@@ -267,8 +287,28 @@ export const tunisia: Country = {
         },
       },
       {
-        year: '146 BC',
-        title: 'Roman Rule',
+        year: {
+          en: '146 BC',
+          sv: '146 f.Kr.',
+          es: '146 a. C.',
+          fr: '146 av. J.-C.',
+          de: '146 v. Chr.',
+          it: '146 a.C.',
+          pl: '146 p.n.e.',
+          nl: '146 v.Chr.',
+          pt: '146 a.C.',
+        },
+        title: {
+          en: 'Roman Rule',
+          sv: 'Romerskt styre',
+          es: 'Dominio romano',
+          fr: 'Domination romaine',
+          de: 'Römische Herrschaft',
+          it: 'Dominazione romana',
+          pl: 'Panowanie rzymskie',
+          nl: 'Romeinse overheersing',
+          pt: 'Domínio romano',
+        },
         description: {
           en: 'Carthage was destroyed by Rome and Tunisia became a key Roman province.',
           sv: 'Kartago förstördes av Rom och Tunisien blev en viktig romersk provins.',
@@ -282,8 +322,28 @@ export const tunisia: Country = {
         },
       },
       {
-        year: '7th Century',
-        title: 'Arab Conquest',
+        year: {
+          en: '7th Century',
+          sv: '600-talet',
+          es: 'siglo VII',
+          fr: 'VIIe siècle',
+          de: '7. Jahrhundert',
+          it: 'VII secolo',
+          pl: 'VII wiek',
+          nl: '7e eeuw',
+          pt: 'século VII',
+        },
+        title: {
+          en: 'Arab Conquest',
+          sv: 'Arabiska erövringen',
+          es: 'Conquista árabe',
+          fr: 'Conquête arabe',
+          de: 'Arabische Eroberung',
+          it: 'Conquista araba',
+          pl: 'Podbój arabski',
+          nl: 'Arabische verovering',
+          pt: 'Conquista árabe',
+        },
         description: {
           en: 'Islam and Arabic culture spread across the region, shaping modern Tunisia.',
           sv: 'Islam och arabisk kultur spreds över regionen och formar det moderna Tunisien.',
@@ -298,7 +358,17 @@ export const tunisia: Country = {
       },
       {
         year: '1881–1956',
-        title: 'French Protectorate',
+        title: {
+          en: 'French Protectorate',
+          sv: 'Franskt protektorat',
+          es: 'Protectorado francés',
+          fr: 'Protectorat français',
+          de: 'Französisches Protektorat',
+          it: 'Protettorato francese',
+          pl: 'Protektorat francuski',
+          nl: 'Frans protectoraat',
+          pt: 'Protetorado francês',
+        },
         description: {
           en: 'Tunisia was under French rule until independence in 1956.',
           sv: 'Tunisien var under franskt styre fram till självständigheten 1956.',
@@ -350,7 +420,17 @@ export const tunisia: Country = {
           nl: 'Carthaagse maritieme handel',
           pt: 'Comércio marítimo cartaginês',
         },
-        year: 'Ancient Era',
+        year: {
+          en: 'Ancient Era',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Carthage was a naval and commercial powerhouse, pioneering Mediterranean trade routes.',
           sv: 'Kartago var ett marin och kommersiellt kraftpaket, banbrytande handelsvägar i Medelhavet.',
@@ -375,7 +455,17 @@ export const tunisia: Country = {
           nl: 'Romeinse infrastructuur',
           pt: 'Infraestrutura romana',
         },
-        year: '1st–3rd Century',
+        year: {
+          en: '1st–3rd Century',
+          sv: '1:a–3:e århundradet',
+          es: 'Siglos I–III',
+          fr: 'Ier–IIIe siècles',
+          de: '1.–3. Jahrhundert',
+          it: 'I–III secolo',
+          pl: 'I–III wiek',
+          nl: '1e–3e eeuw',
+          pt: 'Séculos I–III',
+        },
         description: {
           en: 'Tunisia preserves some of the best Roman roads, aqueducts, and amphitheaters in the world.',
           sv: 'Tunisien bevarar några av de bästa romerska vägarna, akvedukterna och amfiteatrarna i världen.',
@@ -400,7 +490,17 @@ export const tunisia: Country = {
           nl: 'Olijfolieproductie',
           pt: 'Produção de azeite de oliva',
         },
-        year: 'Ancient–Modern',
+        year: {
+          en: 'Ancient–Modern',
+          sv: 'Forntid–nutid',
+          es: 'Antigüedad–época moderna',
+          fr: 'Antiquité–époque moderne',
+          de: 'Antike–Moderne',
+          it: 'Antichità–età moderna',
+          pl: 'Starożytność–współczesność',
+          nl: 'Oudheid–moderne tijd',
+          pt: 'Antiguidade–era moderna',
+        },
         description: {
           en: 'Tunisia has been a major olive oil producer since Roman times and remains one today.',
           sv: 'Tunisien har varit en stor olivoljeproducent sedan romartiden och är fortfarande en idag.',
@@ -538,7 +638,17 @@ export const tunisia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Spring (April–May) and autumn (September–October) offer pleasant temperatures.',
           sv: 'Våren (april–maj) och hösten (september–oktober) erbjuder behagliga temperaturer.',
@@ -552,7 +662,17 @@ export const tunisia: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Modest clothing recommended, especially in religious or rural areas.',
           sv: 'Anspråkslösa kläder rekommenderas, särskilt i religiösa eller landsbygdsområden.',
@@ -566,7 +686,17 @@ export const tunisia: Country = {
         },
       },
       {
-        item: 'Money',
+        item: {
+          en: 'Money',
+          sv: 'Pengar',
+          es: 'Dinero',
+          fr: 'Argent',
+          de: 'Geld',
+          it: 'Denaro',
+          pl: 'Pieniądze',
+          nl: 'Geld',
+          pt: 'Dinheiro',
+        },
         description: {
           en: 'The Tunisian Dinar is not freely convertible; exchange locally.',
           sv: 'Den tunisiska dinaren är inte fritt konvertibel; utbyta lokalt.',
@@ -580,7 +710,17 @@ export const tunisia: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Louages (shared taxis) and trains are common and affordable.',
           sv: 'Louages ​​(delade taxibilar) och tåg är vanliga och prisvärda.',
@@ -594,7 +734,17 @@ export const tunisia: Country = {
         },
       },
       {
-        item: 'Food tip',
+        item: {
+          en: 'Food tip',
+          sv: 'Mattips',
+          es: 'Consejo gastronómico',
+          fr: 'Conseil gourmand',
+          de: 'Kulinarischer Tipp',
+          it: 'Consiglio gastronomico',
+          pl: 'Wskazówka kulinarna',
+          nl: 'Eettip',
+          pt: 'Dica gastronômica',
+        },
         description: {
           en: 'Harissa is often spicy—ask for "little" or "no harissa" if sensitive to heat.',
           sv: 'Harissa är ofta kryddig - fråga efter "liten" eller "ingen harissa" om den är känslig för värme.',
@@ -612,7 +762,7 @@ export const tunisia: Country = {
       id: 'tunisia-main',
       name: {
         en: 'Couscous Tunisien',
-        sv: 'Couscous Tunisien',
+        sv: 'Tunisisk couscous',
         es: 'Cuscús tunecino',
         fr: 'Couscous Tunisien',
         de: 'Couscous Tunesien',
@@ -707,7 +857,7 @@ export const tunisia: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -732,7 +882,7 @@ export const tunisia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -757,7 +907,7 @@ export const tunisia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -770,7 +920,7 @@ export const tunisia: Country = {
         {
           name: {
             en: 'Harissa paste',
-            sv: 'Harissa pasta',
+            sv: 'Harissa',
             es: 'Pasta de harissa',
             fr: 'Pâte d\'harissa',
             de: 'Harissa-Paste',
@@ -820,7 +970,7 @@ export const tunisia: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -861,7 +1011,7 @@ export const tunisia: Country = {
       steps: [
         {
           en: 'Brown lamb in olive oil with cumin and salt',
-          sv: 'Bryn lamm i olivolja med spiskummin och salt',
+          sv: 'Bryn lammköttet i olivolja med spiskummin och salt',
           es: 'Dorar el cordero en aceite de oliva con comino y sal',
           fr: 'Faire revenir l\'agneau à l\'huile d\'olive avec du cumin et du sel',
           de: 'Lammfleisch in Olivenöl mit Kreuzkümmel und Salz anbraten',
@@ -872,7 +1022,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Add water, tomato paste, and harissa; simmer 30 minutes',
-          sv: 'Tillsätt vatten, tomatpuré och harissa; sjuda 30 minuter',
+          sv: 'Tillsätt vatten, tomatpuré och harissa och låt sjuda i 30 minuter',
           es: 'Agrega el agua, la pasta de tomate y la harissa; cocine a fuego lento 30 minutos',
           fr: 'Ajouter l\'eau, la pâte de tomate et la harissa; laisser mijoter 30 minutes',
           de: 'Wasser, Tomatenmark und Harissa hinzufügen; 30 Minuten köcheln lassen',
@@ -894,7 +1044,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Prepare couscous according to package instructions',
-          sv: 'Förbered couscous enligt anvisningarna på förpackningen',
+          sv: 'Tillaga couscousen enligt anvisningarna på förpackningen',
           es: 'Prepare el cuscús según las instrucciones del paquete',
           fr: 'Préparez le couscous selon les instructions sur l\'emballage',
           de: 'Couscous nach Packungsanleitung zubereiten',
@@ -905,7 +1055,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Steam couscous briefly over the stew',
-          sv: 'Ånga couscous kort över grytan',
+          sv: 'Ånga couscousen en kort stund över grytan',
           es: 'Cueza al vapor brevemente el cuscús sobre el guiso',
           fr: 'Cuire brièvement le couscous à la vapeur sur le ragoût',
           de: 'Couscous kurz über dem Eintopf dämpfen',
@@ -916,7 +1066,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Fluff couscous with olive oil',
-          sv: 'Fluff couscous med olivolja',
+          sv: 'Rör upp couscousen med lite olivolja så att den blir luftig',
           es: 'Cuscús esponjado con aceite de oliva',
           fr: 'Couscous gonflé à l\'huile d\'olive',
           de: 'Couscous mit Olivenöl auflockern',
@@ -927,7 +1077,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Serve couscous topped with meat and vegetables',
-          sv: 'Servera couscous toppad med kött och grönsaker',
+          sv: 'Servera couscousen toppad med kött och grönsaker',
           es: 'Sirva el cuscús cubierto con carne y verduras',
           fr: 'Servir le couscous garni de viande et de légumes',
           de: 'Couscous mit Fleisch und Gemüse garniert servieren',
@@ -938,7 +1088,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Ladle broth over and add extra harissa if desired',
-          sv: 'Häll över buljong och tillsätt extra harissa om så önskas',
+          sv: 'Ös över buljong och servera med extra harissa om du vill',
           es: 'Sirva el caldo y agregue más harissa si lo desea',
           fr: 'Versez le bouillon et ajoutez de la harissa supplémentaire si vous le souhaitez',
           de: 'Brühe darübergießen und bei Bedarf zusätzliches Harissa hinzufügen',
@@ -965,7 +1115,7 @@ export const tunisia: Country = {
       },
       description: {
         en: 'Traditional Tunisian fried doughnuts, crispy outside and fluffy inside, often eaten hot with sugar.',
-        sv: 'Traditionella tunisiska stekta munkar, krispiga på utsidan och fluffiga inuti, äts ofta varma med socker.',
+        sv: 'Traditionella tunisiska friterade munkar, krispiga utanpå och luftiga inuti, som ofta äts varma med socker.',
         es: 'Donuts fritos tradicionales tunecinos, crujientes por fuera y esponjosos por dentro, que a menudo se comen calientes con azúcar.',
         fr: 'Beignets frits tunisiens traditionnels, croustillants à l\'extérieur et moelleux à l\'intérieur, souvent consommés chauds avec du sucre.',
         de: 'Traditionelle tunesische frittierte Donuts, außen knusprig und innen fluffig, oft heiß mit Zucker gegessen.',
@@ -992,7 +1142,7 @@ export const tunisia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1067,7 +1217,7 @@ export const tunisia: Country = {
         {
           name: {
             en: 'Vegetable oil (for frying)',
-            sv: 'Vegetabilisk olja (för stekning)',
+            sv: 'Neutral olja (till stekning)',
             es: 'Aceite vegetal (para freír)',
             fr: 'Huile végétale (pour la friture)',
             de: 'Pflanzenöl (zum Braten)',
@@ -1082,7 +1232,7 @@ export const tunisia: Country = {
         {
           name: {
             en: 'Powdered sugar (for serving)',
-            sv: 'Pulversocker (för servering)',
+            sv: 'Florsocker (till servering)',
             es: 'Azúcar en polvo (para servir)',
             fr: 'Sucre en poudre (pour servir)',
             de: 'Puderzucker (zum Servieren)',
@@ -1098,7 +1248,7 @@ export const tunisia: Country = {
       steps: [
         {
           en: 'Mix yeast, sugar, and warm water; rest 10 minutes',
-          sv: 'Blanda jäst, socker och varmt vatten; vila 10 minuter',
+          sv: 'Blanda jäst, socker och ljummet vatten och låt stå i 10 minuter',
           es: 'Mezcla la levadura, el azúcar y el agua tibia; descansar 10 minutos',
           fr: 'Mélanger la levure, le sucre et l\'eau tiède; repos 10 minutes',
           de: 'Hefe, Zucker und warmes Wasser mischen; 10 Minuten ruhen',
@@ -1109,7 +1259,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Add flour and salt and mix into sticky dough',
-          sv: 'Tillsätt mjöl och salt och blanda till en kladdig deg',
+          sv: 'Tillsätt vetemjöl och salt och blanda till en kladdig deg',
           es: 'Agregue la harina y la sal y mezcle hasta obtener una masa pegajosa',
           fr: 'Ajouter la farine et le sel et mélanger à la pâte collante',
           de: 'Mehl und Salz hinzufügen und zu einem klebrigen Teig verrühren',
@@ -1120,7 +1270,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Cover and let rise 1 hour until doubled',
-          sv: 'Täck över och låt jäsa 1 timme tills det fördubblats',
+          sv: 'Täck över och låt jäsa i 1 timme tills degen har dubblats i storlek',
           es: 'Tapar y dejar reposar 1 hora hasta que doble',
           fr: 'Couvrir et laisser lever 1 heure jusqu\'à ce qu\'il double',
           de: 'Abdecken und 1 Stunde gehen lassen, bis sich das Volumen verdoppelt hat',
@@ -1131,7 +1281,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Heat oil to 180°C',
-          sv: 'Värm olja till 180°C',
+          sv: 'Hetta upp oljan till 180 °C',
           es: 'Calentar el aceite a 180°C',
           fr: 'Chauffer l\'huile à 180°C',
           de: 'Öl auf 180°C erhitzen',
@@ -1153,7 +1303,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Fry until golden on both sides',
-          sv: 'Stek tills de är gyllene på båda sidor',
+          sv: 'Fritera tills munkarna är gyllene på båda sidor',
           es: 'Freír hasta que estén dorados por ambos lados',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés des deux côtés',
           de: 'Auf beiden Seiten goldbraun braten',
@@ -1175,7 +1325,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Dust generously with powdered sugar',
-          sv: 'Pudra generöst med strösocker',
+          sv: 'Pudra rikligt med florsocker',
           es: 'Espolvorear generosamente con azúcar glass',
           fr: 'Saupoudrer généreusement de sucre en poudre',
           de: 'Großzügig mit Puderzucker bestäuben',
@@ -1186,7 +1336,7 @@ export const tunisia: Country = {
         },
         {
           en: 'Serve hot',
-          sv: 'Servera varm',
+          sv: 'Servera varma',
           es: 'Servir caliente',
           fr: 'Servir chaud',
           de: 'Heiß servieren',

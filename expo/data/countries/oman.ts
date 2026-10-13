@@ -220,7 +220,17 @@ export const oman: Country = {
     history: [
       {
         year: '751',
-        title: 'Ibadi Imamate',
+        title: {
+          en: 'Ibadi Imamate',
+          sv: 'Ibaditiska imamatet',
+          es: 'Imamato ibadí',
+          fr: 'Imamat ibadite',
+          de: 'Ibaditisches Imamat',
+          it: 'Imamato ibadita',
+          pl: 'Imamat ibadycki',
+          nl: 'Ibaditisch imamaat',
+          pt: 'Imamato ibadita',
+        },
         description: {
           en: 'Oman became one of the oldest independent states in the Arab world.',
           sv: 'Oman blev en av de äldsta självständiga staterna i arabvärlden.',
@@ -235,7 +245,17 @@ export const oman: Country = {
       },
       {
         year: '1650-1850',
-        title: 'Maritime Empire',
+        title: {
+          en: 'Maritime Empire',
+          sv: 'Sjöimperium',
+          es: 'Imperio marítimo',
+          fr: 'Empire maritime',
+          de: 'Seereich',
+          it: 'Impero marittimo',
+          pl: 'Imperium morskie',
+          nl: 'Maritiem rijk',
+          pt: 'Império marítimo',
+        },
         description: {
           en: 'Oman controlled extensive trade routes and territories including Zanzibar.',
           sv: 'Oman kontrollerade omfattande handelsvägar och territorier inklusive Zanzibar.',
@@ -250,7 +270,17 @@ export const oman: Country = {
       },
       {
         year: '1970',
-        title: 'Modern Oman',
+        title: {
+          en: 'Modern Oman',
+          sv: 'Det moderna Oman',
+          es: 'Omán moderno',
+          fr: 'L\'Oman moderne',
+          de: 'Das moderne Oman',
+          it: 'L\'Oman moderno',
+          pl: 'Współczesny Oman',
+          nl: 'Modern Oman',
+          pt: 'Omã moderno',
+        },
         description: {
           en: 'Sultan Qaboos began modernization while preserving culture.',
           sv: 'Sultan Qaboos började modernisera samtidigt som kulturen bevarades.',
@@ -277,7 +307,17 @@ export const oman: Country = {
           nl: 'Wierookhandel',
           pt: 'Comércio de incenso',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Controlled frankincense trade routes for thousands of years.',
           sv: 'Kontrollerade frankincense handelsvägar i tusentals år.',
@@ -302,7 +342,17 @@ export const oman: Country = {
           nl: 'Dhow-bouw',
           pt: 'Construção de dhows',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Traditional wooden boat building techniques passed down generations.',
           sv: 'Traditionella träbåtsbyggnadstekniker gick i arv i generationer.',
@@ -327,7 +377,17 @@ export const oman: Country = {
           nl: 'Falaj-irrigatie',
           pt: 'Irrigação Falaj',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Traditional irrigation system, UNESCO World Heritage.',
           sv: 'Traditionellt bevattningssystem, Unescos världsarv.',
@@ -369,7 +429,7 @@ export const oman: Country = {
       {
         name: {
           en: 'Wahiba Sands',
-          sv: 'Wahiba Sands',
+          sv: 'Wahibaöknen',
           es: 'Arenas de Wahiba',
           fr: 'Sables Wahiba',
           de: 'Wahiba Sands',
@@ -393,7 +453,7 @@ export const oman: Country = {
       {
         name: {
           en: 'Nizwa Fort',
-          sv: 'Nizwa Fort',
+          sv: 'Nizwafortet',
           es: 'Fuerte de Nizwa',
           fr: 'Fort de Nizwa',
           de: 'Nizwa-Festung',
@@ -465,7 +525,17 @@ export const oman: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October-March for pleasant weather; summer is extremely hot.',
           sv: 'Oktober-mars för behagligt väder; sommaren är extremt varm.',
@@ -479,7 +549,17 @@ export const oman: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'E-visa available for most nationalities.',
           sv: 'E-visum tillgängligt för de flesta nationaliteter.',
@@ -493,7 +573,17 @@ export const oman: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Dress conservatively, especially away from tourist areas.',
           sv: 'Klä dig konservativt, särskilt borta från turistområden.',
@@ -507,7 +597,17 @@ export const oman: Country = {
         },
       },
       {
-        item: 'Rental car',
+        item: {
+          en: 'Rental car',
+          sv: 'Hyrbil',
+          es: 'Coche de alquiler',
+          fr: 'Voiture de location',
+          de: 'Mietwagen',
+          it: 'Auto a noleggio',
+          pl: 'Wynajem samochodu',
+          nl: 'Huurauto',
+          pt: 'Aluguel de carro',
+        },
         description: {
           en: 'Best way to explore; roads are excellent.',
           sv: 'Bästa sättet att utforska; vägarna är utmärkta.',
@@ -536,7 +636,7 @@ export const oman: Country = {
       },
       description: {
         en: 'Traditional Omani sweet made with rosewater and saffron',
-        sv: 'Traditionell omansk sötsak gjord med rosenvatten och saffran',
+        sv: 'Traditionell omansk sötsak smaksatt med rosenvatten och saffran',
         es: 'Dulce tradicional omaní elaborado con agua de rosas y azafrán',
         fr: 'Bonbon traditionnel omanais à base d\'eau de rose et de safran',
         de: 'Traditionelle omanische Süßigkeit aus Rosenwasser und Safran',
@@ -694,7 +794,7 @@ export const oman: Country = {
       steps: [
         {
           en: 'Mix cornstarch with cold water',
-          sv: 'Blanda majsstärkelse med kallt vatten',
+          sv: 'Rör ut majsstärkelsen i kallt vatten',
           es: 'Mezclar maicena con agua fría',
           fr: 'Mélanger la fécule de maïs avec de l\'eau froide',
           de: 'Maisstärke mit kaltem Wasser mischen',
@@ -705,7 +805,7 @@ export const oman: Country = {
         },
         {
           en: 'Boil remaining water with sugar',
-          sv: 'Koka återstående vatten med socker',
+          sv: 'Koka upp resten av vattnet med sockret',
           es: 'Hervir el agua restante con azúcar',
           fr: 'Faire bouillir le reste de l\'eau avec le sucre',
           de: 'Restliches Wasser mit Zucker aufkochen',
@@ -716,7 +816,7 @@ export const oman: Country = {
         },
         {
           en: 'Add cornstarch mixture, stir constantly',
-          sv: 'Tillsätt majsstärkelseblandningen, rör hela tiden',
+          sv: 'Tillsätt majsstärkelseblandningen under konstant omrörning',
           es: 'Agregue la mezcla de maicena, revuelva constantemente',
           fr: 'Ajouter le mélange de fécule de maïs, remuer constamment',
           de: 'Maisstärkemischung hinzufügen, ständig umrühren',
@@ -738,7 +838,7 @@ export const oman: Country = {
         },
         {
           en: 'Cook on low heat for 1 hour, stirring frequently',
-          sv: 'Koka på låg värme i 1 timme, rör om ofta',
+          sv: 'Låt koka på låg värme i 1 timme och rör om ofta',
           es: 'Cocine a fuego lento durante 1 hora, revolviendo frecuentemente',
           fr: 'Cuire à feu doux pendant 1 heure en remuant fréquemment',
           de: '1 Stunde bei schwacher Hitze kochen, dabei häufig umrühren',
@@ -760,7 +860,7 @@ export const oman: Country = {
         },
         {
           en: 'Continue cooking until mixture leaves sides of pan',
-          sv: 'Fortsätt koka tills blandningen lämnar sidorna av pannan',
+          sv: 'Fortsätt koka tills smeten släpper från kastrullens kanter',
           es: 'Continúe cocinando hasta que la mezcla se desprenda de los lados del molde',
           fr: 'Poursuivre la cuisson jusqu\'à ce que le mélange quitte les côtés du moule',
           de: 'Weiter kochen, bis die Mischung den Rand der Pfanne verlässt',
@@ -771,7 +871,7 @@ export const oman: Country = {
         },
         {
           en: 'Pour into greased dish, top with nuts',
-          sv: 'Häll i en smord form, toppa med nötter',
+          sv: 'Häll smeten i en smord form och strö över nötter',
           es: 'Vierta en un plato engrasado, cubra con nueces.',
           fr: 'Verser dans un plat graissé, garnir de noix',
           de: 'In eine gefettete Form füllen und mit Nüssen belegen',
@@ -782,7 +882,7 @@ export const oman: Country = {
         },
         {
           en: 'Cool and cut into squares',
-          sv: 'Kyl och skär i rutor',
+          sv: 'Låt svalna och skär i rutor',
           es: 'Dejar enfriar y cortar en cuadritos',
           fr: 'Laisser refroidir et couper en carrés',
           de: 'Abkühlen lassen und in Quadrate schneiden',
@@ -809,7 +909,7 @@ export const oman: Country = {
       },
       description: {
         en: 'Slow-roasted spiced lamb wrapped in banana leaves',
-        sv: 'Långsamt stekt kryddat lamm insvept i bananblad',
+        sv: 'Kryddat lamm som tillagas långsamt inlindat i bananblad',
         es: 'Cordero especiado asado a fuego lento envuelto en hojas de plátano',
         fr: 'Agneau épicé rôti lentement enveloppé dans des feuilles de bananier',
         de: 'Langsam gebratenes, gewürztes Lammfleisch, eingewickelt in Bananenblätter',
@@ -932,7 +1032,7 @@ export const oman: Country = {
       steps: [
         {
           en: 'Marinate lamb with spices overnight',
-          sv: 'Marinera lamm med kryddor över natten',
+          sv: 'Marinera lammet i kryddblandningen över natten',
           es: 'Marinar el cordero con especias durante la noche',
           fr: 'Faire mariner l\'agneau avec les épices toute la nuit',
           de: 'Lammfleisch über Nacht mit Gewürzen marinieren',
@@ -943,7 +1043,7 @@ export const oman: Country = {
         },
         {
           en: 'Wrap in banana leaves',
-          sv: 'Slå in bananblad',
+          sv: 'Slå in köttet i bananblad',
           es: 'Envolver en hojas de plátano',
           fr: 'Envelopper dans des feuilles de bananier',
           de: 'In Bananenblätter einwickeln',
@@ -954,7 +1054,7 @@ export const oman: Country = {
         },
         {
           en: 'Place in underground sand oven',
-          sv: 'Placera i underjordisk sandugn',
+          sv: 'Lägg paketet i en jordugn nedgrävd i sanden',
           es: 'Colocar en horno de arena subterráneo',
           fr: 'Placer dans un four à sable souterrain',
           de: 'In den unterirdischen Sandofen stellen',
@@ -965,7 +1065,7 @@ export const oman: Country = {
         },
         {
           en: 'Cook for 24-48 hours',
-          sv: 'Koka i 24-48 timmar',
+          sv: 'Låt tillagas i 24–48 timmar',
           es: 'Cocine durante 24-48 horas',
           fr: 'Cuire pendant 24 à 48 heures',
           de: '24–48 Stunden kochen lassen',
@@ -976,7 +1076,7 @@ export const oman: Country = {
         },
         {
           en: 'Unwrap and shred meat',
-          sv: 'Packa upp och strimla kött',
+          sv: 'Packa upp och dra isär köttet',
           es: 'Desenvolver y desmenuzar la carne',
           fr: 'Déballer et déchiqueter la viande',
           de: 'Fleisch auspacken und zerkleinern',
@@ -1565,7 +1665,7 @@ export const oman: Country = {
           },
           {
             en: 'Wahiba Sands',
-            sv: 'Wahiba Sands',
+            sv: 'Wahibaöknen',
             es: 'Arenas de Wahiba',
             fr: 'Sables Wahiba',
             de: 'Wahiba Sands',

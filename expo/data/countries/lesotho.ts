@@ -125,7 +125,7 @@ export const lesotho: Country = {
         },
         value: {
           en: 'Lesotho Loti',
-          sv: 'Lesotho Loti',
+          sv: 'Lesothisk loti',
           es: 'Loti de Lesoto',
           fr: 'Loti du Lesotho',
           de: 'Lesotho Loti',
@@ -220,7 +220,17 @@ export const lesotho: Country = {
     history: [
       {
         year: '1822',
-        title: 'Kingdom Founded',
+        title: {
+          en: 'Kingdom Founded',
+          sv: 'Kungariket grundas',
+          es: 'Fundación del reino',
+          fr: 'Fondation du royaume',
+          de: 'Gründung des Königreichs',
+          it: 'Fondazione del regno',
+          pl: 'Założenie królestwa',
+          nl: 'Stichting van het koninkrijk',
+          pt: 'Fundação do reino',
+        },
         description: {
           en: 'King Moshoeshoe I founded the Basotho nation, uniting various clans in the mountains.',
           sv: 'Kung Moshoeshoe I grundade Basotho-nationen och förenade olika klaner i bergen.',
@@ -235,7 +245,17 @@ export const lesotho: Country = {
       },
       {
         year: '1966',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Lesotho gained independence from British colonial rule.',
           sv: 'Lesotho blev självständigt från det brittiska kolonialstyret.',
@@ -262,7 +282,17 @@ export const lesotho: Country = {
           nl: 'Basotho-deken',
           pt: 'Manta basoto',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Distinctive blankets that became a cultural symbol and part of national identity.',
           sv: 'Särpräglade filtar som blev en kulturell symbol och en del av den nationella identiteten.',
@@ -287,7 +317,17 @@ export const lesotho: Country = {
           nl: 'Berglandbouw',
           pt: 'Agricultura de montanha',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Techniques for farming in high-altitude mountainous terrain.',
           sv: 'Tekniker för jordbruk i bergig terräng på hög höjd.',
@@ -305,7 +345,7 @@ export const lesotho: Country = {
       {
         name: {
           en: 'Sani Pass',
-          sv: 'Sani Pass',
+          sv: 'Sanipasset',
           es: 'Paso Sani',
           fr: 'Pass Sani',
           de: 'Sani-Pass',
@@ -329,7 +369,7 @@ export const lesotho: Country = {
       {
         name: {
           en: 'Maletsunyane Falls',
-          sv: 'Maletsunyane Falls',
+          sv: 'Maletsunyanefallen',
           es: 'Cataratas Maletsunyane',
           fr: 'Chutes de Maletsunyane',
           de: 'Maletsunyane-Wasserfälle',
@@ -377,7 +417,7 @@ export const lesotho: Country = {
       {
         name: {
           en: 'Katse Dam',
-          sv: 'Katse Dam',
+          sv: 'Katsedammen',
           es: 'Presa de Katse',
           fr: 'Barrage de Katsé',
           de: 'Katse-Staudamm',
@@ -425,7 +465,17 @@ export const lesotho: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October-April for warmer weather; May-September can have snow.',
           sv: 'Oktober-april för varmare väder; Maj-september kan ha snö.',
@@ -439,7 +489,17 @@ export const lesotho: Country = {
         },
       },
       {
-        item: 'Warm clothing',
+        item: {
+          en: 'Warm clothing',
+          sv: 'Varma kläder',
+          es: 'Ropa de abrigo',
+          fr: 'Vêtements chauds',
+          de: 'Warme Kleidung',
+          it: 'Abiti caldi',
+          pl: 'Ciepła odzież',
+          nl: 'Warme kleding',
+          pt: 'Roupas de frio',
+        },
         description: {
           en: 'Temperatures drop significantly, especially at night and in winter.',
           sv: 'Temperaturen sjunker avsevärt, särskilt på natten och på vintern.',
@@ -453,7 +513,17 @@ export const lesotho: Country = {
         },
       },
       {
-        item: 'South African visa',
+        item: {
+          en: 'South African visa',
+          sv: 'Sydafrikanskt visum',
+          es: 'Visa sudafricana',
+          fr: 'Visa sud-africain',
+          de: 'Visum für Südafrika',
+          it: 'Visto sudafricano',
+          pl: 'Wiza do RPA',
+          nl: 'Visum voor Zuid-Afrika',
+          pt: 'Visto sul-africano',
+        },
         description: {
           en: 'You\'ll likely enter via South Africa, check visa requirements.',
           sv: 'Du kommer troligen in via Sydafrika, kolla visumkraven.',
@@ -467,7 +537,17 @@ export const lesotho: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Both Lesotho Loti and South African Rand are accepted.',
           sv: 'Både Lesotho Loti och sydafrikanska rand accepteras.',
@@ -496,7 +576,7 @@ export const lesotho: Country = {
       },
       description: {
         en: 'Sweet dough fritters, a Basotho treat',
-        sv: 'Söta degfritter, en Basotho-godis',
+        sv: 'Söta friterade degbollar, en omtyckt godsak i Lesotho',
         es: 'Buñuelos de masa dulce, una delicia basotho',
         fr: 'Beignets de pâte sucrée, un régal Basotho',
         de: 'Süße Teigkrapfen, ein Basotho-Leckerbissen',
@@ -523,7 +603,7 @@ export const lesotho: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -565,7 +645,7 @@ export const lesotho: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -608,7 +688,7 @@ export const lesotho: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -624,7 +704,7 @@ export const lesotho: Country = {
       steps: [
         {
           en: 'Mix flour, sugar, and baking powder',
-          sv: 'Blanda mjöl, socker och bakpulver',
+          sv: 'Blanda vetemjöl, socker och bakpulver',
           es: 'Mezclar harina, azúcar y levadura en polvo',
           fr: 'Mélanger la farine, le sucre et la levure chimique',
           de: 'Mehl, Zucker und Backpulver mischen',
@@ -635,7 +715,7 @@ export const lesotho: Country = {
         },
         {
           en: 'Beat in eggs and milk to form batter',
-          sv: 'Vispa i ägg och mjölk till en smet',
+          sv: 'Vispa ner ägg och mjölk till en smet',
           es: 'Batir los huevos y la leche para formar una masa',
           fr: 'Incorporer les œufs et le lait pour former la pâte',
           de: 'Eier und Milch unterrühren, bis ein Teig entsteht',
@@ -646,7 +726,7 @@ export const lesotho: Country = {
         },
         {
           en: 'Heat oil to 350°F',
-          sv: 'Värm olja till 350°F',
+          sv: 'Hetta upp oljan till 175 °C',
           es: 'Caliente el aceite a 350°F',
           fr: 'Chauffer l\'huile à 350°F',
           de: 'Öl auf 350 °F erhitzen',
@@ -657,7 +737,7 @@ export const lesotho: Country = {
         },
         {
           en: 'Drop spoonfuls of batter into hot oil',
-          sv: 'Droppa skedar smet i het olja',
+          sv: 'Klicka ner smeten skedvis i den heta oljan',
           es: 'Eche cucharadas de masa en aceite caliente',
           fr: 'Déposez des cuillerées de pâte dans l\'huile chaude',
           de: 'Löffelweise Teig in heißes Öl geben',
@@ -668,7 +748,7 @@ export const lesotho: Country = {
         },
         {
           en: 'Fry until golden brown on both sides',
-          sv: 'Stek tills gyllenbrun på båda sidor',
+          sv: 'Fritera tills de är gyllenbruna på båda sidor',
           es: 'Freír hasta que estén dorados por ambos lados',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés des deux côtés',
           de: 'Auf beiden Seiten goldbraun braten',
@@ -690,7 +770,7 @@ export const lesotho: Country = {
         },
         {
           en: 'Dust with sugar and serve warm',
-          sv: 'Pudra över socker och servera varm',
+          sv: 'Pudra över socker och servera dem varma',
           es: 'Espolvorea con azúcar y sirve caliente',
           fr: 'Saupoudrer de sucre et servir chaud',
           de: 'Mit Zucker bestäuben und warm servieren',
@@ -706,7 +786,7 @@ export const lesotho: Country = {
       id: 'lesotho-main',
       name: {
         en: 'Papa and Moroho',
-        sv: 'Pappa och Moroho',
+        sv: 'Papa och moroho',
         es: 'Papá y Moroho',
         fr: 'Papa et Moroho',
         de: 'Papa und Moroho',
@@ -786,7 +866,7 @@ export const lesotho: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -811,7 +891,7 @@ export const lesotho: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -840,7 +920,7 @@ export const lesotho: Country = {
       steps: [
         {
           en: 'Boil water and add maize meal gradually',
-          sv: 'Koka upp vatten och tillsätt majsmjöl gradvis',
+          sv: 'Koka upp vatten och vispa i majsmjölet lite i taget',
           es: 'Hervir agua y agregar harina de maíz gradualmente',
           fr: 'Faire bouillir l\'eau et ajouter progressivement la farine de maïs',
           de: 'Wasser aufkochen und nach und nach Maismehl hinzufügen',
@@ -851,7 +931,7 @@ export const lesotho: Country = {
         },
         {
           en: 'Stir to form thick porridge',
-          sv: 'Rör om till tjock gröt',
+          sv: 'Rör tills det blir en tjock gröt',
           es: 'Revuelva para formar una papilla espesa',
           fr: 'Remuer pour former une bouillie épaisse',
           de: 'Zu einem dicken Brei verrühren',
@@ -884,7 +964,7 @@ export const lesotho: Country = {
         },
         {
           en: 'Cook until spinach is tender',
-          sv: 'Koka tills spenaten är mjuk',
+          sv: 'Låt puttra tills spenaten har mjuknat',
           es: 'Cocine hasta que las espinacas estén tiernas',
           fr: 'Cuire jusqu\'à ce que les épinards soient tendres',
           de: 'Kochen, bis der Spinat weich ist',
@@ -895,7 +975,7 @@ export const lesotho: Country = {
         },
         {
           en: 'Serve porridge with spinach stew',
-          sv: 'Servera gröt med spenatgryta',
+          sv: 'Servera gröten med spenatgrytan',
           es: 'Servir gachas con guiso de espinacas',
           fr: 'Servir le porridge avec le ragoût d\'épinards',
           de: 'Porridge mit Spinateintopf servieren',
@@ -1107,7 +1187,7 @@ export const lesotho: Country = {
           },
           {
             en: 'Highland Nation',
-            sv: 'Highland Nation',
+            sv: 'Höglandsnationen',
             es: 'Nación de las Tierras Altas',
             fr: 'Nation des Hautes Terres',
             de: 'Highland Nation',

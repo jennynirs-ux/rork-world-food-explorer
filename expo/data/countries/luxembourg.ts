@@ -220,7 +220,17 @@ export const luxembourg: Country = {
     history: [
       {
         year: '963',
-        title: 'Foundation',
+        title: {
+          en: 'Foundation',
+          sv: 'Grundandet',
+          es: 'Fundación',
+          fr: 'Fondation',
+          de: 'Gründung',
+          it: 'Fondazione',
+          pl: 'Początki',
+          nl: 'Ontstaan',
+          pt: 'Fundação',
+        },
         description: {
           en: 'Count Siegfried built a castle that became the nucleus of Luxembourg.',
           sv: 'Greve Siegfried byggde ett slott som blev kärnan i Luxemburg.',
@@ -235,7 +245,17 @@ export const luxembourg: Country = {
       },
       {
         year: '1867',
-        title: 'Neutrality',
+        title: {
+          en: 'Neutrality',
+          sv: 'Neutralitet',
+          es: 'Neutralidad',
+          fr: 'Neutralité',
+          de: 'Neutralität',
+          it: 'Neutralità',
+          pl: 'Neutralność',
+          nl: 'Neutraliteit',
+          pt: 'Neutralidade',
+        },
         description: {
           en: 'Luxembourg was declared permanently neutral by European powers.',
           sv: 'Luxemburg förklarades permanent neutralt av europeiska makter.',
@@ -250,7 +270,17 @@ export const luxembourg: Country = {
       },
       {
         year: '1957',
-        title: 'EU Founding',
+        title: {
+          en: 'EU Founding',
+          sv: 'EU:s grundande',
+          es: 'Fundación de la UE',
+          fr: 'Fondation de l\'UE',
+          de: 'Gründung der EU',
+          it: 'Fondazione dell\'UE',
+          pl: 'Założenie UE',
+          nl: 'Oprichting van de EU',
+          pt: 'Fundação da UE',
+        },
         description: {
           en: 'Luxembourg was a founding member of what became the European Union.',
           sv: 'Luxemburg var en av grundarna av det som blev Europeiska unionen.',
@@ -302,7 +332,17 @@ export const luxembourg: Country = {
           nl: 'Staalindustrie',
           pt: 'Indústria siderúrgica',
         },
-        year: '19th Century',
+        year: {
+          en: '19th Century',
+          sv: '1800-talet',
+          es: 'Siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'Século XIX',
+        },
         description: {
           en: 'Development of innovative steel production techniques.',
           sv: 'Utveckling av innovativa stålproduktionstekniker.',
@@ -392,7 +432,7 @@ export const luxembourg: Country = {
       {
         name: {
           en: 'Bock Casemates',
-          sv: 'Bock Casemates',
+          sv: 'Bockkasematterna',
           es: 'Casamatas de Bock',
           fr: 'Casemates du Bock',
           de: 'Bock-Kasematten',
@@ -440,7 +480,17 @@ export const luxembourg: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for warm weather and outdoor activities.',
           sv: 'Maj-september för varmt väder och utomhusaktiviteter.',
@@ -454,7 +504,17 @@ export const luxembourg: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'EU member, Schengen visa rules apply.',
           sv: 'EU-medlem, Schengenvisumregler gäller.',
@@ -468,7 +528,17 @@ export const luxembourg: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Free public transport throughout the country.',
           sv: 'Gratis kollektivtrafik i hela landet.',
@@ -482,7 +552,17 @@ export const luxembourg: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Luxembourgish, French, and German all official; English widely spoken.',
           sv: 'luxemburgska, franska och tyska alla officiella; Engelska talas allmänt.',
@@ -511,7 +591,7 @@ export const luxembourg: Country = {
       },
       description: {
         en: 'Traditional plum tart, Luxembourg\'s favorite dessert',
-        sv: 'Traditionell plommon tårta, Luxemburgs favoritdessert',
+        sv: 'Traditionell plommonpaj, Luxemburgs älsklingsdessert',
         es: 'Tarta de ciruela tradicional, el postre favorito de Luxemburgo',
         fr: 'Tarte aux prunes traditionnelle, le dessert préféré des Luxembourgeois',
         de: 'Traditioneller Pflaumenkuchen, Luxemburgs beliebtestes Dessert',
@@ -538,7 +618,7 @@ export const luxembourg: Country = {
         {
           name: {
             en: 'Shortcrust pastry',
-            sv: 'Smördeg',
+            sv: 'Mördeg',
             es: 'Masa quebrada',
             fr: 'Pâte brisée',
             de: 'Mürbeteig',
@@ -553,7 +633,7 @@ export const luxembourg: Country = {
         {
           name: {
             en: 'Plums (damson)',
-            sv: 'Plommon (damson)',
+            sv: 'Plommon, gärna sviskonplommon',
             es: 'Ciruelas (damson)',
             fr: 'Prunes (prune)',
             de: 'Pflaumen (Zwetschgen)',
@@ -598,7 +678,7 @@ export const luxembourg: Country = {
         {
           name: {
             en: 'Breadcrumbs',
-            sv: 'Brödsmulor',
+            sv: 'Ströbröd',
             es: 'Pan rallado',
             fr: 'Fil d\'Ariane',
             de: 'Semmelbrösel',
@@ -629,7 +709,7 @@ export const luxembourg: Country = {
       steps: [
         {
           en: 'Roll out pastry and line tart pan',
-          sv: 'Kavla ut degen och klä tårtan',
+          sv: 'Kavla ut degen och klä en pajform med den',
           es: 'Estire la masa y forre el molde para tarta',
           fr: 'Etaler la pâte et tapisser le moule à tarte',
           de: 'Den Teig ausrollen und die Tarteform auslegen',
@@ -640,7 +720,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Sprinkle breadcrumbs over base to absorb juice',
-          sv: 'Strö ströbröd över basen för att absorbera juice',
+          sv: 'Strö ströbröd över botten så att det suger upp saften',
           es: 'Espolvoree pan rallado sobre la base para absorber el jugo',
           fr: 'Saupoudrer de chapelure sur la base pour absorber le jus',
           de: 'Streuen Sie Semmelbrösel über den Boden, um den Saft aufzusaugen',
@@ -651,7 +731,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Halve and pit plums',
-          sv: 'Halvera och grop plommon',
+          sv: 'Halvera och kärna ur plommonen',
           es: 'Cortar por la mitad y deshuesar las ciruelas',
           fr: 'Couper et dénoyauter les prunes',
           de: 'Pflaumen halbieren und entkernen',
@@ -662,7 +742,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Arrange plums tightly in overlapping circles',
-          sv: 'Ordna plommonen tätt i överlappande cirklar',
+          sv: 'Lägg plommonen tätt i överlappande cirklar',
           es: 'Coloque las ciruelas firmemente en círculos superpuestos',
           fr: 'Disposez les prunes en cercles qui se chevauchent',
           de: 'Ordnen Sie die Pflaumen dicht in überlappenden Kreisen an',
@@ -684,7 +764,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Dot with small pieces of butter',
-          sv: 'Prick med små smörbitar',
+          sv: 'Lägg små smörklickar ovanpå',
           es: 'Salpique con pequeños trozos de mantequilla',
           fr: 'Parsemer de petits morceaux de beurre',
           de: 'Mit kleinen Butterstückchen betupfen',
@@ -706,7 +786,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Serve warm or cold with whipped cream',
-          sv: 'Servera varm eller kall med vispgrädde',
+          sv: 'Servera ljummen eller kall med vispad grädde',
           es: 'Servir caliente o frío con nata montada',
           fr: 'Servir tiède ou froid avec de la chantilly',
           de: 'Warm oder kalt mit Schlagsahne servieren',
@@ -733,7 +813,7 @@ export const luxembourg: Country = {
       },
       description: {
         en: 'Smoked pork collar with broad beans',
-        sv: 'Rökt fläskkrage med bondbönor',
+        sv: 'Rökt fläskkarré med bondbönor',
         es: 'Cuello de cerdo ahumado con habas',
         fr: 'Collier de porc fumé aux fèves',
         de: 'Geräucherter Schweinehals mit Saubohnen',
@@ -760,7 +840,7 @@ export const luxembourg: Country = {
         {
           name: {
             en: 'Smoked pork collar',
-            sv: 'Rökt fläskkrage',
+            sv: 'Rökt fläskkarré',
             es: 'Collar de cerdo ahumado',
             fr: 'Collier de porc fumé',
             de: 'Geräucherter Schweinehals',
@@ -802,7 +882,7 @@ export const luxembourg: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -827,7 +907,7 @@ export const luxembourg: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -867,7 +947,7 @@ export const luxembourg: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -881,7 +961,7 @@ export const luxembourg: Country = {
       steps: [
         {
           en: 'Soak pork overnight to reduce saltiness',
-          sv: 'Blötlägg fläsk över natten för att minska sältan',
+          sv: 'Lägg fläskkarrén i blöt över natten för att dra ur saltet',
           es: 'Remojar la carne de cerdo durante la noche para reducir el sabor salado',
           fr: 'Faire tremper le porc toute la nuit pour réduire la salinité',
           de: 'Schweinefleisch über Nacht einweichen, um den Salzgehalt zu reduzieren',
@@ -892,7 +972,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Boil pork with bay leaves until tender',
-          sv: 'Koka fläsk med lagerblad tills det är mört',
+          sv: 'Koka fläskkarrén med lagerblad tills den är mör',
           es: 'Hervir la carne de cerdo con hojas de laurel hasta que esté tierna',
           fr: 'Faire bouillir le porc avec les feuilles de laurier jusqu\'à ce qu\'il soit tendre',
           de: 'Schweinefleisch mit Lorbeerblättern kochen, bis es weich ist',
@@ -903,7 +983,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Cook broad beans separately',
-          sv: 'Koka bondbönor separat',
+          sv: 'Koka bondbönorna separat',
           es: 'Cocine las habas por separado',
           fr: 'Cuire les fèves séparément',
           de: 'Saubohnen separat kochen',
@@ -914,7 +994,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Sauté onions and add cream',
-          sv: 'Fräs lök och tillsätt grädde',
+          sv: 'Fräs löken och häll i grädden',
           es: 'Saltear las cebollas y añadir la nata',
           fr: 'Faire revenir les oignons et ajouter la crème',
           de: 'Zwiebeln anbraten und Sahne hinzufügen',
@@ -925,7 +1005,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Mix beans with creamy onions',
-          sv: 'Blanda bönor med krämig lök',
+          sv: 'Blanda bönorna med den krämiga löken',
           es: 'Mezclar frijoles con cebolla cremosa',
           fr: 'Mélanger les haricots avec des oignons crémeux',
           de: 'Bohnen mit cremigen Zwiebeln mischen',
@@ -936,7 +1016,7 @@ export const luxembourg: Country = {
         },
         {
           en: 'Serve pork slices with beans and boiled potatoes',
-          sv: 'Servera fläskskivor med bönor och kokt potatis',
+          sv: 'Skiva köttet och servera med bönorna och kokt potatis',
           es: 'Sirva las lonchas de cerdo con frijoles y papas hervidas',
           fr: 'Servir les tranches de porc avec des haricots et des pommes de terre bouillies',
           de: 'Schweinefleischscheiben mit Bohnen und Salzkartoffeln servieren',
@@ -1424,7 +1504,7 @@ export const luxembourg: Country = {
           },
           {
             en: 'Forest Hills',
-            sv: 'Forest Hills',
+            sv: 'Skogskullarna',
             es: 'Colinas del bosque',
             fr: 'Collines forestières',
             de: 'Waldhügel',
@@ -1484,7 +1564,7 @@ export const luxembourg: Country = {
           },
           {
             en: 'Bock Casemates',
-            sv: 'Bock Casemates',
+            sv: 'Bockkasematterna',
             es: 'Casamatas de Bock',
             fr: 'Casemates du Bock',
             de: 'Bock-Kasematten',
@@ -1506,7 +1586,7 @@ export const luxembourg: Country = {
           },
           {
             en: 'Metro System',
-            sv: 'Metro System',
+            sv: 'Tunnelbanesystem',
             es: 'Sistema Metro',
             fr: 'Système de métro',
             de: 'U-Bahn-System',

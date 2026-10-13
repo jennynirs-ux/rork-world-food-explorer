@@ -125,7 +125,7 @@ export const saudiArabia: Country = {
         },
         value: {
           en: 'Saudi Riyal (SAR)',
-          sv: 'Saudi Riyal (SAR)',
+          sv: 'Saudiarabisk riyal (SAR)',
           es: 'Riyal saudí (SAR)',
           fr: 'Riyal saoudien (SAR)',
           de: 'Saudi-Riyal (SAR)',
@@ -264,7 +264,17 @@ export const saudiArabia: Country = {
     history: [
       {
         year: '610',
-        title: 'Beginning of Islam',
+        title: {
+          en: 'Beginning of Islam',
+          sv: 'Islams början',
+          es: 'Nacimiento del islam',
+          fr: 'Naissance de l\'islam',
+          de: 'Anfänge des Islam',
+          it: 'Nascita dell\'Islam',
+          pl: 'Początki islamu',
+          nl: 'Begin van de islam',
+          pt: 'Surgimento do islã',
+        },
         description: {
           en: 'The Prophet Muhammad began receiving revelations in Makkah, marking the start of Islam.',
           sv: 'Profeten Muhammed började ta emot uppenbarelser i Mecka, vilket markerade starten på islam.',
@@ -279,7 +289,17 @@ export const saudiArabia: Country = {
       },
       {
         year: '622',
-        title: 'Hijrah to Madinah',
+        title: {
+          en: 'Hijrah to Madinah',
+          sv: 'Hijra till Medina',
+          es: 'Hégira a Medina',
+          fr: 'Hégire vers Médine',
+          de: 'Hidschra nach Medina',
+          it: 'Egira verso Medina',
+          pl: 'Hidżra do Medyny',
+          nl: 'Hidjra naar Medina',
+          pt: 'Hégira para Medina',
+        },
         description: {
           en: 'The migration to Madinah became a foundational moment in Islamic history and the start of the Islamic calendar.',
           sv: 'Migrationen till Medina blev ett grundläggande ögonblick i islamisk historia och starten på den islamiska kalendern.',
@@ -294,7 +314,17 @@ export const saudiArabia: Country = {
       },
       {
         year: '1744',
-        title: 'Alliance in Diriyah',
+        title: {
+          en: 'Alliance in Diriyah',
+          sv: 'Alliansen i Diriyah',
+          es: 'Alianza de Diriyah',
+          fr: 'Alliance de Diriyah',
+          de: 'Bündnis von Diriyya',
+          it: 'Alleanza di Diriyah',
+          pl: 'Sojusz w Dirijji',
+          nl: 'Verbond van Diriyah',
+          pt: 'Aliança de Diriyah',
+        },
         description: {
           en: 'A political-religious alliance in Diriyah helped shape the rise of the Saudi state in central Arabia.',
           sv: 'En politisk-religiös allians i Diriyah hjälpte till att forma uppkomsten av den saudiska staten i centrala Arabien.',
@@ -309,7 +339,17 @@ export const saudiArabia: Country = {
       },
       {
         year: '1932',
-        title: 'Kingdom Founded',
+        title: {
+          en: 'Kingdom Founded',
+          sv: 'Kungariket grundas',
+          es: 'Fundación del reino',
+          fr: 'Fondation du royaume',
+          de: 'Gründung des Königreichs',
+          it: 'Fondazione del regno',
+          pl: 'Założenie królestwa',
+          nl: 'Stichting van het koninkrijk',
+          pt: 'Fundação do reino',
+        },
         description: {
           en: 'The modern Kingdom of Saudi Arabia was unified and proclaimed under King Abdulaziz.',
           sv: 'Det moderna kungariket Saudiarabien enades och utropades under kung Abdulaziz.',
@@ -324,7 +364,17 @@ export const saudiArabia: Country = {
       },
       {
         year: '1938',
-        title: 'Oil Discovery',
+        title: {
+          en: 'Oil Discovery',
+          sv: 'Oljefynd',
+          es: 'Descubrimiento de petróleo',
+          fr: 'Découverte du pétrole',
+          de: 'Entdeckung des Erdöls',
+          it: 'Scoperta del petrolio',
+          pl: 'Odkrycie ropy naftowej',
+          nl: 'Olievondst',
+          pt: 'Descoberta de petróleo',
+        },
         description: {
           en: 'Commercial oil was discovered, transforming the economy and accelerating modern development.',
           sv: 'Kommersiell olja upptäcktes, vilket förändrade ekonomin och påskyndade den moderna utvecklingen.',
@@ -339,7 +389,17 @@ export const saudiArabia: Country = {
       },
       {
         year: '2016',
-        title: 'Vision 2030',
+        title: {
+          en: 'Vision 2030',
+          sv: 'Vision 2030',
+          es: 'Visión 2030',
+          fr: 'Vision 2030',
+          de: 'Vision 2030',
+          it: 'Vision 2030',
+          pl: 'Wizja 2030',
+          nl: 'Vision 2030',
+          pt: 'Visão 2030',
+        },
         description: {
           en: 'A national program launched to diversify the economy, expand tourism, and modernize key sectors.',
           sv: 'Ett nationellt program lanserat för att diversifiera ekonomin, utöka turismen och modernisera nyckelsektorer.',
@@ -366,7 +426,17 @@ export const saudiArabia: Country = {
           nl: 'Grootschalige Ontzilting',
           pt: 'Dessalinização em Grande Escala',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Saudi Arabia is a global leader in desalination capacity, supplying fresh water to major cities through coastal plants.',
           sv: 'Saudiarabien är en global ledare inom avsaltningskapacitet och levererar färskvatten till större städer genom kustnära anläggningar.',
@@ -391,7 +461,17 @@ export const saudiArabia: Country = {
           nl: 'Hajj- en Umrah-logistiek',
           pt: 'Logística do Hajj e da Umrah',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Advanced transport, crowd management, and services support millions of pilgrims visiting holy sites annually.',
           sv: 'Avancerad transport, publikhantering och tjänster stödjer miljontals pilgrimer som besöker heliga platser årligen.',
@@ -416,7 +496,17 @@ export const saudiArabia: Country = {
           nl: 'Megaprojecten en Slimme Stadsplanning',
           pt: 'Megaprojetos e Planejamento de Cidades Inteligentes',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Major development programs focus on urban innovation, tourism infrastructure, and new economic zones.',
           sv: 'Stora utvecklingsprogram fokuserar på urban innovation, turisminfrastruktur och nya ekonomiska zoner.',
@@ -482,7 +572,7 @@ export const saudiArabia: Country = {
       {
         name: {
           en: 'Jeddah Corniche',
-          sv: 'Jeddah Corniche',
+          sv: 'Jeddahs strandpromenad (Corniche)',
           es: 'Corniche de Jeddah',
           fr: 'Corniche de Djeddah',
           de: 'Jeddah Corniche',
@@ -554,7 +644,17 @@ export const saudiArabia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October to March for cooler temperatures; summer can be extremely hot in many regions.',
           sv: 'Oktober till mars för kallare temperaturer; sommaren kan vara extremt varm i många regioner.',
@@ -568,7 +668,17 @@ export const saudiArabia: Country = {
         },
       },
       {
-        item: 'Respectful clothing',
+        item: {
+          en: 'Respectful clothing',
+          sv: 'Anständig klädsel',
+          es: 'Vestimenta adecuada',
+          fr: 'Tenue correcte',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento adeguato',
+          pl: 'Stosowny ubiór',
+          nl: 'Gepaste kleding',
+          pt: 'Roupas adequadas',
+        },
         description: {
           en: 'Dress modestly in public spaces; follow local guidance for cultural sites and religious areas.',
           sv: 'Klä dig anständigt i offentliga utrymmen; följa lokal vägledning för kulturella platser och religiösa områden.',
@@ -582,7 +692,17 @@ export const saudiArabia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Arabic is official; English is common in major cities, hotels, and tourist areas.',
           sv: 'Arabiska är officiellt; Engelska är vanligt i större städer, hotell och turistområden.',
@@ -596,7 +716,17 @@ export const saudiArabia: Country = {
         },
       },
       {
-        item: 'Local transport',
+        item: {
+          en: 'Local transport',
+          sv: 'Lokaltrafik',
+          es: 'Transporte local',
+          fr: 'Transports locaux',
+          de: 'Nahverkehr',
+          it: 'Trasporti locali',
+          pl: 'Transport lokalny',
+          nl: 'Lokaal vervoer',
+          pt: 'Transporte local',
+        },
         description: {
           en: 'Ride-hailing apps and domestic flights are widely used; plan distances as the country is large.',
           sv: 'Appar för resor och inrikesflyg används flitigt; planera avstånd då landet är stort.',
@@ -610,7 +740,17 @@ export const saudiArabia: Country = {
         },
       },
       {
-        item: 'Friday-Saturday weekend',
+        item: {
+          en: 'Friday-Saturday weekend',
+          sv: 'Helg fredag–lördag',
+          es: 'Fin de semana de viernes a sábado',
+          fr: 'Week-end du vendredi au samedi',
+          de: 'Wochenende Freitag–Samstag',
+          it: 'Fine settimana venerdì–sabato',
+          pl: 'Weekend w piątek i sobotę',
+          nl: 'Weekend op vrijdag en zaterdag',
+          pt: 'Fim de semana de sexta a sábado',
+        },
         description: {
           en: 'Many businesses operate on a Friday-Saturday weekend schedule.',
           sv: 'Många företag arbetar på ett fredag-lördag helgschema.',
@@ -624,7 +764,17 @@ export const saudiArabia: Country = {
         },
       },
       {
-        item: 'Pilgrimage areas',
+        item: {
+          en: 'Pilgrimage areas',
+          sv: 'Pilgrimsorter',
+          es: 'Lugares de peregrinación',
+          fr: 'Lieux de pèlerinage',
+          de: 'Pilgerstätten',
+          it: 'Luoghi di pellegrinaggio',
+          pl: 'Miejsca pielgrzymkowe',
+          nl: 'Bedevaartsoorden',
+          pt: 'Locais de peregrinação',
+        },
         description: {
           en: 'Access to Makkah is restricted to Muslims; check rules for religious sites and travel requirements.',
           sv: 'Tillgång till Mecka är begränsad till muslimer; kontrollera regler för religiösa platser och resekrav.',
@@ -722,7 +872,7 @@ export const saudiArabia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -747,7 +897,7 @@ export const saudiArabia: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -785,7 +935,7 @@ export const saudiArabia: Country = {
         {
           name: {
             en: 'Kabsa spice mix',
-            sv: 'Kabsa kryddblandning',
+            sv: 'Kabsakrydda',
             es: 'Mezcla de especias Kabsa',
             fr: 'Mélange d\'épices Kabsa',
             de: 'Kabsa-Gewürzmischung',
@@ -822,7 +972,7 @@ export const saudiArabia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -860,7 +1010,7 @@ export const saudiArabia: Country = {
         {
           name: {
             en: 'Vegetable oil or ghee',
-            sv: 'Vegetabilisk olja eller ghee',
+            sv: 'Neutral olja eller ghee',
             es: 'Aceite vegetal o ghee',
             fr: 'Huile végétale ou ghee',
             de: 'Pflanzenöl oder Ghee',
@@ -900,7 +1050,7 @@ export const saudiArabia: Country = {
         {
           name: {
             en: 'Slivered almonds (optional)',
-            sv: 'Skivad mandel (valfritt)',
+            sv: 'Strimlad mandel (valfritt)',
             es: 'Almendras fileteadas (opcional)',
             fr: 'Amandes effilées (facultatif)',
             de: 'Mandelblättchen (optional)',
@@ -931,7 +1081,7 @@ export const saudiArabia: Country = {
       steps: [
         {
           en: 'Rinse basmati rice until water runs mostly clear; soak 20 minutes, then drain.',
-          sv: 'Skölj basmatiris tills vattnet är nästan klart; blötlägg 20 minuter och låt rinna av.',
+          sv: 'Skölj basmatiriset tills vattnet är nästan klart, låt det ligga i blöt i 20 minuter och låt det sedan rinna av.',
           es: 'Enjuague el arroz basmati hasta que el agua salga casi clara; remojar durante 20 minutos, luego escurrir.',
           fr: 'Rincer le riz basmati jusqu\'à ce que l\'eau soit presque claire ; laisser tremper 20 minutes, puis égoutter.',
           de: 'Spülen Sie den Basmatireis ab, bis das Wasser größtenteils klar ist. 20 Minuten einweichen, dann abtropfen lassen.',
@@ -953,7 +1103,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Add garlic and cook 30 seconds. Stir in kabsa spice mix and tomato paste for 30 seconds.',
-          sv: 'Tillsätt vitlök och koka 30 sekunder. Rör i kabsa kryddblandning och tomatpuré i 30 sekunder.',
+          sv: 'Tillsätt vitlöken och fräs i 30 sekunder. Rör ner kabsakryddan och tomatpurén och fräs ytterligare 30 sekunder.',
           es: 'Agregue el ajo y cocine por 30 segundos. Agrega la mezcla de especias kabsa y la pasta de tomate durante 30 segundos.',
           fr: 'Ajouter l\'ail et cuire 30 secondes. Incorporer le mélange d\'épices Kabsa et la pâte de tomate pendant 30 secondes.',
           de: 'Knoblauch hinzufügen und 30 Sekunden kochen lassen. Kabsa-Gewürzmischung und Tomatenmark 30 Sekunden lang einrühren.',
@@ -975,7 +1125,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Add chopped tomatoes, dried limes, 1.6 L water, and salt. Bring to a boil, then simmer until meat is tender (about 45-60 minutes for chicken, longer for lamb).',
-          sv: 'Tillsätt hackade tomater, torkade limefrukter, 1,6 L vatten och salt. Koka upp och låt sjuda tills köttet är mört (ca 45-60 minuter för kyckling, längre för lamm).',
+          sv: 'Tillsätt de hackade tomaterna, de torkade limefrukterna, 1,6 liter vatten och salt. Koka upp och låt sjuda tills köttet är mört (ca 45–60 minuter för kyckling, längre för lamm).',
           es: 'Agregue los tomates picados, las limas secas, 1,6 l de agua y sal. Deje hervir y luego cocine a fuego lento hasta que la carne esté tierna (entre 45 y 60 minutos para el pollo, más tiempo para el cordero).',
           fr: 'Ajouter les tomates hachées, les citrons verts séchés, 1,6 L d\'eau et le sel. Porter à ébullition, puis laisser mijoter jusqu\'à ce que la viande soit tendre (environ 45 à 60 minutes pour le poulet, plus longtemps pour l\'agneau).',
           de: 'Gehackte Tomaten, getrocknete Limetten, 1,6 l Wasser und Salz hinzufügen. Zum Kochen bringen und dann köcheln lassen, bis das Fleisch zart ist (ca. 45–60 Minuten für Hühnchen, länger für Lamm).',
@@ -986,7 +1136,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Remove meat to a tray. Strain or scoop broth if needed and measure about 1.2 L broth for rice.',
-          sv: 'Ta bort köttet till en bricka. Sila eller skopa buljong om det behövs och mät upp ca 1,2 L buljong för ris.',
+          sv: 'Lyft upp köttet på en bricka. Sila buljongen vid behov och mät upp ca 1,2 liter till riset.',
           es: 'Retire la carne a una bandeja. Cuela o saca el caldo si es necesario y mide aproximadamente 1,2 L de caldo para el arroz.',
           fr: 'Retirer la viande sur un plateau. Filtrer ou ramasser le bouillon si nécessaire et mesurer environ 1,2 L de bouillon pour le riz.',
           de: 'Fleisch auf ein Tablett legen. Bei Bedarf Brühe abseihen oder abschöpfen und etwa 1,2 l Brühe für Reis abmessen.',
@@ -997,7 +1147,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Add drained rice to the pot with broth. Bring to a gentle boil, then reduce to low, cover tightly, and cook 18-20 minutes until rice is tender.',
-          sv: 'Tillsätt avrunnat ris i grytan med buljong. Koka försiktigt upp, reducera sedan till låg, täck ordentligt och koka 18-20 minuter tills riset är mört.',
+          sv: 'Häll det avrunna riset i grytan med buljongen. Koka upp försiktigt, sänk sedan värmen till låg, lägg på ett tättslutande lock och låt koka i 18–20 minuter tills riset är mjukt.',
           es: 'Agrega el arroz escurrido a la olla con caldo. Deje hervir suavemente, luego reduzca a fuego lento, cubra bien y cocine de 18 a 20 minutos hasta que el arroz esté tierno.',
           fr: 'Ajouter le riz égoutté dans la casserole avec le bouillon. Porter à légère ébullition, puis réduire à feu doux, couvrir hermétiquement et cuire 18 à 20 minutes jusqu\'à ce que le riz soit tendre.',
           de: 'Den abgetropften Reis mit der Brühe in den Topf geben. Leicht köcheln lassen, dann auf niedrige Stufe reduzieren, fest abdecken und 18–20 Minuten kochen, bis der Reis weich ist.',
@@ -1019,7 +1169,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Serve rice on a platter and top with the meat. Garnish with toasted almonds and raisins if using.',
-          sv: 'Servera ris på ett fat och toppa med köttet. Garnera med rostad mandel och russin om du använder.',
+          sv: 'Lägg upp riset på ett fat och toppa med köttet. Garnera med rostad mandel och russin om du använder det.',
           es: 'Sirva el arroz en un plato y cubra con la carne. Adorne con almendras tostadas y pasas, si las usa.',
           fr: 'Servir le riz dans une assiette et garnir de viande. Garnir d\'amandes grillées et de raisins secs si vous en utilisez.',
           de: 'Reis auf einer Platte servieren und mit dem Fleisch belegen. Bei Bedarf mit gerösteten Mandeln und Rosinen garnieren.',
@@ -1057,7 +1207,7 @@ export const saudiArabia: Country = {
       },
       description: {
         en: 'Traditional shortbread-style cookies filled with date paste, often served with Arabic coffee.',
-        sv: 'Traditionella mördegskakor fyllda med dadelpasta, ofta serverad med arabiskt kaffe.',
+        sv: 'Traditionella mördegskakor fyllda med dadelpasta, ofta serverade med arabiskt kaffe.',
         es: 'Galletas tradicionales estilo bizcocho rellenas de pasta de dátiles, a menudo servidas con café árabe.',
         fr: 'Biscuits traditionnels de type sablé fourrés à la pâte de dattes, souvent servis avec du café arabe.',
         de: 'Traditionelle Kekse im Shortbread-Stil, gefüllt mit Dattelpaste, oft serviert mit arabischem Kaffee.',
@@ -1099,7 +1249,7 @@ export const saudiArabia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1174,7 +1324,7 @@ export const saudiArabia: Country = {
         {
           name: {
             en: 'Date paste',
-            sv: 'Datumklistra',
+            sv: 'Dadelpasta',
             es: 'Pasta de dátil',
             fr: 'Pâte de dattes',
             de: 'Datum einfügen',
@@ -1204,7 +1354,7 @@ export const saudiArabia: Country = {
         {
           name: {
             en: 'Powdered sugar (optional)',
-            sv: 'Pulversocker (valfritt)',
+            sv: 'Florsocker (valfritt)',
             es: 'Azúcar en polvo (opcional)',
             fr: 'Sucre en poudre (facultatif)',
             de: 'Puderzucker (optional)',
@@ -1230,7 +1380,7 @@ export const saudiArabia: Country = {
       steps: [
         {
           en: 'Mix semolina, flour, sugar, and baking powder in a bowl.',
-          sv: 'Blanda mannagryn, mjöl, socker och bakpulver i en skål.',
+          sv: 'Blanda semolinagryn, mjöl, socker och bakpulver i en skål.',
           es: 'Mezcle la sémola, la harina, el azúcar y el polvo para hornear en un bol.',
           fr: 'Mélangez la semoule, la farine, le sucre et la levure chimique dans un bol.',
           de: 'Grieß, Mehl, Zucker und Backpulver in einer Schüssel vermischen.',
@@ -1241,7 +1391,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Stir in melted butter until sandy. Add milk gradually and knead into a soft dough.',
-          sv: 'Rör ner smält smör tills det är sandigt. Tillsätt mjölk gradvis och knåda till en mjuk deg.',
+          sv: 'Rör ner det smälta smöret tills blandningen känns sandig. Tillsätt mjölken lite i taget och knåda till en mjuk deg.',
           es: 'Agregue la mantequilla derretida hasta que esté arenosa. Agrega la leche poco a poco y amasa hasta obtener una masa suave.',
           fr: 'Incorporer le beurre fondu jusqu\'à ce qu\'il soit sableux. Ajouter progressivement le lait et pétrir jusqu\'à obtenir une pâte molle.',
           de: 'Geschmolzene Butter einrühren, bis sie sandig ist. Nach und nach Milch hinzufügen und zu einem weichen Teig verkneten.',
@@ -1252,7 +1402,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Cover and rest 20 minutes.',
-          sv: 'Täck och vila 20 minuter.',
+          sv: 'Täck över och låt degen vila i 20 minuter.',
           es: 'Tapar y reposar 20 minutos.',
           fr: 'Couvrir et laisser reposer 20 minutes.',
           de: 'Abdecken und 20 Minuten ruhen lassen.',
@@ -1263,7 +1413,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Mix date paste with cardamom and shape into small logs or balls.',
-          sv: 'Blanda dadelpasta med kardemumma och forma till små stockar eller bollar.',
+          sv: 'Blanda dadelpastan med kardemumma och forma till små rullar eller kulor.',
           es: 'Mezcle la pasta de dátiles con cardamomo y forme pequeños troncos o bolitas.',
           fr: 'Mélangez la pâte de dattes avec la cardamome et façonnez-la en petites bûches ou boules.',
           de: 'Dattelpaste mit Kardamom vermischen und zu kleinen Würfeln oder Kugeln formen.',
@@ -1274,7 +1424,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Take a piece of dough, flatten, place date filling inside, and seal.',
-          sv: 'Ta en bit deg, platta till, lägg in dadelfyllningen och förslut.',
+          sv: 'Ta en bit deg, platta till den, lägg dadelfyllningen i mitten och nyp ihop degen runt fyllningen.',
           es: 'Coger un trozo de masa, aplanarlo, colocar dentro el relleno de dátiles y sellar.',
           fr: 'Prenez un morceau de pâte, aplatissez-le, placez la garniture aux dattes à l\'intérieur et scellez.',
           de: 'Nehmen Sie ein Stück Teig, drücken Sie es flach, legen Sie die Dattelfüllung hinein und verschließen Sie es.',
@@ -1285,7 +1435,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Shape in a maamoul mold or form a small dome and press lightly with a fork.',
-          sv: 'Forma i en maamoulform eller forma en liten kupol och tryck till lätt med en gaffel.',
+          sv: 'Tryck kakan i en maamoulform, eller forma en liten kupol och tryck lätt med en gaffel.',
           es: 'Dar forma en un molde maamoul o formar una pequeña cúpula y presionar ligeramente con un tenedor.',
           fr: 'Façonner dans un moule à maamoul ou former un petit dôme et presser légèrement avec une fourchette.',
           de: 'In einer Maamoul-Form formen oder eine kleine Kuppel formen und mit einer Gabel leicht andrücken.',
@@ -1296,7 +1446,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Bake at 180C for 18-22 minutes until lightly golden (not dark).',
-          sv: 'Grädda i 180C i 18-22 minuter tills de är lätt gyllene (inte mörka).',
+          sv: 'Grädda i 180 °C i 18–22 minuter tills kakorna är lätt gyllene (inte mörka).',
           es: 'Hornee a 180C durante 18-22 minutos hasta que esté ligeramente dorado (no oscuro).',
           fr: 'Cuire au four à 180°C pendant 18 à 22 minutes jusqu\'à ce qu\'ils soient légèrement dorés (pas foncés).',
           de: 'Bei 180 °C 18–22 Minuten backen, bis es leicht goldbraun (nicht dunkel) ist.',
@@ -1307,7 +1457,7 @@ export const saudiArabia: Country = {
         },
         {
           en: 'Cool completely. Dust with powdered sugar if desired.',
-          sv: 'Kyl helt. Pudra med strösocker om så önskas.',
+          sv: 'Låt svalna helt. Pudra över florsocker om du vill.',
           es: 'Dejar enfriar por completo. Espolvoree con azúcar en polvo si lo desea.',
           fr: 'Refroidissez complètement. Saupoudrer de sucre en poudre si désiré.',
           de: 'Vollständig abkühlen lassen. Nach Belieben mit Puderzucker bestäuben.',
@@ -1346,7 +1496,7 @@ export const saudiArabia: Country = {
     music: [
       { en: 'Ardah (traditional sword dance music)', sv: 'Ardah (traditionell svärdsdansmusik)', de: 'Ardah (traditionelle Schwerttanzmusik)', fr: 'Ardah (musique traditionnelle de danse à l\'épée)', es: 'Ardah (música tradicional de danza con espada)', it: 'Ardah (musica tradizionale della danza con la spada)', pl: 'Ardah (tradycyjna muzyka tańca z mieczem)', nl: 'Ardah (traditionele zwaardansmuziek)', pt: 'Ardah (música tradicional de dança com espada)' },
       { en: 'Najdi folk music', sv: 'Najdi folkmusik', de: 'Najdi-Volksmusik', fr: 'Musique folklorique najdi', es: 'Música folclórica najdi', it: 'Musica folk najdi', pl: 'Muzyka ludowa Najdi', nl: 'Najdi volksmuziek', pt: 'Música folclórica najdi' },
-      { en: 'Khaleeji (Gulf) pop', sv: 'Khaleeji (Gulf) pop', de: 'Khaleeji (Golf) Pop', fr: 'Pop khaleeji (du Golfe)', es: 'Pop khaleeji (del Golfo)', it: 'Pop khaleeji (del Golfo)', pl: 'Pop khaleeji (z Zatoki)', nl: 'Khaleeji (Golf) pop', pt: 'Pop khaleeji (do Golfo)' },
+      { en: 'Khaleeji (Gulf) pop', sv: 'Khaleeji-pop (popmusik från Gulfstaterna)', de: 'Khaleeji (Golf) Pop', fr: 'Pop khaleeji (du Golfe)', es: 'Pop khaleeji (del Golfo)', it: 'Pop khaleeji (del Golfo)', pl: 'Pop khaleeji (z Zatoki)', nl: 'Khaleeji (Golf) pop', pt: 'Pop khaleeji (do Golfo)' },
       { en: 'Modern Arabic pop', sv: 'Modern arabisk pop', de: 'Moderner arabischer Pop', fr: 'Pop arabe moderne', es: 'Pop árabe moderno', it: 'Pop arabo moderno', pl: 'Nowoczesny arabski pop', nl: 'Moderne Arabische pop', pt: 'Pop árabe moderno' },
     ],
     decorationIdeas: [

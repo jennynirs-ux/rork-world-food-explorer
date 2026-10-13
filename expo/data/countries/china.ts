@@ -263,8 +263,28 @@ export const china: Country = {
     },
     history: [
       {
-        year: '221 BC',
-        title: 'First Dynasty United',
+        year: {
+          en: '221 BC',
+          sv: '221 f.Kr.',
+          es: '221 a. C.',
+          fr: '221 av. J.-C.',
+          de: '221 v. Chr.',
+          it: '221 a.C.',
+          pl: '221 p.n.e.',
+          nl: '221 v.Chr.',
+          pt: '221 a.C.',
+        },
+        title: {
+          en: 'First Dynasty United',
+          sv: 'Kinas enande',
+          es: 'Unificación de China',
+          fr: 'Unification de la Chine',
+          de: 'Einigung Chinas',
+          it: 'Unificazione della Cina',
+          pl: 'Zjednoczenie Chin',
+          nl: 'Eenwording van China',
+          pt: 'Unificação da China',
+        },
         description: {
           en: 'Emperor Qin Shi Huang unified China, standardized writing, and began the Great Wall.',
           sv: 'Kejsar Qin Shi Huang enade Kina, standardiserade skrivandet och började muren.',
@@ -278,7 +298,17 @@ export const china: Country = {
         },
       },
       {
-        year: '206 BC - 220 AD',
+        year: {
+          en: '206 BC - 220 AD',
+          sv: '206 f.Kr. – 220 e.Kr.',
+          es: '206 a. C. – 220 d. C.',
+          fr: '206 av. J.-C. – 220 apr. J.-C.',
+          de: '206 v. Chr. – 220 n. Chr.',
+          it: '206 a.C. – 220 d.C.',
+          pl: '206 p.n.e. – 220 n.e.',
+          nl: '206 v.Chr. – 220 n.Chr.',
+          pt: '206 a.C. – 220 d.C.',
+        },
         title: {
           en: 'Han Dynasty',
           sv: 'Handynastin',
@@ -329,7 +359,17 @@ export const china: Country = {
       },
       {
         year: '1949',
-        title: 'People\'s Republic Founded',
+        title: {
+          en: 'People\'s Republic Founded',
+          sv: 'Folkrepubliken grundas',
+          es: 'Fundación de la República Popular',
+          fr: 'Fondation de la République populaire',
+          de: 'Gründung der Volksrepublik',
+          it: 'Fondazione della Repubblica Popolare',
+          pl: 'Proklamacja Republiki Ludowej',
+          nl: 'Oprichting van de Volksrepubliek',
+          pt: 'Fundação da República Popular',
+        },
         description: {
           en: 'The Communist Party established the People\'s Republic of China under Mao Zedong.',
           sv: 'Kommunistpartiet etablerade Folkrepubliken Kina under Mao Zedong.',
@@ -356,7 +396,17 @@ export const china: Country = {
           nl: 'Papier',
           pt: 'Papel',
         },
-        year: '105 AD',
+        year: {
+          en: '105 AD',
+          sv: '105 e.Kr.',
+          es: '105 d. C.',
+          fr: '105 apr. J.-C.',
+          de: '105 n. Chr.',
+          it: '105 d.C.',
+          pl: '105 n.e.',
+          nl: '105 n.Chr.',
+          pt: '105 d.C.',
+        },
         description: {
           en: 'Invented by Cai Lun during the Han Dynasty, revolutionizing communication and record-keeping.',
           sv: 'Uppfanns av Cai Lun under Han-dynastin, revolutionerande kommunikation och journalföring.',
@@ -381,7 +431,17 @@ export const china: Country = {
           nl: 'Buskruit',
           pt: 'Pólvora',
         },
-        year: '9th century',
+        year: {
+          en: '9th century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
         description: {
           en: 'Initially created by alchemists, later used in warfare and changed military history.',
           sv: 'Ursprungligen skapad av alkemister, användes senare i krigföring och förändrade militärhistoria.',
@@ -406,7 +466,17 @@ export const china: Country = {
           nl: 'Drukkunst',
           pt: 'Impressão',
         },
-        year: '11th century',
+        year: {
+          en: '11th century',
+          sv: '1000-talet',
+          es: 'Siglo XI',
+          fr: 'XIe siècle',
+          de: '11. Jahrhundert',
+          it: 'XI secolo',
+          pl: 'XI wiek',
+          nl: '11e eeuw',
+          pt: 'Século XI',
+        },
         description: {
           en: 'Movable type printing invented, enabling mass production of books.',
           sv: 'Rörlig typtryck uppfann, vilket möjliggör massproduktion av böcker.',
@@ -431,7 +501,17 @@ export const china: Country = {
           nl: 'Kompas',
           pt: 'Bússola',
         },
-        year: '11th century',
+        year: {
+          en: '11th century',
+          sv: '1000-talet',
+          es: 'Siglo XI',
+          fr: 'XIe siècle',
+          de: '11. Jahrhundert',
+          it: 'XI secolo',
+          pl: 'XI wiek',
+          nl: '11e eeuw',
+          pt: 'Século XI',
+        },
         description: {
           en: 'Magnetic compass for navigation, crucial for exploration and trade.',
           sv: 'Magnetisk kompass för navigering, avgörande för utforskning och handel.',
@@ -545,7 +625,7 @@ export const china: Country = {
       {
         name: {
           en: 'Shanghai Bund',
-          sv: 'Shanghai Bund',
+          sv: 'The Bund i Shanghai',
           es: 'Bund de Shanghái',
           fr: 'Bund de Shanghai',
           de: 'Shanghai Bund',
@@ -569,7 +649,17 @@ export const china: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-May and September-October for pleasant weather nationwide.',
           sv: 'April-maj och september-oktober för behagligt väder i hela landet.',
@@ -583,7 +673,17 @@ export const china: Country = {
         },
       },
       {
-        item: 'VPN service',
+        item: {
+          en: 'VPN service',
+          sv: 'VPN-tjänst',
+          es: 'Servicio de VPN',
+          fr: 'Service VPN',
+          de: 'VPN-Dienst',
+          it: 'Servizio VPN',
+          pl: 'Usługa VPN',
+          nl: 'VPN-dienst',
+          pt: 'Serviço de VPN',
+        },
         description: {
           en: 'Essential for accessing blocked websites and apps like Google and Facebook.',
           sv: 'Viktigt för att komma åt blockerade webbplatser och appar som Google och Facebook.',
@@ -597,7 +697,17 @@ export const china: Country = {
         },
       },
       {
-        item: 'WeChat & Alipay',
+        item: {
+          en: 'WeChat & Alipay',
+          sv: 'WeChat & Alipay',
+          es: 'WeChat & Alipay',
+          fr: 'WeChat & Alipay',
+          de: 'WeChat & Alipay',
+          it: 'WeChat & Alipay',
+          pl: 'WeChat & Alipay',
+          nl: 'WeChat & Alipay',
+          pt: 'WeChat & Alipay',
+        },
         description: {
           en: 'Mobile payment apps necessary for most transactions in modern China.',
           sv: 'Mobilbetalningsappar som är nödvändiga för de flesta transaktioner i det moderna Kina.',
@@ -611,7 +721,17 @@ export const china: Country = {
         },
       },
       {
-        item: 'Translation app',
+        item: {
+          en: 'Translation app',
+          sv: 'Översättningsapp',
+          es: 'App de traducción',
+          fr: 'Application de traduction',
+          de: 'Übersetzungs-App',
+          it: 'App di traduzione',
+          pl: 'Aplikacja do tłumaczenia',
+          nl: 'Vertaalapp',
+          pt: 'App de tradução',
+        },
         description: {
           en: 'Very few signs in English outside major cities.',
           sv: 'Väldigt få skyltar på engelska utanför större städer.',
@@ -625,7 +745,17 @@ export const china: Country = {
         },
       },
       {
-        item: 'Adapter (Type A/C/I)',
+        item: {
+          en: 'Adapter (Type A/C/I)',
+          sv: 'Adapter (typ A/C/I)',
+          es: 'Adaptador (tipo A/C/I)',
+          fr: 'Adaptateur (type A/C/I)',
+          de: 'Adapter (Typ A/C/I)',
+          it: 'Adattatore (tipo A/C/I)',
+          pl: 'Adapter (typ A/C/I)',
+          nl: 'Adapter (type A/C/I)',
+          pt: 'Adaptador (tipo A/C/I)',
+        },
         description: {
           en: 'China uses multiple plug types with 220V.',
           sv: 'Kina använder flera pluggtyper med 220V.',
@@ -639,7 +769,17 @@ export const china: Country = {
         },
       },
       {
-        item: 'Comfortable shoes',
+        item: {
+          en: 'Comfortable shoes',
+          sv: 'Bekväma skor',
+          es: 'Calzado cómodo',
+          fr: 'Chaussures confortables',
+          de: 'Bequeme Schuhe',
+          it: 'Scarpe comode',
+          pl: 'Wygodne buty',
+          nl: 'Comfortabele schoenen',
+          pt: 'Sapatos confortáveis',
+        },
         description: {
           en: 'Expect extensive walking at historical sites and cities.',
           sv: 'Räkna med omfattande promenader vid historiska platser och städer.',
@@ -668,7 +808,7 @@ export const china: Country = {
       },
       description: {
         en: 'Spicy Sichuan stir-fry with chicken, peanuts, vegetables, and chili peppers',
-        sv: 'Kryddig Sichuan-röra med kyckling, jordnötter, grönsaker och chilipeppar',
+        sv: 'Stark sichuanwok med kyckling, jordnötter, grönsaker och chili',
         es: 'Salteado picante de Sichuan con pollo, maní, verduras y chiles',
         fr: 'Sauté épicé du Sichuan avec poulet, cacahuètes, légumes et piments',
         de: 'Scharfe Sichuan-Pfanne mit Hühnchen, Erdnüssen, Gemüse und Chilischoten',
@@ -750,7 +890,7 @@ export const china: Country = {
         {
           name: {
             en: 'Sichuan peppercorns',
-            sv: 'Sichuan pepparkorn',
+            sv: 'Sichuanpeppar',
             es: 'Granos de pimienta de Sichuan',
             fr: 'Poivre du Sichuan',
             de: 'Sichuan-Pfefferkörner',
@@ -882,7 +1022,7 @@ export const china: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -896,7 +1036,7 @@ export const china: Country = {
       steps: [
         {
           en: 'Cut chicken into small cubes, marinate with soy sauce and cornstarch',
-          sv: 'Skär kycklingen i små tärningar, marinera med sojasås och majsstärkelse',
+          sv: 'Skär kycklingen i små tärningar och marinera dem i sojasås och majsstärkelse',
           es: 'Cortar el pollo en cubos pequeños, marinar con salsa de soja y maicena',
           fr: 'Couper le poulet en petits cubes, mariner avec la sauce soja et la fécule de maïs',
           de: 'Hähnchen in kleine Würfel schneiden, mit Sojasauce und Maisstärke marinieren',
@@ -907,7 +1047,7 @@ export const china: Country = {
         },
         {
           en: 'Mix sauce: soy sauce, vinegar, sugar, and cornstarch',
-          sv: 'Blanda sås: sojasås, vinäger, socker och majsstärkelse',
+          sv: 'Blanda ihop såsen: sojasås, vinäger, socker och majsstärkelse',
           es: 'Mezclar salsa: salsa de soja, vinagre, azúcar y maicena',
           fr: 'Mélanger la sauce : sauce soja, vinaigre, sucre et fécule de maïs',
           de: 'Soße mischen: Sojasoße, Essig, Zucker und Maisstärke',
@@ -918,7 +1058,7 @@ export const china: Country = {
         },
         {
           en: 'Heat wok with oil on high heat',
-          sv: 'Värm wok med olja på hög värme',
+          sv: 'Hetta upp olja i en wok på hög värme',
           es: 'Calentar wok con aceite a fuego alto',
           fr: 'Chauffer le wok avec l\'huile à feu vif',
           de: 'Wok mit Öl auf hoher Stufe erhitzen',
@@ -929,7 +1069,7 @@ export const china: Country = {
         },
         {
           en: 'Stir-fry Sichuan peppercorns and chilies until fragrant',
-          sv: 'Stek Sichuan-pepparkorn och chili tills de doftar',
+          sv: 'Woka sichuanpeppar och chili tills det doftar',
           es: 'Sofríe los granos de pimienta y los chiles de Sichuan hasta que estén fragantes',
           fr: 'Faire sauter les grains de poivre du Sichuan et les piments jusqu\'à ce qu\'ils soient parfumés',
           de: 'Sichuan-Pfefferkörner und Chilis unter Rühren anbraten, bis sie duften',
@@ -940,7 +1080,7 @@ export const china: Country = {
         },
         {
           en: 'Add chicken, cook until browned',
-          sv: 'Tillsätt kyckling, koka tills den fått färg',
+          sv: 'Tillsätt kycklingen och woka tills den har fått färg',
           es: 'Agregue el pollo, cocine hasta que se dore',
           fr: 'Ajouter le poulet, cuire jusqu\'à ce qu\'il soit doré',
           de: 'Hähnchen hinzufügen und braten, bis es braun ist',
@@ -962,7 +1102,7 @@ export const china: Country = {
         },
         {
           en: 'Pour in sauce, stir until thickened',
-          sv: 'Häll i sås, rör om tills det tjocknat',
+          sv: 'Häll i såsen och rör om tills den tjocknar',
           es: 'Vierta la salsa, revuelva hasta que espese',
           fr: 'Verser la sauce, remuer jusqu\'à épaississement',
           de: 'Soße einfüllen, rühren, bis sie eingedickt ist',
@@ -973,7 +1113,7 @@ export const china: Country = {
         },
         {
           en: 'Add peanuts, toss everything together',
-          sv: 'Tillsätt jordnötter, blanda ihop allt',
+          sv: 'Tillsätt jordnötterna och blanda ihop allt',
           es: 'Agregue maní, mezcle todo junto',
           fr: 'Ajouter les cacahuètes, mélanger le tout',
           de: 'Erdnüsse hinzufügen, alles vermischen',
@@ -1038,7 +1178,7 @@ export const china: Country = {
         {
           name: {
             en: 'Ripe mangoes',
-            sv: 'Mogen mango',
+            sv: 'Mogna mangor',
             es: 'Mangos maduros',
             fr: 'Mangues mûres',
             de: 'Reife Mangos',
@@ -1050,7 +1190,7 @@ export const china: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1078,7 +1218,7 @@ export const china: Country = {
         {
           name: {
             en: 'Condensed milk',
-            sv: 'Kondenserad mjölk',
+            sv: 'Sötad kondenserad mjölk',
             es: 'Leche condensada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -1139,7 +1279,7 @@ export const china: Country = {
       steps: [
         {
           en: 'Peel and dice mangoes, set aside some for topping',
-          sv: 'Skala och tärna mangon, lägg åt sidan till topping',
+          sv: 'Skala och tärna mangon, spara lite till garnering',
           es: 'Pele y corte los mangos, reserve algunos para cubrir',
           fr: 'Épluchez et coupez les mangues en dés, réservez-en quelques-unes pour la garniture',
           de: 'Mangos schälen und würfeln, einige zum Garnieren beiseite legen',
@@ -1150,7 +1290,7 @@ export const china: Country = {
         },
         {
           en: 'Blend majority of mango with coconut milk until smooth',
-          sv: 'Blanda majoriteten av mangon med kokosmjölk tills den är slät',
+          sv: 'Mixa större delen av mangon med kokosmjölken till en slät puré',
           es: 'Licue la mayor parte del mango con la leche de coco hasta que quede suave',
           fr: 'Mélangez la majorité de la mangue avec le lait de coco jusqu\'à consistance lisse',
           de: 'Den Großteil der Mango mit Kokosmilch glatt rühren',
@@ -1172,7 +1312,7 @@ export const china: Country = {
         },
         {
           en: 'Heat mango puree gently, add condensed milk and sugar',
-          sv: 'Värm mangopuré försiktigt, tillsätt kondenserad mjölk och socker',
+          sv: 'Värm mangopurén försiktigt och tillsätt sötad kondenserad mjölk och socker',
           es: 'Calentar el puré de mango a fuego lento, agregar la leche condensada y el azúcar',
           fr: 'Chauffer doucement la purée de mangue, ajouter le lait concentré et le sucre',
           de: 'Mangopüree vorsichtig erhitzen, Kondensmilch und Zucker hinzufügen',
@@ -1183,7 +1323,7 @@ export const china: Country = {
         },
         {
           en: 'Mix in dissolved gelatin thoroughly',
-          sv: 'Blanda i upplöst gelatin noggrant',
+          sv: 'Rör ner det upplösta gelatinet ordentligt',
           es: 'Mezclar bien con la gelatina disuelta',
           fr: 'Incorporer soigneusement la gélatine dissoute',
           de: 'Aufgelöste Gelatine gründlich untermischen',
@@ -1205,7 +1345,7 @@ export const china: Country = {
         },
         {
           en: 'Refrigerate for at least 4 hours until set',
-          sv: 'Kyl i minst 4 timmar tills den stelnat',
+          sv: 'Ställ i kylen i minst 4 timmar tills puddingen har stelnat',
           es: 'Refrigere durante al menos 4 horas hasta que cuaje',
           fr: 'Réfrigérer pendant au moins 4 heures jusqu\'à ce que le tout soit pris',
           de: 'Mindestens 4 Stunden im Kühlschrank lagern, bis es fest ist',

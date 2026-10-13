@@ -263,8 +263,28 @@ export const serbia: Country = {
     },
     history: [
       {
-        year: '9th–10th Century',
-        title: 'Early Serbian Polities',
+        year: {
+          en: '9th–10th Century',
+          sv: '800–900-talet',
+          es: 'Siglos IX–X',
+          fr: 'IXe–Xe siècles',
+          de: '9.–10. Jahrhundert',
+          it: 'IX–X secolo',
+          pl: 'IX–X wiek',
+          nl: '9e–10e eeuw',
+          pt: 'Séculos IX–X',
+        },
+        title: {
+          en: 'Early Serbian Polities',
+          sv: 'Tidiga serbiska furstendömen',
+          es: 'Primeros principados serbios',
+          fr: 'Premières principautés serbes',
+          de: 'Frühe serbische Fürstentümer',
+          it: 'Primi principati serbi',
+          pl: 'Wczesne księstwa serbskie',
+          nl: 'Vroege Servische vorstendommen',
+          pt: 'Primeiros principados sérvios',
+        },
         description: {
           en: 'Early medieval Serbian principalities formed in the Balkans, creating the foundations of later Serbian statehood and identity.',
           sv: 'Tidiga medeltida serbiska furstendömen bildades på Balkan och skapade grunden för senare serbisk stat och identitet.',
@@ -279,7 +299,17 @@ export const serbia: Country = {
       },
       {
         year: '1217',
-        title: 'Kingdom of Serbia',
+        title: {
+          en: 'Kingdom of Serbia',
+          sv: 'Kungariket Serbien',
+          es: 'Reino de Serbia',
+          fr: 'Royaume de Serbie',
+          de: 'Königreich Serbien',
+          it: 'Regno di Serbia',
+          pl: 'Królestwo Serbii',
+          nl: 'Koninkrijk Servië',
+          pt: 'Reino da Sérvia',
+        },
         description: {
           en: 'The Serbian state strengthened and gained international recognition as a kingdom, with major cultural growth in the medieval period.',
           sv: 'Den serbiska staten stärktes och fick internationellt erkännande som ett kungarike, med stor kulturell tillväxt under medeltiden.',
@@ -294,7 +324,17 @@ export const serbia: Country = {
       },
       {
         year: '1346',
-        title: 'Serbian Empire',
+        title: {
+          en: 'Serbian Empire',
+          sv: 'Serbiska kejsardömet',
+          es: 'Imperio serbio',
+          fr: 'Empire serbe',
+          de: 'Serbisches Reich',
+          it: 'Impero serbo',
+          pl: 'Carstwo Serbskie',
+          nl: 'Servische Rijk',
+          pt: 'Império Sérvio',
+        },
         description: {
           en: 'Under Emperor Dušan, Serbia expanded and became a significant Balkan power, leaving a strong legal and cultural legacy.',
           sv: 'Under kejsar Dušan expanderade Serbien och blev en betydande Balkanmakt, vilket efterlämnade ett starkt juridiskt och kulturellt arv.',
@@ -309,7 +349,17 @@ export const serbia: Country = {
       },
       {
         year: '1389',
-        title: 'Battle of Kosovo',
+        title: {
+          en: 'Battle of Kosovo',
+          sv: 'Slaget vid Kosovo',
+          es: 'Batalla de Kosovo',
+          fr: 'Bataille du Kosovo',
+          de: 'Schlacht auf dem Amselfeld',
+          it: 'Battaglia del Kosovo',
+          pl: 'Bitwa na Kosowym Polu',
+          nl: 'Slag op het Merelveld',
+          pt: 'Batalha do Kosovo',
+        },
         description: {
           en: 'A pivotal medieval battle that became central in Serbian historical memory and later national narratives.',
           sv: 'En avgörande medeltidsstrid som blev central i det serbiska historiska minnet och senare nationella berättelser.',
@@ -324,7 +374,17 @@ export const serbia: Country = {
       },
       {
         year: '1804–1815',
-        title: 'Serbian Uprisings',
+        title: {
+          en: 'Serbian Uprisings',
+          sv: 'Serbiska upproren',
+          es: 'Levantamientos serbios',
+          fr: 'Soulèvements serbes',
+          de: 'Serbische Aufstände',
+          it: 'Insurrezioni serbe',
+          pl: 'Powstania serbskie',
+          nl: 'Servische opstanden',
+          pt: 'Revoltas sérvias',
+        },
         description: {
           en: 'A series of uprisings helped Serbia regain autonomy and gradually re-establish modern state institutions.',
           sv: 'En rad uppror hjälpte Serbien att återfå autonomi och gradvis återupprätta moderna statliga institutioner.',
@@ -339,7 +399,17 @@ export const serbia: Country = {
       },
       {
         year: '2006',
-        title: 'Independent Serbia',
+        title: {
+          en: 'Independent Serbia',
+          sv: 'Det självständiga Serbien',
+          es: 'Serbia independiente',
+          fr: 'Serbie indépendante',
+          de: 'Unabhängiges Serbien',
+          it: 'Serbia indipendente',
+          pl: 'Niepodległa Serbia',
+          nl: 'Onafhankelijk Servië',
+          pt: 'Sérvia independente',
+        },
         description: {
           en: 'Serbia became an independent state after Montenegro\'s independence referendum, shaping its modern political era.',
           sv: 'Serbien blev en självständig stat efter Montenegros självständighetsfolkomröstning, vilket formade dess moderna politiska era.',
@@ -366,7 +436,17 @@ export const serbia: Country = {
           nl: 'De elektrische doorbraken van Nikola Tesla',
           pt: 'Os avanços elétricos de Nikola Tesla',
         },
-        year: '1880s–1900s',
+        year: {
+          en: '1880s–1900s',
+          sv: '1880–1900-talet',
+          es: 'décadas de 1880–1900',
+          fr: 'années 1880–1900',
+          de: '1880er–1900er',
+          it: 'anni 1880–1900',
+          pl: 'lata 1880–1900',
+          nl: 'jaren 1880–1900',
+          pt: 'décadas de 1880–1900',
+        },
         description: {
           en: 'Tesla\'s work on alternating current (AC) systems and electrical engineering shaped modern power distribution and technology worldwide.',
           sv: 'Teslas arbete med växelströmssystem (AC) och elektroteknik formade modern kraftdistribution och teknik över hela världen.',
@@ -416,7 +496,17 @@ export const serbia: Country = {
           nl: 'Moderne Servische film en animatie',
           pt: 'Cinema e animação sérvios modernos',
         },
-        year: '1960s–Present',
+        year: {
+          en: '1960s–Present',
+          sv: '1960-talet–idag',
+          es: 'Década de 1960–actualidad',
+          fr: 'Années 1960–aujourd\'hui',
+          de: '1960er–heute',
+          it: 'Anni \'60–oggi',
+          pl: 'Lata 60.–obecnie',
+          nl: 'Jaren 60–heden',
+          pt: 'Década de 1960–presente',
+        },
         description: {
           en: 'Serbia and former Yugoslav-era studios developed internationally recognized film, animation, and festival culture with lasting regional influence.',
           sv: 'Studior från Serbien och före detta jugoslaviska eran utvecklade internationellt erkänd film-, animations- och festivalkultur med bestående regionalt inflytande.',
@@ -554,7 +644,17 @@ export const serbia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May–September for warm weather; winter for city breaks and mountain escapes.',
           sv: 'Maj–september för varmt väder; vinter för storstadssemester och bergsflykter.',
@@ -592,7 +692,17 @@ export const serbia: Country = {
         },
       },
       {
-        item: 'Getting around',
+        item: {
+          en: 'Getting around',
+          sv: 'Att ta sig runt',
+          es: 'Cómo moverse',
+          fr: 'Se déplacer',
+          de: 'Unterwegs vor Ort',
+          it: 'Come spostarsi',
+          pl: 'Poruszanie się',
+          nl: 'Vervoer ter plaatse',
+          pt: 'Como se locomover',
+        },
         description: {
           en: 'Buses connect most cities well; Belgrade has trams and buses; taxis are common (use official apps/stands).',
           sv: 'Bussar förbinder de flesta städer bra; Belgrad har spårvagnar och bussar; taxibilar är vanliga (använd officiella appar/ställ).',
@@ -606,7 +716,17 @@ export const serbia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Serbian uses Cyrillic and Latin; English is common in Belgrade and tourist areas.',
           sv: 'Serbiska använder kyrilliska och latin; Engelska är vanligt i Belgrad och turistområden.',
@@ -620,7 +740,17 @@ export const serbia: Country = {
         },
       },
       {
-        item: 'Food tip',
+        item: {
+          en: 'Food tip',
+          sv: 'Mattips',
+          es: 'Consejo gastronómico',
+          fr: 'Conseil gourmand',
+          de: 'Kulinarischer Tipp',
+          it: 'Consiglio gastronomico',
+          pl: 'Wskazówka kulinarna',
+          nl: 'Eettip',
+          pt: 'Dica gastronômica',
+        },
         description: {
           en: 'Try ajvar, kajmak, burek, and local grilled meats—portions can be generous.',
           sv: 'Prova ajvar, kajmak, burek och lokalt grillat kött - portioner kan vara generösa.',
@@ -634,7 +764,17 @@ export const serbia: Country = {
         },
       },
       {
-        item: 'Coffee culture',
+        item: {
+          en: 'Coffee culture',
+          sv: 'Kaffekultur',
+          es: 'Cultura del café',
+          fr: 'Culture du café',
+          de: 'Kaffeekultur',
+          it: 'Cultura del caffè',
+          pl: 'Kultura picia kawy',
+          nl: 'Koffiecultuur',
+          pt: 'Cultura do café',
+        },
         description: {
           en: 'Expect long café sits—ordering one drink and chatting is normal.',
           sv: 'Räkna med långa cafésittning – att beställa en drink och chatta är normalt.',
@@ -663,7 +803,7 @@ export const serbia: Country = {
       },
       description: {
         en: 'Small grilled minced-meat sausages served with warm lepinja (flatbread), chopped onions, and often kajmak (creamy dairy spread) and ajvar.',
-        sv: 'Små grillade köttfärskorvar serveras med varm lepinja (tunnbröd), hackad lök och ofta kajmak (krämigt mejeripålägg) och ajvar.',
+        sv: 'Små grillade korvar av köttfärs som serveras med varm lepinja (flatbröd), hackad lök och ofta kajmak (ett krämigt mejeripålägg) och ajvar.',
         es: 'Pequeñas salchichas de carne picada a la parrilla servidas con lepinja (pan plano plano) caliente, cebollas picadas y, a menudo, kajmak (crema láctea para untar) y ajvar.',
         fr: 'Petites saucisses de viande hachée grillées servies avec du lepinja (pain plat) chaud, des oignons hachés et souvent du kajmak (pâte à tartiner crémeuse) et de l\'ajvar.',
         de: 'Kleine gegrillte Hackfleischwürste, serviert mit warmem Lepinja (Fladenbrot), gehackten Zwiebeln und oft Kajmak (cremiger Milchaufstrich) und Ajvar.',
@@ -705,7 +845,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Ground pork (optional)',
-            sv: 'Malet fläsk (valfritt)',
+            sv: 'Fläskfärs (valfritt)',
             es: 'Carne de cerdo molida (opcional)',
             fr: 'Porc haché (facultatif)',
             de: 'Schweinehackfleisch (optional)',
@@ -775,7 +915,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Sweet paprika',
-            sv: 'Söt paprika',
+            sv: 'Paprikapulver',
             es: 'Pimentón dulce',
             fr: 'Paprika doux',
             de: 'Süßer Paprika',
@@ -790,7 +930,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Baking soda',
-            sv: 'Bakpulver',
+            sv: 'Bikarbonat',
             es: 'Bicarbonato',
             fr: 'Bicarbonate de soude',
             de: 'Backpulver',
@@ -805,7 +945,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Sparkling water',
-            sv: 'Mousserande vatten',
+            sv: 'Kolsyrat vatten',
             es: 'Agua con gas',
             fr: 'Eau gazeuse',
             de: 'Sprudelndes Wasser',
@@ -820,7 +960,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Lepinja (flatbread)',
-            sv: 'Lepinja (tunnbröd)',
+            sv: 'Lepinja (flatbröd)',
             es: 'Lepinja (pan plano)',
             fr: 'Lepinja (pain plat)',
             de: 'Lepinja (Fladenbrot)',
@@ -845,7 +985,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Onion, finely chopped (to serve)',
-            sv: 'Lök, finhackad (att servera)',
+            sv: 'Lök, finhackad (till servering)',
             es: 'Cebolla finamente picada (para servir)',
             fr: 'Oignon, finement haché (pour servir)',
             de: 'Zwiebel, fein gehackt (zum Servieren)',
@@ -857,7 +997,7 @@ export const serbia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -870,7 +1010,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Ajvar (to serve)',
-            sv: 'Ajvar (att tjäna)',
+            sv: 'Ajvar (till servering)',
             es: 'Ajvar (servir)',
             fr: 'Ajvar (servir)',
             de: 'Ajvar (zum Servieren)',
@@ -885,7 +1025,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Kajmak (optional, to serve)',
-            sv: 'Kajmak (valfritt, att servera)',
+            sv: 'Kajmak (valfritt, till servering)',
             es: 'Kajmak (opcional, para servir)',
             fr: 'Kajmak (facultatif, pour servir)',
             de: 'Kajmak (optional, zum Servieren)',
@@ -901,7 +1041,7 @@ export const serbia: Country = {
       steps: [
         {
           en: 'Combine ground meat, garlic, salt, pepper, paprika, and baking soda in a bowl.',
-          sv: 'Blanda köttfärs, vitlök, salt, peppar, paprika och bakpulver i en skål.',
+          sv: 'Blanda köttfärs, vitlök, salt, peppar, paprikapulver och bikarbonat i en skål.',
           es: 'Combine la carne molida, el ajo, la sal, la pimienta, el pimentón y el bicarbonato de sodio en un tazón.',
           fr: 'Mélangez la viande hachée, l\'ail, le sel, le poivre, le paprika et le bicarbonate de soude dans un bol.',
           de: 'Hackfleisch, Knoblauch, Salz, Pfeffer, Paprika und Backpulver in einer Schüssel vermischen.',
@@ -912,7 +1052,7 @@ export const serbia: Country = {
         },
         {
           en: 'Pour in sparkling water and mix thoroughly until the mixture becomes sticky and well combined.',
-          sv: 'Häll i kolsyrat vatten och blanda noggrant tills blandningen blir klibbig och väl blandad.',
+          sv: 'Häll i det kolsyrade vattnet och arbeta smeten ordentligt tills den blir klibbig och håller ihop.',
           es: 'Vierta agua con gas y mezcle bien hasta que la mezcla se vuelva pegajosa y bien combinada.',
           fr: 'Versez de l\'eau gazeuse et mélangez soigneusement jusqu\'à ce que le mélange devienne collant et bien mélangé.',
           de: 'Gießen Sie Sprudelwasser hinzu und mischen Sie gründlich, bis die Mischung klebrig und gut vermischt ist.',
@@ -945,7 +1085,7 @@ export const serbia: Country = {
         },
         {
           en: 'Preheat a grill or grill pan to medium-high heat.',
-          sv: 'Förvärm en grill eller grillpanna till medelhög värme.',
+          sv: 'Hetta upp en grill eller grillpanna till medelhög värme.',
           es: 'Precalienta una parrilla o sartén a fuego medio-alto.',
           fr: 'Préchauffer un gril ou une poêle à griller à feu moyen-vif.',
           de: 'Einen Grill oder eine Grillpfanne auf mittlere bis hohe Hitze vorheizen.',
@@ -956,7 +1096,7 @@ export const serbia: Country = {
         },
         {
           en: 'Grill ćevapi 3–4 minutes per side until browned and cooked through.',
-          sv: 'Grilla ćevapi 3–4 minuter per sida tills de fått färg och genomstekt.',
+          sv: 'Grilla ćevapi i 3–4 minuter per sida tills de har fått fin färg och är genomstekta.',
           es: 'Ase los ćevapi de 3 a 4 minutos por lado hasta que se doren y estén bien cocidos.',
           fr: 'Griller le ćevapi 3 à 4 minutes de chaque côté jusqu\'à ce qu\'il soit doré et bien cuit.',
           de: 'Grillen Sie Cevapi 3–4 Minuten pro Seite, bis sie gebräunt und durchgegart sind.',
@@ -978,7 +1118,7 @@ export const serbia: Country = {
         },
         {
           en: 'Serve ćevapi tucked into lepinja with lots of chopped onion.',
-          sv: 'Servera ćevapi instoppad i lepinja med massor av hackad lök.',
+          sv: 'Servera ćevapi i lepinja med rikligt med hackad lök.',
           es: 'Sirva los ćevapi metidos en lepinja con mucha cebolla picada.',
           fr: 'Servir le ćevapi niché dans le lepinja avec beaucoup d\'oignons hachés.',
           de: 'Servieren Sie Cevapi in Lepinja gesteckt und mit viel gehackten Zwiebeln.',
@@ -989,7 +1129,7 @@ export const serbia: Country = {
         },
         {
           en: 'Add ajvar and (optionally) kajmak on top or on the side.',
-          sv: 'Lägg ajvar och (valfritt) kajmak ovanpå eller på sidan.',
+          sv: 'Lägg ajvar och (om du vill) kajmak ovanpå eller vid sidan om.',
           es: 'Agregue ajvar y (opcionalmente) kajmak encima o a un lado.',
           fr: 'Ajoutez de l\'ajvar et (éventuellement) du kajmak sur le dessus ou sur le côté.',
           de: 'Ajvar und (optional) Kajmak darüber oder als Beilage hinzufügen.',
@@ -1000,7 +1140,7 @@ export const serbia: Country = {
         },
         {
           en: 'Eat hot—this is a classic street-food style meal in Serbia.',
-          sv: 'Ät varmt – det här är en klassisk måltid i gatumatstil i Serbien.',
+          sv: 'Ät dem varma – det här är klassisk serbisk gatumat.',
           es: 'Coma caliente: esta es una comida clásica de comida callejera en Serbia.',
           fr: 'Mangez chaud : il s\'agit d\'un repas de rue classique en Serbie.',
           de: 'Essen Sie heiß – dies ist ein klassisches Streetfood-Menü in Serbien.',
@@ -1027,7 +1167,7 @@ export const serbia: Country = {
       },
       description: {
         en: 'Tender Serbian sandwich cookies filled with jam (often apricot or rosehip) and rolled in powdered sugar.',
-        sv: 'Möra serbiska smörgåskakor fyllda med sylt (ofta aprikos eller nypon) och rullade i strösocker.',
+        sv: 'Möra serbiska dubbelkakor fyllda med marmelad (ofta aprikos eller nypon) och rullade i florsocker.',
         es: 'Tiernas galletas tipo sándwich serbias rellenas de mermelada (a menudo de albaricoque o rosa mosqueta) y rebozadas en azúcar en polvo.',
         fr: 'Tendres biscuits sandwich serbes fourrés de confiture (souvent d\'abricot ou d\'églantier) et roulés dans du sucre en poudre.',
         de: 'Zarte serbische Sandwichkekse, gefüllt mit Marmelade (oft Aprikose oder Hagebutte) und in Puderzucker gerollt.',
@@ -1054,7 +1194,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Unsalted butter, softened',
-            sv: 'Osaltat smör, mjukat',
+            sv: 'Osaltat smör, rumsvarmt',
             es: 'Mantequilla sin sal, ablandada',
             fr: 'Beurre doux, ramolli',
             de: 'Ungesalzene Butter, weich',
@@ -1069,7 +1209,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Powdered sugar (plus extra for coating)',
-            sv: 'Pulversocker (plus extra för beläggning)',
+            sv: 'Florsocker (och extra att rulla i)',
             es: 'Azúcar en polvo (más extra para cubrir)',
             fr: 'Sucre en poudre (plus un supplément pour l\'enrobage)',
             de: 'Puderzucker (plus etwas Zucker zum Überziehen)',
@@ -1096,7 +1236,7 @@ export const serbia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1124,7 +1264,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1154,7 +1294,7 @@ export const serbia: Country = {
         {
           name: {
             en: 'Apricot jam (or rosehip jam)',
-            sv: 'Aprikossylt (eller nyponsylt)',
+            sv: 'Aprikosmarmelad (eller nyponmarmelad)',
             es: 'Mermelada de albaricoque (o mermelada de rosa mosqueta)',
             fr: 'Confiture d\'abricots (ou confiture d\'églantier)',
             de: 'Aprikosenmarmelade (oder Hagebuttenmarmelade)',
@@ -1170,7 +1310,7 @@ export const serbia: Country = {
       steps: [
         {
           en: 'Preheat oven to 170°C and line a baking tray with parchment paper.',
-          sv: 'Värm ugnen till 170°C och klä en plåt med bakplåtspapper.',
+          sv: 'Sätt ugnen på 170 °C och klä en plåt med bakplåtspapper.',
           es: 'Precalienta el horno a 170°C y forra una bandeja para hornear con papel pergamino.',
           fr: 'Préchauffer le four à 170°C et tapisser une plaque à pâtisserie de papier sulfurisé.',
           de: 'Den Backofen auf 170 °C vorheizen und ein Backblech mit Backpapier auslegen.',
@@ -1181,7 +1321,7 @@ export const serbia: Country = {
         },
         {
           en: 'Beat butter and powdered sugar until light and fluffy.',
-          sv: 'Vispa smör och strösocker ljust och pösigt.',
+          sv: 'Vispa smör och florsocker ljust och pösigt.',
           es: 'Batir la mantequilla y el azúcar en polvo hasta que esté suave y esponjoso.',
           fr: 'Battre le beurre et le sucre en poudre jusqu\'à consistance légère et mousseuse.',
           de: 'Butter und Puderzucker schaumig schlagen.',
@@ -1192,7 +1332,7 @@ export const serbia: Country = {
         },
         {
           en: 'Mix in egg yolks and vanilla.',
-          sv: 'Blanda i äggulor och vanilj.',
+          sv: 'Rör ner äggulorna och vaniljen.',
           es: 'Incorpora las yemas de huevo y la vainilla.',
           fr: 'Incorporer les jaunes d\'œufs et la vanille.',
           de: 'Eigelb und Vanille unterrühren.',
@@ -1203,7 +1343,7 @@ export const serbia: Country = {
         },
         {
           en: 'Fold in flour and cornstarch to form a soft dough.',
-          sv: 'Vänd ner mjöl och maizena till en mjuk deg.',
+          sv: 'Vänd ner mjöl och majsstärkelse till en mjuk deg.',
           es: 'Incorpora la harina y la maicena para formar una masa suave.',
           fr: 'Incorporer la farine et la fécule de maïs pour former une pâte molle.',
           de: 'Mehl und Speisestärke unterheben, bis ein weicher Teig entsteht.',
@@ -1214,7 +1354,7 @@ export const serbia: Country = {
         },
         {
           en: 'Roll dough to about 5 mm thickness and cut small rounds (4–5 cm).',
-          sv: 'Kavla ut degen till ca 5 mm tjocklek och skär små rundlar (4–5 cm).',
+          sv: 'Kavla ut degen ca 5 mm tjock och stansa ut små rundlar (4–5 cm).',
           es: 'Enrolle la masa hasta que tenga un grosor de unos 5 mm y córtela en rodajas pequeñas (de 4 a 5 cm).',
           fr: 'Abaisser la pâte sur environ 5 mm d\'épaisseur et découper des petits ronds (4 à 5 cm).',
           de: 'Den Teig etwa 5 mm dick ausrollen und kleine Kreise (4–5 cm) ausschneiden.',
@@ -1225,7 +1365,7 @@ export const serbia: Country = {
         },
         {
           en: 'Bake 10–12 minutes until just set (do not brown too much). Cool completely.',
-          sv: 'Grädda 10–12 minuter tills de precis stelnat (inte bryn för mycket). Kyl helt.',
+          sv: 'Grädda i 10–12 minuter tills kakorna precis har stelnat (de ska inte få för mycket färg). Låt svalna helt.',
           es: 'Hornee de 10 a 12 minutos hasta que esté listo (no se dore demasiado). Dejar enfriar por completo.',
           fr: 'Cuire au four 10 à 12 minutes jusqu\'à ce qu\'il soit juste pris (ne pas trop dorer). Refroidissez complètement.',
           de: '10–12 Minuten backen, bis es fest ist (nicht zu stark bräunen). Vollständig abkühlen lassen.',
@@ -1236,7 +1376,7 @@ export const serbia: Country = {
         },
         {
           en: 'Sandwich cookies with a small spoon of jam.',
-          sv: 'Smörgåskakor med en liten sked sylt.',
+          sv: 'Lägg ihop kakorna två och två med lite marmelad emellan.',
           es: 'Galletas tipo sándwich con una cucharada pequeña de mermelada.',
           fr: 'Sandwich aux biscuits avec une petite cuillère de confiture.',
           de: 'Sandwich-Kekse mit einem kleinen Löffel Marmelade.',
@@ -1247,7 +1387,7 @@ export const serbia: Country = {
         },
         {
           en: 'Roll finished cookies in powdered sugar.',
-          sv: 'Rulla färdiga kakor i strösocker.',
+          sv: 'Rulla de färdiga kakorna i florsocker.',
           es: 'Enrolle las galletas terminadas en azúcar en polvo.',
           fr: 'Rouler les biscuits finis dans le sucre en poudre.',
           de: 'Fertige Kekse in Puderzucker wälzen.',

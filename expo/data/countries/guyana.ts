@@ -220,7 +220,17 @@ export const guyana: Country = {
     history: [
       {
         year: '1621',
-        title: 'Dutch Colonization',
+        title: {
+          en: 'Dutch Colonization',
+          sv: 'Nederländsk kolonisation',
+          es: 'Colonización neerlandesa',
+          fr: 'Colonisation néerlandaise',
+          de: 'Niederländische Kolonisierung',
+          it: 'Colonizzazione olandese',
+          pl: 'Kolonizacja holenderska',
+          nl: 'Nederlandse kolonisatie',
+          pt: 'Colonização holandesa',
+        },
         description: {
           en: 'The Dutch established colonies in what is now Guyana.',
           sv: 'Holländarna etablerade kolonier i det som nu är Guyana.',
@@ -235,7 +245,17 @@ export const guyana: Country = {
       },
       {
         year: '1814',
-        title: 'British Control',
+        title: {
+          en: 'British Control',
+          sv: 'Brittisk kontroll',
+          es: 'Control británico',
+          fr: 'Contrôle britannique',
+          de: 'Britische Kontrolle',
+          it: 'Controllo britannico',
+          pl: 'Kontrola brytyjska',
+          nl: 'Brits gezag',
+          pt: 'Controle britânico',
+        },
         description: {
           en: 'Britain gained control, naming it British Guiana.',
           sv: 'Storbritannien fick kontroll och döpte det till Brittisk Guyana.',
@@ -250,7 +270,17 @@ export const guyana: Country = {
       },
       {
         year: '1966',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Guyana gained independence from Britain, becoming a republic.',
           sv: 'Guyana blev självständigt från Storbritannien och blev en republik.',
@@ -277,7 +307,17 @@ export const guyana: Country = {
           nl: 'Cassareep-productie',
           pt: 'Produção de cassareep',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Indigenous Amerindians developed cassareep from cassava, a preservative used in pepperpot stew.',
           sv: 'Ursprungsindianer utvecklade cassareep från kassava, ett konserveringsmedel som används i peppargryta.',
@@ -302,7 +342,17 @@ export const guyana: Country = {
           nl: 'Demerara-suiker',
           pt: 'Açúcar Demerara',
         },
-        year: '1700s',
+        year: {
+          en: '1700s',
+          sv: '1700-talet',
+          es: 'siglo XVIII',
+          fr: 'XVIIIe siècle',
+          de: '18. Jahrhundert',
+          it: 'XVIII secolo',
+          pl: 'XVIII wiek',
+          nl: '18e eeuw',
+          pt: 'século XVIII',
+        },
         description: {
           en: 'Produced distinctive light brown sugar that became famous worldwide.',
           sv: 'Producerade distinkt ljust farinsocker som blev känt över hela världen.',
@@ -327,7 +377,17 @@ export const guyana: Country = {
           nl: 'Ecotoerismemodel',
           pt: 'Modelo de Ecoturismo',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Pioneered sustainable rainforest tourism with community-based conservation.',
           sv: 'Bana för hållbar regnskogsturism med samhällsbaserat bevarande.',
@@ -345,7 +405,7 @@ export const guyana: Country = {
       {
         name: {
           en: 'Kaieteur Falls',
-          sv: 'Kaieteur Falls',
+          sv: 'Kaieteurfallen',
           es: 'Cataratas Kaieteur',
           fr: 'Chutes de Kaieteur',
           de: 'Kaieteur-Wasserfälle',
@@ -417,7 +477,7 @@ export const guyana: Country = {
       {
         name: {
           en: 'Rupununi Savannah',
-          sv: 'Rupununi Savannah',
+          sv: 'Rupununisavannen',
           es: 'Sabana Rupununi',
           fr: 'Savane de Rupununi',
           de: 'Rupununi Savannah',
@@ -441,7 +501,17 @@ export const guyana: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Available on arrival for most nationalities.',
           sv: 'Tillgängligt vid ankomst för de flesta nationaliteter.',
@@ -455,7 +525,17 @@ export const guyana: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'February-April or August-November for drier weather.',
           sv: 'Februari-april eller augusti-november för torrare väder.',
@@ -469,7 +549,17 @@ export const guyana: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Recommended, proof may be required.',
           sv: 'Rekommenderas, bevis kan krävas.',
@@ -483,7 +573,17 @@ export const guyana: Country = {
         },
       },
       {
-        item: 'Insect repellent',
+        item: {
+          en: 'Insect repellent',
+          sv: 'Myggmedel',
+          es: 'Repelente de insectos',
+          fr: 'Répulsif anti-insectes',
+          de: 'Insektenschutzmittel',
+          it: 'Repellente per insetti',
+          pl: 'Repelent na owady',
+          nl: 'Muggenmiddel',
+          pt: 'Repelente de insetos',
+        },
         description: {
           en: 'Essential for rainforest areas.',
           sv: 'Viktigt för regnskogsområden.',
@@ -501,7 +601,7 @@ export const guyana: Country = {
       id: 'guyana-main',
       name: {
         en: 'Pepperpot',
-        sv: 'Pepparkruka',
+        sv: 'Pepperpot',
         es: 'Pimentero',
         fr: 'Poivrière',
         de: 'Pfeffertopf',
@@ -512,7 +612,7 @@ export const guyana: Country = {
       },
       description: {
         en: 'Traditional Amerindian stew with cassareep',
-        sv: 'Traditionell indiansk gryta med cassareep',
+        sv: 'Traditionell gryta från Guyanas ursprungsfolk, smaksatt med cassareep',
         es: 'Guiso tradicional amerindio con cassareep',
         fr: 'Ragoût traditionnel amérindien au cassareep',
         de: 'Traditioneller indianischer Eintopf mit Cassareep',
@@ -539,7 +639,7 @@ export const guyana: Country = {
         {
           name: {
             en: 'Beef and pork',
-            sv: 'Nötkött och fläsk',
+            sv: 'Nöt- och fläskkött',
             es: 'Carne de vacuno y cerdo',
             fr: 'Bœuf et porc',
             de: 'Rind- und Schweinefleisch',
@@ -619,7 +719,7 @@ export const guyana: Country = {
         {
           name: {
             en: 'Hot peppers',
-            sv: 'Het paprika',
+            sv: 'Stark chili',
             es: 'Pimientos picantes',
             fr: 'Piments forts',
             de: 'Peperoni',
@@ -631,7 +731,7 @@ export const guyana: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -681,7 +781,7 @@ export const guyana: Country = {
         },
         {
           en: 'Combine all ingredients in pot',
-          sv: 'Kombinera alla ingredienser i grytan',
+          sv: 'Lägg alla ingredienser i en gryta',
           es: 'Combine todos los ingredientes en la olla',
           fr: 'Mélanger tous les ingrédients dans la casserole',
           de: 'Alle Zutaten im Topf vermischen',
@@ -794,7 +894,7 @@ export const guyana: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -929,7 +1029,7 @@ export const guyana: Country = {
         },
         {
           en: 'Top should be dark and caramelized',
-          sv: 'Toppen ska vara mörk och karamelliserad',
+          sv: 'Ytan ska vara mörk och karamelliserad',
           es: 'La parte superior debe estar oscura y caramelizada',
           fr: 'Le dessus doit être foncé et caramélisé',
           de: 'Die Oberseite sollte dunkel und karamellisiert sein',
@@ -940,7 +1040,7 @@ export const guyana: Country = {
         },
         {
           en: 'Cool before cutting into squares',
-          sv: 'Kyl innan du skär i rutor',
+          sv: 'Låt svalna innan du skär den i rutor',
           es: 'Dejar enfriar antes de cortar en cuadritos',
           fr: 'Laisser refroidir avant de couper en carrés',
           de: 'Vor dem Schneiden in Quadrate abkühlen lassen',
@@ -1428,7 +1528,7 @@ export const guyana: Country = {
           },
           {
             en: 'Savannah region',
-            sv: 'Savannah region',
+            sv: 'Ett savannområde',
             es: 'Región de sabana',
             fr: 'Région des savanes',
             de: 'Savannah-Region',

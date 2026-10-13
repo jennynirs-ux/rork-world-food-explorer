@@ -263,8 +263,28 @@ export const angola: Country = {
     },
     history: [
       {
-        year: 'Before 1400',
-        title: 'Pre-Colonial Kingdoms',
+        year: {
+          en: 'Before 1400',
+          sv: 'Före 1400',
+          es: 'Antes de 1400',
+          fr: 'Avant 1400',
+          de: 'Vor 1400',
+          it: 'Prima del 1400',
+          pl: 'Przed 1400 r.',
+          nl: 'Vóór 1400',
+          pt: 'Antes de 1400',
+        },
+        title: {
+          en: 'Pre-Colonial Kingdoms',
+          sv: 'Förkoloniala kungariken',
+          es: 'Reinos precoloniales',
+          fr: 'Royaumes précoloniaux',
+          de: 'Vorkoloniale Königreiche',
+          it: 'Regni precoloniali',
+          pl: 'Królestwa przedkolonialne',
+          nl: 'Prekoloniale koninkrijken',
+          pt: 'Reinos pré-coloniais',
+        },
         description: {
           en: 'Powerful states such as the Kingdom of Kongo and Ndongo governed large areas, with structured trade, diplomacy, and agriculture.',
           sv: 'Mäktiga stater som kungariket Kongo och Ndongo styrde stora områden, med strukturerad handel, diplomati och jordbruk.',
@@ -279,7 +299,17 @@ export const angola: Country = {
       },
       {
         year: '1482',
-        title: 'Portuguese Arrival',
+        title: {
+          en: 'Portuguese Arrival',
+          sv: 'Portugiserna anländer',
+          es: 'Llegada de los portugueses',
+          fr: 'Arrivée des Portugais',
+          de: 'Ankunft der Portugiesen',
+          it: 'Arrivo dei portoghesi',
+          pl: 'Przybycie Portugalczyków',
+          nl: 'Aankomst van de Portugezen',
+          pt: 'Chegada dos portugueses',
+        },
         description: {
           en: 'Portuguese explorers arrived on the coast, beginning centuries of trade, missionary activity, and colonization.',
           sv: 'Portugisiska upptäcktsresande anlände till kusten och inledde århundraden av handel, missionsverksamhet och kolonisering.',
@@ -293,8 +323,28 @@ export const angola: Country = {
         },
       },
       {
-        year: '1600s–1800s',
-        title: 'Slave Trade Era',
+        year: {
+          en: '1600s–1800s',
+          sv: '1600–1800-talet',
+          es: 'siglos XVII–XIX',
+          fr: 'XVIIe–XIXe siècles',
+          de: '17.–19. Jahrhundert',
+          it: 'XVII–XIX secolo',
+          pl: 'XVII–XIX wiek',
+          nl: '17e–19e eeuw',
+          pt: 'séculos XVII–XIX',
+        },
+        title: {
+          en: 'Slave Trade Era',
+          sv: 'Slavhandelns tid',
+          es: 'Época de la trata de esclavos',
+          fr: 'Époque de la traite négrière',
+          de: 'Zeit des Sklavenhandels',
+          it: 'Epoca della tratta degli schiavi',
+          pl: 'Epoka handlu niewolnikami',
+          nl: 'Tijdperk van de slavenhandel',
+          pt: 'Era do tráfico de escravos',
+        },
         description: {
           en: 'Angola became a major center of the transatlantic slave trade, profoundly impacting society and demographics.',
           sv: 'Angola blev ett viktigt centrum för den transatlantiska slavhandeln, vilket djupt påverkade samhället och demografin.',
@@ -308,8 +358,28 @@ export const angola: Country = {
         },
       },
       {
-        year: '1950s–1975',
-        title: 'Independence Struggle',
+        year: {
+          en: '1950s–1975',
+          sv: '1950-talet–1975',
+          es: 'Década de 1950–1975',
+          fr: 'Années 1950–1975',
+          de: '1950er–1975',
+          it: 'Anni \'50–1975',
+          pl: 'Lata 50.–1975',
+          nl: 'Jaren 50–1975',
+          pt: 'Década de 1950–1975',
+        },
+        title: {
+          en: 'Independence Struggle',
+          sv: 'Självständighetskampen',
+          es: 'Lucha por la independencia',
+          fr: 'Lutte pour l\'indépendance',
+          de: 'Unabhängigkeitskampf',
+          it: 'Lotta per l\'indipendenza',
+          pl: 'Walka o niepodległość',
+          nl: 'Onafhankelijkheidsstrijd',
+          pt: 'Luta pela independência',
+        },
         description: {
           en: 'Armed liberation movements fought Portuguese rule, leading to independence in 1975.',
           sv: 'Väpnade befrielserörelser bekämpade portugisiskt styre, vilket ledde till självständighet 1975.',
@@ -324,7 +394,17 @@ export const angola: Country = {
       },
       {
         year: '1975–2002',
-        title: 'Civil War',
+        title: {
+          en: 'Civil War',
+          sv: 'Inbördeskrig',
+          es: 'Guerra civil',
+          fr: 'Guerre civile',
+          de: 'Bürgerkrieg',
+          it: 'Guerra civile',
+          pl: 'Wojna domowa',
+          nl: 'Burgeroorlog',
+          pt: 'Guerra civil',
+        },
         description: {
           en: 'A prolonged civil war followed independence, shaping modern Angola\'s political and economic development.',
           sv: 'Ett utdraget inbördeskrig följde på självständigheten, som formade det moderna Angolas politiska och ekonomiska utveckling.',
@@ -338,8 +418,28 @@ export const angola: Country = {
         },
       },
       {
-        year: '2002–Present',
-        title: 'Reconstruction & Growth',
+        year: {
+          en: '2002–Present',
+          sv: '2002–idag',
+          es: '2002–actualidad',
+          fr: '2002–aujourd\'hui',
+          de: '2002–heute',
+          it: '2002–oggi',
+          pl: '2002–obecnie',
+          nl: '2002–heden',
+          pt: '2002–presente',
+        },
+        title: {
+          en: 'Reconstruction & Growth',
+          sv: 'Återuppbyggnad och tillväxt',
+          es: 'Reconstrucción y crecimiento',
+          fr: 'Reconstruction et croissance',
+          de: 'Wiederaufbau und Wachstum',
+          it: 'Ricostruzione e crescita',
+          pl: 'Odbudowa i rozwój',
+          nl: 'Wederopbouw en groei',
+          pt: 'Reconstrução e crescimento',
+        },
         description: {
           en: 'Since the war ended, Angola has focused on rebuilding infrastructure, education, and economic diversification.',
           sv: 'Sedan kriget slutade har Angola fokuserat på att återuppbygga infrastruktur, utbildning och ekonomisk diversifiering.',
@@ -366,7 +466,17 @@ export const angola: Country = {
           nl: 'Semba-muziek',
           pt: 'Música Semba',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Semba originated in Angola and directly influenced Brazilian samba, shaping global music history.',
           sv: 'Semba har sitt ursprung i Angola och influerade direkt brasiliansk samba och formade den globala musikhistorien.',
@@ -391,7 +501,17 @@ export const angola: Country = {
           nl: 'Kizomba',
           pt: 'Kizomba',
         },
-        year: '1980s',
+        year: {
+          en: '1980s',
+          sv: '1980-talet',
+          es: 'Década de 1980',
+          fr: 'Années 1980',
+          de: '1980er',
+          it: 'Anni \'80',
+          pl: 'Lata 80.',
+          nl: 'Jaren 80',
+          pt: 'Década de 1980',
+        },
         description: {
           en: 'A slow, expressive partner dance and music style that became globally popular.',
           sv: 'En långsam, uttrycksfull partnerdans och musikstil som blev globalt populär.',
@@ -416,7 +536,17 @@ export const angola: Country = {
           nl: 'Palmoliekeuken',
           pt: 'Culinária com óleo de palma',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Angolan cooking techniques using red palm oil influenced cuisines across the Atlantic world.',
           sv: 'Angolanska matlagningstekniker med röd palmolja påverkade köken över Atlanten.',
@@ -441,7 +571,17 @@ export const angola: Country = {
           nl: 'Basisvoedsel op basis van cassave',
           pt: 'Alimentos básicos à base de mandioca',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Mastery of cassava processing led to durable foods like funge, central to Angolan diets.',
           sv: 'Behärskning av kassavabearbetning ledde till hållbara livsmedel som svamp, centralt för angolansk kost.',
@@ -483,7 +623,7 @@ export const angola: Country = {
       {
         name: {
           en: 'Kalandula Falls',
-          sv: 'Kalandula Falls',
+          sv: 'Kalandulafallen',
           es: 'Cataratas Kalandula',
           fr: 'Chutes de Kalandula',
           de: 'Kalandula-Fälle',
@@ -579,7 +719,17 @@ export const angola: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May–September for drier weather and cooler temperatures.',
           sv: 'Maj–september för torrare väder och kallare temperaturer.',
@@ -593,7 +743,17 @@ export const angola: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities require a visa; check in advance.',
           sv: 'Många nationaliteter kräver visum; kontrollera i förväg.',
@@ -607,7 +767,17 @@ export const angola: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Portuguese is essential; English is limited outside cities.',
           sv: 'Portugisiska är viktigt; Engelska är begränsad utanför städer.',
@@ -621,7 +791,17 @@ export const angola: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'ATMs and card use are limited; carry local currency.',
           sv: 'Uttagsautomater och kortanvändning är begränsad; bära lokal valuta.',
@@ -635,7 +815,17 @@ export const angola: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Vaccinations and malaria precautions are recommended.',
           sv: 'Vaccinationer och malariaförebyggande åtgärder rekommenderas.',
@@ -664,7 +854,7 @@ export const angola: Country = {
       },
       description: {
         en: 'Angola\'s national dish: chicken slowly simmered in red palm oil with vegetables, garlic, and chili, served with funge.',
-        sv: 'Angolas nationalrätt: kyckling långsamt sjudad i röd palmolja med grönsaker, vitlök och chili, serverad med svamp.',
+        sv: 'Angolas nationalrätt: kyckling som sjuds långsamt i röd palmolja med grönsaker, vitlök och chili, serverad med funge.',
         es: 'El plato nacional de Angola: pollo cocido a fuego lento en aceite de palma rojo con verduras, ajo y chile, servido con hongos.',
         fr: 'Le plat national de l\'Angola : du poulet mijoté lentement dans de l\'huile de palme rouge avec des légumes, de l\'ail et du piment, servi avec des champignons.',
         de: 'Angolas Nationalgericht: Langsam in rotem Palmöl gegartes Hühnchen mit Gemüse, Knoblauch und Chili, serviert mit Pilzen.',
@@ -691,7 +881,7 @@ export const angola: Country = {
         {
           name: {
             en: 'Chicken pieces (bone-in)',
-            sv: 'Kycklingbitar (utbenade)',
+            sv: 'Kycklingbitar (med ben)',
             es: 'Trozos de pollo (con hueso)',
             fr: 'Morceaux de poulet (avec os)',
             de: 'Hähnchenstücke (mit Knochen)',
@@ -733,7 +923,7 @@ export const angola: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -783,7 +973,7 @@ export const angola: Country = {
           amount: 3,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -811,7 +1001,7 @@ export const angola: Country = {
         {
           name: {
             en: 'Butternut squash, cubed',
-            sv: 'Butternut squash, i tärningar',
+            sv: 'Butternutpumpa, i tärningar',
             es: 'Calabaza, en cubos',
             fr: 'Courge musquée, en cubes',
             de: 'Butternusskürbis, gewürfelt',
@@ -826,7 +1016,7 @@ export const angola: Country = {
         {
           name: {
             en: 'Fresh chili peppers',
-            sv: 'Färsk chilipeppar',
+            sv: 'Färsk chili',
             es: 'Chiles frescos',
             fr: 'Piments frais',
             de: 'Frische Chilischoten',
@@ -838,7 +1028,7 @@ export const angola: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -863,7 +1053,7 @@ export const angola: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -922,7 +1112,7 @@ export const angola: Country = {
       steps: [
         {
           en: 'Season chicken with salt, pepper, and half of the minced garlic. Rest 15 minutes.',
-          sv: 'Krydda kycklingen med salt, peppar och hälften av den hackade vitlöken. Vila 15 minuter.',
+          sv: 'Krydda kycklingen med salt, peppar och hälften av den hackade vitlöken. Låt stå i 15 minuter.',
           es: 'Sazone el pollo con sal, pimienta y la mitad del ajo picado. Descanse 15 minutos.',
           fr: 'Assaisonner le poulet avec du sel, du poivre et la moitié de l\'ail émincé. Reposez-vous 15 minutes.',
           de: 'Hähnchen mit Salz, Pfeffer und der Hälfte des gehackten Knoblauchs würzen. 15 Minuten ruhen lassen.',
@@ -933,7 +1123,7 @@ export const angola: Country = {
         },
         {
           en: 'Heat palm oil in a heavy pot over medium heat.',
-          sv: 'Värm palmolja i en tjock gryta på medelvärme.',
+          sv: 'Värm palmoljan i en tjockbottnad gryta på medelvärme.',
           es: 'Calienta el aceite de palma en una olla pesada a fuego medio.',
           fr: 'Chauffer l\'huile de palme dans une casserole à fond épais à feu moyen.',
           de: 'Palmöl in einem schweren Topf bei mittlerer Hitze erhitzen.',
@@ -944,7 +1134,7 @@ export const angola: Country = {
         },
         {
           en: 'Brown chicken pieces on all sides (6–8 minutes). Remove and set aside.',
-          sv: 'Bryn kycklingbitar på alla sidor (6–8 minuter). Ta bort och ställ åt sidan.',
+          sv: 'Bryn kycklingbitarna runt om (6–8 minuter). Ta upp dem och ställ åt sidan.',
           es: 'Dore los trozos de pollo por todos lados (6 a 8 minutos). Retirar y reservar.',
           fr: 'Faire dorer les morceaux de poulet de tous les côtés (6 à 8 minutes). Retirer et réserver.',
           de: 'Hähnchenstücke von allen Seiten anbraten (6–8 Minuten). Herausnehmen und beiseite stellen.',
@@ -966,7 +1156,7 @@ export const angola: Country = {
         },
         {
           en: 'Add remaining garlic and cook 30 seconds.',
-          sv: 'Tillsätt resterande vitlök och koka 30 sekunder.',
+          sv: 'Tillsätt resten av vitlöken och fräs i 30 sekunder.',
           es: 'Agregue el ajo restante y cocine por 30 segundos.',
           fr: 'Ajouter le reste de l\'ail et cuire 30 secondes.',
           de: 'Den restlichen Knoblauch hinzufügen und 30 Sekunden kochen lassen.',
@@ -977,7 +1167,7 @@ export const angola: Country = {
         },
         {
           en: 'Stir in grated tomatoes and bay leaves; cook 5 minutes.',
-          sv: 'Rör ner rivna tomater och lagerblad; koka 5 minuter.',
+          sv: 'Rör ner de rivna tomaterna och lagerbladen och låt koka i 5 minuter.',
           es: 'Agrega los tomates rallados y las hojas de laurel; cocine 5 minutos.',
           fr: 'Incorporer les tomates râpées et les feuilles de laurier; cuire 5 minutes.',
           de: 'Geriebene Tomaten und Lorbeerblätter unterrühren; 5 Minuten kochen.',
@@ -1010,7 +1200,7 @@ export const angola: Country = {
         },
         {
           en: 'Add squash and chili peppers; cook 15 minutes.',
-          sv: 'Tillsätt squash och chilipeppar; koka 15 minuter.',
+          sv: 'Tillsätt pumpan och chilin och låt koka i 15 minuter.',
           es: 'Agrega la calabaza y los chiles; cocine 15 minutos.',
           fr: 'Ajouter la courge et les piments; cuire 15 minutes.',
           de: 'Kürbis und Chilischoten hinzufügen; 15 Minuten kochen.',
@@ -1021,7 +1211,7 @@ export const angola: Country = {
         },
         {
           en: 'Add okra and cook final 10 minutes until thickened.',
-          sv: 'Tillsätt okra och koka sista 10 minuter tills det tjocknat.',
+          sv: 'Tillsätt okran och låt koka de sista 10 minuterna tills grytan tjocknat.',
           es: 'Agregue la okra y cocine los últimos 10 minutos hasta que espese.',
           fr: 'Ajouter le gombo et cuire 10 dernières minutes jusqu\'à épaississement.',
           de: 'Okra hinzufügen und die letzten 10 Minuten kochen, bis es eingedickt ist.',
@@ -1032,7 +1222,7 @@ export const angola: Country = {
         },
         {
           en: 'Taste and adjust seasoning. Serve hot with funge or rice.',
-          sv: 'Smaka av och justera krydda. Servera varm med svamp eller ris.',
+          sv: 'Smaka av och justera kryddningen. Servera varm med funge eller ris.',
           es: 'Pruebe y ajuste la sazón. Servir caliente con hongos o arroz.',
           fr: 'Goûtez et rectifiez l\'assaisonnement. Servir chaud avec des champignons ou du riz.',
           de: 'Abschmecken und nachwürzen. Heiß mit Pilzen oder Reis servieren.',
@@ -1059,7 +1249,7 @@ export const angola: Country = {
       },
       description: {
         en: 'A dense coconut-and-egg custard dessert influenced by Portuguese traditions',
-        sv: 'En tät kokos-och-ägg-vaniljsås, influerad av portugisiska traditioner',
+        sv: 'En kompakt efterrätt på kokos och äggulor, influerad av portugisiska traditioner',
         es: 'Un postre denso de natillas de coco y huevo influenciado por las tradiciones portuguesas',
         fr: 'Un dessert dense à la crème à la noix de coco et aux œufs influencé par les traditions portugaises',
         de: 'Ein dichtes Kokosnuss-Ei-Pudding-Dessert, beeinflusst von portugiesischen Traditionen',
@@ -1086,7 +1276,7 @@ export const angola: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -1128,7 +1318,7 @@ export const angola: Country = {
           amount: 10,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1157,7 +1347,7 @@ export const angola: Country = {
       steps: [
         {
           en: 'Boil sugar and water to form a light syrup (5 minutes).',
-          sv: 'Koka upp socker och vatten till en lätt sirap (5 minuter).',
+          sv: 'Koka socker och vatten till en tunn sockerlag (5 minuter).',
           es: 'Hervir el azúcar y el agua hasta formar un almíbar ligero (5 minutos).',
           fr: 'Faire bouillir le sucre et l\'eau pour former un sirop léger (5 minutes).',
           de: 'Zucker und Wasser aufkochen, bis ein leichter Sirup entsteht (5 Minuten).',
@@ -1168,7 +1358,7 @@ export const angola: Country = {
         },
         {
           en: 'Add coconut and cook 10 minutes, stirring constantly.',
-          sv: 'Tillsätt kokos och koka i 10 minuter, rör hela tiden.',
+          sv: 'Tillsätt kokosen och låt koka i 10 minuter under ständig omrörning.',
           es: 'Agrega el coco y cocina 10 minutos, revolviendo constantemente.',
           fr: 'Ajouter la noix de coco et cuire 10 minutes en remuant constamment.',
           de: 'Kokosnuss hinzufügen und 10 Minuten unter ständigem Rühren kochen.',
@@ -1179,7 +1369,7 @@ export const angola: Country = {
         },
         {
           en: 'Remove from heat and cool slightly.',
-          sv: 'Ta bort från värmen och svalna något.',
+          sv: 'Ta av från värmen och låt svalna något.',
           es: 'Retirar del fuego y enfriar un poco.',
           fr: 'Retirer du feu et laisser refroidir légèrement.',
           de: 'Vom Herd nehmen und leicht abkühlen lassen.',
@@ -1190,7 +1380,7 @@ export const angola: Country = {
         },
         {
           en: 'Whisk egg yolks and slowly mix into coconut mixture.',
-          sv: 'Vispa äggulor och blanda sakta ner i kokosblandningen.',
+          sv: 'Vispa upp äggulorna och rör långsamt ner dem i kokosblandningen.',
           es: 'Batir las yemas de huevo y mezclar lentamente con la mezcla de coco.',
           fr: 'Fouetter les jaunes d\'œufs et mélanger lentement au mélange de noix de coco.',
           de: 'Eigelb verquirlen und langsam unter die Kokosnussmischung mischen.',
@@ -1201,7 +1391,7 @@ export const angola: Country = {
         },
         {
           en: 'Return to low heat and stir until thick.',
-          sv: 'Återgå till låg värme och rör om tills det blir tjockt.',
+          sv: 'Sätt tillbaka på låg värme och rör tills smeten tjocknar.',
           es: 'Regrese a fuego lento y revuelva hasta que espese.',
           fr: 'Remettre à feu doux et remuer jusqu\'à épaississement.',
           de: 'Auf niedrige Hitze zurückstellen und rühren, bis eine dicke Masse entsteht.',
@@ -1212,7 +1402,7 @@ export const angola: Country = {
         },
         {
           en: 'Pour into greased dish and bake at 180°C for 20 minutes.',
-          sv: 'Häll i en smord form och grädda i 180°C i 20 minuter.',
+          sv: 'Häll smeten i en smord form och grädda i 180 °C i 20 minuter.',
           es: 'Vierte en un molde engrasado y hornea a 180°C por 20 minutos.',
           fr: 'Verser dans un plat beurré et enfourner à 180°C pendant 20 minutes.',
           de: 'In eine gefettete Form füllen und 20 Minuten bei 180 °C backen.',
@@ -1223,7 +1413,7 @@ export const angola: Country = {
         },
         {
           en: 'Cool before slicing.',
-          sv: 'Kyl innan du skär upp.',
+          sv: 'Låt svalna innan du skär upp den.',
           es: 'Dejar enfriar antes de cortar.',
           fr: 'Laisser refroidir avant de trancher.',
           de: 'Vor dem Schneiden abkühlen lassen.',
@@ -1693,7 +1883,7 @@ export const angola: Country = {
           },
           {
             en: 'Kalandula Falls',
-            sv: 'Kalandula Falls',
+            sv: 'Kalandulafallen',
             es: 'Cataratas Kalandula',
             fr: 'Chutes de Kalandula',
             de: 'Kalandula-Fälle',
@@ -1704,7 +1894,7 @@ export const angola: Country = {
           },
           {
             en: 'Tugela Falls',
-            sv: 'Tugela Falls',
+            sv: 'Tugelafallen',
             es: 'Cataratas de Tugela',
             fr: 'Chutes de Tugela',
             de: 'Tugela-Wasserfälle',
@@ -1715,7 +1905,7 @@ export const angola: Country = {
           },
           {
             en: 'Murchison Falls',
-            sv: 'Murchison Falls',
+            sv: 'Murchisonfallen',
             es: 'Cataratas Murchison',
             fr: 'Chutes Murchison',
             de: 'Murchison Falls',

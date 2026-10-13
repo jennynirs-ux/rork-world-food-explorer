@@ -241,8 +241,28 @@ export const ethiopia: Country = {
     },
     history: [
       {
-        year: '1000 BC',
-        title: 'Kingdom of Aksum',
+        year: {
+          en: '1000 BC',
+          sv: '1000 f.Kr.',
+          es: '1000 a. C.',
+          fr: '1000 av. J.-C.',
+          de: '1000 v. Chr.',
+          it: '1000 a.C.',
+          pl: '1000 p.n.e.',
+          nl: '1000 v.Chr.',
+          pt: '1000 a.C.',
+        },
+        title: {
+          en: 'Kingdom of Aksum',
+          sv: 'Kungariket Aksum',
+          es: 'Reino de Aksum',
+          fr: 'Royaume d\'Aksoum',
+          de: 'Königreich Aksum',
+          it: 'Regno di Axum',
+          pl: 'Królestwo Aksum',
+          nl: 'Koninkrijk Aksum',
+          pt: 'Reino de Axum',
+        },
         description: {
           en: 'One of the great civilizations of the ancient world, controlling trade routes between Africa and Asia.',
           sv: 'En av de stora civilisationerna i den antika världen, kontrollerar handelsvägarna mellan Afrika och Asien.',
@@ -282,7 +302,17 @@ export const ethiopia: Country = {
       },
       {
         year: '1974',
-        title: 'End of Monarchy',
+        title: {
+          en: 'End of Monarchy',
+          sv: 'Monarkins fall',
+          es: 'Fin de la monarquía',
+          fr: 'Fin de la monarchie',
+          de: 'Ende der Monarchie',
+          it: 'Fine della monarchia',
+          pl: 'Koniec monarchii',
+          nl: 'Einde van de monarchie',
+          pt: 'Fim da monarquia',
+        },
         description: {
           en: 'Emperor Haile Selassie was overthrown, ending thousands of years of imperial rule.',
           sv: 'Kejsar Haile Selassie störtades, vilket avslutade tusentals år av imperialistiskt styre.',
@@ -309,7 +339,17 @@ export const ethiopia: Country = {
           nl: 'Koffieteelt',
           pt: 'Cultivo de Café',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Coffee was first discovered in Ethiopia and remains central to Ethiopian culture.',
           sv: 'Kaffe upptäcktes först i Etiopien och är fortfarande centralt för den etiopiska kulturen.',
@@ -334,7 +374,17 @@ export const ethiopia: Country = {
           nl: 'Ethiopische kalender',
           pt: 'Calendário Etíope',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'A unique calendar system with 13 months still in use today.',
           sv: 'Ett unikt kalendersystem med 13 månader som fortfarande används idag.',
@@ -376,7 +426,7 @@ export const ethiopia: Country = {
       {
         name: {
           en: 'Simien Mountains',
-          sv: 'Simien Mountains',
+          sv: 'Simienbergen',
           es: 'Montañas Simien',
           fr: 'Monts du Simien',
           de: 'Simien-Gebirge',
@@ -400,7 +450,7 @@ export const ethiopia: Country = {
       {
         name: {
           en: 'Lake Tana',
-          sv: 'Lake Tana',
+          sv: 'Tanasjön',
           es: 'Lago Tana',
           fr: 'Lac Tana',
           de: 'Tana-See',
@@ -448,7 +498,7 @@ export const ethiopia: Country = {
       {
         name: {
           en: 'Danakil Depression',
-          sv: 'Danakil Depression',
+          sv: 'Danakilsänkan',
           es: 'Depresión de Danakil',
           fr: 'Dépression de Danakil',
           de: 'Danakil-Depression',
@@ -472,7 +522,17 @@ export const ethiopia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October-March for dry season and comfortable temperatures.',
           sv: 'Oktober-mars för torrperiod och behagliga temperaturer.',
@@ -486,7 +546,17 @@ export const ethiopia: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Recommended for travel to Ethiopia.',
           sv: 'Rekommenderas för resor till Etiopien.',
@@ -500,7 +570,17 @@ export const ethiopia: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Respectful dress for visiting religious sites.',
           sv: 'Respektfull klänning för att besöka religiösa platser.',
@@ -514,7 +594,17 @@ export const ethiopia: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'ATMs limited outside major cities, carry Ethiopian Birr.',
           sv: 'Bankomater begränsade utanför större städer, bär etiopiska Birr.',
@@ -543,7 +633,7 @@ export const ethiopia: Country = {
       },
       description: {
         en: 'Spicy chicken stew, Ethiopia\'s national dish, served with injera',
-        sv: 'Kryddig kycklinggryta, Etiopiens nationalrätt, serverad med injera',
+        sv: 'Kryddstark kycklinggryta som serveras med injera – Etiopiens nationalrätt',
         es: 'Estofado de pollo picante, plato nacional de Etiopía, servido con injera',
         fr: 'Ragoût de poulet épicé, plat national éthiopien, servi avec injera',
         de: 'Würziger Hühnereintopf, Äthiopiens Nationalgericht, serviert mit Injera',
@@ -597,7 +687,7 @@ export const ethiopia: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -610,7 +700,7 @@ export const ethiopia: Country = {
         {
           name: {
             en: 'Berbere spice',
-            sv: 'Berbere krydda',
+            sv: 'Berberekrydda',
             es: 'Especia bereber',
             fr: 'Épice berbère',
             de: 'Berbere-Gewürz',
@@ -727,7 +817,7 @@ export const ethiopia: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -741,7 +831,7 @@ export const ethiopia: Country = {
       steps: [
         {
           en: 'Slowly caramelize onions without oil until golden brown (45 minutes)',
-          sv: 'Karamellisera långsamt löken utan olja tills den är gyllenbrun (45 minuter)',
+          sv: 'Karamellisera löken långsamt utan fett tills den är gyllenbrun (45 minuter)',
           es: 'Caramelizar lentamente las cebollas sin aceite hasta que estén doradas (45 minutos)',
           fr: 'Caraméliser lentement les oignons sans huile jusqu\'à ce qu\'ils soient dorés (45 minutes)',
           de: 'Zwiebeln ohne Öl langsam goldbraun karamellisieren (45 Minuten)',
@@ -752,7 +842,7 @@ export const ethiopia: Country = {
         },
         {
           en: 'Add niter kibbeh, berbere spice, garlic, and ginger',
-          sv: 'Tillsätt niter kibbeh, berbere krydda, vitlök och ingefära',
+          sv: 'Tillsätt niter kibbeh, berberekrydda, vitlök och ingefära',
           es: 'Agregue niter kibbeh, especia berbere, ajo y jengibre',
           fr: 'Ajouter le nitre kibbeh, les épices berbere, l\'ail et le gingembre',
           de: 'Niter Kibbeh, Berbere-Gewürz, Knoblauch und Ingwer hinzufügen',
@@ -763,7 +853,7 @@ export const ethiopia: Country = {
         },
         {
           en: 'Stir in tomato paste and water to make thick sauce',
-          sv: 'Rör i tomatpuré och vatten för att göra en tjock sås',
+          sv: 'Rör ner tomatpuré och vatten till en tjock sås',
           es: 'Agregue la pasta de tomate y el agua para hacer una salsa espesa',
           fr: 'Incorporer la pâte de tomate et l\'eau pour obtenir une sauce épaisse',
           de: 'Tomatenmark und Wasser einrühren, bis eine dicke Soße entsteht',
@@ -796,7 +886,7 @@ export const ethiopia: Country = {
         },
         {
           en: 'Serve on injera flatbread with sides',
-          sv: 'Servera på injera tunnbröd med sidor',
+          sv: 'Servera på injera med tillbehör',
           es: 'Sirva sobre pan plano de injera con acompañamientos.',
           fr: 'Servir sur du pain plat injera avec accompagnements',
           de: 'Auf Injera-Fladenbrot mit Beilagen servieren',
@@ -823,7 +913,7 @@ export const ethiopia: Country = {
       },
       description: {
         en: 'Roasted barley snack, often served during coffee ceremony',
-        sv: 'Snacks med rostat korn, serveras ofta under kaffeceremonin',
+        sv: 'Tilltugg av rostat korn som ofta serveras vid kaffeceremonin',
         es: 'Aperitivo de cebada tostada, que a menudo se sirve durante la ceremonia del café.',
         fr: 'Snack à l\'orge torréfiée, souvent servi lors de la cérémonie du café',
         de: 'Snack aus gerösteter Gerste, oft während der Kaffeezeremonie serviert',
@@ -910,7 +1000,7 @@ export const ethiopia: Country = {
         {
           name: {
             en: 'Berbere spice',
-            sv: 'Berbere krydda',
+            sv: 'Berberekrydda',
             es: 'Especia bereber',
             fr: 'Épice berbère',
             de: 'Berbere-Gewürz',
@@ -926,7 +1016,7 @@ export const ethiopia: Country = {
       steps: [
         {
           en: 'Dry roast barley in pan until golden and aromatic',
-          sv: 'Torrstekt korn i panna tills det är gyllene och aromatiskt',
+          sv: 'Rosta kornet i en torr panna tills det är gyllene och doftar',
           es: 'Seque la cebada tostada en una sartén hasta que esté dorada y aromática.',
           fr: 'Rôtir à sec l\'orge dans une poêle jusqu\'à ce qu\'elle soit dorée et aromatique',
           de: 'Gerste in der Pfanne trocken rösten, bis sie goldbraun und aromatisch ist',
@@ -948,7 +1038,7 @@ export const ethiopia: Country = {
         },
         {
           en: 'Mix all roasted ingredients together',
-          sv: 'Blanda alla rostade ingredienser tillsammans',
+          sv: 'Blanda alla rostade ingredienser',
           es: 'Mezclar todos los ingredientes asados',
           fr: 'Mélanger tous les ingrédients rôtis ensemble',
           de: 'Alle gerösteten Zutaten miteinander vermischen',
@@ -1010,7 +1100,7 @@ export const ethiopia: Country = {
       { en: 'Traditional Azmari music', sv: 'Traditionell Azmari-musik', de: 'Traditionelle Azmari-Musik', fr: 'Musique azmari traditionnelle', es: 'Música azmari tradicional', it: 'Musica azmari tradizionale', pl: 'Tradycyjna muzyka azmari', nl: 'Traditionele Azmari-muziek', pt: 'Música azmari tradicional' },
       { en: 'Tizita - Ethiopian blues', sv: 'Tizita - etiopisk blues', de: 'Tizita - Äthiopischer Blues', fr: 'Tizita - blues éthiopien', es: 'Tizita - blues etíope', it: 'Tizita - blues etiope', pl: 'Tizita - etiopski blues', nl: 'Tizita - Ethiopische blues', pt: 'Tizita - blues etíope' },
       { en: 'Eskista - traditional dance music', sv: 'Eskista - traditionell dansmusik', de: 'Eskista - traditionelle Tanzmusik', fr: 'Eskista - musique de danse traditionnelle', es: 'Eskista - música de danza tradicional', it: 'Eskista - musica da ballo tradizionale', pl: 'Eskista - tradycyjna muzyka taneczna', nl: 'Eskista - traditionele dansmuziek', pt: 'Eskista - música de dança tradicional' },
-      { en: 'Mulatu Astatke - Ethio-jazz', sv: 'Mulatu Astatke - Ethio-jazz', de: 'Mulatu Astatke - Ethio-Jazz', fr: 'Mulatu Astatke - Ethio-jazz', es: 'Mulatu Astatke - Ethio-jazz', it: 'Mulatu Astatke - Ethio-jazz', pl: 'Mulatu Astatke - Ethio-jazz', nl: 'Mulatu Astatke - Ethio-jazz', pt: 'Mulatu Astatke - Ethio-jazz' },
+      { en: 'Mulatu Astatke - Ethio-jazz', sv: 'Mulatu Astatke – etiojazz', de: 'Mulatu Astatke - Ethio-Jazz', fr: 'Mulatu Astatke - Ethio-jazz', es: 'Mulatu Astatke - Ethio-jazz', it: 'Mulatu Astatke - Ethio-jazz', pl: 'Mulatu Astatke - Ethio-jazz', nl: 'Mulatu Astatke - Ethio-jazz', pt: 'Mulatu Astatke - Ethio-jazz' },
     ],
     decorationIdeas: [
       { en: 'Ethiopian flag colors (green, yellow, red)', sv: 'Etiopiska flaggfärger (grön, gul, röd)', de: 'Äthiopische Flaggenfarben (Grün, Gelb, Rot)', fr: 'Couleurs du drapeau éthiopien (vert, jaune, rouge)', es: 'Colores de la bandera etíope (verde, amarillo, rojo)', it: 'Colori della bandiera etiope (verde, giallo, rosso)', pl: 'Kolory flagi etiopskiej (zielony, żółty, czerwony)', nl: 'Ethiopische vlagkleuren (groen, geel, rood)', pt: 'Cores da bandeira etíope (verde, amarelo, vermelho)' },

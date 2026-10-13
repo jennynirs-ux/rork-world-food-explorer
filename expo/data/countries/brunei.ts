@@ -125,7 +125,7 @@ export const brunei: Country = {
         },
         value: {
           en: 'Brunei Dollar',
-          sv: 'Brunei Dollar',
+          sv: 'Bruneisk dollar',
           es: 'Dólar de Brunéi',
           fr: 'Dollar brunéien',
           de: 'Brunei-Dollar',
@@ -263,8 +263,28 @@ export const brunei: Country = {
     },
     history: [
       {
-        year: '14th-15th Century',
-        title: 'Brunei Empire Peak',
+        year: {
+          en: '14th-15th Century',
+          sv: '1300–1400-talen',
+          es: 'Siglos XIV–XV',
+          fr: 'XIVe–XVe siècles',
+          de: '14.–15. Jahrhundert',
+          it: 'XIV–XV secolo',
+          pl: 'XIV–XV wiek',
+          nl: '14e–15e eeuw',
+          pt: 'Séculos XIV–XV',
+        },
+        title: {
+          en: 'Brunei Empire Peak',
+          sv: 'Bruneirikets storhetstid',
+          es: 'Apogeo del Imperio de Brunéi',
+          fr: 'Apogée de l\'Empire de Brunei',
+          de: 'Blütezeit des Brunei-Reiches',
+          it: 'Apogeo dell\'Impero del Brunei',
+          pl: 'Rozkwit imperium Brunei',
+          nl: 'Bloeitijd van het Bruneise rijk',
+          pt: 'Auge do Império de Brunei',
+        },
         description: {
           en: 'Brunei was a powerful empire controlling most of Borneo and parts of the Philippines, thriving on trade.',
           sv: 'Brunei var ett mäktigt imperium som kontrollerade större delen av Borneo och delar av Filippinerna och blomstrade på handel.',
@@ -279,7 +299,17 @@ export const brunei: Country = {
       },
       {
         year: '1888',
-        title: 'British Protectorate',
+        title: {
+          en: 'British Protectorate',
+          sv: 'Brittiskt protektorat',
+          es: 'Protectorado británico',
+          fr: 'Protectorat britannique',
+          de: 'Britisches Protektorat',
+          it: 'Protettorato britannico',
+          pl: 'Protektorat brytyjski',
+          nl: 'Brits protectoraat',
+          pt: 'Protetorado britânico',
+        },
         description: {
           en: 'Brunei became a British protectorate, which helped preserve its sultanate system during colonial times.',
           sv: 'Brunei blev ett brittiskt protektorat, vilket hjälpte till att bevara sitt sultanatsystem under kolonialtiden.',
@@ -294,7 +324,17 @@ export const brunei: Country = {
       },
       {
         year: '1929',
-        title: 'Oil Discovery',
+        title: {
+          en: 'Oil Discovery',
+          sv: 'Oljefynd',
+          es: 'Descubrimiento de petróleo',
+          fr: 'Découverte du pétrole',
+          de: 'Entdeckung des Erdöls',
+          it: 'Scoperta del petrolio',
+          pl: 'Odkrycie ropy naftowej',
+          nl: 'Olievondst',
+          pt: 'Descoberta de petróleo',
+        },
         description: {
           en: 'Oil was discovered in Seria, transforming Brunei\'s economy and making it extremely wealthy.',
           sv: 'Olja upptäcktes i Seria, vilket förändrade Bruneis ekonomi och gjorde den extremt rik.',
@@ -309,7 +349,17 @@ export const brunei: Country = {
       },
       {
         year: '1984',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Brunei gained full independence from Britain, with the Sultan as both head of state and government.',
           sv: 'Brunei fick fullständig självständighet från Storbritannien, med sultanen som både statschef och regeringschef.',
@@ -336,7 +386,17 @@ export const brunei: Country = {
           nl: 'Waterdorp Kampong Ayer',
           pt: 'Vila flutuante de Kampong Ayer',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'One of the world\'s largest water villages, with houses on stilts over water, preserving ancient way of life with modern amenities.',
           sv: 'En av världens största vattenbyar, med hus på pålar över vatten, bevarar forntida livsstil med moderna bekvämligheter.',
@@ -361,7 +421,17 @@ export const brunei: Country = {
           nl: 'Verzorgingsstaatmodel',
           pt: 'Modelo de Estado de bem-estar social',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'Brunei developed a comprehensive welfare system providing free education, healthcare, and subsidized housing using oil revenues.',
           sv: 'Brunei utvecklade ett omfattande välfärdssystem som gav gratis utbildning, sjukvård och subventionerade bostäder med hjälp av oljeintäkter.',
@@ -386,7 +456,17 @@ export const brunei: Country = {
           nl: 'Islamitisch bankieren',
           pt: 'Banca islâmica',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Brunei pioneered Sharia-compliant banking systems in Southeast Asia.',
           sv: 'Brunei var banbrytande för Sharia-kompatibla banksystem i Sydostasien.',
@@ -411,7 +491,17 @@ export const brunei: Country = {
           nl: 'Behoud van het regenwoud',
           pt: 'Conservação da floresta tropical',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Despite oil wealth, Brunei maintained 70% forest cover, balancing development with environmental protection.',
           sv: 'Trots oljerikedomen behöll Brunei 70 % skogstäcke, vilket balanserade utveckling med miljöskydd.',
@@ -549,7 +639,17 @@ export const brunei: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can enter visa-free for 14-90 days depending on citizenship.',
           sv: 'Många nationaliteter kan resa in visumfritt i 14-90 dagar beroende på medborgarskap.',
@@ -563,7 +663,17 @@ export const brunei: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'February-April for drier weather; avoid November-January (wettest months).',
           sv: 'Februari-april för torrare väder; undvik november-januari (våtaste månader).',
@@ -577,7 +687,17 @@ export const brunei: Country = {
         },
       },
       {
-        item: 'Modest dress',
+        item: {
+          en: 'Modest dress',
+          sv: 'Täckande klädsel',
+          es: 'Vestimenta recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Cover shoulders and knees. Women should dress conservatively, especially in mosques.',
           sv: 'Täck axlar och knän. Kvinnor bör klä sig konservativt, särskilt i moskéer.',
@@ -591,7 +711,17 @@ export const brunei: Country = {
         },
       },
       {
-        item: 'No alcohol',
+        item: {
+          en: 'No alcohol',
+          sv: 'Ingen alkohol',
+          es: 'Sin alcohol',
+          fr: 'Pas d\'alcool',
+          de: 'Kein Alkohol',
+          it: 'Niente alcol',
+          pl: 'Bez alkoholu',
+          nl: 'Geen alcohol',
+          pt: 'Sem álcool',
+        },
         description: {
           en: 'Alcohol is prohibited for Muslims and not sold publicly. Non-Muslims can bring limited amounts.',
           sv: 'Alkohol är förbjudet för muslimer och säljs inte offentligt. Icke-muslimer kan ta med sig begränsade mängder.',
@@ -618,7 +748,7 @@ export const brunei: Country = {
         },
         description: {
           en: 'Brunei Dollar interchangeable with Singapore Dollar at 1:1.',
-          sv: 'Brunei Dollar utbytbar med Singapore Dollar vid 1:1.',
+          sv: 'Bruneisk dollar, som är utbytbar mot singaporiansk dollar i förhållandet 1:1.',
           es: 'El dólar de Brunei es intercambiable con el dólar de Singapur a razón de 1:1.',
           fr: 'Dollar de Brunei interchangeable avec le dollar de Singapour à 1:1.',
           de: 'Der Brunei-Dollar ist im Verhältnis 1:1 gegen den Singapur-Dollar austauschbar.',
@@ -629,7 +759,17 @@ export const brunei: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Malay is official, but English widely spoken in business and tourism.',
           sv: 'Malajiska är officiellt, men engelska talas allmänt inom affärs- och turismbranschen.',
@@ -658,7 +798,7 @@ export const brunei: Country = {
       },
       description: {
         en: 'National dish made from sago starch, eaten with various sauces',
-        sv: 'Nationalrätt gjord av sagostärkelse, äts med olika såser',
+        sv: 'Nationalrätt av sagostärkelse som äts med olika såser',
         es: 'Plato nacional elaborado con almidón de sagú y que se come con diversas salsas',
         fr: 'Plat national à base de fécule de sagou, dégusté avec diverses sauces',
         de: 'Nationalgericht aus Sagostärke, gegessen mit verschiedenen Saucen',
@@ -752,7 +892,7 @@ export const brunei: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -777,7 +917,7 @@ export const brunei: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -815,7 +955,7 @@ export const brunei: Country = {
         {
           name: {
             en: 'Vegetables for sides',
-            sv: 'Grönsaker för sidor',
+            sv: 'Grönsaker som tillbehör',
             es: 'Verduras para acompañar',
             fr: 'Légumes pour accompagnements',
             de: 'Gemüse als Beilage',
@@ -864,7 +1004,7 @@ export const brunei: Country = {
         },
         {
           en: 'Make cacah sauce: blend chilies, shallots, shrimp paste',
-          sv: 'Gör cacahsås: blanda chili, schalottenlök, räkpasta',
+          sv: 'Gör cacahsås: mixa chili, schalottenlök och räkpasta',
           es: 'Prepare salsa cacah: mezcle chiles, chalotes y pasta de camarones',
           fr: 'Préparez la sauce cacah : mélangez les piments, les échalotes, la pâte de crevettes',
           de: 'Cacah-Sauce zubereiten: Chilis, Schalotten und Garnelenpaste mischen',
@@ -875,7 +1015,7 @@ export const brunei: Country = {
         },
         {
           en: 'Make tempoyak: fermented durian sauce',
-          sv: 'Gör tempoyak: fermenterad duriansås',
+          sv: 'Gör tempoyak, en fermenterad duriansås',
           es: 'Prepara tempoyak: salsa durian fermentada',
           fr: 'Faire du tempoyak : sauce durian fermentée',
           de: 'Machen Sie Tempoyak: fermentierte Duriansauce',
@@ -886,7 +1026,7 @@ export const brunei: Country = {
         },
         {
           en: 'Prepare various side vegetables',
-          sv: 'Förbered olika sidogrönsaker',
+          sv: 'Förbered olika grönsaker som tillbehör',
           es: 'Prepare varias guarniciones de verduras',
           fr: 'Préparez divers légumes d\'accompagnement',
           de: 'Bereiten Sie verschiedene Beilagengemüse vor',
@@ -897,7 +1037,7 @@ export const brunei: Country = {
         },
         {
           en: 'Use chandas (special fork) to twirl ambuyat',
-          sv: 'Använd chandas (special gaffel) för att snurra ambuyat',
+          sv: 'Snurra upp ambuyaten på en chandas (en särskild gaffel)',
           es: 'Utilice chandas (tenedor especial) para hacer girar el ambuyat',
           fr: 'Utilisez des chandas (fourchette spéciale) pour faire tournoyer l\'ambuyat',
           de: 'Verwenden Sie Chandas (Spezialgabel), um Ambuyat',
@@ -908,7 +1048,7 @@ export const brunei: Country = {
         },
         {
           en: 'Dip in sauces and eat with sides',
-          sv: 'Doppa i såser och ät med sidor',
+          sv: 'Doppa i såserna och ät med tillbehören',
           es: 'Sumérgelos en salsas y cómelos con guarniciones',
           fr: 'Tremper dans les sauces et manger avec les accompagnements',
           de: 'zu drehen In Saucen eintauchen und mit Beilagen essen',
@@ -935,7 +1075,7 @@ export const brunei: Country = {
       },
       description: {
         en: 'Traditional pineapple tart cookies, sweet and crumbly',
-        sv: 'Traditionella tårta ananas kakor, söta och smuliga',
+        sv: 'Traditionella småkakor fyllda med ananassylt, söta och möra',
         es: 'Galletas tradicionales de tarta de piña, dulces y desmenuzables',
         fr: 'Biscuits traditionnels à la tarte à l\'ananas, sucrés et friables',
         de: 'Traditionelle Ananas-Tarte-Kekse, süß und krümelig',
@@ -962,7 +1102,7 @@ export const brunei: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -977,7 +1117,7 @@ export const brunei: Country = {
         {
           name: {
             en: 'Butter, softened',
-            sv: 'Smör, mjukat',
+            sv: 'Smör, rumsvarmt',
             es: 'Mantequilla ablandada',
             fr: 'Beurre ramolli',
             de: 'Butter, weich',
@@ -992,7 +1132,7 @@ export const brunei: Country = {
         {
           name: {
             en: 'Powdered sugar',
-            sv: 'Pulversocker',
+            sv: 'Florsocker',
             es: 'Azúcar en polvo',
             fr: 'Sucre en poudre',
             de: 'Puderzucker',
@@ -1019,7 +1159,7 @@ export const brunei: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1063,7 +1203,7 @@ export const brunei: Country = {
       steps: [
         {
           en: 'Cream butter with powdered sugar until fluffy.',
-          sv: 'Grädde smör med strösocker tills det är fluffigt.',
+          sv: 'Vispa smör och florsocker pösigt.',
           es: 'Batir la mantequilla con el azúcar en polvo hasta que quede esponjosa.',
           fr: 'Crémer le beurre avec le sucre en poudre jusqu\'à consistance mousseuse.',
           de: 'Butter mit Puderzucker schaumig rühren.',
@@ -1074,7 +1214,7 @@ export const brunei: Country = {
         },
         {
           en: 'Add egg yolks one at a time, mixing well.',
-          sv: 'Tillsätt äggulor en i taget, blanda väl.',
+          sv: 'Tillsätt äggulorna en i taget och blanda väl.',
           es: 'Agrega las yemas de huevo una a la vez, mezclando bien.',
           fr: 'Ajouter les jaunes d\'œufs un à un en mélangeant bien.',
           de: 'Eigelb einzeln hinzufügen und gut verrühren.',
@@ -1096,7 +1236,7 @@ export const brunei: Country = {
         },
         {
           en: 'Gradually mix in flour to form soft dough.',
-          sv: 'Blanda gradvis i mjöl till en mjuk deg.',
+          sv: 'Arbeta in vetemjölet lite i taget till en mjuk deg.',
           es: 'Incorpora poco a poco la harina hasta formar una masa suave.',
           fr: 'Incorporer progressivement la farine pour former une pâte molle.',
           de: 'Nach und nach Mehl untermischen, bis ein weicher Teig entsteht.',
@@ -1107,7 +1247,7 @@ export const brunei: Country = {
         },
         {
           en: 'Roll dough into small balls.',
-          sv: 'Rulla degen till små bollar.',
+          sv: 'Rulla degen till små kulor.',
           es: 'Enrolle la masa en bolitas.',
           fr: 'Roulez la pâte en petites boules.',
           de: 'Den Teig zu kleinen Kugeln rollen.',
@@ -1118,7 +1258,7 @@ export const brunei: Country = {
         },
         {
           en: 'Make indentation in center of each ball.',
-          sv: 'Gör en fördjupning i mitten av varje boll.',
+          sv: 'Gör en fördjupning i mitten av varje kula.',
           es: 'Haz una muesca en el centro de cada bola.',
           fr: 'Faites une empreinte au centre de chaque boule.',
           de: 'Machen Sie in der Mitte jeder Kugel eine Vertiefung.',
@@ -1129,7 +1269,7 @@ export const brunei: Country = {
         },
         {
           en: 'Fill with pineapple jam.',
-          sv: 'Fyll med ananasmarmelad.',
+          sv: 'Fyll med ananassylt.',
           es: 'Rellenar con mermelada de piña.',
           fr: 'Remplissez de confiture d\'ananas.',
           de: 'Mit Ananasmarmelade füllen.',
@@ -1140,7 +1280,7 @@ export const brunei: Country = {
         },
         {
           en: 'Place on baking sheet.',
-          sv: 'Lägg på plåt.',
+          sv: 'Lägg kakorna på en plåt.',
           es: 'Colóquelo en una bandeja para hornear.',
           fr: 'Placer sur une plaque à pâtisserie.',
           de: 'Auf Backblech legen.',
@@ -1162,7 +1302,7 @@ export const brunei: Country = {
         },
         {
           en: 'Cool completely before serving.',
-          sv: 'Kyl helt innan servering.',
+          sv: 'Låt svalna helt före servering.',
           es: 'Deje enfriar completamente antes de servir.',
           fr: 'Refroidir complètement avant de servir.',
           de: 'Vor dem Servieren vollständig abkühlen lassen.',

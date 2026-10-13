@@ -220,7 +220,17 @@ export const northKorea: Country = {
     history: [
       {
         year: '1945',
-        title: 'Division of Korea',
+        title: {
+          en: 'Division of Korea',
+          sv: 'Koreas delning',
+          es: 'División de Corea',
+          fr: 'Division de la Corée',
+          de: 'Teilung Koreas',
+          it: 'Divisione della Corea',
+          pl: 'Podział Korei',
+          nl: 'Deling van Korea',
+          pt: 'Divisão da Coreia',
+        },
         description: {
           en: 'Korea was divided along the 38th parallel after WWII.',
           sv: 'Korea delades längs den 38:e breddgraden efter andra världskriget.',
@@ -235,7 +245,17 @@ export const northKorea: Country = {
       },
       {
         year: '1950-1953',
-        title: 'Korean War',
+        title: {
+          en: 'Korean War',
+          sv: 'Koreakriget',
+          es: 'Guerra de Corea',
+          fr: 'Guerre de Corée',
+          de: 'Koreakrieg',
+          it: 'Guerra di Corea',
+          pl: 'Wojna koreańska',
+          nl: 'Koreaanse Oorlog',
+          pt: 'Guerra da Coreia',
+        },
         description: {
           en: 'War between North and South Korea ended in armistice, not peace treaty.',
           sv: 'Krig mellan Nord- och Sydkorea slutade i vapenstillestånd, inte fredsavtal.',
@@ -250,7 +270,17 @@ export const northKorea: Country = {
       },
       {
         year: '1948',
-        title: 'DPRK Founded',
+        title: {
+          en: 'DPRK Founded',
+          sv: 'Nordkorea grundas',
+          es: 'Fundación de Corea del Norte',
+          fr: 'Fondation de la Corée du Nord',
+          de: 'Gründung Nordkoreas',
+          it: 'Fondazione della Corea del Nord',
+          pl: 'Powstanie Korei Północnej',
+          nl: 'Oprichting van Noord-Korea',
+          pt: 'Fundação da Coreia do Norte',
+        },
         description: {
           en: 'Democratic People\'s Republic of Korea established under Kim Il-sung.',
           sv: 'Demokratiska folkrepubliken Korea bildades under Kim Il-sung.',
@@ -320,7 +350,7 @@ export const northKorea: Country = {
       {
         name: {
           en: 'Kumsusan Palace',
-          sv: 'Kumsusan Palace',
+          sv: 'Kumsusanpalatset',
           es: 'Palacio Kumsusan',
           fr: 'Palais Kumsusan',
           de: 'Kumsusan-Palast',
@@ -344,7 +374,7 @@ export const northKorea: Country = {
       {
         name: {
           en: 'Mount Paektu',
-          sv: 'Mount Paektu',
+          sv: 'Paektuberget',
           es: 'Monte Paektu',
           fr: 'Mont Paektu',
           de: 'Berg Paektu',
@@ -392,7 +422,7 @@ export const northKorea: Country = {
       {
         name: {
           en: 'Pyongyang Metro',
-          sv: 'Pyongyang Metro',
+          sv: 'Pyongyangs tunnelbana',
           es: 'Metro de Pyongyang',
           fr: 'Métro de Pyongyang',
           de: 'U-Bahn Pjöngjang',
@@ -416,7 +446,17 @@ export const northKorea: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Special visa required; tours must be arranged through authorized agencies.',
           sv: 'Särskilt visum krävs; turer måste ordnas genom auktoriserade byråer.',
@@ -430,7 +470,17 @@ export const northKorea: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-June and September-October for moderate weather.',
           sv: 'April-juni och september-oktober för måttligt väder.',
@@ -444,7 +494,17 @@ export const northKorea: Country = {
         },
       },
       {
-        item: 'Guided tours only',
+        item: {
+          en: 'Guided tours only',
+          sv: 'Endast guidade turer',
+          es: 'Solo visitas guiadas',
+          fr: 'Visites guidées uniquement',
+          de: 'Nur geführte Touren',
+          it: 'Solo visite guidate',
+          pl: 'Tylko z przewodnikiem',
+          nl: 'Alleen rondleidingen met gids',
+          pt: 'Apenas passeios guiados',
+        },
         description: {
           en: 'Independent travel not permitted; must be with official guides.',
           sv: 'Självständig resa är inte tillåten; måste vara med officiella guider.',
@@ -458,7 +518,17 @@ export const northKorea: Country = {
         },
       },
       {
-        item: 'Photography restrictions',
+        item: {
+          en: 'Photography restrictions',
+          sv: 'Regler för fotografering',
+          es: 'Restricciones para fotografiar',
+          fr: 'Restrictions sur les photos',
+          de: 'Einschränkungen beim Fotografieren',
+          it: 'Restrizioni sulle foto',
+          pl: 'Ograniczenia fotografowania',
+          nl: 'Beperkingen voor foto\'s',
+          pt: 'Restrições para fotografar',
+        },
         description: {
           en: 'Many areas have photography restrictions.',
           sv: 'Många områden har fotograferingsrestriktioner.',
@@ -487,7 +557,7 @@ export const northKorea: Country = {
       },
       description: {
         en: 'Honey cookies, traditional Korean sweet',
-        sv: 'Honungskakor, traditionellt koreanskt sött',
+        sv: 'Honungskakor – en traditionell koreansk sötsak',
         es: 'Galletas de miel, dulce tradicional coreano',
         fr: 'Biscuits au miel, sucré traditionnel coréen',
         de: 'Honigkekse, traditionelle koreanische Süßigkeit',
@@ -514,7 +584,7 @@ export const northKorea: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -529,7 +599,7 @@ export const northKorea: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -609,7 +679,7 @@ export const northKorea: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -640,7 +710,7 @@ export const northKorea: Country = {
       steps: [
         {
           en: 'Mix flour with sesame oil, ginger juice, and rice wine',
-          sv: 'Blanda mjöl med sesamolja, ingefärajuice och risvin',
+          sv: 'Blanda vetemjöl med sesamolja, ingefärajuice och risvin',
           es: 'Mezclar la harina con aceite de sésamo, jugo de jengibre y vino de arroz',
           fr: 'Mélanger la farine avec l\'huile de sésame, le jus de gingembre et le vin de riz',
           de: 'Mehl mit Sesamöl, Ingwersaft und Reiswein mischen',
@@ -651,7 +721,7 @@ export const northKorea: Country = {
         },
         {
           en: 'Knead into smooth dough',
-          sv: 'Knåda till slät deg',
+          sv: 'Knåda till en smidig deg',
           es: 'Amasar hasta obtener una masa suave',
           fr: 'Pétrir pour obtenir une pâte lisse',
           de: 'Zu einem glatten Teig kneten',
@@ -662,7 +732,7 @@ export const northKorea: Country = {
         },
         {
           en: 'Roll out and cut into shapes',
-          sv: 'Kavla ut och skär i formar',
+          sv: 'Kavla ut degen och skär ut figurer',
           es: 'Estirar y cortar en formas',
           fr: 'Étalez et découpez des formes',
           de: 'Ausrollen und in Formen schneiden',
@@ -673,7 +743,7 @@ export const northKorea: Country = {
         },
         {
           en: 'Press pine nut in center of each',
-          sv: 'Pressa pinjenötter i mitten av varje',
+          sv: 'Tryck ner en pinjenöt mitt på varje kaka',
           es: 'Presione el piñón en el centro de cada uno',
           fr: 'Appuyez sur les pignons de pin au centre de chacun',
           de: 'Pinienkerne in die Mitte jedes',
@@ -695,7 +765,7 @@ export const northKorea: Country = {
         },
         {
           en: 'Soak in honey syrup',
-          sv: 'Blötlägg i honungssirap',
+          sv: 'Låt kakorna dra i honungssirap',
           es: 'Remojar en almíbar de miel',
           fr: 'Tremper dans du sirop de miel',
           de: 'In Honigsirup einweichen',
@@ -775,7 +845,7 @@ export const northKorea: Country = {
         {
           name: {
             en: 'Beef brisket',
-            sv: 'Nötköttsbringa',
+            sv: 'Oxbringa',
             es: 'Pechuga de ternera',
             fr: 'Poitrine de bœuf',
             de: 'Rinderbrust',
@@ -802,7 +872,7 @@ export const northKorea: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entière',
             de: 'ganz',
@@ -827,7 +897,7 @@ export const northKorea: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entière',
             de: 'ganz',
@@ -852,7 +922,7 @@ export const northKorea: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entière',
             de: 'ganz',
@@ -891,7 +961,7 @@ export const northKorea: Country = {
       steps: [
         {
           en: 'Make cold beef broth',
-          sv: 'Gör kall nötbuljong',
+          sv: 'Koka en köttbuljong på oxbringan och låt den bli helt kall',
           es: 'Hacer caldo de res frío',
           fr: 'Faire un bouillon de bœuf froid',
           de: 'Kalte Rinderbrühe zubereiten',
@@ -902,7 +972,7 @@ export const northKorea: Country = {
         },
         {
           en: 'Cook noodles and rinse in cold water',
-          sv: 'Koka nudlar och skölj i kallt vatten',
+          sv: 'Koka nudlarna och skölj dem i kallt vatten',
           es: 'Cocine los fideos y enjuáguelos con agua fría',
           fr: 'Cuire les nouilles et rincer à l\'eau froide',
           de: 'Nudeln kochen und in kaltem Wasser abschrecken',
@@ -924,7 +994,7 @@ export const northKorea: Country = {
         },
         {
           en: 'Place noodles in bowl',
-          sv: 'Lägg nudlar i skål',
+          sv: 'Lägg nudlarna i en skål',
           es: 'Coloque los fideos en un tazón',
           fr: 'Placer les nouilles dans un bol',
           de: 'Nudeln in eine Schüssel geben',
@@ -935,7 +1005,7 @@ export const northKorea: Country = {
         },
         {
           en: 'Pour cold broth over',
-          sv: 'Häll kall buljong över',
+          sv: 'Häll över den kalla buljongen',
           es: 'Vierta el caldo frío encima',
           fr: 'Verser le bouillon froid dessus',
           de: 'Kalte Brühe darübergießen',
@@ -1155,7 +1225,7 @@ export const northKorea: Country = {
         options: [
           {
             en: 'Mount Fuji',
-            sv: 'Mount Fuji',
+            sv: 'Fujiberget',
             es: 'Monte Fuji',
             fr: 'Mont Fuji',
             de: 'Berg Fuji',
@@ -1166,7 +1236,7 @@ export const northKorea: Country = {
           },
           {
             en: 'Mount Paektu',
-            sv: 'Mount Paektu',
+            sv: 'Paektuberget',
             es: 'Monte Paektu',
             fr: 'Mont Paektu',
             de: 'Berg Paektu',
@@ -1188,7 +1258,7 @@ export const northKorea: Country = {
           },
           {
             en: 'Mount Tai',
-            sv: 'Mount Tai',
+            sv: 'Tai Shan',
             es: 'Monte Tai',
             fr: 'Mont Tai',
             de: 'Berg Tai',
@@ -1360,7 +1430,7 @@ export const northKorea: Country = {
           },
           {
             en: 'Great Wall',
-            sv: 'Great Wall',
+            sv: 'Kinesiska muren',
             es: 'Gran Muralla',
             fr: 'Grande Muraille',
             de: 'Große Mauer',

@@ -174,7 +174,7 @@ export const cameroon: Country = {
       },
       {
         en: 'Mount Cameroon is an active volcano and highest peak in West Africa',
-        sv: 'Mount Kamerun är en aktiv vulkan och högsta topp i Västafrika',
+        sv: 'Kamerunberget är en aktiv vulkan och Västafrikas högsta topp',
         es: 'El monte Camerún es un volcán activo y el pico más alto de África occidental',
         fr: 'Le mont Cameroun est un volcan actif et le plus haut sommet d\'Afrique de l\'Ouest',
         de: 'Mount Cameroon ist ein aktiver Vulkan und höchster Gipfel in Westafrika',
@@ -263,8 +263,28 @@ export const cameroon: Country = {
     },
     history: [
       {
-        year: 'Pre-Colonial',
-        title: 'Ancient Kingdoms',
+        year: {
+          en: 'Pre-Colonial',
+          sv: 'Förkolonial tid',
+          es: 'Época precolonial',
+          fr: 'Époque précoloniale',
+          de: 'Vorkoloniale Zeit',
+          it: 'Epoca precoloniale',
+          pl: 'Okres przedkolonialny',
+          nl: 'Prekoloniale tijd',
+          pt: 'Período pré-colonial',
+        },
+        title: {
+          en: 'Ancient Kingdoms',
+          sv: 'Forntida kungariken',
+          es: 'Reinos antiguos',
+          fr: 'Anciens royaumes',
+          de: 'Alte Königreiche',
+          it: 'Antichi regni',
+          pl: 'Starożytne królestwa',
+          nl: 'Oude koninkrijken',
+          pt: 'Reinos antigos',
+        },
         description: {
           en: 'Various kingdoms including the Sao civilization and Kanem-Bornu Empire thrived in the region.',
           sv: 'Olika kungadömen inklusive Sao-civilisationen och Kanem-Bornu-riket blomstrade i regionen.',
@@ -279,7 +299,17 @@ export const cameroon: Country = {
       },
       {
         year: '1884',
-        title: 'German Colonization',
+        title: {
+          en: 'German Colonization',
+          sv: 'Tysk kolonisering',
+          es: 'Colonización alemana',
+          fr: 'Colonisation allemande',
+          de: 'Deutsche Kolonisierung',
+          it: 'Colonizzazione tedesca',
+          pl: 'Kolonizacja niemiecka',
+          nl: 'Duitse kolonisatie',
+          pt: 'Colonização alemã',
+        },
         description: {
           en: 'Germany established Kamerun as a colony, introducing plantations and infrastructure.',
           sv: 'Tyskland etablerade Kamerun som en koloni och introducerade plantager och infrastruktur.',
@@ -294,7 +324,17 @@ export const cameroon: Country = {
       },
       {
         year: '1916',
-        title: 'Allied Takeover',
+        title: {
+          en: 'Allied Takeover',
+          sv: 'De allierade tar över',
+          es: 'Ocupación aliada',
+          fr: 'Occupation alliée',
+          de: 'Übernahme durch die Alliierten',
+          it: 'Occupazione alleata',
+          pl: 'Przejęcie przez aliantów',
+          nl: 'Overname door de geallieerden',
+          pt: 'Ocupação aliada',
+        },
         description: {
           en: 'After WWI, Cameroon was divided between French and British administration.',
           sv: 'Efter första världskriget delades Kamerun mellan fransk och brittisk administration.',
@@ -309,7 +349,17 @@ export const cameroon: Country = {
       },
       {
         year: '1960-1961',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'French Cameroon gained independence in 1960, followed by British Cameroons joining in 1961.',
           sv: 'Franska Kamerun blev självständigt 1960, följt av brittiska Kameruner 1961.',
@@ -324,7 +374,17 @@ export const cameroon: Country = {
       },
       {
         year: '1972',
-        title: 'United Republic',
+        title: {
+          en: 'United Republic',
+          sv: 'Förenade republiken',
+          es: 'República Unida',
+          fr: 'République unie',
+          de: 'Vereinigte Republik',
+          it: 'Repubblica Unita',
+          pl: 'Zjednoczona Republika',
+          nl: 'Verenigde Republiek',
+          pt: 'República Unida',
+        },
         description: {
           en: 'Federal system was abolished, creating the United Republic of Cameroon.',
           sv: 'Det federala systemet avskaffades, vilket skapade Förenade republiken Kamerun.',
@@ -351,7 +411,17 @@ export const cameroon: Country = {
           nl: 'Bikutsi-muziekgenre',
           pt: 'Gênero musical bikutsi',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Developed unique musical style combining traditional rhythms with modern instruments, influencing African popular music.',
           sv: 'Utvecklat en unik musikstil som kombinerar traditionella rytmer med moderna instrument, vilket påverkar afrikansk populärmusik.',
@@ -376,7 +446,17 @@ export const cameroon: Country = {
           nl: 'Behoud van ecologische diversiteit',
           pt: 'Conservação da diversidade ecológica',
         },
-        year: '1930s-Present',
+        year: {
+          en: '1930s-Present',
+          sv: '1930-talet–idag',
+          es: 'década de 1930 – actualidad',
+          fr: 'années 1930 – aujourd\'hui',
+          de: '1930er–heute',
+          it: 'anni \'30 – oggi',
+          pl: 'lata 30. – obecnie',
+          nl: 'jaren 30 – heden',
+          pt: 'década de 1930 – presente',
+        },
         description: {
           en: 'Protected diverse ecosystems from coast to savanna, serving as a model for biodiversity preservation.',
           sv: 'Skyddade olika ekosystem från kust till savann, som fungerar som en modell för bevarande av biologisk mångfald.',
@@ -426,7 +506,17 @@ export const cameroon: Country = {
           nl: 'Duurzame cacaoteelt',
           pt: 'Cultivo sustentável de cacau',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Pioneered fair trade and sustainable cocoa production methods adopted across West Africa.',
           sv: 'Pionjärer för rättvis handel och hållbara kakaoproduktionsmetoder som antagits över hela Västafrika.',
@@ -444,7 +534,7 @@ export const cameroon: Country = {
       {
         name: {
           en: 'Mount Cameroon',
-          sv: 'Berget Kamerun',
+          sv: 'Kamerunberget',
           es: 'Monte Camerún',
           fr: 'Mont Cameroun',
           de: 'Berg Kamerun',
@@ -503,7 +593,7 @@ export const cameroon: Country = {
         },
         description: {
           en: 'Beautiful black sand beaches at the foot of Mount Cameroon with botanical gardens.',
-          sv: 'Vackra svarta sandstränder vid foten av berget Kamerun med botaniska trädgårdar.',
+          sv: 'Vackra svarta sandstränder vid foten av Kamerunberget, med botaniska trädgårdar.',
           es: 'Hermosas playas de arena negra al pie del Monte Camerún con jardines botánicos.',
           fr: 'De belles plages de sable noir au pied du Mont Cameroun avec jardins botaniques.',
           de: 'Wunderschöne schwarze Sandstrände am Fuße des Kamerunbergs mit botanischen Gärten.',
@@ -540,7 +630,7 @@ export const cameroon: Country = {
       {
         name: {
           en: 'Kribi Beach',
-          sv: 'Kribi Beach',
+          sv: 'Kribistranden',
           es: 'Playa de Kribi',
           fr: 'Plage de Kribi',
           de: 'Kribi Strand',
@@ -564,7 +654,17 @@ export const cameroon: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa in advance. Some nationalities can get visa on arrival.',
           sv: 'De flesta besökare behöver visum i förväg. Vissa nationaliteter kan få visum vid ankomst.',
@@ -578,7 +678,17 @@ export const cameroon: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-February for dry season in north; June-September for south.',
           sv: 'November-februari för torrperioden i norr; Juni-september för söder.',
@@ -592,7 +702,17 @@ export const cameroon: Country = {
         },
       },
       {
-        item: 'Languages',
+        item: {
+          en: 'Languages',
+          sv: 'Språk',
+          es: 'Idiomas',
+          fr: 'Langues',
+          de: 'Sprachen',
+          it: 'Lingue',
+          pl: 'Języki',
+          nl: 'Talen',
+          pt: 'Idiomas',
+        },
         description: {
           en: 'French and English official. Local languages include Fulfulde, Ewondo, Duala.',
           sv: 'fransk och engelsk tjänsteman. Lokala språk inkluderar Fulfulde, Ewondo, Duala.',
@@ -630,7 +750,17 @@ export const cameroon: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Yellow fever vaccination required. Malaria prophylaxis essential.',
           sv: 'Vaccination mot gula febern krävs. Malariaprofylax viktigt.',
@@ -644,7 +774,17 @@ export const cameroon: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Exercise caution. Some border regions have security concerns.',
           sv: 'Var försiktig. Vissa gränsregioner har säkerhetsproblem.',
@@ -782,7 +922,7 @@ export const cameroon: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -865,7 +1005,7 @@ export const cameroon: Country = {
         },
         {
           en: 'Simmer until thick',
-          sv: 'Sjud tills det blir tjockt',
+          sv: 'Låt sjuda tills grytan tjocknar',
           es: 'Cocine a fuego lento hasta que espese',
           fr: 'Laisser mijoter jusqu\'à épaississement',
           de: 'köcheln lassen, bis es dickflüssig ist',
@@ -903,7 +1043,7 @@ export const cameroon: Country = {
       },
       description: {
         en: 'Sweet fried dough balls, a popular Cameroonian street snack',
-        sv: 'Sötstekta degbollar, ett populärt gatusnack i Kamerun',
+        sv: 'Söta friterade degbollar, populär gatumat i Kamerun',
         es: 'Bolas de masa dulce frita, un bocadillo callejero popular en Camerún',
         fr: 'Boulettes de pâte frites sucrées, un snack de rue populaire au Cameroun',
         de: 'Süße frittierte Teigbällchen, ein beliebter kamerunischer Straßensnack',
@@ -930,7 +1070,7 @@ export const cameroon: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -960,7 +1100,7 @@ export const cameroon: Country = {
         {
           name: {
             en: 'Active dry yeast',
-            sv: 'Aktiv torrjäst',
+            sv: 'Torrjäst',
             es: 'Levadura seca activa',
             fr: 'Levure sèche active',
             de: 'Aktive Trockenhefe',
@@ -1020,7 +1160,7 @@ export const cameroon: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -1036,7 +1176,7 @@ export const cameroon: Country = {
       steps: [
         {
           en: 'Mix yeast with warm water and 1 tbsp sugar, let sit 10 minutes.',
-          sv: 'Blanda jäst med varmt vatten och 1 msk socker, låt stå i 10 minuter.',
+          sv: 'Rör ut jästen i det varma vattnet med 1 msk socker och låt stå i 10 minuter.',
           es: 'Mezcla la levadura con agua tibia y 1 cucharada de azúcar, deja reposar 10 minutos.',
           fr: 'Mélangez la levure avec de l\'eau tiède et 1 cuillère à soupe de sucre, laissez reposer 10 minutes.',
           de: 'Hefe mit warmem Wasser und 1 EL Zucker vermischen und 10 Minuten ruhen lassen.',
@@ -1047,7 +1187,7 @@ export const cameroon: Country = {
         },
         {
           en: 'Combine flour, remaining sugar, salt, and nutmeg.',
-          sv: 'Blanda mjöl, resterande socker, salt och muskotnöt.',
+          sv: 'Blanda vetemjöl, resten av sockret, salt och muskotnöt.',
           es: 'Combine la harina, el azúcar restante, la sal y la nuez moscada.',
           fr: 'Mélanger la farine, le reste du sucre, le sel et la muscade.',
           de: 'Mehl, restlichen Zucker, Salz und Muskat vermischen.',
@@ -1069,7 +1209,7 @@ export const cameroon: Country = {
         },
         {
           en: 'Cover and let rise in warm place for 1 hour.',
-          sv: 'Täck och låt jäsa på en varm plats i 1 timme.',
+          sv: 'Täck över och låt jäsa på en varm plats i 1 timme.',
           es: 'Tapar y dejar reposar en un lugar cálido durante 1 hora.',
           fr: 'Couvrir et laisser lever dans un endroit tiède pendant 1 heure.',
           de: 'Abdecken und an einem warmen Ort 1 Stunde gehen lassen.',
@@ -1080,7 +1220,7 @@ export const cameroon: Country = {
         },
         {
           en: 'Heat oil to 180°C in deep pot.',
-          sv: 'Hetta upp olja till 180°C i djup kastrull.',
+          sv: 'Hetta upp oljan till 180°C i en djup kastrull.',
           es: 'Calienta el aceite a 180°C en una olla profunda.',
           fr: 'Chauffer l\'huile à 180°C dans une casserole profonde.',
           de: 'Öl in einem tiefen Topf auf 180 °C erhitzen.',
@@ -1091,7 +1231,7 @@ export const cameroon: Country = {
         },
         {
           en: 'Drop spoonfuls of batter into hot oil.',
-          sv: 'Häll ner skedar smet i het olja.',
+          sv: 'Klicka ner smeten med en sked i den heta oljan.',
           es: 'Eche cucharadas de masa en aceite caliente.',
           fr: 'Déposez des cuillerées de pâte dans l\'huile chaude.',
           de: 'Geben Sie einen Löffel Teig in das heiße Öl.',
@@ -1102,7 +1242,7 @@ export const cameroon: Country = {
         },
         {
           en: 'Fry until golden brown all over, about 3-4 minutes.',
-          sv: 'Stek tills gyllenbrun överallt, ca 3-4 minuter.',
+          sv: 'Fritera tills de är gyllenbruna runt om, ca 3-4 minuter.',
           es: 'Freír hasta que estén completamente dorados, aproximadamente 3-4 minutos.',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient entièrement dorés, environ 3-4 minutes.',
           de: 'Etwa 3–4 Minuten rundherum goldbraun braten.',
@@ -1124,7 +1264,7 @@ export const cameroon: Country = {
         },
         {
           en: 'Remove with slotted spoon, drain on paper towels.',
-          sv: 'Ta bort med hålslev, låt rinna av på hushållspapper.',
+          sv: 'Lyft upp dem med en hålslev och låt rinna av på hushållspapper.',
           es: 'Retirar con una espumadera y escurrir sobre toallas de papel.',
           fr: 'Retirer avec une écumoire, égoutter sur du papier absorbant.',
           de: 'Mit einem Schaumlöffel herausnehmen und auf Küchenpapier abtropfen lassen.',
@@ -1448,7 +1588,7 @@ export const cameroon: Country = {
         options: [
           {
             en: 'Mount Kilimanjaro',
-            sv: 'Mount Kilimanjaro',
+            sv: 'Kilimanjaro',
             es: 'Monte Kilimanjaro',
             fr: 'Mont Kilimandjaro',
             de: 'Kilimandscharo',
@@ -1470,7 +1610,7 @@ export const cameroon: Country = {
           },
           {
             en: 'Mount Cameroon',
-            sv: 'Berget Kamerun',
+            sv: 'Kamerunberget',
             es: 'Monte Camerún',
             fr: 'Mont Cameroun',
             de: 'Berg Kamerun',
@@ -1481,7 +1621,7 @@ export const cameroon: Country = {
           },
           {
             en: 'Mount Meru',
-            sv: 'Mount Meru',
+            sv: 'Meru',
             es: 'Monte Meru',
             fr: 'Mont Méru',
             de: 'Berg Meru',

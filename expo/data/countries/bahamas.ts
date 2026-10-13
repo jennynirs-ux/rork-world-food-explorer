@@ -264,7 +264,17 @@ export const bahamas: Country = {
     history: [
       {
         year: '1492',
-        title: 'Columbus Arrival',
+        title: {
+          en: 'Columbus Arrival',
+          sv: 'Columbus ankomst',
+          es: 'Llegada de Colón',
+          fr: 'Arrivée de Colomb',
+          de: 'Ankunft des Kolumbus',
+          it: 'Arrivo di Colombo',
+          pl: 'Przybycie Kolumba',
+          nl: 'Aankomst van Columbus',
+          pt: 'Chegada de Colombo',
+        },
         description: {
           en: 'Christopher Columbus made his first landfall in the New World on the island of San Salvador in the Bahamas.',
           sv: 'Christopher Columbus gjorde sitt första land i den nya världen på ön San Salvador på Bahamas.',
@@ -278,8 +288,28 @@ export const bahamas: Country = {
         },
       },
       {
-        year: '1600s-1700s',
-        title: 'Pirate Haven',
+        year: {
+          en: '1600s-1700s',
+          sv: '1600–1700-talet',
+          es: 'siglos XVII–XVIII',
+          fr: 'XVIIe–XVIIIe siècles',
+          de: '17.–18. Jahrhundert',
+          it: 'XVII–XVIII secolo',
+          pl: 'XVII–XVIII wiek',
+          nl: '17e–18e eeuw',
+          pt: 'séculos XVII–XVIII',
+        },
+        title: {
+          en: 'Pirate Haven',
+          sv: 'Piratfäste',
+          es: 'Refugio de piratas',
+          fr: 'Repaire de pirates',
+          de: 'Piratenhochburg',
+          it: 'Covo di pirati',
+          pl: 'Piracka przystań',
+          nl: 'Piratennest',
+          pt: 'Refúgio de piratas',
+        },
         description: {
           en: 'Nassau became a notorious pirate stronghold, home to famous pirates like Blackbeard and Calico Jack.',
           sv: 'Nassau blev ett ökänt piratfäste, hem för kända pirater som Blackbeard och Calico Jack.',
@@ -294,7 +324,17 @@ export const bahamas: Country = {
       },
       {
         year: '1718',
-        title: 'British Crown Colony',
+        title: {
+          en: 'British Crown Colony',
+          sv: 'Brittisk kronkoloni',
+          es: 'Colonia de la Corona británica',
+          fr: 'Colonie de la Couronne britannique',
+          de: 'Britische Kronkolonie',
+          it: 'Colonia della Corona britannica',
+          pl: 'Brytyjska kolonia koronna',
+          nl: 'Britse kroonkolonie',
+          pt: 'Colônia da Coroa britânica',
+        },
         description: {
           en: 'The Bahamas officially became a British Crown Colony, ending the era of pirate rule.',
           sv: 'Bahamas blev officiellt en brittisk kronkoloni, vilket avslutade eran av piratstyre.',
@@ -309,7 +349,17 @@ export const bahamas: Country = {
       },
       {
         year: '1973',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'The Bahamas gained independence from the United Kingdom while remaining a member of the Commonwealth.',
           sv: 'Bahamas fick självständighet från Storbritannien samtidigt som de förblev en medlem av Commonwealth.',
@@ -361,7 +411,17 @@ export const bahamas: Country = {
           nl: 'Mariene beschermingstechnieken',
           pt: 'Técnicas de conservação marinha',
         },
-        year: '1950s',
+        year: {
+          en: '1950s',
+          sv: '1950-talet',
+          es: 'Década de 1950',
+          fr: 'Années 1950',
+          de: '1950er',
+          it: 'Anni \'50',
+          pl: 'Lata 50.',
+          nl: 'Jaren 50',
+          pt: 'Década de 1950',
+        },
         description: {
           en: 'Pioneered Caribbean marine park systems and coral reef protection methods that influenced global conservation efforts.',
           sv: 'Pionjärer i karibiska marina parksystem och metoder för skydd av korallrev som påverkade globala bevarandeinsatser.',
@@ -386,7 +446,17 @@ export const bahamas: Country = {
           nl: 'Bijdrage aan orkaanvoorspelling',
           pt: 'Contribuição para a previsão de furacões',
         },
-        year: '1940s',
+        year: {
+          en: '1940s',
+          sv: '1940-talet',
+          es: 'Década de 1940',
+          fr: 'Années 1940',
+          de: '1940er',
+          it: 'Anni \'40',
+          pl: 'Lata 40.',
+          nl: 'Jaren 40',
+          pt: 'Década de 1940',
+        },
         description: {
           en: 'Bahamian meteorological stations played crucial roles in developing Atlantic hurricane tracking systems.',
           sv: 'Bahamiska meteorologiska stationer spelade avgörande roller i utvecklingen av atlantiska orkanspårningssystem.',
@@ -411,7 +481,17 @@ export const bahamas: Country = {
           nl: 'Duurzaam toerismemodel',
           pt: 'Modelo de turismo sustentável',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Developed eco-tourism practices balancing economic growth with environmental protection in island ecosystems.',
           sv: 'Utvecklade metoder för ekoturism som balanserar ekonomisk tillväxt med miljöskydd i öarnas ekosystem.',
@@ -453,7 +533,7 @@ export const bahamas: Country = {
       {
         name: {
           en: 'Andros Blue Holes',
-          sv: 'Andros Blue Holes',
+          sv: 'Blå hålen på Andros',
           es: 'Agujeros azules de Andros',
           fr: 'Trous Bleus d\'Andros',
           de: 'Blaue Löcher von Andros',
@@ -549,7 +629,17 @@ export const bahamas: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can visit visa-free for up to 90 days for tourism.',
           sv: 'Många nationaliteter kan besöka visumfritt i upp till 90 dagar för turism.',
@@ -563,7 +653,17 @@ export const bahamas: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to April for dry season; avoid September-November (hurricane season)',
           sv: 'December till april för torrperioden; undvik september-november (orkansäsong)',
@@ -577,7 +677,17 @@ export const bahamas: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Ferries between islands, domestic flights, taxis, and rental cars.',
           sv: 'Färjor mellan öar, inrikesflyg, taxibilar och hyrbilar.',
@@ -591,7 +701,17 @@ export const bahamas: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'English is the official language. Bahamian Creole is also spoken.',
           sv: 'Engelska är det officiella språket. Bahamian Creole talas också.',
@@ -605,7 +725,17 @@ export const bahamas: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe for tourists. Exercise caution in Nassau after dark.',
           sv: 'Generellt säker för turister. Var försiktig i Nassau efter mörkrets inbrott.',
@@ -623,7 +753,7 @@ export const bahamas: Country = {
       id: 'bahamas-conch-salad',
       name: {
         en: 'Conch Salad',
-        sv: 'Conch sallad',
+        sv: 'Conchsallad',
         es: 'Ensalada de caracola',
         fr: 'Salade de conques',
         de: 'Muschelsalat',
@@ -634,7 +764,7 @@ export const bahamas: Country = {
       },
       description: {
         en: 'The Bahamas\' signature dish - fresh raw conch mixed with diced vegetables, citrus juices, and hot peppers. It\'s refreshing, zesty, and typically served as an appetizer or light meal.',
-        sv: 'Bahamas signaturrätt - färsk rå conch blandad med tärnade grönsaker, citrusjuicer och varm paprika. Det är uppfriskande, saftigt och serveras vanligtvis som förrätt eller lätt måltid.',
+        sv: 'Bahamas signaturrätt – färskt, rått conchkött blandat med tärnade grönsaker, citrusjuice och stark chili. Den är fräsch och syrlig och serveras vanligtvis som förrätt eller lätt måltid.',
         es: 'El plato estrella de las Bahamas: caracola fresca cruda mezclada con verduras cortadas en cubitos, jugos de cítricos y pimientos picantes. Es refrescante, picante y normalmente se sirve como aperitivo o comida ligera.',
         fr: 'Le plat emblématique des Bahamas : des conques crues fraîches mélangées à des légumes en dés, des jus d\'agrumes et des piments forts. C\'est rafraîchissant, piquant et généralement servi comme apéritif ou comme repas léger.',
         de: 'Das typische Gericht der Bahamas – frische rohe Muscheln, gemischt mit gewürfeltem Gemüse, Zitrussäften und Peperoni. Es ist erfrischend, pikant und wird normalerweise als Vorspeise oder leichte Mahlzeit serviert.',
@@ -661,7 +791,7 @@ export const bahamas: Country = {
         {
           name: {
             en: 'Fresh conch, diced',
-            sv: 'Färsk conch, tärnad',
+            sv: 'Färskt conchkött, tärnat',
             es: 'Caracola fresca cortada en cubitos',
             fr: 'Conque fraîche, coupée en dés',
             de: 'Frische Muscheln, gewürfelt',
@@ -738,7 +868,7 @@ export const bahamas: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -781,7 +911,7 @@ export const bahamas: Country = {
         {
           name: {
             en: 'Scotch bonnet pepper, minced',
-            sv: 'Scotch bonnet pepper, finhackad',
+            sv: 'Scotch bonnet-chili, finhackad',
             es: 'Pimienta escocesa picada',
             fr: 'Piment Scotch Bonnet, émincé',
             de: 'Scotch Bonnet Pepper, gehackt',
@@ -793,7 +923,7 @@ export const bahamas: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -847,7 +977,7 @@ export const bahamas: Country = {
       steps: [
         {
           en: 'Clean and tenderize fresh conch by pounding it',
-          sv: 'Rengör och mör färsk conch genom att dunka den',
+          sv: 'Rensa conchköttet och banka det mört',
           es: 'Limpiar y ablandar la caracola fresca machacándola',
           fr: 'Nettoyez et attendrissez les conques fraîches en les pilant',
           de: 'Frische Muscheln säubern und zart machen, indem man sie zerstampft',
@@ -858,7 +988,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Dice conch into small pieces',
-          sv: 'Tärna conch i små bitar',
+          sv: 'Tärna conchköttet i små bitar',
           es: 'Cortar la caracola en trozos pequeños',
           fr: 'Coupez la conque en petits morceaux',
           de: 'Muschel in kleine Stücke würfeln',
@@ -869,7 +999,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Combine diced conch with tomatoes, peppers, and onion in a bowl',
-          sv: 'Kombinera tärnad conch med tomater, paprika och lök i en skål',
+          sv: 'Blanda det tärnade conchköttet med tomater, paprika och lök i en skål',
           es: 'Combine la caracola cortada en cubitos con los tomates, los pimientos y la cebolla en un tazón',
           fr: 'Mélanger les conques coupées en dés avec les tomates, les poivrons et l\'oignon dans un bol',
           de: 'Gewürfelte Muscheln mit Tomaten, Paprika und Zwiebeln in einer Schüssel vermischen',
@@ -891,7 +1021,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Mix in minced scotch bonnet pepper (adjust to taste)',
-          sv: 'Blanda i malet skotsk bonnetpeppar (anpassa efter smak)',
+          sv: 'Blanda ner finhackad scotch bonnet-chili (efter smak)',
           es: 'Incorpora la pimienta escocesa picada (ajusta al gusto)',
           fr: 'Incorporer le piment Scotch Bonnet émincé (ajuster au goût)',
           de: 'Gehackten Scotch Bonnet Pepper untermischen (nach Geschmack anpassen)',
@@ -978,7 +1108,7 @@ export const bahamas: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1068,7 +1198,7 @@ export const bahamas: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -1114,7 +1244,7 @@ export const bahamas: Country = {
       steps: [
         {
           en: 'Mix flour and baking powder. Cut in 50g butter until crumbly.',
-          sv: 'Blanda mjöl och bakpulver. Skär i 50 g smör tills det är smuligt.',
+          sv: 'Blanda mjöl och bakpulver. Nyp ihop 50 g smör med mjölblandningen till en smulig massa.',
           es: 'Mezclar la harina y el polvo para hornear. Cortar 50 g de mantequilla hasta que se desmorone.',
           fr: 'Mélanger la farine et la levure chimique. Incorporer 50 g de beurre jusqu\'à ce qu\'il soit friable.',
           de: 'Mehl und Backpulver mischen. 50 g Butter hineinschneiden, bis sie krümelig ist.',
@@ -1125,7 +1255,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Add milk gradually to form soft dough.',
-          sv: 'Tillsätt mjölk gradvis till en mjuk deg.',
+          sv: 'Tillsätt mjölken lite i taget och arbeta ihop till en mjuk deg.',
           es: 'Agrega la leche poco a poco hasta formar una masa suave.',
           fr: 'Ajouter le lait progressivement pour former une pâte molle.',
           de: 'Nach und nach Milch hinzufügen, bis ein weicher Teig entsteht.',
@@ -1136,7 +1266,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Roll dough into rectangle about 1cm thick.',
-          sv: 'Rulla degen till en rektangel ca 1 cm tjock.',
+          sv: 'Kavla ut degen till en rektangel, ca 1 cm tjock.',
           es: 'Enrolle la masa formando un rectángulo de aproximadamente 1 cm de grosor.',
           fr: 'Abaisser la pâte en rectangle d\'environ 1 cm d\'épaisseur.',
           de: 'Den Teig zu einem etwa 1 cm dicken Rechteck ausrollen.',
@@ -1147,7 +1277,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Spread guava paste evenly over dough.',
-          sv: 'Fördela guavapasta jämnt över degen.',
+          sv: 'Bred guavapastan jämnt över degen.',
           es: 'Extienda la pasta de guayaba uniformemente sobre la masa.',
           fr: 'Étalez uniformément la pâte de goyave sur la pâte.',
           de: 'Guavenpaste gleichmäßig auf dem Teig verteilen.',
@@ -1158,7 +1288,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Roll up tightly like a jelly roll.',
-          sv: 'Rulla ihop hårt som en gelérulle.',
+          sv: 'Rulla ihop degen hårt som en rulltårta.',
           es: 'Enrollar bien como si fuera un rollo de gelatina.',
           fr: 'Roulez fermement comme un rouleau de gelée.',
           de: 'Fest aufrollen wie eine Biskuitrolle.',
@@ -1169,7 +1299,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Wrap in cheesecloth or parchment, tie ends.',
-          sv: 'Slå in i ostduk eller pergament, knyt ändarna.',
+          sv: 'Slå in rullen i ostduk eller bakplåtspapper och knyt ihop ändarna.',
           es: 'Envuélvalo en una gasa o pergamino y ate los extremos.',
           fr: 'Envelopper dans une étamine ou du papier sulfurisé, attacher les extrémités.',
           de: 'In Käsetuch oder Pergament einwickeln und die Enden zusammenbinden.',
@@ -1191,7 +1321,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Make sauce: melt remaining butter, add brown sugar and cream.',
-          sv: 'Gör sås: smält resten av smöret, tillsätt farinsocker och grädde.',
+          sv: 'Gör såsen: smält resten av smöret och tillsätt farinsocker och grädde.',
           es: 'Haga la salsa: derrita la mantequilla restante, agregue el azúcar moreno y la crema.',
           fr: 'Préparez la sauce : faites fondre le reste du beurre, ajoutez la cassonade et la crème.',
           de: 'Soße zubereiten: Restliche Butter schmelzen, braunen Zucker und Sahne hinzufügen.',
@@ -1202,7 +1332,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Simmer until thickened, add rum and vanilla.',
-          sv: 'Sjud tills det tjocknat, tillsätt rom och vanilj.',
+          sv: 'Låt sjuda tills såsen tjocknar och tillsätt sedan rom och vanilj.',
           es: 'Cocine a fuego lento hasta que espese, agregue el ron y la vainilla.',
           fr: 'Laisser mijoter jusqu\'à épaississement, ajouter le rhum et la vanille.',
           de: 'Bis zum Eindicken köcheln lassen, Rum und Vanille hinzufügen.',
@@ -1213,7 +1343,7 @@ export const bahamas: Country = {
         },
         {
           en: 'Unwrap duff, slice, and serve warm with rum butter sauce.',
-          sv: 'Packa upp duff, skiva och servera varm med romsmörsås.',
+          sv: 'Packa upp duffen, skiva den och servera varm med romsmörsåsen.',
           es: 'Desenvuelva el duff, córtelo en rodajas y sirva caliente con salsa de mantequilla y ron.',
           fr: 'Déballez le duff, coupez-le en tranches et servez-le chaud avec une sauce au rhum et au beurre.',
           de: 'Den Duff auspacken, in Scheiben schneiden und warm mit Rum-Buttersauce servieren.',
@@ -1431,7 +1561,7 @@ export const bahamas: Country = {
           },
           {
             en: 'Christopher Columbus',
-            sv: 'Christopher Columbus',
+            sv: 'Christofer Columbus',
             es: 'Cristóbal Colón',
             fr: 'Christophe Colomb',
             de: 'Christoph Kolumbus',

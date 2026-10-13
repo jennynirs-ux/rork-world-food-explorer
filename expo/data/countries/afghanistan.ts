@@ -101,7 +101,7 @@ export const afghanistan: Country = {
         },
         value: {
           en: 'Pashto, Dari',
-          sv: 'Pashto, Dari',
+          sv: 'Pashto, dari',
           es: 'pastún, dari',
           fr: 'Pachtou, Dari',
           de: 'Paschtu, Dari',
@@ -125,7 +125,7 @@ export const afghanistan: Country = {
         },
         value: {
           en: 'Afghan Afghani (AFN)',
-          sv: 'Afghan Afghani (AFN)',
+          sv: 'Afghani (AFN)',
           es: 'Afgano afgano (AFN)',
           fr: 'Afghan afghan (AFN)',
           de: 'Afghan Afghani (AFN)',
@@ -263,8 +263,28 @@ export const afghanistan: Country = {
     },
     history: [
       {
-        year: '500 BC',
-        title: 'Achaemenid Empire',
+        year: {
+          en: '500 BC',
+          sv: '500 f.Kr.',
+          es: '500 a. C.',
+          fr: '500 av. J.-C.',
+          de: '500 v. Chr.',
+          it: '500 a.C.',
+          pl: '500 p.n.e.',
+          nl: '500 v.Chr.',
+          pt: '500 a.C.',
+        },
+        title: {
+          en: 'Achaemenid Empire',
+          sv: 'Akemenidiska riket',
+          es: 'Imperio aqueménida',
+          fr: 'Empire achéménide',
+          de: 'Achämenidenreich',
+          it: 'Impero achemenide',
+          pl: 'Imperium Achemenidów',
+          nl: 'Achaemenidische Rijk',
+          pt: 'Império Aquemênida',
+        },
         description: {
           en: 'Afghanistan was part of the Persian Empire, serving as a crucial link on trade routes.',
           sv: 'Afghanistan var en del av det persiska riket och fungerade som en avgörande länk på handelsvägar.',
@@ -278,8 +298,28 @@ export const afghanistan: Country = {
         },
       },
       {
-        year: '330 BC',
-        title: 'Alexander the Great',
+        year: {
+          en: '330 BC',
+          sv: '330 f.Kr.',
+          es: '330 a. C.',
+          fr: '330 av. J.-C.',
+          de: '330 v. Chr.',
+          it: '330 a.C.',
+          pl: '330 p.n.e.',
+          nl: '330 v.Chr.',
+          pt: '330 a.C.',
+        },
+        title: {
+          en: 'Alexander the Great',
+          sv: 'Alexander den store',
+          es: 'Alejandro Magno',
+          fr: 'Alexandre le Grand',
+          de: 'Alexander der Große',
+          it: 'Alessandro Magno',
+          pl: 'Aleksander Wielki',
+          nl: 'Alexander de Grote',
+          pt: 'Alexandre, o Grande',
+        },
         description: {
           en: 'Alexander conquered the region, establishing cities and spreading Hellenistic culture.',
           sv: 'Alexander erövrade regionen, etablerade städer och spred hellenistisk kultur.',
@@ -294,7 +334,17 @@ export const afghanistan: Country = {
       },
       {
         year: '1747',
-        title: 'Durrani Empire',
+        title: {
+          en: 'Durrani Empire',
+          sv: 'Durraniriket',
+          es: 'Imperio durrani',
+          fr: 'Empire durrani',
+          de: 'Durrani-Reich',
+          it: 'Impero Durrani',
+          pl: 'Imperium Durrani',
+          nl: 'Durrani-rijk',
+          pt: 'Império Durrani',
+        },
         description: {
           en: 'Ahmad Shah Durrani founded the Durrani Empire, considered the beginning of modern Afghanistan.',
           sv: 'Ahmad Shah Durrani grundade Durrani-imperiet, ansett som början på det moderna Afghanistan.',
@@ -308,8 +358,28 @@ export const afghanistan: Country = {
         },
       },
       {
-        year: '1979-Present',
-        title: 'Modern Challenges',
+        year: {
+          en: '1979-Present',
+          sv: '1979–idag',
+          es: '1979–actualidad',
+          fr: '1979–aujourd\'hui',
+          de: '1979–heute',
+          it: '1979–oggi',
+          pl: '1979–obecnie',
+          nl: '1979–heden',
+          pt: '1979–presente',
+        },
+        title: {
+          en: 'Modern Challenges',
+          sv: 'Utmaningar i modern tid',
+          es: 'Desafíos actuales',
+          fr: 'Défis contemporains',
+          de: 'Herausforderungen der Gegenwart',
+          it: 'Sfide contemporanee',
+          pl: 'Współczesne wyzwania',
+          nl: 'Hedendaagse uitdagingen',
+          pt: 'Desafios atuais',
+        },
         description: {
           en: 'Decades of conflict have shaped contemporary Afghanistan, with ongoing efforts toward peace and development.',
           sv: 'Årtionden av konflikter har format det samtida Afghanistan, med pågående ansträngningar för fred och utveckling.',
@@ -336,7 +406,17 @@ export const afghanistan: Country = {
           nl: 'Bijdragen aan de algebra',
           pt: 'Contribuições para a álgebra',
         },
-        year: '9th Century',
+        year: {
+          en: '9th Century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
         description: {
           en: 'Scholars in the region made significant contributions to mathematics during the Islamic Golden Age.',
           sv: 'Forskare i regionen gjorde betydande bidrag till matematiken under den islamiska guldåldern.',
@@ -361,7 +441,17 @@ export const afghanistan: Country = {
           nl: 'Miniatuurschilderkunst',
           pt: 'Pintura em miniatura',
         },
-        year: '15th Century',
+        year: {
+          en: '15th Century',
+          sv: '1400-talet',
+          es: 'Siglo XV',
+          fr: 'XVe siècle',
+          de: '15. Jahrhundert',
+          it: 'XV secolo',
+          pl: 'XV wiek',
+          nl: '15e eeuw',
+          pt: 'Século XV',
+        },
         description: {
           en: 'The Herat school of miniature painting influenced Persian and Mughal art traditions.',
           sv: 'Herat-skolan för miniatyrmåleri påverkade persiska och moguliska konsttraditioner.',
@@ -386,7 +476,17 @@ export const afghanistan: Country = {
           nl: 'Astronomische waarnemingen',
           pt: 'Observações astronómicas',
         },
-        year: '10th Century',
+        year: {
+          en: '10th Century',
+          sv: '900-talet',
+          es: 'Siglo X',
+          fr: 'Xe siècle',
+          de: '10. Jahrhundert',
+          it: 'X secolo',
+          pl: 'X wiek',
+          nl: '10e eeuw',
+          pt: 'Século X',
+        },
         description: {
           en: 'Afghan scholars made important contributions to astronomy and mathematics.',
           sv: 'Afghanska forskare gjorde viktiga bidrag till astronomi och matematik.',
@@ -411,7 +511,17 @@ export const afghanistan: Country = {
           nl: 'Poëzie en literatuur',
           pt: 'Poesia e literatura',
         },
-        year: '13th Century',
+        year: {
+          en: '13th Century',
+          sv: '1200-talet',
+          es: 'Siglo XIII',
+          fr: 'XIIIe siècle',
+          de: '13. Jahrhundert',
+          it: 'XIII secolo',
+          pl: 'XIII wiek',
+          nl: '13e eeuw',
+          pt: 'Século XIII',
+        },
         description: {
           en: 'Rumi, one of history\'s greatest poets, was born in present-day Afghanistan.',
           sv: 'Rumi, en av historiens största poeter, föddes i dagens Afghanistan.',
@@ -525,7 +635,7 @@ export const afghanistan: Country = {
       {
         name: {
           en: 'Panjshir Valley',
-          sv: 'Panjshir Valley',
+          sv: 'Panjshirdalen',
           es: 'Valle de Panjshir',
           fr: 'Vallée du Panjshir',
           de: 'Panjshir-Tal',
@@ -549,7 +659,17 @@ export const afghanistan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Spring (March-May) and autumn (September-November) offer the best weather.',
           sv: 'Våren (mars-maj) och hösten (september-november) erbjuder det bästa vädret.',
@@ -563,7 +683,17 @@ export const afghanistan: Country = {
         },
       },
       {
-        item: 'Security awareness',
+        item: {
+          en: 'Security awareness',
+          sv: 'Säkerhetsläget',
+          es: 'Situación de seguridad',
+          fr: 'Situation sécuritaire',
+          de: 'Sicherheitslage',
+          it: 'Situazione di sicurezza',
+          pl: 'Kwestie bezpieczeństwa',
+          nl: 'Veiligheidssituatie',
+          pt: 'Situação de segurança',
+        },
         description: {
           en: 'Check current travel advisories and hire local guides.',
           sv: 'Kolla aktuella reseråd och anställ lokala guider.',
@@ -577,7 +707,17 @@ export const afghanistan: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Dress conservatively, especially for women; long sleeves and head covering.',
           sv: 'Klä dig konservativt, speciellt för kvinnor; långa ärmar och huvudskydd.',
@@ -591,7 +731,17 @@ export const afghanistan: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Carry Afghan Afghanis as card acceptance is limited.',
           sv: 'Ta med afghanska afghanis eftersom kortacceptansen är begränsad.',
@@ -605,7 +755,17 @@ export const afghanistan: Country = {
         },
       },
       {
-        item: 'Basic Dari/Pashto phrases',
+        item: {
+          en: 'Basic Dari/Pashto phrases',
+          sv: 'Grundläggande fraser på dari/pashto',
+          es: 'Frases básicas en dari/pastún',
+          fr: 'Phrases de base en dari/pachto',
+          de: 'Wichtige Redewendungen auf Dari/Paschtu',
+          it: 'Frasi di base in dari/pashtu',
+          pl: 'Podstawowe zwroty w dari/paszto',
+          nl: 'Basiszinnen in het Dari/Pasjtoe',
+          pt: 'Frases básicas em dari/pashto',
+        },
         description: {
           en: 'Learning greetings shows respect for local culture.',
           sv: 'Inlärningshälsningar visar respekt för den lokala kulturen.',
@@ -619,7 +779,17 @@ export const afghanistan: Country = {
         },
       },
       {
-        item: 'Respectful behavior',
+        item: {
+          en: 'Respectful behavior',
+          sv: 'Respektfullt uppträdande',
+          es: 'Comportamiento respetuoso',
+          fr: 'Comportement respectueux',
+          de: 'Respektvolles Verhalten',
+          it: 'Comportamento rispettoso',
+          pl: 'Kulturalne zachowanie',
+          nl: 'Respectvol gedrag',
+          pt: 'Comportamento respeitoso',
+        },
         description: {
           en: 'Understand and respect local customs and religious practices.',
           sv: 'Förstå och respektera lokala seder och religiösa seder.',
@@ -648,7 +818,7 @@ export const afghanistan: Country = {
       },
       description: {
         en: 'Afghanistan\'s national dish: aromatic rice with tender lamb, carrots, and raisins',
-        sv: 'Afghanistans nationalrätt: aromatiskt ris med mört lamm, morötter och russin',
+        sv: 'Afghanistans nationalrätt: aromatiskt ris med mört lammkött, morötter och russin',
         es: 'Plato nacional de Afganistán: arroz aromático con cordero tierno, zanahorias y pasas',
         fr: 'Le plat national de l\'Afghanistan : riz aromatique avec de l\'agneau tendre, des carottes et des raisins secs',
         de: 'Afghanistans Nationalgericht: aromatischer Reis mit zartem Lammfleisch, Karotten und Rosinen',
@@ -675,7 +845,7 @@ export const afghanistan: Country = {
         {
           name: {
             en: 'Lamb shoulder',
-            sv: 'Lammskuldra',
+            sv: 'Lammbog',
             es: 'Paletilla de cordero',
             fr: 'Épaule d\'agneau',
             de: 'Lammschulter',
@@ -747,7 +917,7 @@ export const afghanistan: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -760,7 +930,7 @@ export const afghanistan: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -825,7 +995,7 @@ export const afghanistan: Country = {
         {
           name: {
             en: 'Slivered almonds',
-            sv: 'Skivad mandel',
+            sv: 'Strimlad mandel',
             es: 'Almendras fileteadas',
             fr: 'Amandes effilées',
             de: 'Mandelblättchen',
@@ -840,7 +1010,7 @@ export const afghanistan: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -856,7 +1026,7 @@ export const afghanistan: Country = {
       steps: [
         {
           en: 'Cut lamb into chunks, season with salt and pepper',
-          sv: 'Skär lamm i bitar, krydda med salt och peppar',
+          sv: 'Skär lammköttet i bitar och krydda med salt och peppar',
           es: 'Cortar el cordero en trozos, sazonar con sal y pimienta',
           fr: 'Couper l\'agneau en morceaux, saler et poivrer',
           de: 'Lammfleisch in Stücke schneiden, mit Salz und Pfeffer würzen',
@@ -867,7 +1037,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Brown lamb in oil with onions until golden',
-          sv: 'Bryn lamm i olja med lök tills det är gyllene',
+          sv: 'Bryn lammet med löken i olja tills det fått fin färg',
           es: 'Dorar el cordero en aceite con la cebolla hasta que esté dorado',
           fr: 'Faire revenir l\'agneau dans l\'huile avec les oignons jusqu\'à ce qu\'ils soient dorés',
           de: 'Lammfleisch mit Zwiebeln in Öl goldbraun anbraten',
@@ -878,7 +1048,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Add spices and enough water to cover, simmer 1 hour until tender',
-          sv: 'Tillsätt kryddor och tillräckligt med vatten för att täcka, låt sjuda i 1 timme tills de är mjuka',
+          sv: 'Tillsätt kryddorna och så mycket vatten att det täcker köttet. Låt sjuda i 1 timme tills köttet är mört.',
           es: 'Agregue las especias y suficiente agua para cubrir, cocine a fuego lento durante 1 hora hasta que estén tiernos',
           fr: 'Ajouter les épices et suffisamment d\'eau pour couvrir, laisser mijoter 1 heure jusqu\'à tendreté',
           de: 'Gewürze und so viel Wasser hinzufügen, dass alles bedeckt ist, 1 Stunde köcheln lassen, bis es weich ist',
@@ -889,7 +1059,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Cut carrots into matchsticks, fry until caramelized',
-          sv: 'Skär morötter i tändstickor, stek tills karamelliserade',
+          sv: 'Skär morötterna i tunna stavar och stek dem tills de är karamelliserade',
           es: 'Cortar las zanahorias en palitos y sofreír hasta que estén caramelizadas',
           fr: 'Couper les carottes en allumettes et les faire revenir jusqu\'à ce qu\'elles soient caramélisées',
           de: 'Karotten in Streifen schneiden, braten, bis sie karamellisiert sind',
@@ -900,7 +1070,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Fry raisins briefly until plump, remove',
-          sv: 'Stek russin kort tills de är fylliga, ta bort',
+          sv: 'Fräs russinen snabbt tills de sväller och ta sedan upp dem',
           es: 'Freír las pasas brevemente hasta que estén regordetas, retirar',
           fr: 'Faire revenir brièvement les raisins secs jusqu\'à ce qu\'ils soient dodus, retirer',
           de: 'Rosinen kurz anbraten, bis sie prall sind, dann herausnehmen',
@@ -911,7 +1081,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Toast almonds until golden',
-          sv: 'Rosta mandlarna tills de är gyllene',
+          sv: 'Rosta mandeln tills den är gyllene',
           es: 'Tostar las almendras hasta que estén doradas',
           fr: 'Faire griller les amandes jusqu\'à ce qu\'elles soient dorées',
           de: 'Mandeln goldbraun rösten',
@@ -922,7 +1092,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Parboil rice in salted water for 5 minutes, drain',
-          sv: 'Koka riset i saltat vatten i 5 minuter, låt rinna av',
+          sv: 'Förkoka riset i saltat vatten i 5 minuter och låt rinna av',
           es: 'Sancochar el arroz en agua con sal durante 5 minutos, escurrir',
           fr: 'Faire bouillir le riz dans de l\'eau salée pendant 5 minutes, égoutter',
           de: 'Reis in Salzwasser 5 Minuten vorkochen, abtropfen lassen',
@@ -933,7 +1103,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Layer rice over meat, drizzle with oil',
-          sv: 'Lägg ris över köttet, ringla över olja',
+          sv: 'Lägg riset i ett lager över köttet och ringla över olja',
           es: 'Coloque capas de arroz sobre la carne y rocíe con aceite',
           fr: 'Étalez le riz sur la viande, arrosez d\'huile',
           de: 'Den Reis über das Fleisch schichten und mit Öl beträufeln',
@@ -944,7 +1114,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Cover tightly and steam on low heat for 30 minutes',
-          sv: 'Täck ordentligt och ånga på låg värme i 30 minuter',
+          sv: 'Lägg på ett tättslutande lock och låt ångkoka på låg värme i 30 minuter',
           es: 'Tapar bien y cocinar al vapor a fuego lento durante 30 minutos',
           fr: 'Couvrir hermétiquement et cuire à la vapeur à feu doux pendant 30 minutes',
           de: 'Dicht abdecken und bei schwacher Hitze 30 Minuten dämpfen',
@@ -955,7 +1125,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Serve rice mounded on platter, top with meat, carrots, raisins, and almonds',
-          sv: 'Servera ris på ett fat, toppa med kött, morötter, russin och mandel',
+          sv: 'Lägg upp riset i en hög på ett fat och toppa med kött, morötter, russin och mandel',
           es: 'Sirva el arroz montado en un plato, cubra con carne, zanahorias, pasas y almendras',
           fr: 'Servir le riz en monticule sur une assiette, garnir de viande, de carottes, de raisins secs et d\'amandes',
           de: 'Den Reis auf einer Platte anrichten und mit Fleisch, Karotten, Rosinen und Mandeln belegen',
@@ -982,7 +1152,7 @@ export const afghanistan: Country = {
       },
       description: {
         en: 'Creamy milk pudding flavored with cardamom and rose water, topped with pistachios',
-        sv: 'Krämig mjölkpudding smaksatt med kardemumma och rosenvatten, toppad med pistagenötter',
+        sv: 'Krämig mjölkpudding smaksatt med kardemumma och rosenvatten, toppad med pistaschnötter',
         es: 'Budín de leche cremoso aromatizado con cardamomo y agua de rosas, cubierto con pistachos',
         fr: 'Pouding au lait crémeux parfumé à la cardamome et à l\'eau de rose, garni de pistaches',
         de: 'Cremiger Milchpudding mit Kardamom und Rosenwasser, garniert mit Pistazien',
@@ -1009,7 +1179,7 @@ export const afghanistan: Country = {
         {
           name: {
             en: 'Whole milk',
-            sv: 'Helmjölk',
+            sv: 'Standardmjölk',
             es: 'Leche entera',
             fr: 'Lait entier',
             de: 'Vollmilch',
@@ -1054,7 +1224,7 @@ export const afghanistan: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Cardamome en poudre',
             de: 'Kardamompulver',
@@ -1094,7 +1264,7 @@ export const afghanistan: Country = {
         {
           name: {
             en: 'Pistachios, chopped',
-            sv: 'Pistagenötter, hackade',
+            sv: 'Pistaschnötter, hackade',
             es: 'Pistachos picados',
             fr: 'Pistaches hachées',
             de: 'Pistazien, gehackt',
@@ -1109,7 +1279,7 @@ export const afghanistan: Country = {
         {
           name: {
             en: 'Almonds, slivered',
-            sv: 'Mandel, skivad',
+            sv: 'Mandelstift',
             es: 'Almendras fileteadas',
             fr: 'Amandes effilées',
             de: 'Mandeln, gesplittert',
@@ -1125,7 +1295,7 @@ export const afghanistan: Country = {
       steps: [
         {
           en: 'Mix cornstarch with 200ml cold milk until smooth',
-          sv: 'Blanda majsstärkelse med 200 ml kall mjölk tills den är slät',
+          sv: 'Rör ut majsstärkelsen i 200 ml kall mjölk till en slät smet',
           es: 'Mezclar la maicena con 200ml de leche fría hasta que quede suave',
           fr: 'Mélanger la fécule de maïs avec 200 ml de lait froid jusqu\'à obtenir un mélange lisse',
           de: 'Maisstärke mit 200 ml kalter Milch glatt rühren',
@@ -1136,7 +1306,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Heat remaining milk with sugar until warm',
-          sv: 'Värm återstående mjölk med socker tills den är varm',
+          sv: 'Värm resten av mjölken med sockret tills den är varm',
           es: 'Calienta la leche restante con el azúcar hasta que esté tibia',
           fr: 'Faire chauffer le reste du lait avec le sucre jusqu\'à ce qu\'il soit chaud',
           de: 'Restliche Milch mit Zucker erhitzen, bis sie warm ist',
@@ -1158,7 +1328,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Continue cooking and stirring until mixture thickens',
-          sv: 'Fortsätt koka och rör om tills blandningen tjocknar',
+          sv: 'Låt koka under omrörning tills blandningen tjocknar',
           es: 'Continúe cocinando y revolviendo hasta que la mezcla espese',
           fr: 'Poursuivre la cuisson en remuant jusqu\'à ce que le mélange épaississe',
           de: 'Weiter kochen und umrühren, bis die Mischung eindickt',
@@ -1169,7 +1339,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Add cardamom powder and rose water',
-          sv: 'Tillsätt kardemummapulver och rosenvatten',
+          sv: 'Tillsätt malen kardemumma och rosenvatten',
           es: 'Agrega cardamomo en polvo y agua de rosas',
           fr: 'Ajouter la cardamome en poudre et l\'eau de rose',
           de: 'Kardamompulver und Rosenwasser hinzufügen',
@@ -1180,7 +1350,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Cook for another 5 minutes, stirring constantly',
-          sv: 'Koka i ytterligare 5 minuter, rör hela tiden',
+          sv: 'Låt koka i ytterligare 5 minuter under ständig omrörning',
           es: 'Cocine por otros 5 minutos, revolviendo constantemente',
           fr: 'Cuire encore 5 minutes en remuant constamment',
           de: 'Weitere 5 Minuten unter ständigem Rühren kochen',
@@ -1191,7 +1361,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Pour into individual serving dishes',
-          sv: 'Häll upp i individuella serveringsfat',
+          sv: 'Häll upp i portionsskålar',
           es: 'Vierta en platos para servir individuales',
           fr: 'Verser dans des coupes individuelles',
           de: 'In einzelne Servierschalen füllen',
@@ -1224,7 +1394,7 @@ export const afghanistan: Country = {
         },
         {
           en: 'Before serving, garnish with chopped pistachios and almonds',
-          sv: 'Innan servering, garnera med hackade pistagenötter och mandel',
+          sv: 'Garnera med hackade pistaschnötter och mandel före servering',
           es: 'Antes de servir, decora con pistachos y almendras picadas',
           fr: 'Avant de servir, garnir de pistaches et d\'amandes hachées',
           de: 'Vor dem Servieren mit gehackten Pistazien und Mandeln garnieren',
@@ -1503,7 +1673,7 @@ export const afghanistan: Country = {
           },
           {
             en: 'Amber Road',
-            sv: 'Amber Road',
+            sv: 'Bärnstensvägen',
             es: 'Camino ámbar',
             fr: 'Route de l\'Ambre',
             de: 'Bernsteinstraße',
@@ -1614,7 +1784,7 @@ export const afghanistan: Country = {
           },
           {
             en: 'Afghan Afghani (AFN)',
-            sv: 'Afghan Afghani (AFN)',
+            sv: 'Afghani (AFN)',
             es: 'Afgano afgano (AFN)',
             fr: 'Afghan afghan (AFN)',
             de: 'Afghan Afghani (AFN)',
@@ -1880,7 +2050,7 @@ export const afghanistan: Country = {
           },
           {
             en: 'Panjshir Valley',
-            sv: 'Panjshir Valley',
+            sv: 'Panjshirdalen',
             es: 'Valle de Panjshir',
             fr: 'Vallée du Panjshir',
             de: 'Panjshir-Tal',

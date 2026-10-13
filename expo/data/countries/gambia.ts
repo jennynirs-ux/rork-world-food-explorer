@@ -220,7 +220,17 @@ export const gambia: Country = {
     history: [
       {
         year: '1783',
-        title: 'British Colony',
+        title: {
+          en: 'British Colony',
+          sv: 'Brittisk koloni',
+          es: 'Colonia británica',
+          fr: 'Colonie britannique',
+          de: 'Britische Kolonie',
+          it: 'Colonia britannica',
+          pl: 'Kolonia brytyjska',
+          nl: 'Britse kolonie',
+          pt: 'Colônia britânica',
+        },
         description: {
           en: 'The Gambia became a British colony, centered around the river trade route.',
           sv: 'Gambia blev en brittisk koloni, centrerad kring flodens handelsväg.',
@@ -235,7 +245,17 @@ export const gambia: Country = {
       },
       {
         year: '1965',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'The Gambia gained independence from Britain, becoming a constitutional monarchy.',
           sv: 'Gambia blev självständigt från Storbritannien och blev en konstitutionell monarki.',
@@ -250,7 +270,17 @@ export const gambia: Country = {
       },
       {
         year: '1970',
-        title: 'Republic',
+        title: {
+          en: 'Republic',
+          sv: 'Republik',
+          es: 'República',
+          fr: 'République',
+          de: 'Republik',
+          it: 'Repubblica',
+          pl: 'Republika',
+          nl: 'Republiek',
+          pt: 'República',
+        },
         description: {
           en: 'The Gambia became a republic within the Commonwealth.',
           sv: 'Gambia blev en republik inom samväldet.',
@@ -340,7 +370,7 @@ export const gambia: Country = {
       {
         name: {
           en: 'Banjul Market',
-          sv: 'Banjul Market',
+          sv: 'Banjuls marknad',
           es: 'Mercado de Banjul',
           fr: 'Marché de Banjul',
           de: 'Banjul-Markt',
@@ -388,7 +418,17 @@ export const gambia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-May for dry season and best birdwatching.',
           sv: 'November-maj för torrperiod och bästa fågelskådning.',
@@ -402,7 +442,17 @@ export const gambia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Available on arrival for most nationalities or apply in advance.',
           sv: 'Tillgängligt vid ankomst för de flesta nationaliteter eller ansök i förväg.',
@@ -416,7 +466,17 @@ export const gambia: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Recommended, proof may be required.',
           sv: 'Rekommenderas, bevis kan krävas.',
@@ -430,7 +490,17 @@ export const gambia: Country = {
         },
       },
       {
-        item: 'Insect repellent',
+        item: {
+          en: 'Insect repellent',
+          sv: 'Myggmedel',
+          es: 'Repelente de insectos',
+          fr: 'Répulsif anti-insectes',
+          de: 'Insektenschutzmittel',
+          it: 'Repellente per insetti',
+          pl: 'Repelent na owady',
+          nl: 'Muggenmiddel',
+          pt: 'Repelente de insetos',
+        },
         description: {
           en: 'Malaria prevention important in rainy season.',
           sv: 'Malariaförebyggande viktigt under regnperioden.',
@@ -459,7 +529,7 @@ export const gambia: Country = {
       },
       description: {
         en: 'Peanut butter stew with meat and vegetables',
-        sv: 'Jordnötssmörsgryta med kött och grönsaker',
+        sv: 'Jordnötsgryta med kött och grönsaker',
         es: 'Guiso de mantequilla de maní con carne y verduras',
         fr: 'Ragoût de beurre de cacahuète avec viande et légumes',
         de: 'Erdnussbuttereintopf mit Fleisch und Gemüse',
@@ -528,7 +598,7 @@ export const gambia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -553,7 +623,7 @@ export const gambia: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -578,7 +648,7 @@ export const gambia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -607,7 +677,7 @@ export const gambia: Country = {
       steps: [
         {
           en: 'Brown meat with onions',
-          sv: 'Bryn kött med lök',
+          sv: 'Bryn köttet med löken',
           es: 'Dorar la carne con cebolla',
           fr: 'Faire dorer la viande aux oignons',
           de: 'Braunes Fleisch mit Zwiebeln',
@@ -640,7 +710,7 @@ export const gambia: Country = {
         },
         {
           en: 'Add sweet potatoes and cabbage',
-          sv: 'Lägg till sötpotatis och kål',
+          sv: 'Tillsätt sötpotatis och kål',
           es: 'Agrega las batatas y el repollo',
           fr: 'Ajouter les patates douces et le chou',
           de: 'Süßkartoffeln und Kohl hinzufügen',
@@ -651,7 +721,7 @@ export const gambia: Country = {
         },
         {
           en: 'Simmer until meat is tender',
-          sv: 'Sjud tills köttet är mört',
+          sv: 'Låt sjuda tills köttet är mört',
           es: 'Cocine a fuego lento hasta que la carne esté tierna',
           fr: 'Laisser mijoter jusqu\'à ce que la viande soit tendre',
           de: 'Köcheln lassen, bis das Fleisch zart ist',
@@ -662,7 +732,7 @@ export const gambia: Country = {
         },
         {
           en: 'Serve over rice',
-          sv: 'Servera över ris',
+          sv: 'Servera med ris',
           es: 'Servir sobre arroz',
           fr: 'Servir sur du riz',
           de: 'Über Reis servieren',
@@ -731,7 +801,7 @@ export const gambia: Country = {
         {
           name: {
             en: 'Plain yogurt',
-            sv: 'Vanlig yoghurt',
+            sv: 'Naturell yoghurt',
             es: 'Yogur natural',
             fr: 'Yaourt nature',
             de: 'Naturjoghurt',
@@ -822,7 +892,7 @@ export const gambia: Country = {
       steps: [
         {
           en: 'Cook couscous according to package directions, let cool',
-          sv: 'Koka couscous enligt anvisningarna på förpackningen, låt svalna',
+          sv: 'Tillaga couscousen enligt anvisningarna på förpackningen och låt den svalna',
           es: 'Cocine el cuscús según las instrucciones del paquete, déjelo enfriar',
           fr: 'Cuire le couscous selon les instructions sur l\'emballage, laisser refroidir',
           de: 'Couscous nach Packungsanleitung kochen, abkühlen lassen',
@@ -833,7 +903,7 @@ export const gambia: Country = {
         },
         {
           en: 'Mix yogurt with condensed milk and vanilla',
-          sv: 'Blanda yoghurt med kondenserad mjölk och vanilj',
+          sv: 'Blanda yoghurten med sötad kondenserad mjölk och vanilj',
           es: 'Mezclar yogur con leche condensada y vainilla',
           fr: 'Mélanger le yaourt avec le lait concentré et la vanille',
           de: 'Joghurt mit Kondensmilch und Vanille verrühren',
@@ -844,7 +914,7 @@ export const gambia: Country = {
         },
         {
           en: 'Add cooled couscous to yogurt mixture',
-          sv: 'Tillsätt kyld couscous till yoghurtblandningen',
+          sv: 'Rör ner den avsvalnade couscousen i yoghurtblandningen',
           es: 'Agregue cuscús enfriado a la mezcla de yogur',
           fr: 'Ajouter le couscous refroidi au mélange de yaourt',
           de: 'Gekühlten Couscous zur Joghurtmischung hinzufügen',
@@ -953,7 +1023,17 @@ export const gambia: Country = {
           nl: 'Kora-muziektraditie',
           pt: 'Tradição musical da kora',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'The kora, a 21-string bridge-harp, is central to West African griot tradition',
           sv: 'Koran, en 21-strängad broharpa, är central för den västafrikanska griottraditionen',
@@ -978,7 +1058,17 @@ export const gambia: Country = {
           nl: 'Riviernavigatie',
           pt: 'Navegação fluvial',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Developed sophisticated boat and navigation techniques on the Gambia River',
           sv: 'Utvecklade sofistikerade båt- och navigeringstekniker på Gambiafloden',
@@ -1003,7 +1093,17 @@ export const gambia: Country = {
           nl: 'Ontwikkeling van ecotoerisme',
           pt: 'Desenvolvimento do ecoturismo',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Created sustainable birdwatching tourism supporting over 500 species',
           sv: 'Skapat hållbar fågelskådningsturism som stödjer över 500 arter',

@@ -263,8 +263,28 @@ export const comoros: Country = {
     },
     history: [
       {
-        year: '9th century',
-        title: 'Arab Settlement',
+        year: {
+          en: '9th century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
+        title: {
+          en: 'Arab Settlement',
+          sv: 'Arabisk bosättning',
+          es: 'Asentamiento árabe',
+          fr: 'Implantation arabe',
+          de: 'Arabische Besiedlung',
+          it: 'Insediamento arabo',
+          pl: 'Osadnictwo arabskie',
+          nl: 'Arabische vestiging',
+          pt: 'Povoamento árabe',
+        },
         description: {
           en: 'Arab traders and Shirazi Persians settled the islands, bringing Islam and establishing trade networks.',
           sv: 'Arabiska handlare och Shirazi-perser bosatte öarna, förde islam och etablerade handelsnätverk.',
@@ -279,7 +299,17 @@ export const comoros: Country = {
       },
       {
         year: '1841',
-        title: 'French Protectorate',
+        title: {
+          en: 'French Protectorate',
+          sv: 'Franskt protektorat',
+          es: 'Protectorado francés',
+          fr: 'Protectorat français',
+          de: 'Französisches Protektorat',
+          it: 'Protettorato francese',
+          pl: 'Protektorat francuski',
+          nl: 'Frans protectoraat',
+          pt: 'Protetorado francês',
+        },
         description: {
           en: 'France began establishing control over the islands, eventually making them a colony.',
           sv: 'Frankrike började etablera kontroll över öarna, vilket så småningom gjorde dem till en koloni.',
@@ -294,7 +324,17 @@ export const comoros: Country = {
       },
       {
         year: '1975',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Comoros declared independence from France, though Mayotte chose to remain French territory.',
           sv: 'Komorerna förklarade sig självständiga från Frankrike, även om Mayotte valde att förbli franskt territorium.',
@@ -308,8 +348,28 @@ export const comoros: Country = {
         },
       },
       {
-        year: '1975-present',
-        title: 'Political Instability',
+        year: {
+          en: '1975-present',
+          sv: '1975–idag',
+          es: '1975–actualidad',
+          fr: '1975–aujourd\'hui',
+          de: '1975–heute',
+          it: '1975–oggi',
+          pl: '1975–obecnie',
+          nl: '1975–heden',
+          pt: '1975–presente',
+        },
+        title: {
+          en: 'Political Instability',
+          sv: 'Politisk instabilitet',
+          es: 'Inestabilidad política',
+          fr: 'Instabilité politique',
+          de: 'Politische Instabilität',
+          it: 'Instabilità politica',
+          pl: 'Niestabilność polityczna',
+          nl: 'Politieke instabiliteit',
+          pt: 'Instabilidade política',
+        },
         description: {
           en: 'The country has experienced numerous coups and political upheavals, becoming one of the world\'s most politically unstable nations.',
           sv: 'Landet har upplevt många kupper och politiska omvälvningar och har blivit en av världens mest politiskt instabila nationer.',
@@ -336,7 +396,17 @@ export const comoros: Country = {
           nl: 'Ylang-ylangdistillatie',
           pt: 'Destilação de ylang-ylang',
         },
-        year: '19th century',
+        year: {
+          en: '19th century',
+          sv: '1800-talet',
+          es: 'Siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'Século XIX',
+        },
         description: {
           en: 'Perfected traditional ylang-ylang oil extraction methods that produce some of the world\'s finest essential oils used in luxury perfumes.',
           sv: 'Perfektionerade traditionella metoder för ylang-ylang-olja som producerar några av världens finaste eteriska oljor som används i lyxiga parfymer.',
@@ -361,7 +431,17 @@ export const comoros: Country = {
           nl: 'Vanilleteelt',
           pt: 'Cultivo de baunilha',
         },
-        year: '20th century',
+        year: {
+          en: '20th century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Developed unique vanilla growing techniques in volcanic soil, creating distinctive flavor profiles sought by gourmet chefs.',
           sv: 'Utvecklade unika vaniljodlingstekniker i vulkanisk jord och skapade distinkta smakprofiler eftersökta av gourmetkockar.',
@@ -386,7 +466,17 @@ export const comoros: Country = {
           nl: 'Coelacanth-onderzoek',
           pt: 'Investigação sobre o celacanto',
         },
-        year: '1938-present',
+        year: {
+          en: '1938-present',
+          sv: '1938–idag',
+          es: '1938–actualidad',
+          fr: '1938–aujourd\'hui',
+          de: '1938–heute',
+          it: '1938–oggi',
+          pl: '1938–obecnie',
+          nl: '1938–heden',
+          pt: '1938–presente',
+        },
         description: {
           en: 'After rediscovery of the "living fossil" fish, contributed to marine biology research on this species thought extinct for 65 million years.',
           sv: 'Efter återupptäckt av den "levande fossila" fisken, bidrog till marinbiologisk forskning om denna art som troddes utrotad i 65 miljoner år.',
@@ -411,7 +501,17 @@ export const comoros: Country = {
           nl: 'Swahili-Arabische architectuur',
           pt: 'Arquitetura suaíli-árabe',
         },
-        year: 'Medieval-present',
+        year: {
+          en: 'Medieval-present',
+          sv: 'Medeltid–idag',
+          es: 'Edad Media–actualidad',
+          fr: 'Moyen Âge–aujourd\'hui',
+          de: 'Mittelalter–heute',
+          it: 'Medioevo–oggi',
+          pl: 'Średniowiecze–obecnie',
+          nl: 'Middeleeuwen–heden',
+          pt: 'Idade Média–presente',
+        },
         description: {
           en: 'Created unique architectural style blending Arab, Swahili, and local traditions visible in historic stone towns and mosques.',
           sv: 'Skapat unik arkitektonisk stil som blandar arabiska, swahili och lokala traditioner som är synliga i historiska stenstäder och moskéer.',
@@ -453,7 +553,7 @@ export const comoros: Country = {
       {
         name: {
           en: 'Moroni Medina',
-          sv: 'Moroni Medina',
+          sv: 'Medinan i Moroni',
           es: 'Moroni Medina',
           fr: 'Médina de Moroni',
           de: 'Moroni Medina',
@@ -477,7 +577,7 @@ export const comoros: Country = {
       {
         name: {
           en: 'Mohéli Marine Park',
-          sv: 'Mohéli Marine Park',
+          sv: 'Mohéli marinpark',
           es: 'Parque Marino Mohéli',
           fr: 'Parc Marin de Mohéli',
           de: 'Mohéli Marine Park',
@@ -501,7 +601,7 @@ export const comoros: Country = {
       {
         name: {
           en: 'Mitsamiouli Beach',
-          sv: 'Mitsamiouli Beach',
+          sv: 'Mitsamioulistranden',
           es: 'Playa Mitsamiouli',
           fr: 'Plage de Mitsamiouli',
           de: 'Mitsamiouli-Strand',
@@ -549,7 +649,17 @@ export const comoros: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors can obtain visa on arrival. Check current requirements before travel.',
           sv: 'De flesta besökare kan få visum vid ankomst. Kontrollera aktuella krav innan resa.',
@@ -563,7 +673,17 @@ export const comoros: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to October for dry season. Avoid January-April cyclone season.',
           sv: 'Maj till oktober för torrperioden. Undvik cyklonsäsongen januari-april.',
@@ -577,7 +697,17 @@ export const comoros: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Inter-island flights, boats between islands, taxis on main islands.',
           sv: 'Flyg mellan öarna, båtar mellan öar, taxi på huvudöarna.',
@@ -591,7 +721,17 @@ export const comoros: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Comorian, Arabic, and French are official. French most useful for visitors.',
           sv: 'Komoriska, arabiska och franska är officiella. Franska mest användbar för besökare.',
@@ -605,7 +745,17 @@ export const comoros: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe but check political situation. Basic infrastructure. Travel insurance essential.',
           sv: 'Generellt säker men kolla politisk situation. Grundläggande infrastruktur. Reseförsäkring viktigt.',
@@ -634,7 +784,7 @@ export const comoros: Country = {
       },
       description: {
         en: 'Lobster in vanilla sauce, a Comorian specialty',
-        sv: 'Hummer i vaniljsås, en specialitet från Komorerna',
+        sv: 'Hummer i en sås smaksatt med vanilj – en specialitet från Komorerna',
         es: 'Langosta en salsa de vainilla, especialidad de las Comoras',
         fr: 'Homard sauce vanille, spécialité comorienne',
         de: 'Hummer in Vanillesauce, eine komorische Spezialität',
@@ -686,7 +836,7 @@ export const comoros: Country = {
         {
           name: {
             en: 'Vanilla beans',
-            sv: 'Vaniljbönor',
+            sv: 'Vaniljstänger',
             es: 'Vainas de vainilla',
             fr: 'Gousses de vanille',
             de: 'Vanilleschoten',
@@ -698,7 +848,7 @@ export const comoros: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -782,7 +932,7 @@ export const comoros: Country = {
       steps: [
         {
           en: 'Split vanilla beans and scrape out seeds',
-          sv: 'Dela vaniljbönor och skrapa ur frön',
+          sv: 'Dela vaniljstängerna på längden och skrapa ur fröna',
           es: 'Partir las vainas de vainilla y raspar las semillas',
           fr: 'Fendre les gousses de vanille et gratter les graines',
           de: 'Vanilleschoten aufteilen und das Mark herauskratzen',
@@ -793,7 +943,7 @@ export const comoros: Country = {
         },
         {
           en: 'Sauté lobster in butter with garlic',
-          sv: 'Fräs hummer i smör med vitlök',
+          sv: 'Fräs hummern i smör med vitlök',
           es: 'Saltear bogavante en mantequilla con ajo',
           fr: 'Faire sauter le homard au beurre à l\'ail',
           de: 'Hummer in Butter mit Knoblauch anbraten',
@@ -826,7 +976,7 @@ export const comoros: Country = {
         },
         {
           en: 'Simmer until lobster is cooked',
-          sv: 'Sjud tills hummer är kokt',
+          sv: 'Låt sjuda tills hummern är genomkokt',
           es: 'Cocine a fuego lento hasta que la langosta esté cocida',
           fr: 'Laisser mijoter jusqu\'à ce que le homard soit cuit',
           de: 'Köcheln lassen, bis der Hummer gar ist',
@@ -891,7 +1041,7 @@ export const comoros: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -921,7 +1071,7 @@ export const comoros: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -966,7 +1116,7 @@ export const comoros: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -996,7 +1146,7 @@ export const comoros: Country = {
         {
           name: {
             en: 'Butter melted',
-            sv: 'Smör smält',
+            sv: 'Smör, smält',
             es: 'Mantequilla derretida',
             fr: 'Beurre fondu',
             de: 'Butter geschmolzen',
@@ -1023,7 +1173,7 @@ export const comoros: Country = {
         },
         {
           en: 'Mix flour, sugar, cardamom, and salt in bowl',
-          sv: 'Blanda mjöl, socker, kardemumma och salt i en skål',
+          sv: 'Blanda vetemjöl, socker, kardemumma och salt i en skål',
           es: 'Mezcle la harina, el azúcar, el cardamomo y la sal en un tazón',
           fr: 'Mélanger la farine, le sucre, la cardamome et le sel dans un bol',
           de: 'Mehl, Zucker, Kardamom und Salz in einer Schüssel vermischen',
@@ -1056,7 +1206,7 @@ export const comoros: Country = {
         },
         {
           en: 'Cover and let rise for 1 hour until doubled',
-          sv: 'Täck och låt jäsa i 1 timme tills det fördubblats',
+          sv: 'Täck över och låt degen jäsa i 1 timme, tills den har dubblats i storlek',
           es: 'Tapar y dejar reposar durante 1 hora hasta que doble',
           fr: 'Couvrir et laisser lever 1 heure jusqu\'à ce qu\'il double',
           de: 'Abdecken und 1 Stunde gehen lassen, bis sich der Teig verdoppelt hat',
@@ -1089,7 +1239,7 @@ export const comoros: Country = {
         },
         {
           en: 'Bake at 180°C for 30-35 minutes until golden',
-          sv: 'Grädda i 180°C i 30-35 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 30–35 minuter, tills brödet är gyllene',
           es: 'Hornear a 180°C durante 30-35 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 30-35 minutes jusqu\'à ce qu\'ils soient dorés',
           de: 'Bei 180°C 30–35 Minuten goldbraun backen',
@@ -1100,7 +1250,7 @@ export const comoros: Country = {
         },
         {
           en: 'Cool slightly before slicing',
-          sv: 'Kyl något innan du skär',
+          sv: 'Låt svalna något innan du skär upp brödet',
           es: 'Deje enfriar un poco antes de cortar',
           fr: 'Laisser refroidir légèrement avant de trancher',
           de: 'Vor dem Schneiden etwas abkühlen',
@@ -1263,7 +1413,7 @@ export const comoros: Country = {
           },
           {
             en: 'Pearl Islands',
-            sv: 'Pearl Islands',
+            sv: 'Pärlöarna',
             es: 'Islas de las Perlas',
             fr: 'Îles des Perles',
             de: 'Perleninseln',

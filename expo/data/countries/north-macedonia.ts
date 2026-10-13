@@ -219,8 +219,28 @@ export const northMacedonia: Country = {
     },
     history: [
       {
-        year: 'Ancient',
-        title: 'Kingdom of Macedon',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
+        title: {
+          en: 'Kingdom of Macedon',
+          sv: 'Kungariket Makedonien',
+          es: 'Reino de Macedonia',
+          fr: 'Royaume de Macédoine',
+          de: 'Königreich Makedonien',
+          it: 'Regno di Macedonia',
+          pl: 'Królestwo Macedonii',
+          nl: 'Koninkrijk Macedonië',
+          pt: 'Reino da Macedônia',
+        },
         description: {
           en: 'Ancient kingdom of Alexander the Great flourished in this region.',
           sv: 'Alexander den stores antika kungarike blomstrade i denna region.',
@@ -235,7 +255,17 @@ export const northMacedonia: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Gained independence from Yugoslavia peacefully.',
           sv: 'Fick fredligt oberoende från Jugoslavien.',
@@ -250,7 +280,17 @@ export const northMacedonia: Country = {
       },
       {
         year: '2019',
-        title: 'Name Change',
+        title: {
+          en: 'Name Change',
+          sv: 'Namnbyte',
+          es: 'Cambio de nombre',
+          fr: 'Changement de nom',
+          de: 'Namensänderung',
+          it: 'Cambio di nome',
+          pl: 'Zmiana nazwy',
+          nl: 'Naamswijziging',
+          pt: 'Mudança de nome',
+        },
         description: {
           en: 'Changed official name from Macedonia to North Macedonia.',
           sv: 'Ändrade officiellt namn från Makedonien till Nordmakedonien.',
@@ -277,7 +317,17 @@ export const northMacedonia: Country = {
           nl: 'Ontwikkeling van het cyrillisch alfabet',
           pt: 'Desenvolvimento do alfabeto cirílico',
         },
-        year: '9th Century',
+        year: {
+          en: '9th Century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
         description: {
           en: 'Saints Cyril and Methodius from region created Cyrillic script.',
           sv: 'Heliga Cyril och Methodius från regionen skapade kyrilliska skrift.',
@@ -302,7 +352,17 @@ export const northMacedonia: Country = {
           nl: 'Ecosysteem van het Ohridmeer',
           pt: 'Ecossistema do Lago Ohrid',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Unique endemic species in one of Europe\'s oldest lakes.',
           sv: 'Unika endemiska arter i en av Europas äldsta sjöar.',
@@ -344,7 +404,7 @@ export const northMacedonia: Country = {
       {
         name: {
           en: 'Skopje Old Bazaar',
-          sv: 'Skopje Old Bazaar',
+          sv: 'Gamla basaren i Skopje',
           es: 'Antiguo Bazar de Skopje',
           fr: 'Vieux bazar de Skopje',
           de: 'Alter Basar von Skopje',
@@ -392,7 +452,7 @@ export const northMacedonia: Country = {
       {
         name: {
           en: 'Matka Canyon',
-          sv: 'Matka Canyon',
+          sv: 'Matkakanjonen',
           es: 'Cañón de Matka',
           fr: 'Canyon Matka',
           de: 'Matka-Schlucht',
@@ -440,7 +500,17 @@ export const northMacedonia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for warm weather and lake activities.',
           sv: 'Maj-september för varmt väder och sjöaktiviteter.',
@@ -454,7 +524,17 @@ export const northMacedonia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for many nationalities for 90 days.',
           sv: 'Visumfritt för många nationaliteter i 90 dagar.',
@@ -492,7 +572,17 @@ export const northMacedonia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Macedonian; English in tourist areas.',
           sv: 'makedonska; engelska i turistområden.',
@@ -521,7 +611,7 @@ export const northMacedonia: Country = {
       },
       description: {
         en: 'Fried dough soaked in syrup, popular Balkan sweet',
-        sv: 'Stekt deg indränkt i sirap, populär balkansöt',
+        sv: 'Friterad deg indränkt i sockerlag – en populär sötsak på Balkan',
         es: 'Masa frita empapada en almíbar, dulce popular de los Balcanes',
         fr: 'Pâte frite imbibée de sirop, sucrerie populaire des Balkans',
         de: 'In Sirup getränkter frittierter Teig, beliebte Balkansüßigkeit',
@@ -548,7 +638,7 @@ export const northMacedonia: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -605,7 +695,7 @@ export const northMacedonia: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -658,7 +748,7 @@ export const northMacedonia: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -685,7 +775,7 @@ export const northMacedonia: Country = {
         },
         {
           en: 'Add flour all at once, stir vigorously',
-          sv: 'Tillsätt mjöl på en gång, rör om kraftigt',
+          sv: 'Tillsätt allt vetemjöl på en gång och rör kraftigt',
           es: 'Agregue la harina de una vez, revuelva vigorosamente',
           fr: 'Ajouter la farine d\'un seul coup, remuer vigoureusement',
           de: 'Mehl auf einmal hinzufügen, kräftig umrühren',
@@ -696,7 +786,7 @@ export const northMacedonia: Country = {
         },
         {
           en: 'Cool slightly, beat in eggs one at a time',
-          sv: 'Kyl något, vispa i äggen ett i taget',
+          sv: 'Låt svalna något och vispa sedan i äggen ett i taget',
           es: 'Deje enfriar un poco, agregue los huevos uno a la vez',
           fr: 'Laisser refroidir légèrement, incorporer les œufs un à un',
           de: 'Etwas abkühlen lassen, Eier einzeln unterrühren',
@@ -707,7 +797,7 @@ export const northMacedonia: Country = {
         },
         {
           en: 'Pipe dough into hot oil in ridged shapes',
-          sv: 'Sprid degen i het olja i räfflade former',
+          sv: 'Spritsa ner räfflade degstavar i den heta oljan med en stjärntyll',
           es: 'Coloque la masa en aceite caliente en formas estriadas',
           fr: 'Verser la pâte dans l\'huile chaude en formes striées',
           de: 'Den Teig in geriffelten Formen in heißes Öl spritzen',
@@ -718,7 +808,7 @@ export const northMacedonia: Country = {
         },
         {
           en: 'Fry until golden',
-          sv: 'Stek tills de är gyllene',
+          sv: 'Fritera tills de är gyllene',
           es: 'Freír hasta que estén dorados',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés',
           de: 'Goldbraun braten',
@@ -729,7 +819,7 @@ export const northMacedonia: Country = {
         },
         {
           en: 'Make syrup with sugar, water, lemon juice',
-          sv: 'Gör sirap med socker, vatten, citronsaft',
+          sv: 'Koka en sockerlag på socker, vatten och citronsaft',
           es: 'Hacer almíbar con azúcar, agua, jugo de limón',
           fr: 'Faire un sirop avec du sucre, de l\'eau, du jus de citron',
           de: 'Machen Sie Sirup aus Zucker, Wasser und Zitronensaft',
@@ -740,7 +830,7 @@ export const northMacedonia: Country = {
         },
         {
           en: 'Soak fried dough in warm syrup',
-          sv: 'Blötlägg stekt deg i varm sirap',
+          sv: 'Lägg de friterade bitarna i den varma sockerlagen och låt dem dra',
           es: 'Remojar la masa frita en almíbar tibio',
           fr: 'Faire tremper la pâte frite dans du sirop tiède',
           de: 'Gebratenen Teig in warmem Sirup einweichen',
@@ -778,7 +868,7 @@ export const northMacedonia: Country = {
       },
       description: {
         en: 'Baked beans in earthenware pot',
-        sv: 'Bakade bönor i lergodskruka',
+        sv: 'Ugnsbakade bönor i lergryta',
         es: 'Frijoles cocidos en cazuela de barro',
         fr: 'Fèves au lard dans un pot en terre cuite',
         de: 'Gebackene Bohnen im Tontopf',
@@ -832,7 +922,7 @@ export const northMacedonia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -857,7 +947,7 @@ export const northMacedonia: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -882,7 +972,7 @@ export const northMacedonia: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -910,7 +1000,7 @@ export const northMacedonia: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -926,7 +1016,7 @@ export const northMacedonia: Country = {
       steps: [
         {
           en: 'Soak beans overnight',
-          sv: 'Blötlägg bönor över natten',
+          sv: 'Blötlägg bönorna över natten',
           es: 'Remojar los frijoles durante la noche',
           fr: 'Faire tremper les haricots pendant la nuit',
           de: 'Bohnen über Nacht einweichen',
@@ -959,7 +1049,7 @@ export const northMacedonia: Country = {
         },
         {
           en: 'Add tomatoes and paprika',
-          sv: 'Tillsätt tomater och paprika',
+          sv: 'Tillsätt tomater och paprikapulver',
           es: 'Añade los tomates y el pimentón',
           fr: 'Ajouter les tomates et le paprika',
           de: 'Tomaten und Paprika hinzufügen',
@@ -970,7 +1060,7 @@ export const northMacedonia: Country = {
         },
         {
           en: 'Mix with beans in clay pot',
-          sv: 'Blanda med bönor i lerkruka',
+          sv: 'Blanda med bönorna i en lergryta',
           es: 'Mezclar con frijoles en cazuela de barro',
           fr: 'Mélanger avec des haricots dans un pot en argile',
           de: 'Mit Bohnen im Tontopf mischen',
@@ -981,7 +1071,7 @@ export const northMacedonia: Country = {
         },
         {
           en: 'Bake at 350°F for 30 minutes',
-          sv: 'Grädda i 350°F i 30 minuter',
+          sv: 'Ugnsbaka i 175°C i 30 minuter',
           es: 'Hornee a 350°F durante 30 minutos',
           fr: 'Cuire au four à 350°F pendant 30 minutes',
           de: '30 Minuten bei 350 °F backen',
@@ -1143,7 +1233,7 @@ export const northMacedonia: Country = {
           },
           {
             en: 'Lake Bled',
-            sv: 'Lake Bled',
+            sv: 'Bledsjön',
             es: 'Lago Bled',
             fr: 'Lac de Bled',
             de: 'Bleder See',

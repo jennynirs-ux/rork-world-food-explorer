@@ -77,7 +77,7 @@ export const sierraLeone: Country = {
         },
         value: {
           en: '8.3 million',
-          sv: '8.3 million',
+          sv: '8,3 miljoner',
           es: '8,3 millones',
           fr: '8,3 millions',
           de: '8,3 Millionen',
@@ -149,7 +149,7 @@ export const sierraLeone: Country = {
         },
         value: {
           en: '71,740 km²',
-          sv: '71,740 km²',
+          sv: '71 740 km²',
           es: '71.740 km²',
           fr: '71 740 km²',
           de: '71.740 km²',
@@ -263,8 +263,28 @@ export const sierraLeone: Country = {
     },
     history: [
       {
-        year: '1400s',
-        title: 'Early Trade & European Contact',
+        year: {
+          en: '1400s',
+          sv: '1400-talet',
+          es: 'Siglo XV',
+          fr: 'XVe siècle',
+          de: '15. Jahrhundert',
+          it: 'XV secolo',
+          pl: 'XV wiek',
+          nl: '15e eeuw',
+          pt: 'Século XV',
+        },
+        title: {
+          en: 'Early Trade & European Contact',
+          sv: 'Tidig handel och kontakter med européer',
+          es: 'Primeros intercambios y contacto con los europeos',
+          fr: 'Premiers échanges et contacts avec les Européens',
+          de: 'Früher Handel und Kontakt mit Europäern',
+          it: 'Primi commerci e contatti con gli europei',
+          pl: 'Wczesny handel i kontakty z Europejczykami',
+          nl: 'Vroege handel en contact met Europeanen',
+          pt: 'Primeiras trocas comerciais e contato com os europeus',
+        },
         description: {
           en: 'Portuguese explorers arrived along the coast, beginning trade links between West Africa and Europe.',
           sv: 'Portugisiska upptäcktsresande anlände längs kusten och inledde handelsförbindelser mellan Västafrika och Europa.',
@@ -279,7 +299,17 @@ export const sierraLeone: Country = {
       },
       {
         year: '1787',
-        title: 'Founding of Freetown',
+        title: {
+          en: 'Founding of Freetown',
+          sv: 'Freetowns grundande',
+          es: 'Fundación de Freetown',
+          fr: 'Fondation de Freetown',
+          de: 'Gründung von Freetown',
+          it: 'Fondazione di Freetown',
+          pl: 'Założenie Freetown',
+          nl: 'Stichting van Freetown',
+          pt: 'Fundação de Freetown',
+        },
         description: {
           en: 'Freetown was established as a settlement for freed enslaved Africans returning from Britain and the Americas.',
           sv: 'Freetown etablerades som en bosättning för befriade förslavade afrikaner som återvände från Storbritannien och Amerika.',
@@ -294,7 +324,17 @@ export const sierraLeone: Country = {
       },
       {
         year: '1808',
-        title: 'British Crown Colony',
+        title: {
+          en: 'British Crown Colony',
+          sv: 'Brittisk kronkoloni',
+          es: 'Colonia de la Corona británica',
+          fr: 'Colonie de la Couronne britannique',
+          de: 'Britische Kronkolonie',
+          it: 'Colonia della Corona britannica',
+          pl: 'Brytyjska kolonia koronna',
+          nl: 'Britse kroonkolonie',
+          pt: 'Colônia da Coroa britânica',
+        },
         description: {
           en: 'Sierra Leone became a British colony, playing a key role in anti-slavery naval patrols.',
           sv: 'Sierra Leone blev en brittisk koloni som spelade en nyckelroll i marinpatruller mot slaveri.',
@@ -309,7 +349,17 @@ export const sierraLeone: Country = {
       },
       {
         year: '1961',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Sierra Leone gained independence from Britain and became a sovereign nation.',
           sv: 'Sierra Leone blev självständigt från Storbritannien och blev en suverän nation.',
@@ -324,7 +374,17 @@ export const sierraLeone: Country = {
       },
       {
         year: '1991–2002',
-        title: 'Civil War',
+        title: {
+          en: 'Civil War',
+          sv: 'Inbördeskrig',
+          es: 'Guerra civil',
+          fr: 'Guerre civile',
+          de: 'Bürgerkrieg',
+          it: 'Guerra civile',
+          pl: 'Wojna domowa',
+          nl: 'Burgeroorlog',
+          pt: 'Guerra civil',
+        },
         description: {
           en: 'A devastating civil war deeply affected the country, economy, and population.',
           sv: 'Ett förödande inbördeskrig påverkade landet, ekonomin och befolkningen djupt.',
@@ -338,8 +398,28 @@ export const sierraLeone: Country = {
         },
       },
       {
-        year: '2002–Present',
-        title: 'Rebuilding & Growth',
+        year: {
+          en: '2002–Present',
+          sv: '2002–idag',
+          es: '2002–actualidad',
+          fr: '2002–aujourd\'hui',
+          de: '2002–heute',
+          it: '2002–oggi',
+          pl: '2002–obecnie',
+          nl: '2002–heden',
+          pt: '2002–presente',
+        },
+        title: {
+          en: 'Rebuilding & Growth',
+          sv: 'Återuppbyggnad och tillväxt',
+          es: 'Reconstrucción y crecimiento',
+          fr: 'Reconstruction et croissance',
+          de: 'Wiederaufbau und Wachstum',
+          it: 'Ricostruzione e crescita',
+          pl: 'Odbudowa i rozwój',
+          nl: 'Wederopbouw en groei',
+          pt: 'Reconstrução e crescimento',
+        },
         description: {
           en: 'The country has focused on peacebuilding, democratic elections, and economic recovery.',
           sv: 'Landet har fokuserat på fredsbyggande, demokratiska val och ekonomisk återhämtning.',
@@ -366,7 +446,17 @@ export const sierraLeone: Country = {
           nl: 'Vredesopbouw na het conflict',
           pt: 'Construção da paz pós-conflito',
         },
-        year: '2002–Present',
+        year: {
+          en: '2002–Present',
+          sv: '2002–idag',
+          es: '2002–actualidad',
+          fr: '2002–aujourd\'hui',
+          de: '2002–heute',
+          it: '2002–oggi',
+          pl: '2002–obecnie',
+          nl: '2002–heden',
+          pt: '2002–presente',
+        },
         description: {
           en: 'Sierra Leone became a global example of post-conflict reconciliation and democratic recovery.',
           sv: 'Sierra Leone blev ett globalt exempel på försoning efter en konflikt och demokratisk återhämtning.',
@@ -391,7 +481,17 @@ export const sierraLeone: Country = {
           nl: 'Gemeenschappelijke rijstteelt',
           pt: 'Cultivo comunitário de arroz',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Local farming techniques sustain rice production and food security across rural regions.',
           sv: 'Lokala jordbrukstekniker upprätthåller risproduktion och livsmedelssäkerhet över landsbygdsregioner.',
@@ -416,7 +516,17 @@ export const sierraLeone: Country = {
           nl: 'Basisgezondheidszorgmodellen',
           pt: 'Modelos comunitários de saúde',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Community-based healthcare initiatives have improved maternal and child health outcomes.',
           sv: 'Samhällsbaserade hälsovårdsinitiativ har förbättrat mödra- och barnhälsan.',
@@ -554,7 +664,17 @@ export const sierraLeone: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November–April during the dry season.',
           sv: 'November–april under torrperioden.',
@@ -592,7 +712,17 @@ export const sierraLeone: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'English is official; Krío is widely spoken.',
           sv: 'Engelska är officiell; Krío är allmänt talat.',
@@ -606,7 +736,17 @@ export const sierraLeone: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Check vaccinations and malaria prevention before travel.',
           sv: 'Kontrollera vaccinationer och förebyggande av malaria innan du reser.',
@@ -620,7 +760,17 @@ export const sierraLeone: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Local taxis and ferries are common around Freetown.',
           sv: 'Lokala taxibilar och färjor är vanliga runt Freetown.',
@@ -649,7 +799,7 @@ export const sierraLeone: Country = {
       },
       description: {
         en: 'A beloved West African rice dish cooked in tomato sauce with spices, often served with plantains or vegetables.',
-        sv: 'En älskad västafrikansk risrätt tillagad i tomatsås med kryddor, ofta serverad med mjölbananer eller grönsaker.',
+        sv: 'En älskad västafrikansk risrätt som kokas i tomatsås med kryddor och ofta serveras med kokbananer eller grönsaker.',
         es: 'Un plato de arroz muy apreciado en África occidental cocinado en salsa de tomate con especias, a menudo servido con plátanos o verduras.',
         fr: 'Un plat de riz ouest-africain très apprécié, cuit dans une sauce tomate aux épices, souvent servi avec des plantains ou des légumes.',
         de: 'Ein beliebtes westafrikanisches Reisgericht, gekocht in Tomatensauce mit Gewürzen, oft serviert mit Kochbananen oder Gemüse.',
@@ -718,7 +868,7 @@ export const sierraLeone: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -731,7 +881,7 @@ export const sierraLeone: Country = {
         {
           name: {
             en: 'Bell peppers, blended',
-            sv: 'Paprika, blandad',
+            sv: 'Paprika, mixad',
             es: 'Pimientos morrones, mezclados',
             fr: 'Poivrons, mélangés',
             de: 'Paprika, gemischt',
@@ -743,7 +893,7 @@ export const sierraLeone: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -768,7 +918,7 @@ export const sierraLeone: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -838,7 +988,7 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Add onions and cook until soft.',
-          sv: 'Tillsätt lök och koka tills den är mjuk.',
+          sv: 'Tillsätt löken och fräs tills den har mjuknat.',
           es: 'Agregue las cebollas y cocine hasta que estén suaves.',
           fr: 'Ajouter les oignons et cuire jusqu\'à ce qu\'ils soient tendres.',
           de: 'Zwiebeln hinzufügen und weich kochen.',
@@ -849,7 +999,7 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Stir in blended peppers and tomato paste.',
-          sv: 'Rör ner blandad paprika och tomatpuré.',
+          sv: 'Rör ner den mixade paprikan och tomatpurén.',
           es: 'Agregue los pimientos licuados y la pasta de tomate.',
           fr: 'Incorporer les poivrons mélangés et la pâte de tomates.',
           de: 'Gemischte Paprika und Tomatenmark unterrühren.',
@@ -871,7 +1021,7 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Add rice, salt, and stock.',
-          sv: 'Tillsätt ris, salt och fond.',
+          sv: 'Tillsätt ris, salt och buljong.',
           es: 'Agrega el arroz, la sal y el caldo.',
           fr: 'Ajouter le riz, le sel et le bouillon.',
           de: 'Reis, Salz und Brühe hinzufügen.',
@@ -882,7 +1032,7 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Stir well and bring to a simmer.',
-          sv: 'Rör om väl och låt koka upp.',
+          sv: 'Rör om ordentligt och låt det börja sjuda.',
           es: 'Revuelva bien y deje hervir a fuego lento.',
           fr: 'Bien mélanger et porter à ébullition.',
           de: 'Gut umrühren und zum Kochen bringen.',
@@ -893,7 +1043,7 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Cover and cook on low heat for 25–30 minutes.',
-          sv: 'Täck över och koka på låg värme i 25–30 minuter.',
+          sv: 'Lägg på ett lock och låt sjuda på låg värme i 25–30 minuter.',
           es: 'Tape y cocine a fuego lento durante 25 a 30 minutos.',
           fr: 'Couvrir et cuire à feu doux pendant 25 à 30 minutes.',
           de: 'Abdecken und bei schwacher Hitze 25–30 Minuten garen.',
@@ -904,7 +1054,7 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Check rice and fluff with fork.',
-          sv: 'Kontrollera ris och fluff med gaffel.',
+          sv: 'Kontrollera att riset är klart och lufta det med en gaffel.',
           es: 'Revise el arroz y revuélvalo con un tenedor.',
           fr: 'Vérifiez le riz et faites-le gonfler avec une fourchette.',
           de: 'Überprüfen Sie den Reis und lockern Sie ihn mit der Gabel auf.',
@@ -915,7 +1065,7 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Serve hot with fried plantains or vegetables.',
-          sv: 'Servera varm med stekt mjölbananer eller grönsaker.',
+          sv: 'Servera varmt med stekta kokbananer eller grönsaker.',
           es: 'Sirva caliente con plátanos fritos o verduras.',
           fr: 'Servir chaud avec des plantains ou des légumes frits.',
           de: 'Heiß mit gebratenen Kochbananen oder Gemüse servieren.',
@@ -930,26 +1080,26 @@ export const sierraLeone: Country = {
     dessert: {
       id: 'sierra-leone-dessert',
       name: {
-        en: 'Banana Cake',
-        sv: 'Friterade groblad',
-        es: 'Plátanos Fritos',
+        en: 'Fried plantains',
+        sv: 'Stekta kokbananer',
+        es: 'Plátanos fritos',
         fr: 'Plantains frits',
         de: 'Gebratene Kochbananen',
-        it: 'Fried Plantains',
-        pl: 'Fried Plantains',
-        nl: 'Fried Plantains',
-        pt: 'Fried Plantains',
+        it: 'Platani fritti',
+        pl: 'Smażone plantany',
+        nl: 'Gebakken bakbananen',
+        pt: 'Banana-da-terra frita',
       },
       description: {
-        en: 'A moist Sierra Leonean banana cake with cinnamon and nutmeg, a popular homemade dessert.',
-        sv: 'Söta mogna plantains skivade och stekta tills de är gyllene, avnjuts ofta som efterrätt eller tillbehör.',
+        en: 'Sweet ripe plantains sliced and fried until golden, often enjoyed as a dessert or side.',
+        sv: 'Söta, mogna kokbananer som skivas och steks gyllenbruna. Äts ofta som efterrätt eller tillbehör.',
         es: 'Plátanos maduros dulces cortados en rodajas y fritos hasta que estén dorados, a menudo se disfrutan como postre o acompañamiento.',
         fr: 'Plantains mûrs et sucrés tranchés et frits jusqu\'à ce qu\'ils soient dorés, souvent appréciés en dessert ou en accompagnement.',
         de: 'Süße reife Kochbananen, in Scheiben geschnitten und goldbraun gebraten, oft als Dessert oder Beilage genossen.',
-        it: 'Sweet ripe plantains sliced and fried until golden, often enjoyed as a dessert or side.',
-        pl: 'Sweet ripe plantains sliced and fried until golden, often enjoyed as a dessert or side.',
-        nl: 'Sweet ripe plantains sliced and fried until golden, often enjoyed as a dessert or side.',
-        pt: 'Sweet ripe plantains sliced and fried until golden, often enjoyed as a dessert or side.',
+        it: 'Platani dolci e maturi tagliati a fette e fritti fino a doratura, spesso gustati come dessert o contorno.',
+        pl: 'Słodkie, dojrzałe plantany pokrojone w plastry i usmażone na złoto, często podawane jako deser lub dodatek.',
+        nl: 'Zoete, rijpe bakbananen in plakken gesneden en goudbruin gebakken, vaak gegeten als dessert of bijgerecht.',
+        pt: 'Bananas-da-terra maduras e doces, fatiadas e fritas até dourar, muitas vezes servidas como sobremesa ou acompanhamento.',
       },
       cookingTime: 20,
       difficulty: 'easy',
@@ -969,7 +1119,7 @@ export const sierraLeone: Country = {
         {
           name: {
             en: 'Ripe plantains',
-            sv: 'Mogna groblad',
+            sv: 'Mogna kokbananer',
             es: 'Plátanos maduros',
             fr: 'Plantains mûrs',
             de: 'Reife Kochbananen',
@@ -981,7 +1131,7 @@ export const sierraLeone: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -994,7 +1144,7 @@ export const sierraLeone: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -1009,7 +1159,7 @@ export const sierraLeone: Country = {
         {
           name: {
             en: 'Pinch of salt',
-            sv: 'Nypa salt',
+            sv: 'Salt',
             es: 'Una pizca de sal',
             fr: 'Pincée de sel',
             de: 'Prise Salz',
@@ -1035,18 +1185,18 @@ export const sierraLeone: Country = {
       steps: [
         {
           en: 'Peel plantains and slice diagonally.',
-          sv: 'Skala plantains och skiva diagonalt.',
+          sv: 'Skala kokbananerna och skär dem i sneda skivor.',
           es: 'Pele los plátanos y córtelos en diagonal.',
           fr: 'Épluchez les plantains et coupez-les en diagonale.',
           de: 'Kochbananen schälen und schräg in Scheiben schneiden.',
           it: 'Sbuccia i platani e tagliali a fette in diagonale.',
-          pl: 'Obierz bananowce i pokrój je ukośnie w plastry.',
+          pl: 'Obierz plantany i pokrój je ukośnie w plastry.',
           nl: 'Schil de bakbananen en snijd ze diagonaal in plakken.',
           pt: 'Descasque as bananas-da-terra e corte em fatias diagonais.',
         },
         {
           en: 'Heat oil in a pan over medium heat.',
-          sv: 'Hetta upp olja i en kastrull på medelvärme.',
+          sv: 'Hetta upp oljan i en stekpanna på medelvärme.',
           es: 'Calienta el aceite en una sartén a fuego medio.',
           fr: 'Chauffer l\'huile dans une poêle à feu moyen.',
           de: 'Öl in einer Pfanne bei mittlerer Hitze erhitzen.',
@@ -1057,7 +1207,7 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Fry slices 2–3 minutes per side until golden.',
-          sv: 'Stek skivorna 2–3 minuter per sida tills de är gyllene.',
+          sv: 'Stek skivorna i 2–3 minuter på varje sida tills de är gyllene.',
           es: 'Freír las rebanadas de 2 a 3 minutos por lado hasta que estén doradas.',
           fr: 'Faire frire les tranches 2 à 3 minutes de chaque côté jusqu\'à ce qu\'elles soient dorées.',
           de: 'Die Scheiben pro Seite 2–3 Minuten goldbraun braten.',
@@ -1068,18 +1218,18 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Remove and drain on paper towels.',
-          sv: 'Ta bort och låt rinna av på hushållspapper.',
+          sv: 'Lyft upp skivorna och låt dem rinna av på hushållspapper.',
           es: 'Retirar y escurrir sobre toallas de papel.',
           fr: 'Retirer et égoutter sur du papier absorbant.',
-          de: 'Herausnehmen und auf Papiertüchern abtropfen lassen.',
-          it: 'Scolare su carta assorbente.',
+          de: 'Herausnehmen und auf Küchenpapier abtropfen lassen.',
+          it: 'Toglile dalla padella e scolale su carta assorbente.',
           pl: 'Wyjąć i odsączyć na ręczniku papierowym.',
           nl: 'Haal ze eruit en laat uitlekken op keukenpapier.',
           pt: 'Retire e escorra em papel toalha.',
         },
         {
           en: 'Sprinkle lightly with salt.',
-          sv: 'Strö lätt över salt.',
+          sv: 'Strö över lite salt.',
           es: 'Espolvorea ligeramente con sal.',
           fr: 'Saupoudrer légèrement de sel.',
           de: 'Leicht mit Salz bestreuen.',
@@ -1090,11 +1240,11 @@ export const sierraLeone: Country = {
         },
         {
           en: 'Serve warm.',
-          sv: 'Servera varm.',
+          sv: 'Servera varma.',
           es: 'Servir caliente.',
           fr: 'Servir chaud.',
           de: 'Warm servieren.',
-          it: 'Servi caldo.',
+          it: 'Servili caldi.',
           pl: 'Podawaj na ciepło.',
           nl: 'Warm serveren.',
           pt: 'Sirva morno.',
@@ -1344,7 +1494,7 @@ export const sierraLeone: Country = {
         options: [
           {
             en: 'Green Hills',
-            sv: 'Green Hills',
+            sv: 'Gröna kullarna',
             es: 'Colinas Verdes',
             fr: 'Collines vertes',
             de: 'Grüne Hügel',
@@ -1377,7 +1527,7 @@ export const sierraLeone: Country = {
           },
           {
             en: 'River Land',
-            sv: 'River Land',
+            sv: 'Flodlandet',
             es: 'Tierra del río',
             fr: 'Terre fluviale',
             de: 'Flussland',
@@ -1670,13 +1820,13 @@ export const sierraLeone: Country = {
         options: [
           {
             en: 'Fried plantains',
-            sv: 'Stekt plantains',
+            sv: 'Stekta kokbananer',
             es: 'Plátanos fritos',
             fr: 'Plantains frits',
             de: 'Gebratene Kochbananen',
-            it: 'Platano fritto',
-            pl: 'Smażony bananowiec (plantain)',
-            nl: 'Gebakken bakbanaan',
+            it: 'Platani fritti',
+            pl: 'Smażone plantany',
+            nl: 'Gebakken bakbananen',
             pt: 'Banana-da-terra frita',
           },
           {

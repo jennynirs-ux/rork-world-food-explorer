@@ -263,8 +263,28 @@ export const bahrain: Country = {
     },
     history: [
       {
-        year: '3000 BC',
-        title: 'Dilmun Civilization',
+        year: {
+          en: '3000 BC',
+          sv: '3000 f.Kr.',
+          es: '3000 a. C.',
+          fr: '3000 av. J.-C.',
+          de: '3000 v. Chr.',
+          it: '3000 a.C.',
+          pl: '3000 p.n.e.',
+          nl: '3000 v.Chr.',
+          pt: '3000 a.C.',
+        },
+        title: {
+          en: 'Dilmun Civilization',
+          sv: 'Dilmunkulturen',
+          es: 'Civilización de Dilmún',
+          fr: 'Civilisation de Dilmoun',
+          de: 'Dilmun-Kultur',
+          it: 'Civiltà di Dilmun',
+          pl: 'Cywilizacja Dilmun',
+          nl: 'Dilmun-beschaving',
+          pt: 'Civilização de Dilmun',
+        },
         description: {
           en: 'Bahrain was the center of the ancient Dilmun trading civilization, a prosperous hub connecting Mesopotamia with the Indus Valley.',
           sv: 'Bahrain var centrum för den antika handelscivilisationen Dilmun, ett välmående nav som förbinder Mesopotamien med Indusdalen.',
@@ -279,7 +299,17 @@ export const bahrain: Country = {
       },
       {
         year: '1521',
-        title: 'Portuguese Occupation',
+        title: {
+          en: 'Portuguese Occupation',
+          sv: 'Portugisisk ockupation',
+          es: 'Ocupación portuguesa',
+          fr: 'Occupation portugaise',
+          de: 'Portugiesische Besetzung',
+          it: 'Occupazione portoghese',
+          pl: 'Okupacja portugalska',
+          nl: 'Portugese bezetting',
+          pt: 'Ocupação portuguesa',
+        },
         description: {
           en: 'Portugal captured Bahrain to control trade routes in the Persian Gulf region.',
           sv: 'Portugal erövrade Bahrain för att kontrollera handelsvägar i Persiska viken.',
@@ -294,7 +324,17 @@ export const bahrain: Country = {
       },
       {
         year: '1783',
-        title: 'Al Khalifa Dynasty',
+        title: {
+          en: 'Al Khalifa Dynasty',
+          sv: 'Al Khalifa-dynastin',
+          es: 'Dinastía Al Khalifa',
+          fr: 'Dynastie Al Khalifa',
+          de: 'Al-Chalifa-Dynastie',
+          it: 'Dinastia Al Khalifa',
+          pl: 'Dynastia Al Chalifa',
+          nl: 'Al Khalifa-dynastie',
+          pt: 'Dinastia Al Khalifa',
+        },
         description: {
           en: 'The Al Khalifa family captured Bahrain from the Persians, establishing the ruling dynasty that continues today.',
           sv: 'Familjen Al Khalifa erövrade Bahrain från perserna och etablerade den härskande dynastin som fortsätter idag.',
@@ -309,7 +349,17 @@ export const bahrain: Country = {
       },
       {
         year: '1932',
-        title: 'Oil Discovery',
+        title: {
+          en: 'Oil Discovery',
+          sv: 'Oljefynd',
+          es: 'Descubrimiento de petróleo',
+          fr: 'Découverte du pétrole',
+          de: 'Entdeckung des Erdöls',
+          it: 'Scoperta del petrolio',
+          pl: 'Odkrycie ropy naftowej',
+          nl: 'Olievondst',
+          pt: 'Descoberta de petróleo',
+        },
         description: {
           en: 'Bahrain became the first Gulf state to discover oil, transforming its economy from pearls to petroleum.',
           sv: 'Bahrain blev den första Gulfstaten att upptäcka olja och förvandlade sin ekonomi från pärlor till petroleum.',
@@ -324,7 +374,17 @@ export const bahrain: Country = {
       },
       {
         year: '1971',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Bahrain gained independence from British protection and became a sovereign state.',
           sv: 'Bahrain blev självständigt från brittiskt skydd och blev en suverän stat.',
@@ -339,7 +399,17 @@ export const bahrain: Country = {
       },
       {
         year: '2002',
-        title: 'Kingdom Declared',
+        title: {
+          en: 'Kingdom Declared',
+          sv: 'Kungariket utropas',
+          es: 'Proclamación del reino',
+          fr: 'Proclamation du royaume',
+          de: 'Ausrufung des Königreichs',
+          it: 'Proclamazione del regno',
+          pl: 'Proklamacja królestwa',
+          nl: 'Uitroeping van het koninkrijk',
+          pt: 'Proclamação do reino',
+        },
         description: {
           en: 'Bahrain transformed from an emirate to a kingdom under King Hamad bin Isa Al Khalifa.',
           sv: 'Bahrain förvandlades från ett emirat till ett kungarike under kung Hamad bin Isa Al Khalifa.',
@@ -366,7 +436,17 @@ export const bahrain: Country = {
           nl: 'Parelduiktechnieken',
           pt: 'Técnicas de mergulho para pesca de pérolas',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Bahrain developed sophisticated pearl diving methods and quality grading systems that influenced the global pearl trade for millennia.',
           sv: 'Bahrain utvecklade sofistikerade päreldykningsmetoder och kvalitetsgraderingssystem som påverkade den globala pärlhandeln i årtusenden.',
@@ -441,7 +521,17 @@ export const bahrain: Country = {
           nl: 'Offshore olieraffinage',
           pt: 'Refino de petróleo offshore',
         },
-        year: '1930s',
+        year: {
+          en: '1930s',
+          sv: '1930-talet',
+          es: 'década de 1930',
+          fr: 'années 1930',
+          de: '1930er',
+          it: 'anni \'30',
+          pl: 'lata 30.',
+          nl: 'jaren 30',
+          pt: 'década de 1930',
+        },
         description: {
           en: 'Pioneered oil refining techniques in the Gulf region, establishing models for petroleum processing across the Middle East.',
           sv: 'Banade fram oljeraffineringstekniker i Gulfregionen och etablerade modeller för petroleumbearbetning i Mellanöstern.',
@@ -531,7 +621,7 @@ export const bahrain: Country = {
       {
         name: {
           en: 'Manama Souq',
-          sv: 'Manama Souq',
+          sv: 'Souken i Manama',
           es: 'Zoco de Manama',
           fr: 'Souk de Manama',
           de: 'Manama Souq',
@@ -555,7 +645,7 @@ export const bahrain: Country = {
       {
         name: {
           en: 'Al Areen Wildlife Park',
-          sv: 'Al Areen Wildlife Park',
+          sv: 'Viltparken Al Areen',
           es: 'Parque de vida silvestre Al Areen',
           fr: 'Parc animalier d\'Al Areen',
           de: 'Al Areen Wildpark',
@@ -579,7 +669,17 @@ export const bahrain: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'eVisa available for most nationalities. Visa on arrival for many countries.',
           sv: 'eVisa tillgängligt för de flesta nationaliteter. Visum vid ankomst för många länder.',
@@ -593,7 +693,17 @@ export const bahrain: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to March for mild weather. Avoid summer (May-September) with extreme heat.',
           sv: 'November till mars för milt väder. Undvik sommar (maj-september) med extrem värme.',
@@ -607,7 +717,17 @@ export const bahrain: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Rental cars recommended. Taxis and ride-sharing apps available. Connected to Saudi Arabia by causeway.',
           sv: 'Hyrbilar rekommenderas. Taxi- och samåkningsappar tillgängliga. Ansluten till Saudiarabien via gångväg.',
@@ -621,7 +741,17 @@ export const bahrain: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Arabic is official. English widely spoken in business and tourism sectors.',
           sv: 'Arabiska är officiellt. Engelska talas allmänt i affärs- och turistsektorer.',
@@ -659,7 +789,17 @@ export const bahrain: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Modest dress recommended. Conservative attire required for religious sites.',
           sv: 'Moderat klänning rekommenderas. Konservativ klädsel krävs för religiösa platser.',
@@ -688,7 +828,7 @@ export const bahrain: Country = {
       },
       description: {
         en: 'Spiced rice with chicken or lamb, Bahraini national dish',
-        sv: 'Kryddat ris med kyckling eller lamm, nationalrätt från Bahrain',
+        sv: 'Kryddat ris med kyckling eller lamm – Bahrains nationalrätt',
         es: 'Arroz especiado con pollo o cordero, plato nacional de Bahréin',
         fr: 'Riz épicé au poulet ou à l\'agneau, plat national bahreïnien',
         de: 'Gewürzter Reis mit Huhn oder Lamm, bahrainisches Nationalgericht',
@@ -757,7 +897,7 @@ export const bahrain: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -782,7 +922,7 @@ export const bahrain: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -795,7 +935,7 @@ export const bahrain: Country = {
         {
           name: {
             en: 'Baharat spice mix',
-            sv: 'Baharat kryddblandning',
+            sv: 'Baharat (kryddblandning)',
             es: 'Mezcla de especias Baharat',
             fr: 'Mélange d\'épices Baharat',
             de: 'Baharat-Gewürzmischung',
@@ -832,7 +972,7 @@ export const bahrain: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -846,7 +986,7 @@ export const bahrain: Country = {
       steps: [
         {
           en: 'Brown meat with onions',
-          sv: 'Bryn kött med lök',
+          sv: 'Bryn köttet tillsammans med löken',
           es: 'Dorar la carne con cebolla',
           fr: 'Faire dorer la viande aux oignons',
           de: 'Braunes Fleisch mit Zwiebeln',
@@ -879,7 +1019,7 @@ export const bahrain: Country = {
         },
         {
           en: 'Cook rice separately with dried limes',
-          sv: 'Koka ris separat med torkade limefrukter',
+          sv: 'Koka riset för sig med de torkade limefrukterna',
           es: 'Cocine el arroz por separado con limas secas',
           fr: 'Cuire le riz séparément avec les citrons verts séchés',
           de: 'Reis separat mit getrockneten Limetten kochen',
@@ -890,7 +1030,7 @@ export const bahrain: Country = {
         },
         {
           en: 'Layer rice over meat and steam together',
-          sv: 'Lägg ris över kött och ånga tillsammans',
+          sv: 'Lägg riset ovanpå köttet och låt allt ångkoka tillsammans',
           es: 'Coloque capas de arroz sobre la carne y cocine al vapor',
           fr: 'Étalez le riz sur la viande et faites cuire à la vapeur',
           de: 'Reis über das Fleisch schichten und dünsten',
@@ -901,7 +1041,7 @@ export const bahrain: Country = {
         },
         {
           en: 'Serve with fried onions and nuts on top',
-          sv: 'Servera med stekt lök och nötter på toppen',
+          sv: 'Toppa med stekt lök och nötter och servera',
           es: 'Servir con cebolla frita y nueces encima',
           fr: 'Servir avec des oignons frits et des noix dessus',
           de: 'Mit Röstzwiebeln und Nüssen servieren',
@@ -928,7 +1068,7 @@ export const bahrain: Country = {
       },
       description: {
         en: 'Traditional Bahraini sweet made with cornstarch, saffron, cardamom, and rose water',
-        sv: 'Traditionell bahrainsk sötsak gjord med majsstärkelse, saffran, kardemumma och rosenvatten',
+        sv: 'Traditionell bahrainsk sötsak gjord på majsstärkelse, saffran, kardemumma och rosenvatten',
         es: 'Dulce tradicional bahreiní elaborado con maicena, azafrán, cardamomo y agua de rosas',
         fr: 'Bonbon traditionnel bahreïnien à base de fécule de maïs, de safran, de cardamome et d\'eau de rose',
         de: 'Traditionelle bahrainische Süßigkeit aus Maisstärke, Safran, Kardamom und Rosenwasser',
@@ -985,7 +1125,7 @@ export const bahrain: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -1030,7 +1170,7 @@ export const bahrain: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -1070,7 +1210,7 @@ export const bahrain: Country = {
         {
           name: {
             en: 'Pistachios, chopped',
-            sv: 'Pistagenötter, hackade',
+            sv: 'Pistaschnötter, hackade',
             es: 'Pistachos picados',
             fr: 'Pistaches, hachées',
             de: 'Pistazien, gehackt',
@@ -1085,7 +1225,7 @@ export const bahrain: Country = {
         {
           name: {
             en: 'Almonds, slivered',
-            sv: 'Mandel, skivad',
+            sv: 'Mandelstift',
             es: 'Almendras, fileteadas',
             fr: 'Amandes, effilées',
             de: 'Mandeln, gesplittert',
@@ -1101,7 +1241,7 @@ export const bahrain: Country = {
       steps: [
         {
           en: 'Steep saffron in 2 tbsp warm water for 10 minutes.',
-          sv: 'Brant saffran i 2 msk varmt vatten i 10 minuter.',
+          sv: 'Låt saffranet dra i 2 msk varmt vatten i 10 minuter.',
           es: 'Remoje el azafrán en 2 cucharadas de agua tibia durante 10 minutos.',
           fr: 'Faites tremper le safran dans 2 cuillères à soupe d\'eau tiède pendant 10 minutes.',
           de: 'Safran in 2 EL warmem Wasser 10 Minuten ziehen lassen.',
@@ -1112,7 +1252,7 @@ export const bahrain: Country = {
         },
         {
           en: 'Mix cornstarch with 200ml cold water until smooth.',
-          sv: 'Blanda majsstärkelse med 200 ml kallt vatten tills det är slätt.',
+          sv: 'Rör ut majsstärkelsen i 2 dl kallt vatten till en slät blandning.',
           es: 'Mezclar la maicena con 200 ml de agua fría hasta que quede suave.',
           fr: 'Mélangez la fécule de maïs avec 200 ml d\'eau froide jusqu\'à consistance lisse.',
           de: 'Maisstärke mit 200 ml kaltem Wasser glatt rühren.',
@@ -1123,7 +1263,7 @@ export const bahrain: Country = {
         },
         {
           en: 'In a heavy pot, bring remaining water and sugar to boil.',
-          sv: 'Koka upp resterande vatten och socker i en tjock gryta.',
+          sv: 'Koka upp resten av vattnet och sockret i en tjockbottnad kastrull.',
           es: 'En una olla pesada, hierva el agua restante y el azúcar.',
           fr: 'Dans une casserole à fond épais, porter à ébullition le reste de l\'eau et le sucre.',
           de: 'In einem schweren Topf das restliche Wasser und den Zucker zum Kochen bringen.',
@@ -1145,7 +1285,7 @@ export const bahrain: Country = {
         },
         {
           en: 'Slowly add cornstarch mixture, stirring constantly.',
-          sv: 'Tillsätt majsstärkelseblandningen långsamt, rör hela tiden.',
+          sv: 'Tillsätt majsstärkelseblandningen långsamt under ständig omrörning.',
           es: 'Agregue lentamente la mezcla de maicena, revolviendo constantemente.',
           fr: 'Ajouter lentement le mélange de fécule de maïs en remuant constamment.',
           de: 'Unter ständigem Rühren langsam die Maisstärkemischung hinzufügen.',
@@ -1156,7 +1296,7 @@ export const bahrain: Country = {
         },
         {
           en: 'Cook over low heat, stirring continuously for 25-30 minutes.',
-          sv: 'Koka på låg värme under konstant omrörning i 25-30 minuter.',
+          sv: 'Låt koka på låg värme i 25–30 minuter under ständig omrörning.',
           es: 'Cocine a fuego lento, revolviendo continuamente durante 25-30 minutos.',
           fr: 'Cuire à feu doux en remuant continuellement pendant 25 à 30 minutes.',
           de: 'Bei schwacher Hitze unter ständigem Rühren 25–30 Minuten kochen lassen.',
@@ -1178,7 +1318,7 @@ export const bahrain: Country = {
         },
         {
           en: 'Pour into greased dish, smooth top.',
-          sv: 'Häll i en smord form, slät topp.',
+          sv: 'Häll smeten i en smord form och jämna till ytan.',
           es: 'Vierta en un plato engrasado, alise la parte superior.',
           fr: 'Verser dans un plat beurré, lisser le dessus.',
           de: 'In eine gefettete Auflaufform füllen, Oberfläche glatt streichen.',
@@ -1189,7 +1329,7 @@ export const bahrain: Country = {
         },
         {
           en: 'Garnish with pistachios and almonds.',
-          sv: 'Garnera med pistagenötter och mandel.',
+          sv: 'Garnera med pistaschnötter och mandelstift.',
           es: 'Adorne con pistachos y almendras.',
           fr: 'Garnir de pistaches et d\'amandes.',
           de: 'Mit Pistazien und Mandeln garnieren.',
@@ -1200,7 +1340,7 @@ export const bahrain: Country = {
         },
         {
           en: 'Cool completely before cutting into diamond shapes.',
-          sv: 'Kyl helt innan du skär i diamantformar.',
+          sv: 'Låt svalna helt och skär sedan i romber.',
           es: 'Deje enfriar completamente antes de cortarlo en forma de diamante.',
           fr: 'Laisser refroidir complètement avant de découper en forme de losange.',
           de: 'Vor dem Schneiden in Rautenformen vollständig abkühlen lassen.',
@@ -1341,7 +1481,7 @@ export const bahrain: Country = {
           },
           {
             en: 'Pearl island',
-            sv: 'Pearl island',
+            sv: 'Pärlön',
             es: 'Isla de las Perlas',
             fr: 'Île aux Perles',
             de: 'Perleninsel',
@@ -1637,7 +1777,7 @@ export const bahrain: Country = {
         options: [
           {
             en: 'Desert Oak',
-            sv: 'Desert Oak',
+            sv: 'Ökenek',
             es: 'Roble del desierto',
             fr: 'Chêne du désert',
             de: 'Wüsteneiche',

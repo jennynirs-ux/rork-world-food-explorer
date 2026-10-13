@@ -231,7 +231,17 @@ export const laos: Country = {
     history: [
       {
         year: '1353',
-        title: 'Lan Xang Kingdom',
+        title: {
+          en: 'Lan Xang Kingdom',
+          sv: 'Kungariket Lan Xang',
+          es: 'Reino de Lan Xang',
+          fr: 'Royaume du Lan Xang',
+          de: 'Königreich Lan Xang',
+          it: 'Regno di Lan Xang',
+          pl: 'Królestwo Lan Xang',
+          nl: 'Koninkrijk Lan Xang',
+          pt: 'Reino de Lan Xang',
+        },
         description: {
           en: 'Founding of the Kingdom of Lan Xang (Million Elephants), establishing Lao culture and Buddhism.',
           sv: 'Grundandet av kungariket Lan Xang (miljoner elefanter), etablerande av Laos kultur och buddhism.',
@@ -246,7 +256,17 @@ export const laos: Country = {
       },
       {
         year: '1893',
-        title: 'French Protectorate',
+        title: {
+          en: 'French Protectorate',
+          sv: 'Franskt protektorat',
+          es: 'Protectorado francés',
+          fr: 'Protectorat français',
+          de: 'Französisches Protektorat',
+          it: 'Protettorato francese',
+          pl: 'Protektorat francuski',
+          nl: 'Frans protectoraat',
+          pt: 'Protetorado francês',
+        },
         description: {
           en: 'Laos became part of French Indochina, lasting until independence.',
           sv: 'Laos blev en del av Franska Indokina, som varade fram till självständigheten.',
@@ -261,7 +281,17 @@ export const laos: Country = {
       },
       {
         year: '1975',
-        title: 'Socialist Republic',
+        title: {
+          en: 'Socialist Republic',
+          sv: 'Socialistisk republik',
+          es: 'República socialista',
+          fr: 'République socialiste',
+          de: 'Sozialistische Republik',
+          it: 'Repubblica socialista',
+          pl: 'Republika socjalistyczna',
+          nl: 'Socialistische republiek',
+          pt: 'República socialista',
+        },
         description: {
           en: 'Establishment of the Lao People\'s Democratic Republic.',
           sv: 'Etablering av Laos demokratiska folkrepublik.',
@@ -288,7 +318,17 @@ export const laos: Country = {
           nl: 'Kleefrijstcultuur',
           pt: 'Cultura do arroz glutinoso',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Laos perfected sticky rice cultivation and preparation methods unique in Southeast Asia.',
           sv: 'Laos fulländade metoder för odling och beredning av klibbigt ris som är unika i Sydostasien.',
@@ -313,7 +353,17 @@ export const laos: Country = {
           nl: 'Zijdeweverij',
           pt: 'Tecelagem de seda',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Traditional Lao silk weaving techniques create intricate patterns passed down generations.',
           sv: 'Traditionella laotiska sidenvävningstekniker skapar intrikata mönster som gått i arv i generationer.',
@@ -355,7 +405,7 @@ export const laos: Country = {
       {
         name: {
           en: 'Kuang Si Falls',
-          sv: 'Kuang Si Falls',
+          sv: 'Kuang Si-vattenfallen',
           es: 'Cataratas Kuang Si',
           fr: 'Chutes de Kuang Si',
           de: 'Kuang Si Wasserfälle',
@@ -451,7 +501,17 @@ export const laos: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-February for cool, dry weather.',
           sv: 'November-februari för svalt, torrt väder.',
@@ -465,7 +525,17 @@ export const laos: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival available for most nationalities.',
           sv: 'Visum vid ankomst tillgängligt för de flesta nationaliteter.',
@@ -479,7 +549,17 @@ export const laos: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Cover shoulders and knees for temple visits.',
           sv: 'Täck axlar och knän för tempelbesök.',
@@ -493,7 +573,17 @@ export const laos: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Bring US dollars or Thai baht to exchange.',
           sv: 'Ta med amerikanska dollar eller thailändska baht för att växla.',
@@ -609,7 +699,7 @@ export const laos: Country = {
         {
           name: {
             en: 'Ripe mangoes',
-            sv: 'Mogen mango',
+            sv: 'Mogna mangor',
             es: 'Mangos maduros',
             fr: 'Mangues mûres',
             de: 'Reife Mangos',
@@ -621,7 +711,7 @@ export const laos: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -660,7 +750,7 @@ export const laos: Country = {
       steps: [
         {
           en: 'Soak sticky rice overnight, steam for 20 minutes',
-          sv: 'Blötlägg klibbigt ris över natten, ånga i 20 minuter',
+          sv: 'Blötlägg det klibbiga riset över natten och ånga det sedan i 20 minuter',
           es: 'Remoje el arroz pegajoso durante la noche, cocine al vapor durante 20 minutos',
           fr: 'Faire tremper le riz gluant toute la nuit, cuire à la vapeur pendant 20 minutes',
           de: 'Klebreis über Nacht einweichen, 20 Minuten dämpfen',
@@ -671,7 +761,7 @@ export const laos: Country = {
         },
         {
           en: 'Heat coconut milk with sugar and salt',
-          sv: 'Värm kokosmjölk med socker och salt',
+          sv: 'Värm kokosmjölken med socker och salt',
           es: 'Calentar leche de coco con azúcar y sal',
           fr: 'Faire chauffer le lait de coco avec le sucre et le sel',
           de: 'Kokosmilch mit Zucker und Salz erhitzen',
@@ -682,7 +772,7 @@ export const laos: Country = {
         },
         {
           en: 'Pour over cooked rice, let absorb 30 minutes',
-          sv: 'Häll över kokt ris, låt absorbera 30 minuter',
+          sv: 'Häll kokosblandningen över det kokta riset och låt det dra i 30 minuter',
           es: 'Vierta sobre el arroz cocido, deje absorber 30 minutos',
           fr: 'Verser sur le riz cuit, laisser absorber 30 minutes',
           de: 'Über den gekochten Reis gießen und 30 Minuten ziehen lassen',
@@ -693,7 +783,7 @@ export const laos: Country = {
         },
         {
           en: 'Slice mangoes',
-          sv: 'Skiva mango',
+          sv: 'Skiva mangorna',
           es: 'Cortar mangos',
           fr: 'Trancher des mangues',
           de: 'Mangos in Scheiben schneiden',
@@ -704,7 +794,7 @@ export const laos: Country = {
         },
         {
           en: 'Serve rice with mango slices',
-          sv: 'Servera ris med mangoskivor',
+          sv: 'Servera riset med mangoskivorna',
           es: 'Sirve arroz con rodajas de mango',
           fr: 'Servir le riz avec des tranches de mangue',
           de: 'Reis mit Mangoscheiben servieren',
@@ -753,7 +843,7 @@ export const laos: Country = {
       },
       description: {
         en: 'Minced meat salad with herbs, lime, and roasted rice powder',
-        sv: 'Köttfärssallad med örter, lime och rostat rispulver',
+        sv: 'Sallad med färs, örter, lime och rostat rispulver',
         es: 'Ensalada de carne picada con hierbas, lima y arroz asado en polvo',
         fr: 'Salade de viande hachée aux herbes, citron vert et poudre de riz rôti',
         de: 'Hackfleischsalat mit Kräutern, Limette und geröstetem Reispulver',
@@ -780,7 +870,7 @@ export const laos: Country = {
         {
           name: {
             en: 'Ground pork or chicken',
-            sv: 'Malet fläsk eller kyckling',
+            sv: 'Fläsk- eller kycklingfärs',
             es: 'Carne molida de cerdo o pollo',
             fr: 'Porc ou poulet haché',
             de: 'Hackfleisch vom Schwein oder Huhn',
@@ -795,7 +885,7 @@ export const laos: Country = {
         {
           name: {
             en: 'Sticky rice (for powder)',
-            sv: 'Klibbigt ris (för pulver)',
+            sv: 'Klibbigt ris (till rispulver)',
             es: 'Arroz pegajoso (en polvo)',
             fr: 'Riz gluant (pour poudre)',
             de: 'Klebreis (für Pulver)',
@@ -872,7 +962,7 @@ export const laos: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -930,7 +1020,7 @@ export const laos: Country = {
         {
           name: {
             en: 'Green onions',
-            sv: 'Grön lök',
+            sv: 'Salladslök',
             es: 'Cebollas verdes',
             fr: 'Oignons verts',
             de: 'Frühlingszwiebeln',
@@ -956,7 +1046,7 @@ export const laos: Country = {
       steps: [
         {
           en: 'Toast sticky rice until golden, grind into powder',
-          sv: 'Rosta klibbigt ris tills det är gyllene, mal till pulver',
+          sv: 'Rosta det klibbiga riset tills det är gyllene och mal det sedan till pulver',
           es: 'Tostar el arroz pegajoso hasta que esté dorado, molerlo hasta convertirlo en polvo',
           fr: 'Faire griller le riz gluant jusqu\'à ce qu\'il soit doré, le réduire en poudre',
           de: 'Klebreis goldbraun rösten, zu Pulver mahlen',
@@ -967,7 +1057,7 @@ export const laos: Country = {
         },
         {
           en: 'Cook ground meat in a pan until done',
-          sv: 'Koka köttfärs i en panna tills det är färdigt',
+          sv: 'Stek färsen i en panna tills den är genomstekt',
           es: 'Cocine la carne molida en una sartén hasta que esté cocida',
           fr: 'Cuire la viande hachée dans une poêle jusqu\'à ce qu\'elle soit cuite',
           de: 'Hackfleisch in einer Pfanne garen, bis es fertig ist',
@@ -978,7 +1068,7 @@ export const laos: Country = {
         },
         {
           en: 'Remove from heat and add lime juice, fish sauce',
-          sv: 'Ta bort från värmen och tillsätt limejuice, fisksås',
+          sv: 'Ta pannan från värmen och tillsätt limejuice och fisksås',
           es: 'Retirar del fuego y agregar el jugo de lima y la salsa de pescado',
           fr: 'Retirer du feu et ajouter le jus de citron vert, la sauce de poisson',
           de: 'Vom Herd nehmen und Limettensaft und Fischsauce hinzufügen',
@@ -1000,7 +1090,7 @@ export const laos: Country = {
         },
         {
           en: 'Mix in fresh herbs',
-          sv: 'Blanda i färska örter',
+          sv: 'Blanda ner de färska örterna',
           es: 'Mezclar con hierbas frescas',
           fr: 'Incorporer des herbes fraîches',
           de: 'Frische Kräuter untermischen',
@@ -1022,7 +1112,7 @@ export const laos: Country = {
         },
         {
           en: 'Mix well and adjust seasoning',
-          sv: 'Blanda väl och justera krydda',
+          sv: 'Blanda väl och smaka av',
           es: 'Mezclar bien y rectificar la sazón',
           fr: 'Bien mélanger et rectifier l\'assaisonnement',
           de: 'Gut vermischen und nachwürzen',

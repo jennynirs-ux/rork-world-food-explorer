@@ -274,7 +274,17 @@ export const indonesia: Country = {
           nl: 'Batik textielkunst',
           pt: 'Arte têxtil do batique',
         },
-        year: '8th Century',
+        year: {
+          en: '8th Century',
+          sv: '700-talet',
+          es: 'siglo VIII',
+          fr: 'VIIIe siècle',
+          de: '8. Jahrhundert',
+          it: 'VIII secolo',
+          pl: 'VIII wiek',
+          nl: '8e eeuw',
+          pt: 'século VIII',
+        },
         description: {
           en: 'Ancient wax-resist dyeing technique recognized by UNESCO as Intangible Cultural Heritage of Humanity',
           sv: 'Forntida vaxbeständig färgningsteknik erkänd av UNESCO som mänsklighetens immateriella kulturarv',
@@ -299,7 +309,17 @@ export const indonesia: Country = {
           nl: 'Muzikale innovatie van de gamelan',
           pt: 'Inovação musical do gamelão',
         },
-        year: '8th Century',
+        year: {
+          en: '8th Century',
+          sv: '700-talet',
+          es: 'siglo VIII',
+          fr: 'VIIIe siècle',
+          de: '8. Jahrhundert',
+          it: 'VIII secolo',
+          pl: 'VIII wiek',
+          nl: '8e eeuw',
+          pt: 'século VIII',
+        },
         description: {
           en: 'Complex orchestral ensemble music unique to Indonesia, influencing modern composers worldwide',
           sv: 'Komplex orkesterensemblemusik unik för Indonesien, som påverkar moderna kompositörer över hela världen',
@@ -324,7 +344,17 @@ export const indonesia: Country = {
           nl: 'Tempehfermentatie',
           pt: 'Fermentação do tempeh',
         },
-        year: '12th Century',
+        year: {
+          en: '12th Century',
+          sv: '1100-talet',
+          es: 'Siglo XII',
+          fr: 'XIIe siècle',
+          de: '12. Jahrhundert',
+          it: 'XII secolo',
+          pl: 'XII wiek',
+          nl: '12e eeuw',
+          pt: 'Século XII',
+        },
         description: {
           en: 'Soy fermentation technique creating a nutritious protein source, now popular globally',
           sv: 'Sojafermenteringsteknik skapar en näringsrik proteinkälla, nu populär globalt',
@@ -365,8 +395,28 @@ export const indonesia: Country = {
     ],
     history: [
       {
-        year: '8th-9th Century',
-        title: 'Buddhist and Hindu Kingdoms',
+        year: {
+          en: '8th-9th Century',
+          sv: '700–800-talet',
+          es: 'siglos VIII–IX',
+          fr: 'VIIIe–IXe siècles',
+          de: '8.–9. Jahrhundert',
+          it: 'secoli VIII–IX',
+          pl: 'VIII–IX wiek',
+          nl: '8e–9e eeuw',
+          pt: 'séculos VIII–IX',
+        },
+        title: {
+          en: 'Buddhist and Hindu Kingdoms',
+          sv: 'Buddhistiska och hinduiska riken',
+          es: 'Reinos budistas e hindúes',
+          fr: 'Royaumes bouddhistes et hindous',
+          de: 'Buddhistische und hinduistische Königreiche',
+          it: 'Regni buddisti e indù',
+          pl: 'Królestwa buddyjskie i hinduistyczne',
+          nl: 'Boeddhistische en hindoeïstische koninkrijken',
+          pt: 'Reinos budistas e hindus',
+        },
         description: {
           en: 'Great kingdoms built Borobudur and Prambanan temples.',
           sv: 'Stora kungariken byggde Borobudur och Prambanan tempel.',
@@ -380,8 +430,28 @@ export const indonesia: Country = {
         },
       },
       {
-        year: '13th Century',
-        title: 'Spread of Islam',
+        year: {
+          en: '13th Century',
+          sv: '1200-talet',
+          es: 'Siglo XIII',
+          fr: 'XIIIe siècle',
+          de: '13. Jahrhundert',
+          it: 'XIII secolo',
+          pl: 'XIII wiek',
+          nl: '13e eeuw',
+          pt: 'Século XIII',
+        },
+        title: {
+          en: 'Spread of Islam',
+          sv: 'Islams spridning',
+          es: 'Expansión del islam',
+          fr: 'Expansion de l\'islam',
+          de: 'Ausbreitung des Islam',
+          it: 'Diffusione dell\'islam',
+          pl: 'Szerzenie się islamu',
+          nl: 'Verspreiding van de islam',
+          pt: 'Expansão do islã',
+        },
         description: {
           en: 'Islam arrived through trade and gradually became the dominant religion.',
           sv: 'Islam kom genom handel och blev gradvis den dominerande religionen.',
@@ -396,7 +466,17 @@ export const indonesia: Country = {
       },
       {
         year: '1602',
-        title: 'Dutch Colonization',
+        title: {
+          en: 'Dutch Colonization',
+          sv: 'Nederländsk kolonisation',
+          es: 'Colonización neerlandesa',
+          fr: 'Colonisation néerlandaise',
+          de: 'Niederländische Kolonisierung',
+          it: 'Colonizzazione olandese',
+          pl: 'Kolonizacja holenderska',
+          nl: 'Nederlandse kolonisatie',
+          pt: 'Colonização holandesa',
+        },
         description: {
           en: 'The Dutch East India Company established control, beginning 350 years of colonial rule.',
           sv: 'Det holländska Ostindiska kompaniet etablerade kontroll och började 350 år av kolonialt styre.',
@@ -411,7 +491,17 @@ export const indonesia: Country = {
       },
       {
         year: '1942-1945',
-        title: 'Japanese Occupation',
+        title: {
+          en: 'Japanese Occupation',
+          sv: 'Japansk ockupation',
+          es: 'Ocupación japonesa',
+          fr: 'Occupation japonaise',
+          de: 'Japanische Besatzung',
+          it: 'Occupazione giapponese',
+          pl: 'Okupacja japońska',
+          nl: 'Japanse bezetting',
+          pt: 'Ocupação japonesa',
+        },
         description: {
           en: 'Japanese forces occupied Indonesia during World War II.',
           sv: 'Japanska styrkor ockuperade Indonesien under andra världskriget.',
@@ -426,7 +516,17 @@ export const indonesia: Country = {
       },
       {
         year: '1945',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Sukarno declared independence, followed by years of struggle against the Dutch.',
           sv: 'Sukarno förklarade självständighet, följt av år av kamp mot holländarna.',
@@ -442,7 +542,17 @@ export const indonesia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-October (dry season) for most islands',
           sv: 'April-oktober (torrsäsong) för de flesta öar',
@@ -456,7 +566,17 @@ export const indonesia: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival or e-visa available for many nationalities.',
           sv: 'Visum vid ankomst eller e-visum tillgängligt för många nationaliteter.',
@@ -470,7 +590,17 @@ export const indonesia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights between islands, ferries, local transport varies by island.',
           sv: 'Inrikesflyg mellan öar, färjor, lokala transporter varierar beroende på ö.',
@@ -484,7 +614,17 @@ export const indonesia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Indonesian (Bahasa Indonesia). English in tourist areas.',
           sv: 'Indonesiska (Bahasa Indonesia). engelska i turistområden.',
@@ -498,7 +638,17 @@ export const indonesia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe. Be aware of volcanic activity and petty theft.',
           sv: 'Generellt säker. Var medveten om vulkanisk aktivitet och småstölder.',
@@ -649,7 +799,7 @@ export const indonesia: Country = {
       },
       description: {
         en: 'Indonesian fried rice, the national dish, with sweet soy sauce, vegetables, and topped with a fried egg',
-        sv: 'Indonesiskt stekt ris, nationalrätten, med söt sojasås, grönsaker och toppat med ett stekt ägg',
+        sv: 'Indonesiens nationalrätt: stekt ris med söt sojasås och grönsaker, toppat med ett stekt ägg',
         es: 'Arroz frito indonesio, el plato nacional, con salsa de soja dulce, verduras y rematado con un huevo frito',
         fr: 'Riz frit indonésien, plat national, avec sauce soja sucrée, légumes et surmonté d\'un œuf au plat',
         de: 'Indonesischer gebratener Reis, das Nationalgericht, mit süßer Sojasauce, Gemüse und garniert mit einem Spiegelei',
@@ -676,7 +826,7 @@ export const indonesia: Country = {
         {
           name: {
             en: 'Cooked rice (day-old)',
-            sv: 'Kokt ris (dagsgammalt)',
+            sv: 'Kokt ris (från dagen innan)',
             es: 'Arroz cocido (del día anterior)',
             fr: 'Riz cuit (un jour)',
             de: 'Gekochter Reis (einen Tag alt)',
@@ -858,7 +1008,7 @@ export const indonesia: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -883,7 +1033,7 @@ export const indonesia: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -897,7 +1047,7 @@ export const indonesia: Country = {
       steps: [
         {
           en: 'Make spice paste: blend shallots, garlic, chilies, and shrimp paste',
-          sv: 'Gör kryddpasta: blanda schalottenlök, vitlök, chili och räkpasta',
+          sv: 'Gör kryddpastan: mixa schalottenlök, vitlök, chili och räkpasta',
           es: 'Haga pasta de especias: mezcle chalotas, ajo, chiles y pasta de camarones',
           fr: 'Préparez une pâte d\'épices : mélangez les échalotes, l\'ail, les piments et la pâte de crevettes',
           de: 'Gewürzpaste zubereiten: Schalotten, Knoblauch, Chilis und Garnelenpaste vermischen',
@@ -908,7 +1058,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Heat oil in wok, fry spice paste until fragrant',
-          sv: 'Värm olja i wok, stek kryddpasta tills det doftar',
+          sv: 'Hetta upp olja i en wok och fräs kryddpastan tills det doftar',
           es: 'Calentar aceite en un wok, freír la pasta de especias hasta que esté fragante',
           fr: 'Faites chauffer l\'huile dans le wok, faites frire la pâte d\'épices jusqu\'à ce qu\'elle soit parfumée',
           de: 'Öl im Wok erhitzen, Gewürzpaste anbraten, bis es duftet',
@@ -919,7 +1069,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Add chicken or shrimp, cook until done',
-          sv: 'Tillsätt kyckling eller räkor, koka tills det är klart',
+          sv: 'Tillsätt kyckling eller räkor och stek tills allt är genomstekt',
           es: 'Agrega el pollo o los camarones, cocina hasta que esté cocido',
           fr: 'Ajouter le poulet ou les crevettes, cuire jusqu\'à ce qu\'ils soient cuits',
           de: 'Hühnchen oder Garnelen hinzufügen und garen',
@@ -930,7 +1080,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Add day-old rice, breaking up clumps',
-          sv: 'Tillsätt dagsgammalt ris, bryt upp klumpar',
+          sv: 'Tillsätt riset från dagen innan och bryt upp klumparna',
           es: 'Agregue el arroz del día anterior, rompiendo los grumos',
           fr: 'Ajouter le riz d\'un jour en brisant les touffes',
           de: 'Fügen Sie den Reis vom Vortag hinzu und brechen Sie die Klumpen auf',
@@ -941,7 +1091,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Stir-fry on high heat, mixing well',
-          sv: 'Stek på hög värme, blanda väl',
+          sv: 'Woka på hög värme under omrörning',
           es: 'Sofreír a fuego alto, mezclando bien',
           fr: 'Faire sauter à feu vif en mélangeant bien',
           de: 'Bei starker Hitze unter Rühren anbraten',
@@ -952,7 +1102,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Add kecap manis and mix until rice is evenly coated',
-          sv: 'Tillsätt kecap manis och blanda tills riset är jämnt belagt',
+          sv: 'Tillsätt kecap manis och blanda tills riset är jämnt täckt',
           es: 'Agregue kecap manis y mezcle hasta que el arroz esté cubierto uniformemente',
           fr: 'Ajouter le kecap manis et mélanger jusqu\'à ce que le riz soit uniformément enrobé',
           de: 'Kecap Manis hinzufügen und vermischen, bis der Reis gleichmäßig bedeckt ist',
@@ -963,7 +1113,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Push rice to side, fry eggs sunny-side up',
-          sv: 'Skjut ris åt sidan, stek ägg med solsidan uppåt',
+          sv: 'Skjut riset åt sidan och stek äggen med solsidan upp',
           es: 'Apartar el arroz y freír los huevos con el lado soleado hacia arriba',
           fr: 'Poussez le riz sur le côté, faites frire les œufs côté ensoleillé vers le haut',
           de: 'Reis zur Seite schieben, Eier mit der Sonnenseite nach oben braten',
@@ -974,7 +1124,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Plate the nasi goreng',
-          sv: 'Platta nasi goreng',
+          sv: 'Lägg upp nasi goreng på tallrikar',
           es: 'Emplatar el nasi goreng',
           fr: 'Assiette le nasi goreng',
           de: 'Den Nasi Goreng auf Tellern anrichten',
@@ -996,7 +1146,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Garnish with sliced tomato, cucumber, and crackers',
-          sv: 'Garnera med skivad tomat, gurka och kex',
+          sv: 'Garnera med skivad tomat, gurka och räkchips (krupuk)',
           es: 'Adorne con tomate en rodajas, pepino y galletas saladas',
           fr: 'Garnir de tranches de tomates, de concombre et de craquelins',
           de: 'Mit Tomatenscheiben, Gurken und Crackern garnieren',
@@ -1023,7 +1173,7 @@ export const indonesia: Country = {
       },
       description: {
         en: 'Traditional sweet rice cake balls filled with palm sugar and rolled in grated coconut',
-        sv: 'Traditionella söta riskakebollar fyllda med palmsocker och rullade i riven kokos',
+        sv: 'Traditionella små bollar av klibbigt rismjöl fyllda med palmsocker och rullade i riven kokos',
         es: 'Tradicional bolitas de pastel de arroz dulce rellenas de azúcar de palma y enrolladas en coco rallado',
         fr: 'Boulettes de gâteau de riz sucrées traditionnelles remplies de sucre de palme et roulées dans de la noix de coco râpée',
         de: 'Traditionelle süße Reiskuchenbällchen, gefüllt mit Palmzucker und gerollt in Kokosraspeln',
@@ -1065,7 +1215,7 @@ export const indonesia: Country = {
         {
           name: {
             en: 'Pandan leaves (or pandan essence)',
-            sv: 'Pandan blad (eller pandan essens)',
+            sv: 'Pandanblad (eller pandanessens)',
             es: 'Hojas de pandan (o esencia de pandan)',
             fr: 'Feuilles de pandan (ou essence de pandan)',
             de: 'Pandan-Blätter (oder Pandan-Essenz)',
@@ -1161,7 +1311,7 @@ export const indonesia: Country = {
       steps: [
         {
           en: 'Blend pandan leaves with water, strain to get green pandan water',
-          sv: 'Blanda pandanblad med vatten, sila för att få grönt pandanvatten',
+          sv: 'Mixa pandanbladen med vatten och sila för att få grönt pandanvatten',
           es: 'Licue las hojas de pandan con agua, cuele para obtener agua de pandan verde',
           fr: 'Mélangez les feuilles de pandan avec de l\'eau, filtrez pour obtenir de l\'eau de pandan verte',
           de: 'Pandanblätter mit Wasser vermischen und abseihen, um grünes Pandanwasser zu erhalten',
@@ -1172,7 +1322,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Mix glutinous rice flour with pandan water to form smooth dough',
-          sv: 'Blanda klibbigt rismjöl med pandanvatten för att bilda en smidig deg',
+          sv: 'Blanda det klibbiga rismjölet med pandanvattnet till en smidig deg',
           es: 'Mezcle harina de arroz glutinoso con agua de pandan para formar una masa suave',
           fr: 'Mélangez la farine de riz gluant avec de l\'eau de pandan pour former une pâte lisse',
           de: 'Klebreismehl mit Pandanwasser zu einem glatten Teig vermischen',
@@ -1183,7 +1333,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Chop palm sugar into small cubes',
-          sv: 'Hacka palmsocker i små kuber',
+          sv: 'Hacka palmsockret i små bitar',
           es: 'Picar el azúcar de palma en cubos pequeños',
           fr: 'Coupez le sucre de palme en petits cubes',
           de: 'Palmzucker in kleine Würfel schneiden',
@@ -1194,7 +1344,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Pinch small pieces of dough, flatten, place sugar cube in center',
-          sv: 'Nyp ihop små degbitar, platta till, placera sockerbitar i mitten',
+          sv: 'Nyp av små degbitar, platta till dem och lägg en sockerbit i mitten',
           es: 'Pellizque pequeños trozos de masa, aplánelos y coloque un terrón de azúcar en el centro',
           fr: 'Pincez des petits morceaux de pâte, aplatissez-les, placez un morceau de sucre au centre',
           de: 'Kleine Teigstücke zusammendrücken, flach drücken, Zuckerwürfel in die Mitte legen',
@@ -1205,7 +1355,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Roll into balls, sealing sugar inside completely',
-          sv: 'Rulla till bollar, täta socker inuti helt',
+          sv: 'Rulla till bollar så att sockret blir helt inneslutet',
           es: 'Formar bolitas, sellando completamente el interior del azúcar',
           fr: 'Rouler en boules en scellant complètement le sucre à l\'intérieur',
           de: 'Zu Kugeln rollen und den Zucker darin vollständig einschließen',
@@ -1216,7 +1366,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Boil water and drop balls in batches',
-          sv: 'Koka vatten och släpp bollar i omgångar',
+          sv: 'Koka upp vatten och lägg i bollarna i omgångar',
           es: 'Hervir agua y dejar caer bolas en tandas',
           fr: 'Faire bouillir de l\'eau et déposer des boules par lots',
           de: 'Wasser aufkochen und die Kugeln portionsweise hineingeben',
@@ -1227,7 +1377,7 @@ export const indonesia: Country = {
         },
         {
           en: 'When balls float to surface (about 3-5 minutes), they are done',
-          sv: 'När bollar flyter till ytan (ca 3-5 minuter) är de färdiga',
+          sv: 'När bollarna flyter upp till ytan (efter ca 3–5 minuter) är de klara',
           es: 'Cuando las bolas floten hacia la superficie (entre 3 y 5 minutos), estarán listas',
           fr: 'Lorsque les balles flottent à la surface (environ 3 à 5 minutes), elles sont cuites',
           de: 'Wenn die Kugeln an die Oberfläche schwimmen (ca. 3–5 Minuten), sind sie fertig',
@@ -1238,7 +1388,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Remove with slotted spoon',
-          sv: 'Ta bort med hålslev',
+          sv: 'Lyft upp dem med en hålslev',
           es: 'Retirar con una espumadera',
           fr: 'Retirer avec une écumoire',
           de: 'Mit einem Schaumlöffel herausnehmen',
@@ -1260,7 +1410,7 @@ export const indonesia: Country = {
         },
         {
           en: 'Roll hot klepon in coconut until fully coated',
-          sv: 'Rulla varm klepon i kokos tills den är helt täckt',
+          sv: 'Rulla de varma kleponbollarna i kokosen tills de är helt täckta',
           es: 'Enrolle el klepon caliente en coco hasta que esté completamente cubierto',
           fr: 'Rouler le klepon chaud dans la noix de coco jusqu\'à ce qu\'il soit entièrement enrobé',
           de: 'Heißes Klepon in der Kokosnuss wälzen, bis es vollständig bedeckt ist',
@@ -1621,7 +1771,7 @@ export const indonesia: Country = {
           },
           {
             en: 'Shwedagon Pagoda',
-            sv: 'Shwedagon Pagoda',
+            sv: 'Shwedagonpagoden',
             es: 'Pagoda Shwedagon',
             fr: 'Pagode Shwedagon',
             de: 'Shwedagon-Pagode',

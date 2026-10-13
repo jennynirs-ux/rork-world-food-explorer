@@ -264,7 +264,17 @@ export const netherlands: Country = {
     history: [
       {
         year: '1568-1648',
-        title: 'Eighty Years\' War',
+        title: {
+          en: 'Eighty Years\' War',
+          sv: 'Åttioåriga kriget',
+          es: 'Guerra de los Ochenta Años',
+          fr: 'Guerre de Quatre-Vingts Ans',
+          de: 'Achtzigjähriger Krieg',
+          it: 'Guerra degli ottant\'anni',
+          pl: 'Wojna osiemdziesięcioletnia',
+          nl: 'Tachtigjarige Oorlog',
+          pt: 'Guerra dos Oitenta Anos',
+        },
         description: {
           en: 'Dutch revolt against Spanish rule led to independence and the Dutch Republic.',
           sv: 'Holländsk revolt mot spanskt styre ledde till självständighet och den holländska republiken.',
@@ -278,8 +288,28 @@ export const netherlands: Country = {
         },
       },
       {
-        year: '1600s',
-        title: 'Dutch Golden Age',
+        year: {
+          en: '1600s',
+          sv: '1600-talet',
+          es: 'siglo XVII',
+          fr: 'XVIIe siècle',
+          de: '17. Jahrhundert',
+          it: 'XVII secolo',
+          pl: 'XVII wiek',
+          nl: '17e eeuw',
+          pt: 'século XVII',
+        },
+        title: {
+          en: 'Dutch Golden Age',
+          sv: 'Den nederländska guldåldern',
+          es: 'Siglo de Oro neerlandés',
+          fr: 'Siècle d\'or néerlandais',
+          de: 'Goldenes Zeitalter der Niederlande',
+          it: 'Secolo d\'oro olandese',
+          pl: 'Złoty wiek Holandii',
+          nl: 'Gouden Eeuw',
+          pt: 'Século de Ouro holandês',
+        },
         description: {
           en: 'Period of great wealth, trade dominance, and cultural achievements including Rembrandt and Vermeer.',
           sv: 'Period av stor rikedom, handelsdominans och kulturella landvinningar inklusive Rembrandt och Vermeer.',
@@ -294,7 +324,17 @@ export const netherlands: Country = {
       },
       {
         year: '1953',
-        title: 'North Sea Flood',
+        title: {
+          en: 'North Sea Flood',
+          sv: 'Stormfloden vid Nordsjön',
+          es: 'Inundación del mar del Norte',
+          fr: 'Inondation de la mer du Nord',
+          de: 'Nordsee-Sturmflut',
+          it: 'Inondazione del Mare del Nord',
+          pl: 'Powódź nad Morzem Północnym',
+          nl: 'Watersnoodramp',
+          pt: 'Inundação do Mar do Norte',
+        },
         description: {
           en: 'Devastating flood killed nearly 2,000, leading to the Delta Works - world\'s largest flood protection system.',
           sv: 'Förödande översvämningar dödade nästan 2 000, vilket ledde till Delta Works - världens största översvämningsskyddssystem.',
@@ -309,7 +349,17 @@ export const netherlands: Country = {
       },
       {
         year: '2001',
-        title: 'Same-Sex Marriage',
+        title: {
+          en: 'Same-Sex Marriage',
+          sv: 'Samkönade äktenskap',
+          es: 'Matrimonio igualitario',
+          fr: 'Mariage homosexuel',
+          de: 'Gleichgeschlechtliche Ehe',
+          it: 'Matrimonio egualitario',
+          pl: 'Małżeństwa jednopłciowe',
+          nl: 'Homohuwelijk',
+          pt: 'Casamento igualitário',
+        },
         description: {
           en: 'Netherlands became the first country in the world to legalize same-sex marriage.',
           sv: 'Nederländerna blev det första landet i världen att legalisera samkönade äktenskap.',
@@ -402,7 +452,7 @@ export const netherlands: Country = {
       {
         name: {
           en: 'CD (Compact Disc)',
-          sv: 'CD (Compact Disc)',
+          sv: 'CD-skiva (compact disc)',
           es: 'CD (disco compacto)',
           fr: 'CD (disque compact)',
           de: 'CD (Compact Disc)',
@@ -429,7 +479,7 @@ export const netherlands: Country = {
       {
         name: {
           en: 'Keukenhof Gardens',
-          sv: 'Keukenhof Gardens',
+          sv: 'Keukenhof',
           es: 'Jardines Keukenhof',
           fr: 'Jardins de Keukenhof',
           de: 'Keukenhof-Gärten',
@@ -525,7 +575,7 @@ export const netherlands: Country = {
       {
         name: {
           en: 'Giethoorn Village',
-          sv: 'Giethoorn Village',
+          sv: 'Byn Giethoorn',
           es: 'Pueblo de Giethoorn',
           fr: 'Village de Giethoorn',
           de: 'Giethoorn Dorf',
@@ -549,7 +599,17 @@ export const netherlands: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-May for tulips, or June-August for warm weather and long days.',
           sv: 'April-maj för tulpaner, eller juni-augusti för varmt väder och långa dagar.',
@@ -563,7 +623,17 @@ export const netherlands: Country = {
         },
       },
       {
-        item: 'Bike rental',
+        item: {
+          en: 'Bike rental',
+          sv: 'Cykeluthyrning',
+          es: 'Alquiler de bicicletas',
+          fr: 'Location de vélos',
+          de: 'Fahrradverleih',
+          it: 'Noleggio bici',
+          pl: 'Wypożyczalnia rowerów',
+          nl: 'Fietsverhuur',
+          pt: 'Aluguel de bicicletas',
+        },
         description: {
           en: 'Essential for experiencing the Netherlands like a local.',
           sv: 'Viktigt för att uppleva Nederländerna som en lokal.',
@@ -577,7 +647,17 @@ export const netherlands: Country = {
         },
       },
       {
-        item: 'Rain gear',
+        item: {
+          en: 'Rain gear',
+          sv: 'Regnkläder',
+          es: 'Ropa impermeable',
+          fr: 'Vêtements de pluie',
+          de: 'Regenkleidung',
+          it: 'Abbigliamento antipioggia',
+          pl: 'Odzież przeciwdeszczowa',
+          nl: 'Regenkleding',
+          pt: 'Roupas para chuva',
+        },
         description: {
           en: 'Weather is unpredictable - bring a waterproof jacket year-round.',
           sv: 'Vädret är oförutsägbart - ta med en vattentät jacka året runt.',
@@ -591,7 +671,17 @@ export const netherlands: Country = {
         },
       },
       {
-        item: 'Museum card',
+        item: {
+          en: 'Museum card',
+          sv: 'Museikort',
+          es: 'Tarjeta de museos',
+          fr: 'Carte musées',
+          de: 'Museumskarte',
+          it: 'Tessera musei',
+          pl: 'Karta muzealna',
+          nl: 'Museumkaart',
+          pt: 'Cartão de museus',
+        },
         description: {
           en: 'Consider a museum card if visiting multiple museums in Amsterdam.',
           sv: 'Överväg ett museumskort om du besöker flera museer i Amsterdam.',
@@ -605,7 +695,17 @@ export const netherlands: Country = {
         },
       },
       {
-        item: 'Power adapter',
+        item: {
+          en: 'Power adapter',
+          sv: 'Reseadapter',
+          es: 'Adaptador de enchufe',
+          fr: 'Adaptateur de prise',
+          de: 'Reiseadapter',
+          it: 'Adattatore per prese',
+          pl: 'Adapter do gniazdek',
+          nl: 'Reisstekker',
+          pt: 'Adaptador de tomada',
+        },
         description: {
           en: 'Netherlands uses Type C and F plugs with 230V.',
           sv: 'Nederländerna använder typ C- och F-kontakter med 230V.',
@@ -619,7 +719,17 @@ export const netherlands: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'While cards are widely accepted, some small vendors prefer cash.',
           sv: 'Medan kort är allmänt accepterade, föredrar vissa små leverantörer kontanter.',
@@ -648,7 +758,7 @@ export const netherlands: Country = {
       },
       description: {
         en: 'Traditional Dutch comfort food - mashed potatoes with vegetables and sausage',
-        sv: 'Traditionell holländsk komfortmat - potatismos med grönsaker och korv',
+        sv: 'Traditionell holländsk husmanskost – potatismos med grönsaker och korv',
         es: 'Comida reconfortante tradicional holandesa: puré de patatas con verduras y salchichas',
         fr: 'Plat réconfortant traditionnel hollandais - purée de pommes de terre avec légumes et saucisses',
         de: 'Traditionelle holländische Hausmannskost – Kartoffelpüree mit Gemüse und Wurst',
@@ -717,7 +827,7 @@ export const netherlands: Country = {
           amount: 4,
           unit: {
             en: 'sausages',
-            sv: 'korv',
+            sv: 'korvar',
             es: 'salchichas',
             fr: 'saucisses',
             de: 'Würstchen',
@@ -772,7 +882,7 @@ export const netherlands: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -858,7 +968,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Sauté onions until golden',
-          sv: 'Fräs lök tills de är gyllene',
+          sv: 'Fräs löken tills den är gyllene',
           es: 'Saltee las cebollas hasta que estén doradas',
           fr: 'Faire revenir les oignons jusqu\'à ce qu\'ils soient dorés',
           de: 'Zwiebeln goldbraun anbraten',
@@ -869,7 +979,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Add kale to onions, cook until wilted',
-          sv: 'Lägg grönkål till lök, koka tills vissnat',
+          sv: 'Tillsätt grönkålen och fräs tills den har sjunkit ihop',
           es: 'Agregue la col rizada a las cebollas y cocine hasta que se ablanden',
           fr: 'Ajouter le chou frisé aux oignons, cuire jusqu\'à ce qu\'il soit flétri',
           de: 'Grünkohl zu den Zwiebeln geben und kochen, bis er zusammenfällt',
@@ -880,7 +990,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Heat sausages in boiling water for 10 minutes',
-          sv: 'Värm korvar i kokande vatten i 10 minuter',
+          sv: 'Värm korvarna i kokande vatten i 10 minuter',
           es: 'Calentar las salchichas en agua hirviendo durante 10 minutos',
           fr: 'Chauffer les saucisses dans l\'eau bouillante pendant 10 minutes',
           de: 'Würstchen 10 Minuten in kochendem Wasser erhitzen',
@@ -924,7 +1034,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Serve topped with sliced rookworst',
-          sv: 'Servera toppad med skivad rookworst',
+          sv: 'Servera med skivad rookworst ovanpå',
           es: 'Sirva cubierto con pepinillo en rodajas',
           fr: 'Servir garni de pires tranches de rook',
           de: 'Mit geschnittenem Rookworst',
@@ -935,7 +1045,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Traditionally eaten with a small well of gravy in the center',
-          sv: 'Traditionellt ätit med en liten brun sås i mitten',
+          sv: 'Traditionellt gör man en liten grop i moset och fyller den med brun sås',
           es: 'Tradicionalmente se come con un pequeño pozo de salsa en el centro',
           fr: 'Traditionnellement consommé avec un petit puits de sauce au centre',
           de: 'garniert servieren Traditionell wird es mit einer kleinen Vertiefung Soße in der Mitte gegessen',
@@ -962,7 +1072,7 @@ export const netherlands: Country = {
       },
       description: {
         en: 'Thin waffle cookies with caramel syrup filling, best served warm over hot coffee',
-        sv: 'Tunna våffelkakor med kolasirapsfyllning, serveras gärna varma över hett kaffe',
+        sv: 'Tunna våffelkakor med fyllning av kolasirap – godast när de har fått värmas ovanpå en kopp hett kaffe',
         es: 'Galletas finas tipo gofre con relleno de almíbar de caramelo, mejor servidas calientes con café caliente',
         fr: 'Biscuits gaufrés fins fourrés au sirop de caramel, de préférence servis chauds sur un café chaud',
         de: 'Dünne Waffelkekse mit Karamellsirupfüllung, am besten warm über heißem Kaffee serviert',
@@ -989,7 +1099,7 @@ export const netherlands: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -1046,7 +1156,7 @@ export const netherlands: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1104,7 +1214,7 @@ export const netherlands: Country = {
         {
           name: {
             en: 'Butter (for filling)',
-            sv: 'Smör (för fyllning)',
+            sv: 'Smör (till fyllningen)',
             es: 'Mantequilla (para relleno)',
             fr: 'Beurre (pour la garniture)',
             de: 'Butter (zum Füllen)',
@@ -1135,7 +1245,7 @@ export const netherlands: Country = {
       steps: [
         {
           en: 'Mix warm milk with yeast, let activate for 10 minutes',
-          sv: 'Blanda varm mjölk med jäst, låt aktiveras i 10 minuter',
+          sv: 'Rör ut jästen i ljummen mjölk och låt stå i 10 minuter',
           es: 'Mezclar la leche tibia con la levadura, dejar activar por 10 minutos',
           fr: 'Mélangez le lait tiède avec la levure, laissez agir 10 minutes',
           de: 'Warme Milch mit Hefe vermischen, 10 Minuten einwirken lassen',
@@ -1146,7 +1256,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Combine flour, sugar, melted butter, egg, yeast mixture',
-          sv: 'Blanda mjöl, socker, smält smör, ägg, jästblandning',
+          sv: 'Blanda vetemjöl, socker, smält smör, ägg och jästblandningen',
           es: 'Combine la harina, el azúcar, la mantequilla derretida, el huevo y la mezcla de levadura',
           fr: 'Mélanger la farine, le sucre, le beurre fondu, l\'œuf et le mélange de levure',
           de: 'Mehl, Zucker, geschmolzene Butter, Ei und Hefemischung vermischen',
@@ -1168,7 +1278,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Make caramel filling: heat syrup, butter, and cinnamon together',
-          sv: 'Gör kolafyllning: värm sirap, smör och kanel tillsammans',
+          sv: 'Gör kolafyllningen: värm sirap, smör och kanel tillsammans',
           es: 'Prepare relleno de caramelo: caliente el almíbar, la mantequilla y la canela juntos',
           fr: 'Préparez la garniture au caramel : faites chauffer le sirop, le beurre et la cannelle ensemble',
           de: 'Karamellfüllung herstellen: Sirup, Butter und Zimt zusammen erhitzen',
@@ -1179,7 +1289,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Heat waffle iron to medium-high',
-          sv: 'Värm våffeljärn till medelhögt',
+          sv: 'Förvärm våffeljärnet på medelhög värme',
           es: 'Calienta la plancha para gofres a fuego medio-alto',
           fr: 'Chauffer le gaufrier à feu moyen-vif',
           de: 'Waffeleisen auf mittlere bis hohe Stufe erhitzen',
@@ -1190,7 +1300,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Roll small dough balls, flatten in waffle iron',
-          sv: 'Rulla små degbollar, platta till i våffeljärn',
+          sv: 'Rulla små bollar av degen och platta till dem i våffeljärnet',
           es: 'Enrolle bolitas de masa pequeñas y aplánelas en una plancha para gofres',
           fr: 'Rouler des petites boules de pâte, les aplatir au gaufrier',
           de: 'Kleine Teigkugeln rollen, im Waffeleisen flach drücken',
@@ -1201,7 +1311,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Cook for 1-2 minutes until golden',
-          sv: 'Koka i 1-2 minuter tills de är gyllene',
+          sv: 'Grädda i 1–2 minuter tills de är gyllene',
           es: 'Cocine durante 1-2 minutos hasta que esté dorado',
           fr: 'Cuire 1 à 2 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '1–2 Minuten goldbraun backen',
@@ -1212,7 +1322,7 @@ export const netherlands: Country = {
         },
         {
           en: 'While still hot, carefully slice waffle horizontally',
-          sv: 'Medan den fortfarande är varm skär du försiktigt våfflorna horisontellt',
+          sv: 'Klyv våfflorna försiktigt till två tunna halvor medan de fortfarande är varma',
           es: 'Mientras aún está caliente, corte con cuidado el gofre en forma horizontal',
           fr: 'Pendant qu\'elle est encore chaude, tranchez soigneusement la gaufre horizontalement',
           de: 'Noch heiß die Waffel vorsichtig waagerecht aufschneiden',
@@ -1223,7 +1333,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Spread caramel filling on one half, sandwich together',
-          sv: 'Bred kolafyllning på ena halvan, smörgå ihop',
+          sv: 'Bred kolafyllningen på den ena halvan och lägg ihop halvorna',
           es: 'Unte el relleno de caramelo en la mitad y haga un sándwich',
           fr: 'Étalez la garniture au caramel sur une moitié, prenez ensemble en sandwich',
           de: 'Eine Hälfte mit Karamellfüllung bestreichen und zusammenlegen',
@@ -1234,7 +1344,7 @@ export const netherlands: Country = {
         },
         {
           en: 'Best served warm over a cup of hot coffee',
-          sv: 'Serveras bäst varmt över en kopp varmt kaffe',
+          sv: 'Godast när våffelkakan har fått ligga och värmas ovanpå en kopp varmt kaffe',
           es: 'Se sirve mejor caliente con una taza de café caliente',
           fr: 'Mieux servi chaud avec une tasse de café chaud',
           de: 'Am besten warm über einer Tasse heißen Kaffee servieren',

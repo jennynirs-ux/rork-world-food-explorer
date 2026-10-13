@@ -263,7 +263,17 @@ export const zimbabwe: Country = {
           nl: 'Stenen constructie van Groot-Zimbabwe',
           pt: 'Construção em pedra do Grande Zimbábue',
         },
-        year: '11th-15th Century',
+        year: {
+          en: '11th-15th Century',
+          sv: '1000–1400-talen',
+          es: 'Siglos XI–XV',
+          fr: 'XIe–XVe siècles',
+          de: '11.–15. Jahrhundert',
+          it: 'XI–XV secolo',
+          pl: 'XI–XV wiek',
+          nl: '11e–15e eeuw',
+          pt: 'Séculos XI–XV',
+        },
         description: {
           en: 'Massive dry-stone walls built without mortar, demonstrating advanced architectural engineering',
           sv: 'Massiva torra stenmurar byggda utan murbruk, som visar avancerad arkitektonisk ingenjörskonst',
@@ -288,7 +298,17 @@ export const zimbabwe: Country = {
           nl: 'Shona-steensculptuur',
           pt: 'Escultura em pedra Shona',
         },
-        year: '1950s-Present',
+        year: {
+          en: '1950s-Present',
+          sv: '1950-talet–idag',
+          es: 'Década de 1950–actualidad',
+          fr: 'Années 1950–aujourd\'hui',
+          de: '1950er–heute',
+          it: 'Anni \'50–oggi',
+          pl: 'Lata 50.–obecnie',
+          nl: 'Jaren 50–heden',
+          pt: 'Década de 1950–presente',
+        },
         description: {
           en: 'Contemporary sculptural movement blending traditional forms with modern artistry, globally acclaimed',
           sv: 'Samtida skulpturrörelse som blandar traditionella former med modernt konstnärskap, globalt hyllad',
@@ -313,7 +333,17 @@ export const zimbabwe: Country = {
           nl: 'Muzikale innovatie van de mbira',
           pt: 'Inovação musical da mbira',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Thumb piano instrument creating complex polyphonic music, influencing world music',
           sv: 'Tumpianoinstrument skapar komplex polyfonisk musik som påverkar världsmusiken',
@@ -338,7 +368,17 @@ export const zimbabwe: Country = {
           nl: 'Terrasvormige landbouwsystemen',
           pt: 'Sistemas agrícolas em terraços',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Developed sustainable hillside agriculture techniques for Zimbabwe\'s varied terrain',
           sv: 'Utvecklade hållbara jordbrukstekniker på sluttningar för Zimbabwes varierande terräng',
@@ -354,8 +394,28 @@ export const zimbabwe: Country = {
     ],
     history: [
       {
-        year: '11th–15th century',
-        title: 'Great Zimbabwe',
+        year: {
+          en: '11th–15th century',
+          sv: '1000–1400-talen',
+          es: 'Siglos XI–XV',
+          fr: 'XIe–XVe siècles',
+          de: '11.–15. Jahrhundert',
+          it: 'XI–XV secolo',
+          pl: 'XI–XV wiek',
+          nl: '11e–15e eeuw',
+          pt: 'Séculos XI–XV',
+        },
+        title: {
+          en: 'Great Zimbabwe',
+          sv: 'Stora Zimbabwe',
+          es: 'Gran Zimbabue',
+          fr: 'Grand Zimbabwe',
+          de: 'Great Zimbabwe',
+          it: 'Grande Zimbabwe',
+          pl: 'Wielkie Zimbabwe',
+          nl: 'Groot-Zimbabwe',
+          pt: 'Grande Zimbábue',
+        },
         description: {
           en: 'A powerful kingdom built the Great Zimbabwe stone city, one of Africa\'s most important archaeological sites.',
           sv: 'Ett mäktigt kungarike byggde stenstaden Great Zimbabwe, en av Afrikas viktigaste arkeologiska platser.',
@@ -370,7 +430,17 @@ export const zimbabwe: Country = {
       },
       {
         year: '1890–1980',
-        title: 'Colonial Era',
+        title: {
+          en: 'Colonial Era',
+          sv: 'Kolonialtiden',
+          es: 'Época colonial',
+          fr: 'Époque coloniale',
+          de: 'Kolonialzeit',
+          it: 'Epoca coloniale',
+          pl: 'Okres kolonialny',
+          nl: 'Koloniale tijd',
+          pt: 'Período colonial',
+        },
         description: {
           en: 'The region experienced colonial rule and major political changes that shaped modern Zimbabwe.',
           sv: 'Regionen upplevde kolonialt styre och stora politiska förändringar som formade det moderna Zimbabwe.',
@@ -385,7 +455,17 @@ export const zimbabwe: Country = {
       },
       {
         year: '1980',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Zimbabwe became an independent nation after a long liberation struggle.',
           sv: 'Zimbabwe blev en självständig nation efter en lång befrielsekamp.',
@@ -401,7 +481,17 @@ export const zimbabwe: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa required for most visitors, available on arrival at major entry points.',
           sv: 'Visum krävs för de flesta besökare, tillgängligt vid ankomst till större infarter.',
@@ -415,7 +505,17 @@ export const zimbabwe: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April to October (dry season) for wildlife viewing and Victoria Falls.',
           sv: 'April till oktober (torrsäsong) för djurliv och Victoriafallen.',
@@ -429,7 +529,17 @@ export const zimbabwe: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights, buses, and car rentals available. Roads vary in condition.',
           sv: 'Inrikesflyg, bussar och biluthyrning tillgängliga. Vägarna varierar i skick.',
@@ -443,7 +553,17 @@ export const zimbabwe: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Malaria precautions necessary. Stay hydrated and use sunscreen.',
           sv: 'Malaria försiktighetsåtgärder nödvändiga. Håll dig hydrerad och använd solskyddsmedel.',
@@ -457,7 +577,17 @@ export const zimbabwe: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Exercise normal caution. Tourist areas generally safe.',
           sv: 'Iaktta normal försiktighet. Turistområden i allmänhet säkra.',
@@ -547,7 +677,7 @@ export const zimbabwe: Country = {
       {
         name: {
           en: 'Mana Pools National Park',
-          sv: 'Mana Pools National Park',
+          sv: 'Mana Pools nationalpark',
           es: 'Parque Nacional Mana Pools',
           fr: 'Mana Pools National Park',
           de: 'Mana-Pools-Nationalpark',
@@ -571,7 +701,7 @@ export const zimbabwe: Country = {
       {
         name: {
           en: 'Matobo Hills',
-          sv: 'Matobo Hills',
+          sv: 'Matobokullarna',
           es: 'Colinas de Matobo',
           fr: 'Collines de Matobo',
           de: 'Matobo-Hügel',
@@ -608,7 +738,7 @@ export const zimbabwe: Country = {
       },
       description: {
         en: 'Zimbabwe\'s classic comfort meal: thick maize porridge served with savory beef and tomato-onion stew, plus leafy greens.',
-        sv: 'Zimbabwes klassiska komfortmåltid: tjock majsgröt serverad med välsmakande nötkött och tomat-lökgryta, plus bladgrönsaker.',
+        sv: 'Zimbabwes klassiska husmanskost: tjock majsgröt med en smakrik gryta på nötkött, tomat och lök samt bladgrönsaker.',
         es: 'La clásica comida reconfortante de Zimbabwe: gachas espesas de maíz servidas con sabroso estofado de carne de res y tomate y cebolla, además de verduras de hojas verdes.',
         fr: 'Le repas réconfortant classique du Zimbabwe : une bouillie de maïs épaisse servie avec un savoureux ragoût de bœuf et de tomates et d\'oignons, ainsi que des légumes-feuilles.',
         de: 'Simbabwes klassisches Wohlfühlessen: dicker Maisbrei, serviert mit herzhaftem Rindfleisch und Tomaten-Zwiebel-Eintopf sowie Blattgemüse.',
@@ -635,7 +765,7 @@ export const zimbabwe: Country = {
         {
           name: {
             en: 'White maize meal',
-            sv: 'Vit majsmjöl',
+            sv: 'Vitt majsmjöl',
             es: 'Harina de maíz blanco',
             fr: 'Farine de maïs blanc',
             de: 'Weißes Maismehl',
@@ -650,7 +780,7 @@ export const zimbabwe: Country = {
         {
           name: {
             en: 'Beef chunks',
-            sv: 'Nötköttsbitar',
+            sv: 'Grytbitar av nöt',
             es: 'Trozos de ternera',
             fr: 'Morceaux de boeuf',
             de: 'Rindfleischstücke',
@@ -677,7 +807,7 @@ export const zimbabwe: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -702,7 +832,7 @@ export const zimbabwe: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -715,7 +845,7 @@ export const zimbabwe: Country = {
         {
           name: {
             en: 'Collard greens (or kale)',
-            sv: 'Collard greener (eller grönkål)',
+            sv: 'Bladkål (eller grönkål)',
             es: 'Coles verdes (o col rizada)',
             fr: 'Chou vert (ou chou frisé)',
             de: 'Grünkohl (oder Grünkohl)',
@@ -786,7 +916,7 @@ export const zimbabwe: Country = {
       steps: [
         {
           en: 'Brown beef in oil with chopped onions',
-          sv: 'Bryn nötkött i olja med hackad lök',
+          sv: 'Bryn köttet i olja tillsammans med hackad lök',
           es: 'Dorar la carne en aceite con cebolla picada',
           fr: 'Faire dorer le bœuf à l\'huile avec des oignons émincés',
           de: 'Rindfleisch in Öl mit gehackten Zwiebeln anbraten',
@@ -819,7 +949,7 @@ export const zimbabwe: Country = {
         },
         {
           en: 'For sadza: bring water to a boil in a pot',
-          sv: 'För sadza: koka upp vatten i en kastrull',
+          sv: 'Till sadzan: koka upp vatten i en kastrull',
           es: 'Para sadza: poner a hervir agua en una olla',
           fr: 'Pour la sadza : porter l\'eau à ébullition dans une casserole',
           de: 'Für Sadza: Wasser in einem Topf zum Kochen bringen',
@@ -830,7 +960,7 @@ export const zimbabwe: Country = {
         },
         {
           en: 'Add maize meal gradually while stirring constantly to avoid lumps',
-          sv: 'Tillsätt majsmjöl gradvis under ständig omrörning för att undvika klumpar',
+          sv: 'Strö ner majsmjölet lite i taget och rör hela tiden så att det inte blir klumpar',
           es: 'Agregue la harina de maíz gradualmente mientras revuelve constantemente para evitar grumos',
           fr: 'Ajouter progressivement la farine de maïs en remuant constamment pour éviter les grumeaux',
           de: 'Maismehl nach und nach unter ständigem Rühren hinzufügen, um Klumpenbildung zu vermeiden',
@@ -841,7 +971,7 @@ export const zimbabwe: Country = {
         },
         {
           en: 'Cook until thick and smooth, stirring frequently',
-          sv: 'Koka tills den är tjock och slät, rör om ofta',
+          sv: 'Koka tills gröten är tjock och slät och rör om ofta',
           es: 'Cocine hasta que esté espeso y suave, revolviendo con frecuencia',
           fr: 'Cuire jusqu\'à consistance épaisse et lisse, en remuant fréquemment',
           de: 'Unter häufigem Rühren dick und glatt kochen',
@@ -852,7 +982,7 @@ export const zimbabwe: Country = {
         },
         {
           en: 'Sauté collard greens with a little onion and salt until tender',
-          sv: 'Fräs collard greener med lite lök och salt tills de är mjuka',
+          sv: 'Fräs bladkålen med lite lök och salt tills den är mjuk',
           es: 'Saltear las coles con un poco de cebolla y sal hasta que estén tiernas',
           fr: 'Faire revenir le chou vert avec un peu d\'oignon et du sel jusqu\'à ce qu\'il soit tendre',
           de: 'Den Grünkohl mit etwas Zwiebel und Salz anbraten, bis er weich ist',
@@ -863,7 +993,7 @@ export const zimbabwe: Country = {
         },
         {
           en: 'Serve sadza with beef stew and greens on the side',
-          sv: 'Servera sadza med biffgryta och grönt vid sidan om',
+          sv: 'Servera sadzan med grytan och bladkålen vid sidan om',
           es: 'Sirva la sadza con estofado de ternera y verduras como acompañamiento',
           fr: 'Servir la sadza avec un ragoût de bœuf et des légumes verts en accompagnement',
           de: 'Servieren Sie Sadza mit Rindereintopf und Gemüse als Beilage',
@@ -878,26 +1008,26 @@ export const zimbabwe: Country = {
     dessert: {
       id: 'zimbabwe-dessert',
       name: {
-        en: 'Sweet Potato Pudding',
-        sv: 'Maputi (Sweet Popcorn Snack)',
-        es: 'Maputi (bocadillo dulce de palomitas de maíz)',
-        fr: 'Maputi (collation de pop-corn sucré)',
+        en: 'Maputi (sweet popcorn snack)',
+        sv: 'Maputi (söta popcorn)',
+        es: 'Maputi (palomitas dulces)',
+        fr: 'Maputi (pop-corn sucré)',
         de: 'Maputi (süßer Popcorn-Snack)',
-        it: 'Maputi (Sweet Popcorn Snack)',
-        pl: 'Maputi (Sweet Popcorn Snack)',
-        nl: 'Maputi (Sweet Popcorn Snack)',
-        pt: 'Maputi (Sweet Popcorn Snack)',
+        it: 'Maputi (popcorn dolci)',
+        pl: 'Maputi (słodki popcorn)',
+        nl: 'Maputi (zoete popcorn)',
+        pt: 'Maputi (pipoca doce)',
       },
       description: {
-        en: 'Zimbabwean baked sweet potato pudding with cinnamon and brown sugar, a warm and comforting dessert.',
-        sv: 'En populär efterrätt i snackstil: popcorn (maputi) lätt överdragna med socker eller avnjuts med rostade jordnötter.',
+        en: 'A popular snack-style dessert: popcorn (maputi) coated lightly with sugar or enjoyed with roasted peanuts.',
+        sv: 'Ett populärt sött tilltugg som också äts som efterrätt: popcorn (maputi) som vänds i lite socker eller äts med rostade jordnötter.',
         es: 'Un postre popular estilo merienda: palomitas de maíz (maputi) recubiertas ligeramente con azúcar o disfrutadas con maní tostado.',
         fr: 'Un dessert populaire de style collation : du pop-corn (maputi) légèrement enrobé de sucre ou dégusté avec des cacahuètes grillées.',
         de: 'Ein beliebtes Dessert im Snack-Stil: Popcorn (Maputi), leicht mit Zucker überzogen oder mit gerösteten Erdnüssen genossen.',
-        it: 'A popular snack-style dessert: popcorn (maputi) coated lightly with sugar or enjoyed with roasted peanuts.',
-        pl: 'A popular snack-style dessert: popcorn (maputi) coated lightly with sugar or enjoyed with roasted peanuts.',
-        nl: 'A popular snack-style dessert: popcorn (maputi) coated lightly with sugar or enjoyed with roasted peanuts.',
-        pt: 'A popular snack-style dessert: popcorn (maputi) coated lightly with sugar or enjoyed with roasted peanuts.',
+        it: 'Un dolce molto amato in stile snack: popcorn (maputi) leggermente ricoperti di zucchero o gustati con arachidi tostate.',
+        pl: 'Popularny deser w formie przekąski: popcorn (maputi) lekko obtoczony w cukrze lub podawany z prażonymi orzeszkami ziemnymi.',
+        nl: 'Een populair dessert in snackvorm: popcorn (maputi) licht bestrooid met suiker of gegeten met geroosterde pinda\'s.',
+        pt: 'Uma sobremesa popular em estilo petisco: pipoca (maputi) levemente coberta com açúcar ou servida com amendoim torrado.',
       },
       cookingTime: 15,
       difficulty: 'easy',
@@ -917,7 +1047,7 @@ export const zimbabwe: Country = {
         {
           name: {
             en: 'Popcorn kernels',
-            sv: 'Popcornkärnor',
+            sv: 'Popcornmajs',
             es: 'Granos de palomitas de maíz',
             fr: 'Grains de pop-corn',
             de: 'Popcornkerne',
@@ -932,7 +1062,7 @@ export const zimbabwe: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -1014,10 +1144,10 @@ export const zimbabwe: Country = {
         },
         {
           en: 'Add popcorn kernels and cover',
-          sv: 'Lägg till popcornkärnor och täck',
+          sv: 'Häll i popcornkärnorna och lägg på locket',
           es: 'Agregue los granos de palomitas de maíz y cubra',
           fr: 'Ajouter les grains de pop-corn et couvrir',
-          de: 'Popcornkerne hinzufügen und abdecken',
+          de: 'Popcornkerne hinzufügen und den Deckel auflegen',
           it: 'Aggiungere i chicchi di popcorn e coprire',
           pl: 'Dodaj ziarna kukurydzy na popcorn i przykryj',
           nl: 'Voeg de popcornkorrels toe en dek af',
@@ -1025,18 +1155,18 @@ export const zimbabwe: Country = {
         },
         {
           en: 'Shake the pot occasionally until popping slows',
-          sv: 'Skaka grytan då och då tills det går långsammare',
-          es: 'Agite la olla de vez en cuando hasta que explote más lentamente',
-          fr: 'Secouez le pot de temps en temps jusqu\'à ce que l\'éclatement ralentisse',
-          de: 'Schütteln Sie den Topf gelegentlich, bis das Platzen nachlässt',
+          sv: 'Skaka grytan då och då tills poppandet avtar',
+          es: 'Agite la olla de vez en cuando hasta que los granos dejen casi de estallar',
+          fr: 'Secouez la casserole de temps en temps jusqu\'à ce que les grains éclatent moins souvent',
+          de: 'Den Topf gelegentlich schütteln, bis das Platzen nachlässt',
           it: 'Scuotere la pentola di tanto in tanto finché lo scoppiettio non rallenta',
-          pl: 'Potrząsaj garnkiem od czasu do czasu, aż pękanie zwolni',
-          nl: 'Schud de pan af en toe tot het poppen vertraagt',
+          pl: 'Potrząsaj garnkiem od czasu do czasu, aż ziarna przestaną tak często strzelać',
+          nl: 'Schud de pan af en toe tot het poppen afneemt',
           pt: 'Balance a panela de vez em quando até o estouro diminuir',
         },
         {
           en: 'Sprinkle with sugar (and a pinch of salt if desired) while warm',
-          sv: 'Strö över socker (och en nypa salt om så önskas) medan det är varmt',
+          sv: 'Strö över socker (och en nypa salt om du vill) medan popcornen fortfarande är varma',
           es: 'Espolvorea con azúcar (y una pizca de sal si lo deseas) mientras esté caliente',
           fr: 'Saupoudrer de sucre (et d\'une pincée de sel si désiré) pendant qu\'il est chaud',
           de: 'Noch warm mit Zucker (und einer Prise Salz, falls gewünscht) bestreuen',
@@ -1047,18 +1177,18 @@ export const zimbabwe: Country = {
         },
         {
           en: 'Toss to coat evenly',
-          sv: 'Kasta för att täcka jämnt',
+          sv: 'Vänd runt så att allt täcks jämnt',
           es: 'Mezcle para cubrir uniformemente',
           fr: 'Remuer pour enrober uniformément',
-          de: 'Zum gleichmäßigen Beschichten vermengen',
+          de: 'Gut durchschwenken, damit alles gleichmäßig überzogen ist',
           it: 'Mescolare per ricoprire in modo uniforme',
-          pl: 'Wymieszaj, aby równomiernie pokryć',
+          pl: 'Wymieszaj, aby popcorn równomiernie się obtoczył',
           nl: 'Schep om tot het gelijkmatig bedekt is',
           pt: 'Misture para cobrir uniformemente',
         },
         {
           en: 'Optional: mix in roasted peanuts before serving',
-          sv: 'Valfritt: blanda i rostade jordnötter innan servering',
+          sv: 'Valfritt: blanda i rostade jordnötter strax före servering',
           es: 'Opcional: agregue maní tostado antes de servir',
           fr: 'Facultatif : incorporer des cacahuètes grillées avant de servir',
           de: 'Optional: Vor dem Servieren geröstete Erdnüsse untermischen',
@@ -1202,7 +1332,7 @@ export const zimbabwe: Country = {
           },
           {
             en: 'Angel Falls',
-            sv: 'Angel Falls',
+            sv: 'Angelfallet',
             es: 'Salto Ángel',
             fr: 'Chutes d\'Ange',
             de: 'Angel Falls',
@@ -1224,7 +1354,7 @@ export const zimbabwe: Country = {
           },
           {
             en: 'Iguazu Falls',
-            sv: 'Iguazu Falls',
+            sv: 'Iguazúfallen',
             es: 'Cataratas del Iguazú',
             fr: 'Chutes d\'Iguazú',
             de: 'Iguazu-Wasserfälle',
@@ -1395,7 +1525,7 @@ export const zimbabwe: Country = {
         options: [
           {
             en: 'Lake Kariba',
-            sv: 'Lake Kariba',
+            sv: 'Karibasjön',
             es: 'Lago Kariba',
             fr: 'Lac Kariba',
             de: 'Kariba-See',

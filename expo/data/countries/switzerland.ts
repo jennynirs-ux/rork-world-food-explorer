@@ -264,7 +264,17 @@ export const switzerland: Country = {
     history: [
       {
         year: '1291',
-        title: 'Swiss Confederation Founded',
+        title: {
+          en: 'Swiss Confederation Founded',
+          sv: 'Schweiziska edsförbundet grundas',
+          es: 'Fundación de la Confederación Suiza',
+          fr: 'Fondation de la Confédération suisse',
+          de: 'Gründung der Eidgenossenschaft',
+          it: 'Fondazione della Confederazione svizzera',
+          pl: 'Powstanie Konfederacji Szwajcarskiej',
+          nl: 'Oprichting van het Zwitserse Eedgenootschap',
+          pt: 'Fundação da Confederação Suíça',
+        },
         description: {
           en: 'An alliance of three cantons laid the foundation for modern Switzerland.',
           sv: 'En allians av tre kantoner lade grunden för det moderna Schweiz.',
@@ -279,7 +289,17 @@ export const switzerland: Country = {
       },
       {
         year: '1648',
-        title: 'Independence Recognized',
+        title: {
+          en: 'Independence Recognized',
+          sv: 'Självständigheten erkänns',
+          es: 'Independencia reconocida',
+          fr: 'Indépendance reconnue',
+          de: 'Anerkennung der Unabhängigkeit',
+          it: 'Indipendenza riconosciuta',
+          pl: 'Uznanie niepodległości',
+          nl: 'Onafhankelijkheid erkend',
+          pt: 'Independência reconhecida',
+        },
         description: {
           en: 'Swiss independence was formally recognized by the Peace of Westphalia.',
           sv: 'Schweizisk självständighet erkändes formellt av freden i Westfalen.',
@@ -294,7 +314,17 @@ export const switzerland: Country = {
       },
       {
         year: '1815',
-        title: 'Permanent Neutrality',
+        title: {
+          en: 'Permanent Neutrality',
+          sv: 'Permanent neutralitet',
+          es: 'Neutralidad permanente',
+          fr: 'Neutralité perpétuelle',
+          de: 'Immerwährende Neutralität',
+          it: 'Neutralità perpetua',
+          pl: 'Wieczysta neutralność',
+          nl: 'Permanente neutraliteit',
+          pt: 'Neutralidade permanente',
+        },
         description: {
           en: 'Switzerland\'s neutrality was internationally recognized.',
           sv: 'Schweiz neutralitet erkändes internationellt.',
@@ -309,7 +339,17 @@ export const switzerland: Country = {
       },
       {
         year: '1848',
-        title: 'Federal Constitution',
+        title: {
+          en: 'Federal Constitution',
+          sv: 'Den federala författningen',
+          es: 'Constitución federal',
+          fr: 'Constitution fédérale',
+          de: 'Bundesverfassung',
+          it: 'Costituzione federale',
+          pl: 'Konstytucja federalna',
+          nl: 'Federale grondwet',
+          pt: 'Constituição federal',
+        },
         description: {
           en: 'A modern federal state was established.',
           sv: 'En modern federal stat upprättades.',
@@ -324,7 +364,17 @@ export const switzerland: Country = {
       },
       {
         year: '1971',
-        title: 'Women\'s Suffrage',
+        title: {
+          en: 'Women\'s Suffrage',
+          sv: 'Kvinnlig rösträtt',
+          es: 'Sufragio femenino',
+          fr: 'Droit de vote des femmes',
+          de: 'Frauenwahlrecht',
+          it: 'Suffragio femminile',
+          pl: 'Prawa wyborcze kobiet',
+          nl: 'Vrouwenkiesrecht',
+          pt: 'Voto feminino',
+        },
         description: {
           en: 'Swiss women gained the right to vote at the federal level.',
           sv: 'Schweiziska kvinnor fick rösträtt på federal nivå.',
@@ -376,7 +426,17 @@ export const switzerland: Country = {
           nl: 'Zwitserse engineering en precisie',
           pt: 'Engenharia e precisão suíças',
         },
-        year: '19th–20th Century',
+        year: {
+          en: '19th–20th Century',
+          sv: '1800–1900-talen',
+          es: 'Siglos XIX–XX',
+          fr: 'XIXe–XXe siècles',
+          de: '19.–20. Jahrhundert',
+          it: 'XIX–XX secolo',
+          pl: 'XIX–XX wiek',
+          nl: '19e–20e eeuw',
+          pt: 'Séculos XIX–XX',
+        },
         description: {
           en: 'Switzerland became globally known for precision manufacturing, especially watchmaking and advanced machinery.',
           sv: 'Schweiz blev globalt känt för precisionstillverkning, särskilt klocktillverkning och avancerade maskiner.',
@@ -401,7 +461,17 @@ export const switzerland: Country = {
           nl: 'Farmaceutica en biowetenschappen',
           pt: 'Farmacêutica e ciências da vida',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Major Swiss companies helped drive innovations in medicine, diagnostics, and global healthcare.',
           sv: 'Stora schweiziska företag hjälpte till att driva innovationer inom medicin, diagnostik och global hälsovård.',
@@ -426,7 +496,17 @@ export const switzerland: Country = {
           nl: 'Directe democratie',
           pt: 'Democracia direta',
         },
-        year: '19th Century',
+        year: {
+          en: '19th Century',
+          sv: '1800-talet',
+          es: 'Siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'Século XIX',
+        },
         description: {
           en: 'Switzerland developed a strong tradition of referendums and citizen participation, shaping modern democratic governance.',
           sv: 'Schweiz utvecklade en stark tradition av folkomröstningar och medborgardeltagande, vilket formade modern demokratiskt styre.',
@@ -492,7 +572,7 @@ export const switzerland: Country = {
       {
         name: {
           en: 'Lucerne & Chapel Bridge',
-          sv: 'Lucerne & Chapel Bridge',
+          sv: 'Luzern och Kapellbrücke',
           es: 'Lucerna y Puente de la Capilla',
           fr: 'Lucerne et pont de la Chapelle',
           de: 'Luzern & Kapellbrücke',
@@ -564,7 +644,17 @@ export const switzerland: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen rules apply for most visitors.',
           sv: 'Schengenreglerna gäller för de flesta besökare.',
@@ -578,7 +668,17 @@ export const switzerland: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Winter for skiing, summer for hiking and lakes.',
           sv: 'Vinter för skidåkning, sommar för vandring och sjöar.',
@@ -592,7 +692,17 @@ export const switzerland: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Trains are punctual, clean, and scenic; buy day passes when touring.',
           sv: 'Tågen är punktliga, rena och natursköna; köp dagskort när du reser.',
@@ -606,7 +716,17 @@ export const switzerland: Country = {
         },
       },
       {
-        item: 'Languages',
+        item: {
+          en: 'Languages',
+          sv: 'Språk',
+          es: 'Idiomas',
+          fr: 'Langues',
+          de: 'Sprachen',
+          it: 'Lingue',
+          pl: 'Języki',
+          nl: 'Talen',
+          pt: 'Idiomas',
+        },
         description: {
           en: 'Language varies by region; English is widely spoken in tourist areas.',
           sv: 'Språket varierar beroende på region; Engelska talas mycket i turistområden.',
@@ -620,7 +740,17 @@ export const switzerland: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'One of the safest countries globally.',
           sv: 'Ett av de säkraste länderna i världen.',
@@ -649,7 +779,7 @@ export const switzerland: Country = {
       },
       description: {
         en: 'A communal dish of melted cheese enjoyed by dipping bread into the pot.',
-        sv: 'En gemensam rätt med smält ost som avnjuts genom att doppa bröd i grytan.',
+        sv: 'En rätt med smält ost som man delar på och äter genom att doppa bröd i grytan.',
         es: 'Un plato comunitario de queso derretido que se disfruta mojando pan en la olla.',
         fr: 'Un plat commun de fromage fondu dégusté en trempant du pain dans la marmite.',
         de: 'Ein gemeinsames Gericht aus geschmolzenem Käse, das man genießt, indem man Brot in den Topf taucht.',
@@ -676,7 +806,7 @@ export const switzerland: Country = {
         {
           name: {
             en: 'Gruyère cheese',
-            sv: 'Gruyère ost',
+            sv: 'Gruyère',
             es: 'Queso gruyere',
             fr: 'Fromage Gruyère',
             de: 'Gruyère-Käse',
@@ -826,7 +956,7 @@ export const switzerland: Country = {
         {
           name: {
             en: 'Crusty bread',
-            sv: 'Crusty bröd',
+            sv: 'Frasigt bröd',
             es: 'Pan crujiente',
             fr: 'Pain croustillant',
             de: 'Knuspriges Brot',
@@ -842,7 +972,7 @@ export const switzerland: Country = {
       steps: [
         {
           en: 'Cut bread into cubes',
-          sv: 'Skär bröd i tärningar',
+          sv: 'Skär brödet i tärningar',
           es: 'Cortar el pan en cubos',
           fr: 'Couper le pain en cubes',
           de: 'Brot in Würfel schneiden',
@@ -853,7 +983,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Grate cheeses and mix with cornstarch',
-          sv: 'Riv ostar och blanda med majsstärkelse',
+          sv: 'Riv ostarna och blanda dem med majsstärkelse',
           es: 'Rallar los quesos y mezclar con maicena',
           fr: 'Râper les fromages et mélanger avec la fécule de maïs',
           de: 'Käse reiben und mit Maisstärke vermischen',
@@ -864,7 +994,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Rub fondue pot with garlic',
-          sv: 'Gnid fonduegryta med vitlök',
+          sv: 'Gnid in fonduegrytan med vitlök',
           es: 'Frote la olla de fondue con ajo',
           fr: 'Frotter le caquelon à fondue avec l\'ail',
           de: 'Fonduetopf mit Knoblauch einreiben',
@@ -875,7 +1005,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Heat wine until simmering',
-          sv: 'Värm vin tills det sjuder',
+          sv: 'Värm vinet tills det sjuder',
           es: 'Calentar el vino hasta que hierva a fuego lento',
           fr: 'Chauffer le vin jusqu\'à ce qu\'il frémisse',
           de: 'Wein erhitzen, bis er köchelt',
@@ -886,7 +1016,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Add cheese gradually while stirring',
-          sv: 'Tillsätt osten gradvis under omrörning',
+          sv: 'Tillsätt osten lite i taget under omrörning',
           es: 'Agregue el queso gradualmente mientras revuelve',
           fr: 'Ajouter le fromage progressivement en remuant',
           de: 'Käse nach und nach unter Rühren hinzufügen',
@@ -897,7 +1027,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Stir in kirsch',
-          sv: 'Rör i kirsch',
+          sv: 'Rör ner kirschen',
           es: 'Agregue el kirsch',
           fr: 'Incorporer le kirsch',
           de: 'Kirschwasser unterrühren',
@@ -919,7 +1049,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Keep warm and serve immediately',
-          sv: 'Håll varmt och servera omedelbart',
+          sv: 'Håll fonduen varm och servera direkt',
           es: 'Mantener caliente y servir inmediatamente',
           fr: 'Gardez au chaud et servez immédiatement',
           de: 'Warm halten und sofort servieren',
@@ -946,7 +1076,7 @@ export const switzerland: Country = {
       },
       description: {
         en: 'A classic Swiss layer cake from Zug made with airy nut meringue layers, buttercream, and a touch of kirsch (cherry spirit).',
-        sv: 'En klassisk schweizisk lagertårta från Zug gjord med luftiga lager av nötmaräng, smörkräm och en touch av kirsch (körsbärssprit).',
+        sv: 'En klassisk schweizisk tårta från Zug med luftiga bottnar av nötmaräng, smörkräm och en skvätt kirsch (körsbärsbrännvin).',
         es: 'Un clásico pastel suizo de capas de Zug elaborado con capas de merengue de nueces, crema de mantequilla y un toque de kirsch (aguardiente de cereza).',
         fr: 'Un gâteau en couches suisse classique de Zoug composé de couches de meringue aérée aux noix, de crème au beurre et d\'une touche de kirsch (alcool de cerise).',
         de: 'Eine klassische Schweizer Torte aus Zug, hergestellt aus luftigen Nuss-Baiser-Schichten, Buttercreme und einem Hauch Kirschwasser.',
@@ -973,7 +1103,7 @@ export const switzerland: Country = {
         {
           name: {
             en: 'Egg whites',
-            sv: 'Äggvita',
+            sv: 'Äggvitor',
             es: 'Claras de huevo',
             fr: 'Blancs d\'œufs',
             de: 'Eiweiß',
@@ -985,7 +1115,7 @@ export const switzerland: Country = {
           amount: 5,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1028,7 +1158,7 @@ export const switzerland: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1043,7 +1173,7 @@ export const switzerland: Country = {
         {
           name: {
             en: 'Butter (soft)',
-            sv: 'Smör (mjukt)',
+            sv: 'Smör (rumsvarmt)',
             es: 'Mantequilla (blanda)',
             fr: 'Beurre (doux)',
             de: 'Butter (weich)',
@@ -1058,7 +1188,7 @@ export const switzerland: Country = {
         {
           name: {
             en: 'Powdered sugar',
-            sv: 'Strösocker',
+            sv: 'Florsocker',
             es: 'Azúcar en polvo',
             fr: 'Sucre en poudre',
             de: 'Puderzucker',
@@ -1138,7 +1268,7 @@ export const switzerland: Country = {
         {
           name: {
             en: 'Sliced almonds (for decoration)',
-            sv: 'Skivad mandel (för dekoration)',
+            sv: 'Skivad mandel (till garnering)',
             es: 'Almendras laminadas (para decoración)',
             fr: 'Amandes tranchées (pour la décoration)',
             de: 'Gehobelte Mandeln (zur Dekoration)',
@@ -1154,7 +1284,7 @@ export const switzerland: Country = {
       steps: [
         {
           en: 'Preheat oven to 170°C and line two round cake pans with parchment.',
-          sv: 'Värm ugnen till 170°C och klä två runda kakformar med bakplåtspapper.',
+          sv: 'Värm ugnen till 170°C och klä två runda tårtformar med bakplåtspapper.',
           es: 'Precalienta el horno a 170°C y forra dos moldes para pasteles redondos con papel pergamino.',
           fr: 'Préchauffer le four à 170°C et tapisser deux moules à gâteau ronds de papier sulfurisé.',
           de: 'Den Ofen auf 170 °C vorheizen und zwei runde Kuchenformen mit Backpapier auslegen.',
@@ -1165,7 +1295,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Whip egg whites to soft peaks, then gradually add sugar and whip to glossy stiff peaks.',
-          sv: 'Vispa äggvitan till mjuka toppar, tillsätt sedan socker gradvis och vispa till glansiga styva toppar.',
+          sv: 'Vispa äggvitorna till ett mjukt skum, tillsätt sedan sockret lite i taget och vispa till en glansig, fast maräng.',
           es: 'Batir las claras de huevo hasta obtener picos suaves, luego agregar gradualmente el azúcar y batir hasta obtener picos rígidos y brillantes.',
           fr: 'Fouettez les blancs d\'œufs en pics mous, puis ajoutez progressivement le sucre et fouettez jusqu\'à obtenir des pics fermes et brillants.',
           de: 'Das Eiweiß zu weichen Spitzen schlagen, dann nach und nach Zucker hinzufügen und zu glänzenden, steifen Spitzen schlagen.',
@@ -1176,7 +1306,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Fold in ground nuts and flour gently until combined.',
-          sv: 'Vänd ner malda nötter och mjöl försiktigt tills det blandas.',
+          sv: 'Vänd försiktigt ner de malda nötterna och mjölet tills allt är blandat.',
           es: 'Incorpora las nueces molidas y la harina suavemente hasta que se combinen.',
           fr: 'Incorporer délicatement les noix moulues et la farine jusqu\'à ce que le tout soit bien mélangé.',
           de: 'Gemahlene Nüsse und Mehl vorsichtig unterheben, bis alles gut vermischt ist.',
@@ -1187,7 +1317,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Spread batter into pans and bake 25–30 minutes until lightly golden; cool completely.',
-          sv: 'Fördela smeten i formar och grädda 25–30 minuter tills de är lätt gyllene; svalna helt.',
+          sv: 'Fördela smeten i formarna och grädda i 25–30 minuter tills bottnarna är lätt gyllene. Låt svalna helt.',
           es: 'Extienda la masa en moldes y hornee de 25 a 30 minutos hasta que esté ligeramente dorado; enfriar completamente.',
           fr: 'Étaler la pâte dans les moules et cuire au four 25 à 30 minutes jusqu\'à ce qu\'elle soit légèrement dorée ; refroidir complètement.',
           de: 'Den Teig in Formen verteilen und 25–30 Minuten backen, bis er leicht goldbraun ist. vollständig abkühlen lassen.',
@@ -1198,7 +1328,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Beat butter with powdered sugar and vanilla until fluffy; add milk to loosen if needed.',
-          sv: 'Vispa smör med strösocker och vanilj tills det är fluffigt; tillsätt mjölk för att lossa om det behövs.',
+          sv: 'Vispa smöret med florsocker och vanilj tills det är luftigt. Tillsätt lite mjölk om krämen behöver bli lösare.',
           es: 'Batir la mantequilla con el azúcar glass y la vainilla hasta que quede esponjoso; agregue leche para aflojar si es necesario.',
           fr: 'Battre le beurre avec le sucre en poudre et la vanille jusqu\'à consistance mousseuse ; ajouter du lait pour détendre si nécessaire.',
           de: 'Butter mit Puderzucker und Vanille schaumig schlagen; Bei Bedarf Milch zum Auflockern hinzufügen.',
@@ -1209,7 +1339,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Stir in kirsch to taste (optional).',
-          sv: 'Rör i kirsch efter smak (valfritt).',
+          sv: 'Rör ner kirsch efter smak (valfritt).',
           es: 'Agregue el kirsch al gusto (opcional).',
           fr: 'Incorporer le kirsch au goût (facultatif).',
           de: 'Nach Geschmack Kirschwasser unterrühren (optional).',
@@ -1220,7 +1350,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Layer cake with buttercream between nut layers; frost the outside thinly.',
-          sv: 'Skiktårta med smörkräm mellan nötlagren; frosta utsidan tunt.',
+          sv: 'Sätt ihop tårtan med smörkräm mellan nötbottnarna och täck utsidan med ett tunt lager kräm.',
           es: 'Coloque capas de pastel con crema de mantequilla entre las capas de nueces; Escarcha el exterior ligeramente.',
           fr: 'Couche le gâteau de crème au beurre entre les couches de noix; givrez finement l\'extérieur.',
           de: 'Torte mit Buttercreme zwischen Nussschichten schichten; Die Außenseite dünn einfrieren.',
@@ -1231,7 +1361,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Press sliced almonds onto the sides/top for decoration.',
-          sv: 'Tryck ut skivad mandel på sidorna/toppen för dekoration.',
+          sv: 'Tryck fast den skivade mandeln på sidorna och ovanpå som dekoration.',
           es: 'Presione las almendras rebanadas en los lados/parte superior para decorar.',
           fr: 'Presser les amandes tranchées sur les côtés/le dessus pour la décoration.',
           de: 'Zum Verzieren Mandelblättchen auf die Seiten/Oberseite drücken.',
@@ -1242,7 +1372,7 @@ export const switzerland: Country = {
         },
         {
           en: 'Chill at least 1 hour before slicing for best texture.',
-          sv: 'Kyl i minst 1 timme innan skivning för bästa konsistens.',
+          sv: 'Ställ tårtan i kylen i minst 1 timme innan du skär upp den, så får den bäst konsistens.',
           es: 'Enfríe al menos 1 hora antes de cortarlo para obtener una mejor textura.',
           fr: 'Réfrigérer au moins 1 heure avant de trancher pour une meilleure texture.',
           de: 'Für eine optimale Konsistenz mindestens 1 Stunde vor dem Schneiden kalt stellen.',
@@ -1395,7 +1525,7 @@ export const switzerland: Country = {
         options: [
           {
             en: 'Cheddar & Mozzarella',
-            sv: 'Cheddar & Mozzarella',
+            sv: 'Cheddar och mozzarella',
             es: 'Queso cheddar y mozzarella',
             fr: 'Cheddar et Mozzarella',
             de: 'Cheddar und Mozzarella',
@@ -1406,7 +1536,7 @@ export const switzerland: Country = {
           },
           {
             en: 'Gruyère & Emmental',
-            sv: 'Gruyère & Emmental',
+            sv: 'Gruyère och emmentaler',
             es: 'Gruyere y emmental',
             fr: 'Gruyère & Emmental',
             de: 'Gruyère & Emmentaler',
@@ -1417,7 +1547,7 @@ export const switzerland: Country = {
           },
           {
             en: 'Brie & Camembert',
-            sv: 'Brie & Camembert',
+            sv: 'Brie och camembert',
             es: 'Brie y Camembert',
             fr: 'Brie & Camembert',
             de: 'Brie & Camembert',
@@ -1428,7 +1558,7 @@ export const switzerland: Country = {
           },
           {
             en: 'Parmesan & Pecorino',
-            sv: 'Parmesan & Pecorino',
+            sv: 'Parmesan och pecorino',
             es: 'Parmesano y queso pecorino',
             fr: 'Parmesan et pecorino',
             de: 'Parmesan und Pecorino',

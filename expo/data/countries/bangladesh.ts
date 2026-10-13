@@ -263,8 +263,28 @@ export const bangladesh: Country = {
     },
     history: [
       {
-        year: '3rd century BC',
-        title: 'Ancient Bengal',
+        year: {
+          en: '3rd century BC',
+          sv: '200-talet f.Kr.',
+          es: 'Siglo III a. C.',
+          fr: 'IIIe siècle av. J.-C.',
+          de: '3. Jahrhundert v. Chr.',
+          it: 'III secolo a.C.',
+          pl: 'III wiek p.n.e.',
+          nl: '3e eeuw v.Chr.',
+          pt: 'Século III a.C.',
+        },
+        title: {
+          en: 'Ancient Bengal',
+          sv: 'Det forntida Bengalen',
+          es: 'Bengala en la Antigüedad',
+          fr: 'Bengale antique',
+          de: 'Antikes Bengalen',
+          it: 'Antico Bengala',
+          pl: 'Starożytny Bengal',
+          nl: 'Het oude Bengalen',
+          pt: 'Bengala na Antiguidade',
+        },
         description: {
           en: 'The region was part of powerful empires including the Maurya and Gupta dynasties, developing rich Buddhist and Hindu traditions.',
           sv: 'Regionen var en del av mäktiga imperier inklusive Maurya- och Gupta-dynastierna, som utvecklade rika buddhistiska och hinduiska traditioner.',
@@ -279,7 +299,17 @@ export const bangladesh: Country = {
       },
       {
         year: '1204',
-        title: 'Islamic Rule',
+        title: {
+          en: 'Islamic Rule',
+          sv: 'Muslimskt styre',
+          es: 'Dominio islámico',
+          fr: 'Domination musulmane',
+          de: 'Islamische Herrschaft',
+          it: 'Dominio islamico',
+          pl: 'Rządy muzułmańskie',
+          nl: 'Islamitisch bewind',
+          pt: 'Domínio islâmico',
+        },
         description: {
           en: 'Islamic rulers established control, bringing Persian and Mughal cultural influences that deeply shaped Bengali society.',
           sv: 'Islamiska härskare etablerade kontroll, vilket gav persiska och moguliska kulturella influenser som djupt formade det bengaliska samhället.',
@@ -294,7 +324,17 @@ export const bangladesh: Country = {
       },
       {
         year: '1757',
-        title: 'British Colonial Period',
+        title: {
+          en: 'British Colonial Period',
+          sv: 'Brittiska kolonialtiden',
+          es: 'Período colonial británico',
+          fr: 'Période coloniale britannique',
+          de: 'Britische Kolonialzeit',
+          it: 'Periodo coloniale britannico',
+          pl: 'Brytyjski okres kolonialny',
+          nl: 'Britse koloniale periode',
+          pt: 'Período colonial britânico',
+        },
         description: {
           en: 'After the Battle of Plassey, Bengal came under British East India Company control, later becoming part of British India.',
           sv: 'Efter slaget vid Plassey kom Bengalen under Brittiska Ostindiska kompaniets kontroll, och blev senare en del av Brittiska Indien.',
@@ -309,7 +349,17 @@ export const bangladesh: Country = {
       },
       {
         year: '1947',
-        title: 'Partition of India',
+        title: {
+          en: 'Partition of India',
+          sv: 'Indiens delning',
+          es: 'Partición de la India',
+          fr: 'Partition des Indes',
+          de: 'Teilung Indiens',
+          it: 'Partizione dell\'India',
+          pl: 'Podział Indii',
+          nl: 'Deling van India',
+          pt: 'Partição da Índia',
+        },
         description: {
           en: 'Bengal was divided; the eastern part became East Pakistan as part of the newly created Pakistan.',
           sv: 'Bengalen delades; den östra delen blev östra Pakistan som en del av det nyskapade Pakistan.',
@@ -324,7 +374,17 @@ export const bangladesh: Country = {
       },
       {
         year: '1952',
-        title: 'Language Movement',
+        title: {
+          en: 'Language Movement',
+          sv: 'Språkrörelsen',
+          es: 'Movimiento por la lengua',
+          fr: 'Mouvement pour la langue',
+          de: 'Sprachbewegung',
+          it: 'Movimento per la lingua',
+          pl: 'Ruch językowy',
+          nl: 'Taalbeweging',
+          pt: 'Movimento pela língua',
+        },
         description: {
           en: 'Bengalis protested to preserve their language, a pivotal moment in national identity formation.',
           sv: 'Bengaler protesterade för att bevara sitt språk, ett avgörande ögonblick i nationell identitetsbildning.',
@@ -339,7 +399,17 @@ export const bangladesh: Country = {
       },
       {
         year: '1971',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'After a nine-month liberation war, Bangladesh emerged as an independent nation on December 16, 1971.',
           sv: 'Efter ett nio månader långt befrielsekrig uppstod Bangladesh som en självständig nation den 16 december 1971.',
@@ -391,7 +461,17 @@ export const bangladesh: Country = {
           nl: 'Orale rehydratieoplossing (ORS)',
           pt: 'Solução de Reidratação Oral (SRO)',
         },
-        year: '1960s',
+        year: {
+          en: '1960s',
+          sv: '1960-talet',
+          es: 'Década de 1960',
+          fr: 'Années 1960',
+          de: '1960er',
+          it: 'Anni \'60',
+          pl: 'Lata 60.',
+          nl: 'Jaren 60',
+          pt: 'Década de 1960',
+        },
         description: {
           en: 'Bangladeshi researchers developed and popularized ORS therapy, saving millions of lives from diarrheal diseases worldwide.',
           sv: 'Bangladeshiska forskare utvecklade och populariserade ORS-terapi och räddade miljontals liv från diarrésjukdomar världen över.',
@@ -416,7 +496,17 @@ export const bangladesh: Country = {
           nl: 'Drijvende tuinen',
           pt: 'Jardins flutuantes',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Innovative agricultural technique using water hyacinth beds to grow crops during floods, now recognized by the UN as a climate adaptation model.',
           sv: 'Innovativ jordbruksteknik som använder vattenhyacintbäddar för att odla grödor under översvämningar, nu erkänd av FN som en klimatanpassningsmodell.',
@@ -441,7 +531,17 @@ export const bangladesh: Country = {
           nl: 'Model van de confectiekledingindustrie',
           pt: 'Modelo da indústria de vestuário confeccionado',
         },
-        year: '1980s',
+        year: {
+          en: '1980s',
+          sv: '1980-talet',
+          es: 'Década de 1980',
+          fr: 'Années 1980',
+          de: '1980er',
+          it: 'Anni \'80',
+          pl: 'Lata 80.',
+          nl: 'Jaren 80',
+          pt: 'Década de 1980',
+        },
         description: {
           en: 'Built the world\'s second-largest garment export industry, creating employment for millions, particularly women, and inspiring developing nations.',
           sv: 'Byggde världens näst största klädexportindustri, skapade sysselsättning för miljoner, särskilt kvinnor, och inspirerade utvecklingsländer.',
@@ -507,7 +607,7 @@ export const bangladesh: Country = {
       {
         name: {
           en: 'Srimangal Tea Gardens',
-          sv: 'Srimangal Tea Gardens',
+          sv: 'Teplantagerna i Srimangal',
           es: 'Jardines de té de Srimangal',
           fr: 'Jardins de thé Srimangal',
           de: 'Srimangal-Teegärten',
@@ -531,7 +631,7 @@ export const bangladesh: Country = {
       {
         name: {
           en: 'Paharpur Buddhist Monastery',
-          sv: 'Paharpur Buddhist Monastery',
+          sv: 'Buddhistklostret i Paharpur',
           es: 'Monasterio Budista de Paharpur',
           fr: 'Monastère bouddhiste de Paharpur',
           de: 'Buddhistisches Kloster Paharpur',
@@ -579,7 +679,17 @@ export const bangladesh: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival available for many nationalities. E-visa also available.',
           sv: 'Visum vid ankomst tillgängligt för många nationaliteter. E-visum finns också.',
@@ -593,7 +703,17 @@ export const bangladesh: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to February for cool, dry weather',
           sv: 'November till februari för svalt, torrt väder',
@@ -607,7 +727,17 @@ export const bangladesh: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Rickshaws, CNGs (auto-rickshaws), buses, trains, and domestic flights.',
           sv: 'Rickshaws, CNGs (auto-rickshaws), bussar, tåg och inrikesflyg.',
@@ -621,7 +751,17 @@ export const bangladesh: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Bengali is official. English is spoken in urban areas and tourist spots.',
           sv: 'Bengali är officiellt. Engelska talas i stadsområden och turistattraktioner.',
@@ -635,7 +775,17 @@ export const bangladesh: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe for tourists. Exercise standard precautions in crowded areas.',
           sv: 'Generellt säker för turister. Iaktta vanliga försiktighetsåtgärder i trånga områden.',
@@ -664,7 +814,7 @@ export const bangladesh: Country = {
       },
       description: {
         en: 'Bangladesh\'s most beloved rice dish - aromatic basmati rice layered with marinated meat (usually mutton), yogurt, and spices, then slow-cooked to perfection. It\'s a celebration dish that\'s rich, flavorful, and deeply satisfying.',
-        sv: 'Bangladeshs mest älskade risrätt - aromatiskt basmatiris i lager med marinerat kött (vanligtvis fårkött), yoghurt och kryddor, sedan långsamt tillagat till perfektion. Det är en festrätt som är rik, smakrik och djupt tillfredsställande.',
+        sv: 'Bangladeshs mest älskade risrätt – doftande basmatiris varvat med marinerat kött (oftast fårkött), yoghurt och kryddor, som sedan får tillagas långsamt under lock. En mustig och smakrik festrätt som verkligen mättar.',
         es: 'El plato de arroz más querido de Bangladesh: arroz basmati aromático con capas de carne marinada (normalmente cordero), yogur y especias, que luego se cocina a fuego lento hasta alcanzar la perfección. Es un plato de celebración rico, sabroso y profundamente satisfactorio.',
         fr: 'Le plat de riz le plus apprécié du Bangladesh : du riz basmati aromatique recouvert de viande marinée (généralement du mouton), de yaourt et d\'épices, puis cuit lentement à la perfection. C\'est un plat de fête riche, savoureux et profondément satisfaisant.',
         de: 'Bangladeschs beliebtestes Reisgericht – aromatischer Basmatireis, geschichtet mit mariniertem Fleisch (normalerweise Hammelfleisch), Joghurt und Gewürzen, dann langsam und perfekt gegart. Es ist ein festliches Gericht, das reichhaltig, aromatisch und zutiefst sättigend ist.',
@@ -832,7 +982,7 @@ export const bangladesh: Country = {
       steps: [
         {
           en: 'Marinate mutton with yogurt, spices, and half the fried onions for 2 hours',
-          sv: 'Marinera fårkött med yoghurt, kryddor och hälften av den stekta löken i 2 timmar',
+          sv: 'Marinera fårköttet i yoghurt, kryddor och hälften av den stekta löken i 2 timmar',
           es: 'Marinar el cordero con yogur, especias y la mitad de las cebollas fritas durante 2 horas',
           fr: 'Faire mariner le mouton avec le yaourt, les épices et la moitié des oignons frits pendant 2 heures',
           de: 'Hammelfleisch mit Joghurt, Gewürzen und der Hälfte der Röstzwiebeln 2 Stunden lang marinieren',
@@ -843,7 +993,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Parboil rice with whole spices until 70% cooked',
-          sv: 'Parboil ris med hela kryddor tills 70 % kokt',
+          sv: 'Förkoka riset med hela kryddor tills det är ungefär 70 % färdigkokt',
           es: 'Sancochar arroz con especias enteras hasta que esté cocido al 70%',
           fr: 'Faire bouillir le riz avec des épices entières jusqu\'à ce qu\'il soit cuit à 70 %',
           de: 'Reis mit ganzen Gewürzen vorkochen, bis er zu 70 % gar ist',
@@ -854,7 +1004,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Layer marinated meat at bottom of heavy pot',
-          sv: 'Lägg marinerat kött i lager i botten av den tunga grytan',
+          sv: 'Lägg det marinerade köttet i botten av en tjockbottnad gryta',
           es: 'Coloque capas de carne marinada en el fondo de una olla pesada',
           fr: 'Couche de viande marinée au fond d\'une marmite épaisse',
           de: 'Mariniertes Fleisch auf den Boden des schweren Topfes legen',
@@ -865,7 +1015,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Add halved potatoes to meat layer',
-          sv: 'Lägg till halverad potatis i köttlagret',
+          sv: 'Fördela de halverade potatisarna över köttet',
           es: 'Agregue papas cortadas por la mitad a la capa de carne',
           fr: 'Ajouter les pommes de terre coupées en deux à la couche de viande',
           de: 'Halbierte Kartoffeln zur Fleischschicht geben',
@@ -876,7 +1026,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Cover with parboiled rice',
-          sv: 'Täck med parboiled ris',
+          sv: 'Täck med det förkokta riset',
           es: 'Cubrir con arroz sancochado',
           fr: 'Couvrir de riz étuvé',
           de: 'Mit Parboiled-Reis bedecken',
@@ -898,7 +1048,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Seal pot with dough or foil, cook on high heat for 5 minutes',
-          sv: 'Förslut grytan med deg eller folie, koka på hög värme i 5 minuter',
+          sv: 'Försegla grytan med deg eller folie och låt koka på hög värme i 5 minuter',
           es: 'Selle la olla con masa o papel de aluminio, cocine a fuego alto durante 5 minutos',
           fr: 'Couvrir la marmite avec de la pâte ou du papier d\'aluminium, cuire à feu vif pendant 5 minutes',
           de: 'Topf mit Teig oder Folie verschließen, 5 Minuten bei starker Hitze kochen',
@@ -909,7 +1059,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Reduce to low heat and cook for 45-60 minutes',
-          sv: 'Sänk till låg värme och koka i 45-60 minuter',
+          sv: 'Sänk till låg värme och låt grytan stå på i 45–60 minuter',
           es: 'Reducir a fuego lento y cocinar durante 45-60 minutos',
           fr: 'Réduire à feu doux et cuire 45 à 60 minutes',
           de: 'Auf niedrige Hitze reduzieren und 45–60 Minuten kochen lassen',
@@ -947,7 +1097,7 @@ export const bangladesh: Country = {
       },
       description: {
         en: 'Traditional Bengali sweetened yogurt, caramelized and served chilled',
-        sv: 'Traditionell bengalisk sötad yoghurt, karamelliserad och serverad kyld',
+        sv: 'Traditionell bengalisk söt yoghurt med karamelltoner, serveras kall',
         es: 'Yogur tradicional bengalí endulzado, caramelizado y servido frío',
         fr: 'Yaourt sucré bengali traditionnel, caramélisé et servi frais',
         de: 'Traditioneller bengalischer gesüßter Joghurt, karamellisiert und gekühlt serviert',
@@ -974,7 +1124,7 @@ export const bangladesh: Country = {
         {
           name: {
             en: 'Whole milk',
-            sv: 'Helmjölk',
+            sv: 'Standardmjölk',
             es: 'Leche entera',
             fr: 'Lait entier',
             de: 'Vollmilch',
@@ -989,7 +1139,7 @@ export const bangladesh: Country = {
         {
           name: {
             en: 'Condensed milk',
-            sv: 'Kondenserad mjölk',
+            sv: 'Sötad kondenserad mjölk',
             es: 'Leche condensada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -1004,7 +1154,7 @@ export const bangladesh: Country = {
         {
           name: {
             en: 'Yogurt starter',
-            sv: 'Yoghurtstarter',
+            sv: 'Yoghurtkultur',
             es: 'Arrancador de yogur',
             fr: 'Entrée de yaourt',
             de: 'Joghurt-Starter',
@@ -1044,7 +1194,7 @@ export const bangladesh: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -1060,7 +1210,7 @@ export const bangladesh: Country = {
       steps: [
         {
           en: 'Heat milk in a heavy pot, bring to boil.',
-          sv: 'Värm mjölk i en tjock gryta, låt koka upp.',
+          sv: 'Koka upp mjölken i en tjockbottnad kastrull.',
           es: 'Calentar la leche en una olla pesada y llevar a ebullición.',
           fr: 'Faites chauffer le lait dans une casserole à fond épais, portez à ébullition.',
           de: 'Milch in einem schweren Topf erhitzen und zum Kochen bringen.',
@@ -1071,7 +1221,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Simmer until reduced to about 700ml, stirring occasionally.',
-          sv: 'Sjud tills det reducerats till cirka 700 ml, rör om då och då.',
+          sv: 'Låt sjuda tills mjölken har kokat ihop till cirka 7 dl, rör om då och då.',
           es: 'Cocine a fuego lento hasta que se reduzca a unos 700 ml, revolviendo ocasionalmente.',
           fr: 'Laisser mijoter jusqu\'à réduction à environ 700 ml, en remuant de temps en temps.',
           de: 'Unter gelegentlichem Rühren köcheln lassen, bis die Menge auf etwa 700 ml reduziert ist.',
@@ -1082,7 +1232,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Add sugar and cook until it starts to caramelize slightly.',
-          sv: 'Tillsätt socker och koka tills det börjar karamellisera något.',
+          sv: 'Tillsätt sockret och låt koka tills det börjar karamellisera lätt.',
           es: 'Agrega el azúcar y cocina hasta que empiece a caramelizarse ligeramente.',
           fr: 'Ajoutez le sucre et laissez cuire jusqu\'à ce qu\'il commence à caraméliser légèrement.',
           de: 'Zucker hinzufügen und kochen, bis es leicht zu karamellisieren beginnt.',
@@ -1093,7 +1243,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Cool milk to lukewarm (40°C).',
-          sv: 'Kyl mjölk till ljummen (40°C).',
+          sv: 'Låt mjölken svalna till ljummen (40°C).',
           es: 'Enfriar la leche hasta que esté tibia (40°C).',
           fr: 'Refroidir le lait jusqu\'à ce qu\'il soit tiède (40°C).',
           de: 'Milch auf lauwarm (40°C) abkühlen lassen.',
@@ -1104,7 +1254,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Add condensed milk and cardamom, mix well.',
-          sv: 'Tillsätt kondenserad mjölk och kardemumma, blanda väl.',
+          sv: 'Tillsätt den sötade kondenserade mjölken och kardemumman och blanda väl.',
           es: 'Agrega la leche condensada y el cardamomo, mezcla bien.',
           fr: 'Ajouter le lait concentré et la cardamome, bien mélanger.',
           de: 'Kondensmilch und Kardamom hinzufügen und gut vermischen.',
@@ -1115,7 +1265,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Add yogurt starter and whisk gently.',
-          sv: 'Tillsätt yoghurtstarter och vispa försiktigt.',
+          sv: 'Tillsätt yoghurtkulturen och vispa försiktigt.',
           es: 'Agregue el iniciador de yogur y bata suavemente.',
           fr: 'Ajouter le yaourt et fouetter doucement.',
           de: 'Joghurt-Starter dazugeben und vorsichtig verrühren.',
@@ -1137,7 +1287,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Cover and keep in warm place for 6-8 hours to set.',
-          sv: 'Täck och förvara på en varm plats i 6-8 timmar för att stelna.',
+          sv: 'Täck över och låt stå på en varm plats i 6–8 timmar tills yoghurten har stelnat.',
           es: 'Cubra y mantenga en un lugar cálido durante 6 a 8 horas para que cuaje.',
           fr: 'Couvrir et conserver dans un endroit chaud pendant 6 à 8 heures pour qu\'il durcisse.',
           de: 'Abdecken und an einem warmen Ort 6-8 Stunden lang fest werden lassen.',
@@ -1159,7 +1309,7 @@ export const bangladesh: Country = {
         },
         {
           en: 'Serve chilled in the same pots.',
-          sv: 'Servera kyld i samma kastruller.',
+          sv: 'Servera kall direkt i krukorna.',
           es: 'Servir frío en las mismas ollas.',
           fr: 'Servir frais dans les mêmes pots.',
           de: 'Gekühlt in denselben Töpfen servieren.',

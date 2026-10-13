@@ -265,7 +265,7 @@ export const sanMarino: Country = {
       {
         year: {
           en: '301 AD',
-          sv: '301 AD',
+          sv: '301 e.Kr.',
           es: '301 d.C.',
           fr: '301 après JC',
           de: '301 n. Chr.',
@@ -274,7 +274,17 @@ export const sanMarino: Country = {
           nl: '301 na Chr.',
           pt: '301 d.C.',
         },
-        title: 'Foundation of San Marino',
+        title: {
+          en: 'Foundation of San Marino',
+          sv: 'San Marinos grundande',
+          es: 'Fundación de San Marino',
+          fr: 'Fondation de Saint-Marin',
+          de: 'Gründung von San Marino',
+          it: 'Fondazione di San Marino',
+          pl: 'Założenie San Marino',
+          nl: 'Stichting van San Marino',
+          pt: 'Fundação de San Marino',
+        },
         description: {
           en: 'According to tradition, the stonemason Marinus founded a small Christian community on Mount Titano.',
           sv: 'Enligt traditionen grundade stenhuggaren Marinus ett litet kristet samfund på berget Titano.',
@@ -288,8 +298,28 @@ export const sanMarino: Country = {
         },
       },
       {
-        year: 'Middle Ages',
-        title: 'Medieval Independence',
+        year: {
+          en: 'Middle Ages',
+          sv: 'Medeltiden',
+          es: 'Edad Media',
+          fr: 'Moyen Âge',
+          de: 'Mittelalter',
+          it: 'Medioevo',
+          pl: 'Średniowiecze',
+          nl: 'Middeleeuwen',
+          pt: 'Idade Média',
+        },
+        title: {
+          en: 'Medieval Independence',
+          sv: 'Självständighet under medeltiden',
+          es: 'Independencia medieval',
+          fr: 'Indépendance au Moyen Âge',
+          de: 'Unabhängigkeit im Mittelalter',
+          it: 'Indipendenza medievale',
+          pl: 'Niepodległość w średniowieczu',
+          nl: 'Middeleeuwse onafhankelijkheid',
+          pt: 'Independência medieval',
+        },
         description: {
           en: 'San Marino developed self-governing institutions while surrounding regions fell under feudal control.',
           sv: 'San Marino utvecklade självstyrande institutioner medan omgivande regioner föll under feodal kontroll.',
@@ -304,7 +334,17 @@ export const sanMarino: Country = {
       },
       {
         year: '1600',
-        title: 'Written Constitution',
+        title: {
+          en: 'Written Constitution',
+          sv: 'Skriven författning',
+          es: 'Constitución escrita',
+          fr: 'Constitution écrite',
+          de: 'Geschriebene Verfassung',
+          it: 'Costituzione scritta',
+          pl: 'Konstytucja pisana',
+          nl: 'Geschreven grondwet',
+          pt: 'Constituição escrita',
+        },
         description: {
           en: 'San Marino adopted a written constitution that is still partially in force today.',
           sv: 'San Marino antog en skriven konstitution som fortfarande delvis är i kraft idag.',
@@ -318,8 +358,28 @@ export const sanMarino: Country = {
         },
       },
       {
-        year: '1800s',
-        title: 'Italian Unification',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
+        title: {
+          en: 'Italian Unification',
+          sv: 'Italiens enande',
+          es: 'Unificación de Italia',
+          fr: 'Unité italienne',
+          de: 'Einigung Italiens',
+          it: 'Unità d\'Italia',
+          pl: 'Zjednoczenie Włoch',
+          nl: 'Eenwording van Italië',
+          pt: 'Unificação italiana',
+        },
         description: {
           en: 'San Marino retained independence during the unification of Italy.',
           sv: 'San Marino behöll självständighet under Italiens enande.',
@@ -334,7 +394,17 @@ export const sanMarino: Country = {
       },
       {
         year: '1944',
-        title: 'World War II Neutrality',
+        title: {
+          en: 'World War II Neutrality',
+          sv: 'Neutralitet under andra världskriget',
+          es: 'Neutralidad en la Segunda Guerra Mundial',
+          fr: 'Neutralité pendant la Seconde Guerre mondiale',
+          de: 'Neutralität im Zweiten Weltkrieg',
+          it: 'Neutralità nella seconda guerra mondiale',
+          pl: 'Neutralność w czasie II wojny światowej',
+          nl: 'Neutraliteit in de Tweede Wereldoorlog',
+          pt: 'Neutralidade na Segunda Guerra Mundial',
+        },
         description: {
           en: 'The republic declared neutrality but briefly experienced occupation.',
           sv: 'Republiken förklarade neutralitet men upplevde kort ockupation.',
@@ -348,8 +418,28 @@ export const sanMarino: Country = {
         },
       },
       {
-        year: 'Modern Era',
-        title: 'Tourism and Stability',
+        year: {
+          en: 'Modern Era',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
+        title: {
+          en: 'Tourism and Stability',
+          sv: 'Turism och stabilitet',
+          es: 'Turismo y estabilidad',
+          fr: 'Tourisme et stabilité',
+          de: 'Tourismus und Stabilität',
+          it: 'Turismo e stabilità',
+          pl: 'Turystyka i stabilizacja',
+          nl: 'Toerisme en stabiliteit',
+          pt: 'Turismo e estabilidade',
+        },
         description: {
           en: 'Today San Marino is a peaceful republic focused on tourism, finance, and heritage preservation.',
           sv: 'Idag är San Marino en fredlig republik fokuserad på turism, finans och bevarande av kulturarvet.',
@@ -378,7 +468,7 @@ export const sanMarino: Country = {
         },
         year: {
           en: '301 AD',
-          sv: '301 AD',
+          sv: '301 e.Kr.',
           es: '301 d.C.',
           fr: '301 après JC',
           de: '301 n. Chr.',
@@ -454,7 +544,7 @@ export const sanMarino: Country = {
       {
         name: {
           en: 'Mount Titano',
-          sv: 'Mount Titano',
+          sv: 'Monte Titano',
           es: 'Monte Titano',
           fr: 'Mont Titano',
           de: 'Berg Titano',
@@ -478,7 +568,7 @@ export const sanMarino: Country = {
       {
         name: {
           en: 'Guaita Tower',
-          sv: 'Guaita Tower',
+          sv: 'Guaitatornet',
           es: 'Torre Guaita',
           fr: 'Tour Guaita',
           de: 'Guaita-Turm',
@@ -502,7 +592,7 @@ export const sanMarino: Country = {
       {
         name: {
           en: 'Cesta Tower',
-          sv: 'Cesta Tower',
+          sv: 'Cestatornet',
           es: 'Torre Cesta',
           fr: 'Tour Cesta',
           de: 'Cesta-Turm',
@@ -574,7 +664,17 @@ export const sanMarino: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April to October for mild weather and clear views.',
           sv: 'April till oktober för milt väder och klara vyer.',
@@ -588,7 +688,17 @@ export const sanMarino: Country = {
         },
       },
       {
-        item: 'Getting there',
+        item: {
+          en: 'Getting there',
+          sv: 'Att ta sig dit',
+          es: 'Cómo llegar',
+          fr: 'S\'y rendre',
+          de: 'Anreise',
+          it: 'Come arrivare',
+          pl: 'Dojazd',
+          nl: 'Bereikbaarheid',
+          pt: 'Como chegar',
+        },
         description: {
           en: 'Accessible via Italy, typically from Rimini.',
           sv: 'Tillgänglig via Italien, vanligtvis från Rimini.',
@@ -602,7 +712,17 @@ export const sanMarino: Country = {
         },
       },
       {
-        item: 'Walking terrain',
+        item: {
+          en: 'Walking terrain',
+          sv: 'Branta gator',
+          es: 'Calles empinadas',
+          fr: 'Rues en pente',
+          de: 'Steile Gassen',
+          it: 'Strade ripide',
+          pl: 'Strome uliczki',
+          nl: 'Steile straatjes',
+          pt: 'Ruas íngremes',
+        },
         description: {
           en: 'Steep streets and stairs; comfortable shoes recommended.',
           sv: 'Branta gator och trappor; bekväma skor rekommenderas.',
@@ -640,7 +760,17 @@ export const sanMarino: Country = {
         },
       },
       {
-        item: 'Passports',
+        item: {
+          en: 'Passports',
+          sv: 'Pass',
+          es: 'Pasaportes',
+          fr: 'Passeports',
+          de: 'Reisepässe',
+          it: 'Passaporti',
+          pl: 'Paszporty',
+          nl: 'Paspoorten',
+          pt: 'Passaportes',
+        },
         description: {
           en: 'Optional souvenir passport stamps available for visitors.',
           sv: 'Valfria souvenirpassstämplar tillgängliga för besökare.',
@@ -771,7 +901,7 @@ export const sanMarino: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -832,7 +962,7 @@ export const sanMarino: Country = {
       steps: [
         {
           en: 'Prepare béchamel: melt butter, add flour, cook 1 minute.',
-          sv: 'Förbered béchamel: smält smör, tillsätt mjöl, koka 1 minut.',
+          sv: 'Gör béchamelsåsen: smält smöret, tillsätt mjölet och fräs under omrörning i 1 minut.',
           es: 'Prepare la bechamel: derrita la mantequilla, agregue la harina, cocine 1 minuto.',
           fr: 'Préparez la béchamel : faire fondre le beurre, ajouter la farine, cuire 1 minute.',
           de: 'Béchamel zubereiten: Butter schmelzen, Mehl hinzufügen, 1 Minute kochen.',
@@ -843,7 +973,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Whisk in milk gradually and cook until thick.',
-          sv: 'Vispa i mjölken gradvis och koka tills den är tjock.',
+          sv: 'Vispa ner mjölken lite i taget och låt koka tills såsen tjocknar.',
           es: 'Incorpora la leche poco a poco y cocina hasta que espese.',
           fr: 'Incorporer progressivement le lait et cuire jusqu\'à consistance épaisse.',
           de: 'Milch nach und nach einrühren und kochen, bis sie dickflüssig ist.',
@@ -865,7 +995,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Boil lasagna sheets briefly and lay flat.',
-          sv: 'Koka lasagneplattor kort och lägg platt.',
+          sv: 'Koka lasagneplattorna en kort stund och lägg ut dem plant.',
           es: 'Hervir las láminas de lasaña brevemente y dejarlas planas.',
           fr: 'Faire bouillir brièvement les feuilles de lasagne et les déposer à plat.',
           de: 'Lasagneblätter kurz kochen und flach hinlegen.',
@@ -876,7 +1006,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Top with ham, mozzarella, and béchamel.',
-          sv: 'Toppa med skinka, mozzarella och béchamel.',
+          sv: 'Fördela skinka, mozzarella och béchamelsås över plattorna.',
           es: 'Cubra con jamón, mozzarella y bechamel.',
           fr: 'Garnir de jambon, de mozzarella et de béchamel.',
           de: 'Mit Schinken, Mozzarella und Béchamel belegen.',
@@ -887,7 +1017,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Roll tightly and slice into nests.',
-          sv: 'Rulla hårt och skiva i bon.',
+          sv: 'Rulla ihop plattorna tätt och skär rullarna i skivor som liknar små bon.',
           es: 'Enrolle bien y córtelo en forma de nidos.',
           fr: 'Rouler fermement et couper en nids.',
           de: 'Fest aufrollen und in Nester schneiden.',
@@ -898,7 +1028,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Place in baking dish, cover with béchamel and parmesan.',
-          sv: 'Lägg i ugnsform, täck med bechamel och parmesan.',
+          sv: 'Lägg skivorna i en ugnsform och täck med béchamelsås och parmesan.',
           es: 'Colóquelo en una fuente para horno, cubra con bechamel y parmesano.',
           fr: 'Placer dans un plat allant au four, recouvrir de béchamel et de parmesan.',
           de: 'In eine Auflaufform legen, mit Béchamel und Parmesan belegen.',
@@ -909,7 +1039,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Bake at 180C for 30–35 minutes until golden.',
-          sv: 'Grädda i 180C i 30–35 minuter tills de är gyllene.',
+          sv: 'Gratinera i ugnen vid 180 °C i 30–35 minuter tills ytan är gyllenbrun.',
           es: 'Hornee a 180C durante 30 a 35 minutos hasta que esté dorado.',
           fr: 'Cuire au four à 180°C pendant 30 à 35 minutes jusqu\'à ce qu\'ils soient dorés.',
           de: 'Bei 180 °C 30–35 Minuten goldbraun backen.',
@@ -936,7 +1066,7 @@ export const sanMarino: Country = {
       },
       description: {
         en: 'Layered wafer cake with chocolate and hazelnut cream inspired by the Three Towers.',
-        sv: 'Lagertårta med choklad och hasselnötskräm inspirerad av de tre tornen.',
+        sv: 'Rånkaka i lager med choklad och hasselnötskräm, inspirerad av San Marinos tre torn.',
         es: 'Tarta de barquillo en capas con crema de chocolate y avellanas inspirada en las Tres Torres.',
         fr: 'Gaufrette étagée avec crème au chocolat et noisettes inspirée des Trois Tours.',
         de: 'Geschichteter Waffelkuchen mit Schokolade und Haselnusscreme, inspiriert von den Drei Türmen.',
@@ -963,7 +1093,7 @@ export const sanMarino: Country = {
         {
           name: {
             en: 'Wafer sheets',
-            sv: 'Wafer ark',
+            sv: 'Rånplattor',
             es: 'Hojas de oblea',
             fr: 'Feuilles de gaufrettes',
             de: 'Waffelblätter',
@@ -1034,7 +1164,7 @@ export const sanMarino: Country = {
       steps: [
         {
           en: 'Layer wafers with hazelnut cream.',
-          sv: 'Varva wafers med hasselnötskräm.',
+          sv: 'Varva rånplattorna med hasselnötskräm.',
           es: 'Cubra las galletas con crema de avellanas.',
           fr: 'Nappez les gaufrettes de crème de noisettes.',
           de: 'Waffeln mit Haselnusscreme bestreichen.',
@@ -1045,7 +1175,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Repeat until all wafers are used.',
-          sv: 'Upprepa tills alla wafers är använda.',
+          sv: 'Fortsätt tills alla rånplattor är slut.',
           es: 'Repita hasta que se utilicen todas las obleas.',
           fr: 'Répétez jusqu\'à ce que toutes les plaquettes soient utilisées.',
           de: 'Wiederholen, bis alle Waffeln aufgebraucht sind.',
@@ -1056,7 +1186,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Melt chocolate with butter.',
-          sv: 'Smält choklad med smör.',
+          sv: 'Smält chokladen tillsammans med smöret.',
           es: 'Derretir el chocolate con la mantequilla.',
           fr: 'Faire fondre le chocolat avec le beurre.',
           de: 'Schokolade mit Butter schmelzen.',
@@ -1067,7 +1197,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Coat entire cake evenly.',
-          sv: 'Täck hela kakan jämnt.',
+          sv: 'Bred chokladen jämnt över hela kakan.',
           es: 'Cubra todo el pastel de manera uniforme.',
           fr: 'Enrober uniformément tout le gâteau.',
           de: 'Den gesamten Kuchen gleichmäßig bestreichen.',
@@ -1078,7 +1208,7 @@ export const sanMarino: Country = {
         },
         {
           en: 'Chill 30 minutes before slicing.',
-          sv: 'Kyl 30 minuter innan du skär.',
+          sv: 'Låt stelna i kylen i 30 minuter innan du skär upp kakan.',
           es: 'Enfríe 30 minutos antes de cortar.',
           fr: 'Réfrigérer 30 minutes avant de trancher.',
           de: 'Vor dem Schneiden 30 Minuten kalt stellen.',
@@ -1149,7 +1279,7 @@ export const sanMarino: Country = {
         options: [
           {
             en: '301 AD',
-            sv: '301 AD',
+            sv: '301 e.Kr.',
             es: '301 d.C.',
             fr: '301 après JC',
             de: '301 n. Chr.',
@@ -1160,7 +1290,7 @@ export const sanMarino: Country = {
           },
           {
             en: '1000 AD',
-            sv: '1000 AD',
+            sv: '1000 e.Kr.',
             es: '1000 dC',
             fr: '1000 après JC',
             de: '1000 n. Chr.',
@@ -1171,7 +1301,7 @@ export const sanMarino: Country = {
           },
           {
             en: '1500 AD',
-            sv: '1500 AD',
+            sv: '1500 e.Kr.',
             es: '1500 dC',
             fr: '1500 après JC',
             de: '1500 n. Chr.',
@@ -1271,7 +1401,7 @@ export const sanMarino: Country = {
         options: [
           {
             en: 'Mount Titano',
-            sv: 'Mount Titano',
+            sv: 'Monte Titano',
             es: 'Monte Titano',
             fr: 'Mont Titano',
             de: 'Berg Titano',

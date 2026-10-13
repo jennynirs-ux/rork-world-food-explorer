@@ -230,8 +230,28 @@ export const libya: Country = {
     },
     history: [
       {
-        year: '7th Century BC',
-        title: 'Ancient Civilizations',
+        year: {
+          en: '7th Century BC',
+          sv: '600-talet f.Kr.',
+          es: 'siglo VII a. C.',
+          fr: 'VIIe siècle av. J.-C.',
+          de: '7. Jahrhundert v. Chr.',
+          it: 'VII secolo a.C.',
+          pl: 'VII wiek p.n.e.',
+          nl: '7e eeuw v.Chr.',
+          pt: 'século VII a.C.',
+        },
+        title: {
+          en: 'Ancient Civilizations',
+          sv: 'Forntida civilisationer',
+          es: 'Civilizaciones antiguas',
+          fr: 'Civilisations antiques',
+          de: 'Antike Hochkulturen',
+          it: 'Civiltà antiche',
+          pl: 'Starożytne cywilizacje',
+          nl: 'Oude beschavingen',
+          pt: 'Civilizações antigas',
+        },
         description: {
           en: 'Phoenicians and Greeks established cities along the Libyan coast.',
           sv: 'Fenicier och greker etablerade städer längs den libyska kusten.',
@@ -246,7 +266,17 @@ export const libya: Country = {
       },
       {
         year: '1951',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Libya gained independence from Italian colonial rule.',
           sv: 'Libyen blev självständigt från det italienska kolonialstyret.',
@@ -261,7 +291,17 @@ export const libya: Country = {
       },
       {
         year: '2011',
-        title: 'Arab Spring',
+        title: {
+          en: 'Arab Spring',
+          sv: 'Arabiska våren',
+          es: 'Primavera árabe',
+          fr: 'Printemps arabe',
+          de: 'Arabischer Frühling',
+          it: 'Primavera araba',
+          pl: 'Arabska wiosna',
+          nl: 'Arabische Lente',
+          pt: 'Primavera Árabe',
+        },
         description: {
           en: 'Popular uprising led to major political changes in Libya.',
           sv: 'Folkuppror ledde till stora politiska förändringar i Libyen.',
@@ -288,7 +328,17 @@ export const libya: Country = {
           nl: 'Oude irrigatie',
           pt: 'Irrigação antiga',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Development of irrigation systems in desert regions.',
           sv: 'Utveckling av bevattningssystem i ökenregioner.',
@@ -451,7 +501,17 @@ export const libya: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories before planning a trip.',
           sv: 'Kontrollera aktuella reseinformation innan du planerar en resa.',
@@ -465,7 +525,17 @@ export const libya: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-March for cooler weather; summers are extremely hot.',
           sv: 'November-mars för svalare väder; somrarna är extremt varma.',
@@ -479,7 +549,17 @@ export const libya: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa arranged well in advance.',
           sv: 'De flesta besökare behöver ett visum ordnat i god tid.',
@@ -493,7 +573,17 @@ export const libya: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Conservative dress is important, especially for women.',
           sv: 'Konservativ klänning är viktig, särskilt för kvinnor.',
@@ -522,7 +612,7 @@ export const libya: Country = {
       },
       description: {
         en: 'Sweet wheat flour pudding with honey and butter',
-        sv: 'Söt vetemjöl pudding med honung och smör',
+        sv: 'Söt pudding av vetemjöl med honung och smör',
         es: 'Budín dulce de harina de trigo con miel y mantequilla',
         fr: 'Pudding à la farine de blé sucré, au miel et au beurre',
         de: 'Süßer Weizenmehlpudding mit Honig und Butter',
@@ -594,7 +684,7 @@ export const libya: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -636,7 +726,7 @@ export const libya: Country = {
         },
         {
           en: 'Gradually add flour while stirring constantly',
-          sv: 'Tillsätt gradvis mjöl under ständig omrörning',
+          sv: 'Tillsätt mjölet lite i taget under ständig omrörning',
           es: 'Agrega poco a poco la harina mientras revuelves constantemente',
           fr: 'Ajouter progressivement la farine en remuant constamment',
           de: 'Unter ständigem Rühren nach und nach Mehl hinzufügen',
@@ -647,7 +737,7 @@ export const libya: Country = {
         },
         {
           en: 'Continue stirring until thick and smooth',
-          sv: 'Fortsätt att röra tills tjock och slät',
+          sv: 'Fortsätt röra tills massan är tjock och slät',
           es: 'Continúe revolviendo hasta que esté espeso y suave',
           fr: 'Continuez à remuer jusqu\'à ce que le mélange soit épais et lisse',
           de: 'Weiterrühren, bis die Masse dick und glatt ist',
@@ -658,7 +748,7 @@ export const libya: Country = {
         },
         {
           en: 'Form into mound on serving plate',
-          sv: 'Forma till hög på serveringsfat',
+          sv: 'Forma till en hög på ett serveringsfat',
           es: 'Forme un montículo en un plato para servir',
           fr: 'Former un monticule sur une assiette de service',
           de: 'Auf dem Servierteller einen Hügel formen',
@@ -669,7 +759,7 @@ export const libya: Country = {
         },
         {
           en: 'Make well in center',
-          sv: 'Gör bra i mitten',
+          sv: 'Gör en grop i mitten',
           es: 'Hacer bien en el centro',
           fr: 'Faire un puits au centre',
           de: 'Machen Sie eine Vertiefung in der Mitte',
@@ -680,7 +770,7 @@ export const libya: Country = {
         },
         {
           en: 'Fill well with melted butter and honey',
-          sv: 'Fyll väl med smält smör och honung',
+          sv: 'Fyll gropen med smält smör och honung',
           es: 'Rellenar bien con mantequilla derretida y miel',
           fr: 'Bien remplir de beurre fondu et de miel',
           de: 'Gut mit geschmolzener Butter und Honig füllen',
@@ -702,7 +792,7 @@ export const libya: Country = {
         },
         {
           en: 'Serve warm, eaten by hand',
-          sv: 'Servera varm, äts för hand',
+          sv: 'Servera varm – den äts med händerna',
           es: 'Servir caliente y comer con la mano',
           fr: 'Servir tiède, dégusté à la main',
           de: 'Warm servieren, mit der Hand essen',
@@ -729,7 +819,7 @@ export const libya: Country = {
       },
       description: {
         en: 'Traditional Libyan dish of unleavened bread served with tomato-based lamb stew',
-        sv: 'Traditionell libysk rätt av osyrat bröd serverad med tomatbaserad lammgryta',
+        sv: 'Traditionell libysk rätt av osyrat bröd som serveras med tomatbaserad lammgryta',
         es: 'Plato tradicional libio de pan sin levadura servido con estofado de cordero a base de tomate',
         fr: 'Plat traditionnel libyen de pain sans levain servi avec un ragoût d\'agneau à base de tomates',
         de: 'Traditionelles libysches Gericht aus ungesäuertem Brot, serviert mit Lammeintopf auf Tomatenbasis',
@@ -798,7 +888,7 @@ export const libya: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -823,7 +913,7 @@ export const libya: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -848,7 +938,7 @@ export const libya: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -901,7 +991,7 @@ export const libya: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -957,7 +1047,7 @@ export const libya: Country = {
       steps: [
         {
           en: 'Boil water and slowly add barley flour while stirring',
-          sv: 'Koka upp vatten och tillsätt långsamt kornmjöl under omrörning',
+          sv: 'Koka upp vatten och tillsätt kornmjölet lite i taget under omrörning',
           es: 'Hierva agua y agregue lentamente la harina de cebada mientras revuelve',
           fr: 'Faire bouillir de l\'eau et ajouter lentement la farine d\'orge en remuant',
           de: 'Wasser aufkochen und unter Rühren langsam Gerstenmehl hinzufügen',
@@ -968,7 +1058,7 @@ export const libya: Country = {
         },
         {
           en: 'Knead into smooth dough, shape into dome',
-          sv: 'Knåda till slät deg, forma till kupol',
+          sv: 'Knåda till en slät deg och forma den till en kupol',
           es: 'Amasar hasta obtener una masa suave, darle forma de cúpula',
           fr: 'Pétrir pour obtenir une pâte lisse, façonner en dôme',
           de: 'Zu einem glatten Teig kneten, zu einer Kuppel formen',
@@ -979,7 +1069,7 @@ export const libya: Country = {
         },
         {
           en: 'Brown lamb in olive oil with onions',
-          sv: 'Bryn lamm i olivolja med lök',
+          sv: 'Bryn lammköttet och löken i olivolja',
           es: 'Dorar el cordero en aceite de oliva con cebolla',
           fr: 'Faire dorer l\'agneau à l\'huile d\'olive et aux oignons',
           de: 'Braunes Lammfleisch in Olivenöl mit Zwiebeln',
@@ -1001,7 +1091,7 @@ export const libya: Country = {
         },
         {
           en: 'Add chickpeas and potatoes, simmer 1 hour',
-          sv: 'Tillsätt kikärter och potatis, låt sjuda 1 timme',
+          sv: 'Tillsätt kikärter och potatis och låt sjuda i 1 timme',
           es: 'Agregue los garbanzos y las patatas, cocine a fuego lento durante 1 hora',
           fr: 'Ajouter les pois chiches et les pommes de terre, laisser mijoter 1 heure',
           de: 'Kichererbsen und Kartoffeln hinzufügen, 1 Stunde köcheln lassen',
@@ -1012,7 +1102,7 @@ export const libya: Country = {
         },
         {
           en: 'Place bread dome in serving dish',
-          sv: 'Placera brödkupolen i serveringsfatet',
+          sv: 'Lägg brödkupolen i ett serveringsfat',
           es: 'Coloque la cúpula de pan en una fuente para servir',
           fr: 'Placer le dôme de pain dans le plat de service',
           de: 'Brotkuppel in die Servierschüssel legen',
@@ -1023,7 +1113,7 @@ export const libya: Country = {
         },
         {
           en: 'Pour lamb stew over the bread',
-          sv: 'Häll lammgryta över brödet',
+          sv: 'Häll lammgrytan över brödet',
           es: 'Vierta el estofado de cordero sobre el pan',
           fr: 'Verser le ragoût d\'agneau sur le pain',
           de: 'Lammeintopf über das Brot gießen',
@@ -1034,7 +1124,7 @@ export const libya: Country = {
         },
         {
           en: 'Serve family-style with everyone eating from the same dish',
-          sv: 'Servera familjestil med alla som äter från samma rätt',
+          sv: 'Servera på traditionellt vis, så att alla äter ur samma fat',
           es: 'Sirva al estilo familiar y todos coman del mismo plato',
           fr: 'Servir en famille avec tout le monde mangeant dans le même plat',
           de: 'Im Familienstil servieren, wobei alle vom gleichen Gericht essen',
@@ -1411,7 +1501,7 @@ export const libya: Country = {
         options: [
           {
             en: 'Aswan Dam',
-            sv: 'Aswan Dam',
+            sv: 'Assuandammen',
             es: 'Presa de Asuán',
             fr: 'Barrage d\'Assouan',
             de: 'Assuan-Staudamm',

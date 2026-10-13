@@ -263,8 +263,28 @@ export const tanzania: Country = {
     },
     history: [
       {
-        year: 'Pre-1000s',
-        title: 'Early Peoples & Trade Routes',
+        year: {
+          en: 'Pre-1000s',
+          sv: 'Före år 1000',
+          es: 'Antes del año 1000',
+          fr: 'Avant l\'an 1000',
+          de: 'Vor dem Jahr 1000',
+          it: 'Prima dell\'anno 1000',
+          pl: 'Przed rokiem 1000',
+          nl: 'Vóór het jaar 1000',
+          pt: 'Antes do ano 1000',
+        },
+        title: {
+          en: 'Early Peoples & Trade Routes',
+          sv: 'Tidiga folk och handelsvägar',
+          es: 'Primeros pueblos y rutas comerciales',
+          fr: 'Premiers peuples et routes commerciales',
+          de: 'Frühe Völker und Handelswege',
+          it: 'Primi popoli e rotte commerciali',
+          pl: 'Pierwsze ludy i szlaki handlowe',
+          nl: 'Vroege volken en handelsroutes',
+          pt: 'Primeiros povos e rotas comerciais',
+        },
         description: {
           en: 'Diverse communities developed across the mainland and coast, with growing regional trade connections over time.',
           sv: 'Olika samhällen utvecklades över fastlandet och kusten, med växande regionala handelsförbindelser över tiden.',
@@ -278,8 +298,28 @@ export const tanzania: Country = {
         },
       },
       {
-        year: '1000s–1500s',
-        title: 'Swahili Coast City-States',
+        year: {
+          en: '1000s–1500s',
+          sv: '1000–1500-talen',
+          es: 'Siglos XI–XVI',
+          fr: 'XIe–XVIe siècles',
+          de: '11.–16. Jahrhundert',
+          it: 'XI–XVI secolo',
+          pl: 'XI–XVI wiek',
+          nl: '11e–16e eeuw',
+          pt: 'Séculos XI–XVI',
+        },
+        title: {
+          en: 'Swahili Coast City-States',
+          sv: 'Stadsstater på Swahilikusten',
+          es: 'Ciudades-estado de la costa suajili',
+          fr: 'Cités-États de la côte swahilie',
+          de: 'Stadtstaaten der Swahili-Küste',
+          it: 'Città-stato della costa swahili',
+          pl: 'Miasta-państwa wybrzeża Suahili',
+          nl: 'Stadstaten aan de Swahilikust',
+          pt: 'Cidades-Estado da costa suaíli',
+        },
         description: {
           en: 'Coastal towns flourished through Indian Ocean trade, blending African, Arab, and Persian influences into Swahili culture.',
           sv: 'Kuststäderna blomstrade genom handeln i Indiska oceanen och blandade in afrikanska, arabiska och persiska influenser i swahilikulturen.',
@@ -293,8 +333,28 @@ export const tanzania: Country = {
         },
       },
       {
-        year: '1500s–1700s',
-        title: 'Portuguese Presence on the Coast',
+        year: {
+          en: '1500s–1700s',
+          sv: '1500–1700-talen',
+          es: 'Siglos XVI–XVIII',
+          fr: 'XVIe–XVIIIe siècles',
+          de: '16.–18. Jahrhundert',
+          it: 'XVI–XVIII secolo',
+          pl: 'XVI–XVIII wiek',
+          nl: '16e–18e eeuw',
+          pt: 'Séculos XVI–XVIII',
+        },
+        title: {
+          en: 'Portuguese Presence on the Coast',
+          sv: 'Portugisisk närvaro vid kusten',
+          es: 'Presencia portuguesa en la costa',
+          fr: 'Présence portugaise sur la côte',
+          de: 'Portugiesische Präsenz an der Küste',
+          it: 'Presenza portoghese sulla costa',
+          pl: 'Obecność Portugalczyków na wybrzeżu',
+          nl: 'Portugese aanwezigheid aan de kust',
+          pt: 'Presença portuguesa no litoral',
+        },
         description: {
           en: 'Portuguese influence spread along parts of the coast, shaping maritime power struggles and trade dynamics.',
           sv: 'Portugisiskt inflytande spred sig längs delar av kusten och formade maritima maktkamper och handelsdynamik.',
@@ -308,8 +368,28 @@ export const tanzania: Country = {
         },
       },
       {
-        year: '1800s',
-        title: 'Omani Influence & Zanzibar\'s Rise',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
+        title: {
+          en: 'Omani Influence & Zanzibar\'s Rise',
+          sv: 'Omanskt inflytande och Zanzibars uppgång',
+          es: 'Influencia omaní y auge de Zanzíbar',
+          fr: 'Influence omanaise et essor de Zanzibar',
+          de: 'Omanischer Einfluss und Aufstieg Sansibars',
+          it: 'Influenza omanita e ascesa di Zanzibar',
+          pl: 'Wpływy omańskie i rozkwit Zanzibaru',
+          nl: 'Omaanse invloed en opkomst van Zanzibar',
+          pt: 'Influência omanense e ascensão de Zanzibar',
+        },
         description: {
           en: 'Zanzibar became a major center for regional trade and clove cultivation, strongly influencing coastal culture.',
           sv: 'Zanzibar blev ett stort centrum för regional handel och kryddnejlikaodling, vilket starkt påverkade kustkulturen.',
@@ -323,8 +403,28 @@ export const tanzania: Country = {
         },
       },
       {
-        year: '1880s–1918',
-        title: 'German East Africa',
+        year: {
+          en: '1880s–1918',
+          sv: '1880-talet–1918',
+          es: 'década de 1880 – 1918',
+          fr: 'années 1880 – 1918',
+          de: '1880er–1918',
+          it: 'anni 1880 – 1918',
+          pl: 'lata 80. XIX w. – 1918',
+          nl: 'jaren 1880 – 1918',
+          pt: 'década de 1880 – 1918',
+        },
+        title: {
+          en: 'German East Africa',
+          sv: 'Tyska Östafrika',
+          es: 'África Oriental Alemana',
+          fr: 'Afrique orientale allemande',
+          de: 'Deutsch-Ostafrika',
+          it: 'Africa Orientale Tedesca',
+          pl: 'Niemiecka Afryka Wschodnia',
+          nl: 'Duits-Oost-Afrika',
+          pt: 'África Oriental Alemã',
+        },
         description: {
           en: 'Mainland Tanzania (Tanganyika) was part of German East Africa, with infrastructure and colonial administration expanding.',
           sv: 'Fastlandet Tanzania (Tanganyika) var en del av Tyska Östafrika, med infrastruktur och kolonial administration som expanderade.',
@@ -339,7 +439,17 @@ export const tanzania: Country = {
       },
       {
         year: '1919–1961',
-        title: 'British Administration',
+        title: {
+          en: 'British Administration',
+          sv: 'Brittisk förvaltning',
+          es: 'Administración británica',
+          fr: 'Administration britannique',
+          de: 'Britische Verwaltung',
+          it: 'Amministrazione britannica',
+          pl: 'Administracja brytyjska',
+          nl: 'Brits bestuur',
+          pt: 'Administração britânica',
+        },
         description: {
           en: 'After World War I, Tanganyika came under British administration, leading to political changes and independence movements.',
           sv: 'Efter första världskriget kom Tanganyika under brittisk administration, vilket ledde till politiska förändringar och självständighetsrörelser.',
@@ -354,7 +464,17 @@ export const tanzania: Country = {
       },
       {
         year: '1961–1964',
-        title: 'Independence & Union',
+        title: {
+          en: 'Independence & Union',
+          sv: 'Självständighet och union',
+          es: 'Independencia y unión',
+          fr: 'Indépendance et union',
+          de: 'Unabhängigkeit und Vereinigung',
+          it: 'Indipendenza e unione',
+          pl: 'Niepodległość i zjednoczenie',
+          nl: 'Onafhankelijkheid en unie',
+          pt: 'Independência e união',
+        },
         description: {
           en: 'Tanganyika gained independence (1961). Zanzibar became independent (1963), and the union formed Tanzania in 1964.',
           sv: 'Tanganyika blev självständigt (1961). Zanzibar blev självständigt (1963), och förbundet bildade Tanzania 1964.',
@@ -381,7 +501,17 @@ export const tanzania: Country = {
           nl: 'Paleoantropologie in de Olduvaikloof',
           pt: 'Paleoantropologia na Garganta de Olduvai',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Olduvai Gorge and nearby sites helped transform understanding of human evolution through major fossil discoveries and research.',
           sv: 'Olduvai Gorge och närliggande platser hjälpte till att förändra förståelsen av mänsklig evolution genom stora fossila upptäckter och forskning.',
@@ -406,7 +536,17 @@ export const tanzania: Country = {
           nl: 'Model voor natuurbehoud en nationale parken',
           pt: 'Modelo de conservação e parques nacionais',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Protected areas like Serengeti and Ngorongoro became globally significant for wildlife conservation and ecosystem research.',
           sv: 'Skyddade områden som Serengeti och Ngorongoro blev globalt viktiga för bevarande av vilda djur och ekosystemforskning.',
@@ -431,7 +571,17 @@ export const tanzania: Country = {
           nl: 'Ontwikkeling van taarabmuziek',
           pt: 'Evolução da música taarab',
         },
-        year: '19th–20th Century',
+        year: {
+          en: '19th–20th Century',
+          sv: '1800–1900-talen',
+          es: 'Siglos XIX–XX',
+          fr: 'XIXe–XXe siècles',
+          de: '19.–20. Jahrhundert',
+          it: 'XIX–XX secolo',
+          pl: 'XIX–XX wiek',
+          nl: '19e–20e eeuw',
+          pt: 'Séculos XIX–XX',
+        },
         description: {
           en: 'Zanzibar\'s taarab tradition developed into a distinctive musical style blending coastal Swahili poetry with diverse influences.',
           sv: 'Zanzibars taarab-tradition utvecklades till en distinkt musikstil som blandar swahili-poesi vid kusten med olika influenser.',
@@ -473,7 +623,7 @@ export const tanzania: Country = {
       {
         name: {
           en: 'Ngorongoro Conservation Area',
-          sv: 'Ngorongoro Conservation Area',
+          sv: 'Ngorongoro naturskyddsområde',
           es: 'Área de Conservación de Ngorongoro',
           fr: 'Zone de conservation du Ngorongoro',
           de: 'Ngorongoro-Schutzgebiet',
@@ -497,7 +647,7 @@ export const tanzania: Country = {
       {
         name: {
           en: 'Mount Kilimanjaro',
-          sv: 'Mount Kilimanjaro',
+          sv: 'Kilimanjaro',
           es: 'Monte Kilimanjaro',
           fr: 'Mont Kilimandjaro',
           de: 'Kilimandscharo',
@@ -521,7 +671,7 @@ export const tanzania: Country = {
       {
         name: {
           en: 'Zanzibar Stone Town',
-          sv: 'Zanzibar Stone Town',
+          sv: 'Stone Town på Zanzibar',
           es: 'Ciudad de piedra de Zanzíbar',
           fr: 'Ville de pierre de Zanzibar',
           de: 'Sansibar Stone Town',
@@ -569,7 +719,17 @@ export const tanzania: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa rules vary by nationality; check requirements before travel.',
           sv: 'Visumreglerna varierar beroende på nationalitet; kontrollera kraven innan resan.',
@@ -583,7 +743,17 @@ export const tanzania: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Dry season (June–October) for safaris; coastal islands are great much of the year.',
           sv: 'Torrsäsong (juni–oktober) för safari; kustnära öar är stora stora delar av året.',
@@ -597,7 +767,17 @@ export const tanzania: Country = {
         },
       },
       {
-        item: 'Wildlife viewing',
+        item: {
+          en: 'Wildlife viewing',
+          sv: 'Djurskådning',
+          es: 'Observación de fauna',
+          fr: 'Observation de la faune',
+          de: 'Tierbeobachtung',
+          it: 'Osservazione della fauna',
+          pl: 'Obserwacja dzikich zwierząt',
+          nl: 'Wild spotten',
+          pt: 'Observação da vida selvagem',
+        },
         description: {
           en: 'The Great Migration timing varies; plan Serengeti regions based on season.',
           sv: 'Tidpunkten för den stora migrationen varierar; planera Serengeti-regioner baserat på säsong.',
@@ -611,7 +791,17 @@ export const tanzania: Country = {
         },
       },
       {
-        item: 'Health & mosquitoes',
+        item: {
+          en: 'Health & mosquitoes',
+          sv: 'Hälsa och myggor',
+          es: 'Salud y mosquitos',
+          fr: 'Santé et moustiques',
+          de: 'Gesundheit und Mücken',
+          it: 'Salute e zanzare',
+          pl: 'Zdrowie i komary',
+          nl: 'Gezondheid en muggen',
+          pt: 'Saúde e mosquitos',
+        },
         description: {
           en: 'Use mosquito protection and follow health guidance for the areas you\'ll visit.',
           sv: 'Använd myggskydd och följ hälsorådgivningen för de områden du kommer att besöka.',
@@ -625,7 +815,17 @@ export const tanzania: Country = {
         },
       },
       {
-        item: 'Money',
+        item: {
+          en: 'Money',
+          sv: 'Pengar',
+          es: 'Dinero',
+          fr: 'Argent',
+          de: 'Geld',
+          it: 'Denaro',
+          pl: 'Pieniądze',
+          nl: 'Geld',
+          pt: 'Dinheiro',
+        },
         description: {
           en: 'Cash is useful outside major cities; ATMs are common in towns but less reliable in remote areas.',
           sv: 'Kontanter är användbara utanför större städer; Uttagsautomater är vanliga i städer men mindre tillförlitliga i avlägsna områden.',
@@ -639,7 +839,17 @@ export const tanzania: Country = {
         },
       },
       {
-        item: 'Respectful culture',
+        item: {
+          en: 'Respectful culture',
+          sv: 'Kulturell respekt',
+          es: 'Respeto cultural',
+          fr: 'Respect de la culture',
+          de: 'Respekt vor der Kultur',
+          it: 'Rispetto della cultura',
+          pl: 'Szacunek dla kultury',
+          nl: 'Respect voor de cultuur',
+          pt: 'Respeito à cultura',
+        },
         description: {
           en: 'Swahili greetings go a long way; dress modestly in towns and in Zanzibar\'s historic areas.',
           sv: 'Swahili-hälsningar räcker långt; klä dig anständigt i städer och i Zanzibars historiska områden.',
@@ -657,7 +867,7 @@ export const tanzania: Country = {
       id: 'tanzania-main',
       name: {
         en: 'Nyama Choma with Ugali',
-        sv: 'Nyama Choma med Ugali',
+        sv: 'Nyama choma med ugali',
         es: 'Nyama Choma con Ugali',
         fr: 'Nyama Choma avec Ugali',
         de: 'Nyama Choma mit Ugali',
@@ -668,7 +878,7 @@ export const tanzania: Country = {
       },
       description: {
         en: 'Charcoal-grilled meat served with firm maize porridge (ugali) and fresh kachumbari salad',
-        sv: 'Kolgrillat kött serveras med fast majsgröt (ugali) och färsk kachumbarisallad',
+        sv: 'Kolgrillat kött som serveras med fast majsgröt (ugali) och färsk kachumbarisallad',
         es: 'Carne a la brasa servida con gachas de maíz firme (ugali) y ensalada fresca de kachumbari',
         fr: 'Viande grillée au charbon de bois servie avec du porridge de maïs ferme (ugali) et une salade kachumbari fraîche',
         de: 'Auf Holzkohle gegrilltes Fleisch, serviert mit festem Maisbrei (Ugali) und frischem Kachumbari-Salat',
@@ -725,7 +935,7 @@ export const tanzania: Country = {
         {
           name: {
             en: 'Water (for ugali)',
-            sv: 'Vatten (för ugali)',
+            sv: 'Vatten (till ugali)',
             es: 'Agua (para ugali)',
             fr: 'Eau (pour ugali)',
             de: 'Wasser (für Ugali)',
@@ -752,7 +962,7 @@ export const tanzania: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -777,7 +987,7 @@ export const tanzania: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -840,7 +1050,7 @@ export const tanzania: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -929,7 +1139,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Preheat charcoal grill or grill pan to high heat',
-          sv: 'Förvärm kolgrill eller grillpanna till hög värme',
+          sv: 'Tänd kolgrillen eller hetta upp en grillpanna på hög värme',
           es: 'Precaliente la parrilla de carbón o la sartén a fuego alto',
           fr: 'Préchauffer le gril au charbon de bois ou la poêle à feu vif',
           de: 'Holzkohlegrill oder Grillpfanne auf hohe Hitze vorheizen',
@@ -940,7 +1150,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Grill meat for 6–8 minutes per side until charred outside and juicy inside',
-          sv: 'Grilla köttet i 6–8 minuter per sida tills det är förkolnat på utsidan och saftigt inuti',
+          sv: 'Grilla köttet i 6–8 minuter per sida tills det har fått en ordentlig grillyta men fortfarande är saftigt inuti',
           es: 'Ase la carne durante 6 a 8 minutos por lado hasta que esté carbonizada por fuera y jugosa por dentro',
           fr: 'Griller la viande pendant 6 à 8 minutes de chaque côté jusqu\'à ce qu\'elle soit carbonisée à l\'extérieur et juteuse à l\'intérieur',
           de: 'Grillen Sie das Fleisch 6–8 Minuten pro Seite, bis es außen verkohlt und innen saftig ist',
@@ -951,7 +1161,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Remove meat and rest under foil for 5 minutes before serving',
-          sv: 'Ta bort köttet och vila under folie i 5 minuter innan servering',
+          sv: 'Ta av köttet och låt det vila under folie i 5 minuter före servering',
           es: 'Retire la carne y déjela reposar bajo papel de aluminio durante 5 minutos antes de servir',
           fr: 'Retirer la viande et la laisser reposer sous papier d\'aluminium pendant 5 minutes avant de servir',
           de: 'Das Fleisch herausnehmen und vor dem Servieren 5 Minuten unter Folie ruhen lassen',
@@ -962,7 +1172,7 @@ export const tanzania: Country = {
         },
         {
           en: 'For ugali: bring 900 ml water to a rolling boil in a heavy pot',
-          sv: 'För ugali: koka upp 900 ml vatten i en tjock gryta',
+          sv: 'Ugali: koka upp 900 ml vatten ordentligt i en tjock kastrull',
           es: 'Para ugali: hierva 900 ml de agua en una olla pesada',
           fr: 'Pour l\'ugali : porter à ébullition 900 ml d\'eau dans une casserole à fond épais',
           de: 'Für Ugali: 900 ml Wasser in einem schweren Topf zum Kochen bringen',
@@ -984,7 +1194,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Stir firmly for 8–10 minutes until thick and smooth with no lumps',
-          sv: 'Rör om ordentligt i 8–10 minuter tills det är tjockt och slätt utan klumpar',
+          sv: 'Rör kraftigt i 8–10 minuter tills smeten är tjock och slät utan klumpar',
           es: 'Revuelva firmemente durante 8 a 10 minutos hasta que esté espeso y suave sin grumos',
           fr: 'Remuer fermement pendant 8 à 10 minutes jusqu\'à ce que le mélange soit épais et lisse, sans grumeaux',
           de: '8–10 Minuten lang kräftig rühren, bis eine dicke, glatte Masse ohne Klümpchen entsteht',
@@ -1006,7 +1216,7 @@ export const tanzania: Country = {
         },
         {
           en: 'For kachumbari: finely dice tomatoes and onion',
-          sv: 'För kachumbari: finhacka tomater och lök',
+          sv: 'Kachumbari: finhacka tomater och lök',
           es: 'Para kachumbari: pique finamente los tomates y la cebolla',
           fr: 'Pour le kachumbari : coupez finement les tomates et l\'oignon',
           de: 'Für Kachumbari: Tomaten und Zwiebeln fein würfeln',
@@ -1028,7 +1238,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Serve grilled meat hot with ugali and kachumbari on the side',
-          sv: 'Servera grillat kött varmt med ugali och kachumbari vid sidan av',
+          sv: 'Servera det grillade köttet varmt med ugali och kachumbari vid sidan av',
           es: 'Sirva la carne a la parrilla caliente con ugali y kachumbari al lado',
           fr: 'Servir la viande grillée chaude avec de l\'ugali et du kachumbari en accompagnement',
           de: 'Gegrilltes Fleisch heiß mit Ugali und Kachumbari als Beilage servieren',
@@ -1055,7 +1265,7 @@ export const tanzania: Country = {
       },
       description: {
         en: 'East African coconut doughnuts—lightly sweet, gently spiced, and perfect with chai.',
-        sv: 'Östafrikanska kokosmunkar - lätt söta, försiktigt kryddade och perfekta med chai.',
+        sv: 'Östafrikanska munkar med kokos – lätt söta, milt kryddade och perfekta till chai.',
         es: 'Donuts de coco del este de África: ligeramente dulces, ligeramente condimentados y perfectos con chai.',
         fr: 'Beignets à la noix de coco d\'Afrique de l\'Est : légèrement sucrés, légèrement épicés et parfaits avec le chai.',
         de: 'Ostafrikanische Kokosnuss-Donuts – leicht süß, sanft gewürzt und perfekt zu Chai.',
@@ -1082,7 +1292,7 @@ export const tanzania: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1184,7 +1394,7 @@ export const tanzania: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1197,7 +1407,7 @@ export const tanzania: Country = {
         {
           name: {
             en: 'Vegetable oil (for frying)',
-            sv: 'Vegetabilisk olja (för stekning)',
+            sv: 'Neutral olja (till stekning)',
             es: 'Aceite vegetal (para freír)',
             fr: 'Huile végétale (pour la friture)',
             de: 'Pflanzenöl (zum Braten)',
@@ -1224,7 +1434,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Add coconut milk (and egg if using) and knead into a soft, smooth dough',
-          sv: 'Tillsätt kokosmjölk (och ägg om du använder det) och knåda till en mjuk, smidig deg',
+          sv: 'Tillsätt kokosmjölk (och eventuellt ägg) och knåda till en mjuk, smidig deg',
           es: 'Agregue la leche de coco (y el huevo si lo usa) y amase hasta obtener una masa suave y tersa',
           fr: 'Ajouter le lait de coco (et l\'œuf si vous en utilisez) et pétrir pour obtenir une pâte molle et lisse',
           de: 'Kokosmilch (und ggf. Ei) hinzufügen und zu einem weichen, glatten Teig verkneten',
@@ -1235,7 +1445,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Cover and rest 15 minutes',
-          sv: 'Täck och vila 15 minuter',
+          sv: 'Täck över och låt vila i 15 minuter',
           es: 'Tapar y reposar 15 minutos',
           fr: 'Couvrir et laisser reposer 15 minutes',
           de: 'Abdecken und 15 Minuten ruhen lassen',
@@ -1246,7 +1456,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Roll dough to about 1 cm thickness and cut into triangles or squares',
-          sv: 'Kavla degen till ca 1 cm tjocklek och skär i trianglar eller rutor',
+          sv: 'Kavla ut degen till ca 1 cm tjocklek och skär den i trianglar eller rutor',
           es: 'Enrolle la masa hasta que tenga aproximadamente 1 cm de grosor y córtela en triángulos o cuadrados',
           fr: 'Abaisser la pâte sur environ 1 cm d\'épaisseur et la couper en triangles ou en carrés',
           de: 'Den Teig ca. 1 cm dick ausrollen und in Dreiecke oder Quadrate schneiden',
@@ -1257,7 +1467,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Heat oil in a pot to medium heat',
-          sv: 'Värm olja i en gryta till medelvärme',
+          sv: 'Hetta upp oljan i en kastrull på medelvärme',
           es: 'Calienta aceite en una olla a fuego medio',
           fr: 'Chauffer l\'huile dans une casserole à feu moyen',
           de: 'Öl in einem Topf auf mittlere Hitze erhitzen',
@@ -1268,7 +1478,7 @@ export const tanzania: Country = {
         },
         {
           en: 'Fry mandazi in batches until puffed and golden, turning once',
-          sv: 'Stek mandazi i omgångar tills den är puffad och gyllene, vänd en gång',
+          sv: 'Fritera mandazi i omgångar tills de har pöst upp och blivit gyllene. Vänd dem en gång.',
           es: 'Freír los mandazi en tandas hasta que estén inflados y dorados, volteándolos una vez',
           fr: 'Faites frire les mandazi par lots jusqu\'à ce qu\'ils soient gonflés et dorés, en les retournant une fois',
           de: 'Mandazi portionsweise frittieren, bis es aufgebläht und goldbraun ist, dabei einmal wenden',
@@ -1425,7 +1635,7 @@ export const tanzania: Country = {
           },
           {
             en: 'Mount Kilimanjaro',
-            sv: 'Mount Kilimanjaro',
+            sv: 'Kilimanjaro',
             es: 'Monte Kilimanjaro',
             fr: 'Mont Kilimandjaro',
             de: 'Kilimandscharo',
@@ -1475,7 +1685,7 @@ export const tanzania: Country = {
         options: [
           {
             en: 'Elephant March',
-            sv: 'Elefantmarsch',
+            sv: 'Elefantmarschen',
             es: 'Marcha del Elefante',
             fr: 'Marche des éléphants',
             de: 'Elefantenmarsch',
@@ -1486,7 +1696,7 @@ export const tanzania: Country = {
           },
           {
             en: 'Great Migration',
-            sv: 'Stor migration',
+            sv: 'Den stora migrationen',
             es: 'Gran Migración',
             fr: 'Grande Migration',
             de: 'Große Migration',
@@ -1497,7 +1707,7 @@ export const tanzania: Country = {
           },
           {
             en: 'Buffalo Run',
-            sv: 'Buffalo Run',
+            sv: 'Buffelrusningen',
             es: 'Carrera del búfalo',
             fr: 'Course de buffles',
             de: 'Buffalo Run',
@@ -1508,7 +1718,7 @@ export const tanzania: Country = {
           },
           {
             en: 'Savannah Crossing',
-            sv: 'Savannah Crossing',
+            sv: 'Savannkorsningen',
             es: 'Cruce de sabana',
             fr: 'Traversée de la savane',
             de: 'Savannah Crossing',

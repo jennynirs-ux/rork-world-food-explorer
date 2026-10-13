@@ -220,7 +220,17 @@ export const moldova: Country = {
     history: [
       {
         year: '1359',
-        title: 'Principality of Moldavia',
+        title: {
+          en: 'Principality of Moldavia',
+          sv: 'Furstendömet Moldavien',
+          es: 'Principado de Moldavia',
+          fr: 'Principauté de Moldavie',
+          de: 'Fürstentum Moldau',
+          it: 'Principato di Moldavia',
+          pl: 'Księstwo Mołdawskie',
+          nl: 'Vorstendom Moldavië',
+          pt: 'Principado da Moldávia',
+        },
         description: {
           en: 'Moldova emerged as a principality in medieval times.',
           sv: 'Moldavien uppstod som ett furstendöme under medeltiden.',
@@ -235,7 +245,17 @@ export const moldova: Country = {
       },
       {
         year: '1812',
-        title: 'Russian Control',
+        title: {
+          en: 'Russian Control',
+          sv: 'Ryskt styre',
+          es: 'Dominio ruso',
+          fr: 'Domination russe',
+          de: 'Russische Herrschaft',
+          it: 'Dominio russo',
+          pl: 'Panowanie rosyjskie',
+          nl: 'Russisch bewind',
+          pt: 'Domínio russo',
+        },
         description: {
           en: 'Eastern Moldova (Bessarabia) became part of the Russian Empire.',
           sv: 'Östra Moldavien (Bessarabien) blev en del av det ryska imperiet.',
@@ -250,7 +270,17 @@ export const moldova: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Moldova gained independence from the Soviet Union.',
           sv: 'Moldavien blev självständigt från Sovjetunionen.',
@@ -277,7 +307,17 @@ export const moldova: Country = {
           nl: 'Wijnindustrie',
           pt: 'Indústria vinícola',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Moldova has been producing wine for over 5,000 years.',
           sv: 'Moldavien har producerat vin i över 5 000 år.',
@@ -344,7 +384,7 @@ export const moldova: Country = {
       {
         name: {
           en: 'Cricova Winery',
-          sv: 'Cricova Winery',
+          sv: 'Vingården Cricova',
           es: 'Bodega Cricova',
           fr: 'Cave Cricova',
           de: 'Weingut Cricova',
@@ -416,7 +456,7 @@ export const moldova: Country = {
       {
         name: {
           en: 'Soroca Fort',
-          sv: 'Soroca Fort',
+          sv: 'Fästningen i Soroca',
           es: 'Fuerte de Soroca',
           fr: 'Fort de Soroca',
           de: 'Soroca-Festung',
@@ -440,7 +480,17 @@ export const moldova: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-October for pleasant weather; winter can be cold.',
           sv: 'April-oktober för behagligt väder; vintern kan vara kall.',
@@ -454,7 +504,17 @@ export const moldova: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for many nationalities for 90 days.',
           sv: 'Visumfritt för många nationaliteter i 90 dagar.',
@@ -468,7 +528,17 @@ export const moldova: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Romanian official; Russian widely spoken.',
           sv: 'rumänsk tjänsteman; Ryska allmänt talad.',
@@ -482,7 +552,17 @@ export const moldova: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Bring cash; cards less common outside Chișinău.',
           sv: 'Ta med kontanter; kort mindre vanliga utanför Chișinău.',
@@ -595,7 +675,7 @@ export const moldova: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -639,7 +719,7 @@ export const moldova: Country = {
       steps: [
         {
           en: 'Mix filling: cheese or pumpkin with sugar, eggs, vanilla',
-          sv: 'Blanda fyllning: ost eller pumpa med socker, ägg, vanilj',
+          sv: 'Blanda fyllningen: ost eller pumpa med socker, ägg och vanilj',
           es: 'Relleno de mezcla: queso o calabaza con azúcar, huevos, vainilla',
           fr: 'Mélanger la garniture : fromage ou potiron avec sucre, œufs, vanille',
           de: 'Füllung mischen: Käse oder Kürbis mit Zucker, Eiern, Vanille',
@@ -650,7 +730,7 @@ export const moldova: Country = {
         },
         {
           en: 'Brush phyllo sheets with melted butter',
-          sv: 'Pensla filoplattor med smält smör',
+          sv: 'Pensla filoarken med smält smör',
           es: 'Unte las hojas de masa filo con mantequilla derretida',
           fr: 'Badigeonner les feuilles de pâte filo de beurre fondu',
           de: 'Filoteigblätter mit geschmolzener Butter bestreichen',
@@ -661,7 +741,7 @@ export const moldova: Country = {
         },
         {
           en: 'Layer 3-4 sheets, place filling on one end',
-          sv: 'Varva 3-4 ark, lägg fyllningen i ena änden',
+          sv: 'Lägg 3–4 ark ovanpå varandra och fördela fyllningen i ena änden',
           es: 'Coloque 3-4 hojas en capas, coloque el relleno en un extremo',
           fr: 'Superposez 3 à 4 feuilles, placez la garniture à une extrémité',
           de: '3–4 Blätter übereinanderlegen und die Füllung an ein Ende geben',
@@ -672,7 +752,7 @@ export const moldova: Country = {
         },
         {
           en: 'Roll up and tuck in sides',
-          sv: 'Rulla ihop och stoppa in sidorna',
+          sv: 'Rulla ihop och vik in kanterna',
           es: 'Enrollar y meter hacia los lados',
           fr: 'Enroulez et rentrez les côtés',
           de: 'Aufrollen und die Seiten einschlagen',
@@ -694,7 +774,7 @@ export const moldova: Country = {
         },
         {
           en: 'Bake at 350°F for 30 minutes until golden',
-          sv: 'Grädda i 350°F i 30 minuter tills de är gyllene',
+          sv: 'Grädda i 175°C i 30 minuter tills de är gyllenbruna',
           es: 'Hornee a 350°F durante 30 minutos hasta que esté dorado',
           fr: 'Cuire au four à 350°F pendant 30 minutes jusqu\'à ce qu\'ils soient dorés',
           de: 'Bei 350 °F etwa 30 Minuten goldbraun backen',
@@ -705,7 +785,7 @@ export const moldova: Country = {
         },
         {
           en: 'Dust with powdered sugar and serve',
-          sv: 'Pudra över strösocker och servera',
+          sv: 'Pudra över florsocker och servera',
           es: 'Espolvoree con azúcar glass y sirva',
           fr: 'Saupoudrer de sucre en poudre et servir',
           de: 'Mit Puderzucker bestäuben und servieren',
@@ -721,7 +801,7 @@ export const moldova: Country = {
       id: 'moldova-main',
       name: {
         en: 'Mămăligă with Brânză',
-        sv: 'Mămăligă med Brânză',
+        sv: 'Mămăligă med brânză',
         es: 'Mămăligă con Brânză',
         fr: 'Mămăligă avec Brânză',
         de: 'Mămăligă mit Brânză',
@@ -774,7 +854,7 @@ export const moldova: Country = {
         {
           name: {
             en: 'Brânză cheese',
-            sv: 'Brânză ost',
+            sv: 'Brânză (fårost)',
             es: 'Queso Brânză',
             fr: 'Fromage Brânză',
             de: 'Brânză-Käse',
@@ -831,7 +911,7 @@ export const moldova: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -845,7 +925,7 @@ export const moldova: Country = {
       steps: [
         {
           en: 'Boil salted water',
-          sv: 'Koka saltat vatten',
+          sv: 'Koka upp saltat vatten',
           es: 'Hervir agua con sal',
           fr: 'Faire bouillir de l\'eau salée',
           de: 'Salzwasser aufkochen',
@@ -856,7 +936,7 @@ export const moldova: Country = {
         },
         {
           en: 'Gradually add cornmeal while stirring',
-          sv: 'Tillsätt majsmjöl gradvis under omrörning',
+          sv: 'Tillsätt majsmjölet lite i taget under omrörning',
           es: 'Agregue gradualmente la harina de maíz mientras revuelve',
           fr: 'Ajouter progressivement la semoule de maïs en remuant',
           de: 'Unter Rühren nach und nach Maismehl hinzufügen',
@@ -867,7 +947,7 @@ export const moldova: Country = {
         },
         {
           en: 'Cook until thick porridge forms',
-          sv: 'Koka tills det bildas tjock gröt',
+          sv: 'Koka tills det blir en tjock gröt',
           es: 'Cocine hasta que se forme una papilla espesa',
           fr: 'Cuire jusqu\'à ce qu\'une bouillie épaisse se forme',
           de: 'Kochen, bis ein dicker Brei entsteht',
@@ -878,7 +958,7 @@ export const moldova: Country = {
         },
         {
           en: 'Turn out onto board and slice',
-          sv: 'Vänd ut på brädet och skär',
+          sv: 'Stjälp upp på en skärbräda och skiva',
           es: 'Voltear sobre la tabla y cortar',
           fr: 'Démouler sur une planche et trancher',
           de: 'Auf ein Brett stürzen und',

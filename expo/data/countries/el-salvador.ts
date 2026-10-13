@@ -220,7 +220,17 @@ export const elSalvador: Country = {
     history: [
       {
         year: '1821',
-        title: 'Independence from Spain',
+        title: {
+          en: 'Independence from Spain',
+          sv: 'Självständighet från Spanien',
+          es: 'Independencia de España',
+          fr: 'Fin de la domination espagnole',
+          de: 'Unabhängigkeit von Spanien',
+          it: 'Indipendenza dalla Spagna',
+          pl: 'Uniezależnienie od Hiszpanii',
+          nl: 'Onafhankelijkheid van Spanje',
+          pt: 'Independência da Espanha',
+        },
         description: {
           en: 'El Salvador gained independence, initially joining the Federal Republic of Central America.',
           sv: 'El Salvador blev självständigt och anslöt sig först till Centralamerika.',
@@ -235,7 +245,17 @@ export const elSalvador: Country = {
       },
       {
         year: '1841',
-        title: 'Full Independence',
+        title: {
+          en: 'Full Independence',
+          sv: 'Full självständighet',
+          es: 'Independencia plena',
+          fr: 'Pleine indépendance',
+          de: 'Volle Unabhängigkeit',
+          it: 'Piena indipendenza',
+          pl: 'Pełna niepodległość',
+          nl: 'Volledige onafhankelijkheid',
+          pt: 'Independência plena',
+        },
         description: {
           en: 'Became fully independent after the dissolution of the Central American Federation.',
           sv: 'Blev helt oberoende efter upplösningen av den centralamerikanska federationen.',
@@ -250,7 +270,17 @@ export const elSalvador: Country = {
       },
       {
         year: '1980-1992',
-        title: 'Civil War',
+        title: {
+          en: 'Civil War',
+          sv: 'Inbördeskrig',
+          es: 'Guerra civil',
+          fr: 'Guerre civile',
+          de: 'Bürgerkrieg',
+          it: 'Guerra civile',
+          pl: 'Wojna domowa',
+          nl: 'Burgeroorlog',
+          pt: 'Guerra civil',
+        },
         description: {
           en: 'Devastating civil war ended with peace accords and democratic reforms.',
           sv: 'Ett förödande inbördeskrig slutade med fredsavtal och demokratiska reformer.',
@@ -340,7 +370,7 @@ export const elSalvador: Country = {
       {
         name: {
           en: 'Lake Coatepeque',
-          sv: 'Lake Coatepeque',
+          sv: 'Coatepequesjön',
           es: 'Lago Coatepeque',
           fr: 'Lac Coatepeque',
           de: 'Lake Coatepeque',
@@ -364,7 +394,7 @@ export const elSalvador: Country = {
       {
         name: {
           en: 'El Tunco Beach',
-          sv: 'El Tunco Beach',
+          sv: 'Stranden El Tunco',
           es: 'Playa El Tunco',
           fr: 'Plage El Tunco',
           de: 'El Tunco Strand',
@@ -388,7 +418,17 @@ export const elSalvador: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-April for dry season. May-October is rainy season.',
           sv: 'November-april för torrperioden. Maj-oktober är regnperioden.',
@@ -402,7 +442,17 @@ export const elSalvador: Country = {
         },
       },
       {
-        item: 'US Dollars',
+        item: {
+          en: 'US Dollars',
+          sv: 'Amerikanska dollar',
+          es: 'Dólares estadounidenses',
+          fr: 'Dollars américains',
+          de: 'US-Dollar',
+          it: 'Dollari statunitensi',
+          pl: 'Dolary amerykańskie',
+          nl: 'Amerikaanse dollars',
+          pt: 'Dólares americanos',
+        },
         description: {
           en: 'Bring cash as official currency.',
           sv: 'Ta med kontanter som officiell valuta.',
@@ -416,7 +466,17 @@ export const elSalvador: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Strong sun at beaches and volcanic areas.',
           sv: 'Stark sol vid stränder och vulkanområden.',
@@ -430,7 +490,17 @@ export const elSalvador: Country = {
         },
       },
       {
-        item: 'Spanish language',
+        item: {
+          en: 'Spanish language',
+          sv: 'Spanska',
+          es: 'Idioma español',
+          fr: 'Langue espagnole',
+          de: 'Spanisch',
+          it: 'Lingua spagnola',
+          pl: 'Język hiszpański',
+          nl: 'Spaans',
+          pt: 'Língua espanhola',
+        },
         description: {
           en: 'English is limited outside tourist areas.',
           sv: 'Engelska är begränsad utanför turistområdena.',
@@ -516,7 +586,7 @@ export const elSalvador: Country = {
         {
           name: {
             en: 'Refried beans',
-            sv: 'Friterade bönor',
+            sv: 'Refried beans',
             es: 'frijoles refritos',
             fr: 'Haricots frits',
             de: 'Gekühlte Bohnen',
@@ -531,7 +601,7 @@ export const elSalvador: Country = {
         {
           name: {
             en: 'Loroco flowers',
-            sv: 'Loroco blommor',
+            sv: 'Lorocoblommor',
             es: 'Flores de loroco',
             fr: 'Fleurs de Loroco',
             de: 'Loroco-Blumen',
@@ -546,7 +616,7 @@ export const elSalvador: Country = {
         {
           name: {
             en: 'Cabbage for curtido',
-            sv: 'Kål för curtido',
+            sv: 'Kål till curtido',
             es: 'Repollo para curtido',
             fr: 'Chou pour curtido',
             de: 'Kohl für Curtido',
@@ -577,7 +647,7 @@ export const elSalvador: Country = {
       steps: [
         {
           en: 'Mix masa harina with water to form dough',
-          sv: 'Blanda masa harina med vatten för att bilda deg',
+          sv: 'Blanda masa harina med vatten till en deg',
           es: 'Mezcle masa harina con agua para formar una masa',
           fr: 'Mélanger le masa harina avec de l\'eau pour former une pâte',
           de: 'Masa Harina mit Wasser zu einem Teig verrühren',
@@ -588,7 +658,7 @@ export const elSalvador: Country = {
         },
         {
           en: 'Form balls and flatten',
-          sv: 'Forma bollar och platta till',
+          sv: 'Forma degen till bollar och platta till dem',
           es: 'Formar bolitas y aplanar',
           fr: 'Former des boules et aplatir',
           de: 'Kugeln formen und flach drücken',
@@ -599,7 +669,7 @@ export const elSalvador: Country = {
         },
         {
           en: 'Add cheese and bean filling',
-          sv: 'Tillsätt ost och bönfyllning',
+          sv: 'Lägg ost och bönfyllning i mitten',
           es: 'Agrega el relleno de queso y frijoles',
           fr: 'Ajouter la garniture au fromage et aux haricots',
           de: 'Käse-Bohnen-Füllung hinzufügen',
@@ -610,7 +680,7 @@ export const elSalvador: Country = {
         },
         {
           en: 'Seal edges and flatten into thick tortillas',
-          sv: 'Försegla kanterna och platta till tjocka tortillas',
+          sv: 'Nyp ihop kanterna och platta ut dem till tjocka tortillas',
           es: 'Selle los bordes y aplánelos hasta formar tortillas gruesas',
           fr: 'Sceller les bords et aplatir en tortillas épaisses',
           de: 'Ränder verschließen und zu dicken Tortillas flach drücken',
@@ -621,7 +691,7 @@ export const elSalvador: Country = {
         },
         {
           en: 'Cook on griddle until golden',
-          sv: 'Koka på grillen tills de är gyllene',
+          sv: 'Stek på en het stekhäll eller i en torr stekpanna tills de är gyllene',
           es: 'Cocine en una plancha hasta que esté dorado',
           fr: 'Cuire sur une plaque chauffante jusqu\'à ce qu\'il soit doré',
           de: 'Auf der Grillplatte goldbraun backen',
@@ -659,7 +729,7 @@ export const elSalvador: Country = {
       },
       description: {
         en: 'Sweet cheese pound cake, not to be confused with Mexican quesadilla',
-        sv: 'Sweet cheese pundkaka, inte att förväxla med mexikansk quesadilla',
+        sv: 'Söt pundkaka med ost, inte att förväxla med mexikansk quesadilla',
         es: 'Bizcocho de queso dulce, que no debe confundirse con la quesadilla mexicana',
         fr: 'Quatre-quarts au fromage sucré, à ne pas confondre avec la quesadilla mexicaine',
         de: 'Süßer Käsekuchen, nicht zu verwechseln mit mexikanischer Quesadilla',
@@ -701,7 +771,7 @@ export const elSalvador: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -743,7 +813,7 @@ export const elSalvador: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -812,7 +882,7 @@ export const elSalvador: Country = {
       steps: [
         {
           en: 'Cream butter and sugar until fluffy',
-          sv: 'Grädde smör och socker fluffigt',
+          sv: 'Vispa smör och socker pösigt',
           es: 'Batir la mantequilla y el azúcar hasta que quede esponjoso',
           fr: 'Crémer le beurre et le sucre jusqu\'à consistance mousseuse',
           de: 'Butter und Zucker schaumig rühren',
@@ -823,7 +893,7 @@ export const elSalvador: Country = {
         },
         {
           en: 'Beat in eggs one at a time',
-          sv: 'Vispa i äggen ett i taget',
+          sv: 'Vispa ner äggen ett i taget',
           es: 'Batir los huevos uno a la vez',
           fr: 'Incorporer les œufs un à la fois',
           de: 'Eier einzeln unterrühren',
@@ -845,7 +915,7 @@ export const elSalvador: Country = {
         },
         {
           en: 'Fold in flour and sour cream',
-          sv: 'Vik i mjöl och gräddfil',
+          sv: 'Vänd ner mjölet och gräddfilen',
           es: 'Incorporar la harina y la crema agria',
           fr: 'Incorporer la farine et la crème sure',
           de: 'Mehl und Sauerrahm unterheben',
@@ -867,7 +937,7 @@ export const elSalvador: Country = {
         },
         {
           en: 'Sprinkle sesame seeds on top',
-          sv: 'Strö sesamfrön på toppen',
+          sv: 'Strö sesamfrön över',
           es: 'Espolvoree semillas de sésamo encima',
           fr: 'Saupoudrer de graines de sésame',
           de: 'Sesam darüber streuen',
@@ -878,7 +948,7 @@ export const elSalvador: Country = {
         },
         {
           en: 'Bake at 175°C for 45 minutes until golden',
-          sv: 'Grädda i 175°C i 45 minuter tills de är gyllene',
+          sv: 'Grädda i 175°C i 45 minuter tills kakan är gyllene',
           es: 'Hornear a 175°C durante 45 minutos hasta que esté dorado',
           fr: 'Cuire au four à 175°C pendant 45 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '45 Minuten bei 175 °C goldbraun backen',
@@ -889,7 +959,7 @@ export const elSalvador: Country = {
         },
         {
           en: 'Cool before slicing',
-          sv: 'Kyl innan du skär',
+          sv: 'Låt svalna innan du skär upp kakan',
           es: 'Dejar enfriar antes de cortar',
           fr: 'Laisser refroidir avant de trancher',
           de: 'Vor dem Schneiden abkühlen',
@@ -954,7 +1024,17 @@ export const elSalvador: Country = {
           nl: 'Pupusa',
           pt: 'Pupusa',
         },
-        year: 'Pre-Columbian',
+        year: {
+          en: 'Pre-Columbian',
+          sv: 'Förcolumbiansk tid',
+          es: 'Época precolombina',
+          fr: 'Époque précolombienne',
+          de: 'Präkolumbische Zeit',
+          it: 'Epoca precolombiana',
+          pl: 'Okres prekolumbijski',
+          nl: 'Precolumbiaanse tijd',
+          pt: 'Período pré-colombiano',
+        },
         description: {
           en: 'Created the iconic pupusa, now a beloved Central American dish',
           sv: 'Skapade den ikoniska pupusa, nu en älskad centralamerikansk maträtt',
@@ -979,7 +1059,17 @@ export const elSalvador: Country = {
           nl: 'Indigoverfproductie',
           pt: 'Produção de Corante Índigo',
         },
-        year: 'Colonial Era',
+        year: {
+          en: 'Colonial Era',
+          sv: 'Kolonialtiden',
+          es: 'Época colonial',
+          fr: 'Époque coloniale',
+          de: 'Kolonialzeit',
+          it: 'Epoca coloniale',
+          pl: 'Epoka kolonialna',
+          nl: 'Koloniale tijd',
+          pt: 'Período colonial',
+        },
         description: {
           en: 'Became a major producer of indigo dye for textiles worldwide',
           sv: 'Blev en stor tillverkare av indigofärg för textilier över hela världen',

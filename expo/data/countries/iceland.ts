@@ -263,8 +263,28 @@ export const iceland: Country = {
     },
     history: [
       {
-        year: '874 AD',
-        title: 'First Settlement',
+        year: {
+          en: '874 AD',
+          sv: '874 e.Kr.',
+          es: '874 d. C.',
+          fr: '874 apr. J.-C.',
+          de: '874 n. Chr.',
+          it: '874 d.C.',
+          pl: '874 n.e.',
+          nl: '874 n.Chr.',
+          pt: '874 d.C.',
+        },
+        title: {
+          en: 'First Settlement',
+          sv: 'Första bosättningen',
+          es: 'Primer asentamiento',
+          fr: 'Premier peuplement',
+          de: 'Erste Besiedlung',
+          it: 'Primo insediamento',
+          pl: 'Początki osadnictwa',
+          nl: 'Eerste bewoning',
+          pt: 'Primeiro povoamento',
+        },
         description: {
           en: 'Norse Vikings, led by Ingólfur Arnarson, became the first permanent settlers in Iceland.',
           sv: 'Nordiska vikingar, ledda av Ingólfur Arnarson, blev de första permanenta bosättarna på Island.',
@@ -278,8 +298,28 @@ export const iceland: Country = {
         },
       },
       {
-        year: '930 AD',
-        title: 'Althing Established',
+        year: {
+          en: '930 AD',
+          sv: '930 e.Kr.',
+          es: '930 d. C.',
+          fr: '930 apr. J.-C.',
+          de: '930 n. Chr.',
+          it: '930 d.C.',
+          pl: '930 n.e.',
+          nl: '930 n.Chr.',
+          pt: '930 d.C.',
+        },
+        title: {
+          en: 'Althing Established',
+          sv: 'Altinget grundas',
+          es: 'Fundación del Althing',
+          fr: 'Création de l\'Althing',
+          de: 'Gründung des Althing',
+          it: 'Fondazione dell\'Althing',
+          pl: 'Powstanie Althingu',
+          nl: 'Oprichting van het Althing',
+          pt: 'Fundação do Althing',
+        },
         description: {
           en: 'Iceland established the Althing, one of the world\'s oldest parliaments still in existence.',
           sv: 'Island upprättade Altinget, ett av världens äldsta parlament som fortfarande existerar.',
@@ -293,8 +333,28 @@ export const iceland: Country = {
         },
       },
       {
-        year: '1000 AD',
-        title: 'Christianity Adopted',
+        year: {
+          en: '1000 AD',
+          sv: '1000 e.Kr.',
+          es: '1000 d. C.',
+          fr: '1000 apr. J.-C.',
+          de: '1000 n. Chr.',
+          it: '1000 d.C.',
+          pl: '1000 n.e.',
+          nl: '1000 n.Chr.',
+          pt: '1000 d.C.',
+        },
+        title: {
+          en: 'Christianity Adopted',
+          sv: 'Kristendomen antas',
+          es: 'Adopción del cristianismo',
+          fr: 'Adoption du christianisme',
+          de: 'Annahme des Christentums',
+          it: 'Adozione del cristianesimo',
+          pl: 'Przyjęcie chrześcijaństwa',
+          nl: 'Invoering van het christendom',
+          pt: 'Adoção do cristianismo',
+        },
         description: {
           en: 'Iceland peacefully converted to Christianity, preserving many pagan traditions.',
           sv: 'Island konverterade fredligt till kristendomen och bevarade många hedniska traditioner.',
@@ -309,7 +369,17 @@ export const iceland: Country = {
       },
       {
         year: '1944',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Iceland gained full independence from Denmark and became a republic.',
           sv: 'Island blev helt självständigt från Danmark och blev en republik.',
@@ -325,7 +395,17 @@ export const iceland: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June-August for midnight sun, September-March for Northern Lights',
           sv: 'Juni-augusti för midnattssol, september-mars för norrsken',
@@ -339,7 +419,17 @@ export const iceland: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen visa rules apply. Many nationalities can visit visa-free.',
           sv: 'Schengenvisumregler gäller. Många nationaliteter kan besöka visumfritt.',
@@ -353,7 +443,17 @@ export const iceland: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Car rental recommended for exploring. Ring Road circles the island.',
           sv: 'Biluthyrning rekommenderas för att utforska. Ringvägen cirklar ön.',
@@ -367,7 +467,17 @@ export const iceland: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Icelandic. English is widely spoken.',
           sv: 'isländska. Engelska talas mycket.',
@@ -381,7 +491,17 @@ export const iceland: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Very safe. Watch for weather changes and respect nature warnings.',
           sv: 'Mycket säker. Se upp för väderförändringar och respektera naturens varningar.',
@@ -479,7 +599,7 @@ export const iceland: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -507,7 +627,7 @@ export const iceland: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -547,7 +667,7 @@ export const iceland: Country = {
         {
           name: {
             en: 'Fish stock',
-            sv: 'Fiskbestånd',
+            sv: 'Fiskbuljong',
             es: 'Caldo de pescado',
             fr: 'Stock de poisson',
             de: 'Fischfond',
@@ -574,7 +694,7 @@ export const iceland: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -624,7 +744,7 @@ export const iceland: Country = {
         },
         {
           en: 'Poach fish in water with bay leaf until cooked, then flake',
-          sv: 'Pochera fisken i vatten med lagerblad tills den är kokt, flinga sedan',
+          sv: 'Pochera fisken i vatten med ett lagerblad tills den är genomkokt och plocka den sedan i bitar',
           es: 'Escalfar el pescado en agua con laurel hasta que esté cocido y luego desmenuzarlo',
           fr: 'Pocher le poisson dans l\'eau avec le laurier jusqu\'à ce qu\'il soit cuit, puis l\'émietter',
           de: 'Fisch in Wasser mit Lorbeerblatt pochieren, bis er gar ist, dann zerkleinern',
@@ -646,7 +766,7 @@ export const iceland: Country = {
         },
         {
           en: 'Add flour and stir to make a roux',
-          sv: 'Tillsätt mjöl och rör om för att göra en roux',
+          sv: 'Strö över vetemjölet och rör om till en redning',
           es: 'Agrega la harina y revuelve para hacer un roux',
           fr: 'Ajouter la farine et remuer pour faire un roux',
           de: 'Mehl hinzufügen und verrühren, bis eine Mehlschwitze entsteht',
@@ -668,7 +788,7 @@ export const iceland: Country = {
         },
         {
           en: 'Add mashed potatoes and flaked fish',
-          sv: 'Lägg till potatismos och flingad fisk',
+          sv: 'Tillsätt potatismoset och den plockade fisken',
           es: 'Añade el puré de patatas y el pescado desmenuzado',
           fr: 'Ajouter la purée de pommes de terre et les émiettés de poisson',
           de: 'Kartoffelpüree und Fischflocken hinzufügen',
@@ -755,7 +875,7 @@ export const iceland: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -797,7 +917,7 @@ export const iceland: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -810,7 +930,7 @@ export const iceland: Country = {
         {
           name: {
             en: 'Butter melted',
-            sv: 'Smör smält',
+            sv: 'Smör, smält',
             es: 'Mantequilla derretida',
             fr: 'Beurre fondu',
             de: 'Butter geschmolzen',
@@ -885,7 +1005,7 @@ export const iceland: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -901,7 +1021,7 @@ export const iceland: Country = {
       steps: [
         {
           en: 'Mix flour, sugar, baking powder, and cardamom',
-          sv: 'Blanda mjöl, socker, bakpulver och kardemumma',
+          sv: 'Blanda vetemjöl, socker, bakpulver och kardemumma',
           es: 'Mezclar harina, azúcar, levadura en polvo y cardamomo',
           fr: 'Mélanger la farine, le sucre, la levure chimique et la cardamome',
           de: 'Mehl, Zucker, Backpulver und Kardamom mischen',
@@ -923,7 +1043,7 @@ export const iceland: Country = {
         },
         {
           en: 'Knead into smooth dough',
-          sv: 'Knåda till slät deg',
+          sv: 'Knåda till en smidig deg',
           es: 'Amasar hasta obtener una masa suave',
           fr: 'Pétrir pour obtenir une pâte lisse',
           de: 'Zu einem glatten Teig kneten',
@@ -945,7 +1065,7 @@ export const iceland: Country = {
         },
         {
           en: 'Cut into diamond shapes',
-          sv: 'Skär i diamantformer',
+          sv: 'Skär degen i romber',
           es: 'Cortar en forma de diamante',
           fr: 'Découpé en losanges',
           de: 'In Rautenform schneiden',
@@ -956,7 +1076,7 @@ export const iceland: Country = {
         },
         {
           en: 'Make a slit in center and twist one end through',
-          sv: 'Gör en skåra i mitten och vrid ena änden genom',
+          sv: 'Skär en skåra i mitten och dra ena spetsen genom hålet',
           es: 'Haga una hendidura en el centro y gire un extremo',
           fr: 'Faites une fente au centre et tournez une extrémité à travers',
           de: 'Machen Sie einen Schlitz in der Mitte und drehen Sie ein Ende durch',
@@ -967,7 +1087,7 @@ export const iceland: Country = {
         },
         {
           en: 'Heat oil to 180°C',
-          sv: 'Värm olja till 180°C',
+          sv: 'Hetta upp oljan till 180°C',
           es: 'Calentar el aceite a 180°C',
           fr: 'Chauffer l\'huile à 180°C',
           de: 'Öl auf 180°C erhitzen',
@@ -978,7 +1098,7 @@ export const iceland: Country = {
         },
         {
           en: 'Fry until golden brown on both sides',
-          sv: 'Stek tills gyllenbrun på båda sidor',
+          sv: 'Fritera tills de är gyllenbruna på båda sidor',
           es: 'Freír hasta que estén dorados por ambos lados',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés des deux côtés',
           de: 'Auf beiden Seiten goldbraun braten',
@@ -1000,7 +1120,7 @@ export const iceland: Country = {
         },
         {
           en: 'Dust with powdered sugar if desired',
-          sv: 'Pudra med strösocker om så önskas',
+          sv: 'Pudra med florsocker om du vill',
           es: 'Espolvoree con azúcar en polvo si lo desea',
           fr: 'Saupoudrer de sucre en poudre si désiré',
           de: 'Nach Belieben mit Puderzucker bestäuben',
@@ -1025,7 +1145,17 @@ export const iceland: Country = {
           nl: 'Leiderschap in geothermische energie',
           pt: 'Liderança em energia geotérmica',
         },
-        year: '1970s-present',
+        year: {
+          en: '1970s-present',
+          sv: '1970-talet–idag',
+          es: 'Década de 1970–actualidad',
+          fr: 'Années 1970–aujourd\'hui',
+          de: '1970er–heute',
+          it: 'Anni \'70–oggi',
+          pl: 'Lata 70.–obecnie',
+          nl: 'Jaren 70–heden',
+          pt: 'Década de 1970–presente',
+        },
         description: {
           en: 'Pioneered large-scale geothermal heating and electricity generation, now powering 85% of homes.',
           sv: 'Pionjärer i storskalig geotermisk uppvärmning och elproduktion och driver nu 85 % av hemmen.',
@@ -1050,7 +1180,17 @@ export const iceland: Country = {
           nl: 'Althing-parlement',
           pt: 'Parlamento Althing',
         },
-        year: '930 AD',
+        year: {
+          en: '930 AD',
+          sv: '930 e.Kr.',
+          es: '930 d. C.',
+          fr: '930 apr. J.-C.',
+          de: '930 n. Chr.',
+          it: '930 d.C.',
+          pl: '930 n.e.',
+          nl: '930 n.Chr.',
+          pt: '930 d.C.',
+        },
         description: {
           en: 'Established one of the world\'s oldest continuously operating parliaments.',
           sv: 'Etablerade ett av världens äldsta kontinuerligt verksamma parlament.',
@@ -1100,7 +1240,17 @@ export const iceland: Country = {
           nl: 'Innovatie in hernieuwbare energie',
           pt: 'Inovação em energia renovável',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Achieved nearly 100% renewable energy for electricity and heating, a model for the world.',
           sv: 'Uppnådde nästan 100 % förnybar energi för el och värme, en modell för världen.',
@@ -1166,7 +1316,7 @@ export const iceland: Country = {
       {
         name: {
           en: 'Jökulsárlón Glacier Lagoon',
-          sv: 'Jökulsárlón Glacier Lagoon',
+          sv: 'Glaciärlagunen Jökulsárlón',
           es: 'Laguna glaciar Jökulsárlón',
           fr: 'Lagune glaciaire de Jökulsárlón',
           de: 'Gletscherlagune Jökulsárlón',

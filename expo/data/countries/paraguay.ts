@@ -231,7 +231,17 @@ export const paraguay: Country = {
     history: [
       {
         year: '1537',
-        title: 'Spanish Foundation',
+        title: {
+          en: 'Spanish Foundation',
+          sv: 'Asunción grundas',
+          es: 'Fundación de Asunción',
+          fr: 'Fondation d\'Asunción',
+          de: 'Gründung von Asunción',
+          it: 'Fondazione di Asunción',
+          pl: 'Założenie Asunción',
+          nl: 'Stichting van Asunción',
+          pt: 'Fundação de Assunção',
+        },
         description: {
           en: 'Spaniards founded Asunción, which became a key colonial center.',
           sv: 'Spanjorerna grundade Asunción, som blev ett centralt kolonialt centrum.',
@@ -246,7 +256,17 @@ export const paraguay: Country = {
       },
       {
         year: '1811',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Paraguay gained independence from Spain.',
           sv: 'Paraguay blev självständigt från Spanien.',
@@ -261,7 +281,17 @@ export const paraguay: Country = {
       },
       {
         year: '1864-1870',
-        title: 'War of the Triple Alliance',
+        title: {
+          en: 'War of the Triple Alliance',
+          sv: 'Paraguaykriget',
+          es: 'Guerra de la Triple Alianza',
+          fr: 'Guerre de la Triple-Alliance',
+          de: 'Tripel-Allianz-Krieg',
+          it: 'Guerra della Triplice Alleanza',
+          pl: 'Wojna paragwajska',
+          nl: 'Oorlog van de Drievoudige Alliantie',
+          pt: 'Guerra do Paraguai',
+        },
         description: {
           en: 'Devastating war that killed much of Paraguay\'s population.',
           sv: 'Förödande krig som dödade en stor del av Paraguays befolkning.',
@@ -288,7 +318,17 @@ export const paraguay: Country = {
           nl: 'Behoud van de Guaraní-taal',
           pt: 'Preservação da língua guarani',
         },
-        year: 'Continuous',
+        year: {
+          en: 'Continuous',
+          sv: 'Genom tiderna',
+          es: 'Sin interrupción',
+          fr: 'Sans interruption',
+          de: 'Ununterbrochen',
+          it: 'Senza interruzione',
+          pl: 'Nieprzerwanie',
+          nl: 'Onafgebroken',
+          pt: 'Sem interrupção',
+        },
         description: {
           en: 'Rare example of indigenous language thriving alongside European language.',
           sv: 'Sällsynt exempel på inhemskt språk som frodas vid sidan av det europeiska språket.',
@@ -313,7 +353,17 @@ export const paraguay: Country = {
           nl: 'Ñandutí-kant',
           pt: 'Renda Ñandutí',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Intricate spider-web lace unique to Paraguay.',
           sv: 'Intrikat spindelnätsspets unikt för Paraguay.',
@@ -338,7 +388,17 @@ export const paraguay: Country = {
           nl: 'Yerba mate-cultuur',
           pt: 'Cultura da Erva-Mate',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Development of social mate drinking traditions.',
           sv: 'Utveckling av sociala partnerdrickandetraditioner.',
@@ -356,7 +416,7 @@ export const paraguay: Country = {
       {
         name: {
           en: 'Iguazu Falls',
-          sv: 'Iguazu Falls',
+          sv: 'Iguazúfallen',
           es: 'Cataratas del Iguazú',
           fr: 'Chutes d\'Iguazú',
           de: 'Iguazu-Wasserfälle',
@@ -428,7 +488,7 @@ export const paraguay: Country = {
       {
         name: {
           en: 'Itaipu Dam',
-          sv: 'Itaipu Dam',
+          sv: 'Itaipudammen',
           es: 'Represa de Itaipú',
           fr: 'Barrage d\'Itaipu',
           de: 'Itaipu-Staudamm',
@@ -476,7 +536,17 @@ export const paraguay: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for cooler, drier weather.',
           sv: 'Maj-september för svalare och torrare väder.',
@@ -490,7 +560,17 @@ export const paraguay: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for many nationalities for 90 days.',
           sv: 'Visumfritt för många nationaliteter i 90 dagar.',
@@ -504,7 +584,17 @@ export const paraguay: Country = {
         },
       },
       {
-        item: 'Spanish or Guaraní',
+        item: {
+          en: 'Spanish or Guaraní',
+          sv: 'Spanska eller guaraní',
+          es: 'Español o guaraní',
+          fr: 'Espagnol ou guarani',
+          de: 'Spanisch oder Guaraní',
+          it: 'Spagnolo o guaraní',
+          pl: 'Hiszpański lub guarani',
+          nl: 'Spaans of Guaraní',
+          pt: 'Espanhol ou guarani',
+        },
         description: {
           en: 'Both languages widely spoken; limited English.',
           sv: 'Båda språken är vida talade; begränsad engelska.',
@@ -518,7 +608,17 @@ export const paraguay: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Bring US dollars or Argentine pesos to exchange.',
           sv: 'Ta med amerikanska dollar eller argentinska pesos för att växla.',
@@ -547,7 +647,7 @@ export const paraguay: Country = {
       },
       description: {
         en: 'Sweet corn cake, a traditional Paraguayan favorite',
-        sv: 'Sockermajskaka, en traditionell paraguayansk favorit',
+        sv: 'Majskaka på färsk majs, en traditionell paraguayansk favorit',
         es: 'Pastel de maíz dulce, un favorito tradicional paraguayo',
         fr: 'Le gâteau au maïs sucré, un favori traditionnel du Paraguay',
         de: 'Zuckermaiskuchen, ein traditioneller paraguayischer Favorit',
@@ -616,7 +716,7 @@ export const paraguay: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -700,7 +800,7 @@ export const paraguay: Country = {
       steps: [
         {
           en: 'Blend corn kernels with milk',
-          sv: 'Blanda majskärnor med mjölk',
+          sv: 'Mixa majskärnorna med mjölken',
           es: 'Licuar los granos de elote con la leche',
           fr: 'Mélanger les grains de maïs avec le lait',
           de: 'Maiskörner mit Milch vermischen',
@@ -733,7 +833,7 @@ export const paraguay: Country = {
         },
         {
           en: 'Add sautéed onions',
-          sv: 'Tillsätt stekt lök',
+          sv: 'Tillsätt den frästa löken',
           es: 'Agrega las cebollas salteadas',
           fr: 'Ajouter les oignons sautés',
           de: 'Gebratene Zwiebeln hinzufügen',
@@ -755,7 +855,7 @@ export const paraguay: Country = {
         },
         {
           en: 'Bake at 350°F for 45 minutes',
-          sv: 'Grädda i 350°F i 45 minuter',
+          sv: 'Grädda i 175°C i 45 minuter',
           es: 'Hornee a 350°F durante 45 minutos',
           fr: 'Cuire au four à 350°F pendant 45 minutes',
           de: '45 Minuten bei 350 °F backen',
@@ -862,7 +962,7 @@ export const paraguay: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -902,7 +1002,7 @@ export const paraguay: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -979,7 +1079,7 @@ export const paraguay: Country = {
         },
         {
           en: 'Add cornmeal and sautéed onions',
-          sv: 'Tillsätt majsmjöl och stekt lök',
+          sv: 'Tillsätt majsmjölet och den frästa löken',
           es: 'Agrega la harina de maíz y la cebolla salteada',
           fr: 'Ajouter la semoule de maïs et les oignons sautés',
           de: 'Maismehl und sautierte Zwiebeln hinzufügen',
@@ -1012,7 +1112,7 @@ export const paraguay: Country = {
         },
         {
           en: 'Bake at 180°C for 45 minutes until golden',
-          sv: 'Grädda i 180°C i 45 minuter tills de är gyllene',
+          sv: 'Grädda i 180°C i 45 minuter tills den är gyllene',
           es: 'Hornear a 180°C durante 45 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 45 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '45 Minuten bei 180°C goldbraun backen',

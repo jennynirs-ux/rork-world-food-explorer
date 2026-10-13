@@ -274,7 +274,17 @@ export const solomonIslands: Country = {
           nl: 'Schelpengeldsysteem',
           pt: 'Sistema monetário de conchas',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Traditional shell currency still used in ceremonies and bride price, one of oldest continuous monetary systems',
           sv: 'Traditionell skalvaluta som fortfarande används i ceremonier och brudpris, ett av de äldsta kontinuerliga monetära systemen',
@@ -299,7 +309,17 @@ export const solomonIslands: Country = {
           nl: 'Kano-bouwtechnieken',
           pt: 'Técnicas de construção de canoas',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Advanced outrigger canoe construction allowing long-distance ocean navigation across the Pacific',
           sv: 'Avancerad utriggerkanotkonstruktion som möjliggör långdistansnavigering över Stilla havet',
@@ -324,7 +344,17 @@ export const solomonIslands: Country = {
           nl: 'Muzikale innovatie met panfluiten',
           pt: 'Inovação musical da flauta de Pã',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Distinctive bamboo panpipe instruments creating unique polyphonic music',
           sv: 'Distinkta pannpipsinstrument i bambu skapar unik polyfonisk musik',
@@ -340,8 +370,28 @@ export const solomonIslands: Country = {
     ],
     history: [
       {
-        year: 'Pre-1800s',
-        title: 'Indigenous Melanesian Settlement',
+        year: {
+          en: 'Pre-1800s',
+          sv: 'Före 1800',
+          es: 'Antes de 1800',
+          fr: 'Avant 1800',
+          de: 'Vor 1800',
+          it: 'Prima del 1800',
+          pl: 'Przed 1800 r.',
+          nl: 'Vóór 1800',
+          pt: 'Antes de 1800',
+        },
+        title: {
+          en: 'Indigenous Melanesian Settlement',
+          sv: 'Melanesisk ursprungsbefolkning',
+          es: 'Asentamiento indígena melanesio',
+          fr: 'Peuplement autochtone mélanésien',
+          de: 'Besiedlung durch Melanesier',
+          it: 'Insediamento indigeno melanesiano',
+          pl: 'Osadnictwo Melanezyjczyków',
+          nl: 'Melanesische bewoning',
+          pt: 'Povoamento indígena melanésio',
+        },
         description: {
           en: 'Melanesian peoples settled the islands thousands of years ago, developing rich cultural traditions and village-based societies.',
           sv: 'Melanesiska folk bosatte sig på öarna för tusentals år sedan och utvecklade rika kulturella traditioner och bybaserade samhällen.',
@@ -356,7 +406,17 @@ export const solomonIslands: Country = {
       },
       {
         year: '1568',
-        title: 'European Contact',
+        title: {
+          en: 'European Contact',
+          sv: 'Kontakt med européer',
+          es: 'Contacto con los europeos',
+          fr: 'Contact avec les Européens',
+          de: 'Kontakt mit Europäern',
+          it: 'Contatto con gli europei',
+          pl: 'Kontakt z Europejczykami',
+          nl: 'Contact met Europeanen',
+          pt: 'Contato com os europeus',
+        },
         description: {
           en: 'Spanish explorer Álvaro de Mendaña was the first European to visit the islands.',
           sv: 'Den spanske upptäcktsresanden Álvaro de Mendaña var den första européen som besökte öarna.',
@@ -371,7 +431,17 @@ export const solomonIslands: Country = {
       },
       {
         year: '1893',
-        title: 'British Protectorate',
+        title: {
+          en: 'British Protectorate',
+          sv: 'Brittiskt protektorat',
+          es: 'Protectorado británico',
+          fr: 'Protectorat britannique',
+          de: 'Britisches Protektorat',
+          it: 'Protettorato britannico',
+          pl: 'Protektorat brytyjski',
+          nl: 'Brits protectoraat',
+          pt: 'Protetorado britânico',
+        },
         description: {
           en: 'The Solomon Islands became a British protectorate, shaping colonial administration and trade.',
           sv: 'Salomonöarna blev ett brittiskt protektorat som formade kolonial administration och handel.',
@@ -386,7 +456,17 @@ export const solomonIslands: Country = {
       },
       {
         year: '1942–1945',
-        title: 'World War II',
+        title: {
+          en: 'World War II',
+          sv: 'Andra världskriget',
+          es: 'Segunda Guerra Mundial',
+          fr: 'Seconde Guerre mondiale',
+          de: 'Zweiter Weltkrieg',
+          it: 'Seconda guerra mondiale',
+          pl: 'II wojna światowa',
+          nl: 'Tweede Wereldoorlog',
+          pt: 'Segunda Guerra Mundial',
+        },
         description: {
           en: 'The islands were the site of major Pacific battles, especially the Battle of Guadalcanal.',
           sv: 'Öarna var platsen för stora Stillahavsstrider, särskilt slaget vid Guadalcanal.',
@@ -401,7 +481,17 @@ export const solomonIslands: Country = {
       },
       {
         year: '1978',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'The Solomon Islands gained independence from the United Kingdom.',
           sv: 'Salomonöarna blev självständigt från Storbritannien.',
@@ -417,7 +507,17 @@ export const solomonIslands: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities receive visa on arrival for tourism.',
           sv: 'Många nationaliteter får visum vid ankomst för turism.',
@@ -431,7 +531,17 @@ export const solomonIslands: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April to October (dry season) for best weather and diving.',
           sv: 'April till oktober (torrsäsong) för bästa väder och dykning.',
@@ -445,7 +555,17 @@ export const solomonIslands: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights between islands, boats, limited roads.',
           sv: 'Inrikesflyg mellan öar, båtar, begränsade vägar.',
@@ -459,7 +579,17 @@ export const solomonIslands: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'English is official. Pijin widely spoken, plus 70+ local languages.',
           sv: 'Engelska är officiell. Pijin talas mycket, plus 70+ lokala språk.',
@@ -473,7 +603,17 @@ export const solomonIslands: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe. Follow local advice, especially in remote areas.',
           sv: 'Generellt säker. Följ lokala råd, särskilt i avlägsna områden.',
@@ -491,7 +631,7 @@ export const solomonIslands: Country = {
       {
         name: {
           en: 'Guadalcanal WWII Sites',
-          sv: 'Guadalcanal WWII Sites',
+          sv: 'Platser från andra världskriget på Guadalcanal',
           es: 'Sitios de Guadalcanal de la Segunda Guerra Mundial',
           fr: 'Sites de la Seconde Guerre mondiale à Guadalcanal',
           de: 'Guadalcanal-Stätten des Zweiten Weltkriegs',
@@ -539,7 +679,7 @@ export const solomonIslands: Country = {
       {
         name: {
           en: 'Rennell Island',
-          sv: 'Rennell Island',
+          sv: 'Rennell',
           es: 'Isla Rennell',
           fr: 'Île Rennell',
           de: 'Rennell Island',
@@ -612,26 +752,26 @@ export const solomonIslands: Country = {
     mainDish: {
       id: 'solomon-islands-main',
       name: {
-        en: 'Coconut Fish Stew',
-        sv: 'Poi (Taro & Banana Pudding)',
+        en: 'Poi (taro and banana pudding)',
+        sv: 'Poi (taro- och bananpudding)',
         es: 'Poi (pudín de taro y plátano)',
         fr: 'Poi (pudding au taro et à la banane)',
         de: 'Poi (Taro-Bananen-Pudding)',
-        it: 'Poi (Taro & Banana Pudding)',
-        pl: 'Poi (Taro & Banana Pudding)',
-        nl: 'Poi (Taro & Banana Pudding)',
-        pt: 'Poi (Taro & Banana Pudding)',
+        it: 'Poi (budino di taro e banana)',
+        pl: 'Poi (pudding z taro i bananów)',
+        nl: 'Poi (pudding van taro en banaan)',
+        pt: 'Poi (pudim de taro e banana)',
       },
       description: {
-        en: 'Fresh fish simmered in rich coconut cream with taro leaves, a traditional Solomon Islands dish bursting with island flavors.',
-        sv: 'En traditionell öpudding gjord av taro och mogna bananer, berikad med kokosnötsgrädde och försiktigt jäst eller nyberedd.',
+        en: 'A traditional island pudding made from taro and ripe bananas, enriched with coconut cream and gently fermented or freshly prepared.',
+        sv: 'En traditionell pudding från öarna gjord på taro och mogna bananer, berikad med kokosgrädde och lätt fermenterad eller nylagad.',
         es: 'Un pudín tradicional isleño elaborado con taro y plátanos maduros, enriquecido con crema de coco y fermentado suavemente o recién preparado.',
         fr: 'Un pudding traditionnel des îles à base de taro et de bananes mûres, enrichi de crème de coco et doucement fermenté ou fraîchement préparé.',
         de: 'Ein traditioneller Inselpudding aus Taro und reifen Bananen, angereichert mit Kokoscreme und schonend fermentiert oder frisch zubereitet.',
-        it: 'A traditional island pudding made from taro and ripe bananas, enriched with coconut cream and gently fermented or freshly prepared.',
-        pl: 'A traditional island pudding made from taro and ripe bananas, enriched with coconut cream and gently fermented or freshly prepared.',
-        nl: 'A traditional island pudding made from taro and ripe bananas, enriched with coconut cream and gently fermented or freshly prepared.',
-        pt: 'A traditional island pudding made from taro and ripe bananas, enriched with coconut cream and gently fermented or freshly prepared.',
+        it: 'Un budino tradizionale delle isole a base di taro e banane mature, arricchito con crema di cocco e lasciato fermentare leggermente oppure servito appena preparato.',
+        pl: 'Tradycyjny wyspiarski pudding z taro i dojrzałych bananów, wzbogacony śmietanką kokosową, lekko fermentowany lub podawany na świeżo.',
+        nl: 'Een traditionele eilandpudding van taro en rijpe bananen, verrijkt met kokosroom en licht gefermenteerd of vers bereid.',
+        pt: 'Um pudim tradicional das ilhas feito com taro e bananas maduras, enriquecido com creme de coco e levemente fermentado ou preparado na hora.',
       },
       cookingTime: 120,
       difficulty: 'hard',
@@ -651,7 +791,7 @@ export const solomonIslands: Country = {
         {
           name: {
             en: 'Taro root, peeled and cubed',
-            sv: 'Taro rot, skalad och tärnad',
+            sv: 'Tarorot, skalad och tärnad',
             es: 'Raíz de taro, pelada y cortada en cubos',
             fr: 'Racine de taro, pelée et coupée en cubes',
             de: 'Taro-Wurzel, geschält und gewürfelt',
@@ -678,7 +818,7 @@ export const solomonIslands: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -696,7 +836,7 @@ export const solomonIslands: Country = {
             fr: 'Crème de coco',
             de: 'Kokoscreme',
             it: 'Crema di cocco',
-            pl: 'Krem kokosowy',
+            pl: 'Śmietanka kokosowa',
             nl: 'Kokosroom',
             pt: 'Creme de coco',
           },
@@ -737,7 +877,7 @@ export const solomonIslands: Country = {
       steps: [
         {
           en: 'Place cubed taro in a large pot and add water until fully covered.',
-          sv: 'Lägg taro i tärningar i en stor kastrull och tillsätt vatten tills det är helt täckt.',
+          sv: 'Lägg den tärnade taron i en stor kastrull och häll på vatten så att den täcks helt.',
           es: 'Coloque el taro en cubos en una olla grande y agregue agua hasta que esté completamente cubierto.',
           fr: 'Placez le taro en cubes dans une grande casserole et ajoutez de l\'eau jusqu\'à ce qu\'il soit complètement recouvert.',
           de: 'Gewürfeltes Taro in einen großen Topf geben und Wasser hinzufügen, bis es vollständig bedeckt ist.',
@@ -748,7 +888,7 @@ export const solomonIslands: Country = {
         },
         {
           en: 'Bring to a boil and cook for 35–40 minutes until taro is very soft.',
-          sv: 'Koka upp och koka i 35–40 minuter tills taron är väldigt mjuk.',
+          sv: 'Koka upp och låt koka i 35–40 minuter tills taron är riktigt mjuk.',
           es: 'Llevar a ebullición y cocinar durante 35 a 40 minutos hasta que el taro esté muy suave.',
           fr: 'Porter à ébullition et cuire 35 à 40 minutes jusqu\'à ce que le taro soit très tendre.',
           de: 'Zum Kochen bringen und 35–40 Minuten kochen, bis das Taro sehr weich ist.',
@@ -759,8 +899,8 @@ export const solomonIslands: Country = {
         },
         {
           en: 'Drain taro completely and transfer to a large mixing bowl.',
-          sv: 'Häll av taro helt och lägg till en stor blandningsskål.',
-          es: 'Escurre el taro por completo y transfiérelo a un tazón grande para mezclar.',
+          sv: 'Häll av vattnet ordentligt och lägg taron i en stor skål.',
+          es: 'Escurra bien el taro y páselo a un bol grande.',
           fr: 'Égoutter complètement le taro et transférer dans un grand bol à mélanger.',
           de: 'Taro vollständig abtropfen lassen und in eine große Rührschüssel geben.',
           it: 'Scolare completamente il taro e trasferirlo in una ciotola capiente.',
@@ -770,7 +910,7 @@ export const solomonIslands: Country = {
         },
         {
           en: 'Mash taro until smooth using a pestle or potato masher.',
-          sv: 'Mosa taro tills den är slät med en mortelstöt eller potatisstöt.',
+          sv: 'Mosa taron slät med en mortelstöt eller potatisstöt.',
           es: 'Triture el taro hasta que quede suave con un mortero o un machacador de papas.',
           fr: 'Écrasez le taro jusqu\'à consistance lisse à l\'aide d\'un pilon ou d\'un presse-purée.',
           de: 'Taro mit einem Stößel oder Kartoffelstampfer zerdrücken, bis eine glatte Masse entsteht.',
@@ -781,10 +921,10 @@ export const solomonIslands: Country = {
         },
         {
           en: 'Add peeled bananas and mash together with taro until combined.',
-          sv: 'Tillsätt skalade bananer och mosa tillsammans med taro tills det blandas.',
+          sv: 'Tillsätt de skalade bananerna och mosa dem tillsammans med taron till en jämn smet.',
           es: 'Agregue los plátanos pelados y triture con el taro hasta que se combinen.',
           fr: 'Ajouter les bananes pelées et écraser avec le taro jusqu\'à ce que le tout soit bien mélangé.',
-          de: 'Geschälte Bananen hinzufügen und zusammen mit der Taro-Mischung pürieren, bis alles gut vermischt ist.',
+          de: 'Die geschälten Bananen dazugeben und zusammen mit dem Taro zerstampfen, bis alles gut vermischt ist.',
           it: 'Aggiungere le banane sbucciate e schiacciarle insieme al taro fino a ottenere un composto omogeneo.',
           pl: 'Dodać obrane banany i ugnieść razem z taro, aż się połączą.',
           nl: 'Voeg de geschilde bananen toe en prak ze samen met de taro tot een geheel.',
@@ -797,16 +937,16 @@ export const solomonIslands: Country = {
           fr: 'Versez la crème de coco et mélangez jusqu\'à obtenir une consistance épaisse et crémeuse.',
           de: 'Kokoscreme dazugeben und verrühren, bis eine dicke, cremige Masse entsteht.',
           it: 'Versare la crema di cocco e mescolare finché non diventa densa e cremosa.',
-          pl: 'Wlać krem kokosowy i mieszać, aż masa będzie gęsta i kremowa.',
+          pl: 'Wlać śmietankę kokosową i mieszać, aż masa będzie gęsta i kremowa.',
           nl: 'Voeg de kokosroom toe en meng tot een dikke, romige massa.',
           pt: 'Acrescente o creme de coco e misture até ficar espesso e cremoso.',
         },
         {
           en: 'Add sugar if a sweeter taste is desired.',
-          sv: 'Tillsätt socker om en sötare smak önskas.',
+          sv: 'Tillsätt socker om du vill ha det sötare.',
           es: 'Agregue azúcar si desea un sabor más dulce.',
-          fr: 'Ajoutez du sucre si un goût plus sucré est souhaité.',
-          de: 'Fügen Sie Zucker hinzu, wenn Sie einen süßeren Geschmack wünschen.',
+          fr: 'Ajoutez du sucre si vous le préférez plus sucré.',
+          de: 'Nach Belieben mit Zucker süßen.',
           it: 'Aggiungere zucchero se si desidera un sapore più dolce.',
           pl: 'Dodać cukier, jeśli smak ma być słodszy.',
           nl: 'Voeg suiker toe als je een zoetere smaak wilt.',
@@ -814,7 +954,7 @@ export const solomonIslands: Country = {
         },
         {
           en: 'For traditional flavor, cover and rest at room temperature for 12–24 hours to lightly ferment.',
-          sv: 'För traditionell smak, täck över och vila i rumstemperatur i 12–24 timmar för att jäsa lätt.',
+          sv: 'För traditionell smak: täck över och låt stå i rumstemperatur i 12–24 timmar så att det jäser lätt.',
           es: 'Para obtener un sabor tradicional, cubra y deje reposar a temperatura ambiente durante 12 a 24 horas para que fermente ligeramente.',
           fr: 'Pour une saveur traditionnelle, couvrir et laisser reposer à température ambiante pendant 12 à 24 heures pour fermenter légèrement.',
           de: 'Für ein traditionelles Aroma abdecken und 12–24 Stunden bei Zimmertemperatur ruhen lassen, damit es leicht gärt.',
@@ -836,12 +976,12 @@ export const solomonIslands: Country = {
         },
         {
           en: 'Optional: drizzle extra coconut cream on top before serving.',
-          sv: 'Valfritt: ringla extra kokosgrädde ovanpå innan servering.',
+          sv: 'Ringla gärna över lite extra kokosgrädde före servering.',
           es: 'Opcional: rocíe más crema de coco encima antes de servir.',
           fr: 'Facultatif : arrosez un peu de crème de coco supplémentaire avant de servir.',
           de: 'Optional: Vor dem Servieren etwas Kokoscreme darüber träufeln.',
           it: 'Facoltativo: versare un filo di crema di cocco extra sopra prima di servire.',
-          pl: 'Opcjonalnie: przed podaniem polać dodatkową porcją kremu kokosowego.',
+          pl: 'Opcjonalnie: przed podaniem polać dodatkową porcją śmietanki kokosowej.',
           nl: 'Optioneel: besprenkel voor het serveren met extra kokosroom.',
           pt: 'Opcional: regue com um pouco mais de creme de coco antes de servir.',
         },
@@ -863,7 +1003,7 @@ export const solomonIslands: Country = {
       },
       description: {
         en: 'A simple island dessert made with sago pearls simmered in coconut milk and served with ripe banana.',
-        sv: 'En enkel ödessert gjord på sagopärlor som puttras i kokosmjölk och serveras med mogen banan.',
+        sv: 'En enkel efterrätt från öarna med sagopärlor som får sjuda i kokosmjölk och serveras med mogen banan.',
         es: 'Un postre isleño sencillo elaborado con perlas de sagú cocidas a fuego lento en leche de coco y servido con plátano maduro.',
         fr: 'Un dessert insulaire simple à base de perles de sagou mijotées dans du lait de coco et servi avec une banane mûre.',
         de: 'Ein einfaches Inseldessert aus in Kokosmilch gekochten Sagoperlen, serviert mit reifer Banane.',
@@ -947,7 +1087,7 @@ export const solomonIslands: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -975,7 +1115,7 @@ export const solomonIslands: Country = {
         {
           name: {
             en: 'Pinch of salt',
-            sv: 'Nypa salt',
+            sv: 'Salt',
             es: 'Una pizca de sal',
             fr: 'Pincée de sel',
             de: 'Prise Salz',
@@ -1016,7 +1156,7 @@ export const solomonIslands: Country = {
       steps: [
         {
           en: 'Rinse sago pearls under cold water.',
-          sv: 'Skölj sagopärlor under kallt vatten.',
+          sv: 'Skölj sagopärlorna i kallt vatten.',
           es: 'Enjuague las perlas de sagú con agua fría.',
           fr: 'Rincer les perles de sagou sous l\'eau froide.',
           de: 'Sagoperlen unter kaltem Wasser abspülen.',
@@ -1027,7 +1167,7 @@ export const solomonIslands: Country = {
         },
         {
           en: 'Bring water to a gentle boil and add sago; simmer 10–15 minutes until mostly translucent.',
-          sv: 'Koka upp vattnet försiktigt och tillsätt sago; låt sjuda i 10–15 minuter tills det mestadels är genomskinligt.',
+          sv: 'Låt vattnet koka upp försiktigt och tillsätt sagopärlorna; låt sjuda i 10–15 minuter tills de är nästan genomskinliga.',
           es: 'Lleve el agua a ebullición suave y agregue el sagú; cocine a fuego lento de 10 a 15 minutos hasta que esté casi translúcido.',
           fr: 'Porter l\'eau à ébullition douce et ajouter le sagou; laisser mijoter 10 à 15 minutes jusqu\'à ce qu\'il soit presque translucide.',
           de: 'Wasser leicht zum Kochen bringen und Sago hinzufügen; 10–15 Minuten köcheln lassen, bis es größtenteils durchscheinend ist.',
@@ -1049,7 +1189,7 @@ export const solomonIslands: Country = {
         },
         {
           en: 'Simmer 5–8 minutes until slightly thickened, stirring often.',
-          sv: 'Sjud 5–8 minuter tills det tjocknat något, rör om ofta.',
+          sv: 'Låt sjuda i 5–8 minuter under flitig omrörning tills det har tjocknat något.',
           es: 'Cocine a fuego lento de 5 a 8 minutos hasta que espese un poco, revolviendo con frecuencia.',
           fr: 'Laisser mijoter 5 à 8 minutes jusqu\'à ce que le mélange épaississe légèrement, en remuant souvent.',
           de: 'Unter häufigem Rühren 5–8 Minuten köcheln lassen, bis es leicht eingedickt ist.',
@@ -1060,7 +1200,7 @@ export const solomonIslands: Country = {
         },
         {
           en: 'Remove from heat and fold in sliced bananas.',
-          sv: 'Ta av från värmen och vänd ner skivade bananer.',
+          sv: 'Ta kastrullen från värmen och vänd ner de skivade bananerna.',
           es: 'Retirar del fuego e incorporar los plátanos en rodajas.',
           fr: 'Retirer du feu et incorporer les tranches de banane.',
           de: 'Vom Herd nehmen und in Scheiben geschnittene Bananen unterheben.',
@@ -1071,7 +1211,7 @@ export const solomonIslands: Country = {
         },
         {
           en: 'Optional: add lime zest for brightness.',
-          sv: 'Valfritt: tillsätt limeskal för ljushet.',
+          sv: 'Valfritt: tillsätt rivet limeskal för friskhet.',
           es: 'Opcional: agregue ralladura de lima para darle brillo.',
           fr: 'Facultatif : ajoutez du zeste de citron vert pour plus d\'éclat.',
           de: 'Optional: Für mehr Helligkeit Limettenschale hinzufügen.',

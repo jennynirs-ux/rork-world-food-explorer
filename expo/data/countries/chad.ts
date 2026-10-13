@@ -263,8 +263,28 @@ export const chad: Country = {
     },
     history: [
       {
-        year: '7th century',
-        title: 'Kanem-Bornu Empire',
+        year: {
+          en: '7th century',
+          sv: '600-talet',
+          es: 'siglo VII',
+          fr: 'VIIe siècle',
+          de: '7. Jahrhundert',
+          it: 'VII secolo',
+          pl: 'VII wiek',
+          nl: '7e eeuw',
+          pt: 'século VII',
+        },
+        title: {
+          en: 'Kanem-Bornu Empire',
+          sv: 'Kanem-Bornuriket',
+          es: 'Imperio de Kanem-Bornu',
+          fr: 'Empire du Kanem-Bornou',
+          de: 'Reich Kanem-Bornu',
+          it: 'Impero del Kanem-Bornu',
+          pl: 'Imperium Kanem-Bornu',
+          nl: 'Rijk van Kanem-Bornu',
+          pt: 'Império de Kanem-Bornu',
+        },
         description: {
           en: 'The powerful Kanem-Bornu Empire emerged around Lake Chad, becoming a major trading center for trans-Saharan routes.',
           sv: 'Det mäktiga Kanem-Bornu-riket uppstod runt Tchadsjön och blev ett stort handelscentrum för rutter över Sahara.',
@@ -279,7 +299,17 @@ export const chad: Country = {
       },
       {
         year: '1900',
-        title: 'French Colonial Rule',
+        title: {
+          en: 'French Colonial Rule',
+          sv: 'Franskt kolonialstyre',
+          es: 'Dominio colonial francés',
+          fr: 'Domination coloniale française',
+          de: 'Französische Kolonialherrschaft',
+          it: 'Dominio coloniale francese',
+          pl: 'Francuskie rządy kolonialne',
+          nl: 'Frans koloniaal bewind',
+          pt: 'Domínio colonial francês',
+        },
         description: {
           en: 'France colonized Chad, making it part of French Equatorial Africa despite fierce resistance from local populations.',
           sv: 'Frankrike koloniserade Tchad, vilket gjorde det till en del av franska Ekvatorialafrika trots hårt motstånd från lokalbefolkningen.',
@@ -294,7 +324,17 @@ export const chad: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Chad gained independence from France, though civil conflicts between north and south soon emerged.',
           sv: 'Tchad blev självständigt från Frankrike, även om inbördes konflikter mellan norr och söder snart uppstod.',
@@ -309,7 +349,17 @@ export const chad: Country = {
       },
       {
         year: '2003',
-        title: 'Oil Production',
+        title: {
+          en: 'Oil Production',
+          sv: 'Oljeproduktion',
+          es: 'Producción de petróleo',
+          fr: 'Production pétrolière',
+          de: 'Erdölförderung',
+          it: 'Produzione di petrolio',
+          pl: 'Wydobycie ropy',
+          nl: 'Olieproductie',
+          pt: 'Produção de petróleo',
+        },
         description: {
           en: 'Chad began exporting oil, transforming its economy despite ongoing political instability and conflict.',
           sv: 'Tchad började exportera olja och förändrade sin ekonomi trots pågående politisk instabilitet och konflikt.',
@@ -336,7 +386,17 @@ export const chad: Country = {
           nl: 'Technieken tegen woestijnvorming',
           pt: 'Técnicas de combate à desertificação',
         },
-        year: '1970s',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
         description: {
           en: 'Developed indigenous methods to combat Sahara expansion using traditional water conservation and tree planting adapted to extreme conditions.',
           sv: 'Utvecklade inhemska metoder för att bekämpa Saharas expansion med hjälp av traditionell vattenvård och trädplantering anpassad till extrema förhållanden.',
@@ -386,7 +446,17 @@ export const chad: Country = {
           nl: 'Mobiele zorgnetwerken',
           pt: 'Redes móveis de cuidados de saúde',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Created innovative mobile health clinics to serve nomadic populations across vast desert regions.',
           sv: 'Skapat innovativa mobila hälsokliniker för att betjäna nomadbefolkningar över stora ökenregioner.',
@@ -411,7 +481,17 @@ export const chad: Country = {
           nl: 'Traditionele woestijnnavigatie',
           pt: 'Navegação tradicional no deserto',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Perfected celestial navigation and sand-reading techniques still used by desert guides and studied by researchers worldwide.',
           sv: 'Fulländad himmelsnavigering och sandläsningstekniker som fortfarande används av ökenguider och studeras av forskare över hela världen.',
@@ -453,7 +533,7 @@ export const chad: Country = {
       {
         name: {
           en: 'Ennedi Plateau',
-          sv: 'Ennedi Plateau',
+          sv: 'Ennedi-platån',
           es: 'Meseta de Ennedi',
           fr: 'Plateau de l\'Ennedi',
           de: 'Ennedi-Plateau',
@@ -525,7 +605,7 @@ export const chad: Country = {
       {
         name: {
           en: 'Gaoui Village',
-          sv: 'Gaoui Village',
+          sv: 'Byn Gaoui',
           es: 'Pueblo Gaoui',
           fr: 'Village Gaoui',
           de: 'Gaoui-Dorf',
@@ -549,7 +629,17 @@ export const chad: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors require a visa obtained in advance. Travel permits needed for many regions.',
           sv: 'De flesta besökare behöver ett visum som erhållits i förväg. Resetillstånd behövs för många regioner.',
@@ -563,7 +653,17 @@ export const chad: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to February for cooler, dry weather. March-May extremely hot. June-September rainy season in south.',
           sv: 'November till februari för svalare, torrt väder. Mars-maj extremt varmt. Juni-september regnperiod i söder.',
@@ -577,7 +677,17 @@ export const chad: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Limited public transport. Organized tours recommended. 4x4 vehicles essential for desert areas.',
           sv: 'Begränsad kollektivtrafik. Organiserade turer rekommenderas. 4x4-fordon som är nödvändiga för ökenområden.',
@@ -591,7 +701,17 @@ export const chad: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'French and Arabic are official. Over 120 local languages spoken. English rare.',
           sv: 'Franska och arabiska är officiella. Över 120 lokala språk talas. Engelska sällsynt.',
@@ -605,7 +725,17 @@ export const chad: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check travel advisories. Northern regions have security concerns. Travel with experienced guides.',
           sv: 'Kontrollera reseinformation. Nordliga regioner har säkerhetsproblem. Res med erfarna guider.',
@@ -676,7 +806,7 @@ export const chad: Country = {
         {
           name: {
             en: 'Dried fish or meat',
-            sv: 'Torkad fisk eller kött',
+            sv: 'Torkad fisk eller torkat kött',
             es: 'Pescado o carne secos',
             fr: 'Poisson ou viande séchés',
             de: 'Getrockneter Fisch oder Fleisch',
@@ -703,7 +833,7 @@ export const chad: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -743,7 +873,7 @@ export const chad: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -793,7 +923,7 @@ export const chad: Country = {
         },
         {
           en: 'Gradually add flour while stirring',
-          sv: 'Tillsätt gradvis mjöl under omrörning',
+          sv: 'Tillsätt mjölet lite i taget under omrörning',
           es: 'Agregue poco a poco la harina mientras revuelve',
           fr: 'Ajouter progressivement la farine en remuant',
           de: 'Unter Rühren nach und nach Mehl hinzufügen',
@@ -804,7 +934,7 @@ export const chad: Country = {
         },
         {
           en: 'Cook until thick porridge forms',
-          sv: 'Koka tills det bildas tjock gröt',
+          sv: 'Koka tills det bildas en tjock gröt',
           es: 'Cocine hasta que se forme una papilla espesa',
           fr: 'Cuire jusqu\'à ce qu\'une bouillie épaisse se forme',
           de: 'Kochen, bis ein dicker Brei entsteht',
@@ -815,7 +945,7 @@ export const chad: Country = {
         },
         {
           en: 'Make sauce with fish, tomatoes, and okra',
-          sv: 'Gör sås med fisk, tomater och okra',
+          sv: 'Gör en sås på fisk, tomater och okra',
           es: 'Prepara salsa con pescado, tomates y okra',
           fr: 'Préparez une sauce avec du poisson, des tomates et du gombo',
           de: 'Bereiten Sie eine Soße mit Fisch, Tomaten und Okra zu',
@@ -826,7 +956,7 @@ export const chad: Country = {
         },
         {
           en: 'Simmer sauce until thick',
-          sv: 'Sjud såsen tjock',
+          sv: 'Låt såsen sjuda tills den tjocknar',
           es: 'Cocine a fuego lento la salsa hasta que espese',
           fr: 'Laisser mijoter la sauce jusqu\'à ce qu\'elle soit épaisse',
           de: 'Soße köcheln lassen, bis sie dickflüssig ist',
@@ -837,7 +967,7 @@ export const chad: Country = {
         },
         {
           en: 'Serve boule with sauce on side',
-          sv: 'Servera boule med sås på sidan',
+          sv: 'Servera boulen med såsen vid sidan av',
           es: 'Sirva la bola con salsa al lado',
           fr: 'Servir la boule avec la sauce à côté',
           de: 'Boule mit Soße als Beilage servieren',
@@ -852,26 +982,26 @@ export const chad: Country = {
     dessert: {
       id: 'chad-dessert',
       name: {
-        en: 'Bouillie',
-        sv: 'Maharagwe',
-        es: 'Maharagwe',
-        fr: 'Maharagwe',
-        de: 'Maharagwe',
-        it: 'Maharagwe',
-        pl: 'Maharagwe',
-        nl: 'Maharagwe',
-        pt: 'Maharagwe',
+        en: 'Sweet beans in coconut milk',
+        sv: 'Söta bönor i kokosmjölk',
+        es: 'Frijoles dulces con leche de coco',
+        fr: 'Haricots sucrés au lait de coco',
+        de: 'Süße Bohnen in Kokosmilch',
+        it: 'Fagioli dolci al latte di cocco',
+        pl: 'Słodka fasola w mleku kokosowym',
+        nl: 'Zoete bonen in kokosmelk',
+        pt: 'Feijão doce com leite de coco',
       },
       description: {
-        en: 'A sweet Chadian millet porridge with sugar and milk, a comforting traditional dessert.',
-        sv: 'Sötböndessert med kokos, populär i södra Tchad',
-        es: 'Postre dulce de judías con coco, popular en el sur de Chad',
-        fr: 'Dessert aux haricots sucrés et à la noix de coco, populaire dans le sud du Tchad',
-        de: 'Süßes Bohnendessert mit Kokosnuss, beliebt im Süden des Tschad',
-        it: 'Sweet bean dessert with coconut, popular in southern Chad',
-        pl: 'Sweet bean dessert with coconut, popular in southern Chad',
-        nl: 'Sweet bean dessert with coconut, popular in southern Chad',
-        pt: 'Sweet bean dessert with coconut, popular in southern Chad',
+        en: 'A sweet, gently spiced dessert of red beans simmered in coconut milk with cinnamon and cardamom.',
+        sv: 'Söt efterrätt av röda bönor som får sjuda i kokosmjölk med kanel och kardemumma.',
+        es: 'Un postre dulce y ligeramente especiado de frijoles rojos cocidos a fuego lento en leche de coco con canela y cardamomo.',
+        fr: 'Un dessert sucré et délicatement épicé de haricots rouges mijotés dans du lait de coco à la cannelle et à la cardamome.',
+        de: 'Ein süßes, mild gewürztes Dessert aus roten Bohnen, die in Kokosmilch mit Zimt und Kardamom köcheln.',
+        it: 'Un dessert dolce e delicatamente speziato di fagioli rossi cotti a fuoco lento nel latte di cocco con cannella e cardamomo.',
+        pl: 'Słodki, delikatnie przyprawiony deser z czerwonej fasoli gotowanej na wolnym ogniu w mleku kokosowym z cynamonem i kardamonem.',
+        nl: 'Een zoet, licht gekruid dessert van rode bonen die zachtjes sudderen in kokosmelk met kaneel en kardemom.',
+        pt: 'Uma sobremesa doce e levemente condimentada de feijão vermelho cozido em fogo baixo no leite de coco com canela e cardamomo.',
       },
       cookingTime: 60,
       difficulty: 'medium',
@@ -936,7 +1066,7 @@ export const chad: Country = {
         {
           name: {
             en: 'Cinnamon powder',
-            sv: 'Kanelpulver',
+            sv: 'Malen kanel',
             es: 'Canela en polvo',
             fr: 'Cannelle en poudre',
             de: 'Zimtpulver',
@@ -951,7 +1081,7 @@ export const chad: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -993,7 +1123,7 @@ export const chad: Country = {
         },
         {
           en: 'Drain and rinse beans',
-          sv: 'Töm och skölj bönor',
+          sv: 'Häll av och skölj bönorna',
           es: 'Escurrir y enjuagar los frijoles',
           fr: 'Égoutter et rincer les haricots',
           de: 'Bohnen abgießen und abspülen',
@@ -1004,9 +1134,9 @@ export const chad: Country = {
         },
         {
           en: 'Boil beans in fresh water until soft (about 45 minutes)',
-          sv: 'Koka bönor i färskt vatten tills de är mjuka (ca 45 minuter)',
-          es: 'Hervir los frijoles en agua dulce hasta que estén tiernos (unos 45 minutos)',
-          fr: 'Faire bouillir les haricots dans de l\'eau douce jusqu\'à ce qu\'ils soient tendres (environ 45 minutes)',
+          sv: 'Koka bönorna i nytt vatten tills de är mjuka (ca 45 minuter)',
+          es: 'Hervir los frijoles en agua limpia hasta que estén tiernos (unos 45 minutos)',
+          fr: 'Faire bouillir les haricots dans de l\'eau propre jusqu\'à ce qu\'ils soient tendres (environ 45 minutes)',
           de: 'Bohnen in frischem Wasser weich kochen (ca. 45 Minuten)',
           it: 'Bollire i fagioli in acqua pulita finché morbidi (circa 45 minuti)',
           pl: 'Gotuj fasolę w świeżej wodzie, aż zmięknie (ok. 45 minut)',
@@ -1015,7 +1145,7 @@ export const chad: Country = {
         },
         {
           en: 'Drain beans and return to pot',
-          sv: 'Häll av bönorna och lägg tillbaka i grytan',
+          sv: 'Häll av bönorna och lägg tillbaka dem i kastrullen',
           es: 'Escurrir los frijoles y devolverlos a la olla',
           fr: 'Égoutter les haricots et remettre dans la casserole',
           de: 'Bohnen abgießen und zurück in den Topf geben',
@@ -1027,7 +1157,7 @@ export const chad: Country = {
         {
           en: 'Add coconut milk, sugar, cinnamon, and cardamom',
           sv: 'Tillsätt kokosmjölk, socker, kanel och kardemumma',
-          es: 'Agrega la leche de coco, el azúcar, la canela y el cardamomo',
+          es: 'Añadir la leche de coco, el azúcar, la canela y el cardamomo',
           fr: 'Ajouter le lait de coco, le sucre, la cannelle et la cardamome',
           de: 'Kokosmilch, Zucker, Zimt und Kardamom hinzufügen',
           it: 'Aggiungere latte di cocco, zucchero, cannella e cardamomo',
@@ -1037,8 +1167,8 @@ export const chad: Country = {
         },
         {
           en: 'Simmer on low heat for 15 minutes',
-          sv: 'Sjud på låg värme i 15 minuter',
-          es: 'Cocine a fuego lento durante 15 minutos',
+          sv: 'Låt sjuda på låg värme i 15 minuter',
+          es: 'Cocer a fuego lento durante 15 minutos',
           fr: 'Laisser mijoter à feu doux pendant 15 minutes',
           de: 'Bei schwacher Hitze 15 Minuten köcheln lassen',
           it: 'Cuocere a fuoco basso per 15 minuti',
@@ -1048,13 +1178,13 @@ export const chad: Country = {
         },
         {
           en: 'Stir in vanilla extract',
-          sv: 'Rör ner vaniljextrakt',
-          es: 'Agregue el extracto de vainilla',
+          sv: 'Rör ner vaniljextraktet',
+          es: 'Incorporar el extracto de vainilla',
           fr: 'Incorporer l\'extrait de vanille',
           de: 'Vanilleextrakt einrühren',
           it: 'Incorporare l\'estratto di vaniglia',
           pl: 'Wmieszaj ekstrakt z wanilii',
-          nl: 'Roer de vanille-extract erdoor',
+          nl: 'Roer het vanille-extract erdoor',
           pt: 'Junte o extrato de baunilha',
         },
         {
@@ -1486,7 +1616,7 @@ export const chad: Country = {
           },
           {
             en: 'Simien Mountains',
-            sv: 'Simien Mountains',
+            sv: 'Simienbergen',
             es: 'Montañas Simien',
             fr: 'Monts du Simien',
             de: 'Simien-Gebirge',

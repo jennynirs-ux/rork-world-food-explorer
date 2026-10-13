@@ -242,7 +242,17 @@ export const poland: Country = {
     history: [
       {
         year: '966',
-        title: 'Christianization',
+        title: {
+          en: 'Christianization',
+          sv: 'Kristnandet',
+          es: 'Cristianización',
+          fr: 'Christianisation',
+          de: 'Christianisierung',
+          it: 'Cristianizzazione',
+          pl: 'Chrzest Polski',
+          nl: 'Kerstening',
+          pt: 'Cristianização',
+        },
         description: {
           en: 'Poland adopted Christianity, marking the beginning of the Polish state under Duke Mieszko I.',
           sv: 'Polen antog kristendomen, vilket markerade början på den polska staten under hertig Mieszko I.',
@@ -257,7 +267,17 @@ export const poland: Country = {
       },
       {
         year: '1939-1945',
-        title: 'World War II',
+        title: {
+          en: 'World War II',
+          sv: 'Andra världskriget',
+          es: 'Segunda Guerra Mundial',
+          fr: 'Seconde Guerre mondiale',
+          de: 'Zweiter Weltkrieg',
+          it: 'Seconda guerra mondiale',
+          pl: 'II wojna światowa',
+          nl: 'Tweede Wereldoorlog',
+          pt: 'Segunda Guerra Mundial',
+        },
         description: {
           en: 'Poland suffered immense losses during WWII, including the Holocaust and Warsaw Uprising.',
           sv: 'Polen led enorma förluster under andra världskriget, inklusive förintelsen och Warszawaupproret.',
@@ -272,7 +292,17 @@ export const poland: Country = {
       },
       {
         year: '1989',
-        title: 'Fall of Communism',
+        title: {
+          en: 'Fall of Communism',
+          sv: 'Kommunismens fall',
+          es: 'Caída del comunismo',
+          fr: 'Chute du communisme',
+          de: 'Ende des Kommunismus',
+          it: 'Caduta del comunismo',
+          pl: 'Upadek komunizmu',
+          nl: 'Val van het communisme',
+          pt: 'Queda do comunismo',
+        },
         description: {
           en: 'The Solidarity movement led to the end of communist rule, inspiring other Eastern European nations.',
           sv: 'Solidaritetsrörelsen ledde till slutet för det kommunistiska styret, vilket inspirerade andra östeuropeiska nationer.',
@@ -487,7 +517,17 @@ export const poland: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-September for warm weather and festivals.',
           sv: 'Maj-september för varmt väder och festivaler.',
@@ -501,7 +541,17 @@ export const poland: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Schengen visa rules apply.',
           sv: 'Schengenvisumregler gäller.',
@@ -515,7 +565,17 @@ export const poland: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Cards widely accepted, but have some złoty for small purchases.',
           sv: 'Kort accepteras allmänt, men har några złoty för små inköp.',
@@ -529,7 +589,17 @@ export const poland: Country = {
         },
       },
       {
-        item: 'Warm clothing',
+        item: {
+          en: 'Warm clothing',
+          sv: 'Varma kläder',
+          es: 'Ropa de abrigo',
+          fr: 'Vêtements chauds',
+          de: 'Warme Kleidung',
+          it: 'Abiti caldi',
+          pl: 'Ciepła odzież',
+          nl: 'Warme kleding',
+          pt: 'Roupas de frio',
+        },
         description: {
           en: 'Winters are cold, pack accordingly.',
           sv: 'Vintrarna är kalla, packa därefter.',
@@ -558,7 +628,7 @@ export const poland: Country = {
       },
       description: {
         en: 'Dumplings filled with various ingredients, Poland\'s most iconic dish',
-        sv: 'Dumplings fyllda med olika ingredienser, Polens mest ikoniska rätt',
+        sv: 'Degknyten med olika fyllningar, Polens mest ikoniska rätt',
         es: 'Empanadillas rellenas de diversos ingredientes, el plato más emblemático de Polonia',
         fr: 'Dumplings remplis de divers ingrédients, le plat le plus emblématique de Pologne',
         de: 'Mit verschiedenen Zutaten gefüllte Teigtaschen, Polens bekanntestes Gericht',
@@ -585,7 +655,7 @@ export const poland: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -612,7 +682,7 @@ export const poland: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -655,7 +725,7 @@ export const poland: Country = {
         {
           name: {
             en: 'Farmer cheese',
-            sv: 'Bondeost',
+            sv: 'Kvarg',
             es: 'Queso de granjero',
             fr: 'Fromage fermier',
             de: 'Bauernkäse',
@@ -682,7 +752,7 @@ export const poland: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -726,7 +796,7 @@ export const poland: Country = {
       steps: [
         {
           en: 'Make dough: mix flour, eggs, water, and salt, knead until smooth',
-          sv: 'Gör degen: blanda mjöl, ägg, vatten och salt, knåda tills den är slät',
+          sv: 'Gör degen: blanda vetemjöl, ägg, vatten och salt och knåda till en smidig deg',
           es: 'Hacer la masa: mezclar harina, huevos, agua y sal, amasar hasta que quede suave',
           fr: 'Préparez la pâte : mélangez la farine, les œufs, l\'eau et le sel, pétrissez jusqu\'à obtenir une pâte lisse',
           de: 'Teig zubereiten: Mehl, Eier, Wasser und Salz mischen, glatt kneten',
@@ -748,7 +818,7 @@ export const poland: Country = {
         },
         {
           en: 'Make filling: mash cooked potatoes with cheese and sautéed onions',
-          sv: 'Gör fyllning: mosa kokt potatis med ost och stekt lök',
+          sv: 'Gör fyllningen: mosa kokt potatis med kvarg och stekt lök',
           es: 'Hacer el relleno: puré de patatas cocidas con queso y cebolla salteada',
           fr: 'Préparez la garniture : écrasez des pommes de terre cuites avec du fromage et des oignons sautés',
           de: 'Füllung zubereiten: Gekochte Kartoffeln mit Käse und sautierten Zwiebeln zerstampfen',
@@ -759,7 +829,7 @@ export const poland: Country = {
         },
         {
           en: 'Roll out dough thinly, cut circles with glass',
-          sv: 'Kavla ut degen tunt, skär cirklar med glas',
+          sv: 'Kavla ut degen tunt och ta ut rundlar med ett glas',
           es: 'Estirar la masa finamente, cortar círculos con vaso',
           fr: 'Abaisser finement la pâte, découper des cercles avec du verre',
           de: 'Teig dünn ausrollen, mit Glas Kreise ausstechen',
@@ -770,7 +840,7 @@ export const poland: Country = {
         },
         {
           en: 'Place filling on each circle, fold and seal edges',
-          sv: 'Lägg fyllningen på varje cirkel, vik och försegla kanterna',
+          sv: 'Lägg en klick fyllning på varje rundel, vik ihop och tryck till kanterna ordentligt',
           es: 'Colocar relleno en cada círculo, doblar y sellar los bordes',
           fr: 'Placer la garniture sur chaque cercle, plier et sceller les bords',
           de: 'Die Füllung auf jeden Kreis geben, die Ränder falten und versiegeln',
@@ -781,7 +851,7 @@ export const poland: Country = {
         },
         {
           en: 'Boil pierogi in salted water until they float',
-          sv: 'Koka pierogi i saltat vatten tills de flyter',
+          sv: 'Koka pierogi i saltat vatten tills de flyter upp',
           es: 'Hervir los pierogi en agua con sal hasta que floten.',
           fr: 'Faire bouillir les pierogi dans de l\'eau salée jusqu\'à ce qu\'ils flottent',
           de: 'Piroggen in Salzwasser kochen, bis sie schwimmen',
@@ -830,7 +900,7 @@ export const poland: Country = {
       },
       description: {
         en: 'Dense, creamy cheesecake made with farmer cheese',
-        sv: 'Tät, krämig cheesecake gjord på bondost',
+        sv: 'Tät, krämig cheesecake gjord på kvarg',
         es: 'Tarta de queso densa y cremosa hecha con queso granjero',
         fr: 'Cheesecake dense et crémeux à base de fromage fermier',
         de: 'Dichter, cremiger Käsekuchen aus Bauernkäse',
@@ -857,7 +927,7 @@ export const poland: Country = {
         {
           name: {
             en: 'Farmer cheese (twaróg)',
-            sv: 'Bondeost (twaróg)',
+            sv: 'Kvarg (twaróg)',
             es: 'Queso de granjero (twaróg)',
             fr: 'Fromage fermier (twaróg)',
             de: 'Bauernkäse (Twaróg)',
@@ -899,7 +969,7 @@ export const poland: Country = {
           amount: 6,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -967,7 +1037,7 @@ export const poland: Country = {
         {
           name: {
             en: 'Potato starch',
-            sv: 'Potatisstärkelse',
+            sv: 'Potatismjöl',
             es: 'Almidón de patata',
             fr: 'Fécule de pomme de terre',
             de: 'Kartoffelstärke',
@@ -992,7 +1062,7 @@ export const poland: Country = {
         {
           name: {
             en: 'Graham crackers for crust',
-            sv: 'Graham kex för skorpa',
+            sv: 'Grahamskex (eller digestivekex) till botten',
             es: 'Galletas Graham para la base',
             fr: 'Biscuits Graham pour croûte',
             de: 'Graham-Cracker für die Kruste',
@@ -1008,7 +1078,7 @@ export const poland: Country = {
       steps: [
         {
           en: 'Make crust: crush crackers, mix with melted butter, press into pan',
-          sv: 'Gör skorpa: krossa kex, blanda med smält smör, tryck ut i pannan',
+          sv: 'Gör botten: krossa kexen, blanda med smält smör och tryck ut i formen',
           es: 'Haga la corteza: triture las galletas, mezcle con mantequilla derretida, presione en la sartén',
           fr: 'Faire la croûte : écraser les crackers, mélanger avec le beurre fondu, presser dans le moule',
           de: 'Kruste herstellen: Cracker zerstoßen, mit zerlassener Butter vermischen, in die Pfanne drücken',
@@ -1019,7 +1089,7 @@ export const poland: Country = {
         },
         {
           en: 'Blend cheese until smooth',
-          sv: 'Mixa osten tills den är slät',
+          sv: 'Mixa kvargen slät',
           es: 'Licue el queso hasta que quede suave',
           fr: 'Mélanger le fromage jusqu\'à consistance lisse',
           de: 'Den Käse glatt rühren',
@@ -1030,7 +1100,7 @@ export const poland: Country = {
         },
         {
           en: 'Beat in sugar, eggs, vanilla, lemon zest, and starch',
-          sv: 'Vispa i socker, ägg, vanilj, citronskal och stärkelse',
+          sv: 'Vispa ner socker, ägg, vanilj, citronskal och potatismjöl',
           es: 'Incorpora el azúcar, los huevos, la vainilla, la ralladura de limón y el almidón',
           fr: 'Incorporer le sucre, les œufs, la vanille, le zeste de citron et la fécule',
           de: 'Zucker, Eier, Vanille, Zitronenschale und Stärke unterrühren',
@@ -1041,7 +1111,7 @@ export const poland: Country = {
         },
         {
           en: 'Pour mixture over crust',
-          sv: 'Häll blandningen över skorpan',
+          sv: 'Häll smeten över botten',
           es: 'Vierta la mezcla sobre la base',
           fr: 'Verser le mélange sur la croûte',
           de: 'Die Mischung über die Kruste gießen',
@@ -1063,7 +1133,7 @@ export const poland: Country = {
         },
         {
           en: 'Turn off oven, leave cake inside with door open for 30 minutes',
-          sv: 'Stäng av ugnen, lämna kakan inne med luckan öppen i 30 minuter',
+          sv: 'Stäng av ugnen och låt kakan stå kvar i 30 minuter med luckan på glänt',
           es: 'Apagar el horno, dejar el bizcocho dentro con la puerta abierta durante 30 minutos',
           fr: 'Éteignez le four, laissez le gâteau à l\'intérieur avec la porte ouverte pendant 30 minutes',
           de: 'Schalten Sie den Ofen aus und lassen Sie den Kuchen 30 Minuten lang bei geöffneter Tür drin',
@@ -1074,7 +1144,7 @@ export const poland: Country = {
         },
         {
           en: 'Cool completely, refrigerate overnight',
-          sv: 'Kyl helt, kyl över natten',
+          sv: 'Låt svalna helt och ställ sedan i kylen över natten',
           es: 'Deje enfriar completamente, refrigere durante la noche',
           fr: 'Laisser refroidir complètement, réfrigérer toute la nuit',
           de: 'Vollständig abkühlen lassen, über Nacht in den Kühlschrank stellen',
@@ -1085,7 +1155,7 @@ export const poland: Country = {
         },
         {
           en: 'Dust with powdered sugar before serving',
-          sv: 'Pudra med strösocker före servering',
+          sv: 'Pudra med florsocker före servering',
           es: 'Espolvoree con azúcar en polvo antes de servir',
           fr: 'Saupoudrer de sucre en poudre avant de servir',
           de: 'Vor dem Servieren mit Puderzucker bestäuben',

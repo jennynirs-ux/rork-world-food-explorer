@@ -230,8 +230,28 @@ export const venezuela: Country = {
     },
     history: [
       {
-        year: '2000 BC',
-        title: 'Maize Domestication',
+        year: {
+          en: '2000 BC',
+          sv: '2000 f.Kr.',
+          es: '2000 a. C.',
+          fr: '2000 av. J.-C.',
+          de: '2000 v. Chr.',
+          it: '2000 a.C.',
+          pl: '2000 p.n.e.',
+          nl: '2000 v.Chr.',
+          pt: '2000 a.C.',
+        },
+        title: {
+          en: 'Maize Domestication',
+          sv: 'Domesticeringen av majs',
+          es: 'Domesticación del maíz',
+          fr: 'Domestication du maïs',
+          de: 'Domestizierung des Maises',
+          it: 'Domesticazione del mais',
+          pl: 'Udomowienie kukurydzy',
+          nl: 'Domesticatie van maïs',
+          pt: 'Domesticação do milho',
+        },
         description: {
           en: 'Indigenous peoples domesticated maize from wild grasses, establishing corn as sacred and dietary staple for thousands of years',
           sv: 'Ursprunglig folk domesticerade majs',
@@ -246,7 +266,17 @@ export const venezuela: Country = {
       },
       {
         year: '1500',
-        title: 'Arepa Development',
+        title: {
+          en: 'Arepa Development',
+          sv: 'Arepans utveckling',
+          es: 'Evolución de la arepa',
+          fr: 'Évolution de l\'arepa',
+          de: 'Entwicklung der Arepa',
+          it: 'Evoluzione dell\'arepa',
+          pl: 'Rozwój arepy',
+          nl: 'Ontwikkeling van de arepa',
+          pt: 'Evolução da arepa',
+        },
         description: {
           en: 'Pre-Columbian Arawak and Carib peoples perfected arepa preparation, creating versatile corn cakes that would define Venezuelan identity',
           sv: 'Pre-Columbus folk perfektionerade arepaberedning',
@@ -261,7 +291,17 @@ export const venezuela: Country = {
       },
       {
         year: '1600',
-        title: 'African Culinary Traditions',
+        title: {
+          en: 'African Culinary Traditions',
+          sv: 'Afrikanska mattraditioner',
+          es: 'Tradiciones culinarias africanas',
+          fr: 'Traditions culinaires africaines',
+          de: 'Afrikanische Kochtraditionen',
+          it: 'Tradizioni culinarie africane',
+          pl: 'Afrykańskie tradycje kulinarne',
+          nl: 'Afrikaanse culinaire tradities',
+          pt: 'Tradições culinárias africanas',
+        },
         description: {
           en: 'Enslaved Africans brought plantain cooking techniques, okra dishes, and seasoning traditions that transformed Venezuelan cuisine',
           sv: 'Afrikanerna förde med sig matplantatöversättning',
@@ -276,7 +316,17 @@ export const venezuela: Country = {
       },
       {
         year: '1900',
-        title: 'Grilling and Meat Culture',
+        title: {
+          en: 'Grilling and Meat Culture',
+          sv: 'Grillning och köttkultur',
+          es: 'Parrilla y cultura de la carne',
+          fr: 'Grillades et culture de la viande',
+          de: 'Grill- und Fleischkultur',
+          it: 'Grigliate e cultura della carne',
+          pl: 'Grillowanie i kultura mięsa',
+          nl: 'Grillen en vleescultuur',
+          pt: 'Churrasco e cultura da carne',
+        },
         description: {
           en: 'Spanish colonial tradition of grilling meats evolved with local ingredients, creating distinctive Venezuelan asado and grilled specialties',
           sv: 'Spansk kolonial tradition av grillning utvecklades',
@@ -294,7 +344,7 @@ export const venezuela: Country = {
       {
         name: {
           en: 'Angel Falls',
-          sv: 'Angel Falls',
+          sv: 'Angelfallet',
           es: 'Salto Ángel',
           fr: 'Chutes d\'Ange',
           de: 'Angel Falls',
@@ -390,7 +440,7 @@ export const venezuela: Country = {
       {
         name: {
           en: 'Roraima Tepui',
-          sv: 'Roraima Tepui',
+          sv: 'Roraima (tepui)',
           es: 'Roraima Tepui',
           fr: 'Roraima Tepui',
           de: 'Roraima Tepui',
@@ -414,7 +464,17 @@ export const venezuela: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Requirements vary by nationality. Check current regulations before travel.',
           sv: 'Kraven varierar beroende på nationalitet. Kontrollera gällande bestämmelser innan resa.',
@@ -428,7 +488,17 @@ export const venezuela: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to April (dry season) for Angel Falls and trekking.',
           sv: 'December till april (torrsäsong) för Angel Falls och vandring.',
@@ -442,7 +512,17 @@ export const venezuela: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories. Exercise caution, especially in urban areas.',
           sv: 'Kontrollera aktuella resemeddelanden. Var försiktig, särskilt i stadsområden.',
@@ -480,7 +560,17 @@ export const venezuela: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Spanish is essential. English very limited outside tourist areas.',
           sv: 'Spanska är viktigt. Engelska mycket begränsad utanför turistområdena.',
@@ -532,7 +622,17 @@ export const venezuela: Country = {
           nl: 'Studie naar de Catatumbo-bliksem',
           pt: 'Estudo dos raios de Catatumbo',
         },
-        year: 'Ongoing',
+        year: {
+          en: 'Ongoing',
+          sv: 'Pågående',
+          es: 'En curso',
+          fr: 'En cours',
+          de: 'Andauernd',
+          it: 'In corso',
+          pl: 'Trwa nadal',
+          nl: 'Voortdurend',
+          pt: 'Em andamento',
+        },
         description: {
           en: 'Unique meteorological phenomenon creating most lightning strikes on Earth, advancing atmospheric science',
           sv: 'Unikt meteorologiskt fenomen som skapar de flesta blixtnedslag på jorden, vilket främjar atmosfärsvetenskapen',
@@ -557,7 +657,17 @@ export const venezuela: Country = {
           nl: 'Culinaire traditie van de arepa',
           pt: 'Tradição culinária da arepa',
         },
-        year: 'Pre-Columbian',
+        year: {
+          en: 'Pre-Columbian',
+          sv: 'Förcolumbiansk tid',
+          es: 'Época precolombina',
+          fr: 'Époque précolombienne',
+          de: 'Präkolumbische Zeit',
+          it: 'Epoca precolombiana',
+          pl: 'Okres prekolumbijski',
+          nl: 'Precolumbiaanse tijd',
+          pt: 'Período pré-colombiano',
+        },
         description: {
           en: 'Ancient corn-based food adapted into versatile national dish with countless variations',
           sv: 'Urgammal majsbaserad mat anpassad till mångsidig nationalrätt med otaliga variationer',
@@ -586,7 +696,7 @@ export const venezuela: Country = {
       },
       description: {
         en: 'National dish of shredded beef, black beans, white rice, and fried plantains',
-        sv: 'Nationalrätt av strimlat nötkött, svarta bönor, vitt ris och stekt mjölbananer',
+        sv: 'Nationalrätt med strimlat nötkött, svarta bönor, vitt ris och stekta kokbananer',
         es: 'Plato nacional de carne deshebrada, frijoles negros, arroz blanco y plátanos fritos',
         fr: 'Plat national composé de bœuf râpé, de haricots noirs, de riz blanc et de plantains frits',
         de: 'Nationalgericht aus geschnetzeltem Rindfleisch, schwarzen Bohnen, weißem Reis und gebratenen Kochbananen',
@@ -628,7 +738,7 @@ export const venezuela: Country = {
         {
           name: {
             en: 'Black beans (dry or canned)',
-            sv: 'Svarta bönor (torra eller konserverade)',
+            sv: 'Svarta bönor (torkade eller på burk)',
             es: 'Frijoles negros (secos o enlatados)',
             fr: 'Haricots noirs (secs ou en conserve)',
             de: 'Schwarze Bohnen (trocken oder aus der Dose)',
@@ -658,7 +768,7 @@ export const venezuela: Country = {
         {
           name: {
             en: 'Ripe plantains',
-            sv: 'Mogna groblad',
+            sv: 'Mogna kokbananer',
             es: 'Plátanos maduros',
             fr: 'Plantains mûrs',
             de: 'Reife Kochbananen',
@@ -670,7 +780,7 @@ export const venezuela: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -695,7 +805,7 @@ export const venezuela: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -720,7 +830,7 @@ export const venezuela: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -745,7 +855,7 @@ export const venezuela: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -770,7 +880,7 @@ export const venezuela: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -783,7 +893,7 @@ export const venezuela: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -798,7 +908,7 @@ export const venezuela: Country = {
         {
           name: {
             en: 'Vegetable oil',
-            sv: 'Vegetabilisk olja',
+            sv: 'Neutral olja',
             es: 'Aceite vegetal',
             fr: 'Huile végétale',
             de: 'Pflanzenöl',
@@ -824,7 +934,7 @@ export const venezuela: Country = {
       steps: [
         {
           en: 'Boil beef in salted water until very tender (about 90 minutes)',
-          sv: 'Koka nötkött i saltat vatten tills det är mycket mört (ca 90 minuter)',
+          sv: 'Koka köttet i saltat vatten tills det är mycket mört (ca 90 minuter)',
           es: 'Hervir la carne en agua con sal hasta que esté muy tierna (unos 90 minutos)',
           fr: 'Faire bouillir le bœuf dans de l\'eau salée jusqu\'à ce qu\'il soit très tendre (environ 90 minutes)',
           de: 'Rindfleisch in Salzwasser kochen, bis es sehr zart ist (ca. 90 Minuten)',
@@ -835,7 +945,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Shred beef using forks',
-          sv: 'Strimla nötkött med gafflar',
+          sv: 'Dra isär köttet i trådar med två gafflar',
           es: 'Desmenuzar la carne con tenedores',
           fr: 'Effilocher le bœuf à la fourchette',
           de: 'Rindfleisch mit Gabeln zerkleinern',
@@ -857,7 +967,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Add shredded beef and cumin, cook 10 minutes',
-          sv: 'Tillsätt strimlat nötkött och spiskummin, koka 10 minuter',
+          sv: 'Tillsätt det strimlade köttet och spiskummin och låt puttra i 10 minuter',
           es: 'Agregue la carne de res desmenuzada y el comino, cocine 10 minutos',
           fr: 'Ajouter le bœuf émincé et le cumin, cuire 10 minutes',
           de: 'Gehacktes Rindfleisch und Kreuzkümmel hinzufügen und 10 Minuten kochen lassen',
@@ -890,7 +1000,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Slice plantains and fry until golden and caramelized',
-          sv: 'Skiva plantains och stek tills de är gyllene och karamelliserade',
+          sv: 'Skiva kokbananerna och stek dem tills de är gyllene och karamelliserade',
           es: 'Cortar los plátanos en rodajas y freírlos hasta que estén dorados y caramelizados',
           fr: 'Trancher les plantains et les faire frire jusqu\'à ce qu\'ils soient dorés et caramélisés',
           de: 'Kochbananen in Scheiben schneiden und braten, bis sie goldbraun und karamellisiert sind',
@@ -901,7 +1011,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Serve all components together on one plate',
-          sv: 'Servera alla komponenter tillsammans på en tallrik',
+          sv: 'Servera allt tillsammans på samma tallrik',
           es: 'Sirve todos los componentes juntos en un plato',
           fr: 'Servir tous les composants ensemble dans une assiette',
           de: 'Alle Zutaten zusammen auf einem Teller servieren',
@@ -928,7 +1038,7 @@ export const venezuela: Country = {
       },
       description: {
         en: 'Classic Venezuelan caramel flan made with eggs, condensed milk, and vanilla',
-        sv: 'Klassisk venezuelansk kolaflan gjord på ägg, kondenserad mjölk och vanilj',
+        sv: 'Klassisk venezuelansk karamellpudding gjord på ägg, sötad kondenserad mjölk och vanilj',
         es: 'Flan clásico venezolano de caramelo elaborado con huevos, leche condensada y vainilla',
         fr: 'Flan au caramel vénézuélien classique à base d\'œufs, de lait concentré et de vanille',
         de: 'Klassischer venezolanischer Karamell-Flan aus Eiern, Kondensmilch und Vanille',
@@ -995,7 +1105,7 @@ export const venezuela: Country = {
         {
           name: {
             en: 'Whole milk',
-            sv: 'Helmjölk',
+            sv: 'Standardmjölk',
             es: 'Leche entera',
             fr: 'Lait entier',
             de: 'Vollmilch',
@@ -1041,7 +1151,7 @@ export const venezuela: Country = {
       steps: [
         {
           en: 'Melt sugar in a pan until golden caramel',
-          sv: 'Smält socker i en kastrull tills den är gyllene karamell',
+          sv: 'Smält sockret i en kastrull tills det blir en gyllene karamell',
           es: 'Derretir el azúcar en una sartén hasta obtener un caramelo dorado',
           fr: 'Faire fondre le sucre dans une casserole jusqu\'à ce que le caramel soit doré',
           de: 'Zucker in einer Pfanne schmelzen, bis goldener Karamell entsteht',
@@ -1052,7 +1162,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Pour caramel into a flan mold and coat the bottom',
-          sv: 'Häll kola i en flanform och belägg botten',
+          sv: 'Häll karamellen i en form och låt den täcka botten',
           es: 'Vierte el caramelo en un molde para flan y cubre el fondo',
           fr: 'Versez le caramel dans un moule à flan et nappez le fond',
           de: 'Karamell in eine Flanform füllen und den Boden damit bestreichen',
@@ -1063,7 +1173,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Blend eggs, condensed milk, whole milk, and vanilla gently',
-          sv: 'Blanda ägg, kondenserad mjölk, helmjölk och vanilj försiktigt',
+          sv: 'Mixa ägg, kondenserad mjölk, standardmjölk och vanilj försiktigt',
           es: 'Licuar suavemente los huevos, la leche condensada, la leche entera y la vainilla',
           fr: 'Mélangez délicatement les œufs, le lait concentré, le lait entier et la vanille',
           de: 'Eier, Kondensmilch, Vollmilch und Vanille vorsichtig verrühren',
@@ -1074,7 +1184,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Pour mixture into caramel-lined mold',
-          sv: 'Häll blandningen i karamellfodrad form',
+          sv: 'Häll smeten i den karamellklädda formen',
           es: 'Vierte la mezcla en un molde forrado con caramelo',
           fr: 'Verser le mélange dans un moule tapissé de caramel',
           de: 'Gießen Sie die Mischung in eine mit Karamell ausgekleidete Form',
@@ -1085,7 +1195,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Cover and place mold in a water bath',
-          sv: 'Täck över och placera formen i ett vattenbad',
+          sv: 'Täck över formen och ställ den i ett vattenbad',
           es: 'Tapar y colocar el molde al baño maría',
           fr: 'Couvrir et placer le moule dans un bain-marie',
           de: 'Die Form abdecken und in ein Wasserbad stellen',
@@ -1107,7 +1217,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Cool completely, then refrigerate at least 2 hours',
-          sv: 'Kyl helt och ställ sedan i kylen i minst 2 timmar',
+          sv: 'Låt svalna helt och ställ sedan i kylen i minst 2 timmar',
           es: 'Deje enfriar completamente y luego refrigere por al menos 2 horas',
           fr: 'Laisser refroidir complètement, puis réfrigérer au moins 2 heures',
           de: 'Vollständig abkühlen lassen, dann mindestens 2 Stunden in den Kühlschrank stellen',
@@ -1118,7 +1228,7 @@ export const venezuela: Country = {
         },
         {
           en: 'Unmold before serving',
-          sv: 'Ta ur formen före servering',
+          sv: 'Stjälp upp puddingen på ett fat före servering',
           es: 'Desmoldar antes de servir',
           fr: 'Démouler avant de servir',
           de: 'Vor dem Servieren aus der Form nehmen',
@@ -1273,7 +1383,7 @@ export const venezuela: Country = {
           },
           {
             en: 'Angel Falls',
-            sv: 'Angel Falls',
+            sv: 'Angelfallet',
             es: 'Salto Ángel',
             fr: 'Chutes d\'Ange',
             de: 'Angel Falls',
@@ -1284,7 +1394,7 @@ export const venezuela: Country = {
           },
           {
             en: 'Iguazu Falls',
-            sv: 'Iguazu Falls',
+            sv: 'Iguazúfallen',
             es: 'Cataratas del Iguazú',
             fr: 'Chutes d\'Iguazú',
             de: 'Iguazu-Wasserfälle',

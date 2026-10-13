@@ -242,7 +242,17 @@ export const belgium: Country = {
     history: [
       {
         year: '1830',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Belgium gained independence from the Netherlands after the Belgian Revolution.',
           sv: 'Belgien blev självständigt från Nederländerna efter den belgiska revolutionen.',
@@ -257,7 +267,17 @@ export const belgium: Country = {
       },
       {
         year: '1957',
-        title: 'EU Founding',
+        title: {
+          en: 'EU Founding',
+          sv: 'EU:s grundande',
+          es: 'Fundación de la UE',
+          fr: 'Fondation de l\'UE',
+          de: 'Gründung der EU',
+          it: 'Fondazione dell\'UE',
+          pl: 'Założenie UE',
+          nl: 'Oprichting van de EU',
+          pt: 'Fundação da UE',
+        },
         description: {
           en: 'Belgium was a founding member of the European Economic Community, precursor to the EU.',
           sv: 'Belgien var en av grundarna av Europeiska ekonomiska gemenskapen, föregångare till EU.',
@@ -272,7 +292,17 @@ export const belgium: Country = {
       },
       {
         year: '1993',
-        title: 'Federal State',
+        title: {
+          en: 'Federal State',
+          sv: 'Förbundsstat',
+          es: 'Estado federal',
+          fr: 'État fédéral',
+          de: 'Bundesstaat',
+          it: 'Stato federale',
+          pl: 'Państwo federalne',
+          nl: 'Federale staat',
+          pt: 'Estado federal',
+        },
         description: {
           en: 'Belgium became a federal state to accommodate its linguistic and cultural diversity.',
           sv: 'Belgien blev en federal stat för att tillgodose dess språkliga och kulturella mångfald.',
@@ -462,7 +492,17 @@ export const belgium: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-September for pleasant weather and festivals.',
           sv: 'April-september för behagligt väder och festivaler.',
@@ -476,7 +516,17 @@ export const belgium: Country = {
         },
       },
       {
-        item: 'Public transport card',
+        item: {
+          en: 'Public transport card',
+          sv: 'Resekort',
+          es: 'Tarjeta de transporte público',
+          fr: 'Carte de transport',
+          de: 'Nahverkehrskarte',
+          it: 'Tessera dei trasporti',
+          pl: 'Karta komunikacji miejskiej',
+          nl: 'OV-kaart',
+          pt: 'Cartão de transporte público',
+        },
         description: {
           en: 'Efficient trains and buses connect all major cities.',
           sv: 'Effektiva tåg och bussar förbinder alla större städer.',
@@ -490,7 +540,17 @@ export const belgium: Country = {
         },
       },
       {
-        item: 'Weather gear',
+        item: {
+          en: 'Weather gear',
+          sv: 'Kläder efter väder',
+          es: 'Ropa para el mal tiempo',
+          fr: 'Vêtements de pluie',
+          de: 'Wetterfeste Kleidung',
+          it: 'Abbigliamento per il maltempo',
+          pl: 'Odzież na niepogodę',
+          nl: 'Kleding voor slecht weer',
+          pt: 'Roupas para chuva',
+        },
         description: {
           en: 'Rain is common, bring umbrella and layers.',
           sv: 'Regn är vanligt, ta med paraply och lager.',
@@ -504,7 +564,17 @@ export const belgium: Country = {
         },
       },
       {
-        item: 'Walking shoes',
+        item: {
+          en: 'Walking shoes',
+          sv: 'Bekväma skor',
+          es: 'Calzado cómodo',
+          fr: 'Chaussures confortables',
+          de: 'Bequeme Schuhe',
+          it: 'Scarpe comode',
+          pl: 'Wygodne buty',
+          nl: 'Comfortabele schoenen',
+          pt: 'Calçados confortáveis',
+        },
         description: {
           en: 'Cobblestone streets require comfortable footwear.',
           sv: 'Kullerstensgator kräver bekväma skor.',
@@ -533,7 +603,7 @@ export const belgium: Country = {
       },
       description: {
         en: 'Mussels steamed with white wine and herbs, served with classic double-fried Belgian fries and mayonnaise.',
-        sv: 'Musslor ångade med vitt vin och örter, serveras med klassiska dubbelstekta belgiska pommes frites och majonnäs.',
+        sv: 'Musslor ångkokta i vitt vin och örter, serverade med klassiska dubbelfriterade belgiska pommes frites och majonnäs.',
         es: 'Mejillones al vapor con vino blanco y hierbas, servidos con las clásicas patatas fritas belgas y mayonesa.',
         fr: 'Moules cuites à la vapeur avec du vin blanc et des herbes, servies avec des frites belges classiques doublement frites et de la mayonnaise.',
         de: 'Mit Weißwein und Kräutern gedämpfte Muscheln, serviert mit klassischen doppelt frittierten belgischen Pommes Frites und Mayonnaise.',
@@ -590,7 +660,7 @@ export const belgium: Country = {
         {
           name: {
             en: 'Celery (stalks), finely sliced',
-            sv: 'Selleri (stjälkar), fint skivad',
+            sv: 'Blekselleri, tunt skivad',
             es: 'Apio (tallos), finamente cortado',
             fr: 'Céleri (branches), finement tranché',
             de: 'Sellerie (Stängel), fein geschnitten',
@@ -687,7 +757,7 @@ export const belgium: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -715,7 +785,7 @@ export const belgium: Country = {
         {
           name: {
             en: 'Potatoes (for fries, floury variety)',
-            sv: 'Potatis (för pommes frites, mjölig variant)',
+            sv: 'Potatis (mjölig sort, till pommes frites)',
             es: 'Patatas (para patatas fritas, variedad harinosa)',
             fr: 'Pommes de terre (pour frites, variété farineuse)',
             de: 'Kartoffeln (für Pommes, mehlige Variante)',
@@ -760,7 +830,7 @@ export const belgium: Country = {
         {
           name: {
             en: 'Mayonnaise (to serve)',
-            sv: 'Majonnäs (att servera)',
+            sv: 'Majonnäs (till servering)',
             es: 'Mayonesa (para servir)',
             fr: 'Mayonnaise (pour servir)',
             de: 'Mayonnaise (zum Servieren)',
@@ -776,7 +846,7 @@ export const belgium: Country = {
       steps: [
         {
           en: 'FRIES (prep): Peel potatoes and cut into sticks ~10mm thick. Rinse in cold water until water runs clearer.',
-          sv: 'FRIES (prep): Skala potatisen och skär i stavar ~10 mm tjocka. Skölj i kallt vatten tills vattnet blir klarare.',
+          sv: 'POMMES FRITES (förberedelser): Skala potatisen och skär den i ca 10 mm tjocka stavar. Skölj i kallt vatten tills vattnet blir klarare.',
           es: 'PATATAS FRITAS (preparación): Pele las patatas y córtelas en palitos de ~10 mm de grosor. Enjuague con agua fría hasta que el agua salga más clara.',
           fr: 'FRITES (préparation) : Eplucher les pommes de terre et les couper en bâtonnets de ~10 mm d\'épaisseur. Rincer à l\'eau froide jusqu\'à ce que l\'eau soit plus claire.',
           de: 'FRITES (Zubereitung): Kartoffeln schälen und in ca. 10 mm dicke Stifte schneiden. In kaltem Wasser abspülen, bis das Wasser klarer wird.',
@@ -787,7 +857,7 @@ export const belgium: Country = {
         },
         {
           en: 'Soak fries in cold water for 20 minutes, then drain and pat completely dry with towels (very important for crispness).',
-          sv: 'Blötlägg pommes fritesen i kallt vatten i 20 minuter, låt rinna av och klappa dem helt torra med handdukar (mycket viktigt för krispighet).',
+          sv: 'Låt potatisstavarna ligga i kallt vatten i 20 minuter. Låt dem sedan rinna av och torka dem noga med kökshanddukar (mycket viktigt för att de ska bli krispiga).',
           es: 'Remoje las papas fritas en agua fría durante 20 minutos, luego escúrralas y séquelas completamente con toallas (muy importante para que queden crujientes).',
           fr: 'Faites tremper les frites dans l\'eau froide pendant 20 minutes, puis égouttez-les et séchez-les complètement avec un torchon (très important pour le croustillant).',
           de: 'Die Pommes 20 Minuten in kaltem Wasser einweichen, dann abtropfen lassen und mit Handtüchern vollständig trocken tupfen (sehr wichtig für die Knusprigkeit).',
@@ -798,7 +868,7 @@ export const belgium: Country = {
         },
         {
           en: 'Heat oil to 150°C in a deep pot. Fry potatoes in batches for 6–8 minutes (they should be pale and soft, not browned).',
-          sv: 'Hetta upp olja till 150°C i en djup kastrull. Stek potatis i omgångar i 6–8 minuter (den ska vara blek och mjuk, inte brynt).',
+          sv: 'Hetta upp oljan till 150°C i en djup kastrull. Fritera potatisen i omgångar i 6–8 minuter (den ska vara blek och mjuk, inte få färg).',
           es: 'Calienta el aceite a 150°C en una olla profunda. Freír las patatas en tandas durante 6 a 8 minutos (deben estar pálidas y suaves, no doradas).',
           fr: 'Chauffer l\'huile à 150°C dans une casserole profonde. Faites frire les pommes de terre par lots pendant 6 à 8 minutes (elles doivent être pâles et molles, et non dorées).',
           de: 'Öl in einem tiefen Topf auf 150 °C erhitzen. Kartoffeln portionenweise 6–8 Minuten braten (sie sollten hell und weich, nicht gebräunt sein).',
@@ -809,7 +879,7 @@ export const belgium: Country = {
         },
         {
           en: 'Remove fries to a tray and cool 10–15 minutes. Raise oil temperature to 180°C for the second fry.',
-          sv: 'Ta upp pommes fritesen på en bricka och svalna i 10–15 minuter. Höj oljetemperaturen till 180°C för den andra stekningen.',
+          sv: 'Lägg upp pommes fritesen på en bricka och låt dem svalna i 10–15 minuter. Höj oljans temperatur till 180°C inför den andra friteringen.',
           es: 'Retire las papas fritas a una bandeja y déjelas enfriar de 10 a 15 minutos. Eleve la temperatura del aceite a 180°C para la segunda fritura.',
           fr: 'Retirer les frites sur un plateau et laisser refroidir 10 à 15 minutes. Augmentez la température de l\'huile à 180°C pour la deuxième friture.',
           de: 'Die Pommes Frites auf ein Tablett legen und 10–15 Minuten abkühlen lassen. Erhöhen Sie die Öltemperatur für das zweite Frittieren auf 180 °C.',
@@ -820,7 +890,7 @@ export const belgium: Country = {
         },
         {
           en: 'MUSSELS (clean): Rinse mussels under cold running water. Scrub shells if needed. Pull off beards. Discard any cracked mussels or any that stay open when tapped.',
-          sv: 'MUSSLA (rena): Skölj musslorna under kallt rinnande vatten. Skrubba skal om det behövs. Dra av skägget. Kassera eventuella spruckna musslor eller andra som förblir öppna när de knackas.',
+          sv: 'MUSSLOR (rengöring): Skölj musslorna under kallt rinnande vatten. Skrubba skalen vid behov. Dra bort skägget. Kassera musslor som är spruckna eller som förblir öppna när du knackar på dem.',
           es: 'MEJILLONES (limpios): Enjuague los mejillones con agua corriente fría. Frote las conchas si es necesario. Quítate las barbas. Deseche los mejillones partidos o los que queden abiertos al golpearlos.',
           fr: 'MOULES (propres) : Rincer les moules sous l\'eau froide courante. Frottez les coquilles si nécessaire. Arrachez la barbe. Jetez toutes les moules concassées ou celles qui restent ouvertes lorsqu\'on les tape.',
           de: 'MUSCHELN (sauber): Spülen Sie die Muscheln unter fließendem kaltem Wasser ab. Bei Bedarf Muscheln schrubben. Bärte abziehen. Entsorgen Sie alle angebrochenen Muscheln oder solche, die beim Klopfen offen bleiben.',
@@ -831,7 +901,7 @@ export const belgium: Country = {
         },
         {
           en: 'MUSSELS (base): In a large pot with a tight lid, melt butter over medium heat. Add shallots and celery; cook 4–5 minutes until softened (no browning).',
-          sv: 'MUSSLA (botten): Smält smör på medelvärme i en stor gryta med tätt lock. Tillsätt schalottenlök och selleri; koka 4–5 minuter tills de mjuknat (ingen brynning).',
+          sv: 'MUSSLOR (bas): Smält smöret på medelvärme i en stor gryta med tättslutande lock. Tillsätt schalottenlök och blekselleri och fräs i 4–5 minuter tills de har mjuknat (utan att de får färg).',
           es: 'MEJILLONES (base): En una olla grande con tapa hermética, derrita la mantequilla a fuego medio. Agrega las chalotas y el apio; cocine de 4 a 5 minutos hasta que se ablanden (sin que se doren).',
           fr: 'MOULES (base) : Dans une grande casserole avec un couvercle hermétique, faire fondre le beurre à feu moyen. Ajouter les échalotes et le céleri; cuire 4 à 5 minutes jusqu\'à ce qu\'il soit ramolli (pas de brunissement).',
           de: 'MUSCHELN (Basis): In einem großen Topf mit festem Deckel Butter bei mittlerer Hitze schmelzen. Schalotten und Sellerie hinzufügen; 4–5 Minuten kochen, bis es weich ist (keine Bräunung).',
@@ -842,7 +912,7 @@ export const belgium: Country = {
         },
         {
           en: 'Add garlic and black pepper (and bay leaf if using). Stir 30 seconds until fragrant.',
-          sv: 'Tillsätt vitlök och svartpeppar (och lagerblad om du använder). Rör om i 30 sekunder tills det doftar.',
+          sv: 'Tillsätt vitlök och svartpeppar (och lagerblad om du använder det). Rör om i 30 sekunder tills det doftar.',
           es: 'Agregue el ajo y la pimienta negra (y la hoja de laurel si la usa). Revuelva durante 30 segundos hasta que esté fragante.',
           fr: 'Ajouter l\'ail et le poivre noir (et le laurier si vous en utilisez). Remuer 30 secondes jusqu\'à ce que ce soit parfumé.',
           de: 'Fügen Sie Knoblauch und schwarzen Pfeffer hinzu (und ggf. Lorbeerblatt). 30 Sekunden lang rühren, bis es duftet.',
@@ -853,7 +923,7 @@ export const belgium: Country = {
         },
         {
           en: 'Pour in white wine and bring to a strong simmer (about 1 minute).',
-          sv: 'Häll i vitt vin och låt sjuda kraftigt (ca 1 minut).',
+          sv: 'Häll i vinet och låt det sjuda kraftigt i ca 1 minut.',
           es: 'Vierta el vino blanco y cocine a fuego lento (aproximadamente 1 minuto).',
           fr: 'Versez le vin blanc et portez à forte ébullition (environ 1 minute).',
           de: 'Mit Weißwein aufgießen und kräftig köcheln lassen (ca. 1 Minute).',
@@ -864,7 +934,7 @@ export const belgium: Country = {
         },
         {
           en: 'Add mussels, cover with lid, and steam 5–7 minutes, shaking the pot once or twice, until most shells open.',
-          sv: 'Tillsätt musslor, täck med lock och ånga 5–7 minuter, skaka grytan en eller två gånger tills de flesta skal öppnar sig.',
+          sv: 'Lägg i musslorna, lägg på locket och ångkoka i 5–7 minuter tills de flesta har öppnat sig. Skaka grytan en eller två gånger under tiden.',
           es: 'Agregue los mejillones, cubra con una tapa y cocine al vapor durante 5 a 7 minutos, agitando la olla una o dos veces, hasta que la mayoría de las conchas se abran.',
           fr: 'Ajouter les moules, couvrir avec un couvercle et cuire à la vapeur pendant 5 à 7 minutes, en secouant la casserole une ou deux fois, jusqu\'à ce que la plupart des coquilles s\'ouvrent.',
           de: 'Muscheln hinzufügen, mit einem Deckel abdecken und 5–7 Minuten dämpfen, dabei den Topf ein- oder zweimal schütteln, bis sich die meisten Muscheln öffnen.',
@@ -875,7 +945,7 @@ export const belgium: Country = {
         },
         {
           en: 'Turn off heat. Discard any mussels that did not open. Stir in parsley.',
-          sv: 'Stäng av värmen. Kasta eventuella musslor som inte öppnade sig. Rör ner persilja.',
+          sv: 'Stäng av värmen. Kasta musslor som inte har öppnat sig. Rör ner persiljan.',
           es: 'Apague el fuego. Deseche los mejillones que no se hayan abierto. Agrega el perejil.',
           fr: 'Éteignez le feu. Jetez les moules qui ne se sont pas ouvertes. Incorporer le persil.',
           de: 'Schalten Sie die Heizung aus. Entsorgen Sie alle Muscheln, die sich nicht geöffnet haben. Petersilie unterrühren.',
@@ -886,7 +956,7 @@ export const belgium: Country = {
         },
         {
           en: 'FRIES (second fry): Fry the cooled fries at 180°C for 2–3 minutes until deep golden and crisp. Drain, then salt immediately.',
-          sv: 'FRIES (andra stekning): Stek de avsvalnade pommes fritesen i 180°C i 2–3 minuter tills de är djupt gyllene och knapriga. Häll av och salta omedelbart.',
+          sv: 'POMMES FRITES (andra friteringen): Fritera de avsvalnade pommes fritesen i 180°C i 2–3 minuter tills de är djupt gyllene och krispiga. Låt rinna av och salta direkt.',
           es: 'PATATAS FRITAS (segunda fritura): Freír las patatas fritas enfriadas a 180 °C durante 2 o 3 minutos hasta que estén doradas y crujientes. Escurrir y salar inmediatamente.',
           fr: 'FRITES (deuxième friture) : Faites frire les frites refroidies à 180°C pendant 2 à 3 minutes jusqu\'à ce qu\'elles soient bien dorées et croustillantes. Égoutter, puis saler aussitôt.',
           de: 'FRITES (zweites Frittieren): Die abgekühlten Pommes Frites bei 180 °C 2–3 Minuten frittieren, bis sie tiefgolden und knusprig sind. Abgießen, dann sofort salzen.',
@@ -897,7 +967,7 @@ export const belgium: Country = {
         },
         {
           en: 'Serve mussels hot in deep bowls with the cooking broth. Add fries on the side and mayonnaise for dipping.',
-          sv: 'Servera musslor varma i djupa skålar med matlagningsbuljongen. Lägg pommes frites på sidan och majonnäs för doppning.',
+          sv: 'Servera musslorna varma i djupa skålar med kokspadet. Servera pommes frites vid sidan om och majonnäs att doppa i.',
           es: 'Sirva los mejillones calientes en recipientes hondos con el caldo de cocción. Agregue las papas fritas a un lado y la mayonesa para mojar.',
           fr: 'Servir les moules chaudes dans des bols profonds avec le bouillon de cuisson. Ajouter les frites à côté et la mayonnaise pour tremper.',
           de: 'Muscheln heiß in tiefen Schüsseln mit der Kochbrühe servieren. Fügen Sie Pommes Frites als Beilage und Mayonnaise zum Dippen hinzu.',
@@ -924,7 +994,7 @@ export const belgium: Country = {
       },
       description: {
         en: 'Light, crispy waffles topped with whipped cream, fruit, or chocolate',
-        sv: 'Ljusa, krispiga våfflor toppade med vispad grädde, frukt eller choklad',
+        sv: 'Luftiga, krispiga våfflor toppade med vispad grädde, frukt eller choklad',
         es: 'Gofres ligeros y crujientes cubiertos con crema batida, fruta o chocolate',
         fr: 'Gaufres légères et croustillantes garnies de crème fouettée, de fruits ou de chocolat',
         de: 'Leichte, knusprige Waffeln mit Schlagsahne, Früchten oder Schokolade',
@@ -951,7 +1021,7 @@ export const belgium: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -993,7 +1063,7 @@ export const belgium: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1082,7 +1152,7 @@ export const belgium: Country = {
       steps: [
         {
           en: 'Warm milk, dissolve yeast and sugar',
-          sv: 'Varm mjölk, lös upp jäst och socker',
+          sv: 'Värm mjölken och lös upp jästen och sockret i den',
           es: 'Calentar la leche, disolver la levadura y el azúcar',
           fr: 'Faire chauffer le lait, dissoudre la levure et le sucre',
           de: 'Milch erwärmen, Hefe und Zucker auflösen',
@@ -1093,7 +1163,7 @@ export const belgium: Country = {
         },
         {
           en: 'Mix in flour, eggs, melted butter, and vanilla',
-          sv: 'Blanda i mjöl, ägg, smält smör och vanilj',
+          sv: 'Blanda ner vetemjöl, ägg, smält smör och vanilj',
           es: 'Incorpora la harina, los huevos, la mantequilla derretida y la vainilla',
           fr: 'Incorporer la farine, les œufs, le beurre fondu et la vanille',
           de: 'Mehl, Eier, geschmolzene Butter und Vanille untermischen',
@@ -1104,7 +1174,7 @@ export const belgium: Country = {
         },
         {
           en: 'Let batter rest for 1 hour until doubled',
-          sv: 'Låt smeten vila i 1 timme tills den fördubblats',
+          sv: 'Låt smeten jäsa i 1 timme tills den har fördubblats',
           es: 'Deje reposar la masa durante 1 hora hasta que se duplique',
           fr: 'Laisser reposer la pâte pendant 1 heure jusqu\'à ce qu\'elle double',
           de: 'Den Teig 1 Stunde ruhen lassen, bis er sich verdoppelt hat',
@@ -1115,7 +1185,7 @@ export const belgium: Country = {
         },
         {
           en: 'Fold in pearl sugar',
-          sv: 'Vik i pärlsocker',
+          sv: 'Vänd ner pärlsockret',
           es: 'Incorporar el azúcar perlado',
           fr: 'Incorporer le sucre perlé',
           de: 'Perlzucker unterheben',
@@ -1126,7 +1196,7 @@ export const belgium: Country = {
         },
         {
           en: 'Cook in preheated Belgian waffle iron until golden',
-          sv: 'Koka i förvärmt belgiskt våffeljärn tills de är gyllene',
+          sv: 'Grädda våfflorna i ett förvärmt belgiskt våffeljärn tills de är gyllene',
           es: 'Cocine en una plancha para gofres belga precalentada hasta que esté dorada',
           fr: 'Cuire dans un gaufrier belge préchauffé jusqu\'à ce qu\'il soit doré',
           de: 'Im vorgeheizten belgischen Waffeleisen goldbraun backen',
@@ -1486,7 +1556,7 @@ export const belgium: Country = {
           },
           {
             en: 'Cinquantenaire Arch',
-            sv: 'Cinquantenaire Arch',
+            sv: 'Triumfbågen i Cinquantenaire',
             es: 'Arco del Cincuentenario',
             fr: 'Arc du Cinquantenaire',
             de: 'Cinquantenaire-Bogen',

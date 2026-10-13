@@ -263,8 +263,28 @@ export const ukraine: Country = {
     },
     history: [
       {
-        year: '9th century',
-        title: 'Kievan Rus',
+        year: {
+          en: '9th century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
+        title: {
+          en: 'Kievan Rus',
+          sv: 'Kievriket',
+          es: 'Rus de Kiev',
+          fr: 'Rus\' de Kiev',
+          de: 'Kiewer Rus',
+          it: 'Rus\' di Kiev',
+          pl: 'Ruś Kijowska',
+          nl: 'Kievse Rijk',
+          pt: 'Rus de Kiev',
+        },
         description: {
           en: 'Kyiv became the center of Kievan Rus, the first East Slavic state, laying the foundation for Ukrainian identity.',
           sv: 'Kiev blev centrum för Kievan Rus, den första östslaviska staten, och lade grunden för ukrainsk identitet.',
@@ -279,7 +299,17 @@ export const ukraine: Country = {
       },
       {
         year: '1240',
-        title: 'Mongol Invasion',
+        title: {
+          en: 'Mongol Invasion',
+          sv: 'Mongolernas invasion',
+          es: 'Invasión mongola',
+          fr: 'Invasion mongole',
+          de: 'Mongolensturm',
+          it: 'Invasione mongola',
+          pl: 'Najazd mongolski',
+          nl: 'Mongoolse invasie',
+          pt: 'Invasão mongol',
+        },
         description: {
           en: 'Mongol forces conquered much of Ukraine, leading to centuries of foreign domination.',
           sv: 'Mongoliska styrkor erövrade stora delar av Ukraina, vilket ledde till århundraden av utländsk dominans.',
@@ -294,7 +324,17 @@ export const ukraine: Country = {
       },
       {
         year: '1648',
-        title: 'Cossack Hetmanate',
+        title: {
+          en: 'Cossack Hetmanate',
+          sv: 'Kosackhetmanatet',
+          es: 'Hetmanato cosaco',
+          fr: 'Hetmanat cosaque',
+          de: 'Kosaken-Hetmanat',
+          it: 'Etmanato cosacco',
+          pl: 'Hetmanat kozacki',
+          nl: 'Kozakkenhetmanaat',
+          pt: 'Hetmanato cossaco',
+        },
         description: {
           en: 'Ukrainian Cossacks formed a semi-autonomous state and cultural golden age.',
           sv: 'Ukrainska kosacker bildade en semi-autonom stat och kulturell guldålder.',
@@ -309,7 +349,17 @@ export const ukraine: Country = {
       },
       {
         year: '1917–1921',
-        title: 'Struggle for Independence',
+        title: {
+          en: 'Struggle for Independence',
+          sv: 'Kampen för självständighet',
+          es: 'Lucha por la independencia',
+          fr: 'Lutte pour l\'indépendance',
+          de: 'Kampf um die Unabhängigkeit',
+          it: 'Lotta per l\'indipendenza',
+          pl: 'Walka o niepodległość',
+          nl: 'Onafhankelijkheidsstrijd',
+          pt: 'Luta pela independência',
+        },
         description: {
           en: 'Ukraine briefly gained independence after World War I before becoming part of the Soviet Union.',
           sv: 'Ukraina blev kortvarigt självständigt efter första världskriget innan det blev en del av Sovjetunionen.',
@@ -324,7 +374,17 @@ export const ukraine: Country = {
       },
       {
         year: '1991',
-        title: 'Modern Independence',
+        title: {
+          en: 'Modern Independence',
+          sv: 'Självständighet i modern tid',
+          es: 'Independencia en la era moderna',
+          fr: 'Indépendance à l\'ère moderne',
+          de: 'Unabhängigkeit in der Moderne',
+          it: 'Indipendenza in epoca moderna',
+          pl: 'Niepodległość w czasach współczesnych',
+          nl: 'Onafhankelijkheid in de moderne tijd',
+          pt: 'Independência na era moderna',
+        },
         description: {
           en: 'Ukraine became an independent nation following the collapse of the Soviet Union.',
           sv: 'Ukraina blev en självständig nation efter Sovjetunionens kollaps.',
@@ -351,7 +411,17 @@ export const ukraine: Country = {
           nl: 'Lucht- en ruimtevaarttechniek',
           pt: 'Engenharia aeroespacial',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Ukraine has a strong aerospace legacy, including aircraft and rocket engineering, with major industrial hubs developing advanced designs and manufacturing.',
           sv: 'Ukraina har ett starkt flyg- och rymdarv, inklusive flyg- och raketteknik, med stora industriella nav som utvecklar avancerad design och tillverkning.',
@@ -376,7 +446,17 @@ export const ukraine: Country = {
           nl: 'Volkskunsttradities',
           pt: 'Tradições de arte popular',
         },
-        year: 'Centuries',
+        year: {
+          en: 'Centuries',
+          sv: 'Sedan århundraden',
+          es: 'Desde hace siglos',
+          fr: 'Depuis des siècles',
+          de: 'Seit Jahrhunderten',
+          it: 'Da secoli',
+          pl: 'Od wieków',
+          nl: 'Al eeuwen',
+          pt: 'Há séculos',
+        },
         description: {
           en: 'Textile arts, embroidery patterns, and pysanky techniques have been refined across regions and passed down through generations.',
           sv: 'Textilkonst, broderimönster och pysanky-tekniker har förfinats över regioner och gått i arv genom generationer.',
@@ -401,7 +481,17 @@ export const ukraine: Country = {
           nl: 'Koor- en banduramuziek',
           pt: 'Música coral e de bandura',
         },
-        year: '19th–20th Century',
+        year: {
+          en: '19th–20th Century',
+          sv: '1800–1900-talen',
+          es: 'Siglos XIX–XX',
+          fr: 'XIXe–XXe siècles',
+          de: '19.–20. Jahrhundert',
+          it: 'XIX–XX secolo',
+          pl: 'XIX–XX wiek',
+          nl: '19e–20e eeuw',
+          pt: 'Séculos XIX–XX',
+        },
         description: {
           en: 'Ukraine\'s musical heritage includes rich choral traditions and the bandura, helping preserve language, poetry, and identity.',
           sv: 'Ukrainas musikaliska arv inkluderar rika körtraditioner och bandura, som hjälper till att bevara språk, poesi och identitet.',
@@ -539,7 +629,17 @@ export const ukraine: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can visit visa-free for up to 90 days. Check current requirements.',
           sv: 'Många nationaliteter kan besöka visumfritt i upp till 90 dagar. Kontrollera aktuella krav.',
@@ -553,7 +653,17 @@ export const ukraine: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May–September for warm weather; December–January for winter charm.',
           sv: 'Maj–september för varmt väder; December–januari för vintercharm.',
@@ -567,7 +677,17 @@ export const ukraine: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Metro in Kyiv, extensive train network, buses and marshrutkas.',
           sv: 'Tunnelbana i Kiev, omfattande tågnät, bussar och marshrutkas.',
@@ -581,7 +701,17 @@ export const ukraine: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Ukrainian is official. Russian widely understood. English in major cities.',
           sv: 'Ukrainska är officiellt. Ryska allmänt förstådd. engelska i större städer.',
@@ -595,7 +725,17 @@ export const ukraine: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories. People are generally friendly and welcoming.',
           sv: 'Kontrollera aktuella resemeddelanden. Människor är i allmänhet vänliga och välkomnande.',
@@ -651,7 +791,7 @@ export const ukraine: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -844,7 +984,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Boil and mash potatoes, mix with cottage cheese and seasoning',
-          sv: 'Koka och mosa potatis, blanda med keso och smaksättning',
+          sv: 'Koka och mosa potatisen och blanda med keso, salt och peppar',
           es: 'Hervir y hacer puré de patatas, mezclar con requesón y condimentos',
           fr: 'Faire bouillir et écraser les pommes de terre, mélanger avec du fromage cottage et l\'assaisonnement',
           de: 'Kartoffeln kochen und zerstampfen, mit Hüttenkäse und Gewürzen vermischen',
@@ -866,7 +1006,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Roll dough thin and cut into circles',
-          sv: 'Kavla degen tunn och skär i cirklar',
+          sv: 'Kavla ut degen tunt och stansa ut rundlar',
           es: 'Enrolle la masa y córtela en círculos',
           fr: 'Abaisser la pâte finement et la couper en cercles',
           de: 'Den Teig dünn ausrollen und in Kreise schneiden',
@@ -877,7 +1017,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Fill, fold, and pinch edges tightly',
-          sv: 'Fyll, vik och nyp kanterna hårt',
+          sv: 'Lägg fyllning på rundlarna, vik ihop dem och nyp ihop kanterna ordentligt',
           es: 'Rellena, dobla y pellizca los bordes con fuerza',
           fr: 'Remplissez, pliez et pincez fermement les bords',
           de: 'Füllen, falten und Kanten fest zusammendrücken',
@@ -888,7 +1028,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Boil in salted water until dumplings float (5–7 minutes)',
-          sv: 'Koka i saltat vatten tills dumplings flyter (5–7 minuter)',
+          sv: 'Koka dem i saltat vatten tills de flyter upp (5–7 minuter)',
           es: 'Hervir en agua con sal hasta que las bolas de masa floten (5 a 7 minutos)',
           fr: 'Faire bouillir dans de l\'eau salée jusqu\'à ce que les boulettes flottent (5 à 7 minutes)',
           de: 'In Salzwasser kochen, bis die Knödel schwimmen (5–7 Minuten)',
@@ -899,7 +1039,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Drain and toss with butter and onions',
-          sv: 'Låt rinna av och blanda med smör och lök',
+          sv: 'Låt rinna av och vänd runt dem i smöret och den stekta löken',
           es: 'Escurrir y mezclar con mantequilla y cebolla',
           fr: 'Égoutter et mélanger avec le beurre et les oignons',
           de: 'Abgießen und mit Butter und Zwiebeln vermischen',
@@ -910,7 +1050,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Serve hot with sour cream',
-          sv: 'Servera varm med gräddfil',
+          sv: 'Servera varma med gräddfil',
           es: 'Servir caliente con crema agria',
           fr: 'Servir chaud avec de la crème sure',
           de: 'Heiß mit Sauerrahm servieren',
@@ -937,7 +1077,7 @@ export const ukraine: Country = {
       },
       description: {
         en: 'Pan-fried Ukrainian cottage cheese pancakes, lightly sweet and often served with sour cream, jam, or honey.',
-        sv: 'Pannstekta ukrainska kesopannkakor, lätt söta och ofta serverade med gräddfil, sylt eller honung.',
+        sv: 'Pannstekta ukrainska kvargplättar, lätt söta och ofta serverade med gräddfil, sylt eller honung.',
         es: 'Panqueques de requesón ucraniano fritos, ligeramente dulces y, a menudo, servidos con crema agria, mermelada o miel.',
         fr: 'Crêpes au fromage cottage ukrainien poêlées, légèrement sucrées et souvent servies avec de la crème sure, de la confiture ou du miel.',
         de: 'In der Pfanne gebratene ukrainische Hüttenkäsepfannkuchen, leicht süß und oft mit Sauerrahm, Marmelade oder Honig serviert.',
@@ -964,7 +1104,7 @@ export const ukraine: Country = {
         {
           name: {
             en: 'Cottage cheese (tvorog)',
-            sv: 'Keso (tvorog)',
+            sv: 'Kvarg (tvorog)',
             es: 'Requesón (tvorog)',
             fr: 'Fromage cottage (tvorog)',
             de: 'Hüttenkäse (Tvorog)',
@@ -991,7 +1131,7 @@ export const ukraine: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1034,7 +1174,7 @@ export const ukraine: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1064,7 +1204,7 @@ export const ukraine: Country = {
         {
           name: {
             en: 'Butter or oil (for frying)',
-            sv: 'Smör eller olja (för stekning)',
+            sv: 'Smör eller olja (till stekning)',
             es: 'Mantequilla o aceite (para freír)',
             fr: 'Beurre ou huile (pour la friture)',
             de: 'Butter oder Öl (zum Braten)',
@@ -1089,7 +1229,7 @@ export const ukraine: Country = {
         {
           name: {
             en: 'Sour cream (to serve)',
-            sv: 'Gräddfil (att servera)',
+            sv: 'Gräddfil (till servering)',
             es: 'Crema agria (para servir)',
             fr: 'Crème sure (pour servir)',
             de: 'Sauerrahm (zum Servieren)',
@@ -1104,7 +1244,7 @@ export const ukraine: Country = {
         {
           name: {
             en: 'Jam or honey (to serve)',
-            sv: 'Sylt eller honung (att servera)',
+            sv: 'Sylt eller honung (till servering)',
             es: 'Mermelada o miel (para servir)',
             fr: 'Confiture ou miel (pour servir)',
             de: 'Marmelade oder Honig (zum Servieren)',
@@ -1130,7 +1270,7 @@ export const ukraine: Country = {
       steps: [
         {
           en: 'Press cottage cheese through a sieve (or mash well) for a smooth texture',
-          sv: 'Pressa keso genom en sil (eller mosa väl) för en slät konsistens',
+          sv: 'Pressa kvargen genom en sil (eller mosa den väl) för en slät konsistens',
           es: 'Presione el requesón a través de un colador (o tritúrelo bien) para obtener una textura suave',
           fr: 'Presser le fromage cottage au tamis (ou bien l\'écraser) pour obtenir une texture onctueuse',
           de: 'Den Hüttenkäse durch ein Sieb drücken (oder gut zerstampfen), um eine glatte Konsistenz zu erhalten',
@@ -1141,7 +1281,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Mix cottage cheese with egg, sugar, salt, and vanilla',
-          sv: 'Blanda keso med ägg, socker, salt och vanilj',
+          sv: 'Blanda kvargen med ägg, socker, salt och vanilj',
           es: 'Mezclar requesón con huevo, azúcar, sal y vainilla',
           fr: 'Mélanger le fromage cottage avec l\'œuf, le sucre, le sel et la vanille',
           de: 'Hüttenkäse mit Ei, Zucker, Salz und Vanille vermischen',
@@ -1163,7 +1303,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Dust hands with flour and shape small patties (about 2 cm thick)',
-          sv: 'Pudra händerna med mjöl och forma små biffar (ca 2 cm tjocka)',
+          sv: 'Mjöla händerna och forma små plättar (ca 2 cm tjocka)',
           es: 'Espolvoree las manos con harina y forme hamburguesas pequeñas (de unos 2 cm de grosor)',
           fr: 'Saupoudrer les mains de farine et façonner des petites galettes (environ 2 cm d\'épaisseur)',
           de: 'Hände mit Mehl bestäuben und kleine Fladen formen (ca. 2 cm dick)',
@@ -1174,7 +1314,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Heat butter/oil in a pan over medium heat',
-          sv: 'Värm smör/olja i en panna på medelvärme',
+          sv: 'Hetta upp smör eller olja i en stekpanna på medelvärme',
           es: 'Calienta mantequilla/aceite en una sartén a fuego medio',
           fr: 'Chauffer le beurre/l\'huile dans une poêle à feu moyen',
           de: 'Butter/Öl in einer Pfanne bei mittlerer Hitze erhitzen',
@@ -1196,7 +1336,7 @@ export const ukraine: Country = {
         },
         {
           en: 'Serve warm with sour cream and jam or honey',
-          sv: 'Servera varm med gräddfil och sylt eller honung',
+          sv: 'Servera varma med gräddfil och sylt eller honung',
           es: 'Servir caliente con crema agria y mermelada o miel',
           fr: 'Servir chaud avec de la crème sure et de la confiture ou du miel',
           de: 'Warm mit Sauerrahm und Marmelade oder Honig servieren',

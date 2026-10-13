@@ -220,7 +220,17 @@ export const equatorialGuinea: Country = {
     history: [
       {
         year: '1778',
-        title: 'Spanish Control',
+        title: {
+          en: 'Spanish Control',
+          sv: 'Spanskt styre',
+          es: 'Dominio español',
+          fr: 'Domination espagnole',
+          de: 'Spanische Herrschaft',
+          it: 'Dominio spagnolo',
+          pl: 'Panowanie hiszpańskie',
+          nl: 'Spaanse heerschappij',
+          pt: 'Domínio espanhol',
+        },
         description: {
           en: 'Spain gained control of the territory through the Treaty of El Pardo with Portugal.',
           sv: 'Spanien fick kontroll över territoriet genom El Pardo-fördraget med Portugal.',
@@ -235,7 +245,17 @@ export const equatorialGuinea: Country = {
       },
       {
         year: '1968',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Equatorial Guinea gained independence from Spain, becoming Africa\'s only Spanish-speaking nation.',
           sv: 'Ekvatorialguinea blev självständigt från Spanien och blev Afrikas enda spansktalande nation.',
@@ -249,8 +269,28 @@ export const equatorialGuinea: Country = {
         },
       },
       {
-        year: '1990s',
-        title: 'Oil Discovery',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
+        title: {
+          en: 'Oil Discovery',
+          sv: 'Oljefynd',
+          es: 'Descubrimiento de petróleo',
+          fr: 'Découverte du pétrole',
+          de: 'Entdeckung des Erdöls',
+          it: 'Scoperta del petrolio',
+          pl: 'Odkrycie ropy naftowej',
+          nl: 'Olievondst',
+          pt: 'Descoberta de petróleo',
+        },
         description: {
           en: 'Major offshore oil discoveries transformed the economy dramatically.',
           sv: 'Stora oljefyndigheter till havs förändrade ekonomin dramatiskt.',
@@ -316,7 +356,7 @@ export const equatorialGuinea: Country = {
       {
         name: {
           en: 'Moka Wildlife Center',
-          sv: 'Moka Wildlife Center',
+          sv: 'Viltcentret i Moka',
           es: 'Centro de vida silvestre de Moka',
           fr: 'Centre de la faune de Moka',
           de: 'Moka Wildlife Center',
@@ -340,7 +380,7 @@ export const equatorialGuinea: Country = {
       {
         name: {
           en: 'Arena Blanca Beach',
-          sv: 'Arena Blanca Beach',
+          sv: 'Stranden Arena Blanca',
           es: 'Playa de Arena Blanca',
           fr: 'Plage Arène Blanca',
           de: 'Arena Blanca Strand',
@@ -388,7 +428,17 @@ export const equatorialGuinea: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Required for most nationalities. Apply in advance.',
           sv: 'Krävs för de flesta nationaliteter. Ansök i förväg.',
@@ -402,7 +452,17 @@ export const equatorialGuinea: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December-February for dry season.',
           sv: 'December-februari för torrperioden.',
@@ -416,7 +476,17 @@ export const equatorialGuinea: Country = {
         },
       },
       {
-        item: 'Spanish language',
+        item: {
+          en: 'Spanish language',
+          sv: 'Spanska',
+          es: 'Idioma español',
+          fr: 'Langue espagnole',
+          de: 'Spanisch',
+          it: 'Lingua spagnola',
+          pl: 'Język hiszpański',
+          nl: 'Spaans',
+          pt: 'Língua espanhola',
+        },
         description: {
           en: 'Essential as English is rarely spoken.',
           sv: 'Viktigt eftersom engelska sällan talas.',
@@ -430,7 +500,17 @@ export const equatorialGuinea: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Required for entry with certificate.',
           sv: 'Krävs för inträde med certifikat.',
@@ -447,9 +527,9 @@ export const equatorialGuinea: Country = {
     mainDish: {
       id: 'equatorial-guinea-main',
       name: {
-        en: 'Pepesoup',
+        en: 'Succotash',
         sv: 'Succotash',
-        es: 'Sucotash',
+        es: 'Succotash',
         fr: 'Succotash',
         de: 'Succotash',
         it: 'Succotash',
@@ -458,15 +538,15 @@ export const equatorialGuinea: Country = {
         pt: 'Succotash',
       },
       description: {
-        en: 'A spicy Equatorial Guinean goat meat pepper soup, richly seasoned with hot peppers and aromatic spices.',
+        en: 'Traditional stew with beans, corn, and fish',
         sv: 'Traditionell gryta med bönor, majs och fisk',
         es: 'Guiso tradicional con frijoles, maíz y pescado',
         fr: 'Ragoût traditionnel avec haricots, maïs et poisson',
         de: 'Traditioneller Eintopf mit Bohnen, Mais und Fisch',
-        it: 'Traditional stew with beans, corn, and fish',
-        pl: 'Traditional stew with beans, corn, and fish',
-        nl: 'Traditional stew with beans, corn, and fish',
-        pt: 'Traditional stew with beans, corn, and fish',
+        it: 'Stufato tradizionale con fagioli, mais e pesce',
+        pl: 'Tradycyjny gulasz z fasolą, kukurydzą i rybą',
+        nl: 'Traditionele stoofpot met bonen, maïs en vis',
+        pt: 'Ensopado tradicional com feijão, milho e peixe',
       },
       cookingTime: 60,
       difficulty: 'medium',
@@ -486,12 +566,12 @@ export const equatorialGuinea: Country = {
         {
           name: {
             en: 'Black-eyed peas',
-            sv: 'Svartögda ärtor',
-            es: 'Guisantes de ojo negro',
-            fr: 'Pois aux yeux noirs',
-            de: 'Schwarzaugenerbsen',
+            sv: 'Svartögda bönor',
+            es: 'Frijoles de ojo negro',
+            fr: 'Haricots à œil noir (niébé)',
+            de: 'Augenbohnen',
             it: 'Fagioli dall\'occhio',
-            pl: 'Fasola czarne oko',
+            pl: 'Fasola czarne oczko',
             nl: 'Zwartoogbonen',
             pt: 'Feijão-fradinho',
           },
@@ -543,7 +623,7 @@ export const equatorialGuinea: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -568,7 +648,7 @@ export const equatorialGuinea: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -607,7 +687,7 @@ export const equatorialGuinea: Country = {
       steps: [
         {
           en: 'Soak beans overnight',
-          sv: 'Blötlägg bönor över natten',
+          sv: 'Blötlägg bönorna över natten',
           es: 'Remojar los frijoles durante la noche',
           fr: 'Faire tremper les haricots pendant la nuit',
           de: 'Bohnen über Nacht einweichen',
@@ -629,8 +709,8 @@ export const equatorialGuinea: Country = {
         },
         {
           en: 'Add corn and smoked fish',
-          sv: 'Lägg till majs och rökt fisk',
-          es: 'Agrega maíz y pescado ahumado',
+          sv: 'Tillsätt majs och rökt fisk',
+          es: 'Agregue el maíz y el pescado ahumado',
           fr: 'Ajouter le maïs et le poisson fumé',
           de: 'Mais und geräucherten Fisch hinzufügen',
           it: 'Aggiungere il mais e il pesce affumicato',
@@ -651,8 +731,8 @@ export const equatorialGuinea: Country = {
         },
         {
           en: 'Combine all ingredients',
-          sv: 'Kombinera alla ingredienser',
-          es: 'Combina todos los ingredientes',
+          sv: 'Blanda alla ingredienser',
+          es: 'Combine todos los ingredientes',
           fr: 'Mélanger tous les ingrédients',
           de: 'Alle Zutaten vermischen',
           it: 'Unire tutti gli ingredienti',
@@ -662,7 +742,7 @@ export const equatorialGuinea: Country = {
         },
         {
           en: 'Simmer until flavors blend',
-          sv: 'Sjud tills smakerna blandas',
+          sv: 'Låt sjuda tills smakerna har gått ihop',
           es: 'Cocine a fuego lento hasta que los sabores se mezclen',
           fr: 'Laisser mijoter jusqu\'à ce que les saveurs se mélangent',
           de: 'Köcheln lassen, bis sich die Aromen vermischen',
@@ -678,7 +758,7 @@ export const equatorialGuinea: Country = {
       id: 'equatorial-guinea-dessert',
       name: {
         en: 'Plantain Fritters',
-        sv: 'Friterad kokbanan',
+        sv: 'Friterade kokbananbollar',
         es: 'Buñuelos de Plátano',
         fr: 'Beignets de plantain',
         de: 'Bananenkrapfen',
@@ -689,7 +769,7 @@ export const equatorialGuinea: Country = {
       },
       description: {
         en: 'Sweet fried plantain dessert',
-        sv: 'Sötstekt groblad dessert',
+        sv: 'Söt dessert av friterad kokbanan',
         es: 'Postre dulce de plátano frito',
         fr: 'Dessert sucré aux plantains frits',
         de: 'Süßes Dessert mit frittierten Kochbananen',
@@ -716,7 +796,7 @@ export const equatorialGuinea: Country = {
         {
           name: {
             en: 'Ripe plantains',
-            sv: 'Mogna groblad',
+            sv: 'Mogna kokbananer',
             es: 'Plátanos maduros',
             fr: 'Plantains mûrs',
             de: 'Reife Kochbananen',
@@ -728,7 +808,7 @@ export const equatorialGuinea: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -741,7 +821,7 @@ export const equatorialGuinea: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -786,7 +866,7 @@ export const equatorialGuinea: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -802,7 +882,7 @@ export const equatorialGuinea: Country = {
       steps: [
         {
           en: 'Mash ripe plantains',
-          sv: 'Mosa mogna plantains',
+          sv: 'Mosa de mogna kokbananerna',
           es: 'Triturar plátanos maduros',
           fr: 'Écraser des plantains mûrs',
           de: 'Reife Kochbananen zerdrücken',
@@ -835,7 +915,7 @@ export const equatorialGuinea: Country = {
         },
         {
           en: 'Heat oil to 180°C',
-          sv: 'Värm olja till 180°C',
+          sv: 'Hetta upp oljan till 180°C',
           es: 'Calentar el aceite a 180°C',
           fr: 'Chauffer l\'huile à 180°C',
           de: 'Öl auf 180°C erhitzen',
@@ -846,7 +926,7 @@ export const equatorialGuinea: Country = {
         },
         {
           en: 'Fry until golden brown',
-          sv: 'Stek tills gyllenbrun',
+          sv: 'Fritera tills de är gyllenbruna',
           es: 'Freír hasta que estén doradas',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés',
           de: 'Goldbraun braten',
@@ -868,7 +948,7 @@ export const equatorialGuinea: Country = {
         },
         {
           en: 'Serve warm with honey or syrup',
-          sv: 'Servera varm med honung eller sirap',
+          sv: 'Servera varma med honung eller sirap',
           es: 'Servir caliente con miel o almíbar',
           fr: 'Servir chaud avec du miel ou du sirop',
           de: 'Warm mit Honig oder Sirup servieren',
@@ -932,7 +1012,17 @@ export const equatorialGuinea: Country = {
           nl: 'De Spaanse taal in Afrika',
           pt: 'Língua Espanhola em África',
         },
-        year: 'Colonial Era',
+        year: {
+          en: 'Colonial Era',
+          sv: 'Kolonialtiden',
+          es: 'Época colonial',
+          fr: 'Époque coloniale',
+          de: 'Kolonialzeit',
+          it: 'Epoca coloniale',
+          pl: 'Epoka kolonialna',
+          nl: 'Koloniale tijd',
+          pt: 'Período colonial',
+        },
         description: {
           en: 'Only Spanish-speaking country in Africa, maintaining unique linguistic heritage',
           sv: 'Det enda spansktalande landet i Afrika som har ett unikt språkligt arv',
@@ -957,7 +1047,17 @@ export const equatorialGuinea: Country = {
           nl: 'Ontwikkeling van de olie-industrie',
           pt: 'Desenvolvimento da Indústria Petrolífera',
         },
-        year: '1990s',
+        year: {
+          en: '1990s',
+          sv: '1990-talet',
+          es: 'Década de 1990',
+          fr: 'Années 1990',
+          de: '1990er',
+          it: 'Anni \'90',
+          pl: 'Lata 90.',
+          nl: 'Jaren 90',
+          pt: 'Década de 1990',
+        },
         description: {
           en: 'Rapid development of offshore oil production transforming the economy',
           sv: 'Snabb utveckling av oljeproduktion till havs som förändrar ekonomin',
@@ -982,7 +1082,17 @@ export const equatorialGuinea: Country = {
           nl: 'Biodiversiteit van Bioko',
           pt: 'Biodiversidade de Bioko',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Conservation efforts protecting unique island species and ecosystems',
           sv: 'Bevarandeinsatser för att skydda unika öarter och ekosystem',
@@ -1146,7 +1256,7 @@ export const equatorialGuinea: Country = {
           },
           {
             en: 'Bioko Island',
-            sv: 'Bioko Island',
+            sv: 'Ön Bioko',
             es: 'Isla de Bioko',
             fr: 'Île de Bioko',
             de: 'Bioko-Insel',

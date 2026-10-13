@@ -264,7 +264,17 @@ export const spain: Country = {
     history: [
       {
         year: '711-1492',
-        title: 'Moorish Spain',
+        title: {
+          en: 'Moorish Spain',
+          sv: 'Det moriska Spanien',
+          es: 'Al-Ándalus',
+          fr: 'L\'Espagne maure',
+          de: 'Das maurische Spanien',
+          it: 'La Spagna moresca',
+          pl: 'Muzułmańska Hiszpania',
+          nl: 'Moors Spanje',
+          pt: 'Espanha moura',
+        },
         description: {
           en: 'Islamic rule brought architectural marvels like the Alhambra and significant advances in science and culture.',
           sv: 'Islamiskt styre förde med sig arkitektoniska underverk som Alhambra och betydande framsteg inom vetenskap och kultur.',
@@ -279,7 +289,17 @@ export const spain: Country = {
       },
       {
         year: '1492',
-        title: 'Reconquista Complete',
+        title: {
+          en: 'Reconquista Complete',
+          sv: 'Reconquistan fullbordas',
+          es: 'Fin de la Reconquista',
+          fr: 'Fin de la Reconquista',
+          de: 'Ende der Reconquista',
+          it: 'Fine della Reconquista',
+          pl: 'Koniec rekonkwisty',
+          nl: 'Einde van de Reconquista',
+          pt: 'Fim da Reconquista',
+        },
         description: {
           en: 'Christians recaptured Granada, ending Muslim rule. Columbus discovered the Americas for Spain.',
           sv: 'Kristna återerövrade Granada, vilket satte stopp för det muslimska styret. Columbus upptäckte Amerika för Spanien.',
@@ -293,8 +313,28 @@ export const spain: Country = {
         },
       },
       {
-        year: '16th-17th Century',
-        title: 'Spanish Empire',
+        year: {
+          en: '16th-17th Century',
+          sv: '1500–1600-talet',
+          es: 'siglos XVI–XVII',
+          fr: 'XVIe–XVIIe siècles',
+          de: '16.–17. Jahrhundert',
+          it: 'XVI–XVII secolo',
+          pl: 'XVI–XVII wiek',
+          nl: '16e–17e eeuw',
+          pt: 'séculos XVI–XVII',
+        },
+        title: {
+          en: 'Spanish Empire',
+          sv: 'Spanska imperiet',
+          es: 'Imperio español',
+          fr: 'Empire espagnol',
+          de: 'Spanisches Weltreich',
+          it: 'Impero spagnolo',
+          pl: 'Imperium hiszpańskie',
+          nl: 'Het Spaanse Rijk',
+          pt: 'Império Espanhol',
+        },
         description: {
           en: 'Spain became a global superpower, controlling vast territories in the Americas, Europe, and Asia.',
           sv: 'Spanien blev en global supermakt som kontrollerade stora territorier i Amerika, Europa och Asien.',
@@ -308,8 +348,28 @@ export const spain: Country = {
         },
       },
       {
-        year: '1975-Present',
-        title: 'Modern Democracy',
+        year: {
+          en: '1975-Present',
+          sv: '1975–idag',
+          es: '1975–actualidad',
+          fr: '1975–aujourd\'hui',
+          de: '1975–heute',
+          it: '1975–oggi',
+          pl: '1975–obecnie',
+          nl: '1975–heden',
+          pt: '1975–presente',
+        },
+        title: {
+          en: 'Modern Democracy',
+          sv: 'Modern demokrati',
+          es: 'Democracia moderna',
+          fr: 'Démocratie moderne',
+          de: 'Moderne Demokratie',
+          it: 'Democrazia moderna',
+          pl: 'Współczesna demokracja',
+          nl: 'Moderne democratie',
+          pt: 'Democracia moderna',
+        },
         description: {
           en: 'After Franco\'s death, Spain transitioned to democracy and joined the European Union in 1986.',
           sv: 'Efter Francos död övergick Spanien till demokrati och gick med i Europeiska unionen 1986.',
@@ -549,7 +609,17 @@ export const spain: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-June and September-October for good weather without extreme heat or crowds.',
           sv: 'Maj-juni och september-oktober för bra väder utan extrem värme eller trängsel.',
@@ -563,7 +633,17 @@ export const spain: Country = {
         },
       },
       {
-        item: 'Siesta awareness',
+        item: {
+          en: 'Siesta awareness',
+          sv: 'Tänk på siestan',
+          es: 'Hora de la siesta',
+          fr: 'Heure de la sieste',
+          de: 'Siestazeiten',
+          it: 'Orari della siesta',
+          pl: 'Pora sjesty',
+          nl: 'Let op de siësta',
+          pt: 'Horário da sesta',
+        },
         description: {
           en: 'Many shops close 2-5 PM for siesta; plan accordingly.',
           sv: 'Många butiker stänger 14.00-17.00 för siesta; planera därefter.',
@@ -577,7 +657,17 @@ export const spain: Country = {
         },
       },
       {
-        item: 'Comfortable walking shoes',
+        item: {
+          en: 'Comfortable walking shoes',
+          sv: 'Bekväma promenadskor',
+          es: 'Calzado cómodo para caminar',
+          fr: 'Chaussures de marche confortables',
+          de: 'Bequemes Schuhwerk',
+          it: 'Scarpe comode da passeggio',
+          pl: 'Wygodne buty do chodzenia',
+          nl: 'Comfortabele wandelschoenen',
+          pt: 'Calçados confortáveis para caminhada',
+        },
         description: {
           en: 'Spanish cities involve lots of walking and cobblestones.',
           sv: 'Spanska städer involverar massor av promenader och kullerstenar.',
@@ -591,7 +681,17 @@ export const spain: Country = {
         },
       },
       {
-        item: 'Light jacket',
+        item: {
+          en: 'Light jacket',
+          sv: 'Tunn jacka',
+          es: 'Chaqueta ligera',
+          fr: 'Veste légère',
+          de: 'Leichte Jacke',
+          it: 'Giacca leggera',
+          pl: 'Lekka kurtka',
+          nl: 'Licht jasje',
+          pt: 'Jaqueta leve',
+        },
         description: {
           en: 'Evenings can be cool even in summer.',
           sv: 'Kvällarna kan vara svala även på sommaren.',
@@ -605,7 +705,17 @@ export const spain: Country = {
         },
       },
       {
-        item: 'Sunscreen and hat',
+        item: {
+          en: 'Sunscreen and hat',
+          sv: 'Solkräm och hatt',
+          es: 'Protector solar y sombrero',
+          fr: 'Crème solaire et chapeau',
+          de: 'Sonnencreme und Hut',
+          it: 'Crema solare e cappello',
+          pl: 'Krem z filtrem i kapelusz',
+          nl: 'Zonnebrandcrème en hoed',
+          pt: 'Protetor solar e chapéu',
+        },
         description: {
           en: 'Spanish sun is intense, especially in summer.',
           sv: 'Spansk sol är intensiv, särskilt på sommaren.',
@@ -619,7 +729,17 @@ export const spain: Country = {
         },
       },
       {
-        item: 'Basic Spanish phrases',
+        item: {
+          en: 'Basic Spanish phrases',
+          sv: 'Grundläggande fraser på spanska',
+          es: 'Frases básicas en español',
+          fr: 'Phrases de base en espagnol',
+          de: 'Wichtige Redewendungen auf Spanisch',
+          it: 'Frasi di base in spagnolo',
+          pl: 'Podstawowe zwroty po hiszpańsku',
+          nl: 'Basiszinnen in het Spaans',
+          pt: 'Frases básicas em espanhol',
+        },
         description: {
           en: '"Gracias", "Por favor", and "Hola" are appreciated.',
           sv: '"Gracias", "Por favor" och "Hola" uppskattas.',
@@ -675,7 +795,7 @@ export const spain: Country = {
         {
           name: {
             en: 'Bomba rice',
-            sv: 'Bomba ris',
+            sv: 'Bombaris',
             es: 'Arroz bomba',
             fr: 'Riz bomba',
             de: 'Bomba-Reis',
@@ -762,7 +882,7 @@ export const spain: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -775,7 +895,7 @@ export const spain: Country = {
         {
           name: {
             en: 'Chicken stock',
-            sv: 'Kycklingfond',
+            sv: 'Kycklingbuljong',
             es: 'caldo de pollo',
             fr: 'Bouillon de poulet',
             de: 'Hühnerbrühe',
@@ -855,7 +975,7 @@ export const spain: Country = {
         {
           name: {
             en: 'Lemon wedges (to serve)',
-            sv: 'Citronklyftor (att servera)',
+            sv: 'Citronklyftor (till servering)',
             es: 'Gajos de limón (para servir)',
             fr: 'Quartiers de citron (pour servir)',
             de: 'Zitronenschnitze (zum Servieren)',
@@ -867,7 +987,7 @@ export const spain: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -892,7 +1012,7 @@ export const spain: Country = {
         },
         {
           en: 'Season and brown chicken and rabbit pieces, then remove',
-          sv: 'Krydda och bryn kyckling- och kaninbitar, ta sedan bort',
+          sv: 'Krydda och bryn kyckling- och kaninbitarna och lyft sedan upp dem',
           es: 'Sazone y dore los trozos de pollo y conejo, luego retírelos',
           fr: 'Assaisonner et dorer les morceaux de poulet et de lapin, puis retirer',
           de: 'Hähnchen- und Kaninchenstücke würzen und anbraten, dann herausnehmen',
@@ -914,7 +1034,7 @@ export const spain: Country = {
         },
         {
           en: 'Add grated tomatoes and paprika, cook until thick',
-          sv: 'Tillsätt rivna tomater och paprika, koka tills det blir tjockt',
+          sv: 'Tillsätt rivna tomater och paprikapulver och koka tills det tjocknar',
           es: 'Agregue los tomates rallados y el pimentón, cocine hasta que espese',
           fr: 'Ajouter les tomates râpées et le paprika, cuire jusqu\'à épaississement',
           de: 'Geriebene Tomaten und Paprika dazugeben und dicklich kochen',
@@ -925,7 +1045,7 @@ export const spain: Country = {
         },
         {
           en: 'Return meat to pan, add rice and stir to coat',
-          sv: 'Lägg tillbaka köttet i pannan, tillsätt ris och rör om för att täcka',
+          sv: 'Lägg tillbaka köttet i pannan, tillsätt riset och rör om så att det blir blankt av oljan',
           es: 'Regrese la carne a la sartén, agregue el arroz y revuelva para cubrir',
           fr: 'Remettre la viande dans la poêle, ajouter le riz et remuer pour bien enrober',
           de: 'Das Fleisch wieder in die Pfanne geben, Reis hinzufügen und umrühren, um es zu beschichten',
@@ -936,7 +1056,7 @@ export const spain: Country = {
         },
         {
           en: 'Dissolve saffron in hot stock and pour over rice',
-          sv: 'Lös upp saffran i het fond och häll över ris',
+          sv: 'Lös upp saffranet i het buljong och häll över riset',
           es: 'Disolver el azafrán en caldo caliente y verter sobre el arroz',
           fr: 'Dissoudre le safran dans le bouillon chaud et verser sur le riz',
           de: 'Safran in heißer Brühe auflösen und über den Reis gießen',
@@ -958,7 +1078,7 @@ export const spain: Country = {
         },
         {
           en: 'Cook for 15-18 minutes until rice is tender and stock absorbed',
-          sv: 'Koka i 15-18 minuter tills riset är mört och fonden absorberas',
+          sv: 'Koka i 15–18 minuter tills riset är mjukt och har sugit upp buljongen',
           es: 'Cocine durante 15-18 minutos hasta que el arroz esté tierno y el caldo se absorba',
           fr: 'Cuire pendant 15 à 18 minutes jusqu\'à ce que le riz soit tendre et que le bouillon soit absorbé',
           de: '15–18 Minuten kochen, bis der Reis weich ist und die Brühe aufgesogen ist',
@@ -969,7 +1089,7 @@ export const spain: Country = {
         },
         {
           en: 'Let rest off heat for 5 minutes before serving',
-          sv: 'Låt vila från värmen i 5 minuter innan servering',
+          sv: 'Ta pannan från värmen och låt vila i 5 minuter före servering',
           es: 'Dejar reposar fuera del fuego 5 minutos antes de servir',
           fr: 'Laisser reposer hors du feu 5 minutes avant de servir',
           de: 'Vor dem Servieren 5 Minuten vom Herd ruhen lassen',
@@ -980,7 +1100,7 @@ export const spain: Country = {
         },
         {
           en: 'Aim for a crispy bottom layer called "socarrat"',
-          sv: 'Sikta på ett krispigt bottenlager som kallas "socarrat"',
+          sv: 'Målet är en frasig skorpa i botten, så kallad socarrat',
           es: 'Apunta a una capa inferior crujiente llamada "socarrat"',
           fr: 'Visez une couche inférieure croustillante appelée "socarrat"',
           de: 'Streben Sie eine knusprige untere Schicht namens „Socarrat" an',
@@ -996,7 +1116,7 @@ export const spain: Country = {
       id: 'spain-dessert',
       name: {
         en: 'Churros con Chocolate',
-        sv: 'Churros con Choklad',
+        sv: 'Churros con chocolate',
         es: 'Churros con chocolate',
         fr: 'Churros au chocolat',
         de: 'Churros mit Schokolade',
@@ -1007,7 +1127,7 @@ export const spain: Country = {
       },
       description: {
         en: 'Crispy fried dough pastries served with thick hot chocolate for dipping',
-        sv: 'Krispiga stekta degbakelser serveras med tjock varm choklad för doppning',
+        sv: 'Krispiga friterade degstänger som serveras med tjock varm choklad att doppa i',
         es: 'Pasteles de masa fritos crujientes servidos con chocolate caliente espeso para mojar',
         fr: 'Pâtisseries frites croustillantes servies avec un chocolat chaud épais pour tremper',
         de: 'Knusprig frittiertes Teiggebäck, serviert mit dicker heißer Schokolade zum Dippen',
@@ -1064,7 +1184,7 @@ export const spain: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1091,7 +1211,7 @@ export const spain: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1119,7 +1239,7 @@ export const spain: Country = {
         {
           name: {
             en: 'Sugar for coating',
-            sv: 'Socker för beläggning',
+            sv: 'Socker att rulla i',
             es: 'Azúcar para rebozar',
             fr: 'Sucre pour enrober',
             de: 'Zucker zum Überziehen',
@@ -1216,7 +1336,7 @@ export const spain: Country = {
         },
         {
           en: 'Remove from heat, add flour all at once and stir vigorously',
-          sv: 'Ta bort från värmen, tillsätt mjöl på en gång och rör om kraftigt',
+          sv: 'Ta kastrullen från värmen, tillsätt vetemjölet på en gång och rör kraftigt',
           es: 'Retirar del fuego, agregar la harina de una vez y remover vigorosamente',
           fr: 'Retirer du feu, ajouter la farine d\'un seul coup et remuer vigoureusement',
           de: 'Vom Herd nehmen, Mehl auf einmal hinzufügen und kräftig umrühren',
@@ -1227,7 +1347,7 @@ export const spain: Country = {
         },
         {
           en: 'Let cool slightly, then beat in eggs one at a time',
-          sv: 'Låt svalna något och vispa sedan i äggen ett i taget',
+          sv: 'Låt svalna något och arbeta sedan in äggen ett i taget',
           es: 'Deje que se enfríe un poco y luego agregue los huevos uno a la vez',
           fr: 'Laisser refroidir légèrement, puis incorporer les œufs un à un',
           de: 'Etwas abkühlen lassen, dann die Eier einzeln unterrühren',
@@ -1238,7 +1358,7 @@ export const spain: Country = {
         },
         {
           en: 'Heat oil to 190°C for frying',
-          sv: 'Värm olja till 190°C för stekning',
+          sv: 'Hetta upp olja till 190°C för fritering',
           es: 'Calentar aceite a 190°C para freír',
           fr: 'Chauffer l\'huile à 190°C pour la friture',
           de: 'Öl zum Frittieren auf 190°C erhitzen',
@@ -1249,7 +1369,7 @@ export const spain: Country = {
         },
         {
           en: 'Pipe dough through a star tip into hot oil in 15 cm strips',
-          sv: 'Sprid degen genom en stjärnspets till het olja i 15 cm remsor',
+          sv: 'Spritsa 15 cm långa degremsor ner i den heta oljan med en stjärntyll',
           es: 'Coloca la masa a través de una punta de estrella en aceite caliente en tiras de 15 cm',
           fr: 'Passer la pâte à l\'aide d\'une pointe étoile dans l\'huile chaude en bandes de 15 cm',
           de: 'Den Teig durch eine Sterntülle in 15 cm breiten Streifen in heißes Öl spritzen',
@@ -1260,7 +1380,7 @@ export const spain: Country = {
         },
         {
           en: 'Fry until golden brown, about 2 minutes per side',
-          sv: 'Stek tills de är gyllenbruna, ca 2 minuter per sida',
+          sv: 'Fritera tills de är gyllenbruna, ca 2 minuter per sida',
           es: 'Freír hasta que estén doradas, aproximadamente 2 minutos por lado',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés, environ 2 minutes de chaque côté',
           de: 'Etwa 2 Minuten pro Seite goldbraun braten',
@@ -1282,7 +1402,7 @@ export const spain: Country = {
         },
         {
           en: 'For chocolate: heat milk and chocolate, whisk in cornstarch',
-          sv: 'För choklad: värm mjölk och choklad, vispa i majsstärkelse',
+          sv: 'Till chokladen: värm mjölk och choklad och vispa ner majsstärkelsen',
           es: 'Para el chocolate: calentar la leche y el chocolate, agregar la maicena',
           fr: 'Pour le chocolat : faire chauffer le lait et le chocolat, incorporer la fécule de maïs en fouettant',
           de: 'Für Schokolade: Milch und Schokolade erhitzen, Maisstärke unterrühren',
@@ -1293,7 +1413,7 @@ export const spain: Country = {
         },
         {
           en: 'Cook until thick and smooth',
-          sv: 'Koka tills den är tjock och slät',
+          sv: 'Låt koka tills chokladen är tjock och slät',
           es: 'Cocine hasta que esté espeso y suave',
           fr: 'Cuire jusqu\'à consistance épaisse et lisse',
           de: 'Kochen, bis es dick und glatt ist',

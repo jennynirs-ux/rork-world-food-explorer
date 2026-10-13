@@ -263,8 +263,28 @@ export const antiguaAndBarbuda: Country = {
     },
     history: [
       {
-        year: 'Pre-1493',
-        title: 'Indigenous Inhabitants',
+        year: {
+          en: 'Pre-1493',
+          sv: 'Före 1493',
+          es: 'Antes de 1493',
+          fr: 'Avant 1493',
+          de: 'Vor 1493',
+          it: 'Prima del 1493',
+          pl: 'Przed 1493 r.',
+          nl: 'Vóór 1493',
+          pt: 'Antes de 1493',
+        },
+        title: {
+          en: 'Indigenous Inhabitants',
+          sv: 'Ursprungsbefolkningen',
+          es: 'Habitantes originarios',
+          fr: 'Premiers habitants',
+          de: 'Ureinwohner',
+          it: 'Abitanti originari',
+          pl: 'Rdzenni mieszkańcy',
+          nl: 'Oorspronkelijke bewoners',
+          pt: 'Habitantes originais',
+        },
         description: {
           en: 'The islands were originally inhabited by the Siboney people, followed by Arawaks and Caribs who lived off fishing and agriculture.',
           sv: 'Öarna beboddes ursprungligen av Siboney-folket, följt av arawaker och kariber som levde av fiske och jordbruk.',
@@ -279,7 +299,17 @@ export const antiguaAndBarbuda: Country = {
       },
       {
         year: '1493',
-        title: 'European Discovery',
+        title: {
+          en: 'European Discovery',
+          sv: 'Europeisk upptäckt',
+          es: 'Descubrimiento por los europeos',
+          fr: 'Découverte par les Européens',
+          de: 'Entdeckung durch Europäer',
+          it: 'Scoperta da parte degli europei',
+          pl: 'Odkrycie przez Europejczyków',
+          nl: 'Ontdekking door Europeanen',
+          pt: 'Descoberta pelos europeus',
+        },
         description: {
           en: 'Christopher Columbus landed on Antigua during his second voyage, naming it after the Church of Santa María de la Antigua.',
           sv: 'Christopher Columbus landade på Antigua under sin andra resa och döpte den efter kyrkan Santa María de la Antigua.',
@@ -294,7 +324,17 @@ export const antiguaAndBarbuda: Country = {
       },
       {
         year: '1632',
-        title: 'British Colonization',
+        title: {
+          en: 'British Colonization',
+          sv: 'Brittisk kolonisering',
+          es: 'Colonización británica',
+          fr: 'Colonisation britannique',
+          de: 'Britische Kolonisierung',
+          it: 'Colonizzazione britannica',
+          pl: 'Kolonizacja brytyjska',
+          nl: 'Britse kolonisatie',
+          pt: 'Colonização britânica',
+        },
         description: {
           en: 'The British established a colony on Antigua, developing sugar plantations that relied on enslaved African labor.',
           sv: 'Britterna etablerade en koloni på Antigua och utvecklade sockerplantager som förlitade sig på förslavad afrikansk arbetskraft.',
@@ -309,7 +349,17 @@ export const antiguaAndBarbuda: Country = {
       },
       {
         year: '1834',
-        title: 'Emancipation',
+        title: {
+          en: 'Emancipation',
+          sv: 'Slaveriets avskaffande',
+          es: 'Abolición de la esclavitud',
+          fr: 'Abolition de l\'esclavage',
+          de: 'Abschaffung der Sklaverei',
+          it: 'Abolizione della schiavitù',
+          pl: 'Zniesienie niewolnictwa',
+          nl: 'Afschaffing van de slavernij',
+          pt: 'Abolição da escravidão',
+        },
         description: {
           en: 'Slavery was abolished across British colonies, transforming the social and economic structure of the islands.',
           sv: 'Slaveriet avskaffades över brittiska kolonier, vilket förändrade öarnas sociala och ekonomiska struktur.',
@@ -324,7 +374,17 @@ export const antiguaAndBarbuda: Country = {
       },
       {
         year: '1981',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Antigua and Barbuda gained independence from Britain, becoming a sovereign nation within the Commonwealth.',
           sv: 'Antigua och Barbuda fick självständighet från Storbritannien och blev en suverän nation inom samväldet.',
@@ -351,7 +411,17 @@ export const antiguaAndBarbuda: Country = {
           nl: 'Nelson\'s Dockyard',
           pt: 'Nelson\'s Dockyard',
         },
-        year: '18th Century',
+        year: {
+          en: '18th Century',
+          sv: '1700-talet',
+          es: 'siglo XVIII',
+          fr: 'XVIIIe siècle',
+          de: '18. Jahrhundert',
+          it: 'XVIII secolo',
+          pl: 'XVIII wiek',
+          nl: '18e eeuw',
+          pt: 'século XVIII',
+        },
         description: {
           en: 'A Georgian-era naval dockyard that became a UNESCO World Heritage Site, showcasing maritime heritage and restoration.',
           sv: 'Ett maritimt varv från Georgiens era som blev ett UNESCO: s världsarv, som visar upp maritimt arv och restaurering.',
@@ -376,7 +446,17 @@ export const antiguaAndBarbuda: Country = {
           nl: 'Carnavalscultuur',
           pt: 'Cultura do Carnaval',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'The annual Carnival celebration combines African traditions, colonial history, and Caribbean creativity into a world-renowned festival.',
           sv: 'Det årliga karnevalsfirandet kombinerar afrikanska traditioner, kolonial historia och karibisk kreativitet till en världsberömd festival.',
@@ -401,7 +481,17 @@ export const antiguaAndBarbuda: Country = {
           nl: 'Duurzaam toerisme',
           pt: 'Turismo sustentável',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Antigua has pioneered eco-friendly tourism initiatives to protect its natural beaches and marine environments.',
           sv: 'Antigua har banat väg för miljövänliga turisminitiativ för att skydda sina naturliga stränder och marina miljöer.',
@@ -539,7 +629,17 @@ export const antiguaAndBarbuda: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December–April for dry season; avoid September–November hurricane season.',
           sv: 'December–april för torrperioden; undvik orkansäsongen september–november.',
@@ -577,7 +677,17 @@ export const antiguaAndBarbuda: Country = {
         },
       },
       {
-        item: 'Sun protection',
+        item: {
+          en: 'Sun protection',
+          sv: 'Solskydd',
+          es: 'Protección solar',
+          fr: 'Protection solaire',
+          de: 'Sonnenschutz',
+          it: 'Protezione solare',
+          pl: 'Ochrona przeciwsłoneczna',
+          nl: 'Bescherming tegen de zon',
+          pt: 'Proteção solar',
+        },
         description: {
           en: 'Strong Caribbean sun requires high SPF sunscreen, hat, and sunglasses.',
           sv: 'Stark karibisk sol kräver solskyddsmedel med hög SPF, hatt och solglasögon.',
@@ -591,7 +701,17 @@ export const antiguaAndBarbuda: Country = {
         },
       },
       {
-        item: 'Water activities',
+        item: {
+          en: 'Water activities',
+          sv: 'Vattenaktiviteter',
+          es: 'Actividades acuáticas',
+          fr: 'Activités nautiques',
+          de: 'Wassersport',
+          it: 'Attività acquatiche',
+          pl: 'Sporty wodne',
+          nl: 'Wateractiviteiten',
+          pt: 'Atividades aquáticas',
+        },
         description: {
           en: 'Bring or rent snorkeling gear to explore coral reefs and marine life.',
           sv: 'Ta med eller hyr snorklingsutrustning för att utforska korallrev och marint liv.',
@@ -605,7 +725,17 @@ export const antiguaAndBarbuda: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'English is the official language, making communication easy for visitors.',
           sv: 'Engelska är det officiella språket, vilket gör kommunikationen lätt för besökare.',
@@ -619,7 +749,17 @@ export const antiguaAndBarbuda: Country = {
         },
       },
       {
-        item: 'Island hopping',
+        item: {
+          en: 'Island hopping',
+          sv: 'Öhoppning',
+          es: 'De isla en isla',
+          fr: 'D\'île en île',
+          de: 'Inselhopping',
+          it: 'Di isola in isola',
+          pl: 'Podróże między wyspami',
+          nl: 'Eilandhoppen',
+          pt: 'De ilha em ilha',
+        },
         description: {
           en: 'Consider ferry to Barbuda for pink sand beaches and frigate bird sanctuary.',
           sv: 'Överväg färja till Barbuda för rosa sandstränder och fregattfågelreservat.',
@@ -637,7 +777,7 @@ export const antiguaAndBarbuda: Country = {
       id: 'antigua-main',
       name: {
         en: 'Pepperpot',
-        sv: 'Pepparkruka',
+        sv: 'Pepperpot',
         es: 'Pimentero',
         fr: 'Poivrière',
         de: 'Pfeffertopf',
@@ -732,7 +872,7 @@ export const antiguaAndBarbuda: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -772,7 +912,7 @@ export const antiguaAndBarbuda: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -786,7 +926,7 @@ export const antiguaAndBarbuda: Country = {
       steps: [
         {
           en: 'Soak salted beef overnight to remove excess salt',
-          sv: 'Blötlägg saltat nötkött över natten för att ta bort överflödigt salt',
+          sv: 'Blötlägg det saltade nötköttet över natten så att överflödigt salt dras ur',
           es: 'Remojar la carne salada durante la noche para eliminar el exceso de sal',
           fr: 'Faire tremper le bœuf salé toute la nuit pour éliminer l\'excès de sel',
           de: 'Gesalzenes Rindfleisch über Nacht einweichen, um überschüssiges Salz zu entfernen',
@@ -819,7 +959,7 @@ export const antiguaAndBarbuda: Country = {
         },
         {
           en: 'Add whole scotch bonnet for flavor (don\'t break it)',
-          sv: 'Lägg till hel skotsk huva för smak (bryt den inte)',
+          sv: 'Lägg i en hel Scotch bonnet-chili för smakens skull (låt den inte gå sönder)',
           es: 'Agregue whisky escocés entero para darle sabor (no lo rompa)',
           fr: 'Ajoutez du scotch bonnet entier pour plus de saveur (ne le cassez pas)',
           de: 'Fügen Sie ganzen Scotch Bonnet für den Geschmack hinzu (zerbrechen Sie ihn nicht)',
@@ -830,7 +970,7 @@ export const antiguaAndBarbuda: Country = {
         },
         {
           en: 'Simmer until vegetables are soft',
-          sv: 'Sjud tills grönsakerna är mjuka',
+          sv: 'Låt sjuda tills grönsakerna är mjuka',
           es: 'Cocine a fuego lento hasta que las verduras estén suaves',
           fr: 'Laisser mijoter jusqu\'à ce que les légumes soient tendres',
           de: 'Köcheln lassen, bis das Gemüse weich ist',
@@ -910,7 +1050,7 @@ export const antiguaAndBarbuda: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -940,7 +1080,7 @@ export const antiguaAndBarbuda: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1056,7 +1196,7 @@ export const antiguaAndBarbuda: Country = {
       steps: [
         {
           en: 'If using banana leaves, soften by passing over flame briefly.',
-          sv: 'Om du använder bananblad, mjuka upp genom att passera över lågan kort.',
+          sv: 'Om du använder bananblad, mjuka upp dem genom att snabbt dra dem över en öppen låga.',
           es: 'Si usa hojas de plátano, ablande pasándolas brevemente sobre el fuego.',
           fr: 'Si vous utilisez des feuilles de bananier, les ramollir en les passant brièvement sur le feu.',
           de: 'Wenn Sie Bananenblätter verwenden, machen Sie diese durch kurzes Überhitzen der Flamme weich.',
@@ -1067,7 +1207,7 @@ export const antiguaAndBarbuda: Country = {
         },
         {
           en: 'Mix grated sweet potato with coconut, sugar, and flour.',
-          sv: 'Blanda riven sötpotatis med kokos, socker och mjöl.',
+          sv: 'Blanda den rivna sötpotatisen med kokos, socker och vetemjöl.',
           es: 'Mezclar el camote rallado con el coco, el azúcar y la harina.',
           fr: 'Mélangez la patate douce râpée avec la noix de coco, le sucre et la farine.',
           de: 'Geriebene Süßkartoffeln mit Kokosnuss, Zucker und Mehl vermischen.',
@@ -1100,7 +1240,7 @@ export const antiguaAndBarbuda: Country = {
         },
         {
           en: 'Place a portion of mixture in center of each banana leaf.',
-          sv: 'Lägg en del av blandningen i mitten av varje bananblad.',
+          sv: 'Lägg en portion av smeten mitt på varje bananblad.',
           es: 'Coloca una porción de la mezcla en el centro de cada hoja de plátano.',
           fr: 'Placer une portion du mélange au centre de chaque feuille de bananier.',
           de: 'Geben Sie eine Portion der Mischung in die Mitte jedes Bananenblatts.',
@@ -1122,7 +1262,7 @@ export const antiguaAndBarbuda: Country = {
         },
         {
           en: 'Place packets in steamer basket over boiling water.',
-          sv: 'Lägg paketen i ångkorg över kokande vatten.',
+          sv: 'Lägg paketen i en ångkorg över kokande vatten.',
           es: 'Coloque los paquetes en una canasta vaporera sobre agua hirviendo.',
           fr: 'Placer les sachets dans le panier vapeur au-dessus de l\'eau bouillante.',
           de: 'Legen Sie die Päckchen in den Dampfkorb über kochendem Wasser.',
@@ -1133,7 +1273,7 @@ export const antiguaAndBarbuda: Country = {
         },
         {
           en: 'Steam for 60 minutes until firm.',
-          sv: 'Ånga i 60 minuter tills det är fast.',
+          sv: 'Ångkoka i 60 minuter tills de är fasta.',
           es: 'Cocine al vapor durante 60 minutos hasta que esté firme.',
           fr: 'Cuire à la vapeur pendant 60 minutes jusqu\'à ce qu\'il soit ferme.',
           de: '60 Minuten dämpfen, bis es fest ist.',
@@ -1144,7 +1284,7 @@ export const antiguaAndBarbuda: Country = {
         },
         {
           en: 'Cool slightly before unwrapping.',
-          sv: 'Kyl något innan du packar upp.',
+          sv: 'Låt svalna något innan du packar upp dem.',
           es: 'Déjelo enfriar un poco antes de desenvolverlo.',
           fr: 'Refroidissez légèrement avant de déballer.',
           de: 'Vor dem Auspacken etwas abkühlen lassen.',
@@ -1483,7 +1623,7 @@ export const antiguaAndBarbuda: Country = {
           },
           {
             en: 'Antiguan Peso',
-            sv: 'Antiguan Peso',
+            sv: 'Antiguansk peso',
             es: 'Peso de Antigua',
             fr: 'Peso antiguais',
             de: 'Antiguanischer Peso',

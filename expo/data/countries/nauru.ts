@@ -220,7 +220,17 @@ export const nauru: Country = {
     history: [
       {
         year: '1798',
-        title: 'European Discovery',
+        title: {
+          en: 'European Discovery',
+          sv: 'Europeisk upptäckt',
+          es: 'Descubrimiento por los europeos',
+          fr: 'Découverte par les Européens',
+          de: 'Entdeckung durch Europäer',
+          it: 'Scoperta da parte degli europei',
+          pl: 'Odkrycie przez Europejczyków',
+          nl: 'Ontdekking door Europeanen',
+          pt: 'Descoberta pelos europeus',
+        },
         description: {
           en: 'British Captain John Fearn was the first European to visit Nauru.',
           sv: 'Brittiska kaptenen John Fearn var den förste europé som besökte Nauru.',
@@ -235,7 +245,17 @@ export const nauru: Country = {
       },
       {
         year: '1968',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Nauru gained independence, becoming the world\'s smallest republic.',
           sv: 'Nauru blev självständigt och blev världens minsta republik.',
@@ -249,8 +269,28 @@ export const nauru: Country = {
         },
       },
       {
-        year: '1970s-1980s',
-        title: 'Phosphate Wealth',
+        year: {
+          en: '1970s-1980s',
+          sv: '1970–1980-talen',
+          es: 'Décadas de 1970–1980',
+          fr: 'Années 1970–1980',
+          de: '1970er–1980er',
+          it: 'Anni \'70–\'80',
+          pl: 'Lata 70.–80.',
+          nl: 'Jaren 70–80',
+          pt: 'Décadas de 1970–1980',
+        },
+        title: {
+          en: 'Phosphate Wealth',
+          sv: 'Fosfatrikedom',
+          es: 'Riqueza del fosfato',
+          fr: 'La manne du phosphate',
+          de: 'Phosphatreichtum',
+          it: 'Ricchezza dei fosfati',
+          pl: 'Bogactwo z fosforytów',
+          nl: 'Fosfaatrijkdom',
+          pt: 'Riqueza do fosfato',
+        },
         description: {
           en: 'Nauru had one of the highest per capita incomes from phosphate mining.',
           sv: 'Nauru hade en av de högsta inkomsterna per capita från fosfatbrytning.',
@@ -302,7 +342,17 @@ export const nauru: Country = {
           nl: 'Eilandherstel',
           pt: 'Reabilitação da ilha',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Efforts to restore mined land and environment.',
           sv: 'Ansträngningar för att återställa minerad mark och miljö.',
@@ -320,7 +370,7 @@ export const nauru: Country = {
       {
         name: {
           en: 'Anibare Bay',
-          sv: 'Anibare Bay',
+          sv: 'Anibarebukten',
           es: 'Bahía Anibaré',
           fr: 'Baie d\'Anibare',
           de: 'Anibare-Bucht',
@@ -344,7 +394,7 @@ export const nauru: Country = {
       {
         name: {
           en: 'Buada Lagoon',
-          sv: 'Buada Lagoon',
+          sv: 'Buadalagunen',
           es: 'Laguna de Buada',
           fr: 'Lagune de Buada',
           de: 'Buada-Lagune',
@@ -416,7 +466,17 @@ export const nauru: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Year-round tropical climate; November-February slightly wetter.',
           sv: 'Tropiskt klimat året runt; November-februari något blötare.',
@@ -430,7 +490,17 @@ export const nauru: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival for most nationalities.',
           sv: 'Visum vid ankomst för de flesta nationaliteter.',
@@ -444,7 +514,17 @@ export const nauru: Country = {
         },
       },
       {
-        item: 'Limited facilities',
+        item: {
+          en: 'Limited facilities',
+          sv: 'Begränsad service',
+          es: 'Servicios limitados',
+          fr: 'Services limités',
+          de: 'Eingeschränktes Angebot',
+          it: 'Servizi limitati',
+          pl: 'Ograniczone udogodnienia',
+          nl: 'Beperkte voorzieningen',
+          pt: 'Estrutura limitada',
+        },
         description: {
           en: 'Very limited tourism infrastructure; plan accordingly.',
           sv: 'Mycket begränsad turisminfrastruktur; planera därefter.',
@@ -458,7 +538,17 @@ export const nauru: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Australian dollars used; one bank with limited hours.',
           sv: 'australiska dollar används; en bank med begränsade öppettider.',
@@ -487,7 +577,7 @@ export const nauru: Country = {
       },
       description: {
         en: 'Sweet coconut custard pie',
-        sv: 'Söt kokos vaniljsåspaj',
+        sv: 'Söt kokospaj med krämig äggfyllning',
         es: 'Tarta dulce de natillas de coco',
         fr: 'Tarte à la crème sucrée à la noix de coco',
         de: 'Süße Kokosnuss-Pudding-Torte',
@@ -526,7 +616,7 @@ export const nauru: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -539,7 +629,7 @@ export const nauru: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -596,7 +686,7 @@ export const nauru: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -625,7 +715,7 @@ export const nauru: Country = {
       steps: [
         {
           en: 'Press pie crust into pan',
-          sv: 'Tryck ut pajskalet i pannan',
+          sv: 'Tryck ut pajdegen i en pajform',
           es: 'Presione la masa de pastel en el molde',
           fr: 'Presser la croûte à tarte dans le moule',
           de: 'Den Tortenboden in die Form drücken',
@@ -658,7 +748,7 @@ export const nauru: Country = {
         },
         {
           en: 'Pour into crust',
-          sv: 'Häll i skorpan',
+          sv: 'Häll fyllningen i pajskalet',
           es: 'Vierta en la base',
           fr: 'Verser dans la croûte',
           de: 'In die Kruste gießen',
@@ -669,7 +759,7 @@ export const nauru: Country = {
         },
         {
           en: 'Bake at 350°F for 45 minutes',
-          sv: 'Grädda i 350°F i 45 minuter',
+          sv: 'Grädda i 175 °C i 45 minuter',
           es: 'Hornee a 350°F durante 45 minutos',
           fr: 'Cuire au four à 350°F pendant 45 minutes',
           de: '45 Minuten bei 350 °F backen',
@@ -680,7 +770,7 @@ export const nauru: Country = {
         },
         {
           en: 'Cool completely before slicing',
-          sv: 'Kyl helt innan du skär',
+          sv: 'Låt svalna helt innan du skär upp pajen',
           es: 'Deje enfriar completamente antes de cortar',
           fr: 'Laisser refroidir complètement avant de trancher',
           de: 'Vor dem Schneiden vollständig abkühlen',
@@ -695,7 +785,7 @@ export const nauru: Country = {
     mainDish: {
       id: 'nauru-main',
       name: {
-        en: 'Coconut Fish',
+        en: 'Ika Mata',
         sv: 'Ika Mata',
         es: 'Ika Mata',
         fr: 'Ika Mata',
@@ -706,15 +796,15 @@ export const nauru: Country = {
         pt: 'Ika Mata',
       },
       description: {
-        en: 'Fresh fish cooked in rich coconut cream with a squeeze of lime, a staple Nauruan dish.',
-        sv: 'Rå fisk marinerad i kokosgrädde',
-        es: 'Pescado crudo marinado en crema de coco',
-        fr: 'Poisson cru mariné à la crème de coco',
-        de: 'Roher Fisch mariniert in Kokoscreme',
-        it: 'Raw fish marinated in coconut cream',
-        pl: 'Raw fish marinated in coconut cream',
-        nl: 'Raw fish marinated in coconut cream',
-        pt: 'Raw fish marinated in coconut cream',
+        en: 'Raw tuna marinated in lime juice and mixed with coconut cream, tomato and onion',
+        sv: 'Rå tonfisk marinerad i limejuice och blandad med kokosgrädde, tomat och lök',
+        es: 'Atún crudo marinado en jugo de lima y mezclado con crema de coco, tomate y cebolla',
+        fr: 'Thon cru mariné au jus de citron vert, mélangé à de la crème de coco, de la tomate et de l\'oignon',
+        de: 'Roher Thunfisch, in Limettensaft mariniert und mit Kokoscreme, Tomaten und Zwiebeln vermischt',
+        it: 'Tonno crudo marinato nel succo di lime e condito con crema di cocco, pomodoro e cipolla',
+        pl: 'Surowy tuńczyk marynowany w soku z limonki, wymieszany ze śmietanką kokosową, pomidorem i cebulą',
+        nl: 'Rauwe tonijn gemarineerd in limoensap en gemengd met kokosroom, tomaat en ui',
+        pt: 'Atum cru marinado no suco de limão e misturado com creme de coco, tomate e cebola',
       },
       cookingTime: 30,
       difficulty: 'easy',
@@ -754,7 +844,7 @@ export const nauru: Country = {
             fr: 'Crème de coco',
             de: 'Kokoscreme',
             it: 'Crema di cocco',
-            pl: 'Krem kokosowy',
+            pl: 'Śmietanka kokosowa',
             nl: 'Kokosroom',
             pt: 'Creme de coco',
           },
@@ -766,17 +856,17 @@ export const nauru: Country = {
             en: 'Limes',
             sv: 'Lime',
             es: 'Limas',
-            fr: 'Chaux',
+            fr: 'Citrons verts',
             de: 'Limetten',
             it: 'Lime',
             pl: 'Limonki',
             nl: 'Limoenen',
-            pt: 'Limas',
+            pt: 'Limões',
           },
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -790,7 +880,7 @@ export const nauru: Country = {
           name: {
             en: 'Tomatoes',
             sv: 'Tomater',
-            es: 'tomates',
+            es: 'Tomates',
             fr: 'Tomates',
             de: 'Tomaten',
             it: 'Pomodori',
@@ -801,7 +891,7 @@ export const nauru: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -826,7 +916,7 @@ export const nauru: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -840,7 +930,7 @@ export const nauru: Country = {
       steps: [
         {
           en: 'Dice fish into cubes',
-          sv: 'Tärna fisken i kuber',
+          sv: 'Skär fisken i tärningar',
           es: 'Cortar el pescado en cubos',
           fr: 'Couper le poisson en cubes',
           de: 'Fisch in Würfel schneiden',
@@ -862,7 +952,7 @@ export const nauru: Country = {
         },
         {
           en: 'Drain excess lime juice',
-          sv: 'Häll av överflödig limejuice',
+          sv: 'Häll av den överblivna limejuicen',
           es: 'Escurrir el exceso de jugo de lima',
           fr: 'Égoutter l\'excès de jus de citron vert',
           de: 'Überschüssigen Limettensaft abgießen',
@@ -878,8 +968,8 @@ export const nauru: Country = {
           fr: 'Ajouter la crème de coco',
           de: 'Kokoscreme hinzufügen',
           it: 'Aggiungere la crema di cocco',
-          pl: 'Dodać krem kokosowy',
-          nl: 'Voeg kokoscrème toe',
+          pl: 'Dodać śmietankę kokosową',
+          nl: 'Voeg de kokosroom toe',
           pt: 'Adicione o creme de coco',
         },
         {
@@ -895,7 +985,7 @@ export const nauru: Country = {
         },
         {
           en: 'Serve chilled',
-          sv: 'Servera kyld',
+          sv: 'Servera väl kyld',
           es: 'Servir frío',
           fr: 'Servir frais',
           de: 'Gekühlt servieren',

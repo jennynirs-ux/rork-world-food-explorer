@@ -220,7 +220,17 @@ export const fiji: Country = {
     history: [
       {
         year: '1643',
-        title: 'European Discovery',
+        title: {
+          en: 'European Discovery',
+          sv: 'Europeisk upptäckt',
+          es: 'Descubrimiento por los europeos',
+          fr: 'Découverte par les Européens',
+          de: 'Entdeckung durch Europäer',
+          it: 'Scoperta da parte degli europei',
+          pl: 'Odkrycie przez Europejczyków',
+          nl: 'Ontdekking door Europeanen',
+          pt: 'Descoberta pelos europeus',
+        },
         description: {
           en: 'Dutch explorer Abel Tasman was the first European to sight the Fijian islands.',
           sv: 'Den holländska upptäcktsresanden Abel Tasman var den första européen som såg de fijianska öarna.',
@@ -235,7 +245,17 @@ export const fiji: Country = {
       },
       {
         year: '1874',
-        title: 'British Colony',
+        title: {
+          en: 'British Colony',
+          sv: 'Brittisk koloni',
+          es: 'Colonia británica',
+          fr: 'Colonie britannique',
+          de: 'Britische Kolonie',
+          it: 'Colonia britannica',
+          pl: 'Kolonia brytyjska',
+          nl: 'Britse kolonie',
+          pt: 'Colônia britânica',
+        },
         description: {
           en: 'Fiji became a British Crown Colony after chiefs ceded sovereignty to Queen Victoria.',
           sv: 'Fiji blev en brittisk kronkoloni efter att hövdingar avstått suveränitet till drottning Victoria.',
@@ -250,7 +270,17 @@ export const fiji: Country = {
       },
       {
         year: '1970',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Fiji gained independence from Britain, becoming a sovereign nation.',
           sv: 'Fiji blev självständigt från Storbritannien och blev en suverän nation.',
@@ -388,7 +418,17 @@ export const fiji: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May-October for dry season with less humidity.',
           sv: 'Maj-oktober för torrperiod med mindre luftfuktighet.',
@@ -402,7 +442,17 @@ export const fiji: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Many nationalities can enter visa-free for up to 4 months.',
           sv: 'Många nationaliteter kan resa in visumfritt i upp till 4 månader.',
@@ -416,7 +466,17 @@ export const fiji: Country = {
         },
       },
       {
-        item: 'Reef-safe sunscreen',
+        item: {
+          en: 'Reef-safe sunscreen',
+          sv: 'Revvänlig solkräm',
+          es: 'Protector solar respetuoso con los corales',
+          fr: 'Crème solaire respectueuse des récifs',
+          de: 'Korallenfreundliche Sonnencreme',
+          it: 'Crema solare amica dei coralli',
+          pl: 'Krem z filtrem bezpieczny dla raf',
+          nl: 'Rifvriendelijke zonnebrandcrème',
+          pt: 'Protetor solar seguro para corais',
+        },
         description: {
           en: 'Protect coral reefs with eco-friendly sunscreen.',
           sv: 'Skydda korallreven med miljövänligt solskydd.',
@@ -430,7 +490,17 @@ export const fiji: Country = {
         },
       },
       {
-        item: 'Respect for customs',
+        item: {
+          en: 'Respect for customs',
+          sv: 'Respekt för seder',
+          es: 'Respeto por las costumbres',
+          fr: 'Respect des coutumes',
+          de: 'Bräuche respektieren',
+          it: 'Rispetto delle usanze',
+          pl: 'Szacunek dla zwyczajów',
+          nl: 'Respect voor gebruiken',
+          pt: 'Respeito aos costumes',
+        },
         description: {
           en: 'Remove shoes before entering homes, cover shoulders in villages.',
           sv: 'Ta av skorna innan du går in i hemmen, täck axlarna i byar.',
@@ -528,7 +598,7 @@ export const fiji: Country = {
           amount: 6,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -553,7 +623,7 @@ export const fiji: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -578,7 +648,7 @@ export const fiji: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -603,7 +673,7 @@ export const fiji: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -617,7 +687,7 @@ export const fiji: Country = {
       steps: [
         {
           en: 'Dice fish into small cubes',
-          sv: 'Tärna fisken i små kuber',
+          sv: 'Skär fisken i små tärningar',
           es: 'Cortar el pescado en cubos pequeños',
           fr: 'Coupez le poisson en petits cubes',
           de: 'Fisch in kleine Würfel schneiden',
@@ -639,7 +709,7 @@ export const fiji: Country = {
         },
         {
           en: 'Drain lime juice',
-          sv: 'Häll av limejuice',
+          sv: 'Häll av limejuicen',
           es: 'Escurrir el jugo de lima',
           fr: 'Égoutter le jus de citron vert',
           de: 'Limettensaft abgießen',
@@ -672,7 +742,7 @@ export const fiji: Country = {
         },
         {
           en: 'Serve chilled',
-          sv: 'Servera kyld',
+          sv: 'Servera väl kyld',
           es: 'Servir frío',
           fr: 'Servir frais',
           de: 'Gekühlt servieren',
@@ -726,7 +796,7 @@ export const fiji: Country = {
         {
           name: {
             en: 'Cassava root grated',
-            sv: 'Cassaverot riven',
+            sv: 'Kassavarot, riven',
             es: 'Raíz de yuca rallada',
             fr: 'Racine de manioc râpée',
             de: 'Maniokwurzel gerieben',
@@ -857,7 +927,7 @@ export const fiji: Country = {
         },
         {
           en: 'Bake for 45 minutes until golden',
-          sv: 'Grädda i 45 minuter tills de är gyllene',
+          sv: 'Grädda i 45 minuter tills kakan är gyllenbrun',
           es: 'Hornea por 45 minutos hasta que esté dorado',
           fr: 'Cuire au four pendant 45 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '45 Minuten goldbraun backen',
@@ -868,7 +938,7 @@ export const fiji: Country = {
         },
         {
           en: 'Cool and cut into squares',
-          sv: 'Kyl och skär i rutor',
+          sv: 'Låt svalna och skär i rutor',
           es: 'Dejar enfriar y cortar en cuadritos',
           fr: 'Laisser refroidir et couper en carrés',
           de: 'Abkühlen lassen und in Quadrate schneiden',
@@ -944,7 +1014,17 @@ export const fiji: Country = {
           nl: 'Traditie van het vuurlopen',
           pt: 'Tradição de Caminhar sobre o Fogo',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'The practice of walking barefoot over hot stones originated in Fiji',
           sv: 'Bruket att gå barfota över heta stenar har sitt ursprung i Fiji',
@@ -969,7 +1049,17 @@ export const fiji: Country = {
           nl: 'Behoud van koraalriffen',
           pt: 'Conservação dos Recifes de Coral',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Pioneering marine protected areas to preserve soft coral reefs',
           sv: 'Banbrytande marina skyddade områden för att bevara mjuka korallrev',
@@ -994,7 +1084,17 @@ export const fiji: Country = {
           nl: 'Duurzaam toerismemodel',
           pt: 'Modelo de turismo sustentável',
         },
-        year: '2010s',
+        year: {
+          en: '2010s',
+          sv: '2010-talet',
+          es: 'Década de 2010',
+          fr: 'Années 2010',
+          de: '2010er',
+          it: 'Anni 2010',
+          pl: 'Lata 2010.',
+          nl: 'Jaren 2010',
+          pt: 'Década de 2010',
+        },
         description: {
           en: 'Developing eco-friendly tourism protecting island ecosystems',
           sv: 'Utveckling av miljövänlig turism som skyddar öarnas ekosystem',
@@ -1189,7 +1289,7 @@ export const fiji: Country = {
           },
           {
             en: 'Fijian ceviche',
-            sv: 'Fijian ceviche',
+            sv: 'Fijiansk ceviche',
             es: 'Ceviche de Fiji',
             fr: 'Ceviche fidjien',
             de: 'Fidschianisches Ceviche',
@@ -1455,7 +1555,7 @@ export const fiji: Country = {
           },
           {
             en: 'Poi spinning',
-            sv: 'Poi spinning',
+            sv: 'Poisnurrning',
             es: 'Poi girando',
             fr: 'Poi filant',
             de: 'Poi dreht sich',

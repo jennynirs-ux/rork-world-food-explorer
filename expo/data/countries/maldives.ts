@@ -220,7 +220,17 @@ export const maldives: Country = {
     history: [
       {
         year: '1153',
-        title: 'Conversion to Islam',
+        title: {
+          en: 'Conversion to Islam',
+          sv: 'Övergång till islam',
+          es: 'Conversión al islam',
+          fr: 'Conversion à l\'islam',
+          de: 'Übertritt zum Islam',
+          it: 'Conversione all\'islam',
+          pl: 'Przyjęcie islamu',
+          nl: 'Bekering tot de islam',
+          pt: 'Conversão ao islã',
+        },
         description: {
           en: 'The Maldives converted to Islam, which remains central to culture today.',
           sv: 'Maldiverna konverterade till islam, vilket fortfarande är centralt för kulturen idag.',
@@ -235,7 +245,17 @@ export const maldives: Country = {
       },
       {
         year: '1965',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Maldives gained independence from British protection.',
           sv: 'Maldiverna fick självständighet från brittiskt skydd.',
@@ -287,7 +307,17 @@ export const maldives: Country = {
           nl: 'Luxeresortmodel',
           pt: 'Modelo de resort de luxo',
         },
-        year: '1970s',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
         description: {
           en: 'Pioneered the one-island-one-resort concept in tourism.',
           sv: 'Banade upp konceptet en-ö-en-resort inom turism.',
@@ -312,7 +342,17 @@ export const maldives: Country = {
           nl: 'Bescherming van koraalriffen',
           pt: 'Proteção dos recifes de coral',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Leading efforts in coral reef conservation and restoration.',
           sv: 'Ledande insatser för bevarande och restaurering av korallrev.',
@@ -450,7 +490,17 @@ export const maldives: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-April for dry season; May-October is monsoon season.',
           sv: 'November-april för torrperioden; Maj-oktober är monsunsäsong.',
@@ -464,7 +514,17 @@ export const maldives: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Free 30-day visa on arrival for all nationalities.',
           sv: 'Gratis 30 dagars visum vid ankomst för alla nationaliteter.',
@@ -478,7 +538,17 @@ export const maldives: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Required on local islands; resorts are more relaxed.',
           sv: 'Krävs på lokala öar; orterna är mer avslappnade.',
@@ -492,7 +562,17 @@ export const maldives: Country = {
         },
       },
       {
-        item: 'Reef-safe sunscreen',
+        item: {
+          en: 'Reef-safe sunscreen',
+          sv: 'Revvänlig solkräm',
+          es: 'Protector solar respetuoso con los corales',
+          fr: 'Crème solaire respectueuse des récifs',
+          de: 'Korallenfreundliche Sonnencreme',
+          it: 'Crema solare amica dei coralli',
+          pl: 'Krem z filtrem bezpieczny dla raf',
+          nl: 'Rifvriendelijke zonnebrandcrème',
+          pt: 'Protetor solar seguro para corais',
+        },
         description: {
           en: 'Protect coral reefs with eco-friendly sunscreen.',
           sv: 'Skydda korallreven med miljövänligt solskydd.',
@@ -521,7 +601,7 @@ export const maldives: Country = {
       },
       description: {
         en: 'Sweet coconut and rice flour cake',
-        sv: 'Söt kokos- och rismjölskaka',
+        sv: 'Söt kaka på kokos och rismjöl',
         es: 'Pastel dulce de harina de arroz y coco',
         fr: 'Gâteau sucré à la noix de coco et à la farine de riz',
         de: 'Süßer Kokos-Reismehl-Kuchen',
@@ -593,7 +673,7 @@ export const maldives: Country = {
         {
           name: {
             en: 'Grated coconut',
-            sv: 'Riven kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosraspeln',
@@ -608,7 +688,7 @@ export const maldives: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -682,7 +762,7 @@ export const maldives: Country = {
         },
         {
           en: 'Pour into greased pan',
-          sv: 'Häll i smord form',
+          sv: 'Häll smeten i en smord form',
           es: 'Vierta en un molde engrasado',
           fr: 'Verser dans un moule graissé',
           de: 'In eine gefettete Pfanne gießen',
@@ -693,7 +773,7 @@ export const maldives: Country = {
         },
         {
           en: 'Bake at 350°F for 35 minutes',
-          sv: 'Grädda i 350°F i 35 minuter',
+          sv: 'Grädda i 175°C i 35 minuter',
           es: 'Hornee a 350°F durante 35 minutos',
           fr: 'Cuire au four à 350°F pendant 35 minutes',
           de: '35 Minuten bei 350 °F backen',
@@ -704,7 +784,7 @@ export const maldives: Country = {
         },
         {
           en: 'Cool and cut into squares',
-          sv: 'Kyl och skär i rutor',
+          sv: 'Låt svalna och skär i rutor',
           es: 'Dejar enfriar y cortar en cuadritos',
           fr: 'Laisser refroidir et couper en carrés',
           de: 'Abkühlen lassen und in Quadrate schneiden',
@@ -796,7 +876,7 @@ export const maldives: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -846,7 +926,7 @@ export const maldives: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -871,7 +951,7 @@ export const maldives: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -911,7 +991,7 @@ export const maldives: Country = {
         },
         {
           en: 'Remove fish, keep broth',
-          sv: 'Ta bort fisken, behåll buljong',
+          sv: 'Lyft upp fisken och spara buljongen',
           es: 'Retire el pescado, guarde el caldo',
           fr: 'Retirer le poisson, garder le bouillon',
           de: 'Fisch herausnehmen, Brühe aufbewahren',
@@ -922,7 +1002,7 @@ export const maldives: Country = {
         },
         {
           en: 'Flake fish and set aside',
-          sv: 'Flinga fisk och ställ åt sidan',
+          sv: 'Plocka isär fisken med en gaffel och ställ den åt sidan',
           es: 'Desmenuzar el pescado y reservar',
           fr: 'Écailler le poisson et réserver',
           de: 'Den Fisch zerkleinern und beiseite stellen',
@@ -933,7 +1013,7 @@ export const maldives: Country = {
         },
         {
           en: 'Season broth with lime and chili',
-          sv: 'Smaksätt buljong med lime och chili',
+          sv: 'Smaksätt buljongen med lime och chili',
           es: 'Sazone el caldo con lima y chile',
           fr: 'Assaisonner le bouillon avec du citron vert et du piment',
           de: 'Brühe mit Limette und Chili würzen',
@@ -944,7 +1024,7 @@ export const maldives: Country = {
         },
         {
           en: 'Serve broth over rice',
-          sv: 'Servera buljong över ris',
+          sv: 'Servera buljongen över riset',
           es: 'Sirve el caldo sobre arroz',
           fr: 'Servir le bouillon sur du riz',
           de: 'Brühe über Reis servieren',
@@ -955,7 +1035,7 @@ export const maldives: Country = {
         },
         {
           en: 'Top with flaked fish and onions',
-          sv: 'Toppa med flingad fisk och lök',
+          sv: 'Toppa med den isärplockade fisken och löken',
           es: 'Cubra con pescado desmenuzado y cebolla',
           fr: 'Garnir de poisson émietté et d\'oignons',
           de: 'Mit Fischflocken und Zwiebeln belegen',

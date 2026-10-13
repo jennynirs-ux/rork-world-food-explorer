@@ -263,8 +263,28 @@ export const algeria: Country = {
     },
     history: [
       {
-        year: '3000 BC',
-        title: 'Amazigh (Berber) Roots',
+        year: {
+          en: '3000 BC',
+          sv: '3000 f.Kr.',
+          es: '3000 a. C.',
+          fr: '3000 av. J.-C.',
+          de: '3000 v. Chr.',
+          it: '3000 a.C.',
+          pl: '3000 p.n.e.',
+          nl: '3000 v.Chr.',
+          pt: '3000 a.C.',
+        },
+        title: {
+          en: 'Amazigh (Berber) Roots',
+          sv: 'Amazighiska (berbiska) rötter',
+          es: 'Raíces amazigh (bereberes)',
+          fr: 'Racines amazighes (berbères)',
+          de: 'Amazighische (berberische) Wurzeln',
+          it: 'Radici amazigh (berbere)',
+          pl: 'Korzenie amazigskie (berberyjskie)',
+          nl: 'Amazigh (Berberse) wortels',
+          pt: 'Raízes amazigh (berberes)',
+        },
         description: {
           en: 'Indigenous Amazigh communities established settlements and trade networks across North Africa, laying deep cultural foundations still visible today.',
           sv: 'Inhemska Amazigh-samhällen etablerade bosättningar och handelsnätverk över hela Nordafrika, och lade djupa kulturella grunder som fortfarande är synliga idag.',
@@ -278,8 +298,28 @@ export const algeria: Country = {
         },
       },
       {
-        year: '12th–1st Century BC',
-        title: 'Numidia & Mediterranean Powers',
+        year: {
+          en: '12th–1st Century BC',
+          sv: '1200–1 f.Kr.',
+          es: 'Siglos XII–I a. C.',
+          fr: 'XIIe–Ier siècle av. J.-C.',
+          de: '12.–1. Jahrhundert v. Chr.',
+          it: 'XII–I secolo a.C.',
+          pl: 'XII–I wiek p.n.e.',
+          nl: '12e–1e eeuw v.Chr.',
+          pt: 'Séculos XII–I a.C.',
+        },
+        title: {
+          en: 'Numidia & Mediterranean Powers',
+          sv: 'Numidien och Medelhavsmakterna',
+          es: 'Numidia y las potencias mediterráneas',
+          fr: 'La Numidie et les puissances méditerranéennes',
+          de: 'Numidien und die Mittelmeermächte',
+          it: 'La Numidia e le potenze mediterranee',
+          pl: 'Numidia i potęgi śródziemnomorskie',
+          nl: 'Numidië en de mediterrane machten',
+          pt: 'Numídia e as potências mediterrâneas',
+        },
         description: {
           en: 'Ancient kingdoms such as Numidia rose in the region and interacted with Carthage and Rome, shaping early statecraft and trade.',
           sv: 'Forntida kungadömen som Numidia reste sig i regionen och interagerade med Kartago och Rom och formade tidig statshantverk och handel.',
@@ -293,8 +333,28 @@ export const algeria: Country = {
         },
       },
       {
-        year: '1st–5th Century',
-        title: 'Roman North Africa',
+        year: {
+          en: '1st–5th Century',
+          sv: '1:a–5:e århundradet',
+          es: 'Siglos I–V',
+          fr: 'Ier–Ve siècles',
+          de: '1.–5. Jahrhundert',
+          it: 'I–V secolo',
+          pl: 'I–V wiek',
+          nl: '1e–5e eeuw',
+          pt: 'Séculos I–V',
+        },
+        title: {
+          en: 'Roman North Africa',
+          sv: 'Romerska Nordafrika',
+          es: 'Norte de África romano',
+          fr: 'Afrique du Nord romaine',
+          de: 'Römisches Nordafrika',
+          it: 'Nordafrica romano',
+          pl: 'Rzymska Afryka Północna',
+          nl: 'Romeins Noord-Afrika',
+          pt: 'Norte da África romano',
+        },
         description: {
           en: 'Parts of present-day Algeria became important Roman provinces; impressive ruins like Timgad and Djemila reflect this era.',
           sv: 'Delar av dagens Algeriet blev viktiga romerska provinser; imponerande ruiner som Timgad och Djemila speglar denna era.',
@@ -308,8 +368,28 @@ export const algeria: Country = {
         },
       },
       {
-        year: '800s',
-        title: 'Arab Conquest & Islamization',
+        year: {
+          en: '800s',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
+        title: {
+          en: 'Arab Conquest & Islamization',
+          sv: 'Arabiska erövringen och islamiseringen',
+          es: 'Conquista árabe e islamización',
+          fr: 'Conquête arabe et islamisation',
+          de: 'Arabische Eroberung und Islamisierung',
+          it: 'Conquista araba e islamizzazione',
+          pl: 'Podbój arabski i islamizacja',
+          nl: 'Arabische verovering en islamisering',
+          pt: 'Conquista árabe e islamização',
+        },
         description: {
           en: 'Arab dynasties brought Islam and Arabic, blending with Amazigh cultures to create a rich, layered identity.',
           sv: 'Arabiska dynastier förde islam och arabiska, blandade med amazigh-kulturer för att skapa en rik, skiktad identitet.',
@@ -323,8 +403,28 @@ export const algeria: Country = {
         },
       },
       {
-        year: '1500s–1800s',
-        title: 'Ottoman Regency',
+        year: {
+          en: '1500s–1800s',
+          sv: '1500–1800-talen',
+          es: 'Siglos XVI–XIX',
+          fr: 'XVIe–XIXe siècles',
+          de: '16.–19. Jahrhundert',
+          it: 'XVI–XIX secolo',
+          pl: 'XVI–XIX wiek',
+          nl: '16e–19e eeuw',
+          pt: 'Séculos XVI–XIX',
+        },
+        title: {
+          en: 'Ottoman Regency',
+          sv: 'Osmanskt regentskap',
+          es: 'Regencia otomana',
+          fr: 'Régence ottomane',
+          de: 'Osmanische Regentschaft',
+          it: 'Reggenza ottomana',
+          pl: 'Regencja osmańska',
+          nl: 'Ottomaans regentschap',
+          pt: 'Regência otomana',
+        },
         description: {
           en: 'Coastal Algeria was linked to the Ottoman Empire, with Algiers emerging as a major Mediterranean port city.',
           sv: 'Kustnära Algeriet var kopplat till det osmanska riket, med Alger som utvecklades som en stor hamnstad i Medelhavet.',
@@ -339,7 +439,17 @@ export const algeria: Country = {
       },
       {
         year: '1830-1962',
-        title: 'French Colonization',
+        title: {
+          en: 'French Colonization',
+          sv: 'Fransk kolonisering',
+          es: 'Colonización francesa',
+          fr: 'Colonisation française',
+          de: 'Französische Kolonisierung',
+          it: 'Colonizzazione francese',
+          pl: 'Kolonizacja francuska',
+          nl: 'Franse kolonisatie',
+          pt: 'Colonização francesa',
+        },
         description: {
           en: 'France colonized Algeria, leading to major demographic, economic, and political change, and later a fierce struggle for independence.',
           sv: 'Frankrike koloniserade Algeriet, vilket ledde till stora demografiska, ekonomiska och politiska förändringar och senare en hård kamp för självständighet.',
@@ -354,7 +464,17 @@ export const algeria: Country = {
       },
       {
         year: '1954-1962',
-        title: 'War of Independence',
+        title: {
+          en: 'War of Independence',
+          sv: 'Självständighetskriget',
+          es: 'Guerra de Independencia',
+          fr: 'Guerre d\'indépendance',
+          de: 'Unabhängigkeitskrieg',
+          it: 'Guerra d\'indipendenza',
+          pl: 'Wojna o niepodległość',
+          nl: 'Onafhankelijkheidsoorlog',
+          pt: 'Guerra de Independência',
+        },
         description: {
           en: 'A long and violent conflict ended in independence in 1962, fundamentally shaping modern Algerian society and politics.',
           sv: 'En lång och våldsam konflikt slutade i självständighet 1962, som i grunden formade det moderna algeriska samhället och politiken.',
@@ -368,8 +488,28 @@ export const algeria: Country = {
         },
       },
       {
-        year: '1962-Present',
-        title: 'Independent Algeria',
+        year: {
+          en: '1962-Present',
+          sv: '1962–idag',
+          es: '1962–actualidad',
+          fr: '1962–aujourd\'hui',
+          de: '1962–heute',
+          it: '1962–oggi',
+          pl: '1962–obecnie',
+          nl: '1962–heden',
+          pt: '1962–presente',
+        },
+        title: {
+          en: 'Independent Algeria',
+          sv: 'Det självständiga Algeriet',
+          es: 'Argelia independiente',
+          fr: 'Algérie indépendante',
+          de: 'Unabhängiges Algerien',
+          it: 'Algeria indipendente',
+          pl: 'Niepodległa Algieria',
+          nl: 'Onafhankelijk Algerije',
+          pt: 'Argélia independente',
+        },
         description: {
           en: 'After independence, Algeria developed large energy resources, expanded education and infrastructure, and built modern state institutions alongside ongoing political and economic reforms.',
           sv: 'Efter självständigheten utvecklade Algeriet stora energiresurser, utökade utbildning och infrastruktur och byggde moderna statliga institutioner vid sidan av pågående politiska och ekonomiska reformer.',
@@ -396,7 +536,17 @@ export const algeria: Country = {
           nl: 'Couscoustraditie',
           pt: 'Tradição do cuscuz',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Algeria helped develop and preserve couscous culture—steaming grains and serving them with aromatic broths and vegetables is a cornerstone of Algerian cooking.',
           sv: 'Algeriet hjälpte till att utveckla och bevara couscouskulturen – att ånga spannmål och servera dem med aromatiska buljonger och grönsaker är en hörnsten i algerisk matlagning.',
@@ -421,7 +571,17 @@ export const algeria: Country = {
           nl: 'Amazigh(Berber)-kalender',
           pt: 'Calendário amazigh (berbere)',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'The Amazigh calendar, still used today by some communities, reflects deep agricultural and cultural traditions dating back millennia.',
           sv: 'Amazigh-kalendern, som fortfarande används idag av vissa samhällen, återspeglar djupa jordbruks- och kulturtraditioner som går tillbaka årtusenden.',
@@ -446,7 +606,17 @@ export const algeria: Country = {
           nl: 'Woestijnnavigatie en karavaanroutes',
           pt: 'Navegação no deserto e rotas de caravanas',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Tuareg and Amazigh peoples refined navigation and survival knowledge for Sahara travel, supporting long-distance trade routes.',
           sv: 'Tuareg- och amazigh-folken förfinade navigerings- och överlevnadskunskapen för resor i Sahara och stödde handelsvägar på långa avstånd.',
@@ -471,7 +641,17 @@ export const algeria: Country = {
           nl: 'Raï-muziek',
           pt: 'Música Raï',
         },
-        year: '1920s',
+        year: {
+          en: '1920s',
+          sv: '1920-talet',
+          es: 'década de 1920',
+          fr: 'années 1920',
+          de: '1920er',
+          it: 'anni \'20',
+          pl: 'lata 20.',
+          nl: 'jaren 20',
+          pt: 'década de 1920',
+        },
         description: {
           en: 'Raï emerged in western Algeria and later became internationally popular, blending folk roots with modern sounds and powerful storytelling.',
           sv: 'Raï dök upp i västra Algeriet och blev senare internationellt populär och blandade folkrötter med moderna ljud och kraftfullt berättande.',
@@ -609,7 +789,17 @@ export const algeria: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October–April for cooler weather; avoid deep summer when temperatures can exceed 45°C in the interior.',
           sv: 'Oktober–april för svalare väder; undvik djup sommar när temperaturen kan överstiga 45°C i inlandet.',
@@ -623,7 +813,17 @@ export const algeria: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Dress conservatively, especially outside major tourist areas and in rural towns.',
           sv: 'Klä dig konservativt, särskilt utanför stora turistområden och på landsbygden.',
@@ -637,7 +837,17 @@ export const algeria: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Arabic and Tamazight are official; French is widely used in daily life and can be helpful for travelers.',
           sv: 'Arabiska och Tamazight är officiella; Franska används ofta i det dagliga livet och kan vara till hjälp för resenärer.',
@@ -651,7 +861,17 @@ export const algeria: Country = {
         },
       },
       {
-        item: 'Desert gear',
+        item: {
+          en: 'Desert gear',
+          sv: 'Ökenutrustning',
+          es: 'Equipo para el desierto',
+          fr: 'Équipement pour le désert',
+          de: 'Wüstenausrüstung',
+          it: 'Attrezzatura per il deserto',
+          pl: 'Sprzęt na pustynię',
+          nl: 'Woestijnuitrusting',
+          pt: 'Equipamento para o deserto',
+        },
         description: {
           en: 'For Sahara trips: sun protection, plenty of water, and warm layers for cold nights.',
           sv: 'För Sahara-resor: solskydd, mycket vatten och varma lager för kalla nätter.',
@@ -665,7 +885,17 @@ export const algeria: Country = {
         },
       },
       {
-        item: 'Visa requirements',
+        item: {
+          en: 'Visa requirements',
+          sv: 'Visumkrav',
+          es: 'Requisitos de visa',
+          fr: 'Conditions de visa',
+          de: 'Visabestimmungen',
+          it: 'Requisiti per il visto',
+          pl: 'Wymogi wizowe',
+          nl: 'Visumvereisten',
+          pt: 'Exigências de visto',
+        },
         description: {
           en: 'Many visitors need a visa—arrange in advance and check requirements early.',
           sv: 'Många besökare behöver visum – ordna i förväg och kontrollera kraven tidigt.',
@@ -679,7 +909,17 @@ export const algeria: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Cards are limited outside major hotels; carry cash for day-to-day purchases.',
           sv: 'Kort är begränsade utanför större hotell; bära kontanter för dagliga inköp.',
@@ -708,7 +948,7 @@ export const algeria: Country = {
       },
       description: {
         en: 'A classic Algerian family dinner: steamed couscous served with a fragrant vegetable-and-chickpea broth, traditionally finished with harissa to taste.',
-        sv: 'En klassisk algerisk familjemiddag: ångad couscous serverad med en doftande grönsaks- och kikärtsbuljong, traditionellt avslutad med harissa efter smak.',
+        sv: 'En klassisk algerisk familjemiddag: ångad couscous med en doftande buljong på grönsaker och kikärter, som traditionellt serveras med harissa efter smak.',
         es: 'Una cena familiar clásica argelina: cuscús al vapor servido con un aromático caldo de verduras y garbanzos, tradicionalmente terminado con harissa al gusto.',
         fr: 'Un dîner familial algérien classique : du couscous cuit à la vapeur servi avec un bouillon parfumé de légumes et de pois chiches, traditionnellement agrémenté de harissa au goût.',
         de: 'Ein klassisches algerisches Familienessen: gedämpfter Couscous, serviert mit einer duftenden Gemüse-Kichererbsen-Brühe, traditionell abgerundet mit Harissa nach Geschmack.',
@@ -817,7 +1057,7 @@ export const algeria: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -910,7 +1150,7 @@ export const algeria: Country = {
         {
           name: {
             en: 'Sweet paprika',
-            sv: 'Söt paprika',
+            sv: 'Paprikapulver',
             es: 'Pimentón dulce',
             fr: 'Paprika doux',
             de: 'Süßer Paprika',
@@ -967,7 +1207,7 @@ export const algeria: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -980,7 +1220,7 @@ export const algeria: Country = {
         {
           name: {
             en: 'Turnips, peeled and quartered',
-            sv: 'Rovor, skalade och i fjärdedelar',
+            sv: 'Rovor, skalade och delade i fyra',
             es: 'Nabos pelados y cortados en cuartos',
             fr: 'Navets, pelés et coupés en quartiers',
             de: 'Rüben, geschält und geviertelt',
@@ -992,7 +1232,7 @@ export const algeria: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -1017,7 +1257,7 @@ export const algeria: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -1030,7 +1270,7 @@ export const algeria: Country = {
         {
           name: {
             en: 'Bell peppers, halved and seeded',
-            sv: 'Paprika, halverad och kärnad',
+            sv: 'Paprika, halverad och urkärnad',
             es: 'Pimientos morrones, cortados por la mitad y sin semillas',
             fr: 'Poivrons, coupés en deux et épépinés',
             de: 'Paprika, halbiert und entkernt',
@@ -1042,7 +1282,7 @@ export const algeria: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1067,7 +1307,7 @@ export const algeria: Country = {
           amount: 2,
           unit: {
             en: 'medium',
-            sv: 'medelstor',
+            sv: 'medelstora',
             es: 'mediano',
             fr: 'moyen',
             de: 'mittelgroß',
@@ -1080,7 +1320,7 @@ export const algeria: Country = {
         {
           name: {
             en: 'Pumpkin or butternut squash, large cubes',
-            sv: 'Pumpa eller butternut squash, stora kuber',
+            sv: 'Pumpa eller butternutpumpa, i stora tärningar',
             es: 'Calabaza o calabacín, en cubos grandes',
             fr: 'Courge citrouille ou butternut, gros cubes',
             de: 'Kürbis- oder Butternusskürbis, große Würfel',
@@ -1095,7 +1335,7 @@ export const algeria: Country = {
         {
           name: {
             en: 'Harissa paste (to serve)',
-            sv: 'Harissa pasta (att servera)',
+            sv: 'Harissa (till servering)',
             es: 'Pasta de harissa (para servir)',
             fr: 'Pâte d\'harissa (pour servir)',
             de: 'Harissa-Paste (zum Servieren)',
@@ -1120,7 +1360,7 @@ export const algeria: Country = {
         {
           name: {
             en: 'Unsalted butter (optional, for couscous)',
-            sv: 'Osaltat smör (valfritt, för couscous)',
+            sv: 'Osaltat smör (valfritt, till couscous)',
             es: 'Mantequilla sin sal (opcional, para cuscús)',
             fr: 'Beurre doux (facultatif, pour le couscous)',
             de: 'Ungesalzene Butter (optional, für Couscous)',
@@ -1161,7 +1401,7 @@ export const algeria: Country = {
       steps: [
         {
           en: 'Soak the chickpeas: place 250 g dried chickpeas in a bowl, cover with plenty of cold water, and soak 10–12 hours (overnight). Drain and rinse.',
-          sv: 'Blötlägg kikärtorna: lägg 250 g torkade kikärter i en skål, täck med rikligt med kallt vatten och blöt i 10–12 timmar (över natten). Häll av och skölj.',
+          sv: 'Blötlägg kikärterna: lägg 250 g torkade kikärter i en skål, täck med rikligt med kallt vatten och låt stå i 10–12 timmar (över natten). Häll av och skölj.',
           es: 'Remojar los garbanzos: colocar 250 g de garbanzos secos en un bol, cubrir con abundante agua fría y dejar en remojo durante 10 a 12 horas (durante la noche). Escurrir y enjuagar.',
           fr: 'Faites tremper les pois chiches : placez 250 g de pois chiches secs dans un bol, couvrez abondamment d\'eau froide et laissez tremper 10 à 12 heures (une nuit). Égoutter et rincer.',
           de: 'Kichererbsen einweichen: 250 g getrocknete Kichererbsen in eine Schüssel geben, mit reichlich kaltem Wasser bedecken und 10–12 Stunden (über Nacht) einweichen. Abgießen und abspülen.',
@@ -1172,7 +1412,7 @@ export const algeria: Country = {
         },
         {
           en: 'Start the broth: heat 3 tbsp olive oil in a large pot over medium heat. Add chopped onions and sauté 8–10 minutes until soft and translucent.',
-          sv: 'Starta buljongen: värm 3 msk olivolja i en stor gryta på medelvärme. Tillsätt hackad lök och fräs i 8–10 minuter tills den är mjuk och genomskinlig.',
+          sv: 'Gör buljongen: värm 3 msk olivolja i en stor gryta på medelvärme. Tillsätt den hackade löken och fräs i 8–10 minuter tills den är mjuk och genomskinlig.',
           es: 'Comienza el caldo: calienta 3 cucharadas de aceite de oliva en una olla grande a fuego medio. Agregue las cebollas picadas y saltee de 8 a 10 minutos hasta que estén suaves y traslúcidas.',
           fr: 'Commencez le bouillon : faites chauffer 3 cuillères à soupe d\'huile d\'olive dans une grande casserole à feu moyen. Ajouter les oignons hachés et faire revenir 8 à 10 minutes jusqu\'à ce qu\'ils soient tendres et translucides.',
           de: 'Zubereitung der Brühe: 3 EL Olivenöl in einem großen Topf bei mittlerer Hitze erhitzen. Gehackte Zwiebeln hinzufügen und 8–10 Minuten anbraten, bis sie weich und glasig sind.',
@@ -1183,7 +1423,7 @@ export const algeria: Country = {
         },
         {
           en: 'Add minced garlic and cook 30 seconds until fragrant. Stir in 2 tbsp tomato paste and cook 1 minute to deepen the flavor.',
-          sv: 'Tillsätt hackad vitlök och koka i 30 sekunder tills den doftar. Rör ner 2 msk tomatpuré och koka 1 minut för att fördjupa smaken.',
+          sv: 'Tillsätt vitlöken och fräs i 30 sekunder tills det doftar. Rör ner 2 msk tomatpuré och fräs i 1 minut så att smaken fördjupas.',
           es: 'Agregue el ajo picado y cocine durante 30 segundos hasta que esté fragante. Agregue 2 cucharadas de pasta de tomate y cocine 1 minuto para intensificar el sabor.',
           fr: 'Ajouter l\'ail émincé et cuire 30 secondes jusqu\'à ce qu\'il soit parfumé. Incorporer 2 cuillères à soupe de pâte de tomate et cuire 1 minute pour intensifier la saveur.',
           de: 'Gehackten Knoblauch hinzufügen und 30 Sekunden kochen, bis er duftet. 2 EL Tomatenmark einrühren und 1 Minute kochen lassen, um den Geschmack zu intensivieren.',
@@ -1194,7 +1434,7 @@ export const algeria: Country = {
         },
         {
           en: 'Add spices: stir in ras el hanout (2 tsp), cumin (1 tsp), paprika (1 tsp), and turmeric (1/2 tsp). Stir constantly for 30 seconds.',
-          sv: 'Tillsätt kryddor: rör ner ras el hanout (2 tsk), spiskummin (1 tsk), paprika (1 tsk) och gurkmeja (1/2 tsk). Rör hela tiden i 30 sekunder.',
+          sv: 'Tillsätt kryddorna: rör ner ras el hanout (2 tsk), spiskummin (1 tsk), paprikapulver (1 tsk) och gurkmeja (1/2 tsk). Rör hela tiden i 30 sekunder.',
           es: 'Agregue especias: agregue ras el hanout (2 cucharaditas), comino (1 cucharadita), pimentón (1 cucharadita) y cúrcuma (1/2 cucharadita). Revuelva constantemente durante 30 segundos.',
           fr: 'Ajoutez les épices : incorporez le ras el hanout (2 cuillères à café), le cumin (1 cuillère à café), le paprika (1 cuillère à café) et le curcuma (1/2 cuillère à café). Remuer constamment pendant 30 secondes.',
           de: 'Gewürze hinzufügen: Ras el Hanout (2 TL), Kreuzkümmel (1 TL), Paprika (1 TL) und Kurkuma (1/2 TL) unterrühren. 30 Sekunden lang ständig umrühren.',
@@ -1205,7 +1445,7 @@ export const algeria: Country = {
         },
         {
           en: 'Add 1500 ml vegetable stock (or water) and the drained chickpeas. Add 1 tsp salt. Bring to a boil, then reduce to a gentle simmer.',
-          sv: 'Tillsätt 1500 ml grönsaksfond (eller vatten) och de avrunna kikärtorna. Tillsätt 1 tsk salt. Koka upp och låt sedan sjuda försiktigt.',
+          sv: 'Tillsätt 1500 ml grönsaksbuljong (eller vatten) och de avrunna kikärterna. Tillsätt 1 tsk salt. Koka upp och låt sedan sjuda försiktigt.',
           es: 'Añadimos 1500 ml de caldo de verduras (o agua) y los garbanzos escurridos. Agrega 1 cucharadita de sal. Llevar a ebullición y luego reducir a fuego lento.',
           fr: 'Ajoutez 1500 ml de bouillon de légumes (ou d\'eau) et les pois chiches égouttés. Ajoutez 1 cuillère à café de sel. Porter à ébullition, puis réduire à feu doux.',
           de: '1500 ml Gemüsebrühe (oder Wasser) und die abgetropften Kichererbsen hinzufügen. 1 TL Salz hinzufügen. Zum Kochen bringen und dann leicht köcheln lassen.',
@@ -1216,7 +1456,7 @@ export const algeria: Country = {
         },
         {
           en: 'Simmer chickpeas 35 minutes, partially covered, until they begin to soften (they should not be fully mushy).',
-          sv: 'Sjud kikärterna i 35 minuter, delvis täckta, tills de börjar mjukna (de ska inte vara helt mosiga).',
+          sv: 'Låt kikärterna sjuda med locket på glänt i 35 minuter, tills de börjar mjukna (de ska inte bli helt mosiga).',
           es: 'Cocine los garbanzos a fuego lento durante 35 minutos, parcialmente tapados, hasta que comiencen a ablandarse (no deben estar completamente blandos).',
           fr: 'Laisser mijoter les pois chiches 35 minutes, partiellement couverts, jusqu\'à ce qu\'ils commencent à ramollir (ils ne doivent pas être complètement pâteux).',
           de: 'Kichererbsen 35 Minuten teilweise abgedeckt köcheln lassen, bis sie weich werden (sie sollten nicht völlig matschig sein).',
@@ -1227,7 +1467,7 @@ export const algeria: Country = {
         },
         {
           en: 'Add firm vegetables: add carrots, turnips, potatoes, and squash. Simmer 20 minutes.',
-          sv: 'Tillsätt fasta grönsaker: tillsätt morötter, kålrot, potatis och squash. Sjud i 20 minuter.',
+          sv: 'Tillsätt de fasta grönsakerna: morötter, rovor, potatis och pumpa. Låt sjuda i 20 minuter.',
           es: 'Agregue vegetales firmes: agregue zanahorias, nabos, papas y calabazas. Cocine a fuego lento durante 20 minutos.',
           fr: 'Ajoutez des légumes fermes : ajoutez les carottes, les navets, les pommes de terre et les courges. Laisser mijoter 20 minutes.',
           de: 'Festes Gemüse hinzufügen: Karotten, Rüben, Kartoffeln und Kürbis hinzufügen. 20 Minuten köcheln lassen.',
@@ -1238,7 +1478,7 @@ export const algeria: Country = {
         },
         {
           en: 'Add tender vegetables: add zucchini and bell peppers. Simmer 12–15 minutes more until all vegetables are tender but still hold shape.',
-          sv: 'Tillsätt möra grönsaker: tillsätt zucchini och paprika. Sjud ytterligare 12–15 minuter tills alla grönsaker är mjuka men fortfarande håller formen.',
+          sv: 'Tillsätt de mjuka grönsakerna: zucchini och paprika. Låt sjuda ytterligare 12–15 minuter tills alla grönsaker är mjuka men fortfarande håller formen.',
           es: 'Agregue verduras tiernas: agregue calabacines y pimientos morrones. Cocine a fuego lento durante 12 a 15 minutos más hasta que todas las verduras estén tiernas pero aún mantengan su forma.',
           fr: 'Ajoutez des légumes tendres : ajoutez les courgettes et les poivrons. Laisser mijoter encore 12 à 15 minutes jusqu\'à ce que tous les légumes soient tendres mais conservent leur forme.',
           de: 'Zartes Gemüse hinzufügen: Zucchini und Paprika hinzufügen. Weitere 12–15 Minuten köcheln lassen, bis das gesamte Gemüse zart ist, aber noch seine Form behält.',
@@ -1249,7 +1489,7 @@ export const algeria: Country = {
         },
         {
           en: 'Taste the broth and adjust salt. Keep the pot on very low heat while you finish the couscous.',
-          sv: 'Smaka av buljongen och justera saltet. Håll grytan på väldigt låg värme medan du avslutar couscousen.',
+          sv: 'Smaka av buljongen med salt. Håll grytan varm på mycket låg värme medan du gör klart couscousen.',
           es: 'Probar el caldo y rectificar de sal. Mantén la olla a fuego muy lento mientras terminas el cuscús.',
           fr: 'Goûtez le bouillon et rectifiez le sel. Gardez la casserole sur feu très doux pendant que vous finissez le couscous.',
           de: 'Probieren Sie die Brühe und passen Sie das Salz an. Halten Sie den Topf auf sehr niedriger Hitze, während Sie das Couscous fertig zubereiten.',
@@ -1260,7 +1500,7 @@ export const algeria: Country = {
         },
         {
           en: 'Prepare couscous (first steam/soak): place 600 g couscous in a wide bowl. Add 1 tbsp olive oil and 1/2 tsp salt. Rub the grains between your fingers for 1 minute to separate.',
-          sv: 'Förbered couscous (första ånga/blötläggning): lägg 600 g couscous i en vid skål. Tillsätt 1 msk olivolja och 1/2 tsk salt. Gnid kornen mellan fingrarna i 1 minut för att separera.',
+          sv: 'Förbered couscousen (första ångning/blötläggning): lägg 600 g couscous i en vid skål. Tillsätt 1 msk olivolja och 1/2 tsk salt. Gnid kornen mellan fingrarna i 1 minut så att de separeras.',
           es: 'Preparar el cuscús (primer vapor/remojo): colocar 600 g de cuscús en un bol ancho. Agrega 1 cucharada de aceite de oliva y 1/2 cucharadita de sal. Frote los granos entre sus dedos durante 1 minuto para separarlos.',
           fr: 'Préparez le couscous (première cuisson à la vapeur/trempage) : placez 600 g de couscous dans un grand bol. Ajoutez 1 cuillère à soupe d\'huile d\'olive et 1/2 cuillère à café de sel. Frottez les grains entre vos doigts pendant 1 minute pour les séparer.',
           de: 'Couscous zubereiten (zuerst dämpfen/einweichen): 600 g Couscous in eine breite Schüssel geben. 1 EL Olivenöl und 1/2 TL Salz hinzufügen. Reiben Sie die Körner 1 Minute lang zwischen Ihren Fingern, um sie zu trennen.',
@@ -1271,7 +1511,7 @@ export const algeria: Country = {
         },
         {
           en: 'Add 450 ml boiling water to the couscous, stir once, cover tightly, and let stand 10 minutes.',
-          sv: 'Tillsätt 450 ml kokande vatten till couscousen, rör om en gång, täck ordentligt och låt stå i 10 minuter.',
+          sv: 'Häll 450 ml kokande vatten över couscousen, rör om en gång, lägg på ett tätt lock och låt stå i 10 minuter.',
           es: 'Añade 450 ml de agua hirviendo al cuscús, revuelve una vez, tapa bien y deja reposar 10 minutos.',
           fr: 'Ajoutez 450 ml d\'eau bouillante au couscous, remuez une fois, couvrez hermétiquement et laissez reposer 10 minutes.',
           de: '450 ml kochendes Wasser zum Couscous geben, einmal umrühren, gut abdecken und 10 Minuten stehen lassen.',
@@ -1282,7 +1522,7 @@ export const algeria: Country = {
         },
         {
           en: 'Fluff and finish: uncover and fluff with a fork. Add 30 g butter (optional) and fluff again until light and separate. If clumpy, sprinkle 2–3 tbsp warm water and fluff.',
-          sv: 'Ludd och avsluta: avtäck och fluffa med en gaffel. Tillsätt 30 g smör (valfritt) och fluffa igen tills det är ljust och separerar. Om den är klumpig, strö över 2–3 msk varmt vatten och fluffa.',
+          sv: 'Lufta och gör klart: ta av locket och lufta couscousen med en gaffel. Tillsätt 30 g smör (valfritt) och lufta igen tills den är lätt och luftig med lösa korn. Om den klumpar sig, stänk över 2–3 msk varmt vatten och lufta igen.',
           es: 'Esponjar y terminar: destapar y esponjar con un tenedor. Agregue 30 g de mantequilla (opcional) y vuelva a esponjar hasta que esté suave y se separe. Si tiene grumos, espolvoree 2 o 3 cucharadas de agua tibia y esponje.',
           fr: 'Pelucher et finir : découvrir et gonfler avec une fourchette. Ajoutez 30 g de beurre (facultatif) et mélangez à nouveau jusqu\'à ce que le mélange soit léger et séparé. S\'il y a des grumeaux, arrosez 2 à 3 cuillères à soupe d\'eau tiède et faites des peluches.',
           de: 'Auflockern und fertig: Aufdecken und mit einer Gabel auflockern. 30 g Butter hinzufügen (optional) und nochmals auflockern, bis die Masse hell ist, und dann trennen. Wenn es klumpig ist, 2–3 EL warmes Wasser darüber streuen und auflockern.',
@@ -1293,7 +1533,7 @@ export const algeria: Country = {
         },
         {
           en: 'Serve: mound couscous on a large platter, arrange vegetables and chickpeas on top, then ladle 2–3 scoops of broth over the couscous.',
-          sv: 'Servera: häll couscous på ett stort fat, lägg grönsaker och kikärtor ovanpå, häll sedan 2–3 skopor buljong över couscousen.',
+          sv: 'Servering: lägg upp couscousen i en hög på ett stort fat, lägg grönsaker och kikärter ovanpå och slå sedan 2–3 slevar buljong över couscousen.',
           es: 'Sirva: coloque el cuscús en un plato grande, coloque las verduras y los garbanzos encima y luego sirva 2 o 3 cucharadas de caldo sobre el cuscús.',
           fr: 'Servir : déposer le couscous sur une grande assiette, disposer les légumes et les pois chiches dessus, puis verser 2 à 3 boules de bouillon sur le couscous.',
           de: 'Servieren: Couscous auf einer großen Platte anhäufen, Gemüse und Kichererbsen darauf anrichten und dann 2–3 Esslöffel Brühe über das Couscous schöpfen.',
@@ -1304,7 +1544,7 @@ export const algeria: Country = {
         },
         {
           en: 'Harissa: mix harissa paste with 2–3 tbsp warm broth in a small bowl to loosen, and let each person add to taste.',
-          sv: 'Harissa: blanda harissapasta med 2–3 msk varm buljong i en liten skål för att lossa, och låt varje person tillsätta efter smak.',
+          sv: 'Harissa: rör ut harissan med 2–3 msk varm buljong i en liten skål så att den blir lösare, och låt var och en ta efter smak.',
           es: 'Harissa: mezcle la pasta de harissa con 2 o 3 cucharadas de caldo tibio en un tazón pequeño para aflojar y deje que cada persona agregue al gusto.',
           fr: 'Harissa : mélangez la pâte d\'harissa avec 2 à 3 cuillères à soupe de bouillon chaud dans un petit bol pour la détendre, et laissez chaque personne en ajouter au goût.',
           de: 'Harissa: Harissa-Paste mit 2–3 EL warmer Brühe in einer kleinen Schüssel vermischen, um sie aufzulockern, und jede Person nach Belieben hinzufügen lassen.',
@@ -1342,7 +1582,7 @@ export const algeria: Country = {
       },
       description: {
         en: 'Semolina pastries filled with dates and fried, then soaked in honey',
-        sv: 'Semolinabakelser fyllda med dadlar och stekta, sedan blötlagda i honung',
+        sv: 'Friterade semolinakakor fyllda med dadlar och indränkta i honung',
         es: 'Pastelitos de sémola rellenos de dátiles, fritos y luego bañados en miel',
         fr: 'Pâtisseries à la semoule fourrées aux dattes et frites puis trempées dans du miel',
         de: 'Mit Datteln gefüllte und fritierte Grießgebäcke, anschließend in Honig eingeweicht',
@@ -1424,7 +1664,7 @@ export const algeria: Country = {
         {
           name: {
             en: 'Date paste',
-            sv: 'Datumklistra',
+            sv: 'Dadelpasta',
             es: 'Pasta de dátil',
             fr: 'Pâte de dattes',
             de: 'Datum einfügen',
@@ -1454,7 +1694,7 @@ export const algeria: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -1469,7 +1709,7 @@ export const algeria: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -1485,7 +1725,7 @@ export const algeria: Country = {
       steps: [
         {
           en: 'Mix semolina with melted butter until crumbly',
-          sv: 'Blanda mannagryn med smält smör till smulig',
+          sv: 'Blanda semolinan med det smälta smöret till en smulig massa',
           es: 'Mezclar la sémola con la mantequilla derretida hasta que se desmorone',
           fr: 'Mélanger la semoule avec le beurre fondu jusqu\'à ce qu\'elle soit friable',
           de: 'Grieß mit zerlassener Butter krümelig verrühren',
@@ -1496,7 +1736,7 @@ export const algeria: Country = {
         },
         {
           en: 'Add orange blossom water and knead into smooth dough',
-          sv: 'Tillsätt apelsinblomsvatten och knåda till en slät deg',
+          sv: 'Tillsätt apelsinblomvatten och knåda till en slät deg',
           es: 'Agrega agua de azahar y amasa hasta obtener una masa suave',
           fr: 'Ajouter l\'eau de fleur d\'oranger et pétrir jusqu\'à obtenir une pâte lisse',
           de: 'Orangenblütenwasser hinzufügen und zu einem glatten Teig verkneten',
@@ -1529,7 +1769,7 @@ export const algeria: Country = {
         },
         {
           en: 'Roll dough into long rectangles',
-          sv: 'Rulla degen till långa rektanglar',
+          sv: 'Kavla ut degen till långa rektanglar',
           es: 'Enrolle la masa en rectángulos largos',
           fr: 'Abaisser la pâte en longs rectangles',
           de: 'Den Teig in lange Rechtecke ausrollen',
@@ -1540,7 +1780,7 @@ export const algeria: Country = {
         },
         {
           en: 'Place date paste in center, fold dough over',
-          sv: 'Placera dadelpasta i mitten, vik över degen',
+          sv: 'Lägg dadelpastan i mitten och vik degen över',
           es: 'Coloque la pasta de dátiles en el centro, doble la masa',
           fr: 'Placer la pâte de dattes au centre, replier la pâte',
           de: 'Dattelpaste in die Mitte geben, Teig darüber falten',
@@ -1551,7 +1791,7 @@ export const algeria: Country = {
         },
         {
           en: 'Cut into diamond shapes with ridged cutter',
-          sv: 'Skär till diamantformer med räfflad fräs',
+          sv: 'Skär i romber med ett räfflat sporrjärn',
           es: 'Cortar en forma de diamante con un cortador dentado',
           fr: 'Couper en losanges avec un cutter strié',
           de: 'Mit geriffeltem Cutter in Rautenform schneiden',
@@ -1562,7 +1802,7 @@ export const algeria: Country = {
         },
         {
           en: 'Heat oil to 350°F and fry until golden',
-          sv: 'Värm olja till 350°F och stek tills de är gyllene',
+          sv: 'Värm oljan till 175 °C och fritera tills de är gyllene',
           es: 'Calienta el aceite a 350°F y fríe hasta que esté dorado',
           fr: 'Chauffer l\'huile à 350°F et faire frire jusqu\'à ce qu\'elle soit dorée',
           de: 'Öl auf 350 °F erhitzen und goldbraun braten',
@@ -1584,7 +1824,7 @@ export const algeria: Country = {
         },
         {
           en: 'Dip fried makroud in honey while hot',
-          sv: 'Doppa stekt makroud i honung medan det är varmt',
+          sv: 'Doppa de friterade makroudkakorna i honungen medan de är varma',
           es: 'Sumerja el makroud frito en miel mientras está caliente',
           fr: 'Tremper le makroud frit dans le miel chaud',
           de: 'Gebratenes Makroud heiß in Honig tauchen',

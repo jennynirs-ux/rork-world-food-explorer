@@ -366,7 +366,17 @@ export const russia: Country = {
     history: [
       {
         year: '862',
-        title: 'Founding of Rus',
+        title: {
+          en: 'Founding of Rus',
+          sv: 'Grundandet av Rus',
+          es: 'Fundación de la Rus',
+          fr: 'Fondation de la Rus\'',
+          de: 'Gründung der Rus',
+          it: 'Fondazione della Rus\'',
+          pl: 'Początki Rusi',
+          nl: 'Stichting van de Roes',
+          pt: 'Fundação da Rus',
+        },
         description: {
           en: 'The Varangian prince Rurik established the first East Slavic state, known as Kievan Rus.',
           sv: 'Den varangianska prinsen Rurik etablerade den första östslaviska staten, känd som Kievan Rus.',
@@ -381,7 +391,17 @@ export const russia: Country = {
       },
       {
         year: '1547',
-        title: 'Russian Tsardom',
+        title: {
+          en: 'Russian Tsardom',
+          sv: 'Tsardömet Ryssland',
+          es: 'Zarato ruso',
+          fr: 'Tsarat de Russie',
+          de: 'Zarentum Russland',
+          it: 'Zarato russo',
+          pl: 'Carstwo Rosyjskie',
+          nl: 'Tsaardom Rusland',
+          pt: 'Czarado da Rússia',
+        },
         description: {
           en: 'Ivan the Terrible became the first Tsar of Russia, marking the beginning of the Russian Empire.',
           sv: 'Ivan den förskräcklige blev den första tsaren i Ryssland, vilket markerade början på det ryska imperiet.',
@@ -396,7 +416,17 @@ export const russia: Country = {
       },
       {
         year: '1703',
-        title: 'St. Petersburg Founded',
+        title: {
+          en: 'St. Petersburg Founded',
+          sv: 'S:t Petersburg grundas',
+          es: 'Fundación de San Petersburgo',
+          fr: 'Fondation de Saint-Pétersbourg',
+          de: 'Gründung von Sankt Petersburg',
+          it: 'Fondazione di San Pietroburgo',
+          pl: 'Założenie Petersburga',
+          nl: 'Stichting van Sint-Petersburg',
+          pt: 'Fundação de São Petersburgo',
+        },
         description: {
           en: 'Peter the Great founded St. Petersburg as Russia\'s "window to Europe" and made it the capital.',
           sv: 'Peter den store grundade S:t Petersburg som Rysslands "fönster mot Europa" och gjorde det till huvudstad.',
@@ -411,7 +441,17 @@ export const russia: Country = {
       },
       {
         year: '1917',
-        title: 'Russian Revolution',
+        title: {
+          en: 'Russian Revolution',
+          sv: 'Ryska revolutionen',
+          es: 'Revolución rusa',
+          fr: 'Révolution russe',
+          de: 'Russische Revolution',
+          it: 'Rivoluzione russa',
+          pl: 'Rewolucja rosyjska',
+          nl: 'Russische Revolutie',
+          pt: 'Revolução Russa',
+        },
         description: {
           en: 'The Bolshevik Revolution overthrew the tsarist regime and led to the formation of the Soviet Union.',
           sv: 'Den bolsjevikiska revolutionen störtade tsarregimen och ledde till bildandet av Sovjetunionen.',
@@ -426,7 +466,17 @@ export const russia: Country = {
       },
       {
         year: '1991',
-        title: 'Soviet Union Dissolves',
+        title: {
+          en: 'Soviet Union Dissolves',
+          sv: 'Sovjetunionen upplöses',
+          es: 'Disolución de la Unión Soviética',
+          fr: 'Dissolution de l\'Union soviétique',
+          de: 'Auflösung der Sowjetunion',
+          it: 'Dissoluzione dell\'Unione Sovietica',
+          pl: 'Rozpad Związku Radzieckiego',
+          nl: 'Uiteenvallen van de Sovjet-Unie',
+          pt: 'Dissolução da União Soviética',
+        },
         description: {
           en: 'The USSR collapsed, and Russia emerged as an independent nation.',
           sv: 'Sovjetunionen kollapsade och Ryssland växte fram som en självständig nation.',
@@ -442,7 +492,17 @@ export const russia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need a visa. E-visa available for certain regions for some nationalities.',
           sv: 'De flesta besökare behöver visum. E-visum tillgängligt för vissa regioner för vissa nationaliteter.',
@@ -456,7 +516,17 @@ export const russia: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to September for warm weather; December to February for winter experiences',
           sv: 'Maj till september för varmt väder; December till februari för vinterupplevelser',
@@ -470,7 +540,17 @@ export const russia: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Extensive metro systems in major cities, trains for long distances, domestic flights',
           sv: 'Omfattande tunnelbanesystem i större städer, tåg för långa avstånd, inrikesflyg',
@@ -484,7 +564,17 @@ export const russia: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Russian. Learn Cyrillic alphabet basics. English limited outside major cities.',
           sv: 'ryska. Lär dig grunderna i det kyrilliska alfabetet. Engelska begränsad utanför större städer.',
@@ -498,7 +588,17 @@ export const russia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe in tourist areas. Keep documents secure at all times.',
           sv: 'Generellt säker i turistområden. Håll dokument säkra hela tiden.',
@@ -649,7 +749,7 @@ export const russia: Country = {
       },
       description: {
         en: 'Traditional beetroot soup that\'s a staple of Russian cuisine. Rich, hearty, and vibrant red in color, typically served with sour cream and dark bread.',
-        sv: 'Traditionell rödbetssoppa som är en bas i det ryska köket. Rik, rejäl och livlig röd färg, vanligtvis serverad med gräddfil och mörkt bröd.',
+        sv: 'Traditionell rödbetssoppa som är en hörnsten i det ryska köket. Mustig, mättande och klarröd – serveras oftast med gräddfil och mörkt bröd.',
         es: 'Sopa tradicional de remolacha, un alimento básico de la cocina rusa. De color rojo intenso, sustancioso y vibrante, normalmente se sirve con crema agria y pan negro.',
         fr: 'Soupe de betterave traditionnelle, un incontournable de la cuisine russe. De couleur rouge riche, copieuse et vibrante, généralement servie avec de la crème sure et du pain noir.',
         de: 'Traditionelle Rote-Bete-Suppe, ein Grundnahrungsmittel der russischen Küche. Reichhaltige, herzhafte und leuchtend rote Farbe, typischerweise serviert mit Sauerrahm und dunklem Brot.',
@@ -922,7 +1022,7 @@ export const russia: Country = {
       steps: [
         {
           en: 'Boil beef in 2.5 liters of water for 1.5 hours to make broth',
-          sv: 'Koka nötkött i 2,5 liter vatten i 1,5 timme för att göra buljong',
+          sv: 'Koka köttet i 2,5 liter vatten i 1,5 timme till en buljong',
           es: 'Hervir la carne en 2,5 litros de agua durante 1,5 horas para hacer caldo',
           fr: 'Faire bouillir le bœuf dans 2,5 litres d\'eau pendant 1,5 heure pour faire un bouillon',
           de: 'Rindfleisch in 2,5 Litern Wasser 1,5 Stunden lang kochen, um eine Brühe zu erhalten',
@@ -955,7 +1055,7 @@ export const russia: Country = {
         },
         {
           en: 'Remove meat from broth, cut into pieces',
-          sv: 'Ta bort köttet från buljongen, skär i bitar',
+          sv: 'Ta upp köttet ur buljongen och skär det i bitar',
           es: 'Retirar la carne del caldo y cortarla en trozos',
           fr: 'Retirer la viande du bouillon, la couper en morceaux',
           de: 'Fleisch aus der Brühe nehmen, in Stücke schneiden',
@@ -966,7 +1066,7 @@ export const russia: Country = {
         },
         {
           en: 'Add potatoes to broth, cook 10 minutes',
-          sv: 'Tillsätt potatis i buljongen, koka 10 minuter',
+          sv: 'Lägg potatisen i buljongen och koka i 10 minuter',
           es: 'Agrega las papas al caldo, cocina 10 minutos',
           fr: 'Ajouter les pommes de terre au bouillon, cuire 10 minutes',
           de: 'Kartoffeln in die Brühe geben und 10 Minuten kochen lassen',
@@ -977,7 +1077,7 @@ export const russia: Country = {
         },
         {
           en: 'Sauté onion, add carrots and beetroot, cook 10 minutes',
-          sv: 'Fräs lök, tillsätt morötter och rödbetor, koka 10 minuter',
+          sv: 'Fräs löken, tillsätt morötter och rödbetor och låt fräsa i 10 minuter',
           es: 'Saltee la cebolla, agregue las zanahorias y la remolacha, cocine 10 minutos',
           fr: 'Faire revenir l\'oignon, ajouter les carottes et la betterave, cuire 10 minutes',
           de: 'Zwiebeln anbraten, Karotten und Rote Bete hinzufügen, 10 Minuten kochen',
@@ -988,7 +1088,7 @@ export const russia: Country = {
         },
         {
           en: 'Add tomato paste to vegetables, cook 5 minutes',
-          sv: 'Tillsätt tomatpuré till grönsaker, koka 5 minuter',
+          sv: 'Rör ner tomatpurén i grönsakerna och låt fräsa i 5 minuter',
           es: 'Agregue pasta de tomate a las verduras, cocine 5 minutos',
           fr: 'Ajouter le concentré de tomate aux légumes, cuire 5 minutes',
           de: 'Tomatenmark zum Gemüse geben, 5 Minuten kochen lassen',
@@ -999,7 +1099,7 @@ export const russia: Country = {
         },
         {
           en: 'Add sautéed vegetables and cabbage to broth',
-          sv: 'Tillsätt sauterade grönsaker och kål i buljongen',
+          sv: 'Lägg ner de frästa grönsakerna och kålen i buljongen',
           es: 'Agrega las verduras salteadas y el repollo al caldo',
           fr: 'Ajouter les légumes sautés et le chou au bouillon',
           de: 'Gebratenes Gemüse und Kohl in die Brühe geben',
@@ -1021,7 +1121,7 @@ export const russia: Country = {
         },
         {
           en: 'Simmer 20 minutes, add crushed garlic',
-          sv: 'Sjud 20 minuter, tillsätt pressad vitlök',
+          sv: 'Låt sjuda i 20 minuter och tillsätt sedan pressad vitlök',
           es: 'Cocine a fuego lento durante 20 minutos, agregue el ajo machacado',
           fr: 'Laisser mijoter 20 minutes, ajouter l\'ail écrasé',
           de: '20 Minuten köcheln lassen, zerdrückten Knoblauch hinzufügen',
@@ -1059,7 +1159,7 @@ export const russia: Country = {
       id: 'russia-medovik',
       name: {
         en: 'Medovik (Honey Cake)',
-        sv: 'Medovik (Honungstårta)',
+        sv: 'Medovik (honungstårta)',
         es: 'Medovik (pastel de miel)',
         fr: 'Medovik (gâteau au miel)',
         de: 'Medovik (Honigkuchen)',
@@ -1070,7 +1170,7 @@ export const russia: Country = {
       },
       description: {
         en: 'Classic Russian layered honey cake with sour cream frosting, a beloved traditional dessert',
-        sv: 'Klassisk rysk honungstårta i lager med gräddfilsfrosting, en älskad traditionell efterrätt',
+        sv: 'Klassisk rysk honungstårta i flera lager med gräddfilskräm, en älskad traditionell efterrätt',
         es: 'Clásico pastel ruso de miel en capas con glaseado de crema agria, un postre tradicional muy querido',
         fr: 'Gâteau au miel russe classique avec glaçage à la crème sure, un dessert traditionnel bien-aimé',
         de: 'Klassischer russischer Schichthonigkuchen mit Sauerrahmglasur, ein beliebtes traditionelles Dessert',
@@ -1097,7 +1197,7 @@ export const russia: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -1167,7 +1267,7 @@ export const russia: Country = {
         {
           name: {
             en: 'Baking soda',
-            sv: 'Bakpulver',
+            sv: 'Bikarbonat',
             es: 'Bicarbonato de sodio',
             fr: 'Bicarbonate de soude',
             de: 'Backpulver',
@@ -1182,7 +1282,7 @@ export const russia: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -1212,7 +1312,7 @@ export const russia: Country = {
         {
           name: {
             en: 'Powdered sugar (for cream)',
-            sv: 'Pulversocker (för grädde)',
+            sv: 'Florsocker (till grädden)',
             es: 'Azúcar en polvo (para nata)',
             fr: 'Sucre en poudre (pour la crème)',
             de: 'Puderzucker (für Sahne)',
@@ -1254,7 +1354,7 @@ export const russia: Country = {
         },
         {
           en: 'Remove from heat, add baking soda (mixture will foam)',
-          sv: 'Ta bort från värmen, tillsätt bakpulver (blandningen skummar)',
+          sv: 'Ta kastrullen från värmen och tillsätt bikarbonaten (blandningen skummar upp)',
           es: 'Retirar del fuego, agregar bicarbonato de sodio (la mezcla formará espuma)',
           fr: 'Retirer du feu, ajouter le bicarbonate de soude (le mélange moussera)',
           de: 'Vom Herd nehmen, Backpulver hinzufügen (die Mischung schäumt)',
@@ -1265,7 +1365,7 @@ export const russia: Country = {
         },
         {
           en: 'Beat in eggs one at a time',
-          sv: 'Vispa i äggen ett i taget',
+          sv: 'Vispa ner äggen ett i taget',
           es: 'Batir los huevos uno a la vez',
           fr: 'Incorporer les œufs un à la fois',
           de: 'Eier einzeln unterrühren',
@@ -1276,7 +1376,7 @@ export const russia: Country = {
         },
         {
           en: 'Gradually mix in flour to form soft dough',
-          sv: 'Blanda gradvis i mjöl till en mjuk deg',
+          sv: 'Arbeta in vetemjölet lite i taget till en mjuk deg',
           es: 'Incorpora poco a poco la harina hasta formar una masa suave',
           fr: 'Incorporer progressivement la farine pour former une pâte molle',
           de: 'Nach und nach Mehl unterrühren, bis ein weicher Teig entsteht',
@@ -1298,7 +1398,7 @@ export const russia: Country = {
         },
         {
           en: 'Roll each portion thin and bake at 180°C for 3-4 minutes until golden',
-          sv: 'Kavla varje portion tunt och grädda i 180°C i 3-4 minuter tills de är gyllene',
+          sv: 'Kavla ut varje del tunt och grädda i 180°C i 3-4 minuter tills bottnarna är gyllene',
           es: 'Enrolle cada porción y hornee a 180°C durante 3-4 minutos hasta que esté dorada',
           fr: 'Rouler chaque portion finement et cuire au four à 180°C pendant 3-4 minutes jusqu\'à ce qu\'elle soit dorée',
           de: 'Jede Portion dünn ausrollen und bei 180°C 3-4 Minuten goldbraun backen',
@@ -1309,7 +1409,7 @@ export const russia: Country = {
         },
         {
           en: 'Trim edges while warm to create uniform layers',
-          sv: 'Trimma kanterna medan de är varma för att skapa enhetliga lager',
+          sv: 'Skär till kanterna medan bottnarna är varma så att alla blir lika stora',
           es: 'Recorte los bordes mientras esté caliente para crear capas uniformes',
           fr: 'Coupez les bords à chaud pour créer des couches uniformes',
           de: 'Schneiden Sie die Kanten im warmen Zustand ab, um gleichmäßige Schichten zu erhalten',
@@ -1320,7 +1420,7 @@ export const russia: Country = {
         },
         {
           en: 'Crumble trimmings for topping',
-          sv: 'Smula urklipp för topping',
+          sv: 'Smula sönder kantbitarna till garnering',
           es: 'Desmenuza los recortes para cubrir',
           fr: 'Crumble parures pour la garniture',
           de: 'Reste zum Bestreuen zerbröckeln',
@@ -1331,7 +1431,7 @@ export const russia: Country = {
         },
         {
           en: 'Mix sour cream, powdered sugar, and vanilla for frosting',
-          sv: 'Blanda gräddfil, strösocker och vanilj för frosting',
+          sv: 'Blanda gräddfil, florsocker och vanilj till krämen',
           es: 'Mezcle crema agria, azúcar en polvo y vainilla para glasear.',
           fr: 'Mélanger la crème sure, le sucre en poudre et la vanille pour le glaçage',
           de: 'Zum Zuckerguss Sauerrahm, Puderzucker und Vanille vermischen',
@@ -1342,7 +1442,7 @@ export const russia: Country = {
         },
         {
           en: 'Layer cakes with generous amounts of cream between each',
-          sv: 'Varva tårtor med generösa mängder grädde mellan varje',
+          sv: 'Varva bottnarna med ett generöst lager kräm mellan varje botten',
           es: 'Pasteles en capas con generosas cantidades de crema entre cada uno',
           fr: 'Étalez des gâteaux avec de généreuses quantités de crème entre chacun',
           de: 'Torten mit großzügigen Mengen Sahne dazwischen schichten',
@@ -1353,7 +1453,7 @@ export const russia: Country = {
         },
         {
           en: 'Cover top and sides with cream',
-          sv: 'Täck topp och sidor med grädde',
+          sv: 'Bred kräm över tårtans ovansida och sidor',
           es: 'Cubrir la parte superior y los lados con crema',
           fr: 'Couvrir le dessus et les côtés de crème',
           de: 'Oberseite und Seiten mit Sahne bedecken',
@@ -1364,7 +1464,7 @@ export const russia: Country = {
         },
         {
           en: 'Sprinkle with crumbled cake trimmings',
-          sv: 'Strö över smulade kakor',
+          sv: 'Strö över de smulade kantbitarna',
           es: 'Espolvorea con los restos de pastel desmenuzados',
           fr: 'Saupoudrer de garnitures de gâteau émiettées',
           de: 'Mit zerbröselten Kuchenresten bestreuen',
@@ -1509,7 +1609,7 @@ export const russia: Country = {
         options: [
           {
             en: 'Lake Superior',
-            sv: 'Lake Superior',
+            sv: 'Övre sjön',
             es: 'Lago Superior',
             fr: 'Lac Supérieur',
             de: 'Oberer See',
@@ -1542,7 +1642,7 @@ export const russia: Country = {
           },
           {
             en: 'Lake Ladoga',
-            sv: 'Lake Ladoga',
+            sv: 'Ladogasjön',
             es: 'Lago Ladoga',
             fr: 'Lac Ladoga',
             de: 'Ladogasee',
@@ -1734,7 +1834,7 @@ export const russia: Country = {
         options: [
           {
             en: 'Orient Express',
-            sv: 'Orient Express',
+            sv: 'Orientexpressen',
             es: 'Orient Express',
             fr: 'Orient-Express',
             de: 'Orient-Express',

@@ -263,8 +263,28 @@ export const italy: Country = {
     },
     history: [
       {
-        year: '753 BC',
-        title: 'Founding of Rome',
+        year: {
+          en: '753 BC',
+          sv: '753 f.Kr.',
+          es: '753 a. C.',
+          fr: '753 av. J.-C.',
+          de: '753 v. Chr.',
+          it: '753 a.C.',
+          pl: '753 p.n.e.',
+          nl: '753 v.Chr.',
+          pt: '753 a.C.',
+        },
+        title: {
+          en: 'Founding of Rome',
+          sv: 'Roms grundande',
+          es: 'Fundación de Roma',
+          fr: 'Fondation de Rome',
+          de: 'Gründung Roms',
+          it: 'Fondazione di Roma',
+          pl: 'Założenie Rzymu',
+          nl: 'Stichting van Rome',
+          pt: 'Fundação de Roma',
+        },
         description: {
           en: 'According to legend, Rome was founded by Romulus and Remus. This marked the beginning of one of history\'s greatest civilizations.',
           sv: 'Enligt legenden grundades Rom av Romulus och Remus. Detta markerade början på en av historiens största civilisationer.',
@@ -278,8 +298,28 @@ export const italy: Country = {
         },
       },
       {
-        year: '27 BC',
-        title: 'Roman Empire Begins',
+        year: {
+          en: '27 BC',
+          sv: '27 f.Kr.',
+          es: '27 a. C.',
+          fr: '27 av. J.-C.',
+          de: '27 v. Chr.',
+          it: '27 a.C.',
+          pl: '27 p.n.e.',
+          nl: '27 v.Chr.',
+          pt: '27 a.C.',
+        },
+        title: {
+          en: 'Roman Empire Begins',
+          sv: 'Romerska kejsardömet grundas',
+          es: 'Comienzo del Imperio romano',
+          fr: 'Début de l\'Empire romain',
+          de: 'Beginn des Römischen Kaiserreichs',
+          it: 'Nascita dell\'Impero romano',
+          pl: 'Początek Cesarstwa Rzymskiego',
+          nl: 'Begin van het Romeinse Keizerrijk',
+          pt: 'Início do Império Romano',
+        },
         description: {
           en: 'Augustus became the first Roman Emperor, beginning an era of unprecedented power and cultural influence that would last over 400 years.',
           sv: 'Augustus blev den första romerska kejsaren och inledde en era av aldrig tidigare skådad makt och kulturellt inflytande som skulle vara i över 400 år.',
@@ -293,8 +333,28 @@ export const italy: Country = {
         },
       },
       {
-        year: '1400s-1600s',
-        title: 'The Renaissance',
+        year: {
+          en: '1400s-1600s',
+          sv: '1400–1600-talen',
+          es: 'Siglos XV–XVII',
+          fr: 'XVe–XVIIe siècles',
+          de: '15.–17. Jahrhundert',
+          it: 'XV–XVII secolo',
+          pl: 'XV–XVII wiek',
+          nl: '15e–17e eeuw',
+          pt: 'Séculos XV–XVII',
+        },
+        title: {
+          en: 'The Renaissance',
+          sv: 'Renässansen',
+          es: 'El Renacimiento',
+          fr: 'La Renaissance',
+          de: 'Die Renaissance',
+          it: 'Il Rinascimento',
+          pl: 'Renesans',
+          nl: 'De renaissance',
+          pt: 'O Renascimento',
+        },
         description: {
           en: 'Italy became the birthplace of the Renaissance, producing legendary artists like Leonardo da Vinci, Michelangelo, and Raphael.',
           sv: 'Italien blev renässansens födelseplats och producerade legendariska artister som Leonardo da Vinci, Michelangelo och Raphael.',
@@ -309,7 +369,17 @@ export const italy: Country = {
       },
       {
         year: '1861',
-        title: 'Unification of Italy',
+        title: {
+          en: 'Unification of Italy',
+          sv: 'Italiens enande',
+          es: 'Unificación de Italia',
+          fr: 'Unification de l\'Italie',
+          de: 'Einigung Italiens',
+          it: 'Unità d\'Italia',
+          pl: 'Zjednoczenie Włoch',
+          nl: 'Italiaanse eenwording',
+          pt: 'Unificação da Itália',
+        },
         description: {
           en: 'After centuries of division, the Italian peninsula was unified into a single nation under King Victor Emmanuel II.',
           sv: 'Efter århundraden av splittring förenades den italienska halvön till en enda nation under kung Victor Emmanuel II.',
@@ -549,7 +619,17 @@ export const italy: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-June and September-October offer pleasant weather and fewer crowds.',
           sv: 'April-juni och september-oktober erbjuder behagligt väder och mindre publik.',
@@ -563,7 +643,17 @@ export const italy: Country = {
         },
       },
       {
-        item: 'Comfortable walking shoes',
+        item: {
+          en: 'Comfortable walking shoes',
+          sv: 'Bekväma promenadskor',
+          es: 'Calzado cómodo para caminar',
+          fr: 'Chaussures de marche confortables',
+          de: 'Bequemes Schuhwerk',
+          it: 'Scarpe comode da passeggio',
+          pl: 'Wygodne buty do chodzenia',
+          nl: 'Comfortabele wandelschoenen',
+          pt: 'Calçados confortáveis para caminhada',
+        },
         description: {
           en: 'Many Italian cities have cobblestone streets and lots of walking.',
           sv: 'Många italienska städer har kullerstensgator och massor av promenader.',
@@ -577,7 +667,17 @@ export const italy: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Required for visiting churches and religious sites.',
           sv: 'Krävs för att besöka kyrkor och religiösa platser.',
@@ -591,7 +691,17 @@ export const italy: Country = {
         },
       },
       {
-        item: 'Power adapter',
+        item: {
+          en: 'Power adapter',
+          sv: 'Reseadapter',
+          es: 'Adaptador de enchufe',
+          fr: 'Adaptateur de prise',
+          de: 'Reiseadapter',
+          it: 'Adattatore per prese',
+          pl: 'Adapter do gniazdek',
+          nl: 'Reisstekker',
+          pt: 'Adaptador de tomada',
+        },
         description: {
           en: 'Italy uses Type L plugs with 230V.',
           sv: 'Italien använder typ L-kontakter med 230V.',
@@ -605,7 +715,17 @@ export const italy: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Small shops and restaurants may not accept cards.',
           sv: 'Små butiker och restauranger kanske inte accepterar kort.',
@@ -619,7 +739,17 @@ export const italy: Country = {
         },
       },
       {
-        item: 'Phrasebook',
+        item: {
+          en: 'Phrasebook',
+          sv: 'Parlör',
+          es: 'Guía de conversación',
+          fr: 'Guide de conversation',
+          de: 'Sprachführer',
+          it: 'Frasario',
+          pl: 'Rozmówki',
+          nl: 'Taalgids',
+          pt: 'Guia de conversação',
+        },
         description: {
           en: 'Basic Italian phrases are appreciated, especially outside tourist areas.',
           sv: 'Grundläggande italienska fraser uppskattas, särskilt utanför turistområdena.',
@@ -637,7 +767,7 @@ export const italy: Country = {
       id: 'italy-main',
       name: {
         en: 'Spaghetti Carbonara',
-        sv: 'Spaghetti Carbonara',
+        sv: 'Spaghetti carbonara',
         es: 'Espaguetis a la carbonara',
         fr: 'Spaghettis à la Carbonara',
         de: 'Spaghetti Carbonara',
@@ -648,7 +778,7 @@ export const italy: Country = {
       },
       description: {
         en: 'A classic Roman pasta dish made with eggs, cheese, pancetta, and black pepper',
-        sv: 'En klassisk romersk pastarätt gjord med ägg, ost, pancetta och svartpeppar',
+        sv: 'En klassisk romersk pastarätt med ägg, ost, pancetta och svartpeppar',
         es: 'Un plato clásico de pasta romana elaborado con huevos, queso, panceta y pimienta negra',
         fr: 'Un plat de pâtes romaines classique à base d\'œufs, de fromage, de pancetta et de poivre noir',
         de: 'Ein klassisches römisches Nudelgericht mit Eiern, Käse, Pancetta und schwarzem Pfeffer',
@@ -717,7 +847,7 @@ export const italy: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -730,7 +860,7 @@ export const italy: Country = {
         {
           name: {
             en: 'Pecorino Romano cheese',
-            sv: 'Pecorino Romano ost',
+            sv: 'Pecorino Romano',
             es: 'Queso pecorino romano',
             fr: 'Fromage Pecorino Romano',
             de: 'Pecorino Romano-Käse',
@@ -776,7 +906,7 @@ export const italy: Country = {
       steps: [
         {
           en: 'Bring a large pot of salted water to boil and cook spaghetti according to package directions',
-          sv: 'Koka upp en stor kastrull med saltat vatten och koka spagetti enligt anvisningarna på förpackningen',
+          sv: 'Koka upp rikligt med saltat vatten i en stor kastrull och koka spaghettin enligt anvisningarna på förpackningen',
           es: 'Ponga a hervir una olla grande con agua con sal y cocine los espaguetis según las instrucciones del paquete.',
           fr: 'Portez à ébullition une grande casserole d\'eau salée et faites cuire les spaghettis selon les instructions sur l\'emballage.',
           de: 'Bringen Sie einen großen Topf mit Salzwasser zum Kochen und kochen Sie die Spaghetti nach Packungsanweisung',
@@ -787,7 +917,7 @@ export const italy: Country = {
         },
         {
           en: 'While pasta cooks, cut pancetta into small pieces and fry in a large pan until crispy',
-          sv: 'Medan pastan kokar skär du pancetta i små bitar och stek i en stor panna tills den är knaprig',
+          sv: 'Medan pastan kokar skär du pancettan i små bitar och steker den knaprig i en stor stekpanna',
           es: 'Mientras se cocina la pasta, corte la panceta en trozos pequeños y fríala en una sartén grande hasta que esté crujiente',
           fr: 'Pendant la cuisson des pâtes, coupez la pancetta en petits morceaux et faites-la frire dans une grande poêle jusqu\'à ce qu\'elle soit croustillante',
           de: 'Während die Nudeln kochen, Pancetta in kleine Stücke schneiden und in einer großen Pfanne knusprig braten',
@@ -798,7 +928,7 @@ export const italy: Country = {
         },
         {
           en: 'In a bowl, whisk together eggs, grated Pecorino Romano, and black pepper',
-          sv: 'I en skål, vispa ihop ägg, riven Pecorino Romano och svartpeppar',
+          sv: 'Vispa ihop ägg, riven Pecorino Romano och svartpeppar i en skål',
           es: 'En un bol, mezcle los huevos, el queso pecorino romano rallado y la pimienta negra',
           fr: 'Dans un bol, fouetter ensemble les œufs, le Pecorino Romano râpé et le poivre noir',
           de: 'In einer Schüssel Eier, geriebenen Pecorino Romano und schwarzen Pfeffer verquirlen',
@@ -809,7 +939,7 @@ export const italy: Country = {
         },
         {
           en: 'When pasta is ready, reserve 1 cup of pasta water and drain the rest',
-          sv: 'När pastan är klar, reservera 1 kopp pastavatten och rinna av resten',
+          sv: 'När pastan är klar sparar du 2 dl av pastavattnet och häller av resten',
           es: 'Cuando la pasta esté lista, reserva 1 taza de agua de la pasta y escurre el resto',
           fr: 'Lorsque les pâtes sont prêtes, réservez 1 tasse d\'eau pour pâtes et égouttez le reste',
           de: 'Wenn die Nudeln fertig sind, 1 Tasse Nudelwasser auffangen und den Rest abgießen',
@@ -820,7 +950,7 @@ export const italy: Country = {
         },
         {
           en: 'Add hot pasta to the pan with pancetta, remove from heat',
-          sv: 'Tillsätt varm pasta i pannan med pancetta, ta bort från värmen',
+          sv: 'Lägg den varma pastan i pannan med pancettan och dra pannan från värmen',
           es: 'Agrega la pasta caliente a la sartén con la panceta, retira del fuego',
           fr: 'Ajouter les pâtes chaudes dans la poêle avec la pancetta, retirer du feu',
           de: 'Heiße Nudeln mit Pancetta in die Pfanne geben, vom Herd nehmen',
@@ -831,7 +961,7 @@ export const italy: Country = {
         },
         {
           en: 'Quickly mix in the egg mixture, adding pasta water gradually to create a creamy sauce',
-          sv: 'Blanda snabbt i äggblandningen, tillsätt pastavatten gradvis för att skapa en krämig sås',
+          sv: 'Blanda snabbt ner äggblandningen och tillsätt pastavatten lite i taget så att det blir en krämig sås',
           es: 'Incorpora rápidamente la mezcla de huevo y agrega el agua de la pasta gradualmente para crear una salsa cremosa',
           fr: 'Incorporer rapidement le mélange d\'œufs, en ajoutant progressivement l\'eau des pâtes pour créer une sauce crémeuse',
           de: 'Die Eiermischung schnell unterrühren und nach und nach das Nudelwasser hinzufügen, bis eine cremige Sauce entsteht',
@@ -869,7 +999,7 @@ export const italy: Country = {
       },
       description: {
         en: 'A coffee-flavored Italian dessert made with ladyfinger cookies, mascarpone, and cocoa',
-        sv: 'En italiensk dessert med kaffesmak gjord med ladyfinger cookies, mascarpone och kakao',
+        sv: 'En italiensk dessert med kaffesmak, gjord på savoiardikex, mascarpone och kakao',
         es: 'Un postre italiano con sabor a café elaborado con galletas de bizcocho, mascarpone y cacao',
         fr: 'Un dessert italien aromatisé au café à base de biscuits doigts de dame, de mascarpone et de cacao',
         de: 'Ein italienisches Dessert mit Kaffeegeschmack aus Löffelbiskuits, Mascarpone und Kakao',
@@ -938,7 +1068,7 @@ export const italy: Country = {
           amount: 4,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1006,7 +1136,7 @@ export const italy: Country = {
         {
           name: {
             en: 'Dark rum or Marsala wine',
-            sv: 'Mörk rom eller Marsalavin',
+            sv: 'Mörk rom eller marsala',
             es: 'Ron oscuro o vino Marsala',
             fr: 'Rhum brun ou vin Marsala',
             de: 'Dunkler Rum oder Marsala-Wein',
@@ -1032,7 +1162,7 @@ export const italy: Country = {
       steps: [
         {
           en: 'Brew strong espresso and let it cool. Add rum or Marsala wine',
-          sv: 'Brygg stark espresso och låt den svalna. Tillsätt rom eller Marsalavin',
+          sv: 'Brygg stark espresso och låt den svalna. Tillsätt rom eller marsala',
           es: 'Prepare un espresso fuerte y déjelo enfriar. Añadir ron o vino Marsala',
           fr: 'Préparez un expresso fort et laissez-le refroidir. Ajouter du rhum ou du vin Marsala',
           de: 'Einen starken Espresso zubereiten und abkühlen lassen. Rum oder Marsala-Wein hinzufügen',
@@ -1043,7 +1173,7 @@ export const italy: Country = {
         },
         {
           en: 'Separate egg whites and yolks',
-          sv: 'Separera äggvita och gulor',
+          sv: 'Skilj äggvitorna från äggulorna',
           es: 'Separar las claras y las yemas',
           fr: 'Séparez les blancs et les jaunes d\'œufs',
           de: 'Eiweiß und Eigelb trennen',
@@ -1054,7 +1184,7 @@ export const italy: Country = {
         },
         {
           en: 'Beat egg yolks with sugar until pale and creamy',
-          sv: 'Vispa äggulor med socker blekt och krämigt',
+          sv: 'Vispa äggulor och socker ljust och krämigt',
           es: 'Batir las yemas de huevo con el azúcar hasta que estén pálidas y cremosas',
           fr: 'Battre les jaunes d\'œufs avec le sucre jusqu\'à ce qu\'ils soient pâles et crémeux',
           de: 'Eigelb mit Zucker schlagen, bis eine helle, cremige Masse entsteht',
@@ -1065,7 +1195,7 @@ export const italy: Country = {
         },
         {
           en: 'Mix mascarpone into the egg yolk mixture until smooth',
-          sv: 'Blanda mascarpone i ägguleblandningen tills den är slät',
+          sv: 'Rör ner mascarponen i äggulesmeten tills den är slät',
           es: 'Mezcle el mascarpone con la mezcla de yemas de huevo hasta que quede suave.',
           fr: 'Mélanger le mascarpone au mélange de jaunes d\'œufs jusqu\'à consistance lisse',
           de: 'Mascarpone unter die Eigelbmasse rühren, bis eine glatte Masse entsteht',
@@ -1076,7 +1206,7 @@ export const italy: Country = {
         },
         {
           en: 'Beat egg whites to stiff peaks and gently fold into mascarpone mixture',
-          sv: 'Vispa äggvitan till hårda toppar och vänd försiktigt ner i mascarponeblandningen',
+          sv: 'Vispa äggvitorna till hårt skum och vänd försiktigt ner dem i mascarponesmeten',
           es: 'Batir las claras a punto de nieve e incorporarlas suavemente a la mezcla de mascarpone',
           fr: 'Battre les blancs d\'œufs en neige ferme et les incorporer délicatement au mélange de mascarpone',
           de: 'Eiweiß steif schlagen und vorsichtig unter die Mascarpone-Mischung heben',
@@ -1087,7 +1217,7 @@ export const italy: Country = {
         },
         {
           en: 'Quickly dip ladyfingers in coffee and arrange in a single layer in a dish',
-          sv: 'Doppa snabbt ladyfingers i kaffe och arrangera i ett enda lager i en skål',
+          sv: 'Doppa savoiardikexen snabbt i kaffet och lägg dem i ett enda lager i en form',
           es: 'Sumerja rápidamente los bizcochos en café y colóquelos en una sola capa en un plato',
           fr: 'Trempez rapidement les boudoirs dans le café et disposez-les en une seule couche dans un plat',
           de: 'Löffelbiskuits kurz in Kaffee tauchen und in einer einzigen Schicht in einer Schüssel anrichten',
@@ -1098,7 +1228,7 @@ export const italy: Country = {
         },
         {
           en: 'Spread half the mascarpone cream over the ladyfingers',
-          sv: 'Bred hälften av mascarponekrämen över ladyfingers',
+          sv: 'Bred ut hälften av mascarponekrämen över kexen',
           es: 'Unta la mitad de la crema de mascarpone sobre los bizcochos',
           fr: 'Étalez la moitié de la crème mascarpone sur les boudoirs',
           de: 'Die Hälfte der Mascarpone-Creme auf den Löffelbiskuits verteilen',
@@ -1109,7 +1239,7 @@ export const italy: Country = {
         },
         {
           en: 'Repeat with another layer of dipped ladyfingers and remaining cream',
-          sv: 'Upprepa med ytterligare ett lager av doppade ladyfingers och resterande grädde',
+          sv: 'Upprepa med ytterligare ett lager doppade kex och resten av krämen',
           es: 'Repita con otra capa de bizcochos bañados y la crema restante',
           fr: 'Répétez avec une autre couche de boudoirs trempés et le reste de la crème',
           de: 'Wiederholen Sie den Vorgang mit einer weiteren Schicht eingetauchter Löffelbiskuits und der restlichen Sahne',
@@ -1120,7 +1250,7 @@ export const italy: Country = {
         },
         {
           en: 'Dust generously with cocoa powder',
-          sv: 'Pudra generöst med kakaopulver',
+          sv: 'Pudra rikligt med kakaopulver',
           es: 'Espolvoree generosamente con cacao en polvo',
           fr: 'Saupoudrer généreusement de poudre de cacao',
           de: 'Großzügig mit Kakaopulver bestäuben',
@@ -1131,7 +1261,7 @@ export const italy: Country = {
         },
         {
           en: 'Refrigerate for at least 4 hours before serving',
-          sv: 'Kyl i minst 4 timmar innan servering',
+          sv: 'Ställ i kylen i minst 4 timmar före servering',
           es: 'Refrigere durante al menos 4 horas antes de servir',
           fr: 'Réfrigérer au moins 4 heures avant de servir',
           de: 'Vor dem Servieren mindestens 4 Stunden im Kühlschrank lagern',
@@ -1299,7 +1429,7 @@ export const italy: Country = {
           },
           {
             en: 'Mount Vulcano',
-            sv: 'Mount Vulcano',
+            sv: 'Vulcano',
             es: 'Monte Volcán',
             fr: 'Mont Vulcan',
             de: 'Vulkan',
@@ -1765,7 +1895,7 @@ export const italy: Country = {
           },
           {
             en: 'Panna Cotta',
-            sv: 'Panna Cotta',
+            sv: 'Pannacotta',
             es: 'Panna Cota',
             fr: 'Panna Cotta',
             de: 'Panna Cotta',

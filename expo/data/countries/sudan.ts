@@ -230,8 +230,28 @@ export const sudan: Country = {
     },
     history: [
       {
-        year: '3000-500 BC',
-        title: 'Nubian Agricultural Civilization',
+        year: {
+          en: '3000-500 BC',
+          sv: '3000–500 f.Kr.',
+          es: '3000–500 a. C.',
+          fr: '3000–500 av. J.-C.',
+          de: '3000–500 v. Chr.',
+          it: '3000–500 a.C.',
+          pl: '3000–500 p.n.e.',
+          nl: '3000–500 v.Chr.',
+          pt: '3000–500 a.C.',
+        },
+        title: {
+          en: 'Nubian Agricultural Civilization',
+          sv: 'Nubisk jordbrukscivilisation',
+          es: 'Civilización agrícola nubia',
+          fr: 'Civilisation agricole nubienne',
+          de: 'Nubische Ackerbaukultur',
+          it: 'Civiltà agricola nubiana',
+          pl: 'Nubijska cywilizacja rolnicza',
+          nl: 'Nubische landbouwbeschaving',
+          pt: 'Civilização agrícola núbia',
+        },
         description: {
           en: 'Ancient Nubian kingdoms develop sophisticated grain cultivation including barley, millet, and sorghum. These grains become the foundation of Sudanese food culture and storage traditions.',
           sv: 'Gamla nubiska kungadömen utvecklar sofistikerad spannmålsodling inklusive korn, hirs och durra. Dessa spannmål blir grunden för sudanesisk matkultur och lagringstraditioner.',
@@ -245,8 +265,28 @@ export const sudan: Country = {
         },
       },
       {
-        year: '1000-1500 AD',
-        title: 'Date Palm and Oasis Agriculture',
+        year: {
+          en: '1000-1500 AD',
+          sv: '1000–1500 e.Kr.',
+          es: '1000–1500 d. C.',
+          fr: '1000–1500 apr. J.-C.',
+          de: '1000–1500 n. Chr.',
+          it: '1000–1500 d.C.',
+          pl: '1000–1500 n.e.',
+          nl: '1000–1500 n.Chr.',
+          pt: '1000–1500 d.C.',
+        },
+        title: {
+          en: 'Date Palm and Oasis Agriculture',
+          sv: 'Dadelpalmer och oasodling',
+          es: 'Palmeras datileras y agricultura de oasis',
+          fr: 'Palmiers dattiers et agriculture des oasis',
+          de: 'Dattelpalmen und Oasenlandwirtschaft',
+          it: 'Palme da dattero e agricoltura delle oasi',
+          pl: 'Palmy daktylowe i rolnictwo oazowe',
+          nl: 'Dadelpalmen en oaselandbouw',
+          pt: 'Tamareiras e agricultura de oásis',
+        },
         description: {
           en: 'Date palm cultivation flourishes in Nile regions and oasis settlements, providing essential nutrition, natural sweetness, and preservation methods that shape Sudanese culinary identity.',
           sv: 'Dadelpalmsodling blomstrar i Nilregionerna och oasisbosättningar, vilket ger väsentlig näring, naturlig söta och konserveringsmetoder som formar sudanesisk kulinarisk identitet.',
@@ -261,7 +301,17 @@ export const sudan: Country = {
       },
       {
         year: '1500-1800',
-        title: 'Integration of Okra and Spices',
+        title: {
+          en: 'Integration of Okra and Spices',
+          sv: 'Okra och kryddor gör entré',
+          es: 'Integración de la okra y las especias',
+          fr: 'Intégration du gombo et des épices',
+          de: 'Okra und Gewürze halten Einzug',
+          it: 'Integrazione di okra e spezie',
+          pl: 'Wprowadzenie okry i przypraw',
+          nl: 'Okra en specerijen doen hun intrede',
+          pt: 'Integração do quiabo e das especiarias',
+        },
         description: {
           en: 'Okra becomes increasingly prominent in stews and soups, while trade networks bring cumin, coriander, and cardamom, establishing the spice foundation for traditional Sudanese dishes.',
           sv: 'Okra blir allt mer framträdande i grytor och soppor, medan handelsvägar för kumin, koriander och kardamom, vilket etablerar kryddgrunden för traditionella sudanesiska rätter.',
@@ -275,8 +325,28 @@ export const sudan: Country = {
         },
       },
       {
-        year: '1800-Present',
-        title: 'Nomadic Pastoralist Traditions',
+        year: {
+          en: '1800-Present',
+          sv: '1800–idag',
+          es: '1800–actualidad',
+          fr: '1800–aujourd\'hui',
+          de: '1800–heute',
+          it: '1800–oggi',
+          pl: '1800–obecnie',
+          nl: '1800–heden',
+          pt: '1800–presente',
+        },
+        title: {
+          en: 'Nomadic Pastoralist Traditions',
+          sv: 'Nomadiska herdetraditioner',
+          es: 'Tradiciones pastoriles nómadas',
+          fr: 'Traditions pastorales nomades',
+          de: 'Nomadische Hirtentraditionen',
+          it: 'Tradizioni pastorali nomadi',
+          pl: 'Tradycje koczowniczych pasterzy',
+          nl: 'Nomadische herderstradities',
+          pt: 'Tradições pastoris nômades',
+        },
         description: {
           en: 'Pastoral communities across Sudan maintain ancient herding practices, developing distinctive meat preparations, milk products, and nomadic cooking methods that persist as cultural cornerstones.',
           sv: 'Pastoralsamhällen över Sudan upprätthåller gamla vallningsmetoder, utvecklar distinkta köttpreparer, mjölkprodukter och nomadiska lagningsmetoder som kvarstår som kulturella hörnstenar.',
@@ -294,7 +364,7 @@ export const sudan: Country = {
       {
         name: {
           en: 'Meroe Pyramids',
-          sv: 'Meroe pyramiderna',
+          sv: 'Pyramiderna i Meroë',
           es: 'Pirámides de Meroe',
           fr: 'Pyramides de Méroé',
           de: 'Pyramiden von Meroe',
@@ -342,7 +412,7 @@ export const sudan: Country = {
       {
         name: {
           en: 'Khartoum Confluence',
-          sv: 'Khartoum Confluence',
+          sv: 'Nilernas sammanflöde i Khartoum',
           es: 'Confluencia de Jartum',
           fr: 'Confluence de Khartoum',
           de: 'Zusammenfluss von Khartum',
@@ -414,7 +484,17 @@ export const sudan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa required in advance. Apply at Sudanese embassy before travel.',
           sv: 'Visum krävs i förväg. Ansök på Sudans ambassad innan resan.',
@@ -428,7 +508,17 @@ export const sudan: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to February for cooler weather. Summer can exceed 45°C.',
           sv: 'November till februari för svalare väder. Sommaren kan överstiga 45°C.',
@@ -442,7 +532,17 @@ export const sudan: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Check current travel advisories. Some regions have travel restrictions.',
           sv: 'Kontrollera aktuella resemeddelanden. Vissa regioner har resebegränsningar.',
@@ -456,7 +556,17 @@ export const sudan: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Arabic is essential. English spoken in tourist areas and by educated population.',
           sv: 'Arabiska är viktigt. Engelska talas i turistområden och av utbildad befolkning.',
@@ -470,7 +580,17 @@ export const sudan: Country = {
         },
       },
       {
-        item: 'Dress code',
+        item: {
+          en: 'Dress code',
+          sv: 'Klädkod',
+          es: 'Código de vestimenta',
+          fr: 'Code vestimentaire',
+          de: 'Kleiderordnung',
+          it: 'Codice di abbigliamento',
+          pl: 'Zasady ubioru',
+          nl: 'Kledingvoorschriften',
+          pt: 'Código de vestimenta',
+        },
         description: {
           en: 'Modest clothing required, especially for women. Respect Islamic customs.',
           sv: 'Anspråkslösa kläder krävs, särskilt för kvinnor. Respektera islamiska seder.',
@@ -497,7 +617,17 @@ export const sudan: Country = {
           nl: 'Nubische piramidearchitectuur',
           pt: 'Arquitetura das pirâmides núbias',
         },
-        year: '700 BC',
+        year: {
+          en: '700 BC',
+          sv: '700 f.Kr.',
+          es: '700 a. C.',
+          fr: '700 av. J.-C.',
+          de: '700 v. Chr.',
+          it: '700 a.C.',
+          pl: '700 p.n.e.',
+          nl: '700 v.Chr.',
+          pt: '700 a.C.',
+        },
         description: {
           en: 'Distinctive steep-sided pyramid design, building over 200 pyramids across Sudan',
           sv: 'Distinkt pyramiddesign med branta sidor som bygger över 200 pyramider i Sudan',
@@ -522,7 +652,17 @@ export const sudan: Country = {
           nl: 'Oude ijzerbewerking',
           pt: 'Antiga metalurgia do ferro',
         },
-        year: '6th Century BC',
+        year: {
+          en: '6th Century BC',
+          sv: '500-talet f.Kr.',
+          es: 'siglo VI a. C.',
+          fr: 'VIe siècle av. J.-C.',
+          de: '6. Jahrhundert v. Chr.',
+          it: 'VI secolo a.C.',
+          pl: 'VI wiek p.n.e.',
+          nl: '6e eeuw v.Chr.',
+          pt: 'século VI a.C.',
+        },
         description: {
           en: 'Kingdom of Kush pioneered iron smelting in Africa, producing superior weapons and tools',
           sv: 'Kingdom of Kush var pionjär inom järnsmältning i Afrika och producerade överlägsna vapen och verktyg',
@@ -547,7 +687,17 @@ export const sudan: Country = {
           nl: 'Meroïtisch schrift',
           pt: 'Escrita meroítica',
         },
-        year: '3rd Century BC',
+        year: {
+          en: '3rd Century BC',
+          sv: '200-talet f.Kr.',
+          es: 'Siglo III a. C.',
+          fr: 'IIIe siècle av. J.-C.',
+          de: '3. Jahrhundert v. Chr.',
+          it: 'III secolo a.C.',
+          pl: 'III wiek p.n.e.',
+          nl: '3e eeuw v.Chr.',
+          pt: 'Século III a.C.',
+        },
         description: {
           en: 'Development of unique alphabetic writing system independent of Egyptian hieroglyphs',
           sv: 'Utveckling av unikt alfabetiskt skriftsystem oberoende av egyptiska hieroglyfer',
@@ -565,7 +715,7 @@ export const sudan: Country = {
       id: 'sudan-main',
       name: {
         en: 'Ful Medames',
-        sv: 'Fullständiga Medames',
+        sv: 'Ful medames',
         es: 'Ful Medames',
         fr: 'Ful Médames',
         de: 'Ful Medames',
@@ -576,7 +726,7 @@ export const sudan: Country = {
       },
       description: {
         en: 'Slow-cooked fava beans seasoned with olive oil, garlic, cumin, and lemon, served with bread and toppings.',
-        sv: 'Långtidskokta favabönor kryddade med olivolja, vitlök, spiskummin och citron, serverade med bröd och pålägg.',
+        sv: 'Långkokta bondbönor smaksatta med olivolja, vitlök, spiskummin och citron, serverade med bröd och olika tillbehör.',
         es: 'Habas cocidas a fuego lento sazonadas con aceite de oliva, ajo, comino y limón, servidas con pan y aderezos.',
         fr: 'Fèves mijotées assaisonnées d\'huile d\'olive, d\'ail, de cumin et de citron, servies avec du pain et des garnitures.',
         de: 'Langsam gekochte Ackerbohnen, gewürzt mit Olivenöl, Knoblauch, Kreuzkümmel und Zitrone, serviert mit Brot und Topping.',
@@ -603,7 +753,7 @@ export const sudan: Country = {
         {
           name: {
             en: 'Dried fava beans',
-            sv: 'Torkade favabönor',
+            sv: 'Torkade bondbönor',
             es: 'Habas secas',
             fr: 'Fèves séchées',
             de: 'Getrocknete Ackerbohnen',
@@ -693,7 +843,7 @@ export const sudan: Country = {
         {
           name: {
             en: 'Cumin',
-            sv: 'Kummin',
+            sv: 'Spiskummin',
             es: 'Comino',
             fr: 'Cumin',
             de: 'Kreuzkümmel',
@@ -760,7 +910,7 @@ export const sudan: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -799,7 +949,7 @@ export const sudan: Country = {
       steps: [
         {
           en: 'Soak fava beans overnight in plenty of water',
-          sv: 'Blötlägg favabönor över natten i mycket vatten',
+          sv: 'Blötlägg bönorna över natten i rikligt med vatten',
           es: 'Remojar las habas durante la noche en abundante agua',
           fr: 'Faire tremper les fèves toute la nuit dans beaucoup d\'eau',
           de: 'Ackerbohnen über Nacht in reichlich Wasser einweichen',
@@ -810,7 +960,7 @@ export const sudan: Country = {
         },
         {
           en: 'Drain, cover with fresh water, and simmer until very tender (about 60 minutes)',
-          sv: 'Häll av, täck med färskt vatten och låt sjuda tills det är mycket mjukt (cirka 60 minuter)',
+          sv: 'Häll av, täck med nytt vatten och låt sjuda tills bönorna är mycket mjuka (cirka 60 minuter)',
           es: 'Escurrir, cubrir con agua fresca y cocinar a fuego lento hasta que esté muy tierno (unos 60 minutos)',
           fr: 'Égoutter, couvrir d\'eau fraîche et laisser mijoter jusqu\'à ce qu\'il soit très tendre (environ 60 minutes)',
           de: 'Abgießen, mit frischem Wasser bedecken und köcheln lassen, bis es sehr zart ist (ca. 60 Minuten)',
@@ -821,7 +971,7 @@ export const sudan: Country = {
         },
         {
           en: 'Mash some beans while keeping some whole for texture',
-          sv: 'Mosa några bönor samtidigt som de behålls hela för konsistensen',
+          sv: 'Mosa en del av bönorna men låt några vara hela för konsistensens skull',
           es: 'Triture algunos frijoles y mantenga algunos enteros para darle textura',
           fr: 'Écrasez quelques haricots tout en en gardant quelques-uns entiers pour la texture',
           de: 'Einige Bohnen zerdrücken, einige davon ganz lassen, damit die Konsistenz entsteht',
@@ -832,7 +982,7 @@ export const sudan: Country = {
         },
         {
           en: 'Stir in minced garlic, cumin, and salt',
-          sv: 'Rör ner hackad vitlök, spiskummin och salt',
+          sv: 'Rör ner finhackad vitlök, spiskummin och salt',
           es: 'Agregue el ajo picado, el comino y la sal',
           fr: 'Incorporer l\'ail émincé, le cumin et le sel',
           de: 'Gehackten Knoblauch, Kreuzkümmel und Salz unterrühren',
@@ -843,7 +993,7 @@ export const sudan: Country = {
         },
         {
           en: 'Drizzle generously with olive oil and lemon juice',
-          sv: 'Ringla rejält med olivolja och citronsaft',
+          sv: 'Ringla över rikligt med olivolja och citronsaft',
           es: 'Rocíe generosamente con aceite de oliva y jugo de limón.',
           fr: 'Arroser généreusement d\'huile d\'olive et de jus de citron',
           de: 'Großzügig mit Olivenöl und Zitronensaft beträufeln',
@@ -1005,7 +1155,7 @@ export const sudan: Country = {
         {
           name: {
             en: 'Desiccated coconut (optional)',
-            sv: 'Torkad kokosnöt (valfritt)',
+            sv: 'Riven kokos (valfritt)',
             es: 'Coco desecado (opcional)',
             fr: 'Noix de coco desséchée (facultatif)',
             de: 'Kokosraspeln (optional)',
@@ -1020,7 +1170,7 @@ export const sudan: Country = {
         {
           name: {
             en: 'Almonds (for topping)',
-            sv: 'Mandel (för topping)',
+            sv: 'Mandel (till topping)',
             es: 'Almendras (para cubrir)',
             fr: 'Amandes (pour la garniture)',
             de: 'Mandeln (zum Garnieren)',
@@ -1100,7 +1250,7 @@ export const sudan: Country = {
         {
           name: {
             en: 'Syrup: rose or orange blossom water (optional)',
-            sv: 'Sirap: rosen- eller apelsinblomvatten (valfritt)',
+            sv: 'Sirap: rosvatten eller apelsinblomvatten (valfritt)',
             es: 'Almíbar: agua de rosas o de azahar (opcional)',
             fr: 'Sirop : eau de rose ou de fleur d\'oranger (facultatif)',
             de: 'Sirup: Rosen- oder Orangenblütenwasser (optional)',
@@ -1127,7 +1277,7 @@ export const sudan: Country = {
         },
         {
           en: 'Mix semolina, sugar, baking powder, and coconut (if using)',
-          sv: 'Blanda mannagryn, socker, bakpulver och kokos (om du använder)',
+          sv: 'Blanda mannagryn, socker, bakpulver och eventuellt kokos',
           es: 'Mezcle sémola, azúcar, levadura en polvo y coco (si lo usa)',
           fr: 'Mélanger la semoule, le sucre, la levure chimique et la noix de coco (si utilisée)',
           de: 'Grieß, Zucker, Backpulver und Kokosnuss (falls verwendet) mischen',
@@ -1149,7 +1299,7 @@ export const sudan: Country = {
         },
         {
           en: 'Spread batter into dish and score into diamond shapes',
-          sv: 'Bred ut smeten i formen och skär till diamantformer',
+          sv: 'Bred ut smeten i formen och skåra ytan i romber',
           es: 'Extienda la masa en un plato y márquela en forma de diamante',
           fr: 'Étalez la pâte dans le plat et incisez en forme de losange',
           de: 'Den Teig in einer Form verteilen und rautenförmig einritzen',
@@ -1160,7 +1310,7 @@ export const sudan: Country = {
         },
         {
           en: 'Press an almond into each piece',
-          sv: 'Tryck ut en mandel i varje bit',
+          sv: 'Tryck ner en mandel i varje bit',
           es: 'Presione una almendra en cada trozo',
           fr: 'Presser une amande dans chaque morceau',
           de: 'In jedes Stück eine Mandel drücken',
@@ -1171,7 +1321,7 @@ export const sudan: Country = {
         },
         {
           en: 'Bake for 30–35 minutes until golden',
-          sv: 'Grädda i 30–35 minuter tills de är gyllene',
+          sv: 'Grädda i 30–35 minuter tills kakan är gyllene',
           es: 'Hornee durante 30 a 35 minutos hasta que esté dorado',
           fr: 'Cuire au four pendant 30 à 35 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '30–35 Minuten goldbraun backen',
@@ -1182,7 +1332,7 @@ export const sudan: Country = {
         },
         {
           en: 'Meanwhile make syrup: simmer sugar and water 8–10 minutes',
-          sv: 'Gör under tiden sirap: låt sjuda socker och vatten 8–10 minuter',
+          sv: 'Gör under tiden sirapen: låt socker och vatten sjuda i 8–10 minuter',
           es: 'Mientras tanto, prepare el almíbar: cocine a fuego lento el azúcar y el agua durante 8 a 10 minutos',
           fr: 'Pendant ce temps, préparez le sirop : laissez mijoter le sucre et l\'eau 8 à 10 minutes',
           de: 'In der Zwischenzeit Sirup zubereiten: Zucker und Wasser 8–10 Minuten köcheln lassen',
@@ -1193,7 +1343,7 @@ export const sudan: Country = {
         },
         {
           en: 'Add lemon juice and optional rose/orange blossom water, then remove from heat',
-          sv: 'Tillsätt citronsaft och valfritt ros-/apelsinblomsvatten och ta sedan bort från värmen',
+          sv: 'Tillsätt citronsaft och eventuellt rosvatten eller apelsinblomvatten och dra sedan kastrullen från värmen',
           es: 'Agregue jugo de limón y agua de rosas/azahar opcional, luego retire del fuego',
           fr: 'Ajouter le jus de citron et éventuellement l\'eau de rose/fleur d\'oranger, puis retirer du feu',
           de: 'Zitronensaft und optional Rosen-/Orangenblütenwasser hinzufügen und dann vom Herd nehmen',
@@ -1204,7 +1354,7 @@ export const sudan: Country = {
         },
         {
           en: 'Pour warm syrup over the hot cake and let soak 15 minutes',
-          sv: 'Häll varm sirap över den varma kakan och låt dra i 15 minuter',
+          sv: 'Häll den varma sirapen över den heta kakan och låt dra i 15 minuter',
           es: 'Vierta almíbar tibio sobre el hot cake y déjelo en remojo 15 minutos',
           fr: 'Versez le sirop tiède sur le gâteau chaud et laissez tremper 15 minutes',
           de: 'Den heißen Kuchen mit warmem Sirup übergießen und 15 Minuten einweichen lassen',
@@ -1215,7 +1365,7 @@ export const sudan: Country = {
         },
         {
           en: 'Serve once fully absorbed (warm or room temperature)',
-          sv: 'Servera när den är helt absorberad (varm eller rumstemperatur)',
+          sv: 'Servera när sirapen har sugits upp helt (varm eller rumstempererad)',
           es: 'Servir una vez completamente absorbido (tibio o a temperatura ambiente)',
           fr: 'Servir une fois complètement absorbé (tiède ou à température ambiante)',
           de: 'Nach dem vollständigen Einziehen servieren (warm oder bei Zimmertemperatur)',

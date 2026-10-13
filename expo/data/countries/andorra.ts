@@ -230,8 +230,28 @@ export const andorra: Country = {
     },
     history: [
       {
-        year: '9th Century',
-        title: 'Foundation',
+        year: {
+          en: '9th Century',
+          sv: '800-talet',
+          es: 'siglo IX',
+          fr: 'IXe siècle',
+          de: '9. Jahrhundert',
+          it: 'IX secolo',
+          pl: 'IX wiek',
+          nl: '9e eeuw',
+          pt: 'século IX',
+        },
+        title: {
+          en: 'Foundation',
+          sv: 'Grundandet',
+          es: 'Fundación',
+          fr: 'Fondation',
+          de: 'Gründung',
+          it: 'Fondazione',
+          pl: 'Początki',
+          nl: 'Ontstaan',
+          pt: 'Fundação',
+        },
         description: {
           en: 'Charlemagne granted a charter to Andorran people in recognition of their support against the Moors.',
           sv: 'Karl den Store beviljade en stadga till folket i Andorra som ett erkännande av deras stöd mot morerna.',
@@ -246,7 +266,17 @@ export const andorra: Country = {
       },
       {
         year: '1278',
-        title: 'Co-Principality Established',
+        title: {
+          en: 'Co-Principality Established',
+          sv: 'Samfurstendömet grundas',
+          es: 'Creación del coprincipado',
+          fr: 'Naissance de la coprincipauté',
+          de: 'Gründung des Kofürstentums',
+          it: 'Istituzione del coprincipato',
+          pl: 'Ustanowienie współksięstwa',
+          nl: 'Instelling van het co-vorstendom',
+          pt: 'Criação do coprincipado',
+        },
         description: {
           en: 'The co-principality system was established, with two co-princes sharing sovereignty—a unique governance structure that continues today.',
           sv: 'Samfurstendömets system etablerades, med två medprinsar som delar suveränitet – en unik förvaltningsstruktur som fortsätter idag.',
@@ -261,7 +291,17 @@ export const andorra: Country = {
       },
       {
         year: '1933',
-        title: 'Universal Male Suffrage',
+        title: {
+          en: 'Universal Male Suffrage',
+          sv: 'Allmän rösträtt för män',
+          es: 'Sufragio universal masculino',
+          fr: 'Suffrage universel masculin',
+          de: 'Allgemeines Männerwahlrecht',
+          it: 'Suffragio universale maschile',
+          pl: 'Powszechne prawo wyborcze dla mężczyzn',
+          nl: 'Algemeen mannenkiesrecht',
+          pt: 'Sufrágio universal masculino',
+        },
         description: {
           en: 'Andorra introduced voting rights for men, beginning its slow transition toward modern democracy.',
           sv: 'Andorra införde rösträtt för män och började sin långsamma övergång mot modern demokrati.',
@@ -276,7 +316,17 @@ export const andorra: Country = {
       },
       {
         year: '1993',
-        title: 'Modern Constitution',
+        title: {
+          en: 'Modern Constitution',
+          sv: 'Modern grundlag',
+          es: 'Constitución moderna',
+          fr: 'Constitution moderne',
+          de: 'Moderne Verfassung',
+          it: 'Costituzione moderna',
+          pl: 'Nowoczesna konstytucja',
+          nl: 'Moderne grondwet',
+          pt: 'Constituição moderna',
+        },
         description: {
           en: 'Andorra adopted its first written constitution, becoming a parliamentary democracy while maintaining its traditional co-princes.',
           sv: 'Andorra antog sin första skrivna konstitution och blev en parlamentarisk demokrati samtidigt som de behöll sina traditionella medprinsar.',
@@ -328,7 +378,17 @@ export const andorra: Country = {
           nl: 'Belastingvrije handel',
           pt: 'Comércio isento de impostos',
         },
-        year: '20th Century',
+        year: {
+          en: '20th Century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Andorra developed a tax-haven economy that attracted international commerce and tourism.',
           sv: 'Andorra utvecklade ett skatteparadis som lockade internationell handel och turism.',
@@ -353,7 +413,17 @@ export const andorra: Country = {
           nl: 'Veerkracht in de bergen',
           pt: 'Resiliência de montanha',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Andorrans developed unique architectural and agricultural techniques adapted to steep mountain terrain.',
           sv: 'Andorranerna utvecklade unika arkitektur- och jordbrukstekniker anpassade till brant bergsterräng.',
@@ -491,7 +561,17 @@ export const andorra: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December-March for skiing; June-September for hiking and mountain activities.',
           sv: 'December-mars för skidåkning; Juni-september för vandring och fjällaktiviteter.',
@@ -505,7 +585,17 @@ export const andorra: Country = {
         },
       },
       {
-        item: 'Getting there',
+        item: {
+          en: 'Getting there',
+          sv: 'Att ta sig dit',
+          es: 'Cómo llegar',
+          fr: 'S\'y rendre',
+          de: 'Anreise',
+          it: 'Come arrivare',
+          pl: 'Dojazd',
+          nl: 'Bereikbaarheid',
+          pt: 'Como chegar',
+        },
         description: {
           en: 'No airport or train—access via bus or car from Barcelona (3 hours) or Toulouse (2.5 hours).',
           sv: 'Ingen flygplats eller tåg—åtkomst via buss eller bil från Barcelona (3 timmar) eller Toulouse (2,5 timmar).',
@@ -519,7 +609,17 @@ export const andorra: Country = {
         },
       },
       {
-        item: 'Shopping',
+        item: {
+          en: 'Shopping',
+          sv: 'Shopping',
+          es: 'Compras',
+          fr: 'Shopping',
+          de: 'Einkaufen',
+          it: 'Shopping',
+          pl: 'Zakupy',
+          nl: 'Winkelen',
+          pt: 'Compras',
+        },
         description: {
           en: 'Take advantage of duty-free shopping for electronics, perfumes, and alcohol.',
           sv: 'Dra nytta av taxfree-shopping för elektronik, parfymer och alkohol.',
@@ -533,7 +633,17 @@ export const andorra: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Catalan is official but Spanish and French are widely spoken; English in tourist areas.',
           sv: 'Katalanska är officiellt men spanska och franska talas ofta; engelska i turistområden.',
@@ -571,7 +681,17 @@ export const andorra: Country = {
         },
       },
       {
-        item: 'Layers',
+        item: {
+          en: 'Layers',
+          sv: 'Lager på lager',
+          es: 'Vestirse por capas',
+          fr: 'S\'habiller en couches',
+          de: 'Zwiebellook',
+          it: 'Vestirsi a strati',
+          pl: 'Ubranie na cebulkę',
+          nl: 'Laagjes dragen',
+          pt: 'Vestir-se em camadas',
+        },
         description: {
           en: 'Mountain weather changes quickly—bring warm clothing even in summer.',
           sv: 'Bergsvädret förändras snabbt – ta med varma kläder även på sommaren.',
@@ -600,7 +720,7 @@ export const andorra: Country = {
       },
       description: {
         en: 'Andorra\'s most iconic winter comfort food: a slow-simmered meat-and-vegetable stew, traditionally served in two parts (broth with pasta first, then the meats and vegetables).',
-        sv: 'Andorras mest ikoniska vintermat: en långsamt sjudad kött- och grönsaksgryta, traditionellt serverad i två delar (buljong med pasta först, sedan kött och grönsaker).',
+        sv: 'Andorras mest klassiska vinterrätt: en långsamt sjudad gryta på kött och grönsaker, som traditionellt serveras i två omgångar (först buljong med pasta, sedan kött och grönsaker).',
         es: 'La comida reconfortante de invierno más emblemática de Andorra: un guiso de carne y verduras a fuego lento, servido tradicionalmente en dos partes (primero el caldo con la pasta, luego las carnes y las verduras).',
         fr: 'Le plat réconfortant hivernal le plus emblématique d\'Andorre : un ragoût de viande et de légumes mijoté lentement, traditionnellement servi en deux parties (le bouillon avec les pâtes d\'abord, puis les viandes et les légumes).',
         de: 'Andorras kultigstes winterliches Wohlfühlessen: ein langsam geköchelter Fleisch-Gemüse-Eintopf, der traditionell in zwei Teilen serviert wird (zuerst Brühe mit Nudeln, dann Fleisch und Gemüse).',
@@ -642,7 +762,7 @@ export const andorra: Country = {
         {
           name: {
             en: 'Chicken pieces (bone-in)',
-            sv: 'Kycklingbitar (utbenade)',
+            sv: 'Kycklingbitar (med ben)',
             es: 'Trozos de pollo (con hueso)',
             fr: 'Morceaux de poulet (avec os)',
             de: 'Hähnchenstücke (mit Knochen)',
@@ -672,7 +792,7 @@ export const andorra: Country = {
         {
           name: {
             en: 'Chorizo (or other smoked sausage)',
-            sv: 'Chorizo ​​(eller annan rökt korv)',
+            sv: 'Chorizo (eller annan rökt korv)',
             es: 'Chorizo ​​(u otra salchicha ahumada)',
             fr: 'Chorizo ​​(ou autre saucisse fumée)',
             de: 'Chorizo ​​(oder andere geräucherte Wurst)',
@@ -717,7 +837,7 @@ export const andorra: Country = {
         {
           name: {
             en: 'Cabbage (green or savoy)',
-            sv: 'Kål (grön eller savoy)',
+            sv: 'Vitkål eller savojkål',
             es: 'Repollo (verde o col rizada)',
             fr: 'Chou (vert ou de Milan)',
             de: 'Kohl (Grünkohl oder Wirsing)',
@@ -769,7 +889,7 @@ export const andorra: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -794,7 +914,7 @@ export const andorra: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -832,7 +952,7 @@ export const andorra: Country = {
         {
           name: {
             en: 'Large pasta shells (or short pasta)',
-            sv: 'Stora pastaskal (eller kort pasta)',
+            sv: 'Stora pastasnäckor (eller kort pasta)',
             es: 'Conchas de pasta grandes (o pasta corta)',
             fr: 'Grosses coquilles de pâtes (ou pâtes courtes)',
             de: 'Große Nudelschalen (oder kurze Nudeln)',
@@ -954,7 +1074,7 @@ export const andorra: Country = {
         },
         {
           en: 'Build the stew base: In a large heavy pot (6–8 liters), add pork ribs, chicken, bacon/pancetta, bay leaves, pepper, and 3,000 ml water. Bring to a boil over high heat.',
-          sv: 'Bygg grytabotten: I en stor tjock gryta (6–8 liter), tillsätt fläsk, kyckling, bacon/pancetta, lagerblad, peppar och 3 000 ml vatten. Koka upp på hög värme.',
+          sv: 'Grunden till grytan: Lägg revbensspjäll, kyckling, bacon/pancetta, lagerblad, peppar och 3 000 ml vatten i en stor, tjockbottnad gryta (6–8 liter). Koka upp på hög värme.',
           es: 'Prepare la base del guiso: en una olla grande y pesada (de 6 a 8 litros), agregue las costillas de cerdo, el pollo, el tocino/panceta, las hojas de laurel, la pimienta y 3000 ml de agua. Llevar a ebullición a fuego alto.',
           fr: 'Construisez la base du ragoût : dans une grande casserole à fond épais (6 à 8 litres), ajoutez les côtes de porc, le poulet, le bacon/pancetta, les feuilles de laurier, le poivre et 3 000 ml d\'eau. Porter à ébullition à feu vif.',
           de: 'Den Eintopfboden aufbauen: In einen großen, schweren Topf (6–8 Liter) Schweinerippchen, Hühnchen, Speck/Pancetta, Lorbeerblätter, Pfeffer und 3.000 ml Wasser geben. Bei starker Hitze zum Kochen bringen.',
@@ -965,7 +1085,7 @@ export const andorra: Country = {
         },
         {
           en: 'Skim: As foam rises, skim with a spoon for 5–8 minutes until the broth looks cleaner.',
-          sv: 'Skumma: När skummet stiger, skumma med en sked i 5–8 minuter tills buljongen ser renare ut.',
+          sv: 'Skumma: Skumma av med en sked i 5–8 minuter allteftersom skummet flyter upp, tills buljongen ser klarare ut.',
           es: 'Descremado: A medida que sube la espuma, desnatar con una cuchara durante 5 a 8 minutos hasta que el caldo luzca más limpio.',
           fr: 'Écrémer : Au fur et à mesure que la mousse monte, écumer avec une cuillère pendant 5 à 8 minutes jusqu\'à ce que le bouillon paraisse plus propre.',
           de: 'Abschäumen: Wenn der Schaum aufsteigt, 5–8 Minuten lang mit einem Löffel abschöpfen, bis die Brühe sauberer aussieht.',
@@ -976,7 +1096,7 @@ export const andorra: Country = {
         },
         {
           en: 'Simmer: Reduce heat to low so it gently bubbles. Cover partially and simmer for 45 minutes.',
-          sv: 'Sjud: Sänk värmen till låg så att det bubblar försiktigt. Täck delvis över och låt sjuda i 45 minuter.',
+          sv: 'Sjud: Sänk till låg värme så att det bara puttrar. Lägg på locket på glänt och låt sjuda i 45 minuter.',
           es: 'Cocine a fuego lento: reduzca el fuego a bajo para que burbujee suavemente. Cubra parcialmente y cocine a fuego lento durante 45 minutos.',
           fr: 'Laisser mijoter : réduire le feu à doux pour que le mélange bouillonne doucement. Couvrir partiellement et laisser mijoter 45 minutes.',
           de: 'Köcheln lassen: Reduzieren Sie die Hitze auf einen niedrigen Wert, sodass leicht Blasen entstehen. Teilweise abdecken und 45 Minuten köcheln lassen.',
@@ -987,7 +1107,7 @@ export const andorra: Country = {
         },
         {
           en: 'Add beans: Stir in the soaked beans. Simmer (partially covered) for 40 minutes.',
-          sv: 'Tillsätt bönor: Rör ner de blötlagda bönorna. Sjud (delvis täckt) i 40 minuter.',
+          sv: 'Tillsätt bönorna: Rör ner de blötlagda bönorna. Låt sjuda (med locket på glänt) i 40 minuter.',
           es: 'Agregue los frijoles: agregue los frijoles remojados. Cocine a fuego lento (parcialmente cubierto) durante 40 minutos.',
           fr: 'Ajouter les haricots : Incorporer les haricots trempés. Laisser mijoter (partiellement couvert) pendant 40 minutes.',
           de: 'Bohnen hinzufügen: Die eingeweichten Bohnen unterrühren. 40 Minuten (teilweise abgedeckt) köcheln lassen.',
@@ -998,7 +1118,7 @@ export const andorra: Country = {
         },
         {
           en: 'Add aromatics: Add onion (halved), leek (in 2–3 pieces), carrots (chunked), and whole garlic cloves. Simmer 20 minutes.',
-          sv: 'Tillsätt aromater: Tillsätt lök (halverad), purjolök (i 2–3 bitar), morötter (bitar) och hela vitlöksklyftor. Sjud i 20 minuter.',
+          sv: 'Tillsätt aromaterna: Lägg i löken (halverad), purjolöken (i 2–3 bitar), morötterna (i bitar) och hela vitlöksklyftor. Låt sjuda i 20 minuter.',
           es: 'Agregue aromáticos: agregue la cebolla (cortada por la mitad), el puerro (en 2 o 3 trozos), las zanahorias (en trozos) y los dientes de ajo enteros. Cocine a fuego lento durante 20 minutos.',
           fr: 'Ajoutez des aromates : ajoutez l\'oignon (coupé en deux), le poireau (en 2 à 3 morceaux), les carottes (en morceaux) et les gousses d\'ail entières. Laisser mijoter 20 minutes.',
           de: 'Aromen hinzufügen: Zwiebel (halbiert), Lauch (in 2–3 Stücken), Karotten (in Stücken) und ganze Knoblauchzehen hinzufügen. 20 Minuten köcheln lassen.',
@@ -1009,7 +1129,7 @@ export const andorra: Country = {
         },
         {
           en: 'Add sausage: Add the chorizo/smoked sausage. Simmer 15 minutes.',
-          sv: 'Tillsätt korv: Tillsätt chorizo/rökt korv. Sjud 15 minuter.',
+          sv: 'Tillsätt korven: Lägg i chorizon eller den rökta korven. Låt sjuda i 15 minuter.',
           es: 'Agregar salchicha: Agrega el chorizo/salchicha ahumada. Cocine a fuego lento durante 15 minutos.',
           fr: 'Ajouter la saucisse : Ajouter le chorizo/saucisse fumée. Laisser mijoter 15 minutes.',
           de: 'Wurst hinzufügen: Die Chorizo/geräucherte Wurst hinzufügen. 15 Minuten köcheln lassen.',
@@ -1020,7 +1140,7 @@ export const andorra: Country = {
         },
         {
           en: 'Add potatoes: Add potatoes (peeled, cut into large chunks). Simmer 15 minutes.',
-          sv: 'Tillsätt potatis: Tillsätt potatis (skalad, skuren i stora bitar). Sjud 15 minuter.',
+          sv: 'Tillsätt potatisen: Lägg i potatisen (skalad och skuren i stora bitar). Låt sjuda i 15 minuter.',
           es: 'Agregue las papas: Agregue las papas (peladas y cortadas en trozos grandes). Cocine a fuego lento durante 15 minutos.',
           fr: 'Ajouter les pommes de terre : Ajouter les pommes de terre (pelées, coupées en gros morceaux). Laisser mijoter 15 minutes.',
           de: 'Kartoffeln hinzufügen: Kartoffeln hinzufügen (geschält, in große Stücke geschnitten). 15 Minuten köcheln lassen.',
@@ -1031,7 +1151,7 @@ export const andorra: Country = {
         },
         {
           en: 'Add cabbage: Add cabbage (roughly chopped). Simmer 15–20 minutes until potatoes are tender and beans are fully cooked.',
-          sv: 'Tillsätt kål: Tillsätt kål (grovhackad). Sjud 15–20 minuter tills potatisen är mjuk och bönorna är helt genomkokta.',
+          sv: 'Tillsätt kålen: Lägg i kålen (grovt skuren). Låt sjuda i 15–20 minuter tills potatisen är mjuk och bönorna är helt genomkokta.',
           es: 'Agregue repollo: Agregue repollo (picado en trozos grandes). Cocine a fuego lento de 15 a 20 minutos hasta que las papas estén tiernas y los frijoles completamente cocidos.',
           fr: 'Ajouter le chou : Ajouter le chou (haché grossièrement). Laisser mijoter 15 à 20 minutes jusqu\'à ce que les pommes de terre soient tendres et que les haricots soient complètement cuits.',
           de: 'Kohl hinzufügen: Kohl hinzufügen (grob gehackt). 15–20 Minuten köcheln lassen, bis die Kartoffeln weich und die Bohnen vollständig gekocht sind.',
@@ -1042,7 +1162,7 @@ export const andorra: Country = {
         },
         {
           en: 'Season carefully: Taste the broth and add salt gradually. Because bacon/sausage can be salty, start with 1 tsp and adjust to taste.',
-          sv: 'Krydda noga: Smaka av buljongen och salta gradvis. Eftersom bacon/korv kan vara salt, börja med 1 tsk och anpassa efter smak.',
+          sv: 'Salta försiktigt: Smaka av buljongen och salta lite i taget. Eftersom bacon och korv kan vara salta, börja med 1 tsk och smaka av.',
           es: 'Sazone con cuidado: Pruebe el caldo y agregue sal poco a poco. Debido a que el tocino o la salchicha pueden ser salados, comience con 1 cucharadita y ajústelo al gusto.',
           fr: 'Assaisonner soigneusement : Goûtez le bouillon et salez progressivement. Parce que le bacon/les saucisses peuvent être salés, commencez avec 1 cuillère à café et ajustez selon votre goût.',
           de: 'Vorsichtig abschmecken: Die Brühe abschmecken und nach und nach salzen. Da Speck/Wurst salzig sein können, beginnen Sie mit 1 TL und passen Sie es je nach Geschmack an.',
@@ -1053,7 +1173,7 @@ export const andorra: Country = {
         },
         {
           en: 'Serve in two parts (traditional): Remove meats and vegetables to a large platter and keep warm. Strain (or ladle) about 1.2–1.5 liters of broth into a separate pot.',
-          sv: 'Servera i två delar (traditionellt): Ta upp kött och grönsaker till ett stort fat och håll dem varmt. Sila (eller slev) ca 1,2–1,5 liter buljong i en separat gryta.',
+          sv: 'Servera i två omgångar (traditionellt): Lägg upp kött och grönsaker på ett stort fat och håll dem varma. Sila (eller ös) upp ca 1,2–1,5 liter buljong i en separat kastrull.',
           es: 'Sirva en dos partes (tradicional): retire las carnes y las verduras en un plato grande y manténgalas calientes. Cuele (o cucharón) alrededor de 1,2 a 1,5 litros de caldo en una olla aparte.',
           fr: 'Servir en deux parties (traditionnel) : Retirer les viandes et les légumes dans une grande assiette et réserver au chaud. Filtrez (ou versez) environ 1,2 à 1,5 litre de bouillon dans une casserole séparée.',
           de: 'In zwei Teilen servieren (traditionell): Fleisch und Gemüse auf eine große Platte legen und warm halten. Etwa 1,2–1,5 Liter Brühe in einen separaten Topf abseihen (oder schöpfen).',
@@ -1064,7 +1184,7 @@ export const andorra: Country = {
         },
         {
           en: 'Cook pasta in broth: Bring the reserved broth to a boil. Add pasta shells and cook until al dente (usually 10–12 minutes). If needed, add a splash of water so there\'s enough liquid.',
-          sv: 'Koka pasta i buljong: Koka upp den reserverade buljongen. Tillsätt pastaskal och koka tills de är al dente (vanligtvis 10–12 minuter). Om det behövs, tillsätt en skvätt vatten så att det finns tillräckligt med vätska.',
+          sv: 'Koka pastan i buljongen: Koka upp den avsatta buljongen. Tillsätt pastasnäckorna och koka dem al dente (vanligtvis 10–12 minuter). Fyll vid behov på med en skvätt vatten så att det finns tillräckligt med vätska.',
           es: 'Cocine la pasta en caldo: hierva el caldo reservado. Agregue las cáscaras de pasta y cocine hasta que esté al dente (generalmente de 10 a 12 minutos). Si es necesario, añade un chorrito de agua para que quede suficiente líquido.',
           fr: 'Cuire les pâtes dans le bouillon : Porter à ébullition le bouillon réservé. Ajouter les coquilles de pâtes et cuire jusqu\'à ce qu\'elles soient al dente (généralement 10 à 12 minutes). Si nécessaire, ajoutez un peu d\'eau pour qu\'il y ait suffisamment de liquide.',
           de: 'Nudeln in Brühe kochen: Die beiseite gestellte Brühe zum Kochen bringen. Nudelschalen hinzufügen und al dente kochen (normalerweise 10–12 Minuten). Geben Sie bei Bedarf einen Spritzer Wasser hinzu, damit genügend Flüssigkeit vorhanden ist.',
@@ -1075,7 +1195,7 @@ export const andorra: Country = {
         },
         {
           en: 'First course: Serve the pasta-in-broth as a soup.',
-          sv: 'Första rätt: Servera pastan-i-buljong som soppa.',
+          sv: 'Första rätten: Servera pastan i buljongen som soppa.',
           es: 'Primer plato: Sirve la pasta en caldo como sopa.',
           fr: 'Premier plat : Servir les pâtes au bouillon comme une soupe.',
           de: 'Erster Gang: Die Nudeln in der Brühe als Suppe servieren.',
@@ -1086,7 +1206,7 @@ export const andorra: Country = {
         },
         {
           en: 'Second course: Serve the meats and vegetables on a platter with a drizzle of olive oil, and extra broth on the side if desired.',
-          sv: 'Andra rätt: Servera köttet och grönsakerna på ett fat med en klick olivolja och extra buljong vid sidan av om så önskas.',
+          sv: 'Andra rätten: Servera köttet och grönsakerna på ett fat med en skvätt olivolja, och extra buljong vid sidan av om så önskas.',
           es: 'Segundo plato: Sirva las carnes y verduras en un plato con un chorrito de aceite de oliva y más caldo a un lado si lo desea.',
           fr: 'Deuxième plat : Servir les viandes et les légumes sur une assiette avec un filet d\'huile d\'olive et un supplément de bouillon à côté si désiré.',
           de: 'Zweiter Gang: Servieren Sie Fleisch und Gemüse auf einer Platte mit einem Schuss Olivenöl und nach Wunsch mit zusätzlicher Brühe als Beilage.',
@@ -1097,7 +1217,7 @@ export const andorra: Country = {
         },
         {
           en: 'Optional shortcut: If you prefer a simpler one-bowl meal, skip the "two-part" serving and just cook the pasta directly in the main pot for the final 10–12 minutes (add 200–300 ml extra water if the pot is thick).',
-          sv: 'Valfri genväg: Om du föredrar en enklare måltid i en skål, hoppa över den "tvådelade" serveringen och koka bara pastan direkt i huvudgrytan under de sista 10–12 minuterna (tillsätt 200–300 ml extra vatten om grytan är tjock).',
+          sv: 'Valfri genväg: Om du hellre vill ha en enklare rätt i en enda skål kan du hoppa över den tvådelade serveringen och koka pastan direkt i den stora grytan under de sista 10–12 minuterna (tillsätt 200–300 ml extra vatten om grytan är tjock).',
           es: 'Atajo opcional: si prefiere una comida más sencilla de un solo plato, omita la porción de "dos partes" y simplemente cocine la pasta directamente en la olla principal durante los últimos 10 a 12 minutos (agregue 200 a 300 ml adicionales de agua si la olla está espesa).',
           fr: 'Raccourci facultatif : si vous préférez un repas plus simple dans un bol, sautez la portion « en deux parties » et faites simplement cuire les pâtes directement dans la casserole principale pendant les 10 à 12 dernières minutes (ajoutez 200 à 300 ml d\'eau supplémentaire si la casserole est épaisse).',
           de: 'Optionale Abkürzung: Wenn Sie eine einfachere Mahlzeit in einer Schüssel bevorzugen, lassen Sie die „zweiteilige" Portion aus und kochen Sie die Nudeln die letzten 10–12 Minuten direkt im Haupttopf (fügen Sie 200–300 ml zusätzliches Wasser hinzu, wenn der Topf dick ist).',
@@ -1124,7 +1244,7 @@ export const andorra: Country = {
       },
       description: {
         en: 'Catalan-style crème brûlée with cinnamon and lemon zest, caramelized sugar on top',
-        sv: 'Crème brûlée i katalansk stil med kanel och citronskal, karamelliserat socker på toppen',
+        sv: 'Katalansk variant av crème brûlée med kanel och citronskal, toppad med karamelliserat socker',
         es: 'Crème brûlée a la catalana con canela y ralladura de limón, azúcar caramelizado por encima',
         fr: 'Crème brûlée à la catalane, cannelle et zeste de citron, sucre caramélisé dessus',
         de: 'Crème brûlée nach katalanischer Art mit Zimt und Zitronenschale, darüber karamellisierter Zucker',
@@ -1151,7 +1271,7 @@ export const andorra: Country = {
         {
           name: {
             en: 'Whole milk',
-            sv: 'Helmjölk',
+            sv: 'Standardmjölk',
             es: 'Leche entera',
             fr: 'Lait entier',
             de: 'Vollmilch',
@@ -1178,7 +1298,7 @@ export const andorra: Country = {
           amount: 8,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1233,7 +1353,7 @@ export const andorra: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1271,7 +1391,7 @@ export const andorra: Country = {
         {
           name: {
             en: 'Brown sugar for caramelizing',
-            sv: 'Farinsocker för karamellisering',
+            sv: 'Farinsocker till karamellisering',
             es: 'Azúcar moreno para caramelizar',
             fr: 'Sucre roux pour caraméliser',
             de: 'Brauner Zucker zum Karamellisieren',
@@ -1287,7 +1407,7 @@ export const andorra: Country = {
       steps: [
         {
           en: 'Heat milk with cinnamon stick and lemon zest until warm. Remove from heat, cover, infuse 20 minutes.',
-          sv: 'Värm mjölk med kanelstång och citronskal tills det är varmt. Ta bort från värmen, täck över, infundera 20 minuter.',
+          sv: 'Värm mjölken med kanelstången och citronskalet. Ta av från värmen, lägg på ett lock och låt dra i 20 minuter.',
           es: 'Calentar la leche con la ramita de canela y la ralladura de limón hasta que esté tibia. Retirar del fuego, tapar, infundir 20 minutos.',
           fr: 'Faites chauffer le lait avec le bâton de cannelle et le zeste de citron jusqu\'à ce qu\'il soit chaud. Retirer du feu, couvrir, infuser 20 minutes.',
           de: 'Milch mit Zimtstange und Zitronenschale erhitzen, bis sie warm ist. Vom Herd nehmen, abdecken und 20 Minuten ziehen lassen.',
@@ -1309,7 +1429,7 @@ export const andorra: Country = {
         },
         {
           en: 'Whisk egg yolks with sugar until pale and thick.',
-          sv: 'Vispa äggulor med socker blekt och tjockt.',
+          sv: 'Vispa äggulorna och sockret ljust och tjockt.',
           es: 'Batir las yemas de huevo con el azúcar hasta que estén pálidas y espesas.',
           fr: 'Fouetter les jaunes d\'œufs avec le sucre jusqu\'à ce qu\'ils soient pâles et épais.',
           de: 'Eigelb mit Zucker verquirlen, bis es hell und dick ist.',
@@ -1320,7 +1440,7 @@ export const andorra: Country = {
         },
         {
           en: 'Add cornstarch and whisk until smooth.',
-          sv: 'Tillsätt maizena och vispa tills det är slätt.',
+          sv: 'Tillsätt majsstärkelsen och vispa tills det är slätt.',
           es: 'Agregue la maicena y bata hasta que quede suave.',
           fr: 'Ajouter la fécule de maïs et fouetter jusqu\'à consistance lisse.',
           de: 'Maisstärke hinzufügen und glatt rühren.',
@@ -1342,7 +1462,7 @@ export const andorra: Country = {
         },
         {
           en: 'Return to pan and cook over medium-low heat, stirring constantly until thickened (about 8 minutes).',
-          sv: 'Återgå till pannan och låt koka på medelhög värme, rör hela tiden tills det tjocknat (cirka 8 minuter).',
+          sv: 'Häll tillbaka i kastrullen och låt koka på medellåg värme under ständig omrörning tills krämen tjocknat (ca 8 minuter).',
           es: 'Regrese a la sartén y cocine a fuego medio-bajo, revolviendo constantemente hasta que espese (aproximadamente 8 minutos).',
           fr: 'Remettre dans la poêle et cuire à feu moyen-doux, en remuant constamment jusqu\'à épaississement (environ 8 minutes).',
           de: 'Zurück in die Pfanne geben und bei mittlerer Hitze unter ständigem Rühren kochen, bis die Masse eingedickt ist (ca. 8 Minuten).',
@@ -1353,7 +1473,7 @@ export const andorra: Country = {
         },
         {
           en: 'Pour into shallow ceramic dishes (cazuelas).',
-          sv: 'Häll upp i grunda keramiska fat (cazuelas).',
+          sv: 'Häll upp i grunda keramikformar (cazuelas).',
           es: 'Vierta en platos de cerámica poco profundos (cazuelas).',
           fr: 'Verser dans des plats peu profonds en céramique (cazuelas).',
           de: 'In flache Keramikschalen (Cazuelas) füllen.',
@@ -1364,7 +1484,7 @@ export const andorra: Country = {
         },
         {
           en: 'Cool to room temperature, then refrigerate at least 3 hours.',
-          sv: 'Kyl till rumstemperatur och kyl sedan i minst 3 timmar.',
+          sv: 'Låt svalna till rumstemperatur och ställ sedan i kylen i minst 3 timmar.',
           es: 'Deje enfriar a temperatura ambiente, luego refrigere por al menos 3 horas.',
           fr: 'Laisser refroidir à température ambiante, puis réfrigérer au moins 3 heures.',
           de: 'Auf Raumtemperatur abkühlen lassen, dann mindestens 3 Stunden in den Kühlschrank stellen.',
@@ -1375,7 +1495,7 @@ export const andorra: Country = {
         },
         {
           en: 'Before serving, sprinkle thin layer of brown sugar on top.',
-          sv: 'Innan servering, strö ett tunt lager farinsocker ovanpå.',
+          sv: 'Strö ett tunt lager farinsocker över krämen före servering.',
           es: 'Antes de servir, espolvorea una fina capa de azúcar moreno por encima.',
           fr: 'Avant de servir, saupoudrez dessus une fine couche de cassonade.',
           de: 'Vor dem Servieren eine dünne Schicht braunen Zucker darüber streuen.',
@@ -1386,7 +1506,7 @@ export const andorra: Country = {
         },
         {
           en: 'Caramelize with kitchen torch or under hot broiler until golden and crispy.',
-          sv: 'Karamellisera med kökslampa eller under het broiler tills de är gyllene och krispiga.',
+          sv: 'Karamellisera med en köksbrännare eller under het grill i ugnen tills sockret är gyllene och krispigt.',
           es: 'Caramelice con un soplete de cocina o en una parrilla caliente hasta que esté dorado y crujiente.',
           fr: 'Caraméliser au chalumeau de cuisine ou sous le gril chaud jusqu\'à ce qu\'ils soient dorés et croustillants.',
           de: 'Mit einem Küchenbrenner oder unter einem heißen Grill karamellisieren, bis es goldbraun und knusprig ist.',

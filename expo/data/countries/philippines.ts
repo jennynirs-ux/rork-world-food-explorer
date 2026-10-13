@@ -264,7 +264,17 @@ export const philippines: Country = {
     history: [
       {
         year: '1521',
-        title: 'Magellan Arrives',
+        title: {
+          en: 'Magellan Arrives',
+          sv: 'Magellan anländer',
+          es: 'Llegada de Magallanes',
+          fr: 'Arrivée de Magellan',
+          de: 'Ankunft Magellans',
+          it: 'Arrivo di Magellano',
+          pl: 'Przybycie Magellana',
+          nl: 'Aankomst van Magellaan',
+          pt: 'Chegada de Magalhães',
+        },
         description: {
           en: 'Ferdinand Magellan landed in the Philippines, beginning Spanish interest in the islands.',
           sv: 'Ferdinand Magellan landade i Filippinerna och började spanskt intresse för öarna.',
@@ -279,7 +289,17 @@ export const philippines: Country = {
       },
       {
         year: '1565-1898',
-        title: 'Spanish Colonial Period',
+        title: {
+          en: 'Spanish Colonial Period',
+          sv: 'Spanska kolonialtiden',
+          es: 'Período colonial español',
+          fr: 'Période coloniale espagnole',
+          de: 'Spanische Kolonialzeit',
+          it: 'Periodo coloniale spagnolo',
+          pl: 'Hiszpański okres kolonialny',
+          nl: 'Spaanse koloniale periode',
+          pt: 'Período colonial espanhol',
+        },
         description: {
           en: 'Spain colonized the Philippines for over 300 years, deeply influencing culture and religion.',
           sv: 'Spanien koloniserade Filippinerna i över 300 år, vilket djupt påverkade kultur och religion.',
@@ -294,7 +314,17 @@ export const philippines: Country = {
       },
       {
         year: '1898',
-        title: 'Philippine Revolution',
+        title: {
+          en: 'Philippine Revolution',
+          sv: 'Filippinska revolutionen',
+          es: 'Revolución filipina',
+          fr: 'Révolution philippine',
+          de: 'Philippinische Revolution',
+          it: 'Rivoluzione filippina',
+          pl: 'Rewolucja filipińska',
+          nl: 'Filipijnse Revolutie',
+          pt: 'Revolução Filipina',
+        },
         description: {
           en: 'The Philippines declared independence from Spain after the revolution.',
           sv: 'Filippinerna förklarade sig självständigt från Spanien efter revolutionen.',
@@ -309,7 +339,17 @@ export const philippines: Country = {
       },
       {
         year: '1898-1946',
-        title: 'American Period',
+        title: {
+          en: 'American Period',
+          sv: 'Den amerikanska tiden',
+          es: 'Período estadounidense',
+          fr: 'Période américaine',
+          de: 'Amerikanische Zeit',
+          it: 'Periodo americano',
+          pl: 'Okres amerykański',
+          nl: 'Amerikaanse periode',
+          pt: 'Período americano',
+        },
         description: {
           en: 'After the Spanish-American War, the Philippines came under US control.',
           sv: 'Efter det spansk-amerikanska kriget kom Filippinerna under USA:s kontroll.',
@@ -324,7 +364,17 @@ export const philippines: Country = {
       },
       {
         year: '1946',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'The Philippines gained full independence from the United States.',
           sv: 'Filippinerna fick fullständig självständighet från USA.',
@@ -340,7 +390,17 @@ export const philippines: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to May (dry season) for best weather',
           sv: 'December till maj (torrsäsong) för bästa väder',
@@ -354,7 +414,17 @@ export const philippines: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free for many nationalities for 30 days.',
           sv: 'Visumfritt för många nationaliteter i 30 dagar.',
@@ -368,7 +438,17 @@ export const philippines: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights between islands, jeepneys, tricycles, and ferries.',
           sv: 'Inrikesflyg mellan öar, jeepneyar, trehjulingar och färjor.',
@@ -382,7 +462,17 @@ export const philippines: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Filipino and English. English very widely spoken.',
           sv: 'filippinska och engelska. Engelska talas mycket.',
@@ -396,7 +486,17 @@ export const philippines: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe. Avoid certain southern areas. Check travel advisories.',
           sv: 'Generellt säker. Undvik vissa sydliga områden. Kontrollera reseinformation.',
@@ -423,7 +523,17 @@ export const philippines: Country = {
           nl: 'Jeepney',
           pt: 'Jeepney',
         },
-        year: '1940s',
+        year: {
+          en: '1940s',
+          sv: '1940-talet',
+          es: 'Década de 1940',
+          fr: 'Années 1940',
+          de: '1940er',
+          it: 'Anni \'40',
+          pl: 'Lata 40.',
+          nl: 'Jaren 40',
+          pt: 'Década de 1940',
+        },
         description: {
           en: 'Colorfully decorated public transport vehicle unique to Philippines.',
           sv: 'Färgglatt inrett kollektivtrafikfordon unikt för Filippinerna.',
@@ -448,7 +558,17 @@ export const philippines: Country = {
           nl: 'Jojo',
           pt: 'Ioiô',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'While ancient, the modern yo-yo was popularized by Filipino Pedro Flores in the US.',
           sv: 'Medan den var uråldrig populariserades den moderna jojo av filippinska Pedro Flores i USA.',
@@ -473,7 +593,17 @@ export const philippines: Country = {
           nl: 'Sms-cultuur',
           pt: 'Cultura de mensagens de texto',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Filipinos became global leaders in SMS usage, earning "texting capital" title.',
           sv: 'Filippinerna blev världsledande inom SMS-användning och fick titeln "sms-kapital".',
@@ -624,7 +754,7 @@ export const philippines: Country = {
       },
       description: {
         en: 'Iconic Filipino shaved ice dessert with mixed ingredients',
-        sv: 'Ikonisk filippinsk rakad isdessert med blandade ingredienser',
+        sv: 'Ikonisk filippinsk dessert med hyvlad is och blandade ingredienser',
         es: 'Postre filipino icónico de hielo raspado con ingredientes mixtos',
         fr: 'Dessert philippin emblématique de glace pilée avec des ingrédients mélangés',
         de: 'Kultiges philippinisches Eisdessert mit gemischten Zutaten',
@@ -651,7 +781,7 @@ export const philippines: Country = {
         {
           name: {
             en: 'Shaved ice',
-            sv: 'Rakad is',
+            sv: 'Hyvlad is',
             es: 'Hielo raspado',
             fr: 'Glace pilée',
             de: 'Geschabtes Eis',
@@ -666,7 +796,7 @@ export const philippines: Country = {
         {
           name: {
             en: 'Evaporated milk',
-            sv: 'Indunstad mjölk',
+            sv: 'Evaporerad mjölk',
             es: 'Leche evaporada',
             fr: 'Lait concentré',
             de: 'Kondensmilch',
@@ -696,7 +826,7 @@ export const philippines: Country = {
         {
           name: {
             en: 'Sweet beans',
-            sv: 'Söta bönor',
+            sv: 'Sötade bönor',
             es: 'Frijoles dulces',
             fr: 'Haricots sucrés',
             de: 'Süße Bohnen',
@@ -711,7 +841,7 @@ export const philippines: Country = {
         {
           name: {
             en: 'Coconut gel',
-            sv: 'Kokosgel',
+            sv: 'Nata de coco (kokosgelé)',
             es: 'Gel de coco',
             fr: 'Gel de noix de coco',
             de: 'Kokosgel',
@@ -726,7 +856,7 @@ export const philippines: Country = {
         {
           name: {
             en: 'Ube ice cream',
-            sv: 'Ube glass',
+            sv: 'Ubeglass',
             es: 'Helado de ube',
             fr: 'Glace Ubé',
             de: 'Ube-Eis',
@@ -768,7 +898,7 @@ export const philippines: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -782,7 +912,7 @@ export const philippines: Country = {
       steps: [
         {
           en: 'Layer sweet beans and coconut gel in glass',
-          sv: 'Varva söta bönor och kokosgel i glas',
+          sv: 'Varva sötade bönor och nata de coco i ett glas',
           es: 'Coloque capas de frijoles dulces y gel de coco en un vaso',
           fr: 'Disposez des haricots sucrés et du gel de noix de coco dans un verre',
           de: 'Süße Bohnen und Kokosnussgel in ein Glas schichten',
@@ -793,7 +923,7 @@ export const philippines: Country = {
         },
         {
           en: 'Add shaved ice on top',
-          sv: 'Lägg rakad is på toppen',
+          sv: 'Lägg hyvlad is ovanpå',
           es: 'Agrega hielo raspado encima',
           fr: 'Ajouter de la glace pilée dessus',
           de: 'Geben Sie geraspeltes Eis darüber',
@@ -804,7 +934,7 @@ export const philippines: Country = {
         },
         {
           en: 'Pour evaporated milk over',
-          sv: 'Häll avdunstad mjölk över',
+          sv: 'Häll över evaporerad mjölk',
           es: 'Vierta la leche evaporada encima',
           fr: 'Versez le lait évaporé dessus',
           de: 'Kondensmilch über',
@@ -815,7 +945,7 @@ export const philippines: Country = {
         },
         {
           en: 'Top with ube ice cream',
-          sv: 'Toppa med ube-glass',
+          sv: 'Toppa med ubeglass',
           es: 'Cubra con helado de ube',
           fr: 'Garnir de glace ube',
           de: 'gießen Mit Ube-Eis belegen',
@@ -826,7 +956,7 @@ export const philippines: Country = {
         },
         {
           en: 'Add leche flan piece',
-          sv: 'Lägg till leche flan bit',
+          sv: 'Lägg på en bit leche flan',
           es: 'Agrega el trozo de flan de leche',
           fr: 'Ajouter un morceau de flan au leche',
           de: 'Fügen Sie ein Stück Leche-Flan hinzu',
@@ -864,7 +994,7 @@ export const philippines: Country = {
       id: 'philippines-adobo',
       name: {
         en: 'Chicken Adobo',
-        sv: 'Kyckling Adobo',
+        sv: 'Kycklingadobo',
         es: 'Adobo De Pollo',
         fr: 'Poulet Adobo',
         de: 'Hühnchen-Adobo',
@@ -875,7 +1005,7 @@ export const philippines: Country = {
       },
       description: {
         en: 'The Philippines\' unofficial national dish - chicken braised in vinegar, soy sauce, and garlic',
-        sv: 'Filippinernas inofficiella nationalrätt - kyckling bräserad i vinäger, sojasås och vitlök',
+        sv: 'Filippinernas inofficiella nationalrätt – kyckling bräserad i vinäger, sojasås och vitlök',
         es: 'El plato nacional no oficial de Filipinas: pollo estofado en vinagre, salsa de soja y ajo',
         fr: 'Le plat national non officiel des Philippines : le poulet braisé au vinaigre, à la sauce soja et à l\'ail',
         de: 'Das inoffizielle Nationalgericht der Philippinen – in Essig, Sojasauce und Knoblauch geschmortes Hühnchen',
@@ -1078,7 +1208,7 @@ export const philippines: Country = {
       steps: [
         {
           en: 'Marinate chicken in soy sauce, vinegar, and crushed garlic for 30 min',
-          sv: 'Marinera kyckling i sojasås, vinäger och pressad vitlök i 30 min',
+          sv: 'Marinera kycklingen i sojasås, vinäger och krossad vitlök i 30 minuter',
           es: 'Marinar el pollo en salsa de soja, vinagre y ajo machacado durante 30 min',
           fr: 'Faire mariner le poulet dans la sauce soja, le vinaigre et l\'ail écrasé pendant 30 min',
           de: 'Hähnchen 30 Minuten in Sojasauce, Essig und zerdrücktem Knoblauch marinieren',
@@ -1133,7 +1263,7 @@ export const philippines: Country = {
         },
         {
           en: 'Remove lid and continue simmering to reduce sauce',
-          sv: 'Ta av locket och fortsätt sjuda för att minska såsen',
+          sv: 'Ta av locket och låt sjuda vidare så att såsen kokar ihop',
           es: 'Retire la tapa y continúe cocinando a fuego lento para reducir la salsa',
           fr: 'Retirer le couvercle et poursuivre la cuisson pour réduire la sauce',
           de: 'Deckel abnehmen und weiter köcheln lassen, um die Soße zu reduzieren',
@@ -1155,7 +1285,7 @@ export const philippines: Country = {
         },
         {
           en: 'Cook until sauce is thick and chicken is tender',
-          sv: 'Koka tills såsen är tjock och kycklingen är mör',
+          sv: 'Låt koka tills såsen har tjocknat och kycklingen är mör',
           es: 'Cocine hasta que la salsa esté espesa y el pollo tierno',
           fr: 'Cuire jusqu\'à ce que la sauce soit épaisse et que le poulet soit tendre',
           de: 'Kochen, bis die Soße dick und das Huhn zart ist',
@@ -1166,7 +1296,7 @@ export const philippines: Country = {
         },
         {
           en: 'Serve hot over steamed rice',
-          sv: 'Servera varmt över ångat ris',
+          sv: 'Servera varmt med ångat ris',
           es: 'Sirva caliente sobre arroz al vapor',
           fr: 'Servir chaud sur du riz cuit à la vapeur',
           de: 'Heiß über gedünstetem Reis servieren',
@@ -1177,7 +1307,7 @@ export const philippines: Country = {
         },
         {
           en: 'Garnish with fried garlic if desired',
-          sv: 'Garnera med stekt vitlök om så önskas',
+          sv: 'Garnera gärna med friterad vitlök',
           es: 'Adorne con ajo frito si lo desea',
           fr: 'Garnir d\'ail frit si désiré',
           de: 'Nach Belieben mit gebratenem Knoblauch garnieren',

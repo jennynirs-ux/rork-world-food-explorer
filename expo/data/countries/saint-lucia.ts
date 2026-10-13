@@ -263,8 +263,28 @@ export const saintLucia: Country = {
     },
     history: [
       {
-        year: '1500s',
-        title: 'Early European Contact',
+        year: {
+          en: '1500s',
+          sv: '1500-talet',
+          es: 'Siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'Século XVI',
+        },
+        title: {
+          en: 'Early European Contact',
+          sv: 'Tidiga kontakter med européer',
+          es: 'Primeros contactos con los europeos',
+          fr: 'Premiers contacts avec les Européens',
+          de: 'Frühe Kontakte mit Europäern',
+          it: 'Primi contatti con gli europei',
+          pl: 'Pierwsze kontakty z Europejczykami',
+          nl: 'Vroege contacten met Europeanen',
+          pt: 'Primeiros contatos com os europeus',
+        },
         description: {
           en: 'European explorers reached the island during the age of exploration, and Saint Lucia later became a strategic Caribbean prize.',
           sv: 'Europeiska upptäcktsresande nådde ön under utforskningstiden, och Saint Lucia blev senare ett strategiskt karibiskt pris.',
@@ -278,8 +298,28 @@ export const saintLucia: Country = {
         },
       },
       {
-        year: '1600s-1700s',
-        title: 'French and British Rivalry',
+        year: {
+          en: '1600s-1700s',
+          sv: '1600–1700-talet',
+          es: 'siglos XVII–XVIII',
+          fr: 'XVIIe–XVIIIe siècles',
+          de: '17.–18. Jahrhundert',
+          it: 'XVII–XVIII secolo',
+          pl: 'XVII–XVIII wiek',
+          nl: '17e–18e eeuw',
+          pt: 'séculos XVII–XVIII',
+        },
+        title: {
+          en: 'French and British Rivalry',
+          sv: 'Fransk-brittisk rivalitet',
+          es: 'Rivalidad franco-británica',
+          fr: 'Rivalité franco-britannique',
+          de: 'Französisch-britische Rivalität',
+          it: 'Rivalità franco-britannica',
+          pl: 'Rywalizacja francusko-brytyjska',
+          nl: 'Frans-Britse rivaliteit',
+          pt: 'Rivalidade franco-britânica',
+        },
         description: {
           en: 'France and Britain fought repeatedly for control of Saint Lucia, shaping the islands language, culture, and place names.',
           sv: 'Frankrike och Storbritannien kämpade upprepade gånger för kontroll över Saint Lucia och formade öns språk, kultur och platsnamn.',
@@ -294,7 +334,17 @@ export const saintLucia: Country = {
       },
       {
         year: '1814',
-        title: 'British Control',
+        title: {
+          en: 'British Control',
+          sv: 'Brittisk kontroll',
+          es: 'Control británico',
+          fr: 'Contrôle britannique',
+          de: 'Britische Kontrolle',
+          it: 'Controllo britannico',
+          pl: 'Kontrola brytyjska',
+          nl: 'Brits gezag',
+          pt: 'Controle britânico',
+        },
         description: {
           en: 'After the Napoleonic era, Saint Lucia became a British colony, and English governance expanded across the island.',
           sv: 'Efter Napoleontiden blev Saint Lucia en brittisk koloni och det engelska styrelseskicket expanderade över ön.',
@@ -309,7 +359,17 @@ export const saintLucia: Country = {
       },
       {
         year: '1958-1962',
-        title: 'West Indies Federation',
+        title: {
+          en: 'West Indies Federation',
+          sv: 'Västindiska federationen',
+          es: 'Federación de las Indias Occidentales',
+          fr: 'Fédération des Indes occidentales',
+          de: 'Westindische Föderation',
+          it: 'Federazione delle Indie Occidentali',
+          pl: 'Federacja Indii Zachodnich',
+          nl: 'West-Indische Federatie',
+          pt: 'Federação das Índias Ocidentais',
+        },
         description: {
           en: 'Saint Lucia joined the short-lived West Indies Federation, an early effort toward Caribbean political unity.',
           sv: 'Saint Lucia gick med i den kortlivade West Indies Federation, ett tidigt försök mot karibisk politisk enhet.',
@@ -324,7 +384,17 @@ export const saintLucia: Country = {
       },
       {
         year: '1979',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Saint Lucia gained independence from the United Kingdom while remaining part of the Commonwealth.',
           sv: 'Saint Lucia blev självständigt från Storbritannien samtidigt som han förblev en del av Commonwealth.',
@@ -401,7 +471,17 @@ export const saintLucia: Country = {
           nl: 'Modellen voor Duurzaam Toerisme',
           pt: 'Modelos de Turismo Sustentável',
         },
-        year: 'Modern',
+        year: {
+          en: 'Modern',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'Saint Lucia has promoted eco-tourism and nature-based travel while protecting flagship landscapes like the Pitons region.',
           sv: 'Saint Lucia har främjat ekoturism och naturbaserade resor samtidigt som det skyddar flaggskeppslandskap som Pitons-regionen.',
@@ -419,7 +499,7 @@ export const saintLucia: Country = {
       {
         name: {
           en: 'The Pitons',
-          sv: 'The Pitons',
+          sv: 'Pitons',
           es: 'Los pitones',
           fr: 'Les Pitons',
           de: 'Die Pitons',
@@ -539,7 +619,17 @@ export const saintLucia: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'December to April for drier weather; late summer can be wetter and stormier.',
           sv: 'December till april för torrare väder; sensommaren kan vara blötare och stormigare.',
@@ -577,7 +667,17 @@ export const saintLucia: Country = {
         },
       },
       {
-        item: 'Getting around',
+        item: {
+          en: 'Getting around',
+          sv: 'Att ta sig runt',
+          es: 'Cómo moverse',
+          fr: 'Se déplacer',
+          de: 'Unterwegs vor Ort',
+          it: 'Come spostarsi',
+          pl: 'Poruszanie się',
+          nl: 'Vervoer ter plaatse',
+          pt: 'Como se locomover',
+        },
         description: {
           en: 'Taxis and minibuses are common. Renting a car helps, but roads can be narrow and winding.',
           sv: 'Taxi och minibussar är vanliga. Att hyra en bil hjälper, men vägarna kan vara smala och slingrande.',
@@ -591,7 +691,17 @@ export const saintLucia: Country = {
         },
       },
       {
-        item: 'What to pack',
+        item: {
+          en: 'What to pack',
+          sv: 'Packlista',
+          es: 'Qué llevar',
+          fr: 'À emporter',
+          de: 'Packliste',
+          it: 'Cosa mettere in valigia',
+          pl: 'Co spakować',
+          nl: 'Paklijst',
+          pt: 'O que levar',
+        },
         description: {
           en: 'Light layers, rain cover, reef-safe sunscreen, and comfortable shoes for hikes.',
           sv: 'Lätta lager, regnskydd, revsäker solskyddsmedel och bekväma skor för vandringar.',
@@ -605,7 +715,17 @@ export const saintLucia: Country = {
         },
       },
       {
-        item: 'Local language',
+        item: {
+          en: 'Local language',
+          sv: 'Lokalt språk',
+          es: 'Idioma local',
+          fr: 'Langue locale',
+          de: 'Landessprache',
+          it: 'Lingua locale',
+          pl: 'Język lokalny',
+          nl: 'Lokale taal',
+          pt: 'Idioma local',
+        },
         description: {
           en: 'English is official; you will also hear Saint Lucian Creole (Kwéyòl).',
           sv: 'Engelska är officiell; du kommer också att höra Saint Lucian Creole (Kwéyòl).',
@@ -619,7 +739,17 @@ export const saintLucia: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe; use standard precautions, especially at night in busy areas.',
           sv: 'Generellt säker; använd vanliga försiktighetsåtgärder, särskilt på natten i livliga områden.',
@@ -637,7 +767,7 @@ export const saintLucia: Country = {
       id: 'saint-lucia-main',
       name: {
         en: 'Green Fig and Saltfish',
-        sv: 'Grön fikon och Saltfisk',
+        sv: 'Gröna fikon och saltfisk',
         es: 'Higo verde y pescado salado',
         fr: 'Figue verte et poisson salé',
         de: 'Grüne Feige und Salzfisch',
@@ -648,7 +778,7 @@ export const saintLucia: Country = {
       },
       description: {
         en: 'Saint Lucia national dish: tender green bananas (called "green figs") served with sautéed salted cod, peppers, tomatoes, and herbs.',
-        sv: 'Saint Lucia nationalrätt: mjuka gröna bananer (kallade "gröna fikon") serveras med sauterad saltad torsk, paprika, tomater och örter.',
+        sv: 'Saint Lucias nationalrätt: mjuka gröna bananer (kallade "gröna fikon") som serveras med fräst salttorsk, paprika, tomater och örter.',
         es: 'Plato nacional de Santa Lucía: plátanos verdes tiernos (llamados "higos verdes") servidos con bacalao salado salteado, pimientos, tomates y hierbas.',
         fr: 'Plat national de Sainte-Lucie : bananes vertes tendres (appelées « figues vertes ») servies avec de la morue salée sautée, des poivrons, des tomates et des herbes.',
         de: 'Nationalgericht von St. Lucia: zarte grüne Bananen (genannt „grüne Feigen"), serviert mit sautiertem gesalzenem Kabeljau, Paprika, Tomaten und Kräutern.',
@@ -700,7 +830,7 @@ export const saintLucia: Country = {
         {
           name: {
             en: 'Salted cod (saltfish)',
-            sv: 'Saltad torsk (saltfisk)',
+            sv: 'Salttorsk (saltfisk)',
             es: 'Bacalao salado (bacalao)',
             fr: 'Morue salée (poisson salé)',
             de: 'Gesalzener Kabeljau (Salzfisch)',
@@ -727,7 +857,7 @@ export const saintLucia: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -752,7 +882,7 @@ export const saintLucia: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -842,7 +972,7 @@ export const saintLucia: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -855,7 +985,7 @@ export const saintLucia: Country = {
         {
           name: {
             en: 'Vegetable oil (or coconut oil)',
-            sv: 'Vegetabilisk olja (eller kokosolja)',
+            sv: 'Neutral olja (eller kokosolja)',
             es: 'Aceite vegetal (o aceite de coco)',
             fr: 'Huile végétale (ou huile de coco)',
             de: 'Pflanzenöl (oder Kokosöl)',
@@ -896,7 +1026,7 @@ export const saintLucia: Country = {
       steps: [
         {
           en: 'Desalt the cod: soak saltfish in cold water for 6-12 hours (or overnight), changing water 2-3 times. Rinse well.',
-          sv: 'Avsalta torsken: blötlägg saltfisken i kallt vatten i 6-12 timmar (eller över natten), byt vatten 2-3 gånger. Skölj väl.',
+          sv: 'Avsalta torsken: blötlägg saltfisken i kallt vatten i 6-12 timmar (eller över natten) och byt vatten 2-3 gånger. Skölj väl.',
           es: 'Desalar el bacalao: remojar el pescado salado en agua fría durante 6-12 horas (o toda la noche), cambiando el agua 2-3 veces. Enjuague bien.',
           fr: 'Dessaler la morue : faire tremper le poisson salé dans de l\'eau froide pendant 6 à 12 heures (ou toute la nuit), en changeant l\'eau 2 à 3 fois. Bien rincer.',
           de: 'Den Kabeljau entsalzen: Salzfisch 6–12 Stunden (oder über Nacht) in kaltem Wasser einweichen, dabei das Wasser 2–3 Mal wechseln. Gut ausspülen.',
@@ -907,7 +1037,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Simmer saltfish 10 minutes, drain, then flake into bite-size pieces. Remove any bones.',
-          sv: 'Sjud saltfisken i 10 minuter, låt den rinna av och flinga sedan i lagom stora bitar. Ta bort eventuella ben.',
+          sv: 'Sjud saltfisken i 10 minuter, låt den rinna av och dela den sedan i lagom stora flagor. Ta bort eventuella ben.',
           es: 'Cocine a fuego lento el pescado salado durante 10 minutos, escúrralo y luego desmenúcelo en trozos pequeños. Retire los huesos.',
           fr: 'Laisser mijoter le poisson salé 10 minutes, l\'égoutter, puis l\'émietter en bouchées. Retirez tous les os.',
           de: 'Salzfisch 10 Minuten köcheln lassen, abtropfen lassen und dann in mundgerechte Stücke schneiden. Eventuelle Knochen entfernen.',
@@ -918,7 +1048,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Prepare green figs: trim ends of green bananas, cut a shallow slit down the peel, and boil in salted water 15-20 minutes until tender.',
-          sv: 'Förbered gröna fikon: putsa ändarna av gröna bananer, skär en grund skåra ner i skalet och koka i saltat vatten 15-20 minuter tills de är mjuka.',
+          sv: 'Förbered de gröna fikonen: skär av ändarna på de gröna bananerna, skär en grund skåra längs skalet och koka i saltat vatten i 15-20 minuter tills de är mjuka.',
           es: 'Prepare los higos verdes: corte los extremos de los plátanos verdes, haga un corte poco profundo en la cáscara y hiérvalos en agua con sal durante 15 a 20 minutos hasta que estén tiernos.',
           fr: 'Préparez les figues vertes : coupez les extrémités des bananes vertes, coupez une entaille peu profonde dans la peau et faites-les bouillir dans de l\'eau salée 15 à 20 minutes jusqu\'à ce qu\'elles soient tendres.',
           de: 'Bereiten Sie grüne Feigen zu: Schneiden Sie die Enden der grünen Bananen ab, schneiden Sie einen flachen Schlitz in die Schale und kochen Sie sie 15–20 Minuten lang in Salzwasser, bis sie weich sind.',
@@ -929,7 +1059,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Drain bananas, cool slightly, peel, and set aside.',
-          sv: 'Låt bananerna rinna av, svalna något, skala och ställ åt sidan.',
+          sv: 'Låt bananerna rinna av och svalna något, skala dem och ställ åt sidan.',
           es: 'Escurre los plátanos, déjalos enfriar un poco, pélalos y resérvalos.',
           fr: 'Égouttez les bananes, laissez-les refroidir légèrement, pelez-les et réservez.',
           de: 'Bananen abtropfen lassen, leicht abkühlen lassen, schälen und beiseite stellen.',
@@ -940,7 +1070,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'In a pan, heat oil over medium heat. Saute onion and bell pepper for 4-5 minutes until softened.',
-          sv: 'Värm olja på medelvärme i en panna. Fräs lök och paprika i 4-5 minuter tills den mjuknat.',
+          sv: 'Värm olja på medelvärme i en panna. Fräs lök och paprika i 4-5 minuter tills de har mjuknat.',
           es: 'En una sartén, calienta el aceite a fuego medio. Saltee la cebolla y el pimiento morrón durante 4-5 minutos hasta que se ablanden.',
           fr: 'Dans une poêle, chauffer l\'huile à feu moyen. Faire revenir l\'oignon et le poivron pendant 4 à 5 minutes jusqu\'à ce qu\'ils soient tendres.',
           de: 'In einer Pfanne Öl bei mittlerer Hitze erhitzen. Zwiebel und Paprika 4-5 Minuten anbraten, bis sie weich sind.',
@@ -951,7 +1081,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Add garlic and thyme; cook 30 seconds. Add tomatoes and cook 3-4 minutes until saucy.',
-          sv: 'Tillsätt vitlök och timjan; koka 30 sekunder. Tillsätt tomaterna och låt koka 3-4 minuter tills de är tjocka.',
+          sv: 'Tillsätt vitlök och timjan och fräs i 30 sekunder. Tillsätt tomaterna och låt koka i 3-4 minuter tills det har blivit en sås.',
           es: 'Agrega el ajo y el tomillo; cocine 30 segundos. Agregue los tomates y cocine de 3 a 4 minutos hasta que estén dorados.',
           fr: 'Ajouter l\'ail et le thym; cuire 30 secondes. Ajouter les tomates et cuire 3 à 4 minutes jusqu\'à ce qu\'elles soient croustillantes.',
           de: 'Knoblauch und Thymian hinzufügen; 30 Sekunden kochen lassen. Tomaten hinzufügen und 3-4 Minuten kochen, bis sie saftig sind.',
@@ -962,7 +1092,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Add flaked saltfish and black pepper; toss gently for 3-5 minutes until heated through.',
-          sv: 'Tillsätt flingad saltfisk och svartpeppar; kasta försiktigt i 3-5 minuter tills den är genomvärmd.',
+          sv: 'Tillsätt den flagade saltfisken och svartpeppar; vänd runt försiktigt i 3-5 minuter tills allt är genomvarmt.',
           es: 'Agrega el pescado salado en hojuelas y la pimienta negra; revuelva suavemente durante 3-5 minutos hasta que esté completamente caliente.',
           fr: 'Ajouter le poisson salé émietté et le poivre noir; mélanger doucement pendant 3 à 5 minutes jusqu\'à ce que le tout soit bien chaud.',
           de: 'Salzfischflocken und schwarzen Pfeffer hinzufügen; 3-5 Minuten lang vorsichtig schwenken, bis alles durchgewärmt ist.',
@@ -973,7 +1103,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Finish with a squeeze of lime and serve alongside the boiled green figs. Optional: serve with avocado or a simple salad.',
-          sv: 'Avsluta med en kläm lime och servera tillsammans med de kokta gröna fikonen. Valfritt: servera med avokado eller en enkel sallad.',
+          sv: 'Avsluta med en skvätt limejuice och servera tillsammans med de kokta gröna fikonen. Servera gärna med avokado eller en enkel sallad.',
           es: 'Terminar con un chorrito de lima y servir junto con los higos verdes hervidos. Opcional: sírvelo con aguacate o una ensalada simple.',
           fr: 'Terminez avec un filet de citron vert et servez avec les figues vertes bouillies. Facultatif : servir avec un avocat ou une simple salade.',
           de: 'Mit einem Spritzer Limette abschließen und zusammen mit den gekochten grünen Feigen servieren. Optional: Mit Avocado oder einem einfachen Salat servieren.',
@@ -989,7 +1119,7 @@ export const saintLucia: Country = {
       id: 'saint-lucia-dessert',
       name: {
         en: 'Coconut Tart',
-        sv: 'Kokos tårta',
+        sv: 'Kokospaj',
         es: 'Tarta De Coco',
         fr: 'Tarte à la noix de coco',
         de: 'Kokosnuss-Tarte',
@@ -1000,7 +1130,7 @@ export const saintLucia: Country = {
       },
       description: {
         en: 'A sweet Caribbean-style coconut tart with a tender crust and rich coconut filling, often flavored with vanilla and warm spices.',
-        sv: 'En söt karibisk kokostårta med mjuk skorpa och rik kokosfyllning, ofta smaksatt med vanilj och varma kryddor.',
+        sv: 'En söt karibisk kokospaj med mör botten och fyllig kokosfyllning, ofta smaksatt med vanilj och varma kryddor.',
         es: 'Una dulce tarta de coco al estilo caribeño con una corteza tierna y un rico relleno de coco, a menudo aromatizada con vainilla y especias cálidas.',
         fr: 'Une tarte sucrée à la noix de coco de style caribéen avec une croûte tendre et une riche garniture à la noix de coco, souvent parfumée à la vanille et aux épices chaudes.',
         de: 'Eine süße Kokosnusstarte im karibischen Stil mit zarter Kruste und reichhaltiger Kokosnussfüllung, oft aromatisiert mit Vanille und warmen Gewürzen.',
@@ -1027,7 +1157,7 @@ export const saintLucia: Country = {
         {
           name: {
             en: 'Shortcrust pastry (ready-made or homemade)',
-            sv: 'Smördeg (färdig eller hemgjord)',
+            sv: 'Mördeg (färdig eller hemgjord)',
             es: 'Masa quebrada (preparada o casera)',
             fr: 'Pâte brisée (toute prête ou maison)',
             de: 'Mürbeteig (fertig oder selbstgemacht)',
@@ -1042,7 +1172,7 @@ export const saintLucia: Country = {
         {
           name: {
             en: 'Desiccated coconut',
-            sv: 'Torkad kokosnöt',
+            sv: 'Riven kokos',
             es: 'Coco desecado',
             fr: 'Noix de coco desséchée',
             de: 'Kokosraspeln',
@@ -1084,7 +1214,7 @@ export const saintLucia: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1127,7 +1257,7 @@ export const saintLucia: Country = {
         {
           name: {
             en: 'Ground nutmeg',
-            sv: 'Malen muskotnöt',
+            sv: 'Mald muskotnöt',
             es: 'Nuez moscada molida',
             fr: 'Noix de muscade moulue',
             de: 'Gemahlene Muskatnuss',
@@ -1142,7 +1272,7 @@ export const saintLucia: Country = {
         {
           name: {
             en: 'Pinch of salt',
-            sv: 'Nypa salt',
+            sv: 'Salt',
             es: 'Una pizca de sal',
             fr: 'Pincée de sel',
             de: 'Prise Salz',
@@ -1179,7 +1309,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Roll pastry and line a tart pan (about 24 cm). Prick the base with a fork.',
-          sv: 'Rulla degen och klä en tårtform (ca 24 cm). Nagga botten med en gaffel.',
+          sv: 'Kavla ut degen och klä en pajform (ca 24 cm). Nagga botten med en gaffel.',
           es: 'Enrolle la masa y forre un molde para tarta (de unos 24 cm). Pincha la base con un tenedor.',
           fr: 'Abaisser la pâte et tapisser un moule à tarte (environ 24 cm). Piquez le fond avec une fourchette.',
           de: 'Den Teig ausrollen und eine Tarteform (ca. 24 cm) damit auslegen. Den Boden mit einer Gabel einstechen.',
@@ -1212,7 +1342,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Pour filling into the pastry shell and smooth the top.',
-          sv: 'Häll fyllningen i bakverksskalet och jämna till toppen.',
+          sv: 'Häll fyllningen i pajskalet och jämna till ytan.',
           es: 'Vierta el relleno en la base de la masa y alise la parte superior.',
           fr: 'Versez la garniture dans le fond de tarte et lissez le dessus.',
           de: 'Die Füllung in die Teighülle füllen und die Oberfläche glatt streichen.',
@@ -1223,7 +1353,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Bake 35-45 minutes until set and golden at the edges.',
-          sv: 'Grädda 35-45 minuter tills de stelnat och är gyllene i kanterna.',
+          sv: 'Grädda i 35-45 minuter tills fyllningen har stelnat och kanterna är gyllene.',
           es: 'Hornee de 35 a 45 minutos hasta que cuaje y se dore en los bordes.',
           fr: 'Cuire au four 35 à 45 minutes jusqu\'à ce que les bords soient pris et dorés.',
           de: '35–45 Minuten backen, bis der Teig fest ist und an den Rändern goldbraun ist.',
@@ -1234,7 +1364,7 @@ export const saintLucia: Country = {
         },
         {
           en: 'Cool at least 20 minutes before slicing. Serve plain or with fresh fruit.',
-          sv: 'Kyl minst 20 minuter innan skivning. Servera vanlig eller med färsk frukt.',
+          sv: 'Låt svalna i minst 20 minuter innan du skär upp pajen. Servera som den är eller med färsk frukt.',
           es: 'Deje enfriar al menos 20 minutos antes de cortar. Sirva solo o con fruta fresca.',
           fr: 'Laisser refroidir au moins 20 minutes avant de trancher. Servir nature ou avec des fruits frais.',
           de: 'Vor dem Schneiden mindestens 20 Minuten abkühlen lassen. Pur oder mit frischem Obst servieren.',

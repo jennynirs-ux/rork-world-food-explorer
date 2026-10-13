@@ -219,8 +219,28 @@ export const qatar: Country = {
     },
     history: [
       {
-        year: 'Ancient',
-        title: 'Pearl Diving',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
+        title: {
+          en: 'Pearl Diving',
+          sv: 'Pärldykning',
+          es: 'Pesca de perlas',
+          fr: 'Pêche aux perles',
+          de: 'Perlentauchen',
+          it: 'Pesca delle perle',
+          pl: 'Poławianie pereł',
+          nl: 'Parelduiken',
+          pt: 'Pesca de pérolas',
+        },
         description: {
           en: 'Qatar was known for its pearl diving industry for centuries.',
           sv: 'Qatar var känt för sin pärldykningsindustri i århundraden.',
@@ -235,7 +255,17 @@ export const qatar: Country = {
       },
       {
         year: '1971',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Qatar gained independence from British protection.',
           sv: 'Qatar blev självständigt från brittiskt skydd.',
@@ -402,7 +432,7 @@ export const qatar: Country = {
       {
         name: {
           en: 'Katara Cultural Village',
-          sv: 'Katara Cultural Village',
+          sv: 'Kulturbyn Katara',
           es: 'Aldea Cultural Katara',
           fr: 'Village culturel de Katara',
           de: 'Kulturdorf Katara',
@@ -450,7 +480,17 @@ export const qatar: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-April for pleasant weather; summer is extremely hot.',
           sv: 'November-april för behagligt väder; sommaren är extremt varm.',
@@ -464,7 +504,17 @@ export const qatar: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa-free or visa on arrival for many nationalities.',
           sv: 'Visumfritt eller visum vid ankomst för många nationaliteter.',
@@ -478,7 +528,17 @@ export const qatar: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Dress conservatively in public, shoulders and knees covered.',
           sv: 'Klä dig konservativt offentligt, axlar och knän täckta.',
@@ -588,7 +648,7 @@ export const qatar: Country = {
         {
           name: {
             en: 'Heavy cream',
-            sv: 'Tung kräm',
+            sv: 'Vispgrädde',
             es: 'Crema espesa',
             fr: 'Crème épaisse',
             de: 'Sahne',
@@ -664,7 +724,7 @@ export const qatar: Country = {
       steps: [
         {
           en: 'Bake puff pastry until golden, break into pieces',
-          sv: 'Baka smördegen gyllene, bryt i bitar',
+          sv: 'Grädda smördegen gyllene och bryt den i bitar',
           es: 'Hornear el hojaldre hasta que esté dorado, partirlo en trozos',
           fr: 'Cuire la pâte feuilletée jusqu\'à ce qu\'elle soit dorée, la casser en morceaux',
           de: 'Blätterteig goldbraun backen, in Stücke brechen',
@@ -675,7 +735,7 @@ export const qatar: Country = {
         },
         {
           en: 'Layer pastry pieces in baking dish',
-          sv: 'Varva bakverk bitar i ugnsform',
+          sv: 'Varva smördegsbitarna i en ugnsform',
           es: 'Coloque los trozos de masa en una fuente para hornear',
           fr: 'Étalez les morceaux de pâte dans un plat allant au four',
           de: 'Teigstücke in eine Auflaufform schichten',
@@ -686,7 +746,7 @@ export const qatar: Country = {
         },
         {
           en: 'Add nuts and raisins',
-          sv: 'Lägg till nötter och russin',
+          sv: 'Strö över nötter och russin',
           es: 'Añade nueces y pasas',
           fr: 'Ajouter les noix et les raisins secs',
           de: 'Nüsse und Rosinen hinzufügen',
@@ -708,7 +768,7 @@ export const qatar: Country = {
         },
         {
           en: 'Pour hot milk mixture over pastry',
-          sv: 'Häll varm mjölkblandning över bakverk',
+          sv: 'Häll den varma mjölkblandningen över smördegen',
           es: 'Vierta la mezcla de leche caliente sobre la masa',
           fr: 'Verser le mélange de lait chaud sur la pâte',
           de: 'Heiße Milchmischung über den Teig gießen',
@@ -719,7 +779,7 @@ export const qatar: Country = {
         },
         {
           en: 'Bake at 350°F for 25 minutes until golden',
-          sv: 'Grädda i 350°F i 25 minuter tills de är gyllene',
+          sv: 'Grädda i 175°C i 25 minuter tills ytan är gyllene',
           es: 'Hornee a 350°F durante 25 minutos hasta que esté dorado',
           fr: 'Cuire au four à 350°F pendant 25 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '25 Minuten bei 350 °F backen, bis sie goldbraun sind',
@@ -826,7 +886,7 @@ export const qatar: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -851,7 +911,7 @@ export const qatar: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -864,7 +924,7 @@ export const qatar: Country = {
         {
           name: {
             en: 'Baharat spice',
-            sv: 'Baharat krydda',
+            sv: 'Baharatkrydda',
             es: 'Especia Baharat',
             fr: 'Épice Baharat',
             de: 'Baharat-Gewürz',
@@ -901,7 +961,7 @@ export const qatar: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -915,7 +975,7 @@ export const qatar: Country = {
       steps: [
         {
           en: 'Brown meat with spices',
-          sv: 'Brunt kött med kryddor',
+          sv: 'Bryn köttet med kryddorna',
           es: 'Dorar la carne con especias',
           fr: 'Viande brune aux épices',
           de: 'Braunes Fleisch mit Gewürzen',
@@ -926,7 +986,7 @@ export const qatar: Country = {
         },
         {
           en: 'Add onions and tomatoes',
-          sv: 'Lägg till lök och tomater',
+          sv: 'Tillsätt lök och tomater',
           es: 'Agrega las cebollas y los tomates',
           fr: 'Ajouter les oignons et les tomates',
           de: 'Zwiebeln und Tomaten hinzufügen',
@@ -937,7 +997,7 @@ export const qatar: Country = {
         },
         {
           en: 'Simmer until tender',
-          sv: 'Sjud tills det är mjukt',
+          sv: 'Låt sjuda tills köttet är mört',
           es: 'Cocine a fuego lento hasta que estén tiernos',
           fr: 'Laisser mijoter jusqu\'à tendreté',
           de: 'Köcheln lassen, bis es weich ist',
@@ -948,7 +1008,7 @@ export const qatar: Country = {
         },
         {
           en: 'Cook rice with broth and dried limes',
-          sv: 'Koka ris med buljong och torkade lime',
+          sv: 'Koka riset i buljong med de torkade limefrukterna',
           es: 'Cocer arroz con caldo y limas secas',
           fr: 'Cuire le riz avec le bouillon et les citrons verts séchés',
           de: 'Reis mit Brühe und getrockneten Limetten kochen',
@@ -1132,7 +1192,7 @@ export const qatar: Country = {
           },
           {
             en: 'Commonwealth Games',
-            sv: 'Commonwealth Games',
+            sv: 'Samväldesspelen',
             es: 'Juegos de la Commonwealth',
             fr: 'Jeux du Commonwealth',
             de: 'Commonwealth-Spiele',
@@ -1486,7 +1546,7 @@ export const qatar: Country = {
         options: [
           {
             en: 'Grand Bazaar',
-            sv: 'Grand Bazaar',
+            sv: 'Stora basaren',
             es: 'Gran Bazar',
             fr: 'Grand Bazar',
             de: 'Großer Basar',
@@ -1547,7 +1607,7 @@ export const qatar: Country = {
         options: [
           {
             en: 'Desert Beach',
-            sv: 'Desert Beach',
+            sv: 'Ökenstranden',
             es: 'Playa del Desierto',
             fr: 'Plage du désert',
             de: 'Wüstenstrand',
@@ -1569,7 +1629,7 @@ export const qatar: Country = {
           },
           {
             en: 'Sand Bay',
-            sv: 'Sand Bay',
+            sv: 'Sandbukten',
             es: 'Bahía de arena',
             fr: 'Baie de sable',
             de: 'Sandbucht',
@@ -1580,7 +1640,7 @@ export const qatar: Country = {
           },
           {
             en: 'Dune Coast',
-            sv: 'Dune Coast',
+            sv: 'Dynkusten',
             es: 'Costa de dunas',
             fr: 'Côte des dunes',
             de: 'Dünenküste',

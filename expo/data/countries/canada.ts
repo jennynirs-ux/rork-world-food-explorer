@@ -264,7 +264,17 @@ export const canada: Country = {
     history: [
       {
         year: '1867',
-        title: 'Confederation',
+        title: {
+          en: 'Confederation',
+          sv: 'Konfederationen',
+          es: 'Confederación',
+          fr: 'Confédération',
+          de: 'Konföderation',
+          it: 'Confederazione',
+          pl: 'Konfederacja',
+          nl: 'Confederatie',
+          pt: 'Confederação',
+        },
         description: {
           en: 'The British North America Act united several colonies into the Dominion of Canada.',
           sv: 'Den brittiska North America Act förenade flera kolonier till Dominion of Canada.',
@@ -279,7 +289,17 @@ export const canada: Country = {
       },
       {
         year: '1885',
-        title: 'Transcontinental Railroad',
+        title: {
+          en: 'Transcontinental Railroad',
+          sv: 'Transkontinentala järnvägen',
+          es: 'Ferrocarril transcontinental',
+          fr: 'Chemin de fer transcontinental',
+          de: 'Transkontinentale Eisenbahn',
+          it: 'Ferrovia transcontinentale',
+          pl: 'Kolej transkontynentalna',
+          nl: 'Transcontinentale spoorlijn',
+          pt: 'Ferrovia transcontinental',
+        },
         description: {
           en: 'Completion of the Canadian Pacific Railway connected the country coast to coast.',
           sv: 'Färdigställandet av Canadian Pacific Railway kopplade landkusten till kusten.',
@@ -294,7 +314,17 @@ export const canada: Country = {
       },
       {
         year: '1965',
-        title: 'Maple Leaf Flag',
+        title: {
+          en: 'Maple Leaf Flag',
+          sv: 'Lönnlövsflaggan',
+          es: 'Bandera de la hoja de arce',
+          fr: 'Drapeau à la feuille d\'érable',
+          de: 'Ahornblattflagge',
+          it: 'Bandiera della foglia d\'acero',
+          pl: 'Flaga z liściem klonu',
+          nl: 'Esdoornbladvlag',
+          pt: 'Bandeira da folha de bordo',
+        },
         description: {
           en: 'Canada adopted its iconic red and white flag with the maple leaf, replacing the British ensign.',
           sv: 'Kanada antog sin ikoniska röda och vita flagga med lönnbladet och ersatte den brittiska fänriken.',
@@ -309,7 +339,17 @@ export const canada: Country = {
       },
       {
         year: '1982',
-        title: 'Constitutional Independence',
+        title: {
+          en: 'Constitutional Independence',
+          sv: 'Konstitutionell självständighet',
+          es: 'Independencia constitucional',
+          fr: 'Indépendance constitutionnelle',
+          de: 'Verfassungsrechtliche Unabhängigkeit',
+          it: 'Indipendenza costituzionale',
+          pl: 'Konstytucyjna niepodległość',
+          nl: 'Constitutionele onafhankelijkheid',
+          pt: 'Independência constitucional',
+        },
         description: {
           en: 'Canada patriated its constitution, achieving full independence from Britain.',
           sv: 'Kanada patrierade sin konstitution och uppnådde fullständigt oberoende från Storbritannien.',
@@ -429,7 +469,7 @@ export const canada: Country = {
       {
         name: {
           en: 'Banff National Park',
-          sv: 'Banff National Park',
+          sv: 'Banffs nationalpark',
           es: 'Parque Nacional Banff',
           fr: 'Parc national Banff',
           de: 'Banff-Nationalpark',
@@ -477,7 +517,7 @@ export const canada: Country = {
       {
         name: {
           en: 'Old Quebec City',
-          sv: 'Old Quebec City',
+          sv: 'Gamla stan i Québec',
           es: 'Antigua ciudad de Quebec',
           fr: 'Vieux-Québec',
           de: 'Altstadt von Quebec',
@@ -549,7 +589,17 @@ export const canada: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Summer (June-August) for warm weather, or winter for skiing and snow activities.',
           sv: 'Sommar (juni-augusti) för varmt väder, eller vinter för skidåkning och snöaktiviteter.',
@@ -563,7 +613,17 @@ export const canada: Country = {
         },
       },
       {
-        item: 'Warm clothing',
+        item: {
+          en: 'Warm clothing',
+          sv: 'Varma kläder',
+          es: 'Ropa de abrigo',
+          fr: 'Vêtements chauds',
+          de: 'Warme Kleidung',
+          it: 'Abiti caldi',
+          pl: 'Ciepła odzież',
+          nl: 'Warme kleding',
+          pt: 'Roupas de frio',
+        },
         description: {
           en: 'Even summer evenings can be cool; winter requires serious cold-weather gear.',
           sv: 'Även sommarkvällar kan vara svala; vintern kräver seriös kallvädersutrustning.',
@@ -577,7 +637,17 @@ export const canada: Country = {
         },
       },
       {
-        item: 'Bear spray',
+        item: {
+          en: 'Bear spray',
+          sv: 'Björnspray',
+          es: 'Spray antiosos',
+          fr: 'Spray anti-ours',
+          de: 'Bärenspray',
+          it: 'Spray anti-orso',
+          pl: 'Gaz na niedźwiedzie',
+          nl: 'Berenspray',
+          pt: 'Spray contra ursos',
+        },
         description: {
           en: 'Essential for hiking in wilderness areas with bears.',
           sv: 'Nödvändigt för vandring i vildmarksområden med björnar.',
@@ -591,7 +661,17 @@ export const canada: Country = {
         },
       },
       {
-        item: 'Power adapter',
+        item: {
+          en: 'Power adapter',
+          sv: 'Reseadapter',
+          es: 'Adaptador de enchufe',
+          fr: 'Adaptateur de prise',
+          de: 'Reiseadapter',
+          it: 'Adattatore per prese',
+          pl: 'Adapter do gniazdek',
+          nl: 'Reisstekker',
+          pt: 'Adaptador de tomada',
+        },
         description: {
           en: 'Canada uses Type A and B plugs with 120V (same as US).',
           sv: 'Kanada använder typ A- och B-kontakter med 120V (samma som USA).',
@@ -605,7 +685,17 @@ export const canada: Country = {
         },
       },
       {
-        item: 'Outdoor gear',
+        item: {
+          en: 'Outdoor gear',
+          sv: 'Friluftsutrustning',
+          es: 'Equipo para el aire libre',
+          fr: 'Équipement de plein air',
+          de: 'Outdoor-Ausrüstung',
+          it: 'Attrezzatura outdoor',
+          pl: 'Sprzęt outdoorowy',
+          nl: 'Outdooruitrusting',
+          pt: 'Equipamento outdoor',
+        },
         description: {
           en: 'Hiking boots, rain jacket for exploring Canada\'s natural beauty.',
           sv: 'Vandringsstövlar, regnjacka för att utforska Kanadas naturliga skönhet.',
@@ -619,7 +709,17 @@ export const canada: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Small towns may have limited card acceptance.',
           sv: 'Små städer kan ha begränsad acceptans av kort.',
@@ -648,7 +748,7 @@ export const canada: Country = {
       },
       description: {
         en: 'French fries topped with cheese curds and smothered in rich brown gravy',
-        sv: 'Pommes frites toppad med ostmassa och kvävd i fyllig brun sås',
+        sv: 'Pommes frites toppade med ostmassa och överösta med fyllig brun sås',
         es: 'Papas fritas cubiertas con queso cuajado y bañadas en una rica salsa marrón',
         fr: 'Frites garnies de fromage en grains et nappées d\'une riche sauce brune',
         de: 'Pommes Frites mit Käsebruch belegt und mit kräftiger brauner Soße übergossen',
@@ -675,7 +775,7 @@ export const canada: Country = {
         {
           name: {
             en: 'Russet potatoes',
-            sv: 'Russet potatis',
+            sv: 'Mjölig potatis',
             es: 'Patatas Russet',
             fr: 'Pommes de terre rousses',
             de: 'Rotkartoffeln',
@@ -705,7 +805,7 @@ export const canada: Country = {
         {
           name: {
             en: 'Beef or vegetable broth',
-            sv: 'Nötkött eller grönsaksbuljong',
+            sv: 'Kött- eller grönsaksbuljong',
             es: 'Caldo de carne o de verduras',
             fr: 'Bouillon de boeuf ou de légumes',
             de: 'Rinder- oder Gemüsebrühe',
@@ -745,7 +845,7 @@ export const canada: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -770,7 +870,7 @@ export const canada: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
             de: 'Pflanzenöl zum Braten',
@@ -821,7 +921,7 @@ export const canada: Country = {
       steps: [
         {
           en: 'Cut potatoes into thick fries (about 1cm thick)',
-          sv: 'Skär potatis i tjocka pommes frites (ca 1 cm tjocka)',
+          sv: 'Skär potatisen i stavar, ca 1 cm tjocka',
           es: 'Cortar las patatas en patatas fritas gruesas (de aproximadamente 1 cm de grosor)',
           fr: 'Couper les pommes de terre en frites épaisses (environ 1 cm d\'épaisseur)',
           de: 'Kartoffeln in dicke Pommes schneiden (ca. 1 cm dick)',
@@ -832,7 +932,7 @@ export const canada: Country = {
         },
         {
           en: 'Soak fries in cold water for 30 minutes, then pat dry',
-          sv: 'Blötlägg pommes fritesen i kallt vatten i 30 minuter, torka sedan',
+          sv: 'Blötlägg potatisstavarna i kallt vatten i 30 minuter och torka dem sedan noga med hushållspapper',
           es: 'Remoje las papas fritas en agua fría durante 30 minutos y luego séquelas',
           fr: 'Faire tremper les frites dans l\'eau froide pendant 30 minutes, puis les sécher',
           de: 'Pommes 30 Minuten in kaltem Wasser einweichen, dann trocken tupfen',
@@ -843,7 +943,7 @@ export const canada: Country = {
         },
         {
           en: 'Heat oil to 160°C, fry potatoes for 5 minutes until soft',
-          sv: 'Värm olja till 160°C, stek potatisen i 5 minuter tills den är mjuk',
+          sv: 'Hetta upp oljan till 160°C och fritera potatisen i 5 minuter tills den är mjuk',
           es: 'Calentar aceite a 160°C, freír las patatas durante 5 minutos hasta que estén blandas',
           fr: 'Chauffer l\'huile à 160°C, faire revenir les pommes de terre pendant 5 minutes jusqu\'à ce qu\'elles soient tendres',
           de: 'Öl auf 160°C erhitzen, Kartoffeln 5 Minuten weich braten',
@@ -854,7 +954,7 @@ export const canada: Country = {
         },
         {
           en: 'Remove and let cool, then fry again at 180°C until golden and crispy',
-          sv: 'Ta ut och låt svalna och stek sedan igen vid 180°C tills de är gyllene och krispiga',
+          sv: 'Ta upp potatisen och låt den svalna. Fritera den sedan igen i 180°C tills den är gyllene och krispig',
           es: 'Retirar y dejar enfriar, luego freír nuevamente a 180°C hasta que esté dorado y crujiente',
           fr: 'Retirer et laisser refroidir, puis faire frire à nouveau à 180°C jusqu\'à ce qu\'ils soient dorés et croustillants',
           de: 'Herausnehmen und abkühlen lassen, dann erneut bei 180 °C goldbraun und knusprig braten',
@@ -865,7 +965,7 @@ export const canada: Country = {
         },
         {
           en: 'Make gravy: melt butter, whisk in flour, cook 1 minute',
-          sv: 'Gör sås: smält smör, vispa i mjöl, koka 1 minut',
+          sv: 'Gör såsen: smält smöret, vispa ner mjölet och låt fräsa i 1 minut',
           es: 'Prepare salsa: derrita la mantequilla, agregue la harina, cocine 1 minuto',
           fr: 'Faire la sauce : faire fondre le beurre, incorporer la farine, cuire 1 minute',
           de: 'Soße zubereiten: Butter schmelzen, Mehl einrühren, 1 Minute kochen lassen',
@@ -876,7 +976,7 @@ export const canada: Country = {
         },
         {
           en: 'Gradually add broth, stirring constantly until thick',
-          sv: 'Tillsätt gradvis buljong under konstant omrörning tills den är tjock',
+          sv: 'Tillsätt buljongen lite i taget under ständig omrörning tills såsen tjocknar',
           es: 'Agregue gradualmente el caldo, revolviendo constantemente hasta que espese',
           fr: 'Ajouter progressivement le bouillon en remuant constamment jusqu\'à ce qu\'il soit épais',
           de: 'Nach und nach Brühe unter ständigem Rühren hinzufügen, bis eine dicke Masse entsteht',
@@ -898,7 +998,7 @@ export const canada: Country = {
         },
         {
           en: 'Place hot fries in a bowl, top with cheese curds',
-          sv: 'Lägg varma pommes frites i en skål, toppa med ostmassa',
+          sv: 'Lägg de varma pommes fritesen i en skål och toppa med ostmassan',
           es: 'Coloque las papas fritas calientes en un tazón y cubra con queso cuajado',
           fr: 'Placer les frites chaudes dans un bol et garnir de fromage en grains',
           de: 'Heiße Pommes in eine Schüssel geben und mit Käsebruch belegen',
@@ -909,7 +1009,7 @@ export const canada: Country = {
         },
         {
           en: 'Pour hot gravy over top so cheese curds begin to melt',
-          sv: 'Häll varm sås över toppen så att ostmassan börjar smälta',
+          sv: 'Häll den varma såsen över så att ostmassan börjar smälta',
           es: 'Vierta salsa picante encima para que el queso cuajado comience a derretirse',
           fr: 'Versez la sauce chaude dessus pour que le fromage en grains commence à fondre',
           de: 'Gießen Sie heiße Soße darüber, damit der Käsebruch zu schmelzen beginnt',
@@ -920,7 +1020,7 @@ export const canada: Country = {
         },
         {
           en: 'Serve immediately while hot and crispy',
-          sv: 'Servera omedelbart medan den är varm och krispig',
+          sv: 'Servera direkt medan pommes fritesen är varma och krispiga',
           es: 'Sirva inmediatamente mientras esté caliente y crujiente',
           fr: 'Servir immédiatement chaud et croustillant',
           de: 'Sofort heiß und knusprig servieren',
@@ -936,7 +1036,7 @@ export const canada: Country = {
       id: 'canada-dessert',
       name: {
         en: 'Butter Tarts',
-        sv: 'Smörtårtor',
+        sv: 'Butter tarts',
         es: 'Tartas de mantequilla',
         fr: 'Tartelettes au beurre',
         de: 'Buttertörtchen',
@@ -947,7 +1047,7 @@ export const canada: Country = {
       },
       description: {
         en: 'Sweet pastry tarts filled with butter, sugar, syrup, and egg, a Canadian classic',
-        sv: 'Söta konditorivaror fyllda med smör, socker, sirap och ägg, en kanadensisk klassiker',
+        sv: 'Små söta tarteletter med en fyllning av smör, socker, sirap och ägg – en kanadensisk klassiker',
         es: 'Tartas dulces de hojaldre rellenas de mantequilla, azúcar, almíbar y huevo, un clásico canadiense',
         fr: 'Tartelettes sucrées fourrées au beurre, sucre, sirop et œuf, un classique canadien',
         de: 'Süße Gebäcktörtchen gefüllt mit Butter, Zucker, Sirup und Ei, ein kanadischer Klassiker',
@@ -974,7 +1074,7 @@ export const canada: Country = {
         {
           name: {
             en: 'Pie pastry',
-            sv: 'Pajbakelse',
+            sv: 'Pajdeg',
             es: 'Pastel de masa',
             fr: 'Pâtisserie à tarte',
             de: 'Kuchenteig',
@@ -1046,7 +1146,7 @@ export const canada: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1115,7 +1215,7 @@ export const canada: Country = {
       steps: [
         {
           en: 'Preheat oven to 200°C (400°F)',
-          sv: 'Värm ugnen till 200°C (400°F)',
+          sv: 'Sätt ugnen på 200°C',
           es: 'Precalienta el horno a 200°C (400°F)',
           fr: 'Préchauffer le four à 200°C (400°F)',
           de: 'Backofen auf 200 °C (400 °F) vorheizen',
@@ -1126,7 +1226,7 @@ export const canada: Country = {
         },
         {
           en: 'Roll out pastry and cut circles to fit muffin tins',
-          sv: 'Kavla ut degen och skär cirklar så att de passar muffinsformar',
+          sv: 'Kavla ut degen och stansa ut rundlar som passar i en muffinsplåt',
           es: 'Extienda la masa y corte círculos para que quepan en moldes para muffins.',
           fr: 'Étalez la pâte et découpez des cercles pour les moules à muffins',
           de: 'Den Teig ausrollen und Kreise ausschneiden, damit sie in die Muffinformen passen',
@@ -1137,7 +1237,7 @@ export const canada: Country = {
         },
         {
           en: 'Press pastry into greased muffin cups',
-          sv: 'Tryck ut degen i smorda muffinsformar',
+          sv: 'Tryck ner degrundlarna i en smord muffinsplåt',
           es: 'Presione la masa en moldes para muffins engrasados.',
           fr: 'Presser la pâte dans des moules à muffins graissés',
           de: 'Den Teig in gefettete Muffinförmchen drücken',
@@ -1148,7 +1248,7 @@ export const canada: Country = {
         },
         {
           en: 'Melt butter, mix with brown sugar, corn syrup, eggs, vanilla, and salt',
-          sv: 'Smält smör, blanda med farinsocker, majssirap, ägg, vanilj och salt',
+          sv: 'Smält smöret och blanda med farinsocker, majssirap, ägg, vanilj och salt',
           es: 'Derretir la mantequilla, mezclar con el azúcar moreno, el jarabe de maíz, los huevos, la vainilla y la sal.',
           fr: 'Faire fondre le beurre, mélanger avec la cassonade, le sirop de maïs, les œufs, la vanille et le sel',
           de: 'Butter schmelzen, mit braunem Zucker, Maissirup, Eiern, Vanille und Salz vermischen',
@@ -1159,7 +1259,7 @@ export const canada: Country = {
         },
         {
           en: 'If using, add raisins or pecans to each tart shell',
-          sv: 'Om du använder, tillsätt russin eller pekannötter till varje syrligt skal',
+          sv: 'Lägg eventuellt russin eller pekannötter i tartelettskalen',
           es: 'Si lo usa, agregue pasas o nueces a cada base de tarta.',
           fr: 'Si vous en utilisez, ajoutez des raisins secs ou des pacanes à chaque fond de tarte',
           de: 'Bei Verwendung Rosinen oder Pekannüsse zu jeder Tortenschale hinzufügen',
@@ -1170,7 +1270,7 @@ export const canada: Country = {
         },
         {
           en: 'Pour filling into each tart shell, filling about 2/3 full',
-          sv: 'Häll fyllningen i varje tårtskal, fyll ca 2/3 full',
+          sv: 'Häll fyllningen i tartelettskalen så att de blir ungefär 2/3 fulla',
           es: 'Vierta el relleno en cada base de tarta, llenando aproximadamente 2/3 de su capacidad.',
           fr: 'Verser la garniture dans chaque fond de tarte, en remplissant environ aux 2/3',
           de: 'Gießen Sie die Füllung in jede Tortenschale und füllen Sie sie zu etwa 2/3',
@@ -1181,7 +1281,7 @@ export const canada: Country = {
         },
         {
           en: 'Bake for 15-20 minutes until filling is set but still slightly jiggly',
-          sv: 'Grädda i 15-20 minuter tills fyllningen har stelnat men fortfarande är lite rörig',
+          sv: 'Grädda i 15–20 minuter tills fyllningen har stelnat men fortfarande dallrar lite',
           es: 'Hornee durante 15-20 minutos hasta que el relleno esté listo pero todavía ligeramente tembloroso.',
           fr: 'Cuire au four pendant 15 à 20 minutes jusqu\'à ce que la garniture soit prise mais encore légèrement tremblante',
           de: '15–20 Minuten backen, bis die Füllung fest, aber immer noch leicht wackelig ist',
@@ -1192,7 +1292,7 @@ export const canada: Country = {
         },
         {
           en: 'Let cool in pan for 10 minutes',
-          sv: 'Låt svalna i pannan i 10 minuter',
+          sv: 'Låt svalna i plåten i 10 minuter',
           es: 'Dejar enfriar en el molde durante 10 minutos.',
           fr: 'Laisser refroidir dans le moule pendant 10 minutes',
           de: '10 Minuten in der Pfanne abkühlen lassen',
@@ -1203,7 +1303,7 @@ export const canada: Country = {
         },
         {
           en: 'Remove carefully and cool on wire rack',
-          sv: 'Ta försiktigt bort och kyl på galler',
+          sv: 'Lyft försiktigt ur tarteletterna och låt dem svalna på galler',
           es: 'Retirar con cuidado y dejar enfriar sobre una rejilla.',
           fr: 'Retirer délicatement et laisser refroidir sur une grille',
           de: 'Vorsichtig herausnehmen und auf einem Kuchengitter abkühlen lassen',
@@ -1214,7 +1314,7 @@ export const canada: Country = {
         },
         {
           en: 'Best served warm or at room temperature',
-          sv: 'Serveras bäst varmt eller i rumstemperatur',
+          sv: 'Godast ljumma eller i rumstemperatur',
           es: 'Se sirve mejor caliente o a temperatura ambiente.',
           fr: 'Meilleur servi chaud ou à température ambiante',
           de: 'Am besten warm oder bei Zimmertemperatur servieren',

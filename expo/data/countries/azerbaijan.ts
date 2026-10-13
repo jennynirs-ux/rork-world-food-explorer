@@ -324,7 +324,17 @@ export const azerbaijan: Country = {
           nl: 'Traditie van tapijtweven',
           pt: 'Tradição da tecelagem de tapetes',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Azerbaijani carpet weaving techniques are UNESCO-recognized intangible cultural heritage.',
           sv: 'Azerbajdzjanska mattvävningstekniker är UNESCO-erkända immateriella kulturarv.',
@@ -349,7 +359,17 @@ export const azerbaijan: Country = {
           nl: 'Mugham-muziek',
           pt: 'Música Mugham',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Complex traditional modal music system recognized by UNESCO as a masterpiece of oral heritage.',
           sv: 'Komplext traditionellt modalt musiksystem erkänt av UNESCO som ett mästerverk av det muntliga arvet.',
@@ -415,7 +435,7 @@ export const azerbaijan: Country = {
       {
         name: {
           en: 'Gobustan Rock Art',
-          sv: 'Gobustan Rock Art',
+          sv: 'Hällristningarna i Gobustan',
           es: 'Arte rupestre de Gobustán',
           fr: 'Art rupestre de Gobustan',
           de: 'Gobustan-Felskunst',
@@ -463,7 +483,7 @@ export const azerbaijan: Country = {
       {
         name: {
           en: 'Ateshgah Fire Temple',
-          sv: 'Ateshgah Fire Temple',
+          sv: 'Eldtemplet Ateshgah',
           es: 'Templo del Fuego de Ateshgah',
           fr: 'Temple du Feu d\'Ateshgah',
           de: 'Ateshgah Feuertempel',
@@ -487,8 +507,28 @@ export const azerbaijan: Country = {
     ],
     history: [
       {
-        year: '6th century BC',
-        title: 'Ancient Kingdoms',
+        year: {
+          en: '6th century BC',
+          sv: '500-talet f.Kr.',
+          es: 'siglo VI a. C.',
+          fr: 'VIe siècle av. J.-C.',
+          de: '6. Jahrhundert v. Chr.',
+          it: 'VI secolo a.C.',
+          pl: 'VI wiek p.n.e.',
+          nl: '6e eeuw v.Chr.',
+          pt: 'século VI a.C.',
+        },
+        title: {
+          en: 'Ancient Kingdoms',
+          sv: 'Forntida kungariken',
+          es: 'Reinos antiguos',
+          fr: 'Anciens royaumes',
+          de: 'Alte Königreiche',
+          it: 'Antichi regni',
+          pl: 'Starożytne królestwa',
+          nl: 'Oude koninkrijken',
+          pt: 'Reinos antigos',
+        },
         description: {
           en: 'The territory was home to ancient kingdoms including Caucasian Albania and later became part of the Persian Empire.',
           sv: 'Territoriet var hem för forntida kungadömen inklusive kaukasiska Albanien och blev senare en del av det persiska riket.',
@@ -502,8 +542,28 @@ export const azerbaijan: Country = {
         },
       },
       {
-        year: '7th-11th centuries',
-        title: 'Islamic Influence',
+        year: {
+          en: '7th-11th centuries',
+          sv: '600–1000-talet',
+          es: 'siglos VII–XI',
+          fr: 'VIIe–XIe siècles',
+          de: '7.–11. Jahrhundert',
+          it: 'secoli VII–XI',
+          pl: 'VII–XI wiek',
+          nl: '7e–11e eeuw',
+          pt: 'séculos VII–XI',
+        },
+        title: {
+          en: 'Islamic Influence',
+          sv: 'Islamiskt inflytande',
+          es: 'Influencia islámica',
+          fr: 'Influence islamique',
+          de: 'Islamischer Einfluss',
+          it: 'Influenza islamica',
+          pl: 'Wpływy islamu',
+          nl: 'Islamitische invloed',
+          pt: 'Influência islâmica',
+        },
         description: {
           en: 'Islam spread throughout the region, profoundly influencing Azerbaijani culture and society.',
           sv: 'Islam spreds över hela regionen och influerade djupt azerbajdzjansk kultur och samhälle.',
@@ -518,7 +578,17 @@ export const azerbaijan: Country = {
       },
       {
         year: '1813-1828',
-        title: 'Russian Empire',
+        title: {
+          en: 'Russian Empire',
+          sv: 'Ryska imperiet',
+          es: 'Imperio ruso',
+          fr: 'Empire russe',
+          de: 'Russisches Kaiserreich',
+          it: 'Impero russo',
+          pl: 'Imperium Rosyjskie',
+          nl: 'Russische Rijk',
+          pt: 'Império Russo',
+        },
         description: {
           en: 'Azerbaijan was divided between the Russian and Persian empires through the treaties of Gulistan and Turkmenchay.',
           sv: 'Azerbajdzjan delades mellan de ryska och persiska imperiet genom fördragen med Gulistan och Turkmenchay.',
@@ -533,7 +603,17 @@ export const azerbaijan: Country = {
       },
       {
         year: '1918',
-        title: 'First Republic',
+        title: {
+          en: 'First Republic',
+          sv: 'Första republiken',
+          es: 'Primera República',
+          fr: 'Première République',
+          de: 'Erste Republik',
+          it: 'Prima Repubblica',
+          pl: 'Pierwsza republika',
+          nl: 'Eerste Republiek',
+          pt: 'Primeira República',
+        },
         description: {
           en: 'Azerbaijan Democratic Republic was established, becoming the first democratic and secular republic in the Muslim world.',
           sv: 'Azerbajdzjans demokratiska republik grundades och blev den första demokratiska och sekulära republiken i den muslimska världen.',
@@ -548,7 +628,17 @@ export const azerbaijan: Country = {
       },
       {
         year: '1920',
-        title: 'Soviet Era',
+        title: {
+          en: 'Soviet Era',
+          sv: 'Sovjettiden',
+          es: 'Época soviética',
+          fr: 'Époque soviétique',
+          de: 'Sowjetzeit',
+          it: 'Epoca sovietica',
+          pl: 'Okres radziecki',
+          nl: 'Sovjettijdperk',
+          pt: 'Era soviética',
+        },
         description: {
           en: 'Azerbaijan became part of the Soviet Union, undergoing rapid industrialization and modernization.',
           sv: 'Azerbajdzjan blev en del av Sovjetunionen, genomgick en snabb industrialisering och modernisering.',
@@ -563,7 +653,17 @@ export const azerbaijan: Country = {
       },
       {
         year: '1991',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Azerbaijan regained independence following the dissolution of the Soviet Union.',
           sv: 'Azerbajdzjan återvann självständighet efter upplösningen av Sovjetunionen.',
@@ -579,7 +679,17 @@ export const azerbaijan: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'E-visa available for many nationalities. Some countries have visa-free access.',
           sv: 'E-visum tillgängligt för många nationaliteter. Vissa länder har visumfritt tillträde.',
@@ -593,7 +703,17 @@ export const azerbaijan: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April to June and September to November for pleasant weather',
           sv: 'April till juni och september till november för behagligt väder',
@@ -607,7 +727,17 @@ export const azerbaijan: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Metro in Baku, buses, and taxis. Domestic flights available for longer distances.',
           sv: 'Tunnelbana i Baku, bussar och taxibilar. Inrikesflyg tillgängliga för längre sträckor.',
@@ -621,7 +751,17 @@ export const azerbaijan: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Azerbaijani is official. Russian is widely spoken. English in tourist areas.',
           sv: 'Azerbajdzjan är officiellt. Ryska talas mycket. engelska i turistområden.',
@@ -635,7 +775,17 @@ export const azerbaijan: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe for tourists. Exercise caution near disputed borders.',
           sv: 'Generellt säker för turister. Var försiktig nära omtvistade gränser.',
@@ -653,7 +803,7 @@ export const azerbaijan: Country = {
       id: 'azerbaijan-plov',
       name: {
         en: 'Plov (Azerbaijani Pilaf)',
-        sv: 'Plov (Azerbajdzjan Pilaf)',
+        sv: 'Plov (azerbajdzjansk pilaff)',
         es: 'Plov (pilaf azerbaiyano)',
         fr: 'Plov (Pilaf azerbaïdjanais)',
         de: 'Plov (aserbaidschanischer Pilaw)',
@@ -664,7 +814,7 @@ export const azerbaijan: Country = {
       },
       description: {
         en: 'Azerbaijan\'s national dish - aromatic saffron rice served with meat, dried fruits, and chestnuts. Each region has its own variation, with Shah Plov being the most festive version wrapped in lavash bread.',
-        sv: 'Azerbajdzjans nationalrätt - aromatiskt saffransris serveras med kött, torkad frukt och kastanjer. Varje region har sin egen variant, där Shah Plov är den mest festliga versionen insvept i lavashbröd.',
+        sv: 'Azerbajdzjans nationalrätt – aromatiskt saffransris som serveras med kött, torkad frukt och kastanjer. Varje region har sin egen variant, och Shah Plov, som bakas inlindad i lavashbröd, är den mest festliga.',
         es: 'El plato nacional de Azerbaiyán: arroz aromático con azafrán, servido con carne, frutos secos y castañas. Cada región tiene su propia variación, siendo Shah Plov la versión más festiva envuelta en pan lavash.',
         fr: 'Le plat national de l\'Azerbaïdjan est du riz aromatique au safran servi avec de la viande, des fruits secs et des châtaignes. Chaque région a sa propre variante, le Shah Plov étant la version la plus festive enveloppée dans du pain lavash.',
         de: 'Aserbaidschans Nationalgericht – aromatischer Safranreis, serviert mit Fleisch, Trockenfrüchten und Kastanien. Jede Region hat ihre eigene Variante, wobei Shah Plov die festlichste Variante ist, eingewickelt in Lavash-Brot.',
@@ -822,7 +972,7 @@ export const azerbaijan: Country = {
       steps: [
         {
           en: 'Soak rice in salted water for 2 hours, then rinse',
-          sv: 'Blötlägg ris i saltat vatten i 2 timmar, skölj sedan',
+          sv: 'Blötlägg riset i saltat vatten i 2 timmar och skölj det sedan',
           es: 'Remojar el arroz en agua con sal durante 2 horas y luego enjuagar',
           fr: 'Faire tremper le riz dans de l\'eau salée pendant 2 heures, puis rincer',
           de: 'Reis 2 Stunden in Salzwasser einweichen, dann abspülen',
@@ -833,7 +983,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Brown meat with onions in butter until golden',
-          sv: 'Bryn kött med lök i smör tills det är gyllene',
+          sv: 'Bryn köttet och löken i smör tills de är gyllene',
           es: 'Dore la carne con la cebolla en mantequilla hasta que esté dorada',
           fr: 'Faire dorer la viande avec les oignons dans le beurre jusqu\'à ce qu\'ils soient dorés',
           de: 'Fleisch mit Zwiebeln in Butter goldbraun anbraten',
@@ -844,7 +994,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Add dried fruits and chestnuts to meat, set aside',
-          sv: 'Tillsätt torkad frukt och kastanjer i köttet, ställ åt sidan',
+          sv: 'Blanda ner torkad frukt och kastanjer i köttet och ställ åt sidan',
           es: 'Agregue frutos secos y castañas a la carne, reserve',
           fr: 'Ajouter les fruits secs et les châtaignes à la viande, réserver',
           de: 'Trockenfrüchte und Kastanien zum Fleisch geben, beiseite stellen',
@@ -855,7 +1005,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Boil rice until half-cooked, drain',
-          sv: 'Koka ris tills det är halvkokt, låt rinna av',
+          sv: 'Koka riset tills det är halvkokt och låt det rinna av',
           es: 'Hervir el arroz hasta que esté medio cocido, escurrir',
           fr: 'Faire bouillir le riz jusqu\'à mi-cuisson, égoutter',
           de: 'Reis halbgar kochen, abtropfen lassen',
@@ -866,7 +1016,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Steep saffron in hot water',
-          sv: 'Brant saffran i varmt vatten',
+          sv: 'Låt saffranet dra i varmt vatten',
           es: 'Reposar el azafrán en agua caliente',
           fr: 'Safran trempé dans l\'eau chaude',
           de: 'Safran in heißem Wasser ziehen lassen',
@@ -877,7 +1027,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Layer rice and meat mixture in pot, pour saffron water and butter over',
-          sv: 'Varva ris- och köttblandningen i grytan, häll saffransvatten och smör över',
+          sv: 'Varva riset och köttblandningen i grytan och häll saffransvattnet och smöret över',
           es: 'Coloque una capa de mezcla de arroz y carne en una olla, vierta agua con azafrán y mantequilla encima',
           fr: 'Étalez le mélange de riz et de viande dans une casserole, versez de l\'eau safranée et du beurre dessus',
           de: 'Reis-Fleisch-Mischung in einen Topf schichten, Safranwasser und Butter darübergießen',
@@ -888,7 +1038,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Cover with cloth and lid, steam on very low heat for 45 minutes',
-          sv: 'Täck med trasa och lock, ånga på mycket låg värme i 45 minuter',
+          sv: 'Lägg en kökshandduk och lock över grytan och låt riset ångkoka på mycket svag värme i 45 minuter',
           es: 'Cubrir con un paño y tapar, cocinar al vapor a fuego muy lento durante 45 minutos',
           fr: 'Couvrir d\'un torchon et d\'un couvercle, cuire à la vapeur à feu très doux pendant 45 minutes',
           de: 'Mit einem Tuch und einem Deckel abdecken und 45 Minuten bei sehr schwacher Hitze dämpfen',
@@ -899,7 +1049,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Serve with crispy bottom (qazmaq) on top',
-          sv: 'Servera med krispig botten (qazmaq) på toppen',
+          sv: 'Servera med den krispiga botten (qazmaq) överst',
           es: 'Sirva con el fondo crujiente (qazmaq) encima',
           fr: 'Servir avec un fond croustillant (qazmaq) sur le dessus',
           de: 'Mit knusprigem Boden (Qazmaq) oben servieren',
@@ -915,7 +1065,7 @@ export const azerbaijan: Country = {
       id: 'azerbaijan-dessert',
       name: {
         en: 'Pakhlava (Azerbaijani Baklava)',
-        sv: 'Pakhlava (Azerbajdzjansk Baklava)',
+        sv: 'Pakhlava (azerbajdzjansk baklava)',
         es: 'Pakhlava (Baklava azerbaiyano)',
         fr: 'Pakhlava (Baklava azerbaïdjanais)',
         de: 'Pakhlava (aserbaidschanisches Baklava)',
@@ -926,7 +1076,7 @@ export const azerbaijan: Country = {
       },
       description: {
         en: 'Layers of thin pastry with ground nuts, cardamom, and honey syrup',
-        sv: 'Lager av tunna bakverk med malda nötter, kardemumma och honungssirap',
+        sv: 'Lager av tunn filodeg med malda nötter, kardemumma och honungssirap',
         es: 'Capas de masa fina con nueces molidas, cardamomo y almíbar de miel',
         fr: 'Étages de pâte fine avec arachides, cardamome et sirop de miel',
         de: 'Dünne Teigschichten mit Erdnüssen, Kardamom und Honigsirup',
@@ -983,7 +1133,7 @@ export const azerbaijan: Country = {
         {
           name: {
             en: 'Almonds, ground',
-            sv: 'Mandel, mald',
+            sv: 'Mald mandel',
             es: 'Almendras molidas',
             fr: 'Amandes moulues',
             de: 'Mandeln, gemahlen',
@@ -1028,7 +1178,7 @@ export const azerbaijan: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -1100,7 +1250,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Brush baking pan with melted butter.',
-          sv: 'Pensla bakplåten med smält smör.',
+          sv: 'Pensla en ugnsform med smält smör.',
           es: 'Unte un molde para hornear con mantequilla derretida.',
           fr: 'Badigeonner le plat de cuisson de beurre fondu.',
           de: 'Backform mit zerlassener Butter bestreichen.',
@@ -1111,7 +1261,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Layer 10 sheets of phyllo, brushing each with butter.',
-          sv: 'Varva 10 ark filo, pensla varje med smör.',
+          sv: 'Lägg 10 filoark i formen och pensla vart och ett med smör.',
           es: 'Coloque capas de 10 hojas de pasta filo, untando cada una con mantequilla.',
           fr: 'Superposez 10 feuilles de pâte phyllo en badigeonnant chacune de beurre.',
           de: '10 Blätter Phyllo schichten und jeweils mit Butter bestreichen.',
@@ -1133,7 +1283,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Add 5 more phyllo sheets, brushing each with butter.',
-          sv: 'Lägg till 5 filoplattor till, pensla var och en med smör.',
+          sv: 'Lägg på ytterligare 5 filoark och pensla vart och ett med smör.',
           es: 'Agregue 5 hojas de masa filo más, untando cada una con mantequilla.',
           fr: 'Ajoutez 5 feuilles de pâte phyllo supplémentaires, en badigeonnant chacune de beurre.',
           de: 'Fügen Sie 5 weitere Phyllo-Blätter hinzu und bestreichen Sie jedes mit Butter.',
@@ -1155,7 +1305,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Top with remaining phyllo sheets, brushing each with butter.',
-          sv: 'Toppa med resterande filoplattor, pensla varje med smör.',
+          sv: 'Täck med resterande filoark och pensla vart och ett med smör.',
           es: 'Cubra con las hojas de masa filo restantes, untando cada una con mantequilla.',
           fr: 'Garnir du reste des feuilles de pâte phyllo, en badigeonnant chacune de beurre.',
           de: 'Mit den restlichen Phyllo-Blättern belegen und jeweils mit Butter bestreichen.',
@@ -1166,7 +1316,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Cut into diamond shapes before baking.',
-          sv: 'Skär i diamantformar före gräddning.',
+          sv: 'Skär i romber före gräddningen.',
           es: 'Córtelo en forma de diamante antes de hornear.',
           fr: 'Couper en losanges avant la cuisson.',
           de: 'Vor dem Backen in Rautenformen schneiden.',
@@ -1177,7 +1327,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Bake at 160°C for 45-50 minutes until golden.',
-          sv: 'Grädda i 160°C i 45-50 minuter tills de är gyllene.',
+          sv: 'Grädda i 160°C i 45–50 minuter tills den är gyllene.',
           es: 'Hornear a 160°C durante 45-50 minutos hasta que estén dorados.',
           fr: 'Cuire au four à 160°C pendant 45 à 50 minutes jusqu\'à ce qu\'ils soient dorés.',
           de: 'Bei 160°C 45–50 Minuten goldbraun backen.',
@@ -1188,7 +1338,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Make syrup: boil sugar, honey, water, and saffron for 10 minutes.',
-          sv: 'Gör sirap: koka socker, honung, vatten och saffran i 10 minuter.',
+          sv: 'Gör sirapen: koka socker, honung, vatten och saffran i 10 minuter.',
           es: 'Hacer almíbar: hervir el azúcar, la miel, el agua y el azafrán durante 10 minutos.',
           fr: 'Préparez le sirop : faites bouillir le sucre, le miel, l\'eau et le safran pendant 10 minutes.',
           de: 'Sirup zubereiten: Zucker, Honig, Wasser und Safran 10 Minuten kochen lassen.',
@@ -1199,7 +1349,7 @@ export const azerbaijan: Country = {
         },
         {
           en: 'Pour hot syrup over warm pakhlava. Let absorb overnight.',
-          sv: 'Häll varm sirap över varm pakhlava. Låt absorbera över natten.',
+          sv: 'Häll den varma sirapen över den ljumma pakhlavan. Låt den dra över natten.',
           es: 'Vierta el almíbar caliente sobre el pakhlava tibio. Deje absorber durante la noche.',
           fr: 'Versez le sirop chaud sur le pakhlava chaud. Laisser absorber toute la nuit.',
           de: 'Gießen Sie heißen Sirup über warmes Pakhlava. Über Nacht einziehen lassen.',

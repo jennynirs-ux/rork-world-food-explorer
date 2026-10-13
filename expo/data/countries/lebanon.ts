@@ -241,8 +241,28 @@ export const lebanon: Country = {
     },
     history: [
       {
-        year: '1200 BC',
-        title: 'Phoenician Civilization',
+        year: {
+          en: '1200 BC',
+          sv: '1200 f.Kr.',
+          es: '1200 a. C.',
+          fr: '1200 av. J.-C.',
+          de: '1200 v. Chr.',
+          it: '1200 a.C.',
+          pl: '1200 p.n.e.',
+          nl: '1200 v.Chr.',
+          pt: '1200 a.C.',
+        },
+        title: {
+          en: 'Phoenician Civilization',
+          sv: 'Fenicisk civilisation',
+          es: 'Civilización fenicia',
+          fr: 'Civilisation phénicienne',
+          de: 'Phönizische Zivilisation',
+          it: 'Civiltà fenicia',
+          pl: 'Cywilizacja fenicka',
+          nl: 'Fenicische beschaving',
+          pt: 'Civilização fenícia',
+        },
         description: {
           en: 'The Phoenicians established major trading cities and invented the alphabet that influenced Western writing systems.',
           sv: 'Fenicierna etablerade stora handelsstäder och uppfann alfabetet som påverkade västerländska skriftsystem.',
@@ -257,7 +277,17 @@ export const lebanon: Country = {
       },
       {
         year: '1943',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Lebanon gained independence from French mandate, establishing a unique multi-religious political system.',
           sv: 'Libanon blev självständigt från det franska mandatet och etablerade ett unikt multireligiöst politiskt system.',
@@ -272,7 +302,17 @@ export const lebanon: Country = {
       },
       {
         year: '2005',
-        title: 'Cedar Revolution',
+        title: {
+          en: 'Cedar Revolution',
+          sv: 'Cederrevolutionen',
+          es: 'Revolución de los Cedros',
+          fr: 'Révolution du Cèdre',
+          de: 'Zedernrevolution',
+          it: 'Rivoluzione dei cedri',
+          pl: 'Cedrowa rewolucja',
+          nl: 'Cederrevolutie',
+          pt: 'Revolução dos Cedros',
+        },
         description: {
           en: 'Mass demonstrations led to the withdrawal of Syrian forces from Lebanon.',
           sv: 'Massdemonstrationer ledde till att de syriska styrkorna drog sig tillbaka från Libanon.',
@@ -299,7 +339,17 @@ export const lebanon: Country = {
           nl: 'Alfabet',
           pt: 'Alfabeto',
         },
-        year: '1200 BC',
+        year: {
+          en: '1200 BC',
+          sv: '1200 f.Kr.',
+          es: '1200 a. C.',
+          fr: '1200 av. J.-C.',
+          de: '1200 v. Chr.',
+          it: '1200 a.C.',
+          pl: '1200 p.n.e.',
+          nl: '1200 v.Chr.',
+          pt: '1200 a.C.',
+        },
         description: {
           en: 'Phoenicians developed the first alphabet, foundation of modern Western alphabets.',
           sv: 'Fenicierna utvecklade det första alfabetet, grunden för moderna västerländska alfabet.',
@@ -324,7 +374,17 @@ export const lebanon: Country = {
           nl: 'Purperen verfstof',
           pt: 'Corante púrpura',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Phoenicians created royal purple dye from sea snails, worth more than gold.',
           sv: 'Fenicierna skapade kungligt lila färgämne från havssniglar, värda mer än guld.',
@@ -366,7 +426,7 @@ export const lebanon: Country = {
       {
         name: {
           en: 'Jeita Grotto',
-          sv: 'Jeita Grotto',
+          sv: 'Jeitagrottan',
           es: 'Gruta de Jeita',
           fr: 'Grotte de Jeita',
           de: 'Jeita-Grotte',
@@ -462,7 +522,17 @@ export const lebanon: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'April-June and September-November for pleasant weather.',
           sv: 'April-juni och september-november för behagligt väder.',
@@ -476,7 +546,17 @@ export const lebanon: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Available on arrival for many nationalities.',
           sv: 'Tillgänglig vid ankomst för många nationaliteter.',
@@ -490,7 +570,17 @@ export const lebanon: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'US dollars widely accepted, bring cash due to banking situation.',
           sv: 'US-dollar allmänt accepterad, ta med kontanter på grund av banksituation.',
@@ -504,7 +594,17 @@ export const lebanon: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Respectful dress for religious sites.',
           sv: 'Respektfull klänning för religiösa platser.',
@@ -533,7 +633,7 @@ export const lebanon: Country = {
       },
       description: {
         en: 'National dish of bulgur wheat and minced meat, served baked or fried',
-        sv: 'Nationalrätt av bulgurvete och köttfärs, serverad i ugn eller stekt',
+        sv: 'Nationalrätt av bulgur och köttfärs, ugnsbakad eller friterad',
         es: 'Plato nacional de trigo bulgur y carne picada, servido al horno o frito',
         fr: 'Plat national à base de boulgour et de viande hachée, servi cuit ou frit',
         de: 'Nationalgericht aus Bulgurweizen und Hackfleisch, gebacken oder gebraten serviert',
@@ -560,7 +660,7 @@ export const lebanon: Country = {
         {
           name: {
             en: 'Fine bulgur wheat',
-            sv: 'Fint bulgurvete',
+            sv: 'Fin bulgur',
             es: 'Trigo bulgur fino',
             fr: 'Boulgour fin',
             de: 'Feiner Bulgurweizen',
@@ -575,7 +675,7 @@ export const lebanon: Country = {
         {
           name: {
             en: 'Ground lamb',
-            sv: 'Malet lamm',
+            sv: 'Lammfärs',
             es: 'Cordero molido',
             fr: 'Agneau haché',
             de: 'Lammhackfleisch',
@@ -602,7 +702,7 @@ export const lebanon: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -701,7 +801,7 @@ export const lebanon: Country = {
       steps: [
         {
           en: 'Soak bulgur in cold water for 20 minutes, drain well',
-          sv: 'Blötlägg bulgur i kallt vatten i 20 minuter, låt rinna av väl',
+          sv: 'Blötlägg bulgurn i kallt vatten i 20 minuter och låt den rinna av väl',
           es: 'Remojar el bulgur en agua fría durante 20 minutos, escurrir bien',
           fr: 'Faire tremper le boulgour dans l\'eau froide pendant 20 minutes, bien égoutter',
           de: 'Bulgur 20 Minuten in kaltem Wasser einweichen, gut abtropfen lassen',
@@ -712,7 +812,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Mix bulgur with half the meat, one onion, spices in food processor',
-          sv: 'Blanda bulgur med hälften av köttet, en lök, kryddor i matberedare',
+          sv: 'Mixa bulgurn med hälften av köttet, en lök och kryddorna i en matberedare',
           es: 'Mezcle el bulgur con la mitad de la carne, una cebolla y las especias en un procesador de alimentos',
           fr: 'Mélanger le boulgour avec la moitié de la viande, un oignon et les épices au robot culinaire',
           de: 'Bulgur mit der Hälfte des Fleisches, einer Zwiebel und den Gewürzen in der Küchenmaschine vermischen',
@@ -723,7 +823,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Make filling: sauté remaining onion, meat, pine nuts',
-          sv: 'Gör fyllning: fräs resterande lök, kött, pinjenötter',
+          sv: 'Gör fyllningen: fräs resten av löken med köttet och pinjenötterna',
           es: 'Hacer el relleno: sofreír el resto de la cebolla, la carne y los piñones',
           fr: 'Préparez la garniture : faites revenir l\'oignon restant, la viande et les pignons de pin',
           de: 'Füllung herstellen: Restliche Zwiebel, Fleisch und Pinienkerne anbraten',
@@ -745,7 +845,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Spread filling evenly, top with remaining bulgur mixture',
-          sv: 'Fördela fyllningen jämnt, toppa med resterande bulgurblandning',
+          sv: 'Fördela fyllningen jämnt och täck med resten av bulgurblandningen',
           es: 'Extienda el relleno uniformemente y cubra con la mezcla de bulgur restante',
           fr: 'Étaler la garniture uniformément, garnir du reste du mélange de boulgour',
           de: 'Die Füllung gleichmäßig verteilen und mit der restlichen Bulgurmischung belegen',
@@ -756,7 +856,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Cut into diamond shapes, brush with melted butter',
-          sv: 'Skär i diamantformer, pensla med smält smör',
+          sv: 'Skär i romber och pensla med smält smör',
           es: 'Cortar en forma de diamante, untar con mantequilla derretida',
           fr: 'Couper en losanges, badigeonner de beurre fondu',
           de: 'In Rauten schneiden, mit zerlassener Butter bestreichen',
@@ -767,7 +867,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Bake at 180°C for 40 minutes until golden',
-          sv: 'Grädda i 180°C i 40 minuter tills de är gyllene',
+          sv: 'Grädda i 180 °C i 40 minuter tills ytan är gyllene',
           es: 'Hornear a 180°C durante 40 minutos hasta que esté dorado',
           fr: 'Cuire au four à 180°C pendant 40 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '40 Minuten bei 180°C goldbraun backen',
@@ -805,7 +905,7 @@ export const lebanon: Country = {
       },
       description: {
         en: 'Sweet pastry made of phyllo layers filled with nuts and honey',
-        sv: 'Söta bakverk gjorda av filolager fyllda med nötter och honung',
+        sv: 'Sött bakverk av filodeg i lager, fyllt med nötter och honung',
         es: 'Masa dulce hecha de capas filo rellenas de nueces y miel',
         fr: 'Pâte sucrée composée de couches de pâte phyllo fourrée aux noix et au miel',
         de: 'Süßes Gebäck aus Phyllo-Schichten, gefüllt mit Nüssen und Honig',
@@ -832,7 +932,7 @@ export const lebanon: Country = {
         {
           name: {
             en: 'Phyllo pastry',
-            sv: 'Filobakelse',
+            sv: 'Filodeg',
             es: 'Masa filo',
             fr: 'Pâte phyllo',
             de: 'Blätterteig',
@@ -847,7 +947,7 @@ export const lebanon: Country = {
         {
           name: {
             en: 'Pistachios',
-            sv: 'Pistagenötter',
+            sv: 'Pistaschnötter',
             es: 'Pistachos',
             fr: 'Pistaches',
             de: 'Pistazien',
@@ -922,7 +1022,7 @@ export const lebanon: Country = {
         {
           name: {
             en: 'Honey',
-            sv: 'Älskling',
+            sv: 'Honung',
             es: 'Miel',
             fr: 'Miel',
             de: 'Schatz',
@@ -988,7 +1088,7 @@ export const lebanon: Country = {
       steps: [
         {
           en: 'Chop nuts finely and mix together',
-          sv: 'Hacka nötter fint och blanda ihop',
+          sv: 'Finhacka nötterna och blanda dem',
           es: 'Picar las nueces finamente y mezclar',
           fr: 'Hacher finement les noix et mélanger',
           de: 'Nüsse fein hacken und vermischen',
@@ -999,7 +1099,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Layer phyllo sheets in buttered pan, brushing each with butter',
-          sv: 'Lägg filoark i en smörad panna, pensla var och en med smör',
+          sv: 'Lägg filoark ett i taget i en smord form och pensla varje ark med smör',
           es: 'Coloque capas de hojas de masa filo en un molde untado con mantequilla, untando cada una con mantequilla',
           fr: 'Étalez les feuilles de pâte phyllo dans un moule beurré, en badigeonnant chacune de beurre',
           de: 'Phyllo-Blätter in eine gebutterte Pfanne schichten und jeweils mit Butter bestreichen',
@@ -1010,7 +1110,7 @@ export const lebanon: Country = {
         },
         {
           en: 'After 10 sheets, spread layer of nuts',
-          sv: 'Efter 10 ark, sprid lager av nötter',
+          sv: 'Bred ut ett lager nötter efter 10 ark',
           es: 'Después de 10 hojas, extienda una capa de nueces',
           fr: 'Après 10 feuilles, étalez une couche de noix',
           de: 'Nach 10 Blättern eine Schicht Nüsse',
@@ -1032,7 +1132,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Cut into diamond shapes before baking',
-          sv: 'Skär i diamantformer före gräddning',
+          sv: 'Skär i romber före gräddningen',
           es: 'Cortar en forma de diamante antes de hornear',
           fr: 'Couper en losanges avant la cuisson',
           de: 'abschließen Vor dem Backen in Rauten schneiden',
@@ -1043,7 +1143,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Bake at 160°C for 45 minutes until golden',
-          sv: 'Grädda i 160°C i 45 minuter tills de är gyllene',
+          sv: 'Grädda i 160 °C i 45 minuter tills baklavan är gyllene',
           es: 'Hornear a 160°C durante 45 minutos hasta que esté dorado',
           fr: 'Cuire au four à 160°C pendant 45 minutes jusqu\'à ce qu\'ils soient dorés',
           de: '45 Minuten bei 160°C goldbraun backen',
@@ -1054,7 +1154,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Make syrup: boil sugar, water, honey, lemon juice',
-          sv: 'Gör sirap: koka socker, vatten, honung, citronsaft',
+          sv: 'Gör sockerlagen: koka upp socker, vatten, honung och citronsaft',
           es: 'Hacer almíbar: hervir azúcar, agua, miel, jugo de limón',
           fr: 'Préparez le sirop : faites bouillir le sucre, l\'eau, le miel, le jus de citron',
           de: 'Sirup herstellen: Zucker, Wasser, Honig, Zitronensaft aufkochen',
@@ -1065,7 +1165,7 @@ export const lebanon: Country = {
         },
         {
           en: 'Pour cold syrup over hot baklava, add orange blossom water',
-          sv: 'Häll kall sirap över varm baklava, tillsätt apelsinblomsvatten',
+          sv: 'Rör ner apelsinblomvattnet i den kalla sockerlagen och häll den över den varma baklavan',
           es: 'Vierta el almíbar frío sobre el baklava caliente, agregue agua de azahar',
           fr: 'Versez le sirop froid sur le baklava chaud, ajoutez l\'eau de fleur d\'oranger',
           de: 'Kalten Sirup über heißes Baklava gießen, Orangenblütenwasser hinzufügen',

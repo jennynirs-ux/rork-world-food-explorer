@@ -125,7 +125,7 @@ export const samoa: Country = {
         },
         value: {
           en: 'Samoan Tala (WST)',
-          sv: 'Samoan Tala (WST)',
+          sv: 'Samoansk tala (WST)',
           es: 'Tala samoana (WST)',
           fr: 'Tala samoan (WST)',
           de: 'Samoanischer Tala (WST)',
@@ -263,8 +263,28 @@ export const samoa: Country = {
     },
     history: [
       {
-        year: 'Ancient',
-        title: 'Polynesian Settlement',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
+        title: {
+          en: 'Polynesian Settlement',
+          sv: 'Polynesisk bosättning',
+          es: 'Asentamiento polinesio',
+          fr: 'Peuplement polynésien',
+          de: 'Polynesische Besiedlung',
+          it: 'Insediamento polinesiano',
+          pl: 'Osadnictwo polinezyjskie',
+          nl: 'Polynesische bewoning',
+          pt: 'Povoamento polinésio',
+        },
         description: {
           en: 'Samoa was settled by Polynesian voyagers, developing rich traditions in navigation, family structure, and oral history.',
           sv: 'Samoa bosattes av polynesiska resenärer som utvecklade rika traditioner inom navigering, familjestruktur och muntlig historia.',
@@ -278,8 +298,28 @@ export const samoa: Country = {
         },
       },
       {
-        year: '1800s',
-        title: 'European Contact',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
+        title: {
+          en: 'European Contact',
+          sv: 'Kontakt med européer',
+          es: 'Contacto con los europeos',
+          fr: 'Contact avec les Européens',
+          de: 'Kontakt mit Europäern',
+          it: 'Contatto con gli europei',
+          pl: 'Kontakt z Europejczykami',
+          nl: 'Contact met Europeanen',
+          pt: 'Contato com os europeus',
+        },
         description: {
           en: 'Increased contact with Europeans brought major change through trade, religion, and shifting political influence.',
           sv: 'Ökad kontakt med européer medförde stora förändringar genom handel, religion och skiftande politiskt inflytande.',
@@ -294,7 +334,17 @@ export const samoa: Country = {
       },
       {
         year: '1899',
-        title: 'Partition of the Islands',
+        title: {
+          en: 'Partition of the Islands',
+          sv: 'Öarnas delning',
+          es: 'División de las islas',
+          fr: 'Partage des îles',
+          de: 'Teilung der Inseln',
+          it: 'Spartizione delle isole',
+          pl: 'Podział wysp',
+          nl: 'Deling van de eilanden',
+          pt: 'Divisão das ilhas',
+        },
         description: {
           en: 'The Samoan islands were divided into different colonial administrations, shaping modern borders in the region.',
           sv: 'De samoanska öarna var uppdelade i olika koloniala administrationer, vilket formade moderna gränser i regionen.',
@@ -309,7 +359,17 @@ export const samoa: Country = {
       },
       {
         year: '1918',
-        title: '1918 Influenza Pandemic',
+        title: {
+          en: '1918 Influenza Pandemic',
+          sv: 'Spanska sjukan 1918',
+          es: 'Pandemia de gripe de 1918',
+          fr: 'Pandémie de grippe de 1918',
+          de: 'Grippepandemie von 1918',
+          it: 'Pandemia influenzale del 1918',
+          pl: 'Pandemia grypy z 1918 roku',
+          nl: 'Grieppandemie van 1918',
+          pt: 'Pandemia de gripe de 1918',
+        },
         description: {
           en: 'Samoa suffered significant losses during the influenza pandemic, a major event in modern Samoan history.',
           sv: 'Samoa led betydande förluster under influensapandemin, en stor händelse i modern samoansk historia.',
@@ -324,7 +384,17 @@ export const samoa: Country = {
       },
       {
         year: '1962',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Samoa became the first Pacific island nation to regain independence in the 20th century (as Western Samoa).',
           sv: 'Samoa blev den första ö-nationen i Stilla havet att återfå självständighet på 1900-talet (som Västra Samoa).',
@@ -339,7 +409,17 @@ export const samoa: Country = {
       },
       {
         year: '1997',
-        title: 'Name Change to Samoa',
+        title: {
+          en: 'Name Change to Samoa',
+          sv: 'Namnbyte till Samoa',
+          es: 'Cambio de nombre a Samoa',
+          fr: 'Adoption du nom Samoa',
+          de: 'Umbenennung in Samoa',
+          it: 'Cambio di nome in Samoa',
+          pl: 'Zmiana nazwy na Samoa',
+          nl: 'Omdoping tot Samoa',
+          pt: 'Mudança de nome para Samoa',
+        },
         description: {
           en: 'The country officially adopted the name "Samoa", reflecting national identity and continuity.',
           sv: 'Landet antog officiellt namnet "Samoa", vilket återspeglar nationell identitet och kontinuitet.',
@@ -366,7 +446,17 @@ export const samoa: Country = {
           nl: 'Polynesische Wegvinding',
           pt: 'Navegação Tradicional Polinésia',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Samoan seafaring traditions contributed to Polynesian navigation knowledge, including reading stars, swells, and winds for ocean voyages.',
           sv: 'Samoanska sjöfartstraditioner bidrog till polynesisk navigationskunskap, inklusive att läsa stjärnor, dyningar och vindar för havsresor.',
@@ -391,7 +481,17 @@ export const samoa: Country = {
           nl: 'Umu Aardoven Koken',
           pt: 'Culinária no Forno de Terra Umu',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Umu cooking techniques (heated stones and covered pits) remain a core culinary method, producing distinctive smoky flavors.',
           sv: 'Umu matlagningstekniker (uppvärmda stenar och täckta gropar) förblir en central kulinarisk metod, som producerar distinkta rökiga smaker.',
@@ -416,7 +516,17 @@ export const samoa: Country = {
           nl: 'Siapo (Tapa-stof) Ambacht',
           pt: 'Artesanato de Siapo (Tecido Tapa)',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Siapo is a traditional barkcloth art form using natural dyes and patterns, representing cultural identity and storytelling.',
           sv: 'Siapo är en traditionell barkdukskonst som använder naturliga färgämnen och mönster, som representerar kulturell identitet och berättande.',
@@ -458,7 +568,7 @@ export const samoa: Country = {
       {
         name: {
           en: 'Lalomanu Beach',
-          sv: 'Lalomanu Beach',
+          sv: 'Lalomanustranden',
           es: 'Playa Lalomanu',
           fr: 'Plage de Lalomanu',
           de: 'Lalomanu-Strand',
@@ -482,7 +592,7 @@ export const samoa: Country = {
       {
         name: {
           en: 'Papaseea Sliding Rocks',
-          sv: 'Papaseea Sliding Rocks',
+          sv: 'Papaseeas naturliga rutschkanor',
           es: 'Papaseea rocas deslizantes',
           fr: 'Rochers coulissants Papaseea',
           de: 'Papaseea-Rutschsteine',
@@ -554,7 +664,17 @@ export const samoa: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'May to October is typically drier and cooler; November to April is warmer and wetter.',
           sv: 'Maj till oktober är vanligtvis torrare och svalare; November till april är varmare och blötare.',
@@ -568,7 +688,17 @@ export const samoa: Country = {
         },
       },
       {
-        item: 'Cash and payments',
+        item: {
+          en: 'Cash and payments',
+          sv: 'Kontanter och betalning',
+          es: 'Efectivo y pagos',
+          fr: 'Espèces et paiements',
+          de: 'Bargeld und Zahlungen',
+          it: 'Contanti e pagamenti',
+          pl: 'Gotówka i płatności',
+          nl: 'Contant geld en betalen',
+          pt: 'Dinheiro e pagamentos',
+        },
         description: {
           en: 'Carry some cash (WST) for small shops and markets; cards are more common in larger hotels and businesses.',
           sv: 'Ta med lite kontanter (WST) för små butiker och marknader; kort är vanligare på större hotell och företag.',
@@ -582,7 +712,17 @@ export const samoa: Country = {
         },
       },
       {
-        item: 'Respect local customs',
+        item: {
+          en: 'Respect local customs',
+          sv: 'Respektera lokala seder',
+          es: 'Respeta las costumbres locales',
+          fr: 'Respecter les coutumes locales',
+          de: 'Lokale Bräuche respektieren',
+          it: 'Rispettare le usanze locali',
+          pl: 'Szanuj lokalne zwyczaje',
+          nl: 'Respecteer lokale gebruiken',
+          pt: 'Respeite os costumes locais',
+        },
         description: {
           en: 'Dress modestly in villages and follow local guidance; fa\'a Samoa emphasizes respect and community.',
           sv: 'Klä dig anständigt i byar och följ lokal vägledning; fa\'a Samoa betonar respekt och gemenskap.',
@@ -596,7 +736,17 @@ export const samoa: Country = {
         },
       },
       {
-        item: 'Sunday quiet hours',
+        item: {
+          en: 'Sunday quiet hours',
+          sv: 'Lugna söndagar',
+          es: 'Domingos tranquilos',
+          fr: 'Dimanches calmes',
+          de: 'Ruhige Sonntage',
+          it: 'Domeniche tranquille',
+          pl: 'Spokojne niedziele',
+          nl: 'Rustige zondagen',
+          pt: 'Domingos tranquilos',
+        },
         description: {
           en: 'Many areas observe a quieter Sunday; plan shopping and transport accordingly.',
           sv: 'Många områden har en lugnare söndag; planera shopping och transporter därefter.',
@@ -610,7 +760,17 @@ export const samoa: Country = {
         },
       },
       {
-        item: 'Reef-safe sun protection',
+        item: {
+          en: 'Reef-safe sun protection',
+          sv: 'Revvänligt solskydd',
+          es: 'Protección solar respetuosa con los corales',
+          fr: 'Protection solaire respectueuse des récifs',
+          de: 'Korallenfreundlicher Sonnenschutz',
+          it: 'Protezione solare amica dei coralli',
+          pl: 'Ochrona przeciwsłoneczna bezpieczna dla raf',
+          nl: 'Rifvriendelijke zonbescherming',
+          pt: 'Proteção solar segura para corais',
+        },
         description: {
           en: 'Use reef-safe sunscreen and consider rash guards for lagoon swimming.',
           sv: 'Använd revsäker solskyddsmedel och överväg utslagsskydd för lagunsim.',
@@ -639,7 +799,7 @@ export const samoa: Country = {
       },
       description: {
         en: 'A beloved Samoan dish of taro leaves baked in rich coconut cream (often served as part of an umu feast).',
-        sv: 'En älskad samoansk maträtt med taroblad bakade i rik kokosnötsgrädde (serveras ofta som en del av en umu-fest).',
+        sv: 'En älskad samoansk rätt med taroblad som tillagas i ugn i fyllig kokosgrädde (serveras ofta vid festmåltider lagade i umu, den traditionella jordugnen).',
         es: 'Un querido plato samoano de hojas de taro horneadas en una rica crema de coco (a menudo servido como parte de un festín de umu).',
         fr: 'Un plat samoan bien-aimé composé de feuilles de taro cuites dans une riche crème de noix de coco (souvent servie dans le cadre d\'un festin d\'umu).',
         de: 'Ein beliebtes samoanisches Gericht aus Taro-Blättern, gebacken in reichhaltiger Kokosnusscreme (oft im Rahmen eines Umu-Festes serviert).',
@@ -708,7 +868,7 @@ export const samoa: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -752,7 +912,7 @@ export const samoa: Country = {
       steps: [
         {
           en: 'Preheat oven to 180C.',
-          sv: 'Värm ugnen till 180C.',
+          sv: 'Sätt ugnen på 180 °C.',
           es: 'Precalienta el horno a 180C.',
           fr: 'Préchauffer le four à 180°C.',
           de: 'Backofen auf 180 °C vorheizen.',
@@ -763,7 +923,7 @@ export const samoa: Country = {
         },
         {
           en: 'If using taro leaves: wash thoroughly and remove any tough stems. (Taro leaves must be cooked fully.)',
-          sv: 'Om du använder taroblad: tvätta noggrant och ta bort eventuella tuffa stjälkar. (Tarobladen måste vara färdigkokta.)',
+          sv: 'Om du använder taroblad: skölj dem noggrant och skär bort eventuella sega stjälkar. (Taroblad måste alltid tillagas ordentligt.)',
           es: 'Si usa hojas de taro: lávelas bien y retire los tallos duros. (Las hojas de taro deben cocinarse completamente).',
           fr: 'Si vous utilisez des feuilles de taro : lavez-les soigneusement et retirez toutes les tiges dures. (Les feuilles de taro doivent être entièrement cuites.)',
           de: 'Bei Verwendung von Taro-Blättern: Gründlich waschen und alle harten Stiele entfernen. (Taro-Blätter müssen vollständig gekocht sein.)',
@@ -785,7 +945,7 @@ export const samoa: Country = {
         },
         {
           en: 'Create small bundles of leaves and spoon coconut mixture into the center of each bundle.',
-          sv: 'Skapa små buntar av löv och skeda kokosblandningen i mitten av varje bunt.',
+          sv: 'Lägg bladen i små högar, några blad i varje, och lägg en klick kokosblandning i mitten av varje hög.',
           es: 'Cree pequeños manojos de hojas y vierta la mezcla de coco en el centro de cada manojo.',
           fr: 'Créez de petits paquets de feuilles et versez le mélange de noix de coco au centre de chaque paquet.',
           de: 'Bilden Sie kleine Bündel aus Blättern und geben Sie die Kokosnussmischung in die Mitte jedes Bündels.',
@@ -796,7 +956,7 @@ export const samoa: Country = {
         },
         {
           en: 'Wrap each bundle tightly in foil (or banana leaves if available).',
-          sv: 'Slå in varje bunt tätt i folie (eller bananblad om det finns).',
+          sv: 'Vik ihop bladen till knyten och slå in varje knyte tätt i folie (eller i bananblad om du har).',
           es: 'Envuelva bien cada paquete en papel de aluminio (u hojas de plátano, si está disponible).',
           fr: 'Enveloppez fermement chaque paquet dans du papier d\'aluminium (ou des feuilles de bananier si disponibles).',
           de: 'Wickeln Sie jedes Bündel fest in Folie (oder Bananenblätter, falls verfügbar).',
@@ -807,7 +967,7 @@ export const samoa: Country = {
         },
         {
           en: 'Place bundles in a baking dish and bake 75-90 minutes until very tender.',
-          sv: 'Lägg buntar i en ugnsform och grädda i 75-90 minuter tills de är mycket mjuka.',
+          sv: 'Lägg knytena i en ugnsform och låt dem stå i ugnen i 75–90 minuter tills de är riktigt mjuka.',
           es: 'Coloque los manojos en una fuente para horno y hornee de 75 a 90 minutos hasta que estén muy tiernos.',
           fr: 'Placer les paquets dans un plat allant au four et cuire au four pendant 75 à 90 minutes jusqu\'à ce qu\'ils soient très tendres.',
           de: 'Legen Sie die Bündel in eine Auflaufform und backen Sie sie 75–90 Minuten lang, bis sie sehr zart sind.',
@@ -818,7 +978,7 @@ export const samoa: Country = {
         },
         {
           en: 'Rest 5 minutes, then unwrap carefully.',
-          sv: 'Vila 5 minuter och packa sedan upp försiktigt.',
+          sv: 'Låt vila i 5 minuter och veckla sedan försiktigt upp knytena.',
           es: 'Descanse 5 minutos, luego desenvuelva con cuidado.',
           fr: 'Reposez 5 minutes, puis déballer soigneusement.',
           de: '5 Minuten ruhen lassen, dann vorsichtig auspacken.',
@@ -856,7 +1016,7 @@ export const samoa: Country = {
       },
       description: {
         en: 'A traditional Samoan dessert of steamed dough pieces served with a rich coconut caramel sauce.',
-        sv: 'En traditionell samoansk efterrätt av ångade degbitar serverad med en rik kokoskolasås.',
+        sv: 'En traditionell samoansk efterrätt med ångkokta degbitar som serveras med en fyllig kolasås på kokosgrädde.',
         es: 'Un postre tradicional samoano de trozos de masa al vapor servidos con una rica salsa de caramelo de coco.',
         fr: 'Un dessert traditionnel samoan composé de morceaux de pâte cuits à la vapeur, servis avec une riche sauce caramel à la noix de coco.',
         de: 'Ein traditionelles samoanisches Dessert aus gedämpften Teigstücken, serviert mit einer reichhaltigen Kokosnuss-Karamellsauce.',
@@ -883,7 +1043,7 @@ export const samoa: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -928,7 +1088,7 @@ export const samoa: Country = {
         {
           name: {
             en: 'Pinch of salt',
-            sv: 'Nypa salt',
+            sv: 'Salt',
             es: 'Una pizca de sal',
             fr: 'Pincée de sel',
             de: 'Prise Salz',
@@ -1025,7 +1185,7 @@ export const samoa: Country = {
         },
         {
           en: 'Add water and stir until a thick batter forms (like drop-dumplings).',
-          sv: 'Tillsätt vatten och rör om tills en tjock smet bildas (som dumplings).',
+          sv: 'Tillsätt vattnet och rör till en tjock smet (ungefär som till klimpar).',
           es: 'Agregue agua y revuelva hasta que se forme una masa espesa (como bolas de masa).',
           fr: 'Ajoutez de l\'eau et remuez jusqu\'à ce qu\'une pâte épaisse se forme (comme des raviolis).',
           de: 'Wasser hinzufügen und rühren, bis ein dicker Teig entsteht (wie Drop-Knödel).',
@@ -1036,7 +1196,7 @@ export const samoa: Country = {
         },
         {
           en: 'Bring a pot of water to a gentle boil and place a steamer basket on top.',
-          sv: 'Koka upp en kastrull med vatten och lägg en ångkorg ovanpå.',
+          sv: 'Värm vatten i en kastrull till svag kokning och ställ en ånginsats ovanpå.',
           es: 'Lleve una olla con agua a ebullición suave y coloque una canasta vaporera encima.',
           fr: 'Portez une casserole d\'eau à ébullition douce et placez un panier vapeur dessus.',
           de: 'Bringen Sie einen Topf Wasser zum Kochen und stellen Sie einen Dampfgareinsatz darauf.',
@@ -1047,7 +1207,7 @@ export const samoa: Country = {
         },
         {
           en: 'Drop spoonfuls of batter onto parchment or lightly oiled steamer tray.',
-          sv: 'Lägg skedar av smeten på bakplåtspapper eller lätt oljad ångplåt.',
+          sv: 'Klicka ut smeten med en sked på bakplåtspapper eller på en lätt oljad ånginsats.',
           es: 'Deje caer cucharadas de masa sobre papel pergamino o sobre una bandeja vaporera ligeramente engrasada.',
           fr: 'Déposez des cuillerées de pâte sur du papier sulfurisé ou sur un plateau vapeur légèrement huilé.',
           de: 'Geben Sie einen Löffel Teig auf Backpapier oder ein leicht geöltes Dampfgarblech.',
@@ -1058,7 +1218,7 @@ export const samoa: Country = {
         },
         {
           en: 'Steam 15-20 minutes until cooked through.',
-          sv: 'Ånga 15-20 minuter tills den är genomstekt.',
+          sv: 'Ångkoka i 15–20 minuter tills bitarna är genomkokta.',
           es: 'Cocine al vapor durante 15 a 20 minutos hasta que esté bien cocido.',
           fr: 'Cuire à la vapeur 15 à 20 minutes jusqu\'à ce qu\'il soit bien cuit.',
           de: '15–20 Minuten dämpfen, bis alles gar ist.',
@@ -1069,7 +1229,7 @@ export const samoa: Country = {
         },
         {
           en: 'For the sauce: heat coconut cream and brown sugar in a saucepan, stirring until thick and caramel-like.',
-          sv: 'Till såsen: värm kokosgrädde och farinsocker i en kastrull, rör om tills det blir tjockt och kolalikt.',
+          sv: 'Till såsen: värm kokosgrädde och farinsocker i en kastrull under omrörning tills såsen tjocknar och blir kolaaktig.',
           es: 'Para la salsa: caliente la crema de coco y el azúcar moreno en una cacerola, revolviendo hasta que espese y parezca caramelo.',
           fr: 'Pour la sauce : faites chauffer la crème de coco et la cassonade dans une casserole en remuant jusqu\'à obtenir une consistance épaisse et caramel.',
           de: 'Für die Sauce: Kokoscreme und braunen Zucker in einem Topf erhitzen und rühren, bis eine dicke, karamellartige Masse entsteht.',
@@ -1080,7 +1240,7 @@ export const samoa: Country = {
         },
         {
           en: 'Stir in vanilla if using.',
-          sv: 'Rör i vanilj om du använder.',
+          sv: 'Rör ner vaniljen om du använder den.',
           es: 'Agregue la vainilla si la usa.',
           fr: 'Incorporer la vanille si vous en utilisez.',
           de: 'Bei Verwendung Vanille hinzufügen.',
@@ -1091,7 +1251,7 @@ export const samoa: Country = {
         },
         {
           en: 'Serve steamed pieces warm, spooning coconut caramel sauce over the top.',
-          sv: 'Servera ångade bitar varma, skeda med kokoskolasås över toppen.',
+          sv: 'Servera de ångkokta bitarna varma med kokoskolasåsen ringlad över.',
           es: 'Sirva los trozos cocidos al vapor calientes y vierta salsa de caramelo de coco por encima.',
           fr: 'Servir les morceaux cuits à la vapeur chauds, en arrosant de sauce caramel à la noix de coco.',
           de: 'Die gedämpften Stücke warm servieren und Kokos-Karamell-Sauce darüber löffeln.',
@@ -1524,7 +1684,7 @@ export const samoa: Country = {
           },
           {
             en: 'Crystal Cave',
-            sv: 'Crystal Cave',
+            sv: 'Kristallgrottan',
             es: 'Cueva de Cristal',
             fr: 'Grotte de cristal',
             de: 'Kristallhöhle',

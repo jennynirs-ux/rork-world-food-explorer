@@ -230,8 +230,28 @@ export const rwanda: Country = {
     },
     history: [
       {
-        year: '1000 AD',
-        title: 'Banana Cultivation Spreads',
+        year: {
+          en: '1000 AD',
+          sv: '1000 e.Kr.',
+          es: '1000 d. C.',
+          fr: '1000 apr. J.-C.',
+          de: '1000 n. Chr.',
+          it: '1000 d.C.',
+          pl: '1000 n.e.',
+          nl: '1000 n.Chr.',
+          pt: '1000 d.C.',
+        },
+        title: {
+          en: 'Banana Cultivation Spreads',
+          sv: 'Bananodlingen sprids',
+          es: 'Expansión del cultivo del plátano',
+          fr: 'Essor de la culture de la banane',
+          de: 'Ausbreitung des Bananenanbaus',
+          it: 'Diffusione della coltivazione delle banane',
+          pl: 'Rozpowszechnienie uprawy bananów',
+          nl: 'Verspreiding van de bananenteelt',
+          pt: 'Expansão do cultivo de banana',
+        },
         description: {
           en: 'Bananas became major staple crop in Rwanda, bringing reliable nutrition and enabling population growth in the highlands',
           sv: 'Bananer blev en viktig stapelgröda i Rwanda',
@@ -245,8 +265,28 @@ export const rwanda: Country = {
         },
       },
       {
-        year: '1500s',
-        title: 'Bean and Pumpkin Domestication',
+        year: {
+          en: '1500s',
+          sv: '1500-talet',
+          es: 'Siglo XVI',
+          fr: 'XVIe siècle',
+          de: '16. Jahrhundert',
+          it: 'XVI secolo',
+          pl: 'XVI wiek',
+          nl: '16e eeuw',
+          pt: 'Século XVI',
+        },
+        title: {
+          en: 'Bean and Pumpkin Domestication',
+          sv: 'Domesticering av bönor och pumpor',
+          es: 'Domesticación de frijoles y calabazas',
+          fr: 'Domestication du haricot et de la courge',
+          de: 'Domestizierung von Bohnen und Kürbissen',
+          it: 'Domesticazione di fagioli e zucche',
+          pl: 'Udomowienie fasoli i dyni',
+          nl: 'Domesticatie van bonen en pompoenen',
+          pt: 'Domesticação do feijão e da abóbora',
+        },
         description: {
           en: 'Local populations domesticated kidney beans and pumpkins, providing protein and nutrition for growing families and communities',
           sv: 'Lokala befolkningar domesticerade njurbönor och pumpa',
@@ -260,8 +300,28 @@ export const rwanda: Country = {
         },
       },
       {
-        year: '1800s',
-        title: 'Cattle Herding Integration',
+        year: {
+          en: '1800s',
+          sv: '1800-talet',
+          es: 'siglo XIX',
+          fr: 'XIXe siècle',
+          de: '19. Jahrhundert',
+          it: 'XIX secolo',
+          pl: 'XIX wiek',
+          nl: '19e eeuw',
+          pt: 'século XIX',
+        },
+        title: {
+          en: 'Cattle Herding Integration',
+          sv: 'Boskapsskötsel och odling förenas',
+          es: 'Integración de la ganadería',
+          fr: 'Intégration de l\'élevage bovin',
+          de: 'Integration der Rinderhaltung',
+          it: 'Integrazione dell\'allevamento bovino',
+          pl: 'Integracja hodowli bydła',
+          nl: 'Integratie van de veehouderij',
+          pt: 'Integração da criação de gado',
+        },
         description: {
           en: 'Cattle herding traditions blended with crop agriculture, leading to sorghum beer production and meat-based festive meals',
           sv: 'Boskapsuppfödning traditioner blandade med odling',
@@ -276,7 +336,17 @@ export const rwanda: Country = {
       },
       {
         year: '1960',
-        title: 'Post-Independence Food Identity',
+        title: {
+          en: 'Post-Independence Food Identity',
+          sv: 'Matidentitet efter självständigheten',
+          es: 'Identidad culinaria tras la independencia',
+          fr: 'Identité culinaire après l\'indépendance',
+          de: 'Kulinarische Identität nach der Unabhängigkeit',
+          it: 'Identità gastronomica dopo l\'indipendenza',
+          pl: 'Tożsamość kulinarna po odzyskaniu niepodległości',
+          nl: 'Culinaire identiteit na de onafhankelijkheid',
+          pt: 'Identidade culinária pós-independência',
+        },
         description: {
           en: 'After independence, traditional Rwandan dishes became symbols of cultural identity with foods like ubwali and ikiveri gaining importance',
           sv: 'Efter självständigheten blev traditionell rwandisk mat symbolen för kulturell identitet',
@@ -294,7 +364,7 @@ export const rwanda: Country = {
       {
         name: {
           en: 'Volcanoes National Park',
-          sv: 'Volcanoes National Park',
+          sv: 'Volcanoes nationalpark',
           es: 'Parque Nacional de los Volcanes',
           fr: 'Parc National des Volcans',
           de: 'Volcanoes-Nationalpark',
@@ -414,7 +484,17 @@ export const rwanda: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa available on arrival for most nationalities. Can also apply online in advance.',
           sv: 'Visum tillgängligt vid ankomst för de flesta nationaliteter. Kan även ansöka online i förväg.',
@@ -428,7 +508,17 @@ export const rwanda: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'June to September (dry season) is best for gorilla trekking.',
           sv: 'Juni till september (torrsäsong) är bäst för gorillavandring.',
@@ -442,7 +532,17 @@ export const rwanda: Country = {
         },
       },
       {
-        item: 'Health',
+        item: {
+          en: 'Health',
+          sv: 'Hälsa',
+          es: 'Salud',
+          fr: 'Santé',
+          de: 'Gesundheit',
+          it: 'Salute',
+          pl: 'Zdrowie',
+          nl: 'Gezondheid',
+          pt: 'Saúde',
+        },
         description: {
           en: 'Yellow fever certificate required. Malaria prophylaxis recommended.',
           sv: 'Gul feberintyg krävs. Malariaprofylax rekommenderas.',
@@ -480,7 +580,17 @@ export const rwanda: Country = {
         },
       },
       {
-        item: 'Cleanliness',
+        item: {
+          en: 'Cleanliness',
+          sv: 'Renlighet',
+          es: 'Limpieza',
+          fr: 'Propreté',
+          de: 'Sauberkeit',
+          it: 'Pulizia',
+          pl: 'Czystość',
+          nl: 'Netheid',
+          pt: 'Limpeza',
+        },
         description: {
           en: 'Rwanda is very clean. Do not litter. Community cleaning day is last Saturday of month.',
           sv: 'Rwanda är mycket rent. Skräpa inte ner. Gemenskapens städdag är sista lördagen i månaden.',
@@ -507,7 +617,17 @@ export const rwanda: Country = {
           nl: 'Imigongo-kunst van koeienmest',
           pt: 'Arte Imigongo de esterco de vaca',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Unique geometric art form using cow dung mixed with natural pigments, now internationally recognized',
           sv: 'Unik geometrisk konstform med kogödsel blandat med naturliga pigment, nu internationellt erkänd',
@@ -586,7 +706,7 @@ export const rwanda: Country = {
       },
       description: {
         en: 'Cassava leaves cooked in peanut sauce, a traditional Rwandan favorite',
-        sv: 'Cassavablad tillagade i jordnötssås, en traditionell rwandisk favorit',
+        sv: 'Kassavablad tillagade i jordnötssås, en traditionell rwandisk favorit',
         es: 'Hojas de yuca cocidas en salsa de maní, un favorito tradicional de Ruanda',
         fr: 'Feuilles de manioc cuites dans une sauce aux arachides, un plat traditionnel rwandais',
         de: 'In Erdnusssauce gekochte Maniokblätter, ein traditioneller ruandischer Favorit',
@@ -613,7 +733,7 @@ export const rwanda: Country = {
         {
           name: {
             en: 'Cassava leaves (or spinach)',
-            sv: 'Cassavablad (eller spenat)',
+            sv: 'Kassavablad (eller spenat)',
             es: 'Hojas de yuca (o espinacas)',
             fr: 'Feuilles de manioc (ou épinards)',
             de: 'Maniokblätter (oder Spinat)',
@@ -628,7 +748,7 @@ export const rwanda: Country = {
         {
           name: {
             en: 'Groundnuts (peanuts)',
-            sv: 'Jordnötter (jordnötter)',
+            sv: 'Jordnötter',
             es: 'Cacahuetes (cacahuetes)',
             fr: 'Arachides (cacahuètes)',
             de: 'Erdnüsse (Erdnüsse)',
@@ -655,7 +775,7 @@ export const rwanda: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -705,7 +825,7 @@ export const rwanda: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -730,7 +850,7 @@ export const rwanda: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -784,7 +904,7 @@ export const rwanda: Country = {
       steps: [
         {
           en: 'Wash and finely chop cassava leaves',
-          sv: 'Tvätta och finhacka kassavablad',
+          sv: 'Tvätta och finhacka kassavabladen',
           es: 'Lavar y picar finamente las hojas de yuca',
           fr: 'Laver et hacher finement les feuilles de manioc',
           de: 'Maniokblätter waschen und fein hacken',
@@ -806,7 +926,7 @@ export const rwanda: Country = {
         },
         {
           en: 'Grind peanuts into smooth paste',
-          sv: 'Mal jordnötter till slät pasta',
+          sv: 'Mal jordnötterna till en slät pasta',
           es: 'Muele el maní hasta obtener una pasta suave',
           fr: 'Broyer les cacahuètes en une pâte lisse',
           de: 'Erdnüsse zu einer glatten Paste mahlen',
@@ -828,7 +948,7 @@ export const rwanda: Country = {
         },
         {
           en: 'Add chopped eggplant and cook 5 minutes',
-          sv: 'Tillsätt hackad aubergine och koka 5 minuter',
+          sv: 'Tillsätt hackad aubergine och låt koka i 5 minuter',
           es: 'Agrega la berenjena picada y cocina 5 minutos',
           fr: 'Ajouter les aubergines hachées et cuire 5 minutes',
           de: 'Gehackte Auberginen hinzufügen und 5 Minuten kochen lassen',
@@ -850,7 +970,7 @@ export const rwanda: Country = {
         },
         {
           en: 'Simmer for 20 minutes, stirring frequently',
-          sv: 'Sjud i 20 minuter, rör om ofta',
+          sv: 'Låt sjuda i 20 minuter och rör om ofta',
           es: 'Cocine a fuego lento durante 20 minutos, revolviendo con frecuencia.',
           fr: 'Laisser mijoter 20 minutes en remuant fréquemment',
           de: '20 Minuten köcheln lassen, dabei häufig umrühren',
@@ -888,7 +1008,7 @@ export const rwanda: Country = {
       },
       description: {
         en: 'Sweet fried dough flavored with cardamom and coconut, a popular treat throughout East Africa',
-        sv: 'Sötstekt deg smaksatt med kardemumma och kokos, en populär godbit i hela Östafrika',
+        sv: 'Söta friterade degbitar smaksatta med kardemumma och kokos, en omtyckt godsak i hela Östafrika',
         es: 'Masa dulce frita aromatizada con cardamomo y coco, una delicia popular en todo el este de África',
         fr: 'Pâte frite sucrée aromatisée à la cardamome et à la noix de coco, un régal populaire dans toute l\'Afrique de l\'Est',
         de: 'Süßer frittierter Teig mit Kardamom- und Kokosgeschmack, ein beliebter Leckerbissen in ganz Ostafrika',
@@ -915,7 +1035,7 @@ export const rwanda: Country = {
         {
           name: {
             en: 'All-purpose flour',
-            sv: 'Mjöl för alla ändamål',
+            sv: 'Vetemjöl',
             es: 'Harina para todo uso',
             fr: 'Farine tout usage',
             de: 'Allzweckmehl',
@@ -972,7 +1092,7 @@ export const rwanda: Country = {
           amount: 1,
           unit: {
             en: 'piece',
-            sv: 'stycke',
+            sv: 'st',
             es: 'pieza',
             fr: 'pièce',
             de: 'Stück',
@@ -1040,7 +1160,7 @@ export const rwanda: Country = {
         {
           name: {
             en: 'Vegetable oil (for frying)',
-            sv: 'Vegetabilisk olja (för stekning)',
+            sv: 'Neutral olja (till stekning)',
             es: 'Aceite vegetal (para freír)',
             fr: 'Huile végétale (pour la friture)',
             de: 'Pflanzenöl (zum Braten)',
@@ -1056,7 +1176,7 @@ export const rwanda: Country = {
       steps: [
         {
           en: 'Mix flour, sugar, baking powder, cardamom, and salt',
-          sv: 'Blanda mjöl, socker, bakpulver, kardemumma och salt',
+          sv: 'Blanda vetemjöl, socker, bakpulver, kardemumma och salt',
           es: 'Mezclar harina, azúcar, levadura en polvo, cardamomo y sal',
           fr: 'Mélanger la farine, le sucre, la levure chimique, la cardamome et le sel',
           de: 'Mehl, Zucker, Backpulver, Kardamom und Salz mischen',
@@ -1078,7 +1198,7 @@ export const rwanda: Country = {
         },
         {
           en: 'Combine wet and dry ingredients to form soft dough',
-          sv: 'Kombinera våta och torra ingredienser till en mjuk deg',
+          sv: 'Blanda de våta och torra ingredienserna till en mjuk deg',
           es: 'Combine los ingredientes húmedos y secos para formar una masa suave',
           fr: 'Mélanger les ingrédients humides et secs pour former une pâte molle',
           de: 'Nasse und trockene Zutaten zu einem weichen Teig vermischen',
@@ -1100,7 +1220,7 @@ export const rwanda: Country = {
         },
         {
           en: 'Cover and rest for 15 minutes',
-          sv: 'Täck och vila i 15 minuter',
+          sv: 'Täck över och låt degen vila i 15 minuter',
           es: 'Tapar y reposar durante 15 minutos',
           fr: 'Couvrir et laisser reposer 15 minutes',
           de: 'Abdecken und 15 Minuten ruhen lassen',
@@ -1111,7 +1231,7 @@ export const rwanda: Country = {
         },
         {
           en: 'Roll out to 1 cm thickness',
-          sv: 'Kavla ut till 1 cm tjocklek',
+          sv: 'Kavla ut degen ca 1 cm tjock',
           es: 'Estirar hasta obtener 1 cm de grosor',
           fr: 'Abaisser sur 1 cm d\'épaisseur',
           de: '1 cm dick ausrollen',
@@ -1133,7 +1253,7 @@ export const rwanda: Country = {
         },
         {
           en: 'Heat oil to 175°C',
-          sv: 'Värm olja till 175°C',
+          sv: 'Hetta upp oljan till 175°C',
           es: 'Calentar el aceite a 175°C',
           fr: 'Chauffer l\'huile à 175°C',
           de: 'Öl auf 175°C erhitzen',
@@ -1144,7 +1264,7 @@ export const rwanda: Country = {
         },
         {
           en: 'Fry mandazi in batches until golden brown on both sides',
-          sv: 'Stek mandazi i omgångar tills de är gyllenbruna på båda sidor',
+          sv: 'Fritera mandazi i omgångar tills de är gyllenbruna på båda sidor',
           es: 'Freír los mandazi en tandas hasta que estén dorados por ambos lados',
           fr: 'Faites frire les mandazi par lots jusqu\'à ce qu\'ils soient dorés des deux côtés',
           de: 'Mandazi portionsweise auf beiden Seiten goldbraun braten',
@@ -1166,7 +1286,7 @@ export const rwanda: Country = {
         },
         {
           en: 'Serve warm, optionally dusted with powdered sugar',
-          sv: 'Servera varm, eventuellt pudrad med strösocker',
+          sv: 'Servera varma, gärna pudrade med florsocker',
           es: 'Sirva caliente, opcionalmente espolvoreado con azúcar en polvo',
           fr: 'Servir chaud, éventuellement saupoudré de sucre en poudre',
           de: 'Warm servieren, optional mit Puderzucker bestäubt',
@@ -1271,7 +1391,7 @@ export const rwanda: Country = {
           },
           {
             en: 'Lion Kingdom',
-            sv: 'Lion Kingdom',
+            sv: 'Lejonriket',
             es: 'Reino del León',
             fr: 'Royaume du Lion',
             de: 'Löwenkönigreich',

@@ -275,7 +275,17 @@ export const thailand: Country = {
     history: [
       {
         year: '1238',
-        title: 'Sukhothai Kingdom',
+        title: {
+          en: 'Sukhothai Kingdom',
+          sv: 'Sukhothairiket',
+          es: 'Reino de Sukhothai',
+          fr: 'Royaume de Sukhothaï',
+          de: 'Königreich Sukhothai',
+          it: 'Regno di Sukhothai',
+          pl: 'Królestwo Sukhothai',
+          nl: 'Koninkrijk Sukhothai',
+          pt: 'Reino de Sukhothai',
+        },
         description: {
           en: 'Often considered the first major Thai kingdom, shaping early Thai language, art, and governance.',
           sv: 'Anses ofta som det första stora thailändska kungariket, som formar tidiga thailändska språk, konst och styrelseformer.',
@@ -290,7 +300,17 @@ export const thailand: Country = {
       },
       {
         year: '1351–1767',
-        title: 'Ayutthaya Era',
+        title: {
+          en: 'Ayutthaya Era',
+          sv: 'Ayutthayatiden',
+          es: 'Época de Ayutthaya',
+          fr: 'Époque d\'Ayutthaya',
+          de: 'Ayutthaya-Zeit',
+          it: 'Epoca di Ayutthaya',
+          pl: 'Okres Ayutthaya',
+          nl: 'Ayutthaya-periode',
+          pt: 'Período de Ayutthaya',
+        },
         description: {
           en: 'Ayutthaya grew into a powerful trading and diplomatic hub until it fell in 1767.',
           sv: 'Ayutthaya växte till ett mäktigt handels- och diplomatiskt nav tills det föll 1767.',
@@ -305,7 +325,17 @@ export const thailand: Country = {
       },
       {
         year: '1767–1782',
-        title: 'Thonburi Period',
+        title: {
+          en: 'Thonburi Period',
+          sv: 'Thonburiperioden',
+          es: 'Período de Thonburi',
+          fr: 'Période de Thonburi',
+          de: 'Thonburi-Zeit',
+          it: 'Periodo di Thonburi',
+          pl: 'Okres Thonburi',
+          nl: 'Thonburi-periode',
+          pt: 'Período de Thonburi',
+        },
         description: {
           en: 'A transitional era after Ayutthaya\'s fall, consolidating territories and rebuilding.',
           sv: 'En övergångsperiod efter Ayutthayas fall, konsolidering av territorier och återuppbyggnad.',
@@ -319,8 +349,28 @@ export const thailand: Country = {
         },
       },
       {
-        year: '1782–Present',
-        title: 'Rattanakosin Era (Bangkok)',
+        year: {
+          en: '1782–Present',
+          sv: '1782–idag',
+          es: '1782–actualidad',
+          fr: '1782–aujourd\'hui',
+          de: '1782–heute',
+          it: '1782–oggi',
+          pl: '1782–obecnie',
+          nl: '1782–heden',
+          pt: '1782–presente',
+        },
+        title: {
+          en: 'Rattanakosin Era (Bangkok)',
+          sv: 'Rattanakosinperioden (Bangkok)',
+          es: 'Período Rattanakosin (Bangkok)',
+          fr: 'Période de Rattanakosin (Bangkok)',
+          de: 'Rattanakosin-Zeit (Bangkok)',
+          it: 'Periodo di Rattanakosin (Bangkok)',
+          pl: 'Okres Rattanakosin (Bangkok)',
+          nl: 'Rattanakosin-periode (Bangkok)',
+          pt: 'Período Rattanakosin (Bangkok)',
+        },
         description: {
           en: 'Bangkok became the capital; the era includes major modernization and cultural continuity.',
           sv: 'Bangkok blev huvudstad; eran omfattar stor modernisering och kulturell kontinuitet.',
@@ -335,7 +385,17 @@ export const thailand: Country = {
       },
       {
         year: '1932',
-        title: 'Constitutional Monarchy',
+        title: {
+          en: 'Constitutional Monarchy',
+          sv: 'Konstitutionell monarki',
+          es: 'Monarquía constitucional',
+          fr: 'Monarchie constitutionnelle',
+          de: 'Konstitutionelle Monarchie',
+          it: 'Monarchia costituzionale',
+          pl: 'Monarchia konstytucyjna',
+          nl: 'Constitutionele monarchie',
+          pt: 'Monarquia constitucional',
+        },
         description: {
           en: 'A pivotal shift from absolute monarchy to a constitutional system.',
           sv: 'En avgörande förändring från absolut monarki till ett konstitutionellt system.',
@@ -362,7 +422,17 @@ export const thailand: Country = {
           nl: 'Krating Daeng (inspiratie voor Red Bull)',
           pt: 'Krating Daeng (inspiração do Red Bull)',
         },
-        year: '1970s',
+        year: {
+          en: '1970s',
+          sv: '1970-talet',
+          es: 'Década de 1970',
+          fr: 'Années 1970',
+          de: '1970er',
+          it: 'Anni \'70',
+          pl: 'Lata 70.',
+          nl: 'Jaren 70',
+          pt: 'Década de 1970',
+        },
         description: {
           en: 'A Thai energy drink that later inspired the globally known Red Bull brand.',
           sv: 'En thailändsk energidryck som senare inspirerade det globalt kända varumärket Red Bull.',
@@ -387,7 +457,17 @@ export const thailand: Country = {
           nl: 'Nuad Thai (traditionele Thaise massage)',
           pt: 'Nuad Thai (massagem tailandesa tradicional)',
         },
-        year: 'Centuries-old',
+        year: {
+          en: 'Centuries-old',
+          sv: 'Sedan århundraden',
+          es: 'Desde hace siglos',
+          fr: 'Séculaire',
+          de: 'Jahrhundertealt',
+          it: 'Secolare',
+          pl: 'Od wieków',
+          nl: 'Eeuwenoud',
+          pt: 'Há séculos',
+        },
         description: {
           en: 'A traditional therapeutic practice combining acupressure, assisted stretching, and energy-line work.',
           sv: 'En traditionell terapeutisk praktik som kombinerar akupressur, assisterad stretching och energilinjearbete.',
@@ -412,7 +492,17 @@ export const thailand: Country = {
           nl: 'Thaise streetfoodcultuur',
           pt: 'Cultura da comida de rua tailandesa',
         },
-        year: 'Modern era',
+        year: {
+          en: 'Modern era',
+          sv: 'Modern tid',
+          es: 'Época moderna',
+          fr: 'Époque moderne',
+          de: 'Moderne',
+          it: 'Età moderna',
+          pl: 'Współczesność',
+          nl: 'Moderne tijd',
+          pt: 'Era moderna',
+        },
         description: {
           en: 'A highly developed urban food culture that shaped how cities eat—fast, fresh, and flavor-packed.',
           sv: 'En högt utvecklad urban matkultur som format hur städer äter – snabbt, fräscht och smakrikt.',
@@ -550,7 +640,17 @@ export const thailand: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa rules vary by nationality; check before travel.',
           sv: 'Visumreglerna varierar beroende på nationalitet; kolla innan resan.',
@@ -564,7 +664,17 @@ export const thailand: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'Generally November–February is cooler and drier; islands vary by coast and monsoon patterns.',
           sv: 'I allmänhet är november–februari svalare och torrare; öar varierar beroende på kust och monsunmönster.',
@@ -578,7 +688,17 @@ export const thailand: Country = {
         },
       },
       {
-        item: 'Transport',
+        item: {
+          en: 'Transport',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights, trains, and buses are common; in cities, use trusted taxi/ride apps where available.',
           sv: 'Inrikesflyg, tåg och bussar är vanliga; i städer, använd betrodda taxi-/åkningsappar där sådana finns.',
@@ -592,7 +712,17 @@ export const thailand: Country = {
         },
       },
       {
-        item: 'Money',
+        item: {
+          en: 'Money',
+          sv: 'Pengar',
+          es: 'Dinero',
+          fr: 'Argent',
+          de: 'Geld',
+          it: 'Denaro',
+          pl: 'Pieniądze',
+          nl: 'Geld',
+          pt: 'Dinheiro',
+        },
         description: {
           en: 'Cards are common in cities, but cash is handy for markets and street food.',
           sv: 'Kort är vanliga i städer, men kontanter är praktiskt för marknader och gatumat.',
@@ -606,7 +736,17 @@ export const thailand: Country = {
         },
       },
       {
-        item: 'Etiquette',
+        item: {
+          en: 'Etiquette',
+          sv: 'Vett och etikett',
+          es: 'Normas de cortesía',
+          fr: 'Savoir-vivre',
+          de: 'Umgangsformen',
+          it: 'Galateo',
+          pl: 'Savoir-vivre',
+          nl: 'Etiquette',
+          pt: 'Etiqueta',
+        },
         description: {
           en: 'Dress respectfully in temples; remove shoes where required; be mindful around sacred spaces.',
           sv: 'Klä dig respektfullt i tinningarna; ta bort skor vid behov; var uppmärksam på heliga utrymmen.',
@@ -620,7 +760,17 @@ export const thailand: Country = {
         },
       },
       {
-        item: 'Food',
+        item: {
+          en: 'Food',
+          sv: 'Mat',
+          es: 'Comida',
+          fr: 'Cuisine',
+          de: 'Essen',
+          it: 'Cibo',
+          pl: 'Jedzenie',
+          nl: 'Eten',
+          pt: 'Comida',
+        },
         description: {
           en: 'Street food is a highlight—start with busy stalls and freshly cooked dishes.',
           sv: 'Gatumat är en höjdpunkt – börja med livliga stånd och nylagade rätter.',
@@ -733,7 +883,7 @@ export const thailand: Country = {
           amount: 2,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -761,7 +911,7 @@ export const thailand: Country = {
         {
           name: {
             en: 'Garlic chives',
-            sv: 'Vitlökslök',
+            sv: 'Kinesisk gräslök',
             es: 'cebollino al ajillo',
             fr: 'Ciboulette à l\'ail',
             de: 'Knoblauch-Schnittlauch',
@@ -867,7 +1017,7 @@ export const thailand: Country = {
       steps: [
         {
           en: 'Soak rice noodles in warm water for 30 minutes',
-          sv: 'Blötlägg risnudlar i varmt vatten i 30 minuter',
+          sv: 'Blötlägg risnudlarna i ljummet vatten i 30 minuter',
           es: 'Remojar los fideos de arroz en agua tibia durante 30 minutos',
           fr: 'Faire tremper les nouilles de riz dans de l\'eau tiède pendant 30 minutes',
           de: 'Reisnudeln 30 Minuten in warmem Wasser einweichen',
@@ -878,7 +1028,7 @@ export const thailand: Country = {
         },
         {
           en: 'Mix tamarind paste, fish sauce, and palm sugar for sauce',
-          sv: 'Blanda tamarindpasta, fisksås och palmsocker för sås',
+          sv: 'Blanda tamarindpasta, fisksås och palmsocker till en sås',
           es: 'Mezcle pasta de tamarindo, salsa de pescado y azúcar de palma para la salsa',
           fr: 'Mélangez la pâte de tamarin, la sauce de poisson et le sucre de palme pour la sauce',
           de: 'Für die Soße Tamarindenpaste, Fischsoße und Palmzucker vermischen',
@@ -889,7 +1039,7 @@ export const thailand: Country = {
         },
         {
           en: 'Heat wok with oil over high heat',
-          sv: 'Värm wok med olja på hög värme',
+          sv: 'Hetta upp olja i en wok på hög värme',
           es: 'Calentar wok con aceite a fuego alto',
           fr: 'Chauffer le wok avec de l\'huile à feu vif',
           de: 'Wok mit Öl bei starker Hitze erhitzen',
@@ -900,7 +1050,7 @@ export const thailand: Country = {
         },
         {
           en: 'Fry tofu until golden, remove',
-          sv: 'Stek tofun tills den är gyllene, ta bort',
+          sv: 'Stek tofun tills den är gyllenbrun och lägg den åt sidan',
           es: 'Freír el tofu hasta que esté dorado, retirar',
           fr: 'Faire frire le tofu jusqu\'à ce qu\'il soit doré, retirer',
           de: 'Tofu goldbraun braten, herausnehmen',
@@ -911,7 +1061,7 @@ export const thailand: Country = {
         },
         {
           en: 'Cook shrimp until pink, remove',
-          sv: 'Koka räkor tills de är rosa, ta bort',
+          sv: 'Stek räkorna tills de blir rosa och lägg dem åt sidan',
           es: 'Cocine los camarones hasta que estén rosados, retírelos',
           fr: 'Cuire les crevettes jusqu\'à ce qu\'elles soient roses, retirer',
           de: 'Garnelen rosa kochen, herausnehmen',
@@ -922,7 +1072,7 @@ export const thailand: Country = {
         },
         {
           en: 'Scramble eggs in wok, push to side',
-          sv: 'Äggröra i wok, tryck åt sidan',
+          sv: 'Gör äggröra i woken och skjut den åt sidan',
           es: 'Revuelva los huevos en el wok y empújelos hacia un lado',
           fr: 'Brouiller les œufs dans le wok, pousser sur le côté',
           de: 'Rühreier im Wok verrühren, zur Seite schieben',
@@ -933,7 +1083,7 @@ export const thailand: Country = {
         },
         {
           en: 'Add drained noodles and sauce, toss quickly',
-          sv: 'Tillsätt avrunna nudlar och sås, blanda snabbt',
+          sv: 'Tillsätt de avrunna nudlarna och såsen och vänd runt snabbt',
           es: 'Agregue los fideos escurridos y la salsa, revuelva rápidamente',
           fr: 'Ajouter les nouilles égouttées et la sauce, mélanger rapidement',
           de: 'Abgetropfte Nudeln und Soße dazugeben und schnell umrühren',
@@ -944,7 +1094,7 @@ export const thailand: Country = {
         },
         {
           en: 'Add shrimp, tofu, and garlic chives',
-          sv: 'Lägg till räkor, tofu och vitlök',
+          sv: 'Tillsätt räkorna, tofun och den kinesiska gräslöken',
           es: 'Agregue camarones, tofu y cebollino al ajillo',
           fr: 'Ajouter les crevettes, le tofu et la ciboulette',
           de: 'Garnelen, Tofu und Knoblauch-Schnittlauch hinzufügen',
@@ -955,7 +1105,7 @@ export const thailand: Country = {
         },
         {
           en: 'Toss for 2–3 minutes until noodles are tender',
-          sv: 'Rör om i 2–3 minuter tills nudlarna är mjuka',
+          sv: 'Vänd runt i 2–3 minuter tills nudlarna är mjuka',
           es: 'Revuelva durante 2 a 3 minutos hasta que los fideos estén tiernos',
           fr: 'Remuer pendant 2 à 3 minutes jusqu\'à ce que les nouilles soient tendres',
           de: '2–3 Minuten schwenken, bis die Nudeln weich sind',
@@ -966,7 +1116,7 @@ export const thailand: Country = {
         },
         {
           en: 'Serve topped with bean sprouts, peanuts, lime wedge, and chilies',
-          sv: 'Servera toppad med böngroddar, jordnötter, limeklyfta och chili',
+          sv: 'Toppa med böngroddar, jordnötter och chili och servera med en limeklyfta',
           es: 'Sirva cubierto con brotes de soja, maní, rodaja de limón y chiles',
           fr: 'Servir garni de germes de soja, d\'arachides, de quartiers de lime et de piments',
           de: 'Mit Sojasprossen, Erdnüssen, Limettenschnitz und Chilis garniert servieren',
@@ -993,7 +1143,7 @@ export const thailand: Country = {
       },
       description: {
         en: 'Sweet coconut sticky rice served with fresh ripe mango',
-        sv: 'Sweet coconut sticky rice serveras med färsk mogen mango',
+        sv: 'Sött klibbigt ris med kokosmjölk, serverat med färsk, mogen mango',
         es: 'Arroz pegajoso de coco dulce servido con mango maduro fresco',
         fr: 'Riz gluant sucré à la noix de coco servi avec de la mangue fraîche et mûre',
         de: 'Süßer Kokosnuss-Klebreis, serviert mit frischer reifer Mango',
@@ -1080,7 +1230,7 @@ export const thailand: Country = {
         {
           name: {
             en: 'Ripe mangoes',
-            sv: 'Mogen mango',
+            sv: 'Mogna mangor',
             es: 'Mangos maduros',
             fr: 'Mangues mûres',
             de: 'Reife Mangos',
@@ -1092,7 +1242,7 @@ export const thailand: Country = {
           amount: 3,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1131,7 +1281,7 @@ export const thailand: Country = {
       steps: [
         {
           en: 'Soak sticky rice in water for at least 4 hours',
-          sv: 'Blötlägg klibbigt ris i vatten i minst 4 timmar',
+          sv: 'Blötlägg det klibbiga riset i vatten i minst 4 timmar',
           es: 'Remojar el arroz glutinoso en agua durante al menos 4 horas',
           fr: 'Faire tremper le riz gluant dans l\'eau pendant au moins 4 heures',
           de: 'Klebreis mindestens 4 Stunden in Wasser einweichen',
@@ -1142,7 +1292,7 @@ export const thailand: Country = {
         },
         {
           en: 'Steam rice for 25–30 minutes',
-          sv: 'Ånga ris i 25–30 minuter',
+          sv: 'Ånga riset i 25–30 minuter',
           es: 'Cocine el arroz al vapor durante 25 a 30 minutos',
           fr: 'Cuire le riz à la vapeur pendant 25 à 30 minutes',
           de: 'Reis 25–30 Minuten dämpfen',
@@ -1153,7 +1303,7 @@ export const thailand: Country = {
         },
         {
           en: 'Heat coconut milk with sugar and salt',
-          sv: 'Värm kokosmjölk med socker och salt',
+          sv: 'Värm kokosmjölken med socker och salt',
           es: 'Calentar leche de coco con azúcar y sal',
           fr: 'Faire chauffer le lait de coco avec le sucre et le sel',
           de: 'Kokosmilch mit Zucker und Salz erhitzen',
@@ -1164,7 +1314,7 @@ export const thailand: Country = {
         },
         {
           en: 'Mix most of coconut milk into hot rice',
-          sv: 'Blanda det mesta av kokosmjölken till hett ris',
+          sv: 'Blanda ner det mesta av kokosmjölken i det varma riset',
           es: 'Mezcle la mayor parte de la leche de coco con arroz caliente',
           fr: 'Mélangez la majeure partie du lait de coco avec du riz chaud',
           de: 'Mischen Sie den Großteil der Kokosmilch mit heißem Reis',
@@ -1175,7 +1325,7 @@ export const thailand: Country = {
         },
         {
           en: 'Let absorb for 20 minutes',
-          sv: 'Låt absorbera i 20 minuter',
+          sv: 'Låt riset suga upp vätskan i 20 minuter',
           es: 'Dejar absorber durante 20 minutos',
           fr: 'Laisser absorber 20 minutes',
           de: '20 Minuten einwirken lassen',
@@ -1186,7 +1336,7 @@ export const thailand: Country = {
         },
         {
           en: 'Slice mangoes',
-          sv: 'Skiva mango',
+          sv: 'Skiva mangorna',
           es: 'Cortar mangos',
           fr: 'Trancher des mangues',
           de: 'Mangos in Scheiben schneiden',
@@ -1197,7 +1347,7 @@ export const thailand: Country = {
         },
         {
           en: 'Serve rice with mango slices',
-          sv: 'Servera ris med mangoskivor',
+          sv: 'Servera riset med mangoskivorna',
           es: 'Sirve arroz con rodajas de mango',
           fr: 'Servir le riz avec des tranches de mangue',
           de: 'Reis mit Mangoscheiben servieren',
@@ -1208,7 +1358,7 @@ export const thailand: Country = {
         },
         {
           en: 'Drizzle remaining coconut milk on top',
-          sv: 'Ringla resterande kokosmjölk på toppen',
+          sv: 'Ringla resten av kokosmjölken över',
           es: 'Rocíe el resto de la leche de coco encima',
           fr: 'Verser le reste du lait de coco dessus',
           de: 'Restliche Kokosmilch darüber träufeln',
@@ -1257,7 +1407,7 @@ export const thailand: Country = {
     },
     music: [
       { en: 'Mor Lam (Isan folk)', sv: 'Mor Lam (Isan folkmusik)', de: 'Mor Lam (Isan-Volksmusik)', fr: 'Mor Lam (folk d\'Isan)', es: 'Mor Lam (folk de Isan)', it: 'Mor Lam (folk di Isan)', pl: 'Mor Lam (muzyka ludowa Isan)', nl: 'Mor Lam (Isan folk)', pt: 'Mor Lam (folk de Isan)' },
-      { en: 'Luk Thung (Thai country)', sv: 'Luk Thung (Thai country)', de: 'Luk Thung (Thai Country)', fr: 'Luk Thung (country thaïlandais)', es: 'Luk Thung (country tailandés)', it: 'Luk Thung (country tailandese)', pl: 'Luk Thung (tajska muzyka country)', nl: 'Luk Thung (Thaise country)', pt: 'Luk Thung (country tailandês)' },
+      { en: 'Luk Thung (Thai country)', sv: 'Luk Thung (thailändsk countrymusik)', de: 'Luk Thung (Thai Country)', fr: 'Luk Thung (country thaïlandais)', es: 'Luk Thung (country tailandés)', it: 'Luk Thung (country tailandese)', pl: 'Luk Thung (tajska muzyka country)', nl: 'Luk Thung (Thaise country)', pt: 'Luk Thung (country tailandês)' },
       { en: 'Piphat classical ensemble', sv: 'Piphat klassiskt ensemble', de: 'Piphat klassisches Ensemble', fr: 'Ensemble classique piphat', es: 'Conjunto clásico piphat', it: 'Ensemble classico piphat', pl: 'Klasyczny zespół piphat', nl: 'Piphat klassiek ensemble', pt: 'Conjunto clássico piphat' },
       { en: 'Thai pop and contemporary hip-hop', sv: 'Thai pop och samtida hip-hop', de: 'Thailändischer Pop und zeitgenössischer Hip-Hop', fr: 'Pop thaïlandais et hip-hop contemporain', es: 'Pop tailandés y hip-hop contemporáneo', it: 'Pop tailandese e hip-hop contemporaneo', pl: 'Tajski pop i współczesny hip-hop', nl: 'Thaise pop en hedendaagse hip-hop', pt: 'Pop tailandês e hip-hop contemporâneo' },
     ],

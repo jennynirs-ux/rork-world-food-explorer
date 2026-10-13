@@ -196,7 +196,7 @@ export const myanmar: Country = {
       },
       {
         en: 'Shwedagon Pagoda is covered in gold',
-        sv: 'Shwedagon Pagoda är täckt av guld',
+        sv: 'Shwedagonpagoden är täckt av guld',
         es: 'La Pagoda Shwedagon está cubierta de oro',
         fr: 'La pagode Shwedagon est recouverte d\'or',
         de: 'Die Shwedagon-Pagode ist mit Gold bedeckt',
@@ -231,7 +231,17 @@ export const myanmar: Country = {
     history: [
       {
         year: '1057',
-        title: 'Bagan Kingdom',
+        title: {
+          en: 'Bagan Kingdom',
+          sv: 'Baganriket',
+          es: 'Reino de Bagan',
+          fr: 'Royaume de Bagan',
+          de: 'Königreich Bagan',
+          it: 'Regno di Bagan',
+          pl: 'Królestwo Bagan',
+          nl: 'Koninkrijk Bagan',
+          pt: 'Reino de Bagan',
+        },
         description: {
           en: 'King Anawrahta unified Burma and built thousands of Buddhist temples.',
           sv: 'Kung Anawrahta enade Burma och byggde tusentals buddhistiska tempel.',
@@ -246,7 +256,17 @@ export const myanmar: Country = {
       },
       {
         year: '1885',
-        title: 'British Rule',
+        title: {
+          en: 'British Rule',
+          sv: 'Brittiskt styre',
+          es: 'Dominio británico',
+          fr: 'Domination britannique',
+          de: 'Britische Herrschaft',
+          it: 'Dominio britannico',
+          pl: 'Rządy brytyjskie',
+          nl: 'Brits bewind',
+          pt: 'Domínio britânico',
+        },
         description: {
           en: 'Burma became part of British India after three Anglo-Burmese wars.',
           sv: 'Burma blev en del av Brittiska Indien efter tre anglo-burmesiska krig.',
@@ -261,7 +281,17 @@ export const myanmar: Country = {
       },
       {
         year: '1948',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Burma gained independence from British rule.',
           sv: 'Burma blev självständigt från brittiskt styre.',
@@ -276,7 +306,17 @@ export const myanmar: Country = {
       },
       {
         year: '1989',
-        title: 'Name Change',
+        title: {
+          en: 'Name Change',
+          sv: 'Namnbyte',
+          es: 'Cambio de nombre',
+          fr: 'Changement de nom',
+          de: 'Namensänderung',
+          it: 'Cambio di nome',
+          pl: 'Zmiana nazwy',
+          nl: 'Naamswijziging',
+          pt: 'Mudança de nome',
+        },
         description: {
           en: 'The military government changed the name from Burma to Myanmar.',
           sv: 'Militärregeringen bytte namn från Burma till Myanmar.',
@@ -303,7 +343,17 @@ export const myanmar: Country = {
           nl: 'Lakwerk',
           pt: 'Objetos laqueados',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Intricate lacquerware craftsmanship passed down for centuries in Bagan.',
           sv: 'Intrikat lackhantverk gick i arv i århundraden i Bagan.',
@@ -328,7 +378,17 @@ export const myanmar: Country = {
           nl: 'Theebladsalade',
           pt: 'Salada de folhas de chá',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Unique fermented tea leaf dish (laphet) found nowhere else.',
           sv: 'Unik jäst tebladsfat (laphet) som inte finns någon annanstans.',
@@ -353,7 +413,17 @@ export const myanmar: Country = {
           nl: 'Tempelarchitectuur',
           pt: 'Arquitetura de templos',
         },
-        year: '11th Century',
+        year: {
+          en: '11th Century',
+          sv: '1000-talet',
+          es: 'Siglo XI',
+          fr: 'XIe siècle',
+          de: '11. Jahrhundert',
+          it: 'XI secolo',
+          pl: 'XI wiek',
+          nl: '11e eeuw',
+          pt: 'Século XI',
+        },
         description: {
           en: 'Distinctive Buddhist temple and pagoda architectural styles.',
           sv: 'Distinkt buddhistiskt tempel och pagodarkitektoniska stilar.',
@@ -395,7 +465,7 @@ export const myanmar: Country = {
       {
         name: {
           en: 'Shwedagon Pagoda',
-          sv: 'Shwedagon Pagoda',
+          sv: 'Shwedagonpagoden',
           es: 'Pagoda Shwedagon',
           fr: 'Pagode Shwedagon',
           de: 'Shwedagon-Pagode',
@@ -419,7 +489,7 @@ export const myanmar: Country = {
       {
         name: {
           en: 'Inle Lake',
-          sv: 'Inle Lake',
+          sv: 'Inlesjön',
           es: 'Lago Inle',
           fr: 'Lac Inlé',
           de: 'Inle-See',
@@ -467,7 +537,7 @@ export const myanmar: Country = {
       {
         name: {
           en: 'Ngapali Beach',
-          sv: 'Ngapali Beach',
+          sv: 'Ngapalistranden',
           es: 'Playa Ngapali',
           fr: 'Plage de Ngapali',
           de: 'Ngapali-Strand',
@@ -491,7 +561,17 @@ export const myanmar: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-February for cool, dry weather.',
           sv: 'November-februari för svalt, torrt väder.',
@@ -505,7 +585,17 @@ export const myanmar: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'E-visa available for many nationalities.',
           sv: 'E-visum tillgängligt för många nationaliteter.',
@@ -519,7 +609,17 @@ export const myanmar: Country = {
         },
       },
       {
-        item: 'Cash',
+        item: {
+          en: 'Cash',
+          sv: 'Kontanter',
+          es: 'Efectivo',
+          fr: 'Espèces',
+          de: 'Bargeld',
+          it: 'Contanti',
+          pl: 'Gotówka',
+          nl: 'Contant geld',
+          pt: 'Dinheiro em espécie',
+        },
         description: {
           en: 'Bring US dollars; ATMs can be unreliable.',
           sv: 'Ta med amerikanska dollar; Uttagsautomater kan vara opålitliga.',
@@ -533,7 +633,17 @@ export const myanmar: Country = {
         },
       },
       {
-        item: 'Modest clothing',
+        item: {
+          en: 'Modest clothing',
+          sv: 'Täckande klädsel',
+          es: 'Ropa recatada',
+          fr: 'Tenue décente',
+          de: 'Angemessene Kleidung',
+          it: 'Abbigliamento decoroso',
+          pl: 'Skromny strój',
+          nl: 'Bedekkende kleding',
+          pt: 'Roupas discretas',
+        },
         description: {
           en: 'Cover shoulders and knees for temples and pagodas.',
           sv: 'Täck axlar och knän för tempel och pagoder.',
@@ -562,7 +672,7 @@ export const myanmar: Country = {
       },
       description: {
         en: 'Sweet snack balls made with rice flour and jaggery',
-        sv: 'Söta snackbollar gjorda med rismjöl och jaggery',
+        sv: 'Söta små bollar av rismjöl med en fyllning av palmsocker (jaggery)',
         es: 'Bolitas dulces hechas con harina de arroz y azúcar moreno',
         fr: 'Boulettes sucrées à base de farine de riz et de jaggery',
         de: 'Süße Snackbällchen aus Reismehl und Jaggery',
@@ -589,7 +699,7 @@ export const myanmar: Country = {
         {
           name: {
             en: 'Glutinous rice flour',
-            sv: 'Glutinöst rismjöl',
+            sv: 'Klibbigt rismjöl',
             es: 'Harina de arroz glutinoso',
             fr: 'Farine de riz gluant',
             de: 'Klebreismehl',
@@ -619,7 +729,7 @@ export const myanmar: Country = {
         {
           name: {
             en: 'Coconut, grated',
-            sv: 'Kokos, riven',
+            sv: 'Riven kokos',
             es: 'Coco rallado',
             fr: 'Noix de coco râpée',
             de: 'Kokosnuss, gerieben',
@@ -665,7 +775,7 @@ export const myanmar: Country = {
       steps: [
         {
           en: 'Mix rice flour with water and salt into dough',
-          sv: 'Blanda rismjöl med vatten och salt till deg',
+          sv: 'Blanda rismjölet med vatten och salt till en deg',
           es: 'Mezcle la harina de arroz con agua y sal hasta formar una masa',
           fr: 'Mélanger la farine de riz avec de l\'eau et du sel dans la pâte',
           de: 'Reismehl mit Wasser und Salz zu einem Teig verrühren',
@@ -676,7 +786,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Form small balls around chunks of palm sugar',
-          sv: 'Forma små bollar runt klumpar av palmsocker',
+          sv: 'Forma små bollar runt bitar av palmsocker',
           es: 'Formar bolitas alrededor de trozos de azúcar de palma',
           fr: 'Formez des petites boules autour de morceaux de sucre de palme',
           de: 'Kleine Kugeln um Palmzuckerstücke formen',
@@ -687,7 +797,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Boil water and cook balls until they float',
-          sv: 'Koka upp vatten och koka bollar tills de flyter',
+          sv: 'Koka upp vatten och låt bollarna koka tills de flyter upp',
           es: 'Hervir agua y cocinar bolitas hasta que floten',
           fr: 'Faire bouillir de l\'eau et cuire les boules jusqu\'à ce qu\'elles flottent',
           de: 'Wasser aufkochen und Bällchen kochen, bis sie schwimmen',
@@ -698,7 +808,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Remove and drain',
-          sv: 'Ta bort och töm',
+          sv: 'Lyft upp bollarna med en hålslev och låt dem rinna av',
           es: 'Retirar y escurrir',
           fr: 'Retirer et égoutter',
           de: 'Herausnehmen und abtropfen lassen',
@@ -747,7 +857,7 @@ export const myanmar: Country = {
       },
       description: {
         en: 'National breakfast dish of rice noodles in fish soup',
-        sv: 'Nationell frukosträtt med risnudlar i fisksoppa',
+        sv: 'Myanmars nationella frukosträtt – risnudlar i fisksoppa',
         es: 'Plato de desayuno nacional de fideos de arroz en sopa de pescado',
         fr: 'Plat national de petit-déjeuner composé de nouilles de riz dans une soupe de poisson',
         de: 'Nationales Frühstücksgericht aus Reisnudeln in Fischsuppe',
@@ -789,7 +899,7 @@ export const myanmar: Country = {
         {
           name: {
             en: 'Catfish',
-            sv: 'Havskatt',
+            sv: 'Malfisk (t.ex. pangasius)',
             es: 'Bagre',
             fr: 'Poisson-chat',
             de: 'Wels',
@@ -856,7 +966,7 @@ export const myanmar: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -946,7 +1056,7 @@ export const myanmar: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -960,7 +1070,7 @@ export const myanmar: Country = {
       steps: [
         {
           en: 'Boil catfish with lemongrass until cooked',
-          sv: 'Koka havskatt med citrongräs tills den är kokt',
+          sv: 'Koka malfisken med citrongräs tills den är genomkokt',
           es: 'Hervir el bagre con limoncillo hasta que esté cocido',
           fr: 'Faire bouillir le poisson-chat avec de la citronnelle jusqu\'à ce qu\'il soit cuit',
           de: 'Wels mit Zitronengras kochen, bis er gar ist',
@@ -971,7 +1081,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Remove fish, flake meat, and discard bones',
-          sv: 'Ta bort fisk, flinga kött och kassera ben',
+          sv: 'Ta upp fisken, plocka köttet i bitar och släng benen',
           es: 'Retire el pescado, desmenuce la carne y deseche las espinas',
           fr: 'Retirez le poisson, émiettez la viande et jetez les os',
           de: 'Fisch entfernen, Fleisch zerkleinern und Knochen wegwerfen',
@@ -982,7 +1092,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Blend onions, garlic, and ginger into paste',
-          sv: 'Blanda lök, vitlök och ingefära till pasta',
+          sv: 'Mixa lök, vitlök och ingefära till en pasta',
           es: 'Licue las cebollas, el ajo y el jengibre hasta formar una pasta',
           fr: 'Mélanger les oignons, l\'ail et le gingembre en pâte',
           de: 'Zwiebeln, Knoblauch und Ingwer zu einer Paste vermischen',
@@ -993,7 +1103,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Fry paste until fragrant',
-          sv: 'Stek pasta tills den doftar',
+          sv: 'Fräs pastan tills den doftar',
           es: 'Freír la pasta hasta que esté fragante',
           fr: 'Faire frire la pâte jusqu\'à ce qu\'elle soit parfumée',
           de: 'Braten Sie die Paste, bis sie duftet',
@@ -1004,7 +1114,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Add chickpea flour mixed with water',
-          sv: 'Tillsätt kikärtsmjöl blandat med vatten',
+          sv: 'Tillsätt kikärtsmjölet utrört i vatten',
           es: 'Añade la harina de garbanzos mezclada con agua',
           fr: 'Ajouter la farine de pois chiches mélangée à l\'eau',
           de: 'Kichererbsenmehl mit Wasser vermischt hinzufügen',
@@ -1015,7 +1125,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Add fish broth and flaked fish',
-          sv: 'Tillsätt fiskbuljong och flingad fisk',
+          sv: 'Tillsätt fiskbuljongen och den plockade fisken',
           es: 'Añade el caldo de pescado y el pescado desmenuzado',
           fr: 'Ajouter le bouillon de poisson et les émiettés de poisson',
           de: 'Fischbrühe und Fischflocken hinzufügen',
@@ -1026,7 +1136,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Simmer until thickened',
-          sv: 'Sjud tills det tjocknat',
+          sv: 'Låt sjuda tills soppan har tjocknat',
           es: 'Cocine a fuego lento hasta que espese',
           fr: 'Laisser mijoter jusqu\'à épaississement',
           de: 'Köcheln lassen, bis es eingedickt ist',
@@ -1037,7 +1147,7 @@ export const myanmar: Country = {
         },
         {
           en: 'Serve over rice noodles with eggs and garnishes',
-          sv: 'Servera över risnudlar med ägg och garnering',
+          sv: 'Häll soppan över risnudlarna och servera med ägg och garnering',
           es: 'Sirva sobre fideos de arroz con huevos y guarniciones.',
           fr: 'Servir sur des nouilles de riz avec des œufs et des garnitures',
           de: 'Über Reisnudeln mit Eiern und Beilagen servieren',
@@ -1343,7 +1453,7 @@ export const myanmar: Country = {
         options: [
           {
             en: 'Shwedagon Pagoda',
-            sv: 'Shwedagon Pagoda',
+            sv: 'Shwedagonpagoden',
             es: 'Pagoda Shwedagon',
             fr: 'Pagode Shwedagon',
             de: 'Shwedagon-Pagode',

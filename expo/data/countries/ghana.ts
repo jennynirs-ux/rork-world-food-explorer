@@ -241,8 +241,28 @@ export const ghana: Country = {
     },
     history: [
       {
-        year: '1400s-1600s',
-        title: 'Gold Trade',
+        year: {
+          en: '1400s-1600s',
+          sv: '1400–1600-talen',
+          es: 'Siglos XV–XVII',
+          fr: 'XVe–XVIIe siècles',
+          de: '15.–17. Jahrhundert',
+          it: 'XV–XVII secolo',
+          pl: 'XV–XVII wiek',
+          nl: '15e–17e eeuw',
+          pt: 'Séculos XV–XVII',
+        },
+        title: {
+          en: 'Gold Trade',
+          sv: 'Guldhandel',
+          es: 'Comercio del oro',
+          fr: 'Commerce de l\'or',
+          de: 'Goldhandel',
+          it: 'Commercio dell\'oro',
+          pl: 'Handel złotem',
+          nl: 'Goudhandel',
+          pt: 'Comércio de ouro',
+        },
         description: {
           en: 'The region became known as the "Gold Coast" due to abundant gold resources attracting European traders.',
           sv: 'Regionen blev känd som "Guldkusten" på grund av rikliga guldresurser som lockade europeiska handlare.',
@@ -257,7 +277,17 @@ export const ghana: Country = {
       },
       {
         year: '1957',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Ghana gained independence from Britain, led by Kwame Nkrumah, inspiring other African nations.',
           sv: 'Ghana fick självständighet från Storbritannien, ledd av Kwame Nkrumah, vilket inspirerade andra afrikanska nationer.',
@@ -272,7 +302,17 @@ export const ghana: Country = {
       },
       {
         year: '1992',
-        title: 'Democratic Constitution',
+        title: {
+          en: 'Democratic Constitution',
+          sv: 'Demokratisk konstitution',
+          es: 'Constitución democrática',
+          fr: 'Constitution démocratique',
+          de: 'Demokratische Verfassung',
+          it: 'Costituzione democratica',
+          pl: 'Demokratyczna konstytucja',
+          nl: 'Democratische grondwet',
+          pt: 'Constituição democrática',
+        },
         description: {
           en: 'Ghana adopted a new constitution, establishing a stable multi-party democracy.',
           sv: 'Ghana antog en ny konstitution som etablerar en stabil flerpartidemokrati.',
@@ -299,7 +339,17 @@ export const ghana: Country = {
           nl: 'Kente-stof',
           pt: 'Tecido Kente',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Internationally recognized handwoven cloth with intricate patterns, each with symbolic meaning.',
           sv: 'Internationellt erkänt handvävt tyg med invecklade mönster, alla med symbolisk betydelse.',
@@ -324,7 +374,17 @@ export const ghana: Country = {
           nl: 'Ashanti-goudgewichten',
           pt: 'Pesos de ouro Ashanti',
         },
-        year: 'Historical',
+        year: {
+          en: 'Historical',
+          sv: 'Historiskt',
+          es: 'Histórico',
+          fr: 'Historique',
+          de: 'Historisch',
+          it: 'Storico',
+          pl: 'Historycznie',
+          nl: 'Historisch',
+          pt: 'Histórico',
+        },
         description: {
           en: 'Intricate brass weights used for measuring gold, now prized as art pieces.',
           sv: 'Intrikata mässingsvikter som används för att mäta guld, nu prisade som konstverk.',
@@ -390,7 +450,7 @@ export const ghana: Country = {
       {
         name: {
           en: 'Mole National Park',
-          sv: 'Mole National Park',
+          sv: 'Mole nationalpark',
           es: 'Parque Nacional Mole',
           fr: 'Parc national de Mole',
           de: 'Mole-Nationalpark',
@@ -438,7 +498,7 @@ export const ghana: Country = {
       {
         name: {
           en: 'Lake Volta',
-          sv: 'Lake Volta',
+          sv: 'Voltasjön',
           es: 'Lago Volta',
           fr: 'Lac Volta',
           de: 'Voltasee',
@@ -462,7 +522,17 @@ export const ghana: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November-March for dry season and comfortable weather.',
           sv: 'November-mars för torrperiod och behagligt väder.',
@@ -476,7 +546,17 @@ export const ghana: Country = {
         },
       },
       {
-        item: 'Yellow fever vaccination',
+        item: {
+          en: 'Yellow fever vaccination',
+          sv: 'Vaccination mot gula febern',
+          es: 'Vacuna contra la fiebre amarilla',
+          fr: 'Vaccination contre la fièvre jaune',
+          de: 'Gelbfieberimpfung',
+          it: 'Vaccinazione contro la febbre gialla',
+          pl: 'Szczepienie przeciw żółtej gorączce',
+          nl: 'Gelekoortsvaccinatie',
+          pt: 'Vacina contra a febre amarela',
+        },
         description: {
           en: 'Required for entry into Ghana.',
           sv: 'Krävs för inresa i Ghana.',
@@ -490,7 +570,17 @@ export const ghana: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'E-visa available for most nationalities.',
           sv: 'E-visum tillgängligt för de flesta nationaliteter.',
@@ -504,7 +594,17 @@ export const ghana: Country = {
         },
       },
       {
-        item: 'Insect repellent',
+        item: {
+          en: 'Insect repellent',
+          sv: 'Myggmedel',
+          es: 'Repelente de insectos',
+          fr: 'Répulsif anti-insectes',
+          de: 'Insektenschutzmittel',
+          it: 'Repellente per insetti',
+          pl: 'Repelent na owady',
+          nl: 'Muggenmiddel',
+          pt: 'Repelente de insetos',
+        },
         description: {
           en: 'Malaria prevention important in certain areas.',
           sv: 'Malariaförebyggande är viktigt i vissa områden.',
@@ -533,7 +633,7 @@ export const ghana: Country = {
       },
       description: {
         en: 'Rice and beans cooked with sorghum leaves, served with various sides',
-        sv: 'Ris och bönor kokta med sorghumblad, serveras med olika sidor',
+        sv: 'Ris och bönor kokta med sorghumblad, serveras med olika tillbehör',
         es: 'Arroz y frijoles cocidos con hojas de sorgo, servidos con varios acompañamientos',
         fr: 'Riz et haricots cuits avec des feuilles de sorgho, servis avec différents accompagnements',
         de: 'Mit Sorghumblättern gekochter Reis und Bohnen, serviert mit verschiedenen Beilagen',
@@ -575,7 +675,7 @@ export const ghana: Country = {
         {
           name: {
             en: 'Black-eyed peas',
-            sv: 'Svartögda ärtor',
+            sv: 'Svartögda bönor',
             es: 'Guisantes de ojo negro',
             fr: 'Pois aux yeux noirs',
             de: 'Schwarzaugenerbsen',
@@ -605,7 +705,7 @@ export const ghana: Country = {
         {
           name: {
             en: 'Baking soda',
-            sv: 'Bakpulver',
+            sv: 'Bikarbonat',
             es: 'Bicarbonato de sodio',
             fr: 'Bicarbonate de soude',
             de: 'Backpulver',
@@ -651,7 +751,7 @@ export const ghana: Country = {
       steps: [
         {
           en: 'Soak black-eyed peas overnight',
-          sv: 'Blötlägg svartögda ärtor över natten',
+          sv: 'Blötlägg de svartögda bönorna över natten',
           es: 'Remojar los guisantes de carita durante la noche',
           fr: 'Faire tremper les pois aux yeux noirs pendant la nuit',
           de: 'Schwarzaugenerbsen über Nacht einweichen',
@@ -662,7 +762,7 @@ export const ghana: Country = {
         },
         {
           en: 'Boil peas with sorghum leaves and baking soda for 30 minutes',
-          sv: 'Koka ärtor med sorghumblad och bakpulver i 30 minuter',
+          sv: 'Koka bönorna med sorghumblad och bikarbonat i 30 minuter',
           es: 'Hervir los guisantes con hojas de sorgo y bicarbonato de sodio durante 30 minutos',
           fr: 'Faire bouillir les petits pois avec les feuilles de sorgho et le bicarbonate de soude pendant 30 minutes',
           de: 'Erbsen mit Sorghumblättern und Backpulver 30 Minuten kochen',
@@ -673,7 +773,7 @@ export const ghana: Country = {
         },
         {
           en: 'Add rice, reduce heat, and cook until tender',
-          sv: 'Tillsätt ris, sänk värmen och koka tills det är mjukt',
+          sv: 'Tillsätt riset, sänk värmen och låt koka tills det är mjukt',
           es: 'Agregue el arroz, reduzca el fuego y cocine hasta que esté tierno',
           fr: 'Ajouter le riz, réduire le feu et cuire jusqu\'à ce qu\'il soit tendre',
           de: 'Reis hinzufügen, Hitze reduzieren und kochen, bis er weich ist',
@@ -695,7 +795,7 @@ export const ghana: Country = {
         },
         {
           en: 'Serve with fried fish, boiled eggs, gari, and shito (hot pepper sauce)',
-          sv: 'Servera med stekt fisk, kokt ägg, gari och shito (het pepparsås)',
+          sv: 'Servera med stekt fisk, kokta ägg, gari och shito (stark chilisås)',
           es: 'Sirva con pescado frito, huevos duros, gari y shito (salsa de pimiento picante)',
           fr: 'Servir avec du poisson frit, des œufs durs, du gari et du shito (sauce au piment fort)',
           de: 'Mit gebratenem Fisch, gekochten Eiern, Gari und Shito (scharfer Pfeffersoße) servieren',
@@ -706,7 +806,7 @@ export const ghana: Country = {
         },
         {
           en: 'Add stew or gravy on top',
-          sv: 'Lägg gryta eller sås på toppen',
+          sv: 'Toppa med gryta eller sås',
           es: 'Agregue estofado o salsa encima',
           fr: 'Ajoutez du ragoût ou de la sauce sur le dessus',
           de: 'Eintopf oder Soße darüber geben',
@@ -733,7 +833,7 @@ export const ghana: Country = {
       },
       description: {
         en: 'Sweet fried dough similar to donuts, popular breakfast or snack',
-        sv: 'Söt stekt deg som liknar munkar, populär frukost eller mellanmål',
+        sv: 'Söt friterad deg som påminner om munkar, populär till frukost eller som mellanmål',
         es: 'Masa dulce frita similar a los donuts, popular desayuno o merienda',
         fr: 'Pâte frite sucrée semblable aux beignets, petit-déjeuner ou collation populaire',
         de: 'Süßer frittierter Teig, ähnlich wie Donuts, beliebtes Frühstück oder Snack',
@@ -760,7 +860,7 @@ export const ghana: Country = {
         {
           name: {
             en: 'Flour',
-            sv: 'Mjöl',
+            sv: 'Vetemjöl',
             es: 'Harina',
             fr: 'Farine',
             de: 'Mehl',
@@ -865,7 +965,7 @@ export const ghana: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -881,7 +981,7 @@ export const ghana: Country = {
       steps: [
         {
           en: 'Mix flour, sugar, yeast, and nutmeg',
-          sv: 'Blanda mjöl, socker, jäst och muskotnöt',
+          sv: 'Blanda vetemjöl, socker, jäst och muskotnöt',
           es: 'Mezclar harina, azúcar, levadura y nuez moscada',
           fr: 'Mélanger la farine, le sucre, la levure et la muscade',
           de: 'Mehl, Zucker, Hefe und Muskatnuss mischen',
@@ -903,7 +1003,7 @@ export const ghana: Country = {
         },
         {
           en: 'Knead into soft dough, let rise for 1 hour',
-          sv: 'Knåda till mjuk deg, låt jäsa i 1 timme',
+          sv: 'Knåda till en mjuk deg och låt jäsa i 1 timme',
           es: 'Amasar hasta obtener una masa suave, dejar reposar durante 1 hora',
           fr: 'Pétrir jusqu\'à obtenir une pâte molle, laisser lever 1 heure',
           de: 'Zu einem weichen Teig kneten, 1 Stunde gehen lassen',
@@ -914,7 +1014,7 @@ export const ghana: Country = {
         },
         {
           en: 'Roll out dough and cut into small rounds',
-          sv: 'Kavla ut degen och skär i små rundlar',
+          sv: 'Kavla ut degen och stansa ut små rundlar',
           es: 'Estirar la masa y cortarla en rodajas pequeñas',
           fr: 'Abaisser la pâte et la couper en petits ronds',
           de: 'Den Teig ausrollen und in kleine Kreise schneiden',
@@ -947,7 +1047,7 @@ export const ghana: Country = {
         },
         {
           en: 'Serve warm with hot chocolate or tea',
-          sv: 'Servera varm med varm choklad eller te',
+          sv: 'Servera varma med varm choklad eller te',
           es: 'Servir caliente con chocolate caliente o té',
           fr: 'Servir chaud avec du chocolat chaud ou du thé',
           de: 'Warm mit heißer Schokolade oder Tee servieren',
@@ -1052,7 +1152,7 @@ export const ghana: Country = {
           },
           {
             en: 'Diamond Coast',
-            sv: 'Diamond Coast',
+            sv: 'Diamantkusten',
             es: 'Costa del Diamante',
             fr: 'Côte du Diamant',
             de: 'Diamantenküste',

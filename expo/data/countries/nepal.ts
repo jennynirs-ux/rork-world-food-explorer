@@ -263,8 +263,28 @@ export const nepal: Country = {
     },
     history: [
       {
-        year: '563 BC',
-        title: 'Birth of Buddha',
+        year: {
+          en: '563 BC',
+          sv: '563 f.Kr.',
+          es: '563 a. C.',
+          fr: '563 av. J.-C.',
+          de: '563 v. Chr.',
+          it: '563 a.C.',
+          pl: '563 p.n.e.',
+          nl: '563 v.Chr.',
+          pt: '563 a.C.',
+        },
+        title: {
+          en: 'Birth of Buddha',
+          sv: 'Buddhas födelse',
+          es: 'Nacimiento de Buda',
+          fr: 'Naissance de Bouddha',
+          de: 'Geburt Buddhas',
+          it: 'Nascita del Buddha',
+          pl: 'Narodziny Buddy',
+          nl: 'Geboorte van Boeddha',
+          pt: 'Nascimento de Buda',
+        },
         description: {
           en: 'Siddhartha Gautama (Buddha) was born in Lumbini, Nepal.',
           sv: 'Siddhartha Gautama (Buddha) föddes i Lumbini, Nepal.',
@@ -279,7 +299,17 @@ export const nepal: Country = {
       },
       {
         year: '1768',
-        title: 'Unification',
+        title: {
+          en: 'Unification',
+          sv: 'Enandet',
+          es: 'Unificación',
+          fr: 'Unification',
+          de: 'Einigung',
+          it: 'Unificazione',
+          pl: 'Zjednoczenie',
+          nl: 'Eenwording',
+          pt: 'Unificação',
+        },
         description: {
           en: 'Prithvi Narayan Shah unified various kingdoms to create modern Nepal.',
           sv: 'Prithvi Narayan Shah förenade olika kungadömen för att skapa det moderna Nepal.',
@@ -294,7 +324,17 @@ export const nepal: Country = {
       },
       {
         year: '1814-1816',
-        title: 'Anglo-Nepalese War',
+        title: {
+          en: 'Anglo-Nepalese War',
+          sv: 'Anglo-nepalesiska kriget',
+          es: 'Guerra anglo-nepalí',
+          fr: 'Guerre anglo-népalaise',
+          de: 'Britisch-Nepalesischer Krieg',
+          it: 'Guerra anglo-nepalese',
+          pl: 'Wojna brytyjsko-nepalska',
+          nl: 'Brits-Nepalese Oorlog',
+          pt: 'Guerra Anglo-Nepalesa',
+        },
         description: {
           en: 'Nepal fought against British expansion, maintaining independence.',
           sv: 'Nepal kämpade mot brittisk expansion och bibehöll självständigheten.',
@@ -309,7 +349,17 @@ export const nepal: Country = {
       },
       {
         year: '1951',
-        title: 'End of Rana Rule',
+        title: {
+          en: 'End of Rana Rule',
+          sv: 'Ranaväldets fall',
+          es: 'Fin del régimen Rana',
+          fr: 'Fin du régime Rana',
+          de: 'Ende der Rana-Herrschaft',
+          it: 'Fine del dominio Rana',
+          pl: 'Koniec rządów dynastii Rana',
+          nl: 'Einde van het Rana-bewind',
+          pt: 'Fim do regime Rana',
+        },
         description: {
           en: 'The Rana oligarchy ended and Nepal began modernization.',
           sv: 'Rana-oligarkin upphörde och Nepal började moderniseras.',
@@ -324,7 +374,17 @@ export const nepal: Country = {
       },
       {
         year: '2008',
-        title: 'Republic Established',
+        title: {
+          en: 'Republic Established',
+          sv: 'Republiken bildas',
+          es: 'Instauración de la república',
+          fr: 'Instauration de la république',
+          de: 'Gründung der Republik',
+          it: 'Nascita della repubblica',
+          pl: 'Powstanie republiki',
+          nl: 'Ontstaan van de republiek',
+          pt: 'Instauração da república',
+        },
         description: {
           en: 'Nepal abolished its 240-year-old monarchy and became a federal republic.',
           sv: 'Nepal avskaffade sin 240 år gamla monarki och blev en federal republik.',
@@ -340,7 +400,17 @@ export const nepal: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'October-November and March-May for trekking and clear mountain views',
           sv: 'Oktober-november och mars-maj för vandring och fri utsikt över bergen',
@@ -354,7 +424,17 @@ export const nepal: Country = {
         },
       },
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Visa on arrival available for most nationalities at entry points.',
           sv: 'Visum vid ankomst tillgängligt för de flesta nationaliteter vid infartsställen.',
@@ -368,7 +448,17 @@ export const nepal: Country = {
         },
       },
       {
-        item: 'Transportation',
+        item: {
+          en: 'Transportation',
+          sv: 'Transport',
+          es: 'Transporte',
+          fr: 'Transports',
+          de: 'Verkehrsmittel',
+          it: 'Trasporti',
+          pl: 'Transport',
+          nl: 'Vervoer',
+          pt: 'Transporte',
+        },
         description: {
           en: 'Domestic flights for mountains, buses for cities, trekking on foot.',
           sv: 'Inrikesflyg till berg, bussar till städer, vandring till fots.',
@@ -382,7 +472,17 @@ export const nepal: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'Nepali. English spoken in tourist areas.',
           sv: 'nepalesiska. Engelska talas i turistområden.',
@@ -396,7 +496,17 @@ export const nepal: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe. Prepare properly for high altitude treks.',
           sv: 'Generellt säker. Förbered dig ordentligt för vandringar på hög höjd.',
@@ -423,7 +533,17 @@ export const nepal: Country = {
           nl: 'Bergbeklimexpertise',
           pt: 'Especialização em montanhismo',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Sherpa people became world-renowned for high-altitude mountaineering skills.',
           sv: 'Sherpa-folk blev världsberömda för bergsklättring på hög höjd.',
@@ -448,7 +568,17 @@ export const nepal: Country = {
           nl: 'Boeddhistische filosofie',
           pt: 'Filosofia budista',
         },
-        year: '563 BC',
+        year: {
+          en: '563 BC',
+          sv: '563 f.Kr.',
+          es: '563 a. C.',
+          fr: '563 av. J.-C.',
+          de: '563 v. Chr.',
+          it: '563 a.C.',
+          pl: '563 p.n.e.',
+          nl: '563 v.Chr.',
+          pt: '563 a.C.',
+        },
         description: {
           en: 'Birthplace of Gautama Buddha and Buddhist teachings.',
           sv: 'Födelseplatsen för Gautama Buddha och buddhistiska läror.',
@@ -473,7 +603,17 @@ export const nepal: Country = {
           nl: 'Kukrimes',
           pt: 'Faca Kukri',
         },
-        year: 'Traditional',
+        year: {
+          en: 'Traditional',
+          sv: 'Traditionell',
+          es: 'Tradicional',
+          fr: 'Traditionnel',
+          de: 'Traditionell',
+          it: 'Tradizionale',
+          pl: 'Tradycyjnie',
+          nl: 'Traditioneel',
+          pt: 'Tradicional',
+        },
         description: {
           en: 'Distinctive curved knife used by Gurkha soldiers, famous worldwide.',
           sv: 'Distinkt böjd kniv som används av Gurkha-soldater, känd över hela världen.',
@@ -498,7 +638,17 @@ export const nepal: Country = {
           nl: 'Traditie van de levende godin',
           pt: 'Tradição da Deusa Viva',
         },
-        year: 'Ancient',
+        year: {
+          en: 'Ancient',
+          sv: 'Forntiden',
+          es: 'Antigüedad',
+          fr: 'Antiquité',
+          de: 'Antike',
+          it: 'Antichità',
+          pl: 'Starożytność',
+          nl: 'Oudheid',
+          pt: 'Antiguidade',
+        },
         description: {
           en: 'Kumari tradition of selecting young girls as living goddesses.',
           sv: 'Kumari tradition att välja unga flickor som levande gudinnor.',
@@ -540,7 +690,7 @@ export const nepal: Country = {
       {
         name: {
           en: 'Kathmandu Durbar Square',
-          sv: 'Kathmandu Durbar Square',
+          sv: 'Durbartorget i Katmandu',
           es: 'Plaza Durbar de Katmandú',
           fr: 'Place Durbar de Katmandou',
           de: 'Kathmandu Durbar Square',
@@ -612,7 +762,7 @@ export const nepal: Country = {
       {
         name: {
           en: 'Chitwan National Park',
-          sv: 'Chitwan National Park',
+          sv: 'Chitwans nationalpark',
           es: 'Parque Nacional Chitwan',
           fr: 'Parc national de Chitwan',
           de: 'Chitwan-Nationalpark',
@@ -649,7 +799,7 @@ export const nepal: Country = {
       },
       description: {
         en: 'Sweet rice flour ring bread, traditional Nepali treat',
-        sv: 'Ringbröd med sött rismjöl, traditionell nepalesisk godbit',
+        sv: 'Sött friterat ringbröd av rismjöl – en traditionell nepalesisk godsak',
         es: 'Pan de anillo de harina de arroz dulce, delicia tradicional nepalí',
         fr: 'Pain rond à la farine de riz sucré, friandise traditionnelle népalaise',
         de: 'Süßes Ringbrot aus Reismehl, traditionelle nepalesische Leckerei',
@@ -736,7 +886,7 @@ export const nepal: Country = {
         {
           name: {
             en: 'Cardamom powder',
-            sv: 'Kardemumma pulver',
+            sv: 'Malen kardemumma',
             es: 'Cardamomo en polvo',
             fr: 'Poudre de cardamome',
             de: 'Kardamompulver',
@@ -751,7 +901,7 @@ export const nepal: Country = {
         {
           name: {
             en: 'Baking soda',
-            sv: 'Bakpulver',
+            sv: 'Bikarbonat',
             es: 'Bicarbonato de sodio',
             fr: 'Bicarbonate de soude',
             de: 'Backpulver',
@@ -766,7 +916,7 @@ export const nepal: Country = {
         {
           name: {
             en: 'Oil for frying',
-            sv: 'Olja för stekning',
+            sv: 'Olja till stekning',
             es: 'Aceite para freír',
             fr: 'Huile pour friture',
             de: 'Öl zum Braten',
@@ -804,7 +954,7 @@ export const nepal: Country = {
         },
         {
           en: 'Add baking soda, mix into thin batter',
-          sv: 'Tillsätt bakpulver, blanda i tunn smet',
+          sv: 'Tillsätt bikarbonaten och rör till en tunn smet',
           es: 'Agregue bicarbonato de sodio y mezcle hasta obtener una masa fina',
           fr: 'Ajouter le bicarbonate de soude, mélanger à une pâte fine',
           de: 'Backpulver hinzufügen und mit dem dünnen Teig vermischen',
@@ -826,7 +976,7 @@ export const nepal: Country = {
         },
         {
           en: 'Heat oil in deep pan',
-          sv: 'Värm olja i djup panna',
+          sv: 'Hetta upp olja i en djup kastrull',
           es: 'Calentar aceite en una sartén honda',
           fr: 'Faire chauffer l\'huile dans une poêle profonde',
           de: 'Öl in einer tiefen Pfanne erhitzen',
@@ -837,7 +987,7 @@ export const nepal: Country = {
         },
         {
           en: 'Pour batter in circular motion to form rings',
-          sv: 'Häll smeten i cirkulär rörelse för att bilda ringar',
+          sv: 'Häll smeten i oljan med en cirkelrörelse så att det bildas ringar',
           es: 'Vierta la masa con movimientos circulares para formar anillos',
           fr: 'Verser la pâte en mouvements circulaires pour former des anneaux',
           de: 'Den Teig in kreisenden Bewegungen einfüllen, sodass Ringe entstehen',
@@ -848,7 +998,7 @@ export const nepal: Country = {
         },
         {
           en: 'Fry until golden and crispy',
-          sv: 'Stek tills de är gyllene och krispiga',
+          sv: 'Fritera ringarna tills de är gyllene och krispiga',
           es: 'Freír hasta que estén dorados y crujientes',
           fr: 'Faire frire jusqu\'à ce qu\'ils soient dorés et croustillants',
           de: 'Goldbraun und knusprig braten',
@@ -859,7 +1009,7 @@ export const nepal: Country = {
         },
         {
           en: 'Drain and serve warm or cool',
-          sv: 'Låt rinna av och servera varmt eller svalt',
+          sv: 'Låt ringarna rinna av och servera dem varma eller avsvalnade',
           es: 'Escurrir y servir tibio o frío',
           fr: 'Égoutter et servir tiède ou frais',
           de: 'Abgießen und warm oder kühl servieren',
@@ -886,7 +1036,7 @@ export const nepal: Country = {
       },
       description: {
         en: 'Nepal\'s national dish - lentil soup served with rice, vegetables, and pickles, eaten twice daily',
-        sv: 'Nepals nationalrätt - linssoppa serverad med ris, grönsaker och pickles, äts två gånger dagligen',
+        sv: 'Nepals nationalrätt – linssoppa med ris, grönsaker och pickles, som äts två gånger om dagen',
         es: 'Plato nacional de Nepal: sopa de lentejas servida con arroz, verduras y encurtidos, que se come dos veces al día',
         fr: 'Le plat national du Népal : soupe aux lentilles servie avec du riz, des légumes et des cornichons, consommée deux fois par jour',
         de: 'Nepals Nationalgericht – Linsensuppe, serviert mit Reis, Gemüse und Gurken, zweimal täglich gegessen',
@@ -958,7 +1108,7 @@ export const nepal: Country = {
         {
           name: {
             en: 'Cumin seeds',
-            sv: 'Kumminfrön',
+            sv: 'Spiskumminfrön',
             es: 'Semillas de comino',
             fr: 'Graines de cumin',
             de: 'Kreuzkümmelsamen',
@@ -985,7 +1135,7 @@ export const nepal: Country = {
           amount: 1,
           unit: {
             en: 'large',
-            sv: 'stor',
+            sv: 'stora',
             es: 'grande',
             fr: 'grand',
             de: 'groß',
@@ -1104,7 +1254,7 @@ export const nepal: Country = {
       steps: [
         {
           en: 'Cook rice separately and keep warm',
-          sv: 'Koka ris separat och håll varmt',
+          sv: 'Koka riset för sig och håll det varmt',
           es: 'Cocine el arroz por separado y manténgalo caliente',
           fr: 'Cuire le riz séparément et garder au chaud',
           de: 'Reis separat kochen und warm halten',
@@ -1115,7 +1265,7 @@ export const nepal: Country = {
         },
         {
           en: 'Wash lentils and boil with turmeric until soft',
-          sv: 'Tvätta linser och koka med gurkmeja tills de är mjuka',
+          sv: 'Skölj linserna och koka dem med gurkmeja tills de är mjuka',
           es: 'Lavar las lentejas y hervir con cúrcuma hasta que estén blandas',
           fr: 'Lavez les lentilles et faites-les bouillir avec le curcuma jusqu\'à ce qu\'elles soient tendres',
           de: 'Linsen waschen und mit Kurkuma weich kochen',
@@ -1126,7 +1276,7 @@ export const nepal: Country = {
         },
         {
           en: 'Temper with cumin seeds, garlic, and ginger in hot oil',
-          sv: 'Temperera med spiskummin, vitlök och ingefära i het olja',
+          sv: 'Fräs spiskumminfrön, vitlök och ingefära i het olja',
           es: 'Atemperar con semillas de comino, ajo y jengibre en aceite caliente',
           fr: 'Tempérer avec les graines de cumin, l\'ail et le gingembre dans l\'huile chaude',
           de: 'Mit Kreuzkümmel, Knoblauch und Ingwer in heißem Öl temperieren',
@@ -1137,7 +1287,7 @@ export const nepal: Country = {
         },
         {
           en: 'Add chopped onions and tomatoes, cook until soft',
-          sv: 'Tillsätt hackad lök och tomater, koka tills de är mjuka',
+          sv: 'Tillsätt hackad lök och tomat och fräs tills de har mjuknat',
           es: 'Agregue las cebollas y los tomates picados, cocine hasta que estén tiernos',
           fr: 'Ajouter les oignons et les tomates hachés, cuire jusqu\'à ce qu\'ils soient tendres',
           de: 'Gehackte Zwiebeln und Tomaten dazugeben und weich kochen',
@@ -1148,7 +1298,7 @@ export const nepal: Country = {
         },
         {
           en: 'Mix with cooked lentils and simmer',
-          sv: 'Blanda med kokta linser och låt puttra',
+          sv: 'Blanda med de kokta linserna och låt puttra',
           es: 'Mezclar con las lentejas cocidas y cocinar a fuego lento',
           fr: 'Mélanger avec les lentilles cuites et laisser mijoter',
           de: 'Mit gekochten Linsen vermischen und köcheln lassen',
@@ -1159,7 +1309,7 @@ export const nepal: Country = {
         },
         {
           en: 'Prepare vegetable curry with seasonal vegetables',
-          sv: 'Förbered grönsakscurry med säsongens grönsaker',
+          sv: 'Laga en grönsakscurry på säsongens grönsaker',
           es: 'Prepara curry de verduras con verduras de temporada',
           fr: 'Préparez un curry de légumes avec des légumes de saison',
           de: 'Gemüsecurry mit Saisongemüse zubereiten',
@@ -1170,7 +1320,7 @@ export const nepal: Country = {
         },
         {
           en: 'Arrange rice in center of plate',
-          sv: 'Ordna ris i mitten av tallriken',
+          sv: 'Lägg riset mitt på tallriken',
           es: 'Coloque el arroz en el centro del plato',
           fr: 'Disposer le riz au centre de l\'assiette',
           de: 'Den Reis in der Mitte des Tellers anrichten',
@@ -1181,7 +1331,7 @@ export const nepal: Country = {
         },
         {
           en: 'Pour dal (lentils) over rice',
-          sv: 'Häll dal (linser) över ris',
+          sv: 'Häll dal (linsgrytan) över riset',
           es: 'Vierta dal (lentejas) sobre el arroz',
           fr: 'Verser le dal (lentilles) sur le riz',
           de: 'Dal (Linsen) über den Reis gießen',
@@ -1192,7 +1342,7 @@ export const nepal: Country = {
         },
         {
           en: 'Serve with vegetable curry on the side',
-          sv: 'Servera med grönsakscurry vid sidan om',
+          sv: 'Servera med grönsakscurryn vid sidan av',
           es: 'Sirva con curry de verduras a un lado',
           fr: 'Servir avec du curry de légumes en accompagnement',
           de: 'Mit Gemüsecurry als Beilage servieren',
@@ -1203,7 +1353,7 @@ export const nepal: Country = {
         },
         {
           en: 'Add mango pickle and papad for complete meal',
-          sv: 'Lägg till mangopickel och papad för komplett måltid',
+          sv: 'Komplettera måltiden med mangopickles och papad',
           es: 'Agregue pepinillo de mango y papad para una comida completa',
           fr: 'Ajoutez du cornichon à la mangue et du papad pour un repas complet',
           de: 'Fügen Sie Mangogurke und Papad hinzu, um die Mahlzeit zu vervollständigen',

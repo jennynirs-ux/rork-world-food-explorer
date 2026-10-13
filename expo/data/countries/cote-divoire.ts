@@ -263,8 +263,28 @@ export const coteDivoire: Country = {
     },
     history: [
       {
-        year: 'Pre-colonial',
-        title: 'Ancient Kingdoms',
+        year: {
+          en: 'Pre-colonial',
+          sv: 'Förkolonial tid',
+          es: 'Época precolonial',
+          fr: 'Époque précoloniale',
+          de: 'Vorkoloniale Zeit',
+          it: 'Epoca precoloniale',
+          pl: 'Okres przedkolonialny',
+          nl: 'Prekoloniale tijd',
+          pt: 'Período pré-colonial',
+        },
+        title: {
+          en: 'Ancient Kingdoms',
+          sv: 'Forntida kungariken',
+          es: 'Reinos antiguos',
+          fr: 'Anciens royaumes',
+          de: 'Alte Königreiche',
+          it: 'Antichi regni',
+          pl: 'Starożytne królestwa',
+          nl: 'Oude koninkrijken',
+          pt: 'Reinos antigos',
+        },
         description: {
           en: 'Various kingdoms including the Kong Empire thrived through trans-Saharan trade routes.',
           sv: 'Olika kungadömen inklusive Kong Empire frodades genom trans-Sahara handelsvägar.',
@@ -279,7 +299,17 @@ export const coteDivoire: Country = {
       },
       {
         year: '1843',
-        title: 'French Colonization',
+        title: {
+          en: 'French Colonization',
+          sv: 'Fransk kolonisering',
+          es: 'Colonización francesa',
+          fr: 'Colonisation française',
+          de: 'Französische Kolonisierung',
+          it: 'Colonizzazione francese',
+          pl: 'Kolonizacja francuska',
+          nl: 'Franse kolonisatie',
+          pt: 'Colonização francesa',
+        },
         description: {
           en: 'France established trading posts, eventually creating the colony of Ivory Coast.',
           sv: 'Frankrike etablerade handelsplatser och skapade så småningom kolonin Elfenbenskusten.',
@@ -294,7 +324,17 @@ export const coteDivoire: Country = {
       },
       {
         year: '1960',
-        title: 'Independence',
+        title: {
+          en: 'Independence',
+          sv: 'Självständighet',
+          es: 'Independencia',
+          fr: 'Indépendance',
+          de: 'Unabhängigkeit',
+          it: 'Indipendenza',
+          pl: 'Niepodległość',
+          nl: 'Onafhankelijkheid',
+          pt: 'Independência',
+        },
         description: {
           en: 'Côte d\'Ivoire gained independence with Félix Houphouët-Boigny as first president, bringing stability and growth.',
           sv: 'Elfenbenskusten fick självständighet med Félix Houphouët-Boigny som första president, vilket gav stabilitet och tillväxt.',
@@ -309,7 +349,17 @@ export const coteDivoire: Country = {
       },
       {
         year: '2002-2011',
-        title: 'Civil War',
+        title: {
+          en: 'Civil War',
+          sv: 'Inbördeskrig',
+          es: 'Guerra civil',
+          fr: 'Guerre civile',
+          de: 'Bürgerkrieg',
+          it: 'Guerra civile',
+          pl: 'Wojna domowa',
+          nl: 'Burgeroorlog',
+          pt: 'Guerra civil',
+        },
         description: {
           en: 'Political crisis led to division of the country and civil conflict, ending with 2011 elections.',
           sv: 'Politisk kris ledde till splittring av landet och inbördes konflikt, som slutade med valet 2011.',
@@ -336,7 +386,17 @@ export const coteDivoire: Country = {
           nl: 'Methoden voor cacaoproductie',
           pt: 'Métodos de produção de cacau',
         },
-        year: '20th century',
+        year: {
+          en: '20th century',
+          sv: '1900-talet',
+          es: 'Siglo XX',
+          fr: 'XXe siècle',
+          de: '20. Jahrhundert',
+          it: 'XX secolo',
+          pl: 'XX wiek',
+          nl: '20e eeuw',
+          pt: 'Século XX',
+        },
         description: {
           en: 'Developed advanced cocoa farming and processing techniques that made Côte d\'Ivoire the world\'s top producer, supplying 40% of global cocoa.',
           sv: 'Utvecklade avancerad kakaoodling och bearbetningsteknik som gjorde Elfenbenskusten till världens främsta producent, som levererar 40 % av den globala kakaon.',
@@ -386,7 +446,17 @@ export const coteDivoire: Country = {
           nl: 'Coupé-décalé-muziek',
           pt: 'Música coupé-décalé',
         },
-        year: '2000s',
+        year: {
+          en: '2000s',
+          sv: '2000-talet',
+          es: 'Década de 2000',
+          fr: 'Années 2000',
+          de: '2000er',
+          it: 'Anni 2000',
+          pl: 'Lata 2000.',
+          nl: 'Jaren 2000',
+          pt: 'Década de 2000',
+        },
         description: {
           en: 'Created this vibrant dance music genre that swept across Africa and influenced global African pop music.',
           sv: 'Skapat denna livfulla dansmusikgenre som svepte över Afrika och påverkade global afrikansk popmusik.',
@@ -411,7 +481,17 @@ export const coteDivoire: Country = {
           nl: 'Economisch knooppunt van West-Afrika',
           pt: 'Centro econômico da África Ocidental',
         },
-        year: '1960s-present',
+        year: {
+          en: '1960s-present',
+          sv: '1960-talet–idag',
+          es: 'Década de 1960–actualidad',
+          fr: 'Années 1960–aujourd\'hui',
+          de: '1960er–heute',
+          it: 'Anni \'60–oggi',
+          pl: 'Lata 60.–obecnie',
+          nl: 'Jaren 60–heden',
+          pt: 'Década de 1960–presente',
+        },
         description: {
           en: 'Developed Abidjan into the major economic center of francophone West Africa with modern port facilities.',
           sv: 'Utvecklade Abidjan till det stora ekonomiska centrumet i det franska Västafrika med moderna hamnanläggningar.',
@@ -525,7 +605,7 @@ export const coteDivoire: Country = {
       {
         name: {
           en: 'Man Region',
-          sv: 'Man Region',
+          sv: 'Regionen kring Man',
           es: 'Región del hombre',
           fr: 'Région Homme',
           de: 'Mannregion',
@@ -549,7 +629,17 @@ export const coteDivoire: Country = {
     ],
     travelEssentials: [
       {
-        item: 'Visa',
+        item: {
+          en: 'Visa',
+          sv: 'Visum',
+          es: 'Visa',
+          fr: 'Visa',
+          de: 'Visum',
+          it: 'Visto',
+          pl: 'Wiza',
+          nl: 'Visum',
+          pt: 'Visto',
+        },
         description: {
           en: 'Most visitors need visa in advance or e-visa. Some nationalities get visa on arrival.',
           sv: 'De flesta besökare behöver visum i förväg eller e-visum. Vissa nationaliteter får visum vid ankomst.',
@@ -563,7 +653,17 @@ export const coteDivoire: Country = {
         },
       },
       {
-        item: 'Best time to visit',
+        item: {
+          en: 'Best time to visit',
+          sv: 'Bästa tiden att resa',
+          es: 'Mejor época para viajar',
+          fr: 'Meilleure période pour partir',
+          de: 'Beste Reisezeit',
+          it: 'Periodo migliore per viaggiare',
+          pl: 'Najlepszy czas na podróż',
+          nl: 'Beste reistijd',
+          pt: 'Melhor época para visitar',
+        },
         description: {
           en: 'November to March for dry season along the coast.',
           sv: 'November till mars för torrperioden längs kusten.',
@@ -577,7 +677,17 @@ export const coteDivoire: Country = {
         },
       },
       {
-        item: 'Language',
+        item: {
+          en: 'Language',
+          sv: 'Språk',
+          es: 'Idioma',
+          fr: 'Langue',
+          de: 'Sprache',
+          it: 'Lingua',
+          pl: 'Język',
+          nl: 'Taal',
+          pt: 'Idioma',
+        },
         description: {
           en: 'French is essential. Very limited English. Learn basic French phrases.',
           sv: 'Franska är viktigt. Mycket begränsad engelska. Lär dig grundläggande franska fraser.',
@@ -615,7 +725,17 @@ export const coteDivoire: Country = {
         },
       },
       {
-        item: 'Health precautions',
+        item: {
+          en: 'Health precautions',
+          sv: 'Hälsoråd',
+          es: 'Precauciones sanitarias',
+          fr: 'Précautions sanitaires',
+          de: 'Gesundheitsvorsorge',
+          it: 'Precauzioni sanitarie',
+          pl: 'Profilaktyka zdrowotna',
+          nl: 'Gezondheidsmaatregelen',
+          pt: 'Cuidados com a saúde',
+        },
         description: {
           en: 'Yellow fever vaccination required. Malaria prophylaxis recommended.',
           sv: 'Vaccination mot gula febern krävs. Malariaprofylax rekommenderas.',
@@ -629,7 +749,17 @@ export const coteDivoire: Country = {
         },
       },
       {
-        item: 'Safety',
+        item: {
+          en: 'Safety',
+          sv: 'Säkerhet',
+          es: 'Seguridad',
+          fr: 'Sécurité',
+          de: 'Sicherheit',
+          it: 'Sicurezza',
+          pl: 'Bezpieczeństwo',
+          nl: 'Veiligheid',
+          pt: 'Segurança',
+        },
         description: {
           en: 'Generally safe in tourist areas. Exercise caution and follow local advice.',
           sv: 'Generellt säker i turistområden. Var försiktig och följ lokala råd.',
@@ -658,7 +788,7 @@ export const coteDivoire: Country = {
       },
       description: {
         en: 'Slow-cooked chicken stew with vegetables in a sealed pot',
-        sv: 'Långtidskokt kycklinggryta med grönsaker i en förseglad gryta',
+        sv: 'Långkokt kyckling med grönsaker i en tätt sluten gryta',
         es: 'Guiso de pollo a fuego lento con verduras en olla sellada',
         fr: 'Ragoût de poulet mijoté avec légumes dans une marmite fermée',
         de: 'Langsam gegarter Hühnereintopf mit Gemüse in einem verschlossenen Topf',
@@ -712,7 +842,7 @@ export const coteDivoire: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -737,7 +867,7 @@ export const coteDivoire: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -762,7 +892,7 @@ export const coteDivoire: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -815,7 +945,7 @@ export const coteDivoire: Country = {
         {
           name: {
             en: 'Scotch bonnet pepper',
-            sv: 'Scotch bonnet peppar',
+            sv: 'Scotch bonnet-chili',
             es: 'Pimienta escocesa',
             fr: 'Poivre Scotch Bonnet',
             de: 'Scotch Bonnet Pepper',
@@ -827,7 +957,7 @@ export const coteDivoire: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -852,7 +982,7 @@ export const coteDivoire: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -866,7 +996,7 @@ export const coteDivoire: Country = {
       steps: [
         {
           en: 'Layer all ingredients in a clay pot or Dutch oven',
-          sv: 'Lägg alla ingredienser i lager i en lerkruka eller holländsk ugn',
+          sv: 'Lägg alla ingredienser i lager i en lergryta eller gjutjärnsgryta',
           es: 'Coloque todos los ingredientes en capas en una cacerola de barro o en una olla',
           fr: 'Disposez tous les ingrédients dans un pot en argile ou une cocotte',
           de: 'Alle Zutaten schichtweise in einen Tontopf oder Schmortopf geben',
@@ -877,7 +1007,7 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Do not add water - ingredients will create their own sauce',
-          sv: 'Tillsätt inte vatten - ingredienser kommer att skapa sin egen sås',
+          sv: 'Tillsätt inget vatten – ingredienserna ger själva en sås',
           es: 'No agregue agua: los ingredientes crearán su propia salsa',
           fr: 'N\'ajoutez pas d\'eau - les ingrédients créeront leur propre sauce',
           de: 'Kein Wasser hinzufügen – die Zutaten ergeben ihre eigene Soße',
@@ -888,7 +1018,7 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Seal pot tightly with foil or lid',
-          sv: 'Förslut grytan tätt med folie eller lock',
+          sv: 'Täck grytan tätt med folie eller lock',
           es: 'Selle la olla herméticamente con papel de aluminio o tapa',
           fr: 'Fermer hermétiquement le pot avec du papier d\'aluminium ou un couvercle',
           de: 'Topf mit Folie oder Deckel fest verschließen',
@@ -899,7 +1029,7 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Cook over very low heat for 1.5 hours',
-          sv: 'Koka på mycket låg värme i 1,5 timmar',
+          sv: 'Låt sjuda på mycket låg värme i 1,5 timme',
           es: 'Cocine a fuego muy lento durante 1,5 horas',
           fr: 'Cuire à feu très doux pendant 1h30',
           de: 'Bei sehr schwacher Hitze 1,5 Stunden kochen lassen',
@@ -910,7 +1040,7 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Shake pot occasionally instead of stirring',
-          sv: 'Skaka grytan då och då istället för att röra',
+          sv: 'Skaka grytan då och då i stället för att röra om',
           es: 'Agite la olla de vez en cuando en lugar de revolver',
           fr: 'Secouez le pot de temps en temps au lieu de remuer',
           de: 'Topf gelegentlich schütteln statt umrühren',
@@ -921,7 +1051,7 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Check that chicken is tender and cooked through',
-          sv: 'Kontrollera att kycklingen är mör och genomstekt',
+          sv: 'Kontrollera att kycklingen är mör och genomkokt',
           es: 'Compruebe que el pollo esté tierno y bien cocido',
           fr: 'Vérifiez que le poulet est tendre et bien cuit',
           de: 'Überprüfen Sie, ob das Hähnchen zart und durchgegart ist',
@@ -943,7 +1073,7 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Serve with attiéké (cassava couscous) or rice',
-          sv: 'Servera med attiéké (cassava couscous) eller ris',
+          sv: 'Servera med attiéké (couscous av kassava) eller ris',
           es: 'Servir con attiéké (cuscús de yuca) o arroz',
           fr: 'Servir avec de l\'attiéké (couscous de manioc) ou du riz',
           de: 'Mit Attiéké (Maniok-Couscous) oder Reis servieren',
@@ -1159,7 +1289,7 @@ export const coteDivoire: Country = {
           },
           {
             en: 'Pepper Coast',
-            sv: 'Pepper Coast',
+            sv: 'Pepparkusten',
             es: 'Costa de la pimienta',
             fr: 'Côte du Poivre',
             de: 'Pfefferküste',
@@ -1170,7 +1300,7 @@ export const coteDivoire: Country = {
           },
           {
             en: 'Grain Coast',
-            sv: 'Grain Coast',
+            sv: 'Kornkusten',
             es: 'Costa del Grano',
             fr: 'Côte des céréales',
             de: 'Getreideküste',
@@ -1573,7 +1703,7 @@ export const coteDivoire: Country = {
     dessert: {
       id: 'cote-divoire-dessert',
       name: {
-        en: 'Dèguè',
+        en: 'Aloco',
         sv: 'Aloco',
         es: 'Aloco',
         fr: 'Aloco',
@@ -1584,15 +1714,15 @@ export const coteDivoire: Country = {
         pt: 'Aloco',
       },
       description: {
-        en: 'A sweet Ivorian dessert of millet and yogurt with vanilla, served chilled as a refreshing treat.',
-        sv: 'Friterade mjölbananer serverade med kryddig pepparsås, en älskad ivoriansk street food-dessert',
-        es: 'Plátanos fritos servidos con salsa de pimienta picante, un postre muy apreciado por la comida callejera de Costa de Marfil',
-        fr: 'Plantains frits servis avec une sauce au poivre épicé, un dessert de rue ivoirien très apprécié',
-        de: 'Gebratene Kochbananen serviert mit würziger Pfeffersauce, ein beliebtes ivorisches Streetfood-Dessert',
-        it: 'Fried plantains served with spicy pepper sauce, a beloved Ivorian street food dessert',
-        pl: 'Fried plantains served with spicy pepper sauce, a beloved Ivorian street food dessert',
-        nl: 'Fried plantains served with spicy pepper sauce, a beloved Ivorian street food dessert',
-        pt: 'Fried plantains served with spicy pepper sauce, a beloved Ivorian street food dessert',
+        en: 'Sweet ripe plantains fried until golden and caramelized, served with a spicy tomato sauce. A beloved Ivorian street food.',
+        sv: 'Söta, mogna kokbananer friterade tills de är gyllenbruna och karamelliserade, serverade med kryddig tomatsås. En populär gatumaträtt i Elfenbenskusten.',
+        es: 'Plátanos maduros y dulces fritos hasta quedar dorados y caramelizados, servidos con una salsa de tomate picante. Una comida callejera muy querida en Costa de Marfil.',
+        fr: 'Bananes plantains mûres et sucrées, frites jusqu\'à ce qu\'elles soient dorées et caramélisées, servies avec une sauce tomate pimentée. Un incontournable de la cuisine de rue ivoirienne.',
+        de: 'Süße, reife Kochbananen, goldbraun frittiert und karamellisiert, serviert mit scharfer Tomatensauce. Ein beliebtes Streetfood aus der Elfenbeinküste.',
+        it: 'Platani maturi e dolci fritti fino a renderli dorati e caramellati, serviti con una salsa di pomodoro piccante. Un amatissimo cibo di strada ivoriano.',
+        pl: 'Słodkie, dojrzałe plantany usmażone na złoto i lekko skarmelizowane, podawane z pikantnym sosem pomidorowym. Uwielbiane jedzenie uliczne z Wybrzeża Kości Słoniowej.',
+        nl: 'Zoete, rijpe bakbananen, goudbruin gefrituurd en licht gekarameliseerd, geserveerd met een pittige tomatensaus. Geliefd streetfood uit Ivoorkust.',
+        pt: 'Bananas-da-terra maduras e doces, fritas até ficarem douradas e caramelizadas, servidas com um molho de tomate picante. Uma comida de rua muito querida na Costa do Marfim.',
       },
       cookingTime: 20,
       difficulty: 'easy',
@@ -1612,7 +1742,7 @@ export const coteDivoire: Country = {
         {
           name: {
             en: 'Ripe plantains',
-            sv: 'Mogna groblad',
+            sv: 'Mogna kokbananer',
             es: 'Plátanos maduros',
             fr: 'Plantains mûrs',
             de: 'Reife Kochbananen',
@@ -1624,7 +1754,7 @@ export const coteDivoire: Country = {
           amount: 4,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1637,10 +1767,10 @@ export const coteDivoire: Country = {
         {
           name: {
             en: 'Vegetable oil for frying',
-            sv: 'Vegetabilisk olja för stekning',
+            sv: 'Neutral olja till stekning',
             es: 'Aceite vegetal para freír',
             fr: 'Huile végétale pour friture',
-            de: 'Pflanzenöl zum Braten',
+            de: 'Pflanzenöl zum Frittieren',
             it: 'Olio vegetale per friggere',
             pl: 'Olej roślinny do smażenia',
             nl: 'Plantaardige olie om te frituren',
@@ -1664,7 +1794,7 @@ export const coteDivoire: Country = {
           amount: 2,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1689,7 +1819,7 @@ export const coteDivoire: Country = {
           amount: 3,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1702,10 +1832,10 @@ export const coteDivoire: Country = {
         {
           name: {
             en: 'Scotch bonnet pepper',
-            sv: 'Scotch bonnet peppar',
-            es: 'Pimienta escocesa',
-            fr: 'Poivre Scotch Bonnet',
-            de: 'Scotch Bonnet Pepper',
+            sv: 'Scotch bonnet-chili',
+            es: 'Chile Scotch bonnet',
+            fr: 'Piment Scotch bonnet',
+            de: 'Scotch-Bonnet-Chili',
             it: 'Peperoncino Scotch Bonnet',
             pl: 'Papryczka Scotch Bonnet',
             nl: 'Scotch bonnet-peper',
@@ -1714,7 +1844,7 @@ export const coteDivoire: Country = {
           amount: 1,
           unit: {
             en: 'whole',
-            sv: 'hela',
+            sv: 'st',
             es: 'entero',
             fr: 'entier',
             de: 'ganz',
@@ -1743,7 +1873,7 @@ export const coteDivoire: Country = {
       steps: [
         {
           en: 'Peel and slice plantains diagonally into thick pieces.',
-          sv: 'Skala och skiva plantains diagonalt i tjocka bitar.',
+          sv: 'Skala kokbananerna och skär dem diagonalt i tjocka bitar.',
           es: 'Pela y corta los plátanos en diagonal en trozos gruesos.',
           fr: 'Épluchez et coupez les plantains en diagonale en morceaux épais.',
           de: 'Kochbananen schälen und schräg in dicke Stücke schneiden.',
@@ -1754,7 +1884,7 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Heat oil to 180°C in deep pan.',
-          sv: 'Värm olja till 180°C i djup panna.',
+          sv: 'Hetta upp oljan till 180 °C i en djup panna.',
           es: 'Calienta el aceite a 180°C en una sartén honda.',
           fr: 'Chauffer l\'huile à 180°C dans une poêle profonde.',
           de: 'Öl in einer tiefen Pfanne auf 180 °C erhitzen.',
@@ -1765,10 +1895,10 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Fry plantain slices until golden brown, about 3-4 minutes per side.',
-          sv: 'Stek plantainskivorna tills de är gyllenbruna, ca 3-4 minuter per sida.',
+          sv: 'Fritera kokbananbitarna tills de är gyllenbruna, ca 3–4 minuter per sida.',
           es: 'Freír las rodajas de plátano hasta que estén doradas, aproximadamente 3-4 minutos por lado.',
           fr: 'Faire frire les tranches de plantain jusqu\'à ce qu\'elles soient dorées, environ 3 à 4 minutes de chaque côté.',
-          de: 'Kochbananenscheiben goldbraun braten, etwa 3–4 Minuten pro Seite.',
+          de: 'Kochbananenstücke goldbraun frittieren, etwa 3–4 Minuten pro Seite.',
           it: 'Friggere le fette di platano finché non sono dorate, circa 3-4 minuti per lato.',
           pl: 'Smażyć plastry plantana na złoty kolor, około 3-4 minuty z każdej strony.',
           nl: 'Bak de plakken bakbanaan goudbruin, ongeveer 3-4 minuten per kant.',
@@ -1776,10 +1906,10 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Remove and drain on paper towels.',
-          sv: 'Ta bort och låt rinna av på hushållspapper.',
+          sv: 'Lyft upp dem och låt rinna av på hushållspapper.',
           es: 'Retirar y escurrir sobre toallas de papel.',
           fr: 'Retirer et égoutter sur du papier absorbant.',
-          de: 'Herausnehmen und auf Papiertüchern abtropfen lassen.',
+          de: 'Herausnehmen und auf Küchenpapier abtropfen lassen.',
           it: 'Scolare su carta assorbente.',
           pl: 'Wyjąć i odsączyć na ręczniku papierowym.',
           nl: 'Haal ze eruit en laat uitlekken op keukenpapier.',
@@ -1787,12 +1917,12 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Make sauce: blend tomatoes, onions, pepper, and ginger.',
-          sv: 'Gör sås: blanda tomater, lök, peppar och ingefära.',
-          es: 'Haga la salsa: licue los tomates, la cebolla, el pimiento y el jengibre.',
-          fr: 'Préparez la sauce : mélangez les tomates, les oignons, le poivre et le gingembre.',
-          de: 'Soße zubereiten: Tomaten, Zwiebeln, Paprika und Ingwer vermischen.',
+          sv: 'Gör såsen: mixa tomater, lök, chili och ingefära.',
+          es: 'Haga la salsa: licue los tomates, la cebolla, el chile y el jengibre.',
+          fr: 'Préparez la sauce : mixez les tomates, les oignons, le piment et le gingembre.',
+          de: 'Soße zubereiten: Tomaten, Zwiebeln, Chili und Ingwer pürieren.',
           it: 'Preparare la salsa: frullare pomodori, cipolle, peperoncino e zenzero.',
-          pl: 'Przygotować sos: zmiksować pomidory, cebulę, paprykę i imbir.',
+          pl: 'Przygotować sos: zmiksować pomidory, cebulę, papryczkę chili i imbir.',
           nl: 'Maak de saus: mix tomaten, ui, peper en gember.',
           pt: 'Prepare o molho: bata tomates, cebola, pimenta e gengibre.',
         },
@@ -1809,7 +1939,7 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Season with salt.',
-          sv: 'Krydda med salt.',
+          sv: 'Smaka av med salt.',
           es: 'Sazone con sal.',
           fr: 'Assaisonner de sel.',
           de: 'Mit Salz würzen.',
@@ -1820,10 +1950,10 @@ export const coteDivoire: Country = {
         },
         {
           en: 'Serve hot aloco with spicy tomato sauce on the side.',
-          sv: 'Servera varm aloco med kryddig tomatsås vid sidan av.',
+          sv: 'Servera aloco varm med den kryddiga tomatsåsen vid sidan om.',
           es: 'Sirva el aloco caliente con salsa de tomate picante a un lado.',
           fr: 'Servir l\'aloco chaud avec une sauce tomate épicée en accompagnement.',
-          de: 'Servieren Sie heißes Aloco mit würziger Tomatensauce als Beilage.',
+          de: 'Aloco heiß mit der scharfen Tomatensauce als Beilage servieren.',
           it: 'Servire l\'aloco caldo con la salsa di pomodoro piccante a parte.',
           pl: 'Podawać gorące aloco z pikantnym sosem pomidorowym osobno.',
           nl: 'Serveer warme aloco met pikante tomatensaus ernaast.',
